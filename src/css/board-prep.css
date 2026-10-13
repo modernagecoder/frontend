@@ -244,6 +244,12 @@
 }
 .bx-check b { color: var(--bx-ink); font-weight: 600; }
 
+/* numbered question list (important-questions pages) */
+.bx-qlist { margin: 0 0 18px; padding-left: 2.1em; display: grid; gap: 9px; }
+.bx-qlist li { color: var(--bx-ink-2); padding-left: 4px; }
+.bx-qlist li::marker { color: var(--bx-accent); font-family: var(--bx-mono); font-size: 0.85em; font-weight: 500; }
+.bx-qlist code { font-size: 0.88em; }
+
 /* --------------------------------------------------------------- grids */
 .bx-grid-2 { display: grid; gap: var(--bx-gap); grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .bx-grid-3 { display: grid; gap: var(--bx-gap); grid-template-columns: repeat(3, minmax(0, 1fr)); }

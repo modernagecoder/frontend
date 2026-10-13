@@ -22713,6 +22713,78 @@
   to = "/src/pages/icse-class-10-computer-applications-project-and-internal-assessment.md"
   status = 200
 
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-exam-date-and-paper-pattern"
+  to = "/src/pages/cbse-class-10-ai-exam-date-and-paper-pattern.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-exam-date-and-paper-pattern.md"
+  to = "/src/pages/cbse-class-10-ai-exam-date-and-paper-pattern.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-important-questions"
+  to = "/src/pages/cbse-class-10-ai-important-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-important-questions.md"
+  to = "/src/pages/cbse-class-10-ai-important-questions.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cbse-class-10-ai-online-classes-gulf-and-abroad"
+  to = "/src/pages/cbse-class-10-ai-online-classes-gulf-and-abroad.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-class-10-ai-online-classes-gulf-and-abroad.md"
+  to = "/src/pages/cbse-class-10-ai-online-classes-gulf-and-abroad.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-exam-date-and-paper-pattern"
+  to = "/src/pages/icse-class-10-computer-applications-exam-date-and-paper-pattern.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-exam-date-and-paper-pattern.md"
+  to = "/src/pages/icse-class-10-computer-applications-exam-date-and-paper-pattern.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-important-questions"
+  to = "/src/pages/icse-class-10-computer-applications-important-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-important-questions.md"
+  to = "/src/pages/icse-class-10-computer-applications-important-questions.md"
+  status = 200
+
+# Class 10 board-prep cluster (board-prep.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-classes-gulf-and-abroad"
+  to = "/src/pages/icse-class-10-computer-applications-classes-gulf-and-abroad.html"
+  status = 200
+
+[[redirects]]
+  from = "/icse-class-10-computer-applications-classes-gulf-and-abroad.md"
+  to = "/src/pages/icse-class-10-computer-applications-classes-gulf-and-abroad.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

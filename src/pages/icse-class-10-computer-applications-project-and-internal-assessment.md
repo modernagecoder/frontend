@@ -1,6 +1,6 @@
 ---
-title: "ICSE Class 10 Computer Applications Project and Internal Assessment"
-description: "ICSE Class 10 Computer Applications internal assessment 2027: 20+ Java lab assignments, the four CISCE marking criteria, project file ideas and the external examiner."
+title: "ICSE Computer Applications Project and Internal Assessment 2027"
+description: "ICSE Class 10 Computer Applications internal assessment 2027: 20+ Java lab assignments, the four CISCE marking criteria, file ideas and the external examiner."
 canonical: https://learn.modernagecoders.com/icse-class-10-computer-applications-project-and-internal-assessment
 source: src/pages/icse-class-10-computer-applications-project-and-internal-assessment.html
 updated: 2026-10-13
@@ -184,19 +184,19 @@ Families also look at [Java Programming for Teens](/courses/java-programming-mas
 
 ## Batch or personalised, and the fees
 
-Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live online, four or five students. Option 2, personalised one to one: days and time chosen by the family, the right choice for time zones where the batch falls in school hours or late at night. Monthly billing, no admission fee, stop at any month end. Fees are shown on the page in the visitor's own currency. The first class is a free demo; a paid priority demo (about 45 to 60 minutes, written skill report afterwards) is also available.
+Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live online, four or five students. Option 2, personalised one to one: days and time chosen by the family; outside India the ICSE course runs one to one only, two private classes a week. Monthly billing, no admission fee, stop at any month end. Fees are shown on the page in the visitor's own currency. The first class is a free demo; a paid priority demo (about 45 to 60 minutes, written skill report afterwards) is also available.
 
-## Batch times outside India
+## Class times outside India
 
-- Where you live | Tuesday 5:30 PM IST | Wednesday 8:00 PM IST | Best format
+- Where you live | Time difference | Usual class window, local time | Format
 
-          - India (IST)every Indian city | 5:30 PM | 8:00 PM | Batch fits
+          - India (IST)every Indian city | IST | Tue 5:30 PM, Wed 8:00 PM | Mini batch or 1-on-1
 
-          - United Arab EmiratesDubai, Sharjah | 4:00 PM | 6:30 PM | Batch fits
+          - United Arab EmiratesDubai, Sharjah | 1 h 30 min behind India | 3:00 PM to 9:00 PM | Personalised 1-on-1
 
-          - Indonesia and ThailandJakarta, Bangkok | 7:00 PM | 9:30 PM | Batch fits
+          - Indonesia and ThailandWest Java, Bangkok area | 1 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
-          - SingaporeSingapore | 8:00 PM | 10:30 PM | Choose 1-on-1
+          - SingaporeSingapore | 2 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
 ## Frequently asked questions
 
@@ -208,7 +208,7 @@ Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live onl
 
 **How many programs should the lab file have?** At least twenty, and a strong file usually has a few more so it can cover every syllabus unit: input and computation, loops and special numbers, menus, classes and constructors, methods and overloading, library classes, arrays and strings. Each program should have comments, a variable description and its real output.
 
-**Who is the external examiner?** Under CISCE's rules, the external examiner is nominated by the head of the school and may be a teacher from the same school who does not teach the subject to that class. Typically they look at the lab file and ask the student to explain programs, justify choices such as access specifiers, loop types or search methods, and sometimes make a small change.
+**Who is the external examiner?** Under CISCE's rules, the external examiner is nominated by the head of the school and may be a teacher from the same school who does not teach the subject to that class. The four CISCE criteria do not include a viva, but many examiners run programs from the file and ask the student to explain choices such as access specifiers, loop types or search methods, so students should be ready to.
 
 **Can you write the lab file for my child?** No, and it would not help: the external examiner's questions are designed to find out whether the student understands the work. Your child writes every program in class with guidance, documents it and rehearses explaining it, so the work and the marks are genuinely theirs.
 
@@ -216,7 +216,7 @@ Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live onl
 
 **We are late. Can the lab file still be done?** Usually, yes. With personalised one to one, a teacher can work through the missing programs in order of syllabus coverage so the file still spans every unit. The free demo is the quickest way to get an honest plan for your child's deadline.
 
-**Do ICSE students abroad have the same internal assessment?** Yes. ICSE schools outside India follow the CISCE scheme, so the internal assessment works the same way. CISCE lists ICSE schools abroad in the UAE, Singapore, Indonesia and Thailand; our Tuesday and Wednesday batch times suit the UAE, and personalised one to one covers other time zones.
+**Do ICSE students abroad have the same internal assessment?** Yes. ICSE schools outside India follow the CISCE scheme, so the internal assessment works the same way. CISCE lists ICSE schools abroad in the UAE, Singapore, Indonesia and Thailand; outside India we teach the course personalised one to one, at a time set in the local time zone of the family.
 
 **Is internal assessment help charged separately?** No. Lab file support and the examiner rehearsal are part of the monthly fee for the mini batch or personalised one to one, shown on this page in your own currency. There is no admission fee, and the first class is a free demo.
 

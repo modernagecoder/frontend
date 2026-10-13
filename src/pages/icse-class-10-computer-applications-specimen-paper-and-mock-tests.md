@@ -159,19 +159,19 @@ Families also look at [Java Programming for Teens](/courses/java-programming-mas
 
 ## Batch or personalised, and the fees
 
-Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live online, four or five students. Option 2, personalised one to one: days and time chosen by the family, the right choice for time zones where the batch falls in school hours or late at night. Monthly billing, no admission fee, stop at any month end. Fees are shown on the page in the visitor's own currency. The first class is a free demo; a paid priority demo (about 45 to 60 minutes, written skill report afterwards) is also available.
+Option 1, fixed batch (for families in India): Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live online, four or five students. Option 2, personalised one to one: days and time chosen by the family; outside India the ICSE course runs one to one only, two private classes a week. Monthly billing, no admission fee, stop at any month end. Fees are shown on the page in the visitor's own currency. The first class is a free demo; a paid priority demo (about 45 to 60 minutes, written skill report afterwards) is also available.
 
-## Batch times outside India
+## Class times outside India
 
-- Where you live | Tuesday 5:30 PM IST | Wednesday 8:00 PM IST | Best format
+- Where you live | Time difference | Usual class window, local time | Format
 
-          - India (IST)every Indian city | 5:30 PM | 8:00 PM | Batch fits
+          - India (IST)every Indian city | IST | Tue 5:30 PM, Wed 8:00 PM | Mini batch or 1-on-1
 
-          - United Arab EmiratesDubai, Sharjah | 4:00 PM | 6:30 PM | Batch fits
+          - United Arab EmiratesDubai, Sharjah | 1 h 30 min behind India | 3:00 PM to 9:00 PM | Personalised 1-on-1
 
-          - Indonesia and ThailandJakarta, Bangkok | 7:00 PM | 9:30 PM | Batch fits
+          - Indonesia and ThailandWest Java, Bangkok area | 1 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
-          - SingaporeSingapore | 8:00 PM | 10:30 PM | Choose 1-on-1
+          - SingaporeSingapore | 2 h 30 min ahead of India | 3:30 PM to 9:00 PM | Personalised 1-on-1
 
 ## Frequently asked questions
 
@@ -189,7 +189,7 @@ Option 1, fixed batch: Tuesday at 5:30 PM and Wednesday at 8:00 PM IST, live onl
 
 **Is ICSE Computer Applications the same as ICSE Computer Science?** In Class 10 the CISCE subject is called Computer Applications, and it is taught in Java with BlueJ. Many families call it ICSE computer science or ICSE Java; it is the same subject and the same paper. Computer Science is the ISC subject in Classes 11 and 12.
 
-**Can a student abroad join the same mock series?** Yes. CISCE lists ICSE schools outside India in the UAE, Singapore, Indonesia and Thailand, and they set the same Computer Applications paper as a school in Kolkata. Tuesday at 5:30 PM IST is 4:00 PM in the UAE and Wednesday at 8 PM IST is 6:30 PM. In Singapore the Wednesday slot falls at 10:30 PM, so families there usually pick personalised one to one and set their own time.
+**Can a student abroad join the same mock series?** Yes, one to one. CISCE lists ICSE schools outside India in the UAE, Singapore, Indonesia and Thailand, and they follow the same Computer Applications syllabus and paper design as a school in Kolkata. Outside India we teach the specimen paper, the full mocks and their reviews personalised one to one, at a time set in your own time zone, usually straight after school.
 
 **How much does the mock series cost?** There is no extra charge for the papers. Mocks, specimen solving and reviews are part of ordinary teaching, so you pay only the monthly fee for the mini batch or for personalised one to one, shown above in your own currency. There is no admission fee and the first session is a free demo.
 

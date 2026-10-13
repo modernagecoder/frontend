@@ -182,7 +182,7 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, ten to 
 
           - NepalKathmandu | 9:15 PM | Batch fits
 
-          - Ethiopia and East AfricaAddis Ababa, Nairobi, Dar es Salaam | 6:30 PM | Batch fits
+          - Ethiopia and East AfricaAddis Ababa and East Africa Time | 6:30 PM | Batch fits
 
           - Singapore and MalaysiaSingapore, Kuala Lumpur | 11:30 PM | Choose 1-on-1
 
@@ -202,7 +202,7 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, ten to 
 
 **What if my child misses a mock because of a school pre-board?** Pre-boards are expected in Class 10, so the mock can be written at home in the same week under the same time and is then reviewed in the next class. For a run of missed classes, a one-off catch-up slot is arranged. Classes are live and not sold as recordings.
 
-**Can a student abroad join the same mock series?** Yes. CBSE schools outside India sit the same 417 paper, so the sample paper and mocks are identical. The 9 PM IST batch is 7:30 PM in the UAE and Oman and 6:30 PM in Saudi Arabia, Qatar, Kuwait and Bahrain. Where the batch falls in school hours or late at night, personalised one to one runs at a time the family chooses.
+**Can a student abroad join the same mock series?** Yes. CBSE schools outside India follow the same 417 curriculum and paper design, so the sample paper and mocks apply unchanged. The 9 PM IST batch is 7:30 PM in the UAE and Oman and 6:30 PM in Saudi Arabia, Qatar, Kuwait and Bahrain. Where the batch falls in school hours or late at night, personalised one to one runs at a time the family chooses.
 
 **How much does the mock series cost?** It is part of the monthly fee, with no separate test-series charge: the Monday and Wednesday group batch or personalised one to one, both billed monthly with no admission fee, and the fee is shown on this page in your own currency. The first class is a free demo.
 

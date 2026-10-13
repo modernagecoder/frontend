@@ -1,6 +1,6 @@
 ---
 title: "CBSE Class 10 AI Part A: Employability Skills (10 Marks)"
-description: "CBSE Class 10 AI (417) Part A employability skills: all five units, what each 2-mark question asks, model answers and how we secure the ten marks in live classes."
+description: "CBSE Class 10 AI (417) Part A employability skills: all five units, what each 2-mark question asks, model answers and how live classes secure the ten marks."
 canonical: https://learn.modernagecoders.com/cbse-class-10-ai-employability-skills-part-a
 source: src/pages/cbse-class-10-ai-employability-skills-part-a.html
 updated: 2026-10-13
@@ -165,7 +165,7 @@ Option 1, fixed batch: Monday and Wednesday at 9:00 PM IST, live online, ten to 
 
           - NepalKathmandu | 9:15 PM | Batch fits
 
-          - Ethiopia and East AfricaAddis Ababa, Nairobi, Dar es Salaam | 6:30 PM | Batch fits
+          - Ethiopia and East AfricaAddis Ababa and East Africa Time | 6:30 PM | Batch fits
 
           - Singapore and MalaysiaSingapore, Kuala Lumpur | 11:30 PM | Choose 1-on-1
 

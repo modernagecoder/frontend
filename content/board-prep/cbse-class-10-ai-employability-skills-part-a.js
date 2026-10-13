@@ -10,7 +10,7 @@ module.exports = {
   board: 'cbse',
   themeColor: '#2F5A47',
   title: 'CBSE Class 10 AI Part A: Employability Skills (10 Marks)',
-  description: 'CBSE Class 10 AI (417) Part A employability skills: all five units, what each 2-mark question asks, model answers and how we secure the ten marks in live classes.',
+  description: 'CBSE Class 10 AI (417) Part A employability skills: all five units, what each 2-mark question asks, model answers and how live classes secure the ten marks.',
   ogTitle: 'CBSE Class 10 AI Part A: Employability Skills, Ten Marks Secured',
   ogDesc: 'Communication, self-management, ICT, entrepreneurial and green skills: the five Part A units of CBSE AI 417, what the paper asks from each, model answers and a drill plan.',
   twDesc: 'The five Part A units of CBSE AI 417, what each question asks, model answers and the drill plan.',

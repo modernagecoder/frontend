@@ -16,8 +16,8 @@ module.exports = {
   code: 'ipj',
   board: 'icse',
   themeColor: '#6A3A2A',
-  title: 'ICSE Class 10 Computer Applications Project and Internal Assessment',
-  description: 'ICSE Class 10 Computer Applications internal assessment 2027: 20+ Java lab assignments, the four CISCE marking criteria, project file ideas and the external examiner.',
+  title: 'ICSE Computer Applications Project and Internal Assessment 2027',
+  description: 'ICSE Class 10 Computer Applications internal assessment 2027: 20+ Java lab assignments, the four CISCE marking criteria, file ideas and the external examiner.',
   ogTitle: 'ICSE Class 10 Computer Applications Project and Internal Assessment Guide',
   ogDesc: 'The 100-mark internal assessment for ICSE Computer Applications: twenty or more Java lab assignments, the four criteria CISCE marks them on, project file ideas and the examiner questions to rehearse.',
   twDesc: 'The 100-mark ICSE Computer Applications internal assessment: lab file, marking criteria and examiner rehearsal.',
@@ -43,7 +43,7 @@ module.exports = {
       ['External examiner', '50', 'marks'],
       ['Execution or output', '20', '/ 50']
     ],
-    zones: '<b>Batch:</b> Tuesday 5:30 PM and Wednesday 8:00 PM IST. <b>Gulf:</b> 4:00 PM and 6:30 PM UAE. <b>Elsewhere:</b> one to one at your own time.',
+    zones: '<b>In India:</b> the mini batch, Tuesday 5:30 PM and Wednesday 8:00 PM IST. <b>Outside India:</b> personalised one to one at a time set in your own time zone.',
     stamps: ['Theory 100 &middot; Internal 100', 'BlueJ']
   },
   picksH2: 'The courses where the lab file gets built',
@@ -227,7 +227,7 @@ i     int     loop index, last char to first
 </section>`
   ],
   chooseH2: 'Build the lab file in the mini batch, or on your own timetable',
-  chooseLede: 'Internal assessment support is part of the course in both formats, not an add-on. Choose by timing and how much one-to-one attention your child needs. Billed monthly, no admission fee, cancel at any month end.',
+  chooseLede: 'Internal assessment support is part of the course in both formats, not an add-on. Families in India choose by timing and how much one-to-one attention their child needs; outside India the course runs one to one. Billed monthly, no admission fee, cancel at any month end.',
   chooseBatch: [
     'Tuesday 5:30 PM and Wednesday 8:00 PM IST, live',
     'A mini batch of four or five ICSE Class 10 students',
@@ -244,8 +244,8 @@ i     int     loop index, last char to first
   ],
   chooseAfter: 'If the school\'s submission date is only weeks away, personalised one to one is usually the right call: the teacher can work through the missing programs at the pace the deadline needs. The free demo ends with a plain answer on what is realistic. Fees appear in your own currency.',
   zonesH2: 'Internal assessment help for ICSE students abroad',
-  zonesLede: 'ICSE schools outside India follow the same CISCE scheme, so the lab file and the examiner rehearsal work the same way. The two weekly slots in local time:',
-  zonesAfter: 'If neither slot fits your day, personalised one to one runs at your time. More for families overseas is on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.',
+  zonesLede: 'ICSE schools outside India follow the same CISCE scheme, so the lab file and the examiner rehearsal work the same way. Outside India the course runs as personalised one to one, set inside the hours after school:',
+  zonesAfter: 'The class time is agreed with you after the free demo and moves when the school calendar does. More for families overseas is on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.',
   faqLabel: 'Questions about the internal assessment',
   faqH2: 'What families ask about the ICSE Computer Applications lab file and internal assessment',
   faqs: [
@@ -253,11 +253,11 @@ i     int     loop index, last char to first
     ['How are the lab assignments marked?', 'On four criteria, each graded excellent, good, fair or poor: class design out of 10, variable description out of 10, coding and documentation out of 10, and execution or output out of 20, making 50. The subject teacher and the external examiner each award marks out of 50 this way, for 100 in all.'],
     ['Is a project compulsory in ICSE Class 10 Computer Applications?', 'Not in CISCE\'s 2027 syllabus, which asks for a minimum of twenty laboratory assignments and does not prescribe a separate project. Many schools call the finished lab file the computer project, and some set one larger program of their own, so follow your school\'s instructions. Good larger programs include a library manager, a report card with a 2D array, a billing system or a text analyser.'],
     ['How many programs should the lab file have?', 'At least twenty, and a strong file usually has a few more so it can cover every syllabus unit: input and computation, loops and special numbers, menus, classes and constructors, methods and overloading, library classes, arrays and strings. Each program should have comments, a variable description and its real output.'],
-    ['Who is the external examiner?', 'Under CISCE\'s rules, the external examiner is nominated by the head of the school and may be a teacher from the same school who does not teach the subject to that class. Typically they look at the lab file and ask the student to explain programs, justify choices such as access specifiers, loop types or search methods, and sometimes make a small change.'],
+    ['Who is the external examiner?', 'Under CISCE\'s rules, the external examiner is nominated by the head of the school and may be a teacher from the same school who does not teach the subject to that class. The four CISCE criteria do not include a viva, but many examiners run programs from the file and ask the student to explain choices such as access specifiers, loop types or search methods, so students should be ready to.'],
     ['Can you write the lab file for my child?', 'No, and it would not help: the external examiner\'s questions are designed to find out whether the student understands the work. Your child writes every program in class with guidance, documents it and rehearses explaining it, so the work and the marks are genuinely theirs.'],
     ['When should the lab file be finished?', 'Before your school\'s internal assessment dates, which the school announces. We aim for the file to pass twenty programs before winter by writing one a week from the start of the session, so January can go to the written paper.'],
     ['We are late. Can the lab file still be done?', 'Usually, yes. With personalised one to one, a teacher can work through the missing programs in order of syllabus coverage so the file still spans every unit. The free demo is the quickest way to get an honest plan for your child\'s deadline.'],
-    ['Do ICSE students abroad have the same internal assessment?', 'Yes. ICSE schools outside India follow the CISCE scheme, so the internal assessment works the same way. CISCE lists ICSE schools abroad in the UAE, Singapore, Indonesia and Thailand; our Tuesday and Wednesday batch times suit the UAE, and personalised one to one covers other time zones.'],
+    ['Do ICSE students abroad have the same internal assessment?', 'Yes. ICSE schools outside India follow the CISCE scheme, so the internal assessment works the same way. CISCE lists ICSE schools abroad in the UAE, Singapore, Indonesia and Thailand; outside India we teach the course personalised one to one, at a time set in the local time zone of the family.'],
     ['Is internal assessment help charged separately?', 'No. Lab file support and the examiner rehearsal are part of the monthly fee for the mini batch or personalised one to one, shown on this page in your own currency. There is no admission fee, and the first class is a free demo.']
   ],
   startH2: 'The free demo includes a lab file check',

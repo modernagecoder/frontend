@@ -134,12 +134,12 @@ const ZONES = {
     ['UAE and Oman', 'Dubai, Abu Dhabi, Sharjah, Muscat', -90, 14 * 60 + 30],
     ['Saudi Arabia, Qatar, Kuwait, Bahrain', 'Riyadh, Jeddah, Dammam, Doha, Kuwait City, Manama', -150, 14 * 60 + 30],
     ['Nepal', 'Kathmandu', 15, 16 * 60],
-    ['Ethiopia and East Africa', 'Addis Ababa, Nairobi, Dar es Salaam', -150, 16 * 60],
+    ['Ethiopia and East Africa', 'Addis Ababa and East Africa Time', -150, 16 * 60],
     ['Singapore and Malaysia', 'Singapore, Kuala Lumpur', 150, 15 * 60]
   ],
   icse: [
     ['United Arab Emirates', 'Dubai, Sharjah', -90, 14 * 60 + 30],
-    ['Indonesia and Thailand', 'Jakarta, Bangkok', 90, 15 * 60],
+    ['Indonesia and Thailand', 'West Java, Bangkok area', 90, 15 * 60],
     ['Singapore', 'Singapore', 150, 15 * 60]
   ]
 };
@@ -163,8 +163,35 @@ function shift(h, m, off) {
 // a slot "works" if it starts after school is out and no later than 9:30 PM local
 function works(h, m, homeBy) { const t = h * 60 + m; return t >= homeBy && t <= 21 * 60 + 30; }
 
+function offsetText(off) {
+  if (off === 0) return 'same as India';
+  const a = Math.abs(off), h = Math.floor(a / 60), m = a % 60;
+  const amt = (h ? `${h} h` : '') + (h && m ? ' ' : '') + (m ? `${m} min` : '');
+  return `${amt} ${off < 0 ? 'behind' : 'ahead of'} India`;
+}
+
 function zoneTable(board) {
   const b = BOARD[board];
+  if (b.batchIndiaOnly) {
+    // Owner ruling 2026-10-13 (option c): outside India the ICSE course is sold
+    // one to one only (the mini batch has no international price), so abroad
+    // rows never show batch slots. They show the offset and the after-school
+    // window a private class is usually set in, 30 minutes after school is out
+    // until 9:00 PM local.
+    const rows = ZONES[board].map(([name, cities, off, homeBy]) => {
+      const from = homeBy + 30;
+      return `<tr><td>${esc(name)}<br><span class="bx-src">${esc(cities)}</span></td><td>${offsetText(off)}</td><td class="bx-num">${fmt(Math.floor(from / 60), from % 60)} to 9:00 PM</td><td><span class="bx-fit bx-fit--no">Personalised 1-on-1</span></td></tr>`;
+    }).join('\n          ');
+    return `<div class="bx-table-wrap bx-markets">
+      <table class="bx-table bx-zones">
+        <thead><tr><th scope="col">Where you live</th><th scope="col">Time difference</th><th scope="col">Usual class window, local time</th><th scope="col">Format</th></tr></thead>
+        <tbody>
+          <tr><td>India (IST)<br><span class="bx-src">every Indian city</span></td><td>IST</td><td class="bx-num">${b.slots.map(s => `${s[0].slice(0, 3)} ${fmt(s[1], s[2])}`).join(', ')}</td><td><span class="bx-fit">Mini batch or 1-on-1</span></td></tr>
+          ${rows}
+        </tbody>
+      </table>
+    </div>`;
+  }
   const head = b.slots.map(s => `<th scope="col">${esc(s[0])} ${fmt(s[1], s[2])} IST</th>`).join('');
   const rows = ZONES[board].map(([name, cities, off, homeBy]) => {
     // the batch fits only if EVERY weekly slot works: a family cannot attend half a batch
@@ -321,7 +348,7 @@ function render(p) {
         <p class="bx-choose-tag">Option 2 &middot; Choose your own timing</p>
         <h3>Personalised one to one</h3>
         <p class="bx-price-amt"><span data-price="coding.india.personal">₹4,999</span></p>
-        <p class="bx-price-alt">per month, days and time set with you</p>
+        <p class="bx-price-alt">per month, <span data-india-only="true">one private class a week</span><span data-intl-only="true" hidden>two private classes a week</span>, at a time set with you</p>
         <ul>${p.choosePersonal.map(li => `<li>${li}</li>`).join('')}</ul>
         <a href="#start" class="bx-btn bx-btn--ghost">Ask for a personalised plan</a>
       </div>`;
@@ -471,7 +498,8 @@ ${p.sections.join('\n\n')}
 ${batchCard}
 ${personalCard}
     </div>
-    <p class="bx-mt-40">${p.chooseAfter}</p>
+${b.batchIndiaOnly ? `    <p class="bx-mt-40 bx-intl-note" data-intl-only="true" hidden><b>Outside India:</b> the ICSE Computer Applications course runs as personalised one to one, two private classes a week at a time set in your own time zone. The mini batch is taught for families in India.</p>
+` : ''}    <p class="bx-mt-40">${p.chooseAfter}</p>
   </div>
 </section>
 
@@ -654,9 +682,9 @@ function renderMd(p) {
   lines.push('');
   lines.push('## Batch or personalised, and the fees');
   lines.push('');
-  lines.push(`Option 1, fixed batch: ${b.batchLong}, live online, ${b.batchSize}. Option 2, personalised one to one: days and time chosen by the family, the right choice for time zones where the batch falls in school hours or late at night. Monthly billing, no admission fee, stop at any month end. Fees are shown on the page in the visitor's own currency. The first class is a free demo; a paid priority demo (${BRAND.priorityDemo.length}, written skill report afterwards) is also available.`);
+  lines.push(`Option 1, fixed batch${b.batchIndiaOnly ? ' (for families in India)' : ''}: ${b.batchLong}, live online, ${b.batchSize}. Option 2, personalised one to one: days and time chosen by the family${b.batchIndiaOnly ? '; outside India the ICSE course runs one to one only, two private classes a week' : ', the right choice for time zones where the batch falls in school hours or late at night'}. Monthly billing, no admission fee, stop at any month end. Fees are shown on the page in the visitor's own currency. The first class is a free demo; a paid priority demo (${BRAND.priorityDemo.length}, written skill report afterwards) is also available.`);
   lines.push('');
-  lines.push('## Batch times outside India');
+  lines.push(b.batchIndiaOnly ? '## Class times outside India' : '## Batch times outside India');
   lines.push('');
   const zt = htmlToMd(zoneTable(p.board));
   lines.push(zt);

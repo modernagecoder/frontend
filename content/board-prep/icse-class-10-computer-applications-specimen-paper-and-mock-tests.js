@@ -36,7 +36,7 @@ module.exports = {
       ['Full two-hour mocks', '3', 'timed'],
       ['BlueJ practical mocks', 'Monthly', '']
     ],
-    zones: '<b>UAE:</b> Tuesday 4:00 PM and Wednesday 6:30 PM. <b>Indonesia and Thailand:</b> 7:00 PM and 9:30 PM. <b>Elsewhere:</b> personalised one to one at your own time.',
+    zones: '<b>In India:</b> the mini batch at these times. <b>UAE, Singapore, Indonesia, Thailand and elsewhere:</b> the same mock series one to one, at a time set in your own time zone.',
     stamps: ['Theory 100 &middot; Internal 100', 'Live doubts']
   },
   picksH2: 'Courses behind the ICSE specimen-paper classes',
@@ -218,8 +218,8 @@ module.exports = {
   </div>
 </section>`
   ],
-  chooseH2: 'Two ways to join the mock series: the mini batch, or your own timing',
-  chooseLede: 'Whichever you pick, your child gets the CISCE specimen solved live, the full two-hour papers and their reviews. Only the timetable and the classmates change. Billed monthly, nothing charged for admission, cancel at the end of any month.',
+  chooseH2: 'Join the mock series in the mini batch, or one to one at your own timing',
+  chooseLede: 'In either format your child gets the CISCE specimen solved live, the full two-hour papers and their reviews; only the timetable and the classmates change. The mini batch is for families in India, and students abroad take the series one to one. Billed monthly, nothing charged for admission, cancel at the end of any month.',
   chooseBatch: [
     'Tuesday 5:30 PM and Wednesday 8:00 PM IST, live',
     'A mini batch of four or five ICSE Class 10 students',
@@ -236,8 +236,8 @@ module.exports = {
   ],
   chooseAfter: 'After the free demo, the mentor tells you plainly which format suits your child. If the Tuesday and Wednesday times clash with school, tuition or a different time zone, personalised one to one runs the same mock series on your schedule. Fees are shown in your own currency.',
   zonesH2: 'ICSE mock test classes for students in the Gulf and abroad',
-  zonesLede: 'ICSE schools outside India write the same CISCE Computer Applications paper, so the specimen paper and mocks are the same wherever your child studies. Here are the two batch slots in local time for the exam season.',
-  zonesAfter: 'If neither slot suits your time zone, choose personalised one to one and set your own time. More detail for families abroad is on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.',
+  zonesLede: 'ICSE schools outside India follow the same CISCE syllabus and paper design for Computer Applications, so the specimen paper and mocks are the same wherever your child studies. Outside India the series is taught personalised one to one, inside the hours after school.',
+  zonesAfter: 'Mock papers abroad are timed around the prelims at your school, and the class time is fixed with you after the free demo. More detail for families abroad is on <a class="bx-link" href="/icse-class-10-computer-applications-classes-gulf-and-abroad">ICSE Computer Applications classes in the Gulf and abroad</a>.',
   faqLabel: 'Questions about the specimen paper and mocks',
   faqH2: 'What families ask about the specimen paper and mock tests',
   faqs: [
@@ -248,7 +248,7 @@ module.exports = {
     ['Does the mock series cover the internal assessment?', 'Yes. Monthly BlueJ practical mocks start in October, and before the school\'s internal assessment window each student\'s lab file is reviewed and the student is questioned on it by a teacher they have not worked with, the way an external examiner does.'],
     ['Why do students lose marks on programs that work?', 'Usually for three reasons: a missing variable description, output that does not match the format the question asked for, or a program that answers a slightly different question from the one set. Our mocks mark each part separately so students see exactly which part cost them.'],
     ['Is ICSE Computer Applications the same as ICSE Computer Science?', 'In Class 10 the CISCE subject is called Computer Applications, and it is taught in Java with BlueJ. Many families call it ICSE computer science or ICSE Java; it is the same subject and the same paper. Computer Science is the ISC subject in Classes 11 and 12.'],
-    ['Can a student abroad join the same mock series?', 'Yes. CISCE lists ICSE schools outside India in the UAE, Singapore, Indonesia and Thailand, and they set the same Computer Applications paper as a school in Kolkata. Tuesday at 5:30 PM IST is 4:00 PM in the UAE and Wednesday at 8 PM IST is 6:30 PM. In Singapore the Wednesday slot falls at 10:30 PM, so families there usually pick personalised one to one and set their own time.'],
+    ['Can a student abroad join the same mock series?', 'Yes, one to one. CISCE lists ICSE schools outside India in the UAE, Singapore, Indonesia and Thailand, and they follow the same Computer Applications syllabus and paper design as a school in Kolkata. Outside India we teach the specimen paper, the full mocks and their reviews personalised one to one, at a time set in your own time zone, usually straight after school.'],
     ['How much does the mock series cost?', 'There is no extra charge for the papers. Mocks, specimen solving and reviews are part of ordinary teaching, so you pay only the monthly fee for the mini batch or for personalised one to one, shown above in your own currency. There is no admission fee and the first session is a free demo.'],
     ['Is it too late to join for the 2027 paper?', 'Rarely. Full papers begin in January, and a student joining by about November can still finish the twenty-plus lab assignments with catch-up help. A December or January joiner is better off one to one, where the lab file and the three papers can be packed into a private timetable. The free demo gives you a straight answer for your child.']
   ],

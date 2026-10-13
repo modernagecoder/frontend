@@ -214,7 +214,9 @@ const SHARED_SUFFIXES = [
   // board-prep cluster chrome: the batch timetable card is the same five
   // times on five sibling pages by design, as are the question labels, the
   // sibling-link strip and the live stamp.
-  'timetable', 'qlabel', 'siblings', 'stamp', 'pick-code'
+  'timetable', 'qlabel', 'siblings', 'stamp', 'pick-code',
+  // the ICSE "outside India: one to one" note under the chooser, shown abroad only
+  'intl-note'
 ];
 
 // Also strips cg-pick, the course strip under the hero: same catalogue, same
