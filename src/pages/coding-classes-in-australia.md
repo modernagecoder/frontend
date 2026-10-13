@@ -625,6 +625,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Software development course](/software-development-course-australia)
 - [Web development course for teens](/web-development-course-for-teens-australia)
 - [Data science course](/data-science-course-australia)
+- [Cyber security course for teens](/cyber-security-course-for-teens-australia)
 <!-- AU-LINKS -->
 
 
