@@ -607,6 +607,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Burleigh Heads](/best-coding-and-ai-classes-in-burleigh-heads-gold-coast)
 - [Vibe coding and AI agents classes in Helensvale](/vibe-coding-and-ai-agents-classes-in-helensvale-gold-coast)
 - [Online coding and Python classes in Palmerston](/online-coding-and-python-classes-in-palmerston-nt-darwin)
+- [AI and programming classes in Casuarina](/ai-and-programming-classes-in-casuarina-darwin)
 <!-- AU-LINKS -->
 
 
