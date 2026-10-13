@@ -363,7 +363,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 341 | online-coding-and-python-classes-in-sandy-bay-hobart (sdby, #733042) | cg- district page | 2,391 | 1.9% vs online-coding-and-python-classes-in-norwood-adelaide | nested LIST JSON flattened into a usable road table | flattening nested JSON | 7fea8407 |
 | 342 | ai-and-programming-classes-in-kingston-tas-hobart (kgtn, #4A651A) | cg- district page | 2,435 | 1.5% vs best-coding-and-ai-classes-in-glenorchy-hobart | when should training stop on Kingston road data | stopping criteria (tolerance vs iteration cap) | 10cd0ec6 |
 | 343 | best-coding-and-ai-classes-in-glenorchy-hobart (glch, #883425) | cg- district page | 2,344 | 1.5% vs ai-and-programming-classes-in-kingston-tas-hobart | most_common cuts a tie for sixth place on Glenorchy street names | Counter.most_common hides ties | 557689a2 |
-| 344 | vibe-coding-and-ai-agents-classes-in-clarence-hobart (clrc, #5D5D36) | cg- district page | 2,461 | 1.2% vs vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide | an agent script finds its data from one folder and crashes from another | relative paths and the working directory | (this commit) |
+| 344 | vibe-coding-and-ai-agents-classes-in-clarence-hobart (clrc, #5D5D36) | cg- district page | 2,461 | 1.2% vs vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide | an agent script finds its data from one folder and crashes from another | relative paths and the working directory | 511a5201 |
+| 335 | best-coding-and-ai-classes-in-southport-gold-coast (sthp, #1B2A7F) | cg- district page | 2,426 | 1.4% vs ai-and-programming-classes-in-kenmore-brisbane | fewest transfers from Southport to every Gold Coast stop by breadth-first search over routes | minimum-transfer routing (BFS on a route graph) | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

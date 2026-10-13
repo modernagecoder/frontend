@@ -22885,6 +22885,54 @@
   to = "/src/pages/ai-and-programming-classes-in-casuarina-darwin.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-nightcliff-darwin"
+  to = "/src/pages/best-coding-and-ai-classes-in-nightcliff-darwin.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-and-ai-classes-in-nightcliff-darwin.md"
+  to = "/src/pages/best-coding-and-ai-classes-in-nightcliff-darwin.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-maitland-newcastle"
+  to = "/src/pages/online-coding-and-python-classes-in-maitland-newcastle.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-maitland-newcastle.md"
+  to = "/src/pages/online-coding-and-python-classes-in-maitland-newcastle.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle.md"
+  status = 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-charlestown-newcastle"
+  to = "/src/pages/ai-and-programming-classes-in-charlestown-newcastle.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-programming-classes-in-charlestown-newcastle.md"
+  to = "/src/pages/ai-and-programming-classes-in-charlestown-newcastle.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

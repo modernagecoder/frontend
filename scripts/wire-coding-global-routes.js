@@ -1068,6 +1068,10 @@ const MARKETS = [
   ['vibe-coding-and-ai-agents-classes-in-helensvale-gold-coast', 'Helensvale, Gold Coast'],
   ['online-coding-and-python-classes-in-palmerston-nt-darwin', 'Palmerston, Darwin'],
   ['ai-and-programming-classes-in-casuarina-darwin', 'Casuarina, Darwin'],
+  ['best-coding-and-ai-classes-in-nightcliff-darwin', 'Nightcliff, Darwin'],
+  ['online-coding-and-python-classes-in-maitland-newcastle', 'Maitland, Newcastle'],
+  ['vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle', 'Lake Macquarie, Newcastle'],
+  ['ai-and-programming-classes-in-charlestown-newcastle', 'Charlestown, Newcastle'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

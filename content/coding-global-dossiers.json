@@ -50495,5 +50495,236 @@
       "Income, rent, ancestry, language and religion figures: excluded by the cluster rules.",
       "Any link with the City of Darwin or the NT Government."
     ]
+  },
+  "best-coding-and-ai-classes-in-nightcliff-darwin": {
+    "market": "Nightcliff",
+    "bodyClass": "cg-ntcf",
+    "pageType": "city",
+    "curriculumAuthority": "Nightcliff suburb (SAL70210), City of Darwin (LGA71000). ABS Census 2021 QuickStats (read 14 October 2026): 3,884 people; median age 34; 955 families; 1,817 private dwellings; 2.4 per household; flats 837 (55.0%, NT 17.9%); separate houses 545 (35.8%, NT 66.8%); bachelor or higher 1,453 (45.2%, NT 21.5%); professionals 803 (34.8%, NT 22.0%); aged 5-9 207; 10-14 208; 15-19 166. ABS SAL area 1.4512 sq km; SALs intersecting: Coconut Grove, Rapid Creek. Darwin GTFS (NT Government, CC BY, files dated 7 Sep 2026), Wednesday 30 Sep 2026 (weekday services are withdrawn by calendar_dates from 5 Oct in this feed): 10 stop records inside SAL70210 (ray-casting test), 402 visits on 110 trips; route 4 365, 11 13, OL1 12, OL2 12; Progress Drive at John Stokes Square 71; first 06:19, last 22:05. City of Darwin Roads (CC BY 4.0): 51 records with midpoint inside; Aralia Street True_Length 1,542 m.",
+    "localProject": "itertools.takewhile vs filter. Nightcliff stop_times rows in feed order (trip by trip, first row 11:01:00). Before 09:00: filter 86, takewhile file order 0, takewhile sorted 86. Before 12:00: 151, 5, 151. Script au/b19/ntcf_gtfs.py.",
+    "requiredMentions": [
+      "3,884",
+      "1,453",
+      "166",
+      "Coconut Grove",
+      "takewhile",
+      "402 scheduled visits",
+      "John Stokes Square",
+      "Aralia Street",
+      "6:19am"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Nightcliff suburb (SAL70210), read 14 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL70210"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "Northern Territory Government, Bus Timetable Data and Geographic Information - Darwin (GTFS, feed files dated 7 September 2026), Creative Commons Attribution, listed on data.nt.gov.au; downloaded 14 October 2026.",
+        "url": "https://data.nt.gov.au/dataset/bus-timetable-data-and-geographic-information-darwin"
+      },
+      {
+        "claim": "City of Darwin, Darwin Roads feature layer (Road_Name, True_Length, GIS_Length), Creative Commons Attribution 4.0 International; queried 14 October 2026.",
+        "url": "https://www.arcgis.com/home/item.html?id=253e992a987d433eaf87ce20290a9c45"
+      },
+      {
+        "claim": "Python documentation, itertools.takewhile: make an iterator that returns elements from the iterable as long as the predicate is true.",
+        "url": "https://docs.python.org/3/library/itertools.html#itertools.takewhile"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Darwin, 9:30 ahead of UTC with no daylight saving rule in force.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Northern Territory school term dates: the NT term-date pages returned 403 and were not used.",
+      "Super Tuesday bike counts for Darwin: CSV links returned 403; not used.",
+      "City of Darwin place-name explanations: no licence stated on the layer; not used.",
+      "Palmerston and Casuarina timetable figures: kept to their own pages.",
+      "Any individual address or stop named after a house number: not published.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with the City of Darwin or the NT Government."
+    ]
+  },
+  "online-coding-and-python-classes-in-maitland-newcastle": {
+    "market": "Maitland",
+    "bodyClass": "cg-mtld",
+    "pageType": "city",
+    "curriculumAuthority": "Maitland local government area (LGA15050). ABS Census 2021 QuickStats (read 14 October 2026): 90,226 people; median age 36; 25,244 families; 35,413 private dwellings; 2.7 per household; separate houses 28,499 (87.3%, NSW 65.6%); flats 752 (2.3%, NSW 21.7%); bachelor or higher 10,950 (15.4%, NSW 27.8%); professionals 7,369 (17.0%, NSW 25.8%); aged 5-9 6,571; 10-14 6,480; 15-19 5,568. ABS LGA area 391.5089 sq km; LGAs intersecting: Cessnock, Dungog, Newcastle, Port Stephens, Singleton. NSW Spatial Services TransportFacilityPoint inside LGA: 68 points, 9 RAILWAY STATION. NSW AddressPoint count 46,627. TfNSW entry_exit.csv (17,218 rows, 2024-10 to 2026-08): August 2026 entries Maitland 9,315; Victoria Street 6,927; Thornton 5,551; Telarah 3,407; Metford 1,665; East Maitland 1,097; High Street 275; Lochinvar Less than 50; Mindaribba Less than 50. 296 train station names, 295 with two spaces before Station (Newcastle Interchange the exception). NSW 2027 Term 1 (Eastern) 28 January to 9 April. Census work-from-home and travel figures not used.",
+    "localProject": "Greedy vs lazy regex. re.fullmatch(r\"(.*)\\s+Station\", name) captures \"Maitland \" and matches 0 of 9 station points; r\"(.*?)\\s+Station\" captures \"Maitland\" and matches 9 of 9. Script au/b19/mtld_regex.py.",
+    "requiredMentions": [
+      "90,226",
+      "25,244",
+      "5,568",
+      "Port Stephens",
+      "Mindaribba",
+      "9,315",
+      "46,627",
+      "lazy",
+      "Newcastle Interchange"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Maitland local government area (LGA15050), read 14 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA15050"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Transport Theme, TransportFacilityPoint layer (railway station points), (c) Spatial Services; spatial query against the ABS boundary on 14 October 2026.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer/0"
+      },
+      {
+        "claim": "Transport for NSW, Train, Metro and Light Rail Station Monthly Usage, based on Opal batch data (entry_exit.csv, October 2024 to August 2026, resource updated 15 September 2026), Creative Commons Attribution; downloaded 14 October 2026.",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Geocoded Addressing Theme, AddressPoint layer, counts only, queried 14 October 2026.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/MapServer/1"
+      },
+      {
+        "claim": "Python documentation, re module: the *, +, ? qualifiers are greedy; adding ? after them performs the match in non-greedy or minimal fashion.",
+        "url": "https://docs.python.org/3/library/re.html"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates: 2027 Term 1 (Eastern division) 28 January to 9 April, Term 2 27 April to 2 July, Term 3 19 July to 24 September, Term 4 11 October to 20 December.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Sydney, rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Newcastle - Maitland urban area figures and the Newcastle page's school counts: not used here.",
+      "Any total of station entries for the council: not given; values printed as published.",
+      "Census work-from-home and travel-to-work figures: not used.",
+      "Any individual address: not published; counts only.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Maitland City Council or Transport for NSW."
+    ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle": {
+    "market": "Lake Macquarie",
+    "bodyClass": "cg-lkmq",
+    "pageType": "city",
+    "curriculumAuthority": "Lake Macquarie local government area (LGA14650). ABS Census 2021 QuickStats (read 14 October 2026): 213,845 people; median age 42; 60,257 families; 88,815 private dwellings; 2.5 per household; separate houses 68,750 (85.2%, NSW 65.6%); flats 3,589 (4.4%, NSW 21.7%); bachelor or higher 33,332 (19.0%, NSW 27.8%); professionals 20,897 (21.5%, NSW 25.8%); aged 5-9 13,451; 10-14 13,344; 15-19 12,340; 85+ 6,305. ABS LGA area 648.6393 sq km; LGAs intersecting: Central Coast (NSW), Cessnock, Newcastle. NSW Spatial Services TransportFacilityPoint inside LGA: 202 points, 9 RAILWAY STATION (Awaba, Booragul, Cardiff, Cockle Creek, Dora Creek, Fassifern, Morisset, Teralba, Wyee). AddressPoint count 109,432. TfNSW entry_exit.csv August 2026 entries: Cardiff 22,208; Morisset 17,093; Fassifern 10,149; Wyee 6,850; Cockle Creek 1,560; Dora Creek 1,223; Teralba 1,146; Booragul 982; Awaba 612. May 2025: Cardiff 16,995. Latest month in file 2026-08. NSW 2027 Term 3 19 July to 24 September.",
+    "localProject": "Date grounding. lkmq_agent.py: last_month(date(2025,6,1)) = 2025-05 -> Cardiff 16,995; last_month(date(2026,10,14)) = 2026-09 -> None (not published); checking max MonthYear -> 2026-08 -> Cardiff 22,208. Agent turns are our scripts.",
+    "requiredMentions": [
+      "213,845",
+      "60,257",
+      "Morisset",
+      "Central Coast",
+      "Cardiff",
+      "22,208",
+      "16,995",
+      "109,432",
+      "date grounding"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Lake Macquarie local government area (LGA14650), read 14 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA14650"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Transport Theme, TransportFacilityPoint layer (railway station points), (c) Spatial Services; spatial query against the ABS boundary on 14 October 2026.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer/0"
+      },
+      {
+        "claim": "Transport for NSW, Train, Metro and Light Rail Station Monthly Usage, based on Opal batch data (entry_exit.csv, October 2024 to August 2026, resource updated 15 September 2026), Creative Commons Attribution; downloaded 14 October 2026.",
+        "url": "https://opendata.transport.nsw.gov.au/data/dataset/train-station-entries-and-exits-data"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Geocoded Addressing Theme, AddressPoint layer, counts only, queried 14 October 2026.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/MapServer/1"
+      },
+      {
+        "claim": "Python documentation, datetime: date objects and timedelta arithmetic used to resolve the previous month.",
+        "url": "https://docs.python.org/3/library/datetime.html"
+      },
+      {
+        "claim": "NSW Department of Education, future and past NSW term and vacation dates: 2027 Term 1 (Eastern division) 28 January to 9 April, Term 2 27 April to 2 July, Term 3 19 July to 24 September, Term 4 11 October to 20 December.",
+        "url": "https://education.nsw.gov.au/schooling/calendars/future-and-past-nsw-term-and-vacation-dates"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Sydney, rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Charlestown suburb figures: kept to the Charlestown page.",
+      "Any total of station entries for the council: not given.",
+      "Any transcript from a commercial AI model or a claim about a particular model's cut-off date: not made; the agent is our script with an assumed date.",
+      "Census work-from-home and travel-to-work figures: not used.",
+      "Any individual address: not published; counts only.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Lake Macquarie City Council or Transport for NSW."
+    ]
+  },
+  "ai-and-programming-classes-in-charlestown-newcastle": {
+    "market": "Charlestown",
+    "bodyClass": "cg-chtn",
+    "pageType": "city",
+    "curriculumAuthority": "Charlestown suburb (SAL10884, Charlestown (NSW)), City of Lake Macquarie (LGA14650). ABS Census 2021 QuickStats (read 14 October 2026): 13,601 people; median age 38; 3,791 families; 5,731 private dwellings; 2.5 per household; separate houses 4,031 (76.0%, NSW 65.6%); flats 470 (8.9%, NSW 21.7%); bachelor or higher 2,898 (26.2%, NSW 27.8%); professionals 1,869 (26.6%, NSW 25.8%); aged 5-9 861; 10-14 805; 15-19 680; 85+ 427. ABS SAL area 7.115 sq km; SALs intersecting include Adamstown Heights, Gateshead, Kahibah, Kotara South, Mount Hutton, Whitebridge. NSW Transport Theme RoadSegment intersecting SAL: 815 segments, 110.06 km shape length; functionhierarchy Local 551, Arterial 85, Distributor 69, Primary 36, Path 31, UrbanServiceLane 31, SubArterial 8, Track-Vehicular 4; lanecount Unknown 49, OneLane 123, TwoOrMore 643; classsubtype Roundabout 34 (all lanecount Unknown), StandardRoad 658 (7 Unknown), Pathway 31 (7 Unknown). AddressPoint count 6,803.",
+    "localProject": "Missing-value indicator. Target: classsubtype Roundabout (34 of 815). Features log10(length), two-or-more-lanes with Unknown filled by mode, optional was-missing flag. LogisticRegression(class_weight=balanced), StratifiedKFold(5, shuffle, seed 0): mode fill TP 32 FP 108 (precision 22.9%); fill + indicator TP 34 FP 10 (precision 77.3%). Dropping Unknown rows leaves 766 rows and 0 roundabouts. Median length roundabout 18.7 m vs 109.5 m. Script au/b19/chtn_miss.py.",
+    "requiredMentions": [
+      "13,601",
+      "3,791",
+      "861",
+      "Kahibah",
+      "roundabout",
+      "108",
+      "6,803",
+      "110.06 km",
+      "was-missing"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Charlestown suburb (SAL10884), read 14 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/SAL10884"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Transport Theme, RoadSegment layer (functionhierarchy, lanecount, surface, classsubtype), (c) Spatial Services; segments intersecting the ABS boundary, queried 14 October 2026.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer/5"
+      },
+      {
+        "claim": "NSW Spatial Services, NSW Geocoded Addressing Theme, AddressPoint layer, counts only, queried 14 October 2026.",
+        "url": "https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/MapServer/1"
+      },
+      {
+        "claim": "scikit-learn documentation, SimpleImputer: add_indicator adds a MissingIndicator transform to the output.",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Sydney, rule AN, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Lake Macquarie council totals: kept to the Lake Macquarie page.",
+      "Any reason why the road file records roundabout lane counts as Unknown: not known, so not given.",
+      "Exact road length inside the suburb: not claimed; segments crossing the boundary are counted whole.",
+      "Census work-from-home and travel-to-work figures: not used.",
+      "Any individual address: not published; counts only.",
+      "Names of schools or shopping centres: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Lake Macquarie City Council or NSW Spatial Services."
+    ]
   }
 }
