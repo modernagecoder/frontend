@@ -587,6 +587,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Coding and AI classes in Belconnen](/best-coding-and-ai-classes-in-belconnen-canberra)
 - [Vibe coding and AI agents classes in Gungahlin](/vibe-coding-and-ai-agents-classes-in-gungahlin-canberra)
 - [Online coding and Python classes in Tuggeranong](/online-coding-and-python-classes-in-tuggeranong-canberra)
+- [AI and programming classes in Woden](/ai-and-programming-classes-in-woden-canberra)
 <!-- AU-LINKS -->
 
 
