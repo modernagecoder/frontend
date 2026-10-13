@@ -1059,6 +1059,7 @@ const MARKETS = [
   ['online-coding-and-python-classes-in-sandy-bay-hobart', 'Sandy Bay, Hobart'],
   ['ai-and-programming-classes-in-kingston-tas-hobart', 'Kingston, Tasmania'],
   ['best-coding-and-ai-classes-in-glenorchy-hobart', 'Glenorchy, Hobart'],
+  ['vibe-coding-and-ai-agents-classes-in-clarence-hobart', 'Clarence, Hobart'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

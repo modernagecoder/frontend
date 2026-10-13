@@ -50002,5 +50002,62 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with Glenorchy City Council or the LIST."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-clarence-hobart": {
+    "market": "Clarence",
+    "bodyClass": "cg-clrc",
+    "pageType": "city",
+    "curriculumAuthority": "Clarence local government area (LGA61410). ABS Census 2021 QuickStats (read 12 October 2026): 61,531 people; median age 41; 17,067 families; 25,855 private dwellings; 2.4 per household; separate houses 21,987 (93.2%, Tas 87.7%); bachelor or higher 13,155 (25.8%, Tas 21.9%); bus 1,227 (4.2%, Tas 2.5%); professionals 6,856 (23.6%, Tas 20.0%); aged 5-9 3,546; 10-14 3,726; 15-19 3,162; 85+ 1,673. ABS LGA area 377.9614 sq km. LIST Transport Segments intersecting the LGA (server-side statistics, 14 Oct 2026): 14,374 segments, 1,837.0 km summed from class totals; Access 6,141 (752.3 km), Local 4,877 (434.7), Vehicular Track 1,410 (398.3), Collector 746 (67.8), Arterial 549 (66.7), Sub Arterial 383 (53.8), National/State Highway 268 (63.4); Sealed 9,016, Unsealed 5,143, 4WD 215. LIST Points of Interest 510; Address Points 30,912 (counts only). Neighbouring LGAs (ABS touches): Brighton, Sorell, Southern Midlands. Tas 2027 Term 3 19 July to 24 September.",
+    "localProject": "Relative paths. clrc_demo: data/clarence_roads.csv (class, segments, km) and scripts/report.py with open(\"data/clarence_roads.csv\"). From project folder: segments 14374 km 1837.0; from scripts folder: FileNotFoundError: [Errno 2] No such file or directory: data/clarence_roads.csv; report_fixed.py using Path(__file__).resolve().parent.parent / data: same totals from both folders. Agent turns are our scripts.",
+    "requiredMentions": [
+      "61,531",
+      "25,855",
+      "3,162",
+      "Southern Midlands",
+      "clarence_roads.csv",
+      "FileNotFoundError",
+      "14,374",
+      "30,912",
+      "working directory"
+    ],
+    "sources": [
+      {
+        "claim": "ABS Census 2021 QuickStats, Clarence local government area (LGA61410), read 12 October 2026.",
+        "url": "https://abs.gov.au/census/find-census-data/quickstats/2021/LGA61410"
+      },
+      {
+        "claim": "ABS ASGS Edition 3 (2021) Local Government Area and Suburbs and Localities boundary services, used for our point-in-boundary and intersection checks.",
+        "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/LGA/MapServer"
+      },
+      {
+        "claim": "the LIST, State of Tasmania, Transport Segments (All Transport layer), Creative Commons Attribution 3.0 Australia; queried from the LIST map service on 13 and 14 October 2026.",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/TopographyAndRelief/MapServer/8"
+      },
+      {
+        "claim": "the LIST, State of Tasmania, Address Points, Creative Commons Attribution 3.0 Australia; counts only, queried 13 October 2026.",
+        "url": "https://services.thelist.tas.gov.au/arcgis/rest/services/Public/CadastreAndAdministrative/MapServer/43"
+      },
+      {
+        "claim": "Python documentation, pathlib: Path.resolve() and Path.cwd() for absolute paths and the current working directory.",
+        "url": "https://docs.python.org/3/library/pathlib.html"
+      },
+      {
+        "claim": "Tasmanian Department for Education, Children and Young People, 2027 school term dates for school and college students.",
+        "url": "https://www.decyp.tas.gov.au/learning/term-dates/"
+      },
+      {
+        "claim": "IANA time zone database 2026e, australasia file: Zone Australia/Hobart, rule AT, daylight saving from the first Sunday in October to the first Sunday in April.",
+        "url": "https://data.iana.org/time-zones/tzdb/australasia"
+      }
+    ],
+    "rejectedClaims": [
+      "Figures for Greater Hobart from the Hobart page: not used.",
+      "Exact road length inside the council: not claimed; crossing segments are counted whole.",
+      "Any transcript from a commercial AI model: not claimed; the agent is our script.",
+      "Any individual address: not published; counts only.",
+      "Names of schools: none named on this page.",
+      "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
+      "Any link with Clarence City Council or the LIST."
+    ]
   }
 }
