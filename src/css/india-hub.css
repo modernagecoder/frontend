@@ -58,8 +58,8 @@
   text-transform:uppercase;color:var(--ink);font-weight:600;margin:0 0 .9rem}
 .india-hub .ih-dir-h span{color:var(--amber);letter-spacing:.04em}
 .india-hub .ih-chips{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.55rem}
-.india-hub .ih-chips li{margin:0}
-.india-hub .ih-chips a{display:flex;align-items:center;gap:.45rem;height:100%;padding:.62rem .8rem;background:var(--surface);border:1px solid var(--line);
+.india-hub .ih-chips li{margin:0;min-width:0}
+.india-hub .ih-chips a{display:flex;align-items:center;gap:.45rem;height:100%;min-width:0;overflow-wrap:anywhere;padding:.62rem .8rem;background:var(--surface);border:1px solid var(--line);
   border-radius:10px;color:var(--ink-soft);text-decoration:none;font-size:.9rem;line-height:1.3;transition:border-color .2s,color .2s,background .2s,transform .2s}
 .india-hub .ih-chips a::before{content:"›";color:var(--amber);font-weight:700}
 .india-hub .ih-chips a:hover{border-color:var(--amber);color:var(--amber-deep);background:var(--amber-tint);transform:translateY(-1px)}
@@ -67,7 +67,7 @@
 
 /* ----------------------------------------------------- state cards */
 .india-hub .ih-states{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.8rem}
-.india-hub .ih-states a{display:flex;flex-direction:column;gap:.25rem;height:100%;padding:1rem 1.1rem;background:var(--surface);border:1px solid var(--line);
+.india-hub .ih-states a{display:flex;flex-direction:column;gap:.25rem;height:100%;min-width:0;overflow-wrap:anywhere;padding:1rem 1.1rem;background:var(--surface);border:1px solid var(--line);
   border-radius:12px;text-decoration:none;transition:border-color .2s,box-shadow .2s,transform .2s}
 .india-hub .ih-states a:hover{border-color:var(--amber);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
 .india-hub .ih-states b{font-family:var(--font-display);font-size:1.08rem;font-weight:600;color:var(--ink)}
@@ -134,7 +134,7 @@
   .india-hub .ct-tabs.is-on{flex-wrap:nowrap;overflow-x:auto;width:100%;-webkit-overflow-scrolling:touch;scrollbar-width:none}
   .india-hub .ct-tabs.is-on::-webkit-scrollbar{display:none}
   .india-hub .ct-tab{padding:.55rem .85rem;font-size:.88rem}
-  .india-hub .ih-chips{grid-template-columns:repeat(2,1fr)}
-  .india-hub .ih-states{grid-template-columns:1fr 1fr}
+  .india-hub .ih-chips{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .india-hub .ih-states{grid-template-columns:repeat(2,minmax(0,1fr))}
   .india-hub .ih-facts li{padding:1rem .9rem}
 }
