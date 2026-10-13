@@ -585,6 +585,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Modbury](/online-coding-and-python-classes-in-modbury-adelaide)
 - [AI and programming classes in Marion](/ai-and-programming-classes-in-marion-adelaide)
 - [Coding and AI classes in Belconnen](/best-coding-and-ai-classes-in-belconnen-canberra)
+- [Vibe coding and AI agents classes in Gungahlin](/vibe-coding-and-ai-agents-classes-in-gungahlin-canberra)
 <!-- AU-LINKS -->
 
 
