@@ -640,6 +640,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Maths tutor in Sydney](/maths-tutor-sydney)
 - [Maths tutor in Melbourne](/maths-tutor-melbourne)
 - [Maths tutor in Brisbane](/maths-tutor-brisbane)
+- [Maths tutor in Perth](/maths-tutor-perth-wa)
 <!-- AU-LINKS -->
 
 

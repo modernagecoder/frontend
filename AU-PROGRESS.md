@@ -403,7 +403,8 @@ Phase 10, maths by city (optional) (15): maths-tutor-sydney · maths-tutor-melbo
 | 385 | maths-tutor-chatswood (mtcw, #5A5E9B) | ag- maths by city | 3,144 | 0.9% vs maths-tutor-box-hill | why a Year of the Goat is never a leap year | lowest common multiple of repeating cycles | 2f0ed138 |
 | 371 | maths-tutor-sydney (mtsy, #2B1C5E) | ag- maths by city | 3,229 | 1.5% vs maths-tutor-melbourne | finding a hidden Census total from rounded percentages | reverse percentages and intersecting rounding windows | b95cf098 |
 | 372 | maths-tutor-melbourne (mtme, #7B281A) | ag- maths by city | 3,057 | 1.5% vs maths-tutor-sydney | how many chains apart Melbourne central city streets are | chains and links to metres | 17bfc3fc |
-| 373 | maths-tutor-brisbane (mtbr, #173E90) | ag- maths by city | 3,023 | 1.1% vs maths-tutor-perth-wa | how much the Brisbane River winds | sinuosity ratio | (this commit) |
+| 373 | maths-tutor-brisbane (mtbr, #173E90) | ag- maths by city | 3,023 | 1.1% vs maths-tutor-perth-wa | how much the Brisbane River winds | sinuosity ratio | d41d78bf |
+| 374 | maths-tutor-perth-wa (mtpe, #3E2494) | ag- maths by city | 3,050 | 1.2% vs maths-tutor-melbourne | the Perth to Sydney time gap as a piecewise function | piecewise functions | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
