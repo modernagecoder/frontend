@@ -613,6 +613,7 @@ Each guide below is written for one Australian need, from a state's senior compu
 - [Online coding and Python classes in Maitland](/online-coding-and-python-classes-in-maitland-newcastle)
 - [AI and programming classes in Charlestown](/ai-and-programming-classes-in-charlestown-newcastle)
 - [Coding classes for teens](/coding-classes-for-teens-australia)
+- [Coding classes for adults](/coding-classes-for-adults-australia)
 <!-- AU-LINKS -->
 
 
