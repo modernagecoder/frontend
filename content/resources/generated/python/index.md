@@ -1,12 +1,12 @@
 ---
 title: "Python Tutorial for Beginners: Complete Guide"
-description: "Learn Python from scratch with our free, detailed chapter-by-chapter guide. Each topic includes clear explanations, code examples, and 50+ practice questions. Designed for students aged 10-16."
+description: "Learn Python from scratch with our free, detailed chapter-by-chapter guide. Each topic includes clear explanations, code examples, and 50+ practice questions. For every learner, from age 6 to 67."
 slug: python
 canonical: https://learn.modernagecoders.com/resources/python
 ---
 # Python Tutorial for Beginners: Complete Guide
 
-Python is one of the most popular and beginner-friendly programming languages in the world. Whether you are 10 years old or 16, this guide will take you from knowing nothing about programming to writing real Python code with confidence.
+Python is one of the most popular and beginner-friendly programming languages in the world. Whether you are 6 or 67, this guide will take you from knowing nothing about programming to writing real Python code with confidence.
 
 Each chapter below covers one topic in detail. You will learn what the concept is, why it matters, and how to use it, with plenty of code examples. Every chapter also has a dedicated practice page with 50+ questions ranging from easy to hard, so you can test your understanding thoroughly.
 

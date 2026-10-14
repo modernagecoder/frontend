@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Python - What It Is, Why Learn It, and Where It Is Used | Modern Age Coders"
-description: "Learn what Python is, why it is the most popular programming language for beginners, and where it is used in the real world. A complete introduction for students aged 10-16."
+description: "Learn what Python is, why it is the most popular programming language for beginners, and where it is used in the real world. A complete introduction for every learner, from age 6 to 67."
 slug: introduction-to-python
 canonical: https://learn.modernagecoders.com/resources/python/introduction-to-python/
 category: "Python"

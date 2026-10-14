@@ -1,6 +1,6 @@
 ---
 title: "How to Install Python and Set Up Your Environment - Step by Step Guide | Modern Age Coders"
-description: "Learn how to download and install Python on Windows, set up the PATH, choose an IDE like VS Code or IDLE, and run your first Python file. A complete setup guide for beginners aged 10-16."
+description: "Learn how to download and install Python on Windows, set up the PATH, choose an IDE like VS Code or IDLE, and run your first Python file. A complete setup guide for beginners of any age, from 6 to 67."
 slug: installing-python-and-setup
 canonical: https://learn.modernagecoders.com/resources/python/installing-python-and-setup/
 category: "Python"

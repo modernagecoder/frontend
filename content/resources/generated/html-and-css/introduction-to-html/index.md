@@ -43,7 +43,7 @@ HTML does not need to be installed. You do not need a compiler, no strange setup
 
 ### 3. You See Your Work Instantly
 
-Type a tag, save the file, refresh the browser, boom, you see the result. No waiting, no errors like in other languages. This fast feedback loop makes HTML perfect for learners aged 10-18 who want to build things and see them come alive.
+Type a tag, save the file, refresh the browser, boom, you see the result. No waiting, no errors like in other languages. This fast feedback loop makes HTML perfect for learners of any age, from 6 to 67, who want to build things and see them come alive.
 
 ### 4. It Is the Gateway to Everything Else
 
