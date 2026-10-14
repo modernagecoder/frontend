@@ -183,7 +183,9 @@ class ResourceGenerator {
         const seoDescription = chapter.description;
         const seoKeywords = `${chapter.title.toLowerCase()}, ${meta.language.toLowerCase()} tutorial, ${meta.language.toLowerCase()} ${chapter.title.toLowerCase()}, learn ${meta.language.toLowerCase()}`;
 
-        const readingTime = chapterData.readingTime || this.estimateReadingTime(content);
+        // Data files store "20 min"; the template already says "min read", so keep
+        // only the number (otherwise the badge reads "20 min min read").
+        const readingTime = String(chapterData.readingTime || this.estimateReadingTime(content)).replace(/\s*min(?:ute)?s?\.?\s*$/i, '');
         const lastUpdated = chapterData.lastUpdated || new Date().toISOString().split('T')[0];
 
         const structuredData = JSON.stringify(this.generateNotesStructuredData(chapterData, meta), null, 2);
