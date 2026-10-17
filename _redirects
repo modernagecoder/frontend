@@ -7082,4 +7082,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /google-colab-help-for-students /src/pages/google-colab-help-for-students.html 200
 /google-colab-help-for-students.md /src/pages/google-colab-help-for-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/github-classroom-help-for-students /src/pages/github-classroom-help-for-students.html 200
+/github-classroom-help-for-students.md /src/pages/github-classroom-help-for-students.md 200
 /* /src/pages/404.html 404

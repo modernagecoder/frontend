@@ -949,3 +949,4 @@
 .ag-root.ag-jne { --ag-accent: #18569E; --ag-accent-soft: rgba(24,86,158,.09); }   /* Jupyter Notebook errors, US Phase T: the allocated muted blue #18569E from alloc.tsv row 144, distinct from the other Phase T accents */
 .ag-root.ag-cs { --ag-accent: #8F1A47; --ag-accent-soft: rgba(143,26,71,.09); }   /* VS Code setup for students, US Phase T: the allocated muted raspberry #8F1A47 from alloc.tsv row 146, distinct from the other Phase T accents */
 .ag-root.ag-gc { --ag-accent: #8F2F2F; --ag-accent-soft: rgba(143,47,47,.09); }   /* Google Colab help, US Phase T: the allocated muted brick #8F2F2F from alloc.tsv row 143, distinct from the other Phase T accents */
+.ag-root.ag-git { --ag-accent: #22264C; --ag-accent-soft: rgba(34,38,76,.09); }   /* GitHub Classroom help, US Phase T: the allocated deep navy #22264C from alloc.tsv row 148, distinct from the other Phase T accents */

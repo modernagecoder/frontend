@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [GitHub Classroom help for students](/github-classroom-help-for-students)
 - [Google Colab help for students](/google-colab-help-for-students)
 - [VS Code setup for students](/vs-code-setup-for-students)
 - [Jupyter Notebook errors for students](/jupyter-notebook-errors-for-students)

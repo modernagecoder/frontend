@@ -161,7 +161,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 145 | python-turtle-not-working (ptnw, #55458F) | tools | 3,961 | 1.6% vs python-indentation-error-explained | phase T | events and the main loop (a program that waits for the user) | 1d71f9cc |
 | 144 | jupyter-notebook-errors-for-students (jne, #18569E) | tools | 4,262 | 1.5% vs python-indentation-error-explained | phase T | state (what a program remembers, and in what order it learned it) | 07f5fca1 |
 | 146 | vs-code-setup-for-students (cs, #8F1A47) | tools | 3,935 | 1.8% vs python-indentation-error-explained | phase T | tools and environments (which program runs your code, and where it looks) | 72eab5de |
-| 143 | google-colab-help-for-students (gc, #8F2F2F) | tools | 4,013 | 1.1% vs how-to-make-a-roblox-game | phase T | where code runs (a remote machine, its lifetime, and the files it can see) | (this commit) |
+| 143 | google-colab-help-for-students (gc, #8F2F2F) | tools | 4,013 | 1.1% vs how-to-make-a-roblox-game | phase T | where code runs (a remote machine, its lifetime, and the files it can see) | bee7d5da |
+| 148 | github-classroom-help-for-students (git, #22264C) | tools | 3,802 | 1.8% vs vs-code-setup-for-students | phase T | version control (snapshots, history, and sharing work safely) | (this commit) |
 
 ## Skipped
 

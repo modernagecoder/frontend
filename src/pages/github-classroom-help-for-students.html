@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GitHub Classroom Retired: Help for Students in 2026</title>
+  <meta name="description" content="GitHub Classroom was retired on August 28, 2026. What that means for students, what still works in your repositories, and how to fix common Git push errors.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/github-classroom-help-for-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/github-classroom-help-for-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#22264C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/github-classroom-help-for-students">
+  <meta property="og:title" content="GitHub Classroom Retired: Help for Students in 2026">
+  <meta property="og:description" content="GitHub Classroom is retired, but your repositories are not. A dated timeline from GitHub's own notices, plus fixes for rejected pushes, 403 errors and Repository not found.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GitHub Classroom Retired: Help for Students in 2026">
+  <meta name="twitter:description" content="GitHub Classroom retired on August 28, 2026: what students need to know.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-git .ag-hero h1 { letter-spacing: -0.011em; }
+.ag-root.ag-git .ag-capsule { border-left-width: 6px; border-radius: 4px; }
+.ag-root.ag-git .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-git .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-git .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/github-classroom-help-for-students#page","url":"https://learn.modernagecoders.com/github-classroom-help-for-students","name":"GitHub Classroom Help for Students","description":"A guide for US high school and college students after the retirement of GitHub Classroom, built from GitHub's notices and documentation and our own Git runs.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"GitHub Classroom help","item":"https://learn.modernagecoders.com/github-classroom-help-for-students"}]},{"@type":"Course","name":"GitHub Classroom Help for Students","description":"Live online Git and GitHub classes for US teens and college students, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/github-classroom-help-for-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/github-classroom-help-for-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/github-classroom-help-for-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is GitHub Classroom shutting down?","acceptedAnswer":{"@type":"Answer","text":"It already has. GitHub says that as of August 28, 2026 the GitHub Classroom service has been retired, and nobody can sign in to manage classrooms on it."}},{"@type":"Question","name":"Why is GitHub Classroom not working?","acceptedAnswer":{"@type":"Answer","text":"Because the service was retired on August 28, 2026 and its website was decommissioned. Invite links and assignment acceptance no longer work. Ask your teacher which platform the class uses now."}},{"@type":"Question","name":"What happened to my GitHub Classroom assignments?","acceptedAnswer":{"@type":"Answer","text":"GitHub says accounts, repositories and organizations created through Classroom are not affected by the retirement. Your assignment repositories should still be on GitHub.com in the class organization."}},{"@type":"Question","name":"What replaced GitHub Classroom?","acceptedAnswer":{"@type":"Answer","text":"GitHub named two partners, Codio and Classroom 50 from the Fifty Foundation, which it describes as a free, open-source alternative. Your school or teacher decides what your class uses."}},{"@type":"Question","name":"How do I submit an assignment to a GitHub repository?","acceptedAnswer":{"@type":"Answer","text":"In the repository folder, run git add for your files, git commit with a message, then git push origin main. Then open the repository on GitHub.com and check your latest commit is there."}},{"@type":"Question","name":"Why does git push say rejected (non-fast-forward)?","acceptedAnswer":{"@type":"Answer","text":"The repository on GitHub has commits you do not have yet. GitHub suggests running git pull for that branch to bring them in, then pushing again."}},{"@type":"Question","name":"Why does Git say error 403 when I push?","acceptedAnswer":{"@type":"Answer","text":"GitHub refused access. GitHub says you must authenticate with a personal access token instead of your password, and that you need an account with access to the repository."}},{"@type":"Question","name":"How old do you have to be to use GitHub?","acceptedAnswer":{"@type":"Answer","text":"GitHub's terms say you must be age 13 or older to have an account."}},{"@type":"Question","name":"When are classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do Git and GitHub classes cost?","acceptedAnswer":{"@type":"Answer","text":"Your first lesson is free. Then fees are paid month by month for live teaching, and the fees section on this page shows the US dollar amount."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/github-classroom-help-for-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-git">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#timeline">What happened</a></li>
+      <li><a href="#you">What it means</a></li>
+      <li><a href="#submit">Submitting</a></li>
+      <li><a href="#errors">Push errors</a></li>
+      <li><a href="#tests">Test results</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / GitHub Classroom help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 13 to college &middot; GitHub and Git</p>
+        <h1>GitHub Classroom help for students</h1>
+        <p class="ag-lede">If an invite link from your teacher now goes nowhere, or classroom.github.com lands you on a farewell message, nothing is wrong with your account. GitHub retired GitHub Classroom on August 28, 2026. Your repositories still exist, and the Git skills your class used still matter, because both replacement tools GitHub named work with GitHub repositories. This page gives the dated facts from GitHub's own notices, then fixes the Git errors that stop students submitting work, with messages from GitHub's documentation and our own runs.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#timeline" class="ag-btn ag-btn--ghost">See the timeline</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20used%20GitHub%20Classroom%20and%20now%20needs%20help%20with%20Git%20and%20GitHub%20for%20a%20class.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'git'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Git and GitHub for ages 13 and up</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 13 to college</dd>
+          <dt>Service</dt><dd>GitHub Classroom, retired</dd>
+          <dt>Retired on</dt><dd>August 28, 2026</dd>
+          <dt>Your repositories</dt><dd>Not affected, says GitHub</dd>
+          <dt>GitHub account age</dt><dd>13 or older</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>GitHub Classroom stopped working because GitHub retired it on August 28, 2026; no one can sign in to it, and the website was decommissioned. GitHub says accounts, repositories and organizations created through Classroom are not affected. Ask your teacher which tool the class uses now, and keep pushing work with Git as before. Modern Age Coders teaches Git and GitHub live to students aged 13 and up, in a batch or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses for Git, GitHub and the code inside</h2>
+      <p class="ag-lede">Git is the skill that outlasts any classroom tool. These courses teach it on real repositories.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/git-github-version-control-course-for-teens">
+        <div class="ag-pick-shot"><img src="/images/git-github-teens.webp" alt="Git &amp; GitHub Course for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GIT / 01</p>
+          <h3>Git and GitHub for teens</h3>
+          <p>Ages 13 to 18. Commits, branches, pull requests, from zero.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/git-github-version-control-course-for-college-students">
+        <div class="ag-pick-shot"><img src="/images/git-github-college.webp" alt="Git &amp; GitHub Course for College Students course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GIT / 02</p>
+          <h3>Git and GitHub for college</h3>
+          <p>College students and recent graduates. Team workflows.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/full-stack-web-development-teens-masterclass">
+        <div class="ag-pick-shot"><img src="/images/web-dev-teens.webp" alt="Full Stack Web Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GIT / 03</p>
+          <h3>Full-stack web for teens</h3>
+          <p>Ages 13 to 18. Sites built and shipped from a GitHub repository.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="timeline">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What happened</p><h2>GitHub Classroom's retirement, in dates from GitHub itself</h2><p class="ag-lede">Search suggestions now include github classroom discontinued and github classroom sunset. Here is what GitHub itself published, in order.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>GitHub Classroom timeline, from GitHub Community announcements and GitHub Docs (read 17 October 2026)</caption><thead><tr><th scope="col">When</th><th scope="col">What GitHub said</th></tr></thead><tbody><tr><td>Before May 2026</td><td>GitHub wrote that Classroom had been "operating under &lsquo;maintenance mode&rsquo; for the past 18 months"</td></tr><tr><td>May 2026</td><td>"Starting today, GitHub Classroom will no longer accept new users"; existing classrooms carried on as normal</td></tr><tr><td>August 28, 2026</td><td>"As of August 28, 2026, the GitHub Classroom service has been retired"; no one can sign in and manage classrooms, and the website was decommissioned</td></tr><tr><td>September 4, 2026</td><td>The last Classroom-only data (assignment names, tests defined outside repos, submissions history, LTI rosters) was due for deletion: "final data deleted September 4, 2026"</td></tr><tr><td>17 October 2026 (our check)</td><td>classroom.github.com answered with a permanent redirect (HTTP 301) to GitHub's retirement notice, and GitHub Docs pages still carried the banner "The GitHub Classroom application is closing down and will be retired on August 28, 2026."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What GitHub says is not affected</h3><p>The retirement notice is specific: "any accounts, repositories, and organisations you created through Classroom are not affected by this service retirement." Your assignment repositories still live on GitHub.com, inside the organization your teacher used.</p>
+<p>What went away is the Classroom website and its extra layer: the invitation links, the teacher dashboard, and Classroom data stored outside your repositories.</p></div><div><h3>What GitHub suggested schools use instead</h3><p>GitHub named two partners that offer "the core GitHub Classroom workflows (assignment distribution, auto grading, and GitHub repo integration)": Codio, and Classroom 50, which GitHub calls "a free, open-source GitHub Classroom alternative developed by the Fifty Foundation".</p>
+<p>Which one your class uses, if either, is your teacher's or school's decision. We are not connected with GitHub, Codio or the Fifty Foundation, and we do not recommend one over another.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: GitHub&rsquo;s <a class="ag-inline-link" href="https://github.com/orgs/community/discussions/205975" rel="noopener" target="_blank">retirement notice</a> and <a class="ag-inline-link" href="https://github.com/orgs/community/discussions/196615" rel="noopener" target="_blank">transition announcement</a> in GitHub Community, and <a class="ag-inline-link" href="https://docs.github.com/en/education/manage-coursework-with-github-classroom/get-started-with-github-classroom/about-github-classroom" rel="noopener" target="_blank">About GitHub Classroom</a> in GitHub Docs, all read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="you">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it means for you</p><h2>Your situation, and what to do next</h2><p class="ag-lede">Students reach this page from different places. Find yours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Student situations after the retirement (our guidance, built on GitHub's notices)</caption><thead><tr><th scope="col">Your situation</th><th scope="col">What is going on</th><th scope="col">What to do</th></tr></thead><tbody><tr><td>A Classroom invite link does nothing</td><td>The Classroom website no longer runs</td><td>Ask your teacher for the new link or platform</td></tr><tr><td>There was an error accepting the assignment</td><td>Accepting was a Classroom feature, now retired</td><td>Same: your teacher will move the assignment</td></tr><tr><td>You want last year's work</td><td>Repositories were not affected</td><td>Sign in to GitHub.com and look under Your repositories, or the class organization</td></tr><tr><td>You cannot push to an old repository</td><td>Your access depends on the organization's settings</td><td>Ask the teacher who owns the organization</td></tr><tr><td>Your teacher moved to a new tool</td><td>GitHub says both partner tools include GitHub repo integration</td><td>The Git steps below still apply</td></tr><tr><td>A question about your Classroom data</td><td>GitHub handles Classroom data questions</td><td>GitHub's notice points to GitHub Education Support</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Old deadlines and write access</h3><p>While Classroom ran, its documentation explained that a teacher could make a deadline a hard cutoff, and that "you will lose write access to your assignment repository after the deadline passes" unless you had an extension.</p>
+<p>If an old repository is read-only for you, that may be why. It is a setting in the organization, so only the teacher or organization owner can change it.</p></div><div><h3>Accounts and ages</h3><p>GitHub's terms say plainly: "You must be age 13 or older." That applies to every GitHub account, whatever tool a class uses on top of it.</p>
+<p>For GitHub Education student benefits, GitHub's docs list being "at least 13 years old" among the requirements, and say verified students get GitHub Codespaces for their personal accounts, up to 180 core hours per month.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="submit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Submitting work</p><h2>The Git steps every repository-based class still uses</h2><p class="ag-lede">Classroom only handed out repositories. Submitting work was always ordinary Git: change files, commit, push. These are the four commands, and what our run of Git printed when a step was skipped.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The routine &middot; status, add, commit, push</b><span>shell</span></figcaption><pre># Submitting work to a repository  (ours)
+git status                  # where am I, what changed?
+git add lab1.py             # stage the file
+git commit -m "Lab 1"       # take the snapshot
+git push origin main        # send it to GitHub
+
+# Before git init, our run of git 2.46 printed:
+#   fatal: not a git repository (or any of the
+#   parent directories): .git
+# Commit before add:
+#   nothing added to commit but untracked files present
+#   (use "git add" to track)</pre><p class="ag-code-note">GitHub&rsquo;s docs explain that git push takes a remote name, such as origin, and a branch name, such as main. Our runs used a throwaway folder and sent nothing to GitHub.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Fixed &middot; Git does not know who you are yet</b><span>shell</span></figcaption><pre># First commit on a new computer  (ours)
+# Our run printed:
+#   Author identity unknown
+#   *** Please tell me who you are.
+# Fix, as git itself suggests:
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+# Use the email on your GitHub account, so your
+# commits are linked to you.</pre><p class="ag-code-note">Git stops a first commit on a new computer until it has a name and email. On a shared school computer, leave out --global to set them for one repository only, as Git&rsquo;s own message suggests.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><b>Clone once.</b> Copy the clone URL from the repository page, as GitHub&rsquo;s docs advise, rather than typing it.</li><li><b>Work in that folder.</b> Commands run anywhere else print fatal: not a git repository.</li><li><b>Check with git status</b> before every commit. It lists changed and untracked files.</li><li><b>Add, then commit</b> with a message that says what changed, such as "Lab 1: loops working".</li><li><b>Push to the right branch.</b> Our run of git push origin master on a main branch printed error: src refspec master does not match any.</li><li><b>Open the repository on GitHub.com</b> and check that your latest commit is there. If it is not on GitHub, your teacher cannot see it.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="errors">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Push and clone errors</p><h2>The errors that stop a submission, and the documented fixes</h2><p class="ag-lede">When a push fails the night before a deadline, the message usually names the problem. These come from GitHub&rsquo;s documentation and from our own runs.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Rejected &middot; the remote has work you do not</b><span>shell</span></figcaption><pre># The push GitHub refuses  (from GitHub's docs)
+$ git push origin main
+ ! [rejected]        main -&gt; main (non-fast-forward)
+error: failed to push some refs to ...
+
+# Fix from the same page: get the remote work first
+git pull origin main
+# resolve anything Git asks about, then
+git push origin main</pre><p class="ag-code-note">GitHub&rsquo;s explanation: if your local copy is "behind" the repository you are pushing to, you get non-fast-forward updates were rejected, and you must fetch the changes before pushing yours.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Git and GitHub errors students meet (messages from GitHub Docs and from our run of git 2.46.0, 17 October 2026)</caption><thead><tr><th scope="col">Message</th><th scope="col">What it means</th><th scope="col">Fix</th></tr></thead><tbody><tr><td>The requested URL returned error: 403</td><td>GitHub refused access over HTTPS</td><td>GitHub&rsquo;s docs: "you must authenticate with a personal access token instead of your password"</td></tr><tr><td>Error: Repository not found</td><td>A typo in the URL, or no permission</td><td>Check git remote -v; ask the owner for access</td></tr><tr><td>src refspec main does not match any (ours)</td><td>No commit yet, or a different branch name</td><td>Commit first; check the branch with git status</td></tr><tr><td>'origin' does not appear to be a git repository (ours)</td><td>No remote set up in this folder</td><td>Clone the repository again, or add the remote your teacher gave you</td></tr><tr><td>Author identity unknown (ours)</td><td>Git has no name and email on this computer</td><td>git config user.name and user.email</td></tr><tr><td>nothing added to commit but untracked files present (ours)</td><td>New files were never added</td><td>git add the files, then commit</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Passwords do not work for Git over HTTPS</h3><p>If you type your GitHub password when Git asks for one, you may get a 401 or 403 error. GitHub&rsquo;s cloning help is clear that you need a personal access token instead.</p>
+<p>GitHub&rsquo;s docs also describe Git Credential Manager, which stores credentials so you do not have to paste a token each time. On a shared school computer, ask before saving credentials.</p></div><div><h3>Repository not found is often a permissions message</h3><p>GitHub&rsquo;s docs explain that this error means the repository "does not exist or you do not have permission to access it". One cause to rule out with class repositories: signing in with a different GitHub account from the one the teacher added.</p>
+<p>Run git remote -v to see the URL your folder uses, compare it with the repository page, and check which account you are signed in to.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tests">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Test results</p><h2>Green checks and red Xs: reading automatic test results</h2><p class="ag-lede">Classroom&rsquo;s autograding ran on GitHub Actions, and GitHub says Classroom 50 also configures autograding via GitHub Actions. So the same signals may still appear on your commits, whatever tool your teacher picked.</p></div>
+    <div class="ag-grid-3"><div><h3>A green checkmark</h3><p>GitHub&rsquo;s docs: "If all tests succeed for a commit, you'll see a green checkmark." Your latest pushed code passed the tests the teacher set.</p></div><div><h3>A red X</h3><p>The same page: "If any tests fail for a commit, you'll see a red X." Click it to open the log, which shows compilation errors and failed tests.</p></div><div><h3>The Actions tab</h3><p>GitHub says "The Actions tab shows the full history of test runs." Open the latest run and read the first failure, not the last line.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How to read a failing test log</h3><p>Scroll to the first line marked as an error. A compile error means the code never ran; fix that before anything else. A failed test usually prints what it expected and what your code produced.</p>
+<p>Run the same input on your own computer and compare. The difference between expected and actual output is the clue.</p></div><div><h3>What we will not do</h3><p>We will explain what a failing test is checking and teach the idea behind it. We will not write code to pass a graded test for you.</p>
+<p>Repository owners can see your commit history. Work you understand is the only kind worth submitting.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beyond one class</p><h2>Git as a skill, not a submission button</h2><p class="ag-lede">Classroom tools come and go, as this year showed. Version control stays. This is how we teach it across a first term.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A first term of Git and GitHub (our plan for ages 13 and up, adjusted for each learner)</caption><thead><tr><th scope="col">Classes</th><th scope="col">What the student practices</th><th scope="col">Why it matters</th></tr></thead><tbody><tr><td>1 to 2</td><td>Install Git, init, add, commit</td><td>Snapshots you can always go back to</td></tr><tr><td>3 to 4</td><td>Clone, push, pull with GitHub</td><td>Work that lives beyond one laptop</td></tr><tr><td>5 to 6</td><td>Branches and merges</td><td>Trying ideas without breaking the main version</td></tr><tr><td>7 to 8</td><td>Resolving conflicts and rejected pushes</td><td>Calm fixes at deadline time</td></tr><tr><td>9 to 10</td><td>Pull requests and reviews</td><td>How teams, and many classes, share feedback</td></tr><tr><td>11 to 12</td><td>A portfolio repository with a README</td><td>Something to show beyond a grade</td></tr></tbody></table></div>
+    <p class="ag-mt-40">For the difference between the two names, read <a class="ag-inline-link" href="/blog/git-vs-github-difference">Git vs GitHub</a>. Students taking Java for AP may also want <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A online classes</a>, and anyone stuck on a bug rather than a push can use <a class="ag-inline-link" href="/how-to-debug-code">how to debug code</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student is</p>
+      <h2>Four stages with Git</h2>
+      <p class="ag-lede">From uploading files to managing history.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of Git skill (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Uploader</td><td class="ag-num">Drags files into GitHub in the browser</td></tr><tr><td>2. Committer</td><td class="ag-num">Uses add, commit and push, and panics at errors</td></tr><tr><td>3. Fixer</td><td class="ag-num">Reads rejected pushes and fixes them with pull</td></tr><tr><td>4. Collaborator</td><td class="ag-num">Branches, opens pull requests and reviews others</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>The retirement of GitHub Classroom changed a website, not the skill. Git is used far beyond school, and your teenager's repositories are still there.</p>
+<p>GitHub accounts are for ages 13 and up, under GitHub's own terms.</p></div><div><h3>For students</h3><p>Run git status before anything else. It tells you where you are and what changed.</p>
+<p>Check GitHub.com after every push. If the commit is not there, it was not submitted.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses where work lives in repositories</h2>
+      <p class="ag-lede">Live online classes with a regular teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Version control</h3>
+        <span class="ag-band-sub">Ages 13 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / VC / 01</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>From first commit to pull request.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / VC / 02</p>
+          <h4>Git and GitHub for college</h4>
+          <p>Team workflows and reviews.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / VC / 03</p>
+          <h4>Advanced Git</h4>
+          <p>Rebase, history and automation.</p>
+          <a class="ag-course-link" href="/courses/git-github-advanced-version-control-masterclass-for-professionals">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>High school</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / HS / 01</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java for the AP course.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / HS / 02</p>
+          <h4>Java for teens</h4>
+          <p>Object-oriented code, step by step.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / HS / 03</p>
+          <h4>Full-stack web for teens</h4>
+          <p>Projects deployed from GitHub.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>College and adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / PRO / 01</p>
+          <h4>Java for college</h4>
+          <p>Complete Java, live.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / PRO / 02</p>
+          <h4>Full-stack web for college</h4>
+          <p>Front end, back end, deploy.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GIT / PRO / 03</p>
+          <h4>Data structures and algorithms</h4>
+          <p>For coursework and interviews.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live Git lessons on your real repositories</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evening batches across US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Room for longer repository projects.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Before a deadline, at a time you pick.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Same teacher</h3><p>All the way through the term.</p></div>
+      <div><h3>Your terminal</h3><p>We fix Git on your computer.</p></div>
+      <div><h3>Real repositories</h3><p>Practice on your own projects.</p></div>
+      <div><h3>Your code stays yours</h3><p>We teach; you submit.</p></div>
+      <div><h3>Coast to coast</h3><p>Live online in every state.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty, or one learner.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Repositories and projects from our students</h2>
+      <p class="ag-lede">Projects from learners who once could not get a push to go through. Browse more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Git and a GitHub account cost nothing. The fee pays for teaching, billed monthly in US dollars, with no contract running to the end of the semester, and you can leave once any month is over.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring the push that failed</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>One regular teacher</li><li>A batch time you choose</li><li>Charged monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private Git lessons</li><li>At your convenience</li><li>Your own repositories</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' Google reviews, reproduced word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions students ask</p>
+      <h2>GitHub Classroom and Git: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is GitHub Classroom shutting down?</h3>
+        <p>It already has. GitHub says that as of August 28, 2026 the GitHub Classroom service has been retired, and nobody can sign in to manage classrooms on it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why is GitHub Classroom not working?</h3>
+        <p>Because the service was retired on August 28, 2026 and its website was decommissioned. Invite links and assignment acceptance no longer work. Ask your teacher which platform the class uses now.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happened to my GitHub Classroom assignments?</h3>
+        <p>GitHub says accounts, repositories and organizations created through Classroom are not affected by the retirement. Your assignment repositories should still be on GitHub.com in the class organization.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What replaced GitHub Classroom?</h3>
+        <p>GitHub named two partners, Codio and Classroom 50 from the Fifty Foundation, which it describes as a free, open-source alternative. Your school or teacher decides what your class uses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I submit an assignment to a GitHub repository?</h3>
+        <p>In the repository folder, run git add for your files, git commit with a message, then git push origin main. Then open the repository on GitHub.com and check your latest commit is there.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does git push say rejected (non-fast-forward)?</h3>
+        <p>The repository on GitHub has commits you do not have yet. GitHub suggests running git pull for that branch to bring them in, then pushing again.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does Git say error 403 when I push?</h3>
+        <p>GitHub refused access. GitHub says you must authenticate with a personal access token instead of your password, and that you need an account with access to the repository.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How old do you have to be to use GitHub?</h3>
+        <p>GitHub's terms say you must be age 13 or older to have an account.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do Git and GitHub classes cost?</h3>
+        <p>Your first lesson is free. Then fees are paid month by month for live teaching, and the fees section on this page shows the US dollar amount.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Next steps for US students working with Git.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our hub for families and students in the US.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/git-vs-github-difference">Git vs GitHub</a></h3><p>Two names, two different things.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP CSA online classes</a></h3><p>Java for the AP course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-teens">Java classes for teens</a></h3><p>Java beyond the exam.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>When the code, not Git, is broken.</p></div>
+      <div><h3><a class="ag-inline-link" href="/levels/coding-for-teens">Coding for teens</a></h3><p>Every teen track in one place.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us the class, the repository and the error. In the first lesson the teacher works through your real push with you.</p>
+        <p class="ag-mt-40">Want to know what a lesson looks like? See <a class="ag-inline-link" href="/how-we-teach">our approach</a>, or open <a class="ag-inline-link" href="/courses">the course pages</a> for week-by-week detail.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20used%20GitHub%20Classroom%20and%20now%20needs%20help%20with%20Git%20and%20GitHub%20for%20a%20class.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'git',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We teach over live video from India, so there is nowhere to travel to and any US student can join. The quickest way to reach us is WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_git(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Your first lesson is free; we will not ask for card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Git and GitHub</h4><ul><li><a href="/blog/git-vs-github-difference">Git vs GitHub</a></li><li><a href="/hackathon-guide">Hackathon guide</a></li><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-a-online-classes">AP CSA classes</a></li><li><a href="/java-classes-for-teens">Java classes for teens</a></li><li><a href="/python-for-15-year-olds">Python for 15 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Status, add, commit, push, then check</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_git = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'github-classroom-help-for-students-inline', meta: { name: name, age: age, page: 'github-classroom-help-for-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

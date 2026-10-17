@@ -420,6 +420,7 @@ const SLUGS = [
   'jupyter-notebook-errors-for-students',
   'vs-code-setup-for-students',
   'google-colab-help-for-students',
+  'github-classroom-help-for-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -919,6 +920,7 @@ const LLMS_LABELS = {
   'jupyter-notebook-errors-for-students': 'Jupyter Notebook errors for students',
   'vs-code-setup-for-students': 'VS Code setup for students',
   'google-colab-help-for-students': 'Google Colab help for students',
+  'github-classroom-help-for-students': 'GitHub Classroom help for students',
 };
 
 function wireLlms(slugs) {
