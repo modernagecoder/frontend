@@ -450,6 +450,7 @@ const SLUGS = [
   'khan-academy-computer-science-vs-live-classes',
   'scratch-not-working-help',
   'presidential-ai-challenge-guide',
+  'acsl-competition-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -979,6 +980,7 @@ const LLMS_LABELS = {
   'khan-academy-computer-science-vs-live-classes': 'Khan Academy CS vs live classes',
   'scratch-not-working-help': 'Scratch not working',
   'presidential-ai-challenge-guide': 'Presidential AI Challenge guide',
+  'acsl-competition-preparation': 'ACSL competition preparation',
 };
 
 function wireLlms(slugs) {

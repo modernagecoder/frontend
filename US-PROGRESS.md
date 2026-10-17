@@ -191,7 +191,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 33 | cybersecurity-classes-for-teens (ct, #572237) | subj | 4,119 | 1.5% vs c-plus-plus-for-kids | phase 2 | thinking like a defender (assets, risks, controls), never attack technique | 79d8fe22 |
 | 152 | khan-academy-computer-science-vs-live-classes (kacs, #9E182A) | tools | 3,687 | 1.7% vs javascript-for-kids | phase T | tracing before running (predict, run, compare) | 986e2eeb |
 | 154 | scratch-not-working-help (snw, #2B5D9E) | tools | 4,722 | 1.8% vs javascript-for-kids | phase T | debugging by isolating one cause at a time (reproduce, change one thing, test ag | a2a8be11 |
-| 36 | presidential-ai-challenge-guide (pacg, #4A520C) | comp | 4,922 | 0.9% vs computer-science-internships-for-high-school-students | phase 3 | measuring a model honestly (test set, accuracy, error list) | (this commit) |
+| 36 | presidential-ai-challenge-guide (pacg, #4A520C) | comp | 4,922 | 0.9% vs computer-science-internships-for-high-school-students | phase 3 | measuring a model honestly (test set, accuracy, error list) | 441debc1 |
+| 37 | acsl-competition-preparation (acp, #3F662B) | comp | 4,239 | 0.9% vs presidential-ai-challenge-guide | phase 3 | tracing by hand, then checking by machine | (this commit) |
 
 ## Skipped
 

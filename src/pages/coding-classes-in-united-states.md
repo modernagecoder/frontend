@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [ACSL competition preparation](/acsl-competition-preparation)
 - [Presidential AI Challenge guide](/presidential-ai-challenge-guide)
 - [Scratch not working](/scratch-not-working-help)
 - [Khan Academy CS vs live classes](/khan-academy-computer-science-vs-live-classes)

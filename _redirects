@@ -7202,4 +7202,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /presidential-ai-challenge-guide /src/pages/presidential-ai-challenge-guide.html 200
 /presidential-ai-challenge-guide.md /src/pages/presidential-ai-challenge-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/acsl-competition-preparation /src/pages/acsl-competition-preparation.html 200
+/acsl-competition-preparation.md /src/pages/acsl-competition-preparation.md 200
 /* /src/pages/404.html 404

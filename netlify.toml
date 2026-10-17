@@ -23985,6 +23985,18 @@
   to = "/src/pages/presidential-ai-challenge-guide.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/acsl-competition-preparation"
+  to = "/src/pages/acsl-competition-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/acsl-competition-preparation.md"
+  to = "/src/pages/acsl-competition-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
