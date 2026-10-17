@@ -159,7 +159,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 35 | coding-bootcamp-for-teens (bt, #755E19) | subj | 3,630 | 1.3% vs congressional-app-challenge-guide | phase 2 | version control and shipping (commit small, commit often) | ce1bd75c |
 | 153 | python-indentation-error-explained (piee, #8F4133) | tools | 4,711 | 0.8% vs congressional-app-challenge-guide | phase T | blocks and scope (how a program says which lines belong together) | 09487970 |
 | 145 | python-turtle-not-working (ptnw, #55458F) | tools | 3,961 | 1.6% vs python-indentation-error-explained | phase T | events and the main loop (a program that waits for the user) | 1d71f9cc |
-| 144 | jupyter-notebook-errors-for-students (jne, #18569E) | tools | 4,262 | 1.5% vs python-indentation-error-explained | phase T | state (what a program remembers, and in what order it learned it) | (this commit) |
+| 144 | jupyter-notebook-errors-for-students (jne, #18569E) | tools | 4,262 | 1.5% vs python-indentation-error-explained | phase T | state (what a program remembers, and in what order it learned it) | 07f5fca1 |
+| 146 | vs-code-setup-for-students (cs, #8F1A47) | tools | 3,935 | 1.8% vs python-indentation-error-explained | phase T | tools and environments (which program runs your code, and where it looks) | (this commit) |
 
 ## Skipped
 

@@ -649,6 +649,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Python indentation errors explained: https://learn.modernagecoders.com/python-indentation-error-explained
 - Python turtle not working: https://learn.modernagecoders.com/python-turtle-not-working
 - Jupyter Notebook errors for students: https://learn.modernagecoders.com/jupyter-notebook-errors-for-students
+- VS Code setup for students: https://learn.modernagecoders.com/vs-code-setup-for-students
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

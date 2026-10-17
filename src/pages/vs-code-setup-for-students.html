@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VS Code Setup for Students: Python and Java Without Errors</title>
+  <meta name="description" content="VS Code setup for students: install it on a school laptop, set up Python and Java, and fix the errors students hit, from No module named to class is public.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/vs-code-setup-for-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/vs-code-setup-for-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8F1A47">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/vs-code-setup-for-students">
+  <meta property="og:title" content="VS Code Setup for Students: Python and Java Without Errors">
+  <meta property="og:description" content="Install VS Code without admin rights, add Python or Java, and fix ModuleNotFoundError, the wrong interpreter and Java file-name errors, with real messages from our runs.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VS Code Setup for Students: Python and Java Without Errors">
+  <meta name="twitter:description" content="Set up VS Code for Python and Java, and fix the errors students hit.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cs .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-cs .ag-capsule { border-left-width: 5px; border-radius: 3px; }
+.ag-root.ag-cs .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-cs .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-cs .ag-steps { gap: 0.8rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/vs-code-setup-for-students#page","url":"https://learn.modernagecoders.com/vs-code-setup-for-students","name":"VS Code Setup for Students","description":"A setup and troubleshooting guide for US students installing Visual Studio Code for Python and Java, built from the VS Code documentation and our own runs.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"VS Code setup for students","item":"https://learn.modernagecoders.com/vs-code-setup-for-students"}]},{"@type":"Course","name":"VS Code Setup for Students","description":"Live online Python and Java classes for US teens and college students, including help setting up VS Code, taught in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/vs-code-setup-for-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vs-code-setup-for-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vs-code-setup-for-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is VS Code free for students?","acceptedAnswer":{"@type":"Answer","text":"Yes. The VS Code FAQ says VS Code is free for private or commercial use, so there is no student version to apply for. Python and the free JDK builds the Java tutorial lists cost nothing either."}},{"@type":"Question","name":"Why is VS Code not working with Python?","acceptedAnswer":{"@type":"Answer","text":"Usually one of three pieces is missing: VS Code, the Python extension, or Python itself. The extension does not include Python. Install Python, restart the terminal, then choose the interpreter with Python: Select Interpreter."}},{"@type":"Question","name":"How do I select the Python interpreter in VS Code?","acceptedAnswer":{"@type":"Answer","text":"Click the Python version shown in the Status Bar, or open the Command Palette and run Python: Select Interpreter, then choose your project environment or the Python you installed."}},{"@type":"Question","name":"Why does VS Code say No module named numpy?","acceptedAnswer":{"@type":"Answer","text":"The package is not installed in the interpreter VS Code is using. In the VS Code terminal for that interpreter, run python -m pip install numpy on Windows or python3 -m pip install numpy on a Mac."}},{"@type":"Question","name":"How do I set up Java in VS Code?","acceptedAnswer":{"@type":"Answer","text":"Install a JDK and the Extension Pack for Java, or on Windows and macOS use the Coding Pack for Java, which bundles both with VS Code. Then open the folder that holds your .java files."}},{"@type":"Question","name":"Why does Java say class is public, should be declared in a file named?","acceptedAnswer":{"@type":"Answer","text":"A public class must be in a file with exactly the same name. Our run of public class Hello in Greeting.java failed for that reason. Rename the file to Hello.java, matching capital letters."}},{"@type":"Question","name":"Can I install VS Code on a school laptop without admin rights?","acceptedAnswer":{"@type":"Answer","text":"The VS Code docs say the Windows User setup does not require administrator permissions. Your school may still block installs, so check with your teacher or school tech office first."}},{"@type":"Question","name":"Will you do my coding assignment?","acceptedAnswer":{"@type":"Answer","text":"No. We help you set up your tools and teach the ideas so you can finish your own assignment. We never complete graded work."}},{"@type":"Question","name":"What times are classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do Python or Java classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that you pay monthly for live lessons, and the fees section on this page shows the amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/vs-code-setup-for-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-cs">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#pieces">What to install</a></li>
+      <li><a href="#install">Installing</a></li>
+      <li><a href="#python">Python</a></li>
+      <li><a href="#java">Java</a></li>
+      <li><a href="#checks">Checks</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / VS Code setup for students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grade 6 to college &middot; Visual Studio Code</p>
+        <h1>VS Code setup for students</h1>
+        <p class="ag-lede">Visual Studio Code is free and runs on Windows and Mac, so it is a natural choice when a teacher asks you to code at home. It also confuses beginners, because installing VS Code does not install Python or Java. This guide sets it up the way Microsoft's own documentation describes, on a school-issued laptop or a family computer, then walks through the errors students actually see, with the exact messages from our test machine and the fix for each.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#pieces" class="ag-btn ag-btn--ghost">See what to install</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20needs%20help%20setting%20up%20VS%20Code%20for%20Python%20or%20Java%20for%20school.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cs'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Python and Java, set up on your own laptop</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grade 6 to college</dd>
+          <dt>Editor</dt><dd>VS Code, free</dd>
+          <dt>Runs on</dt><dd>Windows, macOS, Linux</dd>
+          <dt>For Python</dt><dd>Python extension plus Python</dd>
+          <dt>For Java</dt><dd>Java extensions plus a JDK</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>To set up VS Code for school, install three things: VS Code itself, the language extension (Python, or the Extension Pack for Java), and the language (a Python interpreter, or a Java JDK). Open your project folder with File, Open Folder, pick the interpreter in the Status Bar, and run from the play button. Modern Age Coders teaches Python and Java live to students in the US, in a batch or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses that start on your own laptop</h2>
+      <p class="ag-lede">Each is taught live on your own computer, so a teacher can help get the editor working early and keep the focus on code.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VSC / 01</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 18. VS Code, Python and real projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VSC / 02</p>
+          <h3>Java for teens</h3>
+          <p>Ages 13 to 18. From the first class file to object-oriented programs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VSC / 03</p>
+          <h3>AP Computer Science A</h3>
+          <p>High school. Java from the basics, built for the AP course.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="pieces">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What to install</p><h2>Three pieces, not one: why VS Code alone runs nothing</h2><p class="ag-lede">The Python tutorial in the VS Code documentation says it directly: "three separate pieces work together to run Python in VS Code." Java works the same way. When nothing runs in week one, check that all three pieces are there.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What each piece does, from the VS Code Python and Java tutorials (read 17 October 2026)</caption><thead><tr><th scope="col">Piece</th><th scope="col">For Python</th><th scope="col">For Java</th></tr></thead><tbody><tr><td>The editor</td><td>VS Code, where you write and organize code</td><td>VS Code, the same editor</td></tr><tr><td>The extension</td><td>The Python extension; the docs note "The extension doesn't include Python itself."</td><td>Extension Pack for Java; the tutorial needs Language Support for Java by Red Hat and Debugger for Java</td></tr><tr><td>The language</td><td>A Python interpreter, installed separately</td><td>A Java Development Kit (JDK); the pack "supports Java version 1.8 or above"</td></tr><tr><td>An all-in-one option</td><td>None in the tutorial</td><td>The Coding Pack for Java bundles VS Code, a JDK and extensions, but "is only available for Windows and macOS"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Is VS Code free for students?</h3><p>Yes, and not only for students. The VS Code FAQ says "VS Code is free for private or commercial use." There is no student edition to apply for.</p>
+<p>Python and the JDK distributions the Java tutorial lists are also free to download, so a working setup costs nothing.</p></div><div><h3>VS Code is not Visual Studio</h3><p>Visual Studio is a different, larger Microsoft product. If your teacher said VS Code, you want Visual Studio Code from code.visualstudio.com.</p>
+<p>The pair is confused often enough that vs code vs visual studio shows up in search suggestions. For a school Python or Java class, VS Code is the one to install.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="install">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Installing</p><h2>Installing VS Code on a school or family laptop</h2><p class="ag-lede">If your school manages your laptop, you may not have an administrator password. The VS Code docs cover that case, and the Mac and old-Windows cases too.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Installing VS Code, from the VS Code setup documentation (read 17 October 2026)</caption><thead><tr><th scope="col">Your computer</th><th scope="col">What the docs say</th><th scope="col">Watch out for</th></tr></thead><tbody><tr><td>Windows, no admin password</td><td>The User setup "does not require administrator permissions" and is "the recommended installation for most people"</td><td>"Updates are disabled when VS Code runs as Administrator from a User setup installation."</td></tr><tr><td>Windows, family computer</td><td>"Setup adds Visual Studio Code to your %PATH% environment variable. Restart your console after installation"</td><td>Run code . in a folder to open it, after restarting the terminal</td></tr><tr><td>Mac</td><td>"Drag Visual Studio Code.app to the Applications folder."</td><td>Then open it from Applications by double-clicking the icon, as the docs describe</td></tr><tr><td>Mac, to use code in Terminal</td><td>Run Shell Command: Install 'code' command in PATH from the Command Palette</td><td>Restart the terminal afterwards</td></tr><tr><td>Mac with Apple silicon</td><td>The download page lists Universal, Intel chip and Apple silicon builds</td><td>Universal works on both</td></tr><tr><td>Windows 7</td><td>"VS Code version 1.70.3 is the last available release for Windows 7 users"</td><td>Old laptops need a newer Windows for current VS Code</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If Python will not install without admin</h3><p>The Python tutorial in the VS Code docs offers a route: "If you don't have admin access, an additional option for installing Python on Windows is to use the Microsoft Store."</p>
+<p>If the Store is blocked as well, ask your teacher or the school's tech office rather than looking for a workaround; the device belongs to the district.</p></div><div><h3>Mac students: one Python warning</h3><p>The VS Code docs say "The system install of Python on macOS is not supported." They recommend Homebrew, with brew install python3 in Terminal.</p>
+<p>The python.org installer is the other common choice for students. Either way, use a Python you installed, not the one the Mac shipped with.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="python">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Python</p><h2>Setting up Python in VS Code, and the three errors that follow</h2><p class="ag-lede">Follow the steps in order. Each one matches a step in the VS Code Python tutorial, and each error below appears when one is skipped.</p></div>
+    <ol class="ag-steps"><li><b>Install Python</b> from python.org (Windows) or Homebrew (Mac).</li><li><b>Check it.</b> In a new terminal, run py -3 --version on Windows or python3 --version on a Mac.</li><li><b>Install the Python extension</b> from the Extensions view in VS Code.</li><li><b>Open a folder, not a file.</b> File, Open Folder. In the docs' words, that folder becomes your "workspace".</li><li><b>Create an environment.</b> Command Palette, Python: Create Environment, choose Venv, then the interpreter you installed.</li><li><b>Select the interpreter.</b> Python: Select Interpreter, or click the Python version in the Status Bar.</li><li><b>Create a .py file,</b> type a line of code and save it.</li><li><b>Run it</b> with the Run Python File play button in the top-right of the editor.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>A ten-second check &middot; which Python is VS Code using?</b><span>python</span></figcaption><pre># check_setup.py  (ours) run with Run Python File
+import sys
+print(sys.version)       # which Python is running
+print(sys.executable)    # where it lives on disk
+
+# In the VS Code terminal on Windows, the docs suggest:
+#   py -3 --version
+#   py -0      (lists installs; * marks the default)
+# Our run of py -0:
+#   -V:3.13 *        Python 3.13 (64-bit)</pre><p class="ag-code-note">If sys.executable does not point into your project's .venv folder, VS Code is using a different Python from the one your packages went into.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Three Python errors and their fixes, from the VS Code Python tutorial</caption><thead><tr><th scope="col">What you see</th><th scope="col">Why</th><th scope="col">Fix</th></tr></thead><tbody><tr><td>"ModuleNotFoundError: No module named 'numpy'"</td><td>The tutorial says it means "the required package isn't available in your interpreter"</td><td>In the VS Code terminal for that interpreter, run python -m pip install numpy (Windows) or python3 -m pip install numpy (Mac)</td></tr><tr><td>Python installed, but VS Code or the terminal cannot find it</td><td>A terminal reads system settings only when it starts</td><td>The docs say: "close and reopen the terminal (or restart VS Code)"</td></tr><tr><td>Packages vanish when you switch projects</td><td>Each virtual environment keeps its own packages</td><td>Pick the right interpreter in the Status Bar; share setups with pip freeze > requirements.txt</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="java">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java</p><h2>Setting up Java in VS Code, and the file-name error every AP student meets</h2><p class="ag-lede">Java in VS Code needs a JDK and the Java extensions. Our AP Computer Science A course is taught in Java, and its students tend to meet the same two compile errors in their first week.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Broken &middot; the class name and file name disagree</b><span>java</span></figcaption><pre>// Saved as Greeting.java  (broken on purpose, ours)
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hi from VS Code");
+    }
+}
+
+// Our run, javac 22.0.1:
+// Greeting.java:1: error: class Hello is public,
+//   should be declared in a file named Hello.java</pre><p class="ag-code-note">In Java, a public class must live in a file with exactly the same name, including capital letters. This is a Java rule, not a VS Code one, so it appears in every editor.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Fixed &middot; rename the file to match the class</b><span>java</span></figcaption><pre>// Saved as Hello.java  (fixed, ours)
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hi from VS Code");
+    }
+}
+
+// Our run: javac Hello.java, then java Hello
+// Hi from VS Code
+// Leave out the semicolon and javac 22.0.1 says:
+// Hello.java:3: error: ';' expected</pre><p class="ag-code-note">Rename the file in the VS Code Explorer, or rename the class; the two must match. Case matters: hello.java is a different name from Hello.java.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Open the folder, or the language server stalls</h3><p>The Java tutorial warns: "If you open a Java file in VS Code without opening its folder, the Java Language Server might not work properly." Symptoms are red squiggles everywhere, no Run button, or no code completion.</p>
+<p>Fix it with File, Open Folder on the folder that holds your .java files. For a school project with a build tool, open the project's top folder.</p></div><div><h3>When Run is missing: lightweight mode</h3><p>The Java project docs explain that "Lightweight mode doesn't resolve imported dependencies nor build the project", so it cannot run or debug. Click the Java status item in the Status Bar to switch to standard mode.</p>
+<p>If things are still strange, the docs suggest the Java: Clean Java Language Server Workspace command, which rebuilds the language server's view of your project.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: <a class="ag-inline-link" href="https://code.visualstudio.com/docs/java/java-tutorial" rel="noopener" target="_blank">Getting Started with Java in VS Code</a> and <a class="ag-inline-link" href="https://code.visualstudio.com/docs/java/java-project" rel="noopener" target="_blank">Managing Java Projects in VS Code</a>; compile errors from our own run of javac 22.0.1 on Windows 11. We are not connected with Microsoft.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="checks">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">When it still fails</p><h2>Ten checks when VS Code will not run your code</h2><p class="ag-lede">Our checklist for the evening before an assignment is due. Work through it in order and stop at the first check that explains the error.</p></div>
+    <ol class="ag-steps"><li><b>Is the language installed?</b> VS Code does not include Python or a JDK. Check with a version command in a new terminal.</li><li><b>Is the extension installed and enabled?</b> Search @installed in the Extensions view.</li><li><b>Did you open the folder?</b> File, Open Folder, not a single file from Downloads.</li><li><b>Is the right interpreter selected?</b> Look at the Python version in the Status Bar and click it to change.</li><li><b>Did you restart the terminal?</b> After any install, open a fresh terminal so PATH is read again.</li><li><b>Read the whole error.</b> Copy the last line into your notes before trying anything.</li><li><b>Java: does the file name match the class?</b> Hello.java for public class Hello.</li><li><b>Java: is it lightweight mode?</b> Switch to standard mode from the Status Bar.</li><li><b>Is the code saved?</b> The docs note that Run Python File in Terminal saves the file automatically; with any other run method, save first.</li><li><b>Try a one-line program.</b> If print("hi") runs, the setup works and the problem is in your code.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>About the AI features</h3><p>Current VS Code versions include AI chat features linked to GitHub Copilot. They are optional, and the VS Code FAQ says that if you disable AI functionality or do not sign in, your data is not sent to the Copilot back end.</p>
+<p>While students are learning to read errors, we keep AI chat switched off in lessons, so they learn to fix problems themselves. Check your school's rules before turning such tools on for coursework.</p></div><div><h3>What we will and will not do</h3><p>A teacher can set up VS Code with you on a shared screen, explain each error, and make sure your own laptop works for the rest of the year.</p>
+<p>We do not write or finish graded assignments. We teach the concept so you can solve the assignment yourself.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A first term</p><h2>What a first term looks like when the setup is done right</h2><p class="ag-lede">Our plan for students who are new to a real code editor. The first two classes deal with setup so it never gets in the way again.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A first term in VS Code (our plan, adjusted for each student)</caption><thead><tr><th scope="col">Classes</th><th scope="col">What the student does</th><th scope="col">What it builds</th></tr></thead><tbody><tr><td>1 to 2</td><td>Install, open a folder, run a first file</td><td>A setup that works every time</td></tr><tr><td>3 to 4</td><td>Variables, input and output</td><td>Reading the terminal, saving often</td></tr><tr><td>5 to 6</td><td>Decisions and loops</td><td>Using the debugger and breakpoints</td></tr><tr><td>7 to 8</td><td>Functions or methods</td><td>Splitting code across files</td></tr><tr><td>9 to 10</td><td>A project with a package or class</td><td>Environments, imports, file names</td></tr><tr><td>11 to 12</td><td>Version control with Git</td><td>Committing work from inside VS Code</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Middle school</h3><p>In our classes, students in Grades 6 to 8 start with Python, where one file and one play button go a long way.</p></div><div><h3>High school</h3><p>Students heading for AP Computer Science A add Java in the second term with us, in the same editor.</p></div><div><h3>College</h3><p>We have college students set up one environment per course from day one, which saves a lot of grief at midterms.</p></div></div>
+    <p class="ag-mt-40">For the AP course itself, see <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A online classes</a>; for Java outside the AP track, <a class="ag-inline-link" href="/java-classes-for-teens">Java classes for teens</a>; and for choosing an editor at all, our post on <a class="ag-inline-link" href="/blog/best-java-ides-for-beginners">Java IDEs for beginners</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student is</p>
+      <h2>Four stages of working in a real editor</h2>
+      <p class="ag-lede">From fighting the setup to forgetting it is there.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages with VS Code (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Installer</td><td class="ag-num">VS Code is installed, but nothing runs yet</td></tr><tr><td>2. Runner</td><td class="ag-num">Runs single files with the play button</td></tr><tr><td>3. Organizer</td><td class="ag-num">Works in folders, environments and projects</td></tr><tr><td>4. Debugger</td><td class="ag-num">Uses breakpoints and reads errors before searching</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>If your child is stuck at stage 1, it is almost never their fault: one of the three pieces is missing. Once all three pieces are in place, the setup keeps working.</p>
+<p>On a school-managed laptop, some installs are blocked on purpose. Check with the school before working around anything.</p></div><div><h3>For students</h3><p>Always open the folder. Half of all VS Code mysteries disappear with that one habit.</p>
+<p>Look at the Status Bar. It tells you which Python or which Java mode you are in.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses taught in a real editor</h2>
+      <p class="ag-lede">All live online with a regular teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / TEN / 01</p>
+          <h4>Python for teens</h4>
+          <p>Projects in VS Code.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / TEN / 02</p>
+          <h4>Java for teens</h4>
+          <p>Classes, objects, real programs.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / TEN / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>Websites built in the editor.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Exams and tools</h3>
+        <span class="ag-band-sub">High school</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / EXM / 01</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java for the AP course.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / EXM / 02</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Commit and push from VS Code.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / EXM / 03</p>
+          <h4>Full-stack web for teens</h4>
+          <p>Front end to server.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>College and adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / PRO / 01</p>
+          <h4>Python, zero to advanced</h4>
+          <p>For college and beyond.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / PRO / 02</p>
+          <h4>Java for college</h4>
+          <p>Complete Java, live.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VSC / PRO / 03</p>
+          <h4>Git and GitHub for college</h4>
+          <p>Collaboration on real repos.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons on your own laptop</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school batches in US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Good for a full setup session.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">When an assignment is due soon.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One teacher</h3><p>The same person all term.</p></div>
+      <div><h3>Your machine</h3><p>We fix the setup you will use.</p></div>
+      <div><h3>Screen sharing</h3><p>Errors read together, live.</p></div>
+      <div><h3>You do the work</h3><p>Graded work stays your own.</p></div>
+      <div><h3>Anywhere in the US</h3><p>Online, from home.</p></div>
+      <div><h3>Batch or solo</h3><p>Fifteen to twenty, or one student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students built in their own editors</h2>
+      <p class="ag-lede">Apps and programs from students who once could not get the play button to work. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">VS Code, Python and a JDK are all free. Our fee is for the teaching, charged per month in US dollars, with no semester-long agreement and no charge after you decide to stop.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>We can start with your setup</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>A regular teacher</li><li>Your choice of batch</li><li>Month by month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private lessons</li><li>Booked at your convenience</li><li>Your own course and laptop</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Word-for-word Google reviews from parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions students ask</p>
+      <h2>VS Code setup: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is VS Code free for students?</h3>
+        <p>Yes. The VS Code FAQ says VS Code is free for private or commercial use, so there is no student version to apply for. Python and the free JDK builds the Java tutorial lists cost nothing either.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why is VS Code not working with Python?</h3>
+        <p>Usually one of three pieces is missing: VS Code, the Python extension, or Python itself. The extension does not include Python. Install Python, restart the terminal, then choose the interpreter with Python: Select Interpreter.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I select the Python interpreter in VS Code?</h3>
+        <p>Click the Python version shown in the Status Bar, or open the Command Palette and run Python: Select Interpreter, then choose your project environment or the Python you installed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does VS Code say No module named numpy?</h3>
+        <p>The package is not installed in the interpreter VS Code is using. In the VS Code terminal for that interpreter, run python -m pip install numpy on Windows or python3 -m pip install numpy on a Mac.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I set up Java in VS Code?</h3>
+        <p>Install a JDK and the Extension Pack for Java, or on Windows and macOS use the Coding Pack for Java, which bundles both with VS Code. Then open the folder that holds your .java files.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does Java say class is public, should be declared in a file named?</h3>
+        <p>A public class must be in a file with exactly the same name. Our run of public class Hello in Greeting.java failed for that reason. Rename the file to Hello.java, matching capital letters.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I install VS Code on a school laptop without admin rights?</h3>
+        <p>The VS Code docs say the Windows User setup does not require administrator permissions. Your school may still block installs, so check with your teacher or school tech office first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you do my coding assignment?</h3>
+        <p>No. We help you set up your tools and teach the ideas so you can finish your own assignment. We never complete graded work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do Python or Java classes cost?</h3>
+        <p>The first lesson is free. After that you pay monthly for live lessons, and the fees section on this page shows the amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students using real code editors.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>The full list of our pages for the US.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP CSA online classes</a></h3><p>Java for the AP course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-teens">Java classes for teens</a></h3><p>Java beyond the AP track.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/best-java-ides-for-beginners">Java IDEs for beginners</a></h3><p>Comparing editors before you install.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/git-vs-github-difference">Git vs GitHub</a></h3><p>The next tool after the editor.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-15-year-olds">Python for 15 year olds</a></h3><p>A high school starting point.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us which class needs VS Code and what error you see. The first lesson can be spent getting your laptop working.</p>
+        <p class="ag-mt-40">To see the method first, read about <a class="ag-inline-link" href="/how-we-teach">our live lessons</a>, or look through <a class="ag-inline-link" href="/courses">every course</a> and its syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20needs%20help%20setting%20up%20VS%20Code%20for%20Python%20or%20Java%20for%20school.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cs',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes run online with teachers in India, so students join from any state without traveling. Message us on WhatsApp for the fastest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cs(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free and asks for no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Code editors</h4><ul><li><a href="/blog/best-java-ides-for-beginners">Java IDEs for beginners</a></li><li><a href="/ap-computer-science-a-online-classes">AP CSA classes</a></li><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/java-classes-for-teens">Java classes for teens</a></li><li><a href="/python-for-14-year-olds">Python for 14 year olds</a></li><li><a href="/levels/coding-for-teens">Coding for teens</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Editor, extension, language: all three</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cs = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'vs-code-setup-for-students-inline', meta: { name: name, age: age, page: 'vs-code-setup-for-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

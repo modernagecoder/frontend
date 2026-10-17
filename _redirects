@@ -7074,4 +7074,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /jupyter-notebook-errors-for-students /src/pages/jupyter-notebook-errors-for-students.html 200
 /jupyter-notebook-errors-for-students.md /src/pages/jupyter-notebook-errors-for-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/vs-code-setup-for-students /src/pages/vs-code-setup-for-students.html 200
+/vs-code-setup-for-students.md /src/pages/vs-code-setup-for-students.md 200
 /* /src/pages/404.html 404
