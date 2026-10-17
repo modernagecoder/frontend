@@ -568,6 +568,12 @@
   grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
 @media (max-width: 860px) { .ag-code-pair { grid-template-columns: minmax(0,1fr); } }
 @media (max-width: 520px) { .ag-code pre { font-size: 12px; } }
+/* Numbered steps (how-to pages): a counter in the mono face, one step per line. */
+.ag-steps { counter-reset: agstep; list-style: none; margin: 26px 0 0; padding: 0; display: grid; gap: 12px; }
+.ag-steps li { counter-increment: agstep; position: relative; padding: 12px 14px 12px 52px;
+  border: 1px solid var(--ag-rule-soft); border-radius: 3px; background: #FFFDF9; line-height: 1.6; }
+.ag-steps li::before { content: counter(agstep, decimal-leading-zero); position: absolute; left: 14px; top: 12px;
+  font-family: var(--ag-mono); font-size: 13px; font-weight: 600; color: var(--ag-accent); }
 
 /* --- exam family: ten international computer science exams. Accents solved
    for >=4.5:1 on all three paper tints and separated from each other. --- */

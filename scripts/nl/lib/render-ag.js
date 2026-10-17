@@ -79,6 +79,13 @@ function block(b) {
       return `<p${b.mt ? ' class="ag-mt-40"' : ''}>${blockHtml(b)}</p>`;
     case 'capsule':
       return `<div class="ag-capsule"><p class="ag-capsule-q">${b.q}</p><p>${b.p}</p></div>`;
+    // Real code, styled by .ag-code in ai-global.css. Escapes only &, < and > so quotes stay readable.
+    case 'code': {
+      const code = String(b.code).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      return `<figure class="ag-code"><figcaption class="ag-code-head"><b>${esc(b.label)}</b><span>${esc(b.lang)}</span></figcaption><pre>${code}</pre>${b.note ? `<p class="ag-code-note">${b.note}</p>` : ''}</figure>`;
+    }
+    case 'ol':
+      return `<ol class="ag-steps${b.mt ? ' ag-mt-40' : ''}">` + b.items.map(i => `<li>${i}</li>`).join('') + '</ol>';
     default:
       throw new Error('render-ag: unknown block kind ' + b.kind);
   }
