@@ -23997,6 +23997,18 @@
   to = "/src/pages/acsl-competition-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/picoctf-for-beginners"
+  to = "/src/pages/picoctf-for-beginners.html"
+  status = 200
+
+[[redirects]]
+  from = "/picoctf-for-beginners.md"
+  to = "/src/pages/picoctf-for-beginners.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

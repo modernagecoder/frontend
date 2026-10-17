@@ -682,6 +682,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Scratch not working: https://learn.modernagecoders.com/scratch-not-working-help
 - Presidential AI Challenge guide: https://learn.modernagecoders.com/presidential-ai-challenge-guide
 - ACSL competition preparation: https://learn.modernagecoders.com/acsl-competition-preparation
+- picoCTF for beginners: https://learn.modernagecoders.com/picoctf-for-beginners
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

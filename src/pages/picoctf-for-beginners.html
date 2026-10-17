@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>picoCTF for Beginners: How to Start, Ethically, in 2026</title>
+  <meta name="description" content="picoCTF for beginners: picoCTF is now CyLab Security Academy, ages 13 and up. The eight domains, the Primer, a first-month plan and two Python examples.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/picoctf-for-beginners">
+  <link rel="alternate" type="text/markdown" href="/src/pages/picoctf-for-beginners.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#346642">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/picoctf-for-beginners">
+  <meta property="og:title" content="picoCTF for Beginners: How to Start, Ethically, in 2026">
+  <meta property="og:description" content="Free capture the flag practice from Carnegie Mellon, now called CyLab Security Academy. How a US beginner aged 13 or over should start, legally and without copying answers.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="picoCTF for Beginners: How to Start, Ethically, in 2026">
+  <meta name="twitter:description" content="picoCTF, now CyLab Security Academy, for US beginners aged 13 and up.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pb .ag-hero h1 { letter-spacing: -0.006em; }
+.ag-root.ag-pb .ag-capsule { border-left-width: 4px; border-radius: 3px; }
+.ag-root.ag-pb .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-pb .ag-table caption { text-align: left; font-variant-numeric: tabular-nums; }
+.ag-root.ag-pb .ag-steps { gap: 1rem; }
+.ag-root.ag-pb .ag-slots { gap: 1.25rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/picoctf-for-beginners#page","url":"https://learn.modernagecoders.com/picoctf-for-beginners","name":"picoCTF for Beginners","description":"A beginner guide for US teens and parents to picoCTF, now CyLab Security Academy, built from Carnegie Mellon pages, with a first-month plan and two Python examples of our own.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"picoCTF for beginners","item":"https://learn.modernagecoders.com/picoctf-for-beginners"}]},{"@type":"Course","name":"picoCTF for Beginners","description":"Live online ethical cybersecurity and Python classes for US teens aged 13 to 18 starting picoCTF practice, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/picoctf-for-beginners"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/picoctf-for-beginners"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/picoctf-for-beginners"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is picoCTF still running?","acceptedAnswer":{"@type":"Answer","text":"Yes, under a new name. The picoctf.org site says picoCTF is now CyLab Security Academy, Carnegie Mellon University's free cybersecurity learning platform, and old picoCTF logins still work."}},{"@type":"Question","name":"How old do you have to be for picoCTF?","acceptedAnswer":{"@type":"Answer","text":"At least 13, under the platform's Terms of Use. Teens aged 13 to 17 need a parent or guardian's email at registration, unless a teacher registers the class."}},{"@type":"Question","name":"Is picoCTF free?","acceptedAnswer":{"@type":"Answer","text":"Yes. CyLab Security Academy describes itself as always free, supported by sponsors and gifts."}},{"@type":"Question","name":"What is the picoCTF gym?","acceptedAnswer":{"@type":"Answer","text":"The name many guides use for the practice area. On the new platform it is the Challenge Library, with problems from past competitions and new ones, open year-round."}},{"@type":"Question","name":"Where should a complete beginner start?","acceptedAnswer":{"@type":"Answer","text":"With the CTF Primer and the Beginner's Guide to the Challenge Library learning path, which focuses on General Skills such as the terminal and simple scripts."}},{"@type":"Question","name":"Do I need to know programming first?","acceptedAnswer":{"@type":"Answer","text":"No. The learners FAQ says the minimum is thinking critically, and many players began with no programming. Python, HTML, JavaScript and C help, and are worth learning along the way."}},{"@type":"Question","name":"What does a picoCTF flag look like?","acceptedAnswer":{"@type":"Answer","text":"The CTF Primer says flags are often in the format picoCTF{} with text inside the braces. You submit the full string to score."}},{"@type":"Question","name":"Is it legal to hack picoCTF challenges?","acceptedAnswer":{"@type":"Answer","text":"Yes, on the platform. Its home page says every challenge is built to be hacked, so the practice is legal. Using the same techniques on systems you do not own or have permission to test is not."}},{"@type":"Question","name":"Will you give my teen the answers to picoCTF challenges?","acceptedAnswer":{"@type":"Answer","text":"No. We teach the concept behind a stuck point and the student solves the challenge. During events, sharing flags or spoilers is grounds for removal from the community."}},{"@type":"Question","name":"When are classes held?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"When is the next picoCTF competition?","acceptedAnswer":{"@type":"Answer","text":"On 17 October 2026 the competitors page said details were coming soon. The platform runs mini-competitions through the year and an annual flagship for US middle and high school students, listed in the Events tab."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/picoctf-for-beginners","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-pb">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#change">picoCTF now</a></li>
+      <li><a href="#domains">Eight domains</a></li>
+      <li><a href="#start">First steps</a></li>
+      <li><a href="#code">Python examples</a></li>
+      <li><a href="#month">Eight weeks</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / picoCTF for beginners
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 13 to 18 &middot; Free practice, built to be hacked</p>
+        <h1>picoCTF for beginners</h1>
+        <p class="ag-lede">picoCTF began as a capture the flag contest for high school students and is now a year-round learning platform called CyLab Security Academy, run by Carnegie Mellon University. A beginner solves small security puzzles, each hiding a string called a flag, in a space designed to be attacked so that the practice is legal. This guide covers what changed in 2026, who may sign up, the eight topic areas, how to begin without copying anyone&rsquo;s answers, and two small Python examples we wrote to teach the first skills.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#month" class="ag-btn ag-btn--ghost">See the eight-week plan</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20wants%20to%20start%20picoCTF%20and%20learn%20cybersecurity%20properly.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pb'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; ethical security, taught as skills</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>What</dt><dd>Capture the flag practice</dd>
+          <dt>Now called</dt><dd>CyLab Security Academy</dd>
+          <dt>Run by</dt><dd>Carnegie Mellon University</dd>
+          <dt>Cost</dt><dd>Free</dd>
+          <dt>Age</dt><dd>13 and over</dd>
+          <dt>Teams</dt><dd>Solo, or up to 5 in events</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>A beginner should start picoCTF by creating a free account on CyLab Security Academy, the new name for picoCTF, reading the CTF Primer, and working through the beginner learning path in the Challenge Library before entering a timed event. Users must be at least 13, and teens under 18 need a parent&rsquo;s email to register. Solve each challenge yourself: hints are built in, and sharing flags is grounds for removal.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn the skills with a teacher</p>
+      <h2>Three courses for a picoCTF beginner</h2>
+      <p class="ag-lede">Capture the flag rewards understanding. These courses teach the ideas under the puzzles, from the terminal to encodings and web basics, always on the defending side.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens">
+        <div class="ag-pick-shot"><img src="/images/cybersecurity-competitions-teens.webp" alt="Cybersecurity Competitions for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PB / 01</p>
+          <h3>picoCTF and CyberPatriot prep</h3>
+          <p>Ages 13 to 18. Contest skills, learned ethically.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cybersecurity-course-for-teens-ethical-defensive">
+        <div class="ag-pick-shot"><img src="/images/cybersecurity-teens.webp" alt="Cybersecurity for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PB / 02</p>
+          <h3>Cybersecurity for teens</h3>
+          <p>Ages 13 to 18. White-hat defense from the ground up.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PB / 03</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 18. The language most CTF scripts use.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="change">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What changed</p><h2>picoCTF is now CyLab Security Academy</h2><p class="ag-lede">Searches still say picoCTF, and so do many teachers. Here is what the new name means for someone starting now.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>picoCTF in 2026, from picoctf.org and cylabacademy.org (read 17 October 2026)</caption><thead><tr><th scope="col">Question</th><th scope="col">What the official pages say</th></tr></thead><tbody><tr><td>What is picoctf.org now?</td><td>A notice titled "picoCTF.org is now CyLab Security Academy"</td></tr><tr><td>Who runs it?</td><td>Carnegie Mellon University&rsquo;s CyLab Security and Privacy Institute; the same team, described as a bigger mission</td></tr><tr><td>Old accounts</td><td>Logins "created before May 8, 2026" still work, with progress and history intact</td></tr><tr><td>The picoCTF name</td><td>A button reads "Coming Soon: picoCTF.com"</td></tr><tr><td>Size</td><td>"490+ hands-on challenges" on the learners page; 16 competitions hosted to date</td></tr><tr><td>Cost</td><td>Free; the site describes itself as always free for everyone</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What stays the same</h3><p>The core idea has not changed. Each challenge hides a flag that you find by reading, thinking and sometimes breaking things, and you submit it to score. The About page sums up the history: the largest high school hacking competition now provides year-round learning.</p>
+<p>Practice problems from past competitions sit in the Challenge Library, which many guides still call the picoCTF gym.</p></div><div><h3>How the platform is laid out now</h3><p>The platform now lists four parts: Challenges, Learning Paths, Events and Classrooms. Learning paths add readings, videos and small games in order, which helps a beginner more than a long unsorted list.</p>
+<p>Its list of domains now includes one for AI, covering prompt injection and adversarial examples, and one for blockchain smart contracts.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://picoctf.org/" rel="noopener" target="_blank">picoctf.org</a>, <a class="ag-inline-link" href="https://cylabacademy.org/" rel="noopener" target="_blank">cylabacademy.org</a>, its <a class="ag-inline-link" href="https://cylabacademy.org/learners.html" rel="noopener" target="_blank">learners</a> and <a class="ag-inline-link" href="https://cylabacademy.org/competitors.html" rel="noopener" target="_blank">competitors</a> pages, read 17 October 2026. Modern Age Coders is not part of Carnegie Mellon or CyLab and does not run picoCTF.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="age">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Who can sign up</p><h2>The age rule: 13 and over, with a parent for under-18s</h2><p class="ag-lede">Before any practice, check the account rules. They come from the platform&rsquo;s Terms of Use, effective January 30, 2025.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Account rules in the CyLab Security Academy Terms of Use</caption><thead><tr><th scope="col">Age</th><th scope="col">What the terms say</th></tr></thead><tbody><tr><td>Under 13</td><td>May not register. To comply with the Children&rsquo;s Online Privacy Protection Act, the Services are available only to users who are at least 13 years old</td></tr><tr><td>13 to 17</td><td>A parent or legal guardian gives their email address at registration to show consent, unless a teacher registers the class in a batch</td></tr><tr><td>18 and over</td><td>Welcome; the learners FAQ says college students and non-students can play</td></tr><tr><td>Usernames</td><td>No real name or other personally identifying information in the username</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For a family in the US</h3><p>A 12-year-old who is keen on security should wait, and can spend the time on Python and on how the internet works. The platform is aimed at middle and high school students aged 13 or older.</p>
+<p>For a 13 to 17-year-old, the parent&rsquo;s email is part of sign-up. That is a good moment to agree how the account will be used and that it stays on the practice platform.</p></div><div><h3>Prizes are separate from play</h3><p>Anyone can compete to learn. Prize eligibility is set per event, and the learners FAQ notes that some competitions limit it to students enrolled in US middle or high schools.</p>
+<p>If a teen wants to enter for prizes, read that event&rsquo;s own rules when it is posted, because each event sets them separately.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="domains">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eight domains</p><h2>The eight picoCTF challenge areas, in a beginner order</h2><p class="ag-lede">The platform lists eight domains. The descriptions are from its home page; the order is our suggestion for someone starting from zero.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CyLab Security Academy domains (official) and our suggested order for beginners</caption><thead><tr><th scope="col">Our order</th><th scope="col">Domain</th><th scope="col">What it covers (official summary)</th></tr></thead><tbody><tr><td>1</td><td>General Skills</td><td>The terminal, bash scripting and quick file work, used in every other area</td></tr><tr><td>2</td><td>Cryptography</td><td>Codes, ciphers and locked data; how encryption and hashing work</td></tr><tr><td>3</td><td>Forensics</td><td>Hunting through files, images and network traffic for hidden data</td></tr><tr><td>4</td><td>Web Exploitation</td><td>Why websites trust input too much: SQL injection, XSS, broken logins</td></tr><tr><td>5</td><td>Reverse Engineering</td><td>Working out what a program does without its source code</td></tr><tr><td>6</td><td>Binary Exploitation</td><td>How careless memory handling lets software misbehave</td></tr><tr><td>7</td><td>AI</td><td>How models can be tricked, from prompt injection to adversarial examples</td></tr><tr><td>8</td><td>Blockchain</td><td>Bugs in smart contract code</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why General Skills comes first</h3><p>Almost every later challenge assumes you can move around a Linux terminal, read files and run small scripts. Students who skip it get stuck on the tools rather than the puzzle.</p>
+<p>The platform&rsquo;s own Beginner&rsquo;s Guide to the Challenge Library is described as its most approachable problems, touching every category but focused on General Skills. It is the natural first path.</p></div><div><h3>Why binary comes late</h3><p>Binary exploitation needs C, memory layout and assembly. These are rewarding, but they make more sense after a student has written a few programs and seen how data is stored.</p>
+<p>Our order is a teaching choice, not a rule. A student who loves websites can move Web Exploitation earlier once the terminal feels comfortable.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">First steps</p><h2>How to start picoCTF as a complete beginner</h2><p class="ag-lede">Six steps, in order, using only the platform&rsquo;s own free material. The learners FAQ says the minimum you need is the ability to think critically.</p></div>
+    <ol class="ag-steps"><li><b>Create an account.</b> Sign up on CyLab Security Academy and confirm the email. Under-18s register with a parent&rsquo;s email; old picoCTF logins still work.</li><li><b>Read the CTF Primer.</b> It is a free textbook-style guide with chapters on the shell, forensics, Python, web exploits, cryptography, networks and assembly, written by the education team.</li><li><b>Take the beginner path.</b> Open the Beginner&rsquo;s Guide to the Challenge Library and solve its problems in order, reading each linked explanation.</li><li><b>Use the webshell.</b> Many challenges need only a web browser and the provided webshell, so a school Chromebook can be enough to begin.</li><li><b>Use hints, one at a time.</b> The home page says hints are available one at a time when you are stuck. Take one, think again, and only then take the next.</li><li><b>Enter an event.</b> When a timed event appears in the Events tab, join it. The competitors page says there is no penalty for wrong guesses, so trying costs nothing.</li></ol>
+    <p class="ag-mt-40">A copied flag scores a point and teaches nothing about finding the next one. Our classes never hand over flags or walkthroughs for platform challenges: the teacher explains the concept behind a stuck point, and the student solves the challenge.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ethics">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Playing fair</p><h2>The ethics of capture the flag, in plain terms</h2><p class="ag-lede">Security skills can protect people or hurt them. The platform draws the line clearly, and so do we.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Rules of the road for a picoCTF beginner (official lines, with our notes)</caption><thead><tr><th scope="col">Rule</th><th scope="col">Why it matters</th></tr></thead><tbody><tr><td>Practise only where it is allowed</td><td>The home page says "Every challenge is built to be hacked, so the practice is legal". School networks, websites and friends&rsquo; accounts are not.</td></tr><tr><td>No spoilers during events</td><td>The Discord is not for competition challenge help, and "spoilers or flag sharing during a competition are grounds for removal".</td></tr><tr><td>Your own work counts</td><td>A flag copied from a forum scores points and teaches nothing.</td></tr><tr><td>Defend with what you learn</td><td>The platform says it teaches you to think like a hacker, then use that thinking to defend systems.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the shortcut costs more now</h3><p>CyLab&rsquo;s own white paper, Skill or Shortcut?, reports that six years of competition data show the post-AI cohort improving at nearly half the rate of the pre-AI cohort.</p>
+<p>Our reading: getting the answer and building the skill have come apart. An AI chatbot can often explain a challenge, but a student who never struggles with it does not get faster at the next one.</p></div><div><h3>How we use AI in class</h3><p>Students may ask an age-appropriate AI tool what a command or error means, then try it themselves. They do not paste a challenge in and ask for the flag.</p>
+<p>Check a tool&rsquo;s own age terms first. Many general chatbots set minimum ages, and some are for adults only.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="code">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Python examples</p><h2>Two Python skills every picoCTF beginner uses</h2><p class="ag-lede">Both examples run on our own sample strings, not on any challenge. They teach two habits that appear across the General Skills and Cryptography areas.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; undo layers of encoding</b><span>python</span></figcaption><pre># layers.py (ours): undo two layers of encoding, one at a time
+import base64
+
+message = "624746355a584a7a"   # our own sample, not a challenge
+
+step1 = bytes.fromhex(message).decode()
+print(step1)                   # bGF5ZXJz  (still encoded)
+
+step2 = base64.b64decode(step1).decode()
+print(step2)                   # layers</pre><p class="ag-code-note">Hex and base64 are encodings, not encryption: anyone can reverse them without a key. Recognising them on sight is a first skill. Hex uses only 0 to 9 and a to f; base64 mixes upper and lower case letters, digits, plus and slash, and often ends in an equals sign.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; find flag-shaped text</b><span>python</span></figcaption><pre># find_flags.py (ours): pull flag-shaped strings out of text
+import re
+
+log = """09:14 user=ana opened notes
+09:15 picoCTF{pr4ct1c3_0nly}
+09:16 picoCTF{this_line_is_much_too_long}
+09:17 user=ana closed notes"""
+
+# the pattern the CTF Primer uses to describe a flag
+pattern = r"picoCTF\{.{1,15}\}"
+print(re.findall(pattern, log))   # ['picoCTF{pr4ct1c3_0nly}']</pre><p class="ag-code-note">The CTF Primer describes flags as often in the format picoCTF{} and gives the regular expression picoCTF\{.{1,15}\} for one. Our second sample line does not match because its middle is longer than 15 characters, which is a lesson in reading a pattern exactly.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the examples teach</h3><p>Work one step at a time and print after each step. When a result still looks like gibberish, the printed middle step tells you what to try next.</p>
+<p>Regular expressions turn a long output into the one line you need. The same skill helps a defender search a log for one suspicious entry.</p></div><div><h3>What they deliberately skip</h3><p>Neither example solves a real challenge, and we will not publish one that does. The point is to recognise a technique, so that when a student meets it on the platform, the thinking is theirs.</p>
+<p>Both use only Python&rsquo;s standard library, so they run in the webshell or any editor without installing anything.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">At school</p><h2>If picoCTF will not load on a school network</h2><p class="ag-lede">Many US schools filter new domains by default. The learners FAQ lists the domains a network administrator can allow.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Domains CyLab Security Academy asks schools to allow (learners FAQ, read 17 October 2026)</caption><thead><tr><th scope="col">Domain</th><th scope="col">Access</th></tr></thead><tbody><tr><td>cylabacademy.org</td><td>HTTPS</td></tr><tr><td>learn.cylabacademy.org</td><td>HTTPS</td></tr><tr><td>webshell.cylabacademy.org</td><td>HTTPS</td></tr><tr><td>challenge-files.cylabacademy.net</td><td>HTTPS</td></tr><tr><td>xebec.cylabacademy.net</td><td>All ports, UDP and TCP</td></tr><tr><td>chatelaine.cylabacademy.net</td><td>All ports, UDP and TCP</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Classrooms on the platform</h3><p>Teachers can create a classroom with an invite code, post assignments that bundle challenges and learning paths with due dates, and see each student&rsquo;s progress. A student can belong to several classrooms, for a class and a club.</p>
+<p>Under the terms, a teacher batch registration is also how students aged 13 to 17 can join without each giving a parent email.</p></div><div><h3>Teams in events</h3><p>For team-enabled events, the My Team page creates or joins a team with an invite code. The learners page says teams may have 1 to 5 players from different schools.</p>
+<p>To be eligible for prizes, every player on the team must meet that event&rsquo;s rules.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="month">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eight weeks</p><h2>An eight-week start for a picoCTF beginner</h2><p class="ag-lede">Our plan for a 13 to 15-year-old with no security background, about three hours a week including one class. It uses the free platform material throughout.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Eight weeks from sign-up to a first timed event (ours)</caption><thead><tr><th scope="col">Week</th><th scope="col">Focus</th><th scope="col">Finished when</th></tr></thead><tbody><tr><td>1</td><td>Account, Primer chapter on the shell</td><td>Can list, read and search files in the webshell</td></tr><tr><td>2</td><td>Beginner path, first General Skills problems</td><td>Five beginner problems solved without walkthroughs</td></tr><tr><td>3</td><td>Python basics for CTF</td><td>Can read a file and print what is inside it in a script</td></tr><tr><td>4</td><td>Encodings: binary, hex, base64</td><td>Recognises each on sight and reverses it in Python</td></tr><tr><td>5</td><td>Classical ciphers</td><td>Can explain why a Caesar cipher is easy to break</td></tr><tr><td>6</td><td>Forensics basics</td><td>Can inspect a file&rsquo;s type and metadata</td></tr><tr><td>7</td><td>How the web works</td><td>Can read a page&rsquo;s source and explain a cookie</td></tr><tr><td>8</td><td>A first event</td><td>Entered a timed event and wrote down what to learn next</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Ages 13 and 14</h3><p>Short sessions, lots of talking through ideas. The goal is curiosity and the terminal, not points.</p></div><div><h3>Ages 15 and 16</h3><p>Add Python scripting early, and keep a notebook of every technique learned.</p></div><div><h3>Ages 17 and 18</h3><p>Move into web and reverse engineering sooner, and consider CyberPatriot as a team defense contest alongside.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Readiness</p>
+      <h2>Four stages from first flag to confident player</h2>
+      <p class="ag-lede">Where beginners usually are, and what the next step looks like.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>picoCTF progress stages (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">The student can</th></tr></thead><tbody><tr><td>1. Explorer</td><td class="ag-num">Move around the terminal and read files</td></tr><tr><td>2. Decoder</td><td class="ag-num">Recognise common encodings and simple ciphers</td></tr><tr><td>3. Investigator</td><td class="ag-num">Choose a tool for a forensics or web problem and explain why</td></tr><tr><td>4. Competitor</td><td class="ag-num">Enter a timed event, manage time and learn from misses</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>The platform is free and built to be attacked, so it is a safe place to learn what attackers do. Talk with your teen about where that line is.</p>
+<p>Progress is slow at first because the tools are new. Weeks of General Skills are normal and valuable.</p></div><div><h3>For students</h3><p>Write down every technique you learn with one example. Your notebook becomes your own primer.</p>
+<p>When stuck, take one hint, then explain the problem out loud. Most breakthroughs happen at that point.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for teens who want to learn security</h2>
+      <p class="ag-lede">All taught live online, ages 13 to 18, grouped by the picoCTF areas they support.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">General Skills</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PB / FND / 01</p>
+          <h4>JavaScript for teens</h4>
+          <p>How browsers run code.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PB / FND / 02</p>
+          <h4>HTML and CSS</h4>
+          <p>Read any page source.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PB / FND / 03</p>
+          <h4>Maths through coding</h4>
+          <p>The numbers behind ciphers.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Web and data</h3>
+        <span class="ag-band-sub">Web and forensics</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PB / WEB / 01</p>
+          <h4>Backend for teens</h4>
+          <p>Servers, APIs, databases.</p>
+          <a class="ag-course-link" href="/courses/backend-coding-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PB / WEB / 02</p>
+          <h4>Full stack web</h4>
+          <p>Build it, then secure it.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PB / WEB / 03</p>
+          <h4>Data science for teens</h4>
+          <p>Search data at scale.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Low level</h3>
+        <span class="ag-band-sub">Reverse and binary</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PB / LOW / 01</p>
+          <h4>C++ for teens</h4>
+          <p>Memory, pointers, types.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PB / LOW / 02</p>
+          <h4>Java for teens</h4>
+          <p>How compiled code is built.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PB / LOW / 03</p>
+          <h4>Problem solving</h4>
+          <p>Logic for hard puzzles.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lesson times</p>
+      <h2>Security lessons that fit a school week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">An after-school class in your time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer practice before a timed event.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">For a teen who wants to go deep fast.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Defense first</h3><p>Every technique, and how to stop it.</p></div>
+      <div><h3>No flag sharing</h3><p>Concepts taught; challenges solved by the student.</p></div>
+      <div><h3>Terminal fluency</h3><p>Linux commands until they are habit.</p></div>
+      <div><h3>Python scripts</h3><p>Small tools the student writes.</p></div>
+      <div><h3>Ages 13 to 18</h3><p>Matched to the platform&rsquo;s own age rule.</p></div>
+      <div><h3>Batch or solo</h3><p>Fifteen to twenty learners, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students made</h2>
+      <p class="ag-lede">Security grows from building things. These are our learners&rsquo; own projects; see the <a class="ag-inline-link" href="/student-labs">student labs</a> for more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The platform itself is free. Our part is the teaching, charged monthly in US dollars with no long contract, so a teen can learn the foundations over a semester and continue only if it clicks.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A look at your account</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>A regular security teacher</li><li>Choose a batch time</li><li>Monthly billing</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One teen, one teacher</li><li>Paced to their interests</li><li>Deep dives on request</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents&rsquo; Google reviews, as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>picoCTF for beginners: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is picoCTF still running?</h3>
+        <p>Yes, under a new name. The picoctf.org site says picoCTF is now CyLab Security Academy, Carnegie Mellon University's free cybersecurity learning platform, and old picoCTF logins still work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How old do you have to be for picoCTF?</h3>
+        <p>At least 13, under the platform's Terms of Use. Teens aged 13 to 17 need a parent or guardian's email at registration, unless a teacher registers the class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is picoCTF free?</h3>
+        <p>Yes. CyLab Security Academy describes itself as always free, supported by sponsors and gifts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the picoCTF gym?</h3>
+        <p>The name many guides use for the practice area. On the new platform it is the Challenge Library, with problems from past competitions and new ones, open year-round.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where should a complete beginner start?</h3>
+        <p>With the CTF Primer and the Beginner's Guide to the Challenge Library learning path, which focuses on General Skills such as the terminal and simple scripts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know programming first?</h3>
+        <p>No. The learners FAQ says the minimum is thinking critically, and many players began with no programming. Python, HTML, JavaScript and C help, and are worth learning along the way.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does a picoCTF flag look like?</h3>
+        <p>The CTF Primer says flags are often in the format picoCTF{} with text inside the braces. You submit the full string to score.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is it legal to hack picoCTF challenges?</h3>
+        <p>Yes, on the platform. Its home page says every challenge is built to be hacked, so the practice is legal. Using the same techniques on systems you do not own or have permission to test is not.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you give my teen the answers to picoCTF challenges?</h3>
+        <p>No. We teach the concept behind a stuck point and the student solves the challenge. During events, sharing flags or spoilers is grounds for removal from the community.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes held?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the next picoCTF competition?</h3>
+        <p>On 17 October 2026 the competitors page said details were coming soon. The platform runs mini-competitions through the year and an annual flagship for US middle and high school students, listed in the Events tab.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US teens interested in contests and computer science.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>All of our US pages in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/computer-science-extracurriculars">CS extracurriculars</a></h3><p>Where capture the flag fits.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hackathons-for-high-school-students">Hackathons for high schoolers</a></h3><p>Build on a deadline, in teams.</p></div>
+      <div><h3><a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO coaching</a></h3><p>The programming olympiad.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-15-year-olds">Coding for 15-year-olds</a></h3><p>What to learn at fifteen.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects our learners built.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Bring your account, even if no challenge is solved yet. The teacher checks the terminal basics first and sets a starting point on the beginner path.</p>
+        <p class="ag-mt-40">If you would like the details first, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains our lesson format, and the <a class="ag-inline-link" href="/courses">course list</a> shows each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20wants%20to%20start%20picoCTF%20and%20learn%20cybersecurity%20properly.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pb',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We teach online from India, at hours that suit US time zones. WhatsApp reaches the team fastest.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pb(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson, no card asked for.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests and skills</h4><ul><li><a href="/usaco-preparation-online-coaching">USACO coaching</a></li><li><a href="/hackathons-for-high-school-students">Hackathons for high schoolers</a></li><li><a href="/computer-science-extracurriculars">CS extracurriculars</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A</a></li><li><a href="/congressional-app-challenge-guide">Congressional App Challenge</a></li><li><a href="/coding-for-15-year-olds">Coding for 15-year-olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Encoding is not encryption</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pb = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'picoctf-for-beginners-inline', meta: { name: name, age: age, page: 'picoctf-for-beginners' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

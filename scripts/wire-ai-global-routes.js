@@ -451,6 +451,7 @@ const SLUGS = [
   'scratch-not-working-help',
   'presidential-ai-challenge-guide',
   'acsl-competition-preparation',
+  'picoctf-for-beginners',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -981,6 +982,7 @@ const LLMS_LABELS = {
   'scratch-not-working-help': 'Scratch not working',
   'presidential-ai-challenge-guide': 'Presidential AI Challenge guide',
   'acsl-competition-preparation': 'ACSL competition preparation',
+  'picoctf-for-beginners': 'picoCTF for beginners',
 };
 
 function wireLlms(slugs) {
