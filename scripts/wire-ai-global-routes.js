@@ -438,6 +438,7 @@ const SLUGS = [
   'roblox-studio-errors-fixed',
   'makecode-arcade-help-for-students',
   'codehs-help-for-students',
+  'code-org-app-lab-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -955,6 +956,7 @@ const LLMS_LABELS = {
   'roblox-studio-errors-fixed': 'Roblox Studio errors fixed',
   'makecode-arcade-help-for-students': 'MakeCode Arcade help',
   'codehs-help-for-students': 'CodeHS help for students',
+  'code-org-app-lab-help': 'Code.org App Lab help',
 };
 
 function wireLlms(slugs) {

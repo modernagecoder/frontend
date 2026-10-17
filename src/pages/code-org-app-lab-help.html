@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Code.org App Lab Help: Fix Events, Variables and Screens</title>
+  <meta name="description" content="Code.org App Lab help from the official docs: why a button does nothing, why a score resets, getText versus getNumber, screens, sounds and data, and AP CSP rules.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/code-org-app-lab-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/code-org-app-lab-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#144785">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/code-org-app-lab-help">
+  <meta property="og:title" content="Code.org App Lab Help: Fix Events, Variables and Screens">
+  <meta property="og:description" content="App Lab help built from the official documentation: the onEvent rules, the var-inside-a-handler bug, text versus numbers, multi-screen apps, sound and data storage.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Code.org App Lab Help: Fix Events, Variables and Screens">
+  <meta name="twitter:description" content="App Lab help: events, variables, screens, sound and data, from the official docs.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-coal .ag-hero h1 { letter-spacing: -0.008em; }
+.ag-root.ag-coal .ag-capsule { border-left-width: 5px; border-radius: 8px; }
+.ag-root.ag-coal .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-coal .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-coal .ag-band-head h3 { letter-spacing: -0.003em; }
+.ag-root.ag-coal .ag-slots { gap: 1.05rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/code-org-app-lab-help#page","url":"https://learn.modernagecoders.com/code-org-app-lab-help","name":"Code.org App Lab help","description":"A guide for US middle and high school students to fixing common Code.org App Lab problems, built from the App Lab documentation, with original examples and the AP CSP Create task rules.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Code.org App Lab help","item":"https://learn.modernagecoders.com/code-org-app-lab-help"}]},{"@type":"Course","name":"Code.org App Lab help","description":"Live online JavaScript and AP Computer Science Principles classes for US students who build apps in App Lab, taught in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/code-org-app-lab-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/code-org-app-lab-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/code-org-app-lab-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why does my App Lab button not do anything?","acceptedAnswer":{"@type":"Answer","text":"The App Lab documentation says the UI element must be defined in your code before its onEvent handler, and the id must match exactly. Check the id letter by letter against Design Mode, and make sure the handler comes after the element."}},{"@type":"Question","name":"Why does my App Lab score stay at 1?","acceptedAnswer":{"@type":"Answer","text":"Usually because var score = 0 is inside the onEvent handler, which creates a new variable on every click. The App Lab documentation says to use var only once, at the top of the program, outside any function or onEvent."}},{"@type":"Question","name":"Why does App Lab add 10 and 5 to get 105?","acceptedAnswer":{"@type":"Answer","text":"getText returns text, so the plus sign joins the two values together. The documentation says arithmetic is not possible with that result. Use getNumber to read numbers from a text input or slider."}},{"@type":"Question","name":"What language does Code.org App Lab use?","acceptedAnswer":{"@type":"Answer","text":"JavaScript. App Lab lets you write it with either blocks or text and switch between them, according to the App Lab tool page."}},{"@type":"Question","name":"How do I add sound in App Lab?","acceptedAnswer":{"@type":"Answer","text":"Use playSound with the address of an MP3 file. The documentation says the sound URL needs the full http:// prefix, or you can upload your own file and choose it, in which case the file name is enough."}},{"@type":"Question","name":"How do I switch screens in App Lab?","acceptedAnswer":{"@type":"Answer","text":"Use setScreen with the id of the screen you want. The documentation says the default screen id is screen1, and that only one screen can be visible at a time."}},{"@type":"Question","name":"Does App Lab work on a Chromebook or tablet?","acceptedAnswer":{"@type":"Answer","text":"The App Lab tool page lists laptop, Chromebook and tablet. The editor itself recommends a desktop or laptop computer with a mouse and keyboard for building apps."}},{"@type":"Question","name":"Is Code.org now called CodeAI?","acceptedAnswer":{"@type":"Answer","text":"The footer of the App Lab page, read on 17 October 2026, says the organization is CodeAI and that Code.org is a former trademark of CodeAI. App Lab is still at studio.code.org."}},{"@type":"Question","name":"Can you help me with my AP CSP Create task in App Lab?","acceptedAnswer":{"@type":"Answer","text":"We teach the concepts the task needs with our own examples, but we never write, fix or review Create task code. College Board says plagiarism, including unacknowledged AI-generated code, scores 0 on the Create task."}},{"@type":"Question","name":"When are classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do the classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, lessons are paid month by month, and the fees section on this page shows the amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/code-org-app-lab-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-coal">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#basics">What App Lab is</a></li>
+      <li><a href="#symptoms">Symptoms</a></li>
+      <li><a href="#variables">Variables</a></li>
+      <li><a href="#steps">Debugging</a></li>
+      <li><a href="#apcsp">AP CSP</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Code.org App Lab help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 8 to 12 &middot; Code.org App Lab</p>
+        <h1>Code.org App Lab help: fixing events, variables and screens</h1>
+        <p class="ag-lede">App Lab is where a lot of American students build their first real app: a quiz, a pet poll, a game with a timer, often as part of AP Computer Science Principles. It is friendly, it runs in the browser, and it lets you switch between blocks and JavaScript text. It also has a few rules that are easy to miss, and when one is broken the app does not crash with a clear message. A button simply does nothing, a score stays stuck at 1, or a total of 10 plus 5 comes out as 105. Every one of these has an explanation in the official App Lab documentation, and this page walks through them with small examples of our own.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#symptoms" class="ag-btn ag-btn--ghost">Find your symptom</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20student%20in%20the%20US%20builds%20apps%20in%20Code.org%20App%20Lab%20and%20is%20stuck.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'coal'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; JavaScript and AP CSP</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grades 8 to 12</dd>
+          <dt>Tool</dt><dd>App Lab, in the browser</dd>
+          <dt>Language</dt><dd>JavaScript, blocks or text</dd>
+          <dt>Docs read</dt><dd>17 October 2026</dd>
+          <dt>Exam link</dt><dd>AP Computer Science Principles</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Most App Lab bugs break one of four documented rules: an onEvent must come after the element it listens to, with an id typed exactly; variables that must keep their value are created once with var at the top, never inside onEvent; getText returns text, so use getNumber for arithmetic; and data callbacks finish later, so never put them in a loop.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses for students building apps in App Lab</h2>
+      <p class="ag-lede">Each is taught live, starting from the app your student already has open.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ap-computer-science-principles-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-principles.webp" alt="AP Computer Science Principles course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COAL / 01</p>
+          <h3>AP Computer Science Principles</h3>
+          <p>The exam, the big ideas and how to plan a Create task that is your own.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/javascript-course-for-teens-beginners-interactive-web">
+        <div class="ag-pick-shot"><img src="/images/javascript-teens.webp" alt="JavaScript for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COAL / 02</p>
+          <h3>JavaScript for teens</h3>
+          <p>The language under App Lab&rsquo;s blocks, for real websites and games.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-app-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/app-dev-teens.webp" alt="App Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COAL / 03</p>
+          <h3>App development for teens</h3>
+          <p>The next step after App Lab: apps for real phones.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="basics">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What App Lab is</p><h2>App Lab at a glance, from its own pages</h2><p class="ag-lede">Before fixing anything, it helps to know what App Lab is designed for and what it expects of the device you use. This is what its makers publish.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>App Lab facts, from code.org/en-US/tools/app-lab and the App Lab documentation (read 17 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What the page says</th></tr></thead><tbody><tr><td>What it is</td><td>App Lab &ldquo;is a programming environment where you can make simple apps right in the browser.&rdquo;</td></tr><tr><td>Language</td><td>JavaScript, written &ldquo;with either blocks or text&rdquo;</td></tr><tr><td>Ages listed</td><td>13 to 18, level Beginner</td></tr><tr><td>Devices listed</td><td>Laptop, Chromebook, Tablet; all modern browsers</td></tr><tr><td>Device advice in the editor</td><td>&ldquo;App Lab works best on a desktop or laptop computer with a mouse and keyboard.&rdquo;</td></tr><tr><td>Courses that use it</td><td>Intro to App Lab (grades 8 to 12) and Computer Science Principles (grades 9 to 12)</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Code.org or CodeAI?</h3><p>If the site looks different from what your teacher showed you, that is not your imagination. The footer of the App Lab page, read on 17 October 2026, says the organization is now CodeAI and that "Code.org" is a former trademark of CodeAI.</p>
+<p>App Lab itself still lives at studio.code.org, your projects are where they were, and the documentation pages still carry the familiar function names. We use the name Code.org here because that is what students search for.</p></div><div><h3>What language is App Lab?</h3><p>It is JavaScript. The blocks are a visual way of writing the same JavaScript, and you can switch between the two views. That is why the skills transfer: an onEvent block is the same idea as an event listener on any website.</p>
+<p>It also explains some surprises. JavaScript happily adds text and numbers together by joining them, which is the cause of one of the commonest App Lab bugs, covered below.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://code.org/en-US/tools/app-lab" rel="noopener" target="_blank">App Lab tool page</a> and <a class="ag-inline-link" href="https://studio.code.org/docs/ide/applab" rel="noopener" target="_blank">App Lab documentation</a>, read 17 October 2026. Code.org&rsquo;s support site returned an access error to our request, so no help-desk article is quoted here. We are not connected with Code.org or CodeAI.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="symptoms">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Find your symptom</p><h2>What your app is doing, and the documented reason</h2><p class="ag-lede">App Lab rarely stops with a red error for these bugs. It just behaves strangely. Match the behavior to a row, then read the rule behind it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>App Lab symptoms and the rule behind each, from the App Lab documentation (read 17 October 2026)</caption><thead><tr><th scope="col">What you see</th><th scope="col">The rule the docs give</th><th scope="col">What to check</th></tr></thead><tbody><tr><td>Clicking a button does nothing</td><td>The UI element must be defined in your code before the matching onEvent() event handler</td><td>The element exists first, and the id in onEvent matches it exactly</td></tr><tr><td>An id is rejected or never matches</td><td>An id must begin with a letter, contain no spaces, and may contain letters, digits, - and _</td><td>Rename ids like my button or 2ndScreen</td></tr><tr><td>A score or counter stays at 1</td><td>Create variables once, at the top, outside any function or onEvent</td><td>Remove var from inside the handler</td></tr><tr><td>10 plus 5 shows 105</td><td>getText returns a string; with a number, arithmetic will not be possible</td><td>Use getNumber for numeric input</td></tr><tr><td>A screen&rsquo;s buttons do nothing after switching screens</td><td>Only one screen can be visible at a time, and each has its own elements</td><td>Call setScreen with the right screen id; the default is screen1</td></tr><tr><td>A sound will not play</td><td>The sound URL requires the full http:// prefix</td><td>Use a complete URL, or upload the file and pick it with Choose</td></tr><tr><td>Data from a table arrives late or out of order</td><td>createRecord and readRecords have callbacks and will not finish immediately</td><td>Use the data inside the callback; never put these calls in a loop</td></tr><tr><td>A warning that event is defined but not called</td><td>The documentation says you can ignore it</td><td>Nothing to fix</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where things go in the code</h3><p>The onEvent documentation suggests an order for every program: screen elements at the top, event handlers in the middle, other code and functions at the end. Following it prevents the first two rows of the table almost by itself.</p>
+<p>If you build the screen in Design Mode, the elements already exist when the code runs, and the id dropdown in the onEvent block lists them, which removes typing mistakes.</p></div><div><h3>Tables are per app</h3><p>The createRecord documentation adds a detail that confuses students sharing projects: data is only accessible to the app that created the table. A second app, even one you made yourself, cannot read it. To look at what your app has stored, the docs point to the View data button.</p>
+<p>Column names matter too. The docs say the object property names must match the table&rsquo;s column names, and that both are case sensitive, so score and Score are different columns.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: App Lab documentation for <a class="ag-inline-link" href="https://studio.code.org/docs/ide/applab/expressions/onEvent" rel="noopener" target="_blank">onEvent</a>, <a class="ag-inline-link" href="https://studio.code.org/docs/ide/applab/expressions/getNumber" rel="noopener" target="_blank">getNumber</a>, <a class="ag-inline-link" href="https://studio.code.org/docs/ide/applab/expressions/setScreen" rel="noopener" target="_blank">setScreen</a>, <a class="ag-inline-link" href="https://studio.code.org/docs/ide/applab/expressions/playSound" rel="noopener" target="_blank">playSound</a> and <a class="ag-inline-link" href="https://studio.code.org/docs/ide/applab/expressions/createRecord" rel="noopener" target="_blank">createRecord</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="variables">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Variables and events</p><h2>Why your score keeps resetting: var inside onEvent</h2><p class="ag-lede">This is the App Lab bug teachers see most, and the documentation has a page devoted to it. Here is the bug in a few lines, then the fix.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The bug: a new variable on every click</b><span>javascript</span></figcaption><pre>// ours: a score that never climbs past 1
+onEvent("addButton", "click", function() {
+  var score = 0;            // a new local score, every click
+  score = score + 1;
+  setText("scoreLabel", score);
+});
+
+// our check, with stand-in functions in Node:
+// click 1: scoreLabel shows 1
+// click 2: scoreLabel shows 1
+// click 3: scoreLabel shows 1</pre><p class="ag-code-note">Ours. We checked the logic in Node 22 with stand-in versions of onEvent and setText that behave as the documentation describes; this was not a run inside App Lab. Each click creates a brand-new local score set to 0, adds 1, and throws it away.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The fix: create it once, outside</b><span>javascript</span></figcaption><pre>// ours: the counter pattern, variable created once
+var score = 0;              // global: created once, at the top
+
+onEvent("addButton", "click", function() {
+  score = score + 1;        // no var here
+  setText("scoreLabel", score);
+});
+
+// click 1: 1   click 2: 2   click 3: 3</pre><p class="ag-code-note">Ours, same check. This is the shape the documentation calls the counter pattern with an event: the variable gets its first value once, and each event updates it.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the documentation says</h3><p>The App Lab concept page on variable scope gives three rules: use var only once, create your variables at the top of your program, and create them outside any function or onEvent block.</p>
+<p>It describes the broken version exactly: although it looks like one variable, there are actually two, one local and one global, both named count, and changing one has no effect on the other.</p></div><div><h3>The habit that prevents it</h3><p>The documentation&rsquo;s updateScreen pattern helps here too: keep the app&rsquo;s state in global variables, have every event handler change those variables, then call one function, updateScreen, that redraws everything from them.</p>
+<p>Students who adopt that shape write handlers that are three lines long and almost never have this bug again.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Text that looks like a number</b><span>javascript</span></figcaption><pre>// ours: the user types 10 into priceInput
+var a = getText("priceInput") + 5;     // "10" + 5
+console.log(a);                        // 105
+
+var b = getNumber("priceInput") + 5;   // 10 + 5
+console.log(b);                        // 15</pre><p class="ag-code-note">Ours, same check in Node. The getNumber documentation warns that getText can read a text input too, but a number will be converted to a string and arithmetic will not be possible with the result. The console.log page gives the same lesson: &quot;5&quot; + &quot;3&quot; displays 53.</p></figure>
+    <p class="ag-source-note ag-mt-40">Sources: App Lab concepts, <a class="ag-inline-link" href="https://studio.code.org/docs/concepts/patterns/debugging-variable-scope-functions/" rel="noopener" target="_blank">Debugging Variable Scope: Functions</a>, <a class="ag-inline-link" href="https://studio.code.org/docs/concepts/patterns/counter-patterns-with-event/" rel="noopener" target="_blank">Counter Patterns with Event</a> and <a class="ag-inline-link" href="https://studio.code.org/docs/concepts/patterns/update-screen-pattern/" rel="noopener" target="_blank">The updateScreen() Pattern</a>; <a class="ag-inline-link" href="https://studio.code.org/docs/ide/applab/expressions/console.log" rel="noopener" target="_blank">console.log</a>. All read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="steps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Debugging routine</p><h2>An eight-step routine for an App Lab app that misbehaves</h2><p class="ag-lede">Our order, built on the documentation&rsquo;s rules. It moves from the cheapest checks to the ones that take longer.</p></div>
+    <ol class="ag-steps"><li><b>Say what should happen.</b> One sentence: &ldquo;When I click Next, the question should change.&rdquo; If you cannot say it, the bug may be in the plan, not the code.</li><li><b>Check the ids.</b> Compare the id in Design Mode with the one in your code, letter by letter. The docs say ids are a letter first, no spaces, then letters, digits, hyphens or underscores.</li><li><b>Check the order.</b> Every element must exist before its onEvent. Elements at the top, handlers in the middle, functions at the end.</li><li><b>Add console.log lines.</b> The documentation calls console.log a debugging tool, and notes the user of your app will not see its messages. Log a short message when each handler runs.</li><li><b>Print the variables you care about.</b> Log the value right after you change it. A value that is always the same points at var inside a handler.</li><li><b>Check the type.</b> If a sum looks like two numbers stuck together, you used getText where you needed getNumber.</li><li><b>Check the screen.</b> If buttons stop working after a screen change, confirm setScreen used the right id and that the element belongs to the screen now showing.</li><li><b>Check the timing.</b> For data and timers, move the code that uses the result inside the callback. The docs warn that a loop will not wait for a callback, or for a timer, to finish.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>App Lab variable naming rules, from the documentation (read 17 October 2026)</caption><thead><tr><th scope="col">Rule</th><th scope="col">Breaks it</th><th scope="col">Follows it</th></tr></thead><tbody><tr><td>Labels cannot include spaces</td><td>width of rectangle</td><td>widthOfRectangle</td></tr><tr><td>Labels cannot begin with a number</td><td>2morrow</td><td>tomorrow2</td></tr><tr><td>Labels are case-sensitive</td><td>size and Size used as one variable</td><td>size used everywhere</td></tr><tr><td>Be consistent</td><td>Mixing camelCase and underscores</td><td>One style throughout</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The same routine works in any language with events, which is why it is the first thing we teach in <a class="ag-inline-link" href="/blog/javascript-basics">JavaScript basics</a>. For a wider method that also covers languages without events, see <a class="ag-inline-link" href="/how-to-debug-code">how to debug code</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="apcsp">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AP Computer Science Principles</p><h2>App Lab and the AP CSP Create performance task</h2><p class="ag-lede">Many AP Computer Science Principles classes build the Create performance task in App Lab. College Board&rsquo;s rules for that task are strict, and every App Lab student in an AP class should know them.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AP CSP exam and Create task facts, from AP Central and the AP CSP Course and Exam Description (read 17 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What College Board says</th></tr></thead><tbody><tr><td>Create task deadline</td><td>Fri, Apr 30, 2027, 11:59 PM ET, submitted as final in the AP Digital Portfolio</td></tr><tr><td>End-of-course exam</td><td>Fri, May 14, 2027, in the Bluebook app</td></tr><tr><td>Section I</td><td>70 multiple-choice questions, 120 minutes, 70% of score</td></tr><tr><td>Section II</td><td>The Create task and two written responses, 30% of score; 9 hours of in-class time for the task</td></tr><tr><td>Errors on the exam</td><td>Written Response 2(b), Errors and Testing, includes CRD-2.I.a: Identify the error, and CRD-2.I.b: Correct the error</td></tr><tr><td>Plagiarism</td><td>Using code or media created by someone else or with generative AI tools, without acknowledgment, scores 0 on the Create task, including the written responses</td></tr><tr><td>Generative AI</td><td>Permitted as supplementary resources for understanding coding principles, assisting in code development, and debugging; the student must review, understand and be able to explain any such code</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why debugging your own App Lab code matters for the exam</h3><p>On exam day, students answer written questions about the code in their own Personalized Project Reference, including identifying and correcting an error. A student who fixed their own App Lab bugs during the 9 hours can answer those from experience.</p>
+<p>A student whose code was fixed by someone else has nothing to draw on. That is the practical reason, beyond the rules, to do your own debugging.</p></div><div><h3>What we will and will not do</h3><p>We never write, fix or review a student&rsquo;s Create task code, and we do not provide answers to any graded App Lab assignment. In class we teach the concepts with separate examples of our own, like the ones on this page, so the work stays the student&rsquo;s.</p>
+<p>We also do not point under-18 students to general AI chatbots whose terms are for adults. If a school allows AI help under College Board&rsquo;s policy, that is between the student, the teacher and the tool&rsquo;s own age rules.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam" rel="noopener" target="_blank">AP Computer Science Principles Exam</a> and the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-course-and-exam-description.pdf" rel="noopener" target="_blank">AP CSP Course and Exam Description</a> (Guidelines for Completing the Performance Task), read 17 October 2026. AP is a trademark of College Board, which is not connected with us. For course choices, see <a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP or AP CSA first</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From blocks to builder</p>
+      <h2>Four stages of an App Lab student</h2>
+      <p class="ag-lede">Where students usually are when they first get stuck, and where they can head next.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of building in App Lab (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Designing</td><td class="ag-num">Places buttons and labels in Design Mode, little code yet</td></tr><tr><td>2. Reacting</td><td class="ag-num">Writes onEvent handlers that change text on screen</td></tr><tr><td>3. Remembering</td><td class="ag-num">Keeps state in global variables and updates the screen from them</td></tr><tr><td>4. Structuring</td><td class="ag-num">Uses functions, lists and stored data, and debugs with console.log</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>An app that misbehaves without an error message is genuinely harder to fix than one that crashes. Being stuck here is normal.</p>
+<p>Ask your child what the app should do and what it does instead. That gap is where the bug is.</p></div><div><h3>For students</h3><p>Put var at the top, once. It fixes more App Lab bugs than anything else.</p>
+<p>Log first, guess later. One console.log line beats ten minutes of staring.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for students who like making apps</h2>
+      <p class="ag-lede">Live, with one regular teacher, and in a group or one to one: whichever suits the student.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Web and apps</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / WEB / 01</p>
+          <h4>JavaScript for teens</h4>
+          <p>The language beneath App Lab.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / WEB / 02</p>
+          <h4>App development for teens</h4>
+          <p>Real phone apps with React Native.</p>
+          <a class="ag-course-link" href="/courses/complete-app-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / WEB / 03</p>
+          <h4>HTML and CSS</h4>
+          <p>Pages that look the way you designed.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>AP and beyond</h3>
+        <span class="ag-band-sub">High school</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / AP / 01</p>
+          <h4>AP Computer Science Principles</h4>
+          <p>The course App Lab often belongs to.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / AP / 02</p>
+          <h4>AP Computer Science A</h4>
+          <p>The Java AP course that follows.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / AP / 03</p>
+          <h4>Python for teens</h4>
+          <p>A second text language.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Starting younger</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / KID / 01</p>
+          <h4>App making for kids</h4>
+          <p>Apps from blocks, before text.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / KID / 02</p>
+          <h4>Scratch coding</h4>
+          <p>Events and variables in games.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COAL / KID / 03</p>
+          <h4>Web development for kids</h4>
+          <p>First websites, step by step.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons around a US school schedule</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school slots across Eastern to Pacific time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">For students who prefer a quiet weekly hour.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Planned around project and exam dates.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A regular teacher</h3><p>One person who knows your progress.</p></div>
+      <div><h3>Screen sharing</h3><p>Your App Lab project, seen live.</p></div>
+      <div><h3>Concepts first</h3><p>We teach with examples of our own.</p></div>
+      <div><h3>Create task stays yours</h3><p>We never touch graded code.</p></div>
+      <div><h3>Online, any state</h3><p>From home, wherever you live.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty, or just one student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Apps and games by our students</h2>
+      <p class="ag-lede">Built by learners who began with buttons and events too. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">App Lab is free to use, and our lessons are a separate choice. Teaching is paid one month at a time, with the fee shown in US dollars, no term contract, and nothing to pay for stopping once a month is done.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Show us the app you are building</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>A regular teacher</li><li>Choose your batch</li><li>Month by month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private lessons</li><li>At times you pick</li><li>Shaped around your class</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Families in their own words, exactly as posted on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students</p>
+      <h2>App Lab help: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Why does my App Lab button not do anything?</h3>
+        <p>The App Lab documentation says the UI element must be defined in your code before its onEvent handler, and the id must match exactly. Check the id letter by letter against Design Mode, and make sure the handler comes after the element.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does my App Lab score stay at 1?</h3>
+        <p>Usually because var score = 0 is inside the onEvent handler, which creates a new variable on every click. The App Lab documentation says to use var only once, at the top of the program, outside any function or onEvent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does App Lab add 10 and 5 to get 105?</h3>
+        <p>getText returns text, so the plus sign joins the two values together. The documentation says arithmetic is not possible with that result. Use getNumber to read numbers from a text input or slider.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What language does Code.org App Lab use?</h3>
+        <p>JavaScript. App Lab lets you write it with either blocks or text and switch between them, according to the App Lab tool page.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I add sound in App Lab?</h3>
+        <p>Use playSound with the address of an MP3 file. The documentation says the sound URL needs the full http:// prefix, or you can upload your own file and choose it, in which case the file name is enough.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I switch screens in App Lab?</h3>
+        <p>Use setScreen with the id of the screen you want. The documentation says the default screen id is screen1, and that only one screen can be visible at a time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does App Lab work on a Chromebook or tablet?</h3>
+        <p>The App Lab tool page lists laptop, Chromebook and tablet. The editor itself recommends a desktop or laptop computer with a mouse and keyboard for building apps.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Code.org now called CodeAI?</h3>
+        <p>The footer of the App Lab page, read on 17 October 2026, says the organization is CodeAI and that Code.org is a former trademark of CodeAI. App Lab is still at studio.code.org.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you help me with my AP CSP Create task in App Lab?</h3>
+        <p>We teach the concepts the task needs with our own examples, but we never write, fix or review Create task code. College Board says plagiarism, including unacknowledged AI-generated code, scores 0 on the Create task.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do the classes cost?</h3>
+        <p>The first lesson is free. After that, lessons are paid month by month, and the fees section on this page shows the amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students who build apps at school.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>All of our pages for American students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></h3><p>Live preparation for AP Computer Science Principles.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP or AP CSA first?</a></h3><p>Which AP course to take first.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/javascript-basics">JavaScript basics</a></h3><p>The language App Lab is built on.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>A general method for any bug.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/html-css-javascript-project-ideas">Web project ideas</a></h3><p>What to build after App Lab.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us what your app should do and what it does instead. The teacher picks the idea behind the gap and teaches it with an example, so you can go back and fix your own app.</p>
+        <p class="ag-mt-40">To find out what a lesson is like, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>; you can also browse <a class="ag-inline-link" href="/courses">every course</a> with its syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20student%20in%20the%20US%20builds%20apps%20in%20Code.org%20App%20Lab%20and%20is%20stuck.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'coal',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We are an online school with teachers in India, so every lesson is a live video class rather than a visit to a local center. WhatsApp is how US families usually reach us fastest.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_coal(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free; we do not take card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>App building</h4><ul><li><a href="/blog/javascript-basics">JavaScript basics</a></li><li><a href="/blog/html-css-javascript-project-ideas">Web project ideas</a></li><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>The handler runs on each click; the state lives outside it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_coal = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'code-org-app-lab-help-inline', meta: { name: name, age: age, page: 'code-org-app-lab-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
