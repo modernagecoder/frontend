@@ -950,3 +950,4 @@
 .ag-root.ag-cs { --ag-accent: #8F1A47; --ag-accent-soft: rgba(143,26,71,.09); }   /* VS Code setup for students, US Phase T: the allocated muted raspberry #8F1A47 from alloc.tsv row 146, distinct from the other Phase T accents */
 .ag-root.ag-gc { --ag-accent: #8F2F2F; --ag-accent-soft: rgba(143,47,47,.09); }   /* Google Colab help, US Phase T: the allocated muted brick #8F2F2F from alloc.tsv row 143, distinct from the other Phase T accents */
 .ag-root.ag-git { --ag-accent: #22264C; --ag-accent-soft: rgba(34,38,76,.09); }   /* GitHub Classroom help, US Phase T: the allocated deep navy #22264C from alloc.tsv row 148, distinct from the other Phase T accents */
+.ag-root.ag-ele { --ag-accent: #804213; --ag-accent-soft: rgba(128,66,19,.09); }   /* Elementary grades door, US: #804213, a muted crayon-box brown chosen with the accent picker (hue 26, s .85, v .50), allocated in alloc.tsv row 14 away from the other US accents, contrast 7.32 on the paper */

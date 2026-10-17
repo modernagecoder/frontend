@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Classes for Elementary Students: Grades 1 to 5</title>
+  <meta name="description" content="Live coding classes for elementary students in grades 1 to 5: what the K-12 CS Framework expects by grades 2 and 5, what schools teach, and a first program.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-for-elementary-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-for-elementary-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#804213">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-for-elementary-students">
+  <meta property="og:title" content="Coding Classes for Elementary Students: Grades 1 to 5">
+  <meta property="og:description" content="Grades 1 to 5, ages 6 to 11: block coding and unplugged puzzles first, then Scratch games, then a first typed Python program around fourth or fifth grade. Taught live, batch or 1-on-1.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Classes for Elementary Students: Grades 1 to 5">
+  <meta name="twitter:description" content="Coding for elementary students, grade by grade, with a first program and an at-home activity.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ele .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-ele .ag-capsule { border-left-width: 5px; border-radius: 6px; }
+.ag-root.ag-ele .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-ele .ag-table caption { text-align: left; }
+.ag-root.ag-ele .ag-steps li { line-height: 1.6; }
+.ag-root.ag-ele .ag-band-head h3 { letter-spacing: -0.006em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-classes-for-elementary-students#page","url":"https://learn.modernagecoders.com/coding-classes-for-elementary-students","name":"Coding Classes for Elementary Students","description":"A grade-by-grade guide for US parents of elementary students to learning to code, built from the K-12 Computer Science Framework, NCES school definitions and the Code.org CS Fundamentals catalogue.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Coding for elementary students","item":"https://learn.modernagecoders.com/coding-classes-for-elementary-students"}]},{"@type":"Course","name":"Coding Classes for Elementary Students","description":"Live online coding classes for US elementary students in grades 1 to 5, from block coding and Scratch to a first Python program, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-for-elementary-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-elementary-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-elementary-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What grade should a child start coding?","acceptedAnswer":{"@type":"Answer","text":"First grade, around age 6, is a comfortable start for block coding and puzzles. Typed code such as Python usually suits fourth or fifth grade, around age 9 or 10, once a child reads and types with some ease."}},{"@type":"Question","name":"What should an elementary student learn in coding?","acceptedAnswer":{"@type":"Answer","text":"The K-12 Computer Science Framework expects children by the end of grade 2 to follow and create step-by-step processes, use sequences, loops and events, and describe a problem clearly. By the end of grade 5 they add conditionals, variables and breaking programs into parts."}},{"@type":"Question","name":"Is Scratch good for elementary students?","acceptedAnswer":{"@type":"Answer","text":"Yes for most children from second or third grade. It teaches events, loops, conditions and variables with blocks, so children can build real games before they can type quickly."}},{"@type":"Question","name":"Can a 3rd grader learn Python?","acceptedAnswer":{"@type":"Answer","text":"Some can, but most third graders do better finishing Scratch projects first. We usually introduce Python in fourth or fifth grade, and our Python course for kids is built for ages 9 to 12."}},{"@type":"Question","name":"What coding do elementary schools teach?","acceptedAnswer":{"@type":"Answer","text":"It varies by state and district. Many US classrooms use Code.org CS Fundamentals, a free series with one course for each elementary grade from kindergarten to grade 5, each about a month long."}},{"@type":"Question","name":"Does my child need a computer for coding classes?","acceptedAnswer":{"@type":"Answer","text":"Yes, a laptop, desktop or Chromebook with a keyboard. Tablets can run some block-coding apps, but a keyboard makes typed code and longer projects much easier."}},{"@type":"Question","name":"How many children are in a class?","acceptedAnswer":{"@type":"Answer","text":"Batches hold fifteen to twenty children of a similar grade with one regular teacher. Private 1-on-1 lessons are the other option."}},{"@type":"Question","name":"What times are classes for US families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Can we try coding at home before signing up?","acceptedAnswer":{"@type":"Answer","text":"Yes. Try the grid-robot game on this page: draw a 4 by 4 grid, agree on four commands, and let your child write a program for you to follow exactly. You can also book a free first lesson."}},{"@type":"Question","name":"How much do coding classes for elementary students cost?","acceptedAnswer":{"@type":"Answer","text":"Nothing for the first lesson. Fees are then paid month by month, and the fees section further up shows the monthly amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-for-elementary-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ele">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#grades">Grades and ages</a></li>
+      <li><a href="#framework">By grade 2 and 5</a></li>
+      <li><a href="#school">At school</a></li>
+      <li><a href="#unplugged">Try at home</a></li>
+      <li><a href="#first-program">First program</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Coding for elementary students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 1 to 5 &middot; Ages 6 to 11</p>
+        <h1>Coding classes for elementary students</h1>
+        <p class="ag-lede">Modern Age Coders runs live online coding classes for elementary students in grades 1 to 5, ages 6 to 11, in a batch or one to one. Younger children start with block coding and puzzles; third to fifth graders build Scratch games, and many write a first Python program by fifth grade. Here is what to expect at each grade.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#framework" class="ag-btn ag-btn--ghost">What each grade learns</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20elementary%20school%20in%20the%20US%20and%20we%20would%20like%20to%20try%20a%20coding%20class.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ele'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Laptop, desktop or Chromebook</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Grades</dt><dd>1 to 5</dd>
+          <dt>Ages</dt><dd>6 to 11</dd>
+          <dt>Grades 1 and 2</dt><dd>Blocks and puzzles</dd>
+          <dt>Grades 3 to 5</dt><dd>Scratch, then Python</dd>
+          <dt>Device</dt><dd>A computer with a keyboard</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>A good coding class for an elementary student matches the grade. In grades 1 and 2, children give exact step-by-step instructions, use loops and events in block code, and learn to describe a bug. In grades 3 to 5 they add conditions and variables, build Scratch games, and around age 9 or 10 can start typed Python. Keep classes live and short.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses built for the elementary years</h2>
+      <p class="ag-lede">Each is taught live by a regular teacher who adjusts the pace to the grade your child is in.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ELE / 01</p>
+          <h3>Block coding for kids</h3>
+          <p>From age 6. Puzzles, stories and first games in blocks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Scratch Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ELE / 02</p>
+          <h3>Scratch coding</h3>
+          <p>Ages 6 to 12. Games with events, loops and scores.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ELE / 03</p>
+          <h3>Python for kids</h3>
+          <p>Ages 9 to 12. The first typed code, in fourth or fifth grade.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="grades">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Grades and ages</p><h2>What counts as elementary school in the US, and how old the children are</h2><p class="ag-lede">Families searching for coding classes for a third grader or a fifth grader are really asking about a grade band, so it helps to start with how US schools define one.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The federal definition</h3><p>The National Center for Education Statistics, which collects school data for the US Department of Education, defines an elementary school as "A school that offers more of kindergarten through grade 4 than grades 5 through 8 and no grades 9 through 12."</p>
+<p>That wording explains a common source of confusion. Many districts run kindergarten to grade 5 under one roof, while others move fifth graders, and sometimes fourth graders, into a middle or intermediate school. A fifth grader can therefore be in an elementary school in one town and a middle school in the next.</p></div><div><h3>Why the grade matters more than the building</h3><p>For learning to code, what matters is reading level, typing comfort and attention span, which track the grade far better than the name on the school sign. We place children by grade and by a short look at what they can already do.</p>
+<p>Our classes start at age 6, which is first grade for most children. Kindergarten-age children are usually better served by unplugged games at home, a few of which appear further down this page.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Elementary grades, typical ages and a sensible coding focus (ours; ages assume a child who started kindergarten at 5)</caption><thead><tr><th scope="col">Grade</th><th scope="col">Typical age during the year</th><th scope="col">A sensible coding focus</th></tr></thead><tbody><tr><td>1st grade</td><td>6 to 7</td><td>Picture blocks, arrows, short sequences, puzzles solved aloud</td></tr><tr><td>2nd grade</td><td>7 to 8</td><td>Loops and events in blocks, simple stories and animations</td></tr><tr><td>3rd grade</td><td>8 to 9</td><td>Scratch projects with a score, conditions and simple debugging</td></tr><tr><td>4th grade</td><td>9 to 10</td><td>Longer Scratch games, variables, first look at typed code</td></tr><tr><td>5th grade</td><td>10 to 11</td><td>Python basics, functions in Scratch, small projects they plan themselves</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source for the definition: <a class="ag-inline-link" href="https://nces.ed.gov/programs/coe/glossary" rel="noopener" target="_blank">NCES Condition of Education glossary</a>, read 17 October 2026. The age column and the coding focus are our own guide, not a federal standard. Neither NCES nor the Department of Education has any link with us.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="framework">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">By grade 2 and by grade 5</p><h2>What US students are expected to understand by second and fifth grade</h2><p class="ag-lede">The K-12 Computer Science Framework is the shared reference behind much US computer science teaching: its site says it informs state- and district-level decisions, and it was developed by the Association for Computing Machinery, Code.org, the Computer Science Teachers Association and other partners working with states and districts. It describes what students should understand at the end of grade 2 and at the end of grade 5.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Grade 2 and grade 5 endpoints in the framework&rsquo;s own words, taken from k12cs.org on 17 October 2026</caption><thead><tr><th scope="col">Idea</th><th scope="col">End of grade 2</th><th scope="col">End of grade 5</th></tr></thead><tbody><tr><td>Algorithms</td><td>"People follow and create processes as part of daily life. Many of these processes can be expressed as algorithms that computers can follow."</td><td>Comparing different ways to reach the same result</td></tr><tr><td>Control</td><td>"Computers follow precise sequences of instructions that automate tasks."</td><td>Loops, event handlers and conditionals (see the program below)</td></tr><tr><td>Troubleshooting</td><td>"Clearly describing a problem is the first step toward finding a solution."</td><td>Common strategies such as "checking that power is available, checking that physical and wireless connections are working, and clearing out the working memory by restarting programs or devices"</td></tr><tr><td>Breaking tasks down</td><td>"Complex tasks can be broken down into simpler instructions, some of which can be broken down even further."</td><td>Programs split into smaller parts that are easier to design and review</td></tr><tr><td>Cybersecurity</td><td>Using authentication such as strong passwords to protect devices and information</td><td>"Information can be protected using various security measures. These measures can be physical and/or digital."</td></tr><tr><td>Working with data</td><td>Showing data as charts and picture graphs</td><td>"People select aspects and subsets of data to be transformed, organized, clustered, and categorized" to give different views of it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What this means at home</h3><p>The grade 2 expectations are about precision and patience: a child who can tell a friend exactly how to draw a square, step by step, and then spot the step that went wrong, is doing the work the framework describes.</p>
+<p>By grade 5 the list grows up. Children are expected to choose how to organize data, keep accounts safe and work through a broken device or program methodically instead of giving up after the first try.</p></div><div><h3>What the framework is not</h3><p>It is not a test and it does not set a lesson for each grade. It gives grade-band endpoints, and states may use it to develop their own standards, so your child&rsquo;s school may cover these ideas earlier, later or inside another subject.</p>
+<p>The framework itself says it can be taught as standalone courses or folded into other subjects, "particularly at the elementary and middle school levels". That is why some children meet coding in a library period and others in a math lesson.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Where these lines come from: the <a class="ag-inline-link" href="https://k12cs.org/framework-statements-by-grade-band/" rel="noopener" target="_blank">grade-band statements on k12cs.org</a> and its <a class="ag-inline-link" href="https://k12cs.org/faq/" rel="noopener" target="_blank">questions and answers page</a>, both checked on 17 October 2026. The framework is published under a Creative Commons licence (CC BY-NC-SA 4.0); we quote short statements and do not republish it. The CSTA standards site returned an error page to our request, so this page prints no CSTA standard codes.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What schools use</p><h2>Code.org CS Fundamentals: the course many elementary classrooms run</h2><p class="ag-lede">If your child has done coding at school, there is a fair chance it was a Code.org course (the organisation now presents its site under the name CodeAI). Its elementary series is free and organised by grade, which makes it a useful map of what a child has already seen.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Code.org CS Fundamentals courses by grade, as listed on its curriculum page (read 17 October 2026)</caption><thead><tr><th scope="col">Course</th><th scope="col">Grades</th><th scope="col">What the course description says it covers</th></tr></thead><tbody><tr><td>Course A</td><td>K to 1</td><td>Problem-solving and programming with commands like loops and events</td></tr><tr><td>Course B</td><td>1 to 2</td><td>Programming basics, persistence and critical thinking; games in Play Lab</td></tr><tr><td>Course C</td><td>2 to 3</td><td>Programs with sequencing, loops and events; interactive games</td></tr><tr><td>Course D</td><td>3 to 4</td><td>Loops and events again, then algorithms and conditionals</td></tr><tr><td>Course E</td><td>4 to 5</td><td>The Sprite Lab environment; a game or drawing made with code</td></tr><tr><td>Course F</td><td>4 to 5</td><td>Variables, with more choice in an interactive project</td></tr><tr><td>Pre-reader Express</td><td>K to 3</td><td>A self-paced version for children not yet reading</td></tr><tr><td>Express Course</td><td>3 to 8</td><td>A self-paced version for older beginners</td></tr><tr><td>CS Fundamentals Unplugged</td><td>K to 5</td><td>"Learn computer science without computers."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Useful facts from the catalogue</h3><p>Code.org describes the series as "Six comprehensive courses, one for each elementary grade." It says each course is approximately a month long and lists computers, Chromebooks and tablets as supported devices.</p>
+<p>A separate Code.org pathway, Computer Science Connections, has 11 units for grades 3 to 5 that link coding with math, language arts, science and social studies, for example coding an interactive book cover or a geometric star quilt.</p></div><div><h3>Where a live class fits alongside it</h3><p>A month-long course inside a busy school year gives a good taste, and then often stops. Children who enjoyed it tend to ask for more, and that is where a weekly class with a regular teacher helps: the same ideas, taken further, with someone who notices exactly where your child gets stuck.</p>
+<p>When a new student tells us they did Course C or Course D at school, we start from there rather than repeating it. We have no tie to Code.org or CodeAI; we simply find their catalogue a clear record of what US classrooms cover.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://code.org/en-US/curriculum/computer-science-fundamentals" rel="noopener" target="_blank">Code.org CS Fundamentals</a> and the <a class="ag-inline-link" href="https://code.org/en-US/curriculum" rel="noopener" target="_blank">Code.org curriculum catalogue</a>, read 17 October 2026. Code.org also states the courses are aligned with K-5 CSTA standards.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="unplugged">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Try it tonight</p><h2>A fifteen-minute unplugged activity for any elementary grade</h2><p class="ag-lede">You do not need a computer to see whether your child enjoys this kind of thinking. This is the grid-robot game we use in first lessons, written out so you can run it at the kitchen table with paper, a pencil and a coin.</p></div>
+    <ol class="ag-steps"><li><b>Draw a 4 by 4 grid</b> on paper. Put a coin, the robot, in the bottom-left square, facing up the page. Draw a star in any other square.</li><li><b>Agree on four commands</b> and nothing else: F (forward one square), L (turn left), R (turn right) and P (pick up).</li><li><b>Your child writes the program</b> as a row of letters on a strip of paper, without touching the coin.</li><li><b>You are the computer.</b> Follow the strip exactly, even when it is obviously wrong. A computer does not guess what you meant, and this is the moment children understand that.</li><li><b>If the robot misses the star, debug together.</b> Ask your child to point at the first letter where the robot went somewhere unexpected, and describe the problem in one sentence before fixing it.</li><li><b>Make it harder</b> with a wall square the robot must go around, or a rule that the program can be no longer than eight letters.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Five practice puzzles for the grid robot, robot starting bottom-left facing up (ours)</caption><thead><tr><th scope="col">Puzzle</th><th scope="col">Star position</th><th scope="col">One working program</th><th scope="col">The idea it teaches</th></tr></thead><tbody><tr><td>1</td><td>3 squares straight up</td><td>F F F P</td><td>Sequence</td></tr><tr><td>2</td><td>2 up, then 1 to the right</td><td>F F R F P</td><td>Turning changes what "forward" means</td></tr><tr><td>3</td><td>Top-right corner</td><td>F F F R F F F P</td><td>Spotting a repeat: "F three times"</td></tr><tr><td>4</td><td>1 to the right, on the bottom row</td><td>R F P</td><td>The shortest path is not always straight ahead</td></tr><tr><td>5</td><td>Top-right, with a wall in the second square up</td><td>R F F F L F F F P</td><td>Planning around an obstacle before writing</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What to listen for</h3><p>In first and second grade, the win is a child who says "the robot turned the wrong way at the third letter" instead of "it does not work". That sentence is the whole skill of debugging in miniature.</p>
+<p>In third grade and up, listen for "I could say F three times" on puzzle 3. That is a child inventing the idea of a loop before anyone names it.</p></div><div><h3>If it goes badly</h3><p>Some children find it frustrating to be followed literally. Swap roles: let them be the computer while you write a slightly wrong program, and enjoy watching them catch you out.</p>
+<p>Keep it short. Fifteen minutes that ends with a solved puzzle beats forty minutes that ends in tears, and the game is just as good tomorrow.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="first-program">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Grades 4 and 5</p><h2>A first typed program for fourth and fifth graders</h2><p class="ag-lede">Somewhere around age 9 or 10, many children who have built Scratch games are ready to type real code. This is the kind of first Python program we write with them: short, readable, and built from the same three ideas they already know from blocks.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; a rocket countdown</b><span>python</span></figcaption><pre># Rocket launch (ours): a loop, a variable and a condition
+fuel = 0
+for second in range(10, 0, -1):
+    fuel = fuel + 10
+    if second &lt;= 3:
+        print(second, "... engines on!")
+    else:
+        print(second)
+print("Lift off with", fuel, "units of fuel")</pre><p class="ag-code-note">We tested this in Python 3.13 first. The loop runs ten times and adds 10 each time, so the last line reports 100 units of fuel (10 x 10 = 100, our arithmetic). The numbers 3, 2 and 1 print with "engines on!" because of the condition.</p></figure>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>A variable</h3><p><b>fuel</b> remembers a number and changes as the program runs, just like a score in Scratch.</p></div><div><h3>A loop</h3><p><b>for second in range(10, 0, -1)</b> counts down from 10 to 1, the typed version of a repeat block.</p></div><div><h3>A condition</h3><p><b>if second &lt;= 3</b> decides what to print, like an if block that checks the timer.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we teach it</h3><p>Children type it themselves, line by line, and run it after every two or three lines. Typing slowly is fine; copying and pasting is not, because the typing is where they notice the colon, the indentation and the brackets.</p>
+<p>Then we change one thing at a time. What happens if the count starts at 20? What if fuel goes up by 5? A child who can predict the new last line before running it has understood the loop.</p></div><div><h3>Is my child ready for typed code?</h3><p>Three signs: they read instructions without help, they can type a short sentence in under a minute, and they have finished at least one block-coding project of their own design. Age matters less than those three.</p>
+<p>If they are not there yet, Scratch has plenty of depth left. Our Python course for kids is built for ages 9 to 12, and nobody is rushed into it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="school-day">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Across the school day</p><h2>How coding shows up in reading, math and science lessons</h2><p class="ag-lede">Elementary teachers often weave coding into other subjects rather than teaching it alone, which is also how the framework imagines it. These are the links we draw in class, so a child sees that the same thinking works everywhere.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Where elementary coding meets other subjects (ours)</caption><thead><tr><th scope="col">Subject</th><th scope="col">The coding idea</th><th scope="col">A small task we give</th></tr></thead><tbody><tr><td>Reading</td><td>Sequence: events happen in order</td><td>Code a three-scene story where each scene waits for a click</td></tr><tr><td>Math, grades 1 and 2</td><td>Repetition and counting</td><td>Draw a row of five squares with one repeat block instead of five moves</td></tr><tr><td>Math, grades 3 to 5</td><td>Variables that change</td><td>Keep score in a game and double it when a bonus is caught</td></tr><tr><td>Science</td><td>Data from observations</td><td>Record the class weather for a week and turn it into a bar chart</td></tr><tr><td>Social studies</td><td>Breaking a big task into parts</td><td>Plan an interactive map with one clickable sprite per landmark</td></tr><tr><td>Art</td><td>Patterns and symmetry</td><td>Repeat a shape while turning, until it makes a star</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the links help</h3><p>A seven-year-old who has just counted five moves and replaced them with one repeat block has learned something about multiplication as well as loops. Children enjoy noticing that two subjects are secretly the same idea.</p>
+<p>It also helps children who are not yet confident readers. A story told in code, scene by scene, gives them a reason to read short sentences carefully and in order.</p></div><div><h3>What we avoid</h3><p>We do not turn coding into extra homework. If a school project already needs a chart or a story, a child can choose to build it in code with us, but nothing is assigned on top of school.</p>
+<p>We also keep screens in proportion. Some lessons for first and second graders are half unplugged, with paper, cards and the grid robot, because the thinking matters more than the device.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="choose">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Choosing a class</p><h2>Six questions to ask before you sign up for any elementary coding class</h2><p class="ag-lede">There are many options in the US, from after-school clubs to apps to live online classes. These are the questions we would ask as parents, and our own answers to them.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Questions to ask a coding provider, with our answers (ours)</caption><thead><tr><th scope="col">Question</th><th scope="col">Why it matters for a 6 to 11 year old</th><th scope="col">Our answer</th></tr></thead><tbody><tr><td>Is it live, or recorded videos?</td><td>Young children rarely ask a video for help; they stop instead</td><td>Live, on video, every class</td></tr><tr><td>Who is the teacher, and do they stay?</td><td>A familiar teacher notices patterns in a child&rsquo;s mistakes</td><td>A regular teacher each week</td></tr><tr><td>How many children are in a class?</td><td>Group size decides how often your child gets attention</td><td>Fifteen to twenty in a batch, or one to one</td></tr><tr><td>What will my child make?</td><td>Finished projects keep young learners motivated</td><td>A small project every few weeks, shown to the family</td></tr><tr><td>How long is each class?</td><td>Attention spans in grades 1 and 2 are short</td><td>Paced by grade, with breaks for younger children</td></tr><tr><td>What happens if it is not working?</td><td>You should not be locked in</td><td>Monthly, and you can stop when a month ends</td></tr></tbody></table></div>
+    <p class="ag-mt-40">For more on ages, see our pages on <a class="ag-inline-link" href="/coding-for-8-year-olds">coding for 8 year olds</a> and <a class="ag-inline-link" href="/coding-for-10-year-olds">coding for 10 year olds</a>, the guides to <a class="ag-inline-link" href="/blog/coding-for-6-year-olds">coding at 6</a> and <a class="ag-inline-link" href="/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming">coding at 7</a>, and our answer to <a class="ag-inline-link" href="/best-age-to-start-coding">what age to start coding</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Grade by grade</p>
+      <h2>Five stages through the elementary years</h2>
+      <p class="ag-lede">A rough route, not a timetable. Children arrive at different stages and move at their own speed.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of an elementary coder (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">You will notice</th></tr></thead><tbody><tr><td>1. Instruction giver</td><td class="ag-num">Gives exact steps aloud or with arrows, fixes a wrong step when shown</td></tr><tr><td>2. Block builder</td><td class="ag-num">Snaps together sequences, repeats and events to make a sprite move</td></tr><tr><td>3. Game maker</td><td class="ag-num">Builds a Scratch game with a score, a timer and a win or lose rule</td></tr><tr><td>4. Planner</td><td class="ag-num">Sketches a project on paper first, breaks it into parts, tests each one</td></tr><tr><td>5. First typist</td><td class="ag-num">Writes and changes a short Python program, predicts what it will print</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stages 1 and 2 often take longer than parents expect, and that is healthy. Precision is the foundation everything else stands on.</p>
+<p>Ask to see the project, and ask your child to explain one part of it. Explaining is where the learning sticks.</p></div><div><h3>For kids</h3><p>Every coder writes programs that do not work the first time. Finding the broken step is the fun part.</p>
+<p>Make something you would actually want to play, then show it to someone at home.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine more courses for elementary-age learners</h2>
+      <p class="ag-lede">Every one is live, with the same teacher each week; the ages shown are the ages each course was written for.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Puzzles and blocks</h3>
+        <span class="ag-band-sub">From age 7</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / BLK / 01</p>
+          <h4>Problem solving for kids</h4>
+          <p>Ages 7 to 12. Logic puzzles and plans.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / BLK / 02</p>
+          <h4>Minecraft coding</h4>
+          <p>Ages 7 to 12. Code inside a world they know.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / BLK / 03</p>
+          <h4>Game development for kids</h4>
+          <p>Ages 8 to 12. Several engines, one plan.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Making real things</h3>
+        <span class="ag-band-sub">From age 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / MAK / 01</p>
+          <h4>App building in blocks</h4>
+          <p>Ages 8 to 12. Phone apps without typing.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / MAK / 02</p>
+          <h4>Roblox game coding</h4>
+          <p>Ages 8 to 14. Luau scripts in Studio.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / MAK / 03</p>
+          <h4>First websites</h4>
+          <p>From age 10. HTML and CSS by hand.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Understanding AI</h3>
+        <span class="ag-band-sub">From age 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / AI / 01</p>
+          <h4>AI literacy for kids</h4>
+          <p>Ages 8 to 14. How AI learns and fails.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / AI / 02</p>
+          <h4>AI and the web for kids</h4>
+          <p>Ages 9 to 12. Pages that do clever things.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ELE / AI / 03</p>
+          <h4>Vibe coding for kids</h4>
+          <p>Ages 8 to 12. Ideas first, code explained.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live classes that fit around the school day</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Weekday batches that suit US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings work well for younger children.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Times set around your family calendar.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One familiar teacher</h3><p>Your child learns with the same person each week.</p></div>
+      <div><h3>Grouped by grade</h3><p>First graders are not mixed with fifth graders.</p></div>
+      <div><h3>Screen shared</h3><p>The teacher sees the project as your child builds it.</p></div>
+      <div><h3>Short and focused</h3><p>Paced for elementary attention spans.</p></div>
+      <div><h3>Projects to show</h3><p>Something finished every few weeks.</p></div>
+      <div><h3>Group or private</h3><p>A batch of fifteen to twenty, or private lessons.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects made by our students</h2>
+      <p class="ag-lede">Older students built these; elementary learners are on the same road. See more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">You pay for teaching one month at a time, shown in US dollars. There is no contract for the school year, and if coding is not clicking you can stop when the month ends.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A short look at your child&rsquo;s level</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>Grouped by grade</li><li>One regular teacher</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher to yourself</li><li>Your schedule</li><li>A plan built around your child</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents in their own words, copied from Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from parents</p>
+      <h2>Coding for elementary students: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What grade should a child start coding?</h3>
+        <p>First grade, around age 6, is a comfortable start for block coding and puzzles. Typed code such as Python usually suits fourth or fifth grade, around age 9 or 10, once a child reads and types with some ease.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What should an elementary student learn in coding?</h3>
+        <p>The K-12 Computer Science Framework expects children by the end of grade 2 to follow and create step-by-step processes, use sequences, loops and events, and describe a problem clearly. By the end of grade 5 they add conditionals, variables and breaking programs into parts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Scratch good for elementary students?</h3>
+        <p>Yes for most children from second or third grade. It teaches events, loops, conditions and variables with blocks, so children can build real games before they can type quickly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a 3rd grader learn Python?</h3>
+        <p>Some can, but most third graders do better finishing Scratch projects first. We usually introduce Python in fourth or fifth grade, and our Python course for kids is built for ages 9 to 12.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What coding do elementary schools teach?</h3>
+        <p>It varies by state and district. Many US classrooms use Code.org CS Fundamentals, a free series with one course for each elementary grade from kindergarten to grade 5, each about a month long.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need a computer for coding classes?</h3>
+        <p>Yes, a laptop, desktop or Chromebook with a keyboard. Tablets can run some block-coding apps, but a keyboard makes typed code and longer projects much easier.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many children are in a class?</h3>
+        <p>Batches hold fifteen to twenty children of a similar grade with one regular teacher. Private 1-on-1 lessons are the other option.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US families?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can we try coding at home before signing up?</h3>
+        <p>Yes. Try the grid-robot game on this page: draw a 4 by 4 grid, agree on four commands, and let your child write a program for you to follow exactly. You can also book a free first lesson.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do coding classes for elementary students cost?</h3>
+        <p>Nothing for the first lesson. Fees are then paid month by month, and the fees section further up shows the monthly amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for parents of US elementary students.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our hub for families across the US.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-coding-classes-for-kids-usa">Online coding for US kids</a></h3><p>The full kids catalogue in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-9-year-olds">Coding for 9 year olds</a></h3><p>A closer look at third and fourth grade.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-roblox-game">How to make a Roblox game</a></h3><p>For the Roblox fan in the family.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-3rd-grade">3rd grade math tutoring</a></h3><p>Coding and math grow together.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Inside a live class.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Let us know which grade your child is in and anything they have tried already, at school or at home. The teacher plans the first lesson around that, so it feels like a step forward, not a repeat.</p>
+        <p class="ag-mt-40">Curious about the method first? Our page on <a class="ag-inline-link" href="/how-we-teach">how a class works</a> shows a lesson from start to finish, and the <a class="ag-inline-link" href="/courses">course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20elementary%20school%20in%20the%20US%20and%20we%20would%20like%20to%20try%20a%20coding%20class.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ele',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are taught live on video by our teachers in India, so nothing depends on where in the US you live. WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ele(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free and needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Elementary coding</h4><ul><li><a href="/coding-for-8-year-olds">Coding for 8 year olds</a></li><li><a href="/coding-for-10-year-olds">Coding for 10 year olds</a></li><li><a href="/coding-for-11-year-olds">Coding for 11 year olds</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/python-for-10-year-olds">Python for 10 year olds</a></li><li><a href="/minecraft-coding-classes-for-kids">Minecraft coding classes</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Exact steps first, then find the one that broke</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ele = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'coding-classes-for-elementary-students-inline', meta: { name: name, age: age, page: 'coding-classes-for-elementary-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

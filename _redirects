@@ -7086,4 +7086,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /github-classroom-help-for-students /src/pages/github-classroom-help-for-students.html 200
 /github-classroom-help-for-students.md /src/pages/github-classroom-help-for-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/coding-classes-for-elementary-students /src/pages/coding-classes-for-elementary-students.html 200
+/coding-classes-for-elementary-students.md /src/pages/coding-classes-for-elementary-students.md 200
 /* /src/pages/404.html 404
