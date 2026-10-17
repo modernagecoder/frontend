@@ -143,13 +143,19 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 137 | ai-and-python-classes-for-teens-in-portland-oregon | 5 | todo | | | | metro |
 | 138 | best-coding-classes-for-kids-in-minneapolis | 5 | todo | | | | metro |
 
+## Done
+
+| # | Slug | Type | Words | Worst overlap | Spine | Lesson family | Commit |
+|---|------|------|-------|---------------|-------|---------------|--------|
+| 1 | how-to-make-a-roblox-game (rbx, #80473B) | door | 3,969 | 0.2% vs after-school-coding-club-vs-online-class-australia | how-to | event-driven programming | (this commit) |
+
 ## Skipped
 
 (none yet)
 
 ## Open items
 
-- Code.org State of AI + CS data reuse terms: check before the first state page prints a figure.
+- Code.org data: terms checked 2026-10-17. Quote state figures with the citation "Code.org (2025). 2025 State of AI + CS Education"; never republish the dataset. Geography tab not used.
 - Owner decisions: C6 Fortnite UEFN course; named competitors on comparison pages.
 - US AI-answer baseline (spec Appendix B) not yet run.
 - US hub `/coding-classes-in-united-states` (legacy cp- page) claims to fix in the Phase 4 rebuild: H2 "FAANG engineers, USACO veterans, Ivy / MIT / Stanford alumni" (unevidenced), H2 "Mentors live in every state" (teachers are not in every state), H2 "$100 a month..." (typed price in a heading; one-currency rule), "Your zip code is supported". Phase 4 row 135 rebuilds it.

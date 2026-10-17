@@ -933,3 +933,6 @@
 .ag-root.ag-mtcw { --ag-accent: #5A5E9B; --ag-accent-soft: rgba(90,94,155,.09); }   /* Chatswood maths: a muted lantern-dusk blue computed for New South Wales, at least 20 RGB from every NSW page accent, 10 from every AU accent and 6 from every colour in use */
 .ag-root.ag-mtgc { --ag-accent: #141481; --ag-accent-soft: rgba(20,20,129,.09); }   /* Gold Coast maths: a deep muted ultramarine computed for Queensland, at least 20 RGB from every Queensland page accent, 10 from every AU accent and 6 from every colour in use */
 .ag-root.ag-mtnc { --ag-accent: #73592F; --ag-accent-soft: rgba(115,89,47,.09); }   /* Newcastle maths: a muted sandstone brown computed for New South Wales, at least 20 RGB from every NSW page accent, 10 from every AU accent and 6 from every colour in use */
+
+/* United States cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
+.ag-root.ag-rbx { --ag-accent: #80473B; --ag-accent-soft: rgba(128,71,59,.09); }   /* Roblox how-to, US: a muted brick red chosen with the accent picker (hue 10, s .54, v .50), 89+ RGB units from the other US pilot accents and 8 from every other site colour, contrast 5.91 on the paper */

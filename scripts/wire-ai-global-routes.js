@@ -406,6 +406,7 @@ const SLUGS = [
   'maths-tutor-chatswood',
   'maths-tutor-gold-coast',
   'maths-tutor-newcastle-nsw',
+  'how-to-make-a-roblox-game',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -891,6 +892,7 @@ const LLMS_LABELS = {
   'maths-tutor-chatswood': 'Maths tutor in Chatswood',
   'maths-tutor-gold-coast': 'Maths tutor on the Gold Coast',
   'maths-tutor-newcastle-nsw': 'Maths tutor in Newcastle, NSW',
+  'how-to-make-a-roblox-game': 'How to make a Roblox game',
 };
 
 function wireLlms(slugs) {
