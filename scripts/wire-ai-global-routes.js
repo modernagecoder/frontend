@@ -416,6 +416,7 @@ const SLUGS = [
   'homeschool-computer-science-high-school-credit',
   'coding-bootcamp-for-teens',
   'python-indentation-error-explained',
+  'python-turtle-not-working',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -911,6 +912,7 @@ const LLMS_LABELS = {
   'homeschool-computer-science-high-school-credit': 'Homeschool CS high school credit',
   'coding-bootcamp-for-teens': 'Coding bootcamp for teens',
   'python-indentation-error-explained': 'Python indentation errors explained',
+  'python-turtle-not-working': 'Python turtle not working',
 };
 
 function wireLlms(slugs) {

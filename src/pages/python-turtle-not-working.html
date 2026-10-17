@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Python Turtle Not Working? Real Errors and Fixes</title>
+  <meta name="description" content="Python turtle not working: a file named turtle.py, a window that closes at once, missing tkinter, ignored keys. The real error messages, fixes and text writing.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-turtle-not-working">
+  <link rel="alternate" type="text/markdown" href="/src/pages/python-turtle-not-working.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#55458F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-turtle-not-working">
+  <meta property="og:title" content="Python Turtle Not Working? Real Errors and Fixes">
+  <meta property="og:description" content="Why import turtle fails, why the window closes or freezes, why keys do nothing, and how to write text with turtle, with real error messages from our Python 3.13.6 runs.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python Turtle Not Working? Real Errors and Fixes">
+  <meta name="twitter:description" content="Python turtle not working? The real errors, the fixes, and how to write text.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ptnw .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-ptnw .ag-capsule { border-left-width: 4px; border-radius: 6px; }
+.ag-root.ag-ptnw .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-ptnw .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-ptnw .ag-band-head h3 { letter-spacing: -0.006em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/python-turtle-not-working#page","url":"https://learn.modernagecoders.com/python-turtle-not-working","name":"Python Turtle Not Working","description":"A troubleshooting guide for US students whose Python turtle programs fail, built from the Python turtle and tkinter documentation and our own runs.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Python turtle not working","item":"https://learn.modernagecoders.com/python-turtle-not-working"}]},{"@type":"Course","name":"Python Turtle Not Working","description":"Live online Python classes for US kids and teens that start with turtle graphics, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/python-turtle-not-working"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-turtle-not-working"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-turtle-not-working"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why is import turtle not working?","acceptedAnswer":{"@type":"Answer","text":"A very common cause is a file of your own named turtle.py in the same folder, which Python imports instead of the real module. Rename it. If the error mentions _tkinter instead, this Python install is missing tkinter, which turtle needs."}},{"@type":"Question","name":"Why does my turtle window close immediately?","acceptedAnswer":{"@type":"Answer","text":"The program ended. Put turtle.done() as the last line, which the Python documentation says must be the last statement in a turtle graphics program, or use turtle.exitonclick() to close it with a click."}},{"@type":"Question","name":"How do you write text in Python turtle?","acceptedAnswer":{"@type":"Answer","text":"Use write(), for example t.write(\"Hello\", align=\"center\", font=(\"Arial\", 18, \"normal\")). The text appears at the turtle's position. Convert numbers with str() before joining them to words."}},{"@type":"Question","name":"Why do my arrow keys not work in turtle?","acceptedAnswer":{"@type":"Answer","text":"Call screen.listen() after setting up onkey(), and click the turtle window once so it has the focus. The documentation says the screen must have the focus to register key events."}},{"@type":"Question","name":"Does turtle need tkinter?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Python documentation says turtle graphics requires the tkinter optional module. The python.org installers for Windows and macOS include it, and running python -m tkinter shows a test window when it is working."}},{"@type":"Question","name":"Why does turtle say bad color string?","acceptedAnswer":{"@type":"Answer","text":"The color name is not one Tk recognizes, often a typo. Use a real name such as red or a hex code such as #33cc8c. For number triples up to 255, call screen.colormode(255) first."}},{"@type":"Question","name":"Does Python turtle work on a Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Turtle needs a desktop window from tkinter, so it works where a full Python install with tkinter can run. On a school Chromebook that depends on how the device is set up, so ask your teacher which Python environment the class uses."}},{"@type":"Question","name":"Can you do my turtle assignment?","acceptedAnswer":{"@type":"Answer","text":"No. We explain why a program fails and teach the idea so the student can finish their own work. We never complete graded assignments."}},{"@type":"Question","name":"What times are classes for US families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do turtle and Python classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson costs nothing. After that you pay month by month for live teaching, and the fees section on this page shows the amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/python-turtle-not-working","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ptnw">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#symptoms">Symptoms</a></li>
+      <li><a href="#filename">turtle.py</a></li>
+      <li><a href="#window">The window</a></li>
+      <li><a href="#text">Writing text</a></li>
+      <li><a href="#checklist">Checklist</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Python turtle not working
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grade 3 to Grade 12 &middot; Python turtle</p>
+        <h1>Python turtle not working? Start here</h1>
+        <p class="ag-lede">For many students, turtle is the first typed Python they meet, whether in a middle school computer science elective, an after-school club or a summer camp. It is also where they meet their first confusing failure: an error before anything draws, a window that flashes and vanishes, or arrow keys that do nothing. Almost every case comes from a short list of causes. This page goes through them with the messages Python really prints. Each message is either quoted from the official docs or reproduced on our own test laptop (Python 3.13.6, Tk 8.6), and every one says which. Then it shows how to write text on the turtle screen.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#symptoms" class="ag-btn ag-btn--ghost">Match your symptom</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20is%20learning%20Python%20turtle%20and%20their%20programs%20keep%20failing.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ptnw'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Turtle graphics in our Python course for kids</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grade 3 to Grade 12</dd>
+          <dt>Module</dt><dd>turtle, built in</dd>
+          <dt>Needs</dt><dd>tkinter and a desktop window</dd>
+          <dt>Python tested</dt><dd>3.13.6 with Tk 8.6, our run</dd>
+          <dt>Top cause</dt><dd>A file named turtle.py</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>When Python turtle is not working, check four things in order: your file is not named turtle.py (that file hides the real module), the program ends with turtle.done() so the window stays open, tkinter is installed (turtle needs it), and screen.listen() is called if you use keys. Text goes on screen with write(). At Modern Age Coders, turtle graphics is part of our live Python course for children in Grade 3 and above, taught in a group batch or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses that take turtle drawings somewhere</h2>
+      <p class="ag-lede">Turtle is a starting point. Each course below begins there and moves on to real programs.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRT / 01</p>
+          <h3>Python and AI for kids</h3>
+          <p>Grades 3 to 8. Turtle art first, then games and smart projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/maths-through-coding">
+        <div class="ag-pick-shot"><img src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRT / 02</p>
+          <h3>Maths through coding</h3>
+          <p>Ages 10 to 15. Angles, shapes and patterns drawn in Python.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">TRT / 03</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 18. From graphics to full projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="symptoms">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Match your symptom</p><h2>What you see, what it usually means</h2><p class="ag-lede">Find the row that matches what happened on your screen. Each cause is explained further down the page.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Turtle symptoms and causes (our table; the messages are from our run of Python 3.13.6 or the Python documentation)</caption><thead><tr><th scope="col">What happens</th><th scope="col">What Python printed</th><th scope="col">Most likely cause</th></tr></thead><tbody><tr><td>Error on the first turtle line</td><td>module 'turtle' has no attribute 'Turtle'</td><td>Your own file is named turtle.py</td></tr><tr><td>Error before anything runs</td><td>Standard library module '_tkinter' was not found</td><td>tkinter is missing from this Python install</td></tr><tr><td>A window flashes and closes</td><td>Nothing at all</td><td>No turtle.done() at the end of the program</td></tr><tr><td>Arrow keys do nothing</td><td>Nothing at all</td><td>screen.listen() was never called</td></tr><tr><td>Error naming a color</td><td>bad color string: bleu</td><td>A misspelled color name</td></tr><tr><td>Error with three numbers as a color</td><td>bad color sequence: (240, 160, 80)</td><td>Color mode is 1.0, not 255</td></tr><tr><td>Error on a turtle command</td><td>'Turtle' object has no attribute 'forwad'. Did you mean: 'forward'?</td><td>A typo in the command name</td></tr><tr><td>Error after closing the window</td><td>invalid command name ".!canvas"</td><td>A turtle command ran after the window was gone</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">The _tkinter and color-sequence messages are quoted from the <a class="ag-inline-link" href="https://docs.python.org/3/library/turtle.html" rel="noopener" target="_blank">turtle documentation</a>; the others come from our own run of Python 3.13.6 with Tk 8.6 on Windows 11, 17 October 2026. We are not connected with the Python Software Foundation.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="filename">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Cause number one</p><h2>The file named turtle.py: why import turtle stops working</h2><p class="ag-lede">It feels sensible to save your first turtle program as turtle.py. It is also a very common reason import turtle fails, because Python then imports your file instead of the real module.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Broken &middot; the program is fine, the file name is not</b><span>python</span></figcaption><pre># Saved as turtle.py  (the bug is the file name, ours)
+import turtle
+t = turtle.Turtle()
+t.forward(100)
+turtle.done()
+
+# Our run, Python 3.13.6:
+# AttributeError: module 'turtle' has no attribute
+#   'Turtle' (consider renaming 'turtle.py' since it
+#   has the same name as the standard library module
+#   named 'turtle' and prevents importing that
+#   standard library module). Did you mean: 'turtle'?</pre><p class="ag-code-note">Python 3.13 added the "consider renaming" hint; the Python 3.13 release notes show the same message for a file named random.py. Older versions print only the first part, which is far less helpful.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why Python picks your file</h3><p>The Python tutorial explains that "The directory containing the script being run is placed at the beginning of the search path, ahead of the standard library path." So when your folder holds turtle.py, import turtle finds that file first.</p>
+<p>The tutorial adds, flatly: "This is an error unless the replacement is intended." Your file has no Turtle class in it, so the very next line fails.</p></div><div><h3>The fix, in three moves</h3><p>Rename the file to something like star_card.py or my_drawing.py. Anything except the name of a module you import.</p>
+<p>Run the renamed file and read the first line of any new error. With the real module back, the program either draws or fails on a different, honest line.</p>
+<p>Check the folder for other borrowed names too. A file called random.py or math.py breaks those modules in exactly the same way.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="window">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The window</p><h2>The window closes at once, never opens, or freezes</h2><p class="ag-lede">Turtle draws in a desktop window made by tkinter, Python's interface to the Tk toolkit. Window problems tend to come from that window being closed too early, never being allowed to open, or not being available at all.</p></div>
+    <div class="ag-grid-3"><div><h3>It flashes and closes</h3><p>When the last line finishes, the program ends and takes the window with it. The documentation says turtle.done() "Must be the last statement in a turtle graphics program." Add it, or use turtle.exitonclick() to close on a mouse click.</p></div><div><h3>It never opens</h3><p>The documentation is clear: "Turtle graphics requires the tkinter optional module." If you see an error mentioning _tkinter, this Python install has no Tk support. Running python -m tkinter should open a small test window when tkinter works.</p></div><div><h3>It freezes or will not close</h3><p>This usually happens when a program is run twice in one session, or a loop never ends. Close the window, restart the Python shell or kernel, and run the file fresh. Add turtle.done() once, at the very end.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Will turtle open a window here? (from the Python documentation, plus our reasoning, labelled)</caption><thead><tr><th scope="col">Setting</th><th scope="col">What the documentation says</th><th scope="col">What that means for a student</th></tr></thead><tbody><tr><td>python.org Python on Windows or macOS</td><td>"The python.org installers for Windows and macOS include it"</td><td>Turtle should work after a normal install</td></tr><tr><td>Python on Linux, including some school setups</td><td>Some Linux distributions "may package it separately"</td><td>Ask whoever set up the computer to add the Tk package</td></tr><tr><td>IDLE, the editor that comes with Python</td><td>done() must not be used if IDLE runs in -n mode</td><td>In a normal IDLE install, done() is fine</td></tr><tr><td>A browser notebook running on a remote server</td><td>Not covered by the turtle documentation</td><td>Our reasoning: the code runs on another machine, so there is no desktop window for tkinter to open on your screen</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quotes from the <a class="ag-inline-link" href="https://docs.python.org/3/library/turtle.html" rel="noopener" target="_blank">turtle</a> and <a class="ag-inline-link" href="https://docs.python.org/3/library/tkinter.html" rel="noopener" target="_blank">tkinter</a> documentation, read 17 October 2026. tkinter lists Tcl/Tk 8.5.12 as its minimum supported version; our test machine reported Tk 8.6.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="text">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How to write in turtle</p><h2>How to write text on the turtle screen</h2><p class="ag-lede">Searches for how to write in turtle mostly mean one thing: putting words on the drawing. The command is write(), and the documentation gives its full form as write(arg, move=False, align='left', font=('Arial', 8, 'normal')).</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Working &middot; a star card with a centered message</b><span>python</span></figcaption><pre># star_card.py  (ours; any name except turtle.py)
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("lightyellow")
+t = turtle.Turtle()
+t.color("purple")
+t.speed(6)            # 6 is "normal"
+
+for side in range(5):
+    t.forward(150)
+    t.right(144)      # 5 x 144 = 720: two full turns
+
+t.penup()             # move without drawing
+t.goto(75, -60)
+t.write("Happy birthday, Ava", align="center",
+        font=("Arial", 18, "normal"))
+t.hideturtle()
+turtle.done()         # keeps the window open</pre><p class="ag-code-note">We ran a test copy of this program: the star closed neatly and the turtle finished at (75.00, -60.00) facing heading 0.0, because five turns of 144 degrees add up to 720, exactly two full turns.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The parts of write(), from the turtle documentation</caption><thead><tr><th scope="col">Part</th><th scope="col">What it does</th><th scope="col">Our tip</th></tr></thead><tbody><tr><td>arg</td><td>The object to write; its string form appears on screen</td><td>Numbers work alone, but joining them to text needs str()</td></tr><tr><td>align</td><td>One of "left", "center" or "right", measured from the turtle</td><td>Use "center" for titles and labels</td></tr><tr><td>font</td><td>A triple: (fontname, fontsize, fonttype)</td><td>Size 8 is the default and is tiny; try 16 to 24</td></tr><tr><td>move</td><td>If true, the pen moves to the bottom-right corner of the text</td><td>Leave it False unless you are writing a line in pieces</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Broken, then fixed &middot; the score label mistake</b><span>python</span></figcaption><pre># The write() mistake (ours)
+points = 42
+t.write(points + " points")      # TypeError
+
+# Our run: TypeError: unsupported operand type(s)
+#   for +: 'int' and 'str'
+
+t.write(str(points) + " points") # works
+t.write(f"{points} points")      # also works</pre><p class="ag-code-note">The error is ordinary Python, not turtle: a number and a string cannot be added. Convert the number first.</p></figure>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="keys">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Keys, colors and speed</p><h2>Keys that do nothing, colors that crash, and a turtle that is too slow</h2><p class="ag-lede">Once the window opens, the next round of trouble usually comes from three settings that the documentation explains in a line each.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Working &middot; arrow keys that move the turtle</b><span>python</span></figcaption><pre># arrow_keys.py  (ours)
+import turtle
+
+screen = turtle.Screen()
+t = turtle.Turtle()
+
+def go_up():
+    t.forward(20)
+
+def turn_left():
+    t.left(30)
+
+screen.onkey(go_up, "Up")
+screen.onkey(turn_left, "Left")
+screen.listen()       # without this, keys are ignored
+turtle.done()</pre><p class="ag-code-note">The documentation says that to register key events, the TurtleScreen "must have the focus", which is what listen() does. Click the turtle window once too, so the keyboard is talking to it and not to your editor.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Colors: names, hex codes and number triples</h3><p>A color name is a Tk color specification string, which the documentation illustrates with "red", "yellow", or "#33cc8c". A misspelling such as "bleu" stops the program with bad color string: bleu.</p>
+<p>Three numbers like (240, 160, 80) only work after screen.colormode(255). In the default mode each value must be between 0 and 1.0, and the documentation shows the resulting error: bad color sequence: (240, 160, 80).</p></div><div><h3>Speed: why 0 is the fastest</h3><p>speed() takes 0 to 10 or a word. The documentation maps "fastest" to 0, "normal" to 6 and "slowest" to 1, and warns that "speed = 0 means that no animation takes place".</p>
+<p>So speed(0) is not "stopped"; it is "draw instantly". For large drawings, students also use tracer(0) with update() to draw everything at once.</p></div></div>
+    <p class="ag-mt-40">Asking the user for input inside turtle works too: textinput() pops up a dialog and, as the documentation notes, returns None if the dialog is canceled, so check for None before using the answer.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="checklist">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Checklist</p><h2>Ten checks, in order, for any turtle program that will not work</h2><p class="ag-lede">Our checklist, in the order our teachers use it. Stop as soon as one check explains the error.</p></div>
+    <ol class="ag-steps"><li><b>Read the last line of the error.</b> It names the type (AttributeError, TypeError, TurtleGraphicsError) and usually the word that is wrong.</li><li><b>Check the file name.</b> If it is turtle.py, rename it and delete any cached turtle file in the same folder.</li><li><b>Check the last line of the program.</b> It should be turtle.done() or turtle.exitonclick(), once, at the end.</li><li><b>Check the capital T.</b> The module is turtle; the class is Turtle. Our run of turtle.turtle() printed: module 'turtle' has no attribute 'turtle'. Did you mean: 'Turtle'?</li><li><b>Check spelling of commands.</b> Python 3.13 suggests the nearest real name, as it did for forwad.</li><li><b>Test tkinter on its own.</b> Run python -m tkinter. If no test window appears, the problem is the Python install, not your code.</li><li><b>Check colors.</b> Names must be real Tk color names; number triples need colormode(255).</li><li><b>For keys, check listen().</b> And click the turtle window before pressing anything.</li><li><b>Restart before rerunning.</b> Close the old window and restart the shell, so an old screen is not still attached.</li><li><b>Make it smaller.</b> Comment out everything except the first three lines and add lines back one at a time until it breaks.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>When the error appears after you close the window</h3><p>If a program keeps drawing after the window has gone, tkinter has nothing to draw on. In our test, calling turtle.bye() and then t.forward(50) ended with _tkinter.TclError: invalid command name ".!canvas".</p>
+<p>The fix is structure, not luck: draw everything first, then let turtle.done() hold the window open as the final line.</p></div><div><h3>School assignments</h3><p>If the drawing is a graded school assignment, we will explain why the program fails and teach the idea behind it, but we do not draw anyone's assignment for them.</p>
+<p>In a lesson, students bring the broken file, and the teacher asks them to read the error aloud first. Fixing it themselves is the part that sticks.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where turtle leads</p><h2>From a first square to real programs</h2><p class="ag-lede">Turtle was built for learning. The documentation describes it as an implementation of the drawing tools introduced in Logo in 1967 and notes that its "instant, visible feedback makes it an effective way for learners to encounter programming concepts."</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What turtle teaches across a first term (our plan for Grades 3 to 8, adjusted for each child)</caption><thead><tr><th scope="col">Classes</th><th scope="col">What gets drawn</th><th scope="col">The idea behind it</th></tr></thead><tbody><tr><td>1 to 2</td><td>Squares, triangles, a house</td><td>Sequence: commands run in order</td></tr><tr><td>3 to 4</td><td>Stars and spirals with for loops</td><td>Loops, and angles that add up to full turns</td></tr><tr><td>5 to 6</td><td>Functions like draw_flower(size)</td><td>Functions and parameters</td></tr><tr><td>7 to 8</td><td>Random colors and positions</td><td>Variables, random numbers, color modes</td></tr><tr><td>9 to 10</td><td>An arrow-key drawing game</td><td>Events and the main loop</td></tr><tr><td>11 to 12</td><td>A card or poster with text</td><td>Putting it all together; write() and layout</td></tr></tbody></table></div>
+    <p class="ag-mt-40">After turtle, children move on to games and data. For age-by-age starting points, see <a class="ag-inline-link" href="/python-for-10-year-olds">Python for 10 year olds</a> and <a class="ag-inline-link" href="/python-for-12-year-olds">Python for 12 year olds</a>; for younger children, <a class="ag-inline-link" href="/online-coding-classes-for-kids-usa">online coding classes for US kids</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From first line to first game</p>
+      <h2>Four stages of turtle programming</h2>
+      <p class="ag-lede">Where a young coder might be, and what comes next.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages with Python turtle (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Typist</td><td class="ag-num">Copies commands line by line from a worksheet</td></tr><tr><td>2. Looper</td><td class="ag-num">Replaces repeated lines with a for loop</td></tr><tr><td>3. Builder</td><td class="ag-num">Writes functions that draw shapes of any size</td></tr><tr><td>4. Game maker</td><td class="ag-num">Uses keys, events and text to make something interactive</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>A child who can explain why five turns of 144 degrees make a star is doing geometry and programming at once.</p>
+<p>Errors are part of the work. The useful question is whether your child reads them before asking for help.</p></div><div><h3>For kids</h3><p>Never name your file turtle.py. Give it a name about what it draws.</p>
+<p>End every program with turtle.done(). Then the window waits for you.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for young Python coders</h2>
+      <p class="ag-lede">Taught live online by a regular teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Kids</h3>
+        <span class="ag-band-sub">Grades 3 to 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / KID / 01</p>
+          <h4>Python and AI for kids</h4>
+          <p>Turtle first, then games.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / KID / 02</p>
+          <h4>Scratch coding</h4>
+          <p>Drag-and-drop before typing.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / KID / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Angles and patterns in code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / TEN / 01</p>
+          <h4>Python for teens</h4>
+          <p>Past turtle into real apps.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / TEN / 02</p>
+          <h4>Creative coding</h4>
+          <p>Animation and generative art.</p>
+          <a class="ag-course-link" href="/courses/creative-coding-animation-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / TEN / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>Drawing and games in a browser.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Going further</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / PRO / 01</p>
+          <h4>Problem solving for teens</h4>
+          <p>Loops and logic, harder puzzles.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / PRO / 02</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Python models, ages 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">TRT / PRO / 03</p>
+          <h4>Python for adults</h4>
+          <p>Zero to advanced, ages 18 and up.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live turtle lessons from home</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Batches placed for US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Popular with younger children.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A schedule built around your child.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A familiar face</h3><p>One teacher across the term.</p></div>
+      <div><h3>Screen shared</h3><p>The teacher sees the turtle window too.</p></div>
+      <div><h3>Broken files welcome</h3><p>We start from the error.</p></div>
+      <div><h3>Explain, then fix</h3><p>Children fix their own code.</p></div>
+      <div><h3>Anywhere in the US</h3><p>A laptop with Python is enough.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty, or one child.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students drew and built</h2>
+      <p class="ag-lede">Work from learners whose first programs were turtle shapes too. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Turtle comes free with Python. You pay only for live lessons, charged monthly in US dollars; there is no term-long commitment, and you may stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring the program that broke</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>A regular teacher</li><li>Choose a batch time</li><li>Billed monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One child, one teacher</li><li>Times you choose</li><li>A plan around their ideas</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions families ask</p>
+      <h2>Python turtle problems: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Why is import turtle not working?</h3>
+        <p>A very common cause is a file of your own named turtle.py in the same folder, which Python imports instead of the real module. Rename it. If the error mentions _tkinter instead, this Python install is missing tkinter, which turtle needs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does my turtle window close immediately?</h3>
+        <p>The program ended. Put turtle.done() as the last line, which the Python documentation says must be the last statement in a turtle graphics program, or use turtle.exitonclick() to close it with a click.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you write text in Python turtle?</h3>
+        <p>Use write(), for example t.write("Hello", align="center", font=("Arial", 18, "normal")). The text appears at the turtle's position. Convert numbers with str() before joining them to words.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why do my arrow keys not work in turtle?</h3>
+        <p>Call screen.listen() after setting up onkey(), and click the turtle window once so it has the focus. The documentation says the screen must have the focus to register key events.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does turtle need tkinter?</h3>
+        <p>Yes. The Python documentation says turtle graphics requires the tkinter optional module. The python.org installers for Windows and macOS include it, and running python -m tkinter shows a test window when it is working.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does turtle say bad color string?</h3>
+        <p>The color name is not one Tk recognizes, often a typo. Use a real name such as red or a hex code such as #33cc8c. For number triples up to 255, call screen.colormode(255) first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Python turtle work on a Chromebook?</h3>
+        <p>Turtle needs a desktop window from tkinter, so it works where a full Python install with tkinter can run. On a school Chromebook that depends on how the device is set up, so ask your teacher which Python environment the class uses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you do my turtle assignment?</h3>
+        <p>No. We explain why a program fails and teach the idea so the student can finish their own work. We never complete graded assignments.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US families?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do turtle and Python classes cost?</h3>
+        <p>The first lesson costs nothing. After that you pay month by month for live teaching, and the fees section on this page shows the amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US families whose children are starting Python.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our full set of pages for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-coding-classes-for-kids-usa">Online coding for US kids</a></h3><p>Classes for ages 6 to 14.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-10-year-olds">Python for 10 year olds</a></h3><p>A starting point for fifth graders.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-12-year-olds">Python for 12 year olds</a></h3><p>A starting point for seventh graders.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>A method for any bug, turtle or not.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects our learners have shipped.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us what your child is drawing and where it goes wrong. The teacher opens the same program in the first lesson.</p>
+        <p class="ag-mt-40">Before booking, you can read <a class="ag-inline-link" href="/how-we-teach">how a lesson works</a> or browse <a class="ag-inline-link" href="/courses">all our courses</a> with their syllabuses.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20is%20learning%20Python%20turtle%20and%20their%20programs%20keep%20failing.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ptnw',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are in India and teach entirely over video, so families anywhere in the US join from home. A WhatsApp message gets the quickest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ptnw(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson. Card details are never requested.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python for kids</h4><ul><li><a href="/python-for-10-year-olds">Python for 10 year olds</a></li><li><a href="/python-for-11-year-olds">Python for 11 year olds</a></li><li><a href="/blog/scratch-vs-python-which-better-young-learners">Scratch or Python</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Draw everything, then turtle.done()</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ptnw = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'python-turtle-not-working-inline', meta: { name: name, age: age, page: 'python-turtle-not-working' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
