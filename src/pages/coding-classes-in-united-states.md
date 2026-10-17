@@ -473,6 +473,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 <!-- US-GUIDES -->
 - [How to make a Roblox game](/how-to-make-a-roblox-game)
 - [Congressional App Challenge guide](/congressional-app-challenge-guide)
+- [Coding and AI classes in North Carolina](/coding-and-ai-classes-in-north-carolina)
 
 ## Everything American parents and students ask in their first call.
 

@@ -50726,5 +50726,63 @@
       "Income, rent, ancestry, birthplace, language and religion figures: excluded by cluster rules.",
       "Any link with Lake Macquarie City Council or NSW Spatial Services."
     ]
+  },
+  "coding-and-ai-classes-in-north-carolina": {
+    "market": "North Carolina",
+    "bodyClass": "cg-ncar",
+    "pageType": "city",
+    "curriculumAuthority": "North Carolina, read raw on 17 October 2026: NC DPI Computer Science Graduation Requirement (G.S. 115C-12(9d), adopted September 21, 2023, signed September 29, 2023; HS courses by 2026-27, as early as 2024-25; MS elective by 2025-26; waivers only 2024-25 and 2025-26; two exemptions; 80% on three or more core concepts; 2026-27 review broadened to the CSTA framework); NC DPI press release 2 October 2023 (students entering high school in 2026-27; eighth state, 2023 wording; Maher, a century); NC Computer Science Standards (grade bands K-2, 3-5, 6-8; ICS; five core concepts; 93% of parents); Code.org (2025) State of AI + CS Education data (513 of 735, 69.8%; trend 51% to 69.8%; 27,384 of 481,741, 5.68%); College Board AP schools 642 (2023), 639 (2024); IANA America/New_York and US DST rule.",
+    "localProject": "City of Raleigh Greenway Trails open data (Open Raleigh Data Policy), downloaded 17 October 2026: 1,266 records (701 trail, 365 structure, 114 crossing); materials asphalt 756, wood decking 230, concrete 142; 26 named trails; our MAP_MILES sums by TRAIL_NAME: Neuse River Trail 33.61, Walnut Creek Trail 20.27, Crabtree Creek Trail 18.63, Mine Creek Trail 6.54, labelled as ours and not official. Lesson family: group-by and aggregation, and why segment sums are not official totals.",
+    "requiredMentions": [
+      "G.S. 115C-12(9d)",
+      "September 29, 2023",
+      "after completing eleventh grade",
+      "at least 80% of its content",
+      "513 of 735",
+      "27,384 of 481,741",
+      "Introduction to Computer Science (ICS)",
+      "93% of parents",
+      "33.61",
+      "1,266 records",
+      "March 14, 2027"
+    ],
+    "sources": [
+      {
+        "claim": "NC DPI: Computer Science Graduation Requirement, G.S. 115C-12(9d), dates, exemptions, waivers, course alignment.",
+        "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/computer-science-it-and-technology-education/computer-science-graduation-requirement"
+      },
+      {
+        "claim": "NC DPI press release, 2 October 2023: House Bill 8, entering high school in 2026-27, eighth state, a century.",
+        "url": "https://www.dpi.nc.gov/news/press-releases/2023/10/02/nc-students-gain-computer-science-skills-passage-house-bill-8"
+      },
+      {
+        "claim": "NC DPI: NC Computer Science Standards, grade bands, ICS, five core concepts, 93% of parents.",
+        "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/computer-science-it-and-technology-education/nc-computer-science-standards"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: NC access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Raleigh: Greenway Trails feature service.",
+        "url": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/Greenway_Trails_All/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: US daylight saving rule and America/New_York.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Code.org urban, suburban and rural figures for North Carolina: the published counts and percentages did not agree, so they are not used.",
+      "A current national count of states requiring CS: only the 2023 DPI wording (\"eighth state\") is quoted, dated.",
+      "Names of individual North Carolina schools: not needed; counts only.",
+      "Official Raleigh trail lengths: not read; the page prints only our segment sums, labelled as ours.",
+      "That our classes satisfy the graduation requirement: refused; only approved school courses do.",
+      "Any affiliation with NC DPI, the City of Raleigh, Code.org or the College Board."
+    ]
   }
 }

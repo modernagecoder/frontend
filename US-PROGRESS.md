@@ -148,7 +148,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | # | Slug | Type | Words | Worst overlap | Spine | Lesson family | Commit |
 |---|------|------|-------|---------------|-------|---------------|--------|
 | 1 | how-to-make-a-roblox-game (rbx, #80473B) | door | 3,969 | 0.2% vs after-school-coding-club-vs-online-class-australia | how-to | event-driven programming | edd54615 |
-| 2 | congressional-app-challenge-guide (cac, #252A6B) | door | 4,061 | 1.5% vs how-to-make-a-roblox-game | competition guide | scoping and prioritisation | (this commit) |
+| 2 | congressional-app-challenge-guide (cac, #252A6B) | door | 4,061 | 1.5% vs how-to-make-a-roblox-game | competition guide | scoping and prioritisation | eee6ea1a |
+| 3 | coding-and-ai-classes-in-north-carolina (ncar, #276910) | state | 3,568 | 2.1% vs ai-and-programming-classes-in-adelaide | graduation requirement | group-by and aggregation | (this commit) |
 
 ## Skipped
 

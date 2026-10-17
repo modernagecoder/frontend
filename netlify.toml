@@ -23469,6 +23469,18 @@
   to = "/src/pages/congressional-app-challenge-guide.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-north-carolina"
+  to = "/src/pages/coding-and-ai-classes-in-north-carolina.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-north-carolina.md"
+  to = "/src/pages/coding-and-ai-classes-in-north-carolina.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
