@@ -449,6 +449,7 @@ const SLUGS = [
   'cybersecurity-classes-for-teens',
   'khan-academy-computer-science-vs-live-classes',
   'scratch-not-working-help',
+  'presidential-ai-challenge-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -977,6 +978,7 @@ const LLMS_LABELS = {
   'cybersecurity-classes-for-teens': 'Cybersecurity classes for teens',
   'khan-academy-computer-science-vs-live-classes': 'Khan Academy CS vs live classes',
   'scratch-not-working-help': 'Scratch not working',
+  'presidential-ai-challenge-guide': 'Presidential AI Challenge guide',
 };
 
 function wireLlms(slugs) {
