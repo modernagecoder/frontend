@@ -936,3 +936,4 @@
 
 /* United States cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
 .ag-root.ag-rbx { --ag-accent: #80473B; --ag-accent-soft: rgba(128,71,59,.09); }   /* Roblox how-to, US: a muted brick red chosen with the accent picker (hue 10, s .54, v .50), 89+ RGB units from the other US pilot accents and 8 from every other site colour, contrast 5.91 on the paper */
+.ag-root.ag-cac { --ag-accent: #252A6B; --ag-accent-soft: rgba(37,42,107,.09); }   /* Congressional App Challenge guide: a muted capitol navy chosen with the accent picker (hue 235, s .65, v .42), 89+ RGB units from the other US accents and 9 from every other site colour, contrast 10.51 */

@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Congressional App Challenge Guide: Rules, Video, Judging</title>
+  <meta name="description" content="The Congressional App Challenge from the official 2026 rules: eligibility, teams, the AI rule, the 1 to 3 minute demo video, judging and a ten-week build plan.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/congressional-app-challenge-guide">
+  <link rel="alternate" type="text/markdown" href="/src/pages/congressional-app-challenge-guide.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#252A6B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/congressional-app-challenge-guide">
+  <meta property="og:title" content="Congressional App Challenge Guide: Rules, Video, Judging">
+  <meta property="og:description" content="Middle and high school students, teams of up to four, any language, one app a year. The official 2026 rules explained, plus a ten-week plan from idea to demo video.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Congressional App Challenge Guide: Rules, Video, Judging">
+  <meta name="twitter:description" content="The Congressional App Challenge explained from the 2026 rules, with a ten-week plan.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cac .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-cac .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-cac .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-cac .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-cac .ag-band-head h3 { letter-spacing: -0.004em; }
+.ag-root.ag-cac .ag-slots { gap: 1.3rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/congressional-app-challenge-guide#page","url":"https://learn.modernagecoders.com/congressional-app-challenge-guide","name":"Congressional App Challenge Guide","description":"A guide for US middle and high school students and parents to the Congressional App Challenge, built from the official 2026 rules, with a build plan and a scoping example.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Congressional App Challenge","item":"https://learn.modernagecoders.com/congressional-app-challenge-guide"}]},{"@type":"Course","name":"Congressional App Challenge Guide","description":"Live online app development and coding classes for US middle and high school students preparing a Congressional App Challenge entry, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/congressional-app-challenge-guide"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/congressional-app-challenge-guide"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/congressional-app-challenge-guide"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Congressional App Challenge?","acceptedAnswer":{"@type":"Answer","text":"It is a coding competition for US middle and high school students, run in participating Congressional Districts and judged by each Member of Congress and their office. It is administered by the Internet Education Foundation."}},{"@type":"Question","name":"Who can enter the Congressional App Challenge?","acceptedAnswer":{"@type":"Answer","text":"For 2026, students enrolled in middle or high school on October 26, 2026 who were US residents at the time of submission. The rules say there is no citizen requirement."}},{"@type":"Question","name":"Can students enter as a team?","acceptedAnswer":{"@type":"Answer","text":"Yes. The 2026 rules allow individuals or teams of up to four students, and at least half of a team must live or attend school in the same Congressional District."}},{"@type":"Question","name":"What programming language can be used?","acceptedAnswer":{"@type":"Answer","text":"Any language, including C, C++, Java, JavaScript, Python, Swift and block-based coding. Any platform is allowed too, from web and mobile to robots and wearables."}},{"@type":"Question","name":"Can AI tools be used?","acceptedAnswer":{"@type":"Answer","text":"Yes, for 2026, if all AI use is fully disclosed in the submission. AI may support parts of the project but must not be the entirety of the technical development."}},{"@type":"Question","name":"How long should the demo video be?","acceptedAnswer":{"@type":"Answer","text":"The 2026 rulebook says one to three minutes. It must name the participants and the app, state the purpose in one sentence, describe the audience and tools, and show the app working."}},{"@type":"Question","name":"When was the 2026 deadline?","acceptedAnswer":{"@type":"Answer","text":"The 2026 rulebook set the deadline at 12:00 pm EDT on Monday, October 26, 2026. Later cycles publish their own dates on the official site."}},{"@type":"Question","name":"How are winners chosen?","acceptedAnswer":{"@type":"Answer","text":"Each Member of Congress and their office judge their district, sometimes with a panel. The 2026 criteria were the quality of the idea, its implementation, and demonstrated excellence of coding and programming skills."}},{"@type":"Question","name":"What do winners receive?","acceptedAnswer":{"@type":"Answer","text":"For 2026, each district winner is featured on the House.gov and CongressionalAppChallenge.us websites and can receive a copyright fee waiver through the ARTS Act. Districts may add certificates or small awards."}},{"@type":"Question","name":"Can a middle schooler with only Scratch experience enter?","acceptedAnswer":{"@type":"Answer","text":"Yes. Block-based coding is allowed. A small, finished Scratch app with a clear purpose is a real entry; the plan on this page keeps the must list to three features for grades 6 to 8."}},{"@type":"Question","name":"How can Modern Age Coders help?","acceptedAnswer":{"@type":"Answer","text":"A regular teacher works through the ten-week plan with your student: scoping, building, testing, the demo video and honest AI disclosure. Classes are weekdays or weekends, flexible, in a batch or one to one."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/congressional-app-challenge-guide","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-cac">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#rules">Who can enter</a></li>
+      <li><a href="#dates">2026 dates</a></li>
+      <li><a href="#submit">What to submit</a></li>
+      <li><a href="#judging">Judging</a></li>
+      <li><a href="#plan">Ten-week plan</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Congressional App Challenge
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 6 to 12 &middot; One app per student per year</p>
+        <h1>Congressional App Challenge guide</h1>
+        <p class="ag-lede">The Congressional App Challenge is the competition where a student&rsquo;s app is judged by the office of their own Member of Congress. It is open to middle and high school students, it accepts any programming language and any topic, and a winning app is featured on the House.gov website. This guide is built from the official 2026 rulebook, read in full: who can enter, what a submission needs, what the judges look at, how the rules treat AI tools, and a ten-week plan our teachers use to take a student from a blank page to a working app and a clear demo video.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#plan" class="ag-btn ag-btn--ghost">See the ten-week plan</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20enter%20the%20Congressional%20App%20Challenge.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cac'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; app projects planned week by week</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Who</dt><dd>Middle and high school students</dd>
+          <dt>Where</dt><dd>A participating district</dd>
+          <dt>Teams</dt><dd>Solo, or up to four</dd>
+          <dt>Language</dt><dd>Any, including block code</dd>
+          <dt>AI tools</dt><dd>Allowed, if disclosed</dd>
+          <dt>Video</dt><dd>One to three minutes</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The Congressional App Challenge is a coding competition for US middle and high school students, run district by district and judged by each Member of Congress&rsquo;s office. Students enter alone or in teams of up to four, build an app in any language on any topic, and submit a 1 to 3 minute demo video plus written answers. For the 2026 cycle the deadline was 12:00 pm EDT on October 26, 2026.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Build the app with a teacher</p>
+      <h2>Three courses for a Congressional App Challenge entry</h2>
+      <p class="ag-lede">Each one ends with a working app the student can explain line by line, which is what the judges ask about.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-app-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/app-dev-teens.webp" alt="App Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAC / 01</p>
+          <h3>App development for teens</h3>
+          <p>Ages 13 to 18. Real mobile apps in React Native.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">
+        <div class="ag-pick-shot"><img src="/images/hackathon-teens.webp" alt="Hackathon for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAC / 02</p>
+          <h3>Hackathon and competition prep</h3>
+          <p>Ages 13 to 18. Scoping, building and pitching on a deadline.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/full-stack-web-development-teens-masterclass">
+        <div class="ag-pick-shot"><img src="/images/web-dev-teens.webp" alt="Full Stack Web Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CAC / 03</p>
+          <h3>Full stack web for teens</h3>
+          <p>Ages 13 to 18. A web app with a real database behind it.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="rules">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Who can enter</p><h2>The 2026 eligibility rules, line by line</h2><p class="ag-lede">These are the rules as the official 2026 rulebook states them. Each later cycle publishes its own rulebook, so check the current one on the official site before you register.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Congressional App Challenge eligibility, from the official 2026 rules (read 17 October 2026)</caption><thead><tr><th scope="col">Rule</th><th scope="col">What the 2026 rules say</th></tr></thead><tbody><tr><td>Age</td><td>"Students must be enrolled in middle school or high school on October 26th, 2026." Middle school "typically encompasses 6th-8th grades".</td></tr><tr><td>Residency</td><td>"All competing students must be U.S. residents at the time of submission. There is no citizen requirement for students."</td></tr><tr><td>District</td><td>Compete in the district where you live or where you attend school; a district must be hosting a Challenge, and you may submit in only one district.</td></tr><tr><td>Teams</td><td>Individuals, or "teams of up to four (4) students"; at least half of a team must live or attend school in the same Congressional District.</td></tr><tr><td>Prior work</td><td>"Students may submit any app they've created after October 30th, 2025." A 2.0 version highlights only the new code.</td></tr><tr><td>Entries</td><td>"Students may only submit ONE app per year." No entries across several teams.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What is open</h3><p>Almost everything technical. The rules allow any topic, and any platform including web apps, desktop apps, mobile apps, browser extensions, robots, augmented and virtual reality, wearables and embedded systems.</p>
+<p>Any language is allowed too, from C, C++, Java, JavaScript, Python and Swift to block-based coding. A sixth grader&rsquo;s Scratch project and a senior&rsquo;s React app compete under the same rules.</p></div><div><h3>What trips families up</h3><p>Registration asks for a personal email address that is not a school account, a parent or guardian&rsquo;s name and email, and both home and school addresses with the full 9-digit zip code and Congressional District.</p>
+<p>Finding the district matters, because a student can compete in only one. Look up both addresses early, and check that your district appears on the official list of participating districts.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.congressionalappchallenge.us/students/rules/" rel="noopener" target="_blank">Congressional App Challenge rules page</a> and the linked 2026 rulebook PDF, read 17 October 2026. We are not connected with the Congressional App Challenge or the Internet Education Foundation, which administers it.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="dates">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The calendar</p><h2>How a Challenge year runs: the 2026 cycle as published</h2><p class="ag-lede">The organisers publish dates for each cycle. This was the 2026 calendar, which shows the shape every year follows: registration in winter, building through spring and summer, submission in the fall.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 2026 Congressional App Challenge calendar, from the official rules page and rulebook</caption><thead><tr><th scope="col">When (2026 cycle)</th><th scope="col">What happens</th></tr></thead><tbody><tr><td>January 1, 2026</td><td>Student pre-registration opens</td></tr><tr><td>May 2026</td><td>The Challenge officially launches</td></tr><tr><td>12:00 pm EDT, Monday, October 26, 2026</td><td>Deadline to register and submit the app online</td></tr><tr><td>November 2026</td><td>Judging by each Member of Congress&rsquo;s office</td></tr><tr><td>December 2026</td><td>Winners announced by each hosting Member</td></tr><tr><td>January 15, 2027</td><td>Embargo date before which the organisers cannot disclose 2026 results</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the calendar means for planning</h3><p>From a May launch to a late October deadline is roughly five months, which is plenty for a student who starts in spring and very tight for one who starts in October.</p>
+<p>The best entries we see begin as an idea in the summer, become a working first version by September, and spend the last weeks on testing and the video.</p></div><div><h3>If you are reading between cycles</h3><p>Once a deadline passes, the next cycle&rsquo;s rulebook and dates appear on the official site. Use the months in between to learn the tools and build a small practice app.</p>
+<p>Remember the prior-work rule: for 2026, apps created after October 30, 2025 were eligible, so work started in the off season can count if the next rulebook keeps a similar rule.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="submit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What to submit</p><h2>The demo video and six questions the judges read</h2><p class="ag-lede">The rulebook calls the demonstration video the most critical part of the application. It is also where many good apps lose marks, because the video does not explain what the app does.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What the 2026 demonstration video must include, from the official rulebook</caption><thead><tr><th scope="col">Item</th><th scope="col">Rule</th></tr></thead><tbody><tr><td>Length</td><td>"The video should be 1-3 minutes long." Videos outside the limit may be penalized.</td></tr><tr><td>Names</td><td>The name of each participant and the name of the app</td></tr><tr><td>Purpose</td><td>The purpose of the app, explained in one clear sentence</td></tr><tr><td>Audience</td><td>Who the app is intended for</td></tr><tr><td>Tools</td><td>The tools and coding languages used</td></tr><tr><td>Function</td><td>A showcase of the app working</td></tr><tr><td>Hosting</td><td>Uploaded to YouTube or Vimeo and set to "public"</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>What is the title of your app?</b></li><li><b>Explain the app&rsquo;s purpose.</b></li><li><b>What inspired you to create this app?</b></li><li><b>What technical or coding difficulty did you face, and how did you address it?</b></li><li><b>What did you learn while participating? What was your biggest takeaway?</b></li><li><b>What would you change if you were to create a 2.0 version?</b></li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Writing the one-sentence purpose</h3><p>The rules ask for the purpose in one clear sentence, and that sentence does more work than any other line in the application. A useful pattern is: who it helps, what problem it solves, and how.</p>
+<p>Compare "An app for school" with "A book-swap app that lets students at our middle school list, find and borrow books from each other in under a minute." The second tells a judge exactly what to look for in the demo.</p></div><div><h3>The technical difficulty answer</h3><p>Question four is where a student shows they built the app themselves. Name one real bug, say what caused it, and say how it was fixed.</p>
+<p>Judges can request the source code, and the rules say refusing that request means disqualification, so every claim in the answers should match the code.</p></div></div>
+    <p class="ag-mt-40">The rulebook is clear that "This is not a video-creation competition." A screen recording with a clear voice-over is enough; fancy editing earns nothing.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ai">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The AI rule</p><h2>Can students use AI tools in a Congressional App Challenge app?</h2><p class="ag-lede">Yes, under conditions the 2026 rules spell out. Families ask about this more than any other rule.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AI, originality and open source in the 2026 rules</caption><thead><tr><th scope="col">Topic</th><th scope="col">What the 2026 rules say</th></tr></thead><tbody><tr><td>AI tools</td><td>"The use of AI tools in app development for the Congressional App Challenge is permitted, provided that all AI usage is fully disclosed in the submission materials."</td></tr><tr><td>Limit on AI</td><td>AI may support specific aspects of the project and "must not constitute the entirety of the technical development".</td></tr><tr><td>Originality</td><td>The app must be original and created by the student or team; all coding and technical development must be theirs.</td></tr><tr><td>Libraries</td><td>Open-source libraries, frameworks and external tools are allowed if their use is clearly documented.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we apply it in class</h3><p>Students keep a simple AI log from day one: the date, the tool, what they asked, and what they kept. When the submission asks about AI, the answer is already written and accurate.</p>
+<p>Our rule for students is the same as the judges&rsquo; spirit: if AI suggested a piece of code, the student must be able to explain it before it stays in the app.</p></div><div><h3>Age-appropriate tools</h3><p>Many general AI chatbots set their own minimum ages in their terms, and some are for adults only. Under-18 students should use only tools whose terms allow their age, with a parent aware of the account.</p>
+<p>For most entries, AI is most useful for explaining an error message or suggesting a test case, not for writing the app.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="judging">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Judging</p><h2>How Congressional App Challenge apps are judged</h2><p class="ag-lede">Judging happens district by district, which is the feature that makes this competition unusual.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Judging and prizes in the 2026 rules</caption><thead><tr><th scope="col">Point</th><th scope="col">What the 2026 rules say</th></tr></thead><tbody><tr><td>Who judges</td><td>The Member of Congress and their office, who may use a panel of judges</td></tr><tr><td>Criteria</td><td>Quality of the idea (creativity and originality); implementation (user experience and design); "Demonstrated excellence of coding and programming skills"</td></tr><tr><td>Source code</td><td>Judges may request access to the app and source code; refusing means disqualification</td></tr><tr><td>Winners</td><td>Announced directly by the hosting Member of Congress</td></tr><tr><td>Recognition</td><td>Each district winner is featured on the House.gov and CongressionalAppChallenge.us websites, and can receive a copyright fee waiver under the ARTS Act</td></tr><tr><td>Ownership</td><td>"Contestants will own the intellectual property rights to their Submission"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading the three criteria</h3><p>The idea, the implementation and the code are weighed together. A brilliant idea that barely runs struggles, and so does polished code that solves nothing anyone needs.</p>
+<p>Implementation includes user experience and design, so a judge who opens the app should understand it within seconds, without the student in the room.</p></div><div><h3>Why the district matters</h3><p>Each office judges the entries in its own district, so a student competes against classmates and neighbors, not the whole country.</p>
+<p>Apps that solve a problem the student has seen in their own school or community are easy for a local office to understand, which is a natural advantage.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="scale">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">By the numbers</p><h2>How big the Congressional App Challenge is</h2><p class="ag-lede">The figures the organisers publish for the 2025 cycle and since the first official Challenge.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Congressional App Challenge figures, from the official About and Impact pages (read 17 October 2026)</caption><thead><tr><th scope="col">Figure</th><th scope="col">Value</th><th scope="col">Source</th></tr></thead><tbody><tr><td>Participants in 2025</td><td class="ag-num">13,830</td><td>Impact page</td></tr><tr><td>Applications in 2025</td><td class="ag-num">4,850</td><td>Impact page</td></tr><tr><td>Congressional Districts participating in 2025</td><td class="ag-num">394</td><td>Impact page</td></tr><tr><td>Students since 2015</td><td class="ag-num">85,000</td><td>Impact page</td></tr><tr><td>House Resolution 77 vote (2013)</td><td class="ag-num">411 to 3</td><td>About page</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Our own arithmetic on the organiser&rsquo;s 2025 figures: 4,850 applications across 394 participating districts is about 12.3 applications per district (4,850 / 394), if every application came from those districts. Real districts vary widely, so treat this as a sense of scale, not a forecast for any one district. Sources: <a class="ag-inline-link" href="https://www.congressionalappchallenge.us/impact/" rel="noopener" target="_blank">Impact</a> and <a class="ag-inline-link" href="https://www.congressionalappchallenge.us/about/" rel="noopener" target="_blank">About</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ten weeks</p><h2>A ten-week plan from idea to submitted app</h2><p class="ag-lede">Our plan for a student entering alone or with one teammate. It assumes about three hours a week, including one live class.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Ten weeks to a Congressional App Challenge entry (ours)</caption><thead><tr><th scope="col">Week</th><th scope="col">Goal</th><th scope="col">Done when</th></tr></thead><tbody><tr><td>1</td><td>Pick a real problem</td><td>One problem, one audience, written in a sentence</td></tr><tr><td>2</td><td>Scope it</td><td>A must, should and later list (see below)</td></tr><tr><td>3</td><td>Choose the tools</td><td>A starter project that runs on the target device</td></tr><tr><td>4 to 5</td><td>Build the must features</td><td>A first version a friend can use without help</td></tr><tr><td>6</td><td>Test with real users</td><td>Five people tried it; three problems written down</td></tr><tr><td>7</td><td>Fix and add one should feature</td><td>The three problems are fixed</td></tr><tr><td>8</td><td>Polish the design</td><td>A judge understands the screen in seconds</td></tr><tr><td>9</td><td>Video and answers</td><td>A 1 to 3 minute video and the six answers drafted</td></tr><tr><td>10</td><td>Submit early</td><td>Submitted days before the deadline, AI log disclosed</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Grades 6 to 8</h3><p>Block code or a simple web app is perfectly eligible. Keep the must list to three features.</p></div><div><h3>Grades 9 to 10</h3><p>A first typed-code app: a web app in JavaScript or a Python project with a simple interface.</p></div><div><h3>Grades 11 to 12</h3><p>A full app with a database or an API, and the time to test it properly with real users.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="scope">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked example</p><h2>Scoping an app: must, should, later</h2><p class="ag-lede">Most unfinished entries are too big, not too hard. Here is how one of our example projects, a book-swap app for a middle school, gets cut down to something a student can finish and demo.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Scoping a school book-swap app (our example; effort is our estimate in class hours)</caption><thead><tr><th scope="col">Feature</th><th scope="col">Bucket</th><th scope="col">Effort (hours)</th><th scope="col">Why</th></tr></thead><tbody><tr><td>List a book with title and photo</td><td>Must</td><td class="ag-num">4</td><td>Without it there is no app</td></tr><tr><td>Search books by title</td><td>Must</td><td class="ag-num">3</td><td>The core use in the demo</td></tr><tr><td>Request to borrow</td><td>Must</td><td class="ag-num">5</td><td>Shows the app solving the problem</td></tr><tr><td>Sign in with a school-approved account</td><td>Should</td><td class="ag-num">6</td><td>Useful, but a demo can use test accounts</td></tr><tr><td>Ratings and reviews</td><td>Later</td><td class="ag-num">6</td><td>Nice, not needed to show the idea</td></tr><tr><td>Chat between students</td><td>Later</td><td class="ag-num">10</td><td>Big, and raises safety questions</td></tr></tbody></table></div>
+    <p class="ag-mt-40">In our estimate the three must features take 12 hours (4 + 3 + 5), which fits weeks 4 and 5 of the plan at three hours a week with time to spare for bugs. Adding everything would take 34 hours, almost three times as long, and the extra features would barely change what a judge sees in a three-minute video.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting ready</p>
+      <h2>Four stages before a strong entry</h2>
+      <p class="ag-lede">Where students usually are when they first hear about the Challenge.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first app to Challenge entry (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Curious</td><td class="ag-num">Has built small projects or games, maybe in Scratch</td></tr><tr><td>2. Builder</td><td class="ag-num">Can make a simple app work with help</td></tr><tr><td>3. Finisher</td><td class="ag-num">Has finished one app end to end, tested by others</td></tr><tr><td>4. Entrant</td><td class="ag-num">Can scope, build, explain and demo an app on a deadline</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>A student at stage 1 or 2 in spring can still enter in the fall with a steady plan.</p>
+<p>The biggest jump is from builder to finisher: shipping one complete small app teaches more than starting three big ones.</p></div><div><h3>For students</h3><p>Pick a problem you have actually seen. It makes every answer in the application easier to write.</p>
+<p>Keep your AI log and your bug notes as you go. They become your submission answers.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for app builders in grades 6 to 12</h2>
+      <p class="ag-lede">Every course is taught live online by a regular teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Middle school</h3>
+        <span class="ag-band-sub">Grades 6 to 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / MID / 01</p>
+          <h4>Scratch coding</h4>
+          <p>Block code is eligible too.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / MID / 02</p>
+          <h4>Python for kids</h4>
+          <p>The first typed language.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / MID / 03</p>
+          <h4>Coding for kids</h4>
+          <p>From blocks to small apps.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>High school</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / HS / 01</p>
+          <h4>Python for teens</h4>
+          <p>Projects with data and interfaces.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / HS / 02</p>
+          <h4>React for teens</h4>
+          <p>Interfaces judges can use.</p>
+          <a class="ag-course-link" href="/courses/react-for-teens-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / HS / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>A web app from the first week.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Going further</h3>
+        <span class="ag-band-sub">Strong coders</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / ADV / 01</p>
+          <h4>AP Computer Science Principles</h4>
+          <p>The Create task and the exam.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / ADV / 02</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java, objects and the exam.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CAC / ADV / 03</p>
+          <h4>Vibe coding for teens</h4>
+          <p>AI-assisted building, disclosed.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live classes around a busy school schedule</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Pick a batch that fits after school in your time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings are popular before a deadline.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Very personalised, timed around the project.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One mentor</h3><p>The same teacher across the whole build.</p></div>
+      <div><h3>Week-by-week plan</h3><p>The ten weeks, adjusted to the student.</p></div>
+      <div><h3>Code review</h3><p>Every feature explained before it stays.</p></div>
+      <div><h3>Video rehearsal</h3><p>Practice the three-minute demo out loud.</p></div>
+      <div><h3>Live, online</h3><p>From any district in any state.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Apps our students have shipped</h2>
+      <p class="ag-lede">Real projects by our learners, from first apps to full web tools. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Entering the Challenge is free; our part is the teaching. Classes are billed one month at a time and shown in your local currency, with nothing to sign for the whole build, so a student can join for the months before a deadline and stop afterwards.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring your app idea</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>One regular teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A mentor to yourself</li><li>Timed around your deadline</li><li>Your own app</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews parents left on Google, unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Congressional App Challenge: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Congressional App Challenge?</h3>
+        <p>It is a coding competition for US middle and high school students, run in participating Congressional Districts and judged by each Member of Congress and their office. It is administered by the Internet Education Foundation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who can enter the Congressional App Challenge?</h3>
+        <p>For 2026, students enrolled in middle or high school on October 26, 2026 who were US residents at the time of submission. The rules say there is no citizen requirement.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can students enter as a team?</h3>
+        <p>Yes. The 2026 rules allow individuals or teams of up to four students, and at least half of a team must live or attend school in the same Congressional District.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What programming language can be used?</h3>
+        <p>Any language, including C, C++, Java, JavaScript, Python, Swift and block-based coding. Any platform is allowed too, from web and mobile to robots and wearables.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can AI tools be used?</h3>
+        <p>Yes, for 2026, if all AI use is fully disclosed in the submission. AI may support parts of the project but must not be the entirety of the technical development.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long should the demo video be?</h3>
+        <p>The 2026 rulebook says one to three minutes. It must name the participants and the app, state the purpose in one sentence, describe the audience and tools, and show the app working.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When was the 2026 deadline?</h3>
+        <p>The 2026 rulebook set the deadline at 12:00 pm EDT on Monday, October 26, 2026. Later cycles publish their own dates on the official site.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are winners chosen?</h3>
+        <p>Each Member of Congress and their office judge their district, sometimes with a panel. The 2026 criteria were the quality of the idea, its implementation, and demonstrated excellence of coding and programming skills.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do winners receive?</h3>
+        <p>For 2026, each district winner is featured on the House.gov and CongressionalAppChallenge.us websites and can receive a copyright fee waiver through the ARTS Act. Districts may add certificates or small awards.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a middle schooler with only Scratch experience enter?</h3>
+        <p>Yes. Block-based coding is allowed. A small, finished Scratch app with a clear purpose is a real entry; the plan on this page keeps the must list to three features for grades 6 to 8.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How can Modern Age Coders help?</h3>
+        <p>A regular teacher works through the ten-week plan with your student: scoping, building, testing, the demo video and honest AI disclosure. Classes are weekdays or weekends, flexible, in a batch or one to one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students who like to build and compete.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>All of our pages for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hackathons-for-high-school-students">Hackathons for high schoolers</a></h3><p>Building on a deadline, in teams.</p></div>
+      <div><h3><a class="ag-inline-link" href="/computer-science-extracurriculars">CS extracurriculars</a></h3><p>What else strong CS students do.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CS Principles</a></h3><p>The Create task and exam.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-roblox-game">How to make a Roblox game</a></h3><p>A first project for younger builders.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Apps our learners built.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Bring the idea, even if it is only a sentence. In the first lesson the teacher helps turn it into a must, should and later list, so you leave with a plan.</p>
+        <p class="ag-mt-40">If you would like to know how classes work first, <a class="ag-inline-link" href="/how-we-teach">our teaching method</a> is set out step by step, and the <a class="ag-inline-link" href="/courses">full course list</a> shows each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20enter%20the%20Congressional%20App%20Challenge.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cac',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are taught by video from India, so there is no local office to visit. WhatsApp is the fastest way for a US family to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cac(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson. No card needed.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Build and compete</h4><ul><li><a href="/hackathons-for-high-school-students">Hackathons for high schoolers</a></li><li><a href="/computer-science-extracurriculars">CS extracurriculars</a></li><li><a href="/usaco-preparation-online-coaching">USACO coaching</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CS Principles</a></li><li><a href="/how-to-make-a-roblox-game">How to make a Roblox game</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Must, should, later</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cac = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  if (phoneDigits.length > 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'congressional-app-challenge-guide-inline', meta: { name: name, age: age, page: 'congressional-app-challenge-guide' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
