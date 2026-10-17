@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Eclipse Java Help for Students: Run, Errors and Setup Fixes</title>
+  <meta name="description" content="Eclipse help for Java students: which download to choose, how to run a program, what the Problems view and Ctrl+1 Quick Fix mean, and how to fix Java versions.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/eclipse-java-help-for-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/eclipse-java-help-for-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#572429">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/eclipse-java-help-for-students">
+  <meta property="og:title" content="Eclipse Java Help for Students: Run, Errors and Setup Fixes">
+  <meta property="og:description" content="Stuck in Eclipse? Install the right package, run with Run As, read Problems view messages from our own Eclipse compiler runs, and fix JRE, compliance and heap settings.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Eclipse Java Help for Students: Run, Errors and Setup Fixes">
+  <meta name="twitter:description" content="Eclipse for Java students: install, run, read errors, fix Java version and memory.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ej .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-ej .ag-capsule { border-left-width: 3px; border-radius: 6px; }
+.ag-root.ag-ej .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-ej .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-ej .ag-band-head h3 { letter-spacing: -0.01em; }
+.ag-root.ag-ej .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/eclipse-java-help-for-students#page","url":"https://learn.modernagecoders.com/eclipse-java-help-for-students","name":"Eclipse Java help for students","description":"A practical guide to the Eclipse IDE for US high school and college Java students, built from the Eclipse documentation and our own runs of the Eclipse Compiler for Java.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Eclipse Java help","item":"https://learn.modernagecoders.com/eclipse-java-help-for-students"}]},{"@type":"Course","name":"Eclipse Java help for students","description":"Live online Java classes for US students using Eclipse or any other editor, from a first program to AP Computer Science A, taught in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/eclipse-java-help-for-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/eclipse-java-help-for-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/eclipse-java-help-for-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which Eclipse should I download for a Java class?","acceptedAnswer":{"@type":"Answer","text":"Eclipse IDE for Java Developers. The Eclipse Foundation describes it as the essential tools for any Java developer, including a Java IDE, a Git client, an XML editor and Maven and Gradle integration. The Enterprise package is larger and only needed if your course asks for it."}},{"@type":"Question","name":"Do I need to install Java before Eclipse?","acceptedAnswer":{"@type":"Answer","text":"For starting Eclipse, usually not any more: the Eclipse download page says the 2026-09 R installer now includes a JRE for macOS, Windows and Linux. Your course may still ask for a particular JDK version, which you add under Installed JREs in the preferences."}},{"@type":"Question","name":"How do I run a Java program in Eclipse?","acceptedAnswer":{"@type":"Answer","text":"Open the class that contains the main method, then choose Run, then Run As, then Java Application. The output appears in the Console view. The green Run button repeats the last launch, so use Run As again when you switch to another class."}},{"@type":"Question","name":"What does Ctrl+1 do in Eclipse?","acceptedAnswer":{"@type":"Answer","text":"It opens Quick Fix, the list of correction proposals for the problem under the cursor. You can also click the light bulb in the margin. Each proposal shows a preview before you accept it."}},{"@type":"Question","name":"Why is Eclipse showing an error that javac does not show, or wording it differently?","acceptedAnswer":{"@type":"Answer","text":"Eclipse uses its own compiler. In our tests the same mistake appeared as variable total might not have been initialized in javac and as The local variable total may not have been initialized in Eclipse. The meaning is the same; only the words differ."}},{"@type":"Question","name":"What does Resource leak is never closed mean?","acceptedAnswer":{"@type":"Answer","text":"It is a warning that a resource such as a Scanner was opened and never closed. Your program still runs. Closing it, or creating it in a try with resources statement, removes the warning."}},{"@type":"Question","name":"How do I change the Java version in Eclipse?","acceptedAnswer":{"@type":"Answer","text":"Add the Java you need under Preferences, Java, Installed JREs, then set the compiler compliance level on the Java, Compiler page to match. Check the project's own properties too, because a project can override the workspace settings."}},{"@type":"Question","name":"How do I fix java heap space in Eclipse?","acceptedAnswer":{"@type":"Answer","text":"If Eclipse itself runs out of memory, raise the -Xmx value after -vmargs in eclipse.ini. If your own program runs out, set the memory in its launch configuration instead, and first check for a loop that never stops adding data."}},{"@type":"Question","name":"Can you fix my Eclipse homework project?","acceptedAnswer":{"@type":"Answer","text":"We do not write or correct graded assignments, and we do not provide answer keys. A teacher will work through the messages with you and teach the idea behind each one, so you can make the fix and explain it."}},{"@type":"Question","name":"When can US students take live classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"What do the classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, teaching is paid one month at a time, and the fees section of this page shows the monthly amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/eclipse-java-help-for-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ej">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#install">Install</a></li>
+      <li><a href="#run">Run a program</a></li>
+      <li><a href="#problems">Problems view</a></li>
+      <li><a href="#messages">Error messages</a></li>
+      <li><a href="#java">Java versions</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Eclipse Java help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; High school and college &middot; Eclipse IDE</p>
+        <h1>Eclipse Java help for students</h1>
+        <p class="ag-lede">Eclipse is the IDE many American high schools and colleges still install in their Java labs, and it is a capable one. It is also easy to get lost in: a dozen panels, red markers in three places at once, a Run button that sometimes runs the wrong class, and error messages worded differently from the textbook. This guide covers the four things students get stuck on most often. Which download to pick, how to create and run a program, how to read what the Problems view and Quick Fix are telling you, and how to sort out a Java version or memory problem that stops Eclipse from starting at all.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#messages" class="ag-btn ag-btn--ghost">See the error messages</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20student%20in%20the%20US%20uses%20Eclipse%20for%20Java%20and%20keeps%20getting%20stuck.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ej'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Java in Eclipse or any editor</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grades 9 to 12 and college</dd>
+          <dt>Tool</dt><dd>Eclipse IDE, free</dd>
+          <dt>Release read</dt><dd>2026-09 R</dd>
+          <dt>Language</dt><dd>Java</dd>
+          <dt>Exam link</dt><dd>AP Computer Science A</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>For school Java, install Eclipse IDE for Java Developers (the 2026-09 R installer now includes a Java runtime). Create a Java Project, add a class with a main method, then use Run As, Java Application. Errors appear in the Problems view; press Ctrl+1 on a red marker for Quick Fix proposals, and accept one only if you understand why it is right.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three Java courses that work in whatever editor your school uses</h2>
+      <p class="ag-lede">Your student shares their Eclipse window, and the lesson starts from the project already open.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">EJ / 01</p>
+          <h3>Java for teens</h3>
+          <p>Ages 13 to 18. Projects, classes and a calm approach to the Problems view.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">EJ / 02</p>
+          <h3>AP Computer Science A</h3>
+          <p>All four units, with practice written for the exam&rsquo;s Bluebook format.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Java Course for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">EJ / 03</p>
+          <h3>Java for college</h3>
+          <p>Intro CS Java in Eclipse, then larger multi-class programs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="install">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Install the right thing</p><h2>Which Eclipse download a Java student needs</h2><p class="ag-lede">The Eclipse download page offers many packages, and choosing the wrong one is the first way students lose an afternoon. Here is what the Eclipse Foundation lists for the 2026-09 release.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Eclipse packages relevant to students, from eclipse.org/downloads/packages (read 17 October 2026)</caption><thead><tr><th scope="col">Package</th><th scope="col">Size listed</th><th scope="col">What the Eclipse Foundation says it contains</th><th scope="col">For a school Java class?</th></tr></thead><tbody><tr><td>Eclipse IDE for Java Developers</td><td class="ag-num">360 MB</td><td>&ldquo;The essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration&rdquo;</td><td>Yes: this is the one</td></tr><tr><td>Eclipse IDE for Enterprise Java and Web Developers</td><td class="ag-num">585 MB</td><td>A Java IDE plus tools for JavaScript, TypeScript, JavaServer Pages and Faces, web services and more</td><td>Only if your course asks for it</td></tr><tr><td>Eclipse Installer</td><td class="ag-num">Varies</td><td>&ldquo;The Eclipse Installer 2026‑09 R now includes a JRE for macOS, Windows and Linux.&rdquo;</td><td>Yes, as the way to install the Java package</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Runtime and JDK are not the same thing</h3><p>The bundled JRE is what Eclipse itself needs to start. Your programs are compiled by Eclipse&rsquo;s own Java compiler and run on a Java runtime that Eclipse knows about, listed under Installed JREs in the preferences.</p>
+<p>Most students never need to touch this. When it does matter, usually because a class requires a particular Java version, the Java versions section below shows where to look.</p></div><div><h3>School computer or home laptop</h3><p>Lab machines are often locked down, so a student cannot install anything. In that case, check with the teacher which Eclipse release and Java version the lab runs, and match it at home so a project behaves the same in both places.</p>
+<p>Eclipse publishes builds for Windows, macOS and Linux, each for both x86_64 and AArch64 processors, so a recent Mac with Apple silicon has a native download of its own.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.eclipse.org/downloads/" rel="noopener" target="_blank">Eclipse downloads</a> and <a class="ag-inline-link" href="https://www.eclipse.org/downloads/packages/" rel="noopener" target="_blank">Eclipse IDE 2026-09 R packages</a>, read 17 October 2026. Package sizes are as listed for that release and change with later ones. We are not connected with the Eclipse Foundation.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="run">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Create and run</p><h2>From an empty workspace to a program that prints</h2><p class="ag-lede">The Eclipse documentation walks through these steps with a sample project. Here they are in the order a student needs them for a first assignment.</p></div>
+    <ol class="ag-steps"><li><b>Pick a workspace.</b> Eclipse asks for a folder when it starts. Use one you can find again; every project lives inside it.</li><li><b>Create a Java project.</b> Choose File, then New, then Project, select Java Project and give it a name. A project with a src folder appears in the Package Explorer.</li><li><b>Add a class.</b> Select the src folder and click New Java Class. Type the class name, and tick the option to create a main method if your program needs one.</li><li><b>Write a line that prints.</b> Inside main, a single println is enough to prove everything works before you write the real program.</li><li><b>Save.</b> Eclipse builds the project automatically when you save, so problems appear the moment the file is saved, not when you press Run.</li><li><b>Run it.</b> With the class open, choose Run, then Run As, then Java Application. Output appears in the Console view at the bottom.</li><li><b>Run the right class next time.</b> The green Run button repeats the last launch, which may be a different class. When you switch files, use Run As again on the one you mean.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Launch configurations, briefly</h3><p>Every Run As creates a launch configuration. The Eclipse help explains that it derives most settings from your project and preferences, and that you can open Run, then Run Configurations, to change them.</p>
+<p>The tabs that matter for students are Main (which class has the main method), Arguments (values passed to main, and to the virtual machine) and JRE (which Java runs the program).</p></div><div><h3>When Run As shows nothing useful</h3><p>If Java Application is missing from the Run As menu, look at the class first. It needs a correctly written public static void main(String[] args) method, and the file must be saved with no errors in it.</p>
+<p>If the program waits forever, it is probably reading input. Click into the Console view and type the value it is waiting for, then press Enter.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: Eclipse JDT user guide, <a class="ag-inline-link" href="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/gettingStarted/qs-3.htm" rel="noopener" target="_blank">Creating your first Java project</a> and <a class="ag-inline-link" href="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/tasks/tasks-java-local-configuration.htm" rel="noopener" target="_blank">Creating a Java application launch configuration</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="problems">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Problems view</p><h2>Red markers, the light bulb and Ctrl+1</h2><p class="ag-lede">Eclipse shows a single mistake in several places at once, which is helpful once you know it and alarming until you do. The documentation lists every place it appears.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Where Eclipse shows a problem, from the JDT user guide (read 17 October 2026)</caption><thead><tr><th scope="col">Where</th><th scope="col">What you see</th><th scope="col">What to do with it</th></tr></thead><tbody><tr><td>Problems view</td><td>A list of every error and warning in the project</td><td>Select one and choose Go To from its menu to jump to the line</td></tr><tr><td>Editor ruler</td><td>A marker beside the affected line</td><td>Hover to read the message</td></tr><tr><td>Under the code</td><td>A squiggly line under the word that may have caused it</td><td>Hover for the message and quick fixes</td></tr><tr><td>Package Explorer</td><td>Problem ticks on the file and the folders above it</td><td>Shows which files still need attention</td></tr><tr><td>Editor tab</td><td>A marker on the tab of the open file</td><td>A reminder when several files are open</td></tr><tr><td>Light bulb</td><td>An icon in the marker bar</td><td>Correction proposals are available: click it or press Ctrl+1</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Quick Fix, from the documentation</h3><p>The Eclipse help puts it this way: left click on the light bulb or invoking Ctrl+1 (Edit, then Quick Fix) brings up the proposals for the problem at the cursor position. Each proposal shows a preview before you choose it.</p>
+<p>Some fixes can repair every problem of the same kind in the file at once; the documentation says to press Ctrl+Enter for that. Source, then Organize Imports adds all the import lines a file needs in one go.</p></div><div><h3>Our rule for students</h3><p>The documentation itself suggests a trick for professionals: write a variable that does not exist yet and let Create local variable declare it. For a student, the same proposal is a trap, because it silences an error that was usually a typo.</p>
+<p>So we teach a simple test. Accept a proposal only when you can say, in one sentence, why it is the right change. Adding a missing import passes almost every time; creating a field or variable to make red go away almost never does.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: Eclipse JDT user guide, <a class="ag-inline-link" href="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/gettingStarted/qs-7.htm" rel="noopener" target="_blank">Identifying problems in your code</a> and <a class="ag-inline-link" href="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/reference/ref-java-editor-quickfix.htm" rel="noopener" target="_blank">Quick Fix</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="messages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eclipse error messages</p><h2>What Eclipse&rsquo;s messages mean, from our own compiler runs</h2><p class="ag-lede">Eclipse compiles with its own compiler, not javac, so its messages are worded differently from what a textbook or a teacher using another editor shows. We wrote a small program with three problems and compiled it with the Eclipse Compiler for Java.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The program &middot; Till.java</b><span>java</span></figcaption><pre>// Till.java (ours): compiles in neither javac nor Eclipse
+import java.util.Scanner;
+
+public class Till {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int total;
+        String item = in.nextLine();
+        if (item.equals("pen")) {
+            total = 2;
+        }
+        System.out.println(total);
+        Thread.sleep(500);
+    }
+}</pre><p class="ag-code-note">Ours. Three separate problems: a Scanner never closed, a variable that only gets a value on one path, and a method that can throw without saying so.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What the Eclipse compiler reported</b><span>console</span></figcaption><pre>Eclipse Compiler for Java (ecj 3.46.100), our run:
+1. WARNING in Till.java (at line 5)
+Resource leak: 'in' is never closed
+2. ERROR in Till.java (at line 11)
+The local variable total may not have been initialized
+3. ERROR in Till.java (at line 12)
+Unhandled exception type InterruptedException
+3 problems (2 errors, 1 warning)</pre><p class="ag-code-note">Our run, ecj 3.46.100 with resource warnings switched on (-warn:+resource), 17 October 2026, trimmed to the message lines. Eclipse shows the same messages in the Problems view.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Eclipse wording, javac wording and the fix (our runs of ecj 3.46.100 and javac 22.0.1 on Till.java, Shop.java, Semi.java and Disc.java)</caption><thead><tr><th scope="col">Eclipse says</th><th scope="col">javac says</th><th scope="col">What it means and the fix</th></tr></thead><tbody><tr><td>The local variable total may not have been initialized</td><td>variable total might not have been initialized</td><td>Some path reaches the line without giving total a value. Give it a starting value where you declare it.</td></tr><tr><td>Unhandled exception type InterruptedException</td><td>unreported exception InterruptedException; must be caught or declared to be thrown</td><td>Thread.sleep can throw a checked exception. Add throws InterruptedException to the method, or catch it.</td></tr><tr><td>Resource leak: 'in' is never closed</td><td>(no message by default)</td><td>A warning, not an error: the program still runs. Closing the Scanner, or using try with resources, clears it.</td></tr><tr><td>Type mismatch: cannot convert from double to int</td><td>incompatible types: possible lossy conversion from double to int</td><td>A decimal result is being stored in an int. Cast deliberately with (int), or use a double variable.</td></tr><tr><td>This method must return a result of type int</td><td>missing return statement</td><td>Some path through the method ends without a return. Add one for the case your if does not cover.</td></tr><tr><td>Cannot make a static reference to the non-static field stock</td><td>non-static variable stock cannot be referenced from a static context</td><td>main is static and stock belongs to an object. Create an object first, or make the field static if that is what you mean.</td></tr><tr><td>Syntax error, insert ";" to complete BlockStatements</td><td>';' expected</td><td>A missing semicolon at the end of the line the marker points to.</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The repaired program</b><span>java</span></figcaption><pre>// Till.java, repaired (ours)
+import java.util.Scanner;
+
+public class Till {
+    public static void main(String[] args)
+            throws InterruptedException {
+        try (Scanner in = new Scanner(System.in)) {
+            int total = 0;
+            String item = in.nextLine();
+            if (item.equals("pen")) {
+                total = 2;
+            }
+            System.out.println(total);
+            Thread.sleep(500);
+        }
+    }
+}
+
+typed: pen
+printed: 2</pre><p class="ag-code-note">Ours, compiled with ecj 3.46.100 with no problems reported, then run: typing pen printed 2. Each change answers one message: a starting value, a throws clause, and try with resources to close the Scanner.</p></figure>
+    <p class="ag-mt-40">The javac column is from our javac 22.0.1 runs on the same mistakes; the missing return row came from a separate one-method file, because javac stopped at two other errors in Shop.java first. If your class uses a different editor, our guide on <a class="ag-inline-link" href="/how-to-debug-code">how to debug code</a> covers the general method.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="java">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java versions and memory</p><h2>When Eclipse uses the wrong Java, or will not start</h2><p class="ag-lede">Three settings decide which Java you are really using in Eclipse, and they are in three different places. Mixing them up causes most of the version errors students report.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The three Java settings in Eclipse, from the Eclipse help and wiki (read 17 October 2026)</caption><thead><tr><th scope="col">Setting</th><th scope="col">Where it lives</th><th scope="col">What it controls</th></tr></thead><tbody><tr><td>Installed JREs</td><td>Preferences, Java, Installed JREs</td><td>The list of Java installations Eclipse knows, and which one is the workspace default</td></tr><tr><td>Compiler compliance level</td><td>Preferences, Java, Compiler</td><td>Which Java language version your code is compiled as. The default &ldquo;Depends on default JRE&rdquo;</td></tr><tr><td>The -vm line</td><td>The eclipse.ini file beside the Eclipse program</td><td>Which Java runs Eclipse itself, before any project opens</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Read the error first.</b> An error that mentions a class file version, or says a newer language feature cannot be used at this level, usually means the compliance level is lower than the Java your code needs.</li><li><b>Check Installed JREs.</b> Make sure the Java your class uses is listed, and ticked as the default if every project should use it.</li><li><b>Match the compliance level.</b> Set it to the same version as that JRE. The compiler page also offers the --release option, which the help says applies when the JRE is 9 or above.</li><li><b>Check the project, not only the workspace.</b> A project can override both settings in its own properties, so a project copied from school may still point at the lab&rsquo;s version.</li><li><b>If Eclipse will not start at all,</b> the problem is the Java that runs Eclipse. That is set with -vm in eclipse.ini, described next.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>An eclipse.ini with -vm and a larger heap (layout from the Eclipse wiki; path and sizes are ours)</b><span>ini</span></figcaption><pre>-startup
+plugins/org.eclipse.equinox.launcher_(version).jar
+-vm
+C:\Program Files\Java\jdk-21\bin\javaw.exe
+-vmargs
+-Xms256m
+-Xmx2048m</pre><p class="ag-code-note">The wiki&rsquo;s rules: the -vm option and its value must be on separate lines; the value must be the full path to the Java executable, not just the Java home directory; -vm goes before -vmargs, because everything after -vmargs is passed to the virtual machine. The -Xmx line raises the maximum heap, the usual answer to a java heap space error inside Eclipse.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Two more rules from the wiki</h3><p>The Eclipse wiki is blunt about one mismatch: 32-bit Eclipse will not work with a 64-bit JVM, and the reverse also fails. Download the Eclipse and the Java built for the same processor type.</p>
+<p>Keep a copy of eclipse.ini before you edit it. A single misplaced line can stop Eclipse from launching, and the copy gets you back in seconds.</p></div><div><h3>Heap errors in your own program</h3><p>If the out-of-memory message comes from your program rather than from Eclipse, eclipse.ini is the wrong place. The program&rsquo;s memory is set in its own launch configuration, on the Arguments tab, as a virtual machine argument.</p>
+<p>In student code, though, a heap error is usually a bug, typically a loop that keeps adding to a list and never stops. Fix the loop before you add memory.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: Eclipse JDT user guide, <a class="ag-inline-link" href="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/reference/preferences/java/debug/ref-installed_jres.htm" rel="noopener" target="_blank">Installed JREs</a> and <a class="ag-inline-link" href="https://help.eclipse.org/latest/topic/org.eclipse.jdt.doc.user/reference/preferences/java/ref-preferences-compiler.htm" rel="noopener" target="_blank">Java Compiler preferences</a>; Eclipse wiki, <a class="ag-inline-link" href="https://wiki.eclipse.org/Eclipse.ini" rel="noopener" target="_blank">Eclipse.ini</a>. All read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eclipse in a US Java course</p><h2>Eclipse, AP Computer Science A and graded work</h2><p class="ag-lede">Plenty of AP Computer Science A and college intro classes run on Eclipse. A few facts about how the tool fits the course, and about how we help with assignments.</p></div>
+    <div class="ag-grid-3"><div><h3>The exam is not in Eclipse</h3><p>College Board describes AP CSA as a fully digital exam taken in its Bluebook testing app. Eclipse is for learning and practice; on exam day you write code without the Problems view, so practice reading your own code before you compile it.</p></div><div><h3>Warnings are not errors</h3><p>A yellow marker such as the resource leak warning still lets the program run. Teachers and autograders differ on whether warnings matter, so read your course rules rather than guessing.</p></div><div><h3>Projects travel badly</h3><p>A project zipped from a school machine may carry the lab&rsquo;s Java settings. Re-check the project&rsquo;s own compliance and JRE before assuming your code is wrong.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we help with assignments</h3><p>We never write or correct graded assignments for a student, and we do not supply answer keys. When a student brings an Eclipse project to class, the teacher asks them to read the Problems view aloud and explain each message, then the student makes the change.</p>
+<p>That way the fix belongs to the student, and so does the understanding the assignment was set to test.</p></div><div><h3>A checklist before you ask for help</h3><p>Our list for students: copy the exact message from the Problems view; note the file and line; say which Java version the project uses; and say what you already tried. With those four things a teacher can usually help in minutes.</p>
+<p>For AP CSA planning, see our <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a>, and if you are choosing between the two AP courses, <a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP or AP CSA first</a>.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam" rel="noopener" target="_blank">AP Computer Science A Exam</a>, AP Central, read 17 October 2026. AP is a trademark of College Board, which is not connected with us.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting comfortable</p>
+      <h2>Four stages of working in Eclipse</h2>
+      <p class="ag-lede">How students usually progress from first install to using the IDE with confidence.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of an Eclipse user (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Overwhelmed</td><td class="ag-num">Many panels open, unsure which file is running</td></tr><tr><td>2. Running</td><td class="ag-num">Creates a project and class, uses Run As, reads the Console</td></tr><tr><td>3. Reading</td><td class="ag-num">Uses the Problems view and hovers to understand each message</td></tr><tr><td>4. In control</td><td class="ag-num">Manages JREs and compliance, uses Quick Fix only when it is right</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Eclipse looks complicated because it is built for professionals. Struggling with it in the first weeks says nothing about your child&rsquo;s ability to program.</p>
+<p>A short session with someone who knows the tool often saves hours of frustration.</p></div><div><h3>For students</h3><p>Close the panels you do not use. The editor, Package Explorer, Problems and Console are enough for school.</p>
+<p>Save often. Eclipse checks your code on every save, which is free feedback.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for students who code in Java and beyond</h2>
+      <p class="ag-lede">All live, all with a regular teacher, and all available in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Java</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / JAVA / 01</p>
+          <h4>Java for teens</h4>
+          <p>The language behind your Eclipse projects.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / JAVA / 02</p>
+          <h4>AP Computer Science A</h4>
+          <p>Every unit, plus free-response practice.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / JAVA / 03</p>
+          <h4>C++ for teens</h4>
+          <p>A close cousin of Java, closer to the machine.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Tools and thinking</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / TOOL / 01</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>The Git client Eclipse ships with, explained.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / TOOL / 02</p>
+          <h4>Problem solving for teens</h4>
+          <p>Plan the program before the IDE.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / TOOL / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>A different language for the browser.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>College</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / PRO / 01</p>
+          <h4>Java for college</h4>
+          <p>Core Java through to Spring Boot.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / PRO / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>The second-year course, live.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">EJ / PRO / 03</p>
+          <h4>Git and GitHub for college</h4>
+          <p>Team projects without lost work.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live Java lessons around your class schedule</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evenings that work from Eastern to Pacific time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A regular slot for students with busy weekdays.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Fitted around labs, tests and project deadlines.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Same teacher</h3><p>Someone who knows your project history.</p></div>
+      <div><h3>Eclipse on screen</h3><p>We work in your own workspace.</p></div>
+      <div><h3>Messages first</h3><p>Every lesson starts from the Problems view.</p></div>
+      <div><h3>Your work stays yours</h3><p>No graded answers, ever.</p></div>
+      <div><h3>Anywhere in the US</h3><p>Online, from any state.</p></div>
+      <div><h3>Group or solo</h3><p>Fifteen to twenty in a batch, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our Java students go on to build</h2>
+      <p class="ag-lede">Programs by learners who started with the same IDE questions. See more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Eclipse and Java are free. Our fee covers live teaching only, charged monthly and shown in US dollars; there is no term commitment, and stopping after any month costs nothing extra.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Share your Eclipse project</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>One regular teacher</li><li>Pick your batch time</li><li>Paid monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private lessons</li><li>Scheduled at your convenience</li><li>Your course, your pace</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews left on Google by families we teach, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students</p>
+      <h2>Eclipse for Java: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Which Eclipse should I download for a Java class?</h3>
+        <p>Eclipse IDE for Java Developers. The Eclipse Foundation describes it as the essential tools for any Java developer, including a Java IDE, a Git client, an XML editor and Maven and Gradle integration. The Enterprise package is larger and only needed if your course asks for it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to install Java before Eclipse?</h3>
+        <p>For starting Eclipse, usually not any more: the Eclipse download page says the 2026-09 R installer now includes a JRE for macOS, Windows and Linux. Your course may still ask for a particular JDK version, which you add under Installed JREs in the preferences.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I run a Java program in Eclipse?</h3>
+        <p>Open the class that contains the main method, then choose Run, then Run As, then Java Application. The output appears in the Console view. The green Run button repeats the last launch, so use Run As again when you switch to another class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does Ctrl+1 do in Eclipse?</h3>
+        <p>It opens Quick Fix, the list of correction proposals for the problem under the cursor. You can also click the light bulb in the margin. Each proposal shows a preview before you accept it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why is Eclipse showing an error that javac does not show, or wording it differently?</h3>
+        <p>Eclipse uses its own compiler. In our tests the same mistake appeared as variable total might not have been initialized in javac and as The local variable total may not have been initialized in Eclipse. The meaning is the same; only the words differ.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does Resource leak is never closed mean?</h3>
+        <p>It is a warning that a resource such as a Scanner was opened and never closed. Your program still runs. Closing it, or creating it in a try with resources statement, removes the warning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I change the Java version in Eclipse?</h3>
+        <p>Add the Java you need under Preferences, Java, Installed JREs, then set the compiler compliance level on the Java, Compiler page to match. Check the project's own properties too, because a project can override the workspace settings.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I fix java heap space in Eclipse?</h3>
+        <p>If Eclipse itself runs out of memory, raise the -Xmx value after -vmargs in eclipse.ini. If your own program runs out, set the memory in its launch configuration instead, and first check for a loop that never stops adding data.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you fix my Eclipse homework project?</h3>
+        <p>We do not write or correct graded assignments, and we do not provide answer keys. A teacher will work through the messages with you and teach the idea behind each one, so you can make the fix and explain it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can US students take live classes?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do the classes cost?</h3>
+        <p>The first lesson is free. After that, teaching is paid one month at a time, and the fees section of this page shows the monthly amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More help for US students writing Java.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>The full set of our pages for American students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>A general method for finding mistakes.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-teens">Java classes for teens</a></h3><p>Our teen Java course in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></h3><p>Live preparation for the AP exam.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-for-beginners">Java for beginners</a></h3><p>Starting Java from zero.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/java-array-programs-for-beginners">Java array programs</a></h3><p>Practice programs to run in Eclipse.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us which course you are in and what Eclipse is doing that you did not expect. The teacher opens your workspace with you and starts from there.</p>
+        <p class="ag-mt-40">To see what a class involves before you book, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or browse <a class="ag-inline-link" href="/courses">all courses</a> and their syllabi.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20student%20in%20the%20US%20uses%20Eclipse%20for%20Java%20and%20keeps%20getting%20stuck.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ej',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are based in India and teach entirely online, so lessons happen over video rather than at a local office. WhatsApp gets the quickest answer from us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ej(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson, and no payment details requested.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Java and tools</h4><ul><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/java-classes-for-teens">Java classes for teens</a></li><li><a href="/java-for-beginners">Java for beginners</a></li><li><a href="/blog/java-array-programs-for-beginners">Java array programs</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Editor, compiler and runtime are three different things</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ej = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'eclipse-java-help-for-students-inline', meta: { name: name, age: age, page: 'eclipse-java-help-for-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

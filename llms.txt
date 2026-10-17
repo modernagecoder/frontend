@@ -672,6 +672,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Code.org App Lab help: https://learn.modernagecoders.com/code-org-app-lab-help
 - Java cannot find symbol error: https://learn.modernagecoders.com/java-cannot-find-symbol-error
 - BlueJ not working: fixes: https://learn.modernagecoders.com/bluej-not-working-fix
+- Eclipse Java help for students: https://learn.modernagecoders.com/eclipse-java-help-for-students
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

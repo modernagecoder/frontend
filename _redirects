@@ -7166,4 +7166,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /bluej-not-working-fix /src/pages/bluej-not-working-fix.html 200
 /bluej-not-working-fix.md /src/pages/bluej-not-working-fix.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/eclipse-java-help-for-students /src/pages/eclipse-java-help-for-students.html 200
+/eclipse-java-help-for-students.md /src/pages/eclipse-java-help-for-students.md 200
 /* /src/pages/404.html 404

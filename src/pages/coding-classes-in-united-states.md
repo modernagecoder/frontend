@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Eclipse Java help for students](/eclipse-java-help-for-students)
 - [BlueJ not working: fixes](/bluej-not-working-fix)
 - [Java cannot find symbol error](/java-cannot-find-symbol-error)
 - [Code.org App Lab help](/code-org-app-lab-help)
