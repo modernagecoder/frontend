@@ -7070,4 +7070,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /python-turtle-not-working /src/pages/python-turtle-not-working.html 200
 /python-turtle-not-working.md /src/pages/python-turtle-not-working.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/jupyter-notebook-errors-for-students /src/pages/jupyter-notebook-errors-for-students.html 200
+/jupyter-notebook-errors-for-students.md /src/pages/jupyter-notebook-errors-for-students.md 200
 /* /src/pages/404.html 404

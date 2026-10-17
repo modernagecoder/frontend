@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jupyter Notebook Errors: A Fix Guide for Students</title>
+  <meta name="description" content="Jupyter Notebook errors explained for students: Jupyter will not start, the kernel fails, ModuleNotFoundError, FileNotFoundError, and cells run out of order.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/jupyter-notebook-errors-for-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/jupyter-notebook-errors-for-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#18569E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/jupyter-notebook-errors-for-students">
+  <meta property="og:title" content="Jupyter Notebook Errors: A Fix Guide for Students">
+  <meta property="og:description" content="Kernel will not start, No module named, file not found, NameError after a restart: what each Jupyter error means and the fix, from the Jupyter docs and our own runs.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jupyter Notebook Errors: A Fix Guide for Students">
+  <meta name="twitter:description" content="Jupyter Notebook errors students hit, what they mean, and how to fix them.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jne .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-jne .ag-capsule { border-left-width: 6px; border-radius: 0; }
+.ag-root.ag-jne .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-jne .ag-table caption { text-align: left; }
+.ag-root.ag-jne .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/jupyter-notebook-errors-for-students#page","url":"https://learn.modernagecoders.com/jupyter-notebook-errors-for-students","name":"Jupyter Notebook Errors for Students","description":"A troubleshooting guide for US high school and college students using Jupyter Notebook, built from the Jupyter and IPython documentation and our own runs.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Jupyter Notebook errors","item":"https://learn.modernagecoders.com/jupyter-notebook-errors-for-students"}]},{"@type":"Course","name":"Jupyter Notebook Errors for Students","description":"Live online Python and data science classes for US teens and college students, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/jupyter-notebook-errors-for-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/jupyter-notebook-errors-for-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/jupyter-notebook-errors-for-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why is Jupyter Notebook not working?","acceptedAnswer":{"@type":"Answer","text":"Find which half failed. If the terminal shows an error or the command is not found, the server or install is the problem. If the page loads but cells will not run, the kernel is. The Jupyter docs suggest running jupyter notebook from a terminal first."}},{"@type":"Question","name":"How do I fix \"No module named\" in Jupyter?","acceptedAnswer":{"@type":"Answer","text":"Install the package from inside the notebook with %pip install followed by the package name, then restart the kernel. That installs into the environment the kernel uses, which is often not the one your terminal uses."}},{"@type":"Question","name":"Why does Jupyter say the kernel cannot start?","acceptedAnswer":{"@type":"Answer","text":"Usually the kernel spec points at a Python that no longer exists. Run jupyter kernelspec list, open kernel.json in the folder it shows, and check that the path in argv exists. Re-registering the kernel with python -m ipykernel install, as the IPython docs describe, is the standard repair."}},{"@type":"Question","name":"Why do I get FileNotFoundError in Jupyter?","acceptedAnswer":{"@type":"Answer","text":"The notebook is looking in its own folder and the file is somewhere else. Print os.getcwd() to see the folder, then move the file there or use the correct path."}},{"@type":"Question","name":"Why did my notebook stop working after a restart?","acceptedAnswer":{"@type":"Answer","text":"Cells were run out of order before, so variables existed that a fresh run never creates. Restart the kernel and run all cells from the top, then fix the first cell that fails."}},{"@type":"Question","name":"How do I stop a cell that runs forever?","acceptedAnswer":{"@type":"Answer","text":"Use the Kernel menu and choose Interrupt, or press i twice in command mode. If that fails, restart the kernel."}},{"@type":"Question","name":"Is Jupyter Notebook free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Jupyter documentation says Jupyter software is free and open-source, and it can be installed with pip or with the Anaconda distribution."}},{"@type":"Question","name":"Will you do my class notebook for me?","acceptedAnswer":{"@type":"Answer","text":"No. We teach the ideas so you can finish your own notebook, and we never complete graded assignments. A teacher will help you find and fix the error yourself."}},{"@type":"Question","name":"What times are classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do data science classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. Then you pay monthly for live teaching, and this page's fees section lists the monthly figure in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/jupyter-notebook-errors-for-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-jne">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#map">Error map</a></li>
+      <li><a href="#start">Will not start</a></li>
+      <li><a href="#kernel">Kernel</a></li>
+      <li><a href="#modules">No module named</a></li>
+      <li><a href="#order">Cell order</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Jupyter Notebook errors
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grade 9 to college &middot; Jupyter Notebook</p>
+        <h1>Jupyter Notebook errors, explained for students</h1>
+        <p class="ag-lede">If your high school data science unit or college statistics lab runs in Jupyter, you have probably seen it fail in ways a plain Python file never does. The server will not start, the kernel dies, a package you just installed cannot be found, or a notebook that worked last night throws a NameError today. Each of those has a known cause. This guide pairs every symptom with what the Jupyter and IPython documentation says about it, plus the exact message from our own runs where we reproduced one.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#map" class="ag-btn ag-btn--ghost">Find your error</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20is%20stuck%20with%20Jupyter%20Notebook%20errors%20in%20a%20data%20class.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jne'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Python and data science for teens and adults</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grade 9 to college</dd>
+          <dt>Tool</dt><dd>Jupyter Notebook, free</dd>
+          <dt>File type</dt><dd>.ipynb, a JSON file</dd>
+          <dt>Default address</dt><dd>localhost:8888</dd>
+          <dt>Most common error</dt><dd>No module named</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Most Jupyter Notebook errors come from one of four places: Jupyter itself is not on your PATH, the kernel points at a Python that no longer exists, a package was installed into a different environment from the kernel, or cells were run out of order. Use %pip install inside the notebook, check jupyter kernelspec list, and test with Restart and run all. Modern Age Coders teaches Python and data science live to teens and adults, in a batch or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses that use notebooks properly</h2>
+      <p class="ag-lede">Each one works in notebooks, taught live by a regular teacher who can see your screen.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="ag-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JNE / 01</p>
+          <h3>Data science for teens</h3>
+          <p>Ages 14 to 18, some Python first. Notebooks, pandas, charts and first models.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JNE / 02</p>
+          <h3>AI and machine learning for teens</h3>
+          <p>Ages 13 to 18. Python to working models.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-science-complete-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/data-science-college.webp" alt="Data Science Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JNE / 03</p>
+          <h3>Data science for college and adults</h3>
+          <p>Ages 18 and up. A full data science course, live.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="map">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Error map</p><h2>Find your Jupyter error: symptom, cause, first fix</h2><p class="ag-lede">Start with the row that matches what you see. Each one is explained below with its source.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Jupyter Notebook errors and first fixes (our table, built from the Jupyter and IPython documentation and our runs)</caption><thead><tr><th scope="col">What you see</th><th scope="col">Usual cause</th><th scope="col">First thing to try</th></tr></thead><tbody><tr><td>"jupyter" is not recognized, or command not found</td><td>Jupyter is not installed, or not on PATH</td><td>Install it, or reinstall Anaconda with default settings</td></tr><tr><td>The page will not load in the browser</td><td>Browser extension, security software, or the address</td><td>Try another browser; swap localhost and 127.0.0.1</td></tr><tr><td>A cell shows a star and never runs</td><td>The kernel did not start</td><td>Run jupyter kernelspec list and check the kernel path</td></tr><tr><td>ModuleNotFoundError: No module named ...</td><td>Package installed in a different environment from the kernel</td><td>Run %pip install in a notebook cell, then restart the kernel</td></tr><tr><td>FileNotFoundError: [Errno 2] No such file or directory</td><td>The working folder is not where the file is</td><td>Print os.getcwd() and fix the path</td></tr><tr><td>NameError: name ... is not defined</td><td>Cells run out of order, or the kernel restarted</td><td>Restart, then run all cells from the top</td></tr><tr><td>It worked an hour ago, now nothing imports</td><td>A new file in your folder shares a module name</td><td>Rename your file, as the Jupyter docs advise</td></tr><tr><td>ImportError: DLL load failed (Windows)</td><td>pywin32 not installed correctly</td><td>pip install --upgrade pywin32, as the docs show</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Built from Jupyter&rsquo;s <a class="ag-inline-link" href="https://jupyter-notebook.readthedocs.io/en/latest/troubleshooting.html" rel="noopener" target="_blank">What to do when things go wrong</a> page, <a class="ag-inline-link" href="https://docs.jupyter.org/en/latest/running.html" rel="noopener" target="_blank">Running the Notebook</a> and the IPython documentation, all read 17 October 2026. We are not connected with Project Jupyter.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">It will not start</p><h2>When Jupyter will not start, or will not load in the browser</h2><p class="ag-lede">Jupyter is two things: a server that runs on your computer and a page in your browser that talks to it. A failure at either end looks like "Jupyter is broken", so test them one at a time.</p></div>
+    <ol class="ag-steps"><li><b>Start it from a terminal.</b> The Jupyter docs suggest that if a menu shortcut or the Anaconda launcher fails, you should "try opening a terminal or command prompt and running the command jupyter notebook."</li><li><b>If the command is not found,</b> Jupyter is missing or your PATH is not set. The docs say you may need to configure your PATH, or simply reinstall Anaconda with the default settings so it sets PATH for you.</li><li><b>If it says it cannot find notebook,</b> "check with pip or conda that the notebook package is installed." With pip, the classic install command in the docs is pip3 install jupyter.</li><li><b>Try the hyphen.</b> The docs note that jupyter-notebook, with a hyphen, is the real launcher, and jupyter notebook wraps it.</li><li><b>Read the terminal output.</b> A working server prints its address, by default http://localhost:8888, and the line "Use Control-C to stop this server and shut down all kernels (twice to skip confirmation)."</li><li><b>If the browser page fails,</b> try another browser, disable extensions, and, as the docs suggest, "try changing between localhost and 127.0.0.1."</li><li><b>If port 8888 is busy,</b> Jupyter picks the next free port on its own, so read the address it prints; you can also choose one with jupyter notebook --port 9999.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where the server starts matters</h3><p>The dashboard lists the notebooks, files and folders in the directory where the server was started. Start Jupyter in a folder that does not contain your class work and the class notebooks simply will not appear in the list.</p>
+<p>The Jupyter docs recommend starting the server in the highest folder that contains your notebooks, which is often your home directory.</p></div><div><h3>Closing the tab is not closing Jupyter</h3><p>The notebook documentation says the kernel "remains active if the web browser window is closed", and reopening the notebook reconnects to the same kernel, with its variables still in memory.</p>
+<p>That is convenient, and it is also why a notebook can seem to work in one session and fail in a fresh one. To stop everything, press Control-C in the terminal running the server.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="kernel">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The kernel</p><h2>Kernel errors: what a kernel is, and why it will not start</h2><p class="ag-lede">The Jupyter documentation describes a kernel as the program that "holds the data and objects you create with your notebook code". When it will not start, cells sit with a star next to them and nothing happens.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Check which kernels Jupyter knows about</h3><p>Files called kernel specs tell Jupyter how to start each kernel. Run jupyter kernelspec list in a terminal to see where they live.</p>
+<p>A Python kernel whose path ends in ipykernel/resources is the built-in default, which runs in the same environment as the notebook server. The docs say that if a python3 kernelspec points somewhere else and fails, deleting or renaming that folder exposes the default.</p></div><div><h3>Check the path inside kernel.json</h3><p>Each kernel spec has a kernel.json file with an argv stanza: the exact command used to launch the kernel. After a Python reinstall, it often points at a Python that is no longer there.</p>
+<p>On Windows, the docs add, Python commands live in a Scripts folder rather than bin, and a path missing its .exe extension typically ends in a FileNotFoundError.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Kernel commands from the IPython and Jupyter documentation, and when a student needs each</caption><thead><tr><th scope="col">Command</th><th scope="col">What it does</th><th scope="col">When you need it</th></tr></thead><tbody><tr><td>jupyter kernelspec list</td><td>Lists every kernel spec and its folder</td><td>The kernel will not start, or the wrong Python runs</td></tr><tr><td>python -m ipykernel install --user</td><td>Registers the current Python as a kernel</td><td>You made a new environment and it is missing from the menu</td></tr><tr><td>--name myenv --display-name "Python (myenv)"</td><td>Gives that kernel its own name in the menu</td><td>You have several environments for different classes</td></tr><tr><td>Kernel, Interrupt (or i, i)</td><td>Stops a cell that is taking too long</td><td>A loop never ends</td></tr><tr><td>Kernel, Restart (or 0, 0)</td><td>Starts the whole computation fresh</td><td>Anything strange, and before you submit work</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The IPython documentation notes that the --name value is used internally and that these commands "will overwrite any existing kernel with the same name", so give each environment a distinct name. On Windows, a broken pywin32 install shows up in a traceback ending with the line ImportError: DLL load failed: The specified module could not be found. The Jupyter docs give pip install --upgrade pywin32 as the first fix to try.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="modules">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">No module named</p><h2>ModuleNotFoundError in Jupyter: installed, but not where the kernel looks</h2><p class="ag-lede">This one causes a lot of confusion: you ran pip install, it said success, and the notebook still cannot import the package. The Jupyter docs name the cause: the Notebook server running in one environment while the kernel comes from another.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Fixed &middot; install from inside the notebook</b><span>python</span></figcaption><pre># In a notebook cell (IPython magic, documented):
+%pip install seaborn
+
+# This installs into the environment of the kernel
+# that runs this notebook, which is the one that
+# matters. Then restart the kernel and import:
+import seaborn
+
+# Before, our run printed:
+# ModuleNotFoundError: No module named 'seaborn'</pre><p class="ag-code-note">The IPython documentation describes %pip as a magic that will "Run the pip package manager within the current kernel." That is the point: it installs where the notebook actually runs. %conda does the same for conda environments.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why pip in a terminal can miss</h3><p>A terminal's pip belongs to whichever Python comes first on PATH. If the notebook kernel uses Anaconda and the terminal uses a python.org install, or the other way round, the package lands in the wrong place.</p>
+<p>The Jupyter docs list the signs: import statements within code cells producing ImportError or ModuleNotFound exceptions, or nothing happening when you try to run a cell.</p></div><div><h3>How to check in ten seconds</h3><p>Run import sys and then print(sys.executable) in a notebook cell. That is the Python the kernel uses. Compare it with the Python your terminal uses before installing anything else.</p>
+<p>If you work across several environments, register each one as its own kernel with python -m ipykernel install, then pick the right one from the notebook's kernel menu.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="order">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Cell order and files</p><h2>NameError and FileNotFoundError: the notebook remembers more than you think</h2><p class="ag-lede">A notebook is a sequence of cells, and each one runs on Shift-Enter in whatever order you press it. The kernel keeps every variable until it restarts. That flexibility causes two classic notebook errors.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Broken &middot; a cell used before it was defined</b><span>python</span></figcaption><pre># Cell A, run first by mistake (ours)
+print(average)
+
+# Cell B, written above but not run yet
+average = 91.5
+
+# Our run of the same two lines as a script:
+# NameError: name 'average' is not defined</pre><p class="ag-code-note">In a notebook this often works for hours, because the variable was set earlier in the session, then fails the moment the kernel restarts or a teacher opens the file fresh.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The test &middot; restart, then run all from the top</b><span>python</span></figcaption><pre># The test that catches it (ours):
+# Kernel, Restart (or press 0, 0 in command mode),
+# then run every cell from the top.
+
+average = 91.5      # cell 1: define first
+print(average)      # cell 2: use after
+
+# If a notebook only works when cells are run in a
+# special order, it does not work yet.</pre><p class="ag-code-note">We ask students to do this before every submission. A notebook that survives Restart and run all will work on the grader's computer too.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Fixed &middot; finding where the notebook looks for files</b><span>python</span></figcaption><pre># Where is the notebook looking for files? (ours)
+import os
+print(os.getcwd())          # the working folder
+print(os.listdir())         # what is in it
+
+import pandas as pd
+df = pd.read_csv("grades.csv")
+# Our run, when grades.csv was elsewhere:
+# FileNotFoundError: [Errno 2] No such file or
+#   directory: 'grades.csv'
+# Fix: move the file next to the notebook,
+# or give the path from the folder printed above.</pre><p class="ag-code-note">Print the working folder instead of guessing it. A data file sitting in Downloads is invisible to a notebook working somewhere else until you move the file or give its full path.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The file that breaks imports: "This Worked An Hour Ago"</h3><p>The Jupyter docs describe a student-shaped mistake: a file in your notebook folder named after a real module. Their example is a random.py that leads to AttributeError: module 'random' has no attribute 'sample' deep inside the kernel's own imports.</p>
+<p>Their advice is direct: "You&rsquo;ll need to rename your file." Avoid naming files after anything you import: random, math, pandas, csv or test files called the same as a library.</p></div><div><h3>Notebook files are JSON</h3><p>The notebook documentation says notebooks "are internally JSON files and are saved with the .ipynb extension." Editing one in a plain text editor, or a merge in Git, can break that JSON so the file will not open.</p>
+<p>Keep a copy before experimenting, and if a notebook will not open after editing it by hand, the JSON is the first suspect.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="routine">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A routine</p><h2>Nine steps for any Jupyter problem</h2><p class="ag-lede">Our routine, in the order our teachers use it with students. It keeps you from reinstalling everything when one line would do.</p></div>
+    <ol class="ag-steps"><li><b>Read the last line of the traceback.</b> It names the error type. The lines above show where it happened.</li><li><b>Decide which half failed:</b> the server (terminal shows errors, browser page will not load) or the kernel (page loads, cells will not run).</li><li><b>For the server,</b> start it from a terminal and read what it prints.</li><li><b>For the kernel,</b> run jupyter kernelspec list and check that the path in kernel.json exists.</li><li><b>For imports,</b> print sys.executable in a cell, then install with %pip from inside the notebook.</li><li><b>For files,</b> print os.getcwd() and os.listdir() and compare with where the file really is.</li><li><b>For strange results,</b> restart the kernel and run all cells from the top.</li><li><b>Check your folder</b> for files named after modules, such as random.py, and rename them.</li><li><b>Only then reinstall.</b> The Jupyter docs suggest updating relevant packages first, because a fixed bug may already be waiting.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Command mode and edit mode</h3><p>The notebook docs list Esc for command mode and Enter for edit mode. Shortcuts like 0, 0 to restart only work in command mode, which confuses many first-time users.</p></div><div><h3>School laptops</h3><p>If your school manages the laptop, you may not be allowed to install anything. Ask the teacher which environment the class expects before changing PATH or installing Anaconda.</p></div><div><h3>Asking for help well</h3><p>The Jupyter docs point to the Jupyter Discourse forum and Stack Overflow. Post the full traceback and your exact command; a screenshot of a red box alone rarely gets answered.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beyond the error</p><h2>Learning to work in notebooks, not just survive them</h2><p class="ag-lede">Notebooks reward a few habits that nobody teaches in a syllabus. This is how our teachers build them across a first term of data science.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Notebook habits across a first term (our plan for Grade 9 to college, adjusted for each learner)</caption><thead><tr><th scope="col">Classes</th><th scope="col">What the student builds</th><th scope="col">The habit it teaches</th></tr></thead><tbody><tr><td>1 to 2</td><td>A notebook of small experiments</td><td>Cells, Shift-Enter, markdown notes</td></tr><tr><td>3 to 4</td><td>Loading a CSV with pandas</td><td>Paths and the working folder</td></tr><tr><td>5 to 6</td><td>Cleaning and charting data</td><td>One idea per cell; restart and run all</td></tr><tr><td>7 to 8</td><td>A project with extra packages</td><td>Environments, kernels and %pip</td></tr><tr><td>9 to 10</td><td>A short data story</td><td>Writing for a reader, not just the grader</td></tr><tr><td>11 to 12</td><td>Sharing and presenting</td><td>Clean outputs, reproducible from the top</td></tr></tbody></table></div>
+    <p class="ag-mt-40">We teach the concepts so students can complete their own class notebooks; we never fill in graded work. For bugs that are not about Jupyter at all, see <a class="ag-inline-link" href="/how-to-debug-code">how to debug code</a>, and for a wider view of the subject, our <a class="ag-inline-link" href="/data-science-course">data science course</a> page.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student is</p>
+      <h2>Four stages of working in Jupyter</h2>
+      <p class="ag-lede">From copying cells to running reliable analyses.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of notebook skill (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Clicker</td><td class="ag-num">Runs cells top to bottom without knowing what each holds</td></tr><tr><td>2. Explorer</td><td class="ag-num">Runs cells in any order and gets surprising results</td></tr><tr><td>3. Tidy worker</td><td class="ag-num">Restarts and runs all before trusting a result</td></tr><tr><td>4. Analyst</td><td class="ag-num">Builds notebooks that anyone can rerun and follow</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>If your teenager says the notebook "worked yesterday", that is stage 2, and it is normal. The fix is a habit, not a new laptop.</p>
+<p>The same habits carry over to any later course that hands out its work as notebooks.</p></div><div><h3>For students</h3><p>Before you submit, restart the kernel and run all. If it breaks, you found the bug before your teacher did.</p>
+<p>Install packages with %pip from inside the notebook. It goes where the kernel can see it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for data and Python</h2>
+      <p class="ag-lede">Live online classes with a regular teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / TEN / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Pandas, charts, first models.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / TEN / 02</p>
+          <h4>Python for teens</h4>
+          <p>The Python under every notebook.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / TEN / 03</p>
+          <h4>AI and ML for teens</h4>
+          <p>Notebooks that train models.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Bridging</h3>
+        <span class="ag-band-sub">Ages 13 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / BRG / 01</p>
+          <h4>Visual machine learning</h4>
+          <p>Ideas first, with Orange.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / BRG / 02</p>
+          <h4>Python certification prep</h4>
+          <p>PCEP and PCAP, ages 13 and up.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / BRG / 03</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Versioning notebooks safely.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>College and adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / PRO / 01</p>
+          <h4>Data science, complete</h4>
+          <p>Statistics to machine learning.</p>
+          <a class="ag-course-link" href="/courses/data-science-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / PRO / 02</p>
+          <h4>Data analysis</h4>
+          <p>Cleaning and analysis for college.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JNE / PRO / 03</p>
+          <h4>Python, zero to advanced</h4>
+          <p>For college students and adults.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live classes around a US school or college week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evening batches for US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer sessions for projects.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Fitted around classes and labs.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>The same teacher</h3><p>Week after week.</p></div>
+      <div><h3>Your own setup</h3><p>We fix it on your machine.</p></div>
+      <div><h3>Shared screen</h3><p>We see the notebook you see.</p></div>
+      <div><h3>Ideas, not answers</h3><p>Your graded work stays yours.</p></div>
+      <div><h3>Every state</h3><p>Online, from home or dorm.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty, or one student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our Python and data students</h2>
+      <p class="ag-lede">Built by learners who started with a notebook that would not run. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Jupyter is free and open source. What you pay for is a teacher: monthly fees shown in US dollars, no contract for the whole semester, and you can stop at the end of any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring the notebook that fails</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>One regular teacher</li><li>A batch time you pick</li><li>Paid each month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private lessons</li><li>Scheduled at your convenience</li><li>Your own data and projects</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews parents left on Google, quoted as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions students ask</p>
+      <h2>Jupyter Notebook errors: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Why is Jupyter Notebook not working?</h3>
+        <p>Find which half failed. If the terminal shows an error or the command is not found, the server or install is the problem. If the page loads but cells will not run, the kernel is. The Jupyter docs suggest running jupyter notebook from a terminal first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I fix "No module named" in Jupyter?</h3>
+        <p>Install the package from inside the notebook with %pip install followed by the package name, then restart the kernel. That installs into the environment the kernel uses, which is often not the one your terminal uses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does Jupyter say the kernel cannot start?</h3>
+        <p>Usually the kernel spec points at a Python that no longer exists. Run jupyter kernelspec list, open kernel.json in the folder it shows, and check that the path in argv exists. Re-registering the kernel with python -m ipykernel install, as the IPython docs describe, is the standard repair.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why do I get FileNotFoundError in Jupyter?</h3>
+        <p>The notebook is looking in its own folder and the file is somewhere else. Print os.getcwd() to see the folder, then move the file there or use the correct path.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why did my notebook stop working after a restart?</h3>
+        <p>Cells were run out of order before, so variables existed that a fresh run never creates. Restart the kernel and run all cells from the top, then fix the first cell that fails.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I stop a cell that runs forever?</h3>
+        <p>Use the Kernel menu and choose Interrupt, or press i twice in command mode. If that fails, restart the kernel.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Jupyter Notebook free?</h3>
+        <p>Yes. The Jupyter documentation says Jupyter software is free and open-source, and it can be installed with pip or with the Anaconda distribution.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you do my class notebook for me?</h3>
+        <p>No. We teach the ideas so you can finish your own notebook, and we never complete graded assignments. A teacher will help you find and fix the error yourself.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do data science classes cost?</h3>
+        <p>The first lesson is free. Then you pay monthly for live teaching, and this page's fees section lists the monthly figure in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students working with Python and data.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>All our pages written for US learners.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-science-course">Data science course</a></h3><p>What a full course covers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-usa">AI and ML classes in the USA</a></h3><p>For students moving on to models.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>A method for any bug.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/how-to-read-and-write-files-in-python">Files in Python</a></h3><p>Paths, reading and writing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-16-year-olds">Python for 16 year olds</a></h3><p>A starting point in high school.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us which class or project the notebook belongs to and what error it shows. In the first lesson the teacher works through it with you.</p>
+        <p class="ag-mt-40">If you want to see the approach first, read <a class="ag-inline-link" href="/how-we-teach">how our lessons run</a>, or open <a class="ag-inline-link" href="/courses">the course catalogue</a> for full syllabuses.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20is%20stuck%20with%20Jupyter%20Notebook%20errors%20in%20a%20data%20class.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jne',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Everything happens on live video, and the teachers are based in India, so there is no campus to visit. For US students, WhatsApp is usually the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jne(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is on us, and we never ask for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python and data</h4><ul><li><a href="/data-science-course">Data science course</a></li><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/blog/how-to-read-and-write-files-in-python">Files in Python</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ai-and-machine-learning-classes-in-usa">AI and ML in the USA</a></li><li><a href="/python-for-15-year-olds">Python for 15 year olds</a></li><li><a href="/python-for-17-year-olds">Python for 17 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Restart the kernel, run all, then trust it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jne = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'jupyter-notebook-errors-for-students-inline', meta: { name: name, age: age, page: 'jupyter-notebook-errors-for-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

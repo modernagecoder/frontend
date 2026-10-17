@@ -417,6 +417,7 @@ const SLUGS = [
   'coding-bootcamp-for-teens',
   'python-indentation-error-explained',
   'python-turtle-not-working',
+  'jupyter-notebook-errors-for-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -913,6 +914,7 @@ const LLMS_LABELS = {
   'coding-bootcamp-for-teens': 'Coding bootcamp for teens',
   'python-indentation-error-explained': 'Python indentation errors explained',
   'python-turtle-not-working': 'Python turtle not working',
+  'jupyter-notebook-errors-for-students': 'Jupyter Notebook errors for students',
 };
 
 function wireLlms(slugs) {

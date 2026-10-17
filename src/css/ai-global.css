@@ -946,3 +946,4 @@
 .ag-root.ag-bt { --ag-accent: #755E19; --ag-accent-soft: rgba(117,94,25,.09); }   /* Coding bootcamp for teens: #755E19, a worn brass from the allocation sheet, separate from the other US accents and readable on every paper colour */
 .ag-root.ag-piee { --ag-accent: #8F4133; --ag-accent-soft: rgba(143,65,51,.09); }   /* Python indentation errors, US Phase T: the allocated muted terracotta #8F4133 from alloc.tsv row 153, kept distinct from the other Phase T accents */
 .ag-root.ag-ptnw { --ag-accent: #55458F; --ag-accent-soft: rgba(85,69,143,.09); }   /* Python turtle troubleshooting, US Phase T: the allocated muted violet #55458F from alloc.tsv row 145, distinct from the other Phase T accents */
+.ag-root.ag-jne { --ag-accent: #18569E; --ag-accent-soft: rgba(24,86,158,.09); }   /* Jupyter Notebook errors, US Phase T: the allocated muted blue #18569E from alloc.tsv row 144, distinct from the other Phase T accents */

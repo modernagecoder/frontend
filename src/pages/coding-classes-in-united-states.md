@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Jupyter Notebook errors for students](/jupyter-notebook-errors-for-students)
 - [Python turtle not working](/python-turtle-not-working)
 - [Python indentation errors explained](/python-indentation-error-explained)
 - [Coding bootcamp for teens](/coding-bootcamp-for-teens)
