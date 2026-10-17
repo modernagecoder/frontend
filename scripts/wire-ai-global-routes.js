@@ -424,6 +424,7 @@ const SLUGS = [
   'coding-classes-for-elementary-students',
   'coding-classes-for-middle-school-students',
   'coding-classes-for-high-school-students',
+  'coding-milestones-by-age',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -927,6 +928,7 @@ const LLMS_LABELS = {
   'coding-classes-for-elementary-students': 'Coding classes for elementary students',
   'coding-classes-for-middle-school-students': 'Coding classes for middle school students',
   'coding-classes-for-high-school-students': 'Coding classes for high school students',
+  'coding-milestones-by-age': 'Coding milestones by age',
 };
 
 function wireLlms(slugs) {
