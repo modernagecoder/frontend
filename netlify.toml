@@ -23829,6 +23829,18 @@
   to = "/src/pages/makecode-arcade-help-for-students.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/codehs-help-for-students"
+  to = "/src/pages/codehs-help-for-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/codehs-help-for-students.md"
+  to = "/src/pages/codehs-help-for-students.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

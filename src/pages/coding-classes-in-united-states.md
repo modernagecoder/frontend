@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [CodeHS help for students](/codehs-help-for-students)
 - [MakeCode Arcade help](/makecode-arcade-help-for-students)
 - [Roblox Studio errors fixed](/roblox-studio-errors-fixed)
 - [How to make a 3D game for kids](/how-to-make-a-3d-game-for-kids)

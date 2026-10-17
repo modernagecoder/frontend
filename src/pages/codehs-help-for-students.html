@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CodeHS Help for Students: Errors, Resets and Debugging</title>
+  <meta name="description" content="CodeHS help for students: how to reset an assignment, use the debugger and Scratchpad, read autograder messages, and fix login, freezing and Chromebook issues.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/codehs-help-for-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/codehs-help-for-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7A4025">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/codehs-help-for-students">
+  <meta property="og:title" content="CodeHS Help for Students: Errors, Resets and Debugging">
+  <meta property="og:description" content="Stuck on CodeHS? The official fixes for resetting code, frozen Check Code buttons, unit tests that will not pass, Karel style messages and login trouble, plus live help.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CodeHS Help for Students: Errors, Resets and Debugging">
+  <meta name="twitter:description" content="CodeHS help: resets, debugger, unit tests, autograder messages and login fixes.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cox .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-cox .ag-capsule { border-left-width: 4px; border-radius: 5px; }
+.ag-root.ag-cox .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-cox .ag-table caption { text-align: left; letter-spacing: 0.01em; }
+.ag-root.ag-cox .ag-band-head h3 { letter-spacing: -0.005em; }
+.ag-root.ag-cox .ag-slots { gap: 1.15rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/codehs-help-for-students#page","url":"https://learn.modernagecoders.com/codehs-help-for-students","name":"CodeHS help for students","description":"A guide for US middle and high school students to the tools and fixes in the CodeHS help center, with original examples. It explains concepts and gives no assignment answers.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"CodeHS help","item":"https://learn.modernagecoders.com/codehs-help-for-students"}]},{"@type":"Course","name":"CodeHS help for students","description":"Live online coding classes for US students who use CodeHS at school, in Java, Python and JavaScript, including AP Computer Science A and Principles, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/codehs-help-for-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/codehs-help-for-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/codehs-help-for-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why is my CodeHS not working?","acceptedAnswer":{"@type":"Answer","text":"CodeHS says that if the browser freezes or the Check Code button stops responding, the code may contain an error or an infinite loop. Run the program first, read any message, and check that every loop has a condition that can become false."}},{"@type":"Question","name":"How do I reset a CodeHS assignment?","acceptedAnswer":{"@type":"Answer","text":"Open More, then History, in the editor and click Reset Code, which restores the starter code. CodeHS says to save afterwards with the Save button. Look through History first, because an earlier working version may still be there."}},{"@type":"Question","name":"Why does my CodeHS unit test fail when my code prints the right answer?","acceptedAnswer":{"@type":"Answer","text":"A unit test checks what your function returns, not what it prints. CodeHS says a unit test requires a return statement and does not ask for user input. Test the function in the Scratchpad, then copy it back."}},{"@type":"Question","name":"What is the CodeHS Scratchpad for?","acceptedAnswer":{"@type":"Answer","text":"It is an ungraded file in unit-test exercises where you can run code, print and try different inputs. The Unit Test file is the graded one and cannot be run or print to the console."}},{"@type":"Question","name":"What does You are missing a semicolon mean in Karel?","acceptedAnswer":{"@type":"Answer","text":"It is a Karel autograder style message. CodeHS says the test checks that every command ends with a semicolon, and the message lists the lines where one is missing."}},{"@type":"Question","name":"How do I use the CodeHS debugger?","acceptedAnswer":{"@type":"Answer","text":"Click the gear icon in the editor and turn on Debug Mode. CodeHS says the step debugger works for Python 3, Python 3 Graphics (tkinter) and Java programs with a main method, with Run, Step, Next, Continue and Stop."}},{"@type":"Question","name":"I cannot log in to CodeHS. What should I do?","acceptedAnswer":{"@type":"Answer","text":"Use your school-issued email, not a personal one. If your class uses Google, Clever or Canvas, sign in through that. You can also use Forgot Password, or ask your teacher, who can update your password."}},{"@type":"Question","name":"Which version of Java does CodeHS use?","acceptedAnswer":{"@type":"Answer","text":"CodeHS says most core courses use Java 8, while its AP Computer Science A course (Cortado), all new courses and new Sandbox programs use Java 21.05. You can check any exercise under More, then About."}},{"@type":"Question","name":"Can you give me the CodeHS answers?","acceptedAnswer":{"@type":"Answer","text":"No. We do not provide CodeHS answers, answer keys or solutions to any graded assignment. We teach the concept with our own examples so you can solve the exercise yourself and explain your code."}},{"@type":"Question","name":"When are your live classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do the classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, classes are paid one month at a time, and the fees section of this page shows the amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/codehs-help-for-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-cox">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#symptoms">Symptoms</a></li>
+      <li><a href="#tools">Debug tools</a></li>
+      <li><a href="#tests">Unit tests</a></li>
+      <li><a href="#karel">Karel messages</a></li>
+      <li><a href="#access">Login and devices</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / CodeHS help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Middle and high school &middot; CodeHS</p>
+        <h1>CodeHS help for students</h1>
+        <p class="ag-lede">CodeHS is a browser-based coding platform used in school computer science classes from Karel the Dog all the way to AP Computer Science A. When it goes wrong, it tends to go wrong in the same handful of ways: the Check Code button stops responding, a unit test fails even though the code looks right, the autograder complains about style, or the login sends you to the wrong account. CodeHS documents every one of these in its own help center. This page collects those fixes in one place, adds small examples of our own, and is clear about one thing from the start: we explain how things work, and we do not hand out answers to assignments.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#symptoms" class="ag-btn ag-btn--ghost">Find your problem</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20uses%20CodeHS%20at%20school%20and%20is%20stuck.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cox'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Java, Python and JavaScript</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grades 6 to 12</dd>
+          <dt>Tool</dt><dd>CodeHS, in the browser</dd>
+          <dt>Languages</dt><dd>Karel, Python, Java, JavaScript</dd>
+          <dt>Exam link</dt><dd>AP CSA and AP CSP</dd>
+          <dt>Answers</dt><dd>Never; we teach the idea</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Most CodeHS problems have documented fixes. A frozen Check Code button usually means an infinite loop. To start an exercise over, open More, then History, choose Reset Code and press Save. In unit-test exercises, write and run your function in the Scratchpad, and make it return a value. For login trouble, use your school email or your class&rsquo;s Google, Clever or Canvas sign-in.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses for students who meet CodeHS at school</h2>
+      <p class="ag-lede">Live lessons that teach the ideas behind the exercises, so the CodeHS work makes sense.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COX / 01</p>
+          <h3>AP Computer Science A</h3>
+          <p>Java for the AP exam, unit by unit, alongside your school course.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-principles-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-principles.webp" alt="AP Computer Science Principles course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COX / 02</p>
+          <h3>AP Computer Science Principles</h3>
+          <p>The big ideas, the exam and planning a Create task of your own.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COX / 03</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 18. Functions, loops and testing, from first principles.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="symptoms">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Find your problem</p><h2>What is going wrong, and where CodeHS explains the fix</h2><p class="ag-lede">Each row is a problem CodeHS documents in its help center, with the fix it gives. Start with the row that matches your screen.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common CodeHS problems and the documented fixes, from help.codehs.com (read 17 October 2026)</caption><thead><tr><th scope="col">What you see</th><th scope="col">What CodeHS says it usually means</th><th scope="col">What to try</th></tr></thead><tbody><tr><td>The browser freezes or crashes after Run or Check Code</td><td>The code contains an infinite loop</td><td>Comment out loops one at a time to find it, then make sure its condition can become false</td></tr><tr><td>The Check Code button does nothing</td><td>An error in your code, or an infinite loop</td><td>Run the program first and read any error message</td></tr><tr><td>You want to start an exercise again</td><td>Reset Code restores the starter code</td><td>More, then History, then Reset Code, then Save</td></tr><tr><td>A unit test freezes after Check Code</td><td>User input inside a unit-test function, or no return value</td><td>Remove input the instructions did not ask for; make the function return</td></tr><tr><td>A Karel exercise fails on style</td><td>The general Karel autograder checks syntax, indentation and naming</td><td>Read the exact Style message; it names the line or function</td></tr><tr><td>Your HTML page shows No CodeHS.me Site Here</td><td>The program was blocked, or a link does not match a filename</td><td>Check whether your links and filenames match exactly</td></tr><tr><td>The cursor is misaligned on a Chromebook</td><td>The browser font is not monospace</td><td>Set Chrome&rsquo;s fixed-width font to one with Mono in its name</td></tr><tr><td>A lesson video will not play</td><td>The video host is blocked on the school network</td><td>Use the CodeHS-hosted version of the video, or the lesson slides</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reset Code, carefully</h3><p>CodeHS says Reset Code is available for both teachers and students, and that after clicking it you must save the change with the Save button. It returns the exercise to its starter code, so anything you wrote is replaced.</p>
+<p>Before resetting, look through the History tab. CodeHS describes it as a list of every previous version of your program, which often lets you recover the last version that worked instead of starting from nothing.</p></div><div><h3>Ask your teacher inside CodeHS</h3><p>CodeHS has a built-in way to message your teacher about a specific exercise: open the More tab in the code editor and choose Conversation. Replies appear in your Inbox, under the bell icon.</p>
+<p>Asking there, with the exercise open, is usually faster than an email, because your teacher can see the exact code you mean.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: CodeHS help center articles on <a class="ag-inline-link" href="https://help.codehs.com/en/articles/4454484-for-students-fixing-code-that-crashes-the-browser" rel="noopener" target="_blank">code that crashes the browser</a>, <a class="ag-inline-link" href="https://help.codehs.com/en/articles/2708287-resetting-your-code" rel="noopener" target="_blank">resetting your code</a> and <a class="ag-inline-link" href="https://help.codehs.com/en/articles/4454503-for-students-sending-questions-to-your-teacher" rel="noopener" target="_blank">sending questions to your teacher</a>, read 17 October 2026. We are not connected with CodeHS.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Debugging tools</p><h2>The debugging tools already inside the CodeHS editor</h2><p class="ag-lede">CodeHS lists five tools for students in its debugging article, plus a separate step debugger for some program types. Most students use one or two of them. All of them help.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CodeHS editor tools for finding bugs, from the CodeHS help center (read 17 October 2026)</caption><thead><tr><th scope="col">Tool</th><th scope="col">Where it is</th><th scope="col">What it is good for</th></tr></thead><tbody><tr><td>Docs tab</td><td>In the code editor</td><td>Examples and syntax of the concepts your course has covered so far</td></tr><tr><td>History tab</td><td>Under More</td><td>Every earlier version of your program, to see what changed since it last worked</td></tr><tr><td>Speed slider</td><td>In the editor</td><td>Running code slowly to see where it goes off track</td></tr><tr><td>Next and Last buttons</td><td>Top of the editor</td><td>Running one line at a time to find the exact line at fault</td></tr><tr><td>Test Code button</td><td>Red button in the editor</td><td>Seeing which autograder tests pass; a progress bar counts them</td></tr><tr><td>Step debugger</td><td>Gear icon, then Debug Mode</td><td>Pausing a Python 3, Python 3 Graphics (tkinter) or Java (main) program and stepping through it</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The loop that freezes the page, and its fix</b><span>python</span></figcaption><pre># ours: why the Run button seems dead
+count = 0
+while count &lt; 3:
+    print("checking", count)
+    # count never changes, so count &lt; 3 stays true
+
+# the fix: change the variable the condition tests
+count = 0
+while count &lt; 3:
+    print("checking", count)
+    count += 1
+print("done")</pre><p class="ag-code-note">Ours, run with Python 3.13.6 outside CodeHS. The first loop printed checking 0 without end until we stopped it; the second printed checking 0, 1 and 2, then done. CodeHS&rsquo;s own questions apply: in a while loop, will the condition ever become false?</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The step debugger, in five buttons</h3><p>CodeHS describes five debugger functions: Run, which runs normally; Step, which moves to the next command even inside another file or library; Next, which moves to the next command in the current file; Continue, which runs until the end or a crash; and Stop.</p>
+<p>Most students only need Next. Press it, watch which line lights up, and check whether the variables hold what you expected at that moment.</p></div><div><h3>Commenting out, the low-tech tool</h3><p>CodeHS recommends commenting out sections and re-running, so the skipped code tells you by elimination where an error lives. For infinite loops, it suggests testing sections with for or while loops first, then if and else statements, then the rest.</p>
+<p>It is a slow method, but it never fails, and it works in every language and every editor you will ever use.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: CodeHS help center, <a class="ag-inline-link" href="https://help.codehs.com/en/articles/4454472-for-students-tips-on-debugging-code" rel="noopener" target="_blank">tips on debugging code</a> and <a class="ag-inline-link" href="https://help.codehs.com/en/articles/5142494-using-the-step-debugger" rel="noopener" target="_blank">using the step debugger</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tests">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unit tests and the Scratchpad</p><h2>Why a unit test fails when your code looks right</h2><p class="ag-lede">Many CodeHS exercises in Python, JavaScript and Java are graded by unit tests. CodeHS explains how they differ from a normal program, and the difference trips up a lot of students.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The two files in a CodeHS unit-test exercise, from the CodeHS help center (read 17 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">Unit Test file</th><th scope="col">Scratchpad file</th></tr></thead><tbody><tr><td>Graded?</td><td>Yes</td><td>No</td></tr><tr><td>Can you Run it and print?</td><td>No: it can not Run or print to the console</td><td>Yes: it can Run and print to the console</td></tr><tr><td>What belongs in it</td><td>A fully working function that works as expected</td><td>Experiments: different inputs, print statements, mistakes</td></tr><tr><td>What CodeHS requires</td><td>A Unit Test requires a return statement and does not ask for user input</td><td>Anything that helps you test the function</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>A function that prints instead of returning</b><span>python</span></figcaption><pre># Scratchpad (ours): prints the answer, returns nothing
+def add_tax(price):
+    print(price * 1.08)
+
+result = add_tax(50)
+print("result is", result)
+
+# output
+54.0
+result is None</pre><p class="ag-code-note">Ours, a made-up example, not a CodeHS exercise. It looks right because 54.0 appears on screen, but the function hands nothing back, so result is None. A unit test checks what the function returns, and would see None.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The same function, returning its value</b><span>python</span></figcaption><pre># Scratchpad (ours): returns the answer instead
+def add_tax(price):
+    return round(price * 1.08, 2)
+
+print(add_tax(50))
+print(add_tax(0))
+print(add_tax(19.99))
+
+# output
+54.0
+0.0
+21.59</pre><p class="ag-code-note">Ours, run with Python 3.13.6. Testing 50, 0 and 19.99 in the Scratchpad is exactly the habit CodeHS recommends: try zero, try a value that is not a round number, then copy the working function into the Unit Test file.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The CodeHS routine, step by step</h3><p>CodeHS gives four steps: copy the starter code from the Unit Test into the Scratchpad; write and test your function in the Scratchpad, where you can run it; copy the working function back into the Unit Test file; and when it passes all the checks, submit it.</p>
+<p>If the program will not run, CodeHS points out that the green Run button only runs the Scratchpad, not the Unit Test file, and that you need to both define and call the function to see anything.</p></div><div><h3>Why the test does not show you the answer</h3><p>Students sometimes ask why CodeHS will not just show what the test expected. The test is there to check your function, and the exercise is there to teach you to write it. That is the same reason we teach the idea of returning a value rather than supplying the function.</p>
+<p>A good question to ask yourself instead: if someone called my function with a value I did not try, what would it give back?</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: CodeHS help center, <a class="ag-inline-link" href="https://help.codehs.com/en/articles/4836907-for-students-using-the-scratchpad-and-unit-test-files" rel="noopener" target="_blank">using the Scratchpad and Unit Test files</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="karel">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Karel autograder messages</p><h2>What the Karel autograder is telling you</h2><p class="ag-lede">Karel exercises use a general autograder that applies a set of tests to each program, from the final world to the way functions are named. CodeHS publishes the common messages. Here is what each one asks you to check.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common Karel autograder messages, quoted from the CodeHS help center (read 17 October 2026)</caption><thead><tr><th scope="col">Message</th><th scope="col">What it checks</th><th scope="col">What to look at</th></tr></thead><tbody><tr><td>Functionality: World _______</td><td>Karel&rsquo;s location, ball count and square colors at the end, against each Result World</td><td>Run it and compare your final world with the expected one</td></tr><tr><td>Style: You are missing a semicolon on the following lines:</td><td>That every command ends with a semicolon</td><td>The line numbers listed</td></tr><tr><td>Style: It looks like your indentation is off on line ___</td><td>Indentation</td><td>Code inside a function or loop should be indented one level</td></tr><tr><td>Style: Some of your functions (FunctionName) do not start with a lowercase letter.</td><td>Function naming</td><td>Names like turnRight, not TurnRight</td></tr><tr><td>Style: You have a function function1 nested inside another function function2.</td><td>Functions defined inside other functions</td><td>Define functions one after the other</td></tr><tr><td>Style: You should not redefine turnRight()/turnAround() because SuperKarel already knows it.</td><td>Unneeded definitions in SuperKarel and UltraKarel</td><td>Delete your own turnRight or turnAround</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Functionality first, then style</h3><p>A program can make Karel finish in the right place and still fail on style, and the other way round. Fix the Functionality test first, because changing what the program does may change which style messages appear.</p>
+<p>Then work through the Style messages in order. Each one quotes the exact name or line, so there is no guessing involved.</p></div><div><h3>Why style is graded at all</h3><p>Naming functions in lowercase camelCase and indenting consistently are conventions every programmer follows, because code is read far more often than it is written. Karel is where CodeHS starts teaching that habit.</p>
+<p>Students who build it early find their later Java and Python code much easier to debug, because they can see the structure at a glance.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: CodeHS help center, <a class="ag-inline-link" href="https://help.codehs.com/en/articles/7996203-for-students-karel-autograder-messages" rel="noopener" target="_blank">Karel autograder messages</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="access">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Login, devices and versions</p><h2>Login trouble, Chromebooks and which version of Java or Python you are on</h2><p class="ag-lede">Some CodeHS problems have nothing to do with code. These are the ones CodeHS documents for signing in, school devices and language versions.</p></div>
+    <ol class="ag-steps"><li><b>Check the email address.</b> CodeHS&rsquo;s first tip is to make sure you are using your school-issued email, not a personal one.</li><li><b>Use your class&rsquo;s sign-in route.</b> If your class uses Google Classroom, use Log in with Google; if it uses Clever or Canvas, launch CodeHS from there instead of typing a password.</li><li><b>Wrong Google account?</b> Chrome may sign you in automatically with another account. Sign out at myaccount.google.com, or open an incognito window with Control + Shift + N on Windows or Command + Shift + N on a Mac (some schools disable incognito).</li><li><b>Still locked out?</b> Use Forgot Password, or ask your teacher, who can update your password.</li><li><b>Cursor not lining up with your text on a Chromebook?</b> In Chrome settings, under Appearance and Customize fonts, choose a fixed-width font with Mono in its name, and check the browser language is English (United States).</li><li><b>Not sure which language version you are on?</b> In any exercise or Sandbox program, open More, then About.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Language versions on CodeHS, from the CodeHS help center (read 17 October 2026)</caption><thead><tr><th scope="col">Language</th><th scope="col">What CodeHS says</th></tr></thead><tbody><tr><td>Python</td><td>Python 3.8, 3.11 and 3.12 are provided; Python 3, Python 3 Graphics (tkinter) and Pygame programs use 3.11</td></tr><tr><td>Java</td><td>Most core courses currently use Java 8 (1.8); Java 21.05 is used in AP Computer Science A (Cortado), all new courses and all new Sandbox programs</td></tr><tr><td>JavaScript</td><td>ES6, the version all browsers use</td></tr><tr><td>Java, interactive</td><td>JShell, a Java read-eval-print loop, is supported</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Versions matter when code from a textbook, a website or a home computer behaves differently on CodeHS. A newer Java feature will not compile in a course still on Java 8. Sources: CodeHS help center, <a class="ag-inline-link" href="https://help.codehs.com/en/articles/4456742-for-students-resetting-your-passwords-and-login-troubleshooting" rel="noopener" target="_blank">login troubleshooting</a>, <a class="ag-inline-link" href="https://help.codehs.com/en/articles/5678174-fixing-cursor-or-typing-bugs-in-the-ide-on-chromebooks" rel="noopener" target="_blank">Chromebook cursor fixes</a> and <a class="ag-inline-link" href="https://help.codehs.com/en/articles/5118034-versions-of-programming-languages-on-codehs" rel="noopener" target="_blank">language versions</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="answers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">About answers</p><h2>Why we do not give CodeHS answers, and what helps instead</h2><p class="ag-lede">Search for CodeHS and the suggestions fill up with answer keys for every unit. We understand why: it is late, the test will not pass, and the deadline is tomorrow. Here is why we will not supply them, and what we do instead.</p></div>
+    <div class="ag-grid-3"><div><h3>The work is graded</h3><p>CodeHS exercises are graded by your teacher and the autograder. Copying an answer means handing in work that is not yours, and we will not take part in that.</p></div><div><h3>Schools set rules for this</h3><p>CodeHS gives teachers settings such as copy and paste prevention, which in CodeHS Pro stops students in a section from pasting into the editor. Schools take this seriously.</p></div><div><h3>The next unit needs this one</h3><p>CodeHS courses build step by step. An answer copied in unit 3 leaves a gap that the unit 5 exercise will find, usually at a worse moment.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What a lesson with us looks like instead</h3><p>The student shares their screen with the CodeHS exercise open. The teacher asks what the exercise wants, what the code does now, and what the autograder message says, and then teaches the idea that is missing, using a different example of our own.</p>
+<p>The student then goes back to their exercise and writes the code themselves. It takes longer than copying, and it is the only version that helps on the next exercise and on the test.</p></div><div><h3>AP students on CodeHS</h3><p>CodeHS says its AP Computer Science A course (Cortado) runs Java 21.05. The AP exam itself is, in College Board&rsquo;s words, a fully digital exam taken in the Bluebook app, so CodeHS is where you practice, not where you sit the test.</p>
+<p>For exam-focused help alongside your school course, see our <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a> or <a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a>.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: CodeHS help center, <a class="ag-inline-link" href="https://help.codehs.com/en/articles/1108168-enabling-copy-paste-prevention" rel="noopener" target="_blank">copy and paste prevention</a>; College Board, <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam" rel="noopener" target="_blank">AP Computer Science A Exam</a>. Both read 17 October 2026. AP is a trademark of College Board, which is not connected with us.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting unstuck</p>
+      <h2>Four stages of a CodeHS student</h2>
+      <p class="ag-lede">Where students usually are when they first search for CodeHS help, and where they can get to.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of working through CodeHS (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Stuck</td><td class="ag-num">Presses Check Code again and again, hoping for a different result</td></tr><tr><td>2. Reading</td><td class="ag-num">Reads the autograder and error messages and goes to the line they name</td></tr><tr><td>3. Testing</td><td class="ag-num">Uses the Scratchpad, the History tab and the debugger to check ideas</td></tr><tr><td>4. Independent</td><td class="ag-num">Finishes exercises without help and can explain how the code works</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>A child who is stuck on CodeHS at 10 pm needs to understand one idea, not to be given one answer.</p>
+<p>Asking them to read the autograder message aloud is a surprisingly good first step, even if you do not code.</p></div><div><h3>For students</h3><p>Run before you check. The Run output often shows the problem the autograder is hinting at.</p>
+<p>Use History before Reset. Your last working version is usually still there.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses that match what CodeHS students learn at school</h2>
+      <p class="ag-lede">Live teaching with a regular teacher, as a batch or one to one, in the same languages CodeHS uses.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>AP and exam courses</h3>
+        <span class="ag-band-sub">High school</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COX / AP / 01</p>
+          <h4>AP Computer Science A</h4>
+          <p>The Java AP course, live.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COX / AP / 02</p>
+          <h4>AP Computer Science Principles</h4>
+          <p>Exam topics and the Create task process.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COX / AP / 03</p>
+          <h4>Java for teens</h4>
+          <p>Java before or beside AP CSA.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Languages CodeHS teaches</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COX / LANG / 01</p>
+          <h4>Python for teens</h4>
+          <p>Functions, lists and testing.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COX / LANG / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive pages and browser games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COX / LANG / 03</p>
+          <h4>HTML and CSS</h4>
+          <p>The web design units, in depth.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Younger coders</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COX / KID / 01</p>
+          <h4>Scratch coding</h4>
+          <p>Events and loops in blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COX / KID / 02</p>
+          <h4>Python for kids</h4>
+          <p>Typed code with turtle art and games.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COX / KID / 03</p>
+          <h4>Coding for kids</h4>
+          <p>From blocks to first real apps.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live help that fits around the school day</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Late afternoons and evenings in US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A weekly slot away from the school rush.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Booked around unit tests and deadlines.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One teacher</h3><p>The same teacher, week after week.</p></div>
+      <div><h3>CodeHS on screen</h3><p>Share the exercise; we teach the idea.</p></div>
+      <div><h3>Our own examples</h3><p>Different problems that teach the same concept.</p></div>
+      <div><h3>No answer keys</h3><p>Your CodeHS work stays yours.</p></div>
+      <div><h3>All fifty states</h3><p>Live and online, wherever you are.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty students, or one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Things our students have built</h2>
+      <p class="ag-lede">Projects from students who once worked through the same exercises. Browse more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">CodeHS is provided by your school; our classes are separate. You pay for live teaching one month at a time, in US dollars, with nothing to sign for the semester and no cost for stopping at the end of any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring the exercise you are stuck on</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>A regular teacher</li><li>Choose your batch</li><li>Monthly payment</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A private teacher</li><li>At times that suit you</li><li>Built around your school course</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Word-for-word reviews that families posted on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students and parents</p>
+      <h2>CodeHS help: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Why is my CodeHS not working?</h3>
+        <p>CodeHS says that if the browser freezes or the Check Code button stops responding, the code may contain an error or an infinite loop. Run the program first, read any message, and check that every loop has a condition that can become false.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I reset a CodeHS assignment?</h3>
+        <p>Open More, then History, in the editor and click Reset Code, which restores the starter code. CodeHS says to save afterwards with the Save button. Look through History first, because an earlier working version may still be there.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does my CodeHS unit test fail when my code prints the right answer?</h3>
+        <p>A unit test checks what your function returns, not what it prints. CodeHS says a unit test requires a return statement and does not ask for user input. Test the function in the Scratchpad, then copy it back.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the CodeHS Scratchpad for?</h3>
+        <p>It is an ungraded file in unit-test exercises where you can run code, print and try different inputs. The Unit Test file is the graded one and cannot be run or print to the console.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does You are missing a semicolon mean in Karel?</h3>
+        <p>It is a Karel autograder style message. CodeHS says the test checks that every command ends with a semicolon, and the message lists the lines where one is missing.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I use the CodeHS debugger?</h3>
+        <p>Click the gear icon in the editor and turn on Debug Mode. CodeHS says the step debugger works for Python 3, Python 3 Graphics (tkinter) and Java programs with a main method, with Run, Step, Next, Continue and Stop.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I cannot log in to CodeHS. What should I do?</h3>
+        <p>Use your school-issued email, not a personal one. If your class uses Google, Clever or Canvas, sign in through that. You can also use Forgot Password, or ask your teacher, who can update your password.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which version of Java does CodeHS use?</h3>
+        <p>CodeHS says most core courses use Java 8, while its AP Computer Science A course (Cortado), all new courses and new Sandbox programs use Java 21.05. You can check any exercise under More, then About.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you give me the CodeHS answers?</h3>
+        <p>No. We do not provide CodeHS answers, answer keys or solutions to any graded assignment. We teach the concept with our own examples so you can solve the exercise yourself and explain your code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your live classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do the classes cost?</h3>
+        <p>The first lesson is free. After that, classes are paid one month at a time, and the fees section of this page shows the amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students who code at school.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Every page we have for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>A step-by-step method for any bug.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></h3><p>Live AP CSA preparation.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></h3><p>Live AP CSP preparation.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP or AP CSA first?</a></h3><p>Choosing an order for the two courses.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/python-for-beginners">Python for beginners</a></h3><p>The basics behind the Python units.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us which CodeHS course you are taking and which idea keeps tripping you up. The teacher plans the first lesson around that concept, with examples of our own.</p>
+        <p class="ag-mt-40">If you would like to see a lesson first, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> walks through one; the <a class="ag-inline-link" href="/courses">courses page</a> lists every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20uses%20CodeHS%20at%20school%20and%20is%20stuck.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cox',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We teach live over video, and our teachers are based in India, so there is no local branch to visit. WhatsApp is the fastest way for a US family to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cox(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">A free first lesson. No payment details needed.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>School coding help</h4><ul><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/blog/python-for-beginners">Python for beginners</a></li><li><a href="/blog/javascript-basics">JavaScript basics</a></li><li><a href="/java-classes-for-teens">Java classes for teens</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Return the value, then let the test check it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cox = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'codehs-help-for-students-inline', meta: { name: name, age: age, page: 'codehs-help-for-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

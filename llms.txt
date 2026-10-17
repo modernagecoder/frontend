@@ -668,6 +668,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - How to make a 3D game for kids: https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids
 - Roblox Studio errors fixed: https://learn.modernagecoders.com/roblox-studio-errors-fixed
 - MakeCode Arcade help: https://learn.modernagecoders.com/makecode-arcade-help-for-students
+- CodeHS help for students: https://learn.modernagecoders.com/codehs-help-for-students
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -7150,4 +7150,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /makecode-arcade-help-for-students /src/pages/makecode-arcade-help-for-students.html 200
 /makecode-arcade-help-for-students.md /src/pages/makecode-arcade-help-for-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/codehs-help-for-students /src/pages/codehs-help-for-students.html 200
+/codehs-help-for-students.md /src/pages/codehs-help-for-students.md 200
 /* /src/pages/404.html 404
