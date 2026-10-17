@@ -163,7 +163,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 146 | vs-code-setup-for-students (cs, #8F1A47) | tools | 3,935 | 1.8% vs python-indentation-error-explained | phase T | tools and environments (which program runs your code, and where it looks) | 72eab5de |
 | 143 | google-colab-help-for-students (gc, #8F2F2F) | tools | 4,013 | 1.1% vs how-to-make-a-roblox-game | phase T | where code runs (a remote machine, its lifetime, and the files it can see) | bee7d5da |
 | 148 | github-classroom-help-for-students (git, #22264C) | tools | 3,802 | 1.8% vs vs-code-setup-for-students | phase T | version control (snapshots, history, and sharing work safely) | 9caa405e |
-| 14 | coding-classes-for-elementary-students (ele, #804213) | age | 4,773 | 0.9% vs how-to-make-a-roblox-game | phase 2 | sequencing and debugging (exact instructions, then find the step that went wrong | (this commit) |
+| 14 | coding-classes-for-elementary-students (ele, #804213) | age | 4,773 | 0.9% vs how-to-make-a-roblox-game | phase 2 | sequencing and debugging (exact instructions, then find the step that went wrong | 8d7536c9 |
+| 15 | coding-classes-for-middle-school-students (ms, #524B2F) | age | 4,384 | 1% vs python-turtle-not-working | phase 2 | procedures and parameters (write it once, reuse it with different inputs) | (this commit) |
 
 ## Skipped
 

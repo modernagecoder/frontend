@@ -422,6 +422,7 @@ const SLUGS = [
   'google-colab-help-for-students',
   'github-classroom-help-for-students',
   'coding-classes-for-elementary-students',
+  'coding-classes-for-middle-school-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -923,6 +924,7 @@ const LLMS_LABELS = {
   'google-colab-help-for-students': 'Google Colab help for students',
   'github-classroom-help-for-students': 'GitHub Classroom help for students',
   'coding-classes-for-elementary-students': 'Coding classes for elementary students',
+  'coding-classes-for-middle-school-students': 'Coding classes for middle school students',
 };
 
 function wireLlms(slugs) {

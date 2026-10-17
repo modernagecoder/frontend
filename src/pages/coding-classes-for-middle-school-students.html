@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Classes for Middle School Students: Grades 6 to 8</title>
+  <meta name="description" content="Coding for middle schoolers in grades 6 to 8: what the K-12 CS Framework expects by grade 8, what school courses cover, a first real program and live classes.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-for-middle-school-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-for-middle-school-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#524B2F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-for-middle-school-students">
+  <meta property="og:title" content="Coding Classes for Middle School Students: Grades 6 to 8">
+  <meta property="og:description" content="Grades 6 to 8, ages 11 to 14: the years to move from blocks to typed code. Grade 8 expectations, the new AI Discoveries course, a Caesar cipher in Python and live classes.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Classes for Middle School Students: Grades 6 to 8">
+  <meta name="twitter:description" content="Coding for middle schoolers: grade 8 expectations, a real Python program, and how to choose a language.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ms .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-ms .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-ms .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-ms .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-ms .ag-grid-3 h3 { letter-spacing: -0.004em; }
+.ag-root.ag-ms .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-classes-for-middle-school-students#page","url":"https://learn.modernagecoders.com/coding-classes-for-middle-school-students","name":"Coding Classes for Middle School Students","description":"A guide for US middle school students and parents to learning to code in grades 6 to 8, built from the K-12 Computer Science Framework, NCES definitions and the Code.org middle school catalogue.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Coding for middle school students","item":"https://learn.modernagecoders.com/coding-classes-for-middle-school-students"}]},{"@type":"Course","name":"Coding Classes for Middle School Students","description":"Live online coding classes for US middle school students in grades 6 to 8, from Scratch to Python, JavaScript and AI, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-for-middle-school-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-middle-school-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-middle-school-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What coding should a middle school student learn?","acceptedAnswer":{"@type":"Answer","text":"By the end of grade 8 the K-12 Computer Science Framework expects readable programs that combine loops, events and conditionals, meaningful variable names, and procedures with parameters. In practice that means typed code, usually Python or JavaScript, and projects built for other people."}},{"@type":"Question","name":"Is middle school too late to start coding?","acceptedAnswer":{"@type":"Answer","text":"No. Many students start in sixth or seventh grade and catch up quickly, because they read and type well. A beginner in middle school can go from first program to functions with parameters within a few months of weekly classes."}},{"@type":"Question","name":"Should a middle schooler learn Python or JavaScript?","acceptedAnswer":{"@type":"Answer","text":"We start most students on Python: the code is short, it reads clearly, and what they learn transfers to any other language. JavaScript suits students who mainly want to build websites. Many learn Python first and add JavaScript in eighth grade."}},{"@type":"Question","name":"What grades are middle school in the US?","acceptedAnswer":{"@type":"Answer","text":"Usually grades 6 to 8. NCES defines a middle school as one offering more of grades 5 through 8 than other grades, so some districts start middle school at grade 5 or use a grade 7 and 8 junior high."}},{"@type":"Question","name":"What is AI Discoveries?","acceptedAnswer":{"@type":"Answer","text":"A Code.org middle school course for grades 6 to 8 that replaces CS Discoveries for the 2026 to 2027 school year. Its first unit is Thinking Critically About AI, and it can run as a full year, a semester or a quarter."}},{"@type":"Question","name":"Can middle school students enter the Congressional App Challenge?","acceptedAnswer":{"@type":"Answer","text":"Yes. The 2026 rules say students must be enrolled in middle school or high school on October 26th, 2026. Our Congressional App Challenge guide covers the rules and a build plan."}},{"@type":"Question","name":"Does my child join a kids course or a teen course?","acceptedAnswer":{"@type":"Answer","text":"Our kids courses run to age 12 and teen courses start at 13. Most sixth graders join a kids course and most eighth graders a teen course; we decide in the free first lesson by level, not birthday alone."}},{"@type":"Question","name":"What times are classes for US families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How big are the classes?","acceptedAnswer":{"@type":"Answer","text":"Batches are fifteen to twenty students with one teacher who stays with them. If you want a teacher just for your child, 1-on-1 lessons are available too."}},{"@type":"Question","name":"How much do middle school coding classes cost?","acceptedAnswer":{"@type":"Answer","text":"You pay nothing for the first lesson. After it a fee is charged each month, and the amount appears in US dollars in the fees section above."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-for-middle-school-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ms">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#grades">Grades 6 to 8</a></li>
+      <li><a href="#framework">By grade 8</a></li>
+      <li><a href="#school">School courses</a></li>
+      <li><a href="#program">A real program</a></li>
+      <li><a href="#language">Which language</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Coding for middle school students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 6 to 8 &middot; Ages 11 to 14</p>
+        <h1>Coding classes for middle school students</h1>
+        <p class="ag-lede">Modern Age Coders teaches live online coding for middle school students in grades 6 to 8, ages 11 to 14, in a batch or one to one. These are the years to move from block coding to typed Python or JavaScript, write functions that can be reused, and build projects for real users. This page sets out what grade 8 should look like.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#program" class="ag-btn ag-btn--ghost">See a real program</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20middle%20school%20in%20the%20US%20and%20wants%20to%20learn%20to%20code%20properly.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ms'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Typed code from sixth grade</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Grades</dt><dd>6 to 8</dd>
+          <dt>Ages</dt><dd>11 to 14</dd>
+          <dt>Languages</dt><dd>Python, JavaScript</dd>
+          <dt>Big idea</dt><dd>Functions and parameters</dd>
+          <dt>Device</dt><dd>Laptop, desktop or Chromebook</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>By the end of grade 8, the K-12 Computer Science Framework expects students to write readable programs that combine loops, events and conditionals, name variables meaningfully, organise code into procedures with parameters, and test whether a solution meets its criteria. A middle school coding class should get a student typing real code, usually Python, and building projects for other people.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses for the middle school years</h2>
+      <p class="ag-lede">Middle school straddles our kids and teens courses, so we place each student by age and experience.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MS / 01</p>
+          <h3>Python, kids course</h3>
+          <p>Written for 9 to 12. A first typed language for sixth graders.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MS / 02</p>
+          <h3>Python, teen course</h3>
+          <p>Written for 13 to 18. Deeper projects from seventh or eighth grade.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-literacy-for-kids-course">
+        <div class="ag-pick-shot"><img src="/images/ai-literacy-for-kids.webp" alt="AI Literacy for Kids (Ages 8 to 14) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MS / 03</p>
+          <h3>AI literacy</h3>
+          <p>Ages 8 to 14. How AI works, where it fails, how to judge it.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="grades">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Grades 6 to 8</p><h2>Middle school in the US, and where our courses fit</h2><p class="ag-lede">Middle school is the hinge between children&rsquo;s and teenagers&rsquo; coding. A sixth grader and an eighth grader can be in the same building and need quite different classes.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>How NCES defines it</h3><p>The National Center for Education Statistics defines a middle school as "A school that offers more of grades 5 through 8 than higher or lower grades but does not offer both kindergarten through grade 4 and grades 9 through 12."</p>
+<p>Middle school usually means grades 6 to 8, though some districts start it at grade 5 and some run grade 7 to 8 junior highs. The Congressional App Challenge rules say the same thing in plain words: "Middle school varies by region but typically encompasses 6th-8th grades".</p></div><div><h3>Kids course or teens course?</h3><p>Our courses for kids run to age 12 and our teen courses start at 13, so the line falls inside middle school. Most sixth graders join a kids course; most eighth graders are ready for the teen version; seventh grade can go either way.</p>
+<p>We decide in the free first lesson by looking at typing speed, reading level and what the student has already built, not birthday alone. A confident twelve-year-old who has finished a lot of Scratch may start straight in a teen course.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Middle school grades, typical ages and where a student usually starts with us (ours)</caption><thead><tr><th scope="col">Grade</th><th scope="col">Typical age during the year</th><th scope="col">Usual starting point</th><th scope="col">What they build</th></tr></thead><tbody><tr><td>6th grade</td><td>11 to 12</td><td>Python for kids, or Scratch if new to coding</td><td>Text games, quizzes, turtle drawings</td></tr><tr><td>7th grade</td><td>12 to 13</td><td>Python for kids or for teens, by level</td><td>Programs split into functions, simple web pages</td></tr><tr><td>8th grade</td><td>13 to 14</td><td>Python or JavaScript for teens</td><td>Apps for a real user, data projects, contest problems</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://nces.ed.gov/programs/coe/glossary" rel="noopener" target="_blank">NCES glossary</a> and the <a class="ag-inline-link" href="https://www.congressionalappchallenge.us/students/rules/" rel="noopener" target="_blank">Congressional App Challenge 2026 rules</a>, read 17 October 2026. The ages and starting points are ours. We are not connected with NCES or the Congressional App Challenge.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="framework">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">By the end of grade 8</p><h2>What the K-12 Computer Science Framework expects by eighth grade</h2><p class="ag-lede">The K-12 Computer Science Framework, which states may use to develop their own standards, sets an endpoint for grade 8. Read together, its programming statements describe a student who writes code other people can read and reuse.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The grade 8 endpoint, word for word from the framework (k12cs.org, 17 October 2026)</caption><thead><tr><th scope="col">Idea in the framework</th><th scope="col">Grade 8 statement</th><th scope="col">Seen in class as</th></tr></thead><tbody><tr><td>Algorithms</td><td>"Algorithms that are readable are easier to follow, test, and debug."</td><td>Rewriting a messy solution so a classmate can follow it</td></tr><tr><td>Variables</td><td>"A meaningful identifier is assigned to each variable to access and perform operations on the value by name."</td><td><b>lives_left</b>, not <b>x</b></td></tr><tr><td>Control</td><td>"Programmers select and combine control structures, such as loops, event handlers, and conditionals, to create more complex program behavior."</td><td>A loop inside a condition inside an event</td></tr><tr><td>Modularity</td><td>"Programs use procedures to organize code, hide implementation details, and make code easier to reuse."</td><td>Writing a function once and calling it many times</td></tr><tr><td>Parameters</td><td>"Defining parameters for procedures can generalize behavior and increase reusability."</td><td>The same function working for any message or any number</td></tr><tr><td>Troubleshooting</td><td>"A systematic process will identify the source of a problem"</td><td>Testing one change at a time and reading error messages</td></tr><tr><td>Online safety</td><td>"People can be tricked into revealing personal information when more public information is available about them online."</td><td>Thinking before posting a project with a real name or school</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The shift from elementary</h3><p>In the elementary statements the emphasis is on following and creating instructions. By grade 8 the emphasis moves to other people: readable algorithms, meaningful names, and solutions designed by "defining a problem&rsquo;s criteria and constraints" and testing whether they were met.</p>
+<p>That is a big change in mindset. A sixth grader often writes code only they understand; an eighth grader who meets these statements writes code a teacher, a teammate or their future self can pick up.</p></div><div><h3>Where privacy and security come in</h3><p>The grade 8 statements also bring in protection of information "such as encryption to maintain its confidentiality", which is why our example program below is a simple cipher.</p>
+<p>They connect it to students&rsquo; own lives as well: the more that is public about someone online, the easier it is to trick them. We talk about that directly when students publish their first projects.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Quoted from the <a class="ag-inline-link" href="https://k12cs.org/framework-statements-by-grade-band/" rel="noopener" target="_blank">statements-by-grade-band page on k12cs.org</a>, which we checked on 17 October 2026; short extracts only, as its licence allows. The framework sets grade-band endpoints, not a lesson for each grade; your state&rsquo;s standards decide the detail.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What schools are changing to</p><h2>From CS Discoveries to AI Discoveries: the middle school course is being rebuilt</h2><p class="ag-lede">Code.org says its CS Discoveries course "introduced hundreds of thousands of middle schoolers to computer science." For the 2026 to 2027 school year, Code.org (now presenting its site as CodeAI) recommends a replacement built around AI.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Code.org middle school courses, as listed on its curriculum pages (read 17 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">CS Discoveries</th><th scope="col">AI Discoveries</th></tr></thead><tbody><tr><td>Grades listed</td><td>6, 7, 8, 9, 10</td><td>6, 7, 8</td></tr><tr><td>Status</td><td>Still available to teachers using it; Code.org calls AI Discoveries "the new version of this course"</td><td>Ready for the 2026 to 2027 school year</td></tr><tr><td>Length</td><td>A full year over 7 units, or single units</td><td>Full Year (36 weeks), Semester (18 weeks) or Quarter (9 weeks)</td></tr><tr><td>First unit</td><td>Not stated on the course page</td><td>"Thinking Critically About AI"</td></tr><tr><td>AI content</td><td>An AI and Machine Learning unit</td><td>AI and Machine Learning moves to Unit 2</td></tr><tr><td>Tools named</td><td>Game Lab, App Lab, AI Lab, Web Lab</td><td>AI Chat Lab, Web Lab, Game Lab, App Lab, Sketch Lab</td></tr><tr><td>Devices</td><td>Computer, Chromebook</td><td>Chromebook, computer</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What this means for your student</h3><p>If your child&rsquo;s school adopts AI Discoveries, their first unit of computer science may be about evaluating AI systems, bias and misinformation before they write much code. That is a sensible order, and it raises a question families ask us: will they still learn to program?</p>
+<p>They will meet programming in later units, but a school elective is often a quarter or a semester. A weekly class outside school is where students go further with typed code and longer projects.</p></div><div><h3>How we line up with it</h3><p>We teach the same ideas in a different order: programming first, then AI, then the two together. A student who has written their own small classifier understands far better why an AI system can be confidently wrong.</p>
+<p>Code.org and CodeAI have no connection with us. Their catalogue simply shows what many US middle schools teach, so we can start new students in the right place.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://code.org/en-US/curriculum/computer-science-discoveries" rel="noopener" target="_blank">Computer Science Discoveries</a>, <a class="ag-inline-link" href="https://code.org/en-US/curriculum/artificial-intelligence-discoveries" rel="noopener" target="_blank">AI Discoveries</a> and the <a class="ag-inline-link" href="https://code.org/en-US/curriculum" rel="noopener" target="_blank">curriculum catalogue</a> (which lists AI Discoveries as 8 units for grades 6 to 8), read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="program">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real program</p><h2>A Caesar cipher in Python: one function, two parameters</h2><p class="ag-lede">This is a program we write with middle schoolers in their first month of typed code. It is short, it does something they want (secret messages), and it meets two of the grade 8 statements head on: procedures that organise code, and parameters that make it reusable.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; a Caesar cipher</b><span>python</span></figcaption><pre># Caesar cipher (ours): one procedure, two parameters, used twice
+def shift_message(message, shift):
+    result = ""
+    for letter in message:
+        if letter.isalpha():
+            start = ord("A") if letter.isupper() else ord("a")
+            result += chr((ord(letter) - start + shift) % 26 + start)
+        else:
+            result += letter
+    return result
+
+secret = shift_message("Meet at the library", 3)
+print(secret)                     # Phhw dw wkh oleudub
+print(shift_message(secret, -3))  # Meet at the library</pre><p class="ag-code-note">Ours. We ran it with Python 3.13 before printing it, and the two comment lines show its real output. The % 26 wraps the alphabet round, so a letter shifted past z comes back to a.</p></figure>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>The procedure</h3><p><b>def shift_message</b> wraps the whole idea in one named block that hides the detail from the code that calls it.</p></div><div><h3>The parameters</h3><p><b>message</b> and <b>shift</b> let the same function encrypt with 3 and decrypt with -3.</p></div><div><h3>The condition</h3><p><b>isalpha()</b> leaves spaces and punctuation alone, a decision students usually add after their first bug.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Predict the output before you run it: four practice calls (ours; answers checked by running the function)</caption><thead><tr><th scope="col">Call</th><th scope="col">What it prints</th><th scope="col">What it tests</th></tr></thead><tbody><tr><td>shift_message("xyz", 3)</td><td>abc</td><td>Wrapping past the end of the alphabet</td></tr><tr><td>shift_message("Zoo!", 1)</td><td>App!</td><td>Capitals and punctuation</td></tr><tr><td>shift_message("abc", 26)</td><td>abc</td><td>A full turn of the alphabet changes nothing</td></tr><tr><td>shift_message("Hi", -1)</td><td>Gh</td><td>A negative shift goes backwards</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The honest limitation</h3><p>A Caesar cipher is easy to break: there are only 25 useful shifts, so a program can try them all in an instant. Students usually discover this themselves, and writing that brute-force loop is the next lesson.</p>
+<p>That discovery is worth more than the cipher. It shows why real encryption is mathematical and why the grade 8 framework talks about protecting information rather than hiding it.</p></div><div><h3>Where it leads</h3><p>From here students write a function that counts letters, then use the counts to guess the shift automatically. That is their first taste of using data to make a decision.</p>
+<p>Older middle schoolers take the same idea into JavaScript and put it on a web page their friends can use, which is a project for a real user, exactly what the framework asks for.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="language">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Which language</p><h2>Choosing a first typed language in middle school</h2><p class="ag-lede">Parents often ask which language a middle schooler should learn. There is no single right answer, but there is a sensible order for most students, and it depends on what they want to make.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A first typed language for grades 6 to 8 (ours)</caption><thead><tr><th scope="col">If your student wants to</th><th scope="col">Start with</th><th scope="col">Why</th></tr></thead><tbody><tr><td>Learn programming properly, any direction</td><td>Python</td><td>Short, readable code; the same ideas carry to every other language</td></tr><tr><td>Make websites and things friends can open</td><td>JavaScript with HTML and CSS</td><td>Runs in any browser; instant results on screen</td></tr><tr><td>Make games in a world they already play</td><td>Luau in Roblox Studio</td><td>Event-driven code with a built-in audience</td></tr><tr><td>Take AP Computer Science A later</td><td>Python first, then Java in high school</td><td>Java is the AP CSA language; Python makes the first year gentler</td></tr><tr><td>Enter coding competitions</td><td>Python, then C++ if they get serious</td><td>Python to learn problem solving, C++ for speed in contests</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Typing matters more than the language</h3><p>The real jump in middle school is from dragging blocks to typing exact syntax. A missing bracket or a wrong indent stops a program, and students need a few weeks of patient practice before that stops being frustrating.</p>
+<p>Whichever language a student picks, the first month should be full of small programs that work, so the frustration never wins.</p></div><div><h3>What about AI tools?</h3><p>Many AI services set a minimum age in their terms, and those rules change. We never ask a student to create an account on a service that does not allow their age, and in class AI is something students study and test, not a shortcut.</p>
+<p>Code.org lists an AI Chat Lab among the tools in its AI Discoveries course. If your student uses one at school, ask them to show you how they check its answers.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="semester">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A first semester</p><h2>What eighteen weeks of weekly classes can look like</h2><p class="ag-lede">Families like to know where the time goes. This is the outline we use for a middle schooler starting typed Python, written as six blocks of three weeks. Fast students finish early and move to a bigger project; nobody is pushed past a block they have not understood.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A first semester of Python for grades 6 to 8 (ours)</caption><thead><tr><th scope="col">Weeks</th><th scope="col">Block</th><th scope="col">What the student can do at the end</th></tr></thead><tbody><tr><td>1 to 3</td><td>Printing, input and variables</td><td>Write a short quiz that asks questions and keeps a score</td></tr><tr><td>4 to 6</td><td>Conditions and loops</td><td>Build a number-guessing game with hints and a limited number of tries</td></tr><tr><td>7 to 9</td><td>Functions and parameters</td><td>Write the Caesar cipher above and reuse it to decode</td></tr><tr><td>10 to 12</td><td>Lists and strings</td><td>Store a list of words, search it, and count letters</td></tr><tr><td>13 to 15</td><td>A project for a real user</td><td>Interview a family member, then build a small tool they asked for</td></tr><tr><td>16 to 18</td><td>Testing and presenting</td><td>Fix bugs found by the user, then explain the code in five minutes</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why a real user in week 13</h3><p>The grade 8 framework statement on program development is about solutions for other people. Building for a grandparent, a younger sibling or a club teaches more about clear design than any exercise, because real users press the wrong buttons.</p>
+<p>The projects students remember are often tiny: a chore tracker, a spelling quiz for a little brother, a scoreboard for a family board game.</p></div><div><h3>What the presentation is for</h3><p>Explaining code out loud is how we check understanding. A student who can say why a function takes a parameter, in their own words, owns that idea.</p>
+<p>Parents are welcome at the presentation lesson. It is usually the moment a family sees how much has changed since week one.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="beyond">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beyond class</p><h2>Contests and projects open to middle schoolers</h2><p class="ag-lede">Middle school is when students can start entering real competitions, and a project with a deadline is a strong reason to keep coding.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The Congressional App Challenge</h3><p>Under the 2026 rules, students must be enrolled in middle school or high school on October 26th, 2026 to enter. Students compete in a congressional district that is hosting the challenge, where they live or where they go to school, and entries are judged by that district&rsquo;s Member of Congress and their office, so the competition is local even though it runs across the country.</p>
+<p>Our <a class="ag-inline-link" href="/congressional-app-challenge-guide">Congressional App Challenge guide</a> covers the rules, the demo video and a ten-week build plan.</p></div><div><h3>Other ways to stretch</h3><p>Students who like puzzles can start on contest-style problems, and our <a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a> page explains how that path works. Those who like making things can enter school science fairs with a coding project.</p>
+<p>Our page on <a class="ag-inline-link" href="/computer-science-extracurriculars">computer science extracurriculars</a> lists more options, most of which open up in the last year of middle school.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Grade 6 to grade 8</p>
+      <h2>Four stages through middle school coding</h2>
+      <p class="ag-lede">Where most students are when they join, and where they can be by the end of eighth grade.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a middle school coder (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Signs of it</th></tr></thead><tbody><tr><td>1. Block expert</td><td class="ag-num">Builds big Scratch projects, finds typing slow and fiddly</td></tr><tr><td>2. Typist</td><td class="ag-num">Writes short Python programs with loops and conditions, fixes syntax errors alone</td></tr><tr><td>3. Organiser</td><td class="ag-num">Splits programs into functions with parameters, names things clearly</td></tr><tr><td>4. Builder for others</td><td class="ag-num">Makes a tool or game for a real user, tests it with them, improves it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 2 is the hardest month. Encourage short, frequent practice rather than long weekend sessions.</p>
+<p>Ask who the project is for. A student who can answer that is thinking at stage 4.</p></div><div><h3>For students</h3><p>Every error message is a clue. Read the line number first, then the last line of the message.</p>
+<p>Write the function name before the function. If you cannot name it, you have not decided what it does yet.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine more courses for grades 6 to 8</h2>
+      <p class="ag-lede">Live classes with a steady teacher; the ages listed belong to each course.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Sixth and seventh grade</h3>
+        <span class="ag-band-sub">Up to age 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MS / KID / 01</p>
+          <h4>Scratch, done properly</h4>
+          <p>For a sixth grader who has never coded.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MS / KID / 02</p>
+          <h4>Hackathon prep for kids</h4>
+          <p>Ages 8 to 12. Build fast, pitch clearly.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MS / KID / 03</p>
+          <h4>Middle school math</h4>
+          <p>The algebra that code leans on.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teen tracks</h3>
+        <span class="ag-band-sub">From 13</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MS / TEN / 01</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive pages and browser games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MS / TEN / 02</p>
+          <h4>Game development for teens</h4>
+          <p>Unity and C#, step by step.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MS / TEN / 03</p>
+          <h4>Front-end development</h4>
+          <p>HTML, CSS and JavaScript done well.</p>
+          <a class="ag-course-link" href="/courses/frontend-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Thinking and security</h3>
+        <span class="ag-band-sub">From 13</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MS / THK / 01</p>
+          <h4>Problem solving and DSA</h4>
+          <p>Algorithms explained from zero.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MS / THK / 02</p>
+          <h4>Competitive programming</h4>
+          <p>For students who already write programs.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MS / THK / 03</p>
+          <h4>Cybersecurity for teens</h4>
+          <p>Defensive and ethical, no coding needed.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live classes around a busier middle school week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school batches across US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Mornings that avoid sports and practice.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Booked at your convenience.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A steady teacher</h3><p>The same teacher follows each student&rsquo;s progress.</p></div>
+      <div><h3>Placed by level</h3><p>Kids or teen course, decided in the first lesson.</p></div>
+      <div><h3>Real typing</h3><p>Students write every line themselves.</p></div>
+      <div><h3>Code reviewed</h3><p>The teacher reads the code, not just the result.</p></div>
+      <div><h3>Projects for users</h3><p>Built for a friend, a club or the family.</p></div>
+      <div><h3>Two formats</h3><p>Join a batch of fifteen to twenty, or book one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">A few projects by learners who began with the same first programs. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Fees are monthly and shown in US dollars. Nothing locks you in for the school year: if a month finishes and you want to stop, you stop.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Placement in kids or teen course</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>Students placed by level</li><li>One regular teacher</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher to yourself</li><li>Times that fit your week</li><li>Your own projects</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Copied word for word from parents&rsquo; Google reviews.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Coding for middle schoolers: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What coding should a middle school student learn?</h3>
+        <p>By the end of grade 8 the K-12 Computer Science Framework expects readable programs that combine loops, events and conditionals, meaningful variable names, and procedures with parameters. In practice that means typed code, usually Python or JavaScript, and projects built for other people.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is middle school too late to start coding?</h3>
+        <p>No. Many students start in sixth or seventh grade and catch up quickly, because they read and type well. A beginner in middle school can go from first program to functions with parameters within a few months of weekly classes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should a middle schooler learn Python or JavaScript?</h3>
+        <p>We start most students on Python: the code is short, it reads clearly, and what they learn transfers to any other language. JavaScript suits students who mainly want to build websites. Many learn Python first and add JavaScript in eighth grade.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What grades are middle school in the US?</h3>
+        <p>Usually grades 6 to 8. NCES defines a middle school as one offering more of grades 5 through 8 than other grades, so some districts start middle school at grade 5 or use a grade 7 and 8 junior high.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is AI Discoveries?</h3>
+        <p>A Code.org middle school course for grades 6 to 8 that replaces CS Discoveries for the 2026 to 2027 school year. Its first unit is Thinking Critically About AI, and it can run as a full year, a semester or a quarter.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can middle school students enter the Congressional App Challenge?</h3>
+        <p>Yes. The 2026 rules say students must be enrolled in middle school or high school on October 26th, 2026. Our Congressional App Challenge guide covers the rules and a build plan.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child join a kids course or a teen course?</h3>
+        <p>Our kids courses run to age 12 and teen courses start at 13. Most sixth graders join a kids course and most eighth graders a teen course; we decide in the free first lesson by level, not birthday alone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US families?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How big are the classes?</h3>
+        <p>Batches are fifteen to twenty students with one teacher who stays with them. If you want a teacher just for your child, 1-on-1 lessons are available too.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do middle school coding classes cost?</h3>
+        <p>You pay nothing for the first lesson. After it a fee is charged each month, and the amount appears in US dollars in the fees section above.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US middle schoolers and their parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Where all our US guides start.</p></div>
+      <div><h3><a class="ag-inline-link" href="/congressional-app-challenge-guide">Congressional App Challenge</a></h3><p>Rules and a ten-week plan.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-12-year-olds">Coding for 12 year olds</a></h3><p>The sixth and seventh grade year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-13-year-olds">Coding for 13 year olds</a></h3><p>Moving into teen courses.</p></div>
+      <div><h3><a class="ag-inline-link" href="/computer-science-extracurriculars">CS extracurriculars</a></h3><p>Clubs, contests and projects.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>One class, described in full.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Share your child&rsquo;s grade and any coding they have done, even a few weeks of it at school. The first lesson doubles as placement, so they start at the right level.</p>
+        <p class="ag-mt-40">Before booking you can read <a class="ag-inline-link" href="/how-we-teach">how our teachers run a class</a>, or browse <a class="ag-inline-link" href="/courses">the course catalogue</a> with full syllabuses.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20middle%20school%20in%20the%20US%20and%20wants%20to%20learn%20to%20code%20properly.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ms',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are based in India and teach every class live on video, so families anywhere in the US join the same way. WhatsApp gets the fastest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ms(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson. No card asked for.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Middle school coding</h4><ul><li><a href="/coding-for-11-year-olds">Coding for 11 year olds</a></li><li><a href="/coding-for-12-year-olds">Coding for 12 year olds</a></li><li><a href="/coding-for-13-year-olds">Coding for 13 year olds</a></li><li><a href="/coding-for-14-year-olds">Coding for 14 year olds</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/congressional-app-challenge-guide">Congressional App Challenge</a></li><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Write it once, call it with new inputs</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ms = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'coding-classes-for-middle-school-students-inline', meta: { name: name, age: age, page: 'coding-classes-for-middle-school-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

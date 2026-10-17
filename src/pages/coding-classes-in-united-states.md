@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Coding classes for middle school students](/coding-classes-for-middle-school-students)
 - [Coding classes for elementary students](/coding-classes-for-elementary-students)
 - [GitHub Classroom help for students](/github-classroom-help-for-students)
 - [Google Colab help for students](/google-colab-help-for-students)
