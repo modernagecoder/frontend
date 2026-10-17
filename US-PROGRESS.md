@@ -185,7 +185,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 142 | bluej-not-working-fix (bnwf, #8A4E65) | tools | 4,465 | 1.8% vs java-cannot-find-symbol-error | phase T | objects and the object bench (calling methods on objects you created yourself) | acfbce4d |
 | 149 | eclipse-java-help-for-students (ej, #572429) | tools | 4,695 | 1.4% vs bluej-not-working-fix | phase T | tools and environment (the editor, the compiler and the Java runtime are three d | fd5b1886 |
 | 147 | intellij-and-pycharm-free-for-students (ipf, #943C16) | tools | 4,044 | 2% vs codehs-help-for-students | phase T | environments (which interpreter or JDK is really running your code) | 5490c0d3 |
-| 30 | c-plus-plus-for-kids (cppk, #124875) | subj | 3,917 | 1.4% vs coding-milestones-by-age | phase 2 | types and limits (what a variable can hold, and what happens past the edge) | (this commit) |
+| 30 | c-plus-plus-for-kids (cppk, #124875) | subj | 3,917 | 1.4% vs coding-milestones-by-age | phase 2 | types and limits (what a variable can hold, and what happens past the edge) | dbd1fbdf |
+| 31 | javascript-for-kids (jk, #3E5294) | subj | 3,822 | 1.4% vs how-to-make-a-roblox-game | phase 2 | the game loop (read input, update state, draw, repeat) | (this commit) |
 
 ## Skipped
 

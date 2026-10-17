@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>JavaScript for Kids: Where to Start, With Three Real Programs</title>
+  <meta name="description" content="JavaScript for kids: what it is, the right age to start, how to open the browser Console, and three short programs, from a dice roll to a square you can steer.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/javascript-for-kids">
+  <link rel="alternate" type="text/markdown" href="/src/pages/javascript-for-kids.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3E5294">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/javascript-for-kids">
+  <meta property="og:title" content="JavaScript for Kids: Where to Start, With Three Real Programs">
+  <meta property="og:description" content="Every web browser already runs JavaScript. An age guide for US parents, the Console in two keystrokes, and three tiny programs that grow into a real game loop.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JavaScript for Kids: Where to Start, With Three Real Programs">
+  <meta name="twitter:description" content="JavaScript for kids: an age guide, the Console, and three real programs to try today.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jk .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-jk .ag-capsule { border-left-width: 5px; border-radius: 4px; }
+.ag-root.ag-jk .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-jk .ag-table caption { text-align: left; }
+.ag-root.ag-jk .ag-steps li { line-height: 1.55; }
+.ag-root.ag-jk .ag-band-head h3 { letter-spacing: -0.01em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/javascript-for-kids#page","url":"https://learn.modernagecoders.com/javascript-for-kids","name":"JavaScript for Kids","description":"A guide for US parents and children to starting JavaScript: how it fits with HTML and CSS, when a child is ready, and three programs that use only documented browser features.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"JavaScript for kids","item":"https://learn.modernagecoders.com/javascript-for-kids"}]},{"@type":"Course","name":"JavaScript for Kids","description":"Live online web and JavaScript classes for US children and teens, from first web pages to browser games, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/javascript-for-kids"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/javascript-for-kids"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/javascript-for-kids"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can kids learn JavaScript?","acceptedAnswer":{"@type":"Answer","text":"Yes. In our experience children are often ready around 10 to 12, especially after a little HTML and CSS, and teenagers can start directly. Younger children usually do better with Scratch first."}},{"@type":"Question","name":"What age should a child start JavaScript?","acceptedAnswer":{"@type":"Answer","text":"In our experience, around 10 to 12 for a child who reads and types comfortably. From 13, JavaScript works well as a first language, particularly for a teen interested in websites or browser games."}},{"@type":"Question","name":"Is JavaScript the same as Java?","acceptedAnswer":{"@type":"Answer","text":"No. MDN says plainly that JavaScript should not be confused with the Java programming language; the two have very different syntax and uses. American students often meet Java later in AP Computer Science A."}},{"@type":"Question","name":"Does my child need to install anything to learn JavaScript?","acceptedAnswer":{"@type":"Answer","text":"No. Every modern browser runs JavaScript. A child can type code into the browser Console, or save a simple .html file and open it in the browser."}},{"@type":"Question","name":"How do you open the JavaScript Console?","acceptedAnswer":{"@type":"Answer","text":"On Windows press Ctrl + Shift + I or F12; on a Mac press Cmd + Option + I. Then choose the Console tab. You can also right-click the page and choose Inspect."}},{"@type":"Question","name":"Should my child learn Python or JavaScript first?","acceptedAnswer":{"@type":"Answer","text":"JavaScript if they are drawn to websites and browser games, Python if they are drawn to puzzles, data or AI. Both are good first typed languages, and many of our students learn both."}},{"@type":"Question","name":"Can kids make games with JavaScript?","acceptedAnswer":{"@type":"Answer","text":"Yes. With the canvas element and requestAnimationFrame, a child can build browser games that run on any computer and can be shared as a link. The third program on this page is the start of one."}},{"@type":"Question","name":"Is JavaScript for kids free to learn?","acceptedAnswer":{"@type":"Answer","text":"The language, the browser and MDN's documentation are free. Families pay only if they want a teacher; our first lesson is free too."}},{"@type":"Question","name":"Is HTML and CSS needed before JavaScript?","acceptedAnswer":{"@type":"Answer","text":"It helps. MDN's beginner JavaScript course assumes an understanding of HTML and the fundamentals of CSS, because JavaScript mostly works by changing a web page those two describe."}},{"@type":"Question","name":"What times are classes for US families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much are JavaScript classes?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that you pay for one month of teaching at a time, and the fees section of this page shows the monthly amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/javascript-for-kids","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-jk">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#what">What it is</a></li>
+      <li><a href="#age">Right age</a></li>
+      <li><a href="#console">The Console</a></li>
+      <li><a href="#programs">Three programs</a></li>
+      <li><a href="#loop">The game loop</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / JavaScript for kids
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 10 to 18 &middot; JavaScript</p>
+        <h1>JavaScript for kids: a real start</h1>
+        <p class="ag-lede">JavaScript is the language already running inside every web page your child visits. That makes it unusual among first languages: there is nothing to install, the results show up in a browser tab, and a finished project can be sent to a grandparent as a link. It also means the language is huge, and a child who jumps in without a plan can drown in frameworks and copied snippets. This page shows a calmer route for American families: what JavaScript is, at what age it tends to click, how to open the tool every browser hides, and three short programs that build toward a game your child can steer.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#programs" class="ag-btn ag-btn--ghost">See the three programs</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20would%20like%20to%20learn%20JavaScript.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jk'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Nothing to install</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 10 to 18</dd>
+          <dt>Language</dt><dd>JavaScript (ECMAScript)</dd>
+          <dt>Needs</dt><dd>Any modern browser</dd>
+          <dt>Works on</dt><dd>Windows, Mac, Chromebook</dd>
+          <dt>Goes with</dt><dd>HTML and CSS</dd>
+          <dt>Format</dt><dd>Batch or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>JavaScript is the programming language of web pages, and kids can start it in any browser with nothing to install. In our experience children are often ready around 10 to 12, after a little HTML and CSS; teens can start directly. Open the browser&rsquo;s Console (Ctrl + Shift + I or F12 on Windows) and type a first line of code today.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses that teach JavaScript properly</h2>
+      <p class="ag-lede">Each is live, and each ends with something your child can open in a browser and share.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/kids-ai-web-development-course">
+        <div class="ag-pick-shot"><img src="/images/html-css-kids.webp" alt="Web Development for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JK / 01</p>
+          <h3>Web development for kids</h3>
+          <p>Ages 9 to 12. HTML and CSS first, then JavaScript sparks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/javascript-course-for-teens-beginners-interactive-web">
+        <div class="ag-pick-shot"><img src="/images/javascript-teens.webp" alt="JavaScript for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JK / 02</p>
+          <h3>JavaScript for teens</h3>
+          <p>Ages 13 to 18. Interactive sites, canvas games, real APIs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/html-css-course-for-beginners-build-real-websites">
+        <div class="ag-pick-shot"><img src="/images/html-css-beginners.webp" alt="HTML &amp; CSS for Beginners course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JK / 03</p>
+          <h3>HTML and CSS for beginners</h3>
+          <p>Ages 10 and up. The two layers JavaScript sits on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it is</p><h2>What JavaScript is, in a sentence a 10-year-old can repeat</h2><p class="ag-lede">MDN, the web documentation run by Mozilla, calls JavaScript the third layer of the layer cake of standard web technologies. The other two layers are HTML and CSS.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The three layers of a web page, as MDN describes them (read 17 October 2026)</caption><thead><tr><th scope="col">Layer</th><th scope="col">What it does</th><th scope="col">A button, in each layer</th></tr></thead><tbody><tr><td>HTML</td><td>Structure and meaning: headings, paragraphs, images</td><td>The button exists and has a label</td></tr><tr><td>CSS</td><td>Style rules: colors, fonts, layout</td><td>The button is rounded and blue</td></tr><tr><td>JavaScript</td><td>Behavior: updating content, animation, reacting to the user</td><td>Clicking the button does something</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Not Java</h3><p>MDN is blunt on this point: do not confuse JavaScript with the Java programming language. The two have very different syntax and uses. American students often meet Java later in AP Computer Science A, so it helps to know early that the names are a coincidence of history, not a family tie.</p>
+<p>MDN describes JavaScript as a lightweight interpreted (or just-in-time compiled) language. For a child, that means you write a line and the browser runs it immediately.</p></div><div><h3>Who keeps it up to date</h3><p>The core language is standardized by the ECMA TC39 committee under the name ECMAScript, and MDN says new editions are approved and published every year. ES6 and ES2015 are two names for the same edition.</p>
+<p>For learners, the yearly cycle matters less than the basics underneath it. Variables, events, functions and loops look the same in every recent edition, and those are what a child spends the first year on.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: MDN pages <a class="ag-inline-link" href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript" rel="noopener" target="_blank">What is JavaScript?</a>, <a class="ag-inline-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noopener" target="_blank">JavaScript</a> and the JavaScript technologies overview, read 17 October 2026. We are not connected with Mozilla or Ecma International.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="age">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The right age</p><h2>When is a child ready for JavaScript?</h2><p class="ag-lede">Parents searching for JavaScript for kids are often choosing between it, Scratch and Python. The answer depends on age and on what the child wants to make. This is the guide we use.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Where children usually begin, by age (our guide from classes we teach)</caption><thead><tr><th scope="col">Age</th><th scope="col">Usual start</th><th scope="col">Where JavaScript fits</th></tr></thead><tbody><tr><td>6 to 9</td><td>Scratch or other block coding</td><td>Later; typing and punctuation slow young children down</td></tr><tr><td>10 to 12</td><td>HTML and CSS, then JavaScript</td><td>A good fit for a child who wants their own website or browser game</td></tr><tr><td>13 to 15</td><td>JavaScript or Python</td><td>Either works; JavaScript if the goal is the web or games in a browser</td></tr><tr><td>16 to 18</td><td>JavaScript alongside a second language</td><td>The base for web apps, hackathons and portfolio projects</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>JavaScript or Python first?</h3><p>Python reads more like plain English and has fewer symbols, which is why many children start there. JavaScript has more brackets and braces, but its results are immediately visual: a page changes color, a square moves.</p>
+<p>Our rule of thumb: a child who keeps asking how a website or online game works should start with JavaScript; a child more curious about puzzles, data or AI should start with Python. Our post on <a class="ag-inline-link" href="/blog/python-vs-javascript-which-to-learn-first">Python or JavaScript first</a> covers this in more depth.</p></div><div><h3>Books, PDFs and free tutorials</h3><p>Many families search for a JavaScript for kids book or a free PDF. Books suit a reader who likes working alone; the hard moment is the first bug a child cannot explain, because a book cannot answer back.</p>
+<p>Free documentation is excellent once a child can read it. MDN&rsquo;s own beginner course assumes an understanding of HTML and the fundamentals of CSS, which is why we teach those two first.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="console">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The hidden tool</p><h2>Open the Console: the place to type your first JavaScript</h2><p class="ag-lede">Every desktop browser includes developer tools, and inside them is the JavaScript Console, which MDN calls an incredibly useful tool for debugging. It runs lines of code against the open page and reports errors.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Opening developer tools, from MDN (read 17 October 2026)</caption><thead><tr><th scope="col">Computer</th><th scope="col">Keys</th><th scope="col">Then</th></tr></thead><tbody><tr><td>Windows</td><td>Ctrl + Shift + I, or F12</td><td>Choose the Console tab</td></tr><tr><td>Mac</td><td>Cmd + Option + I</td><td>Choose the Console tab</td></tr><tr><td>Any</td><td>Right-click the page, choose Inspect</td><td>Then the Console tab</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Open a blank tab</b> so that no website&rsquo;s own code gets in the way.</li><li><b>Open the Console</b> with the keys above and click inside it.</li><li><b>Type 2 + 2</b> and press Enter. The answer appears underneath. That is JavaScript running.</li><li><b>Paste the first program below</b> and press Enter. Run it a few times to see the dice change.</li><li><b>Make a mistake on purpose.</b> Leave off a closing quote and read the red error. Learning to read that message calmly is the most useful skill in the first month.</li></ol>
+    <p class="ag-mt-40">On a school-managed Chromebook, some tools may be restricted by the district. If the Console will not open, a home computer works the same way, and the HTML programs below also run in a free online editor.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="programs">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Real code</p><h2>Three JavaScript programs, from one line to a moving square</h2><p class="ag-lede">These are the first three programs in our beginner plan. We wrote them using only features documented on MDN. The first runs in the Console; save the other two as .html files and open them in a browser.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 1 &middot; a greeting and a dice roll</b><span>javascript</span></figcaption><pre>// Paste these lines into the browser Console (ours)
+let name = "Sam";
+console.log("Hi " + name + "!");
+
+let roll = Math.floor(Math.random() * 6) + 1;   // 1 to 6
+console.log("You rolled a " + roll);</pre><p class="ag-code-note">MDN says Math.random returns a number greater than or equal to 0 and less than 1. Multiplying by 6 and rounding down with Math.floor gives 0 to 5; adding 1 gives 1 to 6.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 2 &middot; a button that counts</b><span>html</span></figcaption><pre>&lt;!-- clap.html: a button that counts (ours) --&gt;
+&lt;button id="clap"&gt;Clap&lt;/button&gt;
+&lt;p id="count"&gt;Claps: 0&lt;/p&gt;
+
+&lt;script&gt;
+  let claps = 0;
+  const button = document.querySelector("#clap");
+  const label = document.querySelector("#count");
+
+  button.addEventListener("click", function () {
+    claps = claps + 1;
+    label.textContent = "Claps: " + claps;
+  });
+&lt;/script&gt;</pre><p class="ag-code-note">querySelector finds the button and the paragraph; addEventListener sets up a function that runs on every click; textContent replaces the paragraph&rsquo;s text. If querySelector finds nothing, it returns null, the usual cause of a beginner&rsquo;s first big red error.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 3 &middot; steer a square</b><span>html</span></figcaption><pre>&lt;!-- steer.html: move a square with the arrow keys (ours) --&gt;
+&lt;canvas id="game" width="300" height="150"&gt;&lt;/canvas&gt;
+
+&lt;script&gt;
+  const canvas = document.querySelector("#game");
+  const ctx = canvas.getContext("2d");
+  let x = 140;     // left edge of the square
+  let speed = 0;   // pixels per frame
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowRight") speed = 3;
+    if (event.key === "ArrowLeft") speed = -3;
+  });
+  document.addEventListener("keyup", function () {
+    speed = 0;
+  });
+
+  function frame() {
+    x = x + speed;
+    if (x &lt; 0) x = 0;
+    if (x &gt; 280) x = 280;  // 300 minus the 20 px square
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillRect(x, 65, 20, 20);
+    requestAnimationFrame(frame);  // ask for the next frame
+  }
+  requestAnimationFrame(frame);
+&lt;/script&gt;</pre><p class="ag-code-note">keydown fires when a key is pressed and keyup when it is released; event.key tells you which key, such as ArrowRight. The frame function moves, clears, draws and then asks for the next frame.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What each program adds</h3><p>Program 1 is variables and arithmetic. Program 2 adds events: code that waits for the user. Program 3 adds a loop that never stops, which is how every browser game works.</p>
+<p>Children who build these three in order understand the shape of an interactive program before they ever meet a framework. Frameworks then make sense instead of feeling like magic.</p></div><div><h3>One thing Math.random is not for</h3><p>MDN warns that Math.random does not provide cryptographically secure random numbers and should not be used for anything related to security. For a dice game that is fine.</p>
+<p>We mention it in class on purpose. It is a child&rsquo;s first glimpse that the same tool can be safe in one job and wrong in another, a lesson that matters later in cybersecurity and in life.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="loop">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The game loop</p><h2>Why the square moves faster on some screens</h2><p class="ag-lede">Program 3 contains a real bug that professional game programmers know well. Finding it is a good test of whether a student understands the loop.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How far the square moves (our arithmetic, using MDN&rsquo;s refresh rates)</caption><thead><tr><th scope="col">Screen refresh rate</th><th scope="col">Frames per second</th><th scope="col">Pixels per second at 3 per frame</th><th scope="col">Time to cross 280 pixels</th></tr></thead><tbody><tr><td>60 Hz, the most common</td><td class="ag-num">60</td><td class="ag-num">3 x 60 = 180</td><td>280 / 180 = about 1.6 seconds</td></tr><tr><td>120 Hz</td><td class="ag-num">120</td><td class="ag-num">3 x 120 = 360</td><td>about 0.8 seconds</td></tr><tr><td>144 Hz</td><td class="ag-num">144</td><td class="ag-num">3 x 144 = 432</td><td>about 0.65 seconds</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The cause</h3><p>MDN explains that requestAnimationFrame calls the frame function at a rate that generally matches the display refresh rate. It names 60 Hz as the most common and says 75, 120 and 144 Hz are also widely used.</p>
+<p>Our program moves 3 pixels per frame, not per second, so a faster screen means a faster square. On a 120 Hz screen it moves twice as fast as on a 60 Hz one.</p></div><div><h3>The fix, in the next lesson</h3><p>The fix is to measure time instead of counting frames: move by speed multiplied by the time since the last frame. MDN documents a timestamp passed to the callback, which makes that measurement easy.</p>
+<p>We let students discover the bug before we explain it. A teen who watches their own game misbehave on a friend&rsquo;s laptop sees for themselves why time matters in animation.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A first term</p><h2>Twelve weeks from first line to first browser game</h2><p class="ag-lede">Our plan for a 10 to 13 year old who already knows a little HTML. Teenagers in our JavaScript course cover it faster and go further.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A 12-week first JavaScript term (ours)</caption><thead><tr><th scope="col">Weeks</th><th scope="col">What gets built</th><th scope="col">The idea</th></tr></thead><tbody><tr><td>1 to 2</td><td>Console experiments, a dice and a coin</td><td>Values, variables, Math</td></tr><tr><td>3 to 4</td><td>A clap counter, then a color switcher</td><td>Events and changing the page</td></tr><tr><td>5 to 6</td><td>A quiz with a score</td><td>Conditions, arrays, functions</td></tr><tr><td>7 to 8</td><td>A drawing app on a canvas</td><td>Coordinates and shapes</td></tr><tr><td>9 to 10</td><td>The steerable square, then walls and a goal</td><td>The game loop and collisions</td></tr><tr><td>11 to 12</td><td>A finished mini game, shared as a link</td><td>Fixing the frame-rate bug, testing on other devices</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Ages 9 to 12</h3><p>Our kids web course: HTML and CSS for the first months, then JavaScript once a child can build a page by hand.</p></div><div><h3>Ages 13 to 15</h3><p>Straight into JavaScript in our teen course, with HTML and CSS taught alongside rather than before.</p></div><div><h3>Ages 16 to 18</h3><p>The same course at a faster pace, aiming at a portfolio project, a hackathon entry or the Congressional App Challenge.</p></div></div>
+    <p class="ag-mt-40">For project ideas after the first term, see <a class="ag-inline-link" href="/blog/html-css-javascript-project-ideas">HTML, CSS and JavaScript project ideas</a>; high school students can read our guide to <a class="ag-inline-link" href="/hackathons-for-high-school-students">hackathons for high school students</a> or the <a class="ag-inline-link" href="/congressional-app-challenge-guide">Congressional App Challenge guide</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From pages to programs</p>
+      <h2>Four stages of a young JavaScript programmer</h2>
+      <p class="ag-lede">The stages our lessons move through, and what moves a learner on.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a JavaScript learner (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Page builder</td><td class="ag-num">Writes HTML and CSS; copies small scripts without changing them</td></tr><tr><td>2. Tinkerer</td><td class="ag-num">Changes numbers and text in a script to see what happens</td></tr><tr><td>3. Programmer</td><td class="ag-num">Writes events and loops from an idea, like the three programs above</td></tr><tr><td>4. Debugger</td><td class="ag-num">Uses the Console to find a bug and explains why it happened</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask your child to send you the link to something they made. Sharing is half the motivation with JavaScript.</p>
+<p>Be wary of tutorials that start with a framework. A child who cannot yet write a click handler by hand is not ready for one.</p></div><div><h3>For kids</h3><p>Keep the Console open while you code. Red messages are clues, not failures.</p>
+<p>Change one number at a time and predict what will happen before you run it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalog</p>
+      <h2>Nine courses for kids who want to build for the web</h2>
+      <p class="ag-lede">Taught live, with a teacher who knows your child&rsquo;s projects, in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>First web skills</h3>
+        <span class="ag-band-sub">Ages 8 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JK / WEB / 01</p>
+          <h4>Web development for kids</h4>
+          <p>Pages by hand, then scripts.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JK / WEB / 02</p>
+          <h4>HTML and CSS</h4>
+          <p>Structure and style.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JK / WEB / 03</p>
+          <h4>Scratch coding</h4>
+          <p>Logic before syntax.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teen developers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JK / TEN / 01</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive sites and games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JK / TEN / 02</p>
+          <h4>Full-stack for teens</h4>
+          <p>Front end and back end.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JK / TEN / 03</p>
+          <h4>Python for teens</h4>
+          <p>The second language.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Projects and events</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JK / PRJ / 01</p>
+          <h4>Hackathon preparation</h4>
+          <p>Build fast, in a team.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JK / PRJ / 02</p>
+          <h4>Vibe coding for teens</h4>
+          <p>AI help, understood.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JK / PRJ / 03</p>
+          <h4>App development for teens</h4>
+          <p>From web to phone.</p>
+          <a class="ag-course-link" href="/courses/complete-app-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Scheduling</p>
+      <h2>JavaScript classes on your family&rsquo;s timetable</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school in Eastern, Central, Mountain or Pacific time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings, if weekdays are full.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Your child&rsquo;s own plan, at hours you pick.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A browser and nothing else</h3><p>No installs, even on a Chromebook.</p></div>
+      <div><h3>Code written, not pasted</h3><p>Students type and explain every line.</p></div>
+      <div><h3>Console on screen</h3><p>Errors read together, then fixed.</p></div>
+      <div><h3>A steady teacher</h3><p>The same person through the term.</p></div>
+      <div><h3>Projects to share</h3><p>Each month ends with a link to send.</p></div>
+      <div><h3>Two formats</h3><p>A batch of fifteen to twenty, or private.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Web projects our students have built</h2>
+      <p class="ag-lede">Sites and games from learners who started with programs like these. The <a class="ag-inline-link" href="/student-labs">student labs</a> show more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">JavaScript and every browser are free. The teaching is charged monthly in US dollars; nothing is signed for a whole school year, and you may stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring a page they made</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>A teacher who stays</li><li>Choose a batch time</li><li>Month by month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Just your child and a teacher</li><li>Hours that suit you</li><li>Their own project plan</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parent reviews from Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions families ask</p>
+      <h2>JavaScript for kids: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can kids learn JavaScript?</h3>
+        <p>Yes. In our experience children are often ready around 10 to 12, especially after a little HTML and CSS, and teenagers can start directly. Younger children usually do better with Scratch first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age should a child start JavaScript?</h3>
+        <p>In our experience, around 10 to 12 for a child who reads and types comfortably. From 13, JavaScript works well as a first language, particularly for a teen interested in websites or browser games.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is JavaScript the same as Java?</h3>
+        <p>No. MDN says plainly that JavaScript should not be confused with the Java programming language; the two have very different syntax and uses. American students often meet Java later in AP Computer Science A.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to install anything to learn JavaScript?</h3>
+        <p>No. Every modern browser runs JavaScript. A child can type code into the browser Console, or save a simple .html file and open it in the browser.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you open the JavaScript Console?</h3>
+        <p>On Windows press Ctrl + Shift + I or F12; on a Mac press Cmd + Option + I. Then choose the Console tab. You can also right-click the page and choose Inspect.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child learn Python or JavaScript first?</h3>
+        <p>JavaScript if they are drawn to websites and browser games, Python if they are drawn to puzzles, data or AI. Both are good first typed languages, and many of our students learn both.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can kids make games with JavaScript?</h3>
+        <p>Yes. With the canvas element and requestAnimationFrame, a child can build browser games that run on any computer and can be shared as a link. The third program on this page is the start of one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is JavaScript for kids free to learn?</h3>
+        <p>The language, the browser and MDN's documentation are free. Families pay only if they want a teacher; our first lesson is free too.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is HTML and CSS needed before JavaScript?</h3>
+        <p>It helps. MDN's beginner JavaScript course assumes an understanding of HTML and the fundamentals of CSS, because JavaScript mostly works by changing a web page those two describe.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US families?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are JavaScript classes?</h3>
+        <p>The first lesson is free. After that you pay for one month of teaching at a time, and the fees section of this page shows the monthly amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">See also</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US families with a budding web developer.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/blog/python-vs-javascript-which-to-learn-first">Python or JavaScript first?</a></h3><p>A longer comparison.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/javascript-basics">JavaScript basics</a></h3><p>Our blog primer for beginners.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>The index of our US pages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-11-year-olds">Coding for 11 year olds</a></h3><p>What fits at this age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hackathons-for-high-school-students">Hackathons for high schoolers</a></h3><p>Where teen web projects get tested.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>Habits for reading errors.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us whether your child has made a web page before. The teacher opens a blank page with them and has something moving on screen before the lesson ends.</p>
+        <p class="ag-mt-40">You can read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> before booking, and the full JavaScript syllabus is on the <a class="ag-inline-link" href="/courses">courses</a> page.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20would%20like%20to%20learn%20JavaScript.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jk',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Every class is live online with teachers who work from India, which is why families in any US state can join. WhatsApp is the quickest way to ask us anything.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jk(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free; no card details are collected.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Web and JavaScript</h4><ul><li><a href="/blog/javascript-basics">JavaScript basics</a></li><li><a href="/blog/html-css-javascript-project-ideas">Web project ideas</a></li><li><a href="/blog/python-vs-javascript-which-to-learn-first">Python or JavaScript</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/coding-for-10-year-olds">Coding for 10 year olds</a></li><li><a href="/coding-for-14-year-olds">Coding for 14 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Read input, update, draw, repeat</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jk = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'javascript-for-kids-inline', meta: { name: name, age: age, page: 'javascript-for-kids' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

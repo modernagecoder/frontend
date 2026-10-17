@@ -444,6 +444,7 @@ const SLUGS = [
   'eclipse-java-help-for-students',
   'intellij-and-pycharm-free-for-students',
   'c-plus-plus-for-kids',
+  'javascript-for-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -967,6 +968,7 @@ const LLMS_LABELS = {
   'eclipse-java-help-for-students': 'Eclipse Java help for students',
   'intellij-and-pycharm-free-for-students': 'IntelliJ and PyCharm free for students',
   'c-plus-plus-for-kids': 'C++ for kids',
+  'javascript-for-kids': 'JavaScript for kids',
 };
 
 function wireLlms(slugs) {

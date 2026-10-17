@@ -7178,4 +7178,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /c-plus-plus-for-kids /src/pages/c-plus-plus-for-kids.html 200
 /c-plus-plus-for-kids.md /src/pages/c-plus-plus-for-kids.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/javascript-for-kids /src/pages/javascript-for-kids.html 200
+/javascript-for-kids.md /src/pages/javascript-for-kids.md 200
 /* /src/pages/404.html 404

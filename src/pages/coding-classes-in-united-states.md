@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [JavaScript for kids](/javascript-for-kids)
 - [C++ for kids](/c-plus-plus-for-kids)
 - [IntelliJ and PyCharm free for students](/intellij-and-pycharm-free-for-students)
 - [Eclipse Java help for students](/eclipse-java-help-for-students)
