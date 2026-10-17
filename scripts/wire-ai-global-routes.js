@@ -423,6 +423,7 @@ const SLUGS = [
   'github-classroom-help-for-students',
   'coding-classes-for-elementary-students',
   'coding-classes-for-middle-school-students',
+  'coding-classes-for-high-school-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -925,6 +926,7 @@ const LLMS_LABELS = {
   'github-classroom-help-for-students': 'GitHub Classroom help for students',
   'coding-classes-for-elementary-students': 'Coding classes for elementary students',
   'coding-classes-for-middle-school-students': 'Coding classes for middle school students',
+  'coding-classes-for-high-school-students': 'Coding classes for high school students',
 };
 
 function wireLlms(slugs) {

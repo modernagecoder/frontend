@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Classes for High School Students: CS, AP and Beyond</title>
+  <meta name="description" content="Computer science for high schoolers: how many US high schools offer CS, AP CSP and AP CSA exam facts for 2027, a Java bug worth knowing and a four-year plan.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-for-high-school-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-for-high-school-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#304C0B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-for-high-school-students">
+  <meta property="og:title" content="Coding Classes for High School Students: CS, AP and Beyond">
+  <meta property="og:description" content="Grades 9 to 12: Code.org (2025) reports 60% of US high schools offering CS. AP CSP and AP CSA explained from College Board pages, plus live classes in Python and Java.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Classes for High School Students: CS, AP and Beyond">
+  <meta name="twitter:description" content="Coding for high schoolers: CS access data, AP CSP and AP CSA in 2027, and a four-year plan.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-hs .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-hs .ag-capsule { border-left-width: 6px; border-radius: 0; }
+.ag-root.ag-hs .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-hs .ag-table caption { text-align: left; font-style: normal; font-weight: 600; }
+.ag-root.ag-hs .ag-code-note { line-height: 1.55; }
+.ag-root.ag-hs .ag-band-head h3 { letter-spacing: -0.01em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-classes-for-high-school-students#page","url":"https://learn.modernagecoders.com/coding-classes-for-high-school-students","name":"Coding Classes for High School Students","description":"A guide for US high school students and parents to computer science in grades 9 to 12, with national Code.org data, College Board AP facts for 2027 and the K-12 CS Framework grade 12 expectations.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Coding for high school students","item":"https://learn.modernagecoders.com/coding-classes-for-high-school-students"}]},{"@type":"Course","name":"Coding Classes for High School Students","description":"Live online coding and computer science classes for US high school students in grades 9 to 12, including AP Computer Science Principles and AP Computer Science A preparation, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-for-high-school-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-high-school-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-high-school-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What percentage of US high schools offer computer science?","acceptedAnswer":{"@type":"Answer","text":"Code.org (2025), in its State of AI + CS Education data, reports 60% of US high schools offering computer science in 2024 to 2025, up from 45% in 2018 to 2019, when data came from 39 states."}},{"@type":"Question","name":"How many high school students take computer science?","acceptedAnswer":{"@type":"Answer","text":"The same Code.org data reports 871,490 of 14,364,449 high school students enrolled in computer science, or 6.1%, in its most recent national figures."}},{"@type":"Question","name":"Should I take AP CSP or AP CSA first?","acceptedAnswer":{"@type":"Answer","text":"Most beginners take AP Computer Science Principles first because it is broader and the Create task lets them build a program of their own choice. Students who already program confidently often go straight to AP Computer Science A, which is all Java."}},{"@type":"Question","name":"When are the AP computer science exams in 2027?","acceptedAnswer":{"@type":"Answer","text":"College Board lists the AP CSA exam on Wednesday, May 12, 2027 and the AP CSP end-of-course exam on Friday, May 14, 2027. The AP CSP Create task must be submitted as final by April 30, 2027, 11:59 PM ET."}},{"@type":"Question","name":"What language is AP Computer Science A?","acceptedAnswer":{"@type":"Answer","text":"Java. All four free-response questions ask students to write Java code, including methods, a class, ArrayList data and a 2D array."}},{"@type":"Question","name":"What if my high school does not offer computer science?","acceptedAnswer":{"@type":"Answer","text":"Students can learn the same material outside school, including AP preparation. Ask your school counselor how AP exam registration works at your school, since schools handle it differently."}},{"@type":"Question","name":"What coding language should a high schooler learn first?","acceptedAnswer":{"@type":"Answer","text":"Usually Python: it reads almost like English and gets students building real projects within weeks. Students heading for AP Computer Science A then add Java, usually in tenth or eleventh grade."}},{"@type":"Question","name":"Do you help with homework or graded assignments?","acceptedAnswer":{"@type":"Answer","text":"We teach the concepts so students can solve their own assignments. We never write graded schoolwork or answer keys for anyone."}},{"@type":"Question","name":"What times are classes for US families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do high school coding classes cost?","acceptedAnswer":{"@type":"Answer","text":"First lesson free, then a fee each month. The fees section shows the figure in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-for-high-school-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-hs">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#access">CS in US high schools</a></li>
+      <li><a href="#ap">AP CSP and CSA</a></li>
+      <li><a href="#framework">By grade 12</a></li>
+      <li><a href="#java">A Java bug</a></li>
+      <li><a href="#plan">Four-year plan</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Coding for high school students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 9 to 12 &middot; Ages 14 to 18</p>
+        <h1>Coding classes for high school students</h1>
+        <p class="ag-lede">At Modern Age Coders, high school students in grades 9 to 12, ages 14 to 18, learn to code live online in a batch or one to one: Python, Java, web and AI, plus preparation for AP Computer Science Principles and AP Computer Science A. Many US high schools still offer no computer science at all, which is where outside classes fill the gap.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#ap" class="ag-btn ag-btn--ghost">AP CSP vs AP CSA</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20high%20school%20student%20in%20the%20US%20(or%20a%20parent%20of%20one)%20and%20want%20help%20with%20coding%20or%20AP%20Computer%20Science.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hs'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Python and Java taught from scratch</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Grades</dt><dd>9 to 12</dd>
+          <dt>Ages</dt><dd>14 to 18</dd>
+          <dt>Languages</dt><dd>Python, Java, JavaScript</dd>
+          <dt>AP courses</dt><dd>CSP and CSA preparation</dd>
+          <dt>AP exams</dt><dd>May 2027, in Bluebook</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Code.org (2025) reports that 60% of US high schools offered computer science in 2024 to 2025, and 6.1% of high school students were enrolled in it. A strong high school path is a first language such as Python, then AP Computer Science Principles or AP Computer Science A (Java), then a specialism such as AI, web or competitive programming.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses most high schoolers start with</h2>
+      <p class="ag-lede">Live, with a regular teacher, and built for students who may have no computer science class at school.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HS / 01</p>
+          <h3>Python for teens</h3>
+          <p>For 13 to 18 year olds. A strong first language in ninth grade.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-principles-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-principles.webp" alt="AP Computer Science Principles course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HS / 02</p>
+          <h3>AP CS Principles</h3>
+          <p>Beginner friendly. The Create task and the exam.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HS / 03</p>
+          <h3>AP CS A in Java</h3>
+          <p>From Java basics to the four free-response questions.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="access">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The national picture</p><h2>How many US high schools offer computer science</h2><p class="ag-lede">Whether a student can take computer science at all still depends on which high school they attend. The figures below are national values from the Code.org State of AI + CS Education data, quoted as published.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>US high schools offering computer science, by school year (Code.org, 2025, State of AI + CS Education, national row)</caption><thead><tr><th scope="col">School year</th><th scope="col">High schools offering CS</th></tr></thead><tbody><tr><td>2018 to 2019</td><td class="ag-num">45% (data from 39 states only)</td></tr><tr><td>2019 to 2020</td><td class="ag-num">47%</td></tr><tr><td>2020 to 2021</td><td class="ag-num">51%</td></tr><tr><td>2021 to 2022</td><td class="ag-num">53%</td></tr><tr><td>2022 to 2023</td><td class="ag-num">57.7%</td></tr><tr><td>2023 to 2024</td><td class="ag-num">60%</td></tr><tr><td>2024 to 2025</td><td class="ag-num">60%</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Most recent national counts (Code.org, 2025, State of AI + CS Education)</caption><thead><tr><th scope="col">Measure</th><th scope="col">Published figure</th><th scope="col">Note from the data</th></tr></thead><tbody><tr><td>High schools offering CS</td><td>14,805 of 24,405, or 60%</td><td>Combined years; includes Bureau of Indian Education schools</td></tr><tr><td>High school students enrolled in CS</td><td>871,490 of 14,364,449, or 6.1%</td><td>Student total taken from the NCES Digest, Table 203.04, Fall 2022</td></tr><tr><td>Share of students in CS, by year</td><td>5.1% (2020 to 2021), 6.2%, 6.4%, 6.4%, 6.1% (2024 to 2025)</td><td>National participation row</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading the numbers</h3><p>Access grew quickly from 45% to 60% and then held at 60% for two years. Put the other way round, about two in five US high schools in the data did not offer a computer science course, which is our reading of the published 60%.</p>
+<p>Participation is the starker figure. Even where courses exist, only about six in every hundred high school students were enrolled in computer science in a given year.</p></div><div><h3>What a family can do with this</h3><p>Check your school&rsquo;s course catalogue for AP Computer Science Principles, AP Computer Science A or an introductory programming class. If none is offered, or the class clashes with something else, an outside course can cover the same ground.</p>
+<p>Rules differ by state, and our state pages explain them only where we have read the state&rsquo;s own sources, such as <a class="ag-inline-link" href="/coding-and-ai-classes-in-north-carolina">North Carolina&rsquo;s graduation requirement</a>.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Suggested citation: Code.org (2025). 2025 State of AI + CS Education. We quote national values from its <a class="ag-inline-link" href="https://advocacy.code.org/report-data/" rel="noopener" target="_blank">published data</a> and do not republish the dataset. For the school definition, NCES describes a secondary or high school as "A school that offers more of grades 9 through 12 than grades 5 through 8 and no kindergarten through grade 4." We are not connected with Code.org (CodeAI) or NCES.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ap">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Advanced Placement</p><h2>AP Computer Science Principles and AP Computer Science A in 2027</h2><p class="ag-lede">The two AP computer science courses are the most recognisable high school options in the US. College Board describes both as introductory college-level courses, but they test quite different things.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AP CSP and AP CSA, from College Board AP Central (read 17 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">AP Computer Science Principles</th><th scope="col">AP Computer Science A</th></tr></thead><tbody><tr><td>College Board description</td><td>"an introductory college-level computing course" covering the breadth of computer science</td><td>"an introductory college-level computer science course" focused on writing and testing code</td></tr><tr><td>Programming</td><td>The Create task: students develop "a computer program of their choice"</td><td>Java throughout</td></tr><tr><td>Course structure</td><td>Five big ideas, with Algorithms and Programming weighted 30% to 35% of the multiple choice</td><td>Four units, with Data Collections weighted 30% to 40% of the multiple choice</td></tr><tr><td>Section I</td><td>70 multiple-choice questions, 120 minutes, 70% of the score</td><td>42 questions, 1 hour 30 minutes, 55% of the exam score</td></tr><tr><td>Section II</td><td>Create performance task and written response, 30% of the score; 9 hours of in-class time for the task</td><td>4 free-response questions, 1 hour 30 minutes, 45% of the exam score</td></tr><tr><td>2027 deadlines</td><td>Create task submitted as final by Friday, April 30, 2027, 11:59 PM ET; end-of-course exam Friday, May 14, 2027 (Session 1)</td><td>Exam Wednesday, May 12, 2027 (Session 2)</td></tr><tr><td>Format</td><td>End-of-course exam fully digital in the Bluebook app</td><td>"This is a fully digital exam." taken in Bluebook</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Which to take first</h3><p>For a student with little coding behind them, AP CSP is the gentler start: it is broad, the Create task lets them build a program of their own choice, and much of the multiple choice is about data, the internet and the impact of computing.</p>
+<p>AP CSA is narrower and deeper. Every free-response question asks students to write Java, including one on ArrayList data and one on a 2D array, so it rewards a year of steady programming practice. Our longer comparison is in <a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP vs AP CSA</a>.</p></div><div><h3>Dates and how they work</h3><p>College Board says the 2027 AP Exams run over two weeks in May, May 3 to 7 and May 10 to 14. AP CSP has two pieces with two dates: the Create task deadline at the end of April and the exam in the second week of May.</p>
+<p>Credit and placement for AP scores are set by each college, not by College Board or by us. Students can look up a college&rsquo;s policy with College Board&rsquo;s AP Credit Policy Search.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: AP Central pages for <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam" rel="noopener" target="_blank">the AP CSP exam</a>, <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam" rel="noopener" target="_blank">the AP CSA exam</a>, both course pages and the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates" rel="noopener" target="_blank">2027 exam dates</a>, read 17 October 2026. AP is a trademark of College Board, which is not connected with this page. More detail on our <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP CSA classes</a> and <a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a> pages.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="framework">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">By the end of grade 12</p><h2>What a high school graduate should understand, according to the K-12 CS Framework</h2><p class="ag-lede">The K-12 Computer Science Framework sets its last endpoint at grade 12. Its programming statements describe a student who makes engineering decisions, not one who simply gets code to run.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Grade 12 endpoints as the framework words them (k12cs.org, read on 17 October 2026)</caption><thead><tr><th scope="col">Strand</th><th scope="col">Grade 12 wording</th><th scope="col">What it means in class</th></tr></thead><tbody><tr><td>Algorithms</td><td>"People evaluate and select algorithms based on performance, reusability, and ease of implementation."</td><td>Comparing a linear search with a binary search on the same data</td></tr><tr><td>Control</td><td>"Programmers consider tradeoffs related to implementation, readability, and program performance when selecting and combining control structures."</td><td>Choosing a for loop or a while loop, and saying why</td></tr><tr><td>Modularity</td><td>"Complex programs are designed as systems of interacting modules"</td><td>Classes in Java, modules in Python</td></tr><tr><td>Program development</td><td>"Systematic analysis is critical for identifying the effects of lingering bugs."</td><td>Tracing a loop by hand, as in the Java example below</td></tr><tr><td>Networks</td><td>"Each device is assigned an address that uniquely identifies it on the network."</td><td>AP CSP Big Idea 4: Computer Systems and Networks</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where AP fits</h3><p>The framework&rsquo;s own FAQ says AP Computer Science Principles "influenced the development of the" framework, and many of its writers worked on AP CSP. That is why the grade 12 statements and the AP CSP big ideas read so similarly.</p>
+<p>AP CSA goes further on the programming side, especially classes and data collections, which map onto the modularity statement.</p></div><div><h3>Beyond the exam</h3><p>None of the grade 12 statements is about a particular language. They are about judgement: which algorithm, which structure, which trade-off. A student who can explain those choices out loud has understood far more than one who memorised syntax.</p>
+<p>This is the standard we hold our high school students to: every program comes with a sentence on why it is written the way it is.</p></div></div>
+    <p class="ag-source-note ag-mt-40">The <a class="ag-inline-link" href="https://k12cs.org/framework-statements-by-grade-band/" rel="noopener" target="_blank">framework&rsquo;s grade-band page</a> and <a class="ag-inline-link" href="https://k12cs.org/faq/" rel="noopener" target="_blank">FAQ</a>, both read on 17 October 2026, are the sources here; we reproduce only brief passages, as the Creative Commons licence permits.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="java">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A bug worth knowing</p><h2>Why removing from an ArrayList while counting up skips an element</h2><p class="ag-lede">Every year, high school Java students meet the same bug. It is short enough to show in full, and understanding it is a real step towards the "systematic analysis" the framework asks for. This is our teaching example, not an exam question.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Java &middot; removing short words two ways</b><span>java</span></figcaption><pre>import java.util.ArrayList;
+
+public class RemoveShort {
+    // Bug: removing while counting up skips the next word
+    static void removeShortBuggy(ArrayList&lt;String&gt; words) {
+        for (int i = 0; i &lt; words.size(); i++) {
+            if (words.get(i).length() &lt; 4) {
+                words.remove(i);
+            }
+        }
+    }
+
+    // Fix: count down, so no word gets skipped
+    static void removeShort(ArrayList&lt;String&gt; words) {
+        for (int i = words.size() - 1; i &gt;= 0; i--) {
+            if (words.get(i).length() &lt; 4) {
+                words.remove(i);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        String[] start = {"ant", "bee", "tiger", "cat", "zebra"};
+        ArrayList&lt;String&gt; a = new ArrayList&lt;String&gt;();
+        ArrayList&lt;String&gt; b = new ArrayList&lt;String&gt;();
+        for (String w : start) {
+            a.add(w);
+            b.add(w);
+        }
+        removeShortBuggy(a);
+        removeShort(b);
+        System.out.println(a);  // [bee, tiger, zebra]
+        System.out.println(b);  // [tiger, zebra]
+    }
+}</pre><p class="ag-code-note">Ours. We compiled and ran it with Java 22 before printing it; the comments show the real output. The buggy version keeps "bee" because removing "ant" shifts "bee" into position 0 just after position 0 was checked.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Tracing the buggy loop by hand (ours)</caption><thead><tr><th scope="col">i</th><th scope="col">List before the check</th><th scope="col">Word checked</th><th scope="col">Action</th></tr></thead><tbody><tr><td>0</td><td>[ant, bee, tiger, cat, zebra]</td><td>ant</td><td>Removed, so bee moves to index 0</td></tr><tr><td>1</td><td>[bee, tiger, cat, zebra]</td><td>tiger</td><td>Kept; bee was never checked</td></tr><tr><td>2</td><td>[bee, tiger, cat, zebra]</td><td>cat</td><td>Removed, so zebra moves to index 2</td></tr><tr><td>3</td><td>[bee, tiger, zebra]</td><td>none</td><td>Loop ends, since 3 is not less than size 3</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the fix works</h3><p>Counting down means every removal shifts only words to the right of i, and those have already been checked. Nothing slips past.</p>
+<p>Another fix is to decrease i by one after each removal. Both work; students should be able to explain why, which is exactly the trade-off thinking in the grade 12 control statement.</p></div><div><h3>How we use examples like this</h3><p>We ask students to predict the output before running anything, then trace it in a table like the one above. The habit of tracing by hand is what lets a student debug code they cannot run, for example on paper.</p>
+<p>We teach concepts like this so students can solve their own assignments. We do not write graded schoolwork for anyone.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Grade 9 to grade 12</p><h2>A four-year computer science plan for high school</h2><p class="ag-lede">A plan we suggest to families, adjusted for what the school offers. It assumes a student starting from little or no coding in ninth grade.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A suggested high school sequence (ours)</caption><thead><tr><th scope="col">Grade</th><th scope="col">Main focus</th><th scope="col">Alongside it</th></tr></thead><tbody><tr><td>9th grade</td><td>Python fundamentals: variables, loops, functions, lists, small projects</td><td>Typing fluency, reading error messages</td></tr><tr><td>10th grade</td><td>AP Computer Science Principles, or a deeper Python year</td><td>A first project for a real user; a first contest or hackathon</td></tr><tr><td>11th grade</td><td>AP Computer Science A in Java</td><td>Data structures, tracing, writing classes</td></tr><tr><td>12th grade</td><td>A specialism: AI and machine learning, web development, or competitive programming</td><td>A portfolio piece with a clear write-up</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the school offers AP</h3><p>Take the school course and use outside classes for practice and projects. The extra hours matter most in AP CSA, where fluent Java writing decides the free-response section.</p>
+<p>If AP CSP and AP CSA are both on offer, many students take CSP first. Strong programmers sometimes go straight to CSA.</p></div><div><h3>If it does not</h3><p>Students can study for either AP exam outside school; ask your school counselor early about how exam registration works there, because schools handle it differently.</p>
+<p>A self-built portfolio also carries weight on its own: an app, a data project or a contest record shows what a student can do, whatever their school offered.</p></div></div>
+    <p class="ag-mt-40">For ideas beyond class, see <a class="ag-inline-link" href="/hackathons-for-high-school-students">hackathons for high school students</a>, <a class="ag-inline-link" href="/ai-projects-for-high-school-students">AI projects for high school students</a>, our <a class="ag-inline-link" href="/congressional-app-challenge-guide">Congressional App Challenge guide</a> and <a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="portfolio">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Showing your work</p><h2>A high school coding portfolio: what to keep and how to describe it</h2><p class="ag-lede">Whatever a student plans after high school, a small, honest record of real projects is useful. This is the checklist we give eleventh and twelfth graders; it asks for evidence of thinking, not polish.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A portfolio checklist for high school programmers (ours)</caption><thead><tr><th scope="col">Item</th><th scope="col">What it shows</th><th scope="col">How to present it</th></tr></thead><tbody><tr><td>One finished project people used</td><td>You can build for someone else</td><td>A short write-up: who it was for, what they asked, what you changed after testing</td></tr><tr><td>One project you found hard</td><td>You can push through problems</td><td>The bug that took longest and how you found it</td></tr><tr><td>Code you can explain line by line</td><td>The work is yours</td><td>Be ready to walk through any function on request</td></tr><tr><td>A record of versions</td><td>You work like a developer</td><td>A Git history with clear commit messages</td></tr><tr><td>Any contest or challenge entry</td><td>You can work to a deadline</td><td>What you entered and what you learned, whatever the result</td></tr><tr><td>A note on AI use</td><td>You use tools honestly</td><td>Which parts used AI help and how you checked them</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why explanation matters most</h3><p>Anyone reading a teenager&rsquo;s project now knows that AI can produce code. What it cannot produce is the student&rsquo;s own account of why a design was chosen and what went wrong on the way.</p>
+<p>That is why the checklist keeps returning to explanation. A modest project explained well says more than an impressive one the student cannot discuss.</p></div><div><h3>What we do not promise</h3><p>A portfolio is a record, not a ticket. We make no claims about admissions, scholarships or jobs; those decisions belong to the people who make them.</p>
+<p>What we can say is that building and explaining real projects is the most direct way we know to become a better programmer, and that is the part a student controls.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="school-courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What schools teach</p><h2>The free high school courses many US schools use</h2><p class="ag-lede">Where a high school does teach computer science, its teacher may well use one of Code.org&rsquo;s free courses; the organisation&rsquo;s site is branded CodeAI these days. Knowing which one helps us start a new student in the right place.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Code.org high school pathways, as listed in its curriculum catalogue (read 17 October 2026)</caption><thead><tr><th scope="col">Pathway</th><th scope="col">Grades listed</th><th scope="col">What the catalogue says</th></tr></thead><tbody><tr><td>Computer Science Principles</td><td>9 to 12</td><td>A free year-long course; programming in App Lab</td></tr><tr><td>AP Computer Science A</td><td>9 to 12</td><td>Java, taught in Java Lab, with labs such as a data lab</td></tr><tr><td>AI Foundations</td><td>9 to 12</td><td>6 units, from how AI works to building web apps; one unit teaches Python</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Code.org has no link with us. Sources: the <a class="ag-inline-link" href="https://code.org/en-US/curriculum" rel="noopener" target="_blank">Code.org curriculum catalogue</a>, <a class="ag-inline-link" href="https://code.org/en-US/curriculum/computer-science-principles" rel="noopener" target="_blank">CS Principles</a> and <a class="ag-inline-link" href="https://code.org/en-US/curriculum/computer-science-a" rel="noopener" target="_blank">CS A</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From beginner to builder</p>
+      <h2>Four stages of a high school programmer</h2>
+      <p class="ag-lede">Most students who join us in ninth or tenth grade are at stage 1 or 2.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a high school programmer (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">How it shows</th></tr></thead><tbody><tr><td>1. Syntax learner</td><td class="ag-num">Writes short programs, needs help reading errors</td></tr><tr><td>2. Problem solver</td><td class="ag-num">Breaks a task into functions, traces loops by hand, fixes own bugs</td></tr><tr><td>3. Designer</td><td class="ag-num">Writes classes, chooses data structures, explains trade-offs</td></tr><tr><td>4. Specialist</td><td class="ag-num">Builds a substantial project in AI, web or algorithms, documents it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>The move from stage 2 to stage 3 usually happens during AP CSA or an equivalent year of Java.</p>
+<p>Ask your teenager to explain one design decision in their latest project. Their answer tells you which stage they are at.</p></div><div><h3>For students</h3><p>Trace before you run. Predicting output is the fastest way to find where your mental model is wrong.</p>
+<p>Finish small projects. A finished small app beats an abandoned big one in any portfolio.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine more courses for high schoolers</h2>
+      <p class="ag-lede">All live online with a regular teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Core languages</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HS / LNG / 01</p>
+          <h4>Java for teens</h4>
+          <p>The AP CSA language, from zero.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HS / LNG / 02</p>
+          <h4>C++ for teens</h4>
+          <p>Speed, memory and contest code.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HS / LNG / 03</p>
+          <h4>Full-stack web</h4>
+          <p>Front end, back end, deployed.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>AI and data</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HS / AI / 01</p>
+          <h4>AI and machine learning</h4>
+          <p>Python to real models.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HS / AI / 02</p>
+          <h4>Data science</h4>
+          <p>Ages 14 to 18, basic Python first.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HS / AI / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>How real teams share code.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Contests and security</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HS / CMP / 01</p>
+          <h4>Competitive programming</h4>
+          <p>Contest-level problem solving.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HS / CMP / 02</p>
+          <h4>Hackathon preparation</h4>
+          <p>Ages 13 to 17. Ship with a team.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HS / CMP / 03</p>
+          <h4>Cybersecurity</h4>
+          <p>Defensive and ethical.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Classes that fit a teenager&rsquo;s week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evenings</p><p class="ag-slot-l">Batches after school and practice, across US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning sessions that leave the afternoon free.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Extra sessions before an AP deadline.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A regular teacher</h3><p>Someone who knows your code from last week.</p></div>
+      <div><h3>AP-aware</h3><p>Teaching that follows the 2027 exam format.</p></div>
+      <div><h3>Code read line by line</h3><p>Feedback on reasoning, not just results.</p></div>
+      <div><h3>Your projects</h3><p>Portfolio work you can show anyone.</p></div>
+      <div><h3>Concepts, not answers</h3><p>We never do graded schoolwork for students.</p></div>
+      <div><h3>Batch or private</h3><p>A class of fifteen to twenty, or a teacher just for you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects by our teen students</h2>
+      <p class="ag-lede">Real work by high school-age learners. Browse more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Monthly fees in US dollars, with no contract for the school year. Students preparing for May can add one-to-one sessions in spring, and anyone can stop at the end of a month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A level check in Python or Java</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>One regular teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher to yourself</li><li>Times you choose</li><li>AP or project focus</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Word for word from Google reviews by parents and students.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students and parents</p>
+      <h2>Coding in high school: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What percentage of US high schools offer computer science?</h3>
+        <p>Code.org (2025), in its State of AI + CS Education data, reports 60% of US high schools offering computer science in 2024 to 2025, up from 45% in 2018 to 2019, when data came from 39 states.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many high school students take computer science?</h3>
+        <p>The same Code.org data reports 871,490 of 14,364,449 high school students enrolled in computer science, or 6.1%, in its most recent national figures.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should I take AP CSP or AP CSA first?</h3>
+        <p>Most beginners take AP Computer Science Principles first because it is broader and the Create task lets them build a program of their own choice. Students who already program confidently often go straight to AP Computer Science A, which is all Java.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the AP computer science exams in 2027?</h3>
+        <p>College Board lists the AP CSA exam on Wednesday, May 12, 2027 and the AP CSP end-of-course exam on Friday, May 14, 2027. The AP CSP Create task must be submitted as final by April 30, 2027, 11:59 PM ET.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What language is AP Computer Science A?</h3>
+        <p>Java. All four free-response questions ask students to write Java code, including methods, a class, ArrayList data and a 2D array.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What if my high school does not offer computer science?</h3>
+        <p>Students can learn the same material outside school, including AP preparation. Ask your school counselor how AP exam registration works at your school, since schools handle it differently.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What coding language should a high schooler learn first?</h3>
+        <p>Usually Python: it reads almost like English and gets students building real projects within weeks. Students heading for AP Computer Science A then add Java, usually in tenth or eleventh grade.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you help with homework or graded assignments?</h3>
+        <p>We teach the concepts so students can solve their own assignments. We never write graded schoolwork or answer keys for anyone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US families?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do high school coding classes cost?</h3>
+        <p>First lesson free, then a fee each month. The fees section shows the figure in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US high school students.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>The index of our US guides.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP CSA classes</a></h3><p>Java and the free-response section.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></h3><p>The Create task and the exam.</p></div>
+      <div><h3><a class="ag-inline-link" href="/computer-science-extracurriculars">CS extracurriculars</a></h3><p>Clubs, contests and summer work.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-15-year-olds">Coding for 15 year olds</a></h3><p>The tenth grade year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>A lesson, start to finish.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us the grade, what the school offers, and whether an AP exam is coming. The first lesson includes a quick level check, so the plan starts from where you actually are.</p>
+        <p class="ag-mt-40">If you want detail first, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or open <a class="ag-inline-link" href="/courses">any course syllabus</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20high%20school%20student%20in%20the%20US%20(or%20a%20parent%20of%20one)%20and%20want%20help%20with%20coding%20or%20AP%20Computer%20Science.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hs',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are live on video with teachers based in India, so students anywhere in the US take part in the same way. WhatsApp is the quickest route to an answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_hs(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card. The first lesson costs nothing.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>High school coding</h4><ul><li><a href="/coding-for-14-year-olds">Coding for 14 year olds</a></li><li><a href="/coding-for-16-year-olds">Coding for 16 year olds</a></li><li><a href="/coding-for-17-year-olds">Coding for 17 year olds</a></li><li><a href="/python-for-14-year-olds">Python for 14 year olds</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A</a></li><li><a href="/hackathons-for-high-school-students">Hackathons for high schoolers</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Trace the loop before you run it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_hs = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'coding-classes-for-high-school-students-inline', meta: { name: name, age: age, page: 'coding-classes-for-high-school-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
