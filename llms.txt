@@ -664,6 +664,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Game design classes for teens: https://learn.modernagecoders.com/game-design-classes-for-teens
 - Video game coding classes for kids: https://learn.modernagecoders.com/video-game-coding-classes-for-kids
 - Learn to code Minecraft mods: https://learn.modernagecoders.com/learn-to-code-minecraft-mods
+- Python games for kids: https://learn.modernagecoders.com/python-games-for-kids
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

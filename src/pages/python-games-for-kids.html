@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Python Games for Kids: Code Your First Game, Then Pygame</title>
+  <meta name="description" content="Python games for kids to code: a no-install guessing game, a full pygame arcade game, five games ordered by difficulty, and the Python version that pygame supports.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-games-for-kids">
+  <link rel="alternate" type="text/markdown" href="/src/pages/python-games-for-kids.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#181E9E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-games-for-kids">
+  <meta property="og:title" content="Python Games for Kids: Code Your First Game, Then Pygame">
+  <meta property="og:description" content="Five Python games kids can code, two complete programs, the pygame game loop explained line by line, and why the newest Python is not always the one to install for pygame.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python Games for Kids: Code Your First Game, Then Pygame">
+  <meta name="twitter:description" content="Python games kids can code: a guessing game, then pygame, step by step.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pgk .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-pgk .ag-capsule { border-left-width: 6px; border-radius: 0; }
+.ag-root.ag-pgk .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-pgk .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-pgk .ag-steps { gap: 1rem; }
+.ag-root.ag-pgk .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/python-games-for-kids#page","url":"https://learn.modernagecoders.com/python-games-for-kids","name":"Python Games for Kids","description":"A guide for US kids and parents to coding games in Python, from a text game that needs no installs to an arcade game in pygame, built from the pygame, PyPI and python.org pages.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Python games for kids","item":"https://learn.modernagecoders.com/python-games-for-kids"}]},{"@type":"Course","name":"Python Games for Kids","description":"Live online Python classes for kids and teens in the United States, where the first projects are games, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/python-games-for-kids"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-games-for-kids"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-games-for-kids"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What Python games can kids code?","acceptedAnswer":{"@type":"Answer","text":"Start with text games such as guess the number and rock, paper, scissors, which need only Python. Then move to pygame for games with a window: dodging blocks, catching stars and two-player Pong."}},{"@type":"Question","name":"Is Python good for making games?","acceptedAnswer":{"@type":"Answer","text":"For learning, yes. Python reads clearly, and the pygame library handles windows, drawing, keyboard input and collisions, so children spend their time on game logic rather than setup."}},{"@type":"Question","name":"Is pygame free?","acceptedAnswer":{"@type":"Answer","text":"Yes. pygame's PyPI page describes it as a free and open-source cross-platform library, and lists its licence as LGPL."}},{"@type":"Question","name":"How do you install pygame?","acceptedAnswer":{"@type":"Answer","text":"Check that Python and pip work with python --version and pip --version, then run pip install pygame. Test it with python3 -m pygame.examples.aliens, a small game that comes with pygame."}},{"@type":"Question","name":"Which Python version works with pygame?","acceptedAnswer":{"@type":"Answer","text":"On PyPI, pygame 2.6.1 has ready-built files for Python up to 3.13, while python.org now offers 3.15.0. We set students up on the latest 3.13 release until pygame publishes files for newer versions."}},{"@type":"Question","name":"What age can kids start making Python games?","acceptedAnswer":{"@type":"Answer","text":"We start text games from about 9 or 10, once a child types comfortably, and pygame games from about 10. Teenagers can start with pygame directly."}},{"@type":"Question","name":"Can kids make Python games without installing anything?","acceptedAnswer":{"@type":"Answer","text":"A text game needs only Python itself, which includes the random module. Graphical games need pygame, which is installed with pip."}},{"@type":"Question","name":"What does clock.tick(60) do in pygame?","acceptedAnswer":{"@type":"Answer","text":"It limits the game to at most 60 frames per second. pygame's documentation says that calling Clock.tick(40) once per frame means the program never runs faster than 40 frames per second."}},{"@type":"Question","name":"Which class times work for US kids?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much are Python game coding classes?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. Regular classes are billed per month, and the fees panel on this page gives the monthly amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/python-games-for-kids","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-pgk">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#ladder">Five games</a></li>
+      <li><a href="#first">First game</a></li>
+      <li><a href="#install">Installing pygame</a></li>
+      <li><a href="#loop">The game loop</a></li>
+      <li><a href="#dodge">Arcade game</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Python games for kids
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 9 to 16 &middot; Python and pygame</p>
+        <h1>Python games for kids</h1>
+        <p class="ag-lede">Plenty of kids who want to learn Python want to make a game with it, and that is a very good instinct. Games give instant feedback: the code either makes the character move or it does not. This page shows how to get there in two steps. First a game that runs in plain Python with nothing to install, then a real arcade game in pygame, a free and long-established Python game library. Along the way there is a version trap worth knowing about before you install anything, and the four-part loop that sits at the heart of every game.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#first" class="ag-btn ag-btn--ghost">Start with the first game</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20make%20games%20in%20Python.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pgk'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Python games from the first class</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 9 to 16</dd>
+          <dt>Language</dt><dd>Python</dd>
+          <dt>Game library</dt><dd>pygame, free</dd>
+          <dt>Computer</dt><dd>Windows, Mac or Linux</dd>
+          <dt>First game</dt><dd>No installs needed</dd>
+          <dt>Taught</dt><dd>In a batch or privately</dd>
+          <dt>Timing</dt><dd>Weekdays or weekends</dd>
+          <dt>Begin with</dt><dd>A free trial class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Kids can code Python games in two steps: a text game such as guess the number, which needs only Python and the random module, then graphical games with pygame, installed with pip install pygame. On PyPI, pygame 2.6.1 has ready-built files for Python up to 3.13, so check versions first. Modern Age Coders teaches Python through games, live online, ages 9 to 16.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it live</p>
+      <h2>Three courses that begin with games</h2>
+      <p class="ag-lede">Each course writes a game in the first weeks, then uses games to teach the ideas behind them.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PGK / 01</p>
+          <h3>Python for kids</h3>
+          <p>Suits 9 to 12: text games, turtle art, then pygame.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PGK / 02</p>
+          <h3>Python for teens</h3>
+          <p>Teens 13 to 18: pygame projects, data and AI.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/game-development-masterclass-for-kids">
+        <div class="ag-pick-shot"><img src="/images/game-dev-kids.webp" alt="Game Development for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PGK / 03</p>
+          <h3>Game development for kids</h3>
+          <p>Kids 8 to 12: game design across Scratch, Roblox and more.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What to build</p><h2>Five Python games for kids, from easiest to hardest</h2><p class="ag-lede">This is the order we use, because each game adds exactly one new idea to the last one. The first two run in plain Python; the last three need pygame.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Five Python games, ordered by difficulty (our teaching order)</caption><thead><tr><th scope="col">Game</th><th scope="col">Needs</th><th scope="col">The new idea</th><th scope="col">Typical age</th></tr></thead><tbody><tr><td>1. Guess my number</td><td>Python only</td><td>Loops, input and if statements</td><td>9 and up</td></tr><tr><td>2. Rock, paper, scissors</td><td>Python only</td><td>Random choice and comparing values</td><td>9 and up</td></tr><tr><td>3. Dodge the falling block</td><td>pygame</td><td>The game loop, rectangles and collisions</td><td>10 and up</td></tr><tr><td>4. Catch the stars</td><td>pygame</td><td>Lists of moving objects and a timer</td><td>11 and up</td></tr><tr><td>5. Two-player Pong</td><td>pygame</td><td>Velocity, bouncing and two sets of controls</td><td>12 and up</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why start without graphics</h3><p>A text game strips a program down to its logic. There is no window, no images and nothing to install, so a nine-year-old can write a complete, working game in a single lesson and understand every line.</p>
+<p>It also teaches the hardest early skill, reading an error message, at a time when the program is short enough that the error is easy to find.</p></div><div><h3>When to move to pygame</h3><p>Once a child can write a while loop with an if inside it without help, they are ready. The pygame games on this page are the same structure with a window added.</p>
+<p>Teenagers who already type confidently can start at game 3. In our plan, younger children spend a few weeks on games 1 and 2 first.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="first">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Game 1</p><h2>A first Python game kids can code in one sitting</h2><p class="ag-lede">This guessing game needs nothing except Python itself. It uses randint from Python&rsquo;s random module, which the Python documentation describes as returning a random integer N such that a &lt;= N &lt;= b, so 1 and 100 are both possible.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 1 &middot; guess my number</b><span>python</span></figcaption><pre># Guess my number (ours): plain Python, no installs
+import random
+
+secret = random.randint(1, 100)
+tries = 0
+
+while True:
+    guess = int(input("Guess from 1 to 100: "))
+    tries += 1
+    if guess &lt; secret:
+        print("Higher!")
+    elif guess &gt; secret:
+        print("Lower!")
+    else:
+        print("Got it in", tries, "tries")
+        break</pre><p class="ag-code-note">Run it in IDLE, which the Python docs call Python&rsquo;s Integrated Development and Learning Environment, or in any Python editor. Typing a word instead of a number stops it with a ValueError, which makes a perfect first bug to fix together.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The maths hiding in the game (our worked example)</h3><p>The clever way to play is to guess the middle every time: 50, then 25 or 75, and so on. Each guess halves the numbers left. Since 2 to the 7th power is 128, which is more than 100, halving finds any number from 1 to 100 in at most 7 guesses. Six guesses are not always enough, because 2 to the 6th is only 64.</p>
+<p>Children who work this out have discovered binary search, one of the most important ideas in computer science, by playing their own game.</p></div><div><h3>Three changes to try</h3><p>Limit the player to 7 tries, and print the secret number if they run out. That needs a counter and one more if.</p>
+<p>Ask whether they want to play again at the end. That needs a loop around the whole game.</p>
+<p>Let the player choose the range, 1 to 1,000 for example, and work out the new maximum number of guesses: 2 to the 10th is 1,024, so 10.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="install">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Before you install</p><h2>Installing pygame, and the Python version to check first</h2><p class="ag-lede">pygame describes itself on its PyPI page as a free and open-source cross-platform library for making multimedia applications like video games in Python. Installing it is one command, as long as the Python on the computer is one that pygame has ready-built files for.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Versions on the official pages, read 17 October 2026</caption><thead><tr><th scope="col">What</th><th scope="col">Official figure</th><th scope="col">Source</th></tr></thead><tbody><tr><td>Latest pygame</td><td>2.6.1, files uploaded 29 September 2024</td><td>PyPI</td></tr><tr><td>Python versions pygame 2.6.1 has ready-built files for</td><td>CPython 3.6 to 3.13, plus some PyPy builds</td><td>PyPI file list</td></tr><tr><td>Python that pygame says it requires</td><td>3.6 or newer</td><td>PyPI</td></tr><tr><td>Newest Python on python.org</td><td>3.15.0, released October 9, 2026</td><td>python.org</td></tr><tr><td>Latest Python 3.13 release</td><td>3.13.16, released September 30, 2026</td><td>python.org</td></tr><tr><td>pygame licence</td><td>LGPL</td><td>PyPI</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Check Python.</b> In a command prompt on Windows or a terminal on a Mac, type python --version. pygame&rsquo;s own instructions give Python 3.8.10 as an example of a message that means Python is installed.</li><li><b>Check pip.</b> Type pip --version. pip usually comes with Python, but pygame&rsquo;s page notes that you can never be sure.</li><li><b>Install pygame.</b> Type pip install pygame, or pip3 install pygame on some computers.</li><li><b>Test it.</b> Type python3 -m pygame.examples.aliens. A small game should open; that game ships with pygame.</li><li><b>Keep the docs close.</b> python -m pygame.docs opens the documentation, and pygame says it launches the website if the docs are not found locally.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The version trap</h3><p>On PyPI, the newest ready-built pygame files stop at Python 3.13, while python.org&rsquo;s big download button now offers Python 3.15.0. PyPI also lists a source package, pygame-2.6.1.tar.gz, but without a ready-built file for your Python, installing means building pygame from that source, a much harder job for a first-time install.</p>
+<p>That is a gap between two official pages on one day, not a fault in either project, and it may close when pygame publishes a new release. Check the pygame files on PyPI before you choose a Python.</p></div><div><h3>What we do with new students</h3><p>Our choice, for now: we set up game students on the latest Python 3.13 release, which python.org updated on September 30, 2026, because pygame has ready-built files for it.</p>
+<p>When pygame lists files for a newer Python, we move up. The habit we want children to learn is the one behind this table: read the official version list before installing anything.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: <a class="ag-inline-link" href="https://pypi.org/project/pygame/" rel="noopener" target="_blank">pygame on PyPI</a> and <a class="ag-inline-link" href="https://www.python.org/downloads/" rel="noopener" target="_blank">python.org downloads</a>. We are not connected with the pygame project or the Python Software Foundation.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="loop">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How games work</p><h2>The game loop: four steps every pygame game repeats</h2><p class="ag-lede">Every game on a screen, from Pong to the largest console game, repeats the same short cycle many times a second. pygame&rsquo;s newbie guide calls this update, render, wait loop a design pattern that serves as the skeleton of most games.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The four parts of a pygame frame (our labels; the rules are from the pygame documentation)</caption><thead><tr><th scope="col">Step</th><th scope="col">pygame code</th><th scope="col">What the documentation says</th></tr></thead><tbody><tr><td>1. Input</td><td>pygame.event.get()</td><td>Your program must handle events every frame; not handling them may cause your system to decide the program has locked up</td></tr><tr><td>2. Update</td><td>Move objects, check colliderect</td><td>colliderect returns true if any portion of either rectangle overlaps, except the edges</td></tr><tr><td>3. Draw</td><td>screen.fill, draw, then pygame.display.flip()</td><td>flip updates the contents of the entire display</td></tr><tr><td>4. Wait</td><td>clock.tick(60)</td><td>Clock.tick(40) once per frame means the program never runs at more than 40 frames per second</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the input step is not optional</h3><p>A classic beginner slip is leaving out the event loop when a game has no controls yet. pygame&rsquo;s documentation warns what happens: events pile up, and the operating system may decide the program has frozen.</p>
+<p>Handling pygame.QUIT is also what makes the close button on the window work. Without it, the only way out is to force the program to stop.</p></div><div><h3>Frames and speed</h3><p>clock.tick(60) caps the game at 60 frames a second. Movement in the simple games here is counted in pixels per frame, so the frame cap is also what keeps the speed steady from one computer to the next.</p>
+<p>Later, students learn the method pygame&rsquo;s own quick start shows: measure dt, the time in seconds since the last frame, and multiply speeds by it, so movement stays smooth even when frames are uneven.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="dodge">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Game 3</p><h2>A complete pygame arcade game in under 50 lines</h2><p class="ag-lede">This is the first pygame game our students build. Move left and right, let the white block fall past you, and score a point for every block you avoid. Every line uses a part of pygame that its documentation describes.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 2 &middot; dodge the falling block</b><span>python</span></figcaption><pre># Dodge the falling block (ours): needs pygame
+import random
+import pygame
+
+pygame.init()
+screen = pygame.display.set_mode((480, 640))
+clock = pygame.time.Clock()
+font = pygame.font.Font(None, 36)
+
+player = pygame.Rect(215, 580, 50, 30)
+block = pygame.Rect(random.randint(0, 430), -40, 50, 40)
+score = 0
+running = True
+
+while running:
+    # 1. input: handle every event, every frame
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_LEFT] and player.left &gt; 0:
+        player.x -= 6
+    if keys[pygame.K_RIGHT] and player.right &lt; 480:
+        player.x += 6
+
+    # 2. update: move the block, check for a hit
+    block.y += 5
+    if block.top &gt; 640:
+        block.x = random.randint(0, 430)
+        block.y = -40
+        score += 1
+    if player.colliderect(block):
+        running = False
+
+    # 3. draw, then 4. wait for the next frame
+    screen.fill("black")
+    pygame.draw.rect(screen, "orange", player)
+    pygame.draw.rect(screen, "white", block)
+    label = font.render(f"Score {score}", True, "white")
+    screen.blit(label, (10, 10))
+    pygame.display.flip()
+    clock.tick(60)
+
+pygame.quit()
+print("Final score:", score)</pre><p class="ag-code-note">Save it as dodge.py and run it after installing pygame. Rect stores a position and a size; its left, right, top, x and y attributes can be read and changed, and colliderect does the collision maths for you.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Is the game fair? (our arithmetic)</h3><p>At 60 frames a second, a block moving 5 pixels a frame falls 300 pixels a second. It starts 40 pixels above the window and is replaced when it passes 640, so it travels 680 pixels, taking about 680 / 300 = 2.27 seconds.</p>
+<p>The player moves 6 pixels a frame, 360 pixels a second, and the widest trip across the window is 480 - 50 = 430 pixels, about 1.19 seconds. Because 1.19 is less than 2.27, the player can always escape. Make the block faster than that and the game becomes unfair.</p></div><div><h3>Five upgrades, in order</h3><p>Speed the block up a little each time the score rises. Then add a second block. Then give the player three lives instead of one.</p>
+<p>After that, replace the rectangles with images loaded from files, and add a sound when a block is dodged. Each upgrade practises one new part of pygame.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">By age</p><h2>What Python game coding looks like at each age</h2><p class="ag-lede">Our guide for US families, by grade. Children vary a lot, and we place each one by what they can already do, not by birthday.</p></div>
+    <div class="ag-grid-3"><div><h3>Grades 3 to 5, ages 9 to 11</h3><p>Text games, turtle drawings and simple quizzes. Typing speed is the main limit, so programs stay short and lessons stay playful.</p></div><div><h3>Grades 6 to 8, ages 11 to 14</h3><p>pygame games 3 and 4, with lists, functions and a scoreboard. A good moment to start a folder of finished games.</p></div><div><h3>Grades 9 to 12, ages 14 to 18</h3><p>Pong, then larger projects with classes, sprites and levels. A good stepping stone toward AP Computer Science or a portfolio project.</p></div></div>
+    <p class="ag-mt-40">Not sure where your child fits? Our pages on <a class="ag-inline-link" href="/python-for-10-year-olds">Python for 10 year olds</a>, <a class="ag-inline-link" href="/python-for-12-year-olds">Python for 12 year olds</a> and <a class="ag-inline-link" href="/python-for-14-year-olds">Python for 14 year olds</a> go into each age in more depth, and <a class="ag-inline-link" href="/blog/how-to-make-a-text-adventure-game-in-python">our text adventure tutorial</a> is another good first game.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From player to programmer</p>
+      <h2>Four stages of a young Python game maker</h2>
+      <p class="ag-lede">A rough map of where children are, and the next step from each.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of learning game coding in Python (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Copier</td><td class="ag-num">Types in a game from a page and gets it running</td></tr><tr><td>2. Changer</td><td class="ag-num">Changes numbers and messages to see what happens</td></tr><tr><td>3. Builder</td><td class="ag-num">Writes a new game from an empty file using the loop pattern</td></tr><tr><td>4. Designer</td><td class="ag-num">Balances a game on purpose: speeds, scores, fairness</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Copying is a legitimate start. Professional programmers learned the same way, by typing out code and then breaking it.</p>
+<p>The jump to stage 3 is the big one. An empty file is intimidating, and a teacher&rsquo;s first question can unlock it.</p></div><div><h3>For kids</h3><p>Change one number and run it again. You learn more from ten small experiments than one big plan.</p>
+<p>Read the last line of an error first. Python puts the reason there.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for kids who like making games</h2>
+      <p class="ag-lede">Every one runs live with the same teacher each week, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Kids</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / KID / 01</p>
+          <h4>Python for kids</h4>
+          <p>Games first, then AI projects.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / KID / 02</p>
+          <h4>Scratch coding</h4>
+          <p>Game ideas before typed code.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / KID / 03</p>
+          <h4>Coding for kids</h4>
+          <p>Blocks to games and apps.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / TEN / 01</p>
+          <h4>Python for teens</h4>
+          <p>pygame, data and real projects.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / TEN / 02</p>
+          <h4>Game development for teens</h4>
+          <p>From pygame thinking to Unity.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / TEN / 03</p>
+          <h4>Java for teens</h4>
+          <p>A 2D game and Minecraft mods.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Going further</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / PRO / 01</p>
+          <h4>Game development</h4>
+          <p>Professional engines and tools.</p>
+          <a class="ag-course-link" href="/courses/game-development-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / PRO / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Playable web pages and games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PGK / PRO / 03</p>
+          <h4>Hackathon preparation</h4>
+          <p>Build a game with a team, fast.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live Python lessons, planned around your week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school batches across US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning batches for families with busy weekdays.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A personal plan, at times you pick.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A game every few weeks</h3><p>Each idea arrives inside a game.</p></div>
+      <div><h3>Typing on their own computer</h3><p>Code written by the child, not watched.</p></div>
+      <div><h3>Set up together</h3><p>Python and pygame installed in class.</p></div>
+      <div><h3>A regular teacher</h3><p>The same person, week after week.</p></div>
+      <div><h3>Online, nationwide</h3><p>From Maine to Hawaii.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty students, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">Finished work from some of our students. The <a class="ag-inline-link" href="/student-labs">student labs</a> page shows more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Python and pygame are both free to download, and so is the first lesson. Regular classes are paid by the month in US dollars, with no long contract, and can stop when any month ends.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Help installing Python and pygame</li><li>No card</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Batch of fifteen to twenty</li><li>One teacher all term</li><li>Choose a batch time</li><li>Monthly payment</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private lessons</li><li>Your choice of times</li><li>Your own game ideas</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">From Google, as the parents wrote it.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Python games for kids: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What Python games can kids code?</h3>
+        <p>Start with text games such as guess the number and rock, paper, scissors, which need only Python. Then move to pygame for games with a window: dodging blocks, catching stars and two-player Pong.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Python good for making games?</h3>
+        <p>For learning, yes. Python reads clearly, and the pygame library handles windows, drawing, keyboard input and collisions, so children spend their time on game logic rather than setup.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is pygame free?</h3>
+        <p>Yes. pygame's PyPI page describes it as a free and open-source cross-platform library, and lists its licence as LGPL.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you install pygame?</h3>
+        <p>Check that Python and pip work with python --version and pip --version, then run pip install pygame. Test it with python3 -m pygame.examples.aliens, a small game that comes with pygame.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which Python version works with pygame?</h3>
+        <p>On PyPI, pygame 2.6.1 has ready-built files for Python up to 3.13, while python.org now offers 3.15.0. We set students up on the latest 3.13 release until pygame publishes files for newer versions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can kids start making Python games?</h3>
+        <p>We start text games from about 9 or 10, once a child types comfortably, and pygame games from about 10. Teenagers can start with pygame directly.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can kids make Python games without installing anything?</h3>
+        <p>A text game needs only Python itself, which includes the random module. Graphical games need pygame, which is installed with pip.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does clock.tick(60) do in pygame?</h3>
+        <p>It limits the game to at most 60 frames per second. pygame's documentation says that calling Clock.tick(40) once per frame means the program never runs faster than 40 frames per second.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which class times work for US kids?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are Python game coding classes?</h3>
+        <p>The first lesson is free. Regular classes are billed per month, and the fees panel on this page gives the monthly amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US families with a young programmer.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/python-for-10-year-olds">Python for 10 year olds</a></h3><p>What a 10 year old can build.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-14-year-olds">Python for 14 year olds</a></h3><p>Bigger projects for high schoolers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/how-to-make-a-text-adventure-game-in-python">Text adventure in Python</a></h3><p>Another first game, step by step.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/scratch-vs-python-which-better-young-learners">Scratch or Python first</a></h3><p>Choosing a starting language.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our hub for families across the country.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What happens in a live lesson.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us whether your child has written any Python before, and what kind of game they would love to make. The first lesson starts there.</p>
+        <p class="ag-mt-40">Before booking you can read <a class="ag-inline-link" href="/how-we-teach">about our teaching</a> or look through <a class="ag-inline-link" href="/courses">every syllabus</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20make%20games%20in%20Python.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pgk',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are taught live online by teachers working from India, so the lesson comes to your home in any state. For a fast reply, send us a WhatsApp message.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pgk(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free, with no card asked for.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python</h4><ul><li><a href="/python-for-9-year-olds">Python for 9 year olds</a></li><li><a href="/python-for-12-year-olds">Python for 12 year olds</a></li><li><a href="/blog/scratch-vs-python-which-better-young-learners">Scratch or Python</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/coding-for-10-year-olds">Coding for 10 year olds</a></li><li><a href="/coding-for-14-year-olds">Coding for 14 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Input, update, draw, wait</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pgk = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'python-games-for-kids-inline', meta: { name: name, age: age, page: 'python-games-for-kids' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

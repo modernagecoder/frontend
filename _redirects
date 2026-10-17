@@ -7134,4 +7134,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /learn-to-code-minecraft-mods /src/pages/learn-to-code-minecraft-mods.html 200
 /learn-to-code-minecraft-mods.md /src/pages/learn-to-code-minecraft-mods.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/python-games-for-kids /src/pages/python-games-for-kids.html 200
+/python-games-for-kids.md /src/pages/python-games-for-kids.md 200
 /* /src/pages/404.html 404

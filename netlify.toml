@@ -23781,6 +23781,18 @@
   to = "/src/pages/learn-to-code-minecraft-mods.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/python-games-for-kids"
+  to = "/src/pages/python-games-for-kids.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-games-for-kids.md"
+  to = "/src/pages/python-games-for-kids.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
