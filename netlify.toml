@@ -23613,6 +23613,18 @@
   to = "/src/pages/vs-code-setup-for-students.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/google-colab-help-for-students"
+  to = "/src/pages/google-colab-help-for-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/google-colab-help-for-students.md"
+  to = "/src/pages/google-colab-help-for-students.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

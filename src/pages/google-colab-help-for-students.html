@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Google Colab Help for Students: Errors, Files and Limits</title>
+  <meta name="description" content="Google Colab help for students: why the runtime disconnects, where uploaded files go, why Drive will not mount, GPU warnings, and the age rule for AI features.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/google-colab-help-for-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/google-colab-help-for-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8F2F2F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/google-colab-help-for-students">
+  <meta property="og:title" content="Google Colab Help for Students: Errors, Files and Limits">
+  <meta property="og:description" content="Runtime disconnected, files gone, drive.mount timed out, Input/output error, no Gemini button: what Colab is doing and how to fix it, from Google's own Colab FAQ and source.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Google Colab Help for Students: Errors, Files and Limits">
+  <meta name="twitter:description" content="Google Colab not working? Runtimes, files, Drive and limits, explained.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-gc .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-gc .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-gc .ag-section-head h2 { max-width: 29ch; }
+.ag-root.ag-gc .ag-table caption { text-align: left; }
+.ag-root.ag-gc .ag-band-head h3 { letter-spacing: -0.01em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/google-colab-help-for-students#page","url":"https://learn.modernagecoders.com/google-colab-help-for-students","name":"Google Colab Help for Students","description":"A help guide for US students using Google Colab for Python and data science classes, built from the Colab FAQ and Google's Colab source code.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Google Colab help","item":"https://learn.modernagecoders.com/google-colab-help-for-students"}]},{"@type":"Course","name":"Google Colab Help for Students","description":"Live online Python and data science classes for US teens and college students, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/google-colab-help-for-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/google-colab-help-for-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/google-colab-help-for-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why does Google Colab keep disconnecting?","acceptedAnswer":{"@type":"Answer","text":"Colab runs your code on a virtual machine that is deleted when idle for a while and has a maximum lifetime; the free version runs for at most 12 hours. Reconnect, then run all cells from the top."}},{"@type":"Question","name":"Where did my uploaded files go in Colab?","acceptedAnswer":{"@type":"Answer","text":"Uploaded files live on the virtual machine, which Colab deletes when it is idle or reaches its limit. Keep data files in Google Drive and mount Drive at the top of the notebook."}},{"@type":"Question","name":"Why does drive.mount() time out?","acceptedAnswer":{"@type":"Answer","text":"Google says Drive operations can time out when a folder holds too many items, and that more than about ten thousand items in the top level of My Drive can make mounting fail. Move files into subfolders and empty the Trash."}},{"@type":"Question","name":"Is Google Colab free for students?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Colab FAQ says Colab is free of charge to use, although its resources are not guaranteed and not unlimited."}},{"@type":"Question","name":"Why can I not see Gemini or AI features in Colab?","acceptedAnswer":{"@type":"Answer","text":"Google says access to Colab AI features requires a Google account aged 18 or over. Students under 18 will not see them, and the notebook works fully without them."}},{"@type":"Question","name":"Why will Colab not open with my school account?","acceptedAnswer":{"@type":"Answer","text":"Access for school Workspace accounts is switched on or off by the school administrator, and Workspace for Education schools must get parental consent for students under 18. Ask your teacher."}},{"@type":"Question","name":"Should I use a GPU in Colab?","acceptedAnswer":{"@type":"Answer","text":"Only if your code uses one, usually for training models. Google recommends switching to a standard runtime when the GPU is not used: open the Runtime menu, choose Change runtime type and set the hardware accelerator to None."}},{"@type":"Question","name":"Can you finish my Colab assignment for me?","acceptedAnswer":{"@type":"Answer","text":"No. Graded notebooks are yours to complete; a teacher explains the concept and the error until you can finish it on your own."}},{"@type":"Question","name":"When do lessons run for students in the US?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"What does a Colab or data science course cost?","acceptedAnswer":{"@type":"Answer","text":"Nothing for the first lesson. After that, fees are charged a month at a time for live classes, with the figure in US dollars shown in the fees section above."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/google-colab-help-for-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-gc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#symptoms">Symptoms</a></li>
+      <li><a href="#runtime">Runtimes</a></li>
+      <li><a href="#files">Files and Drive</a></li>
+      <li><a href="#accounts">School accounts</a></li>
+      <li><a href="#routine">Routine</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Google Colab help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grade 9 to college &middot; Google Colab</p>
+        <h1>Google Colab help for students</h1>
+        <p class="ag-lede">Google Colab runs Python in a browser tab, with nothing to install, so it suits students on school Chromebooks and anyone without admin rights on a laptop. That convenience has a cost that catches students out: your code runs on a Google machine that can disappear. Files vanish, variables reset, Drive refuses to connect, a GPU warning pops up. This page explains each one using Google's own Colab FAQ and the source code of Google's google.colab package, and says plainly what to do.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#symptoms" class="ag-btn ag-btn--ghost">Match your problem</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20uses%20Google%20Colab%20for%20a%20Python%20class%20and%20keeps%20getting%20stuck.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Python and data science online</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grade 9 to college</dd>
+          <dt>Tool</dt><dd>Google Colab, free</dd>
+          <dt>Runs in</dt><dd>A browser; code runs on Google machines</dd>
+          <dt>Free runtime limit</dt><dd>At most 12 hours</dd>
+          <dt>AI features</dt><dd>Google account 18+ only</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Most Google Colab problems come from one fact: your code runs on a temporary virtual machine, not your laptop. When it is idle or reaches its limit, Colab deletes it, and uploaded files and variables go with it. Keep data in Google Drive, re-run cells from the top after a reconnect, and switch off the GPU when you do not need it. Our teen data science course at Modern Age Coders runs in Google Colab and is taught live to US high schoolers, as a group batch or private one-to-one classes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses where Colab is the classroom</h2>
+      <p class="ag-lede">Each uses notebooks from the first week, so students learn how the machine behind them works.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COL / 01</p>
+          <h3>Machine learning in Colab, ages 13 to 18</h3>
+          <p>Heavy training runs on free cloud notebooks with GPU time.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="ag-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COL / 02</p>
+          <h3>Teen data science in notebooks</h3>
+          <p>High schoolers who know a little Python: Drive data, pandas, charts.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-complete-college">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-college.webp" alt="AI and ML Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">COL / 03</p>
+          <h3>AI and ML for college students</h3>
+          <p>Ages 18 and up. Training runs on free cloud notebooks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="symptoms">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Match your problem</p><h2>What went wrong in Colab, and what it usually means</h2><p class="ag-lede">Find your row. The explanations below quote the Colab FAQ, read on 17 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common Colab problems for students (our table, built from the Colab FAQ and google.colab source)</caption><thead><tr><th scope="col">What you see</th><th scope="col">What is going on</th><th scope="col">What to do</th></tr></thead><tbody><tr><td>Runtime disconnected; variables gone</td><td>The virtual machine was idle too long or hit its lifetime</td><td>Reconnect, and use Runtime, Run all</td></tr><tr><td>Uploaded file missing next day</td><td>It lived on the deleted machine, not in Drive</td><td>Save data files in Google Drive and mount it</td></tr><tr><td>drive.mount() says timed out</td><td>Too many items in the top level of My Drive</td><td>Move files into subfolders; empty the Trash</td></tr><tr><td>OSError: [Errno 5] Input/output error</td><td>A Drive folder with very many items, or a Drive quota</td><td>Use subfolders, copy one archive, or wait a day</td></tr><tr><td>A message that the GPU is not being used</td><td>You chose a GPU runtime but the code does not use it</td><td>Set Hardware Accelerator to None</td></tr><tr><td>No Gemini icon or AI suggestions</td><td>The account is under 18, or the locale is unsupported</td><td>Nothing to fix for students under 18; learn without it</td></tr><tr><td>A prompt to enable third-party cookies</td><td>Colab shows rich output through other origins</td><td>Allow googleusercontent.com in browser settings</td></tr><tr><td>Your file reads the wrong data</td><td>A second upload was saved as "grades (1).csv"</td><td>Read the name files.upload() returns</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Checked on 17 October 2026 against the <a class="ag-inline-link" href="https://research.google.com/colaboratory/faq.html" rel="noopener" target="_blank">Colaboratory FAQ</a> and Google&rsquo;s <a class="ag-inline-link" href="https://github.com/googlecolab/colabtools" rel="noopener" target="_blank">googlecolab/colabtools</a> code on GitHub. Modern Age Coders has no connection with Google.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="runtime">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Runtimes</p><h2>Why the runtime disconnects, and why your variables vanish</h2><p class="ag-lede">The Colab FAQ describes Colab as "a hosted Jupyter Notebook service that requires no setup to use". The word hosted is the key: your notebook is saved in Drive, but the code runs somewhere else.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What the FAQ says about the machine</h3><p>"Code is executed in a virtual machine private to your account. Virtual machines are deleted when idle for a while, and have a maximum lifetime enforced by the Colab service."</p>
+<p>For the free version, the FAQ says notebooks "can run for at most 12 hours, depending on availability and your usage patterns", and adds that "Runtimes will time out if you are idle."</p></div><div><h3>What that means for a homework session</h3><p>Walk away for dinner and the machine may be gone when you return. The notebook text and code are safe in Drive; the variables, installed packages and uploaded files are not.</p>
+<p>So after any reconnect, run the notebook from the top: Runtime, Run all. If it fails part way, you have found a cell that depended on something that no longer exists.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Colab limits and rules students meet, from the Colab FAQ (read 17 October 2026)</caption><thead><tr><th scope="col">Topic</th><th scope="col">What the FAQ says</th></tr></thead><tbody><tr><td>Cost</td><td>"Yes. Colab is free of charge to use."</td></tr><tr><td>Guarantees</td><td>"Colab resources are not guaranteed and not unlimited", and Colab does not publish its usage limits</td></tr><tr><td>Who comes first</td><td>Colab "prioritizes users who are actively programming in a notebook"</td></tr><tr><td>Resetting a broken machine</td><td>Runtime &gt; Disconnect and delete runtime returns the machines to their original state, and how often you can do it is limited</td></tr><tr><td>GPU not used</td><td>"Choose Runtime &gt; Change Runtime Type and set Hardware Accelerator to None"</td></tr><tr><td>Languages</td><td>Colab focuses on Python, and "Python 2 is no longer supported in Colab."</td></tr><tr><td>Browsers</td><td>Colab is "most thoroughly tested with the latest versions of Chrome, Firefox and Safari"</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>A check &middot; is the GPU doing anything?</b><span>python</span></figcaption><pre># Cell 3: is the GPU actually being used?  (ours)
+import sys
+print(sys.version)               # Python version on the VM
+try:
+    import torch
+    print(torch.cuda.is_available())
+except ImportError:
+    print("torch is not installed in this runtime")
+
+# Colab's FAQ: running in a GPU runtime "does not
+# automatically mean" the GPU is used. If False, or if
+# you are not training a model, switch the runtime back.</pre><p class="ag-code-note">Written by us for this page; run it in your own Colab notebook. Students in a first Python class almost never need a GPU, and the FAQ warns that leaving one on counts towards GPU usage limits.</p></figure>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="files">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Files and Drive</p><h2>Uploading data and mounting Google Drive without losing work</h2><p class="ag-lede">There are two ways to get a data file into Colab: upload it to the machine, or connect Google Drive. Uploads are quick but disappear with the machine; Drive persists. Both behave in ways the documentation spells out.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Connecting Drive &middot; the documented way</b><span>python</span></figcaption><pre># Cell 1: connect Google Drive  (ours, documented API)
+from google.colab import drive
+drive.mount('/content/drive')
+# Colab asks you to allow access, then prints:
+#   Mounted at /content/drive
+
+# Running the cell again prints:
+#   Drive already mounted at /content/drive; to attempt
+#   to forcibly remount, call
+#   drive.mount("/content/drive", force_remount=True).
+
+import pandas as pd
+# The source checks for a 'My Drive' folder inside
+# the mount point, so your files sit under it:
+df = pd.read_csv('/content/drive/My Drive/class/grades.csv')</pre><p class="ag-code-note">The messages are quoted from Google&rsquo;s google.colab source code, which also refuses a mount point that already holds files ("Mountpoint must not already contain files") or contains a space.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Uploading a file &middot; and reading the right one</b><span>python</span></figcaption><pre># Cell 2: upload from your laptop  (ours, documented API)
+from google.colab import files
+import pandas as pd
+
+uploaded = files.upload()      # pick the file in the dialog
+name = list(uploaded)[0]       # the name Colab really saved
+print(name)                    # e.g. grades (1).csv
+df = pd.read_csv(name)
+
+# Uploading grades.csv twice saves the second copy as
+# "grades (1).csv", so read_csv("grades.csv") would quietly
+# read the OLD file. Using the returned name avoids that.</pre><p class="ag-code-note">In the source, files.upload() returns "A map of the form {&lt;filename&gt;: &lt;file contents&gt;}", and a name that already exists is saved with a number in brackets before the extension. That is where "grades (1).csv" comes from.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>When drive.mount() times out or fails</h3><p>The FAQ explains that Drive operations "can time out when the number of files or subfolders in a folder grows too large", and that storing "more than approximately ten thousand items in the root directory can cause mounting to fail".</p>
+<p>Its fix: move files out of the top level of My Drive into subfolders, keep each folder under ten thousand items, and empty the Trash, because deleted files may still count.</p></div><div><h3>OSError: [Errno 5] and quotas</h3><p>The same error can come from Drive quotas. The FAQ names accessing a popular shared file or too many files too quickly as typical causes, and suggests copying data as one .zip archive and unpacking it on the machine.</p>
+<p>Its last suggestion is simply: "Wait a day for quota limits to reset." If a class dataset is shared with every student, make your own copy in Drive first.</p></div></div>
+    <p class="ag-mt-40">A safety note the FAQ makes in so many words: "Mounting Google Drive on Colab allows any code in your notebook to access any files in your Google Drive." Only mount Drive in notebooks you trust, and be careful with notebooks a stranger shared.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="accounts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">School accounts and AI</p><h2>School Google accounts, sharing, and the AI features</h2><p class="ag-lede">If you open Colab with a school Google account, the school's settings change what you can see and use. The Colab FAQ covers that directly.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Accounts, sharing and AI in Colab, from the Colab FAQ (read 17 October 2026)</caption><thead><tr><th scope="col">Question</th><th scope="col">What the FAQ says</th><th scope="col">What it means for a student</th></tr></thead><tbody><tr><td>Can I use Colab with my school account?</td><td>Workspace access is "controlled by the Workspace on/off control" set by the school's administrator</td><td>If Colab will not open on a school account, the school decides</td></tr><tr><td>Do under-18 students need permission?</td><td>Workspace for Education organizations "are required to obtain parental consent" for students under 18 using Additional Services</td><td>Your school may need a parent form before Colab is switched on</td></tr><tr><td>Why is there no Gemini button?</td><td>"Access to Colab's AI features requires your Google account's age to be 18+."</td><td>Under 18, the AI features are not for you; the notebook works without them</td></tr><tr><td>What does sharing share?</td><td>Text, code, output and comments, but the virtual machine and its files "will not be shared"</td><td>A classmate must re-run your setup cells and upload the data again</td></tr><tr><td>Can I hide my outputs?</td><td>Yes: Edit, Notebook settings, "Omit code cell output when saving this notebook"</td><td>Useful before sharing a notebook that printed private data</td></tr><tr><td>Can I bring in a Jupyter file?</td><td>Yes, with "Upload notebook" from the File menu</td><td>Files from a teacher's Jupyter class open in Colab too</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Our rule on AI for students under 18</h3><p>Colab's own FAQ sets the AI features at 18 and over, so we do not show or recommend them to students under 18, and we do not suggest any way around that rule.</p>
+<p>Students learn to read a traceback and fix it themselves, which is the skill the AI would otherwise skip. Adult learners in our college courses can use the features where their account allows.</p></div><div><h3>Running Colab on your own computer</h3><p>The Colab documentation says "Colab lets you connect to a local runtime", running the code on your own computer instead of Google's.</p>
+<p>It also warns that with a local connection "the code you execute can read, write, and delete files on your computer." For a school notebook from a trusted teacher that may be fine; for anything else, stay on the hosted runtime.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="routine">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A routine</p><h2>Ten steps when a Colab notebook will not run</h2><p class="ag-lede">Our routine, in order. It works whether the problem is the machine, the files or your code.</p></div>
+    <ol class="ag-steps"><li><b>Check the connection.</b> Look at the top right of the notebook. If it says reconnect, the machine is gone.</li><li><b>Reconnect and run all.</b> Use Runtime, Run all, and repair whichever cell stops the run first.</li><li><b>Check the files.</b> Run import os and print(os.listdir()) to see what is really on the machine.</li><li><b>Mount Drive once,</b> at the top of the notebook, and read data from paths under /content/drive/My Drive.</li><li><b>Use the name Colab saved.</b> After files.upload(), read the name it returns, not the name you remember.</li><li><b>Install packages in a cell</b> near the top, so a fresh machine gets them every time.</li><li><b>Turn off the GPU</b> unless you are training a model: Runtime, Change runtime type, None.</li><li><b>Try another browser</b> or allow googleusercontent.com if Colab asks about third-party cookies.</li><li><b>As a last resort, reset.</b> Runtime, Disconnect and delete runtime gives you a clean machine.</li><li><b>Report real bugs</b> with Help, Send feedback, as the FAQ directs.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Colab or Jupyter?</h3><p>The FAQ says Jupyter is the open source project Colab is based on. Colab needs no install and runs on Google machines; Jupyter runs on your own computer.</p></div><div><h3>Is Colab safe?</h3><p>Your code runs in a machine private to your account. The risks are the ones above: notebooks that mount your Drive, and local runtimes that touch your files.</p></div><div><h3>Python errors in Colab</h3><p>A NameError, TypeError or IndentationError in Colab is ordinary Python. Read it the same way you would in any editor; Colab only changes where the code runs.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beyond fixing</p><h2>Working in Colab like a data scientist, not a firefighter</h2><p class="ag-lede">Every problem on this page has the same root: not knowing where the code runs and what survives. Our first term teaches that early.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Twelve classes in Colab (ours, for high school and college students, changed to suit each one)</caption><thead><tr><th scope="col">Classes</th><th scope="col">Notebook work</th><th scope="col">What it trains</th></tr></thead><tbody><tr><td>1 to 2</td><td>A first notebook with text and code cells</td><td>Where the notebook is saved, and where it runs</td></tr><tr><td>3 to 4</td><td>Loading a class dataset from Drive</td><td>Mounting Drive and using full paths</td></tr><tr><td>5 to 6</td><td>Cleaning and charting with pandas</td><td>Setup cells at the top; Run all after a reconnect</td></tr><tr><td>7 to 8</td><td>A first machine learning model</td><td>When a GPU helps, and when to switch it off</td></tr><tr><td>9 to 10</td><td>A data project of their own</td><td>Sharing without leaking outputs</td></tr><tr><td>11 to 12</td><td>Presenting the notebook</td><td>A notebook anyone can rerun from the top</td></tr></tbody></table></div>
+    <p class="ag-mt-40">We teach the ideas behind each notebook so students can complete their own coursework; we do not fill in graded notebooks. For the bigger picture, see our <a class="ag-inline-link" href="/data-science-course">data science course</a> page and <a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-usa">AI and machine learning classes in the USA</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student is</p>
+      <h2>Four stages of using Colab</h2>
+      <p class="ag-lede">From losing work to never worrying about it.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages with Google Colab (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Visitor</td><td class="ag-num">Opens a shared notebook and presses play on each cell</td></tr><tr><td>2. Uploader</td><td class="ag-num">Uploads files each session and loses them often</td></tr><tr><td>3. Organizer</td><td class="ag-num">Keeps data in Drive and setup cells at the top</td></tr><tr><td>4. Builder</td><td class="ag-num">Writes notebooks that run cleanly on a fresh machine</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Colab is free and runs in a browser such as Chrome, so it can work on a Chromebook, which makes it a sensible tool for a school data class.</p>
+<p>If your child is under 18, the AI features are off by Google's own rule. That is not a problem to solve.</p></div><div><h3>For students</h3><p>Assume the machine will vanish. Keep files in Drive and setup at the top.</p>
+<p>After any reconnect, Run all before you trust a result.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Python, data and AI</h2>
+      <p class="ag-lede">Taught live online by a regular teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COL / TEN / 01</p>
+          <h4>Teen data science</h4>
+          <p>Datasets kept safely in Drive.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COL / TEN / 02</p>
+          <h4>Teen machine learning</h4>
+          <p>GPU runtimes used with care.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COL / TEN / 03</p>
+          <h4>Hackathon preparation</h4>
+          <p>Ship a team notebook fast.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Bridging</h3>
+        <span class="ag-band-sub">Ages 10 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COL / BRG / 01</p>
+          <h4>Maths through coding</h4>
+          <p>Grades 5 to 10, maths in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COL / BRG / 02</p>
+          <h4>Creative coding</h4>
+          <p>Generative art from data.</p>
+          <a class="ag-course-link" href="/courses/creative-coding-animation-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COL / BRG / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Algorithms behind the analysis.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>College and adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">COL / PRO / 01</p>
+          <h4>AI and ML for college</h4>
+          <p>Deep learning and projects.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COL / PRO / 02</p>
+          <h4>Data and AI analytics</h4>
+          <p>For adults who do not code yet.</p>
+          <a class="ag-course-link" href="/courses/data-and-ai-analytics-for-non-programmers-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">COL / PRO / 03</p>
+          <h4>Generative AI for college</h4>
+          <p>Ages 18 and up, model building.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons in the notebook you already use</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Batches after school, US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Time for a full project session.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Around a class deadline or exam.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A steady teacher</h3><p>The same person each class.</p></div>
+      <div><h3>Your notebook</h3><p>Colab, shared on screen.</p></div>
+      <div><h3>Works on Chromebooks</h3><p>A browser is all you need.</p></div>
+      <div><h3>Concepts only</h3><p>Graded work stays yours.</p></div>
+      <div><h3>Every state</h3><p>Live online, from home.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty, or private.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Data and Python projects from our students</h2>
+      <p class="ag-lede">Work by learners who once lost a whole notebook to a disconnected runtime. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Colab's free version costs nothing, and our teen data science course runs in it. You pay us only for teaching, month by month in US dollars, with no semester contract and nothing more to pay when you stop.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Share the notebook that fails</li><li>No card asked</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>A regular teacher</li><li>A batch you choose</li><li>Paid monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One student, one teacher</li><li>Times that suit you</li><li>Your own data and goals</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents, exactly as posted.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions students ask</p>
+      <h2>Google Colab: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Why does Google Colab keep disconnecting?</h3>
+        <p>Colab runs your code on a virtual machine that is deleted when idle for a while and has a maximum lifetime; the free version runs for at most 12 hours. Reconnect, then run all cells from the top.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where did my uploaded files go in Colab?</h3>
+        <p>Uploaded files live on the virtual machine, which Colab deletes when it is idle or reaches its limit. Keep data files in Google Drive and mount Drive at the top of the notebook.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does drive.mount() time out?</h3>
+        <p>Google says Drive operations can time out when a folder holds too many items, and that more than about ten thousand items in the top level of My Drive can make mounting fail. Move files into subfolders and empty the Trash.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Google Colab free for students?</h3>
+        <p>Yes. The Colab FAQ says Colab is free of charge to use, although its resources are not guaranteed and not unlimited.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why can I not see Gemini or AI features in Colab?</h3>
+        <p>Google says access to Colab AI features requires a Google account aged 18 or over. Students under 18 will not see them, and the notebook works fully without them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why will Colab not open with my school account?</h3>
+        <p>Access for school Workspace accounts is switched on or off by the school administrator, and Workspace for Education schools must get parental consent for students under 18. Ask your teacher.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should I use a GPU in Colab?</h3>
+        <p>Only if your code uses one, usually for training models. Google recommends switching to a standard runtime when the GPU is not used: open the Runtime menu, choose Change runtime type and set the hardware accelerator to None.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you finish my Colab assignment for me?</h3>
+        <p>No. Graded notebooks are yours to complete; a teacher explains the concept and the error until you can finish it on your own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When do lessons run for students in the US?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does a Colab or data science course cost?</h3>
+        <p>Nothing for the first lesson. After that, fees are charged a month at a time for live classes, with the figure in US dollars shown in the fees section above.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Further reading for students who work in notebooks.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our pages for US students, in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/data-science-course">Data science course</a></h3><p>What a full data course includes.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-usa">AI and ML in the USA</a></h3><p>For students ready for models.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Age rules for popular AI tools.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/how-to-read-and-write-files-in-python">Reading files in Python</a></h3><p>Paths and files, explained.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-17-year-olds">Python for 17 year olds</a></h3><p>For high school seniors.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Send the notebook link or describe the class it is for. In the first lesson the teacher opens it with you and finds what broke.</p>
+        <p class="ag-mt-40">You can also read <a class="ag-inline-link" href="/how-we-teach">how our classes run</a>, or browse <a class="ag-inline-link" href="/courses">our courses</a>, each with a class-by-class outline.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20uses%20Google%20Colab%20for%20a%20Python%20class%20and%20keeps%20getting%20stuck.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers live in India and teach only online, so a US student needs just a browser and a quiet half hour. WhatsApp reaches us fastest.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_gc(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No charge for the first lesson, and no card requested.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Data and AI</h4><ul><li><a href="/data-science-course">Data science course</a></li><li><a href="/ai-and-machine-learning-classes-in-usa">AI and ML classes</a></li><li><a href="/ai-tools-age-guide">AI tools age guide</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/python-for-16-year-olds">Python for 16 year olds</a></li><li><a href="/how-to-debug-code">How to debug code</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>The machine is temporary; Drive is not</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_gc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'google-colab-help-for-students-inline', meta: { name: name, age: age, page: 'google-colab-help-for-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

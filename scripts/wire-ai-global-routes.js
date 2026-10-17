@@ -419,6 +419,7 @@ const SLUGS = [
   'python-turtle-not-working',
   'jupyter-notebook-errors-for-students',
   'vs-code-setup-for-students',
+  'google-colab-help-for-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -917,6 +918,7 @@ const LLMS_LABELS = {
   'python-turtle-not-working': 'Python turtle not working',
   'jupyter-notebook-errors-for-students': 'Jupyter Notebook errors for students',
   'vs-code-setup-for-students': 'VS Code setup for students',
+  'google-colab-help-for-students': 'Google Colab help for students',
 };
 
 function wireLlms(slugs) {
