@@ -7174,4 +7174,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /intellij-and-pycharm-free-for-students /src/pages/intellij-and-pycharm-free-for-students.html 200
 /intellij-and-pycharm-free-for-students.md /src/pages/intellij-and-pycharm-free-for-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/c-plus-plus-for-kids /src/pages/c-plus-plus-for-kids.html 200
+/c-plus-plus-for-kids.md /src/pages/c-plus-plus-for-kids.md 200
 /* /src/pages/404.html 404

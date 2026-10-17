@@ -443,6 +443,7 @@ const SLUGS = [
   'bluej-not-working-fix',
   'eclipse-java-help-for-students',
   'intellij-and-pycharm-free-for-students',
+  'c-plus-plus-for-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -965,6 +966,7 @@ const LLMS_LABELS = {
   'bluej-not-working-fix': 'BlueJ not working: fixes',
   'eclipse-java-help-for-students': 'Eclipse Java help for students',
   'intellij-and-pycharm-free-for-students': 'IntelliJ and PyCharm free for students',
+  'c-plus-plus-for-kids': 'C++ for kids',
 };
 
 function wireLlms(slugs) {

@@ -674,6 +674,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - BlueJ not working: fixes: https://learn.modernagecoders.com/bluej-not-working-fix
 - Eclipse Java help for students: https://learn.modernagecoders.com/eclipse-java-help-for-students
 - IntelliJ and PyCharm free for students: https://learn.modernagecoders.com/intellij-and-pycharm-free-for-students
+- C++ for kids: https://learn.modernagecoders.com/c-plus-plus-for-kids
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

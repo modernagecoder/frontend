@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>C++ for Kids: Is It a Good First Language? Real Code Inside</title>
+  <meta name="description" content="C++ for kids, honestly: who is ready for it and who should start with Python, three short C++ programs to run, and how C++ leads to USACO for US students.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/c-plus-plus-for-kids">
+  <link rel="alternate" type="text/markdown" href="/src/pages/c-plus-plus-for-kids.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#124875">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/c-plus-plus-for-kids">
+  <meta property="og:title" content="C++ for Kids: Is It a Good First Language? Real Code Inside">
+  <meta property="og:description" content="Is C++ right for a 9, 11 or 13 year old? An honest age guide, three real C++ programs (a greeting, a guessing game, safe vectors) and the USACO path.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="C++ for Kids: Is It a Good First Language? Real Code Inside">
+  <meta name="twitter:description" content="C++ for kids: an honest age guide, three real programs and the USACO path.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cppk .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-cppk .ag-capsule { border-left-width: 6px; border-radius: 2px; }
+.ag-root.ag-cppk .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-cppk .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-cppk .ag-code-note { line-height: 1.6; }
+.ag-root.ag-cppk .ag-slots { gap: 0.9rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/c-plus-plus-for-kids#page","url":"https://learn.modernagecoders.com/c-plus-plus-for-kids","name":"C++ for Kids","description":"A guide for US parents deciding whether their child should learn C++, with an age table, three standard C++ programs and the facts from isocpp.org, cppreference and USACO.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"C++ for kids","item":"https://learn.modernagecoders.com/c-plus-plus-for-kids"}]},{"@type":"Course","name":"C++ for Kids","description":"Live online C++ classes for US children aged 9 to 12 and teens of 13 to 18, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/c-plus-plus-for-kids"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/c-plus-plus-for-kids"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/c-plus-plus-for-kids"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can kids learn C++?","acceptedAnswer":{"@type":"Answer","text":"Yes. A child can learn C++ from about 11 or 12 if they read and type comfortably. For children of 9 or 10 we recommend starting with Scratch or Python and moving to C++ once they understand loops and variables."}},{"@type":"Question","name":"Is C++ too hard for a 10 year old?","acceptedAnswer":{"@type":"Answer","text":"In our view it is a harder first language than a 10 year old needs, because of strict syntax and long error messages. A year of Python first usually makes C++ much easier."}},{"@type":"Question","name":"Should my child learn Python or C++ first?","acceptedAnswer":{"@type":"Answer","text":"We usually recommend Python first. Choose C++ first if your child is 12 or older and aims at competitions such as USACO, or wants to understand how computers handle memory and speed."}},{"@type":"Question","name":"Is C++ free to learn?","acceptedAnswer":{"@type":"Answer","text":"The tools are free. isocpp.org lists free compilers such as GCC (g++), Clang and Visual C++ Community, plus online compiler pages that run in a browser."}},{"@type":"Question","name":"Can my child write C++ on a Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Yes, using an online compiler page such as godbolt.org, Wandbox or ideone.com, which isocpp.org lists. Some only compile code; others also run it and show the output."}},{"@type":"Question","name":"What version of C++ should kids learn?","acceptedAnswer":{"@type":"Answer","text":"Modern C++. The isocpp.org status page says C++23 has been published and work is under way on C++26. For beginners, the style matters more than the version number."}},{"@type":"Question","name":"Do you need C++ for USACO?","acceptedAnswer":{"@type":"Answer","text":"Not at first. USACO accepts C, C++, Java and Python, and aims for every bronze problem to be fully solvable in Python. It says C++ is the only language supported at the international olympiad, so serious competitors usually learn it."}},{"@type":"Question","name":"What is the first C++ program a child should write?","acceptedAnswer":{"@type":"Answer","text":"A short program that asks for their name and says hello, then a number guessing game with a loop. Both appear on this page, written in standard C++."}},{"@type":"Question","name":"Do you offer a C++ course for kids under 13?","acceptedAnswer":{"@type":"Answer","text":"Yes. C++ for Kids is for ages 9 to 12, in a batch or one to one, and C++ for teens continues from 13. Some younger children start with Python or Scratch and move across."}},{"@type":"Question","name":"What times are classes for US families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much are C++ classes?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. Then families pay monthly for the teaching, and the fees section of this page shows the amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/c-plus-plus-for-kids","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-cppk">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#ready">Is my child ready?</a></li>
+      <li><a href="#setup">Setting up</a></li>
+      <li><a href="#programs">Three programs</a></li>
+      <li><a href="#limits">Limits and bugs</a></li>
+      <li><a href="#usaco">USACO</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / C++ for kids
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 9 to 13 and up &middot; C++</p>
+        <h1>C++ for kids: when it is the right start</h1>
+        <p class="ag-lede">Some children ask for C++ by name. They have heard it runs real games, or an older cousin uses it for competitions, or they simply want the language that sounds hardest. C++ is a serious, fast, widely used language, and a determined child can learn it. It is also strict, wordy and unforgiving in ways that Python and Scratch are not. This page is an honest guide for American parents: which children are ready, which should start elsewhere first, what C++ code actually looks like at a beginner level, and where it leads for students who stay with it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#programs" class="ag-btn ag-btn--ghost">See three C++ programs</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20learn%20C%2B%2B.%20Could%20we%20talk%20about%20whether%20they%20are%20ready%2C%20in%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cppk'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; An honest answer on readiness first</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 9 to 13 and up</dd>
+          <dt>Language</dt><dd>Modern C++ (C++23 published)</dd>
+          <dt>Tools</dt><dd>g++, Clang or an online compiler</dd>
+          <dt>Good for</dt><dd>Competitions, fast programs</dd>
+          <dt>Not first for</dt><dd>Under-11s, as a rule</dd>
+          <dt>Format</dt><dd>Batch or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>C++ can be a child&rsquo;s first typed language from about 11 or 12, if they read and type comfortably and do not mind strict error messages; for children of 9 or 10 we recommend starting in Scratch or Python and moving to C++ later. Free compilers such as g++ and Clang, or an online compiler page, are all a beginner needs.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses on the road to C++</h2>
+      <p class="ag-lede">C++ for Kids covers ages 9 to 12, C++ for teens takes over at 13, and Python suits a child who wants a gentler first language.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/cpp-programming-for-kids-course">
+        <div class="ag-pick-shot"><img src="/images/cpp-kids.webp" alt="C++ for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPPK / 01</p>
+          <h3>C++ for Kids</h3>
+          <p>Ages 9 to 12. A first program, loops, functions, small games and puzzles.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPPK / 02</p>
+          <h3>Python and AI for kids</h3>
+          <p>Ages 9 to 12. The gentler typed language we usually start with.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cpp-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/cpp-teens.webp" alt="C++ for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPPK / 03</p>
+          <h3>C++ for teens</h3>
+          <p>Ages 13 to 18. Fundamentals, the STL, data structures and games.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ready">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Is my child ready?</p><h2>Is C++ a good first language for your child?</h2><p class="ag-lede">The official C++ site asks beginners who have never programmed, "why not learn in modern C++?" For teenagers we agree. For younger children the answer depends on the child, so here is the table we use with parents.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>C++ readiness by age (ours, from teaching children of these ages)</caption><thead><tr><th scope="col">Age</th><th scope="col">Usual starting point</th><th scope="col">When C++ makes sense</th></tr></thead><tbody><tr><td>6 to 8</td><td>Scratch or other block coding</td><td>Not yet; typing and reading speed get in the way</td></tr><tr><td>9 to 10</td><td>Scratch, then Python</td><td>Rarely as a first language; a few C++ ideas after a year of Python</td></tr><tr><td>11 to 12</td><td>Python, or C++ with a patient teacher</td><td>Yes, for a child who types well, reads errors calmly and wants it</td></tr><tr><td>13 and up</td><td>C++ directly is fine</td><td>Yes; our teen course starts from zero</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>When C++ is a good choice</h3><p>A child who wants to compete is the clearest case. USACO, the USA Computing Olympiad, accepts C, C++, Java and Python, and says C++ is the only language supported at the International Olympiad in Informatics.</p>
+<p>It also suits children who like knowing how things work underneath: why a number has a limit, where memory goes, why one program runs faster than another. C++ makes those questions visible.</p></div><div><h3>When it is not</h3><p>If your child wants to see something on screen within ten minutes, C++ is a slow start. Python, Scratch or JavaScript give quicker rewards, and quick rewards keep young beginners coming back.</p>
+<p>If their goal is websites, apps or AI, C++ is the long way round. Those children do better in JavaScript or Python, and can still learn C++ later for competitions.</p></div></div>
+    <p class="ag-mt-40">For a side-by-side view of languages by age, see our post on <a class="ag-inline-link" href="/blog/best-coding-languages-kids-10-18-beginner-advanced">coding languages for ages 10 to 18</a> and our guide to the <a class="ag-inline-link" href="/best-age-to-start-coding">right age to start coding</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="setup">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Setting up</p><h2>What a child needs to write C++ at home</h2><p class="ag-lede">The tools are free. The official site, isocpp.org, lists free compilers for every major operating system and several online compiler pages for computers where nothing can be installed.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Free ways to run C++, from isocpp.org Get Started (read 17 October 2026)</caption><thead><tr><th scope="col">Computer</th><th scope="col">Free option isocpp.org lists</th><th scope="col">Note</th></tr></thead><tbody><tr><td>Windows PC</td><td>Visual C++ Community, or a Windows build of GCC (g++)</td><td>Microsoft&rsquo;s compiler is described as free for Windows</td></tr><tr><td>Mac</td><td>Clang</td><td>Described by isocpp.org as an open-source compiler for various platforms</td></tr><tr><td>Linux</td><td>GCC or Clang</td><td>isocpp.org says builds are likely available through the package manager</td></tr><tr><td>Chromebook or school laptop</td><td>Online compiler pages such as godbolt.org, Wandbox or ideone.com</td><td>Some only compile; others also run the program and show its output</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Which C++ is "modern" C++?</h3><p>C++ is an ISO international standard, and its committee publishes new versions over time. The isocpp.org status page says C++23 has been published and work is under way on C++26.</p>
+<p>For a child, the version matters less than the style. Modern C++ uses std::string, std::vector and the random library instead of the older C habits, and that is what every program on this page uses.</p></div><div><h3>Books, if your child likes them</h3><p>isocpp.org recommends books for complete beginners, including an introduction to programming written by the creator of C++ and a shorter Tour of C++ by the same author. Both are written for adults and older teens.</p>
+<p>For younger readers, we suggest a teacher and short programs first, then a book once they can already read simple C++ comfortably.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="programs">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Real code</p><h2>Three short C++ programs for a first month</h2><p class="ag-lede">These are the first three programs our C++ beginners write. They use only standard C++ described on cppreference.com. Paste each into an online compiler or a compiler on your computer and run it.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 1 &middot; say hello</b><span>c++</span></figcaption><pre>// hello.cpp (ours)
+#include &lt;iostream&gt;
+#include &lt;string&gt;
+
+int main() {
+    std::string name;
+    std::cout &lt;&lt; "What is your name? ";
+    std::cin &gt;&gt; name;
+    std::cout &lt;&lt; "Hello, " &lt;&lt; name &lt;&lt; ". Welcome to C++.\n";
+}</pre><p class="ag-code-note">There is no return statement, and that is allowed: cppreference says that reaching the end of main without one has the effect of return 0. std::cin reads from the keyboard, the standard input.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 2 &middot; a guessing game</b><span>c++</span></figcaption><pre>// guess.cpp: a number guessing game (ours)
+#include &lt;iostream&gt;
+#include &lt;random&gt;
+
+int main() {
+    std::random_device rd;          // a seed source
+    std::mt19937 gen(rd());         // the random engine
+    std::uniform_int_distribution&lt;int&gt; pick(1, 50);
+
+    int secret = pick(gen);         // 1 to 50, both ends included
+    int guess = 0;
+    int tries = 0;
+
+    while (guess != secret) {
+        std::cout &lt;&lt; "Guess a number from 1 to 50: ";
+        std::cin &gt;&gt; guess;
+        tries = tries + 1;
+        if (guess &lt; secret) std::cout &lt;&lt; "Higher\n";
+        else if (guess &gt; secret) std::cout &lt;&lt; "Lower\n";
+    }
+    std::cout &lt;&lt; "Got it in " &lt;&lt; tries &lt;&lt; " tries.\n";
+}</pre><p class="ag-code-note">uniform_int_distribution produces whole numbers on the closed interval from a to b, so 1 and 50 can both be the secret. Our arithmetic: halving the range each time finds any number from 1 to 50 in at most 6 guesses, because 2 to the power 6 is 64, which is at least 50.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 3 &middot; scores in a vector</b><span>c++</span></figcaption><pre>// scores.cpp: why .at() is the safer way in (ours)
+#include &lt;iostream&gt;
+#include &lt;stdexcept&gt;
+#include &lt;vector&gt;
+
+int main() {
+    std::vector&lt;int&gt; scores = {7, 9, 4};
+    scores.push_back(10);           // positions 0, 1, 2 and 3
+
+    std::cout &lt;&lt; "First score: " &lt;&lt; scores.at(0) &lt;&lt; "\n";
+    std::cout &lt;&lt; "How many: " &lt;&lt; scores.size() &lt;&lt; "\n";
+
+    try {
+        // there is no position 4
+        std::cout &lt;&lt; scores.at(4) &lt;&lt; "\n";
+    } catch (const std::out_of_range&amp; e) {
+        std::cout &lt;&lt; "Caught it: no score at position 4\n";
+    }
+    // scores[4] also compiles, but reading it is undefined behavior
+}</pre><p class="ag-code-note">vector::at checks the position and throws std::out_of_range when it is outside the vector. The square-bracket version does no check, so the program in the last comment would compile and then behave unpredictably.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the guessing game teaches</h3><p>The while loop keeps asking until the guess equals the secret; the if and else if decide which hint to give. That is a complete game in under twenty lines, and every line is something the child can explain.</p>
+<p>The halving strategy is the real lesson. A child who works out that 6 guesses are always enough has discovered binary search, an idea that appears in competitions for years to come.</p></div><div><h3>Why we teach .at() before [ ]</h3><p>Beginners make off-by-one mistakes constantly: a vector of 4 scores has positions 0 to 3, not 1 to 4. With .at(), that mistake produces a clear error the child can find. With square brackets, it can produce nonsense that looks like a working program.</p>
+<p>Once a student can always say which positions exist, we show them square brackets and why experienced programmers use them in fast code.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="limits">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Limits and bugs</p><h2>The C++ lesson other languages skip: every number has a limit</h2><p class="ag-lede">In Python, whole numbers grow as big as needed. In C++, each type has a fixed width, and going past it is a bug the language does not have to catch. Children find this strange at first and fascinating soon after.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Minimum integer widths, from cppreference.com fundamental types (read 17 October 2026)</caption><thead><tr><th scope="col">Type</th><th scope="col">The standard guarantees</th><th scope="col">Usual today</th></tr></thead><tbody><tr><td>short</td><td>At least 16 bits</td><td>16 bits</td></tr><tr><td>int</td><td>At least 16 bits</td><td>At least 32 bits on 32-bit and 64-bit systems</td></tr><tr><td>long</td><td>At least 32 bits</td><td>32 or 64 bits, depending on the system</td></tr><tr><td>long long</td><td>At least 64 bits</td><td>64 bits</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A worked example: the overflowing score</h3><p>Our example: a game stores the score in a 32-bit int, which can hold up to 2,147,483,647. If the game adds 1,000 points every second, the score passes that limit after about 2,147,483 seconds, and 2,147,483 / 86,400 is about 24.8 days of non-stop play.</p>
+<p>After that, signed integer overflow is undefined behavior. cppreference lists it among its examples, alongside reading outside an array, and says of undefined behavior: "There are no restrictions on the behavior of the program."</p></div><div><h3>What a child takes from this</h3><p>The fix is simple, a long long, which the standard guarantees is at least 64 bits. The habit is the valuable part: asking how big a value can get before choosing its type.</p>
+<p>USACO makes the same point in its instructions: answers usually fit in a standard 32-bit integer, but this is not guaranteed. Checking limits before coding is a habit we teach from the first month.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="usaco">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where it leads in the US</p><h2>From a first C++ program to USACO</h2><p class="ag-lede">For American students, C++ has one very concrete destination: the USA Computing Olympiad. Its contest instructions explain how languages are treated.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>USACO and programming languages, from the USACO contest instructions (read 17 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What USACO says</th></tr></thead><tbody><tr><td>Fee</td><td>"There is never any fee for participation."</td></tr><tr><td>Languages</td><td>Solutions in C, C++, Java or Python</td></tr><tr><td>At the international level</td><td>"C++ is the only language supported at IOI"</td></tr><tr><td>Time limits</td><td>For most contests, 2 seconds per input case for C and C++, 4 seconds for Java and Python</td></tr><tr><td>Python at the start</td><td>All bronze-level problems are meant to be fully solvable in Python</td></tr><tr><td>Divisions</td><td>Bronze, silver, gold and platinum</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What this means for a 12-year-old</h3><p>A child does not need C++ to start USACO. Bronze can be done in Python, so a younger student can compete in the language they already know and switch when the problems demand speed.</p>
+<p>USACO also says that on some problems, particularly in higher divisions, Python may be too slow to solve every input in time. That is the point where C++ pays off, and a student who learned it at 12 or 13 is ready for it.</p></div><div><h3>Our part in it</h3><p>Our <a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation coaching</a> takes students from their first contest upward. We are not connected with USACO, and we make no promises about divisions or results.</p>
+<p>Teens who prefer building to competing can take C++ toward graphics and games instead; our page on <a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a> covers that route.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A first term</p><h2>Twelve weeks of C++ for an 11 to 13 year old</h2><p class="ag-lede">Our outline for a younger student who is ready for C++. Teens in our main course move faster; younger children may spend longer on the first weeks.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A 12-week first C++ term (ours)</caption><thead><tr><th scope="col">Weeks</th><th scope="col">What the student builds</th><th scope="col">The idea</th></tr></thead><tbody><tr><td>1 to 2</td><td>Hello, a calculator, a mad-libs story</td><td>Compiling, variables, input and output</td></tr><tr><td>3 to 4</td><td>The guessing game, then a dice roller</td><td>Loops, conditions, random numbers</td></tr><tr><td>5 to 6</td><td>A times-table quiz that keeps score</td><td>Functions and return values</td></tr><tr><td>7 to 8</td><td>Scores and names in vectors</td><td>Vectors, .at() and off-by-one thinking</td></tr><tr><td>9 to 10</td><td>A text adventure with rooms</td><td>Strings, menus, larger programs</td></tr><tr><td>11 to 12</td><td>Two small olympiad-style problems</td><td>Reading a problem, testing edge cases</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Ages 9 to 10</h3><p>C++ for Kids at a slower pace, with more time on typing carefully and reading what the compiler says; some children try Python first.</p></div><div><h3>Ages 11 to 12</h3><p>The twelve weeks above inside C++ for Kids, in a batch or one to one, with a lot of time on reading error messages.</p></div><div><h3>Ages 13 and up</h3><p>Our C++ for teens course, from first programs through the STL and data structures to games and competition problems.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Growing into C++</p>
+      <h2>Four stages of a young C++ programmer</h2>
+      <p class="ag-lede">The stages we teach through, and what comes next.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a young C++ learner (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Copier</td><td class="ag-num">Types out programs carefully and hunts down missing semicolons</td></tr><tr><td>2. Reader</td><td class="ag-num">Can explain what each line of a short program does</td></tr><tr><td>3. Builder</td><td class="ag-num">Writes small games and tools from an idea, with loops and vectors</td></tr><tr><td>4. Solver</td><td class="ag-num">Reads a contest problem, plans, and checks limits before coding</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Compiler errors are long and frightening at first. A child who reads the first line of the error, not the whole wall, has already reached stage 2.</p>
+<p>Ask your child what the largest value in their program could be. If they can answer, they are thinking like a C++ programmer.</p></div><div><h3>For kids</h3><p>Fix the first error first. One missing semicolon can cause ten errors further down.</p>
+<p>Run the program after every few lines. Small steps make bugs easy to find.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalog</p>
+      <h2>Nine courses for future C++ programmers</h2>
+      <p class="ag-lede">Each course is taught live by one teacher who stays with the class, in a group or privately.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Before C++</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / PRE / 01</p>
+          <h4>Scratch coding</h4>
+          <p>Logic in blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / PRE / 02</p>
+          <h4>Python for kids</h4>
+          <p>The first typed language.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / PRE / 03</p>
+          <h4>Problem solving</h4>
+          <p>Puzzles, steps, patterns.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>C++ and friends</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / TEN / 01</p>
+          <h4>C++ for teens</h4>
+          <p>Zero to data structures.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / TEN / 02</p>
+          <h4>Problem solving and DSA</h4>
+          <p>Contest-style thinking.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / TEN / 03</p>
+          <h4>Java for teens</h4>
+          <p>The AP CS A language.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Exams and further</h3>
+        <span class="ag-band-sub">High school and beyond</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / FUR / 01</p>
+          <h4>AP CS A preparation</h4>
+          <p>Java for the College Board exam.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / FUR / 02</p>
+          <h4>Game development for teens</h4>
+          <p>Engines and real games.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPPK / FUR / 03</p>
+          <h4>C++ for college</h4>
+          <p>Deeper C++ for older students.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lesson times</p>
+      <h2>C++ lessons that fit around school</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evening batches that work from the East Coast to the West Coast.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings suit students with busy weekdays.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Often the right choice for an 11 or 12 year old starting C++.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Readiness first</h3><p>We tell you honestly if Python should come first.</p></div>
+      <div><h3>Code on screen</h3><p>Students type, compile and debug in class.</p></div>
+      <div><h3>Errors, read aloud</h3><p>Learning to read compiler messages is part of the plan.</p></div>
+      <div><h3>The same teacher</h3><p>One teacher who knows your child&rsquo;s code.</p></div>
+      <div><h3>Anywhere in the US</h3><p>A laptop or Chromebook and a browser.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Programs and projects our students built</h2>
+      <p class="ag-lede">Work from learners who began with programs like the three above. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Compilers cost nothing. What you pay for is a teacher, one month at a time and shown in US dollars, with no semester commitment; stop whenever a month ends.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>An honest readiness check</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Batches of fifteen to twenty</li><li>One teacher throughout</li><li>You choose the batch</li><li>Monthly billing</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Teacher and student only</li><li>Times to suit you</li><li>Paced for a younger learner</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Copied from Google, in parents&rsquo; own words.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from parents</p>
+      <h2>C++ for kids: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can kids learn C++?</h3>
+        <p>Yes. A child can learn C++ from about 11 or 12 if they read and type comfortably. For children of 9 or 10 we recommend starting with Scratch or Python and moving to C++ once they understand loops and variables.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is C++ too hard for a 10 year old?</h3>
+        <p>In our view it is a harder first language than a 10 year old needs, because of strict syntax and long error messages. A year of Python first usually makes C++ much easier.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child learn Python or C++ first?</h3>
+        <p>We usually recommend Python first. Choose C++ first if your child is 12 or older and aims at competitions such as USACO, or wants to understand how computers handle memory and speed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is C++ free to learn?</h3>
+        <p>The tools are free. isocpp.org lists free compilers such as GCC (g++), Clang and Visual C++ Community, plus online compiler pages that run in a browser.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child write C++ on a Chromebook?</h3>
+        <p>Yes, using an online compiler page such as godbolt.org, Wandbox or ideone.com, which isocpp.org lists. Some only compile code; others also run it and show the output.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What version of C++ should kids learn?</h3>
+        <p>Modern C++. The isocpp.org status page says C++23 has been published and work is under way on C++26. For beginners, the style matters more than the version number.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you need C++ for USACO?</h3>
+        <p>Not at first. USACO accepts C, C++, Java and Python, and aims for every bronze problem to be fully solvable in Python. It says C++ is the only language supported at the international olympiad, so serious competitors usually learn it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the first C++ program a child should write?</h3>
+        <p>A short program that asks for their name and says hello, then a number guessing game with a loop. Both appear on this page, written in standard C++.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you offer a C++ course for kids under 13?</h3>
+        <p>Yes. C++ for Kids is for ages 9 to 12, in a batch or one to one, and C++ for teens continues from 13. Some younger children start with Python or Scratch and move across.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US families?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are C++ classes?</h3>
+        <p>The first lesson is free. Then families pay monthly for the teaching, and the fees section of this page shows the amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">On this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US families weighing up C++.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-classes-for-teens">C++ classes for teens</a></h3><p>Our full C++ course page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a></h3><p>Coaching for the US olympiad.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a></h3><p>For teens who want to build games.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-11-year-olds">Python for 11 year olds</a></h3><p>The usual first step.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>All our pages for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-for-beginners">C++ for beginners</a></h3><p>For older beginners and adults.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us your child&rsquo;s age and what they have coded so far. The teacher will try a small C++ program with them and tell you honestly whether to start with C++ or Python.</p>
+        <p class="ag-mt-40">If you would like to see the method first, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> describes a live class, and the C++ syllabus sits on our <a class="ag-inline-link" href="/courses">courses</a> page.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20learn%20C%2B%2B.%20Could%20we%20talk%20about%20whether%20they%20are%20ready%2C%20in%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cppk',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are online and our teachers work from India, so students anywhere in the United States join from home. For the fastest answer, message us on WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cppk(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson, no payment details taken.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>C++ and competitions</h4><ul><li><a href="/c-plus-plus-classes-for-teens">C++ classes for teens</a></li><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li><li><a href="/c-plus-plus-projects-for-students">C++ projects for students</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/coding-for-12-year-olds">Coding for 12 year olds</a></li><li><a href="/coding-for-13-year-olds">Coding for 13 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Every number has a limit; know it first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cppk = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'c-plus-plus-for-kids-inline', meta: { name: name, age: age, page: 'c-plus-plus-for-kids' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
