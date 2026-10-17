@@ -7194,4 +7194,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /khan-academy-computer-science-vs-live-classes /src/pages/khan-academy-computer-science-vs-live-classes.html 200
 /khan-academy-computer-science-vs-live-classes.md /src/pages/khan-academy-computer-science-vs-live-classes.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/scratch-not-working-help /src/pages/scratch-not-working-help.html 200
+/scratch-not-working-help.md /src/pages/scratch-not-working-help.md 200
 /* /src/pages/404.html 404

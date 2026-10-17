@@ -189,7 +189,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 31 | javascript-for-kids (jk, #3E5294) | subj | 3,822 | 1.4% vs how-to-make-a-roblox-game | phase 2 | the game loop (read input, update state, draw, repeat) | d56b34e6 |
 | 32 | app-inventor-for-kids (aik, #464370) | subj | 4,219 | 1.3% vs python-games-for-kids | phase 2 | events and state (an event handler that changes a value the app remembers) | 19ad38b5 |
 | 33 | cybersecurity-classes-for-teens (ct, #572237) | subj | 4,119 | 1.5% vs c-plus-plus-for-kids | phase 2 | thinking like a defender (assets, risks, controls), never attack technique | 79d8fe22 |
-| 152 | khan-academy-computer-science-vs-live-classes (kacs, #9E182A) | tools | 3,687 | 1.7% vs javascript-for-kids | phase T | tracing before running (predict, run, compare) | (this commit) |
+| 152 | khan-academy-computer-science-vs-live-classes (kacs, #9E182A) | tools | 3,687 | 1.7% vs javascript-for-kids | phase T | tracing before running (predict, run, compare) | 986e2eeb |
+| 154 | scratch-not-working-help (snw, #2B5D9E) | tools | 4,722 | 1.8% vs javascript-for-kids | phase T | debugging by isolating one cause at a time (reproduce, change one thing, test ag | (this commit) |
 
 ## Skipped
 

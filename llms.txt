@@ -679,6 +679,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - App Inventor for kids: https://learn.modernagecoders.com/app-inventor-for-kids
 - Cybersecurity classes for teens: https://learn.modernagecoders.com/cybersecurity-classes-for-teens
 - Khan Academy CS vs live classes: https://learn.modernagecoders.com/khan-academy-computer-science-vs-live-classes
+- Scratch not working: https://learn.modernagecoders.com/scratch-not-working-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
