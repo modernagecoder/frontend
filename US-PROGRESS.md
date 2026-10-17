@@ -173,7 +173,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 6 | godot-for-kids-and-teens (gkt, #546B1D) | game | 4,310 | 1% vs game-design-summer-camp-for-teens | phase 2 | signals and events (a node announces, another node reacts) | 1d2f8caf |
 | 7 | unity-for-teens (ut, #4D6B40) | game | 3,947 | 1.2% vs vs-code-setup-for-students | phase 2 | frame-rate independence (multiply by deltaTime) | 845b51f7 |
 | 8 | game-design-classes-for-teens (gdt, #1E703E) | game | 5,191 | 1.2% vs unity-for-teens | phase 2 | iteration and tuning (change one number, test, record) | d539598a |
-| 9 | video-game-coding-classes-for-kids (vgk, #406B66) | game | 3,707 | 1.1% vs computer-science-internships-for-high-school-students | phase 2 | games as systems (every game feature is a coding concept in disguise) | (this commit) |
+| 9 | video-game-coding-classes-for-kids (vgk, #406B66) | game | 3,707 | 1.1% vs computer-science-internships-for-high-school-students | phase 2 | games as systems (every game feature is a coding concept in disguise) | e45c1ff0 |
+| 10 | learn-to-code-minecraft-mods (lcmm, #1C669E) | game | 4,131 | 1.1% vs godot-for-kids-and-teens | phase 2 | registration and data-driven design (code declares an object; JSON files describ | (this commit) |
 
 ## Skipped
 

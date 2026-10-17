@@ -432,6 +432,7 @@ const SLUGS = [
   'unity-for-teens',
   'game-design-classes-for-teens',
   'video-game-coding-classes-for-kids',
+  'learn-to-code-minecraft-mods',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -943,6 +944,7 @@ const LLMS_LABELS = {
   'unity-for-teens': 'Unity for teens',
   'game-design-classes-for-teens': 'Game design classes for teens',
   'video-game-coding-classes-for-kids': 'Video game coding classes for kids',
+  'learn-to-code-minecraft-mods': 'Learn to code Minecraft mods',
 };
 
 function wireLlms(slugs) {
