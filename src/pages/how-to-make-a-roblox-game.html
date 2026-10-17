@@ -54,7 +54,6 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/how-to-make-a-roblox-game","availableLanguage":["en"]}}
   </script>
-    <meta name="mac-lead-country" content="US">
 </head>
 
 <body class="ag-root ag-rbx">
@@ -190,12 +189,13 @@
 <section class="ag-section ag-section--tint" id="scripts">
   <div class="ag-wrap">
     <div class="ag-section-head"><p class="ag-eyebrow">Three real scripts</p><h2>The three scripts that turn a world into a game</h2><p class="ag-lede">These are the first three Luau scripts our students write. We wrote them using only the parts of Roblox that its documentation describes: the Players service, Instance.new, the Touched event and GetPlayerFromCharacter. Paste them into Studio, press Play, and test them yourself.</p></div>
-    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 1 &amp;middot; a leaderboard</b><span>luau</span></figcaption><pre>-- Script in ServerScriptService, named Leaderboard (ours)
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 1 &middot; a leaderboard</b><span>luau</span></figcaption><pre>-- ServerScriptService &gt; Leaderboard (ours)
 local Players = game:GetService("Players")
 
 local function onPlayerAdded(player)
   local leaderstats = Instance.new("Folder")
-  leaderstats.Name = "leaderstats"   -- this exact name makes Roblox show a leaderboard
+  -- this exact name shows a leaderboard
+  leaderstats.Name = "leaderstats"
   leaderstats.Parent = player
 
   local coins = Instance.new("IntValue")
@@ -205,32 +205,34 @@ local function onPlayerAdded(player)
 end
 
 Players.PlayerAdded:Connect(onPlayerAdded)</pre><p class="ag-code-note">Roblox shows a leaderboard for any player who has a Folder named exactly leaderstats. Each value inside it, here Coins, becomes a column.</p></figure>
-    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 2 &amp;middot; a coin that counts</b><span>luau</span></figcaption><pre>-- Script inside a Part named Coin (ours)
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 2 &middot; a coin that counts</b><span>luau</span></figcaption><pre>-- Script inside a Part named Coin (ours)
 local Players = game:GetService("Players")
 local coin = script.Parent
-local collected = false              -- the guard flag
+local collected = false  -- the guard flag
 
 local function onTouched(otherPart)
   if collected then return end
   local player = Players:GetPlayerFromCharacter(otherPart.Parent)
-  if not player then return end      -- a ball or a wall touched it, not a player
+  -- not a player (a ball, a wall)? ignore it
+  if not player then return end
 
   collected = true
   player.leaderstats.Coins.Value += 1
-  coin.Transparency = 1              -- hide the coin
-  task.wait(5)                       -- respawn after 5 seconds
+  coin.Transparency = 1  -- hide the coin
+  task.wait(5)  -- respawn after 5 seconds
   coin.Transparency = 0
   collected = false
 end
 
 coin.Touched:Connect(onTouched)</pre><p class="ag-code-note">Our timing arithmetic: a coin that respawns after 5 seconds can be collected at most 12 times a minute (60 / 5 = 12), whatever the player does.</p></figure>
-    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 3 &amp;middot; an obby reset brick</b><span>luau</span></figcaption><pre>-- Script inside a red Part named ResetBrick (ours)
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 3 &middot; an obby reset brick</b><span>luau</span></figcaption><pre>-- Script in a red Part, ResetBrick (ours)
 local brick = script.Parent
 
 brick.Touched:Connect(function(otherPart)
   local humanoid = otherPart.Parent:FindFirstChildOfClass("Humanoid")
   if humanoid then
-    humanoid.Health = 0              -- the player respawns at the last checkpoint
+    -- back to the last checkpoint
+    humanoid.Health = 0
   end
 end)</pre><p class="ag-code-note">Roblox&rsquo;s own templates call these kill bricks. We call it a reset brick because that is what it does: the player goes back to the last checkpoint.</p></figure>
     <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The idea behind all three: events</h3><p>Roblox games are event-driven. Nothing in Script 2 runs until something touches the coin; the Touched event then calls the onTouched function, which we call the handler.</p>
@@ -723,6 +725,5 @@ window.submitLead_rbx = function (e) {
   });
 </script>
 
-    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
 </body>
 </html>

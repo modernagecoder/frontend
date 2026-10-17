@@ -25,12 +25,13 @@
 
 const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, stripTrunk: true };
 
-const LEADERBOARD = `-- Script in ServerScriptService, named Leaderboard (ours)
+const LEADERBOARD = `-- ServerScriptService > Leaderboard (ours)
 local Players = game:GetService("Players")
 
 local function onPlayerAdded(player)
   local leaderstats = Instance.new("Folder")
-  leaderstats.Name = "leaderstats"   -- this exact name makes Roblox show a leaderboard
+  -- this exact name shows a leaderboard
+  leaderstats.Name = "leaderstats"
   leaderstats.Parent = player
 
   local coins = Instance.new("IntValue")
@@ -44,30 +45,32 @@ Players.PlayerAdded:Connect(onPlayerAdded)`;
 const COIN = `-- Script inside a Part named Coin (ours)
 local Players = game:GetService("Players")
 local coin = script.Parent
-local collected = false              -- the guard flag
+local collected = false  -- the guard flag
 
 local function onTouched(otherPart)
   if collected then return end
   local player = Players:GetPlayerFromCharacter(otherPart.Parent)
-  if not player then return end      -- a ball or a wall touched it, not a player
+  -- not a player (a ball, a wall)? ignore it
+  if not player then return end
 
   collected = true
   player.leaderstats.Coins.Value += 1
-  coin.Transparency = 1              -- hide the coin
-  task.wait(5)                       -- respawn after 5 seconds
+  coin.Transparency = 1  -- hide the coin
+  task.wait(5)  -- respawn after 5 seconds
   coin.Transparency = 0
   collected = false
 end
 
 coin.Touched:Connect(onTouched)`;
 
-const RESET = `-- Script inside a red Part named ResetBrick (ours)
+const RESET = `-- Script in a red Part, ResetBrick (ours)
 local brick = script.Parent
 
 brick.Touched:Connect(function(otherPart)
   local humanoid = otherPart.Parent:FindFirstChildOfClass("Humanoid")
   if humanoid then
-    humanoid.Health = 0              -- the player respawns at the last checkpoint
+    -- back to the last checkpoint
+    humanoid.Health = 0
   end
 end)`;
 

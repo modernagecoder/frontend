@@ -19,7 +19,8 @@ const base = require(path.join(ROOT, 'content/uk/best-online-coding-classes-uk.j
 const extra = {
   id: 'zz-blocks', tint: '', eyebrow: 'Test', h2: 'Blocks', body: [
     { kind: 'code', label: 'Our first script', lang: 'luau', code: 'if score < 10 then\n  print("keep going") -- a & b\nend', note: 'Runs in Studio.' },
-    { kind: 'ol', items: ['Install Studio', 'Open a <b>Baseplate</b>'] }
+    { kind: 'ol', items: ['Install Studio', 'Open a <b>Baseplate</b>'] },
+    { kind: 'code', label: 'Script 2 &middot; a coin', lang: 'luau', code: 'x = 1' }
   ]
 };
 let html = '';
@@ -30,6 +31,9 @@ ok(/<figure class="ag-code"><figcaption class="ag-code-head"><b>Our first script
 ok(html.includes('<pre>if score &lt; 10 then\n  print("keep going") -- a &amp; b\nend</pre>'), 'code block: code escaped, newlines kept');
 ok(html.includes('<p class="ag-code-note">Runs in Studio.</p></figure>'), 'code block: note inside the figure');
 ok(/<ol class="ag-steps"><li>Install Studio<\/li><li>Open a <b>Baseplate<\/b><\/li><\/ol>/.test(html), 'ol block: numbered steps, item HTML kept');
+
+// Labels are authored HTML like every other heading: an entity must reach the page once, not as &amp;middot;.
+ok(html.includes('<b>Script 2 &middot; a coin</b>') && !html.includes('&amp;middot;'), 'code block: label entity not double-escaped');
 
 console.log(fails ? `${fails} FAILED` : 'render-ag blocks: all checks pass');
 process.exit(fails ? 1 : 0);
