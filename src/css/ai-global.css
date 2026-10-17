@@ -982,3 +982,4 @@
 .ag-root.ag-acp { --ag-accent: #3F662B; --ag-accent-soft: rgba(63,102,43,.09); }   /* ACSL preparation: the allocated fern green #3F662B, the colour of a circuit board under its lacquer, contrast 6.30, 5.92 and 5.42 on the three paper tints */
 .ag-root.ag-pb { --ag-accent: #346642; --ag-accent-soft: rgba(52,102,66,.09); }   /* picoCTF for beginners: the allocated terminal green #346642, a muted take on a shell prompt, contrast 6.34, 5.96 and 5.45 on the three paper tints */
 .ag-root.ag-cp { --ag-accent: #276B5F; --ag-accent-soft: rgba(39,107,95,.09); }   /* CyberPatriot preparation: the allocated deep teal #276B5F, the colour of a secured network diagram, contrast 5.91, 5.55 and 5.08 on the three paper tints */
+.ag-root.ag-tgg { --ag-accent: #2C5170; --ag-accent-soft: rgba(44,81,112,.09); }   /* Technovation Girls guide: the allocated slate blue #2C5170, the blue of an evening pitch stage, contrast 7.87, 7.40 and 6.77 on the three paper tints */

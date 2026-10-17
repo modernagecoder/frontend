@@ -453,6 +453,7 @@ const SLUGS = [
   'acsl-competition-preparation',
   'picoctf-for-beginners',
   'cyberpatriot-preparation',
+  'technovation-girls-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -985,6 +986,7 @@ const LLMS_LABELS = {
   'acsl-competition-preparation': 'ACSL competition preparation',
   'picoctf-for-beginners': 'picoCTF for beginners',
   'cyberpatriot-preparation': 'CyberPatriot preparation',
+  'technovation-girls-guide': 'Technovation Girls guide',
 };
 
 function wireLlms(slugs) {

@@ -194,7 +194,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 36 | presidential-ai-challenge-guide (pacg, #4A520C) | comp | 4,922 | 0.9% vs computer-science-internships-for-high-school-students | phase 3 | measuring a model honestly (test set, accuracy, error list) | 441debc1 |
 | 37 | acsl-competition-preparation (acp, #3F662B) | comp | 4,239 | 0.9% vs presidential-ai-challenge-guide | phase 3 | tracing by hand, then checking by machine | 273af846 |
 | 38 | picoctf-for-beginners (pb, #346642) | comp | 3,987 | 1.2% vs cybersecurity-classes-for-teens | phase 3 | encoding is not encryption | d4dbc520 |
-| 39 | cyberpatriot-preparation (cp, #276B5F) | comp | 4,351 | 1.9% vs cybersecurity-classes-for-teens | phase 3 | least privilege (who should have access, and why) | (this commit) |
+| 39 | cyberpatriot-preparation (cp, #276B5F) | comp | 4,351 | 1.9% vs cybersecurity-classes-for-teens | phase 3 | least privilege (who should have access, and why) | 44deb15e |
+| 40 | technovation-girls-guide (tgg, #2C5170) | comp | 4,453 | 1.5% vs presidential-ai-challenge-guide | phase 3 | evidence from real users (test, measure, | (this commit) |
 
 ## Skipped
 

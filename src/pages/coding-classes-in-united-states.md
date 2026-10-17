@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Technovation Girls guide](/technovation-girls-guide)
 - [CyberPatriot preparation](/cyberpatriot-preparation)
 - [picoCTF for beginners](/picoctf-for-beginners)
 - [ACSL competition preparation](/acsl-competition-preparation)
