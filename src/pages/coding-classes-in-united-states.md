@@ -468,6 +468,10 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 
 [Email us](mailto:connect@modernagecoders.com?subject=US%20trial%20enquiry)FAQ
 
+## US guides, competitions and states
+
+<!-- US-GUIDES -->
+
 ## Everything American parents and students ask in their first call.
 
 Is the course aligned with AP Computer Science Principles and AP Computer Science A?

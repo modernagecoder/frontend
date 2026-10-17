@@ -26,7 +26,7 @@ const slug = process.argv[2];
 const DRY = process.argv.includes('--dry-run');
 if (!slug) { console.error('usage: node scripts/nl/build.js <slug> [--dry-run]'); process.exit(2); }
 
-const MARKET_DIRS = ['nl', 'ie', 'uk', 'au'];
+const MARKET_DIRS = ['nl', 'ie', 'uk', 'au', 'us'];
 const modPath = MARKET_DIRS.map(d => path.join(ROOT, 'content', d, slug + '.js')).find(p => fs.existsSync(p));
 if (!modPath) { console.error('no content module for ' + slug + ' in content/' + MARKET_DIRS.join(', content/')); process.exit(2); }
 delete require.cache[require.resolve(modPath)];
@@ -108,6 +108,18 @@ if (LEAD_ISO === 'AU') {
   if (/\bpremium\b/i.test(vis)) fail("'Premium' on an Australian page");
   if (/\u2013|&ndash;/.test(vis)) fail('en dash on an Australian page');
   if (!/<html lang="en(-AU)?"/.test(html)) fail('html lang must be en or en-AU on an Australian page');
+}
+// United States (spec docs/superpowers/specs/2026-10-17-us-cluster-design.md, section 3). IST is India
+// Standard Time to the teachers and nothing to a US family; USD is printed only through data-price; the
+// owner's timing rule forbids promising a "weekend batch" (flexible weekdays or weekends instead).
+if (LEAD_ISO === 'US') {
+  const vis = html.replace(/<script[\s\S]*?<\/script>/g, ' ');
+  if (/\bIST\b/.test(vis)) fail('bare IST on a US page: write India time, and ET, CT, MT, PT or the state name');
+  if (/weekend batch/i.test(vis)) fail('"weekend batch" on a US page: use the flexible timing line');
+  if (/\$\s?\d/.test(vis.replace(/<[^>]*data-price[^>]*>[^<]*</g, '<'))) fail('typed dollar figure on a US page: prices go through data-price only');
+  if (/\bpremium\b/i.test(vis)) fail("'Premium' on a US page");
+  if (/–|&ndash;/.test(vis)) fail('en dash on a US page');
+  if (!/<html lang="en(-US)?"/.test(html)) fail('html lang must be en or en-US on a US page');
 }
 if (DRY) {
   const vw = html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<head[\s\S]*?<\/head>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;|&#\d+;/gi, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).length;

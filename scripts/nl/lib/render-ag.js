@@ -148,7 +148,8 @@ window.${fn} = function (e) {
   if (phoneDigits.indexOf('00${String(m.dial).replace(/\D/g, '')}') === 0) phoneDigits = phoneDigits.slice(${String(m.dial).replace(/\D/g, '').length + 2});
   else if (phoneDigits.indexOf('${String(m.dial).replace(/\D/g, '')}') === 0 && phoneDigits.length > ${m.minDigits}) phoneDigits = phoneDigits.slice(${String(m.dial).replace(/\D/g, '').length});
   if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);` : ''}
-  if (phoneDigits.length < ${m.minDigits}) { if (note) note.textContent = '${m.iso ? 'Please enter a valid ' + m.name + ' phone number.' : 'Please enter a valid phone number, including your country code.'}'; return; }
+  if (phoneDigits.length < ${m.minDigits}) { if (note) note.textContent = '${m.iso ? 'Please enter a valid ' + m.name + ' phone number.' : 'Please enter a valid phone number, including your country code.'}'; return; }${m.maxDigits ? `
+  if (phoneDigits.length > ${m.maxDigits}) { if (note) note.textContent = 'Please enter a valid ${m.name} phone number.'; return; }` : ''}
   var btn = form.querySelector('button[type="submit"]');
   var oldText = btn.textContent;
   btn.disabled = true; btn.textContent = 'Sending...';
