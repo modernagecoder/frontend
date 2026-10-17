@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Khan Academy CS vs live classes](/khan-academy-computer-science-vs-live-classes)
 - [Cybersecurity classes for teens](/cybersecurity-classes-for-teens)
 - [App Inventor for kids](/app-inventor-for-kids)
 - [JavaScript for kids](/javascript-for-kids)

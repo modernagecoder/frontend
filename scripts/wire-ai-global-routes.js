@@ -447,6 +447,7 @@ const SLUGS = [
   'javascript-for-kids',
   'app-inventor-for-kids',
   'cybersecurity-classes-for-teens',
+  'khan-academy-computer-science-vs-live-classes',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -973,6 +974,7 @@ const LLMS_LABELS = {
   'javascript-for-kids': 'JavaScript for kids',
   'app-inventor-for-kids': 'App Inventor for kids',
   'cybersecurity-classes-for-teens': 'Cybersecurity classes for teens',
+  'khan-academy-computer-science-vs-live-classes': 'Khan Academy CS vs live classes',
 };
 
 function wireLlms(slugs) {

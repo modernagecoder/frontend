@@ -7190,4 +7190,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /cybersecurity-classes-for-teens /src/pages/cybersecurity-classes-for-teens.html 200
 /cybersecurity-classes-for-teens.md /src/pages/cybersecurity-classes-for-teens.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/khan-academy-computer-science-vs-live-classes /src/pages/khan-academy-computer-science-vs-live-classes.html 200
+/khan-academy-computer-science-vs-live-classes.md /src/pages/khan-academy-computer-science-vs-live-classes.md 200
 /* /src/pages/404.html 404
