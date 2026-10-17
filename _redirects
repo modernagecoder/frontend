@@ -7118,4 +7118,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /godot-for-kids-and-teens /src/pages/godot-for-kids-and-teens.html 200
 /godot-for-kids-and-teens.md /src/pages/godot-for-kids-and-teens.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/unity-for-teens /src/pages/unity-for-teens.html 200
+/unity-for-teens.md /src/pages/unity-for-teens.md 200
 /* /src/pages/404.html 404

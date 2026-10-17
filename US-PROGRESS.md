@@ -170,7 +170,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 24 | ai-literacy-for-elementary-students (ale, #9E332F) | ai | 4,298 | 1.5% vs coding-milestones-by-age | phase 2 | learning from examples (training data decides the answer, including the wrong on | dec3a275 |
 | 4 | lua-for-kids (lk, #570F0D) | game | 4,160 | 1.1% vs congressional-app-challenge-guide | phase 2 | tables and loops (a list, a loop over it, a running total) | 75890f37 |
 | 5 | how-to-make-a-video-game-for-kids (hmvg, #573D0D) | game | 4,150 | 1.6% vs how-to-make-a-roblox-game | phase 2 | the game loop (input, rules, score, an ending) | 7ac97fce |
-| 6 | godot-for-kids-and-teens (gkt, #546B1D) | game | 4,310 | 1% vs game-design-summer-camp-for-teens | phase 2 | signals and events (a node announces, another node reacts) | (this commit) |
+| 6 | godot-for-kids-and-teens (gkt, #546B1D) | game | 4,310 | 1% vs game-design-summer-camp-for-teens | phase 2 | signals and events (a node announces, another node reacts) | 1d2f8caf |
+| 7 | unity-for-teens (ut, #4D6B40) | game | 3,947 | 1.2% vs vs-code-setup-for-students | phase 2 | frame-rate independence (multiply by deltaTime) | (this commit) |
 
 ## Skipped
 

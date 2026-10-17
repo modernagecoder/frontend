@@ -429,6 +429,7 @@ const SLUGS = [
   'lua-for-kids',
   'how-to-make-a-video-game-for-kids',
   'godot-for-kids-and-teens',
+  'unity-for-teens',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -937,6 +938,7 @@ const LLMS_LABELS = {
   'lua-for-kids': 'Lua for kids',
   'how-to-make-a-video-game-for-kids': 'How to make a video game for kids',
   'godot-for-kids-and-teens': 'Godot for kids and teens',
+  'unity-for-teens': 'Unity for teens',
 };
 
 function wireLlms(slugs) {

@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Unity for Teens: Age Rules, Free Plans and First C# Scripts</title>
+  <meta name="description" content="Unity for teens from Unity's own terms and docs: the US age rule, the free Personal and Student plans, what computer it needs, and two first C# scripts.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/unity-for-teens">
+  <link rel="alternate" type="text/markdown" href="/src/pages/unity-for-teens.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4D6B40">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/unity-for-teens">
+  <meta property="og:title" content="Unity for Teens: Age Rules, Free Plans and First C# Scripts">
+  <meta property="og:description" content="Can a teenager use Unity? What Unity's terms say about age 13 and 18, the free plans, Unity 6.6 system requirements, and two C# scripts using the current Input System.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Unity for Teens: Age Rules, Free Plans and First C# Scripts">
+  <meta name="twitter:description" content="Unity for teens: age rules, free plans, computer needs and two first C# scripts.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ut .ag-hero h1 { letter-spacing: -0.024em; }
+.ag-root.ag-ut .ag-capsule { border-left-width: 3px; border-radius: 8px; }
+.ag-root.ag-ut .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-ut .ag-table caption { text-align: left; text-transform: none; }
+.ag-root.ag-ut .ag-code-note { line-height: 1.6; }
+.ag-root.ag-ut .ag-grid-2 { gap: 2.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/unity-for-teens#page","url":"https://learn.modernagecoders.com/unity-for-teens","name":"Unity for Teens","description":"A guide for US teenagers and parents to learning Unity: the account age rules in Unity's terms, Unity Personal and the Student plan, Unity 6.6 system requirements, the Input System, two C# scripts and a learning path.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Unity for teens","item":"https://learn.modernagecoders.com/unity-for-teens"}]},{"@type":"Course","name":"Unity for Teens","description":"Live online Unity and C# game development classes for teenagers aged 13 to 18 in the United States, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/unity-for-teens"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/unity-for-teens"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/unity-for-teens"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can a 13-year-old use Unity?","acceptedAnswer":{"@type":"Answer","text":"Yes, in the US. Unity's terms say users must be at least the age to consent to processing of personal data in their country, and give 13 for the US. Purchases and submitting content to Unity require users to be 18."}},{"@type":"Question","name":"Is Unity free for teenagers?","acceptedAnswer":{"@type":"Answer","text":"For most, yes. Unity Personal is free for individuals and small organizations under the revenue and funding limit on Unity's page, and the Unity Student plan gives enrolled students aged 16 and older free access to Unity Pro."}},{"@type":"Question","name":"Is Unity good for kids under 13?","acceptedAnswer":{"@type":"Answer","text":"Unity's terms set 13 as the US minimum age for an account, so for younger children we suggest Scratch, MakeCode Arcade, Roblox Studio or Godot until they turn 13."}},{"@type":"Question","name":"What language does Unity use?","acceptedAnswer":{"@type":"Answer","text":"C#. Scripts are C# classes attached to objects as components, such as a script that moves a player or a coin that disappears when collected."}},{"@type":"Question","name":"What computer does Unity need?","acceptedAnswer":{"@type":"Answer","text":"For Unity 6.6, the docs list Windows 10 version 21H1 or newer, macOS Ventura 13 or newer, or Ubuntu 22.04 or 24.04, and recommend a minimum of 8 GB of RAM."}},{"@type":"Question","name":"Can you run Unity on a Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Not as a supported setup. ChromeOS is not among the systems in Unity's Editor requirements, which also say the Editor is supported without emulation or compatibility layers. On a Chromebook we suggest Godot, whose Android editor supports Chromebooks supporting Android apps."}},{"@type":"Question","name":"Why does tutorial code not work in my new Unity project?","acceptedAnswer":{"@type":"Answer","text":"A likely reason is that the tutorial uses Input.GetAxis, which Unity's docs say is part of the legacy Input Manager and should not be used in new projects. New projects should use the Input System package instead."}},{"@type":"Question","name":"Should a teen learn Unity or Godot?","acceptedAnswer":{"@type":"Answer","text":"Unity suits teens 13 and over on Windows, Mac or Ubuntu who want C# and larger 3D games. Godot suits teens on lighter computers or Chromebooks and those who prefer a free, open-source engine."}},{"@type":"Question","name":"How long does it take a teen to learn Unity?","acceptedAnswer":{"@type":"Answer","text":"Our teen course runs ten months, with a published 2D game by month three and a capstone at the end. The free first lesson ends with a script of their own moving an object."}},{"@type":"Question","name":"Are classes at times that suit a teenager?","acceptedAnswer":{"@type":"Answer","text":"Yes. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much are Unity classes?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. Lessons are then paid month by month, with the figure in US dollars in the Fees section on this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/unity-for-teens","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ut">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#age">Age rules</a></li>
+      <li><a href="#free">Free plans</a></li>
+      <li><a href="#computer">Computer</a></li>
+      <li><a href="#scripts">C# scripts</a></li>
+      <li><a href="#input">Old tutorials</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Unity for teens
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 13 to 18 &middot; Unity and C#</p>
+        <h1>Unity for teens</h1>
+        <p class="ag-lede">Unity is a natural next stop for a teenager once Scratch and Roblox start to feel small. It is a professional game engine programmed in C#, and it is free for most young learners. Before a teen installs it, though, a family should know three things that most tutorials skip: what Unity&rsquo;s own terms say about age, which free plan fits, and whether the computer at home can run it. This page answers all three from Unity&rsquo;s terms and documentation, then gives two first C# scripts written the way Unity now recommends, and explains why so many older tutorials no longer match what a new project does.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#scripts" class="ag-btn ag-btn--ghost">See the two scripts</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20wants%20to%20learn%20Unity%20and%20C%23.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ut'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Since 2020 &middot; 10,000+ students &middot; Unity and C# for teens, live online</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 13 to 18</dd>
+          <dt>Engine</dt><dd>Unity 6</dd>
+          <dt>Language</dt><dd>C#</dd>
+          <dt>Plan</dt><dd>Unity Personal, free</dd>
+          <dt>Computer</dt><dd>Windows, Mac or Ubuntu</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Can a teen use Unity?</p>
+      <p>Yes, from 13 in the US. Unity&rsquo;s terms require users to be at least the age of consent to data processing, given as 13 in the US, and 18 to make purchases or submit content to Unity. Modern Age Coders teaches Unity live online to US teens aged 13 to 18, in a batch or one to one, through our ten-month Game Development for Teens course in C#.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn Unity with a teacher</p>
+      <h2>Three courses for a teen starting Unity</h2>
+      <p class="ag-lede">Each is live, with the same teacher across the term, and each one ends with work a teen can show.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-game-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/game-dev-teens.webp" alt="Game Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UT / 01</p>
+          <h3>Game development for teens</h3>
+          <p>Ten months of Unity and C# for 13 to 18 year olds: 2D, then 3D, then a capstone.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cpp-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/cpp-teens.webp" alt="C++ for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UT / 02</p>
+          <h3>C++ for teens</h3>
+          <p>For teens who want to see what sits beneath an engine.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UT / 03</p>
+          <h3>Python for teens</h3>
+          <p>A gentler first language before C#, if a teen is brand new to code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="age">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Age and accounts</p><h2>What Unity&rsquo;s terms say about age</h2><p class="ag-lede">Unity needs an account, and its Terms of Service open with an eligibility section. We read the version last updated June 30, 2026. Here is what it says, and what we take it to mean for a teenager.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Age rules in the Unity Terms of Service and Student plan page (read 17 October 2026)</caption><thead><tr><th scope="col">Topic</th><th scope="col">What Unity says</th><th scope="col">In practice for a teen (ours)</th></tr></thead><tbody><tr><td>Minimum age</td><td>You must be at least the age to consent to processing of your personal data in your country, with 13 given for the US, 16 for the EU and no minimum for Australia and New Zealand</td><td>A US teen of 13 or older can hold an account</td></tr><tr><td>Purchases and submitting content</td><td>"You must be at least 18 years old to make Purchases or submit User Content to Unity."</td><td>Under 18, a teen should not plan to buy or submit assets on their own</td></tr><tr><td>Buying under 18</td><td>Only with the authorization of a legal guardian, who also agrees to the terms</td><td>A parent handles any paid add-on</td></tr><tr><td>Student plan</td><td>Students 16 years and older, enrolled in an accredited educational institution, who can consent to their personal data being processed</td><td>Possible from 16 for a teen in school, verified by SheerID</td></tr><tr><td>How long the Student plan lasts</td><td>One year, renewable while the student is enrolled</td><td>Renew each school year</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Which way into Unity, by age (ours, based on the rules above)</caption><thead><tr><th scope="col">Age</th><th scope="col">Our suggestion</th></tr></thead><tbody><tr><td>Under 13</td><td>Not Unity yet. Scratch, MakeCode Arcade, Roblox Studio or Godot, where the age fit is clearer</td></tr><tr><td>13 to 15</td><td>Unity Personal on an account set up together with a parent</td></tr><tr><td>16 to 17</td><td>Unity Personal, or the Student plan if the teen is enrolled in school and wants its extras</td></tr><tr><td>18</td><td>Any plan the student is eligible for, including making purchases on their own</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: <a class="ag-inline-link" href="https://unity.com/legal/terms-of-service" rel="noopener" target="_blank">Unity Terms of Service</a>, section 1, and <a class="ag-inline-link" href="https://unity.com/products/unity-student" rel="noopener" target="_blank">Unity Student plan</a>. This is a plain-English summary, not legal advice; terms change, so read them with your teen before signing up. We are not connected with Unity Technologies.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="free">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Is it free?</p><h2>Is Unity free for a teenager?</h2><p class="ag-lede">For almost every teen learning to make games, yes. There are two free routes, and they suit different ages.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Unity&rsquo;s free routes for students, from unity.com (read 17 October 2026)</caption><thead><tr><th scope="col">Plan</th><th scope="col">Who it is for</th><th scope="col">What Unity says it gives</th></tr></thead><tbody><tr><td>Unity Personal</td><td>Individuals and small organizations below a revenue and funding limit over the last 12 months, set out on Unity&rsquo;s page</td><td>Free access to what Unity calls the most widely used game engine in the world, with a splash screen you can customize</td></tr><tr><td>Unity Student</td><td>Students 16 and older enrolled in an accredited institution</td><td>Free access to Unity Pro, verified by SheerID and renewed yearly</td></tr><tr><td>Unity Learn</td><td>Anyone</td><td>Free, on-demand learning content designed for creators at every skill level</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Which one we use with teens</h3><p>We suggest Unity Personal for students aged 13 to 15. It has everything a learner needs for 2D and 3D games, and nothing about it limits a school-age project.</p>
+<p>Older students sometimes apply for the Student plan once they turn 16. We treat that as optional. The engine and the C# are the same; what matters is the work the student puts in.</p></div><div><h3>What a family might pay for</h3><p>Unity itself costs nothing on these plans. Some families later buy art or sound packs from the Unity Asset Store; Unity&rsquo;s terms say purchases under 18 need a guardian&rsquo;s authorization, so that decision belongs to a parent.</p>
+<p>Free assets are plentiful too, and our course teaches students to make simple art and sound themselves, which avoids the question for many projects.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="computer">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Will it run?</p><h2>What computer Unity needs, and why a Chromebook will not do</h2><p class="ag-lede">Unity&rsquo;s documentation lists the Editor requirements for each version. The current manual covers Unity 6.6.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Unity 6.6 Editor system requirements, from docs.unity3d.com (read 17 October 2026)</caption><thead><tr><th scope="col">System</th><th scope="col">Minimum version listed</th><th scope="col">Notes from the docs</th></tr></thead><tbody><tr><td>Windows</td><td>Windows 10 version 21H1 (build 19043) or newer on X64; Windows 11 21H2 or newer on Arm64</td><td>A GPU capable of DX10, DX11, DX12 or Vulkan</td></tr><tr><td>macOS</td><td>Ventura 13 or newer</td><td>Apple M1 or above; Intel Macs are listed as deprecated</td></tr><tr><td>Linux</td><td>Ubuntu 22.04 or Ubuntu 24.04</td><td>Gnome desktop on X11 or Wayland</td></tr><tr><td>Memory</td><td>A minimum of 8 GB RAM is recommended</td><td>Larger projects need more</td></tr><tr><td>Chromebook</td><td>ChromeOS is not on the list</td><td>The docs add that the Editor is supported on machines running without emulation, container or compatibility layer</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the family computer is older</h3><p>Unity gives 8 GB as a recommended minimum and adds that the memory a project needs depends on its size and complexity. That is a good reason to keep first projects small on an older machine, as our course does.</p>
+<p>On a Mac, check the macOS version first. Ventura 13 is the floor in the current manual, and Apple silicon is the supported path going forward.</p></div><div><h3>If there is only a Chromebook</h3><p>Unity is not the right first engine on a Chromebook. Godot&rsquo;s documentation says its Android editor supports Chromebooks supporting Android apps, so Godot with GDScript is the route we suggest until a Windows, Mac or Linux computer is available.</p>
+<p>The ideas carry over well: scenes, scripts, collisions and frame-rate independence work the same way, only the language and the menus change.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source, read 17 October 2026: <a class="ag-inline-link" href="https://docs.unity3d.com/Manual/system-requirements.html" rel="noopener" target="_blank">System requirements for Unity 6.6</a>. The Godot claim is from the Godot documentation page on its Android editor.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="scripts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">First C# code</p><h2>Two first Unity scripts, written the current way</h2><p class="ag-lede">Two short scripts we wrote for a first 3D practice scene. We used only APIs on Unity&rsquo;s own documentation pages: the Input System quickstart, Update, Time.deltaTime, OnTriggerEnter, CompareTag and Destroy.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 1 &middot; move a player with WASD, arrows or a gamepad</b><span>csharp</span></figcaption><pre>// PlayerMove.cs (ours, built on the Input System
+// quickstart in the Unity docs)
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class PlayerMove : MonoBehaviour
+{
+    public float speed = 5.0f;  // units per second
+    InputAction moveAction;
+
+    void Start()
+    {
+        moveAction = InputSystem.actions.FindAction("Move");
+    }
+
+    void Update()
+    {
+        Vector2 input = moveAction.ReadValue&lt;Vector2&gt;();
+        float x = input.x * speed * Time.deltaTime;
+        float z = input.y * speed * Time.deltaTime;
+        transform.Translate(x, 0, z);
+    }
+}</pre><p class="ag-code-note">The Input System quickstart says its default Move action is already bound to the WASD keys, the arrow keys and a gamepad stick, so this works with no input setup. Our arithmetic: at 5 units a second, the player moves 5 / 60, about 0.083 units, each frame at 60 frames a second and 5 / 30, about 0.167, at 30 frames a second. Either way it covers 5 units each second, which is the point of Time.deltaTime.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 2 &middot; a coin that disappears when collected</b><span>csharp</span></figcaption><pre>// Coin.cs on a coin whose collider is a trigger (ours)
+using UnityEngine;
+
+public class Coin : MonoBehaviour
+{
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Destroy(gameObject);  // the coin removes itself
+        }
+    }
+}</pre><p class="ag-code-note">Tag the player object Player in the Inspector. Unity&rsquo;s OnTriggerEnter page says both objects need a Collider, at least one must be a trigger collider and at least one must be a physics body collider, so give the player a Rigidbody as well.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why Time.deltaTime is the first big idea</h3><p>Unity&rsquo;s docs describe deltaTime as the interval in seconds from the last frame to the current one, and Update as being called every frame. A fast computer runs more frames than a slow one. Multiply by deltaTime and every player moves at the same real speed, whatever their machine.</p>
+<p>The docs add a neat consequence: when timeScale is set to zero, the application acts as if paused, provided every function is frame-rate independent. A teen who multiplies by deltaTime gets a pause button almost for free.</p></div><div><h3>Why the coin waits to vanish</h3><p>Unity&rsquo;s Destroy page says actual object destruction is always delayed until after the current Update loop. So the coin finishes the frame it is in before it goes, which keeps the game&rsquo;s state tidy.</p>
+<p>The next lesson adds a score: the coin tells a game manager it was collected before it removes itself, which is a teen&rsquo;s first taste of objects talking to each other.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="input">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Why tutorials disagree</p><h2>Old tutorials, new projects: the Input Manager and the Input System</h2><p class="ag-lede">A common frustration: a teen copies code from a popular video, and it does not behave as shown. A likely cause is that the video uses Unity&rsquo;s older input code, which Unity now tells developers to avoid in new projects.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Old and new input in Unity, from the Unity docs (read 17 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">Legacy Input Manager</th><th scope="col">Input System package</th></tr></thead><tbody><tr><td>Typical code</td><td><code>Input.GetAxis("Horizontal")</code></td><td><code>moveAction.ReadValue&lt;Vector2&gt;()</code></td></tr><tr><td>What Unity says</td><td>Part of the legacy Input Manager; Unity says you don&rsquo;t use this API in new projects</td><td>For new projects, use the Input System package</td></tr><tr><td>Where settings live</td><td>Edit, Project Settings, Input Manager</td><td>An Actions Asset, created from Project Settings, Input System Package</td></tr><tr><td>Ready-made controls</td><td>Named axes such as Horizontal and Vertical</td><td>Action Maps called Player and UI, with actions such as Move, Look, Jump and Attack</td></tr><tr><td>Jump key</td><td>Set by hand</td><td>The default Jump action is bound to the space key and a gamepad button</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Check the date of a tutorial.</b> Older ones may use Input.GetAxis. That code is legacy, which is why it can disagree with a brand-new project.</li><li><b>Read the Console.</b> Unity prints errors in the Console window with the script name and line. Start there.</li><li><b>Look for the using line.</b> Code for the Input System begins with using UnityEngine.InputSystem.</li><li><b>Translate, do not mix.</b> Rewrite an old tutorial&rsquo;s input lines in the new style rather than mixing both in one script.</li><li><b>Ask why, not just how.</b> A teen who understands why the input changed will handle the next change in Unity on their own.</li></ol>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: <a class="ag-inline-link" href="https://docs.unity3d.com/ScriptReference/Input.GetAxis.html" rel="noopener" target="_blank">Input.GetAxis</a> and the <a class="ag-inline-link" href="https://docs.unity3d.com/Packages/com.unity.inputsystem@1.14/manual/QuickStartGuide.html" rel="noopener" target="_blank">Input System Quickstart Guide</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="path">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The path</p><h2>From first cube to a published game: our teen Unity path</h2><p class="ag-lede">Our Game Development for Teens course runs ten months. These are the milestones a teen reaches along the way, phrased as what they can do, not what they sat through.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Milestones in our ten-month teen course (ours)</caption><thead><tr><th scope="col">By the end of</th><th scope="col">A teen can</th></tr></thead><tbody><tr><td>Month 1</td><td>Write a C# script that moves an object with input and deltaTime, and explain each line</td></tr><tr><td>Month 3</td><td>Finish and publish a complete 2D game with menus, sound and a score</td></tr><tr><td>Month 6</td><td>Build a 3D level with a controller, animation and a finished goal</td></tr><tr><td>Month 8</td><td>Add basic multiplayer or a mobile build, and design for players unlike themselves</td></tr><tr><td>Month 10</td><td>Ship a capstone game, present it, and answer questions about how it works</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>From Roblox</h3><p>Teens who scripted in Luau already know events and handlers. C# is stricter about types, and that is most of the adjustment.</p></div><div><h3>From Scratch or Python</h3><p>Loops and conditions carry straight over. The new parts are classes, components and the Unity editor itself.</p></div><div><h3>From nothing</h3><p>Fine. The course starts C# from zero, through games, at a pace grouped by age.</p></div></div>
+    <p class="ag-mt-40">Coming from Roblox? Our <a class="ag-inline-link" href="/how-to-make-a-roblox-game">Roblox game walkthrough</a> covers the Luau side. Drawn to engine internals? See <a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a> and <a class="ag-inline-link" href="/c-plus-plus-classes-for-teens">C++ classes for teens</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Getting comfortable</p>
+      <h2>Four signs a teen is getting good at Unity</h2>
+      <p class="ag-lede">What we look for, roughly in order.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Signs of progress in Unity (ours)</caption><thead><tr><th scope="col">Sign</th><th scope="col">What you will see</th></tr></thead><tbody><tr><td>1. Navigates</td><td class="ag-num">Moves around the Scene view, adds objects and components without help</td></tr><tr><td>2. Scripts</td><td class="ag-num">Writes small C# components and multiplies movement by deltaTime by habit</td></tr><tr><td>3. Debugs</td><td class="ag-num">Reads the Console, finds the line, and fixes it before asking</td></tr><tr><td>4. Structures</td><td class="ag-num">Splits a game into components that each do one job</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Sign 3 matters most. A teen who reads errors calmly has learned something every programmer needs.</p>
+<p>Ask to see the Console. If it is full of red, that is normal at first; if it is clear, they have done good work.</p></div><div><h3>For teens</h3><p>Keep scripts small. One script per job beats one giant script that does everything.</p>
+<p>Copy a tutorial once, then rebuild it from memory. The second time is where you learn.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses around Unity and game making</h2>
+      <p class="ag-lede">All live online, with a regular teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UT / TEN / 01</p>
+          <h4>Game development for teens</h4>
+          <p>Unity and C# over ten months.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UT / TEN / 02</p>
+          <h4>C++ for teens</h4>
+          <p>Pointers, structure and speed.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UT / TEN / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive pages and web games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Before Unity</h3>
+        <span class="ag-band-sub">Ages 6 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UT / PRE / 01</p>
+          <h4>Scratch coding</h4>
+          <p>Game logic in blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UT / PRE / 02</p>
+          <h4>Roblox game coding</h4>
+          <p>Luau and events, ages 8 to 14.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UT / PRE / 03</p>
+          <h4>Python for kids</h4>
+          <p>Typed code before C#.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Alongside or after</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UT / ADV / 01</p>
+          <h4>Python for teens</h4>
+          <p>A second language for tools and AI.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UT / ADV / 02</p>
+          <h4>Hackathon preparation</h4>
+          <p>Build fast with a team.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UT / ADV / 03</p>
+          <h4>Game development, adult track</h4>
+          <p>Unity and Unreal at 18 and over.</p>
+          <a class="ag-course-link" href="/courses/game-development-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">When lessons happen</p>
+      <h2>Unity classes at times a teenager can keep</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Choose a batch whose hour suits your time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings for teens with busy weekdays.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Planned around exams, sport and jobs.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A regular teacher</h3><p>Who reviews every project.</p></div>
+      <div><h3>Unity on screen</h3><p>Live work in the real editor.</p></div>
+      <div><h3>C# explained</h3><p>Every line, not just copied.</p></div>
+      <div><h3>Published games</h3><p>Finished work to show.</p></div>
+      <div><h3>Remote</h3><p>From any US state.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work by our students</h2>
+      <p class="ag-lede">Games and apps made by learners who started with no code at all. Browse more in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Unity Personal costs nothing for eligible learners, so families pay only for the teaching. Payment is monthly in US dollars, there is no year-long contract, and you can stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Free introductory lesson</li><li>Install Unity together</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty teens</li><li>One regular teacher</li><li>Choose a batch</li><li>Month to month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private Unity lessons</li><li>Scheduled by you</li><li>Built around their game</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from families, unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Unity for teens: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can a 13-year-old use Unity?</h3>
+        <p>Yes, in the US. Unity's terms say users must be at least the age to consent to processing of personal data in their country, and give 13 for the US. Purchases and submitting content to Unity require users to be 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Unity free for teenagers?</h3>
+        <p>For most, yes. Unity Personal is free for individuals and small organizations under the revenue and funding limit on Unity's page, and the Unity Student plan gives enrolled students aged 16 and older free access to Unity Pro.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Unity good for kids under 13?</h3>
+        <p>Unity's terms set 13 as the US minimum age for an account, so for younger children we suggest Scratch, MakeCode Arcade, Roblox Studio or Godot until they turn 13.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What language does Unity use?</h3>
+        <p>C#. Scripts are C# classes attached to objects as components, such as a script that moves a player or a coin that disappears when collected.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What computer does Unity need?</h3>
+        <p>For Unity 6.6, the docs list Windows 10 version 21H1 or newer, macOS Ventura 13 or newer, or Ubuntu 22.04 or 24.04, and recommend a minimum of 8 GB of RAM.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you run Unity on a Chromebook?</h3>
+        <p>Not as a supported setup. ChromeOS is not among the systems in Unity's Editor requirements, which also say the Editor is supported without emulation or compatibility layers. On a Chromebook we suggest Godot, whose Android editor supports Chromebooks supporting Android apps.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does tutorial code not work in my new Unity project?</h3>
+        <p>A likely reason is that the tutorial uses Input.GetAxis, which Unity's docs say is part of the legacy Input Manager and should not be used in new projects. New projects should use the Input System package instead.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should a teen learn Unity or Godot?</h3>
+        <p>Unity suits teens 13 and over on Windows, Mac or Ubuntu who want C# and larger 3D games. Godot suits teens on lighter computers or Chromebooks and those who prefer a free, open-source engine.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long does it take a teen to learn Unity?</h3>
+        <p>Our teen course runs ten months, with a published 2D game by month three and a capstone at the end. The free first lesson ends with a script of their own moving an object.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are classes at times that suit a teenager?</h3>
+        <p>Yes. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are Unity classes?</h3>
+        <p>The first lesson is free. Lessons are then paid month by month, with the figure in US dollars in the Fees section on this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for American teens choosing a path into game development.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Everything for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-roblox-game">How to make a Roblox game</a></h3><p>Where many Unity students start.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a></h3><p>The language under many engines.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-classes-for-teens">C++ classes for teens</a></h3><p>Our live C++ course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-13-year-olds">Coding for 13 year olds</a></h3><p>Choosing a first teen path.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Inside a live lesson.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free Unity lesson</h2>
+        <p class="ag-lede">Tell us your teen&rsquo;s age, what they have coded before, and the computer they will use. In the first lesson the teacher helps them install Unity, open a project and get a first object moving with their own script.</p>
+        <p class="ag-mt-40">Want to know how a class runs first? See <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, and find each syllabus on our <a class="ag-inline-link" href="/courses">courses page</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20wants%20to%20learn%20Unity%20and%20C%23.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ut',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We teach from India, live on video, so a teen anywhere in the US joins the same classes. Message us on WhatsApp for the fastest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ut(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free and needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Game development</h4><ul><li><a href="/c-plus-plus-game-development">C++ game development</a></li><li><a href="/how-to-make-a-roblox-game">How to make a Roblox game</a></li><li><a href="/c-plus-plus-classes-for-teens">C++ classes for teens</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/coding-for-13-year-olds">Coding for 13 year olds</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/congressional-app-challenge-guide">Congressional App Challenge</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Multiply by deltaTime</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ut = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'unity-for-teens-inline', meta: { name: name, age: age, page: 'unity-for-teens' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
