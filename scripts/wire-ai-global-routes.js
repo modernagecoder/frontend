@@ -413,6 +413,7 @@ const SLUGS = [
   'game-design-summer-camp-for-teens',
   'free-coding-programs-for-high-school-students',
   'computer-science-internships-for-high-school-students',
+  'homeschool-computer-science-high-school-credit',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -905,6 +906,7 @@ const LLMS_LABELS = {
   'game-design-summer-camp-for-teens': 'Game design summer camp for teens',
   'free-coding-programs-for-high-school-students': 'Free coding programs for high school students',
   'computer-science-internships-for-high-school-students': 'CS internships for high school students',
+  'homeschool-computer-science-high-school-credit': 'Homeschool CS high school credit',
 };
 
 function wireLlms(slugs) {

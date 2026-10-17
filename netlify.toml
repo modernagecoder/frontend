@@ -23541,6 +23541,18 @@
   to = "/src/pages/computer-science-internships-for-high-school-students.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/homeschool-computer-science-high-school-credit"
+  to = "/src/pages/homeschool-computer-science-high-school-credit.html"
+  status = 200
+
+[[redirects]]
+  from = "/homeschool-computer-science-high-school-credit.md"
+  to = "/src/pages/homeschool-computer-science-high-school-credit.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
