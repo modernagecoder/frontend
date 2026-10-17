@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [CS internships for high school students](/computer-science-internships-for-high-school-students)
 - [Free coding programs for high school students](/free-coding-programs-for-high-school-students)
 - [Game design summer camp for teens](/game-design-summer-camp-for-teens)
 - [Coding summer camp for middle schoolers](/coding-summer-camp-for-middle-schoolers)

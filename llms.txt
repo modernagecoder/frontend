@@ -643,6 +643,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Coding summer camp for middle schoolers: https://learn.modernagecoders.com/coding-summer-camp-for-middle-schoolers
 - Game design summer camp for teens: https://learn.modernagecoders.com/game-design-summer-camp-for-teens
 - Free coding programs for high school students: https://learn.modernagecoders.com/free-coding-programs-for-high-school-students
+- CS internships for high school students: https://learn.modernagecoders.com/computer-science-internships-for-high-school-students
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
