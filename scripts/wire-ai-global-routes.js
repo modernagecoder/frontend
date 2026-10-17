@@ -431,6 +431,7 @@ const SLUGS = [
   'godot-for-kids-and-teens',
   'unity-for-teens',
   'game-design-classes-for-teens',
+  'video-game-coding-classes-for-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -941,6 +942,7 @@ const LLMS_LABELS = {
   'godot-for-kids-and-teens': 'Godot for kids and teens',
   'unity-for-teens': 'Unity for teens',
   'game-design-classes-for-teens': 'Game design classes for teens',
+  'video-game-coding-classes-for-kids': 'Video game coding classes for kids',
 };
 
 function wireLlms(slugs) {

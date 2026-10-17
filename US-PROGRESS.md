@@ -172,7 +172,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 5 | how-to-make-a-video-game-for-kids (hmvg, #573D0D) | game | 4,150 | 1.6% vs how-to-make-a-roblox-game | phase 2 | the game loop (input, rules, score, an ending) | 7ac97fce |
 | 6 | godot-for-kids-and-teens (gkt, #546B1D) | game | 4,310 | 1% vs game-design-summer-camp-for-teens | phase 2 | signals and events (a node announces, another node reacts) | 1d2f8caf |
 | 7 | unity-for-teens (ut, #4D6B40) | game | 3,947 | 1.2% vs vs-code-setup-for-students | phase 2 | frame-rate independence (multiply by deltaTime) | 845b51f7 |
-| 8 | game-design-classes-for-teens (gdt, #1E703E) | game | 5,191 | 1.2% vs unity-for-teens | phase 2 | iteration and tuning (change one number, test, record) | (this commit) |
+| 8 | game-design-classes-for-teens (gdt, #1E703E) | game | 5,191 | 1.2% vs unity-for-teens | phase 2 | iteration and tuning (change one number, test, record) | d539598a |
+| 9 | video-game-coding-classes-for-kids (vgk, #406B66) | game | 3,707 | 1.1% vs computer-science-internships-for-high-school-students | phase 2 | games as systems (every game feature is a coding concept in disguise) | (this commit) |
 
 ## Skipped
 
