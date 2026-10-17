@@ -23709,6 +23709,18 @@
   to = "/src/pages/lua-for-kids.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/how-to-make-a-video-game-for-kids"
+  to = "/src/pages/how-to-make-a-video-game-for-kids.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-make-a-video-game-for-kids.md"
+  to = "/src/pages/how-to-make-a-video-game-for-kids.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

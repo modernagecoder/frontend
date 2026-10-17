@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to Make a Video Game for Kids: Free Tools and Steps</title>
+  <meta name="description" content="How to make a video game as a kid, free: tools by age and computer, seven steps, a real MakeCode Arcade game to copy, safe sharing, and when to try 3D.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids">
+  <link rel="alternate" type="text/markdown" href="/src/pages/how-to-make-a-video-game-for-kids.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#573D0D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids">
+  <meta property="og:title" content="How to Make a Video Game for Kids: Free Tools and Steps">
+  <meta property="og:description" content="Kids can make a real video game for free in a browser. Tools by age and device, seven steps, a 20-line MakeCode Arcade game, and what to know before sharing it.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Make a Video Game for Kids: Free Tools and Steps">
+  <meta name="twitter:description" content="How to make a video game as a kid: free tools, seven steps and a real game to copy.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-hmvg .ag-hero h1 { letter-spacing: -0.01em; max-width: 22ch; }
+.ag-root.ag-hmvg .ag-capsule { border-left-width: 7px; border-radius: 3px; }
+.ag-root.ag-hmvg .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-hmvg .ag-table caption { text-align: left; }
+.ag-root.ag-hmvg .ag-grid-3 { gap: 1.4rem; }
+.ag-root.ag-hmvg .ag-band-head h3 { letter-spacing: -0.004em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids#page","url":"https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids","name":"How to Make a Video Game for Kids","description":"A step-by-step guide for US children and parents to making a first video game with free tools: Scratch, MakeCode Arcade, Roblox Studio and Godot, a working MakeCode game, sharing settings and a first-course plan.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"How to make a video game for kids","item":"https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids"}]},{"@type":"Course","name":"How to Make a Video Game for Kids","description":"Live online game-making classes for children aged 6 to 12 in the United States, in Scratch, Roblox and Minecraft, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How can a kid make a video game?","acceptedAnswer":{"@type":"Answer","text":"Pick a free tool that fits their age and computer, such as Scratch or MakeCode Arcade in a browser. Choose one thing the player does and one way to win, build the moving part first, then add the rule, and let someone else play it."}},{"@type":"Question","name":"What is the easiest way for a kid to make a game?","acceptedAnswer":{"@type":"Answer","text":"Scratch, for a child new to coding. Its blocks snap together so there are no typing errors, and the Scratch Foundation says Scratch is free for everyone. A first Scratch game can be finished in one afternoon."}},{"@type":"Question","name":"Can kids make a video game for free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Scratch, MakeCode Arcade, Roblox Studio and Godot are all free to use. Roblox Studio needs a Windows or Mac computer; the others work in a browser or on more kinds of computer."}},{"@type":"Question","name":"Can my child make a game on a Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Yes. Scratch and MakeCode Arcade run in the browser, and Godot has an Android editor that supports Chromebooks supporting Android apps. Roblox Studio is the exception: Roblox says it cannot run on Chromebooks."}},{"@type":"Question","name":"What age can a child start making video games?","acceptedAnswer":{"@type":"Answer","text":"Around 6 with Scratch, if they can read simple words. From about 8 many are ready for MakeCode Arcade, and Roblox says its team typically recommends Roblox Studio for ages 10 and up."}},{"@type":"Question","name":"How do you make a 3D game as a kid?","acceptedAnswer":{"@type":"Answer","text":"Start with one or two 2D games, then move to Roblox Studio on Windows or Mac, or coded Minecraft. Godot's own tutorial recommends 2D before 3D, which it says tends to be more complicated."}},{"@type":"Question","name":"Where are MakeCode Arcade games saved?","acceptedAnswer":{"@type":"Answer","text":"MakeCode says projects are kept in the browser's local storage, and clearing browsing data removes them. Save a copy to a file, or sign in, before clearing the browser."}},{"@type":"Question","name":"Is it safe for kids to share their games?","acceptedAnswer":{"@type":"Answer","text":"It depends on the tool. MakeCode says anyone with a shared link can see the project. Roblox keeps a new game private to the creator and collaborators until it is released. Share links only with people you know until a parent has checked the game."}},{"@type":"Question","name":"Can kids use Unity?","acceptedAnswer":{"@type":"Answer","text":"Unity's terms set the minimum age for an account at the age of consent to data processing, given as 13 in the US. For a child under 13 we suggest Scratch, MakeCode Arcade or Roblox Studio for their own projects."}},{"@type":"Question","name":"Do the classes run on weekdays or weekends?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do game-making classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. Then you pay for one month of teaching at a time, and this page's Fees section shows the monthly price in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/how-to-make-a-video-game-for-kids","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-hmvg">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#tools">Free tools</a></li>
+      <li><a href="#steps">Seven steps</a></li>
+      <li><a href="#game">A real game</a></li>
+      <li><a href="#sharing">Sharing safely</a></li>
+      <li><a href="#three-d">3D games</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / How to make a video game for kids
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 6 to 12 &middot; Scratch, MakeCode Arcade, Roblox</p>
+        <h1>How to make a video game when you are a kid</h1>
+        <p class="ag-lede">Making a video game as a kid is easier than it sounds, and it can cost nothing. Children can build a working game in a web browser in an afternoon, on the same Chromebook they use for school. What makes it go well is choosing a tool that fits the child&rsquo;s age and computer, starting with an idea small enough to finish, and testing it on someone else. This guide covers all three, then gives your child a complete twenty-line game to type in, explains what happens when they press Share, and answers the question every young player asks next: can I make it 3D?</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#game" class="ag-btn ag-btn--ghost">Copy the game</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20make%20video%20games.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hmvg'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching children since 2020 &middot; 10,000+ students &middot; Games in a browser, no download needed</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 6 to 12</dd>
+          <dt>First tools</dt><dd>Scratch, MakeCode Arcade</dd>
+          <dt>Later</dt><dd>Roblox Studio, Minecraft</dd>
+          <dt>Cost of tools</dt><dd>Free</dd>
+          <dt>Computer</dt><dd>A Chromebook is fine to start</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In one paragraph</p>
+      <p>To make a video game, a kid picks a free tool that suits their age and computer, such as Scratch or MakeCode Arcade in a browser, or Roblox Studio on Windows or Mac, plans one small idea, builds it, and tests it on family. Modern Age Coders teaches children aged 6 to 12 live online, in a batch or one to one, through our Scratch and Game Development for Kids courses.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Make games with a teacher</p>
+      <h2>Three courses where children finish real games</h2>
+      <p class="ag-lede">Live and small enough that every child shares a screen, and every class ends with something playable.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/game-development-masterclass-for-kids">
+        <div class="ag-pick-shot"><img src="/images/game-dev-kids.webp" alt="Game Development for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HMVG / 01</p>
+          <h3>Game development for kids</h3>
+          <p>For 8 to 12 year olds, about six months: Scratch games, then Roblox Studio and coded Minecraft.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Scratch Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HMVG / 02</p>
+          <h3>Scratch coding</h3>
+          <p>From age 6. The friendliest way to build a first game, in blocks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/roblox-game-coding-for-kids-lua-course">
+        <div class="ag-pick-shot"><img src="/images/roblox-coding-kids.webp" alt="Roblox Game Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HMVG / 03</p>
+          <h3>Roblox game coding</h3>
+          <p>Ages 8 to 14 with a Windows or Mac computer. Typed Luau scripts.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Pick a tool</p><h2>Free tools a kid can make a game with, by age and computer</h2><p class="ag-lede">There is no single right tool. There is a right first tool for your child&rsquo;s age, reading level and the computer in the house. Each row below uses what the tool&rsquo;s own makers say.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four free game-making tools, from each maker&rsquo;s own pages (read 17 October 2026)</caption><thead><tr><th scope="col">Tool</th><th scope="col">How kids code in it</th><th scope="col">What it runs on</th><th scope="col">Good first choice for</th></tr></thead><tbody><tr><td>Scratch</td><td>Blocks that drag and snap together; the Scratch Foundation says no tricky syntax is required</td><td>A web browser</td><td>Ages 6 to 10, and any child who has never coded</td></tr><tr><td>MakeCode Arcade</td><td>Blocks, with JavaScript and Python views of the same program</td><td>A web browser; Microsoft calls it a code editor for Retro Arcade games</td><td>Ages 8 to 12 who want a game that looks like a classic console game</td></tr><tr><td>Roblox Studio</td><td>Typed Luau scripts</td><td>Windows or Mac only; Roblox says Studio cannot run on Chromebooks or phones</td><td>Ages 10 and up, the age Roblox&rsquo;s education team typically suggests</td></tr><tr><td>Godot</td><td>GDScript, a typed language</td><td>Windows, Mac, Linux, a web editor, and an Android editor for Chromebooks supporting Android apps</td><td>Confident readers of about 11 and up who want a full engine</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If your child is 6 to 8</h3><p>Start in Scratch. Its blocks only fit together in ways that make sense, so children spend their time on ideas instead of typing errors. The Scratch Foundation says Scratch is free for everyone and was developed at the MIT Media Lab in 2007.</p>
+<p>A first Scratch game can be one cat chasing one mouse with a score. That counts. The core ideas behind professional games, events, loops and conditions, are already there.</p></div><div><h3>If your child is 9 to 12</h3><p>MakeCode Arcade is a strong second step because the same program can be viewed as blocks or as JavaScript. Children see typed code that matches blocks they already understand.</p>
+<p>If the family has a Windows or Mac computer and the child loves Roblox, Roblox Studio is the next door. Unity is a teen tool: its terms set the minimum account age in the US at 13.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: the <a class="ag-inline-link" href="https://www.scratchfoundation.org/home" rel="noopener" target="_blank">Scratch Foundation</a>, <a class="ag-inline-link" href="https://arcade.makecode.com/about" rel="noopener" target="_blank">About MakeCode Arcade</a>, the Roblox Creator documentation, <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/tutorials/editor/using_the_android_editor.html" rel="noopener" target="_blank">Godot&rsquo;s Android editor page</a> and the Unity Terms of Service. The age suggestions in the last column are ours. We are not connected with any of these organizations.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="steps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Step by step</p><h2>Seven steps from idea to a game someone else has played</h2><p class="ag-lede">Written for kids, with a note for parents at the end. The steps are the same whichever tool you choose.</p></div>
+    <ol class="ag-steps"><li><b>Think of one thing the player does.</b> Jump, catch, dodge, steer, match. Just one. A game about everything never gets made.</li><li><b>Say how you win and how you lose.</b> Catch ten apples to win. Get hit three times and you lose. Write it on paper.</li><li><b>Draw it.</b> A box for the screen, your player, the thing to catch or avoid. Five minutes with a pencil saves an hour of building.</li><li><b>Build the moving part first.</b> Make your player move with the arrow keys before anything else. Nothing is more fun to test.</li><li><b>Add the rule.</b> When the player touches the apple, add a point. When the clock runs out, the game ends.</li><li><b>Let someone else play.</b> A parent, a brother, a friend. Do not tell them how. Watch where they get stuck.</li><li><b>Fix one thing, then share.</b> Change the thing that confused them most, play again, and only then show it off.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why one thing</h3><p>It is tempting to start with a whole world in your head: twenty levels, a boss, a shop, a story. Then the first afternoon ends with a menu screen and nothing to play. One verb, one rule and one ending gives them a finished game on day one, and finished games are what keep children making more.</p>
+<p>Big ideas are not wasted. We ask children to keep an ideas notebook, so the boss and the shop wait their turn instead of crowding out game number one.</p></div><div><h3>A note for parents</h3><p>The most helpful thing a parent can do is be the playtester in step 6, and stay quiet. If you get stuck, say so: that is real information for the young designer.</p>
+<p>Praise the decisions, not just the result. "You made the apples faster when I got good, that was clever" teaches more than "great game".</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="game">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real game to copy</p><h2>A complete MakeCode Arcade game in about twenty lines</h2><p class="ag-lede">A good first typed game, which we wrote for this page. Open MakeCode Arcade in a browser, start a new project, switch to the JavaScript view, and type it in. We wrote it using only blocks and functions described in the MakeCode Arcade reference.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>MakeCode Arcade &middot; Snack Dash</b><span>javascript</span></figcaption><pre>// MakeCode Arcade, JavaScript view (ours):
+// catch as many snacks as you can in 30 seconds
+let heroImg = image.create(16, 16)
+heroImg.fill(9)
+let hero = sprites.create(heroImg, SpriteKind.Player)
+controller.moveSprite(hero, 100, 100)
+
+let snackImg = image.create(8, 8)
+snackImg.fill(5)
+let snack = sprites.create(snackImg, SpriteKind.Food)
+
+function moveSnack() {
+    snack.setPosition(
+        randint(10, scene.screenWidth() - 10),
+        randint(10, scene.screenHeight() - 10))
+}
+moveSnack()
+
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
+    info.changeScoreBy(1)
+    moveSnack()
+})
+
+info.startCountdown(30)</pre><p class="ag-code-note">Switch back to Blocks and the same program appears as blocks. Our arithmetic: a player who grabs a snack every 2 seconds scores 15 before the 30-second countdown ends (30 / 2 = 15).</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>What each part of Snack Dash does, using the MakeCode Arcade reference (read 17 October 2026)</caption><thead><tr><th scope="col">Code</th><th scope="col">What the reference says it does</th></tr></thead><tbody><tr><td>image.create and fill</td><td>Makes a blank picture and colors it in, here a 16 by 16 square for the hero and an 8 by 8 one for the snack</td></tr><tr><td>sprites.create</td><td>Creates a sprite from a picture; kinds such as Player, Enemy and Food already exist</td></tr><tr><td>controller.moveSprite</td><td>Moves a sprite with the direction buttons at the speeds you choose</td></tr><tr><td>randint</td><td>Gives a random whole number from the smallest to the largest, both included</td></tr><tr><td>sprites.onOverlap</td><td>Runs code when a sprite of one kind overlaps a sprite of another kind</td></tr><tr><td>info.changeScoreBy</td><td>Adds to the score, or takes away if the number is negative</td></tr><tr><td>info.startCountdown</td><td>Sets the game time in seconds; when it finishes, the game ends</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Level-up challenges for Snack Dash (ours)</caption><thead><tr><th scope="col">Challenge</th><th scope="col">What to change</th><th scope="col">What it teaches</th></tr></thead><tbody><tr><td>Faster hero</td><td>The two 100s in moveSprite</td><td>Numbers control how a game feels</td></tr><tr><td>A tricky snack</td><td>Give the snack its own speed so it drifts</td><td>Movement without the player</td></tr><tr><td>An enemy</td><td>A second sprite of kind Enemy that costs a point on overlap</td><td>Two rules at once</td></tr><tr><td>A bonus round</td><td>Start a longer countdown after 10 points</td><td>Conditions and state</td></tr><tr><td>Your own art</td><td>Draw the hero in the image editor instead of a square</td><td>Games need artists too</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: the MakeCode Arcade reference pages for <a class="ag-inline-link" href="https://arcade.makecode.com/reference/sprites/create" rel="noopener" target="_blank">sprites.create</a>, <a class="ag-inline-link" href="https://arcade.makecode.com/reference/controller/move-sprite" rel="noopener" target="_blank">controller.moveSprite</a>, <a class="ag-inline-link" href="https://arcade.makecode.com/reference/sprites/on-overlap" rel="noopener" target="_blank">sprites.onOverlap</a>, <a class="ag-inline-link" href="https://arcade.makecode.com/reference/info/start-countdown" rel="noopener" target="_blank">info.startCountdown</a> and <a class="ag-inline-link" href="https://arcade.makecode.com/reference/math/randint" rel="noopener" target="_blank">randint</a>. MakeCode marks the older Math.randomRange as deprecated, which is why the game uses randint.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="fun">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Making it fun</p><h2>Three questions that turn a working game into a fun one</h2><p class="ag-lede">A game that runs is not yet a game people want to play again. After the first playtest, we ask children three questions, in this order.</p></div>
+    <div class="ag-grid-3"><div><h3>Is it too easy or too hard?</h3><p>Watch the playtester. Bored means too easy; giving up means too hard. Change one number, such as speed or time, and test again.</p></div><div><h3>Does the player know what to do?</h3><p>If they wander, add a hint: a title that says "Catch the snacks!" or an arrow. Good games teach without a manual.</p></div><div><h3>Does winning feel good?</h3><p>A sound, a flash, a message. Small rewards make players smile, and a smile is the clearest sign a game is working.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What changing one number teaches</h3><p>In Snack Dash, a countdown of 10 seconds feels frantic and 60 feels sleepy. Somewhere between is right for each player. Children who try three values and pick one have done what game designers call tuning, without needing the word.</p>
+<p>It is also quiet maths: comparing values, predicting results, and checking a guess against what really happened.</p></div><div><h3>Ideas for a second game</h3><p>A maze with a timer. A pong game for two players on one keyboard. A dodge game where things fall from the top. A quiz where each right answer makes your character jump higher.</p>
+<p>Each one reuses the same parts as Snack Dash, a moving player, a rule and an ending, arranged differently.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="sharing">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Saving and sharing</p><h2>Where a child&rsquo;s game is saved, and who can see it</h2><p class="ag-lede">Parents ask this as soon as a child says "can I show my friends?". The answer is different in each tool, so here is what each maker says.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Saving and sharing, from each tool&rsquo;s own pages (read 17 October 2026)</caption><thead><tr><th scope="col">Tool</th><th scope="col">Where projects are saved</th><th scope="col">What sharing does</th></tr></thead><tbody><tr><td>MakeCode Arcade</td><td>In the browser&rsquo;s local storage; MakeCode warns that clearing browsing data removes saved projects</td><td>A shared project goes to MakeCode&rsquo;s public cloud, and anyone can see your project if they have its shared URL</td></tr><tr><td>Scratch</td><td>Not covered here, because Scratch&rsquo;s help pages could not be read as plain text</td><td>Shared projects appear in what the Scratch Foundation calls a safe, moderated online community</td></tr><tr><td>Roblox Studio</td><td>Published to Roblox with File, Publish, under the creator&rsquo;s account</td><td>By default, a new game is only open to the creator, people with edit access and group members until it is released</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Our three rules for young sharers</h3><p>Save a copy to a file before clearing the browser, or sign in so projects are kept online. Losing a first game to a cleared cache is a sad and common afternoon.</p>
+<p>Share links only with people you know, by message or email, until a parent has looked at the game.</p>
+<p>Use a nickname in the game, never a full name, school or town.</p></div><div><h3>Accounts and age</h3><p>Each tool has its own account rules, and they change. Check the sign-up page together with your child before creating an account, especially for children under 13.</p>
+<p>For a younger child, a parent can set up and manage any account, and keep sharing switched off until the game is ready to show.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: the <a class="ag-inline-link" href="https://arcade.makecode.com/faq" rel="noopener" target="_blank">MakeCode Arcade FAQ</a>, the Scratch Foundation home page and the Roblox Creator documentation on publishing.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="three-d">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Going 3D</p><h2>Can a kid make a 3D video game?</h2><p class="ag-lede">Yes, but it is the second game, not the first. Even the Godot engine&rsquo;s own tutorial says that if you are new to game development, it recommends starting with 2D games before tackling 3D games, which tend to be more complicated.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Ways a child can make a 3D game (from each maker&rsquo;s docs; ages ours)</caption><thead><tr><th scope="col">Route</th><th scope="col">Needs</th><th scope="col">Typical age to start</th></tr></thead><tbody><tr><td>Roblox Studio</td><td>A Windows or Mac computer; Luau scripts</td><td>About 10 and up</td></tr><tr><td>Coded Minecraft worlds</td><td>Minecraft, coded in class as part of our kids course</td><td>About 8 and up</td></tr><tr><td>Godot 3D</td><td>A computer able to run the 3D renderers in Godot&rsquo;s system requirements</td><td>About 12 and up</td></tr><tr><td>Unity</td><td>A Windows, Mac or Linux computer and an account</td><td>13 and up, from Unity&rsquo;s terms</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why 2D first</h3><p>In 2D there are two directions, left-right and up-down. In 3D a third appears, and with it cameras, lighting and depth. Every one of those is a new thing that can go wrong.</p>
+<p>A child who has finished two or three 2D games already knows how to plan, test and fix. They bring those habits to 3D and the extra difficulty becomes interesting instead of overwhelming.</p></div><div><h3>How our kids course handles it</h3><p>Our Game Development for Kids course spends its first two months on game logic in Scratch, the next two on 2D polish and bigger builds, and saves 3D worlds in Roblox Studio and coded Minecraft for months five and six.</p>
+<p>Roblox fans can continue with our <a class="ag-inline-link" href="/how-to-make-a-roblox-game">Roblox game walkthrough</a>, which deals with which computers work, three starter scripts and keeping a first game private.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Growing as a game maker</p>
+      <h2>Four stages of a young game maker</h2>
+      <p class="ag-lede">Four stages a young game maker moves through, each at their own speed.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a young game maker (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Remixer</td><td class="ag-num">Changes someone else&rsquo;s game: new colors, faster enemies</td></tr><tr><td>2. Copier with ideas</td><td class="ag-num">Types a game like Snack Dash, then adds one rule of their own</td></tr><tr><td>3. Maker</td><td class="ag-num">Plans a small game on paper and builds it from a blank project</td></tr><tr><td>4. Designer</td><td class="ag-num">Tests on other people and changes the game because of what they saw</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Remixing is a real first step, not cheating. It shows a child what each part of a game does.</p>
+<p>Ask your child to explain one rule in their game. Explaining is the clearest sign of real understanding.</p></div><div><h3>For kids</h3><p>Small and finished beats big and unfinished, every time.</p>
+<p>If your game breaks, change one thing and test again. That is what real game developers do all day.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Our courses</p>
+      <h2>Nine courses for kids who want to make games</h2>
+      <p class="ag-lede">Live online, with the same teacher each week, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>First games</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / KID / 01</p>
+          <h4>Scratch coding</h4>
+          <p>First games in blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / KID / 02</p>
+          <h4>Game development for kids</h4>
+          <p>Scratch, then 3D worlds.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / KID / 03</p>
+          <h4>Minecraft coding</h4>
+          <p>Code that shapes a blocky world.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Typed code</h3>
+        <span class="ag-band-sub">Ages 8 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / TXT / 01</p>
+          <h4>Roblox game coding</h4>
+          <p>Luau scripts for real Roblox games.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / TXT / 02</p>
+          <h4>Python for kids</h4>
+          <p>Text games, turtle art, first AI.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / TXT / 03</p>
+          <h4>Python for teens</h4>
+          <p>For older brothers and sisters.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>When they turn 13</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / TEN / 01</p>
+          <h4>Game development for teens</h4>
+          <p>Unity and C#, 2D then 3D.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / TEN / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Browser games to share by link.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HMVG / TEN / 03</p>
+          <h4>C++ for teens</h4>
+          <p>The language under many engines.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Class times</p>
+      <h2>Game-making classes that fit around school</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">A batch at an hour that fits your family, wherever you are in the US.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning sessions that leave the day open.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Whatever time your child learns well.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A teacher who stays</h3><p>The same face each week.</p></div>
+      <div><h3>Building, not watching</h3><p>Children share their screen and make.</p></div>
+      <div><h3>A game every few weeks</h3><p>Finished, not half done.</p></div>
+      <div><h3>Family playtests</h3><p>Homework is letting you play.</p></div>
+      <div><h3>Online</h3><p>From home, anywhere in the US.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty, or just your child.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Games our students have made</h2>
+      <p class="ag-lede">Built by children who started exactly where yours is. See more in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Scratch, MakeCode Arcade and Roblox Studio are all free, so the only cost is the teaching. Families pay for it monthly, in US dollars, and can leave whenever a month ends.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A first class on us</li><li>Your child makes a game in it</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty kids</li><li>The same teacher</li><li>A batch time you pick</li><li>Billed monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private lessons</li><li>Times that suit you</li><li>Your child&rsquo;s own game ideas</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Word for word, what parents posted on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Making a video game as a kid: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How can a kid make a video game?</h3>
+        <p>Pick a free tool that fits their age and computer, such as Scratch or MakeCode Arcade in a browser. Choose one thing the player does and one way to win, build the moving part first, then add the rule, and let someone else play it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the easiest way for a kid to make a game?</h3>
+        <p>Scratch, for a child new to coding. Its blocks snap together so there are no typing errors, and the Scratch Foundation says Scratch is free for everyone. A first Scratch game can be finished in one afternoon.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can kids make a video game for free?</h3>
+        <p>Yes. Scratch, MakeCode Arcade, Roblox Studio and Godot are all free to use. Roblox Studio needs a Windows or Mac computer; the others work in a browser or on more kinds of computer.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child make a game on a Chromebook?</h3>
+        <p>Yes. Scratch and MakeCode Arcade run in the browser, and Godot has an Android editor that supports Chromebooks supporting Android apps. Roblox Studio is the exception: Roblox says it cannot run on Chromebooks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can a child start making video games?</h3>
+        <p>Around 6 with Scratch, if they can read simple words. From about 8 many are ready for MakeCode Arcade, and Roblox says its team typically recommends Roblox Studio for ages 10 and up.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you make a 3D game as a kid?</h3>
+        <p>Start with one or two 2D games, then move to Roblox Studio on Windows or Mac, or coded Minecraft. Godot's own tutorial recommends 2D before 3D, which it says tends to be more complicated.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where are MakeCode Arcade games saved?</h3>
+        <p>MakeCode says projects are kept in the browser's local storage, and clearing browsing data removes them. Save a copy to a file, or sign in, before clearing the browser.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is it safe for kids to share their games?</h3>
+        <p>It depends on the tool. MakeCode says anyone with a shared link can see the project. Roblox keeps a new game private to the creator and collaborators until it is released. Share links only with people you know until a parent has checked the game.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can kids use Unity?</h3>
+        <p>Unity's terms set the minimum age for an account at the age of consent to data processing, given as 13 in the US. For a child under 13 we suggest Scratch, MakeCode Arcade or Roblox Studio for their own projects.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do the classes run on weekdays or weekends?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do game-making classes cost?</h3>
+        <p>The first class is free. Then you pay for one month of teaching at a time, and this page's Fees section shows the monthly price in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US families with a young game maker.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Every page for American families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-roblox-game">How to make a Roblox game</a></h3><p>The next step for Roblox fans.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch coding classes</a></h3><p>Our live Scratch classes.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced">Scratch project ideas</a></h3><p>Thirty-plus games and stories to try.</p></div>
+      <div><h3><a class="ag-inline-link" href="/minecraft-coding-classes-for-kids">Minecraft coding classes</a></h3><p>Coding inside Minecraft.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-10-year-olds">Coding for 10 year olds</a></h3><p>Where a ten-year-old can start.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free game-making class</h2>
+        <p class="ag-lede">Tell us your child&rsquo;s age, the games they love and the computer at home. In the first class the teacher helps them build a small game of their own, so they finish with something to show you.</p>
+        <p class="ag-mt-40">To see what a class looks like first, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or look through <a class="ag-inline-link" href="/courses">our full course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20make%20video%20games.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hmvg',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers live in India and teach every class live on video, which is how a family in any US state can join. WhatsApp gets the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_hmvg(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first class, and no card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Making games</h4><ul><li><a href="/how-to-make-a-roblox-game">How to make a Roblox game</a></li><li><a href="/scratch-coding-classes-for-kids">Scratch coding classes</a></li><li><a href="/roblox-coding-classes-for-kids">Roblox coding classes</a></li><li><a href="/blog/top-coding-games-platforms-make-learning-fun-kids">Coding games for kids</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/coding-for-10-year-olds">Coding for 10 year olds</a></li><li><a href="/best-age-to-start-coding">When to start coding</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Input, a rule, a score and an ending</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_hmvg = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'how-to-make-a-video-game-for-kids-inline', meta: { name: name, age: age, page: 'how-to-make-a-video-game-for-kids' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

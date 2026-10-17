@@ -7110,4 +7110,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /lua-for-kids /src/pages/lua-for-kids.html 200
 /lua-for-kids.md /src/pages/lua-for-kids.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/how-to-make-a-video-game-for-kids /src/pages/how-to-make-a-video-game-for-kids.html 200
+/how-to-make-a-video-game-for-kids.md /src/pages/how-to-make-a-video-game-for-kids.md 200
 /* /src/pages/404.html 404

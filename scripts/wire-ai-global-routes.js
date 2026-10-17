@@ -427,6 +427,7 @@ const SLUGS = [
   'coding-milestones-by-age',
   'ai-literacy-for-elementary-students',
   'lua-for-kids',
+  'how-to-make-a-video-game-for-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -933,6 +934,7 @@ const LLMS_LABELS = {
   'coding-milestones-by-age': 'Coding milestones by age',
   'ai-literacy-for-elementary-students': 'AI literacy for elementary students',
   'lua-for-kids': 'Lua for kids',
+  'how-to-make-a-video-game-for-kids': 'How to make a video game for kids',
 };
 
 function wireLlms(slugs) {
