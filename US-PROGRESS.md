@@ -183,7 +183,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 140 | code-org-app-lab-help (coal, #144785) | tools | 4,179 | 2.1% vs codehs-help-for-students | phase T | events and state (a handler runs on each event; state that must survive lives ou | e550bb37 |
 | 141 | java-cannot-find-symbol-error (jcfs, #1B158F) | tools | 4,847 | 1.9% vs python-indentation-error-explained | phase T | scope and declaration (a name exists only where it was declared) | de055ff8 |
 | 142 | bluej-not-working-fix (bnwf, #8A4E65) | tools | 4,465 | 1.8% vs java-cannot-find-symbol-error | phase T | objects and the object bench (calling methods on objects you created yourself) | acfbce4d |
-| 149 | eclipse-java-help-for-students (ej, #572429) | tools | 4,695 | 1.4% vs bluej-not-working-fix | phase T | tools and environment (the editor, the compiler and the Java runtime are three d | (this commit) |
+| 149 | eclipse-java-help-for-students (ej, #572429) | tools | 4,695 | 1.4% vs bluej-not-working-fix | phase T | tools and environment (the editor, the compiler and the Java runtime are three d | fd5b1886 |
+| 147 | intellij-and-pycharm-free-for-students (ipf, #943C16) | tools | 4,044 | 2% vs codehs-help-for-students | phase T | environments (which interpreter or JDK is really running your code) | (this commit) |
 
 ## Skipped
 

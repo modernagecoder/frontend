@@ -442,6 +442,7 @@ const SLUGS = [
   'java-cannot-find-symbol-error',
   'bluej-not-working-fix',
   'eclipse-java-help-for-students',
+  'intellij-and-pycharm-free-for-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -963,6 +964,7 @@ const LLMS_LABELS = {
   'java-cannot-find-symbol-error': 'Java cannot find symbol error',
   'bluej-not-working-fix': 'BlueJ not working: fixes',
   'eclipse-java-help-for-students': 'Eclipse Java help for students',
+  'intellij-and-pycharm-free-for-students': 'IntelliJ and PyCharm free for students',
 };
 
 function wireLlms(slugs) {
