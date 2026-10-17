@@ -415,6 +415,7 @@ const SLUGS = [
   'computer-science-internships-for-high-school-students',
   'homeschool-computer-science-high-school-credit',
   'coding-bootcamp-for-teens',
+  'python-indentation-error-explained',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -909,6 +910,7 @@ const LLMS_LABELS = {
   'computer-science-internships-for-high-school-students': 'CS internships for high school students',
   'homeschool-computer-science-high-school-credit': 'Homeschool CS high school credit',
   'coding-bootcamp-for-teens': 'Coding bootcamp for teens',
+  'python-indentation-error-explained': 'Python indentation errors explained',
 };
 
 function wireLlms(slugs) {

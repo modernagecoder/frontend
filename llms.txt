@@ -646,6 +646,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - CS internships for high school students: https://learn.modernagecoders.com/computer-science-internships-for-high-school-students
 - Homeschool CS high school credit: https://learn.modernagecoders.com/homeschool-computer-science-high-school-credit
 - Coding bootcamp for teens: https://learn.modernagecoders.com/coding-bootcamp-for-teens
+- Python indentation errors explained: https://learn.modernagecoders.com/python-indentation-error-explained
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
