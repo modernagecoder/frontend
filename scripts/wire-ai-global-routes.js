@@ -409,6 +409,7 @@ const SLUGS = [
   'how-to-make-a-roblox-game',
   'congressional-app-challenge-guide',
   'computer-science-summer-programs-for-high-school-students',
+  'coding-summer-camp-for-middle-schoolers',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -897,6 +898,7 @@ const LLMS_LABELS = {
   'how-to-make-a-roblox-game': 'How to make a Roblox game',
   'congressional-app-challenge-guide': 'Congressional App Challenge guide',
   'computer-science-summer-programs-for-high-school-students': 'CS summer programs for high school students',
+  'coding-summer-camp-for-middle-schoolers': 'Coding summer camp for middle schoolers',
 };
 
 function wireLlms(slugs) {
