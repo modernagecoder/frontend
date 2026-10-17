@@ -435,6 +435,7 @@ const SLUGS = [
   'learn-to-code-minecraft-mods',
   'python-games-for-kids',
   'how-to-make-a-3d-game-for-kids',
+  'roblox-studio-errors-fixed',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -949,6 +950,7 @@ const LLMS_LABELS = {
   'learn-to-code-minecraft-mods': 'Learn to code Minecraft mods',
   'python-games-for-kids': 'Python games for kids',
   'how-to-make-a-3d-game-for-kids': 'How to make a 3D game for kids',
+  'roblox-studio-errors-fixed': 'Roblox Studio errors fixed',
 };
 
 function wireLlms(slugs) {
