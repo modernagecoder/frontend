@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to Make a 3D Video Game for Kids: Tools, Steps and Code</title>
+  <meta name="description" content="How to make a 3D video game for kids: which free tool runs on which computer, how x, y and z work, eight steps to a playable game, and a real Godot script.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids">
+  <link rel="alternate" type="text/markdown" href="/src/pages/how-to-make-a-3d-game-for-kids.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#60559E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids">
+  <meta property="og:title" content="How to Make a 3D Video Game for Kids: Tools, Steps and Code">
+  <meta property="og:description" content="Roblox Studio, Godot and Unity compared by device and age, the three axes explained, eight steps to a first 3D game, and a GDScript character that runs and jumps.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Make a 3D Video Game for Kids: Tools, Steps and Code">
+  <meta name="twitter:description" content="How kids make a 3D game: tools by device, x, y and z, and real code.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-how .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-how .ag-capsule { border-left-width: 5px; border-radius: 5px; }
+.ag-root.ag-how .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-how .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-how .ag-steps { gap: 0.95rem; }
+.ag-root.ag-how .ag-slots { gap: 1.05rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids#page","url":"https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids","name":"How to Make a 3D Game for Kids","description":"A guide for US kids and parents to making a first 3D video game, comparing Roblox Studio, Godot and Unity from their own documentation, with a worked jump calculation and a Godot script.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"How to make a 3D game","item":"https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids"}]},{"@type":"Course","name":"How to Make a 3D Game for Kids","description":"Live online game development classes for US kids and teens, building 3D games in Roblox Studio and, for teens, Unity, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How can a kid make a 3D video game?","acceptedAnswer":{"@type":"Answer","text":"Choose a free 3D tool that runs on your computer, such as Roblox Studio or Godot, place a floor and a player, then write code that moves the player on the ground and adds gravity and a jump. Start with one goal, finish it, then grow it."}},{"@type":"Question","name":"What is the easiest way for kids to make a 3D game?","acceptedAnswer":{"@type":"Answer","text":"For a child who already plays Roblox, Roblox Studio, because the camera, avatar and movement are built in. Roblox typically recommends Studio for ages 10 and up."}},{"@type":"Question","name":"Can you make a 3D game on a Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Not in Roblox Studio, which the Roblox education FAQ rules out on Chromebooks, and Unity lists its editor for computers running without emulation. Godot publishes a web editor that it says needs 8 GB of memory, so check the Chromebook first."}},{"@type":"Question","name":"Is Godot free for kids to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. Godot is free and open source under the MIT license, and its license terms do not apply to the games you make with it."}},{"@type":"Question","name":"What coding language do 3D games use?","acceptedAnswer":{"@type":"Answer","text":"It depends on the tool: Luau in Roblox Studio, GDScript or C# in Godot, and C# in Unity. Godot recommends GDScript for beginners and says it looks like Python."}},{"@type":"Question","name":"Should my child learn 2D before 3D?","acceptedAnswer":{"@type":"Answer","text":"Often, yes. Godot's own 3D tutorial recommends starting with 2D if you are new to game development, because 3D code is more complex. Children building in Roblox Studio can start in 3D sooner."}},{"@type":"Question","name":"What math is in 3D games?","acceptedAnswer":{"@type":"Answer","text":"Coordinates on three axes, vectors, speed and gravity. Working out how high a character jumps is a real physics calculation, and normalizing a diagonal direction is geometry."}},{"@type":"Question","name":"What computer does a 3D game tool need?","acceptedAnswer":{"@type":"Answer","text":"Godot lists 4 GB of memory for its native editor on Windows 10 or later. Unity 6.6 lists Windows 10 version 21H1 or newer, or macOS Ventura 13 or newer. Roblox Studio runs on Windows and Mac."}},{"@type":"Question","name":"Can lessons fit around a US school day?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"What do 3D game development classes cost?","acceptedAnswer":{"@type":"Answer","text":"Nothing for the trial lesson. Regular classes are charged per month, and you will find that monthly price in US dollars in the fees block above."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/how-to-make-a-3d-game-for-kids","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-how">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#axes">X, Y and Z</a></li>
+      <li><a href="#steps">Eight steps</a></li>
+      <li><a href="#code">Real code</a></li>
+      <li><a href="#ready">2D first?</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / How to make a 3D game
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 10 to 17 &middot; 3D game making</p>
+        <h1>How to make a 3D video game for kids</h1>
+        <p class="ag-lede">Kids who have spent hours inside 3D worlds sooner or later want to build one of their own. It is possible, with free tools, on an ordinary home computer, but 3D asks for a few things that flat games do not: a computer that can run a 3D editor, a feel for three axes instead of two, and code that moves objects through space. This guide takes those one at a time. It compares three widely used tools, using each one&rsquo;s own documentation, explains x, y and z in plain terms, lays out eight steps to a first playable 3D game, and finishes with a real script that makes a character run and jump.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#tools" class="ag-btn ag-btn--ghost">Compare the 3D tools</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20learn%20how%20to%20make%203D%20games.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'how'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; 3D games in Roblox Studio and Unity</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 10 to 17</dd>
+          <dt>Tools</dt><dd>Roblox Studio, Godot, Unity</dd>
+          <dt>Languages</dt><dd>Luau, GDScript, C#</dd>
+          <dt>Computer</dt><dd>Windows or Mac, usually</dd>
+          <dt>Skills</dt><dd>Axes, vectors, gravity</dd>
+          <dt>Class size</dt><dd>Group batch or private</dd>
+          <dt>Schedule</dt><dd>Flexible across the week</dd>
+          <dt>Try it</dt><dd>One free trial lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>To make a 3D video game, a kid picks a free 3D tool that runs on their computer (Roblox Studio or Godot are good first choices; Unity suits older teens), learns how x, y and z place objects in space, builds a floor and a player, then writes code that moves the player and applies gravity. Modern Age Coders teaches 3D game building live online, ages 10 to 17.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Build it with a teacher</p>
+      <h2>Three courses for kids who want to make 3D games</h2>
+      <p class="ag-lede">Two of them build in 3D from early on; the third lays the game-design groundwork first.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/roblox-game-coding-for-kids-lua-course">
+        <div class="ag-pick-shot"><img src="/images/roblox-coding-kids.webp" alt="Roblox Game Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">3DG / 01</p>
+          <h3>Roblox game coding in Luau</h3>
+          <p>For 8 to 14 year olds: a 3D world, physics and scripts from term one.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-game-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/game-dev-teens.webp" alt="Game Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">3DG / 02</p>
+          <h3>Game development for teens</h3>
+          <p>Teens 13 to 18 move into Unity and C#, from scenes to shipped games.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/godot-game-development-course-for-kids-and-teens">
+        <div class="ag-pick-shot"><img src="/images/godot-game-dev.webp" alt="Godot Game Development for Kids and Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">3DG / 03</p>
+          <h3>Godot game development</h3>
+          <p>Ages 10 to 17: free, open-source Godot, from 2D scenes to a 3D game in GDScript.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Choose a tool</p><h2>Which 3D game tool fits which kid and which computer</h2><p class="ag-lede">The first question is not which tool is most powerful. It is which one will actually run on the computer at home. Each tool publishes its requirements, and they differ more than most parents expect.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Three 3D tools, from each one&rsquo;s own documentation (read 17 October 2026); the last row is our advice</caption><thead><tr><th scope="col">Point</th><th scope="col">Roblox Studio</th><th scope="col">Godot</th><th scope="col">Unity</th></tr></thead><tbody><tr><td>Cost to install</td><td>Roblox calls Studio a free application</td><td>Free and open source, MIT license</td><td>Not covered here; check Unity&rsquo;s own plans</td></tr><tr><td>Windows</td><td>Yes</td><td>Windows 10 or later</td><td>Windows 10 version 21H1 or newer</td></tr><tr><td>Mac</td><td>Yes</td><td>macOS 10.13 or 10.15, by renderer</td><td>macOS Ventura 13 or newer</td></tr><tr><td>Chromebook, tablet, phone</td><td>Studio cannot run on Chromebooks or phones</td><td>A web editor (8 GB RAM) and an Android editor; iOS cannot run the editor</td><td>Workstations or laptops, without emulation</td></tr><tr><td>Language</td><td>Luau</td><td>GDScript, which Godot recommends for beginners, or C#</td><td>C#, the language our teen course teaches</td></tr><tr><td>Age guidance</td><td>Roblox typically recommends Studio for ages 10 and up</td><td>None published</td><td>None published</td></tr><tr><td>Who it suits (ours)</td><td>Ages 10 to 14 who already play Roblox</td><td>Ages 12 and up who like tinkering</td><td>Ages 14 and up ready for a professional engine</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the family computer is a Chromebook</h3><p>Roblox&rsquo;s education FAQ rules out Chromebooks and smartphones for building in Studio, and Unity lists its editor for workstations and laptops running without emulation, container or compatibility layer.</p>
+<p>Of the three requirement pages we read, only Godot&rsquo;s lists a web editor, with 8 GB of memory for it against 4 GB for the native editor. Check the Chromebook&rsquo;s memory before planning around it; a Windows or Mac laptop is the simpler route.</p></div><div><h3>Where Godot fits on this page</h3><p>The courses linked on this page build in 3D with Roblox Studio for younger students and Unity for teens. Godot is included because it is free, open source and well documented, and it makes a strong first engine for a tinkering teen.</p>
+<p>The ideas carry across all three. A child who understands axes, velocity and gravity in Roblox Studio can read the Godot script further down this page.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Read on 17 October 2026: <a class="ag-inline-link" href="https://create.roblox.com/docs/studio/setup" rel="noopener" target="_blank">Roblox Studio setup</a>, the <a class="ag-inline-link" href="https://create.roblox.com/docs/education/resources/frequently-asked-questions-education" rel="noopener" target="_blank">Roblox education FAQ</a>, <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/about/system_requirements.html" rel="noopener" target="_blank">Godot system requirements</a>, the <a class="ag-inline-link" href="https://godotengine.org/license/" rel="noopener" target="_blank">Godot license</a> and <a class="ag-inline-link" href="https://docs.unity3d.com/Manual/system-requirements.html" rel="noopener" target="_blank">Unity 6.6 system requirements</a>. We are not connected with Roblox, the Godot project or Unity.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="axes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thinking in 3D</p><h2>X, Y and Z: the idea that makes 3D games different</h2><p class="ag-lede">A flat game places things with two numbers, across and down. A 3D game needs a third. Godot&rsquo;s documentation explains its convention in three short lines, which make a good starting point for any 3D tool.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Godot&rsquo;s 3D coordinate system, from its documentation (read 17 October 2026)</caption><thead><tr><th scope="col">Axis</th><th scope="col">Meaning in Godot</th><th scope="col">Color on screen</th></tr></thead><tbody><tr><td>X</td><td>Sides: left and right</td><td>Red</td></tr><tr><td>Y</td><td>Up and down</td><td>Green</td></tr><tr><td>Z</td><td>Front and back</td><td>Blue</td></tr><tr><td>Scale</td><td>1 unit is 1 meter, and physics is tuned for that</td><td>Grid squares are 1x1 meter by default</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The ground is not where kids expect</h3><p>In a flat game, y usually runs down the screen. In Godot&rsquo;s 3D, Y is up, and the ground is the plane made by X and Z. The documentation says it directly: in 3D, the XZ plane is the ground plane.</p>
+<p>That is why the movement code below changes x and z when a player walks, and changes y only to jump or fall. A value placed on the wrong axis is a classic first 3D bug.</p></div><div><h3>Why diagonal movement needs a fix</h3><p>If a player holds forward and right together, the direction has 1 on two axes at once. Godot&rsquo;s tutorial points out that this vector has a length of about 1.4, so the player would move faster diagonally than straight.</p>
+<p>The fix is one method, normalized(), which keeps the direction but sets the length back to 1. Children who meet this learn, without being told, a piece of geometry they will see again in math class: the diagonal of a unit square.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: Godot&rsquo;s <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/tutorials/3d/introduction_to_3d.html" rel="noopener" target="_blank">Introduction to 3D</a> and <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/getting_started/first_3d_game/03.player_movement_code.html" rel="noopener" target="_blank">Moving the player with code</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="steps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Step by step</p><h2>Eight steps from an empty scene to a playable 3D game</h2><p class="ag-lede">This is the order we use with students in any 3D tool. It keeps the first game small enough to finish, which matters more in 3D than anywhere else.</p></div>
+    <ol class="ag-steps"><li><b>Pick the tool for your computer.</b> Use the table above. Install it and open an empty 3D project or template.</li><li><b>Learn to move the camera.</b> Spend the first session flying around the empty world. Being lost in 3D space is a classic early frustration.</li><li><b>Place a floor.</b> Add a large flat box and fix it in place, so gravity leaves it where you put it.</li><li><b>Add a player.</b> In Godot, that is a CharacterBody3D, which its documentation describes as a physics body meant to be user-controlled. In Roblox Studio, the avatar is added for you when you press Test.</li><li><b>Make it move.</b> Write code that reads the keys and changes the player&rsquo;s position on the ground plane.</li><li><b>Add gravity and a jump.</b> Pull the player down every frame when it is in the air, and push it up once when the jump key is pressed on the floor.</li><li><b>Give it a goal.</b> One thing to collect or reach turns a world into a game. Keep it to one goal in a first game.</li><li><b>Test, then share.</b> Play it from start to end after every change, then let one real person try it and watch without helping.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why one goal is enough</h3><p>A 3D world invites big plans: a city, a castle, a whole planet. Children who start there spend weeks building scenery and never write the code that makes it a game.</p>
+<p>One floor, one player, one goal, playable in a week, teaches every core idea. Scenery can come afterward, and it is far more fun when the game underneath works.</p></div><div><h3>How long it takes</h3><p>Our plan for ages 10 to 12 reaches step 6 in about six sessions in Roblox Studio, where the avatar and its movement already exist. In Godot or Unity, writing movement yourself adds a few sessions to that plan.</p>
+<p>That is not wasted time. Writing the movement code by hand is exactly where the three axes stop being abstract.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="code">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Real code</p><h2>A real 3D script: a character that runs and jumps in Godot</h2><p class="ag-lede">This is the core of a 3D platformer, in GDScript. It follows the structure of Godot&rsquo;s own Squash the Creeps tutorial, uses the same starting numbers, and uses only methods its documentation describes.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script &middot; run and jump on three axes</b><span>gdscript</span></figcaption><pre># player.gd on a CharacterBody3D (ours, Godot 4)
+extends CharacterBody3D
+
+@export var speed = 14  # meters per second
+@export var fall_acceleration = 75
+@export var jump_impulse = 20
+
+var target_velocity = Vector3.ZERO
+
+func _physics_process(delta):
+    var direction = Vector3.ZERO
+    if Input.is_action_pressed("move_right"):
+        direction.x += 1
+    if Input.is_action_pressed("move_left"):
+        direction.x -= 1
+    if Input.is_action_pressed("move_back"):
+        direction.z += 1
+    if Input.is_action_pressed("move_forward"):
+        direction.z -= 1
+    if direction != Vector3.ZERO:
+        direction = direction.normalized()
+
+    # x and z: the ground plane
+    target_velocity.x = direction.x * speed
+    target_velocity.z = direction.z * speed
+
+    # y: up and down
+    var jump = Input.is_action_just_pressed("jump")
+    if is_on_floor() and jump:
+        target_velocity.y = jump_impulse
+    if not is_on_floor():
+        target_velocity.y -= fall_acceleration * delta
+
+    velocity = target_velocity
+    move_and_slide()</pre><p class="ag-code-note">Attach it to a CharacterBody3D that has a collision shape. Before it runs, create five input actions in Project Settings, Input Map: move_left, move_right, move_forward, move_back and jump. The script only reads action names, so the keys are yours to choose.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The jump, worked out (our calculation)</h3><p>The jump starts at 20 meters per second upward, and gravity takes away 75 meters per second every second. So the character reaches the top after 20 / 75 = 0.27 seconds.</p>
+<p>The height is 20 x 20 / (2 x 75) = 400 / 150 = 2.67 meters. With Godot&rsquo;s default grid of 1-meter squares, that is a jump onto a box between two and three squares tall.</p></div><div><h3>Reading the script</h3><p>Every frame, _physics_process works out a direction from the keys, sets the speed on x and z, then handles y: a jump if the jump key was just pressed on the floor, gravity if the character is in the air. move_and_slide then moves it and handles collisions with walls and slopes.</p>
+<p>At a speed of 14, one second of running covers 14 meters, fourteen grid squares. Changing that one number is a good first experiment.</p></div></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Try 1 (ours)</h3><p>Set jump_impulse to 30. How high is the jump now? (900 / 150 = 6 meters.)</p></div><div><h3>Try 2 (ours)</h3><p>Halve fall_acceleration to 37.5. What happens to the height? (It doubles, to about 5.33 meters.)</p></div><div><h3>Try 3 (ours)</h3><p>Remove normalized() and walk diagonally. Is the character faster? (Yes, about 1.4 times.)</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ready">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Start in 3D or not</p><h2>Should kids start with 2D or 3D games?</h2><p class="ag-lede">Godot&rsquo;s own 3D tutorial answers this honestly: if you are new to game development, it recommends starting with 2D, because 3D game code is always more complex.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>When starting in 3D works</h3><p>A child who already knows a 3D tool as a player, most often Roblox, can start building in 3D straight away, because the editor does a lot of the hard work: the camera, the avatar and its movement already exist.</p>
+<p>Roblox&rsquo;s education team says younger students typically focus on the creation and design of environments, and that suits a first 3D project well: build the world first, then script it.</p></div><div><h3>When 2D first is wiser</h3><p>If a child wants to write the movement code themselves, as in the Godot script above, a few weeks of 2D games first makes 3D far less confusing. Velocity and gravity are easier to see on two axes.</p>
+<p>Our game course for younger kids begins in Scratch and moves into Roblox&rsquo;s 3D worlds once the ideas are solid.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A suggested route by age (ours)</caption><thead><tr><th scope="col">Age</th><th scope="col">Start with</th><th scope="col">Then</th></tr></thead><tbody><tr><td>8 to 10</td><td>Scratch or another 2D tool</td><td>Roblox Studio building, then simple scripts</td></tr><tr><td>10 to 13</td><td>Roblox Studio</td><td>Luau scripts for movement, scores and goals</td></tr><tr><td>13 to 15</td><td>Roblox Studio or Godot</td><td>Writing a 3D character controller by hand</td></tr><tr><td>15 to 17</td><td>Unity with C#</td><td>A complete 3D game with menus, levels and a build</td></tr></tbody></table></div>
+    <p class="ag-mt-40">For Roblox specifically, <a class="ag-inline-link" href="/how-to-make-a-roblox-game">how to make a Roblox game</a> walks through Studio, scripts and publishing. For 2D starts, see <a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch coding classes</a>, and for the language behind many engines, <a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From player to 3D builder</p>
+      <h2>Four stages of a young 3D game maker</h2>
+      <p class="ag-lede">Where a child might be when they ask how 3D games are made, and what comes next.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of learning to make 3D games (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Explorer</td><td class="ag-num">Flies the camera around an editor and places objects</td></tr><tr><td>2. World builder</td><td class="ag-num">Builds levels from parts, with lighting and color</td></tr><tr><td>3. Scripter</td><td class="ag-num">Writes movement, gravity and goals in code</td></tr><tr><td>4. Game maker</td><td class="ag-num">Tunes the numbers so the game feels fair and fun</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 2 can last a long time, and that is fine. Building worlds teaches spatial thinking that pays off in math and science.</p>
+<p>Stage 3 is the hard climb. Vectors and axes click faster when someone sketches them beside the running game.</p></div><div><h3>For kids</h3><p>Name your axes out loud when you code: x is sideways, y is up, z is forward and back. It saves a lot of bugs.</p>
+<p>Make it small and finish it. One level you can play beats a huge world you cannot.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses on the road to 3D games</h2>
+      <p class="ag-lede">Each is taught live, in a group batch or one to one, by a teacher who stays with the student.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Kids</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / KID / 01</p>
+          <h4>Scratch coding</h4>
+          <p>Game logic in 2D first.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / KID / 02</p>
+          <h4>Roblox coding in Luau</h4>
+          <p>Build and script 3D worlds.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / KID / 03</p>
+          <h4>Minecraft coding</h4>
+          <p>Code that builds in a 3D world.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / TEN / 01</p>
+          <h4>Game development for teens</h4>
+          <p>Unity, C# and 3D scenes.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / TEN / 02</p>
+          <h4>C++ for teens</h4>
+          <p>The language under game engines.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / TEN / 03</p>
+          <h4>Python for teens</h4>
+          <p>Vectors and logic in code.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Going further</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / PRO / 01</p>
+          <h4>Game development</h4>
+          <p>Professional engines, start to finish.</p>
+          <a class="ag-course-link" href="/courses/game-development-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / PRO / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Games that run in the browser.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">3DG / PRO / 03</p>
+          <h4>Hackathon preparation</h4>
+          <p>A game built with a team in a weekend.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live 3D game lessons, when it suits you</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Batches after school in every US time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning batches with time to build.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Times arranged around your child.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Screen shared</h3><p>The teacher sees the 3D view live.</p></div>
+      <div><h3>Axes drawn out</h3><p>X, y and z explained on the student&rsquo;s own game.</p></div>
+      <div><h3>A plan per student</h3><p>Roblox Studio or Unity, by age and goal.</p></div>
+      <div><h3>Same teacher</h3><p>One person who knows the project.</p></div>
+      <div><h3>From home</h3><p>Online, in any state.</p></div>
+      <div><h3>Group or private</h3><p>A batch of fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our students</h2>
+      <p class="ag-lede">Some of the projects our students have finished. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Roblox Studio and Godot are free to install, and the first lesson is free as well. Classes are paid month by month in US dollars, with no term contract, and you can stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Help choosing a tool</li><li>No card</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Batches of fifteen to twenty</li><li>One regular teacher</li><li>Choose your batch</li><li>Paid monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One to one</li><li>At times you set</li><li>Your own 3D game</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents&rsquo; Google reviews, left exactly as posted.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Making 3D games: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How can a kid make a 3D video game?</h3>
+        <p>Choose a free 3D tool that runs on your computer, such as Roblox Studio or Godot, place a floor and a player, then write code that moves the player on the ground and adds gravity and a jump. Start with one goal, finish it, then grow it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the easiest way for kids to make a 3D game?</h3>
+        <p>For a child who already plays Roblox, Roblox Studio, because the camera, avatar and movement are built in. Roblox typically recommends Studio for ages 10 and up.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you make a 3D game on a Chromebook?</h3>
+        <p>Not in Roblox Studio, which the Roblox education FAQ rules out on Chromebooks, and Unity lists its editor for computers running without emulation. Godot publishes a web editor that it says needs 8 GB of memory, so check the Chromebook first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Godot free for kids to use?</h3>
+        <p>Yes. Godot is free and open source under the MIT license, and its license terms do not apply to the games you make with it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What coding language do 3D games use?</h3>
+        <p>It depends on the tool: Luau in Roblox Studio, GDScript or C# in Godot, and C# in Unity. Godot recommends GDScript for beginners and says it looks like Python.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child learn 2D before 3D?</h3>
+        <p>Often, yes. Godot's own 3D tutorial recommends starting with 2D if you are new to game development, because 3D code is more complex. Children building in Roblox Studio can start in 3D sooner.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What math is in 3D games?</h3>
+        <p>Coordinates on three axes, vectors, speed and gravity. Working out how high a character jumps is a real physics calculation, and normalizing a diagonal direction is geometry.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What computer does a 3D game tool need?</h3>
+        <p>Godot lists 4 GB of memory for its native editor on Windows 10 or later. Unity 6.6 lists Windows 10 version 21H1 or newer, or macOS Ventura 13 or newer. Roblox Studio runs on Windows and Mac.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can lessons fit around a US school day?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do 3D game development classes cost?</h3>
+        <p>Nothing for the trial lesson. Regular classes are charged per month, and you will find that monthly price in US dollars in the fees block above.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Further reading for kids who want to build worlds.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-roblox-game">How to make a Roblox game</a></h3><p>Studio, Luau and publishing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/roblox-coding-classes-for-kids">Roblox coding classes</a></h3><p>Live lessons in Roblox Studio.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a></h3><p>The language under many engines.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch coding classes</a></h3><p>A 2D start for younger kids.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Where every US guide of ours starts.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Inside a live lesson.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us your child&rsquo;s age, the computer they use, and the kind of 3D game they dream about. The teacher picks the right tool before the lesson starts.</p>
+        <p class="ag-mt-40">To see the method first, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or open a syllabus from <a class="ag-inline-link" href="/courses">the course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20learn%20how%20to%20make%203D%20games.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'how',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All teaching is live on video from our team in India, so there is no center to visit, wherever you live in the US. WhatsApp reaches us fastest.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_how(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card is needed for the first lesson.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Game making</h4><ul><li><a href="/how-to-make-a-roblox-game">Make a Roblox game</a></li><li><a href="/roblox-coding-classes-for-kids">Roblox coding classes</a></li><li><a href="/c-plus-plus-game-development">C++ game development</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/coding-for-12-year-olds">Coding for 12 year olds</a></li><li><a href="/coding-for-14-year-olds">Coding for 14 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>X is sideways, Y is up, Z is forward</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_how = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'how-to-make-a-3d-game-for-kids-inline', meta: { name: name, age: age, page: 'how-to-make-a-3d-game-for-kids' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

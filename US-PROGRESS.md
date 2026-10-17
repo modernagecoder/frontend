@@ -175,7 +175,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 8 | game-design-classes-for-teens (gdt, #1E703E) | game | 5,191 | 1.2% vs unity-for-teens | phase 2 | iteration and tuning (change one number, test, record) | d539598a |
 | 9 | video-game-coding-classes-for-kids (vgk, #406B66) | game | 3,707 | 1.1% vs computer-science-internships-for-high-school-students | phase 2 | games as systems (every game feature is a coding concept in disguise) | e45c1ff0 |
 | 10 | learn-to-code-minecraft-mods (lcmm, #1C669E) | game | 4,131 | 1.1% vs godot-for-kids-and-teens | phase 2 | registration and data-driven design (code declares an object; JSON files describ | 624049f9 |
-| 11 | python-games-for-kids (pgk, #181E9E) | game | 3,792 | 1.2% vs coding-classes-for-elementary-students | phase 2 | the game loop (input, update, draw, wait) | (this commit) |
+| 11 | python-games-for-kids (pgk, #181E9E) | game | 3,792 | 1.2% vs coding-classes-for-elementary-students | phase 2 | the game loop (input, update, draw, wait) | 0a6d1793 |
+| 12 | how-to-make-a-3d-game-for-kids (how, #60559E) | game | 3,833 | 1.2% vs how-to-make-a-video-game-for-kids | phase 2 | three dimensions as numbers (vectors, velocity and gravity on three axes) | (this commit) |
 
 ## Skipped
 

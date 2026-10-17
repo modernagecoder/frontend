@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [How to make a 3D game for kids](/how-to-make-a-3d-game-for-kids)
 - [Python games for kids](/python-games-for-kids)
 - [Learn to code Minecraft mods](/learn-to-code-minecraft-mods)
 - [Video game coding classes for kids](/video-game-coding-classes-for-kids)

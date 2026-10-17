@@ -434,6 +434,7 @@ const SLUGS = [
   'video-game-coding-classes-for-kids',
   'learn-to-code-minecraft-mods',
   'python-games-for-kids',
+  'how-to-make-a-3d-game-for-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -947,6 +948,7 @@ const LLMS_LABELS = {
   'video-game-coding-classes-for-kids': 'Video game coding classes for kids',
   'learn-to-code-minecraft-mods': 'Learn to code Minecraft mods',
   'python-games-for-kids': 'Python games for kids',
+  'how-to-make-a-3d-game-for-kids': 'How to make a 3D game for kids',
 };
 
 function wireLlms(slugs) {
