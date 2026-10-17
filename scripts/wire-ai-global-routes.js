@@ -436,6 +436,7 @@ const SLUGS = [
   'python-games-for-kids',
   'how-to-make-a-3d-game-for-kids',
   'roblox-studio-errors-fixed',
+  'makecode-arcade-help-for-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -951,6 +952,7 @@ const LLMS_LABELS = {
   'python-games-for-kids': 'Python games for kids',
   'how-to-make-a-3d-game-for-kids': 'How to make a 3D game for kids',
   'roblox-studio-errors-fixed': 'Roblox Studio errors fixed',
+  'makecode-arcade-help-for-students': 'MakeCode Arcade help',
 };
 
 function wireLlms(slugs) {

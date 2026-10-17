@@ -23817,6 +23817,18 @@
   to = "/src/pages/roblox-studio-errors-fixed.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/makecode-arcade-help-for-students"
+  to = "/src/pages/makecode-arcade-help-for-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/makecode-arcade-help-for-students.md"
+  to = "/src/pages/makecode-arcade-help-for-students.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

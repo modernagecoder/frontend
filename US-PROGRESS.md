@@ -177,7 +177,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 10 | learn-to-code-minecraft-mods (lcmm, #1C669E) | game | 4,131 | 1.1% vs godot-for-kids-and-teens | phase 2 | registration and data-driven design (code declares an object; JSON files describ | 624049f9 |
 | 11 | python-games-for-kids (pgk, #181E9E) | game | 3,792 | 1.2% vs coding-classes-for-elementary-students | phase 2 | the game loop (input, update, draw, wait) | 0a6d1793 |
 | 12 | how-to-make-a-3d-game-for-kids (how, #60559E) | game | 3,833 | 1.2% vs how-to-make-a-video-game-for-kids | phase 2 | three dimensions as numbers (vectors, velocity and gravity on three axes) | 728403f8 |
-| 150 | roblox-studio-errors-fixed (rsef, #613C31) | tools | 4,892 | 1.1% vs python-indentation-error-explained | phase T | defensive programming (expect failure, protect the call, report clearly) | (this commit) |
+| 150 | roblox-studio-errors-fixed (rsef, #613C31) | tools | 4,892 | 1.1% vs python-indentation-error-explained | phase T | defensive programming (expect failure, protect the call, report clearly) | 2ded3e19 |
+| 151 | makecode-arcade-help-for-students (ma, #27598F) | tools | 4,125 | 1.1% vs python-indentation-error-explained | phase T | motion as numbers (velocity, acceleration, and a condition that guards an action | (this commit) |
 
 ## Skipped
 

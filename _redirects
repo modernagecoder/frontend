@@ -7146,4 +7146,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /roblox-studio-errors-fixed /src/pages/roblox-studio-errors-fixed.html 200
 /roblox-studio-errors-fixed.md /src/pages/roblox-studio-errors-fixed.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/makecode-arcade-help-for-students /src/pages/makecode-arcade-help-for-students.html 200
+/makecode-arcade-help-for-students.md /src/pages/makecode-arcade-help-for-students.md 200
 /* /src/pages/404.html 404

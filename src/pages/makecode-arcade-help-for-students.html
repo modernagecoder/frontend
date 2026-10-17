@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MakeCode Arcade Help: Jump, Gravity, Levels and Saving</title>
+  <meta name="description" content="MakeCode Arcade help for students: how to make a sprite jump, add gravity, build levels with tilemaps, fix a jump that never fires, and find a project you lost.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/makecode-arcade-help-for-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/makecode-arcade-help-for-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#27598F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/makecode-arcade-help-for-students">
+  <meta property="og:title" content="MakeCode Arcade Help: Jump, Gravity, Levels and Saving">
+  <meta property="og:description" content="Stuck in MakeCode Arcade? The jump and gravity numbers, tilemap levels, the jump bug the docs warn about, and where your projects are really saved, from Microsoft’s own docs.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MakeCode Arcade Help: Jump, Gravity, Levels and Saving">
+  <meta name="twitter:description" content="MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ma .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-ma .ag-capsule { border-left-width: 4px; border-radius: 6px; }
+.ag-root.ag-ma .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-ma .ag-table caption { text-align: left; }
+.ag-root.ag-ma .ag-steps { gap: 0.8rem; }
+.ag-root.ag-ma .ag-band-head h3 { letter-spacing: -0.006em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/makecode-arcade-help-for-students#page","url":"https://learn.modernagecoders.com/makecode-arcade-help-for-students","name":"MakeCode Arcade Help for Students","description":"A help page for US students using Microsoft MakeCode Arcade at school or at home, built from the MakeCode Arcade documentation, with two small programs and a worked jump calculation.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"MakeCode Arcade help","item":"https://learn.modernagecoders.com/makecode-arcade-help-for-students"}]},{"@type":"Course","name":"MakeCode Arcade Help for Students","description":"Live online game coding classes for US kids and teens who started in MakeCode Arcade or Scratch, moving from blocks to JavaScript and Python, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/makecode-arcade-help-for-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/makecode-arcade-help-for-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/makecode-arcade-help-for-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do you make a sprite jump in MakeCode Arcade?","acceptedAnswer":{"@type":"Answer","text":"Set a positive ay on the sprite for gravity, then in an on A button pressed event set vy to a negative number, such as -150, but only if is hitting tile, bottom is true, so the sprite jumps from the floor."}},{"@type":"Question","name":"How do you add gravity in MakeCode Arcade?","acceptedAnswer":{"@type":"Answer","text":"Set the sprite's ay property, its vertical acceleration in pixels per second per second. A positive value speeds the sprite toward the bottom of the screen, which works as gravity."}},{"@type":"Question","name":"Why does my jump not work in MakeCode Arcade?","acceptedAnswer":{"@type":"Answer","text":"The docs say is hitting tile returns false unless the sprite is moving, even when it touches a wall tile. Set gravity so the sprite keeps pressing on the floor, and make sure the floor tiles are walls."}},{"@type":"Question","name":"How do you make levels in MakeCode Arcade?","acceptedAnswer":{"@type":"Answer","text":"Draw each level as a tilemap in the tilemap editor, then load it with set tilemap. A game can have several tilemaps, and setting a different one changes the level, for example when the player touches a goal tile."}},{"@type":"Question","name":"Where are my MakeCode Arcade projects saved?","acceptedAnswer":{"@type":"Answer","text":"In your browser's local data store on that computer. Clearing browsing data removes them, so download a copy with the Save icon or share the project before you leave a school computer."}},{"@type":"Question","name":"Can I get a deleted MakeCode project back?","acceptedAnswer":{"@type":"Answer","text":"If the browser data was cleared, only a copy saved elsewhere can bring it back: a downloaded project file, a shared link, or a GitHub repository with its commit history."}},{"@type":"Question","name":"Can MakeCode Arcade work offline?","acceptedAnswer":{"@type":"Answer","text":"Yes. The web editor is cached the first time it loads, and Microsoft also offers an offline app for Windows and Mac computers. Adding a new extension needs an internet connection."}},{"@type":"Question","name":"Does MakeCode Arcade use real code?","acceptedAnswer":{"@type":"Answer","text":"Yes. Besides blocks, it has a JavaScript view, using JavaScript with Static TypeScript, and a Python view. Students can switch views and see the same program as text."}},{"@type":"Question","name":"Can you do my MakeCode assignment?","acceptedAnswer":{"@type":"Answer","text":"No. We never write graded work or give answer keys. We teach the concept behind the assignment, such as velocity or tilemaps, so the student can complete it on their own."}},{"@type":"Question","name":"When are classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"What do game coding classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, classes are paid monthly, and the fees part of this page states that monthly price in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/makecode-arcade-help-for-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ma">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#jump">Jump and gravity</a></li>
+      <li><a href="#levels">Levels</a></li>
+      <li><a href="#stuck">Common problems</a></li>
+      <li><a href="#saved">Lost projects</a></li>
+      <li><a href="#school">At school</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / MakeCode Arcade help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 4 to 12 &middot; Microsoft MakeCode Arcade</p>
+        <h1>MakeCode Arcade help for students</h1>
+        <p class="ag-lede">MakeCode Arcade is the free Microsoft editor that turns up in US computer science classes: drag blocks, press play, and a little retro game runs in the browser. Then the questions start. How do I make my character jump? Why does it fall off the screen? How do I add a second level? Where did my project go? Each answer below comes from the MakeCode Arcade documentation itself, turned into steps a student can follow, with two short programs and the arithmetic behind a good jump.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#jump" class="ag-btn ag-btn--ghost">Make a sprite jump</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20uses%20MakeCode%20Arcade%20at%20school%20and%20wants%20to%20go%20further%20with%20game%20coding.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ma'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; From blocks to typed code</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grades 4 to 12</dd>
+          <dt>Tool</dt><dd>MakeCode Arcade</dd>
+          <dt>Views</dt><dd>Blocks, JavaScript, Python</dd>
+          <dt>Runs in</dt><dd>A web browser</dd>
+          <dt>Covers</dt><dd>Jump, gravity, levels, saving</dd>
+          <dt>Lessons</dt><dd>Batch or one to one</dd>
+          <dt>Days</dt><dd>Any weekday or weekend</dd>
+          <dt>Trial</dt><dd>Free, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>To make a MakeCode Arcade sprite jump, move it left and right only, set its ay (vertical acceleration) to a positive number for gravity, and on the A button set vy to a negative number if isHittingTile(Bottom) is true. Levels are tilemaps drawn in the editor and loaded with setTilemap. Modern Age Coders teaches game coding live, ages 8 to 18.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Keep going with a teacher</p>
+      <h2>Three courses for students who outgrow the school unit</h2>
+      <p class="ag-lede">Each starts from the game the student has already made, blocks or typed code.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/game-development-masterclass-for-kids">
+        <div class="ag-pick-shot"><img src="/images/game-dev-kids.webp" alt="Game Development for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MCA / 01</p>
+          <h3>Game development for kids</h3>
+          <p>Kids 8 to 12 build platformers, scores and levels, then Roblox and Minecraft.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MCA / 02</p>
+          <h3>Coding for kids</h3>
+          <p>Kids 6 to 12 go from blocks to games, apps and AI.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/javascript-course-for-teens-beginners-interactive-web">
+        <div class="ag-pick-shot"><img src="/images/javascript-teens.webp" alt="JavaScript for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MCA / 03</p>
+          <h3>JavaScript for teens</h3>
+          <p>Teens 13 to 18 learn the language behind Arcade&rsquo;s JavaScript view.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="jump">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The number one question</p><h2>How to make a sprite jump and add gravity in MakeCode Arcade</h2><p class="ag-lede">A jump is two numbers working together: an upward speed that starts the jump and a steady pull that ends it. MakeCode Arcade gives every sprite properties for both.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sprite motion properties, from the MakeCode Arcade reference (read 17 October 2026)</caption><thead><tr><th scope="col">Property</th><th scope="col">What it controls</th><th scope="col">Unit</th><th scope="col">Direction</th></tr></thead><tbody><tr><td>vx</td><td>Horizontal speed</td><td>Pixels per second</td><td>Positive moves right</td></tr><tr><td>vy</td><td>Vertical speed</td><td>Pixels per second</td><td>Positive moves toward the bottom</td></tr><tr><td>ax</td><td>Horizontal acceleration</td><td>Pixels per second, per second</td><td>Changes vx over time</td></tr><tr><td>ay</td><td>Vertical acceleration</td><td>Pixels per second, per second</td><td>Positive speeds the sprite toward the bottom</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Stop the up and down buttons from moving the hero.</b> Use move sprite with a horizontal speed and a vertical speed of 0, so up and down no longer fight gravity.</li><li><b>Add gravity.</b> Set the hero&rsquo;s ay to a positive number, such as 350. The docs explain that a positive value increases the speed toward the bottom, which is exactly what gravity does.</li><li><b>Give it a floor.</b> Draw a tilemap and mark the ground tiles as walls, so the hero lands instead of falling through.</li><li><b>Jump on a button.</b> In an on A button pressed event, set vy to a negative number, such as -150. Negative vy moves the sprite toward the top.</li><li><b>Jump only from the floor.</b> Wrap the jump in an if that checks is hitting tile, bottom. Without it, a student can press A in mid air and fly.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 1 &middot; run and jump</b><span>typescript</span></figcaption><pre>// A hero who runs and jumps (ours, JavaScript view)
+let box = image.create(16, 16)
+box.fill(5)
+let hero = sprites.create(box, SpriteKind.Player)
+tiles.setTilemap(tilemap`level1`)
+
+controller.moveSprite(hero, 80, 0) // left, right
+hero.ay = 350 // gravity, pulling down
+scene.cameraFollowSprite(hero)
+
+controller.A.onEvent(
+    ControllerButtonEvent.Pressed,
+    function () {
+        // jump only from the floor
+        if (hero.isHittingTile(CollisionDirection.Bottom)) {
+            hero.vy = -150
+        }
+    })</pre><p class="ag-code-note">Paste this into the JavaScript view; the editor can also show JavaScript as blocks, so try switching views. It needs a tilemap named level1 with wall tiles for a floor, drawn in the tilemap editor, because tilemaps are not written in code.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The jump, worked out (our calculation)</h3><p>The docs give the rule for acceleration: a sprite at speed 0 with an acceleration of 2 is moving at 2 pixels per second after one second, and 4 after two. Our jump starts at 150 pixels per second upward, and gravity of 350 takes that away each second.</p>
+<p>So the hero reaches the top after 150 / 350 = 0.43 seconds. The height of the jump is 150 x 150 / (2 x 350) = 22,500 / 700, about 32 pixels: two tiles of 16 pixels, the tile size the documentation&rsquo;s own examples use.</p></div><div><h3>Tuning it</h3><p>A floaty jump has gravity too weak for its speed. A jump that barely leaves the ground has speed too low for its gravity. Change one number at a time and press play.</p>
+<p>A useful classroom target is a jump that clears exactly the gap or wall in your level. Work out the height first, then test it, and the numbers stop being guesses.</p></div></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Practice 1 (ours)</h3><p>Keep ay at 350 and jump with vy = -200. About how high does the hero go? (Answer: 40,000 / 700, about 57 pixels.)</p></div><div><h3>Practice 2 (ours)</h3><p>You want a jump of 48 pixels, three tiles, with ay = 350. Which speed works? (Try vy = -183: 183 x 183 / 700 is about 48.)</p></div><div><h3>Practice 3 (ours)</h3><p>Double ay to 700 and keep vy at -150. What happens to the height? (It halves, to about 16 pixels.)</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="levels">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Levels</p><h2>How to make levels in MakeCode Arcade with tilemaps</h2><p class="ag-lede">In MakeCode Arcade a level is a tilemap: a grid of tiles drawn in the editor and stored in the project&rsquo;s assets. The docs say a game can have more than one tilemap, and changing the tilemap changes the level.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Tilemap tools, from the MakeCode Arcade reference (read 17 October 2026)</caption><thead><tr><th scope="col">Block or function</th><th scope="col">What the documentation says it does</th></tr></thead><tbody><tr><td>set tilemap</td><td>Sets a tilemap as the current tilemap for the game scene</td></tr><tr><td>set wall at</td><td>Makes a tile a barrier, so sprites cannot pass through it, or turns it back</td></tr><tr><td>on overlap tile</td><td>Runs code when a sprite of a chosen kind overlaps a tile</td></tr><tr><td>place on random tile</td><td>Moves a sprite to a random tile of a chosen type; with only one such tile, always that one</td></tr><tr><td>camera follow sprite</td><td>Moves the scene so a sprite stays in view in a scene bigger than the screen</td></tr><tr><td>game over</td><td>Stops the game and shows the current and highest scores; win can be true or false</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 2 &middot; a goal tile that loads level 2</b><span>typescript</span></figcaption><pre>// Two levels and a goal tile (ours)
+let level = 1
+scene.onOverlapTile(
+    SpriteKind.Player,
+    assets.tile`goal`,
+    function (sprite, location) {
+        if (level == 1) {
+            level = 2
+            tiles.setTilemap(tilemap`level2`)
+            tiles.placeOnRandomTile(sprite,
+                assets.tile`start`)
+        } else {
+            game.over(true)
+        }
+    })</pre><p class="ag-code-note">It assumes two tilemaps named level1 and level2, a tile named goal at the end of each level, and a tile named start where level 2 begins. Draw them in the editor first; the names in the code must match the names in the assets.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why a level variable</h3><p>Without the level variable, touching the goal on level 2 would load level 2 again forever. One number that remembers where the player is turns a loop into a sequence.</p>
+<p>This is the same idea as a save slot in a big game: the program keeps a little state and decides what happens next from it.</p></div><div><h3>Designing a level that works</h3><p>Draw the floor first and mark it as walls, then place the start and the goal, then add hazards. A level that cannot be finished is a classic bug, and it is a design bug, not a code bug.</p>
+<p>Play your own level start to finish after every change. If you need to jump a gap, use the jump height from the section above to size it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="stuck">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Common problems</p><h2>Why your MakeCode Arcade game is not doing what you expected</h2><p class="ag-lede">These are classic MakeCode Arcade problems. Each cause comes from a documented rule, so the fix is not a guess.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Symptoms and fixes (our table, each rule from the MakeCode Arcade reference)</caption><thead><tr><th scope="col">What happens</th><th scope="col">The documented rule behind it</th><th scope="col">Fix</th></tr></thead><tbody><tr><td>The jump button does nothing</td><td>is hitting tile returns false unless the sprite is moving</td><td>Make sure gravity (ay) is set so the hero keeps pressing on the floor</td></tr><tr><td>The hero flies with each press</td><td>Nothing stops a jump in mid air</td><td>Wrap the jump in the is hitting tile, bottom check</td></tr><tr><td>The hero walks off the screen</td><td>A moving sprite leaves the screen unless something stops it</td><td>Use camera follow sprite, or set stay in screen</td></tr><tr><td>The hero falls through the floor</td><td>Wall tiles are what create a barrier for sprites</td><td>Mark floor tiles as walls in the tilemap editor</td></tr><tr><td>Up and down fight gravity</td><td>move sprite sets vertical speed from the buttons</td><td>Set the vy value in move sprite to 0 in a platformer</td></tr><tr><td>An event runs again and again</td><td>A button event can be pressed, released or repeated</td><td>Choose pressed, not repeated, for a single jump</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The rule behind a classic jump bug</h3><p>The docs put it plainly: the sprite must be in motion, with a vx or vy that is not 0, before the check for a tile hit; otherwise false is returned even though the sprite is touching the wall tile.</p>
+<p>Our reading of that rule: with no gravity, a hero standing still has a vy of 0, so the check fails and the jump never fires. Gravity keeps a little downward motion going, and the check works.</p></div><div><h3>How to find a bug yourself</h3><p>Make the sprite tell you what it knows. A say block showing vy, or whether is hitting tile is true, turns an invisible number into something you can watch while you play.</p>
+<p>Then change one thing, play again, and note what changed. That habit is what our teachers practise with students in every class, whatever the tool.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="saved">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Lost work</p><h2>Where MakeCode Arcade saves your projects, and how to keep them</h2><p class="ag-lede">The most painful MakeCode question is the one asked after a project disappears. The documentation explains exactly where projects live, which also explains how they get lost.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Saving and sharing, from the MakeCode documentation (read 17 October 2026)</caption><thead><tr><th scope="col">Question</th><th scope="col">What the documentation says</th></tr></thead><tbody><tr><td>Where is my project?</td><td>In the browser&rsquo;s local indexed data store, named or as an Untitled project</td></tr><tr><td>What is in a project?</td><td>Four files: main.ts, main.blocks, README.md and pxt.json</td></tr><tr><td>What deletes it?</td><td>Clearing browsing data removes all saved projects and the offline files</td></tr><tr><td>What survives?</td><td>A project you shared to the public cloud is still there</td></tr><tr><td>Who can see a shared project?</td><td>Anyone who has its shared URL</td></tr><tr><td>Can I go back a version?</td><td>Yes, with GitHub: History, then View commits</td></tr><tr><td>How do I keep a copy?</td><td>The Save icon downloads a PNG that also encodes your game</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why school projects vanish</h3><p>Because projects live inside one browser on one computer, a project made on a school laptop is not on the home computer, and a laptop that clears its browsing data at the end of the day takes the project with it.</p>
+<p>Signing in to a different browser profile has the same effect. The project is not deleted; it is in a browser you are not using.</p></div><div><h3>A habit that prevents it</h3><p>At the end of every session, download the project file with the Save icon and keep it in your school drive or email it to yourself. Opening that file later brings the whole game back.</p>
+<p>For work you share with a teacher, use the Share button. Remember that anyone with the link can see it, so share it only with the people it is meant for.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: <a class="ag-inline-link" href="https://arcade.makecode.com/save" rel="noopener" target="_blank">Saving projects</a>, the <a class="ag-inline-link" href="https://arcade.makecode.com/faq" rel="noopener" target="_blank">MakeCode Arcade FAQ</a> and <a class="ag-inline-link" href="https://arcade.makecode.com/publishing-games" rel="noopener" target="_blank">Publishing games</a>. We are not connected with Microsoft.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">At school</p><h2>MakeCode Arcade at school: blocked sites, offline use and the three views</h2><p class="ag-lede">MakeCode Arcade appears in US high school courses that Microsoft lists on its own courses page, including an AP Computer Science Principles course and a full-year introduction to computer science, plus activities for grades 5 to 12.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>If the editor will not load at school</h3><p>School networks sometimes block the sites MakeCode needs. The FAQ lists domains to unblock, among them https://makecode.com, https://cdn.makecode.com, https://api.github.com and https://immersivereaderprod.<wbr>cognitiveservices.<wbr>azure.com, alongside the editor&rsquo;s own address.</p>
+<p>A student cannot change a school network. Show that list to the teacher or the school&rsquo;s technology staff, who can.</p></div><div><h3>Working without internet</h3><p>The docs describe two routes. The web editor is cached in the browser the first time it loads, so it can keep working offline; adding a new extension needs a connection again.</p>
+<p>There is also an offline app that installs on a Windows or Mac computer and works the same way as the web editor.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The three ways to write an Arcade game (from the MakeCode docs; the last column is our advice)</caption><thead><tr><th scope="col">View</th><th scope="col">What the docs say</th><th scope="col">Who it suits</th></tr></thead><tbody><tr><td>Blocks</td><td>Blocks snap into each other; the on start event runs first</td><td>Beginners, and anyone planning a game</td></tr><tr><td>JavaScript</td><td>JavaScript along with the Static TypeScript language</td><td>Students ready to type, and AP CSP students</td></tr><tr><td>Python</td><td>Python along with the JavaScript language</td><td>Students who already use Python in class</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: <a class="ag-inline-link" href="https://arcade.makecode.com/courses" rel="noopener" target="_blank">MakeCode Arcade courses</a>, <a class="ag-inline-link" href="https://arcade.makecode.com/offline" rel="noopener" target="_blank">Using MakeCode offline</a>, <a class="ag-inline-link" href="https://arcade.makecode.com/javascript" rel="noopener" target="_blank">JavaScript</a> and <a class="ag-inline-link" href="https://arcade.makecode.com/python" rel="noopener" target="_blank">Python</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="help">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class assignments</p><h2>Help with a MakeCode class project, without doing it for you</h2><p class="ag-lede">Some students come to us in the middle of a graded MakeCode unit. Here is how we handle that.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What we teach</h3><p>We teach the idea the assignment is testing: events, variables, velocity and acceleration, conditions, tilemaps. Students practise it on a different small game, then go back and solve their own assignment.</p>
+<p>That way the grade reflects what the student can do, and the next unit is easier rather than harder.</p></div><div><h3>What we will not do</h3><p>We do not write or finish graded assignments, and we do not provide answer keys. If a student asks for the answer, the teacher asks the question that leads to it.</p>
+<p>If your class has rules about outside help, follow them, and tell your teacher you are learning with a tutor.</p></div></div>
+    <p class="ag-mt-40">Ready for more after Arcade? Our <a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch coding classes</a> suit younger students, the <a class="ag-inline-link" href="/blog/top-coding-games-platforms-make-learning-fun-kids">guide to coding games and platforms</a> compares the options, and <a class="ag-inline-link" href="/minecraft-coding-classes-for-kids">Minecraft coding classes</a> use a MakeCode editor too.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From blocks to typed code</p>
+      <h2>Four stages of an Arcade game maker</h2>
+      <p class="ag-lede">Where a student might be after a school unit, and what comes next.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a young MakeCode Arcade coder (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Follower</td><td class="ag-num">Finishes the built-in tutorials step by step</td></tr><tr><td>2. Tinkerer</td><td class="ag-num">Changes speeds and images to see what happens</td></tr><tr><td>3. Designer</td><td class="ag-num">Plans a level, sets jump numbers on purpose, adds a second level</td></tr><tr><td>4. Typist</td><td class="ag-num">Switches to JavaScript or Python view and writes code directly</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Arcade is a real foundation. Velocity, events and conditions are the same ideas used in professional game engines.</p>
+<p>The step from stage 3 to stage 4 is where a teacher helps most, because typed code brings typing errors with it.</p></div><div><h3>For students</h3><p>Switch to JavaScript view now and then, even if you write in blocks. Reading your own program as text is the fastest way to stage 4.</p>
+<p>Finish small games. A one-level game that works teaches more than a ten-level plan.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses after MakeCode Arcade</h2>
+      <p class="ag-lede">Every one is live, with a regular teacher, in a group batch or private lessons.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Kids</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / KID / 01</p>
+          <h4>Scratch coding</h4>
+          <p>More blocks, bigger games.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / KID / 02</p>
+          <h4>Minecraft coding</h4>
+          <p>MakeCode blocks in a 3D world.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / KID / 03</p>
+          <h4>Python for kids</h4>
+          <p>From Arcade&rsquo;s Python view to real Python.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / TEN / 01</p>
+          <h4>JavaScript for teens</h4>
+          <p>Browser games written by hand.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / TEN / 02</p>
+          <h4>Python for teens</h4>
+          <p>Games, data and AI projects.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / TEN / 03</p>
+          <h4>Game development for teens</h4>
+          <p>From 2D sprites to Unity.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Going further</h3>
+        <span class="ag-band-sub">Teens and adults</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / PRO / 01</p>
+          <h4>Roblox coding in Luau</h4>
+          <p>The jump to 3D and real players.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / PRO / 02</p>
+          <h4>C++ for teens</h4>
+          <p>The language of game engines.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCA / PRO / 03</p>
+          <h4>Vibe coding for teens</h4>
+          <p>Building with AI, carefully.</p>
+          <a class="ag-course-link" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live classes that start from your own game</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">A batch after school, in your own time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings for longer building sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Times you choose, around school.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Open your project</h3><p>Arcade runs in the browser, so class starts there.</p></div>
+      <div><h3>Blocks or text</h3><p>We work in whichever view you use.</p></div>
+      <div><h3>Same teacher</h3><p>Week after week, one person.</p></div>
+      <div><h3>Concepts, not answers</h3><p>You solve your own assignments.</p></div>
+      <div><h3>All fifty states</h3><p>Online, from any US time zone.</p></div>
+      <div><h3>Batch or private</h3><p>A group of fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students went on to build</h2>
+      <p class="ag-lede">A few finished projects by our students. See more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">MakeCode Arcade costs nothing, and the first lesson is free too. Regular classes are paid for a month at a time, in US dollars, and you can stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring your Arcade game</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty in a batch</li><li>A regular teacher</li><li>You choose the batch</li><li>Billed monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private lessons</li><li>Scheduled around school</li><li>Built on your project</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parent reviews from Google, unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students and parents</p>
+      <h2>MakeCode Arcade: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How do you make a sprite jump in MakeCode Arcade?</h3>
+        <p>Set a positive ay on the sprite for gravity, then in an on A button pressed event set vy to a negative number, such as -150, but only if is hitting tile, bottom is true, so the sprite jumps from the floor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you add gravity in MakeCode Arcade?</h3>
+        <p>Set the sprite's ay property, its vertical acceleration in pixels per second per second. A positive value speeds the sprite toward the bottom of the screen, which works as gravity.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does my jump not work in MakeCode Arcade?</h3>
+        <p>The docs say is hitting tile returns false unless the sprite is moving, even when it touches a wall tile. Set gravity so the sprite keeps pressing on the floor, and make sure the floor tiles are walls.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do you make levels in MakeCode Arcade?</h3>
+        <p>Draw each level as a tilemap in the tilemap editor, then load it with set tilemap. A game can have several tilemaps, and setting a different one changes the level, for example when the player touches a goal tile.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where are my MakeCode Arcade projects saved?</h3>
+        <p>In your browser's local data store on that computer. Clearing browsing data removes them, so download a copy with the Save icon or share the project before you leave a school computer.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I get a deleted MakeCode project back?</h3>
+        <p>If the browser data was cleared, only a copy saved elsewhere can bring it back: a downloaded project file, a shared link, or a GitHub repository with its commit history.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can MakeCode Arcade work offline?</h3>
+        <p>Yes. The web editor is cached the first time it loads, and Microsoft also offers an offline app for Windows and Mac computers. Adding a new extension needs an internet connection.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does MakeCode Arcade use real code?</h3>
+        <p>Yes. Besides blocks, it has a JavaScript view, using JavaScript with Static TypeScript, and a Python view. Students can switch views and see the same program as text.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you do my MakeCode assignment?</h3>
+        <p>No. We never write graded work or give answer keys. We teach the concept behind the assignment, such as velocity or tilemaps, so the student can complete it on their own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes for US students?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do game coding classes cost?</h3>
+        <p>The first lesson is free. After that, classes are paid monthly, and the fees part of this page states that monthly price in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students who like making games.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch coding classes</a></h3><p>Block coding for younger game makers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/minecraft-coding-classes-for-kids">Minecraft coding classes</a></h3><p>Another MakeCode editor, in 3D.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/top-coding-games-platforms-make-learning-fun-kids">Coding games and platforms</a></h3><p>How the popular tools compare.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our full set of pages for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-10-year-olds">Coding for 10 year olds</a></h3><p>What fits at that age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>A look inside a live class.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Send us the share link to your Arcade game, or just describe it. The teacher plays it before the lesson and plans the next step from there.</p>
+        <p class="ag-mt-40">Want to know what a lesson is like first? Read <a class="ag-inline-link" href="/how-we-teach">how our classes run</a>, or open any syllabus on <a class="ag-inline-link" href="/courses">our course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20uses%20MakeCode%20Arcade%20at%20school%20and%20wants%20to%20go%20further%20with%20game%20coding.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ma',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teaching team works from India, entirely over live video, so families in every US state join the same way. WhatsApp is the quickest channel for questions.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ma(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Booking the trial lesson needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Game coding</h4><ul><li><a href="/scratch-coding-classes-for-kids">Scratch coding classes</a></li><li><a href="/minecraft-coding-classes-for-kids">Minecraft coding classes</a></li><li><a href="/roblox-coding-classes-for-kids">Roblox coding classes</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/coding-for-8-year-olds">Coding for 8 year olds</a></li><li><a href="/python-for-9-year-olds">Python for 9 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Speed, acceleration, and a check before you jump</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ma = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'makecode-arcade-help-for-students-inline', meta: { name: name, age: age, page: 'makecode-arcade-help-for-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
