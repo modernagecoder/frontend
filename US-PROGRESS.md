@@ -152,7 +152,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 3 | coding-and-ai-classes-in-north-carolina (ncar, #276910) | state | 3,568 | 2.1% vs ai-and-programming-classes-in-adelaide | graduation requirement | group-by and aggregation | ade5aac5 |
 | 25 | computer-science-summer-programs-for-high-school-students (cssp, #706336) | summer | 3,881 | 0.8% vs congressional-app-challenge-guide | phase 2 | dates and dictionaries in Python (planning with code) | 76adba70 |
 | 26 | coding-summer-camp-for-middle-schoolers (scms, #3B5222) | summer | 3,989 | 1.1% vs congressional-app-challenge-guide | phase 2 | halving and search (binary search through a guessing game) | 61a62f3f |
-| 27 | game-design-summer-camp-for-teens (gdsc, #2B6B27) | summer | 4,204 | 1.7% vs computer-science-summer-programs-for-high-school-students | phase 2 | vectors and game loops (frame time, normalising, clamping) | (this commit) |
+| 27 | game-design-summer-camp-for-teens (gdsc, #2B6B27) | summer | 4,204 | 1.7% vs computer-science-summer-programs-for-high-school-students | phase 2 | vectors and game loops (frame time, normalising, clamping) | cb427469 |
+| 28 | free-coding-programs-for-high-school-students (fphs, #0F6617) | summer | 3,689 | 1.6% vs computer-science-summer-programs-for-high-school-students | phase 2 | weighted averages and conditionals (reading a grading rule as code) | (this commit) |
 
 ## Skipped
 
