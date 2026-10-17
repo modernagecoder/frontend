@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Game design classes for teens](/game-design-classes-for-teens)
 - [Unity for teens](/unity-for-teens)
 - [Godot for kids and teens](/godot-for-kids-and-teens)
 - [How to make a video game for kids](/how-to-make-a-video-game-for-kids)

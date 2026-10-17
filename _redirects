@@ -7122,4 +7122,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /unity-for-teens /src/pages/unity-for-teens.html 200
 /unity-for-teens.md /src/pages/unity-for-teens.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/game-design-classes-for-teens /src/pages/game-design-classes-for-teens.html 200
+/game-design-classes-for-teens.md /src/pages/game-design-classes-for-teens.md 200
 /* /src/pages/404.html 404
