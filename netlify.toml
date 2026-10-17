@@ -23553,6 +23553,18 @@
   to = "/src/pages/homeschool-computer-science-high-school-credit.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-bootcamp-for-teens"
+  to = "/src/pages/coding-bootcamp-for-teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-bootcamp-for-teens.md"
+  to = "/src/pages/coding-bootcamp-for-teens.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

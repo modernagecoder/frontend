@@ -414,6 +414,7 @@ const SLUGS = [
   'free-coding-programs-for-high-school-students',
   'computer-science-internships-for-high-school-students',
   'homeschool-computer-science-high-school-credit',
+  'coding-bootcamp-for-teens',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -907,6 +908,7 @@ const LLMS_LABELS = {
   'free-coding-programs-for-high-school-students': 'Free coding programs for high school students',
   'computer-science-internships-for-high-school-students': 'CS internships for high school students',
   'homeschool-computer-science-high-school-credit': 'Homeschool CS high school credit',
+  'coding-bootcamp-for-teens': 'Coding bootcamp for teens',
 };
 
 function wireLlms(slugs) {

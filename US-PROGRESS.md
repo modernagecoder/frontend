@@ -155,7 +155,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 27 | game-design-summer-camp-for-teens (gdsc, #2B6B27) | summer | 4,204 | 1.7% vs computer-science-summer-programs-for-high-school-students | phase 2 | vectors and game loops (frame time, normalising, clamping) | cb427469 |
 | 28 | free-coding-programs-for-high-school-students (fphs, #0F6617) | summer | 3,689 | 1.6% vs computer-science-summer-programs-for-high-school-students | phase 2 | weighted averages and conditionals (reading a grading rule as code) | c2e9853f |
 | 29 | computer-science-internships-for-high-school-students (csih, #294C49) | college | 3,995 | 1.7% vs computer-science-summer-programs-for-high-school-students | phase 2 | evidence of work (commits, pull requests and written explanations) | b2d8dcfe |
-| 34 | homeschool-computer-science-high-school-credit (hcsh, #9E4D21) | subj | 4,144 | 1.3% vs free-coding-programs-for-high-school-students | phase 2 | documentation and evidence (a course record a stranger can verify) | (this commit) |
+| 34 | homeschool-computer-science-high-school-credit (hcsh, #9E4D21) | subj | 4,144 | 1.3% vs free-coding-programs-for-high-school-students | phase 2 | documentation and evidence (a course record a stranger can verify) | f01e1090 |
+| 35 | coding-bootcamp-for-teens (bt, #755E19) | subj | 3,630 | 1.3% vs congressional-app-challenge-guide | phase 2 | version control and shipping (commit small, commit often) | (this commit) |
 
 ## Skipped
 
