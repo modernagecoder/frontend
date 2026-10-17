@@ -446,6 +446,7 @@ const SLUGS = [
   'c-plus-plus-for-kids',
   'javascript-for-kids',
   'app-inventor-for-kids',
+  'cybersecurity-classes-for-teens',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -971,6 +972,7 @@ const LLMS_LABELS = {
   'c-plus-plus-for-kids': 'C++ for kids',
   'javascript-for-kids': 'JavaScript for kids',
   'app-inventor-for-kids': 'App Inventor for kids',
+  'cybersecurity-classes-for-teens': 'Cybersecurity classes for teens',
 };
 
 function wireLlms(slugs) {

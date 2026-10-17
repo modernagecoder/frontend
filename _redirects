@@ -7186,4 +7186,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /app-inventor-for-kids /src/pages/app-inventor-for-kids.html 200
 /app-inventor-for-kids.md /src/pages/app-inventor-for-kids.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cybersecurity-classes-for-teens /src/pages/cybersecurity-classes-for-teens.html 200
+/cybersecurity-classes-for-teens.md /src/pages/cybersecurity-classes-for-teens.md 200
 /* /src/pages/404.html 404
