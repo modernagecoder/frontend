@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BlueJ Not Working? Fixes for Install, Output and Frozen Programs</title>
+  <meta name="description" content="BlueJ not working? Fixes from the official BlueJ FAQ for a missing JDK, the virtual machine error, grayed-out buttons, no terminal output and frozen programs.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/bluej-not-working-fix">
+  <link rel="alternate" type="text/markdown" href="/src/pages/bluej-not-working-fix.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8A4E65">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/bluej-not-working-fix">
+  <meta property="og:title" content="BlueJ Not Working? Fixes for Install, Output and Frozen Programs">
+  <meta property="og:description" content="BlueJ will not open, compile or show output? The official FAQ fixes in the order to try them, plus how to run main with arguments and where BlueJ keeps its settings.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BlueJ Not Working? Fixes for Install, Output and Frozen Programs">
+  <meta name="twitter:description" content="BlueJ not working? Official fixes for install, VM errors, output and frozen runs.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-bnwf .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-bnwf .ag-capsule { border-left-width: 6px; border-radius: 2px; }
+.ag-root.ag-bnwf .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-bnwf .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-bnwf .ag-band-head h3 { letter-spacing: -0.012em; }
+.ag-root.ag-bnwf .ag-slots { gap: 0.9rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/bluej-not-working-fix#page","url":"https://learn.modernagecoders.com/bluej-not-working-fix","name":"BlueJ not working: fixes","description":"A troubleshooting guide to BlueJ for US high school and college Java students, built from the official BlueJ download page, version history and FAQ.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"BlueJ not working","item":"https://learn.modernagecoders.com/bluej-not-working-fix"}]},{"@type":"Course","name":"BlueJ not working: fixes","description":"Live online Java classes for US students who use BlueJ or any other editor, from objects and classes to AP Computer Science A, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/bluej-not-working-fix"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/bluej-not-working-fix"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/bluej-not-working-fix"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why is BlueJ not working?","acceptedAnswer":{"@type":"Answer","text":"The official BlueJ FAQ points to a few causes: no Java development kit found, firewall or proxy software blocking BlueJ's connection to its own second virtual machine, a class that has not been compiled, or a program waiting for input. Reinstalling the current BlueJ, which includes a JDK, fixes many cases."}},{"@type":"Question","name":"What does BlueJ could not find any Java systems mean?","acceptedAnswer":{"@type":"Answer","text":"It means no JDK was found, and the FAQ says a JDK must be installed to run BlueJ. The FAQ also says most BlueJ installers now ship with the correct JDK included, so downloading the current installer from bluej.org is the simplest fix."}},{"@type":"Question","name":"How do I fix Bluej was unable to create a virtual machine?","acceptedAnswer":{"@type":"Answer","text":"The FAQ says firewall software is the usual cause. BlueJ needs to communicate when both source and destination are 127.0.0.1. On Windows, accented or non-English characters in the project path can also cause it, so move the project to a plain folder name."}},{"@type":"Question","name":"Why is my BlueJ program not showing output?","acceptedAnswer":{"@type":"Answer","text":"Output appears in the terminal window, which you can open from the View menu. If the program reads input before printing anything, it can look frozen while it waits. Print a prompt first; the FAQ notes that printing opens the terminal automatically."}},{"@type":"Question","name":"Why are the New Class and Compile buttons grayed out?","acceptedAnswer":{"@type":"Answer","text":"No project is open. The FAQ says to use Open Project or New Project from the Project menu first, after which you can create and compile classes."}},{"@type":"Question","name":"How do I run main in BlueJ?","acceptedAnswer":{"@type":"Answer","text":"Compile the class, right-click it in the class diagram and choose the main method. A dialog asks for the String array; leave it as { } for no arguments, or type something like { \"one\", \"two\", \"three\" } to pass three."}},{"@type":"Question","name":"Is BlueJ free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The BlueJ home page describes it as a free Java Development Environment designed for beginners, released under the GNU General Public License version 2 with the Classpath Exception."}},{"@type":"Question","name":"Does BlueJ work on a Chromebook or a 32-bit computer?","acceptedAnswer":{"@type":"Answer","text":"The BlueJ home page lists downloads for 64-bit Windows, macOS and Debian or Ubuntu Linux, and says BlueJ requires a 64-bit operating system; for 32-bit systems it points to BlueJ 4.1.4. It lists no ChromeOS download."}},{"@type":"Question","name":"Will you fix my BlueJ homework?","acceptedAnswer":{"@type":"Answer","text":"No. We do not write or repair graded assignments or provide answer keys. A teacher helps you find the cause and teaches the idea behind it, so you can make the change yourself."}},{"@type":"Question","name":"When are live Java classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much are the classes?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, teaching is paid monthly, and the fees section of this page shows the amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/bluej-not-working-fix","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-bnwf">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#symptoms">Symptoms</a></li>
+      <li><a href="#install">Install</a></li>
+      <li><a href="#frozen">Frozen or silent</a></li>
+      <li><a href="#main">Running main</a></li>
+      <li><a href="#reset">Reset</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / BlueJ not working
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 9 to 12 and college &middot; BlueJ</p>
+        <h1>BlueJ not working? The fixes, in the order to try them</h1>
+        <p class="ag-lede">BlueJ is built for beginners, and most of the time it is pleasantly simple: draw classes, compile, right-click to make objects. So when it refuses to open, grays out its buttons, or runs a program that seems to do nothing at all, students tend to assume they broke something. Usually they did not. The BlueJ team publishes a frequently asked questions page that covers nearly every one of these failures, and the causes are few: a missing or mismatched Java kit, a firewall blocking BlueJ&rsquo;s two halves from talking, a class that has not been compiled yet, or a program quietly waiting for input. This page puts those fixes in the order that solves problems fastest.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#symptoms" class="ag-btn ag-btn--ghost">Find your symptom</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20student%20in%20the%20US%20uses%20BlueJ%20for%20Java%20and%20it%20is%20not%20working%20properly.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bnwf'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Java in BlueJ or any editor</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grades 9 to 12 and college</dd>
+          <dt>Tool</dt><dd>BlueJ, free</dd>
+          <dt>Version read</dt><dd>6.0.1</dd>
+          <dt>Language</dt><dd>Java</dd>
+          <dt>Exam link</dt><dd>AP Computer Science A</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Most BlueJ problems have four causes, all covered in the official BlueJ FAQ: no Java kit found (reinstall BlueJ with its bundled JDK), a firewall or proxy blocking BlueJ&rsquo;s local connection, a class that is not compiled yet (grayed options), or a program waiting silently for keyboard input in the terminal. Check them in that order.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three Java courses for students who started in BlueJ</h2>
+      <p class="ag-lede">BlueJ is a fine place to learn objects. These courses take that understanding further, live.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BNWF / 01</p>
+          <h3>Java for teens</h3>
+          <p>Ages 13 to 18. Classes, objects and methods, then real programs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BNWF / 02</p>
+          <h3>AP Computer Science A</h3>
+          <p>Class design, ArrayList and 2D arrays the way the exam asks for them.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Java Course for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BNWF / 03</p>
+          <h3>Java for college</h3>
+          <p>From the object bench to full applications.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="symptoms">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Find your symptom</p><h2>What you see, what it usually means, and the fix</h2><p class="ag-lede">Every row is an entry in the official BlueJ FAQ. Find the line that matches your screen, then read the fuller explanation further down.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>BlueJ symptoms and fixes, from bluej.org/faq.html (read 17 October 2026)</caption><thead><tr><th scope="col">What you see</th><th scope="col">What the FAQ says causes it</th><th scope="col">What to do</th></tr></thead><tbody><tr><td>&ldquo;BlueJ could not find any Java systems. A JDK must be installed to run BlueJ.&rdquo;</td><td>No Java development kit was found</td><td>Reinstall BlueJ from bluej.org; the FAQ says most installers now ship with the correct JDK included</td></tr><tr><td>&ldquo;Bluej was unable to create a virtual machine (VM) to execute projects&rdquo;</td><td>Usually firewall software blocking BlueJ&rsquo;s local connection; on Windows, also accented or non-English characters in the project path</td><td>Allow traffic on 127.0.0.1 for BlueJ, or move the project to a plain folder name</td></tr><tr><td>&ldquo;The New Class and Compile buttons are greyed out&rdquo;</td><td>No project is open</td><td>Use Open Project or New Project from the Project menu</td></tr><tr><td>Right-click shows Inspect grayed out, no way to make objects</td><td>The class has not been compiled</td><td>Compile the class, then right-click it again</td></tr><tr><td>The program runs forever and nothing happens</td><td>It is waiting for input it asked for</td><td>Open the terminal from the View menu, type the input, press Enter</td></tr><tr><td>On a Mac, &ldquo;Creating object...&rdquo; never finishes</td><td>A network proxy affecting BlueJ&rsquo;s local sockets</td><td>Add localhost to the bypass list in the Mac&rsquo;s network proxy settings</td></tr><tr><td>On a Mac, the splash screen or main window never appears</td><td>A Java bug affecting some macOS systems</td><td>Open Font Book and choose Restore standard fonts from the File menu</td></tr><tr><td>The window is in the taskbar but not on screen</td><td>It opened on a second monitor that is no longer connected</td><td>Move the window back to the visible screen area</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why BlueJ has a virtual machine error at all</h3><p>The FAQ explains that BlueJ actually runs two Java virtual machines: one for BlueJ itself and one for your code. When you create an object, it lives in the second one, and the two talk over a network connection inside your own computer.</p>
+<p>That design is what makes the object bench possible, and it is also why a strict firewall or a school proxy can break BlueJ even though nothing ever leaves the machine. The FAQ says communication must be allowed when both source and destination are 127.0.0.1, the loopback address.</p></div><div><h3>On a school laptop</h3><p>Many US districts manage student laptops centrally, so you cannot change the firewall yourself. If the virtual machine error appears on a managed machine, show the FAQ entry to your teacher or the school IT team; the fix belongs to whoever manages the device.</p>
+<p>For Macs managed by a school, the FAQ lists the BlueJ components that must also be authorized in the management profile, which is again an IT task rather than a student one.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.bluej.org/faq.html" rel="noopener" target="_blank">BlueJ Frequently Asked Questions</a>, read 17 October 2026. We are not connected with the BlueJ project.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="install">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Install or reinstall</p><h2>Installing BlueJ cleanly, and what each download needs</h2><p class="ag-lede">Half of all BlueJ problems disappear with a clean install of the current version, because the installer brings its own Java with it. Here is what bluej.org lists.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>BlueJ 6.0.1 downloads, from the bluej.org home page (read 17 October 2026)</caption><thead><tr><th scope="col">System</th><th scope="col">Requirement listed</th><th scope="col">Also offered</th></tr></thead><tbody><tr><td>Windows</td><td>64-bit Windows, Windows 8 or later</td><td>A standalone zip suitable for USB drives</td></tr><tr><td>macOS</td><td>macOS 11 or later</td><td>A separate version for Macs with Intel processors (2021 and earlier)</td></tr><tr><td>Ubuntu or Debian</td><td>64-bit Intel, Debian 11 or Ubuntu 20.04 or later</td><td>A version for ARM64, for example Raspberry Pi</td></tr><tr><td>32-bit systems</td><td>Not supported by current versions</td><td>BlueJ 4.1.4</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Check the version you have.</b> The current release on bluej.org is 6.0.1, released 4 September 2026. An older copy may carry bugs the team has already fixed.</li><li><b>Pick the right file.</b> On a Mac, check whether you have Apple silicon or an Intel processor before downloading; there are two different builds.</li><li><b>Use the full installer, not a bare jar,</b> unless you know you need it. The version history lists the Windows and Mac downloads as including the JDK.</li><li><b>On a school laptop without install rights,</b> the standalone zip for Windows runs from a folder or a USB drive.</li><li><b>Open a project before anything else.</b> Use Project, then New Project, so the class buttons come alive.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Is BlueJ free?</h3><p>Yes. The BlueJ home page calls it a free Java Development Environment designed for beginners, and it is published under the GNU General Public License version 2 with the Classpath Exception. The source code is public.</p>
+<p>The FAQ adds that BlueJ sends a little anonymous information, such as the BlueJ and Java versions and the operating system, to help plan development, and that a bluej.uid=private setting switches it off.</p></div><div><h3>A note on the two pages</h3><p>The download lists on the version history page give different minimums for the same 6.0.x installers (they mention Windows 7 and macOS 10.12) than the home page does. We print the home page figures, which are the stricter ones; if your machine sits between the two, try the installer and see.</p>
+<p>The 6.0.0 release on 1 July 2026 added Kotlin support for editing and running code. For a Java course that changes nothing; the 6.0.1 point release only added Kotlin class templates that were missing.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.bluej.org/" rel="noopener" target="_blank">bluej.org</a> and <a class="ag-inline-link" href="https://www.bluej.org/versions.html" rel="noopener" target="_blank">BlueJ version history</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="frozen">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Frozen or silent</p><h2>When a program seems to do nothing, or shows no output</h2><p class="ag-lede">The BlueJ FAQ has an entry for a program that seems to run forever and do nothing. Usually it is working perfectly and waiting for you. Here is a tiny example that does exactly that.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>A program that looks frozen &middot; Greeter.java</b><span>java</span></figcaption><pre>// Greeter.java (ours): looks frozen when run in BlueJ
+import java.util.Scanner;
+
+public class Greeter {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String name = in.nextLine();   // waits here, silently
+        System.out.println("Hello, " + name);
+    }
+}</pre><p class="ag-code-note">Ours. It compiles cleanly. Run from BlueJ, it sits at nextLine() waiting for a line of input, and because it prints nothing first, there is no sign that it wants anything.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the BlueJ FAQ says</h3><p>The FAQ answers this one directly: if your program requests input, you must supply the input before the program can continue running; what is happening is that it is waiting, indefinitely, for the input it asked for.</p>
+<p>You can open the terminal from the View menu and type into it, pressing Enter at the end, because the terminal input is line buffered.</p></div><div><h3>The better fix, also from the FAQ</h3><p>The FAQ&rsquo;s recommended solution is to print a prompt, such as &ldquo;Please enter your name&rdquo;, before reading input. Printing makes BlueJ open the terminal window automatically, so the program no longer looks frozen.</p>
+<p>It is also simply better programming: anyone running your code, including a teacher grading it, can see what it expects.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The same program, talking to its user</b><span>java</span></figcaption><pre>// Greeter.java, fixed (ours)
+import java.util.Scanner;
+
+public class Greeter {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Your name: ");   // prompt first
+        String name = in.nextLine();
+        // the form feed clears the BlueJ terminal
+        System.out.print('\u000C');
+        System.out.println("Hello, " + name);
+        System.out.println("Arguments: " + args.length);
+    }
+}
+
+Called from BlueJ with { "one", "two", "three" }
+Your name: Ada
+Hello, Ada
+Arguments: 3</pre><p class="ag-code-note">Ours. We compiled and ran it with javac and java 22.0.1 from the command line, piping in Ada and passing three arguments, and checked that the form feed character the FAQ recommends was printed. In BlueJ you would call main with the array shown.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>No output in BlueJ: four checks (from the BlueJ FAQ and version history)</caption><thead><tr><th scope="col">Check</th><th scope="col">Why</th></tr></thead><tbody><tr><td>Is the terminal window open?</td><td>Output goes to the terminal, which you can open from the View menu</td></tr><tr><td>Did the program print before it read input?</td><td>Printing opens the terminal automatically; reading alone does not</td></tr><tr><td>Is the window off screen?</td><td>After unplugging a second monitor, the terminal can open where you cannot see it</td></tr><tr><td>Are you on an old version?</td><td>BlueJ 5.5.0 fixed a bug where the terminal sometimes did not show exceptions if the error pane had not been visible</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="main">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Running main</p><h2>How to run a program, with arguments, in BlueJ</h2><p class="ag-lede">BlueJ does not have a single Run button for main, which confuses students coming from other editors. The FAQ explains the BlueJ way.</p></div>
+    <ol class="ag-steps"><li><b>Compile the class.</b> The FAQ notes that gray diagonal stripes across a class box disappear once it is compiled, so stripes mean it still needs compiling.</li><li><b>Right-click the class box</b> in the class diagram. Static methods, including main, appear in the menu.</li><li><b>Choose void main(String[] args).</b> A dialog asks for the array of strings main takes.</li><li><b>Leave it as { } for no arguments,</b> which is the default, an empty array.</li><li><b>Or type arguments as an array,</b> for example { &quot;one&quot;, &quot;two&quot;, &quot;three&quot; }, which passes three strings exactly as a command line would.</li><li><b>Watch the terminal.</b> Output appears there; tick Clear screen at method call in the terminal&rsquo;s Options menu if old output gets in the way.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why BlueJ works this way</h3><p>BlueJ is designed around objects rather than whole programs. You can create an object from any compiled class and call its methods one at a time, without writing a main method at all, and inspect the values of its fields as you go.</p>
+<p>For learning what a constructor does, or how two objects share data, that interactive object bench is genuinely useful, and it is the main reason teachers choose BlueJ for a first course.</p></div><div><h3>Libraries and the standard classes</h3><p>If your class gives you a jar file, the FAQ lists three ways to add it: the Libraries tab in Preferences, the userlib folder inside the BlueJ installation, or a folder named +libs inside your project.</p>
+<p>To experiment with a standard class such as String or java.awt.Point, the Tools menu has Use Library Class, which lets you create objects from it directly on the bench.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="reset">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">When nothing else works</p><h2>A reset routine, and where BlueJ keeps its settings</h2><p class="ag-lede">If BlueJ misbehaves in a way none of the entries above describe, these steps work through the remaining causes, from the least to the most disruptive.</p></div>
+    <ol class="ag-steps"><li><b>Restart BlueJ and the computer.</b> It sounds trivial, but it clears a stuck second virtual machine.</li><li><b>Open a brand-new project</b> and make one class. If that works, the problem is in the old project, not BlueJ.</li><li><b>Move the project</b> to a folder whose path has only plain English letters and no accented characters.</li><li><b>Update to the current version</b> from bluej.org, using the installer that includes the JDK.</li><li><b>Rename your settings file</b> so BlueJ starts with defaults (locations below). Rename rather than delete, so you can restore it.</li><li><b>Check the firewall or proxy,</b> or ask whoever manages the computer to allow BlueJ on 127.0.0.1.</li><li><b>Collect the debug log</b> if you need to contact BlueJ support. On Linux, the FAQ says it is normally at ~/.bluej/bluej-debuglog.txt.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Where BlueJ stores bluej.properties, from the BlueJ FAQ (read 17 October 2026)</caption><thead><tr><th scope="col">System</th><th scope="col">Location the FAQ gives</th></tr></thead><tbody><tr><td>Windows (the FAQ lists Vista, 7 and 8)</td><td>C:\Users\your-user-name\bluej\bluej.properties</td></tr><tr><td>macOS</td><td>/User/your-user-name/Library/Preferences/org.bluej/bluej.properties</td></tr><tr><td>Linux</td><td>your-home-directory/.bluej/bluej.properties</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Git and GitHub from BlueJ</h3><p>BlueJ can share a project through Git. If team actions fail even though your GitHub password is right, the FAQ explains why: GitHub no longer allows account passwords for version control operations, and you need a Personal Access Token in the password field instead.</p>
+<p>On a school network, a proxy can also block Git. The FAQ describes passing the proxy settings to BlueJ&rsquo;s Java as -D options, which is again a job for the person who knows the network.</p></div><div><h3>Settings that override settings</h3><p>BlueJ reads two files: bluej.defs, installed with BlueJ for every user, and bluej.properties, which is yours. The FAQ notes that properties set in bluej.properties override those in bluej.defs.</p>
+<p>So a student&rsquo;s personal file can carry an old, broken setting even after a reinstall. That is why renaming bluej.properties is on the reset list.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="apcsa">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">BlueJ in a US course</p><h2>BlueJ, AP Computer Science A and the step to a larger IDE</h2><p class="ag-lede">BlueJ appears in many first Java courses in the US. Here is how it lines up with AP CSA, what College Board publishes about the exam, and how we handle graded work.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>BlueJ or a larger IDE? Our comparison for students (ours, from the BlueJ pages above)</caption><thead><tr><th scope="col">If you need</th><th scope="col">BlueJ</th><th scope="col">A larger IDE such as Eclipse or IntelliJ IDEA</th></tr></thead><tbody><tr><td>To see objects and call methods one by one</td><td>Built in: the object bench</td><td>Possible through a debugger, less direct</td></tr><tr><td>A simple screen for a first course</td><td>Yes, deliberately minimal</td><td>Many more panels and settings</td></tr><tr><td>To work on large, many-file programs</td><td>Workable, limited</td><td>Built for it</td></tr><tr><td>Its own Java bundled</td><td>The Windows and Mac downloads include a JDK</td><td>Varies by product</td></tr><tr><td>Cost</td><td>Free, open source</td><td>Free options exist</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What lines up with the exam</h3><p>AP Central lists Unit 3, Class Creation, at 10% to 18% of the multiple-choice weighting. Designing a class, writing its constructor and calling its methods is exactly what BlueJ&rsquo;s object bench makes visible.</p>
+<p>The exam itself is fully digital and taken in College Board&rsquo;s Bluebook app, not in any IDE, so BlueJ is a place to learn and practice rather than the exam environment. See our <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a> for preparation.</p></div><div><h3>Graded work stays the student&rsquo;s</h3><p>When a BlueJ project is homework, our teachers do not write or fix it, and we never give answer keys. The teacher helps the student find which symptom row matches, and the student makes the change.</p>
+<p>For a general method of finding bugs that works in any editor, see <a class="ag-inline-link" href="/how-to-debug-code">how to debug code</a>. Students preparing for India&rsquo;s ICSE board use BlueJ differently, and our <a class="ag-inline-link" href="/icse-class-10-bluej-java-coaching">ICSE BlueJ coaching</a> page covers that course.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a" rel="noopener" target="_blank">AP Computer Science A Course</a> and <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam" rel="noopener" target="_blank">Exam</a>, AP Central, read 17 October 2026. AP is a trademark of College Board, which is not connected with us.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Growing with BlueJ</p>
+      <h2>Four stages from first project to confident Java</h2>
+      <p class="ag-lede">Where students usually are when BlueJ first goes wrong, and where they head next.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a BlueJ learner (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Setting up</td><td class="ag-num">Installing, opening a first project, wondering why buttons are gray</td></tr><tr><td>2. On the bench</td><td class="ag-num">Creating objects by right-clicking and calling their methods</td></tr><tr><td>3. Writing programs</td><td class="ag-num">Using main, the terminal and input with a clear prompt</td></tr><tr><td>4. Moving on</td><td class="ag-num">Ready for a larger IDE and many-file projects</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>When BlueJ stops working, it is almost always the setup, not your child&rsquo;s code or ability.</p>
+<p>If the computer is a school device, the fix may need the school&rsquo;s IT team, and that is normal.</p></div><div><h3>For students</h3><p>Print a prompt before every input. It saves you and everyone who runs your code.</p>
+<p>Compile first, then right-click. Most grayed-out menus are an uncompiled class.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for students learning Java with objects</h2>
+      <p class="ag-lede">Each one is a live course with the same teacher every week, taken in a group or alone.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Java</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / JAVA / 01</p>
+          <h4>Java for teens</h4>
+          <p>Objects first, then whole programs.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / JAVA / 02</p>
+          <h4>AP Computer Science A</h4>
+          <p>Classes, lists and arrays for the exam.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / JAVA / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Thinking through a task before coding it.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Next languages</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / NEXT / 01</p>
+          <h4>Python for teens</h4>
+          <p>Quick scripts and data, in fewer lines.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / NEXT / 02</p>
+          <h4>AP Computer Science Principles</h4>
+          <p>The broader AP course and its Create task.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / NEXT / 03</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Share BlueJ projects the proper way.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>College</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / PRO / 01</p>
+          <h4>Java for college</h4>
+          <p>The intro sequence and what follows it.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / PRO / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Lists, trees and graphs in Java.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BNWF / PRO / 03</p>
+          <h4>C++ for college</h4>
+          <p>A second systems language.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live Java lessons at times that suit US students</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school times across the US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A weekly slot that leaves weekdays free.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Arranged around your class and test dates.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A teacher who stays</h3><p>The same person every week.</p></div>
+      <div><h3>BlueJ, shared</h3><p>We see your class diagram live.</p></div>
+      <div><h3>Setup help included</h3><p>Install and settings problems count too.</p></div>
+      <div><h3>Concepts, not answers</h3><p>Your graded work stays your own.</p></div>
+      <div><h3>Online, nationwide</h3><p>Wherever in the US you study.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty learners, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Programs our Java students have made</h2>
+      <p class="ag-lede">Built by learners who once had their own BlueJ troubles. More are on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">BlueJ is free and so is Java. The only cost is the live teaching, which is paid month by month in US dollars, with no long contract and no charge for stopping when a month is over.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring the project that will not run</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty in a batch</li><li>The same teacher each week</li><li>Your choice of batch</li><li>Paid each month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One student, one teacher</li><li>Times you choose</li><li>Paced to your course</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from families, quoted exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students</p>
+      <h2>BlueJ not working: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Why is BlueJ not working?</h3>
+        <p>The official BlueJ FAQ points to a few causes: no Java development kit found, firewall or proxy software blocking BlueJ's connection to its own second virtual machine, a class that has not been compiled, or a program waiting for input. Reinstalling the current BlueJ, which includes a JDK, fixes many cases.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does BlueJ could not find any Java systems mean?</h3>
+        <p>It means no JDK was found, and the FAQ says a JDK must be installed to run BlueJ. The FAQ also says most BlueJ installers now ship with the correct JDK included, so downloading the current installer from bluej.org is the simplest fix.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I fix Bluej was unable to create a virtual machine?</h3>
+        <p>The FAQ says firewall software is the usual cause. BlueJ needs to communicate when both source and destination are 127.0.0.1. On Windows, accented or non-English characters in the project path can also cause it, so move the project to a plain folder name.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why is my BlueJ program not showing output?</h3>
+        <p>Output appears in the terminal window, which you can open from the View menu. If the program reads input before printing anything, it can look frozen while it waits. Print a prompt first; the FAQ notes that printing opens the terminal automatically.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why are the New Class and Compile buttons grayed out?</h3>
+        <p>No project is open. The FAQ says to use Open Project or New Project from the Project menu first, after which you can create and compile classes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I run main in BlueJ?</h3>
+        <p>Compile the class, right-click it in the class diagram and choose the main method. A dialog asks for the String array; leave it as { } for no arguments, or type something like { "one", "two", "three" } to pass three.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is BlueJ free?</h3>
+        <p>Yes. The BlueJ home page describes it as a free Java Development Environment designed for beginners, released under the GNU General Public License version 2 with the Classpath Exception.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does BlueJ work on a Chromebook or a 32-bit computer?</h3>
+        <p>The BlueJ home page lists downloads for 64-bit Windows, macOS and Debian or Ubuntu Linux, and says BlueJ requires a 64-bit operating system; for 32-bit systems it points to BlueJ 4.1.4. It lists no ChromeOS download.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you fix my BlueJ homework?</h3>
+        <p>No. We do not write or repair graded assignments or provide answer keys. A teacher helps you find the cause and teaches the idea behind it, so you can make the change yourself.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are live Java classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are the classes?</h3>
+        <p>The first lesson is free. After that, teaching is paid monthly, and the fees section of this page shows the amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students learning Java.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our hub for American students and families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>Finding mistakes in any language.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-teens">Java classes for teens</a></h3><p>The teen Java course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></h3><p>Live AP CSA preparation.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/java-constructors-explained">Java constructors explained</a></h3><p>What happens when you create an object.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-for-beginners">Java for beginners</a></h3><p>A first course from zero.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us what BlueJ is doing, or not doing, and which course you are taking. The teacher looks at your setup with you first, then moves on to the Java itself.</p>
+        <p class="ag-mt-40">For a picture of a real lesson, see <a class="ag-inline-link" href="/how-we-teach">how we teach</a>; every course on <a class="ag-inline-link" href="/courses">our course list</a> has its syllabus published.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20student%20in%20the%20US%20uses%20BlueJ%20for%20Java%20and%20it%20is%20not%20working%20properly.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bnwf',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All our classes are live online sessions with teachers who work from India; there is no campus near you to drop in on. The quickest way to reach us is WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_bnwf(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">A free first lesson with no card details needed.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Java help</h4><ul><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/java-classes-for-teens">Java classes for teens</a></li><li><a href="/blog/java-constructors-explained">Java constructors explained</a></li><li><a href="/java-for-beginners">Java for beginners</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Make an object, call a method, watch what changes</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_bnwf = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'bluej-not-working-fix-inline', meta: { name: name, age: age, page: 'bluej-not-working-fix' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

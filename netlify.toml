@@ -23865,6 +23865,18 @@
   to = "/src/pages/java-cannot-find-symbol-error.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/bluej-not-working-fix"
+  to = "/src/pages/bluej-not-working-fix.html"
+  status = 200
+
+[[redirects]]
+  from = "/bluej-not-working-fix.md"
+  to = "/src/pages/bluej-not-working-fix.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

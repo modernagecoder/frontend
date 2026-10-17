@@ -440,6 +440,7 @@ const SLUGS = [
   'codehs-help-for-students',
   'code-org-app-lab-help',
   'java-cannot-find-symbol-error',
+  'bluej-not-working-fix',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -959,6 +960,7 @@ const LLMS_LABELS = {
   'codehs-help-for-students': 'CodeHS help for students',
   'code-org-app-lab-help': 'Code.org App Lab help',
   'java-cannot-find-symbol-error': 'Java cannot find symbol error',
+  'bluej-not-working-fix': 'BlueJ not working: fixes',
 };
 
 function wireLlms(slugs) {

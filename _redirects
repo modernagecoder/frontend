@@ -7162,4 +7162,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /java-cannot-find-symbol-error /src/pages/java-cannot-find-symbol-error.html 200
 /java-cannot-find-symbol-error.md /src/pages/java-cannot-find-symbol-error.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/bluej-not-working-fix /src/pages/bluej-not-working-fix.html 200
+/bluej-not-working-fix.md /src/pages/bluej-not-working-fix.md 200
 /* /src/pages/404.html 404
