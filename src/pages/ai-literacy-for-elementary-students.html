@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AI Literacy for Elementary Students: A K-5 Guide</title>
+  <meta name="description" content="AI literacy for elementary students in grades K to 5: what it means, the AILit framework basics, what US data standards expect, and two activities to try.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-literacy-for-elementary-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ai-literacy-for-elementary-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#9E332F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-literacy-for-elementary-students">
+  <meta property="og:title" content="AI Literacy for Elementary Students: A K-5 Guide">
+  <meta property="og:description" content="Knowing that AI is not human, that it learns from examples, and that its answers need checking. A K-5 guide built from the AILit framework and the US K-12 CS Framework, with live classes from age 8.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Literacy for Elementary Students: A K-5 Guide">
+  <meta name="twitter:description" content="AI literacy for K-5: what it means, what standards expect, and two activities.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ale .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-ale .ag-capsule { border-left-width: 5px; border-radius: 8px; }
+.ag-root.ag-ale .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-ale .ag-table caption { text-align: left; }
+.ag-root.ag-ale .ag-grid-3 p { line-height: 1.55; }
+.ag-root.ag-ale .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ai-literacy-for-elementary-students#page","url":"https://learn.modernagecoders.com/ai-literacy-for-elementary-students","name":"AI Literacy for Elementary Students","description":"A guide for US parents and teachers of elementary students to AI literacy in grades K to 5, built from TeachAI, the AILit framework and the K-12 Computer Science Framework data strand.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"AI literacy for elementary students","item":"https://learn.modernagecoders.com/ai-literacy-for-elementary-students"}]},{"@type":"Course","name":"AI Literacy for Elementary Students","description":"Live online AI literacy classes for US elementary students from age 8 (grades 3 to 5): how AI learns from data, where it goes wrong and how to check it, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ai-literacy-for-elementary-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-literacy-for-elementary-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ai-literacy-for-elementary-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is AI literacy for elementary students?","acceptedAnswer":{"@type":"Answer","text":"Knowing that AI is a tool and not a person, that it produces answers from patterns in data it was trained on, where it shows up in daily life, and that its answers need checking. For grades K to 5 it is mostly about understanding, not using chatbots."}},{"@type":"Question","name":"What age should children learn about AI?","acceptedAnswer":{"@type":"Answer","text":"The ideas can start in kindergarten with games about patterns and sorting. Our live AI literacy course starts at 8, which is usually third grade, and runs to 14."}},{"@type":"Question","name":"Should elementary students use ChatGPT or other chatbots?","acceptedAnswer":{"@type":"Answer","text":"Many AI services set minimum ages in their terms, and some are for adults only. Check the terms and your school district policy first. Our classes never ask a child to create an account on a service that does not allow their age."}},{"@type":"Question","name":"What is the AILit Framework?","acceptedAnswer":{"@type":"Answer","text":"An AI literacy framework for primary and secondary education from the European Commission and the OECD, developed with support from CodeAI, formerly Code.org. It has four domains: Engage with AI, Create with AI, Manage AI and Shape AI."}},{"@type":"Question","name":"Do US elementary standards include AI?","acceptedAnswer":{"@type":"Answer","text":"Not usually by name, but the K-12 Computer Science Framework covers its foundations: by the end of grade 2, using data to make predictions, and by grade 5, understanding that prediction accuracy depends on the data."}},{"@type":"Question","name":"How can I teach my child about AI at home?","acceptedAnswer":{"@type":"Answer","text":"Try the rules or learning card sort on this page: calculators and thermostats follow rules, while voice assistants and video suggestions learn from examples. Then talk about why a machine that learns can be wrong."}},{"@type":"Question","name":"Is AI for Oceans suitable for young children?","acceptedAnswer":{"@type":"Answer","text":"The AILit Framework lists it as an exemplar for primary education, age 7 and up, in a 60-minute activity that shows how AI is trained and how training can introduce bias and errors."}},{"@type":"Question","name":"Does my child need to code to learn AI literacy?","acceptedAnswer":{"@type":"Answer","text":"No coding is needed to begin. Coding helps from about grade 4, because building a tiny program that learns from examples makes the ideas concrete."}},{"@type":"Question","name":"What times are classes for US families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do AI literacy classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson costs nothing. Classes after that are paid monthly, and the fees section on this page shows the amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ai-literacy-for-elementary-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ale">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#meaning">What it means</a></li>
+      <li><a href="#expectations">Basic level</a></li>
+      <li><a href="#standards">US standards</a></li>
+      <li><a href="#sort">Sorting activity</a></li>
+      <li><a href="#program">A learning program</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / AI literacy for elementary students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades K to 5 &middot; Live classes from age 8</p>
+        <h1>AI literacy for elementary students</h1>
+        <p class="ag-lede">AI literacy for an elementary student means three things: knowing AI is a tool, not a person; knowing it learns patterns from examples; and knowing its answers must be checked. Modern Age Coders teaches it live online from age 8, in grades 3 to 5, in a batch or one to one, with younger children starting at home.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#sort" class="ag-btn ag-btn--ghost">Try the sorting activity</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20elementary%20school%20in%20the%20US%20and%20we%20are%20interested%20in%20your%20AI%20literacy%20classes.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ale'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; No child accounts on adult AI services</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Grades</dt><dd>K to 5 (classes from grade 3)</dd>
+          <dt>Class ages</dt><dd>8 and up</dd>
+          <dt>Big idea</dt><dd>AI learns from examples</dd>
+          <dt>Habit</dt><dd>Check every answer</dd>
+          <dt>Accounts</dt><dd>Only age-appropriate tools</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>For grades K to 5, AI literacy is not about using chatbots. It is understanding that AI is a non-human tool that produces outputs from patterns in data, spotting where AI appears in daily life, telling rule-following machines from ones that learn, and checking AI answers against trusted sources. Coding and data activities build all of it.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start here</p>
+      <h2>Three courses for AI literacy in the elementary years</h2>
+      <p class="ag-lede">All live, all taught by a regular teacher, and none asks a child to sign up for an AI service.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-literacy-for-kids-course">
+        <div class="ag-pick-shot"><img src="/images/ai-literacy-for-kids.webp" alt="AI Literacy for Kids (Ages 8 to 14) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ALE / 01</p>
+          <h3>AI literacy for kids</h3>
+          <p>From 8 to 14. How AI learns, fails and should be judged.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ALE / 02</p>
+          <h3>Python and AI for kids</h3>
+          <p>From 9 to 12. Build small smart programs yourself.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ALE / 03</p>
+          <h3>Computational thinking</h3>
+          <p>From 7 to 12. The reasoning underneath AI.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="meaning">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it means</p><h2>What AI literacy means for a child in kindergarten to fifth grade</h2><p class="ag-lede">AI literacy is a newer idea than computer literacy, and the two are easy to confuse. The difference matters most for young children, who are surrounded by AI long before they could use a chatbot.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>A working definition</h3><p>TeachAI, an initiative whose steering committee is made up of non-profit organizations working across education, workforce and technology, puts it this way: "AI literacy represents the technical knowledge, durable skills, and future-ready attitudes required to thrive in a world influenced by AI."</p>
+<p>For a six-year-old, the technical knowledge is small but real: a smart speaker does not understand them the way a friend does; it matches sounds to patterns it was trained on.</p></div><div><h3>Not the same as computer literacy</h3><p>The K-12 Computer Science Framework separates computer science from computer literacy, which it says "focuses on the use of existing technologies and computer programs like word processing and spreadsheets".</p>
+<p>AI literacy sits closer to computer science. A child who can only use an AI tool is not AI literate; a child who can explain, in their own simple words, how it reaches an answer and why it might be wrong is on the way.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The four AILit domains, and what each can look like in elementary school (domain names from the AILit framework; the grade examples are ours)</caption><thead><tr><th scope="col">Domain</th><th scope="col">Grades K to 2</th><th scope="col">Grades 3 to 5</th></tr></thead><tbody><tr><td>Engage with AI</td><td>Point out where AI is in the house: a voice assistant, a video app&rsquo;s suggestions</td><td>Explain why an AI answer might be wrong and how to check it</td></tr><tr><td>Create with AI</td><td>Talk about a picture an adult made with an AI tool: who had the idea?</td><td>With a teacher, compare an AI suggestion with their own idea for a story</td></tr><tr><td>Manage AI</td><td>Sort tasks into ones a person should do and ones a machine could help with</td><td>Decide whether a task needs AI at all, or a rule, or a person</td></tr><tr><td>Shape AI</td><td>Sort pictures into groups, the way a machine is trained</td><td>Train a tiny program on examples and see how the examples change its answers</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.teachai.org/ailiteracy" rel="noopener" target="_blank">TeachAI, AI Literacy</a>, the <a class="ag-inline-link" href="https://ailiteracyframework.org/" rel="noopener" target="_blank">AILit Framework site</a> and the <a class="ag-inline-link" href="https://k12cs.org/faq/" rel="noopener" target="_blank">K-12 CS Framework FAQ</a>, read 17 October 2026. We have no connection with TeachAI, the OECD, the European Commission or k12cs.org.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="expectations">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The basic level</p><h2>What the AILit framework expects at its basic level</h2><p class="ag-lede">The AILit Framework is a joint initiative of the European Commission and the OECD, developed with support from CodeAI, the organisation formerly called Code.org. It sets out learner expectations at three levels, from "Basic to Intermediate and Advanced", and says these "do not correspond to specific age ranges or grade levels". The basic level is the natural starting point for elementary students.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Selected basic-level learner expectations, quoted from Empowering Learners for the Age of AI (OECD / European Union, 2026)</caption><thead><tr><th scope="col">Competence</th><th scope="col">Basic-level expectation</th><th scope="col">Classroom idea in the framework</th></tr></thead><tbody><tr><td>Engage with AI 1: recognise AI&rsquo;s role</td><td>"Learners can identify where different types of AI are present in their everyday lives."</td><td>An "AI or Not" game sorting smart home devices, social media and apps</td></tr><tr><td>Engage with AI 2: describe how AI works</td><td>"Learners know AI is a non-human tool that produces outputs based on patterns of data and lacks authentic context or understanding."</td><td>Spotting misleading phrases such as "AI thinks" and "AI understands"</td></tr><tr><td>Engage with AI 3: evaluate outputs</td><td>"Learners understand why AI-generated outputs should be verified" and how to check them</td><td>Comparing an AI tool&rsquo;s solution to a math problem with the method the teacher taught</td></tr><tr><td>Manage AI 2: choose an approach</td><td>"some types of AI systems can be programmed with specific rules to accomplish tasks, while others can learn patterns from data."</td><td>Directing a classmate playing a robot to sort pictures of trash</td></tr><tr><td>Shape AI 3: data and design</td><td>"Learners identify examples of data that might be used to train AI systems."</td><td>Deciding what data would train a tool that sorts recycling</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The idea under all of them</h3><p>The framework&rsquo;s first knowledge statement is four words long: "AI is not human." Almost everything an elementary child needs follows from that one sentence, said often and shown in many ways.</p>
+<p>Language is part of it. When a child says the computer "knows" or "wants" something, a gentle correction helps: it was trained to match patterns, and it can be wrong without knowing it.</p></div><div><h3>Built for families too</h3><p>The framework lists parents among its audiences, alongside teachers and policymakers, and its draft, published in May 2025, drew on "Insights from more than 2,000 individuals" before the final version.</p>
+<p>Because it is international, it asks that classroom activities be adapted to "local contexts, guidance and legislation". In the US, that means following your district&rsquo;s rules on which AI tools, if any, children may use.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://ailiteracyframework.org/pdfs/framework_pdf/AILF_en.pdf" rel="noopener" target="_blank">Empowering Learners for the Age of AI: An AI Literacy Framework for Primary and Secondary Education</a> (OECD / European Union, 2026), read 17 October 2026. The framework also notes that it contributes to the Innovative Domain of the PISA 2029 Assessment.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="standards">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">US standards</p><h2>Where AI ideas already sit in US elementary computer science standards</h2><p class="ag-lede">The K-12 Computer Science Framework, which informs state and district computer science decisions, has no separate AI concept among its five core concepts, but its data strand already covers the foundations for grades K to 5: collecting data, and using it to make predictions.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Data and prediction statements for the elementary grades, in the framework&rsquo;s wording (k12cs.org, read 17 October 2026)</caption><thead><tr><th scope="col">Subconcept</th><th scope="col">By the end of grade 2</th><th scope="col">By the end of grade 5</th></tr></thead><tbody><tr><td>Collection</td><td>"Everyday digital devices collect and display data over time."</td><td>"People select digital tools for the collection of data based on what is being observed and how the data will be used."</td></tr><tr><td>Inference and models</td><td>"Data can be used to make inferences or predictions about the world."</td><td>"The accuracy of inferences and predictions is related to how realistically data is represented."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why this is AI literacy</h3><p>An AI system is, at heart, a machine that makes predictions from data. A second grader who predicts tomorrow&rsquo;s lunch choice from last week&rsquo;s tally chart is doing, by hand, what a recommendation system does at scale.</p>
+<p>The grade 5 statement adds the crucial warning: predictions are only as good as the data, with accuracy affected by factors "such as the amount and relevance of data collected". That is the root of every conversation about AI bias.</p></div><div><h3>What comes next, in middle school</h3><p>Code.org&rsquo;s AI Discoveries, the course it now recommends for middle school, is listed for grades 6, 7 and 8. Elementary families who want AI ideas earlier can build them through the data activities on this page.</p>
+<p>That makes the elementary years a quiet opportunity. Children who already understand data and patterns arrive in middle school ready to reason about AI rather than just use it.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://k12cs.org/framework-statements-by-grade-band/" rel="noopener" target="_blank">K-12 CS Framework, statements by grade band</a> and <a class="ag-inline-link" href="https://code.org/en-US/curriculum/artificial-intelligence-discoveries" rel="noopener" target="_blank">Code.org AI Discoveries</a>, read 17 October 2026. We are not connected with either.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="sort">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Try it at home</p><h2>Rules or learning? A twelve-card sorting activity</h2><p class="ag-lede">This activity takes ten minutes and works from about first grade. Write each item on a card. Your child sorts them into three piles: follows set rules, learns from examples, or not a machine decision at all. The AILit framework uses calculators, traffic lights and thermostats as its examples of rule-following technology.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Twelve cards with suggested answers (ours; how a specific product works can vary)</caption><thead><tr><th scope="col">Card</th><th scope="col">Suggested pile</th><th scope="col">Why</th></tr></thead><tbody><tr><td>A calculator adding 7 + 5</td><td>Rules</td><td>It follows exact instructions and gives the same answer every time</td></tr><tr><td>A traffic light changing color</td><td>Rules</td><td>Usually a timer or sensor rule, not learning</td></tr><tr><td>A thermostat turning on the heat</td><td>Rules</td><td>It compares the temperature with a set number</td></tr><tr><td>A microwave counting down</td><td>Rules</td><td>A timer that does exactly what was typed</td></tr><tr><td>A voice assistant answering a question</td><td>Learning</td><td>Trained on recordings of many voices to match sounds to words</td></tr><tr><td>A video app suggesting the next video</td><td>Learning</td><td>It predicts what you will watch from what people watched before</td></tr><tr><td>A photo app finding pictures of a dog</td><td>Learning</td><td>Trained on many labelled pictures of dogs</td></tr><tr><td>An email app moving junk mail</td><td>Learning</td><td>Trained on examples of mail people marked as junk</td></tr><tr><td>A translation app turning English into Spanish</td><td>Learning</td><td>Trained on huge amounts of translated text</td></tr><tr><td>Choosing which friend to invite over</td><td>A person</td><td>This needs feelings and judgement</td></tr><tr><td>Deciding if a joke is kind</td><td>A person</td><td>Machines can guess, but people should decide</td></tr><tr><td>Sorting socks by color</td><td>Either</td><td>A good debate: a rule could do it, so could a person</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The conversation that matters</h3><p>Disagreement is the point. If your child puts the video app under rules, ask how it could know what they like. If they put the calculator under learning, ask whether it ever surprises them.</p>
+<p>End with the framework&rsquo;s key sentence in kid language: a machine that learns is copying patterns from examples, and if the examples are odd, its answers will be odd too.</p></div><div><h3>A free classroom game to follow</h3><p>The AILit site lists AI for Oceans as an exemplar: "a web app learning game that introduces young learners to the concepts of how AI systems are trained, and how training can introduce bias, and potentially produce errors." It is listed for primary education, "Age 7 and up", in an activity of 60 minutes.</p>
+<p>Children train a sorter on pictures, then see it make mistakes. It is a natural next step after the card sort, ideally with an adult nearby.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: the Manage AI 2 learner expectations in the <a class="ag-inline-link" href="https://ailiteracyframework.org/pdfs/framework_pdf/AILF_en.pdf" rel="noopener" target="_blank">AILit Framework</a> and its <a class="ag-inline-link" href="https://ailiteracyframework.org/ai-for-oceans/" rel="noopener" target="_blank">AI for Oceans exemplar page</a>, read 17 October 2026. The twelve cards are ours.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="program">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A learning program</p><h2>A tiny program that learns from examples, and gets things wrong</h2><p class="ag-lede">For fourth and fifth graders who have started Python, and for parents who want to see the idea in action, this is a program we use in class. It learns which words go with happy and sad sentences from four examples, then guesses. Its third guess is the lesson.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; a word-counting guesser</b><span>python</span></figcaption><pre># Learning from examples (ours): a tiny word-counting guesser
+examples = [
+    ("i love sunny days", "happy"),
+    ("this game is fun", "happy"),
+    ("i feel sad and tired", "sad"),
+    ("the rain spoiled our picnic", "sad"),
+]
+
+# training: count how often each word appears with each label
+counts = {"happy": {}, "sad": {}}
+for sentence, label in examples:
+    for word in sentence.split():
+        counts[label][word] = counts[label].get(word, 0) + 1
+
+def guess(sentence):
+    words = sentence.split()
+    scores = {}
+    for label in counts:
+        scores[label] = sum(counts[label].get(w, 0) for w in words)
+    return max(scores, key=scores.get)
+
+print(guess("sunny days are fun"))    # happy
+print(guess("a sad rainy picnic"))    # sad
+print(guess("my kite is broken"))     # happy, only because of "is"</pre><p class="ag-code-note">Ours. We ran it with Python 3.13 before printing, and the comments show its real answers. The third sentence is not happy at all, but the only word the program has seen before is "is", which appeared in a happy example, so it answers happy.</p></figure>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Training</h3><p>The loop counts words in four labelled examples. That is all the program ever knows.</p></div><div><h3>Predicting</h3><p>For a new sentence, it adds up word counts for each label and picks the bigger total.</p></div><div><h3>Being wrong</h3><p>With too few examples it answers confidently anyway, and it can never say "I do not know".</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Questions we ask children</h3><p>Why did it say "my kite is broken" was happy? Children who answer "because of the word is" have understood that AI follows patterns in its data, not meaning.</p>
+<p>How could we fix it? Add more examples, especially sad ones that use everyday words. Run it again. That is the framework&rsquo;s point about the amount and relevance of data, discovered by a ten-year-old.</p></div><div><h3>Why a program and not a chatbot</h3><p>A child who builds a tiny guesser sees every step. Nothing is hidden, so nothing seems magical, and the idea that big AI systems work on the same principle, at enormous scale, becomes believable.</p>
+<p>It also keeps the lesson inside our own code, so no child needs an account on any AI service to learn how AI works.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="safety">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Safety and accounts</p><h2>AI tools, accounts and young children: our rules, and questions to ask a school</h2><p class="ag-lede">Many AI services set a minimum age in their terms of service, and some are for adults only. Those rules change, so we do not list them here; check the terms of any tool before your child uses it.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>How we handle it</h3><p>We never ask a child to create an account on a service whose terms do not allow their age. Elementary students in our classes learn with programs they build themselves, child-appropriate activities and demonstrations run by the teacher.</p>
+<p>When a teacher demonstrates an AI tool, the lesson is about checking it: find one thing it got right, one thing it got wrong, and how we know.</p></div><div><h3>Five questions for your child&rsquo;s school</h3><p>Which AI tools, if any, do students in this grade use, and are they school-managed accounts? What does the district policy say about AI for elementary students? Is any student work or data shared with an AI service?</p>
+<p>How is AI literacy taught, rather than just AI use? And how should my child say when they have used AI for schoolwork? Schools that have thought these through will have ready answers.</p></div></div>
+    <p class="ag-mt-40">For older children, our guides to <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools and age rules</a> and <a class="ag-inline-link" href="/blog/how-to-use-chatgpt-to-study-without-cheating">studying with AI honestly</a> go further. For the wider picture across all ages, see <a class="ag-inline-link" href="/ai-literacy-for-students">AI literacy for students</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Grade by grade</p>
+      <h2>Four stages of AI understanding in elementary school</h2>
+      <p class="ag-lede">An outline, not a schedule. Many children reach stage 2 at home long before school mentions AI.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of AI understanding, grades K to 5 (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">A child at this stage says</th></tr></thead><tbody><tr><td>1. Noticing</td><td class="ag-num">"The speaker heard me and played my song."</td></tr><tr><td>2. Not a person</td><td class="ag-num">"It does not really understand; it matches what I say to things it learned."</td></tr><tr><td>3. Learns from examples</td><td class="ag-num">"If you show it lots of cat pictures, it gets better at finding cats."</td></tr><tr><td>4. Can be wrong</td><td class="ag-num">"It might be wrong if its examples were wrong, so I should check."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 2 is the big one. Saying "it was trained" instead of "it knows" at home helps more than any app.</p>
+<p>Ask your child to catch an AI mistake this week, perhaps a wrong song or a silly suggestion. Talk about why it happened.</p></div><div><h3>For kids</h3><p>AI is a tool, like a very fast pattern-matcher. It is not your friend and it is not always right.</p>
+<p>If an answer matters, check it with a book, a teacher or a grown-up.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>More courses that build the foundations for AI</h2>
+      <p class="ag-lede">Coding, data and problem solving, taught live. The ages are those each course is designed for.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations first</h3>
+        <span class="ag-band-sub">From age 6</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / F / 01</p>
+          <h4>Block coding for kids</h4>
+          <p>From 6. Instructions, loops, events.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / F / 02</p>
+          <h4>Scratch</h4>
+          <p>From 6. Games that react and keep score.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / F / 03</p>
+          <h4>Minecraft coding</h4>
+          <p>From 7. Code in a familiar world.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Making with code</h3>
+        <span class="ag-band-sub">Ages 8 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / M / 01</p>
+          <h4>Game development</h4>
+          <p>Rules, scores and design.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / M / 02</p>
+          <h4>App building</h4>
+          <p>Apps with buttons and sensors.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / M / 03</p>
+          <h4>Web and AI for kids</h4>
+          <p>9 to 12. Smart web pages.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>For older siblings</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / T / 01</p>
+          <h4>AI and machine learning</h4>
+          <p>Real models in Python.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / T / 02</p>
+          <h4>AI tools for teens</h4>
+          <p>Using AI well, from 13.</p>
+          <a class="ag-course-link" href="/courses/teens-ai-tools-mastery-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ALE / T / 03</p>
+          <h4>Python for teens</h4>
+          <p>A first step towards building AI.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live AI literacy classes for young learners</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school batches in US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning classes for younger children.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">At a time that suits your family.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Teacher-led</h3><p>A regular teacher guides every activity.</p></div>
+      <div><h3>No AI accounts</h3><p>Children never sign up for adult services.</p></div>
+      <div><h3>Build to understand</h3><p>Small programs make AI less mysterious.</p></div>
+      <div><h3>Check everything</h3><p>Every lesson includes catching a mistake.</p></div>
+      <div><h3>Short sessions</h3><p>Paced for elementary attention spans.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty children, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects by our students</h2>
+      <p class="ag-lede">Older learners built these after the same foundations. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">A monthly fee in US dollars, with no term contract. You can stop at the end of any month, and the first lesson is free so your child can try it first.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A chat about your child&rsquo;s questions on AI</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>Grouped by age</li><li>One regular teacher</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher to yourself</li><li>Paced for your child</li><li>Times you choose</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents, quoted exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from parents and teachers</p>
+      <h2>AI literacy for elementary students: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is AI literacy for elementary students?</h3>
+        <p>Knowing that AI is a tool and not a person, that it produces answers from patterns in data it was trained on, where it shows up in daily life, and that its answers need checking. For grades K to 5 it is mostly about understanding, not using chatbots.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age should children learn about AI?</h3>
+        <p>The ideas can start in kindergarten with games about patterns and sorting. Our live AI literacy course starts at 8, which is usually third grade, and runs to 14.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should elementary students use ChatGPT or other chatbots?</h3>
+        <p>Many AI services set minimum ages in their terms, and some are for adults only. Check the terms and your school district policy first. Our classes never ask a child to create an account on a service that does not allow their age.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the AILit Framework?</h3>
+        <p>An AI literacy framework for primary and secondary education from the European Commission and the OECD, developed with support from CodeAI, formerly Code.org. It has four domains: Engage with AI, Create with AI, Manage AI and Shape AI.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do US elementary standards include AI?</h3>
+        <p>Not usually by name, but the K-12 Computer Science Framework covers its foundations: by the end of grade 2, using data to make predictions, and by grade 5, understanding that prediction accuracy depends on the data.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How can I teach my child about AI at home?</h3>
+        <p>Try the rules or learning card sort on this page: calculators and thermostats follow rules, while voice assistants and video suggestions learn from examples. Then talk about why a machine that learns can be wrong.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is AI for Oceans suitable for young children?</h3>
+        <p>The AILit Framework lists it as an exemplar for primary education, age 7 and up, in a 60-minute activity that shows how AI is trained and how training can introduce bias and errors.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to code to learn AI literacy?</h3>
+        <p>No coding is needed to begin. Coding helps from about grade 4, because building a tiny program that learns from examples makes the ideas concrete.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US families?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do AI literacy classes cost?</h3>
+        <p>The first lesson costs nothing. Classes after that are paid monthly, and the fees section on this page shows the amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More on AI and coding for young US learners.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our US home page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-literacy-for-students">AI literacy for students</a></h3><p>The same skill, across all ages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-8-year-olds">Coding for 8 year olds</a></h3><p>Third grade coding, step by step.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/how-to-teach-kids-ai-at-home">Teaching kids AI at home</a></h3><p>More ideas for parents.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>What each tool&rsquo;s terms allow.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>A class, minute by minute.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us your child&rsquo;s grade and any questions they have asked about AI. The teacher builds the first lesson around those questions, which young children usually love.</p>
+        <p class="ag-mt-40">Want to know more first? See <a class="ag-inline-link" href="/how-we-teach">how our lessons work</a>, or read the full outline of the <a class="ag-inline-link" href="/courses/ai-literacy-for-kids-course">AI literacy course</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20elementary%20school%20in%20the%20US%20and%20we%20are%20interested%20in%20your%20AI%20literacy%20classes.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ale',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All teaching is live on video, by our teachers in India, so families join from any US state in the same way. WhatsApp is the fastest way to ask a question.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ale(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free; we will never ask for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AI for young learners</h4><ul><li><a href="/ai-literacy-for-students">AI literacy for students</a></li><li><a href="/ai-tools-age-guide">AI tools age guide</a></li><li><a href="/blog/how-to-teach-kids-ai-at-home">Teaching kids AI at home</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/ai-and-machine-learning-classes-in-usa">AI and ML classes in the USA</a></li><li><a href="/coding-for-9-year-olds">Coding for 9 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>The examples decide the answer</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ale = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'ai-literacy-for-elementary-students-inline', meta: { name: name, age: age, page: 'ai-literacy-for-elementary-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

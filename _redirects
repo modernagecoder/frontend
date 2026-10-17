@@ -7102,4 +7102,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /coding-milestones-by-age /src/pages/coding-milestones-by-age.html 200
 /coding-milestones-by-age.md /src/pages/coding-milestones-by-age.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-literacy-for-elementary-students /src/pages/ai-literacy-for-elementary-students.html 200
+/ai-literacy-for-elementary-students.md /src/pages/ai-literacy-for-elementary-students.md 200
 /* /src/pages/404.html 404
