@@ -410,6 +410,7 @@ const SLUGS = [
   'congressional-app-challenge-guide',
   'computer-science-summer-programs-for-high-school-students',
   'coding-summer-camp-for-middle-schoolers',
+  'game-design-summer-camp-for-teens',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -899,6 +900,7 @@ const LLMS_LABELS = {
   'congressional-app-challenge-guide': 'Congressional App Challenge guide',
   'computer-science-summer-programs-for-high-school-students': 'CS summer programs for high school students',
   'coding-summer-camp-for-middle-schoolers': 'Coding summer camp for middle schoolers',
+  'game-design-summer-camp-for-teens': 'Game design summer camp for teens',
 };
 
 function wireLlms(slugs) {

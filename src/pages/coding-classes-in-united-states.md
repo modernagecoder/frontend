@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Game design summer camp for teens](/game-design-summer-camp-for-teens)
 - [Coding summer camp for middle schoolers](/coding-summer-camp-for-middle-schoolers)
 - [CS summer programs for high school students](/computer-science-summer-programs-for-high-school-students)
 - [How to make a Roblox game](/how-to-make-a-roblox-game)

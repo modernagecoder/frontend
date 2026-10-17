@@ -23505,6 +23505,18 @@
   to = "/src/pages/coding-summer-camp-for-middle-schoolers.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/game-design-summer-camp-for-teens"
+  to = "/src/pages/game-design-summer-camp-for-teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/game-design-summer-camp-for-teens.md"
+  to = "/src/pages/game-design-summer-camp-for-teens.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

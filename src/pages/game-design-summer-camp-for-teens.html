@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Game Design Summer Camp for Teens: Engines, Plans, Portfolio</title>
+  <meta name="description" content="A game design summer camp for teens explained: what a selective 2027 program asks for, Godot, Unity or Roblox first, real GDScript, and our six-week plan.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/game-design-summer-camp-for-teens">
+  <link rel="alternate" type="text/markdown" href="/src/pages/game-design-summer-camp-for-teens.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2B6B27">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/game-design-summer-camp-for-teens">
+  <meta property="og:title" content="Game Design Summer Camp for Teens: Engines, Plans, Portfolio">
+  <meta property="og:description" content="What a serious teen game design camp expects, which engine fits which teen, a working Godot script, a six-week summer plan and a portfolio checklist, all in one place.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Game Design Summer Camp for Teens: Engines, Plans, Portfolio">
+  <meta name="twitter:description" content="Game design summer camp for teens: engines, a real script, a six-week plan.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-gdsc .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-gdsc .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-gdsc .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-gdsc .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-gdsc .ag-steps { gap: 0.9rem; }
+.ag-root.ag-gdsc .ag-slots { gap: 1.1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/game-design-summer-camp-for-teens#page","url":"https://learn.modernagecoders.com/game-design-summer-camp-for-teens","name":"Game Design Summer Camp for Teens","description":"A guide for US teens and parents choosing a video game design summer camp, with one selective program read from its own 2027 page, engine rules, real code and our own summer plan.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Game design summer camp for teens","item":"https://learn.modernagecoders.com/game-design-summer-camp-for-teens"}]},{"@type":"Course","name":"Game Design Summer Camp for Teens","description":"Live online game development classes for US teens over the summer, building original games in Unity, Godot or Roblox Studio, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/game-design-summer-camp-for-teens"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/game-design-summer-camp-for-teens"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/game-design-summer-camp-for-teens"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What should a teen get out of a game design summer camp?","acceptedAnswer":{"@type":"Answer","text":"One finished game that someone else can play, a short video of it being played, and the ability to explain their own code. A certificate on its own shows very little."}},{"@type":"Question","name":"How old do you have to be for the National High School Game Academy?","acceptedAnswer":{"@type":"Answer","text":"Carnegie Mellon's 2027 page says applicants must be 16 by June 26, 2027 and be a sophomore or junior when they apply, with a B average or better. We are not connected with the program."}},{"@type":"Question","name":"When are the 2027 NHSGA deadlines?","acceptedAnswer":{"@type":"Answer","text":"The 2027 page lists February 1, 2027 for the scholarship application, with decisions on April 1, 2027, and March 1, 2027 for the basic application, decided on a rolling basis."}},{"@type":"Question","name":"Which game engine should a teenager learn first?","acceptedAnswer":{"@type":"Answer","text":"For a 13 or 14 year old who plays Roblox, Roblox Studio. For a teen who wants clean scripting and full ownership, Godot. For older teens aiming at C# and 3D, Unity. That is our view, not a rule."}},{"@type":"Question","name":"Is Godot really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Godot licence page says Godot Engine is free and open source, released under the permissive MIT license. No account is needed to download it."}},{"@type":"Question","name":"Can my teen use Unity for free?","acceptedAnswer":{"@type":"Answer","text":"Unity offers a free Student plan. Its page says secondary school students qualify at 16 years and older if enrolled in an accredited educational institution."}},{"@type":"Question","name":"Can my teen make games on a Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Roblox's own education FAQ says Roblox Studio cannot run on Chromebooks. Browser-based JavaScript games work well on a Chromebook, which is why we teach that route to Chromebook families."}},{"@type":"Question","name":"Is an online game design camp as good as a residential one?","acceptedAnswer":{"@type":"Answer","text":"They are different. Residential camps give team life on campus; live online classes give a regular teacher, no travel and the chance to keep building after summer. Choose by what your teen needs."}},{"@type":"Question","name":"When are your classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How can Modern Age Coders help over the summer?","acceptedAnswer":{"@type":"Answer","text":"A regular teacher takes your teen through our six-week plan in the engine that suits them, reviews each build, runs a playtest week and helps record the final play video."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/game-design-summer-camp-for-teens","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-gdsc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#serious">A selective camp</a></li>
+      <li><a href="#engines">Which engine</a></li>
+      <li><a href="#code">Real code</a></li>
+      <li><a href="#plan">Six-week plan</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Game design summer camp for teens
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 13 to 18 &middot; Summer 2027</p>
+        <h1>Game design summer camp for teens</h1>
+        <p class="ag-lede">A good game design summer camp for teens ends with a game somebody else can play, not a certificate. That takes an engine, a team or a mentor, and a deadline. This page reads one of the most demanding US programs from its own 2027 page so families can see what the top end really asks, compares the engines a teenager can use legally at each age, walks through a short Godot script line by line, and sets out the six-week summer plan our teachers use online for teens who want to build a finished game from home.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#plan" class="ag-btn ag-btn--ghost">See the six-week plan</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20wants%20a%20game%20design%20camp%20this%20summer.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gdsc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; one finished game as the goal</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Ages</dt><dd>13 to 18</dd>
+          <dt>Engines</dt><dd>Unity, Godot, Roblox Studio</dd>
+          <dt>Goal</dt><dd>One finished, playable game</dd>
+          <dt>Length</dt><dd>Six weeks, or longer</dd>
+          <dt>Format</dt><dd>Live online classes</dd>
+          <dt>Group</dt><dd>A batch, or one to one</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>A game design summer camp for teens should leave the student with one finished game, a short gameplay video and the ability to explain their code. Residential programs such as Carnegie Mellon&rsquo;s National High School Game Academy run six weeks, need applicants aged 16 or older and close applications by March 1, 2027. Modern Age Coders teaches the same skills live online, ages 13 to 18, in a batch or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Build the game with a teacher</p>
+      <h2>Three courses that turn a summer into a finished game</h2>
+      <p class="ag-lede">Pick by engine and by how much code the teen already writes. All three are live, with homework reviewed every week.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-game-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/game-dev-teens.webp" alt="Game Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDSC / 01</p>
+          <h3>Game development for teens</h3>
+          <p>Ages 13 to 18. Unity and C#, from first scene to shipped build.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/javascript-course-for-teens-beginners-interactive-web">
+        <div class="ag-pick-shot"><img src="/images/javascript-teens.webp" alt="JavaScript for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDSC / 02</p>
+          <h3>Browser games in JavaScript</h3>
+          <p>Ages 13 to 18. Games that run on a school Chromebook.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/roblox-game-coding-for-kids-lua-course">
+        <div class="ag-pick-shot"><img src="/images/roblox-coding-kids.webp" alt="Roblox Game Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDSC / 03</p>
+          <h3>Roblox games in Luau</h3>
+          <p>Younger teens. Real scripts in Roblox Studio.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="serious">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The top end</p><h2>What a selective teen game design program asks for in 2027</h2><p class="ag-lede">To see what serious looks like, we read the 2027 page of Carnegie Mellon&rsquo;s National High School Game Academy (NHSGA) from start to finish. It is one residential program among many, not a ranking, and the details below are only what Carnegie Mellon publishes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>National High School Game Academy, 2027 cycle, from Carnegie Mellon Pre-College&rsquo;s own page (read 17 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What the 2027 page says</th></tr></thead><tbody><tr><td>Length</td><td>Six weeks of video game development, June 26 to August 7, 2027, resident only</td></tr><tr><td>Age</td><td>"You must be 16 years of age by June 26, 2027."</td></tr><tr><td>Grade</td><td>A current sophomore or junior when applying; the page adds that "most of our admitted students will be juniors"</td></tr><tr><td>Grades in school</td><td>"Have an academic average of B (3.0/4.0) or better."</td></tr><tr><td>Tracks</td><td>Software Development, Visual Arts or Graphic Design, Sound Design or Music Composition, Game Generalist</td></tr><tr><td>Deadlines</td><td>Scholarship application February 1, 2027 (decisions April 1, 2027); basic application March 1, 2027, decided on a rolling basis</td></tr><tr><td>Attendance</td><td>In person every day; "Work may not be done remotely."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The workload, in their numbers</h3><p>The first two weeks are classes in 2D and 3D art, programming in Unity, project management, interactive storytelling, game design, animation, sound and public speaking. The page says "A typical day includes five hours of classes and three hours of homework."</p>
+<p>It also says "We average approximately 20 total homework assignments over the first two weeks." Our arithmetic: two school weeks are ten weekdays, so that is about two assignments a day, every day, on top of class.</p></div><div><h3>How the teams work</h3><p>From week three, students build in teams of five or six: programmers, visual artists, generalists and sound designers. A one-week Lightning Round comes first, then a second team pitches three ideas and builds one original game from scratch.</p>
+<p>One line surprises many applicants: "We do not assign that role in the NHSGA. Design is a collaborative effort." Nobody is hired as the game designer; design comes out of the whole team.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.cmu.edu/pre-college/academic-programs/game-academy.html" rel="noopener" target="_blank">Carnegie Mellon Pre-College, National High School Game Academy</a>, read 17 October 2026. Dates are for the 2027 cycle; later cycles publish their own. We are not connected with Carnegie Mellon University, and we make no prediction about any admission decision.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="apply">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Applying</p><h2>The work sample rules, and what they teach every teen</h2><p class="ag-lede">Selective game programs judge what an applicant has already made. The NHSGA rules are unusually specific, and they are a good checklist even for a teen who never applies there.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Work samples for the 2027 NHSGA application, from Carnegie Mellon&rsquo;s page</caption><thead><tr><th scope="col">Rule</th><th scope="col">What it says</th></tr></thead><tbody><tr><td>No portfolio links</td><td>"Do not submit a link to an online portfolio." Upload documents instead, ideally one PDF.</td></tr><tr><td>How many</td><td>"No more than 10 documents or work examples should be submitted."</td></tr><tr><td>Code</td><td>Written code is allowed if the applicant explains what skill each sample is meant to show.</td></tr><tr><td>Software track</td><td>"If applying for a software position, please submit a video of the game or project being played or used live."</td></tr><tr><td>Team projects</td><td>Always say which role the applicant performed on any shared project.</td></tr><tr><td>Prior experience</td><td>Helpful but not necessary; the page looks for a creative mindset shown through the samples.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the video matters so much</h3><p>A reviewer can watch thirty seconds of play faster than they can install a build. A short capture that shows the core loop, a win and a loss tells them more than a page of description.</p>
+<p>That is why every plan on this page ends with a recorded play-through, whichever engine the teen uses.</p></div><div><h3>Saying who did what</h3><p>Most teen games are built with friends. A sample that says "I wrote the enemy movement and the save system; my partner drew the art" is honest and much easier to judge.</p>
+<p>Keep a short build diary from the first day of camp. Writing the role statement in March is then a matter of copying, not remembering.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="engines">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Which engine</p><h2>Godot, Unity or Roblox Studio: what each one allows at which age</h2><p class="ag-lede">Engine choice is partly about taste and partly about rules. Account and licence terms set real age lines, and the hardware at home decides the rest.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Engine facts from each maker&rsquo;s own pages (read 17 October 2026); the last column is our recommendation</caption><thead><tr><th scope="col">Engine</th><th scope="col">What the maker publishes</th><th scope="col">Our view: best fit</th></tr></thead><tbody><tr><td>Godot</td><td>"Godot Engine is free and open source", "released under the permissive MIT license"; GDScript "is the recommended language to learn"</td><td>A teen who wants to own the whole game and learn clean scripting</td></tr><tr><td>Unity</td><td>Student plan for secondary school: "Students 16 years and older who are enrolled in an accredited educational institution"</td><td>Older teens aiming at the C# and 3D skills many studios list</td></tr><tr><td>Roblox Studio</td><td>"a free application available on Windows and Mac"; "Roblox Studio cannot run on Chromebooks or mobile devices such as smartphones."</td><td>Younger teens who already play Roblox and want an audience fast</td></tr><tr><td>Browser JavaScript</td><td>No single maker; our note: the code runs in the web browser, so nothing needs installing</td><td>A Chromebook household, or a first game in a few days</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading the age lines carefully</h3><p>The Unity line above is the eligibility rule for the free Student plan for secondary school students. Check Unity&rsquo;s current terms with your teen before creating any account, and keep a parent involved for anyone under 18.</p>
+<p>Godot has no account at all, which is one reason we like it for a summer: download, open, build.</p></div><div><h3>Ratings for the game itself</h3><p>US families often judge teen games by the ESRB labels. The ESRB guide says Teen content "is generally suitable for ages 13 and up" and Everyone 10+ content "is generally suitable for ages 10 and up".</p>
+<p>Our suggestion is to keep a student game within what Everyone 10+ describes, so the project can be shown at school, to grandparents and on an application without a second thought.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://godotengine.org/license/" rel="noopener" target="_blank">Godot licence</a>, <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/about/faq.html" rel="noopener" target="_blank">Godot FAQ</a>, <a class="ag-inline-link" href="https://unity.com/products/unity-student" rel="noopener" target="_blank">Unity Student plan</a>, <a class="ag-inline-link" href="https://create.roblox.com/docs/studio/setup" rel="noopener" target="_blank">Roblox Studio setup</a>, <a class="ag-inline-link" href="https://www.esrb.org/ratings-guide/" rel="noopener" target="_blank">ESRB ratings guide</a>, all read 17 October 2026. We are not connected with any of these companies or organisations.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="code">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Real code</p><h2>A Godot movement script, and the bug every camp should teach</h2><p class="ag-lede">This is the player movement from Godot&rsquo;s own first-game tutorial, set out as one script. It runs as written on an Area2D node once four input actions are mapped in the project settings.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 1 &middot; eight-way movement that stays on screen</b><span>gdscript</span></figcaption><pre>extends Area2D
+
+@export var speed = 400  # pixels per second, the value in Godot's own tutorial
+var screen_size
+
+func _ready():
+    screen_size = get_viewport_rect().size
+
+func _process(delta):
+    var velocity = Vector2.ZERO
+    if Input.is_action_pressed("move_right"):
+        velocity.x += 1
+    if Input.is_action_pressed("move_left"):
+        velocity.x -= 1
+    if Input.is_action_pressed("move_down"):
+        velocity.y += 1
+    if Input.is_action_pressed("move_up"):
+        velocity.y -= 1
+    if velocity.length() &gt; 0:
+        velocity = velocity.normalized() * speed
+    position += velocity * delta
+    position = position.clamp(Vector2.ZERO, screen_size)</pre><p class="ag-code-note">Every line here uses calls documented in the Godot tutorial: Input.is_action_pressed, Vector2.normalized, clamp and get_viewport_rect. The engine calls _process once per frame and passes delta, the seconds since the last frame.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 2 &middot; the same idea with one line missing</b><span>gdscript</span></figcaption><pre># The camp-week bug we set on purpose: no normalized() call.
+func _process(delta):
+    var velocity = Vector2.ZERO
+    if Input.is_action_pressed("move_right"):
+        velocity.x += 1
+    if Input.is_action_pressed("move_down"):
+        velocity.y += 1
+    velocity = velocity * speed   # (1, 1) * 400 has length of about 566
+    position += velocity * delta</pre><p class="ag-code-note">Our arithmetic: holding right and down gives the vector (1, 1), whose length is the square root of 2, about 1.414. Times 400 that is about 566 pixels per second, so the player moves roughly 41 percent faster on a diagonal.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why delta matters</h3><p>Speed is in pixels per second, but the screen updates in frames. Multiplying by delta converts one into the other. At an assumed 60 frames a second, delta is about 0.0167, so the player moves about 6.7 pixels each frame (400 / 60).</p>
+<p>On a slower laptop running 30 frames a second, delta doubles and the step doubles too, so the player still covers 400 pixels in a second. Without delta, a game runs at different speeds on different computers.</p></div><div><h3>What the student learns</h3><p>Vectors, frame time and clamping are the same ideas behind physics in any engine. A teen who can explain Script 2&rsquo;s bug out loud understands something that later appears in Unity, in Roblox and in a high school physics class.</p>
+<p>We set this bug deliberately in week two of our plan. Students find it by feel first, because diagonal movement looks wrong, and then prove it with the square root of 2.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Code source: <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/getting_started/first_2d_game/03.coding_the_player.html" rel="noopener" target="_blank">Godot docs, Your first 2D game: Coding the player</a>, read 17 October 2026. Script 2 and the arithmetic are ours.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Six weeks</p><h2>Our six-week summer plan for one finished game</h2><p class="ag-lede">This is our plan for a teen learning from home with live classes. It assumes about six hours a week: two live lessons and the build time between them. It is deliberately smaller than a residential program, because a finished small game beats an unfinished large one.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Six weeks to a finished game (our plan)</caption><thead><tr><th scope="col">Week</th><th scope="col">Goal</th><th scope="col">Finished when</th></tr></thead><tbody><tr><td>1</td><td>Engine set up and a moving player</td><td>The player moves, stays on screen and the teen can explain delta</td></tr><tr><td>2</td><td>The core loop</td><td>One thing to collect or avoid, a score, and the diagonal bug found and fixed</td></tr><tr><td>3</td><td>Win and lose</td><td>A start screen, a game-over screen and a restart button</td></tr><tr><td>4</td><td>Playtest</td><td>Four people outside the family played it; their three biggest complaints written down</td></tr><tr><td>5</td><td>Fix and polish</td><td>The three complaints fixed; sound and one visual pass</td></tr><tr><td>6</td><td>Ship and record</td><td>An exported build, a 60 to 90 second play video, and a one-page build diary</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Ages 13 and 14</h3><p>Roblox Studio or browser JavaScript. One level, one mechanic, done properly.</p></div><div><h3>Ages 15 and 16</h3><p>Godot with GDScript. A short arcade game with a title screen and saved high score.</p></div><div><h3>Ages 16 to 18</h3><p>Unity or Godot, a level designed on paper first, and a gameplay video fit for an application.</p></div></div>
+    <p class="ag-mt-40">Our time budget, for parents who want the number: six hours a week for six weeks is 36 hours. A residential day at the program above is five hours of class and three of homework, so 36 hours is roughly four and a half of those days. That is why our plan aims at one small game rather than two team games.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="portfolio">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The portfolio</p><h2>A portfolio checklist for a teen game designer</h2><p class="ag-lede">Whether the next step is a selective camp, a school showcase or a college application, the same few items do the work. This checklist is ours, built from the work-sample rules above.</p></div>
+    <ol class="ag-steps"><li><b>One finished game.</b> Playable from start to end, with a way to win and a way to lose.</li><li><b>A short play video.</b> Sixty to ninety seconds of real play, with no music laid over the game&rsquo;s own sound.</li><li><b>A role statement.</b> One sentence per project saying exactly what the teen made.</li><li><b>One explained code sample.</b> A function the teen wrote, with three lines on why it is built that way.</li><li><b>A design page.</b> The first sketch of the level next to a screenshot of the final one.</li><li><b>A playtest note.</b> What testers struggled with and what changed because of it.</li><li><b>Everything in one PDF.</b> Matching the no-links rule, with the video uploaded where the application allows it.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What not to include</h3><p>Tutorial projects copied step by step. Reviewers recognise the standard first-game assets at a glance, and they show following, not designing.</p>
+<p>Ten half-finished prototypes. The rule says no more than ten examples; three strong ones are better.</p></div><div><h3>Using AI tools honestly</h3><p>If an AI tool helped with art or code, say so in the role statement, exactly as you would credit a teammate.</p>
+<p>Under-18 students should only use tools whose terms allow their age, with a parent aware of the account. In class we use AI mainly to explain an error message, not to write the game.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="choose">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Choosing a camp</p><h2>Residential, local day camp or live online: how to choose</h2><p class="ag-lede">There is no single right format. These are the questions we suggest families ask any program, including ours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Questions to ask any game design summer program (our checklist)</caption><thead><tr><th scope="col">Question</th><th scope="col">Why it matters</th></tr></thead><tbody><tr><td>What does a student take home on the last day?</td><td>A build and a video, or only a certificate?</td></tr><tr><td>Which engine, and can we keep using it at home?</td><td>Free engines and accounts the teen is old enough to hold</td></tr><tr><td>How many students per instructor?</td><td>Code help is one to one, even inside a group</td></tr><tr><td>Is there real code, or only visual tools?</td><td>Both are valid; know which one you are paying for</td></tr><tr><td>What happens after the summer?</td><td>A game started in July is often finished in September</td></tr><tr><td>Who owns the game?</td><td>Teens should be free to publish and show their own work</td></tr></tbody></table></div>
+    <p class="ag-mt-40">For more on our summer formats, see the <a class="ag-inline-link" href="/summer-coding-camp-teens">teen summer coding camp</a> and the <a class="ag-inline-link" href="/online-coding-summer-camp">online coding summer camp</a> pages. This page is about game design only.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your teen is now</p>
+      <h2>Four stages on the way to a game portfolio</h2>
+      <p class="ag-lede">Where teens usually start when they ask about a game camp.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From player to game designer (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Player</td><td class="ag-num">Plays a lot, has ideas, has not opened an engine</td></tr><tr><td>2. Tinkerer</td><td class="ag-num">Has followed a tutorial and changed some numbers</td></tr><tr><td>3. Builder</td><td class="ag-num">Has made a small game with a start and an end</td></tr><tr><td>4. Designer</td><td class="ag-num">Has shipped, playtested and explained a game of their own</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 1 to stage 3 in one summer is realistic with steady weekly lessons.</p>
+<p>Watch for the playtest week. A teen who listens to testers is learning design, not only code.</p></div><div><h3>For teens</h3><p>Make the smallest game you would still be proud of, then make it feel good to play.</p>
+<p>Write your build diary every session. Future you will need it for every application.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for teens who want to make games</h2>
+      <p class="ag-lede">Each one runs live online with a teacher who reviews the student&rsquo;s own project, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>First games</h3>
+        <span class="ag-band-sub">Ages 13 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / START / 01</p>
+          <h4>Roblox in Luau</h4>
+          <p>Scripts, events and a real audience.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / START / 02</p>
+          <h4>Scratch games</h4>
+          <p>Game logic without typing yet.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / START / 03</p>
+          <h4>JavaScript games</h4>
+          <p>Playable in any browser.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Real engines</h3>
+        <span class="ag-band-sub">Ages 14 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / ENGINE / 01</p>
+          <h4>Unity and C#</h4>
+          <p>2D and 3D, built and exported.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / ENGINE / 02</p>
+          <h4>Python for teens</h4>
+          <p>Logic first, then Pygame.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / ENGINE / 03</p>
+          <h4>Problem solving</h4>
+          <p>The maths behind game systems.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Ship it</h3>
+        <span class="ag-band-sub">Strong builders</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / SHIP / 01</p>
+          <h4>Git and GitHub</h4>
+          <p>Save every version of the game.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / SHIP / 02</p>
+          <h4>Game jams and hackathons</h4>
+          <p>Build to a deadline, as a team.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDSC / SHIP / 03</p>
+          <h4>AP CS Principles</h4>
+          <p>A game can be the Create task.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live game design lessons that fit a summer</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Summer afternoons or evenings in your own time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A good fit around summer jobs and family trips.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Built around one teen&rsquo;s game and pace.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Your engine</h3><p>Unity, Godot, Roblox Studio or the browser.</p></div>
+      <div><h3>Weekly build review</h3><p>The teacher plays the latest version each week.</p></div>
+      <div><h3>Playtest week</h3><p>Real testers, written notes, real fixes.</p></div>
+      <div><h3>Ship day</h3><p>An exported build and a recorded play video.</p></div>
+      <div><h3>From home</h3><p>Any state, no travel, no dorm.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty in a batch, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Games and apps our students have built</h2>
+      <p class="ag-lede">A few projects from our learners, from first arcade games upward. More are on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Game design classes are billed month by month in US dollars. A teen can take one summer month, or keep going into the school year to finish a bigger game, with no long contract either way.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring a game idea</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>One regular teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A mentor to yourself</li><li>Your engine, your game</li><li>Timed around summer plans</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents wrote about us on Google, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Game design summer camp for teens: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What should a teen get out of a game design summer camp?</h3>
+        <p>One finished game that someone else can play, a short video of it being played, and the ability to explain their own code. A certificate on its own shows very little.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How old do you have to be for the National High School Game Academy?</h3>
+        <p>Carnegie Mellon's 2027 page says applicants must be 16 by June 26, 2027 and be a sophomore or junior when they apply, with a B average or better. We are not connected with the program.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the 2027 NHSGA deadlines?</h3>
+        <p>The 2027 page lists February 1, 2027 for the scholarship application, with decisions on April 1, 2027, and March 1, 2027 for the basic application, decided on a rolling basis.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which game engine should a teenager learn first?</h3>
+        <p>For a 13 or 14 year old who plays Roblox, Roblox Studio. For a teen who wants clean scripting and full ownership, Godot. For older teens aiming at C# and 3D, Unity. That is our view, not a rule.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Godot really free?</h3>
+        <p>Yes. The Godot licence page says Godot Engine is free and open source, released under the permissive MIT license. No account is needed to download it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my teen use Unity for free?</h3>
+        <p>Unity offers a free Student plan. Its page says secondary school students qualify at 16 years and older if enrolled in an accredited educational institution.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my teen make games on a Chromebook?</h3>
+        <p>Roblox's own education FAQ says Roblox Studio cannot run on Chromebooks. Browser-based JavaScript games work well on a Chromebook, which is why we teach that route to Chromebook families.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is an online game design camp as good as a residential one?</h3>
+        <p>They are different. Residential camps give team life on campus; live online classes give a regular teacher, no travel and the chance to keep building after summer. Choose by what your teen needs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How can Modern Age Coders help over the summer?</h3>
+        <p>A regular teacher takes your teen through our six-week plan in the engine that suits them, reviews each build, runs a playtest week and helps record the final play video.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for teens who build games and want to keep going.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/summer-coding-camp-teens">Summer coding camp for teens</a></h3><p>Our general summer program.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-roblox-game">How to make a Roblox game</a></h3><p>Three working Luau scripts.</p></div>
+      <div><h3><a class="ag-inline-link" href="/hackathons-for-high-school-students">Hackathons for high schoolers</a></h3><p>Game jams under a clock.</p></div>
+      <div><h3><a class="ag-inline-link" href="/congressional-app-challenge-guide">Congressional App Challenge</a></h3><p>Games are eligible apps too.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Every page for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects our learners shipped.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Bring the game your teen keeps describing at dinner. In the first lesson the teacher picks an engine with them and cuts the idea down to something that can be finished this summer.</p>
+        <p class="ag-mt-40">Curious how a lesson actually runs? Our <a class="ag-inline-link" href="/how-we-teach">teaching method</a> page walks through one, and every syllabus sits on the <a class="ag-inline-link" href="/courses">course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20the%20US%20wants%20a%20game%20design%20camp%20this%20summer.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gdsc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Teachers join by video from India. There is nothing to drive to; families in every US state message us on WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_gdsc(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free. Nothing to pay today.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Make games</h4><ul><li><a href="/how-to-make-a-roblox-game">How to make a Roblox game</a></li><li><a href="/roblox-coding-classes-for-kids">Roblox coding classes</a></li><li><a href="/summer-coding-camp-teens">Teen summer camp</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CS Principles</a></li><li><a href="/hackathons-for-high-school-students">High school hackathons</a></li><li><a href="/congressional-app-challenge-guide">Congressional App Challenge</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Normalise the vector</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_gdsc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'game-design-summer-camp-for-teens-inline', meta: { name: name, age: age, page: 'game-design-summer-camp-for-teens' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
