@@ -120,7 +120,7 @@ Figures for North Carolina from the Code.org State of AI + CS Education data and
 
 Two numbers tell different stories. By 2024 to 2025, about seven in ten North Carolina high schools offered computer science, but only 5.68% of high school students were enrolled in it that year. A course on the timetable is not the same as a student in the seat, which is exactly the gap the graduation requirement is meant to close. These are the latest figures we could read on 17 October 2026; they predate full implementation in 2026 to 2027.
 
-Suggested citation for the access and participation figures: Code.org (2025). 2025 State of AI + CS Education. We quote individual North Carolina values from its published data; we do not republish the dataset. The organization now operates as CodeAI.
+Suggested citation for the access and participation figures: Code.org (2025). 2025 State of AI + CS Education. We quote individual North Carolina values from its published data; we do not republish the dataset.
 
 ## Which Raleigh greenway trail is longest? A data project on city open data
 

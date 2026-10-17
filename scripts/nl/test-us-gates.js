@@ -14,7 +14,7 @@ const { spawnSync } = require('child_process');
 const ROOT = path.resolve(__dirname, '..', '..');
 const DIR = path.join(ROOT, 'content', 'us');
 const BASE = path.join(ROOT, 'content', 'uk', 'best-online-coding-classes-uk.js');
-const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, stripTrunk: true };
+const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, nationalStart: '2-9', stripTrunk: true };
 
 const CASES = [
   ['control', '', null],
@@ -28,13 +28,16 @@ const CASES = [
 let fails = 0;
 const ok = (c, m) => { console.log((c ? 'ok    ' : 'FAIL  ') + m); if (!c) fails++; };
 fs.mkdirSync(DIR, { recursive: true });
-for (const [name, text, want] of CASES) {
+// Code is not copy: a dollar sign inside a code figure (a Luau or shell string) must not trip the price gate.
+CASES.push(['codedollar', '', null, { kind: 'code', label: 'A shop', lang: 'luau', code: 'print("$5 off")' }]);
+for (const [name, text, want, codeBlock] of CASES) {
   const slug = 'zz-us-gate-test-' + name;
   const file = path.join(DIR, slug + '.js');
   const src = `'use strict';
 const base = require(${JSON.stringify(BASE)});
 const m = Object.assign({}, base, { slug: ${JSON.stringify(slug)}, market: ${JSON.stringify(US)} });
 m.lede = (base.lede || '') + ${JSON.stringify(text ? ' ' + text : '')};
+${codeBlock ? `m.sections = base.sections.concat([{ id: 'zz-code', tint: '', eyebrow: 'Code', h2: 'Code', body: [${JSON.stringify(codeBlock)}] }]);` : ''}
 module.exports = m;
 `;
   fs.writeFileSync(file, src, 'utf8');

@@ -12,7 +12,7 @@ United States · Ages 8 to 18 · Roblox Studio and Luau
 
 # How to make a Roblox game
 
-Millions of American kids play Roblox, and a lot of them ask the same question sooner or later: how do people actually make these games? The honest answer is that every Roblox game is built in Roblox Studio, a free program, and brought to life with Luau, a real programming language. This guide walks through the whole route: the computer you need (and the ones that will not work), the first hour in Studio, three short scripts that turn a flat world into a game with coins, a leaderboard and an obstacle course, how Roblox&rsquo;s own AI helper fits in, and the settings that keep a first game private until you are ready.
+Plenty of American kids play Roblox, and a lot of them ask the same question sooner or later: how do people actually make these games? The honest answer is that every Roblox game is built in Roblox Studio, a free program, and brought to life with Luau, a real programming language. This guide walks through the whole route: the computer you need (and the ones that will not work), the first hour in Studio, three short scripts that turn a flat world into a game with coins, a leaderboard and an obstacle course, how Roblox&rsquo;s own AI helper fits in, and the settings that keep a first game private until you are ready.
 
 At a glance: For: Ages 8 to 18; Tool: Roblox Studio, free; Language: Luau; Computer: Windows or Mac; Not for building: Chromebook, iPad, phone; Format: A batch, or one to one; Times: Weekdays or weekends, flexible; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
@@ -64,7 +64,7 @@ The playtest step matters most. Professional game developers test constantly, an
 
 ### How long it takes
 
-With a teacher, most children aged 9 to 12 finish steps 1 to 5 in their first two classes. The coin and leaderboard usually work by the end of the fourth.
+Our twelve-class plan puts steps 1 to 5 in the first two classes and the coin and leaderboard in classes 3 and 4, a pace we set for children aged 10 to 12 and adjust for each child.
 
 Teenagers with some coding behind them often go faster, then spend their time on what makes a game fun: level design, difficulty and feedback.
 
@@ -99,7 +99,7 @@ Studio now includes Roblox&rsquo;s own AI helper. Families searching for how to 
 
 ### How we use it in class
 
-We ask students to write a script first, then use Assistant to explain an error or suggest an improvement, and to say in their own words what changed. The AI becomes a second explanation, not a replacement for thinking.
+Where Roblox makes Assistant available on a student&rsquo;s account, we ask them to write a script first, then use Assistant to explain an error or suggest an improvement, and to say in their own words what changed. The AI becomes a second explanation, not a replacement for thinking.
 
 Plan mode is genuinely useful for teaching: a child describes a game, reads the plan, and decides which tasks they will code themselves.
 
@@ -107,7 +107,7 @@ Plan mode is genuinely useful for teaching: a child describes a game, reads the 
 
 We never let a student publish a game they cannot explain. If Assistant wrote a script, the student must be able to say what each line does before it stays in the game.
 
-Outside Studio, we keep under-18 students away from general AI chatbots whose terms are for adults. Roblox Assistant runs inside Studio under the student&rsquo;s own Roblox account.
+Outside Studio, we keep under-18 students away from general AI chatbots whose terms are for adults. Assistant runs inside Studio under the student&rsquo;s own Roblox account, and what it offers can depend on that account, so check it with your child.
 
 Sources: [Assistant for Studio](https://create.roblox.com/docs/assistant/guide) and [Build your first game with Assistant](https://create.roblox.com/docs/ai/build-with-assistant), read 17 October 2026.
 
@@ -123,11 +123,14 @@ Parents often worry that pressing Publish puts a child&rsquo;s game in front of 
 | How to publish | File &gt; Publish, then add a name, description, icon and thumbnail |
 | Size limit | "Roblox supports places up to 100 MB (104,857,600 bytes)." |
 | Early testers | "You can invite up to 10 similar-aged friends to preview your game" |
-| Young testers | "Any age, but under 9 needs parent approval" for the youngest preview testers |
+| Who a child can invite | By the creator&rsquo;s age: under 9, none listed (N/A); 9 to 12, friends aged 9 to 15, plus under-9 friends with parent approval; 13 to 15, friends aged 9 to 17 |
+| After release | A game with no age-restricted content gets a Content May Vary label and "releases only to age-checked Roblox users ages 16+"; reaching younger players takes further steps in the Creator Hub |
 
 ### A checklist for parents
 
-Publish privately first, then invite a few friends your child knows in real life to preview it. Release to everyone only when the game works and you have read its description together.
+Publish privately first. A creator aged 9 or older can invite a few real-life friends to preview it; for a creator under 9, Roblox&rsquo;s table lists no preview invites, so a parent tests the game with the child instead.
+
+Releasing is a separate step, and Roblox first releases a new game only to age-checked users aged 16 and over, so a child&rsquo;s first release is quieter than many parents fear. Read the game description together before that step.
 
 Sit with your child the first time they fill in the game details. A clear one-sentence summary is a writing exercise as much as a coding one.
 
@@ -135,7 +138,7 @@ Sit with your child the first time they fill in the game details. A clear one-se
 
 Students learn that releasing a game is a decision, not a button. They write down what the game is, who it is for, and what they will fix next before anyone outside the family plays it.
 
-For anything about Roblox accounts, parental controls and age settings, the place to check is Roblox&rsquo;s own help and settings pages, which change over time.
+For anything about Roblox accounts, parental controls and age settings, check Roblox&rsquo;s own help and settings pages, which change over time.
 
 ## What a child can build in twelve classes
 
@@ -154,7 +157,7 @@ Our plan for a first term of Roblox game coding, for children around ages 9 to 1
 
 ### Ages 8 to 10
 
-Shorter scripts, more building, lots of playtesting. Many start in Scratch for a month first.
+Shorter scripts, more building, lots of playtesting. Roblox typically recommends Studio from 10, so many start in Scratch first.
 
 ### Ages 11 to 13
 
@@ -247,7 +250,7 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 ## Fees
 
-Studio itself costs nothing to install. What families pay for is the teaching: one month at a time, displayed in your local currency, nothing to sign for a whole semester, and you can end it whenever a month finishes.
+Studio itself costs nothing to install. What families pay for is the teaching: one month at a time, shown in US dollars, nothing to sign for a whole semester, and you can end it whenever a month finishes.
 
 - Free first class: USD 0. A free first lesson. Bring a game you started. No card details.
 - Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Choose your batch. Monthly.
@@ -289,7 +292,7 @@ Not at first. Roblox says new games are only accessible to the creator, people w
 
 ### What age can kids start making Roblox games?
 
-Most of our students start building in Studio around 8 or 9 and writing scripts by 9 or 10. Younger children often begin in Scratch, which teaches the same event ideas.
+Roblox says its team typically recommends Studio for ages 10 and up, although some students may start younger, with younger ones focusing on building environments. We follow that: scripts from about 10, and Scratch first for younger children, which teaches the same event ideas.
 
 ### What times are classes for US families?
 
@@ -297,7 +300,7 @@ Weekdays or weekends, flexible. Choose your batch, or for a very personalised pl
 
 ### How much do Roblox coding classes cost?
 
-Your first lesson costs nothing. After it, families pay for one month of teaching at a time, and the fees section on this page displays the monthly figure in your local currency.
+Your first lesson costs nothing. After it, families pay for one month of teaching at a time, and the fees section on this page shows the monthly figure in US dollars.
 
 ## Related pages
 

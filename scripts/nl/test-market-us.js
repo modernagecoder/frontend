@@ -15,7 +15,7 @@ const ROOT = path.resolve(__dirname, '..', '..');
 const cg = require('./lib/render-cg');
 const ag = require('./lib/render-ag');
 
-const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, stripTrunk: true };
+const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, nationalStart: '2-9', stripTrunk: true };
 const OK10 = [['(415) 555-0123', '4155550123'], ['+1 415 555 0123', '4155550123'], ['1-415-555-0123', '4155550123'], ['001 415 555 0123', '4155550123'], ['4155550123', '4155550123']];
 
 let fails = 0;
@@ -33,13 +33,13 @@ ok(cgHtml.includes('placeholder="(201) 555-0123"') && cgHtml.includes('US mobile
 const cgNorm = normaliserFrom(cgHtml, /var digits=phone\.replace\(\/\\D\/g,''\);(.*?)if\(digits\.length<7/, 'digits');
 ok(!!cgNorm, 'cg normaliser present');
 if (cgNorm) for (const [inp, want] of OK10) { const got = cgNorm(inp.replace(/\D/g, '')); ok(got === want, `cg "${inp}" -> ${got}`); }
-ok(/if\(digits\.length>10\)/.test(cgHtml), 'cg maximum 10 national digits enforced on the page');
+ok(/if\(!foreignLead&&\(digits\.length<10\|\|digits\.length>10\|\|!\/\^\[2-9\]\//.test(cgHtml), 'cg 10 digits starting 2-9 (NANP), skipped for another country: maximum 10 national digits enforced on the page');
 
 const agHtml = ag.render(Object.assign({}, require(path.join(ROOT, 'content/uk/best-online-coding-classes-uk.js')), { market: US }));
 ok(/countryIso: 'US'/.test(agHtml) && /countryCode: '\+1'/.test(agHtml), 'ag lead contract sends +1 / US');
 ok(agHtml.includes('<html lang="en-US">') && agHtml.includes('content="en_US"'), 'ag html lang en-US and og:locale en_US');
 ok(/phoneDigits\.length < 10\b/.test(agHtml), 'ag minimum 10 national digits');
-ok(/if \(phoneDigits\.length > 10\)/.test(agHtml), 'ag maximum 10 national digits enforced on the page');
+ok(/if \(!foreignLead && \(phoneDigits\.length > 10 \|\| !\/\^\[2-9\]\//.test(agHtml), 'ag 10 digits starting 2-9 (NANP), skipped for another country: maximum 10 national digits enforced on the page');
 const agNorm = normaliserFrom(agHtml.replace(/\n\s*/g, ' '), /var phoneDigits = phoneRaw\.replace\(\/\\D\/g, ''\);(.*?)if \(phoneDigits\.length </, 'phoneDigits');
 ok(!!agNorm, 'ag normaliser present');
 if (agNorm) for (const [inp, want] of OK10) { const got = agNorm(inp.replace(/\D/g, '')); ok(got === want, `ag "${inp}" -> ${got}`); }

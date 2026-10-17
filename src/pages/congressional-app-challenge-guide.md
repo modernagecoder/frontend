@@ -4,7 +4,7 @@ description: "The Congressional App Challenge from the official 2026 rules: elig
 canonical: https://learn.modernagecoders.com/congressional-app-challenge-guide
 source: src/pages/congressional-app-challenge-guide.html
 ---
-> The Congressional App Challenge is a coding competition for US middle and high school students, run district by district and judged by each Member of Congress&rsquo;s office. Students enter alone or in teams of up to four, build an app in any language on any topic, and submit a 1 to 3 minute demo video plus written answers. For the 2026 cycle the deadline was 12:00 pm EDT on October 26, 2026.
+> The Congressional App Challenge is a coding competition for US middle and high school students, run district by district and judged by each Member of Congress&rsquo;s office. Students enter alone or in teams of up to four, build an app in any language on any topic, and submit a 1 to 3 minute demo video plus written answers. The 2026 rulebook sets the deadline at 12:00 pm EDT, Monday, October 26, 2026.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Congressional App Challenge
 
@@ -55,7 +55,7 @@ Source: [Congressional App Challenge rules page](https://www.congressionalappcha
 
 ## How a Challenge year runs: the 2026 cycle as published
 
-The organisers publish dates for each cycle. This was the 2026 calendar, which shows the shape every year follows: registration in winter, building through spring and summer, submission in the fall.
+The organisers publish dates for each cycle. Here is the 2026 calendar as published, which also shows the shape each year follows: registration in winter, building through spring and summer, submission in the fall.
 
 **The 2026 Congressional App Challenge calendar, from the official rules page and rulebook**
 
@@ -72,7 +72,7 @@ The organisers publish dates for each cycle. This was the 2026 calendar, which s
 
 From a May launch to a late October deadline is roughly five months, which is plenty for a student who starts in spring and very tight for one who starts in October.
 
-The best entries we see begin as an idea in the summer, become a working first version by September, and spend the last weeks on testing and the video.
+A comfortable timeline is an idea in the summer, a working first version by September, and the last weeks for testing and the video.
 
 ### If you are reading between cycles
 
@@ -293,7 +293,7 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 ## Fees
 
-Entering the Challenge is free; our part is the teaching. Classes are billed one month at a time and shown in your local currency, with nothing to sign for the whole build, so a student can join for the months before a deadline and stop afterwards.
+Entering the Challenge is free; our part is the teaching. Classes are billed one month at a time in US dollars, with nothing to sign for the whole build, so a student can join for the months before a deadline and stop afterwards.
 
 - Free first class: USD 0. A free first lesson. Bring your app idea. No card details.
 - Group batch: USD 100 a month. Fifteen to twenty learners. One regular teacher. Choose your batch. Monthly.
@@ -325,9 +325,9 @@ Yes, for 2026, if all AI use is fully disclosed in the submission. AI may suppor
 
 The 2026 rulebook says one to three minutes. It must name the participants and the app, state the purpose in one sentence, describe the audience and tools, and show the app working.
 
-### When was the 2026 deadline?
+### What is the 2026 deadline?
 
-The 2026 rulebook set the deadline at 12:00 pm EDT on Monday, October 26, 2026. Later cycles publish their own dates on the official site.
+The 2026 rulebook sets the deadline at 12:00 pm EDT on Monday, October 26, 2026. Later cycles publish their own dates on the official site.
 
 ### How are winners chosen?
 

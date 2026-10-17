@@ -23,7 +23,7 @@
 // (a coin that respawns after 5 seconds can be collected at most 12 times a minute: 60 / 5 = 12).
 // Lesson family: event-driven programming (an event, a handler, and a guard flag).
 
-const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, stripTrunk: true };
+const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, nationalStart: '2-9', stripTrunk: true };
 
 const LEADERBOARD = `-- ServerScriptService > Leaderboard (ours)
 local Players = game:GetService("Players")
@@ -69,7 +69,7 @@ local brick = script.Parent
 brick.Touched:Connect(function(otherPart)
   local humanoid = otherPart.Parent:FindFirstChildOfClass("Humanoid")
   if humanoid then
-    -- back to the last checkpoint
+    -- respawn at a SpawnLocation
     humanoid.Health = 0
   end
 end)`;
@@ -104,7 +104,7 @@ module.exports = {
   ],
   eyebrow: 'United States &middot; Ages 8 to 18 &middot; Roblox Studio and Luau',
   h1: 'How to make a Roblox game',
-  lede: 'Millions of American kids play Roblox, and a lot of them ask the same question sooner or later: how do people actually make these games? The honest answer is that every Roblox game is built in Roblox Studio, a free program, and brought to life with Luau, a real programming language. This guide walks through the whole route: the computer you need (and the ones that will not work), the first hour in Studio, three short scripts that turn a flat world into a game with coins, a leaderboard and an obstacle course, how Roblox&rsquo;s own AI helper fits in, and the settings that keep a first game private until you are ready.',
+  lede: 'Plenty of American kids play Roblox, and a lot of them ask the same question sooner or later: how do people actually make these games? The honest answer is that every Roblox game is built in Roblox Studio, a free program, and brought to life with Luau, a real programming language. This guide walks through the whole route: the computer you need (and the ones that will not work), the first hour in Studio, three short scripts that turn a flat world into a game with coins, a leaderboard and an obstacle course, how Roblox&rsquo;s own AI helper fits in, and the settings that keep a first game private until you are ready.',
   secondaryCta: { href: '#scripts', label: 'See the three scripts' },
   wa: 'Hello Modern Age Coders, my child in the US wants to learn to make Roblox games in Luau. Could we book a free first lesson?',
   heroNote: 'Live teaching since 2020 &middot; 10,000+ students &middot; Roblox Studio on Windows or Mac',
@@ -182,7 +182,7 @@ module.exports = {
           ],
           rightH3: 'How long it takes',
           right: [
-            'With a teacher, most children aged 9 to 12 finish steps 1 to 5 in their first two classes. The coin and leaderboard usually work by the end of the fourth.',
+            'Our twelve-class plan puts steps 1 to 5 in the first two classes and the coin and leaderboard in classes 3 and 4, a pace we set for children aged 10 to 12 and adjust for each child.',
             'Teenagers with some coding behind them often go faster, then spend their time on what makes a game fun: level design, difficulty and feedback.'
           ] }
       ]
@@ -194,7 +194,7 @@ module.exports = {
       body: [
         { kind: 'code', label: 'Script 1 &middot; a leaderboard', lang: 'luau', code: LEADERBOARD, note: 'Roblox shows a leaderboard for any player who has a Folder named exactly leaderstats. Each value inside it, here Coins, becomes a column.' },
         { kind: 'code', label: 'Script 2 &middot; a coin that counts', lang: 'luau', code: COIN, note: 'Our timing arithmetic: a coin that respawns after 5 seconds can be collected at most 12 times a minute (60 / 5 = 12), whatever the player does.' },
-        { kind: 'code', label: 'Script 3 &middot; an obby reset brick', lang: 'luau', code: RESET, note: 'Roblox&rsquo;s own templates call these kill bricks. We call it a reset brick because that is what it does: the player goes back to the last checkpoint.' },
+        { kind: 'code', label: 'Script 3 &middot; an obby reset brick', lang: 'luau', code: RESET, note: 'Roblox&rsquo;s own templates call these kill bricks. We call it a reset brick because that is what it does: the player respawns at a spawn point, which is their latest checkpoint when the checkpoints are SpawnLocations.' },
         { kind: 'two', mt: true,
           leftH3: 'The idea behind all three: events',
           left: [
@@ -222,13 +222,13 @@ module.exports = {
         { kind: 'two', mt: true,
           leftH3: 'How we use it in class',
           left: [
-            'We ask students to write a script first, then use Assistant to explain an error or suggest an improvement, and to say in their own words what changed. The AI becomes a second explanation, not a replacement for thinking.',
+            'Where Roblox makes Assistant available on a student&rsquo;s account, we ask them to write a script first, then use Assistant to explain an error or suggest an improvement, and to say in their own words what changed. The AI becomes a second explanation, not a replacement for thinking.',
             'Plan mode is genuinely useful for teaching: a child describes a game, reads the plan, and decides which tasks they will code themselves.'
           ],
           rightH3: 'What we do not do',
           right: [
             'We never let a student publish a game they cannot explain. If Assistant wrote a script, the student must be able to say what each line does before it stays in the game.',
-            'Outside Studio, we keep under-18 students away from general AI chatbots whose terms are for adults. Roblox Assistant runs inside Studio under the student&rsquo;s own Roblox account.'
+            'Outside Studio, we keep under-18 students away from general AI chatbots whose terms are for adults. Assistant runs inside Studio under the student&rsquo;s own Roblox account, and what it offers can depend on that account, so check it with your child.'
           ] },
         { kind: 'source', html: 'Sources: <a class="ag-inline-link" href="https://create.roblox.com/docs/assistant/guide" rel="noopener" target="_blank">Assistant for Studio</a> and <a class="ag-inline-link" href="https://create.roblox.com/docs/ai/build-with-assistant" rel="noopener" target="_blank">Build your first game with Assistant</a>, read 17 October 2026.' }
       ]
@@ -243,18 +243,20 @@ module.exports = {
           ['How to publish', 'File &gt; Publish, then add a name, description, icon and thumbnail'],
           ['Size limit', '"Roblox supports places up to 100 MB (104,857,600 bytes)."'],
           ['Early testers', '"You can invite up to 10 similar-aged friends to preview your game"'],
-          ['Young testers', '"Any age, but under 9 needs parent approval" for the youngest preview testers']
+          ['Who a child can invite', 'By the creator&rsquo;s age: under 9, none listed (N/A); 9 to 12, friends aged 9 to 15, plus under-9 friends with parent approval; 13 to 15, friends aged 9 to 17'],
+          ['After release', 'A game with no age-restricted content gets a Content May Vary label and "releases only to age-checked Roblox users ages 16+"; reaching younger players takes further steps in the Creator Hub']
         ] },
         { kind: 'two', mt: true,
           leftH3: 'A checklist for parents',
           left: [
-            'Publish privately first, then invite a few friends your child knows in real life to preview it. Release to everyone only when the game works and you have read its description together.',
+            'Publish privately first. A creator aged 9 or older can invite a few real-life friends to preview it; for a creator under 9, Roblox&rsquo;s table lists no preview invites, so a parent tests the game with the child instead.',
+            'Releasing is a separate step, and Roblox first releases a new game only to age-checked users aged 16 and over, so a child&rsquo;s first release is quieter than many parents fear. Read the game description together before that step.',
             'Sit with your child the first time they fill in the game details. A clear one-sentence summary is a writing exercise as much as a coding one.'
           ],
           rightH3: 'What we teach about releasing',
           right: [
             'Students learn that releasing a game is a decision, not a button. They write down what the game is, who it is for, and what they will fix next before anyone outside the family plays it.',
-            'For anything about Roblox accounts, parental controls and age settings, the place to check is Roblox&rsquo;s own help and settings pages, which change over time.'
+            'For anything about Roblox accounts, parental controls and age settings, check Roblox&rsquo;s own help and settings pages, which change over time.'
           ] }
       ]
     },
@@ -272,7 +274,7 @@ module.exports = {
           ['11 to 12', 'Testing, the game page, private release', 'Debugging and explaining your code']
         ] },
         { kind: 'three', mt: true, cells: [
-          { h3: 'Ages 8 to 10', p: 'Shorter scripts, more building, lots of playtesting. Many start in Scratch for a month first.' },
+          { h3: 'Ages 8 to 10', p: 'Shorter scripts, more building, lots of playtesting. Roblox typically recommends Studio from 10, so many start in Scratch first.' },
           { h3: 'Ages 11 to 13', p: 'The full twelve classes, with their own shop or level idea by class 10.' },
           { h3: 'Ages 14 to 18', p: 'Faster, then on to tables, module scripts and the step towards Unity and C#.' }
         ] }
@@ -362,7 +364,7 @@ module.exports = {
 
   fees: {
     h2: 'Fees',
-    lede: 'Studio itself costs nothing to install. What families pay for is the teaching: one month at a time, displayed in your local currency, nothing to sign for a whole semester, and you can end it whenever a month finishes.',
+    lede: 'Studio itself costs nothing to install. What families pay for is the teaching: one month at a time, shown in US dollars, nothing to sign for a whole semester, and you can end it whenever a month finishes.',
     free: ['A free first lesson', 'Bring a game you started', 'No card details'],
     group: ['Fifteen to twenty learners', 'One regular teacher', 'Choose your batch', 'Monthly'],
     one: ['A teacher to yourself', 'Times at your convenience', 'Your own game']
@@ -380,9 +382,9 @@ module.exports = {
       { q: 'What computer do you need for Roblox Studio?', a: 'Roblox lists Windows 10 or macOS 10.14 as the minimum, with 3 GB of memory, and recommends Windows 11 or macOS 14+, 8 GB of memory and a screen of 1600×900 or higher.' },
       { q: 'Can you make a Roblox game with AI?', a: 'Studio includes Roblox Assistant, an AI helper that can answer questions, generate content and act in Studio. We teach children to write code first and use Assistant to explain and improve it.' },
       { q: 'Is a child\'s game public as soon as they publish it?', a: 'Not at first. Roblox says new games are only accessible to the creator, people with Edit access and group members until the creator releases the game to the public.' },
-      { q: 'What age can kids start making Roblox games?', a: 'Most of our students start building in Studio around 8 or 9 and writing scripts by 9 or 10. Younger children often begin in Scratch, which teaches the same event ideas.' },
+      { q: 'What age can kids start making Roblox games?', a: 'Roblox says its team typically recommends Studio for ages 10 and up, although some students may start younger, with younger ones focusing on building environments. We follow that: scripts from about 10, and Scratch first for younger children, which teaches the same event ideas.' },
       { q: 'What times are classes for US families?', a: 'Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.' },
-      { q: 'How much do Roblox coding classes cost?', a: 'Your first lesson costs nothing. After it, families pay for one month of teaching at a time, and the fees section on this page displays the monthly figure in your local currency.' }
+      { q: 'How much do Roblox coding classes cost?', a: 'Your first lesson costs nothing. After it, families pay for one month of teaching at a time, and the fees section on this page shows the monthly figure in US dollars.' }
     ]
   },
 

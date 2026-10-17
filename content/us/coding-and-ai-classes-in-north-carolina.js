@@ -28,7 +28,7 @@
 //    Walnut Creek Trail 20.27, Crabtree Creek Trail 18.63, Mine Creek Trail 6.54.
 // Lesson family: group-by and aggregation on open data (and why segment sums are not official totals).
 
-const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, stripTrunk: true };
+const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, nationalStart: '2-9', stripTrunk: true };
 
 module.exports = {
   clusterName: 'United States',
@@ -144,7 +144,7 @@ module.exports = {
           ['Schools with AP exams, 2024', '639', 'College Board, School Report of AP Exams by State']
         ] },
         { kind: 'p', text: 'Two numbers tell different stories. By 2024 to 2025, about seven in ten North Carolina high schools offered computer science, but only 5.68% of high school students were enrolled in it that year. A course on the timetable is not the same as a student in the seat, which is exactly the gap the graduation requirement is meant to close. These are the latest figures we could read on 17 October 2026; they predate full implementation in 2026 to 2027.' },
-        { kind: 'p', text: 'Suggested citation for the access and participation figures: Code.org (2025). 2025 State of AI + CS Education. We quote individual North Carolina values from its published data; we do not republish the dataset. The organization now operates as CodeAI.' }
+        { kind: 'p', text: 'Suggested citation for the access and participation figures: Code.org (2025). 2025 State of AI + CS Education. We quote individual North Carolina values from its published data; we do not republish the dataset.' }
       ]
     },
     {

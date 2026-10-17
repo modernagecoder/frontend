@@ -28,7 +28,7 @@
 // are the organiser's 2025 numbers; the division is ours and assumes every application came from those districts).
 // Lesson family: scoping and prioritisation (must, should, later).
 
-const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, stripTrunk: true };
+const US = { name: 'United States', iso: 'US', dial: '+1', lang: 'en-US', locale: 'en_US', geoRegion: 'US', brandTag: 'US', phoneLabel: 'US mobile number', phonePlaceholder: '(201) 555-0123', gradeLabel: 'Grade or age', minDigits: 10, maxDigits: 10, nationalStart: '2-9', stripTrunk: true };
 
 module.exports = {
   cluster: 'ag',
@@ -75,7 +75,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'The Congressional App Challenge is a coding competition for US middle and high school students, run district by district and judged by each Member of Congress&rsquo;s office. Students enter alone or in teams of up to four, build an app in any language on any topic, and submit a 1 to 3 minute demo video plus written answers. For the 2026 cycle the deadline was 12:00 pm EDT on October 26, 2026.',
+  capsule: 'The Congressional App Challenge is a coding competition for US middle and high school students, run district by district and judged by each Member of Congress&rsquo;s office. Students enter alone or in teams of up to four, build an app in any language on any topic, and submit a 1 to 3 minute demo video plus written answers. The 2026 rulebook sets the deadline at 12:00 pm EDT, Monday, October 26, 2026.',
 
   picks: {
     eyebrow: 'Build the app with a teacher',
@@ -119,7 +119,7 @@ module.exports = {
     {
       id: 'dates', tint: 'deep', eyebrow: 'The calendar',
       h2: 'How a Challenge year runs: the 2026 cycle as published',
-      lede: 'The organisers publish dates for each cycle. This was the 2026 calendar, which shows the shape every year follows: registration in winter, building through spring and summer, submission in the fall.',
+      lede: 'The organisers publish dates for each cycle. Here is the 2026 calendar as published, which also shows the shape each year follows: registration in winter, building through spring and summer, submission in the fall.',
       body: [
         { kind: 'table', caption: 'The 2026 Congressional App Challenge calendar, from the official rules page and rulebook', head: ['When (2026 cycle)', 'What happens'], rows: [
           ['January 1, 2026', 'Student pre-registration opens'],
@@ -133,7 +133,7 @@ module.exports = {
           leftH3: 'What the calendar means for planning',
           left: [
             'From a May launch to a late October deadline is roughly five months, which is plenty for a student who starts in spring and very tight for one who starts in October.',
-            'The best entries we see begin as an idea in the summer, become a working first version by September, and spend the last weeks on testing and the video.'
+            'A comfortable timeline is an idea in the summer, a working first version by September, and the last weeks for testing and the video.'
           ],
           rightH3: 'If you are reading between cycles',
           right: [
@@ -352,7 +352,7 @@ module.exports = {
 
   fees: {
     h2: 'Fees',
-    lede: 'Entering the Challenge is free; our part is the teaching. Classes are billed one month at a time and shown in your local currency, with nothing to sign for the whole build, so a student can join for the months before a deadline and stop afterwards.',
+    lede: 'Entering the Challenge is free; our part is the teaching. Classes are billed one month at a time in US dollars, with nothing to sign for the whole build, so a student can join for the months before a deadline and stop afterwards.',
     free: ['A free first lesson', 'Bring your app idea', 'No card details'],
     group: ['Fifteen to twenty learners', 'One regular teacher', 'Choose your batch', 'Monthly'],
     one: ['A mentor to yourself', 'Timed around your deadline', 'Your own app']
@@ -368,7 +368,7 @@ module.exports = {
       { q: 'What programming language can be used?', a: 'Any language, including C, C++, Java, JavaScript, Python, Swift and block-based coding. Any platform is allowed too, from web and mobile to robots and wearables.' },
       { q: 'Can AI tools be used?', a: 'Yes, for 2026, if all AI use is fully disclosed in the submission. AI may support parts of the project but must not be the entirety of the technical development.' },
       { q: 'How long should the demo video be?', a: 'The 2026 rulebook says one to three minutes. It must name the participants and the app, state the purpose in one sentence, describe the audience and tools, and show the app working.' },
-      { q: 'When was the 2026 deadline?', a: 'The 2026 rulebook set the deadline at 12:00 pm EDT on Monday, October 26, 2026. Later cycles publish their own dates on the official site.' },
+      { q: 'What is the 2026 deadline?', a: 'The 2026 rulebook sets the deadline at 12:00 pm EDT on Monday, October 26, 2026. Later cycles publish their own dates on the official site.' },
       { q: 'How are winners chosen?', a: 'Each Member of Congress and their office judge their district, sometimes with a panel. The 2026 criteria were the quality of the idea, its implementation, and demonstrated excellence of coding and programming skills.' },
       { q: 'What do winners receive?', a: 'For 2026, each district winner is featured on the House.gov and CongressionalAppChallenge.us websites and can receive a copyright fee waiver through the ARTS Act. Districts may add certificates or small awards.' },
       { q: 'Can a middle schooler with only Scratch experience enter?', a: 'Yes. Block-based coding is allowed. A small, finished Scratch app with a clear purpose is a real entry; the plan on this page keeps the must list to three features for grades 6 to 8.' },

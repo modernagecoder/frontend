@@ -116,7 +116,8 @@ if (LEAD_ISO === 'US') {
   const vis = html.replace(/<script[\s\S]*?<\/script>/g, ' ');
   if (/\bIST\b/.test(vis)) fail('bare IST on a US page: write India time, and ET, CT, MT, PT or the state name');
   if (/weekend batch/i.test(vis)) fail('"weekend batch" on a US page: use the flexible timing line');
-  if (/\$\s?\d/.test(vis.replace(/<[^>]*data-price[^>]*>[^<]*</g, '<'))) fail('typed dollar figure on a US page: prices go through data-price only');
+  // Code figures are not copy: a "$5" inside a Luau or shell string is not a price.
+  if (/\$\s?\d/.test(vis.replace(/<pre[\s\S]*?<\/pre>/g, ' ').replace(/<[^>]*data-price[^>]*>[^<]*</g, '<'))) fail('typed dollar figure on a US page: prices go through data-price only');
   if (/\bpremium\b/i.test(vis)) fail("'Premium' on a US page");
   if (/–|&ndash;/.test(vis)) fail('en dash on a US page');
   if (!/<html lang="en(-US)?"/.test(html)) fail('html lang must be en or en-US on a US page');
