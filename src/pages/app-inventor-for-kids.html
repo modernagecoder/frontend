@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MIT App Inventor for Kids: Sign-In, Setup and a First App</title>
+  <meta name="description" content="MIT App Inventor for kids: signing in without a Google account, testing on iPhone, Android or a Chromebook, and a shake-to-roll dice app built from real blocks.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/app-inventor-for-kids">
+  <link rel="alternate" type="text/markdown" href="/src/pages/app-inventor-for-kids.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#464370">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/app-inventor-for-kids">
+  <meta property="og:title" content="MIT App Inventor for Kids: Sign-In, Setup and a First App">
+  <meta property="og:description" content="MIT App Inventor is free and runs in a browser. How US kids sign in (with or without Google), connect a phone over Wi-Fi, and build a dice app that remembers.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MIT App Inventor for Kids: Sign-In, Setup and a First App">
+  <meta name="twitter:description" content="MIT App Inventor for kids: sign-in options, phone setup and a first app in real blocks.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-aik .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-aik .ag-capsule { border-left-width: 4px; border-radius: 3px; }
+.ag-root.ag-aik .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-aik .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-aik .ag-band-head h3 { letter-spacing: -0.006em; }
+.ag-root.ag-aik .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/app-inventor-for-kids#page","url":"https://learn.modernagecoders.com/app-inventor-for-kids","name":"MIT App Inventor for Kids","description":"A guide for US parents and children to MIT App Inventor: account options for under-13s, the four ways to test an app, and a first app built with documented blocks.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"App Inventor for kids","item":"https://learn.modernagecoders.com/app-inventor-for-kids"}]},{"@type":"Course","name":"MIT App Inventor for Kids","description":"Live online app-making classes for US children, in MIT App Inventor blocks first and typed code later, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/app-inventor-for-kids"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/app-inventor-for-kids"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/app-inventor-for-kids"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is MIT App Inventor?","acceptedAnswer":{"@type":"Answer","text":"A free, web-based tool from MIT for building phone apps with blocks. You design the screen in the Designer, add behavior in the Blocks Editor, and test on a real phone through the Companion app."}},{"@type":"Question","name":"Is MIT App Inventor free?","acceptedAnswer":{"@type":"Answer","text":"Yes. App Inventor and its Companion app are free. MIT says the site is supported through grants, collaborations with educational organizations and donations."}},{"@type":"Question","name":"What age is App Inventor for?","acceptedAnswer":{"@type":"Answer","text":"MIT says people from ages 4 to 84 use it every month. We teach it from about 8, when children can read the blocks comfortably; in our experience it suits ages 9 to 14 especially well."}},{"@type":"Question","name":"Does my child need a Google account?","acceptedAnswer":{"@type":"Answer","text":"No. App Inventor can be used without one at code.appinventor.mit.edu by choosing Continue Without An Account. Keep the revisit code it gives you, because without it the project cannot be found again after logging out."}},{"@type":"Question","name":"Can a child under 13 use a Google account for App Inventor?","acceptedAnswer":{"@type":"Answer","text":"Google says 13 is the minimum age to manage your own Google Account in countries not on its list of exceptions, and the US is not on that list. A parent can create and manage a younger child's account with Family Link, or the child can use a school account or the no-account route."}},{"@type":"Question","name":"Does App Inventor work on iPhone?","acceptedAnswer":{"@type":"Answer","text":"Yes. MIT says App Inventor has worked with iPhones and iPads since March 2021. Kids test live with the iOS Companion app. Packaging a permanent iPhone app is harder because Apple requires a paid developer account."}},{"@type":"Question","name":"Can you use App Inventor on a Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Yes. App Inventor runs in the browser on a Chromebook, and many Chromebooks can also run the Android Companion, so a child can build and test on the same machine."}},{"@type":"Question","name":"Why won't my phone connect to App Inventor?","acceptedAnswer":{"@type":"Answer","text":"Check that the computer and phone are on the same Wi-Fi network and that the Companion app is up to date. Some school networks block the connection; on Android a USB cable is the fallback."}},{"@type":"Question","name":"Where did my App Inventor projects go?","acceptedAnswer":{"@type":"Answer","text":"Usually you are signed in with a different Google account from the one that made them, since projects are attached to that account's email address. With the no-account route, you need the revisit code."}},{"@type":"Question","name":"What times are classes for US families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much are app-making classes?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, families pay for teaching one month at a time, and the fees section shows the monthly figure in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/app-inventor-for-kids","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-aik">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#what">What it is</a></li>
+      <li><a href="#signin">Signing in</a></li>
+      <li><a href="#testing">Testing</a></li>
+      <li><a href="#first-app">First app</a></li>
+      <li><a href="#school">At school</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / App Inventor for kids
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 8 to 14 &middot; MIT App Inventor</p>
+        <h1>MIT App Inventor for kids</h1>
+        <p class="ag-lede">App Inventor projects tend to start with a specific idea: a quiz for a younger brother, a soccer score keeper, a button that makes the family dog bark. MIT App Inventor lets them build it with blocks that snap together, then run it on a real iPhone or Android phone the same afternoon. This guide covers what parents ask before starting: how a child under 13 signs in, which devices can test an app, why the phone sometimes refuses to connect, and what a first proper app looks like, with a dice game written in App Inventor blocks that you can build yourself.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#first-app" class="ag-btn ag-btn--ghost">See the dice app</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20make%20phone%20apps%20with%20MIT%20App%20Inventor.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aik'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Apps on iPhone and Android</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 8 to 14</dd>
+          <dt>Tool</dt><dd>MIT App Inventor, free</dd>
+          <dt>Runs in</dt><dd>Chrome, Firefox or Safari</dd>
+          <dt>Tests on</dt><dd>iPhone, Android, Chromebook</dd>
+          <dt>Sign-in</dt><dd>Google, or a revisit code</dd>
+          <dt>Format</dt><dd>Batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>MIT App Inventor is a free, web-based tool from MIT for building phone apps with blocks. Kids design screens in the Designer, add behavior in the Blocks Editor, and test live on an iPhone, Android phone or Chromebook through the free Companion app. It works with a Google account, or without one through code.appinventor.mit.edu and a revisit code.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses for young app makers</h2>
+      <p class="ag-lede">Every class is live, and every project is an app the child chose to build.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/block-coding-app-development-masterclass">
+        <div class="ag-pick-shot"><img src="/images/app-dev-kids.webp" alt="App Making for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIK / 01</p>
+          <h3>App making for kids</h3>
+          <p>Ages 8 to 12. App Inventor blocks, real phones, finished apps.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIK / 02</p>
+          <h3>Coding for kids with blocks</h3>
+          <p>Ages 6 to 12. A wider blocks course, for younger siblings too.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-app-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/app-dev-teens.webp" alt="App Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">AIK / 03</p>
+          <h3>App development for teens</h3>
+          <p>Ages 13 to 18. From blocks to typed code and app stores.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it is</p><h2>What MIT App Inventor is, and who uses it</h2><p class="ag-lede">App Inventor comes from a small team at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). Its own FAQ describes it as a free, web-based platform for creating, testing, and sharing mobile apps.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>MIT App Inventor in numbers, from its FAQ and 2025 User Survey (read 17 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What App Inventor says</th></tr></thead><tbody><tr><td>People who code apps with it</td><td>"Over 24 million people code their own apps with App Inventor"</td></tr><tr><td>Schools in one month of 2025</td><td>Over 11,000 schools globally, in over 200 countries and regions</td></tr><tr><td>US schools in that month</td><td>"over 900 US schools in 50 states"</td></tr><tr><td>Who the users are</td><td>84.9% students, 7.3% teachers, 7.8% outside education</td></tr><tr><td>Ages</td><td>"ages 4 to 84 (and more)" use it every month</td></tr><tr><td>Cost</td><td>Free; supported by grants, collaborations and donations</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Two windows, one app</h3><p>Every App Inventor project has two halves. The Designer is where a child drags components onto a phone-shaped screen: buttons, labels, images, and invisible ones such as a sound player or a motion sensor. The Blocks Editor is where they decide what happens when someone taps, shakes or types.</p>
+<p>MIT&rsquo;s own first tutorial calls components the ingredients in a recipe. We find that comparison works well with eight-year-olds: the Designer is the shopping list, the blocks are the method.</p></div><div><h3>Is it real coding?</h3><p>The FAQ asks this question itself and answers it with who uses the tool: engineers and research scientists who normally work in Java, Python and Swift use App Inventor to build working apps quickly.</p>
+<p>Our view, from teaching it: the blocks hide spelling and punctuation, not thinking. Events, variables, conditions, loops and lists are all there, and a child who builds three App Inventor apps arrives at typed code already knowing what an event handler is for.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: the <a class="ag-inline-link" href="https://appinventor.mit.edu/FAQ" rel="noopener" target="_blank">MIT App Inventor FAQ</a> and the <a class="ag-inline-link" href="https://appinventor.mit.edu/explore/ai2/hellopurr" rel="noopener" target="_blank">HelloPurr tutorial</a>, read 17 October 2026. The FAQ&rsquo;s figures are App Inventor&rsquo;s own; we have not added them up or checked them. We are not connected with MIT.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="signin">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Accounts</p><h2>How a child under 13 signs in to App Inventor</h2><p class="ag-lede">This is where many American families get stuck, because the usual sign-in is a Google account and children have their own rules on Google. There are three routes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Three ways in (from the App Inventor FAQ and terms, and Google&rsquo;s age page, read 17 October 2026)</caption><thead><tr><th scope="col">Route</th><th scope="col">Who it suits</th><th scope="col">What to know</th></tr></thead><tbody><tr><td>A personal Google account</td><td>Teens of 13 and over</td><td>Google says 13 is the minimum age to manage your own account in every country not on its exception list; the United States is not on that list (our reading)</td></tr><tr><td>A Google account managed with Family Link</td><td>Children under 13</td><td>Google says parents can help create and manage a younger child&rsquo;s account with Family Link</td></tr><tr><td>A school Google account</td><td>Students whose district uses Google</td><td>Google notes its consumer age rules may not apply to Workspace for Education accounts; the school sets the rules</td></tr><tr><td>No account, at code.appinventor.mit.edu</td><td>Anyone, including classes</td><td>Choose "Continue Without An Account" and keep the random revisit code; without it the project cannot be found again</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The revisit code, explained</h3><p>The no-account route gives each user a randomly generated code. App Inventor says that if the user wants to return to the project later, they must copy that code and keep it somewhere safe, because otherwise projects cannot be retrieved after logging out.</p>
+<p>Our tip for families: write the code on paper and put it in a phone note as well. Without that code, the project cannot be found again.</p></div><div><h3>What App Inventor keeps</h3><p>The FAQ says App Inventor does not keep personally identifiable information and keeps Google account details only so that project files can be saved. Its terms add that projects stay private unless you share them, and that young people especially should be careful about putting personal information on the site.</p>
+<p>For schools, the terms describe the code.appinventor.mit.edu version as one that does not collect or keep personally identifiable information, which is why many US teachers use it.</p></div></div>
+    <p class="ag-mt-40">Signed in and the projects have vanished? The FAQ says this is almost always because you are logged in to a different Google account from the one that created them. Check the address shown at the top right before anything else.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="testing">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Testing on a device</p><h2>Four ways to test an app, and the one MIT recommends</h2><p class="ag-lede">Building happens in the browser on a Mac, Windows computer or Chromebook. Testing happens on a device, live, while the child is still changing blocks. MIT&rsquo;s setup page lists four options.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Test options, from the App Inventor setup pages (read 17 October 2026)</caption><thead><tr><th scope="col">Option</th><th scope="col">What you need</th><th scope="col">MIT&rsquo;s note</th></tr></thead><tbody><tr><td>1. Phone or tablet over Wi-Fi</td><td>An iPhone, Android phone, iPad or Android tablet, plus the free Companion app</td><td>Recommended; the easiest way</td></tr><tr><td>2. Chromebook</td><td>A Chromebook that can run Android apps</td><td>Build, test and run on the same device</td></tr><tr><td>3. Emulator on the computer</td><td>Emulator software installed on a Mac or PC</td><td>Under Revision: Not Recommended</td></tr><tr><td>4. USB cable</td><td>An Android device and a cable</td><td>Android only; for networks that block the Wi-Fi link</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Install the Companion once.</b> Get the MIT App Inventor Companion from the App Store or Google Play. It stays on the phone for every future project.</li><li><b>Put both devices on the same Wi-Fi.</b> App Inventor shows the app on the phone only when the computer and the phone are on the SAME network, in MIT&rsquo;s capitals.</li><li><b>Connect from the project.</b> In the browser, choose Connect, then AI Companion. A QR code and a code of six characters appear.</li><li><b>Scan or type.</b> In the Companion, scan the QR code, or type the six characters and press the orange Connect with code button, without pressing Enter.</li><li><b>Watch it update.</b> Within a few seconds the app appears on the phone and changes as blocks change. MIT calls this live testing.</li><li><b>If nothing appears,</b> update the Companion first, since an outdated version is the first problem MIT lists, then check that both devices really are on the same network.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>iPhone and iPad</h3><p>App Inventor has worked with iPhones and iPads since March 2021, and MIT says almost all apps in its tutorial list work in the iOS Companion. A few features are still missing on iOS, among them Bluetooth, the Charts and Spreadsheets components and Android extensions.</p>
+<p>Turning an app into a permanent iPhone app file is harder, because Apple requires a paid developer account and signing; MIT says that packaging process is currently in a closed beta.</p></div><div><h3>Keeping an app on the phone</h3><p>The simplest way to keep a finished app works on both iPhone and Android: while it runs in the Companion, tap the book icon at the top right. It is then saved in the Companion&rsquo;s library and opens offline, with nothing to install.</p>
+<p>On Android you can also build an installable .apk file that runs on its own. Building still needs the internet, because App Inventor itself runs in the browser.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="first-app">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A first real app</p><h2>Build a shake-to-roll dice app in App Inventor blocks</h2><p class="ag-lede">HelloPurr, MIT&rsquo;s classic first app, plays a meow when you tap a kitten. Our next step for students is a dice that rolls when the phone is shaken, speaks the result and remembers how many rolls there have been. The blocks are ours, written with components from the App Inventor reference; build them and shake your own phone.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>App 1 &middot; shake to roll</b><span>app inventor blocks</span></figcaption><pre>// Shake-to-roll dice (ours)
+// Components: LabelRoll, AccelerometerSensor1, TextToSpeech1
+initialize global roll to 0
+
+when AccelerometerSensor1.Shaking
+  set global roll to random integer from 1 to 6
+  set LabelRoll.Text to get global roll
+  call TextToSpeech1.Speak
+       message: join "You rolled a " get global roll</pre><p class="ag-code-note">The random integer block returns a whole number between the two values, inclusive, so 1 and 6 can both appear. TextToSpeech speaks the joined text aloud.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>App 2 &middot; a dice that remembers</b><span>app inventor blocks</span></figcaption><pre>// Remember how many times the dice was rolled (ours)
+// Extra component: TinyDB1
+initialize global rolls to 0
+
+when Screen1.Initialize
+  set global rolls to call TinyDB1.GetValue
+       tag: "rolls"   valueIfTagNotThere: 0
+
+when AccelerometerSensor1.Shaking
+  set global rolls to get global rolls + 1
+  call TinyDB1.StoreValue
+       tag: "rolls"   valueToStore: get global rolls
+  set LabelCount.Text to join "Rolls so far: " get global rolls</pre><p class="ag-code-note">Apps forget their variables every time they close. TinyDB is App Inventor&rsquo;s persistent store, so the count survives. Screen1.Initialize runs once when the screen starts, which is the moment to load the saved number.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The idea underneath: events change state</h3><p>Nothing in App 1 runs until the phone is shaken. Shaking is the event; the blocks inside it are the handler; the global roll is the state that the handler changes. That pattern runs nearly every app on a phone.</p>
+<p>App 2 adds the harder idea: state that outlives the app. Children who understand why the count resets in App 1 and survives in App 2 have understood what a database is for.</p></div><div><h3>Two things that surprise students</h3><p>One hard shake can count as several. The AccelerometerSensor has a MinimumInterval property, in milliseconds, that ignores further Shaking events until the time has passed; raising it is the fix.</p>
+<p>While testing, every app run in the same Companion shares one TinyDB, so a count from yesterday&rsquo;s project can appear in today&rsquo;s. The reference says this sharing disappears once apps are packaged, and suggests clearing the Companion&rsquo;s data when starting a new app.</p></div></div>
+    <p class="ag-mt-40">A quick check with arithmetic, ours: a fair dice shows a 6 one time in six on average, so in 60 shakes you would expect about 60 / 6 = 10 sixes. Ask your child to shake sixty times, count, and explain why the answer is rarely exactly 10. That is probability, taught by their own app.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">At school</p><h2>App Inventor in US classrooms, including phone-free schools</h2><p class="ag-lede">With over 900 US schools in all 50 states using it in a single month, according to App Inventor&rsquo;s 2025 survey, many children meet it in class first. Two school questions come up most.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>When phones are banned</h3><p>The App Inventor FAQ answers the phone-ban case directly. Students can test on a Chromebook in a second window, on an iPad, on an Android tablet shared by a team of two to four, on the free emulator (which cannot reach some sensors and Bluetooth), or on a Mac with Apple Silicon that runs the Companion on the desktop.</p>
+<p>Coding on a touchscreen alone is possible on an iPad or Android tablet, but MIT warns it can be tricky and suggests trying it before a class depends on it.</p></div><div><h3>App Inventor and AP CSP</h3><p>For high schools, the FAQ points teachers who want App Inventor as an official course to the "AP board certified Mobile CSP", an AP Computer Science Principles course built on it.</p>
+<p>If your teen is heading toward AP CSP, our page on <a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP Computer Science Principles coaching</a> covers the exam itself, and App Inventor apps make good practice for the course&rsquo;s programming work.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>If the school network blocks the Companion (from the App Inventor FAQ and setup pages)</caption><thead><tr><th scope="col">Symptom</th><th scope="col">What MIT suggests</th></tr></thead><tbody><tr><td>The QR code connects at home but not at school</td><td>Some school firewalls block the kind of Wi-Fi connection App Inventor needs; try USB on Android</td></tr><tr><td>Nothing loads at all on the network</td><td>The FAQ points IT staff to its letter for IT professionals in schools about blocked ports</td></tr><tr><td>The browser is the problem</td><td>App Inventor supports Chrome, Firefox and Safari on most laptops and desktops</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A first term</p><h2>Three apps in a first term, and the idea each one teaches</h2><p class="ag-lede">Our plan for children of about 9 to 12 who are new to App Inventor. Younger children take longer on each app; that is fine.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A three-app first term (ours)</caption><thead><tr><th scope="col">Weeks</th><th scope="col">The app</th><th scope="col">The coding idea</th></tr></thead><tbody><tr><td>1 to 3</td><td>A talking button app of the child&rsquo;s choosing</td><td>Components, properties and one event</td></tr><tr><td>4 to 7</td><td>The shake-to-roll dice above, then a coin flip</td><td>Variables, random numbers, joining text</td></tr><tr><td>8 to 12</td><td>A quiz with a score that is saved</td><td>Conditions, lists and TinyDB storage</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Ages 8 to 9</h3><p>Design-heavy apps with one or two events, plenty of sound and color, and a parent nearby for the Wi-Fi setup.</p></div><div><h3>Ages 10 to 12</h3><p>The full three apps, with their own idea by week 8, often something for a sibling, a team or a class.</p></div><div><h3>Ages 13 and up</h3><p>Faster through blocks, then the move to typed code in our teen app course, where the same events reappear.</p></div></div>
+    <p class="ag-mt-40">A teen with an app worth showing can also aim at a US audience: our <a class="ag-inline-link" href="/congressional-app-challenge-guide">Congressional App Challenge guide</a> explains that competition from its official rules.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From idea to app</p>
+      <h2>Four stages of a young app inventor</h2>
+      <p class="ag-lede">The stages our App Inventor lessons move a child through.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a young app maker (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Arranger</td><td class="ag-num">Places buttons and pictures in the Designer; no blocks yet</td></tr><tr><td>2. Responder</td><td class="ag-num">Writes one event per button, like HelloPurr</td></tr><tr><td>3. Rememberer</td><td class="ag-num">Uses variables and TinyDB so the app keeps track of things</td></tr><tr><td>4. Designer</td><td class="ag-num">Plans screens on paper first, tests with real users, fixes what confuses them</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>The Wi-Fi connection step is where younger children need an adult. After that, testing is something a child can learn to do alone.</p>
+<p>Ask to use the app. A child who watches someone else get confused by their screen learns more about design than any lesson.</p></div><div><h3>For kids</h3><p>Make the app small and finished before you make it big. A dice that works beats a game that almost works.</p>
+<p>Name your components. LabelRoll is easier to find in the blocks than Label7.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalog</p>
+      <h2>Nine courses for kids who like making things</h2>
+      <p class="ag-lede">Taught live online by the same teacher each week, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Apps and blocks</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / APP / 01</p>
+          <h4>App making for kids</h4>
+          <p>App Inventor, start to finish.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / APP / 02</p>
+          <h4>Coding with blocks</h4>
+          <p>Scratch, apps, then AI.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / APP / 03</p>
+          <h4>Scratch coding</h4>
+          <p>Games and stories in blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Typed code</h3>
+        <span class="ag-band-sub">Ages 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / TYP / 01</p>
+          <h4>Python and AI for kids</h4>
+          <p>A first typed language.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / TYP / 02</p>
+          <h4>Web development for kids</h4>
+          <p>Websites with HTML, CSS, JavaScript.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / TYP / 03</p>
+          <h4>Game development for kids</h4>
+          <p>From blocks to game engines.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / TEN / 01</p>
+          <h4>App development for teens</h4>
+          <p>Real app code and publishing.</p>
+          <a class="ag-course-link" href="/courses/complete-app-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / TEN / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive sites and games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">AIK / TEN / 03</p>
+          <h4>AP CSP preparation</h4>
+          <p>The College Board course and exam.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons work</p>
+      <h2>App lessons at a time your family chooses</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school batches across the US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings for families who prefer them.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A private plan, at the hours you choose.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A phone on the desk</h3><p>Kids test every change on their own device.</p></div>
+      <div><h3>Their idea first</h3><p>The app is one they want to use.</p></div>
+      <div><h3>The same teacher</h3><p>Week after week, term after term.</p></div>
+      <div><h3>Blocks, then text</h3><p>The step to typed code when ready.</p></div>
+      <div><h3>From home</h3><p>Any state, any time zone.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty, or just your child.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Apps and projects made by our students</h2>
+      <p class="ag-lede">A few things learners built after their first App Inventor term. See the <a class="ag-inline-link" href="/student-labs">student labs</a> for more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">App Inventor and the Companion are free. Our lessons are billed one month at a time in US dollars; there is no term contract, and you can stop at the end of any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring an app idea</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty per batch</li><li>A regular teacher</li><li>Batch times to choose from</li><li>Paid monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Private lessons</li><li>At your convenience</li><li>An app plan of their own</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">From Google, as parents wrote it.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions parents ask</p>
+      <h2>MIT App Inventor for kids: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is MIT App Inventor?</h3>
+        <p>A free, web-based tool from MIT for building phone apps with blocks. You design the screen in the Designer, add behavior in the Blocks Editor, and test on a real phone through the Companion app.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is MIT App Inventor free?</h3>
+        <p>Yes. App Inventor and its Companion app are free. MIT says the site is supported through grants, collaborations with educational organizations and donations.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is App Inventor for?</h3>
+        <p>MIT says people from ages 4 to 84 use it every month. We teach it from about 8, when children can read the blocks comfortably; in our experience it suits ages 9 to 14 especially well.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need a Google account?</h3>
+        <p>No. App Inventor can be used without one at code.appinventor.mit.edu by choosing Continue Without An Account. Keep the revisit code it gives you, because without it the project cannot be found again after logging out.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a child under 13 use a Google account for App Inventor?</h3>
+        <p>Google says 13 is the minimum age to manage your own Google Account in countries not on its list of exceptions, and the US is not on that list. A parent can create and manage a younger child's account with Family Link, or the child can use a school account or the no-account route.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does App Inventor work on iPhone?</h3>
+        <p>Yes. MIT says App Inventor has worked with iPhones and iPads since March 2021. Kids test live with the iOS Companion app. Packaging a permanent iPhone app is harder because Apple requires a paid developer account.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you use App Inventor on a Chromebook?</h3>
+        <p>Yes. App Inventor runs in the browser on a Chromebook, and many Chromebooks can also run the Android Companion, so a child can build and test on the same machine.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why won't my phone connect to App Inventor?</h3>
+        <p>Check that the computer and phone are on the same Wi-Fi network and that the Companion app is up to date. Some school networks block the connection; on Android a USB cable is the fallback.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where did my App Inventor projects go?</h3>
+        <p>Usually you are signed in with a different Google account from the one that made them, since projects are attached to that account's email address. With the no-account route, you need the revisit code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes for US families?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much are app-making classes?</h3>
+        <p>The first lesson is free. After that, families pay for teaching one month at a time, and the fees section shows the monthly figure in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">For US families with a child who builds things.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Every page we have for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/congressional-app-challenge-guide">Congressional App Challenge</a></h3><p>A US competition for student apps.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></h3><p>For teens taking the course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/app-idea-to-app-store-60-days-teen-developer-roadmap">From app idea to app store</a></h3><p>A roadmap for older teens.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch classes</a></h3><p>Blocks for younger children.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-10-year-olds">Coding for 10 year olds</a></h3><p>What a 10-year-old can learn.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us the app your child keeps talking about. In the first lesson the teacher helps them sketch its screen and make the first button work.</p>
+        <p class="ag-mt-40">To see a lesson before you book, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>; every syllabus is on our <a class="ag-inline-link" href="/courses">courses</a> page.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20make%20phone%20apps%20with%20MIT%20App%20Inventor.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'aik',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are based in India and teach entirely online, so a child in any US state can join from the kitchen table. WhatsApp gets the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_aik(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free and we never take card details for it.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Apps and blocks</h4><ul><li><a href="/scratch-coding-classes-for-kids">Scratch coding classes</a></li><li><a href="/congressional-app-challenge-guide">Congressional App Challenge</a></li><li><a href="/blog/app-idea-to-app-store-60-days-teen-developer-roadmap">App idea to app store</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li><li><a href="/coding-for-9-year-olds">Coding for 9 year olds</a></li><li><a href="/coding-for-12-year-olds">Coding for 12 year olds</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>An event, a handler, and a value that lasts</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_aik = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'app-inventor-for-kids-inline', meta: { name: name, age: age, page: 'app-inventor-for-kids' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

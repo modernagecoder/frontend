@@ -186,7 +186,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 149 | eclipse-java-help-for-students (ej, #572429) | tools | 4,695 | 1.4% vs bluej-not-working-fix | phase T | tools and environment (the editor, the compiler and the Java runtime are three d | fd5b1886 |
 | 147 | intellij-and-pycharm-free-for-students (ipf, #943C16) | tools | 4,044 | 2% vs codehs-help-for-students | phase T | environments (which interpreter or JDK is really running your code) | 5490c0d3 |
 | 30 | c-plus-plus-for-kids (cppk, #124875) | subj | 3,917 | 1.4% vs coding-milestones-by-age | phase 2 | types and limits (what a variable can hold, and what happens past the edge) | dbd1fbdf |
-| 31 | javascript-for-kids (jk, #3E5294) | subj | 3,822 | 1.4% vs how-to-make-a-roblox-game | phase 2 | the game loop (read input, update state, draw, repeat) | (this commit) |
+| 31 | javascript-for-kids (jk, #3E5294) | subj | 3,822 | 1.4% vs how-to-make-a-roblox-game | phase 2 | the game loop (read input, update state, draw, repeat) | d56b34e6 |
+| 32 | app-inventor-for-kids (aik, #464370) | subj | 4,219 | 1.3% vs python-games-for-kids | phase 2 | events and state (an event handler that changes a value the app remembers) | (this commit) |
 
 ## Skipped
 

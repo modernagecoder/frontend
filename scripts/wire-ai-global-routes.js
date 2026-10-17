@@ -445,6 +445,7 @@ const SLUGS = [
   'intellij-and-pycharm-free-for-students',
   'c-plus-plus-for-kids',
   'javascript-for-kids',
+  'app-inventor-for-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -969,6 +970,7 @@ const LLMS_LABELS = {
   'intellij-and-pycharm-free-for-students': 'IntelliJ and PyCharm free for students',
   'c-plus-plus-for-kids': 'C++ for kids',
   'javascript-for-kids': 'JavaScript for kids',
+  'app-inventor-for-kids': 'App Inventor for kids',
 };
 
 function wireLlms(slugs) {

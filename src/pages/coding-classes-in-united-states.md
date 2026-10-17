@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [App Inventor for kids](/app-inventor-for-kids)
 - [JavaScript for kids](/javascript-for-kids)
 - [C++ for kids](/c-plus-plus-for-kids)
 - [IntelliJ and PyCharm free for students](/intellij-and-pycharm-free-for-students)
