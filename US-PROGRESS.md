@@ -167,7 +167,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 15 | coding-classes-for-middle-school-students (ms, #524B2F) | age | 4,384 | 1% vs python-turtle-not-working | phase 2 | procedures and parameters (write it once, reuse it with different inputs) | f257b2b0 |
 | 16 | coding-classes-for-high-school-students (hs, #304C0B) | age | 4,303 | 1.3% vs python-indentation-error-explained | phase 2 | tracing state through a loop (why removing while counting up skips an element) | 2eea0564 |
 | 17 | coding-milestones-by-age (mba, #0D4C0B) | age | 4,254 | 1.1% vs coding-classes-for-elementary-students | phase 2 | one task at increasing levels of abstraction (steps, repeat, loop, function, gen | 43e4466b |
-| 24 | ai-literacy-for-elementary-students (ale, #9E332F) | ai | 4,298 | 1.5% vs coding-milestones-by-age | phase 2 | learning from examples (training data decides the answer, including the wrong on | (this commit) |
+| 24 | ai-literacy-for-elementary-students (ale, #9E332F) | ai | 4,298 | 1.5% vs coding-milestones-by-age | phase 2 | learning from examples (training data decides the answer, including the wrong on | dec3a275 |
+| 4 | lua-for-kids (lk, #570F0D) | game | 4,160 | 1.1% vs congressional-app-challenge-guide | phase 2 | tables and loops (a list, a loop over it, a running total) | (this commit) |
 
 ## Skipped
 

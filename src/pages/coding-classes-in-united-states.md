@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Lua for kids](/lua-for-kids)
 - [AI literacy for elementary students](/ai-literacy-for-elementary-students)
 - [Coding milestones by age](/coding-milestones-by-age)
 - [Coding classes for high school students](/coding-classes-for-high-school-students)

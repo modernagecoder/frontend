@@ -7106,4 +7106,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-literacy-for-elementary-students /src/pages/ai-literacy-for-elementary-students.html 200
 /ai-literacy-for-elementary-students.md /src/pages/ai-literacy-for-elementary-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/lua-for-kids /src/pages/lua-for-kids.html 200
+/lua-for-kids.md /src/pages/lua-for-kids.md 200
 /* /src/pages/404.html 404

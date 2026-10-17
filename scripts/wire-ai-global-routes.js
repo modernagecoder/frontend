@@ -426,6 +426,7 @@ const SLUGS = [
   'coding-classes-for-high-school-students',
   'coding-milestones-by-age',
   'ai-literacy-for-elementary-students',
+  'lua-for-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -931,6 +932,7 @@ const LLMS_LABELS = {
   'coding-classes-for-high-school-students': 'Coding classes for high school students',
   'coding-milestones-by-age': 'Coding milestones by age',
   'ai-literacy-for-elementary-students': 'AI literacy for elementary students',
+  'lua-for-kids': 'Lua for kids',
 };
 
 function wireLlms(slugs) {
