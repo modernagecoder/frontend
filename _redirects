@@ -7210,4 +7210,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /picoctf-for-beginners /src/pages/picoctf-for-beginners.html 200
 /picoctf-for-beginners.md /src/pages/picoctf-for-beginners.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cyberpatriot-preparation /src/pages/cyberpatriot-preparation.html 200
+/cyberpatriot-preparation.md /src/pages/cyberpatriot-preparation.md 200
 /* /src/pages/404.html 404

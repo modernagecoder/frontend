@@ -452,6 +452,7 @@ const SLUGS = [
   'presidential-ai-challenge-guide',
   'acsl-competition-preparation',
   'picoctf-for-beginners',
+  'cyberpatriot-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -983,6 +984,7 @@ const LLMS_LABELS = {
   'presidential-ai-challenge-guide': 'Presidential AI Challenge guide',
   'acsl-competition-preparation': 'ACSL competition preparation',
   'picoctf-for-beginners': 'picoCTF for beginners',
+  'cyberpatriot-preparation': 'CyberPatriot preparation',
 };
 
 function wireLlms(slugs) {
