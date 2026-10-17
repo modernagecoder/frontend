@@ -23481,6 +23481,18 @@
   to = "/src/pages/coding-and-ai-classes-in-north-carolina.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/computer-science-summer-programs-for-high-school-students"
+  to = "/src/pages/computer-science-summer-programs-for-high-school-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/computer-science-summer-programs-for-high-school-students.md"
+  to = "/src/pages/computer-science-summer-programs-for-high-school-students.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

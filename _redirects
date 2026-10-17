@@ -7034,4 +7034,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-and-ai-classes-in-north-carolina /src/pages/coding-and-ai-classes-in-north-carolina.html 200
 /coding-and-ai-classes-in-north-carolina.md /src/pages/coding-and-ai-classes-in-north-carolina.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/computer-science-summer-programs-for-high-school-students /src/pages/computer-science-summer-programs-for-high-school-students.html 200
+/computer-science-summer-programs-for-high-school-students.md /src/pages/computer-science-summer-programs-for-high-school-students.md 200
 /* /src/pages/404.html 404

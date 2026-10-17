@@ -408,6 +408,7 @@ const SLUGS = [
   'maths-tutor-newcastle-nsw',
   'how-to-make-a-roblox-game',
   'congressional-app-challenge-guide',
+  'computer-science-summer-programs-for-high-school-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -895,6 +896,7 @@ const LLMS_LABELS = {
   'maths-tutor-newcastle-nsw': 'Maths tutor in Newcastle, NSW',
   'how-to-make-a-roblox-game': 'How to make a Roblox game',
   'congressional-app-challenge-guide': 'Congressional App Challenge guide',
+  'computer-science-summer-programs-for-high-school-students': 'CS summer programs for high school students',
 };
 
 function wireLlms(slugs) {

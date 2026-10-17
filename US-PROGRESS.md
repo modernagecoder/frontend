@@ -149,11 +149,12 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 |---|------|------|-------|---------------|-------|---------------|--------|
 | 1 | how-to-make-a-roblox-game (rbx, #80473B) | door | 3,969 | 0.2% vs after-school-coding-club-vs-online-class-australia | how-to | event-driven programming | edd54615 |
 | 2 | congressional-app-challenge-guide (cac, #252A6B) | door | 4,061 | 1.5% vs how-to-make-a-roblox-game | competition guide | scoping and prioritisation | eee6ea1a |
-| 3 | coding-and-ai-classes-in-north-carolina (ncar, #276910) | state | 3,568 | 2.1% vs ai-and-programming-classes-in-adelaide | graduation requirement | group-by and aggregation | (this commit) |
+| 3 | coding-and-ai-classes-in-north-carolina (ncar, #276910) | state | 3,568 | 2.1% vs ai-and-programming-classes-in-adelaide | graduation requirement | group-by and aggregation | ade5aac5 |
+| 25 | computer-science-summer-programs-for-high-school-students (cssp, #706336) | summer | 3,881 | 0.8% vs congressional-app-challenge-guide | phase 2 | dates and dictionaries in Python (planning with code) | (this commit) |
 
 ## Skipped
 
-(none yet)
+- Row 13 fortnite-uefn-game-design-for-teens: owner did not choose course C6, so no Fortnite course to offer; page skipped (2026-10-17).
 
 ## Open items
 
