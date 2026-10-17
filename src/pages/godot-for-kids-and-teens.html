@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Godot for Kids and Teens: Free Engine, GDScript, Real Code</title>
+  <meta name="description" content="Godot for kids and teens from the official docs: free under MIT, runs on Chromebooks through its Android editor, two GDScript scripts, common errors, and classes.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/godot-for-kids-and-teens">
+  <link rel="alternate" type="text/markdown" href="/src/pages/godot-for-kids-and-teens.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#546B1D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/godot-for-kids-and-teens">
+  <meta property="og:title" content="Godot for Kids and Teens: Free Engine, GDScript, Real Code">
+  <meta property="og:description" content="Is Godot good for kids? What the Godot docs say about cost, computers, Chromebooks and iPads, two real GDScript scripts, the errors beginners hit, and a twelve-class plan.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Godot for Kids and Teens: Free Engine, GDScript, Real Code">
+  <meta name="twitter:description" content="Godot for kids and teens: cost, devices, two GDScript scripts and the errors beginners hit.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-gkt .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-gkt .ag-capsule { border-left-width: 6px; border-radius: 0; }
+.ag-root.ag-gkt .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-gkt .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-gkt .ag-steps { margin-top: 2rem; }
+.ag-root.ag-gkt .ag-band-head h3 { letter-spacing: 0.004em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/godot-for-kids-and-teens#page","url":"https://learn.modernagecoders.com/godot-for-kids-and-teens","name":"Godot for Kids and Teens","description":"A guide for US parents, kids and teens to learning game development with the Godot engine: licence, languages, system requirements, the Android and web editors, two GDScript scripts, troubleshooting and a twelve-class plan.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Godot for kids and teens","item":"https://learn.modernagecoders.com/godot-for-kids-and-teens"}]},{"@type":"Course","name":"Godot for Kids and Teens","description":"Live online Godot and GDScript classes for children and teenagers in the United States, in a batch or one to one, from a first scene to a finished game.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/godot-for-kids-and-teens"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/godot-for-kids-and-teens"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/godot-for-kids-and-teens"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Godot good for kids learning game development?","acceptedAnswer":{"@type":"Answer","text":"Yes, for children from about 11 and for teens. It is free, runs on modest computers including Chromebooks, and its docs recommend beginners start with GDScript, a language they say was designed to be simpler than C#. For younger children we suggest Scratch first."}},{"@type":"Question","name":"Is Godot free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Godot docs say it is completely free and open source under the permissive MIT license, with no royalties, and that users' games are theirs."}},{"@type":"Question","name":"Can you use Godot on a Chromebook?","acceptedAnswer":{"@type":"Answer","text":"Yes. Godot's Android editor supports Chromebooks supporting Android apps, and there is a web editor for current browsers, which the docs say needs 8 GB of RAM. The web editor cannot export projects or use C#."}},{"@type":"Question","name":"Can you use Godot on an iPad?","acceptedAnswer":{"@type":"Answer","text":"No. Godot's system requirements say iOS cannot run the editor. An Android tablet can, with Android 7.0 or later for the Compatibility renderer."}},{"@type":"Question","name":"What age is Godot for?","acceptedAnswer":{"@type":"Answer","text":"Godot sets no learning age in the docs we read. We suggest about 11 and up, for a child who reads and types confidently, and Scratch or Roblox Studio before that."}},{"@type":"Question","name":"Is GDScript the same as Python?","acceptedAnswer":{"@type":"Answer","text":"No. The GDScript reference says it uses an indentation-based syntax similar to Python but is entirely independent from Python and is not based on it. Python experience still helps a lot."}},{"@type":"Question","name":"What is Learn GDScript From Zero?","acceptedAnswer":{"@type":"Answer","text":"A free, open-source app the Godot docs recommend for people new to programming. The docs describe it as a complete beginner course with interactive practices you can do right in your browser."}},{"@type":"Question","name":"Should my teen learn Godot or Unity?","acceptedAnswer":{"@type":"Answer","text":"Godot suits teens who want a light, free engine on any computer, including a Chromebook. Unity suits teens 13 and over who want C# and larger 3D projects; it is what our group teen course teaches."}},{"@type":"Question","name":"Do you have a Godot course?","acceptedAnswer":{"@type":"Answer","text":"We teach Godot one to one, following a twelve-lesson plan adjusted to each student. Our group game development course for teens uses Unity and C#, which teaches the same ideas of scenes, scripts and signals."}},{"@type":"Question","name":"Can lessons fit around school and sports?","acceptedAnswer":{"@type":"Answer","text":"Yes. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do Godot lessons cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. Lessons after that are paid monthly; the Fees section on this page gives the amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/godot-for-kids-and-teens","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-gkt">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#facts">About Godot</a></li>
+      <li><a href="#computers">Computers</a></li>
+      <li><a href="#scripts">Two scripts</a></li>
+      <li><a href="#errors">Errors</a></li>
+      <li><a href="#compare">Compared</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Godot for kids and teens
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 11 to 18 &middot; Godot Engine and GDScript</p>
+        <h1>Godot for kids and teens</h1>
+        <p class="ag-lede">Godot comes up quickly when a family searches for a free, serious way for a child to make games, and it deserves the attention. It costs nothing, has no royalties, runs on modest computers, and is one of very few full game engines with an editor that works on a Chromebook. It also asks more of a young learner than Scratch or Roblox. This page uses Godot&rsquo;s own documentation to explain what the engine is, which computers can run it, two short GDScript scripts with the reasoning behind every line, the errors beginners meet most, and how Godot compares with Roblox Studio and Unity.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#scripts" class="ag-btn ag-btn--ghost">Read the two scripts</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20learn%20Godot%20and%20GDScript.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gkt'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live since 2020 &middot; 10,000+ students &middot; Godot in a batch or one to one, any US time zone</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ages 11 to 18</dd>
+          <dt>Engine</dt><dd>Godot 4, free</dd>
+          <dt>Language</dt><dd>GDScript</dd>
+          <dt>Computer</dt><dd>Windows, Mac, Linux, Chromebook</dd>
+          <dt>Not on</dt><dd>iPad or iPhone</dd>
+          <dt>Format</dt><dd>One to one for Godot</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Is Godot good for kids?</p>
+      <p>Yes, for kids from about 11 and for teens. Godot is free and open source under the MIT license, and its own docs recommend beginners start with GDScript, which they say was designed to be simpler than C#. Modern Age Coders teaches it live online in our Godot Game Development course for ages 10 to 17, in a batch or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ways to learn with us</p>
+      <h2>Three courses for a young Godot fan</h2>
+      <p class="ag-lede">The Godot course is the direct route; the other two suit a learner who wants Unity next, or a little Python before GDScript.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-game-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/game-dev-teens.webp" alt="Game Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GKT / 01</p>
+          <h3>Game development for teens</h3>
+          <p>13 to 18. The same scenes, scripts and signals ideas, taught in Unity and C#.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GKT / 02</p>
+          <h3>Python for kids</h3>
+          <p>9 to 12. Indentation and logic that make GDScript feel familiar.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/godot-game-development-course-for-kids-and-teens">
+        <div class="ag-pick-shot"><img src="/images/godot-game-dev.webp" alt="Godot Game Development for Kids and Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GKT / 03</p>
+          <h3>Godot game development</h3>
+          <p>10 to 17. GDScript, 2D and 3D, ending in a finished game.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="facts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">About Godot</p><h2>Godot in seven facts, from its own documentation</h2><p class="ag-lede">A parent deciding whether to let a child install an engine wants to know who makes it, what it costs, and what it will ask for. These answers come straight from the Godot website and documentation.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Godot facts from godotengine.org and the Godot docs (read 17 October 2026)</caption><thead><tr><th scope="col">Question</th><th scope="col">What Godot says</th></tr></thead><tbody><tr><td>What is it?</td><td>A free and open source, community-driven 2D and 3D game engine</td></tr><tr><td>What does it cost?</td><td>Nothing. The docs say it is free under the permissive MIT license, with "No strings attached, no royalties, nothing."</td></tr><tr><td>Who owns the games?</td><td>"Users&rsquo; games are theirs, down to the last line of engine code."</td></tr><tr><td>Who is behind it?</td><td>Independent, community-driven development, supported by the Godot Foundation not-for-profit</td></tr><tr><td>Which languages?</td><td>GDScript and C#, plus C and C++ through its GDExtension technology</td></tr><tr><td>Which language for a beginner?</td><td>GDScript: the docs say it was designed to be simpler than all-purpose languages like C#</td></tr><tr><td>Latest version</td><td>Godot 4.7.2, a maintenance release dated 18 August 2026 on godotengine.org</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What GDScript looks like to a child</h3><p>The GDScript reference says the language uses an indentation-based syntax similar to languages like Python, and in the same breath that it is entirely independent from Python and is not based on it. Children who have met Python recognise the shape at once; children who have not find it tidier than languages full of brackets.</p>
+<p>Every script is attached to a node, such as a character, a timer or a label, and works on that node. That gives children a concrete answer to the question "where does this code live?", which many beginners struggle with.</p></div><div><h3>Where Godot asks more than Roblox</h3><p>Roblox hands a child a ready-made world with players, physics and a publishing button. Godot hands them an empty project. Children make more decisions themselves: what the scenes are, how they connect, what each script controls.</p>
+<p>That is exactly why we like it for children about 11 and older who have already finished a few Scratch or Roblox games. It is the step where a hobby starts to look like engineering.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/about/introduction.html" rel="noopener" target="_blank">Godot docs introduction</a>, <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/scripting_languages.html" rel="noopener" target="_blank">Scripting languages</a>, the <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html" rel="noopener" target="_blank">GDScript reference</a> and <a class="ag-inline-link" href="https://godotengine.org/" rel="noopener" target="_blank">godotengine.org</a>. We are not connected with the Godot Foundation or the Godot project.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="computers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Will it run?</p><h2>Which computers can run Godot, including Chromebooks and iPads</h2><p class="ag-lede">This is where Godot stands out for American families, because in some homes a school Chromebook is the only computer. The answers below come from Godot&rsquo;s system requirements and its pages on the Android and web editors.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Running the Godot editor, from the Godot docs (read 17 October 2026)</caption><thead><tr><th scope="col">Device</th><th scope="col">Can it run the editor?</th><th scope="col">What the docs list</th></tr></thead><tbody><tr><td>Windows PC</td><td>Yes</td><td>Windows 10 or later; 4 GB of RAM minimum for the native editor; 200 MB of storage</td></tr><tr><td>Mac</td><td>Yes</td><td>macOS 10.13 for the Compatibility renderer, macOS 10.15 for Forward+ and Mobile</td></tr><tr><td>Linux</td><td>Yes</td><td>A Linux distribution released after 2018</td></tr><tr><td>Chromebook</td><td>Yes, two ways</td><td>The Android editor supports Chromebooks supporting Android apps; the web editor runs in current browsers and needs 8 GB of RAM</td></tr><tr><td>Android tablet</td><td>Yes</td><td>Android 7.0 for the Compatibility renderer, with 3 GB of RAM</td></tr><tr><td>iPad or iPhone</td><td>No</td><td>The docs say plainly: iOS cannot run the editor</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The web editor: good for learning, with limits</h3><p>Godot&rsquo;s documentation is honest about its web editor. It says the editor is in a preliminary stage and that while its feature set may be sufficient for educational purposes, it is currently not recommended for production work.</p>
+<p>The listed limits matter for children: no C#, no project exporting, and the editor will not warn you when you close the tab with unsaved changes. In class we teach web-editor students one habit above all: download the project source before closing the tab.</p></div><div><h3>The Android editor on a Chromebook</h3><p>The docs say Godot added an Android port of the editor in 2023 and that it can be used to create, develop and export 2D and 3D projects. On a Chromebook that runs Android apps, this is the fuller option.</p>
+<p>It has no C# support either, so Chromebook students write GDScript, which is what we recommend for beginners anyway. The docs recommend connecting a keyboard and mouse, and we agree: a touchscreen alone is hard work for code.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/about/system_requirements.html" rel="noopener" target="_blank">System requirements</a>, <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/tutorials/editor/using_the_android_editor.html" rel="noopener" target="_blank">Using the Android editor</a> and <a class="ag-inline-link" href="https://docs.godotengine.org/en/stable/tutorials/editor/using_the_web_editor.html" rel="noopener" target="_blank">Using the Web editor</a>. The Android editor page gives a lower Android minimum than the system requirements page; the table follows the system requirements.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="scripts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Two real scripts</p><h2>Two GDScript scripts, and why each line is there</h2><p class="ag-lede">The first script is a shortened version of the player in Godot&rsquo;s own beginner game, Dodge the Creeps!, with the animation removed and the four key checks replaced by one documented call. The second is ours too: a score that counts up every second, using the signal pattern from the docs.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 1 &middot; a player that moves and can be hit</b><span>gdscript</span></figcaption><pre># player.gd on an Area2D (ours: the Dodge the Creeps!
+# player, shortened with Input.get_vector)
+extends Area2D
+
+signal hit
+
+@export var speed = 400  # pixels per second
+var screen_size
+
+func _ready():
+    screen_size = get_viewport_rect().size
+
+func _process(delta):
+    var direction = Input.get_vector("move_left", "move_right", "move_up", "move_down")
+    position += direction * speed * delta
+    position = position.clamp(Vector2.ZERO, screen_size)
+
+func _on_body_entered(_body):
+    hide()
+    hit.emit()
+    $CollisionShape2D.set_deferred("disabled", true)</pre><p class="ag-code-note">Map move_left, move_right, move_up and move_down in Project Settings, Input Map, as the lesson describes. The Input class reference says get_vector gives a vector whose length is limited to 1. The official lesson reaches the same result with four if statements and normalized(), and explains the reason: holding right and down at the same time makes the vector (1, 1). Our arithmetic: the length of (1, 1) is about 1.41, so with no limit a diagonal runner at speed 400 would cover about 566 pixels a second instead of 400, roughly 41 percent faster.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 2 &middot; a score that counts every second</b><span>gdscript</span></figcaption><pre># main.gd on a Node with two children: a Timer
+# and a Label named ScoreLabel (ours)
+extends Node
+
+var score = 0
+
+func _ready():
+    var timer = get_node("Timer")
+    timer.timeout.connect(_on_timer_timeout)
+    timer.start()
+
+func _on_timer_timeout():
+    score += 1
+    $ScoreLabel.text = str(score)</pre><p class="ag-code-note">Set the Timer&rsquo;s Wait Time to 1 in the Inspector, the value the docs use for the score timer in Dodge the Creeps!. The signals lesson connects a timer with the same line, timer.timeout.connect(_on_timer_timeout).</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The idea in both: signals</h3><p>The docs describe signals as messages that nodes emit when something specific happens to them, like a button being pressed. In Script 1 the player emits hit; in Script 2 the timer emits timeout. Other code listens and reacts.</p>
+<p>This is the most important idea in Godot for a young learner, and it is not Godot-only. The same pattern runs buttons on web pages, notifications on phones and events in Roblox.</p></div><div><h3>Why set_deferred, in plain words</h3><p>When an enemy touches the player, the game is in the middle of working out collisions. Switching off the player&rsquo;s collision shape at that exact moment can cause an error, so the docs use set_deferred to say: do this as soon as it is safe.</p>
+<p>Children do not need the theory yet. They need to know that some changes must wait their turn, and that Godot gives them a polite way to ask.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="errors">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">When it breaks</p><h2>The errors young Godot learners hit most, and the fix</h2><p class="ag-lede">Every one of these appears in, or is warned about by, the official beginner tutorial. Knowing them in advance saves a child an evening of frustration.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common beginner problems, from the Godot tutorial (read 17 October 2026; wording of the fixes ours)</caption><thead><tr><th scope="col">What happens</th><th scope="col">Why</th><th scope="col">The fix</th></tr></thead><tbody><tr><td>Attempt to call function 'play' in base 'null instance' on a null instance</td><td>The node name in the script does not match the scene tree; the docs say node names are case-sensitive</td><td>Copy the exact name from the scene tree, capital letters included</td></tr><tr><td>An animation does not play</td><td>The animation name in code differs from the SpriteFrames panel, for example Walk and walk</td><td>Make the names match exactly</td></tr><tr><td>A connected signal does nothing</td><td>The connection icon only shows the signal will try to call a function with that name</td><td>Check the function name is spelled exactly as in the connection window</td></tr><tr><td>The new function is missing after connecting a signal</td><td>With an external editor such as VS Code, the docs note a bug stops Godot creating it</td><td>Type the function into the script yourself</td></tr><tr><td>The player gets hit twice in a split second</td><td>Collision is still switched on after the first hit</td><td>Disable the collision shape with set_deferred, as Script 1 does</td></tr><tr><td>The player moves faster diagonally</td><td>The direction vector was longer than 1</td><td>Use Input.get_vector, or call normalized() before multiplying by speed</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Read the red text in the Debugger panel first.</b> It names the script and the line.</li><li><b>Check names before logic.</b> Three of the tutorial&rsquo;s own warnings are about names: node, animation and function names must match exactly.</li><li><b>Run the current scene by itself.</b> The docs use F6 (Cmd + R on a Mac) to test one scene, which narrows down where a problem lives.</li><li><b>Change one thing, then run again.</b> Two changes at once make it impossible to tell which one helped.</li><li><b>Explain the line out loud.</b> If a child cannot say what a line does, that line is where the teacher starts.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="learn">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Learning from zero</p><h2>Learn to code from zero with Godot: the free routes and their order</h2><p class="ag-lede">Many families arrive here after hearing about the free Learn GDScript From Zero app. It is a good start, and it fits into a sensible order with the official tutorial.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Free official and community routes into Godot, in the order we suggest (order ours)</caption><thead><tr><th scope="col">Step</th><th scope="col">What it is</th><th scope="col">From the source</th></tr></thead><tbody><tr><td>1</td><td>Learn GDScript From Zero</td><td>The docs call it a complete beginner course with interactive practices you can do right in your browser; it is open source</td></tr><tr><td>2</td><td>The Step by step lessons</td><td>The docs&rsquo; own introduction to nodes, scenes, scripts and signals</td></tr><tr><td>3</td><td>Your first 2D game, Dodge the Creeps!</td><td>The docs say it assumes you have some programming experience already, which is why it comes third</td></tr><tr><td>4</td><td>Your first 3D game</td><td>The docs recommend starting with the 2D series first</td></tr><tr><td>5</td><td>A game of your own</td><td>Small, finished, and shown to someone else</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where a teacher helps</h3><p>Self-study works well for steps 1 and 2. Step 3 is the steep one: the tutorial itself says it assumes some programming experience, and a first null instance error can feel like a wall.</p>
+<p>In one-to-one lessons we build Dodge the Creeps! together, then immediately change it, a new enemy, a power-up, a second level, because changing a game is how a child proves they understood it.</p></div><div><h3>A word on age</h3><p>We suggest Godot from about 11, for a child who reads confidently and types without hunting for keys. For younger children we suggest Scratch first, where the same ideas, events, loops and conditions, come without typing errors.</p>
+<p>Teenagers can start at step 1 with no coding behind them. A teen who already knows Python will recognise much of the app&rsquo;s early material.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="compare">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Godot, Roblox or Unity?</p><h2>Godot compared with Roblox Studio and Unity for a young learner</h2><p class="ag-lede">Here are the three side by side. Each row uses the maker&rsquo;s own documentation or terms; the last row is our advice.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Three engines side by side (read 17 October 2026; advice row ours)</caption><thead><tr><th scope="col"></th><th scope="col">Godot 4</th><th scope="col">Roblox Studio</th><th scope="col">Unity</th></tr></thead><tbody><tr><td>Cost</td><td>Free, MIT license, no royalties</td><td>Free to install</td><td>Unity Personal is free for individuals under a revenue limit</td></tr><tr><td>Language</td><td>GDScript or C#</td><td>Luau</td><td>C#</td></tr><tr><td>Chromebook</td><td>Yes, Android or web editor</td><td>No</td><td>ChromeOS is not on Unity&rsquo;s Editor list</td></tr><tr><td>Account age</td><td>Not covered in the docs we read</td><td>Studio typically recommended for 10 and up</td><td>Terms give 13 as the US minimum</td></tr><tr><td>Exporting a game</td><td>Desktop, mobile and web; C# projects in Godot 4 cannot export to the web</td><td>Published inside Roblox</td><td>Many platforms</td></tr><tr><td>Our advice</td><td>Ages 11 and up who want a real engine on any computer</td><td>Ages 10 and up who love Roblox and have Windows or Mac</td><td>Teens 13 and up heading for C# and larger 3D games</td></tr></tbody></table></div>
+    <p class="ag-mt-40">For the Roblox route, our <a class="ag-inline-link" href="/how-to-make-a-roblox-game">Roblox game walkthrough</a> covers Studio and three Luau scripts. For older students drawn to engine internals, see <a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Twelve lessons</p><h2>A twelve-lesson Godot plan for kids and teens</h2><p class="ag-lede">Our plan for a first Godot term. Teenagers with coding behind them move faster; younger children spend longer on each step.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Twelve Godot lessons for a first term (ours)</caption><thead><tr><th scope="col">Lessons</th><th scope="col">What gets built</th><th scope="col">The idea</th></tr></thead><tbody><tr><td>1 to 2</td><td>Install or open the editor, nodes and scenes, a sprite on screen</td><td>Scenes and nodes</td></tr><tr><td>3 to 4</td><td>Script 1: a player that moves and stays on screen</td><td>Input, vectors, delta</td></tr><tr><td>5 to 6</td><td>Enemies that spawn on a timer; Script 2 for the score</td><td>Signals and timers</td></tr><tr><td>7 to 8</td><td>A heads-up display and a game over screen</td><td>User interface</td></tr><tr><td>9 to 10</td><td>A platformer level with gravity and jumping</td><td>Physics bodies</td></tr><tr><td>11 to 12</td><td>Their own small game, shown to the family</td><td>Planning and finishing</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Ages 11 and 12</h3><p>More time on Scripts 1 and 2, plenty of changing numbers to see what happens.</p></div><div><h3>Ages 13 to 15</h3><p>The full plan, then a second term on 3D or a game jam entry.</p></div><div><h3>Ages 16 to 18</h3><p>Faster, with design documents and a public build to show.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How skill grows</p>
+      <h2>From first scene to first finished Godot game</h2>
+      <p class="ag-lede">Four milestones we look for in a young Godot learner.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Godot milestones (ours)</caption><thead><tr><th scope="col">Milestone</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Explorer</td><td class="ag-num">Moves around the editor, adds nodes, runs a scene</td></tr><tr><td>2. Scripter</td><td class="ag-num">Attaches a script and makes something move with the keyboard</td></tr><tr><td>3. Connector</td><td class="ag-num">Uses signals so one part of the game reacts to another</td></tr><tr><td>4. Builder</td><td class="ag-num">Plans scenes before making them and finishes a small game</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Milestone 3 is the big one. A child who can explain a signal has understood how real software is put together.</p>
+<p>Ask to play their game. Godot projects run on the same computer they were made on, so the demo is instant.</p></div><div><h3>For kids and teens</h3><p>When Godot shows an error, read the line number first. Then check your spelling.</p>
+<p>Finish Dodge the Creeps!, then change three things about it. That is your first original game.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for game makers of every age</h2>
+      <p class="ag-lede">All live online with one regular teacher, in a batch or one to one, Godot included.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Starting out</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / KID / 01</p>
+          <h4>Scratch coding</h4>
+          <p>Events and loops before typed code.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / KID / 02</p>
+          <h4>Roblox game coding</h4>
+          <p>Luau in a world they already know.</p>
+          <a class="ag-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / KID / 03</p>
+          <h4>Python for kids</h4>
+          <p>Indentation, logic and small games.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / TEN / 01</p>
+          <h4>Game development for teens</h4>
+          <p>Ten months of engine work in C#.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / TEN / 02</p>
+          <h4>Python for teens</h4>
+          <p>A strong partner language to GDScript.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / TEN / 03</p>
+          <h4>C++ for teens</h4>
+          <p>The language Godot itself is written in.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>More options</h3>
+        <span class="ag-band-sub">Mixed ages</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / MIX / 01</p>
+          <h4>Game development for kids</h4>
+          <p>Scratch, Roblox and Minecraft, ages 8 to 12.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / MIX / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Games that run in a browser tab.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GKT / MIX / 03</p>
+          <h4>Game development, 18 and over</h4>
+          <p>For older students and adults.</p>
+          <a class="ag-course-link" href="/courses/game-development-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Scheduling</p>
+      <h2>Godot lessons arranged around your week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">One-to-one lessons on a weekday that suits your time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Mornings that suit busy families.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Very personalised: your hours, your own game.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One teacher throughout</h3><p>Who knows your child&rsquo;s project.</p></div>
+      <div><h3>Editor on screen</h3><p>We watch the real Godot editor live.</p></div>
+      <div><h3>Errors are lessons</h3><p>Each one read and fixed together.</p></div>
+      <div><h3>Any computer that runs it</h3><p>Including a Chromebook.</p></div>
+      <div><h3>Online in every state</h3><p>Live from home.</p></div>
+      <div><h3>Private for Godot</h3><p>Group courses use Unity.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Games and apps from students who began with an empty project. The <a class="ag-inline-link" href="/student-labs">student labs</a> hold the full collection.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Godot itself is free, with no royalties, so the fee covers live teaching and nothing else. It is a monthly payment in US dollars, and there is no long commitment.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Free trial lesson</li><li>Bring the computer your child will use</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>One regular teacher</li><li>Unity and C#, not Godot</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Godot lessons for one</li><li>Times you set</li><li>Your child&rsquo;s own game</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">From Google, in parents&rsquo; own words.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions families ask</p>
+      <h2>Godot for kids and teens: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is Godot good for kids learning game development?</h3>
+        <p>Yes, for children from about 11 and for teens. It is free, runs on modest computers including Chromebooks, and its docs recommend beginners start with GDScript, a language they say was designed to be simpler than C#. For younger children we suggest Scratch first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Godot free?</h3>
+        <p>Yes. The Godot docs say it is completely free and open source under the permissive MIT license, with no royalties, and that users' games are theirs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you use Godot on a Chromebook?</h3>
+        <p>Yes. Godot's Android editor supports Chromebooks supporting Android apps, and there is a web editor for current browsers, which the docs say needs 8 GB of RAM. The web editor cannot export projects or use C#.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you use Godot on an iPad?</h3>
+        <p>No. Godot's system requirements say iOS cannot run the editor. An Android tablet can, with Android 7.0 or later for the Compatibility renderer.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age is Godot for?</h3>
+        <p>Godot sets no learning age in the docs we read. We suggest about 11 and up, for a child who reads and types confidently, and Scratch or Roblox Studio before that.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is GDScript the same as Python?</h3>
+        <p>No. The GDScript reference says it uses an indentation-based syntax similar to Python but is entirely independent from Python and is not based on it. Python experience still helps a lot.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is Learn GDScript From Zero?</h3>
+        <p>A free, open-source app the Godot docs recommend for people new to programming. The docs describe it as a complete beginner course with interactive practices you can do right in your browser.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my teen learn Godot or Unity?</h3>
+        <p>Godot suits teens who want a light, free engine on any computer, including a Chromebook. Unity suits teens 13 and over who want C# and larger 3D projects; it is what our group teen course teaches.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you have a Godot course?</h3>
+        <p>We teach Godot one to one, following a twelve-lesson plan adjusted to each student. Our group game development course for teens uses Unity and C#, which teaches the same ideas of scenes, scripts and signals.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can lessons fit around school and sports?</h3>
+        <p>Yes. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do Godot lessons cost?</h3>
+        <p>The first lesson is free. Lessons after that are paid monthly; the Fees section on this page gives the amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US families choosing a way into game development.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our pages for American families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-roblox-game">How to make a Roblox game</a></h3><p>The Roblox Studio route.</p></div>
+      <div><h3><a class="ag-inline-link" href="/c-plus-plus-game-development">C++ game development</a></h3><p>Engine-level code for older teens.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch coding classes</a></h3><p>The gentle start before Godot.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-13-year-olds">Coding for 13 year olds</a></h3><p>Choosing a first teen language.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What a live lesson looks like.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free Godot lesson</h2>
+        <p class="ag-lede">Tell us your child&rsquo;s age, any coding they have done, and which computer they will use, Chromebook included. The teacher sets up Godot with them in the first lesson and gets something moving on screen.</p>
+        <p class="ag-mt-40">To see the method before booking, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or open <a class="ag-inline-link" href="/courses">every syllabus</a> we offer.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20wants%20to%20learn%20Godot%20and%20GDScript.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gkt',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are taught live over video by teachers in India, so families in every US state learn with the same team. WhatsApp is the quickest way to ask a question.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_gkt(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The trial lesson is free; no payment details asked.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Game engines</h4><ul><li><a href="/how-to-make-a-roblox-game">How to make a Roblox game</a></li><li><a href="/c-plus-plus-game-development">C++ game development</a></li><li><a href="/roblox-coding-classes-for-kids">Roblox coding classes</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/coding-for-13-year-olds">Coding for 13 year olds</a></li><li><a href="/c-plus-plus-classes-for-teens">C++ classes for teens</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>A node announces, another node reacts</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_gkt = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'godot-for-kids-and-teens-inline', meta: { name: name, age: age, page: 'godot-for-kids-and-teens' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

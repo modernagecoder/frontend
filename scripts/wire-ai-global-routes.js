@@ -428,6 +428,7 @@ const SLUGS = [
   'ai-literacy-for-elementary-students',
   'lua-for-kids',
   'how-to-make-a-video-game-for-kids',
+  'godot-for-kids-and-teens',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -935,6 +936,7 @@ const LLMS_LABELS = {
   'ai-literacy-for-elementary-students': 'AI literacy for elementary students',
   'lua-for-kids': 'Lua for kids',
   'how-to-make-a-video-game-for-kids': 'How to make a video game for kids',
+  'godot-for-kids-and-teens': 'Godot for kids and teens',
 };
 
 function wireLlms(slugs) {

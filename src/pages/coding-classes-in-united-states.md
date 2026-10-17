@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Godot for kids and teens](/godot-for-kids-and-teens)
 - [How to make a video game for kids](/how-to-make-a-video-game-for-kids)
 - [Lua for kids](/lua-for-kids)
 - [AI literacy for elementary students](/ai-literacy-for-elementary-students)

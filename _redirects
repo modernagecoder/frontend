@@ -7114,4 +7114,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /how-to-make-a-video-game-for-kids /src/pages/how-to-make-a-video-game-for-kids.html 200
 /how-to-make-a-video-game-for-kids.md /src/pages/how-to-make-a-video-game-for-kids.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/godot-for-kids-and-teens /src/pages/godot-for-kids-and-teens.html 200
+/godot-for-kids-and-teens.md /src/pages/godot-for-kids-and-teens.md 200
 /* /src/pages/404.html 404
