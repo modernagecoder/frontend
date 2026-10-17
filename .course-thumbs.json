@@ -486,5 +486,25 @@
  "olympiad-mathematics-premium-course": {
   "img": "/images/olympiad-maths-premium.webp",
   "alt": "Olympiad Mathematics (IOQM, INMO, AMC) - Modern Age Coders course"
+ },
+ "godot-game-development-course-for-kids-and-teens": {
+  "img": "/images/godot-game-dev.webp",
+  "alt": "Godot Game Development - Modern Age Coders course"
+ },
+ "cpp-programming-for-kids-course": {
+  "img": "/images/cpp-kids.webp",
+  "alt": "C++ for Kids - Modern Age Coders course"
+ },
+ "act-math-prep-course": {
+  "img": "/images/act-math-prep.webp",
+  "alt": "ACT Math Prep - Modern Age Coders course"
+ },
+ "picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens": {
+  "img": "/images/cybersecurity-competitions-teens.webp",
+  "alt": "Cybersecurity Competitions: picoCTF and CyberPatriot - Modern Age Coders course"
+ },
+ "middle-school-math-competitions-course": {
+  "img": "/images/middle-school-math-competitions.webp",
+  "alt": "Middle School Math Competitions - Modern Age Coders course"
  }
 }

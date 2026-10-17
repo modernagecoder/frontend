@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "slug": "middle-school-math-competitions-course",
+    "date": "2026-10-17",
+    "title": "Middle School Math Competitions: MATHCOUNTS, AMC 8 and Math Kangaroo Prep",
+    "description": "Live online math competition prep for ages 10 to 14: number theory, counting, algebra and geometry problem solving for MATHCOUNTS, AMC 8 and Math Kangaroo, with timed rounds.",
+    "keywords": [
+      "math competition for middle school",
+      "mathcounts prep",
+      "mathcounts preparation course",
+      "amc 8 prep",
+      "amc 8 preparation online",
+      "math kangaroo preparation",
+      "math kangaroo practice grades 5-8",
+      "middle school math competition classes",
+      "competition math for 6th graders",
+      "math olympiad prep middle school",
+      "mathcounts sprint round practice",
+      "problem solving math classes for kids"
+    ],
+    "category": "Competition Mathematics & Olympiad Training",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks), repeatable as a second season with new problem sets",
+    "level": "Students roughly aged 10 to 14 (grades 5 to 8) who are comfortable with school maths and want more challenge",
+    "commitment": "2 live classes/week + weekly problem sets and timed rounds",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "middle-school-math-competitions.webp",
+    "dateModified": "2026-10-17"
+  },
+  "program_overview": {
+    "title": "Middle School Math Competitions",
+    "tagline": "The problem-solving toolkit behind MATHCOUNTS, the AMC 8 and Math Kangaroo, built idea by idea and tested against the clock.",
+    "description": "Middle school math competitions ask for something school maths rarely does: seeing an unfamiliar problem, choosing an idea, and getting it right quickly. The three best-known contests for this age reward the same core toolkit. MATHCOUNTS is a national program for students in grades 6 to 8, with four levels of competition (school, chapter, state and national) and four rounds: the Sprint Round of 30 problems in 40 minutes without a calculator, the Target Round of four pairs of problems with 6 minutes per pair, the Team Round of 10 problems in 20 minutes, and the optional fast-paced Countdown Round. Math Kangaroo USA is a 75-minute multiple-choice test with 30 questions for students in grade 5 and above, scored 3, 4 or 5 points per question with no points taken away for wrong answers. The AMC 8, from the Mathematical Association of America, is a multiple-choice contest for middle school students.\n\nThis 6-month live course teaches that shared toolkit in a deliberate order: arithmetic and number sense, number theory, algebra and word problems, counting and probability, geometry, then patterns, sequences and logic. Every topic is taught through problems written in the styles of these contests, and every month includes a timed round so speed and accuracy grow together.\n\nThe final two months are contest craft: Sprint and Countdown speed without a calculator, Target and Team strategy with one, and multiple-choice technique for the AMC 8 and Math Kangaroo. Students keep an error log from the first week, so they learn as much from mistakes as from successes. We teach the mathematics and the habits; we never promise medals or qualification, and families register for each contest through the routes the organisers set.",
+    "what_makes_this_different": [
+      "One toolkit for three contests: MATHCOUNTS, the AMC 8 and Math Kangaroo reward the same core ideas, so students prepare for all three at once",
+      "Topics taught in a deliberate order, from number sense to geometry, so each idea builds on the one before",
+      "A timed round every month, so speed and accuracy are trained together rather than left to the final weeks",
+      "Round-specific craft: no-calculator speed for Sprint and Countdown, calculator strategy for Target and Team, and elimination for multiple-choice tests",
+      "An error log kept from week one, reviewed with the teacher every month",
+      "Problems written in the contest styles, plus the official free sample problems the organisers publish"
+    ],
+    "learning_path": {
+      "phase_1": "The problem-solving base: number sense, number theory, ratios and rates, and the first counting principles",
+      "phase_2": "Core contest topics: probability, geometry from angles to solids, patterns and sequences, remainders and logic",
+      "phase_3": "Contest craft: MATHCOUNTS round strategy, multiple-choice technique for the AMC 8 and Math Kangaroo, and full mock contests"
+    },
+    "career_outcomes": [
+      "A problem-solving toolkit across number theory, counting, probability, algebra and geometry",
+      "Faster, more accurate arithmetic and estimation without a calculator",
+      "Round-by-round strategy for MATHCOUNTS and multiple-choice technique for the AMC 8 and Math Kangaroo",
+      "An error log and timed-round history that show exactly where to keep practising",
+      "A strong base for high school competitions and our Olympiad Mathematics course later"
+    ]
+  },
+  "phase_1_problem_solving_base": {
+    "title": "PHASE 1: The Problem-Solving Base (Months 1-2, Weeks 1-8)",
+    "description": "Fast, reliable number work and the first big competition ideas: divisibility, primes, ratios and counting.",
+    "month_1_number_sense_and_number_theory": {
+      "title": "Month 1: Number Sense and Number Theory",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Diagnostic, Contest Formats and Fast Arithmetic",
+        "topics": [
+          "A diagnostic round to find each student's starting point",
+          "How MATHCOUNTS, the AMC 8 and Math Kangaroo are structured",
+          "Mental arithmetic shortcuts: compensation, doubling and halving, and multiplying near 100",
+          "Fractions, decimals and percents converted quickly",
+          "Order of operations and careful reading",
+          "Starting an error log"
+        ],
+        "projects": [
+          "Personal diagnostic summary with three target topics and an opened error log"
+        ],
+        "practice": "Daily ten-minute arithmetic sprint, with the time and score recorded each day"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Primes, Factors and Divisibility",
+        "topics": [
+          "Divisibility rules and why they work",
+          "Prime factorisation and factor trees",
+          "Greatest common divisor and least common multiple",
+          "Counting the factors of a number from its prime factorisation",
+          "Perfect squares and cubes",
+          "Contest problems that hide a factorisation"
+        ],
+        "projects": [
+          "Number theory toolkit page: each rule with a worked contest-style example"
+        ],
+        "practice": "A 20-problem number theory set, with the idea used written beside each answer",
+        "assessment": "Month 1 timed round: a short no-calculator round on arithmetic and number theory"
+      }
+    },
+    "month_2_ratios_and_counting": {
+      "title": "Month 2: Ratios, Word Problems and Counting",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Ratios, Rates and Algebra Word Problems",
+        "topics": [
+          "Ratios and proportions set up from words",
+          "Rates, work and distance problems",
+          "Percent change and successive percentages",
+          "Writing and solving linear equations from a story",
+          "Averages and how adding a value changes them",
+          "Checking an answer against the question"
+        ],
+        "projects": [
+          "Word problem casebook: ten problem types, each with a model solution"
+        ],
+        "practice": "A 20-problem word problem set, half solved with an equation and half by reasoning"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Counting Basics",
+        "topics": [
+          "Making organised lists so nothing is missed or counted twice",
+          "The multiplication principle",
+          "Arrangements: permutations of objects in a row",
+          "Choosing groups: combinations",
+          "Complementary counting: count what you do not want",
+          "Venn diagrams for overlapping groups"
+        ],
+        "projects": [
+          "Counting toolkit page: when to list, multiply, arrange, choose or subtract"
+        ],
+        "practice": "A 15-problem counting set, each answer checked by a second method where possible",
+        "assessment": "Phase 1 assessment: a timed mixed round covering number theory, word problems and counting"
+      }
+    }
+  },
+  "phase_2_core_contest_topics": {
+    "title": "PHASE 2: Core Contest Topics (Months 3-4, Weeks 9-16)",
+    "description": "Probability, geometry and the patterns and logic questions that appear across all three contests.",
+    "month_3_probability_and_geometry": {
+      "title": "Month 3: Probability and Plane Geometry",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Probability",
+        "topics": [
+          "Probability as favourable outcomes over possible outcomes",
+          "Dice, coins, cards and spinners",
+          "Independent events and multiplying probabilities",
+          "Using counting to find probabilities",
+          "Complementary probability",
+          "Simple expected value"
+        ],
+        "projects": [
+          "Probability lab: run a small experiment, compare it with the calculated answer and explain the difference"
+        ],
+        "practice": "A 15-problem probability set with a sketch of the sample space for every problem"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Angles, Triangles and Area",
+        "topics": [
+          "Angle facts: straight lines, triangles, polygons and parallel lines",
+          "The Pythagorean theorem and common Pythagorean triples",
+          "Area of triangles, quadrilaterals and composite shapes",
+          "Similar triangles and scale factors",
+          "Adding a helpful line to a diagram",
+          "Coordinate geometry: distance and area on a grid"
+        ],
+        "projects": [
+          "Geometry fact sheet with a diagram for every fact"
+        ],
+        "practice": "A 15-problem geometry set, redrawing each diagram to scale before solving",
+        "assessment": "Month 3 timed round: probability and geometry, with a written review of every miss"
+      }
+    },
+    "month_4_circles_solids_patterns_logic": {
+      "title": "Month 4: Circles, Solids, Patterns and Logic",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Circles and Solids",
+        "topics": [
+          "Circumference, area, arcs and sectors",
+          "Shaded-region problems",
+          "Surface area and volume of prisms, cylinders, pyramids and cones",
+          "Nets and cube-counting puzzles",
+          "Visualising folds, rotations and views of solids",
+          "Exact answers in terms of pi"
+        ],
+        "projects": [
+          "Shaded-region and solids casebook with ten worked problems"
+        ],
+        "practice": "A 15-problem circles and solids set, with exact answers left in terms of pi"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Patterns, Sequences, Remainders and Logic",
+        "topics": [
+          "Arithmetic sequences and the sum of the first n terms",
+          "Spotting and proving simple patterns",
+          "Units digits and remainders in long calculations",
+          "Number bases beyond ten",
+          "Logic puzzles: truth-tellers, ordering and elimination grids",
+          "Visual reasoning puzzles of the kind Math Kangaroo is known for"
+        ],
+        "projects": [
+          "Patterns and logic casebook, with a one-line explanation of why each pattern holds"
+        ],
+        "practice": "A mixed set of patterns, remainders and logic puzzles, half with a timer and half without",
+        "assessment": "Phase 2 assessment: a timed mixed round across all topics so far"
+      }
+    }
+  },
+  "phase_3_contest_craft": {
+    "title": "PHASE 3: Contest Craft and Mock Contests (Months 5-6, Weeks 17-24)",
+    "description": "Turning knowledge into results on the day: round-by-round strategy for MATHCOUNTS, multiple-choice technique for the AMC 8 and Math Kangaroo, and full mock contests.",
+    "month_5_mathcounts_rounds": {
+      "title": "Month 5: MATHCOUNTS Round Strategy",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Sprint and Countdown Speed",
+        "topics": [
+          "Sprint Round pacing: 30 problems in 40 minutes without a calculator",
+          "Which problems to bank first and which to return to",
+          "Mental shortcuts that save seconds on common problem types",
+          "Countdown Round practice: answering against a short per-problem clock",
+          "Staying accurate when going fast",
+          "Reviewing a sprint: speed errors versus knowledge errors"
+        ],
+        "projects": [
+          "Two timed Sprint-style rounds with a personal pacing plan written after each"
+        ],
+        "practice": "One Sprint-style round a week under exact timing, with every miss logged"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Target and Team Strategy",
+        "topics": [
+          "Target Round pacing: pairs of problems in 6 minutes",
+          "Using a calculator well, and knowing when not to",
+          "Showing enough working to check an answer quickly",
+          "Team Round: 10 problems in 20 minutes, splitting and checking work",
+          "Communicating clearly in a team",
+          "Practising with the organisers' free sample problems"
+        ],
+        "projects": [
+          "Full MATHCOUNTS-style mock: Sprint, Target and Team rounds, with a written review"
+        ],
+        "practice": "One Target-style set and one team problem set each week",
+        "assessment": "Month 5 assessment: the full MATHCOUNTS-style mock, reviewed round by round"
+      }
+    },
+    "month_6_multiple_choice_and_mocks": {
+      "title": "Month 6: Multiple-Choice Craft and Mock Contests",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Multiple-Choice Technique for the AMC 8 and Math Kangaroo",
+        "topics": [
+          "Using the answer choices: elimination, estimation and testing values",
+          "Spotting the trap answer a common mistake produces",
+          "Math Kangaroo scoring: 3, 4 and 5-point questions and no penalty for wrong answers",
+          "Pacing a 75-minute, 30-question Math Kangaroo paper",
+          "Planning time for a multiple-choice contest and checking marked answers",
+          "Reading each organiser's current rules before the contest"
+        ],
+        "projects": [
+          "Timed multiple-choice mock papers in the AMC 8 and Math Kangaroo styles, with written reviews"
+        ],
+        "practice": "One timed multiple-choice paper a week and a written plan for the next one"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Final Mocks and the Next Season",
+        "topics": [
+          "A final mixed mock contest under exact timing",
+          "Error log review: the five fixes that matter most",
+          "Contest-day routine: sleep, materials and nerves",
+          "How to keep practising between contests",
+          "Planning the next season or moving toward high school contests",
+          "Presenting a favourite problem and its solution to the class"
+        ],
+        "projects": [
+          "Final mock contest and a personal next-season plan based on the error log"
+        ],
+        "practice": "Write a full solution to your favourite problem of the course, explained for a younger student",
+        "assessment": "Final assessment: a mixed mock contest plus a short conversation on method choices"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "Which contests does this course prepare for?",
+      "answer": "MATHCOUNTS, the AMC 8 and Math Kangaroo. All three reward the same core ideas: number theory, counting and probability, algebra, geometry and logic. The course teaches that toolkit, then adds round-specific strategy for MATHCOUNTS and multiple-choice technique for the AMC 8 and Math Kangaroo."
+    },
+    {
+      "question": "What are the MATHCOUNTS rounds?",
+      "answer": "MATHCOUNTS has four rounds. The Sprint Round is 30 problems in 40 minutes without a calculator. The Target Round gives four pairs of problems, with 6 minutes per pair and a calculator assumed. The Team Round is 10 problems in 20 minutes, taken officially by a school's four-student team. The Countdown Round focuses on speed and accuracy, with a maximum of 45 seconds per problem and no calculator,, optional at the school, chapter and state levels."
+    },
+    {
+      "question": "How does Math Kangaroo work?",
+      "answer": "Math Kangaroo is a 75-minute multiple-choice test. Students in grade 5 and above answer 30 questions; a third are worth 3 points, a third 4 points and a third 5 points, and no points are taken away for wrong answers. In the USA the individual competition is held in March, organised through Math Kangaroo centers."
+    },
+    {
+      "question": "What about the AMC 8?",
+      "answer": "The AMC 8 is a multiple-choice contest for middle school students run by the Mathematical Association of America. The course covers the topics and multiple-choice technique it rewards. Contest dates, format details and registration routes are set by the MAA each year, so check its official page for the current rules."
+    },
+    {
+      "question": "How do we register for these contests?",
+      "answer": "Through the organisers, not through us. MATHCOUNTS works through registered schools, and students whose school does not take part can register as non-school competitors. Math Kangaroo is organised through its own centers. The AMC 8 is offered through schools and other hosts as the MAA sets out. We are happy to explain the options during the demo."
+    },
+    {
+      "question": "Is my child ready for this course?",
+      "answer": "The course suits students roughly aged 10 to 14 who are comfortable with school maths and enjoy a challenge. They do not need contest experience. The first-week diagnostic shows where to start, and problem sets have core and stretch problems so both newer and more experienced students are stretched."
+    },
+    {
+      "question": "How is this different from your Olympiad Mathematics course?",
+      "answer": "Our Olympiad Mathematics course is for older, stronger students working toward proof-based olympiad problems and high school contests. This course is the step before: the problem-solving toolkit and contest habits for middle school competitions. Students who finish it and enjoy competition maths often move on to the olympiad course."
+    },
+    {
+      "question": "Will this guarantee a medal or a place at nationals?",
+      "answer": "No, and we would not promise it. Results depend on the student, the contest and the day. What the course gives is a solid toolkit, regular timed practice and an honest error log, so you can see real progress month by month."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or one to one. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher works through a few contest-style problems with your child, sees how they think, and suggests whether group, mini batch or one-to-one classes fit best. There is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Diagnostic summary and error log kept all course",
+      "Number theory and counting toolkit pages",
+      "Word problem, geometry, solids and logic casebooks",
+      "Probability lab write-up",
+      "Full MATHCOUNTS-style mock with a round-by-round review",
+      "Timed multiple-choice mock papers with written reviews",
+      "Personal next-season plan"
+    ],
+    "total_projects_built": "A complete contest kit: toolkit pages, casebooks, an error log and reviewed mock rounds",
+    "skills_mastered": [
+      "Fast, accurate arithmetic and estimation without a calculator",
+      "Number theory: primes, factors, divisibility, remainders and bases",
+      "Counting and probability: lists, arrangements, choices and complements",
+      "Algebra and word problems: ratios, rates, percents and equations",
+      "Geometry: angles, triangles, area, circles, solids and coordinates",
+      "Patterns, sequences and logic puzzles",
+      "Round-by-round contest strategy and multiple-choice technique"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, with problems solved together and individually",
+      "practice": "A problem set after every class, with core and stretch problems",
+      "review": "Problem sets and timed rounds reviewed with written comments, and the error log checked monthly"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with timed-round results and next steps"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Comfortable with school maths at grade level, including fractions, decimals and basic equations. No contest experience needed",
+    "age": "Roughly 10 to 14 (grades 5 to 8). Younger students who are strong at maths are welcome after the free demo",
+    "equipment": "A device with stable internet for live classes, paper and pencil, and a basic calculator for Target and Team practice",
+    "timing": "Joinable any month. Starting several months before a contest leaves time for both the toolkit and the timed mocks"
+  },
+  "who_is_this_for": {
+    "first_time_competitors": "Students who are good at school maths and want to try their first competition",
+    "returning_competitors": "Students who have taken part before and want a structured toolkit and stronger timing",
+    "school_team_hopefuls": "Students aiming to join or contribute to a school MATHCOUNTS team",
+    "multiple_choice_contest_students": "Students preparing for Math Kangaroo or the AMC 8 who want more than past-paper drilling",
+    "curious_problem_solvers": "Children who simply enjoy puzzles and want maths that is harder and more interesting than school"
+  },
+  "career_paths_after_completion": [
+    "A second season of this course with new problem sets, aimed at the next contest year",
+    "Our Olympiad Mathematics course, for proof-based problems and high school contests",
+    "Algebra and high school maths courses, started with a strong problem-solving base",
+    "Coding courses, where the same logical habits carry straight into programming",
+    "School maths clubs and team competitions, joined with real preparation"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Batches only: group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured plan that builds the shared toolkit of MATHCOUNTS, the AMC 8 and Math Kangaroo in a deliberate order.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a problem set after every class, a timed round every month, and a final mock contest that decides the certificate."
+  }
+}

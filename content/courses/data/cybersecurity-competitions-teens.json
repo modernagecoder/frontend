@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "slug": "picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens",
+    "date": "2026-10-17",
+    "title": "Cybersecurity Competitions for Teens: picoCTF and CyberPatriot Prep",
+    "description": "Live online cybersecurity competition prep for ages 13 to 18: CyberPatriot-style system hardening on Windows and Linux, and picoCTF-style CTF skills, ethical and defensive.",
+    "keywords": [
+      "picoctf preparation",
+      "picoctf for beginners",
+      "cyberpatriot training",
+      "cyberpatriot practice",
+      "cyberpatriot prep course",
+      "capture the flag for high school students",
+      "ctf training for teens",
+      "cybersecurity competition for high school",
+      "cybersecurity competition for middle school",
+      "linux hardening for students",
+      "windows security for students",
+      "ethical cybersecurity course for teens"
+    ],
+    "category": "Cybersecurity",
+    "taxonomy": "cyber-security",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Beginner to intermediate, ages 13 to 18, no prior security experience needed",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "cybersecurity-competitions-teens.webp",
+    "dateModified": "2026-10-17"
+  },
+  "program_overview": {
+    "title": "Cybersecurity Competitions: picoCTF and CyberPatriot Prep",
+    "tagline": "Two of the best-known student cyber competitions, one defensive skill set, and a clear line between what is allowed and what is not.",
+    "description": "Student cybersecurity competitions come in two main shapes, and this course prepares for both. CyberPatriot, the National Youth Cyber Education Program created by the Air & Space Forces Association, runs the National Youth Cyber Defense Competition, in which teams of middle and high school students find and fix security vulnerabilities in virtual Windows and Linux systems and are scored on how secure they make them. picoCTF, the capture-the-flag program built at Carnegie Mellon University and now part of CMU's free CyLab Security Academy, sets puzzle challenges in areas such as general skills, cryptography and forensics, each hiding a flag to find.\n\nThe first two months build the foundations both need: the Linux command line, Windows administration, how networks move data, and a written white-hat agreement that every student signs before any practice begins. Months three and four are CyberPatriot-style hardening: user and password policy, services, firewalls, updates, permissions and the forensics questions on a practice virtual machine each student sets up with the teacher, worked against the clock and as a team. Months five and six are capture-the-flag skills: encodings and ciphers, file and packet forensics, reading code, and how web and memory bugs are recognised and fixed.\n\nEverything is ethical and defensive. Students practise only on a practice virtual machine they set up with the teacher and on platforms designed for practice, where every challenge is meant to be solved. Nobody is taught to touch a system they do not own or have permission to test, and the legal and ethical lines are taught as part of the skill, not as a disclaimer.",
+    "what_makes_this_different": [
+      "Prepares for both competition styles: CyberPatriot-style defence of Windows and Linux systems, and picoCTF-style capture-the-flag puzzles",
+      "Defensive by design: every bug a student finds in a CTF challenge is paired with the fix a defender would make",
+      "Practice only on your own practice virtual machine and on purpose-built practice platforms, never on real systems",
+      "A white-hat agreement signed in week one and revisited every month, covering permission, disclosure and competition rules",
+      "Team skills taught on purpose: roles, checklists and communication during a timed round",
+      "Written solutions for every challenge, so students learn to explain their reasoning as well as find the answer"
+    ],
+    "learning_path": {
+      "phase_1": "Foundations and ethics: the white-hat agreement, the Linux command line, Windows administration and networking basics",
+      "phase_2": "System hardening in the CyberPatriot style: Windows and Linux hardening checklists, forensics questions, network fundamentals and timed team rounds",
+      "phase_3": "Capture-the-flag skills in the picoCTF style: encodings and cryptography, forensics, reading code, web and memory bugs with their fixes, and a mock CTF"
+    },
+    "career_outcomes": [
+      "Confidence on the Linux command line and in Windows security settings",
+      "A tested hardening checklist for Windows and Linux systems",
+      "A portfolio of written CTF solutions across cryptography, forensics and general skills",
+      "A clear understanding of the legal and ethical lines in security work, and the habit of staying on the right side of them"
+    ]
+  },
+  "phase_1_foundations_and_ethics": {
+    "title": "PHASE 1: Foundations and Ethics (Months 1-2, Weeks 1-8)",
+    "description": "The shared foundations of both competitions, starting with the rules: what is allowed, what is not, and why that line matters.",
+    "month_1_ethics_and_linux": {
+      "title": "Month 1: The White-Hat Agreement and the Linux Command Line",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Rules, Ethics and the Practice Lab",
+        "topics": [
+          "Permission as the dividing line between security work and crime",
+          "Competition rules: what is allowed during a round and what gets a team disqualified",
+          "The white-hat agreement every student signs before practice begins",
+          "How CyberPatriot and capture-the-flag events differ, and what each one rewards",
+          "Setting up a practice lab with a free virtual machine program",
+          "Snapshots: how to break a practice system safely and restore it"
+        ],
+        "projects": [
+          "Signed white-hat agreement and a working practice lab with a Linux virtual machine and a restore snapshot"
+        ],
+        "practice": "Write a short note explaining, in your own words, why practising only on authorised systems matters"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Linux Command Line Essentials",
+        "topics": [
+          "Navigating the file system: pwd, ls, cd and paths",
+          "Reading files with cat, less, head and tail",
+          "Searching with grep and find",
+          "Pipes and redirection",
+          "File permissions and ownership with ls -l, chmod and chown",
+          "Users, groups and sudo"
+        ],
+        "projects": [
+          "Command line treasure hunt: an instructor-built set of files and folders with clues found only by using the right commands"
+        ],
+        "practice": "Solve ten general skills challenges on a practice platform and keep a command notebook",
+        "assessment": "Month 1 check: a timed command line task in the practice lab"
+      }
+    },
+    "month_2_windows_and_networks": {
+      "title": "Month 2: Windows Administration and Networking",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Windows Administration",
+        "topics": [
+          "Local users and groups, and who should be an administrator",
+          "Password and account lockout policies in Local Security Policy",
+          "Services: what runs automatically and why that matters",
+          "Windows Update, Windows Security and the firewall",
+          "Installed programs and how to spot software that should not be there",
+          "Event Viewer as a record of what happened"
+        ],
+        "projects": [
+          "Read-only Windows settings audit on your own computer: users, services and updates checked against a written checklist, nothing changed"
+        ],
+        "practice": "Document ten Windows security settings: where each one lives and what the secure value is"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: How Networks Move Data",
+        "topics": [
+          "IP addresses, subnets and the idea of a network",
+          "Ports and services: what is listening and why",
+          "TCP, UDP and the handshake",
+          "DNS and how names become addresses",
+          "Reading a packet capture in Wireshark on files we provide",
+          "Switches, routers and how traffic finds its way"
+        ],
+        "projects": [
+          "Packet capture walkthrough: an annotated explanation of a provided capture from first packet to last"
+        ],
+        "practice": "Answer a set of questions about two provided packet captures and explain how each answer was found",
+        "assessment": "Phase 1 assessment: a written and practical check on Linux, Windows and networking basics, plus the ethics questions"
+      }
+    }
+  },
+  "phase_2_system_hardening": {
+    "title": "PHASE 2: System Hardening in the CyberPatriot Style (Months 3-4, Weeks 9-16)",
+    "description": "Defence under a clock: securing Windows and Linux systems against a scenario, answering forensics questions, learning network fundamentals and working as a team.",
+    "month_3_hardening": {
+      "title": "Month 3: Hardening Windows and Linux",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Hardening Windows",
+        "topics": [
+          "Reading the scenario first: which users, software and services are authorised",
+          "Removing unauthorised users and fixing administrator rights",
+          "Setting password, lockout and audit policies",
+          "Disabling unneeded services and features",
+          "Updates, firewall and built-in protection settings",
+          "Answering forensics questions before changing anything that might destroy evidence"
+        ],
+        "projects": [
+          "Personal Windows hardening checklist, checked read-only against your own computer's settings"
+        ],
+        "practice": "Harden one practice image and record every change made, why it was made and how it was checked"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Hardening Linux",
+        "topics": [
+          "Users, groups and the sudoers file",
+          "Password policy and locking unused accounts",
+          "Package updates with the system package manager",
+          "The uncomplicated firewall, ufw",
+          "Securing remote login settings and disabling what is not needed",
+          "Finding unwanted software, scheduled tasks and dangerous file permissions"
+        ],
+        "projects": [
+          "Personal Linux hardening checklist, tested on your own Linux practice virtual machine"
+        ],
+        "practice": "Harden one Linux practice image and compare your checklist with a classmate's",
+        "assessment": "Month 3 check: a timed hardening round on a practice image, reviewed item by item against the scenario and your checklist"
+      }
+    },
+    "month_4_networks_and_teamwork": {
+      "title": "Month 4: Network Fundamentals and Team Rounds",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Network Fundamentals and Server Roles",
+        "topics": [
+          "IP addressing and subnetting practice",
+          "Configuring a small simulated network: addresses, switches and a router",
+          "Common server roles and the extra settings they need",
+          "Secure file sharing and remote access settings",
+          "Networking quiz practice in the style of the Cisco Networking Challenge",
+          "Using the official training materials when a coach provides access"
+        ],
+        "projects": [
+          "Small simulated network built and documented, with a subnetting worksheet"
+        ],
+        "practice": "Complete a networking quiz and build one small simulated network from a written brief"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Team Rounds",
+        "topics": [
+          "Team roles: Windows lead, Linux lead, forensics, and someone tracking the score",
+          "Splitting work using the scenario and the checklists",
+          "Communicating clearly under time pressure",
+          "Keeping notes so nothing is done twice or undone",
+          "Reviewing a round: what scored, what was missed and why",
+          "Competition rules on outside help during a round"
+        ],
+        "projects": [
+          "Full mock team round on your Linux practice virtual machines and written Windows scenarios, followed by a written team review"
+        ],
+        "practice": "Write your role card for a team round: your checklist, your handoffs and what you report",
+        "assessment": "Phase 2 assessment: a timed team round plus an individual hardening task"
+      }
+    }
+  },
+  "phase_3_capture_the_flag": {
+    "title": "PHASE 3: Capture-the-Flag Skills in the picoCTF Style (Months 5-6, Weeks 17-24)",
+    "description": "Puzzle-style security challenges on purpose-built practice platforms: encodings and ciphers, forensics, reading code, and how web and memory bugs are recognised and fixed, ending in a mock CTF.",
+    "month_5_crypto_and_forensics": {
+      "title": "Month 5: Cryptography and Forensics",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Encodings and Cryptography",
+        "topics": [
+          "Encodings are not encryption: binary, hexadecimal, ASCII and Base64",
+          "Classical ciphers: Caesar, substitution and Vigenere, and how they are broken",
+          "XOR and why reusing a key is a mistake",
+          "Hashes: what they are for and why passwords are stored as hashes",
+          "Public-key encryption explained with small numbers",
+          "Writing short Python scripts to automate decoding"
+        ],
+        "projects": [
+          "Cryptography challenge set solved on a practice platform, with a written solution for each"
+        ],
+        "practice": "Solve five cryptography challenges and explain the weakness each one relied on"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Forensics",
+        "topics": [
+          "File signatures and why a file's name can lie about its type",
+          "Metadata in images and documents",
+          "Hidden data and simple steganography",
+          "Searching files and disk images for strings",
+          "Packet captures as evidence: following a conversation in Wireshark",
+          "Keeping a clean record of what was found and how"
+        ],
+        "projects": [
+          "Forensics challenge set solved on a practice platform, with a written solution for each"
+        ],
+        "practice": "Solve five forensics challenges and write the tool and the clue that cracked each one",
+        "assessment": "Month 5 check: a timed mixed cryptography and forensics set with written solutions"
+      }
+    },
+    "month_6_code_bugs_and_mock_ctf": {
+      "title": "Month 6: Reading Code, Bugs and Fixes, and a Mock CTF",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Reading Code and Recognising Bugs",
+        "topics": [
+          "Reading short Python and C programs to work out what they do",
+          "Reverse engineering basics: understanding a program without its source",
+          "How web applications trust input, and how input validation fixes that",
+          "Injection and cross-site scripting explained with the defender's fix: parameterised queries and output encoding",
+          "Memory safety: what a buffer overflow is and how bounds checking prevents it",
+          "Practising only on the platform's purpose-built challenges, never on real sites or programs"
+        ],
+        "projects": [
+          "Bug and fix notebook: for each practice challenge, the bug, how it was recognised and the code change that would fix it"
+        ],
+        "practice": "Solve three reading-code challenges and write the fix for each bug found"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Mock CTF and the Road Ahead",
+        "topics": [
+          "Competition strategy: reading every challenge, taking the quick points first",
+          "Team play in a CTF: splitting categories and sharing notes",
+          "When to use a hint and when to move on",
+          "Writing clear solutions after the event",
+          "Responsible disclosure: what to do if you ever find a real vulnerability",
+          "Where to keep practising: free platforms built for students"
+        ],
+        "projects": [
+          "Mock CTF on an instructor-built challenge set, followed by a polished solution portfolio"
+        ],
+        "practice": "Write up your three favourite challenges from the course as portfolio pieces",
+        "assessment": "Final assessment: mock CTF performance, the hardening and solution portfolio, and a short ethics conversation"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Signed white-hat agreement and a personal practice lab",
+      "Command line treasure hunt and command notebook",
+      "Windows audit report on a practice image",
+      "Annotated packet capture walkthrough",
+      "Tested Windows and Linux hardening checklists",
+      "Documented simulated network with a subnetting worksheet",
+      "Mock team round with a written team review",
+      "Cryptography and forensics solution sets",
+      "Bug and fix notebook",
+      "Mock CTF solution portfolio"
+    ],
+    "total_projects_built": "10 defensive artifacts: checklists, audits, team reviews and written CTF solutions",
+    "skills_mastered": [
+      "Linux command line: files, permissions, users, search and pipes",
+      "Windows administration: users, policies, services, updates and the firewall",
+      "Networking basics: addressing, ports, protocols and packet captures",
+      "System hardening against a scenario, under time, as a team",
+      "CTF skills: encodings, classical and modern cryptography ideas, and forensics",
+      "Recognising common web and memory bugs and describing the defensive fix",
+      "Security ethics: permission, competition rules and responsible disclosure"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, with demonstrations and hands-on lab work",
+      "practice": "2-3 hours between classes on practice images and practice-platform challenges",
+      "review": "Every checklist, audit and written solution reviewed with feedback",
+      "homework": "A lab task or challenge set after every class, and a monthly mixed-review task that brings back earlier skills"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, including help when a practice lab will not start",
+      "progress_updates": "Regular progress notes to parents, including the ethics agreement their teen signed"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "None required. Some Python helps in month 5, and we teach the small amount needed",
+    "computer_skills": "Comfortable installing software, managing files and using settings menus",
+    "equipment": "A laptop or desktop that can run a virtual machine, with a stable internet connection. We check the computer and help set up the free virtual machine software in the first week",
+    "age": "13 to 18",
+    "mindset": "Willingness to sign and keep the white-hat agreement: practise only where you have permission, and report rather than exploit"
+  },
+  "who_is_this_for": {
+    "school_cyber_team_members": "Students on, or joining, a school or club CyberPatriot team who want stronger individual skills to bring to it",
+    "capture_the_flag_beginners": "Teens who have heard of picoCTF or capture-the-flag events and want a structured start",
+    "puzzle_solvers": "Students who enjoy codes, logic and detective work",
+    "future_security_students": "Teens considering cybersecurity or computer science who want real hands-on foundations",
+    "cybersecurity_course_graduates": "Students who finished our Cybersecurity for Teens course and want a competition-focused next step"
+  },
+  "career_paths_after_completion": [
+    "Entering CyberPatriot through a school or approved organisation team, with practised skills",
+    "Competing in capture-the-flag events on free platforms built for students",
+    "Our Python or programming courses, where scripting and safe-coding habits grow further",
+    "Further study toward defensive roles such as security analyst or incident responder, which build on these foundations",
+    "Computer science electives and clubs, with a security perspective few classmates have"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Batches only: group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on lab work in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a lab task after every class, monthly reviews that mix in earlier topics, and a final assessment that decides the certificate."
+  },
+  "faqs": [
+    {
+      "question": "Is this course ethical and legal?",
+      "answer": "Yes, by design. Students practise only on a practice virtual machine they set up with the teacher and on practice platforms where every challenge is meant to be solved. Every student signs a white-hat agreement in week one: practise only with permission, follow competition rules, and report rather than exploit. When a capture-the-flag challenge involves a bug, students learn the fix a defender would make, not how to use it elsewhere."
+    },
+    {
+      "question": "What is CyberPatriot?",
+      "answer": "CyberPatriot is the National Youth Cyber Education Program created by the Air & Space Forces Association. Its National Youth Cyber Defense Competition puts teams of high school and middle school students in charge of finding and fixing security vulnerabilities in virtual Windows and Linux systems, and teams are scored on how secure they make them. Alongside that Network Security Challenge, CyberPatriot describes a Cisco Networking Challenge made up of an online quiz and a virtual networking exercise. Rounds run online, and teams choose a four-hour period on the competition weekend."
+    },
+    {
+      "question": "Can you register my teen's CyberPatriot team?",
+      "answer": "No. CyberPatriot teams register through a school or approved youth organisation, with an adult coach. A team has between two and six competitors, with up to five competing at a time, in the Open, All Service or Middle School division. This course trains individual students so they bring stronger skills to their team; it is not a team itself. Check eligibility and dates with CyberPatriot directly."
+    },
+    {
+      "question": "What is picoCTF, and where is it now?",
+      "answer": "picoCTF is the capture-the-flag program built by Carnegie Mellon University. picoctf.org now points to CyLab Security Academy, CMU's free cybersecurity learning platform, where existing picoCTF accounts carry over. It has practice challenges across areas such as general skills, cryptography, web exploitation, forensics, binary exploitation and reverse engineering, plus timed events, some of which allow team play."
+    },
+    {
+      "question": "Does my teen need to know coding?",
+      "answer": "No. The first four months are about the command line, system settings and networks rather than programming. Month 5 uses a little Python to automate decoding, and we teach what is needed. Students who already code get more out of the reading-code weeks."
+    },
+    {
+      "question": "Is this different from your Cybersecurity for Teens course?",
+      "answer": "Yes. Cybersecurity for Teens is a broad, defensive introduction to online safety, attacks and defence for any teen, with no coding and no lab setup. This course is hands-on competition preparation: virtual machines, system hardening, network exercises and capture-the-flag practice. Many students take Cybersecurity for Teens first, but it is not required."
+    },
+    {
+      "question": "What computer does my teen need?",
+      "answer": "A laptop or desktop that can run a virtual machine, plus a stable internet connection. Tablets and most Chromebooks are not suitable. We check the computer and help set up the free virtual machine software in the first week."
+    },
+    {
+      "question": "Will this guarantee a place in a competition final?",
+      "answer": "No, and nobody honest can promise that. Results depend on the team, the round and the student's own practice. What the course does is build real skills, tested in timed practice rounds, so a student walks into a competition prepared."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or one to one. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher walks your teen through a short practice challenge, explains the ethics agreement, and suggests whether group, mini batch or one-to-one classes fit best. Parents are welcome to watch. There is no obligation to enrol."
+    }
+  ]
+}

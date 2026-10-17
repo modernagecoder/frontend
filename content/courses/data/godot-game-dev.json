@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "slug": "godot-game-development-course-for-kids-and-teens",
+    "date": "2026-10-17",
+    "dateModified": "2026-10-17",
+    "title": "Godot Game Development for Kids and Teens: GDScript, 2D and 3D",
+    "description": "Godot game development course for ages 10 to 17: live online classes building real 2D and 3D games in Godot 4 with GDScript, from first scene to a finished web build.",
+    "keywords": [
+      "godot for kids",
+      "godot course for kids",
+      "godot game development for teens",
+      "godot classes online",
+      "learn gdscript for beginners",
+      "godot 4 course for beginners",
+      "game development classes for kids online",
+      "make a 2d platformer in godot",
+      "godot coding for kids",
+      "free game engine for kids",
+      "godot tutor online",
+      "game design course for teens"
+    ],
+    "category": "Game Development",
+    "taxonomy": "game-dev",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Beginner to text coding, ages 10 to 17",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "godot-game-dev.webp"
+  },
+  "program_overview": {
+    "title": "Godot Game Development for Kids and Teens",
+    "tagline": "A real game engine, a real scripting language, and games your child actually finishes.",
+    "description": "Godot is a free and open source game engine released under the MIT license, so a student can download it, build anything, and keep everything they make, with no account, subscription or fee. It runs on Windows, macOS and Linux, and its own scripting language, GDScript, is designed to be easy to pick up for beginners while still being the language professional Godot developers use every day. That makes it the natural step for a child who has outgrown block coding and wants to write real code inside a real engine.\n\nThis 6-month live course is built around Godot 4. Students learn the engine's core idea first: everything is a node, nodes combine into scenes, and scenes combine into games. In the first two months they finish a complete 2D arcade game with a score, a game over screen and a restart button. Months three and four build a proper platformer with gravity, tile map levels, enemies, animation and sound. Month five moves into 3D, and month six is a capstone: each student designs, builds, playtests and exports a game of their own.\n\nThe course is taught live by a teacher who reads each student's code as they write it. Younger students build the core version of each project; older or faster students take the stretch features, so a 10-year-old and a 16-year-old are both working at the edge of what they can do. Every month ends with a playable game and a short assessment, so progress is something parents can see and play.",
+    "what_makes_this_different": [
+      "Godot 4 and GDScript from the first week: real text code inside a real engine, not a toy editor",
+      "A finished, playable game every month, ending in a web build that family and friends can open in a browser",
+      "Engine ideas taught properly: nodes, scenes, signals and the physics process, so students understand why their game works",
+      "Core and stretch versions of every project, so ages 10 to 17 each work at the right level in the same course",
+      "Game feel treated as a skill: animation, sound, camera and juice are taught, not left to chance",
+      "A capstone where each student scopes, builds and playtests an original game from a written design document"
+    ],
+    "learning_path": {
+      "phase_1": "Godot foundations and a first finished game: the editor, nodes and scenes, GDScript, movement, collisions, signals, a HUD and a web export",
+      "phase_2": "Platformers and game feel: CharacterBody2D physics, tile map levels, cameras, enemies with simple states, animation, sound and menus",
+      "phase_3": "3D and the capstone: 3D scenes, lights and cameras, a 3D level, then an original game designed, built, playtested and exported"
+    },
+    "career_outcomes": [
+      "A portfolio of at least five finished Godot games, from arcade to platformer to 3D",
+      "Confident GDScript: variables, functions, conditions, loops, arrays and signals used in real projects",
+      "An understanding of how game engines work that carries over to Unity, Unreal or any engine later",
+      "The habit of finishing: scoping a project, playtesting it and shipping a build others can play"
+    ]
+  },
+  "phase_1_foundations_first_game": {
+    "title": "PHASE 1: Godot Foundations and a First Finished Game (Months 1-2, Weeks 1-8)",
+    "description": "Students learn how Godot thinks, write their first GDScript, and finish a complete 2D arcade game with scoring, a game over screen and a browser build.",
+    "month_1_nodes_scenes_scripts": {
+      "title": "Month 1: Nodes, Scenes and Scripts",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: The Godot Editor and Your First Scene",
+        "topics": [
+          "Installing Godot 4 and creating a first project",
+          "A tour of the editor: scene dock, inspector, viewport and file system",
+          "Nodes as building blocks and scenes as saved groups of nodes",
+          "Sprite2D, positions and the 2D coordinate system",
+          "Attaching a first GDScript and printing to the output panel",
+          "The _ready function and what happens when a scene starts"
+        ],
+        "projects": [
+          "Hello Godot: a scene with a moving title, a sprite and a script that greets the player by name"
+        ],
+        "practice": "Build three small scenes from memory and change one property of each from code"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Movement, Input and the Game Loop",
+        "topics": [
+          "Variables, types and the @export annotation for values you tune in the inspector",
+          "The difference between _process and _physics_process, and why delta matters",
+          "Reading the keyboard with Input.get_axis and input actions",
+          "Velocity as speed with a direction, using Vector2",
+          "Keeping the player on screen with clamp",
+          "Reading error messages and fixing them calmly"
+        ],
+        "projects": [
+          "Top-down mover: a player ship that moves smoothly in eight directions and stays inside the screen"
+        ],
+        "practice": "Add a speed boost key and a slow-motion key, each tuned from the inspector",
+        "assessment": "Month 1 check: build a moving player from a blank project and explain each line of the script"
+      }
+    },
+    "month_2_first_complete_game": {
+      "title": "Month 2: A Complete Arcade Game",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Collisions, Signals and Spawning",
+        "topics": [
+          "Area2D and collision shapes, and how Godot detects overlap",
+          "Signals: how one node tells another that something happened",
+          "Connecting signals in the editor and from code",
+          "Saving an enemy as its own scene and creating copies with instantiate",
+          "Timer nodes for spawning on a rhythm",
+          "Removing nodes safely with queue_free"
+        ],
+        "projects": [
+          "Dodge the falling objects: enemies spawn at random positions and the game reacts when the player is hit"
+        ],
+        "practice": "Add a second enemy type with a different speed and a different signal response"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Score, HUD, Game Over and Export",
+        "topics": [
+          "A HUD on a CanvasLayer with Label and Button nodes",
+          "Keeping score and showing it on screen",
+          "Game states: title, playing and game over",
+          "Restarting the game cleanly",
+          "Adding sound effects with AudioStreamPlayer",
+          "Exporting a web build so the game runs in a browser"
+        ],
+        "projects": [
+          "First finished game: the dodge game with title screen, score, high score for the session, sound and a web build"
+        ],
+        "practice": "Playtest the game with two family members and fix the first two things they find confusing",
+        "assessment": "Phase 1 assessment: a playable game handed in with a short written note on how signals connect its parts"
+      }
+    }
+  },
+  "phase_2_platformers_and_game_feel": {
+    "title": "PHASE 2: Platformers and Game Feel (Months 3-4, Weeks 9-16)",
+    "description": "The genre that teaches the most: gravity, jumping, levels built from tiles, enemies that think a little, and the animation and sound that make a game feel alive.",
+    "month_3_platformer_physics": {
+      "title": "Month 3: Platformer Physics and Levels",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: CharacterBody2D, Gravity and Jumping",
+        "topics": [
+          "CharacterBody2D and why it suits a player character",
+          "Gravity as a steady change to velocity every physics frame",
+          "move_and_slide and checking is_on_floor before a jump",
+          "Variable jump height by releasing the jump key early",
+          "Coyote time and jump buffering as small kindnesses to the player",
+          "Using StaticBody2D for solid ground"
+        ],
+        "projects": [
+          "Jump lab: a test room where every jump setting can be tuned live and compared"
+        ],
+        "practice": "Write down three jump settings that feel good and three that feel bad, and explain the difference"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Tile Maps, Cameras and Animation",
+        "topics": [
+          "Building levels with a TileSet and the TileMapLayer node",
+          "Adding collision to tiles so the player can stand on them",
+          "Camera2D that follows the player with smoothing and limits",
+          "AnimatedSprite2D for idle, run and jump animations",
+          "Choosing the right animation from the player's state in code",
+          "Collectibles and a level exit that loads the next scene"
+        ],
+        "projects": [
+          "Two-level platformer: tile map levels, collectibles, an animated player and a working exit"
+        ],
+        "practice": "Design a third level on paper first, then build it and count how many changes playtesting forced",
+        "assessment": "Month 3 check: add a new mechanic, such as a double jump or a moving platform, to the platformer without help"
+      }
+    },
+    "month_4_enemies_and_polish": {
+      "title": "Month 4: Enemies, Menus and Game Feel",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Enemies and Simple State Machines",
+        "topics": [
+          "An enemy that patrols between two points",
+          "States with an enum and the match statement: patrol, chase and hurt",
+          "Detecting the player with an Area2D vision zone",
+          "Health, damage and a short invincibility window after a hit",
+          "Knockback and a flash effect when something is hit",
+          "Groups as a simple way to find all enemies or all coins"
+        ],
+        "projects": [
+          "Enemy pack: three enemies with different behaviours added to the platformer"
+        ],
+        "practice": "Draw the state diagram for one enemy before coding it, then compare the code to the diagram"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Animation, Sound, Menus and Saving",
+        "topics": [
+          "AnimationPlayer for doors, platforms and screen effects",
+          "Music and sound effects with volume set on audio buses",
+          "Main menu, pause menu and settings screen built from Control nodes",
+          "Changing scenes and passing information between them",
+          "Saving a best time or high score to a file with FileAccess",
+          "Particles for dust, sparkles and hits"
+        ],
+        "projects": [
+          "Polished platformer: menus, pause, music, particles and a saved best time, exported for the web"
+        ],
+        "practice": "Make a before and after video of the same level to show what game feel changes",
+        "assessment": "Phase 2 assessment: the polished platformer plus a short live walkthrough of the enemy code"
+      }
+    }
+  },
+  "phase_3_3d_and_capstone": {
+    "title": "PHASE 3: 3D and the Capstone Game (Months 5-6, Weeks 17-24)",
+    "description": "Students carry what they know into 3D, then design and ship an original game of their own, from written plan to playable build.",
+    "month_5_into_3d": {
+      "title": "Month 5: Into 3D",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: 3D Scenes, Cameras and Movement",
+        "topics": [
+          "Node3D, MeshInstance3D and the three axes",
+          "Lights, a WorldEnvironment and why a 3D scene looks flat without them",
+          "Camera3D that follows the player from behind",
+          "CharacterBody3D movement and jumping with Vector3",
+          "Collision shapes in 3D",
+          "Importing a simple 3D model in glTF format"
+        ],
+        "projects": [
+          "3D playground: a lit scene where a character runs, jumps and pushes objects around"
+        ],
+        "practice": "Rebuild the 2D jump settings in 3D and note what had to change"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: A 3D Collect-a-thon Level",
+        "topics": [
+          "Designing a 3D level so the player can see where to go",
+          "Collectibles that spin, glow and play a sound",
+          "A timer and a finish gate",
+          "Simple 3D enemies that reuse the state machine from month 4",
+          "Keeping a 3D game running smoothly on an ordinary laptop",
+          "Exporting the 3D game for the web"
+        ],
+        "projects": [
+          "3D level: collect every item before the timer runs out, with a finish screen and a best time"
+        ],
+        "practice": "Ask two people to play without instructions and note where they get lost",
+        "assessment": "Month 5 check: a working 3D level and a short explanation of how it differs from the 2D projects"
+      }
+    },
+    "month_6_capstone": {
+      "title": "Month 6: The Capstone Game",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Design Document, Scope and Prototype",
+        "topics": [
+          "Writing a one-page game design document: idea, controls, goal and win and lose rules",
+          "Cutting scope so the game can be finished in three weeks",
+          "Building the core loop first and testing it ugly",
+          "Using placeholder art and swapping it later",
+          "Version control habits: saving numbered copies or using Git with the teacher",
+          "Peer playtesting with structured feedback"
+        ],
+        "projects": [
+          "Capstone prototype: the core loop of the student's own game, playable from start to finish"
+        ],
+        "practice": "Run a playtest with two people and write the three most useful pieces of feedback"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Polish, Export and Showcase",
+        "topics": [
+          "Adding the menus, sound and effects the prototype skipped",
+          "Fixing the bugs found in playtesting, most important first",
+          "Exporting a web build and a desktop build",
+          "Writing a short game page: title, controls and credits",
+          "Presenting the game and the design decisions behind it",
+          "Where to go next: bigger Godot projects or our teen game development course"
+        ],
+        "projects": [
+          "Finished capstone game, exported and presented at the class showcase"
+        ],
+        "practice": "Write a short post-mortem: what went well, what you cut and what you would do next",
+        "assessment": "Final assessment: the capstone game, the design document and a short code walkthrough with the teacher"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Dodge arcade game with score, sound and a web build",
+      "Two-level platformer with tile map levels and animation",
+      "Enemy pack with patrol, chase and hurt states",
+      "Polished platformer with menus, saving and particles",
+      "3D collect-a-thon level with a timer and best time",
+      "Original capstone game with a design document"
+    ],
+    "total_projects_built": "6 finished games plus smaller weekly builds, all exported so they can be played",
+    "skills_mastered": [
+      "The Godot 4 editor: nodes, scenes, the inspector and project settings",
+      "GDScript: variables, functions, conditions, loops, arrays, enums and signals",
+      "2D game physics with CharacterBody2D, collisions and tile map levels",
+      "Game feel: animation, sound, particles and camera work",
+      "3D basics: meshes, lights, cameras and 3D movement",
+      "Designing, scoping, playtesting and exporting a finished game"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, building in Godot with the teacher watching the code",
+      "homework": "A build task after every class, and a monthly mixed-review task that brings back earlier skills",
+      "practice": "2-3 hours a week of building, tuning and playtesting",
+      "review": "Every project played and reviewed by the teacher, with written notes on code and game feel"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, including screenshots of errors and short screen recordings",
+      "progress_updates": "Regular progress notes to parents, with a playable build of each finished game"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "No text coding needed. Students who have used Scratch or similar block tools settle in fastest, but it is not required",
+    "computer_skills": "Comfortable with a keyboard and mouse, saving files and finding them again",
+    "equipment": "A laptop or desktop running Windows, macOS or Linux with a stable internet connection. Godot is a free download; tablets and phones are not enough for building",
+    "age": "10 to 17. Every project has a core version and stretch features, so younger and older students both work at the right level",
+    "time_commitment": "2 live hours plus 2-3 hours of building each week"
+  },
+  "who_is_this_for": {
+    "block_coding_graduates": "Children who have done Scratch or similar and are ready for real text code in a real engine",
+    "players_becoming_makers": "Kids and teens who play a lot of games and want to understand and build them",
+    "complete_beginners": "Students aged 10 and up who have never coded and want their first language to come with instant, visible results",
+    "finishers_in_training": "Students with many half-built projects who need a structure that gets games finished",
+    "future_developers": "Teens weighing game development or computer science who want an honest first taste of both"
+  },
+  "career_paths_after_completion": [
+    "Our Game Development for Teens course, which moves to Unity and C# with larger 2D and 3D projects",
+    "Bigger personal Godot projects, game jams and school showcases, entered with a real portfolio",
+    "Python or C++ courses, where the logic learned in GDScript transfers directly",
+    "Computer science electives and clubs, with practical programming experience behind them",
+    "A clear sense of whether game development is something worth pursuing further"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Batches only: group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on building in every session.",
+    "real_assessment": "Classwork every session, a build task after every class, monthly reviews that mix in earlier topics, and a final assessment on the capstone game that decides the certificate.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "What is Godot, and is it really free?",
+      "answer": "Godot is a free and open source 2D and 3D game engine. It is released under the MIT license, which means there are no fees, no subscription and no royalties, and the games a student makes belong to them. It runs on Windows, macOS and Linux, and the course uses Godot 4."
+    },
+    {
+      "question": "Is Godot good for kids, or is it only for professionals?",
+      "answer": "Both. Professional studios ship games with it, yet the editor is light, it installs in minutes, and its scripting language, GDScript, is designed to be easy to pick up for beginners. With a teacher guiding the first steps, children from about 10 handle it well, and the projects grow with them into the teen years."
+    },
+    {
+      "question": "What language does my child learn?",
+      "answer": "GDScript, Godot's own scripting language. It reads a lot like Python, so the variables, functions, conditions, loops and arrays students learn here transfer directly to Python and other languages later. We teach GDScript rather than C# because it is the language Godot is built around and it can export games for the web."
+    },
+    {
+      "question": "My child is 10 and their cousin is 16. Can both take this course?",
+      "answer": "Yes. Every project has a core version that every student finishes and stretch features for students who are older or faster, such as double jumps, extra enemy states or a saved high score. The teacher sets each student's stretch goals, so nobody is bored and nobody is lost."
+    },
+    {
+      "question": "How is this different from your other game development courses?",
+      "answer": "Our Game Development for Kids course uses Scratch, Roblox and Minecraft, and our Game Development for Teens course uses Unity and C#. This course sits between them and is built entirely on Godot: real text code from the first week, but a lighter engine and a gentler language than Unity. Many students take it before moving on to the teen Unity course."
+    },
+    {
+      "question": "What will my child have built by the end?",
+      "answer": "Six finished games: an arcade dodge game, a two-level platformer, an enemy pack, a polished platformer with menus and saving, a 3D collect-a-thon level, and an original capstone game with its own design document. Each one is exported so it can be played in a browser."
+    },
+    {
+      "question": "What computer do we need?",
+      "answer": "A laptop or desktop running Windows, macOS or Linux, plus a stable internet connection for the live classes. Godot is a small free download, and the teacher helps with installation in the first class. Tablets and phones are not enough for building games."
+    },
+    {
+      "question": "Will my child's games be published online?",
+      "answer": "Only if the family chooses. Students learn to make a web build that can be shared privately with family and friends. Uploading a game to a public site is optional and is always the parent's decision."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or one to one. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher builds a small piece of a Godot game with your child, sees where they are, and suggests whether group, mini batch or one-to-one classes fit best. There is no obligation to enrol."
+    }
+  ]
+}

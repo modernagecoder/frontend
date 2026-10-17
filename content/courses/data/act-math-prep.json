@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "slug": "act-math-prep-course",
+    "date": "2026-10-17",
+    "title": "ACT Math Prep: Live Classes for the ACT Mathematics Section",
+    "description": "Live online ACT Math prep for ages 14 to 18: every ACT reporting category, from algebra and functions to geometry and statistics, plus pacing and full timed sections.",
+    "keywords": [
+      "act math prep",
+      "act math prep course",
+      "act math tutor online",
+      "act math practice",
+      "act math tips",
+      "act math test prep online",
+      "act math classes",
+      "how to improve act math score",
+      "act math timing strategy",
+      "act calculator strategy",
+      "act preparing for higher math",
+      "act math for juniors"
+    ],
+    "category": "Test Prep Mathematics",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "5 months (20 weeks)",
+    "level": "Grades 9-12 (ages 14 to 18), all starting scores",
+    "commitment": "2 live one-hour classes per week + weekly timed practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "act-math-prep.webp",
+    "dateModified": "2026-10-17"
+  },
+  "program_overview": {
+    "title": "ACT Math Prep Course",
+    "tagline": "Forty-five questions in fifty minutes. We rebuild the maths underneath, then train the pace.",
+    "description": "The ACT mathematics section has 45 questions to answer in 50 minutes, and a calculator is allowed. ACT describes it as testing the skills students have typically acquired in courses taken up to the beginning of grade 12, which means a student sitting it in grade 11 often meets topics they have not been taught yet, or learned once and forgot. At a little over a minute per question, there is no time to rebuild an idea in the exam room.\n\nThis 5-month live course follows ACT's own published reporting categories. Preparing for Higher Math makes up about 80 percent of the section and is split into Number and Quantity, Algebra, Functions, Geometry, and Statistics and Probability. Integrating Essential Skills makes up about 20 percent: rates, percentages, proportional relationships, area and volume, averages and medians, combined in multi-step problems. Modeling questions are counted across the other categories. We teach every category, starting from a diagnostic so time goes where the points are being lost.\n\nThe last month turns knowledge into a score you can repeat: pacing plans, calculator strategy for both handheld calculators and the Desmos calculator built into the online ACT, and full timed math sections with question-by-question review. ACT scores are based on the number of questions answered correctly, with no penalty for wrong answers, so students also learn when to move on and how to make sure no question is left blank. We never promise a score; we show the evidence from each timed section so families can see exactly where things stand.",
+    "what_makes_this_different": [
+      "Built on ACT's own published content categories, with time weighted toward Preparing for Higher Math, which makes up about 80 percent of the section",
+      "A diagnostic in week one and an error log kept all course, so teaching goes where points are actually being lost",
+      "Understanding first: topics a student has not yet met in school, such as logarithms, matrices or conic sections, are taught from the start",
+      "Pacing trained explicitly for 45 questions in 50 minutes, with a plan for which questions to bank and which to leave for the second pass",
+      "Calculator strategy for permitted handheld models and for the Desmos calculator in the online ACT",
+      "Honest progress reporting from timed sections, never invented score promises"
+    ],
+    "learning_path": {
+      "phase_1": "Diagnostic and Integrating Essential Skills: the format, pacing basics, rates, percentages, proportions, area and volume, averages and medians",
+      "phase_2": "Preparing for Higher Math: Number and Quantity, Algebra, Functions, Geometry, and Statistics and Probability, each taught then tested under time",
+      "phase_3": "Modeling and test craft: modeling questions, calculator and pacing strategy, full timed math sections and a test-week plan"
+    },
+    "career_outcomes": [
+      "Every ACT mathematics reporting category taught and practised under time",
+      "A personal pacing plan and calculator workflow tested in full timed sections",
+      "An error log that shows which mistakes are content gaps and which are careless, with a fix for each",
+      "Algebra, function and statistics fluency that carries into pre-calculus, calculus and college maths"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Diagnostic and Integrating Essential Skills (Weeks 1-6)",
+    "description": "Find the starting point, learn how the section works, and secure the multi-step essential skills questions that appear throughout the test.",
+    "week_1_2": {
+      "title": "Weeks 1-2: Diagnostic and How ACT Math Works",
+      "theme": "Know the test and know your starting line",
+      "topics": [
+        "The format: 45 questions in 50 minutes, calculator allowed",
+        "ACT's reporting categories and roughly how much of the section each one covers",
+        "How scores work: number correct, no penalty for wrong answers, and why no question should be left blank",
+        "A timed diagnostic section and a category-by-category breakdown of the result",
+        "Setting up an error log: content gap, misread question or careless slip",
+        "A first pacing check: where the minutes actually went"
+      ],
+      "projects": [
+        "Personal diagnostic report: score by category, top three content gaps and a starting pacing target",
+        "Error log opened with every diagnostic miss classified and corrected"
+      ],
+      "practice": "Rework every diagnostic miss without a time limit and note whether the problem was knowledge, reading or speed"
+    },
+    "week_3_4": {
+      "title": "Weeks 3-4: Rates, Percentages and Proportional Reasoning",
+      "theme": "The points that hide inside word problems",
+      "topics": [
+        "Unit rates and converting between units",
+        "Percent increase, decrease and successive percentage changes",
+        "Ratios and proportional relationships set up from words",
+        "Distance, rate and time problems",
+        "Reading tables and charts to find the quantity a question needs",
+        "Multi-step problems: planning the chain of steps before calculating"
+      ],
+      "projects": [
+        "Word problem translation sheet: twenty phrasings mapped to the equation each one means",
+        "Timed essential skills set with every step written out for review"
+      ],
+      "practice": "Complete a 20-question rates and percentages set under time and log every miss"
+    },
+    "week_5_6": {
+      "title": "Weeks 5-6: Area, Volume, Averages and Number Forms",
+      "theme": "Essential skills completed",
+      "topics": [
+        "Area of triangles, rectangles, circles and composite figures",
+        "Surface area and volume of prisms, cylinders, cones and spheres",
+        "Mean, median and the effect of adding or removing a value",
+        "Expressing numbers in different forms: fractions, decimals, percents and scientific notation",
+        "Estimation as a check on calculator answers",
+        "Spotting when a question is simpler than it looks"
+      ],
+      "projects": [
+        "Formula and method sheet written by the student, with one worked example per idea",
+        "Mixed essential skills timed set reviewed question by question"
+      ],
+      "practice": "Finish a mixed essential skills set and write one sentence on the fastest method for each question",
+      "assessment": "Phase 1 checkpoint: a timed mixed set on essential skills with a written review of every miss"
+    }
+  },
+  "phase_2_higher_math": {
+    "title": "PHASE 2: Preparing for Higher Math (Weeks 7-16)",
+    "description": "The categories that make up most of the section, taught in the order they build on each other: number, algebra, functions, geometry, then statistics and probability.",
+    "week_7_8": {
+      "title": "Weeks 7-8: Number and Quantity",
+      "theme": "The number systems the test assumes",
+      "topics": [
+        "Integer and rational exponents and the exponent rules",
+        "Simplifying radicals and converting between radical and exponent form",
+        "Complex numbers: i, arithmetic with complex numbers and conjugates",
+        "Vectors: components, addition and magnitude",
+        "Matrices: dimensions, addition and multiplication",
+        "Number properties: factors, multiples, primes and absolute value"
+      ],
+      "projects": [
+        "Exponent and radical rule card built from worked examples",
+        "Number and Quantity timed set with errors classified in the log"
+      ],
+      "practice": "Complete a 15-question Number and Quantity set, solving each matrix question by hand and checking with a calculator"
+    },
+    "week_9_10": {
+      "title": "Weeks 9-10: Algebra",
+      "theme": "Solve, graph and model",
+      "topics": [
+        "Linear equations and inequalities, including absolute value",
+        "Systems of linear equations solved by substitution, elimination and graphing",
+        "Writing equations from words and from tables",
+        "Quadratic equations by factoring, completing the square and the quadratic formula",
+        "Radical and exponential equations",
+        "Checking for extraneous solutions"
+      ],
+      "projects": [
+        "Algebra method map: which method to reach for first for each equation type",
+        "Two timed algebra sets, the second solved with a calculator check strategy"
+      ],
+      "practice": "Work a 20-question algebra set and rebuild two missed questions with a different method"
+    },
+    "week_11_12": {
+      "title": "Weeks 11-12: Functions",
+      "theme": "Definition, notation, graphs and features",
+      "topics": [
+        "Function notation, domain and range, and composition",
+        "Linear, polynomial and radical functions and their graphs",
+        "Piecewise functions read from equations and graphs",
+        "Exponential and logarithmic functions and the link between them",
+        "Transformations: shifts, stretches and reflections",
+        "Key features from graphs: intercepts, maximums, minimums and end behaviour"
+      ],
+      "projects": [
+        "Function family gallery: a sketch, an equation and a key feature for each family",
+        "Functions timed set with a graph-first solution for every miss"
+      ],
+      "practice": "Complete a functions set and sketch the graph for every question before choosing an answer",
+      "assessment": "Mid-course checkpoint: a full timed math section, compared category by category with the diagnostic"
+    },
+    "week_13_14": {
+      "title": "Weeks 13-14: Geometry and Trigonometry",
+      "theme": "Shapes, solids and triangles",
+      "topics": [
+        "Angles, parallel lines, congruence and similarity",
+        "Right triangles, the Pythagorean theorem and special right triangles",
+        "Trigonometric ratios, the unit circle and simple trigonometric equations",
+        "Circles: arcs, sectors, chords and equations of circles",
+        "Equations of conic sections: circles, parabolas and ellipses",
+        "Coordinate geometry: distance, midpoint, slope and parallel and perpendicular lines"
+      ],
+      "projects": [
+        "Geometry recognition sheet: diagrams that signal similar triangles, special right triangles or circle facts",
+        "Geometry timed set reviewed for drawing and labelling habits"
+      ],
+      "practice": "Finish a geometry set, redrawing every figure larger and labelling everything given before solving"
+    },
+    "week_15_16": {
+      "title": "Weeks 15-16: Statistics and Probability",
+      "theme": "Center, spread, data and chance",
+      "topics": [
+        "Center and spread: mean, median, mode, range and standard deviation as an idea",
+        "Data collection methods: surveys, experiments, samples and bias",
+        "Bivariate data, scatterplots and lines of best fit",
+        "Probability of single and combined events",
+        "Sample spaces, counting outcomes and two-way tables",
+        "Expected value in simple situations"
+      ],
+      "projects": [
+        "Statistics vocabulary and method sheet with one example of each idea",
+        "Statistics and probability timed set with every miss rewritten as a lesson"
+      ],
+      "practice": "Complete a statistics and probability set and explain each answer in one plain sentence",
+      "assessment": "Phase 2 checkpoint: a timed mixed Preparing for Higher Math set with a written review of every miss"
+    }
+  },
+  "phase_3_test_mastery": {
+    "title": "PHASE 3: Modeling and Test Craft (Weeks 17-20)",
+    "description": "Knowledge becomes a repeatable score: modeling questions, calculator workflows, pacing under real timing, and full timed sections with honest review.",
+    "week_17_18": {
+      "title": "Weeks 17-18: Modeling, Calculators and Pacing",
+      "theme": "Play the section as designed",
+      "topics": [
+        "Modeling questions: building, reading, judging and improving a model",
+        "Handheld calculator strategy and which features are not permitted",
+        "Using the Desmos calculator built into the online ACT",
+        "A two-pass pacing plan for 45 questions in 50 minutes",
+        "When to guess, flag and move on, since there is no penalty for wrong answers",
+        "Checking answers in the last minutes without losing time"
+      ],
+      "projects": [
+        "Personal pacing plan tested and adjusted across two timed sections",
+        "Calculator workflow notes: which question types are faster with the calculator and which are faster by hand"
+      ],
+      "practice": "Sit one full timed math section using the pacing plan and record the time spent on each question"
+    },
+    "week_19_20": {
+      "title": "Weeks 19-20: Full Timed Sections and Test Week",
+      "theme": "Test day as a rehearsed routine",
+      "topics": [
+        "Full timed math sections under exact conditions",
+        "Question-by-question review against the reasoning, not just the answer key",
+        "Turning the error log into a final list of fixes",
+        "Last topics targeted from the log",
+        "Test week plan: sleep, timing, calculator check and what to bring",
+        "Deciding whether and when to retake, using the evidence"
+      ],
+      "projects": [
+        "Two full timed math sections with complete written reviews",
+        "Final error log summary with the five fixes that matter most"
+      ],
+      "practice": "Sit one full timed section each week and bring the reviewed paper to class",
+      "assessment": "Final assessment: a full timed math section plus a review conversation on pacing and method choices"
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is on the ACT math section?",
+      "answer": "45 questions in 50 minutes, and a calculator is allowed. ACT reports two main categories: Preparing for Higher Math, about 80 percent, split into Number and Quantity, Algebra, Functions, Geometry, and Statistics and Probability; and Integrating Essential Skills, about 20 percent, covering rates, percentages, proportional relationships, area and volume, and averages and medians. Modeling questions are counted across the other categories."
+    },
+    {
+      "question": "Can I use a calculator on the ACT math section?",
+      "answer": "Yes. ACT allows four-function, scientific and graphing calculators unless a model is prohibited, and calculators with computer algebra system functionality are not allowed. Students taking the ACT online have the Desmos graphing calculator built into the testing platform during the math section. We teach both, and we teach which questions are faster by hand. Always check ACT's current calculator policy before test day."
+    },
+    {
+      "question": "Is there a penalty for wrong answers?",
+      "answer": "No. ACT scores are based on the number of questions answered correctly, with no penalty for incorrect answers. That is why our pacing plan makes sure every question gets an answer, even the ones a student flags and leaves for the end."
+    },
+    {
+      "question": "My child has not taken pre-calculus yet. Is that a problem?",
+      "answer": "It is common. ACT says the section covers skills typically acquired in courses up to the beginning of grade 12, so many grade 11 students meet topics such as logarithms, matrices, complex numbers or conic sections before school has covered them. The course teaches those topics from the start rather than assuming them."
+    },
+    {
+      "question": "How does the math section affect the composite score?",
+      "answer": "ACT's Composite score is the average of the English, math and reading scores, rounded to the nearest whole number. Science is optional and is not part of the Composite. Scores run up to 36 for the Composite and for each section."
+    },
+    {
+      "question": "Should my child take the ACT or the SAT?",
+      "answer": "Both are widely accepted, and the right choice depends on the student. We suggest taking a practice test of each and comparing. If the SAT turns out to suit better, we also run a SAT Math course, and much of the algebra and function work carries across."
+    },
+    {
+      "question": "When should we start?",
+      "answer": "Ideally five months before the planned test date, so all categories and the full timed sections fit before test day. Students with less time get a shortened plan based on their diagnostic, focused on the categories where they are losing the most points."
+    },
+    {
+      "question": "Do you guarantee a score increase?",
+      "answer": "No, and we would be wary of anyone who does. What we do promise is a clear diagnostic, teaching aimed at the categories where points are being lost, regular timed sections, and honest reporting so you can see the progress for yourself."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or one to one. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher works through some ACT-style questions with your child, sees where they are, and suggests a plan and whether group, mini batch or one-to-one classes fit best. There is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Personal diagnostic report by ACT reporting category",
+      "Error log kept and reviewed across the whole course",
+      "Formula, method and recognition sheets written by the student",
+      "Personal pacing plan and calculator workflow notes",
+      "Full timed math sections with written reviews"
+    ],
+    "total_projects_built": "A complete ACT math prep kit: diagnostic report, method sheets, error log and reviewed timed sections",
+    "skills_mastered": [
+      "Integrating Essential Skills: rates, percentages, proportions, area, volume, averages and medians",
+      "Number and Quantity: exponents, radicals, complex numbers, vectors and matrices",
+      "Algebra: linear, quadratic, radical and exponential equations and systems",
+      "Functions: linear, polynomial, radical, piecewise and logarithmic, with transformations",
+      "Geometry: similarity, right triangles, trigonometry, circles and conic sections",
+      "Statistics and Probability: center, spread, data collection, bivariate data and sample spaces",
+      "Modeling questions across all categories",
+      "Pacing and calculator strategy for a 50-minute section"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes with your teacher",
+      "timed_practice": "1-2 timed sets or a full math section each week",
+      "review": "Every timed set reviewed for reasoning, not just answers",
+      "total_per_week": "About 4-5 focused hours",
+      "homework": "A problem set after every class, and a monthly mixed-review assignment that brings back earlier categories"
+    },
+    "support_provided": {
+      "live_sessions": "8 live one-hour classes every month, 2 per week",
+      "mentorship": "One teacher across the whole course",
+      "progress_tracking": "Error log and timed-section results shared with parents",
+      "flexibility": "Slots move around school exams and family plans"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    }
+  },
+  "prerequisites": {
+    "education": "Grades 9-12 (ages 14 to 18), or students between school and college retaking the ACT",
+    "math_background": "School algebra at any comfort level; the diagnostic finds the real starting point",
+    "equipment": "A computer with stable internet and a permitted calculator. Students taking the ACT online also practise with the Desmos graphing calculator",
+    "time_commitment": "2 live hours plus 2-3 practice hours weekly",
+    "english": "Course taught in English",
+    "motivation": "A target test date, or our help choosing one"
+  },
+  "who_is_this_for": {
+    "score_raisers": "Students whose practice results show content gaps in algebra, functions or geometry that need rebuilding, not more drilling",
+    "early_testers": "Grade 10 and 11 students meeting topics such as logarithms, matrices or conic sections before school has taught them",
+    "strong_at_school": "Students with good grades whose timed results do not match, usually a pacing and method gap",
+    "sat_switchers": "Students who found the ACT suits them better than the SAT and need ACT-specific pacing",
+    "retakers": "Students whose first attempt did not reflect what they know and who want a clear method for the next one"
+  },
+  "career_paths_after_completion": [
+    "Readiness for test day, with every ACT math category practised under real timing",
+    "Ready for AP Precalculus, AP Calculus or AP Statistics, with algebra and functions secure",
+    "Our SAT Math course, if a student decides to sit both tests",
+    "College mathematics courses, started with fewer gaps"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Batches only: group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured plan built on ACT's own published mathematics reporting categories.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure.",
+    "real_assessment": "Classwork every session, a problem set after every class, checkpoints at the end of each phase, and a final full timed section that decides the certificate."
+  }
+}

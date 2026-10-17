@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "slug": "cpp-programming-for-kids-course",
+    "date": "2026-10-17",
+    "dateModified": "2026-10-17",
+    "title": "C++ for Kids: First Real Code, Games and Puzzles (Ages 9-12)",
+    "description": "C++ course for kids aged 9 to 12: live online classes from a first program to loops, functions, vectors and text games, taught slowly and clearly in 6 months.",
+    "keywords": [
+      "c++ for kids",
+      "c++ coding for kids",
+      "c++ for kids online",
+      "c++ classes for kids",
+      "learn c++ for beginners kids",
+      "c++ course for 10 year olds",
+      "c++ programming for children",
+      "c++ games for kids",
+      "text coding for kids after scratch",
+      "c++ tutor for kids",
+      "usaco bronze preparation for kids",
+      "online coding classes for kids c++"
+    ],
+    "category": "C++ Programming",
+    "taxonomy": "programming",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Complete beginner to text coding, ages 9 to 12",
+    "commitment": "2 live classes/week + 1-2 hours practice",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "cpp-kids.webp"
+  },
+  "program_overview": {
+    "title": "C++ for Kids",
+    "tagline": "A serious language, taught at a child's pace, with a game or puzzle at the end of every lesson.",
+    "description": "C++ has a reputation for being hard, and for adults learning alone it can be. For a 9 to 12-year-old with a patient teacher, it is something else: a language that makes the computer's thinking visible. Every variable has a type, every line ends with a semicolon, and the compiler says exactly what it did not understand. Children who learn this way pick up habits of precision that make every later language easier.\n\nThis 6-month live course is written for that age. It starts with what a program is and what a compiler does, then builds one idea at a time: printing and input, variables and arithmetic, decisions with if and else, loops, functions, lists with vectors, strings and finally grouping data with structs. Each idea arrives inside something a child wants to make, such as a times-table trainer, a number guessing game, a secret code machine, a pet simulator, tic-tac-toe or a maze. Topics that need more maturity, like pointers and memory management, are left for our C++ for Teens course.\n\nThe final month introduces the kind of short puzzle problems used in programming contests. USACO, the USA Computing Olympiad, accepts C++ solutions and starts every new participant in its Bronze division, so students finish with a clear picture of what that next step looks like if they enjoy it. Classes are live and small enough for the teacher to read every child's code, and every month ends with a short check so parents can see real progress.",
+    "what_makes_this_different": [
+      "Written for ages 9 to 12: one new idea at a time, explained with pictures and everyday examples before any syntax",
+      "A game or puzzle in every lesson, so practice feels like play while the habits stay rigorous",
+      "Compiler errors taught as clues, not failures: children learn to read them and fix their own code",
+      "Pointers and manual memory left for later on purpose, so younger students build confidence before complexity",
+      "A first taste of contest-style problem solving in the final month, with USACO Bronze as a visible next step",
+      "A clear bridge to our C++ for Teens course for students who want to keep going"
+    ],
+    "learning_path": {
+      "phase_1": "First programs: what code and compilers are, printing, input, variables, arithmetic, decisions and loops",
+      "phase_2": "Building blocks: functions, vectors, strings and structs, each inside a small game or tool",
+      "phase_3": "Games and puzzles: random numbers, grids and nested loops, contest-style problems and a capstone project"
+    },
+    "career_outcomes": [
+      "Confident C++ basics: variables, conditions, loops, functions, vectors, strings and structs",
+      "The ability to read compiler errors and debug their own programs",
+      "A folder of finished games and tools they wrote themselves",
+      "A strong base for C++ for Teens, Python, or contest programming later"
+    ]
+  },
+  "phase_1_first_programs": {
+    "title": "PHASE 1: First Programs (Months 1-2, Weeks 1-8)",
+    "description": "From what a program is to loops that draw patterns and run games. Every concept is shown on paper first, then typed, run and changed.",
+    "month_1_hello_cpp": {
+      "title": "Month 1: Hello, C++",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: What Code Is and Your First Program",
+        "topics": [
+          "What a program is: instructions a computer follows exactly",
+          "What a compiler does, explained as a translator",
+          "The shape of a C++ program: include, main, braces and semicolons",
+          "Printing words and numbers with cout",
+          "Comments as notes to your future self",
+          "Reading a compiler error and finding the line it points to"
+        ],
+        "projects": [
+          "Name banner: a program that prints a decorated banner with the student's name and favourite things"
+        ],
+        "practice": "Write three short programs that print a joke, a poem and a box drawn with symbols"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Variables, Input and Arithmetic",
+        "topics": [
+          "Variables as labelled boxes, and the types int, double, char and string",
+          "Reading input with cin",
+          "Plus, minus, times and divide in code",
+          "Why 7 / 2 gives 3 with whole numbers, and what % does",
+          "Updating a variable: score = score + 10 and the shortcut +=",
+          "Choosing clear variable names"
+        ],
+        "projects": [
+          "Pocket calculator and age-in-days converter that ask the user for numbers and print answers"
+        ],
+        "practice": "Build a pizza-sharing program that works out slices each and slices left over using / and %",
+        "assessment": "Month 1 check: write a short input and arithmetic program from a plain-English description"
+      }
+    },
+    "month_2_decisions_and_loops": {
+      "title": "Month 2: Decisions and Loops",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: If, Else and Making Choices",
+        "topics": [
+          "Comparing values with ==, !=, <, >, <= and >=",
+          "if, else if and else",
+          "Combining conditions with and, or and not",
+          "The classic mistake of = instead of ==",
+          "Tracing a program by hand with a table",
+          "Planning decisions with a simple flowchart"
+        ],
+        "projects": [
+          "Quiz show: a five-question quiz that keeps score and gives a message based on the result"
+        ],
+        "practice": "Write a rock, paper, scissors judge that decides the winner from two typed choices"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Loops That Repeat",
+        "topics": [
+          "while loops and the idea of repeating until something changes",
+          "for loops for counting",
+          "Loop counters, totals and running scores",
+          "Avoiding loops that never end",
+          "Drawing star patterns and triangles with loops",
+          "break and continue, used sparingly"
+        ],
+        "projects": [
+          "Times-table trainer and a number guessing game that says higher or lower until the player wins"
+        ],
+        "practice": "Print the 1 to 12 times tables neatly, then a staircase of stars of any height the user chooses",
+        "assessment": "Phase 1 assessment: a loop and decision program built in class, plus a short explanation of how it works"
+      }
+    }
+  },
+  "phase_2_building_blocks": {
+    "title": "PHASE 2: Building Blocks (Months 3-4, Weeks 9-16)",
+    "description": "The tools that let programs grow without getting messy: functions, lists, text and grouped data, each taught inside a small game or tool.",
+    "month_3_functions_and_vectors": {
+      "title": "Month 3: Functions and Vectors",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Functions",
+        "topics": [
+          "Why we split programs into functions",
+          "Writing a function, calling it and passing values in",
+          "Returning an answer from a function",
+          "void functions that just do something",
+          "Local variables and why they stay inside their function",
+          "Testing a function with a few known answers"
+        ],
+        "projects": [
+          "Shape helper: functions that draw squares and triangles and work out area and perimeter"
+        ],
+        "practice": "Rewrite the quiz show from month 2 so each question is one function call"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Lists with Vectors",
+        "topics": [
+          "Storing many values in a vector",
+          "Adding items with push_back and reading them by position",
+          "Looping over a vector to total, count and find the biggest",
+          "Positions start at zero, and what happens past the end",
+          "Sorting a list with sort",
+          "Choosing between a single variable and a list"
+        ],
+        "projects": [
+          "High score board: enter scores, sort them and print the top five with medals beside them"
+        ],
+        "practice": "Store a week of temperatures and print the warmest day, the coldest day and the average",
+        "assessment": "Month 3 check: a function and vector task solved from a written problem"
+      }
+    },
+    "month_4_strings_and_structs": {
+      "title": "Month 4: Strings and Structs",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Working with Text",
+        "topics": [
+          "Strings as lists of characters",
+          "Length, indexing and looping through a string",
+          "Changing letters to upper or lower case",
+          "Characters as numbers underneath",
+          "Counting vowels, reversing words and checking palindromes",
+          "Reading a full line of text with getline"
+        ],
+        "projects": [
+          "Secret code machine: a shift cipher that encodes and decodes messages between friends"
+        ],
+        "practice": "Write a word game that tells the player how many letters their guess shares with a secret word"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Grouping Data with Structs",
+        "topics": [
+          "Why related values belong together",
+          "Defining a struct with fields such as name, hunger and happiness",
+          "Creating and changing struct values",
+          "A vector of structs for a class list or a team",
+          "Passing a struct to a function",
+          "Designing data before writing code"
+        ],
+        "projects": [
+          "Virtual pet: a pet that gets hungry and bored over time and responds to feeding and play commands"
+        ],
+        "practice": "Extend the pet so the player can look after three pets stored in one vector",
+        "assessment": "Phase 2 assessment: a small program that uses functions, a vector and a struct together"
+      }
+    }
+  },
+  "phase_3_games_and_puzzles": {
+    "title": "PHASE 3: Games and Puzzles (Months 5-6, Weeks 17-24)",
+    "description": "Everything comes together in bigger text games, grid puzzles and the short problem-solving tasks used in programming contests, ending with a capstone each child designs.",
+    "month_5_games": {
+      "title": "Month 5: Bigger Games",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Random Numbers and a Text Adventure",
+        "topics": [
+          "Making random numbers for dice, cards and surprises",
+          "Planning a game as rooms, choices and items",
+          "A game loop that runs until the player wins or quits",
+          "Keeping track of health, gold and inventory",
+          "Splitting a bigger program into many small functions",
+          "Testing every path through the game"
+        ],
+        "projects": [
+          "Dungeon adventure: a text adventure with rooms, random encounters, an inventory and a win condition"
+        ],
+        "practice": "Add two new rooms and one new item, then ask someone at home to play it"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Grids and Nested Loops",
+        "topics": [
+          "A grid as a vector of vectors",
+          "Nested loops to print and search a grid",
+          "Rows, columns and checking neighbours",
+          "Checking for three in a row",
+          "Moving a player around a maze with letters",
+          "Keeping a grid game fair and bug-free"
+        ],
+        "projects": [
+          "Tic-tac-toe for two players and a maze game where the player finds the exit"
+        ],
+        "practice": "Add a move counter to the maze and a replay option to tic-tac-toe",
+        "assessment": "Month 5 check: a grid task built from a short written specification"
+      }
+    },
+    "month_6_puzzles_and_capstone": {
+      "title": "Month 6: Contest Puzzles and the Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Thinking Like a Problem Solver",
+        "topics": [
+          "Reading a puzzle problem: input, output and the example cases",
+          "Working out the answer by hand before coding",
+          "Patterns that keep coming up: counting, finding the largest, simulating step by step",
+          "Testing with small cases and tricky edge cases",
+          "What USACO is and how its Bronze division works",
+          "Staying calm when the first idea does not work"
+        ],
+        "projects": [
+          "Puzzle notebook: eight short contest-style problems solved, each with a sentence on the idea behind it"
+        ],
+        "practice": "Solve two puzzle problems a week and write down one mistake and how you found it"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Capstone Project and Showcase",
+        "topics": [
+          "Choosing a project idea that fits two weeks",
+          "Planning the data, the functions and the game loop",
+          "Building in small steps and testing as you go",
+          "Asking for feedback and improving the project",
+          "Presenting the program and explaining one clever part",
+          "Next steps: C++ for Teens, Python or contest practice"
+        ],
+        "projects": [
+          "Capstone: an original game or tool planned, built and presented by the student"
+        ],
+        "practice": "Write a short guide that explains how to play or use the capstone project",
+        "assessment": "Final assessment: the capstone project, a short code walkthrough and a set of small coding tasks covering the whole course"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Quiz show with scoring and feedback",
+      "Number guessing game and times-table trainer",
+      "High score board with sorting",
+      "Secret code machine",
+      "Virtual pet with structs",
+      "Dungeon text adventure",
+      "Tic-tac-toe and maze games",
+      "Original capstone project"
+    ],
+    "total_projects_built": "8 finished projects plus a notebook of solved puzzle problems",
+    "skills_mastered": [
+      "C++ program structure, output and input",
+      "Variables, types and arithmetic, including whole-number division and remainders",
+      "Decisions and loops, traced by hand and in code",
+      "Functions, vectors, strings and structs",
+      "Reading compiler errors and debugging independently",
+      "Breaking a problem into steps before coding"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week with plenty of typing, running and fixing code together",
+      "homework": "A short task after every class, and a monthly mixed-review task that brings back earlier topics",
+      "practice": "1-2 hours a week of small programs and puzzles",
+      "review": "Every program read by the teacher, with simple written notes on what to improve"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, where a parent or the student can send a screenshot of an error",
+      "progress_updates": "Regular progress notes to parents, with the projects their child finished that month"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "None required. Children who have tried Scratch or similar often settle in faster, but it is not needed",
+    "computer_skills": "Can type short words, use a mouse and open a browser",
+    "equipment": "A laptop or desktop with a stable internet connection. We start with a free online C++ compiler in the browser, so nothing needs installing at first",
+    "age": "9 to 12. Teens aged 13 and up should take our C++ for Teens course instead",
+    "time_commitment": "2 live hours plus 1-2 hours of practice each week"
+  },
+  "who_is_this_for": {
+    "scratch_graduates": "Children who have done block coding and are ready for real typed code",
+    "curious_beginners": "Children who have never coded and want to start with a language that teaches careful thinking",
+    "puzzle_lovers": "Kids who enjoy logic puzzles, codes and number games",
+    "future_contest_coders": "Children who might enjoy programming contests later and want the right foundation now",
+    "families_planning_ahead": "Parents who want their child ready for C++ for Teens or computer science at school"
+  },
+  "career_paths_after_completion": [
+    "Our C++ for Teens course, which adds pointers, object-oriented programming, the STL and data structures",
+    "Contest practice toward USACO Bronze, with a teacher guiding the next set of problems",
+    "Python for Kids or Teens, where the same ideas move much faster",
+    "Game development courses, where loops, functions and data structures are used every day",
+    "School computing clubs and projects, joined with real programming experience"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Batches only: group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on coding in every session.",
+    "real_assessment": "Classwork every session, a task after every class, monthly reviews that mix in earlier topics, and a final assessment covering the whole course that decides the certificate.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Is C++ too hard for a 9 or 10-year-old?",
+      "answer": "Not when it is taught at the right pace. Children cope well with C++ when each idea is introduced on its own, shown on paper first, and practised inside a small game. We leave the genuinely hard parts, such as pointers and manual memory management, for our C++ for Teens course, so younger students build confidence before complexity."
+    },
+    {
+      "question": "Should my child learn Python or C++ first?",
+      "answer": "Both are good first languages. Python gets results faster with less punctuation. C++ asks for more precision, such as types and semicolons, and children who learn it early tend to be careful, systematic coders. If your child enjoys puzzles and detail, or is interested in programming contests later, C++ is a strong choice. The free demo is a good place to see which suits them."
+    },
+    {
+      "question": "Does my child need to know Scratch first?",
+      "answer": "No. The course starts from what a program is. Children who have used Scratch often recognise loops and conditions quickly, but complete beginners do just as well with a little extra practice in the first month."
+    },
+    {
+      "question": "What will my child build?",
+      "answer": "A quiz show, a number guessing game, a times-table trainer, a high score board, a secret code machine, a virtual pet, a text adventure, tic-tac-toe, a maze game and an original capstone project, plus a notebook of solved puzzle problems."
+    },
+    {
+      "question": "What software do we need?",
+      "answer": "Only a laptop or desktop with a browser and a stable internet connection. We begin with a free online C++ compiler so nothing needs installing. Later in the course we can help set up a free compiler on the computer if the family wants one."
+    },
+    {
+      "question": "Does this prepare my child for USACO?",
+      "answer": "It prepares them to start. USACO accepts C++ solutions and every new participant begins in the Bronze division. The final month introduces the kind of short problems used there and explains how the contest works. Moving up the divisions takes much more practice, which our contest programming courses cover for older students."
+    },
+    {
+      "question": "How is this different from C++ for Teens?",
+      "answer": "C++ for Teens is a longer course for ages 13 to 18 that goes into pointers, object-oriented programming, the standard library, data structures and games with graphics. This course is for ages 9 to 12 and covers the foundations slowly and thoroughly, so a child who finishes it is well prepared to join the teen course later."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or one to one. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher writes and runs a small C++ program with your child, sees how they think, and suggests whether group, mini batch or one-to-one classes fit best. There is no obligation to enrol."
+    }
+  ]
+}
