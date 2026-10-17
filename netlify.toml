@@ -23853,6 +23853,18 @@
   to = "/src/pages/code-org-app-lab-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/java-cannot-find-symbol-error"
+  to = "/src/pages/java-cannot-find-symbol-error.html"
+  status = 200
+
+[[redirects]]
+  from = "/java-cannot-find-symbol-error.md"
+  to = "/src/pages/java-cannot-find-symbol-error.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

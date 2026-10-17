@@ -439,6 +439,7 @@ const SLUGS = [
   'makecode-arcade-help-for-students',
   'codehs-help-for-students',
   'code-org-app-lab-help',
+  'java-cannot-find-symbol-error',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -957,6 +958,7 @@ const LLMS_LABELS = {
   'makecode-arcade-help-for-students': 'MakeCode Arcade help',
   'codehs-help-for-students': 'CodeHS help for students',
   'code-org-app-lab-help': 'Code.org App Lab help',
+  'java-cannot-find-symbol-error': 'Java cannot find symbol error',
 };
 
 function wireLlms(slugs) {

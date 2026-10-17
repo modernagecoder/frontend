@@ -7158,4 +7158,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /code-org-app-lab-help /src/pages/code-org-app-lab-help.html 200
 /code-org-app-lab-help.md /src/pages/code-org-app-lab-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/java-cannot-find-symbol-error /src/pages/java-cannot-find-symbol-error.html 200
+/java-cannot-find-symbol-error.md /src/pages/java-cannot-find-symbol-error.md 200
 /* /src/pages/404.html 404

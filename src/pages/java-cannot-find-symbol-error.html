@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Java &quot;cannot find symbol&quot; Error: What It Means and How to Fix It</title>
+  <meta name="description" content="The Java cannot find symbol error explained from real javac output: what the symbol and location lines say, eight causes, numbered fixes, and practice.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/java-cannot-find-symbol-error">
+  <link rel="alternate" type="text/markdown" href="/src/pages/java-cannot-find-symbol-error.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#1B158F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/java-cannot-find-symbol-error">
+  <meta property="og:title" content="Java &quot;cannot find symbol&quot; Error: What It Means and How to Fix It">
+  <meta property="og:description" content="Read the Java cannot find symbol error line by line: our javac 22 runs show the eight usual causes, the Eclipse wording for each, and how to fix them yourself.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Java &quot;cannot find symbol&quot; Error: What It Means and How to Fix It">
+  <meta name="twitter:description" content="Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jcfs .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-jcfs .ag-capsule { border-left-width: 5px; border-radius: 3px; }
+.ag-root.ag-jcfs .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-jcfs .ag-table caption { text-align: left; font-variant-numeric: tabular-nums; }
+.ag-root.ag-jcfs .ag-band-head h3 { letter-spacing: -0.006em; }
+.ag-root.ag-jcfs .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/java-cannot-find-symbol-error#page","url":"https://learn.modernagecoders.com/java-cannot-find-symbol-error","name":"Java cannot find symbol error","description":"A guide for US high school and college students to the Java compiler error cannot find symbol, built from our own javac 22 and Eclipse compiler runs and the Oracle Java documentation.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Java cannot find symbol","item":"https://learn.modernagecoders.com/java-cannot-find-symbol-error"}]},{"@type":"Course","name":"Java cannot find symbol error","description":"Live online Java classes for US teens and college students, including AP Computer Science A preparation, taught by a regular teacher in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/java-cannot-find-symbol-error"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-cannot-find-symbol-error"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-cannot-find-symbol-error"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does cannot find symbol mean in Java?","acceptedAnswer":{"@type":"Answer","text":"It means the compiler found a name (a variable, a method or a class) that it could not match to any declaration it can see from that line. The symbol line says which name and what kind it is; the location line says where Java searched."}},{"@type":"Question","name":"How do I fix cannot find symbol?","acceptedAnswer":{"@type":"Answer","text":"Go to the first error, read the symbol line, and search your code for that exact word. Fix a spelling or capital letter if it differs, move a declaration up if it sits inside a block that has closed, and add an import for library classes such as ArrayList or Scanner. Compile again after each change."}},{"@type":"Question","name":"Why does Java say cannot find symbol for a variable I declared?","acceptedAnswer":{"@type":"Answer","text":"Usually because the variable was declared inside a block, such as a loop or an if, and you used it after that block closed. A local variable only exists until the closing brace of the block it was declared in. Declare it before the block instead."}},{"@type":"Question","name":"Why do I get cannot find symbol for ArrayList or Scanner?","acceptedAnswer":{"@type":"Answer","text":"Both live in the java.util package, which Java does not import automatically. Only java.lang and your own package are imported for you. Add import java.util.ArrayList; or import java.util.Scanner; above your class."}},{"@type":"Question","name":"Is Java case sensitive?","acceptedAnswer":{"@type":"Answer","text":"Yes. Oracle's Java tutorial states that variable names are case-sensitive, so total and Total are two different names. A capital letter in the wrong place is one of the most common causes of this error."}},{"@type":"Question","name":"What is the difference between cannot find symbol and identifier expected?","acceptedAnswer":{"@type":"Answer","text":"Cannot find symbol is about a name Java cannot match to a declaration. Identifier expected means Java wanted a name at a point where the grammar requires one, often because a statement such as an assignment or a println was written directly inside the class instead of inside a method."}},{"@type":"Question","name":"What does Eclipse show instead of cannot find symbol?","acceptedAnswer":{"@type":"Answer","text":"Eclipse uses its own compiler, so the wording differs. In our tests the same mistakes appeared as messages such as Total cannot be resolved to a variable, ArrayList cannot be resolved to a type, and The method lenght() is undefined for the type String."}},{"@type":"Question","name":"Will you fix my CodeHS or school Java assignment for me?","acceptedAnswer":{"@type":"Answer","text":"No. We do not provide answers or solutions to graded assignments. A teacher works through the error message with you and teaches the idea behind it, so you can fix your own code and explain it."}},{"@type":"Question","name":"Does this error matter for the AP Computer Science A exam?","acceptedAnswer":{"@type":"Answer","text":"Indirectly. The exam is fully digital in College Board's Bluebook app, and the mistakes behind this error, especially mixing up length, length() and size() for arrays, String and ArrayList, are exactly the distinctions the course tests."}},{"@type":"Question","name":"When are live Java classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do the Java classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that you pay one month at a time, and the monthly fee is shown in US dollars in the fees section of this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/java-cannot-find-symbol-error","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-jcfs">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#anatomy">The message</a></li>
+      <li><a href="#causes">Eight causes</a></li>
+      <li><a href="#steps">Fix it</a></li>
+      <li><a href="#ides">In your IDE</a></li>
+      <li><a href="#apcsa">AP CSA</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Java cannot find symbol
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; High school and college &middot; Java compiler errors</p>
+        <h1>Java &ldquo;cannot find symbol&rdquo;: what it means and how to fix it</h1>
+        <p class="ag-lede">You press compile and Java answers with &ldquo;error: cannot find symbol&rdquo;, a caret under one word, and two indented lines that look like a riddle. The message is far more helpful than it seems. It names the exact word the compiler could not match to any declaration, says what kind of thing it expected that word to be, and tells you where it was searching. This guide reads the message line by line from programs we compiled ourselves, lists the eight mistakes that cause nearly every case a student meets, and gives you a numbered routine for fixing it in BlueJ, Eclipse, IntelliJ IDEA, VS Code or a browser editor.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#causes" class="ag-btn ag-btn--ghost">See the eight causes</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20keeps%20getting%20Java%20compiler%20errors%20like%20cannot%20find%20symbol.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jcfs'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Java from first class to AP CSA</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grades 9 to 12 and college</dd>
+          <dt>Error</dt><dd>cannot find symbol</dd>
+          <dt>Tool</dt><dd>javac, any editor</dd>
+          <dt>Tested on</dt><dd>JDK 22.0.1</dd>
+          <dt>Exam link</dt><dd>AP Computer Science A</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The error &ldquo;cannot find symbol&rdquo; means the Java compiler met a name (a variable, method or class) that it could not match to any declaration it can see from that spot. The symbol line names the word, the location line says where Java looked. Usual causes: a typo or wrong capital letter, a variable used outside its block, or a missing import.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three Java courses that turn compiler errors into understanding</h2>
+      <p class="ag-lede">Each one is live, and each one starts from the code your student is writing right now.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JCFS / 01</p>
+          <h3>Java for teens</h3>
+          <p>Ages 13 to 18. Variables, methods, classes and the habit of reading errors.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JCFS / 02</p>
+          <h3>AP Computer Science A</h3>
+          <p>The four units, the Java Quick Reference and timed free-response practice.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Java Course for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JCFS / 03</p>
+          <h3>Java for college</h3>
+          <p>Core Java for intro CS courses, then on to larger programs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="anatomy">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Reading the message</p><h2>The four parts of a cannot find symbol error</h2><p class="ag-lede">We wrote a ten-line program with two deliberate mistakes and compiled it with javac 22.0.1. Here is the program, then exactly what the compiler printed.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The program &middot; Grades.java</b><span>java</span></figcaption><pre>// Grades.java (ours): two mistakes on purpose
+public class Grades {
+    public static void main(String[] args) {
+        int total = 0;
+        for (int i = 1; i &lt;= 3; i++) {
+            int score = i * 10;
+            total = total + score;
+        }
+        System.out.println("Last score: " + score);
+        System.out.println("Total: " + Total);
+    }
+}</pre><p class="ag-code-note">Ours. Line 8 uses score after the loop that declared it has ended; line 9 writes Total with a capital T.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What javac printed</b><span>console</span></figcaption><pre>&gt; javac Grades.java
+Grades.java:8: error: cannot find symbol
+        System.out.println("Last score: " + score);
+                                            ^
+  symbol:   variable score
+  location: class Grades
+Grades.java:9: error: cannot find symbol
+        System.out.println("Total: " + Total);
+                                       ^
+  symbol:   variable Total
+  location: class Grades
+2 errors</pre><p class="ag-code-note">Our run, javac 22.0.1 on Windows 11, 17 October 2026. Two separate errors, one per unmatched name.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Each line of the message, decoded (our reading of the run above)</caption><thead><tr><th scope="col">Part</th><th scope="col">In our run</th><th scope="col">What it tells you</th></tr></thead><tbody><tr><td>File and line</td><td>Grades.java:8</td><td>Open that file and go to that line first. The mistake is almost always on it or just above it.</td></tr><tr><td>Error name</td><td>error: cannot find symbol</td><td>The compiler hit a word it could not connect to anything declared. Nothing was run yet.</td></tr><tr><td>Caret</td><td>The ^ under score</td><td>The exact word the compiler choked on, not the start of the line.</td></tr><tr><td>symbol:</td><td>variable score</td><td>What kind of name Java expected: variable, method (with argument types), or class.</td></tr><tr><td>location:</td><td>class Grades</td><td>Where Java was searching. For a member it reads, for example, variable s of type String.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why one mistake can look like several</h3><p>Java reports each unmatched name separately, so two mistakes produce two errors and the summary line says 2 errors. A missing import is worse: in our runs, one forgotten import of ArrayList printed two errors on the same line, one for the type name and one for the constructor after new.</p>
+<p>Fix the first error in the list, compile again, and only then look at the rest. Counting errors is a poor measure of how broken a program is.</p></div><div><h3>What the compiler did not do</h3><p>Oracle&rsquo;s own troubleshooting page puts it plainly: if you see any compiler errors, the program did not successfully compile and the compiler did not create a .class file. So there is nothing to run until every error is gone.</p>
+<p>That is also why an old version of your program sometimes seems to run in an IDE after a failed compile: you are running the last class file that did build, not the code on your screen.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: our javac 22.0.1 run (raw output kept with our notes), and Oracle, <a class="ag-inline-link" href="https://docs.oracle.com/javase/tutorial/getStarted/problems/index.html" rel="noopener" target="_blank">Common Problems (and Their Solutions)</a>, read 17 October 2026. We are not connected with Oracle.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="causes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eight causes</p><h2>The eight mistakes behind almost every cannot find symbol</h2><p class="ag-lede">Every row below is a mistake we typed on purpose and compiled. The middle column is the symbol line javac printed, word for word, so you can match your own message against it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cause, symbol line and fix (our javac 22.0.1 runs, 17 October 2026)</caption><thead><tr><th scope="col">Cause</th><th scope="col">symbol: line we got</th><th scope="col">The fix</th></tr></thead><tbody><tr><td>1. Wrong capital letter</td><td>variable Total</td><td>Java treats total and Total as different names. Match the declaration exactly.</td></tr><tr><td>2. Variable used outside its block</td><td>variable score</td><td>Declare it before the block that changes it, so it still exists afterwards.</td></tr><tr><td>3. Loop counter used after the loop</td><td>variable k</td><td>A counter declared in the for header ends with the loop. Keep a separate variable if you need the value later.</td></tr><tr><td>4. Missing import</td><td>class ArrayList</td><td>Add import java.util.ArrayList; above the class. The same goes for Scanner and Random.</td></tr><tr><td>5. Misspelled method</td><td>method lenght()</td><td>Check the spelling against the documentation or the Java Quick Reference.</td></tr><tr><td>6. Method or field that does not exist on that type</td><td>variable length (on a String)</td><td>Strings use length() with brackets; arrays use .length without; an ArrayList uses size().</td></tr><tr><td>7. Method you never wrote</td><td>method printReport(int[])</td><td>Write the method, or fix the call so its name and argument types match one you wrote.</td></tr><tr><td>8. Class the compiler cannot see</td><td>class Student</td><td>Put Student.java in the same project folder or package, and compile it too.</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Causes 5 to 7, as the compiler reported them</b><span>java</span></figcaption><pre>// Roster.java (ours): four member mistakes, javac 22.0.1 output
+String s = "hello";
+System.out.println(s.length);     // field that does not exist
+  symbol:   variable length
+  location: variable s of type String
+
+System.out.println(s.lenght());   // misspelled method
+  symbol:   method lenght()
+  location: variable s of type String
+
+int[] scores = {90, 85, 77};
+System.out.println(scores.length());   // arrays use .length
+  symbol:   method length()
+  location: variable scores of type int[]
+
+printReport(scores);              // method never written
+  symbol:   method printReport(int[])
+  location: class Arrays1</pre><p class="ag-code-note">Ours: lines trimmed from two of our test files to the code and the symbol and location lines. Read the location line: variable scores of type int[] tells you Java looked for length() on an array, where it does not exist.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Scope, the idea behind causes 2 and 3</h3><p>The Java Language Specification defines it precisely: the scope of a local variable declared in a block is the rest of the block. In plain words, a variable born inside a pair of curly braces dies at the closing brace.</p>
+<p>That is why score in Grades.java was fine inside the loop and unknown one line below it. Moving the declaration up, before the loop, widens its scope to the rest of main.</p></div><div><h3>Imports, the idea behind cause 4</h3><p>Oracle&rsquo;s tutorial says the compiler automatically imports two entire packages for each source file: java.lang and the package your file is in. String, Math and System live in java.lang, which is why they never need an import.</p>
+<p>ArrayList, Scanner and Random live in java.util, which is not imported for you. Either write the import line or use the fully qualified name, java.util.ArrayList.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: Oracle, <a class="ag-inline-link" href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html" rel="noopener" target="_blank">Variables</a> (&ldquo;Variable names are case-sensitive.&rdquo;) and <a class="ag-inline-link" href="https://docs.oracle.com/javase/tutorial/java/package/usepkgs.html" rel="noopener" target="_blank">Using Package Members</a>; <a class="ag-inline-link" href="https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html" rel="noopener" target="_blank">Java Language Specification, Java SE 21, chapter 6</a>. All read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="steps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Fix it yourself</p><h2>A seven-step routine for any cannot find symbol error</h2><p class="ag-lede">This is the order we teach. It works in any editor, because it relies only on what the compiler printed, not on a particular IDE.</p></div>
+    <ol class="ag-steps"><li><b>Go to the first error only.</b> Open the file and line it names. Ignore the error count for now.</li><li><b>Read the symbol line aloud.</b> &ldquo;variable Total&rdquo;, &ldquo;method lenght()&rdquo;, &ldquo;class Scanner&rdquo;. Saying the kind of name out loud tells you which half of the table above to look in.</li><li><b>Search for the declaration.</b> Use Find in your editor for the exact word. If you find it with different capitals or spelling, that is your fix.</li><li><b>If it is declared, check the braces.</b> Is the declaration inside a block (a loop, an if, another method) that has already closed by the line with the error? Then move the declaration up.</li><li><b>If it is a class, check imports and files.</b> Library classes need an import line; your own classes need their .java file in the same project or package.</li><li><b>If it is a method, read the location line.</b> It names the type Java searched. Look that type up in the documentation and check the method really exists there, with those argument types.</li><li><b>Compile again after each single change.</b> One fix, one compile. A second error often disappears on its own, and if a new one appears you know exactly which edit caused it.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>The repaired program &middot; Fixed.java</b><span>java</span></figcaption><pre>// Fixed.java (ours): score declared before the loop,
+// total spelled the way it was declared
+import java.util.ArrayList;
+
+public class Fixed {
+    public static void main(String[] args) {
+        int total = 0;
+        int score = 0;
+        for (int i = 1; i &lt;= 3; i++) {
+            score = i * 10;
+            total = total + score;
+        }
+        System.out.println("Last score: " + score);
+        System.out.println("Total: " + total);
+
+        ArrayList&lt;String&gt; names = new ArrayList&lt;&gt;();
+        names.add("Ada");
+        System.out.println(names.size());
+    }
+}
+
+&gt; javac Fixed.java &amp;&amp; java Fixed
+Last score: 30
+Total: 60
+1</pre><p class="ag-code-note">Ours, compiled and run with javac and java 22.0.1. Declaring score before the loop and spelling total consistently clears both errors; the import line makes ArrayList visible.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why we do not just hand out the fix</h3><p>When a student brings a homework file to class, we do not type the correction for them, and we never supply answers to graded assignments. The teacher asks which word the caret points at and what the symbol line says, and the student finds the declaration.</p>
+<p>Students who fix ten of these errors themselves usually stop making the scope mistake altogether, because they finally see where a variable lives.</p></div><div><h3>When the routine runs out</h3><p>If the name is declared, spelled right, in scope and imported, and the error still appears, the problem is usually the build: a file outside the project, a stale class file, or two classes with the same name in different packages.</p>
+<p>That is the moment to ask a person. A teacher who can see the whole project on a shared screen will usually spot it in a minute.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ides">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Same error, other words</p><h2>What the same mistakes look like in Eclipse and other editors</h2><p class="ag-lede">BlueJ, VS Code and IntelliJ IDEA usually show javac&rsquo;s wording or something close to it. Eclipse ships its own compiler, so its messages read differently. We compiled the same files with the Eclipse Compiler for Java to give you the translation.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>javac wording against Eclipse compiler wording (our runs of javac 22.0.1 and ecj 3.46.100, 17 October 2026)</caption><thead><tr><th scope="col">Mistake</th><th scope="col">javac says</th><th scope="col">Eclipse compiler says</th></tr></thead><tbody><tr><td>Wrong capital letter</td><td>cannot find symbol, symbol: variable Total</td><td>Total cannot be resolved to a variable</td></tr><tr><td>Missing import</td><td>cannot find symbol, symbol: class ArrayList</td><td>ArrayList cannot be resolved to a type</td></tr><tr><td>Misspelled method</td><td>cannot find symbol, symbol: method lenght()</td><td>The method lenght() is undefined for the type String</td></tr><tr><td>length() on an array</td><td>cannot find symbol, symbol: method length()</td><td>Cannot invoke length() on the array type int[]</td></tr><tr><td>Class not in the project</td><td>cannot find symbol, symbol: class Student</td><td>Student cannot be resolved to a type</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Red underlines before you compile</h3><p>Most editors check your code as you type, so the red squiggle under a word is the same complaint arriving early. Hovering over it shows the message, and the fix routine above still applies.</p>
+<p>An underline that will not go away after you correct the spelling usually means the editor has not saved or rebuilt yet. Save the file and give it a moment.</p></div><div><h3>Quick fixes: useful, with care</h3><p>Editors offer one-click fixes such as adding an import or creating a missing variable. Adding an import is almost always right. Creating a variable to silence the error is almost always wrong, because it hides the real mistake, which was a typo or a scope problem.</p>
+<p>Our rule for students: accept a quick fix only if you can say in one sentence why it is correct.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="identifier">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A close relative</p><h2>Identifier expected: the error students confuse with this one</h2><p class="ag-lede">Searches for cannot find symbol often sit next to searches for identifier expected, especially from BlueJ users. They are different problems: one is about names, the other about where code is allowed to go.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Statements outside a method &middot; Ident.java</b><span>java</span></figcaption><pre>// Ident.java (ours): statements outside any method
+public class Ident {
+    int count = 0;
+    count = 5;
+    System.out.println(count);
+}
+
+&gt; javac Ident.java
+Ident.java:3: error: &lt;identifier&gt; expected
+    count = 5;
+         ^</pre><p class="ag-code-note">Ours, javac 22.0.1. The full run printed three of these errors, two of them on line 4. A declaration with a value is allowed directly in a class; an assignment or a println is not, so it must go inside a method such as main.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Telling the two errors apart (our summary of the runs on this page)</caption><thead><tr><th scope="col"></th><th scope="col">cannot find symbol</th><th scope="col">identifier expected</th></tr></thead><tbody><tr><td>What went wrong</td><td>A name is used that Java cannot match to a declaration</td><td>Java expected a name at a point where the grammar needs one</td></tr><tr><td>Typical cause</td><td>Typo, scope, missing import</td><td>A statement placed directly in the class body, or a missing bracket</td></tr><tr><td>Where to look</td><td>The declaration of the word under the caret</td><td>The braces around the line: is it inside a method?</td></tr><tr><td>First fix to try</td><td>Match spelling and capitals</td><td>Move the statement into main or another method</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="apcsa">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AP Computer Science A</p><h2>Why this error matters for AP Computer Science A</h2><p class="ag-lede">AP CSA students meet cannot find symbol constantly, because the course leans on exactly the features that trigger it: objects, String methods, ArrayList and arrays. Here is what College Board publishes about the exam, and how it connects.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AP Computer Science A exam facts, from AP Central (read 17 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What College Board says</th></tr></thead><tbody><tr><td>Format</td><td>&ldquo;This is a fully digital exam.&rdquo; Students answer in the Bluebook testing app.</td></tr><tr><td>Reference sheet</td><td>The Java Quick Reference &ldquo;lists the accessible methods from the Java library that may be included on the exam&rdquo;.</td></tr><tr><td>Free response</td><td>Section II: 4 questions in 1 hour 30 minutes. Question 3 works with an ArrayList, Question 4 with a 2D array.</td></tr><tr><td>Biggest unit</td><td>Unit 4, Data Collections, carries 30% to 40% of the multiple-choice weighting.</td></tr><tr><td>2027 date</td><td>May 12, 2027, as listed on the AP Central exam page.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The connection, in our experience</h3><p>Cause 6 in our table, mixing up length, length() and size(), is precisely the confusion between arrays, String and ArrayList that Unit 4 tests. A student who can say from memory which one each type uses has learned something the exam rewards.</p>
+<p>The Java Quick Reference is the official list of the library methods you may meet on the exam, so it doubles as the reference to check when the compiler says a method does not exist.</p></div><div><h3>Practicing without a compiler</h3><p>On the free-response section you write code for a reader, not for javac, so nobody prints cannot find symbol for you. Our advice: once a week, write a short method on paper, then compile it and count the names the compiler could not find.</p>
+<p>That count dropping over a semester is a better sign of readiness than any single practice score. For course planning, see our <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a> and <a class="ag-inline-link" href="/blog/ap-computer-science-a-changes-2026">what changed in AP CSA for 2026</a>.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam" rel="noopener" target="_blank">AP Computer Science A Exam</a> and <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a" rel="noopener" target="_blank">AP Computer Science A Course</a>, AP Central, read 17 October 2026. AP is a trademark of College Board, which is not connected with this page or with us.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice set</p><h2>Six lines to test yourself</h2><p class="ag-lede">Our own practice set. Each line compiles with exactly one cannot find symbol error. Before you look at the right-hand column, predict the symbol line javac will print. We checked every answer with javac 22.0.1.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Predict the symbol line (ours; answers from our javac 22.0.1 run)</caption><thead><tr><th scope="col">Line of code</th><th scope="col">symbol: line javac printed</th></tr></thead><tbody><tr><td>String name = "Ada"; then println(Name)</td><td>variable Name</td></tr><tr><td>Math.squareRoot(16)</td><td>method squareRoot(int), location: class Math</td></tr><tr><td>int[] a = new int[3]; then a.size()</td><td>method size(), location: variable a of type int[]</td></tr><tr><td>Random r = new Random(); with no import</td><td>class Random</td></tr><tr><td>name.toUppercase()</td><td>method toUppercase(), location: variable name of type String</td></tr><tr><td>println(k) after for (int k = 0; k &lt; 3; k++)</td><td>variable k</td></tr></tbody></table></div>
+    <p class="ag-mt-40">If you got the kind of symbol right on all six, you can read this error. If the Math line caught you out, the method you wanted is Math.sqrt. For more on reading errors in general, try our guide on <a class="ag-inline-link" href="/how-to-debug-code">how to debug code</a>, and for a first course, <a class="ag-inline-link" href="/java-for-beginners">Java for beginners</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From stuck to fluent</p>
+      <h2>Four stages of reading Java errors</h2>
+      <p class="ag-lede">Where most students are when they first search for this error, and where practice takes them.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How students grow with compiler errors (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Alarmed</td><td class="ag-num">Sees a wall of red text and starts changing lines at random</td></tr><tr><td>2. Locating</td><td class="ag-num">Goes to the file and line number, finds the word under the caret</td></tr><tr><td>3. Diagnosing</td><td class="ag-num">Reads the symbol and location lines and names the cause</td></tr><tr><td>4. Preventing</td><td class="ag-num">Declares variables in the right place and rarely sees the error at all</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>A teen who is frustrated by compiler errors is not failing at programming. They are at stage 1, which every programmer passes through.</p>
+<p>What helps most is someone asking good questions about the message, rather than fixing the code for them.</p></div><div><h3>For students</h3><p>The compiler is precise, not hostile. It tells you the word, the kind of name and where it looked.</p>
+<p>Fix one error, compile, repeat. Patience here is faster than guessing.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Java students and the languages around it</h2>
+      <p class="ag-lede">Nine live courses chosen for students who write Java at school now, or who are about to.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Java first</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / JAVA / 01</p>
+          <h4>Java for teens</h4>
+          <p>From first class to objects and lists.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / JAVA / 02</p>
+          <h4>AP Computer Science A</h4>
+          <p>The College Board course, unit by unit.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / JAVA / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic and data structures behind the code.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Alongside Java</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / NEXT / 01</p>
+          <h4>AP Computer Science Principles</h4>
+          <p>The wider course, with the Create task.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / NEXT / 02</p>
+          <h4>Python for teens</h4>
+          <p>A second language with friendlier errors.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / NEXT / 03</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Save every working version of your code.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>College and beyond</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / PRO / 01</p>
+          <h4>Java for college</h4>
+          <p>Intro CS Java, then real applications.</p>
+          <a class="ag-course-link" href="/courses/complete-java-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / PRO / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>The course after the intro sequence.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JCFS / PRO / 03</p>
+          <h4>Competitive programming</h4>
+          <p>USACO-style problems in Java or C++.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live Java classes that fit a US school week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school in your own time zone, Eastern to Pacific.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A steady weekly slot for families who prefer it.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Booked around the school calendar and exam weeks.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One teacher all term</h3><p>The same person reads your code each week.</p></div>
+      <div><h3>Your editor, shared</h3><p>BlueJ, Eclipse, IntelliJ IDEA or VS Code.</p></div>
+      <div><h3>Errors as lessons</h3><p>We start from the message on your screen.</p></div>
+      <div><h3>No homework answers</h3><p>We teach the idea; the solution stays yours.</p></div>
+      <div><h3>Any state</h3><p>Live on video, wherever you study.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty learners, or just you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Programs our students have built</h2>
+      <p class="ag-lede">Work from learners who once stared at the same compiler errors. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Java and every editor on this page cost nothing to download. What you pay for is the live teaching: a monthly fee shown in US dollars, no semester contract, and nothing owed if you stop when a month ends.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring the file that will not compile</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>A regular teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Just you and the teacher</li><li>Times that suit you</li><li>Built around your own course</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents and students in their own words, as posted on Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students</p>
+      <h2>Cannot find symbol: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What does cannot find symbol mean in Java?</h3>
+        <p>It means the compiler found a name (a variable, a method or a class) that it could not match to any declaration it can see from that line. The symbol line says which name and what kind it is; the location line says where Java searched.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I fix cannot find symbol?</h3>
+        <p>Go to the first error, read the symbol line, and search your code for that exact word. Fix a spelling or capital letter if it differs, move a declaration up if it sits inside a block that has closed, and add an import for library classes such as ArrayList or Scanner. Compile again after each change.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does Java say cannot find symbol for a variable I declared?</h3>
+        <p>Usually because the variable was declared inside a block, such as a loop or an if, and you used it after that block closed. A local variable only exists until the closing brace of the block it was declared in. Declare it before the block instead.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why do I get cannot find symbol for ArrayList or Scanner?</h3>
+        <p>Both live in the java.util package, which Java does not import automatically. Only java.lang and your own package are imported for you. Add import java.util.ArrayList; or import java.util.Scanner; above your class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Java case sensitive?</h3>
+        <p>Yes. Oracle's Java tutorial states that variable names are case-sensitive, so total and Total are two different names. A capital letter in the wrong place is one of the most common causes of this error.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the difference between cannot find symbol and identifier expected?</h3>
+        <p>Cannot find symbol is about a name Java cannot match to a declaration. Identifier expected means Java wanted a name at a point where the grammar requires one, often because a statement such as an assignment or a println was written directly inside the class instead of inside a method.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does Eclipse show instead of cannot find symbol?</h3>
+        <p>Eclipse uses its own compiler, so the wording differs. In our tests the same mistakes appeared as messages such as Total cannot be resolved to a variable, ArrayList cannot be resolved to a type, and The method lenght() is undefined for the type String.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you fix my CodeHS or school Java assignment for me?</h3>
+        <p>No. We do not provide answers or solutions to graded assignments. A teacher works through the error message with you and teaches the idea behind it, so you can fix your own code and explain it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does this error matter for the AP Computer Science A exam?</h3>
+        <p>Indirectly. The exam is fully digital in College Board's Bluebook app, and the mistakes behind this error, especially mixing up length, length() and size() for arrays, String and ArrayList, are exactly the distinctions the course tests.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are live Java classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do the Java classes cost?</h3>
+        <p>The first lesson is free. After that you pay one month at a time, and the monthly fee is shown in US dollars in the fees section of this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students learning Java.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Every page we have written for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>A method for any error in any language.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></h3><p>Our live AP CSA preparation.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-for-beginners">Java for beginners</a></h3><p>Where a first Java course starts.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-teens">Java classes for teens</a></h3><p>The teen Java track in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP or AP CSA first?</a></h3><p>Choosing between the two AP courses.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Send the error message you are stuck on, or just tell us which course you are taking. The teacher begins from your own code, so the first lesson is about the problem in front of you.</p>
+        <p class="ag-mt-40">Curious how a lesson actually runs? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes one from start to finish, and the <a class="ag-inline-link" href="/courses">course pages</a> list every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20keeps%20getting%20Java%20compiler%20errors%20like%20cannot%20find%20symbol.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jcfs',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are taught live on video by teachers based in India, so there is no local center to visit. For US students, WhatsApp is the fastest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jcfs(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free and we never ask for payment details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Java help</h4><ul><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/java-for-beginners">Java for beginners</a></li><li><a href="/java-classes-for-teens">Java classes for teens</a></li><li><a href="/blog/java-constructors-explained">Java constructors explained</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></li><li><a href="/online-coding-classes-for-kids-usa">Online classes for kids</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>A name lives only where it was declared</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jcfs = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'java-cannot-find-symbol-error-inline', meta: { name: name, age: age, page: 'java-cannot-find-symbol-error' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

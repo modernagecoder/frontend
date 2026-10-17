@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Java cannot find symbol error](/java-cannot-find-symbol-error)
 - [Code.org App Lab help](/code-org-app-lab-help)
 - [CodeHS help for students](/codehs-help-for-students)
 - [MakeCode Arcade help](/makecode-arcade-help-for-students)

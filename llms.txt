@@ -670,6 +670,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - MakeCode Arcade help: https://learn.modernagecoders.com/makecode-arcade-help-for-students
 - CodeHS help for students: https://learn.modernagecoders.com/codehs-help-for-students
 - Code.org App Lab help: https://learn.modernagecoders.com/code-org-app-lab-help
+- Java cannot find symbol error: https://learn.modernagecoders.com/java-cannot-find-symbol-error
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -180,7 +180,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 150 | roblox-studio-errors-fixed (rsef, #613C31) | tools | 4,892 | 1.1% vs python-indentation-error-explained | phase T | defensive programming (expect failure, protect the call, report clearly) | 2ded3e19 |
 | 151 | makecode-arcade-help-for-students (ma, #27598F) | tools | 4,125 | 1.1% vs python-indentation-error-explained | phase T | motion as numbers (velocity, acceleration, and a condition that guards an action | 8aeb5a93 |
 | 139 | codehs-help-for-students (cox, #7A4025) | tools | 4,499 | 1.6% vs congressional-app-challenge-guide | phase T | return values and testing (a function hands back a value; a test checks it) | c09ebd18 |
-| 140 | code-org-app-lab-help (coal, #144785) | tools | 4,179 | 2.1% vs codehs-help-for-students | phase T | events and state (a handler runs on each event; state that must survive lives ou | (this commit) |
+| 140 | code-org-app-lab-help (coal, #144785) | tools | 4,179 | 2.1% vs codehs-help-for-students | phase T | events and state (a handler runs on each event; state that must survive lives ou | e550bb37 |
+| 141 | java-cannot-find-symbol-error (jcfs, #1B158F) | tools | 4,847 | 1.9% vs python-indentation-error-explained | phase T | scope and declaration (a name exists only where it was declared) | (this commit) |
 
 ## Skipped
 
