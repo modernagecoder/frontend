@@ -24057,6 +24057,18 @@
   to = "/src/pages/ai-classes-for-middle-school-students.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ai-projects-for-middle-school-students"
+  to = "/src/pages/ai-projects-for-middle-school-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-projects-for-middle-school-students.md"
+  to = "/src/pages/ai-projects-for-middle-school-students.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
