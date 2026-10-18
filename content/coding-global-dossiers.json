@@ -1895,40 +1895,65 @@
     ]
   },
   "coding-classes-in-maryland": {
-    "market": "Maryland (US state)",
-    "bodyClass": "cg-md",
-    "curriculumAuthority": "Blueprint for Maryland's Future, College and Career Readiness standard. Students are expected to meet the CCR standard BY THE END OF TENTH GRADE, with reevaluation in eleventh and twelfth. Three route groups: Option 1 academic benchmarks (cumulative unweighted GPA 3.0 at end of 10th or 11th AND a final grade of A/B/C in Algebra 1 or Performance Level 3/4 on Algebra 1 MCAP); Option 2 standardized test benchmarks (Level 3/4 on ELA 10 MCAP AND a qualifying Algebra MCAP level or SAT math 520 minimum); Option 3 career connected benchmarks from 2025-2026, nine further measures incl. two dual enrollment courses, AP 3+, IB 4+, ACT WorkKeys Silver+, industry credentials, registered apprenticeships, ASVAB 50+. Just over 50 per cent met the standard at the end of 2024-25. DELIBERATELY NOT the 'state CS standards adopted in year X' axis, which all nine existing US and Canadian pages already use. The argument is TIMING: the decisive checkpoint is two years earlier than most states, so middle school and ninth grade are the years that matter, and Algebra 1 is load-bearing in more than one route.",
-    "localProject": "An OR across many tests is not one measurement. A learner writes a CCR checker that returns true if ANY route is satisfied, then proves in their own output that adding a clause to an OR can only ever grow the pass set, never shrink it. So a rising readiness rate cannot distinguish students improving from a door being added, and MSDE analysis documents that adding the HSGPA route INCREASED the percentage meeting the standard. The fix is to publish the rate with the definition and the date it last changed, then re-run the old definition on the new data. Checked against all 47 built pages; unused.",
+    "market": "Maryland",
+    "bodyClass": "cg-aim",
+    "pageType": "city",
+    "curriculumAuthority": "Maryland, read raw 17 October 2026: msde.maryland.gov returned 403 (not retried; no MSDE wording printed). Maryland General Assembly, Education Article 4-111.4 (each public high school offers at least one CS course from 2021-2022; high quality, State Board standards; efforts in elementary and middle school). COMAR 13A.03.02.03 B (21 credits, three maths, technology education credit) and C (from 9th grade 2021-2022: 22 credits, four maths, one credit in computer science, engineering, or technology education). Code.org (2025): access 83% to 100% (219 of 219, 2024-25); participation 14.5%, 15.6%, 16.69% (46,157 of 276,484). College Board AP schools 370 and 374. IANA America/New_York and US DST rule.",
+    "localProject": "data.maryland.gov MARC Trains Stations (ida8-wrms, ridership based on MTA FY2019) and MARC Train Parking (x5r3-3hbx), MD iMAP/MTA, provided as is; downloaded 17 October 2026. 44 stations (MD 38, DC 3, WV 3; Brunswick 19, Penn 13, Camden 12) and 44 parking rows; name-only join 50 pairs, composite join 44 of 44; our per-line sums Penn 14,509 spaces and 12,110 riders, Camden 11,668 and 1,913, Brunswick 8,008 and 2,862; Union Station 2,194 spaces on three rows, column sum 34,185; Greenbelt 3,999 spaces. Lesson family: two-table join on a composite key.",
     "requiredMentions": [
-      "College and Career Readiness standard",
-      "Performance Level 3 or 4 on the Algebra 1 MCAP",
-      "ELA 10 MCAP",
-      "ACT WorkKeys",
-      "registered apprenticeships",
-      "ASVAB",
-      "Prince George",
-      "Anne Arundel",
-      "can only ever grow the answer",
-      "career connected benchmarks"
+      "Education Article 4-111.4",
+      "COMAR 13A.03.02.03",
+      "Computer science, engineering, or technology education",
+      "a minimum of 22 credits",
+      "minimum of 21 credits",
+      "46,157 of 276,484",
+      "44 of 44",
+      "34,185",
+      "Fiscal Year 2019"
     ],
     "sources": [
       {
-        "claim": "CCR standard expected by the end of tenth grade with reevaluation in 11th and 12th; Option 1, 2 and 3 routes with exact thresholds including GPA 3.0, Algebra 1 A/B/C, Algebra 1 MCAP Level 3/4, ELA 10 MCAP Level 3/4, SAT math 520, AP 3+, IB 4+, ACT WorkKeys Silver+, ASVAB 50+.",
-        "url": "https://www.hcpss.org/college-career-readiness/ccr-standard/"
+        "claim": "Maryland General Assembly: Education Article 4-111.4, high school computer science offering.",
+        "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=ged&section=4-111.4"
       },
       {
-        "claim": "Maryland State Board of Education CCR Standard policy document, adopted March 2025.",
-        "url": "https://marylandpublicschools.org/stateboard/Documents/CCR-Standard-Policy-Adopted-03-2025-A.pdf"
+        "claim": "Library of Maryland Regulations: COMAR 13A.03.02.03, Enrollment and Credit Requirements.",
+        "url": "https://regs.maryland.gov/us/md/exec/comar/13A.03.02.03"
       },
       {
-        "claim": "Adding an alternative route via high school GPA increased the percentage of students meeting the CCR standard and improved accuracy for predicting first-year college credits earned.",
-        "url": "https://news.maryland.gov/msde/empirical-ccr-standard/"
+        "claim": "Code.org (2025), State of AI + CS Education data: Maryland access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Maryland open data: MARC Trains Stations.",
+        "url": "https://data.maryland.gov/d/ida8-wrms"
+      },
+      {
+        "claim": "Maryland open data: MARC Train Parking.",
+        "url": "https://data.maryland.gov/d/x5r3-3hbx"
+      },
+      {
+        "claim": "MD iMAP: MARC Trains Stations layer and licence text.",
+        "url": "https://mdgeodata.md.gov/imap/rest/services/Transportation/MD_Transit/FeatureServer/6"
+      },
+      {
+        "claim": "IANA tzdb: America/New_York and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
       }
     ],
     "rejectedClaims": [
-      "Any claim that these classes count toward the CCR standard, appear on a Maryland transcript, or award state credit. They do not, and the page says so twice.",
-      "A published weekday evening class slot on Eastern Time. That is the early hours in India and staffing is unconfirmed, so the page uses the approved wording (weekend easiest, weekday case by case, confirmed on the call) and explains why in a dedicated paragraph.",
-      "A Maryland state CS standards spine. Available but rejected: all nine existing US and Canadian pages in this cluster already use adopted-CS-standards as their axis, so a tenth would read as a clone. The CCR timing argument is genuinely different."
+      "Maryland CS standards content or adoption year: not printed; msde.maryland.gov returned 403 and was not retried.",
+      "That computer science alone is a Maryland graduation requirement: refused; the credit slot names computer science, engineering, or technology education.",
+      "Education Article 4-111.4 (c)(2) enrollment groups: not used (identity content).",
+      "100% access as every student having a seat: refused; printed as 219 of 219 schools in Code.org's count.",
+      "Code.org urban, rural, size, gender and race breakdowns: not used.",
+      "Current MARC ridership: not claimed; the file states FY2019, and only our sums are printed, labelled as ours.",
+      "That our classes earn Maryland credit: refused.",
+      "Any affiliation with MSDE, the MTA, MD iMAP, Code.org or the College Board."
     ]
   },
   "coding-classes-in-british-columbia": {

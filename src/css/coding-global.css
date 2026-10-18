@@ -1727,3 +1727,4 @@
 
 /* United States cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */
 .cg-root.cg-ncar  { --cg-accent: #276910; --cg-accent-soft: rgba(39,105,16,.10); }   /* North Carolina: a muted longleaf-pine green chosen with the accent picker (hue 104, s .85, v .41), 89+ RGB units from the other US accents and 9 from every other site colour, contrast 5.47 on the paper */
+.cg-root.cg-aim  { --cg-accent: #3D5466; --cg-accent-soft: rgba(61,84,102,.10); }   /* Maryland: #3D5466, a slate Chesapeake grey-blue from the allocation table, muted, distinct from the North Carolina green and the brighter US blues, with sound text contrast on the paper */

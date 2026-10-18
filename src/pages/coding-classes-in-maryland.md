@@ -1,391 +1,245 @@
 ---
-title: "Online Coding Classes in Maryland | Modern Age Coders"
-description: "Live online coding and math classes for Maryland students, ages 6 to 67, planned around a readiness standard that lands at the end of tenth grade. Free first class."
+title: "Coding and AI Classes in Maryland | Live Online"
+description: "Live online coding and AI classes for Maryland students: the high school CS offering law, the CS credit slot in the diploma, state data, and a MARC rail project."
 canonical: https://learn.modernagecoders.com/coding-classes-in-maryland
 source: src/pages/coding-classes-in-maryland.html
 ---
-> Live online coding and math classes for Maryland students, ages 6 to 67, planned around a readiness standard that lands at the end of tenth grade. Free first class.
+> Students who entered ninth grade from 2021 to 2022 need one credit in computer science, engineering, or technology education among 22 credits, under COMAR 13A.03.02.03, so computer science is one way to meet it rather than a must. Separately, Education Article 4-111.4 requires every public high school to offer at least one computer science course. Modern Age Coders runs live online classes for Maryland learners at every stage, with AP Computer Science A for juniors and seniors.
 
-[Home](/) / [United States](/coding-classes-in-united-states) / Coding Classes in Maryland
+[Home](/) / [United States](/coding-classes-in-united-states) / Maryland
 
-Maryland / Live online
+Maryland, United States / Live online
 
-# Maryland decides readiness at the end of tenth grade, not twelfth
+# Coding and AI classes in Maryland
 
-The short answer
+**Do Maryland students need computer science to graduate?** Students who entered ninth grade from 2021 to 2022 need one credit in computer science, engineering, or technology education among 22 credits, under COMAR 13A.03.02.03, so computer science is one way to meet it rather than a must. Separately, Education Article 4-111.4 requires every public high school to offer at least one computer science course. Modern Age Coders runs live online classes for Maryland learners at every stage, with AP Computer Science A for juniors and seniors.
 
-Under the Blueprint for Maryland's Future, students are expected to meet the College and Career Readiness standard by the end of tenth grade, with reevaluation in eleventh and twelfth. Algebra 1 appears in more than one route to meeting it. Modern Age Coders teaches live online coding and math to ages 6 to 67 in Maryland, in groups of fifteen to twenty or one to one, from USD 100 a month. The first class is free.
+Maryland wrote computer science into two layers of law. A statute tells every county board that each public high school must offer at least one computer science course, beginning in the 2021 to 2022 school year. A State Board regulation then rewrote the diploma itself for students entering ninth grade from that same year: 22 credits instead of 21, four of maths instead of three, and a credit slot that now reads computer science, engineering, or technology education where it used to read technology education alone. This page quotes both texts as published, sets out how far access and enrollment have moved since, and finishes with a rail data project that teaches Maryland students how two tables are joined, and how one repeated name can quietly break the join.
 
-Most states settle the question in junior and senior year. Maryland moved it two years earlier, and almost nothing about how families plan has caught up. If the checkpoint lands at the end of tenth grade, then middle school and ninth grade are the years that matter, and eleventh grade is late rather than early.
+Facts last verified 18 October 2026. Teaching is online; no Maryland branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
-Modern Age Coders teaches from India to families across Maryland. Lessons are live online and there is no Maryland location. On the time difference we are deliberately conservative: weekend slots are easiest on Eastern Time, weekday slots are agreed case by case, and nothing is promised before the free call.
+## Four Maryland starting points, chosen by grade
 
-Book the free first class[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland.)Read the Maryland evidence
+The free first class places your student at the right level within any of these.
 
-No card. No obligation. We call, we do not spam.
+- [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Grades K to 5): Block-based games and apps that build the habits the county elementary efforts aim for, a little ahead of schedule.
+- [Python for Teens](/courses/python-complete-masterclass-teens) (Grades 7 to 12): Python for teens, including the MARC station and parking join from this page, written line by line.
+- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course) (Grades 10 to 12): Java and the AP Computer Science A course and exam, for students taking it in school or on their own.
+- [Full Stack Web Development for Teens](/courses/full-stack-web-development-teens-masterclass) (Grades 9 to 12): React and Node.js projects for teens who want to build something people can actually use.
 
-Facts last verified 17 August 2026. Teaching is online; no Maryland location is claimed.
+The four we are known for, on every market page:
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for Maryland
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
 
-## Four sensible starting points, not one course for everybody
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-Four entry points, read against a state that decides readiness at the end of tenth grade. An elementary beginner, a middle schooler who needs Algebra 1 to stop being frightening, a ninth or tenth grader with the CCR checkpoint ahead of them, and an adult. We place on what a learner can do, because a transcript does not show that.
+## Two Maryland rules: every high school offers CS, and the diploma has a CS credit slot
 
-[![Kids Coding Blocks Masterclass course thumbnail](/images/kids-coding.webp)  Ages 6 to 10 Kids Coding Blocks Masterclass Sequencing, conditions and debugging before syntax becomes the distraction. See the syllabus](/courses/kids-coding-blocks-masterclass)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Ages 9 to 14 Maths Through Coding Variables, coordinates and patterns become things a learner can run and test. See the syllabus](/courses/maths-through-coding)[![Python Complete Masterclass for Teens course thumbnail](/images/python-teens.webp)  Ages 13 to 18 Python Complete Masterclass for Teens A structured move from logic to functions, data and independent programs. See the syllabus](/courses/python-complete-masterclass-teens)[![HTML and CSS for Beginners course thumbnail](/images/html-css-beginners.webp)  Teens and adults HTML and CSS for Beginners Something finished and shareable early, which keeps a learner in the room long enough for the harder work to land. See the syllabus](/courses/html-css-course-for-beginners-build-real-websites)
+The statute from the Maryland General Assembly and the regulation from the Library of Maryland Regulations, both read on 17 October 2026.
 
-That is four of more than a hundred. The rest, sorted by age and subject, sit on the [course atlas](/course-atlas), and the order we teach them in is on the [coding roadmap](/coding-roadmap).
+**Maryland computer science rules as written in the statute and the regulation**
 
-The four we are known for
+| Text | What it says |
+|---|---|
+| Education Article 4-111.4 (a) | Beginning in the 2021 to 2022 school year, each county board shall require each public high school in the county to offer at least one computer science course |
+| Education Article 4-111.4 (b) | The course shall be of high quality and meet or exceed the curriculum standards and requirements established by the State Board |
+| Education Article 4-111.4 (c)(1) | County boards shall make efforts to incorporate computer science instruction in each public elementary and middle school |
+| COMAR 13A.03.02.03 C | Students entering 9th grade from the 2021 to 2022 school year need a minimum of 22 credits for a diploma |
+| COMAR 13A.03.02.03 C (8) | Computer science, engineering, or technology education: one credit that includes the study of computers and algorithmic processes, or applying knowledge, tools and skills to practical problems |
 
-### Python, AI, vibe coding and agentic coding
+### The older diploma
 
-These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+Students who entered 9th grade in 2020 to 2021 or earlier fall under clause B: a minimum of 21 credits, three in maths, and one credit in technology education, with no computer science wording at all.
 
-[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)Maryland evidence / verified 17 August 2026
+### The newer diploma
 
-## One standard, and about a dozen ways to meet it
+Clause C raises the total to 22 credits, requires four maths credits, and widens the credit slot so that a computer science course is one of three named ways to fill it.
 
-The routes matter more than the label, because they tell you what to actually work on.
+### A choice, not a mandate
 
-The College and Career Readiness standard exists to establish that a graduate has the knowledge and skills to complete entry-level credit-bearing college courses and to work in high-wage, high-demand industries. Students are expected to meet it **by the end of tenth grade**, and can be reevaluated in eleventh and twelfth.
+Because the slot reads computer science, engineering, or technology education, a Maryland student can graduate without computer science. What changed is that every high school must now offer it.
 
-There is no single test. There are three groups of routes, and a student needs only one of them.
+We could not read the Maryland State Department of Education site, which refused our requests, so this page says nothing about the adoption date or the content of Maryland&rsquo;s computer science standards beyond what the statute says: that the high school course must meet the standards set by the State Board. A counselor can tell you which courses at your student&rsquo;s school count toward the credit slot.
 
-| Route | What it requires |
-| --- | --- |
-| Option 1, academic benchmarks | Cumulative unweighted GPA of 3.0 at the end of tenth or eleventh grade, and a final grade of A, B or C in Algebra 1, or Performance Level 3 or 4 on the Algebra 1 MCAP |
-| Option 2, standardized test benchmarks | Level 3 or 4 on the ELA 10 MCAP, together with a qualifying Algebra MCAP level or a minimum SAT math score of 520 |
-| Option 3, career connected benchmarks, beginning 2025 to 2026 | Nine further measures, including a one-year GPA of 3.0 or above in eleventh or twelfth grade with a C or better in math, two dual enrollment courses, AP scores of 3 or above, IB scores of 4 or above, ACT WorkKeys at Silver or above, state-approved industry credentials, registered apprenticeships, or an ASVAB score of 50 or above |
+## Full access in the count, and one student in six enrolled
 
-Two things follow from that table, and only one of them is comfortable
+Values for Maryland only, each with the dataset and tab it came from.
 
-The comfortable one is that a family has options, which is genuinely good and is clearly the intent. The uncomfortable one is that the headline readiness rate is now the result of an OR across roughly a dozen different measures, so it can move without any student getting better. Maryland's own analysis makes this explicit: adding a high school GPA route *increased* the percentage of students meeting the standard. That is not a criticism of the policy. It is a fact about what the number can and cannot tell you, and it is the subject of the data project further down this page.
+**Code.org (2025) access trend for Maryland high schools**
 
-For context on scale, a little more than 50 per cent of students met the standard at the conclusion of the 2024 to 2025 school year.
+| Year | Maryland high schools offering CS |
+|---|---|
+| 2018 to 2019 | 83% |
+| 2019 to 2020 | 90% |
+| 2020 to 2021 | 92% |
+| 2021 to 2022 | 98% |
+| 2022 to 2023 | 99% |
+| 2023 to 2024 | 100% |
+| 2024 to 2025 | 100%, which is 219 of 219 high schools in Code.org&rsquo;s count |
 
-Sources: [Howard County Public School System on the CCR standard](https://www.hcpss.org/college-career-readiness/ccr-standard/) for the end-of-tenth-grade expectation and the three option groups with their thresholds, the [Maryland State Board CCR Standard policy document, March 2025](https://marylandpublicschools.org/stateboard/Documents/CCR-Standard-Policy-Adopted-03-2025-A.pdf), and [MSDE on the American Institutes for Research empirical study](https://news.maryland.gov/msde/empirical-ccr-standard/) for the finding that the GPA route increased the percentage meeting the standard. Verified 17 August 2026.
+**Enrollment and AP schools in Maryland**
 
-The most actionable detail on this page
+| Measure | Maryland | Source |
+|---|---|---|
+| High school students in CS, 2020 to 2021 | 14.5% | Participation over the years tab, Code.org |
+| High school students in CS, 2022 to 2023 | 15.6% | Participation over the years tab, Code.org |
+| High school students in CS, 2024 to 2025 | 46,157 of 276,484, or 16.69% | Latest participation tab, Code.org |
+| Schools with AP exams, 2023 | 370 | College Board state AP school report |
+| Schools with AP exams, 2024 | 374 | College Board state AP school report |
 
-## Algebra 1 is load-bearing in more than one direction
+### The statute in the numbers
 
-If you read the routes for what they have in common, one subject keeps appearing.
+Access climbed from 83% in 2018 to 2019 to 98% in 2021 to 2022, the first year of the offering rule, and has stood at 100% in Code.org&rsquo;s count for the two latest years.
 
-Option 1 asks for a grade of A, B or C in Algebra 1, or Performance Level 3 or 4 on the Algebra 1 MCAP. Option 2 runs through the ELA 10 MCAP together with a qualifying Algebra MCAP level, or an SAT math score of 520 or better. Option 3's first career connected measure asks for a C or better in math alongside the GPA.
+### Read 100% carefully
 
-Whichever door a Maryland student goes through, algebra is usually standing in it. That is worth knowing before choosing an after-school activity, and it is the reason we do not sell coding and mathematics as two separate products. A learner who is shaky on algebra and enthusiastic about coding is common, and the coding is often the best available route back into the algebra, because a variable stops being abstract the moment a program depends on it.
+It means 219 of the 219 high schools Code.org counted, from state education agency data. It does not mean every course is full, or that every student can fit one in.
 
-### Elementary, before any of this
+### Enrollment is the next step
 
-Ordering, counting and predicting what a thing will do before running it. No syntax, no pressure, and the best possible foundation for algebra later.
+With access complete, the participation line matters more: 14.5% to 16.69% over the years with values. Two school years have no Maryland value and are left blank.
 
-### Middle school, the strongest window
+### How to cite these figures
 
-This is where a Maryland family gets the most for the time, because it sits before the checkpoint rather than after it. Blocks into Python, and algebra made concrete.
+Access and participation: Code.org (2025). 2025 State of AI + CS Education, published data sheet, Maryland rows. AP schools: College Board, School Report of AP Exams by State. We quote values; we do not republish either dataset.
 
-### Ninth and tenth grade
+## Joining MARC stations to MARC parking: a two-table project on Maryland open data
 
-The checkpoint years. Narrow the goal, protect the algebra grade, and treat anything optional as optional.
+Maryland publishes one table of MARC train stations with average ridership and another of MARC parking lots with space counts. Students join them to compare parking with riders, line by line.
 
-### Eleventh and twelfth
+**MARC lines after joining stations to parking (our calculation from data.maryland.gov tables, downloaded 17 October 2026)**
 
-Reevaluation is possible, so it is not over. But the honest recommendation here is one lesson a week on something specific, often a portfolio, rather than a general course.
+| Line | Stations matched | Our sum of parking spaces | Our sum of average weekday riders |
+|---|---|---|---|
+| Penn | 13 | 14,509 | 12,110 |
+| Camden | 12 | 11,668 | 1,913 |
+| Brunswick | 19 | 8,008 | 2,862 |
 
-Nothing here awards Maryland credit, appears on a transcript, or counts toward the CCR standard by itself. What it can do is work on the mathematics and reasoning that two of the three route groups actually measure. Learners join from Montgomery County, Prince George's County, Baltimore County, Anne Arundel, Howard County, Frederick and Baltimore City without anybody driving anywhere.
+### 1. Two tables, one key
 
-Alignment
+The stations table has 44 rows: 38 in Maryland, 3 in the District of Columbia and 3 in West Virginia. The parking table also has 44. A first attempt joins on the station name alone.
 
-## What Maryland measures, and which course answers it
+### 2. The join that lies
 
-Left is the requirement as the state states it. Right is what we would teach against it.
+Union Station appears three times in each table, once per line. Joining on name alone produces 50 pairs from 44 stations, with each Union Station row matched three times. Nothing errors; the totals are simply wrong.
 
-CCR by end of grade 10
+### 3. A composite key
 
-The decisive checkpoint, two years earlier than most states place it.
+Joining on name and line together matches 44 of 44 rows exactly once. Students learn to count rows before and after every join, the cheapest test in data work.
 
-Work in middle school and ninth grade, when it is still cheap. By tenth the sensible move is to narrow rather than add.
+**One garage, counted three times** Each Union Station parking row carries the same 2,194 spaces, so adding the whole column gives 34,185 spaces with that one facility counted three times. Spotting a repeated value that should be counted once is the second lesson hiding in the data.
 
-Algebra 1, grade of A, B or C
+### Our numbers, state data
 
-Appears in Option 1 directly, and again through the Algebra MCAP in Option 2.
+The sums and matches above are ours. The station file says its ridership is based on the MTA&rsquo;s Fiscal Year 2019, so these are not current figures. MD iMAP provides the data as is, without warranty, and neither the MTA nor the state has checked our results. Greenbelt shows the largest lot, 3,999 spaces, against 34 average weekday riders in that file: a number worth questioning, not quoting.
 
-Mathematics taught alongside coding, not sold separately. A variable stops being abstract when a program depends on it.
+## Eastern Time from Garrett County to Ocean City
 
-SAT math 520 minimum
+All of Maryland keeps Eastern Time, America/New_York in the IANA database, while our teachers keep India time.
 
-An alternative inside Option 2 for students who would rather test than accumulate a GPA.
+### The gap
 
-Problem decomposition and the habit of checking an answer, which is most of what a timed math section rewards.
+Through the summer India is 9 hours 30 minutes ahead of Baltimore; once the clocks change in November, the gap is 10 hours 30 minutes.
 
-Cumulative unweighted GPA 3.0
+### The dates
 
-A route that depends on consistency across every subject rather than one performance.
+This school year the US switch dates are November 1, 2026, back an hour, and March 14, 2027, forward an hour, from the IANA rule for the United States.
 
-Nothing we teach affects this, and we will say so. Adding a commitment to a struggling GPA year is the wrong advice.
+### Booked in Eastern
 
-Career connected benchmarks, from 2025 to 2026
+Every confirmation, reminder and change of time is written in Eastern Time, so a family in Frederick or Salisbury never converts anything.
 
-Nine further measures, including dual enrollment, AP, IB, industry credentials and apprenticeships.
+## Rungs from first loops to AP and AI
 
-A real portfolio of finished, working software. It is not one of the nine, and we would not claim it is, but it is what an application reads.
+Use the grades as a rough guide; the free class confirms the right rung.
 
-If your child is in middle school in Maryland, this is the cheapest year you will ever have to work on the algebra. Worth a five-minute conversation.
+- **Grades K to 5: Blocks and stories** Scratch animations and games, and a gentle first look at what AI is and is not. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
+- **Grades 6 to 8: Typed code** Python through games and turtle drawings, or a Roblox route into Luau for game-minded students. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Roblox Game Coding for Kids](/courses/roblox-game-coding-for-kids-lua-course)
+- **Grades 9 to 10: Toward the credit** Java or Python at depth, the kind of course that fits Maryland&rsquo;s computer science credit slot. [Java for Teens](/courses/java-programming-masterclass-for-teens), [Python for Teens](/courses/python-complete-masterclass-teens)
+- **Grades 11 to 12: AP and machine learning** AP Computer Science Principles, then machine learning built on data the student understands. [AP Computer Science Principles](/courses/ap-computer-science-principles-exam-prep-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
 
-[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland.)Book the free classPlacement
+## An AI tool can write the join. Can it tell that the answer is wrong?
 
-## A course ladder that leaves room for school
+The MARC project shows why Maryland&rsquo;s computer science credit still matters in the age of AI.
 
-It opens with building something and explaining it out loud. The typed and technical rungs wait until a learner can find their own mistake unaided. For a Maryland ninth or tenth grader the ladder is read against the CCR checkpoint, and Algebra 1 support takes priority over anything optional. Adults enter at the point their goal and prior knowledge support.
+Ask an AI assistant to merge the station and parking tables and it will happily produce code that joins on the station name. The code runs, the output looks tidy, and Union Station is counted three times over. Only someone who knows to check the row count before and after the join will notice.
 
-### Builders
+That check is the whole difference between using a tool and understanding it. Students who have written joins by hand can let an AI assistant draft the routine code, then test the result the way an analyst would, and explain to anyone why their totals can be trusted.
 
-Ages 6 to 10
+Maryland now offers computer science in every high school; the students who get most from it are the ones who learn to test an answer, not just generate one. The longer argument is in [is coding still worth learning in 2026](/blog/is-coding-worth-learning-2026).
 
-- [Kids Coding Blocks](/courses/kids-coding-blocks-masterclass)
-- [Scratch Programming](/courses/scratch-programming-complete-course)
-- [Creative Coding and Animation](/courses/creative-coding-animation-mastery)
-- [Early Maths Foundations](/courses/early-math-foundations)
+## From the mountains to the Eastern Shore, one live class
 
-### Problem solvers
+Maryland runs from the Appalachian west to the Atlantic coast; an online class reaches all of it on the same terms.
 
-Ages 11 to 13
+- **From home** A student in Cumberland and one in Annapolis can share the same batch, each at their own desk, with no evening drive after school.
+- **Fits the school program** Teachers use US grades and understand the Maryland credit slot, so a ninth grader can build depth alongside a school CS course. Graded school work remains the student&rsquo;s own.
+- **Matched groups** Fifteen to twenty learners per batch, all near the same level, joining from Maryland and other states.
+- **One to one** A private teacher for AP preparation, competitions, or a student who wants a quicker pace than a group allows.
+- **Your timetable** Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
+- **A free lesson first** One full class with a real teacher, then a suggested level, course and time. No payment details at that stage.
 
-- [Maths Through Coding](/courses/maths-through-coding)
-- [Python and AI for Kids](/courses/python-ai-kids-masterclass)
-- [Kids AI Web Development](/courses/kids-ai-web-development-course)
-- [Middle School Mathematics](/courses/comprehensive-middle-school-mathematics-mastery)
+**Online only, from India** Modern Age Coders has no office or classroom in Maryland and claims none. Classes are live online from India; a student needs a computer, sound and a dependable connection.
 
-### Independent programmers
+## Fees for Maryland families
 
-Ages 14 to 18
+Three options, each priced below.
 
-- [Python for Teens](/courses/python-complete-masterclass-teens)
-- [HTML and CSS](/courses/html-css-course-for-beginners-build-real-websites)
-- [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web)
-- [High School Mathematics](/courses/complete-high-school-mathematics-mastery)
+- First class: USD 0. A complete first lesson at no charge, with a recommended level, course and slot.
+- Group tuition: USD 100 a month. A month of classes in a batch of fifteen to twenty students at one level.
+- Private tuition: USD 150 a month. A month of classes with a dedicated teacher, one to one.
 
-### Applied study
+Maryland families pay the single US rate in US dollars, the same in Bethesda as in Hagerstown. Billing starts only after the free lesson, once course and times are agreed; the pricing page covers holidays and missed classes.
 
-College and adult, 18 to 67
+## Maryland coding and AI questions
 
-- [Python AI Automation](/courses/python-ai-automation-masterclass-college)
-- [Data Analysis](/courses/data-analysis-mastery-course-college)
-- [Full Stack Web Development](/courses/full-stack-web-development-masterclass-college)
-- [Data Analytics Mathematics](/courses/data-analytics-mathematics-masterclass)
+### Is computer science required to graduate in Maryland?
 
-The complete catalogue is on the [course atlas](/course-atlas), and the method is set out on [how we teach](/how-we-teach).
+Not by itself. COMAR 13A.03.02.03 C requires one credit in computer science, engineering, or technology education for students entering 9th grade from 2021 to 2022, so computer science is one of three ways to meet it.
 
-The student data project
+### Must every Maryland high school offer computer science?
 
-## The rate that rises when you add a door
+Yes. Education Article 4-111.4 says that beginning in 2021 to 2022 each county board shall require each public high school to offer at least one computer science course.
 
-Every market page here works through one analytical trap. Maryland's is provable in about ten lines of code, which is what makes it a good lesson.
+### How many credits does a Maryland diploma need?
 
-The learner is given the three option groups and a headline: the share of Maryland students meeting the CCR standard went up. They are asked the obvious question. Did students get better?
+A minimum of 22 credits for students entering 9th grade from 2021 to 2022, including four maths credits. Students who entered in 2020 to 2021 or earlier need a minimum of 21.
 
-Then they write the checker. A function that takes a student record and returns true if any route is satisfied. Option 1 or Option 2 or any of the nine in Option 3.
+### What about elementary and middle school?
 
-The trap
+The statute asks county boards to make efforts to incorporate computer science instruction in each public elementary and middle school; it does not set a required course at those levels.
 
-Adding a clause to an OR can only ever grow the answer
+### How many Maryland high schools offer computer science?
 
-This is the part a learner can prove rather than be told. Take any set of student records. Run the checker. Now add one more route to the OR and run it again. The set of students who pass either stays the same or gets bigger. It cannot shrink. Not for this data, not for any data, ever, and a learner can see that in the output of their own program in a single afternoon.
+The Code.org 2025 data shows 219 of 219 high schools in its count, or 100%, for 2024 to 2025.
 
-So a rising readiness rate has at least two possible causes that the number cannot distinguish. Students improved, or a door was added. Maryland's own analysis is explicit that adding a high school GPA route increased the percentage meeting the standard, and Option 3 adds nine more measures from 2025 to 2026. None of that makes the policy wrong; the extra routes exist because a single test was a poor measure of a real thing. It makes the *headline* a poor instrument for the question people ask of it.
+### How many Maryland students take computer science?
 
-The fix is boring and it is the whole point. Report the rate alongside the definition and the date the definition last changed. Compare like with like by re-running the old definition on the new data, which the learner then does, and which produces a much less quotable and much more honest number.
+Code.org reports 46,157 of 276,484 high school students, or 16.69%, enrolled in computer science in 2024 to 2025.
 
-Every student record in the classroom exercise is synthetic and generated by the learner. The option groups and thresholds are Maryland's, cited above. Nothing here describes any real Maryland student or school.
+### When are classes for Maryland students?
 
-The question parents ask first
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience. Times are confirmed in Eastern Time, America/New_York.
 
-## Will AI replace programmers before my child graduates?
+### Can your classes fill the Maryland credit slot?
 
-Ask an AI whether Maryland students got better and it will tell you the readiness rate rose, correctly, with a source. It will very likely not tell you that the definition acquired new routes in the same period, because that requires knowing to ask, and the question as posed did not ask.
+No. Only school courses earn Maryland credit. Our classes add depth and projects alongside them, and anything a school grades remains the student's own work.
 
-The work that survives is exactly that: knowing which question to put to a number, noticing that a definition changed, and being unwilling to publish a comparison that is not like for like. The typing was never the scarce part. A learner who has personally watched their own pass rate jump because they added a clause to an `or`, and understood why, has learned something they will use on every dashboard they are ever shown.
+### What does the MARC project teach?
 
-That is also why we teach the mathematics with the code rather than beside it. Two of Maryland's three route groups measure math reasoning, and reasoning is the part a generated answer cannot do on your behalf.
+Joining two tables. Station and parking tables each have 44 rows, and Union Station appears once per line, so a name-only join gives 50 pairs while a name-and-line join matches 44 of 44.
 
-The longer argument, with the evidence: [is coding still worth learning in 2026?](/blog/is-coding-worth-learning-2026) The teaching order is on the [coding roadmap](/coding-roadmap), and what a lesson looks like is on [how we teach](/how-we-teach).
+### Is there a Modern Age Coders center in Maryland?
 
-Live online delivery
+No. We have no premises in Maryland; all classes are live online from India.
 
-## How this runs from Maryland
+## More for Maryland students
 
-Live teaching, live questions, live code review. Nothing pre-recorded.
+For the exam route, see [AP Computer Science A classes](/ap-computer-science-a-online-classes) and [AP Computer Science Principles coaching](/ap-computer-science-principles-online-coaching). Builders can enter the [Congressional App Challenge](/congressional-app-challenge-guide) or look at [summer research programs in coding](/summer-research-programs-coding). All states start from the [United States hub](/coding-classes-in-united-states).
 
-### The free first class
+## Contact
 
-One task pitched at the learner, then a specific recommendation. No fee and no card.
-
-### Fifteen to twenty per group
-
-Grouped by present ability rather than by grade, drawn from the whole intake.
-
-### One to one
-
-For a narrow goal, a checkpoint year, or a portfolio with a deadline attached.
-
-### Twice a week
-
-Normally eight lessons a month. One a week is a reasonable request in a heavy school year.
-
-### Scheduling, honestly
-
-Weekend slots are easiest on Eastern Time. Weekday slots are agreed case by case, never promised in advance.
-
-### What is needed
-
-A laptop or desktop, stable internet, working audio, a current browser. Nothing to buy.
-
-Why we will not print a weekday evening time
-
-A weekday evening on the East Coast is the early hours in India, and we have not confirmed staffing for it. Rather than publish a slot and then negotiate it away, this page publishes what we know: weekend slots are straightforward, weekday slots depend on the week and the group, and every time is agreed on the free call before any payment. If the only slot that works for your family is one we cannot cover, you will hear that instead of a booking.
-
-Fees
-
-## What do coding classes in Maryland cost?
-
-No enrolment charge, nothing to buy, no minimum term.
-
-Group$100per month, 8 classes
-
-For a learner who benefits from hearing how other people solved the same problem, at the shared level of a fifteen to twenty person group.
-
-Private$150per month, 8 classes
-
-For a specific goal, a checkpoint year that needs protecting, or a starting point no current group matches.
-
-Two live lessons a week on either plan. The first session is free and doubles as placement. Prices are published in USD, which is the rate for every market rather than a Maryland one, and payment is arranged after the course and the slot are settled.
-
-Pauses, plan changes and missed classes are covered on the [pricing page](/pricing).
-
-Reviews
-
-## What families say
-
-Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-More, with photographs and student work, on the [wall of love](/love).
-
-FAQ
-
-## Questions Maryland families ask before booking
-
-Including the two we answer against ourselves: this does not count toward the standard, and there is no local office.
-
-### What is the CCR standard and why does tenth grade matter so much in Maryland?
-
-Under the Blueprint for Maryland's Future, students are expected to meet the College and Career Readiness standard by the end of tenth grade, with reevaluation available in eleventh and twelfth. Most systems settle things in the last two years of high school. Maryland moved the checkpoint two years earlier, which means the useful time to act is middle school and ninth grade rather than eleventh.
-
-### Algebra 1 keeps appearing in the CCR routes. Is that deliberate?
-
-It is, and it is the most actionable detail on this page. One route asks for a cumulative unweighted GPA of 3.0 plus a final grade of A, B or C in Algebra 1, or Performance Level 3 or 4 on the Algebra 1 MCAP. Another route runs through ELA 10 MCAP together with an Algebra MCAP level or an SAT math score of at least 520. Algebra 1 is load-bearing in more than one direction, which is why we teach mathematics alongside coding rather than treating them as separate products.
-
-### Does a coding class help meet the CCR standard?
-
-Not directly, and we will not pretend otherwise. Nothing here appears on a Maryland transcript or counts toward the standard by itself. What it can do is help with the underlying mathematics and reasoning that two of the routes actually measure, and that is a narrower claim than most of this industry makes.
-
-### What time are classes, given the time difference from India?
-
-Weekend slots are the easiest to arrange on Eastern Time, and weekday slots are agreed case by case. We are not going to publish a fixed weekday evening slot for the East Coast, because that is the early hours in India and we would rather not promise staffing we have not confirmed. Times are confirmed on the free call before any payment.
-
-### How much do coding classes in Maryland cost?
-
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
-
-### Do you have a location in Maryland?
-
-No. No Maryland office, branch or classroom is claimed. Every lesson is live online from India. A learner needs a laptop or desktop, stable internet, working audio and a current browser. The phone number on this page is Indian rather than a local number.
-
-### Is coding still worth learning now that AI writes it?
-
-Maryland's own readiness data makes the case better than an argument would. A readiness rate can rise because a new way to qualify was added rather than because any student improved, and a person has to notice that. An AI asked whether readiness improved will tell you the number went up, because it did. Knowing which question to ask about a number is the skill, and it is what the class trains.
-
-### My child is in eleventh grade. Is it too late to start?
-
-Not too late, but the honest answer is that the value is different. At that point a narrow goal makes sense, usually one lesson a week on something specific, rather than a full ladder. If the aim is a portfolio for college applications, say so and we will plan for that instead of teaching a general course.
-
-### What ages do you teach, and do you take adults?
-
-Six to sixty-seven. Below about nine the work is ordering, counting and predicting rather than typing. Middle school is the strongest window in Maryland specifically, because it sits before the CCR checkpoint rather than after it. Adults usually arrive with a task in mind rather than a syllabus.
-
-### What happens after we send the form?
-
-Somebody reads it and contacts you to arrange the free session. No card, no charge, and sending the form books a conversation rather than a place in a class.
-
-### Ask before booking
-
-Use [WhatsApp for a question about Maryland timings](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland.) or go straight to the form. Course, format and a workable time are settled before any payment.
-
-Book a free class
-
-## One task, then a straight recommendation
-
-The first session costs nothing. A learner gets a single problem pitched at their age, and the teacher watches how they approach it rather than whether they finish. What comes back is specific: this course, this format, this time. If the honest advice is to wait a year or to work on algebra first, that is what you will hear.
-
-You can also use the [contact page](/contact), or read [about us](/about) first.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-Email is usually easiest from the East Coast given the time difference. The number is Indian, not a Maryland office.
-
-Nearby
-
-## Other places we teach
-
-[Virginia](/coding-classes-in-virginia)[New Jersey](/coding-classes-in-new-jersey)[New York](/coding-classes-in-new-york)[Georgia](/coding-classes-in-georgia)[United States](/coding-classes-in-united-states)
-
----
-
-*Canonical: https://learn.modernagecoders.com/coding-classes-in-maryland*
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-maryland](https://learn.modernagecoders.com/coding-classes-in-maryland#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

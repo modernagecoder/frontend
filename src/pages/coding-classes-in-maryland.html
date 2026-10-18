@@ -1,663 +1,99 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Online Coding Classes in Maryland | Modern Age Coders</title>
-  <meta name="description" content="Live online coding and math classes for Maryland students, ages 6 to 67, planned around a readiness standard that lands at the end of tenth grade. Free first class.">
-  <meta name="author" content="Modern Age Coders">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Coding and AI Classes in Maryland | Live Online</title>
+  <meta name="description" content="Live online coding and AI classes for Maryland students: the high school CS offering law, the CS credit slot in the diploma, state data, and a MARC rail project.">
   <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-in-maryland">
   <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-in-maryland.md" title="Markdown version for AI agents">
-
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <meta name="theme-color" content="#8A4B14">
-
+  <link rel="stylesheet" href="/css/coding-global.css?v=20260907">
+  <style>
+.cg-root.cg-aim .cg-hero-grid { align-items: center; gap: clamp(0.9rem, 2.6vw, 2.2rem); }
+.cg-root.cg-aim .cg-hero h1 { font-weight: 700; letter-spacing: -0.015em; line-height: 1.07; }
+.cg-root.cg-aim .cg-capsule { border-left: 4px double var(--cg-accent); padding-left: 1rem; }
+.cg-root.cg-aim .cg-eyebrow { letter-spacing: 0.13em; font-weight: 660; font-size: 0.77rem; text-transform: uppercase; }
+.cg-root.cg-aim .cg-section-head h2 { max-width: 33ch; letter-spacing: -0.009em; }
+.cg-root.cg-aim .cg-grid-3 { gap: clamp(0.9rem, 2vw, 1.6rem); }
+.cg-root.cg-aim .cg-table caption { font-weight: 660; text-align: left; }
+.cg-root.cg-aim .cg-table td { font-variant-numeric: tabular-nums; }
+.cg-root.cg-aim .cg-ladder-col { border-top: 2px solid var(--cg-accent); padding-top: 1rem; }
+.cg-root.cg-aim .cg-callout { border-left-width: 4px; }
+  </style>
+  <link rel="icon" href="/favicon.ico">
   <meta property="og:type" content="website">
+  <meta property="og:title" content="Coding and AI Classes in Maryland | Live Online">
+  <meta property="og:description" content="Every Maryland public high school must offer computer science, and newer students need a CS, engineering or technology credit. The rules, the figures and live classes.">
   <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-in-maryland">
-  <meta property="og:title" content="Online Coding Classes in Maryland | Modern Age Coders">
-  <meta property="og:description" content="Maryland decides readiness at the end of tenth grade, not twelfth. That changes when a family should act, and Algebra 1 is load-bearing in more than one route.">
-  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/python-teens.webp">
   <meta property="og:site_name" content="Modern Age Coders">
   <meta property="og:locale" content="en_US">
-
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Coding Classes in Maryland">
-  <meta name="twitter:description" content="Live coding and math for Maryland, planned around the tenth grade readiness checkpoint, with published fees and a free first class.">
-  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
-
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="geo.region" content="US-MD">
+  <meta name="twitter:title" content="Coding and AI Classes in Maryland | Live Online">
+  <meta name="twitter:description" content="Maryland coding and AI classes, live online, built around the state CS rules and MARC data.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/python-teens.webp">
+  <meta name="geo.region" content="US">
   <meta name="geo.placename" content="Maryland">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/coding-global.css?v=20260817">
-
-  <!-- PAGE PERSONALITY. Guide section 19. Override-only, every selector prefixed
-       .cg-root.cg-md, whitelisted properties, no new class names. Deleting it leaves
-       the page intact.
-       The subject is one standard with about a dozen doors into it, so the page is
-       set as an enumeration: two wide columns instead of three or four narrow ones,
-       a lighter heading weight so long option names stay readable, and a double rule
-       to mark the one place where the counting argument lands. -->
-  <style>
-  .cg-root.cg-md .cg-hero-grid        { grid-template-columns: 1.3fr 1fr; }
-  .cg-root.cg-md .cg-grid-3           { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1.5rem; }
-  .cg-root.cg-md .cg-section-head h2  { font-weight: 500; letter-spacing: -0.02em; }
-  .cg-root.cg-md .cg-spec             { border: 0; border-top: 3px double var(--cg-accent); padding-top: 1.1rem; }
-  .cg-root.cg-md .cg-align-row        { border-bottom: 1px solid var(--cg-rule); padding-bottom: 0.9rem; }
-  .cg-root.cg-md .cg-table td         { line-height: 1.45; }
-  @media (max-width: 900px) {
-    .cg-root.cg-md .cg-hero-grid      { grid-template-columns: 1fr; }
-    .cg-root.cg-md .cg-grid-3         { grid-template-columns: 1fr; }
-  }
-  </style>
-
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
-
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#3D5466">
   <script type="application/ld+json" data-price-scope="coding.international">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "EducationalOrganization",
-        "@id": "https://learn.modernagecoders.com/#org",
-        "name": "Modern Age Coders",
-        "url": "https://learn.modernagecoders.com",
-        "logo": "https://learn.modernagecoders.com/images/logo.svg",
-        "foundingDate": "2020",
-        "areaServed": { "@type": "State", "name": "Maryland" },
-        "knowsAbout": ["Computer Science Education", "Algebra 1", "Python", "Mathematics", "Algorithms", "Data Analysis", "Web Development", "Scratch", "Computational Thinking"]
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
-          { "@type": "ListItem", "position": 2, "name": "United States", "item": "https://learn.modernagecoders.com/coding-classes-in-united-states" },
-          { "@type": "ListItem", "position": 3, "name": "Maryland", "item": "https://learn.modernagecoders.com/coding-classes-in-maryland" }
-        ]
-      },
-      {
-        "@type": "Course",
-        "name": "Live Online Coding and Math Classes for Maryland Students",
-        "description": "Live online coding and mathematics in small groups or private lessons, matched to each learner's present level and planned around Maryland's tenth grade College and Career Readiness checkpoint.",
-        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
-        "educationalLevel": "Elementary, Middle School, High School, College, Adult",
-        "inLanguage": "en",
-        "hasCourseInstance": {
-          "@type": "CourseInstance",
-          "courseMode": "Online",
-          "courseWorkload": "PT2H",
-          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/coding-classes-in-maryland" }
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "100",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://learn.modernagecoders.com/coding-classes-in-maryland"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {"@type": "Question", "name": "What is the CCR standard and why does tenth grade matter so much in Maryland?", "acceptedAnswer": {"@type": "Answer", "text": "Under the Blueprint for Maryland's Future, students are expected to meet the College and Career Readiness standard by the end of tenth grade, with reevaluation available in eleventh and twelfth. Most systems settle things in the last two years of high school. Maryland moved the checkpoint two years earlier, which means the useful time to act is middle school and ninth grade rather than eleventh."}},
-          {"@type": "Question", "name": "Algebra 1 keeps appearing in the CCR routes. Is that deliberate?", "acceptedAnswer": {"@type": "Answer", "text": "It is, and it is the most actionable detail on this page. One route asks for a cumulative unweighted GPA of 3.0 plus a final grade of A, B or C in Algebra 1, or Performance Level 3 or 4 on the Algebra 1 MCAP. Another route runs through ELA 10 MCAP together with an Algebra MCAP level or an SAT math score of at least 520. Algebra 1 is load-bearing in more than one direction, which is why we teach mathematics alongside coding rather than treating them as separate products."}},
-          {"@type": "Question", "name": "Does a coding class help meet the CCR standard?", "acceptedAnswer": {"@type": "Answer", "text": "Not directly, and we will not pretend otherwise. Nothing here appears on a Maryland transcript or counts toward the standard by itself. What it can do is help with the underlying mathematics and reasoning that two of the routes actually measure, and that is a narrower claim than most of this industry makes."}},
-          {"@type": "Question", "name": "What time are classes, given the time difference from India?", "acceptedAnswer": {"@type": "Answer", "text": "Weekend slots are the easiest to arrange on Eastern Time, and weekday slots are agreed case by case. We are not going to publish a fixed weekday evening slot for the East Coast, because that is the early hours in India and we would rather not promise staffing we have not confirmed. Times are confirmed on the free call before any payment."}},
-          {"@type": "Question", "name": "How much do coding classes in Maryland cost?", "acceptedAnswer": {"@type": "Answer", "text": "The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term."}},
-          {"@type": "Question", "name": "Do you have a location in Maryland?", "acceptedAnswer": {"@type": "Answer", "text": "No. No Maryland office, branch or classroom is claimed. Every lesson is live online from India. A learner needs a laptop or desktop, stable internet, working audio and a current browser. The phone number on this page is Indian rather than a local number."}},
-          {"@type": "Question", "name": "Is coding still worth learning now that AI writes it?", "acceptedAnswer": {"@type": "Answer", "text": "Maryland's own readiness data makes the case better than an argument would. A readiness rate can rise because a new way to qualify was added rather than because any student improved, and a person has to notice that. An AI asked whether readiness improved will tell you the number went up, because it did. Knowing which question to ask about a number is the skill, and it is what the class trains."}},
-          {"@type": "Question", "name": "My child is in eleventh grade. Is it too late to start?", "acceptedAnswer": {"@type": "Answer", "text": "Not too late, but the honest answer is that the value is different. At that point a narrow goal makes sense, usually one lesson a week on something specific, rather than a full ladder. If the aim is a portfolio for college applications, say so and we will plan for that instead of teaching a general course."}},
-          {"@type": "Question", "name": "What ages do you teach, and do you take adults?", "acceptedAnswer": {"@type": "Answer", "text": "Six to sixty-seven. Below about nine the work is ordering, counting and predicting rather than typing. Middle school is the strongest window in Maryland specifically, because it sits before the CCR checkpoint rather than after it. Adults usually arrive with a task in mind rather than a syllabus."}},
-          {"@type": "Question", "name": "What happens after we send the form?", "acceptedAnswer": {"@type": "Answer", "text": "Somebody reads it and contacts you to arrange the free session. No card, no charge, and sending the form books a conversation rather than a place in a class."}}
-        ]
-      }
-    ]
-  }
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/","logo":"https://learn.modernagecoders.com/logo.png","foundingDate":"2020","email":"connect@modernagecoders.com","telephone":"+919123366161","sameAs":["https://www.facebook.com/modernagecoders","https://www.instagram.com/modernagecoders","https://www.youtube.com/@modernagecoders"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"United States","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":3,"name":"Maryland","item":"https://learn.modernagecoders.com/coding-classes-in-maryland"}]},{"@type":"Course","name":"Live Online Coding and AI Classes for Maryland Students","description":"Python, Java, AP Computer Science, web development and AI for Maryland students from elementary through high school, taught live online in level-matched batches or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"educationalLevel":"Elementary, Middle School, High School, College, Adult","inLanguage":"en","hasCourseInstance":{"@type":"CourseInstance","courseMode":"Online","courseWorkload":"PT2H","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-in-maryland"}},"offers":{"@type":"Offer","price":"100","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-in-maryland"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is computer science required to graduate in Maryland?","acceptedAnswer":{"@type":"Answer","text":"Not by itself. COMAR 13A.03.02.03 C requires one credit in computer science, engineering, or technology education for students entering 9th grade from 2021 to 2022, so computer science is one of three ways to meet it."}},{"@type":"Question","name":"Must every Maryland high school offer computer science?","acceptedAnswer":{"@type":"Answer","text":"Yes. Education Article 4-111.4 says that beginning in 2021 to 2022 each county board shall require each public high school to offer at least one computer science course."}},{"@type":"Question","name":"How many credits does a Maryland diploma need?","acceptedAnswer":{"@type":"Answer","text":"A minimum of 22 credits for students entering 9th grade from 2021 to 2022, including four maths credits. Students who entered in 2020 to 2021 or earlier need a minimum of 21."}},{"@type":"Question","name":"What about elementary and middle school?","acceptedAnswer":{"@type":"Answer","text":"The statute asks county boards to make efforts to incorporate computer science instruction in each public elementary and middle school; it does not set a required course at those levels."}},{"@type":"Question","name":"How many Maryland high schools offer computer science?","acceptedAnswer":{"@type":"Answer","text":"The Code.org 2025 data shows 219 of 219 high schools in its count, or 100%, for 2024 to 2025."}},{"@type":"Question","name":"How many Maryland students take computer science?","acceptedAnswer":{"@type":"Answer","text":"Code.org reports 46,157 of 276,484 high school students, or 16.69%, enrolled in computer science in 2024 to 2025."}},{"@type":"Question","name":"When are classes for Maryland students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience. Times are confirmed in Eastern Time, America/New_York."}},{"@type":"Question","name":"Can your classes fill the Maryland credit slot?","acceptedAnswer":{"@type":"Answer","text":"No. Only school courses earn Maryland credit. Our classes add depth and projects alongside them, and anything a school grades remains the student's own work."}},{"@type":"Question","name":"What does the MARC project teach?","acceptedAnswer":{"@type":"Answer","text":"Joining two tables. Station and parking tables each have 44 rows, and Union Station appears once per line, so a name-only join gives 50 pairs while a name-and-line join matches 44 of 44."}},{"@type":"Question","name":"Is there a Modern Age Coders center in Maryland?","acceptedAnswer":{"@type":"Answer","text":"No. We have no premises in Maryland; all classes are live online from India."}}]}]}
   </script>
-
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Online coding and mathematics classes",
-    "provider": { "@type": "EducationalOrganization", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com/" },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "Maryland",
-      "containedInPlace": { "@type": "Country", "name": "United States" }
-    },
-    "availableChannel": { "@type": "ServiceChannel", "serviceUrl": "https://learn.modernagecoders.com/coding-classes-in-maryland", "availableLanguage": ["en"] }
-  }
+  {"@context":"https://schema.org","@type":"Service","name":"Live Online Coding Classes in Maryland","serviceType":"Online coding, AI, data and mathematics education","provider":{"@id":"https://learn.modernagecoders.com/#org"},"areaServed":{"@type":"State","name":"Maryland","containedInPlace":{"@type":"Country","name":"United States"}},"audience":{"@type":"EducationalAudience","educationalRole":"student"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-in-maryland","availableLanguage":"English"},"offers":[{"@type":"Offer","name":"First live class","price":"0","priceCurrency":"USD"},{"@type":"Offer","name":"Monthly group classes","price":"100","priceCurrency":"USD"},{"@type":"Offer","name":"Monthly private classes","price":"150","priceCurrency":"USD"}]}
   </script>
     <meta name="mac-lead-country" content="US">
 </head>
-<body class="cg-root cg-md">
-
+<body class="cg-root cg-aim">
 <a class="cg-sr" href="#main">Skip to content</a>
-
-<nav class="cg-nav" aria-label="Primary">
-  <div class="cg-wrap cg-nav-inner">
-    <a class="cg-nav-brand" href="/">Modern Age <span>Coders</span></a>
-    <div class="cg-nav-links">
-      <a href="#picks">Courses</a>
-      <a href="#ccr">The tenth grade checkpoint</a>
-      <a href="#algebra">Why Algebra 1</a>
-      <a href="#project">Student project</a>
-      <a class="cg-nav-cta" href="#start">Book a free class</a>
-    </div>
-  </div>
-</nav>
-
-<main id="main">
-
-<header class="cg-section cg-hero">
-  <div class="cg-wrap">
-    <p class="cg-crumbs"><a href="/">Home</a> / <a href="/coding-classes-in-united-states">United States</a> / Coding Classes in Maryland</p>
-    <div class="cg-hero-grid">
-      <div>
-        <span class="cg-eyebrow">Maryland / Live online</span>
-        <h1>Maryland decides readiness at the end of tenth grade, not twelfth</h1>
-
-        <div class="cg-capsule">
-          <p class="cg-capsule-q">The short answer</p>
-          <p>Under the Blueprint for Maryland's Future, students are expected to meet the College and Career Readiness standard by the end of tenth grade, with reevaluation in eleventh and twelfth. Algebra 1 appears in more than one route to meeting it. Modern Age Coders teaches live online coding and math to ages 6 to 67 in Maryland, in groups of fifteen to twenty or one to one, from USD 100 a month. The first class is free.</p>
-        </div>
-
-        <p class="cg-lede">Most states settle the question in junior and senior year. Maryland moved it two years earlier, and almost nothing about how families plan has caught up. If the checkpoint lands at the end of tenth grade, then middle school and ninth grade are the years that matter, and eleventh grade is late rather than early.</p>
-
-        <p>Modern Age Coders teaches from India to families across Maryland. Lessons are live online and there is no Maryland location. On the time difference we are deliberately conservative: weekend slots are easiest on Eastern Time, weekday slots are agreed case by case, and nothing is promised before the free call.</p>
-
-        <div class="cg-btn-row">
-          <a class="cg-btn" href="#start">Book the free first class</a>
-          <a class="cg-btn cg-btn-wa" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'maryland'});">Ask on WhatsApp</a>
-          <a class="cg-btn cg-btn--ghost" href="#ccr">Read the Maryland evidence</a>
-        </div>
-        <p class="cg-hero-note">No card. No obligation. We call, we do not spam.</p>
-        <p class="cg-verified">Facts last verified 17 August 2026. Teaching is online; no Maryland location is claimed.</p>
-      </div>
-
-      <aside>
-        <div class="cg-trust">
-          <div class="cg-fact"><span class="cg-fact-k">10,000+</span><span class="cg-fact-l">students taught</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">4.9</span><span class="cg-fact-l">across 547 Google reviews</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">2020</span><span class="cg-fact-l">teaching since</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">25+</span><span class="cg-fact-l">countries</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">6 to 67</span><span class="cg-fact-l">ages taught</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">15 to 20</span><span class="cg-fact-l">students per group</span></div>
-        </div>
-      </aside>
-    </div>
-  </div>
-</header>
-
-<section class="cg-section" id="picks">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Courses for Maryland</span>
-      <h2>Four sensible starting points, not one course for everybody</h2>
-      <p>Four entry points, read against a state that decides readiness at the end of tenth grade. An elementary beginner, a middle schooler who needs Algebra 1 to stop being frightening, a ninth or tenth grader with the CCR checkpoint ahead of them, and an adult. We place on what a learner can do, because a transcript does not show that.</p>
-    </div>
-    <div class="cg-picks">
-      <a class="cg-pick" href="/courses/kids-coding-blocks-masterclass">
-        <img fetchpriority="high" class="cg-pick-shot" src="/images/kids-coding.webp" alt="Kids Coding Blocks Masterclass course thumbnail" decoding="async" width="400" height="250">
-        <div class="cg-pick-body">
-          <span class="cg-pick-band">Ages 6 to 10</span>
-          <h3 class="cg-pick-title">Kids Coding Blocks Masterclass</h3>
-          <p class="cg-pick-note">Sequencing, conditions and debugging before syntax becomes the distraction.</p>
-          <span class="cg-pick-go">See the syllabus</span>
-        </div>
-      </a>
-      <a class="cg-pick" href="/courses/maths-through-coding">
-        <img class="cg-pick-shot" src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" loading="lazy" decoding="async" width="400" height="250">
-        <div class="cg-pick-body">
-          <span class="cg-pick-band">Ages 9 to 14</span>
-          <h3 class="cg-pick-title">Maths Through Coding</h3>
-          <p class="cg-pick-note">Variables, coordinates and patterns become things a learner can run and test.</p>
-          <span class="cg-pick-go">See the syllabus</span>
-        </div>
-      </a>
-      <a class="cg-pick" href="/courses/python-complete-masterclass-teens">
-        <img class="cg-pick-shot" src="/images/python-teens.webp" alt="Python Complete Masterclass for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250">
-        <div class="cg-pick-body">
-          <span class="cg-pick-band">Ages 13 to 18</span>
-          <h3 class="cg-pick-title">Python Complete Masterclass for Teens</h3>
-          <p class="cg-pick-note">A structured move from logic to functions, data and independent programs.</p>
-          <span class="cg-pick-go">See the syllabus</span>
-        </div>
-      </a>
-      <a class="cg-pick" href="/courses/html-css-course-for-beginners-build-real-websites">
-        <img class="cg-pick-shot" src="/images/html-css-beginners.webp" alt="HTML and CSS for Beginners course thumbnail" loading="lazy" decoding="async" width="400" height="250">
-        <div class="cg-pick-body">
-          <span class="cg-pick-band">Teens and adults</span>
-          <h3 class="cg-pick-title">HTML and CSS for Beginners</h3>
-          <p class="cg-pick-note">Something finished and shareable early, which keeps a learner in the room long enough for the harder work to land.</p>
-          <span class="cg-pick-go">See the syllabus</span>
-        </div>
-      </a>
-    </div>
-    <p class="cg-picks-more cg-boiler">That is four of more than a hundred. The rest, sorted by age and subject, sit on the <a class="cg-inline-link" href="/course-atlas">course atlas</a>, and the order we teach them in is on the <a class="cg-inline-link" href="/coding-roadmap">coding roadmap</a>.</p><!-- flagships:start -->
+<nav class="cg-nav" aria-label="Primary navigation"><div class="cg-wrap cg-nav-inner"><a class="cg-nav-brand" href="/">Modern Age Coders</a><div class="cg-nav-links"><a href="/coding-classes-in-united-states">United States</a><a href="/courses">Courses</a><a href="/how-we-teach">How we teach</a><a class="cg-nav-cta" href="#book">Free class</a><a class="cg-nav-pd" href="/book-demo" data-pd-book="cg-nav">Priority demo</a></div></div></nav>
+<header class="cg-hero" id="main"><div class="cg-wrap"><div class="cg-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/coding-classes-in-united-states">United States</a><span>/</span><span>Maryland</span></div><div class="cg-hero-grid"><div><span class="cg-eyebrow">Maryland, United States</span><h1>Coding and AI classes in Maryland</h1><div class="cg-capsule"><p class="cg-capsule-q">Do Maryland students need computer science to graduate?</p><p>Students who entered ninth grade from 2021 to 2022 need one credit in computer science, engineering, or technology education among 22 credits, under COMAR 13A.03.02.03, so computer science is one way to meet it rather than a must. Separately, Education Article 4-111.4 requires every public high school to offer at least one computer science course. Modern Age Coders runs live online classes for Maryland learners at every stage, with AP Computer Science A for juniors and seniors.</p></div><p class="cg-hero-lead">Maryland wrote computer science into two layers of law. A statute tells every county board that each public high school must offer at least one computer science course, beginning in the 2021 to 2022 school year. A State Board regulation then rewrote the diploma itself for students entering ninth grade from that same year: 22 credits instead of 21, four of maths instead of three, and a credit slot that now reads computer science, engineering, or technology education where it used to read technology education alone. This page quotes both texts as published, sets out how far access and enrollment have moved since, and finishes with a rail data project that teaches Maryland students how two tables are joined, and how one repeated name can quietly break the join.</p><div class="cg-hero-actions"><a class="cg-btn cg-btn--primary" href="#book">Book the free class</a><a class="cg-btn cg-btn--pd" href="/book-demo" data-pd-book="cg-hero">Book a priority demo</a><a class="cg-btn cg-btn--ghost" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20student%20in%20Maryland.">Ask on WhatsApp</a></div><p class="cg-verified">Facts last verified 18 October 2026. Teaching is online; no Maryland branch is claimed.</p></div><aside><div class="cg-trust"><div class="cg-fact"><span class="cg-fact-k">10,000+</span><span class="cg-fact-l">students taught</span></div><div class="cg-fact"><span class="cg-fact-k">4.9</span><span class="cg-fact-l">across 547 Google reviews</span></div><div class="cg-fact"><span class="cg-fact-k">2020</span><span class="cg-fact-l">teaching since</span></div><div class="cg-fact"><span class="cg-fact-k">25+</span><span class="cg-fact-l">countries</span></div><div class="cg-fact"><span class="cg-fact-k">6 to 67</span><span class="cg-fact-l">ages taught</span></div><div class="cg-fact"><span class="cg-fact-k">15 to 20</span><span class="cg-fact-l">students per group</span></div></div></aside></div></div></header>
+<section class="cg-section" id="picks"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Course picks for Maryland</span><h2>Four Maryland starting points, chosen by grade</h2><p>The free first class places your student at the right level within any of these.</p></div><div class="cg-picks">
+  <a class="cg-pick" href="/courses/kids-coding-blocks-masterclass"><img class="cg-pick-shot" src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-band">Grades K to 5</span><h3 class="cg-pick-title">Coding for Kids</h3><p class="cg-pick-note">Block-based games and apps that build the habits the county elementary efforts aim for, a little ahead of schedule.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick" href="/courses/python-complete-masterclass-teens"><img class="cg-pick-shot" src="/images/python-teens.webp" alt="Python for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-band">Grades 7 to 12</span><h3 class="cg-pick-title">Python for Teens</h3><p class="cg-pick-note">Python for teens, including the MARC station and parking join from this page, written line by line.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick" href="/courses/ap-computer-science-a-java-exam-prep-course"><img class="cg-pick-shot" src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-band">Grades 10 to 12</span><h3 class="cg-pick-title">AP Computer Science A</h3><p class="cg-pick-note">Java and the AP Computer Science A course and exam, for students taking it in school or on their own.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick" href="/courses/full-stack-web-development-teens-masterclass"><img class="cg-pick-shot" src="/images/web-dev-teens.webp" alt="Full Stack Web Development for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-band">Grades 9 to 12</span><h3 class="cg-pick-title">Full Stack Web Development for Teens</h3><p class="cg-pick-note">React and Node.js projects for teens who want to build something people can actually use.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+</div><p class="cg-picks-more cg-boiler">Browse the <a class="cg-inline-link" href="/course-atlas">course atlas</a> for more than one hundred options and use the <a class="cg-inline-link" href="/coding-roadmap">coding roadmap</a> to check prerequisites.</p><!-- flagships:start -->
 <div class="cg-flaghead cg-boiler"><p class="cg-eyebrow">The four we are known for</p><h3>Python, AI, vibe coding and agentic coding</h3><p>These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.</p></div>
-<div class="cg-picks cg-picks--flag">
+<div class="cg-picks">
   <a class="cg-pick cg-pick--flag" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course"><img class="cg-pick-shot" src="/images/vibe-coding-teens.webp" alt="Vibe Coding for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">Vibe coding</span><span class="cg-pick-band">Ages 13 to 17</span><h3 class="cg-pick-title">Vibe Coding for Teens</h3><p class="cg-pick-note">Python, web and AI projects where the learner still owns the thinking.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick cg-pick--flag" href="/courses/python-ai-automation-masterclass-college"><img class="cg-pick-shot" src="/images/python-college.webp" alt="Python Automation Course course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">Python and AI</span><span class="cg-pick-band">College and adult</span><h3 class="cg-pick-title">Python Automation Course</h3><p class="cg-pick-note">Automate the work you already do, then let AI carry part of it.</p><span class="cg-pick-go">See the syllabus</span></div></a>
   <a class="cg-pick cg-pick--flag" href="/courses/ai-ml-masterclass-teens"><img class="cg-pick-shot" src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">AI and ML</span><span class="cg-pick-band">Ages 14 to 18</span><h3 class="cg-pick-title">AI and Machine Learning for Teens</h3><p class="cg-pick-note">Train a model, read what it learned, and be able to say why it is wrong.</p><span class="cg-pick-go">See the syllabus</span></div></a>
-  <a class="cg-pick cg-pick--flag" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals"><img class="cg-pick-shot" src="/images/codex-claude-code-adults.webp" alt="Codex and Claude Code course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">Agentic coding</span><span class="cg-pick-band">Professionals</span><h3 class="cg-pick-title">Codex and Claude Code</h3><p class="cg-pick-note">Run AI coding agents on real work without losing control of the codebase.</p><span class="cg-pick-go">See the syllabus</span></div></a>
-</div><!-- flagships:end -->
-  </div>
-</section>
-
-<section class="cg-section cg-section--tint" id="ccr">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Maryland evidence / verified 17 August 2026</span>
-      <h2>One standard, and about a dozen ways to meet it</h2>
-      <p>The routes matter more than the label, because they tell you what to actually work on.</p>
-    </div>
-
-    <p>The College and Career Readiness standard exists to establish that a graduate has the knowledge and skills to complete entry-level credit-bearing college courses and to work in high-wage, high-demand industries. Students are expected to meet it <strong>by the end of tenth grade</strong>, and can be reevaluated in eleventh and twelfth.</p>
-
-    <p>There is no single test. There are three groups of routes, and a student needs only one of them.</p>
-
-    <div class="cg-table-wrap">
-      <table class="cg-table">
-        <thead><tr><th>Route</th><th>What it requires</th></tr></thead>
-        <tbody>
-          <tr><td>Option 1, academic benchmarks</td><td>Cumulative unweighted GPA of 3.0 at the end of tenth or eleventh grade, and a final grade of A, B or C in Algebra 1, or Performance Level 3 or 4 on the Algebra 1 MCAP</td></tr>
-          <tr><td>Option 2, standardized test benchmarks</td><td>Level 3 or 4 on the ELA 10 MCAP, together with a qualifying Algebra MCAP level or a minimum SAT math score of 520</td></tr>
-          <tr><td>Option 3, career connected benchmarks, beginning 2025 to 2026</td><td>Nine further measures, including a one-year GPA of 3.0 or above in eleventh or twelfth grade with a C or better in math, two dual enrollment courses, AP scores of 3 or above, IB scores of 4 or above, ACT WorkKeys at Silver or above, state-approved industry credentials, registered apprenticeships, or an ASVAB score of 50 or above</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="cg-spec">
-      <p class="cg-spec-title">Two things follow from that table, and only one of them is comfortable</p>
-      <p>The comfortable one is that a family has options, which is genuinely good and is clearly the intent. The uncomfortable one is that the headline readiness rate is now the result of an OR across roughly a dozen different measures, so it can move without any student getting better. Maryland's own analysis makes this explicit: adding a high school GPA route <em>increased</em> the percentage of students meeting the standard. That is not a criticism of the policy. It is a fact about what the number can and cannot tell you, and it is the subject of the data project further down this page.</p>
-    </div>
-
-    <p>For context on scale, a little more than 50 per cent of students met the standard at the conclusion of the 2024 to 2025 school year.</p>
-
-    <p class="cg-source-note">Sources: <a class="cg-inline-link" href="https://www.hcpss.org/college-career-readiness/ccr-standard/">Howard County Public School System on the CCR standard</a> for the end-of-tenth-grade expectation and the three option groups with their thresholds, the <a class="cg-inline-link" href="https://marylandpublicschools.org/stateboard/Documents/CCR-Standard-Policy-Adopted-03-2025-A.pdf">Maryland State Board CCR Standard policy document, March 2025</a>, and <a class="cg-inline-link" href="https://news.maryland.gov/msde/empirical-ccr-standard/">MSDE on the American Institutes for Research empirical study</a> for the finding that the GPA route increased the percentage meeting the standard. Verified 17 August 2026.</p>
-  </div>
-</section>
-
-<section class="cg-section" id="algebra">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">The most actionable detail on this page</span>
-      <h2>Algebra 1 is load-bearing in more than one direction</h2>
-      <p>If you read the routes for what they have in common, one subject keeps appearing.</p>
-    </div>
-
-    <p>Option 1 asks for a grade of A, B or C in Algebra 1, or Performance Level 3 or 4 on the Algebra 1 MCAP. Option 2 runs through the ELA 10 MCAP together with a qualifying Algebra MCAP level, or an SAT math score of 520 or better. Option 3's first career connected measure asks for a C or better in math alongside the GPA.</p>
-
-    <p>Whichever door a Maryland student goes through, algebra is usually standing in it. That is worth knowing before choosing an after-school activity, and it is the reason we do not sell coding and mathematics as two separate products. A learner who is shaky on algebra and enthusiastic about coding is common, and the coding is often the best available route back into the algebra, because a variable stops being abstract the moment a program depends on it.</p>
-
-    <div class="cg-grid-3">
-      <div><h3>Elementary, before any of this</h3><p>Ordering, counting and predicting what a thing will do before running it. No syntax, no pressure, and the best possible foundation for algebra later.</p></div>
-      <div><h3>Middle school, the strongest window</h3><p>This is where a Maryland family gets the most for the time, because it sits before the checkpoint rather than after it. Blocks into Python, and algebra made concrete.</p></div>
-      <div><h3>Ninth and tenth grade</h3><p>The checkpoint years. Narrow the goal, protect the algebra grade, and treat anything optional as optional.</p></div>
-      <div><h3>Eleventh and twelfth</h3><p>Reevaluation is possible, so it is not over. But the honest recommendation here is one lesson a week on something specific, often a portfolio, rather than a general course.</p></div>
-    </div>
-
-    <p>Nothing here awards Maryland credit, appears on a transcript, or counts toward the CCR standard by itself. What it can do is work on the mathematics and reasoning that two of the three route groups actually measure. Learners join from Montgomery County, Prince George's County, Baltimore County, Anne Arundel, Howard County, Frederick and Baltimore City without anybody driving anywhere.</p>
-  </div>
-</section>
-
-<section class="cg-section cg-section--deep" id="alignment">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Alignment</span>
-      <h2>What Maryland measures, and which course answers it</h2>
-      <p>Left is the requirement as the state states it. Right is what we would teach against it.</p>
-    </div>
-    <div class="cg-align">
-      <div class="cg-align-row">
-        <div class="cg-align-req"><span class="cg-align-code">CCR by end of grade 10</span><p>The decisive checkpoint, two years earlier than most states place it.</p></div>
-        <div class="cg-align-ours"><p>Work in middle school and ninth grade, when it is still cheap. By tenth the sensible move is to narrow rather than add.</p></div>
-      </div>
-      <div class="cg-align-row">
-        <div class="cg-align-req"><span class="cg-align-code">Algebra 1, grade of A, B or C</span><p>Appears in Option 1 directly, and again through the Algebra MCAP in Option 2.</p></div>
-        <div class="cg-align-ours"><p>Mathematics taught alongside coding, not sold separately. A variable stops being abstract when a program depends on it.</p></div>
-      </div>
-      <div class="cg-align-row">
-        <div class="cg-align-req"><span class="cg-align-code">SAT math 520 minimum</span><p>An alternative inside Option 2 for students who would rather test than accumulate a GPA.</p></div>
-        <div class="cg-align-ours"><p>Problem decomposition and the habit of checking an answer, which is most of what a timed math section rewards.</p></div>
-      </div>
-      <div class="cg-align-row">
-        <div class="cg-align-req"><span class="cg-align-code">Cumulative unweighted GPA 3.0</span><p>A route that depends on consistency across every subject rather than one performance.</p></div>
-        <div class="cg-align-ours"><p>Nothing we teach affects this, and we will say so. Adding a commitment to a struggling GPA year is the wrong advice.</p></div>
-      </div>
-      <div class="cg-align-row">
-        <div class="cg-align-req"><span class="cg-align-code">Career connected benchmarks, from 2025 to 2026</span><p>Nine further measures, including dual enrollment, AP, IB, industry credentials and apprenticeships.</p></div>
-        <div class="cg-align-ours"><p>A real portfolio of finished, working software. It is not one of the nine, and we would not claim it is, but it is what an application reads.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section" id="ask">
-  <div class="cg-wrap">
-    <div class="cg-contact-row">
-      <p>If your child is in middle school in Maryland, this is the cheapest year you will ever have to work on the algebra. Worth a five-minute conversation.</p>
-      <a class="cg-btn cg-btn-wa" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'maryland',pos:'mid'});">Ask on WhatsApp</a>
-      <a class="cg-btn cg-btn--ghost" href="#start">Book the free class</a>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section" id="ladder">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Placement</span>
-      <h2>A course ladder that leaves room for school</h2>
-      <p>It opens with building something and explaining it out loud. The typed and technical rungs wait until a learner can find their own mistake unaided. For a Maryland ninth or tenth grader the ladder is read against the CCR checkpoint, and Algebra 1 support takes priority over anything optional. Adults enter at the point their goal and prior knowledge support.</p>
-    </div>
-    <div class="cg-ladder">
-      <div class="cg-ladder-col">
-        <h3>Builders</h3>
-        <p class="cg-band-head">Ages 6 to 10</p>
-        <ul>
-          <li><a href="/courses/kids-coding-blocks-masterclass">Kids Coding Blocks</a></li>
-          <li><a href="/courses/scratch-programming-complete-course">Scratch Programming</a></li>
-          <li><a href="/courses/creative-coding-animation-mastery">Creative Coding and Animation</a></li>
-          <li><a href="/courses/early-math-foundations">Early Maths Foundations</a></li>
-        </ul>
-      </div>
-      <div class="cg-ladder-col">
-        <h3>Problem solvers</h3>
-        <p class="cg-band-head">Ages 11 to 13</p>
-        <ul>
-          <li><a href="/courses/maths-through-coding">Maths Through Coding</a></li>
-          <li><a href="/courses/python-ai-kids-masterclass">Python and AI for Kids</a></li>
-          <li><a href="/courses/kids-ai-web-development-course">Kids AI Web Development</a></li>
-          <li><a href="/courses/comprehensive-middle-school-mathematics-mastery">Middle School Mathematics</a></li>
-        </ul>
-      </div>
-      <div class="cg-ladder-col">
-        <h3>Independent programmers</h3>
-        <p class="cg-band-head">Ages 14 to 18</p>
-        <ul>
-          <li><a href="/courses/python-complete-masterclass-teens">Python for Teens</a></li>
-          <li><a href="/courses/html-css-course-for-beginners-build-real-websites">HTML and CSS</a></li>
-          <li><a href="/courses/javascript-course-for-teens-beginners-interactive-web">JavaScript for Teens</a></li>
-          <li><a href="/courses/complete-high-school-mathematics-mastery">High School Mathematics</a></li>
-        </ul>
-      </div>
-      <div class="cg-ladder-col">
-        <h3>Applied study</h3>
-        <p class="cg-band-head">College and adult, 18 to 67</p>
-        <ul>
-          <li><a href="/courses/python-ai-automation-masterclass-college">Python AI Automation</a></li>
-          <li><a href="/courses/data-analysis-mastery-course-college">Data Analysis</a></li>
-          <li><a href="/courses/full-stack-web-development-masterclass-college">Full Stack Web Development</a></li>
-          <li><a href="/courses/data-analytics-mathematics-masterclass">Data Analytics Mathematics</a></li>
-        </ul>
-      </div>
-    </div>
-    <p class="cg-mt-2 cg-boiler">The complete catalogue is on the <a class="cg-inline-link" href="/course-atlas">course atlas</a>, and the method is set out on <a class="cg-inline-link" href="/how-we-teach">how we teach</a>.</p>
-  </div>
-</section>
-
-<section class="cg-section cg-section--tint" id="project">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">The student data project</span>
-      <h2>The rate that rises when you add a door</h2>
-      <p>Every market page here works through one analytical trap. Maryland's is provable in about ten lines of code, which is what makes it a good lesson.</p>
-    </div>
-
-    <p>The learner is given the three option groups and a headline: the share of Maryland students meeting the CCR standard went up. They are asked the obvious question. Did students get better?</p>
-
-    <p>Then they write the checker. A function that takes a student record and returns true if any route is satisfied. Option 1 or Option 2 or any of the nine in Option 3.</p>
-
-    <div class="cg-proj">
-      <div class="cg-proj-meta">
-        <span class="cg-eyebrow">The trap</span>
-        <p class="cg-spec-title">Adding a clause to an OR can only ever grow the answer</p>
-      </div>
-      <div class="cg-proj-body">
-        <p>This is the part a learner can prove rather than be told. Take any set of student records. Run the checker. Now add one more route to the OR and run it again. The set of students who pass either stays the same or gets bigger. It cannot shrink. Not for this data, not for any data, ever, and a learner can see that in the output of their own program in a single afternoon.</p>
-        <p>So a rising readiness rate has at least two possible causes that the number cannot distinguish. Students improved, or a door was added. Maryland's own analysis is explicit that adding a high school GPA route increased the percentage meeting the standard, and Option 3 adds nine more measures from 2025 to 2026. None of that makes the policy wrong; the extra routes exist because a single test was a poor measure of a real thing. It makes the <em>headline</em> a poor instrument for the question people ask of it.</p>
-        <p>The fix is boring and it is the whole point. Report the rate alongside the definition and the date the definition last changed. Compare like with like by re-running the old definition on the new data, which the learner then does, and which produces a much less quotable and much more honest number.</p>
-      </div>
-    </div>
-
-    <p class="cg-mt-2">Every student record in the classroom exercise is synthetic and generated by the learner. The option groups and thresholds are Maryland's, cited above. Nothing here describes any real Maryland student or school.</p>
-  </div>
-</section>
-
-<section class="cg-section" id="ai">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">The question parents ask first</span>
-      <h2>Will AI replace programmers before my child graduates?</h2>
-    </div>
-
-    <p>Ask an AI whether Maryland students got better and it will tell you the readiness rate rose, correctly, with a source. It will very likely not tell you that the definition acquired new routes in the same period, because that requires knowing to ask, and the question as posed did not ask.</p>
-
-    <p>The work that survives is exactly that: knowing which question to put to a number, noticing that a definition changed, and being unwilling to publish a comparison that is not like for like. The typing was never the scarce part. A learner who has personally watched their own pass rate jump because they added a clause to an <code>or</code>, and understood why, has learned something they will use on every dashboard they are ever shown.</p>
-
-    <p>That is also why we teach the mathematics with the code rather than beside it. Two of Maryland's three route groups measure math reasoning, and reasoning is the part a generated answer cannot do on your behalf.</p>
-
-    <p>The longer argument, with the evidence: <a class="cg-inline-link" href="/blog/is-coding-worth-learning-2026">is coding still worth learning in 2026?</a> The teaching order is on the <a class="cg-inline-link" href="/coding-roadmap">coding roadmap</a>, and what a lesson looks like is on <a class="cg-inline-link" href="/how-we-teach">how we teach</a>.</p>
-  </div>
-</section>
-
-<section class="cg-section cg-section--deep" id="how">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Live online delivery</span>
-      <h2>How this runs from Maryland</h2>
-      <p>Live teaching, live questions, live code review. Nothing pre-recorded.</p>
-    </div>
-    <div class="cg-grid-3">
-      <div><h3>The free first class</h3><p>One task pitched at the learner, then a specific recommendation. No fee and no card.</p></div>
-      <div><h3>Fifteen to twenty per group</h3><p>Grouped by present ability rather than by grade, drawn from the whole intake.</p></div>
-      <div><h3>One to one</h3><p>For a narrow goal, a checkpoint year, or a portfolio with a deadline attached.</p></div>
-      <div><h3>Twice a week</h3><p>Normally eight lessons a month. One a week is a reasonable request in a heavy school year.</p></div>
-      <div><h3>Scheduling, honestly</h3><p>Weekend slots are easiest on Eastern Time. Weekday slots are agreed case by case, never promised in advance.</p></div>
-      <div><h3>What is needed</h3><p>A laptop or desktop, stable internet, working audio, a current browser. Nothing to buy.</p></div>
-    </div>
-    <div class="cg-spec cg-mt-2">
-      <p class="cg-spec-title">Why we will not print a weekday evening time</p>
-      <p>A weekday evening on the East Coast is the early hours in India, and we have not confirmed staffing for it. Rather than publish a slot and then negotiate it away, this page publishes what we know: weekend slots are straightforward, weekday slots depend on the week and the group, and every time is agreed on the free call before any payment. If the only slot that works for your family is one we cannot cover, you will hear that instead of a booking.</p>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section cg-section--tint" id="fees">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Fees</span>
-      <h2>What do coding classes in Maryland cost?</h2>
-      <p class="cg-boiler">No enrolment charge, nothing to buy, no minimum term.</p>
-    </div>
-    <div class="cg-price">
-      <div>
-        <span class="cg-price-name">Group</span>
-        <span class="cg-price-amt">$100</span>
-        <span class="cg-price-alt">per month, 8 classes</span>
-        <p>For a learner who benefits from hearing how other people solved the same problem, at the shared level of a fifteen to twenty person group.</p>
-      </div>
-      <div class="cg-price--feature">
-        <span class="cg-price-name">Private</span>
-        <span class="cg-price-amt">$150</span>
-        <span class="cg-price-alt">per month, 8 classes</span>
-        <p>For a specific goal, a checkpoint year that needs protecting, or a starting point no current group matches.</p>
-      </div>
-    </div>
-    <p class="cg-mt-2">Two live lessons a week on either plan. The first session is free and doubles as placement. Prices are published in USD, which is the rate for every market rather than a Maryland one, and payment is arranged after the course and the slot are settled.</p>
-    <p class="cg-mt-2 cg-boiler">Pauses, plan changes and missed classes are covered on the <a class="cg-inline-link" href="/pricing">pricing page</a>.</p>
-  </div>
-</section>
-
-<section class="cg-section cg-section--deep" id="reviews">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Reviews</span>
-      <h2>What families say</h2>
-      <p class="cg-boiler">Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.</p>
-    </div>
-    <div class="cg-grid-3">
-      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="cg-review-name">Ria Mukherjee</p><p class="cg-review-role">Parent</p></div>
-      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="cg-review-name">Samriddha Mondal</p><p class="cg-review-role">Student</p></div>
-      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="cg-review-name">Vansh Agarwal</p><p class="cg-review-role">Student</p></div>
-      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="cg-review-name">Sonam Oswal</p><p class="cg-review-role">Parent of Dhairya</p></div>
-      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="cg-review-name">Sonu Goyal</p><p class="cg-review-role">Parent</p></div>
-      <div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="cg-review-name">Ritu Kedia</p><p class="cg-review-role">Parent</p></div>
-    </div>
-    <p class="cg-mt-2">More, with photographs and student work, on the <a class="cg-inline-link" href="/love">wall of love</a>.</p>
-  </div>
-</section>
-
-<section class="cg-section" id="faq">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">FAQ</span>
-      <h2>Questions Maryland families ask before booking</h2>
-      <p>Including the two we answer against ourselves: this does not count toward the standard, and there is no local office.</p>
-    </div>
-    <div class="cg-faq"><div class="cg-faq-item"><h3>What is the CCR standard and why does tenth grade matter so much in Maryland?</h3><p>Under the Blueprint for Maryland's Future, students are expected to meet the College and Career Readiness standard by the end of tenth grade, with reevaluation available in eleventh and twelfth. Most systems settle things in the last two years of high school. Maryland moved the checkpoint two years earlier, which means the useful time to act is middle school and ninth grade rather than eleventh.</p></div><div class="cg-faq-item"><h3>Algebra 1 keeps appearing in the CCR routes. Is that deliberate?</h3><p>It is, and it is the most actionable detail on this page. One route asks for a cumulative unweighted GPA of 3.0 plus a final grade of A, B or C in Algebra 1, or Performance Level 3 or 4 on the Algebra 1 MCAP. Another route runs through ELA 10 MCAP together with an Algebra MCAP level or an SAT math score of at least 520. Algebra 1 is load-bearing in more than one direction, which is why we teach mathematics alongside coding rather than treating them as separate products.</p></div><div class="cg-faq-item"><h3>Does a coding class help meet the CCR standard?</h3><p>Not directly, and we will not pretend otherwise. Nothing here appears on a Maryland transcript or counts toward the standard by itself. What it can do is help with the underlying mathematics and reasoning that two of the routes actually measure, and that is a narrower claim than most of this industry makes.</p></div><div class="cg-faq-item"><h3>What time are classes, given the time difference from India?</h3><p>Weekend slots are the easiest to arrange on Eastern Time, and weekday slots are agreed case by case. We are not going to publish a fixed weekday evening slot for the East Coast, because that is the early hours in India and we would rather not promise staffing we have not confirmed. Times are confirmed on the free call before any payment.</p></div><div class="cg-faq-item cg-boiler"><h3>How much do coding classes in Maryland cost?</h3><p>The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.</p></div><div class="cg-faq-item cg-boiler"><h3>Do you have a location in Maryland?</h3><p>No. No Maryland office, branch or classroom is claimed. Every lesson is live online from India. A learner needs a laptop or desktop, stable internet, working audio and a current browser. The phone number on this page is Indian rather than a local number.</p></div><div class="cg-faq-item"><h3>Is coding still worth learning now that AI writes it?</h3><p>Maryland's own readiness data makes the case better than an argument would. A readiness rate can rise because a new way to qualify was added rather than because any student improved, and a person has to notice that. An AI asked whether readiness improved will tell you the number went up, because it did. Knowing which question to ask about a number is the skill, and it is what the class trains.</p></div><div class="cg-faq-item"><h3>My child is in eleventh grade. Is it too late to start?</h3><p>Not too late, but the honest answer is that the value is different. At that point a narrow goal makes sense, usually one lesson a week on something specific, rather than a full ladder. If the aim is a portfolio for college applications, say so and we will plan for that instead of teaching a general course.</p></div><div class="cg-faq-item"><h3>What ages do you teach, and do you take adults?</h3><p>Six to sixty-seven. Below about nine the work is ordering, counting and predicting rather than typing. Middle school is the strongest window in Maryland specifically, because it sits before the CCR checkpoint rather than after it. Adults usually arrive with a task in mind rather than a syllabus.</p></div><div class="cg-faq-item"><h3>What happens after we send the form?</h3><p>Somebody reads it and contacts you to arrange the free session. No card, no charge, and sending the form books a conversation rather than a place in a class.</p></div></div>
-    <div class="cg-callout cg-mt-2">
-      <h3>Ask before booking</h3>
-      <p>Use <a class="cg-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland.">WhatsApp for a question about Maryland timings</a> or go straight to the form. Course, format and a workable time are settled before any payment.</p>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section cg-section--tint" id="start">
-  <div class="cg-wrap">
-    <div class="cg-hero-grid">
-      <div>
-        <span class="cg-eyebrow">Book a free class</span>
-        <h2>One task, then a straight recommendation</h2>
-        <p>The first session costs nothing. A learner gets a single problem pitched at their age, and the teacher watches how they approach it rather than whether they finish. What comes back is specific: this course, this format, this time. If the honest advice is to wait a year or to work on algebra first, that is what you will hear.</p>
-        <p>You can also use the <a class="cg-inline-link" href="/contact">contact page</a>, or read <a class="cg-inline-link" href="/about">about us</a> first.</p>
-      </div>
-
-      <div class="cg-form-panel">
-        <form id="mdLeadForm" novalidate>
-          <div class="cg-field"><label for="mdName">Parent or student name</label><input type="text" id="mdName" name="name" autocomplete="name" required><span class="cg-err" id="mdNameErr"></span></div>
-          <div class="cg-field"><label for="mdEmail">Email</label><input type="email" id="mdEmail" name="email" autocomplete="email" required><span class="cg-err" id="mdEmailErr"></span></div>
-          <div class="cg-field"><label for="mdPhone">Phone (US mobile number)</label><input type="tel" id="mdPhone" name="phone" autocomplete="tel" placeholder="(301) 555 0123" required><span class="cg-err" id="mdPhoneErr"></span></div>
-          <div class="cg-field"><label for="mdGrade">Student grade or age</label><input type="text" id="mdGrade" name="grade" placeholder="7th grade, age 12, or adult" required><span class="cg-err" id="mdGradeErr"></span></div>
-          <div class="cg-field"><label for="mdMsg">What would you like them to work on?</label><textarea id="mdMsg" name="message" placeholder="For example: 8th grader in Montgomery County, strong at coding, shaky on algebra before the CCR checkpoint."></textarea></div>
-          <button class="cg-btn" type="submit" id="mdSubmit">Book the free class</button>
-          <p class="cg-form-note">No card. No obligation. We call, we do not spam.</p>
-          <p class="cg-err" id="mdFormErr" role="alert"></p>
-          <p class="cg-form-ok" id="mdOk" hidden>Thank you. We will call you to confirm a slot.</p>
-        </form>
-
-        <div class="cg-contact-row">
-          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'maryland',pos:'end'});">WhatsApp us</a>
-          <a href="tel:+919123366161">+91 91233 66161</a>
-          <a href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
-        </div>
-        <p class="cg-form-note">Email is usually easiest from the East Coast given the time difference. The number is Indian, not a Maryland office.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section" id="markets">
-  <div class="cg-wrap">
-    <div class="cg-section-head"><span class="cg-eyebrow">Nearby</span><h2>Other places we teach</h2></div>
-    <div class="cg-markets">
-      <a class="cg-market" href="/coding-classes-in-virginia">Virginia</a>
-      <a class="cg-market" href="/coding-classes-in-new-jersey">New Jersey</a>
-      <a class="cg-market" href="/coding-classes-in-new-york">New York</a>
-      <a class="cg-market" href="/coding-classes-in-georgia">Georgia</a>
-      <a class="cg-market" href="/coding-classes-in-united-states">United States</a>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<div class="cg-contact-bar" id="cgBar">
-  <div class="cg-contact-bar-in">
-    <a class="cg-btn cg-btn-wa" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Maryland." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'maryland',pos:'bar'});">Ask on WhatsApp</a>
-    <a class="cg-btn" href="#start">Book a free class</a>
-  </div>
-</div>
-
-<!-- BEGIN_LINK_MESH -->
-<section class="mac-mesh" aria-label="Keep exploring Modern Age Coders" style="display:block!important;opacity:1!important;visibility:visible!important;transform:none!important;min-height:0!important;height:auto!important;max-height:none!important;overflow:visible!important;padding:36px 20px 40px!important;margin:0!important;border-top:1px solid rgba(127,127,127,.25);font-size:.92rem;line-height:1.5;text-align:left">
-  <div style="max-width:1100px;margin:0 auto;opacity:1!important;transform:none!important">
-    <h2 style="font-size:1.1rem;font-weight:800;margin:0 0 18px;opacity:1!important;transform:none!important">Keep exploring Modern Age Coders</h2>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px 28px;opacity:1!important;transform:none!important">
-      <div><h3 style="font-size:.78rem!important;letter-spacing:.08em;text-transform:uppercase;opacity:.72;margin:0 0 8px!important;padding:0!important;font-weight:700;line-height:1.3">Coding classes in nearby places</h3><ul style="list-style:none!important;padding:0!important;margin:0!important;display:grid;gap:6px">
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-illinois" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding Classes in Illinois</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-ontario" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding Classes in Ontario</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-canada" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding &amp; AI Classes in Canada</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-texas" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding Classes in Texas</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-california" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding Classes in California</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-british-columbia" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Online Coding Classes in British Columbia</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-alberta" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Online Coding Classes in Alberta</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-united-states" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Online Coding &amp; AI Classes in the USA</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-new-jersey" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding Classes in New Jersey</a></li>
-      </ul></div>
-      <div><h3 style="font-size:.78rem!important;letter-spacing:.08em;text-transform:uppercase;opacity:.72;margin:0 0 8px!important;padding:0!important;font-weight:700;line-height:1.3">Free resources</h3><ul style="list-style:none!important;padding:0!important;margin:0!important;display:grid;gap:6px">
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/resources/cpp" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">C++ Tutorial: From Basics to Advanced</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/resources/ai-and-machine-learning/natural-language-processing" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Natural Language Processing (NLP) Fundamentals</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/resources/cpp/strings-in-cpp" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Strings - C-style and std::string | C++ Tutorial</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/resources/cpp/arrays-in-cpp" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Arrays and Multidimensional Arrays</a></li>
-      </ul></div>
-      <div><h3 style="font-size:.78rem!important;letter-spacing:.08em;text-transform:uppercase;opacity:.72;margin:0 0 8px!important;padding:0!important;font-weight:700;line-height:1.3">From the blog</h3><ul style="list-style:none!important;padding:0!important;margin:0!important;display:grid;gap:6px">
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/blog/how-to-find-hcf-and-lcm-in-python" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">How to Find HCF and LCM in Python (5 Easy Methods)</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/blog/how-coding-improves-mathematical-thinking-children" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">How Learning Coding Improves Mathematical Thinking in Children</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/blog/coding-for-6-year-olds" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding for 6-Year-Olds: Best Ways to Introduce Programming at an</a></li>
-      </ul></div>
-      <div><h3 style="font-size:.78rem!important;letter-spacing:.08em;text-transform:uppercase;opacity:.72;margin:0 0 8px!important;padding:0!important;font-weight:700;line-height:1.3">Start here</h3><ul style="list-style:none!important;padding:0!important;margin:0!important;display:grid;gap:6px">
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/courses" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Browse every live course at Modern Age Coders</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/free-trial" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Try a free trial class with a Modern Age Coders mentor</a></li>
-      </ul></div>
-    </div>
-  </div>
-</section>
-<!-- END_LINK_MESH -->
-<footer class="cg-footer">
-  <div class="cg-wrap">
-    <div class="cg-grid-3">
-      <div><h3>Start here</h3><ul><li><a href="/courses">All courses</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/coding-roadmap">Coding roadmap</a></li></ul></div>
-      <div><h3>Other states we cover</h3><ul><li><a href="/coding-classes-in-virginia">Virginia</a></li><li><a href="/coding-classes-in-new-jersey">New Jersey</a></li><li><a href="/coding-classes-in-new-york">New York</a></li><li><a href="/coding-classes-in-georgia">Georgia</a></li><li><a href="/coding-classes-in-united-states">All of the United States</a></li></ul></div>
-      <div><h3>Company</h3><ul><li><a href="/about">About us</a></li><li><a href="/contact">Contact</a></li><li><a href="/love">Wall of love</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/blog">Blog</a></li></ul></div>
-    </div>
-    <p class="cg-footer-bottom">Modern Age Coders. Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p>
-  </div>
-</footer>
-
-<script>(function(){var API_URL='https://backend-modernagecoders.vercel.app';var form=document.getElementById('mdLeadForm');var bar=document.getElementById('cgBar');if(!form)return;function val(id){var e=document.getElementById(id);return e?e.value.trim():'';}function err(id,m){var e=document.getElementById(id);if(e)e.textContent=m||'';}form.addEventListener('focusin',function(){if(bar)bar.hidden=true;});form.addEventListener('focusout',function(){setTimeout(function(){if(bar&&!form.contains(document.activeElement))bar.hidden=false;},0);});form.addEventListener('submit',function(e){e.preventDefault();var name=val('mdName'),email=val('mdEmail'),phone=val('mdPhone'),grade=val('mdGrade'),msg=val('mdMsg');err('mdNameErr','');err('mdEmailErr','');err('mdPhoneErr','');err('mdGradeErr','');err('mdFormErr','');var ok=true;if(name.length<2){err('mdNameErr','Please enter a name');ok=false;}if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err('mdEmailErr','Please enter a valid email');ok=false;}var digits=phone.replace(/\D/g,'');if(digits.length===11&&digits.charAt(0)==='1')digits=digits.slice(1);if(digits.length<7||digits.length>15){err('mdPhoneErr','Please enter a valid phone number');ok=false;}if(!grade){err('mdGradeErr','Please enter a grade or age');ok=false;}if(!ok)return;var btn=document.getElementById('mdSubmit');btn.disabled=true;btn.textContent='Sending...';var body={name:name,email:email,contact:digits,countryCode:'+1',countryIso:'US',countryName:'United States',message:('Maryland enquiry. Student grade or age: '+grade+'. '+(msg||'No further detail given.')).slice(0,1000),attribution:{formPage:'/coding-classes-in-maryland',landingPage:'/coding-classes-in-maryland',referrer:document.referrer||''}};fetch(API_URL+'/api/contact/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(function(r){if(!r.ok)throw new Error('Request failed');form.reset();document.getElementById('mdOk').hidden=false;if(typeof gtag==='function')gtag('event','generate_lead',{page:'coding-classes-in-maryland'});}).catch(function(){err('mdFormErr','Something went wrong sending that. Please try again, or reach us on the contact page.');}).finally(function(){btn.disabled=false;btn.textContent='Book the free class';});});})();</script>
-
-
-<!-- WhatsApp Floating Chat Button (injected: ensure-whatsapp-and-callback.js) -->
-<a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!"
-    target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp"
-    style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
-    <span class="wa-label" style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat with us</span>
-    <div class="wa-icon" style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" style="min-width: 26px; min-height: 26px;">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-        </svg>
-    </div>
-</a>
-<style>
-    .wa-float-btn:hover .wa-icon { transform: scale(1.08); box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5); }
-    .wa-float-btn:hover .wa-label { box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5); }
-    @media (max-width: 768px) {
-        .wa-label { display: none !important; visibility: hidden !important; }
-        .wa-float-btn { bottom: 20px !important; right: 16px !important; }
-        .wa-icon { width: 52px !important; height: 52px !important; min-width: 52px !important; min-height: 52px !important; }
-    }
-</style>
-
-    <script src="/js/pricing-data.generated.js?v=c1eb685613"></script>
-    <script src="/js/international-pricing.js?v=96fce901b8"></script>
+  <a class="cg-pick cg-pick--flag" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals"><img class="cg-pick-shot" src="/images/codex-claude-code-adults.webp" alt="Codex &amp; Claude Code course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">Agentic coding</span><span class="cg-pick-band">Professionals</span><h3 class="cg-pick-title">Codex &amp; Claude Code</h3><p class="cg-pick-note">Run AI coding agents on real work without losing control of the codebase.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+</div><!-- flagships:end --></div></section>
+<section class="cg-section" id="law"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">The law and the diploma</span><h2>Two Maryland rules: every high school offers CS, and the diploma has a CS credit slot</h2><p>The statute from the Maryland General Assembly and the regulation from the Library of Maryland Regulations, both read on 17 October 2026.</p></div><div class="cg-table-wrap"><table class="cg-table"><caption>Maryland computer science rules as written in the statute and the regulation</caption><thead><tr><th>Text</th><th>What it says</th></tr></thead><tbody><tr><td>Education Article 4-111.4 (a)</td><td>Beginning in the 2021 to 2022 school year, each county board shall require each public high school in the county to offer at least one computer science course</td></tr><tr><td>Education Article 4-111.4 (b)</td><td>The course shall be of high quality and meet or exceed the curriculum standards and requirements established by the State Board</td></tr><tr><td>Education Article 4-111.4 (c)(1)</td><td>County boards shall make efforts to incorporate computer science instruction in each public elementary and middle school</td></tr><tr><td>COMAR 13A.03.02.03 C</td><td>Students entering 9th grade from the 2021 to 2022 school year need a minimum of 22 credits for a diploma</td></tr><tr><td>COMAR 13A.03.02.03 C (8)</td><td>Computer science, engineering, or technology education: one credit that includes the study of computers and algorithmic processes, or applying knowledge, tools and skills to practical problems</td></tr></tbody></table></div><div class="cg-grid-3 cg-mt-2"><div><h3>The older diploma</h3><p>Students who entered 9th grade in 2020 to 2021 or earlier fall under clause B: a minimum of 21 credits, three in maths, and one credit in technology education, with no computer science wording at all.</p></div><div><h3>The newer diploma</h3><p>Clause C raises the total to 22 credits, requires four maths credits, and widens the credit slot so that a computer science course is one of three named ways to fill it.</p></div><div><h3>A choice, not a mandate</h3><p>Because the slot reads computer science, engineering, or technology education, a Maryland student can graduate without computer science. What changed is that every high school must now offer it.</p></div></div><p class="cg-mt-2">We could not read the Maryland State Department of Education site, which refused our requests, so this page says nothing about the adoption date or the content of Maryland&rsquo;s computer science standards beyond what the statute says: that the high school course must meet the standards set by the State Board. A counselor can tell you which courses at your student&rsquo;s school count toward the credit slot.</p></div></section>
+<section class="cg-section cg-section--deep" id="numbers"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">The published figures</span><h2>Full access in the count, and one student in six enrolled</h2><p>Values for Maryland only, each with the dataset and tab it came from.</p></div><div class="cg-table-wrap"><table class="cg-table"><caption>Code.org (2025) access trend for Maryland high schools</caption><thead><tr><th>Year</th><th>Maryland high schools offering CS</th></tr></thead><tbody><tr><td>2018 to 2019</td><td>83%</td></tr><tr><td>2019 to 2020</td><td>90%</td></tr><tr><td>2020 to 2021</td><td>92%</td></tr><tr><td>2021 to 2022</td><td>98%</td></tr><tr><td>2022 to 2023</td><td>99%</td></tr><tr><td>2023 to 2024</td><td>100%</td></tr><tr><td>2024 to 2025</td><td>100%, which is 219 of 219 high schools in Code.org&rsquo;s count</td></tr></tbody></table></div><div class="cg-table-wrap cg-mt-2"><table class="cg-table"><caption>Enrollment and AP schools in Maryland</caption><thead><tr><th>Measure</th><th>Maryland</th><th>Source</th></tr></thead><tbody><tr><td>High school students in CS, 2020 to 2021</td><td>14.5%</td><td>Participation over the years tab, Code.org</td></tr><tr><td>High school students in CS, 2022 to 2023</td><td>15.6%</td><td>Participation over the years tab, Code.org</td></tr><tr><td>High school students in CS, 2024 to 2025</td><td>46,157 of 276,484, or 16.69%</td><td>Latest participation tab, Code.org</td></tr><tr><td>Schools with AP exams, 2023</td><td>370</td><td>College Board state AP school report</td></tr><tr><td>Schools with AP exams, 2024</td><td>374</td><td>College Board state AP school report</td></tr></tbody></table></div><div class="cg-grid-3 cg-mt-2"><div><h3>The statute in the numbers</h3><p>Access climbed from 83% in 2018 to 2019 to 98% in 2021 to 2022, the first year of the offering rule, and has stood at 100% in Code.org&rsquo;s count for the two latest years.</p></div><div><h3>Read 100% carefully</h3><p>It means 219 of the 219 high schools Code.org counted, from state education agency data. It does not mean every course is full, or that every student can fit one in.</p></div><div><h3>Enrollment is the next step</h3><p>With access complete, the participation line matters more: 14.5% to 16.69% over the years with values. Two school years have no Maryland value and are left blank.</p></div></div><div class="cg-callout cg-mt-2"><h3>How to cite these figures</h3><p>Access and participation: Code.org (2025). 2025 State of AI + CS Education, published data sheet, Maryland rows. AP schools: College Board, School Report of AP Exams by State. We quote values; we do not republish either dataset.</p></div></div></section>
+<section class="cg-section cg-section--tint" id="project"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Signature project</span><h2>Joining MARC stations to MARC parking: a two-table project on Maryland open data</h2><p>Maryland publishes one table of MARC train stations with average ridership and another of MARC parking lots with space counts. Students join them to compare parking with riders, line by line.</p></div><div class="cg-table-wrap"><table class="cg-table"><caption>MARC lines after joining stations to parking (our calculation from data.maryland.gov tables, downloaded 17 October 2026)</caption><thead><tr><th>Line</th><th>Stations matched</th><th>Our sum of parking spaces</th><th>Our sum of average weekday riders</th></tr></thead><tbody><tr><td>Penn</td><td>13</td><td>14,509</td><td>12,110</td></tr><tr><td>Camden</td><td>12</td><td>11,668</td><td>1,913</td></tr><tr><td>Brunswick</td><td>19</td><td>8,008</td><td>2,862</td></tr></tbody></table></div><div class="cg-grid-3 cg-mt-2"><div><h3>1. Two tables, one key</h3><p>The stations table has 44 rows: 38 in Maryland, 3 in the District of Columbia and 3 in West Virginia. The parking table also has 44. A first attempt joins on the station name alone.</p></div><div><h3>2. The join that lies</h3><p>Union Station appears three times in each table, once per line. Joining on name alone produces 50 pairs from 44 stations, with each Union Station row matched three times. Nothing errors; the totals are simply wrong.</p></div><div><h3>3. A composite key</h3><p>Joining on name and line together matches 44 of 44 rows exactly once. Students learn to count rows before and after every join, the cheapest test in data work.</p></div></div><div class="cg-spec cg-mt-2"><p class="cg-spec-title">One garage, counted three times</p><p>Each Union Station parking row carries the same 2,194 spaces, so adding the whole column gives 34,185 spaces with that one facility counted three times. Spotting a repeated value that should be counted once is the second lesson hiding in the data.</p></div><div class="cg-callout cg-mt-2"><h3>Our numbers, state data</h3><p>The sums and matches above are ours. The station file says its ridership is based on the MTA&rsquo;s Fiscal Year 2019, so these are not current figures. MD iMAP provides the data as is, without warranty, and neither the MTA nor the state has checked our results. Greenbelt shows the largest lot, 3,999 spaces, against 34 average weekday riders in that file: a number worth questioning, not quoting.</p></div></div></section>
+<section class="cg-section cg-section--deep" id="time"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Class times</span><h2>Eastern Time from Garrett County to Ocean City</h2><p>All of Maryland keeps Eastern Time, America/New_York in the IANA database, while our teachers keep India time.</p></div><div class="cg-grid-3"><div><h3>The gap</h3><p>Through the summer India is 9 hours 30 minutes ahead of Baltimore; once the clocks change in November, the gap is 10 hours 30 minutes.</p></div><div><h3>The dates</h3><p>This school year the US switch dates are November 1, 2026, back an hour, and March 14, 2027, forward an hour, from the IANA rule for the United States.</p></div><div><h3>Booked in Eastern</h3><p>Every confirmation, reminder and change of time is written in Eastern Time, so a family in Frederick or Salisbury never converts anything.</p></div></div></div></section>
+<section class="cg-section" id="ladder"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Learning ladder</span><h2>Rungs from first loops to AP and AI</h2><p>Use the grades as a rough guide; the free class confirms the right rung.</p></div><div class="cg-ladder">
+  <div class="cg-ladder-col"><span class="cg-band-head">Grades K to 5</span><h3>Blocks and stories</h3><p>Scratch animations and games, and a gentle first look at what AI is and is not.</p><a class="cg-course-link" href="/courses/scratch-programming-complete-course">Scratch Coding for Kids</a><a class="cg-course-link" href="/courses/ai-literacy-for-kids-course">AI Literacy for Kids (Ages 8 to 14)</a></div>
+  <div class="cg-ladder-col"><span class="cg-band-head">Grades 6 to 8</span><h3>Typed code</h3><p>Python through games and turtle drawings, or a Roblox route into Luau for game-minded students.</p><a class="cg-course-link" href="/courses/python-ai-kids-masterclass">Python and AI for Kids</a><a class="cg-course-link" href="/courses/roblox-game-coding-for-kids-lua-course">Roblox Game Coding for Kids</a></div>
+  <div class="cg-ladder-col"><span class="cg-band-head">Grades 9 to 10</span><h3>Toward the credit</h3><p>Java or Python at depth, the kind of course that fits Maryland&rsquo;s computer science credit slot.</p><a class="cg-course-link" href="/courses/java-programming-masterclass-for-teens">Java for Teens</a><a class="cg-course-link" href="/courses/python-complete-masterclass-teens">Python for Teens</a></div>
+  <div class="cg-ladder-col"><span class="cg-band-head">Grades 11 to 12</span><h3>AP and machine learning</h3><p>AP Computer Science Principles, then machine learning built on data the student understands.</p><a class="cg-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">AP Computer Science Principles</a><a class="cg-course-link" href="/courses/ai-ml-masterclass-teens">AI and Machine Learning for Teens</a></div>
+</div></div></section>
+<section class="cg-section cg-section--tint" id="ai"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Coding and AI</span><h2>An AI tool can write the join. Can it tell that the answer is wrong?</h2><p>The MARC project shows why Maryland&rsquo;s computer science credit still matters in the age of AI.</p></div><div class="cg-grid-2"><div><p>Ask an AI assistant to merge the station and parking tables and it will happily produce code that joins on the station name. The code runs, the output looks tidy, and Union Station is counted three times over. Only someone who knows to check the row count before and after the join will notice.</p></div><div><p>That check is the whole difference between using a tool and understanding it. Students who have written joins by hand can let an AI assistant draft the routine code, then test the result the way an analyst would, and explain to anyone why their totals can be trusted.</p></div></div><p class="cg-mt-2">Maryland now offers computer science in every high school; the students who get most from it are the ones who learn to test an answer, not just generate one. The longer argument is in <a class="cg-inline-link" href="/blog/is-coding-worth-learning-2026">is coding still worth learning in 2026</a>.</p></div></section>
+<section class="cg-section" id="delivery"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Delivery</span><h2>From the mountains to the Eastern Shore, one live class</h2><p>Maryland runs from the Appalachian west to the Atlantic coast; an online class reaches all of it on the same terms.</p></div><div class="cg-grid-3"><div><h3>From home</h3><p>A student in Cumberland and one in Annapolis can share the same batch, each at their own desk, with no evening drive after school.</p></div><div><h3>Fits the school program</h3><p>Teachers use US grades and understand the Maryland credit slot, so a ninth grader can build depth alongside a school CS course. Graded school work remains the student&rsquo;s own.</p></div><div><h3>Matched groups</h3><p>Fifteen to twenty learners per batch, all near the same level, joining from Maryland and other states.</p></div><div><h3>One to one</h3><p>A private teacher for AP preparation, competitions, or a student who wants a quicker pace than a group allows.</p></div><div><h3>Your timetable</h3><p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p></div><div><h3>A free lesson first</h3><p>One full class with a real teacher, then a suggested level, course and time. No payment details at that stage.</p></div></div><div class="cg-spec cg-mt-2"><p class="cg-spec-title">Online only, from India</p><p>Modern Age Coders has no office or classroom in Maryland and claims none. Classes are live online from India; a student needs a computer, sound and a dependable connection.</p></div></div></section>
+<section class="cg-section cg-section--deep" id="pricing"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Fees</span><h2>Fees for Maryland families</h2><p>Three options, each priced below.</p></div><div class="cg-price-grid"><div class="cg-price"><span class="cg-price-label">First class</span><strong>USD 0</strong><p>A complete first lesson at no charge, with a recommended level, course and slot.</p></div><div class="cg-price"><span class="cg-price-label">Group tuition</span><strong>USD 100</strong><p>A month of classes in a batch of fifteen to twenty students at one level.</p></div><div class="cg-price"><span class="cg-price-label">Private tuition</span><strong>USD 150</strong><p>A month of classes with a dedicated teacher, one to one.</p></div></div><p class="cg-mt-2">Maryland families pay the single US rate in US dollars, the same in Bethesda as in Hagerstown. Billing starts only after the free lesson, once course and times are agreed; the pricing page covers holidays and missed classes.</p><div class="cg-hero-actions cg-mt-2"><a class="cg-btn cg-btn--primary" href="#book">Request placement</a><a class="cg-btn cg-btn--ghost" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20student%20in%20Maryland.">Check availability</a></div></div></section>
+<section class="cg-section" id="reviews"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Reviews</span><h2>Parents and students on Google</h2><p class="cg-boiler">Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.</p></div><div class="cg-grid-3">
+<div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="cg-review-name">Ria Mukherjee</p><p class="cg-review-role">Parent</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="cg-review-name">Samriddha Mondal</p><p class="cg-review-role">Student</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="cg-review-name">Vansh Agarwal</p><p class="cg-review-role">Student</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="cg-review-name">Sonam Oswal</p><p class="cg-review-role">Parent of Dhairya</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="cg-review-name">Sonu Goyal</p><p class="cg-review-role">Parent</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="cg-review-name">Ritu Kedia</p><p class="cg-review-role">Parent</p></div>
+</div></div></section>
+<section class="cg-section cg-section--tint" id="book"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Free placement class</span><h2>Book a free class for a Maryland student</h2><p>Tell us the grade and the goal: a first Scratch game for a third grader, Python for an eighth grader, or the MARC join for a sophomore.</p></div><div class="cg-contact-grid"><form class="cg-form" id="bkLeadForm" novalidate><div class="cg-field"><label for="bkName">Learner or parent name</label><input id="bkName" name="name" autocomplete="name" required><span class="cg-error" id="bkNameErr"></span></div><div class="cg-field"><label for="bkEmail">Email</label><input id="bkEmail" name="email" type="email" autocomplete="email" required><span class="cg-error" id="bkEmailErr"></span></div><div class="cg-field"><label for="bkPhone">US mobile number</label><div class="cg-phone"><span>+1</span><input id="bkPhone" name="phone" inputmode="tel" autocomplete="tel" placeholder="(201) 555-0123" required></div><span class="cg-error" id="bkPhoneErr"></span></div><div class="cg-field"><label for="bkGrade">Grade or age</label><input id="bkGrade" name="grade" required><span class="cg-error" id="bkGradeErr"></span></div><div class="cg-field"><label for="bkMsg">Goal or current experience</label><textarea id="bkMsg" name="message" rows="4"></textarea></div><button class="cg-btn cg-btn--primary" id="bkSubmit" type="submit">Book the free class</button><p class="cg-error" id="bkFormErr"></p><p class="cg-success" id="bkOk" hidden>Thank you. We will be in touch shortly about a class for your Maryland student.</p></form><aside class="cg-contact-card"><div class="cg-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="cg-btn cg-btn--pd" href="/book-demo" data-pd-book="cg-book">Book a priority demo</a></div><h3>Contact the team directly</h3><p>WhatsApp or call <a class="cg-inline-link" href="tel:+919123366161">+91 91233 66161</a>, or email <a class="cg-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>. This is Modern Age Coders' actual contact, an Indian number, and not an invented Maryland one.</p><a class="cg-btn cg-btn--ghost" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20student%20in%20Maryland.">WhatsApp Modern Age Coders</a><p class="cg-privacy">Submitted details are used for placement and follow-up.</p></aside></div></div></section>
+<section class="cg-section" id="faq"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">FAQ</span><h2>Maryland coding and AI questions</h2><p>Answers from the Maryland statute and regulation, Code.org and the College Board, read in October 2026.</p></div><div class="cg-faq">
+<div class="cg-faq-item"><h3>Is computer science required to graduate in Maryland?</h3><p>Not by itself. COMAR 13A.03.02.03 C requires one credit in computer science, engineering, or technology education for students entering 9th grade from 2021 to 2022, so computer science is one of three ways to meet it.</p></div>
+<div class="cg-faq-item"><h3>Must every Maryland high school offer computer science?</h3><p>Yes. Education Article 4-111.4 says that beginning in 2021 to 2022 each county board shall require each public high school to offer at least one computer science course.</p></div>
+<div class="cg-faq-item"><h3>How many credits does a Maryland diploma need?</h3><p>A minimum of 22 credits for students entering 9th grade from 2021 to 2022, including four maths credits. Students who entered in 2020 to 2021 or earlier need a minimum of 21.</p></div>
+<div class="cg-faq-item"><h3>What about elementary and middle school?</h3><p>The statute asks county boards to make efforts to incorporate computer science instruction in each public elementary and middle school; it does not set a required course at those levels.</p></div>
+<div class="cg-faq-item"><h3>How many Maryland high schools offer computer science?</h3><p>The Code.org 2025 data shows 219 of 219 high schools in its count, or 100%, for 2024 to 2025.</p></div>
+<div class="cg-faq-item"><h3>How many Maryland students take computer science?</h3><p>Code.org reports 46,157 of 276,484 high school students, or 16.69%, enrolled in computer science in 2024 to 2025.</p></div>
+<div class="cg-faq-item"><h3>When are classes for Maryland students?</h3><p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience. Times are confirmed in Eastern Time, America/New_York.</p></div>
+<div class="cg-faq-item"><h3>Can your classes fill the Maryland credit slot?</h3><p>No. Only school courses earn Maryland credit. Our classes add depth and projects alongside them, and anything a school grades remains the student's own work.</p></div>
+<div class="cg-faq-item"><h3>What does the MARC project teach?</h3><p>Joining two tables. Station and parking tables each have 44 rows, and Union Station appears once per line, so a name-only join gives 50 pairs while a name-and-line join matches 44 of 44.</p></div>
+<div class="cg-faq-item"><h3>Is there a Modern Age Coders center in Maryland?</h3><p>No. We have no premises in Maryland; all classes are live online from India.</p></div>
+</div></div></section>
+<section class="cg-section cg-section--deep" id="next"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Explore the United States</span><h2>More for Maryland students</h2><p>For the exam route, see <a class="cg-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a> and <a class="cg-inline-link" href="/ap-computer-science-principles-online-coaching">AP Computer Science Principles coaching</a>. Builders can enter the <a class="cg-inline-link" href="/congressional-app-challenge-guide">Congressional App Challenge</a> or look at <a class="cg-inline-link" href="/summer-research-programs-coding">summer research programs in coding</a>. All states start from the <a class="cg-inline-link" href="/coding-classes-in-united-states">United States hub</a>.</p></div><div class="cg-hero-actions"><a class="cg-btn cg-btn--primary" href="#book">Book the free class</a><a class="cg-btn cg-btn--pd" href="/book-demo" data-pd-book="cg-next">Book a priority demo</a><a class="cg-btn cg-btn--ghost" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20class%20for%20a%20student%20in%20Maryland.">Message us on WhatsApp</a></div></div></section>
+<div class="cg-sticky" id="cgBar"><a href="#book">Free class</a><a class="cg-sticky-pd" href="/book-demo" data-pd-book="cg-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+<footer class="cg-footer"><div class="cg-wrap"><div class="cg-grid-3"><div><h3>Start here</h3><ul><li><a href="/courses">All courses</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div><div><h3>Maryland and the US</h3><ul><li><a href="/coding-classes-in-united-states">United States hub</a></li><li><a href="/coding-and-ai-classes-in-north-carolina">North Carolina</a></li><li><a href="/congressional-app-challenge-guide">Congressional App Challenge</a></li><li><a href="/summer-research-programs-coding">Summer research in coding</a></li></ul></div><div><h3>Company</h3><ul><li><a href="/about">About us</a></li><li><a href="/contact">Contact</a></li><li><a href="/love">Wall of love</a></li><li><a href="/student-labs">Student labs</a></li></ul></div></div><p class="cg-footer-bottom">Modern Age Coders. Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div></footer>
+<script>(function(){var API_URL='https://backend-modernagecoders.vercel.app';var form=document.getElementById('bkLeadForm');var bar=document.getElementById('cgBar');if(!form)return;function val(id){var e=document.getElementById(id);return e?e.value.trim():'';}function err(id,m){var e=document.getElementById(id);if(e)e.textContent=m||'';}form.addEventListener('focusin',function(){if(bar)bar.hidden=true;});form.addEventListener('focusout',function(){setTimeout(function(){if(bar&&!form.contains(document.activeElement))bar.hidden=false;},0);});form.addEventListener('submit',function(e){e.preventDefault();var name=val('bkName'),email=val('bkEmail'),phone=val('bkPhone'),grade=val('bkGrade'),msg=val('bkMsg');err('bkNameErr','');err('bkEmailErr','');err('bkPhoneErr','');err('bkGradeErr','');err('bkFormErr','');var ok=true;if(name.length<2){err('bkNameErr','Please enter a name');ok=false;}if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err('bkEmailErr','Please enter a valid email');ok=false;}var digits=phone.replace(/\D/g,'');if(digits.indexOf('001')===0)digits=digits.slice(3);else if(digits.indexOf('1')===0&&digits.length>10)digits=digits.slice(1);if(digits.charAt(0)==='0')digits=digits.slice(1);if(digits.length<7||digits.length>15){err('bkPhoneErr','Please enter a valid phone number');ok=false;}var foreignLead=form.__macLead&&form.__macLead.iso&&form.__macLead.iso!=='US';if(!foreignLead&&(digits.length<10||digits.length>10||!/^[2-9]/.test(digits))){err('bkPhoneErr','Please enter a valid United States phone number');ok=false;}if(!grade){err('bkGradeErr','Please enter a grade or age');ok=false;}if(!ok)return;var btn=document.getElementById('bkSubmit');btn.disabled=true;btn.textContent='Sending...';var body={name:name,email:email,contact:digits,countryCode:'+1',countryIso:'US',countryName:'United States',message:('Maryland enquiry. Student grade or age: '+grade+'. '+(msg||'No further detail given.')).slice(0,1000),attribution:{formPage:'/coding-classes-in-maryland',landingPage:'/coding-classes-in-maryland',referrer:document.referrer||''}};fetch(API_URL+'/api/contact/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(function(r){if(!r.ok)throw new Error('Request failed');form.reset();document.getElementById('bkOk').hidden=false;if(typeof gtag==='function')gtag('event','generate_lead',{page:'coding-classes-in-maryland'});}).catch(function(){err('bkFormErr','Something went wrong sending that. Please try again, or reach us on the contact page.');}).finally(function(){btn.disabled=false;btn.textContent='Book the free class';});});})();</script>
     <script src="/js/country-code-selector.js?v=20260927a" defer></script>
 </body>
 </html>
