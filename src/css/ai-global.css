@@ -1009,3 +1009,4 @@
 .ag-root.ag-cre { --ag-accent: #1E4C0B; --ag-accent-soft: rgba(30,76,11,.09); }   /* Create & Learn alternative: a deep fern green, #1E4C0B as allocated, separate from the olive and blue comparison accents, strong on the paper */
 .ag-root.ag-ita { --ag-accent: #0C522E; --ag-accent-soft: rgba(12,82,46,.09); }   /* iD Tech alternative: a pine green, #0C522E as allocated, cooler than the fern of the Create & Learn page and strong on the paper */
 .ag-root.ag-coa { --ag-accent: #376B52; --ag-accent-soft: rgba(55,107,82,.09); }   /* CodaKid alternative: a sage teal, #376B52 as allocated, lighter than the other comparison greens and still above contrast on the paper */
+.ag-root.ag-wka { --ag-accent: #49627A; --ag-accent-soft: rgba(73,98,122,.09); }   /* Coding with Kids alternative: a slate blue-grey, #49627A as allocated, softer than the comparison blue and above contrast on the paper */
