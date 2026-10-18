@@ -464,6 +464,7 @@ const SLUGS = [
   'coding-competitions-for-middle-school-students',
   'machine-learning-competitions-for-high-school-students',
   'math-competitions-for-middle-school-students',
+  'us-coding-math-and-ai-competitions-calendar',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1007,6 +1008,7 @@ const LLMS_LABELS = {
   'coding-competitions-for-middle-school-students': 'Coding competitions for middle school students',
   'machine-learning-competitions-for-high-school-students': 'Machine learning competitions for high school students',
   'math-competitions-for-middle-school-students': 'Math competitions for middle school students',
+  'us-coding-math-and-ai-competitions-calendar': 'US competitions calendar 2026-27',
 };
 
 function wireLlms(slugs) {

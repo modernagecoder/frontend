@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
 - [Math competitions for middle school students](/math-competitions-for-middle-school-students)
 - [Machine learning competitions for high school students](/machine-learning-competitions-for-high-school-students)
 - [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)

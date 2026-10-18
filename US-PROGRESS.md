@@ -205,7 +205,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 41 | coding-competitions-for-high-school-students (com, #0C0D52) | comp | 5,493 | 1.4% vs acsl-competition-preparation | phase 3 | estimating running time before writing code | 90d5c2be |
 | 42 | coding-competitions-for-middle-school-students (comp, #32294C) | comp | 4,172 | 1.1% vs acsl-competition-preparation | phase 3 | changing number bases by place value | 3b677cb0 |
 | 43 | machine-learning-competitions-for-high-school-students (mlch, #7A1D43) | comp | 4,158 | 1.1% vs presidential-ai-challenge-guide | phase 3 | why a | 9887f1d7 |
-| 44 | math-competitions-for-middle-school-students (mcms, #70241E) | comp | 4,290 | 0.8% vs ai-certification-for-high-school-students | phase 3 | pacing a timed test | (this commit) |
+| 44 | math-competitions-for-middle-school-students (mcms, #70241E) | comp | 4,290 | 0.8% vs ai-certification-for-high-school-students | phase 3 | pacing a timed test | 7f126d05 |
+| 45 | us-coding-math-and-ai-competitions-calendar (umac, #6B4823) | comp | 4,013 | 0.8% vs congressional-app-challenge-guide | phase 3 | working backwards from a deadline | (this commit) |
 
 ## Skipped
 
