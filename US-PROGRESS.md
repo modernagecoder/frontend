@@ -196,7 +196,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 38 | picoctf-for-beginners (pb, #346642) | comp | 3,987 | 1.2% vs cybersecurity-classes-for-teens | phase 3 | encoding is not encryption | d4dbc520 |
 | 39 | cyberpatriot-preparation (cp, #276B5F) | comp | 4,351 | 1.9% vs cybersecurity-classes-for-teens | phase 3 | least privilege (who should have access, and why) | 44deb15e |
 | 40 | technovation-girls-guide (tgg, #2C5170) | comp | 4,453 | 1.5% vs presidential-ai-challenge-guide | phase 3 | evidence from real users (test, measure, | 21696da0 |
-| 18 | ai-courses-for-high-school-students (achs, #1C4C33) | ai | 3,875 | 1.4% vs python-games-for-kids | phase 2 | model selection (choosing a setting with a held-out test set) | (this commit) |
+| 18 | ai-courses-for-high-school-students (achs, #1C4C33) | ai | 3,875 | 1.4% vs python-games-for-kids | phase 2 | model selection (choosing a setting with a held-out test set) | dbec6639 |
+| 19 | ai-classes-for-middle-school-students (ai, #12665E) | ai | 3,859 | 1.9% vs ai-courses-for-high-school-students | phase 2 | learning from examples (nearest neighbour, and why the scale of a feature matter | (this commit) |
 
 ## Skipped
 

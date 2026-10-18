@@ -7222,4 +7222,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ai-courses-for-high-school-students /src/pages/ai-courses-for-high-school-students.html 200
 /ai-courses-for-high-school-students.md /src/pages/ai-courses-for-high-school-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-classes-for-middle-school-students /src/pages/ai-classes-for-middle-school-students.html 200
+/ai-classes-for-middle-school-students.md /src/pages/ai-classes-for-middle-school-students.md 200
 /* /src/pages/404.html 404
