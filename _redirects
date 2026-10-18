@@ -7286,4 +7286,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /is-ap-computer-science-hard /src/pages/is-ap-computer-science-hard.html 200
 /is-ap-computer-science-hard.md /src/pages/is-ap-computer-science-hard.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/computer-science-graduation-requirements-by-state /src/pages/computer-science-graduation-requirements-by-state.html 200
+/computer-science-graduation-requirements-by-state.md /src/pages/computer-science-graduation-requirements-by-state.md 200
 /* /src/pages/404.html 404

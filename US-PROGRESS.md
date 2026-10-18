@@ -212,7 +212,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 48 | does-ap-computer-science-give-college-credit (dacs, #11702C) | ap | 3,787 | 2.2% vs ap-computer-science-a-score-calculator | phase 3 | reading a lookup table carefully (same key, different value per institution) | 96b97c45 |
 | 49 | ap-computer-science-a-practice-questions (acsp, #145245) | ap | 4,947 | 2% vs ap-computer-science-a-score-calculator | phase 3 | tracing code by hand (predict, then run) | a551ee32 |
 | 50 | ap-csp-create-performance-task-guide (accp, #38688F) | ap | 4,530 | 2.3% vs ap-csp-score-calculator | phase 3 | procedural and data abstraction (a parameter that matters, a list that earns its | d16b37ad |
-| 51 | is-ap-computer-science-hard (iacs, #142385) | ap | 3,659 | 2.1% vs ap-computer-science-a-score-calculator | phase 3 | reading data honestly (what a pass rate does and does not say) | (this commit) |
+| 51 | is-ap-computer-science-hard (iacs, #142385) | ap | 3,659 | 2.1% vs ap-computer-science-a-score-calculator | phase 3 | reading data honestly (what a pass rate does and does not say) | 2793f6ab |
+| 52 | computer-science-graduation-requirements-by-state (csgr, #10106B) | data | 4,481 | 1.2% vs computer-science-summer-programs-for-high-school-students | phase 3 | counting and filtering a table with csv | (this commit) |
 
 ## Skipped
 

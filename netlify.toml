@@ -24237,6 +24237,18 @@
   to = "/src/pages/is-ap-computer-science-hard.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/computer-science-graduation-requirements-by-state"
+  to = "/src/pages/computer-science-graduation-requirements-by-state.html"
+  status = 200
+
+[[redirects]]
+  from = "/computer-science-graduation-requirements-by-state.md"
+  to = "/src/pages/computer-science-graduation-requirements-by-state.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

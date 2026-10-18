@@ -471,6 +471,7 @@ const SLUGS = [
   'ap-computer-science-a-practice-questions',
   'ap-csp-create-performance-task-guide',
   'is-ap-computer-science-hard',
+  'computer-science-graduation-requirements-by-state',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1021,6 +1022,7 @@ const LLMS_LABELS = {
   'ap-computer-science-a-practice-questions': 'AP CSA practice questions',
   'ap-csp-create-performance-task-guide': 'AP CSP Create task guide',
   'is-ap-computer-science-hard': 'Is AP Computer Science hard?',
+  'computer-science-graduation-requirements-by-state': 'CS graduation requirements by state',
 };
 
 function wireLlms(slugs) {
