@@ -1004,3 +1004,4 @@
 .ag-root.ag-cssb { --ag-accent: #7A495D; --ag-accent-soft: rgba(122,73,93,.09); }   /* CS standards by state: a muted plum, #7A495D as allocated, warm enough to set it apart from the cluster navies and with strong contrast on the paper */
 .ag-root.ag-hscs { --ag-accent: #52261B; --ag-accent-soft: rgba(82,38,27,.09); }   /* High school CS access by state: a burnt umber, #52261B as allocated, earthy and distinct from the cluster blues, high contrast on the paper */
 .ag-root.ag-agsb { --ag-accent: #61520F; --ag-accent-soft: rgba(97,82,15,.09); }   /* AI guidance for schools by state: a dark olive gold, #61520F as allocated, distinct from the other data pages and readable on the paper */
+.ag-root.ag-bkuc { --ag-accent: #2C3385; --ag-accent-soft: rgba(44,51,133,.09); }   /* Online coding classes compared: a steady comparison blue, #2C3385 as allocated, distinct from the data-page accents and strong on the paper */

@@ -216,7 +216,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 52 | computer-science-graduation-requirements-by-state (csgr, #10106B) | data | 4,481 | 1.2% vs computer-science-summer-programs-for-high-school-students | phase 3 | counting and filtering a table with csv | b444f312 |
 | 53 | computer-science-standards-by-state (cssb, #7A495D) | data | 3,648 | 1.3% vs computer-science-graduation-requirements-by-state | phase 3 | summarising data with the statistics module (Data and Analysis concept) | e877d1c6 |
 | 54 | high-school-computer-science-access-by-state (hscs, #52261B) | data | 3,810 | 1.1% vs computer-science-graduation-requirements-by-state | phase 3 | ratios, percentage format and sorting with a key function | d9ff0807 |
-| 55 | ai-guidance-for-schools-by-state (agsb, #61520F) | data | 3,556 | 2% vs computer-science-graduation-requirements-by-state | phase 3 | nearest-neighbour classification and feature scaling (how AI works, not how to u | (this commit) |
+| 55 | ai-guidance-for-schools-by-state (agsb, #61520F) | data | 3,556 | 2% vs computer-science-graduation-requirements-by-state | phase 3 | nearest-neighbour classification and feature scaling (how AI works, not how to u | 0be1f1cf |
+| 61 | best-online-coding-classes-for-kids-usa-compared (bkuc, #2C3385) | cmp | 3,540 | 1.2% vs ai-guidance-for-schools-by-state | phase 3 | weighted scoring (a sum of weight times value) for a decision | (this commit) |
 
 ## Skipped
 

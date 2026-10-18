@@ -706,6 +706,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - CS standards by state: https://learn.modernagecoders.com/computer-science-standards-by-state
 - High school CS access by state: https://learn.modernagecoders.com/high-school-computer-science-access-by-state
 - AI guidance for schools by state: https://learn.modernagecoders.com/ai-guidance-for-schools-by-state
+- Online coding classes for kids, compared: https://learn.modernagecoders.com/best-online-coding-classes-for-kids-usa-compared
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -475,6 +475,7 @@ const SLUGS = [
   'computer-science-standards-by-state',
   'high-school-computer-science-access-by-state',
   'ai-guidance-for-schools-by-state',
+  'best-online-coding-classes-for-kids-usa-compared',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1029,6 +1030,7 @@ const LLMS_LABELS = {
   'computer-science-standards-by-state': 'CS standards by state',
   'high-school-computer-science-access-by-state': 'High school CS access by state',
   'ai-guidance-for-schools-by-state': 'AI guidance for schools by state',
+  'best-online-coding-classes-for-kids-usa-compared': 'Online coding classes for kids, compared',
 };
 
 function wireLlms(slugs) {
