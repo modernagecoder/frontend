@@ -24357,6 +24357,18 @@
   to = "/src/pages/coding-with-kids-alternative.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/common-core-math-vs-traditional-math"
+  to = "/src/pages/common-core-math-vs-traditional-math.html"
+  status = 200
+
+[[redirects]]
+  from = "/common-core-math-vs-traditional-math.md"
+  to = "/src/pages/common-core-math-vs-traditional-math.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

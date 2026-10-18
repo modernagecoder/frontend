@@ -712,6 +712,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - iD Tech alternative: https://learn.modernagecoders.com/id-tech-alternative
 - CodaKid alternative: https://learn.modernagecoders.com/codakid-alternative
 - Coding with Kids alternative: https://learn.modernagecoders.com/coding-with-kids-alternative
+- Common Core math vs traditional math: https://learn.modernagecoders.com/common-core-math-vs-traditional-math
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -222,7 +222,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 57 | create-and-learn-alternative (cre, #1E4C0B) | cmp | 3,046 | 1.7% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | ordering steps by prerequisite (a learning path as a sequence) | 0109c31a |
 | 58 | id-tech-alternative (ita, #0C522E) | cmp | 3,046 | 1.3% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | time arithmetic and time-zone conversion | e13a4058 |
 | 59 | codakid-alternative (coa, #376B52) | cmp | 3,093 | 1.7% vs id-tech-alternative | phase 3 | summing a log and computing a share (dictionary of tuples, sum, f-string percent | 003d74a9 |
-| 60 | coding-with-kids-alternative (wka, #49627A) | cmp | 3,053 | 1.7% vs codakid-alternative | phase 3 | multiplying a weekly time by a cycle and converting minutes to hours | (this commit) |
+| 60 | coding-with-kids-alternative (wka, #49627A) | cmp | 3,053 | 1.7% vs codakid-alternative | phase 3 | multiplying a weekly time by a cycle and converting minutes to hours | 8f777d73 |
+| 62 | common-core-math-vs-traditional-math (ccmt, #2B127A) | math | 3,269 | 1.4% vs ai-guidance-for-schools-by-state | phase 3 | place value decomposition (partial products) checked against the standard algori | (this commit) |
 
 ## Skipped
 

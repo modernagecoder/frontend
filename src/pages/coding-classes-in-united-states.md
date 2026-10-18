@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math)
 - [Coding with Kids alternative](/coding-with-kids-alternative)
 - [CodaKid alternative](/codakid-alternative)
 - [iD Tech alternative](/id-tech-alternative)

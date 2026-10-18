@@ -7326,4 +7326,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /coding-with-kids-alternative /src/pages/coding-with-kids-alternative.html 200
 /coding-with-kids-alternative.md /src/pages/coding-with-kids-alternative.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/common-core-math-vs-traditional-math /src/pages/common-core-math-vs-traditional-math.html 200
+/common-core-math-vs-traditional-math.md /src/pages/common-core-math-vs-traditional-math.md 200
 /* /src/pages/404.html 404

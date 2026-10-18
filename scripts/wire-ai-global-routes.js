@@ -481,6 +481,7 @@ const SLUGS = [
   'id-tech-alternative',
   'codakid-alternative',
   'coding-with-kids-alternative',
+  'common-core-math-vs-traditional-math',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1041,6 +1042,7 @@ const LLMS_LABELS = {
   'id-tech-alternative': 'iD Tech alternative',
   'codakid-alternative': 'CodaKid alternative',
   'coding-with-kids-alternative': 'Coding with Kids alternative',
+  'common-core-math-vs-traditional-math': 'Common Core math vs traditional math',
 };
 
 function wireLlms(slugs) {

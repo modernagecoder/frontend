@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Common Core Math vs Traditional Math: A Parent Guide</title>
+  <meta name="description" content="Common Core math vs traditional math, explained from the standards: when the algorithm is required, why area models appear, and one problem solved two ways.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/common-core-math-vs-traditional-math">
+  <link rel="alternate" type="text/markdown" href="/src/pages/common-core-math-vs-traditional-math.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2B127A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/common-core-math-vs-traditional-math">
+  <meta property="og:title" content="Common Core Math vs Traditional Math: A Parent Guide">
+  <meta property="og:description" content="Common Core does not ban the standard algorithm; it requires it, in grades 4, 5 and 6. What changes is the route there. The standards, the practices and a worked problem, both ways.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Common Core Math vs Traditional Math: A Parent Guide">
+  <meta name="twitter:description" content="Common Core and traditional math compared from the standards, with a worked example.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ccmt .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-ccmt .ag-capsule { border-left-width: 4px; border-radius: 5px; }
+.ag-root.ag-ccmt .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-ccmt .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-ccmt .ag-section-head h2 { max-width: 30ch; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/common-core-math-vs-traditional-math#page","url":"https://learn.modernagecoders.com/common-core-math-vs-traditional-math","name":"Common Core Math vs Traditional Math","description":"A balanced guide for US parents to Common Core math and traditional math, quoting the Common Core State Standards and showing one multiplication problem worked with the standard algorithm and with an area model.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Common Core vs traditional math","item":"https://learn.modernagecoders.com/common-core-math-vs-traditional-math"}]},{"@type":"Course","name":"Common Core Math vs Traditional Math","description":"Live online math classes for US students from elementary school to algebra, teaching both understanding and fluent standard methods, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/common-core-math-vs-traditional-math"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/common-core-math-vs-traditional-math"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/common-core-math-vs-traditional-math"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does Common Core teach the standard algorithm?","acceptedAnswer":{"@type":"Answer","text":"Yes. The standards require fluency with the standard algorithm for multi-digit addition and subtraction in grade 4 (4.NBT.B.4), multiplication in grade 5 (5.NBT.B.5) and division in grade 6 (6.NS.B.2)."}},{"@type":"Question","name":"Why does my child draw boxes to multiply?","acceptedAnswer":{"@type":"Answer","text":"That is an area model. Standard 4.NBT.B.5 asks fourth graders to multiply using place-value strategies and to explain with equations, arrays or area models, a year before the standard algorithm is required."}},{"@type":"Question","name":"Does Common Core require memorising times tables?","acceptedAnswer":{"@type":"Answer","text":"Yes. Standard 3.OA.C.7 says that by the end of grade 3 students should know from memory all products of two one-digit numbers."}},{"@type":"Question","name":"What is traditional math?","acceptedAnswer":{"@type":"Answer","text":"There is no official definition. People usually mean teaching the standard method first, with lots of practice and less emphasis on models or written explanations."}},{"@type":"Question","name":"Which states use Common Core?","acceptedAnswer":{"@type":"Answer","text":"The initiative says 41 states, the District of Columbia, four territories and DoDEA have adopted it. Adoption is voluntary, and some states, such as Texas with its TEKS, use their own standards."}},{"@type":"Question","name":"Does Common Core tell teachers how to teach?","acceptedAnswer":{"@type":"Answer","text":"No. Its FAQ says the standards establish what students need to learn but do not dictate how teachers should teach. Worksheets come from the curriculum a district chooses."}},{"@type":"Question","name":"Is one approach better?","acceptedAnswer":{"@type":"Answer","text":"The standards themselves ask for both understanding and speed. Children usually do best with models first and fluent methods after, plus regular fact practice."}},{"@type":"Question","name":"How can I help if I learned it differently?","acceptedAnswer":{"@type":"Answer","text":"Ask your child to explain the method, check the answer your own way, and show how the two match. Keep the model if the assignment asks for it."}},{"@type":"Question","name":"When are your math classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are you connected with the Common Core initiative?","acceptedAnswer":{"@type":"Answer","text":"No. We are an independent online school; we quote the published standards and link to them."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/common-core-math-vs-traditional-math","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ccmt">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#what">What each means</a></li>
+      <li><a href="#algorithm">The algorithm</a></li>
+      <li><a href="#both-ways">Both ways</a></li>
+      <li><a href="#practices">Eight practices</a></li>
+      <li><a href="#home">Helping at home</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Common Core vs traditional math
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades K to 8 &middot; From the standards themselves</p>
+        <h1>Common Core math vs traditional math</h1>
+        <p class="ag-lede">Few school topics divide parents like Common Core math. A child brings home a page of boxes and arrows for a sum the parent would solve in four lines, and it looks as if the old way has been banned. It has not. The Common Core State Standards require the standard algorithms, in named grades. What they add is a longer route to them through place value and models, plus an equal weight on explaining why. This guide quotes the standards directly, sets out what people usually mean by traditional math, and works one problem both ways so you can see the difference for yourself.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#both-ways" class="ag-btn ag-btn--ghost">See one problem both ways</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20is%20struggling%20with%20Common%20Core%20math%20homework.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccmt'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching math and coding live since 2020 &middot; 10,000+ students &middot; grades K to 12</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Standard algorithm</dt><dd>Required in grades 4 to 6</dd>
+          <dt>Times tables</dt><dd>From memory by end of grade 3</dd>
+          <dt>Adopted by</dt><dd>41 states and DC, per the initiative</dd>
+          <dt>Practices</dt><dd>Eight</dd>
+          <dt>Our classes</dt><dd>Live, online</dd>
+          <dt>Formats</dt><dd>Batch or 1-on-1</dd>
+          <dt>Timing</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Common Core math does not replace the standard algorithms; the standards require them: adding and subtracting multi-digit numbers in grade 4 (4.NBT.B.4), multiplying in grade 5 (5.NBT.B.5) and dividing in grade 6 (6.NS.B.2). Before that, students use place-value strategies and models such as area models and explain their reasoning. Traditional math usually means teaching the algorithm first and practising it heavily.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Understanding and fluency together</p>
+      <h2>Three math courses that teach the why and the fast way</h2>
+      <p class="ag-lede">Each one builds number sense and then the standard methods, so homework in either style makes sense.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/elementary-mathematics-complete-masterclass">
+        <div class="ag-pick-shot"><img src="/images/elementary-maths.webp" alt="Elementary Maths for Grades 1-5 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCMT / 01</p>
+          <h3>Elementary math, grades 1 to 5</h3>
+          <p>Place value, times tables and the standard methods.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCMT / 02</p>
+          <h3>Middle school math</h3>
+          <p>Fractions, ratios, pre-algebra and geometry.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/algebra-foundations-masterclass">
+        <div class="ag-pick-shot"><img src="/images/algebra-foundations.webp" alt="Algebra Foundations course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCMT / 03</p>
+          <h3>Algebra foundations</h3>
+          <p>Pre-algebra and Algebra 1, explained and practised.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What each means</p><h2>What Common Core is, and what people mean by traditional math</h2><p class="ag-lede">One of these is a published set of standards. The other is a teaching style with no official text. That difference explains much of the argument.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common Core and traditional math compared (Common Core facts from thecorestandards.org, read 17 October 2026; the traditional column is our description)</caption><thead><tr><th scope="col">Point</th><th scope="col">Common Core math</th><th scope="col">Traditional math</th></tr></thead><tbody><tr><td>What it is</td><td>Standards: what students should know in each grade</td><td>A teaching approach, not a document</td></tr><tr><td>Who wrote it</td><td>State leaders through the NGA Center and CCSSO, from 2009</td><td>No single author</td></tr><tr><td>Does it say how to teach?</td><td>No: it sets goals, not methods</td><td>Usually a set method, shown then practised</td></tr><tr><td>Standard algorithms</td><td>Required in grades 4, 5 and 6</td><td>Taught early, often first</td></tr><tr><td>Models and drawings</td><td>Used before and alongside the algorithm</td><td>Used less, or skipped</td></tr><tr><td>Explaining reasoning</td><td>Weighted equally with fluency and application</td><td>Mostly the answer and the method</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Who uses Common Core</h3><p>The initiative&rsquo;s own page says "Forty-one states, the District of Columbia, four territories, and the Department of Defense Education Activity (DoDEA) have adopted" the standards, and that states may change or add to them.</p>
+<p>Its FAQ is explicit that "Adoption of the standards is voluntary." Some states write their own: Texas, for example, teaches to its own Texas Essential Knowledge and Skills (TEKS) in mathematics.</p></div><div><h3>Standards are not worksheets</h3><p>The Common Core FAQ says the standards "establish what students need to learn, but do not dictate how teachers should teach." The boxes, arrows and number bonds on a worksheet come from a curriculum a district chose, not from the standards text.</p>
+<p>That matters when you raise a concern: the right person is often the school or district that picked the materials.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.thecorestandards.org/about-the-standards/frequently-asked-questions/" rel="noopener" target="_blank">Common Core FAQ</a>, <a class="ag-inline-link" href="https://www.thecorestandards.org/standards-in-your-state/" rel="noopener" target="_blank">Standards in Your State</a>, and the <a class="ag-inline-link" href="https://tea.texas.gov/academics/subject-areas/mathematics" rel="noopener" target="_blank">Texas Education Agency mathematics page</a>, read 17 October 2026. We are not connected with the Common Core initiative or any state.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="algorithm">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The algorithm</p><h2>Where the standards require the standard algorithm</h2><p class="ag-lede">The most common worry is that Common Core abandons the column methods parents learned. The grade standards say the opposite, with a timetable.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From strategies to standard algorithms in the Common Core math standards (thecorestandards.org, read 17 October 2026)</caption><thead><tr><th scope="col">Grade</th><th scope="col">Standard</th><th scope="col">What it asks</th></tr></thead><tbody><tr><td>2</td><td>2.NBT.B.5</td><td>Add and subtract within 100 fluently using place-value strategies</td></tr><tr><td>3</td><td>3.OA.C.7</td><td>"By the end of Grade 3, know from memory all products of two one-digit numbers."</td></tr><tr><td>4</td><td>4.NBT.B.4</td><td>"Fluently add and subtract multi-digit whole numbers using the standard algorithm."</td></tr><tr><td>4</td><td>4.NBT.B.5</td><td>Multiply using place-value strategies; explain with equations, arrays or area models</td></tr><tr><td>5</td><td>5.NBT.B.5</td><td>"Fluently multiply multi-digit whole numbers using the standard algorithm."</td></tr><tr><td>6</td><td>6.NS.B.2</td><td>"Fluently divide multi-digit numbers using the standard algorithm."</td></tr><tr><td>6</td><td>6.NS.B.3</td><td>Add, subtract, multiply and divide multi-digit decimals with the standard algorithm for each</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The pattern</h3><p>For each operation, the standards place a year of strategies and models first, then fluency with the standard algorithm a year or so later: multiplication with area models in grade 4, the algorithm in grade 5; division with strategies in grades 4 and 5, the algorithm in grade 6.</p>
+<p>So a fourth grader drawing area models is not being kept from the algorithm. They are in the year before it.</p></div><div><h3>Memorisation is in there too</h3><p>Standard 3.OA.C.7 asks children to know all single-digit products from memory by the end of grade 3. The initiative&rsquo;s key shifts page adds that "The standards call for speed and accuracy in calculation."</p>
+<p>The idea that Common Core rejects times tables or drill does not match the text. What it rejects is drill without understanding.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="both-ways">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">One problem, both ways</p><h2>Working 47 x 36 the traditional way and the Common Core way</h2><p class="ag-lede">Our worked example. Both methods give 1,692; they record the same arithmetic differently.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>47 x 36 by the standard algorithm (traditional) and by an area model with partial products (our example)</caption><thead><tr><th scope="col">Step</th><th scope="col">Standard algorithm</th><th scope="col">Area model, partial products</th></tr></thead><tbody><tr><td>1</td><td>47 x 6 = 282 (carry the 4 from 7 x 6 = 42)</td><td>Split 47 into 40 + 7 and 36 into 30 + 6</td></tr><tr><td>2</td><td>47 x 30 = 1,410 (write a 0, then 47 x 3)</td><td>40 x 30 = 1,200 and 40 x 6 = 240</td></tr><tr><td>3</td><td>Add the rows: 282 + 1,410</td><td>7 x 30 = 210 and 7 x 6 = 42</td></tr><tr><td>4</td><td>Answer: 1,692</td><td>1,200 + 240 + 210 + 42 = 1,692</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the area model shows</h3><p>The four partial products are exactly the four rectangles in a drawing of a 47 by 36 rectangle split at the tens. A child can see that 40 x 30 is the big piece and 7 x 6 the small corner.</p>
+<p>That picture later becomes (a + b)(c + d) in algebra, which is the main argument for teaching it.</p></div><div><h3>What the algorithm offers</h3><p>Speed and fewer lines. The carried 4 and the shifted second row are compressed versions of the same partial products, which is why the standards want both, in that order.</p>
+<p>A child who understands the area model usually learns the algorithm faster and makes fewer place-value mistakes in it.</p></div></div>
+    <p class="ag-mt-40">Division follows the same idea. For 852 / 4, a Common Core worksheet may use partial quotients: 4 x 200 = 800, leaving 52; 4 x 13 = 52; so the quotient is 200 + 13 = 213. Long division, required by 6.NS.B.2, records the same steps digit by digit.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>partial_products.py (our example)</b><span>Python 3</span></figcaption><pre>def place_values(n):
+    digits = str(n)
+    return [int(d) * 10 ** (len(digits) - i - 1) for i, d in enumerate(digits) if d != "0"]
+
+def partial_products(a, b):
+    parts = [x * y for x in place_values(a) for y in place_values(b)]
+    print(" + ".join(str(p) for p in parts), "=", sum(parts))
+    return sum(parts)
+
+assert partial_products(47, 36) == 47 * 36
+partial_products(128, 5)</pre><p class="ag-code-note">Output: 1200 + 240 + 210 + 42 = 1692, then 500 + 100 + 40 = 640. The assert line checks the area-model total against Python&rsquo;s own multiplication, the way a student checks one method with another.</p></figure>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practices">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eight practices</p><h2>The habits Common Core asks for in every grade</h2><p class="ag-lede">Alongside grade content, the standards list eight Standards for Mathematical Practice. They explain why homework often asks a child to "explain" or "show another way".</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The eight Standards for Mathematical Practice (thecorestandards.org, read 17 October 2026)</caption><thead><tr><th scope="col">Code</th><th scope="col">Practice</th></tr></thead><tbody><tr><td>MP1</td><td>Make sense of problems and persevere in solving them</td></tr><tr><td>MP2</td><td>Reason abstractly and quantitatively</td></tr><tr><td>MP3</td><td>Construct viable arguments and critique the reasoning of others</td></tr><tr><td>MP4</td><td>Model with mathematics</td></tr><tr><td>MP5</td><td>Use appropriate tools strategically</td></tr><tr><td>MP6</td><td>Attend to precision</td></tr><tr><td>MP7</td><td>Look for and make use of structure</td></tr><tr><td>MP8</td><td>Look for and express regularity in repeated reasoning</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Rigor, as the initiative defines it</h3><p>The key shifts page says rigor means pursuing "conceptual understanding, procedural skills and fluency, and application" with equal intensity, and that it is not about "making math harder or introducing topics at earlier grades."</p>
+<p>Focus is the other shift: in grades K to 2 the major work is addition and subtraction, and in grades 3 to 5 multiplication, division and fractions.</p></div><div><h3>Where critics and supporters agree</h3><p>Supporters point to MP1&rsquo;s question, "Does this make sense?", as a habit that prevents silly answers. Critics worry that time on explanations crowds out practice.</p>
+<p>Both can be true in a given classroom. The standards ask for balance; whether a child gets it depends on the curriculum and the teacher, which is a fair thing for parents to ask about.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="home">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Helping at home</p><h2>How to help with homework in a method you were not taught</h2><p class="ag-lede">Our advice for parents who learned the algorithm first.</p></div>
+    <ol class="ag-steps"><li><b>Ask your child to teach you the method.</b> Explaining is itself one of the practices the homework is aiming at.</li><li><b>Check the answer your way.</b> If both methods agree, the method on the page is probably fine.</li><li><b>Match each part of the model to your method.</b> Show how the carried digit is one of the partial products.</li><li><b>Do not skip the model if the assignment asks for it.</b> The teacher is assessing the reasoning, not only the answer.</li><li><b>Keep a few minutes for facts.</b> Times tables from memory are a grade 3 standard and make every later method easier.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A short practice set, both ways (ours; answers in brackets)</caption><thead><tr><th scope="col">Problem</th><th scope="col">Try it as</th><th scope="col">Then check with</th></tr></thead><tbody><tr><td>23 x 14</td><td>Area model (200 + 80 + 30 + 12)</td><td>Standard algorithm (322)</td></tr><tr><td>56 x 7</td><td>Partial products (350 + 42)</td><td>Standard algorithm (392)</td></tr><tr><td>936 / 3</td><td>Partial quotients (300 + 10 + 2)</td><td>Long division (312)</td></tr><tr><td>305 - 178</td><td>Count up from 178 (2 + 20 + 100 + 5)</td><td>Standard algorithm (127)</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your child is</p>
+      <h2>Four stages from strategies to fluency</h2>
+      <p class="ag-lede">How children usually move through the standards&rsquo; sequence.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages in multi-digit arithmetic (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Counting</td><td class="ag-num">Adds by counting on; place value is shaky</td></tr><tr><td>2. Strategies</td><td class="ag-num">Splits numbers into tens and ones; draws models</td></tr><tr><td>3. Algorithm</td><td class="ag-num">Uses the column method, sometimes without knowing why</td></tr><tr><td>4. Fluent and flexible</td><td class="ag-num">Chooses the quickest method and can explain it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 3 without stage 2 often leads to place-value slips. Stage 2 without stage 3 leads to slow work. The goal is stage 4.</p>
+<p>Ask the teacher which stage the class is in this term.</p></div><div><h3>For students</h3><p>If you know a fast way, use the slow way once to check it. That is what mathematicians do.</p>
+<p>Times tables really do make everything easier.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine math courses from kindergarten to high school</h2>
+      <p class="ag-lede">Live lessons that teach the reasoning the standards ask for and the speed families expect.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Early and elementary</h3>
+        <span class="ag-band-sub">Grades K to 5</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / E / 01</p>
+          <h4>Early math foundations</h4>
+          <p>Number sense, hands on.</p>
+          <a class="ag-course-link" href="/courses/early-math-foundations">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / E / 02</p>
+          <h4>Elementary math</h4>
+          <p>Grades 1 to 5.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / E / 03</p>
+          <h4>Mental math</h4>
+          <p>Number sense, not tricks.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Middle school</h3>
+        <span class="ag-band-sub">Grades 6 to 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / M / 01</p>
+          <h4>Middle school math</h4>
+          <p>Pre-algebra and geometry.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / M / 02</p>
+          <h4>Math competitions</h4>
+          <p>MATHCOUNTS and AMC 8.</p>
+          <a class="ag-course-link" href="/courses/middle-school-math-competitions-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / M / 03</p>
+          <h4>Math through coding</h4>
+          <p>Math in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>High school</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / H / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Algebra 1 in depth.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / H / 02</p>
+          <h4>High school math</h4>
+          <p>Algebra to calculus.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCMT / H / 03</p>
+          <h4>SAT Math</h4>
+          <p>The digital SAT.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Math lessons that respect both methods</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, aligned to the week&rsquo;s homework.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Catch-up and practice sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Paced to the school curriculum.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Why, then fast</h3><p>Models first, algorithms after.</p></div>
+      <div><h3>School-aware</h3><p>We follow your child&rsquo;s curriculum.</p></div>
+      <div><h3>Fact fluency</h3><p>A few minutes of facts each lesson.</p></div>
+      <div><h3>Concepts, not answers</h3><p>Homework stays the student&rsquo;s own.</p></div>
+      <div><h3>Every state</h3><p>Common Core or state standards.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work from our students</h2>
+      <p class="ag-lede">Some projects mix math and code. See more on <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Math classes are billed monthly in US dollars, with no annual contract, so a family can add support for a hard unit and stop afterwards.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring this week&rsquo;s homework</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>One regular teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher to yourself</li><li>Matched to the curriculum</li><li>Flexible times</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents&rsquo; Google reviews, exactly as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Common Core vs traditional math: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Does Common Core teach the standard algorithm?</h3>
+        <p>Yes. The standards require fluency with the standard algorithm for multi-digit addition and subtraction in grade 4 (4.NBT.B.4), multiplication in grade 5 (5.NBT.B.5) and division in grade 6 (6.NS.B.2).</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does my child draw boxes to multiply?</h3>
+        <p>That is an area model. Standard 4.NBT.B.5 asks fourth graders to multiply using place-value strategies and to explain with equations, arrays or area models, a year before the standard algorithm is required.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Common Core require memorising times tables?</h3>
+        <p>Yes. Standard 3.OA.C.7 says that by the end of grade 3 students should know from memory all products of two one-digit numbers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is traditional math?</h3>
+        <p>There is no official definition. People usually mean teaching the standard method first, with lots of practice and less emphasis on models or written explanations.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which states use Common Core?</h3>
+        <p>The initiative says 41 states, the District of Columbia, four territories and DoDEA have adopted it. Adoption is voluntary, and some states, such as Texas with its TEKS, use their own standards.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Common Core tell teachers how to teach?</h3>
+        <p>No. Its FAQ says the standards establish what students need to learn but do not dictate how teachers should teach. Worksheets come from the curriculum a district chooses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is one approach better?</h3>
+        <p>The standards themselves ask for both understanding and speed. Children usually do best with models first and fluent methods after, plus regular fact practice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How can I help if I learned it differently?</h3>
+        <p>Ask your child to explain the method, check the answer your own way, and show how the two match. Keep the model if the assignment asks for it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your math classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with the Common Core initiative?</h3>
+        <p>No. We are an independent online school; we quote the published standards and link to them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More math help for US families.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-3rd-grade">Third grade math tutoring</a></h3><p>The times-tables year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-6th-grade">Sixth grade math tutoring</a></h3><p>Long division and ratios.</p></div>
+      <div><h3><a class="ag-inline-link" href="/algebra-tutoring-online-usa">Algebra tutoring</a></h3><p>Where area models pay off.</p></div>
+      <div><h3><a class="ag-inline-link" href="/homeschool-math-curriculum-usa">Homeschool math curriculum</a></h3><p>Choosing a sequence at home.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-maths-tutoring-for-kids-in-usa">Math tutoring for kids</a></h3><p>Live online, for US students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/mathcounts-preparation">MATHCOUNTS preparation</a></h3><p>For children who love problems.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Send us a photo of the homework that caused the argument. The teacher will show your child both methods and why they give the same answer.</p>
+        <p class="ag-mt-40">See <a class="ag-inline-link" href="/how-we-teach">our method</a>, or browse our <a class="ag-inline-link" href="/courses">math and coding courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20the%20US%20is%20struggling%20with%20Common%20Core%20math%20homework.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccmt',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We teach math live by video from India, at times that work for American school nights. WhatsApp is the easiest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ccmt(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free; no card needed.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Math help</h4><ul><li><a href="/online-math-tutor-3rd-grade">Third grade math</a></li><li><a href="/online-math-tutor-6th-grade">Sixth grade math</a></li><li><a href="/algebra-tutoring-online-usa">Algebra tutoring</a></li><li><a href="/online-math-tutor-cost">Math tutor cost</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Our US pages</a></li><li><a href="/homeschool-math-curriculum-usa">Homeschool math</a></li><li><a href="/mathcounts-preparation">MATHCOUNTS</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>1,692 either way</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ccmt = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'common-core-math-vs-traditional-math-inline', meta: { name: name, age: age, page: 'common-core-math-vs-traditional-math' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
