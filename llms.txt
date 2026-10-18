@@ -694,6 +694,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Coding competitions for high school students: https://learn.modernagecoders.com/coding-competitions-for-high-school-students
 - Coding competitions for middle school students: https://learn.modernagecoders.com/coding-competitions-for-middle-school-students
 - Machine learning competitions for high school students: https://learn.modernagecoders.com/machine-learning-competitions-for-high-school-students
+- Math competitions for middle school students: https://learn.modernagecoders.com/math-competitions-for-middle-school-students
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

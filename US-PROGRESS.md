@@ -204,7 +204,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 23 | ai-summer-programs-for-high-school-students (asph, #9E4267) | ai | 3,999 | 1.9% vs ai-courses-for-high-school-students | phase 2 | learning curves (how accuracy grows with data) | b709cad2 |
 | 41 | coding-competitions-for-high-school-students (com, #0C0D52) | comp | 5,493 | 1.4% vs acsl-competition-preparation | phase 3 | estimating running time before writing code | 90d5c2be |
 | 42 | coding-competitions-for-middle-school-students (comp, #32294C) | comp | 4,172 | 1.1% vs acsl-competition-preparation | phase 3 | changing number bases by place value | 3b677cb0 |
-| 43 | machine-learning-competitions-for-high-school-students (mlch, #7A1D43) | comp | 4,158 | 1.1% vs presidential-ai-challenge-guide | phase 3 | why a | (this commit) |
+| 43 | machine-learning-competitions-for-high-school-students (mlch, #7A1D43) | comp | 4,158 | 1.1% vs presidential-ai-challenge-guide | phase 3 | why a | 9887f1d7 |
+| 44 | math-competitions-for-middle-school-students (mcms, #70241E) | comp | 4,290 | 0.8% vs ai-certification-for-high-school-students | phase 3 | pacing a timed test | (this commit) |
 
 ## Skipped
 
