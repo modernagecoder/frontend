@@ -215,7 +215,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 51 | is-ap-computer-science-hard (iacs, #142385) | ap | 3,659 | 2.1% vs ap-computer-science-a-score-calculator | phase 3 | reading data honestly (what a pass rate does and does not say) | 2793f6ab |
 | 52 | computer-science-graduation-requirements-by-state (csgr, #10106B) | data | 4,481 | 1.2% vs computer-science-summer-programs-for-high-school-students | phase 3 | counting and filtering a table with csv | b444f312 |
 | 53 | computer-science-standards-by-state (cssb, #7A495D) | data | 3,648 | 1.3% vs computer-science-graduation-requirements-by-state | phase 3 | summarising data with the statistics module (Data and Analysis concept) | e877d1c6 |
-| 54 | high-school-computer-science-access-by-state (hscs, #52261B) | data | 3,810 | 1.1% vs computer-science-graduation-requirements-by-state | phase 3 | ratios, percentage format and sorting with a key function | (this commit) |
+| 54 | high-school-computer-science-access-by-state (hscs, #52261B) | data | 3,810 | 1.1% vs computer-science-graduation-requirements-by-state | phase 3 | ratios, percentage format and sorting with a key function | d9ff0807 |
+| 55 | ai-guidance-for-schools-by-state (agsb, #61520F) | data | 3,556 | 2% vs computer-science-graduation-requirements-by-state | phase 3 | nearest-neighbour classification and feature scaling (how AI works, not how to u | (this commit) |
 
 ## Skipped
 

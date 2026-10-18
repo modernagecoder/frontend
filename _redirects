@@ -7298,4 +7298,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /high-school-computer-science-access-by-state /src/pages/high-school-computer-science-access-by-state.html 200
 /high-school-computer-science-access-by-state.md /src/pages/high-school-computer-science-access-by-state.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ai-guidance-for-schools-by-state /src/pages/ai-guidance-for-schools-by-state.html 200
+/ai-guidance-for-schools-by-state.md /src/pages/ai-guidance-for-schools-by-state.md 200
 /* /src/pages/404.html 404

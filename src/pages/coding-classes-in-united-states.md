@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [AI guidance for schools by state](/ai-guidance-for-schools-by-state)
 - [High school CS access by state](/high-school-computer-science-access-by-state)
 - [CS standards by state](/computer-science-standards-by-state)
 - [CS graduation requirements by state](/computer-science-graduation-requirements-by-state)

@@ -474,6 +474,7 @@ const SLUGS = [
   'computer-science-graduation-requirements-by-state',
   'computer-science-standards-by-state',
   'high-school-computer-science-access-by-state',
+  'ai-guidance-for-schools-by-state',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1027,6 +1028,7 @@ const LLMS_LABELS = {
   'computer-science-graduation-requirements-by-state': 'CS graduation requirements by state',
   'computer-science-standards-by-state': 'CS standards by state',
   'high-school-computer-science-access-by-state': 'High school CS access by state',
+  'ai-guidance-for-schools-by-state': 'AI guidance for schools by state',
 };
 
 function wireLlms(slugs) {

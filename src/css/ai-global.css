@@ -1003,3 +1003,4 @@
 .ag-root.ag-csgr { --ag-accent: #10106B; --ag-accent-soft: rgba(16,16,107,.09); }   /* CS graduation requirements by state: a deep ledger indigo, #10106B as allocated, far from the other US accents and dark enough for strong contrast on the paper */
 .ag-root.ag-cssb { --ag-accent: #7A495D; --ag-accent-soft: rgba(122,73,93,.09); }   /* CS standards by state: a muted plum, #7A495D as allocated, warm enough to set it apart from the cluster navies and with strong contrast on the paper */
 .ag-root.ag-hscs { --ag-accent: #52261B; --ag-accent-soft: rgba(82,38,27,.09); }   /* High school CS access by state: a burnt umber, #52261B as allocated, earthy and distinct from the cluster blues, high contrast on the paper */
+.ag-root.ag-agsb { --ag-accent: #61520F; --ag-accent-soft: rgba(97,82,15,.09); }   /* AI guidance for schools by state: a dark olive gold, #61520F as allocated, distinct from the other data pages and readable on the paper */
