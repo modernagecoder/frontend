@@ -697,6 +697,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Math competitions for middle school students: https://learn.modernagecoders.com/math-competitions-for-middle-school-students
 - US competitions calendar 2026-27: https://learn.modernagecoders.com/us-coding-math-and-ai-competitions-calendar
 - AP CSA score calculator: https://learn.modernagecoders.com/ap-computer-science-a-score-calculator
+- AP CSP score calculator: https://learn.modernagecoders.com/ap-csp-score-calculator
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

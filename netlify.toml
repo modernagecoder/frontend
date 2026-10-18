@@ -24177,6 +24177,18 @@
   to = "/src/pages/ap-computer-science-a-score-calculator.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ap-csp-score-calculator"
+  to = "/src/pages/ap-csp-score-calculator.html"
+  status = 200
+
+[[redirects]]
+  from = "/ap-csp-score-calculator.md"
+  to = "/src/pages/ap-csp-score-calculator.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

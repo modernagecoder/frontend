@@ -7266,4 +7266,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ap-computer-science-a-score-calculator /src/pages/ap-computer-science-a-score-calculator.html 200
 /ap-computer-science-a-score-calculator.md /src/pages/ap-computer-science-a-score-calculator.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ap-csp-score-calculator /src/pages/ap-csp-score-calculator.html 200
+/ap-csp-score-calculator.md /src/pages/ap-csp-score-calculator.md 200
 /* /src/pages/404.html 404

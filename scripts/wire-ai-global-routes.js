@@ -466,6 +466,7 @@ const SLUGS = [
   'math-competitions-for-middle-school-students',
   'us-coding-math-and-ai-competitions-calendar',
   'ap-computer-science-a-score-calculator',
+  'ap-csp-score-calculator',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1011,6 +1012,7 @@ const LLMS_LABELS = {
   'math-competitions-for-middle-school-students': 'Math competitions for middle school students',
   'us-coding-math-and-ai-competitions-calendar': 'US competitions calendar 2026-27',
   'ap-computer-science-a-score-calculator': 'AP CSA score calculator',
+  'ap-csp-score-calculator': 'AP CSP score calculator',
 };
 
 function wireLlms(slugs) {

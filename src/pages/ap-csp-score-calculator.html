@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AP CSP Score Calculator: Weights, Rubric Points, an Estimate</title>
+  <meta name="description" content="AP CSP score calculator: 70 multiple-choice questions for 70%, six Create and written-response points for 30%, a worked composite and what it cannot predict.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ap-csp-score-calculator">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ap-csp-score-calculator.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#214C1E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ap-csp-score-calculator">
+  <meta property="og:title" content="AP CSP Score Calculator: Weights, Rubric Points, an Estimate">
+  <meta property="og:description" content="In AP Computer Science Principles one rubric point weighs the same as five multiple-choice questions. A labelled estimate method, a worked example and a short Python program.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AP CSP Score Calculator: Weights, Rubric Points, an Estimate">
+  <meta name="twitter:description" content="Estimate an AP CSP composite from published weights: 70 questions, six rubric points.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-acsc .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-acsc .ag-capsule { border-left-width: 7px; border-radius: 3px; }
+.ag-root.ag-acsc .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-acsc .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-acsc .ag-slots { gap: 0.9rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ap-csp-score-calculator#page","url":"https://learn.modernagecoders.com/ap-csp-score-calculator","name":"AP CSP Score Calculator","description":"A method for US students to estimate an AP Computer Science Principles result from a practice exam and a marked Create task, using only the weights College Board publishes.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"AP CSP score calculator","item":"https://learn.modernagecoders.com/ap-csp-score-calculator"}]},{"@type":"Course","name":"AP CSP Score Calculator","description":"Live online AP Computer Science Principles preparation for US high school students, covering the multiple choice, the Create performance task and the written responses, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ap-csp-score-calculator"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ap-csp-score-calculator"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ap-csp-score-calculator"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is the AP Computer Science Principles exam weighted?","acceptedAnswer":{"@type":"Answer","text":"Section I, 70 multiple-choice questions in 120 minutes, is 70% of the score. Section II, the Create performance task plus two written-response questions, is 30%."}},{"@type":"Question","name":"How many points is the AP CSP Create task worth?","acceptedAnswer":{"@type":"Answer","text":"Section II is scored as six categories of 0 to 1 point: Video, Program Requirements, Written Response 1, and Written Responses 2(a), 2(b) and 2(c). Together they make up 30% of the score."}},{"@type":"Question","name":"How do I estimate my AP CSP score?","acceptedAnswer":{"@type":"Answer","text":"Our method adds the number of multiple-choice questions right to 5 times the rubric points earned, giving a composite out of 100. It is our estimate, not an official College Board conversion."}},{"@type":"Question","name":"Is there an official AP CSP score calculator?","acceptedAnswer":{"@type":"Answer","text":"No. College Board publishes the weights and the rubric categories but not the raw score needed for each AP score on the current exam."}},{"@type":"Question","name":"Can I get an AP CSP score without submitting the Create task?","acceptedAnswer":{"@type":"Answer","text":"Yes. College Board says students who take the end-of-course exam receive a score even if they do not submit the Create performance task, although they lose the points the task would carry."}},{"@type":"Question","name":"What if I submit the Create task but miss the exam?","acceptedAnswer":{"@type":"Answer","text":"College Board says the exam score is cancelled in that case, and there is no refund."}},{"@type":"Question","name":"Which AP CSP written response is hardest?","acceptedAnswer":{"@type":"Answer","text":"In the 2025 scoring statistics for Set 1, Written Response 2(a) had the lowest mean, 0.43 out of 1 possible point. Prompts change every year."}},{"@type":"Question","name":"When is the AP CSP Create task due?","acceptedAnswer":{"@type":"Answer","text":"AP Central lists Friday, April 30, 2027, at 11:59 PM ET as the deadline to submit all components as final in the AP Digital Portfolio."}},{"@type":"Question","name":"What times are AP CSP classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do AP CSP classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. Then families pay by the month, and this page shows the monthly amount in US dollars in its fees section."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ap-csp-score-calculator","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-acsc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#weights">Weights</a></li>
+      <li><a href="#rubric">Six points</a></li>
+      <li><a href="#estimate">Estimate</a></li>
+      <li><a href="#python">In Python</a></li>
+      <li><a href="#zero">A zero</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / AP CSP score calculator
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 9 to 12 &middot; AP Computer Science Principles</p>
+        <h1>AP CSP score calculator</h1>
+        <p class="ag-lede">AP Computer Science Principles is scored in a way that surprises a lot of students. Seventy multiple-choice questions decide 70% of the result, and just six rubric points, earned through a project and a short written section, decide the other 30%. That makes each of those six points very heavy, and it makes a careful estimate worth doing. This page lays out what College Board publishes about the weighting, works through an estimate method that is clearly ours, and is plain about the part nobody outside College Board can calculate: where the lines between a 3, a 4 and a 5 actually sit.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#estimate" class="ag-btn ag-btn--ghost">Go to the estimate</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20is%20taking%20AP%20Computer%20Science%20Principles%20and%20wants%20help%20with%20the%20Create%20task%20and%20the%20exam.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'acsc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Create task and exam, taught together</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Exam</dt><dd>AP Computer Science Principles</dd>
+          <dt>Task deadline</dt><dd>April 30, 2027, 11:59 PM ET</dd>
+          <dt>Exam day</dt><dd>Friday, May 14, 2027</dd>
+          <dt>Multiple choice</dt><dd>70 questions, 70%</dd>
+          <dt>Create and writing</dt><dd>6 points, 30%</dd>
+          <dt>Our estimate</dt><dd>MC right + 5 per point</dd>
+          <dt>Classes</dt><dd>A batch, or 1-on-1</dd>
+          <dt>Begin with</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>AP CSP has 70 multiple-choice questions worth 70% and a Create performance task with written responses worth 30%, scored as six points of 0 to 1 each. So in our estimate a composite out of 100 is simply multiple-choice questions right plus 5 for every rubric point. College Board does not publish the raw cutoffs for each AP score, so treat any result as an estimate.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Points that are earned early</p>
+      <h2>Three courses for a CSP student chasing those six points</h2>
+      <p class="ag-lede">The Create task is built over weeks. These courses put a teacher next to the student while it is built, inside College Board&rsquo;s rules on help and collaboration.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ap-computer-science-principles-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-principles.webp" alt="AP Computer Science Principles course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSC / 01</p>
+          <h3>AP Computer Science Principles prep</h3>
+          <p>Grades 9 to 12. Big ideas, the Create task, timed practice.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSC / 02</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 18. A text language that suits the Create task.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/javascript-course-for-teens-beginners-interactive-web">
+        <div class="ag-pick-shot"><img src="/images/javascript-teens.webp" alt="JavaScript for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSC / 03</p>
+          <h3>JavaScript for teens</h3>
+          <p>Ages 13 to 18. Interactive programs for the browser.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="weights">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The published weighting</p><h2>How the AP CSP exam splits 100 percent</h2><p class="ag-lede">College Board says the end-of-course exam "has consistent question types and weighting every year". That consistency is what makes an estimate possible at all. Everything in this table comes from the AP CSP exam page on AP Central, read on 17 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AP Computer Science Principles exam components, from AP Central (read 17 October 2026)</caption><thead><tr><th scope="col">Component</th><th scope="col">What it is</th><th scope="col">Time</th><th scope="col">Share</th></tr></thead><tbody><tr><td>Section I: multiple choice</td><td>70 questions with 4 answer options: 57 single-select, 5 single-select with a reading passage about a computing innovation, 8 multiple-select where you choose 2 answers</td><td>120 minutes</td><td>70%</td></tr><tr><td>Section II: Create performance task</td><td>Program code, a video of the program running, and a Personalized Project Reference</td><td>9 hours in class</td><td>Part of 30%</td></tr><tr><td>Section II: written response</td><td>2 questions with four prompts, WR1, WR2(a), WR2(b) and WR2(c), about your own program</td><td>60 minutes on exam day</td><td>Part of 30%</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Two dates, not one</h3><p>AP Central lists the deadline for submitting the Create performance task as final in the AP Digital Portfolio as Friday, April 30, 2027, at 11:59 PM ET, and the end-of-course exam as Friday, May 14, 2027, Session 1.</p>
+<p>For an estimate, that means part of Section II is already decided two weeks before exam day. What a student submits in April is what gets scored.</p></div><div><h3>Why the multiple-select items matter</h3><p>Eight of the seventy questions ask for two answers. The pages we read do not say how partial answers are treated, so in our method we count a multiple-select question as right only when both choices are right.</p>
+<p>That is the cautious assumption. If a student&rsquo;s practice score depends heavily on half-right multiple-select answers, the estimate should be read as a little optimistic.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam" rel="noopener" target="_blank">AP Computer Science Principles exam page</a> on AP Central, read 17 October 2026. We are not connected with College Board.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="rubric">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Section II in detail</p><h2>The six rubric points behind 30 percent of the score</h2><p class="ag-lede">The 2026 Scoring Guidelines split Section II into six reporting categories, each scored 0 to 1. Three are grouped as one block and three as another.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AP CSP reporting categories, from the 2026 Scoring Guidelines (read 17 October 2026)</caption><thead><tr><th scope="col">Category</th><th scope="col">Scored from</th><th scope="col">What earns it, in short</th><th scope="col">2025 mean (Set 1)</th></tr></thead><tbody><tr><td>Video</td><td>The video, or the code if needed</td><td>The program running, showing input, functionality and output</td><td class="ag-num">0.94</td></tr><tr><td>Program Requirements</td><td>The Personalized Project Reference, or the code</td><td>A student-developed procedure and a call to it, a list and a use of it, selection and iteration</td><td class="ag-num">0.78</td></tr><tr><td>Written Response 1</td><td>Your answer, with the video or code</td><td>In 2026: a piece of documentation and how another programmer would use it</td><td class="ag-num">0.84</td></tr><tr><td>Written Response 2(a)</td><td>Your answer and the PPR</td><td>In 2026: what makes an iteration statement stop, and why</td><td class="ag-num">0.43</td></tr><tr><td>Written Response 2(b)</td><td>Your answer and the PPR</td><td>In 2026: a call with specific arguments that makes the procedure behave incorrectly</td><td class="ag-num">0.57</td></tr><tr><td>Written Response 2(c)</td><td>Your answer and the PPR</td><td>In 2026: how the list manages complexity, and the code needed without it</td><td class="ag-num">0.57</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading the means</h3><p>College Board&rsquo;s 2025 scoring statistics, Set 1, give the mean for each category out of 1 possible point. The video point is close to universal at 0.94; Written Response 2(a) is the hardest at 0.43, which means fewer than half of responses earned it.</p>
+<p>Those are the published means for Set 1 of the 2025 prompts. Prompts change every year, and College Board says so directly: "The written response prompts on exam day will be different each year."</p></div><div><h3>Small rules that cost whole points</h3><p>Under the Program Requirements category the guidelines refuse the point when "The list is a one-element list." or when the use of the list is not connected to the program&rsquo;s functionality, or when selection or iteration is trivial.</p>
+<p>The general notes also say written responses "should be evaluated solely on the rationale provided", and that every criterion in a category must be shown to earn that category&rsquo;s point. There are no half points: a response either meets all of it or scores 0 for that row.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap26-sg-computer-science-principles.pdf" rel="noopener" target="_blank">2026 AP CSP Scoring Guidelines</a> and <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap25-computer-science-principles-scoring-statistics-set-1.pdf" rel="noopener" target="_blank">2025 scoring statistics, Set 1</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="estimate">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Our estimate method</p><h2>A composite you can work out on a napkin</h2><p class="ag-lede">This method is ours. It uses only the published weights, and because of the way those weights fall, the arithmetic is unusually simple.</p></div>
+    <ol class="ag-steps"><li><b>Sit a full practice Section I.</b> Seventy questions in 120 minutes. Count the questions you got right, counting a two-answer question only when both answers are correct.</li><li><b>Score your own project against the six categories.</b> Give the video and program requirements 1 or 0 from the rubric. Then answer four practice written-response prompts about your own code under a timer and score each 1 or 0.</li><li><b>Convert Section I.</b> Seventy questions carry 70% of the score, so each question is worth exactly 1 composite point: 70 / 70 = 1.</li><li><b>Convert Section II.</b> Six points carry 30%, so each point is worth 5 composite points: 30 / 6 = 5.</li><li><b>Add them.</b> Your composite is the number right plus 5 times the rubric points. A perfect paper is 70 + 30 = 100.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Three worked estimates (ours; invented results, not real students)</caption><thead><tr><th scope="col">Student</th><th scope="col">Section I right of 70</th><th scope="col">Rubric points of 6</th><th scope="col">Composite</th></tr></thead><tbody><tr><td>D: quick on the multiple choice</td><td>58</td><td>2 (video and program requirements only)</td><td class="ag-num">58 + 10 = 68</td></tr><tr><td>E: balanced</td><td>48</td><td>4</td><td class="ag-num">48 + 20 = 68</td></tr><tr><td>F: strong project, weak writing</td><td>44</td><td>3</td><td class="ag-num">44 + 15 = 59</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>One point, five questions</h3><p>The striking result: a single rubric point weighs the same as five multiple-choice questions. Student D answers ten more questions right than Student E, and E draws level by earning two more rubric points.</p>
+<p>So the written response deserves far more practice time than its 60 minutes suggest. Four written-response points are worth 20 composite points, the same as twenty correct multiple-choice answers.</p></div><div><h3>Ten points decided in class</h3><p>The video and program requirements points are fixed by what you submit in April. Together they are worth 2 &times; 5 = 10 composite points before exam day begins, by our arithmetic.</p>
+<p>Most students earn them, judging by the 2025 means of 0.94 and 0.78. The students who lose them usually lose them for a reason that could have been fixed in an afternoon: a one-element list, or a video that does not show input.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="python">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Run it yourself</p><h2>The estimate as six lines of Python</h2><p class="ag-lede">AP CSP does not set one programming language, and many classes use Python. This short program does the same sum as the table above. We ran it before publishing.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>csp_estimate.py &middot; our estimate method</b><span>python</span></figcaption><pre># Our estimate, not a College Board conversion
+def composite(mc_right, task_points):
+    # Section I: 70 questions, 70% of the score
+    part_one = mc_right / 70 * 70
+    # Section II: 6 rubric points, 30% of the score
+    part_two = sum(task_points) / 6 * 30
+    return part_one + part_two
+
+# video, program requirements, WR1, WR2(a), WR2(b), WR2(c)
+points = [1, 1, 1, 0, 1, 0]
+print("Composite:", round(composite(48, points), 1), "of 100")</pre><p class="ag-code-note">Run by us on 17 October 2026 with Python 3.13. Output: Composite: 68.0 of 100.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>It is a Create task in miniature</h3><p>Look at what the program contains: a student-developed procedure named composite with two parameters, a list of rubric points, and a call to the procedure. Those are three of the program requirements the guidelines check.</p>
+<p>What it lacks is selection and iteration. Adding a loop that prints the composite for several practice results, and an if statement that flags a result under your target, would cover those too.</p></div><div><h3>A practice written response</h3><p>Try answering a prompt about it in the 2026 style: name a call with specific arguments that would make composite behave incorrectly. One answer: composite(48, [1, 1, 1]) runs without complaint but silently treats the three missing categories as zeros, so the estimate comes out too low.</p>
+<p>Explaining why that happens, in two or three sentences, is exactly the skill Written Response 2(b) asked for in 2026.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="zero">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The cost of a zero</p><h2>What happens to the estimate when part of Section II is missing</h2><p class="ag-lede">Two situations come up every year, and College Board&rsquo;s exam FAQ answers both.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Missing pieces, from the AP CSP exam FAQ and Student Handouts on AP Central (read 17 October 2026), with our composite arithmetic</caption><thead><tr><th scope="col">Situation</th><th scope="col">What College Board says</th><th scope="col">Highest composite possible (ours)</th></tr></thead><tbody><tr><td>Took the exam, never submitted the Create task</td><td>"Students who take the end-of-course exam will receive a score even if they do not submit the Create performance task."</td><td class="ag-num">70 in practice: the written responses rely on a reference the student will not have</td></tr><tr><td>Submitted the task, skipped the exam</td><td>The exam score is cancelled, with no refund</td><td class="ag-num">No score</td></tr><tr><td>Task scored 0 for plagiarism</td><td>A 0 on the task, including the written responses</td><td class="ag-num">70</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the first row is risky</h3><p>The written responses are answered with the Personalized Project Reference open. The Student Handouts warn that a student who does not submit it by the deadline will not have it on exam day, so there is no code to point to and the four written points become very hard to earn.</p>
+<p>The safer reading for an estimate: a missing Create submission leaves a student with Section I only, and 70 as the realistic maximum.</p></div><div><h3>Protecting the 30 percent</h3><p>Submit early, check that the Personalized Project Reference has no comments in it, and keep a record of any code you did not write and where it came from.</p>
+<p>Our post comparing <a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP and AP CSA</a> explains how the project changes the year compared with the Java exam.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course/faq/about-ap-csp-exam" rel="noopener" target="_blank">AP CSP: Questions About the Exam</a> and the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap-csp-student-task-directions.pdf" rel="noopener" target="_blank">AP CSP Student Handouts</a>, AP Central, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="limits">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Honest limits</p><h2>What this estimate can tell you, and what it cannot</h2><p class="ag-lede">The composite is exact arithmetic on published weights. The step from composite to a 1 to 5 score is not public, so the table below is our own reading, set for our students.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How we read a practice composite in class (ours; College Board does not publish cut scores)</caption><thead><tr><th scope="col">Practice composite</th><th scope="col">Our reading</th><th scope="col">Next focus</th></tr></thead><tbody><tr><td>75 and up, on two separate practices</td><td>A strong position with some margin</td><td>Keep the written responses sharp; prompts change</td></tr><tr><td>60 to 74</td><td>Within reach of a good score, not yet safe</td><td>The written-response categories under 1</td></tr><tr><td>45 to 59</td><td>Building</td><td>Big Idea 3, Algorithms and Programming, in Section I</td></tr><tr><td>Below 45</td><td>Early days</td><td>Reading code and tracing lists before timed practice</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why we cannot be precise</h3><p>College Board sets the conversion from raw points to the 1 to 5 scale itself and does not publish it for the current exam. Any site that prints an exact raw cutoff is guessing, or using an old exam that no longer matches.</p>
+<p>Our bands sit above where we expect the lines to be, by design. They are there to guide revision. They do not promise a score.</p></div><div><h3>Where to go from here</h3><p>Students who want the live course can see our <a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP Computer Science Principles coaching</a> page.</p>
+<p>Students thinking about Java next can read about our <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a>, which follow on naturally after CSP.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Through the CSP year</p>
+      <h2>Where the estimate sits at four points in the year</h2>
+      <p class="ag-lede">A composite means something different in October than it does in late April.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Estimate checkpoints for an AP CSP year (ours)</caption><thead><tr><th scope="col">When</th><th scope="col">What to estimate</th></tr></thead><tbody><tr><td>Fall</td><td class="ag-num">Section I only, on the big ideas taught so far</td></tr><tr><td>Winter</td><td class="ag-num">A practice project scored against the six categories</td></tr><tr><td>Before April 30</td><td class="ag-num">Video and program requirements on the real submission</td></tr><tr><td>Early May</td><td class="ag-num">Full composite with timed written responses</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask whether the Create task has been submitted as final, not just uploaded. Only final submissions are scored.</p>
+<p>If the multiple choice is strong and the writing is weak, that is the most fixable profile there is.</p></div><div><h3>For students</h3><p>Practise writing about your own code, out loud and on paper. It is a different skill from writing the code.</p>
+<p>Score yourself strictly. A category is all or nothing.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses near AP Computer Science Principles</h2>
+      <p class="ag-lede">Live online, with a regular teacher, as a group batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>The AP route</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / AP / 01</p>
+          <h4>AP CSP prep</h4>
+          <p>Exam and Create task, together.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / AP / 02</p>
+          <h4>AP CSA prep</h4>
+          <p>The Java exam, often the next step.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / AP / 03</p>
+          <h4>Java for teens</h4>
+          <p>A head start on object-oriented code.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Languages for the project</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / LNG / 01</p>
+          <h4>Python for teens</h4>
+          <p>Clean syntax for a first big program.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / LNG / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Programs that run in a browser.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / LNG / 03</p>
+          <h4>HTML and CSS</h4>
+          <p>Page structure, before the scripts.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Data and beyond</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / DAT / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Lists of real data, analysed.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / DAT / 02</p>
+          <h4>Problem solving</h4>
+          <p>Algorithms, step by careful step.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSC / DAT / 03</p>
+          <h4>AP Statistics</h4>
+          <p>Another AP that rewards clear writing.</p>
+          <a class="ag-course-link" href="/courses/ap-statistics-maths-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>A teacher beside the project, live</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, across the US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Good for long project build sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Fitted around the student&rsquo;s own deadline.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One regular teacher</h3><p>Someone who knows the project from its first draft.</p></div>
+      <div><h3>Rules respected</h3><p>Help with concepts and practice, never with the scored work.</p></div>
+      <div><h3>Writing practice</h3><p>Timed prompts about the student&rsquo;s own code.</p></div>
+      <div><h3>Section I drills</h3><p>All five big ideas, mixed and timed.</p></div>
+      <div><h3>Any state</h3><p>Classes on video, wherever home is.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty students, or just one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Programs our students have built</h2>
+      <p class="ag-lede">Work by learners who once sat where a CSP student sits now. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Working out an estimate costs nothing. Teaching is paid one month at a time in US dollars, without a contract for the semester, so families can stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring a practice result</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty in a batch</li><li>A regular teacher</li><li>Your choice of batch</li><li>Billed monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One student, one teacher</li><li>Times of your choosing</li><li>Paced to the April deadline</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">From Google, exactly as parents wrote it.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students</p>
+      <h2>AP CSP scores: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How is the AP Computer Science Principles exam weighted?</h3>
+        <p>Section I, 70 multiple-choice questions in 120 minutes, is 70% of the score. Section II, the Create performance task plus two written-response questions, is 30%.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many points is the AP CSP Create task worth?</h3>
+        <p>Section II is scored as six categories of 0 to 1 point: Video, Program Requirements, Written Response 1, and Written Responses 2(a), 2(b) and 2(c). Together they make up 30% of the score.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I estimate my AP CSP score?</h3>
+        <p>Our method adds the number of multiple-choice questions right to 5 times the rubric points earned, giving a composite out of 100. It is our estimate, not an official College Board conversion.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there an official AP CSP score calculator?</h3>
+        <p>No. College Board publishes the weights and the rubric categories but not the raw score needed for each AP score on the current exam.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I get an AP CSP score without submitting the Create task?</h3>
+        <p>Yes. College Board says students who take the end-of-course exam receive a score even if they do not submit the Create performance task, although they lose the points the task would carry.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What if I submit the Create task but miss the exam?</h3>
+        <p>College Board says the exam score is cancelled in that case, and there is no refund.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which AP CSP written response is hardest?</h3>
+        <p>In the 2025 scoring statistics for Set 1, Written Response 2(a) had the lowest mean, 0.43 out of 1 possible point. Prompts change every year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the AP CSP Create task due?</h3>
+        <p>AP Central lists Friday, April 30, 2027, at 11:59 PM ET as the deadline to submit all components as final in the AP Digital Portfolio.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are AP CSP classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do AP CSP classes cost?</h3>
+        <p>The first lesson is free. Then families pay by the month, and this page shows the monthly amount in US dollars in its fees section.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students taking an AP computer science course.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></h3><p>The full live course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP CSA classes</a></h3><p>The Java exam, unit by unit.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP or AP CSA</a></h3><p>Which one to take first.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/how-to-use-chatgpt-to-study-without-cheating">Studying with AI, honestly</a></h3><p>Useful before any project.</p></div>
+      <div><h3><a class="ag-inline-link" href="/computer-science-extracurriculars">CS extracurriculars</a></h3><p>What to build beyond the course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Every US page in one place.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us where the project is and how the last practice test went. The teacher uses the first lesson to estimate a composite with the student and pick the category to work on first.</p>
+        <p class="ag-mt-40">To see a lesson before booking, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>; the <a class="ag-inline-link" href="/courses">full course list</a> shows each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20is%20taking%20AP%20Computer%20Science%20Principles%20and%20wants%20help%20with%20the%20Create%20task%20and%20the%20exam.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'acsc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are based in India and teach on video, so there is nothing to travel to. For a US family, WhatsApp gets the fastest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_acsc(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson, no card required.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AP computer science</h4><ul><li><a href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></li><li><a href="/ap-computer-science-a-online-classes">AP CSA classes</a></li><li><a href="/blog/how-to-get-a-5-in-ap-computer-science-a">A 5 in AP CSA</a></li><li><a href="/hackathons-for-high-school-students">Hackathons for high schoolers</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/coding-for-15-year-olds">Coding for 15 year olds</a></li><li><a href="/python-for-15-year-olds">Python for 15 year olds</a></li><li><a href="/ai-projects-for-high-school-students">AI projects for high school</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Six points, each worth five questions</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_acsc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'ap-csp-score-calculator-inline', meta: { name: name, age: age, page: 'ap-csp-score-calculator' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
