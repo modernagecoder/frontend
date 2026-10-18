@@ -479,6 +479,7 @@ const SLUGS = [
   'codewizardshq-alternative',
   'create-and-learn-alternative',
   'id-tech-alternative',
+  'codakid-alternative',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1037,6 +1038,7 @@ const LLMS_LABELS = {
   'codewizardshq-alternative': 'CodeWizardsHQ alternative',
   'create-and-learn-alternative': 'Create & Learn alternative',
   'id-tech-alternative': 'iD Tech alternative',
+  'codakid-alternative': 'CodaKid alternative',
 };
 
 function wireLlms(slugs) {

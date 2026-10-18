@@ -220,7 +220,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 61 | best-online-coding-classes-for-kids-usa-compared (bkuc, #2C3385) | cmp | 3,540 | 1.2% vs ai-guidance-for-schools-by-state | phase 3 | weighted scoring (a sum of weight times value) for a decision | 32e52943 |
 | 56 | codewizardshq-alternative (cod, #50571D) | cmp | 3,130 | 2.3% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | unit conversion and multiplication from published figures (minutes to hours) | 219e8e55 |
 | 57 | create-and-learn-alternative (cre, #1E4C0B) | cmp | 3,046 | 1.7% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | ordering steps by prerequisite (a learning path as a sequence) | 0109c31a |
-| 58 | id-tech-alternative (ita, #0C522E) | cmp | 3,046 | 1.3% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | time arithmetic and time-zone conversion | (this commit) |
+| 58 | id-tech-alternative (ita, #0C522E) | cmp | 3,046 | 1.3% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | time arithmetic and time-zone conversion | e13a4058 |
+| 59 | codakid-alternative (coa, #376B52) | cmp | 3,093 | 1.7% vs id-tech-alternative | phase 3 | summing a log and computing a share (dictionary of tuples, sum, f-string percent | (this commit) |
 
 ## Skipped
 

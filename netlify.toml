@@ -24333,6 +24333,18 @@
   to = "/src/pages/id-tech-alternative.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/codakid-alternative"
+  to = "/src/pages/codakid-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/codakid-alternative.md"
+  to = "/src/pages/codakid-alternative.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
