@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AP Computer Science A Practice Questions, With Answers</title>
+  <meta name="description" content="Original AP Computer Science A practice questions in Java: 14 multiple choice across all four units and one free response, every answer checked by running it.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ap-computer-science-a-practice-questions">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ap-computer-science-a-practice-questions.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#145245">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ap-computer-science-a-practice-questions">
+  <meta property="og:title" content="AP Computer Science A Practice Questions, With Answers">
+  <meta property="og:description" content="Fourteen AP CSA style multiple-choice questions and a free-response task, written by us, compiled and run before publishing, with the reasoning behind each answer.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AP Computer Science A Practice Questions, With Answers">
+  <meta name="twitter:description" content="Original AP CSA practice in Java: 14 questions and a free response, answers run and checked.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-acsp .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-acsp .ag-capsule { border-left-width: 4px; border-radius: 4px; }
+.ag-root.ag-acsp .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-acsp .ag-table caption { text-align: left; }
+.ag-root.ag-acsp .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ap-computer-science-a-practice-questions#page","url":"https://learn.modernagecoders.com/ap-computer-science-a-practice-questions","name":"AP Computer Science A Practice Questions","description":"An original practice set for US students preparing for AP Computer Science A, written in the style of the current four-unit exam, with every answer verified by running the code.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"AP CSA practice questions","item":"https://learn.modernagecoders.com/ap-computer-science-a-practice-questions"}]},{"@type":"Course","name":"AP Computer Science A Practice Questions","description":"Live online AP Computer Science A preparation for US high school students, built around tracing and writing Java by hand, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ap-computer-science-a-practice-questions"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ap-computer-science-a-practice-questions"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ap-computer-science-a-practice-questions"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are these real AP Computer Science A exam questions?","acceptedAnswer":{"@type":"Answer","text":"No. Every question on this page was written by our teachers in the style of the current exam. College Board items are not copied. For official practice, use AP Classroom and the Bluebook test previews."}},{"@type":"Question","name":"Are the answers on this page correct?","acceptedAnswer":{"@type":"Answer","text":"We compiled and ran every snippet with Java before publishing, so each answer is the actual output of the code."}},{"@type":"Question","name":"How many questions are on the real AP CSA multiple choice?","acceptedAnswer":{"@type":"Answer","text":"There are 42 of them in Section I, with 90 minutes to answer, and together they make up 55% of the exam score."}},{"@type":"Question","name":"Which unit should I practise most?","acceptedAnswer":{"@type":"Answer","text":"Unit 4, Data Collections, has the largest multiple-choice weighting, 30 to 40 percent, followed by Unit 2, Selection and Iteration, at 25 to 35 percent."}},{"@type":"Question","name":"Is inheritance on the AP CSA exam?","acceptedAnswer":{"@type":"Answer","text":"College Board says designing and implementing inheritance relationships are outside the scope of the course and exam, so this set does not test it."}},{"@type":"Question","name":"Which Java methods can appear on the exam?","acceptedAnswer":{"@type":"Answer","text":"The Java Quick Reference in Bluebook lists them, including String substring, indexOf and split, Math.random, and the ArrayList methods add, get, set, size and remove."}},{"@type":"Question","name":"Are past AP CSA free-response questions still worth doing?","acceptedAnswer":{"@type":"Answer","text":"For practice in writing Java, yes. College Board notes that questions from before the 2025 to 2026 revisions are not fully matched to the current exam, so do not use them to judge timing or scoring."}},{"@type":"Question","name":"Why does removing from an ArrayList in a for loop skip elements?","acceptedAnswer":{"@type":"Answer","text":"Removing at index i shifts every later element one place left, and then i increases, so the element that moved into position i is never checked. Traversing backwards avoids it."}},{"@type":"Question","name":"When do AP CSA lessons run for students in the US?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do AP CSA classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After it, classes are paid one month at a time, and the fees section shows the monthly amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ap-computer-science-a-practice-questions","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-acsp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#about-set">The set</a></li>
+      <li><a href="#unit1">Unit 1</a></li>
+      <li><a href="#unit2">Unit 2</a></li>
+      <li><a href="#unit3">Unit 3</a></li>
+      <li><a href="#unit4">Unit 4</a></li>
+      <li><a href="#frq">Free response</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / AP CSA practice questions
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 10 to 12 &middot; AP Computer Science A, Java</p>
+        <h1>AP Computer Science A practice questions</h1>
+        <p class="ag-lede">Here is a practice set you can actually trust: fourteen multiple-choice questions and one free-response task in the style of the current AP Computer Science A exam, all written by our teachers, none copied from College Board. Every answer on this page is the real output of the code, because we compiled and ran each snippet before publishing. Work through a unit at a time, write your answer down before you scroll to the key, and pay most attention to the questions you get wrong, since each one is built around a mistake students really make.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#unit1" class="ag-btn ag-btn--ghost">Start with Unit 1</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20is%20preparing%20for%20AP%20Computer%20Science%20A%20and%20wants%20more%20practice%20with%20a%20teacher.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'acsp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Every answer run in Java</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Questions</dt><dd>14 multiple choice, 1 free response</dd>
+          <dt>Units</dt><dd>All four, weighted like the exam</dd>
+          <dt>Language</dt><dd>Java, Quick Reference methods only</dd>
+          <dt>Written by</dt><dd>Our teachers, original</dd>
+          <dt>Checked</dt><dd>Compiled and run, October 2026</dd>
+          <dt>Time</dt><dd>About 30 minutes for the set</dd>
+          <dt>Classes</dt><dd>Batch or one to one</dd>
+          <dt>Try it</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>These are 14 original AP Computer Science A style multiple-choice questions and one free-response task, spread across the four units of the current course in roughly the exam&rsquo;s proportions. Answers and explanations follow each unit. Every snippet was compiled and run by us, so the keys are real program output. For official practice, use AP Classroom and the Bluebook test previews.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Keep practising, with a teacher</p>
+      <h2>Three courses for students who want more than a practice set</h2>
+      <p class="ag-lede">A practice set shows what you get wrong. A teacher shows you why, and gives you the next ten questions on exactly that idea.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSP / 01</p>
+          <h3>AP Computer Science A exam prep</h3>
+          <p>Grades 10 to 12. Unit by unit, then full timed papers.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSP / 02</p>
+          <h3>Java for teens</h3>
+          <p>Ages 13 to 18. Java from the first line, at a gentler pace.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSP / 03</p>
+          <h3>Competitive programming</h3>
+          <p>Ages 13 to 18. Harder problems once AP feels easy.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="about-set">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the set is built</p><h2>Fourteen questions, weighted like the real exam</h2><p class="ag-lede">We wrote the questions to match the current course framework, which College Board revised for the 2025 to 2026 school year into four units. More questions go to the units the exam weights more.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our question spread against College Board&rsquo;s multiple-choice weighting (weights from the 2025 Course at a Glance; the spread is ours)</caption><thead><tr><th scope="col">Unit</th><th scope="col">Exam weighting for Section I</th><th scope="col">Questions here</th></tr></thead><tbody><tr><td>Unit 1: Using Objects and Methods</td><td>15 to 25%</td><td class="ag-num">3</td></tr><tr><td>Unit 2: Selection and Iteration</td><td>25 to 35%</td><td class="ag-num">4</td></tr><tr><td>Unit 3: Class Creation</td><td>10 to 18%</td><td class="ag-num">2</td></tr><tr><td>Unit 4: Data Collections</td><td>30 to 40%</td><td class="ag-num">5</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The kinds of question we wrote</h3><p>College Board&rsquo;s student page lists what the multiple choice asks. You will be asked to "Determine the required code segments to produce a given output", to "Identify the output, value, or result of given program code based on initial values", and to "Analyze program code for correctness, equivalence, and errors".</p>
+<p>Most questions here are the second kind: read the code, predict the output. That is the skill students most often skip in class, because the computer will always tell you the answer. On the exam it will not.</p></div><div><h3>What we left out on purpose</h3><p>The Course and Exam Description says: "Designing and implementing inheritance relationships are outside the scope of the AP Computer Science A course and exam." So there are no questions here asking you to design subclasses.</p>
+<p>Every Java method used in the set appears on the Java Quick Reference that is built into Bluebook: substring, indexOf, length, split, Math.random, and the ArrayList methods add, get, size and remove.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-at-a-glance.pdf" rel="noopener" target="_blank">AP CSA Course at a Glance</a>, the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-java-quick-reference.pdf" rel="noopener" target="_blank">Java Quick Reference</a> and the <a class="ag-inline-link" href="https://apstudents.collegeboard.org/courses/ap-computer-science-a/assessment" rel="noopener" target="_blank">AP CSA exam page for students</a>. The questions are ours; we are not connected with College Board.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="unit1">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unit 1 &amp;middot; Using Objects and Methods</p><h2>Questions 1 to 3: arithmetic, strings and random numbers</h2><p class="ag-lede">Three questions on the ideas that the rest of the course is built on. Each looks easy. Each has a trap that catches students who read too fast.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 1 &middot; What is printed?</b><span>java</span></figcaption><pre>int a = 7;
+int b = 2;
+double c = a / b;
+System.out.println(c + (double) a / b);</pre><p class="ag-code-note">(A) 6.0 &nbsp; (B) 6.5 &nbsp; (C) 7.0 &nbsp; (D) 3.5</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 2 &middot; What is printed?</b><span>java</span></figcaption><pre>String s = "computer";
+String t = s.substring(3, 6) + s.indexOf("u") + s.length();
+System.out.println(t);</pre><p class="ag-code-note">(A) put48 &nbsp; (B) pute48 &nbsp; (C) mpu48 &nbsp; (D) put12</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 3 &middot; Choose the expression</b><span>java</span></figcaption><pre>// Which expression gives a random int
+// from 5 to 12, both included?
+(A) (int) (Math.random() * 12) + 5
+(B) (int) (Math.random() * 8) + 5
+(C) (int) (Math.random() * 7) + 5
+(D) (int) Math.random() * 8 + 5</pre><p class="ag-code-note">Pick one of (A) to (D).</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Unit 1 answers (ours; checked by running the code with javac 22)</caption><thead><tr><th scope="col">Question</th><th scope="col">Answer</th><th scope="col">Why</th></tr></thead><tbody><tr><td>1</td><td>(B) 6.5</td><td>a / b is integer division, so c holds 3.0, not 3.5. The second term casts a to double first, so it is 3.5. Then 3.0 + 3.5 is 6.5.</td></tr><tr><td>2</td><td>(A) put48</td><td>substring(3, 6) takes indexes 3, 4 and 5: "put". Then the + signs run left to right on a String, so 4 and 8 are joined as text, not added to make 12.</td></tr><tr><td>3</td><td>(B)</td><td>Math.random() gives a value from 0.0 up to but not including 1.0. Times 8 gives 0 up to 7.99, the cast makes 0 to 7, plus 5 makes 5 to 12. In (D) the cast applies to Math.random() alone, which is always 0, so it always gives 5.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The idea behind Question 1</h3><p>Java decides the type of an expression from its operands, not from the variable that receives it. Declaring c as double does not rescue a / b, because the division has already happened with two ints.</p>
+<p>Our test run of the random expression in Question 3, a million times, never produced anything below 5 or above 12, which is a good habit to copy: when in doubt about a range, test the edges.</p></div><div><h3>A note from the 2025 exam</h3><p>The 2025 Chief Reader report, written about the older exam format, advised teachers: "Practice creating a random number in a given range." It also noted that many students had been drilled on a formula without understanding it.</p>
+<p>The formula is worth understanding rather than memorising: the number you multiply by is how many different values you want, and the number you add is the smallest one. Here that is 8 values starting at 5.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="unit2">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unit 2 &amp;middot; Selection and Iteration</p><h2>Questions 4 to 7: loops, conditions and traversals</h2><p class="ag-lede">Unit 2 carries up to 35 percent of the multiple choice. These four questions are about counting carefully: how many times a loop runs, and what is true when it stops.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 4 &middot; What is printed?</b><span>java</span></figcaption><pre>int count = 0;
+for (int i = 1; i &lt;= 20; i += 3) {
+  if (i % 2 == 0) {
+    count++;
+  }
+}
+System.out.println(count);</pre><p class="ag-code-note">(A) 2 &nbsp; (B) 3 &nbsp; (C) 4 &nbsp; (D) 7</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 5 &middot; What is printed?</b><span>java</span></figcaption><pre>int x = 10;
+int y = 0;
+while (x &gt; 0 &amp;&amp; y &lt; 4) {
+  x -= 3;
+  y++;
+}
+System.out.println(x + " " + y);</pre><p class="ag-code-note">(A) 1 3 &nbsp; (B) -2 4 &nbsp; (C) -2 3 &nbsp; (D) 1 4</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 6 &middot; What is printed?</b><span>java</span></figcaption><pre>int total = 0;
+for (int r = 0; r &lt; 4; r++) {
+  for (int c = r; c &lt; 4; c++) {
+    total++;
+  }
+}
+System.out.println(total);</pre><p class="ag-code-note">(A) 16 &nbsp; (B) 10 &nbsp; (C) 6 &nbsp; (D) 12</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 7 &middot; What is printed?</b><span>java</span></figcaption><pre>String w = "abcdef";
+String out = "";
+for (int k = w.length() - 1; k &gt;= 0; k -= 2) {
+  out += w.substring(k, k + 1);
+}
+System.out.println(out);</pre><p class="ag-code-note">(A) fdb &nbsp; (B) eca &nbsp; (C) fedcba &nbsp; (D) bdf</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Unit 2 answers (ours; checked by running the code)</caption><thead><tr><th scope="col">Question</th><th scope="col">Answer</th><th scope="col">Why</th></tr></thead><tbody><tr><td>4</td><td>(B) 3</td><td>i takes the values 1, 4, 7, 10, 13, 16 and 19. Seven values, but only 4, 10 and 16 are even.</td></tr><tr><td>5</td><td>(B) -2 4</td><td>x goes 10, 7, 4, 1, -2 while y goes 0, 1, 2, 3, 4. After the fourth pass x is -2 and y is 4, so both halves of the condition are now false and the loop stops.</td></tr><tr><td>6</td><td>(B) 10</td><td>The inner loop starts at r, so it runs 4 times, then 3, then 2, then 1. That is 4 + 3 + 2 + 1 = 10, not 4 &times; 4 = 16.</td></tr><tr><td>7</td><td>(A) fdb</td><td>k starts at 5, the last index, and drops by 2: 5, 3, 1. The characters at those indexes are f, d and b, added in that order.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Trace tables beat guessing</h3><p>For Questions 4 and 5, write one column per variable and one row per pass of the loop. It takes a minute and it is the only reliable method under exam pressure.</p>
+<p>Question 5 has a second lesson: with &amp;&amp;, the loop continues only while both conditions are true, so it stops when either one fails. Students who stop the trace when x first drops below 4 pick (A).</p></div><div><h3>Nested loops that do not start at zero</h3><p>Question 6 is the shape behind many comparison algorithms: each element is compared only with the ones after it. Spotting the shrinking inner loop is the skill; the answer follows from it.</p>
+<p>In Question 7 the bounds matter as much as the step. Starting at w.length() would throw an exception on the first substring call, which is why the loop starts at w.length() - 1.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="unit3">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unit 3 &amp;middot; Class Creation</p><h2>Questions 8 and 9: objects, static variables and references</h2><p class="ag-lede">Unit 3 is the lightest unit by weight, but its ideas sit underneath the free response. Both questions are about what actually lives in memory.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 8 &middot; What is printed?</b><span>java</span></figcaption><pre>public class Counter {
+  private static int made = 0;
+  private int id;
+
+  public Counter() {
+    made++;
+    id = made;
+  }
+  public int getId() { return id; }
+  public static int getMade() { return made; }
+}
+
+// in another class:
+Counter p = new Counter();
+Counter q = new Counter();
+Counter r = q;
+System.out.println(r.getId() + " " + Counter.getMade());</pre><p class="ag-code-note">(A) 3 3 &nbsp; (B) 2 2 &nbsp; (C) 2 3 &nbsp; (D) 1 2</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 9 &middot; What is printed?</b><span>java</span></figcaption><pre>public static void change(int[] arr, int n) {
+  arr[0] = 99;
+  n = 99;
+}
+
+// in main:
+int[] data = {1, 2, 3};
+int k = 1;
+change(data, k);
+System.out.println(data[0] + " " + k);</pre><p class="ag-code-note">(A) 1 1 &nbsp; (B) 99 99 &nbsp; (C) 99 1 &nbsp; (D) 1 99</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Unit 3 answers (ours; checked by running the code)</caption><thead><tr><th scope="col">Question</th><th scope="col">Answer</th><th scope="col">Why</th></tr></thead><tbody><tr><td>8</td><td>(B) 2 2</td><td>Only two Counter objects are built, because Counter r = q copies a reference and calls no constructor. The second object has id 2, and the static variable made, shared by the whole class, is 2.</td></tr><tr><td>9</td><td>(C) 99 1</td><td>The method receives a copy of the reference to the array, so changing arr[0] changes the real array. It also receives a copy of the int k, so n = 99 changes only the copy.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>One object, two names</h3><p>Students who answer (A) to Question 8 believe that every variable of a class type holds its own object. Drawing boxes and arrows, one box per new, clears this up faster than any explanation.</p>
+<p>Static variables belong to the class rather than to any one object, which is why Counter.getMade() is called on the class name.</p></div><div><h3>Why Question 9 matters for the free response</h3><p>The 2026 Scoring Guidelines say an algorithm point is not earned when "Persistent data is modified (e.g., changing value referenced by parameter)." In other words, changing an array or list you were handed, when the task did not ask for it, can cost a point.</p>
+<p>Question 9 is that rule in miniature: arr[0] = 99 reaches back into the caller&rsquo;s data, and n = 99 does not.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="unit4">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unit 4 &amp;middot; Data Collections</p><h2>Questions 10 to 14: lists, 2D arrays, algorithms and recursion</h2><p class="ag-lede">Unit 4 is the heaviest unit, at 30 to 40 percent of Section I, and the one most students reach last. These five questions are the ones we see cause the most lost marks.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 10 &middot; What is printed?</b><span>java</span></figcaption><pre>ArrayList&lt;Integer&gt; nums = new ArrayList&lt;Integer&gt;();
+nums.add(4); nums.add(4); nums.add(5);
+nums.add(4); nums.add(6);
+for (int i = 0; i &lt; nums.size(); i++) {
+  if (nums.get(i) == 4) {
+    nums.remove(i);
+  }
+}
+System.out.println(nums);</pre><p class="ag-code-note">(A) [5, 6] &nbsp; (B) [4, 5, 6] &nbsp; (C) [4, 5, 4, 6] &nbsp; (D) An IndexOutOfBoundsException</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 11 &middot; What is printed?</b><span>java</span></figcaption><pre>int[][] g = {{1, 2, 3}, {4, 5, 6}};
+int sum = 0;
+for (int col = 0; col &lt; g[0].length; col++) {
+  sum += g[g.length - 1 - col % 2][col];
+}
+System.out.println(sum);</pre><p class="ag-code-note">(A) 9 &nbsp; (B) 12 &nbsp; (C) 10 &nbsp; (D) An ArrayIndexOutOfBoundsException</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 12 &middot; What is printed, and why?</b><span>java</span></figcaption><pre>public static boolean hasPair(int[] a, int target) {
+  for (int i = 0; i &lt; a.length - 1; i++) {
+    if (a[i] + a[i + 1] == target) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  return false;
+}
+
+// in main:
+System.out.println(hasPair(new int[] {3, 1, 6, 4}, 10));</pre><p class="ag-code-note">(A) true &nbsp; (B) false, because the loop returns on its first pass &nbsp; (C) false, because no two values add to 10 &nbsp; (D) It does not compile</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 13 &middot; What is printed?</b><span>java</span></figcaption><pre>public static int mystery(int n) {
+  if (n &lt; 3) {
+    return n;
+  }
+  return mystery(n - 1) + mystery(n - 3);
+}
+
+// in main:
+System.out.println(mystery(6));</pre><p class="ag-code-note">(A) 5 &nbsp; (B) 7 &nbsp; (C) 8 &nbsp; (D) 9</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 14 &middot; What is printed?</b><span>java</span></figcaption><pre>String[] parts = "red,green,,blue".split(",");
+System.out.println(parts.length);</pre><p class="ag-code-note">(A) 3 &nbsp; (B) 4 &nbsp; (C) 5 &nbsp; (D) It throws an exception</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Unit 4 answers (ours; checked by running the code)</caption><thead><tr><th scope="col">Question</th><th scope="col">Answer</th><th scope="col">Why</th></tr></thead><tbody><tr><td>10</td><td>(B) [4, 5, 6]</td><td>Removing at index i shifts every later element left by one. After removing the first 4, the second 4 moves into index 0, but i moves on to 1, so that 4 is never checked.</td></tr><tr><td>11</td><td>(B) 12</td><td>% runs before -, so the row is 1 - col % 2: rows 1, 0, 1 for columns 0, 1, 2. That picks 4, 2 and 6, and 4 + 2 + 6 = 12.</td></tr><tr><td>12</td><td>(B)</td><td>The else branch returns false on the very first pass, after checking only 3 + 1. The pair 6 + 4 at the end is never reached.</td></tr><tr><td>13</td><td>(B) 7</td><td>mystery(0) to mystery(2) return 0, 1 and 2. Building up: mystery(3) is 2, mystery(4) is 3, mystery(5) is 5, and mystery(6) is 5 + 2 = 7.</td></tr><tr><td>14</td><td>(B) 4</td><td>split keeps the empty string between the two commas, so the array is red, green, an empty string, and blue.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The too-early return</h3><p>Question 12 copies a real pattern. Writing about the 2025 free response, the Chief Reader described "a common algorithmic error being a too-early return" in a question about searching a 2D array for pairs.</p>
+<p>The fix is to return false only after the loop has finished, so every pair gets checked: delete the else branch entirely. If you picked (C), you checked the values but not the code&rsquo;s path through them.</p></div><div><h3>Removing while you traverse</h3><p>Question 10 is the classic ArrayList trap. Two safe fixes: traverse backwards from the last index, or only increase i when nothing was removed. Both versions print [5, 6] when we run them.</p>
+<p>In Question 13, build the answer from the bottom up instead of expanding the calls from the top. Writing mystery(0) to mystery(6) in a row takes seconds and avoids a tree of twenty calls.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="frq">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Free response, our own</p><h2>One free-response question in the ArrayList style</h2><p class="ag-lede">Question 3 of the current exam asks students to write one method that analyses data in an ArrayList. This original question is in that style, followed by one correct solution and a five-point rubric we wrote in the spirit of the published guidelines.</p></div>
+    <p><b>The task (ours).</b> A TempLog object stores whole-number temperature readings, in order, in an ArrayList of Integer values called readings. Write the method longestRise, which returns the length of the longest run of consecutive readings in which each reading is strictly greater than the one before it. A single reading counts as a run of length 1. If there are no readings, return 0. For the readings 61, 64, 63, 66, 70, 72, 71 the method returns 4, because 63, 66, 70, 72 is the longest rising run.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>TempLog.java &middot; one correct solution (ours)</b><span>java</span></figcaption><pre>import java.util.ArrayList;
+
+public class TempLog {
+  private ArrayList&lt;Integer&gt; readings;
+
+  public TempLog(ArrayList&lt;Integer&gt; readings) {
+    this.readings = readings;
+  }
+
+  /** Returns the length of the longest run of
+   *  readings that rise every time. */
+  public int longestRise() {
+    if (readings.size() == 0) {
+      return 0;
+    }
+    int most = 1;
+    int run = 1;
+    for (int i = 1; i &lt; readings.size(); i++) {
+      if (readings.get(i) &gt; readings.get(i - 1)) {
+        run++;
+      } else {
+        run = 1;
+      }
+      if (run &gt; most) {
+        most = run;
+      }
+    }
+    return most;
+  }
+}</pre><p class="ag-code-note">Compiled and run by us. Test results: 61, 64, 63, 66, 70, 72, 71 gives 4; 50, 50, 50 gives 1; no readings gives 0; 40, 41, 42 gives 3.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A five-point rubric for longestRise (ours, modelled on the style of the 2026 Scoring Guidelines, not an official rubric)</caption><thead><tr><th scope="col">Point</th><th scope="col">Earned when the response</th></tr></thead><tbody><tr><td>1</td><td>Accesses every reading in the list without going out of bounds</td></tr><tr><td>2</td><td>Compares each reading with the one before it using get, not [ ]</td></tr><tr><td>3</td><td>Keeps a running length that grows on a rise and resets to 1 otherwise</td></tr><tr><td>4</td><td>Keeps the longest run seen so far and updates it correctly (algorithm)</td></tr><tr><td>5</td><td>Returns the correct value in every case, including no readings and one reading (algorithm)</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where students lose points on this one</h3><p>Starting the loop at 0 and comparing get(i) with get(i - 1) throws an exception on the first pass. Starting at 1 is the whole trick.</p>
+<p>Updating the longest run only inside the else branch misses a run that lasts until the end of the list, such as 40, 41, 42. That response would return 1 instead of 3 and lose the algorithm point for the return value.</p></div><div><h3>Why get and not square brackets</h3><p>The 2026 Scoring Guidelines list reversed collection access, "[] instead of .get", among the reasons an algorithm point is not earned when it is not otherwise assessed. readings is an ArrayList, so readings[i] is not Java at all.</p>
+<p>For a step-by-step method for writing these answers, see our guide to <a class="ag-inline-link" href="/how-to-read-code">reading code</a> and our post on <a class="ag-inline-link" href="/blog/how-to-get-a-5-in-ap-computer-science-a">how to get a 5 in AP Computer Science A</a>.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="next">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After the set</p><h2>Using your results, and where to find official practice</h2><p class="ag-lede">Fourteen questions are a sample, not an exam. Use them to find a weak unit, then practise that unit properly.</p></div>
+    <div class="ag-grid-3"><div><h3>If you missed Unit 1 questions</h3><p>Go back to casting, integer division and String methods. They come back in every later unit, often hidden inside harder questions.</p></div><div><h3>If you missed Unit 2 or 4</h3><p>Practise trace tables until they are automatic. Most loop and list mistakes are counting mistakes, not knowledge gaps.</p></div><div><h3>If you got them all</h3><p>Time yourself on full sections. The real Section I is 42 questions in 90 minutes, a little over two minutes each.</p></div></div>
+    <p class="ag-mt-40">For official material, College Board points students to AP Classroom and to the test previews in the Bluebook app. Past free-response questions are on AP Central too, but College Board warns that after the 2025 to 2026 revisions they do not completely align with the current exam, so use them for practice in writing code rather than for timing. Our <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a> set new questions like these every week.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How students improve</p>
+      <h2>Four stages of getting good at AP CSA questions</h2>
+      <p class="ag-lede">Most students move through these in order. Knowing which one you are at tells you what to practise.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of AP CSA practice (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Running it</td><td class="ag-num">Types the code into an editor to find the answer</td></tr><tr><td>2. Tracing it</td><td class="ag-num">Predicts the output on paper, then checks</td></tr><tr><td>3. Spotting the trap</td><td class="ag-num">Sees the integer division or the shifted index at once</td></tr><tr><td>4. Writing it</td><td class="ag-num">Writes full methods that earn every rubric point</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 1 is where most students begin. It is fine for learning, and not allowed on the exam.</p>
+<p>The move from stage 2 to 3 usually comes from volume: a few hundred well-chosen questions.</p></div><div><h3>For students</h3><p>Commit to an answer before you check. Guessing then checking teaches nothing.</p>
+<p>Keep a list of the traps that caught you. It will be shorter than you expect.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for Java and AP students</h2>
+      <p class="ag-lede">Live online, the same teacher each week, as a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>AP and Java</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / JV / 01</p>
+          <h4>AP Computer Science A</h4>
+          <p>Every unit, with weekly practice sets.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / JV / 02</p>
+          <h4>Java for teens</h4>
+          <p>The language, properly, from scratch.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / JV / 03</p>
+          <h4>AP CSP</h4>
+          <p>The broader AP course.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Algorithms</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / AL / 01</p>
+          <h4>Problem solving for teens</h4>
+          <p>Searching, sorting and lists, deeper.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / AL / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Contest problems, USACO style.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / AL / 03</p>
+          <h4>Python for teens</h4>
+          <p>Quick scripts and projects beside Java.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Building things</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / BLD / 01</p>
+          <h4>Full stack for teens</h4>
+          <p>Real web apps, front to back.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / BLD / 02</p>
+          <h4>Data science for teens</h4>
+          <p>Data sets and first models.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSP / BLD / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive pages and games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Practice like this, every week, live</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evening slots work across the US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Room for a full timed section.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Arranged around tests at school.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>The same teacher</h3><p>Who remembers last week&rsquo;s mistakes.</p></div>
+      <div><h3>Trace, then run</h3><p>Predict on paper first, every time.</p></div>
+      <div><h3>New questions weekly</h3><p>Written for the student&rsquo;s weak units.</p></div>
+      <div><h3>Free response marked</h3><p>Point by point, with reasons.</p></div>
+      <div><h3>Online, nationwide</h3><p>Any state, any school district.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty, or one learner.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Apps and games by young people who practised exactly this kind of Java with us. The <a class="ag-inline-link" href="/student-labs">student labs</a> page shows more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The practice set is free. Classes are paid month by month in US dollars, with nothing to sign for the year and no fee to stop.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring the questions you missed</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A batch of fifteen to twenty</li><li>One teacher all term</li><li>Choose a batch</li><li>Month to month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Just your teen and a teacher</li><li>Times you choose</li><li>Questions on their weak units</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents&rsquo; Google reviews, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students</p>
+      <h2>AP CSA practice: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are these real AP Computer Science A exam questions?</h3>
+        <p>No. Every question on this page was written by our teachers in the style of the current exam. College Board items are not copied. For official practice, use AP Classroom and the Bluebook test previews.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are the answers on this page correct?</h3>
+        <p>We compiled and ran every snippet with Java before publishing, so each answer is the actual output of the code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many questions are on the real AP CSA multiple choice?</h3>
+        <p>There are 42 of them in Section I, with 90 minutes to answer, and together they make up 55% of the exam score.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which unit should I practise most?</h3>
+        <p>Unit 4, Data Collections, has the largest multiple-choice weighting, 30 to 40 percent, followed by Unit 2, Selection and Iteration, at 25 to 35 percent.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is inheritance on the AP CSA exam?</h3>
+        <p>College Board says designing and implementing inheritance relationships are outside the scope of the course and exam, so this set does not test it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which Java methods can appear on the exam?</h3>
+        <p>The Java Quick Reference in Bluebook lists them, including String substring, indexOf and split, Math.random, and the ArrayList methods add, get, set, size and remove.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are past AP CSA free-response questions still worth doing?</h3>
+        <p>For practice in writing Java, yes. College Board notes that questions from before the 2025 to 2026 revisions are not fully matched to the current exam, so do not use them to judge timing or scoring.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does removing from an ArrayList in a for loop skip elements?</h3>
+        <p>Removing at index i shifts every later element one place left, and then i increases, so the element that moved into position i is never checked. Traversing backwards avoids it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When do AP CSA lessons run for students in the US?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do AP CSA classes cost?</h3>
+        <p>The first lesson is free. After it, classes are paid one month at a time, and the fees section shows the monthly amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students learning Java for AP.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></h3><p>The full live course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/ap-computer-science-a-changes-2026">What changed in AP CSA</a></h3><p>The four-unit course explained.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>A method for finding your own bugs.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-think-like-a-programmer">Thinking like a programmer</a></h3><p>The habits behind tracing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a></h3><p>When AP questions get easy.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>All our pages for US families.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Send the questions you got wrong here, or from class. The teacher goes through two of them with your teen and then sets three new ones on the same idea.</p>
+        <p class="ag-mt-40">Want to know how a class runs? Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or open the <a class="ag-inline-link" href="/courses">courses</a> to see each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20is%20preparing%20for%20AP%20Computer%20Science%20A%20and%20wants%20more%20practice%20with%20a%20teacher.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'acsp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are live on video, taught by teachers who work from India, so families in any state can join without travelling. A WhatsApp message is the quickest route to us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_acsp(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Your first lesson is free; no card is taken.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AP and Java</h4><ul><li><a href="/ap-computer-science-a-online-classes">AP CSA classes</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></li><li><a href="/blog/how-to-get-a-5-in-ap-computer-science-a">A 5 in AP CSA</a></li><li><a href="/how-to-read-code">How to read code</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/coding-for-17-year-olds">Coding for 17 year olds</a></li><li><a href="/computer-science-extracurriculars">CS extracurriculars</a></li><li><a href="/hackathons-for-high-school-students">High school hackathons</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Predict first, then run</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_acsp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'ap-computer-science-a-practice-questions-inline', meta: { name: name, age: age, page: 'ap-computer-science-a-practice-questions' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

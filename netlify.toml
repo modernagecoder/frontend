@@ -24201,6 +24201,18 @@
   to = "/src/pages/does-ap-computer-science-give-college-credit.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ap-computer-science-a-practice-questions"
+  to = "/src/pages/ap-computer-science-a-practice-questions.html"
+  status = 200
+
+[[redirects]]
+  from = "/ap-computer-science-a-practice-questions.md"
+  to = "/src/pages/ap-computer-science-a-practice-questions.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

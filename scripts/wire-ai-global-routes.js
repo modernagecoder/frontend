@@ -468,6 +468,7 @@ const SLUGS = [
   'ap-computer-science-a-score-calculator',
   'ap-csp-score-calculator',
   'does-ap-computer-science-give-college-credit',
+  'ap-computer-science-a-practice-questions',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1015,6 +1016,7 @@ const LLMS_LABELS = {
   'ap-computer-science-a-score-calculator': 'AP CSA score calculator',
   'ap-csp-score-calculator': 'AP CSP score calculator',
   'does-ap-computer-science-give-college-credit': 'Does AP CS give college credit?',
+  'ap-computer-science-a-practice-questions': 'AP CSA practice questions',
 };
 
 function wireLlms(slugs) {

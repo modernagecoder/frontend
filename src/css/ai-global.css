@@ -997,3 +997,4 @@
 .ag-root.ag-acss { --ag-accent: #39610F; --ag-accent-soft: rgba(57,97,15,.09); }   /* AP CSA score calculator, US: a deep moss green #39610F from the US allocation table, muted enough for long tables and clear of the other AP door accents */
 .ag-root.ag-acsc { --ag-accent: #214C1E; --ag-accent-soft: rgba(33,76,30,.09); }   /* AP CSP score calculator, US: a dark fir green #214C1E from the US allocation table, distinct in lightness from the AP CSA calculator moss */
 .ag-root.ag-dacs { --ag-accent: #11702C; --ag-accent-soft: rgba(17,112,44,.09); }   /* AP computer science credit, US: a clear forest green #11702C from the US allocation table, brighter than the two calculator greens so the credit page reads apart */
+.ag-root.ag-acsp { --ag-accent: #145245; --ag-accent-soft: rgba(20,82,69,.09); }   /* AP CSA practice questions, US: a deep teal #145245 from the US allocation table, cooler than the two AP calculator greens so the pages read apart */
