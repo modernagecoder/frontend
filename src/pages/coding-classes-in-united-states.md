@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [iD Tech alternative](/id-tech-alternative)
 - [Create & Learn alternative](/create-and-learn-alternative)
 - [CodeWizardsHQ alternative](/codewizardshq-alternative)
 - [Online coding classes for kids, compared](/best-online-coding-classes-for-kids-usa-compared)

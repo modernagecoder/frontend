@@ -7314,4 +7314,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /create-and-learn-alternative /src/pages/create-and-learn-alternative.html 200
 /create-and-learn-alternative.md /src/pages/create-and-learn-alternative.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/id-tech-alternative /src/pages/id-tech-alternative.html 200
+/id-tech-alternative.md /src/pages/id-tech-alternative.md 200
 /* /src/pages/404.html 404

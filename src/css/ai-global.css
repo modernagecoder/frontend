@@ -1007,3 +1007,4 @@
 .ag-root.ag-bkuc { --ag-accent: #2C3385; --ag-accent-soft: rgba(44,51,133,.09); }   /* Online coding classes compared: a steady comparison blue, #2C3385 as allocated, distinct from the data-page accents and strong on the paper */
 .ag-root.ag-cod { --ag-accent: #50571D; --ag-accent-soft: rgba(80,87,29,.09); }   /* CodeWizardsHQ alternative: a muted moss olive, #50571D as allocated, apart from the cluster blues and strong on the paper */
 .ag-root.ag-cre { --ag-accent: #1E4C0B; --ag-accent-soft: rgba(30,76,11,.09); }   /* Create & Learn alternative: a deep fern green, #1E4C0B as allocated, separate from the olive and blue comparison accents, strong on the paper */
+.ag-root.ag-ita { --ag-accent: #0C522E; --ag-accent-soft: rgba(12,82,46,.09); }   /* iD Tech alternative: a pine green, #0C522E as allocated, cooler than the fern of the Create & Learn page and strong on the paper */

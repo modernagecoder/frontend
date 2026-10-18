@@ -478,6 +478,7 @@ const SLUGS = [
   'best-online-coding-classes-for-kids-usa-compared',
   'codewizardshq-alternative',
   'create-and-learn-alternative',
+  'id-tech-alternative',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1035,6 +1036,7 @@ const LLMS_LABELS = {
   'best-online-coding-classes-for-kids-usa-compared': 'Online coding classes for kids, compared',
   'codewizardshq-alternative': 'CodeWizardsHQ alternative',
   'create-and-learn-alternative': 'Create & Learn alternative',
+  'id-tech-alternative': 'iD Tech alternative',
 };
 
 function wireLlms(slugs) {
