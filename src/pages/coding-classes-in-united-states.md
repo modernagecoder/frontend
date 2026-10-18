@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
 - [Coding competitions for high school students](/coding-competitions-for-high-school-students)
 - [AI summer programs for high school students](/ai-summer-programs-for-high-school-students)
 - [AI certification for high school students](/ai-certification-for-high-school-students)
