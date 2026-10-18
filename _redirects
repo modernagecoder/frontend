@@ -7270,4 +7270,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ap-csp-score-calculator /src/pages/ap-csp-score-calculator.html 200
 /ap-csp-score-calculator.md /src/pages/ap-csp-score-calculator.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/does-ap-computer-science-give-college-credit /src/pages/does-ap-computer-science-give-college-credit.html 200
+/does-ap-computer-science-give-college-credit.md /src/pages/does-ap-computer-science-give-college-credit.md 200
 /* /src/pages/404.html 404

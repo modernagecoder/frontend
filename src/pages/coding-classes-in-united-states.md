@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Does AP CS give college credit?](/does-ap-computer-science-give-college-credit)
 - [AP CSP score calculator](/ap-csp-score-calculator)
 - [AP CSA score calculator](/ap-computer-science-a-score-calculator)
 - [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
