@@ -1001,3 +1001,4 @@
 .ag-root.ag-accp { --ag-accent: #38688F; --ag-accent-soft: rgba(56,104,143,.09); }   /* AP CSP Create task guide, US: a muted slate blue #38688F from the US allocation table, set apart from the green and teal AP calculator and practice pages */
 .ag-root.ag-iacs { --ag-accent: #142385; --ag-accent-soft: rgba(20,35,133,.09); }   /* Is AP CS hard, US: a deep ink blue #142385 from the US allocation table, the only blue-violet among the six AP doors */
 .ag-root.ag-csgr { --ag-accent: #10106B; --ag-accent-soft: rgba(16,16,107,.09); }   /* CS graduation requirements by state: a deep ledger indigo, #10106B as allocated, far from the other US accents and dark enough for strong contrast on the paper */
+.ag-root.ag-cssb { --ag-accent: #7A495D; --ag-accent-soft: rgba(122,73,93,.09); }   /* CS standards by state: a muted plum, #7A495D as allocated, warm enough to set it apart from the cluster navies and with strong contrast on the paper */

@@ -703,6 +703,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AP CSP Create task guide: https://learn.modernagecoders.com/ap-csp-create-performance-task-guide
 - Is AP Computer Science hard?: https://learn.modernagecoders.com/is-ap-computer-science-hard
 - CS graduation requirements by state: https://learn.modernagecoders.com/computer-science-graduation-requirements-by-state
+- CS standards by state: https://learn.modernagecoders.com/computer-science-standards-by-state
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

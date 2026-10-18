@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>K-12 Computer Science Standards by State, With AI</title>
+  <meta name="description" content="K-12 computer science standards in all 50 states and DC: which states have adopted them, which put AI into them, and the five concepts most states build on.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/computer-science-standards-by-state">
+  <link rel="alternate" type="text/markdown" href="/src/pages/computer-science-standards-by-state.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7A495D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/computer-science-standards-by-state">
+  <meta property="og:title" content="K-12 Computer Science Standards by State, With AI">
+  <meta property="og:description" content="Forty-four states show adopted K-12 CS standards in the 2025 Code.org report, and four emphasize AI. The full table, the shared framework behind most standards, and a practice set.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="K-12 Computer Science Standards by State, With AI">
+  <meta name="twitter:description" content="Which states have K-12 computer science standards, and which include AI.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cssb .ag-hero h1 { letter-spacing: -0.008em; }
+.ag-root.ag-cssb .ag-capsule { border-left-width: 3px; border-radius: 4px; }
+.ag-root.ag-cssb .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-cssb .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-cssb .ag-steps { gap: 0.9rem; }
+.ag-root.ag-cssb .ag-band-head h3 { letter-spacing: 0.01em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/computer-science-standards-by-state#page","url":"https://learn.modernagecoders.com/computer-science-standards-by-state","name":"Computer Science Standards by State","description":"A state-by-state reference to K-12 computer science standards in the United States, with AI in standards, the K12CS framework concepts, and a practice set for middle school students.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"CS standards by state","item":"https://learn.modernagecoders.com/computer-science-standards-by-state"}]},{"@type":"Course","name":"Computer Science Standards by State","description":"Live online computer science classes for US students in grades 3 to 12, built on the concepts that state CS standards share, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/computer-science-standards-by-state"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/computer-science-standards-by-state"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/computer-science-standards-by-state"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many states have K-12 computer science standards?","acceptedAnswer":{"@type":"Answer","text":"Reading the state pages of Code.org (2025), 2025 State of AI + CS Education, we count 44 states with adopted standards and Nebraska in progress. DC, Maine, Minnesota, Oregon, South Dakota and Vermont were marked as not having them."}},{"@type":"Question","name":"Which states include AI in their computer science standards?","acceptedAnswer":{"@type":"Answer","text":"Four, according to the 2025 report: Colorado, North Dakota, Ohio and Virginia. Iowa, Kentucky, Oregon, South Dakota, Tennessee and Wisconsin were marked as in progress."}},{"@type":"Question","name":"What are the five core concepts?","acceptedAnswer":{"@type":"Answer","text":"Computing Systems; Networks and the Internet; Data and Analysis; Algorithms and Programming; and Impacts of Computing. They come from the K-12 Computer Science Framework, which many states used to write their standards."}},{"@type":"Question","name":"Are standards the same as a graduation requirement?","acceptedAnswer":{"@type":"Answer","text":"No. Standards describe what a CS course should cover in each grade band. A graduation requirement decides whether every student must take one. A state can have one without the other."}},{"@type":"Question","name":"What does it mean when a state is in progress?","acceptedAnswer":{"@type":"Answer","text":"In the report, it means the state had publicly begun creating or revising standards but had not published them when the data were finalized on December 1, 2025."}},{"@type":"Question","name":"Is the K-12 CS Framework a set of standards?","acceptedAnswer":{"@type":"Answer","text":"No. Its own FAQ says the framework is not a set of standards. States use it to write measurable standards of their own."}},{"@type":"Question","name":"My state has no standards. Does that matter for my child?","acceptedAnswer":{"@type":"Answer","text":"It mainly means schools have less shared guidance. Many still teach strong CS. The five core concepts are a sensible checklist for any course, wherever you live."}},{"@type":"Question","name":"Do your classes follow a particular state's standards?","acceptedAnswer":{"@type":"Answer","text":"Our courses cover the five core concepts that most state standards share, and in 1-on-1 classes the teacher can align topics to your state's grade band."}},{"@type":"Question","name":"When can my child take classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are you connected with Code.org or a state department?","acceptedAnswer":{"@type":"Answer","text":"Not at all. Modern Age Coders runs its own classes; this page only reports what those organisations publish, with links."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/computer-science-standards-by-state","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-cssb">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#states">State table</a></li>
+      <li><a href="#ai">AI in standards</a></li>
+      <li><a href="#concepts">Five concepts</a></li>
+      <li><a href="#practice">Practice set</a></li>
+      <li><a href="#python">Python example</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / CS standards by state
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; K-12 &middot; What students are expected to learn</p>
+        <h1>Computer science standards by state</h1>
+        <p class="ag-lede">Standards are the list of what a state expects students to know and do in each grade band. For computer science, most states now have them, a handful do not, and only four had written artificial intelligence clearly into them in the 2025 State of AI + CS Education report. Below is every state and DC in one table, the AI picture in detail, the shared framework that most state standards grew from, and a short practice set so a student can see what the standards actually ask for.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#states" class="ag-btn ag-btn--ghost">See the state table</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20a%20US%20school%20and%20I%20want%20to%20understand%20the%20computer%20science%20standards.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cssb'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live since 2020 &middot; 10,000+ students &middot; grades 3 to 12 in computer science</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>States with CS standards</dt><dd>44 plus 1 in progress</dd>
+          <dt>AI in CS standards</dt><dd>4 states</dd>
+          <dt>Report</dt><dd>Code.org (2025)</dd>
+          <dt>Core concepts</dt><dd>Five, from K12CS</dd>
+          <dt>Our classes</dt><dd>Live, online</dd>
+          <dt>Formats</dt><dd>Batch or 1-on-1</dd>
+          <dt>Timing</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Most US states have K-12 computer science standards. Reading the state pages of Code.org (2025), 2025 State of AI + CS Education, we count 44 states with standards adopted, Nebraska in progress, and six without: DC, Maine, Minnesota, Oregon, South Dakota and Vermont. Only four states emphasize AI in their CS standards: Colorado, North Dakota, Ohio and Virginia. Six more were revising toward it.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn what the standards describe</p>
+      <h2>Three courses mapped to the standards&rsquo; core ideas</h2>
+      <p class="ag-lede">Programming, data, computing systems and the impact of computing, taught live and in order.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSSB / 01</p>
+          <h3>Coding for kids</h3>
+          <p>Ages 6 to 12. Algorithms and programming through games and apps.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSSB / 02</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 18. Programming plus data and analysis.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-principles-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-principles.webp" alt="AP Computer Science Principles course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSSB / 03</p>
+          <h3>AP CS Principles</h3>
+          <p>Grades 9 to 12. Every core concept, and the AP exam.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="states">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Every state and DC</p><h2>Which states have computer science standards</h2><p class="ag-lede">Three policies from each state page of the 2025 report. "In progress" means the state had begun writing or revising but had not published when the data were finalized on December 1, 2025.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>K-12 computer science standards, AI in standards and state CS plans, by state (Code.org, 2025; read 17 October 2026)</caption><thead><tr><th scope="col">State</th><th scope="col">K-12 CS standards</th><th scope="col">AI emphasized in CS standards</th><th scope="col">State CS plan</th></tr></thead><tbody><tr><td>Alabama</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Alaska</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Arizona</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Arkansas</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>California</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Colorado</td><td>Yes</td><td>Yes</td><td>No</td></tr><tr><td>Connecticut</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Delaware</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>District of Columbia</td><td>No</td><td>No</td><td>No</td></tr><tr><td>Florida</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Georgia</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Hawaii</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Idaho</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Illinois</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Indiana</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Iowa</td><td>Yes</td><td>In progress</td><td>Yes</td></tr><tr><td>Kansas</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Kentucky</td><td>Yes</td><td>In progress</td><td>Yes</td></tr><tr><td>Louisiana</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Maine</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Maryland</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Massachusetts</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Michigan</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Minnesota</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Mississippi</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Missouri</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Montana</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Nebraska</td><td>In progress</td><td>No</td><td>Yes</td></tr><tr><td>Nevada</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>New Hampshire</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>New Jersey</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>New Mexico</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>New York</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>North Carolina</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>North Dakota</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Ohio</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Oklahoma</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Oregon</td><td>No</td><td>In progress</td><td>Yes</td></tr><tr><td>Pennsylvania</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Rhode Island</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>South Carolina</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>South Dakota</td><td>No</td><td>In progress</td><td>No</td></tr><tr><td>Tennessee</td><td>Yes</td><td>In progress</td><td>Yes</td></tr><tr><td>Texas</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Utah</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Vermont</td><td>No</td><td>No</td><td>No</td></tr><tr><td>Virginia</td><td>Yes</td><td>Yes</td><td>No</td></tr><tr><td>Washington</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>West Virginia</td><td>Yes</td><td>No</td><td>Yes</td></tr><tr><td>Wisconsin</td><td>Yes</td><td>In progress</td><td>In progress</td></tr><tr><td>Wyoming</td><td>Yes</td><td>No</td><td>Yes</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Code.org (2025). 2025 State of AI + CS Education, <a class="ag-inline-link" href="https://advocacy.code.org/stateofdigitalfluency/" rel="noopener" target="_blank">state report pages</a> (CC BY-NC-SA 4.0). The organisation now trades as CodeAI. Statuses are our reading of each published toggle; the AI column matches the report&rsquo;s printed total of four. We have no connection with Code.org or with any state.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The six "No" rows</h3><p>The District of Columbia, Maine, Minnesota, Oregon, South Dakota and Vermont show no adopted K-12 CS standards in the 2025 data, and Nebraska shows standards in progress. Schools in those places still teach computer science; they simply lack a statewide set of grade-band expectations under the report&rsquo;s rubric.</p>
+<p>South Dakota is a useful reminder that one column rarely tells the whole story. Its state page says AI concepts are already in its elementary and middle school CS standards and that "high school standards development is in progress".</p></div><div><h3>Standards are not requirements</h3><p>Having standards does not mean every student must take computer science. Standards describe what a CS course or unit should cover; a graduation requirement decides who must take one. A state can have detailed standards and no requirement at all.</p>
+<p>For a parent, standards are most useful as a checklist: if your child&rsquo;s school offers CS, the state standards tell you what a good course in that grade band should include.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ai">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AI in the standards</p><h2>The four states that put AI into their CS standards</h2><p class="ag-lede">The report counts a state only if its CS standards either name a specific AI strand or topic, or integrate AI concepts and skills through every grade band. Four did.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>States emphasizing AI in K-12 CS standards, and how, from their 2025 report pages</caption><thead><tr><th scope="col">State</th><th scope="col">How the report describes it</th></tr></thead><tbody><tr><td>Colorado</td><td>Standards "position AI as one of six core strands" across elementary, middle and high school</td></tr><tr><td>North Dakota</td><td>AI concepts emphasized across its elementary, middle and high school "Computer Science &amp; Cyber Security standards"</td></tr><tr><td>Ohio</td><td>Frames AI as one of six strands that cut across elementary, middle and high school CS standards</td></tr><tr><td>Virginia</td><td>"emphasizes AI concepts in the state&rsquo;s elementary, middle, and high school computer science standards"</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>States marked in progress toward AI in CS standards (Code.org, 2025)</caption><thead><tr><th scope="col">State</th><th scope="col">What the state page says</th></tr></thead><tbody><tr><td>Iowa</td><td>Marked in progress; the page lists AI in standards among next steps</td></tr><tr><td>Kentucky</td><td>A "current revision" of its CS standards is under way</td></tr><tr><td>Oregon</td><td>Marked in progress; the state also has no adopted K-12 CS standards in the report</td></tr><tr><td>South Dakota</td><td>AI already in elementary and middle standards; high school standards in progress</td></tr><tr><td>Tennessee</td><td>"in the process of revising its computer science standards to emphasize AI"</td></tr><tr><td>Wisconsin</td><td>A draft including AI went out for public comment in September 2025</td></tr></tbody></table></div>
+    <p class="ag-mt-40">A note on dates: the report&rsquo;s data were finalized on December 1, 2025. Wisconsin planned to finalize its standards by the end of 2025, so its status may well have changed since. Check the state education department for the version in force.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="concepts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The shared framework</p><h2>Why most state standards look alike: the five core concepts</h2><p class="ag-lede">Many states wrote their standards from the K-12 Computer Science Framework, a set of conceptual guidelines developed by national organizations with state representatives. It is not itself a set of standards, which is why each state&rsquo;s version differs in detail.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The K-12 Computer Science Framework: core concepts and core practices (k12cs.org, read 17 October 2026)</caption><thead><tr><th scope="col">Five core concepts</th><th scope="col">Seven core practices</th></tr></thead><tbody><tr><td>Computing Systems</td><td>Fostering an Inclusive Computing Culture</td></tr><tr><td>Networks and the Internet</td><td>Collaborating Around Computing</td></tr><tr><td>Data and Analysis</td><td>Recognizing and Defining Computational Problems</td></tr><tr><td>Algorithms and Programming</td><td>Developing and Using Abstractions</td></tr><tr><td>Impacts of Computing</td><td>Creating Computational Artifacts</td></tr><tr><td></td><td>Testing and Refining Computational Artifacts</td></tr><tr><td></td><td>Communicating About Computing</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How the framework is organized</h3><p>The framework sets expectations for each concept at four grade band endpoints: the end of grades 2, 5, 8 and 12. The practices are written as a narrative of growth rather than split by grade.</p>
+<p>Its FAQ says plainly that "The framework is not a set of standards." States turn it into measurable performance expectations, and that is where their versions diverge.</p></div><div><h3>One state as an example</h3><p>North Carolina&rsquo;s standards are "derived originally from the CSTA standards" and built around the same five concepts. They are organized by grade band from kindergarten to grade 8 (K-2, 3-5 and 6-8) and by course in high school, starting with "Introduction to Computer Science (ICS)".</p>
+<p>Expect a similar shape in most states: grade bands through middle school, then course-based standards in high school.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://k12cs.org/" rel="noopener" target="_blank">K-12 Computer Science Framework</a> and its FAQ; NC Department of Public Instruction, NC Computer Science Standards. Read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="reading">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Reading your state&amp;rsquo;s standards</p><h2>How to read a state CS standard in five minutes</h2><p class="ag-lede">Our short guide for parents opening a state standards document for the first time.</p></div>
+    <ol class="ag-steps"><li><b>Find your child&rsquo;s grade band.</b> Most states group kindergarten to grade 8 into bands such as K-2, 3-5 and 6-8.</li><li><b>Look for the concept label</b> on each line, often an abbreviation of one of the five concepts, such as Algorithms and Programming.</li><li><b>Read the verb.</b> "Create", "debug" and "analyze" ask far more than "identify" or "describe".</li><li><b>Check for AI.</b> In a few states it is a named strand; in most it appears, if at all, inside Data and Analysis or Impacts of Computing.</li><li><b>Compare with the school course.</b> Ask which standards the course covers and how student work is assessed against them.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Revision cycles matter</h3><p>CodeAI&rsquo;s newer rubric, revised on September 24, 2026, treats standards as historic if they "have not been revised within the past 5 years". Computing changes quickly, so the age of a document is worth noticing.</p>
+<p>That newer rubric was published after the 2025 data, so the table on this page does not use its tiers.</p></div><div><h3>What standards leave out</h3><p>Standards describe outcomes, not lessons. They will not tell you which language a school uses, how many hours a week CS gets, or whether a teacher is trained in it.</p>
+<p>Those questions belong to the school. The standards simply give you the vocabulary to ask them.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice set</p><h2>Five middle school tasks, one per core concept</h2><p class="ag-lede">Our own practice set for grades 6 to 8. Each task matches one of the five concepts, so a student can see what a standard asks in practice. Answers are discussed in class, not printed here.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A grades 6 to 8 practice set across the five core concepts (ours)</caption><thead><tr><th scope="col">Concept</th><th scope="col">Task</th><th scope="col">What it shows</th></tr></thead><tbody><tr><td>Computing Systems</td><td>List what happens, step by step, between pressing a key and a letter appearing on screen</td><td>Hardware and software working together</td></tr><tr><td>Networks and the Internet</td><td>Explain why a large file is split into packets, using a mailed jigsaw as the comparison</td><td>How data travels</td></tr><tr><td>Data and Analysis</td><td>Record a week of daily temperatures and find the mean and median (see the code below)</td><td>Summarising data</td></tr><tr><td>Algorithms and Programming</td><td>Write a loop that prints the 7 times table up to 70, then change it to any number</td><td>Loops and variables</td></tr><tr><td>Impacts of Computing</td><td>Name one benefit and one risk of a school using face recognition for attendance</td><td>Weighing technology&rsquo;s effects</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>For grades 3 to 5</h3><p>Do the same five tasks out loud or on paper, with block code for the loop. The concepts are the same; the tools are simpler.</p></div><div><h3>For grades 6 to 8</h3><p>Write the loop and the data task in real code, and write two sentences for the impact task.</p></div><div><h3>For high school</h3><p>Extend each one: a packet simulation, a full data report, and a written argument with sources.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="python">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Data and Analysis in code</p><h2>A Python example for the data task</h2><p class="ag-lede">The data task from the practice set, in a few lines of Python. It uses only the standard library, so it runs anywhere Python 3 is installed.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>temperatures.py (our example)</b><span>Python 3</span></figcaption><pre>import statistics
+
+# one week of noon temperatures in degrees Fahrenheit (our sample data)
+temps = [61, 64, 58, 70, 73, 66, 59]
+
+print("mean:", round(statistics.mean(temps), 1))
+print("median:", statistics.median(temps))
+print("warmest day:", temps.index(max(temps)) + 1)</pre><p class="ag-code-note">Output: mean 64.4, median 64, warmest day 5. The sum is 451 and 451 / 7 = 64.43, so the mean rounds to 64.4. Sorting gives 58, 59, 61, 64, 66, 70, 73, and the middle value is 64.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Which standards this touches</h3><p>Data and Analysis, through collecting and summarising data. Algorithms and Programming, through variables, lists and built-in functions.</p>
+<p>The extension question "why might the mean and median differ?" moves the task from following steps to analysing, which is what higher-level standards ask for.</p></div><div><h3>Make it harder</h3><p>Ask the student to read the temperatures from a file instead of typing them, then to chart them. Both steps appear in high school standards in many states.</p>
+<p>Then ask what would change with thirty days instead of seven. Larger samples are where summary statistics start to earn their keep.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where students are</p>
+      <h2>Four stages through the standards</h2>
+      <p class="ag-lede">How students usually move through what the standards describe.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages through K-12 CS standards (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Explorer</td><td class="ag-num">Uses block code to make things move and respond</td></tr><tr><td>2. Builder</td><td class="ag-num">Writes loops and conditions, fixes simple bugs</td></tr><tr><td>3. Analyst</td><td class="ag-num">Works with data, files and functions in a typed language</td></tr><tr><td>4. Designer</td><td class="ag-num">Plans, builds and tests a project for real users</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stages do not map neatly to grades. A keen fifth grader can be a builder; a tenth grader new to CS starts as an explorer.</p>
+<p>The five concepts are a better guide than any single grade label.</p></div><div><h3>For students</h3><p>If something in your school&rsquo;s CS course feels too easy or too hard, find its concept in the table and ask for the next step.</p>
+<p>Projects that touch several concepts at once teach the most.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses across the grade bands</h2>
+      <p class="ag-lede">Grouped by grade band; each one runs live with the same teacher each week, as a group class or privately.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Elementary</h3>
+        <span class="ag-band-sub">Grades 3 to 5</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / E / 01</p>
+          <h4>Scratch coding</h4>
+          <p>Algorithms in blocks.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / E / 02</p>
+          <h4>Computational thinking</h4>
+          <p>Logic and patterns.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / E / 03</p>
+          <h4>AI literacy for kids</h4>
+          <p>How AI works, age-appropriately.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Middle school</h3>
+        <span class="ag-band-sub">Grades 6 to 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / M / 01</p>
+          <h4>Python for kids</h4>
+          <p>The first typed language.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / M / 02</p>
+          <h4>Web development for kids</h4>
+          <p>Pages, networks and the internet.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / M / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Data and number in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>High school</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / H / 01</p>
+          <h4>Python for teens</h4>
+          <p>Programming and data in depth.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / H / 02</p>
+          <h4>AP CS Principles</h4>
+          <p>All five concepts.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSSB / H / 03</p>
+          <h4>AI and machine learning</h4>
+          <p>Where the standards are heading.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons organised by concept, not by worksheet</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school times across US time zones.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer project sessions suit weekends.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Aligned to your state&rsquo;s grade band.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Concept by concept</h3><p>Each unit names the standard it serves.</p></div>
+      <div><h3>One teacher</h3><p>The same person every week.</p></div>
+      <div><h3>Code that runs</h3><p>Ideas become working programs.</p></div>
+      <div><h3>AI with care</h3><p>Age-appropriate tools only.</p></div>
+      <div><h3>Every state</h3><p>Live online, nationwide.</p></div>
+      <div><h3>Two formats</h3><p>Groups of fifteen to twenty, or private.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have made</h2>
+      <p class="ag-lede">Projects from our learners that cover programming, data and design. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Monthly billing in US dollars, with no term contract. Families often use a few months of classes to fill a gap the school year leaves in one concept.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A concept-by-concept check</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>One regular teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher to yourself</li><li>Matched to your grade band</li><li>Flexible times</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents&rsquo; Google reviews, as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Computer science standards: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How many states have K-12 computer science standards?</h3>
+        <p>Reading the state pages of Code.org (2025), 2025 State of AI + CS Education, we count 44 states with adopted standards and Nebraska in progress. DC, Maine, Minnesota, Oregon, South Dakota and Vermont were marked as not having them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which states include AI in their computer science standards?</h3>
+        <p>Four, according to the 2025 report: Colorado, North Dakota, Ohio and Virginia. Iowa, Kentucky, Oregon, South Dakota, Tennessee and Wisconsin were marked as in progress.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are the five core concepts?</h3>
+        <p>Computing Systems; Networks and the Internet; Data and Analysis; Algorithms and Programming; and Impacts of Computing. They come from the K-12 Computer Science Framework, which many states used to write their standards.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are standards the same as a graduation requirement?</h3>
+        <p>No. Standards describe what a CS course should cover in each grade band. A graduation requirement decides whether every student must take one. A state can have one without the other.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it mean when a state is in progress?</h3>
+        <p>In the report, it means the state had publicly begun creating or revising standards but had not published them when the data were finalized on December 1, 2025.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the K-12 CS Framework a set of standards?</h3>
+        <p>No. Its own FAQ says the framework is not a set of standards. States use it to write measurable standards of their own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My state has no standards. Does that matter for my child?</h3>
+        <p>It mainly means schools have less shared guidance. Many still teach strong CS. The five core concepts are a sensible checklist for any course, wherever you live.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do your classes follow a particular state's standards?</h3>
+        <p>Our courses cover the five core concepts that most state standards share, and in 1-on-1 classes the teacher can align topics to your state's grade band.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can my child take classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with Code.org or a state department?</h3>
+        <p>Not at all. Modern Age Coders runs its own classes; this page only reports what those organisations publish, with links.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US families following computer science through school.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Our hub for US families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-north-carolina">North Carolina</a></h3><p>The NC standards and requirement.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CS Principles</a></h3><p>The broadest high school CS course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/homeschool-coding-curriculum">Homeschool coding</a></h3><p>Using the concepts at home.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-10-year-olds">Coding for 10-year-olds</a></h3><p>Where elementary CS starts.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-usa">AI and machine learning</a></h3><p>For students who want more AI.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Share the grade and the state you live in. In the first session the teacher checks your child against the five concepts and suggests where to begin.</p>
+        <p class="ag-mt-40">Curious about our approach? Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or look through <a class="ag-inline-link" href="/courses">every course outline</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20a%20US%20school%20and%20I%20want%20to%20understand%20the%20computer%20science%20standards.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cssb',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are taught live by video from India, at times that suit US families. Message us on WhatsApp for the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cssb(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first lesson; we never ask for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>School computer science</h4><ul><li><a href="/ap-computer-science-principles-online-coaching">AP CS Principles</a></li><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A</a></li><li><a href="/homeschool-coding-curriculum">Homeschool coding</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/coding-and-ai-classes-in-north-carolina">North Carolina</a></li><li><a href="/coding-classes-in-new-york">New York</a></li><li><a href="/coding-classes-in-georgia">Georgia</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Five concepts, fifty-one rows</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cssb = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'computer-science-standards-by-state-inline', meta: { name: name, age: age, page: 'computer-science-standards-by-state' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

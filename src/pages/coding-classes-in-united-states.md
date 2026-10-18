@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [CS standards by state](/computer-science-standards-by-state)
 - [CS graduation requirements by state](/computer-science-graduation-requirements-by-state)
 - [Is AP Computer Science hard?](/is-ap-computer-science-hard)
 - [AP CSP Create task guide](/ap-csp-create-performance-task-guide)

@@ -7290,4 +7290,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /computer-science-graduation-requirements-by-state /src/pages/computer-science-graduation-requirements-by-state.html 200
 /computer-science-graduation-requirements-by-state.md /src/pages/computer-science-graduation-requirements-by-state.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/computer-science-standards-by-state /src/pages/computer-science-standards-by-state.html 200
+/computer-science-standards-by-state.md /src/pages/computer-science-standards-by-state.md 200
 /* /src/pages/404.html 404
