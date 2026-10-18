@@ -454,6 +454,7 @@ const SLUGS = [
   'picoctf-for-beginners',
   'cyberpatriot-preparation',
   'technovation-girls-guide',
+  'ai-courses-for-high-school-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -987,6 +988,7 @@ const LLMS_LABELS = {
   'picoctf-for-beginners': 'picoCTF for beginners',
   'cyberpatriot-preparation': 'CyberPatriot preparation',
   'technovation-girls-guide': 'Technovation Girls guide',
+  'ai-courses-for-high-school-students': 'AI courses for high school students',
 };
 
 function wireLlms(slugs) {

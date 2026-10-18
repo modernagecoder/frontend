@@ -685,6 +685,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - picoCTF for beginners: https://learn.modernagecoders.com/picoctf-for-beginners
 - CyberPatriot preparation: https://learn.modernagecoders.com/cyberpatriot-preparation
 - Technovation Girls guide: https://learn.modernagecoders.com/technovation-girls-guide
+- AI courses for high school students: https://learn.modernagecoders.com/ai-courses-for-high-school-students
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
