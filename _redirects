@@ -7282,4 +7282,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ap-csp-create-performance-task-guide /src/pages/ap-csp-create-performance-task-guide.html 200
 /ap-csp-create-performance-task-guide.md /src/pages/ap-csp-create-performance-task-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/is-ap-computer-science-hard /src/pages/is-ap-computer-science-hard.html 200
+/is-ap-computer-science-hard.md /src/pages/is-ap-computer-science-hard.md 200
 /* /src/pages/404.html 404

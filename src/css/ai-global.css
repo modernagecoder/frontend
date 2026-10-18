@@ -999,3 +999,4 @@
 .ag-root.ag-dacs { --ag-accent: #11702C; --ag-accent-soft: rgba(17,112,44,.09); }   /* AP computer science credit, US: a clear forest green #11702C from the US allocation table, brighter than the two calculator greens so the credit page reads apart */
 .ag-root.ag-acsp { --ag-accent: #145245; --ag-accent-soft: rgba(20,82,69,.09); }   /* AP CSA practice questions, US: a deep teal #145245 from the US allocation table, cooler than the two AP calculator greens so the pages read apart */
 .ag-root.ag-accp { --ag-accent: #38688F; --ag-accent-soft: rgba(56,104,143,.09); }   /* AP CSP Create task guide, US: a muted slate blue #38688F from the US allocation table, set apart from the green and teal AP calculator and practice pages */
+.ag-root.ag-iacs { --ag-accent: #142385; --ag-accent-soft: rgba(20,35,133,.09); }   /* Is AP CS hard, US: a deep ink blue #142385 from the US allocation table, the only blue-violet among the six AP doors */

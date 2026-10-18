@@ -211,7 +211,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 47 | ap-csp-score-calculator (acsc, #214C1E) | ap | 3,873 | 2.1% vs ap-computer-science-a-score-calculator | phase 3 | weighted averages and the cost of a zero | 56f1906f |
 | 48 | does-ap-computer-science-give-college-credit (dacs, #11702C) | ap | 3,787 | 2.2% vs ap-computer-science-a-score-calculator | phase 3 | reading a lookup table carefully (same key, different value per institution) | 96b97c45 |
 | 49 | ap-computer-science-a-practice-questions (acsp, #145245) | ap | 4,947 | 2% vs ap-computer-science-a-score-calculator | phase 3 | tracing code by hand (predict, then run) | a551ee32 |
-| 50 | ap-csp-create-performance-task-guide (accp, #38688F) | ap | 4,530 | 2.3% vs ap-csp-score-calculator | phase 3 | procedural and data abstraction (a parameter that matters, a list that earns its | (this commit) |
+| 50 | ap-csp-create-performance-task-guide (accp, #38688F) | ap | 4,530 | 2.3% vs ap-csp-score-calculator | phase 3 | procedural and data abstraction (a parameter that matters, a list that earns its | d16b37ad |
+| 51 | is-ap-computer-science-hard (iacs, #142385) | ap | 3,659 | 2.1% vs ap-computer-science-a-score-calculator | phase 3 | reading data honestly (what a pass rate does and does not say) | (this commit) |
 
 ## Skipped
 

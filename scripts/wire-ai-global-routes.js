@@ -470,6 +470,7 @@ const SLUGS = [
   'does-ap-computer-science-give-college-credit',
   'ap-computer-science-a-practice-questions',
   'ap-csp-create-performance-task-guide',
+  'is-ap-computer-science-hard',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1019,6 +1020,7 @@ const LLMS_LABELS = {
   'does-ap-computer-science-give-college-credit': 'Does AP CS give college credit?',
   'ap-computer-science-a-practice-questions': 'AP CSA practice questions',
   'ap-csp-create-performance-task-guide': 'AP CSP Create task guide',
+  'is-ap-computer-science-hard': 'Is AP Computer Science hard?',
 };
 
 function wireLlms(slugs) {
