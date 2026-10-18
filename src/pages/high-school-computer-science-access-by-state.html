@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>High School Computer Science Access by State, 2025 Data</title>
+  <meta name="description" content="What share of high schools offer computer science in each US state and DC, how many students take it, and how access changed since 2019, from Code.org 2025 data.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/high-school-computer-science-access-by-state">
+  <link rel="alternate" type="text/markdown" href="/src/pages/high-school-computer-science-access-by-state.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#52261B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/high-school-computer-science-access-by-state">
+  <meta property="og:title" content="High School Computer Science Access by State, 2025 Data">
+  <meta property="og:description" content="Sixty percent of US public high schools offer foundational computer science, but only about 6% of students take it. Every state and DC, with counts, shares and the change since 2019.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="High School Computer Science Access by State, 2025 Data">
+  <meta name="twitter:description" content="High school computer science access and enrollment in every US state, 2025 data.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-hscs .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-hscs .ag-capsule { border-left-width: 6px; border-radius: 2px; }
+.ag-root.ag-hscs .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-hscs .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-hscs .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-hscs .ag-slots { gap: 1.25rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/high-school-computer-science-access-by-state#page","url":"https://learn.modernagecoders.com/high-school-computer-science-access-by-state","name":"High School Computer Science Access by State","description":"A state-by-state data page on US high school computer science access and participation, quoted from the Code.org 2025 State of AI + CS Education raw data, with our own change calculations clearly labelled.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"High school CS access by state","item":"https://learn.modernagecoders.com/high-school-computer-science-access-by-state"}]},{"@type":"Course","name":"High School Computer Science Access by State","description":"Live online computer science classes for US high school students whose school offers little or no CS, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/high-school-computer-science-access-by-state"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/high-school-computer-science-access-by-state"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/high-school-computer-science-access-by-state"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What share of US high schools offer computer science?","acceptedAnswer":{"@type":"Answer","text":"About 60%: 14,805 of 24,405 public high schools, according to Code.org (2025), 2025 State of AI + CS Education. The national figure combines each state's most recent year."}},{"@type":"Question","name":"Which states have the highest access?","acceptedAnswer":{"@type":"Answer","text":"Arkansas and Maryland report every high school offering CS. Nevada, New Hampshire, South Carolina and Alabama are each above 90% in their most recent year."}},{"@type":"Question","name":"Which states have the lowest access?","acceptedAnswer":{"@type":"Answer","text":"Alaska (34.2%) and Minnesota (34.4%) report the lowest shares, followed by Kansas, Montana, Florida and Louisiana, all under 40%."}},{"@type":"Question","name":"How many students actually take computer science?","acceptedAnswer":{"@type":"Answer","text":"Nationally, 871,490 of 14,364,449 high school students, about 6.1%, counting the states that report participation. State shares range from 25.7% in South Carolina to 1.8% in Idaho and Minnesota."}},{"@type":"Question","name":"Why do some states show no enrollment figure?","acceptedAnswer":{"@type":"Answer","text":"Alaska, Colorado, Delaware, DC, Maine, Michigan, Nevada, New Hampshire and South Dakota had no participation figure in the most recent data. Not reported does not mean zero."}},{"@type":"Question","name":"Has access improved over time?","acceptedAnswer":{"@type":"Answer","text":"Yes, from 47% in 2019 to 2020 to 60% in the latest two years nationally. Mississippi gained the most in our calculation, 39 percentage points."}},{"@type":"Question","name":"My child's school has no CS class. What can we do?","acceptedAnswer":{"@type":"Answer","text":"Ask the counselor about state-approved online or dual enrollment courses, ask whether an AP exam can be taken without the school course, and learn live outside school. We teach students in exactly this situation."}},{"@type":"Question","name":"When are your classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Can I reuse these figures?","acceptedAnswer":{"@type":"Answer","text":"Cite the original: Code.org (2025). 2025 State of AI + CS Education. Code.org publishes the raw data and states the report licence on its site."}},{"@type":"Question","name":"Are you part of Code.org?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders is a separate online school. We quote Code.org's published data and link to it."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/high-school-computer-science-access-by-state","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-hscs">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#access">Access table</a></li>
+      <li><a href="#trend">Change since 2019</a></li>
+      <li><a href="#students">Enrollment</a></li>
+      <li><a href="#gap">Schools without CS</a></li>
+      <li><a href="#sort">Python sort</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / High school CS access by state
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Public high schools &middot; Code.org 2025 data</p>
+        <h1>High school computer science access by state</h1>
+        <p class="ag-lede">Can a high school student in your state take a computer science class at their own school? The answer depends heavily on where they live. In the latest national figures, 60% of public high schools offer foundational computer science, ranging from every high school in Arkansas and Maryland to about a third in Alaska and Minnesota. This page gives every state&rsquo;s count, the share of students who actually enroll, and how access has moved since 2019, with every figure tied to its source year.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#access" class="ag-btn ag-btn--ghost">Find your state</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%26rsquo%3Bs%20US%20high%20school%20has%20no%20computer%20science%20class.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hscs'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; 10,000+ students &middot; CS for students whose school has none</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>National access</dt><dd>60% of high schools</dd>
+          <dt>National enrollment</dt><dd>About 6.1% of students</dd>
+          <dt>Full access</dt><dd>Arkansas and Maryland</dd>
+          <dt>Source</dt><dd>Code.org (2025)</dd>
+          <dt>Our classes</dt><dd>Live online, any state</dd>
+          <dt>Formats</dt><dd>Batch or 1-on-1</dd>
+          <dt>Timing</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>In Code.org (2025), 2025 State of AI + CS Education, 14,805 of 24,405 US public high schools, or 60%, offer foundational computer science, but only 871,490 of 14,364,449 high school students, about 6.1%, were enrolled, a figure based on the states that report participation (42 in 2024 to 2025). Arkansas (301 of 301) and Maryland (219 of 219) report every high school offering CS; Alaska (34.2%) and Minnesota (34.4%) report the lowest shares.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">If your school has no CS class</p>
+      <h2>Three ways to learn computer science outside school</h2>
+      <p class="ag-lede">Chosen for students in the four in ten high schools without a foundational CS course.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HSCS / 01</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 18. The language most first CS courses use.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-principles-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-principles.webp" alt="AP Computer Science Principles course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HSCS / 02</p>
+          <h3>AP CS Principles</h3>
+          <p>Grades 9 to 12. The AP course content, even without a school class.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">HSCS / 03</p>
+          <h3>AP Computer Science A</h3>
+          <p>High school. Java and the AP exam, taught live.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="access">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Every state and DC</p><h2>Share of public high schools offering computer science</h2><p class="ag-lede">Each state&rsquo;s most recent year in the 2025 data. Some states last reported for 2023 to 2024, others for 2024 to 2025, so the year column matters when you compare two states.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Public high schools offering foundational computer science, by state, most recent year (Code.org, 2025)</caption><thead><tr><th scope="col">State</th><th scope="col">School year</th><th scope="col">High schools offering CS</th><th scope="col">Share</th></tr></thead><tbody><tr><td>Alabama</td><td>2024 to 2025</td><td class="ag-num">351 of 382</td><td class="ag-num">91.9%</td></tr><tr><td>Alaska</td><td>2024 to 2025</td><td class="ag-num">89 of 260</td><td class="ag-num">34.2%</td></tr><tr><td>Arizona</td><td>2023 to 2024</td><td class="ag-num">278 of 643</td><td class="ag-num">43.2%</td></tr><tr><td>Arkansas</td><td>2024 to 2025</td><td class="ag-num">301 of 301</td><td class="ag-num">100.0%</td></tr><tr><td>California</td><td>2023 to 2024</td><td class="ag-num">1,325 of 2,282</td><td class="ag-num">58.1%</td></tr><tr><td>Colorado</td><td>2023 to 2024</td><td class="ag-num">344 of 519</td><td class="ag-num">66.3%</td></tr><tr><td>Connecticut</td><td>2023 to 2024</td><td class="ag-num">173 of 207</td><td class="ag-num">83.6%</td></tr><tr><td>Delaware</td><td>2024 to 2025</td><td class="ag-num">36 of 57</td><td class="ag-num">63.2%</td></tr><tr><td>District of Columbia</td><td>2024 to 2025</td><td class="ag-num">27 of 45</td><td class="ag-num">60.0%</td></tr><tr><td>Florida</td><td>2023 to 2024</td><td class="ag-num">463 of 1,192</td><td class="ag-num">38.8%</td></tr><tr><td>Georgia</td><td>2024 to 2025</td><td class="ag-num">399 of 495</td><td class="ag-num">80.6%</td></tr><tr><td>Hawaii</td><td>2024 to 2025</td><td class="ag-num">46 of 69</td><td class="ag-num">66.7%</td></tr><tr><td>Idaho</td><td>2024 to 2025</td><td class="ag-num">117 of 266</td><td class="ag-num">44.0%</td></tr><tr><td>Illinois</td><td>2023 to 2024</td><td class="ag-num">418 of 721</td><td class="ag-num">58.0%</td></tr><tr><td>Indiana</td><td>2023 to 2024</td><td class="ag-num">368 of 414</td><td class="ag-num">88.9%</td></tr><tr><td>Iowa</td><td>2024 to 2025</td><td class="ag-num">306 of 355</td><td class="ag-num">86.2%</td></tr><tr><td>Kansas</td><td>2023 to 2024</td><td class="ag-num">153 of 404</td><td class="ag-num">37.9%</td></tr><tr><td>Kentucky</td><td>2024 to 2025</td><td class="ag-num">270 of 358</td><td class="ag-num">75.4%</td></tr><tr><td>Louisiana</td><td>2024 to 2025</td><td class="ag-num">144 of 366</td><td class="ag-num">39.3%</td></tr><tr><td>Maine</td><td>2024 to 2025</td><td class="ag-num">72 of 123</td><td class="ag-num">58.5%</td></tr><tr><td>Maryland</td><td>2024 to 2025</td><td class="ag-num">219 of 219</td><td class="ag-num">100.0%</td></tr><tr><td>Massachusetts</td><td>2023 to 2024</td><td class="ag-num">325 of 400</td><td class="ag-num">81.2%</td></tr><tr><td>Michigan</td><td>2023 to 2024</td><td class="ag-num">674 of 1,228</td><td class="ag-num">54.9%</td></tr><tr><td>Minnesota</td><td>2023 to 2024</td><td class="ag-num">275 of 799</td><td class="ag-num">34.4%</td></tr><tr><td>Mississippi</td><td>2024 to 2025</td><td class="ag-num">204 of 234</td><td class="ag-num">87.2%</td></tr><tr><td>Missouri</td><td>2023 to 2024</td><td class="ag-num">310 of 551</td><td class="ag-num">56.3%</td></tr><tr><td>Montana</td><td>2024 to 2025</td><td class="ag-num">66 of 172</td><td class="ag-num">38.4%</td></tr><tr><td>Nebraska</td><td>2023 to 2024</td><td class="ag-num">141 of 276</td><td class="ag-num">51.1%</td></tr><tr><td>Nevada</td><td>2023 to 2024</td><td class="ag-num">143 of 146</td><td class="ag-num">97.9%</td></tr><tr><td>New Hampshire</td><td>2024 to 2025</td><td class="ag-num">89 of 95</td><td class="ag-num">93.7%</td></tr><tr><td>New Jersey</td><td>2023 to 2024</td><td class="ag-num">377 of 437</td><td class="ag-num">86.3%</td></tr><tr><td>New Mexico</td><td>2023 to 2024</td><td class="ag-num">126 of 235</td><td class="ag-num">53.6%</td></tr><tr><td>New York</td><td>2023 to 2024</td><td class="ag-num">674 of 1,360</td><td class="ag-num">49.6%</td></tr><tr><td>North Carolina</td><td>2024 to 2025</td><td class="ag-num">513 of 735</td><td class="ag-num">69.8%</td></tr><tr><td>North Dakota</td><td>2023 to 2024</td><td class="ag-num">148 of 176</td><td class="ag-num">84.1%</td></tr><tr><td>Ohio</td><td>2023 to 2024</td><td class="ag-num">635 of 1,045</td><td class="ag-num">60.8%</td></tr><tr><td>Oklahoma</td><td>2023 to 2024</td><td class="ag-num">334 of 467</td><td class="ag-num">71.5%</td></tr><tr><td>Oregon</td><td>2023 to 2024</td><td class="ag-num">195 of 347</td><td class="ag-num">56.2%</td></tr><tr><td>Pennsylvania</td><td>2023 to 2024</td><td class="ag-num">530 of 684</td><td class="ag-num">77.5%</td></tr><tr><td>Rhode Island</td><td>2023 to 2024</td><td class="ag-num">50 of 63</td><td class="ag-num">79.4%</td></tr><tr><td>South Carolina</td><td>2024 to 2025</td><td class="ag-num">276 of 300</td><td class="ag-num">92.0%</td></tr><tr><td>South Dakota</td><td>2023 to 2024</td><td class="ag-num">97 of 178</td><td class="ag-num">54.5%</td></tr><tr><td>Tennessee</td><td>2024 to 2025</td><td class="ag-num">384 of 464</td><td class="ag-num">82.8%</td></tr><tr><td>Texas</td><td>2023 to 2024</td><td class="ag-num">1,036 of 2,160</td><td class="ag-num">48.0%</td></tr><tr><td>Utah</td><td>2024 to 2025</td><td class="ag-num">175 of 213</td><td class="ag-num">82.2%</td></tr><tr><td>Vermont</td><td>2023 to 2024</td><td class="ag-num">33 of 55</td><td class="ag-num">60.0%</td></tr><tr><td>Virginia</td><td>2023 to 2024</td><td class="ag-num">229 of 335</td><td class="ag-num">68.4%</td></tr><tr><td>Washington</td><td>2024 to 2025</td><td class="ag-num">396 of 774</td><td class="ag-num">51.2%</td></tr><tr><td>West Virginia</td><td>2024 to 2025</td><td class="ag-num">94 of 121</td><td class="ag-num">77.7%</td></tr><tr><td>Wisconsin</td><td>2023 to 2024</td><td class="ag-num">318 of 585</td><td class="ag-num">54.4%</td></tr><tr><td>Wyoming</td><td>2024 to 2025</td><td class="ag-num">59 of 92</td><td class="ag-num">64.1%</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Suggested citation: Code.org (2025). 2025 State of AI + CS Education. Figures from the <a class="ag-inline-link" href="https://advocacy.code.org/report-data/" rel="noopener" target="_blank">raw data</a>, Most Recent Access Data tab; shares rounded to one decimal by us from the published counts. North Dakota&rsquo;s row includes cybersecurity courses; under the national definition the report puts it at 53% for 2023 to 2024. The data come largely from state education agencies, with course catalogs and teacher surveys where a state does not report. We are not connected with Code.org, now called CodeAI.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The top of the table</h3><p>Arkansas and Maryland report all of their high schools offering a foundational CS course. Nevada (143 of 146), New Hampshire (89 of 95), South Carolina (276 of 300) and Alabama (351 of 382) are all above 90%.</p>
+<p>Four of those six, Alabama, Arkansas, Nevada and South Carolina, are also listed in the same report as states with a CS graduation requirement.</p></div><div><h3>The bottom of the table</h3><p>Alaska (34.2%), Minnesota (34.4%), Kansas (37.9%), Montana (38.4%), Florida (38.8%) and Louisiana (39.3%) all report fewer than four in ten high schools offering CS.</p>
+<p>The report flags Alaska specifically: Code.org says it "encountered some challenges collecting data for Alaska this year", so treat its drop with care.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="trend">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Change since 2019</p><h2>Which states have expanded access fastest</h2><p class="ag-lede">Our arithmetic on the Access Percent over the Years tab: each state&rsquo;s whole-number share for 2019 to 2020 against its most recent year. These are percentage points, not percent growth.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Largest increases in high school CS access, 2019 to 2020 vs most recent year (our calculation from Code.org, 2025)</caption><thead><tr><th scope="col">State</th><th scope="col">2019 to 2020</th><th scope="col">Most recent</th><th scope="col">Change (points)</th></tr></thead><tbody><tr><td>Mississippi</td><td class="ag-num">48%</td><td class="ag-num">87% (2024 to 2025)</td><td class="ag-num">+39</td></tr><tr><td>Alabama</td><td class="ag-num">57%</td><td class="ag-num">92% (2024 to 2025)</td><td class="ag-num">+35</td></tr><tr><td>Oklahoma</td><td class="ag-num">37%</td><td class="ag-num">72% (2023 to 2024)</td><td class="ag-num">+35</td></tr><tr><td>Tennessee</td><td class="ag-num">50%</td><td class="ag-num">83% (2024 to 2025)</td><td class="ag-num">+33</td></tr><tr><td>Kentucky</td><td class="ag-num">45%</td><td class="ag-num">75% (2024 to 2025)</td><td class="ag-num">+30</td></tr><tr><td>New Hampshire</td><td class="ag-num">67%</td><td class="ag-num">94% (2024 to 2025)</td><td class="ag-num">+27</td></tr><tr><td>Georgia</td><td class="ag-num">55%</td><td class="ag-num">81% (2024 to 2025)</td><td class="ag-num">+26</td></tr><tr><td>Wyoming</td><td class="ag-num">41%</td><td class="ag-num">64% (2024 to 2025)</td><td class="ag-num">+23</td></tr><tr><td>New Mexico</td><td class="ag-num">32%</td><td class="ag-num">54% (2023 to 2024)</td><td class="ag-num">+22</td></tr><tr><td>Nevada</td><td class="ag-num">77%</td><td class="ag-num">98% (2023 to 2024)</td><td class="ag-num">+21</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>States where the most recent share is below 2019 to 2020 (our calculation from Code.org, 2025)</caption><thead><tr><th scope="col">State</th><th scope="col">2019 to 2020</th><th scope="col">Most recent</th><th scope="col">Change (points)</th></tr></thead><tbody><tr><td>Rhode Island</td><td class="ag-num">86%</td><td class="ag-num">79% (2023 to 2024)</td><td class="ag-num">-7</td></tr><tr><td>Delaware</td><td class="ag-num">68%</td><td class="ag-num">63% (2024 to 2025)</td><td class="ag-num">-5</td></tr><tr><td>Virginia</td><td class="ag-num">73%</td><td class="ag-num">68% (2023 to 2024)</td><td class="ag-num">-5</td></tr><tr><td>Massachusetts</td><td class="ag-num">82%</td><td class="ag-num">81% (2023 to 2024)</td><td class="ag-num">-1</td></tr><tr><td>Texas</td><td class="ag-num">49%</td><td class="ag-num">48% (2023 to 2024)</td><td class="ag-num">-1</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The national line</h3><p>Nationally, the sheet shows 47% of high schools offering CS in 2019 to 2020, rising to 51%, 53%, 57.7% and then 60% in both 2023 to 2024 and 2024 to 2025. An earlier 45% for 2018 to 2019 rests on only 39 states.</p>
+<p>The flat last two years are why the report describes access as having plateaued, except in states with a graduation requirement.</p></div><div><h3>Reading a decline</h3><p>A falling share does not always mean courses were cut. If a state opens new high schools, or counts schools differently from one year to the next, the share can move without any class disappearing.</p>
+<p>Where a figure surprises you, compare the counts as well as the percentage. The access table above gives both.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="students">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Who actually enrolls</p><h2>Share of high school students taking computer science</h2><p class="ag-lede">Access means a course exists. Participation means students take it. The second number is far smaller everywhere, and nine places did not report it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>High school students enrolled in foundational CS, most recent year each state reported (Code.org, 2025)</caption><thead><tr><th scope="col">State</th><th scope="col">Students in CS</th><th scope="col">Share</th></tr></thead><tbody><tr><td>Alabama</td><td class="ag-num">17,488 of 222,089</td><td class="ag-num">7.9%</td></tr><tr><td>Alaska</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>Arizona</td><td class="ag-num">14,180 of 368,829</td><td class="ag-num">3.8%</td></tr><tr><td>Arkansas</td><td class="ag-num">37,330 of 148,457</td><td class="ag-num">25.1%</td></tr><tr><td>California</td><td class="ag-num">103,362 of 1,936,526</td><td class="ag-num">5.3%</td></tr><tr><td>Colorado</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>Connecticut</td><td class="ag-num">12,411 of 164,921</td><td class="ag-num">7.5%</td></tr><tr><td>Delaware</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>District of Columbia</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>Florida</td><td class="ag-num">20,233 of 894,064</td><td class="ag-num">2.3%</td></tr><tr><td>Georgia</td><td class="ag-num">43,559 of 545,924</td><td class="ag-num">8.0%</td></tr><tr><td>Hawaii</td><td class="ag-num">1,317 of 51,961</td><td class="ag-num">2.5%</td></tr><tr><td>Idaho</td><td class="ag-num">1,751 of 99,336</td><td class="ag-num">1.8%</td></tr><tr><td>Illinois</td><td class="ag-num">35,902 of 595,765</td><td class="ag-num">6.0%</td></tr><tr><td>Indiana</td><td class="ag-num">18,146 of 325,663</td><td class="ag-num">5.6%</td></tr><tr><td>Iowa</td><td class="ag-num">8,124 of 156,342</td><td class="ag-num">5.2%</td></tr><tr><td>Kansas</td><td class="ag-num">3,654 of 146,266</td><td class="ag-num">2.5%</td></tr><tr><td>Kentucky</td><td class="ag-num">17,236 of 201,095</td><td class="ag-num">8.6%</td></tr><tr><td>Louisiana</td><td class="ag-num">5,494 of 212,772</td><td class="ag-num">2.6%</td></tr><tr><td>Maine</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>Maryland</td><td class="ag-num">46,157 of 276,484</td><td class="ag-num">16.7%</td></tr><tr><td>Massachusetts</td><td class="ag-num">23,127 of 292,428</td><td class="ag-num">7.9%</td></tr><tr><td>Michigan</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>Minnesota</td><td class="ag-num">5,152 of 280,848</td><td class="ag-num">1.8%</td></tr><tr><td>Mississippi</td><td class="ag-num">14,211 of 130,037</td><td class="ag-num">10.9%</td></tr><tr><td>Missouri</td><td class="ag-num">7,804 of 273,338</td><td class="ag-num">2.9%</td></tr><tr><td>Montana</td><td class="ag-num">1,655 of 45,378</td><td class="ag-num">3.6%</td></tr><tr><td>Nebraska</td><td class="ag-num">4,451 of 98,972</td><td class="ag-num">4.5%</td></tr><tr><td>Nevada</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>New Hampshire</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>New Jersey</td><td class="ag-num">35,941 of 408,963</td><td class="ag-num">8.8%</td></tr><tr><td>New Mexico</td><td class="ag-num">3,335 of 101,654</td><td class="ag-num">3.3%</td></tr><tr><td>New York</td><td class="ag-num">24,454 of 783,223</td><td class="ag-num">3.1%</td></tr><tr><td>North Carolina</td><td class="ag-num">27,384 of 481,741</td><td class="ag-num">5.7%</td></tr><tr><td>North Dakota</td><td class="ag-num">5,492 of 34,185</td><td class="ag-num">16.1%</td></tr><tr><td>Ohio</td><td class="ag-num">15,883 of 535,556</td><td class="ag-num">3.0%</td></tr><tr><td>Oklahoma</td><td class="ag-num">15,486 of 204,594</td><td class="ag-num">7.6%</td></tr><tr><td>Oregon</td><td class="ag-num">12,717 of 183,221</td><td class="ag-num">6.9%</td></tr><tr><td>Pennsylvania</td><td class="ag-num">19,506 of 551,996</td><td class="ag-num">3.5%</td></tr><tr><td>Rhode Island</td><td class="ag-num">8,172 of 44,533</td><td class="ag-num">18.4%</td></tr><tr><td>South Carolina</td><td class="ag-num">61,733 of 240,463</td><td class="ag-num">25.7%</td></tr><tr><td>South Dakota</td><td class="ag-num">Not reported</td><td class="ag-num">Not reported</td></tr><tr><td>Tennessee</td><td class="ag-num">39,819 of 300,911</td><td class="ag-num">13.2%</td></tr><tr><td>Texas</td><td class="ag-num">85,625 of 1,668,741</td><td class="ag-num">5.1%</td></tr><tr><td>Utah</td><td class="ag-num">24,445 of 214,800</td><td class="ag-num">11.4%</td></tr><tr><td>Vermont</td><td class="ag-num">766 of 24,384</td><td class="ag-num">3.1%</td></tr><tr><td>Virginia</td><td class="ag-num">19,801 of 400,497</td><td class="ag-num">4.9%</td></tr><tr><td>Washington</td><td class="ag-num">15,821 of 348,814</td><td class="ag-num">4.5%</td></tr><tr><td>West Virginia</td><td class="ag-num">2,051 of 76,900</td><td class="ag-num">2.7%</td></tr><tr><td>Wisconsin</td><td class="ag-num">8,377 of 262,627</td><td class="ag-num">3.2%</td></tr><tr><td>Wyoming</td><td class="ag-num">1,938 of 29,151</td><td class="ag-num">6.6%</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Code.org (2025). 2025 State of AI + CS Education, Most Recent Participation Data tab. The sheet notes that total student numbers come from the NCES Digest of Education Statistics, Table 203.04, Fall 2022, so the denominator is not always the same year as the enrollment count. Shares are rounded by us.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Highest and lowest</h3><p>South Carolina (25.7%) and Arkansas (25.1%) report about one high school student in four enrolled in CS. Rhode Island (18.4%), Maryland (16.7%) and North Dakota (16.1%, including cybersecurity) follow.</p>
+<p>At the other end, Idaho and Minnesota each report 1.8%, and Florida 2.3%.</p></div><div><h3>Why access and enrollment differ</h3><p>A single elective section in a school of 2,000 students counts that school as offering CS, yet only a few dozen students may take it. Maryland shows the gap clearly: every high school offers CS, while 16.7% of students are enrolled.</p>
+<p>For families, the lesson is that "my school offers CS" is the start of the question. Ask how many sections run, at what level, and whether they fit around other required classes.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="gap">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Schools without CS</p><h2>How many high schools still have no CS course</h2><p class="ag-lede">Our subtraction of the published counts: total high schools minus those offering CS. It turns a percentage into a number of buildings.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>High schools without a foundational CS course, largest counts (our subtraction from Code.org, 2025)</caption><thead><tr><th scope="col">Place</th><th scope="col">Year</th><th scope="col">High schools without CS</th></tr></thead><tbody><tr><td>United States (national row)</td><td>Combined years</td><td class="ag-num">9,600</td></tr><tr><td>Texas</td><td>2023 to 2024</td><td class="ag-num">1,124</td></tr><tr><td>California</td><td>2023 to 2024</td><td class="ag-num">957</td></tr><tr><td>Florida</td><td>2023 to 2024</td><td class="ag-num">729</td></tr><tr><td>New York</td><td>2023 to 2024</td><td class="ag-num">686</td></tr><tr><td>Michigan</td><td>2023 to 2024</td><td class="ag-num">554</td></tr><tr><td>Minnesota</td><td>2023 to 2024</td><td class="ag-num">524</td></tr></tbody></table></div>
+    <p class="ag-mt-40">How we worked it: Texas reports 1,036 of 2,160 high schools offering CS, so 2,160 - 1,036 = 1,124 do not. The national figure is 24,405 - 14,805 = 9,600, using the published national row rather than adding up states, because states report different years. Large states dominate the count even when their share looks middling.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Ask the counselor</h3><p>Find out whether an online or dual enrollment CS course is approved for credit in your state.</p></div><div><h3>Ask about AP</h3><p>Ask the school&rsquo;s AP coordinator whether a student can sit an AP CS exam without taking the course there.</p></div><div><h3>Learn live elsewhere</h3><p>Outside classes build the skill even when they cannot give school credit. A portfolio of projects speaks for itself.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="sort">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Check the numbers</p><h2>Recompute and rank the shares in Python</h2><p class="ag-lede">Our example for a first data lesson: start from counts, compute each share, and sort. It shows why a published percentage is only as good as the two numbers behind it.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>rank_access.py (our example)</b><span>Python 3</span></figcaption><pre># offering, total: five rows typed from the access table (Code.org, 2025)
+access = {
+    "Alabama": (351, 382),
+    "Florida": (463, 1192),
+    "Maryland": (219, 219),
+    "Minnesota": (275, 799),
+    "Texas": (1036, 2160),
+}
+
+shares = {state: offering / total
+          for state, (offering, total) in access.items()}
+
+for state, share in sorted(shares.items(), key=lambda kv: kv[1], reverse=True):
+    print(f"{state:&lt;10} {share:6.1%}")</pre><p class="ag-code-note">Output, highest first: Maryland 100.0%, Alabama 91.9%, Texas 48.0%, Florida 38.8%, Minnesota 34.4%. Each matches the table, which is the check: 1036 / 2160 = 0.4796, shown as 48.0%.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><b>Store pairs, not percentages.</b> Keeping offering and total lets you recompute and catch typing errors.</li><li><b>Use a dictionary comprehension</b> to turn each pair into a share in one line.</li><li><b>Sort with a key.</b> <code>key=lambda kv: kv[1]</code> sorts by the share, not the state name.</li><li><b>Format as a percentage.</b> The <code>:6.1%</code> format multiplies by 100 and adds the percent sign.</li><li><b>Extend it.</b> Add the year as a third value and print it, so no one compares 2023 to 2024 with 2024 to 2025 by accident.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where students start</p>
+      <h2>Four starting points for students without school CS</h2>
+      <p class="ag-lede">What we usually see when a student comes to us from a high school with little or no computer science.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Starting points (ours)</caption><thead><tr><th scope="col">Starting point</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Never coded</td><td class="ag-num">Curious, but no course has been available</td></tr><tr><td>2. Self-taught basics</td><td class="ag-num">Some videos or block coding, no feedback</td></tr><tr><td>3. One language</td><td class="ag-num">Comfortable with Python or JavaScript basics</td></tr><tr><td>4. Exam-bound</td><td class="ag-num">Ready to prepare for an AP CS exam independently</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>A school without CS does not close the door. Students can still learn, build projects and, where the school allows it, sit an AP exam.</p>
+<p>What they miss is a teacher and a timetable. That is what live classes replace.</p></div><div><h3>For students</h3><p>Start with one language and one project. Breadth comes later.</p>
+<p>Keep your work in one folder or repository; it becomes your evidence when a school course is not on the transcript.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for students whose school has no CS</h2>
+      <p class="ag-lede">Live lessons with one teacher across the course, available as a group class or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Beginners</h3>
+        <span class="ag-band-sub">Ages 13 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / I / 01</p>
+          <h4>Python for teens</h4>
+          <p>The usual first language.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / I / 02</p>
+          <h4>JavaScript for teens</h4>
+          <p>Code that runs in a browser.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / I / 03</p>
+          <h4>HTML and CSS</h4>
+          <p>Build and publish web pages.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Exam routes</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / II / 01</p>
+          <h4>AP CS Principles</h4>
+          <p>Create task and exam.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / II / 02</p>
+          <h4>AP CS A</h4>
+          <p>Java and free-response practice.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / II / 03</p>
+          <h4>Java for teens</h4>
+          <p>Foundations before AP CS A.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Projects</h3>
+        <span class="ag-band-sub">Build a portfolio</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / III / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Real datasets, real charts.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / III / 02</p>
+          <h4>Full stack web</h4>
+          <p>An app with a database.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">HSCS / III / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Show your work properly.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>A computer science class when school does not have one</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After the school day, in your own time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer blocks for project work.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Paced toward an AP exam date if wanted.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A real teacher</h3><p>Live feedback on every program.</p></div>
+      <div><h3>A syllabus</h3><p>Structured units, not random videos.</p></div>
+      <div><h3>Portfolio work</h3><p>Projects worth showing colleges.</p></div>
+      <div><h3>Exam support</h3><p>AP practice when the student is ready.</p></div>
+      <div><h3>Anywhere</h3><p>Rural or urban, any state.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student projects from our classes</h2>
+      <p class="ag-lede">Work by learners who started from scratch. Browse more on <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">One monthly fee in US dollars, no annual commitment. Students without a school CS course often join for a full school year and stop after an exam.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A level check</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty learners</li><li>One regular teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher to yourself</li><li>Built around your goals</li><li>Flexible scheduling</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents, quoted unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>High school CS access: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What share of US high schools offer computer science?</h3>
+        <p>About 60%: 14,805 of 24,405 public high schools, according to Code.org (2025), 2025 State of AI + CS Education. The national figure combines each state's most recent year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which states have the highest access?</h3>
+        <p>Arkansas and Maryland report every high school offering CS. Nevada, New Hampshire, South Carolina and Alabama are each above 90% in their most recent year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which states have the lowest access?</h3>
+        <p>Alaska (34.2%) and Minnesota (34.4%) report the lowest shares, followed by Kansas, Montana, Florida and Louisiana, all under 40%.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many students actually take computer science?</h3>
+        <p>Nationally, 871,490 of 14,364,449 high school students, about 6.1%, counting the states that report participation. State shares range from 25.7% in South Carolina to 1.8% in Idaho and Minnesota.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why do some states show no enrollment figure?</h3>
+        <p>Alaska, Colorado, Delaware, DC, Maine, Michigan, Nevada, New Hampshire and South Dakota had no participation figure in the most recent data. Not reported does not mean zero.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Has access improved over time?</h3>
+        <p>Yes, from 47% in 2019 to 2020 to 60% in the latest two years nationally. Mississippi gained the most in our calculation, 39 percentage points.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child's school has no CS class. What can we do?</h3>
+        <p>Ask the counselor about state-approved online or dual enrollment courses, ask whether an AP exam can be taken without the school course, and learn live outside school. We teach students in exactly this situation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I reuse these figures?</h3>
+        <p>Cite the original: Code.org (2025). 2025 State of AI + CS Education. Code.org publishes the raw data and states the report licence on its site.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you part of Code.org?</h3>
+        <p>No. Modern Age Coders is a separate online school. We quote Code.org's published data and link to it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students finding computer science beyond their school.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>All our US pages in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A online</a></h3><p>When there is no school AP class.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CS Principles coaching</a></h3><p>The broad AP CS course.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-coding-classes-for-kids-usa">Online coding classes, USA</a></h3><p>For younger students too.</p></div>
+      <div><h3><a class="ag-inline-link" href="/computer-science-extracurriculars">CS extracurriculars</a></h3><p>Clubs and competitions outside class.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-and-ai-classes-in-north-carolina">North Carolina</a></h3><p>One state&rsquo;s numbers, in depth.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Let us know whether your school offers any computer science, and what your student has tried on their own. We will suggest a starting course and a weekly rhythm.</p>
+        <p class="ag-mt-40">Before booking, see <a class="ag-inline-link" href="/how-we-teach">the way we teach</a> or scan the <a class="ag-inline-link" href="/courses">complete catalogue</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%26rsquo%3Bs%20US%20high%20school%20has%20no%20computer%20science%20class.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'hscs',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">There is no campus to visit: classes run live online from India, timed for American evenings and weekends. WhatsApp gets the quickest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_hscs(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No payment details needed for the free lesson.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Learn CS anywhere</h4><ul><li><a href="/ap-computer-science-a-online-classes">AP Computer Science A</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CS Principles</a></li><li><a href="/online-coding-classes-for-kids-usa">Online coding classes, USA</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/coding-classes-in-texas">Texas</a></li><li><a href="/coding-classes-in-california">California</a></li><li><a href="/coding-classes-in-new-york">New York</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Sixty percent and counting</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_hscs = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'high-school-computer-science-access-by-state-inline', meta: { name: name, age: age, page: 'high-school-computer-science-access-by-state' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>

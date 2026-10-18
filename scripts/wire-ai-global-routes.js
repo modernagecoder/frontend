@@ -473,6 +473,7 @@ const SLUGS = [
   'is-ap-computer-science-hard',
   'computer-science-graduation-requirements-by-state',
   'computer-science-standards-by-state',
+  'high-school-computer-science-access-by-state',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1025,6 +1026,7 @@ const LLMS_LABELS = {
   'is-ap-computer-science-hard': 'Is AP Computer Science hard?',
   'computer-science-graduation-requirements-by-state': 'CS graduation requirements by state',
   'computer-science-standards-by-state': 'CS standards by state',
+  'high-school-computer-science-access-by-state': 'High school CS access by state',
 };
 
 function wireLlms(slugs) {
