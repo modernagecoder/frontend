@@ -700,6 +700,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AP CSP score calculator: https://learn.modernagecoders.com/ap-csp-score-calculator
 - Does AP CS give college credit?: https://learn.modernagecoders.com/does-ap-computer-science-give-college-credit
 - AP CSA practice questions: https://learn.modernagecoders.com/ap-computer-science-a-practice-questions
+- AP CSP Create task guide: https://learn.modernagecoders.com/ap-csp-create-performance-task-guide
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

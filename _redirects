@@ -7278,4 +7278,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ap-computer-science-a-practice-questions /src/pages/ap-computer-science-a-practice-questions.html 200
 /ap-computer-science-a-practice-questions.md /src/pages/ap-computer-science-a-practice-questions.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ap-csp-create-performance-task-guide /src/pages/ap-csp-create-performance-task-guide.html 200
+/ap-csp-create-performance-task-guide.md /src/pages/ap-csp-create-performance-task-guide.md 200
 /* /src/pages/404.html 404

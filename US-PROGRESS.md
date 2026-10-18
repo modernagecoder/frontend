@@ -210,7 +210,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 46 | ap-computer-science-a-score-calculator (acss, #39610F) | ap | 4,553 | 1.4% vs codehs-help-for-students | phase 3 | weighted averages (turning two scales into one) | 62a27cc6 |
 | 47 | ap-csp-score-calculator (acsc, #214C1E) | ap | 3,873 | 2.1% vs ap-computer-science-a-score-calculator | phase 3 | weighted averages and the cost of a zero | 56f1906f |
 | 48 | does-ap-computer-science-give-college-credit (dacs, #11702C) | ap | 3,787 | 2.2% vs ap-computer-science-a-score-calculator | phase 3 | reading a lookup table carefully (same key, different value per institution) | 96b97c45 |
-| 49 | ap-computer-science-a-practice-questions (acsp, #145245) | ap | 4,947 | 2% vs ap-computer-science-a-score-calculator | phase 3 | tracing code by hand (predict, then run) | (this commit) |
+| 49 | ap-computer-science-a-practice-questions (acsp, #145245) | ap | 4,947 | 2% vs ap-computer-science-a-score-calculator | phase 3 | tracing code by hand (predict, then run) | a551ee32 |
+| 50 | ap-csp-create-performance-task-guide (accp, #38688F) | ap | 4,530 | 2.3% vs ap-csp-score-calculator | phase 3 | procedural and data abstraction (a parameter that matters, a list that earns its | (this commit) |
 
 ## Skipped
 

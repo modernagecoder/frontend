@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [AP CSP Create task guide](/ap-csp-create-performance-task-guide)
 - [AP CSA practice questions](/ap-computer-science-a-practice-questions)
 - [Does AP CS give college credit?](/does-ap-computer-science-give-college-credit)
 - [AP CSP score calculator](/ap-csp-score-calculator)
