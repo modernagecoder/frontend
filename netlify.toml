@@ -24309,6 +24309,18 @@
   to = "/src/pages/codewizardshq-alternative.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/create-and-learn-alternative"
+  to = "/src/pages/create-and-learn-alternative.html"
+  status = 200
+
+[[redirects]]
+  from = "/create-and-learn-alternative.md"
+  to = "/src/pages/create-and-learn-alternative.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -7310,4 +7310,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /codewizardshq-alternative /src/pages/codewizardshq-alternative.html 200
 /codewizardshq-alternative.md /src/pages/codewizardshq-alternative.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/create-and-learn-alternative /src/pages/create-and-learn-alternative.html 200
+/create-and-learn-alternative.md /src/pages/create-and-learn-alternative.md 200
 /* /src/pages/404.html 404

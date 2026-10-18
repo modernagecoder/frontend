@@ -477,6 +477,7 @@ const SLUGS = [
   'ai-guidance-for-schools-by-state',
   'best-online-coding-classes-for-kids-usa-compared',
   'codewizardshq-alternative',
+  'create-and-learn-alternative',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1033,6 +1034,7 @@ const LLMS_LABELS = {
   'ai-guidance-for-schools-by-state': 'AI guidance for schools by state',
   'best-online-coding-classes-for-kids-usa-compared': 'Online coding classes for kids, compared',
   'codewizardshq-alternative': 'CodeWizardsHQ alternative',
+  'create-and-learn-alternative': 'Create & Learn alternative',
 };
 
 function wireLlms(slugs) {

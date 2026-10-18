@@ -218,7 +218,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 54 | high-school-computer-science-access-by-state (hscs, #52261B) | data | 3,810 | 1.1% vs computer-science-graduation-requirements-by-state | phase 3 | ratios, percentage format and sorting with a key function | d9ff0807 |
 | 55 | ai-guidance-for-schools-by-state (agsb, #61520F) | data | 3,556 | 2% vs computer-science-graduation-requirements-by-state | phase 3 | nearest-neighbour classification and feature scaling (how AI works, not how to u | 0be1f1cf |
 | 61 | best-online-coding-classes-for-kids-usa-compared (bkuc, #2C3385) | cmp | 3,540 | 1.2% vs ai-guidance-for-schools-by-state | phase 3 | weighted scoring (a sum of weight times value) for a decision | 32e52943 |
-| 56 | codewizardshq-alternative (cod, #50571D) | cmp | 3,130 | 2.3% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | unit conversion and multiplication from published figures (minutes to hours) | (this commit) |
+| 56 | codewizardshq-alternative (cod, #50571D) | cmp | 3,130 | 2.3% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | unit conversion and multiplication from published figures (minutes to hours) | 219e8e55 |
+| 57 | create-and-learn-alternative (cre, #1E4C0B) | cmp | 3,046 | 1.7% vs best-online-coding-classes-for-kids-usa-compared | phase 3 | ordering steps by prerequisite (a learning path as a sequence) | (this commit) |
 
 ## Skipped
 
