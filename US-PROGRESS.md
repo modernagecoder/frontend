@@ -224,7 +224,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 59 | codakid-alternative (coa, #376B52) | cmp | 3,093 | 1.7% vs id-tech-alternative | phase 3 | summing a log and computing a share (dictionary of tuples, sum, f-string percent | 003d74a9 |
 | 60 | coding-with-kids-alternative (wka, #49627A) | cmp | 3,053 | 1.7% vs codakid-alternative | phase 3 | multiplying a weekly time by a cycle and converting minutes to hours | 8f777d73 |
 | 62 | common-core-math-vs-traditional-math (ccmt, #2B127A) | math | 3,269 | 1.4% vs ai-guidance-for-schools-by-state | phase 3 | place value decomposition (partial products) checked against the standard algori | ce93b25d |
-| 80 | coding-classes-in-maryland (aim, #3D5466) | state | 3,217 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | joining two tables on a shared key, and the duplicate key that breaks a naive jo | (this commit) |
+| 80 | coding-classes-in-maryland (aim, #3D5466) | state | 3,217 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | joining two tables on a shared key, and the duplicate key that breaks a naive jo | 83b5e39a |
+| 90 | coding-classes-in-new-jersey (anj, #2E3399) | state | 4,143 | 1.3% vs coding-and-ai-classes-in-north-carolina | phase 4 | pivot table / cross-tab by county, and why records are not the same thing as sta | (this commit) |
 
 ## Skipped
 

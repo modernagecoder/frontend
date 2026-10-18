@@ -424,53 +424,62 @@
   },
   "coding-classes-in-new-jersey": {
     "market": "New Jersey",
-    "bodyClass": "cg-nj",
-    "curriculumAuthority": "New Jersey Student Learning Standards for Computer Science and Design Thinking (NJSLS-CSDT), adopted 2020, K to 12",
-    "localProject": "NJ Transit punctuality. Trap: cancellations are reported as a separate statistic and sit outside On-Time Performance entirely, so a line that cancels services can post better punctuality than one that runs everything late. Second trap: two rail dashboards exist for the same trains, all-causes and Amtrak-adjusted.",
+    "bodyClass": "cg-anj",
+    "pageType": "city",
+    "curriculumAuthority": "New Jersey, read raw on 17 October 2026: NJDOE Computer Science & Design Thinking page (updated 04/13/2026; K-12 instruction statement; N.J.S.A. 18A:7C-1.1 offering duty from 2018-2019, county vocational school district exception, six content topics; K-12 CS Framework informed the standards); 2020 NJSLS-CS&DT PDF (June 2020; Standard 8.1 and 8.2; checkpoints grades 2, 5, 8, 12; code 8.1.2.NI.1; ten disciplinary concepts; seven practices; 8.1.2.AP.3, 8.1.2.DA.1, 8.1.2.NI.3; N.J.S.A. 18A:7C-2.1 AP CS math credit from the 2016-2017 grade nine class with algebra 1 and geometry; N.J.S.A. 18A:26-2.26 endorsement); NJDOE State Minimum Graduation Requirements (120 credits, N.J.A.C. 6A:8-5.1, no CS line, technology integrated); Code.org (2025) access trend 67% to 86.3%, 377 of 437 (2023-24), participation 35,941 of 408,963 (8.79%), 9.8% (2020-21), 8.77% (2022-23); College Board AP schools 575 (2023), 584 (2024); IANA America/New_York.",
+    "localProject": "NJ Passenger Rail Stations (NJDCA Office of Local Planning Services and NJOGIS), attributes downloaded 17 October 2026: 234 records, 227 distinct station names, 21 RAIL_LINE values, 17 COUNTY values including Rockland, NY (stations within 0.5 mile of the border), 6 Amtrak records; our county by mode cross-tab (Essex 40, Hudson 33, Bergen 31, Camden 20, Morris 19, Union 16, Monmouth 14, Burlington 11, Somerset 11, Middlesex 10; commuter 156, light 62, rapid 16), labelled as ours. Lesson family: pivot table / cross-tab by county, and records versus distinct stations.",
     "requiredMentions": [
       "N.J.S.A. 18A:7C-1.1",
-      "N.J.A.C. 6A:8-5.1",
-      "Computer Science and Design Thinking",
+      "N.J.S.A. 18A:7C-2.1",
       "county vocational school district",
-      "NJ Transit",
-      "Northeast Corridor",
-      "Mean Distance Between Failure",
-      "On-Time Performance",
-      "Integrated throughout all courses",
-      "Edison"
+      "8.1.2.NI.1",
+      "June 2020",
+      "120 credits",
+      "algebra 1 and geometry",
+      "377 of 437",
+      "35,941 of 408,963",
+      "234 records",
+      "Rockland, NY"
     ],
     "sources": [
       {
-        "claim": "Every public school enrolling grades 9 to 12, other than a county vocational school district, must offer a computer science course from the 2018 to 2019 school year, covering computational thinking, computer programming, appropriate use of the internet and development of internet web pages, data security and prevention of data breaches, ethical matters, and global impact.",
-        "citation": "N.J.S.A. 18A:7C-1.1, P.L. 2017 c.303, enacted 16 January 2018",
-        "url": "https://www.nj.gov/education/broadcasts/2018/APR/19/18144/NJDOE%20Provides%20Guidance%20on%20Computer%20Science%20Course%20Requirement.pdf"
-      },
-      {
-        "claim": "New Jersey state minimum graduation requirements total 120 credits. Mathematics 15 credits including Algebra I, Geometry and a third year building on them. Science 15 credits with at least 5 in laboratory biology or life science. Technology is integrated throughout all courses rather than a separate credit line. There is no computer science credit line in the state minimum.",
-        "citation": "N.J.A.C. 6A:8-5.1, New Jersey State Minimum Graduation Requirements by Content Area",
-        "url": "https://www.nj.gov/education/standards/docs/grad.pdf"
-      },
-      {
-        "claim": "NJSLS-CSDT covers Kindergarten through grade 12. Computer science concepts: Computing Systems; Networks and the Internet; Impacts of Computing; Data and Analysis; Algorithms and Programming. Design thinking concepts: Engineering Design; Interaction of Technology and Humans; Nature of Technology; Effects of Technology on the Natural World; Ethics and Culture.",
-        "citation": "New Jersey Department of Education, Computer Science and Design Thinking standards page",
+        "claim": "NJDOE: Computer Science & Design Thinking page, K-12 statement and N.J.S.A. 18A:7C-1.1.",
         "url": "https://www.nj.gov/education/standards/compsci/"
       },
       {
-        "claim": "NJ Transit publishes On-Time Performance, Mean Distance Between Failure and Total Cancellations. A vehicle operating within 6 minutes of published schedule counts as on time. Two rail dashboards exist: All Causes, and Adjusted for Amtrak-related Causes.",
-        "citation": "NJ Transit performance dashboards",
-        "url": "https://www.njtransit.com/performance"
+        "claim": "NJDOE: 2020 NJSLS Computer Science and Design Thinking, concepts, checkpoints, codes, N.J.S.A. 18A:7C-2.1 and 18A:26-2.26.",
+        "url": "https://www.nj.gov/education/standards/compsci/Docs/2020%20NJSLS-CSDT.pdf"
       },
       {
-        "claim": "New Jersey has 415,342 Indian Americans, 4.47 percent of the state population, the highest concentration of any US state.",
-        "citation": "2020 United States Census",
-        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+        "claim": "NJDOE: New Jersey State Minimum Graduation Requirements, 120 credits.",
+        "url": "https://www.nj.gov/education/standards/docs/121525_GradRequirements.docx"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: New Jersey access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "NJDCA and NJOGIS: NJ Passenger Rail Stations feature service.",
+        "url": "https://services.arcgis.com/Aur8tCo478N3VovT/arcgis/rest/services/NJ_Passenger_Rail_Stations/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: New Jersey on US eastern time and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
       }
     ],
     "rejectedClaims": [
-      {
-        "claim": "An Advanced Placement computer science course satisfies part of the New Jersey mathematics credit requirement for graduation.",
-        "why": "Could not be confirmed at primary source. Absent from the state minimum graduation requirements chart at N.J.A.C. 6A:8-5.1 and from the Cornell LII text of that regulation. Second-hand accounts conflict on the starting grade nine class year (2014-2015 vs 2016-2017) and on whether it covers mathematics only or mathematics or science. Page now states it as unconfirmed and directs families to their school counsellor."
-      }
+      "A New Jersey computer science graduation requirement: refused; the NJDOE minimum chart has no CS credit line.",
+      "Code.org size, urban, suburban, rural, gender and ethnicity figures for New Jersey: not used (outside the Access and Participation tabs).",
+      "A 2024 to 2025 New Jersey access figure: none is published in the sheet, so none is printed.",
+      "That the schools not counted as offering CS are breaking the law: refused; the data cannot show why.",
+      "An official count of New Jersey rail stations: not read; only our record counts from one download, labelled as ours.",
+      "That our classes earn New Jersey school or AP credit: refused; only district courses and College Board exams do.",
+      "Names of individual New Jersey schools: not needed; counts only.",
+      "Any affiliation with NJDOE, NJDCA, NJOGIS, NJ Transit, Code.org or the College Board."
     ]
   },
   "coding-classes-in-oman": {

@@ -1,382 +1,320 @@
 ---
-title: "Coding Classes in New Jersey | Live Online, Ages 6 to 67"
-description: "Live online coding and maths classes for New Jersey students aged 6 to 67, built around the NJSLS Computer Science and Design Thinking standards. From USD 100."
+title: "Coding and AI Classes in New Jersey | Live Online"
+description: "Live online coding and AI classes for New Jersey students, with the high school computer science law, the NJSLS design thinking standards and AP credit rules."
 canonical: https://learn.modernagecoders.com/coding-classes-in-new-jersey
 source: src/pages/coding-classes-in-new-jersey.html
 ---
-> Live online coding and maths classes for New Jersey students aged 6 to 67, built around the NJSLS Computer Science and Design Thinking standards. From USD 100.
+> They have to offer it. N.J.S.A. 18A:7C-1.1 says that from the 2018 to 2019 school year every public school enrolling grades nine through 12, other than a county vocational school district, shall offer a course in computer science. Taking it is not on the state&rsquo;s list of 120 graduation credits. Modern Age Coders teaches the same content live online, from first programs in grade 2 to AP Computer Science A.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / New Jersey
 
-New Jersey / Live online
+New Jersey, United States / Live online
 
-# Coding classes in New Jersey, taught live to ages 6 to 67
+# Coding and AI classes in New Jersey
 
-The short answer
+**Do New Jersey high schools have to teach computer science?** They have to offer it. N.J.S.A. 18A:7C-1.1 says that from the 2018 to 2019 school year every public school enrolling grades nine through 12, other than a county vocational school district, shall offer a course in computer science. Taking it is not on the state&rsquo;s list of 120 graduation credits. Modern Age Coders teaches the same content live online, from first programs in grade 2 to AP Computer Science A.
 
-State law obliges almost every New Jersey public high school to offer computer science, yet the 120 credit state graduation minimum contains no computer science credit line at all. Modern Age Coders closes that gap with live online coding and mathematics for ages 6 to 67, mapped to the NJSLS Computer Science and Design Thinking standards. Groups hold fifteen to twenty. USD 100 monthly, or USD 150 privately.
+New Jersey handles computer science in three layers, and families often hear about only one of them. A statute obliges high schools to put a computer science course on the timetable. A second statute lets an AP computer science course carry part of a student&rsquo;s math credit. And the 2020 New Jersey Student Learning Standards pair computer science with design thinking, with the department stating that all students receive that instruction from kindergarten through grade 12. This page sets out each layer in the department&rsquo;s own words, shows what the published access and enrollment figures say for the Garden State, walks through a Python project built on the state&rsquo;s own passenger rail data, and explains where our live online classes sit beside school, from a second grader writing a first loop to a junior preparing for the AP exam in May.
 
-New Jersey already asks more of its students in computer science than most states do. Since the 2018 to 2019 school year, state law has required almost every public high school here to offer a computer science course, and the standards behind it run all the way down to Kindergarten. What the state does not do is require your child to take it, guarantee it is taught well, or give a student who is already ahead anywhere to go. That is the gap we fill, and we fill it from the same page as your district rather than off to one side of it.
+Facts last verified 17 October 2026. Teaching is online; no New Jersey branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
-This page sits under our wider [coding classes in the United States](/coding-classes-in-united-states) hub. If your interest is specifically in building machine learning models rather than general programming, read [AI and machine learning classes in the USA](/ai-and-machine-learning-classes-in-usa) instead.
+## Four starting points mapped to the New Jersey standards
 
-Book the free first classSee the standards mapping
+Each card lines up with a band of the NJSLS computer science standard. The free lesson confirms the level before anything is booked.
 
-No card. No obligation. We call, we do not spam.
+- [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids) (Grades K to 5): Algorithms, patterns and debugging through puzzles and small programs, the skills named in the grade 2 and grade 5 bands.
+- [Python for Teens](/courses/python-complete-masterclass-teens) (Grades 6 to 12): Typed Python from variables to files and data, ready for the rail station cross-tab project on New Jersey open data.
+- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course) (Grades 10 to 12): Java for AP Computer Science A, the course New Jersey law lets count toward part of the math credit requirement.
+- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Grades 9 to 12): Pivot tables, charts and first models, built on the Data and Analysis concept of the state standards.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for New Jersey
+The four we are known for, on every market page:
 
-## What New Jersey families actually book
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
 
-The state minimum has no computer science credit line, so these are the courses that fill the gap. Each one is live, in a group of fifteen to twenty or one to one, with the same teacher every week.
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-[![AP Computer Science A course thumbnail](/images/ap-computer-science-a.webp)  Ages 14 to 18 AP Computer Science A Java, the exam unit structure, and the free response questions that decide the grade. See the syllabus](/courses/ap-computer-science-a-java-exam-prep-course)[![Python, complete course thumbnail](/images/python-teens.webp)  Ages 11 to 18 Python, complete The language taught to real depth rather than to a demo. Our most requested course. See the syllabus](/courses/python-complete-masterclass-teens)[![Scratch, in depth course thumbnail](/images/scratch-kids.webp)  Ages 6 to 10 Scratch, in depth Blocks taken seriously, so the move to written code later is a step and not a cliff. See the syllabus](/courses/scratch-programming-complete-course)[![High school mathematics course thumbnail](/images/high-school-maths.webp)  Ages 14 to 18 High school mathematics The algebra and functions every computer science pathway quietly assumes you have. See the syllabus](/courses/complete-high-school-mathematics-mastery)
+## What the New Jersey statute requires high schools to offer
 
-That is four of more than a hundred. The rest, sorted by age and subject, sit on the [course atlas](/course-atlas), and the order we teach them in is on the [coding roadmap](/coding-roadmap).
+The New Jersey Department of Education (NJDOE) prints the statute on its Computer Science and Design Thinking page, last updated April 13, 2026. We read it on 17 October 2026.
 
-The four we are known for
+**N.J.S.A. 18A:7C-1.1, High School Computer Science Course, as printed by NJDOE**
 
-### Python, AI, vibe coding and agentic coding
+| Element | What the statute says |
+|---|---|
+| Deadline | No later than the beginning of the 2018-2019 school year |
+| Which schools | Each public school enrolling students in grades nine through 12 |
+| The one exception | A county vocational school district is not covered by the offering duty |
+| The duty | Shall offer a course in computer science |
+| Content, part 1 | Computational thinking and computer programming |
+| Content, part 2 | The appropriate use of the Internet and the development of Internet web pages |
+| Content, part 3 | Data security and the prevention of data breaches |
+| Content, part 4 | Ethical matters in computer science, and the global impact of advancements in computer science |
 
-These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+### Offer, not take
 
-[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)NJSLS-CSDT / 2020
+The wording places the obligation on the school, not on the student. A New Jersey teenager can graduate without ever enrolling in the course their high school is required to run.
 
-## What New Jersey asks for, and the class that answers it
+### A floor, not a ceiling
 
-New Jersey adopted its Student Learning Standards for Computer Science and Design Thinking in 2020. They span Kindergarten through grade 12 and are organised into two halves: five computer science concepts and five design thinking concepts. Most enrichment programmes ignore this document completely and teach whatever their platform happens to sell. We wrote our placement against it, so a parent can see exactly which part of the state framework a given class is answering.
+The statute says the course shall include its six topics but need not be limited to them, so districts are free to add robotics, game design or AP courses on top.
 
-CS concept
+### Who may teach it
 
-Computing Systems. How hardware and software work together, and how to diagnose something that is not working.
+A separate law, N.J.S.A. 18A:26-2.26, tells the State Board to authorize a computer science education endorsement on the instructional certificate for teachers of the subject.
 
-Covered from the first level. Beginners learn what a program actually is before they learn syntax, then debug their own broken code rather than watching a teacher debug it. See [Kids Coding Blocks Masterclass](/courses/kids-coding-blocks-masterclass).
+Read closely, the content list is broader than programming. Web pages, data breaches and ethics sit alongside code, which is why a course that only teaches syntax would not cover what the legislature wrote down. Our teen classes are planned the same way: every project includes a security check and a short written reflection on who the program affects.
 
-CS concept
+## Computer science and design thinking, the two halves of Standard 8
 
-Networks and the Internet. How data moves, and how it is kept private on the way.
+The 2020 NJSLS for Computer Science and Design Thinking (NJSLS-CS&DT), dated June 2020 by NJDOE, split the subject into Standard 8.1 Computer Science and Standard 8.2 Design Thinking.
 
-Taught through building rather than diagrams. Students put a real page on the internet and then look at what travelled to make it appear. See [HTML and CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites).
+**Disciplinary concepts of the 2020 NJSLS-CS&DT, with the code letters NJDOE uses**
 
-CS concept
+| Standard 8.1 Computer Science | Standard 8.2 Design Thinking |
+|---|---|
+| Computing Systems (CS) | Engineering Design (ED) |
+| Networks and the Internet (NI) | Interaction of Technology and Humans (ITH) |
+| Impacts of Computing (IC) | Nature of Technology (NT) |
+| Data & Analysis (DA) | Effects of Technology on the Natural World (ETW) |
+| Algorithms & Programming (AP) | Ethics & Culture (EC) |
 
-Data and Analysis. Collecting data, cleaning it, representing it, and drawing a defensible conclusion from it.
+### Four checkpoints
 
-This is the strongest part of our New Jersey track, and the section further down this page shows exactly how we teach it on a New Jersey dataset. See [Data Science for Teens](/courses/data-science-course-for-teens-python-data).
+Expectations are written for the end of grade 2, grade 5, grade 8 and grade 12, so a fourth grader is working toward the grade 5 set rather than a separate fourth grade list.
 
-CS concept
+### Reading a code
 
-Algorithms and Programming. Designing, testing and refining a sequence of instructions that solves a problem.
+In 8.1.2.NI.1, the 8.1 is the standard, the 2 is the end-of-grade checkpoint, NI is the concept and the final 1 is the performance expectation number.
 
-The spine of every level we teach. Blocks at six, Python by middle school, Java for students heading toward the AP exam. See [Python Complete Masterclass for Teens](/courses/python-complete-masterclass-teens).
+### Seven practices
 
-CS concept
+Alongside the concepts sit seven practices, from fostering an inclusive computing culture to testing and refining computational artifacts and communicating about computing.
 
-Impacts of Computing. What computing does to people, work and society, and who it leaves out.
+**Three grade 2 expectations quoted from the standard, and how a lesson of ours would meet each (right column ours)**
 
-Handled honestly rather than as a compliance box. Older students argue about a real trade-off in something they built, including when the answer is that they should not build it. See [AI Tools Mastery for Teens](/courses/teens-ai-tools-mastery-course).
+| Code | NJDOE wording | What it looks like in a class |
+|---|---|---|
+| 8.1.2.AP.3 | Create programs with sequences and simple loops to accomplish tasks. | A character crosses a maze; the child replaces ten repeated moves with one loop |
+| 8.1.2.DA.1 | Collect and present data, including climate change data, in various visual formats. | A week of classroom temperature readings becomes a picture chart |
+| 8.1.2.NI.3 | Create a password that secures access to a device. | A game where weak and strong passwords are sorted, then explained aloud |
 
-Design thinking
+### Where the framework came from
 
-Engineering Design. Defining a problem, building something against constraints, testing it, and improving it.
+NJDOE says the K-12 Computer Science Framework, led by the Association for Computing Machinery, Code.org, the Computer Science Teachers Association, the Cyber Innovation Center and the National Math and Science Initiative, informed the development of the standards. Computational thinking used to be a strand inside the 2014 technology standard; in 2020 it became a standard of its own.
 
-Every course ends in a build, not a quiz. The constraint is real: it has to work in front of somebody else. See [Game Development for Kids](/courses/game-development-masterclass-for-kids).
+## Where computer science fits in the 120-credit diploma
 
-Design thinking
+NJDOE publishes the state minimum graduation requirements under N.J.A.C. 6A:8-5.1. We read the department&rsquo;s current chart on 17 October 2026.
 
-Ethics and Culture, and the Interaction of Technology and Humans.
-
-Threaded through the AI courses rather than bolted on, because that is where the questions actually bite for a teenager right now. See [AI Literacy for Kids](/courses/ai-literacy-for-kids-course).
-
-The law and the credit table
-
-## What New Jersey actually requires, and where the gap is
-
-Under N.J.S.A. 18A:7C-1.1, enacted in January 2018, no later than the beginning of the 2018 to 2019 school year every public school enrolling students in grades nine through twelve, other than a county vocational school district, must offer a course in computer science. The statute names what that course has to include: computational thinking, computer programming, the appropriate use of the internet and development of internet web pages, data security and the prevention of data breaches, ethical matters in computer science, and the global impact of advancements in computer science.
-
-That is a genuinely strong requirement, and it is why a New Jersey student is more likely than most American students to meet computer science at school. Notice what it does not say. It requires the school to *offer* the course. It does not require your child to take it, it does not say how well it must be taught, and it does not give a student who is already ahead anywhere to go.
-
-Now look at what the state actually counts toward a diploma. These are the New Jersey state minimum graduation requirements at N.J.A.C. 6A:8-5.1, totalling 120 credits.
+**New Jersey State Minimum Graduation Requirements by content area, 120 credits (NJDOE)**
 
 | Content area | State minimum |
-| --- | --- |
+|---|---|
 | English Language Arts | 20 credits |
-| Mathematics | 15 credits, including Algebra I, Geometry, and a third year of maths that builds on the concepts and skills of algebra and geometry |
-| Science | 15 credits, with at least 5 in laboratory biology or life science |
-| Social Studies | 15 credits, including 5 in world history |
-| Health, Safety and Physical Education | 15 credits across four years |
+| Mathematics | 15 credits, including Algebra I, Geometry and a third year that builds on them |
+| Science | At least 15 credits in evidence-based science courses |
+| Social Studies | 15 credits, including 5 credits in world history |
+| Financial, Economic, Business and Entrepreneurial Literacy | 2.5 credits |
+| Health, Safety and Physical Education | 15 credits over four years |
 | Visual and Performing Arts | 5 credits |
 | World Languages | 5 credits |
 | 21st Century Life and Careers | 5 credits |
-| Financial, Economic, Business and Entrepreneurial Literacy | 2.5 credits |
-| Technology | Integrated throughout all courses, not a separate credit line |
+| Technology | Integrated throughout all courses |
 
-Read the last row again. Technology is integrated rather than counted. There is no computer science credit line in the state minimum. So a student in New Jersey can meet every graduation requirement the state sets and still have written almost no code, in a state whose own law obliges their school to offer the course. That is the gap, and it is the reason families here come to us.
+### No computer science line
 
-On AP computer science and credits
+The chart has no separate computer science credit. Technology is described as integrated throughout all courses, and districts may set requirements above the state minimums.
 
-You may have read that an Advanced Placement computer science course can satisfy part of a New Jersey mathematics or science credit requirement. We looked for that provision in the state graduation requirements and could not confirm it at primary source, and the second-hand accounts of it disagree with each other on both the year it starts and which credit it covers. Districts also set their own requirements above the state minimum. So ask your school counsellor directly rather than trusting anybody's website on this, including ours.
+### The AP math route
 
-What we can be useful about is the exam itself. AP Computer Science A is written in Java, which is a real barrier for a student who has only ever seen Scratch or Python, and it is why so many capable students drop the course in the first semester. We teach the Java the exam actually tests, at a pace that assumes the student is learning the language and the computer science at the same time, because that is the truth of it.
+Under N.J.S.A. 18A:7C-2.1, beginning with the 2016-2017 grade nine class, local graduation requirements must let an AP computer science course satisfy part of the total credit requirement in mathematics.
 
-Exam prep
+### The condition attached
 
-### AP Computer Science A
+To use that route, the student must be concurrently enrolled in, or have successfully completed, algebra 1 and geometry or the content equivalent. Ask the school counselor how the district applies it.
 
-Java, the exam's unit structure, and the free response questions that decide the grade.
+For a New Jersey sophomore this matters when planning the schedule. A student who has finished algebra 1 and geometry can take AP Computer Science A in junior year knowing the law points it toward math credit, and use the senior year for a further course. Our AP class follows the College Board course framework; the credit decision belongs to the district, never to us.
 
-[Open the syllabus](/courses/ap-computer-science-a-java-exam-prep-course)Exam prep
+## Since the 2018 deadline: access and enrollment in New Jersey
 
-### AP Statistics
+Access and enrollment from the Code.org State of AI + CS Education data, and AP school counts from the College Board, each quoted as published.
 
-The other AP that pairs naturally with a data-heavy computer science track.
+**Share of New Jersey high schools with a computer science course, year by year, as Code.org (2025) publishes it**
 
-[Open the syllabus](/courses/ap-statistics-maths-exam-prep-course)Foundation
+| School year | Share offering CS |
+|---|---|
+| 2018 to 2019 | 67% |
+| 2019 to 2020 | 68% |
+| 2020 to 2021 | 67% |
+| 2021 to 2022 | 82% |
+| 2022 to 2023 | 85.9% |
+| 2023 to 2024 | 86.3%, 377 of 437 high schools |
+| 2024 to 2025 | No value published for New Jersey |
 
-### Java for Teens
+**Enrollment and AP, New Jersey**
 
-The language groundwork to sit AP Computer Science A without drowning in syntax.
+| Measure | Value | Source |
+|---|---|---|
+| High school students enrolled in CS, latest year | 35,941 of 408,963, or 8.79% | Code.org (2025); student total from NCES, Fall 2022 |
+| Enrollment share, 2020 to 2021 | 9.8% | Code.org (2025) |
+| Enrollment share, 2022 to 2023 | 8.77% | Code.org (2025) |
+| Schools with AP exams, 2023 | 575 (436 public, 139 non-public) | College Board, School Report of AP Exams by State |
+| Schools with AP exams, 2024 | 584 (454 public, 130 non-public) | College Board, School Report of AP Exams by State |
 
-[Open the syllabus](/courses/java-programming-masterclass-for-teens)Maths
+The statute set its deadline for 2018 to 2019, yet the published share sat at 67% that year and only passed 80% in 2021 to 2022. Even at 86.3%, roughly one high school in seven in the count was not offering a course. Enrollment tells a quieter story: under one New Jersey high schooler in eleven was in a computer science class in the latest year, a share that has hardly moved since 2020 to 2021.
 
-### SAT Math Prep
+Why would a school covered by the law not appear as offering a course? The data cannot say. Counting rules, county vocational districts and schools that list a course nobody enrolled in could all play a part, so we read the figures as a measure of what students can find on a timetable rather than as a compliance audit.
 
-For the same student, in the same term, with the same teacher who knows their gaps.
+### How to cite these figures
 
-[Open the syllabus](/courses/sat-math-prep-course)Placement
+Access and enrollment values: Code.org (2025). 2025 State of AI + CS Education. We quote single New Jersey values from its data tabs and do not republish the dataset. AP school counts: College Board, School Report of AP Exams by State, 2023-24.
 
-## Where a New Jersey student starts, and where the ladder goes
+## Which New Jersey counties have the most rail stations? A pivot table on state open data
 
-Nobody is placed by age alone. The free first class is a placement check, and we would rather move a confident nine year old up than leave them bored for a term.
+The NJ Department of Community Affairs and the NJ Office of GIS publish the NJ Passenger Rail Stations layer. Students pull its attribute table into Python and turn a flat list into a county by mode cross-tab.
 
-### Ages 6 to 10
+**Station records by county and mode, ten largest counties (our cross-tab of NJ Passenger Rail Stations, downloaded 17 October 2026; the mode grouping is ours)**
 
-Elementary
+| County | Records | Commuter rail | Light rail | PATH or PATCO |
+|---|---|---|---|---|
+| Essex | 40 | 22 | 17 | 1 |
+| Hudson | 33 | 3 | 24 | 6 |
+| Bergen | 31 | 31 | 0 | 0 |
+| Camden | 20 | 4 | 7 | 9 |
+| Morris | 19 | 19 | 0 | 0 |
+| Union | 16 | 16 | 0 | 0 |
+| Monmouth | 14 | 14 | 0 | 0 |
+| Burlington | 11 | 0 | 11 | 0 |
+| Somerset | 11 | 11 | 0 | 0 |
+| Middlesex | 10 | 10 | 0 | 0 |
 
-- [Coding in blocks](/courses/kids-coding-blocks-masterclass)
-- [Scratch, properly](/courses/scratch-programming-complete-course)
-- [Minecraft coding](/courses/minecraft-coding-for-kids-course)
-- [Early maths foundations](/courses/early-math-foundations)
+### 1. Group the lines
 
-### Ages 11 to 14
+The layer has 21 different RAIL_LINE labels. Students write a small function that sorts them into three modes, light rail for the Hudson-Bergen, Newark and River lines, PATH and PATCO as rapid transit, everything else as commuter rail.
 
-Middle school
+### 2. Pivot
 
-- [Python and AI](/courses/python-ai-kids-masterclass)
-- [Roblox and Lua](/courses/roblox-game-coding-for-kids-lua-course)
-- [Front end development](/courses/frontend-development-masterclass-for-teens)
-- [Middle school maths](/courses/comprehensive-middle-school-mathematics-mastery)
+One pandas pivot_table call, COUNTY down the side and mode across the top, turns 234 records into the grid above. Done by hand with dictionaries first, it teaches what the library is doing.
 
-### Ages 15 to 18
+### 3. Read the grid
 
-High school
+Bergen and Morris are all commuter rail, Burlington is all light rail, and Camden is the only county where PATCO is the largest single mode. Each pattern is a question to research, not a conclusion.
 
-- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass)
-- [Data structures and algorithms](/courses/problem-solving-dsa-masterclass-teens)
-- [High school maths](/courses/complete-high-school-mathematics-mastery)
+### Records are not stations
 
-### College and adult
+The layer holds 234 records but only 227 distinct station names, because interchanges such as Hoboken Terminal and Newark Penn Station appear once per line or mode. It also includes stations within 0.5 mile of the border, which is why Rockland, NY turns up as a county value. Our counts are records in one download, not an official station total, and the state says the data is provided as is.
 
-18 to 67
+A second exercise uses the AMTRAK column: six records are marked Yes, and students check which counties hold them before mapping the result. Both tasks practise the Data & Analysis concept from Standard 8.1 on a dataset that a New Jersey student may ride every day, and both end with the same discipline: write one sentence saying exactly what each number counts.
 
-- [Full stack, college level](/courses/full-stack-web-development-masterclass-college)
-- [DSA for interviews](/courses/data-structures-algorithms-masterclass-college)
-- [Python and AI automation](/courses/python-ai-automation-masterclass-college)
-- [College mathematics](/courses/college-mathematics-complete-masterclass)
+## Eastern Time classes around a New Jersey school day
 
-The full catalogue is on the [course atlas](/course-atlas), and the teaching method is described in detail on [how we teach](/how-we-teach).
+All of New Jersey keeps Eastern Time; the IANA time zone database lists the state under America/New_York. Our teachers work from India.
 
-New Jersey data project
+### The India gap
 
-## The NJ Transit punctuality problem
+India runs 9 hours 30 minutes ahead of New Jersey in summer and 10 hours 30 minutes ahead in winter, since India keeps one clock all year.
 
-New Jersey students work on the state's own transit records. Nothing in them is miscounted, mistyped or missing. The trap is in how one number was defined, by somebody, years ago, and it changes the answer completely.
+### Switch dates
 
-Source: NJ Transit performance dashboardsLevel: middle school and upConcept: Data and Analysis
+New Jersey falls back on November 1, 2026 and springs forward on March 14, 2027, so a class confirmed in Eastern Time never moves for the family.
 
-NJ Transit publishes three performance statistics for its services. On-Time Performance, which is the share of service running to schedule. Mean Distance Between Failure, which is how far a vehicle travels on average before it needs unplanned maintenance. And Total Cancellations, counted monthly.
+### Around the schedule
 
-The first thing a student discovers is the definition. A vehicle operating within six minutes of the published schedule is counted as on time. So a train arriving five minutes and fifty seconds late is, statistically, punctual. The rider standing on the platform would not describe it that way. This is the first honest lesson in the project: a metric is a definition, not a fact, and the definition was chosen by somebody.
+Times are set around the end of the school day, sports and homework, then confirmed in writing in Eastern Time before the first class.
 
-The second thing they discover is bigger. Cancellations are reported as a separate statistic, not as part of On-Time Performance. A train that never runs is not a late train. It is not in the punctuality calculation at all. Which produces the result that makes this project worth teaching:
+**A bug worth meeting early** A reminder script that adds a fixed minus five hours will be wrong for most of the year. Students who build one with the America/New_York zone from the IANA database, and test it across November 1, 2026, learn why programmers never hard-code a time offset.
 
-The trap
+## From the grade 2 checkpoint to the AP exam
 
-A line that cancels services can post better On-Time Performance than a line that runs everything late. Cancelling a troubled train removes it from the punctuality figure entirely. A student who ranks lines by On-Time Performance alone, without pulling in the cancellations series, will confidently produce a ranking that is the opposite of the passenger experience.
+Bands follow the four NJSLS checkpoints; the free lesson decides where a student actually starts.
 
-There is a third layer for older students. NJ Transit publishes two separate rail dashboards for the same trains: one for all causes, and one adjusted to remove delays attributed to Amtrak, which owns the Northeast Corridor track that many NJ Transit trains run on. Both are legitimate. But a student who compares the adjusted figure from one source against the all-causes figure from another will manufacture a trend that does not exist. Learning to check which series you are holding before you plot it is a skill that transfers to every dataset they will ever touch.
+- **By the end of grade 2: Sequences and loops** Block programs with loops, simple data pictures and safe passwords, the first checkpoint of Standard 8.1. [Problem Solving and Computational Thinking for Kids](/courses/problem-solving-and-computational-thinking-for-kids), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
+- **By the end of grade 5: Programs that decide** Conditions, variables and small games, with design thinking projects that start from a user need. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
+- **By the end of grade 8: Typed code and data** Python or JavaScript, files and lists, and web pages that meet the statute&rsquo;s Internet topics. [Python for Teens](/courses/python-complete-masterclass-teens), [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web)
+- **By the end of grade 12: AP and applied AI** AP Computer Science A in Java, data science and machine learning tested on real data. [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
 
-| Stage | What the student does | What it teaches |
-| --- | --- | --- |
-| Pull | Download the published monthly series rather than copying a headline number from a news article | Primary sources beat summaries |
-| Define | Write down the on-time rule in their own words before touching the numbers | A metric is a definition |
-| Join | Line up punctuality against cancellations for the same months | One series can hide another |
-| Compare | Keep the all-causes and Amtrak-adjusted series strictly apart | Never mix two definitions in one chart |
-| Defend | Present the ranking and answer a challenge to it | Analysis you cannot defend is not analysis |
+## Ethics is in New Jersey&rsquo;s law, and AI makes it urgent
 
-Students work with the current published figures rather than numbers reproduced on this page, which would be out of date within a month. Pulling live data is part of the exercise. The finished project is a short written argument with charts attached, which is a far better thing to show a college admissions reader than another to-do list app.
+The statute lists ethical matters in computer science as required course content. AI tools give that line its sharpest test.
 
-The same skill set carries into our [data science course for teens](/courses/data-science-course-for-teens-python-data) and, for students who want to build predictive models rather than analyse existing ones, into [AI and machine learning](/ai-and-machine-learning-classes-in-usa). Other student builds are collected in the [student labs](/student-labs).
+Ask a chatbot to count New Jersey rail stations by county and it will answer with confidence. It will not tell you that the layer double-counts interchanges or reaches across the Hudson into New York. A student who has built the pivot table knows to ask, because they saw the duplicate names in their own output.
 
-How a class runs
+That habit is what the Ethics & Culture and Impacts of Computing concepts are after. Students who write code themselves can check an AI answer against the data, explain where it went wrong, and decide whether to trust it, which is a different skill from typing a prompt.
 
-## What an hour actually looks like
+New Jersey asks every high school to teach the ethics of computing; the students who gain most are those who practise it on output they produced themselves. The longer argument is in [why coding still matters with AI around](/blog/is-coding-worth-learning-2026).
 
-### Live video, never a recording
+## From Sussex County to Cape May, the same live classroom
 
-A teacher is on the call for the whole hour. Your child writes code while somebody watches, which means a wrong turn gets caught in the same minute it happens instead of hardening into a habit.
+New Jersey is small on the map and dense with schools, and a live online class removes the commute entirely.
 
-### The same teacher every week
+- **No drive after school** A student in Newark and one in Toms River can sit in the same class from their own desks, with no Turnpike traffic in between.
+- **Built on NJSLS** Teachers know the grade 2, 5, 8 and 12 checkpoints and the statute&rsquo;s six course topics. Anything a school will grade stays the student&rsquo;s own work.
+- **Free first lesson** One full lesson with a teacher, then a written suggestion of level, course and class time. No payment details are asked for at this point.
+- **Small level-matched batches** Groups of fifteen to twenty students at the same stage, from New Jersey and other US states.
+- **Private option** One student, one teacher, for AP preparation or a student who wants to move quickly through the standards.
+- **Your timetable** Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
 
-Group classes hold fifteen to twenty students and keep the same teacher. Continuity is most of what makes a nervous learner keep showing up, and rotating staff quietly destroys it.
+**Fully online, by design** Teaching is live over video from India. Modern Age Coders has no New Jersey office or classroom and does not claim one. A computer with a keyboard, a headset and a steady connection are all a student needs.
 
-### Two classes a week
+## Fees for New Jersey families
 
-Eight classes a month, which is enough contact for a skill to stick between sessions without turning into a second homework load on top of a New Jersey school week.
+The free lesson comes first, then one of two monthly options.
 
-### Built, not watched
+- First class: USD 0. One complete lesson at no cost, ending with a level, a course and a suggested class time.
+- Group tuition: USD 100 a month. A month of live classes in a level-matched batch of fifteen to twenty.
+- Private tuition: USD 150 a month. A month of one-to-one classes with a single teacher.
 
-Every course ends in something the student made and can show to somebody. A certificate comes with completion, but the project is the thing that actually carries weight.
+Billing is in US dollars at one rate for every US state, so families in Hoboken and in Vineland see the same figures. Nothing is charged until after the free lesson and your agreement to a course and time; the pricing page covers missed classes and holidays.
 
-### Placement before payment
+## New Jersey coding and AI questions
 
-The free first class is a real class and doubles as a placement check. If a level is wrong we say so, including when the honest answer is that your child should wait a year.
+### Must New Jersey high schools offer computer science?
 
-### Nothing to install
+Yes. N.J.S.A. 18A:7C-1.1 required each public school enrolling grades nine through 12, other than a county vocational school district, to offer a computer science course by the start of the 2018 to 2019 school year.
 
-Everything runs in the browser. A laptop or desktop, a microphone and a decent connection is the entire equipment list.
+### Is computer science required to graduate in New Jersey?
 
-Fees
+Not as a separate credit. The NJDOE chart of state minimums lists 120 credits with no computer science line, though districts may set requirements above the state minimums.
 
-## What it costs a New Jersey family
+### Can AP Computer Science count toward math credit?
 
-Monthly, in US dollars, with no joining fee and no annual contract. You can stop at the end of any month.
+Under N.J.S.A. 18A:7C-2.1, from the 2016 to 2017 grade nine class, an AP computer science course may satisfy part of the math credit requirement if the student has taken or is taking algebra 1 and geometry or the equivalent.
 
-Small group$100per month, 8 classes
+### What must the high school course cover?
 
-Fifteen to twenty students, same teacher every week. The default for most learners, and the one most families stay on.
+The statute lists computational thinking, programming, appropriate Internet use and web page development, data security and preventing data breaches, ethics in computer science, and the global impact of computing advances.
 
-One to one$150per month, 8 classes
+### What are the NJSLS computer science standards?
 
-One student, one teacher, pace set entirely by the student. Chosen most often for exam preparation and for learners who need either more speed or more patience than a group allows.
+The 2020 NJSLS-CS&DT has Standard 8.1 Computer Science and Standard 8.2 Design Thinking, with expectations for the end of grades 2, 5, 8 and 12, coded like 8.1.2.NI.1.
 
-Full details, including how we handle pauses and switching between plans, are on the [pricing page](/pricing).
+### How many New Jersey high schools offer computer science?
 
-Reviews
+Code.org (2025) reports 377 of 437 New Jersey high schools, or 86.3%, offering computer science in 2023 to 2024, with 35,941 high school students enrolled in it.
 
-## What families say
+### Do your classes count for New Jersey school credit?
 
-Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+No. Credit comes from district-approved courses and AP exams. Our classes add practice and depth beside them, and any graded school work remains the student's own.
 
-★★★★★
+### When do classes run for New Jersey families?
 
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are confirmed in Eastern Time, which all of New Jersey keeps.
 
-Ria Mukherjee
+### Can elementary students in New Jersey start coding?
 
-Parent
+Yes. NJDOE says all students receive computer science and design thinking instruction from kindergarten, and our youngest classes match the grade 2 and grade 5 checkpoints with block coding and puzzles.
 
-★★★★★
+### Is the rail data project suitable for middle school?
 
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+A simpler version is. Eighth graders count stations per county with a dictionary; high schoolers build the full county by mode pivot table from the 234 records in the state layer.
 
-Samriddha Mondal
+## Where New Jersey students go next
 
-Student
+For the exam, see [AP Computer Science A classes](/ap-computer-science-a-online-classes) and the post on [how to get a 5 in AP Computer Science A](/blog/how-to-get-a-5-in-ap-computer-science-a). Students building outside class can read the [Congressional App Challenge guide](/congressional-app-challenge-guide) or [hackathons for high school students](/hackathons-for-high-school-students), and families comparing states can read about [North Carolina&rsquo;s graduation requirement](/coding-and-ai-classes-in-north-carolina).
 
-★★★★★
+## Contact
 
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-More of them, with photos and student work, are on the [wall of love](/love).
-
-Questions
-
-## New Jersey questions, answered plainly
-
-### Do you teach students who live in New Jersey?
-
-Yes. Every class is live online over video, so a student in Edison, Princeton, Jersey City or anywhere else in the state joins the same class as everyone else. Nothing is pre-recorded and nothing is posted to you. You need a laptop or desktop, a stable connection, and a quiet corner.
-
-### What time do the classes run for a family on Eastern Time?
-
-We schedule around your family rather than the other way round. Weekend slots are the easiest to fill for Eastern Time, and weekday slots are arranged case by case. We confirm the exact times with you on the demo call before you commit to anything, so you never have to guess whether a slot will work.
-
-### Does what you teach line up with the New Jersey state standards?
-
-It is built against them. The New Jersey Student Learning Standards for Computer Science and Design Thinking, adopted in 2020, run from Kindergarten through grade 12 and cover five computer science concepts and five design thinking concepts. Every course we place a New Jersey student into maps onto named concepts from that document.
-
-### Does computer science count toward New Jersey graduation credits?
-
-Not as its own credit line. The state minimum at N.J.A.C. 6A:8-5.1 totals 120 credits and lists mathematics at 15, science at 15, and technology as something integrated throughout all courses rather than a separate requirement. Separately, N.J.S.A. 18A:7C-1.1 obliges almost every public high school to offer a computer science course. Districts may set requirements above the state minimum, so ask your school counsellor about a specific course.
-
-### How much do classes cost for a family in New Jersey?
-
-Small group classes are USD 100 a month and one-to-one classes are USD 150 a month. Both run two classes a week, which is eight classes a month. There is no joining fee, no equipment to buy and no annual contract. The first class is free and doubles as a placement check.
-
-### What ages do you actually teach?
-
-Ages 6 to 67. That is not a slogan, it is the real spread of people in our classes. A six year old starts in blocks, a middle schooler moves into Python, a high schooler works toward AP Computer Science A, a college student builds full stack projects, and adults retrain in the evening. Every learner is placed by what they can do, not by their birthday.
-
-### How many students are in a class?
-
-Group classes hold fifteen to twenty students with the same teacher every week. One-to-one is exactly that, one student and one teacher. We do not run lecture halls, and we do not rotate teachers between weeks, because continuity is most of what makes a young learner keep going.
-
-### Is the class live, or is it a video my child watches alone?
-
-Live, always. A teacher is on the call, your child talks and types while the teacher watches, and mistakes get corrected in the moment rather than in a comment three days later. We do keep a library of recorded material you can look through before booking, but the class itself is never a recording.
-
-### What does my child need before the first class?
-
-A laptop or desktop computer, a working microphone, and an internet connection good enough for video. That is the whole list. Everything else runs in the browser, so there is nothing to install, nothing to license and nothing to buy. A tablet works for the youngest block coding levels but not beyond them.
-
-### How do we get started?
-
-Book the free first class. A teacher meets your child, sets a couple of problems to see where they actually are, and tells you honestly which level fits. If it is not a fit, we say so. There is no card, no obligation, and we call rather than spam you.
-
-Book a free class
-
-## A real class, not a sales call
-
-Tell us the student's age and what they have tried so far. A teacher runs a genuine first lesson, checks where they actually are, and tells you which level fits. If we are not the right fit for your child, we will say so on that call.
-
-Prefer to talk first? Use the [contact page](/contact), or read [about us](/about) before you decide.
-
-Nearby
-
-## Other places we teach
-
-[United States](/coding-classes-in-united-states)[Coding for kids, USA](/online-coding-classes-for-kids-usa)[Maths for kids, USA](/online-maths-tutoring-for-kids-in-usa)[Maths for teens, USA](/online-maths-tutoring-for-teens-in-usa)[AI and machine learning, USA](/ai-and-machine-learning-classes-in-usa)[Texas](/coding-classes-in-texas)[Ontario](/coding-classes-in-ontario)[Canada](/coding-classes-in-canada)[United Kingdom](/coding-classes-in-united-kingdom)
-
----
-
-*Canonical: https://learn.modernagecoders.com/coding-classes-in-new-jersey*
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-new-jersey](https://learn.modernagecoders.com/coding-classes-in-new-jersey#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
