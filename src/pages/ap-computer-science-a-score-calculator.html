@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AP Computer Science A Score Calculator: A Labelled Estimate</title>
+  <meta name="description" content="AP Computer Science A score calculator: the published 55/45 weighting, FRQ points 7, 7, 5 and 6, a worked composite in Java, and why no official raw cutoff exists.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ap-computer-science-a-score-calculator">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ap-computer-science-a-score-calculator.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#39610F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ap-computer-science-a-score-calculator">
+  <meta property="og:title" content="AP Computer Science A Score Calculator: A Labelled Estimate">
+  <meta property="og:description" content="Turn a practice AP CSA result into a composite out of 100 using the published weights. A worked example, a Java program you can run, and plain limits on what it can predict.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AP Computer Science A Score Calculator: A Labelled Estimate">
+  <meta name="twitter:description" content="An honest AP CSA score estimate: published weights, FRQ points and a worked composite.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-acss .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-acss .ag-capsule { border-left-width: 5px; border-radius: 2px; }
+.ag-root.ag-acss .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-acss .ag-table caption { text-align: left; }
+.ag-root.ag-acss .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ap-computer-science-a-score-calculator#page","url":"https://learn.modernagecoders.com/ap-computer-science-a-score-calculator","name":"AP Computer Science A Score Calculator","description":"A method for US high school students to estimate an AP Computer Science A result from practice work, built only on the section weights and point values College Board publishes.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"AP CSA score calculator","item":"https://learn.modernagecoders.com/ap-computer-science-a-score-calculator"}]},{"@type":"Course","name":"AP Computer Science A Score Calculator","description":"Live online AP Computer Science A preparation in Java for US high school students, with timed practice marked against the published scoring rules, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ap-computer-science-a-score-calculator"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ap-computer-science-a-score-calculator"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ap-computer-science-a-score-calculator"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is there an official AP Computer Science A score calculator?","acceptedAnswer":{"@type":"Answer","text":"No. College Board publishes the section weights and the free-response point values, but not the raw score needed for each AP score on the current exam. Any calculator, including ours, gives an estimate."}},{"@type":"Question","name":"How is the AP Computer Science A exam weighted?","acceptedAnswer":{"@type":"Answer","text":"Section I has 42 multiple-choice questions worth 55% of the score, and Section II has 4 free-response questions worth 45%. Each section lasts 90 minutes."}},{"@type":"Question","name":"How many points is each AP CSA free-response question worth?","acceptedAnswer":{"@type":"Answer","text":"In the current format, Question 1 is worth 7 points (Part A 4, Part B 3), Question 2 is worth 7, Question 3 is worth 5 and Question 4 is worth 6, according to the Course and Exam Description."}},{"@type":"Question","name":"How do I estimate my AP CSA score from a practice test?","acceptedAnswer":{"@type":"Answer","text":"Our method multiplies the number of multiple-choice questions right by 55 / 42, multiplies the free-response points by 45 / 25, and adds the two for a composite out of 100. It is an estimate, not an official conversion."}},{"@type":"Question","name":"Is AP Computer Science A graded on a curve?","acceptedAnswer":{"@type":"Answer","text":"College Board says AP Exams are criterion-referenced, not graded on a curve: every student who meets the criteria for a score receives it, however many students that is."}},{"@type":"Question","name":"Can I use old AP CSA free-response questions in a calculator?","acceptedAnswer":{"@type":"Answer","text":"With care. AP Central says the older questions do not completely align with the current exam, and before 2026 each question had 9 points rather than 7, 7, 5 and 6."}},{"@type":"Question","name":"Do small typing mistakes cost points on the AP CSA free response?","acceptedAnswer":{"@type":"Answer","text":"Often not. The 2026 Scoring Guidelines list errors to ignore, such as spelling or case slips with no ambiguity, as long as no specific guideline says otherwise."}},{"@type":"Question","name":"What does an AP score of 3 mean?","acceptedAnswer":{"@type":"Answer","text":"On the College Board AP Score Scale Table a 3 means Qualified, a 4 Very well qualified and a 5 Extremely well qualified. Colleges decide their own credit rules."}},{"@type":"Question","name":"When is the next AP Computer Science A exam?","acceptedAnswer":{"@type":"Answer","text":"AP Central lists Wednesday, May 12, 2027, Session 2, for the AP Computer Science A Exam."}},{"@type":"Question","name":"What times are AP CSA classes for US students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"How much do AP Computer Science A classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first lesson is free. After that, families pay one month at a time, and the fees section of this page shows the monthly amount in US dollars."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ap-computer-science-a-score-calculator","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-acss">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#structure">Weights</a></li>
+      <li><a href="#method">The method</a></li>
+      <li><a href="#java">In Java</a></li>
+      <li><a href="#frq">FRQ points</a></li>
+      <li><a href="#limits">Limits</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / AP CSA score calculator
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 9 to 12 &middot; AP Computer Science A</p>
+        <h1>AP Computer Science A score calculator</h1>
+        <p class="ag-lede">Students who search for an AP CSA score calculator usually have a practice test in front of them and one question: is this a 3, a 4 or a 5? College Board publishes enough to answer part of that honestly. It tells you how many questions each section has, what each section is worth and how many points each free-response question carries. It does not publish the raw score you need for each AP score. So this page does two things, and keeps them apart: it builds a composite out of 100 from the published weights, which is exact arithmetic, and then it explains what that composite can and cannot tell you about May.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#method" class="ag-btn ag-btn--ghost">See the method</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20is%20taking%20AP%20Computer%20Science%20A%20and%20wants%20timed%20practice%20marked%20properly.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'acss'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Java, timed and marked</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Exam</dt><dd>AP Computer Science A</dd>
+          <dt>Next sitting</dt><dd>Wednesday, May 12, 2027</dd>
+          <dt>Section I</dt><dd>42 multiple choice, 55%</dd>
+          <dt>Section II</dt><dd>4 free response, 45%</dd>
+          <dt>Length</dt><dd>3 hours, in Bluebook</dd>
+          <dt>Our method</dt><dd>A composite out of 100</dd>
+          <dt>Teaching</dt><dd>Group batch or 1-on-1</dd>
+          <dt>First step</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>An AP Computer Science A estimate starts from the published weights: 42 multiple-choice questions are 55% of the score and four free-response questions, worth 7, 7, 5 and 6 points, are 45%. Our composite is MC right / 42 &times; 55 plus FRQ points / 25 &times; 45. College Board does not publish the raw cutoffs for a 3, 4 or 5, so any score from a calculator is an estimate.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Practice that is marked</p>
+      <h2>Three courses for a student who wants a reliable number</h2>
+      <p class="ag-lede">A calculator is only as good as the marking behind it. In these courses a teacher marks free-response code the way the published guidelines describe.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSS / 01</p>
+          <h3>AP Computer Science A exam prep</h3>
+          <p>Grades 10 to 12. All four units, timed sections, marked FRQs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSS / 02</p>
+          <h3>Java for teens</h3>
+          <p>Ages 13 to 18. The Java behind every AP question, from the start.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ACSS / 03</p>
+          <h3>Problem solving for teens</h3>
+          <p>Ages 13 to 18. Arrays, lists and algorithms after AP.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="structure">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What College Board publishes</p><h2>The structure every AP CSA estimate has to start from</h2><p class="ag-lede">Any honest calculator rests on the numbers below. Each one comes from the AP Computer Science A exam page on AP Central or the 2025 Course and Exam Description, both read on 17 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AP Computer Science A exam format, from AP Central and the Course and Exam Description (read 17 October 2026)</caption><thead><tr><th scope="col">Part</th><th scope="col">Questions</th><th scope="col">Time</th><th scope="col">Share of the score</th><th scope="col">Points</th></tr></thead><tbody><tr><td>Section I: multiple choice</td><td>42</td><td>90 minutes</td><td>55%</td><td>One per question</td></tr><tr><td>Section II, Question 1: Methods and Control Structures</td><td>1</td><td>Shared 90 minutes</td><td>Part of 45%</td><td>7 (Part A 4, Part B 3)</td></tr><tr><td>Section II, Question 2: Class Design</td><td>1</td><td>Shared 90 minutes</td><td>Part of 45%</td><td>7</td></tr><tr><td>Section II, Question 3: Data Analysis with ArrayList</td><td>1</td><td>Shared 90 minutes</td><td>Part of 45%</td><td>5</td></tr><tr><td>Section II, Question 4: 2D Array</td><td>1</td><td>Shared 90 minutes</td><td>Part of 45%</td><td>6</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading the table</h3><p>The free-response questions carry 7, 7, 5 and 6 points, which is 25 points in all by our own addition. So the 45% of Section II is spread over 25 rubric points, while the 55% of Section I is spread over 42 questions.</p>
+<p>The whole exam runs in the Bluebook app. AP Central says plainly: "This is a fully digital exam." Responses are submitted automatically at the end, and the Java Quick Reference is built into Bluebook.</p></div><div><h3>What the multiple choice covers</h3><p>The Course and Exam Description gives approximate multiple-choice weights by unit: Unit 1, Using Objects and Methods, 15 to 25 percent; Unit 2, Selection and Iteration, 25 to 35 percent; Unit 3, Class Creation, 10 to 18 percent; Unit 4, Data Collections, 30 to 40 percent.</p>
+<p>Those are ranges for Section I only. They are useful for choosing what to revise, and they are a warning against treating Unit 3 as the heart of the exam just because it feels the hardest in class.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 17 October 2026: the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam" rel="noopener" target="_blank">AP Computer Science A exam page</a> and the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description.pdf" rel="noopener" target="_blank">AP Computer Science A Course and Exam Description</a> on AP Central. AP Central lists the next exam as Wednesday, May 12, 2027, Session 2. We are not connected with College Board.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="method">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Our estimate method</p><h2>Turning a practice test into one number out of 100</h2><p class="ag-lede">This is our method, and every step is labelled. The first three steps are exact arithmetic on published weights. Only the last step is a judgement, and it is ours, not College Board&rsquo;s.</p></div>
+    <ol class="ag-steps"><li><b>Use a full-length, current-format practice.</b> Forty-two multiple-choice questions in 90 minutes and four free-response questions in 90 minutes, without notes beyond the Java Quick Reference. A half test gives you half an answer.</li><li><b>Count Section I.</b> Write down how many of the 42 you got right. There is nothing to subtract for wrong answers in this method; we treat a blank and a wrong answer the same.</li><li><b>Mark Section II against a rubric.</b> Give each free-response answer a score out of its own maximum: 7, 7, 5 and 6. Mark it the way the scoring guidelines describe, or have a teacher do it. Self-marking is where most estimates go wrong.</li><li><b>Weight both parts.</b> Multiply the Section I count by 55 / 42 and the Section II points by 45 / 25, then add. The result is a composite out of 100 that respects the published 55 and 45 split.</li><li><b>Read the composite as a range, not a score.</b> Compare it with the planning targets further down this page, which we set for our own students, and treat the result as a direction of travel rather than a forecast.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>What each piece is worth in our composite (our arithmetic on the published weights)</caption><thead><tr><th scope="col">Piece</th><th scope="col">Calculation</th><th scope="col">Composite points</th></tr></thead><tbody><tr><td>One multiple-choice question</td><td>55 / 42</td><td class="ag-num">1.31</td></tr><tr><td>One free-response rubric point</td><td>45 / 25 = 1.8</td><td class="ag-num">1.80</td></tr><tr><td>All of Section I</td><td>42 &times; 1.31</td><td class="ag-num">55</td></tr><tr><td>All of Section II</td><td>25 &times; 1.8</td><td class="ag-num">45</td></tr><tr><td>One minute of Section I</td><td>55 / 90</td><td class="ag-num">0.61</td></tr><tr><td>One minute of Section II</td><td>45 / 90</td><td class="ag-num">0.50</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>One rubric point beats one question</h3><p>A single free-response point moves the composite by 1.8, while a single multiple-choice question moves it by about 1.31. So one extra rubric point is worth roughly 1.4 extra correct answers in Section I.</p>
+<p>That is why students who leave a free-response part blank lose more than they think. A partly correct method that earns 2 of 4 points on Part A of Question 1 is worth 3.6 composite points, almost three multiple-choice questions.</p></div><div><h3>But the clock favors Section I</h3><p>Measured per minute, the picture flips. A minute in Section I is worth about 0.61 composite points a minute, against 0.50 in Section II, because 55% of the score fits into the same 90 minutes as 45%.</p>
+<p>In practice this means two habits: never leave a multiple-choice answer blank, and on the free response write something for every part, because the first points on a question are usually the cheapest to earn.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="worked">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked examples</p><h2>Three practice results, worked through the same way</h2><p class="ag-lede">These three students are invented for the example. Their numbers show how the method behaves when the two sections tell different stories.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Three worked composites (ours; invented practice results, not real students)</caption><thead><tr><th scope="col">Student</th><th scope="col">Section I right of 42</th><th scope="col">FRQ points (Q1, Q2, Q3, Q4)</th><th scope="col">Composite</th></tr></thead><tbody><tr><td>A: strong reader, weak writer</td><td>36</td><td>3, 3, 2, 2 = 10 of 25</td><td class="ag-num">47.1 + 18.0 = 65.1</td></tr><tr><td>B: balanced</td><td>30</td><td>5, 4, 3, 4 = 16 of 25</td><td class="ag-num">39.3 + 28.8 = 68.1</td></tr><tr><td>C: strong writer, rushed reader</td><td>25</td><td>6, 6, 4, 5 = 21 of 25</td><td class="ag-num">32.7 + 37.8 = 70.5</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the three results show</h3><p>Student A answers six more multiple-choice questions than Student B and still finishes below B. Student C gets eleven fewer questions right than A and finishes highest, because 21 of 25 rubric points is a lot of weight.</p>
+<p>The lesson for revision is not that one section matters more. It is that the two sections reward different skills: Section I rewards tracing code someone else wrote, Section II rewards writing your own, and a student who only practises one of them leaves points behind.</p></div><div><h3>Student B, line by line</h3><p>Section I: 30 correct, times 55 / 42, gives 39.29. Section II: 5 + 4 + 3 + 4 = 16 rubric points, times 45 / 25, gives 28.8.</p>
+<p>Add the two and round once at the end: 68.1 of 100. Rounding each part first and then adding can drift by a tenth, which is why the Java program below keeps full precision until it prints.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="java">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Run it yourself</p><h2>The same calculation as a short Java program</h2><p class="ag-lede">AP CSA students already write Java, so here is the method as code. It uses only a for-each loop, integer and double arithmetic, and one static method, all inside the course content. We compiled and ran it with javac before publishing.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>CsaEstimate.java &middot; our estimate method</b><span>java</span></figcaption><pre>// Our estimate, not a College Board conversion
+public class CsaEstimate {
+  // published weights: Section I 55%, Section II 45%
+  public static double composite(int mcRight, int[] frq) {
+    int frqPoints = 0;
+    for (int p : frq) {
+      frqPoints += p;
+    }
+    double partOne = mcRight / 42.0 * 55;
+    double partTwo = frqPoints / 25.0 * 45;
+    return partOne + partTwo;
+  }
+
+  public static void main(String[] args) {
+    int[] frq = {5, 4, 3, 4};  // out of 7, 7, 5, 6
+    double c = composite(30, frq);
+    System.out.printf("Composite: %.1f of 100%n", c);
+  }
+}</pre><p class="ag-code-note">Run by us on 17 October 2026 with javac and java 22. Output: Composite: 68.1 of 100.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why 42.0 and not 42</h3><p>The division mcRight / 42.0 uses a double literal on purpose. If both sides were int, Java would do integer division, 30 / 42 would become 0, and every student would score zero on Section I.</p>
+<p>That is a real AP CSA idea, from the casting and range topic in Unit 1, and it shows up in multiple-choice questions that ask what an expression evaluates to. Change 42.0 to 42 and run it again to see the bug for yourself.</p></div><div><h3>Ways to extend it</h3><p>Add a check that each free-response score is no higher than its maximum of 7, 7, 5 or 6, and print a warning if it is. That is a guard condition, the same idea the scoring guidelines reward in method-writing questions.</p>
+<p>Or store several practice results in an ArrayList and print the composite for each, which turns this into a small Unit 4 exercise in traversing a list.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="frq">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Marking Section II fairly</p><h2>How free-response points are actually earned in 2026</h2><p class="ag-lede">A composite is only as honest as the free-response marks that go into it. The 2026 Scoring Guidelines on AP Central set out the rules, and three of them change how a student should mark practice work.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Rules from the 2026 AP Computer Science A Scoring Guidelines (read 17 October 2026)</caption><thead><tr><th scope="col">Rule</th><th scope="col">What the guidelines say</th><th scope="col">What it means for self-marking</th></tr></thead><tbody><tr><td>Algorithm points</td><td>Each question has one or two criteria labelled algorithm, "each of which is worth one point", and they require all necessary steps connected in an appropriate order</td><td>Do not award the algorithm point because most of the steps are there; the order and the connections matter</td></tr><tr><td>When an algorithm point is lost</td><td>The list includes required pieces omitted, steps assembled incorrectly, and "A value is returned from a void method or constructor."</td><td>Check method headers and return statements before you count the point</td></tr><tr><td>Non-algorithm points</td><td>Assessed with a narrower focus, earned even when other errors are present</td><td>A wrong loop does not cancel a correct method call elsewhere in the same answer</td></tr><tr><td>Errors to Ignore</td><td>Minor slips that do not cost the point, such as "Spelling/case discrepancies where there is no ambiguity" and missing parentheses on a call with no parameters</td><td>Do not dock yourself for small typing slips the guidelines forgive</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The common self-marking mistake</h3><p>Students marking their own code tend to be generous on algorithm points and harsh on small syntax slips, which is the reverse of what the guidelines do. The guidelines forgive a missing semicolon where the structure clearly conveys intent, and refuse an algorithm point when a step is in the wrong place.</p>
+<p>A practical fix: mark each criterion separately, one line per point, and write down why each point was earned or not. If you cannot say why, a reader probably could not either.</p></div><div><h3>Old questions, new format</h3><p>AP Central keeps free-response questions from earlier years online, but warns that after the 2025 to 2026 course and exam revisions those older questions "do not completely align with the current AP CSA Exam".</p>
+<p>The difference matters for a calculator. In 2025 each of the four questions had 9 possible points, and College Board&rsquo;s scoring statistics give mean scores of 4.53, 5.24, 4.11 and 3.95. Those means describe the old format; scoring statistics for the 2026 exam were not on AP Central when we checked on 17 October 2026.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap26-sg-computer-science-a.pdf" rel="noopener" target="_blank">2026 AP Computer Science A Scoring Guidelines</a>, the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions" rel="noopener" target="_blank">past exam questions page</a> and the <a class="ag-inline-link" href="https://apcentral.collegeboard.org/media/pdf/ap25-computer-science-a-scoring-statistics.pdf" rel="noopener" target="_blank">2025 scoring statistics</a>, read 17 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="limits">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What a calculator cannot do</p><h2>Why no AP CSA calculator can give an official score</h2><p class="ag-lede">Every calculator online, including this one, hits the same wall: the step from raw points to a 1 to 5 score is set by College Board and not published for the current exam.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>How College Board describes scoring</h3><p>The Course and Exam Description explains that free-response scores are weighted and combined with the computer-scored multiple choice, and that this raw score is converted into a composite AP score on a 1 to 5 scale.</p>
+<p>It also says AP Exams are criterion-referenced rather than graded on a curve: every student who meets the criteria for a given score receives it, however many students that is. So the cutoffs are not a fixed share of test takers, and a score distribution cannot be turned into cut points.</p></div><div><h3>What the five scores mean</h3><p>College Board&rsquo;s AP Score Scale Table attaches a recommendation to each score: a 5 is "Extremely well qualified", a 4 "Very well qualified", a 3 "Qualified", a 2 "Possibly qualified" and a 1 "No recommendation".</p>
+<p>Those descriptions are about readiness for college credit and placement. Whether a given college gives credit for a given score is the college&rsquo;s own decision, which is a separate question from the estimate on this page.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Our planning targets for a practice composite (ours; not College Board cut scores, which are not published)</caption><thead><tr><th scope="col">Practice composite</th><th scope="col">How we read it in class</th><th scope="col">What we work on next</th></tr></thead><tbody><tr><td>70 or more, twice in a row</td><td>On course for the top of the scale, with a margin</td><td>Timing, and the free-response points still being dropped</td></tr><tr><td>55 to 69</td><td>Solid, with clear gains available</td><td>The weakest unit in Section I and one free-response type</td></tr><tr><td>40 to 54</td><td>Working range, not yet secure</td><td>Tracing code by hand and writing complete methods</td></tr><tr><td>Under 40</td><td>Foundations first</td><td>Unit 1 and 2 habits before timed papers</td></tr></tbody></table></div>
+    <p class="ag-mt-40">We set these targets above where we think the lines are likely to fall, on purpose, so a student who meets them has room for a bad morning. They are not a promise of any score. For an overview of the course itself, see our <a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a>; for revision strategy, our post on <a class="ag-inline-link" href="/blog/how-to-get-a-5-in-ap-computer-science-a">how to get a 5 in AP Computer Science A</a>; and for what changed in the new course, <a class="ag-inline-link" href="/blog/ap-computer-science-a-changes-2026">the 2026 AP CSA changes</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="use">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Using the number well</p><h2>A composite is a tool for revision, not a verdict</h2><p class="ag-lede">The most useful thing about a composite is not the total. It is what the two halves say when you put them side by side.</p></div>
+    <div class="ag-grid-3"><div><h3>Track it over time</h3><p>One practice composite is noise. Three, taken two weeks apart under the same conditions, show a trend you can trust.</p></div><div><h3>Split it by question</h3><p>Write the four free-response scores separately. A student scoring 6 of 7 on class design and 1 of 6 on 2D arrays has a clear next topic.</p></div><div><h3>Mark the misses</h3><p>For every wrong multiple-choice answer, note the unit. A pile of Unit 4 misses at 30 to 40 percent of Section I matters more than a few in Unit 3.</p></div></div>
+    <p class="ag-mt-40">If you are still choosing between the two computer science exams, our comparison of <a class="ag-inline-link" href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP and AP CSA</a> sets out which one to take first.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From practice to May</p>
+      <h2>Four checkpoints between the first practice test and the exam</h2>
+      <p class="ag-lede">Where a student usually is, and what the composite should be telling them at each point.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Checkpoints for an AP CSA year (ours)</caption><thead><tr><th scope="col">Checkpoint</th><th scope="col">What the composite is for</th></tr></thead><tbody><tr><td>1. First untimed attempt</td><td class="ag-num">A baseline, and a list of units not yet taught</td></tr><tr><td>2. First timed full test</td><td class="ag-num">Finding out whether time or knowledge is the limit</td></tr><tr><td>3. Teacher-marked free response</td><td class="ag-num">Replacing a hopeful self-mark with an honest one</td></tr><tr><td>4. Two full tests in spring</td><td class="ag-num">A trend, read against the planning targets</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask to see the two halves of the composite, not only the total. The split tells you whether your teen needs more code writing or more code reading.</p>
+<p>A falling composite in February is common when Unit 4 arrives. It usually recovers once arrays and lists settle.</p></div><div><h3>For students</h3><p>Time yourself honestly. A composite earned with extra minutes describes a different exam.</p>
+<p>Keep every marked free-response answer. Rereading your own lost points is the fastest revision there is.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses around AP Computer Science A</h2>
+      <p class="ag-lede">Each one is taught live online by a teacher who stays with the student, in a group batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Before and during AP</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / AP / 01</p>
+          <h4>AP Computer Science A</h4>
+          <p>The full course, marked like the exam.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / AP / 02</p>
+          <h4>AP Computer Science Principles</h4>
+          <p>The breadth course and the Create task.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / AP / 03</p>
+          <h4>Java for teens</h4>
+          <p>Java from first class to objects.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Alongside AP</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / ALG / 01</p>
+          <h4>Problem solving</h4>
+          <p>Data structures without the panic.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / ALG / 02</p>
+          <h4>Competitive programming</h4>
+          <p>USACO-style problems, one level at a time.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / ALG / 03</p>
+          <h4>Python for teens</h4>
+          <p>A second language for projects.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Other AP and test prep</h3>
+        <span class="ag-band-sub">Grades 10 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / MTH / 01</p>
+          <h4>AP Calculus AB and BC</h4>
+          <p>Live, with free-response marking.</p>
+          <a class="ag-course-link" href="/courses/ap-calculus-exam-prep">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / MTH / 02</p>
+          <h4>AP Statistics</h4>
+          <p>Inference and the investigative task.</p>
+          <a class="ag-course-link" href="/courses/ap-statistics-maths-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ACSS / MTH / 03</p>
+          <h4>SAT Math</h4>
+          <p>The digital SAT math section.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Timed practice and honest marking, live</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school in Eastern, Central, Mountain or Pacific time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer sessions suit full timed papers.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Arranged around the school calendar.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One teacher all year</h3><p>The person who marks the free response knows the student.</p></div>
+      <div><h3>Code on a shared screen</h3><p>Students type Java live and talk through it.</p></div>
+      <div><h3>Marked to the rubric</h3><p>Each point earned or lost, with the reason.</p></div>
+      <div><h3>Practice in exam timing</h3><p>Ninety minutes means ninety minutes.</p></div>
+      <div><h3>Every state, online</h3><p>From Maine to Hawaii, on video.</p></div>
+      <div><h3>Two formats</h3><p>A batch of fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Projects from teenagers who learned the same Java ideas the exam tests. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The calculator on this page is free to use. What families pay for is a teacher who marks practice papers properly, billed by the month in US dollars, with no commitment to the full school year.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>Bring a practice test</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A batch of fifteen to twenty</li><li>The same teacher each week</li><li>Pick a batch time</li><li>Paid monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A teacher for one student</li><li>Times that fit the school week</li><li>A plan built on your results</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents in their own words, copied from Google.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from students</p>
+      <h2>AP Computer Science A scores: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is there an official AP Computer Science A score calculator?</h3>
+        <p>No. College Board publishes the section weights and the free-response point values, but not the raw score needed for each AP score on the current exam. Any calculator, including ours, gives an estimate.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the AP Computer Science A exam weighted?</h3>
+        <p>Section I has 42 multiple-choice questions worth 55% of the score, and Section II has 4 free-response questions worth 45%. Each section lasts 90 minutes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many points is each AP CSA free-response question worth?</h3>
+        <p>In the current format, Question 1 is worth 7 points (Part A 4, Part B 3), Question 2 is worth 7, Question 3 is worth 5 and Question 4 is worth 6, according to the Course and Exam Description.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I estimate my AP CSA score from a practice test?</h3>
+        <p>Our method multiplies the number of multiple-choice questions right by 55 / 42, multiplies the free-response points by 45 / 25, and adds the two for a composite out of 100. It is an estimate, not an official conversion.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is AP Computer Science A graded on a curve?</h3>
+        <p>College Board says AP Exams are criterion-referenced, not graded on a curve: every student who meets the criteria for a score receives it, however many students that is.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use old AP CSA free-response questions in a calculator?</h3>
+        <p>With care. AP Central says the older questions do not completely align with the current exam, and before 2026 each question had 9 points rather than 7, 7, 5 and 6.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do small typing mistakes cost points on the AP CSA free response?</h3>
+        <p>Often not. The 2026 Scoring Guidelines list errors to ignore, such as spelling or case slips with no ambiguity, as long as no specific guideline says otherwise.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does an AP score of 3 mean?</h3>
+        <p>On the College Board AP Score Scale Table a 3 means Qualified, a 4 Very well qualified and a 5 Extremely well qualified. Colleges decide their own credit rules.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the next AP Computer Science A exam?</h3>
+        <p>AP Central lists Wednesday, May 12, 2027, Session 2, for the AP Computer Science A Exam.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are AP CSA classes for US students?</h3>
+        <p>Weekdays or weekends, flexible. Choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do AP Computer Science A classes cost?</h3>
+        <p>The first lesson is free. After that, families pay one month at a time, and the fees section of this page shows the monthly amount in US dollars.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for US students working towards an AP computer science exam.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-online-classes">AP Computer Science A classes</a></h3><p>The live course, unit by unit.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></h3><p>For the breadth exam and its project.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/how-to-get-a-5-in-ap-computer-science-a">Getting a 5 in AP CSA</a></h3><p>A revision plan for the year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/ap-computer-science-a-changes-2026">AP CSA changes for 2026</a></h3><p>What the new course moved.</p></div>
+      <div><h3><a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a></h3><p>Where strong AP students often go next.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-states">Coding classes in the USA</a></h3><p>Every page we have for US families.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Bring your latest practice result, marked or unmarked. In the first lesson the teacher re-marks one free-response answer with you, so you can see where your estimate stands.</p>
+        <p class="ag-mt-40">Curious how the teaching works first? Our page on <a class="ag-inline-link" href="/how-we-teach">how we teach</a> walks through a live class, and the <a class="ag-inline-link" href="/courses">course list</a> has each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20the%20US%20is%20taking%20AP%20Computer%20Science%20A%20and%20wants%20timed%20practice%20marked%20properly.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'acss',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Teaching happens on video, with teachers working from India, so lessons fit around US school days rather than a local office. WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_acss(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free and needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>AP computer science</h4><ul><li><a href="/ap-computer-science-a-online-classes">AP CSA classes</a></li><li><a href="/ap-computer-science-principles-online-coaching">AP CSP coaching</a></li><li><a href="/blog/ap-csp-vs-ap-csa-which-to-take-first">AP CSP or AP CSA first</a></li><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li><li><a href="/computer-science-extracurriculars">CS extracurriculars</a></li><li><a href="/coding-for-16-year-olds">Coding for 16 year olds</a></li><li><a href="/sat-math-tutoring-online">SAT math tutoring</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Two scales, one weighted composite</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_acss = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'ap-computer-science-a-score-calculator-inline', meta: { name: name, age: age, page: 'ap-computer-science-a-score-calculator' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20260927a" defer></script>
+</body>
+</html>
