@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [AI research programs for high school students](/ai-research-programs-for-high-school-students)
 - [AI projects for middle school students](/ai-projects-for-middle-school-students)
 - [AI classes for middle school students](/ai-classes-for-middle-school-students)
 - [AI courses for high school students](/ai-courses-for-high-school-students)

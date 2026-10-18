@@ -688,6 +688,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AI courses for high school students: https://learn.modernagecoders.com/ai-courses-for-high-school-students
 - AI classes for middle school students: https://learn.modernagecoders.com/ai-classes-for-middle-school-students
 - AI projects for middle school students: https://learn.modernagecoders.com/ai-projects-for-middle-school-students
+- AI research programs for high school students: https://learn.modernagecoders.com/ai-research-programs-for-high-school-students
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

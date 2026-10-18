@@ -457,6 +457,7 @@ const SLUGS = [
   'ai-courses-for-high-school-students',
   'ai-classes-for-middle-school-students',
   'ai-projects-for-middle-school-students',
+  'ai-research-programs-for-high-school-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -993,6 +994,7 @@ const LLMS_LABELS = {
   'ai-courses-for-high-school-students': 'AI courses for high school students',
   'ai-classes-for-middle-school-students': 'AI classes for middle school students',
   'ai-projects-for-middle-school-students': 'AI projects for middle school students',
+  'ai-research-programs-for-high-school-students': 'AI research programs for high school students',
 };
 
 function wireLlms(slugs) {
