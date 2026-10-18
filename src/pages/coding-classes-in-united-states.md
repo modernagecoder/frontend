@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [CodeWizardsHQ alternative](/codewizardshq-alternative)
 - [Online coding classes for kids, compared](/best-online-coding-classes-for-kids-usa-compared)
 - [AI guidance for schools by state](/ai-guidance-for-schools-by-state)
 - [High school CS access by state](/high-school-computer-science-access-by-state)
