@@ -50818,5 +50818,53 @@
       "That our classes satisfy the graduation requirement: refused; only approved school courses do.",
       "Any affiliation with NC DPI, the City of Raleigh, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-louisiana": {
+    "market": "Louisiana",
+    "bodyClass": "cg-al",
+    "pageType": "city",
+    "curriculumAuthority": "Louisiana, read raw 17 and 18 October 2026: doe.louisiana.gov, www.louisiana.gov and bese.louisiana.gov returned 403; legis.la.gov did not connect; none retried around; no state policy wording printed. Code.org (2025): access 23% (2018-19) to 39.3% (144 of 366, 2024-25), source State Education Agency; participation 2.3%, 3.7%, 3.37%, 2.58% (5,494 of 212,772). College Board AP schools 243 (180 public, 63 non-public) and 251 (189 public, 62 non-public). IANA America/Chicago and US DST rule.",
+    "localProject": "Open Data BR BREC Park Amenities (phg8-g77c, Public Domain, attribution BREC), downloaded 18 October 2026: 177 rows, 43 amenity columns, 1 unnamed row, 16 named rows with no amenity; classifications Neighborhood 135, Conservation 14, Community 12, Special Facility 12, Golf Course 4; our counts Greenwood Community Park 16 on three rows, City-Brooks and Perkins Road 15, Highland Road 14, Forest and Hooper Road 13; PLAYGOUND 114. Lesson family: top-N sorting with ties and duplicate rows.",
+    "requiredMentions": [
+      "144 of 366",
+      "5,494 of 212,772",
+      "38.8%",
+      "243 (180 public, 63 non-public)",
+      "251 (189 public, 62 non-public)",
+      "GREENWOOD COMMUNITY PARK",
+      "PLAYGOUND",
+      "43 amenity columns"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Louisiana access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Open Data BR: BREC Park Amenities (Public Domain).",
+        "url": "https://data.brla.gov/d/phg8-g77c"
+      },
+      {
+        "claim": "IANA tzdb: America/Chicago and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      },
+      {
+        "claim": "Louisiana Department of Education (403 on 17 October 2026, recorded, not used).",
+        "url": "https://doe.louisiana.gov/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Louisiana graduation requirement, CS standards or required offering: not printed; LDOE, the state portal and BESE returned 403, the legislature did not connect, none retried around.",
+      "Reasons for the fall in enrollment: not claimed; the data does not say why.",
+      "Code.org urban, rural, size, gender and race breakdowns: not used.",
+      "The BREC gun-free-zone and other non-amenity datasets: not used.",
+      "A park quality ranking: refused; only our amenity-type counts, labelled as ours.",
+      "That our classes earn Louisiana school credit: refused.",
+      "Any affiliation with LDOE, BREC, the City-Parish of Baton Rouge, Code.org or the College Board."
+    ]
   }
 }
