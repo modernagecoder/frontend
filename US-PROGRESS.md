@@ -201,7 +201,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 20 | ai-projects-for-middle-school-students (apms, #0E2E4C) | ai | 4,089 | 2.2% vs ai-classes-for-middle-school-students | phase 2 | patterns in data (counting, and why common words drown out useful ones) | 391ab2fd |
 | 21 | ai-research-programs-for-high-school-students (arph, #18429E) | ai | 4,180 | 1.6% vs ai-projects-for-middle-school-students | phase 2 | experimental design (a baseline, a fair comparison and an honest spread) | 6d77e199 |
 | 22 | ai-certification-for-high-school-students (aice, #42269E) | ai | 4,666 | 1.4% vs ai-courses-for-high-school-students | phase 2 | model evaluation (precision versus recall) | f927b44f |
-| 23 | ai-summer-programs-for-high-school-students (asph, #9E4267) | ai | 3,999 | 1.9% vs ai-courses-for-high-school-students | phase 2 | learning curves (how accuracy grows with data) | (this commit) |
+| 23 | ai-summer-programs-for-high-school-students (asph, #9E4267) | ai | 3,999 | 1.9% vs ai-courses-for-high-school-students | phase 2 | learning curves (how accuracy grows with data) | b709cad2 |
+| 41 | coding-competitions-for-high-school-students (com, #0C0D52) | comp | 5,493 | 1.4% vs acsl-competition-preparation | phase 3 | estimating running time before writing code | (this commit) |
 
 ## Skipped
 

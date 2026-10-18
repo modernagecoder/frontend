@@ -460,6 +460,7 @@ const SLUGS = [
   'ai-research-programs-for-high-school-students',
   'ai-certification-for-high-school-students',
   'ai-summer-programs-for-high-school-students',
+  'coding-competitions-for-high-school-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -999,6 +1000,7 @@ const LLMS_LABELS = {
   'ai-research-programs-for-high-school-students': 'AI research programs for high school students',
   'ai-certification-for-high-school-students': 'AI certification for high school students',
   'ai-summer-programs-for-high-school-students': 'AI summer programs for high school students',
+  'coding-competitions-for-high-school-students': 'Coding competitions for high school students',
 };
 
 function wireLlms(slugs) {
