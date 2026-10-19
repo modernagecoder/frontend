@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Massachusetts](/coding-and-ai-classes-in-massachusetts)
 - [Maine](/coding-and-ai-classes-in-maine)
 - [Louisiana](/coding-and-ai-classes-in-louisiana)
 - [Common Core math vs traditional math](/common-core-math-vs-traditional-math)

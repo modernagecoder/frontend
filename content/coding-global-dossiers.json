@@ -50930,5 +50930,72 @@
       "That our classes earn Maine school credit: refused.",
       "Any affiliation with the Maine DOE, the Maine Office of GIS, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-massachusetts": {
+    "market": "Massachusetts",
+    "bodyClass": "cg-aima",
+    "pageType": "city",
+    "curriculumAuthority": "Massachusetts DESE, read raw 17 and 18 October 2026: Graduation Requirements (CD plus local requirements; G.L. c. 69, section 1D; November 2024 ballot question; May 2025 amendment of 603 CMR 30.00; class of 2027 coursework list with no CS); MassCore (adopted 2007, amended 2018; unit list; CS substitution for maths or lab science); DLCS admin and parent pages (course codes 10011, 10012, 10019, 10090; MTEL 5-12 DLCS license); DLCS page (PreK-6 license); DLCS Implementation Resources (82% offer, 5.9% take a foundational course; 2016 release; 2025 Curriculum Guide by STEM Learning Design); 2016 DLCS framework PDF (October 2016 letter; four strands). Code.org (2025) access trend and 325 of 400 (2023-24), participation 23,127 of 292,428; College Board AP schools 464 and 463; IANA America/New_York and US DST rule.",
+    "localProject": "City of Cambridge LANDMARK_PublicLibraries (7 points, ODC PDDL v1.0) and MassGIS MBTA Rapid Transit stops (170 records, 157 distinct names, public resource), downloaded 17 October 2026. Our haversine nearest stop per library: Central Square Branch to Central 0.17 km, Cambridge Public Library to Harvard 0.66 km, O'Neill to Davis 0.69 km, O'Connell to Lechmere 0.70 km, Valente to Union Square 0.71 km, Boudreau to Porter 1.24 km, Collins to Alewife 2.17 km; stops by line Green 66, Silver 45, Red 27, Orange 16, Blue 10, six shared. Lesson family: nearest neighbour with haversine, and straight line versus walking route.",
+    "requiredMentions": [
+      "G.L. c. 69, section 1D",
+      "603 CMR 30.00",
+      "adopted MassCore in 2007",
+      "10090 Computational Thinking and Problem Solving",
+      "DLCS PreK-6 License",
+      "only 5.9% of public high school students",
+      "325 of 400",
+      "23,127 of 292,428",
+      "Collins Branch Library",
+      "157 distinct station names"
+    ],
+    "sources": [
+      {
+        "claim": "DESE: Graduation Requirements and Related Guidance, CD, G.L. c. 69 section 1D, 2024 ballot, 603 CMR 30.00, class of 2027 coursework.",
+        "url": "https://www.doe.mass.edu/ccte/graduation/default.html"
+      },
+      {
+        "claim": "DESE: MassCore, adopted 2007, amended 2018, CS substitution.",
+        "url": "https://www.doe.mass.edu/ccte/courses-learning/masscore/default.html"
+      },
+      {
+        "claim": "DESE: Digital Literacy and Computer Science pages, implementation resources (82%, 5.9%), course codes, licenses.",
+        "url": "https://www.doe.mass.edu/stem/dlcs/"
+      },
+      {
+        "claim": "DESE: 2016 Digital Literacy and Computer Science Curriculum Framework.",
+        "url": "https://www.doe.mass.edu/frameworks/dlcs.pdf"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Massachusetts access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Cambridge: Public Libraries layer (PDDL v1.0).",
+        "url": "https://www.arcgis.com/home/item.html?id=c24455ea463c4a76a74386ece4852772"
+      },
+      {
+        "claim": "MassGIS: MBTA Rapid Transit feature service.",
+        "url": "https://arcgisserver.digital.mass.gov/arcgisserver/rest/services/AGOL/MBTA_Rapid_Transit/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/New_York and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "A statewide CS graduation requirement in Massachusetts: refused; DESE lists none for the class of 2027 and beyond.",
+      "Blending DESE 5.9% and Code.org 7.91% participation into one figure: refused; definitions and denominators differ, both printed with owners.",
+      "Code.org access values for 2022-23 and 2024-25: none published for Massachusetts, left blank, not interpolated.",
+      "Code.org urban, rural, size, gender and race breakdowns: not used.",
+      "Names of the two Commonwealth Virtual Schools and any individual school: not printed; counts only.",
+      "Official walking distances or MBTA ridership: not read; only our straight-line distances, labelled as ours.",
+      "That our classes earn school credit or a MassCore substitution: refused; districts decide.",
+      "Any affiliation with DESE, the City of Cambridge, MassGIS, the MBTA, Code.org or the College Board."
+    ]
   }
 }
