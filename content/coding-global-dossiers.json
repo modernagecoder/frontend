@@ -51161,5 +51161,52 @@
       "That our classes satisfy the act or any school credit: refused.",
       "Any affiliation with the Mississippi Legislature, the Department of Education, Mississippi State University, MARIS, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-missouri": {
+    "market": "Missouri",
+    "bodyClass": "cg-aiab",
+    "pageType": "city",
+    "curriculumAuthority": "Missouri, 17 and 18 October 2026: dese.mo.gov 403 (Incapsula), revisor.mo.gov connection refused or 403, house.mo.gov and mo.gov 403; no state policy printed. Code.org (2025) State of AI + CS Education data: MO access 38% (2018-19), 50%, 49%, 50%, 57.7% (2022-23), 56.3% (2023-24, 310 of 551, State Education Agency), no 2024-25 value; national 60%; participation 2.9% (2022-23), 2.86% (2023-24), 7,804 of 273,338; national 6.4%. College Board AP schools 282 (2023), 306 (2024); public 212 and 238; non-public 70 and 68. IANA: Missouri in US central time (America/Chicago).",
+    "localProject": "City of Kansas City, Missouri open data, Trees Trimmed And Removed Annually (4947-rw26), Public Domain, last updated 26 July 2016, CSV downloaded 18 October 2026: 16 quarterly rows FY 2012-2013 Q1 to FY 2015-2016 Q4, out of file order, empty second Fiscal Year column. Our yearly sums: trimmed 2,853, 5,834, 5,766, 7,222; removed 1,741, 3,634, 2,257, 2,771; peak quarters FY 2015-2016 Q4 (2,321 trimmed) and FY 2013-2014 Q1 (1,710 removed). Lesson family: year or date trend over time.",
+    "requiredMentions": [
+      "310 of 551",
+      "No value published",
+      "7,804 of 273,338",
+      "282, then 306",
+      "212, then 238",
+      "FY 2012-2013 Q4 sits fifteenth of sixteen lines",
+      "7,222",
+      "2,321",
+      "November 1, 2026"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Missouri access and participation, national rows.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Kansas City, Missouri: Trees Trimmed And Removed Annually (public domain).",
+        "url": "https://data.kcmo.org/d/4947-rw26"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Missouri under US central time (America/Chicago) and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Missouri DESE computer science policy, standards and course lists: dese.mo.gov returned 403 (Incapsula) on 17 October 2026, so nothing from the department is printed.",
+      "Missouri statutes on computer science credit: revisor.mo.gov refused the connection and returned 403; no statute is quoted or paraphrased.",
+      "Any statement that Missouri does or does not have a CS graduation requirement: not verifiable at source, so neither is claimed.",
+      "A Missouri access value for 2024 to 2025: none is published in the Code.org release; not estimated.",
+      "Code.org geography, school size, gender and race tabs, and the Code.org Missouri advocacy page: not used.",
+      "Calendar-year dates for the Kansas City fiscal quarters: the city does not define its fiscal year in the file, so its labels are kept.",
+      "Names of individual Missouri schools: not needed; counts only.",
+      "That our classes earn Missouri school credit: refused.",
+      "Any affiliation with Missouri DESE, the City of Kansas City, Code.org or the College Board."
+    ]
   }
 }
