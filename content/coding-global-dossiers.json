@@ -51449,5 +51449,69 @@
       "That our classes satisfy an HB171 elective or pathway: refused; only school courses do.",
       "Any affiliation with NM PED, the City of Albuquerque, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-north-dakota": {
+    "market": "North Dakota",
+    "bodyClass": "cg-and",
+    "pageType": "city",
+    "curriculumAuthority": "North Dakota, read raw on 17 October 2026: NDDPI Bill Breakdown HB 1398 v1.0, 26 April 2023 (NDCC 15.1-21-01 and 15.1-21-02 instruction from 2023-24; integration plan from 2024-25; NDCC 15.1-21-02.2 graduation unit after July 31, 2025, science substitution, waiver via plan, from 2025-26; earlier math substitution; adult grants July 1, 2023 to June 30, 2025); NDDPI Computer Science and Cybersecurity page (68th Legislative Assembly 2023; integration plan guidance); NDDPI CSC standards page (full implementation 2026-2027; crosswalk 2025 and 2019); May 2025 CSC Content Standards (July 2024 to May 2025, five multi-day sessions, five concepts, K-8 by grade, spans 9-10 and 11-12, K.NI.3, 9-10.NI.3, superintendent foreword); Code.org (2025) ND** footnote (cybersecurity included), 75% (2022-23), 148 of 176 (2023-24), 5,492 of 34,185; College Board AP schools 44 (2023), 47 (2024); IANA America/Chicago, America/Denver and three America/North_Dakota zones.",
+    "localProject": "NDGISHUB Landmarks NDDOT (State of North Dakota GIS hub), downloaded 17 October 2026: 104,829 records, 223 feature types; our seeded samples (random.Random(2026); n = 100, 400, 1,600) vs full shares: Farm Unit 32.34% (30.00, 31.50, 33.25), Wind Turbine 1.16% (0.00, 1.25, 1.38), Grain Elevator 0.17% (0.00, 0.00, 0.19); data quirks Asterisk 3,334 and lower-case railway crossing; labelled as ours. Lesson family: random sampling versus the full count.",
+    "requiredMentions": [
+      "68th Legislative Assembly",
+      "NDCC 15.1-21-02.2",
+      "July 31, 2025",
+      "one of the three science requirements",
+      "K.NI.3 Understand that while AI may respond like a human, it is a machine.",
+      "five multi-day sessions",
+      "148 of 176",
+      "5,492 of 34,185",
+      "America/North_Dakota/Beulah",
+      "104,829",
+      "random.Random(2026)"
+    ],
+    "sources": [
+      {
+        "claim": "NDDPI: Bill Breakdown HB 1398 (Computer Science and Cybersecurity), 26 April 2023.",
+        "url": "https://www.nd.gov/dpi/sites/www/files/documents/SAO/Credentials/GENERALBill%20BreakdownHB1398.pdf"
+      },
+      {
+        "claim": "NDDPI: Computer Science and Cybersecurity page, 68th Legislative Assembly and integration plan guidance.",
+        "url": "https://www.nd.gov/dpi/education-programs/computer-science-and-cybersecurity"
+      },
+      {
+        "claim": "NDDPI: Computer Science & Cybersecurity content standards page, implementation year and crosswalk.",
+        "url": "https://www.nd.gov/dpi/districtsschools/north-dakota-education-content-standards/computer-science-cybersecurity"
+      },
+      {
+        "claim": "NDDPI: Computer Science and Cybersecurity Content Standards K-12, May 2025.",
+        "url": "https://www.nd.gov/dpi/sites/www/files/documents/Academic%20Support/Computer%20Science%20and%20Cybersecurity%20Standards%20MAY2025.pdf"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: North Dakota access (with cybersecurity) and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "State of North Dakota GIS hub: Landmarks NDDOT feature service.",
+        "url": "https://services1.arcgis.com/GOcSXpzwBHyk2nog/arcgis/rest/services/NDGISHUB_Landmarks_NDDOT/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: North Dakota zones and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Comparing North Dakota access with any other state: refused; Code.org includes cybersecurity for North Dakota only.",
+      "Whether the participation figure also includes cybersecurity: the footnote sits on the access tab only, so the page does not say either way.",
+      "That North Dakota is first or only in the nation: only quoted as the State Superintendent&rsquo;s 2025 foreword and the Code.org footnote, attributed.",
+      "Verbatim quotes from the HB 1398 breakdown PDF: its extracted text drops letters, so its rules are paraphrased, not quoted.",
+      "Landmark categories involving dwellings, religion or dumps: not printed; only neutral feature types are shown, as counts.",
+      "That our classes satisfy the graduation unit or the integration plan: refused.",
+      "Names of individual North Dakota schools or standards committee members: not printed.",
+      "Any affiliation with NDDPI, NDIT EduTech, the state GIS hub, Code.org or the College Board."
+    ]
   }
 }
