@@ -51264,5 +51264,73 @@
       "That our classes satisfy any Montana standard, credit or endorsement: refused.",
       "Any affiliation with Montana OPI, Montana Fish, Wildlife and Parks, CyberMontana, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-nevada": {
+    "market": "Nevada",
+    "bodyClass": "cg-ain",
+    "pageType": "city",
+    "curriculumAuthority": "Nevada, read raw 17 to 18 October 2026: NDE Guidance Memorandum #18-18 (November 5, 2018): Senate Bill 200 (2017), R078-18 amends NAC 389.450, at least 50% CS and computational thinking, State Board August 30, 2018, Legislative Commission September 27, 2018, Class of 2023 first, middle school delivery allowed, revised course only from 2019-2020, Computer Science and Applications name; NDE diploma brochures (Computer Education & Technology 0.5; AP/CTE/higher-ed CS as fourth math or third science on Advanced and CCR, not both; 24 credits, 3.25 GPA); NDE graduation page (State Seal of STEM, STEAM); NDE CS page (standards in four languages; Stellar Pathway to AI title); 2019 NVACS CS and Integrated Technology (Board approval August 29, 2019; ratification June 26, 2018; ten of seventeen counties; five core concepts; seven practices; K-5 by grade, 6-8, 9-12); Code.org (2025) 143 of 146, 97.9%, trend from 57%, no participation; College Board 147 (2023), 149 (2024); IANA America/Los_Angeles with West Wendover and border-town exceptions.",
+    "localProject": "City of Las Vegas CLV_Parks feature layer (City of Las Vegas no-warranty licence text), attributes downloaded 18 October 2026: our validation checks on 89 records (status mix 84/2/1/1/1; 74 single-space blanks and 2 nulls in TYPE_2; 3 empty SQ_MILES; acres/640 equals square miles where both present; largest 696.13 acres; 10 above the IQR fence of 35.16; mean 20.22 against median 7.35; existing parks mean 21.22, 13.09 without the largest), all labelled ours. Lesson family: data validation, missing values and outliers.",
+    "requiredMentions": [
+      "Senate Bill 200",
+      "R078-18",
+      "NAC 389.450",
+      "At least 50% of instructional time",
+      "Class of 2023",
+      "September 27, 2018",
+      "August 29, 2019",
+      "ten of Nevada&rsquo;s seventeen counties",
+      "143 of 146",
+      "West Wendover",
+      "696.13",
+      "89 records"
+    ],
+    "sources": [
+      {
+        "claim": "NDE Guidance Memorandum #18-18: half-credit graduation requirement, SB 200, R078-18, 50%, dates, Class of 2023.",
+        "url": "https://webapp-strapi-paas-prod-nde-001.azurewebsites.net/uploads/GM_1818_Half_Credit_Graduation_Req_Computer_Edand_Tech_6ed06944a4.pdf"
+      },
+      {
+        "claim": "NDE Classes of 2029 and beyond diploma brochure: 0.5 credit, CS as fourth math or third science.",
+        "url": "https://webapp-strapi-paas-prod-nde-001.azurewebsites.net/uploads/2029_and_beyond_diploma_brochure_f58ffa54df.pdf"
+      },
+      {
+        "claim": "NDE Computer Science page: standards documents and resources.",
+        "url": "https://doe.nv.gov/offices/office-of-teaching-and-learning/computer-science/"
+      },
+      {
+        "claim": "2019 Nevada Academic Content Standards for Computer Science and Integrated Technology.",
+        "url": "https://webapp-strapi-paas-prod-nde-001.azurewebsites.net/uploads/Nevada_Academic_Content_Standards_forrev_adf847c3ac.pdf"
+      },
+      {
+        "claim": "NDE High School Diplomas and Graduation page: diploma types and State Seals.",
+        "url": "https://doe.nv.gov/offices/office-of-teaching-and-learning/high-school-graduation"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Nevada access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Las Vegas: CLV_Parks feature service.",
+        "url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/arcgis/rest/services/CLV_Parks/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Pacific zone comment, West Wendover, mountain border towns, US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Nevada CS participation (students enrolled): the Code.org sheet has no Nevada value, so none is printed or estimated.",
+      "The content of Nevada&rsquo;s Stellar Pathway to AI Teaching and Learning: only its title, as listed on the NDE CS page, is quoted; the document was not read.",
+      "City of Henderson trail data: its GIS server returned 403, so it was not used.",
+      "City of Las Vegas tree inventory: no licence text and it carries tree-failure risk fields, so not used.",
+      "A total acreage for Las Vegas parks: not printed, because the layer mixes former and proposed parks and is not an official total.",
+      "That our classes satisfy the half-credit requirement or a State Seal: refused; only school courses and NDE criteria do.",
+      "Any affiliation with NDE, the City of Las Vegas, Code.org or the College Board."
+    ]
   }
 }
