@@ -1738,3 +1738,4 @@
 .cg-root.cg-aiab  { --cg-accent: #805A32; --cg-accent-soft: rgba(128,90,50,.10); }   /* Missouri: #805A32, a muted river-clay brown, as allocated in alloc.tsv for row 85, clearing 4.5:1 on every paper */
 .cg-root.cg-aimo  { --cg-accent: #51612C; --cg-accent-soft: rgba(81,97,44,.10); }   /* Montana: #51612C, a muted sagebrush olive, as allocated in alloc.tsv for row 86, above 4.5:1 on every paper */
 .cg-root.cg-ain  { --cg-accent: #146150; --cg-accent-soft: rgba(20,97,80,.10); }   /* Nevada: #146150, a deep sagebrush teal from the allocation table, dark enough to pass 4.5:1 on every paper and clear of the North Carolina pine green #276910 */
+.cg-root.cg-anh  { --cg-accent: #225680; --cg-accent-soft: rgba(34,86,128,.10); }   /* New Hampshire: #225680, a lake-water blue allocated for row 89 in alloc.tsv, clear of the North Carolina green and the nearby New England accents, with AA contrast on all paper tones */

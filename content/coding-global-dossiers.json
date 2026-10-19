@@ -51332,5 +51332,55 @@
       "That our classes satisfy the half-credit requirement or a State Seal: refused; only school courses and NDE criteria do.",
       "Any affiliation with NDE, the City of Las Vegas, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-new-hampshire": {
+    "market": "New Hampshire",
+    "bodyClass": "cg-anh",
+    "pageType": "city",
+    "curriculumAuthority": "New Hampshire, read 17 October 2026: NH Department of Education (www.education.nh.gov) returned 403 Access Denied, and the NH General Court statute pages (gencourt.state.nh.us, gc.nh.gov) returned 403, so no state rule, standard or adoption date is stated. Remaining verified facts: Code.org (2025) access 49% (2018-19), 67%, 78%, 82%, 81%, 94.8% (2023-24), 93.7% (2024-25), 89 of 95 high schools, source School Course Catalogs and Teacher Surveys, participation not published; College Board AP schools 108 (2023) and 108 (2024), public 81, non-public 27; IANA tzdb lists New Hampshire under America/New_York, with the 2004 Mount Washington Observatory comment.",
+    "localProject": "NH Recreational Trails (NH GRANIT, nhgeodata.unh.edu), attributes downloaded 17 October 2026: 15,791 segment records; 6,364 distinct names, 6,306 after trimming and case-folding; 3,413 blank-name segments; 255 towns; county values include (Maine), (Vermont) and ALBANY; hiking flag with 5 distinct values; our sets on named trails: hiking 3,547, ski 817, bike 886, hiking and ski 726, ski not hiking 91, union 3,638, all three 437; 831 names in more than one town (BLUE TRL 24 towns, RED TRL 20), labelled as ours. Lesson family: sets and distinct values.",
+    "requiredMentions": [
+      "89 of 95",
+      "49% in 2018 to 2019",
+      "94.8%",
+      "108 schools with AP exams",
+      "81 public and 27 non-public",
+      "Mount Washington Observatory",
+      "15,791",
+      "3,638",
+      "BLUE TRL"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: New Hampshire access trend, 89 of 95, data source, blank participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "NH GRANIT: NH Recreational Trails feature service and its use statement.",
+        "url": "https://nhgeodata.unh.edu/hosting/rest/services/Hosted/CSD_RecreationResources/FeatureServer/2"
+      },
+      {
+        "claim": "IANA tzdb northamerica: New Hampshire on US eastern time, Mount Washington comment, US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      },
+      {
+        "claim": "New Hampshire Department of Education: returned 403 on 17 October 2026; cited so readers can check rules directly.",
+        "url": "https://www.education.nh.gov/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any New Hampshire CS graduation requirement, CS standard, adoption year or required offering: not stated; the NH Department of Education and NH General Court sites returned 403 and were not retried around.",
+      "Code.org policy flags and state advocacy page text for New Hampshire: not used as a source for state rules.",
+      "A New Hampshire CS enrollment estimate: refused; Code.org publishes none.",
+      "Code.org size, urban, rural, gender and ethnicity figures: not used.",
+      "Comparing the AP school count with the access count as if one were a subset of the other: refused; different populations and rules.",
+      "Official trail counts or lengths: not read; only our set results from one download, labelled as ours.",
+      "Names of individual New Hampshire schools: not needed; counts only.",
+      "Any affiliation with the NH Department of Education, NH GRANIT, Code.org or the College Board."
+    ]
   }
 }
