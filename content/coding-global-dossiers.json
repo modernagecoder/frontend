@@ -51748,5 +51748,69 @@
       "That our classes earn the Arkansas CS credit: refused; only state-approved school courses do.",
       "Any affiliation with the Arkansas Department of Education, the Arkansas GIS Office, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-colorado": {
+    "market": "Colorado",
+    "bodyClass": "cg-ac",
+    "pageType": "city",
+    "curriculumAuthority": "Colorado, read raw 17 and 18 October 2026. CDE CAS Computer Science (adopted 2024 and 2018 versions); 2024 PDF: adopted May 2024, six strands, K and grades 1 to 5, MS, HS; AI from second grade (CS.2.5.1, \"Demonstrate how to train a computer to recognize something.\"); HB 16-1198, voluntary implementation. CDE CS page: Resource Bank authorized 2017, Grants Program 2017-2025. CDE CS grants: 12 2024-25 grantees, spend by June 30, 2025. CDE Graduation Guidelines: Menu of Options, Reading, Writing, and Communicating and Mathematics measures, 2021-22 and beyond. Code.org (2025): 57%, 54%, 59.0%, 66.3% (344 of 519, State Education Agency and School Catalogs); no participation values. College Board 353, 364. IANA America/Denver.",
+    "localProject": "Colorado Parks and Wildlife CPW Trail Segments layer (CPWAdminData FeatureServer 2, \"as is\"), count 1,211, downloaded 18 October 2026: our bins zero 156, under 0.25: 371, 0.25 to 0.5: 191, 0.5 to 1: 250, 1 to 2: 152, 2 to 4: 69, 4 and over: 22; half-mile bins 562, 250, 106, 46, 31, 20, 9, 9, 22; one-mile bins 812, 152, 51, 18, 14, 8; median 0.4, mean 0.727, longest 8.1. Lesson family: histogram binning.",
+    "requiredMentions": [
+      "May 2024",
+      "The 156 zeros",
+      "Demonstrate how to train a computer to recognize something.",
+      "CS.2.5.1",
+      "Menu of Options",
+      "Lake Pueblo State Park",
+      "Digital Citizenship",
+      "364 in 2024",
+      "1,211 records",
+      "562, 250, 106, 46, 31, 20, 9 and 9",
+      "Voodoo Loop"
+    ],
+    "sources": [
+      {
+        "claim": "CDE: Colorado Academic Standards, Computer Science (2024 and 2018 versions).",
+        "url": "https://ed.cde.state.co.us/computerscience/standards"
+      },
+      {
+        "claim": "CDE: Computer Science page, Resource Bank and Grants Program.",
+        "url": "https://ed.cde.state.co.us/computerscience"
+      },
+      {
+        "claim": "CDE: Computer Science Grants for Teachers Program, 2024-2025.",
+        "url": "https://ed.cde.state.co.us/computerscience/csed-grant"
+      },
+      {
+        "claim": "CDE: Graduation Guidelines.",
+        "url": "https://ed.cde.state.co.us/postsecondary/graduationguidelines"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Colorado access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Colorado Parks and Wildlife: CPWAdminData CPW Trail Segments layer.",
+        "url": "https://services5.arcgis.com/ttNGmDvKQA7oeDQ3/ArcGIS/rest/services/CPWAdminData/FeatureServer/2"
+      },
+      {
+        "claim": "IANA tzdb northamerica: US mountain time represented by Denver.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "City of Boulder tree inventory (CC0): gis.bouldercolorado.gov returned a Cloudflare challenge on 18 October 2026, so it was not used and not retried around.",
+      "Grant dollar amounts and the names of the 12 grantee districts: not printed.",
+      "Names of standards committee members, board members and CDE staff: not printed.",
+      "Job-market claims in the standards introduction: not used.",
+      "Code.org gender, race, geography and graduation figures and the Code.org Colorado summary text: not used.",
+      "A Colorado CS enrollment figure: the sheet has none, so none is printed or estimated.",
+      "Official CPW trail mileage totals: not read; only our bins of the layer field are printed, labelled as ours. Wildlife and hunting layers in the same service were not used.",
+      "Any affiliation with CDE, Colorado Parks and Wildlife, Code.org or the College Board."
+    ]
   }
 }

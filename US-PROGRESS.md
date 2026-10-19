@@ -241,7 +241,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 63 | coding-and-ai-classes-in-alabama (aa, #9E2151) | state | 3,679 | 1.7% vs coding-and-ai-classes-in-massachusetts | phase 4 | missing and disguised-missing values (blanks, zeros that mean unknown, repeated  | 9474e5b2 |
 | 64 | coding-and-ai-classes-in-alaska (aia, #994A45) | state | 3,118 | 1.7% vs coding-and-ai-classes-in-north-carolina | phase 4 | great-circle (haversine) distance between coordinates | 451f907b |
 | 65 | coding-and-ai-classes-in-arizona (aiar, #8A5721) | state | 3,268 | 1.5% vs coding-and-ai-classes-in-alaska | phase 4 | filtering records with conditions (and, or, contains) and testing a filter | a2ba929c |
-| 66 | coding-and-ai-classes-in-arkansas (aara, #646622) | state | 3,451 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sorting and ranking a top-N list, and how the unit you rank changes the ranking | (this commit) |
+| 66 | coding-and-ai-classes-in-arkansas (aara, #646622) | state | 3,451 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sorting and ranking a top-N list, and how the unit you rank changes the ranking | 1793b493 |
+| 67 | coding-and-ai-classes-in-colorado (ac, #265C21) | state | 3,338 | 1.9% vs coding-and-ai-classes-in-alabama | phase 4 | binning values into a histogram, and how bin choice changes the picture | (this commit) |
 
 ## Skipped
 
