@@ -51627,5 +51627,65 @@
       "Road, ferry or flight distances: not computed; only our straight-line haversine figures are printed, labelled as ours.",
       "Any affiliation with the Alaska Department of Education and Early Development, DOT&PF, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-arizona": {
+    "market": "Arizona",
+    "bodyClass": "cg-aiar",
+    "pageType": "city",
+    "curriculumAuthority": "Arizona, read raw 17 October 2026. azed.gov and azsbe.az.gov 403; nothing quoted from them. ARS 15-701.01 (graduation standards areas; a rigorous CS course may fulfill a math course; significant mathematics content; capacity, infrastructure, qualified staff). ARS 15-249.12 (CS professional development program fund; first-come, first-served grants to schools without HS CS; standards adopted by the state board; two percent administration; June 30 and November 15 reports). ARS 15-249.13 (rural definition). Code.org (2025): 38%, 36%, 43.2% (278 of 643, 2023-24); 14,180 of 368,829, 3.84%. College Board AP schools 277 (2023), 293 (2024). IANA America/Phoenix MST since 1968, Navajo Nation DST, America/Denver.",
+    "localProject": "City of Tucson Park Properties layer (tucsondata_cotgis; provided \"as is\"), downloaded 17 October 2026, count 217: our filters WATER contains Reclaimed 47 (14 Neighborhood, 10 Community, 9 Metro, 6 School Park, 3 Regional, 2 Mini, 2 Maintenance Responsibility, 1 Golf Course), exact Reclaimed 1, Potable only 107, \"--\" 62, Acreage at least 100: 11, of which reclaimed 6; Mini Park 34 all under 1 acre; 1 without acreage. Lesson family: filtering with conditions.",
+    "requiredMentions": [
+      "15-701.01",
+      "significant mathematics content",
+      "first-come, first-served",
+      "15-249.13",
+      "one student in twenty-six",
+      "14,180 of 368,829",
+      "293, of which 257 public",
+      "34 Mini Parks",
+      "Navajo Nation",
+      "47 of 217 properties",
+      "Potable and Reclaimed"
+    ],
+    "sources": [
+      {
+        "claim": "ARS 15-701.01: graduation requirements and the computer science course that may fulfill a math course.",
+        "url": "https://www.azleg.gov/ars/15/00701-01.htm"
+      },
+      {
+        "claim": "ARS 15-249.12: computer science professional development program fund.",
+        "url": "https://www.azleg.gov/ars/15/00249-12.htm"
+      },
+      {
+        "claim": "ARS 15-249.13: definition of rural.",
+        "url": "https://www.azleg.gov/ars/15/00249-13.htm"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Arizona access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Tucson: Park Properties feature layer.",
+        "url": "https://services3.arcgis.com/9coHY2fvuFjG9HQX/arcgis/rest/services/TPRD_PROPERTIES_OMS_AGOVW/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb: America/Phoenix, the Navajo Nation note and America/Denver.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Arizona CS standards adoption date and any Department of Education guidance: azed.gov and azsbe.az.gov returned 403 on 17 October 2026, not retried around.",
+      "Which Arizona districts have approved a CS-for-math course: not published in what we read; families are told to ask locally.",
+      "Grant totals from the CS professional development fund: the annual reports were not read, so no amount is printed.",
+      "The free and reduced-price lunch priority in 15-249.12: not used (no income or identity content).",
+      "Code.org gender, race, geography and graduation figures and the Code.org Arizona summary text: not used.",
+      "Names of schools attached to Tucson school parks: not printed; counts by type only.",
+      "Any meaning for the \"--\" water value: not inferred.",
+      "Any affiliation with the Arizona Department of Education, the State Board, the City of Tucson, Code.org or the College Board."
+    ]
   }
 }

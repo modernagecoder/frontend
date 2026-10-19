@@ -239,7 +239,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 91 | coding-and-ai-classes-in-new-mexico (anm, #201452) | state | 3,490 | 1.7% vs coding-and-ai-classes-in-nevada | phase 4 | decoding coded fields with a lookup dictionary (and handling codes the dictionar | f1ab994f |
 | 92 | coding-and-ai-classes-in-north-dakota (and, #803248) | state | 3,794 | 1.4% vs coding-classes-in-new-jersey | phase 4 | random sampling versus the full count (estimation error, rare categories) | 9525205c |
 | 63 | coding-and-ai-classes-in-alabama (aa, #9E2151) | state | 3,679 | 1.7% vs coding-and-ai-classes-in-massachusetts | phase 4 | missing and disguised-missing values (blanks, zeros that mean unknown, repeated  | 9474e5b2 |
-| 64 | coding-and-ai-classes-in-alaska (aia, #994A45) | state | 3,118 | 1.7% vs coding-and-ai-classes-in-north-carolina | phase 4 | great-circle (haversine) distance between coordinates | (this commit) |
+| 64 | coding-and-ai-classes-in-alaska (aia, #994A45) | state | 3,118 | 1.7% vs coding-and-ai-classes-in-north-carolina | phase 4 | great-circle (haversine) distance between coordinates | 451f907b |
+| 65 | coding-and-ai-classes-in-arizona (aiar, #8A5721) | state | 3,268 | 1.5% vs coding-and-ai-classes-in-alaska | phase 4 | filtering records with conditions (and, or, contains) and testing a filter | (this commit) |
 
 ## Skipped
 
