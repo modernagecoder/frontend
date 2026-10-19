@@ -230,7 +230,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 79 | coding-and-ai-classes-in-maine (am, #275C55) | state | 3,338 | 2.7% vs coding-and-ai-classes-in-louisiana | phase 4 | filter and count with combined conditions (and fields that contradict each other | e4f0dd5b |
 | 81 | coding-and-ai-classes-in-massachusetts (aima, #15388A) | state | 3,741 | 2% vs coding-classes-in-new-jersey | phase 4 | nearest neighbour with the haversine formula (and why straight-line distance is  | e7d8bc5c |
 | 82 | coding-and-ai-classes-in-michigan (aimi, #2D1E8F) | state | 3,302 | 2.5% vs coding-and-ai-classes-in-louisiana | phase 4 | histograms and binning (and how bin width changes the story) | ad047f8f |
-| 83 | coding-and-ai-classes-in-minnesota (amim, #4C0B25) | state | 3,200 | 2.5% vs coding-and-ai-classes-in-louisiana | phase 4 | mean versus median, and how one large value moves an average | (this commit) |
+| 83 | coding-and-ai-classes-in-minnesota (amim, #4C0B25) | state | 3,200 | 2.5% vs coding-and-ai-classes-in-louisiana | phase 4 | mean versus median, and how one large value moves an average | f3f6f39a |
+| 84 | coding-and-ai-classes-in-mississippi (aiaa, #6B4340) | state | 3,448 | 1.5% vs coding-classes-in-new-jersey | phase 4 | name cleaning and deduplication (matching two lists of the same places across a  | (this commit) |
 
 ## Skipped
 

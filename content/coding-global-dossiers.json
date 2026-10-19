@@ -51101,5 +51101,65 @@
       "That our classes earn Minnesota school credit: refused.",
       "Any affiliation with the Minnesota Department of Education, the City of Minneapolis, the Park Board, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-mississippi": {
+    "market": "Mississippi",
+    "bodyClass": "cg-aiaa",
+    "pageType": "city",
+    "curriculumAuthority": "Mississippi, read raw 17 and 18 October 2026: mdek12.org returned 403, not quoted. Mississippi Legislature HB 633 (2021), the Mississippi Computer Science and Cyber Education Equality Act: finding that more than half of high schools do not teach CS; 2018 Mississippi College and Career-Readiness Standards; topics incl. AI and ML; Center for Cyber Education at Mississippi State University; phase-in 2022-23 (middle schools, 50% elementary one hour weekly, charters), 2023-24 (50% of high schools, all elementary one hour), 2024-25 (all schools); virtual teacher with proctor onsite; approved courses for at least four units of credit; annual report by December 31 through 2025; approved March 24, 2021, effective July 1, 2021. Code.org (2025): 204 of 234 (87.2%) 2024-25, trend from 47%; 14,211 of 130,037; national 60%. College Board AP schools 185 and 191. IANA: Mississippi in US central time (America/Chicago).",
+    "localProject": "MARIS CENSUS Incorporated Cities 2010 and 2020 (US Census Bureau, MARIS; MARIS legal policy, no warranties), attributes queried 18 October 2026. Our counts: 2010 298 places (110 city, 169 town, 19 village), 2020 299 (112, 168, 19); full-label match 297 common, union 300; GEOID or cleaned-name match 298 common, 299 distinct; Diamondhead new in 2020; Florence town to city; Bay St. Louis, D'Iberville, D'Lo punctuation; Jackson largest land area, about 111.7 square miles by our conversion. Lesson family: name cleaning and deduplication.",
+    "requiredMentions": [
+      "Mississippi Computer Science and Cyber Education Equality Act",
+      "More than half of high schools in Mississippi do not teach a computer science course",
+      "2018 Mississippi College and Career-Readiness Standards",
+      "Center for Cyber Education at Mississippi State University",
+      "with a proctor onsite",
+      "at least four (4) units of academic credit",
+      "204 of 234",
+      "14,211 of 130,037",
+      "185, then 191",
+      "Diamondhead"
+    ],
+    "sources": [
+      {
+        "claim": "Mississippi Legislature: HB 633 (2021 Regular Session) As Sent to Governor, full text.",
+        "url": "http://billstatus.ls.state.ms.us/documents/2021/html/HB/0600-0699/HB0633SG.htm"
+      },
+      {
+        "claim": "Mississippi Legislature: HB 633 bill status history (approved by Governor 03/24, effective July 1, 2021).",
+        "url": "http://billstatus.ls.state.ms.us/2021/pdf/history/HB/HB0633.xml"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Mississippi access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "MARIS: CENSUS Incorporated Cities 2020 map service.",
+        "url": "https://gis.mississippi.edu/server/rest/services/Administrative/MS_CensusIncorporatedCities_2020/MapServer"
+      },
+      {
+        "claim": "MARIS: CENSUS Incorporated Cities 2010 map service.",
+        "url": "https://gis.mississippi.edu/server/rest/services/Administrative/MS_CensusIncorporatedCities_2010/MapServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Mississippi under US central time (America/Chicago) and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Mississippi Department of Education guidance and course lists: mdek12.org returned 403 on 17 October 2026, so nothing from the department is quoted.",
+      "That Mississippi requires every student to pass a computer science course to graduate: the act requires schools to offer CS; only the credit clause is quoted.",
+      "An exact current participation rate: the Code.org participation tab (11.1%) and count tab (10.9%) differ, so both are quoted as published, with the NCES Fall 2022 denominator noted.",
+      "Code.org geography, school size, gender and race tabs and the Code.org state advocacy page: not used.",
+      "MARIS libraries, state parks and registry layers: MARIS flags them as Homeland Security Information Network data, so they were not used.",
+      "Population and housing fields in the census layer: not used; the project uses names, labels, IDs and land area only.",
+      "Names of individual Mississippi schools or districts: not needed; counts only.",
+      "That our classes satisfy the act or any school credit: refused.",
+      "Any affiliation with the Mississippi Legislature, the Department of Education, Mississippi State University, MARIS, Code.org or the College Board."
+    ]
   }
 }
