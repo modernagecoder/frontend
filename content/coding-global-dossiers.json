@@ -51687,5 +51687,66 @@
       "Any meaning for the \"--\" water value: not inferred.",
       "Any affiliation with the Arizona Department of Education, the State Board, the City of Tucson, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-arkansas": {
+    "market": "Arkansas",
+    "bodyClass": "cg-aara",
+    "pageType": "city",
+    "curriculumAuthority": "Arkansas, read raw 17 and 18 October 2026. ADE memo COM-21-105 (3/29/2021): Act 414 of 2021 signed March 23, 2021, extends Act 187 of 2015; one full HS CS credit from the 9th grade class of 2022-2023, earned in grades 8-12, codes 465 or 565; flex credit toward 4th math, 3rd science or career focus; CS certified teacher in each high school by 2023-2024; nine courses approved for 8th grade on March 11, 2021; licensure codes 528, 5013, 5014, 5016. ADE DESE standards page: K-4 and 5-8 embedded standards, four 5-8 courses with codes, four HS pathways, AP Cybersecurity (565210), CTE courses that may count, A.C.A. 6-16-146. State Coding Competition 2026 (tenth annual, March 31, 2026, Plumerville, one team of up to three). Code.org (2025) access 78% to 100% (301 of 301), participation 7.2% to 25.15% (37,330 of 148,457). College Board 287, 292. IANA America/Chicago.",
+    "localProject": "Arkansas GIS Office, Arkansas Trails layer (FeatureServer 22, no licence text), count 384, downloaded 18 October 2026 in two pages: our haversine total 636.3 miles, median 0.27, 308 under 1 mile, 158 names; top records 156.08, 86.09, 30.06, 27.74, 20.43; River Corridor Trail 24.41 over 6 records, Water Trail 23.19 over 23; surface_type mixes words and digit codes (199 records \"2\"). Lesson family: sorting and ranking top-N.",
+    "requiredMentions": [
+      "Act 414 of 2021",
+      "Act 187 of 2015",
+      "9th grade class of 2022-2023",
+      "465 or 565",
+      "Building with Data and AI (399400)",
+      "AP Cybersecurity (565210)",
+      "Precision Agriculture (593650)",
+      "Business Intelligence (593640)",
+      "37,330 of 148,457",
+      "156.08",
+      "24.41 miles across 6 records",
+      "March 31, 2026"
+    ],
+    "sources": [
+      {
+        "claim": "ADE Commissioner's Memo COM-21-105: Act 414 of 2021, graduation credit, flex credit, teacher requirement, 8th grade courses.",
+        "url": "https://adecm.ade.arkansas.gov/ViewApprovedMemo.aspx?Id=4716"
+      },
+      {
+        "claim": "ADE DESE: Computer Science Standards and Courses, pathways, CTE courses, A.C.A. 6-16-146.",
+        "url": "https://dese.ade.arkansas.gov/Offices/arkansas-computer-science-initiative/computer-science-standards-and-courses"
+      },
+      {
+        "claim": "ADE DESE: Arkansas State Coding Competition 2026.",
+        "url": "https://dese.ade.arkansas.gov/Offices/arkansas-computer-science-initiative/arkansas-state-coding-competition"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Arkansas access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Arkansas GIS Office: Arkansas Trails feature layer.",
+        "url": "https://gis.arkansas.gov/arcgis/rest/services/FEATURESERVICES/Environment/FeatureServer/22"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Arkansas on US Central, America/Chicago.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Competition award amounts (529 deposits and school awards): not printed (no money figures).",
+      "Names, emails and phone numbers of ADE staff and the seven statewide specialists: not printed; only the count.",
+      "The name of the governor who signed Act 414: not needed; the act is cited by number and date.",
+      "Code.org gender, race, geography and graduation figures and the Code.org Arkansas summary text: not used.",
+      "Official trail mileage: not read; only our haversine lengths are printed, labelled as ours. The layer carries no licence text.",
+      "Meanings of the digit codes in surface_type and accessibility: no codebook found, so not interpreted.",
+      "That our classes earn the Arkansas CS credit: refused; only state-approved school courses do.",
+      "Any affiliation with the Arkansas Department of Education, the Arkansas GIS Office, Code.org or the College Board."
+    ]
   }
 }
