@@ -1075,6 +1075,7 @@ const MARKETS = [
   // United States cluster (scripts/nl)
   ['coding-and-ai-classes-in-north-carolina', 'North Carolina'],
   ['coding-and-ai-classes-in-louisiana', 'Louisiana'],
+  ['coding-and-ai-classes-in-maine', 'Maine'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

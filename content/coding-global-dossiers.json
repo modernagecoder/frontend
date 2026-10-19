@@ -50866,5 +50866,69 @@
       "That our classes earn Louisiana school credit: refused.",
       "Any affiliation with LDOE, BREC, the City-Parish of Baton Rouge, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-maine": {
+    "market": "Maine",
+    "bodyClass": "cg-am",
+    "pageType": "city",
+    "curriculumAuthority": "Maine, read raw 17 and 18 October 2026: maine.gov/doe returned 403 and mainedoenews.net 429 (neither retried). Maine Legislature Title 20-A section 4722 (four-year program; multiple pathways; English 4, social studies and history 2, mathematics 2, science 2 with one lab year, fine arts 1; no CS). Maine DOE newsroom: 14 July 2022 showcase release (interdisciplinary, project-based; Roux Institute; Commissioner Pender Makin quote); 30 August 2022 pilot PD grant from the 130th Legislature, applications from September 1, 2022; 16 November 2022 MOOSE modules. Code.org (2025): access 56%, 60%, 66%, 61.7%, 58.5% (72 of 123, 2024-25), source State Education Agency and School Catalogs; no participation. College Board AP schools 126 and 126. IANA America/New_York and US DST rule.",
+    "localProject": "Maine GeoLibrary Maine_Lighthouses_GeoLibrary (Maine Office of GIS; not for navigational purposes), downloaded 18 October 2026: 63 records; active 54, inactive 7, demolished 1, unknown 1; Knox 15 (13 active), Hancock 13 (10), Washington 11 (7), Lincoln 6, Cumberland 6, York 5, Sagadahoc 4, Waldo 2, blank 1; 6 historical names, 2 of them active; Light Station 29, Lighthouse 10. Lesson family: filter and count with combined conditions.",
+    "requiredMentions": [
+      "Title 20-A section 4722",
+      "at least one year of laboratory study",
+      "forensics or drama",
+      "MOOSE modules",
+      "130th Legislature",
+      "September 1, 2022",
+      "Roux Institute",
+      "72 of 123",
+      "126 (100 public, 26 non-public)",
+      "54 active",
+      "not to be used for navigational purposes"
+    ],
+    "sources": [
+      {
+        "claim": "Maine Legislature: Title 20-A section 4722, High school diploma standards.",
+        "url": "https://legislature.maine.gov/statutes/20-A/title20-Asec4722.html"
+      },
+      {
+        "claim": "Maine DOE newsroom, 14 July 2022: Computer Science Education Showcase media release.",
+        "url": "https://mainedoenews.net/2022/07/14/computer-science-education-showcase-highlights-maines-interdisciplinary-project-based-approach-to-computer-science/"
+      },
+      {
+        "claim": "Maine DOE newsroom, 30 August 2022: Computer Science Professional Development Grant.",
+        "url": "https://mainedoenews.net/2022/08/30/computer-science-professional-development-grant-application-4/"
+      },
+      {
+        "claim": "Maine DOE newsroom, 16 November 2022: Computer Science MOOSE modules webinars.",
+        "url": "https://mainedoenews.net/2022/11/16/webinars-using-computer-science-moose-modules-csedweek-maineteachescs/"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Maine access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Maine GeoLibrary: Maine Lighthouses layer.",
+        "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/ArcGIS/rest/services/Maine_GeoLibrary_Structure/FeatureServer/5"
+      },
+      {
+        "claim": "IANA tzdb: America/New_York and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Maine CS standards adoption year or content: not printed; maine.gov/doe returned 403 and was not retried.",
+      "Later Maine DOE newsroom posts (third annual showcase): not read; mainedoenews.net returned 429 and was not retried.",
+      "The grant bill sponsor's name and the grant priority list's demographic clauses: not used.",
+      "A falling access trend: not claimed; a gap year and a small school count.",
+      "Code.org urban, rural, size, gender and race breakdowns: not used.",
+      "Lighthouse history or navigation status beyond the layer fields: not claimed; only our counts, labelled as ours.",
+      "That our classes earn Maine school credit: refused.",
+      "Any affiliation with the Maine DOE, the Maine Office of GIS, Code.org or the College Board."
+    ]
   }
 }
