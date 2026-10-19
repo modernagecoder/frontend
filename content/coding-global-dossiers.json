@@ -50997,5 +50997,55 @@
       "That our classes earn school credit or a MassCore substitution: refused; districts decide.",
       "Any affiliation with DESE, the City of Cambridge, MassGIS, the MBTA, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-michigan": {
+    "market": "Michigan",
+    "bodyClass": "cg-aimi",
+    "pageType": "city",
+    "curriculumAuthority": "Michigan, read raw 17 October 2026: michigan.gov/mde returned 403 (CS standards, academic standards, sitemap) and legislature.mi.gov returned 403 (MCL 380.1278a); no MDE policy wording printed. Code.org (2025): access trend 37% (2019-20), 44%, 46%, 55%, 53.7% (2023-24); most recent tab 674 of 1,228 (54.9%), source State Education Agency and School Catalogs; no participation values. College Board AP schools 737 (2023) and 752 (2024), public 623 and 649. IANA America/Detroit and America/Menominee; US DST rule.",
+    "localProject": "Michigan DNR DNRRecreationSearchPointsOPENDATA (public record, no restrictions on use, as is), downloaded 17 October 2026: 863 records; tags trail 332, state park campground 292, state forest campground 141, state park 115; our filter 433 campgrounds; latitude 41.82 to 47.47; our one-degree bins 9, 86, 28, 119, 91, 92, 8; rustic 220, electrical 174. Lesson family: histograms and binning, bin width and bin edges.",
+    "requiredMentions": [
+      "674 of 1,228",
+      "53.7%",
+      "State Education Agency and School Catalogs",
+      "737 (623 public, 114 non-public)",
+      "752 (649 public, 103 non-public)",
+      "America/Menominee",
+      "America/Detroit",
+      "433 records",
+      "41.82 to 47.47"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Michigan access tabs; no participation values.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "IANA tzdb zone.tab and northamerica: America/Detroit, America/Menominee, US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      },
+      {
+        "claim": "Michigan DNR: DNR Recreation Search points open data (licence text read).",
+        "url": "https://services3.arcgis.com/Jdnp1TjADvSDxMAX/arcgis/rest/services/DNRRecreationSearchPointsOPENDATA/FeatureServer"
+      },
+      {
+        "claim": "Michigan Department of Education computer science page (403 on 17 October 2026, recorded, not used).",
+        "url": "https://www.michigan.gov/mde/services/academic-standards/computer-science"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Michigan graduation requirement, CS standards adoption date or required offering: not printed; michigan.gov/mde and legislature.mi.gov returned 403 and were not retried around.",
+      "Choosing one 2023-24 access value: refused; trend tab 53.7% and count tab 54.9% both printed with their tab.",
+      "A Michigan CS participation rate: none published in the Code.org sheet; not estimated.",
+      "A decline from 2022-23 to 2023-24: not claimed; within the disagreement between tabs.",
+      "Code.org urban, rural, size, gender and race breakdowns: not used.",
+      "Upper and Lower Peninsula campground counts: not computed; latitude bands only, labelled as ours.",
+      "That our classes earn Michigan school credit: refused.",
+      "Any affiliation with the Michigan Department of Education, the Michigan DNR, Code.org or the College Board."
+    ]
   }
 }

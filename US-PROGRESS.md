@@ -228,7 +228,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 90 | coding-classes-in-new-jersey (anj, #2E3399) | state | 4,143 | 1.3% vs coding-and-ai-classes-in-north-carolina | phase 4 | pivot table / cross-tab by county, and why records are not the same thing as sta | dfd10fe7 |
 | 78 | coding-and-ai-classes-in-louisiana (al, #1D6130) | state | 3,273 | 2% vs coding-and-ai-classes-in-north-carolina | phase 4 | top-N sorting and ranking (ties and duplicate rows) | ab91ab0b |
 | 79 | coding-and-ai-classes-in-maine (am, #275C55) | state | 3,338 | 2.7% vs coding-and-ai-classes-in-louisiana | phase 4 | filter and count with combined conditions (and fields that contradict each other | e4f0dd5b |
-| 81 | coding-and-ai-classes-in-massachusetts (aima, #15388A) | state | 3,741 | 2% vs coding-classes-in-new-jersey | phase 4 | nearest neighbour with the haversine formula (and why straight-line distance is  | (this commit) |
+| 81 | coding-and-ai-classes-in-massachusetts (aima, #15388A) | state | 3,741 | 2% vs coding-classes-in-new-jersey | phase 4 | nearest neighbour with the haversine formula (and why straight-line distance is  | e7d8bc5c |
+| 82 | coding-and-ai-classes-in-michigan (aimi, #2D1E8F) | state | 3,302 | 2.5% vs coding-and-ai-classes-in-louisiana | phase 4 | histograms and binning (and how bin width changes the story) | (this commit) |
 
 ## Skipped
 
