@@ -51047,5 +51047,59 @@
       "That our classes earn Michigan school credit: refused.",
       "Any affiliation with the Michigan Department of Education, the Michigan DNR, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-minnesota": {
+    "market": "Minnesota",
+    "bodyClass": "cg-amim",
+    "pageType": "city",
+    "curriculumAuthority": "Minnesota, read raw 17 October 2026: education.mn.gov served a Radware bot challenge for the CS standards, standards and graduation pages (treated as blocked). Minnesota Revisor of Statutes, section 120B.241 (2023 c 55 art 2 s 61): definition; CS supervisor; working group by October 1, 2023, plan by February 29, 2024 and March 22, 2024; five years, every school; credit equivalency and standalone standards as recommendations; teacher preparation from July 1, 2027; all high schools report CS offerings and enrollment. Code.org (2025): access 19% to 34.4% (275 of 799, 2023-24); participation 2.5% then 1.83% (5,152 of 280,848). College Board AP schools 263 and 271. IANA America/Chicago and US DST rule.",
+    "localProject": "City of Minneapolis Parks layer (copyright waived for open data, reference use), downloaded 17 October 2026: 193 records, 185 with ACRES, 8 null; our mean 25.27 and median 4.77 acres; without THEODORE WIRTH (657.30) mean 21.84, median 4.65; without five largest 17.64 and 4.49; 148 below mean; 37 under 1 acre; 13 over 100. Lesson family: mean versus median and outliers.",
+    "requiredMentions": [
+      "section 120B.241",
+      "July 1, 2027",
+      "February 29, 2024",
+      "March 22, 2024",
+      "all high schools to report",
+      "5,152 of 280,848",
+      "THEODORE WIRTH",
+      "25.27",
+      "4.77"
+    ],
+    "sources": [
+      {
+        "claim": "Minnesota Revisor of Statutes: 2025 Minnesota Statutes 120B.241, Computer Science Education Advancement Program.",
+        "url": "https://www.revisor.mn.gov/statutes/cite/120B.241"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Minnesota access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Minneapolis: Parks feature service (open data, copyright waived).",
+        "url": "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Parks/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb: America/Chicago and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      },
+      {
+        "claim": "Minnesota Department of Education CS standards page (bot challenge on 17 October 2026, recorded, not used).",
+        "url": "https://education.mn.gov/MDE/dse/stds/compsci/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any MDE wording on graduation requirements or CS standards: not printed; education.mn.gov served a Radware bot challenge and was not circumvented.",
+      "That Minnesota has adopted standalone CS standards: not claimed; only the 2023 statute text listing them as a recommendation is quoted.",
+      "The statute subdivisions on working group demographics and disaggregated data: not used (identity content).",
+      "A falling participation trend: not claimed from two data points.",
+      "Official Minneapolis park sizes: not read; only our statistics from the ACRES field, labelled as ours.",
+      "Code.org urban, rural, size, gender and race breakdowns: not used.",
+      "That our classes earn Minnesota school credit: refused.",
+      "Any affiliation with the Minnesota Department of Education, the City of Minneapolis, the Park Board, Code.org or the College Board."
+    ]
   }
 }
