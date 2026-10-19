@@ -1736,3 +1736,4 @@
 .cg-root.cg-amim  { --cg-accent: #4C0B25; --cg-accent-soft: rgba(76,11,37,.10); }   /* Minnesota: #4C0B25, a dark cranberry from the allocation table, set well apart from the North Carolina green and the blues of neighbouring US pages, with strong contrast on the paper */
 .cg-root.cg-aiaa  { --cg-accent: #6B4340; --cg-accent-soft: rgba(107,67,64,.10); }   /* Mississippi: #6B4340, a muted magnolia-bark brown-red, as allocated in alloc.tsv for row 84, dark enough to clear 4.5:1 on every paper */
 .cg-root.cg-aiab  { --cg-accent: #805A32; --cg-accent-soft: rgba(128,90,50,.10); }   /* Missouri: #805A32, a muted river-clay brown, as allocated in alloc.tsv for row 85, clearing 4.5:1 on every paper */
+.cg-root.cg-aimo  { --cg-accent: #51612C; --cg-accent-soft: rgba(81,97,44,.10); }   /* Montana: #51612C, a muted sagebrush olive, as allocated in alloc.tsv for row 86, above 4.5:1 on every paper */

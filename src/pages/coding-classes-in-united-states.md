@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Montana](/coding-and-ai-classes-in-montana)
 - [Missouri](/coding-and-ai-classes-in-missouri)
 - [Mississippi](/coding-and-ai-classes-in-mississippi)
 - [Minnesota](/coding-and-ai-classes-in-minnesota)

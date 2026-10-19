@@ -232,7 +232,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 82 | coding-and-ai-classes-in-michigan (aimi, #2D1E8F) | state | 3,302 | 2.5% vs coding-and-ai-classes-in-louisiana | phase 4 | histograms and binning (and how bin width changes the story) | ad047f8f |
 | 83 | coding-and-ai-classes-in-minnesota (amim, #4C0B25) | state | 3,200 | 2.5% vs coding-and-ai-classes-in-louisiana | phase 4 | mean versus median, and how one large value moves an average | f3f6f39a |
 | 84 | coding-and-ai-classes-in-mississippi (aiaa, #6B4340) | state | 3,448 | 1.5% vs coding-classes-in-new-jersey | phase 4 | name cleaning and deduplication (matching two lists of the same places across a  | c58e71d4 |
-| 85 | coding-and-ai-classes-in-missouri (aiab, #805A32) | state | 3,154 | 1.9% vs coding-and-ai-classes-in-michigan | phase 4 | year or date trend over time (sorting by period, aggregating by year, reading a  | (this commit) |
+| 85 | coding-and-ai-classes-in-missouri (aiab, #805A32) | state | 3,154 | 1.9% vs coding-and-ai-classes-in-michigan | phase 4 | year or date trend over time (sorting by period, aggregating by year, reading a  | 2298773e |
+| 86 | coding-and-ai-classes-in-montana (aimo, #51612C) | state | 3,294 | 1.7% vs coding-and-ai-classes-in-louisiana | phase 4 | latitude and longitude bounding-box filter | (this commit) |
 
 ## Skipped
 

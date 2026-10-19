@@ -51208,5 +51208,61 @@
       "That our classes earn Missouri school credit: refused.",
       "Any affiliation with Missouri DESE, the City of Kansas City, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-montana": {
+    "market": "Montana",
+    "bodyClass": "cg-aimo",
+    "pageType": "city",
+    "curriculumAuthority": "Montana, read raw 17 and 18 October 2026: OPI Computer Science page (2021 Montana Content Standards for Computer Science; Class 4 Computer Coding endorsement 10S CC; 80 hours of professional development; CyberMontana, Legislature-funded; 56 counties); OPI Montana Content Standards for Computer Science for K-12 PDF (created April 5, 2021; effective July 1, 2021; five content areas; seven skills, conditional on a district teaching CS; CS.DA.K.1, CS.DA.1.1, CS.DA.6-8.1, CS.AP.9-12.2, CS.AP.9-12.3). Code.org (2025): 66 of 172 (38.4%) 2024-25, trend 31% to 38.4%; 1,655 of 45,378; national 60%. College Board AP schools 81 and 101, public 69 and 87. IANA: Montana in US mountain time (America/Denver).",
+    "localProject": "Montana Fish, Wildlife & Parks, Montana State Parks Trailheads (provided as is, without warranty), queried 18 October 2026: 108 trailheads in 37 parks; Makoshika 16; elevation 1,962 ft (Brush Lake) to 6,188 ft (Lost Creek); MARKED 68, UNMARKED 39, one blank. Our bounding boxes: west of -110 longitude 78; Flathead Lake area box 21 in 5 parks incl. Lake Mary Ronan; Glendive box 16, all Makoshika; extremes Brush Lake (north, east), Thompson Falls (west), Bannack (south). Lesson family: latitude and longitude bounding-box filter.",
+    "requiredMentions": [
+      "Document Created April 5, 2021",
+      "July 1, 2021",
+      "collect and categorize data in up to three categories",
+      "implement an artificial intelligence algorithm to play a game against a human opponent or solve a problem",
+      "incorporates or integrates computer science content into district curriculum",
+      "10S CC",
+      "80 hours of professional development",
+      "66 of 172",
+      "1,655 of 45,378",
+      "81, then 101",
+      "78 of 108"
+    ],
+    "sources": [
+      {
+        "claim": "Montana OPI: Computer Science page (standards links, Class 4 Computer Coding endorsement, CyberMontana).",
+        "url": "https://opi.mt.gov/Educators/Teaching-Learning/K-12-Content-Standards/Computer-Science"
+      },
+      {
+        "claim": "Montana OPI: Montana Content Standards for Computer Science for K-12 (PDF, effective July 1, 2021).",
+        "url": "https://opifiles.mt.gov/Portals/182/Page%20Files/K-12%20Content%20Standards%20%26%20Revision/Computer%20Science/CS%20K12.pdf"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Montana access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Montana Fish, Wildlife & Parks: Montana State Parks Trailheads feature service.",
+        "url": "https://services3.arcgis.com/Cdxz8r11hT0MGzg1/arcgis/rest/services/Montana_State_Parks_Trailheads/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Montana under US mountain time (America/Denver) and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "That Montana requires a computer science course for graduation or in every school: no OPI page saying so was found; the standards are quoted as conditional on a district teaching CS.",
+      "A second Montana time zone: the tzdb names only US mountain time for Montana.",
+      "Code.org geography, school size, gender and race tabs, and the Code.org Montana advocacy page: not used.",
+      "Trailhead names that reference historic violence and battlefield sites: not printed; only neutral park names are used.",
+      "Official trail or park guidance from our counts: refused; FWP maps remain the reference.",
+      "Names of individual Montana schools: not needed; counts only.",
+      "That our classes satisfy any Montana standard, credit or endorsement: refused.",
+      "Any affiliation with Montana OPI, Montana Fish, Wildlife and Parks, CyberMontana, Code.org or the College Board."
+    ]
   }
 }
