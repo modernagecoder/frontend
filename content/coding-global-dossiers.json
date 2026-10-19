@@ -51382,5 +51382,72 @@
       "Names of individual New Hampshire schools: not needed; counts only.",
       "Any affiliation with the NH Department of Education, NH GRANIT, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-new-mexico": {
+    "market": "New Mexico",
+    "bodyClass": "cg-anm",
+    "pageType": "city",
+    "curriculumAuthority": "New Mexico, read raw 17 to 18 October 2026: NM PED Math and Science Bureau CS page (CSTA PK-12 standards 2026; AI and data literacy; standalone, integrated or CTE delivery; regardless of location or background; Computer Science Education for All); PED Adopted Content Standards page (2026 CSTA standards listed); PED Computer Science Strategic Plan (task force fall 2019; plan June 2021; vision guarantees K-12 CS to ALL students; goal lines Adopt CS standards Dec 2018, CS satisfy core graduation requirement Apr 2018, all high schools offer CS Aug 2021 to Aug 2023, 30 enrolled in CS teacher prep); HB171 Graduation Manual April 2026 and cohort 2029 flyer (SY 2025-26 entrants; 24 units; 5.5 electives with two-unit pathway; CS and financial literacy offered as electives; Algebra 2 removed as requirement; two local units); Code.org (2025) 126 of 235, 53.6%, trend from 23%; participation 3,335 of 101,654, 3.28%, series 2.5% to 3.3%; College Board 122 (2023), 119 (2024); IANA America/Denver.",
+    "localProject": "City of Albuquerque Bikeways Existing in 2024 feature layer (City as-is no-warranty licence), attributes downloaded 18 October 2026: our counts on 3,540 records; maintainer codes decoded with the layer domain (CABQ_SM 1,905; BERNCO 315; HOA 275; NMDOT 169; CABQ_OS 34; null 68); CABQ_PM 706 and three other codes outside the domain, 726 records; jurisdiction spelled two ways (3,010 and 92); Gravel and UNK outside the surface domain; 10 of 12 path types used, bike lanes 1,228. All labelled ours. Lesson family: decoding coded fields with a lookup dictionary.",
+    "requiredMentions": [
+      "HB171",
+      "SY 2025-26",
+      "computer science shall be offered as electives",
+      "two-unit pathway concentration",
+      "CSTA PK-12 Computer Science Standards (2026)",
+      "June 2021",
+      "guarantees a K-12 computer science education to ALL students",
+      "126 of 235",
+      "3,335 of 101,654",
+      "CABQ_PM",
+      "3,540 records"
+    ],
+    "sources": [
+      {
+        "claim": "NM PED Math and Science Bureau: Computer Science page, CSTA 2026 standards, delivery models.",
+        "url": "https://web.ped.nm.gov/bureaus/math-and-science-bureau/computer-science/"
+      },
+      {
+        "claim": "NM PED Computer Science Strategic Plan: task force, completion June 2021, vision, goal lines.",
+        "url": "https://web.ped.nm.gov/wp-content/uploads/2024/12/PED-Computer-Science-Strategic-Plan-FINAL.pdf"
+      },
+      {
+        "claim": "NM PED HB171 Graduation Manual (April 2026): electives, CS offered, Algebra 2, local units.",
+        "url": "https://web.ped.nm.gov/wp-content/uploads/2026/04/Graduation-Manual-HB171-April-2026.pdf"
+      },
+      {
+        "claim": "NM PED cohort 2029 graduation flyer: 24 units, CS shall be offered.",
+        "url": "https://web.ped.nm.gov/wp-content/uploads/2025/05/Cohort-2029-Graduation-Requirements-Flyer-May.2025.pdf"
+      },
+      {
+        "claim": "NM PED Graduation Requirements page: cohorts and entry years.",
+        "url": "https://web.ped.nm.gov/bureaus/college-and-career-readiness-bureau/graduation/"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: New Mexico access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Albuquerque: Bikeways Existing in 2024 feature service.",
+        "url": "https://services.arcgis.com/CWv1abTnC3urn4bV/arcgis/rest/services/Bikeways_Existing_in_2024/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: New Mexico under US mountain time, America/Denver.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "That New Mexico adopted CS standards in December 2018: the plan table gives that date for the goal, but the status column did not extract cleanly, so only the date is quoted as the plan states it.",
+      "Whether all New Mexico high schools met the August 2023 offering goal: not claimed; Code.org shows 53.6% in 2023 to 2024.",
+      "A year for the 3,335 participation count: the Code.org most recent tab gives no year, so none is attached.",
+      "The meaning of CABQ_PM and the other undocumented maintainer codes: not guessed.",
+      "Bikeway lengths: the layer length field is in map units, so no miles are printed.",
+      "That our classes satisfy an HB171 elective or pathway: refused; only school courses do.",
+      "Any affiliation with NM PED, the City of Albuquerque, Code.org or the College Board."
+    ]
   }
 }

@@ -235,7 +235,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 85 | coding-and-ai-classes-in-missouri (aiab, #805A32) | state | 3,154 | 1.9% vs coding-and-ai-classes-in-michigan | phase 4 | year or date trend over time (sorting by period, aggregating by year, reading a  | 2298773e |
 | 86 | coding-and-ai-classes-in-montana (aimo, #51612C) | state | 3,294 | 1.7% vs coding-and-ai-classes-in-louisiana | phase 4 | latitude and longitude bounding-box filter | e512c0cc |
 | 88 | coding-and-ai-classes-in-nevada (ain, #146150) | state | 3,665 | 2.2% vs coding-and-ai-classes-in-massachusetts | phase 4 | data validation (missing values, two kinds of blank, outliers, unit cross-checks | 58157dbf |
-| 89 | coding-and-ai-classes-in-new-hampshire (anh, #225680) | state | 3,340 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sets and distinct values (union, intersection, difference, normalising before de | (this commit) |
+| 89 | coding-and-ai-classes-in-new-hampshire (anh, #225680) | state | 3,340 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sets and distinct values (union, intersection, difference, normalising before de | 1325ab13 |
+| 91 | coding-and-ai-classes-in-new-mexico (anm, #201452) | state | 3,490 | 1.7% vs coding-and-ai-classes-in-nevada | phase 4 | decoding coded fields with a lookup dictionary (and handling codes the dictionar | (this commit) |
 
 ## Skipped
 
