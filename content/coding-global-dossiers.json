@@ -51513,5 +51513,69 @@
       "Names of individual North Dakota schools or standards committee members: not printed.",
       "Any affiliation with NDDPI, NDIT EduTech, the state GIS hub, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-alabama": {
+    "market": "Alabama",
+    "bodyClass": "cg-aa",
+    "pageType": "city",
+    "curriculumAuthority": "Alabama, read raw 17 and 18 October 2026. ALSDE unreachable (DNS SERVFAIL, timeout), so no department page is quoted. Office of the Governor: advisory council (September 27, 2017); Governors' Partnership for K-12 Computer Science (December 4, 2017); Computer Science for Alabama Act HB216 phasing in course offerings, PD funding and certification route (July 26, 2019); 2025-2026 Governor's App Challenge rules and dates (October 23, 2025). Code.org (2025) access trend 49% to 95% to 91.9%, 351 of 382; participation 17,488 of 222,089, 7.87% (2023-24). College Board AP schools 306 (2023), 319 (2024). IANA America/Chicago and the Phenix City Eastern-time comment.",
+    "localProject": "City of Birmingham City Parks feature layer (CityofBirminghamGIS), listed on the city open data portal under Creative Commons Attribution, downloaded 18 October 2026: 130 records (count query 130), 120 distinct names, 7 blank address fields (counted only), 8 zero-acreage records (6 Rotary Trail pieces), 10 repeated name and acreage rows; our sums 3,026.67 naive and 2,815.34 after dropping repeats; largest record 1,051.74 (34.7%); 18 nonzero under one acre; unlabelled codes. Lesson family: missing and disguised-missing values.",
+    "requiredMentions": [
+      "Computer Science for Alabama Act (HB216)",
+      "September 27, 2017",
+      "Governors' Partnership for K-12 Computer Science",
+      "351 of 382",
+      "17,488 of 222,089",
+      "306 (251 public)",
+      "teams of up to three members",
+      "January 19, 2026",
+      "Phenix City, Lanett, Smiths Station and Valley",
+      "2,815.34",
+      "3,026.67"
+    ],
+    "sources": [
+      {
+        "claim": "Office of the Governor: Governor's Advisory Council for Computer Science Education, 27 September 2017.",
+        "url": "https://governor.alabama.gov/newsroom/2017/09/governor-ivey-creates-computer-science-education-advisory-council/"
+      },
+      {
+        "claim": "Office of the Governor: Governors' Partnership for K-12 Computer Science, 4 December 2017.",
+        "url": "https://governor.alabama.gov/newsroom/2017/12/governor-ivey-joins-bipartisan-effort-to-provide-opportunities-for-computer-science-education-in-alabama/"
+      },
+      {
+        "claim": "Office of the Governor: Computer Science for Alabama Act (HB216), 26 July 2019.",
+        "url": "https://governor.alabama.gov/newsroom/2019/07/two-years-of-governor-iveys-strong-start-strong-finish-education-initiative-groundwork-laid-implementing-policy/"
+      },
+      {
+        "claim": "Office of the Governor: 2025-2026 Alabama Governor's App Challenge, 23 October 2025.",
+        "url": "https://governor.alabama.gov/newsroom/2025/10/governor-ivey-invites-alabama-students-to-participate-in-the-alabama-governors-app-challenge/"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Alabama access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Birmingham: City Parks feature layer and the open data package licence.",
+        "url": "https://data.birminghamal.gov/dataset/birmingham-city-parks-maps"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Chicago, Alabama Eastern-time towns comment, US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Alabama CS standards, their adoption year and any CS graduation credit rule: the ALSDE site (alabamaachieves.org, alsde.edu) did not resolve on 17 or 18 October 2026, so nothing is printed from it.",
+      "Code.org graduating-senior, gender and race figures and the Code.org state summary text: not used (outside the Access and Participation tabs).",
+      "A 2024-25 Alabama participation figure: the sheet has none; only the 2023-24 value is printed.",
+      "Jobs and salary figures in the 2017 press release: not used (no job or salary claims).",
+      "The name of the HB216 sponsor and other individuals: not needed; the law is cited by bill number.",
+      "Official Birmingham park acreage: not read; only our sums from one download are printed, labelled as ours, and no address is printed.",
+      "Meanings of the DEDICATED, MANAGED and PARK_TYPE codes: no codebook found, so they are left uninterpreted.",
+      "Any affiliation with ALSDE, the Office of the Governor, the App Challenge, the City of Birmingham, Code.org or the College Board."
+    ]
   }
 }

@@ -237,7 +237,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 88 | coding-and-ai-classes-in-nevada (ain, #146150) | state | 3,665 | 2.2% vs coding-and-ai-classes-in-massachusetts | phase 4 | data validation (missing values, two kinds of blank, outliers, unit cross-checks | 58157dbf |
 | 89 | coding-and-ai-classes-in-new-hampshire (anh, #225680) | state | 3,340 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sets and distinct values (union, intersection, difference, normalising before de | 1325ab13 |
 | 91 | coding-and-ai-classes-in-new-mexico (anm, #201452) | state | 3,490 | 1.7% vs coding-and-ai-classes-in-nevada | phase 4 | decoding coded fields with a lookup dictionary (and handling codes the dictionar | f1ab994f |
-| 92 | coding-and-ai-classes-in-north-dakota (and, #803248) | state | 3,794 | 1.4% vs coding-classes-in-new-jersey | phase 4 | random sampling versus the full count (estimation error, rare categories) | (this commit) |
+| 92 | coding-and-ai-classes-in-north-dakota (and, #803248) | state | 3,794 | 1.4% vs coding-classes-in-new-jersey | phase 4 | random sampling versus the full count (estimation error, rare categories) | 9525205c |
+| 63 | coding-and-ai-classes-in-alabama (aa, #9E2151) | state | 3,679 | 1.7% vs coding-and-ai-classes-in-massachusetts | phase 4 | missing and disguised-missing values (blanks, zeros that mean unknown, repeated  | (this commit) |
 
 ## Skipped
 
