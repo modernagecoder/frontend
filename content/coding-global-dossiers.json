@@ -51577,5 +51577,55 @@
       "Meanings of the DEDICATED, MANAGED and PARK_TYPE codes: no codebook found, so they are left uninterpreted.",
       "Any affiliation with ALSDE, the Office of the Governor, the App Challenge, the City of Birmingham, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-alaska": {
+    "market": "Alaska",
+    "bodyClass": "cg-aia",
+    "pageType": "city",
+    "curriculumAuthority": "Alaska, read raw 17 and 18 October 2026. education.alaska.gov (Request Rejected), akleg.gov (Cloudflare), gov.alaska.gov (verification) and acpe.alaska.gov (403) blocked; nothing quoted from them. Code.org (2025): access 19%, 32%, 42%, 51%, no 2022-23 or 2023-24 value, 34.2% (89 of 260, School Course Catalogs and Teacher Surveys); no participation values. College Board AP schools 59 (2023), 70 (2024); public 52, 63. IANA tzdb: seven Alaska zone names, Adak on Hawaii-Aleutian time, Metlakatla history 2015 to 2019, 1983 \"four time zones now two\", 1867 \"two Sundays\".",
+    "localProject": "Alaska DOT&PF Airports layer (AKDOT_GIS, public, no-warranty disclaimer), downloaded 17 October 2026, count 285: regions Northern 118, Southcoast 87, Central 80; our haversine miles from ANC: median 396.8, 22 within 100, 86 over 500, FAI 260.3, OME 537.2, JNU 569.1, BRW 722.5, KTN 772.8, AKA 1,097.2, ADK 1,188.9; longitudes -176.65 to -130.01. Lesson family: great-circle distance.",
+    "requiredMentions": [
+      "89 of 260",
+      "School Course Catalogs and Teacher Surveys",
+      "19%",
+      "Barrow (BRW)",
+      "Only 22 lie within 100 miles",
+      "celebrated two Sundays",
+      "Alaska's four time zones now two",
+      "1,188.9",
+      "396.8",
+      "118 in the Northern region",
+      "3,958.8"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Alaska access, source label, no participation values.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "IANA tzdb zone1970.tab: Alaska zone names and areas.",
+        "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Alaska zone rules, Metlakatla and Anchorage history, 1867 and 1983 notes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      },
+      {
+        "claim": "Alaska DOT&PF: Airports feature layer.",
+        "url": "https://services.arcgis.com/r4A0V7UzH9fcLVvv/arcgis/rest/services/Airports/FeatureServer"
+      }
+    ],
+    "rejectedClaims": [
+      "Alaska CS standards, any CS graduation rule and the Alaska Administrative Code text: education.alaska.gov and akleg.gov blocked requests on 17 October 2026 (WAF and Cloudflare); not retried around.",
+      "Code.org graduating-senior, gender, race and geography figures and the Code.org Alaska summary text: not used.",
+      "A reading of the 51% to 34.2% change as a decline: refused, because the method for earlier years is not shown and two years are missing.",
+      "Airport names that contain personal names: given by FAA code and town instead.",
+      "Road, ferry or flight distances: not computed; only our straight-line haversine figures are printed, labelled as ours.",
+      "Any affiliation with the Alaska Department of Education and Early Development, DOT&PF, Code.org or the College Board."
+    ]
   }
 }
