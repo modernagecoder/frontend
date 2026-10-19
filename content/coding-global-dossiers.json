@@ -51812,5 +51812,72 @@
       "Official CPW trail mileage totals: not read; only our bins of the layer field are printed, labelled as ours. Wildlife and hunting layers in the same service were not used.",
       "Any affiliation with CDE, Colorado Parks and Wildlife, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-connecticut": {
+    "market": "Connecticut",
+    "bodyClass": "cg-aico",
+    "pageType": "city",
+    "curriculumAuthority": "Connecticut, read raw 18 October 2026. CSDE CS page (STEM credit pathway, 9 credit minimum, Sec 10-221a; plan October 2020; adoption June 6, 2018; STEM statement October 3, 2018). State Board resolution June 6, 2018 (CSTA K-12 and ISTE Standards for Students; 2016 position statement; Public Act No. 17-67). CSDE Implementation Guidelines 2018 (Levels 1A, 1B, 2, 3A, 3B with grades and ages; five Concepts, sixteen Subconcepts; three sample pathways; one rigorous HS course). CS Plan 2020 (2014 advisory group; 2024 vision; 20% AP goal by 2025). cga.ct.gov unreachable. Code.org (2025) access 67% to 83.6% (173 of 207); participation 8.0%, 8.53%, 7.53% (12,411 of 164,921). College Board 279, 280 (207 public). IANA America/New_York.",
+    "localProject": "data.ct.gov Public Libraries (kf75-36tt, CT State Library, Public Domain; 5,278 rows, 1996 to 2024) joined to the Connecticut Towns crosswalk (5hqs-h5c3, OPM, Public Domain; 169 towns), downloaded 18 October 2026. Our fiscal 2024 join: 173 rows, 102 exact matches, 71 \"Town - Library\" keys, 173 of 173 after splitting, 162 towns with a row, 7 without, 8 with more than one; one Windham row in Litchfield County; 183 rows in 2023. Lesson family: table joins and key repair.",
+    "requiredMentions": [
+      "STEM credit pathway",
+      "June 6, 2018",
+      "Public Act No. 17-67",
+      "Broad and Deep Exposure",
+      "sixteen Subconcepts",
+      "173 of 207",
+      "12,411 of 164,921",
+      "increase by 20%",
+      "102 of 173",
+      "173 of 173",
+      "Groton, Windham and Woodstock"
+    ],
+    "sources": [
+      {
+        "claim": "CSDE: Computer Science page, STEM credit pathway and Sec 10-221a, standards adoption and plan links.",
+        "url": "https://portal.ct.gov/SDE/Computer-Science/Computer-Science"
+      },
+      {
+        "claim": "State Board of Education: adoption of the CSTA K-12 and ISTE Standards, June 6, 2018.",
+        "url": "https://portal.ct.gov/-/media/sde/board/boardmaterials060618/adoption_of_the_computer_science_teacher_association_cstak12_standards.pdf"
+      },
+      {
+        "claim": "CSDE: Connecticut Computer Science Implementation Guidelines (2018).",
+        "url": "https://portal.ct.gov/-/media/sde/computer-science/connecticut_computer_science_implementation_guidelines.pdf"
+      },
+      {
+        "claim": "CSDE: Connecticut Computer Science Plan (October 2020).",
+        "url": "https://portal.ct.gov/-/media/sde/computer-science/connecticut_computer_science_state_plan_final.pdf"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Connecticut access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "data.ct.gov: Public Libraries (CT State Library).",
+        "url": "https://data.ct.gov/d/kf75-36tt"
+      },
+      {
+        "claim": "data.ct.gov: Connecticut Towns crosswalk (OPM).",
+        "url": "https://data.ct.gov/d/5hqs-h5c3"
+      },
+      {
+        "claim": "IANA tzdb: Connecticut on US eastern time, America/New_York.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "The text of Sec 10-221a and the total diploma credit count: cga.ct.gov did not connect on 18 October 2026, so only CSDE's description is printed.",
+      "Whether the plan's 2024 vision was met: no CSDE report read; not claimed.",
+      "The plan's gender, high-need and racial gap goals and the Code.org gender, race, geography and graduation figures: not used.",
+      "Names of advisory group, workgroup and Board members: not printed.",
+      "Library finance columns and library names that contain personal names: not printed; counts and town names only.",
+      "Which county is correct for the Windham row: not decided; the conflict is reported.",
+      "Any affiliation with CSDE, the State Library, OPM, Code.org or the College Board."
+    ]
   }
 }

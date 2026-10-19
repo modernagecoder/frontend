@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Connecticut](/coding-and-ai-classes-in-connecticut)
 - [Colorado](/coding-and-ai-classes-in-colorado)
 - [Arkansas](/coding-and-ai-classes-in-arkansas)
 - [Arizona](/coding-and-ai-classes-in-arizona)
