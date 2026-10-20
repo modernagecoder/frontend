@@ -263,7 +263,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 100 | coding-and-ai-classes-in-tennessee (at, #66361F) | state | 3,230 | 2.1% vs coding-and-ai-classes-in-south-carolina | phase 4 | parsing messy time strings and converting between time zones (datetime handling) | 4cd512ed |
 | 101 | coding-and-ai-classes-in-utah (aiu, #704714) | state | 3,437 | 2.2% vs coding-and-ai-classes-in-tennessee | phase 4 | geographic bounding-box filtering and boundary conditions | 5ba2f8db |
 | 102 | coding-and-ai-classes-in-vermont (av, #1C354C) | state | 3,201 | 1.9% vs coding-and-ai-classes-in-south-dakota | phase 4 | text cleaning and normalization of names (strip, tokenize, standardize), then co | 8926cf0e |
-| 105 | coding-and-ai-classes-in-west-virginia (awv, #943543) | state | 3,691 | 1.9% vs coding-and-ai-classes-in-oklahoma | phase 4 | percentages, rounding and denominators (why rounded parts do not add to 100, and | (this commit) |
+| 105 | coding-and-ai-classes-in-west-virginia (awv, #943543) | state | 3,691 | 1.9% vs coding-and-ai-classes-in-oklahoma | phase 4 | percentages, rounding and denominators (why rounded parts do not add to 100, and | 5037df91 |
+| 106 | coding-and-ai-classes-in-wisconsin (aw, #855944) | state | 3,115 | 2.4% vs coding-and-ai-classes-in-ohio | phase 4 | percent share, choosing the denominator, and pie versus bar charts | (this commit) |
 
 ## Skipped
 

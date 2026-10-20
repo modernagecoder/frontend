@@ -53001,5 +53001,54 @@
       "That our classes earn the West Virginia CS credit: refused.",
       "Any affiliation with the West Virginia Department of Education, the Legislature, WVDOT, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-wisconsin": {
+    "market": "Wisconsin",
+    "bodyClass": "cg-aw",
+    "pageType": "city",
+    "curriculumAuthority": "Wisconsin, read raw on 18 October 2026: dpi.wi.gov unreachable twice and docs.legis.wisconsin.gov unresolvable, so no Wisconsin rule is printed; Code.org (2025) State of AI + CS Education data (access 42%, 49%, 51%, 56%, 52.3%, 54.4%; 318 of 585 in 2023-24; participation 4.9%, 3.6%, 3.5%, 3.19%; 8,377 of 262,627; national 60% and 6.4%); College Board AP schools 484 (2023), 483 (2024), public 396/406, non-public 88/77; IANA Central list includes Wisconsin, America/Chicago, US DST rule.",
+    "localProject": "City of Madison Parks Land Polygons (City of Madison Data Policy, informational, no warranty), 297 records fetched 18 October 2026: Type counts MINI 102, NEIGHBORHOOD 84, COMMUNITY 33, TRAFFICWAY 23, OPEN SPACE 21, CONSERVATION 21, SPECIAL 10, SPORTS COMPLEX 2, OTHER 1; our acreage sums COMMUNITY 2,168.5, CONSERVATION 1,850.1, NEIGHBORHOOD 825.6, SPECIAL 786.9, MINI 202.5; total 6,002.45; shares MINI 34.3% of records vs 3.4% of acres. All ours. Lesson family: percent share, denominators, pie versus bar.",
+    "requiredMentions": [
+      "318 of 585",
+      "8,377 of 262,627",
+      "54.4%",
+      "3.19%",
+      "484",
+      "297 records",
+      "6,002.45",
+      "34.3%",
+      "2,168.5"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Wisconsin and national access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Madison: Parks Land Polygons layer.",
+        "url": "https://maps.cityofmadison.com/arcgis/rest/services/Public/OPEN_DATA/MapServer/24"
+      },
+      {
+        "claim": "City of Madison Data Policy (terms for the open data portal).",
+        "url": "https://www.cityofmadison.com/policy/data"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Wisconsin in the Central list, US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Wisconsin graduation requirement, standards adoption year or required offering: dpi.wi.gov and docs.legis.wisconsin.gov could not be reached on 17 and 18 October 2026, so none is printed.",
+      "Any cause for the falling share of students enrolled: not stated by the source.",
+      "A 2024 to 2025 Wisconsin figure: the sheet shows dashes.",
+      "Code.org state narrative, geography, size, gender and race figures: not used.",
+      "An official total of Madison parkland: the 6,002.45 acres is our sum of one field.",
+      "Park names and addresses: counts by type only.",
+      "That our classes earn Wisconsin credit, and any affiliation with the Wisconsin DPI, the City of Madison, Code.org or the College Board."
+    ]
   }
 }
