@@ -1764,3 +1764,4 @@
 .cg-root.cg-asc  { --cg-accent: #443C85; --cg-accent-soft: rgba(68,60,133,.10); }   /* South Carolina: #443C85, a muted indigo close to the state flag blue, allocated in alloc.tsv row 98 and checked by the build for 4.5:1 contrast on every paper */
 .cg-root.cg-asd  { --cg-accent: #6B1021; --cg-accent-soft: rgba(107,16,33,.10); }   /* South Dakota: #6B1021, a deep Badlands oxblood allocated for row 99 in alloc.tsv, well above text contrast on the paper */
 .cg-root.cg-at  { --cg-accent: #66361F; --cg-accent-soft: rgba(102,54,31,.10); }   /* Tennessee: #66361F, a deep river-clay brown, allocated in alloc.tsv row 100 and checked by the build for 4.5:1 contrast on every paper */
+.cg-root.cg-aiu  { --cg-accent: #704714; --cg-accent-soft: rgba(112,71,20,.10); }   /* Utah: #704714, a canyon sandstone brown, allocated in alloc.tsv row 101 and checked by the build for 4.5:1 contrast on every paper */

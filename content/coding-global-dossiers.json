@@ -52820,5 +52820,66 @@
       "Code.org state narrative, geography, size, gender and race figures: not used.",
       "That our classes earn Tennessee credit, and any affiliation with the Tennessee Department of Education, Metro Nashville, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-utah": {
+    "market": "Utah",
+    "bodyClass": "cg-aiu",
+    "pageType": "city",
+    "curriculumAuthority": "Utah, read raw on 18 October 2026: USBE K-5 CS Standards (2019; March 2019 development; core concepts; 2.DA.1; 30+ courses incl. Game Development, Web Development 1, CS Principles; Taskforce priorities accepted June 2018); USBE 6-12 CS Standards (November 8, 2019; access by 2022 vision; keyboarding and basic coding in elementary; 6.NI.1); CS Master Plan summary (July 2019; access by 2022; 16 percent of high schools offering intermediate and advanced CS, 2019; HB227); USBE graduation page (24 units; R277-705 competency; credits before grade 9; districts may add; R277-700-6); Code.org (2025) (access 66% to 82.2%, 175 of 213; participation 12.9% to 11.38%, 24,445 of 214,800; national 60% and 6.1%); College Board AP 196/203, public 164/181, non-public 32/22; IANA Mountain list, America/Denver.",
+    "localProject": "UGRC Utah Trailheads (CC BY 4.0; \"not yet complete\"), fetched 18 October 2026: 568 points, all with geometry; DataSource OrbitalView 559, blank 9; maintenance, seasonal and features fields empty in all 568; our boxes: 50 in lat 40.5 to 40.9 by lon -112.1 to -111.7, 317 north of 40.0, 136 south of 38.0, 1 outside lat 37 to 42 (latitude 36.99999). All ours. Lesson family: bounding-box filtering and boundary conditions.",
+    "requiredMentions": [
+      "November 8, 2019",
+      "2.DA.1",
+      "6.NI.1",
+      "HB227",
+      "16 percent",
+      "24 units of credit",
+      "175 of 213",
+      "24,445 of 214,800",
+      "568",
+      "36.99999"
+    ],
+    "sources": [
+      {
+        "claim": "USBE: Utah K-5 Computer Science Standards (2019).",
+        "url": "https://schools.utah.gov/cte/_cte/computer/K5ComputerScienceStandards.pdf"
+      },
+      {
+        "claim": "USBE: Utah 6-12 Computer Science Standards (November 8, 2019).",
+        "url": "https://schools.utah.gov/cte/_cte/computer/612ComputerScienceStandards.pdf"
+      },
+      {
+        "claim": "USBE: Utah Computer Science Education Master Plan summary (2019).",
+        "url": "https://schools.utah.gov/cte/_cte/computer/ComputerScienceMasterPlanSummary.pdf"
+      },
+      {
+        "claim": "USBE: Graduation Requirements.",
+        "url": "https://schools.utah.gov/curr/graduationrequirements.php"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Utah and national access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "UGRC: Utah Trailheads, CC BY 4.0.",
+        "url": "https://services1.arcgis.com/99lidPhWCzftIe9K/arcgis/rest/services/UtahTrailheads/FeatureServer/0"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Utah in the Mountain list.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Whether a computer science course counts toward a specific Utah credit area: R277-700-6 was not read in full, so no claim is made.",
+      "Master plan salary and job-count statements and its demographic sentences: not used (no money or identity content).",
+      "That the 2022 goal was met: no USBE source read says so; the Code.org figures are printed as published.",
+      "Any cause for the access or participation trends: not stated by the sources.",
+      "Trailhead names and an official count of Utah trailheads: the layer is incomplete by UGRC's own description; counts only.",
+      "That our classes earn Utah credit, and any affiliation with USBE, UGRC, Code.org or the College Board."
+    ]
   }
 }
