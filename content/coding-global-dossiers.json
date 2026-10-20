@@ -53422,5 +53422,54 @@
       "The reason some locations were counted five times: not stated by the City; not guessed on the page.",
       "Any affiliation with the City of San Diego, its Transportation Department or Code.org."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-orange-county-california": {
+    "market": "Orange County",
+    "bodyClass": "cg-apto",
+    "pageType": "city",
+    "curriculumAuthority": "California, 18 October 2026: cde.ca.gov (WAF redirect) and leginfo.legislature.ca.gov (403) unreadable, so no state rule is quoted; Code.org (2025) Most Recent Access Data CA 1,325 of 2,282 with Primary Data Source School Course Catalogs and Teacher Surveys, year withheld because the tabs disagree. IANA America/Los_Angeles and the US DST rule.",
+    "localProject": "OC Public Works ArcGIS layers, downloaded 18 October 2026: Libraries (60 records; County Library 32, City Library 27, Law Library 1; last edited August 4, 2020) and CityBoundaries_Dissolve (34 cities plus Unincorporated); no licence statement on either. Our ray-casting point-in-polygon join: 55 of 60 match the address city; Foothill Ranch to Lake Forest, Ladera Ranch and Silverado to Unincorporated, Corona del Mar and Balboa to Newport Beach (2 to 4); Los Alamitos has none. OC Public Libraries: 29 branches and a satellite location. Results ours. Lesson family: spatial join with point-in-polygon, checking a derived field against a typed one.",
+    "requiredMentions": [
+      "60 records: 32 county, 27 city, 1 law library",
+      "34 cities and one Unincorporated area",
+      "55 of 60",
+      "Foothill Ranch Library",
+      "Library of the Canyons",
+      "2 by address, 4 by boundary",
+      "Los Alamitos",
+      "August 4, 2020",
+      "a network of 29 branches",
+      "Orangewood Children and Family Center"
+    ],
+    "sources": [
+      {
+        "claim": "OC Public Works ArcGIS: Libraries feature service (description, fields, last edit date).",
+        "url": "https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/Libraries/FeatureServer/0"
+      },
+      {
+        "claim": "OC Public Works ArcGIS: CityBoundaries_Dissolve feature service (34 cities and Unincorporated).",
+        "url": "https://services.arcgis.com/UXmFoWC7yDHcDN5Q/arcgis/rest/services/CityBoundaries_Dissolve/FeatureServer/0"
+      },
+      {
+        "claim": "OC Public Libraries: About OCPL, 29 branches and a satellite location.",
+        "url": "https://www.ocpl.org/about"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: California access and source label.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb: America/Los_Angeles and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "California state CS rules: cde.ca.gov and leginfo.legislature.ca.gov could not be read; not retried, nothing quoted.",
+      "A licence for the two OC Public Works layers: none is published; only counts, library names and our own results are printed.",
+      "The CC0 City Boundaries layer on ocgis.com: host did not respond; not retried.",
+      "That the 2020 layer reflects today&rsquo;s library network: refused; OCPL&rsquo;s current 29 branches are printed beside it with dates.",
+      "Census or demographic layers in the same organization: not used.",
+      "Any affiliation with the County of Orange, OC Public Works, OC Public Libraries or Code.org."
+    ]
   }
 }
