@@ -53948,5 +53948,59 @@
       "A Code.org 2024 to 2025 Florida access figure: none published in the sheet, so only 2023 to 2024 is printed.",
       "Any affiliation with Miami-Dade County, its library system, Florida Virtual School, Code.org or the College Board."
     ]
+  },
+  "best-coding-classes-for-kids-in-orlando": {
+    "market": "Orlando",
+    "bodyClass": "cg-bko",
+    "pageType": "city",
+    "curriculumAuthority": "Florida, read 18 October 2026: Florida Statutes s. 1007.2616 on Online Sunshine (definition of computer science; coding instruction may be included in elementary and middle school; elementary and middle schools may establish digital classrooms). Code.org (2025) State of AI + CS Education raw sheet, Most Recent Access Data FL 2023-2024, 463 of 1,192. FLDOE returned 403. IANA America/New_York and the US DST rule.",
+    "localProject": "City of Orlando \"Orlando Annexations\" (data.cityoforlando.net jg52-dz4p, no licence stated), downloaded 18 October 2026: 1,012 records, 1950 to 2026; our counts by decade 83, 168, 178, 114, 112, 229, 80, 48 (2020s partial); top years 1973 (55) and 2002 (48); 78 of 251 pre-1970 records list 0 acres. Lesson family: binning by decade into a histogram, and incomplete bins.",
+    "requiredMentions": [
+      "1,012",
+      "The 2000s bin is the tallest, at 229",
+      "year // 10 * 10",
+      "85 inhabitants, 22 of whom were qualified voters",
+      "May 30, 1850",
+      "339,999",
+      "More than 148 parks",
+      "0.9 miles",
+      "GreenUp Orlando was created in 1985",
+      "1973, with 55 records",
+      "Lake Eola sidewalk"
+    ],
+    "sources": [
+      {
+        "claim": "City of Orlando open data: Orlando Annexations dataset.",
+        "url": "https://data.cityoforlando.net/resource/jg52-dz4p.json"
+      },
+      {
+        "claim": "City of Orlando: Orlando History.",
+        "url": "https://www.orlando.gov/Our-Government/News-and-Information/History"
+      },
+      {
+        "claim": "City of Orlando: Parks & the Environment, and Lake Eola Park.",
+        "url": "https://www.orlando.gov/Parks-the-Environment"
+      },
+      {
+        "claim": "Florida Statutes s. 1007.2616, Computer science and technology instruction.",
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1007/Sections/1007.2616.html"
+      },
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: Florida access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/New_York and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "FLDOE guidance: fldoe.org returned 403 on 18 October 2026, not retried.",
+      "A licence for the annexations dataset: none is stated, so the page links the source and quotes counts only.",
+      "Land area added per decade: not printed, because early records list 0 acres where the size was not recorded.",
+      "The Seminole Wars and fort history on the city page: not used (conflict content).",
+      "The Lake Eola \"Top 5\" ranking: a third-party award, not repeated.",
+      "Any affiliation with the City of Orlando, Orange County, Code.org or the College Board."
+    ]
   }
 }
