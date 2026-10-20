@@ -1761,3 +1761,4 @@
 .cg-root.cg-aior  { --cg-accent: #287050; --cg-accent-soft: rgba(40,112,80,.10); }   /* Oregon: #287050, a deep Douglas fir green, allocated in alloc.tsv row 95 and checked by the build for 4.5:1 contrast on every paper */
 .cg-root.cg-ap  { --cg-accent: #155A8F; --cg-accent-soft: rgba(21,90,143,.10); }   /* Pennsylvania: #155A8F, a deep river-slate blue for the three rivers at Pittsburgh, allocated in alloc.tsv for row 96 and kept muted against the paper */
 .cg-root.cg-ari  { --cg-accent: #2F3D70; --cg-accent-soft: rgba(47,61,112,.10); }   /* Rhode Island: #2F3D70, a Narragansett Bay navy allocated for row 97 in alloc.tsv, dark enough for text on the paper */
+.cg-root.cg-asc  { --cg-accent: #443C85; --cg-accent-soft: rgba(68,60,133,.10); }   /* South Carolina: #443C85, a muted indigo close to the state flag blue, allocated in alloc.tsv row 98 and checked by the build for 4.5:1 contrast on every paper */

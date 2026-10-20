@@ -257,7 +257,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 94 | coding-and-ai-classes-in-oklahoma (aio, #52481D) | state | 3,505 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sorting and top-N, then concentration (how much of the total the top few hold) | 769bec52 |
 | 95 | coding-and-ai-classes-in-oregon (aior, #287050) | state | 3,532 | 1.6% vs coding-and-ai-classes-in-michigan | phase 4 | dates and time series (fiscal-year labels, start and end dates, and a field that | 4e98a8e4 |
 | 96 | coding-and-ai-classes-in-pennsylvania (ap, #155A8F) | state | 3,690 | 1.6% vs coding-and-ai-classes-in-north-carolina | phase 4 | filtering and counting by category, plus missing values and reading a data dicti | af83badb |
-| 97 | coding-and-ai-classes-in-rhode-island (ari, #2F3D70) | state | 3,175 | 1.6% vs coding-and-ai-classes-in-mississippi | phase 4 | nearest-point distance (haversine), spatial grids, and duplicate points as a dat | (this commit) |
+| 97 | coding-and-ai-classes-in-rhode-island (ari, #2F3D70) | state | 3,175 | 1.6% vs coding-and-ai-classes-in-mississippi | phase 4 | nearest-point distance (haversine), spatial grids, and duplicate points as a dat | 805540a7 |
+| 98 | coding-and-ai-classes-in-south-carolina (asc, #443C85) | state | 3,458 | 2.3% vs coding-and-ai-classes-in-oregon | phase 4 | deduplication (choosing a key, near-duplicates, and three kinds of missing value | (this commit) |
 
 ## Skipped
 

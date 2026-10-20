@@ -52647,5 +52647,59 @@
       "That our classes meet the Rhode Island requirement: refused.",
       "Any affiliation with RIDE, CS4RI, the City of Providence, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-south-carolina": {
+    "market": "South Carolina",
+    "bodyClass": "cg-asc",
+    "pageType": "city",
+    "curriculumAuthority": "South Carolina, read raw on 18 October 2026: ed.sc.gov unreachable (connection timeout twice); SC Code of Regulations Chapter 43 (Legislature): Reg. 43-234, twenty-four units, computer science 1.0, keyboarding half unit by 2017-18, 120 and 60 hours, AP offering in schools with grades 11 and 12, Virtual SC; SC Code 59-39-100 (twenty-four units from 1997-1998 ninth graders; Profile of the Graduate from 2018-2019); Code.org (2025) data (access 69% to 92%, 276 of 300 in 2024-25; participation 21.8%, 27.5%, 25.67%, 61,733 of 240,463 in 2023-24; national 60% and 6.4%); College Board AP schools 378/380, public 246/305, non-public 132/75; IANA Eastern list and US DST rule.",
+    "localProject": "City of Charleston Open Data, Parks (no-warranty licence text), fetched 18 October 2026: 132 rows, 131 FACILITYSITEID, FAC-848 twice (rows differ in URL scheme, RESTROOM, DOGPARK, ULTIMATEGOLF); PARKFAC 115, RECFAC 17; regions Peninsula 70 to Cainhoy 1; YES counts PLAYGROUND 43, PICNICAREA 27, BASKETBALL 21, TENNIS 15, DOGPARK 11 (10 if the https row is kept); PICNICAREA 50 empty, 55 null; 1,640 of 1,848 amenity cells blank. All ours. Lesson family: deduplication and missing values.",
+    "requiredMentions": [
+      "Regulation 43-234",
+      "computer science 1.0",
+      "twenty-four units",
+      "120 hours of instruction",
+      "1997 to 1998",
+      "276 of 300",
+      "61,733 of 240,463",
+      "25.67%",
+      "FAC-848",
+      "1,640 of 1,848"
+    ],
+    "sources": [
+      {
+        "claim": "SC Code of Regulations, Chapter 43, State Board of Education: Reg. 43-234 graduation requirements.",
+        "url": "https://www.scstatehouse.gov/coderegs/Chapter%2043.pdf"
+      },
+      {
+        "claim": "SC Code of Laws, Title 59 Chapter 39, Section 59-39-100.",
+        "url": "https://www.scstatehouse.gov/code/t59c039.php"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: South Carolina and national access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Charleston Open Data: Parks feature service.",
+        "url": "https://services2.arcgis.com/tQaXW7Zb1Vphzvgd/arcgis/rest/services/Parks/FeatureServer/0"
+      },
+      {
+        "claim": "IANA tzdb northamerica: South Carolina in the Eastern list, US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "SC Department of Education pages (standards, course lists, guidance): ed.sc.gov did not respond, so nothing from them is printed.",
+      "That the high participation figure is caused by the diploma rule: not stated by any source, not claimed.",
+      "Any reason for the shift between public and non-public AP school counts: none given by the College Board.",
+      "The Code.org 2022 to 2023 and 2024 to 2025 participation values: dashes, left empty.",
+      "Park names beyond the duplicated site ID, addresses and the wheelchair field of the CARTA stops layer (considered, not used): counts only.",
+      "An official Charleston park total: not published in this form.",
+      "That our classes satisfy the computer science unit, and any affiliation with the SC Department of Education, the State Board, the City of Charleston, Code.org or the College Board."
+    ]
   }
 }
