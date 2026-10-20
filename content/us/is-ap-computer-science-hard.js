@@ -359,7 +359,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CSP coaching', p: 'The breadth course in full.' },
       { href: '/how-to-debug-code', label: 'How to debug code', p: 'The habit that makes AP easier.' },
       { href: '/coding-for-15-year-olds', label: 'Coding for 15 year olds', p: 'Where many start.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every US page in one place.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every US page in one place.' },
+      { href: '/java-cannot-find-symbol-error', label: 'Java cannot find symbol error', p: 'Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.' },
+      { href: '/code-org-app-lab-help', label: 'Code.org App Lab help', p: 'App Lab help: events, variables, screens, sound and data, from the official docs.' },
+      { href: '/ap-computer-science-a-score-calculator', label: 'AP CSA score calculator', p: 'An honest AP CSA score estimate: published weights, FRQ points and a worked composite.' }
     ]
   },
 

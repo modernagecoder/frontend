@@ -388,7 +388,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CSP coaching', p: 'The AP course many teens take first.' },
       { href: '/hackathons-for-high-school-students', label: 'High school hackathons', p: 'Team building under time pressure.' },
       { href: '/coding-for-15-year-olds', label: 'Coding for 15 year olds', p: 'What fits at fifteen.' },
-      { href: '/blog/how-to-use-chatgpt-to-study-without-cheating', label: 'Studying with AI, honestly', p: 'Using chatbots without losing the skill.' }
+      { href: '/blog/how-to-use-chatgpt-to-study-without-cheating', label: 'Studying with AI, honestly', p: 'Using chatbots without losing the skill.' },
+      { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge guide', p: 'The Congressional App Challenge explained from the 2026 rules, with a ten-week plan.' },
+      { href: '/presidential-ai-challenge-guide', label: 'Presidential AI Challenge guide', p: 'The Presidential AI (now SI) Challenge explained from the official 2027 rules.' },
+      { href: '/acsl-competition-preparation', label: 'ACSL competition preparation', p: 'ACSL from the official 2026-27 pages, with original practice problems.' }
     ]
   },
 

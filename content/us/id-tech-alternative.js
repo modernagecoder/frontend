@@ -305,7 +305,10 @@ module.exports = {
       { href: '/minecraft-coding-classes-for-kids', label: 'Minecraft coding classes', p: 'For younger game fans.' },
       { href: '/live-vs-recorded-coding-classes', label: 'Live vs recorded', p: 'Choosing a format.' },
       { href: '/modern-age-coders-vs-outschool', label: 'Compared with Outschool', p: 'Another comparison.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Where our US pages live.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Where our US pages live.' },
+      { href: '/codakid-alternative', label: 'CodaKid alternative', p: 'CodaKid and live online classes, compared on published facts.' },
+      { href: '/coding-with-kids-alternative', label: 'Coding with Kids alternative', p: 'Coding with Kids and Modern Age Coders, compared on published facts.' },
+      { href: '/khan-academy-computer-science-vs-live-classes', label: 'Khan Academy CS vs live classes', p: 'Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.' }
     ]
   },
 

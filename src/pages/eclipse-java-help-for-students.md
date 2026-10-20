@@ -299,6 +299,9 @@ The first lesson is free. After that, teaching is paid one month at a time, and 
 - [AP Computer Science A classes](/ap-computer-science-a-online-classes): Live preparation for the AP exam.
 - [Java for beginners](/java-for-beginners): Starting Java from zero.
 - [Java array programs](/blog/java-array-programs-for-beginners): Practice programs to run in Eclipse.
+- [IntelliJ and PyCharm free for students](/intellij-and-pycharm-free-for-students): IntelliJ IDEA and PyCharm for students: free core, student license, setup fixes.
+- [VS Code setup for students](/vs-code-setup-for-students): Set up VS Code for Python and Java, and fix the errors students hit.
+- [GitHub Classroom help for students](/github-classroom-help-for-students): GitHub Classroom retired on August 28, 2026: what students need to know.
 
 ## Contact
 

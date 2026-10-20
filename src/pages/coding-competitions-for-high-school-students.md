@@ -394,6 +394,9 @@ No. Modern Age Coders is an independent online school. We teach the skills these
 - [picoCTF for beginners](/picoctf-for-beginners): First flags, step by step.
 - [Technovation Girls](/technovation-girls-guide): The app and AI challenge for girls.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page we have for US families.
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students): Middle school coding competitions for 2026-27, grade by grade.
+- [Machine learning competitions for high school students](/machine-learning-competitions-for-high-school-students): ML and AI competitions for US high schoolers, 2026-27, from the official rules.
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students): Middle school math competitions for 2026-27, compared round by round.
 
 ## Contact
 

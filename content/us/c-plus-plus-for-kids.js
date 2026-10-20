@@ -386,7 +386,10 @@ module.exports = {
       { href: '/c-plus-plus-game-development', label: 'C++ game development', p: 'For teens who want to build games.' },
       { href: '/python-for-11-year-olds', label: 'Python for 11 year olds', p: 'The usual first step.' },
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our pages for US families.' },
-      { href: '/c-plus-plus-for-beginners', label: 'C++ for beginners', p: 'For older beginners and adults.' }
+      { href: '/c-plus-plus-for-beginners', label: 'C++ for beginners', p: 'For older beginners and adults.' },
+      { href: '/javascript-for-kids', label: 'JavaScript for kids', p: 'JavaScript for kids: an age guide, the Console, and three real programs to try today.' },
+      { href: '/app-inventor-for-kids', label: 'App Inventor for kids', p: 'MIT App Inventor for kids: sign-in options, phone setup and a first app in real blocks.' },
+      { href: '/coding-classes-for-elementary-students', label: 'Coding classes for elementary students', p: 'Coding for elementary students, grade by grade, with a first program and an at-home activity.' }
     ]
   },
 

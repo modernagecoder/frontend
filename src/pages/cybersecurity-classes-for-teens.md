@@ -336,6 +336,9 @@ The first lesson is free. After that, classes are paid one month at a time, and 
 - [High school hackathons](/hackathons-for-high-school-students): Team building under time pressure.
 - [Coding for 15 year olds](/coding-for-15-year-olds): What fits at fifteen.
 - [Studying with AI, honestly](/blog/how-to-use-chatgpt-to-study-without-cheating): Using chatbots without losing the skill.
+- [Congressional App Challenge guide](/congressional-app-challenge-guide): The Congressional App Challenge explained from the 2026 rules, with a ten-week plan.
+- [Presidential AI Challenge guide](/presidential-ai-challenge-guide): The Presidential AI (now SI) Challenge explained from the official 2027 rules.
+- [ACSL competition preparation](/acsl-competition-preparation): ACSL from the official 2026-27 pages, with original practice problems.
 
 ## Contact
 

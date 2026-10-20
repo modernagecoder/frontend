@@ -294,6 +294,9 @@ No. We run our own classes and only report what these organisations have publish
 - [Studying with AI honestly](/blog/how-to-use-chatgpt-to-study-without-cheating): Disclosure and good habits.
 - [AI projects for high schoolers](/ai-projects-for-high-school-students): Ideas to build next.
 - [North Carolina](/coding-and-ai-classes-in-north-carolina): One of the seventeen, up close.
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math): Common Core and traditional math compared from the standards, with a worked example.
+- [CS graduation requirements by state](/computer-science-graduation-requirements-by-state): Computer science graduation requirements in all 50 states and DC, with state sources.
+- [CS standards by state](/computer-science-standards-by-state): Which states have K-12 computer science standards, and which include AI.
 
 ## Contact
 

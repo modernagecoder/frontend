@@ -369,7 +369,10 @@ module.exports = {
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'A real app, judged locally.' },
       { href: '/hackathons-for-high-school-students', label: 'Hackathons for high schoolers', p: 'Team builds in a weekend.' },
       { href: '/ai-projects-for-high-school-students', label: 'AI projects for high schoolers', p: 'Project ideas with real depth.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' },
+      { href: '/coding-bootcamp-for-teens', label: 'Coding bootcamp for teens', p: 'Coding bootcamp for teens: the format, free tools and an eight-week plan.' },
+      { href: '/homeschool-computer-science-high-school-credit', label: 'Homeschool CS high school credit', p: 'Homeschool CS credit in NY, PA and TX, from the state sources, with a template.' },
+      { href: '/ai-summer-programs-for-high-school-students', label: 'AI summer programs for high school students', p: 'AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.' }
     ]
   },
 

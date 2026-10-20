@@ -370,6 +370,9 @@ We teach the defensive skills behind the rounds, from Windows and Linux hardenin
 - [AP CS Principles](/ap-computer-science-principles-online-coaching): Networks and the internet, for credit.
 - [Coding for 14-year-olds](/coding-for-14-year-olds): A good age to start CyberPatriot.
 - [Student labs](/student-labs): What our learners have built.
+- [Technovation Girls guide](/technovation-girls-guide): Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students): US high school coding competitions for 2026-27, from the organisers' own rules.
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students): Middle school coding competitions for 2026-27, grade by grade.
 
 ## Contact
 

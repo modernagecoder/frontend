@@ -336,6 +336,9 @@ Nothing for the first lesson. Fees are then paid month by month, and the fees se
 - [How to make a Roblox game](/how-to-make-a-roblox-game): For the Roblox fan in the family.
 - [3rd grade math tutoring](/online-math-tutor-3rd-grade): Coding and math grow together.
 - [How we teach](/how-we-teach): Inside a live class.
+- [Coding classes for middle school students](/coding-classes-for-middle-school-students): Coding for middle schoolers: grade 8 expectations, a real Python program, and how to choose a language.
+- [Coding classes for high school students](/coding-classes-for-high-school-students): Coding for high schoolers: CS access data, AP CSP and AP CSA in 2027, and a four-year plan.
+- [Coding milestones by age](/coding-milestones-by-age): Coding milestones by age, with a checklist for 8 to 10 year olds.
 
 ## Contact
 

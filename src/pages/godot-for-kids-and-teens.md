@@ -312,6 +312,9 @@ The first lesson is free. Lessons after that are paid monthly; the Fees section 
 - [Scratch coding classes](/scratch-coding-classes-for-kids): The gentle start before Godot.
 - [Coding for 13 year olds](/coding-for-13-year-olds): Choosing a first teen language.
 - [How we teach](/how-we-teach): What a live lesson looks like.
+- [Unity for teens](/unity-for-teens): Unity for teens: age rules, free plans, computer needs and two first C# scripts.
+- [Game design classes for teens](/game-design-classes-for-teens): Game design for teens: a method, real tuning code, and the US competitions that judge teen games.
+- [Game design summer camp for teens](/game-design-summer-camp-for-teens): Game design summer camp for teens: engines, a real script, a six-week plan.
 
 ## Contact
 

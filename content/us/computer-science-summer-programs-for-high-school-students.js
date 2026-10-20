@@ -353,7 +353,10 @@ module.exports = {
       { href: '/usaco-preparation-online-coaching', label: 'USACO coaching', p: 'Contest programming, bronze upward.' },
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A', p: 'Java and the AP exam.' },
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'A fall deadline for an app.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' },
+      { href: '/coding-summer-camp-for-middle-schoolers', label: 'Coding summer camp for middle schoolers', p: 'Coding summer camp for grades 6 to 8: blocks to Python in four weeks.' },
+      { href: '/game-design-summer-camp-for-teens', label: 'Game design summer camp for teens', p: 'Game design summer camp for teens: engines, a real script, a six-week plan.' },
+      { href: '/free-coding-programs-for-high-school-students', label: 'Free coding programs for high school students', p: 'Free coding programs for high schoolers, checked at the source, with a 16-week plan.' }
     ]
   },
 

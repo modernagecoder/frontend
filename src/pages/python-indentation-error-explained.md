@@ -306,6 +306,9 @@ The first lesson is free. After that, families pay for one month of live teachin
 - [Python for 14 year olds](/python-for-14-year-olds): Where a high school freshman can start.
 - [AP CSP coaching](/ap-computer-science-principles-online-coaching): The AP course many students meet first.
 - [How we teach](/how-we-teach): Inside a live lesson, step by step.
+- [Python turtle not working](/python-turtle-not-working): Python turtle not working? The real errors, the fixes, and how to write text.
+- [Scratch not working](/scratch-not-working-help): Scratch not working? Saving, sign-in, school network and tablet fixes, from the Scratch Help Center.
+- [MakeCode Arcade help](/makecode-arcade-help-for-students): MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.
 
 ## Contact
 

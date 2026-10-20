@@ -402,7 +402,10 @@ module.exports = {
       { href: '/blog/exception-handling-in-python', label: 'Exception handling in Python', p: 'Errors that appear while a program runs.' },
       { href: '/python-for-14-year-olds', label: 'Python for 14 year olds', p: 'Where a high school freshman can start.' },
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CSP coaching', p: 'The AP course many students meet first.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'Inside a live lesson, step by step.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'Inside a live lesson, step by step.' },
+      { href: '/python-turtle-not-working', label: 'Python turtle not working', p: 'Python turtle not working? The real errors, the fixes, and how to write text.' },
+      { href: '/scratch-not-working-help', label: 'Scratch not working', p: 'Scratch not working? Saving, sign-in, school network and tablet fixes, from the Scratch Help Center.' },
+      { href: '/makecode-arcade-help-for-students', label: 'MakeCode Arcade help', p: 'MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.' }
     ]
   },
 

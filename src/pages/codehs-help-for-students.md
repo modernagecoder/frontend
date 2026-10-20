@@ -313,6 +313,9 @@ The first lesson is free. After that, classes are paid one month at a time, and 
 - [AP CSP coaching](/ap-computer-science-principles-online-coaching): Live AP CSP preparation.
 - [AP CSP or AP CSA first?](/blog/ap-csp-vs-ap-csa-which-to-take-first): Choosing an order for the two courses.
 - [Python for beginners](/blog/python-for-beginners): The basics behind the Python units.
+- [Code.org App Lab help](/code-org-app-lab-help): App Lab help: events, variables, screens, sound and data, from the official docs.
+- [Java cannot find symbol error](/java-cannot-find-symbol-error): Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.
+- [BlueJ not working: fixes](/bluej-not-working-fix): BlueJ not working? Official fixes for install, VM errors, output and frozen runs.
 
 ## Contact
 

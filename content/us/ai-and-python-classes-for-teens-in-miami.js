@@ -245,7 +245,8 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'United States hub' },
     { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina' },
     { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge' },
-    { href: '/ap-computer-science-principles-online-coaching', label: 'AP CS Principles' }
+    { href: '/ap-computer-science-principles-online-coaching', label: 'AP CS Principles' },
+    { href: '/coding-and-ai-classes-in-florida', label: 'Florida' }
   ],
 
   personalityCss: `

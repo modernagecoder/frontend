@@ -275,6 +275,9 @@ The first lesson is free. After that, lessons are paid month by month, and the f
 - [JavaScript basics](/blog/javascript-basics): The language App Lab is built on.
 - [How to debug code](/how-to-debug-code): A general method for any bug.
 - [Web project ideas](/blog/html-css-javascript-project-ideas): What to build after App Lab.
+- [Java cannot find symbol error](/java-cannot-find-symbol-error): Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.
+- [BlueJ not working: fixes](/bluej-not-working-fix): BlueJ not working? Official fixes for install, VM errors, output and frozen runs.
+- [Eclipse Java help for students](/eclipse-java-help-for-students): Eclipse for Java students: install, run, read errors, fix Java version and memory.
 
 ## Contact
 

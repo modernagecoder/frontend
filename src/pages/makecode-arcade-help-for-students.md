@@ -317,6 +317,9 @@ The first lesson is free. After that, classes are paid monthly, and the fees par
 - [Coding classes in the USA](/coding-classes-in-united-states): Our full set of pages for US families.
 - [Coding for 10 year olds](/coding-for-10-year-olds): What fits at that age.
 - [How we teach](/how-we-teach): A look inside a live class.
+- [Roblox Studio errors fixed](/roblox-studio-errors-fixed): Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.
+- [Khan Academy CS vs live classes](/khan-academy-computer-science-vs-live-classes): Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.
+- [CodeHS help for students](/codehs-help-for-students): CodeHS help: resets, debugger, unit tests, autograder messages and login fixes.
 
 ## Contact
 

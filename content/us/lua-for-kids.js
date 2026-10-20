@@ -394,7 +394,10 @@ module.exports = {
       { href: '/roblox-coding-classes-for-kids', label: 'Roblox coding classes', p: 'The live course behind this page.' },
       { href: '/scratch-coding-classes-for-kids', label: 'Scratch coding classes', p: 'A gentle start for younger children.' },
       { href: '/python-for-10-year-olds', label: 'Python for 10 year olds', p: 'The usual language after Lua.' },
-      { href: '/best-age-to-start-coding', label: 'When to start coding', p: 'Ages, readiness and first steps.' }
+      { href: '/best-age-to-start-coding', label: 'When to start coding', p: 'Ages, readiness and first steps.' },
+      { href: '/roblox-studio-errors-fixed', label: 'Roblox Studio errors fixed', p: 'Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.' },
+      { href: '/how-to-make-a-video-game-for-kids', label: 'How to make a video game for kids', p: 'How to make a video game as a kid: free tools, seven steps and a real game to copy.' },
+      { href: '/video-game-coding-classes-for-kids', label: 'Video game coding classes for kids', p: 'Video game coding classes for kids: tools by age, what classes teach, how to choose.' }
     ]
   },
 

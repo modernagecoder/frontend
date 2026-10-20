@@ -286,6 +286,9 @@ Khan Academy's course is free. Our first lesson is free; after that we charge mo
 - [AP CSP coaching](/ap-computer-science-principles-online-coaching): Live help for the AP course.
 - [Coding classes in the USA](/coding-classes-in-united-states): The index of our US pages.
 - [How to read code](/how-to-read-code): The tracing skill, explained.
+- [CodeHS help for students](/codehs-help-for-students): CodeHS help: resets, debugger, unit tests, autograder messages and login fixes.
+- [Code.org App Lab help](/code-org-app-lab-help): App Lab help: events, variables, screens, sound and data, from the official docs.
+- [Java cannot find symbol error](/java-cannot-find-symbol-error): Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.
 
 ## Contact
 

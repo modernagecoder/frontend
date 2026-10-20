@@ -373,7 +373,10 @@ module.exports = {
       { href: '/coding-for-10-year-olds', label: 'Coding for 10 year olds', p: 'From Scratch towards Python.' },
       { href: '/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming', label: 'Coding for 7 year olds', p: 'What to learn and how.' },
       { href: '/python-for-10-year-olds', label: 'Python for 10 year olds', p: 'The first typed language.' },
-      { href: '/online-coding-classes-for-kids-usa', label: 'Online coding for US kids', p: 'All kids courses together.' }
+      { href: '/online-coding-classes-for-kids-usa', label: 'Online coding for US kids', p: 'All kids courses together.' },
+      { href: '/ai-literacy-for-elementary-students', label: 'AI literacy for elementary students', p: 'AI literacy for K-5: what it means, what standards expect, and two activities.' },
+      { href: '/c-plus-plus-for-kids', label: 'C++ for kids', p: 'C++ for kids: an honest age guide, three real programs and the USACO path.' },
+      { href: '/javascript-for-kids', label: 'JavaScript for kids', p: 'JavaScript for kids: an age guide, the Console, and three real programs to try today.' }
     ]
   },
 

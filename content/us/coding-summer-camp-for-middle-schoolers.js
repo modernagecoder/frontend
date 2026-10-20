@@ -384,7 +384,10 @@ module.exports = {
       { href: '/online-coding-summer-camp', label: 'Online coding summer camp', p: 'Tracks across ages 6 to 16.' },
       { href: '/coding-for-12-year-olds', label: 'Coding for 12 year olds', p: 'What this age can build.' },
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'A fall goal for grades 6 to 8.' },
-      { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'Luau scripts for Roblox fans.' }
+      { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'Luau scripts for Roblox fans.' },
+      { href: '/game-design-summer-camp-for-teens', label: 'Game design summer camp for teens', p: 'Game design summer camp for teens: engines, a real script, a six-week plan.' },
+      { href: '/free-coding-programs-for-high-school-students', label: 'Free coding programs for high school students', p: 'Free coding programs for high schoolers, checked at the source, with a 16-week plan.' },
+      { href: '/computer-science-internships-for-high-school-students', label: 'CS internships for high school students', p: 'CS internships for high schoolers: real 2027 rules, age lines and a readiness plan.' }
     ]
   },
 

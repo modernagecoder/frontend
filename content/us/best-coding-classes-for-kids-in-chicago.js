@@ -252,7 +252,8 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'United States hub' },
     { href: '/coding-classes-for-elementary-students', label: 'Elementary coding' },
     { href: '/minecraft-coding-classes-for-kids', label: 'Minecraft coding' },
-    { href: '/python-games-for-kids', label: 'Python games' }
+    { href: '/python-games-for-kids', label: 'Python games' },
+    { href: '/coding-classes-in-illinois', label: 'Illinois' }
   ],
 
   personalityCss: `

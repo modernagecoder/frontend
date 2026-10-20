@@ -298,6 +298,9 @@ The first lesson is free. Regular classes are billed monthly, and the fees secti
 - [Minecraft vs Roblox](/blog/minecraft-vs-roblox-which-teaches-kids-to-code): Which game teaches more coding.
 - [Coding classes in the USA](/coding-classes-in-united-states): State guides, ages and subjects.
 - [How we teach](/how-we-teach): What a live lesson looks like.
+- [Python games for kids](/python-games-for-kids): Python games kids can code: a guessing game, then pygame, step by step.
+- [MakeCode Arcade help](/makecode-arcade-help-for-students): MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.
+- [How to make a Roblox game](/how-to-make-a-roblox-game): Make a Roblox game step by step: devices, three Luau scripts, and safe publishing.
 
 ## Contact
 

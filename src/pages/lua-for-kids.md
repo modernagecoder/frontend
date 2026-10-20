@@ -298,6 +298,9 @@ The first class is free. After it, teaching is paid monthly, and the exact US do
 - [Scratch coding classes](/scratch-coding-classes-for-kids): A gentle start for younger children.
 - [Python for 10 year olds](/python-for-10-year-olds): The usual language after Lua.
 - [When to start coding](/best-age-to-start-coding): Ages, readiness and first steps.
+- [Roblox Studio errors fixed](/roblox-studio-errors-fixed): Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.
+- [How to make a video game for kids](/how-to-make-a-video-game-for-kids): How to make a video game as a kid: free tools, seven steps and a real game to copy.
+- [Video game coding classes for kids](/video-game-coding-classes-for-kids): Video game coding classes for kids: tools by age, what classes teach, how to choose.
 
 ## Contact
 

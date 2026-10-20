@@ -371,6 +371,9 @@ No. Modern Age Coders is a separate online school. We quote Code.org's published
 - [Online coding classes, USA](/online-coding-classes-for-kids-usa): For younger students too.
 - [CS extracurriculars](/computer-science-extracurriculars): Clubs and competitions outside class.
 - [North Carolina](/coding-and-ai-classes-in-north-carolina): One state&rsquo;s numbers, in depth.
+- [AI guidance for schools by state](/ai-guidance-for-schools-by-state): State AI guidance for schools, all 50 states and DC, from the 2025 Code.org report.
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math): Common Core and traditional math compared from the standards, with a worked example.
+- [CS graduation requirements by state](/computer-science-graduation-requirements-by-state): Computer science graduation requirements in all 50 states and DC, with state sources.
 
 ## Contact
 

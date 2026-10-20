@@ -275,6 +275,9 @@ The first lesson is free. After that you pay monthly for live lessons, and the f
 - [Java IDEs for beginners](/blog/best-java-ides-for-beginners): Comparing editors before you install.
 - [Git vs GitHub](/blog/git-vs-github-difference): The next tool after the editor.
 - [Python for 15 year olds](/python-for-15-year-olds): A high school starting point.
+- [GitHub Classroom help for students](/github-classroom-help-for-students): GitHub Classroom retired on August 28, 2026: what students need to know.
+- [Google Colab help for students](/google-colab-help-for-students): Google Colab not working? Runtimes, files, Drive and limits, explained.
+- [Jupyter Notebook errors for students](/jupyter-notebook-errors-for-students): Jupyter Notebook errors students hit, what they mean, and how to fix them.
 
 ## Contact
 

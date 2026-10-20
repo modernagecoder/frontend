@@ -419,7 +419,10 @@ module.exports = {
       { href: '/hackathons-for-high-school-students', label: 'Hackathons for high schoolers', p: 'Build and pitch in a weekend.' },
       { href: '/ai-projects-for-high-school-students', label: 'AI projects for high schoolers', p: 'Ideas for an AI feature.' },
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our pages for US families.' },
-      { href: '/student-labs', label: 'Student labs', p: 'Projects our learners built.' }
+      { href: '/student-labs', label: 'Student labs', p: 'Projects our learners built.' },
+      { href: '/coding-competitions-for-high-school-students', label: 'Coding competitions for high school students', p: 'US high school coding competitions for 2026-27, from the organisers\' own rules.' },
+      { href: '/coding-competitions-for-middle-school-students', label: 'Coding competitions for middle school students', p: 'Middle school coding competitions for 2026-27, grade by grade.' },
+      { href: '/machine-learning-competitions-for-high-school-students', label: 'Machine learning competitions for high school students', p: 'ML and AI competitions for US high schoolers, 2026-27, from the official rules.' }
     ]
   },
 

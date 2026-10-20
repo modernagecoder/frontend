@@ -285,7 +285,9 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'All US pages' },
     { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina' },
     { href: '/ap-csp-create-performance-task-guide', label: 'AP CSP Create task' },
-    { href: '/cybersecurity-classes-for-teens', label: 'Cybersecurity for teens' }
+    { href: '/cybersecurity-classes-for-teens', label: 'Cybersecurity for teens' },
+    { href: '/computer-science-graduation-requirements-by-state', label: 'CS graduation requirements by state' },
+    { href: '/high-school-computer-science-access-by-state', label: 'High school CS access by state' }
   ],
 
   personalityCss: `

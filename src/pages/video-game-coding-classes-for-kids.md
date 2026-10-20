@@ -289,6 +289,9 @@ Trying a lesson costs nothing. Ongoing classes are charged monthly; scroll up to
 - [Summer coding camp](/summer-coding-camp): Holiday options for game makers.
 - [Online classes for US kids](/online-coding-classes-for-kids-usa): All tracks, not only games.
 - [Coding classes in the USA](/coding-classes-in-united-states): Our main page for US families.
+- [How to make a 3D game for kids](/how-to-make-a-3d-game-for-kids): How kids make a 3D game: tools by device, x, y and z, and real code.
+- [Godot for kids and teens](/godot-for-kids-and-teens): Godot for kids and teens: cost, devices, two GDScript scripts and the errors beginners hit.
+- [Unity for teens](/unity-for-teens): Unity for teens: age rules, free plans, computer needs and two first C# scripts.
 
 ## Contact
 

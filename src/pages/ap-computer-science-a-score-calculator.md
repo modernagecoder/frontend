@@ -319,6 +319,9 @@ The first lesson is free. After that, families pay one month at a time, and the 
 - [AP CSA changes for 2026](/blog/ap-computer-science-a-changes-2026): What the new course moved.
 - [USACO preparation](/usaco-preparation-online-coaching): Where strong AP students often go next.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page we have for US families.
+- [AP CSP score calculator](/ap-csp-score-calculator): Estimate an AP CSP composite from published weights: 70 questions, six rubric points.
+- [Does AP CS give college credit?](/does-ap-computer-science-give-college-credit): AP CSA and AP CSP credit: the official recommendation and three real college policies.
+- [AP CSA practice questions](/ap-computer-science-a-practice-questions): Original AP CSA practice in Java: 14 questions and a free response, answers run and checked.
 
 ## Contact
 

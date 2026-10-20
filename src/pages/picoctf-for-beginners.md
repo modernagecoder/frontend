@@ -338,6 +338,9 @@ On 17 October 2026 the competitors page said details were coming soon. The platf
 - [USACO coaching](/usaco-preparation-online-coaching): The programming olympiad.
 - [Coding for 15-year-olds](/coding-for-15-year-olds): What to learn at fifteen.
 - [Student labs](/student-labs): Projects our learners built.
+- [CyberPatriot preparation](/cyberpatriot-preparation): CyberPatriot 19 (2026-27) explained from the official pages, with a practice plan.
+- [Technovation Girls guide](/technovation-girls-guide): Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students): US high school coding competitions for 2026-27, from the organisers' own rules.
 
 ## Contact
 

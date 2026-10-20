@@ -395,7 +395,10 @@ module.exports = {
       { href: '/hackathons-for-high-school-students', label: 'Hackathons for high schoolers', p: 'Game jams under a clock.' },
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'Games are eligible apps too.' },
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' },
-      { href: '/student-labs', label: 'Student labs', p: 'Projects our learners shipped.' }
+      { href: '/student-labs', label: 'Student labs', p: 'Projects our learners shipped.' },
+      { href: '/learn-to-code-minecraft-mods', label: 'Learn to code Minecraft mods', p: 'Minecraft modding in Java for teens: Fabric or Forge, Java versions, a first item.' },
+      { href: '/python-games-for-kids', label: 'Python games for kids', p: 'Python games kids can code: a guessing game, then pygame, step by step.' },
+      { href: '/makecode-arcade-help-for-students', label: 'MakeCode Arcade help', p: 'MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.' }
     ]
   },
 

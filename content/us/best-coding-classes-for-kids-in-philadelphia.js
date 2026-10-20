@@ -239,7 +239,8 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'United States hub' },
     { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina' },
     { href: '/minecraft-coding-classes-for-kids', label: 'Minecraft coding' },
-    { href: '/how-to-make-a-roblox-game', label: 'Make a Roblox game' }
+    { href: '/how-to-make-a-roblox-game', label: 'Make a Roblox game' },
+    { href: '/coding-and-ai-classes-in-pennsylvania', label: 'Pennsylvania' }
   ],
 
   personalityCss: `

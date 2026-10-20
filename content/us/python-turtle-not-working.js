@@ -391,7 +391,10 @@ module.exports = {
       { href: '/python-for-10-year-olds', label: 'Python for 10 year olds', p: 'A starting point for fifth graders.' },
       { href: '/python-for-12-year-olds', label: 'Python for 12 year olds', p: 'A starting point for seventh graders.' },
       { href: '/how-to-debug-code', label: 'How to debug code', p: 'A method for any bug, turtle or not.' },
-      { href: '/student-labs', label: 'Student labs', p: 'Projects our learners have shipped.' }
+      { href: '/student-labs', label: 'Student labs', p: 'Projects our learners have shipped.' },
+      { href: '/scratch-not-working-help', label: 'Scratch not working', p: 'Scratch not working? Saving, sign-in, school network and tablet fixes, from the Scratch Help Center.' },
+      { href: '/makecode-arcade-help-for-students', label: 'MakeCode Arcade help', p: 'MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.' },
+      { href: '/roblox-studio-errors-fixed', label: 'Roblox Studio errors fixed', p: 'Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.' }
     ]
   },
 

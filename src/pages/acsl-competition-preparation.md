@@ -341,6 +341,9 @@ A regular teacher works through the official topics in contest order, drills han
 - [CS extracurriculars](/computer-science-extracurriculars): Where ACSL fits among other options.
 - [Hackathons for high schoolers](/hackathons-for-high-school-students): Team building against the clock.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page we have for US families.
+- [picoCTF for beginners](/picoctf-for-beginners): picoCTF, now CyLab Security Academy, for US beginners aged 13 and up.
+- [CyberPatriot preparation](/cyberpatriot-preparation): CyberPatriot 19 (2026-27) explained from the official pages, with a practice plan.
+- [Technovation Girls guide](/technovation-girls-guide): Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.
 
 ## Contact
 

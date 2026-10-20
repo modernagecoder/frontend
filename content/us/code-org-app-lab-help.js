@@ -367,7 +367,10 @@ module.exports = {
       { href: '/blog/ap-csp-vs-ap-csa-which-to-take-first', label: 'AP CSP or AP CSA first?', p: 'Which AP course to take first.' },
       { href: '/blog/javascript-basics', label: 'JavaScript basics', p: 'The language App Lab is built on.' },
       { href: '/how-to-debug-code', label: 'How to debug code', p: 'A general method for any bug.' },
-      { href: '/blog/html-css-javascript-project-ideas', label: 'Web project ideas', p: 'What to build after App Lab.' }
+      { href: '/blog/html-css-javascript-project-ideas', label: 'Web project ideas', p: 'What to build after App Lab.' },
+      { href: '/java-cannot-find-symbol-error', label: 'Java cannot find symbol error', p: 'Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.' },
+      { href: '/bluej-not-working-fix', label: 'BlueJ not working: fixes', p: 'BlueJ not working? Official fixes for install, VM errors, output and frozen runs.' },
+      { href: '/eclipse-java-help-for-students', label: 'Eclipse Java help for students', p: 'Eclipse for Java students: install, run, read errors, fix Java version and memory.' }
     ]
   },
 

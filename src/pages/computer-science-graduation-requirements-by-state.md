@@ -371,6 +371,9 @@ No. We are an independent online school. This page reports their published infor
 - [AP Computer Science A](/ap-computer-science-a-online-classes): Java for the next step.
 - [Homeschool coding](/homeschool-coding-curriculum): Planning CS at home.
 - [CS extracurriculars](/computer-science-extracurriculars): Beyond the one required course.
+- [CS standards by state](/computer-science-standards-by-state): Which states have K-12 computer science standards, and which include AI.
+- [High school CS access by state](/high-school-computer-science-access-by-state): High school computer science access and enrollment in every US state, 2025 data.
+- [AI guidance for schools by state](/ai-guidance-for-schools-by-state): State AI guidance for schools, all 50 states and DC, from the 2025 Code.org report.
 
 ## Contact
 

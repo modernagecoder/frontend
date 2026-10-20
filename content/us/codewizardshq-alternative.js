@@ -300,7 +300,10 @@ module.exports = {
       { href: '/live-vs-recorded-coding-classes', label: 'Live vs recorded classes', p: 'What recordings can and cannot do.' },
       { href: '/online-coding-classes-cost', label: 'Online coding class costs', p: 'How fees are structured.' },
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A', p: 'Our Java and AP route.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our US pages.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our US pages.' },
+      { href: '/create-and-learn-alternative', label: 'Create & Learn alternative', p: 'Create & Learn and Modern Age Coders, compared on published facts.' },
+      { href: '/id-tech-alternative', label: 'iD Tech alternative', p: 'iD Tech camps and lessons beside year-round live classes, compared on published facts.' },
+      { href: '/codakid-alternative', label: 'CodaKid alternative', p: 'CodaKid and live online classes, compared on published facts.' }
     ]
   },
 

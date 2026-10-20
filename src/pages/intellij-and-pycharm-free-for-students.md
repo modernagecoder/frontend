@@ -278,6 +278,9 @@ The first lesson is free. After that, classes are billed monthly, and the fees s
 - [Python for beginners](/blog/python-for-beginners): A first look at Python.
 - [AP Computer Science A classes](/ap-computer-science-a-online-classes): Live AP CSA preparation.
 - [Learn Python step by step](/blog/learn-python-step-by-step): A route through the language.
+- [VS Code setup for students](/vs-code-setup-for-students): Set up VS Code for Python and Java, and fix the errors students hit.
+- [GitHub Classroom help for students](/github-classroom-help-for-students): GitHub Classroom retired on August 28, 2026: what students need to know.
+- [Google Colab help for students](/google-colab-help-for-students): Google Colab not working? Runtimes, files, Drive and limits, explained.
 
 ## Contact
 

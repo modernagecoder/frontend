@@ -294,6 +294,9 @@ The first lesson is free. Then families pay by the month, and this page shows th
 - [Studying with AI, honestly](/blog/how-to-use-chatgpt-to-study-without-cheating): Useful before any project.
 - [CS extracurriculars](/computer-science-extracurriculars): What to build beyond the course.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every US page in one place.
+- [Does AP CS give college credit?](/does-ap-computer-science-give-college-credit): AP CSA and AP CSP credit: the official recommendation and three real college policies.
+- [AP CSA practice questions](/ap-computer-science-a-practice-questions): Original AP CSA practice in Java: 14 questions and a free response, answers run and checked.
+- [AP CSP Create task guide](/ap-csp-create-performance-task-guide): The AP CSP Create task from the official handouts: code, video, PPR, AI rules, deadline.
 
 ## Contact
 

@@ -380,7 +380,10 @@ module.exports = {
       { href: '/java-classes-for-teens', label: 'Java classes for teens', p: 'The teen Java track.' },
       { href: '/blog/python-for-beginners', label: 'Python for beginners', p: 'A first look at Python.' },
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A classes', p: 'Live AP CSA preparation.' },
-      { href: '/blog/learn-python-step-by-step', label: 'Learn Python step by step', p: 'A route through the language.' }
+      { href: '/blog/learn-python-step-by-step', label: 'Learn Python step by step', p: 'A route through the language.' },
+      { href: '/vs-code-setup-for-students', label: 'VS Code setup for students', p: 'Set up VS Code for Python and Java, and fix the errors students hit.' },
+      { href: '/github-classroom-help-for-students', label: 'GitHub Classroom help for students', p: 'GitHub Classroom retired on August 28, 2026: what students need to know.' },
+      { href: '/google-colab-help-for-students', label: 'Google Colab help for students', p: 'Google Colab not working? Runtimes, files, Drive and limits, explained.' }
     ]
   },
 

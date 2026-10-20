@@ -273,6 +273,9 @@ Nothing for the first lesson. After that, fees are charged a month at a time for
 - [AI tools age guide](/ai-tools-age-guide): Age rules for popular AI tools.
 - [Reading files in Python](/blog/how-to-read-and-write-files-in-python): Paths and files, explained.
 - [Python for 17 year olds](/python-for-17-year-olds): For high school seniors.
+- [Jupyter Notebook errors for students](/jupyter-notebook-errors-for-students): Jupyter Notebook errors students hit, what they mean, and how to fix them.
+- [Python indentation errors explained](/python-indentation-error-explained): Every Python IndentationError message, what it means, and how to fix it.
+- [Python turtle not working](/python-turtle-not-working): Python turtle not working? The real errors, the fixes, and how to write text.
 
 ## Contact
 

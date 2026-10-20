@@ -387,7 +387,10 @@ module.exports = {
       { href: '/ai-projects-for-high-school-students', label: 'AI projects for high schoolers', p: 'The next ladder up.' },
       { href: '/ai-classes-for-kids', label: 'AI classes for kids', p: 'Our live AI classes for children.' },
       { href: '/python-for-13-year-olds', label: 'Python for 13 year olds', p: 'For eighth graders ready for more.' },
-      { href: '/blog/how-to-teach-kids-ai-at-home', label: 'Teaching AI at home', p: 'Activities that need no tools.' }
+      { href: '/blog/how-to-teach-kids-ai-at-home', label: 'Teaching AI at home', p: 'Activities that need no tools.' },
+      { href: '/ai-research-programs-for-high-school-students', label: 'AI research programs for high school students', p: 'AI research programs for US high schoolers, from the 2026 to 2027 rules, with a fair-test experiment.' },
+      { href: '/ai-certification-for-high-school-students', label: 'AI certification for high school students', p: 'Four AI and Python certification exams for US high schoolers, compared from the issuers\' own pages.' },
+      { href: '/ai-summer-programs-for-high-school-students', label: 'AI summer programs for high school students', p: 'AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.' }
     ]
   },
 

@@ -303,6 +303,9 @@ The first lesson is free. After that, teaching is paid monthly, and the fees sec
 - [AP Computer Science A classes](/ap-computer-science-a-online-classes): Live AP CSA preparation.
 - [Java constructors explained](/blog/java-constructors-explained): What happens when you create an object.
 - [Java for beginners](/java-for-beginners): A first course from zero.
+- [Eclipse Java help for students](/eclipse-java-help-for-students): Eclipse for Java students: install, run, read errors, fix Java version and memory.
+- [IntelliJ and PyCharm free for students](/intellij-and-pycharm-free-for-students): IntelliJ IDEA and PyCharm for students: free core, student license, setup fixes.
+- [VS Code setup for students](/vs-code-setup-for-students): Set up VS Code for Python and Java, and fix the errors students hit.
 
 ## Contact
 

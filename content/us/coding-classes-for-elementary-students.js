@@ -390,7 +390,10 @@ module.exports = {
       { href: '/coding-for-9-year-olds', label: 'Coding for 9 year olds', p: 'A closer look at third and fourth grade.' },
       { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'For the Roblox fan in the family.' },
       { href: '/online-math-tutor-3rd-grade', label: '3rd grade math tutoring', p: 'Coding and math grow together.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'Inside a live class.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'Inside a live class.' },
+      { href: '/coding-classes-for-middle-school-students', label: 'Coding classes for middle school students', p: 'Coding for middle schoolers: grade 8 expectations, a real Python program, and how to choose a language.' },
+      { href: '/coding-classes-for-high-school-students', label: 'Coding classes for high school students', p: 'Coding for high schoolers: CS access data, AP CSP and AP CSA in 2027, and a four-year plan.' },
+      { href: '/coding-milestones-by-age', label: 'Coding milestones by age', p: 'Coding milestones by age, with a checklist for 8 to 10 year olds.' }
     ]
   },
 

@@ -390,6 +390,9 @@ We teach the AI, Python and testing skills a student needs to contribute to thei
 - [AI and ML classes in the USA](/ai-and-machine-learning-classes-in-usa): Our machine learning teaching.
 - [CS extracurriculars](/computer-science-extracurriculars): Where a Challenge entry fits.
 - [AI courses for teens](/best-ai-courses-for-teens-2026): How the options compare.
+- [ACSL competition preparation](/acsl-competition-preparation): ACSL from the official 2026-27 pages, with original practice problems.
+- [picoCTF for beginners](/picoctf-for-beginners): picoCTF, now CyLab Security Academy, for US beginners aged 13 and up.
+- [CyberPatriot preparation](/cyberpatriot-preparation): CyberPatriot 19 (2026-27) explained from the official pages, with a practice plan.
 
 ## Contact
 

@@ -379,7 +379,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CS Principles', p: 'The broadest high school CS course.' },
       { href: '/homeschool-coding-curriculum', label: 'Homeschool coding', p: 'Using the concepts at home.' },
       { href: '/coding-for-10-year-olds', label: 'Coding for 10-year-olds', p: 'Where elementary CS starts.' },
-      { href: '/ai-and-machine-learning-classes-in-usa', label: 'AI and machine learning', p: 'For students who want more AI.' }
+      { href: '/ai-and-machine-learning-classes-in-usa', label: 'AI and machine learning', p: 'For students who want more AI.' },
+      { href: '/high-school-computer-science-access-by-state', label: 'High school CS access by state', p: 'High school computer science access and enrollment in every US state, 2025 data.' },
+      { href: '/ai-guidance-for-schools-by-state', label: 'AI guidance for schools by state', p: 'State AI guidance for schools, all 50 states and DC, from the 2025 Code.org report.' },
+      { href: '/common-core-math-vs-traditional-math', label: 'Common Core math vs traditional math', p: 'Common Core and traditional math compared from the standards, with a worked example.' }
     ]
   },
 

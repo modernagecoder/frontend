@@ -276,6 +276,9 @@ Nothing for the trial lesson. Regular classes are charged per month, and you wil
 - [Scratch coding classes](/scratch-coding-classes-for-kids): A 2D start for younger kids.
 - [Coding classes in the USA](/coding-classes-in-united-states): Where every US guide of ours starts.
 - [How we teach](/how-we-teach): Inside a live lesson.
+- [Godot for kids and teens](/godot-for-kids-and-teens): Godot for kids and teens: cost, devices, two GDScript scripts and the errors beginners hit.
+- [Unity for teens](/unity-for-teens): Unity for teens: age rules, free plans, computer needs and two first C# scripts.
+- [Game design classes for teens](/game-design-classes-for-teens): Game design for teens: a method, real tuning code, and the US competitions that judge teen games.
 
 ## Contact
 

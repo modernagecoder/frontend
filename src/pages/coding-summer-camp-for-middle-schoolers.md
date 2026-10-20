@@ -302,6 +302,9 @@ Our kids and teens summer camp pages cover the full age ranges. This page is onl
 - [Coding for 12 year olds](/coding-for-12-year-olds): What this age can build.
 - [Congressional App Challenge](/congressional-app-challenge-guide): A fall goal for grades 6 to 8.
 - [How to make a Roblox game](/how-to-make-a-roblox-game): Luau scripts for Roblox fans.
+- [Game design summer camp for teens](/game-design-summer-camp-for-teens): Game design summer camp for teens: engines, a real script, a six-week plan.
+- [Free coding programs for high school students](/free-coding-programs-for-high-school-students): Free coding programs for high schoolers, checked at the source, with a 16-week plan.
+- [CS internships for high school students](/computer-science-internships-for-high-school-students): CS internships for high schoolers: real 2027 rules, age lines and a readiness plan.
 
 ## Contact
 

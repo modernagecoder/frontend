@@ -445,7 +445,10 @@ module.exports = {
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'The fall app competition by district.' },
       { href: '/ai-and-machine-learning-classes-in-usa', label: 'AI and ML classes in the USA', p: 'Our machine learning teaching.' },
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Where a Challenge entry fits.' },
-      { href: '/best-ai-courses-for-teens-2026', label: 'AI courses for teens', p: 'How the options compare.' }
+      { href: '/best-ai-courses-for-teens-2026', label: 'AI courses for teens', p: 'How the options compare.' },
+      { href: '/acsl-competition-preparation', label: 'ACSL competition preparation', p: 'ACSL from the official 2026-27 pages, with original practice problems.' },
+      { href: '/picoctf-for-beginners', label: 'picoCTF for beginners', p: 'picoCTF, now CyLab Security Academy, for US beginners aged 13 and up.' },
+      { href: '/cyberpatriot-preparation', label: 'CyberPatriot preparation', p: 'CyberPatriot 19 (2026-27) explained from the official pages, with a practice plan.' }
     ]
   },
 

@@ -431,7 +431,10 @@ module.exports = {
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page we have written for US families.' },
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Where game projects fit outside class.' },
       { href: '/coding-for-13-year-olds', label: 'Coding for 13 year olds', p: 'What a teen can tackle next.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'Inside one of our live lessons.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'Inside one of our live lessons.' },
+      { href: '/khan-academy-computer-science-vs-live-classes', label: 'Khan Academy CS vs live classes', p: 'Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.' },
+      { href: '/codehs-help-for-students', label: 'CodeHS help for students', p: 'CodeHS help: resets, debugger, unit tests, autograder messages and login fixes.' },
+      { href: '/code-org-app-lab-help', label: 'Code.org App Lab help', p: 'App Lab help: events, variables, screens, sound and data, from the official docs.' }
     ]
   },
 

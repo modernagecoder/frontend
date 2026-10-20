@@ -289,6 +289,9 @@ The first lesson is free. Lessons are then paid month by month, with the figure 
 - [C++ classes for teens](/c-plus-plus-classes-for-teens): Our live C++ course.
 - [Coding for 13 year olds](/coding-for-13-year-olds): Choosing a first teen path.
 - [How we teach](/how-we-teach): Inside a live lesson.
+- [Game design classes for teens](/game-design-classes-for-teens): Game design for teens: a method, real tuning code, and the US competitions that judge teen games.
+- [Game design summer camp for teens](/game-design-summer-camp-for-teens): Game design summer camp for teens: engines, a real script, a six-week plan.
+- [Learn to code Minecraft mods](/learn-to-code-minecraft-mods): Minecraft modding in Java for teens: Fabric or Forge, Java versions, a first item.
 
 ## Contact
 

@@ -308,6 +308,9 @@ The first class is free. After that, teaching is paid monthly, and the fees sect
 - [Hackathons](/hackathons-for-high-school-students): Build fast, present clearly.
 - [Training ML models](/how-to-train-machine-learning-models): The craft behind a fair experiment.
 - [AI and ML course for teens](/ai-ml-course-for-teens): Our full teen machine learning track.
+- [AI certification for high school students](/ai-certification-for-high-school-students): Four AI and Python certification exams for US high schoolers, compared from the issuers' own pages.
+- [AI summer programs for high school students](/ai-summer-programs-for-high-school-students): AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.
+- [AI literacy for elementary students](/ai-literacy-for-elementary-students): AI literacy for K-5: what it means, what standards expect, and two activities.
 
 ## Contact
 

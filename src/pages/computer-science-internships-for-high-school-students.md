@@ -311,6 +311,9 @@ No. We do not place students and make no promise about any application. We teach
 - [Hackathons for high schoolers](/hackathons-for-high-school-students): Team builds in a weekend.
 - [AI projects for high schoolers](/ai-projects-for-high-school-students): Project ideas with real depth.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page for US families.
+- [Coding bootcamp for teens](/coding-bootcamp-for-teens): Coding bootcamp for teens: the format, free tools and an eight-week plan.
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit): Homeschool CS credit in NY, PA and TX, from the state sources, with a template.
+- [AI summer programs for high school students](/ai-summer-programs-for-high-school-students): AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.
 
 ## Contact
 

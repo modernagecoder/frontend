@@ -398,7 +398,10 @@ module.exports = {
       { href: '/minecraft-coding-classes-for-kids', label: 'Minecraft coding classes', p: 'For kids who prefer blocks to obbies.' },
       { href: '/blog/minecraft-vs-roblox-which-teaches-kids-to-code', label: 'Minecraft vs Roblox', p: 'Which teaches more coding.' },
       { href: '/online-coding-classes-for-kids-usa', label: 'Online coding for US kids', p: 'Every track, ages 6 to 14.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'What happens in each live class.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'What happens in each live class.' },
+      { href: '/lua-for-kids', label: 'Lua for kids', p: 'Lua for kids: what it is, how Luau differs, and three programs to run today.' },
+      { href: '/roblox-studio-errors-fixed', label: 'Roblox Studio errors fixed', p: 'Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.' },
+      { href: '/how-to-make-a-video-game-for-kids', label: 'How to make a video game for kids', p: 'How to make a video game as a kid: free tools, seven steps and a real game to copy.' }
     ]
   },
 

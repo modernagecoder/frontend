@@ -319,6 +319,9 @@ The first lesson is free. After it, classes are paid one month at a time, and th
 - [Thinking like a programmer](/how-to-think-like-a-programmer): The habits behind tracing.
 - [USACO preparation](/usaco-preparation-online-coaching): When AP questions get easy.
 - [Coding classes in the USA](/coding-classes-in-united-states): All our pages for US families.
+- [AP CSP Create task guide](/ap-csp-create-performance-task-guide): The AP CSP Create task from the official handouts: code, video, PPR, AI rules, deadline.
+- [Is AP Computer Science hard?](/is-ap-computer-science-hard): How hard are AP CSA and AP CSP? The 2026 numbers, the prerequisites, two quick checks.
+- [Java cannot find symbol error](/java-cannot-find-symbol-error): Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.
 
 ## Contact
 

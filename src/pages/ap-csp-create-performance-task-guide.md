@@ -330,6 +330,9 @@ The first lesson is free. After that, lessons are paid month by month, with the 
 - [How to debug code](/how-to-debug-code): For the testing prompt.
 - [Congressional App Challenge](/congressional-app-challenge-guide): A place for a project after AP.
 - [Coding classes in the USA](/coding-classes-in-united-states): All our US pages.
+- [Is AP Computer Science hard?](/is-ap-computer-science-hard): How hard are AP CSA and AP CSP? The 2026 numbers, the prerequisites, two quick checks.
+- [Java cannot find symbol error](/java-cannot-find-symbol-error): Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.
+- [Code.org App Lab help](/code-org-app-lab-help): App Lab help: events, variables, screens, sound and data, from the official docs.
 
 ## Contact
 

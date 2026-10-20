@@ -438,7 +438,10 @@ module.exports = {
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A classes', p: 'Our live AP CSA preparation.' },
       { href: '/java-for-beginners', label: 'Java for beginners', p: 'Where a first Java course starts.' },
       { href: '/java-classes-for-teens', label: 'Java classes for teens', p: 'The teen Java track in detail.' },
-      { href: '/blog/ap-csp-vs-ap-csa-which-to-take-first', label: 'AP CSP or AP CSA first?', p: 'Choosing between the two AP courses.' }
+      { href: '/blog/ap-csp-vs-ap-csa-which-to-take-first', label: 'AP CSP or AP CSA first?', p: 'Choosing between the two AP courses.' },
+      { href: '/bluej-not-working-fix', label: 'BlueJ not working: fixes', p: 'BlueJ not working? Official fixes for install, VM errors, output and frozen runs.' },
+      { href: '/eclipse-java-help-for-students', label: 'Eclipse Java help for students', p: 'Eclipse for Java students: install, run, read errors, fix Java version and memory.' },
+      { href: '/intellij-and-pycharm-free-for-students', label: 'IntelliJ and PyCharm free for students', p: 'IntelliJ IDEA and PyCharm for students: free core, student license, setup fixes.' }
     ]
   },
 

@@ -265,6 +265,9 @@ Every fact was read on the providers' sites on 17 October 2026. Programs change,
 - [Compared with Outschool](/modern-age-coders-vs-outschool): A marketplace vs a school.
 - [Online coding classes, USA](/online-coding-classes-for-kids-usa): Our classes for US kids.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page for US families.
+- [CodeWizardsHQ alternative](/codewizardshq-alternative): CodeWizardsHQ and Modern Age Coders, compared on published facts.
+- [Create & Learn alternative](/create-and-learn-alternative): Create & Learn and Modern Age Coders, compared on published facts.
+- [iD Tech alternative](/id-tech-alternative): iD Tech camps and lessons beside year-round live classes, compared on published facts.
 
 ## Contact
 

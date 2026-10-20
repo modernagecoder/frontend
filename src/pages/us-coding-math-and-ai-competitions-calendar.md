@@ -335,6 +335,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 - [Presidential AI Challenge](/presidential-ai-challenge-guide): Now the SI Challenge, renamed 29 September 2026.
 - [picoCTF for beginners](/picoctf-for-beginners): Practice before the next flagship.
 - [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): The same idea for the UK.
+- [Cybersecurity classes for teens](/cybersecurity-classes-for-teens): Cybersecurity for US teens: CyberPatriot, CyLab, AP Cybersecurity and a safe start.
+- [Technovation Girls guide](/technovation-girls-guide): Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students): US high school coding competitions for 2026-27, from the organisers' own rules.
 
 ## Contact
 

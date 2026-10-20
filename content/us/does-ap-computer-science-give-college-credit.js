@@ -345,7 +345,10 @@ module.exports = {
       { href: '/blog/ap-csp-vs-ap-csa-which-to-take-first', label: 'AP CSP or AP CSA first', p: 'Which suits your teen.' },
       { href: '/homeschool-computer-science-high-school-credit', label: 'Homeschool CS credit', p: 'Recording computer science on a transcript.' },
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'What else colleges see.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our US pages.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our US pages.' },
+      { href: '/ap-computer-science-a-practice-questions', label: 'AP CSA practice questions', p: 'Original AP CSA practice in Java: 14 questions and a free response, answers run and checked.' },
+      { href: '/ap-csp-create-performance-task-guide', label: 'AP CSP Create task guide', p: 'The AP CSP Create task from the official handouts: code, video, PPR, AI rules, deadline.' },
+      { href: '/is-ap-computer-science-hard', label: 'Is AP Computer Science hard?', p: 'How hard are AP CSA and AP CSP? The 2026 numbers, the prerequisites, two quick checks.' }
     ]
   },
 

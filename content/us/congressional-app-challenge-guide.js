@@ -386,7 +386,10 @@ module.exports = {
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'What else strong CS students do.' },
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CS Principles', p: 'The Create task and exam.' },
       { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'A first project for younger builders.' },
-      { href: '/student-labs', label: 'Student labs', p: 'Apps our learners built.' }
+      { href: '/student-labs', label: 'Student labs', p: 'Apps our learners built.' },
+      { href: '/presidential-ai-challenge-guide', label: 'Presidential AI Challenge guide', p: 'The Presidential AI (now SI) Challenge explained from the official 2027 rules.' },
+      { href: '/acsl-competition-preparation', label: 'ACSL competition preparation', p: 'ACSL from the official 2026-27 pages, with original practice problems.' },
+      { href: '/picoctf-for-beginners', label: 'picoCTF for beginners', p: 'picoCTF, now CyLab Security Academy, for US beginners aged 13 and up.' }
     ]
   },
 

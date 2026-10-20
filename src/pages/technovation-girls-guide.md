@@ -380,6 +380,9 @@ We teach girls to code and build the kind of solution Technovation asks for, tes
 - [AI projects for high schoolers](/ai-projects-for-high-school-students): Ideas for an AI feature.
 - [Coding classes in the USA](/coding-classes-in-united-states): All our pages for US families.
 - [Student labs](/student-labs): Projects our learners built.
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students): US high school coding competitions for 2026-27, from the organisers' own rules.
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students): Middle school coding competitions for 2026-27, grade by grade.
+- [Machine learning competitions for high school students](/machine-learning-competitions-for-high-school-students): ML and AI competitions for US high schoolers, 2026-27, from the official rules.
 
 ## Contact
 

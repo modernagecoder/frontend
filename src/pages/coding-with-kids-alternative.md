@@ -279,6 +279,9 @@ No. The two schools are unrelated; we summarise its public pages and link to the
 - [Coding classes in Georgia](/coding-classes-in-georgia): Online options in Georgia.
 - [Compared with Juni Learning](/modern-age-coders-vs-juni-learning): Another comparison.
 - [Coding classes in the USA](/coding-classes-in-united-states): Start of our US section.
+- [Khan Academy CS vs live classes](/khan-academy-computer-science-vs-live-classes): Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.
+- [Online coding classes for kids, compared](/best-online-coding-classes-for-kids-usa-compared): Six US online coding class providers for kids, compared on their own published facts.
+- [CodeWizardsHQ alternative](/codewizardshq-alternative): CodeWizardsHQ and Modern Age Coders, compared on published facts.
 
 ## Contact
 

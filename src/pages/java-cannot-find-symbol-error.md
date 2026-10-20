@@ -311,6 +311,9 @@ The first lesson is free. After that you pay one month at a time, and the monthl
 - [Java for beginners](/java-for-beginners): Where a first Java course starts.
 - [Java classes for teens](/java-classes-for-teens): The teen Java track in detail.
 - [AP CSP or AP CSA first?](/blog/ap-csp-vs-ap-csa-which-to-take-first): Choosing between the two AP courses.
+- [BlueJ not working: fixes](/bluej-not-working-fix): BlueJ not working? Official fixes for install, VM errors, output and frozen runs.
+- [Eclipse Java help for students](/eclipse-java-help-for-students): Eclipse for Java students: install, run, read errors, fix Java version and memory.
+- [IntelliJ and PyCharm free for students](/intellij-and-pycharm-free-for-students): IntelliJ IDEA and PyCharm for students: free core, student license, setup fixes.
 
 ## Contact
 

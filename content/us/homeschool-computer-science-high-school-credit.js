@@ -391,7 +391,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CS Principles', p: 'The broader first AP course.' },
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A', p: 'Java to exam level.' },
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'Outside evidence for a CS year.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' },
+      { href: '/ai-summer-programs-for-high-school-students', label: 'AI summer programs for high school students', p: 'AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.' },
+      { href: '/computer-science-summer-programs-for-high-school-students', label: 'CS summer programs for high school students', p: 'Four CS summer programs for high schoolers, from their own 2027 pages.' },
+      { href: '/coding-summer-camp-for-middle-schoolers', label: 'Coding summer camp for middle schoolers', p: 'Coding summer camp for grades 6 to 8: blocks to Python in four weeks.' }
     ]
   },
 

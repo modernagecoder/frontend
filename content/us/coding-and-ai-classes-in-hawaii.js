@@ -249,7 +249,9 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'United States index' },
     { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina' },
     { href: '/python-games-for-kids', label: 'Python games' },
-    { href: '/coding-classes-for-middle-school-students', label: 'Middle school coding' }
+    { href: '/coding-classes-for-middle-school-students', label: 'Middle school coding' },
+    { href: '/computer-science-graduation-requirements-by-state', label: 'CS graduation requirements by state' },
+    { href: '/high-school-computer-science-access-by-state', label: 'High school CS access by state' }
   ],
 
   personalityCss: `

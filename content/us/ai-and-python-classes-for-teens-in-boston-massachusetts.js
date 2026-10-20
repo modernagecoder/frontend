@@ -258,7 +258,8 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'United States hub' },
     { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina' },
     { href: '/ap-computer-science-a-online-classes', label: 'AP CS A classes' },
-    { href: '/cybersecurity-classes-for-teens', label: 'Cybersecurity for teens' }
+    { href: '/cybersecurity-classes-for-teens', label: 'Cybersecurity for teens' },
+    { href: '/coding-and-ai-classes-in-massachusetts', label: 'Massachusetts' }
   ],
 
   personalityCss: `

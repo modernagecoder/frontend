@@ -312,6 +312,9 @@ A regular teacher takes your teen through our six-week plan in the engine that s
 - [Congressional App Challenge](/congressional-app-challenge-guide): Games are eligible apps too.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page for US families.
 - [Student labs](/student-labs): Projects our learners shipped.
+- [Learn to code Minecraft mods](/learn-to-code-minecraft-mods): Minecraft modding in Java for teens: Fabric or Forge, Java versions, a first item.
+- [Python games for kids](/python-games-for-kids): Python games kids can code: a guessing game, then pygame, step by step.
+- [MakeCode Arcade help](/makecode-arcade-help-for-students): MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.
 
 ## Contact
 

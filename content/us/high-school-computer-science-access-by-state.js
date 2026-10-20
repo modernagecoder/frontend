@@ -407,7 +407,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CS Principles coaching', p: 'The broad AP CS course.' },
       { href: '/online-coding-classes-for-kids-usa', label: 'Online coding classes, USA', p: 'For younger students too.' },
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Clubs and competitions outside class.' },
-      { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina', p: 'One state&rsquo;s numbers, in depth.' }
+      { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina', p: 'One state&rsquo;s numbers, in depth.' },
+      { href: '/ai-guidance-for-schools-by-state', label: 'AI guidance for schools by state', p: 'State AI guidance for schools, all 50 states and DC, from the 2025 Code.org report.' },
+      { href: '/common-core-math-vs-traditional-math', label: 'Common Core math vs traditional math', p: 'Common Core and traditional math compared from the standards, with a worked example.' },
+      { href: '/computer-science-graduation-requirements-by-state', label: 'CS graduation requirements by state', p: 'Computer science graduation requirements in all 50 states and DC, with state sources.' }
     ]
   },
 

@@ -411,7 +411,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CSP coaching', p: 'The Create task and the exam.' },
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Clubs, contests and summer work.' },
       { href: '/coding-for-15-year-olds', label: 'Coding for 15 year olds', p: 'The tenth grade year.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'A lesson, start to finish.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'A lesson, start to finish.' },
+      { href: '/coding-milestones-by-age', label: 'Coding milestones by age', p: 'Coding milestones by age, with a checklist for 8 to 10 year olds.' },
+      { href: '/ai-literacy-for-elementary-students', label: 'AI literacy for elementary students', p: 'AI literacy for K-5: what it means, what standards expect, and two activities.' },
+      { href: '/c-plus-plus-for-kids', label: 'C++ for kids', p: 'C++ for kids: an honest age guide, three real programs and the USACO path.' }
     ]
   },
 

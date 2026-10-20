@@ -365,7 +365,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CSP coaching', p: 'For teens taking the course.' },
       { href: '/blog/app-idea-to-app-store-60-days-teen-developer-roadmap', label: 'From app idea to app store', p: 'A roadmap for older teens.' },
       { href: '/scratch-coding-classes-for-kids', label: 'Scratch classes', p: 'Blocks for younger children.' },
-      { href: '/coding-for-10-year-olds', label: 'Coding for 10 year olds', p: 'What a 10-year-old can learn.' }
+      { href: '/coding-for-10-year-olds', label: 'Coding for 10 year olds', p: 'What a 10-year-old can learn.' },
+      { href: '/coding-classes-for-elementary-students', label: 'Coding classes for elementary students', p: 'Coding for elementary students, grade by grade, with a first program and an at-home activity.' },
+      { href: '/coding-classes-for-middle-school-students', label: 'Coding classes for middle school students', p: 'Coding for middle schoolers: grade 8 expectations, a real Python program, and how to choose a language.' },
+      { href: '/coding-classes-for-high-school-students', label: 'Coding classes for high school students', p: 'Coding for high schoolers: CS access data, AP CSP and AP CSA in 2027, and a four-year plan.' }
     ]
   },
 

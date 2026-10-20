@@ -353,7 +353,10 @@ module.exports = {
       { href: '/homeschool-coding-curriculum', label: 'Homeschool coding curriculum', p: 'For families teaching at home.' },
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CSP coaching', p: 'Live help for the AP course.' },
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'The index of our US pages.' },
-      { href: '/how-to-read-code', label: 'How to read code', p: 'The tracing skill, explained.' }
+      { href: '/how-to-read-code', label: 'How to read code', p: 'The tracing skill, explained.' },
+      { href: '/codehs-help-for-students', label: 'CodeHS help for students', p: 'CodeHS help: resets, debugger, unit tests, autograder messages and login fixes.' },
+      { href: '/code-org-app-lab-help', label: 'Code.org App Lab help', p: 'App Lab help: events, variables, screens, sound and data, from the official docs.' },
+      { href: '/java-cannot-find-symbol-error', label: 'Java cannot find symbol error', p: 'Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.' }
     ]
   },
 

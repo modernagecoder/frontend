@@ -348,7 +348,10 @@ module.exports = {
       { href: '/blog/ap-csp-vs-ap-csa-which-to-take-first', label: 'AP CSP or AP CSA', p: 'Which one to take first.' },
       { href: '/blog/how-to-use-chatgpt-to-study-without-cheating', label: 'Studying with AI, honestly', p: 'Useful before any project.' },
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'What to build beyond the course.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every US page in one place.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every US page in one place.' },
+      { href: '/does-ap-computer-science-give-college-credit', label: 'Does AP CS give college credit?', p: 'AP CSA and AP CSP credit: the official recommendation and three real college policies.' },
+      { href: '/ap-computer-science-a-practice-questions', label: 'AP CSA practice questions', p: 'Original AP CSA practice in Java: 14 questions and a free response, answers run and checked.' },
+      { href: '/ap-csp-create-performance-task-guide', label: 'AP CSP Create task guide', p: 'The AP CSP Create task from the official handouts: code, video, PPR, AI rules, deadline.' }
     ]
   },
 

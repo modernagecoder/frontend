@@ -412,7 +412,10 @@ module.exports = {
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A', p: 'Java, the College Board way.' },
       { href: '/blog/minecraft-vs-roblox-which-teaches-kids-to-code', label: 'Minecraft vs Roblox', p: 'Which game teaches more coding.' },
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'State guides, ages and subjects.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'What a live lesson looks like.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'What a live lesson looks like.' },
+      { href: '/python-games-for-kids', label: 'Python games for kids', p: 'Python games kids can code: a guessing game, then pygame, step by step.' },
+      { href: '/makecode-arcade-help-for-students', label: 'MakeCode Arcade help', p: 'MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.' },
+      { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'Make a Roblox game step by step: devices, three Luau scripts, and safe publishing.' }
     ]
   },
 

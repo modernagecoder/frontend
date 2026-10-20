@@ -336,6 +336,9 @@ Not at all. Modern Age Coders runs its own classes; this page only reports what 
 - [Homeschool coding](/homeschool-coding-curriculum): Using the concepts at home.
 - [Coding for 10-year-olds](/coding-for-10-year-olds): Where elementary CS starts.
 - [AI and machine learning](/ai-and-machine-learning-classes-in-usa): For students who want more AI.
+- [High school CS access by state](/high-school-computer-science-access-by-state): High school computer science access and enrollment in every US state, 2025 data.
+- [AI guidance for schools by state](/ai-guidance-for-schools-by-state): State AI guidance for schools, all 50 states and DC, from the 2025 Code.org report.
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math): Common Core and traditional math compared from the standards, with a worked example.
 
 ## Contact
 

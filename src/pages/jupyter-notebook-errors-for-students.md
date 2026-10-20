@@ -276,6 +276,9 @@ The first lesson is free. Then you pay monthly for live teaching, and this page'
 - [How to debug code](/how-to-debug-code): A method for any bug.
 - [Files in Python](/blog/how-to-read-and-write-files-in-python): Paths, reading and writing.
 - [Python for 16 year olds](/python-for-16-year-olds): A starting point in high school.
+- [Python indentation errors explained](/python-indentation-error-explained): Every Python IndentationError message, what it means, and how to fix it.
+- [Python turtle not working](/python-turtle-not-working): Python turtle not working? The real errors, the fixes, and how to write text.
+- [Scratch not working](/scratch-not-working-help): Scratch not working? Saving, sign-in, school network and tablet fixes, from the Scratch Help Center.
 
 ## Contact
 

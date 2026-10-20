@@ -311,6 +311,9 @@ The first lesson is free. After that, teaching is paid one month at a time, and 
 - [How to debug code](/how-to-debug-code): The same habits, for any language.
 - [Online coding for US kids](/online-coding-classes-for-kids-usa): Every course for ages 6 to 14.
 - [How to make a Roblox game](/how-to-make-a-roblox-game): Where many Scratch fans go next.
+- [MakeCode Arcade help](/makecode-arcade-help-for-students): MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.
+- [Roblox Studio errors fixed](/roblox-studio-errors-fixed): Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.
+- [Khan Academy CS vs live classes](/khan-academy-computer-science-vs-live-classes): Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.
 
 ## Contact
 

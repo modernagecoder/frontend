@@ -364,7 +364,10 @@ module.exports = {
       { href: '/mathcounts-preparation', label: 'MATHCOUNTS preparation', p: 'The maths contest for grades 6 to 8.' },
       { href: '/acsl-competition-preparation', label: 'ACSL preparation', p: 'Junior Division topics explained.' },
       { href: '/technovation-girls-guide', label: 'Technovation Girls', p: 'An app and AI challenge for girls.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our guides for American families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our guides for American families.' },
+      { href: '/machine-learning-competitions-for-high-school-students', label: 'Machine learning competitions for high school students', p: 'ML and AI competitions for US high schoolers, 2026-27, from the official rules.' },
+      { href: '/math-competitions-for-middle-school-students', label: 'Math competitions for middle school students', p: 'Middle school math competitions for 2026-27, compared round by round.' },
+      { href: '/us-coding-math-and-ai-competitions-calendar', label: 'US competitions calendar 2026-27', p: 'US coding, math and AI competition dates for 2026-27, sourced row by row.' }
     ]
   },
 

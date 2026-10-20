@@ -391,7 +391,10 @@ module.exports = {
       { href: '/ai-and-machine-learning-classes-in-usa', label: 'AI and ML classes in the USA', p: 'For students moving on to models.' },
       { href: '/how-to-debug-code', label: 'How to debug code', p: 'A method for any bug.' },
       { href: '/blog/how-to-read-and-write-files-in-python', label: 'Files in Python', p: 'Paths, reading and writing.' },
-      { href: '/python-for-16-year-olds', label: 'Python for 16 year olds', p: 'A starting point in high school.' }
+      { href: '/python-for-16-year-olds', label: 'Python for 16 year olds', p: 'A starting point in high school.' },
+      { href: '/python-indentation-error-explained', label: 'Python indentation errors explained', p: 'Every Python IndentationError message, what it means, and how to fix it.' },
+      { href: '/python-turtle-not-working', label: 'Python turtle not working', p: 'Python turtle not working? The real errors, the fixes, and how to write text.' },
+      { href: '/scratch-not-working-help', label: 'Scratch not working', p: 'Scratch not working? Saving, sign-in, school network and tablet fixes, from the Scratch Help Center.' }
     ]
   },
 

@@ -295,6 +295,9 @@ The first lesson is free. After that, families pay for one month at a time, and 
 - [Homeschool CS credit](/homeschool-computer-science-high-school-credit): Recording computer science on a transcript.
 - [CS extracurriculars](/computer-science-extracurriculars): What else colleges see.
 - [Coding classes in the USA](/coding-classes-in-united-states): All our US pages.
+- [AP CSA practice questions](/ap-computer-science-a-practice-questions): Original AP CSA practice in Java: 14 questions and a free response, answers run and checked.
+- [AP CSP Create task guide](/ap-csp-create-performance-task-guide): The AP CSP Create task from the official handouts: code, video, PPR, AI rules, deadline.
+- [Is AP Computer Science hard?](/is-ap-computer-science-hard): How hard are AP CSA and AP CSP? The 2026 numbers, the prerequisites, two quick checks.
 
 ## Contact
 

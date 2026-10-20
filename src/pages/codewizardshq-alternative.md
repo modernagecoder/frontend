@@ -261,6 +261,9 @@ No. We are a separate, independent school. This page reports CodeWizardsHQ's pub
 - [Online coding class costs](/online-coding-classes-cost): How fees are structured.
 - [AP Computer Science A](/ap-computer-science-a-online-classes): Our Java and AP route.
 - [Coding classes in the USA](/coding-classes-in-united-states): All our US pages.
+- [Create & Learn alternative](/create-and-learn-alternative): Create & Learn and Modern Age Coders, compared on published facts.
+- [iD Tech alternative](/id-tech-alternative): iD Tech camps and lessons beside year-round live classes, compared on published facts.
+- [CodaKid alternative](/codakid-alternative): CodaKid and live online classes, compared on published facts.
 
 ## Contact
 

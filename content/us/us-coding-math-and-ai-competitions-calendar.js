@@ -396,7 +396,10 @@ module.exports = {
       { href: '/cyberpatriot-preparation', label: 'CyberPatriot preparation', p: 'Rounds from October to March.' },
       { href: '/presidential-ai-challenge-guide', label: 'Presidential AI Challenge', p: 'Now the SI Challenge, renamed 29 September 2026.' },
       { href: '/picoctf-for-beginners', label: 'picoCTF for beginners', p: 'Practice before the next flagship.' },
-      { href: '/uk-coding-maths-and-ai-competitions-calendar', label: 'UK competitions calendar', p: 'The same idea for the UK.' }
+      { href: '/uk-coding-maths-and-ai-competitions-calendar', label: 'UK competitions calendar', p: 'The same idea for the UK.' },
+      { href: '/cybersecurity-classes-for-teens', label: 'Cybersecurity classes for teens', p: 'Cybersecurity for US teens: CyberPatriot, CyLab, AP Cybersecurity and a safe start.' },
+      { href: '/technovation-girls-guide', label: 'Technovation Girls guide', p: 'Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.' },
+      { href: '/coding-competitions-for-high-school-students', label: 'Coding competitions for high school students', p: 'US high school coding competitions for 2026-27, from the organisers\' own rules.' }
     ]
   },
 

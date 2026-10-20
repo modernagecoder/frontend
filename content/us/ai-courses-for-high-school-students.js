@@ -355,7 +355,10 @@ module.exports = {
       { href: '/ai-classes-for-teenagers', label: 'AI classes for teenagers', p: 'Our live AI track, ages 13 to 18.' },
       { href: '/ai-ml-course-for-teens', label: 'AI and ML course for teens', p: 'The full syllabus and projects.' },
       { href: '/ai-projects-for-high-school-students', label: 'AI projects for high schoolers', p: 'What to build after a first course.' },
-      { href: '/how-ai-actually-works', label: 'How AI actually works', p: 'The ideas under the apps, explained.' }
+      { href: '/how-ai-actually-works', label: 'How AI actually works', p: 'The ideas under the apps, explained.' },
+      { href: '/ai-classes-for-middle-school-students', label: 'AI classes for middle school students', p: 'AI classes for US middle schoolers: what school covers, what a good class adds, and a first model in Python.' },
+      { href: '/ai-projects-for-middle-school-students', label: 'AI projects for middle school students', p: 'Ten AI projects for US middle schoolers, two in real Python, and how to take one to a science fair.' },
+      { href: '/ai-research-programs-for-high-school-students', label: 'AI research programs for high school students', p: 'AI research programs for US high schoolers, from the 2026 to 2027 rules, with a fair-test experiment.' }
     ]
   },
 

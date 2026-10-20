@@ -418,7 +418,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CS Principles', p: 'The course many students take for credit.' },
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A', p: 'Java for the next step.' },
       { href: '/homeschool-coding-curriculum', label: 'Homeschool coding', p: 'Planning CS at home.' },
-      { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Beyond the one required course.' }
+      { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Beyond the one required course.' },
+      { href: '/computer-science-standards-by-state', label: 'CS standards by state', p: 'Which states have K-12 computer science standards, and which include AI.' },
+      { href: '/high-school-computer-science-access-by-state', label: 'High school CS access by state', p: 'High school computer science access and enrollment in every US state, 2025 data.' },
+      { href: '/ai-guidance-for-schools-by-state', label: 'AI guidance for schools by state', p: 'State AI guidance for schools, all 50 states and DC, from the 2025 Code.org report.' }
     ]
   },
 

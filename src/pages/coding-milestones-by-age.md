@@ -319,6 +319,9 @@ The first lesson, which includes a milestone check, is free. After that, classes
 - [Coding for 7 year olds](/blog/coding-for-7-year-olds-what-how-kids-should-learn-programming): What to learn and how.
 - [Python for 10 year olds](/python-for-10-year-olds): The first typed language.
 - [Online coding for US kids](/online-coding-classes-for-kids-usa): All kids courses together.
+- [AI literacy for elementary students](/ai-literacy-for-elementary-students): AI literacy for K-5: what it means, what standards expect, and two activities.
+- [C++ for kids](/c-plus-plus-for-kids): C++ for kids: an honest age guide, three real programs and the USACO path.
+- [JavaScript for kids](/javascript-for-kids): JavaScript for kids: an age guide, the Console, and three real programs to try today.
 
 ## Contact
 

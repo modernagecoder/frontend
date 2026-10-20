@@ -401,7 +401,10 @@ module.exports = {
       { href: '/java-classes-for-teens', label: 'Java classes for teens', p: 'Our teen Java course in detail.' },
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A classes', p: 'Live preparation for the AP exam.' },
       { href: '/java-for-beginners', label: 'Java for beginners', p: 'Starting Java from zero.' },
-      { href: '/blog/java-array-programs-for-beginners', label: 'Java array programs', p: 'Practice programs to run in Eclipse.' }
+      { href: '/blog/java-array-programs-for-beginners', label: 'Java array programs', p: 'Practice programs to run in Eclipse.' },
+      { href: '/intellij-and-pycharm-free-for-students', label: 'IntelliJ and PyCharm free for students', p: 'IntelliJ IDEA and PyCharm for students: free core, student license, setup fixes.' },
+      { href: '/vs-code-setup-for-students', label: 'VS Code setup for students', p: 'Set up VS Code for Python and Java, and fix the errors students hit.' },
+      { href: '/github-classroom-help-for-students', label: 'GitHub Classroom help for students', p: 'GitHub Classroom retired on August 28, 2026: what students need to know.' }
     ]
   },
 

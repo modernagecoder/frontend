@@ -290,7 +290,10 @@ module.exports = {
       { href: '/group-vs-one-to-one-maths-tuition', label: 'Group or one to one', p: 'How group size changes learning.' },
       { href: '/roblox-coding-classes-for-kids', label: 'Roblox coding classes', p: 'A popular next step.' },
       { href: '/coding-for-10-year-olds', label: 'Coding for 10-year-olds', p: 'Starting points by age.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'The hub for American families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'The hub for American families.' },
+      { href: '/id-tech-alternative', label: 'iD Tech alternative', p: 'iD Tech camps and lessons beside year-round live classes, compared on published facts.' },
+      { href: '/codakid-alternative', label: 'CodaKid alternative', p: 'CodaKid and live online classes, compared on published facts.' },
+      { href: '/coding-with-kids-alternative', label: 'Coding with Kids alternative', p: 'Coding with Kids and Modern Age Coders, compared on published facts.' }
     ]
   },
 

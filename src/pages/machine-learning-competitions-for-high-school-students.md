@@ -325,6 +325,9 @@ No. We have no link with any organiser. We teach the machine learning, maths and
 - [Presidential AI Challenge](/presidential-ai-challenge-guide): The SI Challenge rules in depth.
 - [picoCTF for beginners](/picoctf-for-beginners): Including its AI security puzzles.
 - [Coding classes in the USA](/coding-classes-in-united-states): The full list of US pages.
+- [AI courses for high school students](/ai-courses-for-high-school-students): AI courses for US high schoolers: school, free online and live, compared on what they actually teach.
+- [AI classes for middle school students](/ai-classes-for-middle-school-students): AI classes for US middle schoolers: what school covers, what a good class adds, and a first model in Python.
+- [AI projects for middle school students](/ai-projects-for-middle-school-students): Ten AI projects for US middle schoolers, two in real Python, and how to take one to a science fair.
 
 ## Contact
 

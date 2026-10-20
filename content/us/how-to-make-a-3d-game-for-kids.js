@@ -365,7 +365,10 @@ module.exports = {
       { href: '/c-plus-plus-game-development', label: 'C++ game development', p: 'The language under many engines.' },
       { href: '/scratch-coding-classes-for-kids', label: 'Scratch coding classes', p: 'A 2D start for younger kids.' },
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Where every US guide of ours starts.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'Inside a live lesson.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'Inside a live lesson.' },
+      { href: '/godot-for-kids-and-teens', label: 'Godot for kids and teens', p: 'Godot for kids and teens: cost, devices, two GDScript scripts and the errors beginners hit.' },
+      { href: '/unity-for-teens', label: 'Unity for teens', p: 'Unity for teens: age rules, free plans, computer needs and two first C# scripts.' },
+      { href: '/game-design-classes-for-teens', label: 'Game design classes for teens', p: 'Game design for teens: a method, real tuning code, and the US competitions that judge teen games.' }
     ]
   },
 

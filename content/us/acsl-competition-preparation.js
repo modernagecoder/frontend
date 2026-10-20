@@ -419,7 +419,10 @@ module.exports = {
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CS Principles', p: 'A good match for Classroom division.' },
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Where ACSL fits among other options.' },
       { href: '/hackathons-for-high-school-students', label: 'Hackathons for high schoolers', p: 'Team building against the clock.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page we have for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page we have for US families.' },
+      { href: '/picoctf-for-beginners', label: 'picoCTF for beginners', p: 'picoCTF, now CyLab Security Academy, for US beginners aged 13 and up.' },
+      { href: '/cyberpatriot-preparation', label: 'CyberPatriot preparation', p: 'CyberPatriot 19 (2026-27) explained from the official pages, with a practice plan.' },
+      { href: '/technovation-girls-guide', label: 'Technovation Girls guide', p: 'Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.' }
     ]
   },
 

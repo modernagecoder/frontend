@@ -353,6 +353,9 @@ A regular teacher works through the ten-week plan with your student: scoping, bu
 - [AP CS Principles](/ap-computer-science-principles-online-coaching): The Create task and exam.
 - [How to make a Roblox game](/how-to-make-a-roblox-game): A first project for younger builders.
 - [Student labs](/student-labs): Apps our learners built.
+- [Presidential AI Challenge guide](/presidential-ai-challenge-guide): The Presidential AI (now SI) Challenge explained from the official 2027 rules.
+- [ACSL competition preparation](/acsl-competition-preparation): ACSL from the official 2026-27 pages, with original practice problems.
+- [picoCTF for beginners](/picoctf-for-beginners): picoCTF, now CyLab Security Academy, for US beginners aged 13 and up.
 
 ## Contact
 

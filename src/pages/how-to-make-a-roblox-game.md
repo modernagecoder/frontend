@@ -310,6 +310,9 @@ Your first lesson costs nothing. After it, families pay for one month of teachin
 - [Minecraft vs Roblox](/blog/minecraft-vs-roblox-which-teaches-kids-to-code): Which teaches more coding.
 - [Online coding for US kids](/online-coding-classes-for-kids-usa): Every track, ages 6 to 14.
 - [How we teach](/how-we-teach): What happens in each live class.
+- [Lua for kids](/lua-for-kids): Lua for kids: what it is, how Luau differs, and three programs to run today.
+- [Roblox Studio errors fixed](/roblox-studio-errors-fixed): Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.
+- [How to make a video game for kids](/how-to-make-a-video-game-for-kids): How to make a video game as a kid: free tools, seven steps and a real game to copy.
 
 ## Contact
 

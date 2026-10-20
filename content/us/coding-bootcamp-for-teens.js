@@ -354,7 +354,10 @@ module.exports = {
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Where an intensive fits.' },
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'A capstone with a real audience.' },
       { href: '/coding-for-16-year-olds', label: 'Coding for 16 year olds', p: 'What this age can build.' },
-      { href: '/real-coding-classes', label: 'Real coding classes', p: 'How we teach code that is understood.' }
+      { href: '/real-coding-classes', label: 'Real coding classes', p: 'How we teach code that is understood.' },
+      { href: '/homeschool-computer-science-high-school-credit', label: 'Homeschool CS high school credit', p: 'Homeschool CS credit in NY, PA and TX, from the state sources, with a template.' },
+      { href: '/ai-summer-programs-for-high-school-students', label: 'AI summer programs for high school students', p: 'AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.' },
+      { href: '/computer-science-summer-programs-for-high-school-students', label: 'CS summer programs for high school students', p: 'Four CS summer programs for high schoolers, from their own 2027 pages.' }
     ]
   },
 

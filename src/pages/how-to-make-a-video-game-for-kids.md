@@ -304,6 +304,9 @@ The first class is free. Then you pay for one month of teaching at a time, and t
 - [Scratch project ideas](/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced): Thirty-plus games and stories to try.
 - [Minecraft coding classes](/minecraft-coding-classes-for-kids): Coding inside Minecraft.
 - [Coding for 10 year olds](/coding-for-10-year-olds): Where a ten-year-old can start.
+- [Video game coding classes for kids](/video-game-coding-classes-for-kids): Video game coding classes for kids: tools by age, what classes teach, how to choose.
+- [How to make a 3D game for kids](/how-to-make-a-3d-game-for-kids): How kids make a 3D game: tools by device, x, y and z, and real code.
+- [Godot for kids and teens](/godot-for-kids-and-teens): Godot for kids and teens: cost, devices, two GDScript scripts and the errors beginners hit.
 
 ## Contact
 

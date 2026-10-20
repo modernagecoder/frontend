@@ -299,6 +299,9 @@ The first lesson is free. Then families pay monthly for the teaching, and the fe
 - [Python for 11 year olds](/python-for-11-year-olds): The usual first step.
 - [Coding classes in the USA](/coding-classes-in-united-states): All our pages for US families.
 - [C++ for beginners](/c-plus-plus-for-beginners): For older beginners and adults.
+- [JavaScript for kids](/javascript-for-kids): JavaScript for kids: an age guide, the Console, and three real programs to try today.
+- [App Inventor for kids](/app-inventor-for-kids): MIT App Inventor for kids: sign-in options, phone setup and a first app in real blocks.
+- [Coding classes for elementary students](/coding-classes-for-elementary-students): Coding for elementary students, grade by grade, with a first program and an at-home activity.
 
 ## Contact
 

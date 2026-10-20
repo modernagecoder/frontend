@@ -248,6 +248,9 @@ No. Modern Age Coders is independent; this page only summarises what Create & Le
 - [Roblox coding classes](/roblox-coding-classes-for-kids): A popular next step.
 - [Coding for 10-year-olds](/coding-for-10-year-olds): Starting points by age.
 - [Coding classes in the USA](/coding-classes-in-united-states): The hub for American families.
+- [iD Tech alternative](/id-tech-alternative): iD Tech camps and lessons beside year-round live classes, compared on published facts.
+- [CodaKid alternative](/codakid-alternative): CodaKid and live online classes, compared on published facts.
+- [Coding with Kids alternative](/coding-with-kids-alternative): Coding with Kids and Modern Age Coders, compared on published facts.
 
 ## Contact
 

@@ -291,6 +291,9 @@ The first class is free. After that, families pay monthly with no summer-long co
 - [AI classes for teenagers](/ai-classes-for-teenagers): The year-round AI track, ages 13 to 18.
 - [AI projects](/ai-projects-for-high-school-students): What to build once the basics are in place.
 - [AI tool age guide](/ai-tools-age-guide): Which AI tools are open to under-18s.
+- [AI literacy for elementary students](/ai-literacy-for-elementary-students): AI literacy for K-5: what it means, what standards expect, and two activities.
+- [Machine learning competitions for high school students](/machine-learning-competitions-for-high-school-students): ML and AI competitions for US high schoolers, 2026-27, from the official rules.
+- [AI courses for high school students](/ai-courses-for-high-school-students): AI courses for US high schoolers: school, free online and live, compared on what they actually teach.
 
 ## Contact
 

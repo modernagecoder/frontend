@@ -337,6 +337,9 @@ First lesson free, then a fee each month. The fees section shows the figure in U
 - [CS extracurriculars](/computer-science-extracurriculars): Clubs, contests and summer work.
 - [Coding for 15 year olds](/coding-for-15-year-olds): The tenth grade year.
 - [How we teach](/how-we-teach): A lesson, start to finish.
+- [Coding milestones by age](/coding-milestones-by-age): Coding milestones by age, with a checklist for 8 to 10 year olds.
+- [AI literacy for elementary students](/ai-literacy-for-elementary-students): AI literacy for K-5: what it means, what standards expect, and two activities.
+- [C++ for kids](/c-plus-plus-for-kids): C++ for kids: an honest age guide, three real programs and the USACO path.
 
 ## Contact
 

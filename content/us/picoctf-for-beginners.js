@@ -398,7 +398,10 @@ module.exports = {
       { href: '/hackathons-for-high-school-students', label: 'Hackathons for high schoolers', p: 'Build on a deadline, in teams.' },
       { href: '/usaco-preparation-online-coaching', label: 'USACO coaching', p: 'The programming olympiad.' },
       { href: '/coding-for-15-year-olds', label: 'Coding for 15-year-olds', p: 'What to learn at fifteen.' },
-      { href: '/student-labs', label: 'Student labs', p: 'Projects our learners built.' }
+      { href: '/student-labs', label: 'Student labs', p: 'Projects our learners built.' },
+      { href: '/cyberpatriot-preparation', label: 'CyberPatriot preparation', p: 'CyberPatriot 19 (2026-27) explained from the official pages, with a practice plan.' },
+      { href: '/technovation-girls-guide', label: 'Technovation Girls guide', p: 'Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.' },
+      { href: '/coding-competitions-for-high-school-students', label: 'Coding competitions for high school students', p: 'US high school coding competitions for 2026-27, from the organisers\' own rules.' }
     ]
   },
 

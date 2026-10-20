@@ -374,7 +374,10 @@ module.exports = {
       { href: '/blog/how-to-get-a-5-in-ap-computer-science-a', label: 'Getting a 5 in AP CSA', p: 'A revision plan for the year.' },
       { href: '/blog/ap-computer-science-a-changes-2026', label: 'AP CSA changes for 2026', p: 'What the new course moved.' },
       { href: '/usaco-preparation-online-coaching', label: 'USACO preparation', p: 'Where strong AP students often go next.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page we have for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page we have for US families.' },
+      { href: '/ap-csp-score-calculator', label: 'AP CSP score calculator', p: 'Estimate an AP CSP composite from published weights: 70 questions, six rubric points.' },
+      { href: '/does-ap-computer-science-give-college-credit', label: 'Does AP CS give college credit?', p: 'AP CSA and AP CSP credit: the official recommendation and three real college policies.' },
+      { href: '/ap-computer-science-a-practice-questions', label: 'AP CSA practice questions', p: 'Original AP CSA practice in Java: 14 questions and a free response, answers run and checked.' }
     ]
   },
 

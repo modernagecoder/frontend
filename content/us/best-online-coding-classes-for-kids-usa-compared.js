@@ -307,7 +307,10 @@ module.exports = {
       { href: '/modern-age-coders-vs-juni-learning', label: 'Compared with Juni Learning', p: 'Another provider, side by side.' },
       { href: '/modern-age-coders-vs-outschool', label: 'Compared with Outschool', p: 'A marketplace vs a school.' },
       { href: '/online-coding-classes-for-kids-usa', label: 'Online coding classes, USA', p: 'Our classes for US kids.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' },
+      { href: '/codewizardshq-alternative', label: 'CodeWizardsHQ alternative', p: 'CodeWizardsHQ and Modern Age Coders, compared on published facts.' },
+      { href: '/create-and-learn-alternative', label: 'Create & Learn alternative', p: 'Create & Learn and Modern Age Coders, compared on published facts.' },
+      { href: '/id-tech-alternative', label: 'iD Tech alternative', p: 'iD Tech camps and lessons beside year-round live classes, compared on published facts.' }
     ]
   },
 

@@ -355,7 +355,10 @@ module.exports = {
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'Rules for an AI-powered app.' },
       { href: '/presidential-ai-challenge-guide', label: 'Presidential AI Challenge', p: 'The SI Challenge rules in depth.' },
       { href: '/picoctf-for-beginners', label: 'picoCTF for beginners', p: 'Including its AI security puzzles.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'The full list of US pages.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'The full list of US pages.' },
+      { href: '/ai-courses-for-high-school-students', label: 'AI courses for high school students', p: 'AI courses for US high schoolers: school, free online and live, compared on what they actually teach.' },
+      { href: '/ai-classes-for-middle-school-students', label: 'AI classes for middle school students', p: 'AI classes for US middle schoolers: what school covers, what a good class adds, and a first model in Python.' },
+      { href: '/ai-projects-for-middle-school-students', label: 'AI projects for middle school students', p: 'Ten AI projects for US middle schoolers, two in real Python, and how to take one to a science fair.' }
     ]
   },
 

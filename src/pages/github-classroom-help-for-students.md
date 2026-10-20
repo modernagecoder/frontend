@@ -279,6 +279,9 @@ Your first lesson is free. Then fees are paid month by month for live teaching, 
 - [Java classes for teens](/java-classes-for-teens): Java beyond the exam.
 - [How to debug code](/how-to-debug-code): When the code, not Git, is broken.
 - [Coding for teens](/levels/coding-for-teens): Every teen track in one place.
+- [Google Colab help for students](/google-colab-help-for-students): Google Colab not working? Runtimes, files, Drive and limits, explained.
+- [Jupyter Notebook errors for students](/jupyter-notebook-errors-for-students): Jupyter Notebook errors students hit, what they mean, and how to fix them.
+- [Python indentation errors explained](/python-indentation-error-explained): Every Python IndentationError message, what it means, and how to fix it.
 
 ## Contact
 

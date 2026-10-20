@@ -319,6 +319,9 @@ Nothing for the trial lesson. Teaching after that is billed one month at a time,
 - [CS extracurriculars](/computer-science-extracurriculars): Where game projects fit outside class.
 - [Coding for 13 year olds](/coding-for-13-year-olds): What a teen can tackle next.
 - [How we teach](/how-we-teach): Inside one of our live lessons.
+- [Khan Academy CS vs live classes](/khan-academy-computer-science-vs-live-classes): Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.
+- [CodeHS help for students](/codehs-help-for-students): CodeHS help: resets, debugger, unit tests, autograder messages and login fixes.
+- [Code.org App Lab help](/code-org-app-lab-help): App Lab help: events, variables, screens, sound and data, from the official docs.
 
 ## Contact
 

@@ -271,6 +271,9 @@ We teach the Python and problem solving these programs assume, help a student fi
 - [AP Computer Science A](/ap-computer-science-a-online-classes): Java and the AP exam.
 - [Congressional App Challenge](/congressional-app-challenge-guide): A fall deadline for an app.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page for US families.
+- [Coding summer camp for middle schoolers](/coding-summer-camp-for-middle-schoolers): Coding summer camp for grades 6 to 8: blocks to Python in four weeks.
+- [Game design summer camp for teens](/game-design-summer-camp-for-teens): Game design summer camp for teens: engines, a real script, a six-week plan.
+- [Free coding programs for high school students](/free-coding-programs-for-high-school-students): Free coding programs for high schoolers, checked at the source, with a 16-week plan.
 
 ## Contact
 

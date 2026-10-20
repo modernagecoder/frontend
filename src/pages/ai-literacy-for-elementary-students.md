@@ -309,6 +309,9 @@ The first lesson costs nothing. Classes after that are paid monthly, and the fee
 - [Teaching kids AI at home](/blog/how-to-teach-kids-ai-at-home): More ideas for parents.
 - [AI tools age guide](/ai-tools-age-guide): What each tool&rsquo;s terms allow.
 - [How we teach](/how-we-teach): A class, minute by minute.
+- [C++ for kids](/c-plus-plus-for-kids): C++ for kids: an honest age guide, three real programs and the USACO path.
+- [JavaScript for kids](/javascript-for-kids): JavaScript for kids: an age guide, the Console, and three real programs to try today.
+- [App Inventor for kids](/app-inventor-for-kids): MIT App Inventor for kids: sign-in options, phone setup and a first app in real blocks.
 
 ## Contact
 

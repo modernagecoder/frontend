@@ -391,7 +391,10 @@ module.exports = {
       { href: '/blog/how-to-make-a-text-adventure-game-in-python', label: 'Text adventure in Python', p: 'Another first game, step by step.' },
       { href: '/blog/scratch-vs-python-which-better-young-learners', label: 'Scratch or Python first', p: 'Choosing a starting language.' },
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Our hub for families across the country.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'What happens in a live lesson.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'What happens in a live lesson.' },
+      { href: '/makecode-arcade-help-for-students', label: 'MakeCode Arcade help', p: 'MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.' },
+      { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'Make a Roblox game step by step: devices, three Luau scripts, and safe publishing.' },
+      { href: '/lua-for-kids', label: 'Lua for kids', p: 'Lua for kids: what it is, how Luau differs, and three programs to run today.' }
     ]
   },
 

@@ -318,7 +318,10 @@ module.exports = {
       { href: '/algebra-tutoring-online-usa', label: 'Algebra tutoring', p: 'Where area models pay off.' },
       { href: '/homeschool-math-curriculum-usa', label: 'Homeschool math curriculum', p: 'Choosing a sequence at home.' },
       { href: '/online-maths-tutoring-for-kids-in-usa', label: 'Math tutoring for kids', p: 'Live online, for US students.' },
-      { href: '/mathcounts-preparation', label: 'MATHCOUNTS preparation', p: 'For children who love problems.' }
+      { href: '/mathcounts-preparation', label: 'MATHCOUNTS preparation', p: 'For children who love problems.' },
+      { href: '/computer-science-graduation-requirements-by-state', label: 'CS graduation requirements by state', p: 'Computer science graduation requirements in all 50 states and DC, with state sources.' },
+      { href: '/computer-science-standards-by-state', label: 'CS standards by state', p: 'Which states have K-12 computer science standards, and which include AI.' },
+      { href: '/high-school-computer-science-access-by-state', label: 'High school CS access by state', p: 'High school computer science access and enrollment in every US state, 2025 data.' }
     ]
   },
 

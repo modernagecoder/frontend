@@ -345,7 +345,10 @@ module.exports = {
       { href: '/summer-coding-camp', label: 'Summer coding camp', p: 'Our own live summer camp.' },
       { href: '/ai-classes-for-teenagers', label: 'AI classes for teenagers', p: 'The year-round AI track, ages 13 to 18.' },
       { href: '/ai-projects-for-high-school-students', label: 'AI projects', p: 'What to build once the basics are in place.' },
-      { href: '/ai-tools-age-guide', label: 'AI tool age guide', p: 'Which AI tools are open to under-18s.' }
+      { href: '/ai-tools-age-guide', label: 'AI tool age guide', p: 'Which AI tools are open to under-18s.' },
+      { href: '/ai-literacy-for-elementary-students', label: 'AI literacy for elementary students', p: 'AI literacy for K-5: what it means, what standards expect, and two activities.' },
+      { href: '/machine-learning-competitions-for-high-school-students', label: 'Machine learning competitions for high school students', p: 'ML and AI competitions for US high schoolers, 2026-27, from the official rules.' },
+      { href: '/ai-courses-for-high-school-students', label: 'AI courses for high school students', p: 'AI courses for US high schoolers: school, free online and live, compared on what they actually teach.' }
     ]
   },
 

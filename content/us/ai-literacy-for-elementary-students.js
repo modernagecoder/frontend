@@ -379,7 +379,10 @@ module.exports = {
       { href: '/coding-for-8-year-olds', label: 'Coding for 8 year olds', p: 'Third grade coding, step by step.' },
       { href: '/blog/how-to-teach-kids-ai-at-home', label: 'Teaching kids AI at home', p: 'More ideas for parents.' },
       { href: '/ai-tools-age-guide', label: 'AI tools age guide', p: 'What each tool&rsquo;s terms allow.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'A class, minute by minute.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'A class, minute by minute.' },
+      { href: '/c-plus-plus-for-kids', label: 'C++ for kids', p: 'C++ for kids: an honest age guide, three real programs and the USACO path.' },
+      { href: '/javascript-for-kids', label: 'JavaScript for kids', p: 'JavaScript for kids: an age guide, the Console, and three real programs to try today.' },
+      { href: '/app-inventor-for-kids', label: 'App Inventor for kids', p: 'MIT App Inventor for kids: sign-in options, phone setup and a first app in real blocks.' }
     ]
   },
 

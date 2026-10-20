@@ -337,7 +337,10 @@ module.exports = {
       { href: '/best-ai-courses-for-teens-2026', label: 'AI courses for teens', p: 'Choosing an AI course at 13 to 18.' },
       { href: '/blog/how-to-use-chatgpt-to-study-without-cheating', label: 'Studying with AI honestly', p: 'Disclosure and good habits.' },
       { href: '/ai-projects-for-high-school-students', label: 'AI projects for high schoolers', p: 'Ideas to build next.' },
-      { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina', p: 'One of the seventeen, up close.' }
+      { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina', p: 'One of the seventeen, up close.' },
+      { href: '/common-core-math-vs-traditional-math', label: 'Common Core math vs traditional math', p: 'Common Core and traditional math compared from the standards, with a worked example.' },
+      { href: '/computer-science-graduation-requirements-by-state', label: 'CS graduation requirements by state', p: 'Computer science graduation requirements in all 50 states and DC, with state sources.' },
+      { href: '/computer-science-standards-by-state', label: 'CS standards by state', p: 'Which states have K-12 computer science standards, and which include AI.' }
     ]
   },
 

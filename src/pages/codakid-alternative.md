@@ -261,6 +261,9 @@ No. Modern Age Coders is a separate school. We summarise CodaKid's public pages 
 - [Minecraft coding classes](/minecraft-coding-classes-for-kids): Live Minecraft coding.
 - [How to make a Roblox game](/how-to-make-a-roblox-game): A guide for young builders.
 - [Coding classes in the USA](/coding-classes-in-united-states): Our US hub page.
+- [Coding with Kids alternative](/coding-with-kids-alternative): Coding with Kids and Modern Age Coders, compared on published facts.
+- [Khan Academy CS vs live classes](/khan-academy-computer-science-vs-live-classes): Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.
+- [Online coding classes for kids, compared](/best-online-coding-classes-for-kids-usa-compared): Six US online coding class providers for kids, compared on their own published facts.
 
 ## Contact
 

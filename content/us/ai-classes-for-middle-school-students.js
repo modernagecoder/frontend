@@ -335,7 +335,10 @@ module.exports = {
       { href: '/ai-literacy-for-students', label: 'AI literacy for students', p: 'The five abilities, age by age.' },
       { href: '/ai-projects-for-kids', label: 'AI projects for kids', p: 'Builds that need no accounts.' },
       { href: '/coding-for-13-year-olds', label: 'Coding for 13 year olds', p: 'The step up for eighth graders.' },
-      { href: '/online-coding-classes-for-kids-usa', label: 'Online coding for US kids', p: 'Every track, ages 6 to 14.' }
+      { href: '/online-coding-classes-for-kids-usa', label: 'Online coding for US kids', p: 'Every track, ages 6 to 14.' },
+      { href: '/ai-projects-for-middle-school-students', label: 'AI projects for middle school students', p: 'Ten AI projects for US middle schoolers, two in real Python, and how to take one to a science fair.' },
+      { href: '/ai-research-programs-for-high-school-students', label: 'AI research programs for high school students', p: 'AI research programs for US high schoolers, from the 2026 to 2027 rules, with a fair-test experiment.' },
+      { href: '/ai-certification-for-high-school-students', label: 'AI certification for high school students', p: 'Four AI and Python certification exams for US high schoolers, compared from the issuers\' own pages.' }
     ]
   },
 

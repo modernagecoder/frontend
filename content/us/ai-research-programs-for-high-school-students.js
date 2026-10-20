@@ -373,7 +373,10 @@ module.exports = {
       { href: '/ai-projects-for-high-school-students', label: 'AI projects for high schoolers', p: 'A ladder from first model to research.' },
       { href: '/hackathons-for-high-school-students', label: 'Hackathons', p: 'Build fast, present clearly.' },
       { href: '/how-to-train-machine-learning-models', label: 'Training ML models', p: 'The craft behind a fair experiment.' },
-      { href: '/ai-ml-course-for-teens', label: 'AI and ML course for teens', p: 'Our full teen machine learning track.' }
+      { href: '/ai-ml-course-for-teens', label: 'AI and ML course for teens', p: 'Our full teen machine learning track.' },
+      { href: '/ai-certification-for-high-school-students', label: 'AI certification for high school students', p: 'Four AI and Python certification exams for US high schoolers, compared from the issuers\' own pages.' },
+      { href: '/ai-summer-programs-for-high-school-students', label: 'AI summer programs for high school students', p: 'AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.' },
+      { href: '/ai-literacy-for-elementary-students', label: 'AI literacy for elementary students', p: 'AI literacy for K-5: what it means, what standards expect, and two activities.' }
     ]
   },
 

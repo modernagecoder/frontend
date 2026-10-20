@@ -369,7 +369,10 @@ module.exports = {
       { href: '/scratch-coding-classes-for-kids', label: 'Scratch coding classes', p: 'Our live Scratch classes.' },
       { href: '/blog/30-plus-scratch-project-ideas-kids-fun-coding-beginner-advanced', label: 'Scratch project ideas', p: 'Thirty-plus games and stories to try.' },
       { href: '/minecraft-coding-classes-for-kids', label: 'Minecraft coding classes', p: 'Coding inside Minecraft.' },
-      { href: '/coding-for-10-year-olds', label: 'Coding for 10 year olds', p: 'Where a ten-year-old can start.' }
+      { href: '/coding-for-10-year-olds', label: 'Coding for 10 year olds', p: 'Where a ten-year-old can start.' },
+      { href: '/video-game-coding-classes-for-kids', label: 'Video game coding classes for kids', p: 'Video game coding classes for kids: tools by age, what classes teach, how to choose.' },
+      { href: '/how-to-make-a-3d-game-for-kids', label: 'How to make a 3D game for kids', p: 'How kids make a 3D game: tools by device, x, y and z, and real code.' },
+      { href: '/godot-for-kids-and-teens', label: 'Godot for kids and teens', p: 'Godot for kids and teens: cost, devices, two GDScript scripts and the errors beginners hit.' }
     ]
   },
 

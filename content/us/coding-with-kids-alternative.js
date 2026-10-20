@@ -308,7 +308,10 @@ module.exports = {
       { href: '/coding-classes-in-texas', label: 'Coding classes in Texas', p: 'Online options for Texas families.' },
       { href: '/coding-classes-in-georgia', label: 'Coding classes in Georgia', p: 'Online options in Georgia.' },
       { href: '/modern-age-coders-vs-juni-learning', label: 'Compared with Juni Learning', p: 'Another comparison.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Start of our US section.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Start of our US section.' },
+      { href: '/khan-academy-computer-science-vs-live-classes', label: 'Khan Academy CS vs live classes', p: 'Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.' },
+      { href: '/best-online-coding-classes-for-kids-usa-compared', label: 'Online coding classes for kids, compared', p: 'Six US online coding class providers for kids, compared on their own published facts.' },
+      { href: '/codewizardshq-alternative', label: 'CodeWizardsHQ alternative', p: 'CodeWizardsHQ and Modern Age Coders, compared on published facts.' }
     ]
   },
 

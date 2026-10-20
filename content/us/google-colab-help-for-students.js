@@ -374,7 +374,10 @@ module.exports = {
       { href: '/ai-and-machine-learning-classes-in-usa', label: 'AI and ML in the USA', p: 'For students ready for models.' },
       { href: '/ai-tools-age-guide', label: 'AI tools age guide', p: 'Age rules for popular AI tools.' },
       { href: '/blog/how-to-read-and-write-files-in-python', label: 'Reading files in Python', p: 'Paths and files, explained.' },
-      { href: '/python-for-17-year-olds', label: 'Python for 17 year olds', p: 'For high school seniors.' }
+      { href: '/python-for-17-year-olds', label: 'Python for 17 year olds', p: 'For high school seniors.' },
+      { href: '/jupyter-notebook-errors-for-students', label: 'Jupyter Notebook errors for students', p: 'Jupyter Notebook errors students hit, what they mean, and how to fix them.' },
+      { href: '/python-indentation-error-explained', label: 'Python indentation errors explained', p: 'Every Python IndentationError message, what it means, and how to fix it.' },
+      { href: '/python-turtle-not-working', label: 'Python turtle not working', p: 'Python turtle not working? The real errors, the fixes, and how to write text.' }
     ]
   },
 

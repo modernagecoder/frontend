@@ -391,7 +391,10 @@ module.exports = {
       { href: '/blog/how-to-use-chatgpt-to-study-without-cheating', label: 'AI and honest study', p: 'Habits that keep work your own.' },
       { href: '/how-to-debug-code', label: 'How to debug code', p: 'For the testing prompt.' },
       { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge', p: 'A place for a project after AP.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our US pages.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our US pages.' },
+      { href: '/is-ap-computer-science-hard', label: 'Is AP Computer Science hard?', p: 'How hard are AP CSA and AP CSP? The 2026 numbers, the prerequisites, two quick checks.' },
+      { href: '/java-cannot-find-symbol-error', label: 'Java cannot find symbol error', p: 'Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.' },
+      { href: '/code-org-app-lab-help', label: 'Code.org App Lab help', p: 'App Lab help: events, variables, screens, sound and data, from the official docs.' }
     ]
   },
 

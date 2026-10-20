@@ -396,7 +396,10 @@ module.exports = {
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A classes', p: 'Live AP CSA preparation.' },
       { href: '/ap-computer-science-principles-online-coaching', label: 'AP CSP coaching', p: 'Live AP CSP preparation.' },
       { href: '/blog/ap-csp-vs-ap-csa-which-to-take-first', label: 'AP CSP or AP CSA first?', p: 'Choosing an order for the two courses.' },
-      { href: '/blog/python-for-beginners', label: 'Python for beginners', p: 'The basics behind the Python units.' }
+      { href: '/blog/python-for-beginners', label: 'Python for beginners', p: 'The basics behind the Python units.' },
+      { href: '/code-org-app-lab-help', label: 'Code.org App Lab help', p: 'App Lab help: events, variables, screens, sound and data, from the official docs.' },
+      { href: '/java-cannot-find-symbol-error', label: 'Java cannot find symbol error', p: 'Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.' },
+      { href: '/bluej-not-working-fix', label: 'BlueJ not working: fixes', p: 'BlueJ not working? Official fixes for install, VM errors, output and frozen runs.' }
     ]
   },
 

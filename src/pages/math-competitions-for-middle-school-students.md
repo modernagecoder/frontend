@@ -358,6 +358,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 - [7th grade math tutor](/online-math-tutor-7th-grade): School math, properly.
 - [Algebra tutoring](/algebra-tutoring-online-usa): The base of most contest problems.
 - [Homeschool math](/homeschool-math-curriculum-usa): A full curriculum at home.
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar): US coding, math and AI competition dates for 2026-27, sourced row by row.
+- [Cybersecurity classes for teens](/cybersecurity-classes-for-teens): Cybersecurity for US teens: CyberPatriot, CyLab, AP Cybersecurity and a safe start.
+- [Congressional App Challenge guide](/congressional-app-challenge-guide): The Congressional App Challenge explained from the 2026 rules, with a ten-week plan.
 
 ## Contact
 

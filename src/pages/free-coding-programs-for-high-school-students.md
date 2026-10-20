@@ -283,6 +283,9 @@ You may not need to. Many students do well alone. A live teacher helps when a st
 - [Hackathons for high schoolers](/hackathons-for-high-school-students): Mostly free to attend.
 - [Online coding classes cost](/online-coding-classes-cost): When paying makes sense.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page for US families.
+- [CS internships for high school students](/computer-science-internships-for-high-school-students): CS internships for high schoolers: real 2027 rules, age lines and a readiness plan.
+- [Coding bootcamp for teens](/coding-bootcamp-for-teens): Coding bootcamp for teens: the format, free tools and an eight-week plan.
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit): Homeschool CS credit in NY, PA and TX, from the state sources, with a template.
 
 ## Contact
 

@@ -395,7 +395,10 @@ module.exports = {
       { href: '/math-olympiad-amc-tutoring', label: 'AMC and olympiad tutoring', p: 'From the AMC 8 upward.' },
       { href: '/online-math-tutor-7th-grade', label: '7th grade math tutor', p: 'School math, properly.' },
       { href: '/algebra-tutoring-online-usa', label: 'Algebra tutoring', p: 'The base of most contest problems.' },
-      { href: '/homeschool-math-curriculum-usa', label: 'Homeschool math', p: 'A full curriculum at home.' }
+      { href: '/homeschool-math-curriculum-usa', label: 'Homeschool math', p: 'A full curriculum at home.' },
+      { href: '/us-coding-math-and-ai-competitions-calendar', label: 'US competitions calendar 2026-27', p: 'US coding, math and AI competition dates for 2026-27, sourced row by row.' },
+      { href: '/cybersecurity-classes-for-teens', label: 'Cybersecurity classes for teens', p: 'Cybersecurity for US teens: CyberPatriot, CyLab, AP Cybersecurity and a safe start.' },
+      { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge guide', p: 'The Congressional App Challenge explained from the 2026 rules, with a ten-week plan.' }
     ]
   },
 

@@ -234,7 +234,8 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'United States hub' },
     { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina' },
     { href: '/coding-classes-for-high-school-students', label: 'High school coding' },
-    { href: '/ai-courses-for-high-school-students', label: 'AI for high schoolers' }
+    { href: '/ai-courses-for-high-school-students', label: 'AI for high schoolers' },
+    { href: '/coding-classes-in-washington', label: 'Washington State' }
   ],
 
   personalityCss: `

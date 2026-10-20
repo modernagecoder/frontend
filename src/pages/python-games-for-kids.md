@@ -280,6 +280,9 @@ The first lesson is free. Regular classes are billed per month, and the fees pan
 - [Scratch or Python first](/blog/scratch-vs-python-which-better-young-learners): Choosing a starting language.
 - [Coding classes in the USA](/coding-classes-in-united-states): Our hub for families across the country.
 - [How we teach](/how-we-teach): What happens in a live lesson.
+- [MakeCode Arcade help](/makecode-arcade-help-for-students): MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.
+- [How to make a Roblox game](/how-to-make-a-roblox-game): Make a Roblox game step by step: devices, three Luau scripts, and safe publishing.
+- [Lua for kids](/lua-for-kids): Lua for kids: what it is, how Luau differs, and three programs to run today.
 
 ## Contact
 

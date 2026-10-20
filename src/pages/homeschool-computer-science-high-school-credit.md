@@ -324,6 +324,9 @@ A syllabus, a dated attendance log, graded projects with rubrics and unit notes 
 - [AP Computer Science A](/ap-computer-science-a-online-classes): Java to exam level.
 - [Congressional App Challenge](/congressional-app-challenge-guide): Outside evidence for a CS year.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every page for US families.
+- [AI summer programs for high school students](/ai-summer-programs-for-high-school-students): AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.
+- [CS summer programs for high school students](/computer-science-summer-programs-for-high-school-students): Four CS summer programs for high schoolers, from their own 2027 pages.
+- [Coding summer camp for middle schoolers](/coding-summer-camp-for-middle-schoolers): Coding summer camp for grades 6 to 8: blocks to Python in four weeks.
 
 ## Contact
 

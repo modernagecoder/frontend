@@ -379,7 +379,10 @@ module.exports = {
       { href: '/blog/pcep-vs-pcap-which-python-certification', label: 'PCEP or PCAP', p: 'Which Python exam to sit first.' },
       { href: '/ai-projects-for-high-school-students', label: 'AI projects for high schoolers', p: 'The evidence that sits beside an exam.' },
       { href: '/ai-tools-age-guide', label: 'AI tool age guide', p: 'Which tools a teenager may use, from their terms.' },
-      { href: '/ai-classes-for-teenagers', label: 'AI classes for teenagers', p: 'Our live AI track for ages 13 to 18.' }
+      { href: '/ai-classes-for-teenagers', label: 'AI classes for teenagers', p: 'Our live AI track for ages 13 to 18.' },
+      { href: '/ai-summer-programs-for-high-school-students', label: 'AI summer programs for high school students', p: 'AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.' },
+      { href: '/ai-literacy-for-elementary-students', label: 'AI literacy for elementary students', p: 'AI literacy for K-5: what it means, what standards expect, and two activities.' },
+      { href: '/machine-learning-competitions-for-high-school-students', label: 'Machine learning competitions for high school students', p: 'ML and AI competitions for US high schoolers, 2026-27, from the official rules.' }
     ]
   },
 

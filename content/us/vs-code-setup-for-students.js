@@ -375,7 +375,10 @@ module.exports = {
       { href: '/java-classes-for-teens', label: 'Java classes for teens', p: 'Java beyond the AP track.' },
       { href: '/blog/best-java-ides-for-beginners', label: 'Java IDEs for beginners', p: 'Comparing editors before you install.' },
       { href: '/blog/git-vs-github-difference', label: 'Git vs GitHub', p: 'The next tool after the editor.' },
-      { href: '/python-for-15-year-olds', label: 'Python for 15 year olds', p: 'A high school starting point.' }
+      { href: '/python-for-15-year-olds', label: 'Python for 15 year olds', p: 'A high school starting point.' },
+      { href: '/github-classroom-help-for-students', label: 'GitHub Classroom help for students', p: 'GitHub Classroom retired on August 28, 2026: what students need to know.' },
+      { href: '/google-colab-help-for-students', label: 'Google Colab help for students', p: 'Google Colab not working? Runtimes, files, Drive and limits, explained.' },
+      { href: '/jupyter-notebook-errors-for-students', label: 'Jupyter Notebook errors for students', p: 'Jupyter Notebook errors students hit, what they mean, and how to fix them.' }
     ]
   },
 

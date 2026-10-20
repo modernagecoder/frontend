@@ -355,7 +355,10 @@ module.exports = {
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'What strong students add.' },
       { href: '/hackathons-for-high-school-students', label: 'Hackathons for high schoolers', p: 'Mostly free to attend.' },
       { href: '/online-coding-classes-cost', label: 'Online coding classes cost', p: 'When paying makes sense.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page for US families.' },
+      { href: '/computer-science-internships-for-high-school-students', label: 'CS internships for high school students', p: 'CS internships for high schoolers: real 2027 rules, age lines and a readiness plan.' },
+      { href: '/coding-bootcamp-for-teens', label: 'Coding bootcamp for teens', p: 'Coding bootcamp for teens: the format, free tools and an eight-week plan.' },
+      { href: '/homeschool-computer-science-high-school-credit', label: 'Homeschool CS high school credit', p: 'Homeschool CS credit in NY, PA and TX, from the state sources, with a template.' }
     ]
   },
 

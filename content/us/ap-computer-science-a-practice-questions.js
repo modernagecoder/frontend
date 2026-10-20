@@ -509,7 +509,10 @@ module.exports = {
       { href: '/how-to-debug-code', label: 'How to debug code', p: 'A method for finding your own bugs.' },
       { href: '/how-to-think-like-a-programmer', label: 'Thinking like a programmer', p: 'The habits behind tracing.' },
       { href: '/usaco-preparation-online-coaching', label: 'USACO preparation', p: 'When AP questions get easy.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our pages for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'All our pages for US families.' },
+      { href: '/ap-csp-create-performance-task-guide', label: 'AP CSP Create task guide', p: 'The AP CSP Create task from the official handouts: code, video, PPR, AI rules, deadline.' },
+      { href: '/is-ap-computer-science-hard', label: 'Is AP Computer Science hard?', p: 'How hard are AP CSA and AP CSP? The 2026 numbers, the prerequisites, two quick checks.' },
+      { href: '/java-cannot-find-symbol-error', label: 'Java cannot find symbol error', p: 'Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.' }
     ]
   },
 

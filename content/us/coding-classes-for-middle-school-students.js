@@ -388,7 +388,10 @@ module.exports = {
       { href: '/coding-for-12-year-olds', label: 'Coding for 12 year olds', p: 'The sixth and seventh grade year.' },
       { href: '/coding-for-13-year-olds', label: 'Coding for 13 year olds', p: 'Moving into teen courses.' },
       { href: '/computer-science-extracurriculars', label: 'CS extracurriculars', p: 'Clubs, contests and projects.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'One class, described in full.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'One class, described in full.' },
+      { href: '/coding-classes-for-high-school-students', label: 'Coding classes for high school students', p: 'Coding for high schoolers: CS access data, AP CSP and AP CSA in 2027, and a four-year plan.' },
+      { href: '/coding-milestones-by-age', label: 'Coding milestones by age', p: 'Coding milestones by age, with a checklist for 8 to 10 year olds.' },
+      { href: '/ai-literacy-for-elementary-students', label: 'AI literacy for elementary students', p: 'AI literacy for K-5: what it means, what standards expect, and two activities.' }
     ]
   },
 

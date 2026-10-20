@@ -292,6 +292,9 @@ Only tools whose terms allow the teen's age, with a parent aware of the account.
 - [Congressional App Challenge](/congressional-app-challenge-guide): A capstone with a real audience.
 - [Coding for 16 year olds](/coding-for-16-year-olds): What this age can build.
 - [Real coding classes](/real-coding-classes): How we teach code that is understood.
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit): Homeschool CS credit in NY, PA and TX, from the state sources, with a template.
+- [AI summer programs for high school students](/ai-summer-programs-for-high-school-students): AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.
+- [CS summer programs for high school students](/computer-science-summer-programs-for-high-school-students): Four CS summer programs for high schoolers, from their own 2027 pages.
 
 ## Contact
 

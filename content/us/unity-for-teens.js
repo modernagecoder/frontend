@@ -370,7 +370,10 @@ module.exports = {
       { href: '/c-plus-plus-game-development', label: 'C++ game development', p: 'The language under many engines.' },
       { href: '/c-plus-plus-classes-for-teens', label: 'C++ classes for teens', p: 'Our live C++ course.' },
       { href: '/coding-for-13-year-olds', label: 'Coding for 13 year olds', p: 'Choosing a first teen path.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'Inside a live lesson.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'Inside a live lesson.' },
+      { href: '/game-design-classes-for-teens', label: 'Game design classes for teens', p: 'Game design for teens: a method, real tuning code, and the US competitions that judge teen games.' },
+      { href: '/game-design-summer-camp-for-teens', label: 'Game design summer camp for teens', p: 'Game design summer camp for teens: engines, a real script, a six-week plan.' },
+      { href: '/learn-to-code-minecraft-mods', label: 'Learn to code Minecraft mods', p: 'Minecraft modding in Java for teens: Fabric or Forge, Java versions, a first item.' }
     ]
   },
 

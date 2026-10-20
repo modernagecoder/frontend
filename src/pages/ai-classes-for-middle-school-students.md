@@ -275,6 +275,9 @@ The first class is free. After that, families pay monthly, and the fees section 
 - [AI projects for kids](/ai-projects-for-kids): Builds that need no accounts.
 - [Coding for 13 year olds](/coding-for-13-year-olds): The step up for eighth graders.
 - [Online coding for US kids](/online-coding-classes-for-kids-usa): Every track, ages 6 to 14.
+- [AI projects for middle school students](/ai-projects-for-middle-school-students): Ten AI projects for US middle schoolers, two in real Python, and how to take one to a science fair.
+- [AI research programs for high school students](/ai-research-programs-for-high-school-students): AI research programs for US high schoolers, from the 2026 to 2027 rules, with a fair-test experiment.
+- [AI certification for high school students](/ai-certification-for-high-school-students): Four AI and Python certification exams for US high schoolers, compared from the issuers' own pages.
 
 ## Contact
 

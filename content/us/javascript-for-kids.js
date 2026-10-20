@@ -377,7 +377,10 @@ module.exports = {
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'The index of our US pages.' },
       { href: '/coding-for-11-year-olds', label: 'Coding for 11 year olds', p: 'What fits at this age.' },
       { href: '/hackathons-for-high-school-students', label: 'Hackathons for high schoolers', p: 'Where teen web projects get tested.' },
-      { href: '/how-to-debug-code', label: 'How to debug code', p: 'Habits for reading errors.' }
+      { href: '/how-to-debug-code', label: 'How to debug code', p: 'Habits for reading errors.' },
+      { href: '/app-inventor-for-kids', label: 'App Inventor for kids', p: 'MIT App Inventor for kids: sign-in options, phone setup and a first app in real blocks.' },
+      { href: '/coding-classes-for-elementary-students', label: 'Coding classes for elementary students', p: 'Coding for elementary students, grade by grade, with a first program and an at-home activity.' },
+      { href: '/coding-classes-for-middle-school-students', label: 'Coding classes for middle school students', p: 'Coding for middle schoolers: grade 8 expectations, a real Python program, and how to choose a language.' }
     ]
   },
 

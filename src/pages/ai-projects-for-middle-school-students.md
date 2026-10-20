@@ -286,6 +286,9 @@ The first class is free. After that, families pay monthly, and the fees section 
 - [AI classes for kids](/ai-classes-for-kids): Our live AI classes for children.
 - [Python for 13 year olds](/python-for-13-year-olds): For eighth graders ready for more.
 - [Teaching AI at home](/blog/how-to-teach-kids-ai-at-home): Activities that need no tools.
+- [AI research programs for high school students](/ai-research-programs-for-high-school-students): AI research programs for US high schoolers, from the 2026 to 2027 rules, with a fair-test experiment.
+- [AI certification for high school students](/ai-certification-for-high-school-students): Four AI and Python certification exams for US high schoolers, compared from the issuers' own pages.
+- [AI summer programs for high school students](/ai-summer-programs-for-high-school-students): AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.
 
 ## Contact
 

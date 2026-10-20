@@ -392,7 +392,10 @@ module.exports = {
       { href: '/blog/top-coding-games-platforms-make-learning-fun-kids', label: 'Coding games and platforms', p: 'How the popular tools compare.' },
       { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Our full set of pages for US families.' },
       { href: '/coding-for-10-year-olds', label: 'Coding for 10 year olds', p: 'What fits at that age.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'A look inside a live class.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'A look inside a live class.' },
+      { href: '/roblox-studio-errors-fixed', label: 'Roblox Studio errors fixed', p: 'Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.' },
+      { href: '/khan-academy-computer-science-vs-live-classes', label: 'Khan Academy CS vs live classes', p: 'Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.' },
+      { href: '/codehs-help-for-students', label: 'CodeHS help for students', p: 'CodeHS help: resets, debugger, unit tests, autograder messages and login fixes.' }
     ]
   },
 

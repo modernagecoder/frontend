@@ -259,7 +259,9 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'United States hub' },
     { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina' },
     { href: '/computer-science-extracurriculars', label: 'CS extracurriculars' },
-    { href: '/usaco-preparation-online-coaching', label: 'USACO preparation' }
+    { href: '/usaco-preparation-online-coaching', label: 'USACO preparation' },
+    { href: '/computer-science-graduation-requirements-by-state', label: 'CS graduation requirements by state' },
+    { href: '/high-school-computer-science-access-by-state', label: 'High school CS access by state' }
   ],
 
   personalityCss: `

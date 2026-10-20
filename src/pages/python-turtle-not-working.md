@@ -276,6 +276,9 @@ The first lesson costs nothing. After that you pay month by month for live teach
 - [Python for 12 year olds](/python-for-12-year-olds): A starting point for seventh graders.
 - [How to debug code](/how-to-debug-code): A method for any bug, turtle or not.
 - [Student labs](/student-labs): Projects our learners have shipped.
+- [Scratch not working](/scratch-not-working-help): Scratch not working? Saving, sign-in, school network and tablet fixes, from the Scratch Help Center.
+- [MakeCode Arcade help](/makecode-arcade-help-for-students): MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.
+- [Roblox Studio errors fixed](/roblox-studio-errors-fixed): Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.
 
 ## Contact
 

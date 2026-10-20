@@ -373,7 +373,10 @@ module.exports = {
       { href: '/ap-computer-science-a-online-classes', label: 'AP CSA online classes', p: 'Java for the AP course.' },
       { href: '/java-classes-for-teens', label: 'Java classes for teens', p: 'Java beyond the exam.' },
       { href: '/how-to-debug-code', label: 'How to debug code', p: 'When the code, not Git, is broken.' },
-      { href: '/levels/coding-for-teens', label: 'Coding for teens', p: 'Every teen track in one place.' }
+      { href: '/levels/coding-for-teens', label: 'Coding for teens', p: 'Every teen track in one place.' },
+      { href: '/google-colab-help-for-students', label: 'Google Colab help for students', p: 'Google Colab not working? Runtimes, files, Drive and limits, explained.' },
+      { href: '/jupyter-notebook-errors-for-students', label: 'Jupyter Notebook errors for students', p: 'Jupyter Notebook errors students hit, what they mean, and how to fix them.' },
+      { href: '/python-indentation-error-explained', label: 'Python indentation errors explained', p: 'Every Python IndentationError message, what it means, and how to fix it.' }
     ]
   },
 

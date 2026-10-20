@@ -253,7 +253,8 @@ module.exports = {
     { href: '/coding-classes-in-united-states', label: 'United States hub' },
     { href: '/coding-and-ai-classes-in-north-carolina', label: 'North Carolina' },
     { href: '/congressional-app-challenge-guide', label: 'Congressional App Challenge' },
-    { href: '/ap-computer-science-a-online-classes', label: 'AP CS A classes' }
+    { href: '/ap-computer-science-a-online-classes', label: 'AP CS A classes' },
+    { href: '/coding-and-ai-classes-in-oregon', label: 'Oregon' }
   ],
 
   personalityCss: `

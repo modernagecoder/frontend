@@ -402,7 +402,10 @@ module.exports = {
       { href: '/blog/scratch-vs-python-which-better-young-learners', label: 'Scratch or Python?', p: 'When a child is ready to type code.' },
       { href: '/how-to-debug-code', label: 'How to debug code', p: 'The same habits, for any language.' },
       { href: '/online-coding-classes-for-kids-usa', label: 'Online coding for US kids', p: 'Every course for ages 6 to 14.' },
-      { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'Where many Scratch fans go next.' }
+      { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'Where many Scratch fans go next.' },
+      { href: '/makecode-arcade-help-for-students', label: 'MakeCode Arcade help', p: 'MakeCode Arcade help: jumping, gravity, tilemap levels and lost projects.' },
+      { href: '/roblox-studio-errors-fixed', label: 'Roblox Studio errors fixed', p: 'Roblox Studio errors from the Creator docs: 403, 502, HTTP, endless waits.' },
+      { href: '/khan-academy-computer-science-vs-live-classes', label: 'Khan Academy CS vs live classes', p: 'Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.' }
     ]
   },
 

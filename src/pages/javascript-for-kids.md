@@ -286,6 +286,9 @@ The first lesson is free. After that you pay for one month of teaching at a time
 - [Coding for 11 year olds](/coding-for-11-year-olds): What fits at this age.
 - [Hackathons for high schoolers](/hackathons-for-high-school-students): Where teen web projects get tested.
 - [How to debug code](/how-to-debug-code): Habits for reading errors.
+- [App Inventor for kids](/app-inventor-for-kids): MIT App Inventor for kids: sign-in options, phone setup and a first app in real blocks.
+- [Coding classes for elementary students](/coding-classes-for-elementary-students): Coding for elementary students, grade by grade, with a first program and an at-home activity.
+- [Coding classes for middle school students](/coding-classes-for-middle-school-students): Coding for middle schoolers: grade 8 expectations, a real Python program, and how to choose a language.
 
 ## Contact
 

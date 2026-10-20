@@ -354,6 +354,9 @@ The first lesson is free. Teaching after that is billed one month at a time, and
 - [C++ game development](/c-plus-plus-game-development): For teens drawn to engine-level code.
 - [Coding for 13 year olds](/coding-for-13-year-olds): Where a younger teen can begin.
 - [How we teach](/how-we-teach): Inside one of our live classes.
+- [Game design summer camp for teens](/game-design-summer-camp-for-teens): Game design summer camp for teens: engines, a real script, a six-week plan.
+- [Learn to code Minecraft mods](/learn-to-code-minecraft-mods): Minecraft modding in Java for teens: Fabric or Forge, Java versions, a first item.
+- [Python games for kids](/python-games-for-kids): Python games kids can code: a guessing game, then pygame, step by step.
 
 ## Contact
 

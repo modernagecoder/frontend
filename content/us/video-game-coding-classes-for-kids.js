@@ -335,7 +335,10 @@ module.exports = {
       { href: '/scratch-coding-classes-for-kids', label: 'Scratch coding classes', p: 'The gentlest start for young coders.' },
       { href: '/summer-coding-camp', label: 'Summer coding camp', p: 'Holiday options for game makers.' },
       { href: '/online-coding-classes-for-kids-usa', label: 'Online classes for US kids', p: 'All tracks, not only games.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Our main page for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Our main page for US families.' },
+      { href: '/how-to-make-a-3d-game-for-kids', label: 'How to make a 3D game for kids', p: 'How kids make a 3D game: tools by device, x, y and z, and real code.' },
+      { href: '/godot-for-kids-and-teens', label: 'Godot for kids and teens', p: 'Godot for kids and teens: cost, devices, two GDScript scripts and the errors beginners hit.' },
+      { href: '/unity-for-teens', label: 'Unity for teens', p: 'Unity for teens: age rules, free plans, computer needs and two first C# scripts.' }
     ]
   },
 

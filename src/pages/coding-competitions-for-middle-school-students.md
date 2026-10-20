@@ -328,6 +328,9 @@ No. We are an independent online school with no connection to any organiser. We 
 - [ACSL preparation](/acsl-competition-preparation): Junior Division topics explained.
 - [Technovation Girls](/technovation-girls-guide): An app and AI challenge for girls.
 - [Coding classes in the USA](/coding-classes-in-united-states): All our guides for American families.
+- [Machine learning competitions for high school students](/machine-learning-competitions-for-high-school-students): ML and AI competitions for US high schoolers, 2026-27, from the official rules.
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students): Middle school math competitions for 2026-27, compared round by round.
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar): US coding, math and AI competition dates for 2026-27, sourced row by row.
 
 ## Contact
 

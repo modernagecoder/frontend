@@ -428,7 +428,10 @@ module.exports = {
       { href: '/cyberpatriot-preparation', label: 'CyberPatriot preparation', p: 'Images, scoring and team roles.' },
       { href: '/picoctf-for-beginners', label: 'picoCTF for beginners', p: 'First flags, step by step.' },
       { href: '/technovation-girls-guide', label: 'Technovation Girls', p: 'The app and AI challenge for girls.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page we have for US families.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Every page we have for US families.' },
+      { href: '/coding-competitions-for-middle-school-students', label: 'Coding competitions for middle school students', p: 'Middle school coding competitions for 2026-27, grade by grade.' },
+      { href: '/machine-learning-competitions-for-high-school-students', label: 'Machine learning competitions for high school students', p: 'ML and AI competitions for US high schoolers, 2026-27, from the official rules.' },
+      { href: '/math-competitions-for-middle-school-students', label: 'Math competitions for middle school students', p: 'Middle school math competitions for 2026-27, compared round by round.' }
     ]
   },
 

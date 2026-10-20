@@ -302,6 +302,9 @@ There is no charge for the first lesson. Later lessons are billed monthly, and t
 - [How to debug code](/how-to-debug-code): The habit that makes AP easier.
 - [Coding for 15 year olds](/coding-for-15-year-olds): Where many start.
 - [Coding classes in the USA](/coding-classes-in-united-states): Every US page in one place.
+- [Java cannot find symbol error](/java-cannot-find-symbol-error): Java cannot find symbol, decoded: real javac output, eight causes, numbered fixes.
+- [Code.org App Lab help](/code-org-app-lab-help): App Lab help: events, variables, screens, sound and data, from the official docs.
+- [AP CSA score calculator](/ap-computer-science-a-score-calculator): An honest AP CSA score estimate: published weights, FRQ points and a worked composite.
 
 ## Contact
 

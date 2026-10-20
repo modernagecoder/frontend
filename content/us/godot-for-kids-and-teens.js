@@ -402,7 +402,10 @@ module.exports = {
       { href: '/c-plus-plus-game-development', label: 'C++ game development', p: 'Engine-level code for older teens.' },
       { href: '/scratch-coding-classes-for-kids', label: 'Scratch coding classes', p: 'The gentle start before Godot.' },
       { href: '/coding-for-13-year-olds', label: 'Coding for 13 year olds', p: 'Choosing a first teen language.' },
-      { href: '/how-we-teach', label: 'How we teach', p: 'What a live lesson looks like.' }
+      { href: '/how-we-teach', label: 'How we teach', p: 'What a live lesson looks like.' },
+      { href: '/unity-for-teens', label: 'Unity for teens', p: 'Unity for teens: age rules, free plans, computer needs and two first C# scripts.' },
+      { href: '/game-design-classes-for-teens', label: 'Game design classes for teens', p: 'Game design for teens: a method, real tuning code, and the US competitions that judge teen games.' },
+      { href: '/game-design-summer-camp-for-teens', label: 'Game design summer camp for teens', p: 'Game design summer camp for teens: engines, a real script, a six-week plan.' }
     ]
   },
 

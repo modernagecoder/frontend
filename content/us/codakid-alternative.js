@@ -291,7 +291,10 @@ module.exports = {
       { href: '/modern-age-coders-vs-tynker', label: 'Compared with Tynker', p: 'App or teacher.' },
       { href: '/minecraft-coding-classes-for-kids', label: 'Minecraft coding classes', p: 'Live Minecraft coding.' },
       { href: '/how-to-make-a-roblox-game', label: 'How to make a Roblox game', p: 'A guide for young builders.' },
-      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Our US hub page.' }
+      { href: '/coding-classes-in-united-states', label: 'Coding classes in the USA', p: 'Our US hub page.' },
+      { href: '/coding-with-kids-alternative', label: 'Coding with Kids alternative', p: 'Coding with Kids and Modern Age Coders, compared on published facts.' },
+      { href: '/khan-academy-computer-science-vs-live-classes', label: 'Khan Academy CS vs live classes', p: 'Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.' },
+      { href: '/best-online-coding-classes-for-kids-usa-compared', label: 'Online coding classes for kids, compared', p: 'Six US online coding class providers for kids, compared on their own published facts.' }
     ]
   },
 

@@ -400,7 +400,10 @@ module.exports = {
       { href: '/java-classes-for-teens', label: 'Java classes for teens', p: 'The teen Java course.' },
       { href: '/ap-computer-science-a-online-classes', label: 'AP Computer Science A classes', p: 'Live AP CSA preparation.' },
       { href: '/blog/java-constructors-explained', label: 'Java constructors explained', p: 'What happens when you create an object.' },
-      { href: '/java-for-beginners', label: 'Java for beginners', p: 'A first course from zero.' }
+      { href: '/java-for-beginners', label: 'Java for beginners', p: 'A first course from zero.' },
+      { href: '/eclipse-java-help-for-students', label: 'Eclipse Java help for students', p: 'Eclipse for Java students: install, run, read errors, fix Java version and memory.' },
+      { href: '/intellij-and-pycharm-free-for-students', label: 'IntelliJ and PyCharm free for students', p: 'IntelliJ IDEA and PyCharm for students: free core, student license, setup fixes.' },
+      { href: '/vs-code-setup-for-students', label: 'VS Code setup for students', p: 'Set up VS Code for Python and Java, and fix the errors students hit.' }
     ]
   },
 

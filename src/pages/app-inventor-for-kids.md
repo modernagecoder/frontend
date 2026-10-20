@@ -301,6 +301,9 @@ The first lesson is free. After that, families pay for teaching one month at a t
 - [From app idea to app store](/blog/app-idea-to-app-store-60-days-teen-developer-roadmap): A roadmap for older teens.
 - [Scratch classes](/scratch-coding-classes-for-kids): Blocks for younger children.
 - [Coding for 10 year olds](/coding-for-10-year-olds): What a 10-year-old can learn.
+- [Coding classes for elementary students](/coding-classes-for-elementary-students): Coding for elementary students, grade by grade, with a first program and an at-home activity.
+- [Coding classes for middle school students](/coding-classes-for-middle-school-students): Coding for middle schoolers: grade 8 expectations, a real Python program, and how to choose a language.
+- [Coding classes for high school students](/coding-classes-for-high-school-students): Coding for high schoolers: CS access data, AP CSP and AP CSA in 2027, and a four-year plan.
 
 ## Contact
 

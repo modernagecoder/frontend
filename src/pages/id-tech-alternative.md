@@ -274,6 +274,9 @@ No. We are a separate company; this page reports iD Tech's public information an
 - [Live vs recorded](/live-vs-recorded-coding-classes): Choosing a format.
 - [Compared with Outschool](/modern-age-coders-vs-outschool): Another comparison.
 - [Coding classes in the USA](/coding-classes-in-united-states): Where our US pages live.
+- [CodaKid alternative](/codakid-alternative): CodaKid and live online classes, compared on published facts.
+- [Coding with Kids alternative](/coding-with-kids-alternative): Coding with Kids and Modern Age Coders, compared on published facts.
+- [Khan Academy CS vs live classes](/khan-academy-computer-science-vs-live-classes): Khan Academy CS or live classes? A fair comparison, built from Khan Academy descriptions of its course.
 
 ## Contact
 

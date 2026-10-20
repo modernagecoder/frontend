@@ -340,6 +340,9 @@ You pay nothing for the first lesson. After it a fee is charged each month, and 
 - [Coding for 13 year olds](/coding-for-13-year-olds): Moving into teen courses.
 - [CS extracurriculars](/computer-science-extracurriculars): Clubs, contests and projects.
 - [How we teach](/how-we-teach): One class, described in full.
+- [Coding classes for high school students](/coding-classes-for-high-school-students): Coding for high schoolers: CS access data, AP CSP and AP CSA in 2027, and a four-year plan.
+- [Coding milestones by age](/coding-milestones-by-age): Coding milestones by age, with a checklist for 8 to 10 year olds.
+- [AI literacy for elementary students](/ai-literacy-for-elementary-students): AI literacy for K-5: what it means, what standards expect, and two activities.
 
 ## Contact
 

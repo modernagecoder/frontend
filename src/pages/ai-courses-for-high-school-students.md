@@ -291,6 +291,9 @@ The first class is free. After that, families pay monthly for live teaching, and
 - [AI and ML course for teens](/ai-ml-course-for-teens): The full syllabus and projects.
 - [AI projects for high schoolers](/ai-projects-for-high-school-students): What to build after a first course.
 - [How AI actually works](/how-ai-actually-works): The ideas under the apps, explained.
+- [AI classes for middle school students](/ai-classes-for-middle-school-students): AI classes for US middle schoolers: what school covers, what a good class adds, and a first model in Python.
+- [AI projects for middle school students](/ai-projects-for-middle-school-students): Ten AI projects for US middle schoolers, two in real Python, and how to take one to a science fair.
+- [AI research programs for high school students](/ai-research-programs-for-high-school-students): AI research programs for US high schoolers, from the 2026 to 2027 rules, with a fair-test experiment.
 
 ## Contact
 
