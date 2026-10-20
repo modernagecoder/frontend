@@ -54227,5 +54227,60 @@
       "Street addresses and county manager names: not printed.",
       "Any affiliation with the City or County of Durham, the City of Raleigh, Wake County or Raleigh-Durham International Airport."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-northern-virginia": {
+    "market": "Northern Virginia",
+    "bodyClass": "cg-aptn",
+    "pageType": "city",
+    "curriculumAuthority": "Virginia: rules left to /coding-classes-in-virginia; Code.org (2025) raw sheet Most Recent Access Data, VA 2023-2024, 229 of 335 (68.4%), no 2024-2025 figure printed; IANA America/New_York and the US DST rule. doe.virginia.gov returned 403.",
+    "localProject": "Arlington County Open Data Directory, Outdoor Wireless Hotspot Usage (ArlingtonWireless), downloaded 18 October 2026: 28 rows (26 hotspots, a total row, an empty row), 75 monthly columns July 2020 to September 2026, 137 of 1,950 cells empty, total row equal to the hotspot sum every month, fractional values in July and August 2022; our figures June 2022 27,711 high, December 2020 8,155 low, 2021 to 2025 January average 17,267 and October 23,049. Lesson family: time series (wide to long, group by month, seasonality, gaps and totals).",
+    "requiredMentions": [
+      "28: 26 hotspots",
+      "75 months, July 2020 to September 2026",
+      "137 of the 1,950 hotspot-month cells",
+      "647.58",
+      "27,711",
+      "8,155",
+      "17,267",
+      "23,049",
+      "December 6, 1950",
+      "420 parks on more than 23,000 acres",
+      "263, including 39 synthetic turf fields"
+    ],
+    "sources": [
+      {
+        "claim": "Arlington County Open Data Directory: Outdoor Wireless Hotspot Usage, description and file.",
+        "url": "https://download.data.arlingtonva.us/Uploads/AutomatedJobs/Outdoor+Wireless+Usage+Stats.json"
+      },
+      {
+        "claim": "Arlington County Open Data Directory.",
+        "url": "https://data.arlingtonva.us/"
+      },
+      {
+        "claim": "Fairfax County Park Authority, About Us: founding date, parks, acres, trails, fields, centers, board.",
+        "url": "https://www.fairfaxcounty.gov/parks/about-us"
+      },
+      {
+        "claim": "Fairfax County Public Library: regional, community and Access Services branches.",
+        "url": "https://www.fairfaxcounty.gov/library/"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Virginia access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/New_York and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Arlington County web pages, its open data terms page and Arlington Public Library: 403 on 18 October 2026, not retried; no licence text could be read, so only a few counts are quoted with credit and the file is not republished.",
+      "Virginia Department of Education pages: 403, not retried; Virginia CS rules are left to the existing Virginia page.",
+      "A 2024 to 2025 Virginia access figure: the sheet repeats the 2023 to 2024 value, so it is not printed.",
+      "Arlington bike and pedestrian counters: counters.bikearlington.com did not connect; not used.",
+      "Hotspot names that are names of people: not printed; only generic names such as Central Library.",
+      "Yearly Wi-Fi totals: not printed; the page uses the county's monthly total row and our monthly averages, labelled as ours.",
+      "Any affiliation with Arlington County, Fairfax County, the City of Alexandria or the Virginia Department of Education."
+    ]
   }
 }
