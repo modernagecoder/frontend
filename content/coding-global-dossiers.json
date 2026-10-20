@@ -52770,5 +52770,55 @@
       "That our classes earn the science-elective substitution: refused; only state-approved school courses do.",
       "Any affiliation with SD DOE, the City of Sioux Falls, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-tennessee": {
+    "market": "Tennessee",
+    "bodyClass": "cg-at",
+    "pageType": "city",
+    "curriculumAuthority": "Tennessee, read raw on 17 and 18 October 2026: Tennessee Department of Education 403 (blocked; saved tn-faq.pdf was a 403 page), legislature hosts unreachable, so no Tennessee rule is printed; Code.org (2025) State of AI + CS Education data (access 50%, 54%, 60%, 64%, 60.8%, 82.8%; 384 of 464 in 2024-25; participation 5.3%, 4.7%, 5.35%, 5.96%, 13.23%; 39,819 of 300,911; national 60% and 6.1%); College Board AP schools 438 (2023), 449 (2024), public 349/358, non-public 89/91; IANA eastern Tennessee in Eastern, western Tennessee in Central, US DST rule.",
+    "localProject": "Metro Nashville Library Facilities (Metro Open Data Executive Order), 21 records fetched 18 October 2026: 294 open/close cells, 54 empty, 25 with a space before AM/PM, 215 without; our weekly hours 58 (5 libraries), 56 (3), 39 (12), 32 (1), 958 total; Friday 8, Saturday 20, Sunday 8 open; latest close 8:00 PM; PublicComputers Yes 21, StudioNPL Yes 7; metadata preferredTimeReference America/Chicago, date fields Etc/UTC. All counts ours. Lesson family: parsing time strings and time zone conversion.",
+    "requiredMentions": [
+      "384 of 464",
+      "39,819 of 300,911",
+      "82.8%",
+      "13.23%",
+      "438 (349 public, 89 non-public)",
+      "eastern Tennessee",
+      "western Tennessee",
+      "958 library hours",
+      "stored as Etc/UTC",
+      "a field called StudioNPL"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Tennessee and national access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Metro Nashville: Library Facilities feature service and its time reference metadata.",
+        "url": "https://services2.arcgis.com/HdTo6HJqh92wn4D8/arcgis/rest/services/Library_Facilities/FeatureServer/0"
+      },
+      {
+        "claim": "Metro Nashville open data portal (Open Data Executive Order).",
+        "url": "https://data.nashville.gov/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: eastern and western Tennessee, US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Tennessee graduation requirement, standards year or required offering: tn.gov returned 403, the saved tn-faq.pdf was itself a 403 page, and the legislature sites were unreachable, so none is printed.",
+      "Any cause for the 2024 to 2025 jump in access and participation: no readable source states one.",
+      "Which counties or cities are in each zone, beyond Nashville (from the Metro service metadata): the IANA text says only eastern and western Tennessee.",
+      "What StudioNPL means: the field is reported as published, not interpreted.",
+      "Library names and addresses: counts only.",
+      "Code.org state narrative, geography, size, gender and race figures: not used.",
+      "That our classes earn Tennessee credit, and any affiliation with the Tennessee Department of Education, Metro Nashville, Code.org or the College Board."
+    ]
   }
 }
