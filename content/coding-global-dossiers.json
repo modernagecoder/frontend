@@ -52881,5 +52881,68 @@
       "Trailhead names and an official count of Utah trailheads: the layer is incomplete by UGRC's own description; counts only.",
       "That our classes earn Utah credit, and any affiliation with USBE, UGRC, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-vermont": {
+    "market": "Vermont",
+    "bodyClass": "cg-av",
+    "pageType": "city",
+    "curriculumAuthority": "Vermont, read raw 17 to 18 October 2026: AOE Digital Learning (State Board adopted the ISTE Standards; VTVLC over 300 online courses, about 1500 learners a year, more than 70 schools and organizations); AOE Flexible Pathways (Act 77 of 2013, 16 V.S.A. § 941; dual enrollment 16 V.S.A. § 944, up to two college courses; early college for eligible twelfth graders); AOE Personalized Learning; AOE Education Quality Standards (approved 2013, effective April 5, 2014); AOE site search found no CS page; Code.org (2025) access 27%, 60%, 64%, 76%, 73.3%, 60%, 33 of 55 in 2023-24, participation 3.7%, 3.68%, 3.14%, 766 of 24,384; College Board AP schools 65 and 69 (public 53 and 51, non-public 12 and 18); IANA America/New_York.",
+    "localProject": "VCGI VT Data - Public Libraries (Department of Libraries list of April 3, 2024; VCGI no-warranty statement), fetched 17 to 18 October 2026: 191 records (count matched), 191 distinct names, 14 counties (Windsor 24, Rutland 21, Windham 19), 176 towns; our final-word counts Public 67, Memorial 45, Free 22, Community 10, Town 8; Free anywhere 34; 8 names include Library; 4 with stray spaces. Lesson family: text cleaning and normalization.",
+    "requiredMentions": [
+      "Act 77 of 2013",
+      "16 V.S.A. § 941",
+      "up to two college courses",
+      "April 5, 2014",
+      "ISTE Standards",
+      "over 300 online courses",
+      "33 of 55",
+      "766 of 24,384",
+      "65 and 69",
+      "191 and 191",
+      "Public 67, Memorial 45"
+    ],
+    "sources": [
+      {
+        "claim": "Vermont AOE: Digital Learning, ISTE Standards adoption, VTVLC.",
+        "url": "https://education.vermont.gov/learning/content-areas/digital-learning"
+      },
+      {
+        "claim": "Vermont AOE: Flexible Pathways, Act 77, dual enrollment, early college.",
+        "url": "https://education.vermont.gov/learning/flexible-pathways"
+      },
+      {
+        "claim": "Vermont AOE: Personalized Learning.",
+        "url": "https://education.vermont.gov/learning/personalized-learning"
+      },
+      {
+        "claim": "Vermont AOE: Education Quality Standards, effective April 5, 2014.",
+        "url": "https://education.vermont.gov/accountability-data/school-improvement/education-quality-standards"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: VT access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "VCGI: VT Data - Public Libraries feature service.",
+        "url": "https://services1.arcgis.com/BkFxaEFNwHqX3tAw/arcgis/rest/services/FS_VCGI_OPENDATA_Facilities_VTPUBLIB_point_SP_v1/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: US rule and America/New_York.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "A Vermont K-12 computer science standards adoption: no AOE computer science page found by site search, so none is claimed.",
+      "The ISTE expansion as written on the AOE page: not reproduced; only the name ISTE Standards is used.",
+      "The host technical center of VTVLC and the list of outside online providers: not named.",
+      "That outside online classes earn Vermont credit: not claimed; credit is a district decision.",
+      "Library addresses, phone numbers and emails from the dataset: never printed.",
+      "A reason for the fall in Vermont access to 60% in 2023-24: none given by the source; only the small-denominator effect is noted, as our reading.",
+      "Any affiliation with the Vermont AOE, VTVLC, VCGI, the Department of Libraries, Code.org or the College Board."
+    ]
   }
 }

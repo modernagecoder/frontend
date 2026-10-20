@@ -1765,3 +1765,4 @@
 .cg-root.cg-asd  { --cg-accent: #6B1021; --cg-accent-soft: rgba(107,16,33,.10); }   /* South Dakota: #6B1021, a deep Badlands oxblood allocated for row 99 in alloc.tsv, well above text contrast on the paper */
 .cg-root.cg-at  { --cg-accent: #66361F; --cg-accent-soft: rgba(102,54,31,.10); }   /* Tennessee: #66361F, a deep river-clay brown, allocated in alloc.tsv row 100 and checked by the build for 4.5:1 contrast on every paper */
 .cg-root.cg-aiu  { --cg-accent: #704714; --cg-accent-soft: rgba(112,71,20,.10); }   /* Utah: #704714, a canyon sandstone brown, allocated in alloc.tsv row 101 and checked by the build for 4.5:1 contrast on every paper */
+.cg-root.cg-av  { --cg-accent: #1C354C; --cg-accent-soft: rgba(28,53,76,.10); }   /* Vermont: #1C354C, a dark Green Mountain dusk blue allocated for row 102 in alloc.tsv, high contrast on the paper */
