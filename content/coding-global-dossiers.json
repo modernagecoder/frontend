@@ -51932,5 +51932,59 @@
       "Park program attendance or current schedules: not in the data; only listed programs are counted, as ours.",
       "Any affiliation with the Delaware Department of Education, DNREC, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-florida": {
+    "market": "Florida",
+    "bodyClass": "cg-af",
+    "pageType": "city",
+    "curriculumAuthority": "Florida, read raw 17 to 19 October 2026. fldoe.org 403 (Akamai), not retried. F.S. 1007.2616: definition; K-12 opportunities; MS and HS courses incl. industry certifications integrated in each district incl. combination schools; Course Code Directory by July 1, 2018; Florida Virtual School offers listed courses and is the access route; teacher training funding; digital classrooms; history ch. 2014-56, 2018-150, 2019-119, 2024-5. F.S. 1003.4282: 24 credits from grade 9 entrants in 2013-2014; CS credit for one math credit except Algebra I and Geometry, or one science credit except Biology I, if equivalent in rigor, not both; 3D rapid prototype printing certification up to two math credits. Code.org (2025): 30%, 33%, 38%, 40%, blank, 38.4% vs 463 of 1,192; participation 2.7%, 3.0%, 2.2%, 20,233 of 894,064. College Board 1,084, 1,086 (public 764, 828). IANA: most of Florida eastern, ten panhandle counties central.",
+    "localProject": "Miami-Dade County, County Library layer (MDPublisher, \"as is\"), count 50, downloaded 19 October 2026: OPERHOUR 8 raw strings, 44 records 09:30 to 20:00 written 4 ways, 3 at 09:30 to 18:00, 1 at 07:00 to 18:00, 1 blank, 1 \"null\"; WKDAY 7 raw, 5 normalized; CREATEDDATE 49 in 2018, 1 in 2022; MODIFIEDDATE 33 in 2022, 17 in 2025; 1528203344000 = June 5, 2018 12:55:44 UTC. Lesson family: date and time parsing.",
+    "requiredMentions": [
+      "chapter 2024-5",
+      "combination schools teaching any of grades 6 through 12",
+      "IB or AICE curriculum",
+      "3D rapid prototype printing",
+      "except Biology I",
+      "463 of 1,192",
+      "20,233 of 894,064",
+      "1528203344000",
+      "9:30 am. - 8 p.m.",
+      "Okaloosa, Santa Rosa, Walton and Washington"
+    ],
+    "sources": [
+      {
+        "claim": "Florida Statutes 1007.2616, Computer science and technology instruction.",
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1007/Sections/1007.2616.html"
+      },
+      {
+        "claim": "Florida Statutes 1003.4282, Requirements for a standard high school diploma.",
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1003/Sections/1003.4282.html"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Florida access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Miami-Dade County: County Library feature layer.",
+        "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Library_gdb/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Florida eastern and the panhandle counties on central time.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "FLDOE pages (CS standards, Course Code Directory lists, graduation guidance): fldoe.org returned 403 on 17 October 2026; not retried around.",
+      "City of Tampa open data: geo-blocked for requests from outside the United States; not used.",
+      "Teacher bonus amounts in 1007.2616(7) and the personal financial literacy credit details: not printed (no money figures).",
+      "A single reconciled 2023-24 Florida access percentage: the trend tab (38.4%) and the Most Recent tab (463 of 1,192, 38.8%) differ; the count is quoted with its tab.",
+      "Code.org gender, race, geography and graduation figures and the Code.org Florida summary text: not used.",
+      "Library addresses, phone numbers and current opening hours: not printed as a timetable; only our parsed counts.",
+      "Any affiliation with the Florida Department of Education, Florida Virtual School, Miami-Dade County, Code.org or the College Board."
+    ]
   }
 }

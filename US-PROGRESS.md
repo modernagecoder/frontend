@@ -244,7 +244,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 66 | coding-and-ai-classes-in-arkansas (aara, #646622) | state | 3,451 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sorting and ranking a top-N list, and how the unit you rank changes the ranking | 1793b493 |
 | 67 | coding-and-ai-classes-in-colorado (ac, #265C21) | state | 3,338 | 1.9% vs coding-and-ai-classes-in-alabama | phase 4 | binning values into a histogram, and how bin choice changes the picture | 0e671251 |
 | 68 | coding-and-ai-classes-in-connecticut (aico, #124C1E) | state | 3,308 | 2% vs coding-and-ai-classes-in-arizona | phase 4 | joining two tables on a shared key, and repairing keys that do not match | c3fa9c73 |
-| 69 | coding-and-ai-classes-in-delaware (ad, #236142) | state | 3,188 | 2% vs coding-and-ai-classes-in-alaska | phase 4 | percentages and rounding, and why rounded shares need not add up to 100 | (this commit) |
+| 69 | coding-and-ai-classes-in-delaware (ad, #236142) | state | 3,188 | 2% vs coding-and-ai-classes-in-alaska | phase 4 | percentages and rounding, and why rounded shares need not add up to 100 | e1ad5a0c |
+| 70 | coding-and-ai-classes-in-florida (af, #213F5C) | state | 3,462 | 2.2% vs coding-and-ai-classes-in-arizona | phase 4 | parsing dates and times (epoch milliseconds, time zones, free-text hours) | (this commit) |
 
 ## Skipped
 
