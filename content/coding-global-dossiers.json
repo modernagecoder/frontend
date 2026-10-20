@@ -52168,5 +52168,66 @@
       "That our lessons earn Indiana credit: refused.",
       "Any affiliation with the Indiana Department of Education, Code.org, the College Board, IANA or the City of Indianapolis."
     ]
+  },
+  "coding-and-ai-classes-in-iowa": {
+    "market": "Iowa",
+    "bodyClass": "cg-aiio",
+    "pageType": "city",
+    "curriculumAuthority": "Iowa, read raw 17 to 18 October 2026: Iowa Department of Education Guidance for House File 2629 (January 24, 2022): signed June 29, 2020; K-12 plan by July 1, 2022; grades 1-6 one grade level and grades 7-8 seventh or eighth grade from July 1, 2023; high school one-semester course from July 1, 2022; offer-and-teach, not a graduation requirement; half unit 100 minutes per week for 18 weeks or 60 hours; no endorsement required; concurrent enrollment excluded. Computer Science Instruction page: CSTA standards adopted June 2018. Standards PDF levels 1A to 3B. Headline 2025-11-17: data science and AI standards, committee from January 2026. Code.org (2025) access and participation tabs; College Board AP schools 190 and 198; IANA America/Chicago.",
+    "localProject": "Iowa DOT Trail feature service (CC BY 4.0 plus Iowa DOT GIS Data Terms of Use), 3,219 records downloaded 17 October 2026 and checked against the count query; our FAC_DESC by SURF_DESC crosstab (Path 1,986 records; Crushed Limestone 69, all paths; Shoulder 141 of 240 Unknown); our LENGTH_MILE sums Path 2,281.3 and all 3,607.5, labelled as ours and not official; 192 records without a county name. Lesson family: two-key crosstab and reading Unknown cells.",
+    "requiredMentions": [
+      "House File 2629",
+      "June 29, 2020",
+      "offer-and-teach requirement",
+      "100 minutes per week for 18 weeks",
+      "data science and artificial intelligence",
+      "306 of 355",
+      "8,124 of 156,342",
+      "Crushed Limestone",
+      "2,281.3"
+    ],
+    "sources": [
+      {
+        "claim": "Iowa Department of Education: Guidance for House File 2629, Computer Science Instruction and Requirements (January 24, 2022).",
+        "url": "https://educate.iowa.gov/media/7861/download?inline"
+      },
+      {
+        "claim": "Iowa Department of Education: Computer Science Instruction page, CSTA standards adopted June 2018.",
+        "url": "https://educate.iowa.gov/pk-12/standards/instruction/computer-science"
+      },
+      {
+        "claim": "Iowa Department of Education: Iowa Computer Science Standards document, levels 1A to 3B.",
+        "url": "https://educate.iowa.gov/media/5191/download?inline"
+      },
+      {
+        "claim": "Iowa Department of Education, 17 November 2025: committee for computer science, data science and AI standards.",
+        "url": "https://educate.iowa.gov/headline-story/2025-11-17/department-seeks-committee-members-computer-science-data-science-and-ai-standards"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Iowa access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Iowa DOT open data: Trail feature service (CC BY 4.0).",
+        "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Trail_View/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Iowa in US central time, America/Chicago, US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "That Iowa requires computer science to graduate: refused; the Department guidance says it is not a graduation requirement.",
+      "The Iowa Department of Education 2024 news item citing an 84 percent figure and a top-10 ranking: not used; the page quotes the Code.org sheet directly instead of a ranking.",
+      "Code.org Graduation, Geography, Gender and Race tabs and the Code.org state policy summaries: not used.",
+      "Names of individual Iowa schools, districts and committee members: not printed; counts only.",
+      "Official Iowa trail mileage: not read; only our segment sums, labelled as ours.",
+      "That our classes satisfy HF 2629 or replace the school course: refused.",
+      "Any affiliation with the Iowa Department of Education, the Iowa DOT, Code.org, CSTA or the College Board."
+    ]
   }
 }

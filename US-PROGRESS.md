@@ -249,7 +249,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 71 | coding-and-ai-classes-in-hawaii (ah, #0F2866) | state | 3,041 | 2.5% vs coding-and-ai-classes-in-connecticut | phase 4 | filtering coordinates with bounding boxes, and testing a box against a label | 6314590c |
 | 72 | coding-and-ai-classes-in-idaho (aii, #423C99) | state | 3,880 | 1.5% vs coding-and-ai-classes-in-alabama | phase 4 | median versus mean on a skewed column (and which "typical" a reader is being sho | e2c1932c |
 | 73 | coding-classes-in-illinois (aiil, #941638) | state | 3,530 | 1.5% vs coding-and-ai-classes-in-alabama | phase 4 | string normalization and de-duplication (and knowing when to stop) | f9b0bd8b |
-| 74 | coding-and-ai-classes-in-indiana (aiin, #9E2C18) | state | 3,266 | 1.8% vs coding-and-ai-classes-in-alabama | phase 4 | set operations (intersection, difference, union), on greenway names and on tzdb  | (this commit) |
+| 74 | coding-and-ai-classes-in-indiana (aiin, #9E2C18) | state | 3,266 | 1.8% vs coding-and-ai-classes-in-alabama | phase 4 | set operations (intersection, difference, union), on greenway names and on tzdb  | 82d9fef4 |
+| 75 | coding-and-ai-classes-in-iowa (aiio, #523920) | state | 3,602 | 1.8% vs coding-and-ai-classes-in-idaho | phase 4 | two-key crosstab (pivot) and what an "Unknown" cell means | (this commit) |
 
 ## Skipped
 
