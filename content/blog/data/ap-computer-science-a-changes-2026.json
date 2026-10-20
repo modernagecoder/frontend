@@ -149,12 +149,36 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "For US families: two moments in the school year",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "If your child is at a US high school, these changes matter at two points. The first is in the spring, when next year's schedule is chosen with the school counselor: ask which grade Computer Science A is offered in and whether the school expects AP Computer Science Principles first. The second is in the fall, when the school's AP coordinator handles exam registration: check that the class, or any book or course your child studies from, teaches the current four units rather than the old ten."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/is-ap-computer-science-hard'>Is AP Computer Science hard?</a> sets out who tends to struggle and how to check readiness before signing up.",
+          "Our <a href='/ap-computer-science-a-practice-questions'>AP CSA practice questions</a> are original Java questions spread across the four current units, with checked answers.",
+          "The <a href='/ap-computer-science-a-score-calculator'>AP CSA score calculator</a> explains the published weighting and gives a labelled estimate, not an official conversion.",
+          "<a href='/does-ap-computer-science-give-college-credit'>Does AP Computer Science give college credit?</a> compares real college policies, which differ from one school to the next."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For families in the US, class times are arranged around the school week. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "The bottom line",
         "id": "bottom-line"
       },
       {
         "type": "paragraph",
-        "text": "AP Computer Science A for 2025 to 2026 is leaner and more practical: four units, inheritance dropped from required content, real file and dataset work added, and an exam with 42 multiple-choice questions and four free-response questions. It rewards students who truly understand code. Modern Age Coders teaches Java and computer science for real understanding, live and in small batches for ages 6 to 67, including students preparing for AP and other exams. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."
+        "text": "AP Computer Science A for 2025 to 2026 is leaner and more practical: four units, inheritance dropped from required content, real file and dataset work added, and an exam with 42 multiple-choice questions and four free-response questions. It rewards students who truly understand code. Modern Age Coders teaches Java and computer science for real understanding, live, one to one or in batches of fifteen to twenty, for ages 6 to 67, including students preparing for AP and other exams. We are rated 4.9 across 547 Google reviews, and there is a free demo class before you pay."
       },
       {
         "type": "button",

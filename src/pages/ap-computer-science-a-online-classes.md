@@ -251,6 +251,16 @@ These are different qualifications with different purposes, and the wrong choice
 
 The short version: AP Computer Science A is a programming course in Java and behaves like a first university programming module. AP Computer Science Principles is broader and lighter on code, covering how computing systems and data work, and is language-agnostic. A student aiming at a computer science degree normally wants CSA, and many take [CSP](/ap-computer-science-principles-online-coaching) first as an on-ramp. Taking both is common and sensible, in that order.
 
+For US students
+
+## Planning AP Computer Science A from a US high school
+
+These classes run alongside your school year rather than replacing anything in it. You still enter the exam through your school's AP coordinator, and you still build your schedule with your counselor, so raise both in the fall.
+
+**Start with the free material.** Our original [AP Computer Science A practice questions](/ap-computer-science-a-practice-questions) cover all four units in Java, with every answer checked by running it. The [AP CSA score calculator](/ap-computer-science-a-score-calculator) then turns a practice paper into a labelled estimate of where you stand. It is our method, built on the published weighting, and not an official College Board conversion.
+
+**Check the fit before you sign up.** [Is AP Computer Science hard?](/is-ap-computer-science-hard) has two readiness checks, and [does AP Computer Science give college credit?](/does-ap-computer-science-give-college-credit) shows why you should read each college's own policy. Classes are booked around the US school day. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
+
 Being straight about it
 
 ## What we will not tell you about AP Computer Science A
@@ -534,7 +544,7 @@ Data Collections is the heaviest at thirty to forty per cent of the multiple cho
 
 ### How much do the classes cost?
 
-A group batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars. These are the same figures everywhere we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.
+Fees are monthly and billed in US dollars, for a group batch of fifteen to twenty students or for one to one, and both are set out in the fees section of this page. There is no enrolment fee and no minimum term, and the first class is free without a card.
 
 ### Are the classes live, or recorded?
 
@@ -546,7 +556,7 @@ No, and most do not. The course starts from Java syntax in module one. What it d
 
 ### What grade level is AP Computer Science A for?
 
-Typically Grade 11 or 12, though capable Grade 10 students take it successfully and we teach several every year. The constraint is rarely age; it is whether the student has enough time in the week for two classes plus the practice between them.
+Typically Grade 11 or 12, though a capable Grade 10 student can take it too. The constraint is rarely age; it is whether the student has enough time in the week for two classes plus the practice between them.
 
 ### We are starting late. Is it worth it?
 

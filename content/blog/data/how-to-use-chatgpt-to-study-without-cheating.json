@@ -209,6 +209,29 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "For US families: the rules at school, and what to learn next",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "For a US student, the rules that count on graded work are usually set closer to home than any company's terms: by the state, the district, the school and the teacher, and a teacher can set different rules for different assignments. When the rule is unclear, ask before using a chatbot, and keep your notes and drafts so you can show how the work was done."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/ai-guidance-for-schools-by-state'>AI guidance for schools by state</a> shows which states have published K-12 AI guidance, with questions families can ask.",
+          "AP Computer Science Principles students should read what AI help the Create task allows in our <a href='/ap-csp-create-performance-task-guide'>Create performance task guide</a>.",
+          "To learn how these tools work rather than only use them: <a href='/ai-literacy-for-elementary-students'>AI literacy for elementary students</a>, <a href='/ai-classes-for-middle-school-students'>AI classes for middle school students</a> and <a href='/ai-courses-for-high-school-students'>AI courses for high school students</a>."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Our live classes for US students run around the school calendar. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "How we teach students to use AI well",
         "id": "how-we-teach"
       },

@@ -206,6 +206,31 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "For US students: fitting USACO into a school year",
+        "id": "for-us-students"
+      },
+      {
+        "type": "paragraph",
+        "text": "USACO is one contest among several that US students can enter, and the season overlaps with schoolwork, AP courses and other competitions. The practical move is to map the whole year once, then decide where Bronze to Silver practice fits around it. Pairing it with a school or team contest is one way to keep practising between USACO rounds. Our calendar and guides keep each organiser's own dates and rules in one place."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "The <a href='/us-coding-math-and-ai-competitions-calendar'>US coding, math and AI competitions calendar</a> lists this season's published dates, each with its source.",
+          "<a href='/coding-competitions-for-high-school-students'>Coding competitions for high school students</a> compares USACO with ACSL, CyberPatriot, picoCTF and the Congressional App Challenge.",
+          "Younger students can start with <a href='/coding-competitions-for-middle-school-students'>coding competitions for middle school students</a>.",
+          "<a href='/acsl-competition-preparation'>ACSL competition preparation</a> covers its divisions, contest windows and topics.",
+          "Still choosing a contest language? <a href='/c-plus-plus-for-kids'>C++ for kids</a> explains how C++ leads toward USACO."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For US students, coaching is arranged around the school week. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "How we coach it",
         "id": "how-we-teach"
       },

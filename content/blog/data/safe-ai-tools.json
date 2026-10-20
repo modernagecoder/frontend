@@ -348,7 +348,7 @@
           "Shows complete solution steps, teaching methodology",
           "Multiple solution approaches when available",
           "Animated tutorials for complex concepts",
-          "Free version is quite robust; premium adds more explanations"
+          "Free version is quite robust; the paid tier adds more explanations"
         ]
       },
       {
@@ -418,7 +418,7 @@
           "Answers include explanations and steps, not just solutions",
           "AI-generated answers are clearly labeled",
           "Encourages asking 'why' and 'how,' not just 'what'",
-          "Free tier available with ads; premium removes ads"
+          "Free tier available with ads; the paid tier removes ads"
         ]
       },
       {
@@ -883,13 +883,37 @@
           "Canva Magic, Subject: Creative, Age: 10+, Cost: Free for students, Best For: Presentations, posters",
           "Socratic, Subject: All, Age: 10+, Cost: Free, Best For: Quick homework help",
           "Duolingo Max, Subject: Languages, Age: 8+, Cost: Subscription, Best For: Language practice",
-          "Photomath, Subject: Math, Age: 10+, Cost: Free/Premium, Best For: Step-by-step math help",
-          "Quillbot, Subject: Writing, Age: 12+, Cost: Free/Premium, Best For: Improving drafts",
-          "Brainly, Subject: All, Age: 10+, Cost: Free/Premium, Best For: Community + AI help",
-          "Otter.ai, Subject: All, Age: 12+, Cost: Free/Premium, Best For: Note-taking, lectures",
-          "Explain Everything, Subject: All, Age: 8+, Cost: Free/Premium, Best For: Creating explanations",
-          "Perplexity, Subject: Research, Age: 13+, Cost: Free/Premium, Best For: Sourced research"
+          "Photomath, Subject: Math, Age: 10+, Cost: Free/Paid, Best For: Step-by-step math help",
+          "Quillbot, Subject: Writing, Age: 12+, Cost: Free/Paid, Best For: Improving drafts",
+          "Brainly, Subject: All, Age: 10+, Cost: Free/Paid, Best For: Community + AI help",
+          "Otter.ai, Subject: All, Age: 12+, Cost: Free/Paid, Best For: Note-taking, lectures",
+          "Explain Everything, Subject: All, Age: 8+, Cost: Free/Paid, Best For: Creating explanations",
+          "Perplexity, Subject: Research, Age: 13+, Cost: Free/Paid, Best For: Sourced research"
         ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "For US families: AI by grade, and the rules at school",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you are in the US, read the age bands above in school grades: elementary school is roughly grades K to 5, middle school grades 6 to 8 and high school grades 9 to 12. Two things decide what a child can actually use for homework. One is each company's own age terms, which our <a href='/ai-tools-age-guide'>AI tools age guide</a> quotes word for word. The other is the policy of the school and the teacher, which can differ from one assignment to the next."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/ai-literacy-for-elementary-students'>AI literacy for elementary students</a> explains what AI literacy means in grades K to 5, with two activities to try.",
+          "<a href='/ai-classes-for-middle-school-students'>AI classes for middle school students</a> covers what grades 6 to 8 learn about AI and which tools suit each age.",
+          "<a href='/ai-courses-for-high-school-students'>AI courses for high school students</a> compares school, free and live options, with real Python code.",
+          "<a href='/ai-guidance-for-schools-by-state'>AI guidance for schools by state</a> shows where your state stands on K-12 AI guidance."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Live AI and coding classes for US families are scheduled flexibly. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
       },
       {
         "type": "heading",
@@ -918,7 +942,7 @@
           },
           {
             "title": "Are these AI tools really free?",
-            "content": "Many have free tiers with basic functionality. Premium features usually cost ₹500-2000/month. For most homework needs, free versions are sufficient. School-provided access (like Canva for Education) is genuinely free."
+            "content": "Many have free tiers with basic functionality, and paid tiers add more features. For most homework needs, free versions are sufficient. School-provided access (like Canva for Education) is genuinely free."
           },
           {
             "title": "What if AI gives my child wrong information?",

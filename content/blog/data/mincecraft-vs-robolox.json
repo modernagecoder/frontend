@@ -559,6 +559,31 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "For US families: the next step inside each game",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "Whichever game your child picked, there is a real coding path inside it, and it lines up with school grades better than with the game. Elementary students usually get the most from block coding and should play both games as games. A middle schooler who is comfortable typing is often ready for Roblox Studio and its Luau scripts. A high schooler with some Java, perhaps from a school computer science class, can start writing Minecraft mods."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/how-to-make-a-roblox-game'>How to make a Roblox game</a>: Studio, three working Luau scripts and how to publish safely.",
+          "<a href='/lua-for-kids'>Lua for kids</a> explains how Lua and Roblox Luau differ, with short programs to run in a browser.",
+          "<a href='/roblox-studio-errors-fixed'>Roblox Studio errors fixed</a> is the page to open when a script stops working.",
+          "<a href='/learn-to-code-minecraft-mods'>Learn to code Minecraft mods in Java</a> compares Fabric and Forge and builds a first custom item.",
+          "<a href='/video-game-coding-classes-for-kids'>Video game coding classes for kids</a> sets out which game tool suits each age."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "If a live teacher would help, classes for US families run on a schedule you choose. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Frequently Asked Questions",
         "id": "faqs"
       },

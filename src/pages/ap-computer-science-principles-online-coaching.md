@@ -243,6 +243,16 @@ Two different qualifications that share a name and very little else.
 
 The honest summary: Principles is broader and lighter on code, and it is language-agnostic, so it suits a first exposure or a student whose interest is computing rather than programming specifically. [AP Computer Science A](/ap-computer-science-a-online-classes) is a Java programming course that behaves like a first university module. Many students take Principles first and CSA after, which is a sensible order, and taking only Principles is a perfectly respectable choice for a student going into a non-computing degree.
 
+For US students
+
+## Planning AP Computer Science Principles from a US high school
+
+Principles is often the first AP computing course a student takes, so the planning questions are practical: which grade it fits in, who registers you for the exam, and what the Create task asks of you long before May.
+
+**Know the task before you pick a project.** Your school's AP coordinator handles exam registration and your counselor fits the course into your schedule. Then read our [Create performance task guide](/ap-csp-create-performance-task-guide) for the program requirements, the video, the Personalized Project Reference and the rules on AI help, and use the [AP CSP score calculator](/ap-csp-score-calculator) to turn practice results into an estimate. That calculator is our own method, not an official conversion.
+
+**Weighing Principles against Computer Science A?** [Is AP Computer Science hard?](/is-ap-computer-science-hard) compares the two with readiness checks, and [does AP Computer Science give college credit?](/does-ap-computer-science-give-college-credit) sets real college policies for each side by side. Coaching is arranged around the US school week. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
+
 Being straight about it
 
 ## What we will not tell you about AP Computer Science Principles
@@ -528,7 +538,7 @@ The program, video and Personalized Project Reference are developed across the y
 
 ### How much does the coaching cost?
 
-A group batch of fifteen to twenty students is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures everywhere we teach outside India. There is no enrolment fee and no minimum term, and the first class is free without a card.
+Fees are monthly and billed in US dollars, for a group batch of fifteen to twenty students or for one to one, and the fees section of this page shows both. There is no enrolment fee and no minimum term, and the first class is free without a card.
 
 ### Are classes live or recorded?
 
@@ -596,7 +606,7 @@ Rather read first? [The full course syllabus](/courses/ap-computer-science-princ
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20AP%20Computer%20Science%20Principles%20online%20coaching.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
-Live classes only, one to one or in a small batch, taught from India at a time that works for the student. We do not sell recordings. The form opens a conversation, not an enrolment.
+Live classes only, one to one or in a batch of fifteen to twenty, taught from India at a time that works for the student. We do not sell recordings. The form opens a conversation, not an enrolment.
 
 ## Keep exploring Modern Age Coders
 

@@ -702,6 +702,31 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "For US families: from playing coding games to making one",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "A coding game is a good first step, and the natural next one is building a game of their own. Which tool fits depends less on age than on the computer at home or on a school-issued device, so each guide below says what runs where. As a rough guide by grade: elementary students do well with block-based game makers, middle schoolers are often ready for Roblox Studio or Python, and high schoolers can take on a full engine."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/how-to-make-a-video-game-for-kids'>How to make a video game for kids</a> covers free tools by age and computer, seven steps and a MakeCode Arcade game to copy.",
+          "<a href='/how-to-make-a-roblox-game'>How to make a Roblox game</a> explains which devices run Roblox Studio and walks through three real Luau scripts.",
+          "<a href='/godot-for-kids-and-teens'>Godot for kids and teens</a> introduces a free engine and the Android editor that lets it run on Chromebooks.",
+          "<a href='/python-games-for-kids'>Python games for kids</a> goes from a no-install guessing game to a full pygame project.",
+          "For teens who care about how games feel to play, <a href='/game-design-classes-for-teens'>game design classes for teens</a> covers playtesting and design vocabulary."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Our live game coding classes are scheduled for US families as follows. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Coding games for kids: common questions",
         "id": "faqs"
       },

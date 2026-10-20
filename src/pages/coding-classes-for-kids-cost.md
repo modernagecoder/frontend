@@ -70,9 +70,33 @@ We are a live online school. Every class is one full hour of deep, interactive, 
 
 ### Our published coding pricing
 
-Small group: $100 a month = **$12.50 per live class**True 1-on-1: $150 a month = **$18.75 per dedicated hour**Every plan: **8 one-hour live classes a month**Enrollment fees: **$0** · Contracts: **none**
+Group batch of 15 to 20: $100 a month = **$12.50 per live class**True 1-on-1: $150 a month = **$18.75 per dedicated hour**Every plan: **8 one-hour live classes a month**Enrollment fees: **$0** · Contracts: **none**
 
 Rated 4.9 across 547 Google reviews. The same dedicated taught hour US programs sell for ~$70, from a structurally different cost base. Judge the depth in a free demo class.
+
+For US families
+
+## Before you compare prices, compare what is free and what is live
+
+Plenty of solid coding practice costs nothing online, so a US family's budget goes furthest on what free material cannot do, which is a teacher who watches your child work and corrects them in the moment. Our classes are scheduled for US families like this: Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
+
+1
+
+### Compare on the same criteria
+
+Our [comparison of six online providers for US kids](/best-online-coding-classes-for-kids-usa-compared) lines them up on format, ages, group size, teachers and trials, using facts from each provider's own site.
+
+2
+
+### Know what free already covers
+
+[Khan Academy computer science vs live classes](/khan-academy-computer-science-vs-live-classes) sets out when self-paced practice is enough. For teens, [free coding programs for high school students](/free-coding-programs-for-high-school-students) are checked at the source.
+
+3
+
+### Match the class to the grade
+
+Start from [grades 1 to 5](/coding-classes-for-elementary-students) or [grades 6 to 8](/coding-classes-for-middle-school-students). Homeschooling? See [how computer science counts toward high school credit](/homeschool-computer-science-high-school-credit).
 
 Honest answers
 
@@ -84,19 +108,19 @@ For real, live teaching in 2026: $40 to $160 a month for group formats and $100 
 
 Are coding apps worth it instead of classes?
 
-As a first taste for ages 5 to 7, yes. As the plan for actually learning to build, rarely: apps cannot explain, correct, or hold a child accountable, which is why most app subscriptions go quiet by month two. The honest budget question is whether ~$15 a month of software beats $100 a month of live taught hours.
+As a first taste for ages 5 to 7, yes. As the plan for actually learning to build, rarely: apps cannot explain, correct, or hold a child accountable, which is why most app subscriptions go quiet by month two. The honest budget question is whether ~$15 a month of software beats a month of live taught hours.
 
 Why is Modern Age Coders so much less than Juni for 1-on-1?
 
-Geography, not quality. Juni pays US instructor wages, so four sessions cost $275+. Our mentors teach globally from a different wage economy, so eight dedicated hours cost $100. The hour itself, deep, interactive, project-first, is the premium product in both cases. One free demo class lets you judge whose hour teaches more.
+Geography, not quality. Juni pays US instructor wages, so four sessions cost $275+. Our mentors teach globally from a different wage economy, so a month of dedicated hours costs less; the figure is in the pricing section above. The hour itself, deep, interactive, project-first, is what you are paying for in both cases. One free demo class lets you judge whose hour teaches more.
 
 What hidden costs should I watch for?
 
-Enrollment and registration fees, long packs sold upfront (Rs 29,500-style bundles in India, $500+ curricula in the US), per-subject pricing that doubles when maths is added, and marketplace prices that creep per booking. We publish flat monthly prices with no fees; most serious providers publish theirs too, so always find the number before the trial call.
+Enrollment and registration fees, long packs sold upfront ($500+ curricula in the US), per-subject pricing that doubles when maths is added, and marketplace prices that creep per booking. We publish flat monthly prices with no fees; most serious providers publish theirs too, so always find the number before the trial call.
 
 What does Modern Age Coders include?
 
-Eight one-hour live classes a month, small group or true 1-on-1, priced for your country for international students, a dedicated mentor, real shipped projects, recordings for revision, and maths available in the same school. Free live demo class before any payment, monthly billing, no lock-in.
+Eight one-hour live classes a month, a group batch of 15 to 20 or true 1-on-1, priced for your country for international students, a dedicated mentor, real shipped projects, recordings for revision, and maths available in the same school. Free live demo class before any payment, monthly billing, no lock-in.
 
 [vs Juni Learning](/modern-age-coders-vs-juni-learning)[vs Outschool](/modern-age-coders-vs-outschool)[vs Tynker](/modern-age-coders-vs-tynker)[Best coding classes for kids 2026](/best-online-coding-classes-for-kids-2026)[Full pricing](/pricing)
 

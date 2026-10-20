@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Python and AI for Kids course thumbnail](/images/python-kids.webp)Best fit  Python & AI for Kids Real text code taught gently, with AI projects on top: the ladder's central rung for ages 9-13. Ages 9-138 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/python-ai-kids-masterclass)[![Scratch Programming Complete course thumbnail](/images/scratch-kids.webp)  Scratch Programming Complete The ages 6-9 starting rung: real ideas in friendly blocks, from first sprite to shipped game. Ages 6-98 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/scratch-programming-complete-course)[![Vibe Coding for Kids course thumbnail](/images/vibe-coding-kids.webp)  Vibe Coding for Kids Blocks, game builds and AI tools in one arc: the bridge years, ages 8-12, covered joyfully. Ages 6-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-Good online coding classes for an American child give you **a real teacher, live, on a schedule that fits US after-school life**; a ladder that runs from Scratch (age 6) through Python and AI (age 14) and eventually to AP Computer Science; and depth, projects the child builds and explains, not videos with quizzes. That is what we do: live one-hour classes with a dedicated mentor, in small groups (8 a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
+Good online coding classes for an American child give you **a real teacher, live, on a schedule that fits US after-school life**; a ladder that runs from Scratch (age 6) through Python and AI (age 14) and eventually to AP Computer Science; and depth, projects the child builds and explains, not videos with quizzes. That is what we do: live one-hour classes with a dedicated mentor, in a group batch of 15 to 20 (8 classes a month) or private 1-on-1, priced for your country and shown in your local currency, Priority Demo first.
 
 The American CS gap
 
@@ -41,7 +41,25 @@ The age ladder
 
 Every rung is taught by the same school, so climbing never means starting over. The Priority Demo places your child on the ladder by evidence, and our teen and AP-track pages take over where this one ends.
 
-[Book a Priority Demo](/priority-demo)Is this your family?
+[Book a Priority Demo](/priority-demo)For US families
+
+## The ladder, in US school grades.
+
+Ages tell you where a child starts; grades tell you what school expects next. Read the ladder above against the elementary, middle and high school years, and use these guides to see what each stage covers in a US classroom. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
+
+### Elementary, grades 1 to 5
+
+[Coding classes for elementary students](/coding-classes-for-elementary-students) sets out what the K-12 CS Framework expects by grades 2 and 5, and [coding milestones by age](/coding-milestones-by-age) gives a checklist for 8 to 10 year olds.
+
+### Middle school, grades 6 to 8
+
+[Coding classes for middle school students](/coding-classes-for-middle-school-students) covers what grade 8 should look like, and [coding competitions for middle school](/coding-competitions-for-middle-school-students) lists contests open to grades 6 to 8.
+
+### Choosing a provider
+
+Our [comparison of online coding classes for kids in the USA](/best-online-coding-classes-for-kids-usa-compared) puts six providers side by side on format, ages, group size and trials.
+
+Is this your family?
 
 ## Eight signs it is time for real coding classes.
 
@@ -141,7 +159,7 @@ The honest part
 
 Pricing
 
-## Premium teaching. One honest price.
+## Real teaching. One honest price.
 
 You are paying for a real teacher, live, for a full hour, twice a week, the format US kids-coding companies charge $175 to $350 a month for. Our cost base is global, so the price is not.
 
@@ -156,18 +174,18 @@ $150 / month
 
 [Book a Priority Demo](/priority-demo)
 
-### Small-Group Class
+### Group Class
 
 $100 / month
 
 - 8 live one-hour classes a month, 2 per week
-- A handful of children at the same level
+- A batch of 15 to 20 children at the same level
 - Same teaching method, gentle peer energy
 - Recordings included · cancel any time
 
 [See the Python course](/courses/python-ai-kids-masterclass)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a group batch. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what US kids coding costs in 2026](/coding-classes-for-kids-cost).
 
 Who teaches your child
 
@@ -195,8 +213,8 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Best for |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100–$150 / month | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
-| Premium 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
+| Modern Age Coders | $100 to $150 / month | Live one-hour classes with a dedicated mentor, ideas-first, projects the child owns | Building a real maker, with the Python road open |
+| Brand-name 1:1 platforms (Juni-style) | $200-$300 / month | Live 1-on-1, often 2-4 sessions monthly at 30-50 minutes, rotating instructors common | Families who want brand-name polish and can absorb the price |
 | Marketplace classes (Outschool-style) | $15-$25 / class | One-off or short-series group classes of varying quality; no continuity of mentor or curriculum | Sampling topics cheaply before committing anywhere |
 | Coding centers (Code Ninjas-style) | $175-$350 / month | Drop-in dojo floors with game-based curriculum and rotating guides, plus the drive | Children who focus better out of the house |
 | Self-paced apps (Tynker-style) | $10-$30 / month | Gamified puzzle tracks, no teacher, no one to ask why | Extra practice between real lessons |
@@ -221,19 +239,19 @@ Contact time, continuity and price. We give 8 full one-hour live classes a month
 
 Will this help with school and AP Computer Science later?
 
-Directly. The ladder is designed so that a child who starts at 8 strolls into AP CSP or AP CSA at 15 with years of real programming underneath, and our teen tracks teach those courses explicitly. Ambitious kids can also aim at USACO, where we coach Bronze through Platinum.
+Directly. The ladder is designed so that a child who starts at 8 reaches AP CSP or AP CSA with years of real programming underneath, and our teen tracks teach those courses explicitly. Ambitious kids can also aim at USACO, where we coach Bronze through Platinum.
 
 Are the mentors comfortable teaching American kids?
 
-Yes, US families are one of our largest cohorts. Mentors teach across US time zones daily, classes run in English, and the teaching method, interactive, question-driven, project-first, is exactly what American parents tell us their kids' school CS never had time for.
+Yes. Mentors teach across US time zones daily, classes run in English, and the teaching method, interactive, question-driven, project-first, goes further than most school CS classes have time for.
 
 What does it cost, honestly?
 
-Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. That is $18.75 per dedicated 1-on-1 hour, against a US market where $175-$350 a month is normal.
+Pricing is set for each country and shown on this page in your own currency. Group plans include 8 live one-hour classes a month and 1-on-1 plans run private weekly sessions, all billed month to month. To see a class first, book a Priority Demo. No registration fee, no contract. The pricing section above shows our fees, against a US market where $175-$350 a month is normal.
 
 Is the screen time worth it?
 
-The honest frame: the screen hours are happening anyway. Two of them a week becoming creative, effortful building, with an adult asking your child to explain their thinking, is the best trade available. Parents consistently report the change in how their child uses the other hours, too.
+The honest frame: the screen hours are happening anyway. Two of them a week becoming creative, effortful building, with an adult asking your child to explain their thinking, is the best trade available.
 
 What equipment does my child need?
 

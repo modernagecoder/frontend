@@ -74,6 +74,30 @@ Group batch: ₹1,499 a month = **₹187 per live class**Mini batch of up to 6: 
 
 Rated 4.9 across 547 Google reviews. The first class is a free demo; if you want a full 45 to 60 minute class today or tomorrow, the Priority Live Demo has a small fee that is adjusted against your first month if you enrol. Judge the teaching there, not here.
 
+For US families
+
+## Pricing coding classes from the US
+
+Visit from the US and the fees above appear in US dollars, one currency only. The formats in this guide all exist in the US, and the useful comparison there is the cost of a taught hour against the free options a US student already has. For US families, timing works like this: Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
+
+1
+
+### US price ranges, by format
+
+Our [kids coding cost guide for the US](/coding-classes-for-kids-cost) prices apps, marketplaces and 1-on-1 programs, and the [comparison of six US-facing providers](/best-online-coding-classes-for-kids-usa-compared) covers format, group size and trials.
+
+2
+
+### What a high schooler gets free
+
+[Free coding programs for high school students](/free-coding-programs-for-high-school-students) separates what is genuinely free from what only looks it.
+
+3
+
+### Summer and intensive options
+
+[CS summer programs for high school students](/computer-science-summer-programs-for-high-school-students) explains each program's cost rules from its own pages, and [coding bootcamps for teens](/coding-bootcamp-for-teens) covers the intensive route.
+
 Before you pay
 
 ## Six questions that turn any quote into a comparable number

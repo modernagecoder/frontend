@@ -972,6 +972,29 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "For US families: the same path, by grade",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "US schools talk in grades, not ages, so here is the path above in school terms, roughly. Elementary school, grades 1 to 5, is the visual stage: Scratch and other block tools. Middle school, grades 6 to 8, is where a first text language such as Python usually fits. High school is where Java comes in for students heading toward AP Computer Science A, and where C++ starts to matter for anyone aiming at USACO."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/coding-milestones-by-age'>Coding milestones by age</a> lines up ages 6 to 18 with the K-12 Computer Science Framework checkpoints at grades 2, 5, 8 and 12.",
+          "Grade-band guides: <a href='/coding-classes-for-elementary-students'>elementary students</a>, <a href='/coding-classes-for-middle-school-students'>middle school students</a> and <a href='/coding-classes-for-high-school-students'>high school students</a>.",
+          "Weighing a second language? <a href='/javascript-for-kids'>JavaScript for kids</a> and <a href='/c-plus-plus-for-kids'>C++ for kids</a> each include short programs to run."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Live classes for US students are booked around school and activities. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Frequently Asked Questions",
         "id": "faqs"
       },

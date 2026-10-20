@@ -306,8 +306,32 @@
       },
       {
         "type": "quote",
-        "text": "Nobody has ever regretted taking the Java course first because it was too hard. Plenty have drifted out of computing because the introductory course was too slow to hold them.",
-        "author": "What a decade of teaching both has taught us"
+        "text": "A course that feels a little too hard can be caught up on with practice. A course that feels too slow can quietly end a student's interest in computing, and that is much harder to win back.",
+        "author": "The reasoning behind our advice"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "For US students: settling the order with your school",
+        "id": "for-us-students"
+      },
+      {
+        "type": "paragraph",
+        "text": "In a US high school the order is usually decided in the spring, when next year's schedule is built with your counselor. Go into that meeting knowing which grade your school offers each course in, and which colleges are on your list, because credit and placement for AP computing are set college by college. Our guide to <a href='/does-ap-computer-science-give-college-credit'>whether AP Computer Science gives college credit</a> shows how to read a policy before you plan around it."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/is-ap-computer-science-hard'>Is AP Computer Science hard?</a> puts both courses on one page with two readiness checks you can run at home.",
+          "Taking Principles? Our <a href='/ap-csp-create-performance-task-guide'>Create performance task guide</a> walks through the program requirements, the video and the written responses.",
+          "Taking Computer Science A? Work our original <a href='/ap-computer-science-a-practice-questions'>AP CSA practice questions in Java</a>, then turn your results into a rough composite with the <a href='/ap-computer-science-a-score-calculator'>AP CSA score calculator</a>.",
+          "The <a href='/ap-csp-score-calculator'>AP CSP score calculator</a> does the same for Principles. Both calculators are our estimate method, not an official College Board conversion."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Classes for US students fit around the school day. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
       },
       {
         "type": "heading",
@@ -321,7 +345,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Every class is live, one to one, in a mini batch of three or four, or in a group of fifteen to twenty students, taught from India to students worldwide. The first class is free, no card is asked for, and the single most useful thing to bring to it is the honest answer to the question above about programs nobody asked for."
+        "text": "Every class is live, one to one, in a mini batch of up to six, or in a group of fifteen to twenty students, taught from India to students worldwide. The first class is free, no card is asked for, and the single most useful thing to bring to it is the honest answer to the question above about programs nobody asked for."
       },
       {
         "type": "button",

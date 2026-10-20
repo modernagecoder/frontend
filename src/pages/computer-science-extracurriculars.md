@@ -290,6 +290,44 @@ Final year
 
 Research programs and portfolio submissions, built on the evidence of the previous two years rather than assembled in a panic.
 
+For US students
+
+## The same order, across four years of US high school
+
+Mapped onto grades 9 to 12, the order above becomes a plan you can take to your counselor. Each guide below works from the organiser's own rules and dates.
+
+Grade 9
+
+### Choose one contest
+
+[Coding competitions for high school students](/coding-competitions-for-high-school-students) compares USACO, ACSL, CyberPatriot, picoCTF and the Congressional App Challenge on grades, format and AI rules.
+
+Each fall
+
+### Put the year's dates in one place
+
+The [US coding, math and AI competitions calendar](/us-coding-math-and-ai-competitions-calendar) lists the season's published dates, each with its source.
+
+Grade 10
+
+### Give a first app a real deadline
+
+Our [Congressional App Challenge guide](/congressional-app-challenge-guide) covers eligibility, the demo video and judging, which makes it a natural target for one finished project.
+
+Grade 11
+
+### Look at selective programs
+
+[CS summer programs](/computer-science-summer-programs-for-high-school-students) and [AI research programs](/ai-research-programs-for-high-school-students) are read from each program's own pages, including who qualifies.
+
+Grades 11 and 12
+
+### Find real work
+
+[Computer science internships for high school students](/computer-science-internships-for-high-school-students) explains who NASA and NIST accept and which age rules to check first.
+
+Classes for US students fit around this calendar. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
+
 Two ways in
 
 ## Tier 1 rewards years, not months
@@ -334,7 +372,7 @@ Portfolio Program
 
 ### The route from Tier 3 to Tier 1
 
-Everything in Tier 1 depends on being able to build independently. That is what our classes produce: live teaching in small batches, real projects rather than worksheets, and a mentor who asks the follow-up questions before an admissions reader does.
+Everything in Tier 1 depends on being able to build independently. That is what our classes produce: live teaching, one to one or in batches of 15 to 20, real projects rather than worksheets, and a mentor who asks the follow-up questions before an admissions reader does.
 
 - Coding fluency first, because every Tier 1 item assumes it
 - One build carried to a finish instead of five left half done
@@ -354,7 +392,7 @@ One published fee per tier, the same whichever activity a student is aiming at. 
 
 ### Group class
 
-Batches of 15–20. Good for building the fundamentals.
+Batches of 15 to 20. Good for building the fundamentals.
 
 ₹1,499per month
 

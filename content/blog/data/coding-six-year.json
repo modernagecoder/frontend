@@ -582,6 +582,30 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "For US families: coding in kindergarten and first grade",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "Depending on your state's kindergarten entry age and your child's birthday, a 6 year old is in kindergarten or first grade, the start of the elementary years. Schools differ a lot in how much computer science they teach this early, so the habits you build at home with the tools above often matter more than anything on the school timetable. Short, regular sessions, a parent nearby and a project the child chose are the same advice whether you follow it at the kitchen table or in a live class."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/coding-classes-for-elementary-students'>Coding classes for elementary students</a> sets out what grades 1 to 5 are expected to learn, with a first program to try.",
+          "<a href='/coding-milestones-by-age'>Coding milestones by age</a> maps ages 6 to 18 to checkpoints at grades 2, 5, 8 and 12.",
+          "<a href='/video-game-coding-classes-for-kids'>Video game coding classes for kids</a> explains which game tool suits a child who wants to make games.",
+          "<a href='/ai-literacy-for-elementary-students'>AI literacy for elementary students</a> has two simple activities for the K to 5 years."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For US families, the live class described above is booked at a time that suits you. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Frequently Asked Questions",
         "id": "faq"
       },

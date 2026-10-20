@@ -337,7 +337,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Cost: Free basics with limited features, premium subscription $10/month for full access. Free version works well initially; premium adds value as skills grow."
+        "text": "Cost: Free basics with limited features, paid subscription $10/month for full access. Free version works well initially; the paid plan adds value as skills grow."
       },
       {
         "type": "heading",
@@ -984,6 +984,31 @@
           "No attempt to modify or personalize.",
           "Claims copied work as entirely own creation."
         ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "For US families: coding in first and second grade",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a child must be 5 by September 1 to start kindergarten, a 7 year old is in first or second grade. That lines up neatly with the first checkpoint in the K-12 Computer Science Framework, which sets out what students should be able to do by the end of grade 2. The first month described above, with loops, events and a game of their own, is a solid way to get there, at home or with a teacher."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/coding-classes-for-elementary-students'>Coding classes for elementary students</a> spells out the grade 2 and grade 5 expectations and what schools teach.",
+          "<a href='/coding-milestones-by-age'>Coding milestones by age</a> shows what comes after this year, up to age 18.",
+          "<a href='/scratch-not-working-help'>Scratch not working?</a> has the official fixes for projects that will not save or load, and for blocked school networks.",
+          "<a href='/how-to-make-a-video-game-for-kids'>How to make a video game for kids</a> picks up where the catching game leaves off.",
+          "<a href='/video-game-coding-classes-for-kids'>Video game coding classes for kids</a> explains which tool suits each age, for a child who already knows they want to make games."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For US families, the live Scratch course above is scheduled around school. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
       },
       {
         "type": "heading",

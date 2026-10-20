@@ -853,6 +853,30 @@
       {
         "type": "heading",
         "level": 2,
+        "text": "For US families: coding around kindergarten",
+        "id": "for-us-families"
+      },
+      {
+        "type": "paragraph",
+        "text": "In states where a child must be 5 by September 1 to start kindergarten, a 5 year old is in kindergarten or about to begin. Entry ages differ by state, but either way everything above belongs at home and at play rather than in a class. Screen-free games, ScratchJr and short app sessions are plenty. What helps now is knowing what comes next, so the first year of elementary school builds on what your child already enjoys instead of starting over."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/coding-classes-for-elementary-students'>Coding classes for elementary students</a> explains what the K-12 Computer Science Framework expects by grade 2 and what schools tend to teach in grades 1 to 5.",
+          "<a href='/coding-milestones-by-age'>Coding milestones by age</a> shows what children can typically do from age 6, so you can see the road ahead without rushing it.",
+          "<a href='/ai-literacy-for-elementary-students'>AI literacy for elementary students</a> covers how to talk about AI with children in grades K to 5.",
+          "<a href='/how-to-make-a-video-game-for-kids'>How to make a video game for kids</a> lists free tools by age for the day your child asks to make a game."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Our live classes start at age 6. When your child gets there, sessions for US families are arranged like this: Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+      },
+      {
+        "type": "heading",
+        "level": 2,
         "text": "Frequently Asked Questions",
         "id": "faq"
       },

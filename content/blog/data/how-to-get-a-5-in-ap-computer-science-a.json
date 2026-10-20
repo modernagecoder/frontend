@@ -200,7 +200,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Here is the specific thing we see in real student work more than any other. The task is ordinary: given a list of scores, remove every score below 50. The obvious loop looks completely correct."
+        "text": "Here is a slip that turns up in student work again and again. The task is ordinary: given a list of scores, remove every score below 50. The obvious loop looks completely correct."
       },
       {
         "type": "code",
@@ -335,6 +335,30 @@
         "type": "quote",
         "text": "The students who get 5s are not the ones who understood recursion the fastest. They are the ones who wrote the same four question types until the shapes stopped being surprising.",
         "author": "What we tell every AP Computer Science A parent in the first class"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "For US students: the year around the exam",
+        "id": "for-us-students"
+      },
+      {
+        "type": "paragraph",
+        "text": "The plan above holds whether Computer Science A is a class on your high school schedule or something you are preparing on the side. What the US calendar adds is paperwork and timing. You enter the exam through your school's AP coordinator, so ask in the fall how your school runs registration, and talk to your counselor early about how the course sits alongside your other AP classes."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Practise with our original <a href='/ap-computer-science-a-practice-questions'>AP Computer Science A practice questions</a>: multiple choice across all four units plus a free response, every answer checked by running the code.",
+          "Turn a timed practice paper into a rough composite with the <a href='/ap-computer-science-a-score-calculator'>AP CSA score calculator</a>. It is our estimate built on the published section weighting, not an official conversion.",
+          "Still deciding whether to sign up? <a href='/is-ap-computer-science-hard'>Is AP Computer Science hard?</a> has two readiness checks.",
+          "Before counting on a 5 for anything, read <a href='/does-ap-computer-science-give-college-credit'>does AP Computer Science give college credit?</a> Each college writes its own policy."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "If you want a teacher alongside the practice, scheduling around US school hours works like this: Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
       },
       {
         "type": "heading",
