@@ -267,7 +267,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 106 | coding-and-ai-classes-in-wisconsin (aw, #855944) | state | 3,115 | 2.4% vs coding-and-ai-classes-in-ohio | phase 4 | percent share, choosing the denominator, and pie versus bar charts | 421de09b |
 | 107 | coding-and-ai-classes-in-wyoming (aiw, #29458A) | state | 3,374 | 2.5% vs coding-and-ai-classes-in-utah | phase 4 | mean versus median, skew and outliers | 05564710 |
 | 108 | coding-and-ai-classes-in-washington-dc (awd, #382A6B) | state | 3,452 | 1.7% vs coding-and-ai-classes-in-michigan | phase 4 | filter on a label, then describe a distribution (mean, median, mode), and tell a | b0dd25d2 |
-| 103 | coding-classes-in-virginia (aiv, #18309E) | state | 4,012 | 2.1% vs coding-and-ai-classes-in-ohio | phase 4 | cleaning inconsistent category labels, then filter-and-rank (and why two spellin | (this commit) |
+| 103 | coding-classes-in-virginia (aiv, #18309E) | state | 4,012 | 2.1% vs coding-and-ai-classes-in-ohio | phase 4 | cleaning inconsistent category labels, then filter-and-rank (and why two spellin | 62a2602e |
+| 104 | coding-classes-in-washington (aws, #5F538A) | state | 3,596 | 1.9% vs coding-and-ai-classes-in-utah | phase 4 | frequency tables, cumulative share and the long tail | (this commit) |
 
 ## Skipped
 

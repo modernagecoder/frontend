@@ -1771,3 +1771,4 @@
 .cg-root.cg-aiw  { --cg-accent: #29458A; --cg-accent-soft: rgba(41,69,138,.10); }   /* Wyoming: #29458A, a high-plains sky blue, allocated in alloc.tsv row 107 and checked by the build for 4.5:1 contrast on every paper */
 .cg-root.cg-awd  { --cg-accent: #382A6B; --cg-accent-soft: rgba(56,42,107,.10); }   /* Washington, DC: a muted dusk violet, #382A6B, allocated in alloc.tsv for row 108, dark enough to hold text contrast on the paper */
 .cg-root.cg-aiv  { --cg-accent: #18309E; --cg-accent-soft: rgba(24,48,158,.10); }   /* Virginia: a deep Chesapeake blue, #18309E, allocated in alloc.tsv for row 103 and kept muted so it reads as ink on the paper rather than as a bright link colour */
+.cg-root.cg-aws  { --cg-accent: #5F538A; --cg-accent-soft: rgba(95,83,138,.10); }   /* Washington State: #5F538A, a dusky lupine violet, allocated in alloc.tsv row 104 and checked by the build for 4.5:1 contrast on every paper */

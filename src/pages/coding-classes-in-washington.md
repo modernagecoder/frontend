@@ -1,343 +1,269 @@
 ---
-title: "Coding Classes in Washington State | Ages 6 to 67"
-description: "Live online coding and maths for Washington State students aged 6 to 67. State law lets you swap maths for computer science, then warns you in writing not to."
+title: "Coding and AI Classes in Washington State | Live Online"
+description: "Coding and AI classes for Washington State students, live online: the law on CS access, swapping a third math or science year, the data, and a Seattle tree project."
 canonical: https://learn.modernagecoders.com/coding-classes-in-washington
 source: src/pages/coding-classes-in-washington.html
 ---
-> Live online coding and maths for Washington State students aged 6 to 67. State law lets you swap maths for computer science, then warns you in writing not to.
+> Under RCW 28A.230.300, since the 2022 to 2023 school year every Washington school district that operates a high school must give all high school students access to an elective computer science course, and a student may substitute one computer science course for a third year of math or science, once. In 2024 to 2025, 396 of 774 Washington high schools offered CS, according to Code.org (2025). We teach Washington students live online in Pacific Time.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Washington
 
-Washington State / Live online
+Washington State, United States / Live online
 
-# Washington will let you trade maths for code, and legally has to warn you first.
+# Coding and AI classes in Washington State
 
-The short answer
+**What does Washington State law say about computer science in high school?** Under RCW 28A.230.300, since the 2022 to 2023 school year every Washington school district that operates a high school must give all high school students access to an elective computer science course, and a student may substitute one computer science course for a third year of math or science, once. In 2024 to 2025, 396 of 774 Washington high schools offered CS, according to Code.org (2025). We teach Washington students live online in Pacific Time.
 
-Under RCW 28A.230.300 a Washington student may swap a third year mathematics or science course for computer science, once, with everybody's agreement, and only after the counselor puts the consequences in writing. Modern Age Coders teaches both subjects on one track, so the swap never has to be made at all. Ages 6 to 67, taught live. A group holds no more than eight; private tuition is also available. USD 100 or USD 150 monthly.
+Washington is one of the most code-literate economies in the country, and its school law reflects that: the Legislature has written computer science access, competency-based credit and a math or science substitution into the Revised Code of Washington. The published figures show the gap that remains, with about half of the state&rsquo;s high schools offering a computer science course and fewer than five students in a hundred taking one. This page reads the statute line by line, sets out the numbers, explains how a family can use the substitution and AP equivalency rules well, and walks through a Seattle street tree project that teaches one of the most useful ideas in data work, the long tail.
 
-Education law rarely comes with a warning label. Washington's computer science substitution does. The legislature allowed the trade, then wrote into the same statute that a counselor must hand the family written notification of what the substitution does to their postsecondary opportunities. That is an unusually candid piece of drafting, and it tells you exactly how the state feels about the deal it is offering.
+Facts last verified 18 October 2026. Teaching is online; no Washington branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
-The obvious conclusion is the right one. Take the computer science, keep the mathematics, and never spend the one substitution you are allowed. Washington is one of the states we cover from the [United States](/coding-classes-in-united-states) hub.
+## Four courses matched to Washington&rsquo;s options
 
-Book the free first classRead the statute
+Picked with the state rules in mind, from first AI lessons to AP Computer Science A, which Washington districts must treat as equivalent to math or science. The free lesson sets the level.
 
-No card. No obligation. We call, we do not spam.
+- [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course) (Grades 2 to 5): What AI is, how it learns from examples and where it goes wrong, taught with games and simple experiments suited to young children.
+- [Python for Teens](/courses/python-complete-masterclass-teens) (Grades 7 to 12): Python from first lines to files and data, a solid base for any computer science course a Washington high school offers.
+- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Grades 9 to 12): Frequency tables, cumulative shares and charts on real public data, the method behind the Seattle tree project on this page.
+- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course) (Grades 10 to 12): Java for AP Computer Science A: object-oriented design, the free-response section and full exam practice.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for Washington
+The four we are known for, on every market page:
 
-## The pairing that makes the substitution unnecessary
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
 
-The first two are the whole argument of this page: run them in the same term and nothing has to be traded away. The other two are where students go before and after.
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-[![AP Computer Science A course thumbnail](/images/ap-computer-science-a.webp)  Ages 14 to 18 AP Computer Science A The course RCW 28A.230.097 makes a board approve as maths or science equivalent. See the syllabus](/courses/ap-computer-science-a-java-exam-prep-course)[![High school mathematics course thumbnail](/images/high-school-maths.webp)  Ages 14 to 18 High school mathematics The third year the statute would let you drop, and the one the warning is about. See the syllabus](/courses/complete-high-school-mathematics-mastery)[![Problem solving and data structures course thumbnail](/images/problem-solving-teens.webp)  Ages 14 to 18 Problem solving and DSA What the companies down the road actually interview on, taught early. See the syllabus](/courses/problem-solving-dsa-masterclass-teens)[![Python and AI course thumbnail](/images/python-kids.webp)  Ages 11 to 13 Python and AI Where a middle schooler builds the runway that makes Grade 11 a choice, not a scramble. See the syllabus](/courses/python-ai-kids-masterclass)
+## Computer science in the Revised Code of Washington
 
-That is four of more than a hundred. The rest, sorted by age and subject, sit on the [course atlas](/course-atlas), and the order we teach them in is on the [coding roadmap](/coding-roadmap).
+We could not read the Office of Superintendent of Public Instruction website, which refused our request, so this section quotes the law itself as the Washington State Legislature publishes it, read on 18 October 2026.
 
-The four we are known for
+**RCW 28A.230.300, Computer science, and RCW 28A.230.097, as published by the Legislature**
 
-### Python, AI, vibe coding and agentic coding
+| Provision | What the statute says |
+|---|---|
+| Access, RCW 28A.230.300(1) | Beginning no later than the 2022 to 2023 school year, each school district that operates a high school must, at a minimum, provide an opportunity to access an elective computer science course available to all high school students |
+| Alignment | Any such course must be aligned to the state learning standards for computer science or mathematics |
+| Credit by competency, (2) | Beginning in the 2019 to 2020 school year, districts may award academic credit for computer science on completion of a competency examination aligned with the standards |
+| Substitution, (4)(a) | A student may substitute a computer science course aligned to state standards as an alternative to a third year mathematics or third year science course, under conditions |
+| Once only, (4)(b) | The substitution may only be used once per student |
+| AP equivalency, RCW 28A.230.097 | Boards must approve AP computer science courses as equivalent to high school mathematics or science, and mark AP computer science on the transcript as a math-based quantitative course for seniors who take it |
 
-These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+The section&rsquo;s history line cites the session laws of 2019, 2021 and 2024. The 2019 findings explain the purpose in the Legislature&rsquo;s own words: &ldquo;By providing more opportunities to take courses and earn credit in computer science, Washington can better prepare students to excel both in school and after graduation.&rdquo;
 
-[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python AI Automation course thumbnail](/images/python-automation-ai-college.webp)Python and AICollege and adultPython AI AutomationAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)RCW 28A.230.300
+Note what the access rule does and does not require. It is written at the level of the school district and promises an opportunity to access an elective course; it does not make computer science a graduation requirement, and it does not say every building must teach its own class. We report the law as written and leave district practice to each district.
 
-## The trade the state offers, and the warning it attaches
+## Swapping a third year of math or science for computer science
 
-Quoted rather than paraphrased, because the conditions are the interesting part and they are usually left out when this rule gets summarised.
+RCW 28A.230.300(4) sets three conditions before a student can make the swap. Each one is a conversation worth having early, not in the spring of senior year.
 
-The substitution
+### Written notice first
 
-A student may substitute "a computer science course aligned to state computer science learning standards as an alternative to a third year mathematics or third year science course."
+Before the swap, the school counselor must give the student and parent or guardian written notification of the consequences of the substitution on postsecondary opportunities. Read it carefully; that is its purpose.
 
-The warning, in the same statute
+### Three-way agreement
 
-Before approving it, "the school counselor provides the student and the student's parent or guardian with written notification of the consequences of the substitution on postsecondary opportunities."
+The student, the parent or guardian, and the school counselor or principal must all agree. A student cannot make the change alone, and neither can the school.
 
-Four conditions travel with the trade, and every one of them is a signal about how the state views it.
+### Fits the plan
 
-| Condition | What it tells you |
-| --- | --- |
-| Student, parent or guardian, and counselor or principal must all agree | Three signatures for one course swap is not how routine decisions are handled |
-| Written notification of consequences on postsecondary opportunities | The legislature expected some families to regret this and wanted a paper trail |
-| Must align with the student's High School and Beyond Plan | It has to fit a stated destination, not just a timetable clash |
-| Limited to one such substitution per student | A rationed thing is a thing somebody thought could be overused |
+The substitution must align with the student&rsquo;s High School and Beyond Plan, the Washington planning document that follows a student through high school.
 
-Texas handles the same idea in the opposite spirit, letting a student choose computer science instead of a foreign language with no cap and no cautionary paperwork. The difference is not that one legislature is more careful than the other. It is that a language requirement and a third year of algebra are not equally load-bearing, and Washington priced that in.
+**Questions a Washington family might weigh before using the swap (the questions are ours, not the statute&rsquo;s)**
 
-Third year mathematics is not an arbitrary hurdle. It is where a student meets the algebraic fluency that every quantitative degree assumes, including the computer science degree they may be substituting toward. Dropping it to take computer science can leave a student holding the destination without the road.
+| Question | Why it matters |
+|---|---|
+| Which year is being replaced, math or science? | The law allows either, but only once, so the choice is worth making deliberately |
+| Is the computer science course aligned to state standards? | Only an aligned course qualifies under subsection (4)(a) |
+| Would AP Computer Science work instead? | RCW 28A.230.097 already requires boards to treat AP computer science as equivalent to math or science |
+| What do the colleges on the student&rsquo;s list expect? | The counselor&rsquo;s written notice exists because postsecondary expectations vary |
 
-We are not telling you what to choose
+### Where outside classes fit
 
-That is a conversation for your family and your counselor, and there are students for whom the substitution is exactly right. Our position is narrower: the substitution exists to solve a timetable problem, not a learning problem. If both subjects can be kept, keep them. A release valve you never had to pull is the best kind.
+Our classes do not create credit and do not count as the course in the statute. What they can do is make the school course, the competency examination route or AP Computer Science A far more comfortable, because the student arrives already writing real code.
 
-There is a second provision worth knowing by name. Under RCW 28A.230.097, boards of directors must approve AP computer science courses as equivalent to high school mathematics or science, and must denote on the transcript that AP computer science qualifies as a math-based quantitative course for a student who takes it in their senior year. That transcript notation is the piece families most often have never heard of, and it is worth asking for explicitly rather than assuming it appears.
+## About half of Washington high schools offer computer science
 
-Kept together
+Unusually, Washington&rsquo;s row in the Code.org 2025 spreadsheet has an access value for all seven years, so the whole trend is visible. AP school counts come from the College Board file.
 
-## What each subject gives the other
+**Seven years of Washington access and five of participation, as printed by Code.org (2025)**
 
-The case for keeping both is not sentimental. On the left is a piece of third year mathematics. On the right is the thing in computer science that stops making sense without it.
+| Year | Share of high schools | Share of students |
+|---|---|---|
+| 2018 to 2019 | 38% | No participation figure |
+| 2019 to 2020 | 40% | No participation figure |
+| 2020 to 2021 | 41% | 4.7% |
+| 2021 to 2022 | 44% | 5.5% |
+| 2022 to 2023 | 48% | 5.8% |
+| 2023 to 2024 | 50.2% | 5.1% |
+| 2024 to 2025 | 51.2%, or 396 of 774 | 4.54%, or 15,821 of 348,814 |
 
-Maths
+**Washington against the 2024 to 2025 national row, and AP school counts from the College Board**
 
-Functions, domain and range, and what it means for an input to be invalid.
+| Measure | Washington | Comparison or detail |
+|---|---|---|
+| High schools offering CS, 2024 to 2025 | 51.2% | 60% nationally |
+| Students enrolled in CS, 2024 to 2025 | 4.54% | 6.1% nationally |
+| Schools with AP exams, 2023 | 395 | 320 public, 75 non-public |
+| Schools with AP exams, 2024 | 400 | 323 public, 77 non-public |
 
-Every function a programmer writes has a domain, and most bugs a beginner ships are inputs outside it. See [Python Complete Masterclass for Teens](/courses/python-complete-masterclass-teens).
+Access has climbed every single year in the series, from 38% to 51.2%, a steady line few states can show. Participation tells a flatter story, peaking at 5.8% in 2022 to 2023 and easing to 4.54%. One series counts buildings and the other counts people; for the second, the sheet divides by an NCES student total from fall 2022. The source gives no explanation for either trend, and we offer none.
 
-Maths
+Please cite these values as Code.org (2025). 2025 State of AI + CS Education. This page repeats only the Washington cells, never the full dataset.
 
-Growth rates: linear against quadratic against exponential.
+## Seattle&rsquo;s street trees and the long tail
 
-This is algorithmic complexity with the notation removed. A student who has never compared growth rates cannot feel why one solution dies at scale. See [Problem Solving and DSA](/courses/problem-solving-dsa-masterclass-teens).
+The City of Seattle publishes its Department of Transportation street tree inventory as open data, and its own description recommends filtering to trees in service. Students build a frequency table and find out how a few names dominate and hundreds barely appear.
 
-Maths
+**From records to the trees in service (server-side counts on the SDOT Trees layer, 18 October 2026; our queries)**
 
-Proportional reasoning, ratios and rates.
+| Filter | Records |
+|---|---|
+| All records | 276,685 |
+| CURRENT_STATUS is INSVC (in service) | 215,696 |
+| Marked REMOVED | 58,149 |
+| Marked PLANNED | 2,607 |
 
-The whole of honest data work sits on it, including the project further down this page. See [Statistics and Probability](/courses/statistics-probability-maths-course).
+**The long tail among in-service trees (our calculations from the city&rsquo;s SCIENTIFIC_NAME and GENUS fields)**
 
-Maths
+| Measure | By scientific name | By genus |
+|---|---|---|
+| Distinct values | 778 | 176, one of them blank (702 trees) |
+| Values needed to cover half the trees | 35 | 6 |
+| Share held by the top 10 values | 24.4% | 62.0% |
+| Values that appear exactly once | 46 | 14 |
+| Values that appear five times or fewer | 135 | 35 |
 
-Logic, quantifiers, and the difference between "some" and "all".
+### The head
 
-Conditionals and loop invariants are this idea wearing different clothes, which is why students who skip it write conditions that are nearly right. See [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course).
+Acer, the maples, is the largest genus with 45,966 in-service trees, 21.3% of the total, followed by Prunus with 32,812 and Malus with 10,450. Acer palmatum leads the scientific names with 8,534.
 
-Maths
+### The tail
 
-Coordinate geometry and transformation.
+At the other end, 46 scientific names occur exactly once. Students plot names in descending order, then the cumulative share, and watch the curve flatten long before it reaches 778.
 
-Anything drawn on a screen is this, whether the student realises it or not. It is also the friendliest way in for a younger learner. See [Coding in Blocks](/courses/kids-coding-blocks-masterclass).
+### Names that are not species
 
-Placement
+Fifty-nine scientific names end in sp., meaning only the genus was recorded, such as Malus sp. with 6,081 trees. Whether to merge them is a decision the student must state.
 
-## Where a Washington learner joins
+The level of grouping changes the picture entirely: 35 names cover half the trees, but just 6 genera do. In pandas the whole analysis is three lines, counts = df["GENUS"].value_counts(), then share = counts.cumsum() / counts.sum(), then a count of how many values sit below 0.5. The harder part is the write-up, where students explain why the filter, the blank genus and the sp. names each change the answer.
 
-Weighted toward algorithms and interview-grade problem solving at the top, for the unsurprising reason that a lot of these students are aiming at employers within driving distance.
+### Our figures, clearly labelled
 
-### Elementary
+All counts and shares here are our own queries and arithmetic on the layer as it stood on 18 October 2026, and the city refreshes it daily. The City of Seattle says it makes no representation or warranty as to the data&rsquo;s accuracy, and these figures are not an official tree census.
 
-Ages 6 to 10
+## Pacific Time classes, taught from India
 
-- [Coding in blocks](/courses/kids-coding-blocks-masterclass)
-- [Minecraft coding](/courses/minecraft-coding-for-kids-course)
-- [Mental maths](/courses/mental-maths-mastery-kids)
-- [Early maths foundations](/courses/early-math-foundations)
+The IANA time zone database lists Washington in the US Pacific group, kept under America/Los_Angeles, the zone our scheduling uses for every Washington family.
 
-### Middle school
+### A Seattle afternoon
 
-Ages 11 to 13
+A 4:00 p.m. class in Seattle starts at 4:30 a.m. the following day in India while Pacific Daylight Time is in force, and at 5:30 a.m. once Pacific Standard Time returns.
 
-- [Python and AI](/courses/python-ai-kids-masterclass)
-- [JavaScript for beginners](/courses/javascript-course-for-teens-beginners-interactive-web)
-- [Computational thinking](/courses/problem-solving-and-computational-thinking-for-kids)
-- [Middle school maths](/courses/comprehensive-middle-school-mathematics-mastery)
+### The widest US gap we teach
 
-### High school
+India sits at UTC plus 5:30 all year. Washington is UTC minus 7 in summer and minus 8 in winter, which puts India 12 hours 30 minutes or 13 hours 30 minutes ahead.
 
-Ages 14 to 18
+### This year&rsquo;s changes
 
-- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)
-- [Problem solving and DSA](/courses/problem-solving-dsa-masterclass-teens)
-- [React for teens](/courses/react-for-teens-complete-masterclass)
-- [High school maths](/courses/complete-high-school-mathematics-mastery)
+Following the US rule in the IANA data, Washington clocks fall back on November 1, 2026 and spring forward on March 14, 2027. We restate class times in Pacific Time before each change.
 
-### College and adult
+**A date-line puzzle for students** Because India is more than twelve hours ahead, a Washington evening is already the next calendar day for the teacher. Students who build a schedule converter with America/Los_Angeles and Asia/Kolkata see the date change in their output, a neat test that their code handles days as well as hours.
 
-18 to 67
+## From AI basics to AP Computer Science A
 
-- [DSA for interviews](/courses/data-structures-algorithms-masterclass-college)
-- [TypeScript](/courses/complete-typescript-programming-masterclass-college)
-- [C++ complete](/courses/cpp-programming-complete-masterclass-college)
-- [College mathematics](/courses/college-mathematics-complete-masterclass)
+Typical starting points only. The free placement lesson decides where a student really begins.
 
-The complete catalogue is on the [course atlas](/course-atlas), and the method is set out on [how we teach](/how-we-teach).
+- **Grades K to 3: First logic and AI ideas** Block programs and gentle activities on how computers follow rules and learn from examples. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [AI Literacy for Kids (Ages 8 to 14)](/courses/ai-literacy-for-kids-course)
+- **Grades 4 to 7: Games and first Python** Scratch and Python projects with scores, menus and small simulations. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Python and AI for Kids](/courses/python-ai-kids-masterclass)
+- **Grades 8 to 10: Python with data** Files, frequency tables and charts, ready for a school CS course or a competency exam. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
+- **Grades 11 to 12: AP and machine learning** Java for AP Computer Science A, or machine learning projects tested on real data. [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
 
-Washington data project
+## AI tools are trained on long tails too
 
-## The column that does not mean what it is called
+The Seattle tree table is a small model of a big problem in machine learning.
 
-Washington students work on a dataset that has taught more people pandas than almost any other, and which quietly answers a different question from the one everybody asks it.
+A dataset where a few categories dominate and hundreds are rare is exactly the kind on which an AI model can look accurate while failing on the rare cases. A classifier that guessed Acer for every Seattle street tree would be right about one time in five and useless for the 46 names that appear only once.
 
-Source: Seattle Open Data, Fremont Bridge Bicycle CounterLevel: Grade 8 and upConcept: Data and analysis
+Students who have built the frequency table themselves understand why accuracy alone is not enough, and why a good evaluation looks at the tail as well as the head. That is the kind of judgement we teach alongside the code, so that AI tools become something a student can question rather than simply trust.
 
-The Fremont Bridge counter has been running since October 2012. Inductive loops set into the east and west pathways register bicycles crossing, and the city publishes an hourly count for each pathway. It is clean, long, free, and beloved of every introductory data science course, which is exactly why it is useful for teaching scepticism.
+Washington has written computer science into its school law; the students who get most from it will be the ones who learn to look past the average. The longer argument is in [is learning to code still worth it in 2026](/blog/is-coding-worth-learning-2026).
 
-Set a student two ordinary questions. Is cycling in Seattle growing? And do more people ride into the city in the morning than out of it?
+## From the Olympic Peninsula to Spokane, one live class
 
-They can produce a confident answer to both within twenty minutes. Both answers are unsound, for two different reasons, and neither reason is visible in the numbers.
+The Cascades split the state in two; an online class does not notice.
 
-The first trap: one bridge is not a city
+- **From home, east or west** Students in Seattle, Tacoma, Spokane, Vancouver, Yakima or a small town join from their own laptop or desktop.
+- **Aligned with US school** Teachers plan in US grade levels around the Washington school year. Coursework for school, including any competency examination, stays the student&rsquo;s own.
+- **A free first lesson** We start with a real coding task to find the right level. No card or payment details are needed for it.
+- **Grouped by ability** Each batch holds fifteen to twenty learners who code at roughly the same level, some from Washington and some from other states.
+- **One-to-one** A private teacher for AP Computer Science A, an independent project or a faster pace.
+- **Your schedule** Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
 
-Every figure in the file describes a single crossing. If cycling shifted to another route, or a nearby trail closed, or the bridge itself was under works, the counter records that as a change in cycling. A claim about Seattle drawn from one sensor is a claim about one sensor. The data is not wrong; the population it describes is much smaller than the question assumed.
+**Online from India, nothing local** Classes are live online and taught from India. Modern Age Coders has no Washington office or classroom and claims none. A computer, working audio and a steady connection are all a student needs.
 
-The second trap: the column names are lying to you, gently
+## Fees for Washington families
 
-The two count columns are the east pathway and the west pathway. They are not eastbound and westbound. The loops register a bicycle passing regardless of which way it is travelling. A student who reads the headers as directions will produce a beautiful morning and evening commute chart that measures which side of the bridge people ride on, not which way they are going.
+In US dollars, the same in Seattle and in the smallest town.
 
-The second one is the lesson we care most about, because it is not a statistical error at all. Nothing was miscalculated. The student read a variable name, assumed a meaning, and never opened the documentation that says otherwise. That mistake scales: it is the same mistake as assuming a column called revenue is net, or that a field called date is the date of the event rather than the date of entry.
+- First class: USD 0. A full first lesson free of charge, ending with a recommendation for course, level and time.
+- Group tuition: USD 100 a month. A month of live classes in a level-matched batch of fifteen to twenty students.
+- Private tuition: USD 150 a month. A month of live classes with one teacher and one student.
 
-The rule we want them to leave with is unglamorous and worth more than most of what we teach: before you use a column, find out what it actually measures, from whoever created it, and write that definition down in your own words.
+One US dollar rate applies across Washington State. You are billed only after the free lesson, when the plan is agreed; the pricing page covers holidays and missed sessions.
 
-| Step | What the student does | What it teaches |
-| --- | --- | --- |
-| Answer | Produce both confident answers from the raw file first | You have to hold the wrong answer to feel the correction |
-| Read | Find and read the dataset description before defending either | Documentation is part of the data |
-| Restate | Write down what each column actually measures, in their own words | A definition you can restate is one you understand |
-| Narrow | Rewrite the claim so it is about the bridge rather than the city | Match the claim to the population |
-| Extend | Say what extra data would let the original question be answered | Knowing what is missing is a finding |
+## Washington State coding and AI questions
 
-Older students go on to weather as a confounder and to what a fair year-on-year comparison would even look like. Students pull the current file from the city portal themselves rather than using anything reproduced here.
+### Do Washington high schools have to offer computer science?
 
-The same discipline runs through [data science for teens](/courses/data-science-course-for-teens-python-data), and for students who want to build models rather than interrogate them, [AI and machine learning in the USA](/ai-and-machine-learning-classes-in-usa). Completed work sits in the [student labs](/student-labs).
+RCW 28A.230.300 says that since the 2022 to 2023 school year each school district operating a high school must provide an opportunity to access an elective computer science course available to all high school students.
 
-The arrangement
+### Is computer science a graduation requirement in Washington?
 
-## What a Washington family is buying
+Not under RCW 28A.230.300. The statute guarantees access to an elective course and allows a substitution; it does not require every student to take computer science.
 
-| Item | Group | Private |
-| --- | --- | --- |
-| Learners | Five to eight | One |
-| Teacher | Same person weekly | Same person weekly |
-| Sessions | Two a week, eight a month | Two a week, eight a month |
-| Format | Live video, never a recording | Live video, never a recording |
-| Subjects | Coding and mathematics on one track | Coding and mathematics on one track |
-| Ends in | A built project and a certificate | A built project and a certificate |
-| Commitment | Month to month | Month to month |
-| Fee | USD 100 a month | USD 150 a month |
+### Can computer science replace a third year of math or science?
 
-Everything happens in a browser tab, so nothing has to be installed on a district-managed laptop. A microphone and a connection that carries video is the rest of the list.
+Yes, once. A student may substitute an aligned computer science course for a third year math or science course after written notice from the counselor, with agreement and in line with the High School and Beyond Plan.
 
-Fees
+### Does AP Computer Science count as math or science in Washington?
 
-## Two numbers, billed monthly
+RCW 28A.230.097 requires district boards to approve AP computer science courses as equivalent to high school mathematics or science.
 
-No enrolment charge, nothing to buy, no minimum term.
+### Can students earn CS credit by examination?
 
-Group$100per month, 8 classes
+Since the 2019 to 2020 school year, districts may award computer science credit for a competency examination aligned with state standards, under a written district policy.
 
-Fifteen to twenty learners with one consistent teacher. Where most Washington families begin.
+### How many Washington high schools offer computer science?
 
-Private$150per month, 8 classes
+Code.org (2025) reports 396 of 774 Washington high schools, or 51.2%, offering computer science in 2024 to 2025, with 4.54% of high school students enrolled.
 
-One learner setting the pace. Usually chosen for AP preparation, or to carry both subjects in a term that is already full.
+### How many Washington schools give AP exams?
 
-Pauses, plan changes and missed classes are covered on the [pricing page](/pricing).
+The College Board lists 395 Washington schools with AP exams in 2023 and 400 in 2024.
 
-Reviews
+### Do your classes count for Washington credit?
 
-## What families say
+We make no such claim. Credit and competency examinations are handled by districts; our classes build the skills alongside school.
 
-Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+### What time zone are classes in?
 
-★★★★★
+Pacific Time, the America/Los_Angeles zone. We restate times before November 1, 2026 and March 14, 2027.
 
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+### When can my student attend?
 
-Ria Mukherjee
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
 
-Parent
+### Is there a center in Washington State?
 
-★★★★★
+No. All teaching is live online from India, and there is no Washington location, nor any claim of one.
 
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
+## More for Washington students
 
-Samriddha Mondal
+Seniors weighing the AP route can read about [AP Computer Science A classes](/ap-computer-science-a-online-classes) and [AP Computer Science Principles coaching](/ap-computer-science-principles-online-coaching). Students looking for experience outside school can explore [computer science internships for high school students](/computer-science-internships-for-high-school-students) or [USACO preparation](/usaco-preparation-online-coaching).
 
-Student
+## Contact
 
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-More, with photographs and student work, on the [wall of love](/love).
-
-Questions
-
-## Washington questions, answered plainly
-
-### Can computer science replace a maths course in Washington?
-
-Under RCW 28A.230.300 a student may substitute a computer science course aligned to state computer science learning standards as an alternative to a third year mathematics or third year science course. It is not automatic. The student, the parent or guardian, and the school counselor or principal must all agree, it has to align with the student's High School and Beyond Plan, and each student is limited to one such substitution in total.
-
-### Why does the law require a written warning?
-
-Because the legislature knew the substitution can cost a student later. Before approving it, the school counselor must provide the student and the parent or guardian with written notification of the consequences of the substitution on postsecondary opportunities. Very few education rules come with a statutory warning label attached. When one does, it is worth reading twice.
-
-### So should my child use the substitution?
-
-That is your decision and your counselor's, not ours, and it genuinely depends on the student. What we would say is that the substitution exists to solve a timetable problem, not a learning problem. If a student wants computer science and can also keep third year mathematics, keeping both is strictly better for every postsecondary route we know of. The substitution is a release valve, and a release valve you never had to pull is the best kind.
-
-### What about AP Computer Science specifically?
-
-RCW 28A.230.097 requires boards of directors to approve AP computer science courses as equivalent to high school mathematics or science, and to denote on the transcript that AP computer science qualifies as a math-based quantitative course for a student who takes it in their senior year. That transcript notation is the part families most often do not know exists, and it is worth asking about by name.
-
-### Do you teach across Washington or only the Seattle side?
-
-The whole state. Live video puts Redmond, Bellevue, Sammamish, Seattle, Tacoma, Spokane and Vancouver on exactly the same footing, and none of them involves the 520 bridge. A student needs a laptop or desktop, a microphone, and a connection that can hold a video call. Nothing gets installed and nothing gets posted.
-
-### What time do classes run on Pacific Time?
-
-We build around your household rather than asking you to fit ours. Weekend slots are the easiest to arrange on Pacific Time, and weekday slots are agreed one family at a time. Times are settled on the demo call before any money moves, so nobody discovers afterwards that the only available slot collides with something immovable.
-
-### What does it cost a Washington family?
-
-Group classes are USD 100 a month and private tuition is USD 150 a month, each running two classes a week, eight a month. There is no enrolment charge, nothing to buy and no minimum term, so any month can be the last one. The first class is free and is used to place the student properly.
-
-### Which ages do you take?
-
-Six to sixty-seven. Placement follows what a learner can demonstrate in the opening class rather than their year group, which cuts both ways: a quick nine year old is moved up, and a sixteen year old with gaps is placed where the gaps actually are. Adults are taught as adults, at adult pace.
-
-### How many students share a class?
-
-Fifteen to twenty in a group, or one to one. Either way the teacher is the same person from week to week. Rotating staff is the cheapest saving a provider can make and the most expensive one for a student, because every rotation restarts the part of teaching that is about knowing somebody.
-
-### How do we start?
-
-Book the free opening class. It is taught, not sold. A teacher sets real work, watches how the student handles it, and recommends a level based on what they saw. If the honest recommendation is to wait a year or to try somebody else, that is what you will be told on the call.
-
-Book a free class
-
-## Taught, not sold
-
-Tell us the grade and whether the substitution has already come up with the counselor. A teacher runs a real opening class, finds the genuine starting point, and recommends a level. If we are not right for your child, that is what you will hear on the call.
-
-You can also use the [contact page](/contact), or read [about us](/about) first.
-
-Nearby
-
-## Other places we teach
-
-[United States](/coding-classes-in-united-states)[California](/coding-classes-in-california)[Virginia](/coding-classes-in-virginia)[Texas](/coding-classes-in-texas)[Illinois](/coding-classes-in-illinois)[AI and machine learning, USA](/ai-and-machine-learning-classes-in-usa)
-
----
-
-*Canonical: https://learn.modernagecoders.com/coding-classes-in-washington*
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-washington](https://learn.modernagecoders.com/coding-classes-in-washington#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

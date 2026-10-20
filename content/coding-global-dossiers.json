@@ -73,48 +73,57 @@
     ]
   },
   "coding-classes-in-washington": {
-    "market": "Washington State",
-    "bodyClass": "cg-wa",
-    "curriculumAuthority": "Washington state computer science learning standards, referenced by RCW 28A.230.300 as the alignment test a course must meet before it can substitute for a third year mathematics or science course.",
-    "localProject": "Seattle Open Data, Fremont Bridge Bicycle Counter, running since October 2012 with hourly counts from inductive loops in the east and west pathways. Two traps, both about CONSTRUCT VALIDITY rather than statistics: (1) one bridge is not a city, so any claim about Seattle cycling drawn from a single sensor is a claim about that sensor; (2) the columns are east PATHWAY and west PATHWAY, not eastbound and westbound, and the loops count bicycles regardless of travel direction, so a commute-direction chart built from them measures which side of the bridge people ride on. Eighth distinct KIND of error: the variable does not mean what its name implies, and nothing was miscalculated. NOTE: no claim about counter outages or missing data appears on the page, because that could not be verified.",
+    "market": "Washington",
+    "bodyClass": "cg-aws",
+    "pageType": "city",
+    "curriculumAuthority": "Washington State, read raw on 18 October 2026: OSPI 403 (blocked), so statute from the Washington State Legislature: RCW 28A.230.300 (access to an elective CS course no later than 2022-23 in each district operating a high school; alignment; competency credit from 2019-20; substitution for a third year of math or science with written notice, agreement and High School and Beyond Plan; once per student; 2019, 2021, 2024 session laws; 2019 findings) and RCW 28A.230.097 (AP computer science equivalent to math or science; transcript note for seniors); Code.org (2025) data (access 38% to 51.2%, 396 of 774 in 2024-25; participation 4.7% to 4.54%, 15,821 of 348,814; national 60% and 6.1%); College Board AP schools 395/400, public 320/323, non-public 75/77; IANA Pacific list includes Washington.",
+    "localProject": "City of Seattle SDOT Trees (no-warranty licence text; recommended filter CURRENT_STATUS = INSVC), server-side counts 18 October 2026: 276,685 records, 215,696 INSVC, 58,149 REMOVED, 2,607 PLANNED; among INSVC 778 scientific names (35 reach half, top 10 hold 24.4%, 46 singletons, 135 at five or fewer, 59 sp. names), 176 genus values incl. blank (702), 6 genera reach half, top 10 genera 62.0%, Acer 45,966 (21.3%). All ours. Lesson family: frequency tables, cumulative share, long tail.",
     "requiredMentions": [
       "RCW 28A.230.300",
       "RCW 28A.230.097",
-      "High School and Beyond Plan",
-      "written notification of the consequences",
-      "math-based quantitative course",
-      "Fremont Bridge",
-      "inductive loops",
       "third year mathematics or third year science",
-      "Redmond",
-      "Sammamish"
+      "once per student",
+      "High School and Beyond Plan",
+      "396 of 774",
+      "15,821 of 348,814",
+      "276,685",
+      "215,696",
+      "45,966"
     ],
     "sources": [
       {
-        "claim": "RCW 28A.230.300 permits a student to substitute a computer science course aligned to state computer science learning standards as an alternative to a third year mathematics or third year science course. Before approving it, the school counselor provides the student and the student's parent or guardian with written notification of the consequences of the substitution on postsecondary opportunities. The student, parent or guardian, and school counselor or principal must all agree; the substitution must align with the student's High School and Beyond Plan; and each student is limited to one such substitution.",
-        "citation": "Revised Code of Washington 28A.230.300, Computer science",
-        "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=28A.230.300"
+        "claim": "RCW 28A.230.300, Computer science (Washington State Legislature).",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=28A.230.300"
       },
       {
-        "claim": "RCW 28A.230.097 requires boards of directors to approve AP computer science courses as equivalent to high school mathematics or science, and to denote on a student's transcript that AP computer science qualifies as a math-based quantitative course for students who take the course in their senior year.",
-        "citation": "Revised Code of Washington 28A.230.097",
+        "claim": "RCW 28A.230.097, course equivalencies incl. AP computer science.",
         "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=28A.230.097"
       },
       {
-        "claim": "The Fremont Bridge Bicycle Counter began operation in October 2012 and records bicycles crossing the bridge on the pedestrian and bicycle pathways. Inductive loops on the east and west pathways count the passing of bicycles REGARDLESS of travel direction. The data consists of a date and time field plus east and west pathway count fields giving the total bicycles detected in each one-hour period, published on the City of Seattle Open Data portal.",
-        "citation": "City of Seattle Open Data portal, Fremont Bridge Bicycle Counter",
-        "url": "https://data.seattle.gov/Transportation/Fremont-Bridge-Bicycle-Counter/65db-xm6k"
+        "claim": "Code.org (2025), State of AI + CS Education data: Washington and national access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Seattle: SDOT Trees feature service.",
+        "url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/SDOT_Trees_CDL/FeatureServer/0"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Washington in the Pacific list, US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
       }
     ],
     "rejectedClaims": [
-      {
-        "claim": "The Fremont Bridge counter has documented outages that read as zeros, so missing data looks like a collapse in cycling.",
-        "why": "Plausible and pedagogically attractive, but the dataset documentation reviewed did not confirm any specific outage or gap history, so it is not asserted on the page. The two traps that ARE taught (single-sensor sampling, and pathway columns not being directions) are both stated in the city's own dataset description."
-      },
-      {
-        "claim": "A specific Indian American population figure for Washington State.",
-        "why": "Not verified at a source we were willing to cite, so no number appears on the page. The page names the tech-corridor cities instead, which is what the audience recognises anyway."
-      }
+      "OSPI pages (standards adoption year, course lists, guidance): ospi.k12.wa.us returned 403, so only statute text is used.",
+      "That Washington requires computer science for graduation: the statute does not say so; refused.",
+      "Any cause for the access or participation trends: not stated by the source.",
+      "Code.org state narrative, geography, size, gender and race figures: not used.",
+      "An official Seattle tree count: the layer is refreshed daily and the city gives no warranty; only our labelled counts appear.",
+      "Tree locations, addresses and condition ratings: not used.",
+      "That our classes earn Washington credit or count as the statute course, and any affiliation with OSPI, the Legislature, the City of Seattle, Code.org or the College Board."
     ]
   },
   "coding-classes-in-virginia": {
