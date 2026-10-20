@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Denver](/ai-and-python-classes-for-teens-in-denver)
 - [Phoenix](/online-coding-and-ai-classes-in-phoenix)
 - [Orlando](/best-coding-classes-for-kids-in-orlando)
 - [Miami](/ai-and-python-classes-for-teens-in-miami)

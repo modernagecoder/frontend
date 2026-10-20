@@ -54060,5 +54060,68 @@
       "That our classes earn Arizona graduation credit: refused; only district-approved courses do.",
       "Any affiliation with the City of Phoenix, Phoenix Public Library, the Arizona Department of Education, Code.org or the College Board."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-denver": {
+    "market": "Denver",
+    "bodyClass": "cg-aptd",
+    "pageType": "city",
+    "curriculumAuthority": "Colorado, read raw on 18 October 2026: CDE Colorado Academic Standards: Computer Science (adopted 2024) PDF (six strands incl. Artificial Intelligence (AI); adopted May 9, 2024; K-8 added; 2026-27 first year of implementation; House Bill 16-1198, courses that qualify as a math or science graduation requirement; voluntary for local education providers); Code.org (2025) raw sheet Access tabs (CO 2023-2024, 344 of 519, 66.3%; 57%, 54%, 59%); IANA America/Denver and the US DST rule.",
+    "localProject": "City and County of Denver Open Data Bike Facilities (provided as is, not for engineering purposes), queried 18 October 2026 with outStatistics: 2,025 records; STATUS Unfunded 1,388, Completed 500; MILEAGE_MULTIPLIER 2 on 1,833; our sums by existing facility type, Trail 237 records, 114.46 centerline miles, 228.91 lane miles; Shape__Length in feet, 604,328 / 5,280 = 114.46; 822 existing by display status against 823 by type. Lesson family: sums by category, unit conversion and two definitions of a mile.",
+    "requiredMentions": [
+      "822 existing bikeway records",
+      "1,388 records are Unfunded",
+      "28 locations today",
+      "Shape__Length looks like a third length",
+      "2,025 records",
+      "604,328",
+      "divide by 5,280 and you get back 114.46 miles",
+      "MILEAGE_MULTIPLIER is 2 on 1,833 records",
+      "Nearly 20,000 acres",
+      "a two minute ride (a quarter mile)",
+      "Established in 1889 in a wing of Denver High School",
+      "Over 280"
+    ],
+    "sources": [
+      {
+        "claim": "CDE: Colorado Academic Standards, Computer Science, page and 2024 standards document.",
+        "url": "https://ed.cde.state.co.us/computerscience"
+      },
+      {
+        "claim": "City and County of Denver: Open Data Bike Facilities feature service.",
+        "url": "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/Denver_Bicycle_Facilities_ODC/FeatureServer/450"
+      },
+      {
+        "claim": "City and County of Denver open data portal.",
+        "url": "https://opendata-geospatialdenver.hub.arcgis.com/"
+      },
+      {
+        "claim": "Denver Parks and Recreation: parkland acres, urban parks, mountain parks, recreation centers.",
+        "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation"
+      },
+      {
+        "claim": "Denver DOTI Bicycles: quarter-mile goal, high-comfort bikeways, Denver Moves: Bikes update.",
+        "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure/Programs-Services/Bicycles"
+      },
+      {
+        "claim": "Denver Public Library: founded 1889, 28 locations.",
+        "url": "https://www.denverlibrary.org/about"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Colorado access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Denver and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "An official Denver bikeway network length: not published in what we read; the page prints only our sums, labelled as ours.",
+      "Names of standards committee members and State Board members in the CDE document: not needed, left out.",
+      "Code.org rural, suburban, gender and race figures for Colorado: not used.",
+      "Sloan's Lake project spending and drought notices on the parks page: money and drought content, left out.",
+      "That our classes satisfy a Colorado graduation requirement: refused; districts decide which courses count.",
+      "Any affiliation with the City and County of Denver, the Denver Public Library, CDE, Code.org or the College Board."
+    ]
   }
 }

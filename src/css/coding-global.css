@@ -1789,3 +1789,4 @@
 .cg-root.cg-aptm  { --cg-accent: #4A648A; --cg-accent-soft: rgba(74,100,138,.10); }   /* Miami: #4A648A, a muted Biscayne Bay slate blue from the allocation table, distinct from the other US accents and readable on every paper colour */
 .cg-root.cg-bko  { --cg-accent: #242280; --cg-accent-soft: rgba(36,34,128,.10); }   /* Orlando: #242280, a deep Lake Eola evening indigo from the allocation table, apart from the other US accents and readable on every paper colour */
 .cg-root.cg-aip  { --cg-accent: #9E3454; --cg-accent-soft: rgba(158,52,84,.10); }   /* Phoenix: a muted desert-bloom rose, #9E3454, as allocated in alloc.tsv for row 130, distinct from the other US metro accents and readable on the paper */
+.cg-root.cg-aptd  { --cg-accent: #6B5240; --cg-accent-soft: rgba(107,82,64,.10); }   /* Denver: a muted foothills sandstone brown, #6B5240, as allocated in alloc.tsv for row 131, distinct from the other US metro accents and readable on the paper */
