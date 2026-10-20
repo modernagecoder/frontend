@@ -53793,5 +53793,63 @@
       "Any connection with the UK town of Boston, Lincolnshire, or its page: none; never linked.",
       "Any affiliation with the City of Boston, Bluebikes, DESE or Code.org."
     ]
+  },
+  "best-coding-classes-for-kids-in-philadelphia": {
+    "market": "Philadelphia",
+    "bodyClass": "cg-bkp",
+    "pageType": "city",
+    "curriculumAuthority": "Pennsylvania, read raw on 18 October 2026: PDE Graduation Requirements (class of 2023 onward, five Pathways to Graduation, Keystone Exams in Algebra I, Literature and Biology; no CS course in statewide requirements); 22 Pa. Code 4.12 (Technology and Engineering Standards, grades 6 to 12, and integrated K to 5 standards, effective July 1, 2025). Code.org (2025) Most Recent Access Data: PA 2023-2024, 530 of 684 high schools, State Education Agency. IANA America/New_York and the US DST rule.",
+    "localProject": "City of Philadelphia, Percent for Art Locations (OpenDataPhilly, Department of Planning and Development, City of Philadelphia License, as is), CSV from the Carto SQL API downloaded 18 October 2026: 239 records; Active 224, Inaccessible 10, In Progress 5; 17 blank dates; dated 1927 to 2020; decades 1960s 38, 1970s 82, 1980s 54; two dated works before 1959; Center City 90, University City 33. Creative Philadelphia: model pioneered in Philadelphia in 1959; ordinance covers new City construction or major renovation; sites include libraries, recreation buildings and fire stations. Counts ours. Lesson family: binning dates into decades and handling blank values.",
+    "requiredMentions": [
+      "pioneered in Philadelphia in 1959",
+      "Percent for Art Locations",
+      "239 records",
+      "Active 224, Inaccessible 10 and In Progress 5",
+      "Seventeen records have an empty date",
+      "one from 1927 and one from 1953",
+      "Center City on 90 records",
+      "the 1970s come out on top with 82 works",
+      "libraries, recreation buildings and fire stations",
+      "University City on 33"
+    ],
+    "sources": [
+      {
+        "claim": "OpenDataPhilly: Percent for Art Locations, description, created date, licence and terms.",
+        "url": "https://opendataphilly.org/datasets/percent-for-art-locations/"
+      },
+      {
+        "claim": "City of Philadelphia Carto SQL API: percent_for_art_public CSV used for our counts.",
+        "url": "https://phl.carto.com/api/v2/sql?filename=percent_for_art_public&format=csv&q=SELECT%20*%20FROM%20percent_for_art_public"
+      },
+      {
+        "claim": "Creative Philadelphia: Percent for Art ordinance, sites, pioneered in 1959.",
+        "url": "https://creativephl.org/percent-for-art/"
+      },
+      {
+        "claim": "PDE: Graduation Requirements, Pathways to Graduation and Keystone Exams.",
+        "url": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/assessment-and-accountability/graduation-requirements"
+      },
+      {
+        "claim": "22 Pa. Code 4.12: academic standards effective July 1, 2025.",
+        "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/022/chapter4/s4.12.html"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: PA high school access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb: America/New_York and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Percent for Art budget share: the ordinance wording on money is not used; the page describes only what the ordinance covers.",
+      "Artist names, artwork titles and site names, including any school sites in the dataset: not printed; counts only.",
+      "Why two works predate 1959: not known; the page lists possible explanations and does not assert one.",
+      "Spelling variants inside the neighborhood and medium columns: noticed, not used as figures.",
+      "A second creativephl.org page returned 429 and was not retried.",
+      "Any ranking of Philadelphia coding classes: none verified, none claimed.",
+      "Any affiliation with the City of Philadelphia, Creative Philadelphia, PDE or Code.org."
+    ]
   }
 }
