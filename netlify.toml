@@ -24729,6 +24729,18 @@
   to = "/src/pages/coding-and-ai-classes-in-pennsylvania.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-rhode-island"
+  to = "/src/pages/coding-and-ai-classes-in-rhode-island.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-rhode-island.md"
+  to = "/src/pages/coding-and-ai-classes-in-rhode-island.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Rhode Island](/coding-and-ai-classes-in-rhode-island)
 - [Pennsylvania](/coding-and-ai-classes-in-pennsylvania)
 - [Oregon](/coding-and-ai-classes-in-oregon)
 - [Oklahoma](/coding-and-ai-classes-in-oklahoma)

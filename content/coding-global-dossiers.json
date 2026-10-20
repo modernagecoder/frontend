@@ -52586,5 +52586,66 @@
       "That our classes satisfy any Pennsylvania graduation requirement: refused.",
       "Any affiliation with PDE, the Keystone STEM Competition, WPRDC, the City of Pittsburgh, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-rhode-island": {
+    "market": "Rhode Island",
+    "bodyClass": "cg-ari",
+    "pageType": "city",
+    "curriculumAuthority": "Rhode Island, read raw on 17 October 2026: ride.ri.gov returned 403, so no RIDE page is quoted; CS4RI (state initiative, launched in 2016 by the Governor's office, partnership with RIDE) CS Proficiency page (Readiness-Based Graduation Requirements, at least 0.5 credits of CS in middle or high school, proficiency against the RI CS standards, six core concepts banded 6-8 and 9-12), About page (as early as kindergarten, 2018 CS Education Standards, 2018 CS CTE standards), Standards page (endorsed by the Rhode Island Council for Elementary and Secondary Education); Code.org (2025) access 86%, 86%, 86%, 80%, 82.5%, 79.4%, 50 of 63 in 2023-24, participation 11.3% and 18.35%, 8,172 of 44,533 in 2022-23; College Board AP schools 72 and 78 (public 55 and 59, non-public 17 and 19); IANA America/New_York.",
+    "localProject": "City of Providence, Providence Tree Dataset (ODC Attribution, Forestry Division), fetched 17 October 2026: 27,250 trees (API count matched), 191 species labels; our nearest-neighbor results: median 9.7 m, mean 11.2 m, 74 within 0.5 m of another, 13 over 100 m, maximum 212 m; same-species medians London plane 11.5 m, pin oak 13.9 m. Lesson family: haversine distance, grid search, duplicate points.",
+    "requiredMentions": [
+      "0.5 credits of computer science",
+      "Readiness-Based Graduation Requirements",
+      "2018 CS Education Standards",
+      "Rhode Island Council for Elementary and Secondary Education",
+      "launched in 2016",
+      "50 of 63",
+      "8,172 of 44,533",
+      "72, then 78",
+      "27,250",
+      "9.7 meters",
+      "Responsible Computing in Society"
+    ],
+    "sources": [
+      {
+        "claim": "CS4RI: CS Proficiency as a Graduation Requirement, 0.5 credits, six core concepts.",
+        "url": "https://www.cs4ri.org/cs-proficiency"
+      },
+      {
+        "claim": "CS4RI: About, state initiative launched in 2016, partnership with RIDE, 2018 standards.",
+        "url": "https://www.cs4ri.org/about"
+      },
+      {
+        "claim": "CS4RI: Rhode Island K-12 CS Education Standards, endorsed by the Council.",
+        "url": "https://www.cs4ri.org/standards"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: RI access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Providence: Providence Tree Dataset (ODC Attribution).",
+        "url": "https://data.providenceri.gov/d/b77h-59tz"
+      },
+      {
+        "claim": "IANA tzdb northamerica: US rule and America/New_York.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "RIDE pages and the RIDE CS graduation requirement guidance PDF: ride.ri.gov returned 403 on 17 October 2026; the earlier saved \"ri-guidance.pdf\" was a Cloudflare challenge page, so nothing from RIDE is quoted.",
+      "The first graduating class bound by the 0.5 credit expectation: not stated on the CS4RI pages read, so not printed.",
+      "CS4RI State of CS policy text: it reproduces Code.org 2020 summaries, so it is not used as a state source.",
+      "CS4RI funding amounts and broadening-participation identity content: money and identity content are out of scope.",
+      "The name of the governor who launched CS4RI: individuals are not named.",
+      "A cause for the 2021-22 to 2022-23 enrollment rise: offered only as our reading, labelled as such.",
+      "Tree addresses and ward-level breakdowns: not printed; counts and distances only.",
+      "That our classes meet the Rhode Island requirement: refused.",
+      "Any affiliation with RIDE, CS4RI, the City of Providence, Code.org or the College Board."
+    ]
   }
 }
