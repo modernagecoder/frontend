@@ -52701,5 +52701,74 @@
       "An official Charleston park total: not published in this form.",
       "That our classes satisfy the computer science unit, and any affiliation with the SC Department of Education, the State Board, the City of Charleston, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-south-dakota": {
+    "market": "South Dakota",
+    "bodyClass": "cg-asd",
+    "pageType": "city",
+    "curriculumAuthority": "South Dakota, read raw 17 to 18 October 2026: SD DOE Computer Science Standards PDF (adopted April 14, 2025; committee created spring 2024; K-8 bands K-2, 3-5, 6-8; 2017 CSTA and 2016 K-12 CS Framework; 11 state standards referenced, most from Montana, Idaho and North Dakota; explicit AI goal; overlap with technology standards); SD DOE Content Standards (Educational Technology Standards adopted 2021; reviewed every five to seven years; no mandated curriculum); SD DOE Graduation Requirements (July 16, 2018; ARSD 24:43:11); SD DOE Advanced CS page and guidelines (replace one science elective, not Biology, not Advanced or Advanced Honors; six listed courses; Robotics case by case); Code.org (2025) access 38%, 39%, 42%, 51.4%, 55%, 97 of 178 in 2023-24, no participation data; College Board AP schools 51 and 67 (public 43 and 57, non-public 8 and 10); IANA America/Chicago (eastern SD) and America/Denver (western SD).",
+    "localProject": "City of Sioux Falls Parks and Recreation Activity Points (CC BY 4.0), fetched 18 October 2026: 1,801 records (count matched over two pages), 2018 to 2022; our Frequency bins 0: 3, 1: 1,380, 2 to 4: 286, 5 to 9: 81, 10 to 19: 32, 20 or more: 19; median 1, mean 2.11, max 65; years 352, 357, 221, 412, 459; 126 blank categories; 7 records spelled Weeday Morning. Lesson family: binning, skew, label cleaning.",
+    "requiredMentions": [
+      "April 14, 2025",
+      "spring of 2024",
+      "Montana, Idaho and North Dakota",
+      "July 16, 2018",
+      "24:43:11",
+      "It may not replace Biology",
+      "one unit of a science elective",
+      "97 of 178",
+      "51 in 2023 and 67 in 2024",
+      "mean is 2.11",
+      "western South Dakota under US mountain time",
+      "1,801 Sioux Falls recreation records"
+    ],
+    "sources": [
+      {
+        "claim": "SD DOE: South Dakota Computer Science Standards, adopted April 14, 2025.",
+        "url": "https://doe.sd.gov/ContentStandards/documents/Adopted-ComputerScience-0425.pdf"
+      },
+      {
+        "claim": "SD DOE: Content Standards page, adoption years and review cycle.",
+        "url": "https://doe.sd.gov/ContentStandards/"
+      },
+      {
+        "claim": "SD DOE: High School Graduation Requirements, July 16, 2018, ARSD 24:43:11.",
+        "url": "https://doe.sd.gov/gradrequirements/"
+      },
+      {
+        "claim": "SD DOE: Advanced Computer Science replacing a science elective.",
+        "url": "https://doe.sd.gov/gradrequirements/advancedcomputerscience.aspx"
+      },
+      {
+        "claim": "SD DOE: Guidelines for Replacing Science Electives with Advanced Computer Science Courses.",
+        "url": "https://doe.sd.gov/gradrequirements/documents/Guidelines.pdf"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: SD access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Sioux Falls: Parks and Recreation Activity Points (CC BY 4.0).",
+        "url": "https://services.arcgis.com/YpECgwASS4iMvgsA/arcgis/rest/services/RecreationActivitiesPubMap/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: central and mountain lists, America/Chicago and America/Denver.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "South Dakota CS participation: the Code.org sheet has no value in any year, so no enrollment figure is printed or estimated.",
+      "Which South Dakota counties keep Mountain time: only the IANA wording (eastern and western South Dakota) is used; no county is named.",
+      "Staff names and named colleges in the SD DOE dual-credit and contact lists: not printed.",
+      "The meaning of the Frequency field: not documented in the layer, so it is described only as a count.",
+      "A reason for the lower 2020 record count in the recreation data: none given by the source, none offered.",
+      "City of Sioux Falls Trees layer: gis.siouxfalls.gov refused connection twice, so it was not used.",
+      "That our classes earn the science-elective substitution: refused; only state-approved school courses do.",
+      "Any affiliation with SD DOE, the City of Sioux Falls, Code.org or the College Board."
+    ]
   }
 }

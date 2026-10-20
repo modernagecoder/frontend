@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [South Dakota](/coding-and-ai-classes-in-south-dakota)
 - [South Carolina](/coding-and-ai-classes-in-south-carolina)
 - [Rhode Island](/coding-and-ai-classes-in-rhode-island)
 - [Pennsylvania](/coding-and-ai-classes-in-pennsylvania)
