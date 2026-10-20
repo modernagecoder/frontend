@@ -126,7 +126,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'JavaScript is the programming language of web pages, and kids can start it in any browser with nothing to install. In our experience children are often ready around 10 to 12, after a little HTML and CSS; teens can start directly. Open the browser&rsquo;s Console (Ctrl + Shift + I or F12 on Windows) and type a first line of code today.',
+  capsule: 'JavaScript is the programming language of web pages, and kids can start it in any browser with nothing to install. In our experience children are often ready around 10 to 12, after a little HTML and CSS; teens can start directly. Open the browser&rsquo;s Console (Ctrl + Shift + I or F12 on Windows) and type a first line of code today. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',

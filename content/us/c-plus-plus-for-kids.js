@@ -128,7 +128,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'C++ can be a child&rsquo;s first typed language from about 11 or 12, if they read and type comfortably and do not mind strict error messages; for children of 9 or 10 we recommend starting in Scratch or Python and moving to C++ later. Free compilers such as g++ and Clang, or an online compiler page, are all a beginner needs.',
+  capsule: 'C++ can be a child&rsquo;s first typed language from about 11 or 12, if they read and type comfortably and do not mind strict error messages; for children of 9 or 10 we recommend starting in Scratch or Python and moving to C++ later. Free compilers such as g++ and Clang, or an online compiler page, are all a beginner needs. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',

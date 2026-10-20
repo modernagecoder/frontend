@@ -91,7 +91,7 @@ module.exports = {
     ['Try', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'AP Computer Science is demanding but not out of reach. In 2026, College Board reports 66% of AP Computer Science A students and 63% of AP Computer Science Principles students scored 3 or higher. CSA is harder to learn because it is all Java programming; CSP is broader, includes a project, and gave far fewer 5s (10% against 25%). Neither course requires prior coding; both recommend algebra.',
+  capsule: 'AP Computer Science is demanding but not out of reach. In 2026, College Board reports 66% of AP Computer Science A students and 63% of AP Computer Science Principles students scored 3 or higher. CSA is harder to learn because it is all Java programming; CSP is broader, includes a project, and gave far fewer 5s (10% against 25%). Neither course requires prior coding; both recommend algebra. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Make the hard parts easier',

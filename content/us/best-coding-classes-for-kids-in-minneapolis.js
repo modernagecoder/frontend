@@ -40,6 +40,7 @@ module.exports = {
   accent: '#5C161C',
   accentRationale: 'Minneapolis: a deep muted cranberry, #5C161C, as allocated in alloc.tsv for row 138, distinct from the other US metro accents and readable on the paper',
   pageType: 'city',
+  audience: 'kids',
   place: {
     name: 'Minneapolis',
     eyebrow: 'Minneapolis, Minnesota',

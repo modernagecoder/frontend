@@ -129,7 +129,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Most US states have K-12 computer science standards. Reading the state pages of Code.org (2025), 2025 State of AI + CS Education, we count 44 states with standards adopted, Nebraska in progress, and six without: DC, Maine, Minnesota, Oregon, South Dakota and Vermont. Only four states emphasize AI in their CS standards: Colorado, North Dakota, Ohio and Virginia. Six more were revising toward it.',
+  capsule: 'Most US states have K-12 computer science standards. Reading the state pages of Code.org (2025), 2025 State of AI + CS Education, we count 44 states with standards adopted, Nebraska in progress, and six without: DC, Maine, Minnesota, Oregon, South Dakota and Vermont. Only four states emphasize AI in their CS standards: Colorado, North Dakota, Ohio and Virginia. Six more were revising toward it. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn what the standards describe',

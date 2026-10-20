@@ -4,7 +4,7 @@ description: "K-12 computer science standards in all 50 states and DC: which sta
 canonical: https://learn.modernagecoders.com/computer-science-standards-by-state
 source: src/pages/computer-science-standards-by-state.html
 ---
-> Most US states have K-12 computer science standards. Reading the state pages of Code.org (2025), 2025 State of AI + CS Education, we count 44 states with standards adopted, Nebraska in progress, and six without: DC, Maine, Minnesota, Oregon, South Dakota and Vermont. Only four states emphasize AI in their CS standards: Colorado, North Dakota, Ohio and Virginia. Six more were revising toward it.
+> Most US states have K-12 computer science standards. Reading the state pages of Code.org (2025), 2025 State of AI + CS Education, we count 44 states with standards adopted, Nebraska in progress, and six without: DC, Maine, Minnesota, Oregon, South Dakota and Vermont. Only four states emphasize AI in their CS standards: Colorado, North Dakota, Ohio and Virginia. Six more were revising toward it. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / CS standards by state
 

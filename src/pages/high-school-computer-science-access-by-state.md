@@ -4,7 +4,7 @@ description: "What share of high schools offer computer science in each US state
 canonical: https://learn.modernagecoders.com/high-school-computer-science-access-by-state
 source: src/pages/high-school-computer-science-access-by-state.html
 ---
-> In Code.org (2025), 2025 State of AI + CS Education, 14,805 of 24,405 US public high schools, or 60%, offer foundational computer science, but only 871,490 of 14,364,449 high school students, about 6.1%, were enrolled, a figure based on the states that report participation (42 in 2024 to 2025). Arkansas (301 of 301) and Maryland (219 of 219) report every high school offering CS; Alaska (34.2%) and Minnesota (34.4%) report the lowest shares.
+> In Code.org (2025), 2025 State of AI + CS Education, 14,805 of 24,405 US public high schools, or 60%, offer foundational computer science, but only 871,490 of 14,364,449 high school students, about 6.1%, were enrolled, a figure based on the states that report participation (42 in 2024 to 2025). Arkansas (301 of 301) and Maryland (219 of 219) report every high school offering CS; Alaska (34.2%) and Minnesota (34.4%) report the lowest shares. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / High school CS access by state
 

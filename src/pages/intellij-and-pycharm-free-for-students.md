@@ -4,7 +4,7 @@ description: "Are IntelliJ IDEA and PyCharm free for students? What the free cor
 canonical: https://learn.modernagecoders.com/intellij-and-pycharm-free-for-students
 source: src/pages/intellij-and-pycharm-free-for-students.html
 ---
-> Yes. IntelliJ IDEA (since 2025.3) and PyCharm (since 2025.1) are each a single product whose core features are free for anyone, after a 30-day trial of the paid tier. Students aged 13 or older at an accredited high school, college or university can also get a free educational license for non-commercial use, renewed each year.
+> Yes. IntelliJ IDEA (since 2025.3) and PyCharm (since 2025.1) are each a single product whose core features are free for anyone, after a 30-day trial of the paid tier. Students aged 13 or older at an accredited high school, college or university can also get a free educational license for non-commercial use, renewed each year. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / IntelliJ and PyCharm for students
 

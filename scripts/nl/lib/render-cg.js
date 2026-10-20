@@ -63,6 +63,13 @@ const FLAGSHIPS = [
   ['ai-ml-masterclass-teens', 'AI and ML', 'Ages 14 to 18', 'Train a model, read what it learned, and be able to say why it is wrong.'],
   ['codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals', 'Agentic coding', 'Professionals', 'Run AI coding agents on real work without losing control of the codebase.']
 ];
+// Pages for children (module field audience: 'kids') never show the 18+ and college cards above.
+const KIDS_FLAGSHIPS = [
+  ['vibe-coding-for-kids-beginners-ai-scratch-game-dev', 'Vibe coding', 'Ages 8 to 12', 'Scratch games and small apps, with AI as a helper the child learns to question.'],
+  ['python-ai-kids-masterclass', 'Python and AI', 'Ages 9 to 12', 'First typed code: games, turtle art and small programs that make decisions.'],
+  ['kids-coding-blocks-masterclass', 'Coding for kids', 'Ages 6 to 12', 'Blocks first, then games and apps, at the pace of the child.'],
+  ['ai-literacy-for-kids-course', 'AI literacy', 'Ages 8 to 14', 'How AI works, where it goes wrong, and how to use it safely.']
+];
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const plain = s => String(s).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
@@ -206,9 +213,9 @@ ${jsonLd(page)}
   const hero = `<header class="cg-hero" id="main"><div class="cg-wrap"><div class="cg-breadcrumb" aria-label="Breadcrumb">${cb.html}</div><div class="cg-hero-grid"><div><span class="cg-eyebrow">${esc(page.place.eyebrow)}</span><h1>${page.h1}</h1><div class="cg-capsule"><p class="cg-capsule-q">${page.capsuleQ}</p><p>${page.capsule}</p></div><p class="cg-hero-lead">${page.lead}</p><div class="cg-hero-actions"><a class="cg-btn cg-btn--primary" href="#book">Book the free class</a>${pdLink('cg-hero', 'cg-btn cg-btn--pd', 'Book a priority demo')}<a class="cg-btn cg-btn--ghost" href="${wa}">Ask on WhatsApp</a></div><p class="cg-verified">Facts last verified ${page.verifiedOn}. Teaching is online; no ${esc(page.place.name)} branch is claimed.</p></div><aside><div class="cg-trust">${facts.map(f => `<div class="cg-fact"><span class="cg-fact-k">${esc(f[0])}</span><span class="cg-fact-l">${esc(f[1])}</span></div>`).join('')}</div></aside></div></div></header>`;
 
   const picks = `<section class="cg-section" id="picks"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">${esc(page.picks.eyebrow)}</span><h2>${page.picks.h2}</h2><p>${page.picks.intro}</p></div><div class="cg-picks">\n  ${page.picks.items.map(i => pick(i, false)).join('\n  ')}\n</div><p class="cg-picks-more cg-boiler">Browse the <a class="cg-inline-link" href="/course-atlas">course atlas</a> for more than one hundred options and use the <a class="cg-inline-link" href="/coding-roadmap">coding roadmap</a> to check prerequisites.</p><!-- flagships:start -->
-<div class="cg-flaghead cg-boiler"><p class="cg-eyebrow">The four we are known for</p><h3>Python, AI, vibe coding and agentic coding</h3><p>These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.</p></div>
+<div class="cg-flaghead cg-boiler"><p class="cg-eyebrow">The four we are known for</p><h3>${page.audience === 'kids' ? 'Coding, Python and AI for children' : 'Python, AI, vibe coding and agentic coding'}</h3><p>These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.</p></div>
 <div class="cg-picks">
-  ${FLAGSHIPS.map(f => pick({ course: f[0], tag: f[1], band: f[2], note: f[3] }, true)).join('\n  ')}
+  ${(page.audience === 'kids' ? KIDS_FLAGSHIPS : FLAGSHIPS).map(f => pick({ course: f[0], tag: f[1], band: f[2], note: f[3] }, true)).join('\n  ')}
 </div><!-- flagships:end --></div></section>`;
 
   const sections = page.sections.map(section).join('\n');

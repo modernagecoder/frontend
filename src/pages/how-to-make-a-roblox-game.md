@@ -4,7 +4,7 @@ description: "How to make a Roblox game step by step: which devices run Roblox S
 canonical: https://learn.modernagecoders.com/how-to-make-a-roblox-game
 source: src/pages/how-to-make-a-roblox-game.html
 ---
-> To make a Roblox game, install Roblox Studio (free, on a Windows or Mac computer), start from a template such as Baseplate, add parts, then write Luau scripts that react to events, for example a coin that adds a point when a player touches it. Publish with File &gt; Publish; a new game stays private to you until you release it.
+> To make a Roblox game, install Roblox Studio (free, on a Windows or Mac computer), start from a template such as Baseplate, add parts, then write Luau scripts that react to events, for example a coin that adds a point when a player touches it. Publish with File &gt; Publish; a new game stays private to you until you release it. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / How to make a Roblox game
 

@@ -4,7 +4,7 @@ description: "BlueJ not working? Fixes from the official BlueJ FAQ for a missing
 canonical: https://learn.modernagecoders.com/bluej-not-working-fix
 source: src/pages/bluej-not-working-fix.html
 ---
-> Most BlueJ problems have four causes, all covered in the official BlueJ FAQ: no Java kit found (reinstall BlueJ with its bundled JDK), a firewall or proxy blocking BlueJ&rsquo;s local connection, a class that is not compiled yet (grayed options), or a program waiting silently for keyboard input in the terminal. Check them in that order.
+> Most BlueJ problems have four causes, all covered in the official BlueJ FAQ: no Java kit found (reinstall BlueJ with its bundled JDK), a firewall or proxy blocking BlueJ&rsquo;s local connection, a class that is not compiled yet (grayed options), or a program waiting silently for keyboard input in the terminal. Check them in that order. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / BlueJ not working
 

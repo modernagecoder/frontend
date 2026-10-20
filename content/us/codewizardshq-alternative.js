@@ -203,7 +203,7 @@ module.exports = {
   ladder: {
     eyebrow: 'Where your child is',
     h2: 'Four points at which families compare schools',
-    lede: 'The moments we hear about most from families weighing a structured track against other options.',
+    lede: 'Questions families often ask when weighing a structured track against other options.',
     table: { caption: 'Common decision points (ours)', head: ['Moment', 'The usual question'], rows: [
       ['1. First enrollment', 'Small fixed group or flexible format?'],
       ['2. End of a course', 'Continue the track or switch topic?'],

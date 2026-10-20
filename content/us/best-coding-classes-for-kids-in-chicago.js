@@ -33,6 +33,7 @@ module.exports = {
   accent: '#61270F',
   accentRationale: 'Chicago: a dark muted brick #61270F from the allocation table, contrast 10.97 on the paper and 9.44 on the deepest tint',
   pageType: 'city',
+  audience: 'kids',
   place: {
     name: 'Chicago',
     eyebrow: 'Chicago, Illinois',

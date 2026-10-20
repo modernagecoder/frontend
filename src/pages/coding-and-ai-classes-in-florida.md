@@ -106,7 +106,7 @@ Florida values from the Code.org (2025) data sheet and the College Board, as pub
 | 2022 to 2023 | Blank | Blank |
 | 2023 to 2024 | 38.4% on the trend tab; 463 of 1,192 on the Most Recent tab | 2.2%; 20,233 of 894,064 on the Most Recent tab |
 
-The two tabs do not quite match for 2023 to 2024: 463 divided by 1,192 is 38.8% by our division, against 38.4% on the trend tab. The gap is small, but it is a reminder to quote the count and the tab rather than a bare percentage. Either way, the shape is clear. Florida's access share has sat between 30% and 40% for five published years, and about one high school student in forty-four was enrolled in 2023 to 2024, by our arithmetic. No 2024 to 2025 Florida values appear in the sheet.
+The two tabs do not quite match for 2023 to 2024: 463 divided by 1,192 is 38.8% by our division, against 38.4% on the trend tab. The gap is small, but it is a reminder to quote the count and the tab rather than a bare percentage. Either way, the shape is clear. Florida's access share has sat between 30% and 40% for five published years, and about one high school student in forty-four (our own division) was enrolled in 2023 to 2024, by our arithmetic. No 2024 to 2025 Florida values appear in the sheet.
 
 Advanced Placement tells a different story. College Board counts 1,084 Florida schools giving AP exams in 2023 and 1,086 in 2024, and the public school count rose from 764 to 828. Many Florida students meet rigorous coursework through AP even where a computer science course is missing. Cite access and enrollment as Code.org (2025). 2025 State of AI + CS Education.
 

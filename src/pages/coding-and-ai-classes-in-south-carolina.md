@@ -4,7 +4,7 @@ description: "Coding and AI classes for South Carolina students, live online: th
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-south-carolina
 source: src/pages/coding-and-ai-classes-in-south-carolina.html
 ---
-> Yes. State Board of Education Regulation 43-234 lists computer science 1.0 among the twenty-four units of credit a student must earn for a South Carolina high school diploma. In 2024 to 2025, 276 of 300 South Carolina high schools offered computer science, according to Code.org (2025). We teach South Carolina students live online, from first block programs to Python and AP Computer Science Principles.
+> Yes. State Board of Education Regulation 43-234 lists computer science 1.0 among the twenty-four units of credit a student must earn for a South Carolina high school diploma. In 2024 to 2025, 276 of 300 South Carolina high schools offered computer science, according to Code.org (2025). We teach South Carolina students live online, from first block programs to Python and AP Computer Science Principles. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / South Carolina
 
@@ -12,7 +12,7 @@ South Carolina, United States / Live online
 
 # Coding and AI classes in South Carolina
 
-**Is computer science required to graduate in South Carolina?** Yes. State Board of Education Regulation 43-234 lists computer science 1.0 among the twenty-four units of credit a student must earn for a South Carolina high school diploma. In 2024 to 2025, 276 of 300 South Carolina high schools offered computer science, according to Code.org (2025). We teach South Carolina students live online, from first block programs to Python and AP Computer Science Principles.
+**Is computer science required to graduate in South Carolina?** Yes. State Board of Education Regulation 43-234 lists computer science 1.0 among the twenty-four units of credit a student must earn for a South Carolina high school diploma. In 2024 to 2025, 276 of 300 South Carolina high schools offered computer science, according to Code.org (2025). We teach South Carolina students live online, from first block programs to Python and AP Computer Science Principles. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 In South Carolina, computer science is not an optional extra on the diploma: it has its own line in the State Board of Education&rsquo;s unit table, alongside English, mathematics and science. That changes the family question. It is no longer whether a student will meet computer science, but whether one unit is enough for what they want to do next. This page quotes the regulation as the Legislature publishes it, sets out the access and participation figures, shows a Charleston open data project built around a deceptively simple task, removing duplicates, and explains how our live classes add depth from the Upstate to the Lowcountry.
 

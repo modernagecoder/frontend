@@ -75,7 +75,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'The Congressional App Challenge is a coding competition for US middle and high school students, run district by district and judged by each Member of Congress&rsquo;s office. Students enter alone or in teams of up to four, build an app in any language on any topic, and submit a 1 to 3 minute demo video plus written answers. The 2026 rulebook sets the deadline at 12:00 pm EDT, Monday, October 26, 2026.',
+  capsule: 'The Congressional App Challenge is a coding competition for US middle and high school students, run district by district and judged by each Member of Congress&rsquo;s office. Students enter alone or in teams of up to four, build an app in any language on any topic, and submit a 1 to 3 minute demo video plus written answers. The 2026 rulebook sets the deadline at 12:00 pm EDT, Monday, October 26, 2026. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Build the app with a teacher',

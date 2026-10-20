@@ -80,7 +80,7 @@ module.exports = {
     ['First lesson', 'Free']
   ],
   capsuleQ: 'In short',
-  capsule: 'AP Computer Science can earn college credit, but each college sets its own rule. The American Council on Education and College Board recommend credit for a score of 3 or higher; their table suggests 4 credits for AP Computer Science A and 3 for AP Computer Science Principles. Real policies vary: for 2026, Case Western gives 3 credit hours for a 4 or 5 on CSA and none for CSP.',
+  capsule: 'AP Computer Science can earn college credit, but each college sets its own rule. The American Council on Education and College Board recommend credit for a score of 3 or higher; their table suggests 4 credits for AP Computer Science A and 3 for AP Computer Science Principles. Real policies vary: for 2026, Case Western gives 3 credit hours for a 4 or 5 on CSA and none for CSP. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Prepare for the score that counts',

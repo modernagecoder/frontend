@@ -4,7 +4,7 @@ description: "JavaScript for kids: what it is, the right age to start, how to op
 canonical: https://learn.modernagecoders.com/javascript-for-kids
 source: src/pages/javascript-for-kids.html
 ---
-> JavaScript is the programming language of web pages, and kids can start it in any browser with nothing to install. In our experience children are often ready around 10 to 12, after a little HTML and CSS; teens can start directly. Open the browser&rsquo;s Console (Ctrl + Shift + I or F12 on Windows) and type a first line of code today.
+> JavaScript is the programming language of web pages, and kids can start it in any browser with nothing to install. In our experience children are often ready around 10 to 12, after a little HTML and CSS; teens can start directly. Open the browser&rsquo;s Console (Ctrl + Shift + I or F12 on Windows) and type a first line of code today. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / JavaScript for kids
 

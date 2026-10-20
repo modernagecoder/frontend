@@ -4,7 +4,7 @@ description: "Technovation Girls, now the Technovation Challenge Girls Track, fr
 canonical: https://learn.modernagecoders.com/technovation-girls-guide
 source: src/pages/technovation-girls-guide.html
 ---
-> Technovation Girls is the Girls Track of the Technovation Challenge, a free program for ages 8 to 18 in which teams of 1 to 5 build a working digital solution to a community problem and submit a video of up to 4 minutes plus written answers. For the 2026-27 season, the season starts October 12, 2026, registration closes March 11, 2027, and submissions are due May 5, 2027 at 5pm PDT.
+> Technovation Girls is the Girls Track of the Technovation Challenge, a free program for ages 8 to 18 in which teams of 1 to 5 build a working digital solution to a community problem and submit a video of up to 4 minutes plus written answers. For the 2026-27 season, the season starts October 12, 2026, registration closes March 11, 2027, and submissions are due May 5, 2027 at 5pm PDT. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Technovation Girls
 

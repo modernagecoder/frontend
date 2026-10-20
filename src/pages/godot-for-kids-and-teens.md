@@ -8,13 +8,13 @@ source: src/pages/godot-for-kids-and-teens.html
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Godot for kids and teens
 
-United States · Ages 11 to 18 · Godot Engine and GDScript
+United States · Ages 10 to 17 · Godot Engine and GDScript
 
 # Godot for kids and teens
 
 Godot comes up quickly when a family searches for a free, serious way for a child to make games, and it deserves the attention. It costs nothing, has no royalties, runs on modest computers, and is one of very few full game engines with an editor that works on a Chromebook. It also asks more of a young learner than Scratch or Roblox. This page uses Godot&rsquo;s own documentation to explain what the engine is, which computers can run it, two short GDScript scripts with the reasoning behind every line, the errors beginners meet most, and how Godot compares with Roblox Studio and Unity.
 
-At a glance: For: Ages 11 to 18; Engine: Godot 4, free; Language: GDScript; Computer: Windows, Mac, Linux, Chromebook; Not on: iPad or iPhone; Format: One to one for Godot; Times: Weekdays or weekends, flexible; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
+At a glance: For: Ages 10 to 17; Engine: Godot 4, free; Language: GDScript; Computer: Windows, Mac, Linux, Chromebook; Not on: iPad or iPhone; Format: A batch or one to one; Times: Weekdays or weekends, flexible; Start: A free first lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a young Godot fan
 
@@ -294,7 +294,7 @@ Godot suits teens who want a light, free engine on any computer, including a Chr
 
 ### Do you have a Godot course?
 
-We teach Godot one to one, following a twelve-lesson plan adjusted to each student. Our group game development course for teens uses Unity and C#, which teaches the same ideas of scenes, scripts and signals.
+Yes. Godot Game Development for Kids and Teens covers ages 10 to 17, in a batch or one to one, from a first scene to a finished game in GDScript. Teens who want Unity next can move on to Game Development for Teens.
 
 ### Can lessons fit around school and sports?
 

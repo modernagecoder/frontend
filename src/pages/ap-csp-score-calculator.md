@@ -4,7 +4,7 @@ description: "AP CSP score calculator: 70 multiple-choice questions for 70%, six
 canonical: https://learn.modernagecoders.com/ap-csp-score-calculator
 source: src/pages/ap-csp-score-calculator.html
 ---
-> AP CSP has 70 multiple-choice questions worth 70% and a Create performance task with written responses worth 30%, scored as six points of 0 to 1 each. So in our estimate a composite out of 100 is simply multiple-choice questions right plus 5 for every rubric point. College Board does not publish the raw cutoffs for each AP score, so treat any result as an estimate.
+> AP CSP has 70 multiple-choice questions worth 70% and a Create performance task with written responses worth 30%, scored as six points of 0 to 1 each. So in our estimate a composite out of 100 is simply multiple-choice questions right plus 5 for every rubric point. College Board does not publish the raw cutoffs for each AP score, so treat any result as an estimate. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / AP CSP score calculator
 
@@ -147,7 +147,7 @@ Sources: [AP CSP: Questions About the Exam](https://apcentral.collegeboard.org/c
 
 ## What this estimate can tell you, and what it cannot
 
-The composite is exact arithmetic on published weights. The step from composite to a 1 to 5 score is not public, so the table below is our own reading, set for our students.
+The composite is exact arithmetic on published weights. The step from composite to a 1 to 5 score is not public, so the table below is our own reading, a planning aid and not a College Board conversion.
 
 **How we read a practice composite in class (ours; College Board does not publish cut scores)**
 

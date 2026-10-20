@@ -4,7 +4,7 @@ description: "Coding and AI classes for Washington State students, live online: 
 canonical: https://learn.modernagecoders.com/coding-classes-in-washington
 source: src/pages/coding-classes-in-washington.html
 ---
-> Under RCW 28A.230.300, since the 2022 to 2023 school year every Washington school district that operates a high school must give all high school students access to an elective computer science course, and a student may substitute one computer science course for a third year of math or science, once. In 2024 to 2025, 396 of 774 Washington high schools offered CS, according to Code.org (2025). We teach Washington students live online in Pacific Time.
+> Under RCW 28A.230.300, since the 2022 to 2023 school year every Washington school district that operates a high school must give all high school students access to an elective computer science course, and a student may substitute one computer science course for a third year of math or science, once. In 2024 to 2025, 396 of 774 Washington high schools offered CS, according to Code.org (2025). We teach Washington students live online in Pacific Time. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Washington
 
@@ -12,7 +12,7 @@ Washington State, United States / Live online
 
 # Coding and AI classes in Washington State
 
-**What does Washington State law say about computer science in high school?** Under RCW 28A.230.300, since the 2022 to 2023 school year every Washington school district that operates a high school must give all high school students access to an elective computer science course, and a student may substitute one computer science course for a third year of math or science, once. In 2024 to 2025, 396 of 774 Washington high schools offered CS, according to Code.org (2025). We teach Washington students live online in Pacific Time.
+**What does Washington State law say about computer science in high school?** Under RCW 28A.230.300, since the 2022 to 2023 school year every Washington school district that operates a high school must give all high school students access to an elective computer science course, and a student may substitute one computer science course for a third year of math or science, once. In 2024 to 2025, 396 of 774 Washington high schools offered CS, according to Code.org (2025). We teach Washington students live online in Pacific Time. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 Washington is one of the most code-literate economies in the country, and its school law reflects that: the Legislature has written computer science access, competency-based credit and a math or science substitution into the Revised Code of Washington. The published figures show the gap that remains, with about half of the state&rsquo;s high schools offering a computer science course and fewer than five students in a hundred taking one. This page reads the statute line by line, sets out the numbers, explains how a family can use the substitution and AP equivalency rules well, and walks through a Seattle street tree project that teaches one of the most useful ideas in data work, the long tail.
 

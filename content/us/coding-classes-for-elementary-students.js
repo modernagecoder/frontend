@@ -90,7 +90,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'A good coding class for an elementary student matches the grade. In grades 1 and 2, children give exact step-by-step instructions, use loops and events in block code, and learn to describe a bug. In grades 3 to 5 they add conditions and variables, build Scratch games, and around age 9 or 10 can start typed Python. Keep classes live and short.',
+  capsule: 'A good coding class for an elementary student matches the grade. In grades 1 and 2, children give exact step-by-step instructions, use loops and events in block code, and learn to describe a bug. In grades 3 to 5 they add conditions and variables, build Scratch games, and around age 9 or 10 can start typed Python. Keep classes live and short. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Start here',

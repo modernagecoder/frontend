@@ -112,7 +112,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'For grades K to 5, AI literacy is not about using chatbots. It is understanding that AI is a non-human tool that produces outputs from patterns in data, spotting where AI appears in daily life, telling rule-following machines from ones that learn, and checking AI answers against trusted sources. Coding and data activities build all of it.',
+  capsule: 'For grades K to 5, AI literacy is not about using chatbots. It is understanding that AI is a non-human tool that produces outputs from patterns in data, spotting where AI appears in daily life, telling rule-following machines from ones that learn, and checking AI answers against trusted sources. Coding and data activities build all of it. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Start here',

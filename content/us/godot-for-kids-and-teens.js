@@ -109,19 +109,19 @@ module.exports = {
     { href: '#compare', label: 'Compared' },
     { href: '#fees', label: 'Fees' }
   ],
-  eyebrow: 'United States &middot; Ages 11 to 18 &middot; Godot Engine and GDScript',
+  eyebrow: 'United States &middot; Ages 10 to 17 &middot; Godot Engine and GDScript',
   h1: 'Godot for kids and teens',
   lede: 'Godot comes up quickly when a family searches for a free, serious way for a child to make games, and it deserves the attention. It costs nothing, has no royalties, runs on modest computers, and is one of very few full game engines with an editor that works on a Chromebook. It also asks more of a young learner than Scratch or Roblox. This page uses Godot&rsquo;s own documentation to explain what the engine is, which computers can run it, two short GDScript scripts with the reasoning behind every line, the errors beginners meet most, and how Godot compares with Roblox Studio and Unity.',
   secondaryCta: { href: '#scripts', label: 'Read the two scripts' },
   wa: 'Hello Modern Age Coders, my child in the US wants to learn Godot and GDScript. Could we book a free first lesson?',
   heroNote: 'Live since 2020 &middot; 10,000+ students &middot; Godot in a batch or one to one, any US time zone',
   spec: [
-    ['For', 'Ages 11 to 18'],
+    ['For', 'Ages 10 to 17'],
     ['Engine', 'Godot 4, free'],
     ['Language', 'GDScript'],
     ['Computer', 'Windows, Mac, Linux, Chromebook'],
     ['Not on', 'iPad or iPhone'],
-    ['Format', 'One to one for Godot'],
+    ['Format', 'A batch or one to one'],
     ['Times', 'Weekdays or weekends, flexible'],
     ['Start', 'A free first lesson']
   ],
@@ -386,7 +386,7 @@ module.exports = {
       { q: 'Is GDScript the same as Python?', a: 'No. The GDScript reference says it uses an indentation-based syntax similar to Python but is entirely independent from Python and is not based on it. Python experience still helps a lot.' },
       { q: 'What is Learn GDScript From Zero?', a: 'A free, open-source app the Godot docs recommend for people new to programming. The docs describe it as a complete beginner course with interactive practices you can do right in your browser.' },
       { q: 'Should my teen learn Godot or Unity?', a: 'Godot suits teens who want a light, free engine on any computer, including a Chromebook. Unity suits teens 13 and over who want C# and larger 3D projects; it is what our group teen course teaches.' },
-      { q: 'Do you have a Godot course?', a: 'We teach Godot one to one, following a twelve-lesson plan adjusted to each student. Our group game development course for teens uses Unity and C#, which teaches the same ideas of scenes, scripts and signals.' },
+      { q: 'Do you have a Godot course?', a: 'Yes. Godot Game Development for Kids and Teens covers ages 10 to 17, in a batch or one to one, from a first scene to a finished game in GDScript. Teens who want Unity next can move on to Game Development for Teens.' },
       { q: 'Can lessons fit around school and sports?', a: 'Yes. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.' },
       { q: 'How much do Godot lessons cost?', a: 'The first lesson is free. Lessons after that are paid monthly; the Fees section on this page gives the amount in US dollars.' }
     ]

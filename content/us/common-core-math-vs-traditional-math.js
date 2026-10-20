@@ -73,7 +73,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Common Core math does not replace the standard algorithms; the standards require them: adding and subtracting multi-digit numbers in grade 4 (4.NBT.B.4), multiplying in grade 5 (5.NBT.B.5) and dividing in grade 6 (6.NS.B.2). Before that, students use place-value strategies and models such as area models and explain their reasoning. Traditional math usually means teaching the algorithm first and practising it heavily.',
+  capsule: 'Common Core math does not replace the standard algorithms; the standards require them: adding and subtracting multi-digit numbers in grade 4 (4.NBT.B.4), multiplying in grade 5 (5.NBT.B.5) and dividing in grade 6 (6.NS.B.2). Before that, students use place-value strategies and models such as area models and explain their reasoning. Traditional math usually means teaching the algorithm first and practising it heavily. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Understanding and fluency together',

@@ -38,6 +38,7 @@ module.exports = {
   accent: '#6B1D32',
   accentRationale: 'New York City: #6B1D32, a deep brownstone burgundy from the allocation table, muted and well clear of the North Carolina green, contrast above 4.5 on every paper',
   pageType: 'city',
+  audience: 'kids',
   place: {
     name: 'New York City',
     eyebrow: 'New York City, New York',
@@ -71,7 +72,7 @@ module.exports = {
   h1: 'The best coding classes for kids in New York City, and how to tell',
   capsuleQ: 'What is the best coding class for a kid in New York City?',
   capsule: 'The best one is live, level-matched and ends in a project your child can explain. Modern Age Coders teaches NYC kids from age 6 live online: Scratch and game design first, then Python, in batches of fifteen to twenty or one to one, with no commute across the boroughs. The first class is free, and our older students analyse the city&rsquo;s own street tree census.',
-  lead: 'New York City parents have more coding options than almost anyone in the country, from after-school clubs in a church basement to weekend programs in Midtown. Plenty of choice, and very little help comparing it. So this page does three things. It lists the questions that separate a class that teaches from a class that entertains, it shows the kind of project a city kid can do with data New York itself publishes, and it sets out, briefly, what New York State asks schools to teach. Read it, then judge us by the same questions.',
+  lead: 'New York City parents have more coding options than almost anyone in the country, from after-school clubs in a community-center basement to weekend programs in Midtown. Plenty of choice, and very little help comparing it. So this page does three things. It lists the questions that separate a class that teaches from a class that entertains, it shows the kind of project a city kid can do with data New York itself publishes, and it sets out, briefly, what New York State asks schools to teach. Read it, then judge us by the same questions.',
   wa: 'Hello Modern Age Coders, I am looking for a coding class for my child in New York City.',
 
   picks: {
@@ -134,7 +135,7 @@ module.exports = {
           { h3: 'Step 2: rank', p: 'Sorting the counts gives London planetree first with 87,014 records. A ten-year-old can do this in Python with a dictionary and a sort, then compare the answer for their own borough.' },
           { h3: 'Step 3: spot the blank', p: 'Sixth in the raw ranking is not a tree at all. 31,619 records have no species name, because a stump or a dead tree has none to record. Leaving it in would give a wrong top ten.' }
         ] },
-        { kind: 'p', text: 'The census page itself says the data shows 666,134 trees planted along NYC&rsquo;s streets. Our query found 683,788 records, so which is right? Both. When students split the records by the status column, there are 652,173 alive, 13,961 dead and 17,654 stumps, and our sum of the alive and dead records comes to exactly 666,134. The published figure counts trees; the file also holds stumps. Finding that out by checking, instead of assuming, is the lesson.' },
+        { kind: 'p', text: 'The dataset description on NYC Open Data says the data shows 666,134 trees planted along NYC&rsquo;s streets. Our query found 683,788 records, so which is right? Both. When students split the records by the status column, there are 652,173 alive, 13,961 dead and 17,654 stumps, and our sum of the alive and dead records comes to exactly 666,134. The published figure counts trees; the file also holds stumps. Finding that out by checking, instead of assuming, is the lesson.' },
         { kind: 'p', text: 'Boroughs give the project a second round. In Manhattan the top three are honeylocust (13,176), Callery pear (7,297) and ginkgo (5,859); in Queens they are London planetree (31,111), pin oak (22,610) and honeylocust (20,290). A child from Astoria and a child from the Upper West Side get different answers from the same code, which is exactly how they learn that a query is a question, not a fact.' },
         { kind: 'callout', h3: 'What these numbers are', p: 'Every count in this section is ours, from a query on 18 October 2026. The census describes trees between May 2015 and October 2016, the city made it public on 6/3/2016, and the City of New York offers its online material as is, without warranties. We teach with it; we do not speak for NYC Parks.' }
       ]
@@ -158,7 +159,7 @@ module.exports = {
           { h3: 'The India gap', p: 'While New York is on daylight time, India runs nine and a half hours ahead; in winter the gap grows to ten and a half, because India has no clock change.' },
           { h3: 'Two dates to note', p: 'Clocks in New York fall back on November 1, 2026 and spring forward on March 14, 2027. We send the new times before each change, so nobody logs in an hour early.' }
         ] },
-        { kind: 'spec', title: 'America/New_York, a zone with a name', p: 'The IANA time zone database lists New York City under America/New_York, Eastern for most of the state. Older kids who build a class reminder learn why a program should store that name, not a fixed offset, if it is still to be right in March.' }
+        { kind: 'spec', title: 'America/New_York, a zone with a name', p: 'The IANA time zone database lists New York City under America/New_York, on Eastern time like the rest of New York State. Older kids who build a class reminder learn why a program should store that name, not a fixed offset, if it is still to be right in March.' }
       ]
     }
   ],

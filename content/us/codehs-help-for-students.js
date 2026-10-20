@@ -121,7 +121,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Most CodeHS problems have documented fixes. A frozen Check Code button usually means an infinite loop. To start an exercise over, open More, then History, choose Reset Code and press Save. In unit-test exercises, write and run your function in the Scratchpad, and make it return a value. For login trouble, use your school email or your class&rsquo;s Google, Clever or Canvas sign-in.',
+  capsule: 'Most CodeHS problems have documented fixes. A frozen Check Code button usually means an infinite loop. To start an exercise over, open More, then History, choose Reset Code and press Save. In unit-test exercises, write and run your function in the Scratchpad, and make it return a value. For login trouble, use your school email or your class&rsquo;s Google, Clever or Canvas sign-in. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',
@@ -204,7 +204,7 @@ module.exports = {
           ['What CodeHS requires', 'A Unit Test requires a return statement and does not ask for user input', 'Anything that helps you test the function']
         ] },
         { kind: 'code', mt: true, label: 'A function that prints instead of returning', lang: 'python', code: PRINTS, note: 'Ours, a made-up example, not a CodeHS exercise. It looks right because 54.0 appears on screen, but the function hands nothing back, so result is None. A unit test checks what the function returns, and would see None.' },
-        { kind: 'code', mt: true, label: 'The same function, returning its value', lang: 'python', code: RETURNS, note: 'Ours, run with Python 3.13.6. Testing 50, 0 and 19.99 in the Scratchpad is exactly the habit CodeHS recommends: try zero, try a value that is not a round number, then copy the working function into the Unit Test file.' },
+        { kind: 'code', mt: true, label: 'The same function, returning its value', lang: 'python', code: RETURNS, note: 'Ours, run with Python 3.13.6. CodeHS suggests testing edge cases such as zero and negative inputs in the Scratchpad; we add a value that is not a round number, like 19.99, then copy the working function into the Unit Test file.' },
         { kind: 'two', mt: true,
           leftH3: 'The CodeHS routine, step by step',
           left: [

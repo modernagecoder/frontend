@@ -4,7 +4,7 @@ description: "Cybersecurity classes for US teens: what CyberPatriot, CyLab Secur
 canonical: https://learn.modernagecoders.com/cybersecurity-classes-for-teens
 source: src/pages/cybersecurity-classes-for-teens.html
 ---
-> Good cybersecurity classes for teens teach defense: how the internet works, passwords and hashing, phishing, safe habits, encryption, and practice puzzles on systems built to be tested. In the US, teens can also join CyberPatriot through a school team, practice free at CyLab Security Academy (formerly picoCTF), and from fall 2026 take AP Cybersecurity where schools offer it.
+> Good cybersecurity classes for teens teach defense: how the internet works, passwords and hashing, phishing, safe habits, encryption, and practice puzzles on systems built to be tested. In the US, teens can also join CyberPatriot through a school team, practice free at CyLab Security Academy (formerly picoCTF), and from fall 2026 take AP Cybersecurity where schools offer it. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Cybersecurity classes for teens
 

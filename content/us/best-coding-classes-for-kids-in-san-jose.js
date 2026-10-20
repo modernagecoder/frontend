@@ -33,6 +33,7 @@ module.exports = {
   accent: '#1A1380',
   accentRationale: 'San Jose: #1A1380, the allocated deep indigo, a cool violet-blue set well apart from the Bay Area navy in hue, strong contrast on every paper',
   pageType: 'city',
+  audience: 'kids',
   place: {
     name: 'San Jose',
     eyebrow: 'San Jose, California',

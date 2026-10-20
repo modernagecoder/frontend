@@ -4,7 +4,7 @@ description: "MIT App Inventor for kids: signing in without a Google account, te
 canonical: https://learn.modernagecoders.com/app-inventor-for-kids
 source: src/pages/app-inventor-for-kids.html
 ---
-> MIT App Inventor is a free, web-based tool from MIT for building phone apps with blocks. Kids design screens in the Designer, add behavior in the Blocks Editor, and test live on an iPhone, Android phone or Chromebook through the free Companion app. It works with a Google account, or without one through code.appinventor.mit.edu and a revisit code.
+> MIT App Inventor is a free, web-based tool from MIT for building phone apps with blocks. Kids design screens in the Designer, add behavior in the Blocks Editor, and test live on an iPhone, Android phone or Chromebook through the free Companion app. It works with a Google account, or without one through code.appinventor.mit.edu and a revisit code. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / App Inventor for kids
 

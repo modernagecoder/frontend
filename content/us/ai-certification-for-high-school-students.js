@@ -165,9 +165,9 @@ module.exports = {
           ['Data objective split in two', 'Objective 2 became "Data Collection & Transformation" and "Feature Engineering"'],
           ['Language models named', '"Objective 4.1 now covers Natural Language Processing (NLP)", with algorithm families in 4.1.2 to 4.1.6'],
           ['New planning skills', 'Feasibility analysis, choosing visualization types for a data story, and planning for continuous integration and deployment'],
-          ['When', 'English, Spanish and French versions go live in June 2026']
+          ['When', 'English, Spanish and French versions went live in June 2026']
         ] },
-        { kind: 'p', mt: true, html: 'PCEP is also changing: the Python Institute lists PCEP-30-02 as the active version and PCEP-30-03 as scheduled for release on October 31, 2026, and says the update does not affect the five-year validity of credentials already earned. A student booking an exam this fall should check which version the voucher covers.' },
+        { kind: 'p', mt: true, html: 'PCEP is also changing: the Python Institute lists PCEP-30-02 as the active version and PCEP-30-03 as scheduled for release on October 31, 2026 (as read on 17 October 2026), and says the update does not affect the five-year validity of credentials already earned. A student booking an exam this fall should check which version the voucher covers.' },
         { kind: 'source', html: 'Sources: <a class="ag-inline-link" href="https://certiport.pearsonvue.com/Certifications/ITSpecialist/Certification/Overview" rel="noopener" target="_blank">IT Specialist overview</a>; the <a class="ag-inline-link" href="https://certiport.pearsonvue.com/Blog/2026/April/We%E2%80%99re-updating-the-IT-Specialist-AI-certification" rel="noopener" target="_blank">Certiport blog, 29 April 2026</a>; <a class="ag-inline-link" href="https://learn.microsoft.com/en-us/credentials/certifications/exam-scoring-reports" rel="noopener" target="_blank">Microsoft exam scoring</a> and <a class="ag-inline-link" href="https://learn.microsoft.com/en-us/credentials/certifications/renew-your-microsoft-certification" rel="noopener" target="_blank">renewal</a> pages; <a class="ag-inline-link" href="https://pythoninstitute.org/pcep" rel="noopener" target="_blank">PCEP exam information</a>.' }
       ]
     },

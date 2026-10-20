@@ -4,7 +4,7 @@ description: "Coding milestones by age, 6 to 18, mapped to the K-12 CS Framework
 canonical: https://learn.modernagecoders.com/coding-milestones-by-age
 source: src/pages/coding-milestones-by-age.html
 ---
-> Coding milestones for 8 to 10 year olds: build a Scratch game that uses events, loops, a condition and a score variable; plan it first on paper; find and fix their own bugs; explain that two different programs can solve the same problem; and, by about 10, type a short Python program. These match the K-12 CS Framework endpoint for the end of grade 5.
+> Coding milestones for 8 to 10 year olds: build a Scratch game that uses events, loops, a condition and a score variable; plan it first on paper; find and fix their own bugs; explain that two different programs can solve the same problem; and, by about 10, type a short Python program. These match the K-12 CS Framework endpoint for the end of grade 5. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Coding milestones by age
 

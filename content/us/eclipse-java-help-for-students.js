@@ -128,7 +128,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'For school Java, install Eclipse IDE for Java Developers (the 2026-09 R installer now includes a Java runtime). Create a Java Project, add a class with a main method, then use Run As, Java Application. Errors appear in the Problems view; press Ctrl+1 on a red marker for Quick Fix proposals, and accept one only if you understand why it is right.',
+  capsule: 'For school Java, install Eclipse IDE for Java Developers (the 2026-09 R installer now includes a Java runtime). Create a Java Project, add a class with a main method, then use Run As, Java Application. Errors appear in the Problems view; press Ctrl+1 on a red marker for Quick Fix proposals, and accept one only if you understand why it is right. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',

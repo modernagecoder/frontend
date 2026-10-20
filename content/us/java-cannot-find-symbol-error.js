@@ -153,7 +153,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'The error &ldquo;cannot find symbol&rdquo; means the Java compiler met a name (a variable, method or class) that it could not match to any declaration it can see from that spot. The symbol line names the word, the location line says where Java looked. Usual causes: a typo or wrong capital letter, a variable used outside its block, or a missing import.',
+  capsule: 'The error &ldquo;cannot find symbol&rdquo; means the Java compiler met a name (a variable, method or class) that it could not match to any declaration it can see from that spot. The symbol line names the word, the location line says where Java looked. Usual causes: a typo or wrong capital letter, a variable used outside its block, or a missing import. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',
@@ -244,7 +244,7 @@ module.exports = {
           leftH3: 'Why we do not just hand out the fix',
           left: [
             'When a student brings a homework file to class, we do not type the correction for them, and we never supply answers to graded assignments. The teacher asks which word the caret points at and what the symbol line says, and the student finds the declaration.',
-            'Students who fix ten of these errors themselves usually stop making the scope mistake altogether, because they finally see where a variable lives.'
+            'Fixing ten of these errors yourself is the quickest way we know to see where a variable lives, which is what stops the scope mistake.'
           ],
           rightH3: 'When the routine runs out',
           right: [

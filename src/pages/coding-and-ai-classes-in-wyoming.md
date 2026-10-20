@@ -4,7 +4,7 @@ description: "Live online coding and AI classes for Wyoming students: computer s
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-wyoming
 source: src/pages/coding-and-ai-classes-in-wyoming.html
 ---
-> Yes, as science. Wyoming Statute 21-2-304 requires three school years of science to graduate, one of which may be satisfied by one year of computer science, and W.S. 21-9-101 lists computer science in every district&rsquo;s common core of knowledge. In 2024 to 2025, 59 of 92 Wyoming high schools offered computer science, according to Code.org (2025). We teach Wyoming students live online in Mountain Time.
+> Yes, as science. Wyoming Statute 21-2-304 requires three school years of science to graduate, one of which may be satisfied by one year of computer science, and W.S. 21-9-101 lists computer science in every district&rsquo;s common core of knowledge. In 2024 to 2025, 59 of 92 Wyoming high schools offered computer science, according to Code.org (2025). We teach Wyoming students live online in Mountain Time. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Wyoming
 
@@ -12,9 +12,9 @@ Wyoming, United States / Live online
 
 # Coding and AI classes in Wyoming
 
-**Does computer science count toward graduation in Wyoming?** Yes, as science. Wyoming Statute 21-2-304 requires three school years of science to graduate, one of which may be satisfied by one year of computer science, and W.S. 21-9-101 lists computer science in every district&rsquo;s common core of knowledge. In 2024 to 2025, 59 of 92 Wyoming high schools offered computer science, according to Code.org (2025). We teach Wyoming students live online in Mountain Time.
+**Does computer science count toward graduation in Wyoming?** Yes, as science. Wyoming Statute 21-2-304 requires three school years of science to graduate, one of which may be satisfied by one year of computer science, and W.S. 21-9-101 lists computer science in every district&rsquo;s common core of knowledge. In 2024 to 2025, 59 of 92 Wyoming high schools offered computer science, according to Code.org (2025). We teach Wyoming students live online in Mountain Time. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
-Wyoming has the smallest school system of any state on this list, and its law on computer science is short and specific. Computer science appears by name in the common core of knowledge every district must teach toward, computational thinking appears in the common core of skills, and a year of computer science can stand in for a year of science on the way to a diploma. Below are those statutes in the Legislature&rsquo;s wording, the Wyoming access and enrollment series, and a project on the City of Green River&rsquo;s own tree inventory that teaches one of the most useful ideas in statistics: why the average is often not the typical value.
+Wyoming counted 92 high schools in the Code.org 2024 to 2025 count, and its law on computer science is short and specific. Computer science appears by name in the common core of knowledge every district must teach toward, computational thinking appears in the common core of skills, and a year of computer science can stand in for a year of science on the way to a diploma. Below are those statutes in the Legislature&rsquo;s wording, the Wyoming access and enrollment series, and a project on the City of Green River&rsquo;s own tree inventory that teaches one of the most useful ideas in statistics: why the average is often not the typical value.
 
 Facts last verified 18 October 2026. Teaching is online; no Wyoming branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
@@ -99,7 +99,7 @@ Picea and Populus share a mean of 15.3, yet their medians are 16 and 10. The lar
 
 ### Read the labels too
 
-The layer also carries a text band, DBH_Range, whose commonest value is 6-12in with 709 records. Comparing the band with the number is a quick check that the two fields agree.
+The layer also carries a text band, DBH_Range, whose commonest value is 6-12in with 709 records, archived ones included. Comparing the band with the number is a quick check that the two fields agree.
 
 In Python the comparison is two lines, statistics.mean(dbh) and statistics.median(dbh), after filtering to rows where Archived is No and DBH is not empty. Students then plot a histogram and mark both values on it, which makes the skew visible at a glance. Removing the largest 5% drops the mean from 10.47 to 9.28 while the median barely moves, the clearest demonstration that a median resists outliers.
 

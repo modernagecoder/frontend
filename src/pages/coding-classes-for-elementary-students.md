@@ -4,7 +4,7 @@ description: "Live coding classes for elementary students in grades 1 to 5: what
 canonical: https://learn.modernagecoders.com/coding-classes-for-elementary-students
 source: src/pages/coding-classes-for-elementary-students.html
 ---
-> A good coding class for an elementary student matches the grade. In grades 1 and 2, children give exact step-by-step instructions, use loops and events in block code, and learn to describe a bug. In grades 3 to 5 they add conditions and variables, build Scratch games, and around age 9 or 10 can start typed Python. Keep classes live and short.
+> A good coding class for an elementary student matches the grade. In grades 1 and 2, children give exact step-by-step instructions, use loops and events in block code, and learn to describe a bug. In grades 3 to 5 they add conditions and variables, build Scratch games, and around age 9 or 10 can start typed Python. Keep classes live and short. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Coding for elementary students
 

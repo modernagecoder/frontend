@@ -92,7 +92,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'By the end of grade 8, the K-12 Computer Science Framework expects students to write readable programs that combine loops, events and conditionals, name variables meaningfully, organise code into procedures with parameters, and test whether a solution meets its criteria. A middle school coding class should get a student typing real code, usually Python, and building projects for other people.',
+  capsule: 'By the end of grade 8, the K-12 Computer Science Framework expects students to write readable programs that combine loops, events and conditionals, name variables meaningfully, organise code into procedures with parameters, and test whether a solution meets its criteria. A middle school coding class should get a student typing real code, usually Python, and building projects for other people. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Start here',

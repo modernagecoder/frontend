@@ -4,7 +4,7 @@ description: "AI and Python classes for teens in Portland, Oregon, taught live o
 canonical: https://learn.modernagecoders.com/ai-and-python-classes-for-teens-in-portland-oregon
 source: src/pages/ai-and-python-classes-for-teens-in-portland-oregon.html
 ---
-> Yes. Our live online teachers take Portland, Oregon teenagers, roughly seventh through twelfth grade, from first Python lines to data science and machine learning, either in a group of peers at their level or one to one, with every session booked on Pacific Time. Teens start with real code on real data, such as the city&rsquo;s street tree inventory of 354 species, and move on to building and testing their own AI models.
+> Yes. Our live online teachers take Portland, Oregon teenagers, roughly seventh through twelfth grade, from first Python lines to data science and machine learning, either in a group of peers at their level or one to one, with every session booked on Pacific Time. Teens start with real code on real data, such as the city&rsquo;s street tree inventory of 354 species, and move on to building and testing their own AI models. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Portland, Oregon
 
@@ -12,7 +12,7 @@ Portland, Oregon / Live online
 
 # AI and Python classes for teens in Portland, Oregon
 
-**Can a Portland teenager learn AI and Python live online after school?** Yes. Our live online teachers take Portland, Oregon teenagers, roughly seventh through twelfth grade, from first Python lines to data science and machine learning, either in a group of peers at their level or one to one, with every session booked on Pacific Time. Teens start with real code on real data, such as the city&rsquo;s street tree inventory of 354 species, and move on to building and testing their own AI models.
+**Can a Portland teenager learn AI and Python live online after school?** Yes. Our live online teachers take Portland, Oregon teenagers, roughly seventh through twelfth grade, from first Python lines to data science and machine learning, either in a group of peers at their level or one to one, with every session booked on Pacific Time. Teens start with real code on real data, such as the city&rsquo;s street tree inventory of 354 species, and move on to building and testing their own AI models. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 Portland is one of the few American cities where a teenager can download a list of nearly every tree planted along its streets, with species, size and condition for each one. That list is a better introduction to artificial intelligence than any chatbot, because the questions it raises (which kinds are most common, how varied is the mix, what does "Unknown" mean) are the same ones a machine learning engineer asks about training data. This page explains how the Oregon Department of Education frames AI literacy, what the published figures say about computer science in Oregon high schools, how our teen classes work on Pacific Time, and the street tree project a Portland student can build in Python with us.
 

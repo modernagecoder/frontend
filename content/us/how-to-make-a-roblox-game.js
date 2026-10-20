@@ -119,7 +119,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'To make a Roblox game, install Roblox Studio (free, on a Windows or Mac computer), start from a template such as Baseplate, add parts, then write Luau scripts that react to events, for example a coin that adds a point when a player touches it. Publish with File &gt; Publish; a new game stays private to you until you release it.',
+  capsule: 'To make a Roblox game, install Roblox Studio (free, on a Windows or Mac computer), start from a template such as Baseplate, add parts, then write Luau scripts that react to events, for example a coin that adds a point when a player touches it. Publish with File &gt; Publish; a new game stays private to you until you release it. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',

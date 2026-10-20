@@ -206,7 +206,7 @@ module.exports = {
           '<b>Run it as written.</b> Check the three answers match.',
           '<b>Add a ninth example.</b> Put a dance song at (100, 5) and run the third guess again.',
           '<b>Break it on purpose.</b> Find a new song the model labels wrongly and say why.',
-          '<b>Fix the scale.</b> Divide every tempo by 13 so both features run about 1 to 10, then compare.',
+          '<b>Fix the scale.</b> Divide every tempo by 13 so tempo runs about 5 to 10, close to the 1 to 10 loudness scale, then compare.',
           '<b>Explain it to someone.</b> If they understand why the third answer changed, the lesson worked.'
         ] }
       ]

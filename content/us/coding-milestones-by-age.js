@@ -96,7 +96,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short: milestones for 8 to 10 year olds',
-  capsule: 'Coding milestones for 8 to 10 year olds: build a Scratch game that uses events, loops, a condition and a score variable; plan it first on paper; find and fix their own bugs; explain that two different programs can solve the same problem; and, by about 10, type a short Python program. These match the K-12 CS Framework endpoint for the end of grade 5.',
+  capsule: 'Coding milestones for 8 to 10 year olds: build a Scratch game that uses events, loops, a condition and a score variable; plan it first on paper; find and fix their own bugs; explain that two different programs can solve the same problem; and, by about 10, type a short Python program. These match the K-12 CS Framework endpoint for the end of grade 5. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Matched to the milestones',

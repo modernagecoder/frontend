@@ -4,7 +4,7 @@ description: "Is AP Computer Science hard? 2026 College Board score distribution
 canonical: https://learn.modernagecoders.com/is-ap-computer-science-hard
 source: src/pages/is-ap-computer-science-hard.html
 ---
-> AP Computer Science is demanding but not out of reach. In 2026, College Board reports 66% of AP Computer Science A students and 63% of AP Computer Science Principles students scored 3 or higher. CSA is harder to learn because it is all Java programming; CSP is broader, includes a project, and gave far fewer 5s (10% against 25%). Neither course requires prior coding; both recommend algebra.
+> AP Computer Science is demanding but not out of reach. In 2026, College Board reports 66% of AP Computer Science A students and 63% of AP Computer Science Principles students scored 3 or higher. CSA is harder to learn because it is all Java programming; CSP is broader, includes a project, and gave far fewer 5s (10% against 25%). Neither course requires prior coding; both recommend algebra. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Is AP Computer Science hard?
 

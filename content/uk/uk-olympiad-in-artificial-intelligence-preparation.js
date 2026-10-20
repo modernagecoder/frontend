@@ -115,7 +115,7 @@ module.exports = {
       body: [
         { kind: 'p', html: 'Almost everything a neural network does is multiplying matrices. Multiplying two n by n matrices takes n cubed multiply-and-add operations, which sounds abstract until you watch the clock. We wrote the three nested loops by hand and timed them.' },
         { kind: 'table', caption: 'Our run of 20 September 2026: plain Python, no libraries', head: ['Matrix size', 'Multiply-adds', 'Time taken', 'Against the previous row'], rows: [
-          ['50 by 50', '125,000', '0.012 seconds', '&mdash;'],
+          ['50 by 50', '125,000', '0.012 seconds', 'Baseline'],
           ['100 by 100', '1,000,000', '0.082 seconds', '7.1 times as long'],
           ['200 by 200', '8,000,000', '0.641 seconds', '7.8 times as long']
         ] },

@@ -125,7 +125,7 @@ A calendar is only useful if it is honest about what it does not know. These eve
 | FIRST LEGO League, Tech Challenge and Robotics Competition | Events are local and regional | Season name for 2026-2027: FIRST CANOPY; events are found through FIRST&rsquo;s own search, and the LEGO League season, BIOGLOW, is its last |
 | AMC 8, AMC 10 and AMC 12 | Organiser&rsquo;s site returned an access-denied error | Not described here; check the MAA directly |
 | Technovation | Organiser&rsquo;s site blocked our request | Not dated here; see our [Technovation Girls guide](/technovation-girls-guide) and the official site |
-| Kaggle competitions | Pages load only through JavaScript | Not described here; each competition posts its own rules |
+| Kaggle competitions | Pages load only through JavaScript | Not described here; Kaggle sets its own account and competition age rules, so check them with a parent |
 
 ### Using last season as a guide
 

@@ -83,7 +83,7 @@ module.exports = {
     ['Begin with', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'AP CSP has 70 multiple-choice questions worth 70% and a Create performance task with written responses worth 30%, scored as six points of 0 to 1 each. So in our estimate a composite out of 100 is simply multiple-choice questions right plus 5 for every rubric point. College Board does not publish the raw cutoffs for each AP score, so treat any result as an estimate.',
+  capsule: 'AP CSP has 70 multiple-choice questions worth 70% and a Create performance task with written responses worth 30%, scored as six points of 0 to 1 each. So in our estimate a composite out of 100 is simply multiple-choice questions right plus 5 for every rubric point. College Board does not publish the raw cutoffs for each AP score, so treat any result as an estimate. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Points that are earned early',
@@ -224,7 +224,7 @@ module.exports = {
     {
       id: 'limits', tint: 'deep', eyebrow: 'Honest limits',
       h2: 'What this estimate can tell you, and what it cannot',
-      lede: 'The composite is exact arithmetic on published weights. The step from composite to a 1 to 5 score is not public, so the table below is our own reading, set for our students.',
+      lede: 'The composite is exact arithmetic on published weights. The step from composite to a 1 to 5 score is not public, so the table below is our own reading, a planning aid and not a College Board conversion.',
       body: [
         { kind: 'table', caption: 'How we read a practice composite in class (ours; College Board does not publish cut scores)', head: ['Practice composite', 'Our reading', 'Next focus'], rows: [
           ['75 and up, on two separate practices', 'A strong position with some margin', 'Keep the written responses sharp; prompts change'],

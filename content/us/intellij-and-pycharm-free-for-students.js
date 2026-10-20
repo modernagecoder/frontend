@@ -121,7 +121,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Yes. IntelliJ IDEA (since 2025.3) and PyCharm (since 2025.1) are each a single product whose core features are free for anyone, after a 30-day trial of the paid tier. Students aged 13 or older at an accredited high school, college or university can also get a free educational license for non-commercial use, renewed each year.',
+  capsule: 'Yes. IntelliJ IDEA (since 2025.3) and PyCharm (since 2025.1) are each a single product whose core features are free for anyone, after a 30-day trial of the paid tier. Students aged 13 or older at an accredited high school, college or university can also get a free educational license for non-commercial use, renewed each year. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',

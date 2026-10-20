@@ -4,7 +4,7 @@ description: "CodeHS help for students: how to reset an assignment, use the debu
 canonical: https://learn.modernagecoders.com/codehs-help-for-students
 source: src/pages/codehs-help-for-students.html
 ---
-> Most CodeHS problems have documented fixes. A frozen Check Code button usually means an infinite loop. To start an exercise over, open More, then History, choose Reset Code and press Save. In unit-test exercises, write and run your function in the Scratchpad, and make it return a value. For login trouble, use your school email or your class&rsquo;s Google, Clever or Canvas sign-in.
+> Most CodeHS problems have documented fixes. A frozen Check Code button usually means an infinite loop. To start an exercise over, open More, then History, choose Reset Code and press Save. In unit-test exercises, write and run your function in the Scratchpad, and make it return a value. For login trouble, use your school email or your class&rsquo;s Google, Clever or Canvas sign-in. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / CodeHS help
 

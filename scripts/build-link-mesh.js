@@ -58,7 +58,7 @@ function cleanTitle(t) {
   let s = decode(t || '').replace(/\s+/g, ' ').replace(/\s*[|\-–:]\s*Modern Age Coders.*$/i, '').replace(/^Modern Age Coders\s*[|\-–:]\s*/i, '').trim();
   // Never put a price in anchor text: prices change, and pricing:verify rightly flags a
   // page that "shows a price" without loading the pricing scripts.
-  s = s.replace(/\s*(?:from|at|only|just|under|starting(?: at)?)?\s*[\(\[]?\s*(?:₹|rs\.?|inr|usd|us\$|\$|€|£|aed|sar|qar)\s?[\d,]+(?:\.\d+)?(?:\s?(?:k|lakh|per month|\/month|\/mo|a month|monthly|per class|\/class|per hour|\/hr|onwards|\+))?[\)\]]?/gi, '')
+  s = s.replace(/\s*(?:from|at|only|just|under|starting(?: at)?)?\s*[\(\[]?\s*(?:₹|\b(?:rs\.?|inr|usd|aed|sar|qar)(?![a-z])|us\$|\$|€|£)\s?\d[\d,]*(?:\.\d+)?(?:\s?(?:k|lakh|per month|\/month|\/mo|a month|monthly|per class|\/class|per hour|\/hr|onwards|\+))?[\)\]]?/gi, '')
     .replace(/\s*[\(\[]\s*[\)\]]/g, '').replace(/\s{2,}/g, ' ').replace(/[\s,:;\-–]+$/, '').trim();
   // Anchor text: keep the primary phrase, drop the SERP-style tail after " | ", " · " or " - "
   const cut = s.search(/\s+[|·]\s+|\s+-\s+(?=[A-Z0-9])/);

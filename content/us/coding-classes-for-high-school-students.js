@@ -118,7 +118,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Code.org (2025) reports that 60% of US high schools offered computer science in 2024 to 2025, and 6.1% of high school students were enrolled in it. A strong high school path is a first language such as Python, then AP Computer Science Principles or AP Computer Science A (Java), then a specialism such as AI, web or competitive programming.',
+  capsule: 'Code.org (2025) reports that 60% of US high schools offered computer science in 2024 to 2025, and 6.1% of high school students were enrolled in it. A strong high school path is a first language such as Python, then AP Computer Science Principles or AP Computer Science A (Java), then a specialism such as AI, web or competitive programming. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Start here',

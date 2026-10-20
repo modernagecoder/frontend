@@ -4,7 +4,7 @@ description: "Coding for middle schoolers in grades 6 to 8: what the K-12 CS Fra
 canonical: https://learn.modernagecoders.com/coding-classes-for-middle-school-students
 source: src/pages/coding-classes-for-middle-school-students.html
 ---
-> By the end of grade 8, the K-12 Computer Science Framework expects students to write readable programs that combine loops, events and conditionals, name variables meaningfully, organise code into procedures with parameters, and test whether a solution meets its criteria. A middle school coding class should get a student typing real code, usually Python, and building projects for other people.
+> By the end of grade 8, the K-12 Computer Science Framework expects students to write readable programs that combine loops, events and conditionals, name variables meaningfully, organise code into procedures with parameters, and test whether a solution meets its criteria. A middle school coding class should get a student typing real code, usually Python, and building projects for other people. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Coding for middle school students
 

@@ -4,7 +4,7 @@ description: "Which US states have K-12 AI guidance that treats computer science
 canonical: https://learn.modernagecoders.com/ai-guidance-for-schools-by-state
 source: src/pages/ai-guidance-for-schools-by-state.html
 ---
-> According to Code.org (2025), 2025 State of AI + CS Education, 17 states have official school AI guidance that emphasizes computer science as fundamental to AI literacy: Alabama, California, Colorado, Hawaii, Indiana, Kentucky, Maine, Massachusetts, Montana, North Carolina, Ohio, Oklahoma, Rhode Island, Utah, West Virginia, Wisconsin and Wyoming. Iowa was in progress. The report counts 34 states with AI guidance of some kind.
+> According to Code.org (2025), 2025 State of AI + CS Education, 17 states have official school AI guidance that emphasizes computer science as fundamental to AI literacy: Alabama, California, Colorado, Hawaii, Indiana, Kentucky, Maine, Massachusetts, Montana, North Carolina, Ohio, Oklahoma, Rhode Island, Utah, West Virginia, Wisconsin and Wyoming. Iowa was in progress. The report counts 34 states with AI guidance of some kind. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / AI guidance for schools by state
 

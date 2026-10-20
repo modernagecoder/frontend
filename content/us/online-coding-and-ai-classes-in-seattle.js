@@ -72,7 +72,7 @@ module.exports = {
     intro: 'Matched to age and goal, then confirmed in a free first lesson with a teacher.',
     items: [
       { course: 'kids-coding-blocks-masterclass', band: 'Grades K to 3', note: 'Visual blocks, stories and puzzles that build sequencing and logic before any typing.' },
-      { course: 'python-complete-masterclass-teens', band: 'Grades 6 to 12', note: 'Python from scratch to dictionaries, files and data, enough to run the parks join below.' },
+      { course: 'python-complete-masterclass-teens', band: 'Ages 13 to 17', note: 'Python from scratch to dictionaries, files and data, enough to run the parks join below.' },
       { course: 'data-science-course-for-teens-python-data', band: 'Grades 9 to 12', note: 'pandas, joins, charts and honest conclusions from public datasets.' },
       { course: 'ai-ml-masterclass-teens', band: 'Grades 10 to 12', note: 'Machine learning built on data the student has joined and cleaned, then tested properly.' }
     ]

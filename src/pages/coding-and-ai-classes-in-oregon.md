@@ -4,7 +4,7 @@ description: "Live online coding and AI classes for Oregon students: where codin
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-oregon
 source: src/pages/coding-and-ai-classes-in-oregon.html
 ---
-> No separate computer science credit appears in the Oregon Department of Education&rsquo;s 24-credit Oregon Diploma table, though its three math credits may come from courses aligned to Algebra, Geometry and Data Reasoning standards. In 2023 to 2024, 195 of 347 Oregon high schools offered computer science, according to Code.org (2025). We teach Oregon students live online, from game making to Python, data science and AP Statistics.
+> No separate computer science credit appears in the Oregon Department of Education&rsquo;s 24-credit Oregon Diploma table, though its three math credits may come from courses aligned to Algebra, Geometry and Data Reasoning standards. In 2023 to 2024, 195 of 347 Oregon high schools offered computer science, according to Code.org (2025). We teach Oregon students live online, from game making to Python, data science and AP Statistics. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Oregon
 
@@ -12,7 +12,7 @@ Oregon, United States / Live online
 
 # Coding and AI classes in Oregon
 
-**Do Oregon students need computer science to graduate?** No separate computer science credit appears in the Oregon Department of Education&rsquo;s 24-credit Oregon Diploma table, though its three math credits may come from courses aligned to Algebra, Geometry and Data Reasoning standards. In 2023 to 2024, 195 of 347 Oregon high schools offered computer science, according to Code.org (2025). We teach Oregon students live online, from game making to Python, data science and AP Statistics.
+**Do Oregon students need computer science to graduate?** No separate computer science credit appears in the Oregon Department of Education&rsquo;s 24-credit Oregon Diploma table, though its three math credits may come from courses aligned to Algebra, Geometry and Data Reasoning standards. In 2023 to 2024, 195 of 347 Oregon high schools offered computer science, according to Code.org (2025). We teach Oregon students live online, from game making to Python, data science and AP Statistics. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 Oregon&rsquo;s diploma is built around credits, Essential Skills and personalized learning requirements, and computer science is not one of the named credit areas. That does not make coding irrelevant to an Oregon transcript. The math requirement names Data Reasoning alongside Algebra and Geometry, and the department lists several kinds of evidence a school can accept when it awards credit. This page lays out the diploma as ODE publishes it, the access and participation figures for Oregon high schools, the two time zones inside the state, and a project on fifteen years of State Library data that teaches students how dates in a dataset can quietly mislead.
 

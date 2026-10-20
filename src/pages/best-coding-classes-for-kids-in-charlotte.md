@@ -4,7 +4,7 @@ description: "Live online coding classes for Charlotte kids aged 6 to 12: Scratc
 canonical: https://learn.modernagecoders.com/best-coding-classes-for-kids-in-charlotte
 source: src/pages/best-coding-classes-for-kids-in-charlotte.html
 ---
-> The best coding classes for Charlotte kids are taught live by a teacher who can see the child&rsquo;s screen, are matched to the child&rsquo;s level, and end each week with something the child built. Modern Age Coders runs exactly that online for ages 6 to 12, from Scratch and block games to first Python, in small groups or one to one on Eastern Time.
+> The best coding classes for Charlotte kids are taught live by a teacher who can see the child&rsquo;s screen, are matched to the child&rsquo;s level, and end each week with something the child built. Modern Age Coders runs exactly that online for ages 6 to 12, from Scratch and block games to first Python, in a batch of 15 to 20 or one to one on Eastern Time.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Charlotte
 
@@ -12,7 +12,7 @@ Charlotte, North Carolina / Live online
 
 # Best coding classes for kids in Charlotte
 
-**What makes the best coding class for a child in Charlotte?** The best coding classes for Charlotte kids are taught live by a teacher who can see the child&rsquo;s screen, are matched to the child&rsquo;s level, and end each week with something the child built. Modern Age Coders runs exactly that online for ages 6 to 12, from Scratch and block games to first Python, in small groups or one to one on Eastern Time.
+**What makes the best coding class for a child in Charlotte?** The best coding classes for Charlotte kids are taught live by a teacher who can see the child&rsquo;s screen, are matched to the child&rsquo;s level, and end each week with something the child built. Modern Age Coders runs exactly that online for ages 6 to 12, from Scratch and block games to first Python, in a batch of 15 to 20 or one to one on Eastern Time.
 
 A seven-year-old does not need a programming language so much as a reason to keep going: a cat that moves when told, a game a sibling can lose at, a question with an answer the child worked out. That is what separates a good class from a video playlist. This page sets out what we think the best coding classes for Charlotte children look like and how ours meet that bar, then shows a first data project built on the City of Charlotte&rsquo;s own bus stop inventory. It is small enough for a fourth grader, and it teaches one of the most useful ideas in all of computing: before you trust a percentage, ask what it is a percentage of.
 
@@ -62,7 +62,7 @@ Scratch projects grow into real games with variables for score and lives. This i
 
 Some children are ready for Python. They meet lists, loops over data and their first real question about their own city, such as the bus stop project below.
 
-School matters too. North Carolina has made computer science part of what students need for a diploma, and our [North Carolina page](/coding-and-ai-classes-in-north-carolina) explains that rule, while the 2025 Code.org data counts 513 of 735 high schools in the state offering the subject in 2024 to 2025. For a child in elementary school, though, the point is simpler: an early start makes that later course feel familiar rather than new.
+School matters too. North Carolina has made computer science part of what students entering high school from the 2026 to 2027 school year need for a diploma, and our [North Carolina page](/coding-and-ai-classes-in-north-carolina) explains that rule, while the 2025 Code.org data counts 513 of 735 high schools in the state offering the subject in 2024 to 2025. For a child in elementary school, though, the point is simpler: an early start makes that later course feel familiar rather than new.
 
 ## How many Charlotte bus stops have a shelter? Percent of what?
 
@@ -106,7 +106,7 @@ Record counts in other City of Charlotte open data layers on 18 October 2026, pl
 | City council districts | 7 | Council Districts layer |
 | LYNX Blue Line stations | 26, of which 11 are listed with park and ride | LYNX Blue Line Stations layer |
 | LYNX Gold Line stops | 17, all listed as Operating | LYNX Gold Line Stops layer |
-| CATS park and ride lots | 53: 41 bus and 12 rail | CATS Park and Ride Lots layer |
+| CATS park and ride lots | 53 records: 41 bus and 12 rail, 6 of them marked proposed | CATS Park and Ride Lots layer |
 | Libraries in the county layer | 30, all listed as Existing | Libraries layer |
 | Local historic districts | 8 | Historic Districts layer |
 | Airport passengers in 2025 | 53.6 million, its second busiest year on record | Charlotte Douglas International Airport |

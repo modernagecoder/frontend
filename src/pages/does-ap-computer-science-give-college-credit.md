@@ -4,7 +4,7 @@ description: "Does AP Computer Science give college credit? The ACE and College 
 canonical: https://learn.modernagecoders.com/does-ap-computer-science-give-college-credit
 source: src/pages/does-ap-computer-science-give-college-credit.html
 ---
-> AP Computer Science can earn college credit, but each college sets its own rule. The American Council on Education and College Board recommend credit for a score of 3 or higher; their table suggests 4 credits for AP Computer Science A and 3 for AP Computer Science Principles. Real policies vary: for 2026, Case Western gives 3 credit hours for a 4 or 5 on CSA and none for CSP.
+> AP Computer Science can earn college credit, but each college sets its own rule. The American Council on Education and College Board recommend credit for a score of 3 or higher; their table suggests 4 credits for AP Computer Science A and 3 for AP Computer Science Principles. Real policies vary: for 2026, Case Western gives 3 credit hours for a 4 or 5 on CSA and none for CSP. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Does AP CS give college credit?
 

@@ -110,7 +110,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'When Scratch is not working, the usual causes are a browser or device Scratch does not support, a sound or image over 10 MB (or project data over 5 MB) that stops saving, an account signed in on two computers, cookies switched off, or a school filter blocking Scratch domains. Save a copy with File, then Save to your computer, before trying anything else.',
+  capsule: 'When Scratch is not working, the usual causes are a browser or device Scratch does not support, a sound or image over 10 MB (or project data over 5 MB) that stops saving, an account signed in on two computers, cookies switched off, or a school filter blocking Scratch domains. Save a copy with File, then Save to your computer, before trying anything else. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Help with a live teacher',

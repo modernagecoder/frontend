@@ -97,7 +97,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Khan Academy&rsquo;s computer science is free, self-paced and well designed: a Python course with auto-graded challenges, instant feedback and a browser-based editor. It suits motivated students who work steadily alone. A live class suits students who stall without someone to explain, check and set the pace. Many families use Khan Academy for practice and a teacher for direction.',
+  capsule: 'Khan Academy&rsquo;s computer science is free, self-paced and well designed: a Python course with auto-graded challenges, instant feedback and a browser-based editor. It suits motivated students who work steadily alone. A live class suits students who stall without someone to explain, check and set the pace. Many families use Khan Academy for practice and a teacher for direction. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'If you add a teacher',

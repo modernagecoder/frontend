@@ -3,7 +3,7 @@
 // Spine: New Jersey has required every public high school to offer a computer science course since 2018 to 2019,
 // lets AP computer science count toward math credit, and teaches computer science AND design thinking from
 // kindergarten under the 2020 standards, yet lists no computer science credit among its 120 graduation credits.
-// Sources read raw on 17 October 2026 (copies in keyword-research-2026-09/us/src/coding-classes-in-new-jersey/):
+// Sources read raw on 17 October 2026 (copies in keyword-research-2026-09/us/src/coding-and-ai-classes-in-new-jersey/):
 //  - NJDOE, Computer Science & Design Thinking (nj.gov/education/standards/compsci/, "Page Last Updated: 04/13/2026"):
 //    "All students receive computer science and design thinking instruction from Kindergarten through grade 12.";
 //    N.J.S.A. 18A:7C-1.1: "No later than the beginning of the 2018-2019 school year, each public school enrolling

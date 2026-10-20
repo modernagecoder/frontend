@@ -4,7 +4,7 @@ description: "Khan Academy computer science or live coding classes? What the fre
 canonical: https://learn.modernagecoders.com/khan-academy-computer-science-vs-live-classes
 source: src/pages/khan-academy-computer-science-vs-live-classes.html
 ---
-> Khan Academy&rsquo;s computer science is free, self-paced and well designed: a Python course with auto-graded challenges, instant feedback and a browser-based editor. It suits motivated students who work steadily alone. A live class suits students who stall without someone to explain, check and set the pace. Many families use Khan Academy for practice and a teacher for direction.
+> Khan Academy&rsquo;s computer science is free, self-paced and well designed: a Python course with auto-graded challenges, instant feedback and a browser-based editor. It suits motivated students who work steadily alone. A live class suits students who stall without someone to explain, check and set the pace. Many families use Khan Academy for practice and a teacher for direction. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Khan Academy CS vs live classes
 

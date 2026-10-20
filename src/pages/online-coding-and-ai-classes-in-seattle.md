@@ -23,7 +23,7 @@ Facts last verified 18 October 2026. Teaching is online; no Seattle branch is cl
 Matched to age and goal, then confirmed in a free first lesson with a teacher.
 
 - [Coding for Kids](/courses/kids-coding-blocks-masterclass) (Grades K to 3): Visual blocks, stories and puzzles that build sequencing and logic before any typing.
-- [Python for Teens](/courses/python-complete-masterclass-teens) (Grades 6 to 12): Python from scratch to dictionaries, files and data, enough to run the parks join below.
+- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python from scratch to dictionaries, files and data, enough to run the parks join below.
 - [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Grades 9 to 12): pandas, joins, charts and honest conclusions from public datasets.
 - [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Grades 10 to 12): Machine learning built on data the student has joined and cleaned, then tested properly.
 

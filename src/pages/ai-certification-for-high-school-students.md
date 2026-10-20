@@ -74,9 +74,9 @@ AWS files this exam under its Foundational category and describes it as a starti
 | Data objective split in two | Objective 2 became "Data Collection & Transformation" and "Feature Engineering" |
 | Language models named | "Objective 4.1 now covers Natural Language Processing (NLP)", with algorithm families in 4.1.2 to 4.1.6 |
 | New planning skills | Feasibility analysis, choosing visualization types for a data story, and planning for continuous integration and deployment |
-| When | English, Spanish and French versions go live in June 2026 |
+| When | English, Spanish and French versions went live in June 2026 |
 
-PCEP is also changing: the Python Institute lists PCEP-30-02 as the active version and PCEP-30-03 as scheduled for release on October 31, 2026, and says the update does not affect the five-year validity of credentials already earned. A student booking an exam this fall should check which version the voucher covers.
+PCEP is also changing: the Python Institute lists PCEP-30-02 as the active version and PCEP-30-03 as scheduled for release on October 31, 2026 (as read on 17 October 2026), and says the update does not affect the five-year validity of credentials already earned. A student booking an exam this fall should check which version the voucher covers.
 
 Sources: [IT Specialist overview](https://certiport.pearsonvue.com/Certifications/ITSpecialist/Certification/Overview); the [Certiport blog, 29 April 2026](https://certiport.pearsonvue.com/Blog/2026/April/We%E2%80%99re-updating-the-IT-Specialist-AI-certification); [Microsoft exam scoring](https://learn.microsoft.com/en-us/credentials/certifications/exam-scoring-reports) and [renewal](https://learn.microsoft.com/en-us/credentials/certifications/renew-your-microsoft-certification) pages; [PCEP exam information](https://pythoninstitute.org/pcep).
 

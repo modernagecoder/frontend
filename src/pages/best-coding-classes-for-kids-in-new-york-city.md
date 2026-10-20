@@ -14,7 +14,7 @@ New York City, New York / Live online
 
 **What is the best coding class for a kid in New York City?** The best one is live, level-matched and ends in a project your child can explain. Modern Age Coders teaches NYC kids from age 6 live online: Scratch and game design first, then Python, in batches of fifteen to twenty or one to one, with no commute across the boroughs. The first class is free, and our older students analyse the city&rsquo;s own street tree census.
 
-New York City parents have more coding options than almost anyone in the country, from after-school clubs in a church basement to weekend programs in Midtown. Plenty of choice, and very little help comparing it. So this page does three things. It lists the questions that separate a class that teaches from a class that entertains, it shows the kind of project a city kid can do with data New York itself publishes, and it sets out, briefly, what New York State asks schools to teach. Read it, then judge us by the same questions.
+New York City parents have more coding options than almost anyone in the country, from after-school clubs in a community-center basement to weekend programs in Midtown. Plenty of choice, and very little help comparing it. So this page does three things. It lists the questions that separate a class that teaches from a class that entertains, it shows the kind of project a city kid can do with data New York itself publishes, and it sets out, briefly, what New York State asks schools to teach. Read it, then judge us by the same questions.
 
 Facts last verified 18 October 2026. Teaching is online; no New York City branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
@@ -103,7 +103,7 @@ Sorting the counts gives London planetree first with 87,014 records. A ten-year-
 
 Sixth in the raw ranking is not a tree at all. 31,619 records have no species name, because a stump or a dead tree has none to record. Leaving it in would give a wrong top ten.
 
-The census page itself says the data shows 666,134 trees planted along NYC&rsquo;s streets. Our query found 683,788 records, so which is right? Both. When students split the records by the status column, there are 652,173 alive, 13,961 dead and 17,654 stumps, and our sum of the alive and dead records comes to exactly 666,134. The published figure counts trees; the file also holds stumps. Finding that out by checking, instead of assuming, is the lesson.
+The dataset description on NYC Open Data says the data shows 666,134 trees planted along NYC&rsquo;s streets. Our query found 683,788 records, so which is right? Both. When students split the records by the status column, there are 652,173 alive, 13,961 dead and 17,654 stumps, and our sum of the alive and dead records comes to exactly 666,134. The published figure counts trees; the file also holds stumps. Finding that out by checking, instead of assuming, is the lesson.
 
 Boroughs give the project a second round. In Manhattan the top three are honeylocust (13,176), Callery pear (7,297) and ginkgo (5,859); in Queens they are London planetree (31,111), pin oak (22,610) and honeylocust (20,290). A child from Astoria and a child from the Upper West Side get different answers from the same code, which is exactly how they learn that a query is a question, not a fact.
 
@@ -135,7 +135,7 @@ While New York is on daylight time, India runs nine and a half hours ahead; in w
 
 Clocks in New York fall back on November 1, 2026 and spring forward on March 14, 2027. We send the new times before each change, so nobody logs in an hour early.
 
-**America/New_York, a zone with a name** The IANA time zone database lists New York City under America/New_York, Eastern for most of the state. Older kids who build a class reminder learn why a program should store that name, not a fixed offset, if it is still to be right in March.
+**America/New_York, a zone with a name** The IANA time zone database lists New York City under America/New_York, on Eastern time like the rest of New York State. Older kids who build a class reminder learn why a program should store that name, not a fixed offset, if it is still to be right in March.
 
 ## From first blocks in first grade to Python in middle school
 

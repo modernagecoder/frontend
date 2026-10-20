@@ -4,7 +4,7 @@ description: "C++ for kids, honestly: who is ready for it and who should start w
 canonical: https://learn.modernagecoders.com/c-plus-plus-for-kids
 source: src/pages/c-plus-plus-for-kids.html
 ---
-> C++ can be a child&rsquo;s first typed language from about 11 or 12, if they read and type comfortably and do not mind strict error messages; for children of 9 or 10 we recommend starting in Scratch or Python and moving to C++ later. Free compilers such as g++ and Clang, or an online compiler page, are all a beginner needs.
+> C++ can be a child&rsquo;s first typed language from about 11 or 12, if they read and type comfortably and do not mind strict error messages; for children of 9 or 10 we recommend starting in Scratch or Python and moving to C++ later. Free compilers such as g++ and Clang, or an online compiler page, are all a beginner needs. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / C++ for kids
 

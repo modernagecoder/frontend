@@ -4,7 +4,7 @@ description: "picoCTF for beginners: picoCTF is now CyLab Security Academy, ages
 canonical: https://learn.modernagecoders.com/picoctf-for-beginners
 source: src/pages/picoctf-for-beginners.html
 ---
-> A beginner should start picoCTF by creating a free account on CyLab Security Academy, the new name for picoCTF, reading the CTF Primer, and working through the beginner learning path in the Challenge Library before entering a timed event. Users must be at least 13, and teens under 18 need a parent&rsquo;s email to register. Solve each challenge yourself: hints are built in, and sharing flags is grounds for removal.
+> A beginner should start picoCTF by creating a free account on CyLab Security Academy, the new name for picoCTF, reading the CTF Primer, and working through the beginner learning path in the Challenge Library before entering a timed event. Users must be at least 13, and teens under 18 need a parent&rsquo;s email to register. Solve each challenge yourself: hints are built in, and sharing flags is grounds for removal. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / picoCTF for beginners
 

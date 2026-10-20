@@ -70,7 +70,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'According to Code.org (2025), 2025 State of AI + CS Education, 17 states have official school AI guidance that emphasizes computer science as fundamental to AI literacy: Alabama, California, Colorado, Hawaii, Indiana, Kentucky, Maine, Massachusetts, Montana, North Carolina, Ohio, Oklahoma, Rhode Island, Utah, West Virginia, Wisconsin and Wyoming. Iowa was in progress. The report counts 34 states with AI guidance of some kind.',
+  capsule: 'According to Code.org (2025), 2025 State of AI + CS Education, 17 states have official school AI guidance that emphasizes computer science as fundamental to AI literacy: Alabama, California, Colorado, Hawaii, Indiana, Kentucky, Maine, Massachusetts, Montana, North Carolina, Ohio, Oklahoma, Rhode Island, Utah, West Virginia, Wisconsin and Wyoming. Iowa was in progress. The report counts 34 states with AI guidance of some kind. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn how AI works',

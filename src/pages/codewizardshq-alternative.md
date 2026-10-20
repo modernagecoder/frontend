@@ -143,7 +143,7 @@ Both prepare Java for AP Computer Science A. Ask how close to the exam each cour
 
 ## Four points at which families compare schools
 
-The moments we hear about most from families weighing a structured track against other options.
+Questions families often ask when weighing a structured track against other options.
 
 **Common decision points (ours)**
 

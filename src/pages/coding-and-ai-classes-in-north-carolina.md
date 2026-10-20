@@ -4,7 +4,7 @@ description: "Coding and AI classes for North Carolina students, live online: th
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-north-carolina
 source: src/pages/coding-and-ai-classes-in-north-carolina.html
 ---
-> Yes. Under G.S. 115C-12(9d), signed into law on September 29, 2023, every North Carolina public school unit must offer computer science courses that meet a new high school graduation requirement, in full from the 2026 to 2027 school year, and an introductory middle school elective from 2025 to 2026. We teach the same five core concepts live online, from Scratch to AP Computer Science.
+> Yes. Under G.S. 115C-12(9d), signed into law on September 29, 2023, every North Carolina public school unit must offer computer science courses that meet a new high school graduation requirement, in full from the 2026 to 2027 school year, and an introductory middle school elective from 2025 to 2026. We teach the same five core concepts live online, from Scratch to AP Computer Science. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / North Carolina
 
@@ -12,7 +12,7 @@ North Carolina, United States / Live online
 
 # Coding and AI classes in North Carolina
 
-**Do North Carolina students have to take computer science to graduate?** Yes. Under G.S. 115C-12(9d), signed into law on September 29, 2023, every North Carolina public school unit must offer computer science courses that meet a new high school graduation requirement, in full from the 2026 to 2027 school year, and an introductory middle school elective from 2025 to 2026. We teach the same five core concepts live online, from Scratch to AP Computer Science.
+**Do North Carolina students have to take computer science to graduate?** Yes. Under G.S. 115C-12(9d), signed into law on September 29, 2023, every North Carolina public school unit must offer computer science courses that meet a new high school graduation requirement, in full from the 2026 to 2027 school year, and an introductory middle school elective from 2025 to 2026. We teach the same five core concepts live online, from Scratch to AP Computer Science. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 North Carolina has done something it had not done in a hundred years: added a new content area to what every student needs to graduate. In the words of the state&rsquo;s own deputy superintendent in 2023, &ldquo;We haven&rsquo;t added a content area to the graduation requirements for North Carolina students in a century.&rdquo; This page explains the requirement as the Department of Public Instruction publishes it, the five core concepts the state standards are built on, what the published figures say about how many high schools offer computer science and how many students take it, and how our live online classes fit around school, from a first Scratch game in elementary school to AP Computer Science in eleventh grade.
 

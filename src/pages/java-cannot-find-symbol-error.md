@@ -4,7 +4,7 @@ description: "The Java cannot find symbol error explained from real javac output
 canonical: https://learn.modernagecoders.com/java-cannot-find-symbol-error
 source: src/pages/java-cannot-find-symbol-error.html
 ---
-> The error &ldquo;cannot find symbol&rdquo; means the Java compiler met a name (a variable, method or class) that it could not match to any declaration it can see from that spot. The symbol line names the word, the location line says where Java looked. Usual causes: a typo or wrong capital letter, a variable used outside its block, or a missing import.
+> The error &ldquo;cannot find symbol&rdquo; means the Java compiler met a name (a variable, method or class) that it could not match to any declaration it can see from that spot. The symbol line names the word, the location line says where Java looked. Usual causes: a typo or wrong capital letter, a variable used outside its block, or a missing import. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Java cannot find symbol
 
@@ -91,7 +91,7 @@ This is the order we teach. It works in any editor, because it relies only on wh
 
 When a student brings a homework file to class, we do not type the correction for them, and we never supply answers to graded assignments. The teacher asks which word the caret points at and what the symbol line says, and the student finds the declaration.
 
-Students who fix ten of these errors themselves usually stop making the scope mistake altogether, because they finally see where a variable lives.
+Fixing ten of these errors yourself is the quickest way we know to see where a variable lives, which is what stops the scope mistake.
 
 ### When the routine runs out
 

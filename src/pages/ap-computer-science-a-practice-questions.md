@@ -4,7 +4,7 @@ description: "Original AP Computer Science A practice questions in Java: 14 mult
 canonical: https://learn.modernagecoders.com/ap-computer-science-a-practice-questions
 source: src/pages/ap-computer-science-a-practice-questions.html
 ---
-> These are 14 original AP Computer Science A style multiple-choice questions and one free-response task, spread across the four units of the current course in roughly the exam&rsquo;s proportions. Answers and explanations follow each unit. Every snippet was compiled and run by us, so the keys are real program output. For official practice, use AP Classroom and the Bluebook test previews.
+> These are 14 original AP Computer Science A style multiple-choice questions and one free-response task, spread across the four units of the current course in roughly the exam&rsquo;s proportions. Answers and explanations follow each unit. Every snippet was compiled and run by us, so the keys are real program output. For official practice, use AP Classroom and the Bluebook test previews. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / AP CSA practice questions
 

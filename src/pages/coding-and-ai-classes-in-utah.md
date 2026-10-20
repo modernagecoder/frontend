@@ -4,7 +4,7 @@ description: "Live online coding and AI classes for Utah students: the 2019 K-5 
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-utah
 source: src/pages/coding-and-ai-classes-in-utah.html
 ---
-> Utah has its own K-5 Computer Science Standards (2019) and 6-12 Computer Science Standards (November 8, 2019) from the Utah State Board of Education, built on strands such as Data and Analysis and Impacts of Computing. Code.org (2025) counts 175 of 213 Utah high schools (82.2%) with a computer science course in 2024 to 2025. We teach Utah students live online in Mountain Time, from block coding to game development and AP Computer Science Principles.
+> Utah has its own K-5 Computer Science Standards (2019) and 6-12 Computer Science Standards (November 8, 2019) from the Utah State Board of Education, built on strands such as Data and Analysis and Impacts of Computing. Code.org (2025) counts 175 of 213 Utah high schools (82.2%) with a computer science course in 2024 to 2025. We teach Utah students live online in Mountain Time, from block coding to game development and AP Computer Science Principles. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Utah
 
@@ -12,7 +12,7 @@ Utah, United States / Live online
 
 # Coding and AI classes in Utah
 
-**What computer science standards does Utah use?** Utah has its own K-5 Computer Science Standards (2019) and 6-12 Computer Science Standards (November 8, 2019) from the Utah State Board of Education, built on strands such as Data and Analysis and Impacts of Computing. Code.org (2025) counts 175 of 213 Utah high schools (82.2%) with a computer science course in 2024 to 2025. We teach Utah students live online in Mountain Time, from block coding to game development and AP Computer Science Principles.
+**What computer science standards does Utah use?** Utah has its own K-5 Computer Science Standards (2019) and 6-12 Computer Science Standards (November 8, 2019) from the Utah State Board of Education, built on strands such as Data and Analysis and Impacts of Computing. Code.org (2025) counts 175 of 213 Utah high schools (82.2%) with a computer science course in 2024 to 2025. We teach Utah students live online in Mountain Time, from block coding to game development and AP Computer Science Principles. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 Utah approached computer science as a planned project rather than a single law. A state taskforce set priorities in 2018, standards for kindergarten through fifth grade and for sixth through twelfth grade followed in 2019, and a master plan aimed at access for every student by 2022. The published figures since then put Utah well above the national share of high schools offering computer science. This page sets out what the standards ask at each level, what the graduation rules say about credit, the access and participation numbers, and a mapping project on the state&rsquo;s own trailhead data that teaches one of the most practical skills in geographic coding: drawing a box and counting what falls inside it.
 

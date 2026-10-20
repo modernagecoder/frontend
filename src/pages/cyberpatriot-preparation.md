@@ -4,7 +4,7 @@ description: "CyberPatriot preparation from the official CyberPatriot 19 pages: 
 canonical: https://learn.modernagecoders.com/cyberpatriot-preparation
 source: src/pages/cyberpatriot-preparation.html
 ---
-> CyberPatriot is a US team competition in which middle and high school students secure virtual Windows and Linux machines and complete a Cisco networking challenge in four-hour online rounds. Teams have one adult coach and two to six students, with five competing at a time. For CyberPatriot 19 (2026-27), Round 1 runs October 22 to 25, 2026, the State Round December 10 to 13, 2026, and the National Finals March 12 to 16, 2027.
+> CyberPatriot is a US team competition in which middle and high school students secure virtual Windows and Linux machines and complete a Cisco networking challenge in four-hour online rounds. Teams have one adult coach and two to six students, with five competing at a time. For CyberPatriot 19 (2026-27), Round 1 runs October 22 to 25, 2026, the State Round December 10 to 13, 2026, and the National Finals March 12 to 16, 2027. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / CyberPatriot preparation
 

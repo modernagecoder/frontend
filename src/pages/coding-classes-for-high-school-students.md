@@ -4,7 +4,7 @@ description: "Computer science for high schoolers: how many US high schools offe
 canonical: https://learn.modernagecoders.com/coding-classes-for-high-school-students
 source: src/pages/coding-classes-for-high-school-students.html
 ---
-> Code.org (2025) reports that 60% of US high schools offered computer science in 2024 to 2025, and 6.1% of high school students were enrolled in it. A strong high school path is a first language such as Python, then AP Computer Science Principles or AP Computer Science A (Java), then a specialism such as AI, web or competitive programming.
+> Code.org (2025) reports that 60% of US high schools offered computer science in 2024 to 2025, and 6.1% of high school students were enrolled in it. A strong high school path is a first language such as Python, then AP Computer Science Principles or AP Computer Science A (Java), then a specialism such as AI, web or competitive programming. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Coding for high school students
 

@@ -4,7 +4,7 @@ description: "Which US states require a computer science course to graduate: a 5
 canonical: https://learn.modernagecoders.com/computer-science-graduation-requirements-by-state
 source: src/pages/computer-science-graduation-requirements-by-state.html
 ---
-> Twelve states require a high school computer science course for graduation, according to Code.org (2025), 2025 State of AI + CS Education: Alabama, Arkansas, Indiana, Louisiana, Nebraska, Nevada, North Carolina, North Dakota, Rhode Island, South Carolina, Tennessee and West Virginia. No state yet requires a course that combines AI and computer science. Start years differ: Arkansas began with ninth graders in 2022 to 2023, West Virginia begins with ninth graders in 2027 to 2028.
+> Twelve states require a high school computer science course for graduation, according to Code.org (2025), 2025 State of AI + CS Education: Alabama, Arkansas, Indiana, Louisiana, Nebraska, Nevada, North Carolina, North Dakota, Rhode Island, South Carolina, Tennessee and West Virginia. No state yet requires a course that combines AI and computer science. Start years differ: Arkansas began with ninth graders in 2022 to 2023, West Virginia begins with ninth graders in 2027 to 2028. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / CS graduation requirements by state
 

@@ -111,7 +111,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Most BlueJ problems have four causes, all covered in the official BlueJ FAQ: no Java kit found (reinstall BlueJ with its bundled JDK), a firewall or proxy blocking BlueJ&rsquo;s local connection, a class that is not compiled yet (grayed options), or a program waiting silently for keyboard input in the terminal. Check them in that order.',
+  capsule: 'Most BlueJ problems have four causes, all covered in the official BlueJ FAQ: no Java kit found (reinstall BlueJ with its bundled JDK), a firewall or proxy blocking BlueJ&rsquo;s local connection, a class that is not compiled yet (grayed options), or a program waiting silently for keyboard input in the terminal. Check them in that order. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',

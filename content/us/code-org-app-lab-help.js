@@ -119,7 +119,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Most App Lab bugs break one of four documented rules: an onEvent must come after the element it listens to, with an id typed exactly; variables that must keep their value are created once with var at the top, never inside onEvent; getText returns text, so use getNumber for arithmetic; and data callbacks finish later, so never put them in a loop.',
+  capsule: 'Most App Lab bugs break one of four documented rules: an onEvent must come after the element it listens to, with an id typed exactly; variables that must keep their value are created once with var at the top, never inside onEvent; getText returns text, so use getNumber for arithmetic; and data callbacks finish later, so never put them in a loop. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',

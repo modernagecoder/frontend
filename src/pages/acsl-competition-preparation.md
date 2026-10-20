@@ -4,7 +4,7 @@ description: "How to prepare for ACSL from the official 2026-27 pages: five divi
 canonical: https://learn.modernagecoders.com/acsl-competition-preparation
 source: src/pages/acsl-competition-preparation.html
 ---
-> ACSL, the American Computer Science League, is a team contest for K-12 students run in four online contests each season. Every contest has a short answer test on computer science topics, and the Junior, Intermediate and Senior divisions add a programming problem in Python, C++ or Java solved within 72 hours. For 2026-27, Contest #1 opens October 19, 2026, team registration closes December 31, 2026, and the Finals are on May 29, 2027.
+> ACSL, the American Computer Science League, is a team contest for K-12 students run in four online contests each season. Every contest has a short answer test on computer science topics, and the Junior, Intermediate and Senior divisions add a programming problem in Python, C++ or Java solved within 72 hours. For 2026-27, Contest #1 opens October 19, 2026, team registration closes December 31, 2026, and the Finals are on May 29, 2027. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / ACSL preparation
 

@@ -39,6 +39,7 @@ module.exports = {
   accent: '#944B56',
   accentRationale: 'Philadelphia: #944B56, the allocated dusty brick rose, warm like old Philadelphia rowhouse brick, distinct from the New York burgundy and readable on every paper',
   pageType: 'city',
+  audience: 'kids',
   place: {
     name: 'Philadelphia',
     eyebrow: 'Philadelphia, Pennsylvania',

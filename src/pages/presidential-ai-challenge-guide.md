@@ -4,7 +4,7 @@ description: "The Presidential AI Challenge, renamed the Presidential SI Challen
 canonical: https://learn.modernagecoders.com/presidential-ai-challenge-guide
 source: src/pages/presidential-ai-challenge-guide.html
 ---
-> The Presidential AI Challenge, renamed the Presidential SI Challenge on September 29, 2026, is a federal K-12 competition where student teams use AI to tackle a community problem. Each team needs an adult Team Leader, submits one PDF of up to 10 pages plus a title page and a video of up to 4 minutes, and is scored out of 100. For the 2027 cycle, registration closes December 18, 2026 and projects are due December 23, 2026, both at 5:00 p.m. Eastern.
+> The Presidential AI Challenge, renamed the Presidential SI Challenge on September 29, 2026, is a federal K-12 competition where student teams use AI to tackle a community problem. Each team needs an adult Team Leader, submits one PDF of up to 10 pages plus a title page and a video of up to 4 minutes, and is scored out of 100. For the 2027 cycle, registration closes December 18, 2026 and projects are due December 23, 2026, both at 5:00 p.m. Eastern. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Presidential AI Challenge
 

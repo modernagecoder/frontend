@@ -4,7 +4,7 @@ description: "AP Computer Science A score calculator: the published 55/45 weight
 canonical: https://learn.modernagecoders.com/ap-computer-science-a-score-calculator
 source: src/pages/ap-computer-science-a-score-calculator.html
 ---
-> An AP Computer Science A estimate starts from the published weights: 42 multiple-choice questions are 55% of the score and four free-response questions, worth 7, 7, 5 and 6 points, are 45%. Our composite is MC right / 42 &times; 55 plus FRQ points / 25 &times; 45. College Board does not publish the raw cutoffs for a 3, 4 or 5, so any score from a calculator is an estimate.
+> An AP Computer Science A estimate starts from the published weights: 42 multiple-choice questions are 55% of the score and four free-response questions, worth 7, 7, 5 and 6 points, are 45%. Our composite is MC right / 42 &times; 55 plus FRQ points / 25 &times; 45. College Board does not publish the raw cutoffs for a 3, 4 or 5, so any score from a calculator is an estimate. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / AP CSA score calculator
 

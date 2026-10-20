@@ -73,7 +73,7 @@ module.exports = {
 
   h1: 'Coding and AI classes in Oklahoma',
   capsuleQ: 'Do Oklahoma public schools have to offer computer science?',
-  capsule: 'Yes. Under 70 O.S. &sect; 11-103.6m, from the 2024 to 2025 school year every public elementary and middle school must offer instruction aligned to the Oklahoma Academic Standards for Computer Science, and every public high school must offer at least one standalone computer science course. We teach the same standards live online, from block coding to AP Computer Science.',
+  capsule: 'Yes. Under 70 O.S. &sect; 11-103.6m, from the 2024 to 2025 school year every public elementary and middle school must offer instruction aligned to the Oklahoma Academic Standards for Computer Science, and every public high school must offer at least one standalone computer science course. We teach the same standards live online, from block coding to AP Computer Science. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
   lead: 'Oklahoma placed its requirement on schools rather than on students: the law, as the State Department of Education summarizes it, is about what every school must offer. That puts weight on the 2023 standards, which divide high school work into a Level 1 for everyone and a Level 2 for students heading toward computing careers or further study. Below are the requirement and the standards as the department publishes them, the access and enrollment figures for the most recent year reported, and a sorting project on Oklahoma City&rsquo;s parks that turns one city dataset into a lesson about the biggest few and the long tail.',
   wa: 'Hello Modern Age Coders, I would like a free coding or AI class for a student in Oklahoma.',
 

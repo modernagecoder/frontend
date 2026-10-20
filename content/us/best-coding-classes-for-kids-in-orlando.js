@@ -38,6 +38,7 @@ module.exports = {
   accent: '#242280',
   accentRationale: 'Orlando: #242280, a deep Lake Eola evening indigo from the allocation table, apart from the other US accents and readable on every paper colour',
   pageType: 'city',
+  audience: 'kids',
   place: {
     name: 'Orlando',
     eyebrow: 'Orlando, Florida, United States',

@@ -4,7 +4,7 @@ description: "Code.org App Lab help from the official docs: why a button does no
 canonical: https://learn.modernagecoders.com/code-org-app-lab-help
 source: src/pages/code-org-app-lab-help.html
 ---
-> Most App Lab bugs break one of four documented rules: an onEvent must come after the element it listens to, with an id typed exactly; variables that must keep their value are created once with var at the top, never inside onEvent; getText returns text, so use getNumber for arithmetic; and data callbacks finish later, so never put them in a loop.
+> Most App Lab bugs break one of four documented rules: an onEvent must come after the element it listens to, with an id typed exactly; variables that must keep their value are created once with var at the top, never inside onEvent; getText returns text, so use getNumber for arithmetic; and data callbacks finish later, so never put them in a loop. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Code.org App Lab help
 

@@ -138,7 +138,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'Twelve states require a high school computer science course for graduation, according to Code.org (2025), 2025 State of AI + CS Education: Alabama, Arkansas, Indiana, Louisiana, Nebraska, Nevada, North Carolina, North Dakota, Rhode Island, South Carolina, Tennessee and West Virginia. No state yet requires a course that combines AI and computer science. Start years differ: Arkansas began with ninth graders in 2022 to 2023, West Virginia begins with ninth graders in 2027 to 2028.',
+  capsule: 'Twelve states require a high school computer science course for graduation, according to Code.org (2025), 2025 State of AI + CS Education: Alabama, Arkansas, Indiana, Louisiana, Nebraska, Nevada, North Carolina, North Dakota, Rhode Island, South Carolina, Tennessee and West Virginia. No state yet requires a course that combines AI and computer science. Start years differ: Arkansas began with ninth graders in 2022 to 2023, West Virginia begins with ninth graders in 2027 to 2028. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Meet the requirement with confidence',

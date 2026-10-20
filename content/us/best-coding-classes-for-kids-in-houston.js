@@ -34,6 +34,7 @@ module.exports = {
   accent: '#365880',
   accentRationale: 'Houston: a muted bayou-water blue #365880 from the allocation table, contrast 6.92 on the paper and 5.95 on the deepest tint',
   pageType: 'city',
+  audience: 'kids',
   place: {
     name: 'Houston',
     eyebrow: 'Houston, Texas',

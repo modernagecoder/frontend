@@ -60,7 +60,7 @@ module.exports = {
   ],
   eyebrow: 'United States &middot; Ages 5 to 18 &middot; Facts read 17 October 2026',
   h1: 'The best online coding classes for kids in the USA, compared',
-  lede: 'There is no single best online coding class for every child, and any page that names one without asking about your child is selling something. This comparison puts six providers that teach US kids side by side, using only what each one publishes on its own website, read on 17 October 2026: how they teach, which ages they take, how big the groups are, who the teachers are and what a trial looks like. We are one of the six, so we have kept our own row to the same plain facts and left the choosing to you.',
+  lede: 'There is no single best online coding class for every child, and the right one depends on your child. This comparison puts six providers that teach US kids side by side, using only what each one publishes on its own website, read on 17 October 2026: how they teach, which ages they take, how big the groups are, who the teachers are and what a trial looks like. We are one of the six, so we have kept our own row to the same plain facts and left the choosing to you.',
   secondaryCta: { href: '#compare', label: 'See the comparison table' },
   wa: 'Hello Modern Age Coders, I am comparing online coding classes for my child in the US. Could we book a free first lesson?',
   heroNote: 'Facts from each provider&rsquo;s own site &middot; read 17 October 2026 &middot; no rankings',

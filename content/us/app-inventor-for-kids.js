@@ -101,7 +101,7 @@ module.exports = {
     ['Start', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'MIT App Inventor is a free, web-based tool from MIT for building phone apps with blocks. Kids design screens in the Designer, add behavior in the Blocks Editor, and test live on an iPhone, Android phone or Chromebook through the free Companion app. It works with a Google account, or without one through code.appinventor.mit.edu and a revisit code.',
+  capsule: 'MIT App Inventor is a free, web-based tool from MIT for building phone apps with blocks. Kids design screens in the Designer, add behavior in the Blocks Editor, and test live on an iPhone, Android phone or Chromebook through the free Companion app. It works with a Google account, or without one through code.appinventor.mit.edu and a revisit code. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn it with a teacher',

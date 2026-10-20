@@ -4,7 +4,7 @@ description: "AI literacy for elementary students in grades K to 5: what it mean
 canonical: https://learn.modernagecoders.com/ai-literacy-for-elementary-students
 source: src/pages/ai-literacy-for-elementary-students.html
 ---
-> For grades K to 5, AI literacy is not about using chatbots. It is understanding that AI is a non-human tool that produces outputs from patterns in data, spotting where AI appears in daily life, telling rule-following machines from ones that learn, and checking AI answers against trusted sources. Coding and data activities build all of it.
+> For grades K to 5, AI literacy is not about using chatbots. It is understanding that AI is a non-human tool that produces outputs from patterns in data, spotting where AI appears in daily life, telling rule-following machines from ones that learn, and checking AI answers against trusted sources. Coding and data activities build all of it. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
 [Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / AI literacy for elementary students
 

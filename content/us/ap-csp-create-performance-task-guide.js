@@ -84,7 +84,7 @@ module.exports = {
     ['Begin', 'A free first lesson']
   ],
   capsuleQ: 'In short',
-  capsule: 'The AP CSP Create performance task asks you to build a program of your choice in at least 9 hours of class time and submit three components as final in the AP Digital Portfolio: your program code as a PDF, a video of up to 1 minute with no narration, and a Personalized Project Reference of screen captures with no comments. The deadline for the 2027 exam is April 30, 2027, at 11:59 PM ET.',
+  capsule: 'The AP CSP Create performance task asks you to build a program of your choice in at least 9 hours of class time and submit three components as final in the AP Digital Portfolio: your program code as a PDF, a video of up to 1 minute with no narration, and a Personalized Project Reference of screen captures with no comments. The deadline for the 2027 exam is April 30, 2027, at 11:59 PM ET. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.',
 
   picks: {
     eyebrow: 'Learn the ideas first',
