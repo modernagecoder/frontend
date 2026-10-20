@@ -54123,5 +54123,54 @@
       "That our classes satisfy a Colorado graduation requirement: refused; districts decide which courses count.",
       "Any affiliation with the City and County of Denver, the Denver Public Library, CDE, Code.org or the College Board."
     ]
+  },
+  "best-coding-classes-for-kids-in-charlotte": {
+    "market": "Charlotte",
+    "bodyClass": "cg-best",
+    "pageType": "city",
+    "curriculumAuthority": "North Carolina, one sentence only, linking /coding-and-ai-classes-in-north-carolina; Code.org (2025) raw sheet Most Recent Access Data, NC 2024-2025, 513 of 735; IANA America/New_York and the US DST rule. charlottenc.gov, mecknc.gov, cmlibrary.org and ridetransit.org returned 403.",
+    "localProject": "City of Charlotte Bus Stops (data.charlottenc.gov, CC BY-NC-SA 4.0, aggregate counts only, attributed), queried 18 October 2026: 2,849 stops; Shelter 299 (10.5%); bench or shelter 637 (22.4%); both 14; transfer points 433, sheltered 103 (23.8%), bench or shelter 180 (41.6%). Lesson family: filtering on category attributes and percentages of a subset with the denominator stated.",
+    "requiredMentions": [
+      "2,849",
+      "299, or 10.5%",
+      "103, or 23.8%",
+      "180, or 41.6%",
+      "14 stops have both a bench and a shelter",
+      "26, of which 11 are listed with park and ride",
+      "53: 41 bus and 12 rail",
+      "53.6 million",
+      "574,193",
+      "More than 194"
+    ],
+    "sources": [
+      {
+        "claim": "City of Charlotte open data: Bus Stops layer (CATS), licence CC BY-NC-SA 4.0.",
+        "url": "https://services.arcgis.com/9Nl857LBlQVyzq54/arcgis/rest/services/Bus_Stops/FeatureServer/0"
+      },
+      {
+        "claim": "City of Charlotte open data portal: Council Districts, LYNX stations and stops, Park and Ride Lots, Libraries, Historic Districts.",
+        "url": "https://data.charlottenc.gov/"
+      },
+      {
+        "claim": "Charlotte Douglas International Airport, About CLT: 2025 passengers, operations, destinations, ACI ranking.",
+        "url": "https://www.cltairport.com/airport-info/about-clt/"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: North Carolina access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/New_York and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "City of Charlotte, Mecklenburg County, Charlotte Mecklenburg Library and CATS web pages: 403 on 18 October 2026, not retried; no facts taken from them.",
+      "Republishing the bus stop data: not done; CC BY-NC-SA 4.0 data, so only a few aggregate counts are quoted with attribution.",
+      "Ridership (Avg_Board, Avg_Alight) and stop addresses: not used; counts of stop features only.",
+      "Council member names and emails in the Council Districts layer: not printed.",
+      "Repeating the North Carolina graduation rule in detail: left to the North Carolina page.",
+      "Any affiliation with the City of Charlotte, CATS, Mecklenburg County or Charlotte Douglas International Airport."
+    ]
   }
 }
