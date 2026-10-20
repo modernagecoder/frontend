@@ -53630,5 +53630,55 @@
       "That our classes satisfy AP or TEA requirements: refused.",
       "Any affiliation with the City of Austin, TEA, the College Board or Code.org."
     ]
+  },
+  "best-coding-classes-for-kids-in-chicago": {
+    "market": "Chicago",
+    "bodyClass": "cg-bek",
+    "pageType": "city",
+    "curriculumAuthority": "Illinois, 18 October 2026: isbe.net and ilga.gov did not resolve (DNS, retried twice), so no state rule is printed; Code.org (2025) State of AI + CS Education, Most Recent Access Data: IL 2023-2024, 418 of 721 (58.0%), State Education Agency; IANA America/Chicago and the US DST rule.",
+    "localProject": "City of Chicago Data Portal, CTA List of L Stops (8pix-ypme), downloaded 18 October 2026: 302 stop records, 144 map_id stations, 108 distinct names; our stations per line Red 33, Blue 33, Green 31, Brown 27, Purple 26, Pink 22, Orange 16, Yellow 3 (total 191); 22 stations on two or more lines; Clark/Lake on six. Terms: as is, derivative-use disclaimer quoted. Lesson family: group-by with overlapping groups.",
+    "requiredMentions": [
+      "302 rows",
+      "144 stations",
+      "108 different station names",
+      "Clark/Lake serves six",
+      "77 community areas",
+      "26 miles of open lakefront",
+      "303 miles of bike lanes",
+      "82 library location records"
+    ],
+    "sources": [
+      {
+        "claim": "City of Chicago Data Portal: CTA List of L Stops, used for the group-by.",
+        "url": "https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme"
+      },
+      {
+        "claim": "City of Chicago: Data Terms of Use and derivative-use disclaimer.",
+        "url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html"
+      },
+      {
+        "claim": "City of Chicago: Facts and Statistics (wards, community areas, parks, beaches, lakefront, bike lanes).",
+        "url": "https://www.chicago.gov/city/en/about/facts.html"
+      },
+      {
+        "claim": "City of Chicago Data Portal: Libraries - Locations, Contact Information, and Usual Hours.",
+        "url": "https://data.cityofchicago.org/resource/x8fc-8rcq.json"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Illinois access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Chicago and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Illinois computer science rules: isbe.net and ilga.gov did not resolve on 18 October 2026, so nothing is printed second hand.",
+      "Chicago population figure on the facts page: not used (no census-style figures).",
+      "An official count of L stations: not read; only our counts, labelled as ours.",
+      "Names of schools or of individuals: none printed.",
+      "Any affiliation with the City of Chicago, the CTA, the Park District or Code.org."
+    ]
   }
 }
