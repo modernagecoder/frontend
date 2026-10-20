@@ -25113,6 +25113,18 @@
   to = "/src/pages/ai-and-python-classes-for-teens-in-portland-oregon.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/best-coding-classes-for-kids-in-minneapolis"
+  to = "/src/pages/best-coding-classes-for-kids-in-minneapolis.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-for-kids-in-minneapolis.md"
+  to = "/src/pages/best-coding-classes-for-kids-in-minneapolis.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

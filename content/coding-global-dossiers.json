@@ -54333,5 +54333,72 @@
       "An explanation for the fall in Oregon CS access: none published in what we read; not guessed.",
       "Any affiliation with the City of Portland, Portland Urban Forestry, ODE, Code.org or the College Board."
     ]
+  },
+  "best-coding-classes-for-kids-in-minneapolis": {
+    "market": "Minneapolis",
+    "bodyClass": "cg-beki",
+    "pageType": "city",
+    "curriculumAuthority": "Minnesota, read raw on 18 October 2026: Minnesota Statutes 120B.241 (2023 Computer Science Education Advancement Program; high schools report CS offerings and enrollment), one sentence only; education.mn.gov served a bot challenge, not quoted; Code.org (2025) raw sheet Access tabs (MN 2023-2024, 275 of 799, 34.4%); IANA America/Chicago and the US DST rule.",
+    "localProject": "City of Minneapolis Motorized Foot Scooter and eBike Trips 2024 (copyright waived, reference use), queried 18 October 2026: 804,546 trips; scooter 597,883, bicycle 206,663; our monthly pivot April to October (September peak 172,763), months sum to the total; season April 4 to October 15, 2024; trail starts 15,824 averaging 4,567 m. Lesson family: pivot tables and checking parts against the total.",
+    "requiredMentions": [
+      "804,546",
+      "597,883",
+      "172,763",
+      "15,824",
+      "Curb-protected bikeways and paths",
+      "Over 140 miles",
+      "ordinance requires scooters to be disabled at midnight",
+      "13 Council Members",
+      "At most 3,000 scooters, with 3 licensees operating",
+      "Running since 2006",
+      "4,567 meters",
+      "April 4 to October 15"
+    ],
+    "sources": [
+      {
+        "claim": "City of Minneapolis, Bicycling: miles of trails, protected bikeways and painted lanes.",
+        "url": "https://www.minneapolismn.gov/getting-around/bicycling/"
+      },
+      {
+        "claim": "City of Minneapolis, Rent a scooter: hours, midnight ordinance, snow and ice suspension, fleet cap, licensees.",
+        "url": "https://www.minneapolismn.gov/getting-around/scooters/rent-a-scooter/"
+      },
+      {
+        "claim": "City of Minneapolis, Community and neighborhoods: 83 residential neighborhoods.",
+        "url": "https://www.minneapolismn.gov/resident-services/neighborhoods/"
+      },
+      {
+        "claim": "City of Minneapolis, City Council: 13 Council Members and wards.",
+        "url": "https://www.minneapolismn.gov/government/city-council/"
+      },
+      {
+        "claim": "City of Minneapolis, City trees program since 2006.",
+        "url": "https://www.minneapolismn.gov/government/programs-initiatives/environmental-programs/city-trees/"
+      },
+      {
+        "claim": "City of Minneapolis open data: Motorized Foot Scooter and eBike Trips 2024.",
+        "url": "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services/Motorized_Foot_Scooter_and_eBike_Trips_2024/FeatureServer/0"
+      },
+      {
+        "claim": "Minnesota Revisor of Statutes, section 120B.241.",
+        "url": "https://www.revisor.mn.gov/statutes/cite/120B.241"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Minnesota access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Chicago and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Minnesota Department of Education pages: a bot challenge was served, not circumvented; nothing quoted.",
+      "Minneapolis Park and Recreation Board facts: minneapolisparks.org returned 403, not retried.",
+      "The city's poverty-area scooter distribution rule: income-related content, left out.",
+      "Minneapolis parks acreage: already the Minnesota state page project, not repeated here.",
+      "Rides per scooter as a fact: shown only as a rough exercise idea, no number printed.",
+      "Any affiliation with the City of Minneapolis, the Park Board, MDE, Code.org or the College Board."
+    ]
   }
 }
