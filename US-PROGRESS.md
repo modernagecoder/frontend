@@ -278,7 +278,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 120 | best-coding-classes-for-kids-in-houston (bes, #365880) | metro | 3,347 | 1.8% vs coding-classes-in-illinois | phase 5 | histograms and skewed distributions (why equal-width bins hide most of the data) | 37d872d4 |
 | 121 | online-coding-and-ai-classes-in-dallas-fort-worth (adfw, #3D2885) | metro | 2,871 | 1.9% vs coding-and-ai-classes-in-minnesota | phase 5 | string cleaning and normalisation (one word spelled three ways) | e4c69920 |
 | 122 | ai-and-python-classes-for-teens-in-austin-texas (apta, #80454C) | metro | 3,108 | 1.5% vs online-coding-and-ai-classes-in-dallas-fort-worth | phase 5 | missing values, including zeros and placeholder labels that hide missing data | 78ccccc8 |
-| 123 | best-coding-classes-for-kids-in-chicago (bek, #61270F) | metro | 3,129 | 2% vs best-coding-classes-for-kids-in-houston | phase 5 | group-by and counting with overlapping groups (by ID, by name, by line) | (this commit) |
+| 123 | best-coding-classes-for-kids-in-chicago (bek, #61270F) | metro | 3,129 | 2% vs best-coding-classes-for-kids-in-houston | phase 5 | group-by and counting with overlapping groups (by ID, by name, by line) | 478d3535 |
+| 124 | online-coding-and-ai-classes-in-seattle (as, #495280) | metro | 2,776 | 2% vs online-coding-and-ai-classes-in-dallas-fort-worth | phase 5 | joining two tables on a key (inner vs left join, orphan rows) | (this commit) |
 
 ## Skipped
 

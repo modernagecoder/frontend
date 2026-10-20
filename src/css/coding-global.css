@@ -1782,3 +1782,4 @@
 .cg-root.cg-adfw  { --cg-accent: #3D2885; --cg-accent-soft: rgba(61,40,133,.10); }   /* Dallas Fort Worth: a deep muted indigo #3D2885 from the allocation table, contrast 10.76 on the paper and 9.26 on the deepest tint */
 .cg-root.cg-apta  { --cg-accent: #80454C; --cg-accent-soft: rgba(128,69,76,.10); }   /* Austin: a muted cedar-bark rose #80454C from the allocation table, contrast 6.89 on the paper and 5.93 on the deepest tint */
 .cg-root.cg-bek  { --cg-accent: #61270F; --cg-accent-soft: rgba(97,39,15,.10); }   /* Chicago: a dark muted brick #61270F from the allocation table, contrast 10.97 on the paper and 9.44 on the deepest tint */
+.cg-root.cg-as  { --cg-accent: #495280; --cg-accent-soft: rgba(73,82,128,.10); }   /* Seattle: a muted Puget Sound slate #495280 from the allocation table, contrast 7.07 on the paper and 6.08 on the deepest tint */

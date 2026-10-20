@@ -53680,5 +53680,61 @@
       "Names of schools or of individuals: none printed.",
       "Any affiliation with the City of Chicago, the CTA, the Park District or Code.org."
     ]
+  },
+  "online-coding-and-ai-classes-in-seattle": {
+    "market": "Seattle",
+    "bodyClass": "cg-as",
+    "pageType": "city",
+    "curriculumAuthority": "Washington, read raw on 18 October 2026: ospi.k12.wa.us returned 403; the Revised Code of Washington, computer science section (districts operating a high school must provide access to an elective CS course), summarized in one sentence only; Code.org (2025) State of AI + CS Education, Most Recent Access Data: WA 2024-2025, 396 of 774 (51.2%); IANA America/Los_Angeles and the US DST rule.",
+    "localProject": "Seattle Open Data Park Addresses (v5tj-kqhc, 412 rows) and Park Features By PMAID (xrnu-8eiq, 1,044 rows on 282 PMAIDs), both public domain, downloaded 18 October 2026; our join: 266 PMAIDs in both, 33 orphan feature rows on 16 PMAIDs, 146 parks with no features; Play Area 142, Drinking fountains 132; Warren G. Magnuson Park 16 features. Lesson family: joining tables on a key.",
+    "requiredMentions": [
+      "PMAID",
+      "1,044",
+      "33, on 16 PMAIDs",
+      "146",
+      "a 6,441-acre park system of over 489 parks",
+      "about 12% of the city",
+      "eight indoor swimming pools",
+      "59 lighted fields",
+      "25 community centers",
+      "Warren G. Magnuson Park"
+    ],
+    "sources": [
+      {
+        "claim": "Seattle Open Data: Seattle Parks And Recreation Park Addresses (public domain).",
+        "url": "https://data.seattle.gov/resource/v5tj-kqhc.json"
+      },
+      {
+        "claim": "Seattle Open Data: Park Features By PMAID (public domain).",
+        "url": "https://data.seattle.gov/resource/xrnu-8eiq.json"
+      },
+      {
+        "claim": "Seattle Parks and Recreation: About Us (acreage, parks, community centers, pools, fields).",
+        "url": "https://www.seattle.gov/parks/about-us"
+      },
+      {
+        "claim": "Seattle City Council: seven districts and two citywide positions.",
+        "url": "https://www.seattle.gov/council"
+      },
+      {
+        "claim": "Washington State Legislature: RCW 28A.230.300 Computer science.",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=28A.230.300"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Washington access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Los_Angeles and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "OSPI guidance on computer science: ospi.k12.wa.us returned 403 on 18 October 2026, not retried; the statute is quoted instead.",
+      "The cause of the orphan feature rows: not stated by the city, so only a possible reason is offered.",
+      "Council member names and park addresses: not printed; counts only.",
+      "That our classes earn Washington credit or meet the substitution rule: refused.",
+      "Any affiliation with the City of Seattle, OSPI or Code.org."
+    ]
   }
 }
