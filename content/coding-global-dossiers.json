@@ -53471,5 +53471,56 @@
       "Census or demographic layers in the same organization: not used.",
       "Any affiliation with the County of Orange, OC Public Works, OC Public Libraries or Code.org."
     ]
+  },
+  "best-coding-classes-for-kids-in-houston": {
+    "market": "Houston",
+    "bodyClass": "cg-bes",
+    "pageType": "city",
+    "curriculumAuthority": "Texas, read raw on 18 October 2026: TEA Technology Applications page (K-8 TEKS final approval 2022, implemented 2024-25, 19 TAC Chapter 126; TEKS Guide 101 webinars August 2026 for K-2, 3-5, 6-8); Code.org (2025) State of AI + CS Education, Most Recent Access Data: TX 2023-2024, 1,036 of 2,160, State Education Agency and School Catalogs; IANA America/Chicago and the US DST rule.",
+    "localProject": "COHGIS Houston Parks layer (public domain, no warranty), attributes downloaded 18 October 2026: 380 records (Harris 378, Fort Bend 2); our histogram of Park_Acres in widening bins (91, 106, 72, 59, 27, 6, 13, 6); our median about 4.75 acres; largest record 10,488.7; Park_Type Neighborhood Park 167, Pocket Park 22, blank 30; AcreSource GIS Value 367. Lesson family: histograms and skewed distributions.",
+    "requiredMentions": [
+      "172 greenspaces",
+      "more than 25,000 acres",
+      "revitalized 30 neighborhood parks",
+      "District A to District K",
+      "378 in Harris County",
+      "10,488.7 acres",
+      "4.75 acres",
+      "TEKS Guide 101"
+    ],
+    "sources": [
+      {
+        "claim": "City of Houston, HPARD About Us: over 380 developed parks, 172 greenspaces, more than 25,000 acres, accreditation, 2023 revitalization of 30 parks.",
+        "url": "https://www.houstontx.gov/parks/aboutus.html"
+      },
+      {
+        "claim": "City of Houston, City Council: sixteen members, five At-Large, eleven districts A to K, four-year terms.",
+        "url": "https://www.houstontx.gov/council/"
+      },
+      {
+        "claim": "COHGIS Houston Parks feature service (public domain licence text) used for the histogram.",
+        "url": "https://services.arcgis.com/NummVBqZSIJKUeVR/arcgis/rest/services/COH_Parks_view/FeatureServer/14"
+      },
+      {
+        "claim": "TEA Technology Applications: K-8 TEKS approved 2022, implemented 2024-25, TEKS Guide 101 webinars.",
+        "url": "https://tea.texas.gov/academics/subject-area-resources/technology-applications"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Texas high school CS access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Chicago and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Official acreage of individual parks: the page prints only our bins and median from GIS values, labelled as ours.",
+      "Any count of Houston schools or school names: not needed; none printed.",
+      "Census income or population figures: excluded by the brief.",
+      "The Texas strands and the computer-science-as-language credit rule: covered on /coding-classes-in-texas, not repeated.",
+      "That our classes meet any Texas standard or requirement: refused.",
+      "Any affiliation with the City of Houston, HPARD, TEA or Code.org."
+    ]
   }
 }

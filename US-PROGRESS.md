@@ -274,7 +274,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 116 | ai-and-python-classes-for-teens-in-san-francisco-bay-area (apts, #0B1E4C) | metro | 2,743 | 2.3% vs online-coding-and-ai-classes-in-los-angeles | phase 5 | dates stored as text, blank values, and filtering out dates that cannot be true  | 99a2ff99 |
 | 117 | best-coding-classes-for-kids-in-san-jose (bksj, #1A1380) | metro | 2,896 | 1.8% vs best-coding-classes-for-kids-in-new-york-city | phase 5 | nearest-neighbor search with straight-line distance on latitude and longitude | c797eb86 |
 | 118 | online-coding-and-ai-classes-in-san-diego (ais, #801F2F) | metro | 2,668 | 1.6% vs coding-and-ai-classes-in-alabama | phase 5 | de-duplicating repeated measurements by keeping the latest per key, then ranking | 34bdefcc |
-| 119 | ai-and-python-classes-for-teens-in-orange-county-california (apto, #523231) | metro | 2,761 | 2.2% vs online-coding-and-ai-classes-in-los-angeles | phase 5 | spatial join with a point-in-polygon test, and checking a derived field against  | (this commit) |
+| 119 | ai-and-python-classes-for-teens-in-orange-county-california (apto, #523231) | metro | 2,761 | 2.2% vs online-coding-and-ai-classes-in-los-angeles | phase 5 | spatial join with a point-in-polygon test, and checking a derived field against  | 96cdc31e |
+| 120 | best-coding-classes-for-kids-in-houston (bes, #365880) | metro | 3,347 | 1.8% vs coding-classes-in-illinois | phase 5 | histograms and skewed distributions (why equal-width bins hide most of the data) | (this commit) |
 
 ## Skipped
 
