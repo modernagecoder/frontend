@@ -254,7 +254,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 76 | coding-and-ai-classes-in-kansas (ak, #425231) | state | 3,399 | 1.6% vs coding-and-ai-classes-in-alabama | phase 4 | nearest-neighbour search | b8cbf9ce |
 | 77 | coding-and-ai-classes-in-kentucky (aike, #367014) | state | 3,128 | 1.8% vs coding-and-ai-classes-in-michigan | phase 4 | word frequency in a text column (tokenizing names) | 5b42a915 |
 | 93 | coding-and-ai-classes-in-ohio (ao, #852C1C) | state | 3,744 | 1.9% vs coding-and-ai-classes-in-indiana | phase 4 | cleaning categories before counting (what a record is, filters, coded values, un | bb9e268f |
-| 94 | coding-and-ai-classes-in-oklahoma (aio, #52481D) | state | 3,505 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sorting and top-N, then concentration (how much of the total the top few hold) | (this commit) |
+| 94 | coding-and-ai-classes-in-oklahoma (aio, #52481D) | state | 3,505 | 1.8% vs coding-and-ai-classes-in-north-carolina | phase 4 | sorting and top-N, then concentration (how much of the total the top few hold) | 769bec52 |
+| 95 | coding-and-ai-classes-in-oregon (aior, #287050) | state | 3,532 | 1.6% vs coding-and-ai-classes-in-michigan | phase 4 | dates and time series (fiscal-year labels, start and end dates, and a field that | (this commit) |
 
 ## Skipped
 

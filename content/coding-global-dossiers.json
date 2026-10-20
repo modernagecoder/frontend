@@ -52465,5 +52465,58 @@
       "That our classes satisfy the school offering: refused.",
       "Any affiliation with the Oklahoma State Department of Education, the City of Oklahoma City, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-oregon": {
+    "market": "Oregon",
+    "bodyClass": "cg-aior",
+    "pageType": "city",
+    "curriculumAuthority": "Oregon, read raw on 18 October 2026: ODE Oregon Diploma page (24 credits; math Algebra I and above, Algebra, Geometry and Data Reasoning standards; no CS line; SB 3 from January 1, 2027; Essential Skills assessment suspended through 2027-28; districts may add requirements); ODE Options for Awarding Credit (four sources of evidence; OAR 581-022-2025); no ODE CS standards page found; Code.org (2025) data (access 54%, 63%, 64%, 60.2%, 56.2%; 195 of 347 in 2023-24; participation 8.1%, 6.7%, 6.94%; 12,717 of 183,221 in 2022-23; national 6.4% and 60%); College Board AP 194/196, public 160/161, non-public 34/35; IANA Pacific except northern three quarters of Malheur County, America/Boise.",
+    "localProject": "State Library of Oregon, Oregon Public Library Statistics (data.oregon.gov 8zw7-zgjw; no licence field, attribution State Library), fetched 18 October 2026: 2,183 rows, report years 2010 to 2025 labelled by submission year, 133 to 144 libraries a year; our median teen programs per library 4 (2010), 9 (2015), 12 (2019), 2 (2021), 15 (2023), 18 (2024), 16 (2025); circebook only in 2025 (133 rows, median 4,722). All ours. Lesson family: dates and time series.",
+    "requiredMentions": [
+      "Data Reasoning",
+      "Total",
+      "January 1, 2027",
+      "OAR 581-022-2025",
+      "12,717 of 183,221",
+      "56.2%",
+      "Malheur County",
+      "2,183 rows",
+      "4,722"
+    ],
+    "sources": [
+      {
+        "claim": "ODE: Oregon Diploma, credit requirements, SB 3, Essential Skills.",
+        "url": "https://www.oregon.gov/ode/students-and-family/OregonDiploma/Pages/default.aspx"
+      },
+      {
+        "claim": "ODE: Options for Awarding Credit, OAR 581-022-2025.",
+        "url": "https://www.oregon.gov/ode/students-and-family/OregonDiploma/Pages/Credit-Options.aspx"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Oregon and national access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "State Library of Oregon: Oregon Public Library Statistics on data.oregon.gov.",
+        "url": "https://data.oregon.gov/d/8zw7-zgjw"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Oregon Pacific except Malheur County, America/Boise.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Oregon computer science standards adoption year or content: no ODE CS standards page was found on 18 October 2026, and oregonlegislature.gov did not connect.",
+      "That a coding course counts as math, CTE or any specific credit area: ODE does not say so; left to districts.",
+      "Any reason for the fall in Oregon access since 2021 to 2022 or for the library series changes (including 2021): not stated by the sources.",
+      "A statewide library total: our page prints medians only, labelled ours.",
+      "Portland open data (portlandmaps.com) and the Oregon State Parks service: unreachable or returned 502, not used.",
+      "Library names, addresses, salaries, revenue and fines fields: not used.",
+      "That our classes earn Oregon credit, and any affiliation with ODE, the State Library of Oregon, Code.org or the College Board."
+    ]
   }
 }

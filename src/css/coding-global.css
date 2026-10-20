@@ -1758,3 +1758,4 @@
 .cg-root.cg-aike  { --cg-accent: #367014; --cg-accent-soft: rgba(54,112,20,.10); }   /* Kentucky: #367014, a bluegrass-pasture green from the US allocation table (alloc.tsv row 77), with enough contrast for text on the paper and clear of the other state accents */
 .cg-root.cg-ao  { --cg-accent: #852C1C; --cg-accent-soft: rgba(133,44,28,.10); }   /* Ohio: #852C1C, a dark buckeye-husk brown red, allocated in alloc.tsv row 93 and checked by the build for 4.5:1 contrast on every paper */
 .cg-root.cg-aio  { --cg-accent: #52481D; --cg-accent-soft: rgba(82,72,29,.10); }   /* Oklahoma: a muted prairie olive, #52481D, allocated in alloc.tsv for row 94, dark enough to hold contrast on the paper without reading as black */
+.cg-root.cg-aior  { --cg-accent: #287050; --cg-accent-soft: rgba(40,112,80,.10); }   /* Oregon: #287050, a deep Douglas fir green, allocated in alloc.tsv row 95 and checked by the build for 4.5:1 contrast on every paper */
