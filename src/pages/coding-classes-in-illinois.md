@@ -1,349 +1,259 @@
 ---
-title: "Coding Classes in Illinois | Live Online, Ages 6 to 67"
-description: "Live online coding and maths for Illinois students aged 6 to 67. HB 2170 made computer science an entitlement, not a guarantee. From USD 100, first class free."
+title: "Coding Classes in Illinois | Live Online Coding and AI"
+description: "Live online coding and AI classes for Illinois students: the computer literacy graduation year, AP computer science as a math credit, and a Chicago data project."
 canonical: https://learn.modernagecoders.com/coding-classes-in-illinois
 source: src/pages/coding-classes-in-illinois.html
 ---
-> Live online coding and maths for Illinois students aged 6 to 67. HB 2170 made computer science an entitlement, not a guarantee. From USD 100, first class free.
+> Not as a named course. The Illinois State Board of Education chart asks for one year of a course with intensive instruction in computer literacy (PA 101-0654), which may be English, social science or another subject, and lets AP computer science count toward the three math years. Modern Age Coders adds live online coding and AI classes for grades 2 to 12.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Illinois
 
-Illinois / Live online
+Illinois, United States / Live online
 
-# Illinois guarantees your child the chance to take computer science. Only the chance.
+# Coding classes in Illinois
 
-The short answer
+**Does Illinois require computer science to graduate from high school?** Not as a named course. The Illinois State Board of Education chart asks for one year of a course with intensive instruction in computer literacy (PA 101-0654), which may be English, social science or another subject, and lets AP computer science count toward the three math years. Modern Age Coders adds live online coding and AI classes for grades 2 to 12.
 
-The Education and Workforce Equity Act gives every Illinois student the opportunity to take at least one computer science course from the 2023 to 2024 school year. That is a floor, not a ceiling, and many students clear it in a term. Modern Age Coders teaches what comes next, live, for ages 6 to 67, in batches of fifteen to twenty or privately, at USD 100 and USD 150 a month. The opening class is free.
+Illinois takes an unusual route. Instead of a stand-alone computer science course, its graduation chart asks for a year of computer literacy that a school can fold into an English or social science class, and it treats AP computer science as a mathematics course. Separately, districts must give students computer literacy practice at every grade from kindergarten up. That leaves a lot of room: one school may teach real programming, another may meet the rule with spreadsheets and research skills. This page lays out what the State Board actually publishes, what the access figures show about which students get a programming course, and a Chicago open data project that teaches one of the most practical skills in code: cleaning up names that are written five different ways.
 
-Illinois did something unusually decent in 2021. Rather than leaving computer science to whichever districts could afford it, the state legislated an entitlement, so that access would not depend on a postcode. It was the right instinct and it has moved real numbers. What it cannot legislate is depth, and depth is what a motivated student runs out of first.
+Facts last verified 18 October 2026. Teaching is online; no Illinois branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
-This page sets out exactly what Illinois law requires, what Chicago requires on top of it, and where a family who has already used up the school's provision can go next. Illinois sits within our [United States](/coding-classes-in-united-states) coverage.
+## Courses that turn computer literacy into real programming
 
-Book the free first classWhat the law requires
+Pick by grade, then let a free first lesson confirm the level. Group batch or one-to-one, both taught live.
 
-No card. No obligation. We call, we do not spam.
+- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Grades 2 to 5): Events, loops and variables in Scratch, finished as playable games: computer literacy with something to show for it.
+- [Java for Teens](/courses/java-programming-masterclass-for-teens) (Grades 8 to 11): Classes, methods and arrays in Java, the language AP Computer Science A is written in.
+- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course) (Grades 10 to 12): Full AP Computer Science A preparation, the kind of course Illinois lets count toward a math year.
+- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Grades 9 to 12): Python and pandas on messy public data, including the Chicago bike route cleanup below.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for Illinois
+The four we are known for, on every market page:
 
-## Where a student goes after the one course the law guarantees
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
 
-These are the courses that live above the entitlement floor. All four are built on data that was not invented for a lesson.
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-[![AI and ML for teens course thumbnail](/images/ai-ml-teens.webp)  Ages 13 to 18 AI and ML for teens Models built and evaluated by hand before any library is allowed near them. See the syllabus](/courses/ai-ml-masterclass-teens)[![Data science for teens course thumbnail](/images/data-science-teens.webp)  Ages 13 to 18 Data science for teens Real datasets with real traps inside them, worked in Python and pandas. See the syllabus](/courses/data-science-course-for-teens-python-data)[![AP Computer Science A course thumbnail](/images/ap-computer-science-a.webp)  Ages 14 to 18 AP Computer Science A Java, the exam unit structure, and the free response questions that decide the grade. See the syllabus](/courses/ap-computer-science-a-java-exam-prep-course)[![Statistics and probability course thumbnail](/images/statistics-probability-maths.webp)  Ages 14 to 18 Statistics and probability The reasoning that stops a confident wrong conclusion from a correct calculation. See the syllabus](/courses/statistics-probability-maths-course)
+## Where computers appear in Illinois graduation requirements
 
-That is four of more than a hundred. The rest, sorted by age and subject, sit on the [course atlas](/course-atlas), and the order we teach them in is on the [coding roadmap](/coding-roadmap).
+From the Illinois State Board of Education (ISBE) document &ldquo;Illinois graduation requirements 105 ILCS 5/27-22, 27-22.05, 27-22.10&rdquo;, dated March 2025, read on 18 October 2026.
 
-The four we are known for
+**Computer-related lines in the ISBE graduation chart, by the year a student enters ninth grade**
 
-### Python, AI, vibe coding and agentic coding
+| Requirement | What ISBE says | Applies to |
+|---|---|---|
+| Computer literacy | One year of a course that includes intensive instruction in computer literacy, which may be English, social science, or any other subject, and which may count toward other requirements (PA 101-0654) | Students entering ninth grade in 2022 to 2023 and later, as marked on the chart |
+| Mathematics, 3 years | Algebra I, a course with geometry content, and a third year; Advanced Placement (AP) computer science is eligible | Every entering class shown on the chart |
+| Laboratory science | Two years of laboratory science (IEP students exempt) | Pupils entering ninth grade in 2024 to 2025 and later |
+| World language | Two years of world language, which may include American Sign Language (IEP students exempt) | Pupils entering ninth grade in 2028 to 2029 and later |
 
-These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+### Literacy, not a named course
 
-[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)HB 2170, signed March 2021
+Because the computer literacy year may be English, social science or any other subject, and may double up with other requirements, it does not guarantee that a student ever writes a program. What it teaches depends on the district.
 
-## An entitlement, and what an entitlement is not
+### AP computer science as math
 
-HB 2170, the Education and Workforce Equity Act, was signed in March 2021 and championed by the Illinois Legislative Black Caucus. Its computer science provisions are among the most concrete in any state.
+Under Section 27-22 (f-5) of the School Code, the course description for AP computer science must say it is equivalent to a high school mathematics course, so it counts toward the three math years.
 
-| Requirement | From |
-| --- | --- |
-| Every student offered the opportunity to take at least one computer science course aligned to rigorous learning standards | 2023 to 2024 school year |
-| High school students take one year of a course that includes intensive instruction in computer literacy | 2022 to 2023 school year |
-| Districts ensure students gain computer literacy skills beginning in elementary school | Ongoing |
-| State Board of Education develops computer science learning standards | Delivered by end of 2021 |
+### The bigger frame
 
-Now read the first row again, carefully. The obligation is to *offer the opportunity*. That was a deliberate and defensible choice: the aim was to remove the situation where a child in one district has computer science and a child twenty minutes away has none. As an equity floor it is genuinely good policy, and we are not going to sneer at it in order to sell something.
+ISBE also says each student must have at least 16 units in grades 9 to 12 from a four-year school, and lists the U.S. and Illinois Constitution examination among the conditions for a diploma.
 
-But a floor is a floor. The law does not say the course must be taught by somebody who has written software. It does not say what happens in year two for the student who finished year one in October. And it does not say the course has to lead anywhere. In practice a capable fourteen year old often exhausts what their school can offer inside a single term and then sits still for three years, which is precisely the point at which most of our Illinois families first call us.
+For a student who wants programming on the transcript, the most direct route under these rules is AP Computer Science A or Principles, which can satisfy a math year while teaching real code. Whether your school offers it, and how it codes the computer literacy year, is a question for your counselor; local districts often add their own requirements on top of the state chart.
 
-Chicago went further, earlier
+## A computer literacy mandate at every grade level
 
-Chicago Public Schools made computer science a high school graduation requirement in 2016, ahead of the state and ahead of almost every large district in the United States. That is a district rule, not a state one. A student in Naperville, Schaumburg or Aurora falls under the state provisions instead. Illinois is a patchwork by design, so check what applies to your own school rather than to Illinois in general.
+ISBE&rsquo;s Illinois Instructional Mandates for the 2025 to 2026 school year, last updated December 2025, list computer literacy as required at each grade level K-12.
 
-One more thing, and we will be unhelpfully honest about it. It is widely reported that an AP computer science course may count toward the three years of mathematics required for graduation in Illinois. We could not confirm the current provision at primary source, so we will not state it as settled. Ask your counsellor to show you the rule that applies to your child's cohort. We have seen enough families plan around a half-remembered version of a rule to think this matters.
+### What the law asks
 
-Above the floor
+All school districts shall ensure that students receive developmentally appropriate opportunities to gain computer literacy skills embedded in the district&rsquo;s curriculum at each grade level, citing 105 ILCS 5/10-20.79 and 10-20.74.
 
-## What comes after the one course the law guarantees
+### Embedded, not separate
 
-The pairing below is deliberately arranged around the gap rather than around the entitlement. On the left is what a student typically has after school has done its statutory duty. On the right is where we take them next.
+The wording is &ldquo;embedded in the district&rsquo;s curriculum&rdquo;. A third grader might meet it through typing and file skills inside reading class rather than through a coding lesson.
 
-After school's provision
+### A guide, not a rule
 
-Computer literacy. Files, documents, spreadsheets, safe behaviour online. Required of every Illinois high school student since 2022 to 2023.
+ISBE points districts to its Computer Literacy Knowledge and Skill Development Continuum, which it describes as non-regulatory, plus outside materials such as Code.org and Computer Science Unplugged.
 
-Useful, and not programming. We treat it as the prerequisite it is and move a student on to writing instructions a machine executes. See [Kids Coding Blocks Masterclass](/courses/kids-coding-blocks-masterclass).
+**How a family can read the Illinois rules by stage (the right-hand column is our suggestion, not ISBE&rsquo;s)**
 
-After school's provision
+| Stage | What the state requires | What we suggest adding |
+|---|---|---|
+| Grades K to 5 | Computer literacy skills embedded at each grade | Block coding, so literacy includes making things, not only using them |
+| Grades 6 to 8 | Computer literacy skills embedded at each grade | A first typed language and a small data project |
+| Grades 9 to 12 | One computer literacy year; AP computer science may count as math | AP Computer Science A or Principles, plus a project portfolio |
+| Any grade | Nothing beyond the above | An AI unit that explains how a model learns and where it goes wrong |
 
-One introductory computer science course, often the only one the timetable can carry.
+We did not find a separate computer science standards page on the ISBE website when we checked its sitemap on 18 October 2026, so this page makes no claim about Illinois computer science standards. The mandates and the graduation chart are the two ISBE documents quoted here.
 
-The second course, and the third. Python to real depth rather than a second tour of loops and conditionals. See [Python Complete Masterclass for Teens](/courses/python-complete-masterclass-teens).
+## Five spellings of one street: cleaning Chicago&rsquo;s bike route data
 
-Rarely available
+The City of Chicago publishes every bike route segment on its data portal as dataset hvv9-38ut. Each segment names the street it runs from and the street it runs to, and those names are not written consistently.
 
-Anything involving real data. Introductory courses almost never reach a dataset that was not invented for the lesson.
+**How many different cross-street names are in the Chicago Bike Routes data? Our counts after each cleaning step (1,008 segments, downloaded 18 October 2026)**
 
-Our Illinois project uses live Chicago civic data with a genuine modelling trap in it, described below. See [Data Science for Teens](/courses/data-science-course-for-teens-python-data).
+| Cleaning step | Distinct names left |
+|---|---|
+| Raw values, exactly as published (2,016 endpoints) | 583 |
+| Upper case, and runs of spaces collapsed to one | 578 |
+| Leading direction letter removed (N, S, E or W) | 486 |
+| Street type removed as well (AVE, ST, BLVD and so on) | 435 |
 
-Rarely available
+### 1. Spot the noise
 
-Machine learning taught as mathematics rather than as an API call.
+Most names are in capitals, but six are not, such as W Cermak Rd, and one has a double space inside N DAMEN AVE. Python sees each of those as a brand new street until the student fixes it.
 
-Models built and evaluated by hand before any library appears, so a student knows what accuracy is actually measuring. See [AI and ML for Teens](/courses/ai-ml-masterclass-teens).
+### 2. Clean in small steps
 
-Rarely available
+Students write one function per rule, strip, upper, collapse spaces, then count distinct names after each step. Watching 583 fall to 578, then 486, shows exactly what each rule did.
 
-The mathematics underneath, taught alongside rather than years later.
+### 3. Know when to stop
 
-Statistics and probability run on the same track as the coding, with the same teacher. See [Statistics and Probability](/courses/statistics-probability-maths-course).
+The last step goes too far. Dropping the suffix merges WASHINGTON BLVD with WASHINGTON ST, two different streets. The dataset&rsquo;s own fields show it: 266 distinct street values but only 239 bare names.
 
-### Elementary
+### Our counts, the city&rsquo;s data
 
-Ages 6 to 10
+All the counts above are our own, from one download. The City of Chicago provides its data as is and makes no warranty about accuracy or completeness. A cleaning rule is a decision a programmer makes, so a good project records each rule and the count it produced.
 
-- [Block coding](/courses/kids-coding-blocks-masterclass)
-- [Game development](/courses/game-development-masterclass-for-kids)
-- [Mental maths](/courses/mental-maths-mastery-kids)
-- [Elementary mathematics](/courses/elementary-mathematics-complete-masterclass)
+The same file carries a route type for every segment: 285 Bike Lane, 258 Neighborhood Greenway, 184 Buffered Bike Lane, 174 Protected Bike Lane and 107 Marked Shared Lane, by our count. Older students can chart those totals, then check whether type labels need cleaning too. They do not, which is its own useful finding.
 
-### Middle school
+## Fewer than six in ten Illinois high schools offered computer science
 
-Ages 11 to 13
+Illinois values from two national sources: Code.org for high schools teaching the subject, the College Board for schools with AP exams.
 
-- [Python and AI](/courses/python-ai-kids-masterclass)
-- [Visual machine learning](/courses/orange-data-mining-visual-machine-learning-course-for-teens)
-- [Data science](/courses/data-science-course-for-teens-python-data)
-- [Middle school maths](/courses/comprehensive-middle-school-mathematics-mastery)
+**Share of Illinois high schools with a foundational CS course, year by year (Code.org 2025 sheet, trend tab plus its newest-count tab)**
 
-### High school
+| School year | Share of high schools |
+|---|---|
+| 2018 to 2019 | 45% |
+| 2019 to 2020 | 43% |
+| 2020 to 2021 | 44% |
+| 2021 to 2022 | 54% |
+| 2022 to 2023 | 59.7% |
+| 2023 to 2024 | 58.0%, or 418 of 721 high schools, from state education agency data |
 
-Ages 14 to 18
+**Students and AP schools in Illinois**
 
-- [AI and ML for teens](/courses/ai-ml-masterclass-teens)
-- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)
-- [Statistics and probability](/courses/statistics-probability-maths-course)
-- [High school maths](/courses/complete-high-school-mathematics-mastery)
+| Measure | Value | Notes |
+|---|---|---|
+| High school students in a CS course | 35,902 of 595,765, or 6.03% | Code.org (2025); the rate equals its 2023 to 2024 value, with fall 2022 NCES enrollment as the base |
+| Illinois schools with AP exams in 2023 | 691 | College Board, AP exams by state report, 2023-24 |
+| Illinois schools with AP exams in 2024 | 715 | Same report |
 
-### College and adult
+Code.org lists no Illinois access figure for 2024 to 2025, so the newest value is from 2023 to 2024. Across six school years the share climbed from 45% to a peak of 59.7% before easing to 58.0%. About six in every hundred high school students took computer science. Since AP computer science can count toward math, the 715 schools giving AP exams in 2024 are worth asking about, although the College Board figure counts all AP subjects, not computer science alone.
 
-18 to 67
+Citation for the access and enrollment values: Code.org (2025). 2025 State of AI + CS Education. We quote Illinois rows only and do not reproduce the sheet.
 
-- [Data science, complete](/courses/data-science-complete-masterclass-college)
-- [Python and AI automation](/courses/python-ai-automation-masterclass-college)
-- [Data analytics mathematics](/courses/data-analytics-mathematics-masterclass)
-- [College mathematics](/courses/college-mathematics-complete-masterclass)
+## Chicago time, which the city once kept by contract
 
-The complete catalogue is on the [course atlas](/course-atlas), with the teaching method on [how we teach](/how-we-teach).
+All of Illinois is on US Central time, and the IANA database uses Chicago as the reference for that zone.
 
-Illinois data project
+### One zone statewide
 
-## A model that is right 95 percent of the time and completely useless
+The time zone database names Illinois in its list for &ldquo;US central time, represented by Chicago&rdquo;. From Rockford to Carbondale, one clock: America/Chicago.
 
-The Illinois project is the one that fools students who already know some machine learning, and a fair number of adults who build it for a living. It runs on the city's beach water records.
+### India and Central
 
-Source: Chicago Data Portal, beach water qualityLevel: Grade 8 and upConcept: Model evaluation
+Our arithmetic: India is 10 hours 30 minutes ahead of Central Daylight Time and 11 hours 30 minutes ahead of Central Standard Time. US clocks fall back on November 1, 2026.
 
-The Chicago Park District monitors water quality at the Lake Michigan beaches, testing for Escherichia coli as an indicator of disease-causing bacteria, and issues a swim advisory when the predicted level reaches at least 235 Colony Forming Units per 100 millilitres. The city publishes the lab results, the advisories and the model predictions as open data, updated daily through the beach season. It has also run the forecasting problem publicly, working with volunteer data scientists and university students to improve on it.
+### Your schedule
 
-So a student has a genuine, consequential classification problem with real data: given today's conditions, will this beach need an advisory? They build a model. It reports something like ninety-five percent accuracy. That feels like success, and in a school project it would be graded like success.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are confirmed in Central time.
 
-The trap
+**History inside the data** The database notes that in 1869 the Chicago Astronomical Society contracted with the city to keep time, and its America/Chicago entry shows the city on Eastern Standard Time from March 1 to November 15, 1936. Students who ask a time library for a 1936 Chicago timestamp can watch it apply that rule, a neat proof that zones are data, not constants.
 
-Most beach-days are fine. If advisories are issued on roughly one day in twenty, then a model that ignores every input and answers "safe" every single time is also about ninety-five percent accurate. It has learned nothing, it will never issue a warning, and it scores the same as the student's model. Accuracy on an imbalanced problem measures the imbalance, not the model.
+## From block games to AP Computer Science A
 
-This is the moment the project earns its place, because the student now has to find out what to measure instead. They meet the confusion matrix, and then precision and recall, not as vocabulary but as the answer to a question they actually have. They discover that the two kinds of mistake are not equivalent: a false alarm closes a beach on a good day, while a missed advisory sends children into contaminated water. Any honest evaluation has to weigh those differently, and deciding how to weigh them is not a mathematical question at all.
+Grades are rough guides; the first lesson finds the right starting point.
 
-That last point is the one we most want a fourteen year old to carry away. There is a step in every serious machine learning problem where the mathematics stops and somebody has to make a judgement about consequences. Pretending that step does not exist is how models get deployed badly.
+- **Grades 2 to 5: Make, do not just use** Blocks, sprites and small games, turning everyday computer literacy into creation. [Coding for Kids](/courses/kids-coding-blocks-masterclass), [Scratch Coding for Kids](/courses/scratch-programming-complete-course)
+- **Grades 6 to 8: Pages and scripts** HTML, CSS and early JavaScript, with real websites a student can share. [HTML & CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites), [JavaScript for Teens](/courses/javascript-course-for-teens-beginners-interactive-web)
+- **Grades 9 to 10: A real language** Java or Python fundamentals, version control, and the habit of testing code. [Java for Teens](/courses/java-programming-masterclass-for-teens), [Git & GitHub Course for Teens](/courses/git-github-version-control-course-for-teens)
+- **Grades 11 to 12: AP on the transcript** AP Computer Science A or Principles, the routes Illinois lets count as math. [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course), [AP Computer Science Principles](/courses/ap-computer-science-principles-exam-prep-course)
 
-| Step | What the student does | What it teaches |
-| --- | --- | --- |
-| Build | Train a classifier and report its accuracy | Get the naive success on the record first |
-| Beat | Compare it against a model that always answers "safe" | A baseline is how you know if you have anything |
-| Count | Lay out true and false positives and negatives | One number was hiding four |
-| Weigh | Argue which error is worse here and by how much | The cost of an error is a human judgement |
-| Re-report | State performance using measures that survive imbalance | Choose the metric to fit the problem |
+## Computer literacy in Illinois should now include knowing how AI is made
 
-Older students go on to threshold tuning and to why the 235 figure is itself a policy decision rather than a natural constant. Younger ones stop after the baseline comparison, which is already the most useful hour of machine learning they will have had. Students pull current data from the Chicago portal themselves; nothing here is a number copied off a web page.
+Using a chatbot is a literacy skill; checking one is a programming skill.
 
-This runs directly into [AI and ML for teens](/courses/ai-ml-masterclass-teens) and, at college level, [data science](/courses/data-science-complete-masterclass-college). Students who want to build models across markets can also read [AI and machine learning in the USA](/ai-and-machine-learning-classes-in-usa). Completed work sits in the [student labs](/student-labs).
+Hand the Chicago bike route file to an AI model and ask how many streets it mentions. It may count 583, or 435, or something else, and it will rarely say which cleaning rules it chose. A student who has built the steps by hand knows the question has no single answer until the rules are written down.
 
-The arrangement
+That is the gap a literacy course leaves open. Knowing which buttons to press is useful; knowing how data is cleaned, how a model is trained on it and how its output can mislead is what lets a student use AI tools with confidence instead of blind trust.
 
-## What an Illinois family is buying
+Illinois guarantees every student a year of computer literacy; real coding practice is what makes that literacy hold up against AI. The longer argument is in [why coding is still worth learning beside AI tools](/blog/is-coding-worth-learning-2026).
 
-### A teacher who codes
+## From the Loop to downstate, one live online class
 
-Live for the full hour, watching the student work. The single most common thing we hear from Illinois parents is that the school course was taught by somebody teaching it for the first time.
+Illinois families are spread across a big city and a long rural state. Online teaching treats them all the same.
 
-### Somewhere to go next
+- **No commute** A student in Naperville and one in Peoria can join the same session from home, with no evening drive across the suburbs.
+- **Fits Illinois school** Teachers plan in US grade levels and can connect projects to AP computer science or a computer literacy course. Homework and tests set by a school remain the student&rsquo;s work, never ours.
+- **A free first lesson** The teacher sets a short task, sees how the student works, and recommends a course, level and time. No payment details are asked for.
+- **Small batches** Fifteen to twenty students at the same level, from Illinois and other states.
+- **Private lessons** One teacher, one student, for anyone who wants a faster pace or focused AP preparation.
+- **Central time** Every lesson time is confirmed on Chicago time, whatever part of Illinois you live in.
 
-The entitlement gets a student one course. We are built as a ladder, so finishing something is followed by starting the next thing rather than by waiting.
+**Fully online** Modern Age Coders has no center in Illinois. Lessons are taught live by teachers in India, and a student needs a computer, a working microphone and a steady connection.
 
-### Fifteen to twenty, one teacher
+## What lessons cost for Illinois families
 
-Groups stay small and keep the same teacher every week. Private tuition is available where a student needs the whole hour to themselves.
+A free start, then a choice of two monthly plans.
 
-### Real data, not toy data
+- First class: USD 0. A full trial lesson at no charge, with a suggested course, level and time at the end.
+- Group tuition: USD 100 a month. Monthly lessons in a batch of fifteen to twenty students working at the same stage.
+- Private tuition: USD 150 a month. Monthly lessons with a teacher who works with your student alone.
 
-Every project uses something that exists outside the lesson. The Chicago beach problem above is a live civic modelling question, not an exercise invented to have a tidy answer.
+Outside India every family pays the same rate in US dollars, so Chicago and Champaign are billed alike. Payment begins only after the trial and only once a course and time are agreed; see the pricing page for holidays and missed lessons.
 
-### Maths on the same track
+## Questions Illinois families ask
 
-Statistics and probability taught beside the coding by the same teacher, because a student who cannot reason about proportion cannot evaluate a model.
+### Is computer science required for an Illinois diploma?
 
-### Nothing to install
+Not as a named course. The ISBE chart requires one year of a course with intensive instruction in computer literacy (PA 101-0654), which may be English, social science or another subject.
 
-Browser based throughout. A laptop or desktop, a microphone and a working connection is the entire list, which matters on a locked-down school device.
+### Which students need the computer literacy year?
 
-Before you book anything
+On the March 2025 ISBE chart, the computer literacy requirement is marked for students entering ninth grade in 2022 to 2023 and later.
 
-## When you probably do not need us
+### Can AP computer science count as a math class in Illinois?
 
-Illinois provision is uneven, and in the direction that matters for the families most likely to be reading this page. Several of the suburban districts with the largest South Asian communities also run genuinely strong computer science programmes, with teachers who write software and a sequence that continues past the introductory course. If that describes your school, paying us to duplicate it would be a poor use of your money and we would rather say so.
+Yes. ISBE says AP computer science is eligible toward the three years of mathematics, under Section 27-22 (f-5) of the School Code.
 
-Four questions will tell you which situation you are in. Ask the school, not the internet.
+### Do Illinois elementary schools have to teach computer skills?
 
-| Ask the school | What the answer tells you |
-| --- | --- |
-| Which computer science courses run this year, and which ran last year? | A single course that appears and disappears is a staffing gap, not a programme |
-| What does a student take in the year after the introductory course? | If the answer is nothing, that is the year we exist for |
-| Has the teacher written software outside a classroom? | Not disqualifying, but it changes how far a keen student can be taken |
-| Does any course reach data that was not invented for the lesson? | This is the single biggest difference between a course and an exercise |
+Yes. ISBE lists computer literacy as required at each grade level K-12, embedded in the district's curriculum, citing 105 ILCS 5/10-20.79 and 10-20.74.
 
-If the answers are good, use the school. Come to us for the mathematics if that is where the gap is, or come back when your child has run past what the timetable can hold. If the answers are thin, you now know precisely what you are buying from us rather than buying on a feeling.
+### How many Illinois high schools teach computer science?
 
-Fees
+Code.org (2025) reports 418 of 721 Illinois high schools, about 58%, in 2023 to 2024, from state education agency data.
 
-## Monthly, in US dollars
+### Will your classes count as Illinois school credit?
 
-No enrolment charge, nothing to buy, no minimum term.
+No. Credit comes from courses your school offers. Our lessons add skills and projects alongside school, and anything a school grades stays the student's own work.
 
-Group$100per month, 8 classes
+### What days and times are lessons?
 
-Fifteen to twenty learners with one consistent teacher. Where most Illinois families begin.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
 
-Private$150per month, 8 classes
+### Are lesson times given in Central time?
 
-One learner setting the pace. Usually chosen where a student has already outrun their school by some distance.
+Yes. All of Illinois is on Central time, so we confirm every lesson in Central time.
 
-Pauses, plan changes and missed classes are covered on the [pricing page](/pricing).
+### Can my child join from anywhere in Illinois?
 
-Reviews
+Yes. Lessons are live online, so a student in Chicago, the suburbs or downstate joins the same way. We have no Illinois building.
 
-## What families say
+### Where are the fees listed?
 
-Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+In the fees section of this page: a free trial lesson, a monthly batch plan and a monthly one-to-one plan. Nothing is billed before the trial.
 
-★★★★★
+## More for Illinois students and families
 
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+See how Illinois compares in [computer science graduation requirements by state](/computer-science-graduation-requirements-by-state) and [high school computer science access by state](/high-school-computer-science-access-by-state). Students weighing AP can read [does AP computer science give college credit](/does-ap-computer-science-give-college-credit) and try our [AP Computer Science A practice questions](/ap-computer-science-a-practice-questions). For a state that made CS a full graduation course, see [North Carolina](/coding-and-ai-classes-in-north-carolina).
 
-Ria Mukherjee
+## Contact
 
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-More, with photographs and student work, on the [wall of love](/love).
-
-Questions
-
-## Illinois questions, answered plainly
-
-### What does HB 2170 actually require of Illinois schools?
-
-HB 2170, the Education and Workforce Equity Act, was signed in March 2021 and championed by the Illinois Legislative Black Caucus. It requires schools to offer every student the opportunity to take at least one computer science course aligned to rigorous standards from the 2023 to 2024 school year, obliges the State Board of Education to write those standards, and requires high school students to take one year of a course that includes intensive instruction in computer literacy from the 2022 to 2023 school year.
-
-### If the law already guarantees a course, why would we pay for another?
-
-Because the law creates an entitlement to be offered a course, which is not the same as a good course, a teacher who codes, or a class that goes anywhere. It is a floor deliberately set so that no Illinois student is denied access. Families come to us when a child has cleared that floor in a term and there is nothing above it, which in many districts happens quickly.
-
-### Is computer science required to graduate in Chicago?
-
-Chicago Public Schools made computer science a high school graduation requirement in 2016, ahead of the state and ahead of almost every large district in the country. That is a district requirement rather than a statewide one, so a student in Naperville, Schaumburg or Aurora is under the state rules instead. Confirm the position with your own school, because Illinois is a patchwork by design.
-
-### Does an AP computer science course count toward the Illinois maths requirement?
-
-It is widely reported that it can count toward the three years of mathematics required for graduation, but we could not confirm the current provision at primary source and we are not going to state it as settled. Ask your school counsellor to show you the rule in force for your child's cohort. We would rather be unhelpfully honest here than helpfully wrong.
-
-### Do you teach across Illinois or only Chicago?
-
-The whole state, and the distinction stops mattering the moment teaching is live over video. Chicago, Naperville, Schaumburg, Aurora, Peoria, Springfield and Champaign are all the same to us. The requirements are a laptop or desktop, a microphone and a connection good enough for a call. Nothing is posted and nothing is installed.
-
-### What time do classes run on Central Time?
-
-We fit the timetable to your household. Weekend slots are the easiest to arrange on Central Time, and weekday slots are agreed individually. Everything is settled on the demo call before you pay for anything, so a family never finds out after the fact that the only available slot collides with something immovable.
-
-### What are the fees for an Illinois family?
-
-USD 100 a month in a group of fifteen to twenty, or USD 150 a month one to one. Both are two classes a week, eight a month. There is no enrolment charge, nothing to buy, and no minimum term. The first class is free and is used to place the student properly rather than to sell.
-
-### Which ages do you take?
-
-Six to sixty-seven. Placement comes from what a learner can show in the opening class rather than from their year group. Elementary students start in blocks, middle school moves into Python and real data, high school works toward AP Computer Science A and the mathematics behind it, and adults are taught at adult pace.
-
-### How large is a class?
-
-Fifteen to twenty learners in a group, or one to one. The teacher is the same person every week in both cases. We do not rotate staff between sessions, because a teacher who already knows where a student got stuck last week begins the lesson somewhere useful instead of starting again.
-
-### How do we start?
-
-Book the free opening class. It is a lesson, not a pitch: a teacher sets real work, watches how the student handles it, and recommends a level based on that. If the honest recommendation is to wait, or that another provider fits better, that is what you will be told.
-
-Book a free class
-
-## A lesson, not a pitch
-
-Tell us the grade and what the school has already covered. A teacher runs a genuine opening class, works out the real starting point, and recommends a level. If we are not right for your child, that is what you will hear on the call.
-
-You can also use the [contact page](/contact), or read [about us](/about) first.
-
-Nearby
-
-## Other places we teach
-
-[United States](/coding-classes-in-united-states)[Virginia](/coding-classes-in-virginia)[New York](/coding-classes-in-new-york)[California](/coding-classes-in-california)[Texas](/coding-classes-in-texas)[New Jersey](/coding-classes-in-new-jersey)[AI and machine learning, USA](/ai-and-machine-learning-classes-in-usa)
-
----
-
-*Canonical: https://learn.modernagecoders.com/coding-classes-in-illinois*
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-illinois](https://learn.modernagecoders.com/coding-classes-in-illinois#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.

@@ -1,885 +1,100 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Coding Classes in Illinois | Live Online, Ages 6 to 67</title>
-  <meta name="description" content="Live online coding and maths for Illinois students aged 6 to 67. HB 2170 made computer science an entitlement, not a guarantee. From USD 100, first class free.">
-  <meta name="author" content="Modern Age Coders">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Coding Classes in Illinois | Live Online Coding and AI</title>
+  <meta name="description" content="Live online coding and AI classes for Illinois students: the computer literacy graduation year, AP computer science as a math credit, and a Chicago data project.">
   <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-in-illinois">
   <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-in-illinois.md" title="Markdown version for AI agents">
-
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <meta name="theme-color" content="#4C5B8A">
-
+  <link rel="stylesheet" href="/css/coding-global.css?v=20260907">
+  <style>
+.cg-root.cg-aiil .cg-hero-grid { align-items: start; gap: clamp(1rem, 2.8vw, 2.3rem); }
+.cg-root.cg-aiil .cg-hero h1 { font-weight: 780; letter-spacing: -0.024em; line-height: 1.04; }
+.cg-root.cg-aiil .cg-capsule { border-left: 5px solid var(--cg-accent); padding-left: 1.1rem; }
+.cg-root.cg-aiil .cg-eyebrow { letter-spacing: 0.14em; font-weight: 700; font-size: 0.76rem; text-transform: uppercase; }
+.cg-root.cg-aiil .cg-section-head h2 { max-width: 32ch; letter-spacing: -0.015em; }
+.cg-root.cg-aiil .cg-grid-3 { gap: clamp(1rem, 2.2vw, 1.9rem); }
+.cg-root.cg-aiil .cg-table caption { font-weight: 700; text-align: left; }
+.cg-root.cg-aiil .cg-table td { font-variant-numeric: tabular-nums; }
+.cg-root.cg-aiil .cg-ladder-col { border-top: 4px solid var(--cg-accent); padding-top: 0.8rem; }
+.cg-root.cg-aiil .cg-spec { border-left-width: 4px; }
+  </style>
+  <link rel="icon" href="/favicon.ico">
   <meta property="og:type" content="website">
+  <meta property="og:title" content="Coding Classes in Illinois | Live Online Coding and AI">
+  <meta property="og:description" content="Illinois asks every student for a year of computer literacy and lets AP computer science count toward math. What the rules say, and live online coding classes for Illinois.">
   <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-in-illinois">
-  <meta property="og:title" content="Coding Classes in Illinois | Live Online, Ages 6 to 67">
-  <meta property="og:description" content="Illinois law gives every student the opportunity to take computer science. An opportunity is not the same as a good course.">
-  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/ap-computer-science-a.webp">
   <meta property="og:site_name" content="Modern Age Coders">
   <meta property="og:locale" content="en_US">
-
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Coding Classes in Illinois">
-  <meta name="twitter:description" content="Live online coding and maths for Illinois students, ages 6 to 67, with a data project built on Chicago beach records.">
-  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
-
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="geo.region" content="US-IL">
+  <meta name="twitter:title" content="Coding Classes in Illinois | Live Online Coding and AI">
+  <meta name="twitter:description" content="Illinois coding and AI classes, live online, read against the state graduation chart.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/ap-computer-science-a.webp">
+  <meta name="geo.region" content="US">
   <meta name="geo.placename" content="Illinois">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/coding-global.css?v=20260817">
-
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
-
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#941638">
   <script type="application/ld+json" data-price-scope="coding.international">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "EducationalOrganization",
-        "@id": "https://learn.modernagecoders.com/#org",
-        "name": "Modern Age Coders",
-        "url": "https://learn.modernagecoders.com",
-        "logo": "https://learn.modernagecoders.com/images/logo.svg",
-        "foundingDate": "2020",
-        "areaServed": { "@type": "State", "name": "Illinois" },
-        "knowsAbout": ["Computer Science Education", "Data Science", "Machine Learning", "Python", "Statistics", "Mathematics", "Model Evaluation", "Algorithms", "Computer Literacy", "Classification"]
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Coding Classes in the United States", "item": "https://learn.modernagecoders.com/coding-classes-in-united-states" },
-          { "@type": "ListItem", "position": 3, "name": "Coding Classes in Illinois", "item": "https://learn.modernagecoders.com/coding-classes-in-illinois" }
-        ]
-      },
-      {
-        "@type": "Course",
-        "name": "Live Online Coding and Mathematics Classes for Illinois Students",
-        "description": "Live small-group and one-to-one coding and mathematics classes for students in Illinois, ages 6 to 67, aligned to the computer science entitlement created by the Education and Workforce Equity Act.",
-        "provider": { "@id": "https://learn.modernagecoders.com/#org" },
-        "educationalLevel": "Elementary, Middle School, High School, College, Adult",
-        "inLanguage": "en",
-        "hasCourseInstance": {
-          "@type": "CourseInstance",
-          "courseMode": "Online",
-          "courseWorkload": "PT2H",
-          "location": { "@type": "VirtualLocation", "url": "https://learn.modernagecoders.com/coding-classes-in-illinois" }
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "100",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://learn.modernagecoders.com/coding-classes-in-illinois"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What does HB 2170 actually require of Illinois schools?",
-            "acceptedAnswer": { "@type": "Answer", "text": "HB 2170, the Education and Workforce Equity Act, was signed in March 2021 and championed by the Illinois Legislative Black Caucus. It requires schools to offer every student the opportunity to take at least one computer science course aligned to rigorous standards from the 2023 to 2024 school year, obliges the State Board of Education to write those standards, and requires high school students to take one year of a course that includes intensive instruction in computer literacy from the 2022 to 2023 school year." }
-          },
-          {
-            "@type": "Question",
-            "name": "If the law already guarantees a course, why would we pay for another?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Because the law creates an entitlement to be offered a course, which is not the same as a good course, a teacher who codes, or a class that goes anywhere. It is a floor deliberately set so that no Illinois student is denied access. Families come to us when a child has cleared that floor in a term and there is nothing above it, which in many districts happens quickly." }
-          },
-          {
-            "@type": "Question",
-            "name": "Is computer science required to graduate in Chicago?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Chicago Public Schools made computer science a high school graduation requirement in 2016, ahead of the state and ahead of almost every large district in the country. That is a district requirement rather than a statewide one, so a student in Naperville, Schaumburg or Aurora is under the state rules instead. Confirm the position with your own school, because Illinois is a patchwork by design." }
-          },
-          {
-            "@type": "Question",
-            "name": "Does an AP computer science course count toward the Illinois maths requirement?",
-            "acceptedAnswer": { "@type": "Answer", "text": "It is widely reported that it can count toward the three years of mathematics required for graduation, but we could not confirm the current provision at primary source and we are not going to state it as settled. Ask your school counsellor to show you the rule in force for your child's cohort. We would rather be unhelpfully honest here than helpfully wrong." }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you teach across Illinois or only Chicago?",
-            "acceptedAnswer": { "@type": "Answer", "text": "The whole state, and the distinction stops mattering the moment teaching is live over video. Chicago, Naperville, Schaumburg, Aurora, Peoria, Springfield and Champaign are all the same to us. The requirements are a laptop or desktop, a microphone and a connection good enough for a call. Nothing is posted and nothing is installed." }
-          },
-          {
-            "@type": "Question",
-            "name": "What time do classes run on Central Time?",
-            "acceptedAnswer": { "@type": "Answer", "text": "We fit the timetable to your household. Weekend slots are the easiest to arrange on Central Time, and weekday slots are agreed individually. Everything is settled on the demo call before you pay for anything, so a family never finds out after the fact that the only available slot collides with something immovable." }
-          },
-          {
-            "@type": "Question",
-            "name": "What are the fees for an Illinois family?",
-            "acceptedAnswer": { "@type": "Answer", "text": "USD 100 a month in a group of fifteen to twenty, or USD 150 a month one to one. Both are two classes a week, eight a month. There is no enrolment charge, nothing to buy, and no minimum term. The first class is free and is used to place the student properly rather than to sell." }
-          },
-          {
-            "@type": "Question",
-            "name": "Which ages do you take?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Six to sixty-seven. Placement comes from what a learner can show in the opening class rather than from their year group. Elementary students start in blocks, middle school moves into Python and real data, high school works toward AP Computer Science A and the mathematics behind it, and adults are taught at adult pace." }
-          },
-          {
-            "@type": "Question",
-            "name": "How large is a class?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Fifteen to twenty learners in a group, or one to one. The teacher is the same person every week in both cases. We do not rotate staff between sessions, because a teacher who already knows where a student got stuck last week begins the lesson somewhere useful instead of starting again." }
-          },
-          {
-            "@type": "Question",
-            "name": "How do we start?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Book the free opening class. It is a lesson, not a pitch: a teacher sets real work, watches how the student handles it, and recommends a level based on that. If the honest recommendation is to wait, or that another provider fits better, that is what you will be told." }
-          }
-        ]
-      }
-    ]
-  }
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/","logo":"https://learn.modernagecoders.com/logo.png","foundingDate":"2020","email":"connect@modernagecoders.com","telephone":"+919123366161","sameAs":["https://www.facebook.com/modernagecoders","https://www.instagram.com/modernagecoders","https://www.youtube.com/@modernagecoders"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"United States","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":3,"name":"Illinois","item":"https://learn.modernagecoders.com/coding-classes-in-illinois"}]},{"@type":"Course","name":"Live Online Coding and AI Classes for Illinois Students","description":"Teacher-led online Scratch, Java, Python, data science and AP Computer Science for Illinois students from second grade through high school, placed by level after a free first lesson.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"educationalLevel":"Elementary, Middle School, High School, College, Adult","inLanguage":"en","hasCourseInstance":{"@type":"CourseInstance","courseMode":"Online","courseWorkload":"PT2H","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-in-illinois"}},"offers":{"@type":"Offer","price":"100","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-in-illinois"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is computer science required for an Illinois diploma?","acceptedAnswer":{"@type":"Answer","text":"Not as a named course. The ISBE chart requires one year of a course with intensive instruction in computer literacy (PA 101-0654), which may be English, social science or another subject."}},{"@type":"Question","name":"Which students need the computer literacy year?","acceptedAnswer":{"@type":"Answer","text":"On the March 2025 ISBE chart, the computer literacy requirement is marked for students entering ninth grade in 2022 to 2023 and later."}},{"@type":"Question","name":"Can AP computer science count as a math class in Illinois?","acceptedAnswer":{"@type":"Answer","text":"Yes. ISBE says AP computer science is eligible toward the three years of mathematics, under Section 27-22 (f-5) of the School Code."}},{"@type":"Question","name":"Do Illinois elementary schools have to teach computer skills?","acceptedAnswer":{"@type":"Answer","text":"Yes. ISBE lists computer literacy as required at each grade level K-12, embedded in the district's curriculum, citing 105 ILCS 5/10-20.79 and 10-20.74."}},{"@type":"Question","name":"How many Illinois high schools teach computer science?","acceptedAnswer":{"@type":"Answer","text":"Code.org (2025) reports 418 of 721 Illinois high schools, about 58%, in 2023 to 2024, from state education agency data."}},{"@type":"Question","name":"Will your classes count as Illinois school credit?","acceptedAnswer":{"@type":"Answer","text":"No. Credit comes from courses your school offers. Our lessons add skills and projects alongside school, and anything a school grades stays the student's own work."}},{"@type":"Question","name":"What days and times are lessons?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are lesson times given in Central time?","acceptedAnswer":{"@type":"Answer","text":"Yes. All of Illinois is on Central time, so we confirm every lesson in Central time."}},{"@type":"Question","name":"Can my child join from anywhere in Illinois?","acceptedAnswer":{"@type":"Answer","text":"Yes. Lessons are live online, so a student in Chicago, the suburbs or downstate joins the same way. We have no Illinois building."}},{"@type":"Question","name":"Where are the fees listed?","acceptedAnswer":{"@type":"Answer","text":"In the fees section of this page: a free trial lesson, a monthly batch plan and a monthly one-to-one plan. Nothing is billed before the trial."}}]}]}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","name":"Live Online Coding Classes in Illinois","serviceType":"Online coding, AI, data and mathematics education","provider":{"@id":"https://learn.modernagecoders.com/#org"},"areaServed":{"@type":"State","name":"Illinois","containedInPlace":{"@type":"Country","name":"United States"}},"audience":{"@type":"EducationalAudience","educationalRole":"student"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-in-illinois","availableLanguage":"English"},"offers":[{"@type":"Offer","name":"First live class","price":"0","priceCurrency":"USD"},{"@type":"Offer","name":"Monthly group classes","price":"100","priceCurrency":"USD"},{"@type":"Offer","name":"Monthly private classes","price":"150","priceCurrency":"USD"}]}
   </script>
     <meta name="mac-lead-country" content="US">
 </head>
-
-<body class="cg-root cg-il">
-
+<body class="cg-root cg-aiil">
 <a class="cg-sr" href="#main">Skip to content</a>
-
-<nav class="cg-nav" aria-label="Primary">
-  <div class="cg-wrap cg-nav-inner">
-    <a class="cg-nav-brand" href="/">Modern Age <span>Coders</span></a>
-    <div class="cg-nav-links">
-      <a href="#picks">Courses</a>
-      <a href="#law">What the law gives you</a>
-      <a href="#project">Student project</a>
-      <a href="#whether">Do you need us</a>
-      <a href="#fees">Fees</a>
-      <a class="cg-nav-cta" href="#start">Book a free class</a>
-    </div>
-  </div>
-</nav>
-
-<main id="main">
-
-<header class="cg-section cg-hero">
-  <div class="cg-wrap">
-    <p class="cg-crumbs">
-      <a href="/">Home</a> / <a href="/coding-classes-in-united-states">United States</a> / Illinois
-    </p>
-    <div class="cg-hero-grid">
-      <div>
-        <span class="cg-eyebrow">Illinois / Live online</span>
-        <h1>Illinois guarantees your child the chance to take computer science. Only the chance.</h1>
-
-        <div class="cg-capsule">
-          <p class="cg-capsule-q">The short answer</p>
-          <p>The Education and Workforce Equity Act gives every Illinois student the opportunity to take at least one computer science course from the 2023 to 2024 school year. That is a floor, not a ceiling, and many students clear it in a term. Modern Age Coders teaches what comes next, live, for ages 6 to 67, in batches of fifteen to twenty or privately, at USD 100 and USD 150 a month. The opening class is free.</p>
-        </div>
-
-        <p class="cg-lede">Illinois did something unusually decent in 2021. Rather than leaving computer science to whichever districts could afford it, the state legislated an entitlement, so that access would not depend on a postcode. It was the right instinct and it has moved real numbers. What it cannot legislate is depth, and depth is what a motivated student runs out of first.</p>
-
-        <p>This page sets out exactly what Illinois law requires, what Chicago requires on top of it, and where a family who has already used up the school's provision can go next. Illinois sits within our <a class="cg-inline-link" href="/coding-classes-in-united-states">United States</a> coverage.</p>
-
-        <div class="cg-btn-row">
-          <a class="cg-btn" href="#start">Book the free first class</a>
-          <a class="cg-btn cg-btn--ghost" href="#law">What the law requires</a>
-        </div>
-        <p class="cg-hero-note">No card. No obligation. We call, we do not spam.</p>
-      </div>
-
-      <aside>
-        <div class="cg-trust">
-          <div class="cg-fact"><span class="cg-fact-k">10,000+</span><span class="cg-fact-l">students taught</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">4.9</span><span class="cg-fact-l">across 547 Google reviews</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">2020</span><span class="cg-fact-l">teaching since</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">25+</span><span class="cg-fact-l">countries</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">6 to 67</span><span class="cg-fact-l">ages taught</span></div>
-          <div class="cg-fact"><span class="cg-fact-k">15 to 20</span><span class="cg-fact-l">students per group</span></div>
-        </div>
-      </aside>
-    </div>
-  </div>
-</header>
-
-<section class="cg-section" id="picks">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Courses for Illinois</span>
-      <h2>Where a student goes after the one course the law guarantees</h2>
-      <p>These are the courses that live above the entitlement floor. All four are built on data that was not invented for a lesson.</p>
-    </div>
-    <div class="cg-picks">
-        <a class="cg-pick" href="/courses/ai-ml-masterclass-teens">
-          <img fetchpriority="high" class="cg-pick-shot" src="/images/ai-ml-teens.webp" alt="AI and ML for teens course thumbnail" decoding="async" width="400" height="250">
-          <div class="cg-pick-body">
-            <span class="cg-pick-band">Ages 13 to 18</span>
-            <h3 class="cg-pick-title">AI and ML for teens</h3>
-            <p class="cg-pick-note">Models built and evaluated by hand before any library is allowed near them.</p>
-            <span class="cg-pick-go">See the syllabus</span>
-          </div>
-        </a>
-        <a class="cg-pick" href="/courses/data-science-course-for-teens-python-data">
-          <img class="cg-pick-shot" src="/images/data-science-teens.webp" alt="Data science for teens course thumbnail" loading="lazy" decoding="async" width="400" height="250">
-          <div class="cg-pick-body">
-            <span class="cg-pick-band">Ages 13 to 18</span>
-            <h3 class="cg-pick-title">Data science for teens</h3>
-            <p class="cg-pick-note">Real datasets with real traps inside them, worked in Python and pandas.</p>
-            <span class="cg-pick-go">See the syllabus</span>
-          </div>
-        </a>
-        <a class="cg-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
-          <img class="cg-pick-shot" src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" loading="lazy" decoding="async" width="400" height="250">
-          <div class="cg-pick-body">
-            <span class="cg-pick-band">Ages 14 to 18</span>
-            <h3 class="cg-pick-title">AP Computer Science A</h3>
-            <p class="cg-pick-note">Java, the exam unit structure, and the free response questions that decide the grade.</p>
-            <span class="cg-pick-go">See the syllabus</span>
-          </div>
-        </a>
-        <a class="cg-pick" href="/courses/statistics-probability-maths-course">
-          <img class="cg-pick-shot" src="/images/statistics-probability-maths.webp" alt="Statistics and probability course thumbnail" loading="lazy" decoding="async" width="400" height="250">
-          <div class="cg-pick-body">
-            <span class="cg-pick-band">Ages 14 to 18</span>
-            <h3 class="cg-pick-title">Statistics and probability</h3>
-            <p class="cg-pick-note">The reasoning that stops a confident wrong conclusion from a correct calculation.</p>
-            <span class="cg-pick-go">See the syllabus</span>
-          </div>
-        </a>
-    </div>
-    <p class="cg-picks-more">That is four of more than a hundred. The rest, sorted by age and subject, sit on the <a class="cg-inline-link" href="/course-atlas">course atlas</a>, and the order we teach them in is on the <a class="cg-inline-link" href="/coding-roadmap">coding roadmap</a>.</p><!-- flagships:start -->
+<nav class="cg-nav" aria-label="Primary navigation"><div class="cg-wrap cg-nav-inner"><a class="cg-nav-brand" href="/">Modern Age Coders</a><div class="cg-nav-links"><a href="/coding-classes-in-united-states">United States</a><a href="/courses">Courses</a><a href="/how-we-teach">How we teach</a><a class="cg-nav-cta" href="#book">Free class</a><a class="cg-nav-pd" href="/book-demo" data-pd-book="cg-nav">Priority demo</a></div></div></nav>
+<header class="cg-hero" id="main"><div class="cg-wrap"><div class="cg-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/coding-classes-in-united-states">United States</a><span>/</span><span>Illinois</span></div><div class="cg-hero-grid"><div><span class="cg-eyebrow">Illinois, United States</span><h1>Coding classes in Illinois</h1><div class="cg-capsule"><p class="cg-capsule-q">Does Illinois require computer science to graduate from high school?</p><p>Not as a named course. The Illinois State Board of Education chart asks for one year of a course with intensive instruction in computer literacy (PA 101-0654), which may be English, social science or another subject, and lets AP computer science count toward the three math years. Modern Age Coders adds live online coding and AI classes for grades 2 to 12.</p></div><p class="cg-hero-lead">Illinois takes an unusual route. Instead of a stand-alone computer science course, its graduation chart asks for a year of computer literacy that a school can fold into an English or social science class, and it treats AP computer science as a mathematics course. Separately, districts must give students computer literacy practice at every grade from kindergarten up. That leaves a lot of room: one school may teach real programming, another may meet the rule with spreadsheets and research skills. This page lays out what the State Board actually publishes, what the access figures show about which students get a programming course, and a Chicago open data project that teaches one of the most practical skills in code: cleaning up names that are written five different ways.</p><div class="cg-hero-actions"><a class="cg-btn cg-btn--primary" href="#book">Book the free class</a><a class="cg-btn cg-btn--pd" href="/book-demo" data-pd-book="cg-hero">Book a priority demo</a><a class="cg-btn cg-btn--ghost" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20student%20in%20Illinois.">Ask on WhatsApp</a></div><p class="cg-verified">Facts last verified 18 October 2026. Teaching is online; no Illinois branch is claimed.</p></div><aside><div class="cg-trust"><div class="cg-fact"><span class="cg-fact-k">10,000+</span><span class="cg-fact-l">students taught</span></div><div class="cg-fact"><span class="cg-fact-k">4.9</span><span class="cg-fact-l">across 547 Google reviews</span></div><div class="cg-fact"><span class="cg-fact-k">2020</span><span class="cg-fact-l">teaching since</span></div><div class="cg-fact"><span class="cg-fact-k">25+</span><span class="cg-fact-l">countries</span></div><div class="cg-fact"><span class="cg-fact-k">6 to 67</span><span class="cg-fact-l">ages taught</span></div><div class="cg-fact"><span class="cg-fact-k">15 to 20</span><span class="cg-fact-l">students per group</span></div></div></aside></div></div></header>
+<section class="cg-section" id="picks"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Course picks for Illinois</span><h2>Courses that turn computer literacy into real programming</h2><p>Pick by grade, then let a free first lesson confirm the level. Group batch or one-to-one, both taught live.</p></div><div class="cg-picks">
+  <a class="cg-pick" href="/courses/scratch-programming-complete-course"><img class="cg-pick-shot" src="/images/scratch-kids.webp" alt="Scratch Coding for Kids course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-band">Grades 2 to 5</span><h3 class="cg-pick-title">Scratch Coding for Kids</h3><p class="cg-pick-note">Events, loops and variables in Scratch, finished as playable games: computer literacy with something to show for it.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick" href="/courses/java-programming-masterclass-for-teens"><img class="cg-pick-shot" src="/images/java-teens.webp" alt="Java for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-band">Grades 8 to 11</span><h3 class="cg-pick-title">Java for Teens</h3><p class="cg-pick-note">Classes, methods and arrays in Java, the language AP Computer Science A is written in.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick" href="/courses/ap-computer-science-a-java-exam-prep-course"><img class="cg-pick-shot" src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-band">Grades 10 to 12</span><h3 class="cg-pick-title">AP Computer Science A</h3><p class="cg-pick-note">Full AP Computer Science A preparation, the kind of course Illinois lets count toward a math year.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick" href="/courses/data-science-course-for-teens-python-data"><img class="cg-pick-shot" src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-band">Grades 9 to 12</span><h3 class="cg-pick-title">Data Science for Teens</h3><p class="cg-pick-note">Python and pandas on messy public data, including the Chicago bike route cleanup below.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+</div><p class="cg-picks-more cg-boiler">Browse the <a class="cg-inline-link" href="/course-atlas">course atlas</a> for more than one hundred options and use the <a class="cg-inline-link" href="/coding-roadmap">coding roadmap</a> to check prerequisites.</p><!-- flagships:start -->
 <div class="cg-flaghead cg-boiler"><p class="cg-eyebrow">The four we are known for</p><h3>Python, AI, vibe coding and agentic coding</h3><p>These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.</p></div>
-<div class="cg-picks cg-picks--flag">
+<div class="cg-picks">
   <a class="cg-pick cg-pick--flag" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course"><img class="cg-pick-shot" src="/images/vibe-coding-teens.webp" alt="Vibe Coding for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">Vibe coding</span><span class="cg-pick-band">Ages 13 to 17</span><h3 class="cg-pick-title">Vibe Coding for Teens</h3><p class="cg-pick-note">Python, web and AI projects where the learner still owns the thinking.</p><span class="cg-pick-go">See the syllabus</span></div></a>
-  <a class="cg-pick cg-pick--flag" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals"><img class="cg-pick-shot" src="/images/codex-claude-code-adults.webp" alt="Codex and Claude Code course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">Agentic coding</span><span class="cg-pick-band">Professionals</span><h3 class="cg-pick-title">Codex and Claude Code</h3><p class="cg-pick-note">Run AI coding agents on real work without losing control of the codebase.</p><span class="cg-pick-go">See the syllabus</span></div></a>
-</div><!-- flagships:end -->
-  </div>
-</section>
-
-<section class="cg-section cg-section--tint" id="law">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">HB 2170, signed March 2021</span>
-      <h2>An entitlement, and what an entitlement is not</h2>
-    </div>
-
-    <p>HB 2170, the Education and Workforce Equity Act, was signed in March 2021 and championed by the Illinois Legislative Black Caucus. Its computer science provisions are among the most concrete in any state.</p>
-
-    <div class="cg-table-wrap">
-      <table class="cg-table">
-        <thead>
-          <tr><th>Requirement</th><th>From</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Every student offered the opportunity to take at least one computer science course aligned to rigorous learning standards</td><td>2023 to 2024 school year</td></tr>
-          <tr><td>High school students take one year of a course that includes intensive instruction in computer literacy</td><td>2022 to 2023 school year</td></tr>
-          <tr><td>Districts ensure students gain computer literacy skills beginning in elementary school</td><td>Ongoing</td></tr>
-          <tr><td>State Board of Education develops computer science learning standards</td><td>Delivered by end of 2021</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <p>Now read the first row again, carefully. The obligation is to <em>offer the opportunity</em>. That was a deliberate and defensible choice: the aim was to remove the situation where a child in one district has computer science and a child twenty minutes away has none. As an equity floor it is genuinely good policy, and we are not going to sneer at it in order to sell something.</p>
-
-    <p>But a floor is a floor. The law does not say the course must be taught by somebody who has written software. It does not say what happens in year two for the student who finished year one in October. And it does not say the course has to lead anywhere. In practice a capable fourteen year old often exhausts what their school can offer inside a single term and then sits still for three years, which is precisely the point at which most of our Illinois families first call us.</p>
-
-    <div class="cg-spec">
-      <p class="cg-spec-title">Chicago went further, earlier</p>
-      <p>Chicago Public Schools made computer science a high school graduation requirement in 2016, ahead of the state and ahead of almost every large district in the United States. That is a district rule, not a state one. A student in Naperville, Schaumburg or Aurora falls under the state provisions instead. Illinois is a patchwork by design, so check what applies to your own school rather than to Illinois in general.</p>
-    </div>
-
-    <p>One more thing, and we will be unhelpfully honest about it. It is widely reported that an AP computer science course may count toward the three years of mathematics required for graduation in Illinois. We could not confirm the current provision at primary source, so we will not state it as settled. Ask your counsellor to show you the rule that applies to your child's cohort. We have seen enough families plan around a half-remembered version of a rule to think this matters.</p>
-  </div>
-</section>
-
-<!-- SIGNATURE SECTION: the alignment column, Illinois edition -->
-<section class="cg-section" id="ladder">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Above the floor</span>
-      <h2>What comes after the one course the law guarantees</h2>
-      <p>The pairing below is deliberately arranged around the gap rather than around the entitlement. On the left is what a student typically has after school has done its statutory duty. On the right is where we take them next.</p>
-    </div>
-
-    <div class="cg-align">
-      <div class="cg-align-row">
-        <div class="cg-align-req">
-          <span class="cg-align-code">After school's provision</span>
-          <p>Computer literacy. Files, documents, spreadsheets, safe behaviour online. Required of every Illinois high school student since 2022 to 2023.</p>
-        </div>
-        <div class="cg-align-ours">
-          <p>Useful, and not programming. We treat it as the prerequisite it is and move a student on to writing instructions a machine executes. See <a href="/courses/kids-coding-blocks-masterclass">Kids Coding Blocks Masterclass</a>.</p>
-        </div>
-      </div>
-
-      <div class="cg-align-row">
-        <div class="cg-align-req">
-          <span class="cg-align-code">After school's provision</span>
-          <p>One introductory computer science course, often the only one the timetable can carry.</p>
-        </div>
-        <div class="cg-align-ours">
-          <p>The second course, and the third. Python to real depth rather than a second tour of loops and conditionals. See <a href="/courses/python-complete-masterclass-teens">Python Complete Masterclass for Teens</a>.</p>
-        </div>
-      </div>
-
-      <div class="cg-align-row">
-        <div class="cg-align-req">
-          <span class="cg-align-code">Rarely available</span>
-          <p>Anything involving real data. Introductory courses almost never reach a dataset that was not invented for the lesson.</p>
-        </div>
-        <div class="cg-align-ours">
-          <p>Our Illinois project uses live Chicago civic data with a genuine modelling trap in it, described below. See <a href="/courses/data-science-course-for-teens-python-data">Data Science for Teens</a>.</p>
-        </div>
-      </div>
-
-      <div class="cg-align-row">
-        <div class="cg-align-req">
-          <span class="cg-align-code">Rarely available</span>
-          <p>Machine learning taught as mathematics rather than as an API call.</p>
-        </div>
-        <div class="cg-align-ours">
-          <p>Models built and evaluated by hand before any library appears, so a student knows what accuracy is actually measuring. See <a href="/courses/ai-ml-masterclass-teens">AI and ML for Teens</a>.</p>
-        </div>
-      </div>
-
-      <div class="cg-align-row">
-        <div class="cg-align-req">
-          <span class="cg-align-code">Rarely available</span>
-          <p>The mathematics underneath, taught alongside rather than years later.</p>
-        </div>
-        <div class="cg-align-ours">
-          <p>Statistics and probability run on the same track as the coding, with the same teacher. See <a href="/courses/statistics-probability-maths-course">Statistics and Probability</a>.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="cg-ladder cg-mt-2">
-      <div class="cg-ladder-col">
-        <h3>Elementary</h3>
-        <p class="cg-band-head">Ages 6 to 10</p>
-        <ul>
-          <li><a href="/courses/kids-coding-blocks-masterclass">Block coding</a></li>
-          <li><a href="/courses/game-development-masterclass-for-kids">Game development</a></li>
-          <li><a href="/courses/mental-maths-mastery-kids">Mental maths</a></li>
-          <li><a href="/courses/elementary-mathematics-complete-masterclass">Elementary mathematics</a></li>
-        </ul>
-      </div>
-      <div class="cg-ladder-col">
-        <h3>Middle school</h3>
-        <p class="cg-band-head">Ages 11 to 13</p>
-        <ul>
-          <li><a href="/courses/python-ai-kids-masterclass">Python and AI</a></li>
-          <li><a href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Visual machine learning</a></li>
-          <li><a href="/courses/data-science-course-for-teens-python-data">Data science</a></li>
-          <li><a href="/courses/comprehensive-middle-school-mathematics-mastery">Middle school maths</a></li>
-        </ul>
-      </div>
-      <div class="cg-ladder-col">
-        <h3>High school</h3>
-        <p class="cg-band-head">Ages 14 to 18</p>
-        <ul>
-          <li><a href="/courses/ai-ml-masterclass-teens">AI and ML for teens</a></li>
-          <li><a href="/courses/ap-computer-science-a-java-exam-prep-course">AP Computer Science A</a></li>
-          <li><a href="/courses/statistics-probability-maths-course">Statistics and probability</a></li>
-          <li><a href="/courses/complete-high-school-mathematics-mastery">High school maths</a></li>
-        </ul>
-      </div>
-      <div class="cg-ladder-col">
-        <h3>College and adult</h3>
-        <p class="cg-band-head">18 to 67</p>
-        <ul>
-          <li><a href="/courses/data-science-complete-masterclass-college">Data science, complete</a></li>
-          <li><a href="/courses/python-ai-automation-masterclass-college">Python and AI automation</a></li>
-          <li><a href="/courses/data-analytics-mathematics-masterclass">Data analytics mathematics</a></li>
-          <li><a href="/courses/college-mathematics-complete-masterclass">College mathematics</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <p class="cg-mt-2 cg-boiler">The complete catalogue is on the <a class="cg-inline-link" href="/course-atlas">course atlas</a>, with the teaching method on <a class="cg-inline-link" href="/how-we-teach">how we teach</a>.</p>
-  </div>
-</section>
-
-<!-- The local project: the anti-duplication slot -->
-<section class="cg-section cg-section--deep" id="project">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Illinois data project</span>
-      <h2>A model that is right 95 percent of the time and completely useless</h2>
-      <p>The Illinois project is the one that fools students who already know some machine learning, and a fair number of adults who build it for a living. It runs on the city's beach water records.</p>
-    </div>
-
-    <div class="cg-proj">
-      <div class="cg-proj-meta">
-        <span>Source: Chicago Data Portal, beach water quality</span>
-        <span>Level: Grade 8 and up</span>
-        <span>Concept: Model evaluation</span>
-      </div>
-      <div class="cg-proj-body">
-        <p>The Chicago Park District monitors water quality at the Lake Michigan beaches, testing for Escherichia coli as an indicator of disease-causing bacteria, and issues a swim advisory when the predicted level reaches at least 235 Colony Forming Units per 100 millilitres. The city publishes the lab results, the advisories and the model predictions as open data, updated daily through the beach season. It has also run the forecasting problem publicly, working with volunteer data scientists and university students to improve on it.</p>
-
-        <p>So a student has a genuine, consequential classification problem with real data: given today's conditions, will this beach need an advisory? They build a model. It reports something like ninety-five percent accuracy. That feels like success, and in a school project it would be graded like success.</p>
-
-        <div class="cg-spec">
-          <p class="cg-spec-title">The trap</p>
-          <p>Most beach-days are fine. If advisories are issued on roughly one day in twenty, then a model that ignores every input and answers "safe" every single time is also about ninety-five percent accurate. It has learned nothing, it will never issue a warning, and it scores the same as the student's model. Accuracy on an imbalanced problem measures the imbalance, not the model.</p>
-        </div>
-
-        <p>This is the moment the project earns its place, because the student now has to find out what to measure instead. They meet the confusion matrix, and then precision and recall, not as vocabulary but as the answer to a question they actually have. They discover that the two kinds of mistake are not equivalent: a false alarm closes a beach on a good day, while a missed advisory sends children into contaminated water. Any honest evaluation has to weigh those differently, and deciding how to weigh them is not a mathematical question at all.</p>
-
-        <p>That last point is the one we most want a fourteen year old to carry away. There is a step in every serious machine learning problem where the mathematics stops and somebody has to make a judgement about consequences. Pretending that step does not exist is how models get deployed badly.</p>
-
-        <div class="cg-table-wrap">
-          <table class="cg-table">
-            <thead>
-              <tr><th>Step</th><th>What the student does</th><th>What it teaches</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Build</td><td>Train a classifier and report its accuracy</td><td>Get the naive success on the record first</td></tr>
-              <tr><td>Beat</td><td>Compare it against a model that always answers "safe"</td><td>A baseline is how you know if you have anything</td></tr>
-              <tr><td>Count</td><td>Lay out true and false positives and negatives</td><td>One number was hiding four</td></tr>
-              <tr><td>Weigh</td><td>Argue which error is worse here and by how much</td><td>The cost of an error is a human judgement</td></tr>
-              <tr><td>Re-report</td><td>State performance using measures that survive imbalance</td><td>Choose the metric to fit the problem</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p>Older students go on to threshold tuning and to why the 235 figure is itself a policy decision rather than a natural constant. Younger ones stop after the baseline comparison, which is already the most useful hour of machine learning they will have had. Students pull current data from the Chicago portal themselves; nothing here is a number copied off a web page.</p>
-
-        <p>This runs directly into <a class="cg-inline-link" href="/courses/ai-ml-masterclass-teens">AI and ML for teens</a> and, at college level, <a class="cg-inline-link" href="/courses/data-science-complete-masterclass-college">data science</a>. Students who want to build models across markets can also read <a class="cg-inline-link" href="/ai-and-machine-learning-classes-in-usa">AI and machine learning in the USA</a>. Completed work sits in the <a class="cg-inline-link" href="/student-labs">student labs</a>.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section" id="how">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">The arrangement</span>
-      <h2>What an Illinois family is buying</h2>
-    </div>
-    <div class="cg-grid-3">
-      <div>
-        <h3>A teacher who codes</h3>
-        <p>Live for the full hour, watching the student work. The single most common thing we hear from Illinois parents is that the school course was taught by somebody teaching it for the first time.</p>
-      </div>
-      <div>
-        <h3>Somewhere to go next</h3>
-        <p>The entitlement gets a student one course. We are built as a ladder, so finishing something is followed by starting the next thing rather than by waiting.</p>
-      </div>
-      <div>
-        <h3>Fifteen to twenty, one teacher</h3>
-        <p>Groups stay small and keep the same teacher every week. Private tuition is available where a student needs the whole hour to themselves.</p>
-      </div>
-      <div>
-        <h3>Real data, not toy data</h3>
-        <p>Every project uses something that exists outside the lesson. The Chicago beach problem above is a live civic modelling question, not an exercise invented to have a tidy answer.</p>
-      </div>
-      <div>
-        <h3>Maths on the same track</h3>
-        <p>Statistics and probability taught beside the coding by the same teacher, because a student who cannot reason about proportion cannot evaluate a model.</p>
-      </div>
-      <div>
-        <h3>Nothing to install</h3>
-        <p>Browser based throughout. A laptop or desktop, a microphone and a working connection is the entire list, which matters on a locked-down school device.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section cg-section--tint" id="whether">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Before you book anything</span>
-      <h2>When you probably do not need us</h2>
-    </div>
-
-    <p>Illinois provision is uneven, and in the direction that matters for the families most likely to be reading this page. Several of the suburban districts with the largest South Asian communities also run genuinely strong computer science programmes, with teachers who write software and a sequence that continues past the introductory course. If that describes your school, paying us to duplicate it would be a poor use of your money and we would rather say so.</p>
-
-    <p>Four questions will tell you which situation you are in. Ask the school, not the internet.</p>
-
-    <div class="cg-table-wrap">
-      <table class="cg-table">
-        <thead>
-          <tr><th>Ask the school</th><th>What the answer tells you</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Which computer science courses run this year, and which ran last year?</td><td>A single course that appears and disappears is a staffing gap, not a programme</td></tr>
-          <tr><td>What does a student take in the year after the introductory course?</td><td>If the answer is nothing, that is the year we exist for</td></tr>
-          <tr><td>Has the teacher written software outside a classroom?</td><td>Not disqualifying, but it changes how far a keen student can be taken</td></tr>
-          <tr><td>Does any course reach data that was not invented for the lesson?</td><td>This is the single biggest difference between a course and an exercise</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <p>If the answers are good, use the school. Come to us for the mathematics if that is where the gap is, or come back when your child has run past what the timetable can hold. If the answers are thin, you now know precisely what you are buying from us rather than buying on a feeling.</p>
-  </div>
-</section>
-
-<section class="cg-section cg-section--tint" id="fees">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Fees</span>
-      <h2>Monthly, in US dollars</h2>
-      <p class="cg-boiler">No enrolment charge, nothing to buy, no minimum term.</p>
-    </div>
-    <div class="cg-price">
-      <div>
-        <span class="cg-price-name">Group</span>
-        <span class="cg-price-amt">$100</span>
-        <span class="cg-price-alt">per month, 8 classes</span>
-        <p>Fifteen to twenty learners with one consistent teacher. Where most Illinois families begin.</p>
-      </div>
-      <div class="cg-price--feature">
-        <span class="cg-price-name">Private</span>
-        <span class="cg-price-amt">$150</span>
-        <span class="cg-price-alt">per month, 8 classes</span>
-        <p>One learner setting the pace. Usually chosen where a student has already outrun their school by some distance.</p>
-      </div>
-    </div>
-    <p class="cg-mt-2 cg-boiler">Pauses, plan changes and missed classes are covered on the <a class="cg-inline-link" href="/pricing">pricing page</a>.</p>
-  </div>
-</section>
-
-<section class="cg-section cg-section--deep" id="reviews">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Reviews</span>
-      <h2>What families say</h2>
-      <p class="cg-boiler">Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.</p>
-    </div>
-    <div class="cg-grid-3">
-      <div class="cg-review">
-        <p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-        <p class="cg-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
-        <p class="cg-review-name">Ria Mukherjee</p>
-        <p class="cg-review-role">Parent</p>
-      </div>
-      <div class="cg-review">
-        <p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-        <p class="cg-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
-        <p class="cg-review-name">Samriddha Mondal</p>
-        <p class="cg-review-role">Student</p>
-      </div>
-      <div class="cg-review">
-        <p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-        <p class="cg-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
-        <p class="cg-review-name">Vansh Agarwal</p>
-        <p class="cg-review-role">Student</p>
-      </div>
-      <div class="cg-review">
-        <p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-        <p class="cg-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
-        <p class="cg-review-name">Sonam Oswal</p>
-        <p class="cg-review-role">Parent of Dhairya</p>
-      </div>
-      <div class="cg-review">
-        <p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-        <p class="cg-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
-        <p class="cg-review-name">Sonu Goyal</p>
-        <p class="cg-review-role">Parent</p>
-      </div>
-      <div class="cg-review">
-        <p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-        <p class="cg-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
-        <p class="cg-review-name">Ritu Kedia</p>
-        <p class="cg-review-role">Parent</p>
-      </div>
-    </div>
-    <p class="cg-mt-2">More, with photographs and student work, on the <a class="cg-inline-link" href="/love">wall of love</a>.</p>
-  </div>
-</section>
-
-<section class="cg-section" id="faq">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Questions</span>
-      <h2>Illinois questions, answered plainly</h2>
-    </div>
-    <div class="cg-faq">
-      <div class="cg-faq-item">
-        <h3>What does HB 2170 actually require of Illinois schools?</h3>
-        <p>HB 2170, the Education and Workforce Equity Act, was signed in March 2021 and championed by the Illinois Legislative Black Caucus. It requires schools to offer every student the opportunity to take at least one computer science course aligned to rigorous standards from the 2023 to 2024 school year, obliges the State Board of Education to write those standards, and requires high school students to take one year of a course that includes intensive instruction in computer literacy from the 2022 to 2023 school year.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>If the law already guarantees a course, why would we pay for another?</h3>
-        <p>Because the law creates an entitlement to be offered a course, which is not the same as a good course, a teacher who codes, or a class that goes anywhere. It is a floor deliberately set so that no Illinois student is denied access. Families come to us when a child has cleared that floor in a term and there is nothing above it, which in many districts happens quickly.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>Is computer science required to graduate in Chicago?</h3>
-        <p>Chicago Public Schools made computer science a high school graduation requirement in 2016, ahead of the state and ahead of almost every large district in the country. That is a district requirement rather than a statewide one, so a student in Naperville, Schaumburg or Aurora is under the state rules instead. Confirm the position with your own school, because Illinois is a patchwork by design.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>Does an AP computer science course count toward the Illinois maths requirement?</h3>
-        <p>It is widely reported that it can count toward the three years of mathematics required for graduation, but we could not confirm the current provision at primary source and we are not going to state it as settled. Ask your school counsellor to show you the rule in force for your child's cohort. We would rather be unhelpfully honest here than helpfully wrong.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>Do you teach across Illinois or only Chicago?</h3>
-        <p>The whole state, and the distinction stops mattering the moment teaching is live over video. Chicago, Naperville, Schaumburg, Aurora, Peoria, Springfield and Champaign are all the same to us. The requirements are a laptop or desktop, a microphone and a connection good enough for a call. Nothing is posted and nothing is installed.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>What time do classes run on Central Time?</h3>
-        <p>We fit the timetable to your household. Weekend slots are the easiest to arrange on Central Time, and weekday slots are agreed individually. Everything is settled on the demo call before you pay for anything, so a family never finds out after the fact that the only available slot collides with something immovable.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>What are the fees for an Illinois family?</h3>
-        <p>USD 100 a month in a group of fifteen to twenty, or USD 150 a month one to one. Both are two classes a week, eight a month. There is no enrolment charge, nothing to buy, and no minimum term. The first class is free and is used to place the student properly rather than to sell.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>Which ages do you take?</h3>
-        <p>Six to sixty-seven. Placement comes from what a learner can show in the opening class rather than from their year group. Elementary students start in blocks, middle school moves into Python and real data, high school works toward AP Computer Science A and the mathematics behind it, and adults are taught at adult pace.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>How large is a class?</h3>
-        <p>Fifteen to twenty learners in a group, or one to one. The teacher is the same person every week in both cases. We do not rotate staff between sessions, because a teacher who already knows where a student got stuck last week begins the lesson somewhere useful instead of starting again.</p>
-      </div>
-      <div class="cg-faq-item">
-        <h3>How do we start?</h3>
-        <p>Book the free opening class. It is a lesson, not a pitch: a teacher sets real work, watches how the student handles it, and recommends a level based on that. If the honest recommendation is to wait, or that another provider fits better, that is what you will be told.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section cg-section--tint" id="start">
-  <div class="cg-wrap">
-    <div class="cg-hero-grid">
-      <div>
-        <span class="cg-eyebrow">Book a free class</span>
-        <h2>A lesson, not a pitch</h2>
-        <p>Tell us the grade and what the school has already covered. A teacher runs a genuine opening class, works out the real starting point, and recommends a level. If we are not right for your child, that is what you will hear on the call.</p>
-        <p>You can also use the <a class="cg-inline-link" href="/contact">contact page</a>, or read <a class="cg-inline-link" href="/about">about us</a> first.</p>
-      </div>
-
-      <div class="cg-form-panel">
-        <form id="ilLeadForm" novalidate>
-          <div class="cg-field">
-            <label for="ilName">Parent or student name</label>
-            <input type="text" id="ilName" name="name" autocomplete="name" required>
-            <span class="cg-err" id="ilNameErr"></span>
-          </div>
-          <div class="cg-field">
-            <label for="ilEmail">Email</label>
-            <input type="email" id="ilEmail" name="email" autocomplete="email" required>
-            <span class="cg-err" id="ilEmailErr"></span>
-          </div>
-          <div class="cg-field">
-            <label for="ilPhone">Phone (US number)</label>
-            <input type="tel" id="ilPhone" name="phone" autocomplete="tel" placeholder="312 555 0134" required>
-            <span class="cg-err" id="ilPhoneErr"></span>
-          </div>
-          <div class="cg-field">
-            <label for="ilGrade">Student grade or age</label>
-            <input type="text" id="ilGrade" name="grade" placeholder="For example 8th grade" required>
-            <span class="cg-err" id="ilGradeErr"></span>
-          </div>
-          <div class="cg-field">
-            <label for="ilMsg">What would you like them to work on?</label>
-            <textarea id="ilMsg" name="message" placeholder="For example: he finished the school CS course in a term and there is nothing after it"></textarea>
-          </div>
-          <button class="cg-btn" type="submit" id="ilSubmit">Book the free class</button>
-          <p class="cg-form-note">No card. No obligation. We call, we do not spam.</p>
-          <p class="cg-err" id="ilFormErr" role="alert"></p>
-          <p class="cg-form-ok" id="ilOk" hidden>Thank you. We will call you to confirm a slot.</p>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cg-section" id="markets">
-  <div class="cg-wrap">
-    <div class="cg-section-head">
-      <span class="cg-eyebrow">Nearby</span>
-      <h2>Other places we teach</h2>
-    </div>
-    <div class="cg-markets">
-      <a class="cg-market" href="/coding-classes-in-united-states">United States</a>
-      <a class="cg-market" href="/coding-classes-in-virginia">Virginia</a>
-      <a class="cg-market" href="/coding-classes-in-new-york">New York</a>
-      <a class="cg-market" href="/coding-classes-in-california">California</a>
-      <a class="cg-market" href="/coding-classes-in-texas">Texas</a>
-      <a class="cg-market" href="/coding-classes-in-new-jersey">New Jersey</a>
-      <a class="cg-market" href="/ai-and-machine-learning-classes-in-usa">AI and machine learning, USA</a>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<!-- BEGIN_LINK_MESH -->
-<section class="mac-mesh" aria-label="Keep exploring Modern Age Coders" style="display:block!important;opacity:1!important;visibility:visible!important;transform:none!important;min-height:0!important;height:auto!important;max-height:none!important;overflow:visible!important;padding:36px 20px 40px!important;margin:0!important;border-top:1px solid rgba(127,127,127,.25);font-size:.92rem;line-height:1.5;text-align:left">
-  <div style="max-width:1100px;margin:0 auto;opacity:1!important;transform:none!important">
-    <h2 style="font-size:1.1rem;font-weight:800;margin:0 0 18px;opacity:1!important;transform:none!important">Keep exploring Modern Age Coders</h2>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px 28px;opacity:1!important;transform:none!important">
-      <div><h3 style="font-size:.78rem!important;letter-spacing:.08em;text-transform:uppercase;opacity:.72;margin:0 0 8px!important;padding:0!important;font-weight:700;line-height:1.3">Coding classes in nearby places</h3><ul style="list-style:none!important;padding:0!important;margin:0!important;display:grid;gap:6px">
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-maryland" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Online Coding Classes in Maryland</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-georgia" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding Classes in Georgia, USA</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-canada" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding &amp; AI Classes in Canada</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-ontario" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding Classes in Ontario</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-british-columbia" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Online Coding Classes in British Columbia</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-alberta" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Online Coding Classes in Alberta</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/ai-and-machine-learning-classes-in-canada" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">AI and Machine Learning Classes in Canada</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-united-states" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Online Coding &amp; AI Classes in the USA</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/coding-classes-in-new-jersey" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Coding Classes in New Jersey</a></li>
-      </ul></div>
-      <div><h3 style="font-size:.78rem!important;letter-spacing:.08em;text-transform:uppercase;opacity:.72;margin:0 0 8px!important;padding:0!important;font-weight:700;line-height:1.3">Free resources</h3><ul style="list-style:none!important;padding:0!important;margin:0!important;display:grid;gap:6px">
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/resources/javascript" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">JavaScript Tutorial: Build Interactive Websites</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/resources/html-and-css/display-and-positioning" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Display and Positioning (static, relative, absolute, fixed, sticky)</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/resources/javascript/error-handling-and-debugging" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Error Handling and Debugging</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/resources/html-and-css/links-and-navigation" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Links, Ancho and Navigation</a></li>
-      </ul></div>
-      <div><h3 style="font-size:.78rem!important;letter-spacing:.08em;text-transform:uppercase;opacity:.72;margin:0 0 8px!important;padding:0!important;font-weight:700;line-height:1.3">From the blog</h3><ul style="list-style:none!important;padding:0!important;margin:0!important;display:grid;gap:6px">
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/blog/ib-computer-science-ia-client-rule-2027" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">The IB Computer Science IA No Longer Needs a Client</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/blog/how-to-revise-gcse-computer-science" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">How to Revise GCSE Computer Science (AQA and OCR)</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/blog/igcse-computer-science-explained-for-parents" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">IGCSE Computer Science (0478) Explained for Parents</a></li>
-      </ul></div>
-      <div><h3 style="font-size:.78rem!important;letter-spacing:.08em;text-transform:uppercase;opacity:.72;margin:0 0 8px!important;padding:0!important;font-weight:700;line-height:1.3">Start here</h3><ul style="list-style:none!important;padding:0!important;margin:0!important;display:grid;gap:6px">
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/free-trial" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">Try a free trial class with a Modern Age Coders mentor</a></li>
-        <li style="margin:0!important;padding:0!important;line-height:1.45;list-style:none!important;font-size:inherit"><a href="/about" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.45);text-underline-offset:3px;display:inline;font-weight:inherit;font-size:inherit">About Modern Age Coders, teaching since 2020</a></li>
-      </ul></div>
-    </div>
-  </div>
-</section>
-<!-- END_LINK_MESH -->
-<footer class="cg-footer">
-  <div class="cg-wrap">
-    <div class="cg-grid-3">
-      <div>
-        <h3>Start here</h3>
-        <ul>
-          <li><a href="/courses">All courses</a></li>
-          <li><a href="/course-atlas">Course atlas</a></li>
-          <li><a href="/pricing">Pricing</a></li>
-          <li><a href="/how-we-teach">How we teach</a></li>
-          <li><a href="/coding-roadmap">Coding roadmap</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>United States</h3>
-        <ul>
-          <li><a href="/coding-classes-in-united-states">Coding classes in the USA</a></li>
-          <li><a href="/coding-classes-in-new-york">New York</a></li>
-          <li><a href="/coding-classes-in-texas">Texas</a></li>
-          <li><a href="/ai-and-machine-learning-classes-in-usa">AI and machine learning</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Company</h3>
-        <ul>
-          <li><a href="/about">About us</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/love">Wall of love</a></li>
-          <li><a href="/student-labs">Student labs</a></li>
-          <li><a href="/blog">Blog</a></li>
-        </ul>
-      </div>
-    </div>
-    <p class="cg-footer-bottom">Modern Age Coders. Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p>
-  </div>
-</footer>
-
-<script>
-(function () {
-  var API_URL = 'https://backend-modernagecoders.vercel.app';
-  var form = document.getElementById('ilLeadForm');
-  if (!form) return;
-
-  function val(id) { var el = document.getElementById(id); return el ? el.value.trim() : ''; }
-  function setErr(id, msg) { var el = document.getElementById(id); if (el) el.textContent = msg || ''; }
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    var name = val('ilName');
-    var email = val('ilEmail');
-    var phone = val('ilPhone');
-    var grade = val('ilGrade');
-    var msg = val('ilMsg');
-
-    setErr('ilNameErr', ''); setErr('ilEmailErr', ''); setErr('ilPhoneErr', '');
-    setErr('ilGradeErr', ''); setErr('ilFormErr', '');
-
-    var ok = true;
-    if (name.length < 2) { setErr('ilNameErr', 'Please enter a name'); ok = false; }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { setErr('ilEmailErr', 'Please enter a valid email'); ok = false; }
-
-    // Send the real local digits. The backend accepts 7 to 15 digits for every
-    // country except India, and picks the rule from countryIso. Never pad or
-    // truncate: that stores a number nobody can call.
-    var digits = phone.replace(/\D/g, '');
-    if (digits.length === 11 && digits.charAt(0) === '1') digits = digits.slice(1); // strip +1 if typed
-    if (digits.length < 7 || digits.length > 15) { setErr('ilPhoneErr', 'Please enter a valid phone number'); ok = false; }
-    if (!grade) { setErr('ilGradeErr', 'Please enter a grade or age'); ok = false; }
-    if (!ok) return;
-
-    var btn = document.getElementById('ilSubmit');
-    btn.disabled = true;
-    btn.textContent = 'Sending...';
-
-    var body = {
-      name: name,
-      email: email,
-      contact: digits,
-      // countryIso is REQUIRED. Without it the backend falls back to India's
-      // strict 10-digit rule and rejects legitimate international numbers.
-      countryCode: '+1',
-      countryIso: 'US',
-      countryName: 'United States',
-      // Contact.message is capped at 1000 chars server-side, so trim rather
-      // than lose the lead to a 400.
-      message: ('Illinois enquiry. Student grade or age: ' + grade + '. ' + (msg || 'No further detail given.')).slice(0, 1000),
-      attribution: {
-        formPage: '/coding-classes-in-illinois',
-        landingPage: '/coding-classes-in-illinois',
-        referrer: document.referrer || ''
-      }
-    };
-
-    fetch(API_URL + '/api/contact/submit', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body)
-    }).then(function (r) {
-      if (!r.ok) throw new Error('Request failed');
-      form.reset();
-      document.getElementById('ilOk').hidden = false;
-      if (typeof gtag === 'function') gtag('event', 'generate_lead', { page: 'coding-classes-in-illinois' });
-    }).catch(function () {
-      setErr('ilFormErr', 'Something went wrong sending that. Please try again, or reach us on the contact page.');
-    }).finally(function () {
-      btn.disabled = false;
-      btn.textContent = 'Book the free class';
-    });
-  });
-})();
-</script>
-
-
-<!-- WhatsApp Floating Chat Button (injected: ensure-whatsapp-and-callback.js) -->
-<a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!"
-    target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp"
-    style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
-    <span class="wa-label" style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat with us</span>
-    <div class="wa-icon" style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" style="min-width: 26px; min-height: 26px;">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-        </svg>
-    </div>
-</a>
-<style>
-    .wa-float-btn:hover .wa-icon { transform: scale(1.08); box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5); }
-    .wa-float-btn:hover .wa-label { box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5); }
-    @media (max-width: 768px) {
-        .wa-label { display: none !important; visibility: hidden !important; }
-        .wa-float-btn { bottom: 20px !important; right: 16px !important; }
-        .wa-icon { width: 52px !important; height: 52px !important; min-width: 52px !important; min-height: 52px !important; }
-    }
-</style>
-
-    <script src="/js/pricing-data.generated.js?v=c1eb685613"></script>
-    <script src="/js/international-pricing.js?v=96fce901b8"></script>
+  <a class="cg-pick cg-pick--flag" href="/courses/python-ai-automation-masterclass-college"><img class="cg-pick-shot" src="/images/python-college.webp" alt="Python Automation Course course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">Python and AI</span><span class="cg-pick-band">College and adult</span><h3 class="cg-pick-title">Python Automation Course</h3><p class="cg-pick-note">Automate the work you already do, then let AI carry part of it.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick cg-pick--flag" href="/courses/ai-ml-masterclass-teens"><img class="cg-pick-shot" src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">AI and ML</span><span class="cg-pick-band">Ages 14 to 18</span><h3 class="cg-pick-title">AI and Machine Learning for Teens</h3><p class="cg-pick-note">Train a model, read what it learned, and be able to say why it is wrong.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+  <a class="cg-pick cg-pick--flag" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals"><img class="cg-pick-shot" src="/images/codex-claude-code-adults.webp" alt="Codex &amp; Claude Code course thumbnail" loading="lazy" decoding="async" width="400" height="250"><div class="cg-pick-body"><span class="cg-pick-tag">Agentic coding</span><span class="cg-pick-band">Professionals</span><h3 class="cg-pick-title">Codex &amp; Claude Code</h3><p class="cg-pick-note">Run AI coding agents on real work without losing control of the codebase.</p><span class="cg-pick-go">See the syllabus</span></div></a>
+</div><!-- flagships:end --></div></section>
+<section class="cg-section" id="chart"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">The graduation chart</span><h2>Where computers appear in Illinois graduation requirements</h2><p>From the Illinois State Board of Education (ISBE) document &ldquo;Illinois graduation requirements 105 ILCS 5/27-22, 27-22.05, 27-22.10&rdquo;, dated March 2025, read on 18 October 2026.</p></div><div class="cg-table-wrap"><table class="cg-table"><caption>Computer-related lines in the ISBE graduation chart, by the year a student enters ninth grade</caption><thead><tr><th>Requirement</th><th>What ISBE says</th><th>Applies to</th></tr></thead><tbody><tr><td>Computer literacy</td><td>One year of a course that includes intensive instruction in computer literacy, which may be English, social science, or any other subject, and which may count toward other requirements (PA 101-0654)</td><td>Students entering ninth grade in 2022 to 2023 and later, as marked on the chart</td></tr><tr><td>Mathematics, 3 years</td><td>Algebra I, a course with geometry content, and a third year; Advanced Placement (AP) computer science is eligible</td><td>Every entering class shown on the chart</td></tr><tr><td>Laboratory science</td><td>Two years of laboratory science (IEP students exempt)</td><td>Pupils entering ninth grade in 2024 to 2025 and later</td></tr><tr><td>World language</td><td>Two years of world language, which may include American Sign Language (IEP students exempt)</td><td>Pupils entering ninth grade in 2028 to 2029 and later</td></tr></tbody></table></div><div class="cg-grid-3 cg-mt-2"><div><h3>Literacy, not a named course</h3><p>Because the computer literacy year may be English, social science or any other subject, and may double up with other requirements, it does not guarantee that a student ever writes a program. What it teaches depends on the district.</p></div><div><h3>AP computer science as math</h3><p>Under Section 27-22 (f-5) of the School Code, the course description for AP computer science must say it is equivalent to a high school mathematics course, so it counts toward the three math years.</p></div><div><h3>The bigger frame</h3><p>ISBE also says each student must have at least 16 units in grades 9 to 12 from a four-year school, and lists the U.S. and Illinois Constitution examination among the conditions for a diploma.</p></div></div><p class="cg-mt-2">For a student who wants programming on the transcript, the most direct route under these rules is AP Computer Science A or Principles, which can satisfy a math year while teaching real code. Whether your school offers it, and how it codes the computer literacy year, is a question for your counselor; local districts often add their own requirements on top of the state chart.</p></div></section>
+<section class="cg-section cg-section--deep" id="every-grade"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Kindergarten to twelfth grade</span><h2>A computer literacy mandate at every grade level</h2><p>ISBE&rsquo;s Illinois Instructional Mandates for the 2025 to 2026 school year, last updated December 2025, list computer literacy as required at each grade level K-12.</p></div><div class="cg-grid-3"><div><h3>What the law asks</h3><p>All school districts shall ensure that students receive developmentally appropriate opportunities to gain computer literacy skills embedded in the district&rsquo;s curriculum at each grade level, citing 105 ILCS 5/10-20.79 and 10-20.74.</p></div><div><h3>Embedded, not separate</h3><p>The wording is &ldquo;embedded in the district&rsquo;s curriculum&rdquo;. A third grader might meet it through typing and file skills inside reading class rather than through a coding lesson.</p></div><div><h3>A guide, not a rule</h3><p>ISBE points districts to its Computer Literacy Knowledge and Skill Development Continuum, which it describes as non-regulatory, plus outside materials such as Code.org and Computer Science Unplugged.</p></div></div><div class="cg-table-wrap cg-mt-2"><table class="cg-table"><caption>How a family can read the Illinois rules by stage (the right-hand column is our suggestion, not ISBE&rsquo;s)</caption><thead><tr><th>Stage</th><th>What the state requires</th><th>What we suggest adding</th></tr></thead><tbody><tr><td>Grades K to 5</td><td>Computer literacy skills embedded at each grade</td><td>Block coding, so literacy includes making things, not only using them</td></tr><tr><td>Grades 6 to 8</td><td>Computer literacy skills embedded at each grade</td><td>A first typed language and a small data project</td></tr><tr><td>Grades 9 to 12</td><td>One computer literacy year; AP computer science may count as math</td><td>AP Computer Science A or Principles, plus a project portfolio</td></tr><tr><td>Any grade</td><td>Nothing beyond the above</td><td>An AI unit that explains how a model learns and where it goes wrong</td></tr></tbody></table></div><p class="cg-mt-2">We did not find a separate computer science standards page on the ISBE website when we checked its sitemap on 18 October 2026, so this page makes no claim about Illinois computer science standards. The mandates and the graduation chart are the two ISBE documents quoted here.</p></div></section>
+<section class="cg-section cg-section--tint" id="project"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Signature project</span><h2>Five spellings of one street: cleaning Chicago&rsquo;s bike route data</h2><p>The City of Chicago publishes every bike route segment on its data portal as dataset hvv9-38ut. Each segment names the street it runs from and the street it runs to, and those names are not written consistently.</p></div><div class="cg-table-wrap"><table class="cg-table"><caption>How many different cross-street names are in the Chicago Bike Routes data? Our counts after each cleaning step (1,008 segments, downloaded 18 October 2026)</caption><thead><tr><th>Cleaning step</th><th>Distinct names left</th></tr></thead><tbody><tr><td>Raw values, exactly as published (2,016 endpoints)</td><td>583</td></tr><tr><td>Upper case, and runs of spaces collapsed to one</td><td>578</td></tr><tr><td>Leading direction letter removed (N, S, E or W)</td><td>486</td></tr><tr><td>Street type removed as well (AVE, ST, BLVD and so on)</td><td>435</td></tr></tbody></table></div><div class="cg-grid-3 cg-mt-2"><div><h3>1. Spot the noise</h3><p>Most names are in capitals, but six are not, such as W Cermak Rd, and one has a double space inside N DAMEN AVE. Python sees each of those as a brand new street until the student fixes it.</p></div><div><h3>2. Clean in small steps</h3><p>Students write one function per rule, strip, upper, collapse spaces, then count distinct names after each step. Watching 583 fall to 578, then 486, shows exactly what each rule did.</p></div><div><h3>3. Know when to stop</h3><p>The last step goes too far. Dropping the suffix merges WASHINGTON BLVD with WASHINGTON ST, two different streets. The dataset&rsquo;s own fields show it: 266 distinct street values but only 239 bare names.</p></div></div><div class="cg-callout cg-mt-2"><h3>Our counts, the city&rsquo;s data</h3><p>All the counts above are our own, from one download. The City of Chicago provides its data as is and makes no warranty about accuracy or completeness. A cleaning rule is a decision a programmer makes, so a good project records each rule and the count it produced.</p></div><p class="cg-mt-2">The same file carries a route type for every segment: 285 Bike Lane, 258 Neighborhood Greenway, 184 Buffered Bike Lane, 174 Protected Bike Lane and 107 Marked Shared Lane, by our count. Older students can chart those totals, then check whether type labels need cleaning too. They do not, which is its own useful finding.</p></div></section>
+<section class="cg-section" id="numbers"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Published figures</span><h2>Fewer than six in ten Illinois high schools offered computer science</h2><p>Illinois values from two national sources: Code.org for high schools teaching the subject, the College Board for schools with AP exams.</p></div><div class="cg-table-wrap"><table class="cg-table"><caption>Share of Illinois high schools with a foundational CS course, year by year (Code.org 2025 sheet, trend tab plus its newest-count tab)</caption><thead><tr><th>School year</th><th>Share of high schools</th></tr></thead><tbody><tr><td>2018 to 2019</td><td>45%</td></tr><tr><td>2019 to 2020</td><td>43%</td></tr><tr><td>2020 to 2021</td><td>44%</td></tr><tr><td>2021 to 2022</td><td>54%</td></tr><tr><td>2022 to 2023</td><td>59.7%</td></tr><tr><td>2023 to 2024</td><td>58.0%, or 418 of 721 high schools, from state education agency data</td></tr></tbody></table></div><div class="cg-table-wrap cg-mt-2"><table class="cg-table"><caption>Students and AP schools in Illinois</caption><thead><tr><th>Measure</th><th>Value</th><th>Notes</th></tr></thead><tbody><tr><td>High school students in a CS course</td><td>35,902 of 595,765, or 6.03%</td><td>Code.org (2025); the rate equals its 2023 to 2024 value, with fall 2022 NCES enrollment as the base</td></tr><tr><td>Illinois schools with AP exams in 2023</td><td>691</td><td>College Board, AP exams by state report, 2023-24</td></tr><tr><td>Illinois schools with AP exams in 2024</td><td>715</td><td>Same report</td></tr></tbody></table></div><p class="cg-mt-2">Code.org lists no Illinois access figure for 2024 to 2025, so the newest value is from 2023 to 2024. Across six school years the share climbed from 45% to a peak of 59.7% before easing to 58.0%. About six in every hundred high school students took computer science. Since AP computer science can count toward math, the 715 schools giving AP exams in 2024 are worth asking about, although the College Board figure counts all AP subjects, not computer science alone.</p><p class="cg-mt-2">Citation for the access and enrollment values: Code.org (2025). 2025 State of AI + CS Education. We quote Illinois rows only and do not reproduce the sheet.</p></div></section>
+<section class="cg-section cg-section--deep" id="time"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Class times</span><h2>Chicago time, which the city once kept by contract</h2><p>All of Illinois is on US Central time, and the IANA database uses Chicago as the reference for that zone.</p></div><div class="cg-grid-3"><div><h3>One zone statewide</h3><p>The time zone database names Illinois in its list for &ldquo;US central time, represented by Chicago&rdquo;. From Rockford to Carbondale, one clock: America/Chicago.</p></div><div><h3>India and Central</h3><p>Our arithmetic: India is 10 hours 30 minutes ahead of Central Daylight Time and 11 hours 30 minutes ahead of Central Standard Time. US clocks fall back on November 1, 2026.</p></div><div><h3>Your schedule</h3><p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are confirmed in Central time.</p></div></div><div class="cg-spec cg-mt-2"><p class="cg-spec-title">History inside the data</p><p>The database notes that in 1869 the Chicago Astronomical Society contracted with the city to keep time, and its America/Chicago entry shows the city on Eastern Standard Time from March 1 to November 15, 1936. Students who ask a time library for a 1936 Chicago timestamp can watch it apply that rule, a neat proof that zones are data, not constants.</p></div></div></section>
+<section class="cg-section" id="ladder"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Grade by grade</span><h2>From block games to AP Computer Science A</h2><p>Grades are rough guides; the first lesson finds the right starting point.</p></div><div class="cg-ladder">
+  <div class="cg-ladder-col"><span class="cg-band-head">Grades 2 to 5</span><h3>Make, do not just use</h3><p>Blocks, sprites and small games, turning everyday computer literacy into creation.</p><a class="cg-course-link" href="/courses/kids-coding-blocks-masterclass">Coding for Kids</a><a class="cg-course-link" href="/courses/scratch-programming-complete-course">Scratch Coding for Kids</a></div>
+  <div class="cg-ladder-col"><span class="cg-band-head">Grades 6 to 8</span><h3>Pages and scripts</h3><p>HTML, CSS and early JavaScript, with real websites a student can share.</p><a class="cg-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">HTML &amp; CSS for Beginners</a><a class="cg-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">JavaScript for Teens</a></div>
+  <div class="cg-ladder-col"><span class="cg-band-head">Grades 9 to 10</span><h3>A real language</h3><p>Java or Python fundamentals, version control, and the habit of testing code.</p><a class="cg-course-link" href="/courses/java-programming-masterclass-for-teens">Java for Teens</a><a class="cg-course-link" href="/courses/git-github-version-control-course-for-teens">Git &amp; GitHub Course for Teens</a></div>
+  <div class="cg-ladder-col"><span class="cg-band-head">Grades 11 to 12</span><h3>AP on the transcript</h3><p>AP Computer Science A or Principles, the routes Illinois lets count as math.</p><a class="cg-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">AP Computer Science A</a><a class="cg-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">AP Computer Science Principles</a></div>
+</div></div></section>
+<section class="cg-section cg-section--tint" id="ai"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Coding and AI</span><h2>Computer literacy in Illinois should now include knowing how AI is made</h2><p>Using a chatbot is a literacy skill; checking one is a programming skill.</p></div><div class="cg-grid-2"><div><p>Hand the Chicago bike route file to an AI model and ask how many streets it mentions. It may count 583, or 435, or something else, and it will rarely say which cleaning rules it chose. A student who has built the steps by hand knows the question has no single answer until the rules are written down.</p></div><div><p>That is the gap a literacy course leaves open. Knowing which buttons to press is useful; knowing how data is cleaned, how a model is trained on it and how its output can mislead is what lets a student use AI tools with confidence instead of blind trust.</p></div></div><p class="cg-mt-2">Illinois guarantees every student a year of computer literacy; real coding practice is what makes that literacy hold up against AI. The longer argument is in <a class="cg-inline-link" href="/blog/is-coding-worth-learning-2026">why coding is still worth learning beside AI tools</a>.</p></div></section>
+<section class="cg-section" id="delivery"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">How it works</span><h2>From the Loop to downstate, one live online class</h2><p>Illinois families are spread across a big city and a long rural state. Online teaching treats them all the same.</p></div><div class="cg-grid-3"><div><h3>No commute</h3><p>A student in Naperville and one in Peoria can join the same session from home, with no evening drive across the suburbs.</p></div><div><h3>Fits Illinois school</h3><p>Teachers plan in US grade levels and can connect projects to AP computer science or a computer literacy course. Homework and tests set by a school remain the student&rsquo;s work, never ours.</p></div><div><h3>A free first lesson</h3><p>The teacher sets a short task, sees how the student works, and recommends a course, level and time. No payment details are asked for.</p></div><div><h3>Small batches</h3><p>Fifteen to twenty students at the same level, from Illinois and other states.</p></div><div><h3>Private lessons</h3><p>One teacher, one student, for anyone who wants a faster pace or focused AP preparation.</p></div><div><h3>Central time</h3><p>Every lesson time is confirmed on Chicago time, whatever part of Illinois you live in.</p></div></div><div class="cg-spec cg-mt-2"><p class="cg-spec-title">Fully online</p><p>Modern Age Coders has no center in Illinois. Lessons are taught live by teachers in India, and a student needs a computer, a working microphone and a steady connection.</p></div></div></section>
+<section class="cg-section cg-section--deep" id="pricing"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Fees</span><h2>What lessons cost for Illinois families</h2><p>A free start, then a choice of two monthly plans.</p></div><div class="cg-price-grid"><div class="cg-price"><span class="cg-price-label">First class</span><strong>USD 0</strong><p>A full trial lesson at no charge, with a suggested course, level and time at the end.</p></div><div class="cg-price"><span class="cg-price-label">Group tuition</span><strong>USD 100</strong><p>Monthly lessons in a batch of fifteen to twenty students working at the same stage.</p></div><div class="cg-price"><span class="cg-price-label">Private tuition</span><strong>USD 150</strong><p>Monthly lessons with a teacher who works with your student alone.</p></div></div><p class="cg-mt-2">Outside India every family pays the same rate in US dollars, so Chicago and Champaign are billed alike. Payment begins only after the trial and only once a course and time are agreed; see the pricing page for holidays and missed lessons.</p><div class="cg-hero-actions cg-mt-2"><a class="cg-btn cg-btn--primary" href="#book">Request placement</a><a class="cg-btn cg-btn--ghost" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20student%20in%20Illinois.">Check availability</a></div></div></section>
+<section class="cg-section" id="reviews"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Reviews</span><h2>Google reviews from parents and students</h2><p class="cg-boiler">Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.</p></div><div class="cg-grid-3">
+<div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p><p class="cg-review-name">Ria Mukherjee</p><p class="cg-review-role">Parent</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p><p class="cg-review-name">Samriddha Mondal</p><p class="cg-review-role">Student</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p><p class="cg-review-name">Vansh Agarwal</p><p class="cg-review-role">Student</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p><p class="cg-review-name">Sonam Oswal</p><p class="cg-review-role">Parent of Dhairya</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p><p class="cg-review-name">Sonu Goyal</p><p class="cg-review-role">Parent</p></div><div class="cg-review"><p class="cg-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p><p class="cg-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p><p class="cg-review-name">Ritu Kedia</p><p class="cg-review-role">Parent</p></div>
+</div></div></section>
+<section class="cg-section cg-section--tint" id="book"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Free placement class</span><h2>Ask for a free lesson for an Illinois student</h2><p>Tell us the grade and what your student enjoys. A second grader could start with a Scratch game, a seventh grader with a first web page, and a high schooler with the Chicago street-name cleanup.</p></div><div class="cg-contact-grid"><form class="cg-form" id="bkLeadForm" novalidate><div class="cg-field"><label for="bkName">Learner or parent name</label><input id="bkName" name="name" autocomplete="name" required><span class="cg-error" id="bkNameErr"></span></div><div class="cg-field"><label for="bkEmail">Email</label><input id="bkEmail" name="email" type="email" autocomplete="email" required><span class="cg-error" id="bkEmailErr"></span></div><div class="cg-field"><label for="bkPhone">US mobile number</label><div class="cg-phone"><span>+1</span><input id="bkPhone" name="phone" inputmode="tel" autocomplete="tel" placeholder="(201) 555-0123" required></div><span class="cg-error" id="bkPhoneErr"></span></div><div class="cg-field"><label for="bkGrade">Grade or age</label><input id="bkGrade" name="grade" required><span class="cg-error" id="bkGradeErr"></span></div><div class="cg-field"><label for="bkMsg">Goal or current experience</label><textarea id="bkMsg" name="message" rows="4"></textarea></div><button class="cg-btn cg-btn--primary" id="bkSubmit" type="submit">Book the free class</button><p class="cg-error" id="bkFormErr"></p><p class="cg-success" id="bkOk" hidden>Thank you. We will be in touch shortly to arrange a lesson for your Illinois student.</p></form><aside class="cg-contact-card"><div class="cg-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="cg-btn cg-btn--pd" href="/book-demo" data-pd-book="cg-book">Book a priority demo</a></div><h3>Contact the team directly</h3><p>WhatsApp or call <a class="cg-inline-link" href="tel:+919123366161">+91 91233 66161</a>, or email <a class="cg-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>. This is Modern Age Coders' actual contact, an Indian number, and not an invented Illinois one.</p><a class="cg-btn cg-btn--ghost" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20student%20in%20Illinois.">WhatsApp Modern Age Coders</a><p class="cg-privacy">Submitted details are used for placement and follow-up.</p></aside></div></div></section>
+<section class="cg-section" id="faq"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">FAQ</span><h2>Questions Illinois families ask</h2><p>Where a rule is involved, the answer points to the ISBE document it comes from.</p></div><div class="cg-faq">
+<div class="cg-faq-item"><h3>Is computer science required for an Illinois diploma?</h3><p>Not as a named course. The ISBE chart requires one year of a course with intensive instruction in computer literacy (PA 101-0654), which may be English, social science or another subject.</p></div>
+<div class="cg-faq-item"><h3>Which students need the computer literacy year?</h3><p>On the March 2025 ISBE chart, the computer literacy requirement is marked for students entering ninth grade in 2022 to 2023 and later.</p></div>
+<div class="cg-faq-item"><h3>Can AP computer science count as a math class in Illinois?</h3><p>Yes. ISBE says AP computer science is eligible toward the three years of mathematics, under Section 27-22 (f-5) of the School Code.</p></div>
+<div class="cg-faq-item"><h3>Do Illinois elementary schools have to teach computer skills?</h3><p>Yes. ISBE lists computer literacy as required at each grade level K-12, embedded in the district's curriculum, citing 105 ILCS 5/10-20.79 and 10-20.74.</p></div>
+<div class="cg-faq-item"><h3>How many Illinois high schools teach computer science?</h3><p>Code.org (2025) reports 418 of 721 Illinois high schools, about 58%, in 2023 to 2024, from state education agency data.</p></div>
+<div class="cg-faq-item"><h3>Will your classes count as Illinois school credit?</h3><p>No. Credit comes from courses your school offers. Our lessons add skills and projects alongside school, and anything a school grades stays the student's own work.</p></div>
+<div class="cg-faq-item"><h3>What days and times are lessons?</h3><p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p></div>
+<div class="cg-faq-item"><h3>Are lesson times given in Central time?</h3><p>Yes. All of Illinois is on Central time, so we confirm every lesson in Central time.</p></div>
+<div class="cg-faq-item"><h3>Can my child join from anywhere in Illinois?</h3><p>Yes. Lessons are live online, so a student in Chicago, the suburbs or downstate joins the same way. We have no Illinois building.</p></div>
+<div class="cg-faq-item"><h3>Where are the fees listed?</h3><p>In the fees section of this page: a free trial lesson, a monthly batch plan and a monthly one-to-one plan. Nothing is billed before the trial.</p></div>
+</div></div></section>
+<section class="cg-section cg-section--deep" id="next"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Further reading</span><h2>More for Illinois students and families</h2><p>See how Illinois compares in <a class="cg-inline-link" href="/computer-science-graduation-requirements-by-state">computer science graduation requirements by state</a> and <a class="cg-inline-link" href="/high-school-computer-science-access-by-state">high school computer science access by state</a>. Students weighing AP can read <a class="cg-inline-link" href="/does-ap-computer-science-give-college-credit">does AP computer science give college credit</a> and try our <a class="cg-inline-link" href="/ap-computer-science-a-practice-questions">AP Computer Science A practice questions</a>. For a state that made CS a full graduation course, see <a class="cg-inline-link" href="/coding-and-ai-classes-in-north-carolina">North Carolina</a>.</p></div><div class="cg-hero-actions"><a class="cg-btn cg-btn--primary" href="#book">Book the free class</a><a class="cg-btn cg-btn--pd" href="/book-demo" data-pd-book="cg-next">Book a priority demo</a><a class="cg-btn cg-btn--ghost" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20coding%20or%20AI%20lesson%20for%20a%20student%20in%20Illinois.">Chat with us on WhatsApp</a></div></div></section>
+<div class="cg-sticky" id="cgBar"><a href="#book">Free class</a><a class="cg-sticky-pd" href="/book-demo" data-pd-book="cg-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+<footer class="cg-footer"><div class="cg-wrap"><div class="cg-grid-3"><div><h3>Start here</h3><ul><li><a href="/courses">All courses</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div><div><h3>Illinois and other US guides</h3><ul><li><a href="/coding-classes-in-united-states">United States overview</a></li><li><a href="/coding-and-ai-classes-in-north-carolina">North Carolina</a></li><li><a href="/ap-computer-science-a-practice-questions">AP CS A practice</a></li><li><a href="/high-school-computer-science-access-by-state">CS access by state</a></li></ul></div><div><h3>Company</h3><ul><li><a href="/about">About us</a></li><li><a href="/contact">Contact</a></li><li><a href="/love">Wall of love</a></li><li><a href="/student-labs">Student labs</a></li></ul></div></div><p class="cg-footer-bottom">Modern Age Coders. Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than 10,000 students.</p></div></footer>
+<script>(function(){var API_URL='https://backend-modernagecoders.vercel.app';var form=document.getElementById('bkLeadForm');var bar=document.getElementById('cgBar');if(!form)return;function val(id){var e=document.getElementById(id);return e?e.value.trim():'';}function err(id,m){var e=document.getElementById(id);if(e)e.textContent=m||'';}form.addEventListener('focusin',function(){if(bar)bar.hidden=true;});form.addEventListener('focusout',function(){setTimeout(function(){if(bar&&!form.contains(document.activeElement))bar.hidden=false;},0);});form.addEventListener('submit',function(e){e.preventDefault();var name=val('bkName'),email=val('bkEmail'),phone=val('bkPhone'),grade=val('bkGrade'),msg=val('bkMsg');err('bkNameErr','');err('bkEmailErr','');err('bkPhoneErr','');err('bkGradeErr','');err('bkFormErr','');var ok=true;if(name.length<2){err('bkNameErr','Please enter a name');ok=false;}if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){err('bkEmailErr','Please enter a valid email');ok=false;}var digits=phone.replace(/\D/g,'');if(digits.indexOf('001')===0)digits=digits.slice(3);else if(digits.indexOf('1')===0&&digits.length>10)digits=digits.slice(1);if(digits.charAt(0)==='0')digits=digits.slice(1);if(digits.length<7||digits.length>15){err('bkPhoneErr','Please enter a valid phone number');ok=false;}var foreignLead=form.__macLead&&form.__macLead.iso&&form.__macLead.iso!=='US';if(!foreignLead&&(digits.length<10||digits.length>10||!/^[2-9]/.test(digits))){err('bkPhoneErr','Please enter a valid United States phone number');ok=false;}if(!grade){err('bkGradeErr','Please enter a grade or age');ok=false;}if(!ok)return;var btn=document.getElementById('bkSubmit');btn.disabled=true;btn.textContent='Sending...';var body={name:name,email:email,contact:digits,countryCode:'+1',countryIso:'US',countryName:'United States',message:('Illinois enquiry. Student grade or age: '+grade+'. '+(msg||'No further detail given.')).slice(0,1000),attribution:{formPage:'/coding-classes-in-illinois',landingPage:'/coding-classes-in-illinois',referrer:document.referrer||''}};fetch(API_URL+'/api/contact/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}).then(function(r){if(!r.ok)throw new Error('Request failed');form.reset();document.getElementById('bkOk').hidden=false;if(typeof gtag==='function')gtag('event','generate_lead',{page:'coding-classes-in-illinois'});}).catch(function(){err('bkFormErr','Something went wrong sending that. Please try again, or reach us on the contact page.');}).finally(function(){btn.disabled=false;btn.textContent='Book the free class';});});})();</script>
     <script src="/js/country-code-selector.js?v=20260927a" defer></script>
 </body>
 </html>

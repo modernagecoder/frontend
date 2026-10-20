@@ -170,48 +170,61 @@
   },
   "coding-classes-in-illinois": {
     "market": "Illinois",
-    "bodyClass": "cg-il",
-    "curriculumAuthority": "Illinois computer science learning standards, written by the State Board of Education under HB 2170 and delivered by the end of 2021. The legal frame is an ENTITLEMENT to be offered a course, which is the page's spine: a floor, not a ceiling.",
-    "localProject": "Chicago Data Portal beach water quality. Chicago Park District issues a swim advisory when predicted E. coli reaches at least 235 Colony Forming Units per 100 ml, and publishes lab data, advisories and model predictions daily through the season. Trap: CLASS IMBALANCE and the accuracy paradox. Advisories are rare, so a model that always answers safe scores about the same accuracy as a real one. Forces confusion matrix, precision and recall, and the judgement that a missed advisory and a false alarm are not equivalent harms. Sixth distinct KIND of error in the cluster.",
+    "bodyClass": "cg-aiil",
+    "pageType": "city",
+    "curriculumAuthority": "Illinois, read raw on 17 and 18 October 2026: ISBE \"Illinois graduation requirements 105 ILCS 5/27-22, 27-22.05, 27-22.10\" (March 2025; computer literacy year, PA 101-0654, may be English, social science or any other subject, marked for students entering 9th grade 2022-23 onward; AP computer science eligible for math, Section 27-22 (f-5); at least 16 units in grades 9-12; lab science from 2024-25 entrants; world language from 2028-29 entrants); ISBE Illinois Instructional Mandates 2025-26 (computer literacy required at each grade level K-12, 105 ILCS 5/10-20.79; 10-20.74; non-regulatory Continuum); Code.org (2025) access 418 of 721 (2023-24), trend 45% to 58.0%, participation 35,902 of 595,765 (6.03%, 2023-24, NCES Fall 2022 denominator); College Board AP schools 691 (2023), 715 (2024); IANA America/Chicago (Illinois in the Central list, EST in 1936, Chicago Astronomical Society 1869).",
+    "localProject": "City of Chicago Data Portal, Bike Routes (hvv9-38ut), City of Chicago Data Terms of Use, 1,008 segments (count query matched), downloaded 18 October 2026. Our counts: 2,016 endpoint values, 583 distinct raw names, 578 after case and spaces, 486 after removing the direction letter, 435 after removing the suffix (over-merges, e.g. WASHINGTON BLVD and WASHINGTON ST); 266 street vs 239 st_name values; route types 285, 258, 184, 174, 107. Lesson family: string normalization and de-duplication.",
     "requiredMentions": [
-      "HB 2170",
-      "Education and Workforce Equity Act",
-      "Illinois Legislative Black Caucus",
-      "intensive instruction in computer literacy",
-      "Chicago Park District",
-      "Colony Forming Units",
-      "Chicago Public Schools",
-      "Naperville",
-      "Schaumburg",
-      "State Board of Education"
+      "PA 101-0654",
+      "Section 27-22 (f-5)",
+      "105 ILCS 5/10-20.79",
+      "at least 16 units",
+      "Computer Literacy Knowledge and Skill Development Continuum",
+      "35,902 of 595,765",
+      "Chicago Astronomical Society",
+      "hvv9-38ut",
+      "583",
+      "WASHINGTON BLVD"
     ],
     "sources": [
       {
-        "claim": "HB 2170, the Education and Workforce Equity Act, was signed in March 2021 and championed by the Illinois Legislative Black Caucus. It requires schools to offer every student the opportunity to take at least one computer science course aligned to rigorous CS learning standards beginning in the 2023-2024 school year; requires ISBE to develop computer science learning standards, delivered by the end of 2021; requires districts to ensure students gain computer literacy skills starting in elementary school; and requires high school students to take one year of a course that includes intensive instruction in computer literacy beginning in the 2022-2023 school year.",
-        "citation": "Illinois HB 2170, Education and Workforce Equity Act, 2021",
-        "url": "https://edsystemsniu.org/hb-2170-overview/"
+        "claim": "ISBE: Illinois graduation requirements (March 2025), computer literacy year, AP computer science as math, 16 units.",
+        "url": "https://www.isbe.net/Documents/grad_require.pdf"
       },
       {
-        "claim": "Chicago Public Schools made computer science a high school graduation requirement in 2016, ahead of the state and ahead of almost every large district in the United States.",
-        "citation": "Contemporaneous reporting on the CPS graduation requirement, 2016",
-        "url": "https://techcrunch.com/2016/02/24/computer-science-is-now-a-high-school-graduation-requirement-in-chicagos-public-school-district"
+        "claim": "ISBE: Illinois Instructional Mandates 2025-26, computer literacy at each grade level K-12.",
+        "url": "https://www.isbe.net/Documents/IL-Mandated-Units-of-Study.pdf"
       },
       {
-        "claim": "The Chicago Park District monitors Lake Michigan beach water quality, testing for Escherichia coli as an indicator species, and a swim advisory is issued when the predicted E. coli level is at least 235 Colony Forming Units per 100 ml. The Chicago Data Portal publishes Beach E. coli Predictions, Beach Lab Data and Beach Swim Advisories, updated daily during the beach season. The City worked with the Park District, volunteer data scientists and university students on the forecasting model.",
-        "citation": "City of Chicago Data Portal, Beach E. coli Predictions",
-        "url": "https://data.cityofchicago.org/Parks-Recreation/Beach-E-coli-Predictions/xvsz-3xcj"
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: Illinois access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
       },
       {
-        "claim": "Illinois has 260,055 Indian Americans, 2.03 percent of the state population.",
-        "citation": "2020 United States Census",
-        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Chicago Data Portal: Bike Routes.",
+        "url": "https://data.cityofchicago.org/d/hvv9-38ut"
+      },
+      {
+        "claim": "City of Chicago: Data Terms of Use.",
+        "url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html"
+      },
+      {
+        "claim": "IANA tzdb northamerica: US central time represented by Chicago; America/Chicago zone lines.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
       }
     ],
     "rejectedClaims": [
-      {
-        "claim": "An AP computer science course counts toward the three years of mathematics required for graduation in Illinois.",
-        "why": "Widely reported but not confirmed at primary source, and the New Jersey lesson applies: a credential claim that resists sourcing gets stated as unconfirmed, never asserted. The page and its FAQ say plainly that we could not confirm it and direct families to their counsellor for the rule in force for their cohort."
-      }
+      "Illinois K-12 computer science standards: no ISBE page found in the ISBE sitemap (first 1,000 URLs) or at likely addresses on 18 October 2026, so no standards claim is made.",
+      "That Illinois requires a computer science course to graduate: refused; the chart asks for a computer literacy year that may be any subject.",
+      "Code.org Illinois access for 2024-25: the sheet has no value, so the 2023-24 figure is printed and labelled.",
+      "The Code.org graduating-senior, gender and race figures: not from the Access or Participation tabs, not used.",
+      "An official length of the Chicago bike network: not printed; our sum of segment miles is not used on the page.",
+      "Names of individual Illinois schools: not used; counts only.",
+      "That our classes earn Illinois credit: refused.",
+      "Any affiliation with ISBE, Code.org, the College Board or the City of Chicago."
     ]
   },
   "coding-classes-in-new-york": {
