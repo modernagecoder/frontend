@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [West Virginia](/coding-and-ai-classes-in-west-virginia)
 - [Vermont](/coding-and-ai-classes-in-vermont)
 - [Utah](/coding-and-ai-classes-in-utah)
 - [Tennessee](/coding-and-ai-classes-in-tennessee)

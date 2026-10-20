@@ -52944,5 +52944,62 @@
       "A reason for the fall in Vermont access to 60% in 2023-24: none given by the source; only the small-denominator effect is noted, as our reading.",
       "Any affiliation with the Vermont AOE, VTVLC, VCGI, the Department of Libraries, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-west-virginia": {
+    "market": "West Virginia",
+    "bodyClass": "cg-awv",
+    "pageType": "city",
+    "curriculumAuthority": "West Virginia, read raw 17 and 18 October 2026. wvde.us 403 and code.wvlegislature.gov 403 (not retried). West Virginia Legislature, Enrolled Committee Substitute for House Bill 2411, 2025 Regular Session, from www.wvlegislature.gov (passed April 11, 2025; effective July 10, 2025; amends 18-2-9; entering ninth grade class 2027-2028; one unit of CS credit; definition with exclusions; grades eight through twelve; State Board standards; classroom setting; substitute one math or PEP credit; CTE credit if relevant; transcript math equivalence for WV higher education admission; course list from August 2026); bill status page (Governor approval 4/30/2025; Chapter 96, Acts 2025). Code.org (2025) access 46%, 75%, 76%, 78%, 78%, 77.7% (94 of 121, year labels disagree); participation 3.6%, 5.6%, 4.2%, dash, 2.67% (2,051 of 76,900). College Board AP schools 113 and 111; public 98 and 99; non-public 15 and 12. IANA America/New_York.",
+    "localProject": "WVDOT West Virginia Trail Inventory (general reference, not warranted; last updated August 28, 2021; \"over 5,000 miles\"), 3,454 records downloaded 18 October 2026, count verified. Ours: hike 3,218 (93.2%), bike 1,444 (41.8%), horse 445 (12.9%), railtrail 103 (3.0%), ada 83 (2.4%); 41 surface labels whose whole-number shares sum to 99; dirty motorized labels (leading space, backspace character); geometry total 6,335.3 miles and trailLengt total 6,642.5, labelled ours. Lesson family: percentages, rounding and denominators.",
+    "requiredMentions": [
+      "House Bill 2411",
+      "April 11, 2025",
+      "July 10, 2025",
+      "grades eight through twelve",
+      "keyboarding, word processing, digital literacy",
+      "one personalized education plan credit",
+      "94 of 121",
+      "2,051 of 76,900",
+      "113 in 2023, 111 in 2024",
+      "3,454 records",
+      "add up to 99",
+      "6,335.3 miles"
+    ],
+    "sources": [
+      {
+        "claim": "West Virginia Legislature: Enrolled Committee Substitute for House Bill 2411 (2025 Regular Session), amending 18-2-9.",
+        "url": "https://www.wvlegislature.gov/Bill_Text_HTML/2025_SESSIONS/RS/bills/hb2411%20sub1%20enr.pdf"
+      },
+      {
+        "claim": "West Virginia Legislature: HB 2411 bill status, Governor approval and chapter number.",
+        "url": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=2411&year=2025&sessiontype=RS&btype=bill"
+      },
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: West Virginia access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "WVDOT: West Virginia Trail Inventory feature service.",
+        "url": "https://services2.arcgis.com/xLpB90lOmCXYDAWo/arcgis/rest/services/GTI_PUB_UTM_DBO_WV_Trail_Inventory/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica and zone1970.tab: US rule and America/New_York.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Anything from wvde.us or code.wvlegislature.gov: both returned 403; the State Board course list and WV CS standards are not quoted.",
+      "A single school year for 94 of 121: the Code.org year-by-year tab says 2023 to 2024 and the most recent tab says 2024 to 2025; both labels printed, neither asserted.",
+      "Any cause for enrollment changes, or a claim about why the Legislature acted: not in the sources.",
+      "Names of the bill sponsors and of individuals in the trail inventory description: not needed.",
+      "An official statewide trail mileage: the inventory text says over 5,000 miles; our two sums disagree with it and each other; none presented as official.",
+      "Code.org geography, size, gender or race figures and the Code.org state narrative page: not used.",
+      "That our classes earn the West Virginia CS credit: refused.",
+      "Any affiliation with the West Virginia Department of Education, the Legislature, WVDOT, Code.org or the College Board."
+    ]
   }
 }

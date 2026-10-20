@@ -262,7 +262,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 99 | coding-and-ai-classes-in-south-dakota (asd, #6B1021) | state | 3,178 | 2.1% vs coding-and-ai-classes-in-pennsylvania | phase 4 | binning a numeric field, skew (mean against median) and labels that need cleanin | df486130 |
 | 100 | coding-and-ai-classes-in-tennessee (at, #66361F) | state | 3,230 | 2.1% vs coding-and-ai-classes-in-south-carolina | phase 4 | parsing messy time strings and converting between time zones (datetime handling) | 4cd512ed |
 | 101 | coding-and-ai-classes-in-utah (aiu, #704714) | state | 3,437 | 2.2% vs coding-and-ai-classes-in-tennessee | phase 4 | geographic bounding-box filtering and boundary conditions | 5ba2f8db |
-| 102 | coding-and-ai-classes-in-vermont (av, #1C354C) | state | 3,201 | 1.9% vs coding-and-ai-classes-in-south-dakota | phase 4 | text cleaning and normalization of names (strip, tokenize, standardize), then co | (this commit) |
+| 102 | coding-and-ai-classes-in-vermont (av, #1C354C) | state | 3,201 | 1.9% vs coding-and-ai-classes-in-south-dakota | phase 4 | text cleaning and normalization of names (strip, tokenize, standardize), then co | 8926cf0e |
+| 105 | coding-and-ai-classes-in-west-virginia (awv, #943543) | state | 3,691 | 1.9% vs coding-and-ai-classes-in-oklahoma | phase 4 | percentages, rounding and denominators (why rounded parts do not add to 100, and | (this commit) |
 
 ## Skipped
 
