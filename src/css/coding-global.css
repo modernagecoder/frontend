@@ -1783,3 +1783,4 @@
 .cg-root.cg-apta  { --cg-accent: #80454C; --cg-accent-soft: rgba(128,69,76,.10); }   /* Austin: a muted cedar-bark rose #80454C from the allocation table, contrast 6.89 on the paper and 5.93 on the deepest tint */
 .cg-root.cg-bek  { --cg-accent: #61270F; --cg-accent-soft: rgba(97,39,15,.10); }   /* Chicago: a dark muted brick #61270F from the allocation table, contrast 10.97 on the paper and 9.44 on the deepest tint */
 .cg-root.cg-as  { --cg-accent: #495280; --cg-accent-soft: rgba(73,82,128,.10); }   /* Seattle: a muted Puget Sound slate #495280 from the allocation table, contrast 7.07 on the paper and 6.08 on the deepest tint */
+.cg-root.cg-aptb  { --cg-accent: #52429E; --cg-accent-soft: rgba(82,66,158,.10); }   /* Boston, Massachusetts: a muted harbour violet #52429E from the allocation table, contrast 7.53 on the paper and 6.48 on the deepest tint */

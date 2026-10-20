@@ -53736,5 +53736,62 @@
       "That our classes earn Washington credit or meet the substitution rule: refused.",
       "Any affiliation with the City of Seattle, OSPI or Code.org."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-boston-massachusetts": {
+    "market": "Boston",
+    "bodyClass": "cg-aptb",
+    "pageType": "city",
+    "curriculumAuthority": "Massachusetts, read raw on 18 October 2026 (copies from the state page research): DESE DLCS Course Taking Dashboard (K-12 students completing at least one DLCS course by school or district); DESE curriculum review marking curricula core or supplemental by grade span; Code.org (2025) State of AI + CS Education, Most Recent Access Data: MA 2023-2024, 81.25%; IANA America/New_York and the US DST rule.",
+    "localProject": "Analyze Boston Blue Bike Stations (PDDL, updated nightly), downloaded 18 October 2026: 572 stations in 13 municipalities, 324 in Boston; Total_docks stored as text (text sort puts two Salem 9-dock stations first); our Boston ranking South Station 47, Forest Hills 40, tenth place a three-way tie at 32; duplicate [Extension] record; our Boston sum 5,945 docks, median 19; 106 stations at 15 docks, 100 at 19. Lesson family: top-N ranking.",
+    "requiredMentions": [
+      "Analyze Boston",
+      "572 stations across 13 municipalities",
+      "324",
+      "5,945",
+      "three-way tie at 32",
+      "[Extension]",
+      "The 13 councilors",
+      "31 urban wilds",
+      "more than 45,000 public street trees",
+      "Course Taking Dashboard"
+    ],
+    "sources": [
+      {
+        "claim": "Analyze Boston: Blue Bike Stations (PDDL), used for the ranking.",
+        "url": "https://data.boston.gov/dataset/blue-bike-stations"
+      },
+      {
+        "claim": "City of Boston: City Council, 13 councilors, four at-large and nine district, two-year terms.",
+        "url": "https://www.boston.gov/departments/city-council"
+      },
+      {
+        "claim": "City of Boston: Parks and Recreation (2,200 acres, 31 urban wilds, 2 golf courses, 45,000 street trees).",
+        "url": "https://www.boston.gov/departments/parks-and-recreation"
+      },
+      {
+        "claim": "City of Boston: Boston Centers for Youth and Families, 36 facilities.",
+        "url": "https://www.boston.gov/departments/boston-centers-youth-families"
+      },
+      {
+        "claim": "Massachusetts DESE: Digital Literacy and Computer Science (DLCS), course taking dashboard and curriculum review.",
+        "url": "https://www.doe.mass.edu/stem/dlcs/"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Massachusetts access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/New_York and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Boston library branches and MBTA stops: used by the Massachusetts state page, not repeated here.",
+      "The DLCS strands and Massachusetts graduation rules: covered on the state page, not repeated.",
+      "Live bike availability: the station list gives docks only, so no bike counts are claimed.",
+      "Station street addresses and names of people in station names: not printed beyond major hubs.",
+      "Any connection with the UK town of Boston, Lincolnshire, or its page: none; never linked.",
+      "Any affiliation with the City of Boston, Bluebikes, DESE or Code.org."
+    ]
   }
 }
