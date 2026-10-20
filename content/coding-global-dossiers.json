@@ -52403,5 +52403,67 @@
       "Addresses or locations of individual trees: counts only.",
       "That our classes earn Ohio credit, and any affiliation with the Ohio Department of Education and Workforce, the City of Columbus, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-oklahoma": {
+    "market": "Oklahoma",
+    "bodyClass": "cg-aio",
+    "pageType": "city",
+    "curriculumAuthority": "Oklahoma, read raw 17 and 18 October 2026. OSDE Computer Science page (70 O.S. 11-103.6m: from 2024-2025 elementary and middle schools, including charters, offer OAS-CS-aligned instruction; high schools offer at least one standalone CS course; AI guidance). OSDE Computer Science Standards page (2023 OAS-CS committee; two public comment periods; includes and excludes lists; Emerging Technologies and AI competencies complement, not replace; no additional AI standards adopted legislatively; Pre-K guidance). 2023 OAS-CS PDF, February 2023 (five core concepts; K-8 and Level 1 for all, Level 2 for specialists; informed by 2018 OAS-CS; codes such as 3.AP.A.01). Code.org (2025) access 37%, 53%, 64%, dash, 71.5% (334 of 467, 2023-24); participation 7.3%, 4.7%, dash, 7.57% (15,486 of 204,594). College Board AP schools 273 and 297; public 244 and 268; non-public 29 and 29. IANA America/Chicago, Central (most areas).",
+    "localProject": "City of Oklahoma City Parks layer (Open Data Policy; acres approximate; private parks excluded), 169 rows downloaded 18 October 2026, count verified. Ours: total 6,463.0 acres; Stinchcomb Wildlife Refuge 967.9 (15.0%), Open Space - K 404.4, Hefner Golf Course 363.0, Trosper Park 356.6, Earlywine Golf Course 335.4; top ten 3,562.9 acres (55.1%); median 7.45; Special Use with trailing space 2 rows; 9 names with trailing spaces; Neighborhood 87 parks, 712.1 acres; Lone Oak Park 122.5, labelled ours. Lesson family: sorting and top-N, then concentration.",
+    "requiredMentions": [
+      "11-103.6m",
+      "at least one standalone computer science course",
+      "Oklahoma Academic Standards for Computer Science",
+      "two public comment periods",
+      "Level 2",
+      "3.AP.A.01",
+      "playing video games",
+      "334 of 467",
+      "15,486 of 204,594",
+      "273 in 2023, 297 in 2024",
+      "169 parks",
+      "3,562.9 of the 6,463.0 acres"
+    ],
+    "sources": [
+      {
+        "claim": "Oklahoma State Department of Education: Computer Science page, 70 O.S. 11-103.6m summary.",
+        "url": "https://oklahoma.gov/education/services/standards-learning/computer-science.html"
+      },
+      {
+        "claim": "Oklahoma State Department of Education: Computer Science Standards page.",
+        "url": "https://oklahoma.gov/education/services/standards-learning/computer-science/computer-science-standards.html"
+      },
+      {
+        "claim": "Oklahoma State Department of Education: 2023 Oklahoma Academic Standards for Computer Science (PDF).",
+        "url": "https://oklahoma.gov/content/dam/ok/en/osde/documents/services/standards-learning/computer-science/2023%20Computer%20Science%20Standards.pdf"
+      },
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: Oklahoma access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Oklahoma City: Parks feature service (Open Data Policy).",
+        "url": "https://utility.arcgis.com/usrsvcs/servers/fe9dc8e85f9c43b7950e32b69edf28fc/rest/services/OpenData/Recreation_Parks/FeatureServer/4"
+      },
+      {
+        "claim": "IANA tzdb northamerica and zone1970.tab: US rule and America/Chicago.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "That Oklahoma requires students to take computer science to graduate: not asserted; the department summary read describes an offering requirement on schools, and the graduation requirements page linked to documents we did not read.",
+      "The statute text of 70 O.S. 11-103.6m itself: quoted only through the department summary.",
+      "Any effect of the 2024-2025 offering law on access: no post-law figure in the sheet.",
+      "Any cause for the enrollment changes between years: not in the source.",
+      "The name of the department contact listed on its CS pages: not needed.",
+      "Official park acreage rankings: the city calls acres approximate; all ranks and shares are ours.",
+      "Code.org geography, size, gender or race figures and the Code.org state narrative page: not used.",
+      "That our classes satisfy the school offering: refused.",
+      "Any affiliation with the Oklahoma State Department of Education, the City of Oklahoma City, Code.org or the College Board."
+    ]
   }
 }
