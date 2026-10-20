@@ -271,7 +271,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 104 | coding-classes-in-washington (aws, #5F538A) | state | 3,596 | 1.9% vs coding-and-ai-classes-in-utah | phase 4 | frequency tables, cumulative share and the long tail | 165b24ec |
 | 114 | best-coding-classes-for-kids-in-new-york-city (bkny, #6B1D32) | metro | 3,304 | 1.5% vs coding-and-ai-classes-in-iowa | phase 5 | top-N ranking with a blank category, and checking a computed total against a pub | 5b9e171b |
 | 115 | online-coding-and-ai-classes-in-los-angeles (ala, #9E4834) | metro | 2,728 | 2% vs best-coding-classes-for-kids-in-new-york-city | phase 5 | computing area from polygon coordinates, then mean versus median on a skewed dis | 941e5120 |
-| 116 | ai-and-python-classes-for-teens-in-san-francisco-bay-area (apts, #0B1E4C) | metro | 2,743 | 2.3% vs online-coding-and-ai-classes-in-los-angeles | phase 5 | dates stored as text, blank values, and filtering out dates that cannot be true  | (this commit) |
+| 116 | ai-and-python-classes-for-teens-in-san-francisco-bay-area (apts, #0B1E4C) | metro | 2,743 | 2.3% vs online-coding-and-ai-classes-in-los-angeles | phase 5 | dates stored as text, blank values, and filtering out dates that cannot be true  | 99a2ff99 |
+| 117 | best-coding-classes-for-kids-in-san-jose (bksj, #1A1380) | metro | 2,896 | 1.8% vs best-coding-classes-for-kids-in-new-york-city | phase 5 | nearest-neighbor search with straight-line distance on latitude and longitude | (this commit) |
 
 ## Skipped
 

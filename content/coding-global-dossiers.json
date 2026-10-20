@@ -53325,5 +53325,54 @@
       "A school year for the latest California Code.org value: tabs disagree, none printed.",
       "Any affiliation with DataSF, San Francisco Public Works, the City and County of San Francisco or Code.org."
     ]
+  },
+  "best-coding-classes-for-kids-in-san-jose": {
+    "market": "San Jose",
+    "bodyClass": "cg-bksj",
+    "pageType": "city",
+    "curriculumAuthority": "California, 18 October 2026: cde.ca.gov (WAF redirect) and leginfo.legislature.ca.gov (403) unreadable, so no state rule is quoted; Code.org (2025): most recent California high school access a little under six in ten (School Course Catalogs and Teacher Surveys), year withheld because the tabs disagree. IANA America/Los_Angeles and the US DST rule.",
+    "localProject": "City of San Jose Open Data, Library (25 features, all Open, CC BY, published Mondays weekly) and Park (611 features; Open 526, Closed 36, Future Park 30; NEIG 231; covers San Jose, Santa Clara County and parts of San Mateo County), GeoJSON downloaded 18 October 2026. Our nearest-neighbor calculation from vertex-mean centers with haversine (3,958.8 miles) to 211 open NEIG parks: median 0.27 miles, 23 of 25 within half a mile, closest Rose Garden Library 0.02, farthest Bascom Library 0.64; Alviso 0.06, Calabazas 0.10, Hillview 0.35. Ours. Lesson family: nearest-neighbor search on latitude and longitude.",
+    "requiredMentions": [
+      "each of the 25 libraries",
+      "0.27 miles",
+      "23 of 25",
+      "Bascom Library, 0.64 miles",
+      "Rose Garden Library, 0.02 miles",
+      "Alviso Library sits 0.06 miles from Alviso Park",
+      "all 211 parks",
+      "only 526 are currently open",
+      "5,275 distances",
+      "parts of San Mateo County"
+    ],
+    "sources": [
+      {
+        "claim": "City of San Jose Open Data: Library dataset, licence and publishing schedule.",
+        "url": "https://data.sanjoseca.gov/dataset/library"
+      },
+      {
+        "claim": "City of San Jose Open Data: Park dataset, coverage, licence and fields.",
+        "url": "https://data.sanjoseca.gov/dataset/park"
+      },
+      {
+        "claim": "City of San Jose GIS: Library GeoJSON download used for our distances.",
+        "url": "https://gisdata-csj.opendata.arcgis.com/api/download/v1/items/a38f861803b24d4ba51aa1d11dcbb90a/geojson?layers=337"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: California high school access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb: America/Los_Angeles and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "California state CS rules: cde.ca.gov and leginfo.legislature.ca.gov could not be read; not retried, nothing quoted.",
+      "Library contact names and emails in the dataset: not printed.",
+      "Park names that honor individuals: not printed; only place-named parks appear.",
+      "Walking distances: not computed; only straight-line distances between approximate centers, labelled ours.",
+      "Any ranking of San Jose coding classes: none verified, none claimed; the format table is our own assessment.",
+      "Any affiliation with the City of San Jose, San Jose Public Library or Code.org."
+    ]
   }
 }
