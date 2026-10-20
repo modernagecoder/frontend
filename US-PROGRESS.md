@@ -252,7 +252,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 74 | coding-and-ai-classes-in-indiana (aiin, #9E2C18) | state | 3,266 | 1.8% vs coding-and-ai-classes-in-alabama | phase 4 | set operations (intersection, difference, union), on greenway names and on tzdb  | 82d9fef4 |
 | 75 | coding-and-ai-classes-in-iowa (aiio, #523920) | state | 3,602 | 1.8% vs coding-and-ai-classes-in-idaho | phase 4 | two-key crosstab (pivot) and what an "Unknown" cell means | a5868efe |
 | 76 | coding-and-ai-classes-in-kansas (ak, #425231) | state | 3,399 | 1.6% vs coding-and-ai-classes-in-alabama | phase 4 | nearest-neighbour search | b8cbf9ce |
-| 77 | coding-and-ai-classes-in-kentucky (aike, #367014) | state | 3,128 | 1.8% vs coding-and-ai-classes-in-michigan | phase 4 | word frequency in a text column (tokenizing names) | (this commit) |
+| 77 | coding-and-ai-classes-in-kentucky (aike, #367014) | state | 3,128 | 1.8% vs coding-and-ai-classes-in-michigan | phase 4 | word frequency in a text column (tokenizing names) | 5b42a915 |
+| 93 | coding-and-ai-classes-in-ohio (ao, #852C1C) | state | 3,744 | 1.9% vs coding-and-ai-classes-in-indiana | phase 4 | cleaning categories before counting (what a record is, filters, coded values, un | (this commit) |
 
 ## Skipped
 

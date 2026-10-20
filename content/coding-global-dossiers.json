@@ -52353,5 +52353,55 @@
       "That our classes count toward 704 KAR 3:305 credits or meet the technology requirement: refused.",
       "Any affiliation with the Kentucky Department of Education, the Legislative Research Commission, LFUCG, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-ohio": {
+    "market": "Ohio",
+    "bodyClass": "cg-ao",
+    "pageType": "city",
+    "curriculumAuthority": "Ohio, read raw on 17 October 2026: Ohio Department of Education and Workforce blocked (F5 Request Rejected), codes.ohio.gov and legislature.ohio.gov timed out, so no Ohio rule is printed; Code.org (2025) State of AI + CS Education data (access 42%, 50%, 48%, 62%, 61.3%, 60.8%; 635 of 1,045 in 2023-24; 15,883 of 535,556, 2.97%, 2023-24; national 60% and 6.4%); College Board AP schools 721 (2023), 712 (2024), public 578/572, non-public 143/140; IANA America/New_York and US DST rule.",
+    "localProject": "City of Columbus Public Owned Trees (Recreation and Parks, Urban Forestry, CC0), server-side counts 17 October 2026: 316,529 records; 55,904 retired; 260,625 not retired; 86,152 vacant sites among those; 174,473 non-vacant; 2,936 \"Unlnown or other live tree\"; 171,537 named; Maple, Red 13,296, Honeylocust 8,602, Pear, Callery 8,552; maples 46,387 (27.0%); Ash 18,598 all vs 2,274 not retired; 306 domain codes, 287 present, 3 codes (6 records) not in the domain. All ours. Lesson family: cleaning categories before counting.",
+    "requiredMentions": [
+      "635 of 1,045",
+      "15,883 of 535,556",
+      "60.8%",
+      "721",
+      "316,529",
+      "86,152",
+      "171,537",
+      "46,387",
+      "Unlnown or other live tree"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Ohio and national access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Columbus: Public Owned Trees layer, CC0.",
+        "url": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/1"
+      },
+      {
+        "claim": "City of Columbus open data hub item for Public Owned Trees.",
+        "url": "https://opendata.columbus.gov/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Ohio in the Eastern list, America/New_York, US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Ohio graduation requirement, CS standards adoption year or required offering: education.ohio.gov returned an F5 \"Request Rejected\" page and the statute sites timed out on 17 October 2026, so none is printed.",
+      "Code.org state narrative text (including its participation year and AI policy sentences): not the raw sheet, not used.",
+      "Code.org geography, school size, gender and race figures for Ohio: not used.",
+      "A 2024 to 2025 Ohio access figure: the sheet shows a dash, so none is printed.",
+      "Any cause for the retired ash records or for the access and participation figures: no source states one.",
+      "An official Columbus tree total: not published in this form; only our labelled counts appear.",
+      "Addresses or locations of individual trees: counts only.",
+      "That our classes earn Ohio credit, and any affiliation with the Ohio Department of Education and Workforce, the City of Columbus, Code.org or the College Board."
+    ]
   }
 }
