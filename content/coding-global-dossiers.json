@@ -119,53 +119,67 @@
   },
   "coding-classes-in-virginia": {
     "market": "Virginia",
-    "bodyClass": "cg-va",
-    "curriculumAuthority": "2017 Computer Science Standards of Learning, adopted November 2017, taught from 2019-20. Virginia was the FIRST state to require computer science instruction at all K-12 levels. K-8 is addressed WITHIN existing content areas; middle and high school are stand-alone electives. The page's spine is that integration is the most fragile delivery model: no timetable slot, no specialist teacher, no assessment to reveal absence.",
-    "localProject": "Virginia School Quality Profiles / VDOE SOL pass rates, published for schools, divisions and the state across three years. Trap: REGRESSION TO THE MEAN. Select the bottom tenth of schools in year one and they rise in year two with no intervention, because selecting on an extreme selects partly for bad luck and luck does not repeat. Mirror it with the top tenth falling. Consequence: any programme aimed at the worst performers appears to work even if it does nothing, so an evaluation without a comparison group is worthless. Seventh distinct KIND of error in the cluster. Framed explicitly as being about statistics, not about judging schools.",
+    "bodyClass": "cg-aiv",
+    "pageType": "city",
+    "curriculumAuthority": "Virginia, read raw 17 and 18 October 2026. doe.virginia.gov returned 403 (not retried). Statute and regulation from the General Assembly LIS: Code of Virginia 22.1-253.13:1 (SOL include computer science and computational thinking, including computer coding; K-12 program of instruction); 22.1-253.13:4 D 14 (CS credits considered science, mathematics or CTE credits; Board guidelines), D 19 (ELL computer coding for foreign language), D 20 (advanced studies IEP, two CS units for two world language units, counselor notice); 8VAC20-132-51 (entering ninth grade 2018-2019 and later; eff. September 25, 2024; Standard 22 units, Advanced Studies 26 units, 5 verified credits; CS footnotes). Code.org (2025) access 73%, 73%, dash, 75%, 74%, 68.4% (229 of 335, 2023-24); participation 6.5%, 5.7%, 4.94% (19,801 of 400,497, 2022-23). College Board AP schools 455 and 453; public 325 and 324; non-public 130 and 129. IANA America/New_York, Eastern (most areas); US rule.",
+    "localProject": "Fairfax County GIS Existing Bicycle and Pedestrian Network (county GIS disclaimer, no warranties), 7,237 records downloaded 18 October 2026 in four pages, count verified. Raw TREATMENT_TYPE counts (Trail 2,571, ShareRoad 2,335, BikeLane 555, Sidewalk 401, Path 169, Sharrow 136, crossings 560 and 344); label inconsistencies (Poor/POOR, Excellent/EXCELLENT, Unknown 1,246/UNKNOWN 56); 74 two-district records; Unnamed Trail 691 segments. Our miles from Shape__Length in US feet: Trail 533.6, ShareRoad 574.9, BikeLane 145.8; Fairfax County Parkway Trail 20.26, Cross County Trail 20.24, Cross Country Trail 14.70, Ox Rd Trail E 11.22, Mount Vernon Trail 9.50, labelled ours. Lesson family: cleaning inconsistent labels, then filter-and-rank.",
     "requiredMentions": [
-      "Computer Science Standards of Learning",
-      "verified credits",
-      "Advanced Studies Diploma",
-      "Profile of a Virginia Graduate",
-      "critical thinking, creative thinking, collaboration, communication, and citizenship",
-      "School Quality Profiles",
-      "regression to the mean",
-      "stand-alone electives",
-      "Loudoun",
-      "November 2017"
+      "22.1-253.13:4",
+      "including computer coding",
+      "8VAC20-132-51",
+      "September 25, 2024",
+      "22 standard units",
+      "26 standard units",
+      "229 of 335",
+      "19,801 of 400,497",
+      "455 in 2023, 453 in 2024",
+      "7,237 records",
+      "Cross Country Trail",
+      "20.26 miles across 43 segments"
     ],
     "sources": [
       {
-        "claim": "In November 2017 Virginia became the first state to require computer science instruction integrated at all K-12 levels, adopting K-12 Computer Science Standards of Learning, expected to be taught from the 2019-2020 academic year. Computer science in grades K-8 is addressed within the content areas, including language arts and history, while middle and high school classes are designed as stand-alone electives.",
-        "citation": "Virginia Department of Education, 2017 Computer Science Standards of Learning",
-        "url": "https://www.doe.virginia.gov/teaching-learning-assessment/k-12-standards-instruction/computer-science/standards-of-learning/2017-computer-science-standards-of-learning"
+        "claim": "Code of Virginia 22.1-253.13:1, Standard 1: Standards of Learning include computer science and computational thinking, including computer coding.",
+        "url": "https://law.lis.virginia.gov/vacode/title22.1/chapter13.2/section22.1-253.13:1/"
       },
       {
-        "claim": "A Standard Diploma requires at least 22 standard credits and 5 verified credits. An Advanced Studies Diploma requires at least 26 standard credits and 5 verified credits. Standard credits are earned by completing required and elective courses; verified credits are earned by completing required courses AND passing associated end-of-course SOL tests or other Board-approved assessments.",
-        "citation": "Virginia Department of Education, Standard and Advanced Studies Diploma graduation requirements",
-        "url": "https://www.doe.virginia.gov/parents-students/for-students/graduation/diploma-options/standard-diploma-graduation-requirements"
+        "claim": "Code of Virginia 22.1-253.13:4, Standard 4, subsection D items 14, 19 and 20.",
+        "url": "https://law.lis.virginia.gov/vacode/title22.1/chapter13.2/section22.1-253.13:4/"
       },
       {
-        "claim": "In accordance with the Profile of a Virginia Graduate, students shall acquire and demonstrate foundational skills in Virginia's 5 C's: critical thinking, creative thinking, collaboration, communication, and citizenship.",
-        "citation": "Virginia Department of Education, Profile of a Virginia Graduate",
-        "url": "https://www.doe.virginia.gov/parents-students/for-students/graduation/diploma-options/advanced-studies-diploma-graduation-requirements"
+        "claim": "8VAC20-132-51, graduation requirements for students entering ninth grade in 2018-2019 and later.",
+        "url": "https://law.lis.virginia.gov/admincode/title8/agency20/chapter132/section51/"
       },
       {
-        "claim": "The Virginia Department of Education publishes School Quality Profiles containing accreditation, historical Standards of Learning scores and passing rates, and provides downloadable SOL test results for schools, school divisions and the state by grade level, course and content area covering three years with numerators and denominators.",
-        "citation": "Virginia Department of Education, SOL Test Pass Rates and Other Results; Virginia School Quality Profiles",
-        "url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results"
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: Virginia access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
       },
       {
-        "claim": "Virginia has 157,635 Indian Americans, 1.83 percent of the state population.",
-        "citation": "2020 United States Census",
-        "url": "https://en.wikipedia.org/wiki/Indian_Americans"
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Fairfax County GIS: Existing Bicycle and Pedestrian Network feature service.",
+        "url": "https://services1.arcgis.com/ioennV6PpG5Xodq0/arcgis/rest/services/Existing_Bicycle_and_Pedestrian_Network/FeatureServer"
+      },
+      {
+        "claim": "Fairfax County GIS disclaimer.",
+        "url": "https://www.fairfaxcounty.gov/maps/disclaimer"
+      },
+      {
+        "claim": "IANA tzdb northamerica and zone1970.tab: US rule and America/New_York.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
       }
     ],
     "rejectedClaims": [
-      {
-        "claim": "Because Virginia requires computer science K-12, every Virginia child is learning to code.",
-        "why": "The requirement is real and Virginia genuinely got there first, but K-8 delivery is integration into other subjects with no dedicated lesson, teacher or assessment. The page credits the policy, states the delivery model plainly, says explicitly that integration done well is genuinely good and that the problem is variance rather than ceiling, and gives parents a specific question to ask their own school instead of asserting a failure we cannot measure."
-      }
+      "Anything from the Virginia Department of Education site (doe.virginia.gov returned 403 on 17 October 2026): no CS Standards of Learning adoption year, course lists or Board guidelines are printed.",
+      "A 2024 to 2025 access figure for Virginia: the Code.org trend cell repeats the 2023 to 2024 value exactly and the most recent tab dates 229 of 335 to 2023 to 2024, so it is treated as carried forward and not printed.",
+      "Any cause for the fall in access or enrollment: the sources give figures, not reasons.",
+      "That Cross County Trail and Cross Country Trail are the same trail: not established; posed as a question only.",
+      "Official Fairfax trail lengths: not read; all miles are our sums of one download.",
+      "Code.org geography, school size, gender or race figures and the Code.org state narrative page: not used.",
+      "That our classes earn a Virginia credit: refused; only Board and division approved courses do.",
+      "Any affiliation with the Virginia Department of Education, Fairfax County, Code.org or the College Board."
     ]
   },
   "coding-classes-in-illinois": {

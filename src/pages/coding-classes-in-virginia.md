@@ -1,356 +1,281 @@
 ---
-title: "Coding Classes in Virginia | Live Online, Ages 6 to 67"
-description: "Live online coding and maths for Virginia students aged 6 to 67. Virginia requires computer science K-12, but integration is the weakest way to deliver it."
+title: "Coding and AI Classes in Virginia | Live Online, Grades K to 12"
+description: "Live online coding and AI classes for Virginia students: how a CS credit counts toward a diploma under state law, the access figures, and a Fairfax trails project."
 canonical: https://learn.modernagecoders.com/coding-classes-in-virginia
 source: src/pages/coding-classes-in-virginia.html
 ---
-> Live online coding and maths for Virginia students aged 6 to 67. Virginia requires computer science K-12, but integration is the weakest way to deliver it.
+> It can. Code of Virginia &sect; 22.1-253.13:4 tells the Board of Education to treat every computer science credit as a science, mathematics or career and technical education credit, and the Standards of Learning must include computer science and computational thinking, including computer coding. Modern Age Coders teaches that same ground live online, from Scratch in kindergarten to AP Computer Science A in Java.
 
 [Home](/) / [United States](/coding-classes-in-united-states) / Virginia
 
-Virginia / Live online
+Commonwealth of Virginia, United States / Live online
 
-# Virginia required computer science first, then put it everywhere and nowhere.
+# Coding and AI classes in Virginia
 
-The short answer
+**Does computer science count toward a Virginia high school diploma?** It can. Code of Virginia &sect; 22.1-253.13:4 tells the Board of Education to treat every computer science credit as a science, mathematics or career and technical education credit, and the Standards of Learning must include computer science and computational thinking, including computer coding. Modern Age Coders teaches that same ground live online, from Scratch in kindergarten to AP Computer Science A in Java.
 
-Virginia was the first state in the country to require computer science at every K-12 level. From Kindergarten to Grade 8 it is delivered inside other subjects, with no lesson of its own and no test to confirm it happened. Modern Age Coders teaches it as an actual subject, live, for ages 6 to 67, in batches of fifteen to twenty or privately, at USD 100 and USD 150 a month.
+Virginia took an unusual route. Rather than adding a separate computer science course to the list every student must pass, the General Assembly wrote coding into the law that defines what public schools teach, then let a CS credit stand in for credits a student already needs. That makes the subject flexible, and it also makes it easy to miss: a ninth grader can reach a diploma without ever choosing it. Below, the statute and the diploma regulation as the Legislative Information System publishes them, how many Virginia high schools offered computer science in the most recent year with data, and a data project built on Fairfax County&rsquo;s own trail and bike lane records.
 
-In November 2017 Virginia did something no other state had done: it made computer science a requirement for every child, not an elective for the interested ones. That deserves credit and it is genuinely ahead of most of the country. The delivery model, though, is the weakest one available. In Kindergarten through Grade 8 the standards are addressed within existing content areas. Middle and high school get stand-alone electives, but the eight years underneath them do not.
+Facts last verified 18 October 2026. Teaching is online; no Virginia branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
-A subject with no timetable slot, no specialist teacher and no assessment depends entirely on individual goodwill. Sometimes that works beautifully. When it does not, nothing anywhere records the fact. Virginia sits inside our wider [United States](/coding-classes-in-united-states) coverage.
+## Four courses Virginia families ask about first
 
-Book the free first classWhy integration fails quietly
+Each card is a full course with its own syllabus. The free first lesson decides which one fits, so nobody has to guess.
 
-No card. No obligation. We call, we do not spam.
+- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Grades K to 5): Computational thinking in blocks: events, loops and a finished game that a young student can explain line by line.
+- [Python for Teens](/courses/python-complete-masterclass-teens) (Grades 6 to 10): Typed Python from the first print statement to programs that read real files, such as the Fairfax trail records below.
+- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course) (Grades 10 to 12): Java, object-oriented design and the free-response style of the AP Computer Science A exam.
+- [Data Science for Teens](/courses/data-science-course-for-teens-python-data) (Grades 9 to 12): Cleaning, charting and questioning public data with pandas, the skill the Fairfax project practises.
 
-10,000+students taught4.9across 547 Google reviews2020teaching since25+countries6 to 67ages taught15 to 20students per groupCourses for Virginia
+The four we are known for, on every market page:
 
-## What Virginia families actually book
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
 
-The first two matter most here, because Kindergarten to Grade 8 is exactly where the integrated model leaves the biggest hole. The last two are for students heading toward a verified credit and an Advanced Studies Diploma.
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
-[![Coding in blocks course thumbnail](/images/kids-coding.webp)  Ages 6 to 10 Coding in blocks An actual lesson, every week, in the years Virginia leaves to integration. See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python and AI course thumbnail](/images/python-kids.webp)  Ages 11 to 13 Python and AI Where a middle schooler goes when one elective is the whole offering. See the syllabus](/courses/python-ai-kids-masterclass)[![AP Computer Science A course thumbnail](/images/ap-computer-science-a.webp)  Ages 14 to 18 AP Computer Science A Java, the exam unit structure, and the free response questions that decide the grade. See the syllabus](/courses/ap-computer-science-a-java-exam-prep-course)[![High school mathematics course thumbnail](/images/high-school-maths.webp)  Ages 14 to 18 High school mathematics Verified credits are SOL-tested, and the maths ones are where students lose them. See the syllabus](/courses/complete-high-school-mathematics-mastery)
+## Three lines of the Code of Virginia every CS student should know
 
-That is four of more than a hundred. The rest, sorted by age and subject, sit on the [course atlas](/course-atlas), and the order we teach them in is on the [coding roadmap](/coding-roadmap).
+The Virginia Department of Education site refused our request on 17 October 2026, so this section quotes the law itself, from the General Assembly&rsquo;s Legislative Information System, read the same week.
 
-The four we are known for
+**Computer science in the Standards of Quality, Code of Virginia, Title 22.1, Chapter 13.2 (quoted from the statute)**
 
-### Python, AI, vibe coding and agentic coding
+| Section | What the statute says | What it means for a student (our reading) |
+|---|---|---|
+| &sect; 22.1-253.13:1, Standard 1 | The Standards of Learning shall include computer science and computational thinking, including computer coding | Coding is part of the content every public school is expected to teach, not an optional extra |
+| &sect; 22.1-253.13:1, subsection C | Local school boards shall emphasize the same subject in a program of instruction for grades K through 12 | The expectation runs from kindergarten, not only in high school |
+| &sect; 22.1-253.13:4, D 14 | The Board shall consider all computer science course credits to be science, mathematics, or career and technical education credits, and develop guidelines on how they satisfy graduation requirements | A CS class can fill a slot a student must fill anyway |
+| &sect; 22.1-253.13:4, D 19 | An English language learner with a qualifying AP, IB or SAT II foreign language score may substitute computer coding course credit for a foreign language credit, except where an advanced studies provider requires the language credit | A narrow route, for students who have already shown a second language |
+| &sect; 22.1-253.13:4, D 20 | A student pursuing an advanced studies diploma whose IEP specifies a world language credit accommodation may substitute two standard units in computer science for two in a world language, with notice from the school counselor about college entrance | Another narrow route, with a warning attached |
 
-These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
+### No stand-alone CS course on the list
 
-[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python AI Automation course thumbnail](/images/python-automation-ai-college.webp)Python and AICollege and adultPython AI AutomationAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex and Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex and Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)2017 Computer Science Standards of Learning
+Virginia does not add computer science as its own line in the diploma table. It folds the subject into the Standards of Learning and lets the credit travel, so whether a student takes CS depends on the choices made in eighth and ninth grade.
 
-## The delivery model, and why it fails without anybody noticing
+### A counselor conversation matters
 
-Virginia adopted the Computer Science Standards of Learning in November 2017, to be taught from the 2019 to 2020 academic year, becoming the first state to require the subject at all K-12 levels. The structure is deliberate.
+The law itself requires a counselor to warn families about possible college entrance effects before a CS credit replaces a world language credit. That is a good habit for every substitution, not only the ones the statute names.
 
-| Band | How computer science is delivered | What checks it happened |
-| --- | --- | --- |
-| Kindergarten to Grade 8 | Addressed within existing content areas, including language arts and history | Nothing specific |
-| Middle school | Stand-alone electives | Course completion, if the student chooses it |
-| High school | Stand-alone electives | Course completion, and an exam where one exists |
+### Guidelines sit with the Board
 
-Now compare that with how the other states we teach in handle the same problem. New Jersey obliges every high school to offer a course. Illinois legislates an entitlement to be offered one. Texas lets computer science substitute for a graduation requirement, which forces schools to staff it. Each of those creates a thing that visibly exists or visibly does not.
+Item 14 hands the details to the Board of Education, which publishes them on the department site we could not reach. Ask your school which approved courses count as a mathematics or science credit in your division.
 
-Integration creates neither. There is no period on a timetable, no teacher whose job it is, and no end-of-course test whose absence would be noticed. A fifth-grade teacher already carrying reading, writing, mathematics, science and history is asked to also deliver computer science standards inside those subjects, usually without having studied the material themselves.
+## Where a CS credit can land in the 22 and 26 credit diplomas
 
-We are not saying it never works
+Regulation 8VAC20-132-51 applies to students who entered ninth grade in 2018 to 2019 or later. Its current text took effect on September 25, 2024, according to the Virginia Register note on the section.
 
-Where a school has a teacher who is genuinely interested, integration produces some of the best elementary computer science anywhere, because the ideas arrive attached to real content instead of in a vacuum. That is the honest case for the model and it is a strong one. The problem is variance, not ceiling.
+**Standard units of credit required, 8VAC20-132-51 (the right-hand column is ours, based on the regulation&rsquo;s own footnotes)**
 
-What follows for a parent is a practical question rather than a political one: is it happening in your child's classroom? Ask something specific. Not whether the school teaches computer science, which will always get a yes, but which lesson in the last month contained it, what the child made, and who planned it. A school doing this well answers in one breath. A school that cannot answer is not being evasive; it simply has nothing to point at, and that is the information you needed.
+| Discipline area | Standard Diploma | Advanced Studies Diploma | Can a CS credit count here? |
+|---|---|---|---|
+| English (reading and writing) | 4 | 4 | No |
+| Mathematics | 3 | 4 | Yes, per the footnote citing the Standards of Quality |
+| Laboratory Science | 3 | 4 | Yes, per the footnote |
+| History and Social Science | 3 | 4 | No |
+| World Language | Shared slot below | 3 | Only through the IEP accommodation route |
+| World Language, Fine Arts, or Career and Technical Education | 2 | Fine Arts or CTE: 1 | Yes, as a CTE credit |
+| Health and Physical Education | 2 | 2 | No |
+| Economics and Personal Finance | 1 | 1 | No |
+| Electives | 4 | 3 | Any CS course can be an elective |
+| Total | 22 standard units, 5 verified credits | 26 standard units, 5 verified credits |  |
 
-Integrated, versus taught
+Read the footnotes slowly. Each says a computer science credit &ldquo;may be considered&rdquo; a mathematics, science or CTE credit, and each points back to the Standards of Quality. The regulation also says the board approves the courses that satisfy each requirement, so the practical answer for any one class lives in your school division&rsquo;s program of studies. Our column is a reading of the published text, not legal advice and not a ruling for any particular course.
 
-## What the standard asks for, and what a real lesson looks like
+### A seventh grader planning ahead
 
-On the left, the kind of thing the Virginia standards expect a child to meet inside another subject. On the right, what we do with the same idea when it has an hour of its own and a teacher who writes code.
+If a student already loves coding, the question for the middle school counselor is which high school CS course counts as a mathematics or laboratory science credit in your division, and in which grade it can be taken.
 
-Integrated
+### A ninth grader on the advanced track
 
-Algorithms met as a sequence of steps in a history or language arts activity, often unplugged and without a computer.
+With four mathematics and four laboratory science credits to earn for an advanced studies diploma, an approved CS course in one of those slots can make room in a crowded timetable.
 
-Unplugged is a fine start and a poor finish. A student writes the sequence, runs it, watches it fail, and fixes it, which is the part that cannot be simulated on paper. See [Coding in Blocks](/courses/kids-coding-blocks-masterclass).
+### A junior heading for AP
 
-Integrated
+AP Computer Science A or Principles adds college-level work. Whether the school counts it as mathematics, science, CTE or an elective is the division&rsquo;s decision under the Board&rsquo;s guidelines.
 
-Data and analysis touched inside a science or mathematics unit, using a small tidy dataset prepared for the lesson.
+## How many Virginia high schools offer computer science, and how many students enroll
 
-Real data from Virginia, deliberately containing a trap, described further down this page. Tidy data teaches tidiness, not analysis. See [Data Science for Teens](/courses/data-science-course-for-teens-python-data).
+Virginia figures from the Code.org (2025) State of AI + CS Education data and from the College Board, as published.
 
-Integrated
+**Share of Virginia public high schools offering foundational computer science (Code.org, 2025)**
 
-Impacts of computing discussed as a topic, usually once, usually as a warning.
+| School year | Share offering CS | Note |
+|---|---|---|
+| 2018 to 2019 | 73% |  |
+| 2019 to 2020 | 73% |  |
+| 2020 to 2021 | No figure published | The sheet shows a dash |
+| 2021 to 2022 | 75% |  |
+| 2022 to 2023 | 74% |  |
+| 2023 to 2024 | 68.4% | 229 of 335 high schools, reported by the State Education Agency |
 
-Given time to become an actual argument, with a student allowed to reach a conclusion we did not hand them. Most of the interesting cases are about AI tools and have no comfortable answer. See [AI Tools Mastery for Teens](/courses/teens-ai-tools-mastery-course).
+**Enrollment and AP in Virginia, as published**
 
-Elective, if chosen
+| Measure | Virginia | Source |
+|---|---|---|
+| High school students enrolled in CS, 2022 to 2023 | 19,801 of 400,497, or 4.94% | Code.org (2025); student total from NCES, fall 2022 |
+| CS enrollment share, 2020 to 2021 and 2021 to 2022 | 6.5% and 5.7% | Code.org (2025) |
+| Schools with AP exams, 2023 and 2024 | 455 in 2023, 453 in 2024 | College Board, School Report of AP Exams by State 2023-24 |
+| Of those, public schools | 325 in 2023, 324 in 2024 | College Board |
+| Of those, non-public schools | 130 in 2023, 129 in 2024 | College Board |
 
-One stand-alone computer science elective in middle or high school, competing against every other elective.
+Three things stand out, and none of them needs a guess about causes. First, Virginia&rsquo;s access share was in the low to mid seventies for four reported years, then 68.4% in 2023 to 2024. Second, the enrollment share fell in each of the three years published, from 6.5% to 4.94%. Third, the two measures are years apart: the newest enrollment figure is 2022 to 2023, the newest access figure 2023 to 2024, so do not divide one by the other. We report the pattern; the data alone does not say why it moved.
 
-A ladder rather than a single rung, so finishing one thing is followed by starting the next. See [Python Complete Masterclass for Teens](/courses/python-complete-masterclass-teens).
+Suggested citation for the access and enrollment figures: Code.org (2025). 2025 State of AI + CS Education. We quote individual Virginia values from the raw sheet&rsquo;s access and participation tabs and do not republish the dataset.
 
-Rarely anywhere
+## Cleaning Fairfax County&rsquo;s trail and bike lane records before ranking them
 
-Databases, backend work and the parts of the subject that Virginia's own economy runs on.
+Fairfax County publishes its Existing Bicycle and Pedestrian Network as open GIS data. We downloaded every record on 18 October 2026. Before a student can rank anything, the labels have to be made consistent.
 
-Taught explicitly, because a state this full of data infrastructure produces surprisingly few teenagers who have written a query. See [MySQL for Teens](/courses/mysql-mastery-for-teens).
+**Records by TREATMENT_TYPE, and our mileage from the Shape__Length field (our calculation, not county figures)**
 
-Graduation
+| Treatment type in the data | Records | Our miles |
+|---|---|---|
+| ShareRoad | 2,335 | 574.9 |
+| Trail | 2,571 | 533.6 |
+| BikeLane | 555 | 145.8 |
+| Path | 169 | 64.4 |
+| Sidewalk | 401 | 50.8 |
+| Sharrow | 136 | 28.1 |
+| UnmarkedCross and MarkedCross | 560 and 344 | 7.1 and 6.1 |
 
-## Standard credits, verified credits, and the 5 C's
+### Step 1: count before you trust
 
-Virginia counts two different kinds of credit, and families regularly discover the difference too late. A standard credit is earned by passing the course. A verified credit needs the course *and* a pass in the associated end-of-course Standards of Learning test, or another assessment approved by the Board of Education.
+The service reported 7,237 records and allowed 2,000 per request, so the download took four pages. Students check that the rows they hold equal the count the server reports before calculating anything. Ours matched exactly.
 
-| Diploma | Standard credits | Verified credits |
-| --- | --- | --- |
-| Standard Diploma | At least 22 | 5 |
-| Advanced Studies Diploma | At least 26 | 5 |
+### Step 2: make the labels agree
 
-The verified credits are the ones that bite, because they cannot be recovered by effort in class alone. A student who understood the material all year and then underperforms in one end-of-course test has a problem that attendance does not fix. Mathematics is where this happens most often, which is the unglamorous reason our mathematics track exists alongside the coding rather than as a separate upsell.
+The CONDITION field holds both &ldquo;Poor&rdquo; and &ldquo;POOR&rdquo;, both &ldquo;Excellent&rdquo; and &ldquo;EXCELLENT&rdquo;, and dozens of entries that are a single space. MAINTENANCE has &ldquo;Unknown&rdquo; 1,246 times and &ldquo;UNKNOWN&rdquo; 56 times. Stripping spaces and upper-casing fixes the counting.
 
-Above the credit counting sits the Profile of a Virginia Graduate, which requires students to acquire and demonstrate foundational skills in Virginia's 5 C's: critical thinking, creative thinking, collaboration, communication, and citizenship. Every one of those is easier to demonstrate with something built than with something revised. A student who can hand somebody a working program, explain the decisions inside it, and defend the ones that were arguable has evidence for four of the five without needing a separate exercise.
+### Step 3: filter, then rank
 
-Placement
+Keep only Trail records, total the length for each FACILITY_NAME, sort from longest to shortest. The layer stores lengths in US feet, so dividing by 5,280 gives miles. Fairfax County Parkway Trail comes first in our run, at 20.26 miles across 43 segments.
 
-## Where a Virginia learner joins
+**Top named trails after filtering to TREATMENT_TYPE = Trail (our sums of Shape__Length, labelled ours)**
 
-Weighted toward the early years, because that is where the integrated model leaves the most ground uncovered, and toward data and backend work at the top, because that is what the commonwealth actually runs on.
+| FACILITY_NAME | Segments | Our miles |
+|---|---|---|
+| Fairfax County Parkway Trail | 43 | 20.26 |
+| Cross County Trail | 35 | 20.24 |
+| Cross Country Trail | 18 | 14.70 |
+| Ox Rd Trail E | 22 | 11.22 |
+| Mount Vernon Trail | 14 | 9.50 |
 
-### Elementary
+### One trail or two?
 
-Ages 6 to 10
+Look at rows two and three. &ldquo;Cross County Trail&rdquo; and &ldquo;Cross Country Trail&rdquo; might be one trail entered with two spellings, or two different things. Merging them would make it the longest trail in our table; leaving them apart keeps it second. The data cannot settle that, so a careful analyst writes the question down instead of quietly merging. That habit is worth more than the ranking itself.
 
-- [Coding in blocks](/courses/kids-coding-blocks-masterclass)
-- [Roblox and Lua](/courses/roblox-game-coding-for-kids-lua-course)
-- [Abacus mental maths](/courses/abacus-mental-maths-course-for-kids)
-- [Elementary mathematics](/courses/elementary-mathematics-complete-masterclass)
+There is more to question. The largest single name in the Trail rows is not a name at all: &ldquo;Unnamed Trail&rdquo; covers 691 segments, and 74 records list two supervisor districts separated by a semicolon, which breaks any simple count by district. Fairfax County says it makes no warranties about the accuracy or completeness of its GIS data, so every mile above is our arithmetic on one download, never an official trail length. A student who can explain each of those caveats has learned more about data than any ranking can show.
 
-### Middle school
+In class, the cleanup step is one line of pandas, df["CONDITION"].fillna("").str.strip().str.upper(), followed by a value_counts() before and after so the student can see exactly which labels collapsed together. The ranking is a filter with df[df.TREATMENT_TYPE == "Trail"], a groupby on the name and a sort. Short code, but every line carries a decision the student must defend.
 
-Ages 11 to 13
+## Eastern Time from Chincoteague to Cumberland Gap
 
-- [Python and AI](/courses/python-ai-kids-masterclass)
-- [Scratch, in depth](/courses/scratch-programming-complete-course)
-- [Hackathon preparation](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
-- [Middle school maths](/courses/comprehensive-middle-school-mathematics-mastery)
+The whole Commonwealth uses the IANA zone America/New_York, which the time zone database describes as &ldquo;Eastern (most areas)&rdquo;.
 
-### High school
+### One zone, one schedule
 
-Ages 14 to 18
+Arlington, Richmond, Roanoke and Norfolk all keep the same clock, so a mixed batch of Virginia students never has to translate times between themselves.
 
-- [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course)
-- [MySQL for teens](/courses/mysql-mastery-for-teens)
-- [Full stack web development](/courses/full-stack-web-development-teens-masterclass)
-- [High school maths](/courses/complete-high-school-mathematics-mastery)
+### The teachers&rsquo; side
 
-### College and adult
+Our teachers work on India time, which has no daylight saving. The gap to Virginia therefore widens by an hour in winter, and we always write class times in Eastern Time so parents do not have to do the arithmetic.
 
-18 to 67
+### This school year&rsquo;s changes
 
-- [Databases, complete](/courses/mysql-database-complete-masterclass-college)
-- [Django and Flask](/courses/python-web-development-django-flask-course)
-- [Java, college level](/courses/complete-java-programming-masterclass-college)
-- [College mathematics](/courses/college-mathematics-complete-masterclass)
+The IANA rule for the United States moves clocks back on the first Sunday in November and forward on the second Sunday in March: November 1, 2026 and March 14, 2027 for this school year.
 
-The whole catalogue is on the [course atlas](/course-atlas), and the method is described on [how we teach](/how-we-teach).
+**A bug to write on purpose** Students who store a class time as a fixed offset from India time watch it drift by an hour across November 1, 2026. Rewriting the reminder with the America/New_York zone teaches why programmers never hard-code an offset.
 
-Virginia data project
+## A Virginia path from kindergarten blocks to AP Java
 
-## The programme that works even when it does nothing
+Grade bands are a rough guide; the free first lesson places each student by what they can already do.
 
-Virginia's student project is built on a mistake that has justified more useless spending, across more fields, than any other in statistics. It is worked here on the commonwealth's own published school data, and the punchline arrives before the student has been told anything.
+- **Grades K to 5: Blocks and stories** Sequencing, loops and events in Scratch, then small games that make computational thinking visible. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
+- **Grades 6 to 8: Typed code** Python and simple web pages, chosen so a high school CS course feels familiar on day one. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [HTML & CSS for Beginners](/courses/html-css-course-for-beginners-build-real-websites)
+- **Grades 9 to 10: Real data and bigger programs** Python with files and pandas, and projects built on public data like the Fairfax trails layer. [Python for Teens](/courses/python-complete-masterclass-teens), [Data Science for Teens](/courses/data-science-course-for-teens-python-data)
+- **Grades 11 to 12: AP and machine learning** AP Computer Science A in Java, or AI models trained and checked on data the student understands. [AP Computer Science A](/courses/ap-computer-science-a-java-exam-prep-course), [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)
 
-Source: Virginia School Quality ProfilesLevel: Grade 9 and upConcept: Data and analysis
+## Could a chatbot have cleaned the Fairfax data for you?
 
-The Virginia Department of Education publishes Standards of Learning pass rates for every school, division and subject, with three years of results available together. That last detail is what makes the project possible, because you need a before and an after.
+It could write the code. It could not tell you which choices the code was making.
 
-Set the student a question that sounds like real policy work. Suppose a support programme were targeted at the lowest-performing schools in the state. How would you tell whether it worked?
+Ask an AI assistant to rank Fairfax trails and it will happily produce a script. It may or may not upper-case the labels, it will not notice that two trail names differ by one letter, and it will not warn you that 691 segments have no name. Each of those silent choices changes the answer, and a student who has never cleaned data by hand has no way to spot them.
 
-Almost everybody answers the same way: compare those schools before and after. So the student does exactly that, using the real data and no intervention at all. They take the schools in the bottom tenth in the first year and look at where the same schools sit in the second year.
+That is why Virginia&rsquo;s law speaks of computational thinking alongside computer coding. Thinking means knowing what a step does to the data before running it. In our AI units students use assistants openly, then audit what they produced line by line, the same way they audit their own code.
 
-They go up.
+Assistants make typing faster; judging the output is still the student&rsquo;s job, and it is the part schools and colleges actually assess. The longer argument is in [why coding still matters when AI writes code](/blog/is-coding-worth-learning-2026).
 
-The trap
+## From Northern Virginia to Hampton Roads, the same live classroom
 
-Any single year's score is partly durable quality and partly luck: which children happened to be in that cohort, who was ill on the day, how a small school's numbers swing on a handful of pupils. Select the schools with the lowest scores and you have selected, among other things, the ones that had the worst luck. Luck does not repeat. So the group rises next year with no help from anybody. Select the top tenth instead and they fall. This is regression to the mean, and it means a programme aimed at the worst performers will show improvement even if the programme is an empty room.
+Distance from a coding center stops mattering when the class comes to the kitchen table.
 
-Once a student has produced that result with their own hands, on data about their own state, the idea sticks in a way no worked example achieves. And the follow-up question is the valuable one: given that the naive comparison is worthless, what would actually settle it? They arrive, usually with some prompting, at the answer the field arrived at: you need a comparison group of similar schools that did not get the programme, and preferably the assignment should not have been made on the basis of the score you are about to measure.
+- **Learn from home** A student in Loudoun and one in Danville can sit in the same live session, each at their own computer, with no commute after school or practice.
+- **Virginia school calendar** Teachers work in US grade levels and plan around semesters, SOL testing windows and AP exam season. Graded school assignments always remain the student&rsquo;s own work.
+- **Free first lesson** A real coding task with a teacher, then a recommendation for level, course and time. No payment details are requested at this point.
+- **Matched batches** Groups of fifteen to twenty students at the same stage, drawn from Virginia and other states.
+- **One to one** A dedicated teacher for students preparing for AP, catching up after a missed unit, or simply moving faster than any group.
+- **Scheduling** Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
 
-That is where a fourteen year old meets the reason controlled trials exist, not as vocabulary but as the only way out of a problem they personally just fell into. It transfers to medicine, to sports form, to a company's worst-performing sales region, and to every headline about a school turnaround.
+**Online only** Every Modern Age Coders class is taught live over video from India. We have no office or classroom in Virginia and do not claim one. A laptop or desktop, headphones and a steady connection are all a student needs.
 
-| Step | What the student does | What it teaches |
-| --- | --- | --- |
-| Design | Write down how they would evaluate the imaginary programme, before touching data | Commit to a method you can be wrong about |
-| Select | Take the bottom tenth of schools in year one | Selection on an extreme is the whole mechanism |
-| Follow | Track the same schools into year two, with no intervention anywhere | The effect appears out of nothing |
-| Mirror | Repeat with the top tenth and watch them fall | Symmetry proves it is not about the schools |
-| Repair | Propose a design that would give a real answer | Comparison groups exist for a reason |
+## Fees for Virginia families
 
-A note we make explicitly to students: this exercise is about statistics, not about judging schools or the people in them. The whole point is that the movement in the numbers is not telling you about quality at all, which is precisely why treating it as though it were is so damaging.
+The figures below are the whole price list.
 
-Students pull the current published files themselves rather than working from figures printed here. The habits carry into [statistics and probability](/courses/statistics-probability-maths-course) and, for those who want to build models rather than evaluate programmes, [AI and machine learning in the USA](/ai-and-machine-learning-classes-in-usa). Finished work sits in the [student labs](/student-labs).
+- First class: USD 0. One full lesson at no charge, ending with a recommended course, level and class time.
+- Group tuition: USD 100 a month. A month of live classes in a group of fifteen to twenty students at a similar level.
+- Private tuition: USD 150 a month. A month of live classes with a teacher working with one student only.
 
-The arrangement
+Families in the United States pay in US dollars, and a student in Fairfax pays what a student in Abingdon pays. Nothing is billed until after the free lesson, once course and time are agreed; the pricing page covers holidays and missed sessions.
 
-## What a Virginia family is buying
+## Virginia computer science questions from parents
 
-### A lesson that exists
+### Is computer science required to graduate in Virginia?
 
-The plainest thing we sell in this state. A fixed hour, twice a week, with a teacher whose job is this subject and nothing else.
+Not as a separate course in the diploma table of 8VAC20-132-51. Instead, Code of Virginia section 22.1-253.13:4 says computer science credits are to be considered science, mathematics or career and technical education credits.
 
-### A teacher who writes code
+### Can a CS class count as a math credit in Virginia?
 
-Not a generalist asked to cover computer science inside another subject. That distinction is the whole argument on this page.
+The diploma regulation says a computer science course credit may be considered a mathematics credit, citing the Standards of Quality. Which specific courses count is set by the Board and your school division, so confirm with the school counselor.
 
-### Fifteen to twenty, one face
+### Do Virginia schools have to teach coding?
 
-Groups stay small and keep the same teacher every week. One to one where a student needs the full hour to themselves.
+The Standards of Learning must include computer science and computational thinking, including computer coding, under section 22.1-253.13:1, and local school boards must emphasize it in a K through 12 program of instruction.
 
-### Evidence for the 5 C's
+### How many credits does a Virginia diploma need?
 
-Every course ends in something built and defended, which is exactly the shape the Profile of a Virginia Graduate asks a student to demonstrate.
+Under 8VAC20-132-51, a Standard Diploma needs 22 standard units of credit and an Advanced Studies Diploma 26 standard units, each with 5 verified credits.
 
-### Maths on the same track
+### Can computer science replace a world language credit?
 
-Verified credits are SOL-tested and mathematics is where they are most often lost, so it runs beside the coding with the same teacher.
+Only in two narrow cases in the statute: certain English language learners with a qualifying language exam score, and advanced studies students whose IEP specifies a world language accommodation. A counselor must explain possible college entrance effects.
 
-### Nothing to install
+### How many Virginia high schools offer computer science?
 
-Everything happens in a browser tab, which matters on a school-issued machine that will not let anybody install anything.
+Code.org reports 229 of 335 Virginia high schools, or 68.4%, offering foundational computer science in 2023 to 2024, with 4.94% of high school students enrolled in 2022 to 2023.
 
-Fees
+### Will your classes give my child a school credit?
 
-## Monthly, in US dollars
+No. Credits come only from courses approved by the Board and the school division. Our classes build skill, projects and AP readiness alongside school, and graded school work stays the student's own.
 
-No enrolment charge, nothing to buy, no minimum term.
+### When do classes run for Virginia students?
 
-Group$100per month, 8 classes
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time is confirmed in Eastern Time.
 
-Fifteen to twenty learners with one consistent teacher. Where most Virginia families begin.
+### Do you have a location in Virginia?
 
-Private$150per month, 8 classes
+No. There is no Virginia office or classroom, and none is claimed. Every class is live online with a teacher in India.
 
-One learner setting the pace. Most often chosen for AP preparation or to rescue a verified credit.
+### Where are the prices?
 
-Pauses, plan changes and missed classes are covered on the [pricing page](/pricing).
+They are in the fees section of this page: a free first lesson, then a monthly group option and a monthly one-to-one option, with billing only after the free lesson.
 
-Reviews
+## Where Virginia students go from here
 
-## What families say
+Juniors aiming at the Java exam can read about [AP Computer Science A classes](/ap-computer-science-a-online-classes), and students choosing between the two AP courses can start with [AP Computer Science Principles coaching](/ap-computer-science-principles-online-coaching). High schoolers planning a portfolio can browse [coding classes for high school students](/coding-classes-for-high-school-students) and the [Congressional App Challenge guide](/congressional-app-challenge-guide). For another state&rsquo;s approach, see [North Carolina](/coding-and-ai-classes-in-north-carolina), or return to the [United States hub](/coding-classes-in-united-states).
 
-Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
+## Contact
 
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-More, with photographs and student work, on the [wall of love](/love).
-
-Questions
-
-## Virginia questions, answered plainly
-
-### Is computer science really required in Virginia schools?
-
-Yes, and Virginia got there first. In November 2017 it became the first state in the country to require computer science instruction at all K-12 levels, adopting the Computer Science Standards of Learning, to be taught from the 2019 to 2020 academic year. The important detail is how. In Kindergarten through Grade 8 the content is addressed within existing subjects rather than as its own class. In middle and high school it appears as stand-alone electives.
-
-### If it is integrated into other subjects, what is the problem?
-
-Integration is the most fragile way to deliver anything. There is no dedicated lesson, no dedicated teacher, and no end-of-course test to confirm it happened. Whether your child actually meets computer science between Kindergarten and Grade 8 comes down to individual teachers who mostly did not train in it, inside subjects that already have their own crowded requirements. Where integration is done well it is genuinely good. Where it is not, nothing shows up in any report.
-
-### How can I tell whether my child is getting it?
-
-Ask for something specific rather than something general. Not whether the school teaches computer science, which will always get a yes, but which lesson in the last month contained it, what the child produced, and who planned that lesson. A school doing it properly can answer immediately. A school that cannot answer is not lying to you, it simply has nothing to point at, which is your answer.
-
-### What is the difference between standard credits and verified credits?
-
-A standard credit is earned by passing the course. A verified credit needs the course plus a pass in the associated end-of-course Standards of Learning test or another Board-approved assessment. A Standard Diploma requires at least 22 standard credits and 5 verified credits. An Advanced Studies Diploma requires at least 26 standard credits and the same 5 verified credits.
-
-### What is the Profile of a Virginia Graduate?
-
-It is the framework that sits above the credit counting, requiring students to acquire and demonstrate foundational skills in Virginia's 5 C's: critical thinking, creative thinking, collaboration, communication, and citizenship. Every one of those is easier to demonstrate with something built than with something revised, which is why our courses end in a project a student can be questioned about.
-
-### Do you teach across Virginia or only near Washington?
-
-The whole commonwealth. Live video makes Loudoun, Fairfax, Arlington, Richmond, Virginia Beach, Chesapeake and Charlottesville identical to us, and none of them a drive. What a student needs is a laptop or desktop, a way to be heard, and a connection that holds a call. There is nothing to install and nothing shipped.
-
-### What time do classes run on Eastern Time?
-
-Around your week rather than ours. Weekend slots are the simplest to arrange on Eastern Time, and weekday slots are settled one family at a time. Everything is confirmed on the demo call before any payment, so nobody agrees to a slot in principle and then discovers it collides with something that cannot move.
-
-### What are the fees for a Virginia family?
-
-USD 100 a month for a group of fifteen to twenty, or USD 150 a month for private tuition. Both run two classes a week, eight a month. Nothing is charged to enrol, there is nothing to buy, and there is no minimum term, so any month can be the last one. The opening class is free.
-
-### Which ages do you take, and how big is a class?
-
-Six to sixty-seven, placed by what a learner can demonstrate rather than by year group. Groups hold fifteen to twenty with one teacher who stays with them week after week, or one to one where a student needs the whole hour. Teachers are not rotated between sessions, because a teacher who remembers last week's sticking point starts the lesson somewhere useful.
-
-### How does a family start?
-
-Take the free opening class. It is taught rather than sold: a teacher gives the student real work, watches how they handle it, then recommends a level. If the honest recommendation is to wait, or that somebody else is a better fit, you will hear that on the call rather than after paying.
-
-Book a free class
-
-## Taught, not sold
-
-Tell us the grade and what the school has actually covered. A teacher runs a real opening class, finds the genuine starting point, and recommends a level. If we are not right for your child, that is what you will hear on the call.
-
-You can also use the [contact page](/contact), or read [about us](/about) first.
-
-Nearby
-
-## Other places we teach
-
-[United States](/coding-classes-in-united-states)[New Jersey](/coding-classes-in-new-jersey)[New York](/coding-classes-in-new-york)[Illinois](/coding-classes-in-illinois)[Georgia](/coding-classes-in-georgia)[Texas](/coding-classes-in-texas)[AI and machine learning, USA](/ai-and-machine-learning-classes-in-usa)
-
----
-
-*Canonical: https://learn.modernagecoders.com/coding-classes-in-virginia*
+Book the free class on [https://learn.modernagecoders.com/coding-classes-in-virginia](https://learn.modernagecoders.com/coding-classes-in-virginia#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
