@@ -51986,5 +51986,55 @@
       "Library addresses, phone numbers and current opening hours: not printed as a timetable; only our parsed counts.",
       "Any affiliation with the Florida Department of Education, Florida Virtual School, Miami-Dade County, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-hawaii": {
+    "market": "Hawaii",
+    "bodyClass": "cg-ah",
+    "pageType": "city",
+    "curriculumAuthority": "Hawaii, read raw 18 October 2026. HIDOE (hawaiipublicschools.org), capitol.hawaii.gov and governor.hawaii.gov returned Cloudflare blocks; nothing quoted from them. Board of Education Policy 102-15 (amended 02/12/2026): 24.0 credits total, area credits as listed, Algebra 1 and Geometry, Biology, 6.0 electives, proficiency based equivalents, same requirement for students with disabilities; computer science not named. Code.org (2025): access 57% to 77% (2021-22) to 66.7% (46 of 69, State Education Agency and School Catalogs); participation 4.4% to 2.53% (1,317 of 51,961). College Board 76, 75 (47 public). IANA Pacific/Honolulu: -10:30 to 1947 Jun 8, HDT 1933 Apr 30 to May 21, HST since.",
+    "localProject": "Hawaii Statewide GIS Program, Public Libraries in the State of Hawaii (geodata.hawaii.gov Infrastructure MapServer 28; public domain terms), count 51, downloaded 18 October 2026: island field Oahu 25, Hawaii 12, Kauai 6, Maui 6, Lanai 1, Molokai 1; our bounding boxes agree for 51 of 51; latitudes 19.06 to 22.21, longitudes -159.67 to -154.94; Saturday open 28, Sunday 3; computer classes listed 20. Lesson family: bounding-box filtering.",
+    "requiredMentions": [
+      "Policy 102-15",
+      "02/12/2026",
+      "6.0 elective credits",
+      "46 of 69",
+      "1,317 of 51,961",
+      "June 8, 1947",
+      "April 30 to May 21",
+      "51 of 51",
+      "lon_min <= x <= lon_max",
+      "-159.67 to -154.94",
+      "15 hours 30 minutes"
+    ],
+    "sources": [
+      {
+        "claim": "Hawaii State Board of Education: Policy 102-15, High School Graduation Requirements and Commencement.",
+        "url": "https://boe.hawaii.gov/wp-content/uploads/policy_102-15_20260212.pdf"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Hawaii access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Hawaii Statewide GIS Program: Public Libraries in the State of Hawaii.",
+        "url": "https://geodata.hawaii.gov/arcgis/rest/services/Infrastructure/MapServer/28"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Pacific/Honolulu zone history.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Hawaii CS standards, any statute on CS course offerings and HIDOE guidance: hawaiipublicschools.org, capitol.hawaii.gov and governor.hawaii.gov returned Cloudflare blocks on 18 October 2026; not retried around.",
+      "Causes of the access decline: not claimed; possible factors are named as possibilities only.",
+      "Code.org gender, race, geography and graduation figures and the Code.org Hawaii summary text: not used.",
+      "Library addresses, phone numbers, parking fees and building costs from the layer: not printed.",
+      "Current library opening hours: the layer values are reported as of the download, not as a timetable.",
+      "Any affiliation with HIDOE, the Board of Education, the Hawaii State Public Library System, the Statewide GIS Program, Code.org or the College Board."
+    ]
   }
 }
