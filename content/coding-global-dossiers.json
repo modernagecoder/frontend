@@ -51879,5 +51879,58 @@
       "Which county is correct for the Windham row: not decided; the conflict is reported.",
       "Any affiliation with CSDE, the State Library, OPM, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-delaware": {
+    "market": "Delaware",
+    "bodyClass": "cg-ad",
+    "pageType": "city",
+    "curriculumAuthority": "Delaware, read raw 17 to 19 October 2026. education.delaware.gov blocked (403 Cloudflare). 14 Del. C. 4139 (a) one CS course in all public high schools incl. charters by 2020-2021; standards to the State Board by December 31, 2017; (b) from 2018-2019 an AP, honors, college prep or integrated CS course may satisfy a math credit except Algebra I, Geometry, Algebra II; (c) waiver for financial or programmatic burden, decided by the Secretary of Education or designee; 81 Del. Laws, c. 185. 14 Del. C. 122(b)(3) diploma rules. Code.org (2025): 65%, 68%, 55%, 40%, blank, 61.4%, 61% vs Most Recent 36 of 57 (School Course Catalogs and Teacher Surveys); participation 4.0%, 4.9%. College Board 69, 69 (public 45, 48). IANA: Delaware under US eastern time.",
+    "localProject": "data.delaware.gov State Park Programs (pu7t-3gai, DNREC Division of Parks and Recreation, Public Domain), count 4,077, downloaded 17 October 2026: 26 park values; Trap Pond 460, Fort Miles 426, Delaware Seashore 334, First State Heritage Park 329, Auburn Valley 324 (top five 1,873, 45.9%); whole-number shares sum to 98, one-decimal to 99.7; five fragment park values; odd start years 0203 (2), 2001 (5), 2028 (1). Lesson family: percentages and rounding.",
+    "requiredMentions": [
+      "81 Del. Laws, c. 185",
+      "December 31, 2017",
+      "college prep or integrated computer science course",
+      "financially or programmatically",
+      "36 of 57",
+      "Trap Pond",
+      "1,873",
+      "sum to 99.7",
+      "the year 0203",
+      "largest remainder method"
+    ],
+    "sources": [
+      {
+        "claim": "Delaware Code, Title 14, Chapter 41: section 4139, Computer science.",
+        "url": "https://delcode.delaware.gov/title14/c041/sc01/index.html"
+      },
+      {
+        "claim": "Delaware Code, Title 14, Chapter 1: section 122, rules on diplomas.",
+        "url": "https://delcode.delaware.gov/title14/c001/sc02/index.html"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Delaware access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "data.delaware.gov: State Park Programs (DNREC Division of Parks and Recreation).",
+        "url": "https://data.delaware.gov/d/pu7t-3gai"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Delaware on US eastern time.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Delaware CS standards adoption date, graduation credit list and waiver counts: education.delaware.gov returned a 403 Cloudflare block on 17 October 2026; not retried around.",
+      "A single reconciled 2024-25 Delaware access figure: the trend tab (61%) and Most Recent tab (36 of 57, 63.2%) disagree; both are shown with the disagreement stated, none is chosen as true.",
+      "Code.org gender, race, geography and graduation figures and the Code.org Delaware summary text: not used.",
+      "Program prices and phone numbers in the park program descriptions: not printed.",
+      "Park program attendance or current schedules: not in the data; only listed programs are counted, as ours.",
+      "Any affiliation with the Delaware Department of Education, DNREC, Code.org or the College Board."
+    ]
   }
 }
