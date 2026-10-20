@@ -52117,5 +52117,56 @@
       "That our classes satisfy the Digital Literacy requirement: refused; only the approved courses taken for high school credit do.",
       "Any affiliation with the Idaho Department of Education, the Idaho STEM Action Center, IDLA, Code.org, CodeHS, Skill Struck, Learning Blade, the College Board or the City of Boise."
     ]
+  },
+  "coding-and-ai-classes-in-indiana": {
+    "market": "Indiana",
+    "bodyClass": "cg-aiin",
+    "pageType": "city",
+    "curriculumAuthority": "Indiana, read raw on 17 and 18 October 2026: Indiana Department of Education NOT READ (in.gov refused connections; media.doe.in.gov and api.iga.in.gov 403; access-log.txt), so no state rule is printed. Code.org (2025) access 368 of 414 (88.9%, 2023-24, state education agency), trend 62% to 90.6% to 88.9%, participation 18,146 of 325,663 (5.57%, 2023-24, NCES Fall 2022 denominator), participation trend 5.0%, 6.6%, 6.6%, 5.57%; College Board AP schools 418 (2023), 433 (2024); IANA tzdb Indiana section (most areas Indianapolis; ten counties like Chicago; Dearborn and Ohio like New York; Clark, Floyd, Harrison like Louisville; 345 regions; 2006 Federal Register move of eight counties; returns in 2007; Perry and Starke Central; Switzerland County no DST 1973 through 2005; Indianapolis EST until 2006).",
+    "localProject": "City of Indianapolis/Marion County open data, Indianapolis Greenways (gis.indy.gov OpenData_Recreation layer 1; no restrictions on use, derived data must acknowledge the City of Indianapolis/Marion County, IN), 105 segments (returnCountOnly matched), downloaded 18 October 2026. Our sets: Existing 50 segments, 19 names; Proposed-MDCAdpt 55 segments, 25 named; intersection 11; existing only 8; proposed only 14; union 33. Second exercise on tzdb county lists: eight counties moved in 2006 minus six that returned in 2007 = Perry and Starke. Lesson family: set operations.",
+    "requiredMentions": [
+      "368 of 414",
+      "18,146 of 325,663",
+      "Fall Creek GW",
+      "Proposed-MDCAdpt",
+      "Monon Rail",
+      "345 regions",
+      "Gibson, Jasper, Lake, LaPorte, Newton, Porter, Posey, Spencer",
+      "America/Indiana/Tell_City",
+      "did not observe DST from 1973 through 2005",
+      "April 2, 2006"
+    ],
+    "sources": [
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: Indiana access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Indiana zones, county lists and history.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      },
+      {
+        "claim": "IANA tzdb zone1970.tab: Central - IN (Perry), Central - IN (Starke).",
+        "url": "https://data.iana.org/time-zones/tzdb/zone1970.tab"
+      },
+      {
+        "claim": "City of Indianapolis/Marion County: Indianapolis Greenways map service layer.",
+        "url": "https://gis.indy.gov/server/rest/services/OpenData/OpenData_Recreation/MapServer/1"
+      }
+    ],
+    "rejectedClaims": [
+      "Every Indiana Department of Education statement (graduation requirements, CS standards, school offering rules): not read, because www.in.gov refused connections from our network on 17 and 18 October 2026 and media.doe.in.gov returned 403; nothing from summaries elsewhere is substituted.",
+      "Code.org Indiana access for 2024-25: the sheet has no value, so the 2023-24 figure is printed and labelled.",
+      "The Code.org graduating-senior, gender and race figures for Indiana: not from the Access or Participation tabs, not used.",
+      "What the Proposed-MDCAdpt status code stands for: not defined in the downloaded data, so it is printed literally and not expanded.",
+      "That a greenway name in both sets is officially planned for extension: not claimed; only the city can say.",
+      "Names of individual Indiana schools: not used; counts only.",
+      "That our lessons earn Indiana credit: refused.",
+      "Any affiliation with the Indiana Department of Education, Code.org, the College Board, IANA or the City of Indianapolis."
+    ]
   }
 }

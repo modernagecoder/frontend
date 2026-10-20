@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Indiana](/coding-and-ai-classes-in-indiana)
 - [Idaho](/coding-and-ai-classes-in-idaho)
 - [Hawaii](/coding-and-ai-classes-in-hawaii)
 - [Florida](/coding-and-ai-classes-in-florida)

@@ -248,7 +248,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 70 | coding-and-ai-classes-in-florida (af, #213F5C) | state | 3,462 | 2.2% vs coding-and-ai-classes-in-arizona | phase 4 | parsing dates and times (epoch milliseconds, time zones, free-text hours) | e6177d56 |
 | 71 | coding-and-ai-classes-in-hawaii (ah, #0F2866) | state | 3,041 | 2.5% vs coding-and-ai-classes-in-connecticut | phase 4 | filtering coordinates with bounding boxes, and testing a box against a label | 6314590c |
 | 72 | coding-and-ai-classes-in-idaho (aii, #423C99) | state | 3,880 | 1.5% vs coding-and-ai-classes-in-alabama | phase 4 | median versus mean on a skewed column (and which "typical" a reader is being sho | e2c1932c |
-| 73 | coding-classes-in-illinois (aiil, #941638) | state | 3,530 | 1.5% vs coding-and-ai-classes-in-alabama | phase 4 | string normalization and de-duplication (and knowing when to stop) | (this commit) |
+| 73 | coding-classes-in-illinois (aiil, #941638) | state | 3,530 | 1.5% vs coding-and-ai-classes-in-alabama | phase 4 | string normalization and de-duplication (and knowing when to stop) | f9b0bd8b |
+| 74 | coding-and-ai-classes-in-indiana (aiin, #9E2C18) | state | 3,266 | 1.8% vs coding-and-ai-classes-in-alabama | phase 4 | set operations (intersection, difference, union), on greenway names and on tzdb  | (this commit) |
 
 ## Skipped
 
