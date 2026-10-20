@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Kentucky](/coding-and-ai-classes-in-kentucky)
 - [Kansas](/coding-and-ai-classes-in-kansas)
 - [Iowa](/coding-and-ai-classes-in-iowa)
 - [Indiana](/coding-and-ai-classes-in-indiana)

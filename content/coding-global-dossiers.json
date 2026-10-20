@@ -52293,5 +52293,65 @@
       "That our classes earn Kansas school credit or meet any Kansas requirement: refused.",
       "Any affiliation with KSDE, the Kansas Board of Regents, the City of Lawrence, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-kentucky": {
+    "market": "Kentucky",
+    "bodyClass": "cg-aike",
+    "pageType": "city",
+    "curriculumAuthority": "Kentucky, read raw 17 to 18 October 2026 on apps.legislature.ky.gov (education.ky.gov returned 403): 704 KAR 3:305 (22 credits; ten foundational and twelve personalized credits; technology competency, civics, financial literacy; eff. 7-6-2026); 704 KAR 8:090 (Kentucky Academic Standards for Technology, August 2020, required before graduating; eff. 3-2-2021); 704 KAR 8:010 (Computer Science Elective standards, October 2018; eff. 2-1-2019). Code.org (2025) access 270 of 358, 75.4%, 2024-25, trend 45% to 75.4%; participation 17,236 of 201,095, 8.57%, and 11.46% in 2023-24; College Board AP schools 266 and 271; IANA America/Kentucky/Louisville, America/Kentucky/Monticello, Wayne County CST to EST 2000-10.",
+    "localProject": "Lexington-Fayette Urban County Government Park feature service (LFUCG open data terms of use), 110 records downloaded 17 October 2026 and checked against the count query. Our counts: 284 words, 168 distinct; PARK in 91 names; HILL 5 as a word, 8 as a substring; RUN 4; naive split leaves s 3 times; park types neighborhood 45, community 18, special use 11, natural area 11. Lesson family: word frequency and tokenizing names.",
+    "requiredMentions": [
+      "704 KAR 3:305",
+      "twenty-two (22) credits",
+      "performance-based competency in technology",
+      "704 KAR 8:090",
+      "704 KAR 8:010",
+      "Kentucky Academic Standards for Computer Science Elective",
+      "270 of 358",
+      "17,236 of 201,095",
+      "America/Kentucky/Monticello",
+      "SHILLITO PARK",
+      "91 of 110"
+    ],
+    "sources": [
+      {
+        "claim": "Kentucky Legislative Research Commission: 704 KAR 3:305, minimum requirements for high school graduation.",
+        "url": "https://apps.legislature.ky.gov/law/kar/titles/704/003/305/"
+      },
+      {
+        "claim": "Kentucky Legislative Research Commission: 704 KAR 8:090, Required Kentucky Academic Standards for Technology.",
+        "url": "https://apps.legislature.ky.gov/law/kar/titles/704/008/090/"
+      },
+      {
+        "claim": "Kentucky Legislative Research Commission: 704 KAR 8:010, Kentucky Academic Standards for Computer Science Elective.",
+        "url": "https://apps.legislature.ky.gov/law/kar/titles/704/008/010/"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Kentucky access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "Lexington-Fayette Urban County Government: Park feature service.",
+        "url": "https://services1.arcgis.com/Mg7DLdfYcSWIaDnu/arcgis/rest/services/Park/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Kentucky eastern and central time, Louisville and Monticello zones.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Anything from the Kentucky Department of Education website: education.ky.gov returned HTTP 403 on 17 October 2026 and was not retried around; the standards documents themselves were not read.",
+      "A reason for the fall in Kentucky participation from 11.46% to 8.57%: the data gives none, so none is offered.",
+      "A county-by-county Kentucky time zone list: the tzdb text says only eastern and western Kentucky plus the named zones, so no list is printed.",
+      "The 1999 newspaper quote about the Lake Cumberland counties in the tzdb comments: dated and second-hand, not used.",
+      "Code.org Graduation, Geography, Gender and Race tabs and the Code.org state policy summaries: not used.",
+      "Names of Kentucky schools and the park named for a school building: not printed.",
+      "That our classes count toward 704 KAR 3:305 credits or meet the technology requirement: refused.",
+      "Any affiliation with the Kentucky Department of Education, the Legislative Research Commission, LFUCG, Code.org or the College Board."
+    ]
   }
 }
