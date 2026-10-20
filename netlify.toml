@@ -24897,6 +24897,18 @@
   to = "/src/pages/best-coding-classes-for-kids-in-san-jose.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-ai-classes-in-san-diego"
+  to = "/src/pages/online-coding-and-ai-classes-in-san-diego.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-ai-classes-in-san-diego.md"
+  to = "/src/pages/online-coding-and-ai-classes-in-san-diego.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

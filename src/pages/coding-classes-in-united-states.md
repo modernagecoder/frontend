@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [San Diego](/online-coding-and-ai-classes-in-san-diego)
 - [San Jose](/best-coding-classes-for-kids-in-san-jose)
 - [San Francisco Bay Area](/ai-and-python-classes-for-teens-in-san-francisco-bay-area)
 - [Los Angeles](/online-coding-and-ai-classes-in-los-angeles)

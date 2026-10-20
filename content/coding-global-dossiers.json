@@ -53374,5 +53374,53 @@
       "Any ranking of San Jose coding classes: none verified, none claimed; the format table is our own assessment.",
       "Any affiliation with the City of San Jose, San Jose Public Library or Code.org."
     ]
+  },
+  "online-coding-and-ai-classes-in-san-diego": {
+    "market": "San Diego",
+    "bodyClass": "cg-ais",
+    "pageType": "city",
+    "curriculumAuthority": "California, 18 October 2026: cde.ca.gov (WAF redirect) and leginfo.legislature.ca.gov (403) unreadable, so no state rule is quoted; Code.org (2025) Most Recent Access Data: National 14,805 of 24,405 (60%, combined years) and California 58.1% (School Course Catalogs and Teacher Surveys), California year withheld because the tabs disagree. IANA America/Los_Angeles and the US DST rule.",
+    "localProject": "City of San Diego Open Data, Traffic Counts (Transportation Department, ODC PDDL, issued May 17, 2016), traffic_counts_datasd.csv downloaded 18 October 2026: 2,594 rows dated 2023-01-04 to 2026-09-24; 2,436 locations, 118 counted more than once (up to 5); adt_ab plus adt_ba equals adt_total on all rows; latest-per-location median 3,426.5; top N Harbor Dr (Harbor Island Dr to Spanish Landing) 91,208, N Harbor Dr (Laurel St to Coast Guard Gt) 87,458, Fairmount Ave 80,643. Description says roughly 12 years; page says last updated April 1, 2023. All counts ours. Lesson family: de-duplicating repeated measurements by keeping the latest per key, then ranking.",
+    "requiredMentions": [
+      "91,208",
+      "87,458",
+      "80,643",
+      "2,594",
+      "2,436",
+      "118 locations appearing more than once",
+      "3,426.5 vehicles",
+      "average weekday at select street segments",
+      "roughly the past 12 years",
+      "Kettner Boulevard"
+    ],
+    "sources": [
+      {
+        "claim": "City of San Diego Open Data: Traffic Counts dataset page (description, publisher, licence, dates).",
+        "url": "https://data.sandiego.gov/datasets/traffic-adt-counts/"
+      },
+      {
+        "claim": "City of San Diego: traffic_counts_datasd.csv used for our counts.",
+        "url": "https://seshat.datasd.org/traffic_adt_counts/traffic_counts_datasd.csv"
+      },
+      {
+        "claim": "Open Data Commons Public Domain Dedication and License, as linked from the dataset page.",
+        "url": "https://opendefinition.org/licenses/odc-pddl/"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: national and California high school access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb: America/Los_Angeles and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "California state CS rules: cde.ca.gov and leginfo.legislature.ca.gov could not be read; not retried, nothing quoted.",
+      "City GIS layers (parks, libraries, transit stops, city boundary): hosted on geo.sandag.org, which returned 403; not retried, not used.",
+      "That the top segment is the busiest road in San Diego: refused; it is the busiest counted segment in one download.",
+      "The reason some locations were counted five times: not stated by the City; not guessed on the page.",
+      "Any affiliation with the City of San Diego, its Transportation Department or Code.org."
+    ]
   }
 }
