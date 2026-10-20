@@ -53281,5 +53281,49 @@
       "Park polygons whose names refer to school joint-use sites: not named on the page.",
       "Any affiliation with the City of Los Angeles, its Department of Recreation and Parks, LAPL or Code.org."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-san-francisco-bay-area": {
+    "market": "San Francisco Bay Area",
+    "bodyClass": "cg-apts",
+    "pageType": "city",
+    "curriculumAuthority": "California, 18 October 2026: cde.ca.gov (WAF redirect) and leginfo.legislature.ca.gov (403) unreadable, so no state rule is quoted; Code.org (2025) Access Percent over the Years for CA: 40% (2018-2019), 45% (2022-2023), latest value about 58% (School Course Catalogs and Teacher Surveys), year withheld because the tabs disagree. IANA America/Los_Angeles and the US DST rule.",
+    "localProject": "DataSF (City and County of San Francisco), San Francisco Street Tree Inventory tkzw-k3nq, San Francisco Public Works, ODC PDDL, updated daily; queried 18 October 2026: 144,519 records; planteddate (text) blank on 105,867, filled on 38,652; earliest 1955; 8 dates after the 2026-10-17 extract, latest 2026-10-20; peak year 2018 with 2,261; 17,312 dated from 2015 on; DPW Maintained 136,258, Significant Tree 2,156, Landmark tree 232. Counts ours. Lesson family: parsing text dates, blank values and filtering impossible future dates.",
+    "requiredMentions": [
+      "144,519",
+      "105,867",
+      "38,652",
+      "2026-10-20",
+      "eight records were planted after it",
+      "2,261",
+      "17,312 dated plantings",
+      "Landmark tree",
+      "Significant Tree and 232",
+      "December 2024"
+    ],
+    "sources": [
+      {
+        "claim": "DataSF: San Francisco Street Tree Inventory metadata, description, licence and update note.",
+        "url": "https://data.sfgov.org/api/views/tkzw-k3nq.json"
+      },
+      {
+        "claim": "DataSF SoQL endpoint used for our counts.",
+        "url": "https://data.sfgov.org/resource/tkzw-k3nq.json"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: California high school access over the years.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb: America/Los_Angeles and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "California state CS rules: cde.ca.gov and leginfo.legislature.ca.gov could not be read; not retried, nothing quoted.",
+      "Data from other Bay Area cities (San Jose, Oakland and others): not used; this page uses DataSF only.",
+      "A cause for the eight future planting dates: unknown, not asserted.",
+      "A school year for the latest California Code.org value: tabs disagree, none printed.",
+      "Any affiliation with DataSF, San Francisco Public Works, the City and County of San Francisco or Code.org."
+    ]
   }
 }
