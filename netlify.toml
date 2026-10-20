@@ -24933,6 +24933,18 @@
   to = "/src/pages/best-coding-classes-for-kids-in-houston.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-ai-classes-in-dallas-fort-worth"
+  to = "/src/pages/online-coding-and-ai-classes-in-dallas-fort-worth.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-ai-classes-in-dallas-fort-worth.md"
+  to = "/src/pages/online-coding-and-ai-classes-in-dallas-fort-worth.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

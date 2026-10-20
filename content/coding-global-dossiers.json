@@ -53522,5 +53522,57 @@
       "That our classes meet any Texas standard or requirement: refused.",
       "Any affiliation with the City of Houston, HPARD, TEA or Code.org."
     ]
+  },
+  "online-coding-and-ai-classes-in-dallas-fort-worth": {
+    "market": "Dallas Fort Worth",
+    "bodyClass": "cg-adfw",
+    "pageType": "city",
+    "curriculumAuthority": "Texas, read raw on 18 October 2026: TEA Technology Applications TEKS Review K-8 (SBOE nominates educators, parents, business and industry representatives, employers; Work Group B September 2021, C early October 2021, D late October 2021, E December 2021 vertical alignment); TEA Technology Applications page (final approval 2022, implemented 2024-25); IANA America/Chicago and the US DST rule. fortworthtexas.gov returned 403.",
+    "localProject": "City of Dallas GIS Dallas Parks Source File (as is, no warranty, not for engineering), attributes downloaded 18 October 2026: 404 records; our counts of address suffixes (Rd. 33, Road 32, Rd 11, total 76; Dr. 17, Drive 3, Dr 2; Street 20, St. 7, St 3); 8 empty addresses; 54 ADDRESS vs Address_1 mismatches; ParkStatus 390/5/9; PARK_TYPE Neighborhood 128, Community 96; Owned_BY Park 337, Streets 7, Street 1; Council_Dist empty 29, codes such as 1013. Lesson family: string cleaning and normalisation.",
+    "requiredMentions": [
+      "Rd. 33, Road 32, Rd 11",
+      "Dallas Parks Source File",
+      "5 Future Park",
+      "differ in 54 records",
+      "1013",
+      "District 1 to District 14",
+      "30 records, Central and Branches",
+      "Work Group E",
+      "business and industry representatives"
+    ],
+    "sources": [
+      {
+        "claim": "City of Dallas GIS: Dallas Parks Source File feature service, use constraints and attributes.",
+        "url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallas_Parks_Source_File/FeatureServer/0"
+      },
+      {
+        "claim": "City of Dallas OpenData: Public Libraries, Central and Branches.",
+        "url": "https://www.dallasopendata.com/resource/p96m-d8hb.json"
+      },
+      {
+        "claim": "City of Dallas: City Council members, Districts 1 to 14.",
+        "url": "https://dallascityhall.com/government/Pages/city-council.aspx"
+      },
+      {
+        "claim": "TEA: Technology Applications TEKS Review, Kindergarten to Grade 8, work groups and dates.",
+        "url": "https://tea.texas.gov/curriculum-and-instruction/curriculum-standards/teks-review/technology-applications-teks-review-kindergarten-grade-8"
+      },
+      {
+        "claim": "TEA: Technology Applications page, final approval 2022 and 2024-25 implementation.",
+        "url": "https://tea.texas.gov/academics/subject-area-resources/technology-applications"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Chicago and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Fort Worth city facts: fortworthtexas.gov returned 403 on 18 October 2026, not retried, none printed.",
+      "The meaning of council district codes such as 1013: not stated by the city, so only described as looking like two districts.",
+      "Park addresses: never printed; counts only.",
+      "The content of the Texas strands and the computer-science-as-language rule: covered on /coding-classes-in-texas.",
+      "That our classes satisfy any Texas standard: refused.",
+      "Any affiliation with the City of Dallas, the City of Fort Worth or TEA."
+    ]
   }
 }
