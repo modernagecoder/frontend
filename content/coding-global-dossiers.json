@@ -52036,5 +52036,73 @@
       "Current library opening hours: the layer values are reported as of the download, not as a timetable.",
       "Any affiliation with HIDOE, the Board of Education, the Hawaii State Public Library System, the Statewide GIS Program, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-idaho": {
+    "market": "Idaho",
+    "bodyClass": "cg-aii",
+    "pageType": "city",
+    "curriculumAuthority": "Idaho, read raw on 17 and 18 October 2026: Idaho Department of Education Digital Literacy Course Guidance Document (UPDATE 02/20/2026; IDAPA 08.02.03.105.01.j; 2025 legislative session; grades 9 through 12; graduating after January 1, 2028; one-credit stand-alone; not over a series of courses; eight course options incl. ISEE Code 10019 AP CSP; no prerequisite; free Code.org and CodeHS courses and IDLA with the Idaho STEM Action Center; essential standards); Digital Literacy page; High School Graduation Requirements (46 credits, 30 core, one credit of Digital Literacy, Future Readiness project, Civics Exam, advanced opportunity, STEM Diploma 33-532); Computer Science page (\"AI is not a separate discipline.\"; CodeHop, Launch Pad, Learning Blade 20-hour, grades 5 to 9); 9-12 CS Standards (created 05/01/24; five strands; 9-12.CS.3.7; 9-12.CS.2.8); Code.org (2025) access 117 of 266 (2024-25), trend 38% to 44.0%, participation 1,751 of 99,336 (1.76%, 2024-25, NCES Fall 2022 denominator); College Board AP schools 105 (2023), 104 (2024); IANA America/Boise and America/Los_Angeles with the northern county list.",
+    "localProject": "City of Boise open data, Parks and Recreation Managed Park and Reserves (polygon), Boise_Parks_and_Reserves_Poly layer 0, City of Boise data disclaimer (no warranty), 116 records (returnCountOnly matched), downloaded 17 October 2026. Our calculations: mean Acreage 64.45, median 7.76; 16 of 116 above the mean; Stack Rock Reserve 2,172.96; without it mean 46.12, median 7.67; Open Space 22 records mean 274.30 median 69.09; Neighborhood 38 records mean 6.64 median 7.15. Lesson family: median versus mean on a skewed column.",
+    "requiredMentions": [
+      "IDAPA 08.02.03.105.01.j",
+      "January 1, 2028",
+      "eight stand-alone course options",
+      "ISEE Code 10019",
+      "minimum of 46 high school credits",
+      "AI is not a separate discipline.",
+      "Understand and define artificial intelligence.",
+      "117 of 266",
+      "1,751 of 99,336",
+      "Nez Perce",
+      "Stack Rock Reserve",
+      "7.76"
+    ],
+    "sources": [
+      {
+        "claim": "Idaho DOE: Digital Literacy Course Guidance Document (UPDATE 02/20/2026), rule, scope, eight course options, AP CSP coding, essential standards.",
+        "url": "https://www.sde.idaho.gov/wp-content/uploads/2026/02/2025-Digital-Literacy-Guidance-Document.pdf"
+      },
+      {
+        "claim": "Idaho DOE: Digital Literacy page, credit required for 2028 graduates.",
+        "url": "https://www.sde.idaho.gov/about-us/departments/content-and-curriculum/computer-science/digital-literacy/"
+      },
+      {
+        "claim": "Idaho DOE: High School Graduation Requirements, 46 credits and the state minimums.",
+        "url": "https://www.sde.idaho.gov/high-school-graduation-requirements/"
+      },
+      {
+        "claim": "Idaho DOE: Computer Science page, AI as part of CS, K-5 and middle school programs.",
+        "url": "https://www.sde.idaho.gov/about-us/departments/content-and-curriculum/computer-science/"
+      },
+      {
+        "claim": "Idaho DOE: 9-12 Computer Science Standards, created 05/01/24.",
+        "url": "https://www.sde.idaho.gov/wp-content/uploads/2025/08/ICS-Computer-Science-Standards.pdf"
+      },
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: Idaho access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Boise: Parks and Reserves (polygons) feature service.",
+        "url": "https://services1.arcgis.com/WHM6qC35aMtyAAlN/arcgis/rest/services/Boise_Parks_and_Reserves_Poly/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica and zone1970.tab: America/Boise, America/Los_Angeles, northern Idaho counties.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "The IDLA per-student course fee in the guidance document: not printed (no prices on US pages beyond our own fee block).",
+      "The Code.org graduating-senior, gender and race figures for Idaho: not from the Access or Participation tabs, not used.",
+      "That Idaho requires a computer science course to graduate: not claimed; the state requires a Digital Literacy credit, one of whose eight options is AP Computer Science Principles.",
+      "Official Boise park sizes: not read; only our arithmetic on the Acreage field is printed, labelled as ours.",
+      "Names of individual Idaho schools (the guidance links a sample handbook from one high school): not used; counts only.",
+      "That our classes satisfy the Digital Literacy requirement: refused; only the approved courses taken for high school credit do.",
+      "Any affiliation with the Idaho Department of Education, the Idaho STEM Action Center, IDLA, Code.org, CodeHS, Skill Struck, Learning Blade, the College Board or the City of Boise."
+    ]
   }
 }

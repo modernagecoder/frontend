@@ -246,7 +246,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 68 | coding-and-ai-classes-in-connecticut (aico, #124C1E) | state | 3,308 | 2% vs coding-and-ai-classes-in-arizona | phase 4 | joining two tables on a shared key, and repairing keys that do not match | c3fa9c73 |
 | 69 | coding-and-ai-classes-in-delaware (ad, #236142) | state | 3,188 | 2% vs coding-and-ai-classes-in-alaska | phase 4 | percentages and rounding, and why rounded shares need not add up to 100 | e1ad5a0c |
 | 70 | coding-and-ai-classes-in-florida (af, #213F5C) | state | 3,462 | 2.2% vs coding-and-ai-classes-in-arizona | phase 4 | parsing dates and times (epoch milliseconds, time zones, free-text hours) | e6177d56 |
-| 71 | coding-and-ai-classes-in-hawaii (ah, #0F2866) | state | 3,041 | 2.5% vs coding-and-ai-classes-in-connecticut | phase 4 | filtering coordinates with bounding boxes, and testing a box against a label | (this commit) |
+| 71 | coding-and-ai-classes-in-hawaii (ah, #0F2866) | state | 3,041 | 2.5% vs coding-and-ai-classes-in-connecticut | phase 4 | filtering coordinates with bounding boxes, and testing a box against a label | 6314590c |
+| 72 | coding-and-ai-classes-in-idaho (aii, #423C99) | state | 3,880 | 1.5% vs coding-and-ai-classes-in-alabama | phase 4 | median versus mean on a skewed column (and which "typical" a reader is being sho | (this commit) |
 
 ## Skipped
 
