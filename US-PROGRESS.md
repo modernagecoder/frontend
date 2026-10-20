@@ -287,7 +287,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 129 | best-coding-classes-for-kids-in-orlando (bko, #242280) | metro | 3,510 | 2.1% vs best-coding-classes-for-kids-in-san-jose | phase 5 | binning dates by decade into a histogram (and what an unfinished bin means) | 1c3bdf05 |
 | 130 | online-coding-and-ai-classes-in-phoenix (aip, #9E3454) | metro | 3,476 | 1.7% vs best-coding-classes-for-kids-in-houston | phase 5 | wide yes/no tables, counting across columns, and why a blank is not a No | 23e07925 |
 | 131 | ai-and-python-classes-for-teens-in-denver (aptd, #6B5240) | metro | 3,328 | 2.1% vs ai-and-python-classes-for-teens-in-miami | phase 5 | summing lengths by category, unit conversion (feet to miles) and two definitions | 5388ba11 |
-| 132 | best-coding-classes-for-kids-in-charlotte (best, #4E5499) | metro | 3,251 | 2% vs best-coding-classes-for-kids-in-houston | phase 5 | filtering on category attributes and computing percentages of a subset, with the | (this commit) |
+| 132 | best-coding-classes-for-kids-in-charlotte (best, #4E5499) | metro | 3,251 | 2% vs best-coding-classes-for-kids-in-houston | phase 5 | filtering on category attributes and computing percentages of a subset, with the | c189f4f6 |
+| 133 | online-coding-and-ai-classes-in-raleigh-durham (ard, #27275C) | metro | 3,119 | 1.7% vs coding-and-ai-classes-in-north-carolina | phase 5 | data cleaning (inconsistent labels, two kinds of missing value, zero versus blan | (this commit) |
 
 ## Skipped
 

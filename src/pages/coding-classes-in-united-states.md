@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Raleigh-Durham](/online-coding-and-ai-classes-in-raleigh-durham)
 - [Charlotte](/best-coding-classes-for-kids-in-charlotte)
 - [Denver](/ai-and-python-classes-for-teens-in-denver)
 - [Phoenix](/online-coding-and-ai-classes-in-phoenix)

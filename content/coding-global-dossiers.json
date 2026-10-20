@@ -54172,5 +54172,60 @@
       "Repeating the North Carolina graduation rule in detail: left to the North Carolina page.",
       "Any affiliation with the City of Charlotte, CATS, Mecklenburg County or Charlotte Douglas International Airport."
     ]
+  },
+  "online-coding-and-ai-classes-in-raleigh-durham": {
+    "market": "Raleigh-Durham",
+    "bodyClass": "cg-ard",
+    "pageType": "city",
+    "curriculumAuthority": "North Carolina rules: one pointer only, to /coding-and-ai-classes-in-north-carolina, which carries the law and Code.org figures; IANA America/New_York and the US DST rule. durhamnc.gov and raleighnc.gov returned 403.",
+    "localProject": "Durham, NC Open Data Portal, Trees & Planting Sites (ODbL listed as general reference; City and County of Durham reserve rights; counts only), all 28,968 records paged 18 October 2026: 16 raw city spellings, 27,372 Durham after strip and title case; height blank 4,004 and single space 1,984; planting sites diameter 0 on 1,799 and blank on 3,555; 17 facility IDs on 37 records; present Tree 23,220, Planting Site 5,374, Do Not Plant 269, Dead 61. Lesson family: data cleaning.",
+    "requiredMentions": [
+      "28,968 records",
+      "16 distinct values in the city column",
+      "27,372 records now read Durham",
+      "4,004",
+      "1,984",
+      "17 facility ID values shared by 37 records",
+      "April 17, 1881",
+      "April 26, 1853",
+      "More than 330,000",
+      "23 locations across the county",
+      "A record 91, on 19 airlines",
+      "10,639 feet"
+    ],
+    "sources": [
+      {
+        "claim": "Durham, NC Open Data Portal: Trees & Planting Sites feature service and licence note.",
+        "url": "https://services2.arcgis.com/G5vR3cOjh6g2Ed8E/arcgis/rest/services/Trees_and_Planting_Sites/FeatureServer/11"
+      },
+      {
+        "claim": "Durham, NC Open Data Portal: GoDurham Bus Stops.",
+        "url": "https://live-durhamnc.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Durham County Government: Durham County History and About.",
+        "url": "https://dconc.gov/PublicSite/About/Durham-County-History"
+      },
+      {
+        "claim": "Wake County Government: Libraries locations and STEAM Lab news release, October 16, 2026.",
+        "url": "https://www.wake.gov/news/wake-county-public-libraries-launches-new-steam-labs-support-student-success"
+      },
+      {
+        "claim": "Raleigh-Durham International Airport: nonstop destinations and new runway length.",
+        "url": "https://www.rdu.com/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/New_York and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "City of Durham and City of Raleigh web pages: 403 on 18 October 2026, not retried; no facts taken from them.",
+      "Durham County Library pages: 406, not used.",
+      "The Raleigh Greenway Trails dataset: used by the North Carolina page, deliberately not reused here.",
+      "Tree benefit dollar values (replacevalue_dol and similar columns): money figures, not used.",
+      "Street addresses and county manager names: not printed.",
+      "Any affiliation with the City or County of Durham, the City of Raleigh, Wake County or Raleigh-Durham International Airport."
+    ]
   }
 }
