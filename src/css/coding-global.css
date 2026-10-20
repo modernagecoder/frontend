@@ -1780,3 +1780,4 @@
 .cg-root.cg-apto  { --cg-accent: #523231; --cg-accent-soft: rgba(82,50,49,.10); }   /* Orange County, California: #523231, the allocated dark walnut brown, earthy and low-key, distinct in hue and lightness from the Los Angeles and San Diego reds, contrast-safe on every paper */
 .cg-root.cg-bes  { --cg-accent: #365880; --cg-accent-soft: rgba(54,88,128,.10); }   /* Houston: a muted bayou-water blue #365880 from the allocation table, contrast 6.92 on the paper and 5.95 on the deepest tint */
 .cg-root.cg-adfw  { --cg-accent: #3D2885; --cg-accent-soft: rgba(61,40,133,.10); }   /* Dallas Fort Worth: a deep muted indigo #3D2885 from the allocation table, contrast 10.76 on the paper and 9.26 on the deepest tint */
+.cg-root.cg-apta  { --cg-accent: #80454C; --cg-accent-soft: rgba(128,69,76,.10); }   /* Austin: a muted cedar-bark rose #80454C from the allocation table, contrast 6.89 on the paper and 5.93 on the deepest tint */

@@ -53574,5 +53574,61 @@
       "That our classes satisfy any Texas standard: refused.",
       "Any affiliation with the City of Dallas, the City of Fort Worth or TEA."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-austin-texas": {
+    "market": "Austin",
+    "bodyClass": "cg-apta",
+    "pageType": "city",
+    "curriculumAuthority": "Texas, read raw on 18 October 2026: TEA AP Computer Science Principles Grant (launch AP CSP courses, CTE CS pathways; LASO 2 2024-2026 to LASO 5 2027-2029; LASO 4 fall 2026 survey closes Nov. 15, 2026); Code.org (2025) State of AI + CS Education, Most Recent Access Data: TX 48.0% in 2023-2024; IANA America/Chicago and the US DST rule.",
+    "localProject": "City of Austin Open Data Tree Inventory (wrik-xasw, public domain, as of March 13th, 2020), our SoQL counts on 18 October 2026: 62,274 rows; 64 empty species; 3,630 zero diameters; Stump 986; Unknown 372; seven vacant-site labels totalling 1,478 (ours); 481 distinct labels; duplicate names Southern Live Oak 5,815 vs Oak, Live (Southern) 3,946; column spelled longtitude. Lesson family: missing and disguised-missing values.",
+    "requiredMentions": [
+      "62,274",
+      "3,630",
+      "1,478",
+      "Oak, Live (Southern)",
+      "longtitude",
+      "March 13th, 2020",
+      "23 records, all listing Wi-Fi",
+      "District 1 to District 10",
+      "LASO 4"
+    ],
+    "sources": [
+      {
+        "claim": "City of Austin Open Data: Tree Inventory metadata, licence and our SoQL counts.",
+        "url": "https://data.austintexas.gov/Environment/Tree-Inventory/wrik-xasw"
+      },
+      {
+        "claim": "City of Austin Open Data: Austin Public Library Locations.",
+        "url": "https://data.austintexas.gov/resource/tc36-hn4j.json"
+      },
+      {
+        "claim": "City of Austin Open Data Terms of Use: public domain unless noted, no warranty.",
+        "url": "https://datahub.austintexas.gov/stories/s/ranj-cccq"
+      },
+      {
+        "claim": "City of Austin: City Council, mayor and Districts 1 to 10.",
+        "url": "https://www.austintexas.gov/department/city-council"
+      },
+      {
+        "claim": "TEA: AP Computer Science Principles Grant.",
+        "url": "https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/ap-computer-science-principles-grant"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Texas access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Chicago and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "A total number of trees in Austin: the city says the inventory is not complete, so no total is claimed.",
+      "Diameter units: the metadata does not state them, so the page prints the raw value 111 without a unit.",
+      "Names of council members, schools or the school district: not printed; counts only.",
+      "The Texas strands and the computer-science-as-language rule: covered on /coding-classes-in-texas.",
+      "That our classes satisfy AP or TEA requirements: refused.",
+      "Any affiliation with the City of Austin, TEA, the College Board or Code.org."
+    ]
   }
 }

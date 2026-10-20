@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Austin](/ai-and-python-classes-for-teens-in-austin-texas)
 - [Dallas Fort Worth](/online-coding-and-ai-classes-in-dallas-fort-worth)
 - [Houston](/best-coding-classes-for-kids-in-houston)
 - [Orange County](/ai-and-python-classes-for-teens-in-orange-county-california)
