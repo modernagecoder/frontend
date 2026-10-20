@@ -54282,5 +54282,56 @@
       "Yearly Wi-Fi totals: not printed; the page uses the county's monthly total row and our monthly averages, labelled as ours.",
       "Any affiliation with Arlington County, Fairfax County, the City of Alexandria or the Virginia Department of Education."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-portland-oregon": {
+    "market": "Portland, Oregon",
+    "bodyClass": "cg-aptp",
+    "pageType": "city",
+    "curriculumAuthority": "Oregon, read raw on 18 October 2026: ODE Generative Artificial Intelligence (AI) for K-12 Schools (CS underpins information and AI literacy; literacies foundational, not optional enrichment; AI Assessment Scale (AIAS); policing to coaching; Navigating Now toolkit); Code.org (2025) raw sheet Access tabs (OR 2023-2024, 195 of 347, 56.2%; 54%, 63%, 64%, 60.2%); IANA America/Los_Angeles and the US DST rule. No current ODE CS standards page found.",
+    "localProject": "City of Portland Street Tree Inventory - Active Records (Portland Open GeoData, site licence CC BY-SA), hub CSV downloaded 18 October 2026: 252,205 records; 354 distinct species values incl. Unknown; Norway maple 18,150 (7.20%); top 10 species 31.92%; Acer 58,650 (23.25%), top 10 genera 60.51%; Gini-Simpson 0.9818; 37 single-tree species; Unknown = Dead = 2,875. Cross-checked with Urban Forestry (354 species, 18,000+ Norway maples, 252,180 along streets). Lesson family: frequency counting and diversity.",
+    "requiredMentions": [
+      "252,205 records",
+      "18,150",
+      "31.92%",
+      "58,650",
+      "0.9818",
+      "2,875",
+      "252,180 along streets",
+      "25,734 trees across 174 parks",
+      "45% over the next 40 years",
+      "37 species represented by a single tree each",
+      "81,000 in natural areas beside roads",
+      "designated the Norway maple a nuisance plant"
+    ],
+    "sources": [
+      {
+        "claim": "City of Portland Urban Forestry, Explore Portland's Canopy: tree counts, species, canopy figures, park inventory.",
+        "url": "https://www.portland.gov/trees/get-involved/explore-portlands-canopy"
+      },
+      {
+        "claim": "City of Portland open data: Street Tree Inventory - Active Records.",
+        "url": "https://gis-pdx.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Oregon Department of Education: Generative Artificial Intelligence (AI) for K-12 Schools.",
+        "url": "https://www.oregon.gov/ode/educator-resources/teachingcontent/Pages/Generative-Artificial-Intelligence-(AI)-for-K-12-Schools.aspx"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Oregon access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Los_Angeles and the US DST rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Oregon computer science standards: no current ODE page found at the addresses tried (404); not summarised.",
+      "Item-level licence for the tree inventory: the item licenceInfo field is empty; only the site-level CC BY-SA statement is cited.",
+      "Street addresses in the inventory: not printed or analysed; counts only.",
+      "Employment, layoff and environmental statistics quoted inside the ODE guidance: off-topic and money or job content, left out.",
+      "An explanation for the fall in Oregon CS access: none published in what we read; not guessed.",
+      "Any affiliation with the City of Portland, Portland Urban Forestry, ODE, Code.org or the College Board."
+    ]
   }
 }

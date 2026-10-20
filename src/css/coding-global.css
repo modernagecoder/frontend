@@ -1793,3 +1793,4 @@
 .cg-root.cg-best  { --cg-accent: #4E5499; --cg-accent-soft: rgba(78,84,153,.10); }   /* Charlotte: a muted slate periwinkle, #4E5499, as allocated in alloc.tsv for row 132, distinct from the other US metro accents and readable on the paper */
 .cg-root.cg-ard  { --cg-accent: #27275C; --cg-accent-soft: rgba(39,39,92,.10); }   /* Raleigh-Durham: a deep muted indigo, #27275C, as allocated in alloc.tsv for row 133, distinct from the other US metro accents and readable on the paper */
 .cg-root.cg-aptn  { --cg-accent: #6B334A; --cg-accent-soft: rgba(107,51,74,.10); }   /* Northern Virginia: a muted plum, #6B334A, as allocated in alloc.tsv for row 134, distinct from the other US metro accents and readable on the paper */
+.cg-root.cg-aptp  { --cg-accent: #291C9E; --cg-accent-soft: rgba(41,28,158,.10); }   /* Portland, Oregon: a deep muted violet-blue, #291C9E, as allocated in alloc.tsv for row 137, distinct from the other US metro accents and readable on the paper */

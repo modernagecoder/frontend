@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Portland, Oregon](/ai-and-python-classes-for-teens-in-portland-oregon)
 - [Northern Virginia](/ai-and-python-classes-for-teens-in-northern-virginia)
 - [Raleigh-Durham](/online-coding-and-ai-classes-in-raleigh-durham)
 - [Charlotte](/best-coding-classes-for-kids-in-charlotte)
