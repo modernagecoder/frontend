@@ -53898,5 +53898,55 @@
       "Census income or any school names for Atlanta: not used.",
       "Any affiliation with the City of Atlanta, MARTA, Code.org or the College Board."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-miami": {
+    "market": "Miami",
+    "bodyClass": "cg-aptm",
+    "pageType": "city",
+    "curriculumAuthority": "Florida, read 18 October 2026: Florida Statutes s. 1007.2616 on Online Sunshine (K-12 CS opportunities; courses in middle and high school; Florida Virtual School access where a district lacks a course; CS courses and certifications may meet math or science graduation requirements). Code.org (2025) State of AI + CS Education raw sheet, Most Recent Access Data FL 2023-2024, 463 of 1,192. FLDOE returned 403. IANA America/New_York and the US DST rule.",
+    "localProject": "Miami-Dade County \"County Library\" points (Library_gdb layer 0, 50 records, as-is terms), downloaded 18 October 2026; our haversine nearest-neighbour results: median 1.78 miles, Naranja Branch 6.03 miles to South Dade Regional, Key Biscayne Branch 5.28, Coconut Grove and Virrick Park 0.70, two Westchester records at the same coordinate, north-south span 36.1 miles. Lesson family: haversine distance and nearest-neighbour search.",
+    "requiredMentions": [
+      "1007.2616",
+      "Florida Virtual School",
+      "Key Biscayne Branch to Coconut Grove Branch",
+      "34 incorporated municipalities",
+      "344 voters",
+      "38-foot diameter circle",
+      "8,564,225",
+      "Naranja Branch",
+      "1.78 miles",
+      "3,958.8 miles",
+      "Virrick Park Branch"
+    ],
+    "sources": [
+      {
+        "claim": "Miami-Dade County: About Miami-Dade County (size, municipalities, commission, history, PortMiami).",
+        "url": "https://www.miamidade.gov/global/disclaimer/about-miami-dade-county.page"
+      },
+      {
+        "claim": "Miami-Dade County open data hub: County Library feature service and as-is terms.",
+        "url": "https://services.arcgis.com/8Pc9XBTAsYuxx9Ny/arcgis/rest/services/Library_gdb/FeatureServer/0"
+      },
+      {
+        "claim": "Florida Statutes s. 1007.2616, Computer science and technology instruction.",
+        "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1007/Sections/1007.2616.html"
+      },
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: Florida access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/New_York and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "FLDOE guidance and course lists: fldoe.org returned 403 on 18 October 2026, not retried; the statute is quoted instead.",
+      "City of Miami pages: miami.gov returned 403, so only Miami-Dade County pages are used.",
+      "Hurricane, foreign-born share, airport finance and other disaster, identity or money lines on the county page: not used.",
+      "Travel times to libraries: not computed; only straight-line haversine distances, labelled as ours.",
+      "A Code.org 2024 to 2025 Florida access figure: none published in the sheet, so only 2023 to 2024 is printed.",
+      "Any affiliation with Miami-Dade County, its library system, Florida Virtual School, Code.org or the College Board."
+    ]
   }
 }
