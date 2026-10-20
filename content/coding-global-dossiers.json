@@ -53181,5 +53181,58 @@
       "Code.org geography, size, gender or race tabs and the Code.org state narrative: not used.",
       "Any affiliation with OSSE, the DC State Board of Education, DC GIS, Capital Bikeshare, Code.org or the College Board."
     ]
+  },
+  "best-coding-classes-for-kids-in-new-york-city": {
+    "market": "New York City",
+    "bodyClass": "cg-bkny",
+    "pageType": "city",
+    "curriculumAuthority": "New York State, read raw on 18 October 2026: NYSED Computer Science and Digital Literacy FAQ (2018 law; standards approved December 2020; bands K-1, 2-3, 4-6, 7-8, 9-12; Phase IV full implementation from September 1, 2024; elective or third unit of Math or Science credit; graduation requirement left to the graduation measures review). Code.org (2025) Most Recent Access Data: NY 2023-2024, 674 of 1,360 high schools, State Education Agency. IANA America/New_York and the US DST rule.",
+    "localProject": "NYC Open Data 2015 Street Tree Census, dataset uvpi-gqnh (NYC Parks), queried with SoQL on 18 October 2026: 683,788 records; Alive 652,173, Dead 13,961, Stump 17,654 (our Alive plus Dead equals the published 666,134); by borough Queens 250,551 to Manhattan 65,423; top species London planetree 87,014, honeylocust 64,264, Callery pear 58,931; 31,619 records with no species; 132 species names; borough top threes for Manhattan and Queens. All counts ours. Lesson family: top-N ranking with a blank category, and reconciling a computed total with a published one.",
+    "requiredMentions": [
+      "683,788 records",
+      "666,134 trees",
+      "87,014",
+      "31,619 records have no species name",
+      "17,654 stumps",
+      "Queens",
+      "250,551",
+      "ginkgo (5,859)",
+      "132 different species names",
+      "May 2015 and October 2016"
+    ],
+    "sources": [
+      {
+        "claim": "NYC Open Data: 2015 Street Tree Census, Tree Data (metadata, description, agency, date made public).",
+        "url": "https://data.cityofnewyork.us/api/views/uvpi-gqnh.json"
+      },
+      {
+        "claim": "NYC Open Data SoQL endpoint used for our counts.",
+        "url": "https://data.cityofnewyork.us/resource/uvpi-gqnh.json"
+      },
+      {
+        "claim": "NYC.gov Terms of Use: materials provided as is.",
+        "url": "https://www.nyc.gov/main/terms-of-use"
+      },
+      {
+        "claim": "NYSED Computer Science and Digital Literacy FAQ: 2018 law, December 2020 approval, bands, full implementation, credit rules.",
+        "url": "https://www.nysed.gov/standards-instruction/computer-science-digital-literacy-faq"
+      },
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: NY high school access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb: America/New_York and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "NYC Open Data portal overview and terms page (opendata.cityofnewyork.us): blocked by a Cloudflare check, not retried; the NYC.gov terms of use are quoted instead.",
+      "NYC Parks pages (nycgovparks.org): returned an empty 202 challenge, not retried; no Parks page facts are printed.",
+      "NYC public school counts and computer science program claims: the schools.nyc.gov pages we tried returned 404 or no body, so none are printed.",
+      "Tree health and condition fields: not used.",
+      "Any ranking of coding classes in New York City: none exists that we could verify, and none is claimed.",
+      "Any affiliation with NYC Parks, the City of New York, NYSED or Code.org."
+    ]
   }
 }
