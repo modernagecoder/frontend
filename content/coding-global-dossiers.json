@@ -52229,5 +52229,69 @@
       "That our classes satisfy HF 2629 or replace the school course: refused.",
       "Any affiliation with the Iowa Department of Education, the Iowa DOT, Code.org, CSTA or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-kansas": {
+    "market": "Kansas",
+    "bodyClass": "cg-ak",
+    "pageType": "city",
+    "curriculumAuthority": "Kansas, read raw 17 to 18 October 2026: KSDE (ksde.gov, ksde.org) returned Request Rejected and is not described. Kansas Board of Regents: Qualified Admissions (six state universities, K.S.A. 76-717, changed for 2021 graduates); Kansas Scholars Curriculum (English 4, Mathematics 4, Science 3, Social Studies 3, World Language 2; no computer science); Computer Science Systemwide Transfer Degree. Code.org (2025) access (153 of 404, 37.9%, 2023-24; trend 28% to 37.9%; source State Education Agency and School Catalogs) and participation (3,654 of 146,266, 2.50%, 2023-24); College Board AP schools 132 and 146; IANA tzdb: most of Kansas central, far western Kansas mountain, Kearny County all central 1990-10.",
+    "localProject": "City of Lawrence open data, downloaded 17 October 2026: Parks (106 records; MUNICIPALITY Lawrence 76 and LAWRENCE 9; 84 of type Park) and Current Bus Stops for Interactive Routes app (453 records, 452 after removing StopID 500 as the layer asks); City public record disclaimer read. Our nearest-stop search from park centroids: median 408 metres, 42 within 400 metres, 57 within 800 metres, 15 beyond 1,600 metres, closest 34 metres; all labelled ours. Lesson family: nearest-neighbour search and data cleaning before it.",
+    "requiredMentions": [
+      "153 of 404",
+      "3,654 of 146,266",
+      "Kansas Scholars Curriculum",
+      "Request Rejected",
+      "K.S.A. 76-717",
+      "Computer Science Systemwide Transfer Degree",
+      "Kearny County",
+      "far western Kansas",
+      "408 metres",
+      "StopID 500",
+      "Chaparral Play Lot"
+    ],
+    "sources": [
+      {
+        "claim": "Kansas Board of Regents: Qualified Admissions.",
+        "url": "https://www.kansasregents.org/academic_affairs/qualified_admissions"
+      },
+      {
+        "claim": "Kansas Board of Regents: Kansas Scholars Curriculum.",
+        "url": "https://www.kansasregents.org/students/student_financial_aid/kansas_scholars_curriculum"
+      },
+      {
+        "claim": "Kansas Board of Regents: Computer Science Systemwide Transfer Degree.",
+        "url": "https://www.kansasregents.org/academic_affairs/systemwide-transfer-degrees/computer-science-systemwide-transfer-degree"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Kansas access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Lawrence: Parks feature service.",
+        "url": "https://services.arcgis.com/8O9UlSTnqjKptoda/arcgis/rest/services/Parks/FeatureServer"
+      },
+      {
+        "claim": "City of Lawrence: Current Bus Stops for Interactive Routes app feature service.",
+        "url": "https://services.arcgis.com/8O9UlSTnqjKptoda/arcgis/rest/services/Current_Bus_Stops_for_Interactive_Routes_app/FeatureServer"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Kansas central and mountain time, Kearny County change.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Kansas State Department of Education standard, course or graduation requirement: KSDE returned Request Rejected on 17 October 2026 and was not retried around; nothing from KSDE is printed.",
+      "A 2024-25 Kansas access figure: the Code.org trend tab has none; 2023-24 is the latest printed.",
+      "A list of Kansas counties on Mountain Time: the tzdb text says only far western Kansas, so no county list is printed beyond the Kearny County note.",
+      "Names of the six Regents universities and the listed community colleges: not printed; individual institutions are not named.",
+      "Code.org Graduation, Geography, Gender and Race tabs and the Code.org state policy summaries: not used.",
+      "Bus stop names near health facilities and any address field: not printed.",
+      "That our classes earn Kansas school credit or meet any Kansas requirement: refused.",
+      "Any affiliation with KSDE, the Kansas Board of Regents, the City of Lawrence, Code.org or the College Board."
+    ]
   }
 }
