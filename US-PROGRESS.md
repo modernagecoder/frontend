@@ -284,7 +284,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 126 | best-coding-classes-for-kids-in-philadelphia (bkp, #944B56) | metro | 3,091 | 1.9% vs ai-and-python-classes-for-teens-in-san-francisco-bay-area | phase 5 | binning dates into decades, and deciding what to do with blank values | 0a27b255 |
 | 127 | online-coding-and-ai-classes-in-atlanta (aiat, #662E2E) | metro | 3,425 | 1.6% vs ai-and-python-classes-for-teens-in-austin-texas | phase 5 | sorting, top-N and mean versus median on a skewed distribution | 63fd4afc |
 | 128 | ai-and-python-classes-for-teens-in-miami (aptm, #4A648A) | metro | 3,261 | 2.4% vs ai-and-python-classes-for-teens-in-san-francisco-bay-area | phase 5 | haversine distance and nearest-neighbour search on point data | 8fb415b0 |
-| 129 | best-coding-classes-for-kids-in-orlando (bko, #242280) | metro | 3,510 | 2.1% vs best-coding-classes-for-kids-in-san-jose | phase 5 | binning dates by decade into a histogram (and what an unfinished bin means) | (this commit) |
+| 129 | best-coding-classes-for-kids-in-orlando (bko, #242280) | metro | 3,510 | 2.1% vs best-coding-classes-for-kids-in-san-jose | phase 5 | binning dates by decade into a histogram (and what an unfinished bin means) | 1c3bdf05 |
+| 130 | online-coding-and-ai-classes-in-phoenix (aip, #9E3454) | metro | 3,476 | 1.7% vs best-coding-classes-for-kids-in-houston | phase 5 | wide yes/no tables, counting across columns, and why a blank is not a No | (this commit) |
 
 ## Skipped
 

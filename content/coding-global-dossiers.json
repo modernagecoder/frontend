@@ -54002,5 +54002,63 @@
       "The Lake Eola \"Top 5\" ranking: a third-party award, not repeated.",
       "Any affiliation with the City of Orlando, Orange County, Code.org or the College Board."
     ]
+  },
+  "online-coding-and-ai-classes-in-phoenix": {
+    "market": "Phoenix",
+    "bodyClass": "cg-aip",
+    "pageType": "city",
+    "curriculumAuthority": "Arizona, read raw on 17 and 18 October 2026: A.R.S. 15-701.01 (a governing board may approve a rigorous CS course to fulfill a required mathematics course, with significant mathematics content and sufficient capacity, infrastructure and qualified staff); Code.org (2025) State of AI + CS Education raw sheet, Access tabs (AZ 2023-2024, 278 of 643, 43.2%; 38% 2019-20, 36% 2020-21); IANA tzdb America/Phoenix (Arizona Laws 1968, ch. 183, effective 1968-03-21, repealed DST; MST since). azed.gov returned 403, not used.",
+    "localProject": "City of Phoenix Parks Boundaries open data (phoenixopendata.com, Creative Commons Attribution, subject to the City Terms of Use), downloaded 17 October 2026: 254 records (Flatland Park 188, Non-Park 29, Specialty Area 19, Natural Area 17); Yes counts PLAYGROUND 162, SHADE_STRUCTURES 146, SWIMMING_POOL 29, RECREATION_COMMUNITY_CENTER 33, SPLASH_PADS 14; our amenity score top 15 of 22; 48 records blank in all 21 amenity columns; cross-check against the parks page (29 pools and 33 centers match; 6 Golf Course records against eight). Lesson family: wide yes/no tables and blanks that are not No.",
+    "requiredMentions": [
+      "Arizona Laws 1968, ch. 183",
+      "Arizona keeps Mountain Standard Time all year",
+      "Revised Statutes 15-701.01",
+      "Pecos Park, Encanto Park, Desert West Park and Aguila Park",
+      "254 records",
+      "48 records are blank in all 21 amenity columns",
+      "More than 41,000 acres",
+      "16 branch libraries, Burton Barr Central Library and a Bookmobile",
+      "222 acres",
+      "Nearly 2 million books, DVDs, CDs and video games",
+      "only 6 records carry the Golf Course park type"
+    ],
+    "sources": [
+      {
+        "claim": "City of Phoenix Parks and Recreation: acres, trails, 187 parks, 33 centers, eight golf courses, 29 pools, Encanto Park 222 acres.",
+        "url": "https://www.phoenix.gov/administration/departments/parks.html"
+      },
+      {
+        "claim": "City of Phoenix, Phoenix Public Library: 16 branches, Burton Barr Central Library, Bookmobile, collection size.",
+        "url": "https://www.phoenix.gov/administration/departments/library.html"
+      },
+      {
+        "claim": "City of Phoenix open data: Parks Boundaries dataset and licence.",
+        "url": "https://www.phoenixopendata.com/dataset/parks-boundaries"
+      },
+      {
+        "claim": "City of Phoenix Parks Boundaries map service layer.",
+        "url": "https://maps.phoenix.gov/pub/rest/services/Public/ParksOpenData/MapServer/10"
+      },
+      {
+        "claim": "Arizona Revised Statutes 15-701.01: computer science course may fulfill a mathematics graduation course.",
+        "url": "https://www.azleg.gov/ars/15/00701-01.htm"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Arizona access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Arizona DST repeal and America/Phoenix.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Arizona Department of Education standards and guidance: azed.gov returned 403 to every request, not retried; nothing quoted.",
+      "Code.org rural, suburban, gender and race figures for Arizona: not used.",
+      "Navajo Nation daylight saving detail from the tzdb comments: not needed for Phoenix, left out.",
+      "Official park counts beyond the parks page: the page prints our counts of the layer, labelled as ours.",
+      "That our classes earn Arizona graduation credit: refused; only district-approved courses do.",
+      "Any affiliation with the City of Phoenix, Phoenix Public Library, the Arizona Department of Education, Code.org or the College Board."
+    ]
   }
 }
