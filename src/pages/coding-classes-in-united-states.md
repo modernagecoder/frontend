@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Los Angeles](/online-coding-and-ai-classes-in-los-angeles)
 - [New York City](/best-coding-classes-for-kids-in-new-york-city)
 - [Washington, DC](/coding-and-ai-classes-in-washington-dc)
 - [Wyoming](/coding-and-ai-classes-in-wyoming)

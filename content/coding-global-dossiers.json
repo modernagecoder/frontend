@@ -53234,5 +53234,52 @@
       "Any ranking of coding classes in New York City: none exists that we could verify, and none is claimed.",
       "Any affiliation with NYC Parks, the City of New York, NYSED or Code.org."
     ]
+  },
+  "online-coding-and-ai-classes-in-los-angeles": {
+    "market": "Los Angeles",
+    "bodyClass": "cg-ala",
+    "pageType": "city",
+    "curriculumAuthority": "California, 18 October 2026: cde.ca.gov redirected to a WAF alert page and leginfo.legislature.ca.gov returned 403, so no state rule is quoted; Code.org (2025) Most Recent Access Data CA 1,325 of 2,282 high schools, source School Course Catalogs and Teacher Surveys, year label inconsistent between tabs so no year printed. IANA America/Los_Angeles and the US DST rule.",
+    "localProject": "Los Angeles Open Data, Parks (4jt3-efvk, Department of Recreation and Parks, CC0, quarterly), 566 polygons downloaded 18 October 2026; our shoelace areas in acres assuming state plane feet: mean 33.77, median 3.46, 166 under one acre, 31 over 100, Griffith Park about 4,574, Sepulveda Basin about 1,539, Hansen Dam about 1,450. Facility and Park Information (ax8j-dhzm, 2015): 986 entries, 387 parks, 156 recreation centers, 76 public computer centers. LAPL: 73 locations. All computed values ours. Lesson family: area from polygon coordinates, then mean versus median on skewed data.",
+    "requiredMentions": [
+      "566 park boundaries",
+      "33.77 acres",
+      "3.46 acres",
+      "about 4,574 acres",
+      "Sepulveda Basin Recreation Area",
+      "76 public computer centers",
+      "986 entries",
+      "Dividing square feet by 43,560",
+      "Hansen Dam Recreation Area"
+    ],
+    "sources": [
+      {
+        "claim": "Los Angeles Open Data: Parks (4jt3-efvk) metadata, licence, refresh rate, and records.",
+        "url": "https://data.lacity.org/api/views/4jt3-efvk.json"
+      },
+      {
+        "claim": "Los Angeles Open Data: Department of Recreation and Parks Facility and Park Information (ax8j-dhzm).",
+        "url": "https://data.lacity.org/api/views/ax8j-dhzm.json"
+      },
+      {
+        "claim": "Los Angeles Public Library: 73 locations.",
+        "url": "https://www.lapl.org/branches"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: California high school access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb: America/Los_Angeles and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "California state CS rules: cde.ca.gov (WAF redirect) and leginfo.legislature.ca.gov (403) could not be read; not retried, nothing quoted.",
+      "A school year for the California Code.org figure: the two tabs disagree, so none is printed.",
+      "Official park acreage: not read (laparks.org returned 403); only our computed areas are printed, labelled approximate.",
+      "Park polygons whose names refer to school joint-use sites: not named on the page.",
+      "Any affiliation with the City of Los Angeles, its Department of Recreation and Parks, LAPL or Code.org."
+    ]
   }
 }
