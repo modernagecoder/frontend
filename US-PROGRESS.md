@@ -265,7 +265,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 102 | coding-and-ai-classes-in-vermont (av, #1C354C) | state | 3,201 | 1.9% vs coding-and-ai-classes-in-south-dakota | phase 4 | text cleaning and normalization of names (strip, tokenize, standardize), then co | 8926cf0e |
 | 105 | coding-and-ai-classes-in-west-virginia (awv, #943543) | state | 3,691 | 1.9% vs coding-and-ai-classes-in-oklahoma | phase 4 | percentages, rounding and denominators (why rounded parts do not add to 100, and | 5037df91 |
 | 106 | coding-and-ai-classes-in-wisconsin (aw, #855944) | state | 3,115 | 2.4% vs coding-and-ai-classes-in-ohio | phase 4 | percent share, choosing the denominator, and pie versus bar charts | 421de09b |
-| 107 | coding-and-ai-classes-in-wyoming (aiw, #29458A) | state | 3,374 | 2.5% vs coding-and-ai-classes-in-utah | phase 4 | mean versus median, skew and outliers | (this commit) |
+| 107 | coding-and-ai-classes-in-wyoming (aiw, #29458A) | state | 3,374 | 2.5% vs coding-and-ai-classes-in-utah | phase 4 | mean versus median, skew and outliers | 05564710 |
+| 108 | coding-and-ai-classes-in-washington-dc (awd, #382A6B) | state | 3,452 | 1.7% vs coding-and-ai-classes-in-michigan | phase 4 | filter on a label, then describe a distribution (mean, median, mode), and tell a | (this commit) |
 
 ## Skipped
 

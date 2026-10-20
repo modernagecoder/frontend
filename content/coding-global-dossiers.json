@@ -53101,5 +53101,62 @@
       "An official Green River urban forest figure: the layer carries no licence or warranty; only our labelled statistics appear.",
       "That our classes earn Wyoming credit, and any affiliation with the Wyoming Department of Education, the Legislature, the City of Green River, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-washington-dc": {
+    "market": "Washington, DC",
+    "bodyClass": "cg-awd",
+    "pageType": "city",
+    "curriculumAuthority": "District of Columbia, read raw 17 and 18 October 2026. osse.dc.gov treated as blocked after a 403 on its search path; nothing from it used. DC State Board of Education letter to OSSE, May 29, 2026 (Board approves requirements recommended by OSSE, D.C. Code 38-2652(a); draft shared September 30, 2025; mathematics 4.0 with Integrated Math III; science not reduced to 3.0; 0.5 credits financial literacy; elective credit through OSSE-approved out-of-school-time programs; vote planned August 19, 2026; no mention of computer science). SBOE task force final report, May 2026 (met October 2025 through April 2026, eight meetings, three engagement sessions, survey of 157; out-of-school elective credit 8 for, 6 against, 1 abstention; no mention of computer science). Code.org (2025) access 20%, 41%, 37%, 45%, dash, 53.5%, 60% (27 of 45, catalogs and teacher surveys); no participation data. College Board AP schools 53 and 56; public 33 and 38; non-public 20 and 18. IANA America/New_York.",
+    "localProject": "DC GIS Capital Bikeshare Locations (CC BY 4.0), 868 rows downloaded 18 October 2026, count verified. REGION_NAME counts (Washington, DC 397; Arlington 111; Fairfax 106; Alexandria 71; Montgomery South 56; DCA-CABI 56; Prince George's 38; Montgomery North 23; Falls Church 10). Ours for the 397 DC rows: 8,054 docks, mean 20.3, median 19, mode 19 at 112 stations, largest Columbus Circle / Union Station 55; snapshot 3,353 bikes available and 21 empty stations; modification stamp 01:37 UTC October 18, 2026. Lesson family: filter on a label, describe a distribution, tell a snapshot from a fixed attribute.",
+    "requiredMentions": [
+      "27 of 45",
+      "school course catalogs and teacher surveys",
+      "53.5%",
+      "September 30, 2025",
+      "0.5 credits of financial literacy",
+      "eight votes in favor, six against and one abstention",
+      "157 respondents",
+      "August 19, 2026",
+      "868 rows",
+      "8,054 docks",
+      "DCA-CABI"
+    ],
+    "sources": [
+      {
+        "claim": "DC State Board of Education: letter to OSSE on draft revisions to high school graduation requirements, May 29, 2026.",
+        "url": "https://sboe.dc.gov/release/sboe-shares-letter-osse-proposed-revisions-high-school-graduation-requirements"
+      },
+      {
+        "claim": "DC State Board of Education: High School Graduation Requirements Task Force final report, May 2026.",
+        "url": "https://sboe.dc.gov/sites/default/files/dc/sites/sboe/documents/2026-05-05_GraduationTaskForceRecommendations_FINALREPORT2.pdf"
+      },
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: District of Columbia access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "DC GIS: Capital Bikeshare Locations layer, CC BY 4.0.",
+        "url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Transportation_Bikes_Trails_WebMercator/MapServer/5"
+      },
+      {
+        "claim": "IANA tzdb northamerica and zone1970.tab: US rule and America/New_York.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Anything from osse.dc.gov: a 403 on its search path on 17 October 2026 ended requests to that host; no OSSE standards, course or requirement pages are quoted.",
+      "That DC has no CS graduation requirement: not asserted; only that the two State Board documents read do not mention computer science.",
+      "The outcome of the August 19, 2026 State Board vote: not read; not reported.",
+      "The task force report sentence dating its meetings to \"April 2025\": a typo against its own \"October 2025 through April 2026\"; the latter is used.",
+      "Any DC participation figure: the sheet shows a dash in every year; no estimate printed.",
+      "The meaning of the DCA-CABI region label: unknown; posed as a question.",
+      "That our classes earn credit under the out-of-school proposal: refused; we are not an OSSE-approved program.",
+      "Code.org geography, size, gender or race tabs and the Code.org state narrative: not used.",
+      "Any affiliation with OSSE, the DC State Board of Education, DC GIS, Capital Bikeshare, Code.org or the College Board."
+    ]
   }
 }

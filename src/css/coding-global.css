@@ -1769,3 +1769,4 @@
 .cg-root.cg-awv  { --cg-accent: #943543; --cg-accent-soft: rgba(148,53,67,.10); }   /* West Virginia: a muted rhododendron red, #943543, allocated in alloc.tsv for row 105, deep enough to keep body-text contrast on the paper */
 .cg-root.cg-aw  { --cg-accent: #855944; --cg-accent-soft: rgba(133,89,68,.10); }   /* Wisconsin: #855944, a warm aged-cheddar rind brown, allocated in alloc.tsv row 106 and checked by the build for 4.5:1 contrast on every paper */
 .cg-root.cg-aiw  { --cg-accent: #29458A; --cg-accent-soft: rgba(41,69,138,.10); }   /* Wyoming: #29458A, a high-plains sky blue, allocated in alloc.tsv row 107 and checked by the build for 4.5:1 contrast on every paper */
+.cg-root.cg-awd  { --cg-accent: #382A6B; --cg-accent-soft: rgba(56,42,107,.10); }   /* Washington, DC: a muted dusk violet, #382A6B, allocated in alloc.tsv for row 108, dark enough to hold text contrast on the paper */
