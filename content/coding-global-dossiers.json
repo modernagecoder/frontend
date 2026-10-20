@@ -52518,5 +52518,73 @@
       "Library names, addresses, salaries, revenue and fines fields: not used.",
       "That our classes earn Oregon credit, and any affiliation with ODE, the State Library of Oregon, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-pennsylvania": {
+    "market": "Pennsylvania",
+    "bodyClass": "cg-ap",
+    "pageType": "city",
+    "curriculumAuthority": "Pennsylvania, read raw on 17 October 2026: PDE Statewide High School Graduation Requirements (class of 2023, five Pathways to Graduation, Keystone Exams in Algebra I, Literature, and Biology; no statewide CS course); 22 Pa. Code 4.12 (standards effective July 1, 2025: integrated K-5 set, integrated 6-12 science set, Technology and Engineering 6-12 with four core disciplinary standards and bands 6-8 and 9-12); PDE STEM in PA (computational thinking, nine STEM ecosystems); PDE Keystone STEM Competition (free, one day, grades 5-12, teams up to five, 29 Intermediate Units); PDE AI in K-12 Education (two quoted cautions); Code.org (2025) access trend 59% to 78%, 530 of 684 in 2023-24, participation 5.3%, 5.4%, 5.9%, 3.53%, 19,506 of 551,996; College Board AP schools 770 and 771 (public 585 and 601, non-public 185 and 170); IANA America/New_York.",
+    "localProject": "WPRDC City of Pittsburgh Steps (CC BY, City of Pittsburgh), fetched 17 October 2026: 1,134 records (datastore total matched), 80 neighborhoods; our counts South Side Slopes 109, Mount Washington 54, Perry North 48; Concrete 858, Wood 121, Stone 85; step count filled 1,022, blank 112, zero 16; 113 with 100 or more steps, 11 with 200 or more; most 378 steps (Ray Ave, Brookline); dictionary lists 17 fields and omits number_of_steps. Lesson family: filtering, counting by category, missing values, reading documentation.",
+    "requiredMentions": [
+      "530 of 684",
+      "19,506 of 551,996",
+      "five Pathways to Graduation",
+      "Algebra I, Literature, and Biology",
+      "July 1, 2025",
+      "29 Intermediate Units",
+      "1,134 records",
+      "378 steps",
+      "Do not use AI as a final source of facts.",
+      "770, then 771",
+      "nine nationally recognized STEM ecosystems"
+    ],
+    "sources": [
+      {
+        "claim": "PDE: Statewide High School Graduation Requirements, Keystone Exams and five Pathways to Graduation.",
+        "url": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/assessment-and-accountability/graduation-requirements"
+      },
+      {
+        "claim": "22 Pa. Code 4.12, academic standards effective July 1, 2025.",
+        "url": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/022/chapter4/s4.12.html"
+      },
+      {
+        "claim": "PDE: STEM in PA, computational thinking and nine STEM ecosystems.",
+        "url": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/stem-in-pa"
+      },
+      {
+        "claim": "PDE: Keystone STEM Competition.",
+        "url": "https://www.pa.gov/agencies/education/programs-and-services/instruction/elementary-and-secondary-education/stem-in-pa/keystone-stem-competition"
+      },
+      {
+        "claim": "PDE: AI in K-12 Education guidance.",
+        "url": "https://www.pa.gov/agencies/education/ai-digital-media-literacy/ai-in-k-12-education"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: PA access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "WPRDC: City of Pittsburgh Steps (CC BY).",
+        "url": "https://data.wprdc.org/dataset/city-steps"
+      },
+      {
+        "claim": "IANA tzdb northamerica: US rule and America/New_York.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "PDE STEM page job counts and computing salary figures: money and job claims are out of scope, not used.",
+      "A Pennsylvania K-12 computer science standards adoption year: not found on a PDE page that could be read raw, so not printed.",
+      "A cause for the drop in participation from 5.9% to 3.53%: the source gives none, so none is offered.",
+      "Code.org 2024-25 access for Pennsylvania: the trend tab shows no value, so no figure is printed.",
+      "Code.org state summary narrative, gender, geography and school-size figures: not used.",
+      "Installed dates in the steps data: sparse and possibly placeholders, not used.",
+      "That our classes satisfy any Pennsylvania graduation requirement: refused.",
+      "Any affiliation with PDE, the Keystone STEM Competition, WPRDC, the City of Pittsburgh, Code.org or the College Board."
+    ]
   }
 }
