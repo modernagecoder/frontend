@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Atlanta](/online-coding-and-ai-classes-in-atlanta)
 - [Philadelphia](/best-coding-classes-for-kids-in-philadelphia)
 - [Boston, Massachusetts](/ai-and-python-classes-for-teens-in-boston-massachusetts)
 - [Seattle](/online-coding-and-ai-classes-in-seattle)

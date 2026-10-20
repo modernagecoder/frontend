@@ -53851,5 +53851,52 @@
       "Any ranking of Philadelphia coding classes: none verified, none claimed.",
       "Any affiliation with the City of Philadelphia, Creative Philadelphia, PDE or Code.org."
     ]
+  },
+  "online-coding-and-ai-classes-in-atlanta": {
+    "market": "Atlanta",
+    "bodyClass": "cg-aiat",
+    "pageType": "city",
+    "curriculumAuthority": "Georgia, read 17 to 18 October 2026: Code.org (2025) State of AI + CS Education raw sheet, Most Recent Access Data GA 2024-2025, 399 of 495 (80.6%), state education agency; GA 2018-2019 access 52%; Code.org policy toggles for Georgia (no graduation requirement, can count, required to offer). Georgia DOE (gadoe.org) did not connect, so no department text is quoted. IANA America/New_York and the US DST rule.",
+    "localProject": "City of Atlanta parks layer (gis.atlantaga.gov OpenDataService1 layer 26; Open Data Hub site licence CC-BY-SA), downloaded 17 October 2026: 373 records, 362 with GIS_AC; our results mean 9.84 acres, median 0.995 acres, 181 under 1 acre, 257 under 5, ten largest hold 43.6% of summed acres; Chastain Memorial Park 249.91 largest; county label variants; 121 records with a playground. Lesson family: sorting, top-N and mean versus median.",
+    "requiredMentions": [
+      "0.995 acres",
+      "9.84 acres",
+      "Chastain Memorial Park",
+      "43.6%",
+      "Records under 1 acre",
+      "lettered A to Z, with no U",
+      "Records under 5 acres",
+      "MARTA rail stations",
+      "CC-BY-SA",
+      "121 records have at least one playground listed",
+      "Southside Park"
+    ],
+    "sources": [
+      {
+        "claim": "City of Atlanta GIS OpenDataService1: parks, council districts, NPUs, neighborhoods, historic, MARTA rail, bike share and trail layers.",
+        "url": "https://gis.atlantaga.gov/dpcd/rest/services/OpenDataService1/MapServer"
+      },
+      {
+        "claim": "City of Atlanta Open Data Hub: Official City of Atlanta Parks item and site licence.",
+        "url": "https://dpcd-coaplangis.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Code.org (2025), 2025 State of AI + CS Education data: Georgia access.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/New_York and the US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any wording from the Georgia Department of Education: gadoe.org did not connect on 17 and 18 October 2026.",
+      "Facts from www.atlantaga.gov: Access Denied (403) on 17 October 2026, not retried.",
+      "The city&rsquo;s official total park acreage: not read; the page prints only our sums and summaries, labelled as ours.",
+      "Meanings of the parks CLASS codes: not documented in the layer, so not interpreted.",
+      "An item-level licence for the parks layer: its licence field is blank, so only the Open Data Hub site-wide CC BY-SA statement is cited.",
+      "Census income or any school names for Atlanta: not used.",
+      "Any affiliation with the City of Atlanta, MARTA, Code.org or the College Board."
+    ]
   }
 }

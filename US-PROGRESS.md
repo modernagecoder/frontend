@@ -281,7 +281,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 123 | best-coding-classes-for-kids-in-chicago (bek, #61270F) | metro | 3,129 | 2% vs best-coding-classes-for-kids-in-houston | phase 5 | group-by and counting with overlapping groups (by ID, by name, by line) | 478d3535 |
 | 124 | online-coding-and-ai-classes-in-seattle (as, #495280) | metro | 2,776 | 2% vs online-coding-and-ai-classes-in-dallas-fort-worth | phase 5 | joining two tables on a key (inner vs left join, orphan rows) | baf033ce |
 | 125 | ai-and-python-classes-for-teens-in-boston-massachusetts (aptb, #52429E) | metro | 3,018 | 2.4% vs ai-and-python-classes-for-teens-in-austin-texas | phase 5 | top-N ranking (sorting text vs numbers, ties at the cut-off, duplicate records) | 743beb6f |
-| 126 | best-coding-classes-for-kids-in-philadelphia (bkp, #944B56) | metro | 3,091 | 1.9% vs ai-and-python-classes-for-teens-in-san-francisco-bay-area | phase 5 | binning dates into decades, and deciding what to do with blank values | (this commit) |
+| 126 | best-coding-classes-for-kids-in-philadelphia (bkp, #944B56) | metro | 3,091 | 1.9% vs ai-and-python-classes-for-teens-in-san-francisco-bay-area | phase 5 | binning dates into decades, and deciding what to do with blank values | 0a27b255 |
+| 127 | online-coding-and-ai-classes-in-atlanta (aiat, #662E2E) | metro | 3,425 | 1.6% vs ai-and-python-classes-for-teens-in-austin-texas | phase 5 | sorting, top-N and mean versus median on a skewed distribution | (this commit) |
 
 ## Skipped
 

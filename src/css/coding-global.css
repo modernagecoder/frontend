@@ -1785,3 +1785,4 @@
 .cg-root.cg-as  { --cg-accent: #495280; --cg-accent-soft: rgba(73,82,128,.10); }   /* Seattle: a muted Puget Sound slate #495280 from the allocation table, contrast 7.07 on the paper and 6.08 on the deepest tint */
 .cg-root.cg-aptb  { --cg-accent: #52429E; --cg-accent-soft: rgba(82,66,158,.10); }   /* Boston, Massachusetts: a muted harbour violet #52429E from the allocation table, contrast 7.53 on the paper and 6.48 on the deepest tint */
 .cg-root.cg-bkp  { --cg-accent: #944B56; --cg-accent-soft: rgba(148,75,86,.10); }   /* Philadelphia: #944B56, the allocated dusty brick rose, warm like old Philadelphia rowhouse brick, distinct from the New York burgundy and readable on every paper */
+.cg-root.cg-aiat  { --cg-accent: #662E2E; --cg-accent-soft: rgba(102,46,46,.10); }   /* Atlanta: #662E2E, a dark Georgia red-clay brown from the allocation table, chosen to sit apart from the other US accents and readable on every paper colour */
