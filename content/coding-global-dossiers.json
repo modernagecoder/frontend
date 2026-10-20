@@ -53050,5 +53050,56 @@
       "Park names and addresses: counts by type only.",
       "That our classes earn Wisconsin credit, and any affiliation with the Wisconsin DPI, the City of Madison, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-wyoming": {
+    "market": "Wyoming",
+    "bodyClass": "cg-aiw",
+    "pageType": "city",
+    "curriculumAuthority": "Wyoming, read raw on 18 October 2026: Wyoming Department of Education 403 (blocked), so Wyoming Statutes Title 21 from wyoleg.gov: W.S. 21-2-304 (4 English, 3 math, 3 science with one year satisfiable by computer science, 3 social studies; passing grades or competency-based equivalency examinations); W.S. 21-9-101 (computer science in the common core of knowledge; computational thinking and computer applications in the common core of skills; grades one to eight emphasis); W.S. 21-16-1307 success curriculum (additional math or computer science course; Computer science I; no double counting; graduates from 2019-2020); Code.org (2025) (access 36% to 74.5% to 64.1%, 59 of 92; participation 6.6%, 4.0%, 8.6%, 6.65%, 1,938 of 29,151; national 60% and 6.1%); College Board AP 35/41, public 31/38, non-public 4/3; IANA Mountain list.",
+    "localProject": "City of Green River GreenRiverTrees public layer (no licence text; city maps: no warranty of fitness implied), fetched 18 October 2026: 2,121 records; 2,045 not archived; 2,029 with DBH: mean 10.47, median 8, mean 9.28 without the largest 5%, 63 at 30 or more; Populus mean 15.3 median 10 max 52; Ulmus 19.9 and 20; Malus 6.7 and 6.0; Picea 15.3 and 16; DBH_Range 6-12in 709. All ours. Lesson family: mean versus median, skew, outliers.",
+    "requiredMentions": [
+      "W.S. 21-2-304",
+      "W.S. 21-9-101",
+      "W.S. 21-16-1307",
+      "one of the science years may be satisfied by one year of computer science",
+      "Computer science I",
+      "59 of 92",
+      "1,938 of 29,151",
+      "2,121",
+      "10.47",
+      "9.28",
+      "Populus"
+    ],
+    "sources": [
+      {
+        "claim": "Wyoming Statutes Title 21: W.S. 21-2-304, 21-9-101, 21-16-1307 (Wyoming Legislature).",
+        "url": "https://wyoleg.gov/statutes/compress/title21.pdf"
+      },
+      {
+        "claim": "Code.org (2025), State of AI + CS Education data: Wyoming and national access and participation.",
+        "url": "https://advocacy.code.org/report-data/"
+      },
+      {
+        "claim": "College Board: School Report of AP Exams by State, 2023-24.",
+        "url": "https://reports.collegeboard.org/media/xlsx/school-report-of-ap-exams-by-state-2023-24.xlsx"
+      },
+      {
+        "claim": "City of Green River: GreenRiverTrees public layer.",
+        "url": "https://services7.arcgis.com/KuLOZPy3lKDA07LB/arcgis/rest/services/GreenRiverTrees_ViewLayer_NonEditable/FeatureServer/0"
+      },
+      {
+        "claim": "IANA tzdb northamerica: Wyoming in the Mountain list, US daylight saving rule.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Wyoming Department of Education pages (standards adoption year, course lists): edu.wyoming.gov returned 403; only statute text is used.",
+      "Scholarship names, award amounts and eligibility outcomes: money content, not printed; only the curriculum rules are quoted.",
+      "Any cause for the fall from 74.5% to 64.1% access: not stated by the source; only the small-denominator arithmetic is noted.",
+      "City of Casper parks data: maps.casperwy.gov returned a geo-IP block page, not retried, not used.",
+      "Tree condition, damage and inventory-status fields, addresses and locations: not used; counts and diameters only.",
+      "An official Green River urban forest figure: the layer carries no licence or warranty; only our labelled statistics appear.",
+      "That our classes earn Wyoming credit, and any affiliation with the Wyoming Department of Education, the Legislature, the City of Green River, Code.org or the College Board."
+    ]
   }
 }
