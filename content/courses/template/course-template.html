@@ -61,7 +61,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20261021c">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20261021e">
     <link rel="stylesheet" href="/css/moments-strip.css?v=20260928a">
     <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
@@ -398,7 +398,7 @@
         </section>
 
         <!-- Enhanced Course Tabs Section -->
-        <section class="course-tabs-section">
+        <section class="course-tabs-section" id="syllabus">
             <div class="course-tabs-wrapper">
                 <div class="course-tabs-container">
                     <button class="course-tab-button active" data-target="#curriculum-tab">Complete Curriculum</button>
@@ -629,6 +629,32 @@
                 {{FINAL_CONTACT_LINE}}
             </div>
         </section>
+
+        <!-- Floating curriculum (owner 2026-10-21): download the PDF from anywhere
+             on the page. Desktop: a card on the left edge; phones: a pill bottom-left,
+             above the sticky Demo/Enrol bar. download-curriculum.js binds it through
+             [data-download-curriculum]. Shown once the hero's own download button
+             has scrolled away, so the two never sit on screen together.
+             Styles: .cd-float-curr in course-detail-redesign.css -->
+        <div class="cd-float-curr" id="cdFloatCurr" aria-label="Course curriculum">
+            <button type="button" class="cd-float-dl" data-download-curriculum aria-label="Download the full course curriculum as a PDF">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span class="dl-label">Download curriculum</span>
+                <small>Free PDF</small>
+            </button>
+            <a class="cd-float-syl" href="#syllabus">See syllabus</a>
+        </div>
+        <script>
+        (function () {
+            var f = document.getElementById('cdFloatCurr');
+            var hero = document.getElementById('downloadCurriculumBtn');
+            if (!f) return;
+            if (!hero || !('IntersectionObserver' in window)) { f.classList.add('is-on'); return; }
+            new IntersectionObserver(function (es) {
+                f.classList.toggle('is-on', !es[0].isIntersecting);
+            }).observe(hero);
+        })();
+        </script>
 
     </main>
 

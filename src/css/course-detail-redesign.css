@@ -763,3 +763,40 @@ body.editorial .cd-steps-demo .cd-step-action{margin:0}
   body.editorial .cd-step{display:flex;flex-direction:row;align-items:flex-start;gap:.75rem}
   body.editorial .cd-step-n{float:none;margin:0}
 }
+
+/* ─── Floating curriculum download (owner 2026-10-21) ───
+   Desktop (>=1200px): a slim card on the left edge, inside the page gutter.
+   Below that: a pill bottom-left, above the phone sticky Demo/Enrol bar
+   (.mac-sticky-cta, 61px). Hidden until the hero download button scrolls away. */
+.cd-float-curr{position:fixed;z-index:9000;display:flex;flex-direction:column;align-items:stretch;gap:.4rem;
+  opacity:0;visibility:hidden;transition:opacity .25s,transform .25s,visibility .25s}
+.cd-float-curr.is-on{opacity:1;visibility:visible}
+body.mac-pay-open .cd-float-curr{visibility:hidden}
+body.editorial .cd-float-curr button.cd-float-dl{display:flex;flex-direction:column;align-items:center;gap:.3rem;width:100%;margin:0;cursor:pointer;
+  background:var(--amber);color:#fff;border:1px solid var(--amber);border-radius:14px;padding:.85rem .5rem .75rem;font-family:var(--font-body);
+  box-shadow:0 18px 34px -16px rgba(180,83,9,.75);transition:background .2s,transform .2s}
+body.editorial .cd-float-curr button.cd-float-dl:hover{background:var(--amber-deep);transform:translateY(-2px)}
+body.editorial .cd-float-curr button.cd-float-dl:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+body.editorial .cd-float-curr button.cd-float-dl.is-loading{opacity:.75;cursor:progress;transform:none}
+.cd-float-dl svg{width:24px;height:24px;flex:0 0 auto}
+.cd-float-dl .dl-label{font-size:.8rem;font-weight:700;line-height:1.2;text-align:center}
+.cd-float-dl small{font-size:.68rem;font-weight:600;opacity:.88;letter-spacing:.02em}
+body.editorial .cd-float-curr a.cd-float-syl{display:block;text-align:center;padding:.5rem .4rem;border-radius:11px;background:var(--surface);border:1px solid var(--line);
+  color:var(--ink);font-size:.74rem;font-weight:700;text-decoration:none;box-shadow:0 10px 24px -16px rgba(28,24,20,.6)}
+body.editorial .cd-float-curr a.cd-float-syl:hover{border-color:var(--ink)}
+.cd-float-curr .download-curriculum-error{font-size:.7rem;line-height:1.35;color:#9F2D20;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:.35rem .45rem}
+@media (min-width:1200px){
+  .cd-float-curr{left:10px;top:50%;width:96px;transform:translate(-8px,-50%)}
+  .cd-float-curr.is-on{transform:translate(0,-50%)}
+}
+@media (max-width:1199.98px){
+  .cd-float-curr{left:12px;bottom:84px;transform:translateY(8px)}
+  .cd-float-curr.is-on{transform:none}
+  body.editorial .cd-float-curr button.cd-float-dl{flex-direction:row;gap:.45rem;padding:.6rem .95rem .6rem .8rem;border-radius:999px}
+  .cd-float-dl svg{width:19px;height:19px}
+  .cd-float-dl .dl-label{font-size:.82rem}
+  .cd-float-dl small{display:none}
+  body.editorial .cd-float-curr a.cd-float-syl{display:none}
+}
+#syllabus{scroll-margin-top:84px}
+@media print{.cd-float-curr{display:none}}
