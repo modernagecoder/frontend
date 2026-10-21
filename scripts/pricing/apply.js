@@ -287,6 +287,28 @@ function syncCampPages(config) {
 }
 
 /**
+ * "Pay for 6 months at once" sections on hand-made pages (today: /pricing).
+ * Everything between <!-- BEGIN_SIXMONTH --> and <!-- END_SIXMONTH --> is
+ * re-rendered from the config by scripts/lib/six-month.js, the same renderer
+ * the course pages use; verify's checkSixMonth then proves the totals.
+ */
+function syncSixMonthBlocks(config) {
+    const six = require('../lib/six-month.js');
+    const inner = six.renderPricingSection(config);
+    let changed = 0;
+    fs.readdirSync(path.join(ROOT, 'src', 'pages')).forEach(function (f) {
+        if (!/\.html$/.test(f)) return;
+        const p = path.join(ROOT, 'src', 'pages', f);
+        const before = fs.readFileSync(p, 'utf8');
+        if (before.indexOf('<!-- BEGIN_SIXMONTH -->') === -1) return;
+        const s = before.replace(/(<!-- BEGIN_SIXMONTH -->)[\s\S]*?([ \t]*<!-- END_SIXMONTH -->)/,
+            function (_, a, b) { return a + '\n' + inner + b; });
+        if (s !== before) { if (!DRY) fs.writeFileSync(p, s); changed++; }
+    });
+    return changed;
+}
+
+/**
  * School-partnership pages quote the in-school bootcamp fee in one uniform
  * sentence shape: "The <name> Bootcamp/Programme is ₹1999/month". That figure
  * is plans.school.india.group; this keeps it in step with the config.
@@ -491,6 +513,8 @@ function main() {
     if (camps) console.log('\n' + camps + ' holiday-camp page(s) re-synced to the camp fee.');
     const schools = syncSchoolPages(config);
     if (schools) console.log(schools + ' school page(s) re-synced to the bootcamp fee.');
+    const sixBlocks = syncSixMonthBlocks(config);
+    if (sixBlocks) console.log(sixBlocks + ' page(s) with a 6-month section re-rendered.');
 
     // ─── report ───
     if (allChanges.length) {

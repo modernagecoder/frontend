@@ -144,6 +144,7 @@
     <!-- Editorial theme (shared) + Pricing page styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260718a">
     <link rel="stylesheet" href="/css/pricing-redesign.css?v=20260921a">
+    <link rel="stylesheet" href="/css/six-month.css?v=20261022a">
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
@@ -912,6 +913,115 @@
             </div>
         </section>
 
+        <!-- ====== PAY FOR 6 MONTHS AT ONCE (owner 2026-10-22) ======
+             GENERATED: npm run pricing:apply rewrites everything between the two
+             markers from pricing/pricing.config.jsonc via scripts/lib/six-month.js.
+             Do not hand-edit inside them. -->
+        <!-- BEGIN_SIXMONTH -->
+
+        <section class="six-section" id="six-months" aria-labelledby="six-section-title">
+            <div class="six-section-inner">
+                <p class="six-section-eyebrow">Pay for 6 months at once</p>
+                <h2 id="six-section-title" class="six-section-title">Save <span data-india-only="true">20%</span><span data-intl-only="true" hidden>25%</span> when you pay for 6 months together</h2>
+                    <div class="six-grid" data-india-only="true">
+                        <p class="six-lede">Pay once for 6 months and save <b>20%</b> on any coding, maths or AI course that runs 6 months or longer. Same live classes, same mentor, a lower price for every session. Pick a course, then choose <b>Pay 6 months at once</b> on its page.</p>
+                        <div class="six-card">
+                            <span class="six-badge">Save 20%</span>
+                            <h4 class="six-name">Group Classes</h4>
+                            <p class="six-term">6 months &middot; 48 sessions</p>
+                            <div class="six-total">₹7,199</div>
+                            <p class="six-total-note">One payment for all 6 months</p>
+                            <dl class="six-math">
+                                <div><dt>Paying monthly</dt><dd><s>₹1,499 &times; 6 months = ₹8,994</s></dd></div>
+                                <div class="six-math-save"><dt>You save</dt><dd>₹1,795 (20%)</dd></div>
+                                <div><dt>Per session</dt><dd>₹150 <s>₹187</s></dd></div>
+                            </dl>
+                            <p class="six-info">2 sessions a week &middot; 15 to 20 students</p>
+                            <p class="six-refund">Stop early? Every session you have not taken is refunded at ₹150. <a href="/refund#six-month">Refund policy</a></p>
+                            <a href="/courses" class="six-cta" data-plan-type="group" data-billing="sixMonth">Choose a course</a>
+                        </div>
+                        <div class="six-card">
+                            <span class="six-badge">Save 20%</span>
+                            <h4 class="six-name">Mini Batch</h4>
+                            <p class="six-term">6 months &middot; 48 sessions</p>
+                            <div class="six-total">₹14,399</div>
+                            <p class="six-total-note">One payment for all 6 months</p>
+                            <dl class="six-math">
+                                <div><dt>Paying monthly</dt><dd><s>₹2,999 &times; 6 months = ₹17,994</s></dd></div>
+                                <div class="six-math-save"><dt>You save</dt><dd>₹3,595 (20%)</dd></div>
+                                <div><dt>Per session</dt><dd>₹300 <s>₹375</s></dd></div>
+                            </dl>
+                            <p class="six-info">2 sessions a week &middot; Up to 6 students</p>
+                            <p class="six-refund">Stop early? Every session you have not taken is refunded at ₹300. <a href="/refund#six-month">Refund policy</a></p>
+                            <a href="/courses" class="six-cta" data-plan-type="miniBatch" data-billing="sixMonth">Choose a course</a>
+                        </div>
+                        <div class="six-card six-oneone">
+                            <span class="six-badge">Save 20%</span>
+                            <div class="six-oneone-main">
+                                <h4 class="six-name">Personalized 1-on-1</h4>
+                                <p class="six-term">6 months &middot; 24 sessions</p>
+                                <div class="six-total">₹24,000</div>
+                                <p class="six-total-note">One payment for all 6 months</p>
+                                <a href="/courses" class="six-cta" data-plan-type="personal" data-billing="sixMonth">Choose a course</a>
+                            </div>
+                            <div class="six-oneone-side">
+                                <p class="six-eyebrow">How your 6-month price works</p>
+                                <dl class="six-math">
+                                    <div><dt>Sessions</dt><dd>24 one-to-one sessions over 6 months, fully flexible timing</dd></div>
+                                    <div><dt>Price per session</dt><dd><b>₹1,000</b> instead of <s>₹1,250</s></dd></div>
+                                    <div><dt>Your 6-month fee</dt><dd>₹1,000 &times; 24 sessions = <b>₹24,000</b></dd></div>
+                                    <div><dt>Paying monthly instead</dt><dd><s>₹4,999 &times; 6 months = ₹29,994</s></dd></div>
+                                    <div class="six-math-save"><dt>You save</dt><dd>₹5,994 (20%)</dd></div>
+                                </dl>
+                                <p class="six-incl">Everything in the monthly 1-on-1 plan is included: your own mentor, flexible timing, personal dashboard, class recordings, progress reports and parent-teacher meetings.</p>
+                                <p class="six-refund">Stop early? Every session you have not taken is refunded at ₹1,000. <a href="/refund#six-month">Refund policy</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six-grid" data-intl-only="true" hidden>
+                        <p class="six-lede">Pay once for 6 months and save <b>25%</b> on any coding, maths or AI course that runs 6 months or longer. Same live classes, same mentor, a lower price for every session. Pick a course, then choose <b>Pay 6 months at once</b> on its page.</p>
+                        <div class="six-card">
+                            <span class="six-badge">Save 25%</span>
+                            <h4 class="six-name">Group Classes</h4>
+                            <p class="six-term">6 months &middot; 48 sessions</p>
+                            <div class="six-total">$449</div>
+                            <p class="six-total-note">One payment for all 6 months</p>
+                            <dl class="six-math">
+                                <div><dt>Paying monthly</dt><dd><s>$100 &times; 6 months = $600</s></dd></div>
+                                <div class="six-math-save"><dt>You save</dt><dd>$151 (25%)</dd></div>
+                                <div><dt>Per session</dt><dd>$9.35 <s>$12.50</s></dd></div>
+                            </dl>
+                            <p class="six-info">2 sessions a week &middot; 15 to 20 students</p>
+                            <p class="six-refund">Stop early? Every session you have not taken is refunded at $9.35. <a href="/refund#six-month">Refund policy</a></p>
+                            <a href="/courses" class="six-cta" data-plan-type="group" data-billing="sixMonth">Choose a course</a>
+                        </div>
+                        <div class="six-card six-oneone">
+                            <span class="six-badge">Save 25%</span>
+                            <div class="six-oneone-main">
+                                <h4 class="six-name">Personalized 1-on-1</h4>
+                                <p class="six-term">6 months &middot; 48 sessions</p>
+                                <div class="six-total">$672</div>
+                                <p class="six-total-note">One payment for all 6 months</p>
+                                <a href="/courses" class="six-cta" data-plan-type="personal" data-billing="sixMonth">Choose a course</a>
+                            </div>
+                            <div class="six-oneone-side">
+                                <p class="six-eyebrow">How your 6-month price works</p>
+                                <dl class="six-math">
+                                    <div><dt>Sessions</dt><dd>48 one-to-one sessions over 6 months, 2 sessions a week</dd></div>
+                                    <div><dt>Price per session</dt><dd><b>$14</b> instead of <s>$18.75</s></dd></div>
+                                    <div><dt>Your 6-month fee</dt><dd>$14 &times; 48 sessions = <b>$672</b></dd></div>
+                                    <div><dt>Paying monthly instead</dt><dd><s>$150 &times; 6 months = $900</s></dd></div>
+                                    <div class="six-math-save"><dt>You save</dt><dd>$228 (25%)</dd></div>
+                                </dl>
+                                <p class="six-incl">Everything in the monthly 1-on-1 plan is included: your own mentor, flexible timing, personal dashboard, class recordings, progress reports and parent-teacher meetings.</p>
+                                <p class="six-refund">Stop early? Every session you have not taken is refunded at $14. <a href="/refund#six-month">Refund policy</a></p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- END_SIXMONTH -->
+
         <!-- ====== PRIORITY LIVE DEMO BAND (2026-09-21) ======
              Facts from scripts/brand-facts.json (priorityDemo). The button opens the payment form
              through /js/demo-choice.js ([data-pd-book]); without it the link goes to /book-demo.
@@ -941,7 +1051,7 @@
             <div class="pv-risk-inner">
                 <span class="pv-risk-item">Free live demo available, never required</span>
                 <span class="pv-risk-dot" aria-hidden="true"></span>
-                <span class="pv-risk-item">Monthly billing, cancel anytime</span>
+                <span class="pv-risk-item">Monthly billing, cancel anytime, or <a href="#six-months">pay 6 months at once and save</a></span>
                 <span class="pv-risk-dot" aria-hidden="true"></span>
                 <span class="pv-risk-item">No registration fee</span>
                 <a class="pv-risk-link" href="/guarantee">Read our zero-risk promise</a>

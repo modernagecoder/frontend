@@ -155,7 +155,67 @@ Custom Quote
 - Interview preparation
 - Job placement help
 
-[Get Quote](/contact)Priority Live Demo
+[Get Quote](/contact)
+
+Pay for 6 months at once
+
+## Save 20% when you pay for 6 months together
+
+Pay once for 6 months and save **20%** on any coding, maths or AI course that runs 6 months or longer. Same live classes, same mentor, a lower price for every session. Pick a course, then choose **Pay 6 months at once** on its page.
+
+Save 20%
+
+#### Group Classes
+
+6 months · 48 sessions
+
+₹7,199
+
+One payment for all 6 months
+
+Paying monthly₹1,499 × 6 months = ₹8,994You save₹1,795 (20%)Per session₹150 ₹187
+
+2 sessions a week · 15 to 20 students
+
+Stop early? Every session you have not taken is refunded at ₹150. [Refund policy](/refund#six-month)
+
+[Choose a course](/courses)Save 20%
+
+#### Mini Batch
+
+6 months · 48 sessions
+
+₹14,399
+
+One payment for all 6 months
+
+Paying monthly₹2,999 × 6 months = ₹17,994You save₹3,595 (20%)Per session₹300 ₹375
+
+2 sessions a week · Up to 6 students
+
+Stop early? Every session you have not taken is refunded at ₹300. [Refund policy](/refund#six-month)
+
+[Choose a course](/courses)Save 20%
+
+#### Personalized 1-on-1
+
+6 months · 24 sessions
+
+₹24,000
+
+One payment for all 6 months
+
+[Choose a course](/courses)
+
+How your 6-month price works
+
+Sessions24 one-to-one sessions over 6 months, fully flexible timingPrice per session**₹1,000** instead of ₹1,250Your 6-month fee₹1,000 × 24 sessions = **₹24,000**Paying monthly instead₹4,999 × 6 months = ₹29,994You save₹5,994 (20%)
+
+Everything in the monthly 1-on-1 plan is included: your own mentor, flexible timing, personal dashboard, class recordings, progress reports and parent-teacher meetings.
+
+Stop early? Every session you have not taken is refunded at ₹1,000. [Refund policy](/refund#six-month)
+
+Priority Live Demo
 
 ## Not ready to pick a plan? Sit in a full live class first.
 
@@ -169,7 +229,7 @@ One-time fee. No enrolment required. Rated 4.9 across 547 Google reviews.
 2. **A written skill report**After the class the mentor sends a skill report and a personal learning roadmap on WhatsApp.
 3. **Fee adjusted if you enrol**Send us your demo Order ID and we take the demo fee off your first month.
 
-Free live demo available, never requiredMonthly billing, cancel anytimeNo registration fee[Read our zero-risk promise](/guarantee)
+Free live demo available, never requiredMonthly billing, cancel anytime, or pay 6 months at once and saveNo registration fee[Read our zero-risk promise](/guarantee)
 
 ## Why Choose Modern Age Coders?
 

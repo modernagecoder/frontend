@@ -367,9 +367,8 @@ function courseToMarkdown(data) {
 
     body += courseFacts.answersMarkdown(data);
     // Same billing wording as the HTML steps: courses with a 6-month option say so.
-    const PRICING = require('../pricing/lib/config.js');
     body += courseFacts.stepsMarkdown(data, {
-        sixMonth: !!PRICING.sixMonthOffer(PRICING.courseSubject(meta.slug || ''))
+        sixMonth: !!require('./six-month.js').offerForCourse(data)
     });
 
     body += `\n---\n\n## Enroll\n\n`;

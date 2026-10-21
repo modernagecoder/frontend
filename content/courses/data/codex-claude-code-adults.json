@@ -601,10 +601,6 @@
       "answer": "Three plans are available: group classes at ₹1,499 per month, a mini batch of up to 6 students (India only) at ₹2,999 per month, and personalized 1-on-1 mentorship at ₹4,999 per month. Students outside India pay a price set for their own country, shown on this page in their local currency. Billing is monthly, cancel anytime, and you start with a free demo class. The required Claude and ChatGPT subscriptions are purchased separately."
     },
     {
-      "question": "Why is this masterclass priced above your other courses?",
-      "answer": "Because it is a premium program on premium tools, built for return on investment. You learn BOTH frontier agents to professional depth, including the Claude Agent SDK and Codex SDK, from mentors who use them in production daily, on a Living Syllabus updated as OpenAI and Anthropic ship. An automation like the one you build in Class 22, or a week of reclaimed engineering time, can be worth more than the fee itself. Small live batches and a personally reviewed capstone are part of that price."
-    },
-    {
       "question": "Is OpenAI Codex free, and what about Claude Code?",
       "answer": "The Codex CLI and SDK are open-source/free to install; running them uses your ChatGPT plan (Plus/Pro/Business/Edu/Enterprise) or an OpenAI API key. Claude Code runs on a Claude subscription (Pro/Max/Team/Enterprise) or an Anthropic API key. Both moved to token/usage-based limits in 2026. For this masterclass an active plan for each tool is required, and we help you pick the most cost-effective setup for learning and for work."
     },

@@ -593,10 +593,6 @@
       "answer": "Three plans are available: group classes at ₹1,499 per month, a mini batch of up to 6 students (India only) at ₹2,999 per month, and personalized 1-on-1 classes at ₹4,999 per month. Students outside India pay a price set for their own country, shown on this page in their local currency. Billing is monthly and you can stop anytime. Every student starts with a free demo class, and the required Claude and ChatGPT subscriptions are purchased separately."
     },
     {
-      "question": "Why is this course priced higher than other coding courses?",
-      "answer": "Because it is a premium program taught on premium tools. Your teen learns BOTH frontier AI coding agents, live, from mentors who use Codex and Claude Code in real work daily, on a Living Syllabus that is updated as OpenAI and Anthropic ship new features. Small live batches, 24 hands-on deliverables, a deployed capstone with a public URL, and doubt support between classes: that depth is what the fee buys. Very few academies teach these tools at all yet, and fewer still teach both."
-    },
-    {
       "question": "Is OpenAI Codex free?",
       "answer": "The Codex CLI is open-source and free to install, but running it requires a paid plan: you sign in with a ChatGPT subscription (Plus, Pro, Business, Edu, or Enterprise) which includes Codex usage, or you use an OpenAI API key billed per use. In 2026 usage runs on rolling limits that reset every few hours. For this course a ChatGPT plan (Plus or higher) is required, along with a Claude plan (Pro or higher) for the Claude Code half. We help you choose the most student-friendly setup."
     },

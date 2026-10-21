@@ -659,89 +659,6 @@ body.editorial button.cd-dl-btn.is-loading,body.editorial button.cd-dl-btn:disab
 body.editorial button.cd-dl-btn--inline{margin:0 0 1.4rem}
 @media (max-width:600px){body.editorial button.cd-dl-btn{width:100%}}
 
-/* ─── Pay monthly / Pay 6 months at once (owner 2026-10-21) ───
-   CSS-only radio switch: #bill-monthly / #bill-six are siblings BEFORE the
-   .bill-switch and both .bill-panel blocks, so it works with no JS. The
-   6-month cards use .six-* classes, NOT .enrollment-option/.price, because
-   international-pricing.js re-prices those to the monthly figure abroad. */
-.bill{max-width:920px;margin:0 auto 2.4rem}
-.bill-radio{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
-.bill-switch{text-align:center;margin:0 auto 2rem;max-width:720px}
-.bill-q{margin:0 0 .8rem;font-family:var(--font-mono);font-size:.76rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--amber-deep)}
-.bill-tabs{display:grid;grid-template-columns:1fr 1fr;gap:.55rem;background:var(--paper-2);border:1px solid var(--line);border-radius:18px;padding:.5rem}
-.bill-tab{position:relative;display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:1.05rem 1rem .95rem;border-radius:13px;border:1.5px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s,box-shadow .2s;color:var(--ink)}
-.bill-tab:hover{background:var(--surface)}
-.bill-tab-six{border-color:var(--amber);background:#FFF6E6}
-.bill-tab-name{font-family:var(--font-display);font-weight:600;font-size:1.15rem;line-height:1.2}
-.bill-tab-sub{font-size:.82rem;line-height:1.4;color:var(--muted)}
-.bill-save{position:absolute;top:-.75rem;right:.8rem;background:#1F7A4D;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.3rem .7rem;border-radius:40px;white-space:nowrap;box-shadow:0 6px 14px -8px rgba(31,122,77,.9)}
-#bill-monthly:checked ~ .bill-switch .bill-tab-monthly,
-#bill-six:checked ~ .bill-switch .bill-tab-six{background:var(--ink);border-color:var(--ink);color:var(--paper);box-shadow:0 14px 30px -18px rgba(28,24,20,.75)}
-#bill-monthly:checked ~ .bill-switch .bill-tab-monthly .bill-tab-sub,
-#bill-six:checked ~ .bill-switch .bill-tab-six .bill-tab-sub{color:rgba(251,248,242,.78)}
-#bill-monthly:focus-visible ~ .bill-switch .bill-tab-monthly,
-#bill-six:focus-visible ~ .bill-switch .bill-tab-six{outline:3px solid var(--amber);outline-offset:3px}
-#bill-monthly:checked ~ .bill-panel-six,
-#bill-six:checked ~ .bill-panel-monthly{display:none}
-
-.six-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.3rem;align-items:stretch}
-.six-grid[hidden]{display:none !important}
-.six-grid.solo{grid-template-columns:1fr}
-/* Abroad there is no Mini Batch: centre the lone Group card, like the monthly view */
-.six-grid > .six-card:not(.six-oneone):nth-child(2):nth-last-child(2){grid-column:1/-1;justify-self:center;width:100%;max-width:440px}
-.six-lede{grid-column:1/-1;margin:0 auto .4rem;text-align:center;color:var(--muted);max-width:600px;line-height:1.6}
-.six-lede b{color:#1F7A4D}
-.six-card{position:relative;display:flex;flex-direction:column;text-align:center;min-width:0;background:var(--surface);border:1.5px solid var(--amber);border-radius:16px;padding:2rem 1.5rem 1.6rem;box-shadow:0 24px 50px -30px rgba(180,83,9,.45)}
-.six-badge{position:absolute;top:-.8rem;left:50%;transform:translateX(-50%);background:#1F7A4D;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:.34rem .9rem;border-radius:40px;white-space:nowrap}
-.six-name{font-family:var(--font-display);font-weight:600;font-size:1.2rem;color:var(--ink);margin:0 0 .55rem}
-.six-term{align-self:center;margin:0 0 .8rem;padding:.3rem .8rem;border-radius:999px;background:var(--paper-2);font-size:.86rem;font-weight:700;color:var(--ink)}
-.six-total{font-family:var(--font-display);font-weight:600;font-size:2.3rem;line-height:1.05;color:var(--ink)}
-.six-total-note{margin:.3rem 0 0;font-size:.85rem;color:var(--muted)}
-.six-math{margin:1.1rem 0 1rem;padding:0;text-align:left;border-top:1px dashed var(--line)}
-.six-math > div{display:flex;justify-content:space-between;align-items:baseline;gap:.8rem;padding:.5rem 0;border-bottom:1px dashed var(--line)}
-.six-math dt{font-size:.83rem;color:var(--muted);flex:0 0 auto}
-.six-math dd{margin:0;font-size:.88rem;font-weight:600;color:var(--ink);text-align:right}
-.six-math s{color:var(--muted);font-weight:500}
-.six-math-save dt,.six-math-save dd{color:#1F7A4D;font-weight:700}
-.six-math-save dd{font-size:.98rem}
-.six-info{margin:0 0 1.3rem;flex:1;font-size:.86rem;color:var(--muted)}
-
-.six-card.six-oneone{grid-column:1/-1;display:grid;grid-template-columns:minmax(230px,.8fr) 1.5fr;gap:2.2rem;align-items:center;text-align:left;
-  background:var(--ink);color:var(--paper);border-color:var(--ink);padding:2.4rem 2.3rem 2.2rem;margin-top:.6rem;box-shadow:0 34px 64px -36px rgba(28,24,20,.8)}
-.six-oneone .six-badge{left:2.3rem;transform:none}
-.six-oneone-main{display:flex;flex-direction:column}
-.six-oneone .six-name{color:var(--paper);font-size:1.45rem}
-.six-oneone .six-term{align-self:flex-start;background:rgba(251,248,242,.12);color:var(--paper)}
-.six-oneone .six-total{color:#F4B860;font-size:2.6rem}
-.six-oneone .six-total-note{color:rgba(251,248,242,.75);margin-bottom:1.4rem}
-body.editorial .six-oneone .enroll-btn{padding:.95rem 1rem;font-size:1rem;font-weight:700}
-body.editorial .six-oneone .enroll-btn.primary:hover{background:#F4B860;border-color:#F4B860;color:var(--ink)}
-.six-oneone-side{padding-left:2.2rem;border-left:1px solid rgba(251,248,242,.16)}
-.six-eyebrow{margin:0 0 .6rem;font-family:var(--font-mono);font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#F4B860}
-.six-oneone .six-math{margin:0 0 1rem;border-top-color:rgba(251,248,242,.16)}
-.six-oneone .six-math > div{border-bottom-color:rgba(251,248,242,.16)}
-.six-oneone .six-math dt{color:rgba(251,248,242,.7)}
-.six-oneone .six-math dd{color:var(--paper)}
-.six-oneone .six-math s{color:rgba(251,248,242,.55)}
-.six-oneone .six-math-save dt,.six-oneone .six-math-save dd{color:#86D9A8}
-.six-incl{margin:0;font-size:.82rem;line-height:1.55;color:rgba(251,248,242,.7)}
-
-@media (max-width:880px){
-  .six-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto}
-  .six-card.six-oneone{grid-template-columns:1fr;gap:1.4rem;padding:2.2rem 1.4rem 1.6rem}
-  .six-oneone .six-badge{left:1.4rem}
-  .six-oneone .six-total{font-size:2.2rem}
-  .six-oneone-side{padding:1.3rem 0 0;border-left:0;border-top:1px solid rgba(251,248,242,.16)}
-}
-@media (max-width:560px){
-  .bill-tabs{grid-template-columns:1fr;gap:.5rem;padding:.45rem}
-  .bill-tab{padding:1rem .8rem .9rem}
-  .bill-tab-six{margin-top:.5rem}
-  .bill-tab-name{font-size:1.08rem}
-  .six-math > div{flex-direction:column;align-items:flex-start;gap:.1rem}
-  .six-math dd{text-align:left}
-}
-
 /* ─── Fees and enrolment sits DIRECTLY under the hero (owner 2026-10-21) ───
    Steps are four short cards in one row on desktop, then the optional
    Priority Demo as its own strip. The old first-step demo highlight is off. */
@@ -800,8 +717,6 @@ body.editorial .cd-float-curr a.cd-float-syl:hover{border-color:var(--ink)}
 }
 #syllabus{scroll-margin-top:84px}
 @media print{.cd-float-curr{display:none}}
-/* 6-month refund line (owner 2026-10-22: unused sessions are refunded) */
-.six-refund{margin:0 0 1rem;font-size:.8rem;line-height:1.5;color:var(--muted)}
-.six-refund a{color:var(--amber-deep);font-weight:600;text-decoration:underline;text-underline-offset:2px}
-.six-oneone .six-refund{margin:.8rem 0 0;color:rgba(251,248,242,.7)}
-.six-oneone .six-refund a{color:#F4B860}
+/* 6-month cards: the course-only button rules (the rest is in six-month.css) */
+body.editorial .six-oneone .enroll-btn{padding:.95rem 1rem;font-size:1rem;font-weight:700}
+body.editorial .six-oneone .enroll-btn.primary:hover{background:#F4B860;border-color:#F4B860;color:var(--ink)}
