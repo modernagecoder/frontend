@@ -78,7 +78,9 @@
       overlay.addEventListener('click', function (e) {
         if (e.target === overlay && !self._paying) self.close();
       });
-      this._onKey = function (e) { if (e.key === 'Escape' && !self._paying) self.close(); };
+      // An Escape the country picker already handled (closing its list,
+      // preventDefault) must not also close the form being filled in.
+      this._onKey = function (e) { if (e.key === 'Escape' && !e.defaultPrevented && !self._paying) self.close(); };
       document.addEventListener('keydown', this._onKey);
       overlay.querySelector('.mcp-form').addEventListener('submit', function (e) {
         e.preventDefault();
@@ -115,6 +117,31 @@
       btn.disabled = paying;
       var span = btn.querySelector('span');
       if (span) span.textContent = label || this._label;
+    },
+
+    // POST <apiUrl>/api/payment/verify, retried, for both camp scripts. On a
+    // phone the parent is coming back from a UPI app when this runs, and the
+    // first request often meets a network that has not woken up yet, or a
+    // cold server. Verifying twice is harmless (the server emails only
+    // once), so a dropped connection or a 5xx is retried; a 4xx is final.
+    postVerify: function (apiUrl, payload) {
+      var waits = [0, 1500, 4000];
+      function attempt(i) {
+        return new Promise(function (r) { setTimeout(r, waits[i]); }).then(function () {
+          return fetch(apiUrl + '/api/payment/verify', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+        }).then(function (r) {
+          if (r.status >= 500 && i < waits.length - 1) return attempt(i + 1);
+          return r.json();
+        }, function (err) {
+          if (i < waits.length - 1) return attempt(i + 1);
+          throw err;
+        });
+      }
+      return attempt(0);
     },
 
     close: function () {

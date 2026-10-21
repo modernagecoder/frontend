@@ -254,14 +254,19 @@ const SummerCampEnrollment = {
     const pop = window.MACCampPay;
     const { name, email, phone, phoneEl } = v;
 
-    const ccInfo = (window.MACCountryCode && window.MACCountryCode.read)
-      ? window.MACCountryCode.read(phoneEl)
+    // readNational, not read: during this submit the picker has put
+    // "+44 7911123456" in the box for older page scripts, and read() would
+    // hand back 447911123456 (country code twice at checkout).
+    const cc = window.MACCountryCode;
+    const ccInfo = (cc && cc.readNational) ? cc.readNational(phoneEl)
+      : (cc && cc.read) ? cc.read(phoneEl)
       : { dial: '+91', iso: 'IN', name: 'India' };
     const isIndia = ccInfo.iso === 'IN';
+    const phoneDigits = ccInfo.digits !== undefined ? ccInfo.digits : phone.replace(/\D/g, '');
 
     const phoneRegex = isIndia ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
     const phoneMsg = isIndia ? 'Please enter a valid 10-digit mobile number.' : 'Please enter a valid phone number (7 to 15 digits).';
-    if (!phoneRegex.test(phone.replace(/\D/g, ''))) {
+    if (!phoneRegex.test(phoneDigits)) {
       pop.showError(phoneMsg);
       return;
     }
@@ -281,7 +286,7 @@ const SummerCampEnrollment = {
           productName: this.courseName,
           customerName: name,
           customerEmail: email,
-          customerPhone: phone,
+          customerPhone: phoneDigits,
           customerCountryCode: ccInfo.dial,
           customerCountryIso: ccInfo.iso,
           customerCountryName: ccInfo.name
@@ -302,7 +307,8 @@ const SummerCampEnrollment = {
         name: 'Modern Age Coders',
         description: this.courseName,
         order_id: data.order.id,
-        prefill: { name, email, contact: phone },
+        // With the dial code: Razorpay reads a bare number as Indian.
+        prefill: { name, email, contact: ccInfo.dial + phoneDigits },
         theme: { color: '#F4A261' },
         handler: async (response) => {
           await this.verifyPayment(response, data.order.orderId);
@@ -330,18 +336,11 @@ const SummerCampEnrollment = {
     const pop = window.MACCampPay;
     pop.setPaying(true, 'Confirming your payment…');
     try {
-      const apiUrl = this.getApiUrl();
-      const response = await fetch(`${apiUrl}/api/payment/verify`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          razorpay_order_id: razorpayResponse.razorpay_order_id,
-          razorpay_payment_id: razorpayResponse.razorpay_payment_id,
-          razorpay_signature: razorpayResponse.razorpay_signature
-        })
+      const data = await pop.postVerify(this.getApiUrl(), {
+        razorpay_order_id: razorpayResponse.razorpay_order_id,
+        razorpay_payment_id: razorpayResponse.razorpay_payment_id,
+        razorpay_signature: razorpayResponse.razorpay_signature
       });
-
-      const data = await response.json();
 
       if (data.success) {
         pop.close();

@@ -650,8 +650,17 @@
     window.addEventListener('resize', function () {
       if (!isMobileViewport()) closePopover();
     });
-    window.addEventListener('scroll', function () {
-      if (!isMobileViewport()) closePopover();
+    // Only a scroll that moves the flag button (the page, or a box the form
+    // sits in) detaches the list from it. This listener captures EVERY
+    // element's scroll, and course pages keep a carousel scrolling, so it
+    // used to close the list the instant it opened: on a laptop the picker
+    // in the enrolment popup could not be used at all, and scrolling the
+    // country list itself closed it too.
+    window.addEventListener('scroll', function (e) {
+      if (isMobileViewport() || !popoverState) return;
+      var t = e.target;
+      if (t === document || t === document.documentElement || t === document.body ||
+          (t && t.contains && t.contains(popoverState.btn))) closePopover();
     }, true);
     window.addEventListener('orientationchange', closePopover);
 
@@ -1737,6 +1746,23 @@
         name: name,
         digits: digits,
         fullPhone: digits ? (dial + digits) : ''
+      };
+    },
+    // read(), but with the national number the way readLead() understands
+    // it: a country code typed as well as picked and a domestic trunk 0 are
+    // dropped when that leaves a number that fits. Payment forms use this.
+    // read() alone returned "13125550123" for a US parent, because during a
+    // submit the box briefly holds "+1 3125550123" for the page's own checks
+    // (see "at submit time"), and that went to Razorpay and the order.
+    readNational: function (input) {
+      if (!input) return window.MACCountryCode.read(input);
+      var lead = readLead(input);
+      return {
+        dial: lead.dial,
+        iso: lead.iso,
+        name: lead.name,
+        digits: lead.national,
+        fullPhone: lead.national ? (lead.dial + lead.national) : ''
       };
     },
     rescan: scan

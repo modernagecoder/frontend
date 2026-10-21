@@ -439,7 +439,9 @@ const CoursePayment = {
     overlay.addEventListener('click', (e) => {
       if (e.target === overlay && !this._paying) this.closeModal();
     });
-    this._onKey = (e) => { if (e.key === 'Escape' && !this._paying) this.closeModal(); };
+    // An Escape the country picker already handled (closing its list,
+    // preventDefault) must not also close the form being filled in.
+    this._onKey = (e) => { if (e.key === 'Escape' && !e.defaultPrevented && !this._paying) this.closeModal(); };
     document.addEventListener('keydown', this._onKey);
     if (window.matchMedia && window.matchMedia('(pointer: fine)').matches) {
       const first = document.getElementById('pay-name');
@@ -672,16 +674,21 @@ const CoursePayment = {
       return;
     }
 
-    const ccInfo = (window.MACCountryCode && window.MACCountryCode.read)
-      ? window.MACCountryCode.read(phoneEl)
+    // readNational, not read: during this submit the picker has put
+    // "+44 7911123456" in the box for older page scripts, and read() would
+    // hand back 447911123456 (country code twice at checkout).
+    const cc = window.MACCountryCode;
+    const ccInfo = (cc && cc.readNational) ? cc.readNational(phoneEl)
+      : (cc && cc.read) ? cc.read(phoneEl)
       : { dial: '+91', iso: 'IN', name: 'India' };
+    const phoneDigits = ccInfo.digits !== undefined ? ccInfo.digits : phone.replace(/\D/g, '');
 
     // Validate phone against the chosen country.
     const isIndia = ccInfo.iso === 'IN';
     const phoneRegex = isIndia ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
     const phoneMsg = isIndia ? 'Please enter a valid 10-digit mobile number.' : 'Please enter a valid phone number (7 to 15 digits).';
 
-    if (!phoneRegex.test(phone.replace(/\D/g, ''))) {
+    if (!phoneRegex.test(phoneDigits)) {
       this.showError(phoneMsg);
       return;
     }
@@ -732,7 +739,7 @@ const CoursePayment = {
           productName: `${this.courseName} - ${this.getPlanName(planType)}`,
           customerName: name,
           customerEmail: email,
-          customerPhone: phone,
+          customerPhone: phoneDigits,
           customerCountryCode: ccInfo.dial,
           customerCountryIso: ccInfo.iso,
           customerCountryName: ccInfo.name
@@ -753,7 +760,9 @@ const CoursePayment = {
         name: 'Modern Age Coders',
         description: this.courseName,
         order_id: data.order.id,
-        prefill: { name, email, contact: phone },
+        // With the dial code: a bare number is read by Razorpay as Indian,
+        // so a parent abroad met their own number under +91 at checkout.
+        prefill: { name, email, contact: ccInfo.dial + phoneDigits },
         theme: { color: '#B45309' },
         handler: async (response) => {
           await this.verifyPayment(response, data.order.orderId);
@@ -779,22 +788,41 @@ const CoursePayment = {
     }
   },
 
+  // POST /api/payment/verify, retried. On a phone the parent is coming back
+  // from a UPI app when this runs, and the first request often meets a
+  // network that has not woken up yet, or a cold server. Verifying twice is
+  // harmless (the server emails only once), so a dropped connection or a 5xx
+  // is retried; a 4xx answer is final.
+  postVerify: async function(payload) {
+    const waits = [0, 1500, 4000];
+    for (let i = 0; ; i++) {
+      if (waits[i]) await new Promise((r) => setTimeout(r, waits[i]));
+      const last = i === waits.length - 1;
+      let response;
+      try {
+        response = await fetch(`${this.getApiUrl()}/api/payment/verify`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } catch (err) {
+        if (last) throw err;
+        continue;
+      }
+      if (response.status >= 500 && !last) continue;
+      return response.json();
+    }
+  },
+
   // Verify payment
   verifyPayment: async function(razorpayResponse, orderId) {
     this.setPaying(true, 'Confirming your payment…');
     try {
-      const apiUrl = this.getApiUrl();
-      const response = await fetch(`${apiUrl}/api/payment/verify`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          razorpay_order_id: razorpayResponse.razorpay_order_id,
-          razorpay_payment_id: razorpayResponse.razorpay_payment_id,
-          razorpay_signature: razorpayResponse.razorpay_signature
-        })
+      const data = await this.postVerify({
+        razorpay_order_id: razorpayResponse.razorpay_order_id,
+        razorpay_payment_id: razorpayResponse.razorpay_payment_id,
+        razorpay_signature: razorpayResponse.razorpay_signature
       });
-
-      const data = await response.json();
 
       if (data.success) {
         this.closeModal();

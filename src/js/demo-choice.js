@@ -188,6 +188,12 @@
     // ───────────────────────── phone helpers ─────────────────────────
 
     function readPhone(input) {
+        // readNational undoes the "+1 3125550123" the picker puts in the box
+        // while a submit is running, and a typed trunk 0; read() is the
+        // fallback for a cached older picker.
+        if (window.MACCountryCode && window.MACCountryCode.readNational) {
+            return window.MACCountryCode.readNational(input);
+        }
         if (window.MACCountryCode && window.MACCountryCode.read) {
             return window.MACCountryCode.read(input);
         }
@@ -369,11 +375,19 @@
     function injectStyles() {
         if (document.getElementById('mac-dc-styles')) return;
         var css = [
-            // z-index sits above the floating WhatsApp and Misti buttons
-            // (2147483645/6), which otherwise cover the buttons on a phone.
-            // Razorpay's checkout is appended to <body> later and shares the
-            // maximum value, so DOM order keeps it on top of this overlay.
-            '.mac-dc-overlay{position:fixed;top:0;left:0;width:100%;height:100%;height:100dvh;background:rgba(17,12,8,.7);z-index:2147483647;display:flex;align-items:center;justify-content:center;padding:16px;box-sizing:border-box;animation:macDcFade .22s ease}',
+            // Same tier as the course and camp payment popups (2147483000),
+            // BELOW Razorpay's checkout and the country picker (both
+            // 2147483647). This overlay used to share their maximum value and
+            // rely on DOM order, but Razorpay creates its container once,
+            // mid-<body>, wherever checkout.js is preloaded (every course and
+            // camp page) and reuses it, so the checkout opened hidden behind
+            // this card and the parent was stuck on "Opening secure
+            // checkout". The picker popover, also built once, hid the same
+            // way. The floating buttons that sit above this tier are hidden
+            // while it is open (body.mac-dc-open, below), with visibility
+            // because .wa-float-btn carries an inline display:flex!important.
+            '.mac-dc-overlay{position:fixed;top:0;left:0;width:100%;height:100%;height:100dvh;background:rgba(17,12,8,.7);z-index:2147483000;display:flex;align-items:center;justify-content:center;padding:16px;box-sizing:border-box;animation:macDcFade .22s ease}',
+            'body.mac-dc-open .misti-chat-btn,body.mac-dc-open .wa-float-btn,body.mac-dc-open .sticky-demo{visibility:hidden!important;opacity:0!important;pointer-events:none!important}',
             '.mac-dc .mac-dc-title:focus,.mac-dc .mac-dc-title:focus-visible{outline:none!important;box-shadow:none!important;border:0!important}',
             '.mac-dc{position:relative;box-sizing:border-box;width:100%;max-width:820px;background:#fff;color:#1c1814;border-radius:20px;padding:30px 28px 22px;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5;text-align:left;box-shadow:0 30px 70px -30px rgba(28,24,20,.55);border:1px solid rgba(28,24,20,.08)}',
             '.mac-dc-overlay .mac-dc{max-height:92vh;overflow:auto;animation:macDcUp .28s ease;-webkit-overflow-scrolling:touch}',
@@ -737,6 +751,7 @@
         var overlay = this.root.parentNode;
         if (overlay && overlay.parentNode) overlay.parentNode.removeChild(overlay);
         unlockScroll();
+        try { document.body.classList.remove('mac-dc-open'); } catch (e) { }
         activeModal = null;
     };
 
@@ -750,6 +765,9 @@
         this.panel.hidden = false;
         this.scrollTop();
         track('demo_choice_paid_start', { region: price.currency, source: rec.kind || 'unknown' });
+        // Fetch the 190 KB checkout script while the parent is typing, so Pay
+        // opens at once on a slow phone. A failure here is retried on submit.
+        loadRazorpay().catch(function () { });
 
         var form = this.panel.querySelector('form');
         var phone = form.querySelector('#macDcPhone');
@@ -895,17 +913,40 @@
         });
     };
 
+    /**
+     * POST /api/payment/verify, retried. On a phone the parent is coming back
+     * from GPay or PhonePe when this runs, and the first request often meets
+     * a network that has not woken up yet, or a cold server. Verifying twice
+     * is harmless (the server alerts and emails only on the first), so a
+     * dropped connection or a 5xx is retried; a 4xx answer is final.
+     */
+    function postVerify(payload) {
+        var waits = [0, 1500, 4000];
+        function attempt(i) {
+            return new Promise(function (r) { setTimeout(r, waits[i]); }).then(function () {
+                return fetch(apiUrl() + '/api/payment/verify', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+            }).then(function (r) {
+                if (r.status >= 500 && i < waits.length - 1) return attempt(i + 1);
+                return r.json();
+            }, function (err) {
+                if (i < waits.length - 1) return attempt(i + 1);
+                throw err;
+            });
+        }
+        return attempt(0);
+    }
+
     Chooser.prototype.verify = function (resp, order, onFail) {
         var self = this;
-        fetch(apiUrl() + '/api/payment/verify', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                razorpay_order_id: resp.razorpay_order_id,
-                razorpay_payment_id: resp.razorpay_payment_id,
-                razorpay_signature: resp.razorpay_signature
-            })
-        }).then(function (r) { return r.json(); }).then(function (data) {
+        postVerify({
+            razorpay_order_id: resp.razorpay_order_id,
+            razorpay_payment_id: resp.razorpay_payment_id,
+            razorpay_signature: resp.razorpay_signature
+        }).then(function (data) {
             if (!data || !data.success) throw new Error((data && data.error) || 'verification failed');
             var paid = {
                 orderId: (data.payment && data.payment.orderId) || order.orderId,
@@ -1006,13 +1047,16 @@
         var card = document.createElement('div');
         overlay.appendChild(card);
         document.body.appendChild(overlay);
+        document.body.classList.add('mac-dc-open');
         lockScroll();
         activeModal = new Chooser(card, 'modal', rec);
         // Deliberately NOT closed by a click on the dim background: a stray tap
         // beside the card on a phone must not dismiss the one question we
         // need answered. The × button and Escape still close it.
+        // An Escape the country picker already handled (closing its list,
+        // preventDefault) must not also throw away the booking form.
         document.addEventListener('keydown', function onKey(e) {
-            if (e.key === 'Escape' && activeModal) { activeModal.close(); document.removeEventListener('keydown', onKey); }
+            if (e.key === 'Escape' && activeModal && !e.defaultPrevented) { activeModal.close(); document.removeEventListener('keydown', onKey); }
         });
         try { var title = card.querySelector('.mac-dc-title'); if (title) { title.setAttribute('tabindex', '-1'); title.focus(); } } catch (e) { }
     }
@@ -1369,6 +1413,6 @@
             track('demo_priority_direct_open', { page: window.location.pathname, placement: String(placement || 'link') });
         },
         prices: PRICES,
-        version: '20260923a'
+        version: '20261021a'
     };
 })();
