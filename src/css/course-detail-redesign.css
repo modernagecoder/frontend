@@ -741,3 +741,25 @@ body.editorial .six-oneone .enroll-btn.primary:hover{background:#F4B860;border-c
   .six-math > div{flex-direction:column;align-items:flex-start;gap:.1rem}
   .six-math dd{text-align:left}
 }
+
+/* ─── Fees and enrolment sits DIRECTLY under the hero (owner 2026-10-21) ───
+   Steps are four short cards in one row on desktop, then the optional
+   Priority Demo as its own strip. The old first-step demo highlight is off. */
+.enroll-eyebrow{margin:0 0 .6rem !important;font-family:var(--font-mono);font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--amber-deep) !important}
+body.editorial .cd-steps{margin:2.6rem auto 0}
+body.editorial .cd-steps-list{grid-template-columns:repeat(4,1fr);gap:.9rem}
+body.editorial .cd-step{flex-direction:column;gap:.55rem;padding:1.05rem 1.05rem 1.15rem}
+body.editorial .cd-step:first-child{background:var(--paper-2);border:1px solid var(--line)}
+body.editorial .cd-step:first-child .cd-step-n{background:var(--ink)}
+body.editorial .cd-step-n{width:30px;height:30px;font-size:.88rem}
+body.editorial .cd-step-body h4{margin:0 0 .3rem;font-size:1.02rem}
+body.editorial .cd-step-body p{font-size:.88rem;line-height:1.55}
+body.editorial .cd-steps-demo{display:flex;align-items:center;justify-content:space-between;gap:.8rem 1.4rem;flex-wrap:wrap;margin-top:.9rem;padding:1rem 1.2rem;background:#FFF7EB;border:1px solid rgba(180,83,9,.32);border-left:4px solid var(--amber);border-radius:14px}
+body.editorial .cd-steps-demo p{margin:0;flex:1 1 380px;color:var(--ink-soft);font-size:.9rem;line-height:1.55}
+body.editorial .cd-steps-demo .cd-step-action{margin:0}
+@media (max-width:980px){body.editorial .cd-steps-list{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){
+  body.editorial .cd-steps-list{grid-template-columns:1fr}
+  body.editorial .cd-step{display:flex;flex-direction:row;align-items:flex-start;gap:.75rem}
+  body.editorial .cd-step-n{float:none;margin:0}
+}

@@ -1328,9 +1328,10 @@ class CourseGenerator {
         const six = this.renderSixMonth(meta.slug, { oneOnOneOnly: oneOnOneOnly });
         html = html.replace(/{{BILLING_SWITCH}}/g, six.switchHtml);
         html = html.replace(/{{SIX_MONTH_PANEL}}/g, six.panelHtml);
-        html = html.replace(/{{ENROLL_BILLING_LINE}}/g, six.switchHtml
-            ? 'Pay monthly, or pay for 6 months at once and save.'
-            : 'Monthly billing, cancel any time.');
+        // With the 6-month switch right below, the header needs no billing line.
+        html = html.replace(/ ?{{ENROLL_BILLING_LINE}}/g, six.switchHtml
+            ? ''
+            : ' Monthly billing, cancel any time.');
         // The 1-on-1 schedule line, read from the config's
         // classesPerMonthOverrides: a 4-a-month India plan ships the India
         // schedule as the static default with the international 2-a-week

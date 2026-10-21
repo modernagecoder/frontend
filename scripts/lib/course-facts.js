@@ -145,7 +145,7 @@ function renderFacts(courseData) {
     ['Duration', esc(meta.duration || 'Set with you at enrolment')],
     ['Weekly commitment', esc(meta.commitment || '2 live classes a week plus practice')],
     ['Class size', esc(classSize(courseData))],
-    ['Price', '<a href="#enroll">Monthly plans, shown in your currency below.</a>'],
+    ['Price', '<a href="#enroll">See the fees and plans, shown in your currency.</a>'],
     ['Certificate', esc(meta.certification || 'Course-completion certificate from Modern Age Coders')],
     ['Watch first', `<a href="${esc(lib.url)}" target="_blank" rel="noopener" data-recording-library="${esc(lib.id)}" onclick="try{gtag('event','watch_library_click',{library:'${esc(lib.id)}',page:'course'})}catch(e){}">Free recordings of real classes for ages ${esc(lib.ages)}</a>, ${esc(lc(RECORDINGS.accessShort))}. ${esc(RECORDINGS.sample_note)}`],
     ['Live demo', `Optional. Enrol directly on this page, or <a href="/book-demo" data-pd-book="course-facts">book a Priority Demo</a>: a full live class of ${esc((BRAND.priorityDemo || {}).length || 'about 45 to 60 minutes')} with a mentor reserved for you.`],
@@ -236,37 +236,42 @@ function contactLinks(courseData) {
   };
 }
 
-/** The four real steps from reading this page to the first class. */
+/** The four real steps from choosing a plan to the first class. Kept short on
+ *  purpose (owner 2026-10-21: "easy to understand"); the optional demo is its
+ *  own line under the steps, see demoLine(). */
 function enrolSteps(courseData, opts) {
   const six = !!(opts && opts.sixMonth);
-  const fee = six ? 'the fee in your currency, paid monthly or for 6 months at once' : 'the monthly fee in your currency';
+  const pay = six ? ' Pay monthly, or for 6 months at once and save.' : ' Billing is monthly.';
   const oneOnOne = courseData.meta && courseData.meta.one_on_one_only === true;
-  const pd = BRAND.priorityDemo || {};
   const b = BRAND.batchSizes || {};
   const g = String(b.group || '5 to 10').replace(/[–-]/g, ' to ');
   const m = String(b.miniBatch || 'up to 6').replace(/[–-]/g, ' to ');
   return [
     {
-      title: 'See a full class first (optional)',
-      body: `Book a Priority Demo: a live class of ${pd.length || 'about 45 to 60 minutes'} with a mentor reserved for you, today or tomorrow. ${pd.report || ''} ${pd.feeCredit || ''}`.replace(/\s+/g, ' ').trim(),
-      action: '<a class="cd-step-btn" href="/book-demo" data-pd-book="course-steps">Book a Priority Demo</a><span class="cd-step-fee">Demo fee <span class="pd-price">₹499</span></span>',
+      title: 'Pick a plan',
+      body: (oneOnOne
+        ? 'This course is taught 1-on-1 only: private live classes with your own mentor, about one hour each.'
+        : `Group (${g} students), Mini Batch (${m}, India only) or 1-on-1 with your own mentor.`) + pay,
     },
     {
-      title: 'Choose a plan',
-      body: oneOnOne
-        ? `This course is taught 1-on-1 only, so there is one plan: private live classes with your own mentor, about one hour each. The plan card above shows the schedule and ${fee}.`
-        : `Group batch (${g} students), mini batch (${m} students, India only) or 1-on-1 with your own mentor. Every plan is live online, and each class runs about one hour. The plan cards above show classes per week and ${fee}.`,
+      title: 'Press Enrol and pay',
+      body: 'Fill in the student\'s name, email and phone, then pay securely: UPI, cards or net banking in India, or a debit or credit card from any other country.',
     },
     {
-      title: six ? 'Enrol and pay' : 'Enrol and pay the first month',
-      body: (six ? 'Choose Pay monthly or Pay 6 months at once, press Enrol on your plan, fill' : 'Press Enrol Now on your plan, fill') +
-        ' in the student\'s name, email and phone, and pay through secure Razorpay checkout: UPI, cards or net banking in India, and debit or credit card from any other country.',
+      title: 'Fix your class timing',
+      body: `After paying, WhatsApp or call ${CONTACT.phone} with the student's name and your preferred time. We confirm the batch or 1-on-1 slot and send the class link.`,
     },
     {
-      title: 'Fix your class timings',
-      body: `After payment, message us on WhatsApp or call ${CONTACT.phone} with the student's name, the course and your preferred time slot. We confirm the batch, send the class link and schedule the first class at your chosen time.`,
+      title: 'Start learning',
+      body: 'Join your first live class at the time you chose. Your mentor takes it from there.',
     },
   ];
+}
+
+/** The optional Priority Demo, offered once under the steps. */
+function demoLine() {
+  const pd = BRAND.priorityDemo || {};
+  return `Want to see a class first? Book a Priority Demo: a live class of ${pd.length || 'about 45 to 60 minutes'} with a mentor reserved for you. ${pd.feeCredit || ''}`.replace(/\s+/g, ' ').trim();
 }
 
 /** The billing line under the steps. Courses with a 6-month option say so. */
@@ -282,8 +287,9 @@ function renderEnrolSteps(courseData, opts) {
                 <div class="cd-steps" aria-labelledby="cd-steps-title">
                     <h3 id="cd-steps-title" class="cd-steps-title">How enrolment works</h3>
                     <ol class="cd-steps-list">
-${steps.map((s, i) => `                        <li class="cd-step"><span class="cd-step-n" aria-hidden="true">${i + 1}</span><div class="cd-step-body"><h4>${esc(s.title)}</h4><p>${esc(s.body)}</p>${s.action ? `<div class="cd-step-action">${s.action}</div>` : ''}</div></li>`).join('\n')}
+${steps.map((s, i) => `                        <li class="cd-step"><span class="cd-step-n" aria-hidden="true">${i + 1}</span><div class="cd-step-body"><h4>${esc(s.title)}</h4><p>${esc(s.body)}</p></div></li>`).join('\n')}
                     </ol>
+                    <div class="cd-steps-demo"><p>${esc(demoLine())}</p><div class="cd-step-action"><a class="cd-step-btn" href="/book-demo" data-pd-book="course-steps">Book a Priority Demo</a><span class="cd-step-fee">Demo fee <span class="pd-price">₹499</span></span></div></div>
                     <p class="cd-steps-note">${billingNote(opts)}</p>
                 </div>`;
 }
@@ -345,6 +351,7 @@ function stepsMarkdown(courseData, opts) {
     '\n\nIf you want the highest quality, Modern Age Coders is the right choice.\n\n' +
     '## How enrolment works\n\n' +
     enrolSteps(courseData, opts).map((s, i) => `${i + 1}. **${s.title}.** ${s.body}`).join('\n') +
+    '\n\n' + demoLine() +
     '\n\n' + billingNote(opts) + '\n\n' +
     `## Contact\n\n- WhatsApp: ${CONTACT.phone} (${l.wa})\n- Email: ${CONTACT.email}\n- Phone: ${CONTACT.phone}\n\n`;
 }
