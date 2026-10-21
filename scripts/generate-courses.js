@@ -720,6 +720,81 @@ class CourseGenerator {
     }
 
     /**
+     * "What are the fees?" FAQ answers (owner 2026-10-22). ~100 course JSONs
+     * hand-typed rupee prices, stale batch sizes and a retired "price set for
+     * your own country" line into this answer, and foreign visitors saw the
+     * rupees. Any FAQ quoting one of our own India tariffs is now rewritten
+     * from the pricing config: the India text replaces faq.answer (so the .md
+     * twin and every other reader get it), the international text is kept in
+     * _priceFaqIntl and both are region-gated on the page. Both stay out of
+     * the FAQPage schema, which cannot know who is reading.
+     */
+    rewritePriceFaqs(courseData) {
+        this._priceFaqIntl = new Map();
+        const faqs = Array.isArray(courseData.faqs) ? courseData.faqs : [];
+        const TARIFF = /(?:Rs\.?\s*|₹\s*|INR\s*)(?:1,?499|2,?999|4,?999|7,?500|9,?999|14,?999)\b/;
+        const meta = courseData.meta || {};
+        faqs.forEach((faq) => {
+            if (!faq || !TARIFF.test(faq.answer || '')) return;
+            const india = this.priceFaqText(meta.slug, 'india', meta.one_on_one_only === true);
+            const intl = this.priceFaqText(meta.slug, 'international', meta.one_on_one_only === true);
+            if (!india) return;
+            faq.answer = india;
+            if (intl) this._priceFaqIntl.set(faq, intl);
+        });
+    }
+
+    priceFaqText(slug, region, oneOnOneOnly) {
+        const subject = this.priceSubjectFor(slug);
+        const config = PRICING.load();
+        const prices = PRICING.coursePrices(slug, config)[region] || {};
+        const cur = region === 'india' ? 'INR' : 'USD';
+        const f = (n) => PRICING.format(n, cur, { style: 'display' });
+        const overrides = config.display.classesPerMonthOverrides || {};
+        const perMonth = (tier) => overrides[`${subject}.${region}.${tier}`] || config.display.classesPerMonth;
+        const b = BRAND_FACTS.batchSizes || {};
+        const groupSize = String(b.group || '15-20').replace(/[–-]/g, ' to ');
+        const miniSize = String(b.miniBatch || 'up to 6').replace(/[–-]/g, ' to ');
+        const tiers = (oneOnOneOnly ? ['personal'] : ['group', 'miniBatch', 'personal'])
+            .filter((t) => prices[t] !== null && prices[t] !== undefined);
+        if (!tiers.length) return '';
+
+        const personalSched = (region === 'india' && perMonth('personal') === 4)
+            ? '4 private classes on a fully flexible schedule'
+            : `${perMonth('personal') / 4} private classes a week`;
+        const lines = {
+            group: `Group classes are ${f(prices.group)} a month: ${perMonth('group') / 4} live classes a week, ${groupSize} students.`,
+            miniBatch: `Mini Batch is ${f(prices.miniBatch)} a month: ${perMonth('miniBatch') / 4} live classes a week, ${miniSize} students.`,
+            personal: `Personalized 1-on-1 is ${f(prices.personal)} a month: ${personalSched}.`
+        };
+        let text = (oneOnOneOnly ? 'This course is taught 1-on-1 only. ' : '') + tiers.map((t) => lines[t]).join(' ');
+
+        const offer = PRICING.sixMonthOffer(subject, config);
+        const six = offer ? tiers.filter((t) => offer[region][t]) : [];
+        if (six.length) {
+            const pct = Math.max.apply(null, six.map((t) => offer[region][t].pct));
+            const NAME = { group: 'Group', miniBatch: 'Mini Batch', personal: '1-on-1' };
+            const p = offer[region].personal;
+            text += ` Pay for 6 months at once and save ${pct}%: ` +
+                six.map((t) => (six.length > 1 ? NAME[t] + ' ' : '') + f(offer[region][t].total) +
+                    (six.length > 1 ? '' : ` for ${offer[region][t].sessions} sessions`)).join(', ') +
+                (p && six.indexOf('personal') !== -1
+                    ? ` (1-on-1 works out to ${f(p.perSession)} a session instead of ${f(p.monthlyPerSession)})` : '') + '.' +
+                ' If you stop early, every session you have not taken is refunded.';
+        }
+        if (region !== 'india') text += ' Prices are in US dollars, the same in every country.';
+        return text + ' Every plan is in Fees and enrolment at the top of this page, and you can see a full class first with a Priority Demo.';
+    }
+
+    /** One FAQ answer as HTML; fee answers carry both regions, gated. */
+    faqAnswerHtml(faq) {
+        const link = (s) => this.escapeHtml(s).replace('Fees and enrolment', '<a href="#enroll">Fees and enrolment</a>');
+        const intl = this._priceFaqIntl && this._priceFaqIntl.get(faq);
+        if (!intl) return this.escapeHtml(faq.answer);
+        return `<span data-india-only="true">${link(faq.answer)}</span><span data-intl-only="true" hidden>${link(intl)}</span>`;
+    }
+
+    /**
      * The "Pay monthly / Pay 6 months at once" switch and the 6-month cards
      * (owner's decision 2026-10-21). Every figure comes from
      * PRICING.sixMonthOffer, so the cards, pricing:verify and the payment
@@ -763,6 +838,7 @@ class CourseGenerator {
                                 <div><dt>Per session</dt><dd>${f(o.perSession)} <s>${f(o.monthlyPerSession)}</s></dd></div>
                             </dl>
                             <p class="six-info">${o.sessionsPerMonth / 4} sessions a week &middot; ${BATCH[tier]}</p>
+                            <p class="six-refund">Stop early? Every session you have not taken is refunded at ${f(o.perSession)}. <a href="/refund#six-month">Refund policy</a></p>
                             <a href="#" class="enroll-btn primary" data-plan-type="${tier}" data-billing="sixMonth">Enrol for 6 months</a>
                         </div>`;
                 }
@@ -788,6 +864,7 @@ class CourseGenerator {
                                     <div class="six-math-save"><dt>You save</dt><dd>${f(o.save)} (${o.pct}%)</dd></div>
                                 </dl>
                                 <p class="six-incl">Everything in the monthly 1-on-1 plan is included: your own mentor, flexible timing, personal dashboard, class recordings, progress reports and parent-teacher meetings.</p>
+                                <p class="six-refund">Stop early? Every session you have not taken is refunded at ${f(o.perSession)}. <a href="/refund#six-month">Refund policy</a></p>
                             </div>
                         </div>`;
             }).join('');
@@ -1099,9 +1176,10 @@ class CourseGenerator {
         // sales call, so the visible FAQ keeps them. Only the region-blind copy is filtered.
         // 103 of 122 course files had at least one such answer. See seo/superseo-2026-09/.
         const OWN_TARIFF = /(?:Rs\.?\s*|₹\s*|INR\s*)(?:1,?499|2,?999|4,?999|7,?500|9,?999)\b/;
+        const priceFaqs = this._priceFaqIntl || new Map();
         if (courseData.faqs && Array.isArray(courseData.faqs) && courseData.faqs.length > 0) {
             const schemaSafeFaqs = courseData.faqs.filter(
-                faq => !OWN_TARIFF.test(faq.answer || '')
+                faq => !priceFaqs.has(faq) && !OWN_TARIFF.test(faq.answer || '')
             );
             if (schemaSafeFaqs.length > 0) {
                 const faqSchema = {
@@ -1255,6 +1333,7 @@ class CourseGenerator {
         // Add the recording/demo questions to this course's FAQs before the FAQPage
         // schema and the visible FAQ list are built from the same array.
         courseFacts.augmentFaqs(courseData);
+        this.rewritePriceFaqs(courseData);
         const watch = courseFacts.watchClass(courseData);
         html = html.replace(/{{COURSE_FACTS}}/g, courseFacts.renderFacts(courseData));
         html = html.replace(/{{COURSE_ANSWERS}}/g, courseFacts.renderAnswers(courseData));
@@ -1592,7 +1671,7 @@ class CourseGenerator {
                     </span>
                 </button>
                 <div class="faq-answer" id="faq-answer-${index}" aria-hidden="true">
-                    <p>${this.escapeHtml(faq.answer)}</p>
+                    <p>${this.faqAnswerHtml(faq)}</p>
                 </div>
             </div>
         `).join('');

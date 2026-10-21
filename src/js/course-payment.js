@@ -407,7 +407,7 @@ const CoursePayment = {
     const planInfo = infoEl ? infoEl.textContent.replace(/\s+/g, ' ').trim() : '';
     const trustEl = document.querySelector('.enroll-trust');
     const rating = trustEl ? ((trustEl.textContent.match(/^.*?reviews\./) || [''])[0]) : '';
-    const trust = (rating + ' ' + (sixMonth ? 'One payment covers all 6 months of classes.' : 'Monthly billing, cancel any time.')).trim();
+    const trust = (rating + ' ' + (sixMonth ? 'One payment covers all 6 months. Stop early and every session left is refunded.' : 'Monthly billing, cancel any time.')).trim();
     const methods = isIndian ? 'UPI · Cards · Net banking · Wallets' : 'Debit and credit cards from any country';
     const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     const lock = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';

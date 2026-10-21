@@ -800,3 +800,8 @@ body.editorial .cd-float-curr a.cd-float-syl:hover{border-color:var(--ink)}
 }
 #syllabus{scroll-margin-top:84px}
 @media print{.cd-float-curr{display:none}}
+/* 6-month refund line (owner 2026-10-22: unused sessions are refunded) */
+.six-refund{margin:0 0 1rem;font-size:.8rem;line-height:1.5;color:var(--muted)}
+.six-refund a{color:var(--amber-deep);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.six-oneone .six-refund{margin:.8rem 0 0;color:rgba(251,248,242,.7)}
+.six-oneone .six-refund a{color:#F4B860}

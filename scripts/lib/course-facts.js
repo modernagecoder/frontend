@@ -277,7 +277,7 @@ function demoLine() {
 /** The billing line under the steps. Courses with a 6-month option say so. */
 function billingNote(opts) {
   return (opts && opts.sixMonth)
-    ? 'Pay monthly and cancel any time, or pay for 6 months at once and save.'
+    ? 'Pay monthly and cancel any time, or pay for 6 months at once and save. Stop a 6-month plan early and every session left is refunded.'
     : 'Billing is monthly and you can cancel any time.';
 }
 
