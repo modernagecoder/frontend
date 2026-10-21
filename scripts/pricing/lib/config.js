@@ -349,7 +349,59 @@ function derive(kind, amount, config, key) {
     }
 }
 
+/**
+ * The "pay for 6 months at once" offer for one subject, with every figure a
+ * course page prints worked out here, so the page, the checker and the
+ * payment popup all do the same arithmetic. Returns null when the subject
+ * has no 6-month option (sixMonth.appliesTo leaves it out).
+ *
+ * Per region and tier: { total, monthly, monthlyTotal, save, pct, sessions,
+ * sessionsPerMonth, perSession, monthlyPerSession, perMonth }, or null when
+ * either the 6-month or the monthly price is not sold.
+ */
+const SIX_MONTHS = 6;
+function sixMonthOffer(subject, config) {
+    const cfg = config || load();
+    const six = cfg.sixMonth;
+    if (!six || !Array.isArray(six.appliesTo) || six.appliesTo.indexOf(subject) === -1) return null;
+    const out = { months: SIX_MONTHS };
+    REGIONS.forEach(function (region) {
+        out[region] = {};
+        MONTHLY_TIERS.forEach(function (tier) {
+            const total = six[region] ? six[region][tier] : null;
+            const monthly = (cfg.plans[subject] && cfg.plans[subject][region])
+                ? cfg.plans[subject][region][tier] : null;
+            if (total === null || total === undefined || monthly === null || monthly === undefined) {
+                out[region][tier] = null;
+                return;
+            }
+            const key = subject + '.' + region + '.' + tier;
+            const overrides = cfg.display.classesPerMonthOverrides || {};
+            const sessionsPerMonth = overrides[key] || cfg.display.classesPerMonth;
+            const sessions = sessionsPerMonth * SIX_MONTHS;
+            const monthlyTotal = monthly * SIX_MONTHS;
+            const cents = region === 'india' ? 1 : 100;   // rupees whole, dollars to the cent
+            const round = function (n) { return Math.round(n * cents) / cents; };
+            out[region][tier] = {
+                total: total,
+                monthly: monthly,
+                monthlyTotal: monthlyTotal,
+                save: monthlyTotal - total,
+                pct: Math.round((1 - total / monthlyTotal) * 100),
+                sessions: sessions,
+                sessionsPerMonth: sessionsPerMonth,
+                perSession: round(total / sessions),
+                monthlyPerSession: round(monthly / sessionsPerMonth),
+                perMonth: Math.round(total / SIX_MONTHS)
+            };
+        });
+    });
+    return out;
+}
+
 module.exports = {
+    sixMonthOffer: sixMonthOffer,
+    SIX_MONTHS: SIX_MONTHS,
     REPO_ROOT: REPO_ROOT,
     CONFIG_PATH: CONFIG_PATH,
     DATA_DIR: DATA_DIR,

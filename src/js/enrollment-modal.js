@@ -37,6 +37,10 @@ const EnrollmentModal = {
         e.preventDefault();
         // Capture the plan type from the clicked button (group / miniBatch / personal).
         // Falls back to reading the card's heading, then defaults to 'group' for safety.
+        // data-billing="sixMonth" marks the "pay 6 months at once" cards; the
+        // popup charges the 6-month total for those, the monthly fee otherwise.
+        this.selectedBilling = btn.getAttribute('data-billing') === 'sixMonth' ? 'sixMonth' : 'monthly';
+        this.selectedButton = btn;
         const explicit = btn.getAttribute('data-plan-type');
         if (explicit) {
           this.selectedPlan = explicit;
@@ -101,7 +105,10 @@ const EnrollmentModal = {
   showPaymentForm() {
     if (typeof CoursePayment !== 'undefined' && CoursePayment.showPaymentModal) {
       // Route to the plan the user actually clicked (group / miniBatch / personal).
-      CoursePayment.showPaymentModal(this.selectedPlan || 'group');
+      CoursePayment.showPaymentModal(this.selectedPlan || 'group', {
+        billing: this.selectedBilling || 'monthly',
+        button: this.selectedButton || null
+      });
     } else {
       alert('Payment system is loading. Please try again in a moment.');
     }

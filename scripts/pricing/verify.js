@@ -217,8 +217,47 @@ function checkRetiredFigures(rel, html, config) {
     });
 }
 
+/**
+ * The "pay 6 months at once" cards (course pages, 2026-10-21) carry no
+ * data-price anchor, because international-pricing.js would re-price them to
+ * the MONTHLY figure. So their totals are checked here instead: every
+ * 6-month card must show exactly the config's sixMonth figure for its region
+ * and plan, and a page whose subject has no 6-month option must show none.
+ */
+let sixMonthCardsChecked = 0;
+function checkSixMonth(rel, html, config) {
+    const hasGrid = html.indexOf('class="six-grid') !== -1;
+    if (!hasGrid) return;
+    const tierM = html.match(/<body\b[^>]*\bdata-price-tier="([a-z]+)"/);
+    const subject = tierM ? tierM[1] : 'coding';
+    const offer = cfgLib.sixMonthOffer(subject, config);
+    if (!offer) {
+        fail(rel, 'shows 6-month cards, but sixMonth.appliesTo does not include "' + subject + '". Run: npm run generate:courses');
+        return;
+    }
+    const grids = html.split('class="six-grid').slice(1);
+    grids.forEach(function (chunk) {
+        const head = chunk.slice(0, 200);
+        const region = /data-intl-only/.test(head) ? 'international' : 'india';
+        const end = chunk.indexOf('class="six-grid');
+        const body = end === -1 ? chunk : chunk.slice(0, end);
+        const rx = /class="six-total">([^<]*)<\/div>[\s\S]*?data-plan-type="(\w+)" data-billing="sixMonth"/g;
+        let m;
+        while ((m = rx.exec(body)) !== null) {
+            sixMonthCardsChecked++;
+            const o = offer[region][m[2]];
+            if (!o) { fail(rel, 'shows a 6-month ' + m[2] + ' card for ' + region + ', which the config does not sell.'); continue; }
+            if (Number(digits(m[1])) !== o.total) {
+                fail(rel, 'shows "' + m[1].trim() + '" for the 6-month ' + region + ' ' + m[2] +
+                    ' plan but the config says ' + o.total + '. Run: npm run generate:courses');
+            }
+        }
+    });
+}
+
 function checkFile(rel, config) {
     const html = fs.readFileSync(path.join(ROOT, rel), 'utf8');
+    checkSixMonth(rel, html, config);
     checkScripts(rel, html);
     checkRetiredFigures(rel, html, config);
     // No early return on pages without anchors: the schema scan below must run
@@ -614,6 +653,7 @@ function main() {
     console.log('  ' + filesChecked + ' page(s) carry price anchors');
     console.log('  ' + anchorsChecked + ' visible price(s) checked against the config');
     console.log('  ' + schemaChecked + ' structured-data offer(s) checked');
+    console.log('  ' + sixMonthCardsChecked + ' six-month card total(s) checked');
     console.log('');
 
     if (notes.length) {

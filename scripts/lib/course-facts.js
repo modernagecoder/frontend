@@ -237,7 +237,9 @@ function contactLinks(courseData) {
 }
 
 /** The four real steps from reading this page to the first class. */
-function enrolSteps(courseData) {
+function enrolSteps(courseData, opts) {
+  const six = !!(opts && opts.sixMonth);
+  const fee = six ? 'the fee in your currency, paid monthly or for 6 months at once' : 'the monthly fee in your currency';
   const oneOnOne = courseData.meta && courseData.meta.one_on_one_only === true;
   const pd = BRAND.priorityDemo || {};
   const b = BRAND.batchSizes || {};
@@ -252,12 +254,13 @@ function enrolSteps(courseData) {
     {
       title: 'Choose a plan',
       body: oneOnOne
-        ? 'This course is taught 1-on-1 only, so there is one plan: private live classes with your own mentor, about one hour each. The card below shows the schedule and the monthly fee in your currency.'
-        : `Group batch (${g} students), mini batch (${m} students, India only) or 1-on-1 with your own mentor. Every plan is live online, and each class runs about one hour. The cards below show classes per week and the monthly fee in your currency.`,
+        ? `This course is taught 1-on-1 only, so there is one plan: private live classes with your own mentor, about one hour each. The plan card above shows the schedule and ${fee}.`
+        : `Group batch (${g} students), mini batch (${m} students, India only) or 1-on-1 with your own mentor. Every plan is live online, and each class runs about one hour. The plan cards above show classes per week and ${fee}.`,
     },
     {
-      title: 'Enrol and pay the first month',
-      body: 'Press Enrol Now on your plan, fill in the student\'s name, email and phone, and pay through secure Razorpay checkout: UPI, cards or net banking in India, and debit or credit card from any other country.',
+      title: six ? 'Enrol and pay' : 'Enrol and pay the first month',
+      body: (six ? 'Choose Pay monthly or Pay 6 months at once, press Enrol on your plan, fill' : 'Press Enrol Now on your plan, fill') +
+        ' in the student\'s name, email and phone, and pay through secure Razorpay checkout: UPI, cards or net banking in India, and debit or credit card from any other country.',
     },
     {
       title: 'Fix your class timings',
@@ -266,15 +269,22 @@ function enrolSteps(courseData) {
   ];
 }
 
-function renderEnrolSteps(courseData) {
-  const steps = enrolSteps(courseData);
+/** The billing line under the steps. Courses with a 6-month option say so. */
+function billingNote(opts) {
+  return (opts && opts.sixMonth)
+    ? 'Pay monthly and cancel any time, or pay for 6 months at once and save.'
+    : 'Billing is monthly and you can cancel any time.';
+}
+
+function renderEnrolSteps(courseData, opts) {
+  const steps = enrolSteps(courseData, opts);
   return `
                 <div class="cd-steps" aria-labelledby="cd-steps-title">
                     <h3 id="cd-steps-title" class="cd-steps-title">How enrolment works</h3>
                     <ol class="cd-steps-list">
 ${steps.map((s, i) => `                        <li class="cd-step"><span class="cd-step-n" aria-hidden="true">${i + 1}</span><div class="cd-step-body"><h4>${esc(s.title)}</h4><p>${esc(s.body)}</p>${s.action ? `<div class="cd-step-action">${s.action}</div>` : ''}</div></li>`).join('\n')}
                     </ol>
-                    <p class="cd-steps-note">Billing is monthly and you can cancel any time.</p>
+                    <p class="cd-steps-note">${billingNote(opts)}</p>
                 </div>`;
 }
 
@@ -327,15 +337,15 @@ ${promisePillars().map(([h, p]) => `                    <li><strong>${esc(h)}</s
         </section>`;
 }
 
-function stepsMarkdown(courseData) {
+function stepsMarkdown(courseData, opts) {
   const l = contactLinks(courseData);
   return '## Our promise\n\n' +
     "**The world's best learning experience, open to everyone.**\n\n" +
     promisePillars().map(([h, p]) => `- **${h}:** ${p}`).join('\n') +
     '\n\nIf you want the highest quality, Modern Age Coders is the right choice.\n\n' +
     '## How enrolment works\n\n' +
-    enrolSteps(courseData).map((s, i) => `${i + 1}. **${s.title}.** ${s.body}`).join('\n') +
-    '\n\nBilling is monthly and you can cancel any time.\n\n' +
+    enrolSteps(courseData, opts).map((s, i) => `${i + 1}. **${s.title}.** ${s.body}`).join('\n') +
+    '\n\n' + billingNote(opts) + '\n\n' +
     `## Contact\n\n- WhatsApp: ${CONTACT.phone} (${l.wa})\n- Email: ${CONTACT.email}\n- Phone: ${CONTACT.phone}\n\n`;
 }
 

@@ -126,6 +126,47 @@ function validate(config) {
         err('display.classesPerMonth is missing. It is needed to recalculate the "per class" prices shown on some pages.');
     }
 
+    // --- pay for 6 months at once ---
+    // Every 6-month figure must be a real number AND cheaper than six monthly
+    // payments, on every subject it applies to: the course page prints the
+    // saving, and a "save -3%" card is worse than no card.
+    const six = config.sixMonth;
+    if (six) {
+        if (!Array.isArray(six.appliesTo)) {
+            err('sixMonth.appliesTo must be a list of subjects, e.g. ["coding", "maths", "agents"].');
+        } else {
+            six.appliesTo.forEach(function (subject) {
+                if (!config.plans[subject]) err('sixMonth.appliesTo names "' + subject + '", which is not a subject in plans.');
+            });
+        }
+        cfgLib.REGIONS.forEach(function (region) {
+            const row = six[region] || {};
+            Object.keys(row).forEach(function (tier) {
+                const v = row[tier];
+                if (v === null) return;
+                if (cfgLib.MONTHLY_TIERS.indexOf(tier) === -1) {
+                    err('sixMonth.' + region + ' has an unknown plan name "' + tier + '".');
+                } else if (typeof v !== 'number' || !isFinite(v) || v <= 0) {
+                    err('sixMonth.' + region + '.' + tier + ' is "' + v + '". Use a plain number for the WHOLE 6-month fee, or null.');
+                }
+            });
+        });
+        if (!errors.length && Array.isArray(six.appliesTo)) {
+            six.appliesTo.forEach(function (subject) {
+                const offer = cfgLib.sixMonthOffer(subject, config);
+                cfgLib.REGIONS.forEach(function (region) {
+                    cfgLib.MONTHLY_TIERS.forEach(function (tier) {
+                        const o = offer && offer[region][tier];
+                        if (o && o.save <= 0) {
+                            err('sixMonth.' + region + '.' + tier + ' is ' + o.total + ', but six monthly ' + subject +
+                                ' payments only cost ' + o.monthlyTotal + '. The 6-month fee must be lower, or the page would advertise a loss.');
+                        }
+                    });
+                });
+            });
+        }
+    }
+
 
 }
 
@@ -151,6 +192,19 @@ function showPrices(config) {
     console.log('    ' + 'Holiday camp (one-time)'.padEnd(26) + inr(c.india.oneTime).padStart(10) + usd(c.international.oneTime).padStart(18));
     console.log('');
     console.log('    Everyone outside India pays the same flat USD prices, for all courses.');
+    const offer = config.sixMonth && config.sixMonth.appliesTo && cfgLib.sixMonthOffer(config.sixMonth.appliesTo[0], config);
+    if (offer) {
+        console.log('');
+        console.log('    Pay 6 months at once (' + config.sixMonth.appliesTo.join(', ') + '):');
+        ['group', 'miniBatch', 'personal'].forEach(function (tier) {
+            const label = { group: 'Group', miniBatch: 'Mini Batch', personal: '1-on-1' }[tier];
+            const i = offer.india[tier], u = offer.international[tier];
+            const cell = function (o, f) {
+                return o ? f(o.total) + ' (save ' + o.pct + '%, ' + o.sessions + ' sessions)' : 'not sold';
+            };
+            console.log('      ' + label.padEnd(12) + cell(i, inr).padEnd(36) + cell(u, usd));
+        });
+    }
 }
 
 function main() {

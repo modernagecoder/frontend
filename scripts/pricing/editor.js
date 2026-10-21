@@ -51,6 +51,13 @@ const GROUPS = [
         ['intl.group', 'Group classes / month'],
         ['intl.personal', '1-on-1 personal / month'],
         ['camps.intl.oneTime', 'Holiday camp (one payment)']
+    ]],
+    ['Pay 6 months at once: the WHOLE 6-month fee (coding, maths, AI agents courses)', [
+        ['six.india.group', 'India, Group (₹ for 6 months)'],
+        ['six.india.miniBatch', 'India, Mini Batch (₹ for 6 months)'],
+        ['six.india.personal', 'India, 1-on-1 (₹ for 6 months)'],
+        ['six.intl.group', 'Outside India, Group (US$ for 6 months)'],
+        ['six.intl.personal', 'Outside India, 1-on-1 (US$ for 6 months)']
     ]]
 ];
 

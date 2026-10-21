@@ -77,6 +77,21 @@
   },
 
   // ───────────────────────────────────────────────────────────────────────
+  //  PAY FOR 6 MONTHS AT ONCE  (owner's decision 2026-10-21)
+  //  The WHOLE 6-month fee, paid in one go. Course pages show it in a
+  //  "6 months" tab, with the saving worked out against six monthly payments.
+  //  Applies to every course on the subjects in "appliesTo". null = no
+  //  6-month option for that plan. A brand-new figure here must also be added
+  //  to the backend's VALID_INR_AMOUNTS / VALID_USD_AMOUNTS or checkout
+  //  refuses it.
+  // ───────────────────────────────────────────────────────────────────────
+  "sixMonth": {
+    "appliesTo": ["coding", "maths", "agents"],
+    "india":         { "group": 7199, "miniBatch": 14399, "personal": 24000 },
+    "international": { "group": 449,  "miniBatch": null,  "personal": 672 }
+  },
+
+  // ───────────────────────────────────────────────────────────────────────
   //  COURSES PRICED DIFFERENTLY — add a slug to move a course onto another
   //  price set. pricing:check errors on a slug that matches no course.
   // ───────────────────────────────────────────────────────────────────────

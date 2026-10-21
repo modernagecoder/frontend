@@ -720,6 +720,119 @@ class CourseGenerator {
     }
 
     /**
+     * The "Pay monthly / Pay 6 months at once" switch and the 6-month cards
+     * (owner's decision 2026-10-21). Every figure comes from
+     * PRICING.sixMonthOffer, so the cards, pricing:verify and the payment
+     * popup all do the same sums. Courses whose subject has no 6-month option
+     * (gemini) get empty strings and keep the monthly cards alone.
+     *
+     * Both regions are rendered: the India grid ships visible (crawler and
+     * no-JS view), the international grid ships hidden and
+     * international-pricing.js swaps the two by visitor. The cards
+     * deliberately avoid the .enrollment-option/.price classes, which that
+     * script re-prices to the MONTHLY figure abroad.
+     */
+    renderSixMonth(slug, options) {
+        const offer = PRICING.sixMonthOffer(this.priceSubjectFor(slug));
+        if (!offer) return { switchHtml: '', panelHtml: '' };
+        const oneOnOneOnly = !!(options && options.oneOnOneOnly);
+        const tiers = oneOnOneOnly ? ['personal'] : ['group', 'miniBatch', 'personal'];
+        const NAMES = { group: 'Group Classes', miniBatch: 'Mini Batch', personal: 'Personalized 1-on-1' };
+        const BATCH = { group: '15 to 20 students', miniBatch: 'Up to 6 students' };
+
+        const regionHtml = (region) => {
+            const cur = region === 'india' ? 'INR' : 'USD';
+            const f = (n) => PRICING.format(n, cur, { style: 'display' });
+            const sold = tiers.filter((t) => offer[region][t]);
+            if (!sold.length) return null;
+            const pct = Math.max.apply(null, sold.map((t) => offer[region][t].pct));
+            const cards = sold.map((tier) => {
+                const o = offer[region][tier];
+                const exact = Math.round(o.perSession * o.sessions * 100) === Math.round(o.total * 100);
+                if (tier !== 'personal') {
+                    return `
+                        <div class="six-card">
+                            <span class="six-badge">Save ${o.pct}%</span>
+                            <h4 class="six-name">${NAMES[tier]}</h4>
+                            <p class="six-term">6 months &middot; ${o.sessions} sessions</p>
+                            <div class="six-total">${f(o.total)}</div>
+                            <p class="six-total-note">One payment for all 6 months</p>
+                            <dl class="six-math">
+                                <div><dt>Paying monthly</dt><dd><s>${f(o.monthly)} &times; 6 months = ${f(o.monthlyTotal)}</s></dd></div>
+                                <div class="six-math-save"><dt>You save</dt><dd>${f(o.save)} (${o.pct}%)</dd></div>
+                                <div><dt>Per session</dt><dd>${f(o.perSession)} <s>${f(o.monthlyPerSession)}</s></dd></div>
+                            </dl>
+                            <p class="six-info">${o.sessionsPerMonth / 4} sessions a week &middot; ${BATCH[tier]}</p>
+                            <a href="#" class="enroll-btn primary" data-plan-type="${tier}" data-billing="sixMonth">Enrol for 6 months</a>
+                        </div>`;
+                }
+                const timing = region === 'india' && o.sessionsPerMonth === 4
+                    ? 'fully flexible timing' : `${o.sessionsPerMonth / 4} sessions a week`;
+                return `
+                        <div class="six-card six-oneone">
+                            <span class="six-badge">Save ${o.pct}%</span>
+                            <div class="six-oneone-main">
+                                <h4 class="six-name">${NAMES[tier]}</h4>
+                                <p class="six-term">6 months &middot; ${o.sessions} sessions</p>
+                                <div class="six-total">${f(o.total)}</div>
+                                <p class="six-total-note">One payment for all 6 months</p>
+                                <a href="#" class="enroll-btn primary" data-plan-type="personal" data-billing="sixMonth">Enrol for 6 months</a>
+                            </div>
+                            <div class="six-oneone-side">
+                                <p class="six-eyebrow">How your 6-month price works</p>
+                                <dl class="six-math">
+                                    <div><dt>Sessions</dt><dd>${o.sessions} one-to-one sessions over 6 months, ${timing}</dd></div>
+                                    <div><dt>Price per session</dt><dd><b>${f(o.perSession)}</b> instead of <s>${f(o.monthlyPerSession)}</s></dd></div>
+                                    ${exact ? `<div><dt>Your 6-month fee</dt><dd>${f(o.perSession)} &times; ${o.sessions} sessions = <b>${f(o.total)}</b></dd></div>` : `<div><dt>Your 6-month fee</dt><dd><b>${f(o.total)}</b></dd></div>`}
+                                    <div><dt>Paying monthly instead</dt><dd><s>${f(o.monthly)} &times; 6 months = ${f(o.monthlyTotal)}</s></dd></div>
+                                    <div class="six-math-save"><dt>You save</dt><dd>${f(o.save)} (${o.pct}%)</dd></div>
+                                </dl>
+                                <p class="six-incl">Everything in the monthly 1-on-1 plan is included: your own mentor, flexible timing, personal dashboard, class recordings, progress reports and parent-teacher meetings.</p>
+                            </div>
+                        </div>`;
+            }).join('');
+            const p = offer[region].personal;
+            return {
+                pct: pct,
+                sub: p ? `${f(p.perSession)} a session instead of ${f(p.monthlyPerSession)}` : `Save ${pct}% on every plan`,
+                grid: `
+                    <div class="six-grid${oneOnOneOnly ? ' solo' : ''}" ${region === 'india' ? 'data-india-only="true"' : 'data-intl-only="true" hidden'}>
+                        <p class="six-lede">Pay once for 6 months and save <b>${pct}%</b>. Same live classes, same mentor, a lower price for every session.</p>${cards}
+                    </div>`
+            };
+        };
+
+        const india = regionHtml('india');
+        const intl = regionHtml('international');
+        if (!india) return { switchHtml: '', panelHtml: '' };
+        const gate = (field) => intl
+            ? `<span data-india-only="true">${india[field]}</span><span data-intl-only="true" hidden>${intl[field]}</span>`
+            : india[field];
+
+        const switchHtml = `
+                <input type="radio" name="cd-billing" id="bill-monthly" class="bill-radio" checked>
+                <input type="radio" name="cd-billing" id="bill-six" class="bill-radio">
+                <div class="bill-switch">
+                    <p class="bill-q" id="bill-q">How would you like to pay?</p>
+                    <div class="bill-tabs" aria-labelledby="bill-q">
+                        <label for="bill-monthly" class="bill-tab bill-tab-monthly">
+                            <span class="bill-tab-name">Pay monthly</span>
+                            <span class="bill-tab-sub">One month at a time, cancel any time</span>
+                        </label>
+                        <label for="bill-six" class="bill-tab bill-tab-six">
+                            <span class="bill-save">Save ${intl ? `<span data-india-only="true">${india.pct}%</span><span data-intl-only="true" hidden>${intl.pct}%</span>` : india.pct + '%'}</span>
+                            <span class="bill-tab-name">Pay 6 months at once</span>
+                            <span class="bill-tab-sub">${gate('sub')}</span>
+                        </label>
+                    </div>
+                </div>`;
+        const panelHtml = `
+                <div class="bill-panel bill-panel-six">${india.grid}${intl ? intl.grid : ''}
+                </div>`;
+        return { switchHtml, panelHtml };
+    }
+
+    /**
      * meta.commitment is written for humans ("12-15 hours/week recommended"). Google expects
      * courseWorkload as an ISO 8601 duration, so convert; return null when the text carries no
      * usable figure, and let the caller omit the property rather than publish a guess.
@@ -1146,7 +1259,9 @@ class CourseGenerator {
         html = html.replace(/{{COURSE_FACTS}}/g, courseFacts.renderFacts(courseData));
         html = html.replace(/{{COURSE_ANSWERS}}/g, courseFacts.renderAnswers(courseData));
         html = html.replace(/{{QUALITY_PROMISE}}/g, courseFacts.renderPromise());
-        html = html.replace(/{{ENROL_STEPS}}/g, courseFacts.renderEnrolSteps(courseData));
+        html = html.replace(/{{ENROL_STEPS}}/g, courseFacts.renderEnrolSteps(courseData, {
+            sixMonth: !!PRICING.sixMonthOffer(this.priceSubjectFor((courseData.meta || {}).slug || ''))
+        }));
         html = html.replace(/{{CONTACT_CARD}}/g, courseFacts.renderContact(courseData));
         html = html.replace(/{{HERO_CONTACT_LINE}}/g, courseFacts.renderContactLine(courseData, 'cd-hero-contact'));
         html = html.replace(/{{FINAL_CONTACT_LINE}}/g, courseFacts.renderContactLine(courseData, 'cd-final-contact'));
@@ -1210,6 +1325,12 @@ class CourseGenerator {
         html = html.replace(/{{PRICE_GROUP}}/g, tierP.groupDisplay);
         html = html.replace(/{{PRICE_MINIBATCH}}/g, tierP.miniBatchDisplay);
         html = html.replace(/{{PRICE_PERSONAL}}/g, tierP.personalDisplay);
+        const six = this.renderSixMonth(meta.slug, { oneOnOneOnly: oneOnOneOnly });
+        html = html.replace(/{{BILLING_SWITCH}}/g, six.switchHtml);
+        html = html.replace(/{{SIX_MONTH_PANEL}}/g, six.panelHtml);
+        html = html.replace(/{{ENROLL_BILLING_LINE}}/g, six.switchHtml
+            ? 'Pay monthly, or pay for 6 months at once and save.'
+            : 'Monthly billing, cancel any time.');
         // The 1-on-1 schedule line, read from the config's
         // classesPerMonthOverrides: a 4-a-month India plan ships the India
         // schedule as the static default with the international 2-a-week

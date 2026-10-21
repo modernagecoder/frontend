@@ -72,6 +72,7 @@ function emitRuntimeData(config) {
         generatedFrom: 'pricing/pricing.config.jsonc',
         plans: plans,
         courseOverrides: config.courseOverrides || {},
+        sixMonth: config.sixMonth || null,
         display: config.display
     };
 

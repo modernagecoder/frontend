@@ -30,7 +30,12 @@ const FIELDS = [
     ['camps.india.oneTime', 'Holiday camp, one payment (India)'],
     ['intl.group', 'OUTSIDE India, Group (USD, all courses)'],
     ['intl.personal', 'OUTSIDE India, 1-on-1 (USD, all courses)'],
-    ['camps.intl.oneTime', 'Holiday camp, one payment (USD)']
+    ['camps.intl.oneTime', 'Holiday camp, one payment (USD)'],
+    ['six.india.group', '6 months paid at once, Group (India)'],
+    ['six.india.miniBatch', '6 months paid at once, Mini Batch (India)'],
+    ['six.india.personal', '6 months paid at once, 1-on-1 (India)'],
+    ['six.intl.group', '6 months paid at once, Group (USD)'],
+    ['six.intl.personal', '6 months paid at once, 1-on-1 (USD)']
 ];
 
 function num(v) {
@@ -121,6 +126,21 @@ function render(v) {
   },
 
   // ───────────────────────────────────────────────────────────────────────
+  //  PAY FOR 6 MONTHS AT ONCE  (owner's decision 2026-10-21)
+  //  The WHOLE 6-month fee, paid in one go. Course pages show it in a
+  //  "6 months" tab, with the saving worked out against six monthly payments.
+  //  Applies to every course on the subjects in "appliesTo". null = no
+  //  6-month option for that plan. A brand-new figure here must also be added
+  //  to the backend's VALID_INR_AMOUNTS / VALID_USD_AMOUNTS or checkout
+  //  refuses it.
+  // ───────────────────────────────────────────────────────────────────────
+  "sixMonth": {
+    "appliesTo": ["coding", "maths", "agents"],
+    "india":         { "group": ${num(v['six.india.group'])}, "miniBatch": ${num(v['six.india.miniBatch'])}, "personal": ${num(v['six.india.personal'])} },
+    "international": { "group": ${num(v['six.intl.group'])},  "miniBatch": null,  "personal": ${num(v['six.intl.personal'])} }
+  },
+
+  // ───────────────────────────────────────────────────────────────────────
   //  COURSES PRICED DIFFERENTLY, add a slug to move a course onto another
   //  price set. pricing:check errors on a slug that matches no course.
   // ───────────────────────────────────────────────────────────────────────
@@ -167,6 +187,7 @@ function render(v) {
 /** Pull the flat values object back out of a parsed config. */
 function extract(cfg) {
     const g = (s, r, t) => (cfg.plans[s] && cfg.plans[s][r]) ? cfg.plans[s][r][t] : null;
+    const six = (r, t) => (cfg.sixMonth && cfg.sixMonth[r] && cfg.sixMonth[r][t] != null) ? cfg.sixMonth[r][t] : null;
     return {
         updated: cfg.updated,
         'coding.india.group': g('coding', 'india', 'group'),
@@ -185,7 +206,12 @@ function extract(cfg) {
         'camps.india.oneTime': g('camps', 'india', 'oneTime'),
         'intl.group': g('coding', 'international', 'group'),
         'intl.personal': g('coding', 'international', 'personal'),
-        'camps.intl.oneTime': g('camps', 'international', 'oneTime')
+        'camps.intl.oneTime': g('camps', 'international', 'oneTime'),
+        'six.india.group': six('india', 'group'),
+        'six.india.miniBatch': six('india', 'miniBatch'),
+        'six.india.personal': six('india', 'personal'),
+        'six.intl.group': six('international', 'group'),
+        'six.intl.personal': six('international', 'personal')
     };
 }
 

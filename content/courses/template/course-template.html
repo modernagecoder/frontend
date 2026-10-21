@@ -61,7 +61,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20261013c">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20261021b">
     <link rel="stylesheet" href="/css/moments-strip.css?v=20260928a">
     <script src="/js/moments-strip.js?v=20260806b" defer></script>
     <meta name="theme-color" content="#B45309">
@@ -251,11 +251,18 @@
                 <div class="enrollment-cta-text">
                     <h2>How to join {{COURSE_TITLE}}</h2>
                     <p>Four steps from this page to the first class. See a full class first with a Priority Demo, or choose a plan and enrol today.</p>
-                    <p class="enroll-trust" style="margin:.6rem auto 0;font-weight:600;">Rated 4.9 across 547 Google reviews. Monthly billing, cancel any time.</p>
+                    <p class="enroll-trust" style="margin:.6rem auto 0;font-weight:600;">Rated 4.9 across 547 Google reviews. {{ENROLL_BILLING_LINE}}</p>
                 </div>
-                <!-- Enrolment steps (generated in scripts/lib/course-facts.js from brand-facts.json priorityDemo).
-                     One currency only: rupees static, /js/demo-choice.js swaps .pd-price to dollars outside India. -->
-                {{ENROL_STEPS}}
+                <!-- Plans FIRST (owner 2026-10-21: families kept asking how to enrol).
+                     "Pay monthly / Pay 6 months at once" is a CSS-only radio switch, so it
+                     works without JS: the two radios must stay siblings BEFORE the panels.
+                     Switch + 6-month cards are built by renderSixMonth() in
+                     generate-courses.js from the config's sixMonth block; courses with
+                     no 6-month option (gemini) get neither and show the monthly cards
+                     alone. Styles: .bill-* / .six-* in course-detail-redesign.css -->
+                <div class="bill" id="plans">
+                {{BILLING_SWITCH}}
+                <div class="bill-panel bill-panel-monthly">
                 <div class="enrollment-options">
                     <!-- TIER:GROUP START -->
                     <div class="enrollment-option">
@@ -300,6 +307,12 @@
                         </div>
                     </div>
                 </div>
+                </div>
+                {{SIX_MONTH_PANEL}}
+                </div>
+                <!-- Enrolment steps (generated in scripts/lib/course-facts.js from brand-facts.json priorityDemo).
+                     One currency only: rupees static, /js/demo-choice.js swaps .pd-price to dollars outside India. -->
+                {{ENROL_STEPS}}
             </div>
 
             <!-- International Pricing (editorial). Ships hidden and is revealed
@@ -650,10 +663,10 @@
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script src="/js/pricing-data.generated.js"></script>
     <script src="/js/international-pricing.js"></script>
-    <script src="/js/course-payment.js?v=20261021a"></script>
+    <script src="/js/course-payment.js?v=20261021b"></script>
 
     <!-- Enroll Now opens the payment popup in course-payment.js directly -->
-    <script src="/js/enrollment-modal.js?v=20261002a"></script>
+    <script src="/js/enrollment-modal.js?v=20261021a"></script>
 
     <!-- The international plan cards (when shown) enrol through the same
          payment popup as every other card; there is no WhatsApp-only route. -->

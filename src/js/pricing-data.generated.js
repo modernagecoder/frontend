@@ -89,6 +89,23 @@ window.MAC_PRICING = {
     "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": "agents",
     "build-ai-agents-with-google-gemini-enterprise-course": "gemini"
   },
+  "sixMonth": {
+    "appliesTo": [
+      "coding",
+      "maths",
+      "agents"
+    ],
+    "india": {
+      "group": 7199,
+      "miniBatch": 14399,
+      "personal": 24000
+    },
+    "international": {
+      "group": 449,
+      "miniBatch": null,
+      "personal": 672
+    }
+  },
   "display": {
     "chargeCurrencies": {
       "india": "INR",

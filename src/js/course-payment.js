@@ -309,6 +309,27 @@ const CoursePayment = {
     return { amount: p.amount, display: p.display + (p.period || '') };
   },
 
+  // "Pay 6 months at once" (owner 2026-10-21): the WHOLE 6-month fee for a
+  // plan, read from window.MAC_PRICING.sixMonth (pricing.config.jsonc), never
+  // a literal. Returns null when this page's subject has no 6-month option or
+  // the plan is not sold for 6 months; callers then stop rather than fall
+  // back to the monthly amount.
+  getSixMonthPricing: function(planType, region) {
+    var data = window.MAC_PRICING;
+    var six = data && data.sixMonth;
+    if (!six || !six[region]) return null;
+    var ip = window.InternationalPricing;
+    var subject = (ip && ip.pageSubject) ? ip.pageSubject()
+      : (document.body && document.body.getAttribute('data-price-tier')) || 'coding';
+    if (!Array.isArray(six.appliesTo) || six.appliesTo.indexOf(subject) === -1) return null;
+    var amount = six[region][planType];
+    if (amount === null || amount === undefined) return null;
+    var main = region === 'india'
+      ? '\u20B9' + Number(amount).toLocaleString('en-IN')
+      : '$' + Number(amount).toLocaleString('en-US');
+    return { amount: amount, display: main + '/6 months' };
+  },
+
   // Setup payment buttons - DISABLED: Now handled by enrollment-modal.js
   // The enrollment modal shows first, then calls CoursePayment.showPaymentModal()
   setupPaymentButtons: function() {
@@ -333,10 +354,14 @@ const CoursePayment = {
     const isIndianVisitor = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
     if (isIndianVisitor && (planType === 'group' || planType === 'miniBatch') &&
         !(opts && opts.skipBatchCheck) && !this._batchCheckSeen()) {
-      this.showBatchCheck(planType);
+      this.showBatchCheck(planType, opts);
       return;
     }
-    const pricing = this.getPricing(planType);
+    // A 6-month card charges the 6-month total in both regions. No fallback
+    // to the monthly figure: a missing 6-month price stops the popup.
+    const sixMonth = !!(opts && opts.billing === 'sixMonth');
+    this._billing = sixMonth ? 'sixMonth' : 'monthly';
+    const pricing = sixMonth ? this.getSixMonthPricing(planType, 'india') : this.getPricing(planType);
     if (!pricing) {
       alert('Pricing not available. Please contact us.');
       return;
@@ -354,7 +379,7 @@ const CoursePayment = {
     }
 
     // Use international pricing if not Indian (maths-aware, single source)
-    var intlP = this.getIntlPricing(planType);
+    var intlP = sixMonth ? this.getSixMonthPricing(planType, 'international') : this.getIntlPricing(planType);
 
     // No fallback to the INR figure. Showing "₹1,499" in a modal that will
     // charge US dollars is how a visitor gets billed ten times what they saw.
@@ -374,10 +399,15 @@ const CoursePayment = {
     const pricePer = cut > 0 ? priceText.slice(cut) : '';
     // The schedule line and trust line are read off the page, so the popup
     // repeats what the card the visitor clicked already said.
-    const card = (document.querySelector('.enroll-btn[data-plan-type="' + planType + '"]') || document.body).closest('.enrollment-option');
-    const planInfo = card && card.querySelector('.class-info') ? card.querySelector('.class-info').textContent.trim() : '';
+    // Read off the card that was actually clicked: the monthly and 6-month
+    // cards share a data-plan-type, so the first match could be the wrong one.
+    const clicked = opts && opts.button && opts.button.closest ? opts.button.closest('.six-card, .enrollment-option') : null;
+    const card = clicked || (document.querySelector('.enroll-btn[data-plan-type="' + planType + '"]') || document.body).closest('.enrollment-option');
+    const infoEl = card && card.querySelector(sixMonth ? '.six-term' : '.class-info');
+    const planInfo = infoEl ? infoEl.textContent.replace(/\s+/g, ' ').trim() : '';
     const trustEl = document.querySelector('.enroll-trust');
-    const trust = trustEl ? trustEl.textContent.trim() : 'Monthly billing, cancel any time.';
+    const rating = trustEl ? ((trustEl.textContent.match(/^.*?reviews\./) || [''])[0]) : '';
+    const trust = (rating + ' ' + (sixMonth ? 'One payment covers all 6 months of classes.' : 'Monthly billing, cancel any time.')).trim();
     const methods = isIndian ? 'UPI · Cards · Net banking · Wallets' : 'Debit and credit cards from any country';
     const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     const lock = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
@@ -393,7 +423,7 @@ const CoursePayment = {
           <div class="mac-pay-plan">
             <div class="mac-pay-plan-main">
               <span class="mac-pay-label">Your plan</span>
-              <strong class="mac-pay-plan-name">${esc(this.getPlanShortName(planType))}</strong>
+              <strong class="mac-pay-plan-name">${esc(this.getPlanShortName(planType) + (sixMonth ? ', 6 months' : ''))}</strong>
               ${planInfo ? `<span class="mac-pay-plan-info">${esc(planInfo)}</span>` : ''}
             </div>
             <div class="mac-pay-price"><b>${esc(priceMain)}</b><span>${esc(pricePer)}</span></div>
@@ -450,7 +480,7 @@ const CoursePayment = {
 
     document.getElementById('payment-form').addEventListener('submit', (e) => {
       e.preventDefault();
-      this.processPayment(planType, pricing.amount);
+      this.processPayment(planType, pricing.amount, { billing: this._billing });
     });
   },
 
@@ -473,10 +503,10 @@ const CoursePayment = {
   // "Talk to us first" popup for Group and Mini Batch (India only). Same
   // shell, id and close handling as the payment popup, so Escape, the
   // backdrop and EnrollmentModal.closeAll() treat it the same way.
-  showBatchCheck: function(planType) {
+  showBatchCheck: function(planType, opts) {
     const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     const course = this.courseName || 'a course';
-    const plan = this.getPlanShortName(planType);
+    const plan = this.getPlanShortName(planType) + (opts && opts.billing === 'sixMonth' ? ', 6 months paid at once' : '');
     const waText = 'Hi Modern Age Coders! I would like to join ' + course + ' (' + plan + ').\n\n' +
       'Student name: \nStudent age / class: \nPreferred days and time: \n\n' +
       'Is a batch available at this time, or has the current batch already started?';
@@ -531,7 +561,7 @@ const CoursePayment = {
     overlay.querySelector('.mac-bc-continue').addEventListener('click', () => {
       try { sessionStorage.setItem(this._batchCheckKey(), '1'); } catch (e) { /* private mode */ }
       this._track('batch_check_continue', planType);
-      this.showPaymentModal(planType, { skipBatchCheck: true });
+      this.showPaymentModal(planType, Object.assign({}, opts, { skipBatchCheck: true }));
     });
   },
 
@@ -657,7 +687,8 @@ const CoursePayment = {
   },
 
   // Process payment
-  processPayment: async function(planType, amount) {
+  processPayment: async function(planType, amount, opts) {
+    const sixMonth = !!(opts && opts.billing === 'sixMonth');
     const name = document.getElementById('pay-name').value.trim();
     const email = document.getElementById('pay-email').value.trim();
     const phoneEl = document.getElementById('pay-phone');
@@ -708,7 +739,7 @@ const CoursePayment = {
         this.showError('The Mini Batch plan is available only in India. Please choose Group Classes or Personalized 1-on-1.');
         return;
       }
-      var intlP = this.getIntlPricing(planType);
+      var intlP = sixMonth ? this.getSixMonthPricing(planType, 'international') : this.getIntlPricing(planType);
 
       // HARD STOP, never a fallback. The old line here read
       //   finalAmount = isIndian ? amount : (intlP ? intlP.amount : amount)
@@ -736,7 +767,7 @@ const CoursePayment = {
           currency: currency,
           productType: 'course',
           productId: this.courseSlug,
-          productName: `${this.courseName} - ${this.getPlanName(planType)}`,
+          productName: `${this.courseName} - ${this.getPlanName(planType)}${sixMonth ? ' - 6 months paid at once' : ''}`,
           customerName: name,
           customerEmail: email,
           customerPhone: phoneDigits,
@@ -850,6 +881,7 @@ const CoursePayment = {
         : ((window.__MAC_IS_INDIAN === false) ? 'USD' : 'INR');
       var planType = (payment && payment.planType) || null;
       var planName = planType ? this.getPlanName(planType) : '';
+      if (planName && this._billing === 'sixMonth') planName += ', 6 months paid at once';
 
       // Remember this enrollment in localStorage so the student doesn't see
       // the "Enroll" buttons (and can't accidentally pay twice) when they
