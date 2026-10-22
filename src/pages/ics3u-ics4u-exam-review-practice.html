@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ICS3U and ICS4U Exam Review: Mock Exams With a Marking Guide</title>
+  <meta name="description" content="ICS3U and ICS4U final exam review: two original mock exams with answers, a marking guide built on the Ontario achievement chart, and a Unit 1 quick check.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ics3u-ics4u-exam-review-practice.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2F662E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice">
+  <meta property="og:title" content="ICS3U and ICS4U Exam Review: Mock Exams With a Marking Guide">
+  <meta property="og:description" content="Two mock exams we wrote for Ontario computer science, ICS3U at 50 marks and ICS4U at 40, with every answer and a marking guide sorted by the four achievement chart categories.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ICS3U and ICS4U Exam Review: Mock Exams With a Marking Guide">
+  <meta name="twitter:description" content="Original ICS3U and ICS4U mock exams, with answers and a marking guide.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-iier .ag-hero h1 { letter-spacing: -0.012em; max-width: 23ch; }
+.ag-root.ag-iier .ag-capsule { border-left-width: 5px; border-radius: 1px; }
+.ag-root.ag-iier .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-iier .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-iier .ag-table td { line-height: 1.55; }
+.ag-root.ag-iier .ag-steps li { margin-bottom: 0.65rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice#page","url":"https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice","name":"ICS3U and ICS4U Exam Review","description":"An exam review page for Ontario Grade 11 and Grade 12 computer science students: how the final mark is built under the 2008 curriculum, an original ICS3U mock exam and an original ICS4U mock exam, each with answers and a marking guide by achievement chart category, and a Unit 1 check.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":3,"name":"Ontario","item":"https://learn.modernagecoders.com/coding-classes-in-ontario"},{"@type":"ListItem","position":4,"name":"ICS3U and ICS4U exam review","item":"https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice"}]},{"@type":"Course","name":"ICS3U and ICS4U Exam Review","description":"Live online exam preparation for Ontario ICS3U and ICS4U students in Python or Java, beside the school course, in a batch or one to one. No Ontario credit is granted.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much is the ICS3U or ICS4U final exam worth?","acceptedAnswer":{"@type":"Answer","text":"Under the 2008 Ontario curriculum, 30 per cent of the final grade comes from a final evaluation near the end of the course, such as an examination, a performance or another suitable method, and 70 per cent from evaluations during the course. Each school decides what its final evaluation contains."}},{"@type":"Question","name":"What is on the ICS3U final exam?","acceptedAnswer":{"@type":"Answer","text":"It depends on the school and the teacher. ICS3U covers data types, one-dimensional arrays, control structures, subprograms, debugging and testing, software development, computer systems and topics in computer science, so finals usually draw on those. Ask the teacher what the final evaluation includes."}},{"@type":"Question","name":"What is on the ICS4U final exam?","acceptedAnswer":{"@type":"Answer","text":"Again it depends on the school. ICS4U adds modular and object-oriented design, searching and sorting, recursion, algorithm analysis, formal testing and a team project, so Grade 12 finals usually include tracing recursion, comparing algorithms and writing classes."}},{"@type":"Question","name":"Are these real exam questions?","acceptedAnswer":{"@type":"Answer","text":"No. Both mock exams were written by our teachers for this page. They are not taken from any school, board or past exam, and they do not predict what any particular exam will contain."}},{"@type":"Question","name":"How are ICS3U and ICS4U exams marked?","acceptedAnswer":{"@type":"Answer","text":"Teachers use the achievement chart in the 2008 curriculum, which has four categories: Knowledge and Understanding, Thinking, Communication and Application. Our marking guides tag every question with one category so a student can see which one needs work."}},{"@type":"Question","name":"What mark do I need to pass ICS3U or ICS4U?","acceptedAnswer":{"@type":"Answer","text":"The 2008 curriculum says a student whose achievement is below 50 per cent at the end of a course will not obtain a credit for it. Level 3, 70 to 79 per cent, is called the provincial standard."}},{"@type":"Question","name":"How should I study for the ICS3U final?","acceptedAnswer":{"@type":"Answer","text":"Sit a timed mock on paper, mark it strictly, total the marks by category, keep an error log, redo missed questions from a blank page two days later, and sit a second paper a week after. Trace short programs by hand every day."}},{"@type":"Question","name":"What is usually on an ICS3U Unit 1 test?","acceptedAnswer":{"@type":"Answer","text":"Schools set their own unit order. In our experience a first unit often covers variables, data types, operators and simple input and output. The Unit 1 check on this page tests exactly those, with answers."}},{"@type":"Question","name":"Do you give credits or official exam results?","acceptedAnswer":{"@type":"Answer","text":"No. We prepare students beside the school course and do not grant Ontario credits. Exams, marks and credits come only from the school or credit provider that teaches the course."}},{"@type":"Question","name":"When can we book exam practice sessions?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in your own Ontario time zone."}},{"@type":"Question","name":"What do exam practice classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. After that families pay a monthly fee and can stop at the end of any month, including straight after the exam. The fees section shows the current figure."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-iier">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#marking">How it is marked</a></li>
+      <li><a href="#mock3u">ICS3U mock</a></li>
+      <li><a href="#mock4u">ICS4U mock</a></li>
+      <li><a href="#unit1">Unit 1 check</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-canada">Canada</a> / <a href="/coding-classes-in-ontario">Ontario</a> / ICS3U and ICS4U exam review
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Ontario &middot; Grades 11 and 12 &middot; Final exam review</p>
+        <h1>ICS3U and ICS4U exam review: two mock exams and how to mark them</h1>
+        <p class="ag-lede">Revision pays off most when it is done against a real paper, marked honestly. So we wrote two: a 50-mark ICS3U mock and a 40-mark ICS4U mock, each with every answer and a marking guide that shows where the marks go. Neither is any school&rsquo;s exam, and neither predicts what yours will contain; your teacher&rsquo;s outline does that. Both are built on the achievement chart in the Ontario curriculum, so the practice covers all four categories a teacher assesses. We get students ready for the school&rsquo;s exam, but we do not grant Ontario credits; the exam and the credit belong to the school.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#mock3u" class="ag-btn ag-btn--ghost">Start the ICS3U mock</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20Ontario%20has%20an%20ICS3U%20or%20ICS4U%20final%20exam%20coming%20up.%20Could%20we%20book%20a%20free%20first%20class%20for%20exam%20practice%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'iier'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students &middot; Exam practice in Python or Java</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Covers</dt><dd>ICS3U and ICS4U finals</dd>
+          <dt>ICS3U mock</dt><dd>50 marks, 75 minutes</dd>
+          <dt>ICS4U mock</dt><dd>40 marks, 60 minutes</dd>
+          <dt>Marked by</dt><dd>Four chart categories</dd>
+          <dt>Languages</dt><dd>Python and Java</dd>
+          <dt>Written by</dt><dd>Our teachers</dd>
+          <dt>Credit</dt><dd>Not granted by us</dd>
+          <dt>Start</dt><dd>A free class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">What this page gives you</p>
+      <p>ICS3U and ICS4U exam review for Ontario Grade 11 and 12 computer science: an original 50-mark ICS3U mock exam and a 40-mark ICS4U mock, with answers and a marking guide sorted by the four achievement chart categories. Modern Age Coders runs live online exam practice, for a group or one student, through Ontario Computer Science Companion: ICS3U and ICS4U.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Exam preparation with a teacher</p>
+      <h2>Three courses for the run-up to a final</h2>
+      <p class="ag-lede">The companion course builds exam practice into its last weeks. The other two strengthen the two areas these mocks test most.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ics3u-ics4u-computer-science-companion-course">
+        <div class="ag-pick-shot"><img src="/images/ontario-computer-science-ics3u-ics4u.webp" alt="Ontario Computer Science Companion course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IIER / 01</p>
+          <h3>Ontario Computer Science Companion</h3>
+          <p>Timed mocks marked against the school&rsquo;s own outline, for ICS3U and ICS4U, in Python or Java.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IIER / 02</p>
+          <h3>Python for teens</h3>
+          <p>Tracing, functions and lists until the written questions feel routine.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IIER / 03</p>
+          <h3>Problem solving for teens</h3>
+          <p>Searches, sorts, recursion and classes, the ICS4U half of these mocks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="marking">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the mark is built</p><h2>How ICS3U and ICS4U are marked, from the curriculum</h2><p class="ag-lede">Before practising, it helps to know what a teacher is looking for. The 2008 Computer Studies curriculum sets the rules every Ontario school follows, and two parts of it matter most at exam time: how the final grade splits, and the four categories on the achievement chart.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The final grade</h3><p>Most of the grade, 70 per cent of it, is earned before the final, from work evaluated during the course. The curriculum adds that this part &ldquo;should reflect the student&rsquo;s most consistent level of achievement throughout the course, although special consideration should be given to more recent evidence of achievement.&rdquo;</p>
+<p>The remaining 30 per cent comes from a final evaluation near the end of the course, which the document allows to be an examination, a performance, an essay or another method that suits the course. In computer science that is often a written exam, a coding task, a project or a combination; your teacher decides.</p></div><div><h3>The credit line</h3><p>The achievement chart ends with a plain rule: &ldquo;A student whose achievement is below 50% at the end of a course will not obtain a credit for the course.&rdquo; Each level on the chart has a percentage band: 50 to 59 for level 1, 60 to 69 for level 2, 70 to 79 for level 3 and 80 to 100 for level 4.</p>
+<p>Level 3 is called the &ldquo;provincial standard&rdquo;, and the document is reassuring about it: &ldquo;Parents of students achieving at level 3 can be confident that their children will be prepared for work in subsequent courses.&rdquo;</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The four achievement chart categories, defined in the 2008 Computer Studies curriculum, and what each looks like on an exam (definitions quoted; the last column is ours)</caption><thead><tr><th scope="col">Category</th><th scope="col">The curriculum&rsquo;s definition</th><th scope="col">On a computer science exam (ours)</th></tr></thead><tbody><tr><td>Knowledge and Understanding</td><td>&ldquo;Subject-specific content acquired in each course (knowledge), and the comprehension of its meaning and significance (understanding)&rdquo;</td><td>Vocabulary, error types, what a line of code does, number systems</td></tr><tr><td>Thinking</td><td>&ldquo;The use of critical and creative thinking skills and/or processes&rdquo;</td><td>Tracing, finding and fixing a bug, choosing test cases; the chart names &ldquo;detecting and correcting flaws&rdquo;</td></tr><tr><td>Communication</td><td>&ldquo;The conveying of meaning through various forms.&rdquo;</td><td>Explaining a concept in sentences, pseudocode, clear names and comments</td></tr><tr><td>Application</td><td>&ldquo;The use of knowledge and skills to make connections within and between various contexts.&rdquo;</td><td>Writing working code for a task you have not seen in exactly that form</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the levels mean</h3><p>The chart describes each level with one qualifier, used the same way in every category: &ldquo;limited for level 1, some for level 2, considerable for level 3, and a high degree or thorough for level 4&rdquo;. A level 4 trace is not a longer trace; it is one done with a high degree of effectiveness.</p>
+<p>The document also corrects a common belief: level 4 &ldquo;does not mean that the student has achieved expectations beyond those specified for a particular course&rdquo;. Top marks come from doing the course&rsquo;s own work very well, not from extra topics.</p></div><div><h3>Why our mocks use all four</h3><p>The curriculum tells teachers to assess &ldquo;in a balanced manner with respect to the four categories&rdquo;. Students tend to revise only Application, which means writing code, and then lose marks on a written explanation or a trace.</p>
+<p>So every question in our two mocks is tagged with one category, and the marking guides total the marks by category. A student can see at a glance whether the weak spot is knowing, thinking, explaining or doing.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf" rel="noopener" target="_blank">The Ontario Curriculum, Grades 10 to 12: Computer Studies (2008)</a>, sections on the achievement chart and on evaluation and reporting, read 22 October 2026. The percentage bands are paraphrased from the chart&rsquo;s column headings. No ministry or school board has any part in these mocks.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="map">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The two papers at a glance</p><h2>What the mocks test, mapped to the curriculum</h2><p class="ag-lede">Both mocks are ours. Each question below is tied to a specific expectation code in the 2008 curriculum, so a student who misses a question knows exactly which part of the course to revisit.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>ICS3U mock: questions, expectations and marks (ours; expectation codes from the 2008 curriculum)</caption><thead><tr><th scope="col">Q</th><th scope="col">Topic</th><th scope="col">ICS3U expectation</th><th scope="col">Category</th><th scope="col">Marks</th></tr></thead><tbody><tr><td class="ag-num">1</td><td>Name three errors</td><td>A4.1</td><td>Knowledge and Understanding</td><td class="ag-num">3</td></tr><tr><td class="ag-num">2</td><td>A range that counts down</td><td>A2.2</td><td>Knowledge and Understanding</td><td class="ag-num">2</td></tr><tr><td class="ag-num">3</td><td>Integer division and remainder</td><td>A1.4</td><td>Knowledge and Understanding</td><td class="ag-num">3</td></tr><tr><td class="ag-num">4</td><td>Binary and hexadecimal</td><td>A1.2</td><td>Knowledge and Understanding</td><td class="ag-num">2</td></tr><tr><td class="ag-num">5</td><td>Parameter and return value</td><td>A3.2</td><td>Knowledge and Understanding</td><td class="ag-num">2</td></tr><tr><td class="ag-num">6</td><td>Trace a nested loop</td><td>A4.4</td><td>Thinking</td><td class="ag-num">4</td></tr><tr><td class="ag-num">7</td><td>Find and fix a logic error</td><td>A4.1</td><td>Thinking</td><td class="ag-num">4</td></tr><tr><td class="ag-num">8</td><td>Choose test cases</td><td>B4.4</td><td>Thinking</td><td class="ag-num">4</td></tr><tr><td class="ag-num">9</td><td>Write count_vowels</td><td>A3.2</td><td>Application</td><td class="ag-num">5</td></tr><tr><td class="ag-num">10</td><td>Average and count above it</td><td>A2.3</td><td>Application</td><td class="ag-num">8</td></tr><tr><td class="ag-num">11</td><td>Write a linear search</td><td>A2.3</td><td>Application</td><td class="ag-num">5</td></tr><tr><td class="ag-num">12</td><td>Compiler and interpreter</td><td>C3.4</td><td>Communication</td><td class="ag-num">4</td></tr><tr><td class="ag-num">13</td><td>Pseudocode before code</td><td>B2.4</td><td>Communication</td><td class="ag-num">4</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>ICS4U mock: questions, expectations and marks (ours; expectation codes from the 2008 curriculum)</caption><thead><tr><th scope="col">Q</th><th scope="col">Topic</th><th scope="col">ICS4U expectation</th><th scope="col">Category</th><th scope="col">Marks</th></tr></thead><tbody><tr><td class="ag-num">1</td><td>Trace a recursive power method</td><td>A3.6</td><td>Thinking</td><td class="ag-num">4</td></tr><tr><td class="ag-num">2</td><td>Count the comparisons in selection sort</td><td>C2.3</td><td>Knowledge and Understanding</td><td class="ag-num">4</td></tr><tr><td class="ag-num">3</td><td>Trace binary search</td><td>A3.2, C2.2</td><td>Thinking</td><td class="ag-num">4</td></tr><tr><td class="ag-num">4</td><td>Write a Clock class</td><td>A2.2, C1.2</td><td>Application</td><td class="ag-num">10</td></tr><tr><td class="ag-num">5</td><td>Column totals in a grid</td><td>A3.5</td><td>Application</td><td class="ag-num">6</td></tr><tr><td class="ag-num">6</td><td>Three kinds of testing</td><td>A4.2</td><td>Communication</td><td class="ag-num">6</td></tr><tr><td class="ag-num">7</td><td>A negative exponent</td><td>C2.4, A1.1</td><td>Thinking</td><td class="ag-num">6</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Totals by category</h3><p>ICS3U, 50 marks: Knowledge and Understanding 12, Thinking 12, Application 18, Communication 8. ICS4U, 40 marks: Knowledge and Understanding 4, Thinking 14, Application 16, Communication 6.</p>
+<p>The ICS4U paper leans on Thinking because Grade 12 adds recursion and algorithm analysis, both of which are reasoning before they are code. Your school&rsquo;s split may differ; ask the teacher how the final is weighted.</p></div><div><h3>The rules for sitting them</h3><p>Sit each one in one go, on paper, with no notes and no computer: 75 minutes for ICS3U and 60 for ICS4U. Write code by hand where a question asks for code. Mark it with the guide only after the time is up.</p>
+<p>Both papers use Python for most code. Where a question gives Java, read it as Java; where it asks you to write code, use whichever language your class uses.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="mock3u">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Mock exam one, ours</p><h2>The ICS3U mock exam: 50 marks, 75 minutes</h2><p class="ag-lede">Written by our teachers for this page, at the level of a Grade 11 final. It is not taken from any school, board or past exam. Answer every question before opening the marking guide below it.</p></div>
+    <p><b>Section 1: Knowledge and Understanding (12 marks)</b></p>
+    <ol class="ag-steps"><li><b>(3 marks)</b> Name the kind of error in each: (a) <code>print(&quot;hello&quot;</code> with the closing bracket missing; (b) a program meant to average four numbers divides their total by 3; (c) a program reads <code>nums[5]</code> from a list of five numbers.</li><li><b>(2 marks)</b> What does the loop below print?</li><li><b>(3 marks)</b> What exact line does the Java statement below print?</li><li><b>(2 marks)</b> Convert the binary number 101101 to decimal, then convert your answer to hexadecimal.</li><li><b>(2 marks)</b> In one sentence each, define a parameter and a return value.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 2 &middot; Python</b><span>python</span></figcaption><pre>for k in range(10, 0, -3):
+    print(k, end=" ")</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 3 &middot; Java</b><span>java</span></figcaption><pre>System.out.println(17 / 5 + " " + 17 % 5 + " " + 17.0 / 5);</pre></figure>
+    <p class="ag-mt-40"><b>Section 2: Thinking (12 marks)</b></p>
+    <p><b>Question 6 (4 marks).</b> Trace the program below and write exactly what it prints.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 6 &middot; Python</b><span>python</span></figcaption><pre>rows = 4
+for r in range(1, rows + 1):
+    line = ""
+    for c in range(r):
+        line = line + str(c + 1)
+    print(line)</pre></figure>
+    <p><b>Question 7 (4 marks).</b> This Java code should print the average of the three marks, about 81.67, but prints 81.0. Explain why, name the kind of error, and fix it.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 7 &middot; Java</b><span>java</span></figcaption><pre>int[] marks = {70, 85, 90};
+int total = 0;
+for (int m : marks) total += m;
+double average = total / marks.length;
+System.out.println(average);</pre></figure>
+    <p><b>Question 8 (4 marks).</b> Choose four years to test the function below. For each, give the expected result and say what the test checks. Do not run it.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 8 &middot; Python</b><span>python</span></figcaption><pre>def is_leap_year(year):
+    if year % 400 == 0:
+        return True
+    if year % 100 == 0:
+        return False
+    return year % 4 == 0</pre></figure>
+    <p class="ag-mt-40"><b>Section 3: Application (18 marks)</b></p>
+    <p><b>Question 9 (5 marks).</b> Write a function <code>count_vowels(word)</code> that returns how many of a, e, i, o, u appear in a word, in upper or lower case.</p>
+    <p><b>Question 10 (8 marks).</b> Store these five temperatures in an array or list: -3, 4, 11, -8, 6. Print their average, then print how many are above the average. Do not use a built-in average function.</p>
+    <p><b>Question 11 (5 marks).</b> Write <code>linear_search(values, target)</code> that returns the index of the first value equal to target, or -1 if there is none.</p>
+    <p class="ag-mt-40"><b>Section 4: Communication (8 marks)</b></p>
+    <p><b>Question 12 (4 marks).</b> In three or four sentences, explain the difference between a compiler and an interpreter, and say which one your class language uses.</p>
+    <p><b>Question 13 (4 marks).</b> Write the pseudocode you would plan before coding Question 10. Use numbered steps and clear names.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="guide3u">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Marking guide, ours</p><h2>ICS3U mock: answers and marking guide</h2><p class="ag-lede">Mark honestly, and give part marks only where the guide does. Every program was run in Python 3.13 or Java 22 to confirm the values.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>ICS3U mock marking guide (ours)</caption><thead><tr><th scope="col">Q</th><th scope="col">Full-mark answer</th><th scope="col">Where the marks go</th></tr></thead><tbody><tr><td class="ag-num">1</td><td>(a) syntax error; (b) logic error; (c) run-time error</td><td>One mark each. Logic means it runs but gives a wrong answer; run-time means it stops while running</td></tr><tr><td class="ag-num">2</td><td>10 7 4 1</td><td>One mark for starting at 10 and stepping by -3, one for stopping before 0</td></tr><tr><td class="ag-num">3</td><td>3 2 3.4</td><td>One mark per part: int division, the remainder, then decimal division because 17.0 is a double</td></tr><tr><td class="ag-num">4</td><td>45 in decimal, 2D in hexadecimal</td><td>32 + 8 + 4 + 1 = 45; 45 is 2 sixteens and 13, and 13 is D. One mark each</td></tr><tr><td class="ag-num">5</td><td>A parameter is a value a function receives when it is called; a return value is the value it sends back</td><td>One mark each; an example earns the mark if the sentence is vague</td></tr><tr><td class="ag-num">6</td><td>Four lines: 1, 12, 123, 1234</td><td>One mark per correct line. The inner loop runs r times on row r</td></tr><tr><td class="ag-num">7</td><td>total / marks.length divides two ints, so 245 / 3 is 81 before it becomes a double. Logic error. Fix: (double) total / marks.length, which prints 81.66666666666667</td><td>One for the cause, one for naming a logic error, two for a working fix</td></tr><tr><td class="ag-num">8</td><td>2024 True (divisible by 4); 2023 False (not divisible by 4); 1900 False (divisible by 100 but not 400); 2000 True (divisible by 400)</td><td>One mark per year with its reason. Missing 1900 or 2000 means the century rules were never tested</td></tr><tr><td class="ag-num">9</td><td>See the code below. Saskatchewan gives 4 and rhythm gives 0</td><td>Two for the loop, one for the vowel test, one for handling capitals, one for returning rather than printing</td></tr><tr><td class="ag-num">10</td><td>Average 2.0, and 3 values above it (4, 11 and 6)</td><td>Two for storing the values, two for the total, one for the average, two for the second loop, one for both outputs</td></tr><tr><td class="ag-num">11</td><td>See the code below. [4, 9, 2, 9] with target 9 gives 1; target 7 gives -1</td><td>Two for the loop, one for returning the index at the first match, two for returning -1 only after the loop ends</td></tr><tr><td class="ag-num">12</td><td>A compiler translates the whole program before it runs; an interpreter translates and runs it line by line. Java is compiled to bytecode first; Python runs through an interpreter</td><td>One for each definition, one for a correct example, one for clear sentences</td></tr><tr><td class="ag-num">13</td><td>Numbered steps: store the five values; set total to 0; add each value; average is total divided by the count; set above to 0; for each value, if it is greater than the average add 1; print both</td><td>Two for the right steps in order, two for clarity a classmate could code from</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Answer 9 &middot; Python (ours)</b><span>python</span></figcaption><pre>def count_vowels(word):
+    count = 0
+    for ch in word.lower():
+        if ch in "aeiou":
+            count += 1
+    return count
+
+print(count_vowels("Saskatchewan"))   # 4
+print(count_vowels("rhythm"))         # 0</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Answer 10 &middot; Java (ours)</b><span>java</span></figcaption><pre>double[] temps = {-3, 4, 11, -8, 6};
+double sum = 0;
+for (int i = 0; i &lt; temps.length; i++) {
+    sum += temps[i];
+}
+double avg = sum / temps.length;
+int above = 0;
+for (int i = 0; i &lt; temps.length; i++) {
+    if (temps[i] &gt; avg) {
+        above++;
+    }
+}
+System.out.println(avg + " " + above);   // 2.0 3</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Answer 11 &middot; Python (ours)</b><span>python</span></figcaption><pre>def linear_search(values, target):
+    for i in range(len(values)):
+        if values[i] == target:
+            return i          # the first match wins
+    return -1                 # checked everything: not there
+
+print(linear_search([4, 9, 2, 9], 9))   # 1
+print(linear_search([4, 9, 2, 9], 7))   # -1</pre><p class="ag-code-note">A common mistake is an else: return -1 inside the loop. That returns after checking only the first value, so linear_search([4, 9, 2, 9], 9) would wrongly give -1.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading your score</h3><p>Total your marks by section as well as overall. A student with 16 of 18 in Application but 4 of 12 in Thinking needs tracing practice, not more coding, even though the total looks fine.</p>
+<p>Questions 7 and 8 are the ones most students drop marks on. Both reward slowing down: working out what a line really does, and choosing tests at the edges rather than in the middle.</p></div><div><h3>If you scored low on one section</h3><p><b>Knowledge and Understanding:</b> make flash cards for error types, operators and number systems. <b>Thinking:</b> trace three short programs a day on paper. <b>Application:</b> rewrite questions 9 to 11 from a blank file, then change the task slightly and write them again.</p>
+<p><b>Communication:</b> explain one concept a day out loud in four sentences, then write it down. Pseudocode improves fastest when someone else tries to follow yours.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="mock4u">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Mock exam two, ours</p><h2>The ICS4U mock exam: 40 marks, 60 minutes</h2><p class="ag-lede">Written by our teachers for this page, at the level of a Grade 12 final. Like the first mock, it is ours alone and not drawn from any school&rsquo;s exam. Questions 1 and 7 use the same recursive method below.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>For Questions 1 and 7 &middot; Python</b><span>python</span></figcaption><pre>def power(base, exp):
+    if exp == 0:
+        return 1
+    half = power(base, exp // 2)
+    if exp % 2 == 0:
+        return half * half
+    return half * half * base</pre></figure>
+    <ol class="ag-steps"><li><b>Question 1 (4 marks, Thinking).</b> What does power(2, 10) return, and how many times is power called in total, counting the first call? Why is that fewer than ten?</li><li><b>Question 2 (4 marks, Knowledge and Understanding).</b> Selection sort is run on a list of six numbers. How many comparisons does it make if the list is already sorted, and how many if it is shuffled? Give the formula for n items, and name a sort that does far fewer comparisons on an already sorted list.</li><li><b>Question 3 (4 marks, Thinking).</b> Using the list below, write each middle index and value that binary search checks when searching for 58, and then for 10. Say what each search returns.</li><li><b>Question 4 (10 marks, Application).</b> Write a class Clock that stores hours (0 to 23) and minutes (0 to 59) as private data, refuses an invalid time when it is created, has a method tick() that moves forward one minute and wraps from 23:59 to 00:00, and prints itself as HH:MM.</li><li><b>Question 5 (6 marks, Application).</b> Write code that prints the total of each column of the grid below as a list.</li><li><b>Question 6 (6 marks, Communication).</b> Explain unit testing, integration testing and regression testing, with one example of each using your Clock class.</li><li><b>Question 7 (6 marks, Thinking).</b> What happens when power(2, -1) is called in Python? The same method written in Java with int division returns a number instead. What number, and why do the two languages differ? How would you fix the method?</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>For Question 3</b><span>python</span></figcaption><pre>vals = [3, 8, 12, 15, 21, 26, 30, 34, 41, 47, 52, 58, 63, 70, 77]
+# binary search with lo = 0, hi = 14, mid = (lo + hi) // 2</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>For Question 5</b><span>python</span></figcaption><pre>grid = [[2, 7, 1, 8],
+        [2, 8, 1, 8],
+        [4, 5, 9, 0]]</pre></figure>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="guide4u">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Marking guide, ours</p><h2>ICS4U mock: answers and marking guide</h2><p class="ag-lede">The same rules: mark only after the full 60 minutes, and give part marks only as the guide allows. All values were checked by running the code.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>ICS4U mock marking guide (ours)</caption><thead><tr><th scope="col">Q</th><th scope="col">Full-mark answer</th><th scope="col">Where the marks go</th></tr></thead><tbody><tr><td class="ag-num">1</td><td>It returns 1024, in 5 calls: exponents 10, 5, 2, 1 and 0. Each call halves the exponent, so the number of calls grows with the number of halvings, not with the exponent itself</td><td>One for 1024, one for 5 calls, two for the halving explanation</td></tr><tr><td class="ag-num">2</td><td>15 comparisons in both cases. Selection sort always compares every remaining pair: n(n - 1) / 2. Insertion sort needs only n - 1, which is 5 here, on a sorted list</td><td>One for 15 sorted, one for 15 shuffled, one for the formula, one for naming insertion sort with its count</td></tr><tr><td class="ag-num">3</td><td>For 58: index 7 (34), then index 11 (58), found, returns 11. For 10: index 7 (34), index 3 (15), index 1 (8), index 2 (12), then lo passes hi, returns -1</td><td>Two for each search: one for the sequence of middles, one for the return value</td></tr><tr><td class="ag-num">4</td><td>See the code below: private fields, a validating constructor, tick() with the wrap at 60 minutes and 24 hours, and a two-digit HH:MM string. From 23:58, two ticks give 23:59 then 00:00</td><td>Two for private fields, two for validation, three for tick() including both wraps, two for the formatted string, one for a test of the midnight case</td></tr><tr><td class="ag-num">5</td><td>[8, 20, 11, 16]</td><td>Two for the nested loops, two for adding grid[r][c] into the right column, one for the list, one for the correct output</td></tr><tr><td class="ag-num">6</td><td>Unit: test tick() alone, for example 9:05 ticked 60 times gives 10:05. Integration: test Clock inside the program that uses it, such as an alarm that checks the time. Regression: rerun all the old tests after any change to Clock</td><td>Two marks for each kind: one for the definition, one for a sensible example</td></tr><tr><td class="ag-num">7</td><td>Python raises RecursionError: -1 // 2 is -1, so exp never reaches 0. Java int division rounds toward zero, so -1 / 2 is 0 and the base case is reached, but -1 % 2 is -1, so the odd branch returns 1 * 1 * 2, which is 2, a wrong answer. Fix: reject a negative exponent at the start, or return 1 / power(base, -exp) using a decimal type</td><td>Two for the Python behaviour with its reason, two for the Java value with its reason, two for a working fix</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Answer 4 &middot; Java (ours)</b><span>java</span></figcaption><pre>// A 24-hour clock that keeps its own time valid (ours, mock exam answer)
+public class Clock {
+    private int hours;     // 0 to 23
+    private int minutes;   // 0 to 59
+
+    public Clock(int hours, int minutes) {
+        if (hours &lt; 0 || hours &gt; 23 || minutes &lt; 0 || minutes &gt; 59) {
+            throw new IllegalArgumentException("not a valid time");
+        }
+        this.hours = hours;
+        this.minutes = minutes;
+    }
+
+    // Move forward one minute, wrapping past 23:59 to 00:00.
+    public void tick() {
+        minutes++;
+        if (minutes == 60) {
+            minutes = 0;
+            hours = (hours + 1) % 24;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%02d:%02d", hours, minutes);
+    }
+
+    public static void main(String[] args) {
+        Clock c = new Clock(23, 58);
+        c.tick();
+        System.out.println(c);      // 23:59
+        c.tick();
+        System.out.println(c);      // 00:00
+        Clock d = new Clock(9, 5);
+        for (int i = 0; i &lt; 60; i++) {
+            d.tick();
+        }
+        System.out.println(d);      // 10:05
+    }
+}</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Answer 4 &middot; Python (ours)</b><span>python</span></figcaption><pre>class Clock:
+    """A 24-hour clock that keeps its own time valid (ours)."""
+
+    def __init__(self, hours, minutes):
+        if not (0 &lt;= hours &lt;= 23 and 0 &lt;= minutes &lt;= 59):
+            raise ValueError("not a valid time")
+        self._hours = hours
+        self._minutes = minutes
+
+    def tick(self):
+        """Move forward one minute, wrapping past 23:59 to 00:00."""
+        self._minutes += 1
+        if self._minutes == 60:
+            self._minutes = 0
+            self._hours = (self._hours + 1) % 24
+
+    def __str__(self):
+        return f"{self._hours:02d}:{self._minutes:02d}"
+
+
+c = Clock(23, 58)
+c.tick()
+print(c)      # 23:59
+c.tick()
+print(c)      # 00:00</pre><p class="ag-code-note">Both versions print 23:59 and then 00:00. The Java main also checks a full hour: 09:05 ticked 60 times prints 10:05.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What question 7 is really testing</h3><p>Two languages, one method, two different failures. Python&rsquo;s floor division sends -1 to -1 forever, which is the infinite recursion pitfall the ICS4U curriculum names. Java&rsquo;s division reaches the base case and returns a confident wrong answer, which is worse, because nothing warns you.</p>
+<p>The lesson: a recursive method needs a precondition, here that the exponent is not negative, and the method should check it rather than trust the caller.</p></div><div><h3>Where Grade 12 students lose marks</h3><p>On Question 4, most lost marks are the wrap: forgetting that hours must also wrap at 24, or printing 0:0 instead of 00:00. On Question 3, students often check the wrong middle after moving lo or hi by mid instead of mid plus or minus one.</p>
+<p>On Question 2, many write that a sorted list makes selection sort faster. It does not; it still compares every pair. Knowing which algorithms care about their input is a classic Grade 12 analysis point.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="unit1">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">For the first test of the year</p><h2>ICS3U Unit 1 test: a quick check, ours</h2><p class="ag-lede">Schools choose their own unit order, so Unit 1 is not the same everywhere. In the classes our students attend, the first test usually covers variables, operators and simple output, so here is a short check on exactly those, with answers. Predict each printed line before you run anything.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Unit 1 check &middot; Python (ours)</b><span>python</span></figcaption><pre>print(15 // 4, 15 % 4, 15 / 4)
+
+a = 5
+b = 9
+a = b
+b = a
+print(a, b)
+
+print("ha" * 3)
+print(3 &gt; 2 and 2 &gt; 3, 3 &gt; 2 or 2 &gt; 3)
+
+c = 25
+f = c * 9 / 5 + 32
+print(f)</pre><p class="ag-code-note">Five things are printed. Write all five on paper first.</p></figure>
+    <ol class="ag-steps"><li><b>3 3 3.75.</b> // keeps the whole part, % gives the remainder, and / gives the exact decimal. 15 is 3 fours with 3 left over.</li><li><b>9 9.</b> After a = b, the 5 is gone. Then b = a copies 9 back into b. Swapping needs a third variable, or Python&rsquo;s a, b = b, a.</li><li><b>hahaha.</b> Multiplying text by a whole number repeats it.</li><li><b>False True.</b> and needs both sides true; or needs at least one.</li><li><b>77.0.</b> 25 times 9 is 225, divided by 5 is 45.0, plus 32 is 77.0. The / makes it a decimal even though the answer is whole.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Scored four or five?</h3><p>You are ready for a first unit test on these basics. Spend your remaining time on the habit that matters for the rest of the course: predicting the output of short programs before running them.</p>
+<p>Then try Section 1 of the ICS3U mock above. Its questions start at about this level and climb.</p></div><div><h3>Scored three or fewer?</h3><p>Go back to each one you missed and change a single value, then predict again. The swap question in particular trips up students at every level, and it reappears later when sorting arrays.</p>
+<p>A teacher who watches you trace one program out loud can usually find the misunderstanding in a few minutes. That is often the fastest fix.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="protocol">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Using the mocks well</p><h2>How to turn a mock exam into marks: a six-step routine</h2><p class="ag-lede">A mock is only useful if it changes what you do next. This routine is ours, and it works for these two papers and for your own old tests.</p></div>
+    <ol class="ag-steps"><li><b>Sit it cold, timed and on paper.</b> No notes, no computer, the full time. The point is to find out what you can do under exam conditions, not what you can look up.</li><li><b>Mark it the same day with the guide.</b> Give yourself only the part marks the guide allows. Be strict; a teacher will be.</li><li><b>Total by category.</b> Knowledge and Understanding, Thinking, Communication, Application. Your lowest category is your revision plan for the week.</li><li><b>Write an error log.</b> For every lost mark, write the question, what you wrote, what was right, and why you missed it in one line. Patterns appear by the third entry.</li><li><b>Redo the missed questions from scratch two days later.</b> Not from memory of the answer: from a blank page. If you get it right, it counts as learned.</li><li><b>Sit the other mock, or one of your own old tests, a week later.</b> Compare category totals. The weak category should have moved.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>What to do with a mock score (ours; a mock score is a practice signal, not an achievement chart level)</caption><thead><tr><th scope="col">Mock score</th><th scope="col">What it suggests</th><th scope="col">Next step</th></tr></thead><tbody><tr><td>80 per cent or more</td><td>Strong on this material</td><td>Practise timing and the written explanations; try harder variants</td></tr><tr><td>70 to 79 per cent</td><td>Solid, with gaps</td><td>Fix the lowest category first, then resit</td></tr><tr><td>60 to 69 per cent</td><td>Uneven</td><td>Daily tracing and a full redo of missed questions</td></tr><tr><td>Under 60 per cent</td><td>Important gaps</td><td>Rebuild one unit at a time, with help from a teacher</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The bands above follow the achievement chart&rsquo;s percentage columns on purpose, but a mock score is not a level. Your teacher evaluates your work against the course expectations, across the whole course, and only the school&rsquo;s own evaluation counts toward the final grade.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="credit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Exam help, not the credit</p><h2>What our exam preparation is, and what it is not</h2><p class="ag-lede">We prepare students for their school&rsquo;s exam. We do not set it, see it in advance or mark it, and the credit is the school&rsquo;s alone.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What a session looks like</h3><p>A student brings their course outline, their old tests and the date of the final. We sit a mock together or set one as homework, mark it with them, and spend the session on the lowest category: often tracing for Grade 11 and recursion for Grade 12.</p>
+<p>In the last week we switch to short timed sets and explanation practice, because the night before is not the time for new topics.</p></div><div><h3>Where the credit comes from</h3><p>Only the school, night school, summer school or credit provider that teaches and evaluates ICS3U or ICS4U can grant its credit. Modern Age Coders runs classes beside that course; we do not grant Ontario credits and we never contact a school about a student&rsquo;s exam.</p>
+<p>We will not write any part of a student&rsquo;s graded work, and we will not help anyone cheat on an exam. Practice papers like the two above exist so that a student can earn the mark themselves.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Exam readiness</p>
+      <h2>Four stages of exam readiness</h2>
+      <p class="ag-lede">Our own stages, from preparing Grade 11 and 12 students for computer science finals.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From knowing the course to ready for the final (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Recognises</td><td class="ag-num">Understands the answer when shown it, but could not have written it</td></tr><tr><td>2. Recalls</td><td class="ag-num">Writes standard algorithms from memory, slowly and with notes nearby</td></tr><tr><td>3. Performs</td><td class="ag-num">Completes a full mock in the time, on paper, at a steady pace</td></tr><tr><td>4. Explains</td><td class="ag-num">Says why each answer is right, in clear sentences, and catches their own errors</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Most students overestimate their stage, because recognising an answer feels like knowing it. A timed mock is the honest test.</p>
+<p>Ask to see the category totals, not just the score. They show what kind of help is needed.</p></div><div><h3>For students</h3><p>Stage 1 to stage 2 is about rewriting from a blank page. Stage 2 to 3 is about the clock. Stage 3 to 4 is about talking through your work.</p>
+<p>Keep the error log. Rereading it the night before is better revision than a new topic.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Further study</p>
+      <h2>Nine courses for after the exam, or before the next one</h2>
+      <p class="ag-lede">Each runs live with a regular teacher, for a batch or one student.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Grade 11 and 12 support</h3>
+        <span class="ag-band-sub">Grades 11 and 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / SUP / 01</p>
+          <h4>Java for teens</h4>
+          <p>For finals written in Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / SUP / 02</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Tidy project history before the final project is due.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / SUP / 03</p>
+          <h4>C++ for teens</h4>
+          <p>A third language once the course is done.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Contests</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / CON / 01</p>
+          <h4>CCC Junior and Senior preparation</h4>
+          <p>Timed problem solving, the next level after a final.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / CON / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Harder problems, faster.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / CON / 03</p>
+          <h4>Hackathon preparation</h4>
+          <p>A weekend build with a team.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond the course</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / BYD / 01</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Models built and tested from scratch.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / BYD / 02</p>
+          <h4>Full stack web development</h4>
+          <p>A complete web app, front to back.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IIER / BYD / 03</p>
+          <h4>Data science for teens</h4>
+          <p>Real data in Python, from question to chart.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Class times</p>
+      <h2>Exam practice that fits the last weeks of a semester</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evening sessions for timed sets during exam season.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer mornings for a full mock and its marking.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Booked close to the exam date for final review.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Timed mocks</h3><p>Sat on paper, under real conditions.</p></div>
+      <div><h3>Marked together</h3><p>Category by category, honestly.</p></div>
+      <div><h3>Error logs</h3><p>Kept and reviewed every session.</p></div>
+      <div><h3>Python or Java</h3><p>The language of the class.</p></div>
+      <div><h3>One teacher</h3><p>Who knows the student&rsquo;s weak spots.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty, or just one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student projects</h2>
+      <p class="ag-lede">Some of what students have built with us once exams were done. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Your first class costs nothing. Families then pay a monthly fee for eight live classes a month, displayed below in your currency, with no contract beyond the month, so you can stop once the exam is over.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring an old test or the outline</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty per batch</li><li>One regular teacher</li><li>Batch time of your choice</li><li>Paid each month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A private teacher</li><li>Sessions near the exam date</li><li>Planned from their own tests</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Families on Google, in their own words.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Exam questions from families</p>
+      <h2>ICS3U and ICS4U exams: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>How much is the ICS3U or ICS4U final exam worth?</h3>
+        <p>Under the 2008 Ontario curriculum, 30 per cent of the final grade comes from a final evaluation near the end of the course, such as an examination, a performance or another suitable method, and 70 per cent from evaluations during the course. Each school decides what its final evaluation contains.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is on the ICS3U final exam?</h3>
+        <p>It depends on the school and the teacher. ICS3U covers data types, one-dimensional arrays, control structures, subprograms, debugging and testing, software development, computer systems and topics in computer science, so finals usually draw on those. Ask the teacher what the final evaluation includes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is on the ICS4U final exam?</h3>
+        <p>Again it depends on the school. ICS4U adds modular and object-oriented design, searching and sorting, recursion, algorithm analysis, formal testing and a team project, so Grade 12 finals usually include tracing recursion, comparing algorithms and writing classes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are these real exam questions?</h3>
+        <p>No. Both mock exams were written by our teachers for this page. They are not taken from any school, board or past exam, and they do not predict what any particular exam will contain.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are ICS3U and ICS4U exams marked?</h3>
+        <p>Teachers use the achievement chart in the 2008 curriculum, which has four categories: Knowledge and Understanding, Thinking, Communication and Application. Our marking guides tag every question with one category so a student can see which one needs work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What mark do I need to pass ICS3U or ICS4U?</h3>
+        <p>The 2008 curriculum says a student whose achievement is below 50 per cent at the end of a course will not obtain a credit for it. Level 3, 70 to 79 per cent, is called the provincial standard.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How should I study for the ICS3U final?</h3>
+        <p>Sit a timed mock on paper, mark it strictly, total the marks by category, keep an error log, redo missed questions from a blank page two days later, and sit a second paper a week after. Trace short programs by hand every day.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is usually on an ICS3U Unit 1 test?</h3>
+        <p>Schools set their own unit order. In our experience a first unit often covers variables, data types, operators and simple input and output. The Unit 1 check on this page tests exactly those, with answers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you give credits or official exam results?</h3>
+        <p>No. We prepare students beside the school course and do not grant Ontario credits. Exams, marks and credits come only from the school or credit provider that teaches the course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can we book exam practice sessions?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in your own Ontario time zone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do exam practice classes cost?</h3>
+        <p>The first class is free. After that families pay a monthly fee and can stop at the end of any month, including straight after the exam. The fees section shows the current figure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Other guides</p>
+      <h2>More for Grade 11 and 12 computer science</h2>
+      <p class="ag-lede">Course guides and study help for Ontario students.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ics3u-computer-science-help">ICS3U computer science help</a></h3><p>The Grade 11 course explained, strand by strand.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-read-code">How to read code</a></h3><p>The core skill behind every tracing question.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>Finding the cause of an error instead of guessing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/recursion-explained-for-beginners">Recursion explained</a></h3><p>Before the ICS4U mock, if recursion still feels strange.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-ontario">Coding classes in Ontario</a></h3><p>Live classes for every age in Ontario.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>For students who enjoyed the hardest questions here.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Canada</a></h3><p>Every Canadian page on this site.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us the course, the language, the exam date and one topic that worries your teen. The first class is a short mock on that topic, marked together.</p>
+        <p class="ag-mt-40">To read more first, see the <a class="ag-inline-link" href="/courses/ics3u-ics4u-computer-science-companion-course">companion course syllabus</a>, which includes its exam weeks, or <a class="ag-inline-link" href="/how-we-teach">how we teach</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20Ontario%20has%20an%20ICS3U%20or%20ICS4U%20final%20exam%20coming%20up.%20Could%20we%20book%20a%20free%20first%20class%20for%20exam%20practice%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'iier',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are live online with teachers who work from India, so exam practice fits around school without any travel. WhatsApp is the fastest way to reach us from Ontario.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_iier(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Booking the free class asks for no card at all.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Exam preparation</h4><ul><li><a href="/courses/ics3u-ics4u-computer-science-companion-course">ICS3U and ICS4U companion</a></li><li><a href="/ics3u-computer-science-help">ICS3U help</a></li><li><a href="/how-to-read-code">How to read code</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/coding-classes-in-ontario">Coding classes in Ontario</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/online-math-tutor-canada">Math tutoring in Canada</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Sit it timed, mark it strictly, redo it cold</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_iier = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'ics3u-ics4u-exam-review-practice-inline', meta: { name: name, age: age, page: 'ics3u-ics4u-exam-review-practice' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

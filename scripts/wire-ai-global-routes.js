@@ -509,6 +509,7 @@ const SLUGS = [
   'ics4u-computer-science-help',
   'ics3u-vs-ics3c',
   'icd2o-digital-technology-course-explained',
+  'ics3u-ics4u-exam-review-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1097,6 +1098,7 @@ const LLMS_LABELS = {
   'ics4u-computer-science-help': 'ICS4U computer science help',
   'ics3u-vs-ics3c': 'ICS3U vs ICS3C',
   'icd2o-digital-technology-course-explained': 'ICD2O explained',
+  'ics3u-ics4u-exam-review-practice': 'ICS3U and ICS4U exam review',
 };
 
 function wireLlms(slugs) {
