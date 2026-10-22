@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Online coding summer camp for Canadian students](/online-coding-summer-camp-canada)
 - [Homeschool coding and math in BC](/homeschool-coding-and-math-bc)
 - [Homeschool coding and math in Alberta](/homeschool-coding-and-math-alberta)
 - [Homeschool coding and math in Ontario](/homeschool-coding-and-math-ontario)

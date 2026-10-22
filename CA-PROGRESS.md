@@ -252,7 +252,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 74 | coding-classes-for-seniors-in-canada (sc, #703F36) | door | 4,454 | 1.3% vs ccc-junior-guide | subject door | practical projects | 6d1b1ffd |
 | 76 | homeschool-coding-and-math-ontario (hmo, #485231) | door | 4,581 | 1.7% vs ccc-junior-guide | homeschool guide | weekly planning | f5a98d39 |
 | 77 | homeschool-coding-and-math-alberta (hma, #325C1E) | door | 4,663 | 1.8% vs math-classes-for-kids-in-canada | homeschool guide | weekly planning | 0adabafc |
-| 78 | homeschool-coding-and-math-bc (hmb, #154C24) | door | 4,603 | 1.2% vs math-classes-for-kids-in-canada | homeschool guide | weekly planning | (this commit) |
+| 78 | homeschool-coding-and-math-bc (hmb, #154C24) | door | 4,603 | 1.2% vs math-classes-for-kids-in-canada | homeschool guide | weekly planning | fdad76b9 |
+| 86 | online-coding-summer-camp-canada (scc, #2B6B20) | break | 5,351 | 1.4% vs best-online-coding-classes-in-canada | camp guide | cipher project | (this commit) |
 
 ## Skipped
 
