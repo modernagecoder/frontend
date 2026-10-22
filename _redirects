@@ -7646,4 +7646,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /mcf3m-vs-mcr3u /src/pages/mcf3m-vs-mcr3u.html 200
 /mcf3m-vs-mcr3u.md /src/pages/mcf3m-vs-mcr3u.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ontario-coding-curriculum-grades-1-to-8 /src/pages/ontario-coding-curriculum-grades-1-to-8.html 200
+/ontario-coding-curriculum-grades-1-to-8.md /src/pages/ontario-coding-curriculum-grades-1-to-8.md 200
 /* /src/pages/404.html 404

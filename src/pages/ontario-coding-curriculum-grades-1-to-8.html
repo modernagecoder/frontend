@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ontario Math Curriculum Coding, Grades 1 to 8, by Grade</title>
+  <meta name="description" content="Coding in the Ontario math curriculum, Grade 1 to Grade 8: the C3.1 expectation for each grade, quoted, what it means, and a worked example for every band.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ontario-coding-curriculum-grades-1-to-8.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#0C5215">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8">
+  <meta property="og:title" content="Ontario Math Curriculum Coding, Grades 1 to 8, by Grade">
+  <meta property="og:description" content="Every grade of Ontario’s 2020 math curriculum asks children to code. Here is the C3.1 wording for Grades 1 to 8, side by side, with our own example programs and a plan for parents.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ontario Math Curriculum Coding, Grades 1 to 8, by Grade">
+  <meta name="twitter:description" content="The Ontario C3.1 coding expectation for Grades 1 to 8, quoted grade by grade, with example code.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ont .ag-hero h1 { letter-spacing: -0.01em; max-width: 20ch; }
+.ag-root.ag-ont .ag-capsule { border-left-width: 6px; border-radius: 0; }
+.ag-root.ag-ont .ag-table td:first-child { font-weight: 600; white-space: nowrap; }
+.ag-root.ag-ont .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-ont .ag-code-note { font-style: normal; }
+.ag-root.ag-ont .ag-steps li { margin-bottom: 0.6rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8#page","url":"https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8","name":"Ontario Coding Curriculum, Grades 1 to 8","description":"A reference for Ontario parents and teachers to the coding expectations in the 2020 elementary mathematics curriculum, quoted for every grade from 1 to 8, with original example programs and a home plan.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":3,"name":"Ontario","item":"https://learn.modernagecoders.com/coding-classes-in-ontario"},{"@type":"ListItem","position":4,"name":"Coding curriculum, Grades 1 to 8","item":"https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8"}]},{"@type":"Course","name":"Ontario Coding Curriculum, Grades 1 to 8","description":"Live online coding for Ontario children aged 6 to 14, from Scratch blocks to first Python, taught in a batch or one to one by a regular teacher, alongside the school math program.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is coding part of the Ontario math curriculum?","acceptedAnswer":{"@type":"Answer","text":"Yes. The 2020 Ontario elementary mathematics curriculum includes coding in Strand C, Algebra, as overall expectation C3, in every grade from 1 to 8. Students are expected to solve problems and create computational representations of mathematical situations using coding concepts and skills."}},{"@type":"Question","name":"What is the Grade 1 coding expectation in Ontario?","acceptedAnswer":{"@type":"Answer","text":"Grade 1 C3.1 asks students to solve problems and represent math situations by writing and executing code that involves sequential events, meaning instructions carried out in order. C3.2 asks them to read and alter existing code with sequential events and describe how the changes affect the outcome."}},{"@type":"Question","name":"What is the Grade 3 coding expectation in Ontario?","acceptedAnswer":{"@type":"Answer","text":"Grade 3 C3.1 asks for code that involves sequential, concurrent and repeating events. Repeating events are loops, which the curriculum notes say make code more readable and reduce the number of instructions that need to be written."}},{"@type":"Question","name":"What is the Grade 6 coding expectation in Ontario?","acceptedAnswer":{"@type":"Answer","text":"Grade 6 C3.1 asks students to write and execute efficient code that involves conditional statements and other control structures. Grade 6 C3.2 adds that students describe how changes to the code affect both the outcomes and the efficiency of the code."}},{"@type":"Question","name":"What changes in Grades 7 and 8?","acceptedAnswer":{"@type":"Answer","text":"Grade 7 C3.1 adds events influenced by a defined count or a subprogram, which means loops that run until a condition is met and reusable pieces of code. Grade 8 C3.1 focuses on code that analyses data in order to inform and communicate decisions."}},{"@type":"Question","name":"Does the curriculum say which coding program to use?","acceptedAnswer":{"@type":"Answer","text":"No. The notes say coding can combine pseudocode, block-based coding programs and text-based coding programs, and that students can program a character on a screen, a classmate acting out the code, or a device such as a robot. Neither Scratch nor Python is named in the grade documents we read."}},{"@type":"Question","name":"My child has never coded. Is it too late in Grade 5?","acceptedAnswer":{"@type":"Answer","text":"No. Each year's expectation includes the earlier ideas, so a Grade 5 child starts with sequence and loops in the first weeks and reaches conditional statements quickly. Children who start later often move fast because their reading and math are stronger."}},{"@type":"Question","name":"Can I help with coding if I cannot code myself?","acceptedAnswer":{"@type":"Answer","text":"Yes. Ask your child to predict what their program will do before running it, change one number together and talk about what changed, and ask what the code is calculating. None of that needs any coding knowledge."}},{"@type":"Question","name":"Is coding tested on the EQAO assessments?","acceptedAnswer":{"@type":"Answer","text":"EQAO describes its Grade 3 and Grade 6 assessments as covering reading, writing and mathematics. We have not found an EQAO statement on whether coding questions appear, so we do not claim either way. Ask your school how coding is assessed in class."}},{"@type":"Question","name":"Do you use AI tools with young children?","acceptedAnswer":{"@type":"Answer","text":"Not to write their code. In these lessons the child writes every line, in unplugged activities, Scratch and then Python, and we use no chatbots or AI code generators with elementary students. Some of our kids' courses do teach what AI is by having children train small models of their own, with no chatbot accounts."}},{"@type":"Question","name":"When do the lessons happen?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We book every lesson in your local clock. Ontario's Eastern zone falls back an hour on 1 November 2026 and springs forward on 14 March 2027, and we reconfirm the lesson time in each of those weeks."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"Nothing for the first lesson. From then on a single monthly fee covers eight live lessons, and no term has to be signed. Look at the fees box on this page for today's figure, shown separately for a batch and for a private teacher."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ontario-coding-curriculum-grades-1-to-8","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-ont">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#grades">By grade</a></li>
+      <li><a href="#notes">What it means</a></li>
+      <li><a href="#examples">Examples</a></li>
+      <li><a href="#alter">Read and alter</a></li>
+      <li><a href="#home">At home</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-canada">Canada</a> / <a href="/coding-classes-in-ontario">Ontario</a> / Coding curriculum, Grades 1 to 8
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Ontario &middot; Grades 1 to 8 &middot; Strand C, expectation C3</p>
+        <h1>Coding in the Ontario math curriculum, Grades 1 to 8</h1>
+        <p class="ag-lede">Since the 2020 math curriculum, every Ontario child from Grade 1 to Grade 8 is expected to write code in math class. The wording changes each year, one or two words at a time, and those words decide what a child should be able to do by June. Below is the expectation for every grade, quoted from the ministry&rsquo;s own curriculum site, then what each step looks like in a real program, written and run by us.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#grades" class="ag-btn ag-btn--ghost">See the grade-by-grade table</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20elementary%20school%20in%20Ontario%20and%20I%20would%20like%20help%20with%20the%20coding%20part%20of%20math.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ont'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; Scratch first, then Python</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grades 1 to 8, ages 6 to 14</dd>
+          <dt>Curriculum</dt><dd>Ontario math (2020), Strand C</dd>
+          <dt>Tools</dt><dd>Scratch, unplugged, then Python</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Clock</dt><dd>Eastern time for most of Ontario</dd>
+          <dt>Teacher</dt><dd>The same one every week</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Ontario&rsquo;s 2020 elementary math curriculum puts coding in Strand C, Algebra, as expectation C3 in Grades 1 to 8. Its C3.1 wording grows from code with sequential events in Grade 1 to code that analyses data in Grade 8. Modern Age Coders teaches this live online, as a group or one to one, in Scratch Coding for Kids.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses that follow the Grade 1 to 8 coding ladder</h2>
+      <p class="ag-lede">Scratch carries the early grades, the math course keeps number sense moving, and Python takes over around Grade 5 or 6.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Scratch Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ONT / 01</p>
+          <h3>Scratch Coding for Kids</h3>
+          <p>Ages 6 to 12. Sequences, two sprites at once, loops and loops inside loops: the Grade 1 to 4 rungs, built as games.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/elementary-mathematics-complete-masterclass">
+        <div class="ag-pick-shot"><img src="/images/elementary-maths.webp" alt="Elementary Maths for Grades 1-5 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ONT / 02</p>
+          <h3>Elementary Math, Grades 1 to 5</h3>
+          <p>Placement by grade, then counting, operations, fractions and geometry. The arithmetic every coding task leans on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/maths-through-coding">
+        <div class="ag-pick-shot"><img src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ONT / 03</p>
+          <h3>Math Through Coding</h3>
+          <p>Ages 10 to 15. Fractions, patterns, geometry and probability written as Python programs: the Grade 5 to 8 rungs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="grades">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The reference table</p><h2>The C3.1 coding expectation, Grade 1 to Grade 8</h2><p class="ag-lede">In every grade the overall expectation is the same sentence: students will &ldquo;solve problems and create computational representations of mathematical situations using coding concepts and skills&rdquo;. What changes is the specific expectation C3.1, which ends &ldquo;by writing and executing code, including code that involves&rdquo; and then names that year&rsquo;s idea. This table quotes the part that changes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>C3.1 by grade, quoted from the Ontario elementary mathematics curriculum (2020), read 22 October 2026; the last column is ours</caption><thead><tr><th scope="col">Grade</th><th scope="col">C3.1 asks for code that involves</th><th scope="col">A line from the curriculum&rsquo;s notes</th><th scope="col">What it looks like (ours)</th></tr></thead><tbody><tr><td>1</td><td>&ldquo;sequential events&rdquo;</td><td>&ldquo;In coding, a sequential set of instructions is executed in order.&rdquo;</td><td>A route of arrow cards across a floor grid</td></tr><tr><td>2</td><td>&ldquo;sequential and concurrent events&rdquo;</td><td>&ldquo;Concurrent events are when multiple things are occurring at the same time&rdquo;</td><td>Two Scratch sprites moving at once</td></tr><tr><td>3</td><td>&ldquo;sequential, concurrent, and repeating events&rdquo;</td><td>&ldquo;Loops make code more readable and reduce the number of instructions that need to be written.&rdquo;</td><td>A repeat block that walks a rectangle and adds up its sides</td></tr><tr><td>4</td><td>&ldquo;sequential, concurrent, repeating, and nested events&rdquo;</td><td>&ldquo;Loops can exist within loops, referred to as &lsquo;nested loops&rsquo;.&rdquo;</td><td>A loop inside a loop that draws a 3 by 4 array</td></tr><tr><td>5</td><td>&ldquo;conditional statements and other control structures&rdquo;</td><td>&ldquo;Conditional statements are a representation of binary logic (yes or no, true or false, 1 or 0).&rdquo;</td><td>Checking whether 47 belongs to a number pattern</td></tr><tr><td>6</td><td>the same as Grade 5, but now &ldquo;efficient code&rdquo;</td><td>&ldquo;Using loops whenever possible is one way to make code more efficient.&rdquo;</td><td>Adding 1 to 100 two ways and counting the work</td></tr><tr><td>7</td><td>&ldquo;events influenced by a defined count and/or subprogram and other control structures&rdquo;, still &ldquo;efficient code&rdquo;</td><td>&ldquo;Sub-programs can be reused for multiple programs or can be called upon more than once from one main program.&rdquo;</td><td>A function that counts doublings, called three times</td></tr><tr><td>8</td><td>&ldquo;the analysis of data in order to inform and communicate decisions&rdquo;</td><td>&ldquo;By combining mathematical and coding concepts and skills, students can write programs to draw conclusions from data.&rdquo;</td><td>A week of garden rainfall turned into a watering decision</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>C3.2, reading and altering code, by grade (same curriculum, same date)</caption><thead><tr><th scope="col">Grades</th><th scope="col">C3.2 in the curriculum&rsquo;s words</th></tr></thead><tbody><tr><td>1 to 5</td><td>&ldquo;read and alter existing code&rdquo; that involves that grade&rsquo;s idea, &ldquo;and describe how changes to the code affect the outcomes&rdquo;</td></tr><tr><td>6 and 7</td><td>The same, plus how changes affect &ldquo;the outcomes and the efficiency of the code&rdquo;</td></tr><tr><td>8</td><td>&ldquo;read and alter existing code involving the analysis of data in order to inform and communicate decisions, and describe how changes to the code affect the outcomes and the efficiency of the code&rdquo;</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Three things the table shows</h3><p>First, the ideas pile up rather than replace each other. Grade 4 still lists sequential and concurrent events; it simply adds nesting on top. A Grade 4 child who never got comfortable with plain repetition is being asked to put a loop inside a loop.</p>
+<p>Second, the word &ldquo;efficient&rdquo; enters C3.1 in Grade 6 and stays in Grade 7, then drops out of the Grade 8 C3.1 sentence, where data takes centre stage. Efficiency does not vanish in Grade 8: C3.2 still asks how changes affect &ldquo;the efficiency of the code&rdquo;.</p></div><div><h3>And the third</h3><p>Every C3.1 is about mathematical situations, not about coding for its own sake. The Grade 3 list of possible situations includes &ldquo;determining perimeter&rdquo;; the Grade 1 list starts with &ldquo;moving from one location to another&rdquo;. The code is a way of doing math out loud, where the computer checks the thinking.</p>
+<p>That is why our examples below are all math problems first. A child who can explain why the program prints what it prints has met the expectation, whatever tool they used.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics" rel="noopener" target="_blank">The Ontario Curriculum: Mathematics, Grades 1 to 8 (2020)</a>, Strand C, expectations C3.1 and C3.2 and the notes attached to them for each grade, read through the curriculum site&rsquo;s public content service on 22 October 2026. Grade-by-grade quotes are exact; we dropped a stray space the service prints before commas. This page is our own reading: we have no tie to the ministry or to any school board.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="notes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Reading the wording</p><h2>What the coding expectations mean, in plain language</h2><p class="ag-lede">The curriculum&rsquo;s notes are short and precise. Five of them settle most of the questions parents ask us, starting with which program a child should use.</p></div>
+    <div class="ag-grid-3"><div><h3>No tool is prescribed</h3><p>The notes for Grades 1 to 4 say: &ldquo;Coding can include a combination of pseudocode, block-based coding programs, and text-based coding programs.&rdquo; Neither Scratch nor Python is named in any of the eight grade documents we read.</p></div><div><h3>Code can run on a person</h3><p>Children can program &ldquo;a pixelated image on a screen, a classmate acting out the code when appropriate, or a physical device (e.g., robot, microcontroller)&rdquo;. A Grade 1 lesson with no computer at all can meet C3.1.</p></div><div><h3>Order sometimes matters</h3><p>A Grade 3 note on C3.2 says: &ldquo;It is important for students to understand when order matters.&rdquo; Adding steps in any order gets the same total; turning then moving is not the same as moving then turning.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>One equal sign or two</h3><p>From Grade 5, the notes draw a line that trips up many beginners: &ldquo;Assignment statements assign a value to a variable and usually use a single equal sign (=), while comparison statements are used to compare two values and usually use a double equal sign (==)&rdquo;.</p>
+<p>In math class, the equal sign says two sides are the same. In most code, a single equal sign means &ldquo;put this value in this box&rdquo;. A child who writes <code>total = total + 4</code> is not writing a false equation; they are updating a running total. We spend a whole lesson on that one difference.</p></div><div><h3>What &ldquo;efficient&rdquo; means here</h3><p>The Grade 6 notes define it: &ldquo;Efficient code may involve using the instructions to solve a problem, using the smallest amount of space to store program data, and/or executing as fast as possible.&rdquo; At this age that mostly means fewer instructions doing the same job, often by using a loop instead of copying a line ten times.</p>
+<p>Grade 7 adds the defined count: &ldquo;A defined count is used to repeat an instruction either for a predefined number of times (e.g., 10 repeats) or until a condition has been met (e.g., Number &lt;= 100).&rdquo; The doubling example further down is exactly that second kind of loop.</p></div></div>
+    <p class="ag-mt-40">Coding also turns up outside math. The 2022 Science and Technology curriculum asks Grade 6 students to &ldquo;use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life&rdquo;, and its A2.1 adds &ldquo;with a focus on obtaining input in different ways&rdquo;. So a Grade 6 child may meet coding twice a week in two subjects, with two teachers using two different tools.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="examples">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">One example per band, ours</p><h2>What each band of the coding curriculum looks like in practice</h2><p class="ag-lede">These are our own examples, written for this page. The early ones are described as Scratch blocks or classroom activities; from Grade 4 on they are Python programs that we ran, with the output printed under each. None is taken from the curriculum&rsquo;s own sample tasks.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Grades 1 and 2: a route, then two things at once</h3><p><b>Grade 1, unplugged.</b> Tape a 5 by 5 grid on the floor and put a toy at one corner. The child lays arrow cards in a row (forward, forward, turn right, forward) and a parent walks the route exactly as written. If the parent ends up in the wrong square, the child finds the card that is wrong. That is writing, executing, reading and altering a sequential program.</p>
+<p><b>Grade 2, in Scratch.</b> Two sprites, a cat and a bus, each get their own script that starts with the green flag. The bus glides across the road while the cat counts to ten. The concurrent part is that both scripts run at the same moment; the math is in how many steps each glide takes and which one arrives first.</p></div><div><h3>Grade 3: one loop does the walking</h3><p>A sprite walks around a rectangle that is 60 steps long and 40 steps wide. Written out in full, that is eight blocks: move, turn, move, turn, and so on. With a repeat block set to 2 around &ldquo;move 60, turn 90, move 40, turn 90&rdquo;, it is one loop with four blocks inside.</p>
+<p>Then the math: add a variable called perimeter, and inside the loop add 60 and 40 to it. The sprite finishes at 200. Ask the child to change the repeat to 3 and predict the new perimeter before pressing the flag. The answer, 300, is wrong for a rectangle, and the child has to say why.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Grade 4 &middot; nested loop &middot; Python (ours)</b><span>python</span></figcaption><pre># Grade 4 band: a nested loop draws an array (ours)
+rows = 3
+columns = 4
+dots = 0
+for r in range(rows):
+    line = ""
+    for c in range(columns):
+        line = line + "o "
+        dots = dots + 1
+    print(line)
+print(rows, "rows of", columns, "is", dots, "dots")</pre><p class="ag-code-note">Output: three rows of <code>o o o o</code>, then <code>3 rows of 4 is 12 dots</code>. The inner loop runs four times for every one turn of the outer loop, which is multiplication made visible: change <code>rows</code> to 5 and the program prints 20 dots.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Grade 5 &middot; a conditional inside a loop &middot; Python (ours)</b><span>python</span></figcaption><pre># Grade 5 band: is a number in the pattern 5, 9, 13, ...? (ours)
+target = 47
+term = 5
+found = False
+while term &lt;= target:
+    if term == target:
+        found = True
+    term = term + 4
+if found:
+    print(target, "is in the pattern")
+else:
+    print(target, "is not in the pattern")</pre><p class="ag-code-note">Output: <code>47 is not in the pattern</code>. The terms go 5, 9, 13 and on to 45, then 49, which jumps past 47. The <code>if</code> asks a yes-or-no question on every term, which is the binary logic the Grade 5 notes describe.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Grade 6 &middot; efficiency &middot; Python (ours)</b><span>python</span></figcaption><pre># Grade 6 band: two ways to add 1 + 2 + ... + 100 (ours)
+steps = 0
+total = 0
+for n in range(1, 101):
+    total = total + n
+    steps = steps + 1
+print("Loop:", total, "after", steps, "additions")
+
+last = 100
+quick = last * (last + 1) // 2
+print("Pairing rule:", quick, "after 1 calculation")</pre><p class="ag-code-note">Output: <code>Loop: 5050 after 100 additions</code>, then <code>Pairing rule: 5050 after 1 calculation</code>. Pair 1 with 100, 2 with 99, and so on: 50 pairs of 101. Same answer, one calculation instead of a hundred, which is what C3.2 means by the efficiency of the code.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Grade 7 &middot; a subprogram with a defined count &middot; Python (ours)</b><span>python</span></figcaption><pre># Grade 7 band: a subprogram with a defined count (ours)
+def doublings_past(start, limit):
+    """How many times must start double before it is more than limit?"""
+    count = 0
+    value = start
+    while value &lt;= limit:
+        value = value * 2
+        count = count + 1
+    return count
+
+print(doublings_past(3, 100))
+print(doublings_past(5, 1000))
+print(doublings_past(1, 1))</pre><p class="ag-code-note">Output: 6, 8 and 1. Starting from 3, five doublings reach 96 and the sixth jumps to 192, past 100; 5 needs eight to pass 1000; 1 needs one. The loop runs until a condition is met, not a fixed number of times, and the function is written once and called three times.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Grade 8 &middot; data to a decision &middot; Python (ours)</b><span>python</span></figcaption><pre># Grade 8 band: use data to make a decision (ours)
+rain_mm = [12, 0, 4, 0, 0, 7, 0]   # one week of rain in the school garden
+
+def mean(values):
+    return sum(values) / len(values)
+
+week_mean = mean(rain_mm)
+spread = max(rain_mm) - min(rain_mm)
+dry_days = 0
+for r in rain_mm:
+    if r == 0:
+        dry_days = dry_days + 1
+
+print("Mean:", round(week_mean, 1), "mm a day")
+print("Range:", spread, "mm")
+print("Dry days:", dry_days)
+if dry_days &gt;= 4:
+    print("Decision: water the garden on dry days")
+else:
+    print("Decision: no extra watering")</pre><p class="ag-code-note">Output: <code>Mean: 3.3 mm a day</code>, <code>Range: 12 mm</code>, <code>Dry days: 4</code>, then <code>Decision: water the garden on dry days</code>. The mean alone would hide the dry spell; the count of dry days is what drives the decision. Asking which measure to trust is the Grade 8 skill.</p></figure>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="alter">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">C3.2, worked</p><h2>Reading and altering code: our predict, change, predict routine</h2><p class="ag-lede">Every grade&rsquo;s C3.2 asks children to read code someone else wrote, change it, and explain what the change did. We teach that as a routine with six steps, using the Grade 5 pattern program above. It works the same way on a Scratch script in Grade 2.</p></div>
+    <ol class="ag-steps"><li><b>Read it aloud, line by line.</b> &ldquo;The target is 47. The first term is 5. While the term is not past the target, check it, then add 4.&rdquo; If a line cannot be said in words, that line is the first thing to teach.</li><li><b>Predict before running.</b> Write the prediction down: in or not in? A child who guesses &ldquo;in&rdquo; because 47 is odd has found a real misconception to work on.</li><li><b>Run it and compare.</b> The program prints that 47 is not in the pattern. The gap between the prediction and the output is where the lesson is.</li><li><b>Change exactly one thing.</b> Set <code>target = 45</code>. Predict again, then run: <code>45 is in the pattern</code>. One change at a time is the only way to know which change did what.</li><li><b>Change the rule, not the number.</b> Set the step from 4 to 3 and the first term to 2, so the pattern is 2, 5, 8 and so on. Is 47 in it now? (Yes: 2 plus 15 threes is 47.)</li><li><b>Explain the effect in a sentence.</b> &ldquo;When I changed the step, the program checked a different pattern, so the answer changed.&rdquo; That sentence is the &ldquo;describe how changes to the code affect the outcomes&rdquo; half of C3.2, and it is the half children most often skip.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Adding efficiency in Grades 6 and 7</h3><p>From Grade 6, C3.2 adds a second question after every change: did the code get more or less efficient? In the pattern program, there is a faster test. Subtract the first term, 47 minus 5 is 42, and check whether 42 divides evenly by 4. It does not, so 47 is out, with no loop at all.</p>
+<p>We ask students to write both versions and count how many times the loop body runs for a target of 4,001. The loop version checks 1,000 terms before reaching it; the remainder test does one division. Children remember the idea far better once they have counted the cost themselves.</p></div><div><h3>Mistakes worth making on purpose</h3><p>Change <code>term &lt;= target</code> to <code>term &lt; target</code> and test with 45. The loop now stops one term too early, after checking 41, so the program says 45 is not in the pattern. Off-by-one errors like this follow students all the way to high school computer science, so we plant them early.</p>
+<p>Change the starting value of <code>found</code> to <code>True</code> and every number is suddenly in every pattern. A child who can explain why has understood that a variable remembers whatever it was last told.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Tools by grade</p><h2>Unplugged, Scratch or Python: which tool fits which grade</h2><p class="ag-lede">Because the curriculum leaves the tool open, schools and boards differ. This is how we match tools to the grades, based on teaching young children online since 2020. It is our approach, not a ministry rule.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our tool plan for the Ontario coding expectations (ours)</caption><thead><tr><th scope="col">Grades</th><th scope="col">Main tool</th><th scope="col">Why at this age</th><th scope="col">Ready to move on when</th></tr></thead><tbody><tr><td>1 and 2</td><td>Unplugged cards, then ScratchJr or Scratch</td><td>Reading is still developing; arrows and blocks carry the logic without typing</td><td>The child can fix a wrong route without being told which card is wrong</td></tr><tr><td>3 and 4</td><td>Scratch</td><td>Repeat blocks and loops inside loops are visible as shapes inside shapes</td><td>They choose a loop without prompting when a step repeats</td></tr><tr><td>5 and 6</td><td>Scratch, then first Python</td><td>Conditionals and variables read naturally as words; typing speed is usually enough</td><td>They can predict a short program&rsquo;s output on paper</td></tr><tr><td>7 and 8</td><td>Python</td><td>Functions, lists and data need a text language to stay readable</td><td>They write a function, call it twice and test an edge case</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>When the school tool is different</h3><p>Some Ontario classrooms use a block editor, a robot or a microcontroller kit instead of Scratch. The ideas carry over: a loop is a loop. In our first class we ask which tool the class uses and show the child how today&rsquo;s idea looks in both.</p>
+<p>For families comparing the two big options, our article on <a class="ag-inline-link" href="/blog/scratch-vs-python-which-better-young-learners">Scratch vs Python for young learners</a> sets out the trade-offs, and <a class="ag-inline-link" href="/scratch-not-working-help">Scratch not working</a> covers the common home-computer problems.</p></div><div><h3>Screens and safety for young coders</h3><p>For Grades 1 and 2 we keep sessions short and mix in unplugged tasks, so a lesson is not forty minutes of staring at a screen. Scratch accounts for children can be set up by a parent, and we never ask a child to create an account on their own.</p>
+<p>We do not use chatbots or AI code generators with elementary students. The point of C3.1 is that the child writes and executes the code; a program the child did not write teaches them nothing about sequence, loops or conditions.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="home">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">For parents</p><h2>How to support the coding expectations at home</h2><p class="ag-lede">Most parents did not learn to code in elementary school, and none of this needs a parent who can. Here is the plan we give families, in the order we suggest it.</p></div>
+    <ol class="ag-steps"><li><b>Find out the tool.</b> Ask the teacher which program or device the class codes with this term, and whether code appears on report-card comments under math.</li><li><b>Find the grade&rsquo;s key word in the table above.</b> Sequential, concurrent, repeating, nested, conditional, efficient, defined count, data. That one word is what this year is about.</li><li><b>Play it unplugged first.</b> Give spoken instructions to make a sandwich or walk to the door, and let the child debug yours. Sequence and order make sense in the body before they make sense on a screen.</li><li><b>Ask for a prediction every time.</b> &ldquo;What will happen when you press the flag?&rdquo; is the single most useful question a parent can ask, and it needs no coding knowledge.</li><li><b>Change one thing together.</b> Pick one number in your child&rsquo;s project and change it. Ask what changed on screen and why.</li><li><b>Keep the math in sight.</b> Ask what the code is calculating: steps, a total, a pattern rule. If nobody can say, the project is a cartoon rather than math.</li><li><b>Save the projects.</b> A folder of finished Scratch or Python files from September to June shows growth far better than a single mark.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Questions worth asking the teacher</h3><p>How is coding assessed in math this term? Is it part of an Algebra unit or spread across the year? Which tool, and can my child use it at home? What does a strong piece of coding work look like at this grade?</p>
+<p>Teachers usually welcome these questions, and the answers tell you whether coding is a weekly habit in the classroom or a two-week unit.</p></div><div><h3>Contests and free practice</h3><p>The University of Waterloo&rsquo;s CEMC runs the Beaver Computing Challenge. It lists the 2026 BCC for North and South America from Monday, November 9, 2026 to Friday, November 20, 2026, with a Grade 5/6 level, and says the questions &ldquo;only require familiarity with concepts covered in the mathematics curriculum across all Canadian provinces&rdquo;. CEMC says &ldquo;all students must participate through their school.&rdquo;</p>
+<p>CEMC&rsquo;s Problem of the Week is e-mailed to educators for students &ldquo;from Grades 3 to 12&rdquo;. Our page on <a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">Waterloo contests</a> covers the math contests from Grade 7 up. CEMC runs these on its own; we have no part in them.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Where this section comes from (all read on 22 October 2026): <a class="ag-inline-link" href="https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics" rel="noopener" target="_blank">The Ontario Curriculum: Mathematics, Grades 1 to 8 (2020)</a>; the Ontario Science and Technology curriculum (2022), Grade 6, A2 and A2.1, through the same content service; CEMC&rsquo;s <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/bcc" rel="noopener" target="_blank">Beaver Computing Challenge</a>, <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/potw" rel="noopener" target="_blank">Problem of the Week</a> and <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">How contests work</a> pages.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your child is now</p>
+      <h2>Four stages of an elementary coder</h2>
+      <p class="ag-lede">Our own stages, drawn from teaching young children their first lines of code. Grade level and stage often differ, and that is fine.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a young coder in the Ontario grades (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Follower</td><td class="ag-num">Builds a script by copying a model, block by block, and is delighted when it runs</td></tr><tr><td>2. Fixer</td><td class="ag-num">Spots the wrong step in someone else&rsquo;s sequence and corrects it</td></tr><tr><td>3. Predictor</td><td class="ag-num">Says what a loop or condition will do before running it, and is right more often than not</td></tr><tr><td>4. Designer</td><td class="ag-num">Starts from a math question, plans the code, and explains why it works</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Watch for stage 2 at home. A child who says &ldquo;that block is in the wrong place&rdquo; has moved past copying, whatever their grade.</p>
+<p>Stage 3 is the one that the C3.2 expectations reward, and it grows only with practice at predicting, not with more screen time.</p></div><div><h3>For young coders</h3><p>Before you press the green flag, say out loud what you think will happen.</p>
+<p>When something goes wrong, change one block, then test. Not three blocks. One.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>More courses for Ontario children in Grades 1 to 8</h2>
+      <p class="ag-lede">Each one runs as live video lessons with a teacher your child will see every week, in a group or alone.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>The first years</h3>
+        <span class="ag-band-sub">Grades 1 to 3</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / EAR / 01</p>
+          <h4>Early Math Foundations</h4>
+          <p>Counting, shapes and patterns with objects a child can hold.</p>
+          <a class="ag-course-link" href="/courses/early-math-foundations">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / EAR / 02</p>
+          <h4>Mental Math for Kids</h4>
+          <p>Number bonds and estimation, built as real understanding.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / EAR / 03</p>
+          <h4>Coding for Kids</h4>
+          <p>From a first Scratch game to apps, at the child&rsquo;s pace.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Thinking and building</h3>
+        <span class="ag-band-sub">Grades 3 to 6</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / MID / 01</p>
+          <h4>Computational Thinking for Kids</h4>
+          <p>Logic puzzles that train decomposition and patterns.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / MID / 02</p>
+          <h4>Python for Kids</h4>
+          <p>Typed code, turtle drawings and small games from age 9.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / MID / 03</p>
+          <h4>Game Development for Kids</h4>
+          <p>Loops and conditions inside games children actually play.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Ready for Grade 9</h3>
+        <span class="ag-band-sub">Grades 6 to 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / SR / 01</p>
+          <h4>Middle School Math</h4>
+          <p>Pre-algebra, geometry and data before high school.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / SR / 02</p>
+          <h4>Algebra Foundations</h4>
+          <p>Variables and equations, the bridge into Grade 9 math.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ONT / SR / 03</p>
+          <h4>Math Competitions, Grades 5 to 8</h4>
+          <p>Harder problems for children who finish early.</p>
+          <a class="ag-course-link" href="/courses/middle-school-math-competitions-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live coding lessons sized for young children</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Late afternoon, once homework and snacks are done.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Saturday or Sunday mornings, often the calmest slot for a six-year-old.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Paced to one child and one grade&rsquo;s expectations.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Short, active sessions</h3><p>Blocks, talk and unplugged moves mixed.</p></div>
+      <div><h3>Math in every project</h3><p>Each program computes something real.</p></div>
+      <div><h3>Predict first, always</h3><p>The habit C3.2 is built on.</p></div>
+      <div><h3>A parent summary</h3><p>What we did and one task to try.</p></div>
+      <div><h3>Same teacher weekly</h3><p>Someone who knows your child.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty, or one child.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Older students&rsquo; work, to show where a Grade 3 Scratch loop can lead. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Your first class is free. Families then pay one monthly fee for eight live classes a month; the price box shows the amount with its currency code. Nothing is signed for a term, and a family that wants to stop simply tells us before the next month begins.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short placement chat</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty children</li><li>Grouped by age</li><li>One regular teacher</li><li>Paid month by month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher for one child</li><li>Times that suit your week</li><li>Planned from their grade</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents and students wrote on Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Ontario parents</p>
+      <h2>Coding in Ontario elementary math: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is coding part of the Ontario math curriculum?</h3>
+        <p>Yes. The 2020 Ontario elementary mathematics curriculum includes coding in Strand C, Algebra, as overall expectation C3, in every grade from 1 to 8. Students are expected to solve problems and create computational representations of mathematical situations using coding concepts and skills.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Grade 1 coding expectation in Ontario?</h3>
+        <p>Grade 1 C3.1 asks students to solve problems and represent math situations by writing and executing code that involves sequential events, meaning instructions carried out in order. C3.2 asks them to read and alter existing code with sequential events and describe how the changes affect the outcome.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Grade 3 coding expectation in Ontario?</h3>
+        <p>Grade 3 C3.1 asks for code that involves sequential, concurrent and repeating events. Repeating events are loops, which the curriculum notes say make code more readable and reduce the number of instructions that need to be written.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Grade 6 coding expectation in Ontario?</h3>
+        <p>Grade 6 C3.1 asks students to write and execute efficient code that involves conditional statements and other control structures. Grade 6 C3.2 adds that students describe how changes to the code affect both the outcomes and the efficiency of the code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What changes in Grades 7 and 8?</h3>
+        <p>Grade 7 C3.1 adds events influenced by a defined count or a subprogram, which means loops that run until a condition is met and reusable pieces of code. Grade 8 C3.1 focuses on code that analyses data in order to inform and communicate decisions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the curriculum say which coding program to use?</h3>
+        <p>No. The notes say coding can combine pseudocode, block-based coding programs and text-based coding programs, and that students can program a character on a screen, a classmate acting out the code, or a device such as a robot. Neither Scratch nor Python is named in the grade documents we read.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child has never coded. Is it too late in Grade 5?</h3>
+        <p>No. Each year's expectation includes the earlier ideas, so a Grade 5 child starts with sequence and loops in the first weeks and reaches conditional statements quickly. Children who start later often move fast because their reading and math are stronger.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I help with coding if I cannot code myself?</h3>
+        <p>Yes. Ask your child to predict what their program will do before running it, change one number together and talk about what changed, and ask what the code is calculating. None of that needs any coding knowledge.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is coding tested on the EQAO assessments?</h3>
+        <p>EQAO describes its Grade 3 and Grade 6 assessments as covering reading, writing and mathematics. We have not found an EQAO statement on whether coding questions appear, so we do not claim either way. Ask your school how coding is assessed in class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you use AI tools with young children?</h3>
+        <p>Not to write their code. In these lessons the child writes every line, in unplugged activities, Scratch and then Python, and we use no chatbots or AI code generators with elementary students. Some of our kids' courses do teach what AI is by having children train small models of their own, with no chatbot accounts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When do the lessons happen?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We book every lesson in your local clock. Ontario's Eastern zone falls back an hour on 1 November 2026 and springs forward on 14 March 2027, and we reconfirm the lesson time in each of those weeks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>Nothing for the first lesson. From then on a single monthly fee covers eight live lessons, and no term has to be signed. Look at the fees box on this page for today's figure, shown separately for a batch and for a private teacher.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Ontario families with children in elementary school.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-ontario">Coding classes in Ontario</a></h3><p>Our main page for the province, all ages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Our pages for families across the provinces.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch classes for kids</a></h3><p>How our Scratch course runs, week by week.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor, Canada</a></h3><p>Math help from Grade 1 through Grade 12.</p></div>
+      <div><h3><a class="ag-inline-link" href="/why-coding-and-maths-together">Why coding and math together</a></h3><p>The case for learning the two side by side.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/how-coding-improves-mathematical-thinking-children">Coding and mathematical thinking</a></h3><p>What changes in a child&rsquo;s math when they code.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">Waterloo math contests</a></h3><p>Gauss in Grades 7 and 8, and what follows.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our lesson structure, written out in full.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us your child&rsquo;s grade, the tool their class uses and how they feel about coding so far. The first lesson starts from where they are, with something they can finish and show you.</p>
+        <p class="ag-mt-40">Want to see the shape of a lesson first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> lays it out, and the <a class="ag-inline-link" href="/courses/scratch-programming-complete-course">Scratch course syllabus</a> lists every project.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20elementary%20school%20in%20Ontario%20and%20I%20would%20like%20help%20with%20the%20coding%20part%20of%20math.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ont',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are live video with teachers based in India, timed for Ontario afternoons and weekend mornings. Nobody visits your home, and WhatsApp is the fastest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ont(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Booking the free class never needs a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Young coders</h4><ul><li><a href="/courses/scratch-programming-complete-course">Scratch Coding for Kids</a></li><li><a href="/courses/maths-through-coding">Math Through Coding</a></li><li><a href="/scratch-coding-classes-for-kids">Scratch classes</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/coding-classes-in-ontario">Coding classes in Ontario</a></li><li><a href="/online-math-tutor-canada">Math tutoring in Canada</a></li><li><a href="/cemc-waterloo-contests-preparation">Waterloo contests</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Predict it, change one thing, predict again</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ont = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'ontario-coding-curriculum-grades-1-to-8-inline', meta: { name: name, age: age, page: 'ontario-coding-curriculum-grades-1-to-8' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>
