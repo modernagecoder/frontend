@@ -7630,4 +7630,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /mhf4u-advanced-functions-tutor /src/pages/mhf4u-advanced-functions-tutor.html 200
 /mhf4u-advanced-functions-tutor.md /src/pages/mhf4u-advanced-functions-tutor.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/mcv4u-calculus-and-vectors-tutor /src/pages/mcv4u-calculus-and-vectors-tutor.html 200
+/mcv4u-calculus-and-vectors-tutor.md /src/pages/mcv4u-calculus-and-vectors-tutor.md 200
 /* /src/pages/404.html 404

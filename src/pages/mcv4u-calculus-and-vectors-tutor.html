@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MCV4U Calculus and Vectors Tutor: Ontario Grade 12 Help</title>
+  <meta name="description" content="MCV4U tutor for Ontario Grade 12: rates of change, derivatives and vectors from the curriculum, an optimization and a 3D problem, twelve practice questions.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor">
+  <link rel="alternate" type="text/markdown" href="/src/pages/mcv4u-calculus-and-vectors-tutor.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#545C32">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor">
+  <meta property="og:title" content="MCV4U Calculus and Vectors Tutor: Ontario Grade 12 Help">
+  <meta property="og:description" content="Calculus and Vectors explained from the 2007 Ontario curriculum: limits, derivative rules, curve sketching, optimization, vectors, lines and planes. Two worked problems, twelve practice questions with reasons, and a plan for the final.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MCV4U Calculus and Vectors Tutor: Ontario Grade 12 Help">
+  <meta name="twitter:description" content="MCV4U Calculus and Vectors, strand by strand, with worked problems and practice.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-mcvt .ag-hero h1 { letter-spacing: -0.008em; max-width: 23ch; }
+.ag-root.ag-mcvt .ag-capsule { border-left-width: 4px; border-radius: 3px; }
+.ag-root.ag-mcvt .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-mcvt .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-mcvt .ag-steps li { margin-bottom: 0.5rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor#page","url":"https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor","name":"MCV4U Calculus and Vectors Tutor","description":"A guide for Ontario Grade 12 students and parents to MCV4U, Calculus and Vectors, built from the 2007 curriculum document, with an optimization problem, a lines-and-planes problem, twelve original practice questions and an exam plan.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":3,"name":"Ontario","item":"https://learn.modernagecoders.com/coding-classes-in-ontario"},{"@type":"ListItem","position":4,"name":"MCV4U tutor","item":"https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor"}]},{"@type":"Course","name":"MCV4U Calculus and Vectors Tutor","description":"Live online MCV4U help for Ontario Grade 12 students, in a batch or one to one, alongside the school course. No Ontario credit is granted.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is MCV4U?","acceptedAnswer":{"@type":"Answer","text":"MCV4U is Calculus and Vectors, the Grade 12 university-preparation course set out in Ontario's 2007 senior mathematics curriculum. Its three strands are rate of change, derivatives and their applications, and the geometry and algebra of vectors, including lines and planes in three-dimensional space."}},{"@type":"Question","name":"Do you grant the MCV4U credit?","acceptedAnswer":{"@type":"Answer","text":"No. We are a tutoring service working alongside the student's school course, and we do not grant Ontario credits. The credit is granted by the school that teaches and evaluates MCV4U, such as a day school, a board summer program or a credit-granting private school."}},{"@type":"Question","name":"Do I need MHF4U before MCV4U?","acceptedAnswer":{"@type":"Answer","text":"You need it before or at the same time. The 2007 curriculum lets students take Advanced Functions first or in the same term as Calculus and Vectors, but not after. Doing both at once is allowed, but MCV4U uses Advanced Functions ideas such as logarithms, rational functions and radians from its early units."}},{"@type":"Question","name":"Is MCV4U harder than MHF4U?","acceptedAnswer":{"@type":"Answer","text":"Many students find it harder because it has two different halves. The calculus half rewards careful algebra, and the vectors half rewards spatial reasoning. A student strong in one can struggle in the other, which is why we assess the two halves separately."}},{"@type":"Question","name":"Does MCV4U teach integration?","acceptedAnswer":{"@type":"Answer","text":"The 2007 Ontario course is about rates of change and derivatives, plus vectors. Its three strands do not include integration, which most students meet in first-year university calculus. Our calculus course covers integrals for students who want a head start."}},{"@type":"Question","name":"Which programs require MCV4U?","acceptedAnswer":{"@type":"Answer","text":"Many engineering, mathematics, science, economics and business programs list it. On 22 October 2026, Waterloo Software Engineering listed Calculus and Vectors with a 70% minimum, and the University of Toronto Mathematics listings for St. George and Scarborough both named MCV4U."}},{"@type":"Question","name":"How should a student prepare for the MCV4U exam?","acceptedAnswer":{"@type":"Answer","text":"Start about five weeks before. Tally the lost marks from every term test, alternate calculus days and vectors days, keep derivative rules automatic with short daily drills, and end with two papers sat under exam timing, followed by work on the error list only."}},{"@type":"Question","name":"Can you help with the vectors unit only?","acceptedAnswer":{"@type":"Answer","text":"Yes. One-to-one classes can focus on a single unit, such as dot and cross products or lines and planes, for as long as it takes. Batch classes follow the course order, so a student joining mid-semester picks up wherever the batch is."}},{"@type":"Question","name":"When are classes held for students in Ontario?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern time, and we confirm them again when the clocks change on 1 November 2026 and 14 March 2027."}},{"@type":"Question","name":"What do MCV4U classes cost?","acceptedAnswer":{"@type":"Answer","text":"There is no charge for the first class. After it, classes are billed monthly for eight live sessions and can be stopped after any month. Batch and one-to-one amounts, as they stand today, appear in the fees section of this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-mcvt">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#covers">Course content</a></li>
+      <li><a href="#halves">Calculus vs vectors</a></li>
+      <li><a href="#worked">Worked problems</a></li>
+      <li><a href="#practice">Practice</a></li>
+      <li><a href="#exam">Final exam</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-canada">Canada</a> / <a href="/coding-classes-in-ontario">Ontario</a> / MCV4U tutor
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Ontario &middot; Grade 12 &middot; MCV4U Calculus and Vectors</p>
+        <h1>MCV4U Calculus and Vectors tutor for Ontario students</h1>
+        <p class="ag-lede">Calculus and Vectors is two courses sharing one course code. One half asks how fast things change; the other asks students to picture lines and planes in three dimensions and pin them down with equations. This page lays out MCV4U from the ministry&rsquo;s 2007 document, works one optimization problem and one three-dimensional problem in full, and adds twelve practice questions we wrote. We help alongside the school course and do not grant Ontario credits, which only a credit-granting school can award.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#practice" class="ag-btn ag-btn--ghost">See the practice set</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20Ontario%20is%20in%20MCV4U%20Calculus%20and%20Vectors%20and%20could%20use%20help%20alongside%20the%20school%20course.%20Can%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mcvt'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; Calculus and vectors, both halves</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Course</dt><dd>MCV4U, Calculus and Vectors</dd>
+          <dt>Grade</dt><dd>12, university preparation</dd>
+          <dt>Needs</dt><dd>MHF4U before it or at the same time</dd>
+          <dt>Halves</dt><dd>Derivatives, then vectors in 3D</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Credit</dt><dd>None granted: school grants it</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>MCV4U is Calculus and Vectors, Ontario&rsquo;s Grade 12 university-preparation course on rates of change, derivatives and their uses, and vectors, lines and planes in three-space. Advanced Functions must come first or alongside. Modern Age Coders teaches MCV4U live online, in a batch or one to one, in our course Ontario Grade 12 University Math: Advanced Functions and Calculus and Vectors.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Courses that fit alongside MCV4U</h2>
+      <p class="ag-lede">The first is built around the Ontario course. The second and third go further for students heading into engineering, science or math.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course">
+        <div class="ag-pick-shot"><img src="/images/ontario-grade-12-university-math.webp" alt="Ontario Grade 12 University Math course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MCVT / 01</p>
+          <h3>Ontario Grade 12 University Math</h3>
+          <p>MCV4U and MHF4U in the school&rsquo;s unit order, with both the calculus and the vectors halves.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-calculus-exam-prep">
+        <div class="ag-pick-shot"><img src="/images/ap-calculus-prep.webp" alt="AP Calculus AB &amp; BC Exam Prep, Live Online, Score 5 Goal course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MCVT / 02</p>
+          <h3>Calculus</h3>
+          <p>Derivatives in more depth, then integrals: useful in the summer before a first-year calculus course.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/college-mathematics-complete-masterclass">
+        <div class="ag-pick-shot"><img src="/images/college-level-maths.webp" alt="College Maths Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MCVT / 03</p>
+          <h3>University math</h3>
+          <p>Linear algebra and calculus at first-year level, for students who finish MCV4U wanting more.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="covers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">From the curriculum</p><h2>What MCV4U covers, strand by strand</h2><p class="ag-lede">Calculus and Vectors is described in The Ontario Curriculum, Grades 11 and 12: Mathematics (2007). Its description begins: &ldquo;This course builds on students&rsquo; previous experience with functions and their developing understanding of rates of change.&rdquo; Three strands follow, and the third one, on vectors, is often the one families did not expect.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>MCV4U strands with parts of their overall expectations, from the 2007 Ontario mathematics curriculum (read 22 October 2026)</caption><thead><tr><th scope="col">Strand</th><th scope="col">In the curriculum&rsquo;s words</th><th scope="col">In practice (our reading)</th></tr></thead><tbody><tr><td>A. Rate of Change</td><td>connect average and instantaneous rates of change &ldquo;using the slopes of secants and tangents and the concept of the limit&rdquo;; graph derivatives; apply the rules for derivatives</td><td>From secant slopes to the derivative, then the power, product and chain rules for polynomial, sinusoidal, exponential, rational and radical functions</td></tr><tr><td>B. Derivatives and Their Applications</td><td>connect a function with its first and second derivatives &ldquo;and use the connections in curve sketching&rdquo;; solve problems &ldquo;including optimization problems&rdquo;</td><td>Increasing and decreasing intervals, maxima and minima, concavity and inflection points, motion problems, and the largest or smallest value of a modelled quantity</td></tr><tr><td>C. Geometry and Algebra of Vectors</td><td>&ldquo;represent lines and planes using scalar, vector, and parametric equations, and solve problems involving distances and intersections&rdquo;</td><td>Vectors in two and three dimensions, dot and cross products, equations of lines and planes, and where they meet or how far apart they are</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How the calculus half is framed</h3><p>Limits appear, but lightly. Students look at &ldquo;graphical and numerical examples of limits, and explain the reasoning involved&rdquo;, such as a function approaching an asymptote. The formal epsilon definition belongs to university; MCV4U uses limits to explain where the derivative comes from.</p>
+<p>The derivative rules are named precisely: students solve problems &ldquo;using the product and chain rules&rdquo;, and a rational function can be handled as a product with a negative exponent. A footnote adds that &ldquo;The emphasis of this expectation is on the application of the derivative rules and not on the simplification of resulting complex algebraic expressions.&rdquo; Many students lose time simplifying answers that were already acceptable.</p></div><div><h3>How the vectors half is framed</h3><p>The strand starts from a definition students can say aloud: &ldquo;recognize a vector as a quantity with both magnitude and direction&rdquo;. It then moves into three dimensions, dot and cross products, and finally equations of lines and planes.</p>
+<p>One sentence explains why three-space feels different: students learn that &ldquo;a line in three-space cannot be represented by a scalar equation&rdquo;. In two dimensions a single equation such as y = 2x + 1 is enough. In three it is not, so lines are written in vector or parametric form, and the final expectation asks for distances &ldquo;between a point and a plane; between two skew lines&rdquo;.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Who the course is meant for</h3><p>The course description is direct about its audience: careers in science, engineering, economics and some business, &ldquo;including those students who will be required to take a university-level calculus, linear algebra, or physics course.&rdquo; Vectors are the linear algebra preview; derivatives are the calculus preview.</p>
+<p>The programme overview says the same from the university side: the course prepares students for programs &ldquo;that include a calculus or linear algebra course in the first year&rdquo;.</p></div><div><h3>The rule about Advanced Functions</h3><p>MCV4U has no Grade 11 prerequisite of its own. Instead its course page carries a note: &ldquo;The new Advanced Functions course (MHF4U) must be taken prior to or concurrently with Calculus and Vectors (MCV4U).&rdquo; The course table in the same document puts it as Advanced Functions &ldquo;must be taken prior to or concurrently with Calculus and Vectors.&rdquo;</p>
+<p>MCV4U is worth one credit, and the curriculum&rsquo;s 70 and 30 split applies: most of the grade comes from the term, the rest from a final evaluation near the end. Ask the teacher early whether that final is one exam or an exam plus a task.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf" rel="noopener" target="_blank">The Ontario Curriculum, Grades 11 and 12: Mathematics (2007)</a>, programme overview, course table and MCV4U pages, read 22 October 2026; the MCV4U record on the ministry&rsquo;s curriculum website, read the same day, gives the same description and the year 2007. Expectations written with symbols are described, not quoted. We are an independent tutoring company with no tie to the Ontario Ministry of Education.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="halves">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Two halves, two skills</p><h2>The calculus half and the vectors half need different habits</h2><p class="ag-lede">Students who do well on the first half are sometimes surprised by the second, and the reverse also happens. The table below is our own comparison, drawn from what we see in class.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What each half of MCV4U asks of a student (ours)</caption><thead><tr><th scope="col"></th><th scope="col">Calculus half (strands A and B)</th><th scope="col">Vectors half (strand C)</th></tr></thead><tbody><tr><td>Main question</td><td>How fast is this changing, and where is it largest or smallest?</td><td>Where is this object in space, and how does it meet another?</td></tr><tr><td>Core skill</td><td>Algebra with functions: rules applied in order, without slips</td><td>Spatial reasoning: picturing directions, normals and intersections</td></tr><tr><td>Typical tool</td><td>A derivative, set equal to zero or checked for sign</td><td>A dot product, a cross product, or a system of equations</td></tr><tr><td>Where marks go</td><td>Domain left out of an optimization; a chain rule step forgotten</td><td>Dot and cross product confused; parallel and skew lines mixed up</td></tr><tr><td>Self-check</td><td>Test a value on each side of a critical point</td><td>Substitute the answer back into every equation it must satisfy</td></tr><tr><td>Drawing</td><td>A sketch of the function and its derivative</td><td>A rough 3D sketch, even an untidy one, before any algebra</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Chain rule drift</h3><p>Students differentiate the outside of a composite function and forget the inside. We make them name the inner function out loud before writing anything.</p></div><div><h3>Optimization without a domain</h3><p>A box cannot have a negative side. Writing the allowed interval first decides which critical point counts and whether the endpoints matter.</p></div><div><h3>Dot or cross?</h3><p>One gives a number, the other a vector. Asking &ldquo;do I want an angle or a perpendicular direction?&rdquo; settles it every time.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the second derivative causes trouble</h3><p>The curriculum calls the second derivative &ldquo;the rate of change of the rate of change&rdquo;, which is accurate and, for many students, hard to feel. Our way in is motion: position, then velocity, then acceleration. A car can be moving forward while slowing down, and that one picture separates the sign of the first derivative from the sign of the second.</p>
+<p>Curve sketching then becomes a table: where f prime changes sign, where f double prime changes sign, and what the function does in between. Practice question 8 asks for exactly that.</p></div><div><h3>Why three-space problems feel slippery</h3><p>In two dimensions, two lines either meet or are parallel. In three, they can also miss each other entirely without being parallel. Students who carry the 2D picture into 3D answer questions about skew lines as though they were impossible.</p>
+<p>We use the corner of a room as a model: the floor, two walls, and the edges where they meet. A line along the floor and a line up the opposite wall never meet and are not parallel. Once that is in a student&rsquo;s head, the algebra has something to describe.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="worked">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked problems, ours</p><h2>One optimization problem and one problem in three-space</h2><p class="ag-lede">Our own problems, set at the level of an MCV4U test, one from each half of the course. The emphasis is on the decisions: what to name, what to write before differentiating, and how to know the answer is right. SymPy confirmed every number.</p></div>
+    <p><b>Problem 1, optimization.</b> A box with a square base and no lid must hold 32 000 cm<sup>3</sup>. The base is made from a double layer of cardboard; the four sides are a single layer. What dimensions use the least cardboard?</p>
+    <ol class="ag-steps"><li><b>Name the variables and the quantity to minimise.</b> Let x be the base edge and h the height, both in centimetres. Cardboard used: the base counts twice, so C = 2x<sup>2</sup> + 4xh.</li><li><b>Use the constraint to remove one variable.</b> The volume gives x<sup>2</sup>h = 32 000, so h = 32 000 / x<sup>2</sup>. Then C(x) = 2x<sup>2</sup> + 128 000 / x. Calculus only starts once the quantity depends on one variable.</li><li><b>Write the domain before differentiating.</b> x must be positive, and there is no upper limit, so the domain is x &gt; 0. With no endpoints to check, the answer must come from a critical point.</li><li><b>Differentiate and solve.</b> C&prime;(x) = 4x &minus; 128 000 / x<sup>2</sup>. Setting this to 0 gives 4x<sup>3</sup> = 128 000, so x<sup>3</sup> = 32 000 and x is the cube root of 32 000, about 31.75 cm.</li><li><b>Prove it is a minimum.</b> C&Prime;(x) = 4 + 256 000 / x<sup>3</sup>, which is positive for every x &gt; 0, so the graph is concave up everywhere and the critical point is the minimum. A numerical check agrees: C(30) is about 6066.7, C(35) about 6107.1, and the critical value is about 6047.6 cm<sup>2</sup>.</li><li><b>Answer the question that was asked.</b> h = 32 000 / x<sup>2</sup>, and since x<sup>3</sup> = 32 000, h equals x. The optimal box is a cube of edge about 31.75 cm, using about 6048 cm<sup>2</sup> of cardboard.</li></ol>
+    <p>The surprise is worth a sentence in a written answer: the double base pushes the shape towards a taller box, and with exactly twice the cardboard per square centimetre on the base, the height ends up equal to the edge. A student who writes that has shown they read their own result, which is what the communication marks reward.</p>
+    <p class="ag-mt-40"><b>Problem 2, a line and a plane.</b> The line L has vector equation r = (1, 2, &minus;1) + t(2, &minus;1, 3). The plane &Pi; has equation 2x + y &minus; z = 7. Where does L meet &Pi;? If it does not, find the distance between them.</p>
+    <ol class="ag-steps"><li><b>Write the line in parametric form.</b> x = 1 + 2t, y = 2 &minus; t, z = &minus;1 + 3t. Each coordinate is now a function of the single parameter t.</li><li><b>Substitute into the plane.</b> 2(1 + 2t) + (2 &minus; t) &minus; (&minus;1 + 3t) = 7. Expanding gives 2 + 4t + 2 &minus; t + 1 &minus; 3t = 7, and the t terms cancel: 5 = 7.</li><li><b>Read what the contradiction means.</b> No value of t works, so the line never meets the plane. The t terms cancelling is the signal: it means the direction of the line is perpendicular to the plane&rsquo;s normal, so the line runs parallel to the plane.</li><li><b>Confirm with a dot product.</b> The direction is d = (2, &minus;1, 3) and the normal is n = (2, 1, &minus;1). d &middot; n = 4 &minus; 1 &minus; 3 = 0, so d is perpendicular to n, as step 3 said.</li><li><b>Find the distance.</b> Every point of the line is the same distance from the plane, so use the point (1, 2, &minus;1). Distance = |2(1) + 1(2) &minus; 1(&minus;1) &minus; 7| divided by the length of n, which is the square root of 6. That is |&minus;2| / &radic;6 = 2/&radic;6, about 0.816 units.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The three things a substitution like step 2 can tell you (ours)</caption><thead><tr><th scope="col">After substituting, you get</th><th scope="col">It means</th><th scope="col">Example result</th></tr></thead><tbody><tr><td>One value of t</td><td>The line crosses the plane at one point</td><td>Put t back into the line to get the point</td></tr><tr><td>A false statement, such as 5 = 7</td><td>The line is parallel to the plane and never meets it</td><td>Find the distance from any point on the line</td></tr><tr><td>A true statement, such as 7 = 7</td><td>Every point of the line is in the plane</td><td>The line lies in the plane</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the two problems share</h3><p>Both start by reducing the number of unknowns. In the box, the volume removes h. In the line, the parametric form turns three coordinates into one parameter. MCV4U questions that look long usually become short once that reduction is made.</p>
+<p>Both also end with a check that uses a different method: a numerical comparison in the first, a dot product in the second. A second method catches errors that rereading the first method never will.</p></div><div><h3>How a marker reads these</h3><p>Ontario achievement charts give marks for knowledge, thinking, communication and application. In problem 1 the domain sentence and the concavity argument are thinking and communication marks; the derivative itself is knowledge. Students who show only the derivative leave most of the marks on the table.</p>
+<p>In problem 2 the sentence that interprets 5 = 7 matters more than the arithmetic. A student who writes &ldquo;no solution&rdquo; and stops has answered half the question.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice, ours</p><h2>Twelve MCV4U practice questions</h2><p class="ag-lede">Our own set, written for this page: nine on the calculus half and three on vectors, in the order a course usually teaches them. None is copied from a textbook, school or board. Answers with reasons are in the next section.</p></div>
+    <ol class="ag-steps"><li><b>Limits.</b> Find the limit of (&radic;(4 + h) &minus; 2) / h as h approaches 0.</li><li><b>Power rule.</b> Differentiate f(x) = 3x<sup>4</sup> &minus; 5x<sup>2</sup> + 7x &minus; 2.</li><li><b>Chain rule.</b> Differentiate y = (2x + 1)<sup>5</sup>.</li><li><b>Product rule.</b> Differentiate y = x<sup>2</sup> sin x.</li><li><b>A rational function.</b> Differentiate f(x) = (x<sup>2</sup> + 1)/(x &minus; 1) by writing it as a product.</li><li><b>Exponential and trigonometric.</b> Differentiate y = e<sup>3x</sup> cos x.</li><li><b>Tangent line.</b> Find the equation of the tangent to f(x) = x<sup>3</sup> &minus; 3x<sup>2</sup> &minus; 9x + 5 at x = 1.</li><li><b>Curve sketching.</b> For the same f, find the local maximum, the local minimum and the point of inflection.</li><li><b>Motion.</b> A particle moves along a line with position s(t) = t<sup>3</sup> &minus; 6t<sup>2</sup> + 9t metres at t seconds. When is it at rest, and what is its acceleration at t = 2?</li><li><b>Dot product.</b> For u = (3, &minus;1, 2) and v = (1, 4, &minus;2), find u &middot; v and the angle between the vectors to the nearest degree.</li><li><b>Cross product.</b> Find u &times; v for the same vectors, and the area of the parallelogram they span.</li><li><b>Equation of a plane.</b> Find the scalar equation of the plane through A(1, 0, 2), B(3, 1, 0) and C(0, 2, 1).</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="answers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Answers, ours</p><h2>Answers and the reasoning behind them</h2><p class="ag-lede">Each answer gives the result and the one idea that gets you there. All twelve were checked with SymPy.</p></div>
+    <ol class="ag-steps"><li><b>1/4.</b> Substituting h = 0 gives 0/0, so rationalise: multiply top and bottom by (&radic;(4 + h) + 2). The top becomes h, which cancels, leaving 1/(&radic;(4 + h) + 2), which approaches 1/4.</li><li><b>f&prime;(x) = 12x<sup>3</sup> &minus; 10x + 7.</b> Apply the power rule term by term; the constant disappears.</li><li><b>y&prime; = 10(2x + 1)<sup>4</sup>.</b> Outside: 5( )<sup>4</sup>. Inside: the derivative of 2x + 1 is 2. Multiply: 5 &times; 2 = 10.</li><li><b>y&prime; = 2x sin x + x<sup>2</sup> cos x.</b> First times the derivative of the second, plus second times the derivative of the first.</li><li><b>f&prime;(x) = (x<sup>2</sup> &minus; 2x &minus; 1)/(x &minus; 1)<sup>2</sup>.</b> Write f = (x<sup>2</sup> + 1)(x &minus; 1)<sup>&minus;1</sup>. The product rule gives 2x(x &minus; 1)<sup>&minus;1</sup> &minus; (x<sup>2</sup> + 1)(x &minus; 1)<sup>&minus;2</sup>, which combines over (x &minus; 1)<sup>2</sup>. Leaving it uncombined is also correct, as the curriculum footnote says.</li><li><b>y&prime; = 3e<sup>3x</sup> cos x &minus; e<sup>3x</sup> sin x.</b> Product rule, with the chain rule inside the exponential: the derivative of e<sup>3x</sup> is 3e<sup>3x</sup>.</li><li><b>y = &minus;12x + 6.</b> f(1) = 1 &minus; 3 &minus; 9 + 5 = &minus;6, and f&prime;(x) = 3x<sup>2</sup> &minus; 6x &minus; 9, so f&prime;(1) = &minus;12. The line through (1, &minus;6) with slope &minus;12 is y + 6 = &minus;12(x &minus; 1).</li><li><b>Local maximum (&minus;1, 10), local minimum (3, &minus;22), inflection point (1, &minus;6).</b> f&prime;(x) = 3(x &minus; 3)(x + 1) is zero at &minus;1 and 3 and changes from positive to negative at &minus;1. f&Prime;(x) = 6x &minus; 6 changes sign at x = 1. The inflection point is also the tangent point from question 7.</li><li><b>At rest at t = 1 s and t = 3 s; acceleration 0 m/s<sup>2</sup> at t = 2.</b> v(t) = 3t<sup>2</sup> &minus; 12t + 9 = 3(t &minus; 1)(t &minus; 3). a(t) = 6t &minus; 12, so a(2) = 0. From t = 1 to t = 2, velocity and acceleration are both negative, so the particle speeds up while moving backwards; at t = 2 its speed peaks at 3 m/s, and from t = 2 to t = 3 it slows down until it stops.</li><li><b>u &middot; v = &minus;5; the angle is about 107&deg;.</b> |u| = &radic;14 and |v| = &radic;21, so cos &theta; = &minus;5/(&radic;14 &times; &radic;21). A negative dot product always means an angle greater than 90&deg;.</li><li><b>u &times; v = (&minus;6, 8, 13); area &radic;269, about 16.40 square units.</b> The magnitude of the cross product is the area of the parallelogram. Check: (&minus;6, 8, 13) &middot; u = &minus;18 &minus; 8 + 26 = 0, so the result is perpendicular to u, as it must be.</li><li><b>3x + 4y + 5z = 13.</b> AB = (2, 1, &minus;2) and AC = (&minus;1, 2, &minus;1); their cross product (3, 4, 5) is a normal. Substituting A gives 3 + 0 + 10 = 13. Check B: 9 + 4 + 0 = 13. Check C: 0 + 8 + 5 = 13.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="exam">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Final exam, ours</p><h2>Preparing for the MCV4U final exam</h2><p class="ag-lede">Our plan for the last five weeks. Because the course has two halves with different habits, the plan alternates them rather than revising in textbook order, so neither half goes cold.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Question types on a typical MCV4U final, and what a complete answer contains (ours)</caption><thead><tr><th scope="col">Question type</th><th scope="col">Practise it</th><th scope="col">A full answer includes</th></tr></thead><tbody><tr><td>Derivative rules</td><td>Daily, ten short items</td><td>The rule named, the inner function identified, no forced simplification</td></tr><tr><td>Curve sketching</td><td>Twice a week</td><td>A sign table for f&prime; and f&Prime;, the key points, a sketch that matches the table</td></tr><tr><td>Optimization</td><td>Twice a week</td><td>Variables named, the constraint used, the domain stated, a test that it is a max or min</td></tr><tr><td>Rates and motion</td><td>Once a week</td><td>Units on every answer, and a sentence on what the sign means</td></tr><tr><td>Vector operations</td><td>Three times a week</td><td>The right product chosen, with a check such as a dot product of 0</td></tr><tr><td>Lines and planes</td><td>Three times a week</td><td>A rough sketch, the equations written in one form, the result interpreted geometrically</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Week five: find the leaks.</b> Go through every test of the term and tally lost marks by row of the table above. That tally, not a feeling, decides where the time goes.</li><li><b>Weeks four and three: alternate halves.</b> One calculus day, one vectors day. Start each session with five minutes of derivative drills so the rules stay automatic.</li><li><b>Build a one-page formula sheet by hand.</b> Derivative rules, the dot and cross product formulas, the distance from a point to a plane, and the three outcomes of substituting a line into a plane.</li><li><b>Week two: one full paper under time.</b> Mark it strictly, then redo every question that lost marks on a blank page the next day.</li><li><b>Week one: a second full paper, then only the error list.</b> Read the list of your own mistakes every day. Stop learning new methods.</li><li><b>On the day: answer the question that was asked.</b> If it asks for dimensions, give dimensions with units, not just x.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="pathway">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">University admission</p><h2>Where MCV4U appears in university requirements</h2><p class="ag-lede">For engineering, mathematics, the physical sciences and many economics and business programs, Calculus and Vectors is on the list. These are listings we read on the universities&rsquo; own pages.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Programs listing Calculus and Vectors, from university admission pages (read 22 October 2026)</caption><thead><tr><th scope="col">Program</th><th scope="col">Required Grade 12 courses listed</th><th scope="col">Average or other notes</th></tr></thead><tbody><tr><td>University of Waterloo, Software Engineering</td><td>&ldquo;Advanced Functions (minimum final grade of 70% is required)&rdquo;, &ldquo;Calculus and Vectors (minimum final grade of 70% is required)&rdquo;, Chemistry, Physics and English (ENG4U), each with the same 70% floor</td><td>Individual selection &ldquo;from the low to mid-90s&rdquo;</td></tr><tr><td>University of Waterloo, Mathematics</td><td>Advanced Functions, Calculus and Vectors, &ldquo;Any 4U English&rdquo; and &ldquo;One other 4U course&rdquo;</td><td>Individual selection &ldquo;from the mid-80s&rdquo;</td></tr><tr><td>University of Toronto Scarborough, Mathematics (TXS)</td><td>ENG4U / EAE4U, MHF4U and MCV4U</td><td>Six 4U/M subjects, English among them, as part of the OSSD</td></tr><tr><td>University of Toronto St. George, Mathematics (TPG)</td><td>ENG4U / EAE4U and MCV4U</td><td>MHF4U is not listed separately; see the sequencing note above</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading these requirements correctly</h3><p>A listing of MCV4U alone still implies Advanced Functions, because the curriculum will not let a student take Calculus and Vectors without MHF4U before or alongside it. When a page lists both, it is being explicit rather than asking for more.</p>
+<p>Software Engineering adds two sciences and a 70% minimum on each listed course. That floor sits on top of the program average, so a strong average does not rescue a weak Calculus and Vectors mark.</p></div><div><h3>What we can and cannot do</h3><p>We can make the course understood: the derivative rules automatic, the optimization method reliable, the three-dimensional picture clear. We cannot promise a mark or an offer, and we do not. Admission decisions belong to the universities.</p>
+<p>Requirements are revised between application cycles. Check the university&rsquo;s page in the autumn of Grade 12, and treat any table on a tutoring site, ours included, as a starting point.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 22 October 2026: <a class="ag-inline-link" href="https://uwaterloo.ca/future-students/programs/software-engineering" rel="noopener" target="_blank">University of Waterloo, Software Engineering</a>; <a class="ag-inline-link" href="https://uwaterloo.ca/future-students/programs/mathematics" rel="noopener" target="_blank">University of Waterloo, Mathematics</a>; <a class="ag-inline-link" href="https://future.utoronto.ca/undergraduate-programs/mathematics/" rel="noopener" target="_blank">University of Toronto, Mathematics</a>; <a class="ag-inline-link" href="https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf" rel="noopener" target="_blank">The Ontario Curriculum, Grades 11 and 12: Mathematics (2007)</a>. Neither university is connected with Modern Age Coders.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="credit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Credit and clocks</p><h2>MCV4U online and summer courses: our part and the school&rsquo;s part</h2><p class="ag-lede">A search for MCV4U online often means a family wants the credit itself. We are clear about what we offer, because the difference matters for a transcript.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The credit sits with the school</h3><p>An Ontario credit for MCV4U is granted by a school that delivers and evaluates the course, whether that is a day school, a board summer program or a private school allowed to grant credits. Modern Age Coders is a tutoring service: we do not grant Ontario credits and we do not report marks to any school.</p>
+<p>What we provide is the teaching around the course: explanations, practice, test review and exam preparation, paced to whatever the school is doing that week.</p></div><div><h3>Timing the extra help</h3><p>Families most often get in touch in the weeks around the first derivative test and the first vectors test, when the two halves of the course first show their different demands.</p>
+<p>Summer MCV4U courses compress a full credit into a few weeks. If a student is taking one, booking help before it starts lets the first week be review rather than a shock.</p></div></div>
+    <p class="ag-mt-40">Class times are set in Eastern time for most of Ontario. Eastern time is UTC-4 until 1 November 2026, UTC-5 from that date, and UTC-4 once more from 14 March 2027. India time, which our teachers keep, is UTC+5:30: 10 hours 30 minutes ahead of Eastern time through the winter and 9 hours 30 minutes ahead in summer. Students in parts of northwestern Ontario that keep a different clock should give us their local time when booking.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your teen is now</p>
+      <h2>Four stages in Calculus and Vectors</h2>
+      <p class="ag-lede">Stages we see in our own Grade 12 students. A student can be at stage 3 in calculus and stage 1 in vectors, so we place them separately.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of an MCV4U student (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Signs to look for</th></tr></thead><tbody><tr><td>1. Rule follower</td><td class="ag-num">Differentiates simple polynomials and stalls when a chain rule hides inside a product</td></tr><tr><td>2. Modeller</td><td class="ag-num">Can set up an optimization or a line-plane problem, but loses the thread halfway</td></tr><tr><td>3. Interpreter</td><td class="ag-num">Says what a derivative sign or a contradiction means, and states the domain without prompting</td></tr><tr><td>4. University ready</td><td class="ag-num">Moves between a function, its derivatives and its graph, and between equations of lines and planes, checking each answer a second way</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask which half of the course your teen is in this month. The calculus and the vectors halves can go very differently, and one weak unit is easier to fix than it looks.</p>
+<p>If marks drop when vectors begin, it is usually the spatial picture rather than the algebra. Sketching helps more than extra drills.</p></div><div><h3>For students</h3><p>Before differentiating anything, write the quantity as a function of one variable and state its domain.</p>
+<p>Before solving any three-space problem, sketch it. A messy drawing is better than none.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine more courses for senior math and beyond</h2>
+      <p class="ag-lede">A regular teacher leads each course in live online classes, either for a batch or one student at a time.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Alongside Grade 12</h3>
+        <span class="ag-band-sub">Grades 11 and 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / G12 / 01</p>
+          <h4>Precalculus</h4>
+          <p>The function families that MCV4U differentiates.</p>
+          <a class="ag-course-link" href="/courses/ap-precalculus-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / G12 / 02</p>
+          <h4>High school math</h4>
+          <p>Algebra repair for students who lose marks on simplification.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / G12 / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>For a timetable that also includes Data Management.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Contests and challenge</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / CON / 01</p>
+          <h4>Waterloo math contests</h4>
+          <p>Euclid preparation alongside Grade 12 math.</p>
+          <a class="ag-course-link" href="/courses/waterloo-math-contests-gauss-to-euclid-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / CON / 02</p>
+          <h4>Olympiad mathematics</h4>
+          <p>Proof-based problems for the strongest students.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / CON / 03</p>
+          <h4>SAT Math</h4>
+          <p>For students also applying to universities in the United States.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Where the math is used</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / USE / 01</p>
+          <h4>Python for teens</h4>
+          <p>Numerical derivatives and 3D vectors in a few lines of code.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / USE / 02</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Vectors and gradients, put to work in real models.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MCVT / USE / 03</p>
+          <h4>Math for data science</h4>
+          <p>Linear algebra and statistics for machine learning.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live classes that follow the Grade 12 semester</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evenings on Eastern time once the batch is chosen.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning sessions on Eastern time, useful in test weeks.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Fitted around the derivative test, the vectors test and the final.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Both halves taught</h3><p>Calculus and vectors, in the school&rsquo;s order.</p></div>
+      <div><h3>3D on screen</h3><p>Lines and planes drawn and rotated live.</p></div>
+      <div><h3>Tests reviewed</h3><p>Every lost mark traced to a cause.</p></div>
+      <div><h3>Written reasoning</h3><p>Full answers, the way markers want them.</p></div>
+      <div><h3>Short practice sets</h3><p>Between classes, with reasons marked.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty in a batch, or one student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student projects</h2>
+      <p class="ag-lede">Several of our senior math students also write code; a few of their projects are below, and the <a class="ag-inline-link" href="/student-labs">student labs</a> page has the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The first class is free. Continuing classes are paid monthly for eight live sessions, the amount shows its currency code beside it, and nothing locks you in beyond the month you have paid for.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring a recent MCV4U test</li><li>No payment details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A batch of fifteen to twenty</li><li>One teacher all semester</li><li>Choose the batch time</li><li>Monthly billing</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One teacher, one student</li><li>Times around school tests</li><li>Planned from the school course</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What families and students wrote on Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Ontario families</p>
+      <h2>MCV4U: frequently asked questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is MCV4U?</h3>
+        <p>MCV4U is Calculus and Vectors, the Grade 12 university-preparation course set out in Ontario's 2007 senior mathematics curriculum. Its three strands are rate of change, derivatives and their applications, and the geometry and algebra of vectors, including lines and planes in three-dimensional space.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you grant the MCV4U credit?</h3>
+        <p>No. We are a tutoring service working alongside the student's school course, and we do not grant Ontario credits. The credit is granted by the school that teaches and evaluates MCV4U, such as a day school, a board summer program or a credit-granting private school.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need MHF4U before MCV4U?</h3>
+        <p>You need it before or at the same time. The 2007 curriculum lets students take Advanced Functions first or in the same term as Calculus and Vectors, but not after. Doing both at once is allowed, but MCV4U uses Advanced Functions ideas such as logarithms, rational functions and radians from its early units.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is MCV4U harder than MHF4U?</h3>
+        <p>Many students find it harder because it has two different halves. The calculus half rewards careful algebra, and the vectors half rewards spatial reasoning. A student strong in one can struggle in the other, which is why we assess the two halves separately.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does MCV4U teach integration?</h3>
+        <p>The 2007 Ontario course is about rates of change and derivatives, plus vectors. Its three strands do not include integration, which most students meet in first-year university calculus. Our calculus course covers integrals for students who want a head start.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programs require MCV4U?</h3>
+        <p>Many engineering, mathematics, science, economics and business programs list it. On 22 October 2026, Waterloo Software Engineering listed Calculus and Vectors with a 70% minimum, and the University of Toronto Mathematics listings for St. George and Scarborough both named MCV4U.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How should a student prepare for the MCV4U exam?</h3>
+        <p>Start about five weeks before. Tally the lost marks from every term test, alternate calculus days and vectors days, keep derivative rules automatic with short daily drills, and end with two papers sat under exam timing, followed by work on the error list only.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you help with the vectors unit only?</h3>
+        <p>Yes. One-to-one classes can focus on a single unit, such as dot and cross products or lines and planes, for as long as it takes. Batch classes follow the course order, so a student joining mid-semester picks up wherever the batch is.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes held for students in Ontario?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern time, and we confirm them again when the clocks change on 1 November 2026 and 14 March 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do MCV4U classes cost?</h3>
+        <p>There is no charge for the first class. After it, classes are billed monthly for eight live sessions and can be stopped after any month. Batch and one-to-one amounts, as they stand today, appear in the fees section of this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Further reading for Ontario students in their last year of high school math.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>All of our pages for Canadian learners.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor for Canada</a></h3><p>Math support across the Canadian grades.</p></div>
+      <div><h3><a class="ag-inline-link" href="/calculus-tutoring-online">Calculus tutoring</a></h3><p>Derivatives and integrals, one to one.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-calculus-tutoring-online">AP Calculus tutoring</a></h3><p>For students also writing AP exams.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-ontario">Coding classes in Ontario</a></h3><p>Programming classes for Ontario students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">Waterloo math contests</a></h3><p>The CEMC contest series, explained.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-12th-grade">Grade 12 math tutoring</a></h3><p>Senior math help for the final year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Our method for a live class, in detail.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us which half of MCV4U your teen is in, when the next test is, and what went wrong on the last one. The first class starts from there.</p>
+        <p class="ag-mt-40">Curious about our method first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> walks through a class, and our <a class="ag-inline-link" href="/calculus-tutoring-online">calculus tutoring page</a> covers the derivative side in more detail.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20Ontario%20is%20in%20MCV4U%20Calculus%20and%20Vectors%20and%20could%20use%20help%20alongside%20the%20school%20course.%20Can%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mcvt',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live video sessions with teachers based in India: no commute, no home visits. For Ontario families, WhatsApp gets the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_mcvt(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Booking the free class never requires a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Calculus and beyond</h4><ul><li><a href="/courses/ap-calculus-exam-prep">Calculus course</a></li><li><a href="/courses/college-mathematics-complete-masterclass">University math course</a></li><li><a href="/calculus-tutoring-online">Calculus tutoring</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/coding-classes-in-ontario">Coding classes in Ontario</a></li><li><a href="/online-math-tutor-canada">Math tutoring in Canada</a></li><li><a href="/cemc-waterloo-contests-preparation">Waterloo math contests</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>One variable first, then differentiate</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_mcvt = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'mcv4u-calculus-and-vectors-tutor-inline', meta: { name: name, age: age, page: 'mcv4u-calculus-and-vectors-tutor' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

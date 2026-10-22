@@ -493,6 +493,7 @@ const SLUGS = [
   'canada-high-school-math-courses-compared',
   'canada-time-zones-2026-online-class-times',
   'mhf4u-advanced-functions-tutor',
+  'mcv4u-calculus-and-vectors-tutor',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1065,6 +1066,7 @@ const LLMS_LABELS = {
   'canada-high-school-math-courses-compared': 'Grade 12 math by province',
   'canada-time-zones-2026-online-class-times': 'Canada time zones 2026 and class times',
   'mhf4u-advanced-functions-tutor': 'MHF4U Advanced Functions tutor',
+  'mcv4u-calculus-and-vectors-tutor': 'MCV4U Calculus and Vectors tutor',
 };
 
 function wireLlms(slugs) {
