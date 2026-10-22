@@ -7738,4 +7738,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /usaco-for-canadian-students /src/pages/usaco-for-canadian-students.html 200
 /usaco-for-canadian-students.md /src/pages/usaco-for-canadian-students.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/waterloo-computer-science-admission-requirements /src/pages/waterloo-computer-science-admission-requirements.html 200
+/waterloo-computer-science-admission-requirements.md /src/pages/waterloo-computer-science-admission-requirements.md 200
 /* /src/pages/404.html 404

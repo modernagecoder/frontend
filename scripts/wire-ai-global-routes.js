@@ -520,6 +520,7 @@ const SLUGS = [
   'canadian-computing-olympiad-cco-guide',
   'cemc-free-resources-guide',
   'usaco-for-canadian-students',
+  'waterloo-computer-science-admission-requirements',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1119,6 +1120,7 @@ const LLMS_LABELS = {
   'canadian-computing-olympiad-cco-guide': 'Canadian Computing Olympiad guide',
   'cemc-free-resources-guide': 'CEMC free resources guide',
   'usaco-for-canadian-students': 'USACO for Canadian students',
+  'waterloo-computer-science-admission-requirements': 'Waterloo computer science admission requirements',
 };
 
 function wireLlms(slugs) {
