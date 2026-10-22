@@ -533,6 +533,7 @@ const SLUGS = [
   'modern-age-coders-vs-oxford-learning',
   'cimc-and-csmc-contest-guide',
   'fryer-galois-hypatia-contests-guide',
+  'comc-canada-open-mathematics-challenge-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1145,6 +1146,7 @@ const LLMS_LABELS = {
   'modern-age-coders-vs-oxford-learning': 'Modern Age Coders vs Oxford Learning',
   'cimc-and-csmc-contest-guide': 'CIMC and CSMC guide',
   'fryer-galois-hypatia-contests-guide': 'Fryer, Galois and Hypatia',
+  'comc-canada-open-mathematics-challenge-guide': 'COMC guide',
 };
 
 function wireLlms(slugs) {

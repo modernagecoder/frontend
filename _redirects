@@ -7790,4 +7790,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /fryer-galois-hypatia-contests-guide /src/pages/fryer-galois-hypatia-contests-guide.html 200
 /fryer-galois-hypatia-contests-guide.md /src/pages/fryer-galois-hypatia-contests-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/comc-canada-open-mathematics-challenge-guide /src/pages/comc-canada-open-mathematics-challenge-guide.html 200
+/comc-canada-open-mathematics-challenge-guide.md /src/pages/comc-canada-open-mathematics-challenge-guide.md 200
 /* /src/pages/404.html 404
