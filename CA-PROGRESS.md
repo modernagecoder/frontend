@@ -226,7 +226,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 58 | waterloo-aif-guide (wag, #25703E) | admit | 5,933 | 0.8% vs ics4u-computer-science-help | form guide | activity records | 23a3d363 |
 | 59 | uoft-computer-science-admission-requirements (ucsa, #1D5751) | admit | 4,903 | 1.1% vs canada-high-school-math-courses-compared | admissions facts | prerequisite sets | 97c625f5 |
 | 61 | computer-science-prerequisites-canadian-universities (cspc, #0C2152) | admit | 5,467 | 0.9% vs waterloo-computer-science-admission-requirements | admissions table | course planning | 9f84c8f4 |
-| 60 | ubc-computer-science-admission-requirements (ubc, #264761) | admit | 5,493 | 1.7% vs computer-science-prerequisites-canadian-universities | admissions facts | course list checks | (this commit) |
+| 60 | ubc-computer-science-admission-requirements (ubc, #264761) | admit | 5,493 | 1.7% vs computer-science-prerequisites-canadian-universities | admissions facts | course list checks | 6fa72186 |
+| 22 | computer-programming-11-and-12-bc (cop, #47368A) | school-bc | 8,561 | 0.7% vs ubc-computer-science-admission-requirements | school course help | simulation and testing | (this commit) |
 
 ## Skipped
 

@@ -525,6 +525,7 @@ const SLUGS = [
   'uoft-computer-science-admission-requirements',
   'computer-science-prerequisites-canadian-universities',
   'ubc-computer-science-admission-requirements',
+  'computer-programming-11-and-12-bc',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1129,6 +1130,7 @@ const LLMS_LABELS = {
   'uoft-computer-science-admission-requirements': 'U of T computer science admission requirements',
   'computer-science-prerequisites-canadian-universities': 'Computer science prerequisites at Canadian universities',
   'ubc-computer-science-admission-requirements': 'UBC computer science admission requirements',
+  'computer-programming-11-and-12-bc': 'Computer Programming 11 and 12 BC',
 };
 
 function wireLlms(slugs) {

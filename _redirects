@@ -7758,4 +7758,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ubc-computer-science-admission-requirements /src/pages/ubc-computer-science-admission-requirements.html 200
 /ubc-computer-science-admission-requirements.md /src/pages/ubc-computer-science-admission-requirements.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/computer-programming-11-and-12-bc /src/pages/computer-programming-11-and-12-bc.html 200
+/computer-programming-11-and-12-bc.md /src/pages/computer-programming-11-and-12-bc.md 200
 /* /src/pages/404.html 404

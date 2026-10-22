@@ -756,6 +756,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - U of T computer science admission requirements: https://learn.modernagecoders.com/uoft-computer-science-admission-requirements
 - Computer science prerequisites at Canadian universities: https://learn.modernagecoders.com/computer-science-prerequisites-canadian-universities
 - UBC computer science admission requirements: https://learn.modernagecoders.com/ubc-computer-science-admission-requirements
+- Computer Programming 11 and 12 BC: https://learn.modernagecoders.com/computer-programming-11-and-12-bc
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
