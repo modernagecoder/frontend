@@ -7714,4 +7714,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /canada-math-and-coding-contest-calendar /src/pages/canada-math-and-coding-contest-calendar.html 200
 /canada-math-and-coding-contest-calendar.md /src/pages/canada-math-and-coding-contest-calendar.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/how-to-register-for-waterloo-contests /src/pages/how-to-register-for-waterloo-contests.html 200
+/how-to-register-for-waterloo-contests.md /src/pages/how-to-register-for-waterloo-contests.md 200
 /* /src/pages/404.html 404

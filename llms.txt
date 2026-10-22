@@ -745,6 +745,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Ontario high school diploma credits explained: https://learn.modernagecoders.com/ontario-high-school-diploma-credits-explained
 - Beaver Computing Challenge guide: https://learn.modernagecoders.com/beaver-computing-challenge-guide
 - Canada contest calendar 2026 to 2027: https://learn.modernagecoders.com/canada-math-and-coding-contest-calendar
+- How to register for Waterloo contests: https://learn.modernagecoders.com/how-to-register-for-waterloo-contests
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

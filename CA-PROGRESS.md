@@ -215,7 +215,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 20 | ontario-computer-science-course-pathway (ocsc, #153857) | school-on | 5,201 | 2.3% vs icd2o-digital-technology-course-explained | pathway map | prerequisites | b1d7dd06 |
 | 19 | ontario-high-school-diploma-credits-explained (ohsd, #117041) | school-on | 5,433 | 2.1% vs ontario-computer-science-course-pathway | requirements explainer | credit tally | 147190f3 |
 | 42 | beaver-computing-challenge-guide (bccg, #2E1975) | contest | 6,574 | 1.2% vs ccc-junior-guide | contest guide | computational thinking tasks | 22fd1ddd |
-| 53 | canada-math-and-coding-contest-calendar (cmcc, #853848) | ref | 5,185 | 1.8% vs ccc-junior-guide | reference calendar | dates and organisers | (this commit) |
+| 53 | canada-math-and-coding-contest-calendar (cmcc, #853848) | ref | 5,185 | 1.8% vs ccc-junior-guide | reference calendar | dates and organisers | 0400ed86 |
+| 54 | how-to-register-for-waterloo-contests (hrwc, #9E3918) | contest | 4,878 | 1.9% vs ccc-junior-guide | how-to | school registration | (this commit) |
 
 ## Skipped
 

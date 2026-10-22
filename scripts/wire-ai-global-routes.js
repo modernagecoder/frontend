@@ -514,6 +514,7 @@ const SLUGS = [
   'ontario-high-school-diploma-credits-explained',
   'beaver-computing-challenge-guide',
   'canada-math-and-coding-contest-calendar',
+  'how-to-register-for-waterloo-contests',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1107,6 +1108,7 @@ const LLMS_LABELS = {
   'ontario-high-school-diploma-credits-explained': 'Ontario high school diploma credits explained',
   'beaver-computing-challenge-guide': 'Beaver Computing Challenge guide',
   'canada-math-and-coding-contest-calendar': 'Canada contest calendar 2026 to 2027',
+  'how-to-register-for-waterloo-contests': 'How to register for Waterloo contests',
 };
 
 function wireLlms(slugs) {

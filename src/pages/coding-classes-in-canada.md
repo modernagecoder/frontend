@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [How to register for Waterloo contests](/how-to-register-for-waterloo-contests)
 - [Canada math and coding contest calendar 2026-27](/canada-math-and-coding-contest-calendar)
 - [Beaver Computing Challenge guide](/beaver-computing-challenge-guide)
 - [Ontario high school diploma credits explained](/ontario-high-school-diploma-credits-explained)
