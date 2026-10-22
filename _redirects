@@ -7598,4 +7598,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /pascal-contest-preparation /src/pages/pascal-contest-preparation.html 200
 /pascal-contest-preparation.md /src/pages/pascal-contest-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cayley-contest-preparation /src/pages/cayley-contest-preparation.html 200
+/cayley-contest-preparation.md /src/pages/cayley-contest-preparation.md 200
 /* /src/pages/404.html 404

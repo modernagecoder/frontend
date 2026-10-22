@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cayley Contest 2027 (Grade 10): Paper, Results, Practice</title>
+  <meta name="description" content="The Waterloo Cayley Contest for Grade 10 in 2027: the paper, the Part C answer rule, what 2026 writers got right, eight original problems and a countdown plan.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/cayley-contest-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/cayley-contest-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4C300B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/cayley-contest-preparation">
+  <meta property="og:title" content="Cayley Contest 2027 (Grade 10): Paper, Results, Practice">
+  <meta property="og:description" content="The Grade 10 Cayley Contest from CEMC runs on Tuesday 23 or Wednesday 24 February 2027 in the Americas. How the paper works, how to check a Part C answer, 2026 statistics and eight practice problems.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cayley Contest 2027 (Grade 10): Paper, Results, Practice">
+  <meta name="twitter:description" content="Cayley Contest 2027 for Grade 10: the paper, 2026 results and eight original practice problems.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ccp .ag-hero h1 { letter-spacing: -0.014em; }
+.ag-root.ag-ccp .ag-capsule { border-left-width: 4px; border-radius: 4px; }
+.ag-root.ag-ccp .ag-section-head h2 { max-width: 36ch; }
+.ag-root.ag-ccp .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-ccp .ag-band-head h3 { letter-spacing: -0.008em; }
+.ag-root.ag-ccp .ag-slots { gap: 1.3rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/cayley-contest-preparation#page","url":"https://learn.modernagecoders.com/cayley-contest-preparation","name":"Cayley Contest Preparation","description":"A guide for Grade 10 students in Canada and their parents to the University of Waterloo CEMC Cayley Contest, built from CEMC's 2027 contest page, the 2025 Cayley booklet cover and the 2026 results booklet, with original practice problems and a countdown plan.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CEMC Waterloo contests","item":"https://learn.modernagecoders.com/cemc-waterloo-contests-preparation"},{"@type":"ListItem","position":5,"name":"Cayley Contest","item":"https://learn.modernagecoders.com/cayley-contest-preparation"}]},{"@type":"Course","name":"Cayley Contest Preparation","description":"Live online preparation for the CEMC Waterloo math contests from Gauss to Euclid, including the Grade 10 Cayley and Galois contests, for students across Canada, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/cayley-contest-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/cayley-contest-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/cayley-contest-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Cayley Contest?","acceptedAnswer":{"@type":"Answer","text":"It is the University of Waterloo CEMC math contest for Grade 10 students. The paper has twenty-five questions, takes an hour and is marked out of 150, and it is written at school in February."}},{"@type":"Question","name":"When is the Cayley Contest in 2027?","acceptedAnswer":{"@type":"Answer","text":"In North and South America CEMC lists Tuesday, February 23, 2027 and Wednesday, February 24, 2027, and the school picks one of those days. Schools in Canada must have their order in by Tuesday, February 9, 2027."}},{"@type":"Question","name":"Who can write the Cayley Contest?","acceptedAnswer":{"@type":"Answer","text":"CEMC says students in Grade 10 are eligible, and that it may be written officially by any participant in Grade 10 or below. Pascal, Cayley and Fermat count as a set, so a student writes just one of them each school year."}},{"@type":"Question","name":"What is Part C on the Cayley Contest?","acceptedAnswer":{"@type":"Answer","text":"It is the last five questions. Instead of choosing a letter, the student gives a whole number from 0 to 99. When a natural answer is larger, the question usually asks for the integer formed by its rightmost two digits, and a one-digit answer is coded with a leading zero, such as 07."}},{"@type":"Question","name":"Is there a penalty for wrong answers on Cayley?","acceptedAnswer":{"@type":"Answer","text":"No. Under the 2025 booklet rules a wrong answer simply scores zero. Correct answers earn 5, 6 or 8 marks by part, and each unanswered question earns 2, up to ten unanswered questions."}},{"@type":"Question","name":"What was the Cayley average in 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists a 2026 Cayley average of 90.0 out of 150, a Certificate of Distinction cutoff of 106 and a School Medal Champion cutoff of 90, with 19 953 contestants."}},{"@type":"Question","name":"Is the Waterloo Cayley Contest the same as the UK Cayley?","acceptedAnswer":{"@type":"Answer","text":"No. The Waterloo Cayley is CEMC's Grade 10 paper. The UK Cayley belongs to the UK Mathematics Trust and is a different paper, with its own route to entry and its own date."}},{"@type":"Question","name":"How does my child enter the Cayley Contest?","acceptedAnswer":{"@type":"Answer","text":"Through their school, which orders the contest from CEMC. Students cannot enter on their own. If the school does not take part, CEMC suggests looking for another school nearby that will let the student write there."}},{"@type":"Question","name":"Should a Grade 10 student also write Galois?","acceptedAnswer":{"@type":"Answer","text":"We think so, if they enjoy Cayley. Galois is CEMC's Grade 10 full-solution contest, on Wednesday, April 7, 2027 in the Americas, with four questions in 75 minutes, and it rewards clear written reasoning."}},{"@type":"Question","name":"When are your Cayley classes held?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern time and shown to each family in its own time zone."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/cayley-contest-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-ccp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#paper">The paper</a></li>
+      <li><a href="#partc">Part C</a></li>
+      <li><a href="#practice">Eight problems</a></li>
+      <li><a href="#results">2026 figures</a></li>
+      <li><a href="#countdown">Countdown</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / <a href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a> / Cayley Contest
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; University of Waterloo CEMC &middot; Grade 10</p>
+        <h1>Cayley Contest preparation for Grade 10</h1>
+        <p class="ag-lede">The Cayley Contest is the Grade 10 paper among the Waterloo math contests, written each February in schools across Canada and abroad. It sits between Pascal in Grade 9 and Fermat in Grade 11 and looks exactly like them: an hour, twenty-five questions, multiple choice until the last five. What changes is the math, which now reaches quadratics, coordinate geometry and similar triangles, and the final five questions, where there are no options to fall back on. This guide is drawn from the University of Waterloo CEMC Cayley pages for 2027, the cover of the 2025 Cayley booklet and the 2026 results booklet, and it adds eight problems of our own with every step of the solution shown.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#practice" class="ag-btn ag-btn--ghost">Work the eight problems</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Grade%2010%20and%20plans%20to%20write%20the%20Cayley%20Contest%20in%20February%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live since 2020 &middot; 10,000+ students taught &middot; problems on this page are our own, written for Grade 10</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Set by</dt><dd>CEMC at the University of Waterloo</dd>
+          <dt>Grade</dt><dd>10, or below</dd>
+          <dt>When</dt><dd>Tue 23 or Wed 24 February 2027, Americas</dd>
+          <dt>Length</dt><dd>One hour</dd>
+          <dt>Questions</dt><dd>20 with options A to E, then 5 with a number answer</dd>
+          <dt>Marks</dt><dd>150 in total</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>First step</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The answer in brief</p>
+      <p>The Cayley Contest is the University of Waterloo CEMC math contest for Grade 10: one hour, 25 questions, 150 marks, written at school in a two-day window, Tuesday 23 or Wednesday 24 February 2027 in the Americas. Entry is only through the school. Modern Age Coders runs live online Cayley preparation, in a batch or one to one, inside its Waterloo Math Contests course, Gauss to Euclid.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Teaching for Grade 10</p>
+      <h2>The three courses a Cayley student usually takes</h2>
+      <p class="ag-lede">One is built for the Waterloo contests themselves. One is for the student who wants the hardest questions on the paper. One makes sure the Grade 10 curriculum underneath is solid.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/waterloo-math-contests-gauss-to-euclid-course">
+        <div class="ag-pick-shot"><img src="/images/waterloo-math-contests.webp" alt="Waterloo Math Contests course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCP / 01</p>
+          <h3>Waterloo Math Contests: Gauss to Euclid</h3>
+          <p>Ages 11 to 18, with a track for Grades 9 and 10. Two live classes a week, written solutions and timed rounds, aimed at the February 2027 Cayley and the April Galois.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCP / 02</p>
+          <h3>Competition mathematics</h3>
+          <p>Number theory, counting and geometry beyond the school course, for students chasing questions 21 to 25.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/algebra-foundations-masterclass">
+        <div class="ag-pick-shot"><img src="/images/algebra-foundations.webp" alt="Algebra Foundations course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCP / 03</p>
+          <h3>Algebra foundations</h3>
+          <p>Factoring, equations and linear relations made automatic, so a Grade 10 student has time left for the ideas.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="paper">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 2027 paper</p><h2>Cayley 2027: who writes it, when, and in what form</h2><p class="ag-lede">CEMC prints the details for Pascal, Cayley and Fermat on a single page. The rows below are the Cayley ones, as that page and the 2025 Cayley booklet showed them on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Cayley Contest, from CEMC's contest page and the 2025 Cayley booklet cover (both read 22 October 2026)</caption><thead><tr><th scope="col">Question families ask</th><th scope="col">The published answer</th><th scope="col">Where it comes from</th></tr></thead><tbody><tr><td>Who is it for?</td><td>"Students in Grade 10 are eligible to write the Cayley Contest." Officially, it "may be written by any participant in Grade 10 or below."</td><td>CEMC contest page</td></tr><tr><td>When in 2027?</td><td>Tuesday, February 23, 2027 or Wednesday, February 24, 2027 in North and South America; the school runs it on one of the two days.</td><td>CEMC contest page</td></tr><tr><td>Deadline for the school?</td><td>Tuesday, February 9, 2027 for schools in Canada.</td><td>CEMC contest page</td></tr><tr><td>How long, how many?</td><td>Sixty minutes for twenty-five questions, marked out of 150.</td><td>CEMC contest page</td></tr><tr><td>What kind of answers?</td><td>"Part A and Part B of this contest are multiple choice." In Part C, "The correct answer to each question in Part C is an integer from 0 to 99, inclusive."</td><td>2025 Cayley booklet</td></tr><tr><td>Is guessing punished?</td><td>"There is no penalty for an incorrect answer." Right answers earn 5, 6 or 8 marks by part, and a blank earns 2, for at most ten blanks.</td><td>2025 Cayley booklet</td></tr><tr><td>What can be on the desk?</td><td>"You may use rulers, compasses and paper for rough work." Some calculators are permitted; the rest of the aids rule is CEMC's.</td><td>2025 booklet and contest page</td></tr><tr><td>Paper or screen?</td><td>Either: the school decides when it orders, and in both cases the student writes at school, alone.</td><td>CEMC contest page</td></tr><tr><td>What math does it use?</td><td>CEMC bases the questions on "curriculum common to all Canadian provinces".</td><td>CEMC contest page</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>One of three, once a year</h3><p>A student may write only one of Pascal, Cayley and Fermat in a school year. So a Grade 10 student cannot sit Cayley for the real result and Pascal for practice in the same February.</p>
+<p>A Grade 9 student who is far ahead may choose Cayley instead of Pascal; CEMC says "Exceptional participants may elect to write a contest beyond their actual grade level." The reverse is not allowed: a Grade 10 student cannot drop down to Pascal.</p></div><div><h3>Not the UK Cayley</h3><p>The name is shared with a Cayley paper set by the UK Mathematics Trust, which is a different paper from a different organizer. Everything on this page is the Waterloo contest.</p>
+<p>Families who do mean the UK paper will find it on our <a class="ag-inline-link" href="/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation">Cayley, Hamilton and Maclaurin page</a>.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/pcf" rel="noopener" target="_blank">CEMC, Pascal, Cayley and Fermat Contests</a> and CEMC's 2025 Cayley Contest booklet, front cover only, read 22 October 2026. We are an independent teaching company with no tie to CEMC or the University of Waterloo.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="partc">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The last five questions</p><h2>Part C on Cayley: an answer from 0 to 99, and no options to lean on</h2><p class="ag-lede">In Parts A and B a student can test the five options, rule some out, or estimate their way to a letter. Part C takes that away. The answer is a whole number, and the 2025 booklet explains the convention used when a natural answer would be bigger than 99.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Part C conventions, quoted from the 2025 Cayley booklet</caption><thead><tr><th scope="col">Rule</th><th scope="col">Booklet wording</th></tr></thead><tbody><tr><td>Range</td><td>"an integer from 0 to 99, inclusive"</td></tr><tr><td>Large answers</td><td>"The integer formed by the rightmost two digits of 12 345 is 45."</td></tr><tr><td>Small answers</td><td>"The integer formed by the rightmost two digits of 6307 is 7, coded 07."</td></tr><tr><td>Marks</td><td>8 for each correct Part C answer, the highest of the three parts</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Cayley 2026, Part C: share of contestants giving the correct answer and share leaving it blank, from CEMC's 2026 PCF Results booklet (Cayley statistics page: 16368 contestants, average mark 90.66). The answers themselves are not printed here.</caption><thead><tr><th scope="col">Question</th><th scope="col">Correct answer given</th><th scope="col">Left blank</th></tr></thead><tbody><tr><td>21</td><td>53.55%</td><td>24.1%</td></tr><tr><td>22</td><td>14.72%</td><td>32.99%</td></tr><tr><td>23</td><td>13.28%</td><td>67.9%</td></tr><tr><td>24</td><td>1.92%</td><td>74.79%</td></tr><tr><td>25</td><td>2.11%</td><td>80.47%</td></tr></tbody></table></div>
+    <p class="ag-mt-40">One line in that booklet deserves a second look. On question 22 of the 2026 Cayley, the single most popular answer was a wrong one: 15.51% of contestants gave it, slightly more than the 14.72% who gave the correct answer. A wrong number written confidently in Part C earns nothing, and in 2026 more students did that on question 22 than got it right. That is what Part C asks of a student: to check an answer when no list of options can confirm it.</p>
+    <ol class="ag-steps ag-mt-40"><li><b>Put it back in.</b> If the question gives a condition, test your number against it. Roots go back into the equation; a count goes back into the rule.</li><li><b>Try a smaller case.</b> Shrink the question (20 terms to 4, 30 to 9) and solve the small version by listing. If your method gives the wrong small answer, it is wrong for the big one too.</li><li><b>Check size and parity.</b> Should the answer be even? Divisible by 3? Smaller than some obvious bound? A count of pairs that comes out odd when the pairs are symmetric is a warning sign.</li><li><b>Read the last line again.</b> Many Part C answers are "the rightmost two digits of" something, a sum, or a count of objects. Make sure the number you code answers that, and not a step on the way.</li><li><b>Code it correctly.</b> A one-digit answer needs a leading zero, so 7 is coded 07, and an answer of 0 is coded 00.</li></ol>
+    <p class="ag-mt-40">Those five checks are ours, not CEMC's. We teach them from the first week and use them on every Part C question in class, including the last three problems in the practice set below.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eight practice problems</p><h2>Eight Cayley-style problems we wrote, with every step shown</h2><p class="ag-lede">These are our practice problems, not CEMC problems. Our teachers wrote all eight for Grade 10 students, and nothing in them is taken or reworked from an old Cayley paper. Two are at Part A level, three at Part B level and three are Part C questions with an answer from 0 to 99. Every answer was confirmed by a brute-force check in Python before this page went up.</p></div>
+    <p><b>Cayley practice 1</b> (our practice problem, not a CEMC problem; Part A standard). The line y = 3x - 6 meets the x-axis at P and the y-axis at Q. If O is the origin, what is the area of triangle OPQ? (A) 3 &nbsp;(B) 6 &nbsp;(C) 9 &nbsp;(D) 12 &nbsp;(E) 18</p>
+    <p><b>Solution.</b> At P, y = 0, so 3x = 6 and P is (2, 0). At Q, x = 0, so Q is (0, -6). The triangle has a right angle at O, with legs of length 2 and 6, so its area is (2 x 6) / 2 = 6, answer (B). A length is never negative: the leg along the y-axis is 6, not -6.</p>
+    <p class="ag-mt-40"><b>Cayley practice 2</b> (our practice problem, not a CEMC problem; Part A standard). If x + y = 11 and x - y = 3, what is the value of x<sup>2</sup> - y<sup>2</sup>? (A) 24 &nbsp;(B) 30 &nbsp;(C) 33 &nbsp;(D) 36 &nbsp;(E) 49</p>
+    <p><b>Solution.</b> There is no need to find x and y. Factor: x<sup>2</sup> - y<sup>2</sup> = (x + y)(x - y) = 11 x 3 = 33, answer (C). Check by solving: adding the equations gives 2x = 14, so x = 7 and y = 4, and 49 - 16 = 33. The factoring takes ten seconds, the solving a minute, and on a 60-minute paper that difference adds up.</p>
+    <p class="ag-mt-40"><b>Cayley practice 3</b> (our practice problem, not a CEMC problem; Part B standard). The product of two consecutive positive odd integers is 323. What is their sum? (A) 32 &nbsp;(B) 34 &nbsp;(C) 36 &nbsp;(D) 38 &nbsp;(E) 40</p>
+    <p><b>Solution.</b> Call the even number between them n, so the odd integers are n - 1 and n + 1. Their product is n<sup>2</sup> - 1 = 323, so n<sup>2</sup> = 324 and n = 18. The integers are 17 and 19, and their sum is 2n = 36, answer (C). Check: 17 x 19 = 323. Choosing the middle number as the unknown turns a messy quadratic into a perfect square.</p>
+    <p class="ag-mt-40"><b>Cayley practice 4</b> (our practice problem, not a CEMC problem; Part B standard). A student 1.8 m tall stands 6 m from the foot of a lamp post. The student's shadow, cast by the lamp, is 3 m long on level ground. How tall, in metres, is the lamp post? (A) 3.6 &nbsp;(B) 4.8 &nbsp;(C) 5.4 &nbsp;(D) 6.0 &nbsp;(E) 7.2</p>
+    <p><b>Solution.</b> The tip of the shadow is 6 + 3 = 9 m from the post. The light ray from the top of the post to the tip of the shadow passes over the student's head, so the small triangle (student and shadow) is similar to the large one (post and full distance). Heights compare as bases: h / 9 = 1.8 / 3, so h = 9 x 0.6 = 5.4, answer (C). The usual slip is using 6 m as the base of the large triangle, which gives 3.6, option (A).</p>
+    <p class="ag-mt-40"><b>Cayley practice 5</b> (our practice problem, not a CEMC problem; Part B standard). How many three-digit positive integers have three odd digits that strictly increase from left to right, such as 139? (A) 6 &nbsp;(B) 10 &nbsp;(C) 20 &nbsp;(D) 60 &nbsp;(E) 125</p>
+    <p><b>Solution.</b> The odd digits are 1, 3, 5, 7 and 9. Any choice of three different odd digits can be arranged in increasing order in exactly one way, so the count equals the number of ways to choose 3 digits from 5, which is (5 x 4 x 3) / (3 x 2 x 1) = 10, answer (B). Option (D), 60, counts every order instead of only the increasing one, and (E), 125, allows repeats.</p>
+    <p class="ag-mt-40"><b>Cayley practice 6</b> (our practice problem, not a CEMC problem; Part C standard). The equation x<sup>2</sup> - 24x + k = 0 has two different positive integer roots. How many different values can k take? Give a whole-number answer between 0 and 99.</p>
+    <p><b>Solution.</b> If the roots are r and s, then r + s = 24 and rs = k. With r smaller than s and both positive, r can be 1, 2, 3 and so on up to 11 (r = 12 would make the roots equal). Each r gives a different product r(24 - r): 23, 44, 63, 80, 95, 108, 119, 128, 135, 140 and 143. That is 11 values, so the answer is 11. Check with the first value: x<sup>2</sup> - 24x + 23 = (x - 1)(x - 23), whose roots, 1 and 23, are different positive integers.</p>
+    <p class="ag-mt-40"><b>Cayley practice 7</b> (our practice problem, not a CEMC problem; Part C standard). Let S = 3 + 3<sup>2</sup> + 3<sup>3</sup> + ... + 3<sup>20</sup>. What is the integer formed by the rightmost two digits of S?</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem 7 &middot; our working</b><span>text</span></figcaption><pre>3^10 = 59049, so 1 + 3^10 = 59050
+
+Pair each term with the one ten places later:
+  3^1  + 3^11 = 3^1  x 59050
+  3^2  + 3^12 = 3^2  x 59050
+  ...
+  3^10 + 3^20 = 3^10 x 59050
+
+An odd number times 59050 ends in 50.
+Ten numbers that each end in 50 add to a number ending in 00.
+Rightmost two digits: 00, so the answer is 0, coded 00.</pre><p class="ag-code-note">The answer is 0, coded 00. A zero answer makes students doubt themselves, so this is a good place to use check 2 from the list above: the sum 3 + 9 + 27 + 81 = 120 is a small version of the same idea, pairing 3 with 27 and 9 with 81, and it also ends in a zero.</p></figure>
+    <p class="ag-mt-40"><b>Cayley practice 8</b> (our practice problem, not a CEMC problem; Part C standard). In how many ways can 30 be written as a + b + c, where a, b and c are positive integers with a &le; b &le; c, and a, b and c can be the side lengths of a triangle?</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem 8 &middot; our working</b><span>text</span></figcaption><pre>Largest side c, with a &lt;= b &lt;= c, a + b + c = 30 and a + b &gt; c
+a + b &gt; c means 30 - c &gt; c, so c &lt; 15; and c &gt;= 10, as c is the largest
+
+c = 10   a + b = 20   (10,10)                    1
+c = 11   a + b = 19   (9,10) (8,11)              2
+c = 12   a + b = 18   b from 9 to 12             4
+c = 13   a + b = 17   b from 9 to 13             5
+c = 14   a + b = 16   b from 8 to 14             7
+                                        total   19</pre><p class="ag-code-note">The answer is 19. The triangle condition only needs checking for the largest side, because if a + b is greater than c, the other two inequalities follow automatically. Fixing the largest side first and counting what remains is a method worth practising: it keeps a long count in order.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Timing the set</h3><p>Sixteen minutes for all eight matches the pace of a real Cayley. Part A problems should take a minute or two each, which leaves more time for the Part C ones.</p>
+<p>Mark yourself with the booklet's scale (5, 6, 8, and 2 for a blank) before checking the solutions, so the score means what a real Cayley score means.</p></div><div><h3>The ideas to carry forward</h3><p>Choosing a good unknown (problem 3), factoring instead of solving (problem 2), and fixing the largest piece first (problem 8) all appear again and again in Fermat and Euclid.</p>
+<p>Problem 7 is the one to redo in a month. Pairing terms that sit a fixed distance apart is an idea students forget, and it unlocks whole families of last-two-digit questions.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="grade10">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The math behind it</p><h2>What Grade 10 math the Cayley Contest draws on</h2><p class="ag-lede">CEMC ties the questions to the math common to every province, not to one curriculum. Below is how we map that to the Grade 10 courses Canadian students actually take; the table is our own analysis.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Topics that carry a Cayley paper, and what we teach for each (ours, not a CEMC syllabus)</caption><thead><tr><th scope="col">Topic</th><th scope="col">What it looks like on the paper</th><th scope="col">What we teach</th></tr></thead><tbody><tr><td>Quadratics</td><td>Factoring, roots, and the link between roots and coefficients</td><td>Sum and product of roots, so many questions need no formula at all</td></tr><tr><td>Coordinate geometry</td><td>Lines, intercepts, midpoints, distances and areas on a grid</td><td>Sketching first, then one equation per fact</td></tr><tr><td>Similar triangles</td><td>Shadows, ladders, nested shapes, scale</td><td>Marking matching angles before writing any ratio</td></tr><tr><td>Algebraic manipulation</td><td>Expressions to simplify, identities like a difference of squares</td><td>Looking for the factored form the question is hiding</td></tr><tr><td>Counting</td><td>Digits with rules, arrangements, selections</td><td>Choosing whether order matters before choosing a formula</td></tr><tr><td>Number theory</td><td>Remainders, last digits, divisibility, often in Part C</td><td>Small cases by hand, then the pattern, then a proof of the pattern</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Ontario and British Columbia</h3><p>In Ontario, the Grade 10 academic math course is MPM2D, Principles of Mathematics, and it is the prerequisite for Grade 11 Functions (MCR3U). Its quadratics, analytic geometry and trigonometry of right triangles line up well with the Cayley paper.</p>
+<p>In British Columbia the Grade 10 course is Foundations of Mathematics and Pre-calculus 10. Students elsewhere in Canada meet similar content in their own Grade 10 course, which is why CEMC builds the paper on what the provinces share.</p></div><div><h3>Where school stops and the contest starts</h3><p>Very little on a Cayley paper is outside the school course. What is outside is the way it is used: a school question tells you to factor, a contest question expects you to notice that factoring helps.</p>
+<p>That is why our classes spend less time on new content than families expect, and more on recognizing which tool a question needs.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="results">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 2026 figures</p><h2>How the 2026 Cayley went, in CEMC's numbers</h2><p class="ag-lede">CEMC shows an average and two cutoffs on its contest page, and a table for every question in its results booklet. These are the Cayley rows only, read 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Cayley 2026 averages and cutoffs, from CEMC's contest page</caption><thead><tr><th scope="col">Figure</th><th scope="col">Cayley 2026</th></tr></thead><tbody><tr><td>Average (mean)</td><td>90.0 out of 150</td></tr><tr><td>Certificate of Distinction cutoff</td><td>106</td></tr><tr><td>School Medal Champion cutoff</td><td>90</td></tr><tr><td>Number of contestants</td><td>19 953</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Selected Cayley 2026 questions in Parts A and B: share of contestants choosing the correct option and share leaving it blank, from CEMC's 2026 PCF Results booklet. No answer letters are given.</caption><thead><tr><th scope="col">Question</th><th scope="col">Chose the correct option</th><th scope="col">Left blank</th></tr></thead><tbody><tr><td>1</td><td>97.89%</td><td>under 1%</td></tr><tr><td>9</td><td>59.6%</td><td>7%</td></tr><tr><td>13</td><td>53.81%</td><td>4.56%</td></tr><tr><td>16</td><td>45.14%</td><td>13.17%</td></tr><tr><td>18</td><td>19.42%</td><td>35.04%</td></tr><tr><td>19</td><td>22.49%</td><td>44.43%</td></tr><tr><td>20</td><td>20.33%</td><td>42.85%</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Our reading, labelled as ours: a Cayley writer in 2026 needed 106 for the Certificate of Distinction, about 71 percent of the 150 marks (106 / 150). The question table shows a pattern we see in class too. Students leave the end of Part B blank far more often than the start of Part C: in 2026, question 20 was left blank by 42.85% of the counted contestants, while question 21 was left blank by only 24.1%. Our explanation, which CEMC does not give, is that students who are short of time skip ahead to Part C's first question, which is often more approachable than the last questions of Part B. We teach students to look at question 21 before they get stuck on question 19.</p>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/pcf" rel="noopener" target="_blank">CEMC contest page, averages and cut-offs</a>, and the 2026 PCF Results booklet linked there. CEMC reminds schools that its contests have "no passing or failing score".</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="entry">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Getting a seat</p><h2>How a Grade 10 student gets into the Cayley Contest</h2><p class="ag-lede">Only a school can order the paper. CEMC's own figure for how far this reaches: "Each year, educators order CEMC contests for over 300 000 students worldwide". A family's job is to make sure their child is one of them.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>If the school already orders</h3><p>Ask the math teacher in November 2026 whether Cayley will be ordered, on which of the two February days it will run, and whether the school has chosen paper or the online platform.</p>
+<p>The student then writes at that school on that day. CEMC's standards say "Participants may only write the contest at the school which ordered the contest."</p></div><div><h3>If it does not</h3><p>A school without a CEMC account needs one, and CEMC reviews new applications by hand, which can take three weeks. That is a conversation for the head of math before the winter break.</p>
+<p>Where a school declines, CEMC points students to other local schools that might take them in for the sitting. A homeschooling family would take the same route; we found no separate home-education process on the CEMC pages we read.</p></div></div>
+    <p class="ag-mt-40">On the day, the rules about aids come from the paper itself: CEMC says "Only permitted aids indicated on the Contest Question Booklet or Supervisor Instructions Document may be used while writing the contest." From CEMC's <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">How contests work</a> page, as it read on 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="countdown">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A countdown</p><h2>Counting back from the February 2027 Cayley</h2><p class="ag-lede">Our plan, written as weeks before Tuesday 23 February 2027. A school that writes on Wednesday 24 February simply gains a day. It assumes two live classes a week from the start of November.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our countdown to the 2027 Cayley Contest (a plan, not a CEMC schedule)</caption><thead><tr><th scope="col">Weeks to go</th><th scope="col">Dates</th><th scope="col">Focus</th><th scope="col">Checkpoint</th></tr></thead><tbody><tr><td>16 to 13</td><td>2 to 29 November 2026</td><td>Algebra fluency: factoring, identities, linear systems; Parts A and B of one past paper, untimed</td><td>Every Part A question attempted with working shown</td></tr><tr><td>12 to 10</td><td>30 November to 20 December 2026</td><td>Coordinate geometry and similar triangles; problems 1 and 4 above</td><td>A sketch drawn before every geometry answer</td></tr><tr><td>9 to 8</td><td>The holiday fortnight, 21 December to 3 January</td><td>Holiday weeks: one Topic generator set a day, chosen by weak topic</td><td>A personal list of the five topics that cost the most marks</td></tr><tr><td>7 to 5</td><td>4 to 24 January 2027</td><td>Quadratics and roots, counting, last digits; problems 2 and 3, then 5, 6, 7 and 8</td><td>The five Part C checks used on every answer</td></tr><tr><td>4 to 2</td><td>25 January to 14 February 2027</td><td>Two full past papers under contest conditions, reviewed line by line</td><td>School order confirmed before Tuesday, February 9, 2027</td></tr><tr><td>1</td><td>15 to 22 February 2027</td><td>No new material: redo the questions missed in the timed papers</td><td>A calm, early night before the contest</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>First contest in Grade 10</h3><p>Aim to finish Part A and most of Part B cleanly. Part C is a bonus this year.</p></div><div><h3>Wrote Pascal last year</h3><p>Start from your Pascal mistakes list; the target is all of Part B and two Part C questions.</p></div><div><h3>Grade 9, writing up</h3><p>Only if past Pascal papers feel easy. Spend the extra weeks on quadratics and similar triangles.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="year">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Grade 10 contest year</p><h2>Cayley in a Grade 10 year: CIMC in November, Galois in April</h2><p class="ag-lede">CEMC offers a Grade 10 student three individual math contests in 2026 to 2027. They test different things, and a student who writes all three gets a full picture of where they stand.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CEMC's individual math contests open to a Grade 10 student in 2026 to 2027 (dates for the Americas, from CEMC's pages read 22 October 2026)</caption><thead><tr><th scope="col">Contest</th><th scope="col">Date</th><th scope="col">Shape, in CEMC's words</th><th scope="col">What it adds</th></tr></thead><tbody><tr><td>CIMC (Canadian Intermediate Mathematics Contest)</td><td>Wednesday, November 18, 2026</td><td>"9 questions; 6 are answer only and 3 are full-solution." "Time allowed for completion is 2 hours."</td><td>An early full-solution taste; CEMC says most problems use topics "commonly taught up to and including Grade 10"</td></tr><tr><td>Cayley</td><td>Tuesday 23 or Wednesday 24 February 2027</td><td>Multiple choice and number answers, one hour</td><td>Speed and range across the Grade 10 course</td></tr><tr><td>Galois</td><td>Wednesday, April 7, 2027</td><td>"4 questions; a mix of final answer-only and full-solution."; 75 minutes, marked out of 40</td><td>Written explanations, marked for how clearly the reasoning is set out</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The CIMC ordering deadline on CEMC's page was Thursday, October 22, 2026, the day this page was written, so most families reading it now will plan around Cayley and Galois. For a student who likes Cayley, Galois is the more important second contest: the same grade, the same curriculum, but every step of the working is read by a marker. After Grade 10 come Fermat and Hypatia in Grade 11, and the Euclid in the final year, which our <a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC contests overview</a> covers alongside the rest of the family.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="archive">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice material</p><h2>CEMC's past Cayley papers and the Topic generator</h2><p class="ag-lede">The best practice for Cayley is old Cayley papers, and CEMC gives them away. We send students to CEMC's site for them rather than copying any onto ours.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Whole past papers</h3><p>CEMC's <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">past contests page</a> holds the Cayley paper, its solutions and its results for each recent year, filtered by contest and grade.</p>
+<p>We use them in two ways: untimed and part by part in the autumn, then whole and timed in February. A paper used as a timed rehearsal is never one the student has seen before.</p></div><div><h3>Sets by topic</h3><p>The <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/problem-set-generator" rel="noopener" target="_blank">Problem Set Generator</a> has a Topic generator that "Randomly chooses up to 30 problems according to contest, level of difficulty (Part A/B/C), and topic."</p>
+<p>That makes it the right tool for a weak spot. A student who keeps losing marks on counting can ask it for Part B counting questions from past Cayley papers, and work through a set in an evening.</p></div></div>
+    <p class="ag-mt-40">For the curriculum itself, CEMC's free <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/courseware" rel="noopener" target="_blank">Courseware</a> covers school math lesson by lesson. Our only rule for any of this material: try the question properly first, and read the official solution afterwards.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Placing a Grade 10 student</p>
+      <h2>Where a Cayley student usually starts</h2>
+      <p class="ag-lede">Our four levels, used in the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Levels for a Cayley writer (ours)</caption><thead><tr><th scope="col">Level</th><th scope="col">What we see</th></tr></thead><tbody><tr><td>1. Course-ready</td><td class="ag-num">Comfortable with Grade 10 homework, new to contest questions</td></tr><tr><td>2. Part A secure</td><td class="ag-num">Clears the first ten questions of a past Cayley in about twenty minutes</td></tr><tr><td>3. Part B solver</td><td class="ag-num">Finds the idea in most Part B questions, sometimes too slowly</td></tr><tr><td>4. Part C checker</td><td class="ag-num">Attempts Part C with time left and checks each answer before coding it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Level 2 by Christmas 2026 is a good sign. The step to level 3 is where steady weekly practice shows.</p>
+<p>A student who wrote Pascal last year often starts at level 2 or 3. Ask them for their old Pascal score and their mistakes; both help us.</p></div><div><h3>For students</h3><p>When a Part C answer comes out, stop and check it before moving on. A checked answer is worth 8; an unchecked one may be worth nothing.</p>
+<p>Look at question 21 before you get stuck at the end of Part B.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine courses for a Grade 10 student who likes math</h2>
+      <p class="ag-lede">Live and online, taught by one teacher who knows the student, in a group or privately, for families in every province.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>School math, made strong</h3>
+        <span class="ag-band-sub">Grades 9 to 11</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / BASE / 01</p>
+          <h4>High school math</h4>
+          <p>The full Grade 9 to 12 course, live.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / BASE / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>Probability for the Part C counting questions.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / BASE / 03</p>
+          <h4>Math through coding</h4>
+          <p>Test a pattern in Python before you prove it.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Contest and proof</h3>
+        <span class="ag-band-sub">For keen problem solvers</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / STEP / 01</p>
+          <h4>Proof and problem solving</h4>
+          <p>Written arguments, ready for Galois.</p>
+          <a class="ag-course-link" href="/courses/jee-foundation-maths-course-class-8-10">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / STEP / 02</p>
+          <h4>Contest math, younger students</h4>
+          <p>For a younger sibling starting out.</p>
+          <a class="ag-course-link" href="/courses/middle-school-math-competitions-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / STEP / 03</p>
+          <h4>SAT math</h4>
+          <p>For students also applying to US universities.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>The computing side</h3>
+        <span class="ag-band-sub">CEMC's other contests</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / CODE / 01</p>
+          <h4>CCC Junior and Senior</h4>
+          <p>Programming problems, a week before Cayley.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / CODE / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Algorithms for contest coders.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCP / CODE / 03</p>
+          <h4>Python for teens</h4>
+          <p>From first program to real projects.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lesson format</p>
+      <h2>How live Cayley classes are set up</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evening batches after school, with times shown in your own zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings, clear of the school week.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Set around the student, and planned back from the contest day.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Problems written in-house</h3><p>Fresh Cayley-style sets each week, alongside CEMC's archive.</p></div>
+      <div><h3>Checks before answers</h3><p>Every Part C answer is tested before it counts.</p></div>
+      <div><h3>Timed rounds</h3><p>Short timed sets weekly, full papers from late January.</p></div>
+      <div><h3>Grade 10 groups</h3><p>Students grouped by grade, so the math matches.</p></div>
+      <div><h3>From coast to coast</h3><p>Students join from every province and territory.</p></div>
+      <div><h3>Group or private</h3><p>Join a group of 15 to 20, or learn alone with a teacher.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student work beyond the contest</h2>
+      <p class="ag-lede">Alongside contest math, our students build things. Some of their work is below, and more is on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Ordering the paper from CEMC is the school's cost. Ours is the teaching, billed monthly, and a family can stop at the end of any month, including straight after the Cayley.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short Cayley-style warm-up</li><li>No payment details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A group of fifteen to twenty</li><li>Grade 10 students together</li><li>Your choice of batch</li><li>One month at a time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Private lessons</li><li>Planned to your school's Cayley day</li><li>Every class on your own errors</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents wrote on Google, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Grade 10 families ask</p>
+      <h2>Cayley Contest: questions and answers</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Cayley Contest?</h3>
+        <p>It is the University of Waterloo CEMC math contest for Grade 10 students. The paper has twenty-five questions, takes an hour and is marked out of 150, and it is written at school in February.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the Cayley Contest in 2027?</h3>
+        <p>In North and South America CEMC lists Tuesday, February 23, 2027 and Wednesday, February 24, 2027, and the school picks one of those days. Schools in Canada must have their order in by Tuesday, February 9, 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who can write the Cayley Contest?</h3>
+        <p>CEMC says students in Grade 10 are eligible, and that it may be written officially by any participant in Grade 10 or below. Pascal, Cayley and Fermat count as a set, so a student writes just one of them each school year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is Part C on the Cayley Contest?</h3>
+        <p>It is the last five questions. Instead of choosing a letter, the student gives a whole number from 0 to 99. When a natural answer is larger, the question usually asks for the integer formed by its rightmost two digits, and a one-digit answer is coded with a leading zero, such as 07.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there a penalty for wrong answers on Cayley?</h3>
+        <p>No. Under the 2025 booklet rules a wrong answer simply scores zero. Correct answers earn 5, 6 or 8 marks by part, and each unanswered question earns 2, up to ten unanswered questions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What was the Cayley average in 2026?</h3>
+        <p>CEMC lists a 2026 Cayley average of 90.0 out of 150, a Certificate of Distinction cutoff of 106 and a School Medal Champion cutoff of 90, with 19 953 contestants.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Waterloo Cayley Contest the same as the UK Cayley?</h3>
+        <p>No. The Waterloo Cayley is CEMC's Grade 10 paper. The UK Cayley belongs to the UK Mathematics Trust and is a different paper, with its own route to entry and its own date.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does my child enter the Cayley Contest?</h3>
+        <p>Through their school, which orders the contest from CEMC. Students cannot enter on their own. If the school does not take part, CEMC suggests looking for another school nearby that will let the student write there.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should a Grade 10 student also write Galois?</h3>
+        <p>We think so, if they enjoy Cayley. Galois is CEMC's Grade 10 full-solution contest, on Wednesday, April 7, 2027 in the Americas, with four questions in 75 minutes, and it rewards clear written reasoning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your Cayley classes held?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern time and shown to each family in its own time zone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Keep reading</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Pages a Grade 10 contest writer in Canada may find useful next.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">All CEMC Waterloo contests</a></h3><p>Gauss to Euclid on one page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Math tutoring in Canada</a></h3><p>Support with the Grade 10 course itself.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Canada home</a></h3><p>Every page we have for Canadian students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">Canadian Computing Competition</a></h3><p>CEMC's programming contest in February.</p></div>
+      <div><h3><a class="ag-inline-link" href="/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation">The UK Cayley paper</a></h3><p>If you meant the UK Mathematics Trust contest.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-olympiad-amc-tutoring">AMC 10 and 12</a></h3><p>The American papers many Canadian students also write.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-olympiad-classes-online">Which olympiad?</a></h3><p>A guide to the major math contests.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-vs-maths">Coding or math first?</a></h3><p>For students drawn to both.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-think-like-a-programmer">Thinking like a programmer</a></h3><p>Breaking a problem into steps, the same skill Part C needs.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">In the first class the student works through a short Cayley-style set we wrote, with a teacher, on screen. You come away knowing which of the four levels your child is at and what we would do with them between now and late February 2027.</p>
+        <p class="ag-mt-40">Rather read first? See <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or browse the <a class="ag-inline-link" href="/courses">course list</a> with every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Grade%2010%20and%20plans%20to%20write%20the%20Cayley%20Contest%20in%20February%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">We teach from India, live over video, so nobody has to travel. WhatsApp is the quickest way to reach a person, wherever in Canada you are.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ccp(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, with no card and nothing to sign.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Waterloo contests</h4><ul><li><a href="/cemc-waterloo-contests-preparation">CEMC math contests</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/maths-olympiad-classes-online">Choosing an olympiad</a></li></ul></div>
+      <div><h4>For Canadian families</h4><ul><li><a href="/coding-classes-in-canada">Canada home</a></li><li><a href="/online-math-tutor-canada">Math tutoring, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student work</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Check it before you code it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ccp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'cayley-contest-preparation-inline', meta: { name: name, age: age, page: 'cayley-contest-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

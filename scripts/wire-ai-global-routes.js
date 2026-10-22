@@ -485,6 +485,7 @@ const SLUGS = [
   'ccc-junior-guide',
   'ics3u-computer-science-help',
   'pascal-contest-preparation',
+  'cayley-contest-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1049,6 +1050,7 @@ const LLMS_LABELS = {
   'ccc-junior-guide': 'CCC Junior guide',
   'ics3u-computer-science-help': 'ICS3U computer science help',
   'pascal-contest-preparation': 'Pascal Contest preparation',
+  'cayley-contest-preparation': 'Cayley Contest preparation',
 };
 
 function wireLlms(slugs) {
