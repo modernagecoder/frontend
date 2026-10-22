@@ -514,5 +514,17 @@
  "ccc-junior-and-senior-preparation-course": {
   "img": "/images/ccc-junior-senior-prep.webp",
   "alt": "CCC Junior and Senior Preparation - Modern Age Coders course"
+ },
+ "waterloo-math-contests-gauss-to-euclid-course": {
+  "img": "/images/waterloo-math-contests.webp",
+  "alt": "Waterloo Math Contests: Gauss to Euclid - Modern Age Coders course"
+ },
+ "ontario-grade-12-university-math-mhf4u-mcv4u-course": {
+  "img": "/images/ontario-grade-12-university-math.webp",
+  "alt": "Ontario Grade 12 University Math: MHF4U and MCV4U - Modern Age Coders course"
+ },
+ "western-canada-grade-12-math-pre-calculus-12-math-30-1-course": {
+  "img": "/images/western-canada-grade-12-math.webp",
+  "alt": "Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1 - Modern Age Coders course"
  }
 }

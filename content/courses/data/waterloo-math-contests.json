@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "slug": "waterloo-math-contests-gauss-to-euclid-course",
+    "date": "2026-10-22",
+    "title": "Waterloo Math Contests: Gauss to Euclid",
+    "description": "Live online prep for CEMC's Waterloo math contests, ages 11 to 18: Gauss, Pascal, Cayley, Fermat, Euclid, Fryer, Galois, Hypatia, CIMC and CSMC, with grade tracks and proof writing.",
+    "keywords": [
+      "waterloo math contests",
+      "gauss math contest",
+      "gauss contest preparation",
+      "pascal cayley fermat",
+      "euclid math contest",
+      "euclid contest preparation",
+      "fryer galois hypatia",
+      "cemc math contests",
+      "cimc csmc",
+      "math contest prep canada",
+      "waterloo math contest past papers",
+      "full solution math contest"
+    ],
+    "category": "Competition Mathematics & Olympiad Training",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks) per season, joinable any month and timed to the CEMC contests each student will write",
+    "level": "Students roughly aged 11 to 18 (Grades 7 to 12) who are comfortable with school math and want harder problems, in a Gauss track (Grades 7 and 8), a Grades 9 and 10 track and a Grades 11 and 12 track",
+    "commitment": "2 live classes/week + weekly problem sets, written solutions and timed practice rounds",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not a CEMC certificate or result)",
+    "image_path": "waterloo-math-contests.webp",
+    "dateModified": "2026-10-22"
+  },
+  "program_overview": {
+    "title": "Waterloo Math Contests: Gauss to Euclid",
+    "tagline": "One problem-solving toolkit, three grade tracks: from the first Gauss counting ideas to the clear, complete written solutions the Euclid asks for.",
+    "description": "The Centre for Education in Mathematics and Computing (CEMC) at the University of Waterloo runs a family of math contests \"Designed by teams of expert mathematicians and educators for Grades 5 to 12\". Each contest is matched to a grade. The Gauss Contest is for \"Students in Grades 7 and 8.\", and CEMC adds that \"Motivated students in lower grades are welcome to write the contest.\" The Pascal, Cayley and Fermat Contests are for Grade 9, Grade 10 and Grade 11. The Fryer, Galois and Hypatia Contests are for the same three grades, with \"4 questions; a mix of final answer-only and full-solution.\" The Euclid Contest is for \"Students in their final year of secondary school or CÉGEP students.\" and has \"10 questions; a mix of final answer only and full-solution.\" The CIMC is for Grades 9 and 10 and the CSMC for Grades 11 and 12 and CÉGEP students, each with \"9 questions; 6 are answer only and 3 are full-solution.\"\n\nFor the 2026/27 contest year CEMC lists the CIMC and CSMC on Wednesday, November 18, 2026; the Pascal, Cayley and Fermat Contests on Tuesday, February 23, 2027 and Wednesday, February 24, 2027; the Euclid on Tuesday, April 6, 2027; the Fryer, Galois and Hypatia on Wednesday, April 7, 2027; and the Gauss from Monday, May 10, 2027 to Friday, May 21, 2027 (dates for North and South America). Students write through their school: CEMC says \"It is not possible for students to individually register for a contest\" and \"all students must participate through their school.\"\n\nThis course teaches the mathematics behind all of these contests in three grade tracks, and it teaches the two skills they test in different ways: fast, accurate work on multiple-choice and answer-only questions, and full solutions that explain every step. Practice comes from two places: our own original problems written for each topic, and CEMC's free past contests, which CEMC publishes with no registration or fee and which students work where CEMC publishes them. We never copy CEMC problems into our materials. We teach the ideas and the habits, and we make no promise of scores, certificates of distinction, prizes, scholarships or admissions.",
+    "what_makes_this_different": [
+      "Built around CEMC's contests by grade: Gauss for Grades 7 and 8, then Pascal, Cayley, Fermat, Fryer, Galois, Hypatia, CIMC, CSMC and Euclid",
+      "Three grade tracks taught in separate batches, so every student works on problems at the right level",
+      "Full-solution writing taught directly: stating the idea, showing every step and checking the answer, as the full-solution contests require",
+      "Our own original problems for every topic, plus CEMC's free past contests used as practice where CEMC publishes them",
+      "A timed practice round every month, in the format of the contest each student will write next",
+      "Honest about entry and results: students write through their school, and we promise learning, not scores"
+    ],
+    "learning_path": {
+      "phase_1": "The shared toolkit for every track: careful reading, number sense, algebra, counting, geometry, multiple-choice technique and the first full written solutions",
+      "phase_2": "The grade tracks: Gauss for Grades 7 and 8; Pascal, Cayley, Fryer, Galois and CIMC for Grades 9 and 10; Fermat, Hypatia, CSMC and Euclid for Grades 11 and 12",
+      "phase_3": "Contest season: timed rounds, full-solution polish, contest-day routine for each 2026/27 contest, then review and next steps"
+    },
+    "career_outcomes": [
+      "The habit of reading an unfamiliar problem slowly, trying small cases and choosing an idea before calculating",
+      "Confidence with the number theory, algebra, counting, probability and geometry these contests are built on",
+      "Clear written solutions that a marker can follow from the first line to the answer",
+      "Contest habits: pacing a timed paper, checking answers and earning marks on harder questions",
+      "A calm, honest view of contests as a challenge to learn from, not a test to pass",
+      "A strong base for senior school math, university mathematics and further contests"
+    ]
+  },
+  "phase_1_shared_toolkit": {
+    "title": "PHASE 1: The Shared Toolkit (Months 1-2, Weeks 1-8)",
+    "description": "Everything all three tracks need: how to read a contest problem, the core ideas of number, algebra, counting and geometry, and the first full written solutions.",
+    "month_1_reading_number_and_algebra": {
+      "title": "Month 1: Reading Problems, Number Sense and Algebra",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: How the Waterloo Contests Work and First Problems",
+        "topics": [
+          "The CEMC contest family by grade, and which contests each student will write this year",
+          "A short diagnostic to place each student on the Gauss, Grades 9 and 10, or Grades 11 and 12 track",
+          "Multiple-choice, answer-only and full-solution questions, and what each one rewards",
+          "Reading a problem twice: listing what is given, what is asked and what is hidden",
+          "Trying small cases, drawing a diagram and making a table before calculating",
+          "Starting an error log on day one"
+        ],
+        "projects": [
+          "A personal starting profile: track, target contests for the year and ten solved warm-up problems"
+        ],
+        "practice": "Ten short original problems, each with the idea written in one sentence before the answer"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Number Sense and Algebra Habits",
+        "topics": [
+          "Fractions, ratios, percentages and averages handled exactly",
+          "Factoring and expanding to make calculations short",
+          "Setting up an equation from a word problem",
+          "Systems of two equations solved by substitution and elimination",
+          "Working backwards and guess-and-check used on purpose",
+          "Checking an answer by substituting it back"
+        ],
+        "projects": [
+          "A word-problem pack of original problems, each solved with a clear equation and a check"
+        ],
+        "practice": "A first CEMC past contest at the student's level, from CEMC's site, attempted untimed with a written review",
+        "assessment": "Month 1 timed round: a short practice round of original problems"
+      }
+    },
+    "month_2_counting_geometry_and_writing": {
+      "title": "Month 2: Counting, Geometry and Writing a Full Solution",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Counting and Geometry Foundations",
+        "topics": [
+          "Systematic lists, tree diagrams and the multiplication rule",
+          "Counting by complements: count what you do not want and subtract",
+          "Angles in triangles, parallel lines and polygons",
+          "Area and perimeter of composite figures",
+          "The Pythagorean theorem and when to look for a right triangle",
+          "Patterns and sequences: finding the rule and testing it"
+        ],
+        "projects": [
+          "A counting and geometry problem set of original problems, with a labelled diagram for every geometry question"
+        ],
+        "practice": "Mixed problems timed at a few minutes each, then reviewed for method, not only answers"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Full Solutions and Multiple-Choice Technique",
+        "topics": [
+          "What a full solution looks like: the idea, every step and a final statement",
+          "Writing in complete sentences with clear algebra and labelled diagrams",
+          "Explaining why, not only what: justifying each step",
+          "Multiple-choice technique: estimation, checking options and eliminating wrong ones",
+          "Pacing a 60-minute, 25-question multiple-choice paper",
+          "Reviewing a paper: sorting mistakes into careless, method and knowledge"
+        ],
+        "projects": [
+          "Rewrite three of your own earlier answers as full solutions, then compare them with a model write-up"
+        ],
+        "practice": "One full-solution question each class, marked with written comments on clarity and completeness",
+        "assessment": "Phase 1 assessment: a timed round with multiple-choice and full-solution questions, reviewed question by question"
+      }
+    }
+  },
+  "phase_2_grade_tracks": {
+    "title": "PHASE 2: The Grade Tracks (Months 3-4, Weeks 9-16)",
+    "description": "The tracks run in parallel in separate batches. Each track builds the mathematics and the question types of the contests its students will write.",
+    "month_3_4_gauss_track": {
+      "title": "Months 3-4, Gauss Track (Grades 7 and 8): Building the Gauss Toolkit",
+      "weeks": "Weeks 9-16",
+      "week_9_10_gauss": {
+        "title": "Weeks 9-10: Number Theory for Grades 7 and 8",
+        "topics": [
+          "Factors, multiples, primes and prime factorization",
+          "Divisibility rules and why they work",
+          "Greatest common factor and least common multiple in word problems",
+          "Remainders and repeating patterns in long lists",
+          "Digits and place value puzzles",
+          "Choosing an organized list instead of guessing"
+        ],
+        "projects": [
+          "An original number puzzle pack, each solution explained in two or three sentences"
+        ],
+        "practice": "Gauss-style multiple-choice sets of original problems, with a written check for every answer"
+      },
+      "week_11_12_gauss": {
+        "title": "Weeks 11-12: Ratios, Rates and Algebra in Words",
+        "topics": [
+          "Ratios and rates, including speed, distance and time",
+          "Percent increase and decrease done in one step",
+          "Averages: using the total instead of the list",
+          "Writing and solving one-variable equations from words",
+          "Simple patterns turned into algebraic rules",
+          "Units and reasonableness checks"
+        ],
+        "projects": [
+          "A ratio and rate problem set solved two ways: once with a table, once with an equation"
+        ],
+        "practice": "Timed sets of ten problems, with every miss logged and redone"
+      },
+      "week_13_14_gauss": {
+        "title": "Weeks 13-14: Counting and Probability",
+        "topics": [
+          "Counting arrangements and choices with the multiplication rule",
+          "Counting without double counting",
+          "Simple probability as favourable outcomes over equally likely outcomes",
+          "Probability with two dice, coins and spinners",
+          "Logic puzzles and careful case checking",
+          "Spotting a counting question inside a story"
+        ],
+        "projects": [
+          "Design and solve three original counting problems for a classmate"
+        ],
+        "practice": "Counting and probability problems, each with a list or tree drawn first"
+      },
+      "week_15_16_gauss": {
+        "title": "Weeks 15-16: Geometry and Measurement",
+        "topics": [
+          "Angle facts in triangles, quadrilaterals and regular polygons",
+          "Area of triangles, trapezoids and circles, and shaded-region questions",
+          "Surface area and volume of prisms and cylinders",
+          "The Pythagorean theorem in two-step problems",
+          "Coordinates on a grid: distance and area",
+          "Drawing the diagram accurately before calculating"
+        ],
+        "projects": [
+          "A shaded-region problem pack of original problems, each with a labelled diagram"
+        ],
+        "practice": "A full 60-minute, 25-question practice paper of original problems",
+        "assessment": "Gauss track assessment: a full timed paper reviewed question by question"
+      }
+    },
+    "month_3_4_intermediate_track": {
+      "title": "Months 3-4, Grades 9 and 10 Track: Pascal, Cayley, Fryer, Galois and CIMC",
+      "weeks": "Weeks 9-16",
+      "week_9_10_intermediate": {
+        "title": "Weeks 9-10: Algebra for Contests",
+        "topics": [
+          "Linear equations, systems and inequalities set up from words",
+          "Factoring quadratics and the difference of squares",
+          "Exponent laws and simplifying powers",
+          "Substitution to make a hard expression simple",
+          "Linear relations: slope, intercepts and lines on a grid",
+          "Writing an algebra argument as a full solution"
+        ],
+        "projects": [
+          "An original algebra problem set with full written solutions for the last three questions"
+        ],
+        "practice": "Mixed multiple-choice and answer-only problems of original design, timed and reviewed"
+      },
+      "week_11_12_intermediate": {
+        "title": "Weeks 11-12: Number Theory and Counting",
+        "topics": [
+          "Prime factorization and counting divisors",
+          "Remainders and simple modular reasoning",
+          "The multiplication rule, arrangements and selections",
+          "Counting with restrictions, and counting by complements",
+          "Probability from counting",
+          "Organized casework and how to check every case is covered"
+        ],
+        "projects": [
+          "A casework problem pack where each solution lists its cases clearly"
+        ],
+        "practice": "Counting problems at several minutes each, with the counting method named before the answer"
+      },
+      "week_13_14_intermediate": {
+        "title": "Weeks 13-14: Geometry with Reasons",
+        "topics": [
+          "Similar triangles and ratios of lengths and areas",
+          "The Pythagorean theorem in two and three dimensions",
+          "Circles: radius, chords and angles, with reasons given",
+          "Coordinate geometry: distance, midpoint and area on the plane",
+          "Justifying each geometry step in words",
+          "Choosing between a coordinate approach and a pure geometry approach"
+        ],
+        "projects": [
+          "Three original geometry problems solved with full written reasons"
+        ],
+        "practice": "Geometry full-solution questions in the style of the Fryer and Galois, marked with written comments"
+      },
+      "week_15_16_intermediate": {
+        "title": "Weeks 15-16: Full Solutions and Mixed Rounds",
+        "topics": [
+          "The answer-only and full-solution mix of the Fryer, Galois and CIMC",
+          "Writing a full solution under time without losing clarity",
+          "Showing that an answer is the only one, not just that it works",
+          "Pacing a 60-minute, 25-question Pascal or Cayley style paper",
+          "Partial progress on a hard question: writing down what you can prove",
+          "Reviewing and rewriting a solution after feedback"
+        ],
+        "projects": [
+          "A personal model-solution file: five of your own best full solutions, rewritten after feedback"
+        ],
+        "practice": "A full timed practice paper of original problems in the style of the student's next contest",
+        "assessment": "Grades 9 and 10 track assessment: a timed mixed paper plus one full solution marked in detail"
+      }
+    },
+    "month_3_4_senior_track": {
+      "title": "Months 3-4, Grades 11 and 12 Track: Fermat, Hypatia, CSMC and Euclid",
+      "weeks": "Weeks 9-16",
+      "week_9_10_senior": {
+        "title": "Weeks 9-10: Functions, Equations and Inequalities",
+        "topics": [
+          "Quadratic functions: vertex form, roots and the discriminant",
+          "Systems of equations, including non-linear systems",
+          "Functions and their graphs, and reading information from a graph",
+          "Exponential and logarithmic equations",
+          "Inequalities and how to prove one holds",
+          "Writing a function argument as a full solution"
+        ],
+        "projects": [
+          "An original functions problem set with full written solutions for every question"
+        ],
+        "practice": "Answer-only and full-solution questions of original design, timed and reviewed"
+      },
+      "week_11_12_senior": {
+        "title": "Weeks 11-12: Sequences, Number Theory and Counting",
+        "topics": [
+          "Arithmetic and geometric sequences and their sums",
+          "Divisibility, remainders and integer solutions",
+          "Counting arrangements and selections, and the binomial coefficients",
+          "Probability built from counting",
+          "Recognizing a pattern and proving it holds in general",
+          "Casework that is complete and clearly organized"
+        ],
+        "projects": [
+          "A sequences and counting pack where each solution proves its pattern, not just finds it"
+        ],
+        "practice": "Mixed problems at the level of the later answer-only questions, with the idea written first"
+      },
+      "week_13_14_senior": {
+        "title": "Weeks 13-14: Trigonometry and Geometry",
+        "topics": [
+          "Trigonometric ratios, the sine law and the cosine law",
+          "Trigonometric equations and identities",
+          "Circle geometry with full reasons",
+          "Coordinate geometry: lines, circles and distances",
+          "Areas and lengths by more than one method",
+          "Labelling a diagram so a written solution is easy to follow"
+        ],
+        "projects": [
+          "Three original geometry problems, each solved by two different methods and written up in full"
+        ],
+        "practice": "Geometry and trigonometry full-solution questions, marked with written comments"
+      },
+      "week_15_16_senior": {
+        "title": "Weeks 15-16: Proof Writing for Full-Solution Contests",
+        "topics": [
+          "Direct proof, proof by cases and proof by contradiction",
+          "Proving that every case is covered, and that an answer is the only one",
+          "Writing for a reader: definitions, steps and a clear conclusion",
+          "The Euclid's mix of answer-only and full-solution questions over 2.5 hours",
+          "The CSMC and Hypatia full-solution questions and how to earn partial marks",
+          "Reviewing and rewriting a proof after feedback"
+        ],
+        "projects": [
+          "A personal proof file: five of your own full solutions, each rewritten after detailed feedback"
+        ],
+        "practice": "A full timed practice paper of original problems in the style of the student's next contest",
+        "assessment": "Grades 11 and 12 track assessment: a timed mixed paper plus one proof marked in detail"
+      }
+    }
+  },
+  "phase_3_contest_season": {
+    "title": "PHASE 3: Contest Season (Months 5-6, Weeks 17-24)",
+    "description": "Timed rounds in the format of each student's next contest, polish on full solutions, the contest-day routine, then review and a plan for the next contest.",
+    "month_5_timed_rounds": {
+      "title": "Month 5: Timed Rounds and Contest Craft",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Pacing Each Contest Format",
+        "topics": [
+          "Pacing a 60-minute, 25-question multiple-choice paper: Gauss, Pascal, Cayley and Fermat",
+          "Pacing a 75-minute, 4-question paper: Fryer, Galois and Hypatia",
+          "Pacing a 2-hour, 9-question paper: CIMC and CSMC",
+          "Pacing a 2.5-hour, 10-question paper: Euclid",
+          "Deciding when to move on from a stuck question",
+          "Using CEMC's past contests from the last 10 years as timed practice on CEMC's site"
+        ],
+        "projects": [
+          "Two full timed practice papers, each followed by a written pacing review"
+        ],
+        "practice": "One full timed paper a week at the student's level, then a careful review of every miss"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Review and Weak-Spot Repair",
+        "topics": [
+          "Redoing every missed question unaided after a timed paper",
+          "Reading the error log to find the real weak spot",
+          "Targeted mini-lessons on each student's weakest topic",
+          "Polishing full solutions: shorter, clearer and complete",
+          "A short personal checklist for the last minutes of a paper",
+          "Making sure the school has the student on its contest order"
+        ],
+        "projects": [
+          "A personal weak-spot plan with three topics, each with a problem set completed"
+        ],
+        "practice": "Original problem sets on each student's weak topics",
+        "assessment": "Month 5 assessment: a full timed paper reviewed one to one with the teacher"
+      }
+    },
+    "month_6_contest_days_and_next_steps": {
+      "title": "Month 6: Final Practice, Contest Days and Next Steps",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Final Practice Papers",
+        "topics": [
+          "Final timed papers in the exact format of the student's next contest",
+          "Calm starts: reading the whole paper and choosing an order",
+          "Checking answers and units in the last minutes",
+          "Full-solution presentation one last time: idea, steps, conclusion",
+          "Rest and practice balance in the last two weeks",
+          "Reading CEMC's current instructions for the contest together"
+        ],
+        "projects": [
+          "A final practice paper with a written contest-day plan"
+        ],
+        "practice": "Light, steady practice: short problems that keep skills sharp"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Contest Week and After",
+        "topics": [
+          "Contest-day routine for the 2026/27 dates: CIMC and CSMC on November 18, 2026; Pascal, Cayley and Fermat on February 23 and 24, 2027; Euclid on April 6, 2027; Fryer, Galois and Hypatia on April 7, 2027; Gauss from May 10 to May 21, 2027",
+          "After the contest: reviewing the paper once CEMC publishes it",
+          "What the student learned from the contest, whatever the result",
+          "Choosing the next contest in the CEMC calendar",
+          "Moving up a track for the next season when ready",
+          "Presenting a favourite solution of the season to the class"
+        ],
+        "projects": [
+          "A next-contest plan based on the error log and the practice-paper history"
+        ],
+        "practice": "Write a full solution to your favourite problem of the season for a newer student",
+        "assessment": "Final assessment: a last timed paper plus a short conversation about the student's method choices"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What are the Waterloo math contests?",
+      "answer": "They are the math contests run by CEMC (the Centre for Education in Mathematics and Computing) at the University of Waterloo, \"Designed by teams of expert mathematicians and educators for Grades 5 to 12\". This course covers the Gauss, Pascal, Cayley, Fermat and Euclid Contests, the Fryer, Galois and Hypatia Contests, and the CIMC and CSMC. CEMC also says: \"Our contests are not tests or exams. There is no passing or failing score.\""
+    },
+    {
+      "question": "Which contest should my child write?",
+      "answer": "CEMC matches each contest to a grade. Gauss is for \"Students in Grades 7 and 8.\" Pascal is for Grade 9, Cayley for Grade 10 and Fermat for Grade 11. Fryer, Galois and Hypatia are for Grades 9, 10 and 11. The CIMC is for Grades 9 and 10, the CSMC for Grades 11 and 12 and CÉGEP students, and the Euclid for \"Students in their final year of secondary school or CÉGEP students.\" In the first two weeks we place each student on a track and plan the contests for the year."
+    },
+    {
+      "question": "When are the 2026/27 contests?",
+      "answer": "CEMC lists these dates for North and South America: CIMC and CSMC on Wednesday, November 18, 2026; Pascal, Cayley and Fermat on Tuesday, February 23, 2027 and Wednesday, February 24, 2027; Euclid on Tuesday, April 6, 2027; Fryer, Galois and Hypatia on Wednesday, April 7, 2027; and Gauss from Monday, May 10, 2027 to Friday, May 21, 2027. Schools order the contests before CEMC's deadlines, so check the current dates on CEMC's site with your school."
+    },
+    {
+      "question": "How do we register for a contest?",
+      "answer": "Through a school, not through us. CEMC says \"It is not possible for students to individually register for a contest\" and \"all students must participate through their school.\" If a student's school does not take part, CEMC suggests that \"students can look for another local school that will allow them to join as a participant\". We remind families to check the school's order early."
+    },
+    {
+      "question": "What is the difference between multiple-choice and full-solution contests?",
+      "answer": "Gauss, Pascal, Cayley and Fermat each have 25 multiple-choice questions in 60 minutes, so speed and accuracy matter most. Fryer, Galois and Hypatia have \"4 questions; a mix of final answer-only and full-solution.\" in 75 minutes, and the Euclid has \"10 questions; a mix of final answer only and full-solution.\" in 2.5 hours. On a full-solution question the reasoning is marked, not just the answer, so we teach students to write clear, complete solutions."
+    },
+    {
+      "question": "Do you use CEMC past contests?",
+      "answer": "Yes, the way CEMC intends. CEMC says \"There is no registration or fee required to access these materials.\" and its past contests page says \"Below you will find resources from the last 10 years.\" We set those past contests as practice, which students work on CEMC's site, and review them in class beside our own original problems. We never copy CEMC problems into our materials."
+    },
+    {
+      "question": "Will this course get my child a certificate of distinction or a top score?",
+      "answer": "No course can promise that, and we do not. Results depend on the student, the paper and the day. What the course gives is steady practice, timed rounds, written feedback on full solutions and an error log, so progress is visible month by month."
+    },
+    {
+      "question": "Do the Waterloo contests matter for university?",
+      "answer": "They are a good challenge, not a requirement. The University of Waterloo's Computer Science page says writing the CSMC or Euclid \"is not required for admission, but writing one of these contests is required for some scholarships offered by the Faculty of Mathematics.\" Waterloo's Admission Information Form also says \"This form asks about any Waterloo mathematics contests you've participated in\". Always check each university's current pages. We make no admission or scholarship promises."
+    },
+    {
+      "question": "Can a younger student write the Gauss?",
+      "answer": "CEMC says \"Motivated students in lower grades are welcome to write the contest.\" This course starts at about age 11. A younger student who is strong in math can join the Gauss track after the free demo class, if the teacher agrees the level fits."
+    },
+    {
+      "question": "Does my child need to be top of the class in math?",
+      "answer": "No. A student should be comfortable with school math for their grade and willing to work on problems that take time. Contest problems feel unfamiliar at first for almost everyone; the course builds the habits that make them approachable, one idea at a time."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or 1-on-1. Each grade track is taught in its own batches. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher works through a short original problem with your child, suggests the right track and contests for the year, and recommends group, mini batch or 1-on-1 classes. There is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Starting profile with track and target contests for the year",
+      "Word-problem, counting and geometry packs of original problems",
+      "Full solutions rewritten after feedback",
+      "Number theory, ratio and shaded-region packs (Gauss track)",
+      "A model-solution file of full solutions (Grades 9 and 10 track)",
+      "A proof file of full solutions (Grades 11 and 12 track)",
+      "Timed practice papers with written pacing reviews and a next-contest plan"
+    ],
+    "total_projects_built": "A season of solved original problems, reviewed CEMC past contests, a file of the student's own full solutions, an error log and a practice-paper history",
+    "skills_mastered": [
+      "Reading unfamiliar problems carefully and choosing an idea",
+      "Number sense, number theory and algebra for contests",
+      "Counting, probability and organized casework",
+      "Geometry and trigonometry with written reasons",
+      "Sequences, functions and inequalities (Grades 11 and 12 track)",
+      "Writing clear full solutions and proofs",
+      "Pacing multiple-choice, answer-only and full-solution papers"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, each grade track in its own batches",
+      "practice": "A problem set after every class, with core and stretch problems",
+      "review": "Written feedback on full solutions, a timed round every month and a monthly error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not a CEMC certificate or contest result. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with practice-paper results and next steps",
+      "free_past_contests": "CEMC's past contests from the last 10 years, free with no registration, used as practice where CEMC publishes them"
+    }
+  },
+  "prerequisites": {
+    "math_level": "Comfortable with school math for the student's grade, and happy to spend time on a hard problem",
+    "age": "Roughly 11 to 18 (Grades 7 to 12). The track is chosen by grade and level after a short diagnostic",
+    "equipment": "A computer with stable internet, paper and a pencil, and a way to share photos of written solutions",
+    "contest_entry": "CEMC contests are written through a school; check that your school (or another local school) is taking part",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "gauss_students": "Grade 7 and 8 students who enjoy puzzles and want to write the Gauss with real preparation",
+    "grade_9_and_10_students": "Students preparing for the Pascal, Cayley, Fryer, Galois or CIMC",
+    "grade_11_and_12_students": "Students preparing for the Fermat, Hypatia, CSMC or Euclid, including full-solution writing",
+    "returning_contest_writers": "Students who wrote a CEMC contest before and want to reach the harder questions",
+    "students_who_want_more": "Students who find school math easy and want problems that make them think"
+  },
+  "career_paths_after_completion": [
+    "A second season of this course, moving up a track or deeper into full-solution writing",
+    "Senior school math such as Ontario's MHF4U and MCV4U, through our Grade 12 university math course",
+    "Contest programming, such as the Canadian Computing Competition, through our CCC preparation course",
+    "University mathematics, computer science or engineering, with strong problem-solving habits",
+    "Further math contests and personal problem-solving projects"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "grade_tracks": "Separate batches for the Gauss track, the Grades 9 and 10 track and the Grades 11 and 12 track.",
+    "original_problems": "Original problems written for each topic, with CEMC's free past contests used as practice where CEMC publishes them.",
+    "feedback": "Written feedback on full solutions, a timed round every month and a monthly progress note to parents.",
+    "certificate": "A certificate from Modern Age Coders that you earn by passing the final assessment, with a free retest after revision if needed. It is not a CEMC certificate or result.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  }
+}

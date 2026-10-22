@@ -77,7 +77,7 @@ Full companion to /llms.txt, brand overview, complete course catalog, embedded t
 
 **Q: How are classes conducted?** Live over video in groups of 15 to 20 (or 1-on-1). Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
-## Course Catalog (134 courses)
+## Course Catalog (137 courses)
 
 Every Modern Age Coders course, grouped by audience.
 
@@ -495,7 +495,7 @@ TypeScript course for college students and professionals: JavaScript foundations
 
 Live online vibe coding course for college students 18+: master the MERN stack, DSA, machine learning and system design, crack tech placements and internships.
 
-### Mathematics (34)
+### Mathematics (37)
 
 ### [11 Plus Maths Prep: UK Grammar & Independent School Entry](https://learn.modernagecoders.com/courses/11-plus-maths-preparation-course-uk/)
 
@@ -677,6 +677,12 @@ National 5 and Higher Maths online for Scottish learners: C847 75 and C847 76 ta
 
 Live online olympiad mathematics for serious students: number theory, algebra, combinatorics and geometry taught as proof-based problem solving, aimed at IOQM and INMO in India and the AMC and AIME internationally.
 
+### [Ontario Grade 12 University Math: Advanced Functions and Calculus and Vectors (MHF4U and MCV4U)](https://learn.modernagecoders.com/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course/)
+
+*Level:* Ontario students in Grade 12 (roughly ages 16 to 18) taking MHF4U, MCV4U or both at school · *Duration:* 6 months (24 weeks) per plan, joinable any month and paced to your school course · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online MHF4U and MCV4U help for ages 16 to 18, taught alongside your Ontario school course: functions, trigonometry, logarithms, calculus and vectors. We do not grant Ontario credits.
+
 ### [PSLE Maths: Model Method, Problem Sums & MOE Syllabus](https://learn.modernagecoders.com/courses/psle-maths-mastery/)
 
 *Level:* Primary 4-6 students on the MOE syllabus, PSLE-bound · *Duration:* 12 months (52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
@@ -700,6 +706,18 @@ Online statistics and probability course for college and professionals: descript
 *Level:* Beginner friendly, ages 8 to adult · *Duration:* 6 months (24 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Vedic maths course online with live classes: all 16 sutras for fast multiplication, squares, division and mental calculation. Ages 8 to adult, free demo class.
+
+### [Waterloo Math Contests: Gauss to Euclid](https://learn.modernagecoders.com/courses/waterloo-math-contests-gauss-to-euclid-course/)
+
+*Level:* Students roughly aged 11 to 18 (Grades 7 to 12) who are comfortable with school math and want harder problems, in a Gauss track (Grades 7 and 8), a Grades 9 and 10 track and a Grades 11 and 12 track · *Duration:* 6 months (24 weeks) per season, joinable any month and timed to the CEMC contests each student will write · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online prep for CEMC's Waterloo math contests, ages 11 to 18: Gauss, Pascal, Cayley, Fermat, Euclid, Fryer, Galois, Hypatia, CIMC and CSMC, with grade tracks and proof writing.
+
+### [Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1](https://learn.modernagecoders.com/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course/)
+
+*Level:* Students in Grade 12 (roughly ages 16 to 18) taking Pre-calculus 12 in British Columbia or Math 30-1 in Alberta · *Duration:* 6 months (24 weeks) per plan, joinable any month and paced to your school course · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online help for BC Pre-calculus 12 and Alberta Math 30-1, ages 16 to 18, taught alongside school: functions, logarithms, trigonometry and counting. We do not grant credits.
 
 ### Girls (3)
 

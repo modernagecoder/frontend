@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "slug": "western-canada-grade-12-math-pre-calculus-12-math-30-1-course",
+    "date": "2026-10-22",
+    "title": "Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1",
+    "description": "Live online help for BC Pre-calculus 12 and Alberta Math 30-1, ages 16 to 18, taught alongside school: functions, logarithms, trigonometry and counting. We do not grant credits.",
+    "keywords": [
+      "pre-calculus 12",
+      "pre-calculus 12 bc",
+      "pre-calculus 12 help",
+      "math 30-1",
+      "math 30-1 alberta",
+      "math 30-1 help",
+      "math 30-1 diploma exam",
+      "math 30-1 diploma exam prep",
+      "grade 12 math bc",
+      "grade 12 math alberta",
+      "pre-calculus 12 logarithms",
+      "math 30-1 permutations and combinations"
+    ],
+    "category": "Western Canada High School Mathematics",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks) per plan, joinable any month and paced to your school course",
+    "level": "Students in Grade 12 (roughly ages 16 to 18) taking Pre-calculus 12 in British Columbia or Math 30-1 in Alberta",
+    "commitment": "2 live classes/week + short practice sets between classes",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not a high school credit in British Columbia, Alberta or any province)",
+    "image_path": "western-canada-grade-12-math.webp",
+    "dateModified": "2026-10-22"
+  },
+  "program_overview": {
+    "title": "Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1",
+    "tagline": "A second teacher for Grade 12 math in British Columbia and Alberta: functions, logarithms, trigonometry and counting understood properly, in step with your school course.",
+    "description": "Pre-calculus 12 is one of the Grade 12 courses on British Columbia's mathematics course list, beside Foundations of Mathematics 12 and Calculus 12. In Alberta, Mathematics 30-1 is one of the courses with a provincial diploma exam, and the diploma exam counts for a large share of the final mark. Alberta's diploma exams overview says \"The weighting of diploma exams returned to 30% effective September 1, 2023.\" and \"70% of the final mark comes from course work. The remaining 30% comes from the diploma exam.\" Alberta's provincial achievement tests page adds that \"students write diploma exams and provincial achievement tests in a digital environment rather than pencil and paper\".\n\nThis course runs alongside the student's own Pre-calculus 12 or Math 30-1 class, and we follow the order of the student's school course outline so what is learned here is used in class the same week. What our course teaches: functions and their transformations, including inverses; polynomial, radical and rational functions; exponential and logarithmic functions; trigonometry in radians, with identities and equations; and permutations, combinations and the binomial theorem. Every topic starts from meaning, with graphs and small examples, before the algebra. For Alberta students we add exam technique for the Math 30-1 diploma exam, practised on screen; for BC students we prepare for the school's own unit tests and final exam. Tests and assignments stay the student's own work: we explain, question and review, and the student does the math.\n\nPlease read this plainly: Modern Age Coders teaches alongside school and does not grant high school credits in British Columbia, Alberta or any other province. Families who need the credit take the course through their school or an approved provider. What we add is understanding, practice and confidence, in live classes with a real teacher. We make no promise of marks or diploma exam results.",
+    "what_makes_this_different": [
+      "Built for BC Pre-calculus 12 and Alberta Math 30-1 students, following the student's own school course outline week by week",
+      "Meaning before algebra: graphs, tables and small examples come first, then the rules",
+      "Exam technique for the Alberta Math 30-1 diploma exam, which counts for 30% of the final mark, practised on screen",
+      "Honest about credits: we teach alongside school and do not grant high school credits",
+      "Tests and assignments stay the student's own work: we explain and review, we never do school work for them",
+      "A mistakes list and timed review papers, so revision targets what each student actually gets wrong"
+    ],
+    "learning_path": {
+      "phase_1": "Functions and transformations, then polynomial, radical and rational functions",
+      "phase_2": "Exponential and logarithmic functions, then trigonometry in radians with identities and equations",
+      "phase_3": "Permutations, combinations and the binomial theorem, combining functions, and exam review for school finals and the Alberta diploma exam"
+    },
+    "career_outcomes": [
+      "A clear understanding of functions and their graphs, not just a memory of steps",
+      "Confidence with exponential, logarithmic and trigonometric functions",
+      "Careful counting with permutations, combinations and the binomial theorem",
+      "Full written solutions that show reasoning clearly",
+      "A review method that works for unit tests, school finals and the Alberta diploma exam",
+      "A solid base for calculus at school or university"
+    ]
+  },
+  "phase_1_functions_and_transformations": {
+    "title": "PHASE 1: Functions, Transformations and Polynomial, Radical and Rational Functions (Months 1-2, Weeks 1-8)",
+    "description": "The function toolkit every Grade 12 topic depends on, then the polynomial, radical and rational families.",
+    "month_1_functions_and_transformations": {
+      "title": "Month 1: Functions and Transformations",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Starting Point and the Function Toolkit",
+        "topics": [
+          "A starting conversation and short diagnostic: the province, the school, the course outline, the next test and the Grade 11 ideas to refresh",
+          "Function notation, domain and range, and reading a graph carefully",
+          "Parent functions and their key points",
+          "Factoring review: common factors, trinomials and the difference of squares",
+          "Solving quadratic equations by factoring and by formula",
+          "Setting up a clean notebook system for definitions, examples and mistakes"
+        ],
+        "projects": [
+          "A one-page function toolkit summary, with a sketch of each parent function and its key points"
+        ],
+        "practice": "Short daily sets that mix new work with one or two Grade 11 refresher questions"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Transformations and Inverses",
+        "topics": [
+          "Translations, stretches and reflections, and the order to apply them",
+          "Mapping notation for points on a transformed graph",
+          "Writing the equation of a transformed function from its graph",
+          "Inverse functions: finding them, graphing them and restricting the domain",
+          "Reflections in the line y = x",
+          "Common mistakes with horizontal stretches and shifts"
+        ],
+        "projects": [
+          "A transformation set: ten graphs transformed by hand from mapping rules, then checked with graphing technology"
+        ],
+        "practice": "For every transformation, write the mapping rule before sketching",
+        "assessment": "Month 1 check: a short written test on functions, transformations and inverses, reviewed with written feedback"
+      }
+    },
+    "month_2_polynomial_radical_and_rational_functions": {
+      "title": "Month 2: Polynomial, Radical and Rational Functions",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Polynomial Functions",
+        "topics": [
+          "Degree, leading coefficient and end behaviour",
+          "Long division and synthetic division",
+          "The remainder theorem and the factor theorem",
+          "Zeros and their multiplicity, and how the graph behaves at each one",
+          "Sketching a polynomial from its factored form",
+          "Writing an equation from a graph or from given zeros"
+        ],
+        "projects": [
+          "A polynomial sketch set with end behaviour, zeros and intercepts explained for each graph"
+        ],
+        "practice": "Factor theorem and sketching sets, each answer checked by substitution or graph"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Radical and Rational Functions",
+        "topics": [
+          "Square root functions and their transformations",
+          "Graphing y equal to the square root of a function, and its domain",
+          "Rational functions: vertical asymptotes, horizontal asymptotes and holes",
+          "Sketching rational functions from their factored form",
+          "Solving radical and rational equations graphically and algebraically",
+          "Checking for extraneous roots and restricted values"
+        ],
+        "projects": [
+          "A radical and rational function set with every restriction, asymptote and hole labelled"
+        ],
+        "practice": "For every rational function, list restrictions and asymptotes first, then sketch",
+        "assessment": "Phase 1 assessment: a timed test on functions, transformations and polynomial, radical and rational functions, marked with comments"
+      }
+    }
+  },
+  "phase_2_exponents_logarithms_and_trigonometry": {
+    "title": "PHASE 2: Exponential and Logarithmic Functions, and Trigonometry (Months 3-4, Weeks 9-16)",
+    "description": "Growth, decay and logarithms, then trigonometry in radians with identities and equations.",
+    "month_3_exponential_and_logarithmic_functions": {
+      "title": "Month 3: Exponential and Logarithmic Functions",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Exponential Functions",
+        "topics": [
+          "Exponential functions and their graphs",
+          "Transformations of exponential functions",
+          "Solving exponential equations with a common base",
+          "Growth and decay: population, half-life and compound interest",
+          "Choosing between a linear and an exponential model",
+          "Reading an exponential graph to answer a question in context"
+        ],
+        "projects": [
+          "An applications pack: three real growth or decay situations modelled and solved in full"
+        ],
+        "practice": "Mixed exponential equation sets, with answers checked on a graph"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Logarithms",
+        "topics": [
+          "The logarithm as the inverse of an exponential function",
+          "Graphs of logarithmic functions and their transformations",
+          "Laws of logarithms and when each one applies",
+          "Solving exponential and logarithmic equations, and checking for extraneous roots",
+          "Changing the base of a logarithm",
+          "Logarithmic scales: sound, earthquakes and pH"
+        ],
+        "projects": [
+          "A logarithm laws file: ten equations solved in full, with each law named at the step where it is used"
+        ],
+        "practice": "One log law proof and three equations every day",
+        "assessment": "Month 3 check: a written test on exponential and logarithmic functions, reviewed with written feedback"
+      }
+    },
+    "month_4_trigonometry": {
+      "title": "Month 4: Trigonometry in Radians, Identities and Equations",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Radians, the Unit Circle and Trigonometric Graphs",
+        "topics": [
+          "Radian measure, arc length and converting between radians and degrees",
+          "The unit circle and exact values for special angles",
+          "Graphs of sine, cosine and tangent",
+          "Amplitude, period, phase shift and vertical displacement",
+          "Writing a sinusoidal equation from a graph or a situation",
+          "Modelling periodic situations such as tides and daylight hours"
+        ],
+        "projects": [
+          "A sinusoidal model of a real periodic situation, with the equation built from the data and explained"
+        ],
+        "practice": "Unit circle and graph sets, each answer checked against a quick sketch"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Identities and Trigonometric Equations",
+        "topics": [
+          "Reciprocal, quotient and Pythagorean identities",
+          "Sum, difference and double angle identities",
+          "Proving identities: working one side and writing each step clearly",
+          "Solving first and second degree trigonometric equations",
+          "Finding all solutions in an interval, and the general solution",
+          "Non-permissible values and common mistakes that lose solutions"
+        ],
+        "projects": [
+          "An identity proof file: ten identities proved in full, with the strategy for each written first"
+        ],
+        "practice": "One identity proof and two equations every day, with every solution in the interval listed",
+        "assessment": "Phase 2 assessment: a mixed review paper on logarithms and trigonometry, marked with written comments"
+      }
+    }
+  },
+  "phase_3_counting_and_exam_review": {
+    "title": "PHASE 3: Permutations and Combinations, Combining Functions and Exam Review (Months 5-6, Weeks 17-24)",
+    "description": "Careful counting, combining functions, then exam review for school finals and, for Alberta students, the Math 30-1 diploma exam.",
+    "month_5_counting_and_combining_functions": {
+      "title": "Month 5: Permutations, Combinations and Combining Functions",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Permutations, Combinations and the Binomial Theorem",
+        "topics": [
+          "The fundamental counting principle",
+          "Permutations, including arrangements with repeated items and with restrictions",
+          "Combinations, and how to tell a combination problem from a permutation problem",
+          "Factorial notation and solving equations with factorials",
+          "Pascal's triangle and the binomial theorem",
+          "Finding a specific term in a binomial expansion"
+        ],
+        "projects": [
+          "A counting pack: twelve problems sorted by method, each solved with the reason for the method written first"
+        ],
+        "practice": "Mixed counting sets, each starting with the question: does order matter?"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Combining Functions",
+        "topics": [
+          "Sums, differences, products and quotients of functions, and their graphs",
+          "Composition of functions and its domain",
+          "Sketching a combined function from the graphs of its parts",
+          "Writing a function as a composition of simpler functions",
+          "Domain restrictions that come from combining functions",
+          "Links back to transformations, logarithms and trigonometry"
+        ],
+        "projects": [
+          "A combining functions set with graphs, equations and domains explained for each"
+        ],
+        "practice": "Short daily sets that combine two functions from earlier units",
+        "assessment": "Month 5 check: a written test on counting and combining functions, reviewed with written feedback"
+      }
+    },
+    "month_6_exam_review": {
+      "title": "Month 6: Exam Review Technique",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Mixed Review and Written Solutions",
+        "topics": [
+          "Making a one-page summary for each unit of the school course",
+          "Mixed review sets that move between units without warning",
+          "Full written solutions that show every step",
+          "Using graphing technology to check, not to replace, the algebra",
+          "Building and using a personal mistakes list",
+          "Reading the teacher's exam outline so revision matches what will be assessed"
+        ],
+        "projects": [
+          "A personal review pack: unit summaries and a mistakes list with a corrected example for each mistake"
+        ],
+        "practice": "A mixed review set after every class, with every mistake written up and fixed"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Timed Practice for School Finals and the Alberta Diploma Exam",
+        "topics": [
+          "Timed review papers in the style of school final exams, with careful review afterwards",
+          "For Alberta students: pacing a long exam and checking answers before moving on",
+          "For Alberta students: practising on screen, since diploma exams are written in a digital environment",
+          "Reading Alberta's current diploma exam schedule and instructions together",
+          "For BC students: matching revision to the school's own final exam outline",
+          "A calm exam-week routine: sleep, short practice and one last review of the mistakes list"
+        ],
+        "projects": [
+          "Two reviewed timed papers and a written exam-week plan"
+        ],
+        "practice": "A timed mixed review each week, reviewed in class",
+        "assessment": "Final assessment: a timed review paper plus a short live walk-through of two of the student's own solutions"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "Does this course give my child a high school credit in BC or Alberta?",
+      "answer": "No. Modern Age Coders teaches alongside school and does not grant high school credits in British Columbia, Alberta or any other province. A family who needs the Pre-calculus 12 or Math 30-1 credit takes the course through the student's school or an approved provider. Our course helps the student understand and do well in the school course they are already taking."
+    },
+    {
+      "question": "Which courses is this for?",
+      "answer": "Pre-calculus 12 in British Columbia, which is on BC's mathematics course list, and Mathematics 30-1 in Alberta, which is on Alberta's list of diploma exam courses. Both are Grade 12 courses heavy in functions, so we teach them together while following each student's own school course outline."
+    },
+    {
+      "question": "What topics does the course teach?",
+      "answer": "Functions and transformations, including inverses; polynomial, radical and rational functions; exponential and logarithmic functions; trigonometry in radians, with identities and equations; and permutations, combinations and the binomial theorem, plus combining functions. Your school's course outline gives the exact list and order for your class, and we follow it."
+    },
+    {
+      "question": "How much is the Math 30-1 diploma exam worth?",
+      "answer": "Alberta's diploma exams overview says \"The weighting of diploma exams returned to 30% effective September 1, 2023.\" and \"70% of the final mark comes from course work. The remaining 30% comes from the diploma exam.\" Mathematics 30-1 is one of the diploma exam courses on that page."
+    },
+    {
+      "question": "Do you prepare Alberta students for the Math 30-1 diploma exam?",
+      "answer": "Yes, alongside their school course. We teach the mathematics, then exam technique: pacing, checking and timed practice papers with careful review. Alberta says \"students write diploma exams and provincial achievement tests in a digital environment rather than pencil and paper\", so some practice is done on screen. Exam schedules can change, so we read Alberta's current diploma exam information with each student. We make no promise of marks or results."
+    },
+    {
+      "question": "What comes after Pre-calculus 12?",
+      "answer": "BC's mathematics course list also includes Calculus 12, and many university programs in science, engineering and computer science build on pre-calculus. The functions, logarithms and trigonometry in this course are exactly what calculus uses. Always check each university's current admission page for its own requirements."
+    },
+    {
+      "question": "Does the course follow my school's order?",
+      "answer": "Yes. Schools order the units differently, so we use the student's own course outline and next test date to set the pace. The plan on this page shows our standard sequence, and each batch follows the order of its students' schools as closely as possible."
+    },
+    {
+      "question": "Will you do my child's assignments or tests?",
+      "answer": "No. School work stays the student's own. We explain concepts, ask questions, review work the student has written and suggest how to improve it, and we follow the school's rules on outside help. That is also the only kind of help that lasts into the exam room."
+    },
+    {
+      "question": "Can my child join partway through the school year?",
+      "answer": "Yes, the course is joinable any month. We start from the student's current unit and next test, fill gaps from earlier units as needed, and keep pace with the school course from then on."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or 1-on-1. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher looks at where your child is in Pre-calculus 12 or Math 30-1, works through a short problem with them, and suggests whether group, mini batch or 1-on-1 classes fit best. There is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A function toolkit summary and a transformation set",
+      "Polynomial, radical and rational function sketch sets",
+      "Exponential applications pack and a logarithm laws file",
+      "A sinusoidal model and an identity proof file",
+      "A counting pack sorted by method",
+      "A combining functions set",
+      "A personal review pack and two reviewed timed papers"
+    ],
+    "total_projects_built": "A file of worked solutions, sketch sets, proofs and review papers, all the student's own work",
+    "skills_mastered": [
+      "Functions, transformations and inverses",
+      "Polynomial, radical and rational functions",
+      "Exponential and logarithmic functions and their applications",
+      "Trigonometry in radians, identities and equations",
+      "Permutations, combinations and the binomial theorem",
+      "Combining functions",
+      "Full written solutions and exam review technique"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, paced to the student's school course outline",
+      "practice": "Short practice sets after every class, separate from school assignments",
+      "review": "Practice work reviewed with written comments, and a monthly check that mixes in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not a high school credit. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints and questions first so the student does the thinking",
+      "progress_updates": "A monthly progress note to parents with what was covered, what is strong and what to practise next"
+    }
+  },
+  "prerequisites": {
+    "school_course": "Currently taking, or about to take, Pre-calculus 12 in British Columbia or Math 30-1 in Alberta",
+    "math_level": "Comfortable with the Grade 11 math that came before, which we refresh in the first two weeks",
+    "age": "Roughly 16 to 18 (Grade 12)",
+    "equipment": "A computer with stable internet, a scientific or graphing calculator, and a way to share photos of written work",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "bc_pre_calculus_12_students": "BC students in Pre-calculus 12 who want functions, logarithms and trigonometry to make sense",
+    "alberta_math_30_1_students": "Alberta students in Math 30-1 preparing for unit tests and the diploma exam",
+    "students_who_feel_behind": "Students who missed a unit or lost confidence and want to catch up calmly",
+    "students_aiming_higher": "Students who are doing well and want cleaner, more complete written solutions",
+    "future_stem_students": "Students heading toward calculus and science, engineering or computer science programs"
+  },
+  "career_paths_after_completion": [
+    "Calculus at school or in first-year university, on a solid base",
+    "University science, engineering, computer science or mathematics programs",
+    "Math contests for senior students, through our Waterloo math contests course",
+    "Further study in data science and programming, where functions and logarithms are used every day",
+    "Our other high school math courses for the next step"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "school_aligned": "Lessons paced to the student's own Pre-calculus 12 or Math 30-1 course outline.",
+    "feedback": "Written feedback on practice work and a monthly progress note to parents.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate from Modern Age Coders that you earn by passing the final assessment, with a free retest after revision if needed. It is not a high school credit.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  }
+}

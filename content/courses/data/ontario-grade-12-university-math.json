@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "slug": "ontario-grade-12-university-math-mhf4u-mcv4u-course",
+    "date": "2026-10-22",
+    "title": "Ontario Grade 12 University Math: Advanced Functions and Calculus and Vectors (MHF4U and MCV4U)",
+    "description": "Live online MHF4U and MCV4U help for ages 16 to 18, taught alongside your Ontario school course: functions, trigonometry, logarithms, calculus and vectors. We do not grant Ontario credits.",
+    "keywords": [
+      "mhf4u",
+      "mcv4u",
+      "mhf4u help",
+      "mcv4u help",
+      "advanced functions grade 12",
+      "calculus and vectors grade 12",
+      "mhf4u exam review",
+      "mcv4u exam review",
+      "grade 12 math ontario",
+      "is mcv4u hard",
+      "mhf4u and mcv4u at the same time",
+      "grade 12 university math tutoring ontario"
+    ],
+    "category": "Ontario High School Mathematics",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks) per plan, joinable any month and paced to your school course",
+    "level": "Ontario students in Grade 12 (roughly ages 16 to 18) taking MHF4U, MCV4U or both at school",
+    "commitment": "2 live classes/week + short practice sets between classes",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not an Ontario high school credit)",
+    "image_path": "ontario-grade-12-university-math.webp",
+    "dateModified": "2026-10-22"
+  },
+  "program_overview": {
+    "title": "Ontario Grade 12 University Math: MHF4U and MCV4U",
+    "tagline": "A second teacher for Grade 12 university math: functions understood properly, then the calculus and vectors built on them, in step with your school course.",
+    "description": "MHF4U and MCV4U are Ontario's Grade 12 university-preparation math courses. In the ministry's course list, MHF4U is titled Advanced Functions and MCV4U is titled Calculus and Vectors, both issued in 2007. The ministry lists the MHF4U prerequisite as \"Functions, Grade 11, University Preparation, or Mathematics for College Technology, Grade 12, College Preparation\", and it says \"The new Advanced Functions course (MHF4U) must be taken prior to or concurrently with Calculus and Vectors (MCV4U)\". Both courses also appear in university admission requirements. The University of Waterloo's Computer Science page asks for \"Six Grade 12 U and/or M courses including\" Advanced Functions and Calculus and Vectors, and the University of Toronto lists MCV4U as a prerequisite for computer science on all three campuses, with MHF4U also listed at Mississauga and Scarborough.\n\nThis course runs alongside the student's own MHF4U or MCV4U class, and many students take both in the same year. We follow the order of the student's school course outline, so what is learned here is used in class the same week. What our course teaches for MHF4U students: polynomial and rational functions, trigonometric functions in radians with identities and equations, exponential and logarithmic functions, combining functions, and rates of change. What it teaches for MCV4U students: limits and the derivative, the derivative rules, curve sketching and optimization, then vectors, lines and planes. Every topic starts from meaning, with graphs and small examples, before the algebra. Tests and assignments stay the student's own work: we explain, question and review, and the student does the math.\n\nPlease read this plainly: Modern Age Coders teaches alongside school and does not grant Ontario high school credits. Families who need the credit take the course through their school or a ministry-inspected credit provider. What we add is understanding, practice and confidence, in live classes with a real teacher.",
+    "what_makes_this_different": [
+      "Built around Ontario's MHF4U and MCV4U, following the student's own school course outline week by week",
+      "Taught for students taking one course or both at once, with MHF4U ideas reviewed exactly where calculus needs them",
+      "Meaning before algebra: graphs, tables and small examples come first, then the rules and the proofs",
+      "Honest about credits: we teach alongside school and do not grant Ontario high school credits",
+      "Tests and assignments stay the student's own work: we explain and review, we never do school work for them",
+      "Exam review technique taught directly: full written solutions, communication marks and timed practice papers"
+    ],
+    "learning_path": {
+      "phase_1": "Advanced Functions, part 1: the function toolkit, polynomial functions, polynomial equations and inequalities, and rational functions",
+      "phase_2": "Advanced Functions, part 2: trigonometric functions in radians, identities and equations, exponential and logarithmic functions, combining functions and rates of change",
+      "phase_3": "Calculus and Vectors: limits and the derivative, derivative rules and applications, vectors in two and three dimensions, lines and planes, and exam review"
+    },
+    "career_outcomes": [
+      "A clear understanding of functions, not just a memory of steps",
+      "Confidence with polynomial, rational, trigonometric, exponential and logarithmic functions",
+      "The derivative understood as a rate of change, and used to sketch curves and solve optimization problems",
+      "Comfort with vectors, lines and planes in three dimensions",
+      "Full written solutions that show reasoning clearly, as Grade 12 tests expect",
+      "A solid base for first-year university calculus, linear algebra and computer science"
+    ]
+  },
+  "phase_1_advanced_functions_part_1": {
+    "title": "PHASE 1: Advanced Functions, Part 1 (Months 1-2, Weeks 1-8)",
+    "description": "The function toolkit every Grade 12 topic depends on, then polynomial and rational functions in depth.",
+    "month_1_function_toolkit_and_polynomials": {
+      "title": "Month 1: The Function Toolkit and Polynomial Functions",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Starting Point and the Function Toolkit",
+        "topics": [
+          "A starting conversation and short diagnostic: the school, the course outline, the next test and the Grade 11 ideas to refresh",
+          "Function notation, domain and range, and reading a graph carefully",
+          "Transformations of functions: shifts, stretches and reflections",
+          "Inverse functions and what their graphs show",
+          "Factoring review: common factors, trinomials and the difference of squares",
+          "Setting up a clean notebook system for definitions, examples and mistakes"
+        ],
+        "projects": [
+          "A one-page function toolkit summary, with a sketch of each parent function and its transformations"
+        ],
+        "practice": "Short daily sets that mix new work with one or two Grade 11 refresher questions"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Polynomial Functions",
+        "topics": [
+          "Degree, leading coefficient and end behaviour",
+          "Zeros, their order, and how the graph behaves at each zero",
+          "Sketching a polynomial from its factored form",
+          "Finding an equation from a graph or from given zeros",
+          "Even and odd functions and symmetry",
+          "Finite differences and what they say about degree"
+        ],
+        "projects": [
+          "A polynomial sketch set: ten polynomials sketched by hand from factored form, then checked with graphing technology"
+        ],
+        "practice": "For every sketch, write the end behaviour and the behaviour at each zero before drawing",
+        "assessment": "Month 1 check: a short written test on functions and polynomial graphs, reviewed with written feedback"
+      }
+    },
+    "month_2_polynomial_equations_and_rational_functions": {
+      "title": "Month 2: Polynomial Equations and Rational Functions",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Polynomial Equations and Inequalities",
+        "topics": [
+          "Polynomial long division and synthetic division",
+          "The remainder theorem and the factor theorem",
+          "Factoring cubics and quartics, including sums and differences of cubes",
+          "Solving polynomial equations exactly",
+          "Solving polynomial inequalities with a sign chart and a graph",
+          "Families of polynomials and word problems"
+        ],
+        "projects": [
+          "A worked solutions file for factoring and inequalities, with every step justified in words"
+        ],
+        "practice": "Mixed equation and inequality sets, with answers checked by substitution or graph"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Rational Functions",
+        "topics": [
+          "Reciprocal functions and their graphs",
+          "Vertical and horizontal asymptotes, and holes",
+          "Sketching rational functions from their factored form",
+          "Solving rational equations and checking for restricted values",
+          "Solving rational inequalities with a sign chart",
+          "Average rate of change on a rational graph"
+        ],
+        "projects": [
+          "A rational function sketch set with asymptotes, intercepts and behaviour near each asymptote explained"
+        ],
+        "practice": "For every rational function, list restrictions and asymptotes first, then sketch",
+        "assessment": "Phase 1 assessment: a timed test on polynomial and rational functions in the style of a school unit test, marked with comments"
+      }
+    }
+  },
+  "phase_2_advanced_functions_part_2": {
+    "title": "PHASE 2: Advanced Functions, Part 2 (Months 3-4, Weeks 9-16)",
+    "description": "Trigonometry in radians, exponential and logarithmic functions, combining functions and rates of change, with MHF4U exam review.",
+    "month_3_trigonometric_functions": {
+      "title": "Month 3: Trigonometric Functions, Identities and Equations",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Radians and Trigonometric Functions",
+        "topics": [
+          "Radian measure and converting between radians and degrees",
+          "Special angles and the unit circle, without memorizing tables",
+          "Graphs of sine, cosine and tangent in radians",
+          "Amplitude, period, phase shift and vertical shift",
+          "Modelling periodic situations with sinusoidal functions",
+          "Reciprocal trigonometric functions and their graphs"
+        ],
+        "projects": [
+          "A sinusoidal model of a real periodic situation, with the equation built from the data and explained"
+        ],
+        "practice": "Unit circle and transformation sets, each answer checked against a quick sketch"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Identities and Trigonometric Equations",
+        "topics": [
+          "Proving identities: working one side, and writing each step clearly",
+          "Compound angle formulas and double angle formulas",
+          "Solving linear and quadratic trigonometric equations in radians",
+          "Finding all solutions in a given interval",
+          "Equivalent trigonometric expressions using related angles",
+          "Common mistakes: dividing by a variable and losing solutions"
+        ],
+        "projects": [
+          "An identity proof file: ten identities proved in full, with the strategy for each written first"
+        ],
+        "practice": "One identity proof and two equations every day, with every solution in the interval listed",
+        "assessment": "Month 3 check: a written test on trigonometric functions, identities and equations, reviewed with written feedback"
+      }
+    },
+    "month_4_exponential_logarithmic_and_combining_functions": {
+      "title": "Month 4: Exponential and Logarithmic Functions, Combining Functions and Rates of Change",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Exponential and Logarithmic Functions",
+        "topics": [
+          "Exponential functions and their graphs, growth and decay",
+          "The logarithm as the inverse of an exponential function",
+          "Laws of logarithms and when each one applies",
+          "Solving exponential and logarithmic equations, and checking for extraneous roots",
+          "Changing the base of a logarithm",
+          "Applications: compound interest, half-life, sound and pH scales"
+        ],
+        "projects": [
+          "An applications pack: four real situations modelled with exponential or logarithmic functions and solved in full"
+        ],
+        "practice": "Mixed log law and equation sets, with each step named"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Combining Functions, Rates of Change and MHF4U Review",
+        "topics": [
+          "Sums, differences, products and quotients of functions, and their graphs",
+          "Composition of functions and its domain",
+          "Average rate of change over an interval",
+          "Estimating instantaneous rate of change, the bridge to calculus",
+          "Choosing a function family to model a situation",
+          "MHF4U exam review: full solutions, communication and timed practice"
+        ],
+        "projects": [
+          "A personal MHF4U review pack: one-page summaries for each unit, a mistakes list and a reviewed timed paper"
+        ],
+        "practice": "Trace the meaning of a rate of change on a graph before calculating it",
+        "assessment": "Phase 2 assessment: a mixed MHF4U-style review paper, marked with written comments"
+      }
+    }
+  },
+  "phase_3_calculus_and_vectors": {
+    "title": "PHASE 3: Calculus and Vectors, and Exam Review (Months 5-6, Weeks 17-24)",
+    "description": "What we teach for MCV4U: limits and the derivative, derivative rules and applications, then vectors, lines and planes, ending with exam review. MCV4U batches begin with a quick review of the MHF4U ideas calculus relies on.",
+    "month_5_derivatives_and_applications": {
+      "title": "Month 5: Limits, Derivatives and Their Applications",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Rates of Change, Limits and the Derivative",
+        "topics": [
+          "From average rate of change to instantaneous rate of change",
+          "Limits, explained with tables and graphs before algebra",
+          "The derivative from first principles",
+          "The power, constant multiple, sum and difference rules",
+          "The product, quotient and chain rules",
+          "The derivative as a slope and as a rate, in words and in units"
+        ],
+        "projects": [
+          "Three derivatives worked from first principles, then confirmed with the rules, with a short written explanation"
+        ],
+        "practice": "Daily derivative sets, each with one question asking what the derivative means in context"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Curve Sketching, Optimization and Rates",
+        "topics": [
+          "Increasing and decreasing intervals, and local maxima and minima",
+          "Concavity and points of inflection from the second derivative",
+          "Sketching a curve from its derivatives",
+          "Optimization problems: setting up the function, the domain and the check",
+          "Derivatives of exponential and sinusoidal functions",
+          "Rates of change in motion: position, velocity and acceleration"
+        ],
+        "projects": [
+          "An optimization pack: four real problems set up and solved in full, each with a domain check"
+        ],
+        "practice": "For every optimization problem, write the function and its domain before differentiating",
+        "assessment": "Month 5 check: a written test on derivatives and their applications, reviewed with written feedback"
+      }
+    },
+    "month_6_vectors_lines_planes_and_exam_review": {
+      "title": "Month 6: Vectors, Lines and Planes, and Exam Review",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Vectors in Two and Three Dimensions",
+        "topics": [
+          "Geometric vectors: magnitude, direction, addition and scalar multiples",
+          "Cartesian vectors in two and three dimensions",
+          "The dot product, angles between vectors and projections",
+          "The cross product and what it measures",
+          "Applications: force, velocity and work",
+          "Drawing a clear diagram for every vector problem"
+        ],
+        "projects": [
+          "A vector applications set with a labelled diagram and a full written solution for each problem"
+        ],
+        "practice": "Short vector sets mixing geometric and Cartesian forms"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Lines and Planes, and Exam Review Technique",
+        "topics": [
+          "Equations of lines in two and three dimensions: vector, parametric and symmetric forms",
+          "Equations of planes and their normal vectors",
+          "Intersections of lines and planes, and what each case looks like",
+          "Making a one-page summary for each unit of the school course",
+          "Full written solutions: showing reasoning so communication marks are earned",
+          "Timed review papers in the style of school exams, with careful review afterwards"
+        ],
+        "projects": [
+          "A personal MCV4U review pack: unit summaries, a mistakes list and two reviewed timed papers"
+        ],
+        "practice": "A timed mixed review each week, with every mistake written up and fixed",
+        "assessment": "Final assessment: a timed review paper plus a short live walk-through of two of the student's own solutions"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "Does this course give my child an Ontario high school credit?",
+      "answer": "No. Modern Age Coders teaches alongside school and does not grant Ontario high school credits. A family who needs the MHF4U or MCV4U credit takes the course through the student's school or a ministry-inspected credit provider. Our course helps the student understand and do well in the school course they are already taking."
+    },
+    {
+      "question": "What are MHF4U and MCV4U?",
+      "answer": "They are Ontario's Grade 12 university-preparation math courses. In the ministry's course list, MHF4U is titled Advanced Functions and MCV4U is titled Calculus and Vectors. Your school's course outline gives the detail for your class. In our course, MHF4U students work on polynomial, rational, trigonometric, exponential and logarithmic functions and rates of change, and MCV4U students work on derivatives and their applications, vectors, lines and planes."
+    },
+    {
+      "question": "What do I need before taking MHF4U?",
+      "answer": "The ministry lists the MHF4U prerequisite as \"Functions, Grade 11, University Preparation, or Mathematics for College Technology, Grade 12, College Preparation\". Functions, Grade 11, University Preparation is MCR3U. In the first two weeks we refresh the Grade 11 ideas that Grade 12 relies on most."
+    },
+    {
+      "question": "Can my child take MHF4U and MCV4U at the same time?",
+      "answer": "Yes, and many students do. The ministry says \"The new Advanced Functions course (MHF4U) must be taken prior to or concurrently with Calculus and Vectors (MCV4U)\". When a student takes both at once, we follow both school course outlines and review each MHF4U idea just before calculus needs it."
+    },
+    {
+      "question": "Is MCV4U hard?",
+      "answer": "It asks for more independence than earlier math courses, and it builds on everything in MHF4U, so a gap in functions shows up quickly in calculus. That is why we teach meaning before algebra, keep a mistakes list, and practise a little every day. Most of the difficulty eases once a student understands what a derivative means rather than only how to compute one."
+    },
+    {
+      "question": "Do universities ask for MHF4U and MCV4U for computer science?",
+      "answer": "Many do. The University of Waterloo's Computer Science page asks for \"Six Grade 12 U and/or M courses including\" Advanced Functions, Calculus and Vectors, \"Any Grade 12 U English\" and \"One other 4U course\". At the University of Toronto, St. George lists \"MCV4U\" as a computer science prerequisite, while Mississauga and Scarborough list both \"MHF4U\" and \"MCV4U\". Always check each university's current admission page. We make no admission promises; we help the student build real understanding."
+    },
+    {
+      "question": "Does the course follow my school's order?",
+      "answer": "Yes. Schools order the units differently, so we use the student's own course outline and next test date to set the pace. The plan on this page shows our standard sequence, and each batch follows the order of its students' schools as closely as possible."
+    },
+    {
+      "question": "Will you do my child's assignments or tests?",
+      "answer": "No. School work stays the student's own. We explain concepts, ask questions, review work the student has written and suggest how to improve it, and we follow the school's rules on outside help. That is also the only kind of help that lasts into the exam room."
+    },
+    {
+      "question": "Can you help with exam review?",
+      "answer": "Yes. The course teaches exam technique directly: one-page unit summaries, full written solutions that show reasoning, and timed review papers with careful review afterwards. We also use the teacher's exam outline so revision matches what will actually be assessed."
+    },
+    {
+      "question": "Can my child join partway through the school year?",
+      "answer": "Yes, the course is joinable any month. We start from the student's current unit and next test, fill gaps from earlier units as needed, and keep pace with the school course from then on."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or 1-on-1. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher looks at where your child is in MHF4U or MCV4U, works through a short problem with them, and suggests whether group, mini batch or 1-on-1 classes fit best. There is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A function toolkit summary with parent functions and transformations",
+      "Polynomial and rational function sketch sets",
+      "An identity proof file for trigonometry",
+      "Exponential and logarithmic applications pack",
+      "Derivatives from first principles and an optimization pack",
+      "Vector applications with labelled diagrams",
+      "Personal MHF4U and MCV4U review packs"
+    ],
+    "total_projects_built": "A file of worked solutions, sketch sets, proofs and review packs, all the student's own work",
+    "skills_mastered": [
+      "Functions, transformations and inverses",
+      "Polynomial and rational functions, equations and inequalities",
+      "Trigonometric functions in radians, identities and equations",
+      "Exponential and logarithmic functions and their applications",
+      "Combining functions and rates of change",
+      "Derivatives, curve sketching and optimization",
+      "Vectors, lines and planes in three dimensions",
+      "Full written solutions and exam review technique"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, paced to the student's school course outline",
+      "practice": "Short practice sets after every class, separate from school assignments",
+      "review": "Practice work reviewed with written comments, and a monthly check that mixes in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an Ontario high school credit. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints and questions first so the student does the thinking",
+      "progress_updates": "A monthly progress note to parents with what was covered, what is strong and what to practise next"
+    }
+  },
+  "prerequisites": {
+    "school_course": "Currently taking, or about to take, MHF4U, MCV4U or both at an Ontario school",
+    "math_level": "The Grade 11 functions course or equivalent for MHF4U. MCV4U students should have MHF4U done or under way, which we support side by side",
+    "age": "Roughly 16 to 18 (Grade 12)",
+    "equipment": "A computer with stable internet, a scientific or graphing calculator, and a way to share photos of written work",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "advanced_functions_students": "Grade 12 students in MHF4U who want functions to make sense, not just to pass",
+    "calculus_and_vectors_students": "Students in MCV4U meeting derivatives, optimization and three-dimensional vectors",
+    "students_taking_both": "Students taking MHF4U and MCV4U in the same year who want the two courses to fit together",
+    "students_who_feel_behind": "Students who missed a unit or lost confidence and want to catch up calmly",
+    "future_stem_students": "Students heading toward computer science, engineering, mathematics or science at university"
+  },
+  "career_paths_after_completion": [
+    "University computer science, engineering, mathematics or science programs",
+    "First-year university calculus and linear algebra, on a solid base",
+    "Math contests such as the Euclid, through our Waterloo math contests course",
+    "School computer science such as ICS4U, through our Ontario computer science companion course",
+    "Further study in data science and programming, where functions and calculus are used every day"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "school_aligned": "Lessons paced to the student's own MHF4U or MCV4U course outline.",
+    "feedback": "Written feedback on practice work and a monthly progress note to parents.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate from Modern Age Coders that you earn by passing the final assessment, with a free retest after revision if needed. It is not an Ontario high school credit.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  }
+}
