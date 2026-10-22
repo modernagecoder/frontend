@@ -276,3 +276,5 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 - Rows 82, 83, 84 (cost pages) wait for Plan B: their market prices are in CAD and Canada pages are currency-neutral until the CAD region is live (Plan 2 default).
 - Rows 21, 23, 24, 26, 27 (BC): curriculum.gov.bc.ca refused connections on 2026-10-22; retry the fetch and write them when it is reachable.
 - Rows 30 (Math 20-1) and 31 (Math 31) skipped 2026-10-22: no Alberta source for course content (program of studies PDF moved, LearnAlberta JavaScript-only, open.alberta.ca 403). Retry when a source is reachable.
+- Rows 97 (PEI), 98 (Yukon), 100 (Nunavut) skipped 2026-10-22: princeedwardisland.ca Radware bot check; yukon.ca, laws.yukon.ca, open.yukon.ca 403; gov.nu.ca 403. Retry later.
+- Phase 0b: update the Newfoundland and Labrador row on canada-coding-curriculum-by-province (now verified; sources in src-pilots/coding-classes-in-newfoundland-and-labrador/); add CEMC "contact the CEMC" homeschool line to ccc-junior-guide; link new contest spokes from cemc-waterloo-contests-preparation and canadian-computing-competition-ccc-prep.
