@@ -508,6 +508,7 @@ const SLUGS = [
   'cegep-computer-science-preparation',
   'ics4u-computer-science-help',
   'ics3u-vs-ics3c',
+  'icd2o-digital-technology-course-explained',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1095,6 +1096,7 @@ const LLMS_LABELS = {
   'cegep-computer-science-preparation': 'CEGEP computer science preparation',
   'ics4u-computer-science-help': 'ICS4U computer science help',
   'ics3u-vs-ics3c': 'ICS3U vs ICS3C',
+  'icd2o-digital-technology-course-explained': 'ICD2O explained',
 };
 
 function wireLlms(slugs) {

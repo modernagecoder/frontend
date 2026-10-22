@@ -209,7 +209,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 37 | quebec-secondary-5-math-tutor (qus, #3C6B1A) | school-qc | 4,681 | 1.7% vs canada-high-school-math-courses-compared | school course help | linear programming | 439b46f1 |
 | 38 | cegep-computer-science-preparation (ccsp, #2A523C) | school-qc | 4,667 | 1.8% vs quebec-secondary-5-math-tutor | preparation guide | number bases | 62f822e6 |
 | 4 | ics4u-computer-science-help (icc, #7A1212) | school-on | 7,616 | 1.3% vs ics3u-computer-science-help | school course help | recursion and sorting | 5bc1b010 |
-| 5 | ics3u-vs-ics3c (ii, #61590F) | school-on | 5,293 | 2.2% vs ics3u-computer-science-help | decision page | course choice | (this commit) |
+| 5 | ics3u-vs-ics3c (ii, #61590F) | school-on | 5,293 | 2.2% vs ics3u-computer-science-help | decision page | course choice | 32439cd0 |
+| 6 | icd2o-digital-technology-course-explained (idtc, #30520C) | school-on | 6,274 | 1.7% vs ics3u-computer-science-help | course explainer | accessibility checker | (this commit) |
 
 ## Skipped
 

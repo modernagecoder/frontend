@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ICD2O Explained: Ontario Grade 10 Computer Course, and ICS2O</title>
+  <meta name="description" content="ICD2O, Ontario's Grade 10 digital technology course, strand by strand from the curriculum, beside the 2008 ICS2O course, with a Python project and practice.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/icd2o-digital-technology-course-explained">
+  <link rel="alternate" type="text/markdown" href="/src/pages/icd2o-digital-technology-course-explained.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#30520C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/icd2o-digital-technology-course-explained">
+  <meta property="og:title" content="ICD2O Explained: Ontario Grade 10 Computer Course, and ICS2O">
+  <meta property="og:description" content="What ICD2O, Digital Technology and Innovations in the Changing World, asks Grade 10 students to learn, from the Ontario curriculum, and how it compares with the 2008 ICS2O course.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ICD2O Explained: Ontario Grade 10 Computer Course, and ICS2O">
+  <meta name="twitter:description" content="ICD2O explained from the Ontario curriculum, beside ICS2O, with a Python project.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-idtc .ag-hero h1 { letter-spacing: -0.01em; max-width: 24ch; }
+.ag-root.ag-idtc .ag-capsule { border-left-width: 5px; border-radius: 4px; }
+.ag-root.ag-idtc .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-idtc .ag-table caption { text-align: left; }
+.ag-root.ag-idtc .ag-table th { text-transform: uppercase; letter-spacing: 0.04em; }
+.ag-root.ag-idtc .ag-steps li { margin-bottom: 0.5rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/icd2o-digital-technology-course-explained#page","url":"https://learn.modernagecoders.com/icd2o-digital-technology-course-explained","name":"ICD2O Explained","description":"A guide for Ontario families to ICD2O, Digital Technology and Innovations in the Changing World, the Grade 10 open computer studies course listed on the current Ontario curriculum website, with its three strands, a comparison with the 2008 ICS2O course, an original Python project and ten practice questions.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":3,"name":"Ontario","item":"https://learn.modernagecoders.com/coding-classes-in-ontario"},{"@type":"ListItem","position":4,"name":"ICD2O explained","item":"https://learn.modernagecoders.com/icd2o-digital-technology-course-explained"}]},{"@type":"Course","name":"ICD2O Explained","description":"Live online coding classes for Ontario Grade 10 students taking ICD2O, in Python, beside the school course, in a batch or one to one. No Ontario credit is granted.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/icd2o-digital-technology-course-explained"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/icd2o-digital-technology-course-explained"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/icd2o-digital-technology-course-explained"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is ICD2O?","acceptedAnswer":{"@type":"Answer","text":"ICD2O is Digital Technology and Innovations in the Changing World, a Grade 10 open computer studies course listed on the current Ontario curriculum website with the issue year 2023. It has three strands: Computational Thinking and Making Connections; Hardware, Software, and Innovations; and Programming."}},{"@type":"Question","name":"What happened to ICS2O?","acceptedAnswer":{"@type":"Answer","text":"ICS2O, Introduction to Computer Studies, is the Grade 10 open course in the 2008 Computer Studies curriculum document. The current Ontario curriculum website lists ICD2O as its Grade 10 computer studies course and does not list ICS2O. Neither source we read says that one replaced the other."}},{"@type":"Question","name":"What is the Grade 10 computer course in Ontario?","acceptedAnswer":{"@type":"Answer","text":"On the current Ontario curriculum website, the Grade 10 computer studies course is ICD2O, Digital Technology and Innovations in the Changing World. It is an open course with no prerequisite. Ask your school which Grade 10 courses it offers in a given year."}},{"@type":"Question","name":"Does ICD2O have a prerequisite?","acceptedAnswer":{"@type":"Answer","text":"No. The course record on the Ontario curriculum website lists no prerequisite for ICD2O."}},{"@type":"Question","name":"Do I need ICD2O to take ICS3U?","acceptedAnswer":{"@type":"Answer","text":"No. ICS3U and ICS3C list no prerequisite. ICD2O is still a useful first step, because Grade 11 computer studies moves quickly once arrays and functions arrive."}},{"@type":"Question","name":"Does ICD2O include coding?","acceptedAnswer":{"@type":"Answer","text":"Yes. Strand C, Programming, asks students to explain programming concepts and algorithms, write simple programs with conditions and loops, interpret errors, write subprograms, use libraries and modify existing programs."}},{"@type":"Question","name":"Does ICD2O teach artificial intelligence?","acceptedAnswer":{"@type":"Answer","text":"It asks students to investigate current and emerging innovations, including automation and artificial intelligence, and to assess their benefits and limitations. It also includes cybersecurity and data practices as an overall expectation of their own."}},{"@type":"Question","name":"Which programming language does ICD2O use?","acceptedAnswer":{"@type":"Answer","text":"The expectations do not name a language, so it depends on the class. We teach in Python unless the student's class uses something else."}},{"@type":"Question","name":"Does ICD2O count for the diploma?","acceptedAnswer":{"@type":"Answer","text":"Ontario's graduation requirements page lists computer studies in the STEM-related course group for students who started Grade 9 in 2024 or later. We found no source saying ICD2O counts as the technological education credit, so check with the school."}},{"@type":"Question","name":"Do you grant the ICD2O credit?","acceptedAnswer":{"@type":"Answer","text":"No. We teach coding beside the school course and do not grant Ontario credits. The credit comes from the school or credit provider that teaches and evaluates ICD2O."}},{"@type":"Question","name":"When are your classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in your own Ontario time zone."}},{"@type":"Question","name":"How much do classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. After that, families pay a monthly fee and can stop when any month ends. The fees section on this page shows the current figure."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/icd2o-digital-technology-course-explained","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-idtc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#record">The course</a></li>
+      <li><a href="#strands">Three strands</a></li>
+      <li><a href="#ics2o">ICD2O and ICS2O</a></li>
+      <li><a href="#project">A project</a></li>
+      <li><a href="#practice">Practice</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-canada">Canada</a> / <a href="/coding-classes-in-ontario">Ontario</a> / ICD2O explained
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Ontario &middot; Grade 10 &middot; Computer studies, open course</p>
+        <h1>ICD2O explained: the Grade 10 digital technology course, and what happened to ICS2O</h1>
+        <p class="ag-lede">Search for the Grade 10 computer course in Ontario and two codes come back: ICD2O and ICS2O. The current Ontario curriculum website lists one of them, ICD2O, Digital Technology and Innovations in the Changing World, issued in 2023. The other, ICS2O, Introduction to Computer Studies, is the Grade 10 course in the 2008 curriculum document. This page reads ICD2O from the ministry&rsquo;s own data, sets it beside ICS2O expectation by expectation, and builds one small project at its level. We teach coding beside the school course and do not grant Ontario credits, so the ICD2O credit itself comes from the school.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">See the Grade 10 project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20Grade%2010%20student%20in%20Ontario%20is%20taking%20ICD2O%20and%20would%20like%20coding%20help%20beside%20the%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'idtc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students &middot; Grade 10 coding in Python</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Course</dt><dd>ICD2O, Grade 10</dd>
+          <dt>Type</dt><dd>Open</dd>
+          <dt>Issued</dt><dd>2023</dd>
+          <dt>Prerequisite</dt><dd>None</dd>
+          <dt>Strands</dt><dd>Three</dd>
+          <dt>Older course</dt><dd>ICS2O, 2008</dd>
+          <dt>Credit</dt><dd>From the school only</dd>
+          <dt>Start</dt><dd>A free class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In one paragraph</p>
+      <p>ICD2O, Digital Technology and Innovations in the Changing World, is the Grade 10 open computer studies course on Ontario&rsquo;s current curriculum website, issued 2023, no prerequisite. Students learn programming, hardware, cybersecurity and artificial intelligence. Modern Age Coders runs live online Grade 10 coding classes, one to one or in a group batch, with our course Python for teens.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn beside ICD2O</p>
+      <h2>Three courses for a Grade 10 student</h2>
+      <p class="ag-lede">Python for teens matches the programming strand most closely. The companion course is the next step toward Grade 11, and cybersecurity takes one ICD2O theme further.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IDTC / 01</p>
+          <h3>Python for teens</h3>
+          <p>Variables, conditions, loops, functions and libraries, the programming strand of ICD2O done properly.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ics3u-ics4u-computer-science-companion-course">
+        <div class="ag-pick-shot"><img src="/images/ontario-computer-science-ics3u-ics4u.webp" alt="Ontario Computer Science Companion course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IDTC / 02</p>
+          <h3>Ontario Computer Science Companion</h3>
+          <p>For Grade 10 students heading into ICS3U next year who want a running start.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cybersecurity-course-for-teens-ethical-defensive">
+        <div class="ag-pick-shot"><img src="/images/cybersecurity-teens.webp" alt="Cybersecurity for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">IDTC / 03</p>
+          <h3>Cybersecurity for teens</h3>
+          <p>Safe data and security practices, the theme of ICD2O expectation B3, taken further.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="record">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The course record</p><h2>What ICD2O is, from the Ontario curriculum website</h2><p class="ag-lede">The Ontario curriculum website is built on a public content service, and its course record for ICD2O gives the basic facts directly. We read it on 22 October 2026. The table below shows each field, and the description that follows is quoted from the same record.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The ICD2O course record on the current Ontario curriculum website (read 22 October 2026)</caption><thead><tr><th scope="col">Field</th><th scope="col">ICD2O</th></tr></thead><tbody><tr><td>Course code</td><td>ICD2O</td></tr><tr><td>Name</td><td>Digital Technology and Innovations in the Changing World</td></tr><tr><td>Year issued</td><td>2023</td></tr><tr><td>Grade</td><td>10</td></tr><tr><td>Destination</td><td>Open</td></tr><tr><td>Prerequisite</td><td>None listed</td></tr><tr><td>Part of</td><td>Computer studies, beside ICS3U, ICS3C, ICS4U and ICS4C</td></tr><tr><td>Strands</td><td>A. Computational Thinking and Making Connections; B. Hardware, Software, and Innovations; C. Programming</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The description, in the ministry&rsquo;s words</h3><p>The record opens with an ambitious sentence: &ldquo;This course helps students develop cutting-edge digital technology and computer programming skills that will support them in contributing to and leading the global economic, scientific and societal innovations of tomorrow.&rdquo;</p>
+<p>It names artificial intelligence and cybersecurity as topics, then ends on judgement rather than skill: &ldquo;Using critical thinking skills with a focus on digital citizenship, students will investigate the appropriate use and development of the digital technologies that they encounter every day, as well as the benefits and limitations of these technologies.&rdquo;</p></div><div><h3>What open means</h3><p>Open is one of the three course types in Ontario computer studies. The 2008 document defines open courses as courses that broaden students&rsquo; knowledge and interests, and adds: &ldquo;They are not designed with the specific requirements of universities, colleges, or the workplace in mind.&rdquo;</p>
+<p>In practice, an open Grade 10 course is for every student, whatever their plans. A student heading for university computer science and a student who simply wants to understand the technology around them can sit in the same ICD2O class.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: the ICD2O course record and the computer studies course list on the Ontario curriculum website (dcp.edu.gov.on.ca), read through its public content service on 22 October 2026; course types from <a class="ag-inline-link" href="https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf" rel="noopener" target="_blank">The Ontario Curriculum, Grades 10 to 12: Computer Studies (2008)</a>. The ministry has no part in our classes and has not reviewed this page.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="strands">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Three strands, ten overall expectations</p><h2>The three ICD2O strands and what each one asks for</h2><p class="ag-lede">ICD2O has three strands and ten overall expectations. Each expectation has a short title of its own on the curriculum website, which makes the course easy to map. Strand A works differently from the other two, and that is worth understanding first.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>ICD2O overall expectations by strand, titles and wording from the Ontario curriculum website (read 22 October 2026)</caption><thead><tr><th scope="col">Code</th><th scope="col">Title on the website</th><th scope="col">The expectation, quoted</th></tr></thead><tbody><tr><td>A1</td><td>Computational Thinking, Planning, and Purpose</td><td>&ldquo;apply computational thinking concepts and practices, and use various tools and processes to plan and develop computational artifacts for a wide variety of contexts, users, and purposes&rdquo;</td></tr><tr><td>A2</td><td>Digital Technology and Society</td><td>Understanding the social, cultural, economic, environmental and ethical issues around digital technology (our summary of a long expectation)</td></tr><tr><td>A3</td><td>Applications, Careers, and Connections</td><td>Real-world uses of digital technology and programming, including in industries and careers (our summary)</td></tr><tr><td>B1</td><td>Understanding Hardware and Software</td><td>The functions and features of the hardware and software students meet every day (our summary)</td></tr><tr><td>B2</td><td>Using Hardware and Software</td><td>Ways to use hardware, software and file management, and research practices for learning new tools (our summary)</td></tr><tr><td>B3</td><td>Cybersecurity and Data</td><td>Safe and effective practices for data and cybersecurity in various contexts (our summary)</td></tr><tr><td>B4</td><td>Innovations in Digital Technology</td><td>&ldquo;investigate current and emerging innovations in digital technology, including automation and artificial intelligence, and assess their benefits and limitations&rdquo;</td></tr><tr><td>C1</td><td>Programming Concepts and Algorithms</td><td>&ldquo;explain fundamental programming concepts and algorithms&rdquo;</td></tr><tr><td>C2</td><td>Writing Programs</td><td>&ldquo;use fundamental programming concepts to write simple programs&rdquo;</td></tr><tr><td>C3</td><td>Modularity and Modification</td><td>&ldquo;demonstrate an understanding of program components and modules&rdquo;</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Strand A runs through the others</h3><p>Strand A, Computational Thinking and Making Connections, is not taught as a separate unit. The website says its learning happens in the context of Strands B and C, and &ldquo;it should be assessed and evaluated within these contexts&rdquo;. So the planning, the ethics and the career links come up inside the hardware lessons and the programming projects.</p>
+<p>Two of its specific expectations stand out for a Grade 10 course. Students &ldquo;investigate how to identify and address bias involving digital technology&rdquo;, and they &ldquo;analyze accessibility issues involving digital technology, and identify measures that can improve accessibility&rdquo;. The project further down is built on the second.</p></div><div><h3>Strand B is everyday technology</h3><p>Strand B is about the devices and software students already use. It asks them to &ldquo;use file management techniques, including those related to local and cloud storage, to organize, edit, and share files&rdquo;, and to &ldquo;apply safe and effective security practices, including practices to protect their privacy&rdquo;.</p>
+<p>Its last overall expectation, B4, is where artificial intelligence and automation sit. Students look at what the systems can do and at their limits, which is a thinking skill as much as a technical one.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: the ICD2O strands, overall and specific expectations on the Ontario curriculum website (dcp.edu.gov.on.ca), read through its public content service on 22 October 2026. Our summaries are marked; quoted wording is exact.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ics2o">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Two Grade 10 courses, side by side</p><h2>ICD2O and ICS2O compared, expectation by expectation</h2><p class="ag-lede">ICS2O, Introduction to Computer Studies, is the Grade 10 open course in the 2008 Computer Studies document. It does not appear in the computer studies course list on the current Ontario curriculum website, which shows ICD2O instead. We found no line in either source announcing a replacement, so this section reports each source and goes no further.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>ICD2O (Ontario curriculum website, 2023) and ICS2O (2008 curriculum document), compared from each source (read 22 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">ICD2O, 2023</th><th scope="col">ICS2O, 2008</th></tr></thead><tbody><tr><td>Where it is listed</td><td>The current Ontario curriculum website&rsquo;s computer studies list</td><td>The 2008 Computer Studies document; not on the current list</td></tr><tr><td>Grade, type, prerequisite</td><td>Grade 10, Open, none</td><td>Grade 10, Open, none</td></tr><tr><td>Opening of the description</td><td>Develop &ldquo;cutting-edge digital technology and computer programming skills&rdquo;</td><td>&ldquo;This course introduces students to computer programming.&rdquo;</td></tr><tr><td>Strands</td><td>Computational Thinking and Making Connections; Hardware, Software, and Innovations; Programming</td><td>&ldquo;A. Understanding Computers; B. Introduction to Programming; and C. Computers and Society&rdquo;</td></tr><tr><td>Artificial intelligence</td><td>Named in B4: &ldquo;including automation and artificial intelligence&rdquo;</td><td>Not named in the ICS2O expectations (our reading)</td></tr><tr><td>Files and storage</td><td>&ldquo;local and cloud storage&rdquo;</td><td>File management such as &ldquo;copy, move, delete, rename files; create shortcut&rdquo;</td></tr><tr><td>Security</td><td>B3, Cybersecurity and Data, an overall expectation of its own</td><td>Malware such as &ldquo;viruses, Trojan horses, worms, spyware, adware, malevolent macros&rdquo;</td></tr><tr><td>Networking</td><td>Networks and connectivity, with their benefits and limitations (B4.2)</td><td>&ldquo;demonstrate an understanding of home computer networking concepts&rdquo;</td></tr><tr><td>Sample programs</td><td>Programs that &ldquo;use and generate data involving various sources and formats&rdquo;</td><td>&ldquo;guessing game, rock-paper-scissors game, multiple-choice quiz, trivia game&rdquo;</td></tr><tr><td>Using other code</td><td>&ldquo;write programs that make use of external or add-on modules or libraries&rdquo;</td><td>Comparing &ldquo;a solution developed in a programming language versus one developed using a spreadsheet&rdquo;</td></tr><tr><td>Society</td><td>Bias and accessibility, as specific expectations</td><td>Adaptive technologies such as &ldquo;text-to-speech, speech-to-text&rdquo;</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the comparison shows</h3><p>Both are Grade 10 open courses with no prerequisite, and both teach beginning programming. The programming core is similar: variables, decisions, loops, errors and documentation appear in each.</p>
+<p>The differences are in the world around the code. ICD2O adds artificial intelligence and automation, cloud storage, cybersecurity as a strand of its own, bias, and programs that work with outside data and libraries. ICS2O spent more of its time on the computer itself: hardware components, operating systems and home networking.</p></div><div><h3>What the sources do not say</h3><p>We did not find a sentence in either source saying that ICD2O replaces ICS2O, or giving a date when one stopped and the other began. The website lists ICD2O and not ICS2O; the 2008 document describes ICS2O. That is all either says.</p>
+<p>If a school course calendar still lists ICS2O, the school is the right place to ask which curriculum the course is taught from. For a student, the practical point is the same either way: either course is a gentle first step before Grade 11 computer studies.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: the computer studies course list and ICD2O records on the Ontario curriculum website (dcp.edu.gov.on.ca), read through its public content service on 22 October 2026; <a class="ag-inline-link" href="https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf" rel="noopener" target="_blank">The Ontario Curriculum, Grades 10 to 12: Computer Studies (2008)</a>, ICS2O course pages, read the same day.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="programming">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Strand C, close up</p><h2>The programming strand: what a Grade 10 student actually writes</h2><p class="ag-lede">Strand C is where ICD2O students write code. Its three overall expectations break into specific ones that read like a checklist for a first programming course. Here is the checklist, with our note on what each looks like in a lesson.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Selected ICD2O strand C specific expectations, quoted from the Ontario curriculum website, with our classroom reading</caption><thead><tr><th scope="col">Code</th><th scope="col">The expectation</th><th scope="col">In a lesson (ours)</th></tr></thead><tbody><tr><td>C1.2</td><td>&ldquo;describe simple algorithms that are encountered in everyday situations&rdquo;</td><td>Writing the steps of a familiar task, such as checking out a library book, before any code</td></tr><tr><td>C2.3</td><td>&ldquo;write programs that include single and nested conditional statements&rdquo;</td><td>An if inside an if, as in practice question 3</td></tr><tr><td>C2.2</td><td>&ldquo;write programs that use and generate data involving various sources and formats&rdquo;</td><td>Reading a small table of data and printing a result, as the project does</td></tr><tr><td>C2.6</td><td>&ldquo;interpret program errors and implement strategies to resolve them&rdquo;</td><td>Reading an error message line by line, as in practice question 6</td></tr><tr><td>C3.2</td><td>&ldquo;modify an existing program, or components of a program, to enable it to complete a different task&rdquo;</td><td>Changing a working program to do something new, as the project&rsquo;s second step does</td></tr><tr><td>C3.4</td><td>&ldquo;write programs that make use of external or add-on modules or libraries&rdquo;</td><td>Using import to bring in a library instead of writing everything by hand</td></tr><tr><td>C3.5</td><td>&ldquo;explain the components of a computational artifact they have created, including considerations for reuse by others&rdquo;</td><td>Explaining your own program to a classmate who will reuse it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Which language?</h3><p>The website&rsquo;s expectations do not name a programming language, and classes use different ones. Python suits a course like this because a beginner can read it almost like English, though a teacher may choose a block-based tool or another text language.</p>
+<p>We teach ICD2O students in Python unless their class uses something else. The ideas in strand C carry straight into Grade 11, where ICS3U and ICS3C students work in a text language.</p></div><div><h3>Where Grade 10 students get stuck</h3><p>Not on syntax, usually. They get stuck on the step before: turning a vague task into exact steps. That is why we start every project with C1.2 thinking, the everyday algorithm written in plain words, and only then open the editor.</p>
+<p>The second sticking point is errors. A message such as TypeError looks like a wall to a beginner. Read slowly, it says exactly which line went wrong and why, and learning to read it is a skill the curriculum names directly.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Grade 10 project, ours</p><h2>One ICD2O-level project: a colour contrast checker in Python</h2><p class="ag-lede">This project is ours, written for this page at the level of ICD2O. It joins three parts of the course: accessibility from strand A, data and a library from strand C, and a modification task at the end. It answers a real question: can people with low vision read this text on this background?</p></div>
+    <ol class="ag-steps"><li><b>Describe the everyday algorithm first.</b> To judge whether text is readable, compare how bright the text colour is with how bright the background is. The bigger the difference, the easier it is to read.</li><li><b>Find a trustworthy rule.</b> The Web Content Accessibility Guidelines, WCAG 2.1, published by the W3C, define brightness as relative luminance and give the contrast ratio formula, &ldquo;(L1 + 0.05) / (L2 + 0.05)&rdquo;, where L1 is the lighter colour.</li><li><b>Break it into small functions.</b> One turns a single colour channel into linear light, one works out the luminance of a colour, and one compares two colours. Each does one job and can be tested alone.</li><li><b>Read the data with a library.</b> The colour pairs are a small CSV table, read with Python&rsquo;s csv module. Using an existing module instead of splitting text by hand is what expectation C3.4 asks for.</li><li><b>Decide with nested conditions.</b> WCAG 2.1 asks for a contrast ratio of at least 4.5:1 for body text and at least 3:1 for large text. An if inside an else turns the ratio into a verdict.</li><li><b>Test with cases you can check.</b> Black on white must give 21, the highest ratio possible. A colour against itself would give 1. If those two come out wrong, nothing else can be trusted.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; colour contrast checker (ours)</b><span>python</span></figcaption><pre># Can people read this text? A colour contrast checker (ours)
+# Formula: WCAG 2.1 relative luminance and contrast ratio (w3.org/TR/WCAG21)
+import csv
+import io
+
+PAIRS = """text,background
+#000000,#FFFFFF
+#777777,#FFFFFF
+#30520C,#FBF8F2
+#FFFF00,#FFFFFF
+"""
+
+def channel(value):
+    """One 0 to 255 colour channel, turned into linear light."""
+    c = value / 255
+    if c &lt;= 0.04045:
+        return c / 12.92
+    return ((c + 0.055) / 1.055) ** 2.4
+
+def luminance(hex_colour):
+    r = int(hex_colour[1:3], 16)
+    g = int(hex_colour[3:5], 16)
+    b = int(hex_colour[5:7], 16)
+    return 0.2126 * channel(r) + 0.7152 * channel(g) + 0.0722 * channel(b)
+
+def contrast(a, b):
+    lighter = max(luminance(a), luminance(b))
+    darker = min(luminance(a), luminance(b))
+    return (lighter + 0.05) / (darker + 0.05)
+
+for row in csv.DictReader(io.StringIO(PAIRS)):
+    ratio = contrast(row["text"], row["background"])
+    if ratio &gt;= 4.5:
+        verdict = "passes for body text"
+    else:
+        if ratio &gt;= 3:
+            verdict = "large text only"
+        else:
+            verdict = "fails"
+    print(row["text"], "on", row["background"], round(ratio, 2), verdict)</pre><p class="ag-code-note">Output: #000000 on #FFFFFF 21.0 passes for body text; #777777 on #FFFFFF 4.48 large text only; #30520C on #FBF8F2 8.47 passes for body text; #FFFF00 on #FFFFFF 1.07 fails. The third pair is this page&rsquo;s own accent colour on its paper background.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The checker&rsquo;s results (ours, Python 3.13; thresholds from WCAG 2.1)</caption><thead><tr><th scope="col">Text colour</th><th scope="col">Background</th><th scope="col">Contrast ratio</th><th scope="col">Verdict</th></tr></thead><tbody><tr><td>#000000 (black)</td><td>#FFFFFF (white)</td><td class="ag-num">21.0</td><td>Passes for body text</td></tr><tr><td>#777777 (mid grey)</td><td>#FFFFFF (white)</td><td class="ag-num">4.48</td><td>Large text only</td></tr><tr><td>#30520C (moss green)</td><td>#FBF8F2 (paper)</td><td class="ag-num">8.47</td><td>Passes for body text</td></tr><tr><td>#FFFF00 (yellow)</td><td>#FFFFFF (white)</td><td class="ag-num">1.07</td><td>Fails</td></tr></tbody></table></div>
+    <p class="ag-mt-40"><b>The modification.</b> WCAG 2.1 also has an enhanced level, which asks for &ldquo;a contrast ratio of at least 7:1&rdquo;. Changing the program to report four levels instead of three is a C3.2 task: modify an existing program so it completes a different task. The cleanest change replaces the nested if with one chain of elif tests, checked from the strictest level down.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; the four-level verdict (ours)</b><span>python</span></figcaption><pre># The modification: four levels instead of three (ours)
+
+def verdict(ratio):
+    if ratio &gt;= 7:
+        return "passes the enhanced level"
+    elif ratio &gt;= 4.5:
+        return "passes for body text"
+    elif ratio &gt;= 3:
+        return "large text only"
+    return "fails"
+
+for r in (21.0, 8.47, 4.48, 1.07, 7.0, 4.5, 3.0):
+    print(r, verdict(r))</pre><p class="ag-code-note">Output, in order: passes the enhanced level for 21.0, 8.47 and 7.0; large text only for 4.48 and 3.0; fails for 1.07; passes for body text for 4.5. The boundary values 7.0, 4.5 and 3.0 are there on purpose: at least means greater than or equal to.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the project teaches</h3><p>Mid grey on white, 4.48, misses the body text line by a hair. A student who rounds to one decimal place too early would print 4.5 and wrongly pass it, which is a real lesson about when to round: at the end, never in the middle.</p>
+<p>The order of the elif tests also matters. Checking 3 before 7 would label black on white as large text only, because 21 is also at least 3. Strictest first is a rule worth remembering.</p></div><div><h3>Why accessibility is a good first project</h3><p>It has a right answer that can be checked, it uses real arithmetic, and it matters to real people. ICD2O asks students to analyze accessibility issues and identify measures that can improve accessibility, and this program is one such measure.</p>
+<p>It also reuses well. Expectation C3.5 asks students to explain their program with &ldquo;considerations for reuse by others&rdquo;, and a classmate building a website can call the contrast function without reading how it works.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ai">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">AI, automation and security</p><h2>Artificial intelligence and cybersecurity in ICD2O</h2><p class="ag-lede">The ICD2O record names artificial intelligence and cybersecurity in its description, and strand B gives each its own expectation. Here is what the course asks, and how we handle the same topics in class.</p></div>
+    <div class="ag-grid-3"><div><h3>What AI can and cannot do</h3><p>Expectation B4.1 asks students to &ldquo;investigate current innovations, including automation and artificial intelligence systems, and assess the impacts of these technologies on everyday life&rdquo;. The assessing is the point.</p></div><div><h3>Bias</h3><p>Strand A asks students to identify and address bias involving digital technology. A Grade 10 student can already ask what data a system learned from, and who might be missing from it.</p></div><div><h3>Safe practices</h3><p>B3 covers safe data and security habits: strong passwords, care with links, privacy settings. These are habits, so they are practised, not memorised.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Using AI without letting it think for you</h3><p>Our teachers explain how AI systems work, in plain terms, and we let students see where they go wrong. What we do not do is let a chatbot write a student&rsquo;s program. A Grade 10 student who copies working code learns nothing that strand C can assess.</p>
+<p>AI chat tools set their own age rules in their terms of use, so families should read those terms before a teen signs up for one. We do not ask students to sign up for any.</p></div><div><h3>A cybersecurity habit to teach at home</h3><p>If a message asks for a password through a link, do not use the link. Open the real site yourself, by typing its address or using a saved bookmark, and check there. That one habit protects against a very common trick, and it is practice question 8 below.</p>
+<p>It also links to strand C: once a student can write a program that checks input, they understand why a website that does not check its input is a security risk.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice, ours</p><h2>Ten ICD2O practice questions, with answers</h2><p class="ag-lede">We wrote these ten for this page; none is from a school, a board or a ministry document. Questions 1 to 6 are short Python programs to read before running, and 7 to 10 ask you to explain or plan. Answers follow the questions.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 1 &middot; order of operations</b><span>python</span></figcaption><pre>print(7 + 3 * 2 ** 2)
+print((7 + 3) * 2 ** 2)</pre><p class="ag-code-note">What two numbers are printed?</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 2 &middot; types of data</b><span>python</span></figcaption><pre>x = "4" + "2"
+print(x, type(x).__name__)
+print(int("4") + int("2"))</pre><p class="ag-code-note">What is printed on each line, and why are they different?</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 3 &middot; nested conditions</b><span>python</span></figcaption><pre>temp = -12
+if temp &lt; 0:
+    if temp &lt; -10:
+        print("Extreme cold warning")
+    else:
+        print("Below freezing")
+else:
+    print("Above freezing")</pre><p class="ag-code-note">What is printed? What would print if temp were -5? And if it were exactly 0, is the message right?</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 4 &middot; text operators</b><span>python</span></figcaption><pre>word = "Winnipeg"
+print(len(word), word[0], word[-1], word.upper())</pre><p class="ag-code-note">What four things are printed?</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 5 &middot; a loop that counts</b><span>python</span></figcaption><pre>score = 0
+for answer in ["b", "a", "c", "b"]:
+    if answer == "b":
+        score = score + 1
+print(score)</pre><p class="ag-code-note">What is printed? Describe in words what the program counts.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 6 &middot; read the error</b><span>python</span></figcaption><pre>score = 7
+print("Score: " + score)</pre><p class="ag-code-note">This stops with an error. What kind of error, what does the message mean, and how do you fix it?</p></figure>
+    <p class="ag-mt-40"><b>Question 7 &middot; an everyday algorithm.</b> Write numbered steps for borrowing a book at a self-serve library kiosk. Include at least one decision (an if) and one repeat (a loop).</p>
+    <p><b>Question 8 &middot; safe practice.</b> A message that looks like it comes from your school asks you to confirm your password through a link. List three things to do, in order.</p>
+    <p><b>Question 9 &middot; benefits and limitations.</b> A school library starts using an automated system that recommends books from what a student borrowed before. Give one benefit and one limitation.</p>
+    <p><b>Question 10 &middot; modify a program.</b> Change the contrast checker above so it reports four levels, including the WCAG enhanced level of 7:1. Which test must come first?</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="answers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Answers, ours</p><h2>Answers to the ten questions</h2><p class="ag-lede">Each answer explains the reasoning, which is what a teacher marks. All six programs were run in Python 3.13.</p></div>
+    <ol class="ag-steps"><li><b>19, then 40.</b> Powers come first, so 2 ** 2 is 4; then multiplication, 3 * 4 is 12; then 7 + 12 is 19. Brackets change the order: (7 + 3) is 10, times 4 is 40. This is the order of operations expectation C1.4 describes.</li><li><b>42 str, then 6.</b> With text, + joins the two pieces, so &quot;4&quot; + &quot;2&quot; is the text 42, and its type is str. After int() turns each into a number, + adds them. Same symbol, different job depending on the type of data.</li><li><b>Extreme cold warning.</b> -12 is below 0, and also below -10, so the inner if runs. For -5 it prints Below freezing. For exactly 0 it prints Above freezing, which is not quite right: water freezes at 0. Changing the first test to temp &lt;= 0 fixes it, and finding that edge is the real skill.</li><li><b>8 W g WINNIPEG.</b> len counts the letters, index 0 is the first letter, index -1 counts from the end, and upper() returns a capitalised copy. The original word is unchanged.</li><li><b>2.</b> The loop looks at each answer once and adds 1 when it is b. There are two b answers. The program counts how many answers match one choice, like marking a quiz against one correct option.</li><li><b>TypeError: can only concatenate str (not &quot;int&quot;) to str.</b> Python will not join text and a number with +. Turn the number into text first, with str(score), or use an f-string: f&quot;Score: {score}&quot;. Both print Score: 7.</li><li><b>One good answer:</b> 1. Scan your library card. 2. If the card is not accepted, ask staff and stop. 3. Scan a book. 4. Repeat step 3 until every book is scanned. 5. Choose a receipt option. 6. Take your card and books. The if is step 2 and the loop is step 4.</li><li><b>Do not use the link; check another way; report it.</b> Open the school site yourself by typing the address or using a bookmark, and see if any message is waiting there. Never type a password into a page reached from a message. Then tell a teacher or the school&rsquo;s technology staff, so others are warned.</li><li><b>Benefit:</b> students find books close to what they already enjoy, quickly. <b>Limitation:</b> it can keep suggesting the same kind of book, so a student sees less variety, and it knows nothing about what a student has read outside the library.</li><li><b>The 7:1 test must come first.</b> See the four-level verdict code in the project. Checking from the strictest level down means each ratio stops at the highest level it meets; checking 3 first would stop every passing ratio at large text only.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="next">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After Grade 10</p><h2>After ICD2O: Grade 11 courses and the diploma</h2><p class="ag-lede">ICD2O is an open course, and it is not a prerequisite for anything in the course table: ICS3U and ICS3C list no prerequisite at all. So what does it lead to? Mostly, to readiness.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Computer studies courses after Grade 10, with prerequisites as listed on the current Ontario curriculum website (read 22 October 2026)</caption><thead><tr><th scope="col">Course</th><th scope="col">Grade and type</th><th scope="col">Prerequisite listed</th></tr></thead><tbody><tr><td>ICS3U, Introduction to Computer Science</td><td>Grade 11, university preparation</td><td>None</td></tr><tr><td>ICS3C, Introduction to Computer Programming</td><td>Grade 11, college preparation</td><td>None</td></tr><tr><td>ICS4U, Computer Science</td><td>Grade 12, university preparation</td><td>Introduction to Computer Science, Grade 11, University Preparation</td></tr><tr><td>ICS4C, Computer Programming</td><td>Grade 12, college preparation</td><td>Introduction to Computer Programming, Grade 11, College Preparation</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why take ICD2O if nothing requires it</h3><p>Because Grade 11 computer studies moves fast. The first unit of ICS3U or ICS3C assumes nothing, but by the middle of the course students are writing loops over arrays and functions with parameters. A student who met variables, conditions and loops in Grade 10 has room to think about the new ideas instead of the syntax.</p>
+<p>And because ICD2O covers things the Grade 11 courses do not dwell on, such as artificial intelligence, cloud storage and bias. Those are useful to every student, whatever they study next.</p></div><div><h3>ICD2O and the diploma</h3><p>Ontario&rsquo;s graduation requirements page lists computer studies as one of the subjects in the STEM-related course group for students who started Grade 9 in 2024 or later, and in Group 3 for students who started in 2023 or earlier. ICD2O is a computer studies course on the curriculum website&rsquo;s list.</p>
+<p>That page also requires a credit in technological education for the 2024 cohort. Technological education is a separate subject with its own courses, and we found no source saying that ICD2O counts toward it, so ask the school before planning around that.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a Grade 10 student is</p>
+      <h2>Four stages of a first-year programmer</h2>
+      <p class="ag-lede">Our own stages, from teaching students in their first programming course.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first lines to Grade 11 ready (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Typist</td><td class="ag-num">Copies example code and runs it, and is pleased when it works</td></tr><tr><td>2. Tinkerer</td><td class="ag-num">Changes one thing in a working program and predicts what will happen</td></tr><tr><td>3. Planner</td><td class="ag-num">Writes the steps in words first, then turns them into code</td></tr><tr><td>4. Grade 11 ready</td><td class="ag-num">Writes a short program from a blank file, reads its own errors and explains every line</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 2 is where real learning starts, and the modification task in the project is a stage 2 exercise. Ask your teen what they changed and what they expected.</p>
+<p>A Grade 10 student does not need to reach stage 4 by June. Getting there over the summer before Grade 11 is a fine plan.</p></div><div><h3>For students</h3><p>When something breaks, read the last line of the error message first. It names the kind of problem.</p>
+<p>Change one thing at a time. If you change three things and it works, you do not know which one fixed it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">All courses</p>
+      <h2>Nine more courses for Grade 9 and 10 students</h2>
+      <p class="ag-lede">Live classes with one regular teacher, as a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>First programming</h3>
+        <span class="ag-band-sub">Grades 9 and 10</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / FST / 01</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive web pages, one feature at a time.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / FST / 02</p>
+          <h4>HTML and CSS</h4>
+          <p>Real websites, readable and accessible.</p>
+          <a class="ag-course-link" href="/courses/html-css-course-for-beginners-build-real-websites">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / FST / 03</p>
+          <h4>Game development for teens</h4>
+          <p>The guessing games of old, grown up.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Technology and society</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / SOC / 01</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>How AI systems learn, and where they fail.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / SOC / 02</p>
+          <h4>Data science for teens</h4>
+          <p>Data from real sources, cleaned and charted.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / SOC / 03</p>
+          <h4>Cybersecurity competitions</h4>
+          <p>Security puzzles for students who like a challenge.</p>
+          <a class="ag-course-link" href="/courses/picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Toward Grade 11</h3>
+        <span class="ag-band-sub">Grades 10 and 11</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / G11 / 01</p>
+          <h4>Java for teens</h4>
+          <p>For Grade 11 classes that teach in Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / G11 / 02</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic and step-by-step thinking.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">IDTC / G11 / 03</p>
+          <h4>CCC Junior and Senior preparation</h4>
+          <p>A first programming contest, through school.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Class format</p>
+      <h2>Live classes for Grade 10 students</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, at a time agreed in Ontario time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning classes that fit around a Grade 10 week.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">For catching up after a missed unit or before a project.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Python first</h3><p>Unless the class uses another language.</p></div>
+      <div><h3>Words before code</h3><p>Every program starts as plain steps.</p></div>
+      <div><h3>Real projects</h3><p>Small programs that answer real questions.</p></div>
+      <div><h3>Errors explained</h3><p>Messages read slowly, together.</p></div>
+      <div><h3>One teacher</h3><p>The same teacher all term.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty, or one student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work by our students</h2>
+      <p class="ag-lede">Projects from students who started where a Grade 10 student starts. See the <a class="ag-inline-link" href="/student-labs">student labs</a> for more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Begin with a free class. Afterwards, a monthly fee pays for eight live classes each month, shown below in your own currency; nothing locks you in, and you can stop when a month ends.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring a current ICD2O task</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty per batch</li><li>One regular teacher</li><li>Your choice of batch</li><li>Paid by the month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Private classes</li><li>Timed around the school week</li><li>Built from their own work</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews families left on Google, exactly as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Grade 10</p>
+      <h2>ICD2O and ICS2O: questions families ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is ICD2O?</h3>
+        <p>ICD2O is Digital Technology and Innovations in the Changing World, a Grade 10 open computer studies course listed on the current Ontario curriculum website with the issue year 2023. It has three strands: Computational Thinking and Making Connections; Hardware, Software, and Innovations; and Programming.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happened to ICS2O?</h3>
+        <p>ICS2O, Introduction to Computer Studies, is the Grade 10 open course in the 2008 Computer Studies curriculum document. The current Ontario curriculum website lists ICD2O as its Grade 10 computer studies course and does not list ICS2O. Neither source we read says that one replaced the other.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the Grade 10 computer course in Ontario?</h3>
+        <p>On the current Ontario curriculum website, the Grade 10 computer studies course is ICD2O, Digital Technology and Innovations in the Changing World. It is an open course with no prerequisite. Ask your school which Grade 10 courses it offers in a given year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does ICD2O have a prerequisite?</h3>
+        <p>No. The course record on the Ontario curriculum website lists no prerequisite for ICD2O.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need ICD2O to take ICS3U?</h3>
+        <p>No. ICS3U and ICS3C list no prerequisite. ICD2O is still a useful first step, because Grade 11 computer studies moves quickly once arrays and functions arrive.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does ICD2O include coding?</h3>
+        <p>Yes. Strand C, Programming, asks students to explain programming concepts and algorithms, write simple programs with conditions and loops, interpret errors, write subprograms, use libraries and modify existing programs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does ICD2O teach artificial intelligence?</h3>
+        <p>It asks students to investigate current and emerging innovations, including automation and artificial intelligence, and to assess their benefits and limitations. It also includes cybersecurity and data practices as an overall expectation of their own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming language does ICD2O use?</h3>
+        <p>The expectations do not name a language, so it depends on the class. We teach in Python unless the student's class uses something else.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does ICD2O count for the diploma?</h3>
+        <p>Ontario's graduation requirements page lists computer studies in the STEM-related course group for students who started Grade 9 in 2024 or later. We found no source saying ICD2O counts as the technological education credit, so check with the school.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you grant the ICD2O credit?</h3>
+        <p>No. We teach coding beside the school course and do not grant Ontario credits. The credit comes from the school or credit provider that teaches and evaluates ICD2O.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in your own Ontario time zone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do classes cost?</h3>
+        <p>The first class is free. After that, families pay a monthly fee and can stop when any month ends. The fees section on this page shows the current figure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More to read</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">For Ontario families planning Grade 10 and beyond.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ics3u-computer-science-help">ICS3U computer science help</a></h3><p>The Grade 11 university course many ICD2O students take next.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-ontario">Coding classes in Ontario</a></h3><p>Live coding classes across the province.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-indentation-error-explained">Python IndentationError</a></h3><p>The first error most Python beginners meet.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>A calm method for any error message.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-canada">AI and machine learning in Canada</a></h3><p>Classes for teens who want to go further with AI.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>A first programming contest for Grade 9 and 10 coders.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Canada</a></h3><p>Every page we have written for Canadian families.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us what your Grade 10 student is working on in ICD2O, or what they would like to build. The first class starts from that and ends with a small working program.</p>
+        <p class="ag-mt-40">Looking around first? The <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python for teens syllabus</a> shows the whole course, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> walks through a live lesson.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20Grade%2010%20student%20in%20Ontario%20is%20taking%20ICD2O%20and%20would%20like%20coding%20help%20beside%20the%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'idtc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes run live on video, taught by our teachers in India, so there is no commute. From Ontario, WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_idtc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">You will not be asked for card details to book.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Grade 10 coding</h4><ul><li><a href="/courses/python-complete-masterclass-teens">Python for teens</a></li><li><a href="/ics3u-computer-science-help">ICS3U help</a></li><li><a href="/how-to-debug-code">How to debug code</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/coding-classes-in-ontario">Coding classes in Ontario</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/ai-and-machine-learning-classes-in-canada">AI classes in Canada</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Read it, change one thing, test it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_idtc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'icd2o-digital-technology-course-explained-inline', meta: { name: name, age: age, page: 'icd2o-digital-technology-course-explained' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>
