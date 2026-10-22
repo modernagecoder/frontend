@@ -25293,6 +25293,18 @@
   to = "/src/pages/mcr3u-functions-tutor.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/mdm4u-data-management-tutor"
+  to = "/src/pages/mdm4u-data-management-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/mdm4u-data-management-tutor.md"
+  to = "/src/pages/mdm4u-data-management-tutor.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

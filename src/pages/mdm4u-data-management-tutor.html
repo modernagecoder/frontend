@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MDM4U Data Management Tutor: Grade 12 Help and Practice</title>
+  <meta name="description" content="MDM4U tutor for Ontario Grade 12: the five strands from the curriculum, a Python investigation of Toronto weather data, worked probability and practice.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/mdm4u-data-management-tutor">
+  <link rel="alternate" type="text/markdown" href="/src/pages/mdm4u-data-management-tutor.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#1E7011">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/mdm4u-data-management-tutor">
+  <meta property="og:title" content="MDM4U Data Management Tutor: Grade 12 Help and Practice">
+  <meta property="og:description" content="Mathematics of Data Management explained from the 2007 Ontario curriculum: counting, probability distributions, data collection, statistics and the culminating investigation. With a Python analysis of real Toronto temperatures and twelve practice questions.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MDM4U Data Management Tutor: Grade 12 Help and Practice">
+  <meta name="twitter:description" content="MDM4U Data Management, strand by strand, with a real-data Python investigation.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-mdmt .ag-hero h1 { letter-spacing: -0.01em; max-width: 22ch; }
+.ag-root.ag-mdmt .ag-capsule { border-left-width: 6px; border-radius: 2px; }
+.ag-root.ag-mdmt .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-mdmt .ag-table caption { text-align: left; }
+.ag-root.ag-mdmt .ag-code-head span { text-transform: uppercase; letter-spacing: 0.05em; }
+.ag-root.ag-mdmt .ag-steps li { margin-bottom: 0.55rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/mdm4u-data-management-tutor#page","url":"https://learn.modernagecoders.com/mdm4u-data-management-tutor","name":"MDM4U Data Management Tutor","description":"A guide for Ontario Grade 12 students and parents to MDM4U, Mathematics of Data Management, built from the 2007 curriculum document, with a Python investigation of Environment and Climate Change Canada data, two worked probability problems, twelve practice questions and a culminating investigation plan.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":3,"name":"Ontario","item":"https://learn.modernagecoders.com/coding-classes-in-ontario"},{"@type":"ListItem","position":4,"name":"MDM4U tutor","item":"https://learn.modernagecoders.com/mdm4u-data-management-tutor"}]},{"@type":"Course","name":"MDM4U Data Management Tutor","description":"Live online MDM4U help for Ontario Grade 12 students, in a batch or one to one, alongside the school course, including support with the culminating investigation. No Ontario credit is granted.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/mdm4u-data-management-tutor"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/mdm4u-data-management-tutor"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/mdm4u-data-management-tutor"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is MDM4U?","acceptedAnswer":{"@type":"Answer","text":"MDM4U is Mathematics of Data Management, Grade 12, University Preparation, in Ontario's 2007 senior mathematics curriculum. It has five strands: counting and probability, probability distributions, organization of data for analysis, statistical analysis, and a culminating data management investigation."}},{"@type":"Question","name":"Do you grant the MDM4U credit?","acceptedAnswer":{"@type":"Answer","text":"No. We teach alongside the student's school course and do not grant Ontario credits. The credit is granted by the school or program that delivers and evaluates MDM4U. We provide teaching, practice and feedback."}},{"@type":"Question","name":"What is the prerequisite for MDM4U?","acceptedAnswer":{"@type":"Answer","text":"Functions, Grade 11, University Preparation (MCR3U), or Functions and Applications, Grade 11, University/College Preparation (MCF3M). Both are printed on the MDM4U course page of the 2007 curriculum."}},{"@type":"Question","name":"Is MDM4U easier than MHF4U or MCV4U?","acceptedAnswer":{"@type":"Answer","text":"It uses less algebra, but it is not automatically easier. The difficulty is in choosing the right method, such as permutation or combination, binomial or hypergeometric, and in interpreting results in words. The culminating investigation also takes sustained work over several weeks."}},{"@type":"Question","name":"What is the culminating investigation?","acceptedAnswer":{"@type":"Answer","text":"It is the fifth strand: students pose a significant problem, gather and analyse data, draw conclusions with their limitations, write a report and present it. The curriculum allows one problem on probability and statistics or two smaller problems, one on each. Schools set the format and rubric."}},{"@type":"Question","name":"Will you do my teen's culminating investigation?","acceptedAnswer":{"@type":"Answer","text":"No. We help choose a question, find a reliable data source, plan the analysis, learn the tools and review drafts, but the work and the writing stay the student's own. That is how it is assessed, and it is where the learning happens."}},{"@type":"Question","name":"Do universities require MDM4U?","acceptedAnswer":{"@type":"Answer","text":"Some recommend it rather than require it. On 22 October 2026, the University of Toronto Mississauga Computer Science listing marked MDM4U as recommended, and the Scarborough Psychology listing accepted it as one of three recommended math options. Always check the exact program and campus."}},{"@type":"Question","name":"Can MDM4U be done with Python?","acceptedAnswer":{"@type":"Answer","text":"The course is about the mathematics, not a tool. Schools commonly use spreadsheets or Fathom. Python works well for a culminating investigation with a large data set, and we teach it to students who want to use it, if their teacher accepts it."}},{"@type":"Question","name":"When are classes for Ontario students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Ontario families book in Eastern time; the clocks change on 1 November 2026 and 14 March 2027."}},{"@type":"Question","name":"What do MDM4U classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. Then classes are paid monthly, eight live sessions a month, and you can stop after any month. The fees section of this page shows the current amount for a batch and for one-to-one lessons."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/mdm4u-data-management-tutor","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-mdmt">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#covers">Five strands</a></li>
+      <li><a href="#worked">Probability</a></li>
+      <li><a href="#project">Python project</a></li>
+      <li><a href="#investigation">Culminating task</a></li>
+      <li><a href="#practice">Practice</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-canada">Canada</a> / <a href="/coding-classes-in-ontario">Ontario</a> / MDM4U tutor
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Ontario &middot; Grade 12 &middot; MDM4U Data Management</p>
+        <h1>MDM4U Data Management tutor, with real data</h1>
+        <p class="ag-lede">Data Management is the Grade 12 math course that ends with a project of the student&rsquo;s own: a question, a data set, and a report defended in front of the class. Before that come counting, probability, distributions and statistics, each with its own traps. This page sets out MDM4U from the 2007 curriculum, solves two probability problems, runs a short Python investigation on real Toronto weather data, and gives twelve practice questions of ours. We teach alongside the school course and do not grant Ontario credits; the credit comes from the student&rsquo;s school.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">See the Python project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20Ontario%20is%20taking%20MDM4U%20Data%20Management%20and%20would%20like%20help%2C%20including%20with%20the%20culminating%20investigation.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mdmt'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; Statistics, probability and the culminating investigation</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Course</dt><dd>MDM4U, Mathematics of Data Management</dd>
+          <dt>Grade</dt><dd>12, university preparation</dd>
+          <dt>Before it</dt><dd>MCR3U or MCF3M</dd>
+          <dt>Strands</dt><dd>Five, ending in an investigation</dd>
+          <dt>Tools</dt><dd>Spreadsheets, Fathom, or Python</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Credit</dt><dd>None granted: the school grants it</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In brief</p>
+      <p>MDM4U is Mathematics of Data Management, Ontario&rsquo;s Grade 12 university-preparation course in counting, probability, probability distributions and statistics, ending in a culminating investigation. It follows MCR3U or MCF3M. Modern Age Coders teaches MDM4U live online, in a batch or one to one, through our course Statistics and Probability: Data to Hypothesis Testing.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses for a Data Management student</h2>
+      <p class="ag-lede">The first matches MDM4U&rsquo;s statistics and probability closely. The second goes deeper, and the third adds the programming that makes a culminating investigation easier.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/statistics-probability-maths-course">
+        <div class="ag-pick-shot"><img src="/images/statistics-probability-maths.webp" alt="Statistics &amp; Probability course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MDMT / 01</p>
+          <h3>Statistics and probability</h3>
+          <p>Counting, distributions, sampling, correlation and regression: the core of MDM4U, taught live.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-statistics-maths-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-statistics.webp" alt="AP Statistics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MDMT / 02</p>
+          <h3>Statistics, further</h3>
+          <p>Inference and study design in more depth, for students heading into social science or business.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-science-course-for-teens-python-data">
+        <div class="ag-pick-shot"><img src="/images/data-science-teens.webp" alt="Data Science for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MDMT / 03</p>
+          <h3>Data science for teens</h3>
+          <p>Python for cleaning, summarising and charting a real data set, the skills behind the project below.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="covers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Ontario curriculum</p><h2>What MDM4U covers: five strands, one investigation</h2><p class="ag-lede">MDM4U&rsquo;s course description reads: &ldquo;This course broadens students&rsquo; understanding of mathematics as it relates to managing data.&rdquo; Students &ldquo;carry out a culminating investigation that integrates statistical concepts and skills&rdquo;. Unlike the other Grade 12 university math courses, it has five strands, and the fifth is the investigation itself.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>MDM4U strands and what the overall expectations ask, from the 2007 Ontario mathematics curriculum (read 22 October 2026)</caption><thead><tr><th scope="col">Strand</th><th scope="col">From the overall expectations</th><th scope="col">In class (our reading)</th></tr></thead><tbody><tr><td>A. Counting and Probability</td><td>solve problems involving &ldquo;the probability of an event or a combination of events for discrete sample spaces&rdquo;, and apply &ldquo;permutations and combinations&rdquo;</td><td>Sample spaces, complements, independence and conditional probability, then counting with factorials, permutations and combinations</td></tr><tr><td>B. Probability Distributions</td><td>discrete distributions with &ldquo;expected values&rdquo;; continuous distributions, standard deviations and &ldquo;key features of the normal distribution&rdquo;</td><td>Uniform, binomial and hypergeometric distributions, then the normal curve and z-scores</td></tr><tr><td>C. Organization of Data for Analysis</td><td>the role of data and &ldquo;the variability inherent in data&rdquo;; &ldquo;the characteristics of a good sample, some sampling techniques, and principles of primary data collection&rdquo;</td><td>Types of data, sampling methods, kinds of bias, and designing a fair survey</td></tr><tr><td>D. Statistical Analysis</td><td>draw conclusions from &ldquo;one-variable data using numerical and graphical summaries&rdquo; and from two-variable data; applications in &ldquo;the media and the advertising industry&rdquo;</td><td>Mean, median, spread and boxplots; scatter plots, correlation and regression; reading statistics in the news critically</td></tr><tr><td>E. Culminating Data Management Investigation</td><td>&ldquo;design and carry out a culminating investigation&rdquo;, then communicate the findings and critique the investigations of others</td><td>A project with a question, data, analysis, a written report and a short presentation</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The detail that shows up on tests</h3><p>Strand B states the empirical rule word for word: &ldquo;approximately 68% of the data values are within one standard deviation of the mean and approximately 95% of the data values are within two standard deviations of the mean&rdquo;. It also defines a z-score as &ldquo;the positive or negative number of standard deviations from the mean&rdquo;. Both feed directly into our Python project below, where the rule is tested on real data and partly fails.</p>
+<p>The binomial and hypergeometric distributions are told apart by one condition: the curriculum ties the binomial to &ldquo;(e.g., independent trials)&rdquo; and the hypergeometric to &ldquo;(e.g., dependent trials)&rdquo;. Choosing the right one is often the whole question, as our first worked problem shows.</p></div><div><h3>Data collection is examined, not assumed</h3><p>Strand C names the sampling methods students must compare, &ldquo;simple random, systematic, stratified, convenience, voluntary&rdquo;, and the biases they must recognise: &ldquo;response bias, measurement bias, non-response bias, sampling bias&rdquo;. It also asks for &ldquo;the need for randomization, replication, and control in experimental studies&rdquo;.</p>
+<p>Strand D brings this to the news. Students interpret a statistic that is &ldquo;accurate to within 3 percentage points, 19 times out of 20&rdquo;, a phrasing often seen in published polls, and they use residuals to &ldquo;determine the fit of an individual data point to the linear model&rdquo;.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Who the course is for</h3><p>The description says that students &ldquo;planning to enter university programs in business, the social sciences, and the humanities will find this course of particular interest.&rdquo; The programme overview adds that it &ldquo;is designed to satisfy the prerequisites for a number of university programs that may include statistics courses, such as those found in the social sciences and the humanities&rdquo;.</p>
+<p>It is also the Grade 12 university course with the widest entry: MCF3M students can take it as well as MCR3U students.</p></div><div><h3>Prerequisite, tools and credit</h3><p>The course page lists &ldquo;Functions, Grade 11, University Preparation, or Functions and Applications, Grade 11, University/College Preparation&rdquo;, and the ministry&rsquo;s online course record gives the same text with the year 2007.</p>
+<p>The programme overview names spreadsheets and &ldquo;Fathom, a ministry-licensed dynamic statistical program.&rdquo; We teach the same ideas with whatever tool the school uses, and with Python for students who want to code their investigation. MDM4U is one credit, with the usual split of term work and a final evaluation.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf" rel="noopener" target="_blank">The Ontario Curriculum, Grades 11 and 12: Mathematics (2007)</a>, programme overview and MDM4U pages, read 22 October 2026, and the MDM4U record on the ministry&rsquo;s curriculum website, checked the same day. Expectations that use symbols are described, not quoted. The ministry has no involvement with this page.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="stuck">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where students lose marks</p><h2>Where MDM4U gets tricky</h2><p class="ag-lede">Data Management has a reputation as the gentler Grade 12 math course. The algebra is lighter, but the reasoning is subtle, and a wrong first decision sinks an otherwise perfect solution. These are the decisions we see go wrong most.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Decisions that decide an MDM4U answer (ours)</caption><thead><tr><th scope="col">Decision</th><th scope="col">The common slip</th><th scope="col">The question to ask first</th></tr></thead><tbody><tr><td>Permutation or combination?</td><td>Using a permutation when order does not matter, which overcounts</td><td>If I swap two chosen items, is it a different outcome?</td></tr><tr><td>Direct count or complement?</td><td>Adding up many cases for an &ldquo;at least one&rdquo; question</td><td>Is the opposite event a single, easy case?</td></tr><tr><td>Independent or mutually exclusive?</td><td>Treating the two words as the same idea</td><td>Can both happen at once? Does one change the other&rsquo;s probability?</td></tr><tr><td>Binomial or hypergeometric?</td><td>Using the binomial when items are drawn without replacement</td><td>Does each trial change the chances of the next?</td></tr><tr><td>Is a normal model fair?</td><td>Using z-scores on data that is skewed or has two humps</td><td>What does the histogram look like?</td></tr><tr><td>Correlation or cause?</td><td>Reading a high r as proof that one variable drives the other</td><td>Could a third variable move both?</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Words carry the maths</h3><p>In MDM4U, &ldquo;at least&rdquo;, &ldquo;given that&rdquo; and &ldquo;without replacement&rdquo; each change the method. We have students underline them before writing a single number.</p></div><div><h3>Tables beat formulas early</h3><p>A tree diagram or a two-way table makes conditional probability visible. Formulas come after the picture makes sense, not before.</p></div><div><h3>Interpretation earns marks</h3><p>A correlation of 0.97 is a number. Saying what it does and does not show is the answer the marker is looking for.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="worked">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked problems, ours</p><h2>Two probability problems, solved with the reasoning shown</h2><p class="ag-lede">We wrote both problems for this page at MDM4U test level, one on counting and one on distributions. The point of each is the choice of method. Every probability was checked by computer.</p></div>
+    <p><b>Problem 1, counting and probability.</b> A math club has 7 Grade 11 students and 5 Grade 12 students. A team of 4 is chosen at random. (a) What is the probability the team includes at least one Grade 12 student? (b) What is the probability it has exactly two of each grade?</p>
+    <ol class="ag-steps"><li><b>Decide whether order matters.</b> A team is a group, not a line-up: swapping two members gives the same team. So count with combinations.</li><li><b>Count the whole sample space.</b> Choosing 4 from 12 gives C(12, 4) = 495 equally likely teams.</li><li><b>For (a), use the complement.</b> &ldquo;At least one&rdquo; would mean adding four cases. Its opposite, &ldquo;no Grade 12 student&rdquo;, is one case: all 4 from the 7 Grade 11s, C(7, 4) = 35 ways. So P(at least one) = 1 &minus; 35/495 = 460/495 = 92/99, about 0.929.</li><li><b>For (b), multiply the choices.</b> Choose 2 of the 7 Grade 11s, C(7, 2) = 21, and 2 of the 5 Grade 12s, C(5, 2) = 10. That is 21 &times; 10 = 210 teams, so P = 210/495 = 14/33, about 0.424.</li><li><b>Name the distribution.</b> The number of Grade 12 students on the team follows a hypergeometric distribution: each choice is made without replacement, so the trials are dependent. Its probabilities for 0 to 4 Grade 12 students are 7/99, 35/99, 14/33, 14/99 and 1/99, and the expected number is 5/3.</li><li><b>Check the total.</b> The five probabilities add to 1, and 5/3 is 4 &times; 5/12: the team size times the Grade 12 share of the club. Both checks pass.</li></ol>
+    <p class="ag-mt-40"><b>Problem 2, binomial and normal.</b> A student guesses every answer on a 20-question multiple-choice quiz with four options per question. What is the probability of 8 or more correct? Compare the exact binomial answer with a normal approximation.</p>
+    <ol class="ag-steps"><li><b>Check the binomial conditions.</b> 20 trials, each a success or not, a constant probability of 1/4, and guesses that do not affect each other. All four hold, so X, the number correct, is binomial with n = 20 and p = 0.25.</li><li><b>Find the centre and spread.</b> The expected value is np = 5. The standard deviation is the square root of np(1 &minus; p) = 3.75, about 1.94.</li><li><b>Compute the exact answer.</b> Add P(X = k) = C(20, k)(0.25)<sup>k</sup>(0.75)<sup>20 &minus; k</sup> for k = 8 to 20. With technology the total is about 0.1018: roughly one guesser in ten scores 8 or more.</li><li><b>Approximate with the normal curve.</b> np = 5 and n(1 &minus; p) = 15 are both at least 5, so a normal model is reasonable but only just. Because the binomial is discrete, &ldquo;8 or more&rdquo; starts at 7.5 on a continuous scale: z = (7.5 &minus; 5)/1.94, about 1.29, giving about 0.098.</li><li><b>Compare and explain.</b> 0.098 against 0.102: close. Without the continuity correction, z = (8 &minus; 5)/1.94, about 1.55, gives about 0.061, which is far off. The half-unit shift is what makes the approximation work.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Three answers to the same question (ours; computed with Python and SymPy)</caption><thead><tr><th scope="col">Method</th><th scope="col">Calculation</th><th scope="col">P(8 or more correct)</th></tr></thead><tbody><tr><td>Exact binomial</td><td>Sum of C(20, k)(0.25)<sup>k</sup>(0.75)<sup>20 &minus; k</sup>, k = 8 to 20</td><td class="ag-num">0.1018</td></tr><tr><td>Normal, with continuity correction</td><td>P(Z &ge; 1.29)</td><td class="ag-num">0.0984</td></tr><tr><td>Normal, without correction</td><td>P(Z &ge; 1.55)</td><td class="ag-num">0.0607</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Python investigation, ours</p><h2>A mini investigation with real data: Toronto&rsquo;s daily temperatures in 2025</h2><p class="ag-lede">This short investigation is ours, and it uses the same steps as a culminating investigation: a question, a reliable secondary source, cleaning, one-variable and two-variable analysis, and honest conclusions. The data is Environment and Climate Change Canada&rsquo;s daily record for the Toronto City station, which anyone can download free.</p></div>
+    <p><b>The questions.</b> (1) What did a typical daily high look like in Toronto in 2025, and does a normal model describe the year? (2) Does a single month fit the normal model better? (3) How well does a day&rsquo;s high temperature predict its low?</p>
+    <ol class="ag-steps"><li><b>Get the data.</b> On ECCC&rsquo;s historical data page, search for the station TORONTO CITY (climate ID 6158355), choose daily data for 2025, and download the CSV. Save it next to the script as toronto-city-31688-2025-daily.csv.</li><li><b>Read before you compute.</b> The file has 365 rows, one per day. Six days have no high or low recorded, marked with the flag M. A real investigation reports this instead of hiding it.</li><li><b>Clean in one line, on purpose.</b> The script keeps only days with both a high and a low, which leaves 359. Deleting rows is a decision, so the report must say how many and why.</li><li><b>Run the script.</b> It uses only Python&rsquo;s standard library, so nothing needs installing. The code and its real output are below.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; toronto_2025.py (ours)</b><span>python</span></figcaption><pre># MDM4U mini investigation (ours): Toronto City daily temperatures, 2025.
+# Data Source: Environment and Climate Change Canada (station TORONTO CITY, climate ID 6158355).
+import csv
+import statistics as st
+
+with open("toronto-city-31688-2025-daily.csv", encoding="utf-8-sig") as f:
+    rows = list(csv.DictReader(f))
+
+def col(name):                      # header text starts "Max Temp (" etc.
+    return next(k for k in rows[0] if k.startswith(name))
+
+MAX, MIN = col("Max Temp ("), col("Min Temp (")
+days = [r for r in rows if r[MAX] != "" and r[MIN] != ""]   # drop missing (flag M)
+highs = [float(r[MAX]) for r in days]
+lows = [float(r[MIN]) for r in days]
+print("days in file:", len(rows), " usable:", len(days))
+
+# 1. One variable: the daily high
+q1, q2, q3 = st.quantiles(highs, n=4, method="inclusive")
+mean, sd = st.mean(highs), st.stdev(highs)
+print(f"high: mean {mean:.1f}, median {q2:.1f}, sd {sd:.1f}")
+print(f"quartiles {q1:.1f} / {q3:.1f}, IQR {q3 - q1:.1f}")
+print(f"lowest high {min(highs):.1f}, highest high {max(highs):.1f}")
+for k in (1, 2):
+    share = sum(1 for h in highs if abs(h - mean) &lt;= k * sd) / len(highs)
+    print(f"within {k} sd of the mean: {share:.1%}")
+
+for lo in range(-10, 40, 10):       # a text histogram, 10-degree bins
+    n = sum(1 for h in highs if lo &lt;= h &lt; lo + 10)
+    print(f"{lo:&gt;4} to {lo + 10:&lt;3} {n:&gt;3} " + "#" * (n // 4))
+
+# 2. One month: is July closer to normal?
+july = [float(r[MAX]) for r in days if r["Month"] == "07"]
+jm, js = st.mean(july), st.stdev(july)
+j1 = sum(1 for h in july if abs(h - jm) &lt;= js) / len(july)
+j2 = sum(1 for h in july if abs(h - jm) &lt;= 2 * js) / len(july)
+print(f"July: n {len(july)}, mean {jm:.1f}, sd {js:.1f}, within 1 sd {j1:.1%}, within 2 sd {j2:.1%}")
+print(f"hottest July day {max(july):.1f}, z = {(max(july) - jm) / js:.2f}")
+for m in ("01", "04", "07", "10"):  # how spread out is each season?
+    x = [float(r[MAX]) for r in days if r["Month"] == m]
+    print(f"month {m}: mean {st.mean(x):5.1f}, sd {st.stdev(x):.1f}")
+
+# 3. Two variables: does the high predict the low?
+r = st.correlation(highs, lows)
+slope, intercept = st.linear_regression(highs, lows)
+print(f"r = {r:.3f}, r squared = {r * r:.3f}")
+print(f"low = {slope:.3f} x high + ({intercept:.2f})")
+print(f"predicted low on a 25.0 degree day: {slope * 25 + intercept:.1f}")</pre><p class="ag-code-note">Written and run with Python 3.13. The statistics module&rsquo;s stdev is the sample standard deviation, often written s. Quartiles use the inclusive method; a spreadsheet or Fathom may give slightly different quartiles, and a report should name the method used.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output of the run (ours)</b><span>text</span></figcaption><pre>days in file: 365  usable: 359
+high: mean 13.8, median 13.7, sd 11.3
+quartiles 3.9 / 23.8, IQR 19.9
+lowest high -9.8, highest high 36.5
+within 1 sd of the mean: 58.8%
+within 2 sd of the mean: 99.4%
+ -10 to 0    47 ###########
+   0 to 10   96 ########################
+  10 to 20   77 ###################
+  20 to 30  115 ############################
+  30 to 40   24 ######
+July: n 31, mean 29.2, sd 2.9, within 1 sd 58.1%, within 2 sd 100.0%
+hottest July day 33.3, z = 1.42
+month 01: mean  -1.1, sd 3.7
+month 04: mean  12.6, sd 6.3
+month 07: mean  29.2, sd 2.9
+month 10: mean  16.6, sd 5.5
+r = 0.968, r squared = 0.936
+low = 0.866 x high + (-6.03)
+predicted low on a 25.0 degree day: 15.6</pre></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>What the output shows, set against the empirical rule (ours, from the run above)</caption><thead><tr><th scope="col">Data set</th><th scope="col">Mean high</th><th scope="col">Standard deviation</th><th scope="col">Within 1 SD</th><th scope="col">Within 2 SD</th><th scope="col">Normal model predicts</th></tr></thead><tbody><tr><td>All of 2025, 359 days</td><td class="ag-num">13.8&deg;C</td><td class="ag-num">11.3&deg;C</td><td class="ag-num">58.8%</td><td class="ag-num">99.4%</td><td>about 68% and 95%</td></tr><tr><td>July 2025, 31 days</td><td class="ag-num">29.2&deg;C</td><td class="ag-num">2.9&deg;C</td><td class="ag-num">58.1%</td><td class="ag-num">100.0%</td><td>about 68% and 95%</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Conclusions from the one-variable analysis</h3><p>The year does not fit a normal model. Only 58.8% of days fall within one standard deviation of the mean, well short of 68%, and 99.4% fall within two. The text histogram explains why: there is one hump from 0 to 10&deg;C and another from 20 to 30&deg;C. A year is a mixture of seasons, and a mixture of two groups is flatter than a bell.</p>
+<p>The mean (13.8&deg;C) and median (13.7&deg;C) almost agree, so the data is roughly symmetric. Symmetric is not the same as normal; that is the main lesson of this step.</p></div><div><h3>One month alone</h3><p>July is narrower, with a standard deviation of only 2.9&deg;C, but 31 values is a small sample, and its shares within one and two standard deviations (58.1% and 100.0%) still do not match the bell. The hottest July day, 33.3&deg;C, has a z-score of only 1.42. A student should report that the normal model is not supported here rather than force it.</p>
+<p>The four sample months add a finding the question did not ask for: spread is largest in April (6.3&deg;C) and October (5.5&deg;C), and smallest in July (2.9&deg;C). Spring and autumn days are the least predictable.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Conclusions from the two-variable analysis</h3><p>The correlation between each day&rsquo;s high and low is r = 0.968, very strong and positive, and r squared = 0.936: about 94% of the variation in daily lows is explained by the linear model on the highs. The regression line is low = 0.866 &times; high &minus; 6.03, so a 25.0&deg;C day predicts a low of about 15.6&deg;C.</p>
+<p>The prediction is safe inside the range of the data (highs from &minus;9.8 to 36.5&deg;C in this file). Using the line for a 45&deg;C day would be extrapolation, and the report should say so.</p></div><div><h3>What the correlation does not show</h3><p>A high temperature does not cause a low temperature. Both are driven by the same things: the season, the air mass over the city, cloud cover. In MDM4U&rsquo;s language this is a common-cause relationship, and it is the sentence that turns a correct number into a full-mark interpretation.</p>
+<p>Limitations belong in the report too: one station, one year, and six missing days. A follow-up could compare several years, or a lakeside station with an inland one.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Data Source: Environment and Climate Change Canada, daily data for TORONTO CITY (climate ID 6158355), 2025, downloaded 22 October 2026 from <a class="ag-inline-link" href="https://climate.weather.gc.ca/historical_data/search_historic_data_e.html" rel="noopener" target="_blank">Environment and Climate Change Canada historical climate data</a>, used under the <a class="ag-inline-link" href="https://eccc-msc.github.io/open-data/licence/readme_en/" rel="noopener" target="_blank">ECCC Data Services End-use Licence</a> (version 2.1.1, August 2026), which allows use &ldquo;including for commercial purposes&rdquo;. The analysis, code and conclusions are ours, and nothing here suggests ECCC endorses them.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="investigation">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The culminating investigation</p><h2>Planning the MDM4U culminating investigation</h2><p class="ag-lede">Strand E asks students to &ldquo;pose a significant problem of interest&rdquo;, carry out the study, and present it. A footnote allows the work to be done &ldquo;by addressing a single problem on probability and statistics or by addressing two smaller problems, one on probability and the other on statistics.&rdquo; Schools set their own format, so start from the teacher&rsquo;s rubric. The plan below is ours.</p></div>
+    <ol class="ag-steps"><li><b>Choose a question you can answer with data you can get.</b> &ldquo;Is Toronto getting warmer?&rdquo; needs decades of data; &ldquo;How did 2025 highs differ by season?&rdquo; needs one file. Pick the second kind first, then widen it.</li><li><b>Find a source you can defend.</b> Government open data, such as ECCC or Statistics Canada, beats a random website. Note the licence and the attribution line as you download.</li><li><b>Write the plan before touching the data.</b> Name the variables, the population and the sample, and list possible sources of bias. The curriculum asks students to consider sample size and bias at this stage, not after.</li><li><b>Clean openly.</b> Record every row you remove and why. A short &ldquo;data decisions&rdquo; paragraph earns credit and protects you from questions.</li><li><b>Analyse one variable, then two.</b> Summaries and a graph for each variable; then a scatter plot, a correlation and a regression line if the question has two variables.</li><li><b>Check the model before you use it.</b> Look at the histogram before applying a normal model, and at the residuals before trusting a line.</li><li><b>Conclude, then limit.</b> State what the data shows, then what it cannot show. The curriculum asks students to &ldquo;specify any limitations of the conclusions&rdquo;.</li><li><b>Rehearse the presentation and the questions.</b> Students also &ldquo;critique the mathematical work of others in a constructive manner&rdquo;, so expect classmates to ask about your sample and your cleaning.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we help, and where we stop</h3><p>We help students choose a workable question, find a source, plan the analysis, learn the tools and check their reasoning. We read drafts and ask the questions a marker would ask.</p>
+<p>We do not write the report or run the analysis for the student. The investigation is assessed as the student&rsquo;s own work, and it is also the part of the course where they learn the most.</p></div><div><h3>Spreadsheet, Fathom or Python?</h3><p>Use whatever the teacher expects. A spreadsheet is fine for a few hundred rows; Python, as above, handles thousands and makes every step repeatable. Students who already code often find a script easier to explain than a chain of spreadsheet formulas.</p>
+<p>Whichever tool is used, the report should show the method in words. A marker cannot award credit for a number whose origin is hidden.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice, ours</p><h2>Twelve MDM4U practice questions</h2><p class="ag-lede">Our own questions, written for this page and checked with Python. They follow the strands in order. Answers with reasons come straight after.</p></div>
+    <ol class="ag-steps"><li><b>Arrangements.</b> How many different arrangements are there of the letters in TORONTO?</li><li><b>Order or not.</b> In how many ways can 3 books be chosen from 10? In how many ways can 3 of the 10 be placed in order on a shelf?</li><li><b>Mutually exclusive events.</b> Two dice are rolled. Find P(the sum is 7 or the dice show a double).</li><li><b>Complement.</b> A die is rolled 4 times. Find P(at least one six).</li><li><b>Conditional probability.</b> In a class of 30, 18 take MHF4U, 12 take MDM4U and 7 take both. A student taking MHF4U is picked at random. Find P(they also take MDM4U). Are the two events independent?</li><li><b>Expected value.</b> A game gives 10 points with probability 1/6, 2 points with probability 1/3, and 0 points otherwise. Find the expected points per game.</li><li><b>Binomial.</b> A basketball player makes 30% of three-point attempts. In 10 independent attempts, find P(exactly 3 made).</li><li><b>z-scores.</b> Test marks are normally distributed with mean 68 and standard deviation 8. Find the z-score of a 74 and the share of students below it.</li><li><b>Normal tail.</b> In the same class, what share scored above 84? Compare the table answer with the empirical rule.</li><li><b>Sampling.</b> Name the technique and one bias risk: (a) every tenth name on an alphabetical list, starting from a random one; (b) a survey link posted online that anyone can answer.</li><li><b>Correlation.</b> In our Toronto data, r = 0.968 between daily highs and lows. A classmate says warm days cause warm nights. What type of relationship is this really?</li><li><b>Centre.</b> For the data 3, 4, 4, 5, 5, 6, 40, find the mean and the median. Which better describes a typical value, and why?</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="answers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Answers, ours</p><h2>Answers, with the reason for each</h2><p class="ag-lede">Most MDM4U marks are for the method and the interpretation, so each answer gives both.</p></div>
+    <ol class="ag-steps"><li><b>420.</b> Seven letters, with T twice and O three times: 7!/(2! &times; 3!) = 5040/12 = 420. Dividing by the repeats removes arrangements that look identical.</li><li><b>120 and 720.</b> Choosing is a combination, C(10, 3) = 120. Shelving is a permutation, 10 &times; 9 &times; 8 = 720. Each choice of 3 can be ordered 3! = 6 ways, and 120 &times; 6 = 720.</li><li><b>1/3.</b> P(sum 7) = 6/36 and P(double) = 6/36. A double always has an even sum, so it can never be 7: the events are mutually exclusive and the probabilities add to 12/36.</li><li><b>About 0.518.</b> The complement is no six in four rolls, (5/6)<sup>4</sup>, about 0.482. So P(at least one) = 1 &minus; (5/6)<sup>4</sup>, about 0.518.</li><li><b>7/18, about 0.389; not independent.</b> Among the 18 MHF4U students, 7 also take MDM4U. Overall, P(MDM4U) = 12/30 = 0.4. Since 0.389 is not 0.4, knowing a student takes MHF4U slightly changes the chance, so the events are dependent, if only just.</li><li><b>7/3, about 2.33 points.</b> E = 10(1/6) + 2(1/3) + 0(1/2) = 10/6 + 4/6 = 14/6. An expected value need not be a possible outcome of one game.</li><li><b>About 0.267.</b> C(10, 3)(0.3)<sup>3</sup>(0.7)<sup>7</sup> = 120 &times; 0.027 &times; 0.0824, about 0.267. The trials are independent with a constant probability, so the binomial applies.</li><li><b>z = 0.75; about 77% scored below.</b> z = (74 &minus; 68)/8 = 0.75, and the normal table gives about 0.7734 to the left of 0.75.</li><li><b>About 2.3%.</b> 84 is two standard deviations above the mean, z = 2. The table gives about 0.0228 above it. The empirical rule says about 95% lie within two standard deviations, leaving about 2.5% in each tail: close, but rounder.</li><li><b>(a) Systematic sampling; (b) a voluntary sample.</b> In (a), bias appears if the list has a pattern every tenth name. In (b), only people who choose to answer respond, usually those with strong views: a voluntary response bias that no sample size fixes.</li><li><b>A common-cause relationship.</b> The season and the weather pattern raise or lower both the high and the low together. A strong correlation alone never shows cause; the context does.</li><li><b>Mean about 9.57, median 5; the median.</b> The single value 40 pulls the mean far above most of the data. The median ignores how extreme the outlier is, so it describes the typical value better.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="pathway">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After Grade 12</p><h2>MDM4U in university admission: recommended more often than required</h2><p class="ag-lede">MDM4U appears on admission pages in a different way from Advanced Functions or Calculus and Vectors. These listings are copied from the universities&rsquo; own pages.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How Data Management appears on some university admission pages (read 22 October 2026)</caption><thead><tr><th scope="col">Program</th><th scope="col">How MDM4U is listed</th><th scope="col">Other math on the listing</th></tr></thead><tbody><tr><td>University of Toronto Mississauga, Computer Science (TMX)</td><td>MDM4U, marked &ldquo;Recommended&rdquo;</td><td>MHF4U and MCV4U</td></tr><tr><td>University of Toronto Scarborough, Psychology (TPS, TXF)</td><td>&ldquo;One Math (Calculus &amp; Vectors / Advanced Functions / Mathematics of Data Management)&rdquo;, marked Recommended</td><td>Any one of the three</td></tr><tr><td>University of Toronto Mississauga, Psychology (TMP)</td><td>Not listed</td><td>MHF4U</td></tr><tr><td>University of Waterloo, Accounting and Financial Management</td><td>A recommended course, with Principles of Financial Accounting</td><td>Advanced Functions and Calculus and Vectors, each with a 75% minimum</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What this means when choosing Grade 12 courses</h3><p>For many programs, MDM4U strengthens an application without replacing Advanced Functions or Calculus and Vectors. The same psychology program can list MDM4U as one acceptable math option on one campus and ask for Advanced Functions on another, so students should read the listing for the exact campus and program.</p>
+<p>For social science and humanities programs that use statistics, the curriculum&rsquo;s own description makes MDM4U the natural fit, and its first-year statistics courses will feel familiar.</p></div><div><h3>Taking MDM4U with the other Grade 12 courses</h3><p>Many students take MDM4U alongside MHF4U and MCV4U. The courses share little content, so the load is in the volume of work rather than overlapping ideas, and the culminating investigation needs time blocked out weeks ahead.</p>
+<p>Requirements change between cycles, so check each program&rsquo;s page in the autumn of Grade 12. We are not connected with either university.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources, read 22 October 2026: <a class="ag-inline-link" href="https://future.utoronto.ca/undergraduate-programs/computer-science/" rel="noopener" target="_blank">University of Toronto, Computer Science</a>; <a class="ag-inline-link" href="https://future.utoronto.ca/undergraduate-programs/psychology/" rel="noopener" target="_blank">University of Toronto, Psychology</a>; <a class="ag-inline-link" href="https://uwaterloo.ca/future-students/programs/accounting-and-financial-management" rel="noopener" target="_blank">University of Waterloo, Accounting and Financial Management</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="credit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Credit and timing</p><h2>MDM4U online and in summer school: we teach, the school credits</h2><p class="ag-lede">When a family searches for MDM4U online, it is worth separating two things: getting the credit, and understanding the course. We do the second.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Where the credit comes from</h3><p>An MDM4U credit is granted by the school or program that teaches and evaluates it, including a student&rsquo;s own school, a board summer program, or a private school that is permitted to grant Ontario credits. Modern Age Coders is a tutoring service; we teach alongside the course and do not grant Ontario credits.</p>
+<p>That also means we never submit work for a student or contact their school about marks. Our role is the explanation, the practice and the feedback on drafts.</p></div><div><h3>When help is most useful</h3><p>Three points in the course draw the most requests: the counting unit, where permutations and combinations first collide; the move to distributions and z-scores; and the weeks of the culminating investigation.</p>
+<p>A compressed summer MDM4U course leaves little time for the investigation. Starting the question and the data search before the course begins makes a real difference.</p></div></div>
+    <p class="ag-mt-40">We book classes in Eastern time for most of Ontario, which is UTC-4 until the clocks fall back on 1 November 2026 and UTC-5 until they spring forward on 14 March 2027. Our teachers work on India time (UTC+5:30), 9 hours 30 minutes ahead of Eastern time in summer and 10 hours 30 minutes ahead in winter. If you are in a part of northwestern Ontario on another clock, tell us your local time.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your teen is now</p>
+      <h2>Four stages in Data Management</h2>
+      <p class="ag-lede">Stages we see in our own MDM4U students. They describe reasoning, not marks.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of an MDM4U student (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it sounds like</th></tr></thead><tbody><tr><td>1. Formula hunter</td><td class="ag-num">&ldquo;Which formula is this one?&rdquo; asked before reading the question twice</td></tr><tr><td>2. Method chooser</td><td class="ag-num">Decides between permutation and combination, binomial and hypergeometric, with a reason</td></tr><tr><td>3. Model checker</td><td class="ag-num">Looks at the shape of the data before using a normal model or a line</td></tr><tr><td>4. Investigator</td><td class="ag-num">Poses a question, cleans data openly, and states what the conclusions cannot show</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask your teen to explain the difference between &ldquo;independent&rdquo; and &ldquo;mutually exclusive&rdquo; in their own words. It is a quick test of whether the probability unit has landed.</p>
+<p>Watch the calendar for the culminating investigation. It is spread over weeks, and the students who struggle are usually the ones who start late.</p></div><div><h3>For students</h3><p>Underline the words that choose the method: at least, given that, without replacement, in order.</p>
+<p>Draw the histogram before you use the normal distribution. Our Toronto data shows how often the bell does not fit.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine more courses for data-minded students</h2>
+      <p class="ag-lede">Live online with one regular teacher for each course, taught to a batch or to a single student.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Grade 12 math</h3>
+        <span class="ag-band-sub">Grades 11 and 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / G12 / 01</p>
+          <h4>Ontario Grade 12 University Math</h4>
+          <p>Advanced Functions and Calculus and Vectors, the other two Grade 12 courses.</p>
+          <a class="ag-course-link" href="/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / G12 / 02</p>
+          <h4>High school math</h4>
+          <p>Algebra and functions support across Grades 9 to 12.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / G12 / 03</p>
+          <h4>SAT Math</h4>
+          <p>Includes data analysis questions, for US applications.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data and code</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / DAT / 01</p>
+          <h4>Python for teens</h4>
+          <p>The language used in the investigation above.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / DAT / 02</p>
+          <h4>Orange data mining for teens</h4>
+          <p>Visual data analysis and machine learning without code.</p>
+          <a class="ag-course-link" href="/courses/orange-data-mining-visual-machine-learning-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / DAT / 03</p>
+          <h4>SQL for teens</h4>
+          <p>Asking questions of a database, from the first query.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>After high school</h3>
+        <span class="ag-band-sub">University and beyond</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / NXT / 01</p>
+          <h4>Data analysis</h4>
+          <p>Excel, SQL, Python and dashboards for first-year students.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / NXT / 02</p>
+          <h4>Math for data science</h4>
+          <p>Statistics and linear algebra behind machine learning.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MDMT / NXT / 03</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Where probability and data meet real models.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live classes through the semester and the investigation</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school on Eastern time, set by the batch you choose.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Eastern time mornings, handy in investigation weeks.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Booked around tests, project checkpoints and the final.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>School order</h3><p>Units taught as the class meets them.</p></div>
+      <div><h3>Method first</h3><p>The choice of method, said out loud.</p></div>
+      <div><h3>Real data sets</h3><p>Open government data, used properly.</p></div>
+      <div><h3>Draft feedback</h3><p>Questions a marker would ask.</p></div>
+      <div><h3>Your tools</h3><p>Spreadsheet, Fathom or Python.</p></div>
+      <div><h3>Group or private</h3><p>Batches of fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects by our students</h2>
+      <p class="ag-lede">Students who learn to code with us build projects like these; several started from a data question. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The first class is on us. Ongoing classes come as eight live sessions a month for a monthly fee, shown with its currency code, and you can stop at the end of any month with no term commitment.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Free first class</li><li>Bring a test or a project draft</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty per batch</li><li>A regular teacher</li><li>Batch time of your choice</li><li>Monthly payment</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A private teacher</li><li>Around tests and checkpoints</li><li>Built from the school course</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews left on Google by families and students, as they wrote them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Ontario families</p>
+      <h2>MDM4U: what families ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is MDM4U?</h3>
+        <p>MDM4U is Mathematics of Data Management, Grade 12, University Preparation, in Ontario's 2007 senior mathematics curriculum. It has five strands: counting and probability, probability distributions, organization of data for analysis, statistical analysis, and a culminating data management investigation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you grant the MDM4U credit?</h3>
+        <p>No. We teach alongside the student's school course and do not grant Ontario credits. The credit is granted by the school or program that delivers and evaluates MDM4U. We provide teaching, practice and feedback.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the prerequisite for MDM4U?</h3>
+        <p>Functions, Grade 11, University Preparation (MCR3U), or Functions and Applications, Grade 11, University/College Preparation (MCF3M). Both are printed on the MDM4U course page of the 2007 curriculum.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is MDM4U easier than MHF4U or MCV4U?</h3>
+        <p>It uses less algebra, but it is not automatically easier. The difficulty is in choosing the right method, such as permutation or combination, binomial or hypergeometric, and in interpreting results in words. The culminating investigation also takes sustained work over several weeks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the culminating investigation?</h3>
+        <p>It is the fifth strand: students pose a significant problem, gather and analyse data, draw conclusions with their limitations, write a report and present it. The curriculum allows one problem on probability and statistics or two smaller problems, one on each. Schools set the format and rubric.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you do my teen's culminating investigation?</h3>
+        <p>No. We help choose a question, find a reliable data source, plan the analysis, learn the tools and review drafts, but the work and the writing stay the student's own. That is how it is assessed, and it is where the learning happens.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do universities require MDM4U?</h3>
+        <p>Some recommend it rather than require it. On 22 October 2026, the University of Toronto Mississauga Computer Science listing marked MDM4U as recommended, and the Scarborough Psychology listing accepted it as one of three recommended math options. Always check the exact program and campus.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can MDM4U be done with Python?</h3>
+        <p>The course is about the mathematics, not a tool. Schools commonly use spreadsheets or Fathom. Python works well for a culminating investigation with a large data set, and we teach it to students who want to use it, if their teacher accepts it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes for Ontario students?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Ontario families book in Eastern time; the clocks change on 1 November 2026 and 14 March 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What do MDM4U classes cost?</h3>
+        <p>The first class is free. Then classes are paid monthly, eight live sessions a month, and you can stop after any month. The fees section of this page shows the current amount for a batch and for one-to-one lessons.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Ontario students working with data and probability.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>All our pages for Canadian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor for Canada</a></h3><p>Math tutoring through the Canadian grades.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-statistics-tutoring-online">Statistics tutoring</a></h3><p>Inference and study design, one to one.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/probability-for-beginners">Probability for beginners</a></h3><p>The ideas under strand A, from scratch.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-data-science">Python for data science</a></h3><p>The tools behind our Toronto investigation.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-ontario">Coding classes in Ontario</a></h3><p>Programming classes for Ontario students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-12th-grade">Grade 12 math tutoring</a></h3><p>Help in the final year of high school.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>How a live class with us runs.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us where your teen is in MDM4U: the current unit, the next test, or the stage of the culminating investigation. The first class starts there.</p>
+        <p class="ag-mt-40">Want to look around first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes a class, and our <a class="ag-inline-link" href="/python-for-data-science">Python for data science page</a> shows the kind of analysis used above.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20Ontario%20is%20taking%20MDM4U%20Data%20Management%20and%20would%20like%20help%2C%20including%20with%20the%20culminating%20investigation.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mdmt',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All classes are live online with teachers in India: no travel, no home visits, just a video call. Ontario families usually reach us fastest on WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_mdmt(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">There is no charge and no card for the first class.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Data and statistics</h4><ul><li><a href="/courses/statistics-probability-maths-course">Statistics and probability course</a></li><li><a href="/courses/data-science-course-for-teens-python-data">Data science for teens</a></li><li><a href="/ap-statistics-tutoring-online">Statistics tutoring</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/coding-classes-in-ontario">Coding classes in Ontario</a></li><li><a href="/online-math-tutor-canada">Math tutoring in Canada</a></li><li><a href="/python-for-data-science">Python for data science</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Look at the shape before choosing the model</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_mdmt = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'mdm4u-data-management-tutor-inline', meta: { name: name, age: age, page: 'mdm4u-data-management-tutor' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>
