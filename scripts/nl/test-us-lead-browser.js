@@ -18,7 +18,9 @@ const CASES = [
   ['US +1 415 555 0123', 'America/New_York', '+1 415 555 0123', 'sent:4155550123'],
   ['US 9 digits', 'America/New_York', '415555012', 'refused'],
   ['US starts with 1 (1415555012)', 'America/New_York', '1415555012', 'refused'],
-  ['UK visitor, UK mobile', 'Europe/London', '07700 900123', 'sent:any']
+  ['UK visitor, UK mobile', 'Europe/London', '07700 900123', 'sent:any'],
+  // The area code files a Toronto number as Canadian, so the US page's own 10-digit check stands aside.
+  ['Toronto number on a New York clock', 'America/New_York', '(416) 555-0123', 'sent:4165550123']
 ];
 
 let fails = 0;

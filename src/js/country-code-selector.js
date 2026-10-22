@@ -355,6 +355,24 @@
   // the picker to override.
   var DIAL_PREFERRED_ISO = { '1': 'US', '7': 'RU', '44': 'GB', '61': 'AU', '212': 'MA', '262': 'RE', '590': 'GP', '599': 'CW' };
 
+  // Canada and the US share +1, and the device clock is a poor witness (a
+  // Toronto laptop set to New York time, a US family on a Canadian VPN). The
+  // area code is not: these are Canada's, from the CNAC CO Code Status files
+  // (2025-26) plus 600 (Canadian non-geographic) and 273 (Quebec overlay from
+  // 27 February 2027). 242 is the Bahamas, which people often type as a +1
+  // number. Anything else on +1 is filed as the US.
+  var CA_AREA_CODES = ' 204 226 236 249 250 257 263 273 289 306 343 354 365 367 368 382 403 416 418 428 431 437 438 450 468 474 506 514 519 548 579 581 584 587 600 604 613 639 647 672 683 705 709 742 753 778 780 782 807 819 825 867 873 879 902 905 942 ';
+
+  /** 'CA', 'US' or 'BS' for a +1 national number (a leading 1 is ignored); null under 3 digits. */
+  function nanpCountry(value) {
+    var d = String(value == null ? '' : value).replace(/\D/g, '');
+    if (d.length === 11 && d.charAt(0) === '1') d = d.slice(1);
+    if (d.length < 3) return null;
+    var area = d.slice(0, 3);
+    if (area === '242') return 'BS';
+    return CA_AREA_CODES.indexOf(' ' + area + ' ') !== -1 ? 'CA' : 'US';
+  }
+
   // Detect a country from a freshly typed / pasted phone value beginning with
   // "+". Tries the longest possible dial-code prefix first so "+1284" resolves
   // to British Virgin Islands rather than USA. Returns null when no prefix
@@ -1103,6 +1121,16 @@
     }
     input.addEventListener('input', autoDetectFromInput);
 
+    // On +1, the area code decides between Canada and the US as soon as it is
+    // typed, so the flag, the hidden country fields and the lead all agree.
+    function areaCodeCountry() {
+      var iso = input.dataset.countryIso;
+      if (iso !== 'US' && iso !== 'CA') return;
+      var n = nanpCountry(input.value);
+      if ((n === 'US' || n === 'CA') && n !== iso) applyCountry(input, btn, getCountryByIso(n), hidden, 'areacode');
+    }
+    input.addEventListener('input', areaCodeCountry);
+
     /**
      * PASTING A WHOLE INTERNATIONAL NUMBER
      *
@@ -1346,6 +1374,11 @@
    */
   function readLead(tel) {
     var country = getCountryByIso(tel.dataset.countryIso || '') || startCountry().country;
+    // A box filled without input events (script, some autofill) still gets the area-code rule.
+    if (country.iso === 'US' || country.iso === 'CA') {
+      var nanp = nanpCountry(tel.value);
+      if ((nanp === 'US' || nanp === 'CA') && nanp !== country.iso) country = getCountryByIso(nanp) || country;
+    }
     var dial = country.dial.replace(/\D/g, '');
     var raw = digitsOf(tel.value);
     var national = raw;
@@ -1733,6 +1766,7 @@
     defaultIso: DEFAULT_ISO,
     isValidPhone: isValidPhone,
     phoneHint: phoneHint,
+    nanpCountry: nanpCountry,
     validatePhoneInput: validateInput,
     read: function (input) {
       if (!input) return { dial: DEFAULT_DIAL, iso: DEFAULT_ISO, name: 'India', digits: '', fullPhone: '' };

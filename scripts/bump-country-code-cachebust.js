@@ -30,7 +30,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Bump this whenever any of the scripts below changes behaviour.
-const VERSION = '20261021a';
+const VERSION = '20261022a';
 
 // Every script that participates in reading a phone number off a form. They
 // share a version on purpose - see "WHY THREE FILES" above.
