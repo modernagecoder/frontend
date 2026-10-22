@@ -27,3 +27,11 @@ Owner's promise, to carry on every page in its own words and to show rather than
 - One quotable table built from the primary source (with the source named under it) and numbered steps where there is a process.
 - Sentences that can be lifted alone and stay true: each names its source and year.
 - An original worked example, real code that runs, or an original practice set, labelled ours.
+
+## Group protocol (Plan 2 writer groups)
+- Your rows come as `row|slug|cluster|pageType|code|accent|searches`. Use the allocated `code` and `accent` exactly (`accentRationale` names the hex). `cluster` ag means `cluster: 'ag'`, `pageType: 'market'`; cg means no cluster field, `pageType: 'city'`.
+- Write your rows in the order given. After each, run its dry run; fix until it passes; then start the next. Never leave a half-written module: if you must stop, delete it and report it unfinished.
+- Do not reuse sentences between your own pages either; each page needs its own spine, its own worked example and its own FAQ wording.
+- Pages already live that you must not repeat (read before writing a sibling): `ics3u-computer-science-help`, `ccc-junior-guide`, `coding-and-ai-classes-in-toronto`, `canadian-computing-competition-ccc-prep`, `cemc-waterloo-contests-preparation`, `online-math-tutor-canada`, `coding-classes-in-ontario`, `coding-classes-in-british-columbia`, `coding-classes-in-alberta`, `coding-classes-in-canada`, `ai-and-machine-learning-classes-in-canada`.
+- Course slugs already live: `ics3u-ics4u-computer-science-companion-course` (C1), `ccc-junior-and-senior-preparation-course` (C3). Being created now (use where relevant; if the catalogue lookup fails, keep it in picks, finish the rest, re-run the dry run at the end and report): `waterloo-math-contests-gauss-to-euclid-course` (C2), `ontario-grade-12-university-math-mhf4u-mcv4u-course` (C4), `western-canada-grade-12-math-pre-calculus-12-math-30-1-course` (C5).
+- Final report per row: slug, visible words, dry-run result, main sources, SKIP reasons.

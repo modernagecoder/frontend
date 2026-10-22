@@ -194,3 +194,4 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 - Plan B (CAD region): owner to confirm Razorpay CAD is enabled; other CAD figures (six-month, Gemini 1-on-1, camp, Priority Demo); Canadian time zone vs Indian browser language.
 - Phase 0b: coding-classes-in-canada has a section naming Canadian schools students came from (rule: never name individual schools); review in Phase 0b.
 - md twins print USD fees (renderer md path); Plan B switches Canada twins when CAD goes live.
+- Rows 82, 83, 84 (cost pages) wait for Plan B: their market prices are in CAD and Canada pages are currency-neutral until the CAD region is live (Plan 2 default).
