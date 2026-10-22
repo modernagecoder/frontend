@@ -502,6 +502,7 @@ const SLUGS = [
   'mth1w-grade-9-math-explained',
   'eqao-grade-3-math-practice',
   'eqao-grade-6-math-practice',
+  'eqao-grade-9-math-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1083,6 +1084,7 @@ const LLMS_LABELS = {
   'mth1w-grade-9-math-explained': 'MTH1W Grade 9 math explained',
   'eqao-grade-3-math-practice': 'EQAO Grade 3 math practice',
   'eqao-grade-6-math-practice': 'EQAO Grade 6 math practice',
+  'eqao-grade-9-math-practice': 'EQAO Grade 9 math practice',
 };
 
 function wireLlms(slugs) {

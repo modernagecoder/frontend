@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [EQAO Grade 9 math practice](/eqao-grade-9-math-practice)
 - [EQAO Grade 6 math practice](/eqao-grade-6-math-practice)
 - [EQAO Grade 3 math practice](/eqao-grade-3-math-practice)
 - [MTH1W Grade 9 math explained](/mth1w-grade-9-math-explained)

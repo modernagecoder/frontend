@@ -7666,4 +7666,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /eqao-grade-6-math-practice /src/pages/eqao-grade-6-math-practice.html 200
 /eqao-grade-6-math-practice.md /src/pages/eqao-grade-6-math-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/eqao-grade-9-math-practice /src/pages/eqao-grade-9-math-practice.html 200
+/eqao-grade-9-math-practice.md /src/pages/eqao-grade-9-math-practice.md 200
 /* /src/pages/404.html 404
