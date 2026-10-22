@@ -410,7 +410,7 @@ ${PROJECTS.map(p => `      <article class="ag-proj">
       <div class="ag-price ag-price--feature">
         <p class="ag-price-name">Group batch</p>
         ${neutralFee(page) ? `<p class="ag-price-amt">${feeAnchor(page, 'group')}</p>
-        <p class="ag-price-alt">a month, shown in your currency</p>` : `<p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, eight live classes</p>` : `<p class="ag-price-amt">USD 100</p>
         <p class="ag-price-alt">a month, billed in US dollars</p>`}
         <ul>${page.fees.group.map(x => `<li>${x}</li>`).join('')}</ul>
         <a href="#start" class="ag-btn">Start here</a>
@@ -418,7 +418,7 @@ ${PROJECTS.map(p => `      <article class="ag-proj">
       <div class="ag-price">
         <p class="ag-price-name">One to one</p>
         ${neutralFee(page) ? `<p class="ag-price-amt">${feeAnchor(page, 'personal')}</p>
-        <p class="ag-price-alt">a month, shown in your currency</p>` : `<p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, eight live classes</p>` : `<p class="ag-price-amt">USD 150</p>
         <p class="ag-price-alt">a month, billed in US dollars</p>`}
         <ul>${page.fees.one.map(x => `<li>${x}</li>`).join('')}</ul>
         <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
