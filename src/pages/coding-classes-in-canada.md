@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Modern Age Coders vs Oxford Learning](/modern-age-coders-vs-oxford-learning)
 - [Modern Age Coders vs BrightCHAMPS](/modern-age-coders-vs-brightchamps)
 - [Modern Age Coders vs Spirit of Math](/modern-age-coders-vs-spirit-of-math)
 - [Modern Age Coders vs Code Ninjas](/modern-age-coders-vs-code-ninjas)
