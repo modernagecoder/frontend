@@ -527,6 +527,7 @@ const SLUGS = [
   'ubc-computer-science-admission-requirements',
   'computer-programming-11-and-12-bc',
   'calculus-12-tutor-bc',
+  'modern-age-coders-vs-code-ninjas',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1133,6 +1134,7 @@ const LLMS_LABELS = {
   'ubc-computer-science-admission-requirements': 'UBC computer science admission requirements',
   'computer-programming-11-and-12-bc': 'Computer Programming 11 and 12 BC',
   'calculus-12-tutor-bc': 'Calculus 12 tutor, BC',
+  'modern-age-coders-vs-code-ninjas': 'Modern Age Coders vs Code Ninjas',
 };
 
 function wireLlms(slugs) {
