@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding classes in the Northwest Territories](/coding-classes-in-northwest-territories)
 - [Coding classes in Newfoundland and Labrador](/coding-classes-in-newfoundland-and-labrador)
 - [Coding classes for kids in Scarborough](/coding-classes-for-kids-in-scarborough-toronto)
 - [AI and Python classes for teens in Waterloo](/ai-and-python-classes-for-teens-in-waterloo-ontario)

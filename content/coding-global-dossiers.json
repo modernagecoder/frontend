@@ -54707,5 +54707,72 @@
       "Names of schools, districts results or private people: not used.",
       "Any affiliation with the Department of Education and Early Childhood Development, CDLI, Natural Resources Canada, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-in-northwest-territories": {
+    "market": "Northwest Territories",
+    "bodyClass": "cg-nt",
+    "pageType": "city",
+    "curriculumAuthority": "Northwest Territories, read raw on 22 October 2026 from ece.gov.nt.ca (Department of Education, Culture and Employment): JK-12 Curriculum Renewal page (2026-27 implementation by grade band, 2027-28 final year, last Alberta Grade 12 Diploma Exams June 2026, proficiency scale for Grades 1 to 9, percentage grades in high school, 2019 research against 34 priorities, Career and Education Advisors); timeline PDF updated May 2025 (Alberta Education licence expires 31 August 2026); NWT Graduation Program Implementation Guide updated January 2026 (ADST replaces CTS, 4-credit system, 80 credits, three graduation assessments with up to three opportunities and no pass requirement, Appendix A course codes for Computer Studies 10, Web Development 10, Electronics and Robotics 10, Computer Information Systems 11, Computer Programming 11 and 12, Robotics 11 and 12, Industrial Coding and Design 12, Computer Science 11 and 12); Graduation Requirements page. CEMC 2026-27 dates and rules; IANA tzdb 2026e (NWT UTC-6 all year); area code 867 (CNAC via the Internet Archive); NWT Official Languages Act s.4 (Internet Archive copy).",
+    "localProject": "Environment and Climate Change Canada daily climate data for six NWT airport stations (INUVIK A, NORMAN WELLS A, FORT SIMPSON A, YELLOWKNIFE A, HAY RIVER A, FORT SMITH A), calendar year 2025, CSVs downloaded 22 October 2026 under the ECCC Data Services End-use Licence and analysed with our scripts cold_runs_nwt.py, cold_runs.py and analysis.py (python -I). Six-station table: missing days 0/9/4/1/3/8, lows of -30 or colder 43/59/40/53/36/42, longest sub-zero runs 77/36/52/67/39/39 days, four of them cut off by the end of the file and the Norman Wells run ended by a missing reading on 8 December. Yellowknife detail: 365 rows; 1 missing day (23 April, flag M); 53 days with a low of -30 or colder; 158 days with a high below 0; longest run of highs below 0, 67 days from 27 January to 3 April; January split by a 2.1 high on 26 January; 51-day run from 11 November cut off at 31 December; coldest low -40.6 (5 January); warmest high 28.9 (31 July). Labelled as ours. Lesson family: runs in ordered rows, and what gaps and file edges do to a count.",
+    "requiredMentions": [
+      "MCMPR11_2 or MCMPR11_4",
+      "Industrial Coding and Design 12",
+      "Proficient is the goal for all students.",
+      "The last administration session for the Grade 12 Alberta Diploma Exams will be June 2026.",
+      "are not required to pass to graduate",
+      "34 longstanding NWT education priorities",
+      "67 days, 27 January to 3 April",
+      "a single day on 26 January with a high of 2.1",
+      "51 days, 11 November to 31 December",
+      "77 days, 16 October to 31 December",
+      "A missing reading on 8 December",
+      "Yellowknife shares a clock with Calgary and Regina all year"
+    ],
+    "sources": [
+      {
+        "claim": "ECE JK-12 Curriculum Renewal: timeline by school year, assessments, proficiency scale, Indigenous knowledge and local courses.",
+        "url": "https://www.ece.gov.nt.ca/en/services/jk-12-school-curriculum/jk-12-curriculum-renewal"
+      },
+      {
+        "claim": "ECE JK-12 Curriculum Renewal implementation timeline PDF (updated May 2025).",
+        "url": "https://www.ece.gov.nt.ca/sites/ece/files/2025-05_-_timeline_-_curriculum_renewal.pdf"
+      },
+      {
+        "claim": "NWT Graduation Program Implementation Guide, Grades 10 to 12 (updated January 2026): course list and codes, credit system, graduation assessments.",
+        "url": "https://www.ece.gov.nt.ca/sites/ece/files/resources/nwt_graduation_program_implementation_guide_1.pdf"
+      },
+      {
+        "claim": "ECE Graduation Requirements: 80 credits, required courses, 16 credits at Grade 12.",
+        "url": "https://www.ece.gov.nt.ca/en/services/jk-12-school-curriculum/graduation-requirements"
+      },
+      {
+        "claim": "CEMC: 2026-27 contest dates, school-only participation, CCC languages and the Python caveat, BCC needing no coding.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Environment and Climate Change Canada historical climate data (daily data for INUVIK A, NORMAN WELLS A, FORT SIMPSON A, YELLOWKNIFE A, HAY RIVER A and FORT SMITH A).",
+        "url": "https://climate.weather.gc.ca/"
+      },
+      {
+        "claim": "Environment and Climate Change Canada Data Services End-use Licence.",
+        "url": "https://eccc-msc.github.io/open-data/licence/readme_en/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: NWT year-round UTC-6 from 2026, America/Inuvik and the Yellowknife link.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any NWT or Yellowknife population figure: StatCan was not reachable live, so none is printed.",
+      "That NWT schools teach BC courses unchanged: ECE says subjects are reviewed and adapted, so the page names only courses on the NWT approved list.",
+      "That every NWT school offers every listed computing course: not stated by ECE; the page says each school decides.",
+      "That our classes earn NWT or provincial credits: refused; we do not grant provincial credits or territorial ones.",
+      "Any climate trend, comparison between years, or ranking of which community is coldest from one year of six stations: refused; the page says what the files cannot show.",
+      "Attributing the year-round UTC-6 rule to a GNWT document: the regulation PDF returned 404, so the IANA tz database is cited.",
+      "Computer Science 12 course code: the PDF table layout did not let us pair it with certainty, so no code is printed for it.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of schools, education bodies results or private people: not used.",
+      "Any affiliation with ECE, any NWT education body, the British Columbia Ministry of Education, Environment and Climate Change Canada or CEMC."
+    ]
   }
 }

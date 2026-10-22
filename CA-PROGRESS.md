@@ -265,7 +265,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 72 | game-development-classes-for-kids-canada (gdkc, #382B9E) | door | 4,415 | 1.9% vs coding-classes-for-kids-in-canada | subject door | game loops | 299854f2 |
 | 122 | ai-and-python-classes-for-teens-in-waterloo-ontario (aptw, #18665C) | city | 4,703 | 1.1% vs coding-and-ai-classes-in-toronto | teen city page | city data ML | 1668bb55 |
 | 150 | coding-classes-for-kids-in-scarborough-toronto (kst, #524925) | city | 3,907 | 4.8% vs coding-and-ai-classes-in-toronto | kids city page | city data counting | 93d4b6c2 |
-| 96 | coding-classes-in-newfoundland-and-labrador (new, #236134) | prov | 4,508 | 1% vs ai-and-python-classes-for-teens-in-waterloo-ontario | province page | place names data | (this commit) |
+| 96 | coding-classes-in-newfoundland-and-labrador (new, #236134) | prov | 4,508 | 1% vs ai-and-python-classes-for-teens-in-waterloo-ontario | province page | place names data | 535c8466 |
+| 99 | coding-classes-in-northwest-territories (nt, #4F4C85) | prov | 4,813 | 1.3% vs coding-classes-in-newfoundland-and-labrador | territory page | weather runs | (this commit) |
 
 ## Skipped
 
