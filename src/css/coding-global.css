@@ -1799,3 +1799,6 @@
 
 /* Canada cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */
 .cg-root.cg-tor  { --cg-accent: #75544C; --cg-accent-soft: rgba(117,84,76,.10); }   /* Toronto: a muted brick-clay brown, #75544C (hsv 12, .35, .46), at least 11 RGB units from every accent on the site and clear of the retired purple and cyan band; contrast 6.33 on the paper #FBF8F2 and above 4.5 on all three paper tints */
+
+/* Superscripts and subscripts in maths copy never drop below the 12px floor. */
+.cg-root sup, .cg-root sub { font-size: max(0.75rem, 0.8em); line-height: 0; }
