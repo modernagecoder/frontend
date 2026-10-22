@@ -547,7 +547,7 @@ function md(html) {
   return String(html)
     .replace(/<a [^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g, (x, h, t) => `[${t.replace(/<[^>]+>/g, '')}](${h})`)
     .replace(/<strong>([\s\S]*?)<\/strong>/g, '**$1**')
-    .replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&middot;/g, '·').replace(/&rarr;/g, '->').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ')
+    .replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&middot;/g, '·').replace(/&rarr;/g, '->').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
     .replace(/\s+/g, ' ').trim();
 }
 function mdTable(t) {
@@ -561,6 +561,9 @@ function mdBlock(b) {
     case 'source': return md(blockHtml(b));
     case 'p': return md(blockHtml(b));
     case 'capsule': return `**${md(b.q)}** ${md(b.p)}`;
+    // The twin is what AI engines read: code keeps its lines (so it still runs) and steps keep their numbers.
+    case 'code': return [`**${md(b.label)}** (${md(b.lang)})`, '```' + String(b.lang || '').toLowerCase().replace(/[^a-z0-9+#]/g, ''), String(b.code).replace(/\s+$/, ''), '```', b.note ? md(b.note) : ''].filter((x, i) => i !== 4 || x).join('\n');
+    case 'ol': return b.items.map((it, i) => `${i + 1}. ${md(it)}`).join('\n');
     default: return '';
   }
 }
