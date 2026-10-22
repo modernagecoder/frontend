@@ -229,7 +229,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 60 | ubc-computer-science-admission-requirements (ubc, #264761) | admit | 5,493 | 1.7% vs computer-science-prerequisites-canadian-universities | admissions facts | course list checks | 6fa72186 |
 | 22 | computer-programming-11-and-12-bc (cop, #47368A) | school-bc | 8,561 | 0.7% vs ubc-computer-science-admission-requirements | school course help | simulation and testing | fbc7f800 |
 | 25 | calculus-12-tutor-bc (calc, #523F2A) | school-bc | 7,119 | 1% vs ics3u-computer-science-help | school course help | numerical methods | f278ae76 |
-| 87 | modern-age-coders-vs-code-ninjas (macc, #166B34) | vs | 4,831 | 1% vs ccc-junior-guide | comparison | in-person vs live online | (this commit) |
+| 87 | modern-age-coders-vs-code-ninjas (macc, #166B34) | vs | 4,831 | 1% vs ccc-junior-guide | comparison | in-person vs live online | 2a3b3f43 |
+| 88 | modern-age-coders-vs-spirit-of-math (macs, #1B5245) | vs | 4,870 | 1.3% vs cemc-free-resources-guide | comparison | selective vs open enrolment | (this commit) |
 
 ## Skipped
 

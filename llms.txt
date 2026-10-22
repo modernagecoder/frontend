@@ -759,6 +759,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Computer Programming 11 and 12 BC: https://learn.modernagecoders.com/computer-programming-11-and-12-bc
 - Calculus 12 tutor, BC: https://learn.modernagecoders.com/calculus-12-tutor-bc
 - Modern Age Coders vs Code Ninjas: https://learn.modernagecoders.com/modern-age-coders-vs-code-ninjas
+- Modern Age Coders vs Spirit of Math: https://learn.modernagecoders.com/modern-age-coders-vs-spirit-of-math
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

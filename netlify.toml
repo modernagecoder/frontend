@@ -25689,6 +25689,18 @@
   to = "/src/pages/modern-age-coders-vs-code-ninjas.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/modern-age-coders-vs-spirit-of-math"
+  to = "/src/pages/modern-age-coders-vs-spirit-of-math.html"
+  status = 200
+
+[[redirects]]
+  from = "/modern-age-coders-vs-spirit-of-math.md"
+  to = "/src/pages/modern-age-coders-vs-spirit-of-math.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
