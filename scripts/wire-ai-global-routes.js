@@ -529,6 +529,7 @@ const SLUGS = [
   'calculus-12-tutor-bc',
   'modern-age-coders-vs-code-ninjas',
   'modern-age-coders-vs-spirit-of-math',
+  'modern-age-coders-vs-brightchamps',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1137,6 +1138,7 @@ const LLMS_LABELS = {
   'calculus-12-tutor-bc': 'Calculus 12 tutor, BC',
   'modern-age-coders-vs-code-ninjas': 'Modern Age Coders vs Code Ninjas',
   'modern-age-coders-vs-spirit-of-math': 'Modern Age Coders vs Spirit of Math',
+  'modern-age-coders-vs-brightchamps': 'Modern Age Coders vs BrightCHAMPS',
 };
 
 function wireLlms(slugs) {
