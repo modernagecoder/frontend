@@ -517,6 +517,7 @@ const SLUGS = [
   'how-to-register-for-waterloo-contests',
   'ccc-senior-guide',
   'ccc-past-problems-practice-guide',
+  'canadian-computing-olympiad-cco-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1113,6 +1114,7 @@ const LLMS_LABELS = {
   'how-to-register-for-waterloo-contests': 'How to register for Waterloo contests',
   'ccc-senior-guide': 'CCC Senior guide',
   'ccc-past-problems-practice-guide': 'CCC past problems practice guide',
+  'canadian-computing-olympiad-cco-guide': 'Canadian Computing Olympiad guide',
 };
 
 function wireLlms(slugs) {

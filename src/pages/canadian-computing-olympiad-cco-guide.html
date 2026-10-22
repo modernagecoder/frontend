@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Canadian Computing Olympiad (CCO): From CCC to the IOI</title>
+  <meta name="description" content="The Canadian Computing Olympiad from CEMC's pages: how about 20 CCC Senior writers are invited, why C++ is required, and how Canada's IOI team is chosen.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide">
+  <link rel="alternate" type="text/markdown" href="/src/pages/canadian-computing-olympiad-cco-guide.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#121B7A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide">
+  <meta property="og:title" content="Canadian Computing Olympiad (CCO): From CCC to the IOI">
+  <meta property="og:description" content="How Canada picks its informatics olympiad team: CCC Senior, then an invitation to the Canadian Computing Olympiad at Waterloo, then the IOI. CEMC's rules, the 2026 IOI result, and an original IOI-style task.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Canadian Computing Olympiad (CCO): From CCC to the IOI">
+  <meta name="twitter:description" content="The CCO explained from CEMC's pages: the CCC Senior to CCO to IOI path, with an original subtask problem.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ccoc .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-ccoc .ag-capsule { border-left-width: 4px; border-radius: 1px; }
+.ag-root.ag-ccoc .ag-section-head h2 { max-width: 35ch; }
+.ag-root.ag-ccoc .ag-table caption { text-align: left; font-weight: 600; letter-spacing: 0.005em; }
+.ag-root.ag-ccoc .ag-band-head h3 { letter-spacing: -0.01em; }
+.ag-root.ag-ccoc .ag-slots { gap: 1.35rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide#page","url":"https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide","name":"Canadian Computing Olympiad Guide","description":"A guide for Canadian students and parents to the Canadian Computing Olympiad and the route from the Canadian Computing Competition to the International Olympiad in Informatics, built from CEMC's pages.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"Canadian Computing Olympiad guide","item":"https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide"}]},{"@type":"Course","name":"Canadian Computing Olympiad Guide","description":"Live online algorithm training in C++ for strong Canadian programmers aiming at CCC Senior and the Canadian Computing Olympiad, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Canadian Computing Olympiad?","acceptedAnswer":{"@type":"Answer","text":"It is an invitation-only week run by CEMC at the University of Waterloo each spring, with workshops, a contest and other activities. CEMC also uses it to select Canada's team for the International Olympiad in Informatics."}},{"@type":"Question","name":"How does a student qualify for the CCO?","acceptedAnswer":{"@type":"Answer","text":"Through the Senior paper of the Canadian Computing Competition. CEMC invites about 20 of the top official CCC Senior participants from schools in Canada, and may also invite outstanding participants such as Canadian citizens or permanent residents at school abroad. Selection is at CEMC's discretion."}},{"@type":"Question","name":"Can a student apply to the CCO directly?","acceptedAnswer":{"@type":"Answer","text":"No. CEMC lists no application. Invitations come from CCC Senior results, and only official participants are eligible, which for a school in Canada means born on or after 1 July 2007 and living in Canada."}},{"@type":"Question","name":"What programming language is used at the CCO?","acceptedAnswer":{"@type":"Answer","text":"C++ only. CEMC says CCO participants must use C++, even though the CCC itself also accepts C, Python and Java. Students hoping for an invitation should switch to C++ before writing CCC Senior."}},{"@type":"Question","name":"How is Canada's IOI team chosen?","acceptedAnswer":{"@type":"Answer","text":"CEMC says Canada's IOI entry is determined by performance on the Canadian Computing Competition, and that top scorers on the CCO contest are then selected for the team. CEMC trains the team and leads the delegation."}},{"@type":"Question","name":"How did Canada do at IOI 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC reports that the team returned from Tashkent, Uzbekistan with four medals in 2026, two silver and two bronze."}},{"@type":"Question","name":"Does my child need to screen-record the CCC to be invited?","acceptedAnswer":{"@type":"Answer","text":"It is not required, but CEMC strongly recommends that schools record the screens of students aiming for the CCO, and keep the recordings for a month. CEMC adds that being asked for one does not guarantee an invitation."}},{"@type":"Question","name":"When is the 2027 CCO?","acceptedAnswer":{"@type":"Answer","text":"CEMC says the CCO is held at the University of Waterloo each spring, but it had not posted a 2027 date when we checked on 22 October 2026. The CCC Senior paper that leads to it is on 17 February 2027."}},{"@type":"Question","name":"Can Modern Age Coders get my child into the CCO?","acceptedAnswer":{"@type":"Answer","text":"No. Invitations are decided by CEMC from CCC results, at its discretion, and we are not connected with CEMC. We teach the algorithms and C++ that strong Senior writers need."}},{"@type":"Question","name":"When are your olympiad-track classes for Canadian families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are agreed in Eastern time and converted to your province."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-ccoc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#path">The path</a></li>
+      <li><a href="#cco">The CCO</a></li>
+      <li><a href="#ioi">The IOI</a></li>
+      <li><a href="#cpp">C++ only</a></li>
+      <li><a href="#subtasks">A subtask task</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / Canadian Computing Olympiad guide
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Informatics olympiad &middot; CCC Senior, CCO, IOI</p>
+        <h1>The Canadian Computing Olympiad: the road from CCC Senior to the IOI</h1>
+        <p class="ag-lede">Canada does not hold an open informatics olympiad that students sign up for. Its olympiad is an invitation: CEMC, at the University of Waterloo, reads the results of the Canadian Computing Competition Senior paper each February, invites about twenty students to the Canadian Computing Olympiad on campus in the spring, and uses that week to choose the team that represents Canada at the International Olympiad in Informatics. This guide sets out each step in CEMC's own words, what an invited student needs to have done in February, why the CCO runs only in C++, and how IOI-style subtasks work, with a practice task we wrote and solved twice.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#path" class="ag-btn ag-btn--ghost">Follow the path</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20is%20aiming%20for%20CCC%20Senior%20and%20the%20CCO.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccoc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; facts from CEMC's pages, and no promises about invitations</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organised by</dt><dd>CEMC at Waterloo</dd>
+          <dt>Entry</dt><dd>Invitation, from CCC Senior</dd>
+          <dt>Invited</dt><dd>About 20 a year</dd>
+          <dt>Where</dt><dd>University of Waterloo, each spring</dd>
+          <dt>Format</dt><dd>A week: workshops and a contest</dd>
+          <dt>Language</dt><dd>C++ only</dd>
+          <dt>Leads to</dt><dd>Canada's IOI team</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The Canadian Computing Olympiad (CCO) is CEMC's invitation-only week at the University of Waterloo each spring, for about 20 top official CCC Senior writers from schools in Canada; it is written in C++ and used to select Canada's IOI team. Modern Age Coders prepares strong programmers for that road in small live online groups or privately, through its CCC Junior and Senior Preparation course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Prepare with a teacher</p>
+      <h2>Courses for the olympiad road</h2>
+      <p class="ag-lede">Every invitation is earned on the CCC Senior paper, so that comes first. The other two build the C++ and the algorithms the olympiad level expects.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ccc-junior-and-senior-preparation-course">
+        <div class="ag-pick-shot"><img src="/images/ccc-junior-senior-prep.webp" alt="CCC Junior and Senior Preparation (Canadian Computing Competition) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCO / 01</p>
+          <h3>CCC Junior and Senior Preparation</h3>
+          <p>The Senior track, aimed at the February 2027 paper that every CCO invitation is drawn from.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCO / 02</p>
+          <h3>Competitive programming for teens</h3>
+          <p>Advanced algorithms and data structures for students already solving Senior problems 3 and 4.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cpp-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/cpp-teens.webp" alt="C++ for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCO / 03</p>
+          <h3>C++ for teens</h3>
+          <p>C++ from the ground up, with the STL, for students who must leave Python behind.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="path">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The path</p><h2>CCC Senior, then the CCO, then the IOI: the three steps</h2><p class="ag-lede">There is one road, and CEMC controls each stage of it. The table follows a student along it, using CEMC's wording from its CCC page, its IOI page and its 2026 IOI news story, all read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From the CCC to the IOI, in CEMC's words (read 22 October 2026)</caption><thead><tr><th scope="col">Stage</th><th scope="col">When</th><th scope="col">What CEMC says</th></tr></thead><tbody><tr><td>1. CCC Senior</td><td>Wednesday 17 February 2027 (the Americas)</td><td>Written at school. CEMC's top Senior question is an "IOI level question".</td></tr><tr><td>2. Official status</td><td>Checked on the results</td><td>Only official participants "are eligible to be invited to the Canadian Computing Olympiad (CCO)". For a writer at a Canadian school, CEMC means someone born no earlier than 1 July 2007 who lives in Canada.</td></tr><tr><td>3. Invitation</td><td>After the CCC results</td><td>"Approximately 20 of the top official CCC Senior participants from schools in Canada are invited to the CCO at the University of Waterloo each spring."</td></tr><tr><td>4. The CCO</td><td>Spring, at Waterloo</td><td>"a week-long learning experience featuring workshops, a contest and other extracurricular activities"</td></tr><tr><td>5. Team selection</td><td>At the CCO</td><td>"Top scorers on this contest at the CCO are then selected to represent team Canada at the IOI."</td></tr><tr><td>6. The IOI</td><td>Later in the year, abroad</td><td>Hosted "by a different country each year"; CEMC "trains the selected students for the IOI and leads the delegation at the event."</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/ccc" rel="noopener" target="_blank">CEMC, Canadian Computing Competition and CCO</a>; <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/ccc/ioi" rel="noopener" target="_blank">CEMC, Canada at the IOI</a>; <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/team-canada-brought-back-four-medals-ioi-2026" rel="noopener" target="_blank">CEMC news on IOI 2026</a>. All read 22 October 2026. We have no link with CEMC, the University of Waterloo or the IOI.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Who decides at each step</h3><p>CEMC states it directly: "The selection of CCO participants and the Canadian IOI team members is at the discretion of the CEMC." CEMC lists no application form and no essay: the invitation follows from results.</p>
+<p>CEMC also leaves room beyond its main rule: "Outstanding participants, including those who are Canadian citizens or permanent residents attending school outside of Canada, may also be invited."</p></div><div><h3>The search term that confuses people</h3><p>Many families search for a "Canadian informatics olympiad". The olympiad CEMC runs for Canadian school students is called the Canadian Computing Olympiad, and the national contest that feeds it is the Canadian Computing Competition.</p>
+<p>The International Olympiad in Informatics is the world level. CEMC calls it "one of the most recognized computer science competitions in the world".</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="cco">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The CCO</p><h2>What the CCO is, and what invited students should know</h2><p class="ag-lede">The CCO is not just a contest. CEMC describes a week on campus with teaching as well as competing, and its CCC page sets out what invited students may receive. Every point below is CEMC's; the right-hand notes are ours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Canadian Computing Olympiad, from CEMC's CCC page (read 22 October 2026), with our notes</caption><thead><tr><th scope="col">Point</th><th scope="col">What CEMC says</th><th scope="col">Our note</th></tr></thead><tbody><tr><td>Format</td><td>A week of workshops, a contest and other extracurricular activities</td><td>Invited students learn as well as compete, so the week itself is training</td></tr><tr><td>Invitation-only</td><td>"This invitation-only event is also used to select Canada's teams for the International Olympiad in Informatics (IOI)"</td><td>No route in except a strong official CCC Senior result, or CEMC's discretion</td></tr><tr><td>Where and when</td><td>At the University of Waterloo, each spring</td><td>CEMC had not posted a 2027 CCO date when we checked</td></tr><tr><td>Language</td><td>"CCO participants must use C++."</td><td>Switch well before February, not after an invitation</td></tr><tr><td>Plaques</td><td>"Some CCO participants may receive a plaque for gold, silver or bronze standing based on their results in both the CCC and CCO competitions."</td><td>The CCC result still counts at the CCO</td></tr><tr><td>Prizes</td><td>CEMC lists a cash prize for each silver and each gold medallist</td><td>Awarded at CEMC's discretion</td></tr><tr><td>Past papers</td><td>The CCO is among the contests in CEMC's past contests filter</td><td>Useful for students already strong at Senior level</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Screen recording on CCC day</h3><p>CEMC asks something specific of the schools of students hoping for an invitation. For "participants aiming to be invited to the Canadian Computing Olympiad (CCO)", it says "we strongly recommend that Contest Supervisors arrange to record their screen for the entire duration of the competition".</p>
+<p>The school keeps the recording, not CEMC, "for a month after the contest", because students being considered may be asked for it before formal invitations go out.</p></div><div><h3>What a recording does and does not do</h3><p>CEMC is careful on both sides of this. It says that "being asked to provide a screen recording does not guarantee an invitation, and without a screen recording, evidence of broken rules is more likely to lead to disqualification."</p>
+<p>Our advice to a CCO hopeful: ask the CCC supervisor in January whether the school can record, and practise one mock paper with recording running so it is routine on the day.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ioi">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The IOI</p><h2>The International Olympiad in Informatics, and Canada's place in it</h2><p class="ag-lede">The IOI is the end of the road. CEMC's pages describe what it tests and how Canada enters; its news story on 2026 gives the latest result. We give medal counts but not names.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The IOI and Canada, from CEMC's IOI page and 2026 news story (read 22 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What CEMC says</th></tr></thead><tbody><tr><td>What the IOI tests</td><td>"The competition tasks are algorithmic; however, the contestants must show basic IT skills like problem analysis, design of algorithms and data structures, programming and testing."</td></tr><tr><td>How Canada enters</td><td>"Canada's entry into the annual IOI competition is determined by performance on the" Canadian Computing Competition.</td></tr><tr><td>Team size</td><td>"Each year, participating countries typically send a delegation of four contestants to compete individually"</td></tr><tr><td>Contest days</td><td>Contestants solve informatics problems "during two competition days".</td></tr><tr><td>IOI 2026</td><td>The team "returned from Tashkent, Uzbekistan with four medals": two silver and two bronze.</td></tr><tr><td>History</td><td>CEMC's table of Canada's IOI results runs back to IOI 1996.</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Put the numbers side by side and the shape of the road is clear. Thousands write the CCC each year; CEMC printed 2439 Senior contestants for 2026. About 20 reach the CCO. Four go to the IOI. That is why we talk to families about the CCO as a direction to grow in, never as a target to be promised.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="cpp">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">C++ only</p><h2>Why the CCO is C++ only, and how a Python student switches</h2><p class="ag-lede">The CCC accepts five languages; the CCO accepts one. CEMC gives the rule without a reason. The practical effect is about speed: CEMC already warns that Python or Java may not reach a perfect score at the CCC, and the CCO is harder still. The table maps the Python a CCC student already knows onto the C++ they will need. It is our teaching table.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Python to C++ for contest code (our table)</caption><thead><tr><th scope="col">In Python</th><th scope="col">In contest C++</th><th scope="col">Watch out for</th></tr></thead><tbody><tr><td>list</td><td>vector&lt;int&gt; or vector&lt;long long&gt;</td><td>Choose the element type; it will not grow into a bigger integer by itself</td></tr><tr><td>dict</td><td>map (ordered) or unordered_map (hashed)</td><td>map is slower but sorted; reading a missing key creates it</td></tr><tr><td>set</td><td>set or unordered_set</td><td>set iterates in sorted order</td></tr><tr><td>heapq (a min-heap)</td><td>priority_queue with greater&lt;&gt;</td><td>priority_queue is a max-heap by default</td></tr><tr><td>sorted(a), a.sort()</td><td>sort(a.begin(), a.end())</td><td>Pass a comparison for custom orders</td></tr><tr><td>int (any size)</td><td>int, or long long past about two billion</td><td>Overflow gives silently wrong answers</td></tr><tr><td>input().split()</td><td>cin &gt;&gt; x, with fast input switched on</td><td>Without ios::sync_with_stdio(false), large inputs can time out</td></tr><tr><td>Recursion with a raised limit</td><td>Recursion, with care for very deep calls</td><td>Very deep recursion can overflow the stack; loops are safer</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>When to switch</h3><p>A student aiming at the CCO should write CCC Senior in C++, because the invitation comes from that paper and the student will need C++ the moment it arrives. The year before is the right time to move: the autumn of Grade 9 or 10 for a student who expects to be strong at Senior by Grade 11.</p>
+<p>In our classes the switch usually takes several weeks of steady practice before C++ feels as natural as Python did, and the first fortnight is the hardest.</p></div><div><h3>How we teach it</h3><p>We re-solve problems the student already solved in Python, in C++. The algorithm is familiar, so all the attention goes to the language: types, references, the standard library.</p>
+<p>After that, every new Senior problem is attempted in C++ first. Python stays as a scratchpad for checking ideas, not as the contest language.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="subtasks">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked example</p><h2>How IOI-style subtasks work: one task, two solutions</h2><p class="ag-lede">CCC Senior and the olympiads above it split problems into subtasks: a small version that a simple method can solve, and a large version that needs the real idea. This task is ours, written for our students; it is not a CEMC, CCO or IOI problem. Both solutions are in C++, the CCO's language, and both were checked against a brute-force count on 400 random cases with no mismatches.</p></div>
+    <p><b>Our task: Signal Towers.</b> N radio towers stand along a straight highway at positions x (whole numbers, kilometres from a marker). Two towers can talk if they are at most D kilometres apart. Count the pairs of towers that can talk. <b>Input:</b> N and D on the first line, then the N positions on one line. <b>Output:</b> one integer. <b>Subtask 1 (40 percent of the marks):</b> N is at most 2,000. <b>Subtask 2 (60 percent):</b> N is at most 200,000, and positions and D are at most one billion.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Signal Towers &middot; sample</b><span>text</span></figcaption><pre>Sample input:
+6 3
+10 1 4 13 7 2
+
+Sample output:
+6</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Subtask 1 &middot; check every pair (C++)</b><span>cpp</span></figcaption><pre>// Our practice task: Signal Towers, subtask 1 (N up to 2,000)
+// Check every pair: about N * N / 2 comparisons.
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+int main() {
+    int n;
+    long long d;
+    cin &gt;&gt; n &gt;&gt; d;
+    vector&lt;long long&gt; x(n);
+    for (auto &amp;v : x) cin &gt;&gt; v;
+    long long pairs = 0;
+    for (int i = 0; i &lt; n; i++)
+        for (int j = i + 1; j &lt; n; j++)
+            if (llabs(x[i] - x[j]) &lt;= d) pairs++;
+    cout &lt;&lt; pairs &lt;&lt; "\n";
+    return 0;
+}</pre><p class="ag-code-note">About two million comparisons when N is 2,000: well inside the time. At N = 200,000 it would need about twenty billion, far too many. This version earns the first 40 percent and nothing more, and that is a perfectly good start on contest day.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Subtask 2 &middot; sort and slide a window (C++)</b><span>cpp</span></figcaption><pre>// Our practice task: Signal Towers, full solution (N up to 200,000)
+// Sort, then slide a window: O(N log N) for the sort, O(N) after.
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int n;
+    long long d;
+    cin &gt;&gt; n &gt;&gt; d;
+    vector&lt;long long&gt; x(n);
+    for (auto &amp;v : x) cin &gt;&gt; v;
+    sort(x.begin(), x.end());
+    long long pairs = 0;   // up to about 2 * 10^10: needs long long
+    int left = 0;
+    for (int right = 0; right &lt; n; right++) {
+        while (x[right] - x[left] &gt; d) left++;
+        pairs += right - left;   // towers left .. right-1 reach tower right
+    }
+    cout &lt;&lt; pairs &lt;&lt; "\n";
+    return 0;
+}</pre><p class="ag-code-note">After sorting, the towers a given tower can reach on its left form one unbroken block, so a left pointer only ever moves forward. Each tower is added and removed from the window once: linear time after the sort. Our arithmetic on the count: if all 200,000 towers stood at one spot, there would be 200,000 x 199,999 / 2 = 19,999,900,000 pairs, far beyond the roughly 2.1 billion an int can hold, so the count is a long long.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The habit this teaches</h3><p>Write the subtask 1 solution first, always. It takes minutes, it earns marks, and it becomes the brute-force checker for the clever version. Students who skip this step tend to lose an afternoon to a bug it would have caught in seconds.</p>
+<p>Then ask what structure the simple version wastes. Here, it compares towers that are obviously too far apart. Sorting is what lets the program stop looking.</p></div><div><h3>Reading the sample by hand</h3><p>Sorted, the positions are 1, 2, 4, 7, 10 and 13, with D = 3. The pairs that can talk are 1 and 2, 1 and 4, 2 and 4, 4 and 7, 7 and 10, and 10 and 13: six, as both programs print.</p>
+<p>A student who cannot list the six pairs on paper is not ready to code either solution. At the olympiad end, the paper work comes first just as it does at Junior.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="years">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A longer view</p><h2>A realistic multi-year path towards the CCO</h2><p class="ag-lede">Very few students reach the CCO in their first CCC year. This is the kind of path we sketch with a strong, keen student who starts in Grade 9. It is ours, and it is a direction rather than a promise.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A multi-year path (our plan; contest dates for 2026 to 2027 from CEMC)</caption><thead><tr><th scope="col">Year</th><th scope="col">CCC paper</th><th scope="col">Language</th><th scope="col">Focus</th></tr></thead><tbody><tr><td>Grade 9</td><td>Junior</td><td>Python</td><td>Clean input and output, loops, strings, first recursion</td></tr><tr><td>Grade 10</td><td>Senior</td><td>Python, moving to C++ in the autumn</td><td>Sorting, binary search, BFS and DFS, first DP</td></tr><tr><td>Grade 11</td><td>Senior</td><td>C++</td><td>Shortest paths, harder DP, union-find, segment trees</td></tr><tr><td>Grade 12</td><td>Senior, aiming at the CCO</td><td>C++</td><td>Olympiad-level problems, subtasks, full timed papers</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What sustains a student over four years</h3><p>Enjoyment of the problems for their own sake. Students who stay with algorithms through Grade 12 are the ones who like the moment an idea clicks, not the ones chasing a medal.</p>
+<p>Steady weekly work. Two classes and a few problems a week, every week, beats intense bursts before February.</p></div><div><h3>What to tell a student who is not invited</h3><p>That about twenty places a year across Canada says nothing about whether a student is good at computer science. The skills built on the way, algorithms, efficient code, careful testing, are the ones university courses and software work ask for.</p>
+<p>And that CEMC runs the CCC every year, so a student who is still an official participant can write Senior again next February.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student starts</p>
+      <h2>Four stages on the olympiad road</h2>
+      <p class="ag-lede">How we judge where a student stands relative to CCO-level work. The stages are ours.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From strong Senior writer to olympiad level (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Senior solid</td><td class="ag-num">Solves S1 and S2 reliably and takes S3 subtasks</td></tr><tr><td>2. C++ fluent</td><td class="ag-num">Writes contest C++ from memory, with the standard library</td></tr><tr><td>3. Full S3 and S4</td><td class="ag-num">Solves middle Senior problems completely, in time</td></tr><tr><td>4. Olympiad ready</td><td class="ag-num">Earns real marks on S5 and on past CCO problems</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask your child's teacher which stage they are at, not whether they will be invited. Stages can be worked on; invitations cannot.</p>
+<p>Stage 2 is the one families often skip. Without C++ fluency, a strong Senior result cannot carry into the CCO.</p></div><div><h3>For students</h3><p>Solve the small subtask first, every time. It is marks, and it is your checker.</p>
+<p>Re-solve your old Python solutions in C++. It is the fastest way to switch.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for students heading towards olympiad level</h2>
+      <p class="ag-lede">Each course has a fixed teacher and meets live online; families pick a group place or private lessons, from any province.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Building up</h3>
+        <span class="ag-band-sub">Grades 8 to 10</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / UP / 01</p>
+          <h4>Python for teens</h4>
+          <p>The usual first CCC language.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / UP / 02</p>
+          <h4>Problem solving for teens</h4>
+          <p>Data structures before contests.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / UP / 03</p>
+          <h4>High school math</h4>
+          <p>Algebra and proof underneath algorithms.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Senior level</h3>
+        <span class="ag-band-sub">Grades 10 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / SEN / 01</p>
+          <h4>Competition math</h4>
+          <p>Counting and combinatorics for S3 and S4.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / SEN / 02</p>
+          <h4>Java for teens</h4>
+          <p>For students whose school teaches Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / SEN / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Python experiments with number patterns, ages 10 to 15.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Olympiad and beyond</h3>
+        <span class="ag-band-sub">Strongest students</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / OLY / 01</p>
+          <h4>Competitive programming, advanced</h4>
+          <p>Contest technique past high school.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / OLY / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Advanced structures, ages 18 and up.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCO / OLY / 03</p>
+          <h4>C++ masterclass</h4>
+          <p>Templates, memory and the STL, for adults.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live olympiad-track classes, timed for Canada</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school evenings, shown in your provincial time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings for long problem sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Shaped around a multi-year plan for one student.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>C++ throughout</h3><p>The olympiad language from the first Senior class.</p></div>
+      <div><h3>Subtasks first</h3><p>Simple solutions, then the full idea.</p></div>
+      <div><h3>Our own tasks</h3><p>Original problems; CEMC's archive for past ones.</p></div>
+      <div><h3>Stress testing</h3><p>Brute-force checks on every solution.</p></div>
+      <div><h3>Every province</h3><p>Students from British Columbia to the Atlantic.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty in a batch, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Olympiad training runs alongside real projects. Some are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> hold the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">No family pays for a CCO invitation, and none can buy one. Our fee is for live teaching only, paid monthly, so a student can train for a season or for several years without committing to either.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One Senior-level task in C++</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students in a batch</li><li>A regular teacher</li><li>A batch time you choose</li><li>Charged by the month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher for one student</li><li>A plan across several years</li><li>C++ reviewed line by line</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' Google reviews, as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Canadian families</p>
+      <h2>The Canadian Computing Olympiad: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Canadian Computing Olympiad?</h3>
+        <p>It is an invitation-only week run by CEMC at the University of Waterloo each spring, with workshops, a contest and other activities. CEMC also uses it to select Canada's team for the International Olympiad in Informatics.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does a student qualify for the CCO?</h3>
+        <p>Through the Senior paper of the Canadian Computing Competition. CEMC invites about 20 of the top official CCC Senior participants from schools in Canada, and may also invite outstanding participants such as Canadian citizens or permanent residents at school abroad. Selection is at CEMC's discretion.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a student apply to the CCO directly?</h3>
+        <p>No. CEMC lists no application. Invitations come from CCC Senior results, and only official participants are eligible, which for a school in Canada means born on or after 1 July 2007 and living in Canada.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What programming language is used at the CCO?</h3>
+        <p>C++ only. CEMC says CCO participants must use C++, even though the CCC itself also accepts C, Python and Java. Students hoping for an invitation should switch to C++ before writing CCC Senior.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is Canada's IOI team chosen?</h3>
+        <p>CEMC says Canada's IOI entry is determined by performance on the Canadian Computing Competition, and that top scorers on the CCO contest are then selected for the team. CEMC trains the team and leads the delegation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How did Canada do at IOI 2026?</h3>
+        <p>CEMC reports that the team returned from Tashkent, Uzbekistan with four medals in 2026, two silver and two bronze.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to screen-record the CCC to be invited?</h3>
+        <p>It is not required, but CEMC strongly recommends that schools record the screens of students aiming for the CCO, and keep the recordings for a month. CEMC adds that being asked for one does not guarantee an invitation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the 2027 CCO?</h3>
+        <p>CEMC says the CCO is held at the University of Waterloo each spring, but it had not posted a 2027 date when we checked on 22 October 2026. The CCC Senior paper that leads to it is on 17 February 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can Modern Age Coders get my child into the CCO?</h3>
+        <p>No. Invitations are decided by CEMC from CCC results, at its discretion, and we are not connected with CEMC. We teach the algorithms and C++ that strong Senior writers need.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your olympiad-track classes for Canadian families?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are agreed in Eastern time and converted to your province.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian students aiming high in algorithms.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>The contest every CCO invitation comes from.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>Where most olympiad students began.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ioi-olympiad-informatics-training">IOI training</a></h3><p>The international level in more depth.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-olympiad-medal-track">Coding olympiad track</a></h3><p>Our longer view of olympiad training.</p></div>
+      <div><h3><a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a></h3><p>Another algorithm contest open to Canadians.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Every Canada page we publish.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class is a Senior-level task in C++, solved with the student. Afterwards the teacher tells you honestly which stage the student is at, and what a sensible path towards the CCO would look like from here.</p>
+        <p class="ag-mt-40">Curious about the teaching first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> walks through a live class, and our <a class="ag-inline-link" href="/courses">courses page</a> sets out what each one covers.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20is%20aiming%20for%20CCC%20Senior%20and%20the%20CCO.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccoc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All lessons are live over video; our teachers are in India and there is no Canadian centre. WhatsApp gets the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ccoc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card is needed, and the first class is free.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/ioi-olympiad-informatics-training">IOI training</a></li><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Small subtask first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ccoc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'canadian-computing-olympiad-cco-guide-inline', meta: { name: name, age: age, page: 'canadian-computing-olympiad-cco-guide' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

@@ -218,7 +218,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 53 | canada-math-and-coding-contest-calendar (cmcc, #853848) | ref | 5,185 | 1.8% vs ccc-junior-guide | reference calendar | dates and organisers | 0400ed86 |
 | 54 | how-to-register-for-waterloo-contests (hrwc, #9E3918) | contest | 4,878 | 1.9% vs ccc-junior-guide | how-to | school registration | c42cb0e3 |
 | 39 | ccc-senior-guide (csg, #187054) | contest | 5,735 | 2.5% vs ccc-junior-guide | contest guide | graphs and dynamic programming | b46a669e |
-| 40 | ccc-past-problems-practice-guide (cppp, #254B70) | contest | 4,671 | 1.6% vs ccc-junior-guide | practice guide | judging your own output | (this commit) |
+| 40 | ccc-past-problems-practice-guide (cppp, #254B70) | contest | 4,671 | 1.6% vs ccc-junior-guide | practice guide | judging your own output | c60aeafe |
+| 41 | canadian-computing-olympiad-cco-guide (ccoc, #121B7A) | contest | 4,396 | 2.5% vs ccc-junior-guide | contest guide | algorithm design | (this commit) |
 
 ## Skipped
 

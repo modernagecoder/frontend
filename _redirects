@@ -7726,4 +7726,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ccc-past-problems-practice-guide /src/pages/ccc-past-problems-practice-guide.html 200
 /ccc-past-problems-practice-guide.md /src/pages/ccc-past-problems-practice-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/canadian-computing-olympiad-cco-guide /src/pages/canadian-computing-olympiad-cco-guide.html 200
+/canadian-computing-olympiad-cco-guide.md /src/pages/canadian-computing-olympiad-cco-guide.md 200
 /* /src/pages/404.html 404
