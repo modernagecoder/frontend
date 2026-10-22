@@ -540,6 +540,7 @@ const SLUGS = [
   'best-online-math-tutoring-in-canada',
   'problem-solving-coding-and-math-classes-canada',
   'math-30-1-tutor-alberta',
+  'alberta-math-30-1-diploma-exam-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1159,6 +1160,7 @@ const LLMS_LABELS = {
   'best-online-math-tutoring-in-canada': 'Choosing a math tutor',
   'problem-solving-coding-and-math-classes-canada': 'Problem-solving classes',
   'math-30-1-tutor-alberta': 'Math 30-1 tutor, Alberta',
+  'alberta-math-30-1-diploma-exam-prep': 'Alberta Math 30-1 diploma exam prep',
 };
 
 function wireLlms(slugs) {

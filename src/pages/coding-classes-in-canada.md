@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Alberta Math 30-1 diploma exam prep](/alberta-math-30-1-diploma-exam-prep)
 - [Math 30-1 help (Alberta)](/math-30-1-tutor-alberta)
 - [Problem-solving coding and math classes](/problem-solving-coding-and-math-classes-canada)
 - [Best online math tutoring in Canada: how to choose](/best-online-math-tutoring-in-canada)

@@ -25833,6 +25833,18 @@
   to = "/src/pages/math-30-1-tutor-alberta.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/alberta-math-30-1-diploma-exam-prep"
+  to = "/src/pages/alberta-math-30-1-diploma-exam-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/alberta-math-30-1-diploma-exam-prep.md"
+  to = "/src/pages/alberta-math-30-1-diploma-exam-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
