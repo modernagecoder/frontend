@@ -243,3 +243,4 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 - md twins print USD fees (renderer md path); Plan B switches Canada twins when CAD goes live.
 - Rows 82, 83, 84 (cost pages) wait for Plan B: their market prices are in CAD and Canada pages are currency-neutral until the CAD region is live (Plan 2 default).
 - Rows 21, 23, 24, 26, 27 (BC): curriculum.gov.bc.ca refused connections on 2026-10-22; retry the fetch and write them when it is reachable.
+- Rows 30 (Math 20-1) and 31 (Math 31) skipped 2026-10-22: no Alberta source for course content (program of studies PDF moved, LearnAlberta JavaScript-only, open.alberta.ca 403). Retry when a source is reachable.
