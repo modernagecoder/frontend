@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [U of T computer science admission requirements](/uoft-computer-science-admission-requirements)
 - [Waterloo AIF guide](/waterloo-aif-guide)
 - [Waterloo computer science admission requirements](/waterloo-computer-science-admission-requirements)
 - [USACO for Canadian students](/usaco-for-canadian-students)

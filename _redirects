@@ -7746,4 +7746,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /waterloo-aif-guide /src/pages/waterloo-aif-guide.html 200
 /waterloo-aif-guide.md /src/pages/waterloo-aif-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/uoft-computer-science-admission-requirements /src/pages/uoft-computer-science-admission-requirements.html 200
+/uoft-computer-science-admission-requirements.md /src/pages/uoft-computer-science-admission-requirements.md 200
 /* /src/pages/404.html 404

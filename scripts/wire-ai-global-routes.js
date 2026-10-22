@@ -522,6 +522,7 @@ const SLUGS = [
   'usaco-for-canadian-students',
   'waterloo-computer-science-admission-requirements',
   'waterloo-aif-guide',
+  'uoft-computer-science-admission-requirements',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1123,6 +1124,7 @@ const LLMS_LABELS = {
   'usaco-for-canadian-students': 'USACO for Canadian students',
   'waterloo-computer-science-admission-requirements': 'Waterloo computer science admission requirements',
   'waterloo-aif-guide': 'Waterloo AIF guide',
+  'uoft-computer-science-admission-requirements': 'U of T computer science admission requirements',
 };
 
 function wireLlms(slugs) {
