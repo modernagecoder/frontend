@@ -7798,4 +7798,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /canadian-math-olympiad-cmo-path /src/pages/canadian-math-olympiad-cmo-path.html 200
 /canadian-math-olympiad-cmo-path.md /src/pages/canadian-math-olympiad-cmo-path.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/math-kangaroo-canada-preparation /src/pages/math-kangaroo-canada-preparation.html 200
+/math-kangaroo-canada-preparation.md /src/pages/math-kangaroo-canada-preparation.md 200
 /* /src/pages/404.html 404

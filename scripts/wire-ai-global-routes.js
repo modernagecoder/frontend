@@ -535,6 +535,7 @@ const SLUGS = [
   'fryer-galois-hypatia-contests-guide',
   'comc-canada-open-mathematics-challenge-guide',
   'canadian-math-olympiad-cmo-path',
+  'math-kangaroo-canada-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1149,6 +1150,7 @@ const LLMS_LABELS = {
   'fryer-galois-hypatia-contests-guide': 'Fryer, Galois and Hypatia',
   'comc-canada-open-mathematics-challenge-guide': 'COMC guide',
   'canadian-math-olympiad-cmo-path': 'Canadian Math Olympiad path',
+  'math-kangaroo-canada-preparation': 'Math Kangaroo Canada',
 };
 
 function wireLlms(slugs) {

@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Math Kangaroo Canada preparation](/math-kangaroo-canada-preparation)
 - [Canadian Math Olympiad path](/canadian-math-olympiad-cmo-path)
 - [Canadian Open Mathematics Challenge (COMC) guide](/comc-canada-open-mathematics-challenge-guide)
 - [Fryer, Galois and Hypatia contests guide](/fryer-galois-hypatia-contests-guide)

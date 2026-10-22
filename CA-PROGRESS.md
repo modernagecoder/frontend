@@ -236,7 +236,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 49 | cimc-and-csmc-contest-guide (cccg, #376660) | contest | 6,562 | 1.3% vs pascal-contest-preparation | contest guide | part B full solutions | e32cd507 |
 | 48 | fryer-galois-hypatia-contests-guide (fghc, #165C25) | contest | 5,950 | 1.5% vs euclid-contest-preparation | contest guide | written solutions | 9744883d |
 | 51 | comc-canada-open-mathematics-challenge-guide (ccom, #424D9E) | contest | 5,981 | 1.3% vs canada-math-and-coding-contest-calendar | contest guide | olympiad entry | 35b84d13 |
-| 50 | canadian-math-olympiad-cmo-path (cmoc, #446585) | contest | 5,798 | 1.5% vs comc-canada-open-mathematics-challenge-guide | pathway guide | olympiad problem solving | (this commit) |
+| 50 | canadian-math-olympiad-cmo-path (cmoc, #446585) | contest | 5,798 | 1.5% vs comc-canada-open-mathematics-challenge-guide | pathway guide | olympiad problem solving | 90777e30 |
+| 52 | math-kangaroo-canada-preparation (mkcp, #413D70) | contest | 5,175 | 1.4% vs cimc-and-csmc-contest-guide | contest guide | kangaroo-style reasoning | (this commit) |
 
 ## Skipped
 
