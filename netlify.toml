@@ -25413,6 +25413,18 @@
   to = "/src/pages/quebec-secondary-5-math-tutor.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cegep-computer-science-preparation"
+  to = "/src/pages/cegep-computer-science-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/cegep-computer-science-preparation.md"
+  to = "/src/pages/cegep-computer-science-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

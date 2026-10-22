@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CEGEP Computer Science: Programs, Admission and Preparation</title>
+  <meta name="description" content="CEGEP computer science explained from Québec.ca and the ministry's program documents: 200.C0 and 420.B0, admission, R score, and how to prepare in Python.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/cegep-computer-science-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/cegep-computer-science-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2A523C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/cegep-computer-science-preparation">
+  <meta property="og:title" content="CEGEP Computer Science: Programs, Admission and Preparation">
+  <meta property="og:description" content="Two CEGEP routes into computer science: the two-year pre-university 200.C0 and the three-year technical 420.B0. What each teaches, what each asks for, and how a secondary student gets ready.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CEGEP Computer Science: Programs, Admission and Preparation">
+  <meta name="twitter:description" content="CEGEP computer science, from the ministry's own program documents, and how to prepare.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ccsp .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-ccsp .ag-capsule { border-left-width: 5px; border-radius: 2px; }
+.ag-root.ag-ccsp .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-ccsp .ag-table td { line-height: 1.55; }
+.ag-root.ag-ccsp .ag-section-head h2 { max-width: 35ch; }
+.ag-root.ag-ccsp .ag-steps { gap: 0.9rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/cegep-computer-science-preparation#page","url":"https://learn.modernagecoders.com/cegep-computer-science-preparation","name":"CEGEP Computer Science Preparation","description":"A guide for Quebec students and parents to computer science at CEGEP: what CEGEP is, the Computer Science and Mathematics (200.C0) and Computer Science Technology (420.B0) programs as the ministry defines them, admission and the R score, and how to prepare in programming during secondary school.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CEGEP computer science preparation","item":"https://learn.modernagecoders.com/cegep-computer-science-preparation"}]},{"@type":"Course","name":"CEGEP Computer Science Preparation","description":"Live online Python and programming classes for Quebec students preparing for CEGEP computer science, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/cegep-computer-science-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/cegep-computer-science-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/cegep-computer-science-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is CEGEP?","acceptedAnswer":{"@type":"Answer","text":"It is the college level in Quebec. Québec.ca describes college as the first level of education at which schooling is not compulsory, after secondary school and before university. There are 48 CEGEPs, which are public colleges, five of them English-language, plus about 70 private colleges."}},{"@type":"Question","name":"Which CEGEP programs teach computer science?","acceptedAnswer":{"@type":"Answer","text":"The two main ones are the pre-university program Computer Science and Mathematics (200.C0), two years, and the technical program Computer Science Technology (420.B0), three years with at least one workplace practicum. Both lead to a Diploma of College Studies."}},{"@type":"Question","name":"What math do I need for CEGEP computer science?","acceptedAnswer":{"@type":"Answer","text":"For 200.C0, the ministry document lists Secondary V math in the Technical and Scientific option or the Science option, with Secondary V Chemistry and Physics. For 420.B0, it accepts Secondary IV TS or Science, or Secondary V CST."}},{"@type":"Question","name":"What programming language do CEGEPs teach?","acceptedAnswer":{"@type":"Answer","text":"The ministry program documents do not name one. They describe competencies such as using programming languages and developing programs, and each college decides how to implement them. A student who is fluent in one language, such as Python, adapts quickly to another."}},{"@type":"Question","name":"When is the CEGEP application deadline?","acceptedAnswer":{"@type":"Answer","text":"Québec.ca gives March 1 for the fall term and November 1 for the winter term. A student starting in the fall of 2027 would apply by 1 March 2027. Most applications go through a regional admission service, such as SRAM in the Montreal area."}},{"@type":"Question","name":"What is the R score?","acceptedAnswer":{"@type":"Answer","text":"It is the cote de rendement au collégial, a measure of college performance. Québec.ca says universities use it to analyze applications, particularly for programs with a quota or a minimum threshold. It is based on CEGEP results."}},{"@type":"Question","name":"How should a secondary student prepare for CEGEP computer science?","acceptedAnswer":{"@type":"Answer","text":"Learn one language well, practise designing algorithms before coding, write test plans, then move on to data structures and objects. Keep the math option that the program asks for. Our plan on this page maps each step to the ministry's objectives."}},{"@type":"Question","name":"Is 200.C0 or 420.B0 better for me?","acceptedAnswer":{"@type":"Answer","text":"Neither is better in general. 200.C0 prepares for university programs in computer science, mathematics and engineering; 420.B0 prepares for work, with a practicum, and Québec.ca notes that technical training may also open the way to university when a university program's requirements are met."}},{"@type":"Question","name":"Are your classes a CEGEP or connected with one?","acceptedAnswer":{"@type":"Answer","text":"No. We are an online school that teaches programming and math alongside secondary school. We are not a college, we grant no credits and we have no connection with any CEGEP or with the Ministère de l'Éducation."}},{"@type":"Question","name":"When are your classes for Quebec students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Classes are in English, in Eastern time."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/cegep-computer-science-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-ccsp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#what">What CEGEP is</a></li>
+      <li><a href="#programs">The two programs</a></li>
+      <li><a href="#skills">What they teach</a></li>
+      <li><a href="#admission">Admission</a></li>
+      <li><a href="#prepare">How to prepare</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / CEGEP computer science preparation
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Quebec &middot; CEGEP &middot; Computer science</p>
+        <h1>CEGEP computer science: programs and preparation</h1>
+        <p class="ag-lede">In Quebec, the road to a computer science degree or a programming job passes through CEGEP, the college level between secondary school and university. There are two main doors: a two-year pre-university program, Computer Science and Mathematics (200.C0), and a three-year technical program, Computer Science Technology (420.B0). This guide explains what CEGEP is from Québec.ca, then reads both programs from the ministry's own program documents: what they teach, how many hours they take and what they ask for at admission. The last part is ours: how a student in Secondary III, IV or V can prepare in programming, with a practice program written in the style the documents describe.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#prepare" class="ag-btn ag-btn--ghost">See the preparation plan</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20Quebec%20wants%20to%20study%20computer%20science%20at%20CEGEP%20and%20would%20like%20to%20start%20programming%20now.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccsp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; built from Québec.ca and the ministry's program documents</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Pre-university</dt><dd>200.C0, two years</dd>
+          <dt>Technical</dt><dd>420.B0, three years</dd>
+          <dt>Public colleges</dt><dd>48 CEGEPs, five English-language</dd>
+          <dt>College year</dt><dd>Two 16-week terms</dd>
+          <dt>Fall application</dt><dd>By 1 March</dd>
+          <dt>Prepare in</dt><dd>Python, then objects and data</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>CEGEP is Quebec's college level between secondary school and university. Computer science there means the two-year pre-university program Computer Science and Mathematics (200.C0) or the three-year technical program Computer Science Technology (420.B0). Modern Age Coders prepares secondary students in programming live online, in a batch or one to one, in its Python for Teens course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Start programming now</p>
+      <h2>Three courses for a future CEGEP computer science student</h2>
+      <p class="ag-lede">Python first, because it lets a student think about the algorithm rather than the syntax. Then data structures, which both programs ask for. The third is for students already at CEGEP age.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCSP / 01</p>
+          <h3>Python for teens</h3>
+          <p>Ages 13 to 18. From a first program to functions, lists, files and objects: the ground the 020W and 00Q2 competencies cover.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCSP / 02</p>
+          <h3>Problem solving for teens</h3>
+          <p>Algorithms and data structures, with sorting and searching, as in the 020X objective.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCSP / 03</p>
+          <h3>Python masterclass</h3>
+          <p>For students 18 and over, including those already in a college program who want more practice.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What CEGEP is</p><h2>CEGEP in Québec.ca's own words</h2><p class="ag-lede">Families arriving from other provinces often have no equivalent in mind. Québec.ca puts it plainly: "College is the first level of education at which schooling is not compulsory in Québec. College studies follow secondary school and precede university education."</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>College studies in Quebec, from Québec.ca's overview page (read 22 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What Québec.ca says</th></tr></thead><tbody><tr><td>How many colleges</td><td>48 CEGEPs, which are public colleges, "five of which are English-language institutions"; "about 70 private colleges, more than a third of which are subsidized"; and 4 affiliated public institutions</td></tr><tr><td>The college year</td><td>"A college year is comprised of two 16-week terms (including the examination period), one in the fall (August to December) and one in the winter (January to May)."</td></tr><tr><td>Course load</td><td>Most courses average 45 hours per term, "about three hours per week"; full time means at least 180 hours a term, or 165 if Physical Education is one of the courses</td></tr><tr><td>Pre-university programs</td><td>Prepare students for university and "requires two years of full-time study"</td></tr><tr><td>Technical programs</td><td>Prepare students for the job market and "requires three years of full-time study"; "Technical programs include at least one practicum in the workplace."</td></tr><tr><td>General education</td><td>Every DCS includes general education, with complementary courses that can come from areas including "mathematics literacy and computer science"</td></tr><tr><td>The R score</td><td>The "cote de rendement au collégial"; "Universities use the R score to analyze applications"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the R score matters to a computer science student</h3><p>Québec.ca says universities use the R score to analyze applications, "particularly when a program has a quota, or as a minimum threshold for admission to certain programs". It is calculated from college results, so what counts for university entry is how the student does at CEGEP, not in Secondary V.</p>
+<p>For a student aiming at a university computer science program after 200.C0, the first term of programming matters as much as any later one. Arriving already fluent in a language makes that first term calmer.</p></div><div><h3>If the student is unsure</h3><p>Québec.ca describes a "Springboard to a DCS" pathway for students who want to start college before choosing a program. It offers common courses and orientation activities, and a person may stay on it "for no more than three consecutive terms".</p>
+<p>Some students try a programming course there and decide; others come to CEGEP already sure. Either way, programming practice in secondary school costs nothing but time.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: Québec.ca, <a class="ag-inline-link" href="https://www.quebec.ca/en/education/cegeps-private-colleges/studying/overview" rel="noopener" target="_blank">Studying at CEGEP: overview</a> and <a class="ag-inline-link" href="https://www.quebec.ca/en/education/cegeps-private-colleges/studying/choosing-program" rel="noopener" target="_blank">Choosing a program of study</a>, read 22 October 2026. Modern Age Coders is not a college and is not connected with any CEGEP or with the Ministère de l'Éducation.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="programs">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The two programs</p><h2>Computer Science and Mathematics (200.C0) and Computer Science Technology (420.B0)</h2><p class="ag-lede">Both programs lead to the same diploma, the Diploma of College Studies (DCS). They differ in length, in purpose and in what comes after. The figures below are from the ministry's program documents.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The two CEGEP computer science programs, from the ministry's program documents (read 22 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">Computer Science and Mathematics (200.C0)</th><th scope="col">Computer Science Technology (420.B0)</th></tr></thead><tbody><tr><td>Type</td><td>Pre-university</td><td>Technical</td></tr><tr><td>Length (Québec.ca)</td><td>Two years of full-time study</td><td>Three years of full-time study, with at least one workplace practicum</td></tr><tr><td>Credits</td><td>58</td><td>91</td></tr><tr><td>Instruction</td><td>1560 periods: 660 general education, 900 program-specific</td><td>2670 hours: 660 general education, 2010 program-specific</td></tr><tr><td>What the program is for</td><td>"preparing students for university programs in computer science, mathematics, engineering and most of the pure sciences programs"</td><td>Work in computer science technology, through 13 compulsory competencies and 6 or 7 more chosen by the college from a list of 15</td></tr><tr><td>Field or sector</td><td>Field of study: Computer Science, Mathematics and Science</td><td>Technical sector 1: Administration, Commerce and Computer Technology</td></tr><tr><td>Math at admission</td><td>Secondary V math in the TS or Science option, with Secondary V Chemistry and Physics</td><td>Secondary IV TS or Science, or Secondary V CST</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Choosing between them</h3><p>200.C0 is a science program with computer science inside it: calculus, linear algebra, physics and chemistry share the timetable with four programming and discrete-math objectives. It suits a student who wants a university degree in computer science, mathematics or engineering.</p>
+<p>420.B0 is a programming program from the first week, built to lead to work, with a placement in industry. It suits a student who wants to build software sooner. Québec.ca's overview adds, in its description of technical programs, that this training "may also provide access to university, provided that certain requirements related to the chosen university program are met".</p></div><div><h3>What neither document names</h3><p>Neither document names a programming language. They describe competencies, such as "Use programming languages" and "Develop programs to solve simple problems", and leave the language to each college. The 200.C0 document says it outright: "Each college determines the ways in which the educational aims, common competencies, goals, objectives and standards are implemented."</p>
+<p>So no one can promise which language a given CEGEP will teach in first term. What a student can do is arrive fluent in one language and comfortable with the ideas, which carry over to any.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: ministry program documents <a class="ag-inline-link" href="https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/cegeps/services-administratifs/programmes-etudes-preuniversitaires/main-program/200-C0-computer-science-mathematic.pdf" rel="noopener" target="_blank">Computer Science and Mathematics (200.C0)</a> and <a class="ag-inline-link" href="https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/cegeps/services-administratifs/Programmes-etudes-techniques/PE01-420B0-Computer-Science.pdf" rel="noopener" target="_blank">Computer Science Technology (420.B0)</a>, linked from Québec.ca's <a class="ag-inline-link" href="https://www.quebec.ca/en/education/cegeps-private-colleges/services/programmes/pre-university-programs" rel="noopener" target="_blank">pre-university</a> and technical program lists, read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="skills">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What they teach</p><h2>The programming competencies, objective by objective</h2><p class="ag-lede">The ministry documents set out each competency with its elements and performance criteria. These are the ones about programming and the mathematics behind it, shortened. They are the clearest description anywhere of what a CEGEP computer science student is expected to do.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Programming and computing objectives in 200.C0 and 420.B0 (ministry program documents, read 22 October 2026)</caption><thead><tr><th scope="col">Code</th><th scope="col">Program</th><th scope="col">Statement of the competency</th><th scope="col">Selected elements and criteria</th></tr></thead><tbody><tr><td>020V</td><td>200.C0</td><td>"Apply basic concepts in discrete mathematics to problem solving"</td><td>Set theory and logic; proofs; modular arithmetic and number systems; recursive functions; graphs; Boolean algebra; Euclid's algorithm</td></tr><tr><td>020W</td><td>200.C0</td><td>"Develop programs to solve simple problems"</td><td>"Design of an effective algorithm"; "Proper validation of an algorithm by means of a complete set of tests"; the basic concepts of object-oriented programming: class, object, method, attribute</td></tr><tr><td>020X</td><td>200.C0</td><td>"Organize and manipulate data"</td><td>Object-oriented development with encapsulation, inheritance and polymorphism; choosing data structures; "Correct use of updating, sorting and search techniques with data in memory"; reading and writing files</td></tr><tr><td>020Y</td><td>200.C0</td><td>"Design and develop programs in a graphic environment"</td><td>Functional and user-interface requirements; a user-friendly interface; program libraries; modules; validation</td></tr><tr><td>020Z</td><td>200.C0</td><td>Integration of the program's learning</td><td>"Through a team project", with an oral presentation and a written report</td></tr><tr><td>00Q2</td><td>420.B0</td><td>"Use programming languages"</td><td>Analyze the problem; translate the algorithm into a programming language; debug the code; implement the functional test plan</td></tr><tr><td>00Q3</td><td>420.B0</td><td>"Solve computer-related problems using mathematics"</td><td>Numbers in different base systems; two-dimensional figures as digital images; Boolean algebra and truth tables; average, median, variance and standard deviation</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The pattern across both programs</h3><p>Read the criteria together and one habit keeps returning: test what you build. 020W asks for "a complete set of tests"; 00Q2 ends with implementing "the functional test plan". Neither treats a program that merely runs as finished.</p>
+<p>The other recurring idea is analysis before code: identifying the data, the results wanted and the processing required, then designing the algorithm, then translating it. That is the order we teach in, at every age.</p></div><div><h3>The technical program's options</h3><p>Beyond its 13 compulsory competencies, 420.B0 lists 15 from which each college picks 6 or 7. They range from networks and servers to software: "Develop transactional Web applications", "Develop gaming or simulation applications" and "Develop applications for connected objects", among others.</p>
+<p>Two CEGEPs offering 420.B0 can therefore have quite different second and third years. Comparing those choices is the strongest reason to read each college's own program page before applying.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="example">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A practice program</p><h2>Practice in the style of 020W and 00Q3: number bases, Euclid and a test plan</h2><p class="ag-lede">A program we wrote for this page. It touches three of the objectives above: converting numbers between bases (00Q3), Euclid's algorithm (020V), and validating code with a complete set of tests (020W). It is our practice material, not taken from any college course.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our program in Python</b><span>python</span></figcaption><pre># Our practice program: number bases and Euclid's algorithm, with a test plan.
+DIGITS = "0123456789ABCDEF"
+
+def to_base(n, base):
+    """Write a whole number n &gt;= 0 in a base from 2 to 16."""
+    if n == 0:
+        return "0"
+    out = ""
+    while n &gt; 0:
+        n, r = divmod(n, base)     # repeated division: the remainder is the next digit
+        out = DIGITS[r] + out
+    return out
+
+def gcd(a, b):
+    """Euclid's algorithm: replace (a, b) by (b, a mod b) until b is 0."""
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+# functional test plan: (what we test, call, expected result)
+TESTS = [
+    ("zero",              lambda: to_base(0, 2),     "0"),
+    ("binary",            lambda: to_base(13, 2),    "1101"),
+    ("hexadecimal",       lambda: to_base(255, 16),  "FF"),
+    ("one digit",         lambda: to_base(7, 8),     "7"),
+    ("gcd, common factor", lambda: gcd(84, 36),      12),
+    ("gcd, coprime",      lambda: gcd(17, 5),        1),
+]
+
+passed = 0
+for name, call, expected in TESTS:
+    got = call()
+    ok = got == expected
+    passed += ok
+    print(f"{name:20} expected {expected!s:6} got {got!s:6} {'PASS' if ok else 'FAIL'}")
+print(passed, "of", len(TESTS), "tests pass")</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output (run on 22 October 2026)</b><span>text</span></figcaption><pre>zero                 expected 0      got 0      PASS
+binary               expected 1101   got 1101   PASS
+hexadecimal          expected FF     got FF     PASS
+one digit            expected 7      got 7      PASS
+gcd, common factor   expected 12     got 12     PASS
+gcd, coprime         expected 1      got 1      PASS
+6 of 6 tests pass</pre><p class="ag-code-note">The test plan was written before the functions, as a list of cases with the answers worked out by hand: 13 in binary is 1101 (8 + 4 + 1), 255 in hexadecimal is FF (15 x 16 + 15), and the greatest common divisor of 84 and 36 is 12. Then the code was written to make all six pass.</p></figure>
+    <ol class="ag-steps ag-mt-40"><li><b>Analyze the problem.</b> Inputs: a whole number and a base from 2 to 16. Output: a string of digits. The awkward case is zero, which the repeated-division loop would turn into an empty string, so it gets its own line.</li><li><b>Design the algorithm.</b> Divide by the base, keep the remainder as the next digit from the right, repeat with the quotient until it reaches 0. For Euclid: replace (a, b) with (b, a mod b) until b is 0; a is the answer.</li><li><b>Write the test plan first.</b> One ordinary case per feature, plus the edge cases: zero, a one-digit result, and two numbers with no common factor.</li><li><b>Translate and debug.</b> Write the code, run the plan, and fix the first failing case before the next. A test that has never failed has not yet proved anything.</li><li><b>Extend it yourself.</b> Add a test for base 16 with 4096 (expected 1000), then write from_base, the reverse conversion, and test that from_base(to_base(n, b), b) gives n back for many values of n.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="admission">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Admission</p><h2>Applying to CEGEP: eligibility, the regional services and the dates</h2><p class="ag-lede">Québec.ca's admission page sets out who is eligible for a DCS program, how to apply and when. Program conditions such as the math above sit on top of these general rules.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Who is eligible</h3><p>For a program leading to a DCS, a student needs a Secondary School Diploma (SSD), or a Diploma of Vocational Studies with certain secondary subjects passed, among them the Secondary IV mathematics program, or instruction or experience the college accepts.</p>
+<p>Then the program's own conditions apply. Québec.ca: "Some college programs also have specific requirements for the program you choose." For 200.C0 those include Secondary V math in TS or Science; for 420.B0, Secondary IV TS or Science, or Secondary V CST.</p></div><div><h3>How and when to apply</h3><p>Applications to most CEGEPs go through a regional admission service; in the Montreal area that is the "Service régional d'admission du Montréal métropolitain (SRAM)". Québec.ca lists a few CEGEPs that take applications directly instead, so check each college's instructions.</p>
+<p>Québec.ca gives the deadlines as "Fall term: March 1" and "Winter term: November 1". In our reading, a student entering in the fall of 2027 applies by 1 March 2027; the page itself gives no year.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Secondary IV:</b> choose a math option that keeps the program open. For 200.C0, that means TS or Science, continued into Secondary V.</li><li><b>Autumn of Secondary V:</b> read each college's program page for 200.C0 or 420.B0, including its optional competencies, and visit if you can.</li><li><b>By 1 March of Secondary V:</b> apply through the regional admission service, or directly to a college that asks for that.</li><li><b>Spring of Secondary V:</b> finish the required courses. The math, chemistry and physics conditions are checked against final results.</li><li><b>Summer before CEGEP:</b> keep programming. The first term starts in August, and its first programming course rewards a student who arrives fluent.</li></ol>
+    <p class="ag-source-note ag-mt-40">Source: Québec.ca, <a class="ag-inline-link" href="https://www.quebec.ca/en/education/cegeps-private-colleges/studying/admission" rel="noopener" target="_blank">Admission to CEGEP</a>, read 22 October 2026. Deadlines and procedures can change; the regional service and the college have the last word.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="prepare">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How to prepare</p><h2>Preparing for CEGEP computer science during secondary school</h2><p class="ag-lede">Our plan, built backwards from the competencies above. It assumes a student starting in Secondary III or IV with weekly classes; a Secondary V student compresses it into a year.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first program to CEGEP-ready, mapped to the ministry objectives (our plan)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the student learns</th><th scope="col">Which objective it prepares</th></tr></thead><tbody><tr><td>1. Fluency in one language</td><td>Python: variables, conditions, loops, functions, lists and strings, written from a blank file</td><td>020W and 00Q2: translating an algorithm into a language</td></tr><tr><td>2. Algorithms on paper first</td><td>Describing a solution in steps before typing it; tracing by hand</td><td>020W: "Design of an effective algorithm"</td></tr><tr><td>3. Testing as a habit</td><td>A written test plan for every program, with edge cases</td><td>020W and 00Q2: the complete set of tests and the functional test plan</td></tr><tr><td>4. Data and objects</td><td>Dictionaries, files, sorting and searching, then classes, objects, methods and attributes</td><td>020X: organizing data; object-oriented basics</td></tr><tr><td>5. A program with an interface</td><td>A small windowed or web program someone else can use</td><td>020Y and the technical program's application competencies</td></tr><tr><td>6. The math underneath</td><td>Number bases, Boolean logic, modular arithmetic, a first look at proof by induction</td><td>020V and 00Q3</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What we do not do</h3><p>We do not teach students to paste AI-generated code. The ministry's criteria ask for analysis, design, debugging and validation, and a student who skips them with an AI tool arrives at CEGEP unable to do any of the four. ChatGPT needs a parent's permission for anyone under 18.</p>
+<p>We use AI the other way round: a student may ask an AI tool to explain an error message, then must fix the bug and explain the fix themselves.</p></div><div><h3>Alongside the secondary school courses</h3><p>Programming does not replace the Secondary V math, chemistry and physics that 200.C0 asks for. A student short on Secondary V math is better served by math help first; our <a class="ag-inline-link" href="/online-math-tutor-canada">online math tutoring for Canada</a> covers it.</p>
+<p>For a student who enjoys contests, the Canadian Computing Competition is a good test of stages 1 to 3; our <a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a> explains how students enter through their school.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student starts</p>
+      <h2>Four stages on the way to CEGEP computer science</h2>
+      <p class="ag-lede">Our stages, used in the first class to decide where a student begins.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From curious to CEGEP-ready (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Curious</td><td class="ag-num">Has tried block code or tutorials, but not written a program alone</td></tr><tr><td>2. Writing</td><td class="ag-num">Writes short Python programs with loops, functions and lists</td></tr><tr><td>3. Testing</td><td class="ag-num">Plans an algorithm, writes a test plan and debugs methodically</td></tr><tr><td>4. Ready</td><td class="ag-num">Organizes data with classes and files, and has finished a project someone else used</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 2 by the end of Secondary IV leaves comfortable time for stages 3 and 4 before August of the CEGEP year.</p>
+<p>Ask your teen to explain a program they wrote. If they can say why each line is there, they are further along than a long list of tutorials suggests.</p></div><div><h3>For students</h3><p>Write the test cases before the code. It feels slow for a week and saves hours every month after.</p>
+<p>Finish small things. One complete program with tests teaches more than five abandoned ones.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for students heading to CEGEP computer science</h2>
+      <p class="ag-lede">Taught live online in English by a regular teacher, in a batch or one to one, at times set in Eastern time for Quebec.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>First steps</h3>
+        <span class="ag-band-sub">Secondary I to III</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / FIRST / 01</p>
+          <h4>Scratch</h4>
+          <p>Logic and sequencing before typed code.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / FIRST / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Math ideas explored in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / FIRST / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>Interactive web pages and small games.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Secondary IV and V</h3>
+        <span class="ag-band-sub">Ages 15 to 17</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / SEC / 01</p>
+          <h4>Java for teens</h4>
+          <p>A second language, strongly object-oriented.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / SEC / 02</p>
+          <h4>CCC preparation</h4>
+          <p>Contest problems to sharpen algorithms.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / SEC / 03</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Version control before the first team project.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>At CEGEP age</h3>
+        <span class="ag-band-sub">Ages 17 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / COL / 01</p>
+          <h4>Data structures and algorithms</h4>
+          <p>The systematic treatment, for ages 18 and up.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / COL / 02</p>
+          <h4>Python web development</h4>
+          <p>Web applications with Django and Flask.</p>
+          <a class="ag-course-link" href="/courses/python-web-development-django-flask-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCSP / COL / 03</p>
+          <h4>College mathematics</h4>
+          <p>The calculus and linear algebra of 200.C0.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Programming classes for Quebec secondary students</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, in Eastern time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer project sessions on weekend mornings.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Paced to Secondary V and the CEGEP calendar.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Algorithm first</h3><p>Steps on paper before code on screen.</p></div>
+      <div><h3>Tests every time</h3><p>A test plan for each program.</p></div>
+      <div><h3>Real projects</h3><p>Programs other people can use.</p></div>
+      <div><h3>In English</h3><p>Live, with a regular teacher.</p></div>
+      <div><h3>No pasted code</h3><p>Students write and explain their own.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty, or private.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Programs our students have finished</h2>
+      <p class="ag-lede">Projects at the level CEGEP's first year asks for. A few are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">CEGEP itself is a matter between the student and the college. Our classes are paid as a monthly fee for eight live classes a month, with no contract, so a student can pause during exams or stop when college begins.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short programming task to place the student</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students</li><li>One regular teacher</li><li>Choose your batch</li><li>Monthly payments</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher to yourself</li><li>Planned around Secondary V</li><li>Built on your own projects</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents on Google, quoted without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Quebec families</p>
+      <h2>CEGEP computer science: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is CEGEP?</h3>
+        <p>It is the college level in Quebec. Québec.ca describes college as the first level of education at which schooling is not compulsory, after secondary school and before university. There are 48 CEGEPs, which are public colleges, five of them English-language, plus about 70 private colleges.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which CEGEP programs teach computer science?</h3>
+        <p>The two main ones are the pre-university program Computer Science and Mathematics (200.C0), two years, and the technical program Computer Science Technology (420.B0), three years with at least one workplace practicum. Both lead to a Diploma of College Studies.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What math do I need for CEGEP computer science?</h3>
+        <p>For 200.C0, the ministry document lists Secondary V math in the Technical and Scientific option or the Science option, with Secondary V Chemistry and Physics. For 420.B0, it accepts Secondary IV TS or Science, or Secondary V CST.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What programming language do CEGEPs teach?</h3>
+        <p>The ministry program documents do not name one. They describe competencies such as using programming languages and developing programs, and each college decides how to implement them. A student who is fluent in one language, such as Python, adapts quickly to another.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the CEGEP application deadline?</h3>
+        <p>Québec.ca gives March 1 for the fall term and November 1 for the winter term. A student starting in the fall of 2027 would apply by 1 March 2027. Most applications go through a regional admission service, such as SRAM in the Montreal area.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the R score?</h3>
+        <p>It is the cote de rendement au collégial, a measure of college performance. Québec.ca says universities use it to analyze applications, particularly for programs with a quota or a minimum threshold. It is based on CEGEP results.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How should a secondary student prepare for CEGEP computer science?</h3>
+        <p>Learn one language well, practise designing algorithms before coding, write test plans, then move on to data structures and objects. Keep the math option that the program asks for. Our plan on this page maps each step to the ministry's objectives.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is 200.C0 or 420.B0 better for me?</h3>
+        <p>Neither is better in general. 200.C0 prepares for university programs in computer science, mathematics and engineering; 420.B0 prepares for work, with a practicum, and Québec.ca notes that technical training may also open the way to university when a university program's requirements are met.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are your classes a CEGEP or connected with one?</h3>
+        <p>No. We are an online school that teaches programming and math alongside secondary school. We are not a college, we grant no credits and we have no connection with any CEGEP or with the Ministère de l'Éducation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your classes for Quebec students?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Classes are in English, in Eastern time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for students on the way to computer science.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Our pages for families across Canada.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor, Canada</a></h3><p>For the Secondary V math the programs ask for.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>A national contest written through school.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>Contest programming beyond Junior.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-canada">AI classes in Canada</a></h3><p>For students drawn to machine learning.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-think-like-a-programmer">Think like a programmer</a></h3><p>Analysis before code.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>The debugging 00Q2 asks for.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-read-code">How to read code</a></h3><p>Tracing a program by hand.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-build-a-coding-portfolio">Build a coding portfolio</a></h3><p>Projects worth showing a college.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us the student's secondary year, math option and any programming done so far. The first class sets a short task in Python; by the end, the teacher can place the student on our four stages and suggest a plan to the CEGEP year.</p>
+        <p class="ag-mt-40">Prefer to read first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> shows a live class, and the <a class="ag-inline-link" href="/courses">courses page</a> lists every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20Quebec%20wants%20to%20study%20computer%20science%20at%20CEGEP%20and%20would%20like%20to%20start%20programming%20now.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ccsp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes run over live video with our teachers in India, in English, at times set in Eastern time for Quebec. There is no campus to visit.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ccsp(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free; no card is asked for.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Programming</h4><ul><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/how-to-think-like-a-programmer">Think like a programmer</a></li><li><a href="/how-to-build-a-coding-portfolio">Coding portfolio</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Tests before code</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ccsp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'cegep-computer-science-preparation-inline', meta: { name: name, age: age, page: 'cegep-computer-science-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

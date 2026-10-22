@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [CEGEP computer science preparation](/cegep-computer-science-preparation)
 - [Quebec Secondary 5 math help](/quebec-secondary-5-math-tutor)
 - [Quebec Secondary 4 math: CST, TS or Science](/quebec-secondary-4-math-cst-ts-science)
 - [EQAO Grade 9 math practice](/eqao-grade-9-math-practice)
