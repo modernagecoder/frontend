@@ -7686,4 +7686,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ics4u-computer-science-help /src/pages/ics4u-computer-science-help.html 200
 /ics4u-computer-science-help.md /src/pages/ics4u-computer-science-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ics3u-vs-ics3c /src/pages/ics3u-vs-ics3c.html 200
+/ics3u-vs-ics3c.md /src/pages/ics3u-vs-ics3c.md 200
 /* /src/pages/404.html 404

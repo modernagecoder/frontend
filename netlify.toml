@@ -25437,6 +25437,18 @@
   to = "/src/pages/ics4u-computer-science-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ics3u-vs-ics3c"
+  to = "/src/pages/ics3u-vs-ics3c.html"
+  status = 200
+
+[[redirects]]
+  from = "/ics3u-vs-ics3c.md"
+  to = "/src/pages/ics3u-vs-ics3c.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

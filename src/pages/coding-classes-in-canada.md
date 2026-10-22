@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [ICS3U vs ICS3C](/ics3u-vs-ics3c)
 - [ICS4U computer science help](/ics4u-computer-science-help)
 - [CEGEP computer science preparation](/cegep-computer-science-preparation)
 - [Quebec Secondary 5 math help](/quebec-secondary-5-math-tutor)
