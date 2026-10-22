@@ -537,6 +537,7 @@ const SLUGS = [
   'canadian-math-olympiad-cmo-path',
   'math-kangaroo-canada-preparation',
   'best-online-coding-classes-in-canada',
+  'best-online-math-tutoring-in-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1153,6 +1154,7 @@ const LLMS_LABELS = {
   'canadian-math-olympiad-cmo-path': 'Canadian Math Olympiad path',
   'math-kangaroo-canada-preparation': 'Math Kangaroo Canada',
   'best-online-coding-classes-in-canada': 'Choosing a coding class',
+  'best-online-math-tutoring-in-canada': 'Choosing a math tutor',
 };
 
 function wireLlms(slugs) {

@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Best online math tutoring in Canada: how to choose](/best-online-math-tutoring-in-canada)
 - [Best online coding classes in Canada: how to choose](/best-online-coding-classes-in-canada)
 - [Math Kangaroo Canada preparation](/math-kangaroo-canada-preparation)
 - [Canadian Math Olympiad path](/canadian-math-olympiad-cmo-path)
