@@ -25605,6 +25605,18 @@
   to = "/src/pages/waterloo-computer-science-admission-requirements.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/waterloo-aif-guide"
+  to = "/src/pages/waterloo-aif-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/waterloo-aif-guide.md"
+  to = "/src/pages/waterloo-aif-guide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -752,6 +752,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - CEMC free resources guide: https://learn.modernagecoders.com/cemc-free-resources-guide
 - USACO for Canadian students: https://learn.modernagecoders.com/usaco-for-canadian-students
 - Waterloo computer science admission requirements: https://learn.modernagecoders.com/waterloo-computer-science-admission-requirements
+- Waterloo AIF guide: https://learn.modernagecoders.com/waterloo-aif-guide
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

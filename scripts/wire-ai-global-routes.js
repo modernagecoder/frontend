@@ -521,6 +521,7 @@ const SLUGS = [
   'cemc-free-resources-guide',
   'usaco-for-canadian-students',
   'waterloo-computer-science-admission-requirements',
+  'waterloo-aif-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1121,6 +1122,7 @@ const LLMS_LABELS = {
   'cemc-free-resources-guide': 'CEMC free resources guide',
   'usaco-for-canadian-students': 'USACO for Canadian students',
   'waterloo-computer-science-admission-requirements': 'Waterloo computer science admission requirements',
+  'waterloo-aif-guide': 'Waterloo AIF guide',
 };
 
 function wireLlms(slugs) {
