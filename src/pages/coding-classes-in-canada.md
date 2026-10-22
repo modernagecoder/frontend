@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [CEMC free resources guide](/cemc-free-resources-guide)
 - [Canadian Computing Olympiad (CCO) guide](/canadian-computing-olympiad-cco-guide)
 - [How to practise with CCC past problems](/ccc-past-problems-practice-guide)
 - [CCC Senior guide](/ccc-senior-guide)

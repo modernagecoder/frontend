@@ -7730,4 +7730,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /canadian-computing-olympiad-cco-guide /src/pages/canadian-computing-olympiad-cco-guide.html 200
 /canadian-computing-olympiad-cco-guide.md /src/pages/canadian-computing-olympiad-cco-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cemc-free-resources-guide /src/pages/cemc-free-resources-guide.html 200
+/cemc-free-resources-guide.md /src/pages/cemc-free-resources-guide.md 200
 /* /src/pages/404.html 404
