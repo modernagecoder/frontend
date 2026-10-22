@@ -552,6 +552,7 @@ const SLUGS = [
   'homeschool-coding-and-math-alberta',
   'homeschool-coding-and-math-bc',
   'online-coding-summer-camp-canada',
+  'march-break-coding-camp-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1183,6 +1184,7 @@ const LLMS_LABELS = {
   'homeschool-coding-and-math-alberta': 'Homeschool coding and math, Alberta',
   'homeschool-coding-and-math-bc': 'Homeschool coding and math, BC',
   'online-coding-summer-camp-canada': 'Summer coding',
+  'march-break-coding-camp-online': 'March Break coding',
 };
 
 function wireLlms(slugs) {

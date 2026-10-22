@@ -25977,6 +25977,18 @@
   to = "/src/pages/online-coding-summer-camp-canada.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/march-break-coding-camp-online"
+  to = "/src/pages/march-break-coding-camp-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/march-break-coding-camp-online.md"
+  to = "/src/pages/march-break-coding-camp-online.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
