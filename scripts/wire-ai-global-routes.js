@@ -547,6 +547,7 @@ const SLUGS = [
   'alberta-grade-6-math-pat-practice',
   'math-classes-for-kids-in-canada',
   'coding-classes-for-adults-in-canada',
+  'coding-classes-for-seniors-in-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1173,6 +1174,7 @@ const LLMS_LABELS = {
   'alberta-grade-6-math-pat-practice': 'Alberta Grade 6 math PAT practice',
   'math-classes-for-kids-in-canada': 'Math classes for kids, Canada',
   'coding-classes-for-adults-in-canada': 'Coding classes for adults, Canada',
+  'coding-classes-for-seniors-in-canada': 'Coding classes for seniors, Canada',
 };
 
 function wireLlms(slugs) {

@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding Classes for Seniors in Canada: Patient, Live Online</title>
+  <meta name="description" content="Coding for seniors in Canada, taught live online at a patient pace: readable screens, Python and web projects that are useful at home, and a full worked example.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-classes-for-seniors-in-canada.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#703F36">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada">
+  <meta property="og:title" content="Coding Classes for Seniors in Canada: Patient, Live Online">
+  <meta property="og:description" content="Learning to code later in life, from anywhere in Canada. A slower pace, large readable text, one useful program at a time, and two complete projects: a birthday reminder and a colour contrast checker.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding Classes for Seniors in Canada: Patient, Live Online">
+  <meta name="twitter:description" content="Coding classes for seniors in Canada: patient live teaching, readable screens and practical projects.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-sc .ag-hero h1 { letter-spacing: -0.008em; }
+.ag-root.ag-sc .ag-lede { line-height: 1.7; }
+.ag-root.ag-sc .ag-capsule { border-left-width: 6px; border-radius: 4px; }
+.ag-root.ag-sc .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-sc .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-sc .ag-steps { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada#page","url":"https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada","name":"Coding Classes for Seniors in Canada","description":"A guide for older adults in Canada who want to learn programming, covering a patient way to start, how to make the screen comfortable, practical Python and web projects, and how Modern Age Coders teaches live online.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"Coding classes for seniors","item":"https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada"}]},{"@type":"Course","name":"Coding Classes for Seniors in Canada","description":"Live online coding classes for older adults across Canada, starting from no experience, one to one or in a batch, with Python and web projects for everyday use.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is it too late to learn to code in retirement?","acceptedAnswer":{"@type":"Answer","text":"No. Programming rewards patience, care and curiosity, which many retired learners have in abundance. Our learners include adults in their sixties, and steady practice matters far more than age."}},{"@type":"Question","name":"Do you have a special course for seniors?","acceptedAnswer":{"@type":"Answer","text":"Not a separate course. We teach our beginner courses, such as Python from zero or HTML and CSS for Beginners, at a slower pace for older learners, with a recap at the end of each class and as much repetition as each person wants."}},{"@type":"Question","name":"I am not confident with computers. Can I still join?","acceptedAnswer":{"@type":"Answer","text":"Yes. The first classes include any computer basics you need, such as saving and finding files, and we set up everything together on the call."}},{"@type":"Question","name":"Can you make the text bigger on screen?","acceptedAnswer":{"@type":"Answer","text":"Yes, and we do it in the first class. We use the browser's own zoom and the font settings in the Python editor, so text is large and clear before any coding starts."}},{"@type":"Question","name":"What can I actually make?","acceptedAnswer":{"@type":"Answer","text":"Small programs that help at home: a birthday reminder, a planting log, a sorted list for a club, a game for grandchildren, or a simple family website. Each one is finished and kept."}},{"@type":"Question","name":"Is one-to-one better than a group?","acceptedAnswer":{"@type":"Answer","text":"Many older learners start one to one so the pace is entirely their own, then some move to a batch of fifteen to twenty for company. Both work well."}},{"@type":"Question","name":"What equipment do I need?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop computer and a reliable internet connection. A mouse is often easier than a touchpad. The software we use is free."}},{"@type":"Question","name":"When can classes be held?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We give every time in your own province's clock."}},{"@type":"Question","name":"Will there be tests or homework?","acceptedAnswer":{"@type":"Answer","text":"There are no exams. Each class ends with a short recap and one small optional exercise, usually twenty to thirty minutes of practice."}},{"@type":"Question","name":"Can my grandchild and I learn together?","acceptedAnswer":{"@type":"Answer","text":"Our courses for children and our courses for adults are separate, but many grandparents and grandchildren take parallel courses and compare projects. We are happy to suggest matching courses."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-sc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#pace">Our pace</a></li>
+      <li><a href="#screen">A readable screen</a></li>
+      <li><a href="#reminder">Project one</a></li>
+      <li><a href="#contrast">Project two</a></li>
+      <li><a href="#weeks">Eight weeks</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / Coding classes for seniors
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Older adults &middot; Python and the web, at a patient pace</p>
+        <h1>Coding classes for seniors in Canada</h1>
+        <p class="ag-lede">Plenty of people start programming after a working life in something else entirely. Some want to understand the technology their grandchildren talk about, some want a small tool that does a job at home, and some simply enjoy a puzzle that answers back. This page is for them. It explains how we pace classes for older beginners, how to make the screen easy to read before the first line of code, and walks through two complete projects from our classes: a birthday reminder written in Python, and a checker that tells you whether text on a web page is easy enough to read.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#reminder" class="ag-btn ag-btn--ghost">See the first project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20retiree%20in%20Canada%20and%20I%20would%20like%20to%20learn%20to%20code.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'sc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; rated 4.9 across 547 Google reviews</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Older adults, from no experience</dd>
+          <dt>Pace</dt><dd>One idea per class</dd>
+          <dt>Format</dt><dd>One to one or a batch</dd>
+          <dt>Languages</dt><dd>Python, HTML and CSS</dd>
+          <dt>Projects</dt><dd>Useful at home</dd>
+          <dt>Screen</dt><dd>Large text, set up together</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders teaches coding to seniors across Canada, live online, one to one or in a batch, starting with Python or with HTML and CSS. We do not run a separate seniors course; we teach our beginner adult courses at a slower, patient pace, with large readable text, a recap at the end of each class, and small projects that are useful at home.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Gentle places to start</p>
+      <h2>Three beginner courses older learners choose</h2>
+      <p class="ag-lede">None of these is a special seniors course. They are our courses for complete beginners, which we pace to suit each learner.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/html-css-course-for-beginners-build-real-websites">
+        <div class="ag-pick-shot"><img src="/images/html-css-beginners.webp" alt="HTML &amp; CSS for Beginners course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SC / 01</p>
+          <h3>HTML and CSS for Beginners</h3>
+          <p>Build and publish a small website of your own, perhaps family recipes or a club page. Written for absolute beginners, sixteen weeks.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SC / 02</p>
+          <h3>Python from zero</h3>
+          <p>For complete beginners aged 18 and over. We slow the first months right down for older learners who want plenty of practice.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-and-ai-analytics-for-non-programmers-course">
+        <div class="ag-pick-shot"><img src="/images/data-ai-analytics-non-programmers.webp" alt="Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SC / 03</p>
+          <h3>Data and AI for Non-Programmers</h3>
+          <p>Spreadsheets, charts and AI assistants without writing code, for learners who want practical skills before programming.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="pace">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How we pace it</p><h2>A patient way to learn programming later in life</h2><p class="ag-lede">Older beginners learn programming perfectly well. What usually goes wrong is the pace: courses written for students racing to a deadline pile up new words faster than anyone can absorb them. These are the principles we teach by, written by us.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How we teach older beginners (our principles)</caption><thead><tr><th scope="col">Principle</th><th scope="col">What it means in a class</th></tr></thead><tbody><tr><td>One idea per class</td><td>A class introduces one new idea, such as a loop, and spends the rest of the hour using it in different ways.</td></tr><tr><td>Plain words first</td><td>Every technical word is explained in everyday language before it is used, and kept on a running word list.</td></tr><tr><td>Typing it yourself</td><td>You type every line. Watching someone else code feels like learning but rarely sticks.</td></tr><tr><td>Mistakes on purpose</td><td>The teacher breaks a working program and you fix it, so error messages become familiar instead of frightening.</td></tr><tr><td>A recap you write</td><td>The last minutes of each class go on writing down, in your own words, what was covered, plus one small exercise to try.</td></tr><tr><td>Repeat without apology</td><td>Any idea can be taught again, in another way, as often as needed. Nobody is behind.</td></tr><tr><td>Finish something useful</td><td>Every few weeks ends with a small program you will actually use, not an exercise thrown away.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why one to one often suits</h3><p>Many older learners prefer a teacher to themselves at first, because the pace is entirely theirs and questions never feel like an interruption.</p>
+<p>Others enjoy learning alongside other adults in a batch of fifteen to twenty. Both work; the first class is a good time to decide.</p></div><div><h3>What you need at home</h3><p>A laptop or desktop computer, a reliable internet connection, and a quiet place for an hour. A mouse often feels easier than a touchpad.</p>
+<p>Nothing needs to be bought. Python and the editor we use are free, and we install them together, step by step, during the first class.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="screen">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Before the first line of code</p><h2>Making the screen comfortable to read</h2><p class="ag-lede">Small grey text on a bright screen makes any lesson harder. We spend part of the first class making text larger and clearer, using settings that already exist. The web standards behind this are public, and so are Python's own settings.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Settings that make coding easier on the eyes, with the standard or documentation behind each (read 22 October 2026)</caption><thead><tr><th scope="col">What to change</th><th scope="col">What the source says</th><th scope="col">How we do it in class</th></tr></thead><tbody><tr><td>Text size on web pages</td><td>WCAG 2.2 asks that text "can be resized without assistive technology up to 200 percent without loss of content or functionality."</td><td>Browser zoom: hold Ctrl (Command on a Mac) and press the plus key until reading is comfortable.</td></tr><tr><td>Contrast between text and background</td><td>WCAG 2.2 sets a contrast ratio "of at least 4.5:1" for normal text, and at least 3:1 for large-scale text.</td><td>Dark text on a pale background in the editor; our second project below measures it.</td></tr><tr><td>Buttons and links you can hit</td><td>WCAG 2.2 added a new criterion, Target Size (Minimum): a pointer target "is at least 24 by 24 CSS pixels", with some exceptions.</td><td>When you build web pages, we make buttons generous from the start.</td></tr><tr><td>The Python editor's font</td><td>IDLE, "Python's Integrated Development and Learning Environment", lets you change "fonts, indentation, keybindings, text color themes, startup windows and size".</td><td>Options, then Configure IDLE, then the Font tab, where the documentation says to "see the text sample for the effect of font face and size".</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A checklist for the first class</h3><p>Zoom the browser so this page reads easily. Set the editor font to a size you can read from a relaxed sitting position. Choose a light or dark colour theme, whichever feels calmer.</p>
+<p>Turn up the volume on the video call, and if it helps, turn on the call's own captions. Keep a notebook and pen beside the keyboard.</p></div><div><h3>Why accessibility is part of the course</h3><p>The settings that help you read your own code are the same ideas good web developers build into every page. Learners who build websites with us learn to meet these standards for other people too.</p>
+<p>Canada's federal Accessible Canada Act sets the aim of "a Canada without barriers, on or before January 1, 2040". Readable, usable websites are one small part of that.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.w3.org/TR/WCAG22/" rel="noopener" target="_blank">W3C, Web Content Accessibility Guidelines (WCAG) 2.2</a>, Recommendation of 12 December 2024; <a class="ag-inline-link" href="https://docs.python.org/3/library/idle.html" rel="noopener" target="_blank">Python documentation, IDLE</a>; <a class="ag-inline-link" href="https://laws-lois.justice.gc.ca/eng/acts/A-0.6/page-1.html" rel="noopener" target="_blank">Accessible Canada Act</a>. All read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="why">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What programming is for</p><h2>What older learners actually build</h2><p class="ag-lede">Computer Science Circles, the free Python course from the Centre for Education in Mathematics and Computing at the University of Waterloo, opens with a list of what programming lets you do: "automate computer tasks, make art and music, interpret and analyze survey results, build tools for other people, create custom websites, write games". Our older learners pick from that list too.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Projects our older learners have chosen, grouped by interest (our examples)</caption><thead><tr><th scope="col">Interest</th><th scope="col">A first project</th><th scope="col">A later project</th></tr></thead><tbody><tr><td>Family</td><td>A birthday reminder from a short list (project one below)</td><td>A family history website with photos and captions</td></tr><tr><td>Garden and outdoors</td><td>A planting log that prints what was sown and when</td><td>A chart of first and last frost dates kept over several years</td></tr><tr><td>Clubs and volunteering</td><td>A sign-up list that sorts names and removes duplicates</td><td>A simple website for the club, readable on any phone</td></tr><tr><td>Reading and writing</td><td>A program that counts words in a chapter you wrote</td><td>A small collection of your stories, published as web pages</td></tr><tr><td>Puzzles</td><td>A number-guessing game to play with grandchildren</td><td>A word puzzle that checks answers and keeps score</td></tr><tr><td>Photos</td><td>A script that renames photos by the date they were taken</td><td>A web gallery that shows one album per page</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Computer Science Circles explains its choice of language this way: "We have chosen to teach Python since it is both simple enough for beginners and powerful enough to be used by modern companies." We teach Python for the same reason, and we point learners to <a class="ag-inline-link" href="https://cscircles.cemc.uwaterloo.ca/" rel="noopener" target="_blank">Computer Science Circles</a> for extra practice between classes, which CEMC describes as a free service. Modern Age Coders is not connected with CEMC.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="reminder">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Project one</p><h2>Project one: a birthday reminder in Python</h2><p class="ag-lede">This is a project we wrote for our older beginners, usually around week six. It reads a short list of family birthdays from a file and prints the ones coming up in the next thirty days, soonest first.</p></div>
+    <p>The list lives in a CSV file, the plain format spreadsheets can save. The Python documentation describes it as "the most common import and export format for spreadsheets and databases", so a learner can keep the list in a spreadsheet and save it as CSV.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>birthdays.csv &middot; the list (names made up)</b><span>text</span></figcaption><pre>name,month,day
+Aunt Maureen,11,3
+Daniel,12,19
+Priya,1,8
+Grandpa Joe,10,30
+Leo,11,21</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>reminders.py &middot; our program</b><span>python</span></figcaption><pre># Our birthday reminder: who has a birthday in the next 30 days?
+import csv
+from datetime import date
+
+today = date(2026, 10, 22)        # fixed so the example always prints the same
+window = 30                       # days ahead to look
+
+coming_up = []
+with open("birthdays.csv", newline="", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        when = date(today.year, int(row["month"]), int(row["day"]))
+        if when &lt; today:                      # already passed this year
+            when = date(today.year + 1, when.month, when.day)
+        days_left = (when - today).days
+        if days_left &lt;= window:
+            coming_up.append((days_left, row["name"], when))
+
+for days_left, name, when in sorted(coming_up):
+    print(f"{name}: {when.strftime('%A %d %B')} (in {days_left} days)")</pre><p class="ag-code-note">We fixed today's date at 22 October 2026 so the output below never changes. In real use, replace that line with today = date.today().</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What it prints</b><span>text</span></figcaption><pre>Grandpa Joe: Friday 30 October (in 8 days)
+Aunt Maureen: Tuesday 03 November (in 12 days)
+Leo: Saturday 21 November (in 30 days)</pre></figure>
+    <ol class="ag-steps ag-mt-40"><li><b>Read it aloud first.</b> Before running anything, the teacher and learner read the program line by line in plain English: open the file, look at each row, work out the next birthday, keep it if it is close.</li><li><b>Run it and compare.</b> Three names appear. Daniel (19 December) and Priya (8 January) are further than thirty days away, so they are left out.</li><li><b>Change one thing.</b> Set window to 60 and run it again. Daniel now appears, Priya still does not. This is how a learner discovers what a variable does.</li><li><b>Break it on purpose.</b> Add a line Sam,13,5 to the CSV. Python stops with an error, because there is no thirteenth month. Reading that message calmly is a skill in itself.</li><li><b>Ask the awkward question.</b> What happens to someone born on 29 February in a year that has no 29 February? Finding that out, and deciding what the program should do, is real programming.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What this project teaches</h3><p>Reading a file, looping over its rows, making a decision for each one, and sorting the results. Those four ideas sit underneath a surprising amount of everyday software.</p>
+<p>It also teaches the habit we care about most: change one thing, run it, see what happened.</p></div><div><h3>Where it can go next</h3><p>Add anniversaries in a second column. Print how old each person will be. Later, turn the list into a small web page that shows the month ahead.</p>
+<p>Each step adds one small idea to a program that already works. We call that our rule for older beginners: one small, useful program at a time.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="contrast">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Project two</p><h2>Project two: a colour contrast checker built on WCAG 2.2</h2><p class="ag-lede">Older learners who build websites often care about readability more than anyone. This project, also ours, turns the contrast formula published in WCAG 2.2 into a short Python program that tells you whether text will be easy to read on its background.</p></div>
+    <p>WCAG 2.2 defines relative luminance as "L = 0.2126 * R + 0.7152 * G + 0.0722 * B", after each colour channel is adjusted with the rule "if RsRGB <= 0.04045 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4". The contrast ratio is then "(L1 + 0.05) / (L2 + 0.05)", lighter colour on top. The program follows those three formulas exactly.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>contrast.py &middot; our checker</b><span>python</span></figcaption><pre># Our contrast checker, using the formulas in WCAG 2.2
+def channel(c):
+    c = c / 255
+    return c / 12.92 if c &lt;= 0.04045 else ((c + 0.055) / 1.055) ** 2.4
+
+def luminance(hex_colour):
+    r, g, b = (int(hex_colour[i:i + 2], 16) for i in (1, 3, 5))
+    return 0.2126 * channel(r) + 0.7152 * channel(g) + 0.0722 * channel(b)
+
+def contrast(a, b):
+    light, dark = sorted((luminance(a), luminance(b)), reverse=True)
+    return (light + 0.05) / (dark + 0.05)
+
+for text, background in [("#1C1814", "#FBF8F2"), ("#888888", "#FFFFFF"), ("#703F36", "#FBF8F2")]:
+    ratio = contrast(text, background)
+    verdict = "passes" if ratio &gt;= 4.5 else "fails"
+    print(f"{text} on {background}: {ratio:.2f} to 1, {verdict} 4.5 to 1")</pre><p class="ag-code-note">Colours are written as hex codes, the six-character form web pages use. The second pair, mid-grey on white, is the kind of pale text many websites still use.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What it prints</b><span>text</span></figcaption><pre>#1C1814 on #FBF8F2: 16.65 to 1, passes 4.5 to 1
+#888888 on #FFFFFF: 3.54 to 1, fails 4.5 to 1
+#703F36 on #FBF8F2: 8.08 to 1, passes 4.5 to 1</pre></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading the result</h3><p>Near-black on cream scores about 16.65 to 1, far above the 4.5 to 1 that WCAG 2.2 asks for normal text. Mid-grey on white scores 3.54 to 1 and fails, which is why so much small grey web text is tiring to read.</p>
+<p>The third pair is the colour used for headings on this page, and it passes with 8.08 to 1.</p></div><div><h3>Why a formula is a good first project</h3><p>It shows that a published standard can be turned into code line by line, and that the code can be checked against the standard. Nothing is magic.</p>
+<p>Learners then use the checker on the colours of their own first website, before anyone else sees it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="weeks">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The first eight weeks</p><h2>An eight-week start for a complete beginner</h2><p class="ag-lede">Our plan for an older learner starting Python one to one, with two classes a week. A group moves at the pace of the group, and any week can be repeated.</p></div>
+    <ol class="ag-steps"><li><b>Week 1:</b> set up the screen and the editor together; type a first line and see it run; learn what an error message looks like and that it is not your fault.</li><li><b>Week 2:</b> storing information in variables; asking a question with input and answering it with print; a greeting program that uses your name.</li><li><b>Week 3:</b> making decisions with if and else; a program that answers differently depending on the reply.</li><li><b>Week 4:</b> repeating with loops; a times-table printer; a number-guessing game to play with family.</li><li><b>Week 5:</b> lists of things; adding, removing and sorting a shopping list or a list of club members.</li><li><b>Week 6:</b> reading a file; the birthday reminder above, built step by step over both classes.</li><li><b>Week 7:</b> writing your own small functions, so a program reads like a set of named steps.</li><li><b>Week 8:</b> a project of your choice from the table above, finished and kept, with a talk about what comes next.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Short practice</h3><p>Twenty to thirty minutes between classes is plenty, ideally on two different days.</p></div><div><h3>A notebook</h3><p>Writing a new word and its meaning by hand helps it stay.</p></div><div><h3>No exams</h3><p>The only test is whether your program does what you wanted.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Across Canada</p><h2>Class times for learners in every province</h2><p class="ag-lede">Our teachers teach from India, which lets them cover hours across all of Canada's time zones. Times are agreed in your own local clock.</p></div>
+    <p>Two clock changes affect learners this season. Eastern and Atlantic Canada, and Newfoundland, set their clocks back on Sunday 1 November 2026 and forward on Sunday 14 March 2027. British Columbia stays on UTC-7 all year, Alberta and Saskatchewan on UTC-6, and Manitoba moves to UTC-5 all year from 1 November 2026. If your grandchildren live in another province, a class time can look different on their clock than on yours, so we always state the time in your own zone and check it again after each change. Many retired learners like weekend mornings; others prefer a weekday slot. Both are available, and a one-to-one plan can move from week to week.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a learner starts</p>
+      <h2>Four stages for an older beginner</h2>
+      <p class="ag-lede">Our stages, to place each learner kindly and honestly in the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first click to own programs (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Comfortable on the computer</td><td class="ag-num">Opens files, uses a browser and a video call, and can type steadily</td></tr><tr><td>2. First programs</td><td class="ag-num">Types short programs from the teacher's example and runs them</td></tr><tr><td>3. Changing programs</td><td class="ag-num">Alters a working program to do something new and reads simple error messages</td></tr><tr><td>4. Own projects</td><td class="ag-num">Plans and writes a small useful program from a blank file</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If you are at stage 1</h3><p>That is a fine place to begin. The first classes include whatever computer basics you need, such as saving a file and finding it again.</p>
+<p>There is no hurry. Being comfortable with the computer makes every later week easier.</p></div><div><h3>If you used computers at work</h3><p>Years of spreadsheets, databases or office systems are a real head start: you already think in rows, columns and steps.</p>
+<p>The first class may move you straight to stage 2 or 3.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses older learners take with us</h2>
+      <p class="ag-lede">All taught live online by a regular teacher, in a batch or one to one, at a pace we agree with you.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Without heavy coding</h3>
+        <span class="ag-band-sub">Practical first</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SC / EASY / 01</p>
+          <h4>AI Tools Mastery</h4>
+          <p>Using AI assistants sensibly, and knowing their limits.</p>
+          <a class="ag-course-link" href="/courses/ai-tools-mastery-complete-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SC / EASY / 02</p>
+          <h4>Statistics and Probability</h4>
+          <p>Making sense of numbers in the news, no programming needed.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SC / EASY / 03</p>
+          <h4>Data Analysis</h4>
+          <p>Excel, SQL and charts for your own data.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Python</h3>
+        <span class="ag-band-sub">After the first weeks</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SC / PY / 01</p>
+          <h4>Python Automation</h4>
+          <p>Small scripts that save time every week.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SC / PY / 02</p>
+          <h4>Python for the Web</h4>
+          <p>Turning a Python program into a web page.</p>
+          <a class="ag-course-link" href="/courses/python-web-development-django-flask-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SC / PY / 03</p>
+          <h4>Python Certification</h4>
+          <p>For learners who like a clear goal to work towards.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Websites</h3>
+        <span class="ag-band-sub">Building for others</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SC / WEB / 01</p>
+          <h4>Databases with MySQL</h4>
+          <p>Keeping club or family records tidy and searchable.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SC / WEB / 02</p>
+          <h4>Full Stack Web Development</h4>
+          <p>The long road to complete web applications.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SC / WEB / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Keeping every version of your work safe.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live classes at a pace that suits you</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">A regular slot on the days that suit your week.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Unhurried morning classes.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Your own teacher, at a time agreed with you.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Large, clear text</h3><p>Screen and editor set up for easy reading.</p></div>
+      <div><h3>Recaps</h3><p>Each class ends by noting what was learned.</p></div>
+      <div><h3>Useful projects</h3><p>Programs for home, family and clubs.</p></div>
+      <div><h3>Patient teachers</h3><p>Questions welcome, repeats welcome.</p></div>
+      <div><h3>Every province</h3><p>Learners from coast to coast to coast.</p></div>
+      <div><h3>Batch or one to one</h3><p>A batch of fifteen to twenty adults, or a teacher alone.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Things our learners have built</h2>
+      <p class="ag-lede">Projects from learners of all ages are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has a wider collection.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Classes are paid monthly, eight live classes at a time, with no long commitment. Many older learners take a month, pause for travel or family, and come back: that is welcome.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Screen and editor set up together</li><li>No card needed to book</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A batch of fifteen to twenty adults</li><li>The same teacher each class</li><li>Choose days that suit your week</li><li>Monthly payment</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher just for you</li><li>Your own pace, always</li><li>Projects you choose</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews our learners and families posted on Google, reproduced without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from older learners</p>
+      <h2>Coding for seniors: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is it too late to learn to code in retirement?</h3>
+        <p>No. Programming rewards patience, care and curiosity, which many retired learners have in abundance. Our learners include adults in their sixties, and steady practice matters far more than age.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you have a special course for seniors?</h3>
+        <p>Not a separate course. We teach our beginner courses, such as Python from zero or HTML and CSS for Beginners, at a slower pace for older learners, with a recap at the end of each class and as much repetition as each person wants.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>I am not confident with computers. Can I still join?</h3>
+        <p>Yes. The first classes include any computer basics you need, such as saving and finding files, and we set up everything together on the call.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you make the text bigger on screen?</h3>
+        <p>Yes, and we do it in the first class. We use the browser's own zoom and the font settings in the Python editor, so text is large and clear before any coding starts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What can I actually make?</h3>
+        <p>Small programs that help at home: a birthday reminder, a planting log, a sorted list for a club, a game for grandchildren, or a simple family website. Each one is finished and kept.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is one-to-one better than a group?</h3>
+        <p>Many older learners start one to one so the pace is entirely their own, then some move to a batch of fifteen to twenty for company. Both work well.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What equipment do I need?</h3>
+        <p>A laptop or desktop computer and a reliable internet connection. A mouse is often easier than a touchpad. The software we use is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can classes be held?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We give every time in your own province's clock.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will there be tests or homework?</h3>
+        <p>There are no exams. Each class ends with a short recap and one small optional exercise, usually twenty to thirty minutes of practice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my grandchild and I learn together?</h3>
+        <p>Our courses for children and our courses for adults are separate, but many grandparents and grandchildren take parallel courses and compare projects. We are happy to suggest matching courses.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for adult learners in Canada, and for their families.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Our pages for learners in every province.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-adults">Java classes for adults</a></h3><p>A second language, once Python feels familiar.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-adults">Coding classes for adults</a></h3><p>Our general guide for adult beginners.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-classes-for-adults">AI classes for adults</a></h3><p>Understanding AI tools without the hype.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-think-like-a-programmer">Think like a programmer</a></h3><p>Breaking a task into small steps.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>What to do when a program stops.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canada-time-zones-2026-online-class-times">Canadian time zones in 2026</a></h3><p>How this year's clock changes affect classes.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>A look inside a live class.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student projects</a></h3><p>Work from our learners.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class is unhurried. We make the screen comfortable, install Python together, run a first short program, and talk about what you would like to make. You decide afterwards whether to continue.</p>
+        <p class="ag-mt-40">Would you like to read a little more first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> explains what happens in a class, and the <a class="ag-inline-link" href="/courses">full course list</a> shows each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20a%20retiree%20in%20Canada%20and%20I%20would%20like%20to%20learn%20to%20code.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'sc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are in India and teach over live video, so you learn from your own home wherever you are in Canada. If you would rather message than fill in a form, WhatsApp reaches us quickly.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_sc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Booking the first class is free, with no payment details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Learning</h4><ul><li><a href="/java-classes-for-adults">Java for adults</a></li><li><a href="/coding-classes-for-adults">Coding for adults</a></li><li><a href="/ai-classes-for-adults">AI for adults</a></li><li><a href="/courses/html-css-course-for-beginners-build-real-websites">HTML and CSS for Beginners</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/canada-time-zones-2026-online-class-times">Class times by province</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>One small program at a time</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_sc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'coding-classes-for-seniors-in-canada-inline', meta: { name: name, age: age, page: 'coding-classes-for-seniors-in-canada' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>
