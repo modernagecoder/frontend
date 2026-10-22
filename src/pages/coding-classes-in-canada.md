@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Homeschool coding and math in Ontario](/homeschool-coding-and-math-ontario)
 - [Coding classes for seniors in Canada](/coding-classes-for-seniors-in-canada)
 - [Coding classes for adults in Canada](/coding-classes-for-adults-in-canada)
 - [Math classes for kids in Canada](/math-classes-for-kids-in-canada)
