@@ -1806,3 +1806,4 @@
 
 /* Program listings in cg pages (a <code class="cg-mt-2"> block): long lines scroll inside the block, never the page. */
 .cg-root code.cg-mt-2 { display: block; max-width: 100%; overflow-x: auto; }
+.cg-root.cg-kst  { --cg-accent: #524925; --cg-accent-soft: rgba(82,73,37,.10); }   /* Scarborough kids page: a muted olive bark, #524925, allocated to this row by the Canada group so it clears every site accent by 6 RGB units and other Canada accents by 14; contrast 8.47 on the paper #FBF8F2, 7.97 and 7.29 on the two paper tints */

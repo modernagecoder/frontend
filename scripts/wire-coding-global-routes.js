@@ -1140,6 +1140,7 @@ const MARKETS = [
   // Canada cluster (scripts/nl)
   ['coding-and-ai-classes-in-toronto', 'Toronto'],
   ['ai-and-python-classes-for-teens-in-waterloo-ontario', 'Waterloo'],
+  ['coding-classes-for-kids-in-scarborough-toronto', 'Scarborough'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

@@ -54558,5 +54558,81 @@
       "Any affiliation with CEMC, the University of Waterloo, the City of Waterloo or the Ontario Ministry of Education.",
       "CEMC contest fees: left out of the copy (currency-neutral page)."
     ]
+  },
+  "coding-classes-for-kids-in-scarborough-toronto": {
+    "market": "Scarborough",
+    "bodyClass": "cg-kst",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 1 C3.2 (read and alter existing code), Grade 2 C3.1 (sequential and concurrent events) and two Grade 2 teacher notes (moving multiple objects on a grid at the same time; changing the sequence of instructions); EQAO Grade 3 window 4 May to 8 June 2027; PPM 128 rule for Grade 6 and below. CEMC Beaver Computing Challenge 2026 (Grade 5/6 eligibility, dates, 12 questions out of 60, 45 minutes, no coding needed, through a school). Area codes and Eastern time offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e).",
+    "localProject": "City of Toronto Open Data, Registered Programs and Drop In Courses Offering (Parks, Forestry & Recreation; Open Government Licence - Toronto), Drop-in and Locations tabs downloaded with curl on 22 October 2026 and joined by Location ID with our script count_dropins.py (python -I): 7,039 Drop-in rows at locations whose District is Scarborough, sessions dated 15 October to 26 November 2026, 39 locations; sessions an N-year-old fits by age: 6 639, 7 1,052, 8 1,052, 9 1,070, 10 1,100, 11 1,125, 12 1,131; age 9 by weekday Saturday 191 to Tuesday 120; 273 age 9 rows need a caregiver or family; 315 start at 3 pm or later on a weekday; Age Min field note says months while the values read as years. Labelled as ours. Lesson family: a join on a key, a numeric range filter and a weekday count.",
+    "requiredMentions": [
+      "sequential and concurrent events",
+      "move multiple objects from one location to another on a grid",
+      "minimum allowable age in months",
+      "Scarborough locations offering one",
+      "Saturday 191, Thursday 174",
+      "273 of the sessions open to a 9-year-old",
+      "Our answer was 315",
+      "Monday 9 November to Friday 20 November 2026",
+      "12 multiple-choice questions, out of a total of 60",
+      "3:30 am the next day in India"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 1 and Grade 2 math strands, C3 coding expectations and teacher notes.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_2___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum site, Elementary Mathematics (human-readable home of the API content).",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "EQAO: 2026-27 Grade 3 assessment window.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "Ontario PPM 128: personal mobile devices, Grade 6 and below rule.",
+        "url": "https://www.ontario.ca/document/education-ontario-policy-and-program-direction/policyprogram-memorandum-128"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge: 2026 dates, Grade 5/6 eligibility, format, no coding needed.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC: students cannot register individually; past contests free.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Toronto Open Data: Registered Programs and Drop In Courses Offering dataset page.",
+        "url": "https://open.toronto.ca/dataset/registered-programs-and-drop-in-courses-offering/"
+      },
+      {
+        "claim": "City of Toronto CKAN API: package metadata (weekly refresh, notes) and the Drop-in field notes.",
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/package_show?id=registered-programs-and-drop-in-courses-offering"
+      },
+      {
+        "claim": "City of Toronto: Open Government Licence - Toronto (commercial use, attribution, non-endorsement).",
+        "url": "https://open.toronto.ca/open-data-licence/"
+      },
+      {
+        "claim": "City of Toronto City Wards file (City Clerk's Office): the six Scarborough wards, 20 to 25.",
+        "url": "https://open.toronto.ca/dataset/city-wards/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Scarborough or Toronto population figure: StatCan was not reachable live, so none is printed.",
+      "The 1998 amalgamation date: no City of Toronto page was fetched raw, so the page relies on the City files that list Scarborough as a district.",
+      "Names of recreation centres, parks or rinks: left out, since some carry the names of people or schools.",
+      "That the Age Min and Age Max values are months: rejected after reading the values; the page explains the mismatch and reads them as years.",
+      "A count of places or spots in sessions: the file lists sessions, not capacity, so no capacity figure is given.",
+      "Any total of drop-ins across all ages or the whole city: not printed; each count is for one age and Scarborough only.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of Scarborough schools, school boards or private people: not used.",
+      "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
