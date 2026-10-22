@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CIMC and CSMC 2026: Dates, Marking and Practice</title>
+  <meta name="description" content="CEMC's CIMC and CSMC on 18 November 2026: nine questions in two hours out of 60, Part A boxes and Part B written solutions, 2025 averages and original practice.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/cimc-and-csmc-contest-guide">
+  <link rel="alternate" type="text/markdown" href="/src/pages/cimc-and-csmc-contest-guide.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#376660">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/cimc-and-csmc-contest-guide">
+  <meta property="og:title" content="CIMC and CSMC 2026: Dates, Marking and Practice">
+  <meta property="og:description" content="CEMC lists the Canadian Intermediate and Senior Mathematics Contests for Wednesday, November 18, 2026 in the Americas. The two-part paper, the 2025 question averages, a full model solution and a four-week plan.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CIMC and CSMC 2026: Dates, Marking and Practice">
+  <meta name="twitter:description" content="CIMC and CSMC 2026: the two-part paper, the 2025 averages and when to jump to Part B.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cccg .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-cccg .ag-capsule { border-left-width: 4px; border-radius: 2px; }
+.ag-root.ag-cccg .ag-section-head h2 { max-width: 36ch; }
+.ag-root.ag-cccg .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-cccg .ag-band-head h3 { letter-spacing: -0.01em; }
+.ag-root.ag-cccg .ag-slots { gap: 1.1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/cimc-and-csmc-contest-guide#page","url":"https://learn.modernagecoders.com/cimc-and-csmc-contest-guide","name":"CIMC and CSMC Contest Guide","description":"A guide for Grade 9 to 12 students in Canada and their parents to CEMC's Canadian Intermediate and Senior Mathematics Contests, built from CEMC's contest page, the 2025 booklet covers and the 2025 results booklet, with a model written solution, original practice problems and a four-week plan.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CEMC Waterloo contests","item":"https://learn.modernagecoders.com/cemc-waterloo-contests-preparation"},{"@type":"ListItem","position":5,"name":"CIMC and CSMC","item":"https://learn.modernagecoders.com/cimc-and-csmc-contest-guide"}]},{"@type":"Course","name":"CIMC and CSMC Contest Guide","description":"Live online preparation for the CEMC Waterloo math contests, including the November CIMC and CSMC with weekly marked written solutions, for students across Canada, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/cimc-and-csmc-contest-guide"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/cimc-and-csmc-contest-guide"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/cimc-and-csmc-contest-guide"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the CIMC and the CSMC?","acceptedAnswer":{"@type":"Answer","text":"They are the Canadian Intermediate Mathematics Contest and the Canadian Senior Mathematics Contest, run by CEMC at the University of Waterloo on the same day each November. The CIMC is for Grades 9 and 10, the CSMC for Grades 11, 12 and CEGEP."}},{"@type":"Question","name":"When are the CIMC and CSMC in 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists Wednesday, November 18, 2026 in North and South America and Thursday, November 19, 2026 elsewhere. The school ordering deadline was Thursday, October 22, 2026."}},{"@type":"Question","name":"What does the paper look like?","acceptedAnswer":{"@type":"Answer","text":"Nine questions in two hours, scored out of 60. Part A has six answer-only questions worth 5 marks each; Part B has three full-solution questions worth 10 marks each, marked for completeness, clarity and presentation."}},{"@type":"Question","name":"Should my child finish Part A before starting Part B?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. The booklet cover itself says the early Part B problems are likely easier than the later Part A problems, and in 2025 the first Part B question averaged about 7 out of 10 in both contests. We teach an order that takes the first two Part B questions before the last two boxes."}},{"@type":"Question","name":"What were the 2025 averages?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists a 2025 mean of 28.6 out of 60 on the CSMC and 29.1 on the CIMC, with a Certificate of Distinction cutoff of 35 on both. There were 15 153 CSMC and 13 039 CIMC contestants."}},{"@type":"Question","name":"Can a student register for the CIMC or CSMC alone?","acceptedAnswer":{"@type":"Answer","text":"No. CEMC contests are ordered by schools, and the student writes at school under supervision. If your school does not take part, CEMC suggests asking another local school whether your child can join its writers."}},{"@type":"Question","name":"Is the CSMC required for University of Waterloo admission?","acceptedAnswer":{"@type":"Answer","text":"No. CEMC says the CSMC is not required for admission to the Faculty of Mathematics, and the Faculty says writing the CSMC or the Euclid is required for some scholarship decisions. We make no promises about admissions or scholarships."}},{"@type":"Question","name":"Are calculators allowed?","acceptedAnswer":{"@type":"Answer","text":"Some are. The 2025 cover allows calculating devices without internet access, communication with other devices, stored notes or programs, a computer algebra system or dynamic geometry software. Written solutions still have to show the reasoning."}},{"@type":"Question","name":"What if my child missed the 2026 order?","acceptedAnswer":{"@type":"Answer","text":"The next CEMC full-solution contests are the Fryer, Galois and Hypatia Contests on Wednesday, April 7, 2027 for Grades 9 to 11, and the Euclid on Tuesday, April 6, 2027 for the final year. Schools order both by Thursday, March 11, 2027."}},{"@type":"Question","name":"When do your CIMC and CSMC classes run?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern time and confirmed in your own zone, which matters in November because the eastern provinces have just changed their clocks."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/cimc-and-csmc-contest-guide","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-cccg">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#facts">November 2026</a></li>
+      <li><a href="#paper">Two parts</a></li>
+      <li><a href="#averages">2025 averages</a></li>
+      <li><a href="#model">Model solution</a></li>
+      <li><a href="#practice">Practice</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / <a href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a> / CIMC and CSMC
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; CEMC CIMC and CSMC &middot; Grades 9 to 12</p>
+        <h1>CIMC and CSMC contest guide, November 2026</h1>
+        <p class="ag-lede">Every November, Waterloo's CEMC runs two contests side by side on the same morning: the Canadian Intermediate Mathematics Contest for Grades 9 and 10 and the Canadian Senior Mathematics Contest for Grades 11, 12 and CÉGEP. They share one shape, a two-hour paper split into six boxed answers and three written solutions, and one awkward fact printed on the cover: the first written question is usually easier than the last few boxed ones. This guide is built from CEMC's contest page, the covers of the 2025 booklets and CEMC's 2025 results booklet. It sets out what the paper asks, how far students got on each question in 2025, an order of attack built on that, a complete model solution of ours, seven practice problems of ours and a four-week plan to Wednesday, November 18, 2026.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#averages" class="ag-btn ag-btn--ghost">See the 2025 averages</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20writing%20the%20CIMC%20or%20CSMC%20on%2018%20November%202026%20and%20we%20would%20like%20some%20focused%20preparation.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cccg'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students &middot; every practice problem on this page written by our teachers</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>CEMC, University of Waterloo</dd>
+          <dt>CIMC</dt><dd>Grades 9 and 10</dd>
+          <dt>CSMC</dt><dd>Grades 11 and 12, and CÉGEP</dd>
+          <dt>2026 date</dt><dd>Wednesday, November 18, 2026 (Americas)</dd>
+          <dt>Paper</dt><dd>9 questions, 2 hours, out of 60</dd>
+          <dt>Parts</dt><dd>A: six boxed answers. B: three written solutions</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>First step</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In brief</p>
+      <p>The CIMC (Grades 9 and 10) and the CSMC (Grades 11, 12 and CÉGEP) are CEMC's November math contests: nine questions in two hours, six answer-only and three full-solution, scored out of 60 and written at school on Wednesday, November 18, 2026 in the Americas. Modern Age Coders teaches both papers live online, to batches or to single students, through its course Waterloo Math Contests: Gauss to Euclid.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses behind the November pair</p>
+      <h2>Where our CIMC and CSMC preparation is taught</h2>
+      <p class="ag-lede">The contest course runs the timed papers and returns every written solution marked. The competition course is for the Part B question nobody finishes. The high school course closes the curriculum gaps that a CSMC paper finds quickly.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/waterloo-math-contests-gauss-to-euclid-course">
+        <div class="ag-pick-shot"><img src="/images/waterloo-math-contests.webp" alt="Waterloo Math Contests course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCCG / 01</p>
+          <h3>Waterloo Math Contests: Gauss to Euclid</h3>
+          <p>Ages 11 to 18. Grades 9 and 10 meet the CIMC; Grades 11 and 12 meet the CSMC, with a marked written solution every week.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCCG / 02</p>
+          <h3>Competition mathematics</h3>
+          <p>Proof, number theory and counting at the level of the third Part B question.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CCCG / 03</p>
+          <h3>High school math, Grades 9 to 12</h3>
+          <p>Quadratics, geometry and functions: the school topics the November papers lean on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="facts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">November 2026</p><h2>The 2026 CIMC and CSMC, as CEMC lists them</h2><p class="ag-lede">Everything in this table is from CEMC's Canadian Senior and Intermediate Mathematics Contests page, read on 22 October 2026, the same day CEMC's ordering window for schools closed.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 2026 Canadian Intermediate and Senior Mathematics Contests, from CEMC (read 22 October 2026)</caption><thead><tr><th scope="col">Question</th><th scope="col">CEMC's answer</th></tr></thead><tbody><tr><td>Contest day</td><td>"North and South America: Wednesday, November 18, 2026". Schools elsewhere write on Thursday, November 19, 2026.</td></tr><tr><td>School ordering deadline</td><td>Thursday, October 22, 2026. That date has now arrived, so a family that has not yet asked should check with the school today whether an order went in.</td></tr><tr><td>Who writes the CIMC</td><td>"Students in Grades 9 and 10 are eligible to write the CIMC."</td></tr><tr><td>Who writes the CSMC</td><td>"Students in Grades 11 and 12 and CÉGEP students are eligible to write the CSMC."</td></tr><tr><td>The paper</td><td>"9 questions; 6 are answer only and 3 are full-solution." Two hours. "Score out of 60."</td></tr><tr><td>How it is written</td><td>In school, individually, on paper. Some calculators are permitted.</td></tr><tr><td>What math</td><td>CIMC: mostly topics "commonly taught up to and including Grade 10". CSMC: mostly the curriculum "up to and including the final year of secondary school".</td></tr><tr><td>Start time</td><td>As close to the start of the school day as possible, in the school's own time zone, on the official date.</td></tr><tr><td>Results</td><td>In the Contest Supervisor Portal four weeks after the contest date.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>One shipping rule, two answers</h3><p>CEMC has split its shipping rule by contest for schools in Canada. CSMC question booklets are no longer posted; instead the school prints them from a CEMC download area roughly a day ahead of the contest.</p>
+<p>CIMC question booklets are still shipped to schools in Canada as before. Either way, the student sees a printed booklet on the desk, and the finished papers travel back to CEMC together for marking.</p></div><div><h3>Official participants differ too</h3><p>At a school in Canada, a CSMC writer counts as official when the Student Information Form is filled in properly, the student was born in 2008 or later, and the student lives in Canada.</p>
+<p>For the CIMC the test is grade, not birth date: a writer is official if they are in Grade 10 or below and complete the form. Unofficial writers are still marked, and CEMC says they remain eligible for certificates and medals.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/csimc" rel="noopener" target="_blank">CEMC, Canadian Senior and Intermediate Mathematics Contests</a>, read 22 October 2026. Modern Age Coders is an independent teaching company with no connection to CEMC or the University of Waterloo; we cannot place contest orders or mark papers. On entry, CEMC states that "all students must participate through their school."</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="paper">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Two parts, one cover</p><h2>Part A boxes, Part B arguments, and the line that links them</h2><p class="ag-lede">The front covers of CEMC's 2025 CSMC and CIMC booklets are word for word the same apart from the contest name. They describe a paper in two halves, and one sentence on them should change how a student spends the two hours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 2025 CSMC and CIMC booklet covers, quoted (no problems reproduced)</caption><thead><tr><th scope="col"></th><th scope="col">Part A</th><th scope="col">Part B</th></tr></thead><tbody><tr><td>Size</td><td>"six questions, each worth 5 marks"</td><td>"three questions, each worth 10 marks"</td></tr><tr><td>What earns marks</td><td>"full marks will be given for a correct answer which is placed in the box"</td><td>"Marks are awarded for completeness, clarity, and style of presentation."</td></tr><tr><td>If the answer is wrong</td><td>"Part marks will be awarded only if relevant work is shown"</td><td>Written work is marked on its own merits, part by part</td></tr><tr><td>Working</td><td>In the space provided in the answer booklet</td><td>"Rough work should be done separately."</td></tr><tr><td>Order</td><td>Roughly easier to harder</td><td>Roughly easier to harder</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The sentence that matters sits just above Part A: "The early problems in Part B are likely easier than the later problems in Part A." In other words the paper is not one ladder but two, and the bottom rung of the second ladder is lower than the top rungs of the first. A student who works straight through from question A1 will often arrive at Part B with twenty minutes left, having spent forty on two boxed questions worth 5 marks each, while a Part B question worth 10 marks, whose first part is close to routine, waits unread.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the parts of a Part B question matter</h3><p>Part B questions are usually split into (a), (b) and (c) or more, climbing as they go. The early parts are often short and checkable, and each one earns marks on its own even if the last part is never finished.</p>
+<p>So "attempt Part B" does not mean "solve Part B". It means collect the parts that are within reach, write them properly, and leave the final part for whatever time remains.</p></div><div><h3>Calculators, briefly</h3><p>The cover allows calculating devices without internet access, the ability to communicate with other devices, stored notes or programs, a computer algebra system or dynamic geometry software.</p>
+<p>On a written solution, a number from the screen is not an argument. If a calculator gave the answer, the solution still has to show where it came from.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="averages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 2025 papers in numbers</p><h2>How each 2025 CSMC and CIMC question went</h2><p class="ag-lede">CEMC's 2025 results booklet prints the average mark on every question of both contests. Part A questions are out of 5 and Part B questions out of 10, so the two halves of the table are on different scales.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Average mark per question, 2025 CSMC and CIMC, from CEMC's 2025 CSIMC Results Booklet (Problem Averages)</caption><thead><tr><th scope="col">Question</th><th scope="col">CSMC average</th><th scope="col">CIMC average</th><th scope="col">Out of</th></tr></thead><tbody><tr><td>A1</td><td>4.5</td><td>4.7</td><td>5</td></tr><tr><td>A2</td><td>4.4</td><td>4.6</td><td>5</td></tr><tr><td>A3</td><td>3.5</td><td>4.5</td><td>5</td></tr><tr><td>A4</td><td>2.8</td><td>1.8</td><td>5</td></tr><tr><td>A5</td><td>0.8</td><td>1.0</td><td>5</td></tr><tr><td>A6</td><td>0.2</td><td>0.1</td><td>5</td></tr><tr><td>B1</td><td>7.3</td><td>6.9</td><td>10</td></tr><tr><td>B2</td><td>4.0</td><td>4.0</td><td>10</td></tr><tr><td>B3</td><td>0.7</td><td>1.1</td><td>10</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Headline figures for 2025, from CEMC's contest page</caption><thead><tr><th scope="col">Measure</th><th scope="col">CSMC 2025</th><th scope="col">CIMC 2025</th></tr></thead><tbody><tr><td>Average (mean), out of 60</td><td>28.6</td><td>29.1</td></tr><tr><td>Certificate of Distinction cutoff</td><td>35</td><td>35</td></tr><tr><td>School Medal Champion cutoff</td><td>28</td><td>29</td></tr><tr><td>Number of contestants</td><td>15 153</td><td>13 039</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Our reading, and it is only ours. In both contests the first written question, B1, averaged about 7 out of 10, while the last two boxed questions, A5 and A6, averaged 1 out of 5 or less. Measured as a share of the marks available, B1 went far better than A5 or A6, which is exactly what the cover predicts. B2 averaged 4 out of 10 in both contests, so a half-finished B2 is a respectable result, not a failure. And because a correct box on A5 or A6 was rare, a student who earns one is well ahead of the field on that question; a student who spends half an hour failing to earn one has paid for it on Part B. We have not added these averages together; CEMC publishes the overall means itself, and CEMC reports 28192 students enrolled across both contests in 2025.</p>
+    <p class="ag-source-note ag-mt-40">Sources: CEMC's 2025 CSIMC Results Booklet (Problem Averages, Key Statistics and Enrollment) and the averages and cut-offs table on the <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/csimc" rel="noopener" target="_blank">CSIMC page</a>, read 22 October 2026. The 2025 contests were written on Wednesday, November 12, 2025 in the Americas.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="attack">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Order of attack</p><h2>A 120-minute plan that respects both ladders</h2><p class="ag-lede">This is the order our students practise with from their first timed paper. It is ours, not CEMC's, and it is built on the cover sentence and the 2025 averages above.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our order of attack for a two-hour CIMC or CSMC paper (ours)</caption><thead><tr><th scope="col">Minutes</th><th scope="col">Work on</th><th scope="col">Rule</th></tr></thead><tbody><tr><td>0 to 30</td><td>A1 to A4</td><td>Box each answer; write a line of working under any answer you are not sure of</td></tr><tr><td>30 to 55</td><td>B1, every part</td><td>Written properly the first time, with a closing sentence</td></tr><tr><td>55 to 80</td><td>B2, as many parts as possible</td><td>Each part finished before the next is started</td></tr><tr><td>80 to 100</td><td>A5 and A6</td><td>Ten minutes each, no more; working shown in case it earns part marks</td></tr><tr><td>100 to 115</td><td>B3 part (a), or the unfinished B2 part</td><td>Whichever is closer to a complete answer</td></tr><tr><td>115 to 120</td><td>Everything</td><td>Every box filled, every written part ending in a sentence that answers it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why A5 and A6 move to the middle</h3><p>They are worth 5 marks each and, on 2025 evidence, rarely earned. B1 and B2 are worth 10 each and earn marks part by part. Doing B1 and B2 before A5 and A6 protects the larger, more reliable marks first.</p>
+<p>The boxed questions are not abandoned. They are simply taken when a stuck student can no longer lose a written part by lingering.</p></div><div><h3>When to break the plan</h3><p>A student who reads A5 and sees the idea at once should take it there and then. The plan is for the student who would otherwise stare at it.</p>
+<p>A Grade 9 student writing a first CIMC may never reach A5 at all, and that is fine: A1 to A4 plus B1 and part of B2 is a good first paper.</p></div></div>
+    <p class="ag-mt-40">Students resist this at first, because finishing Part A feels tidy. We run the same past paper twice, a week apart, once straight through and once in this order, and compare the two marks. That comparison usually settles the argument better than anything a teacher says.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="model">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A written solution of ours</p><h2>A Part B question with three parts, solved the way markers want</h2><p class="ag-lede">The question is our own wording of a well-known fact about sums of consecutive integers, and the solution is written by us for our CSMC students; none of it comes from a CEMC paper. It shows a feature of good Part B writing that students miss: the parts do not have to be written in the order they are asked, as long as each one is labelled.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Run numbers &middot; our three-part question and our complete solution</b><span>text</span></figcaption><pre>Part B question (ours). Call a positive integer a run number
+if it equals the sum of two or more consecutive positive integers.
+
+(a) Show that 15 is a run number in three different ways.
+(b) Explain why 64 is not a run number.
+(c) Prove that no power of 2 is a run number.
+
+(a) 15 = 7 + 8 = 4 + 5 + 6 = 1 + 2 + 3 + 4 + 5.
+
+(c) first, because (b) then follows from it.
+Suppose N is the sum of k consecutive positive integers
+starting at a, where k &gt;= 2 and a &gt;= 1. Then
+    N = a + (a + 1) + ... + (a + k - 1) = k(2a + k - 1) / 2,
+so 2N = k(2a + k - 1).
+
+The two factors k and 2a + k - 1 add to 2a + 2k - 1,
+which is odd, so one factor is odd and the other is even.
+Both factors are at least 2: k &gt;= 2 by assumption,
+and 2a + k - 1 &gt;= 2 + 2 - 1 = 3.
+So 2N has an odd factor that is at least 3.
+
+A power of 2 doubled is still a power of 2, and its only
+odd factor is 1. So N cannot be a power of 2.
+
+(b) 64 = 2^6 is a power of 2, so by (c) it is not a run number.
+
+Therefore 15 is a run number in the three ways shown,
+and no power of 2, including 64, is a run number.</pre></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>What each piece of the write-up is doing (our classroom notes)</caption><thead><tr><th scope="col">Piece</th><th scope="col">Its job</th></tr></thead><tbody><tr><td>(a) as three sums on one line</td><td>A short-answer style part needs the answer, cleanly. Three examples are all part (a) asks for</td></tr><tr><td>Writing (c) before (b), and saying so</td><td>The proof in (c) makes (b) a one-line consequence. A clear label lets the marker follow the order</td></tr><tr><td>The formula 2N = k(2a + k - 1)</td><td>Turns a sentence about runs into an equation that can be argued about</td></tr><tr><td>The parity step</td><td>Two numbers whose sum is odd cannot both be even: this is the idea of the whole proof, stated with its reason</td></tr><tr><td>"Both factors are at least 2"</td><td>Without it, the odd factor might be 1 and the proof would prove nothing. This is the line most first drafts lack</td></tr><tr><td>The closing sentence</td><td>Answers all three parts in words, so nothing is left for the marker to assemble</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where the marks hide</h3><p>Part (b) asked only to "explain why". A student who tests every run length from 2 to 10 and finds nothing has not explained anything, because the list could go on. A student who points to (c) has.</p>
+<p>Part (c) is where the 2025 averages say most Part B marks are lost. A proof does not need to be long; it needs every step to have a reason a stranger can check.</p></div><div><h3>A follow-up for strong students</h3><p>The converse is also true: every positive integer that is not a power of 2 is a run number. Proving it means choosing a and k from an odd factor, and it makes a good extension once (c) feels easy.</p>
+<p>We set the converse as homework only after a student can write (c) cleanly from memory in under ten minutes.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Seven practice problems</p><h2>Original CIMC and CSMC practice, with solutions</h2><p class="ag-lede">All seven are our practice problems, not CEMC problems, and none is adapted from a past paper. Problems 1 to 5 are boxed-answer questions at roughly Part A level; the last two are three-part written questions at roughly B1 and B2 level. Every answer was checked in Python.</p></div>
+    <p><b>Problem 1.</b> <i>Ours, written for this page, not from CEMC. Part A level.</i> A rectangle has perimeter 34 and a diagonal of length 13. What is its area?</p>
+    <p><b>Solution.</b> Let the sides be l and w. Then l + w = 17 and l<sup>2</sup> + w<sup>2</sup> = 169. Since (l + w)<sup>2</sup> = l<sup>2</sup> + w<sup>2</sup> + 2lw, we get 289 = 169 + 2lw, so lw = 60. The area is 60. The sides happen to be 5 and 12, but the question never needs them.</p>
+    <p class="ag-mt-40"><b>Problem 2.</b> <i>Ours, written for this page, not from CEMC. Part A level.</i> How many positive divisors does 720 have?</p>
+    <p><b>Solution.</b> 720 = 2<sup>4</sup> x 3<sup>2</sup> x 5. A divisor chooses an exponent of 2 from 0 to 4, of 3 from 0 to 2 and of 5 from 0 to 1, so there are 5 x 3 x 2 = 30 divisors. Listing them one by one is how a student loses ten minutes.</p>
+    <p class="ag-mt-40"><b>Problem 3.</b> <i>Ours, written for this page, not from CEMC. Part A level.</i> A box holds 3 green and 5 yellow counters. Two counters are taken out at random, one after the other, without putting the first back. What is the probability that the two match in colour?</p>
+    <p><b>Solution.</b> Count unordered pairs: 8 x 7 / 2 = 28 equally likely pairs in all. Green pairs: 3 x 2 / 2 = 3. Yellow pairs: 5 x 4 / 2 = 10. The probability is (3 + 10) / 28 = 13/28.</p>
+    <p class="ag-mt-40"><b>Problem 4.</b> <i>Ours, written for this page, not from CEMC. Part A level.</i> A square is drawn inside a circle of radius 5 with all four corners on the circle. What is the area of the region inside the circle but outside the square? Give an exact answer.</p>
+    <p><b>Solution.</b> The diagonal of the square is a diameter, 10, so the area of the square is 10<sup>2</sup> / 2 = 50. The circle has area 25&pi;, so the region has area 25&pi; - 50. Writing 28.54 would lose the box: the exact form is the answer.</p>
+    <p class="ag-mt-40"><b>Problem 5.</b> <i>Ours, written for this page, not from CEMC. Late Part A level.</i> How many integers from 1 to 1000 inclusive are divisible by 6 or by 10, but not by 15?</p>
+    <p><b>Solution.</b> Divisible by 6: 166. By 10: 100. By both, that is by 30: 33. So 166 + 100 - 33 = 233 are divisible by 6 or 10. A number divisible by 6 and by 15 is divisible by 30, and so is a number divisible by 10 and by 15, so the ones to remove are exactly the 33 multiples of 30. The answer is 233 - 33 = 200. The trap is subtracting the multiples of 15 directly, which counts numbers like 45 that were never in the list.</p>
+    <p class="ag-mt-40"><b>Problem 6.</b> <i>Ours, written for this page, not from CEMC. Part B level, written solution.</i> A triangle has side lengths 13, 14 and 15. (a) Determine its area. (b) Determine the length of the altitude to the side of length 14. (c) Determine the radius of the circle that touches all three sides.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem 6 &middot; our complete written solution</b><span>text</span></figcaption><pre>Part B practice 2 (ours), triangle with sides 13, 14 and 15.
+Put the side of length 14 on the x-axis, from B(0, 0) to C(14, 0),
+and let the third vertex be A(x, h) with h &gt; 0.
+
+AB = 13:  x^2 + h^2 = 169
+AC = 15:  (x - 14)^2 + h^2 = 225
+Subtract: (x - 14)^2 - x^2 = 56, so -28x + 196 = 56 and x = 5.
+Then h^2 = 169 - 25 = 144, so h = 12.
+
+(a) Area = (1/2)(14)(12) = 84.
+(b) The altitude to the side of length 14 is h = 12.
+(c) Join the incentre I to A, B and C. The three small triangles
+    have height r and bases 13, 14 and 15, so
+    84 = (1/2) r (13 + 14 + 15) = 21r, and r = 4.</pre><p class="ag-code-note">Part (a) gives part (b) for free here, because the coordinates already found the height. Part (c) uses a different idea, splitting the triangle at the incentre, and that change of idea is typical of a final part.</p></figure>
+    <p class="ag-mt-40"><b>Problem 7.</b> <i>Ours, written for this page, not from CEMC. Part B level, written solution.</i> Let f(x) = x<sup>2</sup> - 6x + 13. (a) Write f(x) in the form (x - p)<sup>2</sup> + q. (b) Determine the smallest value of f(x) and the value of x where it occurs. (c) Determine all real numbers x for which f(x) + f(x + 2) = 20.</p>
+    <p><b>Solution.</b> (a) x<sup>2</sup> - 6x + 13 = (x - 3)<sup>2</sup> + 4. (b) A square is never negative, so f(x) is at least 4, with equality exactly when x = 3. The smallest value is 4, at x = 3. (c) Using (a), f(x + 2) = (x - 1)<sup>2</sup> + 4. The equation becomes (x - 3)<sup>2</sup> + (x - 1)<sup>2</sup> + 8 = 20, so 2x<sup>2</sup> - 8x + 10 = 12, which is x<sup>2</sup> - 4x - 1 = 0. The quadratic formula gives x = 2 + &radic;5 or x = 2 - &radic;5. Both are real numbers and both satisfy the equation, so both are answers.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How to use the set</h3><p>Sit problems 1 to 5 in 30 minutes with the boxes only, then compare. Any wrong answer with no working shown would have earned nothing on the day.</p>
+<p>Write problems 6 and 7 as full solutions, timed at 25 minutes each, then check every line against ours. A missing reason is a missing mark.</p></div><div><h3>The habit underneath</h3><p>Problems 1 and 7 both reward reusing an earlier result instead of starting again. Problem 5 rewards reading the condition exactly. Problem 4 rewards exact forms.</p>
+<p>Those habits are worth more on a November morning than any single formula, and they carry straight into the April contests.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="which">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Choosing the contest</p><h2>CIMC or CSMC: which paper a student should write</h2><p class="ag-lede">The rules below are CEMC's; the advice beside them is ours. Most families find the choice is simple once the grade is clear.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Choosing between the CIMC and the CSMC (rules from CEMC, advice ours)</caption><thead><tr><th scope="col">Student</th><th scope="col">CEMC's rule</th><th scope="col">Our advice</th></tr></thead><tbody><tr><td>Grade 9</td><td>Eligible for the CIMC</td><td>Write the CIMC; aim for A1 to A4 and B1</td></tr><tr><td>Grade 10</td><td>Eligible for the CIMC</td><td>Write the CIMC; a strong Grade 10 student can aim at B2 in full</td></tr><tr><td>Grade 11</td><td>Eligible for the CSMC</td><td>Write the CSMC; it is also the route to CEMC's Auckland workshop for Grade 11 writers</td></tr><tr><td>Grade 12 or CÉGEP</td><td>Eligible for the CSMC</td><td>Write the CSMC in November and treat it as the first rehearsal for the Euclid in April</td></tr><tr><td>Younger and keen</td><td>CEMC welcomes motivated students from lower grades</td><td>Pick the paper that stretches without crushing, and enjoy it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the November contests lead to</h3><p>CEMC's student workshops page describes the Lloyd Auckland Invitational Mathematics workshop as bringing "together high-achieving Grade 11 Canadian Senior Mathematics Contest participants from Canada for a week-long immersive experience."</p>
+<p>Invitations are CEMC's to make. We prepare students for the paper; we cannot nominate anyone, and we never suggest a score will lead to an invitation.</p></div><div><h3>What Waterloo says about the CSMC</h3><p>CEMC is clear that a Waterloo Math applicant does not have to have written the CSMC. The Faculty's scholarships page adds that writing the CSMC or the Euclid "is required for some scholarship decisions."</p>
+<p>A Grade 12 student interested in those scholarships should read the Faculty's page directly. We make no claim about how any score is used.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/workshops/student-workshops" rel="noopener" target="_blank">CEMC, Student workshops</a> and <a class="ag-inline-link" href="https://uwaterloo.ca/math/undergraduate-studies/applying/scholarships" rel="noopener" target="_blank">University of Waterloo, Faculty of Mathematics scholarships</a>, read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="morning">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">18 November 2026</p><h2>Contest morning after the clocks change</h2><p class="ag-lede">The contest falls in the first month of winter time. Ontario, Quebec and the Atlantic provinces moved their clocks back on 1 November 2026, so the offsets below are winter ones.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>UTC offsets on Wednesday, November 18, 2026 (tz database, release 2026e)</caption><thead><tr><th scope="col">Province or zone</th><th scope="col">Offset</th></tr></thead><tbody><tr><td>Newfoundland and Labrador (island time)</td><td>UTC-3:30</td></tr><tr><td>The Maritimes, on Atlantic time</td><td>UTC-4</td></tr><tr><td>Eastern time: Ontario and Quebec</td><td>UTC-5</td></tr><tr><td>Manitoba, now on one offset all year</td><td>UTC-5</td></tr><tr><td>Prairies west of Manitoba</td><td>UTC-6</td></tr><tr><td>Most of BC, and Yukon</td><td>UTC-7</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Each school starts close to the beginning of its own school day, so there is no single national start. One consequence for our classes: from November, Toronto and Winnipeg read the same clock, which makes a shared evening batch easier to place. We still confirm every class time with each family in their own zone.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Four weeks</p><h2>A four-week plan from 22 October to 18 November 2026</h2><p class="ag-lede">For a student whose school has ordered the contest, four weeks is enough to change how the two hours are spent, even if it is not enough to learn new mathematics. Our plan, with two live classes a week:</p></div>
+    <ol class="ag-steps"><li><b>Week 1, 22 to 28 October 2026: one past paper straight through, untimed.</b> Mark it together. Find out which Part A questions were lost to mathematics and which to time.</li><li><b>Week 2, 29 October to 4 November 2026: Part B writing.</b> Two B1 questions from past papers and our problem 6, written in full and returned marked for completeness, clarity and presentation.</li><li><b>Week 3, 5 to 11 November 2026: the order of attack.</b> One full paper timed at 120 minutes using the plan above, then the same paper reviewed for which marks the order saved.</li><li><b>Week 4, 12 to 18 November 2026: rehearsal and rest.</b> One last timed paper early in the week, a short review of written-solution habits, and nothing heavy the evening before the contest.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Missed this year's order?</h3><p>The Fryer, Galois and Hypatia Contests on Wednesday, April 7, 2027 are CEMC's next full-solution papers for Grades 9 to 11, ordered by Thursday, March 11, 2027.</p></div><div><h3>Grade 12 or CÉGEP</h3><p>The Euclid on Tuesday, April 6, 2027 is the next step; CSMC practice is close to ideal preparation for its middle questions.</p></div><div><h3>Starting from scratch</h3><p>Begin in September 2027 with a full term of written solutions before the next November paper.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="archive">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Free CEMC help</p><h2>CEMC's free CIMC and CSMC resources, and how we fit them in</h2><p class="ag-lede">CEMC publishes past papers, solutions and preparation material for the November contests at no cost. We send students there rather than copying any of it, and we write our own problems alongside.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Free CEMC material for the November contests (read 22 October 2026)</caption><thead><tr><th scope="col">Resource</th><th scope="col">What CEMC offers</th><th scope="col">How we use it</th></tr></thead><tbody><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">Past contests</a></td><td>Past CIMC and CSMC papers with their solutions and results</td><td>Weeks 1, 3 and 4 of the plan; solutions read only after a full written attempt</td></tr><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/csmc-and-euclid-preparation-material" rel="noopener" target="_blank">CSMC preparation materials</a></td><td>Eight topic modules aimed at the CSMC</td><td>One module a week for Grade 11 and 12 students after November, building toward the Euclid</td></tr><tr><td>CSMC Preparation Workshops</td><td>A short series of "three 60-minute sessions" built on those eight modules</td><td>A good extra for a Grade 11 or 12 student who wants to hear CEMC's own presenters</td></tr><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/courseware" rel="noopener" target="_blank">Courseware</a></td><td>Free online lessons for the curriculum the contests rest on</td><td>Targeted review when a past paper shows a curriculum gap</td></tr><tr><td>CEMC Visits Schools</td><td>Problem-solving workshops run by CEMC staff at schools</td><td>A school-level option worth mentioning to a head of math</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Students who want the broader picture of CEMC's year, from the Gauss Contest in Grades 7 and 8 to the Euclid, will find it on our <a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a> page. For a Grade 9 to 11 student the February multiple-choice papers come next: <a class="ag-inline-link" href="/pascal-contest-preparation">Pascal</a>, <a class="ag-inline-link" href="/cayley-contest-preparation">Cayley</a> and <a class="ag-inline-link" href="/fermat-contest-preparation">Fermat</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Placing a student</p>
+      <h2>Four stages on a two-part paper</h2>
+      <p class="ag-lede">Our stages, used in the first class to decide where a student starts.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From boxes only to both ladders (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What we see</th></tr></thead><tbody><tr><td>1. Box filler</td><td class="ag-num">Answers A1 to A3 correctly and leaves Part B nearly blank</td></tr><tr><td>2. Starter</td><td class="ag-num">Earns B1 (a) and (b) but writes them as bare numbers</td></tr><tr><td>3. Writer</td><td class="ag-num">Finishes B1 and most of B2 with reasons, and boxes A1 to A4</td></tr><tr><td>4. Climber</td><td class="ag-num">Takes a part of B3 or a box from A5 and A6 on most papers</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 1 is where most good school students begin, because school tests rarely ask for an argument written for a stranger. The jump to stage 3 is a writing habit, and habits take weekly practice.</p>
+<p>A November paper is a useful checkpoint even for a student whose real goal is April. It shows, early in the year, exactly which kind of mark is being lost.</p></div><div><h3>For students</h3><p>Read all three Part B questions in the first five minutes. Knowing what is waiting changes how long you will tolerate a stuck box.</p>
+<p>Label every written part clearly, and end each one with a sentence that answers it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Further courses</p>
+      <h2>Nine courses for a Grade 9 to 12 contest student</h2>
+      <p class="ag-lede">Live online classes with one teacher who follows the student all year, in a batch or one to one, joined from any province.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Grades 9 and 10</h3>
+        <span class="ag-band-sub">The CIMC years</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / MID / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Linear and quadratic work done until it is automatic.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / MID / 02</p>
+          <h4>Proof and problem solving</h4>
+          <p>An early start on written arguments.</p>
+          <a class="ag-course-link" href="/courses/jee-foundation-maths-course-class-8-10">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / MID / 03</p>
+          <h4>Math through coding</h4>
+          <p>Python used to test a conjecture before proving it.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Grades 11 and 12</h3>
+        <span class="ag-band-sub">The CSMC years</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / SEN / 01</p>
+          <h4>Ontario Grade 12 university math</h4>
+          <p>MHF4U and MCV4U alongside the school course.</p>
+          <a class="ag-course-link" href="/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / SEN / 02</p>
+          <h4>Pre-calculus 12 and Math 30-1</h4>
+          <p>For students in British Columbia and the Prairies.</p>
+          <a class="ag-course-link" href="/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / SEN / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>Counting and probability, the topic that decides many Part A boxes.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Contests in code</h3>
+        <span class="ag-band-sub">For students who also program</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / CODE / 01</p>
+          <h4>CCC Junior and Senior</h4>
+          <p>CEMC's programming contest on 17 February 2027.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / CODE / 02</p>
+          <h4>ICS3U and ICS4U companion</h4>
+          <p>Ontario computer science, taught beside the school course.</p>
+          <a class="ag-course-link" href="/courses/ics3u-ics4u-computer-science-companion-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CCCG / CODE / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic and algorithms that sit between math contests and coding contests.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Class arrangements</p>
+      <h2>Live CIMC and CSMC classes, fitted around the school week</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school batches set in Eastern time and shown on your own clock.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning classes for timed papers without a school day before them.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A private plan counted back from 18 November 2026.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Written work returned</h3><p>Each Part B solution comes back marked within the week.</p></div>
+      <div><h3>Problems we write</h3><p>Fresh boxed and written questions beside CEMC's archive.</p></div>
+      <div><h3>Timed at two hours</h3><p>Full papers sat with the order of attack.</p></div>
+      <div><h3>Two papers, compared</h3><p>One paper run twice to show what order changes.</p></div>
+      <div><h3>Every province</h3><p>The same class from St. John's to Kelowna.</p></div>
+      <div><h3>Two formats</h3><p>Join a batch of fifteen to twenty, or learn one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our contest students build in code</h2>
+      <p class="ag-lede">Several of our CIMC and CSMC students also take our coding courses. Some of their work is below, and the <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Any contest fee CEMC charges goes through the school. Ours is for the teaching alone, billed by the month, and a student who only wants the November run can stop after it.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One Part B question written up together</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A batch of fifteen to twenty</li><li>Grouped CIMC or CSMC</li><li>Choose your batch</li><li>Monthly, stop any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One teacher, one student</li><li>Planned to 18 November 2026</li><li>Built on your own past papers</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents and students, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Families ask</p>
+      <h2>CIMC and CSMC: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What are the CIMC and the CSMC?</h3>
+        <p>They are the Canadian Intermediate Mathematics Contest and the Canadian Senior Mathematics Contest, run by CEMC at the University of Waterloo on the same day each November. The CIMC is for Grades 9 and 10, the CSMC for Grades 11, 12 and CEGEP.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the CIMC and CSMC in 2026?</h3>
+        <p>CEMC lists Wednesday, November 18, 2026 in North and South America and Thursday, November 19, 2026 elsewhere. The school ordering deadline was Thursday, October 22, 2026.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does the paper look like?</h3>
+        <p>Nine questions in two hours, scored out of 60. Part A has six answer-only questions worth 5 marks each; Part B has three full-solution questions worth 10 marks each, marked for completeness, clarity and presentation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child finish Part A before starting Part B?</h3>
+        <p>Not necessarily. The booklet cover itself says the early Part B problems are likely easier than the later Part A problems, and in 2025 the first Part B question averaged about 7 out of 10 in both contests. We teach an order that takes the first two Part B questions before the last two boxes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What were the 2025 averages?</h3>
+        <p>CEMC lists a 2025 mean of 28.6 out of 60 on the CSMC and 29.1 on the CIMC, with a Certificate of Distinction cutoff of 35 on both. There were 15 153 CSMC and 13 039 CIMC contestants.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a student register for the CIMC or CSMC alone?</h3>
+        <p>No. CEMC contests are ordered by schools, and the student writes at school under supervision. If your school does not take part, CEMC suggests asking another local school whether your child can join its writers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the CSMC required for University of Waterloo admission?</h3>
+        <p>No. CEMC says the CSMC is not required for admission to the Faculty of Mathematics, and the Faculty says writing the CSMC or the Euclid is required for some scholarship decisions. We make no promises about admissions or scholarships.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are calculators allowed?</h3>
+        <p>Some are. The 2025 cover allows calculating devices without internet access, communication with other devices, stored notes or programs, a computer algebra system or dynamic geometry software. Written solutions still have to show the reasoning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What if my child missed the 2026 order?</h3>
+        <p>The next CEMC full-solution contests are the Fryer, Galois and Hypatia Contests on Wednesday, April 7, 2027 for Grades 9 to 11, and the Euclid on Tuesday, April 6, 2027 for the final year. Schools order both by Thursday, March 11, 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When do your CIMC and CSMC classes run?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern time and confirmed in your own zone, which matters in November because the eastern provinces have just changed their clocks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Keep reading</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Other pages for Grade 9 to 12 students in Canada following CEMC's contest year.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a></h3><p>The whole CEMC calendar, from Gauss to Euclid.</p></div>
+      <div><h3><a class="ag-inline-link" href="/euclid-contest-preparation">Euclid Contest</a></h3><p>The April paper the CSMC rehearses for.</p></div>
+      <div><h3><a class="ag-inline-link" href="/pascal-contest-preparation">Pascal Contest</a></h3><p>Grade 9 multiple choice in February.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cayley-contest-preparation">Cayley Contest</a></h3><p>Grade 10 multiple choice, late February.</p></div>
+      <div><h3><a class="ag-inline-link" href="/fermat-contest-preparation">Fermat Contest</a></h3><p>Grade 11 multiple choice, late February.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>Code instead of proofs, from the same organizer.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor, Canada</a></h3><p>School math help across the provinces.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-olympiad-classes-online">Olympiad classes</a></h3><p>How the major math contests compare.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">How we teach thinking</a></h3><p>Why we mark the argument, not the answer.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">In the first class your child reads a Part B question of ours, writes the first two parts, and watches a teacher mark them the way a CEMC marker would. You come away knowing which of the four stages fits and what the weeks before 18 November 2026 should look like.</p>
+        <p class="ag-mt-40">Prefer to look around first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> walks through a real class, and the <a class="ag-inline-link" href="/courses">full course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20writing%20the%20CIMC%20or%20CSMC%20on%2018%20November%202026%20and%20we%20would%20like%20some%20focused%20preparation.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cccg',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are taught live on video by our teachers in India, so families join from home anywhere in Canada. WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cccg(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first class. Nothing to pay, nothing to sign.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>CEMC contests</h4><ul><li><a href="/cemc-waterloo-contests-preparation">All CEMC contests</a></li><li><a href="/euclid-contest-preparation">Euclid Contest</a></li><li><a href="/fermat-contest-preparation">Fermat Contest</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/maths-olympiad-classes-online">Olympiad classes</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Two ladders, one morning</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cccg = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'cimc-and-csmc-contest-guide-inline', meta: { name: name, age: age, page: 'cimc-and-csmc-contest-guide' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

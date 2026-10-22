@@ -25725,6 +25725,18 @@
   to = "/src/pages/modern-age-coders-vs-oxford-learning.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/cimc-and-csmc-contest-guide"
+  to = "/src/pages/cimc-and-csmc-contest-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/cimc-and-csmc-contest-guide.md"
+  to = "/src/pages/cimc-and-csmc-contest-guide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

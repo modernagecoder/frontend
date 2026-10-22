@@ -531,6 +531,7 @@ const SLUGS = [
   'modern-age-coders-vs-spirit-of-math',
   'modern-age-coders-vs-brightchamps',
   'modern-age-coders-vs-oxford-learning',
+  'cimc-and-csmc-contest-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1141,6 +1142,7 @@ const LLMS_LABELS = {
   'modern-age-coders-vs-spirit-of-math': 'Modern Age Coders vs Spirit of Math',
   'modern-age-coders-vs-brightchamps': 'Modern Age Coders vs BrightCHAMPS',
   'modern-age-coders-vs-oxford-learning': 'Modern Age Coders vs Oxford Learning',
+  'cimc-and-csmc-contest-guide': 'CIMC and CSMC guide',
 };
 
 function wireLlms(slugs) {

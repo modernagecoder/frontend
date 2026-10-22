@@ -232,7 +232,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 87 | modern-age-coders-vs-code-ninjas (macc, #166B34) | vs | 4,831 | 1% vs ccc-junior-guide | comparison | in-person vs live online | 2a3b3f43 |
 | 88 | modern-age-coders-vs-spirit-of-math (macs, #1B5245) | vs | 4,870 | 1.3% vs cemc-free-resources-guide | comparison | selective vs open enrolment | 7d3f69cd |
 | 89 | modern-age-coders-vs-brightchamps (macb, #154D8A) | vs | 4,413 | 1.2% vs modern-age-coders-vs-code-ninjas | comparison | two live online models | 8e04d041 |
-| 90 | modern-age-coders-vs-oxford-learning (maco, #36298A) | vs | 4,719 | 0.9% vs cegep-computer-science-preparation | comparison | learning skills vs subject depth | (this commit) |
+| 90 | modern-age-coders-vs-oxford-learning (maco, #36298A) | vs | 4,719 | 0.9% vs cegep-computer-science-preparation | comparison | learning skills vs subject depth | afa900c4 |
+| 49 | cimc-and-csmc-contest-guide (cccg, #376660) | contest | 6,562 | 1.3% vs pascal-contest-preparation | contest guide | part B full solutions | (this commit) |
 
 ## Skipped
 
