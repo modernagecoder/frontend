@@ -123,6 +123,67 @@
         try { if (typeof gtag === 'function') gtag('event', name, params || {}); } catch (e) { }
     }
 
+    // Meta Pixel standard event. eventID lets a server-side Conversions API
+    // event for the same order be deduped.
+    function fbTrack(event, params, eventID) {
+        try {
+            if (typeof fbq !== 'function') return;
+            if (eventID) fbq('track', event, params, { eventID: String(eventID) });
+            else fbq('track', event, params);
+        } catch (e) { }
+    }
+
+    function demoParams(price) {
+        return {
+            content_ids: [PRODUCT.productId],
+            content_name: 'Priority Live Demo',
+            content_type: 'product',
+            content_category: 'Priority Demo',
+            value: price.amount,
+            currency: price.currency,
+            num_items: 1
+        };
+    }
+
+    /**
+     * Lead for every successful demo or callback request. About 220 pages
+     * already fire their own Lead from an inline script (and the admissions
+     * and B2B forms from their own files); for an endpoint such a script
+     * posts to, this stays quiet so the ads team never sees a lead twice.
+     */
+    var ownLeadEndpoints = null;
+    function pageFiresOwnLead(url) {
+        if (!ownLeadEndpoints) {
+            ownLeadEndpoints = [];
+            var leadCall = /fbq\(\s*['"]track['"]\s*,\s*['"]Lead['"]/;
+            var scripts = document.scripts;
+            for (var i = 0; i < scripts.length; i++) {
+                var s = scripts[i];
+                if (s.src) {
+                    if (/(admissions|biz)-lead-form\.js/.test(s.src)) ownLeadEndpoints.push('*');
+                    continue;
+                }
+                var text = s.textContent || '';
+                if (!leadCall.test(text)) continue;
+                var found = text.match(/\/api\/(contact\/submit|callback\/request|leads)\b/g);
+                if (found) ownLeadEndpoints.push.apply(ownLeadEndpoints, found);
+                else ownLeadEndpoints.push('*');
+            }
+        }
+        for (var j = 0; j < ownLeadEndpoints.length; j++) {
+            if (ownLeadEndpoints[j] === '*' || url.indexOf(ownLeadEndpoints[j]) !== -1) return true;
+        }
+        return false;
+    }
+
+    function fbLead(url) {
+        if (pageFiresOwnLead(url)) return;
+        fbTrack('Lead', {
+            content_name: /callback\/request/.test(url) ? 'Callback Request' : 'Demo Booking',
+            content_category: 'Free Trial'
+        });
+    }
+
     function esc(s) {
         return String(s === undefined || s === null ? '' : s)
             .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -765,6 +826,7 @@
         this.panel.hidden = false;
         this.scrollTop();
         track('demo_choice_paid_start', { region: price.currency, source: rec.kind || 'unknown' });
+        fbTrack('InitiateCheckout', demoParams(price));
         // Fetch the 190 KB checkout script while the parent is typing, so Pay
         // opens at once on a slow phone. A failure here is retried on submit.
         loadRazorpay().catch(function () { });
@@ -904,6 +966,7 @@
                     var why = resp && resp.error && resp.error.description ? resp.error.description : 'The payment did not go through.';
                     showError(esc(why) + ' You can try again, or <a href="' + waLink('Hi, my priority demo payment failed on the website. Can you help?') + '" target="_blank" rel="noopener noreferrer">message us on WhatsApp</a>.');
                 });
+                fbTrack('AddPaymentInfo', demoParams(charge));
                 rz.open();
             }).catch(function (error) {
                 setBusy(false);
@@ -966,9 +1029,7 @@
                 value: order.amount, currency: order.currency,
                 transaction_id: paid.orderId, source: self.rec.kind || 'unknown'
             });
-            try {
-                if (typeof fbq === 'function') fbq('track', 'Purchase', { value: order.amount, currency: order.currency, content_name: 'Priority Live Demo' });
-            } catch (e) { }
+            fbTrack('Purchase', demoParams(order), paid.orderId);
         }).catch(function (error) {
             // The money may already be taken. Say so plainly, with the ids the
             // team needs, rather than sending the parent round the loop again.
@@ -1142,6 +1203,7 @@
                     rec.lid = String((data && (data.contactId || data.requestId)) || '');
                     rec.ok = true;
                     writeSession(rec);
+                    fbLead(url);
                     afterLeadSaved(rec);
                 }).catch(function () { });
             }).catch(function () { });
@@ -1413,6 +1475,6 @@
             track('demo_priority_direct_open', { page: window.location.pathname, placement: String(placement || 'link') });
         },
         prices: PRICES,
-        version: '20261021a'
+        version: '20261022a'
     };
 })();

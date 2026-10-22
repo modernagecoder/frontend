@@ -189,6 +189,25 @@ const SummerCampEnrollment = {
     }).format(p.amount);
   },
 
+  // Meta Pixel standard event, valued in the visitor's own currency (major
+  // units). eventID lets a server-side Conversions API event be deduped.
+  fb: function (event, eventID) {
+    try {
+      if (typeof window.fbq !== 'function') return;
+      const data = {
+        content_ids: ['summer-coding-camp-2026'],
+        content_name: this.courseName,
+        content_type: 'product',
+        content_category: 'Camp',
+        value: Number(this.getCoursePrice()),
+        currency: this.getCourseCurrency(),
+        num_items: 1
+      };
+      if (eventID) window.fbq('track', event, data, { eventID: String(eventID) });
+      else window.fbq('track', event, data);
+    } catch (e) { /* analytics must never block enrolment */ }
+  },
+
   // API URL - auto-detect local vs production
   getApiUrl: function () {
     const isLocal = window.location.hostname === 'localhost'
@@ -248,6 +267,7 @@ const SummerCampEnrollment = {
       isIndian: this.isIndian(),
       onSubmit: (v) => this.processPayment(v)
     });
+    this.fb('InitiateCheckout');
   },
 
   async processPayment(v) {
@@ -323,6 +343,7 @@ const SummerCampEnrollment = {
         pop.setPaying(false);
         pop.showError('The payment did not go through: ' + ((resp && resp.error && resp.error.description) || 'please try again') + '. No money has been taken; you can try again or use another method.');
       });
+      this.fb('AddPaymentInfo');
       razorpay.open();
 
     } catch (error) {
@@ -343,6 +364,10 @@ const SummerCampEnrollment = {
       });
 
       if (data.success) {
+        this.fb('Purchase', (data.payment && data.payment.orderId) || orderId);
+        // A beat before leaving the page, so the Purchase hit is not cut off
+        // by the navigation to /welcome.
+        await new Promise((r) => setTimeout(r, 600));
         pop.close();
         this.redirectToWelcome(data.payment);
       } else {

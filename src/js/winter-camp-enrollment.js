@@ -43,6 +43,25 @@ const WinterCampEnrollment = {
         }).format(p.amount);
     },
 
+    // Meta Pixel standard event, valued in the visitor's own currency (major
+    // units). eventID lets a server-side Conversions API event be deduped.
+    fb(event, eventID) {
+        try {
+            if (typeof window.fbq !== 'function') return;
+            const data = {
+                content_ids: ['winter-coding-camp-2026'],
+                content_name: this.courseName,
+                content_type: 'product',
+                content_category: 'Camp',
+                value: Number(this.getCoursePrice()),
+                currency: this.getCourseCurrency(),
+                num_items: 1
+            };
+            if (eventID) window.fbq('track', event, data, { eventID: String(eventID) });
+            else window.fbq('track', event, data);
+        } catch (e) { /* analytics must never block enrolment */ }
+    },
+
     getApiUrl() {
         const isLocal = ['localhost', '127.0.0.1', ''].includes(window.location.hostname)
             || window.location.protocol === 'file:';
@@ -95,6 +114,7 @@ const WinterCampEnrollment = {
             isIndian: this.isIndian(),
             onSubmit: (v) => this.processPayment(v)
         });
+        this.fb('InitiateCheckout');
     },
 
     async processPayment(v) {
@@ -170,6 +190,7 @@ const WinterCampEnrollment = {
                 pop.setPaying(false);
                 pop.showError('The payment did not go through: ' + ((resp && resp.error && resp.error.description) || 'please try again') + '. No money has been taken; you can try again or use another method.');
             });
+            this.fb('AddPaymentInfo');
             razorpay.open();
 
         } catch (error) {
@@ -190,6 +211,7 @@ const WinterCampEnrollment = {
             });
 
             if (data.success) {
+                this.fb('Purchase', (data.payment && data.payment.orderId) || orderId);
                 pop.close();
                 this.showSuccess(data.payment);
             } else {

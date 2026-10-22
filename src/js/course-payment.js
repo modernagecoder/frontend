@@ -200,7 +200,10 @@ const CoursePayment = {
       // Get course slug from URL
       this.courseSlug = this.getCourseSlug();
       this.courseName = this.getCourseName();
-      
+      // This file loads only on course pages, so this marks a course view
+      // for the ads team's retargeting audiences.
+      this._fb('ViewContent');
+
       // Setup payment buttons
       this.setupPaymentButtons();
       console.log('✅ Course payment initialized for:', this.courseSlug);
@@ -461,6 +464,13 @@ const CoursePayment = {
     this.addModalStyles();
     document.body.classList.add('mac-pay-open');
 
+    this._fb('InitiateCheckout', {
+      value: Number(displayPricing.amount),
+      currency: isIndian ? 'INR' : 'USD',
+      num_items: 1,
+      plan: planType + (sixMonth ? '_6month' : '')
+    });
+
     const overlay = document.getElementById('payment-modal');
     this._payButtonLabel = 'Pay ' + priceMain + ' securely';
     overlay.querySelector('.mac-pay-close').addEventListener('click', () => this.closeModal());
@@ -497,6 +507,23 @@ const CoursePayment = {
       if (typeof window.gtag === 'function') {
         window.gtag('event', name, { course: this.courseSlug, plan: planType });
       }
+    } catch (e) { /* analytics must never block enrolment */ }
+  },
+
+  // Meta Pixel standard event. value is always the major-unit price the
+  // visitor sees (never Razorpay's paise/cents figure). eventID, when given,
+  // lets a server-side Conversions API event for the same order be deduped.
+  _fb: function(event, params, eventID) {
+    try {
+      if (typeof window.fbq !== 'function') return;
+      const data = Object.assign({
+        content_ids: [this.courseSlug],
+        content_name: this.courseName,
+        content_type: 'product',
+        content_category: 'Course'
+      }, params || {});
+      if (eventID) window.fbq('track', event, data, { eventID: String(eventID) });
+      else window.fbq('track', event, data);
     } catch (e) { /* analytics must never block enrolment */ }
   },
 
@@ -810,6 +837,13 @@ const CoursePayment = {
         this.setPaying(false);
         this.showError('The payment did not go through: ' + ((resp && resp.error && resp.error.description) || 'please try again') + '. No money has been taken; you can try again or use another method.');
       });
+      // Kept for Purchase: the verify response carries no currency.
+      this._checkout = {
+        value: Number(finalAmount),
+        currency: currency,
+        plan: planType + (sixMonth ? '_6month' : '')
+      };
+      this._fb('AddPaymentInfo', Object.assign({ num_items: 1 }, this._checkout));
       razorpay.open();
 
     } catch (error) {
@@ -856,8 +890,14 @@ const CoursePayment = {
       });
 
       if (data.success) {
-        this.closeModal();
-        this.redirectToWelcome(data.payment);
+        const paidId = (data.payment && data.payment.orderId) || orderId;
+        this._fb('Purchase', Object.assign({ num_items: 1 }, this._checkout), paidId);
+        // A beat before leaving the page, so the Purchase hit is not cut off
+        // by the navigation to /welcome.
+        setTimeout(() => {
+          this.closeModal();
+          this.redirectToWelcome(data.payment);
+        }, 600);
       } else {
         throw new Error(data.error || 'Verification failed');
       }
