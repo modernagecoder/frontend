@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vibe Coding and AI Agents Classes in Canada: Teens and Adults</title>
+  <meta name="description" content="Vibe coding and AI agents for Canadian teens and adults: which tools each age may use, what agents can and cannot do, and a working agent on Ottawa parks data.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada">
+  <link rel="alternate" type="text/markdown" href="/src/pages/vibe-coding-and-ai-agents-classes-in-canada.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#375C7A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada">
+  <meta property="og:title" content="Vibe Coding and AI Agents Classes in Canada: Teens and Adults">
+  <meta property="og:description" content="Building software with AI help, taught honestly: Collins' definition of vibe coding, Anthropic's own line between workflows and agents, the companies' age rules, and an agent whose answers are checked against its tools.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vibe Coding and AI Agents Classes in Canada: Teens and Adults">
+  <meta name="twitter:description" content="Vibe coding and AI agents in Canada for teens and adults, with a working agent on Ottawa open data.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-vaac .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-vaac .ag-capsule { border-left-width: 4px; border-radius: 5px; }
+.ag-root.ag-vaac .ag-section-head h2 { max-width: 35ch; }
+.ag-root.ag-vaac .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-vaac .ag-band-head h3 { letter-spacing: -0.007em; }
+.ag-root.ag-vaac .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada#page","url":"https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada","name":"Vibe Coding and AI Agents Classes in Canada","description":"A guide for Canadian teenagers and adults to vibe coding and AI agents, built from Collins Dictionary, Anthropic's engineering guidance and documentation, the Model Context Protocol site and the terms of OpenAI, Anthropic and GitHub, with an original agent on City of Ottawa open data.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"Vibe coding and AI agents","item":"https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada"}]},{"@type":"Course","name":"Vibe Coding and AI Agents Classes in Canada","description":"Live online classes in vibe coding and AI agents for teenagers aged 13 to 17 and for adults across Canada, in separate courses, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is vibe coding?","acceptedAnswer":{"@type":"Answer","text":"Collins Dictionary, which made it its Word of the Year 2025, says vibe coding refers to the use of artificial intelligence prompted by natural language to write computer code. In our classes it is the first step; reading and testing what the AI wrote is the rest."}},{"@type":"Question","name":"What is the difference between an AI agent and a workflow?","acceptedAnswer":{"@type":"Answer","text":"In Anthropic's definitions, a workflow runs models and tools through predefined code paths, while an agent lets the model direct its own process and tool use. Agents are more flexible and also more prone to compounding errors."}},{"@type":"Question","name":"Can teenagers take vibe coding classes?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our Vibe Coding for Teens course is for ages 13 to 17 and uses only tools whose terms allow the student's age, such as GitHub Copilot for verified students and, with a parent's permission, OpenAI's tools."}},{"@type":"Question","name":"Can a teen use Claude or Claude Code?","acceptedAnswer":{"@type":"Answer","text":"No. Anthropic's terms say users must be at least 18 years old. We never recommend Claude or Claude Code to anyone under 18; they appear only in our adult courses."}},{"@type":"Question","name":"Is there an AI agents course for adults in Canada?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our Codex and Claude Code course for professionals runs 24 live classes over 12 weeks, from agent foundations to securing and shipping. Vibe Coding for College covers building full stack projects with AI assistance for ages 18 and up."}},{"@type":"Question","name":"Do I need to know how to code first?","acceptedAnswer":{"@type":"Answer","text":"It helps but is not required. Every course starts by teaching learners to read code, because judging AI-written code is the core skill. Adults new to programming often take a Python course alongside."}},{"@type":"Question","name":"Can AI agents replace programmers?","acceptedAnswer":{"@type":"Answer","text":"We make no such claim. Anthropic's own guidance warns of higher costs and compounding errors and recommends testing agents in sandboxed environments. Our own small agent shows an answer naming a park its tools never returned; only a check caught it."}},{"@type":"Question","name":"Can students use AI tools in the Canadian Computing Competition?","acceptedAnswer":{"@type":"Answer","text":"No. The CCC rules forbid generative AI and AI-based tools inside an editor during the contest, so contest practice happens without assistants."}},{"@type":"Question","name":"What times are classes in Canada?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time is set in your own province's zone."}},{"@type":"Question","name":"What will I build?","acceptedAnswer":{"@type":"Answer","text":"Teens build Python and web projects with allowed assistants and explain every line. Adults build agents on real codebases and data, such as the Ottawa parks agent on this page, wrapped in tests and answer checks."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-vaac">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#terms">Definitions</a></li>
+      <li><a href="#ages">Who may use what</a></li>
+      <li><a href="#limits">Limits</a></li>
+      <li><a href="#agent">Ottawa agent</a></li>
+      <li><a href="#canada">In Canadian schools</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / Vibe coding and AI agents
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Vibe coding and AI agents &middot; Teens and adults</p>
+        <h1>Vibe coding and AI agents classes in Canada</h1>
+        <p class="ag-lede">Describing what you want and letting an AI write the code has a name now, and Collins Dictionary chose it as its Word of the Year for 2025. AI agents go a step further: they decide which tools to call and in what order. Both are useful, both fail in predictable ways, and both have age rules that most courses never mention. This page explains the terms from their sources, sets out which tools a Canadian teenager may use and which are for adults only, lists what agents can and cannot do, and builds a small, honest agent on City of Ottawa park data whose every answer is checked.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#agent" class="ag-btn ag-btn--ghost">See the Ottawa agent</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Canada%20and%20want%20to%20learn%20vibe%20coding%20and%20AI%20agents%20properly.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vaac'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; separate courses for teens and adults, with every age rule respected</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Teens 13 to 17; adults 18+</dd>
+          <dt>Teens use</dt><dd>Tools their age allows</dd>
+          <dt>Adults use</dt><dd>Agentic tools such as Claude Code</dd>
+          <dt>Builds</dt><dd>Apps and agents you can check</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Vibe coding and AI agents classes in Canada teach teenagers and adults to build software with AI help, then read, test and correct what the AI produced, and to design agents whose answers can be checked. Teens and adults learn separately, within each tool's age rules. Modern Age Coders teaches them live online, in a batch or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Separate courses by age</p>
+      <h2>Three courses: one for teens, two for adults</h2>
+      <p class="ag-lede">Teenagers and adults may legally use different tools, so they learn in different courses.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">
+        <div class="ag-pick-shot"><img src="/images/vibe-coding-teens.webp" alt="Vibe Coding for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VAAC / 01</p>
+          <h3>Vibe Coding for Teens</h3>
+          <p>Ages 13 to 17. Twelve weeks of Python, web development and AI projects, with six to eight hours of work a week. Teens use only tools whose terms allow their age.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course">
+        <div class="ag-pick-shot"><img src="/images/vibe-coding-college.webp" alt="Vibe Coding for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VAAC / 02</p>
+          <h3>Vibe Coding for College</h3>
+          <p>Ages 18 and up. Twelve weeks across full stack web, data structures with machine learning, and a capstone, building with AI assistance.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals">
+        <div class="ag-pick-shot"><img src="/images/codex-claude-code-adults.webp" alt="Codex &amp; Claude Code course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">VAAC / 03</p>
+          <h3>Codex and Claude Code for professionals</h3>
+          <p>Adults only. Twenty-four classes over twelve weeks on AI coding agents: foundations, daily workflow, connecting tools, cloud use, then securing and shipping.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="terms">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What the words mean</p><h2>Vibe coding, agents and MCP, defined by their sources</h2><p class="ag-lede">These terms are used loosely in advertising. Here they are as the dictionary, the agent builders and the protocol's own site define them, read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Definitions from primary sources (read 22 October 2026)</caption><thead><tr><th scope="col">Term</th><th scope="col">Source</th><th scope="col">What the source says</th></tr></thead><tbody><tr><td>Vibe coding</td><td>Collins Dictionary, Word of the Year 2025 (November 6, 2025)</td><td>"Coined by AI pioneer Andrej Karpathy, vibe coding refers to the use of artificial intelligence prompted by natural language to write computer code."</td></tr><tr><td>Workflow</td><td>Anthropic, Building effective agents (Dec 19, 2024)</td><td>"Workflows are systems where LLMs and tools are orchestrated through predefined code paths."</td></tr><tr><td>Agent</td><td>The same article</td><td>Agents "are systems where LLMs dynamically direct their own processes and tool usage".</td></tr><tr><td>Agentic coding tool</td><td>Claude Code documentation</td><td>"Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools."</td></tr><tr><td>MCP</td><td>modelcontextprotocol.io</td><td>"MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The difference that matters in practice</h3><p>In a workflow, a programmer decides the steps and the model fills in parts of them. In an agent, the model decides the steps. That one change explains most of what goes right and wrong: an agent can solve a problem nobody scripted, and it can also wander, repeat itself, or act on a mistaken guess.</p>
+<p>Vibe coding sits at the human end of the same scale. A person describes the result, the AI writes code, and the person decides whether to keep it. The skill that separates a good vibe coder from a bad one is reading what came back.</p></div><div><h3>What we teach first</h3><p>Before any agent, learners write the tools themselves: small functions with clear inputs, outputs and failure messages. An agent is only as reliable as the tools it calls and the checks wrapped around its answer.</p>
+<p>Anthropic's own advice points the same way: "we recommend finding the simplest solution possible, and only increasing complexity when needed." Many problems never need an agent at all.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://blog.collinsdictionary.com/language-lovers/collins-word-of-the-year-2025-ai-meets-authenticity-as-society-shifts/" rel="noopener" target="_blank">Collins, Word of the Year 2025</a>; <a class="ag-inline-link" href="https://www.anthropic.com/research/building-effective-agents" rel="noopener" target="_blank">Anthropic, Building effective agents</a>; <a class="ag-inline-link" href="https://code.claude.com/docs/en/overview" rel="noopener" target="_blank">Claude Code overview</a>; <a class="ag-inline-link" href="https://modelcontextprotocol.io/" rel="noopener" target="_blank">Model Context Protocol</a>. All read 22 October 2026. We are not connected with any of these organisations.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Who may use what</p><h2>Which AI coding tools a teen may use, and which are adults only</h2><p class="ag-lede">This is where many vibe coding courses go wrong: they hand every student the same tools. The companies' terms do not allow that. Here is what each says, and how our two age groups follow it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Age rules for AI coding tools, from each company's terms (read 22 October 2026)</caption><thead><tr><th scope="col">Tool</th><th scope="col">What the terms say</th><th scope="col">Teens 13 to 17</th><th scope="col">Adults 18+</th></tr></thead><tbody><tr><td>Claude, including Claude Code (Anthropic)</td><td>"You must be at least 18 years old or the minimum age required to consent to use the Services in your location, whichever is higher." (effective Oct 8, 2025)</td><td>Not allowed; never recommended</td><td>Allowed</td></tr><tr><td>ChatGPT and other OpenAI services</td><td>"You must be at least 13 years old"; "If you are under 18 you must have your parent or legal guardian's permission to use the Services." (effective January 1, 2026)</td><td>Only with a parent's or guardian's permission</td><td>Allowed</td></tr><tr><td>GitHub and GitHub Copilot</td><td>GitHub: "A User must be at least 13 years of age." Copilot Student is "Available for free to verified students, teachers, and open-source maintainers".</td><td>Allowed from 13; free if verified as a student</td><td>Allowed</td></tr><tr><td>The Canadian Computing Competition</td><td>The CCC rules forbid generative AI and say "AI-based tools within an IDE cannot be used."</td><td>Practise without assistants before 17 February 2027</td><td>Not applicable</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How our teen classes work</h3><p>Teenagers build with tools their age allows, chiefly GitHub Copilot for verified students and, where a parent has given permission, OpenAI's tools. No teen class uses Claude or Claude Code, and no page of ours suggests them to anyone under 18.</p>
+<p>For a teen, the point of vibe coding is not speed. It is learning to judge code: why the suggested function works, where it breaks, and what the AI did not consider.</p></div><div><h3>How our adult classes work</h3><p>Adults work with agentic tools such as Claude Code and OpenAI's Codex, on real repositories, with version control so that every change an agent makes can be inspected and undone.</p>
+<p>The adult course ends with a phase on building, securing and shipping, because reviewing and testing agent output is where the real work is.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.anthropic.com/legal/consumer-terms" rel="noopener" target="_blank">Anthropic Consumer Terms</a>; <a class="ag-inline-link" href="https://openai.com/policies/terms-of-use/" rel="noopener" target="_blank">OpenAI Terms of Use</a>; <a class="ag-inline-link" href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service" rel="noopener" target="_blank">GitHub Terms of Service</a>; <a class="ag-inline-link" href="https://github.com/education/students" rel="noopener" target="_blank">GitHub Education</a>; <a class="ag-inline-link" href="https://cccgrader.com/rules.pdf" rel="noopener" target="_blank">CCC rules</a>. All read 22 October 2026; terms change, so check before signing up.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="limits">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Honest limits</p><h2>What AI agents can do, and what they cannot</h2><p class="ag-lede">Agents are sold as autonomous workers. The people who build them are more careful. This table combines Anthropic's published guidance with what our own small agent below showed.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Agents: strengths and limits (Anthropic's guidance, quoted; our test results, labelled)</caption><thead><tr><th scope="col">Question</th><th scope="col">What the evidence says</th></tr></thead><tbody><tr><td>Can an agent handle a task nobody scripted?</td><td>Yes. Anthropic: agents suit cases where "flexibility and model-driven decision-making are needed at scale".</td></tr><tr><td>Is an agent always the right choice?</td><td>No. Anthropic recommends "finding the simplest solution possible, and only increasing complexity when needed."</td></tr><tr><td>What does autonomy cost?</td><td>Anthropic: "higher costs, and the potential for compounding errors."</td></tr><tr><td>How should agents be tested?</td><td>Anthropic: "We recommend extensive testing in sandboxed environments, along with the appropriate guardrails."</td></tr><tr><td>Can an agent state something its tools never returned?</td><td>Yes. Our stand-in plan below names a park, "Maple Leaf Dog Run", that is not in the city's file. Only the check catches it.</td></tr><tr><td>Does an agent understand data it was not told about?</td><td>No. The Ottawa file codes dog rules as 0 to 4. Nothing in a code says that 0 means off leash and 4 means not designated; the agent knows only what its tool description says.</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Good at</h3><p>Repetitive changes across many files, first drafts of tests, exploring an unfamiliar codebase, and joining tools a person has already made reliable.</p></div><div><h3>Weak at</h3><p>Knowing when it is wrong, respecting a rule nobody wrote down, and stopping when the task is unclear. It will often produce a confident answer instead.</p></div><div><h3>Needs from you</h3><p>Clear tools, a test you can run, version control to undo its changes, and a check that compares its answer with what its tools actually returned.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="agent">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real agent example</p><h2>An Ottawa parks agent whose answers are checked</h2><p class="ag-lede">The City of Ottawa publishes its parks and greenspace under a licence that allows commercial reuse, including a coded rule for dogs in each park. We built a small agent loop around it to show every part an agent needs: tools, a loop that runs them, and a check on the final answer. The code and every number are ours, run on the city's file downloaded on 22 October 2026.</p></div>
+    <p><b>The question an agent is asked:</b> "Which parks in Kanata North let my dog off leash?" The file has 1,378 rows across 24 wards, with columns including NAME, WARD_NAME, DOG_DESIGNATION and DOG_DESIGNATION_DETAILS, the city's own wording for each park's rule.</p>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What the DOG_DESIGNATION codes mean, read from the city's own detail text (our tally of the file)</caption><thead><tr><th scope="col">Code</th><th scope="col">The city's wording, most common form</th><th scope="col">Parks</th></tr></thead><tbody><tr><td>0</td><td>"Dogs may be off leash." (with a line about the handler's control)</td><td>175</td></tr><tr><td>1</td><td>"Dogs are allowed but must be on leash at all times."</td><td>356</td></tr><tr><td>2</td><td>Area-specific, for example off leash in a fenced area and on leash elsewhere</td><td>69</td></tr><tr><td>3</td><td>"Dogs are not allowed in the park."</td><td>119</td></tr><tr><td>4</td><td>"The park has not been designated." (then on-leash wording)</td><td>631</td></tr><tr><td>Blank</td><td>No code given</td><td>28</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our agent loop &middot; park_agent.py</b><span>python</span></figcaption><pre># Our park agent: a tool loop with a checked answer (Modern Age Coders, written for this page)
+import csv
+
+PARKS = list(csv.DictReader(open("ottawa-parks.csv", encoding="utf-8-sig")))
+DOG_CODES = {"off_leash": "0", "on_leash": "1", "mixed": "2", "no_dogs": "3", "not_designated": "4"}
+
+def find_parks(ward, dog_rule):
+    """Tool 1: park names in a ward with a given dog rule."""
+    code = DOG_CODES[dog_rule]
+    return [p["NAME"] for p in PARKS if p["WARD_NAME"] == ward and p["DOG_DESIGNATION"] == code]
+
+def park_details(name):
+    """Tool 2: address and the city's own dog wording for one park."""
+    for p in PARKS:
+        if p["NAME"] == name:
+            return {"address": p["ADDRESS"], "dogs": p["DOG_DESIGNATION_DETAILS"]}
+    return {"error": "no park called " + name}
+
+TOOLS = {"find_parks": find_parks, "park_details": park_details}
+
+def run(model_steps):
+    """The loop: run each tool call the model asks for, keep every result, check the final answer."""
+    seen = set()
+    for step in model_steps:
+        if step["type"] == "tool":
+            result = TOOLS[step["name"]](**step["args"])
+            names = result if isinstance(result, list) else [step["args"].get("name", "")]
+            seen.update(names)
+            print("tool", step["name"], "-&gt;", len(names) if isinstance(result, list) else result.get("address", result))
+        else:
+            unsupported = [n for n in step["parks"] if n not in seen]
+            print("answer:", step["parks"][:3], "..." if len(step["parks"]) &gt; 3 else "")
+            print("check:", "OK" if not unsupported else "REJECTED, no tool result for " + ", ".join(unsupported))
+
+# Stand-in for a model: a fixed plan, so the loop can be tested without any AI service.
+found = find_parks("Kanata North", "off_leash")
+honest = [{"type": "tool", "name": "find_parks", "args": {"ward": "Kanata North", "dog_rule": "off_leash"}},
+          {"type": "tool", "name": "park_details", "args": {"name": found[0]}},
+          {"type": "answer", "parks": found}]
+invented = honest[:1] + [{"type": "answer", "parks": found[:2] + ["Maple Leaf Dog Run"]}]
+
+run(honest)
+run(invented)</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output on the city's file</b><span>text</span></figcaption><pre>tool find_parks -&gt; 11
+tool park_details -&gt; 5599 Campeau Drive, Kanata
+answer: ['Kanata Town Centre Stormwater Pond', 'Judy Laughton Park', 'Village Green Stormwater Facility'] ...
+check: OK
+tool find_parks -&gt; 11
+answer: ['Kanata Town Centre Stormwater Pond', 'Judy Laughton Park', 'Maple Leaf Dog Run']
+check: REJECTED, no tool result for Maple Leaf Dog Run</pre><p class="ag-code-note">Kanata North has 95 parks; 11 carry code 0. The honest plan passes the check. The plan that adds a park its tools never returned is rejected.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the stand-in, and what replaces it</h3><p>The model is replaced here by a fixed plan, clearly marked, so the loop and its check can be run and tested on any laptop without an AI service. That is how we test agent code in class: the plan that a model would produce is written out by hand first, including a bad one.</p>
+<p>In the adult course the fixed plan is swapped for calls to a model through its API, and nothing else changes: the same tools, the same loop, the same check. For teens, the same exercise is done with tools their age allows.</p></div><div><h3>Three weaknesses we leave in on purpose</h3><p>park_details returns the first park with a matching name, but 16 names appear more than once in the file. A better tool takes the PARK_ID instead. Learners find this themselves by asking for a name that repeats.</p>
+<p>The check only proves each named park came from a tool; it cannot prove the agent asked the right question. And the meaning of codes 0 to 4 lives in our DOG_CODES table, which we wrote by reading the city's text. If the city changed its codes, the agent would be confidently wrong. Each of these is a class discussion.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Data: <a class="ag-inline-link" href="https://hub.arcgis.com/datasets/cfb079e407494c33b038e86c7e05288e_24" rel="noopener" target="_blank">City of Ottawa open data</a>, Parks and Greenspace. Contains information licensed under the Open Government Licence, City of Ottawa. The licence allows use "including for commercial purposes". Code, tallies and the stand-in plan are ours; the City of Ottawa does not endorse this page.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="canada">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">In Canadian classrooms</p><h2>Where AI-assisted coding already appears in Canada</h2><p class="ag-lede">Canadian school documents have started to name AI tools and to ask students to judge them. These are the lines we read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AI in Canadian course and contest documents (read 22 October 2026)</caption><thead><tr><th scope="col">Where</th><th scope="col">What it says</th><th scope="col">What it means for a learner</th></tr></thead><tbody><tr><td>New Brunswick, Computer Science 110</td><td>Students code "using coding environments or AI-assisted debugging tools"</td><td>A provincial course already expects AI help in debugging</td></tr><tr><td>Ontario, ICD2O (2023)</td><td>Students investigate innovations "including automation and artificial intelligence, and assess their benefits and limitations"</td><td>Judging AI is part of the course, not just using it</td></tr><tr><td>Canadian Computing Competition rules</td><td>Generative AI forbidden; "AI-based tools within an IDE cannot be used."</td><td>Contest skill has to be the student's own</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For teens in school</h3><p>These documents pull in two directions, and both are right. A teen should be able to use an allowed assistant to find a bug, and should also be able to write the program with no assistant at all, because a contest, a test or an interview will ask for exactly that.</p>
+<p>Our teen classes practise both, in the same week.</p></div><div><h3>For adults at work</h3><p>For adults the question is different: how to use agents without losing control of the code. Version control, small reviewable changes and tests that run before anything is merged are the habits that make agents safe to use on real work.</p>
+<p>We make no job or salary promises. What we teach is the judgement that keeps AI-written code from becoming someone else's problem.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="thinking">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thinking, not copying</p><h2>Why we teach vibe coding as a reading skill</h2><p class="ag-lede">Our promise is the same in every country: learners are taught to think a problem through and solve it, not to copy an answer or an AI's output. With vibe coding that promise is tested hardest, so we make it concrete.</p></div>
+    <div class="ag-grid-3"><div><h3>Predict before accepting</h3><p>Before running AI-written code, the learner says what it should do and where it might fail. Accepting code you could not predict is how bugs reach users.</p></div><div><h3>Explain every line</h3><p>Anything a learner submits, they can explain line by line. A line they cannot explain is rewritten by them, by hand.</p></div><div><h3>Write the check first</h3><p>For agents, the test or the answer check is written before the agent runs, exactly as in the Ottawa example.</p></div></div>
+    <p class="ag-mt-40">The Collins definition describes vibe coding as "telling a machine what you want rather than painstakingly coding it yourself". Collins adds: "It's programming by vibes, not variables." That is a fair description of the first step. Our classes are about every step after it, where the variables come back.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="time">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Six zones, one plan</p><h2>Class times for teens and working adults across Canada</h2><p class="ag-lede">Teens fit classes around school; adults around work and family. Every class is booked in the learner's own zone, and only the eastern provinces change clocks this year.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>UTC offsets, 2026 to 2027 school and work year (IANA tz database 2026e)</caption><thead><tr><th scope="col">Where</th><th scope="col">Until 14 March 2027</th><th scope="col">From 14 March 2027</th></tr></thead><tbody><tr><td>British Columbia (most) and Yukon</td><td>UTC-7</td><td>UTC-7</td></tr><tr><td>Alberta and Saskatchewan</td><td>UTC-6</td><td>UTC-6</td></tr><tr><td>Manitoba</td><td>UTC-5</td><td>UTC-5</td></tr><tr><td>Ontario and Quebec</td><td>UTC-5 (from 1 November 2026)</td><td>UTC-4</td></tr><tr><td>Maritime provinces</td><td>UTC-4 (from 1 November 2026)</td><td>UTC-3</td></tr><tr><td>Newfoundland</td><td>UTC-3:30 (from 1 November 2026)</td><td>UTC-2:30</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Adults in our courses often choose weekday evenings or weekend mornings. Our teachers are in India, where a Canadian weekend morning falls in the evening, so those slots are easy to arrange in every zone.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Four levels</p>
+      <h2>From prompting to building agents you can trust</h2>
+      <p class="ag-lede">Our levels for placing a teen or adult in the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four levels in vibe coding and agents (ours)</caption><thead><tr><th scope="col">Level</th><th scope="col">What the learner can do</th></tr></thead><tbody><tr><td>1. Prompts</td><td class="ag-num">Gets working code from an assistant for a small task</td></tr><tr><td>2. Reads</td><td class="ag-num">Explains AI-written code line by line and fixes its mistakes</td></tr><tr><td>3. Builds tools</td><td class="ag-num">Writes functions with clear inputs, outputs and errors for an agent to call</td></tr><tr><td>4. Checks agents</td><td class="ag-num">Wraps an agent in tests and answer checks, and knows when not to use one</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents of teens</h3><p>Level 2 is the one that matters most at school age. A teen who can read code can learn anything that follows.</p>
+<p>Teens reach level 3 in our course with tools their age allows; agentic tools for adults come later, at 18.</p></div><div><h3>For adults</h3><p>Most self-taught vibe coders stop at level 1. Levels 2 and 4 are where AI-written code becomes something you can put your name to.</p>
+<p>Keep every agent change in version control. If you cannot undo it, you cannot trust it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related courses</p>
+      <h2>Nine more courses around AI and building</h2>
+      <p class="ag-lede">Live, with one regular teacher, in a batch or one to one. Teen and adult courses are kept separate.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Teens</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / TEEN / 01</p>
+          <h4>Python for teens</h4>
+          <p>The language most AI tools write.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / TEEN / 02</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Undo anything an assistant changes.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / TEEN / 03</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>How the models behind the tools work.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Adults: building with AI</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / ADULT / 01</p>
+          <h4>Generative AI</h4>
+          <p>LLMs, retrieval and agents, from first principles.</p>
+          <a class="ag-course-link" href="/courses/complete-generative-ai-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / ADULT / 02</p>
+          <h4>Python automation</h4>
+          <p>Scripts and applied AI for real work.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / ADULT / 03</p>
+          <h4>Full stack development</h4>
+          <p>React, Node.js and deployment basics.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults: agents at work</h3>
+        <span class="ag-band-sub">Professionals</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / PRO / 01</p>
+          <h4>Gemini Enterprise agents</h4>
+          <p>Agents in a Google workplace.</p>
+          <a class="ag-course-link" href="/courses/build-ai-agents-with-google-gemini-enterprise-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / PRO / 02</p>
+          <h4>Copilot Studio agents</h4>
+          <p>Agents in a Microsoft workplace.</p>
+          <a class="ag-course-link" href="/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">VAAC / PRO / 03</p>
+          <h4>Advanced Git and GitHub</h4>
+          <p>Review and control at team scale.</p>
+          <a class="ag-course-link" href="/courses/git-github-advanced-version-control-masterclass-for-professionals">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live classes, teens and adults apart</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school for teens; evenings for adults.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Mornings or afternoons, in your own zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Built around your project or your codebase.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Age-correct tools</h3><p>Teens and adults use what their age allows.</p></div>
+      <div><h3>Read, then accept</h3><p>No AI-written line is kept unexplained.</p></div>
+      <div><h3>Tools before agents</h3><p>Reliable functions first, then the loop.</p></div>
+      <div><h3>Checks on answers</h3><p>Every agent answer is compared with its tools.</p></div>
+      <div><h3>Version control</h3><p>Every change can be inspected and undone.</p></div>
+      <div><h3>Group or solo</h3><p>A batch of fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have shipped</h2>
+      <p class="ag-lede">Some of these were built with AI assistance and then read, tested and fixed by the student. More are on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Courses are paid by the month, and the fee covers eight live classes. Adults fitting classes around work can pause between months without anything owed.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short read-the-AI-code exercise</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty learners of one age group</li><li>A regular teacher</li><li>A weekly slot that suits you</li><li>Billed monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher to yourself</li><li>Your own project or repository</li><li>Times around your week</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews on Google from students and parents, as they wrote them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about vibe coding and agents</p>
+      <h2>Vibe coding and AI agents in Canada: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is vibe coding?</h3>
+        <p>Collins Dictionary, which made it its Word of the Year 2025, says vibe coding refers to the use of artificial intelligence prompted by natural language to write computer code. In our classes it is the first step; reading and testing what the AI wrote is the rest.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the difference between an AI agent and a workflow?</h3>
+        <p>In Anthropic's definitions, a workflow runs models and tools through predefined code paths, while an agent lets the model direct its own process and tool use. Agents are more flexible and also more prone to compounding errors.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can teenagers take vibe coding classes?</h3>
+        <p>Yes. Our Vibe Coding for Teens course is for ages 13 to 17 and uses only tools whose terms allow the student's age, such as GitHub Copilot for verified students and, with a parent's permission, OpenAI's tools.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a teen use Claude or Claude Code?</h3>
+        <p>No. Anthropic's terms say users must be at least 18 years old. We never recommend Claude or Claude Code to anyone under 18; they appear only in our adult courses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is there an AI agents course for adults in Canada?</h3>
+        <p>Yes. Our Codex and Claude Code course for professionals runs 24 live classes over 12 weeks, from agent foundations to securing and shipping. Vibe Coding for College covers building full stack projects with AI assistance for ages 18 and up.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need to know how to code first?</h3>
+        <p>It helps but is not required. Every course starts by teaching learners to read code, because judging AI-written code is the core skill. Adults new to programming often take a Python course alongside.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can AI agents replace programmers?</h3>
+        <p>We make no such claim. Anthropic's own guidance warns of higher costs and compounding errors and recommends testing agents in sandboxed environments. Our own small agent shows an answer naming a park its tools never returned; only a check caught it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can students use AI tools in the Canadian Computing Competition?</h3>
+        <p>No. The CCC rules forbid generative AI and AI-based tools inside an editor during the contest, so contest practice happens without assistants.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are classes in Canada?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time is set in your own province's zone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What will I build?</h3>
+        <p>Teens build Python and web projects with allowed assistants and explain every line. Adults build agents on real codebases and data, such as the Ottawa parks agent on this page, wrapped in tests and answer checks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More on building with AI, and more for learners in Canada.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Our pages for every province.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-canada">AI and machine learning in Canada</a></h3><p>Training models, not just prompting them.</p></div>
+      <div><h3><a class="ag-inline-link" href="/what-is-vibe-coding">What is vibe coding?</a></h3><p>The idea in more depth.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vibe-coding-for-teens">Vibe coding for teens</a></h3><p>Our teen approach in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/parents-guide-to-vibe-coding">A parent's guide to vibe coding</a></h3><p>For parents of teens.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-explained">AI agents explained</a></h3><p>How agents decide what to do.</p></div>
+      <div><h3><a class="ag-inline-link" href="/agentic-coding-classes">Agentic coding classes</a></h3><p>Working with coding agents.</p></div>
+      <div><h3><a class="ag-inline-link" href="/model-context-protocol-mcp-course">Model Context Protocol course</a></h3><p>Connecting agents to tools.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a></h3><p>Age rules for many tools.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">We start with a short piece of AI-written code that has a hidden mistake. Finding and explaining it tells the teacher your level, and whether the teen or adult course fits.</p>
+        <p class="ag-mt-40">Want to read more? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> explains a live class, and the <a class="ag-inline-link" href="/courses">course pages</a> set out each syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Canada%20and%20want%20to%20learn%20vibe%20coding%20and%20AI%20agents%20properly.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'vaac',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live over video, with teachers based in India, for learners in every province and territory. The fastest way to reach us is WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_vaac(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free and needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Building with AI</h4><ul><li><a href="/what-is-vibe-coding">What is vibe coding?</a></li><li><a href="/ai-agents-explained">AI agents explained</a></li><li><a href="/agentic-coding-classes">Agentic coding</a></li><li><a href="/ai-tools-age-guide">AI tools age guide</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/ai-and-machine-learning-classes-in-canada">AI and ML in Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Check the answer against the tools</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_vaac = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'vibe-coding-and-ai-agents-classes-in-canada-inline', meta: { name: name, age: age, page: 'vibe-coding-and-ai-agents-classes-in-canada' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

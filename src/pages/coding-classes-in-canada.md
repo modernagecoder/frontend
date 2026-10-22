@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Vibe coding and AI agents classes in Canada](/vibe-coding-and-ai-agents-classes-in-canada)
 - [AI classes for kids in Canada](/ai-classes-for-kids-in-canada)
 - [Java classes for teens in Canada](/java-classes-for-teens-in-canada)
 - [Python classes in Canada](/python-classes-in-canada)

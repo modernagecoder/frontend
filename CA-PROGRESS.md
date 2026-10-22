@@ -259,7 +259,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 66 | coding-classes-for-teens-in-canada (tc, #485225) | door | 4,840 | 1.9% vs best-online-coding-classes-in-canada | subject door | high school coding | 5272d872 |
 | 67 | python-classes-in-canada (pc, #27610F) | door | 4,530 | 1.5% vs ccc-junior-guide | subject door | python projects | 1219e5b7 |
 | 68 | java-classes-for-teens-in-canada (jtc, #3D6B41) | door | 4,449 | 1.4% vs coding-classes-for-teens-in-canada | subject door | java for school | 76da20d9 |
-| 69 | ai-classes-for-kids-in-canada (akc, #1C4C39) | door | 4,805 | 1.9% vs coding-classes-for-kids-in-canada | subject door | kid-safe AI | (this commit) |
+| 69 | ai-classes-for-kids-in-canada (akc, #1C4C39) | door | 4,805 | 1.9% vs coding-classes-for-kids-in-canada | subject door | kid-safe AI | b82c5a76 |
+| 70 | vibe-coding-and-ai-agents-classes-in-canada (vaac, #375C7A) | door | 4,643 | 2.6% vs ai-classes-for-kids-in-canada | subject door | agents with limits | (this commit) |
 
 ## Skipped
 
