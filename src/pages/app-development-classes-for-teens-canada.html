@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>App Development Classes for Teens in Canada: Build and Ship</title>
+  <meta name="description" content="App development for Canadian teens aged 13 to 18: what Apple and Google require before an under-18 can publish, the tools we teach, and a Hamilton spray pad app.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/app-development-classes-for-teens-canada">
+  <link rel="alternate" type="text/markdown" href="/src/pages/app-development-classes-for-teens-canada.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#273175">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/app-development-classes-for-teens-canada">
+  <meta property="og:title" content="App Development Classes for Teens in Canada: Build and Ship">
+  <meta property="og:description" content="How a Canadian teenager goes from first screen to a published app: the store rules for under-18s from Apple and Google, React Native and Expo, and real app logic on the City of Hamilton's spray pad data.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="App Development Classes for Teens in Canada: Build and Ship">
+  <meta name="twitter:description" content="App development for Canadian teens: store rules for under-18s, React Native, and a Hamilton data app.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-adtc .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-adtc .ag-capsule { border-left-width: 5px; border-radius: 8px; }
+.ag-root.ag-adtc .ag-section-head h2 { max-width: 34ch; }
+.ag-root.ag-adtc .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-adtc .ag-band-head h3 { letter-spacing: -0.009em; }
+.ag-root.ag-adtc .ag-slots { gap: 1.05rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/app-development-classes-for-teens-canada#page","url":"https://learn.modernagecoders.com/app-development-classes-for-teens-canada","name":"App Development Classes for Teens in Canada","description":"A guide for Canadian teenagers and parents to building and publishing mobile apps, built from Apple Developer and Google Play Console help pages, React Native, Expo and MIT App Inventor sites and provincial curriculum documents, with original app logic on City of Hamilton open data.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"App development for teens","item":"https://learn.modernagecoders.com/app-development-classes-for-teens-canada"}]},{"@type":"Course","name":"App Development Classes for Teens in Canada","description":"Live online app development classes for teenagers aged 13 to 18 across Canada, from first screens to a published-ready app in React Native, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/app-development-classes-for-teens-canada"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/app-development-classes-for-teens-canada"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/app-development-classes-for-teens-canada"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can a teenager publish an app on the App Store?","acceptedAnswer":{"@type":"Answer","text":"Apple requires the legal age of majority in your region to enrol in the Apple Developer Program. It also says that if you are under the age of majority, a parent or guardian can enrol with their Apple Account and share it with you."}},{"@type":"Question","name":"Can a teenager publish on Google Play?","acceptedAnswer":{"@type":"Answer","text":"Google says you must be at least 18 years of age to sign up for a Play Console account, so a parent or guardian holds the account. New personal accounts must also meet testing and device verification requirements before release."}},{"@type":"Question","name":"What age can my teen start app development?","acceptedAnswer":{"@type":"Answer","text":"Our App Development for Teens course takes absolute beginners aged 13 to 18. For children aged 8 to 12, App Making for Kids uses blocks first."}},{"@type":"Question","name":"Which tools will my teen use?","acceptedAnswer":{"@type":"Answer","text":"JavaScript and React Native, with Expo to run the app on a phone quickly and Firebase for data. One codebase builds for both Android and iPhone."}},{"@type":"Question","name":"Does my teen need a Mac to build iPhone apps?","acceptedAnswer":{"@type":"Answer","text":"Not to learn. The React Native site says developers can \"Get started quickly with Expo Go\", which runs the app on the teen's own phone during development. Publishing to Apple's store has its own requirements, which we explain when a family reaches that stage."}},{"@type":"Question","name":"Is app development taught in Canadian high schools?","acceptedAnswer":{"@type":"Answer","text":"Not usually as its own course, but parts of it are. Ontario's ICD2O has students build hands-on projects and ICS4C asks them to design graphical user interfaces; British Columbia lists Web Development 10 and Computer Programming 12."}},{"@type":"Question","name":"Are there app competitions for Canadian teens?","acceptedAnswer":{"@type":"Answer","text":"Apple's Swift Student Challenge accepts students aged 13 or older in Canada, with free registration as an Apple developer. Technovation runs a global challenge in which teams build a first solution to a real problem."}},{"@type":"Question","name":"Can my teen use AI tools to build an app?","acceptedAnswer":{"@type":"Answer","text":"Within each company's rules. OpenAI requires a parent's or guardian's permission for users under 18, and Anthropic does not allow anyone under 18 to use Claude. In our classes, any AI-suggested code must be explained by the teen."}},{"@type":"Question","name":"When are app classes held for Canadian teens?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in your own province's zone."}},{"@type":"Question","name":"What will my teen have at the end?","acceptedAnswer":{"@type":"Answer","text":"A complete app of their own design, tested on real phones, with its logic written and explained by the teen, such as the Hamilton spray pad finder on this page. Publishing is optional and done through a parent where the store requires it."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/app-development-classes-for-teens-canada","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-adtc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#stores">Store rules</a></li>
+      <li><a href="#school">At school</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#project">Hamilton app</a></li>
+      <li><a href="#steps">First app</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / App development for teens
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; App development &middot; Ages 13 to 18</p>
+        <h1>App development classes for teens in Canada</h1>
+        <p class="ag-lede">Plenty of Canadian teenagers have an app idea; far fewer know that publishing one runs into age rules before it runs into code. Apple and Google both tie developer accounts to adulthood, so a fifteen year old in Surrey or Sudbury can build a complete app but usually needs a parent to put it in a store. This page sets out those rules in each company's own words, shows where app building sits in Canadian school courses, explains the tools we teach, and walks through the real logic of a small app: finding the nearest City of Hamilton spray pad.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">See the Hamilton app</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20Canada%20wants%20to%20build%20an%20app.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'adtc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; teens build, test and explain every screen of their own app</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Ages</dt><dd>13 to 18</dd>
+          <dt>Builds</dt><dd>Android and iOS apps from one codebase</dd>
+          <dt>Tools</dt><dd>JavaScript, React Native, Expo</dd>
+          <dt>Publishing</dt><dd>With a parent where stores require it</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>App development classes for teens in Canada take students aged 13 to 18 from first screens to a complete Android and iOS app in React Native, with publishing done through a parent where Apple or Google require an adult account. Modern Age Coders teaches them live online, in a batch or one to one, in App Development for Teens.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for app builders</p>
+      <h2>Three routes to building apps</h2>
+      <p class="ag-lede">The app course itself, the JavaScript underneath it, and the full stack course for teens who also want the server side.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-app-development-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/app-dev-teens.webp" alt="App Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ADTC / 01</p>
+          <h3>App Development for Teens</h3>
+          <p>Ages 13 to 18, absolute beginners. Ten to twelve months in four phases: a first app, app craft, a capstone build and launch, in React Native.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/javascript-course-for-teens-beginners-interactive-web">
+        <div class="ag-pick-shot"><img src="/images/javascript-teens.webp" alt="JavaScript for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ADTC / 02</p>
+          <h3>JavaScript for Teens</h3>
+          <p>Ages 13 to 18. Six months of the language React Native is written in: the page, data and the network, then canvas games.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/full-stack-web-development-teens-masterclass">
+        <div class="ag-pick-shot"><img src="/images/web-dev-teens.webp" alt="Full Stack Web Development for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ADTC / 03</p>
+          <h3>Full Stack Web Development for Teens</h3>
+          <p>Ages 13 to 18. Twelve to fourteen months of React and Node.js, for an app that needs its own server and database.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="stores">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Publishing rules</p><h2>What Apple and Google require before a teen can publish an app</h2><p class="ag-lede">Building an app has no age limit. Publishing one does. These are the rules from each company's own help pages, read on 22 October 2026. Neither page gives a number for Canada; Apple's depends on the age of majority in the developer's province.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Developer account rules for app stores, from Apple and Google (read 22 October 2026)</caption><thead><tr><th scope="col">Store or programme</th><th scope="col">What the company says</th><th scope="col">What it means for a Canadian teen</th></tr></thead><tbody><tr><td>Apple Developer Program</td><td>You need "an Apple Account with two-factor authentication turned on and be the legal age of majority in your region."</td><td>A teen under the age of majority cannot enrol alone</td></tr><tr><td>Apple, for under-age developers</td><td>"If you're under the age of majority in your region, your parent/guardian can enroll with their Apple Account and share their account with you."</td><td>A parent enrols; the teen builds and submits under that account</td></tr><tr><td>Google Play Console</td><td>"You must be at least 18 years of age to sign up for a Play Console account."</td><td>Under 18, a parent or guardian holds the account</td></tr><tr><td>Google Play, new personal accounts</td><td>"Developers with personal accounts created after November 13, 2023, must meet specific testing requirements before they can make their app available on Google Play."</td><td>Plan for a testing period before release, and an Android device to verify the account</td></tr><tr><td>Google Play fee</td><td>A one-time registration fee, paid by card</td><td>A cost to discuss before the launch phase</td></tr><tr><td>Swift Student Challenge (Apple)</td><td>"13 years of age or older in all other countries and regions", with free registration as an Apple developer</td><td>Open to Canadian students from 13, without a paid account</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we handle publishing with teens</h3><p>Most of a teen's app course is spent building and testing on their own phone and in a simulator, which needs no store account at all. Publishing comes at the end, and only if the family wants it. Where a store requires an adult, the parent opens the account, and the teen prepares everything else: the build, the screenshots, the description and the privacy answers.</p>
+<p>We never ask a teen to misstate their age to a store, and we explain to families what each account involves before the launch phase begins.</p></div><div><h3>Why the rules are worth respecting</h3><p>A published app has users, reviews, data and sometimes payments, and the account holder is responsible for all of them. That is why the stores tie accounts to adulthood. A teen who learns the release process with a parent beside them learns it properly.</p>
+<p>For a teen who wants a public showcase without a store, Apple's Swift Student Challenge accepts Canadian entrants from 13, and an app can also be shared as a web build.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://developer.apple.com/help/account/membership/program-enrollment/" rel="noopener" target="_blank">Apple, program enrollment</a>; <a class="ag-inline-link" href="https://developer.apple.com/programs/enroll/" rel="noopener" target="_blank">Apple Developer Program, enroll</a>; <a class="ag-inline-link" href="https://developer.apple.com/swift-student-challenge/eligibility/" rel="noopener" target="_blank">Swift Student Challenge eligibility</a>; <a class="ag-inline-link" href="https://support.google.com/googleplay/android-developer/answer/6112435" rel="noopener" target="_blank">Google, Get started with Play Console</a>. All read 22 October 2026. We are not connected with Apple or Google.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Apps and school</p><h2>Where app building sits in Canadian school courses</h2><p class="ag-lede">No province we read offers a course called app development for teens, but several courses ask for exactly the skills an app needs: interfaces, projects and organised code.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>App-related skills in provincial course documents (read 22 October 2026)</caption><thead><tr><th scope="col">Course</th><th scope="col">What the document says</th><th scope="col">The app skill</th></tr></thead><tbody><tr><td>Ontario ICD2O, Grade 10</td><td>Students "build hands-on projects"</td><td>Finishing a working thing, not just exercises</td></tr><tr><td>Ontario ICS4C, Grade 12 College</td><td>Students "design graphical user interfaces"</td><td>Screens, buttons and layouts</td></tr><tr><td>British Columbia, Web Development 10</td><td>Listed among the ADST courses</td><td>The web technologies React Native grew from</td></tr><tr><td>British Columbia, Computer Programming 12</td><td>"higher-level structures, such as functions, methods, or classes"</td><td>Organising an app into components</td></tr><tr><td>Technovation (global, open to Canadians)</td><td>"Technovation Challenge teaches young innovators to build their first solution."</td><td>A team app project with a real problem</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What an app course adds to school</h3><p>School courses teach the parts. An app course puts them together under real constraints: a small screen, a slow network, a user who taps the wrong button. Teens who have done both find their school projects easier, because they have already met the hard part, which is finishing.</p>
+<p>We teach alongside school and replace no course. A teen who is also in ICS3U or ICS4U can bring that work to class too.</p></div><div><h3>Blocks first, for younger siblings</h3><p>For children under 13, MIT App Inventor says newcomers "can have a simple app up and running in less than 30 minutes" using blocks. Our App Making for Kids course uses that route for ages 8 to 12.</p>
+<p>Teenagers go straight to typed JavaScript, because that is what real apps are made of and what they will meet in any later course.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&amp;elements.code=ICD2O&amp;depth=0" rel="noopener" target="_blank">Ontario ICD2O</a>; <a class="ag-inline-link" href="https://curriculum.gov.bc.ca/curriculum/adst" rel="noopener" target="_blank">BC ADST courses</a>; <a class="ag-inline-link" href="https://technovation.org/" rel="noopener" target="_blank">Technovation</a>; <a class="ag-inline-link" href="https://appinventor.mit.edu/about-us" rel="noopener" target="_blank">MIT App Inventor</a>. Read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The toolchain</p><h2>The tools a teen learns, and why these ones</h2><p class="ag-lede">We teach one codebase for both Android and iPhone, because most Canadian families have a mix of both and a teen wants to show the app to everyone.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Tools in our App Development for Teens course (from the course syllabus, with each project's own description)</caption><thead><tr><th scope="col">Tool</th><th scope="col">What its makers say</th><th scope="col">Why we use it</th></tr></thead><tbody><tr><td>JavaScript</td><td>The language of the web and of React Native</td><td>One language for app logic, screens and later a server</td></tr><tr><td>React Native</td><td>"Learn once, write anywhere."; "Create native apps for Android, iOS, and more using React"</td><td>One codebase, real native apps</td></tr><tr><td>Expo</td><td>A new project starts with "npx create-expo-app@latest"</td><td>Run the app on a phone in minutes, without native setup</td></tr><tr><td>Firebase</td><td>The backend the course syllabus names for the app</td><td>Stored data and accounts without running a server</td></tr><tr><td>Git and GitHub</td><td>Version control</td><td>Every change can be seen and undone</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Months 1 to 3</h3><p>Foundations to a first app: JavaScript, components, a screen that responds to a tap, running on the teen's own phone.</p></div><div><h3>Months 4 to 8</h3><p>App craft, then the wider craft: navigation, data, offline storage, and a capstone app planned and built by the teen.</p></div><div><h3>Months 9 and 10</h3><p>Launch: testing, store preparation, and publishing through a parent's account where the store requires an adult.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Real app logic</p><h2>A spray pad finder on Hamilton's open data</h2><p class="ag-lede">The City of Hamilton publishes the locations of its spray pads under a licence that allows commercial use. The heart of a "nearest spray pad" app is one function: how far is each pad from the user? It is also where most first attempts go wrong. The code and every number below are ours, run on the city's file downloaded on 22 October 2026.</p></div>
+    <p><b>The app's job:</b> from the phone's location, list the four nearest spray pads with their distance. The file holds 68 spray pads with NAME, ADDRESS, COMMUNITY and coordinates, X for longitude and Y for latitude. For testing we use a fixed example point of ours in downtown Hamilton, latitude 43.2557 and longitude -79.8711; in the app the point comes from the phone.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our app logic &middot; nearest.js</b><span>javascript</span></figcaption><pre>// Our spray pad finder logic (Modern Age Coders, written for this page). Runs in Node or inside a React Native app.
+const fs = require("fs");
+
+function distanceKm(lat1, lon1, lat2, lon2) {
+  const R = 6371;                                   // mean Earth radius in km
+  const rad = (d) =&gt; (d * Math.PI) / 180;
+  const dLat = rad(lat2 - lat1);
+  const dLon = rad(lon2 - lon1);
+  const h = Math.sin(dLat / 2) ** 2 +
+            Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));           // the haversine formula
+}
+
+function loadPads(path) {
+  const [header, ...lines] = fs.readFileSync(path, "utf8").replace(/^\uFEFF/, "").trim().split(/\r?\n/);
+  const cols = header.split(",");
+  return lines.map((line) =&gt; {
+    const f = line.split(",");                      // safe here: this file has no quoted fields
+    return { name: f[cols.indexOf("NAME")], lat: Number(f[cols.indexOf("Y")]), lon: Number(f[cols.indexOf("X")]) };
+  });
+}
+
+function nearest(pads, lat, lon, n) {
+  return pads
+    .map((p) =&gt; ({ ...p, km: distanceKm(lat, lon, p.lat, p.lon) }))
+    .sort((a, b) =&gt; a.km - b.km)
+    .slice(0, n);
+}
+
+const pads = loadPads("hamilton-spray-pads.csv");
+const here = { lat: 43.2557, lon: -79.8711 };       // our example point, downtown Hamilton
+console.log(pads.length, "spray pads loaded");
+for (const p of nearest(pads, here.lat, here.lon, 4)) {
+  console.log(p.name.padEnd(14), p.km.toFixed(2), "km");
+}</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output on the city's file (Node 22)</b><span>text</span></figcaption><pre>68 spray pads loaded
+Durand Park    0.70 km
+Beasley Park   0.74 km
+McLaren Park   0.80 km
+Central Park   0.94 km</pre><p class="ag-code-note">The same functions drop into a React Native screen unchanged; only loadPads changes, because an app bundles or downloads the data instead of reading a file.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The shortcut most first attempts take, and what it does to the answer (our runs on the same file)</caption><thead><tr><th scope="col">Method</th><th scope="col">Second nearest from our point</th><th scope="col">Why</th></tr></thead><tbody><tr><td>Haversine distance (our code)</td><td>Beasley Park, 0.74 km</td><td>Treats the Earth as a sphere, so a degree east and a degree north are measured fairly</td></tr><tr><td>Latitude and longitude as a flat grid</td><td>Central Park, really 0.94 km away</td><td>At Hamilton's latitude a degree of longitude is much shorter than a degree of latitude, so east-west gaps are overstated</td></tr><tr><td>Flat grid, tested across the whole city</td><td>Wrong nearest pad at 297 of 1,800 test points</td><td>About one location in six would send a family to the wrong pad</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What a teen learns from one function</h3><p>That a plausible-looking result can be wrong, and that the only way to know is to test against something trusted. We check the haversine function by hand on two points whose distance we can measure on a map, before trusting it on 68.</p>
+<p>That data has a shape: X is longitude and Y is latitude here, and swapping them is the single most common bug in a map app. The code reads columns by name for that reason.</p></div><div><h3>Turning logic into an app</h3><p>In class the next steps are a list screen that shows the four results, a button that asks the phone for its location with the user's permission, and a message when permission is refused. Each step is tested on a real phone.</p>
+<p>The teen also writes down, in the app's about screen, where the data comes from and under which licence, exactly as the city asks.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Data: <a class="ag-inline-link" href="https://hub.arcgis.com/datasets/cbda734bc7bb4fa09f13574e534ebd7e_15" rel="noopener" target="_blank">City of Hamilton open data</a>, Spray Pads. Contains public sector Data made available under the City of Hamilton's Open Data Licence. The licence allows use "including for commercial purposes". Code, example point and results are ours; the City of Hamilton does not endorse this page.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="steps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">First app</p><h2>From idea to a first app: seven steps we follow with teens</h2><p class="ag-lede">Our process for a teen's first complete app, whatever the idea. It is deliberately slow at the start and fast at the end.</p></div>
+    <ol class="ag-steps"><li><b>Write the idea in one sentence.</b> "An app that shows the nearest spray pad" is buildable; "an app for summer" is not yet.</li><li><b>Draw every screen on paper.</b> Usually three or four. Each arrow between screens becomes a navigation step later.</li><li><b>Find the data.</b> Where does the app's information come from, and does its licence allow use in an app? The Hamilton file does; many files online do not.</li><li><b>Write the logic first, without screens.</b> Like nearest.js above: plain functions, tested with known answers.</li><li><b>Build one screen at a time.</b> Run it on the phone after every change. A screen that only works in the simulator is not finished.</li><li><b>Ask someone else to use it.</b> A parent or friend, with no instructions. Note every place they hesitate.</li><li><b>Decide about publishing.</b> If the family wants a store release, a parent opens the account where the store requires an adult, and the teen prepares the release.</li></ol>
+    <p class="ag-mt-40">Step 4 is the one teens most want to skip, and the one that saves the most time. Bugs in logic are much easier to find when no screen is in the way.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="thinking">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thinking first</p><h2>Apps built by teens who understand them</h2><p class="ag-lede">Our promise to every family is the same, in Canada or anywhere else: we teach students to think a problem through and solve it, not to copy an answer or an AI's output. App building tempts copying more than most subjects, so we are specific.</p></div>
+    <div class="ag-grid-3"><div><h3>No pasted screens</h3><p>Code for a screen is typed and explained by the teen. Templates are studied, not dropped in.</p></div><div><h3>Every bug explained</h3><p>When something breaks, the teen says why before fixing it. The explanation goes in a short log the teacher reads.</p></div><div><h3>AI within the rules</h3><p>Teens may use assistants their age allows, such as OpenAI's tools with a parent's permission; Claude is 18 and over and never recommended to them. Any AI-suggested line must be explained.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="time">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">From coast to coast</p><h2>When app classes run for Canadian teens</h2><p class="ag-lede">Every class is booked in the teen's own zone. Only the eastern provinces change clocks this school year, so a class time can shift for an Ontario family against a BC teacher booking in early November and mid-March.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How far behind UTC each zone is, 2026 to 2027 (IANA tz database 2026e)</caption><thead><tr><th scope="col">Teens in</th><th scope="col">November 2026 to March 2027</th><th scope="col">After 14 March 2027</th></tr></thead><tbody><tr><td>Vancouver, Kelowna, Whitehorse</td><td>7 hours behind</td><td>7 hours behind</td></tr><tr><td>Calgary, Edmonton, Saskatoon</td><td>6 hours behind</td><td>6 hours behind</td></tr><tr><td>Winnipeg</td><td>5 hours behind</td><td>5 hours behind</td></tr><tr><td>Toronto, Ottawa, Quebec City</td><td>5 hours behind</td><td>4 hours behind</td></tr><tr><td>Halifax, Fredericton, Charlottetown</td><td>4 hours behind</td><td>3 hours behind</td></tr><tr><td>St. John's</td><td>3 hours 30 minutes behind</td><td>2 hours 30 minutes behind</td></tr></tbody></table></div>
+    <p class="ag-mt-40">App classes need a phone nearby for testing, so teens usually pick a weekday evening or a weekend morning at home. We confirm the time again on 1 November 2026 and 14 March 2027.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Four stages</p>
+      <h2>Where is your teen as an app builder?</h2>
+      <p class="ag-lede">Our stages for placing a teenager in the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four app-building stages (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the teen can do</th></tr></thead><tbody><tr><td>1. Screens</td><td class="ag-num">Builds a screen with text, an image and a button that does something</td></tr><tr><td>2. Logic</td><td class="ag-num">Writes and tests functions, like distanceKm, separately from the screens</td></tr><tr><td>3. Data</td><td class="ag-num">Loads data, stores it on the phone and handles a failed network call</td></tr><tr><td>4. Release</td><td class="ag-num">Tests on real devices, prepares a release and understands the store's rules</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 4 is where a parent becomes part of the process, because the stores tie developer accounts to adults.</p>
+<p>A teen at stage 2 can already build useful tools; the polish comes later.</p></div><div><h3>For teens</h3><p>Test on your real phone every day. Simulators hide problems with touch, speed and permissions.</p>
+<p>Write the logic as plain functions first, then build the screen around them.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related courses</p>
+      <h2>Nine more courses for teen builders</h2>
+      <p class="ag-lede">Live, with one regular teacher, in a batch or one to one, from anywhere in Canada.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>The web side</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / WEB / 01</p>
+          <h4>Frontend for teens</h4>
+          <p>CSS craft to React interfaces.</p>
+          <a class="ag-course-link" href="/courses/frontend-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / WEB / 02</p>
+          <h4>React for teens</h4>
+          <p>The library React Native grew from.</p>
+          <a class="ag-course-link" href="/courses/react-for-teens-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / WEB / 03</p>
+          <h4>Backend for teens</h4>
+          <p>Node, APIs and databases.</p>
+          <a class="ag-course-link" href="/courses/backend-coding-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Data and tools</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / DATA / 01</p>
+          <h4>MySQL for teens</h4>
+          <p>Databases from the first query.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / DATA / 02</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Version control from zero.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / DATA / 03</p>
+          <h4>Python for teens</h4>
+          <p>A second language for data work.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Other things to build</h3>
+        <span class="ag-band-sub">Ages 8 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / MORE / 01</p>
+          <h4>Game development for teens</h4>
+          <p>Unity and C#.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / MORE / 02</p>
+          <h4>Cybersecurity for teens</h4>
+          <p>Keeping apps and users safe.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ADTC / MORE / 03</p>
+          <h4>App making for kids</h4>
+          <p>For younger siblings, ages 8 to 12.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live app classes with a phone on the desk</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evenings, when the phone and laptop are both at hand.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer build sessions for the capstone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Built around the teen's own app idea.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Both phones</h3><p>One codebase for Android and iPhone.</p></div>
+      <div><h3>Logic first</h3><p>Functions tested before any screen.</p></div>
+      <div><h3>Real devices</h3><p>Every change run on the teen's phone.</p></div>
+      <div><h3>Licensed data</h3><p>Open data used only where its licence allows.</p></div>
+      <div><h3>Store rules respected</h3><p>Parents hold accounts where stores require.</p></div>
+      <div><h3>Batch or solo</h3><p>Fifteen to twenty teens, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Apps and sites our students built</h2>
+      <p class="ag-lede">A few finished projects from our students are below. The <a class="ag-inline-link" href="/student-labs">student labs</a> page shows the full range.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The monthly fee covers eight live classes. Store fees, where a family chooses to publish, are paid to the store and are separate from ours.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A first screen on the teen's own phone</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty teens</li><li>One regular teacher</li><li>A set weekly slot</li><li>Month-to-month billing</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Your own teacher</li><li>Your own app idea</li><li>Pace set by your project</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from students and parents, exactly as posted.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Teens and parents ask</p>
+      <h2>App development for teens in Canada: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can a teenager publish an app on the App Store?</h3>
+        <p>Apple requires the legal age of majority in your region to enrol in the Apple Developer Program. It also says that if you are under the age of majority, a parent or guardian can enrol with their Apple Account and share it with you.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a teenager publish on Google Play?</h3>
+        <p>Google says you must be at least 18 years of age to sign up for a Play Console account, so a parent or guardian holds the account. New personal accounts must also meet testing and device verification requirements before release.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can my teen start app development?</h3>
+        <p>Our App Development for Teens course takes absolute beginners aged 13 to 18. For children aged 8 to 12, App Making for Kids uses blocks first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which tools will my teen use?</h3>
+        <p>JavaScript and React Native, with Expo to run the app on a phone quickly and Firebase for data. One codebase builds for both Android and iPhone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my teen need a Mac to build iPhone apps?</h3>
+        <p>Not to learn. The React Native site says developers can "Get started quickly with Expo Go", which runs the app on the teen's own phone during development. Publishing to Apple's store has its own requirements, which we explain when a family reaches that stage.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is app development taught in Canadian high schools?</h3>
+        <p>Not usually as its own course, but parts of it are. Ontario's ICD2O has students build hands-on projects and ICS4C asks them to design graphical user interfaces; British Columbia lists Web Development 10 and Computer Programming 12.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are there app competitions for Canadian teens?</h3>
+        <p>Apple's Swift Student Challenge accepts students aged 13 or older in Canada, with free registration as an Apple developer. Technovation runs a global challenge in which teams build a first solution to a real problem.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my teen use AI tools to build an app?</h3>
+        <p>Within each company's rules. OpenAI requires a parent's or guardian's permission for users under 18, and Anthropic does not allow anyone under 18 to use Claude. In our classes, any AI-suggested code must be explained by the teen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are app classes held for Canadian teens?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in your own province's zone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What will my teen have at the end?</h3>
+        <p>A complete app of their own design, tested on real phones, with its logic written and explained by the teen, such as the Hamilton spray pad finder on this page. Publishing is optional and done through a parent where the store requires it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian teens who want to build things people use.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>All our Canadian pages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/build-apps-with-ai">Build apps with AI</a></h3><p>Where assistants help and where they do not.</p></div>
+      <div><h3><a class="ag-inline-link" href="/app-inventor-for-kids">App Inventor for kids</a></h3><p>The block route for younger children.</p></div>
+      <div><h3><a class="ag-inline-link" href="/javascript-for-kids">JavaScript for kids</a></h3><p>The language behind React Native.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vibe-coding-for-teens">Vibe coding for teens</a></h3><p>Building with AI help, within the rules.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ics3u-computer-science-help">ICS3U help</a></h3><p>Ontario's Grade 11 computer science.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>Finding what is really broken.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-think-like-a-programmer">Think like a programmer</a></h3><p>Turning an idea into steps.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects built by our students.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">In the first class your teen builds a single screen and runs it on their own phone. The teacher sees how they think and explains what a full app course would cover for their idea.</p>
+        <p class="ag-mt-40">Read more first: <a class="ag-inline-link" href="/how-we-teach">how we teach</a> describes our live classes, and the <a class="ag-inline-link" href="/courses">course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20Canada%20wants%20to%20build%20an%20app.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'adtc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Teachers are based in India and teach live over video, so teens in any province can join from home. A WhatsApp message gets the quickest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_adtc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">There is no charge for the first class, and no card is requested.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Building apps</h4><ul><li><a href="/build-apps-with-ai">Build apps with AI</a></li><li><a href="/app-inventor-for-kids">App Inventor for kids</a></li><li><a href="/javascript-for-kids">JavaScript for kids</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/canada-time-zones-2026-online-class-times">Class times by zone</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/ics3u-computer-science-help">ICS3U help</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Logic first, then the screen</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_adtc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'app-development-classes-for-teens-canada-inline', meta: { name: name, age: age, page: 'app-development-classes-for-teens-canada' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

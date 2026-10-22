@@ -26061,6 +26061,18 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-canada.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/app-development-classes-for-teens-canada"
+  to = "/src/pages/app-development-classes-for-teens-canada.html"
+  status = 200
+
+[[redirects]]
+  from = "/app-development-classes-for-teens-canada.md"
+  to = "/src/pages/app-development-classes-for-teens-canada.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
