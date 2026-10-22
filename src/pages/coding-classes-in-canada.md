@@ -26,7 +26,7 @@ See all coursesMentors live in **6 Canadian time zones**Booking now · 09:00: 21
 
 Each row below is a live course you can join this week. Click anywhere on the row to open the full course page.
 
-[Ages 6: 12 · Elementary Coding for Kids: Scratch to real Python, gentle Canadian pace. For students from JK through Grade 6 across Ontario, BC, Québec, Alberta and the Maritimes. Starts in Scratch, switches to real Python by week 10, ships a tiny project a month. ScratchPythonGamesAI intro USD 150/ moOpen course →   Sample weekly slot · ET 17:00 Tue + 17:00 Thu  2 × 45 min · same mentor every week Recordings + parent note after every class Maps to Ontario coding strand & BC ADST](/courses/coding/kids)[Most chosen · Ages 13: 18 · High school Coding & AI for Teens: Waterloo / UofT / UBC / McGill-aware. Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Coaches the Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO). PythonJavaScriptWebGitCCC / CCO USD 150/ moOpen course →   A typical year // Year 1 plan, grade 10 student, Toronto Term 1 · Python deep + Git Term 2 · Web apps shipped to Vercel Term 3 · Modern AI: RAG + agents Summer · CCC + portfolio capstone](/courses/coding/teens)[New · Ages 13: 18 · AI track AI & Agentic-AI: the way Cohere, Vector and Mila ship. Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns Canadian AI shops actually use in production. OpenAI APIClaude APIRAGAgentsLangGraph USD 150/ moOpen course →   First two months  **Week 1–2:** calling LLM APIs from Python **Week 3–4:** structured output & tools **Week 5–6:** RAG over your own notes **Week 7–8:** first deployed agent](/ai-ml-course-for-teens)[CEGEP · University · Adults Coding for CEGEP, university & career switch. For CEGEP CS students in Québec, Canadian undergrads at any university, and adults retraining into software / data / AI roles at Shopify, Wealthsimple, RBC, TD, Constellation Software, Cohere, Telus, etc. AlgorithmsSystem designCloudAI engineering USD 150/ moOpen course →   Common goals  CEGEP CS programme top-up & project supervision Waterloo / UofT / UBC CS prep for high school grads Career switch into a Toronto / Montréal / Vancouver SWE role Interview prep: DSA + system design](/courses/coding/college)[For girls · 8: 22 Special For Girls: all-female mentor pairing. Same curriculum as every other track. All-female mentor pairing. Role models from the Toronto, Montréal and Vancouver tech scenes. Optional intro through Ladies Learning Code partner cohorts. PythonWebAIMentorship USD 150/ moOpen course →   Why it works  Same-mentor pairing for confidence and continuity Project briefs tuned to real-world impact Network of role-model alumnae across Canada](/courses/coding/girls)[Schools · Boards · Companies For Canadian schools & teams: bilingual cohorts available. For Canadian schools (independent, public, French-immersion), school boards, and companies upskilling staff. Cohorts of 6: 30, tailored to your provincial framework, delivered on your hours. CohortCustom curriculumBilingualReports USD 100/ seat · groupTalk to us →   Recent partner profiles  Independent school in Greater Toronto Area, Grade 9 cohort Toronto District School Board, code club partner pilot French-immersion *polyvalente* in Montréal, bilingual format Calgary tech firm, adult upskilling cohort](/courses/coding/corporate)
+[Ages 6: 12 · Elementary Coding for Kids: Scratch to real Python, gentle Canadian pace. For students from JK through Grade 6 across Ontario, BC, Québec, Alberta and the Maritimes. Starts in Scratch, switches to real Python by week 10, ships a tiny project a month. ScratchPythonGamesAI intro USD 150/ moOpen course →   Sample weekly slot · ET 17:00 Tue + 17:00 Thu  2 × 45 min · same mentor every week Recordings + parent note after every class Maps to Ontario coding strand & BC ADST](/courses/coding/kids)[Most chosen · Ages 13: 18 · High school Coding & AI for Teens: Waterloo / UofT / UBC / McGill-aware. Real Python, JavaScript, Git, web apps and modern AI engineering on a 12-month arc. Coaches the Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO). PythonJavaScriptWebGitCCC / CCO USD 150/ moOpen course →   A typical year // Year 1 plan, grade 10 student, Toronto Term 1 · Python deep + Git Term 2 · Web apps shipped to Vercel Term 3 · Modern AI: RAG + agents Summer · CCC + portfolio capstone](/courses/coding/teens)[New · Ages 13: 18 · AI track AI & Agentic-AI: the way Cohere, Vector and Mila ship. Build real LLM apps end-to-end: prompts, retrieval, tool-calling agents, evals, deploy. The same patterns Canadian AI shops actually use in production. OpenAI APIClaude APIRAGAgentsLangGraph USD 150/ moOpen course →   First two months  **Week 1–2:** calling LLM APIs from Python **Week 3–4:** structured output & tools **Week 5–6:** RAG over your own notes **Week 7–8:** first deployed agent](/ai-ml-course-for-teens)[CEGEP · University · Adults Coding for CEGEP, university & career switch. For CEGEP CS students in Québec, Canadian undergrads at any university, and adults retraining into software / data / AI roles at Shopify, Wealthsimple, RBC, TD, Constellation Software, Cohere, Telus, etc. AlgorithmsSystem designCloudAI engineering USD 150/ moOpen course →   Common goals  CEGEP CS programme top-up & project supervision Waterloo / UofT / UBC CS prep for high school grads Career switch into a Toronto / Montréal / Vancouver SWE role Interview prep: DSA + system design](/courses/coding/college)[For girls · 8: 22 Special For Girls: all-female mentor pairing. Same curriculum as every other track. All-female mentor pairing. Role models from the Toronto, Montréal and Vancouver tech scenes. Optional intro through Ladies Learning Code partner cohorts. PythonWebAIMentorship USD 150/ moOpen course →   Why it works  Same-mentor pairing for confidence and continuity Project briefs tuned to real-world impact Network of role-model alumnae across Canada](/courses/coding/girls)[Schools · Boards · Companies For Canadian schools & teams: bilingual cohorts available. For Canadian schools (independent, public, French-immersion), school boards, and companies upskilling staff. Cohorts of 6: 30, tailored to your provincial framework, delivered on your hours. CohortCustom curriculumBilingualReports USD 100/ seat · groupTalk to us →](/courses/coding/corporate)
 
 Many Canadian students take AP for university credit, and international schools here also run IB and Cambridge curricula. These live courses prepare those exams directly.
 
@@ -374,7 +374,7 @@ Yes. We accept Visa, Mastercard, Amex (all issued in Canada), Apple Pay and Goog
 
 Are mentors used to French-immersion and independent Canadian schools?
 
-Yes. We support students in French-immersion schools across Canada, the *polyvalentes* in Québec, and independent schools (UCC, Branksome Hall, Crescent, Havergal, St. George's, Crofton House, Selwyn House, Bishop Strachan, Trinity College School, Appleby College, etc.). Mentors adapt vocabulary to what your child already hears at school.
+Yes. We support students in French-immersion schools across Canada, the *polyvalentes* in Québec, and independent schools. Mentors adapt vocabulary to what your child already hears at school.
 
 What's the cancellation policy?
 
@@ -509,44 +509,6 @@ Five minutes to look back. What's good? What could be cleaner? The student names
 Mentor writes a 4-line note to the parent: what was covered, how the student felt, optional homework, plan for next class. Cameras off. Done.
 
 Canadian schools we've supported
-
-## A real cross-section of Canadian schools we've taught students from.
-
-We're not affiliated with any of these schools. We simply mentor the students who attend them. We know each school's pace, project culture and provincial curriculum rhythm.
-
-UCC · TCS · CrescentToronto · GTA
-
-Upper Canada College, Trinity College School, Crescent School, independent boys' schools in the GTA. Strong CS departments and Waterloo / UofT pipelines.
-
-Branksome Hall · Havergal · BSSToronto
-
-Independent girls' schools in Toronto. Many of our students from here are aiming at Waterloo, McMaster or UofT CS. And we coach the Canadian Computing Competition with them.
-
-Selwyn House · Sacré-Cœur · ECSMontréal
-
-Independent schools in Montréal. Bilingual students common. Our English-first delivery sits naturally alongside the bilingual Québec curriculum.
-
-St. George's · Crofton HouseVancouver
-
-Independent schools in Vancouver. Strong ADST awareness and a steady UBC pipeline. Many of our students here aim at UBC CS or Waterloo CS.
-
-Appleby CollegeOakville · GTA
-
-Day and boarding school west of Toronto. Many of our students from here are looking at Waterloo or UofT, plus international university applications.
-
-Hillfield Strathallan CollegeHamilton
-
-Independent school in Hamilton. McMaster CS is a natural pipeline; we coach Canadian Computing Competition and project portfolio with several students here.
-
-Toronto District School BoardToronto
-
-TDSB schools across Toronto: Marc Garneau CI, Earl Haig SS, Etobicoke School of the Arts, William Lyon Mackenzie CI. We supplement strong school CS departments with deeper 1:1 mentorship.
-
-CEGEPs across QuébecQuébec
-
-Marianopolis, Vanier, Dawson, Champlain, John Abbott: CEGEP CS students often join us for the technical depth around their programme courses and project work.
-
-More FAQ
 
 ## Further questions Canadian parents and learners ask before booking.
 
@@ -694,7 +656,7 @@ Mentors aim to reply within one Canadian working day to written questions betwee
 
 "Will the mentor coach IB Computer Science alongside Canadian provincial curricula?"
 
-Yes. Many of our Canadian students attend IB schools (Branksome Hall, UTS, Crofton House, Saint Anne's, etc.). The mentor maps the weekly plan to the IB Computer Science programme including Higher Level if relevant, and coaches the IB Internal Assessment.
+Yes. We teach students who follow the IB Diploma in Canada. The mentor maps the weekly plan to the IB Computer Science programme including Higher Level if relevant, and coaches the IB Internal Assessment.
 
 "Will I get a transcript or report I can use with my child's school?"
 
