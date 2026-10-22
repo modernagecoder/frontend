@@ -14,6 +14,7 @@
 const fs = require('fs');
 const path = require('path');
 const { course } = require('./catalogue');
+const { neutralFee, feeAnchor } = require('./fee-anchor');
 
 const ROOT = path.resolve(__dirname, '..', '..', '..');
 const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts.json'), 'utf8'));
@@ -401,22 +402,24 @@ ${PROJECTS.map(p => `      <article class="ag-proj">
     <div class="ag-grid-3">
       <div class="ag-price">
         <p class="ag-price-name">Free first class</p>
-        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-amt">${neutralFee(page) ? 'Free' : 'USD 0'}</p>
         <p class="ag-price-alt">no card required</p>
         <ul>${page.fees.free.map(x => `<li>${x}</li>`).join('')}</ul>
         <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
       </div>
       <div class="ag-price ag-price--feature">
         <p class="ag-price-name">Group batch</p>
-        <p class="ag-price-amt">USD 100</p>
-        <p class="ag-price-alt">a month, billed in US dollars</p>
+        ${neutralFee(page) ? `<p class="ag-price-amt">${feeAnchor(page, 'group')}</p>
+        <p class="ag-price-alt">a month, shown in your currency</p>` : `<p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>`}
         <ul>${page.fees.group.map(x => `<li>${x}</li>`).join('')}</ul>
         <a href="#start" class="ag-btn">Start here</a>
       </div>
       <div class="ag-price">
         <p class="ag-price-name">One to one</p>
-        <p class="ag-price-amt">USD 150</p>
-        <p class="ag-price-alt">a month, billed in US dollars</p>
+        ${neutralFee(page) ? `<p class="ag-price-amt">${feeAnchor(page, 'personal')}</p>
+        <p class="ag-price-alt">a month, shown in your currency</p>` : `<p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>`}
         <ul>${page.fees.one.map(x => `<li>${x}</li>`).join('')}</ul>
         <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
       </div>

@@ -26,7 +26,7 @@ const slug = process.argv[2];
 const DRY = process.argv.includes('--dry-run');
 if (!slug) { console.error('usage: node scripts/nl/build.js <slug> [--dry-run]'); process.exit(2); }
 
-const MARKET_DIRS = ['nl', 'ie', 'uk', 'au', 'us'];
+const MARKET_DIRS = ['nl', 'ie', 'uk', 'au', 'us', 'ca'];
 const modPath = MARKET_DIRS.map(d => path.join(ROOT, 'content', d, slug + '.js')).find(p => fs.existsSync(p));
 if (!modPath) { console.error('no content module for ' + slug + ' in content/' + MARKET_DIRS.join(', content/')); process.exit(2); }
 delete require.cache[require.resolve(modPath)];
@@ -85,7 +85,7 @@ if (missing.length) fail('requiredMentions absent from page: ' + missing.join(' 
 if (/—/.test(html)) fail('em dash in page');
 if (/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(html)) fail('emoji in page');
 // 'groep 5 to 8', 'grades 5 to 8' and 'class 5 to 8' are school-year ranges, not a batch size.
-if (/(?<!groep |grades? |class(?:es)? |years? )5 to 8(?! (?:child|pupil|learner))|five to eight/i.test(html)) fail('old batch size 5 to 8 in page; brand facts say ' + JSON.stringify(require(path.join(ROOT, 'scripts/brand-facts.json')).batchSizes.group));
+if (/(?<!groep |grades? |class(?:es)? |years? )\b5 to 8\b(?! (?:child|pupil|learner)\b)|five to eight/i.test(html)) fail('old batch size 5 to 8 in page; brand facts say ' + JSON.stringify(require(path.join(ROOT, 'scripts/brand-facts.json')).batchSizes.group));
 if (/\+1\b.*strip|countryIso:'IN'/.test(html)) fail('wrong lead contract');
 // Lead contract: the form must send the module's market. A cg module with no
 // market object is a Netherlands page, the convention this builder began with.
@@ -121,6 +121,21 @@ if (LEAD_ISO === 'US') {
   if (/\bpremium\b/i.test(vis)) fail("'Premium' on a US page");
   if (/–|&ndash;/.test(vis)) fail('en dash on a US page');
   if (!/<html lang="en(-US)?"/.test(html)) fail('html lang must be en or en-US on a US page');
+}
+// Canada (spec docs/superpowers/specs/2026-10-22-ca-cluster-design.md, section 3). The US rules, plus: pages are
+// currency-neutral (no currency named, no typed figure) so the same page is right in USD now and in CAD once the
+// Canadian price region is live; a school course-code page (ICS3U, MHF4U ...) must say we grant no credits.
+if (LEAD_ISO === 'CA') {
+  const vis = html.replace(/<script[\s\S]*?<\/script>/g, ' ');
+  const copy = vis.replace(/<pre[\s\S]*?<\/pre>/g, ' ');
+  if (/\bIST\b/.test(vis)) fail('bare IST on a Canadian page: write India time, and ET, PT, MT, CT, AT or the province');
+  if (/weekend batch/i.test(vis)) fail('"weekend batch" on a Canadian page: use the flexible timing line');
+  if (/\$\s?\d/.test(copy.replace(/<[^>]*data-price[^>]*>[^<]*</g, '<'))) fail('typed dollar figure on a Canadian page: prices go through data-price only');
+  if (/\bUSD\b|\bUS dollars?\b|\bCAD\b|\bCanadian dollars?\b|\bC\$|\bCA\$/i.test(copy.replace(/<[^>]*data-price[^>]*>[^<]*</g, '<').replace(/<[^>]+>/g, ' '))) fail('currency named on a Canadian page: keep copy currency-neutral ("monthly fee"), the price anchor carries the currency');
+  if (/\bpremium\b/i.test(vis)) fail("'Premium' on a Canadian page");
+  if (/–|&ndash;/.test(vis)) fail('en dash on a Canadian page');
+  if (!/<html lang="en(-CA)?"/.test(html)) fail('html lang must be en or en-CA on a Canadian page');
+  if (page.courseCodePage && !/do not (grant|award|issue) (any )?(Ontario |provincial )?(high school )?credits?/i.test(vis.replace(/<[^>]+>/g, ' '))) fail('course-code page without the no-credit sentence ("we do not grant Ontario credits")');
 }
 if (DRY) {
   const vw = html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<head[\s\S]*?<\/head>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;|&#\d+;/gi, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).length;

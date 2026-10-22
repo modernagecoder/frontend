@@ -14,6 +14,7 @@
 const fs = require('fs');
 const path = require('path');
 const { course } = require('./catalogue');
+const { neutralFee, feeAnchor } = require('./fee-anchor');
 
 const ROOT = path.resolve(__dirname, '..', '..', '..');
 const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts.json'), 'utf8'));
@@ -227,7 +228,7 @@ ${jsonLd(page)}
 
   const delivery = `<section class="cg-section" id="delivery"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">${esc(page.delivery.eyebrow)}</span><h2>${page.delivery.h2}</h2><p>${page.delivery.intro}</p></div><div class="cg-grid-3">${page.delivery.cells.map(c => `<div><h3>${c.h3}</h3><p>${c.p}</p></div>`).join('')}</div><div class="cg-spec cg-mt-2"><p class="cg-spec-title">${page.delivery.spec.title}</p><p>${page.delivery.spec.p}</p></div></div></section>`;
 
-  const pricing = `<section class="cg-section cg-section--deep" id="pricing"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Fees</span><h2>${page.fees.h2}</h2><p>${page.fees.intro}</p></div><div class="cg-price-grid"><div class="cg-price"><span class="cg-price-label">First class</span><strong>USD 0</strong><p>${page.fees.first}</p></div><div class="cg-price"><span class="cg-price-label">Group tuition</span><strong>USD 100</strong><p>${page.fees.group}</p></div><div class="cg-price"><span class="cg-price-label">Private tuition</span><strong>USD 150</strong><p>${page.fees.private}</p></div></div><p class="cg-mt-2">${page.fees.closer}</p><div class="cg-hero-actions cg-mt-2"><a class="cg-btn cg-btn--primary" href="#book">Request placement</a><a class="cg-btn cg-btn--ghost" href="${wa}">Check availability</a></div></div></section>`;
+  const pricing = `<section class="cg-section cg-section--deep" id="pricing"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Fees</span><h2>${page.fees.h2}</h2><p>${page.fees.intro}</p></div><div class="cg-price-grid"><div class="cg-price"><span class="cg-price-label">First class</span><strong>${neutralFee(page) ? 'Free' : 'USD 0'}</strong><p>${page.fees.first}</p></div><div class="cg-price"><span class="cg-price-label">Group tuition</span><strong>${neutralFee(page) ? feeAnchor(page, 'group') : 'USD 100'}</strong><p>${page.fees.group}</p></div><div class="cg-price"><span class="cg-price-label">Private tuition</span><strong>${neutralFee(page) ? feeAnchor(page, 'personal') : 'USD 150'}</strong><p>${page.fees.private}</p></div></div><p class="cg-mt-2">${page.fees.closer}</p><div class="cg-hero-actions cg-mt-2"><a class="cg-btn cg-btn--primary" href="#book">Request placement</a><a class="cg-btn cg-btn--ghost" href="${wa}">Check availability</a></div></div></section>`;
 
   const reviews = `<section class="cg-section" id="reviews"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">Reviews</span><h2>${page.reviewsH2}</h2><p class="cg-boiler">Rated ${BRAND.rating} across ${BRAND.reviews} Google reviews. These are real reviews, reproduced as written.</p></div><div class="cg-grid-3">\n` +
     REVIEWS.map(r => `<div class="cg-review">${stars()}<p class="cg-review-text">"${r[0]}"</p><p class="cg-review-name">${r[1]}</p><p class="cg-review-role">${r[2]}</p></div>`).join('') + '\n</div></div></section>';

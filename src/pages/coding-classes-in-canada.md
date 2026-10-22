@@ -735,6 +735,10 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 
 [Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)
 
+## Canadian guides, contests, provinces and cities
+
+<!-- CA-GUIDES -->
+
 ## Keep exploring Modern Age Coders
 
 ### Coding classes in nearby places
