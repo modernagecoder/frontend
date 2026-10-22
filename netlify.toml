@@ -25137,6 +25137,18 @@
   to = "/src/pages/coding-and-ai-classes-in-toronto.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ccc-junior-guide"
+  to = "/src/pages/ccc-junior-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/ccc-junior-guide.md"
+  to = "/src/pages/ccc-junior-guide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

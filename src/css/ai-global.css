@@ -1011,3 +1011,6 @@
 .ag-root.ag-coa { --ag-accent: #376B52; --ag-accent-soft: rgba(55,107,82,.09); }   /* CodaKid alternative: a sage teal, #376B52 as allocated, lighter than the other comparison greens and still above contrast on the paper */
 .ag-root.ag-wka { --ag-accent: #49627A; --ag-accent-soft: rgba(73,98,122,.09); }   /* Coding with Kids alternative: a slate blue-grey, #49627A as allocated, softer than the comparison blue and above contrast on the paper */
 .ag-root.ag-ccmt { --ag-accent: #2B127A; --ag-accent-soft: rgba(43,18,122,.09); }   /* Common Core vs traditional math: a deep violet ink, #2B127A as allocated, distinct from the coding-page blues and high contrast on the paper */
+
+/* Canada cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints. */
+.ag-root.ag-ccj { --ag-accent: #2C614F; --ag-accent-soft: rgba(44,97,79,.09); }   /* CCC Junior guide, Canada: a muted spruce green #2C614F, at least 8 RGB units (Euclidean) and 6 on the largest channel from every accent on the site, contrast 6.76 on the paper #FBF8F2 and above 4.5 on all three paper tints */

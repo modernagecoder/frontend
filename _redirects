@@ -7586,4 +7586,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-and-ai-classes-in-toronto /src/pages/coding-and-ai-classes-in-toronto.html 200
 /coding-and-ai-classes-in-toronto.md /src/pages/coding-and-ai-classes-in-toronto.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ccc-junior-guide /src/pages/ccc-junior-guide.html 200
+/ccc-junior-guide.md /src/pages/ccc-junior-guide.md 200
 /* /src/pages/404.html 404

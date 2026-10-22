@@ -482,6 +482,7 @@ const SLUGS = [
   'codakid-alternative',
   'coding-with-kids-alternative',
   'common-core-math-vs-traditional-math',
+  'ccc-junior-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1043,6 +1044,7 @@ const LLMS_LABELS = {
   'codakid-alternative': 'CodaKid alternative',
   'coding-with-kids-alternative': 'Coding with Kids alternative',
   'common-core-math-vs-traditional-math': 'Common Core math vs traditional math',
+  'ccc-junior-guide': 'CCC Junior guide',
 };
 
 function wireLlms(slugs) {

@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [CCC Junior guide](/ccc-junior-guide)
 - [Coding and AI classes in Toronto](/coding-and-ai-classes-in-toronto)
 
 ## Keep exploring Modern Age Coders
