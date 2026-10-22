@@ -26013,6 +26013,18 @@
   to = "/src/pages/coding-classes-for-teens-in-canada.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/python-classes-in-canada"
+  to = "/src/pages/python-classes-in-canada.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-classes-in-canada.md"
+  to = "/src/pages/python-classes-in-canada.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

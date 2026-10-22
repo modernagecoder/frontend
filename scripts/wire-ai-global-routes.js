@@ -555,6 +555,7 @@ const SLUGS = [
   'march-break-coding-camp-online',
   'coding-classes-for-kids-in-canada',
   'coding-classes-for-teens-in-canada',
+  'python-classes-in-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1189,6 +1190,7 @@ const LLMS_LABELS = {
   'march-break-coding-camp-online': 'March Break coding',
   'coding-classes-for-kids-in-canada': 'Coding classes for kids in Canada',
   'coding-classes-for-teens-in-canada': 'Coding classes for teens in Canada',
+  'python-classes-in-canada': 'Python classes in Canada',
 };
 
 function wireLlms(slugs) {

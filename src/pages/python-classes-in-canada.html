@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Python Classes in Canada: Live Online for Kids, Teens, Adults</title>
+  <meta name="description" content="Learn Python online in Canada at any age: which Python version to use in 2026 to 2027, where it meets Canadian students, and a project on Winnipeg's 305,969 trees.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-classes-in-canada">
+  <link rel="alternate" type="text/markdown" href="/src/pages/python-classes-in-canada.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#27610F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-classes-in-canada">
+  <meta property="og:title" content="Python Classes in Canada: Live Online for Kids, Teens, Adults">
+  <meta property="og:description" content="Python for Canadian learners from age 9 to adult: the 2026 versions from python.org, CEMC's free Python lessons, the CCC, and a real project summarising the City of Winnipeg's tree inventory.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python Classes in Canada: Live Online for Kids, Teens, Adults">
+  <meta name="twitter:description" content="Python in Canada for kids, teens and adults, with a real project on Winnipeg's tree inventory.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pc .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-pc .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-pc .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-pc .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-pc .ag-band-head h3 { letter-spacing: -0.01em; }
+.ag-root.ag-pc .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/python-classes-in-canada#page","url":"https://learn.modernagecoders.com/python-classes-in-canada","name":"Python Classes in Canada","description":"A guide for Canadian learners of every age to learning Python in 2026 to 2027, built from the Python release schedules and python.org, CEMC's Computer Science Circles and CCC pages and the Ontario and BC curricula, with an original project on City of Winnipeg open data.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"Python classes","item":"https://learn.modernagecoders.com/python-classes-in-canada"}]},{"@type":"Course","name":"Python Classes in Canada","description":"Live online Python classes for learners in Canada from age 9 to adult, in separate courses for kids, teens and adults, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/python-classes-in-canada"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-classes-in-canada"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/python-classes-in-canada"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which version of Python should I install in 2026?","acceptedAnswer":{"@type":"Answer","text":"The newest Python 3 from python.org. Python 3.15.0 came out on 9 October 2026 and 3.15.1, an expedited security release, on 21 October 2026. Everything taught in a first year works the same on 3.14. Students practising for the CCC should keep their code compatible with Python 3.8."}},{"@type":"Question","name":"What age can someone start learning Python?","acceptedAnswer":{"@type":"Answer","text":"Our Python and AI for Kids course starts at 9, Python for Teens covers 13 to 18, and the Python Masterclass is for adults of any age. Younger children usually start with blocks first."}},{"@type":"Question","name":"Is Python taught in Canadian schools?","acceptedAnswer":{"@type":"Answer","text":"No provincial document we read requires Python by name. Ontario math asks for coding from Grade 1, with data analysis in Grade 8 and algebra through code in Grade 9, and BC's Computer Science 11 is built around decomposition. Many schools choose Python for those courses, and others choose Java."}},{"@type":"Question","name":"Can I use Python in the Canadian Computing Competition?","acceptedAnswer":{"@type":"Answer","text":"Yes. CEMC allows C, C++, Python 2, Python 3 and Java. It also warns that a perfect score is not always possible in Python or Java, and its grader runs Python 3.8, so contest code should avoid the newest features."}},{"@type":"Question","name":"Are there free Python lessons from a Canadian source?","acceptedAnswer":{"@type":"Answer","text":"Yes. CEMC at the University of Waterloo runs Computer Science Circles, free Python tutorials that teach Python 3, and says its resources need no registration or fee. A live class adds a teacher who watches how you think."}},{"@type":"Question","name":"How long does it take to learn Python?","acceptedAnswer":{"@type":"Answer","text":"Our courses run eight to twelve months with two live classes a week, depending on age. Most learners write useful small programs within the first two months; writing a program like our Winnipeg tree summary from a blank file takes longer."}},{"@type":"Question","name":"Can adults in Canada learn Python for work?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our Python Masterclass is for complete beginners aged 18 and up, and the automation and data analysis courses build on it. We make no job or salary promises; we teach the skill."}},{"@type":"Question","name":"Do learners use ChatGPT or Claude to write Python?","acceptedAnswer":{"@type":"Answer","text":"Not to write it for them. Adults may ask an assistant to explain an error and then fix it themselves. OpenAI requires a parent's or guardian's permission under 18, and Anthropic requires Claude users to be 18 or over, so children and teens write their own code."}},{"@type":"Question","name":"What times are Python classes in Canada?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Classes are booked in your own province's time zone."}},{"@type":"Question","name":"What projects will I build?","acceptedAnswer":{"@type":"Answer","text":"It depends on the course: turtle art and games for children, apps and a capstone for teens, automation and data work for adults. Everyone works with real files, such as the City of Winnipeg tree inventory on this page."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/python-classes-in-canada","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-pc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#versions">Which Python</a></li>
+      <li><a href="#where">In Canada</a></li>
+      <li><a href="#ages">By age</a></li>
+      <li><a href="#project">Winnipeg project</a></li>
+      <li><a href="#extend">Exercises</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / Python classes
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Python &middot; Ages 9 to adult</p>
+        <h1>Python classes in Canada</h1>
+        <p class="ag-lede">Python is the language most Canadian learners meet first, whether that is a ten year old making a turtle draw a snowflake, a Grade 11 student writing the Canadian Computing Competition, or an analyst in Calgary tired of copying spreadsheets by hand. This page answers the questions that come before a first class: which version of Python to install this school year, where Python already turns up in Canadian schools and contests, what learning it looks like at 9, 14 and 40, and what a learner can do with a real 300,000-row file from the City of Winnipeg.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">See the Winnipeg project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Canada%20and%20would%20like%20to%20learn%20Python.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; separate Python courses for kids, teens and adults</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Ages</dt><dd>9 to adult, in separate courses</dd>
+          <dt>Python</dt><dd>Python 3, current release</dd>
+          <dt>Format</dt><dd>Live video, real editor</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Projects</dt><dd>Canadian open data</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Python classes in Canada teach learners to write, test and explain Python 3 programs, from first lines to files, data and small apps, with children from about 9, teens from 13 and adults at any age in separate courses. Modern Age Coders teaches them live online, in a batch or one to one, for example in Python for Teens.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">One Python course per age</p>
+      <h2>Three Python courses for learners in Canada</h2>
+      <p class="ag-lede">The same language, taught three different ways, because a nine year old, a fifteen year old and a forty year old do not learn alike.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PC / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Ages 9 to 12, complete beginners. Eight to ten months of typed Python: turtle art, Pygame games and kid-safe AI projects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PC / 02</p>
+          <h3>Python for Teens</h3>
+          <p>Ages 13 to 18. Ten to twelve months from first programs through object-oriented code, web projects and a capstone.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PC / 03</p>
+          <h3>Python Masterclass for adults</h3>
+          <p>Ages 18 and up, complete beginners welcome. Nine to eleven months from core Python to professional tooling.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="versions">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Which Python, this year</p><h2>Which version of Python to install in 2026 to 2027</h2><p class="ag-lede">New learners often ask which Python to download, and the answer changed this month. These dates come from the Python project's own release schedules (PEPs 745 and 790) and python.org, read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Recent Python releases and their support, from python.org and the release schedule PEPs (read 22 October 2026)</caption><thead><tr><th scope="col">Release</th><th scope="col">Date</th><th scope="col">What the Python project says</th></tr></thead><tbody><tr><td>Python 3.14.0</td><td>Tuesday, 2025-10-07</td><td>PEP 745: "Python 3.14 will receive bugfix updates approximately every two months for approximately 24 months."</td></tr><tr><td>Python 3.15.0</td><td>Friday, 2026-10-09</td><td>PEP 790 lists "3.15.0 final" for that day.</td></tr><tr><td>Python 3.15.1</td><td>Oct. 21, 2026</td><td>python.org: "an expedited security release and the first maintenance release of 3.15".</td></tr><tr><td>Python 3.15 security fixes</td><td>Until about October 2031</td><td>PEP 790 expects source-only security releases "until approximately October 2031".</td></tr><tr><td>Python on the CCC grader</td><td>For the 17 February 2027 contest</td><td>CEMC's sample document lists Python 3 as "Pypy3 7.3.9 (running Python 3.8.13)".</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Our advice for a new learner</h3><p>Install the newest Python 3 release from python.org, unless a school or employer says otherwise. On 22 October 2026 that is the 3.15 line, whose first maintenance release came out the day before. Anything we teach in a first year works the same on 3.14.</p>
+<p>Avoid Python 2. It is still listed as a CCC language, but it is not what any new course teaches, and code written for it trips over small differences in Python 3.</p></div><div><h3>The exception: contest practice</h3><p>A student preparing for the Canadian Computing Competition should write code that also runs on Python 3.8, because that is what the CCC grader runs. Newer features, such as the match statement, fail there.</p>
+<p>We teach contest students to keep to the plain core of the language for that reason. It loses nothing: loops, lists, dictionaries and functions are the same in every recent version.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://peps.python.org/pep-0745/" rel="noopener" target="_blank">PEP 745, Python 3.14 release schedule</a>; <a class="ag-inline-link" href="https://peps.python.org/pep-0790/" rel="noopener" target="_blank">PEP 790, Python 3.15 release schedule</a>; <a class="ag-inline-link" href="https://www.python.org/downloads/release/python-3151/" rel="noopener" target="_blank">python.org, Python 3.15.1</a>; <a class="ag-inline-link" href="https://cccgrader.com/sample_soln.pdf" rel="noopener" target="_blank">CCC sample programs</a>. All read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="where">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Python in Canada</p><h2>Where Python already meets Canadian students</h2><p class="ag-lede">No province requires Python by name in the documents we read, but several ask for exactly the skills Python teaches well, and the national student programming contest and a free set of lessons from the University of Waterloo both use it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Places a Canadian learner meets Python or the skills it teaches (sources read 22 October 2026)</caption><thead><tr><th scope="col">Where</th><th scope="col">What the source says</th><th scope="col">Why Python fits</th></tr></thead><tbody><tr><td>CEMC's Computer Science Circles</td><td>Free "Python Programming Tutorials"; "These lessons teach Python version 3"</td><td>A free, self-paced introduction from the University of Waterloo's CEMC</td></tr><tr><td>Canadian Computing Competition</td><td>"CCC participants may use C, C++, Python 2, Python 3, or Java."</td><td>Python is allowed at both levels, though CEMC warns a perfect score is not always possible in Python or Java</td></tr><tr><td>Ontario, Grade 8 math</td><td>Code "that involves the analysis of data in order to inform and communicate decisions"</td><td>Reading a file and summarising it is a few lines of Python</td></tr><tr><td>Ontario, Grade 9 math (MTH1W)</td><td>"use coding to demonstrate an understanding of algebraic concepts including variables, parameters, equations, and inequalities"</td><td>Python variables and functions mirror the algebra directly</td></tr><tr><td>British Columbia, Computer Science 11</td><td>Decomposition: "dividing complex problems into parts that are easier to conceive, understand, and program"</td><td>Python functions are the natural unit for those parts</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Free Python, and why a class still helps</h3><p>CEMC says of its resources: "There is no registration or fee required to access these materials." A motivated learner can go a long way with Computer Science Circles alone, and we recommend it.</p>
+<p>What a free course cannot do is watch a learner think. Most people who stall with Python stall at the same place: they can follow an example, but cannot start a program from a blank file. A teacher sees that in minutes and changes the exercise.</p></div><div><h3>Python or another first language?</h3><p>For most learners in Canada, Python first. It reads close to English, runs the same on Windows, Mac and Chromebook-friendly online editors, and leads straight into data, automation and AI.</p>
+<p>The exception is a student whose school course is taught in Java. Learning the school's language first avoids a confusing double load in Grade 11, and the habits transfer either way.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cscircles.cemc.uwaterloo.ca/" rel="noopener" target="_blank">Computer Science Circles</a>; <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/ccc" rel="noopener" target="_blank">CEMC, CCC</a>; <a class="ag-inline-link" href="https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics" rel="noopener" target="_blank">Ontario curriculum, mathematics</a>; <a class="ag-inline-link" href="https://curriculum.gov.bc.ca/curriculum/mathematics/11/computer-science" rel="noopener" target="_blank">BC Computer Science 11</a>. Read 22 October 2026. Modern Age Coders is not connected with CEMC or any ministry.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">By age</p><h2>Learning Python at 9, at 14 and at 40</h2><p class="ag-lede">We teach Python in three separate courses because the reasons for learning, the attention span and the first projects all differ. The rows below summarise each course's own syllabus.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our three Python courses, from their published syllabuses</caption><thead><tr><th scope="col"></th><th scope="col">Python and AI for Kids</th><th scope="col">Python for Teens</th><th scope="col">Python Masterclass (adults)</th></tr></thead><tbody><tr><td>Ages</td><td>9 to 12</td><td>13 to 18</td><td>18 and up</td></tr><tr><td>Length</td><td>8 to 10 months</td><td>10 to 12 months</td><td>9 to 11 months</td></tr><tr><td>Live classes</td><td>Two a week</td><td>Two a week</td><td>Two a week</td></tr><tr><td>Practice between classes</td><td>2 to 3 hours</td><td>3 to 4 hours</td><td>4 to 6 hours</td></tr><tr><td>First stretch</td><td>Python basics, then turtle art</td><td>Foundations and object-oriented code</td><td>Core Python</td></tr><tr><td>Middle</td><td>Real games</td><td>Games, apps and automation; Python on the web</td><td>Professional Python and a working toolkit</td></tr><tr><td>End</td><td>Kid-safe AI and a finale project</td><td>AI, quality and a capstone</td><td>Three specialist roads and a finale</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>At 9</h3><p>Short programs with a visible result: a turtle drawing a maple leaf, a guessing game. The win is typing a line correctly and reading it back aloud. Typing speed matters more than anyone expects.</p></div><div><h3>At 14</h3><p>Programs that solve something: a quiz with scores saved to a file, a small web page, a CCC Junior problem. The win is splitting a problem into functions before writing any of them.</p></div><div><h3>At 40</h3><p>Programs that remove a chore: renaming files, merging reports, reading a city dataset. The win is trusting your own script enough to use it on real work, because you tested it on purpose.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real data project</p><h2>Summarising Winnipeg's 305,969 trees in twenty lines of Python</h2><p class="ag-lede">The City of Winnipeg publishes its tree inventory under an open licence that allows commercial reuse: one row per city tree, with the species, the neighbourhood and the trunk diameter. At 42.9 MB it is far too big to scroll through, which makes it the right file for learning to summarise. The program, the rule inside it and every number below are ours, from the file downloaded on 22 October 2026.</p></div>
+    <p><b>The question:</b> which species are most common on Winnipeg's city-owned land, and how thick is a typical trunk of each? The columns used are Common Name and Diameter at Breast Height, in centimetres.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our program &middot; tree_sizes.py</b><span>python</span></figcaption><pre># Our Winnipeg tree summary (Modern Age Coders, written for this page)
+import csv
+from statistics import median
+
+sizes = {}            # species name -&gt; list of trunk diameters in cm
+skipped = 0
+
+with open("winnipeg-tree-inventory.csv", encoding="utf-8") as f:
+    for row in csv.DictReader(f):            # one row at a time, never the whole file
+        name = row["Common Name"].strip().lower()
+        cm = float(row["Diameter at Breast Height"])
+        if cm &lt;= 0 or cm &gt; 500:              # our sanity rule: no zero trunks, none wider than 5 m
+            skipped += 1
+            continue
+        sizes.setdefault(name, []).append(cm)
+
+top = sorted(sizes.items(), key=lambda pair: len(pair[1]), reverse=True)[:5]
+for name, cms in top:
+    print(f"{name:26}{len(cms):7}   mean {sum(cms) / len(cms):5.1f}   median {median(cms):5.1f}")
+print("species:", len(sizes), " skipped rows:", skipped)</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output on the city's file (about two seconds on a laptop)</b><span>text</span></figcaption><pre>green ash                   81885   mean  31.4   median  31.0
+american elm                39651   mean  43.7   median  47.0
+linden species              28540   mean  28.1   median  28.0
+siberian elm                17940   mean  40.5   median  38.0
+bur oak                     16226   mean  33.5   median  32.0
+species: 197  skipped rows: 137</pre><p class="ag-code-note">Green ash is the most common species by a wide margin. American elm has the thickest typical trunk of the five, and its median is larger than its mean.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Four decisions inside the program, and what each one protects against (our checks on the same file)</caption><thead><tr><th scope="col">Decision</th><th scope="col">What we found</th><th scope="col">Why it matters</th></tr></thead><tbody><tr><td>Use csv.DictReader, not line.split(",")</td><td>A plain split gives the wrong number of columns on 20,051 rows</td><td>Names such as "Manitoba maple, boxelder" contain a comma inside quotes, and only a real CSV reader respects them</td></tr><tr><td>Read one row at a time</td><td>305,969 rows pass through without loading the file into a list first</td><td>The same code works on a file ten times larger</td></tr><tr><td>A written sanity rule</td><td>118 trunks are listed at 0 cm; 19 are above 500 cm, the widest at 3552 cm</td><td>A trunk 35 metres across is a typing error, and it would wreck a maximum</td></tr><tr><td>Report the median beside the mean</td><td>American elm: mean 43.7 cm, median 47.0 cm</td><td>When the two differ, the data is lopsided, and one number alone misleads</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The rule is a judgement, so say it</h3><p>Our rule keeps diameters above 0 and up to 500 cm. It removes 137 rows. It also keeps a 489 cm American elm in Kildonan Park, which is almost certainly another error, and 75 values above 200 cm in all. A stricter rule is defensible; so is a looser one.</p>
+<p>What is not defensible is having no rule. We ask every learner to write the rule as a comment, report how many rows it removed, and show the result both with and without it.</p></div><div><h3>What changes across ages</h3><p>A twelve year old runs this program with the teacher, changes the species list and explains the output. A teenager writes it from a blank file and adds a neighbourhood filter. An adult rebuilds it with pandas and compares the two approaches line by line.</p>
+<p>All three meet the same three ideas: never trust a split on commas, look at the extremes before the averages, and write down every rule that removes data.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Data: <a class="ag-inline-link" href="https://data.winnipeg.ca/" rel="noopener" target="_blank">City of Winnipeg Open Data</a>, Tree Inventory. Contains information licensed under the Open Government Licence, Winnipeg. The licence allows use "including for commercial purposes". Program, rule and results are ours; the City of Winnipeg does not endorse this page.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="extend">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Exercises</p><h2>Six ways to extend the Winnipeg program</h2><p class="ag-lede">Our exercises, each with the answer we got on the same file, so a learner can check their work. Change one thing at a time and rerun.</p></div>
+    <ol class="ag-steps"><li><b>Count by location.</b> Count trees by the Location Class column. Answer: Boulevard leads with 210,581, then Park with 89,468.</li><li><b>The busiest neighbourhood.</b> Which Neighbourhood value has the most trees? Answer: PULBERRY, with 6,077.</li><li><b>Elms only.</b> Filter to American Elm and find the neighbourhood with the most. Answer: NORTH RIVER HEIGHTS, with 1,515.</li><li><b>The text that looks empty.</b> Count trees in a named park. Careful: the Park column says "Not In Park" on 211,919 rows rather than being blank. Answer: 94,050 trees are in a named park.</li><li><b>Before and after the rule.</b> Print the single widest trunk with no rule, then with ours. Answer: 3552 cm (a Manitoba maple, boxelder) without; 489 cm (an American elm) with.</li><li><b>Your own rule.</b> Choose a stricter upper limit, say it in a sentence, and report how many rows it removes. For comparison, 75 values are above 200 cm.</li></ol>
+    <p class="ag-mt-40">Exercise 4 is the one most learners miss. A program that counts non-empty cells in the Park column returns all 305,969 rows, because "Not In Park" is text. Looking at the actual values before writing a condition is a habit worth more than any library.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="thinking">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How we teach it</p><h2>Python taught as thinking, not as copying</h2><p class="ag-lede">Our promise is the same in Canada as everywhere we teach: a learner leaves able to think a problem through and solve it, not to paste an answer from a forum or an AI tool. In a Python class that shows up in three habits.</p></div>
+    <div class="ag-grid-3"><div><h3>Read the error first</h3><p>A Python traceback names the file, the line and the kind of mistake. Learners read it aloud before touching the code, and most bugs are found right there.</p></div><div><h3>Predict the output</h3><p>Before running, the learner writes down what they expect. The gap between prediction and result is where the real lesson is.</p></div><div><h3>Rebuild from blank</h3><p>After an example works, the learner closes it and writes it again from an empty file. What they cannot rebuild, they have not learned yet.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>AI assistants and Python learners</h3><p>Adults in our classes may use an AI assistant to explain an error, then must explain the fix themselves. For younger learners the companies set the limits: OpenAI's terms require a parent's or guardian's permission for anyone under 18, and Anthropic's terms set 18 as the minimum age for Claude.</p>
+<p>Children and teens in our Python courses write their own code. An assistant can make a program appear; it cannot make the learner able to write the next one.</p></div><div><h3>What progress looks like</h3><p>Not the number of lessons finished, but the size of problem a learner can start alone. In the first month that is a few lines; by the end of a course it is a program like the Winnipeg summary, written from a blank file with its rule stated.</p>
+<p>We report that progress in plain words after classes, so a parent or the learner can see it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="time">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Times across Canada</p><h2>When Python classes run for Canadian learners</h2><p class="ag-lede">Learners join from every province, and adults often need evening or weekend slots. Each class is booked in the learner's own zone; nothing on this page is a fixed batch time.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>How each Canadian zone moves through 2026 to 2027 (IANA tz database, release 2026e)</caption><thead><tr><th scope="col">Province or territory</th><th scope="col">Offset this winter</th><th scope="col">Changes on 14 March 2027?</th></tr></thead><tbody><tr><td>Most of British Columbia, Yukon</td><td>UTC-7</td><td>No</td></tr><tr><td>Alberta, Saskatchewan</td><td>UTC-6</td><td>No</td></tr><tr><td>Manitoba</td><td>UTC-5</td><td>No, from 1 November 2026</td></tr><tr><td>Ontario, Quebec</td><td>UTC-5</td><td>Yes, to UTC-4</td></tr><tr><td>Nova Scotia, New Brunswick, PEI</td><td>UTC-4</td><td>Yes, to UTC-3</td></tr><tr><td>Newfoundland</td><td>UTC-3:30</td><td>Yes, to UTC-2:30</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Only the eastern half of the country moves its clocks in March 2027, so a class booked across provinces can drift by an hour that week. We confirm times with every learner when Eastern clocks go back on 1 November 2026 and forward on 14 March 2027.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Four stages</p>
+      <h2>How far into Python are you?</h2>
+      <p class="ag-lede">Our stages for placing a learner of any age in the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four Python stages (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the learner can do</th></tr></thead><tbody><tr><td>1. Runs code</td><td class="ag-num">Opens an editor, runs a program, changes a value and sees the effect</td></tr><tr><td>2. Writes code</td><td class="ag-num">Writes loops, conditions and functions from a blank file</td></tr><tr><td>3. Uses data</td><td class="ag-num">Reads a CSV file correctly, groups and summarises it</td></tr><tr><td>4. Defends code</td><td class="ag-num">States the rules inside a program and tests the awkward cases on purpose</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents and learners</h3><p>Stage 2 is where most self-taught learners stall: they can follow, but not start. That is the stage a live teacher changes fastest.</p>
+<p>Stage 3 is the Winnipeg program on this page. Stage 4 is the habit of saying why the program can be trusted.</p></div><div><h3>For anyone starting</h3><p>Type every example yourself; never paste it. Your fingers learn the syntax your eyes skim past.</p>
+<p>When something breaks, read the last line of the error first. It usually tells you exactly what went wrong.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Beyond a first course</p>
+      <h2>Nine more Python-based courses</h2>
+      <p class="ag-lede">Where learners go once the basics are in place, each taught live with one teacher, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Younger learners</h3>
+        <span class="ag-band-sub">Ages 9 to 15</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PC / YOUNG / 01</p>
+          <h4>Math through coding</h4>
+          <p>School math learned in Python, ages 10 to 15.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PC / YOUNG / 02</p>
+          <h4>AI literacy for kids</h4>
+          <p>How machines learn, ages 8 to 14.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PC / YOUNG / 03</p>
+          <h4>CCC preparation</h4>
+          <p>Contest Python for the 2027 CCC.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teens going further</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PC / TEEN / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Python and first models, ages 14 to 18.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PC / TEEN / 02</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>From Python to trained models.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PC / TEEN / 03</p>
+          <h4>PCEP and PCAP certification</h4>
+          <p>Python certification, from about 13.</p>
+          <a class="ag-course-link" href="/courses/pcep-pcap-python-certification-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PC / ADULT / 01</p>
+          <h4>Python automation</h4>
+          <p>Scripting and applied AI for work.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PC / ADULT / 02</p>
+          <h4>Data analysis</h4>
+          <p>Excel, SQL, Python and BI.</p>
+          <a class="ag-course-link" href="/courses/data-analysis-mastery-course-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PC / ADULT / 03</p>
+          <h4>Python web development</h4>
+          <p>Django and Flask, with Python basics.</p>
+          <a class="ag-course-link" href="/courses/python-web-development-django-flask-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live Python classes for every age</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school for younger learners, evenings for adults.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Mornings and afternoons, booked in your own zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">For a learner who wants their own pace or project.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Python 3</h3><p>The current release, set up together in the first class.</p></div>
+      <div><h3>Separate by age</h3><p>Kids, teens and adults never share a batch.</p></div>
+      <div><h3>Real files</h3><p>Canadian open data under licences that allow it.</p></div>
+      <div><h3>Errors read aloud</h3><p>Tracebacks treated as clues, not failures.</p></div>
+      <div><h3>From blank files</h3><p>Learners rebuild examples without looking.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty learners, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our learners</h2>
+      <p class="ag-lede">Many of these began as Python programs. The <a class="ag-inline-link" href="/student-labs">student labs</a> page has the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Each month's fee covers eight live Python classes, paid month by month. Adults working around shifts and families with busy terms can pause between months without a penalty.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Python installed and running</li><li>No payment details taken</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty learners of one age band</li><li>A regular teacher</li><li>A fixed weekly slot</li><li>Monthly billing</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Your own teacher</li><li>Your pace and your project</li><li>Times arranged around you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents and students wrote on Google, copied without changes.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Python</p>
+      <h2>Learning Python in Canada: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Which version of Python should I install in 2026?</h3>
+        <p>The newest Python 3 from python.org. Python 3.15.0 came out on 9 October 2026 and 3.15.1, an expedited security release, on 21 October 2026. Everything taught in a first year works the same on 3.14. Students practising for the CCC should keep their code compatible with Python 3.8.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can someone start learning Python?</h3>
+        <p>Our Python and AI for Kids course starts at 9, Python for Teens covers 13 to 18, and the Python Masterclass is for adults of any age. Younger children usually start with blocks first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Python taught in Canadian schools?</h3>
+        <p>No provincial document we read requires Python by name. Ontario math asks for coding from Grade 1, with data analysis in Grade 8 and algebra through code in Grade 9, and BC's Computer Science 11 is built around decomposition. Many schools choose Python for those courses, and others choose Java.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use Python in the Canadian Computing Competition?</h3>
+        <p>Yes. CEMC allows C, C++, Python 2, Python 3 and Java. It also warns that a perfect score is not always possible in Python or Java, and its grader runs Python 3.8, so contest code should avoid the newest features.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are there free Python lessons from a Canadian source?</h3>
+        <p>Yes. CEMC at the University of Waterloo runs Computer Science Circles, free Python tutorials that teach Python 3, and says its resources need no registration or fee. A live class adds a teacher who watches how you think.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long does it take to learn Python?</h3>
+        <p>Our courses run eight to twelve months with two live classes a week, depending on age. Most learners write useful small programs within the first two months; writing a program like our Winnipeg tree summary from a blank file takes longer.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can adults in Canada learn Python for work?</h3>
+        <p>Yes. Our Python Masterclass is for complete beginners aged 18 and up, and the automation and data analysis courses build on it. We make no job or salary promises; we teach the skill.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do learners use ChatGPT or Claude to write Python?</h3>
+        <p>Not to write it for them. Adults may ask an assistant to explain an error and then fix it themselves. OpenAI requires a parent's or guardian's permission under 18, and Anthropic requires Claude users to be 18 or over, so children and teens write their own code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are Python classes in Canada?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Classes are booked in your own province's time zone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What projects will I build?</h3>
+        <p>It depends on the course: turtle art and games for children, apps and a capstone for teens, automation and data work for adults. Everyone works with real files, such as the City of Winnipeg tree inventory on this page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More about Python, and more for learners in Canada.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Every Canadian page we have.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>Contest Python for the 2027 CCC.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-from-the-ground-up">Python from the ground up</a></h3><p>The language explained from first principles.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-10-year-olds">Python for 10 year olds</a></h3><p>What Python looks like for a child.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-14-year-olds">Python for 14 year olds</a></h3><p>What Python looks like for a teen.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-data-science">Python for data science</a></h3><p>Where the Winnipeg project leads.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-indentation-error-explained">Python indentation errors</a></h3><p>The error beginners meet first.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-read-code">How to read code</a></h3><p>Reading before writing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/mdm4u-data-management-tutor">MDM4U data management</a></h3><p>Ontario's Grade 12 data course.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">In the first class we install Python together if needed, write a few lines, and read one short program. The teacher then places you at a stage and suggests the course that fits your age and goal.</p>
+        <p class="ag-mt-40">Want more detail first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes a live class, and every <a class="ag-inline-link" href="/courses">course page</a> lists its full syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Canada%20and%20would%20like%20to%20learn%20Python.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Teaching is live over video from India, so learners in any province join from home. A WhatsApp message is the fastest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No charge for the first class and no card asked for.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python</h4><ul><li><a href="/python-from-the-ground-up">Python from the ground up</a></li><li><a href="/python-for-data-science">Python for data science</a></li><li><a href="/python-indentation-error-explained">Indentation errors</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/canada-time-zones-2026-online-class-times">Class times by time zone</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Write the rule down</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'python-classes-in-canada-inline', meta: { name: name, age: age, page: 'python-classes-in-canada' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

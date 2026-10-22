@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Python classes in Canada](/python-classes-in-canada)
 - [Coding classes for teens in Canada](/coding-classes-for-teens-in-canada)
 - [Coding classes for kids in Canada](/coding-classes-for-kids-in-canada)
 - [March Break coding online: live classes for the break week](/march-break-coding-camp-online)

@@ -256,7 +256,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 86 | online-coding-summer-camp-canada (scc, #2B6B20) | break | 5,351 | 1.4% vs best-online-coding-classes-in-canada | camp guide | cipher project | b014d896 |
 | 85 | march-break-coding-camp-online (mbc, #606628) | break | 4,899 | 1.4% vs online-coding-summer-camp-canada | break-week guide | calendar rules in code | beaab17d |
 | 65 | coding-classes-for-kids-in-canada (kc, #57541F) | door | 5,389 | 2.3% vs math-classes-for-kids-in-canada | subject door | first programs | b2451067 |
-| 66 | coding-classes-for-teens-in-canada (tc, #485225) | door | 4,840 | 1.9% vs best-online-coding-classes-in-canada | subject door | high school coding | (this commit) |
+| 66 | coding-classes-for-teens-in-canada (tc, #485225) | door | 4,840 | 1.9% vs best-online-coding-classes-in-canada | subject door | high school coding | 5272d872 |
+| 67 | python-classes-in-canada (pc, #27610F) | door | 4,530 | 1.5% vs ccc-junior-guide | subject door | python projects | (this commit) |
 
 ## Skipped
 
