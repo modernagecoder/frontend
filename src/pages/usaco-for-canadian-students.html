@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>USACO for Canadian Students: How It Differs from the CCC</title>
+  <meta name="description" content="USACO for students in Canada, from usaco.org's own pages: what is open to Canadians, the four divisions, how it compares with the CCC, and a season plan.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/usaco-for-canadian-students">
+  <link rel="alternate" type="text/markdown" href="/src/pages/usaco-for-canadian-students.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#4B6622">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/usaco-for-canadian-students">
+  <meta property="og:title" content="USACO for Canadian Students: How It Differs from the CCC">
+  <meta property="og:description" content="Canadian students can enter USACO's free online contests from home. Here is what usaco.org says about who can take part, how divisions and promotion work, how it differs from the CCC, and how to use both.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="USACO for Canadian Students: How It Differs from the CCC">
+  <meta name="twitter:description" content="USACO for Canadian students: eligibility, divisions, and how it fits with the CCC, from usaco.org.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-uc .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-uc .ag-capsule { border-left-width: 5px; border-radius: 6px; }
+.ag-root.ag-uc .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-uc .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-uc .ag-band-head h3 { letter-spacing: -0.007em; }
+.ag-root.ag-uc .ag-slots { gap: 1.05rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/usaco-for-canadian-students#page","url":"https://learn.modernagecoders.com/usaco-for-canadian-students","name":"USACO for Canadian Students","description":"A guide for Canadian students and parents to the USA Computing Olympiad, built from usaco.org's own pages, with a comparison against the Canadian Computing Competition and an original practice problem.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"USACO for Canadian students","item":"https://learn.modernagecoders.com/usaco-for-canadian-students"}]},{"@type":"Course","name":"USACO for Canadian Students","description":"Live online competitive programming for Canadian students preparing for USACO divisions and the Canadian Computing Competition, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/usaco-for-canadian-students"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/usaco-for-canadian-students"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/usaco-for-canadian-students"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can Canadian students compete in USACO?","acceptedAnswer":{"@type":"Answer","text":"Yes. usaco.org says all are welcome to take part in its online contests and training, and that participation is free and open to all. A student in Canada needs only a free account on usaco.org."}},{"@type":"Question","name":"Can a Canadian student become a USACO finalist?","acceptedAnswer":{"@type":"Answer","text":"No, for a student living in Canada. USACO says only pre-college students in the USA are eligible for selection as finalists, and that a finalist must be a US citizen or a resident of the USA during the first half of the school year."}},{"@type":"Question","name":"How are Canadian students ranked in USACO?","acceptedAnswer":{"@type":"Answer","text":"usaco.org says pre-college or USA students are typically ranked separately from observers, meaning all others participating. Check each contest's results page for how entries are listed."}},{"@type":"Question","name":"Is USACO free?","acceptedAnswer":{"@type":"Answer","text":"Yes. USACO's rules say there is never any fee for participation, and its training pages and historical problems with solutions are free online."}},{"@type":"Question","name":"USACO vs CCC: which should a Canadian student do?","acceptedAnswer":{"@type":"Answer","text":"The CCC, if only one. It is CEMC's national contest, written at school once a year, and the route to the Canadian Computing Olympiad and Canada's IOI team. USACO is excellent extra practice from home across the winter."}},{"@type":"Question","name":"When are the 2026 to 2027 USACO contests?","acceptedAnswer":{"@type":"Answer","text":"usaco.org had not posted them when we checked on 22 October 2026; it still showed the 2025-2026 schedule. Its details page says contests usually run from December through early spring. The CCC is on 17 February 2027."}},{"@type":"Question","name":"What time do USACO contests start in Canada?","acceptedAnswer":{"@type":"Answer","text":"Bronze and Silver can be started any time in the Friday-to-Monday window. For a certified Gold or Platinum result, problems open at noon Eastern on the Saturday, which is 10:00 a.m. in British Columbia in winter and 1:30 p.m. in Newfoundland."}},{"@type":"Question","name":"Which language should a Canadian student use for USACO?","acceptedAnswer":{"@type":"Answer","text":"USACO accepts C, C++, Java and Python, and calls C++ the clear answer at higher levels because it is the only language supported at the IOI. It aims to make all Bronze problems fully solvable in Python. The CCO also requires C++."}},{"@type":"Question","name":"Can students use AI in USACO?","acceptedAnswer":{"@type":"Answer","text":"No. USACO prohibits generative AI such as ChatGPT during contests, and the CCC rules forbid it too. Outside contests, ChatGPT needs a parent's permission for anyone under 18."}},{"@type":"Question","name":"When are your classes for Canadian families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We keep weekend slots clear of USACO weekends where a student is competing."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/usaco-for-canadian-students","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-uc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#what">What USACO is</a></li>
+      <li><a href="#open">Open to Canadians</a></li>
+      <li><a href="#versus">USACO vs CCC</a></li>
+      <li><a href="#problem">A practice problem</a></li>
+      <li><a href="#season">One season</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / USACO for Canadian students
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; USA Computing Olympiad &middot; Online contests</p>
+        <h1>USACO for Canadian students</h1>
+        <p class="ag-lede">The USA Computing Olympiad runs free online programming contests that anyone can enter from home, and many Canadian students who write the Canadian Computing Competition use it as extra practice through the winter. It is a different kind of contest from the CCC: several online rounds instead of one sitting at school, divisions you climb by promotion instead of a level you choose, and a national team path that is reserved for students in the USA. This page is built from usaco.org's own pages, fetched on 22 October 2026, and sets out what is open to a Canadian, how the two contests compare, and how to use both in one school year without either getting in the way.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#versus" class="ag-btn ag-btn--ghost">Compare USACO and the CCC</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20wants%20to%20try%20USACO%20alongside%20the%20CCC.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'uc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; facts from usaco.org and CEMC, read on 22 October 2026</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Run by</dt><dd>USACO (USA)</dd>
+          <dt>Entry</dt><dd>Free online account</dd>
+          <dt>Where</dt><dd>From home, online</dd>
+          <dt>Rounds</dt><dd>Usually four a season</dd>
+          <dt>Divisions</dt><dd>Bronze, Silver, Gold, Platinum</dd>
+          <dt>Team path</dt><dd>USA students only</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>USACO, the USA Computing Olympiad, holds free online algorithm contests open to all, so Canadian students can compete from home in Bronze, Silver, Gold and Platinum divisions; only students in the USA can be selected as finalists for its camp. For Canada's IOI team the route is the CCC. Modern Age Coders coaches both live online, in a batch or one to one, in its CCC Junior and Senior Preparation course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Prepare with a teacher</p>
+      <h2>Three courses for a Canadian USACO competitor</h2>
+      <p class="ag-lede">For a student in Canada the CCC comes first, because it is the national route. USACO then adds rounds and a division ladder to measure progress against.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ccc-junior-and-senior-preparation-course">
+        <div class="ag-pick-shot"><img src="/images/ccc-junior-senior-prep.webp" alt="CCC Junior and Senior Preparation (Canadian Computing Competition) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UC / 01</p>
+          <h3>CCC Junior and Senior Preparation</h3>
+          <p>The Canadian contest first: Junior or Senior, aimed at 17 February 2027, with USACO rounds as practice.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UC / 02</p>
+          <h3>Competitive programming for teens</h3>
+          <p>Its USACO track takes students from Bronze techniques towards Gold, in step with the divisions.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cpp-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/cpp-teens.webp" alt="C++ for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">UC / 03</p>
+          <h3>C++ for teens</h3>
+          <p>The language USACO calls the clear answer at higher levels, and the only one the CCO accepts.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What USACO is</p><h2>What the USA Computing Olympiad is, in its own words</h2><p class="ag-lede">Every row below is quoted or closely summarised from usaco.org's overview, details and instructions pages, fetched with no restrictions on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>USACO as usaco.org describes it (read 22 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What usaco.org says</th></tr></thead><tbody><tr><td>Mission</td><td>USACO "supports computing education in the USA and worldwide by identifying, motivating, and training high-school computing students at all levels".</td></tr><tr><td>Contests</td><td>"On-line programming contests (four per year) for students at all levels." The details page says they usually run "from December through early spring, one per month".</td></tr><tr><td>Length</td><td>Contests "usually run for four continuous hours in length for a normal contest, and five for the US Open".</td></tr><tr><td>When you write</td><td>Any block of time inside a Friday-to-Monday weekend: "your timer starts when you log into the contest and download the problems".</td></tr><tr><td>Cost and sign-up</td><td>"There is never any fee for participation." "There is no pre-registration required to compete; all you need is an account on this site."</td></tr><tr><td>Problems</td><td>"Each contest has typically 3 or 4 problems", solved in "C, C++, Java, or Python".</td></tr><tr><td>Time limits</td><td>"2 seconds per input case for C and C++, and 4 seconds per input case for Java and Python", with about 256MB of memory, unless stated otherwise.</td></tr><tr><td>Language of the paper</td><td>"The official language of the contest is English", with translations offered for convenience.</td></tr><tr><td>Free training</td><td>"Hundreds of hours of free on-line training resources and historical contest problems (complete with solutions)".</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://usaco.org/" rel="noopener" target="_blank">usaco.org</a>, its <a class="ag-inline-link" href="https://usaco.org/index.php?page=details" rel="noopener" target="_blank">Details and FAQ</a> and <a class="ag-inline-link" href="https://usaco.org/index.php?page=instructions" rel="noopener" target="_blank">Contest Instructions and Rules</a>, read 22 October 2026. Modern Age Coders is not connected with USACO.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The 2026 to 2027 dates are not out yet</h3><p>On 22 October 2026, usaco.org still showed its 2025-2026 schedule: contests on 9 to 12 January 2026, 30 January to 2 February 2026 and 20 to 23 February 2026, then a US Open on 28 March 2026, marked proctored. It had not posted dates for the 2026 to 2027 season, so we print none.</p>
+<p>The home page also says the 2025-2026 season was organised differently from earlier years, with "three on-line contests in early 2026 followed by a proctored invitational "US Open" championship contest" for top USA competitors. Its details page still describes the older pattern of four monthly contests. Check usaco.org before planning.</p></div><div><h3>Four divisions, climbed by promotion</h3><p>USACO says "All participants start in the bronze division", and that strong scores bring promotion. Bronze is for students who "have recently learned to program"; Silver introduces "fundamental problem-solving techniques (e.g., recursive search, greedy algorithms)"; Gold brings "shortest paths, dynamic programming"; Platinum is for students "well grounded in algorithmic problem-solving techniques".</p>
+<p>A perfect score earns an in-contest promotion, with a fresh full clock for the next division in the same weekend. Others wait for the results and the contest's cutoff.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="open">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Open to Canadians</p><h2>What a Canadian student can and cannot do in USACO</h2><p class="ag-lede">The contests themselves are open to everyone. The national team path is not. Both points are stated plainly on usaco.org.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>USACO for a student living in Canada, from usaco.org (read 22 October 2026)</caption><thead><tr><th scope="col">Question</th><th scope="col">What usaco.org says</th><th scope="col">What it means in Canada (ours)</th></tr></thead><tbody><tr><td>Can I enter?</td><td>"All are welcome to participate in online USACO contests and training." "Participation is free and open to all."</td><td>Yes, from home, with a free account</td></tr><tr><td>How am I ranked?</td><td>"Pre-college / USA students are typically ranked separately from "observers" (all others participating)."</td><td>Read the results page for how your entry is listed; we do not guess</td></tr><tr><td>Can I be promoted?</td><td>"All participants start in the bronze division", and promotion follows strong scores</td><td>The division ladder is open to everyone, and is a good progress measure</td></tr><tr><td>Can I be a finalist?</td><td>"Only pre-college students in the USA are eligible for selection as finalists to attend the USACO training camp"</td><td>No, for students living and studying in Canada</td></tr><tr><td>Residency rule for finalists</td><td>"You must either be a US citizen or a resident of the USA during the first half of the school year."</td><td>Canada's IOI route runs through the CCC instead</td></tr><tr><td>Practice archive</td><td>Historical problems with solutions, and "the ability (if logged in) to submit your own solutions"</td><td>Free practice all year, with judged submissions</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Certified results in Gold and Platinum</h3><p>USACO describes a "certified contest result" for Gold and Platinum. Problems in those divisions are released at "12:00pm (noon) eastern time (ET)" on the Saturday, and a student who starts "between 12:00pm and 12:15pm ET on that day will receive a certified score".</p>
+<p>USACO adds that "A certified result is required for promotion from gold to platinum." Bronze and Silver problems are open across the whole weekend, with no certified start.</p></div><div><h3>The rules that apply to everyone</h3><p>USACO's integrity rules include working alone and this line: "Use of generative AI (e.g., services like copilot or ChatGPT) is prohibited." Code must be written from scratch, consulting only references for the language's syntax and libraries.</p>
+<p>Under 18, ChatGPT needs a parent's permission anyway. For contest practice we ask students to work exactly as the rules require, with only official language documentation open.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://usaco.org/index.php?page=instructions" rel="noopener" target="_blank">USACO Contest Instructions and Rules</a>, <a class="ag-inline-link" href="https://usaco.org/index.php?page=details" rel="noopener" target="_blank">USACO Details and FAQ</a> and <a class="ag-inline-link" href="https://usaco.org/index.php?page=training" rel="noopener" target="_blank">USACO Training</a>, read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="zones">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Clocks</p><h2>Noon Eastern in every Canadian time zone</h2><p class="ag-lede">For Gold and Platinum, the certified start is noon Eastern on the contest Saturday. Our conversion below shows what that means across Canada, using the 2026 to 2027 offsets. It assumes USACO keeps the noon ET release it described for 2025-2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>USACO's noon ET certified start in Canadian local time (our conversion; offsets from the tz database, release 2026e)</caption><thead><tr><th scope="col">Where</th><th scope="col">Until 13 March 2027</th><th scope="col">From 14 March 2027</th></tr></thead><tbody><tr><td>British Columbia (most), Yukon</td><td>10:00 a.m.</td><td>9:00 a.m.</td></tr><tr><td>Alberta, Saskatchewan</td><td>11:00 a.m.</td><td>10:00 a.m.</td></tr><tr><td>Manitoba</td><td>12:00 noon</td><td>11:00 a.m.</td></tr><tr><td>Ontario and Quebec (ET)</td><td>12:00 noon</td><td>12:00 noon</td></tr><tr><td>Atlantic provinces (AT)</td><td>1:00 p.m.</td><td>1:00 p.m.</td></tr><tr><td>Newfoundland (NT)</td><td>1:30 p.m.</td><td>1:30 p.m.</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Why two columns: Eastern clocks move forward on 14 March 2027, while British Columbia, Alberta, Saskatchewan and, from 1 November 2026, Manitoba no longer change. A March round therefore starts an hour earlier for western students than a January one. Weekend morning starts suit families in British Columbia well; the Atlantic and Newfoundland start falls after lunch.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="versus">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">USACO vs CCC</p><h2>USACO and the CCC side by side</h2><p class="ag-lede">The two contests test the same kind of thinking, but they are organised very differently. The CCC column is from CEMC's CCC page and the CCC rules; the USACO column from usaco.org. The arrangement is ours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The CCC and USACO compared (CEMC and usaco.org, read 22 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">Canadian Computing Competition (CEMC)</th><th scope="col">USACO</th></tr></thead><tbody><tr><td>Entry</td><td>Through a school that orders the contest</td><td>A free account; no pre-registration</td></tr><tr><td>Where</td><td>At school, supervised in person</td><td>Online, from home</td></tr><tr><td>How often</td><td>Once a year; Wednesday 17 February 2027 in the Americas</td><td>Usually four rounds a season; 2026 to 2027 dates not yet posted</td></tr><tr><td>Length</td><td>3 hours</td><td>4 hours, or 5 for the US Open</td></tr><tr><td>Problems</td><td>5 per paper, 15 marks each</td><td>Typically 3 or 4</td></tr><tr><td>Levels</td><td>Junior or Senior, chosen by the student</td><td>Bronze to Platinum, by promotion</td></tr><tr><td>Languages</td><td>C, C++, Python 2, Python 3, Java</td><td>C, C++, Java, Python</td></tr><tr><td>Time per test</td><td>3 seconds and 512 MB, unless stated</td><td>2 seconds for C and C++, 4 for Java and Python; about 256MB</td></tr><tr><td>Cost to the family</td><td>Paid by the school, per participant</td><td>"There is never any fee for participation."</td></tr><tr><td>AI tools</td><td>Forbidden, including inside an editor</td><td>Generative AI prohibited</td></tr><tr><td>Leads to</td><td>About 20 official Senior writers invited to the CCO, which selects Canada's IOI team</td><td>For pre-college students in the USA: finalist camp and the USA IOI team</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the comparison means for a Canadian (ours)</h3><p>For a student in Canada, the CCC is the contest that counts for Canada's IOI team, and it happens once. USACO can be entered again and again, which makes it valuable practice: four hours of real contest pressure, several times a winter, from the kitchen table.</p>
+<p>USACO's divisions also give a clear, external measure of progress. A student who reaches Silver has met recursive search and greedy methods under contest conditions; Gold means shortest paths and dynamic programming, which is roughly the ground of CCC Senior problems 3 and 4 in our experience.</p></div><div><h3>Where the two differ in practice</h3><p>The CCC rewards a single good afternoon and partial marks on subtasks. USACO scores each problem by how many test cases pass within the time limit, and promotion depends on each contest's cutoff.</p>
+<p>Python is workable at both lower levels: USACO says it generally tries to ensure "that all bronze-level problems are also fully-solvable in Python", while warning that higher divisions may not be. CEMC gives a similar warning for the CCC. C++ is the safe choice for anyone aiming high in either.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="problem">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A practice problem</p><h2>An original Bronze-style problem: Ferry Queue</h2><p class="ag-lede">We wrote this problem for our students; it is ours, not a USACO or CEMC problem. It is the kind of simulation that Bronze rounds and early CCC problems share, with a twist that rewards thinking about efficiency. The solution was run on its sample, and checked against a slow brute force on 500 random cases with no differences.</p></div>
+    <p><b>Ferry Queue.</b> A ferry leaves the dock at times T, 2T, 3T and so on (in minutes) and carries at most C cars each sailing. N cars arrive at the given times, in order; a car arriving exactly at a departure time still makes that sailing. Cars board first come, first served. Print the departure time of the sailing that carries the last car. <b>Input:</b> N, C and T on the first line (1 &le; N &le; 100,000; 1 &le; C, T &le; 1,000), then the N arrival times on one line, each from 0 to 1,000,000,000. <b>Output:</b> one integer.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Ferry Queue &middot; sample</b><span>text</span></figcaption><pre>Sample input:
+5 2 10
+1 2 3 15 31
+
+Sample output:
+40</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Ferry Queue &middot; a slow brute force (Python)</b><span>python</span></figcaption><pre># Brute force for checking: try every sailing in turn
+import sys
+data = sys.stdin.read().split()
+n, cap, gap = int(data[0]), int(data[1]), int(data[2])
+arrive = [int(x) for x in data[3:3 + n]]
+i, depart = 0, 0
+while i &lt; n:
+    depart += gap
+    boarded = 0
+    while i &lt; n and boarded &lt; cap and arrive[i] &lt;= depart:
+        i += 1
+        boarded += 1
+print(depart)</pre><p class="ag-code-note">Correct, and fine for the sample. But it visits every sailing, and with arrival times up to a billion and T as small as 1, that can mean a billion empty sailings. On a contest grader it would pass the small tests and time out on the large ones.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Ferry Queue &middot; our solution (Python)</b><span>python</span></figcaption><pre># Our Bronze-style practice problem: Ferry Queue (not a USACO problem)
+import sys
+
+def main():
+    data = sys.stdin.read().split()
+    n, cap, gap = int(data[0]), int(data[1]), int(data[2])
+    arrive = [int(x) for x in data[3:3 + n]]   # already in order
+    i = 0
+    depart = 0
+    while i &lt; n:
+        # next sailing: the one after the last, or the first one
+        # at or after the next car's arrival, whichever is later
+        first_for_car = -(-arrive[i] // gap) * gap   # ceiling to a multiple
+        depart = max(depart + gap, first_for_car)
+        boarded = 0
+        while i &lt; n and boarded &lt; cap and arrive[i] &lt;= depart:
+            i += 1
+            boarded += 1
+    print(depart)
+
+main()</pre><p class="ag-code-note">The idea: empty sailings change nothing, so jump straight to the next sailing that matters, either the one after the last, or the first one at or after the next car's arrival, found by rounding up to a multiple of T. Each car is handled once, so the work grows with N, not with the times. In the sample, cars at 1 and 2 leave at 10, cars at 3 and 15 at 20, and the car at 31 at 40. The equal-time rule, arrival &le; departure, is the detail most first attempts get wrong.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why this problem suits both contests</h3><p>Simulation with an efficiency twist appears at the start of both ladders. In USACO it is Bronze material; at the CCC it sits around Junior problem 5 or the early Senior problems.</p>
+<p>The lesson is the same in both: write the obvious simulation first, then ask which steps change nothing and can be skipped.</p></div><div><h3>Practising it properly</h3><p>Write the brute force, then the fast version, and run both on many small random inputs until they always agree. Only then trust the fast version on large input.</p>
+<p>Then try your own variant: what if the ferry may leave early once it is full? Changing one rule and re-solving is how students learn to read rules carefully.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="season">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">One season</p><h2>Using USACO and the CCC in the same school year</h2><p class="ag-lede">USACO's rounds have usually fallen between December and early spring, and the 2027 CCC is on 17 February 2027. Our plan for a Canadian student who wants both, assuming USACO keeps a similar pattern for 2026 to 2027, which it had not yet confirmed.</p></div>
+    <ol class="ag-steps"><li><b>Now, October and November 2026:</b> create a usaco.org account, try three or four historical Bronze problems from the archive, and confirm with the school that it will order the CCC.</li><li><b>December 2026 and January 2027:</b> write each USACO round that is posted, as a four-hour practice under the real rules. Review every problem the following week, whatever the score.</li><li><b>Early February 2027:</b> protect the CCC. If a USACO weekend falls within a few days of 17 February 2027, treat it as light practice or skip it, and spend the time on CCC past papers.</li><li><b>17 February 2027:</b> write the CCC at school, Junior or Senior. This is the contest that counts for Canada.</li><li><b>After the CCC:</b> return to USACO for the remaining rounds of the season, aiming for the next promotion.</li><li><b>Spring and summer 2027:</b> keep working through the historical archive at the student's division, ready for the next season.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Which to prioritise</h3><p>For a student in Canada, the CCC. It is the contest that leads to the CCO and Canada's IOI team, and it is written once. USACO is excellent preparation for it and a lasting measure of progress.</p>
+<p>For a student who simply loves algorithms, both, all year. The problems are different, the habits are the same.</p></div><div><h3>What we will not claim</h3><p>We do not promise promotions, cutoffs or invitations in either contest; both organisers decide those. We teach the algorithms and habits that both contests reward.</p>
+<p>For deeper division-by-division coaching, our <a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation page</a> sets out how we work, and our <a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation page</a> covers the Canadian contest.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student starts</p>
+      <h2>Four stages for a Canadian student trying USACO</h2>
+      <p class="ag-lede">How we place a student who wants to use USACO alongside the CCC. The stages are ours.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first round to steady promotion (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. First round</td><td class="ag-num">Writes a Bronze round; solves one problem fully</td></tr><tr><td>2. Bronze steady</td><td class="ag-num">Solves most Bronze problems; ready for CCC Junior</td></tr><tr><td>3. Silver</td><td class="ag-num">Promoted; uses recursive search and greedy methods</td></tr><tr><td>4. Gold and up</td><td class="ag-num">Shortest paths and DP; ready for CCC Senior's middle problems</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>USACO rounds happen at home, so the family sets the conditions. A quiet room, four clear hours and no help from anyone is what the rules ask.</p>
+<p>A promotion is a good moment to celebrate. A round without one is a good moment to review, not to worry.</p></div><div><h3>For students</h3><p>Treat each round as practice for the CCC: read every problem first, then choose your order.</p>
+<p>Re-solve the problems you missed before the next round. That is where promotions come from.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for students who enjoy algorithm contests</h2>
+      <p class="ag-lede">Live online, with the same teacher each week, in a batch or one to one, for students across Canada.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Getting ready for Bronze</h3>
+        <span class="ag-band-sub">Grades 7 to 10</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UC / BRZ / 01</p>
+          <h4>Python for teens</h4>
+          <p>Enough for Bronze, start to finish.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UC / BRZ / 02</p>
+          <h4>Java for teens</h4>
+          <p>A language both contests accept.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UC / BRZ / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic and data structures, slowly.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Silver and Gold</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UC / SG / 01</p>
+          <h4>High school math</h4>
+          <p>The math behind counting and DP.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UC / SG / 02</p>
+          <h4>Competition math</h4>
+          <p>Combinatorics and proof.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UC / SG / 03</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java, for schools offering AP.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Platinum and beyond</h3>
+        <span class="ag-band-sub">Strong students</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UC / PLT / 01</p>
+          <h4>Competitive programming, advanced</h4>
+          <p>For university-level contests.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UC / PLT / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Advanced structures, adults.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UC / PLT / 03</p>
+          <h4>C++ masterclass</h4>
+          <p>C++ at depth, ages 18 and over.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live contest coaching for Canadian families</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, in your own province's time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings, clear of USACO contest weekends.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Fitted around the CCC date and the USACO rounds.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Two contests, one plan</h3><p>CCC first, USACO rounds as practice.</p></div>
+      <div><h3>Division by division</h3><p>Bronze to Gold techniques in order.</p></div>
+      <div><h3>Original problems</h3><p>Our own sets; official archives for past ones.</p></div>
+      <div><h3>Round reviews</h3><p>Every USACO round gone through afterwards.</p></div>
+      <div><h3>Coast to coast</h3><p>Students in every Canadian time zone.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty in a batch, or private.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Built by our learners</h2>
+      <p class="ag-lede">Contest work is one part; building is the other. A few of our students' projects are below, and the <a class="ag-inline-link" href="/student-labs">student labs</a> show more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">USACO charges nothing to compete, and the school covers the CCC. Our monthly fee is only for live coaching, with no season contract, so a family can coach through the winter rounds and stop in spring.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One Bronze-style problem together</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students in a batch</li><li>One teacher all winter</li><li>Choose your batch time</li><li>Billed each month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A private teacher</li><li>Planned around both contests</li><li>Every round reviewed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents on Google, quoted as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Canadian families</p>
+      <h2>USACO for Canadian students: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can Canadian students compete in USACO?</h3>
+        <p>Yes. usaco.org says all are welcome to take part in its online contests and training, and that participation is free and open to all. A student in Canada needs only a free account on usaco.org.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a Canadian student become a USACO finalist?</h3>
+        <p>No, for a student living in Canada. USACO says only pre-college students in the USA are eligible for selection as finalists, and that a finalist must be a US citizen or a resident of the USA during the first half of the school year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are Canadian students ranked in USACO?</h3>
+        <p>usaco.org says pre-college or USA students are typically ranked separately from observers, meaning all others participating. Check each contest's results page for how entries are listed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is USACO free?</h3>
+        <p>Yes. USACO's rules say there is never any fee for participation, and its training pages and historical problems with solutions are free online.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>USACO vs CCC: which should a Canadian student do?</h3>
+        <p>The CCC, if only one. It is CEMC's national contest, written at school once a year, and the route to the Canadian Computing Olympiad and Canada's IOI team. USACO is excellent extra practice from home across the winter.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are the 2026 to 2027 USACO contests?</h3>
+        <p>usaco.org had not posted them when we checked on 22 October 2026; it still showed the 2025-2026 schedule. Its details page says contests usually run from December through early spring. The CCC is on 17 February 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time do USACO contests start in Canada?</h3>
+        <p>Bronze and Silver can be started any time in the Friday-to-Monday window. For a certified Gold or Platinum result, problems open at noon Eastern on the Saturday, which is 10:00 a.m. in British Columbia in winter and 1:30 p.m. in Newfoundland.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which language should a Canadian student use for USACO?</h3>
+        <p>USACO accepts C, C++, Java and Python, and calls C++ the clear answer at higher levels because it is the only language supported at the IOI. It aims to make all Bronze problems fully solvable in Python. The CCO also requires C++.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can students use AI in USACO?</h3>
+        <p>No. USACO prohibits generative AI such as ChatGPT during contests, and the CCC rules forbid it too. Outside contests, ChatGPT needs a parent's permission for anyone under 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your classes for Canadian families?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We keep weekend slots clear of USACO weekends where a student is competing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian students who enjoy algorithm contests.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a></h3><p>Our division-by-division USACO coaching.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>The Canadian contest, Junior and Senior.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>The 2027 Junior paper explained.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ioi-olympiad-informatics-training">IOI training</a></h3><p>Where both ladders lead internationally.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>All of our pages for Canada.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>When a test case fails and you do not know why.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class is one Bronze-style problem, solved together, then a look at the student's CCC plans. You leave with a sensible order for the winter: which USACO rounds to write and how to keep the CCC first.</p>
+        <p class="ag-mt-40">To see the teaching first, <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes a live class, and the <a class="ag-inline-link" href="/courses">full course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20wants%20to%20try%20USACO%20alongside%20the%20CCC.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'uc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers teach live over video from India; there is no centre in Canada to visit. WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_uc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free; no card is required.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/ioi-olympiad-informatics-training">IOI training</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>CCC first, USACO all winter</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_uc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'usaco-for-canadian-students-inline', meta: { name: name, age: age, page: 'usaco-for-canadian-students' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

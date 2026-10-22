@@ -750,6 +750,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - CCC past problems practice guide: https://learn.modernagecoders.com/ccc-past-problems-practice-guide
 - Canadian Computing Olympiad guide: https://learn.modernagecoders.com/canadian-computing-olympiad-cco-guide
 - CEMC free resources guide: https://learn.modernagecoders.com/cemc-free-resources-guide
+- USACO for Canadian students: https://learn.modernagecoders.com/usaco-for-canadian-students
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -7734,4 +7734,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /cemc-free-resources-guide /src/pages/cemc-free-resources-guide.html 200
 /cemc-free-resources-guide.md /src/pages/cemc-free-resources-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/usaco-for-canadian-students /src/pages/usaco-for-canadian-students.html 200
+/usaco-for-canadian-students.md /src/pages/usaco-for-canadian-students.md 200
 /* /src/pages/404.html 404

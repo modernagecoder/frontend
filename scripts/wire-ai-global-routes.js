@@ -519,6 +519,7 @@ const SLUGS = [
   'ccc-past-problems-practice-guide',
   'canadian-computing-olympiad-cco-guide',
   'cemc-free-resources-guide',
+  'usaco-for-canadian-students',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1117,6 +1118,7 @@ const LLMS_LABELS = {
   'ccc-past-problems-practice-guide': 'CCC past problems practice guide',
   'canadian-computing-olympiad-cco-guide': 'Canadian Computing Olympiad guide',
   'cemc-free-resources-guide': 'CEMC free resources guide',
+  'usaco-for-canadian-students': 'USACO for Canadian students',
 };
 
 function wireLlms(slugs) {

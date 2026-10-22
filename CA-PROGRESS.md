@@ -220,7 +220,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 39 | ccc-senior-guide (csg, #187054) | contest | 5,735 | 2.5% vs ccc-junior-guide | contest guide | graphs and dynamic programming | b46a669e |
 | 40 | ccc-past-problems-practice-guide (cppp, #254B70) | contest | 4,671 | 1.6% vs ccc-junior-guide | practice guide | judging your own output | c60aeafe |
 | 41 | canadian-computing-olympiad-cco-guide (ccoc, #121B7A) | contest | 4,396 | 2.5% vs ccc-junior-guide | contest guide | algorithm design | 83b06db1 |
-| 55 | cemc-free-resources-guide (cfrg, #574A0D) | contest | 4,438 | 1.7% vs beaver-computing-challenge-guide | resource guide | practice routines | (this commit) |
+| 55 | cemc-free-resources-guide (cfrg, #574A0D) | contest | 4,438 | 1.7% vs beaver-computing-challenge-guide | resource guide | practice routines | 39bc3ead |
+| 56 | usaco-for-canadian-students (uc, #4B6622) | contest | 4,511 | 1.8% vs ccc-junior-guide | contest comparison | USACO vs CCC | (this commit) |
 
 ## Skipped
 
