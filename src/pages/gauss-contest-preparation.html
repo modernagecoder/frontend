@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gauss Contest 2027 (Grades 7 and 8): Dates and Practice</title>
+  <meta name="description" content="The Gauss Contests for Grades 7 and 8: the 10 to 21 May 2027 window, 25 questions in 60 minutes, school marking and certificates, eight original problems and a plan.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/gauss-contest-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/gauss-contest-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#85142C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/gauss-contest-preparation">
+  <meta property="og:title" content="Gauss Contest 2027 (Grades 7 and 8): Dates and Practice">
+  <meta property="og:description" content="CEMC runs the 2027 Gauss Contests from Monday 10 to Friday 21 May 2027. How the paper works, how schools mark it, what the certificates mean, 2026 mark bands and eight practice problems with solutions.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gauss Contest 2027 (Grades 7 and 8): Dates and Practice">
+  <meta name="twitter:description" content="Gauss Contest 2027 for Grades 7 and 8: dates, format, certificates and eight original problems.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-gcp .ag-hero h1 { letter-spacing: -0.008em; }
+.ag-root.ag-gcp .ag-capsule { border-left-width: 6px; border-radius: 8px; }
+.ag-root.ag-gcp .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-gcp .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-gcp .ag-band-head h3 { letter-spacing: -0.002em; }
+.ag-root.ag-gcp .ag-slots { gap: 1.4rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/gauss-contest-preparation#page","url":"https://learn.modernagecoders.com/gauss-contest-preparation","name":"Gauss Contest Preparation","description":"A guide for Grade 7 and 8 students in Canada and their parents to CEMC's Gauss Contests, built from CEMC's 2027 Gauss page, the 2025 Gauss booklet covers and the 2026 results booklet, with original practice problems, Python checks and a plan to May 2027.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CEMC Waterloo contests","item":"https://learn.modernagecoders.com/cemc-waterloo-contests-preparation"},{"@type":"ListItem","position":5,"name":"Gauss Contest","item":"https://learn.modernagecoders.com/gauss-contest-preparation"}]},{"@type":"Course","name":"Gauss Contest Preparation","description":"Live online preparation for the CEMC Waterloo math contests from Gauss to Euclid, with a Gauss track for Grades 7 and 8, for students across Canada, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/gauss-contest-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/gauss-contest-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/gauss-contest-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Gauss Contest?","acceptedAnswer":{"@type":"Answer","text":"The Gauss Contests are CEMC's math contests for Grades 7 and 8, from the University of Waterloo. There is one paper for each grade, each with 25 multiple-choice questions, 60 minutes and a score out of 150."}},{"@type":"Question","name":"When is the Gauss Contest in 2027?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists a window from Monday, May 10, 2027 to Friday, May 21, 2027, the same inside and outside the Americas. Each school runs it on a day it chooses within those two weeks, and must order by Thursday, April 22, 2027."}},{"@type":"Question","name":"Can a Grade 6 student write the Gauss?","acceptedAnswer":{"@type":"Answer","text":"Yes. Younger students who are keen may write too, CEMC says. A student writes one Gauss paper per school year, and may choose a higher grade's paper but not a lower one."}},{"@type":"Question","name":"How is the Gauss Contest scored?","acceptedAnswer":{"@type":"Answer","text":"Going by the 2025 covers: 5 marks a question in Part A, 6 in Part B, 8 in Part C, nothing taken off for errors, and 2 marks for each blank up to ten blanks. All 25 questions had five lettered options."}},{"@type":"Question","name":"Who marks the Gauss Contest?","acceptedAnswer":{"@type":"Answer","text":"Paper contests are marked at the school using a marking template from CEMC; online contests are marked on CEMC's platform. CEMC emails the results to the school's contest supervisor in the weeks after the contest."}},{"@type":"Question","name":"What certificates can a Gauss student earn?","acceptedAnswer":{"@type":"Answer","text":"CEMC gives every participant a Certificate of Participation. The top 25 percent within each school, in schools with at least 4 participants, receive a Certificate of Distinction, and the top scorer on each grade's contest in schools with at least 10 participants receives a Certificate of Outstanding Achievement."}},{"@type":"Question","name":"What was the Gauss average in 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC's 2026 results booklet gives an average of 85.3 for Grade 7 and 87.4 for Grade 8, out of 150. CEMC notes these figures cover only the students whose results it received, not every participant."}},{"@type":"Question","name":"How does my child enter the Gauss?","acceptedAnswer":{"@type":"Answer","text":"Only through the school: CEMC takes orders from schools, never from families, and a Gauss order must cover at least ten contests. If the school declines, ask a nearby school whether your child can write there."}},{"@type":"Question","name":"Where can we find past Gauss papers?","acceptedAnswer":{"@type":"Answer","text":"On CEMC's past contests page, free, with solutions, and through CEMC's Problem Set Generator, which builds practice sets from past Gauss questions. Our own practice problems are written by our teachers."}},{"@type":"Question","name":"When are your Gauss classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We arrange times in Eastern time and show each family the time in its own province."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/gauss-contest-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-gcp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#window">May 2027</a></li>
+      <li><a href="#paper">The paper</a></li>
+      <li><a href="#practice">Eight problems</a></li>
+      <li><a href="#bands">2026 results</a></li>
+      <li><a href="#term">Plan</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / <a href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a> / Gauss Contest
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; CEMC Gauss Contests &middot; Grades 7 and 8</p>
+        <h1>Gauss Contest preparation for Grades 7 and 8</h1>
+        <p class="ag-lede">The Gauss Contests are where many Canadian students meet a real math contest for the first time. CEMC, at the University of Waterloo, sets one paper for Grade 7 and one for Grade 8, printed back to back in the same booklet, and schools run them on a day of their choosing within a two-week window in May. The questions start gently and end with a few that CEMC says are there to test "ingenuity and insight". This guide is built from CEMC's Gauss page for 2027, the covers of the 2025 Gauss booklets and CEMC's 2026 Gauss results booklet. It covers the window, the paper, how schools mark it and award certificates, last year's mark bands, eight practice problems we wrote with solutions, two short Python programs that check our answers, and a plan to May 2027.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#practice" class="ag-btn ag-btn--ghost">Try the eight problems</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Grade%207%20(or%208)%20in%20Canada%20and%20would%20like%20to%20prepare%20for%20the%20Gauss%20Contest%20in%20May%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gcp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online classes since 2020 &middot; 10,000+ students, from age 6 &middot; every problem on this page is ours, written for Grades 7 and 8</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Set by</dt><dd>CEMC, University of Waterloo</dd>
+          <dt>For</dt><dd>Grades 7 and 8, and keen younger students</dd>
+          <dt>2027 window</dt><dd>Monday 10 to Friday 21 May 2027</dd>
+          <dt>Paper</dt><dd>25 multiple-choice questions, 60 minutes</dd>
+          <dt>Score</dt><dd>Out of 150</dd>
+          <dt>Marked</dt><dd>At school, for paper writers</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In a sentence or two</p>
+      <p>The Gauss Contests are CEMC's math contests for Grades 7 and 8: one hour, twenty-five multiple-choice questions and 150 marks, sat at school on a day the school picks between Monday 10 and Friday 21 May 2027. Students take part only through their school. Modern Age Coders prepares Grade 7 and 8 students live online, in a batch or one to one, in the Gauss track of its Waterloo Math Contests course, Gauss to Euclid.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for Grades 7 and 8</p>
+      <h2>Three courses for a Gauss student</h2>
+      <p class="ag-lede">The contest course has a Gauss track of its own. The competitions course widens the problem solving; the middle school course makes sure the Grade 7 and 8 math underneath is secure.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/waterloo-math-contests-gauss-to-euclid-course">
+        <div class="ag-pick-shot"><img src="/images/waterloo-math-contests.webp" alt="Waterloo Math Contests course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GCP / 01</p>
+          <h3>Waterloo Math Contests: Gauss to Euclid</h3>
+          <p>Ages 11 to 18. Its Gauss track for Grades 7 and 8 meets twice a week live, sets problems between classes and runs timed rounds ahead of the May 2027 window.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/middle-school-math-competitions-course">
+        <div class="ag-pick-shot"><img src="/images/middle-school-math-competitions.webp" alt="Middle School Math Competitions course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GCP / 02</p>
+          <h3>Middle school math competitions</h3>
+          <p>Ages 10 to 14. Number theory, counting, algebra and geometry problem solving for students who like contest questions.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GCP / 03</p>
+          <h3>Middle school math</h3>
+          <p>Fractions, ratio, percent, pre-algebra and geometry taught properly, the ground the first Gauss questions stand on.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="window">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">May 2027</p><h2>The 2027 Gauss window, and what makes Gauss different</h2><p class="ag-lede">Gauss works a little differently from CEMC's high school contests. There is no single contest day, the school marks paper copies itself, and some certificates are decided inside each school. Everything below is from CEMC's Gauss page, read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 2027 Gauss Contests, from CEMC's Gauss page (read 22 October 2026)</caption><thead><tr><th scope="col">Detail</th><th scope="col">What CEMC publishes</th></tr></thead><tbody><tr><td>Who it is for</td><td>"Students in Grades 7 and 8." "Motivated students in lower grades are welcome to write the contest."</td></tr><tr><td>When</td><td>"Monday, May 10, 2027 to Friday, May 21, 2027", the same window inside and outside the Americas</td></tr><tr><td>Choosing the day</td><td>"Contest Supervisors are expected to administer the contest within the two-week contest period."</td></tr><tr><td>School ordering deadline</td><td>"Thursday, April 22, 2027"</td></tr><tr><td>Paper</td><td>Twenty-five questions, every one with five lettered options, in one hour, for a possible 150 marks</td></tr><tr><td>Where and how</td><td>At school, each student alone, either on paper or on CEMC's online platform, as the school decides</td></tr><tr><td>Calculators</td><td>"Some calculators permitted."</td></tr><tr><td>Content</td><td>Based on "math curriculum common to all Canadian provinces"; "The last few questions are designed to test ingenuity and insight."</td></tr><tr><td>Languages</td><td>CEMC's contest table says "These contests are available in English and French."</td></tr><tr><td>Fee</td><td>Five dollars per participant, ordered by the school, with a minimum order of ten contests</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>One booklet, two contests</h3><p>The Grade 7 and Grade 8 papers are separate contests. In 2025 they were printed back to back: the Grade 7 cover said "(The Grade 8 Contest is on the reverse side)".</p>
+<p>A student writes one of them in a school year. CEMC lists the "Grade 7 and Grade 8 Gauss Contests" among the groupings where a student can write only one, and a student working ahead may choose the higher grade but never the lower one.</p></div><div><h3>Marked at school</h3><p>Paper Gauss contests stay at the school: "All paper contests are marked in the school. Contest Supervisors are given a marking template in the contest package." Online writers are marked on CEMC's platform.</p>
+<p>Results then go to the teacher, and CEMC says they are "sent to the Contest Supervisor by email in the weeks after the contest is written." Families hear the score from the school, not from CEMC.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/gauss" rel="noopener" target="_blank">CEMC, Gauss Contests</a>, and the <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests" rel="noopener" target="_blank">CEMC contests table</a>, read 22 October 2026. Modern Age Coders runs independent classes and is not part of, or connected with, CEMC or the University of Waterloo.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="paper">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The paper</p><h2>Inside a Gauss paper: three parts, all multiple choice</h2><p class="ag-lede">The cover of each 2025 Gauss booklet gave the rules a student needs to know before starting. Unlike the Grade 9 to 11 contests, every Gauss question, even the last five, has five lettered options.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Gauss rules from the covers of CEMC's 2025 Grade 7 and Grade 8 Gauss booklets (no questions reproduced)</caption><thead><tr><th scope="col">Rule</th><th scope="col">What the 2025 cover says</th></tr></thead><tbody><tr><td>Format</td><td>"This is a multiple-choice test. Each question is followed by five possible answers marked A, B, C, D, and E."</td></tr><tr><td>Time</td><td>"Time: 1 hour"; "you will have sixty minutes of working time"</td></tr><tr><td>Marks</td><td>Five for a right answer in Part A, six in Part B and eight in Part C</td></tr><tr><td>Wrong answers</td><td>They cost nothing: the cover states there is no penalty</td></tr><tr><td>Blanks</td><td>Two marks for each question left empty, counted for no more than ten of them</td></tr><tr><td>Parts</td><td>Part A is questions 1 to 10, Part B questions 11 to 20, Part C questions 21 to 25</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the blank rule means for a Grade 7 student</h3><p>A blank earns 2 marks; a wild guess among five options is right only one time in five. Our arithmetic: a blind guess in Part A is worth 5 / 5 = 1 mark on average, less than the 2 for a blank.</p>
+<p>So we teach younger students a simple rule: answer what you can work out, cross out options you can rule out, and only guess when you have narrowed it to two. That rule is ours, not CEMC's, and it stops counting once ten questions are blank.</p></div><div><h3>Ingenuity and insight</h3><p>CEMC says the last few questions "are designed to test ingenuity and insight", and that the paper leans on reasoning more than on remembered content.</p>
+<p>In practice, a Grade 7 student meets questions near the end that no lesson has prepared them for. The skill is not knowing more math; it is trying a small case, drawing a picture, or making an organized list until a pattern shows.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eight practice problems</p><h2>Eight Gauss-style problems, with full solutions</h2><p class="ag-lede">These eight are our practice problems, not CEMC problems. Our teachers wrote them for Grade 7 and 8 students; none is copied or adapted from any Gauss paper. Like the contest, they move from Part A level to Part C level, and every one has five options. Each answer was checked in Python, and two of the checks are printed further down.</p></div>
+    <p><b>Gauss practice 1</b> (our practice problem, not a CEMC problem, pitched at Part A). What is the value of 2027 - 2026 + 2025 - 2024 + ... + 3 - 2 + 1? (A) 1012 &nbsp;(B) 1013 &nbsp;(C) 1014 &nbsp;(D) 2026 &nbsp;(E) 2027</p>
+    <p><b>How to solve it.</b> Group the terms in pairs from the left: (2027 - 2026), (2025 - 2024), and so on down to (3 - 2). Each pair equals 1. The pairs start at 2027, 2025, ..., 3, which is 1013 odd numbers, so the pairs add to 1013. The 1 at the end is left over, so the total is 1014, answer (C). Checking with a small version, 5 - 4 + 3 - 2 + 1 = 3: two pairs and the 1, which fits.</p>
+    <p class="ag-mt-40"><b>Gauss practice 2</b> (our practice problem, not a CEMC problem, pitched at Part A). A pancake recipe uses 3 cups of flour for every 2 cups of milk. How many cups of flour go with 7 cups of milk? (A) 9 &nbsp;(B) 9.5 &nbsp;(C) 10 &nbsp;(D) 10.25 &nbsp;(E) 10.5</p>
+    <p><b>How to solve it.</b> Flour is 3/2 times the milk, so 7 cups of milk need 7 x 3/2 = 21/2 = 10.5 cups of flour, answer (E). A quick check: 2 cups of milk go with 3 of flour, so 6 go with 9, and the extra cup of milk needs another 1.5 cups of flour.</p>
+    <p class="ag-mt-40"><b>Gauss practice 3</b> (our practice problem, not a CEMC problem, pitched at Part A). A jacket is marked down by 20%. Later, the sale price is marked down by a further 25%. The final price is what percent of the original price? (A) 55% &nbsp;(B) 60% &nbsp;(C) 45% &nbsp;(D) 65% &nbsp;(E) 75%</p>
+    <p><b>How to solve it.</b> Pretend the original price is 100. After 20% off it is 80. Taking 25% off 80 removes 20, leaving 60, so the final price is 60% of the original, answer (B). The trap is (C), 45%, from adding 20% and 25% and subtracting from 100: the second discount is taken from a smaller price.</p>
+    <p class="ag-mt-40"><b>Gauss practice 4</b> (our practice problem, not a CEMC problem, pitched at Part B). A grid has 2 rows and 3 columns of unit squares. How many rectangles of any size can be traced along its lines? (Squares count as rectangles.) (A) 6 &nbsp;(B) 12 &nbsp;(C) 17 &nbsp;(D) 18 &nbsp;(E) 22</p>
+    <p><b>How to solve it.</b> Every rectangle is fixed by its left and right sides and its top and bottom. The grid has 4 vertical lines, and there are 6 ways to choose two of them (list them: 1-2, 1-3, 1-4, 2-3, 2-4, 3-4). It has 3 horizontal lines, with 3 ways to choose two. Each choice of sides goes with each choice of top and bottom, so there are 6 x 3 = 18 rectangles, answer (D). Counting the shapes one by one on the diagram usually gives 17: one rectangle is easy to miss.</p>
+    <p class="ag-mt-40"><b>Gauss practice 5</b> (our practice problem, not a CEMC problem, pitched at Part B). The three angles of a triangle are in the ratio 2 : 3 : 4. What is the size of the largest angle? (A) 60&deg; &nbsp;(B) 70&deg; &nbsp;(C) 75&deg; &nbsp;(D) 80&deg; &nbsp;(E) 90&deg;</p>
+    <p><b>How to solve it.</b> Write the angles as 2k, 3k and 4k. They add to 180&deg;, so 9k = 180 and k = 20. The largest angle is 4k = 80&deg;, answer (D). Check: 40 + 60 + 80 = 180.</p>
+    <p class="ag-mt-40"><b>Gauss practice 6</b> (our practice problem, not a CEMC problem, pitched at Part B). How many positive whole numbers less than 200 are multiples of 6 but not multiples of 4? (A) 16 &nbsp;(B) 17 &nbsp;(C) 25 &nbsp;(D) 33 &nbsp;(E) 49</p>
+    <p><b>How to solve it.</b> The multiples of 6 below 200 are 6, 12, ..., 198, which is 33 numbers. A multiple of 6 is also a multiple of 4 exactly when it is a multiple of 12, and the multiples of 12 below 200 are 12, 24, ..., 192, which is 16 numbers. So 33 - 16 = 17 are multiples of 6 but not of 4, answer (B). The quick check: the multiples of 6 alternate, 6 (no), 12 (yes), 18 (no), 24 (yes), so roughly half are removed.</p>
+    <p class="ag-mt-40"><b>Gauss practice 7</b> (our practice problem, not a CEMC problem, pitched at Part C). Figure 1 is made of 1 square. Figure 2 adds a column of 2 squares beside it, making a staircase of 3 squares. Figure 3 adds a column of 3, making 6 squares, and so on. Which is the first figure to use more than 200 squares? (A) Figure 18 &nbsp;(B) Figure 19 &nbsp;(C) Figure 20 &nbsp;(D) Figure 21 &nbsp;(E) Figure 100</p>
+    <p><b>How to solve it.</b> Figure n uses 1 + 2 + ... + n squares. Two copies of a staircase fit together into a rectangle n wide and n + 1 tall, so one staircase uses n(n + 1) / 2 squares. Figure 19 uses 19 x 20 / 2 = 190 squares and Figure 20 uses 20 x 21 / 2 = 210, so the first figure over 200 is Figure 20, answer (C). Drawing figures 1 to 4 and noticing the doubling trick is the "insight" step.</p>
+    <p class="ag-mt-40"><b>Gauss practice 8</b> (our practice problem, not a CEMC problem, pitched at Part C). A student climbs a staircase of 10 steps, going up either 1 step or 2 steps with each stride. In how many different ways can the student reach the top? (A) 55 &nbsp;(B) 64 &nbsp;(C) 89 &nbsp;(D) 100 &nbsp;(E) 144</p>
+    <p><b>How to solve it.</b> Start small. One step can be climbed 1 way; two steps 2 ways (1 + 1 or 2); three steps 3 ways. To reach any step, the last stride came from one step below or two steps below, so the number of ways to reach a step is the sum of the ways to reach the two steps before it. That gives 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 for steps 1 to 10, so the answer is 89, (C). This is the kind of last question CEMC means by ingenuity: listing all 89 ways would take the whole hour, while the small cases take two minutes.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Doing the set like a contest</h3><p>Set a timer for 18 minutes for all eight, about the pace of a real Gauss. Mark your answers with the contest marks: 5 for problems 1 to 3, 6 for 4 to 6, 8 for 7 and 8, and 2 for any blank.</p>
+<p>Then check the solutions, and for every one you missed, write a single sentence about what you would try first next time.</p></div><div><h3>The habits inside them</h3><p>Pairing (problem 1), pretending a price is 100 (problem 3), choosing sides instead of counting shapes (problem 4) and starting with small cases (problems 7 and 8) all come back on real papers.</p>
+<p>None needs math beyond Grade 8. They need the patience to organize the work, which is what Gauss is really testing.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="code">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Math meets code</p><h2>Checking a Gauss answer with a few lines of Python</h2><p class="ag-lede">We are a coding and math school, and in Grades 7 and 8 the two meet naturally. Ontario's 2020 math curriculum already includes coding, so many Grade 7 and 8 students write small programs in math class. Below are two short programs of ours that check our answers by brute force. They are for practice at home, never for contest day: the contest is pencil, paper and thinking.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Checking practice problem 4 &middot; our Python program</b><span>python</span></figcaption><pre># Our check for Gauss practice problem 4 (not a CEMC problem)
+# A rectangle in a 2 by 3 grid is fixed by choosing two of the
+# 4 vertical grid lines and two of the 3 horizontal grid lines.
+count = 0
+for left in range(4):
+    for right in range(left + 1, 4):
+        for top in range(3):
+            for bottom in range(top + 1, 3):
+                count += 1
+print(count)   # prints 18</pre><p class="ag-code-note">The four nested loops choose a left side, a right side further along, a top and a bottom further down, exactly the reasoning in the written solution. Run it and it prints 18. Change the 4 and the 3 to count the rectangles in any other grid.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Checking practice problem 8 &middot; our Python program</b><span>python</span></figcaption><pre># Our check for Gauss practice problem 8 (not a CEMC problem)
+# ways[n] = number of ways to reach step n taking 1 or 2 steps
+ways = [1, 1]          # step 0 (stand still) and step 1
+for step in range(2, 11):
+    ways.append(ways[-1] + ways[-2])
+print(ways[10])        # prints 89</pre><p class="ag-code-note">The list grows by adding its last two numbers, the same rule as in the solution, and prints 89. Both programs ran under Python 3 on 22 October 2026.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why a program helps a math student</h3><p>Writing the check forces the student to say exactly what is being counted. A program that prints 17 for the rectangles is as useful as one that prints 18: it shows the counting rule was wrong.</p>
+<p>Ontario's Grade 7 math expectations mention code with "a defined count and/or subprogram", and Grade 8 adds code that involves "the analysis of data". A brute-force check is a natural first use of both.</p></div><div><h3>Where the contest draws the line</h3><p>CEMC's calculator rules exclude devices holding stored programs or notes, so a program like this is a study tool, not a contest tool. On the day, the paper rewards the reasoning.</p>
+<p>Students who enjoy this side can also try CEMC's Beaver Computing Challenge, whose questions, CEMC says, "only require familiarity with concepts covered in the mathematics curriculum".</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="bands">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">2026 results</p><h2>What Gauss 2026 scores looked like, by CEMC's mark bands</h2><p class="ag-lede">CEMC's 2026 Gauss results booklet groups scores into bands for each grade. CEMC adds a caveat that matters: the statistics cover online writers and paper schools that sent results through CEMC's results form, so they "do not represent all contest participants."</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Gauss 2026 mark bands, from CEMC's 2026 Gauss Results booklet (statistics for represented students only)</caption><thead><tr><th scope="col">Marks out of 150</th><th scope="col">Grade 7: students (approx. %)</th><th scope="col">Grade 8: students (approx. %)</th></tr></thead><tbody><tr><td>136 to 150</td><td>527 (2.19%)</td><td>721 (3.49%)</td></tr><tr><td>121 to 135</td><td>1488 (6.17%)</td><td>1541 (7.45%)</td></tr><tr><td>106 to 120</td><td>3032 (12.58%)</td><td>2573 (12.45%)</td></tr><tr><td>91 to 105</td><td>5708 (23.68%)</td><td>4866 (23.54%)</td></tr><tr><td>76 to 90</td><td>5925 (24.58%)</td><td>5072 (24.53%)</td></tr><tr><td>61 to 75</td><td>4124 (17.11%)</td><td>3306 (15.99%)</td></tr><tr><td>60 and below</td><td>2556 (10.60%)</td><td>2095 (10.13%)</td></tr><tr><td>Average</td><td>85.3</td><td>87.4</td></tr><tr><td>Schools and students represented</td><td>1433 schools, 24102 students</td><td>1286 schools, 20675 students</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Our reading, labelled as ours. The busiest band in both grades was 76 to 90 marks, with 91 to 105 close behind. The top band, 136 to 150, held only 2.19% of represented Grade 7 writers and 3.49% of Grade 8 writers, so a near-perfect Gauss is genuinely rare. A Grade 7 student who scores in the 90s on a first Gauss has done what most of the country's writers did, and that is a sound start. CEMC prints the total number of students represented across both grades as 44777.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Students registered for the 2026 Gauss Contests by province and territory, from CEMC's 2026 Gauss Results booklet</caption><thead><tr><th scope="col">Where</th><th scope="col">Students registered</th></tr></thead><tbody><tr><td>Ontario</td><td>43271</td></tr><tr><td>British Columbia</td><td>12072</td></tr><tr><td>Alberta</td><td>6756</td></tr><tr><td>Quebec</td><td>3524</td></tr><tr><td>Nova Scotia</td><td>2030</td></tr><tr><td>Manitoba</td><td>1607</td></tr><tr><td>New Brunswick</td><td>601</td></tr><tr><td>Prince Edward Island</td><td>279</td></tr><tr><td>Saskatchewan</td><td>181</td></tr><tr><td>Newfoundland and Labrador</td><td>132</td></tr><tr><td>Yukon, Northwest Territories, Nunavut</td><td>45, 35 and 10</td></tr><tr><td>Outside Canada</td><td>8869</td></tr><tr><td>Total, as CEMC prints it</td><td>79412</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: CEMC's 2026 Gauss Results booklet, linked from the <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/gauss" rel="noopener" target="_blank">Gauss page</a>, read 22 October 2026. The registered total and the represented total are CEMC's own figures for different groups, and we have not combined or compared them.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="awards">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Certificates</p><h2>Gauss certificates: what each one means</h2><p class="ag-lede">Gauss awards are mostly decided within each school, which surprises families used to national rankings. CEMC lists three certificates and no team competition.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Gauss awards, as listed on CEMC's Gauss page (read 22 October 2026)</caption><thead><tr><th scope="col">Award</th><th scope="col">Who receives it, in CEMC's words</th></tr></thead><tbody><tr><td>Certificate of Participation</td><td>"A Certificate of Participation is provided for each participant."</td></tr><tr><td>Certificate of Distinction</td><td>Each participant "scoring in the top 25% of all participants within their own school, for schools with at least 4 participants"</td></tr><tr><td>Certificate of Outstanding Achievement</td><td>"the highest achieving participant in their school on each of the Grade 7 and 8 Contests, for schools with at least 10 participants"</td></tr><tr><td>Team awards</td><td>"There is no Team Competition for these contests."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading a certificate fairly</h3><p>Because the Distinction certificate is the top quarter within one school, the score it takes depends on the school. In a school with many strong writers it is harder to earn; in a small group it may be easier.</p>
+<p>That is a reason to look at the score itself, and at what the student tried, rather than only at the certificate.</p></div><div><h3>What CEMC says the contest is for</h3><p>CEMC states that "the goal of our contests is to increase curiosity and foster problem solving skills among participants." It adds that nobody passes or fails one of its contests.</p>
+<p>We take that seriously in our Gauss classes. The aim is a student who enjoys a hard question, not one who is anxious about a certificate.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="entry">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Entry</p><h2>How a Grade 7 or 8 student enters the Gauss</h2><p class="ag-lede">CEMC accepts entries only from schools, so a family cannot sign a child up directly. Gauss adds one practical detail: a school order must be for at least ten contests.</p></div>
+    <ol class="ag-steps"><li><b>Ask the class teacher or the school's math lead in the winter.</b> Not every school orders CEMC contests, so the first step is finding out whether yours will.</li><li><b>Mention the ten-contest minimum.</b> Because CEMC asks for "a minimum order requirement of 10 contests", a teacher may want to gather a group. A family offering to find interested classmates can make the order easier.</li><li><b>New schools need an account.</b> A school that has never ordered applies for a CEMC school account, which CEMC reviews by hand over as long as three weeks, before the Thursday, April 22, 2027 deadline.</li><li><b>If your school declines,</b> CEMC suggests asking another nearby school whether your child may write with them.</li><li><b>Online writers can rehearse.</b> CEMC says "The Gauss Online Practice Contest will be available in April", using questions from the previous year's contests.</li></ol>
+    <p class="ag-mt-40">We prepare students; we cannot enter them or run the sitting, which always happens at the school. CEMC's full process is on its <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">How contests work</a> page.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="term">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The plan</p><h2>A plan from January to the May 2027 Gauss window</h2><p class="ag-lede">Our plan for a Grade 7 or 8 student who starts in January 2027 and writes in the 10 to 21 May window. Students who start in November simply have more time on the first term. It assumes two live classes a week.</p></div>
+    <div class="ag-grid-3"><div><h3>January and February 2027</h3><p>Number sense and Part A speed: fractions, decimals, percent, ratio and order of operations, with pairing and "pretend it is 100" tricks. Our problems 1 to 3. One untimed past Gauss each month.</p></div><div><h3>March 2027</h3><p>Geometry and measurement: angles, area, perimeter and simple 3-D shapes, always with a drawing. Our problem 5. Part B questions from past papers, timed at three minutes each.</p></div><div><h3>April 2027</h3><p>Counting and patterns: organized lists, choosing sides and corners, small cases first. Our problems 4, 6, 7 and 8, and the two Python checks. Online writers try the Gauss Online Practice Contest.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><b>By Thursday, April 22, 2027:</b> confirm with the school that its order is in.</li><li><b>The week before the school's day:</b> two full 60-minute past papers in contest conditions, each marked with 5, 6, 8 and blank-2, then reviewed question by question.</li><li><b>Contest week, between Monday 10 and Friday 21 May 2027:</b> nothing new, an early night, and then the paper itself, at school, on whichever day the teacher has picked.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Grade 6, writing early</h3><p>CEMC welcomes motivated younger students. Aim for Part A and a few Part B questions; the habits matter more than the score.</p></div><div><h3>Grade 7, first contest</h3><p>The full plan. A strong first Gauss finishes Part A cleanly and makes real attempts at Part B.</p></div><div><h3>Grade 8, second Gauss</h3><p>Start from last year's mistakes. The target is Part C, where the 8-mark questions are.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="year">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Grade 7 and 8 year</p><h2>Gauss among CEMC's activities for Grades 7 and 8</h2><p class="ag-lede">Gauss is the main individual math contest CEMC offers in Grades 7 and 8, but not the only activity. The table is from CEMC's pages and our facts file; the advice column is ours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CEMC activities open to Grade 7 and 8 students in 2026 to 2027 (Americas dates, read 22 October 2026)</caption><thead><tr><th scope="col">Activity</th><th scope="col">When</th><th scope="col">What CEMC says</th><th scope="col">Our advice</th></tr></thead><tbody><tr><td>Beaver Computing Challenge, Grade 7/8</td><td>Monday, November 9 to Friday, November 20, 2026</td><td>For students in "Grade 8 or below"; 15 multiple-choice questions out of 90 in 45 minutes; the questions "only require familiarity with concepts covered in the mathematics curriculum"</td><td>A gentle first contest for a student who likes puzzles and code</td></tr><tr><td>Gauss Contests</td><td>Monday, May 10 to Friday, May 21, 2027</td><td>25 multiple-choice questions, 60 minutes, out of 150</td><td>The main event of the year for a Grade 7 or 8 math student</td></tr><tr><td>Team Up Challenge</td><td>Tuesday, June 1, 2027 or later</td><td>A collaborative resource for "Grades 6 to 8", with four students working together</td><td>A good end-of-year group activity if the teacher orders it</td></tr><tr><td>Pascal Contest (in Grade 9)</td><td>February of the Grade 9 year</td><td>CEMC opens Pascal to Grade 9 students, and to keen younger ones</td><td>The next step: same shape as Gauss, high school math</td></tr></tbody></table></div>
+    <p class="ag-mt-40">A Grade 8 student who enjoys Gauss will find the Grade 9 Pascal Contest familiar: twenty-five questions, sixty minutes, the same marking and the same blank rule on the 2025 papers. The big change is Part C, where Pascal asks for a whole number instead of a letter. Our <a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC contests overview</a> sets out every contest from Gauss to Euclid.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="archive">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Free practice</p><h2>Past Gauss papers and the Problem Set Generator</h2><p class="ag-lede">CEMC gives away a decade of old Gauss papers with solutions, and a tool that builds new practice sets from them. We send students to the originals and never copy them onto our pages.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Past papers</h3><p>CEMC's <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">past contests page</a> has Gauss papers, solutions and results by year, filtered by grade. A Grade 7 student should practise on Grade 7 papers first, then try a Grade 8 paper for stretch.</p>
+<p>We use one untimed paper a month from January, then two timed ones just before the school's chosen day.</p></div><div><h3>Problem Set Generator</h3><p>The <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/problem-set-generator" rel="noopener" target="_blank">Problem Set Generator</a> builds sets from "past Gauss, Pascal, Cayley, and Fermat Contests", by topic or as a mock paper.</p>
+<p>It is ideal for a weak spot: a student who keeps missing geometry questions can ask for Part A geometry from past Gauss papers and do a set in twenty minutes.</p></div></div>
+    <p class="ag-mt-40">Our one rule with any past paper: try every question properly before opening the solution, and afterwards explain the official solution in your own words. The <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/courseware" rel="noopener" target="_blank">CEMC Courseware</a> covers the school math behind the questions, lesson by lesson, if a gap shows up.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student starts</p>
+      <h2>Four steps from school math to a strong Gauss</h2>
+      <p class="ag-lede">The four rungs our teachers use to place a Grade 7 or 8 student on day one.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Gauss readiness (ours)</caption><thead><tr><th scope="col">Step</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Calculator habit</td><td class="ag-num">Reaches for the calculator first and has not seen a contest question</td></tr><tr><td>2. Number confident</td><td class="ag-num">Does fractions, percent and ratio in their head and finishes Part A</td></tr><tr><td>3. Picture drawer</td><td class="ag-num">Draws, lists and tries small cases on Part B without being told to</td></tr><tr><td>4. Pattern spotter</td><td class="ag-num">Finds the trick in some Part C questions, like the staircase or the pairs</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Most Grade 7 students start at step 1 or 2. Moving to step 3 is the biggest change, and it comes from practice with a teacher who asks "what could you draw?"</p>
+<p>Gauss is a good first contest because it is low-stakes. Treat the result as information, not a verdict.</p></div><div><h3>For students</h3><p>If a question looks too big, make it smaller: 10 steps becomes 3 steps, 2027 becomes 5.</p>
+<p>Draw something for every geometry question, even a rough sketch.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine courses for a Grade 7 or 8 student</h2>
+      <p class="ag-lede">Live online classes with a regular teacher, in a small group or one to one, for students in every province and territory.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Math foundations</h3>
+        <span class="ag-band-sub">Grades 5 to 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / BASE / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Pre-algebra and equations, ready for Grade 9.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / BASE / 02</p>
+          <h4>Mental math</h4>
+          <p>Number sense without tricks, for younger students.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / BASE / 03</p>
+          <h4>Elementary math</h4>
+          <p>For younger siblings in Grades 1 to 5.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Problem solving</h3>
+        <span class="ag-band-sub">Contest habits</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / STEP / 01</p>
+          <h4>Problem solving and computational thinking</h4>
+          <p>Logic and patterns, with and without code.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / STEP / 02</p>
+          <h4>Math through coding</h4>
+          <p>Check a count with Python, as on this page.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / STEP / 03</p>
+          <h4>Competition mathematics</h4>
+          <p>For strong Grade 8 students heading for Pascal.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Coding</h3>
+        <span class="ag-band-sub">Ages 9 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / CODE / 01</p>
+          <h4>Python for kids</h4>
+          <p>First real programs, games and turtle art.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / CODE / 02</p>
+          <h4>C++ for kids</h4>
+          <p>A first compiled language, puzzles included.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GCP / CODE / 03</p>
+          <h4>Python for teens</h4>
+          <p>For Grade 8 students ready for more.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Class format</p>
+      <h2>How live Gauss classes work for Grades 7 and 8</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school groups, set in Eastern time and shown in yours.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend morning classes, away from homework nights.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">At a time that suits the family, planned to the May window.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Problems we write</h3><p>Fresh Gauss-style sets every week, beside CEMC's papers.</p></div>
+      <div><h3>Draw, list, try small</h3><p>The three habits taught in every class.</p></div>
+      <div><h3>Math and code</h3><p>Short Python checks for students who enjoy them.</p></div>
+      <div><h3>Timed papers in May</h3><p>Two full papers before the school's chosen day.</p></div>
+      <div><h3>Every province</h3><p>Grade 7 and 8 students from across Canada.</p></div>
+      <div><h3>Group or private</h3><p>A group of fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our younger students build</h2>
+      <p class="ag-lede">Our Grade 7 and 8 students code as well as solve. A few of their projects are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The school pays CEMC for the contest itself. Our fee is for the classes only, charged each month, and ends whenever you say, the May 2027 window included.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Three Gauss-style questions together</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A group of fifteen to twenty</li><li>Grades 7 and 8 together</li><li>Choose a batch time</li><li>Monthly billing</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One student, one teacher</li><li>Planned to the May window</li><li>Built around your child's pace</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' words from Google reviews, as they wrote them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Grade 7 and 8 families ask</p>
+      <h2>Gauss Contest: frequently asked</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Gauss Contest?</h3>
+        <p>The Gauss Contests are CEMC's math contests for Grades 7 and 8, from the University of Waterloo. There is one paper for each grade, each with 25 multiple-choice questions, 60 minutes and a score out of 150.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the Gauss Contest in 2027?</h3>
+        <p>CEMC lists a window from Monday, May 10, 2027 to Friday, May 21, 2027, the same inside and outside the Americas. Each school runs it on a day it chooses within those two weeks, and must order by Thursday, April 22, 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a Grade 6 student write the Gauss?</h3>
+        <p>Yes. Younger students who are keen may write too, CEMC says. A student writes one Gauss paper per school year, and may choose a higher grade's paper but not a lower one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the Gauss Contest scored?</h3>
+        <p>Going by the 2025 covers: 5 marks a question in Part A, 6 in Part B, 8 in Part C, nothing taken off for errors, and 2 marks for each blank up to ten blanks. All 25 questions had five lettered options.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who marks the Gauss Contest?</h3>
+        <p>Paper contests are marked at the school using a marking template from CEMC; online contests are marked on CEMC's platform. CEMC emails the results to the school's contest supervisor in the weeks after the contest.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What certificates can a Gauss student earn?</h3>
+        <p>CEMC gives every participant a Certificate of Participation. The top 25 percent within each school, in schools with at least 4 participants, receive a Certificate of Distinction, and the top scorer on each grade's contest in schools with at least 10 participants receives a Certificate of Outstanding Achievement.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What was the Gauss average in 2026?</h3>
+        <p>CEMC's 2026 results booklet gives an average of 85.3 for Grade 7 and 87.4 for Grade 8, out of 150. CEMC notes these figures cover only the students whose results it received, not every participant.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does my child enter the Gauss?</h3>
+        <p>Only through the school: CEMC takes orders from schools, never from families, and a Gauss order must cover at least ten contests. If the school declines, ask a nearby school whether your child can write there.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where can we find past Gauss papers?</h3>
+        <p>On CEMC's past contests page, free, with solutions, and through CEMC's Problem Set Generator, which builds practice sets from past Gauss questions. Our own practice problems are written by our teachers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your Gauss classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We arrange times in Eastern time and show each family the time in its own province.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Also on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian families with a Grade 7 or 8 student who likes math or code.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a></h3><p>Every CEMC math contest from Gauss to Euclid.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor, Canada</a></h3><p>Help with the school course itself.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Our main page for Canadian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>CEMC's programming contest, for later grades.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-competitions-for-middle-school-students">Middle school math competitions</a></h3><p>Other contests at this age.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-7th-grade">Grade 7 math tutoring</a></h3><p>Grade 7 math, one topic at a time.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-8th-grade">Grade 8 math tutoring</a></h3><p>Grade 8 math, ready for high school.</p></div>
+      <div><h3><a class="ag-inline-link" href="/mathcounts-preparation">MATHCOUNTS preparation</a></h3><p>The American middle school contest.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-vs-maths">Coding or math?</a></h3><p>For students who enjoy both.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class works through three Gauss-style questions we wrote, with the teacher asking your child to draw, list and try small cases. Afterwards you hear which of the four steps they are on and how we would use the months to May 2027.</p>
+        <p class="ag-mt-40">Want to see more first? Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or browse the <a class="ag-inline-link" href="/courses">full list of courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Grade%207%20(or%208)%20in%20Canada%20and%20would%20like%20to%20prepare%20for%20the%20Gauss%20Contest%20in%20May%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gcp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live on video with teachers based in India, so nobody needs to travel. For the quickest reply from anywhere in Canada, message us on WhatsApp.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_gcp(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free. We do not ask for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/cemc-waterloo-contests-preparation">CEMC math contests</a></li><li><a href="/math-competitions-for-middle-school-students">Middle school contests</a></li><li><a href="/mathcounts-preparation">MATHCOUNTS</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Make it smaller first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_gcp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'gauss-contest-preparation-inline', meta: { name: name, age: age, page: 'gauss-contest-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

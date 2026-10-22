@@ -7610,4 +7610,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /euclid-contest-preparation /src/pages/euclid-contest-preparation.html 200
 /euclid-contest-preparation.md /src/pages/euclid-contest-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/gauss-contest-preparation /src/pages/gauss-contest-preparation.html 200
+/gauss-contest-preparation.md /src/pages/gauss-contest-preparation.md 200
 /* /src/pages/404.html 404

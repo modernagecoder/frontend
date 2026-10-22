@@ -488,6 +488,7 @@ const SLUGS = [
   'cayley-contest-preparation',
   'fermat-contest-preparation',
   'euclid-contest-preparation',
+  'gauss-contest-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1055,6 +1056,7 @@ const LLMS_LABELS = {
   'cayley-contest-preparation': 'Cayley Contest preparation',
   'fermat-contest-preparation': 'Fermat Contest preparation',
   'euclid-contest-preparation': 'Euclid Contest preparation',
+  'gauss-contest-preparation': 'Gauss Contest preparation',
 };
 
 function wireLlms(slugs) {
