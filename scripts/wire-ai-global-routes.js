@@ -513,6 +513,7 @@ const SLUGS = [
   'ontario-computer-science-course-pathway',
   'ontario-high-school-diploma-credits-explained',
   'beaver-computing-challenge-guide',
+  'canada-math-and-coding-contest-calendar',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1105,6 +1106,7 @@ const LLMS_LABELS = {
   'ontario-computer-science-course-pathway': 'Ontario computer science course pathway',
   'ontario-high-school-diploma-credits-explained': 'Ontario high school diploma credits explained',
   'beaver-computing-challenge-guide': 'Beaver Computing Challenge guide',
+  'canada-math-and-coding-contest-calendar': 'Canada contest calendar 2026 to 2027',
 };
 
 function wireLlms(slugs) {
