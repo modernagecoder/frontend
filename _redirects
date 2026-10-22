@@ -7698,4 +7698,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ics3u-ics4u-exam-review-practice /src/pages/ics3u-ics4u-exam-review-practice.html 200
 /ics3u-ics4u-exam-review-practice.md /src/pages/ics3u-ics4u-exam-review-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ontario-computer-science-course-pathway /src/pages/ontario-computer-science-course-pathway.html 200
+/ontario-computer-science-course-pathway.md /src/pages/ontario-computer-science-course-pathway.md 200
 /* /src/pages/404.html 404

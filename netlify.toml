@@ -25473,6 +25473,18 @@
   to = "/src/pages/ics3u-ics4u-exam-review-practice.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ontario-computer-science-course-pathway"
+  to = "/src/pages/ontario-computer-science-course-pathway.html"
+  status = 200
+
+[[redirects]]
+  from = "/ontario-computer-science-course-pathway.md"
+  to = "/src/pages/ontario-computer-science-course-pathway.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Ontario computer science course pathway](/ontario-computer-science-course-pathway)
 - [ICS3U and ICS4U exam review](/ics3u-ics4u-exam-review-practice)
 - [ICD2O digital technology course explained](/icd2o-digital-technology-course-explained)
 - [ICS3U vs ICS3C](/ics3u-vs-ics3c)
