@@ -1802,3 +1802,7 @@
 
 /* Superscripts and subscripts in maths copy never drop below the 12px floor. */
 .cg-root sup, .cg-root sub { font-size: max(0.75rem, 0.8em); line-height: 0; }
+.cg-root.cg-aptw  { --cg-accent: #18665C; --cg-accent-soft: rgba(24,102,92,.10); }   /* Waterloo: a deep spruce teal, #18665C, allocated for this row and kept at least 14 RGB units from the other Canada accents and 6 from every site accent; contrast 6.40 on the paper #FBF8F2, 6.02 and 5.51 on the two darker paper tints */
+
+/* Program listings in cg pages (a <code class="cg-mt-2"> block): long lines scroll inside the block, never the page. */
+.cg-root code.cg-mt-2 { display: block; max-width: 100%; overflow-x: auto; }
