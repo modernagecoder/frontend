@@ -516,6 +516,7 @@ const SLUGS = [
   'canada-math-and-coding-contest-calendar',
   'how-to-register-for-waterloo-contests',
   'ccc-senior-guide',
+  'ccc-past-problems-practice-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1111,6 +1112,7 @@ const LLMS_LABELS = {
   'canada-math-and-coding-contest-calendar': 'Canada contest calendar 2026 to 2027',
   'how-to-register-for-waterloo-contests': 'How to register for Waterloo contests',
   'ccc-senior-guide': 'CCC Senior guide',
+  'ccc-past-problems-practice-guide': 'CCC past problems practice guide',
 };
 
 function wireLlms(slugs) {

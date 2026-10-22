@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCC Past Papers: How to Practise with CEMC's Archive</title>
+  <meta name="description" content="Where to find Canadian Computing Competition past papers, how the CCC Grader judges a submission, and a six-step method and local checker for practice.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ccc-past-problems-practice-guide">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ccc-past-problems-practice-guide.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#254B70">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ccc-past-problems-practice-guide">
+  <meta property="og:title" content="CCC Past Papers: How to Practise with CEMC's Archive">
+  <meta property="og:description" content="CEMC publishes CCC past problems, solutions and results free. This guide shows how to use them well: the archive, the grader's verdicts and pitfalls, our practice method, and a checker you can run at home.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CCC Past Papers: How to Practise with CEMC's Archive">
+  <meta name="twitter:description" content="Practising with CCC past papers: the archive, the grader, and a method that makes each problem count.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cppp .ag-hero h1 { letter-spacing: -0.009em; }
+.ag-root.ag-cppp .ag-capsule { border-left-width: 5px; border-radius: 5px; }
+.ag-root.ag-cppp .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-cppp .ag-table caption { text-align: left; font-style: italic; font-weight: 500; }
+.ag-root.ag-cppp .ag-band-head h3 { letter-spacing: -0.005em; }
+.ag-root.ag-cppp .ag-slots { gap: 1.15rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ccc-past-problems-practice-guide#page","url":"https://learn.modernagecoders.com/ccc-past-problems-practice-guide","name":"CCC Past Problems Practice Guide","description":"A practice guide for Canadian students using the Canadian Computing Competition archive published by CEMC and the CCC Online Grader, with an original practice method and a local output checker.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CCC past problems practice","item":"https://learn.modernagecoders.com/ccc-past-problems-practice-guide"}]},{"@type":"Course","name":"CCC Past Problems Practice Guide","description":"Live online CCC preparation built around timed practice with past papers, for Junior and Senior writers across Canada, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ccc-past-problems-practice-guide"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ccc-past-problems-practice-guide"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ccc-past-problems-practice-guide"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where can I find Canadian Computing Competition past papers?","acceptedAnswer":{"@type":"Answer","text":"On CEMC's past contests, solutions and results page, which is free. Its year filter runs from 2016 to 2026. Past problems can also be opened and submitted on the CCC Online Grader."}},{"@type":"Question","name":"Are CCC solutions available?","acceptedAnswer":{"@type":"Answer","text":"Yes. CEMC publishes solutions alongside past problems and results in its archive. We suggest reading a solution only after at least twenty-five minutes of real effort, then re-solving the problem a week later."}},{"@type":"Question","name":"Can my child submit past CCC problems for grading?","acceptedAnswer":{"@type":"Answer","text":"Yes. The CCC Online Grader offers previous contests and practice problems, and gives the same verdicts as on contest day: correct, wrong answer, time-limit exceeded, run-time error, compilation error, or a skipped test."}},{"@type":"Question","name":"Does a student need a school number for a CCC Grader account?","acceptedAnswer":{"@type":"Answer","text":"Yes. The grader's registration page asks for the school's CEMC school number, which the math or computer science teacher has, and the teacher then authenticates the student. The school's password is never needed."}},{"@type":"Question","name":"How many CCC past problems are there?","acceptedAnswer":{"@type":"Answer","text":"Each level has five problems a year. With the archive's filter covering 2016 to 2026, our count is up to 55 Junior and 55 Senior problems. Ten well-understood problems are worth more than fifty skimmed."}},{"@type":"Question","name":"Which CCC Junior problems should a beginner start with?","acceptedAnswer":{"@type":"Answer","text":"Problem 1 from several recent years, then problem 2. Doing the same question number across years builds reliability before a student faces full papers."}},{"@type":"Question","name":"Why does my program pass at home but fail on the grader?","acceptedAnswer":{"@type":"Answer","text":"Most often the output is not exactly what the problem asks for, such as an input prompt or an extra word. Next most common are the wrong Python version in the menu, or input read in a different way from the grader's."}},{"@type":"Question","name":"Can students use AI tools while practising?","acceptedAnswer":{"@type":"Answer","text":"We advise against it, because the CCC rules forbid generative AI and web search during the contest, and practice should match the real conditions. Outside the contest, ChatGPT also needs a parent's permission for anyone under 18."}},{"@type":"Question","name":"Do you copy CCC problems into your course?","acceptedAnswer":{"@type":"Answer","text":"No. CEMC licenses its materials for non-commercial use, so we open CEMC's problems from its own site in class and write our own problems for anything we publish."}},{"@type":"Question","name":"When are your CCC practice classes for Canadian families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The time is set in Eastern time and given to you in your province's time."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ccc-past-problems-practice-guide","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-cppp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#archive">The archive</a></li>
+      <li><a href="#grader">The grader</a></li>
+      <li><a href="#method">Method</a></li>
+      <li><a href="#checker">Local checker</a></li>
+      <li><a href="#order">Order of work</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / CCC past problems practice
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Canadian Computing Competition &middot; Past papers</p>
+        <h1>How to practise with CCC past papers</h1>
+        <p class="ag-lede">Every CCC writer is told to "do past papers", and most do them badly: a quick read, a peek at the solution, and on to the next. The Centre for Education in Mathematics and Computing (CEMC) gives Canadian students an unusually good archive, free, and the same online grader the real contest uses. This guide shows where the past papers live, how the CCC Online Grader judges a submission, the pitfalls its own instructions warn about, a six-step method that makes one past problem worth an evening, and a small checker we wrote so students can test their programs exactly the way a grader does. We never reproduce CEMC's problems here; we point to them.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#method" class="ag-btn ag-btn--ghost">See the six-step method</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20is%20practising%20CCC%20past%20papers.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cppp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; we link to CEMC's papers and never copy them</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Archive</dt><dd>CEMC past contests, free</dd>
+          <dt>Years</dt><dd>Filter runs 2016 to 2026</dd>
+          <dt>Practice system</dt><dd>CCC Online Grader</dd>
+          <dt>Account needs</dt><dd>The school's CEMC number</dd>
+          <dt>Problems per paper</dt><dd>5, Junior or Senior</dd>
+          <dt>2027 contest</dt><dd>17 February 2027</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>CCC past papers, with solutions and results, are free on CEMC's past contests page, and the CCC Online Grader lets students submit old problems and get the real verdicts. They pay off when used slowly: attempt, test, compare, re-solve. Modern Age Coders runs this practice live online, batch or one to one, in its CCC Junior and Senior Preparation course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Prepare with a teacher</p>
+      <h2>Three courses built on past-paper practice</h2>
+      <p class="ag-lede">Past papers are free; what a teacher adds is the review afterwards. These are the courses where that happens.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ccc-junior-and-senior-preparation-course">
+        <div class="ag-pick-shot"><img src="/images/ccc-junior-senior-prep.webp" alt="CCC Junior and Senior Preparation (Canadian Computing Competition) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPP / 01</p>
+          <h3>CCC Junior and Senior Preparation</h3>
+          <p>Past papers worked weekly with a teacher, then timed three-hour sittings from January 2027.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPP / 02</p>
+          <h3>Competitive programming for teens</h3>
+          <p>For students who have exhausted the easy past problems and need the algorithms for the hard ones.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CPP / 03</p>
+          <h3>Python for teens</h3>
+          <p>For a student whose past-paper attempts stall on the language, not the problem.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="archive">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where the papers are</p><h2>Where CEMC keeps CCC past papers, solutions and results</h2><p class="ag-lede">Two CEMC systems hold the past CCC material, and they do different jobs. One is a library to read; the other is a judge to submit to. Every description below is from CEMC's own pages, read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The CCC practice material CEMC publishes (read 22 October 2026)</caption><thead><tr><th scope="col">Where</th><th scope="col">What CEMC says it holds</th><th scope="col">Use it for</th></tr></thead><tbody><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">Past contests, solutions and results</a></td><td>"Problems, solutions and results from previous years can be found in the table below." The text says "resources from the last 10 years"; the year filter lists 2016 to 2026.</td><td>Reading problems, official solutions and results booklets</td></tr><tr><td><a class="ag-inline-link" href="https://cccgrader.com/" rel="noopener" target="_blank">CCC Online Grader</a></td><td>"It also provides access to practice problems and previous contests." CEMC calls it the place "where participants can create a free practice account and access previous contests".</td><td>Submitting your own program and getting real verdicts</td></tr><tr><td><a class="ag-inline-link" href="https://cccgrader.com/sample_soln.pdf" rel="noopener" target="_blank">Sample programs document</a></td><td>CEMC's example programs "illustrating input and output", one per language, with each compiler version</td><td>Checking how input should be read in your language</td></tr><tr><td>Practice Contest on the grader</td><td>CEMC: "We strongly recommend that every participant attempt the Practice Contest."</td><td>One rehearsal of the contest system before February 2027</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What CEMC intends the archive for</h3><p>CEMC states the purpose plainly: "These resources can be used by students to review and attempt past contests to gain a better understanding of the contest format and level of difficulty." It describes the archive as free, and its ordering terms add that "Resources are available on the CEMC website at no cost."</p>
+<p>Notice the order in that sentence: attempt, then understand. The archive is built to be tried, not just read.</p></div><div><h3>Why we never copy the problems</h3><p>CEMC's terms say its materials are licensed under a Creative Commons Attribution-NonCommercial 4.0 International licence. We teach for a fee, so we treat CEMC's problems as theirs: we link to them, we discuss them in class with the original open on screen, and we write our own problems for anything we publish.</p>
+<p>For families this has a useful side effect. A student who practises from CEMC's own archive is reading the real wording, formatting and constraints, not someone's retelling of them.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">CEMC past contests</a>, <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/ccc" rel="noopener" target="_blank">CEMC CCC page</a>, <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/online-ordering-terms-and-conditions" rel="noopener" target="_blank">CEMC terms and conditions</a> and the CCC Online Grader home page, read 22 October 2026. We are not connected with CEMC or the University of Waterloo.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="account">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Getting in</p><h2>Setting up a CCC Online Grader account for practice</h2><p class="ag-lede">The grader account a student practises with is the same one used on contest day, so it is worth setting up early in the school year. The steps follow the grader's registration page and its instructions document.</p></div>
+    <ol class="ag-steps"><li><b>Get the school number from a teacher.</b> The registration page says: "You will need your school's CEMC "school number", which is what was used to register your school for the CCC: your math or computer science teacher will have that number." CEMC's CCC page tells teachers to hand students the school number but never the school's password, which a student does not need.</li><li><b>Register on the grader.</b> Fill in name, date of birth, the school number, email and a password on cccgrader.com/register.php.</li><li><b>Wait for the teacher.</b> "After this, your teacher will need to authenticate you as a student." The teacher approves the account from the grader's teachers' page.</li><li><b>Watch for the email.</b> The instructions say the student then receives a message that the account in the CCC Contest System has been created, with the username.</li><li><b>Log in and enter a past contest.</b> From the main page, "Enter" a contest, choose a "Problem", choose a "Language", upload the file with "Browse" and press "Submit".</li><li><b>Read the submission page.</b> It shows the score and the result of each test case as the program runs; refreshing updates it.</li></ol>
+    <p class="ag-mt-40">A student whose school does not take part in the CCC has no school number to register with. The grader's instructions also mention that each school has its own "school account" that teachers can use to submit solutions, so a teacher who supports a student's practice can try problems that way. For how entry to the contest itself works, CEMC's rules on the <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">How contests work</a> page apply.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="grader">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The verdicts</p><h2>How the grader judges a submission, verdict by verdict</h2><p class="ag-lede">Every past problem submitted to the grader comes back with one of six verdicts per test. Learning to read them is half of what past-paper practice is for. The verdict names and their examples are quoted from the grader's instructions; the right-hand column is our advice.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CCC Grader verdicts, from the grader's instructions document (read 22 October 2026), with our advice</caption><thead><tr><th scope="col">Verdict</th><th scope="col">The grader's example</th><th scope="col">What to do next (ours)</th></tr></thead><tbody><tr><td>correct</td><td>"your output matches the expected output exactly"</td><td>Move on, or try the problem again a week later from a blank file</td></tr><tr><td>wrong answer</td><td>"your program gave incorrect output"</td><td>Re-read the output section; then test the smallest and largest inputs by hand</td></tr><tr><td>time-limit exceeded</td><td>"your program took too long to find an answer"</td><td>Estimate the steps for the largest input; the method, not the code, usually needs to change</td></tr><tr><td>run-time error</td><td>"segmentation fault in your program"</td><td>Look for an index past the end of a list, a division by zero, or recursion that runs too deep</td></tr><tr><td>compilation error</td><td>"your program did not compile"</td><td>Check the language chosen in the menu, and for Java the class name</td></tr><tr><td>skipped test</td><td>"within one test batch, you have failed one of the tests, and thus the remainder of the tests within that batch have been skipped"</td><td>Fix the first failure in the batch; the skipped tests say nothing yet</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Feedback on the samples is guaranteed</h3><p>The CCC rules say "Feedback is always provided for the sample test cases." A program that fails the sample on the grader but passed it at home is almost always reading input differently from the way the grader supplies it.</p>
+<p>The rules also fix the shape of input and output: standard input and standard output only, and "Submitted programs must not read or write to files."</p></div><div><h3>Why exact matters</h3><p>The grader compares output with the expected answer exactly. That one fact explains most of the wrong answers we see from students who are sure their logic is right: an extra word, a missing line, a label in front of the number.</p>
+<p>The checker in a later section is built to be just as strict, so those mistakes surface at home, before the grader sees them.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="pitfalls">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Pitfalls</p><h2>The pitfalls the grader's own instructions warn about</h2><p class="ag-lede">The grader's instructions end with a short list headed "How to avoid common pitfalls". Each one is a mark lost by someone. The quotes are the instructions' own words; the fixes are ours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common pitfalls, quoted from the CCC Grader instructions (read 22 October 2026), with our fixes</caption><thead><tr><th scope="col">The instructions say</th><th scope="col">Our fix</th></tr></thead><tbody><tr><td>Filenames should contain "only alphanumeric, underscore" or dash characters</td><td>Name files like j3.py or s2_v2.cpp; no spaces, no accents</td></tr><tr><td>"Python 2 programs and Python 3 programs are not interchangeable."</td><td>Always pick Python 3 in the menu unless you truly wrote Python 2</td></tr><tr><td>Java programs must be in a file called Main.java, with public class Main</td><td>Start every Java practice file from that line</td></tr><tr><td>"Use at most one such input object to read from System.in."</td><td>One Scanner or one BufferedReader per Java program, created once</td></tr><tr><td>To get a perfect score, "fast input" is sometimes required</td><td>In C++, scanf or a faster cin setup; in Python, read sys.stdin.buffer once</td></tr><tr><td>Python's recursion depth can be raised with "sys.setrecursionlimit(limit)"</td><td>Raise it at the top of any recursive Python solution, or rewrite the recursion as a loop</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The instructions add a warning about live contests that is worth practising for: "the system will generate an automatic logout after approximately 10 minutes of inactivity." The timer keeps running, and the student can log in again and carry on while time remains. In a mock paper at home, a student who thinks for long stretches should expect to log in again, and not be thrown by it.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="method">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Method</p><h2>A six-step method for one past problem</h2><p class="ag-lede">This is the method our teachers use for every past CCC problem a student attempts. It is ours, and it is slow on purpose: one problem done this way teaches more than five read through.</p></div>
+    <ol class="ag-steps"><li><b>Read it twice, then restate it.</b> Open the problem from CEMC's archive. After two readings, write the input, the output and the rule in three plain sentences of your own.</li><li><b>Do the sample by hand.</b> Work the sample input on paper until you get the sample output. If you cannot, the statement is not yet understood, and no code will help.</li><li><b>Write the simplest correct program.</b> Ignore speed. Make it right for small inputs, and check it on the sample with the local checker in the next section.</li><li><b>Make your own tests.</b> Add at least two: a tiny input and an awkward one, such as all values equal or a single item. Predict the output before running.</li><li><b>Submit, and read the verdicts.</b> On the grader, note which tests pass. A time-limit verdict on the later tests means step 3 was right but too slow; now think about a faster method.</li><li><b>Only then, read CEMC's solution.</b> We ask for at least twenty-five minutes of honest effort first. Afterwards, close it and re-solve the problem from a blank file a week later.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why step 6 waits</h3><p>A solution read too early feels like understanding and fades within days. A solution read after a real struggle answers a question the student has already asked, and it stays.</p>
+<p>The re-solve a week later is the real test. If the student can write it again without looking, the idea has moved from CEMC's page into the student's head.</p></div><div><h3>What to keep in a notebook</h3><p>For every past problem: the year and number, the verdicts on each submission, the cause of each failure in one line, and the key idea of the solution in one sentence.</p>
+<p>By February 2027, that notebook is a personal list of the mistakes most likely to cost marks on contest day, which is worth more than any list of tips.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="checker">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A tool of ours</p><h2>A local checker that judges like a grader</h2><p class="ag-lede">Students test at home by eye, and eyes forgive small differences. A grader does not. We wrote this short Python program for our students: it runs a solution on every test file in a folder and compares the output exactly, reporting verdicts in the grader's own words. It is ours, not CEMC's.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>judge.py &middot; our local checker (Python)</b><span>python</span></figcaption><pre># Our local checker: runs a program on every .in file in a folder and
+# compares its output with the matching .out file, exactly, like a grader.
+# Usage: python judge.py tests python cold_days.py
+import subprocess
+import sys
+import time
+from pathlib import Path
+
+LIMIT = 3.0  # seconds per test, the CCC default
+
+def verdict(cmd, test_in, test_out):
+    start = time.time()
+    try:
+        run = subprocess.run(cmd, stdin=open(test_in), capture_output=True,
+                             text=True, timeout=LIMIT)
+    except subprocess.TimeoutExpired:
+        return "time-limit exceeded"
+    if run.returncode != 0:
+        return "run-time error"
+    got = run.stdout.rstrip("\n").split("\n")
+    want = test_out.read_text().rstrip("\n").split("\n")
+    if got != want:  # strict on purpose: even a trailing space fails
+        return "wrong answer"
+    return "correct (%.2f s)" % (time.time() - start)
+
+folder, cmd = Path(sys.argv[1]), sys.argv[2:]
+for test_in in sorted(folder.glob("*.in")):
+    print(test_in.name, verdict(cmd, test_in, test_in.with_suffix(".out")))</pre><p class="ag-code-note">Put each test in a folder as a pair of files, 01.in with the input and 01.out with the expected output. The checker gives each test three seconds, the CCC's default, and treats any difference, even a trailing space, as a wrong answer.</p></figure>
+    <p class="ag-mt-40"><b>Our practice problem: Cold Days.</b> Given N daily temperatures in degrees Celsius, print how many of them are below zero. <b>Input:</b> N on the first line, then N whole numbers on one line. <b>Output:</b> one integer. It is deliberately easy, because the point here is the checking, not the problem.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>One test pair for Cold Days</b><span>text</span></figcaption><pre>tests/01.in
+5
+-3 2 0 -11 4
+
+tests/01.out
+2</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>cold_days.py &middot; our solution</b><span>python</span></figcaption><pre># Our practice problem: Cold Days (not a CEMC problem)
+n = int(input())
+temps = list(map(int, input().split()))
+print(sum(1 for t in temps if t &lt; 0))</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>cold_days_prompt.py &middot; the same logic with a friendly prompt</b><span>python</span></figcaption><pre># The same program with a friendly prompt: the grader marks it wrong
+n = int(input("How many days? "))
+temps = list(map(int, input().split()))
+print(sum(1 for t in temps if t &lt; 0))</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What our checker printed on 22 October 2026</b><span>text</span></figcaption><pre>$ python judge.py tests python cold_days.py
+01.in correct (0.03 s)
+02.in correct (0.03 s)
+03.in correct (0.03 s)
+
+$ python judge.py tests python cold_days_prompt.py
+01.in wrong answer
+02.in wrong answer
+03.in wrong answer</pre><p class="ag-code-note">Both programs count correctly. The second fails every test because the words "How many days? " are printed to standard output in front of the answer. The CCC rules forbid exactly this: output must match the problem's format, with no prompts. Times will differ on your computer.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How to use it with a past problem</h3><p>Copy the sample input and output from the CEMC problem into 01.in and 01.out. Add your own tests from step 4 of the method as 02, 03 and so on. Run the checker after every change.</p>
+<p>When everything says correct at home, submit to the grader. If the grader disagrees, you have learnt something specific about the hidden tests, which is the most useful thing a wrong answer can teach.</p></div><div><h3>What it does not do</h3><p>It does not know CEMC's hidden tests, measure memory, or reproduce the grader's exact speed. A program that is fast here may still time out on the grader's largest inputs.</p>
+<p>It is a habit-builder: run, compare exactly, read the verdict. Students who use it stop losing marks to output formatting within a few weeks.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="order">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Order of work</p><h2>Which past problems to do, and in what order</h2><p class="ag-lede">With a full paper of five problems for each level in each year, the archive is large: our arithmetic gives up to 55 Junior and 55 Senior problems across the eleven years in the filter (11 x 5). Nobody needs all of them. This order is ours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Working through the CCC archive (our plan)</caption><thead><tr><th scope="col">Phase</th><th scope="col">Which problems</th><th scope="col">How many</th><th scope="col">Goal</th></tr></thead><tbody><tr><td>1. Across the years</td><td>Problem 1 from several recent Junior papers, then problem 2</td><td>About 10</td><td>Fluent input and output; every one correct on the first or second submission</td></tr><tr><td>2. Middle of the paper</td><td>Junior problems 3 and 4 from recent years</td><td>About 10</td><td>Counting, simulation and strings with careful reading</td></tr><tr><td>3. The top of Junior</td><td>Junior problem 5, subtasks first</td><td>About 5</td><td>Taking partial marks with a simple method</td></tr><tr><td>4. Senior entry</td><td>Senior problems 1 and 2</td><td>About 10</td><td>Sorting, searching and efficient methods</td></tr><tr><td>5. Full papers</td><td>Two or three whole papers at the chosen level, timed</td><td>2 to 3 papers</td><td>Three hours of decisions, from January 2027</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Across first, then down</h3><p>Doing the same question number across several years first lets a student meet one level of difficulty many times. Once problem 1 is reliably correct, problem 2, and so on. Whole papers come last, when the student can already handle each part.</p>
+<p>Keep the two most recent years untouched until the end. They are the closest match to the next contest, and are worth saving for timed practice.</p></div><div><h3>Honesty in practice</h3><p>The contest bans outside help, and practice should copy that. The rules spell it out: "All other Internet use is forbidden. This includes email, chat, web search, code forums, and generative AI".</p>
+<p>We ask students to practise with only the official language documentation open. A problem solved with a search engine open has not been solved by the student.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student starts</p>
+      <h2>Four stages of past-paper practice</h2>
+      <p class="ag-lede">How our teachers see a student's practice change over a season. The stages are ours.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From reading past papers to learning from them (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Reading</td><td class="ag-num">Reads problems and solutions; submits rarely</td></tr><tr><td>2. Submitting</td><td class="ag-num">Submits often, but fixes by trial and error</td></tr><tr><td>3. Testing</td><td class="ag-num">Tests locally with own cases before each submission</td></tr><tr><td>4. Re-solving</td><td class="ag-num">Re-solves old problems from memory and keeps a mistakes notebook</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Count submissions, not problems read. A week with three problems submitted and understood beats a week with ten skimmed.</p>
+<p>Ask to see the mistakes notebook. Its length is a good sign, not a bad one.</p></div><div><h3>For students</h3><p>Never open a solution before you have something to compare it with.</p>
+<p>When the grader says wrong answer, believe it. Look for the case you did not test.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for students using the CCC archive</h2>
+      <p class="ag-lede">Taught live online by one regular teacher, as a batch or one to one, wherever in Canada the student lives.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Language first</h3>
+        <span class="ag-band-sub">Before the archive</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / LANG / 01</p>
+          <h4>Python and AI for kids</h4>
+          <p>For Grades 5 to 8, before Junior.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / LANG / 02</p>
+          <h4>Java for teens</h4>
+          <p>For schools that teach Java.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / LANG / 03</p>
+          <h4>C++ for teens</h4>
+          <p>For Senior and the CCO.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Contest practice</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / PRAC / 01</p>
+          <h4>Problem solving for teens</h4>
+          <p>Methods for the middle problems.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / PRAC / 02</p>
+          <h4>High school math</h4>
+          <p>For counting and reasoning questions.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / PRAC / 03</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java with exam discipline.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Further</h3>
+        <span class="ag-band-sub">University level</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / FUR / 01</p>
+          <h4>Competitive programming, advanced</h4>
+          <p>Beyond school contests.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / FUR / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>For ages 18 and up.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CPP / FUR / 03</p>
+          <h4>Python masterclass</h4>
+          <p>Deeper Python, ages 18 and up.</p>
+          <a class="ag-course-link" href="/courses/python-programming-masterclass-zero-to-advanced-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live past-paper sessions on a Canadian timetable</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Short after-school sessions for one problem at a time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings for full timed papers.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">A review of the student's own submissions, line by line.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>CEMC's archive</h3><p>Original problems opened from CEMC, never copied.</p></div>
+      <div><h3>Exact testing</h3><p>Every solution checked the way the grader checks it.</p></div>
+      <div><h3>Verdict reading</h3><p>Each failed test turned into a lesson.</p></div>
+      <div><h3>Re-solves</h3><p>Old problems revisited from a blank file.</p></div>
+      <div><h3>Every province</h3><p>Students join from coast to coast.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty in a batch, or one student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Our students' projects</h2>
+      <p class="ag-lede">Between contest problems, our students build things. A selection follows; there are more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">CEMC's past papers are free, and stay free in our classes. What we charge is a monthly fee for live teaching and review, with no contract, so a family can stop whenever the season ends.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One past problem worked with the six-step method</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students in a batch</li><li>The same teacher every week</li><li>A batch time that works for you</li><li>Paid each month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One student, one teacher</li><li>Your own submissions reviewed</li><li>Paced to 17 February 2027</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews parents left on Google, unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Canadian families</p>
+      <h2>CCC past problems: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Where can I find Canadian Computing Competition past papers?</h3>
+        <p>On CEMC's past contests, solutions and results page, which is free. Its year filter runs from 2016 to 2026. Past problems can also be opened and submitted on the CCC Online Grader.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are CCC solutions available?</h3>
+        <p>Yes. CEMC publishes solutions alongside past problems and results in its archive. We suggest reading a solution only after at least twenty-five minutes of real effort, then re-solving the problem a week later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child submit past CCC problems for grading?</h3>
+        <p>Yes. The CCC Online Grader offers previous contests and practice problems, and gives the same verdicts as on contest day: correct, wrong answer, time-limit exceeded, run-time error, compilation error, or a skipped test.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does a student need a school number for a CCC Grader account?</h3>
+        <p>Yes. The grader's registration page asks for the school's CEMC school number, which the math or computer science teacher has, and the teacher then authenticates the student. The school's password is never needed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many CCC past problems are there?</h3>
+        <p>Each level has five problems a year. With the archive's filter covering 2016 to 2026, our count is up to 55 Junior and 55 Senior problems. Ten well-understood problems are worth more than fifty skimmed.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which CCC Junior problems should a beginner start with?</h3>
+        <p>Problem 1 from several recent years, then problem 2. Doing the same question number across years builds reliability before a student faces full papers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does my program pass at home but fail on the grader?</h3>
+        <p>Most often the output is not exactly what the problem asks for, such as an input prompt or an extra word. Next most common are the wrong Python version in the menu, or input read in a different way from the grader's.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can students use AI tools while practising?</h3>
+        <p>We advise against it, because the CCC rules forbid generative AI and web search during the contest, and practice should match the real conditions. Outside the contest, ChatGPT also needs a parent's permission for anyone under 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you copy CCC problems into your course?</h3>
+        <p>No. CEMC licenses its materials for non-commercial use, so we open CEMC's problems from its own site in class and write our own problems for anything we publish.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your CCC practice classes for Canadian families?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The time is set in Eastern time and given to you in your province's time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian students working through past contest problems.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>Our CCC coaching, Junior and Senior.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>The 2027 Junior paper, with original problems.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>All our pages for families in Canada.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>What to do after a wrong-answer verdict.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-read-code">How to read code</a></h3><p>Reading an official solution properly.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-indentation-error-explained">Python indentation errors</a></h3><p>A common first run-time surprise.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Bring a past CCC problem your child got stuck on, or let us choose one. The teacher works through the six-step method with the student live, and you see exactly how a past paper should be used.</p>
+        <p class="ag-mt-40">Prefer to read first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> shows a class in full, and the <a class="ag-inline-link" href="/courses">course list</a> holds the syllabi.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20is%20practising%20CCC%20past%20papers.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cppp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons happen over live video with teachers based in India; there is no centre to visit in Canada. WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cppp(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class costs nothing, and no card is asked for.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/ioi-olympiad-informatics-training">IOI training</a></li><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Attempt, test, compare, re-solve</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cppp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'ccc-past-problems-practice-guide-inline', meta: { name: name, age: age, page: 'ccc-past-problems-practice-guide' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

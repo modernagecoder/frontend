@@ -25545,6 +25545,18 @@
   to = "/src/pages/ccc-senior-guide.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ccc-past-problems-practice-guide"
+  to = "/src/pages/ccc-past-problems-practice-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/ccc-past-problems-practice-guide.md"
+  to = "/src/pages/ccc-past-problems-practice-guide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
