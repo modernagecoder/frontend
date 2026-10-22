@@ -224,7 +224,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 56 | usaco-for-canadian-students (uc, #4B6622) | contest | 4,511 | 1.8% vs ccc-junior-guide | contest comparison | USACO vs CCC | 70e174e5 |
 | 57 | waterloo-computer-science-admission-requirements (wcsa, #17610F) | admit | 6,560 | 1.1% vs mhf4u-advanced-functions-tutor | admissions facts | course averages | 6ae4d834 |
 | 58 | waterloo-aif-guide (wag, #25703E) | admit | 5,933 | 0.8% vs ics4u-computer-science-help | form guide | activity records | 23a3d363 |
-| 59 | uoft-computer-science-admission-requirements (ucsa, #1D5751) | admit | 4,903 | 1.1% vs canada-high-school-math-courses-compared | admissions facts | prerequisite sets | (this commit) |
+| 59 | uoft-computer-science-admission-requirements (ucsa, #1D5751) | admit | 4,903 | 1.1% vs canada-high-school-math-courses-compared | admissions facts | prerequisite sets | 97c625f5 |
+| 61 | computer-science-prerequisites-canadian-universities (cspc, #0C2152) | admit | 5,467 | 0.9% vs waterloo-computer-science-admission-requirements | admissions table | course planning | (this commit) |
 
 ## Skipped
 
