@@ -543,6 +543,7 @@ const SLUGS = [
   'alberta-math-30-1-diploma-exam-prep',
   'math-30-1-vs-math-30-2',
   'alberta-grade-9-math-pat-practice',
+  'alberta-new-math-curriculum-explained',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1165,6 +1166,7 @@ const LLMS_LABELS = {
   'alberta-math-30-1-diploma-exam-prep': 'Alberta Math 30-1 diploma exam prep',
   'math-30-1-vs-math-30-2': 'Math 30-1 vs Math 30-2',
   'alberta-grade-9-math-pat-practice': 'Alberta Grade 9 math PAT practice',
+  'alberta-new-math-curriculum-explained': 'Alberta new math curriculum explained',
 };
 
 function wireLlms(slugs) {
