@@ -524,6 +524,7 @@ const SLUGS = [
   'waterloo-aif-guide',
   'uoft-computer-science-admission-requirements',
   'computer-science-prerequisites-canadian-universities',
+  'ubc-computer-science-admission-requirements',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1127,6 +1128,7 @@ const LLMS_LABELS = {
   'waterloo-aif-guide': 'Waterloo AIF guide',
   'uoft-computer-science-admission-requirements': 'U of T computer science admission requirements',
   'computer-science-prerequisites-canadian-universities': 'Computer science prerequisites at Canadian universities',
+  'ubc-computer-science-admission-requirements': 'UBC computer science admission requirements',
 };
 
 function wireLlms(slugs) {

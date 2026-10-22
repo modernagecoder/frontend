@@ -25641,6 +25641,18 @@
   to = "/src/pages/computer-science-prerequisites-canadian-universities.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ubc-computer-science-admission-requirements"
+  to = "/src/pages/ubc-computer-science-admission-requirements.html"
+  status = 200
+
+[[redirects]]
+  from = "/ubc-computer-science-admission-requirements.md"
+  to = "/src/pages/ubc-computer-science-admission-requirements.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
