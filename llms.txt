@@ -767,6 +767,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - COMC guide: https://learn.modernagecoders.com/comc-canada-open-mathematics-challenge-guide
 - Canadian Math Olympiad path: https://learn.modernagecoders.com/canadian-math-olympiad-cmo-path
 - Math Kangaroo Canada: https://learn.modernagecoders.com/math-kangaroo-canada-preparation
+- Choosing a coding class: https://learn.modernagecoders.com/best-online-coding-classes-in-canada
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
