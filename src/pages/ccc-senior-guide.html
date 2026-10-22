@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCC Senior 2027 Guide: Graphs, DP and Efficient Code</title>
+  <meta name="description" content="CCC Senior 2027 from CEMC's own page: what S1 to S5 test, how efficiency earns subtask marks, and three original problems solved in C++ and Python.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ccc-senior-guide">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ccc-senior-guide.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#187054">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ccc-senior-guide">
+  <meta property="og:title" content="CCC Senior 2027 Guide: Graphs, DP and Efficient Code">
+  <meta property="og:description" content="The Senior level of the 2027 Canadian Computing Competition: CEMC's question bands, the 2026 Senior numbers, the grader's limits, and three Senior-style problems we wrote, solved in C++ and Python.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CCC Senior 2027 Guide: Graphs, DP and Efficient Code">
+  <meta name="twitter:description" content="CCC Senior 2027: question bands, efficiency, and three original problems with C++ and Python solutions.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-csg .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-csg .ag-capsule { border-left-width: 3px; border-radius: 3px; }
+.ag-root.ag-csg .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-csg .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-csg .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-csg .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ccc-senior-guide#page","url":"https://learn.modernagecoders.com/ccc-senior-guide","name":"CCC Senior Guide","description":"A guide for Canadian students to the Senior level of the Canadian Computing Competition, built from CEMC's 2027 contest page and the CCC grader documents, with original algorithm problems and solutions in two languages.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CCC Senior guide","item":"https://learn.modernagecoders.com/ccc-senior-guide"}]},{"@type":"Course","name":"CCC Senior Guide","description":"Live online preparation for the Senior level of the Canadian Computing Competition, covering graphs, dynamic programming and efficient code, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ccc-senior-guide"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ccc-senior-guide"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ccc-senior-guide"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is CCC Senior?","acceptedAnswer":{"@type":"Answer","text":"It is the Senior level of the Canadian Computing Competition, run by CEMC at the University of Waterloo, for participants with intermediate to advanced programming skills. Students solve five algorithm problems online, at school, in three hours."}},{"@type":"Question","name":"When is CCC Senior in 2027?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists the 2027 CCC, Junior and Senior, for Wednesday 17 February 2027 in North and South America and Thursday 18 February 2027 elsewhere. Schools order it by Thursday 11 February 2027."}},{"@type":"Question","name":"What topics come up in CCC Senior?","acceptedAnswer":{"@type":"Answer","text":"CEMC describes S1 and S2 as basic algorithms such as sorting and searching, S3 and S4 as more advanced algorithms with careful counting and mathematical reasoning, and S5 as an IOI level question. In practice that means graphs, dynamic programming and efficient code."}},{"@type":"Question","name":"What score earned a Certificate of Distinction on CCC Senior in 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists a 2026 Senior cutoff of 26 out of 75, with an average of 15.56 and 2439 contestants. The cutoff marks the top 25 percent of competitors, so it changes each year."}},{"@type":"Question","name":"Should a Senior writer use Python or C++?","acceptedAnswer":{"@type":"Answer","text":"Both are allowed. CEMC warns that a perfect score may not always be possible in Python or Java, and the CCO requires C++. We let students write Senior in Python if it is their strong language, and move CCO hopefuls to C++."}},{"@type":"Question","name":"Can a Grade 9 student write CCC Senior?","acceptedAnswer":{"@type":"Answer","text":"Yes. CEMC lets each participant choose Junior or Senior regardless of grade. The question is skill: whether the student can finish the first two Senior problems from past papers in good time."}},{"@type":"Question","name":"How does CCC Senior lead to the CCO?","acceptedAnswer":{"@type":"Answer","text":"CEMC invites about 20 of the top official CCC Senior participants from schools in Canada to the Canadian Computing Olympiad each spring, at its discretion. The CCO is also used to choose Canada's IOI team."}},{"@type":"Question","name":"Can students use templates or AI during the CCC?","acceptedAnswer":{"@type":"Answer","text":"No. The CCC rules forbid other source or starter code during the contest and forbid generative AI, including tools inside an editor. Outside the contest, ChatGPT needs a parent's permission for anyone under 18."}},{"@type":"Question","name":"Where are CCC Senior past problems?","acceptedAnswer":{"@type":"Answer","text":"CEMC publishes past CCC papers, solutions and results free on its past contests page, and the CCC Online Grader offers a free practice account with previous contests. Our own practice problems are written by our teachers."}},{"@type":"Question","name":"When are your CCC Senior classes for Canadian families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We fix the time in Eastern time and convert it for your province."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ccc-senior-guide","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-csg">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#senior">Senior 2027</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#budget">Efficiency</a></li>
+      <li><a href="#problems">Three problems</a></li>
+      <li><a href="#season">Season plan</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / CCC Senior guide
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Canadian Computing Competition &middot; Senior level</p>
+        <h1>CCC Senior guide for 2027</h1>
+        <p class="ag-lede">At Senior level, the Canadian Computing Competition stops asking whether a student can program and starts asking whether the program is fast enough. The five problems climb from sorting and searching to what CEMC calls an "IOI level question", and later problems hold back marks for solutions that only an efficient algorithm can earn inside the grader's time limit. This guide works from CEMC's 2027 contest page and the CCC Online Grader documents. It sets out what each band of questions asks for, how to read input limits as a hint about the intended algorithm, and three Senior-style problems we wrote, each solved in both C++ and Python and tested against a brute-force checker.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#problems" class="ag-btn ag-btn--ghost">Go to the three problems</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20is%20preparing%20for%20CCC%20Senior.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'csg'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; problems and solutions on this page are our own, tested before publishing</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>CEMC, University of Waterloo</dd>
+          <dt>Senior 2027</dt><dd>Wednesday 17 February 2027</dd>
+          <dt>Problems</dt><dd>S1 to S5, 15 marks each</dd>
+          <dt>Hardest band</dt><dd>S5, at IOI level</dd>
+          <dt>Limits</dt><dd>3 s and 512 MB per test</dd>
+          <dt>Next step</dt><dd>About 20 invited to the CCO</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>CCC Senior is the harder Canadian Computing Competition paper from Waterloo's CEMC: five algorithm problems in three hours on 17 February 2027, from sorting up to IOI level, for fluent coders ready for graphs and dynamic programming. Modern Age Coders teaches it live online, one to one or in a batch, in its CCC Junior and Senior Preparation course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Prepare with a teacher</p>
+      <h2>Three courses for a CCC Senior writer</h2>
+      <p class="ag-lede">The first is the CCC course itself, with a Senior track. The second deepens the algorithms; the third is for students switching to the language the CCO requires.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ccc-junior-and-senior-preparation-course">
+        <div class="ag-pick-shot"><img src="/images/ccc-junior-senior-prep.webp" alt="CCC Junior and Senior Preparation (Canadian Computing Competition) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSG / 01</p>
+          <h3>CCC Junior and Senior Preparation</h3>
+          <p>Its Senior track: graphs, dynamic programming and timed Senior papers, paced to the 17 February 2027 contest.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/competitive-programming-for-teens-course">
+        <div class="ag-pick-shot"><img src="/images/competitive-programming-teens.webp" alt="Competitive Programming for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSG / 02</p>
+          <h3>Competitive programming for teens</h3>
+          <p>For teenagers ready for contest algorithms. The toolkit behind S3 to S5: shortest paths, DP, data structures, complexity.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/cpp-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/cpp-teens.webp" alt="C++ for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSG / 03</p>
+          <h3>C++ for teens</h3>
+          <p>From the first line of C++, for teens. Suits a Python writer moving to C++, the only language CEMC allows at the CCO.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="senior">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Senior in 2027</p><h2>What CEMC publishes about the 2027 Senior paper</h2><p class="ag-lede">CEMC runs one CCC with two papers. The format is shared; what changes at Senior is the material. The rows below come from CEMC's CCC page and the grader's sample-programs document, read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CCC Senior 2027, from CEMC (read 22 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What CEMC says</th></tr></thead><tbody><tr><td>Who Senior is for</td><td>"Senior level - any participant with intermediate to advanced programming skills."</td></tr><tr><td>Date</td><td>Wednesday 17 February 2027 in North and South America; Thursday 18 February 2027 elsewhere.</td></tr><tr><td>S1 and S2</td><td>"Basic algorithms" "(e.g. sorting, searching)"</td></tr><tr><td>S3 and S4</td><td>"More advanced algorithms" "(e.g. careful counting, more advanced mathematical reasoning)"</td></tr><tr><td>S5</td><td>"IOI level question"</td></tr><tr><td>Marks</td><td>Five problems at 15 each, so 75 in all, with partial scores by subtask.</td></tr><tr><td>Efficiency subtasks</td><td>For later questions, "a score might be assigned for input that only efficient solutions can solve within the time limits".</td></tr><tr><td>C++ on the grader</td><td>"Compiler Version: GCC 11.4.0", "Compiler options: -O2 -std=c++17 -static"</td></tr><tr><td>Python 3 on the grader</td><td>PyPy3 7.3.9, running Python 3.8.13</td></tr><tr><td>Recognition</td><td>"The names of some top-scoring official participants appear in student honour rolls for the Senior competition."</td></tr><tr><td>Onward</td><td>CEMC invites about 20 of the top official Senior participants from schools in Canada to the Canadian Computing Olympiad each spring.</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/ccc" rel="noopener" target="_blank">CEMC, Canadian Computing Competition</a> and <a class="ag-inline-link" href="https://cccgrader.com/sample_soln.pdf" rel="noopener" target="_blank">CCC sample programs and language details</a>, read 22 October 2026. Modern Age Coders has no connection with CEMC or the University of Waterloo. For the Junior paper, see our <a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a>.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The 2026 Senior numbers, read honestly</h3><p>CEMC's table for 2026 gives the Senior paper an average of 15.56 out of 75, a Certificate of Distinction cutoff of 26, and 2439 contestants. Our reading, labelled as ours: the mean is about 20.7 percent of the paper (15.56 / 75), close to one full problem, and the cutoff is one full problem plus 11 more marks (26 = 15 + 11), about 34.7 percent.</p>
+<p>Those figures say Senior is hard by design. A student who solves S1 completely and collects partial marks on S2 or S3 was in distinction territory in 2026. CEMC sets the cutoff to "the top 25% of all competitors", so it moves with each year's paper.</p></div><div><h3>Who should write Senior</h3><p>CEMC leaves the choice of level to each student, whatever the grade. Our test is practical: if the student can finish the first two Senior problems from recent past papers inside about an hour, Senior is the right paper.</p>
+<p>A student who is close but unsure can open both papers, but the three hours are shared and only the higher score counts, so we settle the level before the day rather than in the room.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="skills">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Skills</p><h2>The skills each band of Senior questions draws on</h2><p class="ag-lede">CEMC describes the bands in a few words each. This map, which is ours, expands those words into the techniques that Senior problems have tended to need, and how we teach each one.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Senior skills by question band (our map of CEMC's outline)</caption><thead><tr><th scope="col">Band</th><th scope="col">Techniques a student should own</th><th scope="col">Typical warning sign in practice</th></tr></thead><tbody><tr><td>S1 and S2</td><td>Sorting with a custom key, binary search, prefix sums, two pointers, simulation with care, sets and maps</td><td>A correct answer that times out on the largest inputs</td></tr><tr><td>S3</td><td>Breadth-first and depth-first search, grids as graphs, greedy choices with a proof, counting with care</td><td>Missing a case such as an empty grid row or a repeated value</td></tr><tr><td>S4</td><td>Weighted shortest paths, dynamic programming on sequences and grids, modular arithmetic, union-find</td><td>An answer that overflows 32-bit integers</td></tr><tr><td>S5</td><td>Harder dynamic programming, data structures such as segment trees, clever reformulations</td><td>Only the first subtask solved, with no idea of the full method</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Graphs are the backbone</h3><p>Many Senior problems are graph problems in disguise: rooms and doors, stations and tracks, cells of a grid. The first skill we teach at Senior level is recognising the graph, naming its nodes and edges, before writing any code.</p>
+<p>Once the graph is named, the method usually follows from the edges: unweighted edges suggest breadth-first search, weighted ones Dijkstra's algorithm, and "is everything connected" questions union-find.</p></div><div><h3>Dynamic programming is the other half</h3><p>The second skill is defining a state: what is the smallest piece of information that, once known, lets the rest of the answer be built? Our third practice problem below is a clean example, where the state is "the cheapest way to cover every day up to day t".</p>
+<p>Students who learn DP as a list of famous problems struggle at S4. Students who learn to write the state in one sentence, then the transition, do not.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="budget">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Efficiency</p><h2>Reading the input limits: how fast does the solution need to be?</h2><p class="ag-lede">Unless a problem says otherwise, the CCC rules give each test three seconds and 512 MB. Problem statements also state the largest input size, and that number is the strongest clue to the intended algorithm. The budget table below is our rule of thumb for C++, not a CEMC rule.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Largest input size and the running time it usually allows (our rule of thumb, C++ with -O2, about 10^8 simple steps a second)</caption><thead><tr><th scope="col">Largest N in the statement</th><th scope="col">Approach that usually fits</th><th scope="col">Example technique</th></tr></thead><tbody><tr><td>Up to about 20</td><td>Exponential, such as 2^N</td><td>Trying every subset</td></tr><tr><td>Up to about 500</td><td>Cubic, N^3</td><td>Three nested loops, Floyd-Warshall</td></tr><tr><td>Up to about 5,000</td><td>Quadratic, N^2</td><td>DP over pairs</td></tr><tr><td>Up to about 200,000</td><td>N log N</td><td>Sorting, heaps, binary search</td></tr><tr><td>Up to about 1,000,000 or more</td><td>Linear, N</td><td>One pass with prefix sums</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Python at Senior level</h3><p>CEMC is candid that a perfect score may not be possible in every language, naming Python and Java as examples, while promising at least one language in which the right algorithms and data structures can reach full marks. In practice, Python Senior writers should expect to lose some marks on the largest tests of S4 and S5.</p>
+<p>The grader runs Python 3 as PyPy3, which helps, but the habits matter more: read all input at once with sys.stdin.buffer, avoid deep recursion, and keep inner loops free of function calls. Write to Python 3.8 syntax, as that is what the grader runs.</p></div><div><h3>C++ at Senior level</h3><p>The grader compiles C++ with GCC 11.4.0 using -O2 and -std=c++17, so modern library features are available. Two lines of setup, ios::sync_with_stdio(false) and cin.tie(nullptr), make input fast enough for large tests.</p>
+<p>The commonest Senior C++ bug we see is overflow: a sum of 200,000 values up to a billion does not fit in an int. Use long long whenever a total might pass about two billion.</p></div></div>
+    <p class="ag-mt-40">How the grader reports a slow program matters too. The CCC rules list five verdicts: correct, compilation error, time-limit exceeded, run-time error and wrong answer. Within a subtask, feedback stops at the first failing test: "Otherwise, feedback is provided for all test cases up to and including the first test case that is not correct." A time-limit verdict on a late test is the grader telling the student the method, not the code, needs to change.</p>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://cccgrader.com/rules.pdf" rel="noopener" target="_blank">CCC rules</a>, linked from CEMC's CCC page, read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="problems">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Three problems</p><h2>Three original Senior-style problems, solved in C++ and Python</h2><p class="ag-lede">We wrote these three for our Senior students. They are our problems, not CEMC's, and none is copied or adapted from a past CCC; CEMC's own past papers are in its free archive. Problem A sits at S1 to S2 level, B at S3 to S4, and C at S3 to S4. Every solution was run on its sample input in both languages and checked against a brute-force solver on 300 random small cases, with no mismatches.</p></div>
+    <p><b>Problem A: Rink Bookings.</b> An arena has N bookings for its one rink. Booking i runs from time s to time e, including s but not e, so a booking that ends at 5 and another that starts at 5 do not overlap. Print the largest number of bookings that are in progress at the same moment. <b>Input:</b> N (1 to 200,000), then N lines each holding s and e (0 &le; s &lt; e &le; 1,000,000,000). <b>Output:</b> one integer.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem A &middot; sample</b><span>text</span></figcaption><pre>Sample input:
+5
+1 4
+2 5
+4 7
+5 6
+3 4
+
+Sample output:
+3</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem A &middot; a correct but slow first attempt (Python)</b><span>python</span></figcaption><pre># Our slow first attempt at Rink Bookings: correct, but O(N x T)
+n = int(input())
+bookings = [tuple(map(int, input().split())) for _ in range(n)]
+peak = 0
+for t in range(min(s for s, e in bookings), max(e for s, e in bookings)):
+    here = sum(1 for s, e in bookings if s &lt;= t &lt; e)
+    peak = max(peak, here)
+print(peak)</pre><p class="ag-code-note">This checks every moment between the earliest start and the latest end, so its work grows with the time span T as well as N. On small inputs it is right, and on a real Senior paper it would collect an early subtask. With times up to a billion, it cannot finish in three seconds.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem A &middot; our efficient solution (Python)</b><span>python</span></figcaption><pre># Our practice problem S-A: Rink Bookings (not a CEMC problem)
+import sys
+
+def main():
+    data = sys.stdin.buffer.read().split()
+    n = int(data[0])
+    events = []
+    for i in range(n):
+        s = int(data[1 + 2 * i])
+        e = int(data[2 + 2 * i])
+        events.append((s, 1))    # a booking starts
+        events.append((e, -1))   # a booking ends
+    # at equal times, -1 sorts before +1: an end at 5 frees the ice
+    # before a start at 5 takes it
+    events.sort()
+    now = peak = 0
+    for _, change in events:
+        now += change
+        if now &gt; peak:
+            peak = now
+    print(peak)
+
+main()</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem A &middot; our efficient solution (C++)</b><span>cpp</span></figcaption><pre>// Our practice problem S-A: Rink Bookings (not a CEMC problem)
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int n;
+    cin &gt;&gt; n;
+    vector&lt;pair&lt;long long, int&gt;&gt; events;
+    events.reserve(2 * n);
+    for (int i = 0; i &lt; n; i++) {
+        long long s, e;
+        cin &gt;&gt; s &gt;&gt; e;
+        events.push_back({s, 1});    // a booking starts
+        events.push_back({e, -1});   // a booking ends
+    }
+    sort(events.begin(), events.end());  // -1 before +1 at equal times
+    int now = 0, peak = 0;
+    for (auto &amp;ev : events) {
+        now += ev.second;
+        peak = max(peak, now);
+    }
+    cout &lt;&lt; peak &lt;&lt; "\n";
+    return 0;
+}</pre><p class="ag-code-note">Turn each booking into two events, sort them, and sweep once: O(N log N). The detail that decides the answer is the tie: sorting puts an end (-1) before a start (+1) at the same time, which matches "including s but not e". Treat the end as inclusive and the sample gives 4, not 3.</p></figure>
+    <p class="ag-mt-40"><b>Problem B: Trail Count.</b> A provincial park has N junctions joined by M two-way trails, each with a length in metres. Print the length of the shortest route from junction 1 to junction N, and the number of different shortest routes, modulo 1,000,000,007. Two routes are different if they use a different sequence of trails. Junction N can always be reached. <b>Input:</b> N and M (2 &le; N &le; 100,000; 1 &le; M &le; 200,000), then M lines a b w (1 &le; w &le; 1,000). <b>Output:</b> the distance and the count, separated by a space.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem B &middot; sample</b><span>text</span></figcaption><pre>Sample input:
+5 6
+1 2 2
+1 3 2
+2 4 3
+3 4 3
+4 5 1
+1 5 7
+
+Sample output:
+6 2</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem B &middot; our solution (Python)</b><span>python</span></figcaption><pre># Our practice problem S-B: Trail Count (not a CEMC problem)
+import sys
+import heapq
+
+MOD = 1000000007
+
+def main():
+    data = sys.stdin.buffer.read().split()
+    n, m = int(data[0]), int(data[1])
+    adj = [[] for _ in range(n + 1)]
+    pos = 2
+    for _ in range(m):
+        a, b, w = int(data[pos]), int(data[pos + 1]), int(data[pos + 2])
+        pos += 3
+        adj[a].append((b, w))
+        adj[b].append((a, w))
+    INF = float("inf")
+    dist = [INF] * (n + 1)
+    ways = [0] * (n + 1)
+    dist[1] = 0
+    ways[1] = 1
+    heap = [(0, 1)]
+    while heap:
+        d, u = heapq.heappop(heap)
+        if d &gt; dist[u]:
+            continue                      # an old, longer entry
+        for v, w in adj[u]:
+            nd = d + w
+            if nd &lt; dist[v]:              # a strictly shorter route
+                dist[v] = nd
+                ways[v] = ways[u]
+                heapq.heappush(heap, (nd, v))
+            elif nd == dist[v]:           # another route of equal length
+                ways[v] = (ways[v] + ways[u]) % MOD
+    print(dist[n], ways[n])
+
+main()</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem B &middot; our solution (C++)</b><span>cpp</span></figcaption><pre>// Our practice problem S-B: Trail Count (not a CEMC problem)
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+const long long MOD = 1000000007LL;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int n, m;
+    cin &gt;&gt; n &gt;&gt; m;
+    vector&lt;vector&lt;pair&lt;int, int&gt;&gt;&gt; adj(n + 1);
+    for (int i = 0; i &lt; m; i++) {
+        int a, b, w;
+        cin &gt;&gt; a &gt;&gt; b &gt;&gt; w;
+        adj[a].push_back({b, w});
+        adj[b].push_back({a, w});
+    }
+    const long long INF = LLONG_MAX;
+    vector&lt;long long&gt; dist(n + 1, INF), ways(n + 1, 0);
+    priority_queue&lt;pair&lt;long long, int&gt;, vector&lt;pair&lt;long long, int&gt;&gt;,
+                   greater&lt;pair&lt;long long, int&gt;&gt;&gt; pq;
+    dist[1] = 0;
+    ways[1] = 1;
+    pq.push({0, 1});
+    while (!pq.empty()) {
+        long long d = pq.top().first;
+        int u = pq.top().second;
+        pq.pop();
+        if (d &gt; dist[u]) continue;            // an old, longer entry
+        for (auto &amp;edge : adj[u]) {
+            int v = edge.first;
+            long long nd = d + edge.second;
+            if (nd &lt; dist[v]) {               // a strictly shorter route
+                dist[v] = nd;
+                ways[v] = ways[u];
+                pq.push({nd, v});
+            } else if (nd == dist[v]) {       // another route of equal length
+                ways[v] = (ways[v] + ways[u]) % MOD;
+            }
+        }
+    }
+    cout &lt;&lt; dist[n] &lt;&lt; " " &lt;&lt; ways[n] &lt;&lt; "\n";
+    return 0;
+}</pre><p class="ag-code-note">Dijkstra's algorithm with one extra array. When a strictly shorter route reaches v, its count resets to the count at u; when an equally short one arrives, the counts add. Because every length is positive, a junction's count is final by the time it leaves the queue. In the sample, 1-2-4-5 and 1-3-4-5 both measure 6 and the direct trail measures 7, so the answer is 6 2. The count goes modulo 1,000,000,007 because it can grow exponentially; the distance cannot exceed about 10^8, so it needs no modulus.</p></figure>
+    <p class="ag-mt-40"><b>Problem C: Ice Time Passes.</b> A skater will practise on D given days of the season, numbered 1 to 365. The rink sells a 1-day pass, a 7-day pass and a 30-day pass, priced in tokens; a pass bought on day t covers day t and the following days up to its length. Print the fewest tokens needed to cover every practice day. <b>Input:</b> D (1 to 365), then the D days in increasing order, then the three prices. <b>Output:</b> one integer.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem C &middot; sample</b><span>text</span></figcaption><pre>Sample input:
+9
+1 2 3 4 5 9 10 25 31
+3 10 24
+
+Sample output:
+22</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem C &middot; our solution (Python)</b><span>python</span></figcaption><pre># Our practice problem S-C: Ice Time Passes (not a CEMC problem)
+import sys
+
+def main():
+    data = sys.stdin.buffer.read().split()
+    d = int(data[0])
+    days = set(int(x) for x in data[1:1 + d])
+    day_pass, week_pass, month_pass = (int(x) for x in data[1 + d:4 + d])
+    last = max(days)
+    # fewest[t] = fewest tokens to cover every practice day from 1 to t
+    fewest = [0] * (last + 1)
+    for t in range(1, last + 1):
+        if t not in days:
+            fewest[t] = fewest[t - 1]         # nothing to cover today
+            continue
+        fewest[t] = min(fewest[t - 1] + day_pass,
+                      fewest[max(0, t - 7)] + week_pass,
+                      fewest[max(0, t - 30)] + month_pass)
+    print(fewest[last])
+
+main()</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem C &middot; our solution (C++)</b><span>cpp</span></figcaption><pre>// Our practice problem S-C: Ice Time Passes (not a CEMC problem)
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+int main() {
+    int d;
+    cin &gt;&gt; d;
+    vector&lt;int&gt; days(d);
+    for (int &amp;x : days) cin &gt;&gt; x;
+    long long dayPass, weekPass, monthPass;
+    cin &gt;&gt; dayPass &gt;&gt; weekPass &gt;&gt; monthPass;
+    int last = *max_element(days.begin(), days.end());
+    vector&lt;bool&gt; practice(last + 1, false);
+    for (int x : days) practice[x] = true;
+    // fewest[t] = fewest tokens to cover every practice day from 1 to t
+    vector&lt;long long&gt; fewest(last + 1, 0);
+    for (int t = 1; t &lt;= last; t++) {
+        if (!practice[t]) { fewest[t] = fewest[t - 1]; continue; }
+        fewest[t] = min({fewest[t - 1] + dayPass,
+                       fewest[max(0, t - 7)] + weekPass,
+                       fewest[max(0, t - 30)] + monthPass});
+    }
+    cout &lt;&lt; fewest[last] &lt;&lt; "\n";
+    return 0;
+}</pre><p class="ag-code-note">The state, in one sentence: fewest[t] is the cheapest way to cover every practice day from day 1 to day t. On a non-practice day nothing changes; on a practice day, the last pass bought either was a 1-day pass, or a 7-day or 30-day pass that began within the last week or month. In the sample, a 7-day pass for days 1 to 5 and single passes for days 9, 10, 25 and 31 cost 10 + 4 x 3 = 22. The tempting greedy answer, a 30-day pass because it is cheapest per day, gives 24 + 3 = 27.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we check our own solutions</h3><p>Every solution on this page was compared with a deliberately simple brute-force program that tries everything, on hundreds of tiny random inputs. When the two disagree, the tiny input that caused it is the fastest bug report there is.</p>
+<p>We teach students to write that brute force first at Senior level. It earns the small subtasks on contest day, and in practice it is the safety net that makes the clever solution trustworthy.</p></div><div><h3>What the three have in common</h3><p>Each has a version that is easy to write and too slow, and a version that needs one real idea: a sweep, a count carried through Dijkstra, a DP state. Senior marks are mostly earned in the step between the two.</p>
+<p>Each also hides one detail in the wording: an exclusive end time, parallel trails that count as different routes, a pass that covers the day it is bought. Reading Senior statements slowly is not optional.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="season">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A season plan</p><h2>A Senior season, from November 2026 to 17 February 2027</h2><p class="ag-lede">Our plan for a student who can already pass the Junior paper comfortably and is moving up. It assumes two live classes a week in our CCC course, a problem set between them, and C++ or Python chosen before the first block. Each block ends with an exit check, so the student moves on only when ready.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A five-block Senior plan (ours)</caption><thead><tr><th scope="col">Block</th><th scope="col">Dates</th><th scope="col">Focus</th><th scope="col">Exit check</th></tr></thead><tbody><tr><td>1</td><td>2 to 22 November 2026</td><td>Sorting with keys, binary search, prefix sums, sweeps</td><td>Problem A above solved efficiently from a blank file</td></tr><tr><td>2</td><td>23 November to 13 December 2026</td><td>BFS and DFS, grids as graphs, union-find</td><td>Three past S3 problems solved, at least partly</td></tr><tr><td>3</td><td>14 December 2026 to 10 January 2027</td><td>Dijkstra, counting with modulus, a lighter holiday fortnight</td><td>Problem B above, and one past S4</td></tr><tr><td>4</td><td>11 January to 31 January 2027</td><td>Dynamic programming on sequences and grids</td><td>Problem C above, with the state written in one sentence</td></tr><tr><td>5</td><td>1 to 17 February 2027</td><td>Two full timed Senior papers, review, the Practice Contest</td><td>Calm on the day, with a plan for which problems to try first</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Contest-day order</h3><p>Read all five problems in the first fifteen minutes. Solve S1 completely. Then, for each of S2 to S5, ask which subtasks can be taken with a simple method, and collect those before chasing any full solution.</p>
+<p>The grader keeps the highest score from all submissions on each problem, so a working slow version submitted early is never wasted.</p></div><div><h3>What not to do in February</h3><p>Do not learn a new data structure in the final week. Senior marks come from methods that are fluent, not from ones read about on the weekend before.</p>
+<p>Do not rely on saved code. The CCC rules say "Access to other source or starter code is not allowed during the competition." Every line is typed on the day, which is why we practise writing Dijkstra from memory.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="beyond">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beyond Senior</p><h2>Where a strong Senior result leads</h2><p class="ag-lede">Senior is the only CCC paper with a path onward. CEMC describes it in a few lines, and the step is steep.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>After CCC Senior, from CEMC's CCC page (read 22 October 2026)</caption><thead><tr><th scope="col">Step</th><th scope="col">What CEMC says</th></tr></thead><tbody><tr><td>Honour roll</td><td>Some top-scoring official participants are named in Senior honour rolls, unless they opt out.</td></tr><tr><td>Official status</td><td>For writers at a school in Canada: born on or after 1 July 2007, and living in Canada.</td></tr><tr><td>Canadian Computing Olympiad</td><td>About 20 of the top official Senior participants from schools in Canada are invited each spring, at CEMC's discretion.</td></tr><tr><td>Language at the CCO</td><td>"CCO participants must use C++."</td></tr><tr><td>International Olympiad in Informatics</td><td>The CCO is also used to select Canada's IOI team.</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Our honest framing for families: about twenty invitations a year from the whole country is a tiny number, and no teacher can promise one. A Senior paper that goes well is worth preparing for on its own terms, for the algorithms it teaches. Our <a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation page</a> covers the full route, and <a class="ag-inline-link" href="/ioi-olympiad-informatics-training">IOI training</a> describes what the international level asks.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="reading">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Further reading</p><h2>Reading and practice material for Senior writers</h2><p class="ag-lede">CEMC points Senior writers to its own archive, its grader and two books. We send students to the originals and never reproduce CEMC's problems.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Material CEMC lists on its CCC page (read 22 October 2026), and how we use it</caption><thead><tr><th scope="col">Material</th><th scope="col">What it is</th><th scope="col">How we use it at Senior level</th></tr></thead><tbody><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">CEMC past contests</a></td><td>Past CCC papers, solutions and results from the last ten years</td><td>Past S3 and S4 problems as weekly targets from December</td></tr><tr><td><a class="ag-inline-link" href="https://cccgrader.com/" rel="noopener" target="_blank">CCC Online Grader</a></td><td>The contest system, with a free practice account and previous contests</td><td>Every practice solution submitted, so verdicts become familiar</td></tr><tr><td><a class="ag-inline-link" href="https://cpbook.net/" rel="noopener" target="_blank">Competitive Programming</a>, Halim and Halim</td><td>A book CEMC names for preparation</td><td>Reference for graph and DP chapters</td></tr><tr><td><a class="ag-inline-link" href="https://cses.fi/book/index.php" rel="noopener" target="_blank">Competitive Programmers Handbook</a>, Antti Laaksonen</td><td>A book CEMC names for preparation</td><td>Our first reading for students new to complexity</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student starts</p>
+      <h2>Four stages from Junior to Senior</h2>
+      <p class="ag-lede">How our teachers judge readiness for the Senior paper. The stages are ours.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Senior readiness (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Strong Junior</td><td class="ag-num">Solves Junior problems 4 and 5 inside the time</td></tr><tr><td>2. Correct but slow</td><td class="ag-num">Solves S1 and S2, but large tests time out</td></tr><tr><td>3. Efficient</td><td class="ag-num">Chooses an algorithm from the input limits before coding</td></tr><tr><td>4. Senior ready</td><td class="ag-num">Takes subtasks on S3 to S5 and finishes S1 and S2 quickly</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 2 is where most students arrive from Junior, and it is where a teacher helps most: the step from correct to efficient is about method, not effort.</p>
+<p>A useful question to ask your child: what is the largest input, and how many steps will your program take on it?</p></div><div><h3>For students</h3><p>Before coding, write the complexity you are aiming for next to the input limit.</p>
+<p>Keep a brute-force solver for every practice problem. It catches the bugs your clever version hides.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses on the road through CCC Senior</h2>
+      <p class="ag-lede">Live online, one regular teacher, a batch or a one-to-one place, for students anywhere in Canada.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Before Senior</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / BASE / 01</p>
+          <h4>Python for teens</h4>
+          <p>Fluent Python before contest Python.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / BASE / 02</p>
+          <h4>Java for teens</h4>
+          <p>Another CCC language, from the start.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / BASE / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Data structures without the clock.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Senior toolkit</h3>
+        <span class="ag-band-sub">Grades 10 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / CORE / 01</p>
+          <h4>High school math</h4>
+          <p>The reasoning that S3 and S4 lean on.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / CORE / 02</p>
+          <h4>Competition math</h4>
+          <p>Counting and proof for careful counting problems.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / CORE / 03</p>
+          <h4>Maths through coding</h4>
+          <p>Math ideas checked in code, for younger strong students.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>After Senior</h3>
+        <span class="ag-band-sub">University level</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / NEXT / 01</p>
+          <h4>Competitive programming, advanced</h4>
+          <p>Contest work beyond school.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / NEXT / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>The full treatment, ages 18 and up.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSG / NEXT / 03</p>
+          <h4>C++ masterclass</h4>
+          <p>Modern C++ in depth, ages 18 and up.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-complete-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live Senior classes that fit a Canadian school year</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evening slots after school, in your province's time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings for longer algorithm sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Paced to the student and to 17 February 2027.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Our problems</h3><p>Original Senior-style sets, tested before use.</p></div>
+      <div><h3>Two languages</h3><p>Python or C++, and help switching between them.</p></div>
+      <div><h3>Complexity first</h3><p>Every solution starts from the input limits.</p></div>
+      <div><h3>Brute-force checks</h3><p>Students learn to test their own code.</p></div>
+      <div><h3>Timed papers</h3><p>Full three-hour Senior sittings in February.</p></div>
+      <div><h3>Batch or one to one</h3><p>A batch of fifteen to twenty, or a teacher to yourself.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Built by our students</h2>
+      <p class="ag-lede">Algorithms practice sits beside real projects. A few are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> show many more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Schools pay CEMC for the contest; we have no part in that. Our monthly fee pays for live algorithm teaching, month by month, so a family can stop after February with nothing owed.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One Senior-style problem, solved together</li><li>No card details asked</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students in a batch</li><li>The same teacher through February</li><li>A batch time you pick</li><li>Monthly payment</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher of your own</li><li>Built around Senior targets</li><li>Your own code reviewed line by line</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' Google reviews, quoted in full.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Canadian families</p>
+      <h2>CCC Senior: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is CCC Senior?</h3>
+        <p>It is the Senior level of the Canadian Computing Competition, run by CEMC at the University of Waterloo, for participants with intermediate to advanced programming skills. Students solve five algorithm problems online, at school, in three hours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is CCC Senior in 2027?</h3>
+        <p>CEMC lists the 2027 CCC, Junior and Senior, for Wednesday 17 February 2027 in North and South America and Thursday 18 February 2027 elsewhere. Schools order it by Thursday 11 February 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What topics come up in CCC Senior?</h3>
+        <p>CEMC describes S1 and S2 as basic algorithms such as sorting and searching, S3 and S4 as more advanced algorithms with careful counting and mathematical reasoning, and S5 as an IOI level question. In practice that means graphs, dynamic programming and efficient code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What score earned a Certificate of Distinction on CCC Senior in 2026?</h3>
+        <p>CEMC lists a 2026 Senior cutoff of 26 out of 75, with an average of 15.56 and 2439 contestants. The cutoff marks the top 25 percent of competitors, so it changes each year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should a Senior writer use Python or C++?</h3>
+        <p>Both are allowed. CEMC warns that a perfect score may not always be possible in Python or Java, and the CCO requires C++. We let students write Senior in Python if it is their strong language, and move CCO hopefuls to C++.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a Grade 9 student write CCC Senior?</h3>
+        <p>Yes. CEMC lets each participant choose Junior or Senior regardless of grade. The question is skill: whether the student can finish the first two Senior problems from past papers in good time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does CCC Senior lead to the CCO?</h3>
+        <p>CEMC invites about 20 of the top official CCC Senior participants from schools in Canada to the Canadian Computing Olympiad each spring, at its discretion. The CCO is also used to choose Canada's IOI team.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can students use templates or AI during the CCC?</h3>
+        <p>No. The CCC rules forbid other source or starter code during the contest and forbid generative AI, including tools inside an editor. Outside the contest, ChatGPT needs a parent's permission for anyone under 18.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where are CCC Senior past problems?</h3>
+        <p>CEMC publishes past CCC papers, solutions and results free on its past contests page, and the CCC Online Grader offers a free practice account with previous contests. Our own practice problems are written by our teachers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your CCC Senior classes for Canadian families?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We fix the time in Eastern time and convert it for your province.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian students working at the top end of school programming.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>Our main CCC page, Junior and Senior.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>The level below, for students moving up.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>All our pages for Canadian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ioi-olympiad-informatics-training">IOI training</a></h3><p>What the international olympiad asks.</p></div>
+      <div><h3><a class="ag-inline-link" href="/usaco-preparation-online-coaching">USACO preparation</a></h3><p>Another online algorithm contest.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>Finding the bug a verdict does not name.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class is one Senior-style problem, worked live: the teacher watches how the student reads the limits and chooses a method, then tells you honestly whether Senior is the right paper for February 2027.</p>
+        <p class="ag-mt-40">Want to know how lessons work first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> shows a real class, and the <a class="ag-inline-link" href="/courses">course list</a> has the syllabi.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20is%20preparing%20for%20CCC%20Senior.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'csg',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are taught live over video by teachers based in India, so there is no building to visit in Canada. WhatsApp reaches us fastest.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_csg(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free; we never ask for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/ioi-olympiad-informatics-training">IOI training</a></li><li><a href="/usaco-preparation-online-coaching">USACO preparation</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Read the limits first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_csg = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'ccc-senior-guide-inline', meta: { name: name, age: age, page: 'ccc-senior-guide' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

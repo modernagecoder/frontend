@@ -515,6 +515,7 @@ const SLUGS = [
   'beaver-computing-challenge-guide',
   'canada-math-and-coding-contest-calendar',
   'how-to-register-for-waterloo-contests',
+  'ccc-senior-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1109,6 +1110,7 @@ const LLMS_LABELS = {
   'beaver-computing-challenge-guide': 'Beaver Computing Challenge guide',
   'canada-math-and-coding-contest-calendar': 'Canada contest calendar 2026 to 2027',
   'how-to-register-for-waterloo-contests': 'How to register for Waterloo contests',
+  'ccc-senior-guide': 'CCC Senior guide',
 };
 
 function wireLlms(slugs) {

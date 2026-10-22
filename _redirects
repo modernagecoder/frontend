@@ -7718,4 +7718,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /how-to-register-for-waterloo-contests /src/pages/how-to-register-for-waterloo-contests.html 200
 /how-to-register-for-waterloo-contests.md /src/pages/how-to-register-for-waterloo-contests.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ccc-senior-guide /src/pages/ccc-senior-guide.html 200
+/ccc-senior-guide.md /src/pages/ccc-senior-guide.md 200
 /* /src/pages/404.html 404
