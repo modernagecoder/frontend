@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Fryer, Galois and Hypatia contests guide](/fryer-galois-hypatia-contests-guide)
 - [CIMC and CSMC contest guide](/cimc-and-csmc-contest-guide)
 - [Modern Age Coders vs Oxford Learning](/modern-age-coders-vs-oxford-learning)
 - [Modern Age Coders vs BrightCHAMPS](/modern-age-coders-vs-brightchamps)

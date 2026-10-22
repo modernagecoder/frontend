@@ -25737,6 +25737,18 @@
   to = "/src/pages/cimc-and-csmc-contest-guide.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/fryer-galois-hypatia-contests-guide"
+  to = "/src/pages/fryer-galois-hypatia-contests-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/fryer-galois-hypatia-contests-guide.md"
+  to = "/src/pages/fryer-galois-hypatia-contests-guide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
