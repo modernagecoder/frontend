@@ -239,7 +239,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 50 | canadian-math-olympiad-cmo-path (cmoc, #446585) | contest | 5,798 | 1.5% vs comc-canada-open-mathematics-challenge-guide | pathway guide | olympiad problem solving | 90777e30 |
 | 52 | math-kangaroo-canada-preparation (mkcp, #413D70) | contest | 5,175 | 1.4% vs cimc-and-csmc-contest-guide | contest guide | kangaroo-style reasoning | 679df460 |
 | 79 | best-online-coding-classes-in-canada (bec, #315249) | best | 6,213 | 1.8% vs canada-coding-curriculum-by-province | criteria guide | transfer test | e4aeed01 |
-| 80 | best-online-math-tutoring-in-canada (bmtc, #0F1C66) | best | 5,529 | 2.3% vs canada-high-school-math-courses-compared | criteria guide | gap finding | (this commit) |
+| 80 | best-online-math-tutoring-in-canada (bmtc, #0F1C66) | best | 5,529 | 2.3% vs canada-high-school-math-courses-compared | criteria guide | gap finding | 3050b3f1 |
+| 81 | problem-solving-coding-and-math-classes-canada (psmc, #311694) | think | 5,065 | 1.6% vs best-online-math-tutoring-in-canada | teaching approach | reasoning before code | (this commit) |
 
 ## Skipped
 

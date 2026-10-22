@@ -538,6 +538,7 @@ const SLUGS = [
   'math-kangaroo-canada-preparation',
   'best-online-coding-classes-in-canada',
   'best-online-math-tutoring-in-canada',
+  'problem-solving-coding-and-math-classes-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1155,6 +1156,7 @@ const LLMS_LABELS = {
   'math-kangaroo-canada-preparation': 'Math Kangaroo Canada',
   'best-online-coding-classes-in-canada': 'Choosing a coding class',
   'best-online-math-tutoring-in-canada': 'Choosing a math tutor',
+  'problem-solving-coding-and-math-classes-canada': 'Problem-solving classes',
 };
 
 function wireLlms(slugs) {
