@@ -7674,4 +7674,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /quebec-secondary-4-math-cst-ts-science /src/pages/quebec-secondary-4-math-cst-ts-science.html 200
 /quebec-secondary-4-math-cst-ts-science.md /src/pages/quebec-secondary-4-math-cst-ts-science.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/quebec-secondary-5-math-tutor /src/pages/quebec-secondary-5-math-tutor.html 200
+/quebec-secondary-5-math-tutor.md /src/pages/quebec-secondary-5-math-tutor.md 200
 /* /src/pages/404.html 404

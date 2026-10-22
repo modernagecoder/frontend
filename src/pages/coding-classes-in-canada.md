@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Quebec Secondary 5 math help](/quebec-secondary-5-math-tutor)
 - [Quebec Secondary 4 math: CST, TS or Science](/quebec-secondary-4-math-cst-ts-science)
 - [EQAO Grade 9 math practice](/eqao-grade-9-math-practice)
 - [EQAO Grade 6 math practice](/eqao-grade-6-math-practice)
