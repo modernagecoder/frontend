@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [MCR3U Functions help](/mcr3u-functions-tutor)
 - [MCV4U Calculus and Vectors help](/mcv4u-calculus-and-vectors-tutor)
 - [MHF4U Advanced Functions help](/mhf4u-advanced-functions-tutor)
 - [Canada time zones in 2026 and online class times](/canada-time-zones-2026-online-class-times)

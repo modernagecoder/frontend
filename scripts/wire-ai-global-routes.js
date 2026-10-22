@@ -494,6 +494,7 @@ const SLUGS = [
   'canada-time-zones-2026-online-class-times',
   'mhf4u-advanced-functions-tutor',
   'mcv4u-calculus-and-vectors-tutor',
+  'mcr3u-functions-tutor',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1067,6 +1068,7 @@ const LLMS_LABELS = {
   'canada-time-zones-2026-online-class-times': 'Canada time zones 2026 and class times',
   'mhf4u-advanced-functions-tutor': 'MHF4U Advanced Functions tutor',
   'mcv4u-calculus-and-vectors-tutor': 'MCV4U Calculus and Vectors tutor',
+  'mcr3u-functions-tutor': 'MCR3U Functions tutor',
 };
 
 function wireLlms(slugs) {

@@ -195,7 +195,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 63 | canada-high-school-math-courses-compared (chsm, #66182B) | ref | 4,867 | 1.6% vs ics3u-computer-science-help | reference table | course equivalence | 95d6f5cf |
 | 64 | canada-time-zones-2026-online-class-times (can, #611614) | ref | 4,742 | 1% vs ccc-junior-guide | scheduling reference | time zones | d1ad49f5 |
 | 15 | mhf4u-advanced-functions-tutor (maft, #8A5115) | school-on | 6,472 | 0.9% vs canada-high-school-math-courses-compared | school course help | functions and logarithms | 0236a05d |
-| 16 | mcv4u-calculus-and-vectors-tutor (mcvt, #545C32) | school-on | 6,110 | 1.3% vs mhf4u-advanced-functions-tutor | school course help | derivatives and vectors | (this commit) |
+| 16 | mcv4u-calculus-and-vectors-tutor (mcvt, #545C32) | school-on | 6,110 | 1.3% vs mhf4u-advanced-functions-tutor | school course help | derivatives and vectors | fc4d1f41 |
+| 14 | mcr3u-functions-tutor (mft, #4C1919) | school-on | 5,641 | 1.5% vs ics3u-computer-science-help | school course help | functions | (this commit) |
 
 ## Skipped
 
