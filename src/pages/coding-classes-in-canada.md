@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Grade 12 math courses compared across Canada](/canada-high-school-math-courses-compared)
 - [Coding curriculum by province](/canada-coding-curriculum-by-province)
 - [Gauss contest preparation (Grades 7 and 8)](/gauss-contest-preparation)
 - [Euclid contest preparation (Grade 12)](/euclid-contest-preparation)

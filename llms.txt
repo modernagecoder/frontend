@@ -721,6 +721,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Euclid Contest preparation: https://learn.modernagecoders.com/euclid-contest-preparation
 - Gauss Contest preparation: https://learn.modernagecoders.com/gauss-contest-preparation
 - Coding curriculum by province: https://learn.modernagecoders.com/canada-coding-curriculum-by-province
+- Grade 12 math by province: https://learn.modernagecoders.com/canada-high-school-math-courses-compared
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

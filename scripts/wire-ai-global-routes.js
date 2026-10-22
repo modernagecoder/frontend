@@ -490,6 +490,7 @@ const SLUGS = [
   'euclid-contest-preparation',
   'gauss-contest-preparation',
   'canada-coding-curriculum-by-province',
+  'canada-high-school-math-courses-compared',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1059,6 +1060,7 @@ const LLMS_LABELS = {
   'euclid-contest-preparation': 'Euclid Contest preparation',
   'gauss-contest-preparation': 'Gauss Contest preparation',
   'canada-coding-curriculum-by-province': 'Coding curriculum by province',
+  'canada-high-school-math-courses-compared': 'Grade 12 math by province',
 };
 
 function wireLlms(slugs) {
