@@ -16,7 +16,20 @@ const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts
 const SITE = 'https://learn.modernagecoders.com';
 
 // HTML prose -> markdown-ish plain text. Inline links become [text](href).
+// A multi-line <code> is a program: it becomes a fenced block with its line breaks kept,
+// so the code an AI engine reads from the twin still runs. Inline <code> stays inline.
 function md(html) {
+  const fences = [];
+  const text = String(html).replace(/<code[^>]*>([\s\S]*?)<\/code>/g, (m, c) => {
+    if (!/\n/.test(c)) return '`' + c.replace(/<[^>]+>/g, '') + '`';
+    const body = c.replace(/<[^>]+>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+$/, '');
+    fences.push('\n\n```\n' + body + '\n```\n\n');
+    return '\u0000' + (fences.length - 1) + '\u0000';
+  });
+  return inline(text).replace(/\s*\u0000(\d+)\u0000\s*/g, (m, i) => fences[+i]).trim();
+}
+
+function inline(html) {
   return String(html)
     .replace(/<a [^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g, (m, h, t) => `[${t.replace(/<[^>]+>/g, '')}](${h})`)
     .replace(/<strong>([\s\S]*?)<\/strong>/g, '**$1**')
