@@ -489,6 +489,7 @@ const SLUGS = [
   'fermat-contest-preparation',
   'euclid-contest-preparation',
   'gauss-contest-preparation',
+  'canada-coding-curriculum-by-province',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1057,6 +1058,7 @@ const LLMS_LABELS = {
   'fermat-contest-preparation': 'Fermat Contest preparation',
   'euclid-contest-preparation': 'Euclid Contest preparation',
   'gauss-contest-preparation': 'Gauss Contest preparation',
+  'canada-coding-curriculum-by-province': 'Coding curriculum by province',
 };
 
 function wireLlms(slugs) {

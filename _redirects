@@ -7614,4 +7614,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /gauss-contest-preparation /src/pages/gauss-contest-preparation.html 200
 /gauss-contest-preparation.md /src/pages/gauss-contest-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/canada-coding-curriculum-by-province /src/pages/canada-coding-curriculum-by-province.html 200
+/canada-coding-curriculum-by-province.md /src/pages/canada-coding-curriculum-by-province.md 200
 /* /src/pages/404.html 404

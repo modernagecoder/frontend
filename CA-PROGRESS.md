@@ -190,7 +190,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 45 | cayley-contest-preparation (ccp, #4C300B) | contest | 6,226 | 1.3% vs pascal-contest-preparation | contest guide | checking an answer without options | c11ca363 |
 | 46 | fermat-contest-preparation (fer, #374C1C) | contest | 5,942 | 1.6% vs pascal-contest-preparation | contest guide | time triage in a one-hour contest | 8eafe94f |
 | 47 | euclid-contest-preparation (ecp, #436631) | contest | 7,160 | 1.2% vs pascal-contest-preparation | contest guide | writing a complete solution | d93559d8 |
-| 43 | gauss-contest-preparation (gcp, #85142C) | contest | 6,294 | 1.1% vs euclid-contest-preparation | contest guide | organized counting | (this commit) |
+| 43 | gauss-contest-preparation (gcp, #85142C) | contest | 6,294 | 1.1% vs euclid-contest-preparation | contest guide | organized counting | bd476c8b |
+| 62 | canada-coding-curriculum-by-province (ccbp, #26165C) | ref | 5,635 | 1.1% vs ics3u-computer-science-help | reference table | curriculum by province | (this commit) |
 
 ## Skipped
 
