@@ -54634,5 +54634,78 @@
       "Names of Scarborough schools, school boards or private people: not used.",
       "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-in-newfoundland-and-labrador": {
+    "market": "Newfoundland and Labrador",
+    "bodyClass": "cg-new",
+    "pageType": "city",
+    "curriculumAuthority": "Newfoundland and Labrador, read raw on 22 October 2026 from gov.nl.ca (Department of Education and Early Childhood Development): Program of Studies 2025-2026, Technology Education (four 26 hour compulsory intermediate modules; Computer Science 8 block-based programs controlling LEDs and motors; Computer Science 1204 block-based and text-based programming controlling sensors and motors; Communications Technology 3104; Robotic Systems Technology 3205), Key Competencies adopted 2023, Mathematics (Applied 1202/2202/3202, Academic 2201/3201, Advanced 2200/3200/3208, prerequisites), graduation (36 credits), CDLI (38 courses, 103 schools), PRMA Grades 3 and 6. CEMC 2026-27 contest dates and the through-a-school rule; IANA tzdb 2026e for America/St_Johns and America/Goose_Bay; CNAC area codes 709 and 879 via the Internet Archive.",
+    "localProject": "Natural Resources Canada, Canadian Geographical Names Database, Newfoundland and Labrador CSV (cgn_nl_csv_eng.csv, Open Government Licence - Canada per the NRCan metadata), downloaded 22 October 2026 and counted with our scripts count_names.py and analysis.py (python -I): 33,150 rows and IDs; Concise Code LAKE 8,794 (Generic Term Pond 6,742, Lake 1,020, Ponds 365, Gully 210, Steady 160), BAY 5,775, CAPE 4,370, ISL 3,205; Cove 3,881; Tickle 245; 93 Pond rows without the word pond (Arvert Lake); 283 Lake rows without the word lake; Long Pond 179 rows, 178 LAKE. Labelled as ours. Lesson family: grouping by two columns and testing a label against its text.",
+    "requiredMentions": [
+      "four 26 hour compulsory modules",
+      "control physical devices such as LEDs and motors",
+      "Robotic Systems Technology 3205",
+      "Centre for Distance Learning and Innovation",
+      "Generic Term Steady",
+      "Arvert Lake",
+      "178 of them are coded LAKE",
+      "Mathematics 3201 accepts either 2201 or 2200",
+      "Provincial Reading and Mathematics Assessments",
+      "A 4 pm class in Labrador City is 1:30 am in India"
+    ],
+    "sources": [
+      {
+        "claim": "Newfoundland and Labrador K-12 curriculum page (Department of Education and Early Childhood Development).",
+        "url": "https://www.gov.nl.ca/education/k12/curriculum/"
+      },
+      {
+        "claim": "Program of Studies 2025-2026, Technology Education: intermediate modules, Computer Science 8, Computer Science 1204, Communications Technology 3104, Robotic Systems Technology 3205.",
+        "url": "https://www.gov.nl.ca/education/k12/curriculum/descriptions/technology-education/"
+      },
+      {
+        "claim": "Program of Studies 2025-2026, Mathematics: Applied, Academic and Advanced courses and prerequisites.",
+        "url": "https://www.gov.nl.ca/education/k12/curriculum/descriptions/mathematics/"
+      },
+      {
+        "claim": "Program of Studies: Key Competencies adopted in 2023.",
+        "url": "https://www.gov.nl.ca/education/k12/curriculum/descriptions/"
+      },
+      {
+        "claim": "Graduation requirements: 36 credits.",
+        "url": "https://www.gov.nl.ca/education/k12/highschool/gradreq/"
+      },
+      {
+        "claim": "Distance Learning: CDLI, 38 courses, 103 schools.",
+        "url": "https://www.gov.nl.ca/education/k12/distance/"
+      },
+      {
+        "claim": "Provincial Reading and Mathematics Assessments, Grades 3 and 6.",
+        "url": "https://www.gov.nl.ca/education/k12/prma/"
+      },
+      {
+        "claim": "CEMC: 2026-27 contest dates, school-only registration, CCC format and languages, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Natural Resources Canada, Canadian Geographical Names Database provincial CSV files.",
+        "url": "https://ftp.cartes.canada.ca/pub/nrcan_rncan/vector/geobase_cgn_toponyme/prov_csv_eng/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/St_Johns and America/Goose_Bay offsets.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any population for the province or its towns: StatCan was not reachable live, so none is printed.",
+      "A mapping of Level I, II and III to Grades 10, 11 and 12: no saved source states it, so courses are named by number only.",
+      "That our classes earn or count toward a Newfoundland and Labrador credit: refused; we do not grant provincial credits.",
+      "School calendar dates: the department calendar page we read stops at 2015-16, so no dates are used.",
+      "Any PRMA dates or results: the PRMA question and answer PDF has no extractable text, so nothing beyond the grades is quoted.",
+      "That a pond is smaller than a lake, or any total of water bodies: the names file does not measure features.",
+      "That every Labrador community keeps Atlantic time: the page says most of Labrador, as the time zone database does.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of schools, districts results or private people: not used.",
+      "Any affiliation with the Department of Education and Early Childhood Development, CDLI, Natural Resources Canada, CEMC or the University of Waterloo."
+    ]
   }
 }
