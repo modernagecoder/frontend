@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pascal Contest 2027 (Grade 9): Format, Scoring, Practice</title>
+  <meta name="description" content="The Grade 9 Pascal Contest from CEMC's 2027 page: 25 questions in 60 minutes, out of 150, the blank-or-guess rule, seven original problems and a plan to February.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/pascal-contest-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/pascal-contest-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8F512F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/pascal-contest-preparation">
+  <meta property="og:title" content="Pascal Contest 2027 (Grade 9): Format, Scoring, Practice">
+  <meta property="og:description" content="CEMC lists the 2027 Pascal Contest for Tuesday 23 and Wednesday 24 February 2027 in the Americas. The format, the scoring rule that rewards a blank, 2026 results, seven practice problems and a plan.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pascal Contest 2027 (Grade 9): Format, Scoring, Practice">
+  <meta name="twitter:description" content="Pascal Contest 2027 for Grade 9: format, scoring, 2026 results and seven original practice problems.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pcp .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-pcp .ag-capsule { border-left-width: 6px; border-radius: 2px; }
+.ag-root.ag-pcp .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-pcp .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-pcp .ag-band-head h3 { letter-spacing: -0.004em; }
+.ag-root.ag-pcp .ag-slots { gap: 1.1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/pascal-contest-preparation#page","url":"https://learn.modernagecoders.com/pascal-contest-preparation","name":"Pascal Contest Preparation","description":"A guide for Grade 9 students in Canada and their parents to CEMC's Pascal Contest, built from CEMC's 2027 contest page, the 2025 contest booklet's scoring rules and the 2026 results booklet, with original practice problems and a plan.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CEMC Waterloo contests","item":"https://learn.modernagecoders.com/cemc-waterloo-contests-preparation"},{"@type":"ListItem","position":5,"name":"Pascal Contest","item":"https://learn.modernagecoders.com/pascal-contest-preparation"}]},{"@type":"Course","name":"Pascal Contest Preparation","description":"Live online preparation for the CEMC Waterloo math contests from Gauss to Euclid, for students across Canada, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/pascal-contest-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/pascal-contest-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/pascal-contest-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Pascal Contest?","acceptedAnswer":{"@type":"Answer","text":"It is the Grade 9 math contest that CEMC, part of the University of Waterloo, sets and marks each year. It has 25 multiple-choice questions, takes 60 minutes and is scored out of 150. CEMC says most of its problems test logical thinking and problem solving rather than content."}},{"@type":"Question","name":"When is the Pascal Contest in 2027?","acceptedAnswer":{"@type":"Answer","text":"For schools in the Americas, CEMC gives a two-day window, Tuesday, February 23, 2027 and Wednesday, February 24, 2027, and each school runs it on one of those days. The ordering deadline for schools in Canada is Tuesday, February 9, 2027."}},{"@type":"Question","name":"Can a Grade 8 student write Pascal?","acceptedAnswer":{"@type":"Answer","text":"Yes. CEMC welcomes motivated students in lower grades, and says the Pascal Contest may be written by any participant in Grade 9 or below. A student can write only one of Pascal, Cayley and Fermat in a school year."}},{"@type":"Question","name":"How is the Pascal Contest scored?","acceptedAnswer":{"@type":"Answer","text":"The 2025 booklet gives 5 points for each right answer in Part A, 6 in Part B and 8 in Part C. There is no penalty for a wrong answer, and each unanswered question is worth 2, up to a maximum of 10 unanswered questions. Check the 2027 booklet cover on the day."}},{"@type":"Question","name":"Should my child guess or leave a Pascal question blank?","acceptedAnswer":{"@type":"Answer","text":"By our arithmetic, a blind guess is worth less than the 2 points a blank earns, as long as fewer than ten questions are blank. Guessing pays in Part A after three options are ruled out, and in Part B after two or three. That is our analysis of the scoring rule, not CEMC advice."}},{"@type":"Question","name":"Can my child register for Pascal on their own?","acceptedAnswer":{"@type":"Answer","text":"No. CEMC says students cannot register on their own and must be registered by their school. Where a school does not take part, CEMC points families to other schools nearby that may let the student write with them."}},{"@type":"Question","name":"Are calculators allowed on the Pascal Contest?","acceptedAnswer":{"@type":"Answer","text":"CEMC says some calculators are permitted. Devices with internet access, communication with other devices, stored notes or programs, a computer algebra system or dynamic geometry software are not, and CEMC names the Casio ClassPad 300 series, HP Prime and TI-Nspire CAS as examples."}},{"@type":"Question","name":"Where can we find past Pascal papers?","acceptedAnswer":{"@type":"Answer","text":"Ten years of old Pascal papers, with official solutions and results, sit free on CEMC's website, and its Problem Set Generator builds new sets from past Pascal questions. Our own problems are written from scratch, and CEMC's papers stay on CEMC's site."}},{"@type":"Question","name":"What was a good Pascal score in 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists the 2026 Pascal average as 93.1 out of 150, the Certificate of Distinction cutoff as 110 and the School Medal Champion cutoff as 93. CEMC gives the certificate to the top 25 percent of competitors, so the cutoff changes each year."}},{"@type":"Question","name":"What times are your Pascal classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Class times are agreed in Eastern time, and we give each family the time on its own clock."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/pascal-contest-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-pcp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#facts">2027 facts</a></li>
+      <li><a href="#scoring">Blank or guess</a></li>
+      <li><a href="#practice">Seven problems</a></li>
+      <li><a href="#results">2026 results</a></li>
+      <li><a href="#plan">Plan</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / <a href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a> / Pascal Contest
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; CEMC math contests &middot; Grade 9</p>
+        <h1>Pascal Contest preparation for Grade 9</h1>
+        <p class="ag-lede">The Pascal Contest is the Grade 9 paper in the family of math contests that the University of Waterloo's Centre for Education in Mathematics and Computing (CEMC) sets every year. It is a one-hour, 25-question multiple-choice paper, and for many Canadian students it is the first math contest of high school. This page is built from CEMC's 2027 Pascal page, the front cover of the 2025 Pascal booklet and CEMC's 2026 results booklet. It explains the paper, the scoring rule that makes a blank worth more than a wild guess, what the questions draw on, seven practice problems we wrote with full solutions, and a plan that ends on contest day in February 2027.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#practice" class="ag-btn ag-btn--ghost">Try the seven problems</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Grade%209%20in%20Canada%20and%20wants%20to%20write%20the%20Pascal%20Contest%20in%20February%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pcp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online classes since 2020 &middot; 10,000+ students &middot; every practice problem on this page written by our teachers</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>CEMC, University of Waterloo</dd>
+          <dt>Who writes it</dt><dd>Grade 9 (and keen younger students)</dd>
+          <dt>2027 dates</dt><dd>Tuesday 23 or Wednesday 24 February 2027 (Americas)</dd>
+          <dt>Paper</dt><dd>25 multiple-choice questions, 60 minutes</dd>
+          <dt>Score</dt><dd>Out of 150</dd>
+          <dt>Entry</dt><dd>Through a school only</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The Pascal Contest is CEMC's Grade 9 math contest: 25 multiple-choice questions in 60 minutes, scored out of 150, written at school on Tuesday 23 or Wednesday 24 February 2027 in the Americas. Students enter only through their school. Modern Age Coders coaches Grade 9 students for Pascal live online, in a batch or one to one, through its Waterloo Math Contests course, Gauss to Euclid.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for Grade 9</p>
+      <h2>Where we would start a Pascal writer</h2>
+      <p class="ag-lede">Our Waterloo contests course comes first. A student who outgrows Part B moves on to competition math; one with shaky school algebra steadies it in the high school course.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/waterloo-math-contests-gauss-to-euclid-course">
+        <div class="ag-pick-shot"><img src="/images/waterloo-math-contests.webp" alt="Waterloo Math Contests course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PCP / 01</p>
+          <h3>Waterloo Math Contests: Gauss to Euclid</h3>
+          <p>Ages 11 to 18. Its Grades 9 and 10 track covers Pascal: two live classes a week, weekly problem sets and timed practice rounds before February 2027.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PCP / 02</p>
+          <h3>Competition mathematics</h3>
+          <p>For the Grade 9 student who already finishes Part B and wants the ideas behind Part C.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PCP / 03</p>
+          <h3>High school math, Grades 9 to 12</h3>
+          <p>Algebra, linear relations and geometry taught properly, for a student whose school math still has gaps.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="facts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 2027 contest</p><h2>The 2027 Pascal Contest, line by line from CEMC</h2><p class="ag-lede">Every row below was read on CEMC's Pascal, Cayley and Fermat page on 22 October 2026. CEMC publishes one page for all three contests; the rows here are the ones that apply to Pascal.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 2027 Pascal Contest as CEMC publishes it (read 22 October 2026)</caption><thead><tr><th scope="col">Item</th><th scope="col">CEMC's wording</th></tr></thead><tbody><tr><td>Who it is for</td><td>"Students in Grade 9 are eligible to write the Pascal Contest." CEMC adds that "Motivated students in lower grades are welcome to write one of the contests."</td></tr><tr><td>Contest dates</td><td>"North and South America: Tuesday, February 23, 2027 and Wednesday, February 24, 2027". Supervisors run it "within the two-day contest period", so the school picks the day.</td></tr><tr><td>Ordering deadline</td><td>Tuesday, February 9, 2027 for schools in Canada. Schools in India and other countries have earlier deadlines.</td></tr><tr><td>Paper</td><td>"25 multiple-choice questions." Parts A and B have answers A to E; "in Part C, participants select a whole number from 0 to 99."</td></tr><tr><td>Time and score</td><td>"Time allowed for completion is 60 minutes." "Score out of 150."</td></tr><tr><td>How it is written</td><td>"Written at school, participants write individually on paper or online." The school chooses paper or online when it orders.</td></tr><tr><td>Calculators</td><td>"Some calculators permitted." CEMC's calculator page sets out which.</td></tr><tr><td>Content</td><td>Based on "curriculum common to all Canadian provinces", and "most of the problems test logical thinking and mathematical problem-solving."</td></tr><tr><td>One contest a year</td><td>"Participants can only write one of the Pascal, Cayley and Fermat Contests in a given school year."</td></tr><tr><td>Fee</td><td>CEMC charges the school six dollars for each Pascal writer, and a separate processing charge on every order.</td></tr><tr><td>Results</td><td>In CEMC's Contest Supervisor Portal "six to eight weeks after the contest date."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What "Grade 9 or below" means</h3><p>CEMC counts a Pascal writer as official when the contest "may be written by any participant in Grade 9 or below." A keen Grade 8 student can therefore write Pascal and still count.</p>
+<p>Grade is what matters, not the math course. CEMC gives the example of a Grade 9 student already taking a Grade 10 math course and says that student "is eligible to write the Pascal Contest." A student working well ahead may choose a higher contest instead, but never a lower one.</p></div><div><h3>Which calculators are allowed</h3><p>CEMC's calculator page allows calculating devices without "internet access", "the ability to communicate with other devices", stored notes or programs, "a computer algebra system" or "dynamic geometry software".</p>
+<p>It names three examples that are not allowed: "the Casio ClassPad 300 series, HP Prime and TI-Nspire CAS." A plain scientific calculator is the safe choice. In our classes most Pascal questions are worked without one, because the ideas, not the arithmetic, take the time.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/pcf" rel="noopener" target="_blank">CEMC, Pascal, Cayley and Fermat Contests</a> and <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/calculators" rel="noopener" target="_blank">CEMC, Calculators</a>, both read on 22 October 2026. We have no connection with CEMC or with the University of Waterloo; our part is the teaching, and the school handles everything to do with the sitting.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="scoring">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The scoring rule</p><h2>How Pascal is scored, and when a blank beats a guess</h2><p class="ag-lede">The front cover of every recent Pascal booklet carries a short scoring rule, and it changes how a student should treat the last ten minutes. The rule quoted here is from the 2025 Pascal booklet, the latest one we read; check the cover of the 2027 paper on the day.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Pascal scoring, from the front cover of CEMC's 2025 Pascal Contest booklet; the total in the last row is our arithmetic</caption><thead><tr><th scope="col">Rule</th><th scope="col">What the 2025 booklet says</th></tr></thead><tbody><tr><td>Marks for a right answer</td><td>"Each correct answer is worth 5 in Part A, 6 in Part B, and 8 in Part C."</td></tr><tr><td>Wrong answers</td><td>"There is no penalty for an incorrect answer."</td></tr><tr><td>Blank answers</td><td>"Each unanswered question is worth 2, to a maximum of 10 unanswered questions."</td></tr><tr><td>Part C answers</td><td>An "integer from 0 to 99, inclusive"; "A one-digit answer (such as "7") must be coded with a leading zero ("07")."</td></tr><tr><td>Where the parts start</td><td>Part B begins at question 11 and Part C at question 21 in the 2025 booklet.</td></tr><tr><td>Our check of the total</td><td>10 questions x 5 + 10 x 6 + 5 x 8 = 50 + 60 + 40 = 150, which matches CEMC's "Score out of 150".</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Read the blank rule slowly. A wrong answer costs nothing, but it also earns nothing, while a blank earns 2 points, for up to ten blanks. So a guess is only worth making when it is likely enough to beat 2 points. The arithmetic below is ours, not CEMC's: it divides the marks for a right answer by the number of options still standing.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Blank or guess &middot; our arithmetic</b><span>text</span></figcaption><pre>Our expected-value check, per question (not CEMC's)
+
+Leave it blank            2 points (up to 10 blanks)
+Blind guess, Part A       5 x 1/5   = 1.0 point
+Blind guess, Part B       6 x 1/5   = 1.2 points
+Blind guess, Part C       8 x 1/100 = 0.08 points
+
+Part A, three options crossed out:  5 x 1/2 = 2.5  -&gt; guess
+Part B, two options crossed out:    6 x 1/3 = 2.0  -&gt; a tie
+Part B, three options crossed out:  6 x 1/2 = 3.0  -&gt; guess</pre><p class="ag-code-note">Our reading: a blind guess never beats a blank while blanks still count. In Part A, guess only after crossing out three of the five options. In Part B, two crossed out is a tie and three is a clear guess. In Part C, with a hundred possible answers, a guess without working is close to worthless.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The eleventh blank</h3><p>The rule stops at ten. Once a student has left ten questions blank, an eleventh blank earns nothing, so from that point any guess is better than leaving the circle empty.</p>
+<p>In practice very few Grade 9 students leave more than ten blanks with time to spare. The rule matters most for the student who finishes Part B with five minutes left and has to decide what to do with Part C.</p></div><div><h3>What we teach from it</h3><p>Students keep a tally in the margin: how many questions left blank so far. It takes two seconds and it turns the last five minutes into a calm decision instead of a scramble.</p>
+<p>We also teach elimination as a skill in its own right. Crossing out two options in a Part B question by estimation is often faster than solving it, and a third crossed out turns a blank worth 2 into a guess worth 3.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="register">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Entry</p><h2>Entering Pascal: the school orders, the student writes there</h2><p class="ag-lede">There is no form a family can fill in. On its How contests work page CEMC puts it plainly: "Students cannot register for contests on their own. They must be registered by their school."</p></div>
+    <ol class="ag-steps"><li><b>Ask the math department in the autumn.</b> Ask the math teacher whether the school will order the 2027 contest and whether it writes on paper or online.</li><li><b>If the school has no CEMC account,</b> CEMC asks the "Principal or Head of Math" to send in a new school application, and warns the manual review can last as long as three weeks. Starting that in January 2027 leaves little room before the Tuesday, February 9, 2027 deadline for schools in Canada.</li><li><b>If your own school says no,</b> CEMC suggests asking a different school nearby whether the student may write with its group. Make those calls in December, not February.</li><li><b>Write on the school's chosen day.</b> The school runs the contest within the two-day window, in a classroom with a teacher present, and CEMC adds that "a contest can never be written before the official contest date."</li><li><b>Online writers: try the practice contest.</b> CEMC says "The PCF Online Practice Contest will be available in January" and strongly encourages online writers to complete it.</li></ol>
+    <p class="ag-mt-40">Our classes are online, and an online class can never be the place where Pascal is written: that is always the ordering school. Source: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">CEMC, How contests work</a>, read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="topics">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What the questions draw on</p><h2>The Grade 9 math a Pascal paper leans on</h2><p class="ag-lede">CEMC describes the content in one sentence: curriculum common to all provinces, used to test logical thinking more than content. The breakdown below is ours, from teaching the paper, and it is not CEMC's list.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Topics behind Pascal questions (our analysis, not a CEMC syllabus)</caption><thead><tr><th scope="col">Area</th><th scope="col">How it tends to appear</th><th scope="col">What we drill</th></tr></thead><tbody><tr><td>Number sense</td><td>Fractions, percentages, powers and order of operations in the opening questions</td><td>Exact arithmetic without a calculator, and spotting the shortcut before computing</td></tr><tr><td>Algebra</td><td>A word problem that becomes one or two linear equations</td><td>Naming the unknown first, then writing the equation from the words</td></tr><tr><td>Ratio and rate</td><td>Mixtures, speeds, shares that change when something moves</td><td>The "k" method: write each quantity as a multiple of one unknown</td></tr><tr><td>Geometry</td><td>Angles, areas of composite shapes, the Pythagorean theorem</td><td>Drawing the figure larger and labelling every length that can be found</td></tr><tr><td>Counting</td><td>How many numbers, paths or arrangements satisfy a rule</td><td>Listing in a fixed order so nothing is counted twice or missed</td></tr><tr><td>Number theory</td><td>Digits, divisibility, remainders and last digits, often in Part C</td><td>Patterns in last digits and factor pairs, checked on small cases</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where the Ontario Grade 9 course fits</h3><p>In Ontario, Grade 9 math is MTH1W, the de-streamed course issued in 2021. Its algebra, linear relations and geometry cover most of what the early Pascal questions use.</p>
+<p>Ontario Grade 9 students also meet the EQAO Grade 9 Assessment of Mathematics, which EQAO lists for January 12 to February 5, 2027. That window ends just before Pascal, so we keep January classes lighter for Ontario students.</p></div><div><h3>The jump at question 16 or so</h3><p>The first ten questions reward accuracy. The second ten ask for one idea that a textbook exercise would have handed over: an auxiliary line, a clever unknown, a pattern in the digits.</p>
+<p>Part C asks for a number, not a letter, so elimination is gone. A student who reaches question 21 with fifteen minutes left has done well; we train students to look at all five Part C questions before choosing one.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Seven practice problems</p><h2>Seven original Pascal-style problems with worked solutions</h2><p class="ag-lede">Each problem below is our practice problem, not a CEMC problem: we wrote all seven for our Grade 9 students, and none is copied or adapted from a past contest. They climb like the paper, two at Part A level, three at Part B level and two Part C questions with whole-number answers. Every answer was checked by brute force in Python before publishing.</p></div>
+    <p><b>Problem 1 (Part A level; our practice problem, not a CEMC problem).</b> A curling team played 12 games. It won twice as many games as it lost, and 3 games were ties. How many games did it win? (A) 3 &nbsp;(B) 4 &nbsp;(C) 6 &nbsp;(D) 8 &nbsp;(E) 9</p>
+    <p><b>Solution.</b> Let the team lose L games, so it won 2L. Wins, losses and ties make 12 games: 2L + L + 3 = 12, so 3L = 9 and L = 3. The team won 2 x 3 = 6 games, answer (C). Check: 6 + 3 + 3 = 12. The trap is answer (E), 9, which is the number of games that were not ties.</p>
+    <p class="ag-mt-40"><b>Problem 2 (Part A level; our practice problem, not a CEMC problem).</b> A water tank is three-fifths full. After 12 litres are drained, it is one-third full. How many litres does the full tank hold? (A) 30 &nbsp;(B) 36 &nbsp;(C) 45 &nbsp;(D) 48 &nbsp;(E) 60</p>
+    <p><b>Solution.</b> The 12 litres are the difference between three-fifths and one-third of the tank. 3/5 - 1/3 = 9/15 - 5/15 = 4/15, so 4/15 of the tank is 12 litres, one-fifteenth is 3 litres, and the whole tank is 45 litres, answer (C). Check: 3/5 of 45 is 27, and 27 - 12 = 15, which is one-third of 45.</p>
+    <p class="ag-mt-40"><b>Problem 3 (Part B level; our practice problem, not a CEMC problem).</b> The two shorter sides of a right-angled triangle are in the ratio 3 : 4, and its longest side is 25 cm. What is its area, in square centimetres? (A) 120 &nbsp;(B) 150 &nbsp;(C) 175 &nbsp;(D) 200 &nbsp;(E) 300</p>
+    <p><b>Solution.</b> Write the shorter sides as 3k and 4k. By the Pythagorean theorem, (3k)<sup>2</sup> + (4k)<sup>2</sup> = 25<sup>2</sup>, so 25k<sup>2</sup> = 625, k<sup>2</sup> = 25 and k = 5. The sides are 15 cm and 20 cm, and the area is (15 x 20) / 2 = 150, answer (B). Answer (E), 300, is what a student gets by forgetting to halve.</p>
+    <p class="ag-mt-40"><b>Problem 4 (Part B level; our practice problem, not a CEMC problem).</b> How many positive integers less than 100 have digits that add up to 9? (A) 8 &nbsp;(B) 9 &nbsp;(C) 10 &nbsp;(D) 11 &nbsp;(E) 18</p>
+    <p><b>Solution.</b> Count by the number of digits. One digit: only 9. Two digits: the tens digit t runs from 1 to 9 and the units digit is 9 - t, giving 18, 27, 36, 45, 54, 63, 72, 81 and 90, which is nine numbers. The total is 1 + 9 = 10, answer (C). Two numbers are easy to lose: the single-digit 9, and 90, whose units digit is 0.</p>
+    <p class="ag-mt-40"><b>Problem 5 (Part B level; our practice problem, not a CEMC problem).</b> In a class, the ratio of students who walk to school to students who take the bus is 3 : 5. Then 4 students switch from the bus to walking, and the ratio becomes 1 : 1. How many students are in the class? (A) 24 &nbsp;(B) 28 &nbsp;(C) 32 &nbsp;(D) 36 &nbsp;(E) 40</p>
+    <p><b>Solution.</b> Let 3k students walk and 5k take the bus. After the switch, 3k + 4 walk and 5k - 4 ride, and these are equal: 3k + 4 = 5k - 4, so 2k = 8 and k = 4. The class has 3k + 5k = 8k = 32 students, answer (C). Check: 12 walkers and 20 riders become 16 and 16. The class size never changes, which is a quick way to test each option: it must be a multiple of 8, and of the five only 24, 32 and 40 are.</p>
+    <p class="ag-mt-40"><b>Problem 6 (Part C level; our practice problem, not a CEMC problem).</b> How many ordered pairs of positive integers (a, b) satisfy 1/a + 1/b = 1/6? Answer with a whole number from 0 to 99.</p>
+    <p><b>Solution.</b> Multiply both sides by 6ab: 6b + 6a = ab. Move everything to one side and add 36: ab - 6a - 6b + 36 = 36, which factors as (a - 6)(b - 6) = 36. Both a and b must be greater than 6 (if a were 6 or less, 1/a alone would already be at least 1/6), so a - 6 and b - 6 are a positive factor pair of 36. Thirty-six has nine positive factors (1, 2, 3, 4, 6, 9, 12, 18, 36), and each gives one ordered pair, from (7, 42) to (42, 7). The answer is 9, coded as 09 on the response form.</p>
+    <p class="ag-mt-40"><b>Problem 7 (Part C level; our practice problem, not a CEMC problem).</b> What are the last two digits of 7<sup>2027</sup>? Give the integer they form, from 0 to 99.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem 7 &middot; our working</b><span>text</span></figcaption><pre>7^1 =   7      last two digits 07
+7^2 =  49      last two digits 49
+7^3 = 343      last two digits 43
+7^4 = 2401     last two digits 01   &lt;- the cycle restarts
+
+2027 = 4 x 506 + 3
+7^2027 = (7^4)^506 x 7^3
+       ends in 01 x 43, so it ends in 43</pre><p class="ag-code-note">The answer is 43. The idea is that only the last two digits ever matter when multiplying, and 7 to the fourth power ends in 01, so the pattern of last two digits repeats every four powers. A student who sees the cycle needs no calculator; one who reaches for it will find 7<sup>2027</sup> far too large to display.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How to use the seven</h3><p>Give yourself 14 minutes for all seven, the pace of a real paper, and mark your answers before reading any solution. Note which ones you would have left blank under the scoring rule.</p>
+<p>Then read each solution and write down, in one line, the idea you were missing. That line is worth more than the score.</p></div><div><h3>What links them</h3><p>Problems 1, 2, 3 and 5 are all the same move: name one unknown well, and the rest follows. Problem 4 is careful listing. Problems 6 and 7 are Part C ideas, factoring a clever expression and finding a repeating pattern.</p>
+<p>Every solution ends with a check. On a multiple-choice paper the check is cheap, and it is the habit that catches a wrong letter before it costs 5 or 6 points.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="results">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Last year in numbers</p><h2>The 2026 Pascal Contest in CEMC's own figures</h2><p class="ag-lede">CEMC publishes averages and cutoffs on its contest page and question-by-question statistics in its results booklet. The figures below are copied from those two sources for Pascal only; the percentages are of the contestants CEMC counted on its statistics page.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Pascal 2026, from CEMC's Pascal, Cayley and Fermat page (read 22 October 2026)</caption><thead><tr><th scope="col">Measure</th><th scope="col">Pascal 2026</th></tr></thead><tbody><tr><td>Average (mean)</td><td>93.1 out of 150</td></tr><tr><td>Certificate of Distinction cutoff</td><td>110</td></tr><tr><td>School Medal Champion cutoff</td><td>93</td></tr><tr><td>Number of contestants</td><td>25 488</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>How far down the 2026 Pascal paper students got: share choosing the right answer and share leaving the question blank, from CEMC's 2026 PCF Results booklet (statistics page: 20945 contestants, average mark 93.79). Answers are not reproduced.</caption><thead><tr><th scope="col">Question</th><th scope="col">Chose the right answer</th><th scope="col">Left it blank</th></tr></thead><tbody><tr><td>1</td><td>97.62%</td><td>under 1%</td></tr><tr><td>10</td><td>59.95%</td><td>under 1%</td></tr><tr><td>16</td><td>39.48%</td><td>10.55%</td></tr><tr><td>20</td><td>24.36%</td><td>19.12%</td></tr><tr><td>21</td><td>37.93%</td><td>25.04%</td></tr><tr><td>22</td><td>27.20%</td><td>41.27%</td></tr><tr><td>23</td><td>18.33%</td><td>57.05%</td></tr><tr><td>24</td><td>5.18%</td><td>70.79%</td></tr><tr><td>25</td><td>1.29%</td><td>79.37%</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Two readings of our own. First, the 2026 Certificate of Distinction cutoff of 110 is about 73 percent of 150 (110 / 150). Because the certificate goes to "the top 25%" of writers, its line is set by the paper and the field, and it shifts from year to year. Second, by question 25 almost four in five students had left the question blank. That is not failure; it is the paper working as designed, and it is why the blank rule above is worth knowing.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Students registered for the 2026 Pascal Contest by province, from CEMC's 2026 PCF Results booklet (CEMC's own total)</caption><thead><tr><th scope="col">Where</th><th scope="col">Pascal students registered</th></tr></thead><tbody><tr><td>Ontario</td><td>8789</td></tr><tr><td>British Columbia</td><td>3736</td></tr><tr><td>Alberta</td><td>2843</td></tr><tr><td>Quebec</td><td>1823</td></tr><tr><td>Nova Scotia</td><td>779</td></tr><tr><td>Manitoba</td><td>745</td></tr><tr><td>New Brunswick</td><td>351</td></tr><tr><td>Saskatchewan</td><td>242</td></tr><tr><td>Prince Edward Island</td><td>215</td></tr><tr><td>Newfoundland and Labrador</td><td>204</td></tr><tr><td>Yukon and Northwest Territories</td><td>16 and 11</td></tr><tr><td>Outside Canada</td><td>5734</td></tr><tr><td>Total, as CEMC prints it</td><td>25488</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/pcf" rel="noopener" target="_blank">CEMC, Pascal, Cayley and Fermat Contests</a> (averages and cut-offs) and CEMC's 2026 PCF Results booklet, linked from that page, read 22 October 2026. CEMC says its contests "are not tests or exams. There is no passing or failing score."</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Five phases</p><h2>A plan from November 2026 to the February 2027 Pascal</h2><p class="ag-lede">This is our own plan, for a Grade 9 student who starts in early November 2026 and sits the paper on Tuesday 23 or Wednesday 24 February 2027. It is built on two live classes a week with roughly forty minutes of practice in between.</p></div>
+    <ol class="ag-steps"><li><b>Phase 1, 2 to 22 November 2026: speed and accuracy in Part A.</b> Fractions, percentages, powers and order of operations, worked exactly. The target by the end of the phase: ten Part A questions in twenty minutes with no careless slips. Ask the school now whether it will order the 2027 Pascal.</li><li><b>Phase 2, 23 November to 20 December 2026: algebra and ratio.</b> Turning words into one or two equations; the k method for ratios; our problems 1, 2 and 5. First Part B questions from past papers in CEMC's archive.</li><li><b>Phase 3, 21 December 2026 to 3 January 2027: the holiday fortnight.</b> No new topics. One problem a day from CEMC's Problem Set Generator, chosen at Part B level, with the solution read only after a real attempt.</li><li><b>Phase 4, 4 to 31 January 2027: geometry, counting and Part C.</b> Angles, areas and the Pythagorean theorem, careful listing, digits and remainders; our problems 3, 4, 6 and 7. One full 60-minute paper at the end of January. Ontario students sitting the EQAO Grade 9 window keep this phase to one class a week.</li><li><b>Phase 5, 1 to 21 February 2027: timed papers and the blank rule.</b> Two more past papers in exact contest conditions, each marked with the 5, 6, 8 and blank-2 rule, then reviewed line by line. Online writers try the PCF Online Practice Contest. Confirm the school's order is in before Tuesday, February 9, 2027.</li><li><b>Contest week, 22 to 24 February 2027.</b> A light review of the wrong-answer list, a good night's sleep, and the paper at school. The 2025 booklet asks writers not to discuss the problems or solutions online for the next 48 hours; we ask the same.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Grade 8, writing early</h3><p>Phases 1, 2 and 4 matter most. Finishing Part A cleanly and a few Part B questions is a strong first Pascal.</p></div><div><h3>Grade 9, first contest</h3><p>The full plan, aiming for all of Part B and one or two Part C questions.</p></div><div><h3>Grade 9, contest regular</h3><p>Phase 1 shortened to a week; the time moves to Part C and to the full-solution Fryer in April.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="archive">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Free practice from CEMC</p><h2>Using CEMC's past Pascal papers well</h2><p class="ag-lede">CEMC keeps its old papers online at no cost, each with its official solutions. We do not copy them onto our pages. Students open the originals, and the table shows what we do with each.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Free CEMC material for a Pascal writer (read 22 October 2026); the last column is how we use it</caption><thead><tr><th scope="col">Resource</th><th scope="col">What CEMC offers</th><th scope="col">How we use it</th></tr></thead><tbody><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">Past contests, solutions and results</a></td><td>"Problems, solutions and results from previous years can be found in the table below."</td><td>One full Pascal paper a month from December, and the last two in exam conditions</td></tr><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/problem-set-generator" rel="noopener" target="_blank">Problem Set Generator</a></td><td>Its Contest generator "Randomly chooses 25 problems (one each at #1, #2, #3, and so on)" from past contests</td><td>A fresh mixed paper with the shape of a real Pascal, for the holiday weeks</td></tr><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/courseware" rel="noopener" target="_blank">CEMC Courseware</a></td><td>Free lessons; "No registration is required to access these resources."</td><td>Revision of one Grade 9 topic at a time when a past paper exposes a gap</td></tr><tr><td>PCF Online Practice Contest</td><td>"available in January" for students writing online</td><td>A run-through of the online screens before contest day</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Our rule with past papers: the solution is opened only after a real attempt, and the student then explains CEMC's solution back in their own words. A paper read with the solutions open teaches pattern recognition at best; a paper struggled with teaches the ideas.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="next">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After Pascal</p><h2>From Pascal to Fryer, Cayley and, one day, Euclid</h2><p class="ag-lede">Pascal is the first rung of a ladder CEMC has built through high school. Everything in the table is CEMC's; the right-hand column is our advice.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Where a Grade 9 Pascal writer can go next, from CEMC's contest pages (read 22 October 2026)</caption><thead><tr><th scope="col">Contest</th><th scope="col">What CEMC says</th><th scope="col">Our advice</th></tr></thead><tbody><tr><td>Fryer (Grade 9, April 2027)</td><td>The full-solution contest for Grade 9: "North and South America: Wednesday, April 7, 2027", "4 questions", "Time allowed for completion is 75 minutes.", "Score out of 40."</td><td>The natural second contest of Grade 9: same grade, but the working is marked, not just the answer</td></tr><tr><td>Cayley (Grade 10)</td><td>"Students in Grade 10 are eligible to write the Cayley Contest."</td><td>Same shape as Pascal, so the habits from this year carry straight over</td></tr><tr><td>Euclid (final year)</td><td>For "Students in their final year of secondary school or CÉGEP students"; CEMC calls its last questions "some of the most complex and challenging among all our contests".</td><td>Three years away. The full-solution writing it needs starts with Fryer</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Families often ask whether a Pascal result matters for university. CEMC's own pages tie no admission rule to Pascal. The Waterloo admission facts CEMC and Waterloo publish concern the senior contests, which we cover on our <a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests page</a>. The honest value of Pascal in Grade 9 is the habit of thinking through a problem nobody has shown you how to do.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student starts</p>
+      <h2>From accurate to strategic: a Grade 9 ladder</h2>
+      <p class="ag-lede">The four steps we use in a first class to see where a Grade 9 student really is.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From school math to contest math (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Accurate</td><td class="ag-num">Solves textbook questions correctly but slowly, and has not seen a contest paper</td></tr><tr><td>2. Quick</td><td class="ag-num">Finishes Part A of a past Pascal in about twenty minutes with few slips</td></tr><tr><td>3. Inventive</td><td class="ag-num">Solves most of Part B by finding the one idea each question hides</td></tr><tr><td>4. Strategic</td><td class="ag-num">Reaches Part C with time to choose, and uses the blank rule on purpose</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Most Grade 9 students start at stage 1 or 2, and that is fine. Stage 3 by late January 2027 is the milestone that matters.</p>
+<p>If your child comes home saying the contest was hard, that is normal. Look at how they spent the hour, not just at the score.</p></div><div><h3>For students</h3><p>Keep a list of every question you got wrong and the idea that would have solved it. Read it the night before.</p>
+<p>Count your blanks in the margin as you go. Ten is the most that score.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses around the Pascal year</h2>
+      <p class="ag-lede">All nine are live online courses with the same teacher every week, taught in a batch or privately, wherever in Canada the student lives.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>The math underneath</h3>
+        <span class="ag-band-sub">Grades 8 to 10</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / BASE / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Equations and word problems, the Part A and B workhorse.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / BASE / 02</p>
+          <h4>Middle school math</h4>
+          <p>For a Grade 8 student writing Pascal early.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / BASE / 03</p>
+          <h4>Math through coding</h4>
+          <p>Patterns and counting explored in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Contest problem solving</h3>
+        <span class="ag-band-sub">Grades 9 to 11</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / STEP / 01</p>
+          <h4>Math competitions, younger students</h4>
+          <p>A first taste of contest problems before Grade 9.</p>
+          <a class="ag-course-link" href="/courses/middle-school-math-competitions-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / STEP / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>Counting and chance, met again in later contests.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / STEP / 03</p>
+          <h4>Proof and problem solving, Grades 8 to 10</h4>
+          <p>Written arguments, ready for Fryer in April.</p>
+          <a class="ag-course-link" href="/courses/jee-foundation-maths-course-class-8-10">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Alongside the contests</h3>
+        <span class="ag-band-sub">Coding and problem solving</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / ALSO / 01</p>
+          <h4>CCC Junior and Senior</h4>
+          <p>CEMC's programming contest, the week before Pascal.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / ALSO / 02</p>
+          <h4>Python for teens</h4>
+          <p>The language most first CCC writers use.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PCP / ALSO / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic and algorithms for curious minds.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live Pascal classes around a Grade 9 timetable</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school batches, with Eastern time converted to your province.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A weekend morning class keeps school nights for homework.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Fixed around the student, counting back from the school's contest day.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Original problems</h3><p>Practice sets our teachers write, alongside CEMC's archive.</p></div>
+      <div><h3>Marked like the paper</h3><p>Five, six and eight for right answers, two for a blank.</p></div>
+      <div><h3>One idea per question</h3><p>Every review names the idea that unlocks the problem.</p></div>
+      <div><h3>Full papers in February</h3><p>Sixty minutes, no pauses, reviewed the next class.</p></div>
+      <div><h3>Any province</h3><p>From Victoria to St. John's, on the same live lesson.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty in a batch, or one student and one teacher.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students make between contests</h2>
+      <p class="ag-lede">Contest math sits beside real projects in our classes. A few are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> page shows more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The school pays CEMC's contest fee when it orders. Our monthly fee covers the teaching only, with no season contract, so a family can stop after the February 2027 paper with nothing owed.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Three Pascal-style questions to start</li><li>Nothing to pay on the day</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students in a batch</li><li>Grouped by grade</li><li>Choose the batch that suits you</li><li>Billed month by month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One student, one teacher</li><li>Timed to your school's contest day</li><li>Built on your own mistakes list</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents, exactly as they posted them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What Grade 9 families ask</p>
+      <h2>Pascal Contest questions, answered</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Pascal Contest?</h3>
+        <p>It is the Grade 9 math contest that CEMC, part of the University of Waterloo, sets and marks each year. It has 25 multiple-choice questions, takes 60 minutes and is scored out of 150. CEMC says most of its problems test logical thinking and problem solving rather than content.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the Pascal Contest in 2027?</h3>
+        <p>For schools in the Americas, CEMC gives a two-day window, Tuesday, February 23, 2027 and Wednesday, February 24, 2027, and each school runs it on one of those days. The ordering deadline for schools in Canada is Tuesday, February 9, 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a Grade 8 student write Pascal?</h3>
+        <p>Yes. CEMC welcomes motivated students in lower grades, and says the Pascal Contest may be written by any participant in Grade 9 or below. A student can write only one of Pascal, Cayley and Fermat in a school year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the Pascal Contest scored?</h3>
+        <p>The 2025 booklet gives 5 points for each right answer in Part A, 6 in Part B and 8 in Part C. There is no penalty for a wrong answer, and each unanswered question is worth 2, up to a maximum of 10 unanswered questions. Check the 2027 booklet cover on the day.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child guess or leave a Pascal question blank?</h3>
+        <p>By our arithmetic, a blind guess is worth less than the 2 points a blank earns, as long as fewer than ten questions are blank. Guessing pays in Part A after three options are ruled out, and in Part B after two or three. That is our analysis of the scoring rule, not CEMC advice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child register for Pascal on their own?</h3>
+        <p>No. CEMC says students cannot register on their own and must be registered by their school. Where a school does not take part, CEMC points families to other schools nearby that may let the student write with them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are calculators allowed on the Pascal Contest?</h3>
+        <p>CEMC says some calculators are permitted. Devices with internet access, communication with other devices, stored notes or programs, a computer algebra system or dynamic geometry software are not, and CEMC names the Casio ClassPad 300 series, HP Prime and TI-Nspire CAS as examples.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where can we find past Pascal papers?</h3>
+        <p>Ten years of old Pascal papers, with official solutions and results, sit free on CEMC's website, and its Problem Set Generator builds new sets from past Pascal questions. Our own problems are written from scratch, and CEMC's papers stay on CEMC's site.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What was a good Pascal score in 2026?</h3>
+        <p>CEMC lists the 2026 Pascal average as 93.1 out of 150, the Certificate of Distinction cutoff as 110 and the School Medal Champion cutoff as 93. CEMC gives the certificate to the top 25 percent of competitors, so the cutoff changes each year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are your Pascal classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Class times are agreed in Eastern time, and we give each family the time on its own clock.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Further reading for a Grade 9 student who likes a problem with a twist.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a></h3><p>Our overview of every CEMC math contest, Grades 7 to 12.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>All our pages for Canadian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor, Canada</a></h3><p>School math help across the provinces.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>CEMC's programming contest, a week before Pascal.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>The full CCC route, Junior to Senior.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-olympiad-classes-online">Choosing a math olympiad</a></h3><p>How the world's contests compare.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-olympiad-amc-tutoring">AMC and AIME coaching</a></h3><p>The American multiple-choice papers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-challenges">Math challenges</a></h3><p>Contests students sit around the world.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">We teach you how to think</a></h3><p>Why we teach ideas, not answer keys.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class opens with three Pascal-style questions we wrote, worked together on screen with the clock running. Afterwards you hear which rung of the ladder your child is on and how we would spend the months up to the February 2027 paper.</p>
+        <p class="ag-mt-40">Want to read first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> shows a live class from the inside, and the <a class="ag-inline-link" href="/courses">full course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Grade%209%20in%20Canada%20and%20wants%20to%20write%20the%20Pascal%20Contest%20in%20February%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pcp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers work from India and teach every class by live video, so there is no centre in Canada to visit. WhatsApp reaches us fastest from any province or territory.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pcp(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class costs nothing, and we never ask for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/cemc-waterloo-contests-preparation">CEMC math contests</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/math-olympiad-amc-tutoring">AMC and AIME</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Count your blanks</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_pcp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'pascal-contest-preparation-inline', meta: { name: name, age: age, page: 'pascal-contest-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

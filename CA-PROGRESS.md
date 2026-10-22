@@ -185,7 +185,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 |---|------|------|-------|---------------|-------|---------------|--------|
 | 3 | coding-and-ai-classes-in-toronto (tor, #75544C) | city | 4,069 | 1.4% vs coding-and-ai-classes-in-north-carolina | school curriculum to city data | counting and grouping open data | b22d68fc |
 | 2 | ccc-junior-guide (ccj, #2C614F) | door | 6,913 | 0.6% vs game-design-classes-for-teens | contest guide | input parsing and simulation | 5de0f04c |
-| 1 | ics3u-computer-science-help (ics, #485A56) | door | 8,624 | 0.7% vs ccc-junior-guide | school course help | trace tables and decomposition | (this commit) |
+| 1 | ics3u-computer-science-help (ics, #485A56) | door | 8,624 | 0.7% vs ccc-junior-guide | school course help | trace tables and decomposition | 523cb5d0 |
+| 44 | pascal-contest-preparation (pcp, #8F512F) | contest | 6,412 | 0.7% vs ccc-junior-guide | contest guide | scoring rules and when to leave a blank | (this commit) |
 
 ## Skipped
 

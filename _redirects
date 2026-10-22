@@ -7594,4 +7594,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ics3u-computer-science-help /src/pages/ics3u-computer-science-help.html 200
 /ics3u-computer-science-help.md /src/pages/ics3u-computer-science-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/pascal-contest-preparation /src/pages/pascal-contest-preparation.html 200
+/pascal-contest-preparation.md /src/pages/pascal-contest-preparation.md 200
 /* /src/pages/404.html 404
