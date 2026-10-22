@@ -506,6 +506,7 @@ const SLUGS = [
   'quebec-secondary-4-math-cst-ts-science',
   'quebec-secondary-5-math-tutor',
   'cegep-computer-science-preparation',
+  'ics4u-computer-science-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1091,6 +1092,7 @@ const LLMS_LABELS = {
   'quebec-secondary-4-math-cst-ts-science': 'Quebec Secondary 4 math',
   'quebec-secondary-5-math-tutor': 'Quebec Secondary 5 math tutor',
   'cegep-computer-science-preparation': 'CEGEP computer science preparation',
+  'ics4u-computer-science-help': 'ICS4U computer science help',
 };
 
 function wireLlms(slugs) {

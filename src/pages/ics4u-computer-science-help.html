@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ICS4U Computer Science Help: Recursion, OOP, Python and Java</title>
+  <meta name="description" content="ICS4U help for Ontario Grade 12: the four strands, recursion and objects, one merge sort solved in Python and Java, ten practice questions and an exam plan.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ics4u-computer-science-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ics4u-computer-science-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7A1212">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ics4u-computer-science-help">
+  <meta property="og:title" content="ICS4U Computer Science Help: Recursion, OOP, Python and Java">
+  <meta property="og:description" content="What Grade 12 computer science in Ontario asks for, from the 2008 curriculum: modular design, recursion, algorithm analysis and a team project, with worked code in Python and Java.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ICS4U Computer Science Help: Recursion, OOP, Python and Java">
+  <meta name="twitter:description" content="ICS4U from the Ontario curriculum, with a merge sort in Python and Java and ten practice questions.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-icc .ag-hero h1 { letter-spacing: -0.015em; max-width: 21ch; }
+.ag-root.ag-icc .ag-capsule { border-left-width: 6px; border-radius: 0; }
+.ag-root.ag-icc .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-icc .ag-table caption { text-align: left; font-variant-numeric: tabular-nums; }
+.ag-root.ag-icc .ag-code-head b { letter-spacing: 0.02em; }
+.ag-root.ag-icc .ag-steps li { margin-bottom: 0.6rem; line-height: 1.6; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ics4u-computer-science-help#page","url":"https://learn.modernagecoders.com/ics4u-computer-science-help","name":"ICS4U Computer Science Help","description":"A guide for Ontario Grade 12 students and parents to ICS4U, Computer Science, University Preparation, built from the 2008 curriculum document, with a recursive merge sort on objects in two languages, a recursion pitfalls study and ten practice questions with answers.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":3,"name":"Ontario","item":"https://learn.modernagecoders.com/coding-classes-in-ontario"},{"@type":"ListItem","position":4,"name":"ICS4U help","item":"https://learn.modernagecoders.com/ics4u-computer-science-help"}]},{"@type":"Course","name":"ICS4U Computer Science Help","description":"Live online ICS4U help for Ontario Grade 12 students in Python or Java, run beside the school course in a batch or one to one. Ontario credits are not granted.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ics4u-computer-science-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ics4u-computer-science-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ics4u-computer-science-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is ICS4U?","acceptedAnswer":{"@type":"Answer","text":"ICS4U is Computer Science, Grade 12, University Preparation. Its expectations sit in Ontario's 2008 Computer Studies curriculum for Grades 10 to 12, and it covers data types and expressions, modular programming, algorithms including searching, sorting and recursion, a student-managed team project, algorithm analysis, and topics such as ethics and emerging technology."}},{"@type":"Question","name":"What is the prerequisite for ICS4U?","acceptedAnswer":{"@type":"Answer","text":"ICS3U, Introduction to Computer Science, Grade 11, University Preparation. Both the 2008 curriculum document and the current Ontario curriculum website list it as the prerequisite."}},{"@type":"Question","name":"Can you give my student the ICS4U credit?","acceptedAnswer":{"@type":"Answer","text":"No. Our ICS4U classes are teaching and practice beside the school course, and we do not grant Ontario credits. The credit comes from the school, night school, summer school or credit provider that teaches and evaluates the course."}},{"@type":"Question","name":"Is ICS4U taught in Python or Java?","acceptedAnswer":{"@type":"Answer","text":"It depends on the school. The 2008 curriculum leaves the programming language to the teacher, and Ontario classes commonly use Python or Java. We teach in whichever one the student's class uses."}},{"@type":"Question","name":"Is ICS4U hard?","acceptedAnswer":{"@type":"Answer","text":"It is a step up from ICS3U. Most students find recursion, designing classes before coding, and managing their share of the team project the hardest parts. Each of those improves with worked examples and practice, but nobody can honestly promise a mark in advance."}},{"@type":"Question","name":"What does recursion mean in ICS4U?","acceptedAnswer":{"@type":"Answer","text":"A method that solves a problem by calling itself on a smaller version of it, stopping at a base case. The curriculum asks students to design simple and efficient recursive algorithms, and to recognise pitfalls such as infinite recursion and the exponential growth of a plain recursive Fibonacci method."}},{"@type":"Question","name":"Which sorting and searching algorithms does ICS4U include?","acceptedAnswer":{"@type":"Answer","text":"The curriculum asks for linear and binary search, a sort such as bubble, insertion or selection, and lists merge sort among its recursion examples. It also asks students to compare their efficiency using run times and counts of comparisons or loop passes."}},{"@type":"Question","name":"Can ICS4U be taken as a half credit?","acceptedAnswer":{"@type":"Answer","text":"No. The 2008 curriculum allows its courses to be delivered as half-credit courses with the exception of the Grade 12 university preparation course, which is ICS4U."}},{"@type":"Question","name":"Do universities require ICS4U for computer science?","acceptedAnswer":{"@type":"Answer","text":"On 22 October 2026, Waterloo's Computer Science page listed Advanced Functions and Calculus and Vectors among its Ontario requirements and recommended the Grade 11 computer science course, and the University of Toronto's three Computer Science listings named no computer science course. Requirements change, so check each university's page in the year you apply."}},{"@type":"Question","name":"When are classes for Ontario families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We agree the time in your own Ontario time zone."}},{"@type":"Question","name":"How much do ICS4U classes cost?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. After it, families pay a monthly fee and can stop after any month. The fees section on this page shows the current figure for a batch and for one to one."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ics4u-computer-science-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-icc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#covers">Strands</a></li>
+      <li><a href="#worked">Merge sort</a></li>
+      <li><a href="#recursion">Recursion</a></li>
+      <li><a href="#practice">Practice</a></li>
+      <li><a href="#exam">Exam</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-canada">Canada</a> / <a href="/coding-classes-in-ontario">Ontario</a> / ICS4U help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Ontario &middot; Grade 12 &middot; ICS4U in Python or Java</p>
+        <h1>ICS4U computer science help, from recursion to the team project</h1>
+        <p class="ag-lede">Grade 12 computer science is the year the programs stop fitting on one screen. Classes split across files, a method calls itself, and the teacher starts asking how many comparisons an algorithm makes rather than whether it works. This guide reads ICS4U straight from the Ontario curriculum, then works one Grade 12 problem in Python and in Java, studies the recursion trap the curriculum names, and ends with ten questions we wrote ourselves. Our classes run beside the school course; we do not grant Ontario credits, and the ICS4U credit itself comes only from the school or credit provider that evaluates the student.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#practice" class="ag-btn ag-btn--ghost">Go to the practice set</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20Grade%2012%20student%20in%20Ontario%20is%20taking%20ICS4U%20and%20wants%20help%20with%20recursion%20and%20the%20project.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'icc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students &middot; Taught in the language the school uses</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Course</dt><dd>ICS4U, Grade 12 University</dd>
+          <dt>Needs first</dt><dd>ICS3U</dd>
+          <dt>Language</dt><dd>Python or Java</dd>
+          <dt>Focus</dt><dd>Recursion, classes, algorithm analysis</dd>
+          <dt>Format</dt><dd>Batch or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends</dd>
+          <dt>Credit</dt><dd>Not granted by us</dd>
+          <dt>First step</dt><dd>A free class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short answer</p>
+      <p>ICS4U is Computer Science, Grade 12, University Preparation, the Ontario course after ICS3U. Students split programs across files, write recursive algorithms, compare searches and sorts by the work they do, and run a team software project. Modern Age Coders teaches ICS4U students live online, one to one or in a group batch, through Ontario Computer Science Companion: ICS3U and ICS4U.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for Grade 12</p>
+      <h2>Three courses that fit an ICS4U year</h2>
+      <p class="ag-lede">Start with the companion course, which is paced to the school outline. The second goes further on algorithms; the third covers the Grade 12 math that sits beside ICS4U.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ics3u-ics4u-computer-science-companion-course">
+        <div class="ag-pick-shot"><img src="/images/ontario-computer-science-ics3u-ics4u.webp" alt="Ontario Computer Science Companion course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ICC / 01</p>
+          <h3>Ontario Computer Science Companion</h3>
+          <p>Grade 12 work in step with the class: recursion, classes across files, searches and sorts, and the team project plan.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ICC / 02</p>
+          <h3>Problem solving for teens</h3>
+          <p>Stacks, queues, dictionaries and the analysis of algorithms, for students who enjoy the hard questions.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course">
+        <div class="ag-pick-shot"><img src="/images/ontario-grade-12-university-math.webp" alt="Ontario Grade 12 University Math course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ICC / 03</p>
+          <h3>Ontario Grade 12 University Math</h3>
+          <p>Advanced Functions and Calculus and Vectors, the Grade 12 math that university computer science pages name, taken in the same year as ICS4U.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="covers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The curriculum, Grade 12</p><h2>What ICS4U covers, in the curriculum&rsquo;s own words</h2><p class="ag-lede">ICS4U is described in the same 2008 document as the Grade 11 course, and its opening line is modest: &ldquo;This course enables students to further develop knowledge and skills in computer science.&rdquo; The rest of the description is where Grade 12 shows itself: &ldquo;Student teams will manage a large software development project, from planning through to project review.&rdquo; and &ldquo;Students will also analyse algorithms for effectiveness.&rdquo; The course has four strands.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The four ICS4U strands with every overall expectation the 2008 Computer Studies document gives them (our copy fetched 22 October 2026)</caption><thead><tr><th scope="col">Strand</th><th scope="col">Overall expectations, quoted</th><th scope="col">In a Grade 12 classroom (our reading)</th></tr></thead><tbody><tr><td>A. Programming Concepts and Skills</td><td>&ldquo;use different data types and expressions when creating computer programs&rdquo;; &ldquo;describe and use modular programming concepts and principles in the creation of computer programs&rdquo;; &ldquo;design and write algorithms and subprograms to solve a variety of problems&rdquo;; &ldquo;use proper code maintenance techniques when creating computer programs&rdquo;</td><td>Classes and objects, programs split over several files, searching and sorting written by hand, recursion, file input and output, testing and documentation</td></tr><tr><td>B. Software Development</td><td>&ldquo;manage the software development process effectively, through all of its stages&rdquo;; &ldquo;apply standard project management techniques in the context of a student-managed team project&rdquo;</td><td>A long group project with a scope document, a schedule, shared code and a review at the end</td></tr><tr><td>C. Designing Modular Programs</td><td>&ldquo;apply modular design concepts in computer programs&rdquo;; &ldquo;analyse algorithms for their effectiveness in solving a problem&rdquo;</td><td>Breaking a problem into classes before writing any of them, then counting the work an algorithm does</td></tr><tr><td>D. Topics in Computer Science</td><td>&ldquo;analyse ethical issues and propose strategies to encourage ethical practices related to the use of computers&rdquo;; &ldquo;analyse the impact of emerging computer technologies on society and the economy&rdquo;; &ldquo;research and report on different areas of research in computer science, and careers related to computer science&rdquo;</td><td>Reports and presentations: an ethics case, an emerging technology, a research field, and the routes into the careers</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The specific expectations that surprise students</h3><p>Strand A is longer than most families expect. It asks for &ldquo;integer division and resultant remainders&rdquo;, for &ldquo;non-numeric comparisons (e.g., strings, comparable interface)&rdquo; and for an understanding of the &ldquo;limitations of finite data representations (e.g., integer bounds, precision of floating-point real numbers, rounding errors)&rdquo;. Questions 3 and 4 in our practice set are about exactly those limits.</p>
+<p>It also moves from one-dimensional to two-dimensional arrays, with examples that include multiplying matrices and the chance to &ldquo;process pixels in an image&rdquo;, and it asks for a program &ldquo;divided among multiple files&rdquo;. Many students write their first program with more than one source file in this course.</p></div><div><h3>A new strand C, about design</h3><p>In Grade 11 the third strand dealt with computer hardware and environments. In ICS4U it becomes Designing Modular Programs. Students are asked to decompose a problem into modules, classes or abstract data types, naming &ldquo;(e.g., stack, queue, dictionary)&rdquo;, and to &ldquo;apply data encapsulation in program design&rdquo;.</p>
+<p>The same strand brings in algorithm analysis: preconditions and postconditions, and comparing searches and sorts &ldquo;using run times and computational complexity analysis&rdquo;. This is the part of ICS4U that first-year university computer science builds on most directly.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Testing and documentation grow up</h3><p>Grade 11 asked students to test with good cases. Grade 12 asks for a formal testing plan, and names three kinds: &ldquo;unit testing, integration testing, regression testing&rdquo;. In plain terms: test each method alone, test the parts together, and rerun the old tests every time you change something.</p>
+<p>Documentation has its own list as well: &ldquo;doc comments, docstrings, block comments, line comments&rdquo;. Javadoc in Java and docstrings in Python are both on it, which is why so many ICS4U marking schemes check comments.</p></div><div><h3>One rule that applies only to this course</h3><p>The 2008 document allows its courses to be split into two half credits, &ldquo;with the exception of the Grade 12 university preparation course&rdquo;. ICS4U is that course: it is designed and delivered as one full credit.</p>
+<p>Its prerequisite, on both the 2008 document and the current Ontario curriculum website, is ICS3U, written out as &ldquo;Introduction to Computer Science, Grade 11, University Preparation&rdquo;. A student who skipped Grade 11 computer science needs it first.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf" rel="noopener" target="_blank">The Ontario Curriculum, Grades 10 to 12: Computer Studies (2008)</a>, ICS4U course pages and the section on half-credit courses, read 22 October 2026; the Ontario curriculum website&rsquo;s course record for ICS4U, read through its public content service the same day (year issued 2008). Modern Age Coders has no connection with the Ontario Ministry of Education or any school board.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="ideas">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The three big ideas</p><h2>Recursion, objects and algorithm analysis</h2><p class="ag-lede">Almost every hard ICS4U question is one of three ideas in disguise. Here is each one in a sentence, and a table we built to show what the curriculum means by comparing two searches.</p></div>
+    <div class="ag-grid-3"><div><h3>Recursion</h3><p>A method that solves a problem by calling itself on a smaller version of it. The curriculum asks students to &ldquo;design a simple and efficient recursive algorithm&rdquo;, and both words in that phrase matter: simple and efficient.</p></div><div><h3>Objects</h3><p>Data and the methods that act on it, bundled in a class. ICS4U names encapsulation, inheritance, overloading, overriding and polymorphism, and asks for arrays of objects, not only of numbers.</p></div><div><h3>Analysis</h3><p>Counting the work before trusting the clock. How many comparisons, how many loop passes, how the count grows when the input doubles. That is what turns working code into a defensible choice.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Worst-case comparisons to find a value in a list, linear search against binary search (ours; binary counts checked by running the search on every possible target for 10 and 1,000 items)</caption><thead><tr><th scope="col">Items in the list</th><th scope="col">Linear search, worst case</th><th scope="col">Binary search, worst case</th><th scope="col">Binary search needs</th></tr></thead><tbody><tr><td class="ag-num">10</td><td class="ag-num">10</td><td class="ag-num">4</td><td>A sorted list</td></tr><tr><td class="ag-num">1,000</td><td class="ag-num">1,000</td><td class="ag-num">10</td><td>A sorted list</td></tr><tr><td class="ag-num">1,000,000</td><td class="ag-num">1,000,000</td><td class="ag-num">20</td><td>A sorted list</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading the table</h3><p>The linear column grows with the list: ten times the items, ten times the checks. The binary column grows by about one probe each time the list doubles, which is why a million sorted items need about twenty. Students who can explain that sentence can answer most search questions on an ICS4U test.</p>
+<p>The curriculum&rsquo;s own wording for this skill is to &ldquo;compare the efficiency of linear and binary searches&rdquo;, and it suggests counting &ldquo;the number of comparisons performed&rdquo;. A table like this one, with your own counts, is a strong answer.</p></div><div><h3>The column people forget</h3><p>Binary search only works on sorted data. The curriculum asks students to &ldquo;analyse a precondition (i.e., starting state) and a postcondition (i.e., ending state) in an algorithm&rdquo;, and a sorted array is the precondition of binary search.</p>
+<p>Practice question 7 runs binary search on an unsorted list. It returns -1 for a value that is sitting in the list. Nothing crashes: the precondition was broken and the answer is quietly wrong.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="worked">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A worked problem, ours</p><h2>One ICS4U problem in Python and Java: ranking objects with merge sort</h2><p class="ag-lede">This problem is ours, written at the level of an ICS4U unit on sorting. It joins three Grade 12 expectations in one program: an array of objects, a comparison rule that is not just a number, and a recursive merge sort, which the curriculum lists by name among its recursion examples. Both versions were run and print the same nine lines.</p></div>
+    <p><b>The problem.</b> A playlist holds tracks, each with a title and a play count. Rank them from most played to least. When two tracks have the same play count, put them in alphabetical order by title. Write the sort yourself, recursively, and count how many comparisons it makes.</p>
+    <ol class="ag-steps"><li><b>Model the data first.</b> A Track has two fields, a title and a play count. Writing the class before the sort keeps the sort short, and is the &ldquo;decompose a problem into modules, classes&rdquo; step the curriculum describes.</li><li><b>Put the ordering rule in one place.</b> In Python a method, <code>comes_before</code>; in Java the <code>compareTo</code> method of the Comparable interface. The sort never looks inside a Track; it only asks which of two comes first.</li><li><b>Find the base case.</b> A list of zero or one track is already sorted. Every recursive call must move toward that case, and halving the list does.</li><li><b>Split, sort each half, then merge.</b> The two recursive calls do the sorting; the merge loop does the comparing. Each pass of the merge loop compares the front of the left half with the front of the right half and takes the one that comes first.</li><li><b>Decide what happens on a tie.</b> Taking from the left half when neither comes first keeps equal items in their original order. That makes the sort stable, which matters when a list has already been sorted by something else.</li><li><b>Count the work.</b> One counter, increased once per comparison, turns the program into evidence for an analysis question. The sample playlist takes 15 comparisons.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; merge sort on Track objects (ours)</b><span>python</span></figcaption><pre># Rank a playlist with a recursive merge sort on objects (ours)
+
+class Track:
+    def __init__(self, title, plays):
+        self.title = title
+        self.plays = plays
+
+    def comes_before(self, other):
+        """More plays first; equal plays fall back to title order."""
+        if self.plays != other.plays:
+            return self.plays &gt; other.plays
+        return self.title &lt; other.title
+
+
+def merge_sort(tracks, counter):
+    """Return a new sorted list. counter[0] counts comparisons."""
+    if len(tracks) &lt;= 1:                  # base case: already sorted
+        return tracks[:]
+    mid = len(tracks) // 2
+    left = merge_sort(tracks[:mid], counter)    # recursive case
+    right = merge_sort(tracks[mid:], counter)
+    merged = []
+    i = j = 0
+    while i &lt; len(left) and j &lt; len(right):
+        counter[0] += 1
+        if right[j].comes_before(left[i]):
+            merged.append(right[j])
+            j += 1
+        else:                             # ties keep the left one: stable
+            merged.append(left[i])
+            i += 1
+    merged.extend(left[i:])
+    merged.extend(right[j:])
+    return merged
+
+
+playlist = [Track("Northern Lights", 41), Track("Portage", 17),
+            Track("Lake Effect", 41), Track("Snowbank", 8),
+            Track("Ferry Line", 23), Track("Big Smoke", 17),
+            Track("Muskoka", 30), Track("Algonquin", 23)]
+count = [0]
+for t in merge_sort(playlist, count):
+    print(t.plays, t.title)
+print("Comparisons:", count[0])</pre><p class="ag-code-note">Output: eight lines from 41 Lake Effect down to 8 Snowbank, then Comparisons: 15. Lake Effect comes before Northern Lights because their play counts tie at 41 and L comes before N.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Java &middot; merge sort on Track objects (ours)</b><span>java</span></figcaption><pre>// Rank a playlist with a recursive merge sort on objects (ours)
+import java.util.Arrays;
+
+class Track implements Comparable&lt;Track&gt; {
+    private final String title;
+    private final int plays;
+
+    public Track(String title, int plays) {
+        this.title = title;
+        this.plays = plays;
+    }
+
+    // Negative means this track comes first: more plays, then title order.
+    @Override
+    public int compareTo(Track other) {
+        if (plays != other.plays) {
+            return Integer.compare(other.plays, plays);
+        }
+        return title.compareTo(other.title);
+    }
+
+    @Override
+    public String toString() {
+        return plays + " " + title;
+    }
+}
+
+public class Ranking {
+    static int comparisons = 0;
+
+    static Track[] mergeSort(Track[] tracks) {
+        if (tracks.length &lt;= 1) {                 // base case
+            return tracks;
+        }
+        int mid = tracks.length / 2;
+        Track[] left = mergeSort(Arrays.copyOfRange(tracks, 0, mid));
+        Track[] right = mergeSort(Arrays.copyOfRange(tracks, mid, tracks.length));
+        Track[] merged = new Track[tracks.length];
+        int i = 0, j = 0, k = 0;
+        while (i &lt; left.length &amp;&amp; j &lt; right.length) {
+            comparisons++;
+            if (right[j].compareTo(left[i]) &lt; 0) {
+                merged[k++] = right[j++];
+            } else {                              // ties keep the left one
+                merged[k++] = left[i++];
+            }
+        }
+        while (i &lt; left.length) merged[k++] = left[i++];
+        while (j &lt; right.length) merged[k++] = right[j++];
+        return merged;
+    }
+
+    public static void main(String[] args) {
+        Track[] playlist = {
+            new Track("Northern Lights", 41), new Track("Portage", 17),
+            new Track("Lake Effect", 41), new Track("Snowbank", 8),
+            new Track("Ferry Line", 23), new Track("Big Smoke", 17),
+            new Track("Muskoka", 30), new Track("Algonquin", 23)
+        };
+        for (Track t : mergeSort(playlist)) {
+            System.out.println(t);
+        }
+        System.out.println("Comparisons: " + comparisons);
+    }
+}</pre><p class="ag-code-note">Same nine lines. Java keeps the fields private and exposes only compareTo and toString, which is encapsulation in practice; Python leaves the fields open and relies on convention.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Comparisons made by insertion sort and by merge sort on lists of whole numbers (ours; shuffled lists use Python&rsquo;s random.shuffle with seed 2026, and every result was checked against sorted())</caption><thead><tr><th scope="col">List size</th><th scope="col">Insertion, already sorted</th><th scope="col">Insertion, reversed</th><th scope="col">Insertion, shuffled</th><th scope="col">Merge, already sorted</th><th scope="col">Merge, reversed</th><th scope="col">Merge, shuffled</th></tr></thead><tbody><tr><td class="ag-num">8</td><td class="ag-num">7</td><td class="ag-num">28</td><td class="ag-num">26</td><td class="ag-num">12</td><td class="ag-num">12</td><td class="ag-num">14</td></tr><tr><td class="ag-num">32</td><td class="ag-num">31</td><td class="ag-num">496</td><td class="ag-num">259</td><td class="ag-num">80</td><td class="ag-num">80</td><td class="ag-num">124</td></tr><tr><td class="ag-num">128</td><td class="ag-num">127</td><td class="ag-num">8,128</td><td class="ag-num">3,977</td><td class="ag-num">448</td><td class="ag-num">448</td><td class="ag-num">730</td></tr><tr><td class="ag-num">512</td><td class="ag-num">511</td><td class="ag-num">130,816</td><td class="ag-num">63,530</td><td class="ag-num">2,304</td><td class="ag-num">2,304</td><td class="ag-num">3,939</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the counts say</h3><p>On a reversed list of 512 numbers, insertion sort makes 130,816 comparisons and merge sort makes 2,304. Insertion sort&rsquo;s reversed count is n times (n minus 1), halved, so it grows with the square of the size; merge sort grows close to n times the number of halvings.</p>
+<p>The surprise is the first column. On a list that is already sorted, insertion sort makes only 511 comparisons and beats merge sort easily. A good ICS4U answer says which algorithm wins and on what input, not just which one is faster.</p></div><div><h3>Where students lose marks</h3><p>Forgetting the base case, so the method calls itself until the program runs out of stack. Merging with the wrong comparison direction, which sorts the playlist from least played to most. Comparing strings with <code>==</code> in Java instead of <code>compareTo</code> or <code>equals</code>.</p>
+<p>And the subtle one: counting comparisons in the wrong place. The counter belongs inside the loop that compares, once per comparison, not once per recursive call.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="recursion">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The trap the curriculum names</p><h2>Recursion pitfalls: why a two-line Fibonacci method takes millions of calls</h2><p class="ag-lede">The ICS4U curriculum is unusually specific about where recursion goes wrong. It asks students to &ldquo;identify common pitfalls in recursive functions (e.g., infinite recursion, exponential growth in recursive algorithms such as Fibonacci numbers)&rdquo;. This small experiment of ours shows the second pitfall with real counts.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; slow and memoised Fibonacci, with a call counter (ours)</b><span>python</span></figcaption><pre># Two ways to compute Fibonacci numbers, with a call counter (ours)
+
+calls = 0
+
+def fib_slow(n):
+    global calls
+    calls += 1
+    if n &lt; 2:                      # base cases: fib(0) = 0, fib(1) = 1
+        return n
+    return fib_slow(n - 1) + fib_slow(n - 2)
+
+def fib_memo(n, memo):
+    global calls
+    calls += 1
+    if n &lt; 2:
+        return n
+    if n not in memo:              # work out each value once, then reuse it
+        memo[n] = fib_memo(n - 1, memo) + fib_memo(n - 2, memo)
+    return memo[n]
+
+for n in (10, 20, 30):
+    calls = 0
+    slow = fib_slow(n)
+    slow_calls = calls
+    calls = 0
+    fast = fib_memo(n, {})
+    print(n, slow, slow_calls, fast, calls)</pre><p class="ag-code-note">Output, one line per n: the value from each method and the number of calls each one made. The figures are in the table below.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Calls needed to compute the nth Fibonacci number (ours, from the program above, Python 3.13)</caption><thead><tr><th scope="col">n</th><th scope="col">fib(n)</th><th scope="col">Calls, plain recursion</th><th scope="col">Calls, with a memo</th></tr></thead><tbody><tr><td class="ag-num">10</td><td class="ag-num">55</td><td class="ag-num">177</td><td class="ag-num">19</td></tr><tr><td class="ag-num">20</td><td class="ag-num">6,765</td><td class="ag-num">21,891</td><td class="ag-num">39</td></tr><tr><td class="ag-num">30</td><td class="ag-num">832,040</td><td class="ag-num">2,692,537</td><td class="ag-num">59</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the plain version explodes</h3><p>Each call to <code>fib_slow(n)</code> makes two more calls, and those calls repeat the same work: fib(28) is computed twice inside fib(30), fib(27) three times, and so on down. Going from n = 20 to n = 30 multiplies the calls by more than a hundred.</p>
+<p>The memo version stores every answer the first time it is found. After that, asking for fib(25) again costs one call instead of a quarter of a million. Same recursion, same base cases, one dictionary added.</p></div><div><h3>The other pitfall: no way out</h3><p>Infinite recursion is the first example in the curriculum&rsquo;s list. It happens when a recursive call never reaches the base case, and practice question 2 is built around it. Java stops with a StackOverflowError; Python stops with a RecursionError once it passes its default limit of 1,000 nested calls.</p>
+<p>The curriculum&rsquo;s list of recursion examples is worth knowing too: &ldquo;calculate a factorial, translate numbers into words, perform a merge sort, generate fractals, perform XML parsing&rdquo;. We work through at least three of them with every Grade 12 student, because each one has a different base case.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="language">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Python or Java</p><h2>ICS4U in Python or Java: the same objects, spelled two ways</h2><p class="ag-lede">The Grade 12 ideas are language-neutral, but object-oriented code looks very different in the two languages Ontario classes use most. This comparison is ours; every line was checked in Python 3.13 and Java 22.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Object-oriented ICS4U ideas in Python and Java (ours)</caption><thead><tr><th scope="col">Idea</th><th scope="col">Python</th><th scope="col">Java</th></tr></thead><tbody><tr><td>Define a class</td><td><code>class Track:</code> with an <code>__init__</code> method</td><td><code>class Track { ... }</code> with a constructor named after the class</td></tr><tr><td>Keep data private</td><td>By convention: a leading underscore, <code>self._plays</code></td><td>Enforced: <code>private int plays;</code> plus methods to read it</td></tr><tr><td>Inherit</td><td><code>class Circle(Shape):</code></td><td><code>class Circle extends Shape</code></td></tr><tr><td>Override a method</td><td>Define a method with the same name in the subclass</td><td>Same, with <code>@Override</code> so the compiler checks it</td></tr><tr><td>Overload a method</td><td>Not in the Java sense: a second <code>def</code> with the same name replaces the first; use default arguments instead</td><td>Several methods with one name and different parameter lists</td></tr><tr><td>Make objects sortable</td><td>Write a comparison method, or define <code>__lt__</code></td><td>Implement <code>Comparable</code> and its <code>compareTo</code></td></tr><tr><td>Too-deep recursion</td><td>RecursionError after 1,000 nested calls by default</td><td>StackOverflowError when the call stack fills</td></tr><tr><td>Split across files</td><td>One module per file, then <code>import</code></td><td>One public class per file, then compile them together</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If your class uses Python</h3><p>Python makes classes quick to write, which hides how much design the curriculum wants. One mistake we meet again and again: a student writes two methods with one name, expecting Java behaviour, and the second silently replaces the first.</p>
+<p>We ask Python students to write docstrings on every class and method from the first week, since the curriculum names docstrings, and to draw the class diagram on paper before typing a single <code>def</code>.</p></div><div><h3>If your class uses Java</h3><p>Java is strict about types and access, which makes it a natural fit for the encapsulation, inheritance and interface expectations. The cost is ceremony: getters, setters, constructors and generics such as <code>Comparable&lt;Track&gt;</code> before anything sorts.</p>
+<p>Our Java students practise reading a long compiler error from the first line, and writing Javadoc comments as they go rather than in a rush the night before. If <code>cannot find symbol</code> keeps appearing across files, our <a class="ag-inline-link" href="/java-cannot-find-symbol-error">cannot find symbol guide</a> covers the usual causes.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Strand B in practice</p><h2>The ICS4U team project, from scope document to review</h2><p class="ag-lede">Strand B makes the project part of the course itself. Students &ldquo;create a software project plan by producing a software scope document and determining the tasks, deliverables, and schedule&rdquo;, then build, deliver and review it. The plan below is ours, for an eight-week project; schools set their own length.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>An eight-week ICS4U team project plan (ours; adjust to the teacher&rsquo;s dates)</caption><thead><tr><th scope="col">Week</th><th scope="col">The team does</th><th scope="col">Each student owns</th></tr></thead><tbody><tr><td class="ag-num">1</td><td>Agree the idea, write the scope document, list what is out of scope</td><td>One section of the scope document</td></tr><tr><td class="ag-num">2</td><td>Class diagram, task list and a Gantt chart with milestones</td><td>Two or three classes, named in the diagram</td></tr><tr><td class="ag-num">3</td><td>Shared repository set up, skeleton classes that compile and run</td><td>Their classes as empty methods with doc comments</td></tr><tr><td class="ag-num">4</td><td>First working version, however plain</td><td>Unit tests for their own methods</td></tr><tr><td class="ag-num">5</td><td>Integration: the parts joined and tested together</td><td>Fixing whatever breaks where their code meets a teammate&rsquo;s</td></tr><tr><td class="ag-num">6</td><td>Features from the plan, and nothing new</td><td>Regression tests rerun after every change</td></tr><tr><td class="ag-num">7</td><td>Freeze features, write the user guide, rehearse the demonstration</td><td>Their part of the user documentation</td></tr><tr><td class="ag-num">8</td><td>Deliver, then review the project against the plan</td><td>A short reflection on time spent against time planned</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the curriculum asks the team to prove</h3><p>The tools are named: &ldquo;Gantt chart, PERT chart, calendar&rdquo;. So is the ending. Students review the project and &ldquo;compare plan to actual performance&rdquo;, then write it up. A team that kept no plan has nothing to compare, which is why week 2 in our plan is all planning.</p>
+<p>Each student is also assessed on their own contribution, including the ability to meet goals by &ldquo;managing individual time during a group project&rdquo;. A student who did good code late can still lose marks for time management.</p></div><div><h3>Where we help, and where we stop</h3><p>We help a student scope a project they can finish, design their own classes, write their tests and get through integration week. We review their plan and their code with them, line by line.</p>
+<p>We do not write any part of a graded project. That is a matter of honesty, and also of the student&rsquo;s interest: in a review or a demonstration, the teacher will ask them to explain their own code, and they need to own every line of it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice, ours</p><h2>Ten ICS4U practice questions</h2><p class="ag-lede">We wrote all ten for this page. None of them comes from a school, a board or a past exam. Questions 1 and 2 trace recursion, 3 and 4 probe the limits of numbers, 5 and 6 cover objects and two-dimensional arrays, 7 and 8 are analysis, then one design question and one to write. Try each on paper first.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 1 &middot; trace recursion &middot; Python</b><span>python</span></figcaption><pre>def mystery(n):
+    if n == 0:
+        return 0
+    return n % 10 + mystery(n // 10)
+
+print(mystery(4096))</pre><p class="ag-code-note">What is printed? Write out each call and what it returns.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 2 &middot; infinite recursion &middot; Java</b><span>java</span></figcaption><pre>static int countDown(int n) {
+    if (n == 0) return 0;
+    return 1 + countDown(n - 2);
+}
+// called as countDown(6), then countDown(7)</pre><p class="ag-code-note">What does countDown(6) return? What happens with countDown(7), and why? Change one line so that both calls finish.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 3 &middot; integer bounds &middot; Java</b><span>java</span></figcaption><pre>int big = 2147483647;
+big = big + 1;
+System.out.println(big);</pre><p class="ag-code-note">What is printed? Name the limit involved and one way to avoid it.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 4 &middot; floating point &middot; Python</b><span>python</span></figcaption><pre>print(0.1 + 0.2 == 0.3)</pre><p class="ag-code-note">True or False? Explain, and write a comparison that gives the answer a person would expect.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 5 &middot; overriding &middot; Java</b><span>java</span></figcaption><pre>class Shape { String name() { return "shape"; } }
+class Circle extends Shape {
+    @Override String name() { return "circle"; }
+}
+Shape s = new Circle();
+System.out.println(s.name());</pre><p class="ag-code-note">What is printed? Which ICS4U term describes what happened? Then: what would change if Circle had a method name(String prefix) instead?</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 6 &middot; two-dimensional array &middot; Python</b><span>python</span></figcaption><pre>grid = [[3, 1, 4], [1, 5, 9], [2, 6, 5]]
+total = 0
+for r in range(3):
+    total += grid[r][2 - r]
+print(total)</pre><p class="ag-code-note">What is printed? Which cells of the grid are added?</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 7 &middot; precondition &middot; Python</b><span>python</span></figcaption><pre>def binary_search(values, target):
+    lo, hi = 0, len(values) - 1
+    while lo &lt;= hi:
+        mid = (lo + hi) // 2
+        if values[mid] == target:
+            return mid
+        if values[mid] &lt; target:
+            lo = mid + 1
+        else:
+            hi = mid - 1
+    return -1
+
+print(binary_search([9, 2, 7, 4, 5], 9))</pre><p class="ag-code-note">What is printed, and why is it wrong? State the precondition this function depends on.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Question 8 &middot; counting work &middot; Python</b><span>python</span></figcaption><pre>count = 0
+for i in range(n):
+    for j in range(i):
+        count += 1</pre><p class="ag-code-note">For n = 10, what is count at the end? Give a formula in n, and say how count changes when n doubles.</p></figure>
+    <p class="ag-mt-40"><b>Question 9 &middot; choose an abstract data type.</b> For each feature, choose a stack, a queue or a dictionary, and give one reason. (a) The undo button in a drawing program. (b) Print jobs sent to one shared printer. (c) Looking up a student&rsquo;s timetable from their student number.</p>
+    <p><b>Question 10 &middot; write a recursive method.</b> In Python or Java, write <code>count_char(text, ch)</code> (Java: <code>countChar</code>) that returns how many times a character appears in a string, using recursion and no loop. State the base case. What does it return for &quot;saskatoon&quot; and &quot;a&quot;?</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="answers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Answers, ours</p><h2>Answers and explanations</h2><p class="ag-lede">Every program here was run to confirm what it prints. The explanation is the part to study: on a written test, the reasoning is usually worth more than the final value.</p></div>
+    <ol class="ag-steps"><li><b>19.</b> mystery(4096) is 6 + mystery(409), which is 9 + mystery(40), which is 0 + mystery(4), which is 4 + mystery(0), and mystery(0) is 0. The method adds the digits: 4 + 0 + 9 + 6 = 19. The base case is n == 0, and n // 10 moves toward it by removing one digit each call.</li><li><b>countDown(6) returns 3; countDown(7) never finishes.</b> From 7 the values go 5, 3, 1, -1 and keep falling, so n is never exactly 0, and Java throws StackOverflowError. Change the base case to <code>if (n &lt;= 0) return 0;</code>. A base case tested with == is fragile whenever the step is bigger than one.</li><li><b>-2147483648.</b> An int holds values up to 2,147,483,647; adding one wraps around to the smallest int. This is the &ldquo;integer bounds&rdquo; limit in the curriculum. Use <code>long</code> when values can grow, or check before adding. Python&rsquo;s integers do not overflow this way, which is one real difference between the languages.</li><li><b>False.</b> 0.1 and 0.2 have no exact binary form, so the sum is stored as 0.30000000000000004. Compare with a tolerance instead: <code>abs((0.1 + 0.2) - 0.3) &lt; 1e-9</code> is True. Money is better kept as whole cents in an int.</li><li><b>circle.</b> The variable has type Shape, but the object is a Circle, and the overriding method runs: this is polymorphism. A method name(String prefix) would be an overload, a separate method with a different parameter list, and <code>s.name()</code> would still print circle.</li><li><b>11.</b> As r goes 0, 1, 2, the column 2 - r goes 2, 1, 0, so the cells are grid[0][2] = 4, grid[1][1] = 5 and grid[2][0] = 2: the diagonal from top right to bottom left.</li><li><b>-1, although 9 is in the list.</b> The first middle value is 7, and 9 is bigger, so the search throws away the left half, where 9 actually sits. Binary search has a precondition: the list must be sorted. With that broken, it returns a wrong answer without any error.</li><li><b>45.</b> The inner line runs 0 + 1 + 2 + ... + 9 times, which is n(n - 1) / 2. For n = 100 it is 4,950. Doubling n multiplies count by about four, the mark of work that grows with the square of n.</li><li><b>(a) A stack:</b> the last action done is the first one undone. <b>(b) A queue:</b> jobs print in the order they arrived. <b>(c) A dictionary:</b> the student number is the key, and lookup by key is direct, with no search through a list.</li><li><b>2.</b> The base case is the empty string, which has no characters to count. Each call checks the first character and recurses on the rest, so the string gets one shorter every time and must reach the base case. Our run also gave 0 for an empty string and 2 for &quot;ottawa&quot; and &quot;t&quot;.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Answer 10 &middot; Python</b><span>python</span></figcaption><pre>def count_char(text, ch):
+    if text == "":                 # base case: nothing left to check
+        return 0
+    first = 1 if text[0] == ch else 0
+    return first + count_char(text[1:], ch)
+
+print(count_char("saskatoon", "a"))   # 2</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Answer 10 &middot; Java</b><span>java</span></figcaption><pre>static int countChar(String text, char ch) {
+    if (text.isEmpty()) {          // base case: nothing left to check
+        return 0;
+    }
+    int first = (text.charAt(0) == ch) ? 1 : 0;
+    return first + countChar(text.substring(1), ch);
+}</pre><p class="ag-code-note">Both versions return 2, 0 and 2 for the three test strings in our run. Each call copies the rest of the string, which is fine for practice and slow for very long text; passing an index instead is the efficient version.</p></figure>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="hard">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">An honest answer</p><h2>Is ICS4U hard?</h2><p class="ag-lede">Harder than ICS3U, and in a different way. Grade 11 rewards careful typing and tracing; Grade 12 rewards planning and abstract thinking. These are the three places our Grade 12 students most often need help, and nobody can promise a mark in advance.</p></div>
+    <div class="ag-grid-3"><div><h3>Trusting recursion</h3><p>Students try to trace every call at once and get lost. The habit that works is to trust the recursive call to do its job on the smaller input, and check only the base case and the one step.</p></div><div><h3>Designing before coding</h3><p>Classes chosen badly in week one cost hours in week five. Drawing the classes, their fields and their methods on paper first feels slow and saves the project.</p></div><div><h3>Owning a share of a team</h3><p>The project is graded partly on each person&rsquo;s contribution and time management. Students who code well but deliver late are often surprised by their mark.</p></div></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Who tends to find it easier</h3><p>Students who finished ICS3U able to write loops and arrays without notes usually find the first units of ICS4U manageable. The step up comes with recursion and object design, often in the middle of the semester.</p>
+<p>Students who enjoy math proofs often take to recursion quickly, because the base case and the recursive step have the same shape as a proof by induction.</p></div><div><h3>A useful check for parents</h3><p>Ask your student to explain, without the code in front of them, how their sort or their recursive method reaches its answer. A clear explanation in plain words is a better sign than a working program copied from a classmate or produced by an AI tool.</p>
+<p>If they can only show the program and not explain it, that gap is exactly what the final evaluation will find, and the time to close it is now.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="exam">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Before the final</p><h2>ICS4U exam review: six things to drill</h2><p class="ag-lede">Final evaluations in ICS4U vary by school, and the teacher&rsquo;s outline is the authority on what yours contains. This drill list is ours, for the written or coding parts most Grade 12 classes include.</p></div>
+    <ol class="ag-steps"><li><b>Trace three recursive methods by hand.</b> Write each call on its own line with what it returns. Include one with two recursive calls, like Fibonacci.</li><li><b>Rewrite binary search and one sort from a blank file.</b> Then state the precondition of each and the worst case in comparisons for a list of 1,000.</li><li><b>Design one small class hierarchy on paper.</b> A base class, two subclasses, one overridden method. Say where encapsulation, inheritance and polymorphism each appear.</li><li><b>Predict the output of number traps.</b> Integer division, the remainder operator, int overflow and floating-point comparison, the limits strand A names.</li><li><b>Explain one testing plan.</b> One unit test, one integration test and one regression test from your own project, in a sentence each.</li><li><b>Prepare the topic answers.</b> One ethical issue, one emerging technology and one research area from strand D, each with a source you could name.</li></ol>
+    <p class="ag-mt-40">The 2008 curriculum treats level 3 on its achievement chart as the &ldquo;provincial standard&rdquo;, and it describes the four categories teachers assess: Knowledge and Understanding, Thinking, Communication and Application. A drill list that includes explaining, not just coding, covers more of those categories.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="credit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Online, night school and university</p><h2>ICS4U online or at night school: teaching, never the credit</h2><p class="ag-lede">Families searching for ICS4U online, at night school or over the summer often need the credit itself. We cannot provide it, and saying so up front saves everyone time.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Who grants the ICS4U credit</h3><p>Only an organisation that teaches the course and evaluates the student can put ICS4U on a transcript, whether that is a day school, a board night or summer program, or an Ontario credit provider. We are a tutoring school, so our ICS4U classes are teaching and practice beside the course: we do not grant Ontario credits, issue report card marks or set the final evaluation.</p>
+<p>What we can do is make the school course, wherever it is taken, easier to follow: the recursion explained twice, the project plan reviewed, the practice exam marked and discussed.</p></div><div><h3>ICS4U and university computer science</h3><p>On 22 October 2026, Waterloo&rsquo;s Computer Science page listed Advanced Functions and Calculus and Vectors among its Ontario requirements and named the Grade 11 course, ICS3U, as its recommended computer science course. None of the three University of Toronto Computer Science listings named a computer science course at all.</p>
+<p>So for those programs the Grade 12 math courses are the requirement, and ICS4U is preparation for first year rather than an entry condition. Plan MHF4U and MCV4U alongside it; our <a class="ag-inline-link" href="/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course">Grade 12 university math course</a> teaches both beside the school course. Check each university&rsquo;s own page in the year you apply.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your student is now</p>
+      <h2>Four stages of a Grade 12 programmer</h2>
+      <p class="ag-lede">Our own stages, from teaching students through ICS4U in both languages.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages from ICS3U graduate to first-year ready (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Single-file coder</td><td class="ag-num">Solves problems well inside one long file, with everything in main</td></tr><tr><td>2. Class builder</td><td class="ag-num">Splits a program into classes with fields and methods, and can explain why each class exists</td></tr><tr><td>3. Recursive thinker</td><td class="ag-num">Writes a recursive method from its base case outward, and spots a missing base case on sight</td></tr><tr><td>4. Analyst</td><td class="ag-num">Chooses between two algorithms by counting their work, and tests the choice on its worst input</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Most students reach stage 2 by the middle of the course. Stage 3 is where outside help pays off fastest, because recursion clicks suddenly after enough worked examples.</p>
+<p>A student at stage 4 is ready for the pace of a first-year university course, whatever their current mark says.</p></div><div><h3>For students</h3><p>Before you write a recursive method, write the base case and one example of the step in a comment. Then the code almost writes itself.</p>
+<p>When you choose a sort, write down why in one sentence. If you cannot, you chose by habit.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More to study</p>
+      <h2>Nine courses for Ontario Grade 12 coders</h2>
+      <p class="ag-lede">All taught live by a regular teacher, as a group batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Beside ICS4U</h3>
+        <span class="ag-band-sub">Grade 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / SCH / 01</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>The shared repository a team project needs.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / SCH / 02</p>
+          <h4>Python for teens</h4>
+          <p>Classes, modules and files, with real projects.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / SCH / 03</p>
+          <h4>MySQL for teens</h4>
+          <p>Programs that read and write a database.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>For the strongest students</h3>
+        <span class="ag-band-sub">Grades 11 and 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / ADV / 01</p>
+          <h4>CCC Junior and Senior preparation</h4>
+          <p>Timed problems for the Waterloo programming contest.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / ADV / 02</p>
+          <h4>Competitive programming</h4>
+          <p>Graphs, dynamic programming and harder recursion.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / ADV / 03</p>
+          <h4>C++ for teens</h4>
+          <p>The language many contest coders switch to.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>After Grade 12</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / NXT / 01</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>An emerging field strand D asks students to research.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / NXT / 02</p>
+          <h4>Full stack web development</h4>
+          <p>From a class diagram to a working web app.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ICC / NXT / 03</p>
+          <h4>Cybersecurity for teens</h4>
+          <p>Defensive security and the ethics around it.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Class times and format</p>
+      <h2>Live Grade 12 classes, planned around the semester</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evenings after the school day, in your own time zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Mornings, often the calmest time to work on the project.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Extra sessions before a unit test or a project milestone.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One regular teacher</h3><p>Who reads the course outline with you.</p></div>
+      <div><h3>Python or Java</h3><p>Matched to the class, not to us.</p></div>
+      <div><h3>Recursion, slowly</h3><p>Worked examples until it clicks.</p></div>
+      <div><h3>Project reviews</h3><p>Plans and code checked, never written.</p></div>
+      <div><h3>Exam practice</h3><p>Timed, marked, then talked through.</p></div>
+      <div><h3>Group or private</h3><p>A batch of fifteen to twenty, or one student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have shipped</h2>
+      <p class="ag-lede">Work by students who went beyond the course they were taking at school. More on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Your first class is free. Families then pay a monthly fee for eight live classes a month; the fee is shown below in your own currency, there is no semester contract, and you can stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring the current unit or project</li><li>No card required</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Batch of fifteen to twenty</li><li>The same teacher each week</li><li>Pick a batch time</li><li>Monthly payment</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One teacher, one student</li><li>Booked around deadlines</li><li>Built from their own course</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What families and students have written about us on Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Grade 12 families</p>
+      <h2>ICS4U: questions families ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is ICS4U?</h3>
+        <p>ICS4U is Computer Science, Grade 12, University Preparation. Its expectations sit in Ontario's 2008 Computer Studies curriculum for Grades 10 to 12, and it covers data types and expressions, modular programming, algorithms including searching, sorting and recursion, a student-managed team project, algorithm analysis, and topics such as ethics and emerging technology.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the prerequisite for ICS4U?</h3>
+        <p>ICS3U, Introduction to Computer Science, Grade 11, University Preparation. Both the 2008 curriculum document and the current Ontario curriculum website list it as the prerequisite.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you give my student the ICS4U credit?</h3>
+        <p>No. Our ICS4U classes are teaching and practice beside the school course, and we do not grant Ontario credits. The credit comes from the school, night school, summer school or credit provider that teaches and evaluates the course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is ICS4U taught in Python or Java?</h3>
+        <p>It depends on the school. The 2008 curriculum leaves the programming language to the teacher, and Ontario classes commonly use Python or Java. We teach in whichever one the student's class uses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is ICS4U hard?</h3>
+        <p>It is a step up from ICS3U. Most students find recursion, designing classes before coding, and managing their share of the team project the hardest parts. Each of those improves with worked examples and practice, but nobody can honestly promise a mark in advance.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does recursion mean in ICS4U?</h3>
+        <p>A method that solves a problem by calling itself on a smaller version of it, stopping at a base case. The curriculum asks students to design simple and efficient recursive algorithms, and to recognise pitfalls such as infinite recursion and the exponential growth of a plain recursive Fibonacci method.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which sorting and searching algorithms does ICS4U include?</h3>
+        <p>The curriculum asks for linear and binary search, a sort such as bubble, insertion or selection, and lists merge sort among its recursion examples. It also asks students to compare their efficiency using run times and counts of comparisons or loop passes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can ICS4U be taken as a half credit?</h3>
+        <p>No. The 2008 curriculum allows its courses to be delivered as half-credit courses with the exception of the Grade 12 university preparation course, which is ICS4U.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do universities require ICS4U for computer science?</h3>
+        <p>On 22 October 2026, Waterloo's Computer Science page listed Advanced Functions and Calculus and Vectors among its Ontario requirements and recommended the Grade 11 computer science course, and the University of Toronto's three Computer Science listings named no computer science course. Requirements change, so check each university's page in the year you apply.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes for Ontario families?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We agree the time in your own Ontario time zone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much do ICS4U classes cost?</h3>
+        <p>The first class is free. After it, families pay a monthly fee and can stop after any month. The fees section on this page shows the current figure for a batch and for one to one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Keep reading</p>
+      <h2>Related pages for Ontario students</h2>
+      <p class="ag-lede">Guides and classes that sit next to ICS4U.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ics3u-computer-science-help">ICS3U computer science help</a></h3><p>The Grade 11 course that ICS4U builds on.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-ontario">Coding classes in Ontario</a></h3><p>Live classes for every age across the province.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">Canadian Computing Competition</a></h3><p>The CEMC contest that rewards ICS4U skills.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Math tutoring in Canada</a></h3><p>Advanced Functions and Calculus and Vectors.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/recursion-explained-for-beginners">Recursion explained</a></h3><p>A slower introduction to methods that call themselves.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-read-code">How to read code</a></h3><p>A method for understanding a program you did not write.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>Finding the faulty line without guessing.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Canada</a></h3><p>Every guide we have written for Canadian families.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us the school language, the unit the class is on and the next deadline, whether that is a test or a project milestone. The first class picks up from there.</p>
+        <p class="ag-mt-40">Want to look first? The <a class="ag-inline-link" href="/courses/ics3u-ics4u-computer-science-companion-course">companion course syllabus</a> shows the Grade 12 weeks, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains a live class from start to finish.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20Grade%2012%20student%20in%20Ontario%20is%20taking%20ICS4U%20and%20wants%20help%20with%20recursion%20and%20the%20project.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'icc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons happen live on video with teachers based in India, so there is no travel and no home visit. WhatsApp reaches us fastest from Ontario.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_icc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Booking the free class needs no card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Grade 12 computer science</h4><ul><li><a href="/courses/ics3u-ics4u-computer-science-companion-course">ICS3U and ICS4U companion</a></li><li><a href="/ics3u-computer-science-help">ICS3U help</a></li><li><a href="/java-classes-for-teens">Java classes for teens</a></li><li><a href="/blog/recursion-explained-for-beginners">Recursion explained</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/coding-classes-in-ontario">Coding classes in Ontario</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/online-math-tutor-canada">Math tutoring in Canada</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Base case first, then count the work</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_icc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'ics4u-computer-science-help-inline', meta: { name: name, age: age, page: 'ics4u-computer-science-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

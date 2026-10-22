@@ -207,7 +207,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 13 | eqao-grade-9-math-practice (eqao, #991747) | school-on | 4,728 | 0.9% vs pascal-contest-preparation | assessment practice | grade 9 math | 3a64ead8 |
 | 36 | quebec-secondary-4-math-cst-ts-science (que, #556B13) | school-qc | 4,940 | 1.8% vs canada-high-school-math-courses-compared | option guide | systems of equations | 01e266cf |
 | 37 | quebec-secondary-5-math-tutor (qus, #3C6B1A) | school-qc | 4,681 | 1.7% vs canada-high-school-math-courses-compared | school course help | linear programming | 439b46f1 |
-| 38 | cegep-computer-science-preparation (ccsp, #2A523C) | school-qc | 4,667 | 1.8% vs quebec-secondary-5-math-tutor | preparation guide | number bases | (this commit) |
+| 38 | cegep-computer-science-preparation (ccsp, #2A523C) | school-qc | 4,667 | 1.8% vs quebec-secondary-5-math-tutor | preparation guide | number bases | 62f822e6 |
+| 4 | ics4u-computer-science-help (icc, #7A1212) | school-on | 7,616 | 1.3% vs ics3u-computer-science-help | school course help | recursion and sorting | (this commit) |
 
 ## Skipped
 
