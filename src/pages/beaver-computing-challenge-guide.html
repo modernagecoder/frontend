@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Beaver Computing Challenge 2026: Guide and Practice Tasks</title>
+  <meta name="description" content="The 2026 Beaver Computing Challenge for Grades 5 to 10: CEMC's dates, the 45-minute format, how marks and blanks score, and six original practice tasks.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/beaver-computing-challenge-guide">
+  <link rel="alternate" type="text/markdown" href="/src/pages/beaver-computing-challenge-guide.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#2E1975">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/beaver-computing-challenge-guide">
+  <meta property="og:title" content="Beaver Computing Challenge 2026: Guide and Practice Tasks">
+  <meta property="og:description" content="CEMC runs the 2026 Beaver Computing Challenge from 9 to 20 November 2026. The format, the scoring rules, how a school enters, and six practice tasks we wrote, with answers.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Beaver Computing Challenge 2026: Guide and Practice Tasks">
+  <meta name="twitter:description" content="The 2026 Beaver Computing Challenge, explained from CEMC's page, with six original practice tasks.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-bccg .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-bccg .ag-capsule { border-left-width: 6px; border-radius: 2px; }
+.ag-root.ag-bccg .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-bccg .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-bccg .ag-band-head h3 { letter-spacing: -0.004em; }
+.ag-root.ag-bccg .ag-slots { gap: 1.1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/beaver-computing-challenge-guide#page","url":"https://learn.modernagecoders.com/beaver-computing-challenge-guide","name":"Beaver Computing Challenge Guide","description":"A guide for Canadian families and students to the 2026 Beaver Computing Challenge, built from CEMC's contest page and the BCC contest site, with original practice tasks and worked answers.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"Beaver Computing Challenge guide","item":"https://learn.modernagecoders.com/beaver-computing-challenge-guide"}]},{"@type":"Course","name":"Beaver Computing Challenge Guide","description":"Live online problem solving and computational thinking classes for students in Grades 3 to 8 across Canada, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/beaver-computing-challenge-guide"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/beaver-computing-challenge-guide"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/beaver-computing-challenge-guide"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Beaver Computing Challenge?","acceptedAnswer":{"@type":"Answer","text":"It is an online multiple-choice contest from CEMC at the University of Waterloo that introduces students in Grades 5 to 10 to computer science ideas through puzzles. Students write it at school, individually, in 45 minutes, and no programming is required."}},{"@type":"Question","name":"When is the Beaver Computing Challenge in 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists the 2026 window in North and South America as Monday, November 9, 2026 to Friday, November 20, 2026. Each school picks its own day inside that window, and the ordering deadline for schools is Monday, October 26, 2026."}},{"@type":"Question","name":"Does my child need to know how to code for the Beaver?","acceptedAnswer":{"@type":"Answer","text":"No. CEMC says the questions only need concepts from the math curriculum used across Canadian provinces. The ideas come from computer science, but they are solved with careful reading, drawing and logic."}},{"@type":"Question","name":"Which level should my child write?","acceptedAnswer":{"@type":"Answer","text":"CEMC sets the levels by grade: Grade 6 or below can write Grade 5/6, Grade 8 or below can write Grade 7/8, and Grade 10 or below can write Grade 9/10. A student writes only one Beaver in a school year."}},{"@type":"Question","name":"How is the Beaver scored?","acceptedAnswer":{"@type":"Answer","text":"Grade 5/6 has 12 questions out of 60 and the upper levels have 15 questions out of 90, in Parts A, B and C worth less as they get harder. A wrong answer scores 0, and each blank earns 2, up to 5 blanks at Grade 5/6 and 6 at the other levels."}},{"@type":"Question","name":"Should my child guess or leave a question blank?","acceptedAnswer":{"@type":"Answer","text":"By our arithmetic, assuming four answer choices, a blind guess on a hard Part C question averages less than the 2 marks a blank earns. On an easy Part A question, ruling out one choice makes a guess the better bet. The blank allowance is capped, so it only covers a few questions."}},{"@type":"Question","name":"Can my child register for the Beaver on their own?","acceptedAnswer":{"@type":"Answer","text":"No. The school orders the contest and supervises it, and the teacher hands out each student's login. If the school is not taking part, CEMC suggests asking another local school whether the student can write there."}},{"@type":"Question","name":"Is the Beaver available in French?","acceptedAnswer":{"@type":"Answer","text":"Not at present. CEMC lists the Beaver Computing Challenge as available in English only. Several of its other contests, such as the Canadian Computing Competition, are offered in English and French."}},{"@type":"Question","name":"Where can we find past Beaver papers?","acceptedAnswer":{"@type":"Answer","text":"CEMC publishes past BCC papers with solutions free in the past contests section of its website, covering the last ten years, and a practice site opens closer to the contest date. We never copy those questions; our practice tasks are our own."}},{"@type":"Question","name":"When do the results come out?","acceptedAnswer":{"@type":"Answer","text":"CEMC says results reach the supervising teacher about one week after the two-week window ends, so in late November 2026. Students do not see their result at the end of the sitting."}},{"@type":"Question","name":"When are your classes for Canadian families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern time and converted for your province."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/beaver-computing-challenge-guide","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-bccg">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#glance">2026 at a glance</a></li>
+      <li><a href="#scoring">Scoring</a></li>
+      <li><a href="#tasks">Practice tasks</a></li>
+      <li><a href="#entry">Entry</a></li>
+      <li><a href="#runup">Three weeks</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / Beaver Computing Challenge guide
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; CEMC computing contests &middot; Grades 5 to 10</p>
+        <h1>Beaver Computing Challenge guide for 2026</h1>
+        <p class="ag-lede">The Beaver Computing Challenge is the gentlest door into computer science that the University of Waterloo's Centre for Education in Mathematics and Computing (CEMC) offers. Nobody writes a line of code. Students read short puzzles about routes, codes, sorting and rules, pick one of the answers on screen, and have 45 minutes to do it. This page sets out what CEMC publishes for the 2026 contest, how the marks work (including the two points a blank answer earns), how a student gets entered, and six practice tasks our teachers wrote, each with the answer, the reasoning and the computer science idea underneath it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#tasks" class="ag-btn ag-btn--ghost">Try the six tasks</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20is%20writing%20the%20Beaver%20Computing%20Challenge.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bccg'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; every practice task on this page written by our teachers</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Run by</dt><dd>CEMC, University of Waterloo</dd>
+          <dt>2026 window</dt><dd>9 to 20 November 2026</dd>
+          <dt>Length</dt><dd>45 minutes</dd>
+          <dt>Levels</dt><dd>Grade 5/6, 7/8, 9/10</dd>
+          <dt>Questions</dt><dd>12 or 15, multiple choice</dd>
+          <dt>Coding needed</dt><dd>None</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The Beaver Computing Challenge (BCC) is CEMC's 45-minute online multiple-choice contest in computational thinking for Grades 5 to 10, written at school between 9 and 20 November 2026. No coding is needed. Modern Age Coders prepares students live online, in a batch or one to one, in its Problem Solving and Computational Thinking for Kids course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Prepare with a teacher</p>
+      <h2>Three courses for a Beaver writer</h2>
+      <p class="ag-lede">The first matches the Beaver almost exactly: puzzles first, code second. The other two carry the same thinking into math and into real programs.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BCC / 01</p>
+          <h3>Problem Solving and Computational Thinking for Kids</h3>
+          <p>Grades 3 to 8. Logic, patterns, sequencing and step-by-step reasoning, taught live with puzzles before any typing.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/maths-through-coding">
+        <div class="ag-pick-shot"><img src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BCC / 02</p>
+          <h3>Maths Through Coding</h3>
+          <p>Ages 10 to 15. Number sense and patterns explored in Python, the same mix of math and computing the Beaver rewards.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BCC / 03</p>
+          <h3>Problem Solving for Teens</h3>
+          <p>Ages 13 to 18. For a Grade 9/10 writer ready to turn Beaver-style reasoning into algorithms and data structures.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="glance">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 2026 contest</p><h2>The 2026 Beaver Computing Challenge at a glance</h2><p class="ag-lede">Every row below is taken from CEMC's Beaver Computing Challenge page or its contests overview, both read on 22 October 2026. The ordering deadline is close: CEMC set it for Monday, October 26, 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 2026 BCC as CEMC publishes it (read 22 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">What CEMC says for 2026</th></tr></thead><tbody><tr><td>Contest window</td><td>"North and South America: Monday, November 9, 2026 to Friday, November 20, 2026". Schools outside the Americas are asked to contact CEMC.</td></tr><tr><td>Ordering deadline</td><td>Schools order by Monday, October 26, 2026.</td></tr><tr><td>Who can write which level</td><td>"Students in Grade 6 or below are eligible to participate in the Grade 5/6 BCC." The Grade 7/8 level is for Grade 8 or below, and Grade 9/10 for Grade 10 or below.</td></tr><tr><td>Questions</td><td>"12 multiple-choice questions out of a total of 60 (Grade 5/6)." "15 multiple-choice questions out of a total of 90 (Grade 7/8 and Grade 9/10)."</td></tr><tr><td>Time</td><td>"Time allowed for completion is 45 minutes."</td></tr><tr><td>Setting</td><td>"Written in school, participants write online, individually." "Some calculators permitted."</td></tr><tr><td>What it assumes</td><td>The questions "only require familiarity with concepts covered in the mathematics curriculum across all Canadian provinces".</td></tr><tr><td>Language</td><td>"This contest is available in English only."</td></tr><tr><td>How often</td><td>"Students may participate in at most one Beaver Computing Challenge in a school year."</td></tr><tr><td>Fee</td><td>A three-dollar fee per participant plus a processing fee per order, paid by the school, with a minimum order of 10 contests.</td></tr><tr><td>Results</td><td>Available to the supervising teacher "approximately one week after the end of the two-week contest period", with Certificates of Participation and Certificates of Distinction.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A contest about thinking, not typing</h3><p>CEMC describes the BCC as "an online, multiple-choice contest designed to introduce students to computer science concepts and problem-solving techniques". The puzzles borrow their ideas from computer science (searching, sorting, encoding, networks, rules that change a state) but the student solves them with a pencil, scrap paper and careful reading.</p>
+<p>That is why a Grade 5 student who has never opened a code editor can do well, and why a confident Grade 9 programmer can still be caught out. The skill being tested is building an accurate picture of the situation before choosing.</p></div><div><h3>One sitting, chosen by the school</h3><p>The two-week window is for schools, not students. CEMC asks supervisors to run the contest "within the two-week contest period", and notes that schools typically use one day in it, spreading across several days only when numbers or rooms require.</p>
+<p>So a family's first question is simply which day the school has picked. The student then sits once, for 45 minutes, on the BCC contest site.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/bcc" rel="noopener" target="_blank">CEMC, Beaver Computing Challenge</a> and <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests" rel="noopener" target="_blank">CEMC contests overview</a>, read 22 October 2026. Modern Age Coders is not connected with CEMC or the University of Waterloo; students write the BCC through their own schools.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="scoring">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How the marks work</p><h2>BCC scoring: three parts, and why a blank is worth 2</h2><p class="ag-lede">The Beaver is scored in a way most students have never met. Easier questions are worth more, a wrong answer scores zero, and a question left blank earns a small fixed mark, up to a limit. Knowing this changes how a student should spend the last five minutes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Marks per question in the 2026 BCC, from CEMC's supervisor steps and the BCC contest site (read 22 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">Grade 5/6</th><th scope="col">Grade 7/8 and Grade 9/10</th></tr></thead><tbody><tr><td>Part A (easiest)</td><td>4 questions, 6 marks each</td><td>5 questions, 8 marks each</td></tr><tr><td>Part B</td><td>4 questions, 5 marks each</td><td>5 questions, 6 marks each</td></tr><tr><td>Part C (hardest)</td><td>4 questions, 4 marks each</td><td>5 questions, 4 marks each</td></tr><tr><td>Wrong answer</td><td>0 marks</td><td>0 marks</td></tr><tr><td>Left blank</td><td>2 marks each, for up to 5 blanks</td><td>2 marks each, for up to 6 blanks</td></tr><tr><td>Total</td><td>Out of 60</td><td>Out of 90</td></tr></tbody></table></div>
+    <p class="ag-mt-40">CEMC's own wording for the blank rule: "Each unanswered question is worth 2 up to a maximum of 5 unanswered questions at the Grade 5/6 level and a maximum of 6 unanswered questions at the Grade 7/8 and 9/10 levels." The contest site adds that "Incorrectly answered questions are worth 0 marks", and that a student can clear a choice with an "Erase" option, which "will appear as the fifth choice in all multiple choice questions".</p>
+    <p>Our check that the parts add up, labelled as ours: at Grade 7/8 and 9/10, 5 x 8 + 5 x 6 + 5 x 4 = 40 + 30 + 20 = 90; at Grade 5/6, 4 x 6 + 4 x 5 + 4 x 4 = 24 + 20 + 16 = 60. Part A alone carries 24 of the 60 marks at Grade 5/6 and 40 of the 90 at the upper levels, which is why careful work on the first questions matters more than heroics on the last.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Guess or leave it blank? Expected marks from a pure guess (our arithmetic, assuming four answer choices, since the site lists Erase as the fifth)</caption><thead><tr><th scope="col">Question type</th><th scope="col">Blank</th><th scope="col">Blind guess (1 in 4)</th><th scope="col">After ruling out one choice (1 in 3)</th><th scope="col">After ruling out two (1 in 2)</th></tr></thead><tbody><tr><td>Part A, Grade 7/8 or 9/10 (8 marks)</td><td>2</td><td>2.00</td><td>about 2.67</td><td>4.00</td></tr><tr><td>Part B, Grade 7/8 or 9/10 (6 marks)</td><td>2</td><td>1.50</td><td>2.00</td><td>3.00</td></tr><tr><td>Part C, any level (4 marks)</td><td>2</td><td>1.00</td><td>about 1.33</td><td>2.00</td></tr><tr><td>Part A, Grade 5/6 (6 marks)</td><td>2</td><td>1.50</td><td>2.00</td><td>3.00</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the table tells a student</h3><p>On a hard Part C question, a blind guess is worth half of what a blank is worth on average. Unless two choices can honestly be ruled out, the blank is the better bet there.</p>
+<p>On an easy Part A question the sums tilt the other way: rule out even one choice and a guess beats the blank. The blank allowance is also capped at five or six questions, so it is a safety net for a few questions, not a strategy.</p></div><div><h3>What the table does not tell a student</h3><p>Expected marks are averages over many guesses; one sitting is one throw. The real lesson in our classes is the habit of eliminating answers for a reason, which is the same habit that solves the question outright.</p>
+<p>The 2025 averages CEMC publishes, read as percentages by us, show how the levels compare: 37.22 of 60 at Grade 5/6 (about 62.0 percent), 68.93 of 90 at Grade 7/8 (about 76.6 percent) and 65.84 of 90 at Grade 9/10 (about 73.2 percent).</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: CEMC's BCC page (supervisor steps, 2025 averages and statistics) and the instructions on the <a class="ag-inline-link" href="https://beavercomputingchallenge.ca/" rel="noopener" target="_blank">BCC contest site</a>, read 22 October 2026. CEMC printed 14 260, 16 344 and 7827 contestants for the three 2025 levels; we show them separately and do not add them.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tests">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it rewards</p><h2>The thinking behind Beaver questions</h2><p class="ag-lede">CEMC says the BCC "emphasizes computational and logical thinking", and publishes its solutions with a section called Connections to Computer Science that links each puzzle to a real idea in the field. The task families below are our own grouping of those ideas, written to help a student recognise a question type quickly.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common Beaver task families (our classification, not CEMC's)</caption><thead><tr><th scope="col">Task family</th><th scope="col">What the puzzle usually looks like</th><th scope="col">The computer science idea</th></tr></thead><tbody><tr><td>Ordering and swapping</td><td>Objects in a row that must be rearranged under a rule about which moves are allowed</td><td>Sorting, and counting the steps a sort needs</td></tr><tr><td>Codes and signals</td><td>Lights, flags, beads or symbols standing for letters or numbers</td><td>Binary, encoding and how many patterns a few symbols can make</td></tr><tr><td>Routes and networks</td><td>Towns joined by paths with times or costs; find the quickest or cheapest way</td><td>Graphs and shortest paths</td></tr><tr><td>Following instructions</td><td>A robot, a machine or a recipe that obeys a short list of commands</td><td>Programs, sequencing and tracing execution</td></tr><tr><td>Choosing under limits</td><td>A bag, a budget or a timetable that cannot hold everything</td><td>Optimisation, and why the obvious choice can be wrong</td></tr><tr><td>Checking and errors</td><td>A number or message that might have been copied wrongly</td><td>Error detection and check digits</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The two-reading habit</h3><p>Beaver questions are short stories with exact rules hidden in ordinary words: "only neighbours may swap", "a lantern that is off shows nothing". Most wrong answers come from a rule read once and remembered loosely.</p>
+<p>We teach students to read the story once for the situation, then a second time to underline every rule, and to draw the situation before looking at the choices.</p></div><div><h3>Why math class is enough</h3><p>Because CEMC writes the questions for the provincial math curricula, nothing beyond school arithmetic, patterns and logic is assumed. A student who can organise information in a table or a sketch already has the main tool.</p>
+<p>What students rarely have is practice turning a story into that table. That is the gap the six tasks below are built to close.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="tasks">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Six practice tasks</p><h2>Six original Beaver-style practice tasks, with answers</h2><p class="ag-lede">Our teachers wrote these six tasks for this page. They are our tasks, not CEMC questions, and they are not copied or adapted from any past Beaver paper; for real past papers, use CEMC's free archive. Tasks 1 and 2 sit at Part A level, 3 and 4 at Part B, 5 and 6 at Part C. Cover the answer, solve each one on paper, then read the reasoning.</p></div>
+    <p><b>Task 1: Canoe Dock (Part A).</b> Four canoes, numbered 3, 1, 4 and 2, sit in a row on a dock in that order. The camp counsellor wants them in the order 1, 2, 3, 4. The only move allowed is to swap two canoes that are side by side. What is the fewest number of swaps needed? <b>(A)</b> 2 <b>(B)</b> 3 <b>(C)</b> 4 <b>(D)</b> 5</p>
+    <p><b>Answer: (B) 3.</b> Count the pairs that are in the wrong order relative to each other: 3 before 1, 3 before 2, and 4 before 2. That is three pairs. Each swap of neighbours fixes exactly one such pair, so at least three swaps are needed, and three are enough: 3 1 4 2 becomes 1 3 4 2, then 1 3 2 4, then 1 2 3 4. <i>The computer science idea:</i> these out-of-order pairs are called inversions, and counting them tells you exactly how much work a neighbour-swapping sort, such as bubble sort, must do.</p>
+    <p class="ag-mt-40"><b>Task 2: Trail Lanterns (Part A).</b> Each post on a winter trail has three lanterns in a row. Each lantern is either on or off, and rangers read the pattern as a signal. A post with all three lanterns off cannot be seen at night, so it is not used as a signal. How many different signals can one post show? <b>(A)</b> 3 <b>(B)</b> 6 <b>(C)</b> 7 <b>(D)</b> 8</p>
+    <p><b>Answer: (C) 7.</b> Each lantern has two states, so three lanterns make 2 x 2 x 2 = 8 patterns. Removing the all-off pattern leaves 7. The trap is answer (D), which forgets the rule in the last sentence, and answer (A), which counts lanterns instead of patterns. <i>The computer science idea:</i> each lantern is a bit; three bits give eight values, and real systems often reserve one value, as here, to mean "nothing".</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Task 3: Plough Route (Part B). Ploughing time, in minutes, for each trail between six cabins (our task)</caption><thead><tr><th scope="col">Trail</th><th scope="col">Minutes</th><th scope="col">Trail</th><th scope="col">Minutes</th></tr></thead><tbody><tr><td>A to B</td><td>4</td><td>C to E</td><td>10</td></tr><tr><td>A to C</td><td>2</td><td>D to E</td><td>2</td></tr><tr><td>B to C</td><td>1</td><td>D to F</td><td>6</td></tr><tr><td>B to D</td><td>5</td><td>E to F</td><td>3</td></tr><tr><td>C to D</td><td>8</td><td></td><td></td></tr></tbody></table></div>
+    <p><b>Task 3: Plough Route (Part B).</b> A plough must clear a path from cabin A to cabin F, using the trails in the table. Trails can be used in either direction. What is the shortest total ploughing time from A to F? <b>(A)</b> 12 <b>(B)</b> 13 <b>(C)</b> 14 <b>(D)</b> 15</p>
+    <p><b>Answer: (B) 13.</b> Work outward from A and keep the quickest time to each cabin. C is 2. B is 3, because A to C to B (2 + 1) beats the direct trail (4). D is 8 (B plus 5), which beats C to D (2 + 8 = 10). E is 10 by way of D (8 + 2), better than the direct C to E route (2 + 10 = 12). F is then the smaller of D to F (8 + 6 = 14) and E to F (10 + 3 = 13), so 13, by A, C, B, D, E, F. The trap is (C): stopping at the direct trail from D. <i>The computer science idea:</i> keeping the quickest known time to every place, and improving it as you go, is the heart of Dijkstra's shortest-path algorithm, used in every map app.</p>
+    <p class="ag-mt-40"><b>Task 4: Rover Commands (Part B).</b> A rover starts on a square of a grid, facing north. F moves it forward one square, R turns it right on the spot and L turns it left on the spot. Which program brings the rover back to the square where it started? <b>(A)</b> F R F R F R F <b>(B)</b> F F R F F R F F <b>(C)</b> F L F L F R F <b>(D)</b> F R R F F</p>
+    <p><b>Answer: (A).</b> Trace each program on a sketch. (A) goes north, east, south and west, one square each: a small square that closes on the start. (B) ends two squares east of the start. (C) ends two squares west of the start: its last turn is R, which points the rover west, where an L would have closed the loop. (D) turns around and overshoots the start by one square. <i>The computer science idea:</i> tracing a program by hand, one instruction at a time, is how programmers check code before trusting it; the "turn on the spot" detail matters as much as a semicolon does.</p>
+    <p class="ag-mt-40"><b>Task 5: Portage Pack (Part C).</b> A canoe trip can carry at most 10 kg in the last pack. The choices are a tent (6 kg, worth 10 points to the group), a food barrel (5 kg, 7 points), a canoe pack (5 kg, 7 points) and a map case (1 kg, 1 point). What is the most points the pack can carry? <b>(A)</b> 11 <b>(B)</b> 12 <b>(C)</b> 14 <b>(D)</b> 17</p>
+    <p><b>Answer: (C) 14.</b> The obvious move is to take the tent, the most valuable item, first. That leaves 4 kg, enough only for the map case: 11 points, which is trap (A). Leaving the tent behind and taking the food barrel and the canoe pack fills the 10 kg exactly and scores 14. Answer (D) adds everything and ignores the limit. <i>The computer science idea:</i> this is a tiny knapsack problem, and it shows why a "greedy" rule (always grab the biggest first) can lose to a careful look at combinations.</p>
+    <p class="ag-mt-40"><b>Task 6: Library Check Digit (Part C).</b> A school library writes each card number as four digits, a dash, and a check digit. The check digit is the last digit of the sum of the first four. For example, 4096-9 is correct because 4 + 0 + 9 + 6 = 19. One of these cards was copied wrongly. Which one? <b>(A)</b> 4096-9 <b>(B)</b> 1234-0 <b>(C)</b> 2026-1 <b>(D)</b> 7310-1</p>
+    <p><b>Answer: (C) 2026-1.</b> The digits 2, 0, 2 and 6 add to 10, whose last digit is 0, so the check digit should be 0. The others pass: 1 + 2 + 3 + 4 = 10 (check 0) and 7 + 3 + 1 + 0 = 11 (check 1). A follow-up our teachers always ask: if someone swaps two digits, for example writing 1243-0, does this rule notice? It does not, because the sum stays the same. <i>The computer science idea:</i> check digits catch copying mistakes, and real schemes give each position a different weight precisely so that swapped digits are caught too.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our checker for tasks 3 and 5 &middot; Python</b><span>python</span></figcaption><pre># Our answer checker for practice tasks 3 and 5 (our tasks, not CEMC's)
+from itertools import combinations
+
+# Task 3: every trail and its ploughing time in minutes
+trails = {("A", "B"): 4, ("A", "C"): 2, ("B", "C"): 1, ("B", "D"): 5,
+          ("C", "D"): 8, ("C", "E"): 10, ("D", "E"): 2, ("D", "F"): 6,
+          ("E", "F"): 3}
+roads = {}
+for (x, y), t in trails.items():
+    roads.setdefault(x, []).append((y, t))
+    roads.setdefault(y, []).append((x, t))
+
+def routes(here, goal, seen, time):
+    if here == goal:
+        yield time, seen
+        return
+    for nxt, t in roads[here]:
+        if nxt not in seen:
+            yield from routes(nxt, goal, seen + [nxt], time + t)
+
+fastest = min(routes("A", "F", ["A"], 0))
+print("Task 3:", fastest[0], "minutes via", "-".join(fastest[1]))
+
+# Task 5: weight in kg and points for each item; the pack holds 10 kg
+gear = {"tent": (6, 10), "food barrel": (5, 7),
+        "canoe pack": (5, 7), "map case": (1, 1)}
+top = (0, ())
+for r in range(len(gear) + 1):
+    for pick in combinations(gear, r):
+        kg = sum(gear[g][0] for g in pick)
+        points = sum(gear[g][1] for g in pick)
+        if kg &lt;= 10 and points &gt; top[0]:
+            top = (points, pick)
+print("Task 5:", top[0], "points with", " + ".join(top[1]))</pre><p class="ag-code-note">The Beaver itself involves no programming. This checker is for older students, parents and teachers who want to confirm our answers by letting a computer try every route and every packing. It tries all routes without repeating a cabin, and every combination of gear, and keeps the highest score.</p></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What the checker prints</b><span>text</span></figcaption><pre>Task 3: 13 minutes via A-C-B-D-E-F
+Task 5: 14 points with food barrel + canoe pack</pre></figure>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="entry">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How students enter</p><h2>How a student is entered for the Beaver</h2><p class="ag-lede">There is no family sign-up for the BCC. A teacher orders it for the school, the school sets the day, and the student logs in with details the supervisor hands out. These steps follow CEMC's BCC page, read on 22 October 2026.</p></div>
+    <ol class="ag-steps"><li><b>Ask the school this week.</b> CEMC's ordering deadline for 2026 is Monday, October 26, 2026. A math or computer science teacher, or whoever runs contests at the school, places the order.</li><li><b>A school new to CEMC needs an account first.</b> CEMC says a school that has never taken part in a CEMC contest must apply for a CEMC school account before it can order. That review takes time, so a first-time school may not be able to enter this autumn.</li><li><b>The order counts students, not levels.</b> CEMC asks for the total number taking part; each student picks the level at the start by clicking the matching button, such as "Grade 7/8 BCC".</li><li><b>The supervisor hands out logins.</b> About a week before the contest, user IDs and passwords appear for the teacher, and closer to the day the teacher receives a second password that opens the current Challenge.</li><li><b>Practise on the contest platform.</b> CEMC encourages students to try the practice Challenges on the BCC Practice and Live Challenges website, which it makes available closer to the contest date.</li><li><b>Write once, at school.</b> The student enters name, grade and the other details asked for, then has exactly 45 minutes. CEMC notes that "Participants will not receive their results immediately."</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the school is not taking part</h3><p>CEMC's general rule for all its contests is that students take part through a school. Its how-contests-work page also names one fallback: finding another local school willing to let the student write with its participants. With a deadline only days away, that is a long shot for 2026, but worth asking about.</p>
+<p>If the 2026 Beaver is out of reach, the same thinking carries straight into CEMC's later contests. The section on what comes next lists the 2027 options.</p></div><div><h3>Certificates, and what they mean</h3><p>CEMC lets the school print a Certificate of Distinction "for each participant scoring in the top 25% of all participants within their own school, for schools with at least 4 participants". The comparison is inside the school, not across Canada.</p>
+<p>CEMC is plain about the spirit of the thing: "Our contests are not tests or exams. There is no passing or failing score." We say the same to every Grade 5 student who arrives nervous.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/bcc" rel="noopener" target="_blank">CEMC, Beaver Computing Challenge: contest supervision, fees, and awards</a>, read 22 October 2026. For CEMC's full rules on school accounts, see <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">How contests work</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="platform">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">On the day</p><h2>Inside the 45 minutes: how the contest screen behaves</h2><p class="ag-lede">The BCC runs on its own contest site, beavercomputingchallenge.ca. Its instructions page is short, and three of its lines change how a student should move through the paper.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Rules of the BCC contest screen, quoted from the instructions on beavercomputingchallenge.ca (read 22 October 2026), with our advice</caption><thead><tr><th scope="col">What the site says</th><th scope="col">What it means in practice</th></tr></thead><tbody><tr><td>"You may change your answer at any time, and may complete the problems in any order."</td><td>Answer every question you can see quickly first, then return to the slow ones.</td></tr><tr><td>"you will not be automatically moved onto the next question"</td><td>After answering, pick the next question yourself from the list; nothing advances on its own.</td></tr><tr><td>Part A problems are meant to be easier than B, and B easier than C; "Within each group (A,B or C), the problems will be in random order."</td><td>Two students side by side may see the questions in a different order, so there is nothing to gain by glancing across.</td></tr><tr><td>A timer shows the time remaining from the 45 minutes.</td><td>Check it at 15 and 30 minutes; at 40, decide what stays blank.</td></tr><tr><td>An "Erase" option is offered as the fifth choice.</td><td>A guessed answer can be cleared back to blank if you change your mind.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A pacing plan for the 45 minutes (ours)</h3><p>Minutes 0 to 15: every Part A question, carefully, because they carry the most marks. Minutes 15 to 35: Part B, then Part C, skipping any that need more than four minutes of drawing.</p>
+<p>Minutes 35 to 42: return to the skipped questions with fresh eyes. Minutes 42 to 45: apply the blank-or-guess rule from the scoring table, and stop.</p></div><div><h3>What to bring</h3><p>CEMC encourages supervisors to provide scrap paper and pencils, and permits some calculators. Scrap paper matters more than the calculator: nearly every task is solved by a sketch, a table or a trace.</p>
+<p>Students who practise drawing the situation before reading the answer choices finish with time to spare far more often than students who stare at the choices.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="runup">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Three weeks</p><h2>A three-week run-up to the November 2026 Beaver</h2><p class="ag-lede">Our plan for a student starting now, in late October 2026, with the contest falling somewhere between 9 and 20 November 2026. It assumes two short live classes a week and fifteen minutes of puzzles on the other days.</p></div>
+    <ol class="ag-steps"><li><b>By Monday 26 October 2026:</b> confirm with the school that the BCC has been ordered, and ask which day it will be written.</li><li><b>Week of 26 October 2026:</b> open one past Beaver paper at the right level from CEMC's archive and try it untimed. Mark it against CEMC's solutions and read the Connections to Computer Science notes for the questions that went wrong.</li><li><b>Week of 2 November 2026:</b> one task family a day from the table above: ordering, codes, routes, instructions, limits, checking. Draw every situation before reading the choices. Try our six tasks without looking at the answers.</li><li><b>Week of 9 November 2026:</b> one timed 45-minute paper, scored with the real marks, including blanks. Review the questions that cost the most marks, not the ones that were hardest.</li><li><b>The day before the school's sitting:</b> no new material. A short warm-up of three easy puzzles, and an early night.</li><li><b>After the contest:</b> results reach the teacher about a week after the window closes on Friday 20 November 2026. Once CEMC posts the solutions, go through them together.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Grade 5/6 writers</h3><p>Twelve questions in 45 minutes is generous. The goal is accuracy on all four Part A questions and a calm try at Part C.</p></div><div><h3>Grade 7/8 writers</h3><p>Fifteen questions makes pacing real. Practise skipping and returning, and the routes and limits families.</p></div><div><h3>Grade 9/10 writers</h3><p>The puzzles get subtler, not longer. Students who already code should still solve on paper first.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="next">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After the Beaver</p><h2>What comes after the Beaver in 2027</h2><p class="ag-lede">The BCC is often a student's first CEMC contest, not the last. Two of CEMC's other contests follow naturally, depending on grade. The dates below are as CEMC lists them for the 2026/27 contest year.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Natural next CEMC contests for a Beaver writer (dates from CEMC's contests overview, read 22 October 2026; the fit column is our view)</caption><thead><tr><th scope="col">Contest</th><th scope="col">Who CEMC writes it for</th><th scope="col">CEMC's 2027 date, the Americas</th><th scope="col">Why it fits after the Beaver</th></tr></thead><tbody><tr><td>Canadian Computing Competition, Junior</td><td>Students with beginner to intermediate programming skills, any grade</td><td>Wednesday 17 February 2027</td><td>The next step for a Grade 9/10 writer who can already code: the reasoning is the same, now expressed in a program</td></tr><tr><td>Gauss Contests</td><td>Grades 7 and 8, with younger motivated students welcome</td><td>10 to 21 May 2027</td><td>For Grade 5 to 8 writers who enjoyed the logic side of the Beaver and want a math contest next</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>From puzzles to programs</h3><p>A student who enjoyed tasks 3 and 5 above has met, without knowing it, two ideas the Canadian Computing Competition asks students to program: shortest paths and choosing under limits. The Beaver is a good test of whether that reasoning comes naturally before the coding is added.</p>
+<p>Our <a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a> covers the February 2027 contest in detail, and the <a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation page</a> sets out the full Junior and Senior route.</p></div><div><h3>Keeping it in proportion</h3><p>A Beaver result says something about one 45-minute sitting in November. It does not measure a child's ability in computer science, and CEMC does not present it that way.</p>
+<p>What lasts is the habit the contest rewards: slowing down, modelling the situation, and checking an answer against the rules. That habit is what we teach, contest or no contest.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests" rel="noopener" target="_blank">CEMC contests overview, 2026/27 dates</a>, and the <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">past contests archive</a>, which holds BCC papers and solutions from the last ten years, read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where a student starts</p>
+      <h2>Four stages of Beaver readiness</h2>
+      <p class="ag-lede">How our teachers place a student in the first class. The stages are ours.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first puzzle to a confident Beaver paper (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What we see</th></tr></thead><tbody><tr><td>1. Guessing</td><td class="ag-num">Reads the choices first and picks the one that looks right</td></tr><tr><td>2. Drawing</td><td class="ag-num">Sketches the situation, but sometimes misses a rule in the story</td></tr><tr><td>3. Checking</td><td class="ag-num">Tests each choice against every rule before committing</td></tr><tr><td>4. Eliminating</td><td class="ag-num">Rules out wrong choices for a stated reason, and knows when a blank is wiser</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 1 is normal for a Grade 5 student meeting these puzzles for the first time. Stage 2 usually arrives within a few classes once drawing becomes a habit.</p>
+<p>Ask your child to explain one answer out loud. If the reason names a rule from the story, they are at stage 3 or beyond.</p></div><div><h3>For students</h3><p>Draw first, choose second. The picture is where the answer lives.</p>
+<p>When two choices look right, one of them breaks a rule you skimmed. Find the rule.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses that build Beaver thinking, Grades 3 to 12</h2>
+      <p class="ag-lede">All taught live online by a regular teacher, in a batch or one to one, for families in every province.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Logic and first code</h3>
+        <span class="ag-band-sub">Grades 3 to 6</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / LOGIC / 01</p>
+          <h4>Scratch coding for kids</h4>
+          <p>Sequences, loops and events, built as games.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / LOGIC / 02</p>
+          <h4>Mental math for kids</h4>
+          <p>Number sense that makes counting tasks quick.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / LOGIC / 03</p>
+          <h4>Python and AI for kids</h4>
+          <p>A first typed language, with turtle drawings.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Reasoning in code</h3>
+        <span class="ag-band-sub">Grades 6 to 9</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / REASON / 01</p>
+          <h4>C++ for kids</h4>
+          <p>Precise code for students who like exact rules.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / REASON / 02</p>
+          <h4>Middle school math</h4>
+          <p>Patterns and logic behind the Part C questions.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / REASON / 03</p>
+          <h4>Python for teens</h4>
+          <p>Lists, loops and functions, from scratch.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Contest road</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / ROAD / 01</p>
+          <h4>CCC Junior and Senior Preparation</h4>
+          <p>The February 2027 programming contest.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / ROAD / 02</p>
+          <h4>Competitive programming for teens</h4>
+          <p>Algorithms under a clock.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BCC / ROAD / 03</p>
+          <h4>Competition math</h4>
+          <p>For students drawn to the math contests too.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live puzzle classes around a Canadian school day</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school slots, converted to your province's clock.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings suit younger Beaver writers well.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Arranged around the student and the school's contest day.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Puzzles we write</h3><p>Original Beaver-style tasks, never CEMC's own questions.</p></div>
+      <div><h3>Draw, then decide</h3><p>Every task starts on paper, before the choices.</p></div>
+      <div><h3>Real scoring</h3><p>Timed practice marked with A, B, C values and blanks.</p></div>
+      <div><h3>Grades 5 to 10</h3><p>Three levels, each taught at its own pace.</p></div>
+      <div><h3>Every province</h3><p>Families join from Victoria to St. John's.</p></div>
+      <div><h3>Batch or one to one</h3><p>Fifteen to twenty in a batch, or a teacher of your own.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our younger students make</h2>
+      <p class="ag-lede">Puzzle work runs alongside building real things. A few projects from our learners are below, with many more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Whatever the school pays CEMC for the contest is separate from us. Our monthly fee covers live teaching alone, month by month, so a family can stop after November without notice or penalty.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Two of our Beaver-style tasks to start</li><li>No card details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty students in a batch</li><li>The same teacher each week</li><li>A batch time that suits your family</li><li>Paid monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher for one student</li><li>Paced to the school's contest day</li><li>Puzzles chosen for the student</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents wrote on Google, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Canadian families</p>
+      <h2>Beaver Computing Challenge: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Beaver Computing Challenge?</h3>
+        <p>It is an online multiple-choice contest from CEMC at the University of Waterloo that introduces students in Grades 5 to 10 to computer science ideas through puzzles. Students write it at school, individually, in 45 minutes, and no programming is required.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the Beaver Computing Challenge in 2026?</h3>
+        <p>CEMC lists the 2026 window in North and South America as Monday, November 9, 2026 to Friday, November 20, 2026. Each school picks its own day inside that window, and the ordering deadline for schools is Monday, October 26, 2026.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to know how to code for the Beaver?</h3>
+        <p>No. CEMC says the questions only need concepts from the math curriculum used across Canadian provinces. The ideas come from computer science, but they are solved with careful reading, drawing and logic.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which level should my child write?</h3>
+        <p>CEMC sets the levels by grade: Grade 6 or below can write Grade 5/6, Grade 8 or below can write Grade 7/8, and Grade 10 or below can write Grade 9/10. A student writes only one Beaver in a school year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the Beaver scored?</h3>
+        <p>Grade 5/6 has 12 questions out of 60 and the upper levels have 15 questions out of 90, in Parts A, B and C worth less as they get harder. A wrong answer scores 0, and each blank earns 2, up to 5 blanks at Grade 5/6 and 6 at the other levels.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child guess or leave a question blank?</h3>
+        <p>By our arithmetic, assuming four answer choices, a blind guess on a hard Part C question averages less than the 2 marks a blank earns. On an easy Part A question, ruling out one choice makes a guess the better bet. The blank allowance is capped, so it only covers a few questions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child register for the Beaver on their own?</h3>
+        <p>No. The school orders the contest and supervises it, and the teacher hands out each student's login. If the school is not taking part, CEMC suggests asking another local school whether the student can write there.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Beaver available in French?</h3>
+        <p>Not at present. CEMC lists the Beaver Computing Challenge as available in English only. Several of its other contests, such as the Canadian Computing Competition, are offered in English and French.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where can we find past Beaver papers?</h3>
+        <p>CEMC publishes past BCC papers with solutions free in the past contests section of its website, covering the last ten years, and a practice site opens closer to the contest date. We never copy those questions; our practice tasks are our own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When do the results come out?</h3>
+        <p>CEMC says results reach the supervising teacher about one week after the two-week window ends, so in late November 2026. Students do not see their result at the end of the sitting.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your classes for Canadian families?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern time and converted for your province.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian students who like puzzles, contests and code.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Our home page for families in every province.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>The February 2027 programming contest, step by step.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>How we coach the Junior and Senior levels.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC math contests</a></h3><p>Gauss through Euclid, the math side of CEMC.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor, Canada</a></h3><p>The school math every Beaver task assumes.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-think-like-a-programmer">Think like a programmer</a></h3><p>Breaking a story problem into steps.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">In the first class the teacher sets two of our Beaver-style tasks and watches how the student attacks them. You leave knowing the student's stage and what to practise before the school's contest day.</p>
+        <p class="ag-mt-40">Want to see the teaching first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> walks through a live lesson, and the <a class="ag-inline-link" href="/courses">full course list</a> has every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20is%20writing%20the%20Beaver%20Computing%20Challenge.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bccg',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers work from India and every class is live over video, so families anywhere in Canada join the same way. Message us on WhatsApp for the fastest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_bccg(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No card is asked for, and the first class costs nothing.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/cemc-waterloo-contests-preparation">CEMC math contests</a></li><li><a href="/maths-olympiad-classes-online">Math olympiad classes</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Draw it before you choose</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_bccg = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'beaver-computing-challenge-guide-inline', meta: { name: name, age: age, page: 'beaver-computing-challenge-guide' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

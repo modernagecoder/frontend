@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Beaver Computing Challenge guide](/beaver-computing-challenge-guide)
 - [Ontario high school diploma credits explained](/ontario-high-school-diploma-credits-explained)
 - [Ontario computer science course pathway](/ontario-computer-science-course-pathway)
 - [ICS3U and ICS4U exam review](/ics3u-ics4u-exam-review-practice)

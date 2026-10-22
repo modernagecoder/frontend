@@ -25497,6 +25497,18 @@
   to = "/src/pages/ontario-high-school-diploma-credits-explained.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/beaver-computing-challenge-guide"
+  to = "/src/pages/beaver-computing-challenge-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/beaver-computing-challenge-guide.md"
+  to = "/src/pages/beaver-computing-challenge-guide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

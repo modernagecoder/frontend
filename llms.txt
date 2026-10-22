@@ -743,6 +743,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - ICS3U and ICS4U exam review: https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice
 - Ontario computer science course pathway: https://learn.modernagecoders.com/ontario-computer-science-course-pathway
 - Ontario high school diploma credits explained: https://learn.modernagecoders.com/ontario-high-school-diploma-credits-explained
+- Beaver Computing Challenge guide: https://learn.modernagecoders.com/beaver-computing-challenge-guide
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

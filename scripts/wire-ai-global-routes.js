@@ -512,6 +512,7 @@ const SLUGS = [
   'ics3u-ics4u-exam-review-practice',
   'ontario-computer-science-course-pathway',
   'ontario-high-school-diploma-credits-explained',
+  'beaver-computing-challenge-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1103,6 +1104,7 @@ const LLMS_LABELS = {
   'ics3u-ics4u-exam-review-practice': 'ICS3U and ICS4U exam review',
   'ontario-computer-science-course-pathway': 'Ontario computer science course pathway',
   'ontario-high-school-diploma-credits-explained': 'Ontario high school diploma credits explained',
+  'beaver-computing-challenge-guide': 'Beaver Computing Challenge guide',
 };
 
 function wireLlms(slugs) {
