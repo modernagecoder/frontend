@@ -25245,6 +25245,18 @@
   to = "/src/pages/canada-high-school-math-courses-compared.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/canada-time-zones-2026-online-class-times"
+  to = "/src/pages/canada-time-zones-2026-online-class-times.html"
+  status = 200
+
+[[redirects]]
+  from = "/canada-time-zones-2026-online-class-times.md"
+  to = "/src/pages/canada-time-zones-2026-online-class-times.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

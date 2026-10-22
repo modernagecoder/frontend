@@ -192,7 +192,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 47 | euclid-contest-preparation (ecp, #436631) | contest | 7,160 | 1.2% vs pascal-contest-preparation | contest guide | writing a complete solution | d93559d8 |
 | 43 | gauss-contest-preparation (gcp, #85142C) | contest | 6,294 | 1.1% vs euclid-contest-preparation | contest guide | organized counting | bd476c8b |
 | 62 | canada-coding-curriculum-by-province (ccbp, #26165C) | ref | 5,635 | 1.1% vs ics3u-computer-science-help | reference table | curriculum by province | 26519f0c |
-| 63 | canada-high-school-math-courses-compared (chsm, #66182B) | ref | 4,867 | 1.6% vs ics3u-computer-science-help | reference table | course equivalence | (this commit) |
+| 63 | canada-high-school-math-courses-compared (chsm, #66182B) | ref | 4,867 | 1.6% vs ics3u-computer-science-help | reference table | course equivalence | 95d6f5cf |
+| 64 | canada-time-zones-2026-online-class-times (can, #611614) | ref | 4,742 | 1% vs ccc-junior-guide | scheduling reference | time zones | (this commit) |
 
 ## Skipped
 

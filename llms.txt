@@ -722,6 +722,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Gauss Contest preparation: https://learn.modernagecoders.com/gauss-contest-preparation
 - Coding curriculum by province: https://learn.modernagecoders.com/canada-coding-curriculum-by-province
 - Grade 12 math by province: https://learn.modernagecoders.com/canada-high-school-math-courses-compared
+- Canada time zones 2026 and class times: https://learn.modernagecoders.com/canada-time-zones-2026-online-class-times
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

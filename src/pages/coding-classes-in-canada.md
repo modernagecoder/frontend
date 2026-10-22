@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Canada time zones in 2026 and online class times](/canada-time-zones-2026-online-class-times)
 - [Grade 12 math courses compared across Canada](/canada-high-school-math-courses-compared)
 - [Coding curriculum by province](/canada-coding-curriculum-by-province)
 - [Gauss contest preparation (Grades 7 and 8)](/gauss-contest-preparation)
