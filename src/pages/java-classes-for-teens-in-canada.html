@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Java Classes for Teens in Canada: ICS3U, ICS4U and Beyond</title>
+  <meta name="description" content="Java for Canadian teens: where it appears in ICS3U, ICS4U and Nova Scotia's Programming 12, which JDK to install in 2026, and a Vancouver open data project in Java.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/java-classes-for-teens-in-canada">
+  <link rel="alternate" type="text/markdown" href="/src/pages/java-classes-for-teens-in-canada.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3D6B41">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/java-classes-for-teens-in-canada">
+  <meta property="og:title" content="Java Classes for Teens in Canada: ICS3U, ICS4U and Beyond">
+  <meta property="og:description" content="Java for high school students in Canada: what Ontario's curriculum says about language choice, the 2026 JDK releases from OpenJDK and Oracle, and a working Java program on the City of Vancouver's public art registry.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Java Classes for Teens in Canada: ICS3U, ICS4U and Beyond">
+  <meta name="twitter:description" content="Java for Canadian teens: ICS3U and ICS4U, the 2026 JDKs, and a real Vancouver data project.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jtc .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-jtc .ag-capsule { border-left-width: 3px; border-radius: 6px; }
+.ag-root.ag-jtc .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-jtc .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-jtc .ag-band-head h3 { letter-spacing: -0.005em; }
+.ag-root.ag-jtc .ag-slots { gap: 1.25rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/java-classes-for-teens-in-canada#page","url":"https://learn.modernagecoders.com/java-classes-for-teens-in-canada","name":"Java Classes for Teens in Canada","description":"A guide for Canadian high school students and parents to learning Java, built from Ontario's computer studies curriculum, Nova Scotia Virtual School, CEMC's CCC page, OpenJDK and Oracle's Java roadmap, with an original Java program on City of Vancouver open data.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"Java for teens","item":"https://learn.modernagecoders.com/java-classes-for-teens-in-canada"}]},{"@type":"Course","name":"Java Classes for Teens in Canada","description":"Live online Java classes for teenagers aged 13 to 18 across Canada, from first programs to object-oriented design, alongside school courses such as ICS3U and ICS4U, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/java-classes-for-teens-in-canada"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-classes-for-teens-in-canada"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-classes-for-teens-in-canada"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is ICS3U taught in Java or Python?","acceptedAnswer":{"@type":"Answer","text":"It depends on the school. Ontario's 2008 curriculum says the programming language used is left to the teacher's professional judgement, so some schools teach ICS3U in Java and others in Python. We teach in whichever language the school uses."}},{"@type":"Question","name":"Do your Java classes count for an Ontario credit?","acceptedAnswer":{"@type":"Answer","text":"They do not. A credit for ICS3U or ICS4U can only come from the student's school. We do not grant Ontario credits, and our classes are support beside the course, not a replacement for it."}},{"@type":"Question","name":"Which version of Java should a student install?","acceptedAnswer":{"@type":"Answer","text":"The one the school uses, if it says. Otherwise JDK 25, which reached general availability on 16 September 2025 and is a long-term support release. Oracle lists the next planned long-term release as Java 29 in September 2027."}},{"@type":"Question","name":"Can my teen learn Java with no coding experience?","acceptedAnswer":{"@type":"Answer","text":"Yes. Java for Teens assumes nothing: a 13 to 18 year old starts with a first compiled program and, over 40 to 48 weeks of twice-weekly classes, reaches data structures and a capstone."}},{"@type":"Question","name":"Can Java be used in the Canadian Computing Competition?","acceptedAnswer":{"@type":"Answer","text":"It can; Java is one of five languages CEMC accepts for the CCC. CEMC adds a caution that some problems may not allow full marks in Java or Python, and the Olympiad after the CCC accepts only C++."}},{"@type":"Question","name":"Does Nova Scotia teach Java in high school?","acceptedAnswer":{"@type":"Answer","text":"The Nova Scotia Virtual School lists its Computer Programming 12 course as CodeHS: NSVS Computer Programming 12 (Java). Other provinces mostly leave the language to schools."}},{"@type":"Question","name":"Will you help with my teen's ICS4U final project?","acceptedAnswer":{"@type":"Answer","text":"We help the student plan, design and debug their own project, and explain the Java behind it. We do not write graded work; the project has to be the student's own."}},{"@type":"Question","name":"Can teens use AI tools to write Java?","acceptedAnswer":{"@type":"Answer","text":"Only inside each company's age rules. ChatGPT needs a parent or guardian to agree for anyone under 18, Claude is closed to under-18s, and Copilot Student is free once a student aged 13 or over is verified. Whatever the tool, our students explain every line they hand in."}},{"@type":"Question","name":"When do Java classes run for Canadian students?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We quote every time in the zone your family lives in."}},{"@type":"Question","name":"What will my teen build in Java?","acceptedAnswer":{"@type":"Answer","text":"Programs with real structure, such as our PublicArt.java, which turns each record of Vancouver's public art registry into an object and counts what is still in place. Later, larger projects and data structures."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/java-classes-for-teens-in-canada","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-jtc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#school">Java at school</a></li>
+      <li><a href="#jdk">Which JDK</a></li>
+      <li><a href="#project">Vancouver project</a></li>
+      <li><a href="#exercises">Exercises</a></li>
+      <li><a href="#path">Beyond school</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / Java for teens
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Java &middot; Ages 13 to 18</p>
+        <h1>Java classes for teens in Canada</h1>
+        <p class="ag-lede">Many Canadian teenagers learn their first serious language in Java, because their school chose it for Grade 11 or 12 computer science. Others pick it for robotics, for the Canadian Computing Competition, or because a university course will use it. This page covers where Java appears for Canadian teens, which Java Development Kit to install this year, a complete Java program on the City of Vancouver's public art registry, and exercises to extend it. The credit itself stays with the school: we do not grant Ontario credits, and no province recognises our classes as one.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#project" class="ag-btn ag-btn--ghost">See the Java project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20Canada%20is%20learning%20Java%20at%20school.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jtc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; Java taught alongside ICS3U and ICS4U, never for credit</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Ages</dt><dd>13 to 18</dd>
+          <dt>Language</dt><dd>Java, on a current JDK</dd>
+          <dt>School courses</dt><dd>Alongside ICS3U and ICS4U</dd>
+          <dt>Credits</dt><dd>None; credits come from school</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Java classes for teens in Canada teach 13 to 18 year olds to write and design Java programs, from loops to classes and objects, often beside a school ICS3U or ICS4U course taught in Java. No credit is attached. Modern Age Coders runs these classes live online, as a batch or one to one, through its Java for Teens course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Java courses for teens</p>
+      <h2>Three ways into Java for Canadian teens</h2>
+      <p class="ag-lede">A full Java course from the first line, a companion paced to Ontario's school courses, and an exam-focused Java course for schools that offer AP.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JTC / 01</p>
+          <h3>Java for Teens</h3>
+          <p>For 13 to 18 year olds starting from zero. Its four phases move from Java foundations and OOP to collections and games, data structures, then APIs and a capstone.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ics3u-ics4u-computer-science-companion-course">
+        <div class="ag-pick-shot"><img src="/images/ontario-computer-science-ics3u-ics4u.webp" alt="Ontario Computer Science Companion course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JTC / 02</p>
+          <h3>Ontario Computer Science Companion</h3>
+          <p>For Ontario students taking ICS3U or ICS4U in Java (or Python). Follows the school's unit order; start in any month. No credit is granted.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JTC / 03</p>
+          <h3>AP Computer Science A</h3>
+          <p>For high school students at schools that offer AP. Six months of Java from the basics, with full exam preparation.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java at school</p><h2>Where Java turns up for Canadian high school students</h2><p class="ag-lede">No province we checked makes Java compulsory, yet many Canadian teens end up writing it, because the curriculum leaves the language to the teacher, or because a course, contest or robot uses it. These are the documents that matter, read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Java in Canadian high school courses and programmes, from the organisers' own documents (read 22 October 2026)</caption><thead><tr><th scope="col">Where</th><th scope="col">What the source says</th><th scope="col">What it means for Java</th></tr></thead><tbody><tr><td>Ontario, all computer studies courses (2008)</td><td>"The computer programming language used and the order in which concepts are taught is left to the teacher's professional judgement."</td><td>Your school, not the province, chose Java for ICS3U or ICS4U</td></tr><tr><td>Ontario ICS3U, Grade 11 University</td><td>Students work "using industry-standard programming tools and applying the software development life-cycle model"</td><td>In a Java school: classes, methods and an editor such as an IDE from the start</td></tr><tr><td>Ontario ICS4U, Grade 12 University</td><td>"use modular design principles to create complex and fully documented programs"; prerequisite ICS3U</td><td>Java's classes and packages are built for exactly that</td></tr><tr><td>Ontario ICS4C, Grade 12 College</td><td>"learn object-oriented programming concepts, create object-oriented software solutions, and design graphical user interfaces"</td><td>Object-oriented design is named outright</td></tr><tr><td>Nova Scotia Virtual School, Computer Programming 12</td><td>"CodeHS: NSVS Computer Programming 12 (Java)."</td><td>One of the few provincial courses that names Java</td></tr><tr><td>Canadian Computing Competition (CEMC)</td><td>"CCC participants may use C, C++, Python 2, Python 3, or Java."</td><td>Java is allowed, though CEMC warns a perfect score is not always possible in Python or Java</td></tr><tr><td>FIRST Tech Challenge (FIRST Robotics Canada)</td><td>Robots "can be coded using a variety of levels of Java-based programming"</td><td>A team robotics route into Java</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Objects first, or structure first?</h3><p>Ontario's document says some teachers "may decide to use an" objects-first approach, while others start with plain procedural code. In a Java class that choice shows on day one: an objects-first teacher talks about classes before loops, the other teaches loops inside one long main method.</p>
+<p>Neither is wrong, but a student who moves schools, or who learns from videos made the other way, can feel lost. We find out which approach the school uses and teach so the two fit together.</p></div><div><h3>Credits, and where they come from</h3><p>Each Ontario computer studies course is worth one credit, and only a school can award it. Our Java classes sit beside the course: more practice, clearer explanations, and feedback on the student's own programs. We do not grant Ontario credits, and we never write graded assignments for a student.</p>
+<p>Looking ahead to university, the Waterloo computer science page lists ICS3U (its wording: Grade 11 U Introduction to Computer Science) under recommended courses, with no language attached.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf" rel="noopener" target="_blank">Ontario Curriculum, Computer Studies, Grades 10 to 12 (2008)</a>; <a class="ag-inline-link" href="https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&amp;elements.code%5Bin%5D=ICS2O,ICS3U,ICS3C,ICS4U,ICS4C&amp;depth=0" rel="noopener" target="_blank">Ontario curriculum course data</a>; <a class="ag-inline-link" href="https://elearning.ednet.ns.ca/index.php/cm-course/computer-programming-12/" rel="noopener" target="_blank">Nova Scotia Virtual School</a>; <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/ccc" rel="noopener" target="_blank">CEMC, CCC</a>; <a class="ag-inline-link" href="https://www.firstroboticscanada.org/" rel="noopener" target="_blank">FIRST Robotics Canada</a>; <a class="ag-inline-link" href="https://uwaterloo.ca/future-students/programs/computer-science" rel="noopener" target="_blank">University of Waterloo</a>. Each was read on 22 October 2026; none of these bodies is connected with Modern Age Coders.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="jdk">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Which Java to install</p><h2>Which JDK a Canadian student should use in 2026 to 2027</h2><p class="ag-lede">Java ships a new version twice a year, which confuses new students. Most of those versions are short-lived; a few are long-term support releases that schools and employers settle on. The dates below are from OpenJDK and Oracle's own pages.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Recent and upcoming Java releases, from openjdk.org and Oracle's Java SE support roadmap (read 22 October 2026)</caption><thead><tr><th scope="col">Release</th><th scope="col">General availability</th><th scope="col">Status</th></tr></thead><tbody><tr><td>JDK 21</td><td>2023/09/19</td><td>Long-term support (Oracle lists 8, 11, 17, 21 and 25 as LTS)</td></tr><tr><td>JDK 25</td><td>16 September 2025</td><td>Long-term support; includes JEP 512, Compact Source Files and Instance Main Methods</td></tr><tr><td>JDK 26</td><td>2026/03/17</td><td>Feature release, not LTS</td></tr><tr><td>JDK 27</td><td>2026/09/15</td><td>Feature release, not LTS</td></tr><tr><td>JDK 28</td><td>In development</td><td>Feature release</td></tr><tr><td>Java 29</td><td>Planned for September 2027</td><td>Oracle: "the next planned LTS release"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Our advice</h3><p>Install the version your school uses, if it tells you. If it does not, choose JDK 25, the most recent long-term support release. Everything a Grade 11 or 12 course teaches works on it, and so does every program on this page.</p>
+<p>OpenJDK says the project "ships a feature release every six months", so a newer number will always exist. That does not make a long-term release out of date.</p></div><div><h3>What JEP 512 changes for beginners</h3><p>JEP 512, final in JDK 25, aims to let "beginners write their first programs without needing to understand language features designed for large programs." In practice a first program can be as short as a void main() method, without the full public class and public static void main ceremony.</p>
+<p>We still teach the classic form, because school textbooks, the CCC grader and older JDKs expect it. The program on this page uses it, and was compiled and run on JDK 22.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://openjdk.org/projects/jdk/" rel="noopener" target="_blank">OpenJDK, JDK project</a>; <a class="ag-inline-link" href="https://openjdk.org/projects/jdk/25/" rel="noopener" target="_blank">JDK 25</a>; <a class="ag-inline-link" href="https://openjdk.org/jeps/512" rel="noopener" target="_blank">JEP 512</a>; <a class="ag-inline-link" href="https://www.oracle.com/java/technologies/java-se-support-roadmap.html" rel="noopener" target="_blank">Oracle Java SE support roadmap</a>. All read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Java project on real data</p><h2>Counting Vancouver's public art with classes and objects</h2><p class="ag-lede">The City of Vancouver keeps a registry of its public art, published under a licence that permits reuse by businesses as well as individuals. Each record says what the work is, whether it is still in place, its neighbourhood and the year it went up. We use a five-column export of it to teach the idea at the heart of ICS4U-level Java: a class that turns one line of text into an object that can answer questions. We wrote the program, and each figure quoted comes from running it on the city's export of 22 October 2026.</p></div>
+    <p><b>The task:</b> load every record into an Artwork object, count the artworks still in place by the decade they were installed, and find the oldest one still standing. The export's columns are registryid, type, status, neighbourhood and yearofinstallation.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our program &middot; PublicArt.java</b><span>java</span></figcaption><pre>// PublicArt.java: our own program for this page (Modern Age Coders)
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class PublicArt {
+
+    static class Artwork {
+        int id;
+        String type;
+        String status;
+        String neighbourhood;
+        int year;
+
+        Artwork(String line) {
+            String[] f = line.split(",", -1);       // -1 keeps empty fields
+            id = Integer.parseInt(f[0]);
+            type = f[1];
+            status = f[2];
+            neighbourhood = f[3];
+            year = Integer.parseInt(f[4]);
+        }
+
+        boolean stillThere() {
+            return status.equals("In place");
+        }
+    }
+
+    public static void main(String[] args) throws IOException {
+        List&lt;String&gt; lines = Files.readAllLines(Paths.get("vancouver-public-art-5col.csv"));
+        List&lt;Artwork&gt; art = new ArrayList&lt;&gt;();
+        for (int i = 1; i &lt; lines.size(); i++) {         // line 0 is the header
+            art.add(new Artwork(lines.get(i)));
+        }
+
+        Map&lt;Integer, Integer&gt; byDecade = new TreeMap&lt;&gt;();
+        int gone = 0;
+        for (Artwork a : art) {
+            if (a.stillThere()) {
+                int decade = a.year / 10 * 10;
+                byDecade.put(decade, byDecade.getOrDefault(decade, 0) + 1);
+            } else {
+                gone++;
+            }
+        }
+
+        Artwork oldest = art.stream()
+                .filter(Artwork::stillThere)
+                .min(Comparator.comparingInt(a -&gt; a.year))
+                .get();
+
+        System.out.println("records: " + art.size() + ", not in place: " + gone);
+        System.out.println("in place, by decade installed: " + byDecade);
+        System.out.println("oldest in place: #" + oldest.id + ", " + oldest.type + ", " + oldest.year);
+    }
+}</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output on the city's data (compiled and run on JDK 22)</b><span>text</span></figcaption><pre>records: 751, not in place: 273
+in place, by decade installed: {1900=3, 1910=3, 1920=9, 1930=4, 1940=2, 1950=8, 1960=24, 1970=31, 1980=33, 1990=67, 2000=90, 2010=159, 2020=45}
+oldest in place: #284, Totem pole, 1901</pre><p class="ag-code-note">Of 751 records, 478 are in place. The decade of the 2010s alone accounts for 159 of those.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Three design choices in the program, and the data that justifies each (our checks on the same export)</caption><thead><tr><th scope="col">Choice</th><th scope="col">What the data showed</th><th scope="col">The Java idea behind it</th></tr></thead><tbody><tr><td>The constructor parses the line</td><td>Every record has exactly five fields once empty ones are kept</td><td>An object is responsible for building itself; main never touches raw text</td></tr><tr><td>split(",", -1), not split(",")</td><td>99 records have an empty neighbourhood</td><td>Without the -1 limit, Java drops trailing empty fields; with it, every field keeps its position</td></tr><tr><td>A method, stillThere()</td><td>Status has four values: In place 478, No longer in place 268, Deaccessioned 4, In progress 1</td><td>The rule lives in one place; change it once and every count follows</td></tr><tr><td>A TreeMap for decades</td><td>Thirteen decades, 1900s to 2020s</td><td>A TreeMap keeps its keys sorted, so the output reads in order</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The bug hiding in the else</h3><p>The program prints "not in place: 273". But only 268 records say "No longer in place". The other five are 4 marked Deaccessioned and 1 marked In progress, and a work in progress is not gone; it is not there yet.</p>
+<p>An else branch catches everything the if did not, including categories the programmer never thought about. The fix is a second method, or a switch on the status, so each value is handled on purpose. That is exercise 3 below.</p></div><div><h3>Why this is an ICS4U-shaped problem</h3><p>ICS4U asks for "modular design principles" and "fully documented programs". Here the modules are visible: a class that knows how to read a record, a method that knows one rule, and a main method that only asks questions.</p>
+<p>A Grade 11 student writes the same program as one long main method first. Moving it into the Artwork class, and seeing how much shorter main becomes, is the lesson.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Data: <a class="ag-inline-link" href="https://opendata.vancouver.ca/explore/dataset/public-art/" rel="noopener" target="_blank">City of Vancouver Open Data Portal</a>, Public art. Contains information licensed under the Open Government Licence, Vancouver. Its terms permit use "including for commercial purposes". The Java and the tallies are ours; the City of Vancouver does not endorse this page.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="exercises">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Exercises</p><h2>Five ways to extend PublicArt.java</h2><p class="ag-lede">Our exercises, with the answers we got on the same export, so a student can check their code. Each one practises a different part of Java.</p></div>
+    <ol class="ag-steps"><li><b>Count by type (HashMap).</b> Count all records by type. Answer: Sculpture leads with 187; among works still in place it is 165.</li><li><b>equals or startsWith (strings).</b> Count records whose neighbourhood equals "Downtown", then those whose neighbourhood startsWith("Downtown"). Answer: 217 and 269, because the city writes "DowntownEastside" as one word, which startsWith quietly merges in.</li><li><b>Fix the else (control flow).</b> Replace the else branch so that "No longer in place", "Deaccessioned" and "In progress" are counted separately. Answer: 268, 4 and 1.</li><li><b>Empty fields (defensive code).</b> Count records with an empty neighbourhood, overall and in place. Answer: 99 overall, 21 in place. Then try split(",") without the -1 and see what happens to a record whose last field is empty.</li><li><b>Sort with a Comparator.</b> Sort the in-place works from newest to oldest and print the newest year and how many works share it. Answer: 2026, with 7 works; 2025 has 8.</li></ol>
+    <p class="ag-mt-40">Exercise 2 is our favourite, because the program does not crash and the number looks reasonable. Only someone who looks at the actual neighbourhood values catches it. We ask students to print every distinct value of a column before they write a condition on it.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="path">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Beyond the school course</p><h2>Where Java leads for a Canadian teenager</h2><p class="ag-lede">Java is a means, not a destination. Once the school course is under control, these are the directions our teen students take it, with our honest view of each.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Java directions for teens (our guidance, with the facts each organiser publishes)</caption><thead><tr><th scope="col">Direction</th><th scope="col">What it asks</th><th scope="col">Our view</th></tr></thead><tbody><tr><td>The CCC, 17 February 2027</td><td>Five problems in three hours; Java allowed</td><td>Fine for Junior; for Senior and the Canadian Computing Olympiad, which requires C++, many students switch</td></tr><tr><td>FIRST Tech Challenge</td><td>Team robots coded in Java-based programming</td><td>Ideal for a teen who wants code to move something physical</td></tr><tr><td>AP Computer Science A</td><td>A Java course and exam, at schools that offer AP</td><td>Useful where available; our AP course teaches it from Java basics</td></tr><tr><td>Data structures and algorithms</td><td>Lists, maps, trees and how fast they are</td><td>Where Java shines; our Java for Teens course spends two months here</td></tr><tr><td>Android apps</td><td>Java or Kotlin with Android tools</td><td>A natural next step; our app course for teens covers the mobile side</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Java and AI assistants</h3><p>Java's verbose style makes it tempting to let an assistant write the boilerplate. Each company sets its own floor. OpenAI's terms let 13 to 17 year olds in only with a parent or guardian agreeing; Anthropic shuts Claude to everyone below 18; GitHub offers Copilot Student at no charge to verified students, and its accounts start at 13.</p>
+<p>Whatever the tool, our rule is the same: a student explains every line they submit, and rewrites any line they cannot. The CCC rules forbid generative AI during the contest, so practice has to happen without it too.</p></div><div><h3>Design before code</h3><p>Our promise holds in Java as in every language we teach: a student learns to reason out a solution, rather than reproduce one someone else, or some model, produced. In Java that means designing the class on paper first: what it knows, what it can answer, what can go wrong.</p>
+<p>A student who can sketch the Artwork class before writing it has learned object-oriented design. One who can only type it from an example has not, yet.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="time">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Across six time zones</p><h2>Booking Java classes from any province</h2><p class="ag-lede">Teens join from Victoria to St. John's, and the school year now crosses two clock changes in the East and none in the West. We book every class in the student's own zone and recheck it at each change.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Offsets from UTC by zone, 2026 to 2027 (IANA tz database 2026e)</caption><thead><tr><th scope="col">Students in</th><th scope="col">Behind UTC, winter 2026 to 2027</th><th scope="col">Behind UTC, summer 2027</th></tr></thead><tbody><tr><td>Vancouver, Victoria, Whitehorse</td><td>7 hours</td><td>7 hours</td></tr><tr><td>Calgary, Edmonton, Regina, Saskatoon</td><td>6 hours</td><td>6 hours</td></tr><tr><td>Winnipeg</td><td>5 hours</td><td>5 hours</td></tr><tr><td>Toronto, Ottawa, Montreal</td><td>5 hours</td><td>4 hours</td></tr><tr><td>Halifax, Moncton, Charlottetown</td><td>4 hours</td><td>3 hours</td></tr><tr><td>St. John's</td><td>3 and a half hours</td><td>2 and a half hours</td></tr></tbody></table></div>
+    <p class="ag-mt-40">During ICS3U or ICS4U exam weeks, families often move a class or add one. A one-to-one student can shift times with a message, and a batch student can ask us about a temporary change.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Four steps in Java</p>
+      <h2>Where is your teen in Java?</h2>
+      <p class="ag-lede">Our steps for placing a teenager in the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four Java steps (ours)</caption><thead><tr><th scope="col">Step</th><th scope="col">What the student can do</th></tr></thead><tbody><tr><td>1. Compiles</td><td class="ag-num">Writes a small program in main, compiles it and reads the compiler errors</td></tr><tr><td>2. Structures</td><td class="ag-num">Uses methods, loops and arrays or ArrayLists without help</td></tr><tr><td>3. Models</td><td class="ag-num">Designs a class with fields, a constructor and methods, like Artwork</td></tr><tr><td>4. Organises</td><td class="ag-num">Splits a program into several classes, uses interfaces or inheritance, and documents it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>ICS3U usually covers steps 1 and 2; ICS4U expects step 3 and reaches into step 4. A student who struggles in ICS4U is often missing step 2, not step 3.</p>
+<p>Steps are about what the student can do alone, from a blank file.</p></div><div><h3>For teens</h3><p>Read the first compiler error only; fix it; compile again. Later errors are often caused by the first.</p>
+<p>Before writing a class, write one sentence: this class knows ... and can answer ....</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More for teens</p>
+      <h2>Nine more courses for Canadian teens</h2>
+      <p class="ag-lede">Each is taught live with one regular teacher, in a batch or one to one, for students anywhere in Canada.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Other languages</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / LANG / 01</p>
+          <h4>Python for teens</h4>
+          <p>For schools that teach Python instead.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / LANG / 02</p>
+          <h4>C++ for teens</h4>
+          <p>The language the CCO requires.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / LANG / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>Not Java: the language of the web.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Problem solving and contests</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / SOLVE / 01</p>
+          <h4>Problem solving for teens</h4>
+          <p>Logic, data structures, algorithms.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / SOLVE / 02</p>
+          <h4>CCC preparation</h4>
+          <p>For the 17 February 2027 contest.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / SOLVE / 03</p>
+          <h4>Competitive programming</h4>
+          <p>Contest technique for confident coders.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Build with it</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / BUILD / 01</p>
+          <h4>App development for teens</h4>
+          <p>Mobile apps, front to back.</p>
+          <a class="ag-course-link" href="/courses/complete-app-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / BUILD / 02</p>
+          <h4>Backend development for teens</h4>
+          <p>APIs and databases.</p>
+          <a class="ag-course-link" href="/courses/backend-coding-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JTC / BUILD / 03</p>
+          <h4>Git and GitHub for teens</h4>
+          <p>Version control from zero.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live Java classes beside the school course</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evenings, quoted in your local clock.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Mornings or afternoons, away from homework nights.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Paced to your school unit and test dates.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Your school's Java</h3><p>We match the JDK and editor your school uses.</p></div>
+      <div><h3>Objects or structure</h3><p>We teach in step with your teacher's approach.</p></div>
+      <div><h3>Compiler first</h3><p>Errors are read and fixed by the student.</p></div>
+      <div><h3>Real data</h3><p>Canadian open data, licensed for reuse.</p></div>
+      <div><h3>Never your assignment</h3><p>We explain and practise; graded work stays yours.</p></div>
+      <div><h3>Group or solo</h3><p>A class of fifteen to twenty, or a private teacher.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students build</h2>
+      <p class="ag-lede">Java and other courses lead to finished projects like these. See the <a class="ag-inline-link" href="/student-labs">student labs</a> for more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">A monthly fee buys eight live classes. Families can stop at the end of any month, which suits a student who wants help only through one semester.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short Java program to read together</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A class of fifteen to twenty</li><li>One regular teacher</li><li>A steady weekly time</li><li>Paid by the month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One teacher, one student</li><li>Paced to your school course</li><li>Feedback on your own programs</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from our families and students, printed as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions about Java</p>
+      <h2>Java for teens in Canada: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is ICS3U taught in Java or Python?</h3>
+        <p>It depends on the school. Ontario's 2008 curriculum says the programming language used is left to the teacher's professional judgement, so some schools teach ICS3U in Java and others in Python. We teach in whichever language the school uses.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do your Java classes count for an Ontario credit?</h3>
+        <p>They do not. A credit for ICS3U or ICS4U can only come from the student's school. We do not grant Ontario credits, and our classes are support beside the course, not a replacement for it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which version of Java should a student install?</h3>
+        <p>The one the school uses, if it says. Otherwise JDK 25, which reached general availability on 16 September 2025 and is a long-term support release. Oracle lists the next planned long-term release as Java 29 in September 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my teen learn Java with no coding experience?</h3>
+        <p>Yes. Java for Teens assumes nothing: a 13 to 18 year old starts with a first compiled program and, over 40 to 48 weeks of twice-weekly classes, reaches data structures and a capstone.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can Java be used in the Canadian Computing Competition?</h3>
+        <p>It can; Java is one of five languages CEMC accepts for the CCC. CEMC adds a caution that some problems may not allow full marks in Java or Python, and the Olympiad after the CCC accepts only C++.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Nova Scotia teach Java in high school?</h3>
+        <p>The Nova Scotia Virtual School lists its Computer Programming 12 course as CodeHS: NSVS Computer Programming 12 (Java). Other provinces mostly leave the language to schools.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with my teen's ICS4U final project?</h3>
+        <p>We help the student plan, design and debug their own project, and explain the Java behind it. We do not write graded work; the project has to be the student's own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can teens use AI tools to write Java?</h3>
+        <p>Only inside each company's age rules. ChatGPT needs a parent or guardian to agree for anyone under 18, Claude is closed to under-18s, and Copilot Student is free once a student aged 13 or over is verified. Whatever the tool, our students explain every line they hand in.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When do Java classes run for Canadian students?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We quote every time in the zone your family lives in.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What will my teen build in Java?</h3>
+        <p>Programs with real structure, such as our PublicArt.java, which turns each record of Vancouver's public art registry into an object and counts what is still in place. Later, larger projects and data structures.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian teens writing Java.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>All our pages for Canadian families.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ics3u-computer-science-help">ICS3U computer science help</a></h3><p>The Grade 11 course in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-classes-for-teens">Java classes for teens</a></h3><p>Our Java teaching for teenagers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-oops-concepts-course">Object-oriented Java</a></h3><p>Classes, objects and inheritance.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-cannot-find-symbol-error">Java cannot find symbol</a></h3><p>The error every student meets.</p></div>
+      <div><h3><a class="ag-inline-link" href="/eclipse-java-help-for-students">Eclipse help for students</a></h3><p>Setting up a school IDE.</p></div>
+      <div><h3><a class="ag-inline-link" href="/java-projects-for-students">Java projects for students</a></h3><p>Ideas once the basics are in.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccc-junior-guide">CCC Junior guide</a></h3><p>The 2027 contest, in any allowed language.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-debug-code">How to debug code</a></h3><p>Finding what a compiler cannot.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">We open with a short Java program for the student to read and predict, then ask for one small change to it. The teacher learns which step the student is on and how their school teaches Java.</p>
+        <p class="ag-mt-40">Curious first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> walks through a live class, and our <a class="ag-inline-link" href="/courses">courses</a> list each syllabus in full.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teenager%20in%20Canada%20is%20learning%20Java%20at%20school.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jtc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">All classes are live over video, taught by teachers based in India, so students anywhere in Canada join from home. Send a WhatsApp message for the quickest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jtc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free to try. We take no card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Java</h4><ul><li><a href="/java-classes-for-teens">Java for teens</a></li><li><a href="/java-oops-concepts-course">Object-oriented Java</a></li><li><a href="/java-cannot-find-symbol-error">Cannot find symbol</a></li><li><a href="/ics3u-computer-science-help">ICS3U help</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/coding-classes-in-ontario">Coding classes in Ontario</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Design the class on paper first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jtc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'java-classes-for-teens-in-canada-inline', meta: { name: name, age: age, page: 'java-classes-for-teens-in-canada' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>
