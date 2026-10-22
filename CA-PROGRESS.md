@@ -235,7 +235,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 90 | modern-age-coders-vs-oxford-learning (maco, #36298A) | vs | 4,719 | 0.9% vs cegep-computer-science-preparation | comparison | learning skills vs subject depth | afa900c4 |
 | 49 | cimc-and-csmc-contest-guide (cccg, #376660) | contest | 6,562 | 1.3% vs pascal-contest-preparation | contest guide | part B full solutions | e32cd507 |
 | 48 | fryer-galois-hypatia-contests-guide (fghc, #165C25) | contest | 5,950 | 1.5% vs euclid-contest-preparation | contest guide | written solutions | 9744883d |
-| 51 | comc-canada-open-mathematics-challenge-guide (ccom, #424D9E) | contest | 5,981 | 1.3% vs canada-math-and-coding-contest-calendar | contest guide | olympiad entry | (this commit) |
+| 51 | comc-canada-open-mathematics-challenge-guide (ccom, #424D9E) | contest | 5,981 | 1.3% vs canada-math-and-coding-contest-calendar | contest guide | olympiad entry | 35b84d13 |
+| 50 | canadian-math-olympiad-cmo-path (cmoc, #446585) | contest | 5,798 | 1.5% vs comc-canada-open-mathematics-challenge-guide | pathway guide | olympiad problem solving | (this commit) |
 
 ## Skipped
 

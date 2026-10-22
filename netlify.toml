@@ -25761,6 +25761,18 @@
   to = "/src/pages/comc-canada-open-mathematics-challenge-guide.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/canadian-math-olympiad-cmo-path"
+  to = "/src/pages/canadian-math-olympiad-cmo-path.html"
+  status = 200
+
+[[redirects]]
+  from = "/canadian-math-olympiad-cmo-path.md"
+  to = "/src/pages/canadian-math-olympiad-cmo-path.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

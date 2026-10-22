@@ -534,6 +534,7 @@ const SLUGS = [
   'cimc-and-csmc-contest-guide',
   'fryer-galois-hypatia-contests-guide',
   'comc-canada-open-mathematics-challenge-guide',
+  'canadian-math-olympiad-cmo-path',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1147,6 +1148,7 @@ const LLMS_LABELS = {
   'cimc-and-csmc-contest-guide': 'CIMC and CSMC guide',
   'fryer-galois-hypatia-contests-guide': 'Fryer, Galois and Hypatia',
   'comc-canada-open-mathematics-challenge-guide': 'COMC guide',
+  'canadian-math-olympiad-cmo-path': 'Canadian Math Olympiad path',
 };
 
 function wireLlms(slugs) {
