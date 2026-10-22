@@ -526,6 +526,7 @@ const SLUGS = [
   'computer-science-prerequisites-canadian-universities',
   'ubc-computer-science-admission-requirements',
   'computer-programming-11-and-12-bc',
+  'calculus-12-tutor-bc',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1131,6 +1132,7 @@ const LLMS_LABELS = {
   'computer-science-prerequisites-canadian-universities': 'Computer science prerequisites at Canadian universities',
   'ubc-computer-science-admission-requirements': 'UBC computer science admission requirements',
   'computer-programming-11-and-12-bc': 'Computer Programming 11 and 12 BC',
+  'calculus-12-tutor-bc': 'Calculus 12 tutor, BC',
 };
 
 function wireLlms(slugs) {

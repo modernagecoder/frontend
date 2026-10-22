@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [BC Calculus 12 help](/calculus-12-tutor-bc)
 - [BC Computer Programming 11 and 12 help](/computer-programming-11-and-12-bc)
 - [UBC computer science admission requirements](/ubc-computer-science-admission-requirements)
 - [Computer science prerequisites at Canadian universities](/computer-science-prerequisites-canadian-universities)
