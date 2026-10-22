@@ -240,7 +240,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 52 | math-kangaroo-canada-preparation (mkcp, #413D70) | contest | 5,175 | 1.4% vs cimc-and-csmc-contest-guide | contest guide | kangaroo-style reasoning | 679df460 |
 | 79 | best-online-coding-classes-in-canada (bec, #315249) | best | 6,213 | 1.8% vs canada-coding-curriculum-by-province | criteria guide | transfer test | e4aeed01 |
 | 80 | best-online-math-tutoring-in-canada (bmtc, #0F1C66) | best | 5,529 | 2.3% vs canada-high-school-math-courses-compared | criteria guide | gap finding | 3050b3f1 |
-| 81 | problem-solving-coding-and-math-classes-canada (psmc, #311694) | think | 5,065 | 1.6% vs best-online-math-tutoring-in-canada | teaching approach | reasoning before code | (this commit) |
+| 81 | problem-solving-coding-and-math-classes-canada (psmc, #311694) | think | 5,065 | 1.6% vs best-online-math-tutoring-in-canada | teaching approach | reasoning before code | 581fcf8f |
+| 28 | math-30-1-tutor-alberta (mat, #187028) | school-ab | 5,954 | 1.2% vs mhf4u-advanced-functions-tutor | school course help | functions and trigonometry | (this commit) |
 
 ## Skipped
 
