@@ -197,7 +197,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 15 | mhf4u-advanced-functions-tutor (maft, #8A5115) | school-on | 6,472 | 0.9% vs canada-high-school-math-courses-compared | school course help | functions and logarithms | 0236a05d |
 | 16 | mcv4u-calculus-and-vectors-tutor (mcvt, #545C32) | school-on | 6,110 | 1.3% vs mhf4u-advanced-functions-tutor | school course help | derivatives and vectors | fc4d1f41 |
 | 14 | mcr3u-functions-tutor (mft, #4C1919) | school-on | 5,641 | 1.5% vs ics3u-computer-science-help | school course help | functions | ea723888 |
-| 17 | mdm4u-data-management-tutor (mdmt, #1E7011) | school-on | 6,799 | 1.8% vs mcr3u-functions-tutor | school course help | data analysis | (this commit) |
+| 17 | mdm4u-data-management-tutor (mdmt, #1E7011) | school-on | 6,799 | 1.8% vs mcr3u-functions-tutor | school course help | data analysis | f07746c7 |
+| 18 | mcf3m-vs-mcr3u (mm, #274C2B) | school-on | 5,207 | 1.2% vs mcr3u-functions-tutor | decision page | course choice | (this commit) |
 
 ## Skipped
 

@@ -496,6 +496,7 @@ const SLUGS = [
   'mcv4u-calculus-and-vectors-tutor',
   'mcr3u-functions-tutor',
   'mdm4u-data-management-tutor',
+  'mcf3m-vs-mcr3u',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1071,6 +1072,7 @@ const LLMS_LABELS = {
   'mcv4u-calculus-and-vectors-tutor': 'MCV4U Calculus and Vectors tutor',
   'mcr3u-functions-tutor': 'MCR3U Functions tutor',
   'mdm4u-data-management-tutor': 'MDM4U Data Management tutor',
+  'mcf3m-vs-mcr3u': 'MCF3M vs MCR3U',
 };
 
 function wireLlms(slugs) {

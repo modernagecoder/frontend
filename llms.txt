@@ -727,6 +727,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - MCV4U Calculus and Vectors tutor: https://learn.modernagecoders.com/mcv4u-calculus-and-vectors-tutor
 - MCR3U Functions tutor: https://learn.modernagecoders.com/mcr3u-functions-tutor
 - MDM4U Data Management tutor: https://learn.modernagecoders.com/mdm4u-data-management-tutor
+- MCF3M vs MCR3U: https://learn.modernagecoders.com/mcf3m-vs-mcr3u
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [MCF3M vs MCR3U: which Grade 11 math](/mcf3m-vs-mcr3u)
 - [MDM4U Data Management help](/mdm4u-data-management-tutor)
 - [MCR3U Functions help](/mcr3u-functions-tutor)
 - [MCV4U Calculus and Vectors help](/mcv4u-calculus-and-vectors-tutor)
