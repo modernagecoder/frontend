@@ -781,6 +781,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Coding classes for seniors, Canada: https://learn.modernagecoders.com/coding-classes-for-seniors-in-canada
 - Homeschool coding and math, Ontario: https://learn.modernagecoders.com/homeschool-coding-and-math-ontario
 - Homeschool coding and math, Alberta: https://learn.modernagecoders.com/homeschool-coding-and-math-alberta
+- Homeschool coding and math, BC: https://learn.modernagecoders.com/homeschool-coding-and-math-bc
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
