@@ -503,6 +503,7 @@ const SLUGS = [
   'eqao-grade-3-math-practice',
   'eqao-grade-6-math-practice',
   'eqao-grade-9-math-practice',
+  'quebec-secondary-4-math-cst-ts-science',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1085,6 +1086,7 @@ const LLMS_LABELS = {
   'eqao-grade-3-math-practice': 'EQAO Grade 3 math practice',
   'eqao-grade-6-math-practice': 'EQAO Grade 6 math practice',
   'eqao-grade-9-math-practice': 'EQAO Grade 9 math practice',
+  'quebec-secondary-4-math-cst-ts-science': 'Quebec Secondary 4 math',
 };
 
 function wireLlms(slugs) {

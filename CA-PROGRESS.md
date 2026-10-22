@@ -204,7 +204,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 10 | mth1w-grade-9-math-explained (mtgr, #32648A) | school-on | 5,063 | 1.2% vs mcr3u-functions-tutor | school course help | coding for algebra | ad08e9b1 |
 | 11 | eqao-grade-3-math-practice (eqa, #202299) | school-on | 4,674 | 1.4% vs ontario-grade-6-math-and-coding-help | assessment practice | grade 3 math | cd789858 |
 | 12 | eqao-grade-6-math-practice (eqg, #110B4C) | school-on | 4,332 | 1.4% vs gauss-contest-preparation | assessment practice | grade 6 math | 781ba664 |
-| 13 | eqao-grade-9-math-practice (eqao, #991747) | school-on | 4,728 | 0.9% vs pascal-contest-preparation | assessment practice | grade 9 math | (this commit) |
+| 13 | eqao-grade-9-math-practice (eqao, #991747) | school-on | 4,728 | 0.9% vs pascal-contest-preparation | assessment practice | grade 9 math | 3a64ead8 |
+| 36 | quebec-secondary-4-math-cst-ts-science (que, #556B13) | school-qc | 4,940 | 1.8% vs canada-high-school-math-courses-compared | option guide | systems of equations | (this commit) |
 
 ## Skipped
 
