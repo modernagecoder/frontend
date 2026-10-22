@@ -399,6 +399,8 @@
   font-family: var(--ag-serif); font-size: 2.1rem; font-weight: 600; line-height: 1;
   margin-bottom: 4px;
 }
+/* ISO code beside a fee (Canada pages): which dollar, at a glance. */
+.ag-price-amt .fee-cur { font-family: var(--ag-mono); font-size: 0.85rem; font-weight: 500; letter-spacing: 0.06em; vertical-align: middle; }
 .ag-price-alt { font-family: var(--ag-mono); font-size: 0.82rem; color: var(--ag-accent); margin-bottom: 18px; }
 .ag-price ul { margin: 0 0 24px; padding-left: 19px; }
 .ag-price li { font-size: 0.9rem; line-height: 1.6; margin-bottom: 8px; }

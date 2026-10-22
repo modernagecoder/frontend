@@ -723,6 +723,7 @@
   display: block; font-family: var(--cg-serif); font-size: 1.6rem;
   font-weight: 600; line-height: 1.1; margin-bottom: 0.35rem;
 }
+.cg-price-grid .cg-price strong .fee-cur { display: inline; font-family: var(--cg-mono, monospace); font-size: 0.85rem; font-weight: 500; letter-spacing: 0.06em; vertical-align: middle; }
 .cg-price-grid .cg-price p { margin: 0; font-size: 0.9rem; color: var(--cg-muted); }
 
 /* --- the lead form and its contact card --- */

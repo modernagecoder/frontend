@@ -230,7 +230,7 @@ Classes are online, so a student in Scarborough and one in Etobicoke share the s
 
 ## What classes cost for Toronto families
 
-Three lines, shown in your own currency.
+Three lines, each with the currency code printed beside the fee.
 
 - First class: USD 0. One full live lesson at no charge, finishing with a recommended level, course and time.
 - Group tuition: USD 100 a month. The monthly fee for a batch of fifteen to twenty students working at the same stage.
@@ -286,7 +286,7 @@ Yes. Students in Mississauga, Brampton, Markham, Vaughan, Richmond Hill and Oakv
 
 ### How do I see the fees?
 
-The fees section on this page shows the free first class, the monthly batch fee and the monthly one-to-one fee in your currency. Billing starts only after the free class.
+The fees section on this page shows the free first class, the monthly batch fee and the monthly one-to-one fee, with the currency code beside each figure. Billing starts only after the free class.
 
 ## Other pages for Toronto and Ontario students
 

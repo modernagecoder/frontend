@@ -256,7 +256,7 @@ module.exports = {
 
   fees: {
     h2: 'What classes cost for Toronto families',
-    intro: 'Three lines, shown in your own currency.',
+    intro: 'Three lines, each with the currency code printed beside the fee.',
     first: 'One full live lesson at no charge, finishing with a recommended level, course and time.',
     group: 'The monthly fee for a batch of fifteen to twenty students working at the same stage.',
     private: 'The monthly fee for one teacher and one student, at times you choose.',
@@ -286,7 +286,7 @@ module.exports = {
       { q: 'What time are classes for Toronto families?', a: 'Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time is confirmed in Eastern time.' },
       { q: 'Will my Toronto phone number work in the form?', a: 'Yes. Toronto numbers with the 416, 437, 647 or 942 area codes work; enter the ten digits without the leading 1.' },
       { q: 'Do you teach students outside Toronto in the GTA?', a: 'Yes. Students in Mississauga, Brampton, Markham, Vaughan, Richmond Hill and Oakville take the same online classes on the same Eastern time schedule.' },
-      { q: 'How do I see the fees?', a: 'The fees section on this page shows the free first class, the monthly batch fee and the monthly one-to-one fee in your currency. Billing starts only after the free class.' }
+      { q: 'How do I see the fees?', a: 'The fees section on this page shows the free first class, the monthly batch fee and the monthly one-to-one fee, with the currency code beside each figure. Billing starts only after the free class.' }
     ]
   },
 

@@ -135,6 +135,7 @@ const InternationalPricing = {
     // and the text-scanning fallbacks below must not run over a value they
     // have already set correctly.
     this.updatePriceAnchors();
+    this.updateCurrencyLabels();
 
     // Toggle catalog price chips (course.html) regardless of region
     this.updateCatalogPriceChips();
@@ -279,6 +280,16 @@ const InternationalPricing = {
    * Runs for everyone, including India, because a page may be anchored to the
    * international side and still need rupees.
    */
+  // A [data-price-currency] element names the currency the visitor's prices
+  // are shown and charged in (the ISO code), so a bare "$" is never ambiguous:
+  // pages written for countries with their own dollar use it beside the fee.
+  updateCurrencyLabels: function () {
+    var code = this.isIndian ? 'INR' : 'USD';
+    document.querySelectorAll('[data-price-currency]').forEach(function (el) {
+      el.textContent = code;
+    });
+  },
+
   updatePriceAnchors: function () {
     var data = window.MAC_PRICING;
     if (!data) return;

@@ -9,6 +9,7 @@ const neutralFee = page => NEUTRAL.has((page.market || {}).iso);
 const feeAnchor = (page, tier) => {
   const subject = page.priceSubject || 'coding';
   const fallback = tier === 'group' ? '$100' : '$150';
-  return `<span data-price="${subject}.international.${tier}">${fallback}</span>`;
+  // The ISO code beside it settles which dollar: Canadians also write $.
+  return `<span data-price="${subject}.international.${tier}">${fallback}</span> <span class="fee-cur" data-price-currency>USD</span>`;
 };
 module.exports = { neutralFee, feeAnchor };

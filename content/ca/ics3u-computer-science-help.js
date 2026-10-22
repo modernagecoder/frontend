@@ -632,7 +632,7 @@ module.exports = {
 
   fees: {
     h2: 'Fees',
-    lede: 'The first class costs nothing. After it, families pay a monthly fee for eight live classes a month, shown here in your own currency, with no term contract, and you can stop at the end of any month.',
+    lede: 'The first class costs nothing. After it, families pay a monthly fee for eight live classes a month, with the currency code printed beside it, no term contract, and you can stop at the end of any month.',
     free: ['A free first class', 'Bring this week&rsquo;s assignment', 'No card needed'],
     group: ['Fifteen to twenty students', 'One regular teacher', 'Choose your batch', 'Paid monthly'],
     one: ['A teacher for your teen alone', 'Times around school deadlines', 'Planned from their own course']
