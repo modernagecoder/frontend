@@ -183,6 +183,7 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 
 | # | Slug | Type | Words | Worst overlap | Spine | Lesson family | Commit |
 |---|------|------|-------|---------------|-------|---------------|--------|
+| 3 | coding-and-ai-classes-in-toronto (tor, #75544C) | city | 4,069 | 1.4% vs coding-and-ai-classes-in-north-carolina | school curriculum to city data | counting and grouping open data | (this commit) |
 
 ## Skipped
 

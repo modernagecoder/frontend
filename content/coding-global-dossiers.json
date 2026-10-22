@@ -54400,5 +54400,77 @@
       "Rides per scooter as a fact: shown only as a rough exercise idea, no number printed.",
       "Any affiliation with the City of Minneapolis, the Park Board, MDE, Code.org or the College Board."
     ]
+  },
+  "coding-and-ai-classes-in-toronto": {
+    "market": "Toronto",
+    "bodyClass": "cg-tor",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) C3.1 coding by grade (Grade 1 sequential events; Grade 5 conditional statements; Grade 6 efficient code; Grade 8 analysis of data); MTH1W (2021, de-streamed) C2.1 and C2.3; computer studies list ICS3U, ICS3C, ICS4U, ICS4C (2008) and ICD2O (2023, Open), ICS3U no prerequisite, ICS4U after ICS3U, one credit each; EQAO 2026-27 windows (Grades 3 and 6 4 May to 8 June 2027; Grade 9 math 12 January to 5 February 2027, counts in the course mark; OSSLT 3 to 30 November 2026); PPM 128 from 1 September 2024. CEMC 2026-27 dates (BCC, Gauss, PCF, FGH, Euclid, CCC) and the through-a-school rule; Skills Ontario 2027 at the Toronto Congress Centre; Toronto area codes and Eastern time offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e).",
+    "localProject": "City of Toronto Open Data, Parks and Recreation Facilities (Open Government Licence - Toronto), CSV downloaded with curl on 22 October 2026 and counted with our script count_facilities.py (python -I): 1,802 rows; TYPE Park 1,519, Community Centre 277, Civic Centre 6; amenity rows Playground 844, Ball Diamond 231, Washroom 219, Sports Field 174, Tennis Court 169, Wi-Fi 136, Basketball Court 121, Pickleball Court 105; 667 rows list no amenity; 1,800 distinct LOCATIONID, LOCATIONID 3891 duplicated, LOCATIONID 883 both park and community centre. Labelled as ours. Lesson family: counting categories in a delimited column and auditing duplicates.",
+    "requiredMentions": [
+      "Pickleball Court",
+      "LOCATIONID 3891",
+      "Open Government Licence - Toronto",
+      "Toronto Congress Centre",
+      "416, 437, 647 and 942",
+      "algebraic concepts including variables",
+      "analysis of data in order to inform",
+      "12 January to 5 February 2027",
+      "841 Park rows",
+      "667 rows list no amenity"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 1 to 8 math strands (C3.1 coding), MTH1W course and strands (C2.1, C2.3), computer studies course list and ICS descriptions.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_8___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum site, Elementary Mathematics (human-readable home of the API content).",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "Ontario Computer Studies, Grades 10 to 12 (2008): ICS2O strands, one credit per course.",
+        "url": "https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows; Grade 9 results in the final course mark.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "Ontario PPM 128: personal mobile devices in schools, effective 1 September 2024.",
+        "url": "https://www.ontario.ca/document/education-ontario-policy-and-program-direction/policyprogram-memorandum-128"
+      },
+      {
+        "claim": "CEMC: 2026-27 contest dates, through-a-school rule, CCC levels and languages, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Skills Ontario Competition 2027: dates, Toronto Congress Centre, contest list, registration through an institution.",
+        "url": "https://www.skillsontario.com/skills-ontario-competition"
+      },
+      {
+        "claim": "City of Toronto Open Data: Parks and Recreation Facilities dataset page.",
+        "url": "https://open.toronto.ca/dataset/parks-and-recreation-facilities/"
+      },
+      {
+        "claim": "City of Toronto: Open Government Licence - Toronto (attribution statement, non-endorsement).",
+        "url": "https://open.toronto.ca/open-data-licence/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Toronto or GTA population figure: StatCan was not reachable live, so no population is printed.",
+      "That ICD2O replaced ICS2O: no saved source says so; the two listings are shown side by side.",
+      "That our classes earn or count toward an Ontario credit: refused; we do not grant Ontario credits.",
+      "That we run robotics hardware classes: refused; we teach the programming side only.",
+      "A total of amenities in the parks file: not computed, since one row lists several amenities.",
+      "That the parks file is refreshed on a schedule: not quoted, not read in a raw source.",
+      "CEMC and Skills Ontario fees: left out of the copy on purpose (currency-neutral page).",
+      "Names of Toronto schools, school boards results or private people: not used.",
+      "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC, the University of Waterloo or Skills Ontario."
+    ]
   }
 }

@@ -1795,3 +1795,6 @@
 .cg-root.cg-aptn  { --cg-accent: #6B334A; --cg-accent-soft: rgba(107,51,74,.10); }   /* Northern Virginia: a muted plum, #6B334A, as allocated in alloc.tsv for row 134, distinct from the other US metro accents and readable on the paper */
 .cg-root.cg-aptp  { --cg-accent: #291C9E; --cg-accent-soft: rgba(41,28,158,.10); }   /* Portland, Oregon: a deep muted violet-blue, #291C9E, as allocated in alloc.tsv for row 137, distinct from the other US metro accents and readable on the paper */
 .cg-root.cg-beki  { --cg-accent: #5C161C; --cg-accent-soft: rgba(92,22,28,.10); }   /* Minneapolis: a deep muted cranberry, #5C161C, as allocated in alloc.tsv for row 138, distinct from the other US metro accents and readable on the paper */
+
+/* Canada cluster (scripts/nl). Accents from scripts/nl/lib/accent.js: 4.5:1 on all three paper tints, separated only from the pages each one links to. */
+.cg-root.cg-tor  { --cg-accent: #75544C; --cg-accent-soft: rgba(117,84,76,.10); }   /* Toronto: a muted brick-clay brown, #75544C (hsv 12, .35, .46), at least 11 RGB units from every accent on the site and clear of the retired purple and cyan band; contrast 6.33 on the paper #FBF8F2 and above 4.5 on all three paper tints */
