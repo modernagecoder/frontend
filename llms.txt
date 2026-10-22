@@ -777,6 +777,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Alberta new math curriculum explained: https://learn.modernagecoders.com/alberta-new-math-curriculum-explained
 - Alberta Grade 6 math PAT practice: https://learn.modernagecoders.com/alberta-grade-6-math-pat-practice
 - Math classes for kids, Canada: https://learn.modernagecoders.com/math-classes-for-kids-in-canada
+- Coding classes for adults, Canada: https://learn.modernagecoders.com/coding-classes-for-adults-in-canada
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -546,6 +546,7 @@ const SLUGS = [
   'alberta-new-math-curriculum-explained',
   'alberta-grade-6-math-pat-practice',
   'math-classes-for-kids-in-canada',
+  'coding-classes-for-adults-in-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1171,6 +1172,7 @@ const LLMS_LABELS = {
   'alberta-new-math-curriculum-explained': 'Alberta new math curriculum explained',
   'alberta-grade-6-math-pat-practice': 'Alberta Grade 6 math PAT practice',
   'math-classes-for-kids-in-canada': 'Math classes for kids, Canada',
+  'coding-classes-for-adults-in-canada': 'Coding classes for adults, Canada',
 };
 
 function wireLlms(slugs) {

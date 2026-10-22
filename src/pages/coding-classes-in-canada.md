@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding classes for adults in Canada](/coding-classes-for-adults-in-canada)
 - [Math classes for kids in Canada](/math-classes-for-kids-in-canada)
 - [Alberta Grade 6 math PAT practice](/alberta-grade-6-math-pat-practice)
 - [Alberta's new math curriculum explained](/alberta-new-math-curriculum-explained)
