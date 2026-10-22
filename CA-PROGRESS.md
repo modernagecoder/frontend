@@ -245,7 +245,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 32 | alberta-math-30-1-diploma-exam-prep (alb, #3A3157) | school-ab | 5,712 | 1.2% vs math-30-1-tutor-alberta | exam guide | exam strategy | 3400d1f5 |
 | 29 | math-30-1-vs-math-30-2 (math, #0D574F) | school-ab | 4,768 | 1.7% vs math-30-1-tutor-alberta | decision page | course choice | 48afe20c |
 | 33 | alberta-grade-9-math-pat-practice (alg, #9E4249) | school-ab | 4,663 | 1.1% vs alberta-math-30-1-diploma-exam-prep | assessment practice | grade 9 math | dc344486 |
-| 35 | alberta-new-math-curriculum-explained (anmc, #6B5A27) | school-ab | 4,865 | 1.1% vs alberta-math-30-1-diploma-exam-prep | curriculum explainer | curriculum change | (this commit) |
+| 35 | alberta-new-math-curriculum-explained (anmc, #6B5A27) | school-ab | 4,865 | 1.1% vs alberta-math-30-1-diploma-exam-prep | curriculum explainer | curriculum change | 9b1255fa |
+| 34 | alberta-grade-6-math-pat-practice (albe, #80321B) | school-ab | 4,472 | 1.6% vs alberta-grade-9-math-pat-practice | assessment practice | grade 6 math | (this commit) |
 
 ## Skipped
 

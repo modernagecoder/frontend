@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Alberta Grade 6 math PAT practice](/alberta-grade-6-math-pat-practice)
 - [Alberta's new math curriculum explained](/alberta-new-math-curriculum-explained)
 - [Alberta Grade 9 math PAT practice](/alberta-grade-9-math-pat-practice)
 - [Math 30-1 vs Math 30-2](/math-30-1-vs-math-30-2)
