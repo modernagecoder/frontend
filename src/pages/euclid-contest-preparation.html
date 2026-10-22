@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Euclid Contest 2027: Date, Marking and Full Solutions</title>
+  <meta name="description" content="The 2027 Euclid Contest from CEMC: 6 April in the Americas, 10 questions in 2.5 hours, how full solutions are marked, a model written solution and a plan to April.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/euclid-contest-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/euclid-contest-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#436631">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/euclid-contest-preparation">
+  <meta property="og:title" content="Euclid Contest 2027: Date, Marking and Full Solutions">
+  <meta property="og:description" content="CEMC lists the 2027 Euclid Contest for Tuesday, April 6, 2027 in the Americas. How the 100 marks are earned, 2026 question averages, a complete written solution annotated line by line, practice problems and a plan.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Euclid Contest 2027: Date, Marking and Full Solutions">
+  <meta name="twitter:description" content="Euclid Contest 2027: the marking, the 2026 averages and how to write a full solution.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ecp .ag-hero h1 { letter-spacing: -0.018em; }
+.ag-root.ag-ecp .ag-capsule { border-left-width: 5px; border-radius: 0; }
+.ag-root.ag-ecp .ag-section-head h2 { max-width: 38ch; }
+.ag-root.ag-ecp .ag-table caption { text-align: left; font-weight: 600; font-style: italic; }
+.ag-root.ag-ecp .ag-band-head h3 { letter-spacing: -0.012em; }
+.ag-root.ag-ecp .ag-slots { gap: 1.25rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/euclid-contest-preparation#page","url":"https://learn.modernagecoders.com/euclid-contest-preparation","name":"Euclid Contest Preparation","description":"A guide for final-year secondary students in Canada and their parents to CEMC's Euclid Contest, built from CEMC's 2027 Euclid page, the 2025 Euclid booklet cover, the 2026 results booklet and CEMC's preparation advice, with a model full solution, original practice problems and a plan.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CEMC Waterloo contests","item":"https://learn.modernagecoders.com/cemc-waterloo-contests-preparation"},{"@type":"ListItem","position":5,"name":"Euclid Contest","item":"https://learn.modernagecoders.com/euclid-contest-preparation"}]},{"@type":"Course","name":"Euclid Contest Preparation","description":"Live online preparation for the CEMC Waterloo math contests from Gauss to Euclid, including full-solution writing for the Euclid Contest, for students across Canada, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/euclid-contest-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/euclid-contest-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/euclid-contest-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Euclid Contest?","acceptedAnswer":{"@type":"Answer","text":"It is CEMC's senior math contest, from the University of Waterloo, for students in their final year of secondary school or at CÉGEP. It has ten questions, takes two and a half hours, is marked out of 100, and mixes short answers with full written solutions."}},{"@type":"Question","name":"When is the Euclid Contest in 2027?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists Tuesday, April 6, 2027 for North and South America and Wednesday, April 7, 2027 elsewhere. Schools must order it by Thursday, March 11, 2027."}},{"@type":"Question","name":"How is the Euclid marked?","acceptedAnswer":{"@type":"Answer","text":"Each question is worth 10 marks. On the 2025 paper, short-answer parts were worth 3 marks each, with full marks for a correct answer in the box, and full-solution parts were worth the rest of the 10, marked for completeness, clarity and style of presentation."}},{"@type":"Question","name":"Are calculators allowed on the Euclid?","acceptedAnswer":{"@type":"Answer","text":"CEMC says some calculators are permitted, but on full-solution questions the other mathematical steps must still be shown and justified, and specific marks may be given for them. Answers are expected as simplified exact numbers unless a question says otherwise."}},{"@type":"Question","name":"Is the Euclid required for University of Waterloo admission?","acceptedAnswer":{"@type":"Answer","text":"No. CEMC says participation in the Euclid is not required for admission to Waterloo's Faculty of Mathematics. Waterloo says writing the Euclid or the CSMC is required for some Faculty of Mathematics scholarships. We make no promise about admission or scholarships."}},{"@type":"Question","name":"Can a Grade 11 student write the Euclid?","acceptedAnswer":{"@type":"Answer","text":"Yes, if the school orders it for them. Younger students who are keen are welcome, says CEMC, and its Euclid page says many students aiming for a strong final-year score write it more than once before then."}},{"@type":"Question","name":"What was a good Euclid score in 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists a 2026 average of 52.2 out of 100, a Certificate of Distinction cutoff of 66 and a School Medal Champion cutoff of 52, with 23 985 contestants. The question averages fell from 9.5 out of 10 on question 1 to 0.73 on question 10."}},{"@type":"Question","name":"Does the Euclid include calculus?","acceptedAnswer":{"@type":"Answer","text":"CEMC's preparation advice says the CSMC and Euclid use ideas from all areas of high school math except calculus and vectors. Its eight preparation topics run from exponents and logarithms to properties of numbers."}},{"@type":"Question","name":"How do we register for the Euclid?","acceptedAnswer":{"@type":"Answer","text":"Through the school. Students cannot register themselves; the school orders the contest from CEMC and the student writes there in person. If the school will not order, CEMC suggests finding another local school that will let the student join."}},{"@type":"Question","name":"What times are your Euclid classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We plan in Eastern time and confirm every class in the family's own time zone, including after the clocks change on 14 March 2027."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/euclid-contest-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-ecp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#facts">2027 contest</a></li>
+      <li><a href="#marks">Marking</a></li>
+      <li><a href="#model">Model solution</a></li>
+      <li><a href="#practice">Practice</a></li>
+      <li><a href="#waterloo">Waterloo</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / <a href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a> / Euclid Contest
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; CEMC Euclid Contest &middot; final year</p>
+        <h1>Euclid Contest preparation, 2027</h1>
+        <p class="ag-lede">The Euclid Contest is the senior paper of the University of Waterloo's Centre for Education in Mathematics and Computing, written on one spring morning by final-year secondary students and CÉGEP students, and by many younger ones who want a look at it early. It is the CEMC paper that most clearly rewards writing: ten questions over two and a half hours, where the later answers are only worth their marks if the reasoning is on the page. This guide is built from CEMC's Euclid page for 2027, the cover of the 2025 Euclid booklet, CEMC's 2026 results booklet and its preparation advice. It shows how the 100 marks are earned, how far into the paper students got in 2026, a complete written solution of ours taken apart line by line, five two-part practice problems, and what the University of Waterloo says about the Euclid in its own words.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#model" class="ag-btn ag-btn--ghost">Read the model solution</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20their%20final%20year%20in%20Canada%20and%20wants%20to%20prepare%20for%20the%20Euclid%20Contest%20on%206%20April%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ecp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students &middot; every problem and model solution here written by our teachers</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Organiser</dt><dd>CEMC, University of Waterloo</dd>
+          <dt>For</dt><dd>Final year of secondary school, or CÉGEP</dd>
+          <dt>2027 date</dt><dd>Tuesday, April 6, 2027 (Americas)</dd>
+          <dt>Paper</dt><dd>10 questions, 2.5 hours, on paper</dd>
+          <dt>Marks</dt><dd>100: ten questions worth 10 each</dd>
+          <dt>Answers</dt><dd>Short answers and full written solutions</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>First step</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">The short version</p>
+      <p>The Euclid Contest is CEMC's senior math contest for students in their final year of secondary school or at CÉGEP: ten questions, two and a half hours, 100 marks, mixing short answers with full written solutions, written at school on Tuesday, April 6, 2027 in the Americas. Entry is through a school. Modern Age Coders prepares students for it live online, in a batch or one to one, in its Waterloo Math Contests course, Gauss to Euclid.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for the Euclid year</p>
+      <h2>The three courses behind our Euclid preparation</h2>
+      <p class="ag-lede">The contest course carries the timed papers and the marked written solutions. The competition course takes the last three questions seriously. The high school course keeps the curriculum the paper rests on in good repair.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/waterloo-math-contests-gauss-to-euclid-course">
+        <div class="ag-pick-shot"><img src="/images/waterloo-math-contests.webp" alt="Waterloo Math Contests course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ECP / 01</p>
+          <h3>Waterloo Math Contests: Gauss to Euclid</h3>
+          <p>Ages 11 to 18. The Grades 11 and 12 track builds to the Euclid, with proof writing, written solutions handed in every week and timed practice rounds.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ECP / 02</p>
+          <h3>Competition mathematics</h3>
+          <p>Number theory, combinatorics, inequalities and geometry at the level of Euclid questions 8 to 10.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ECP / 03</p>
+          <h3>High school math, Grades 9 to 12</h3>
+          <p>Logarithms, trigonometry, polynomials and sequences, the curriculum most Euclid questions grow from.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="facts">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 2027 contest</p><h2>The 2027 Euclid Contest, from CEMC's page</h2><p class="ag-lede">All of the following comes from CEMC's Euclid page, read on 22 October 2026. CEMC sets these details each year, so a final check of its page in March 2027 is worth the minute it takes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Euclid Contest for 2027, as published by CEMC (read 22 October 2026)</caption><thead><tr><th scope="col">What families ask</th><th scope="col">CEMC's answer</th></tr></thead><tbody><tr><td>When is it?</td><td>"North and South America: Tuesday, April 6, 2027". Elsewhere it is the next day, Wednesday, April 7, 2027.</td></tr><tr><td>When must the school order?</td><td>By Thursday, March 11, 2027.</td></tr><tr><td>Who is it for?</td><td>"Students in their final year of secondary school or CÉGEP students." CEMC adds that "Motivated students in lower grades are welcome to write the contest."</td></tr><tr><td>How big is it?</td><td>"Written annually by over 25 000 participants worldwide".</td></tr><tr><td>What is the paper?</td><td>"10 questions; a mix of final answer only and full-solution." "Time allowed for completion is 2.5 hours." "Score out of 100."</td></tr><tr><td>How is it written?</td><td>"Written in school, participants write individually and on paper." It is a paper contest from start to finish.</td></tr><tr><td>Calculators?</td><td>"Some calculators permitted." CEMC's calculator rules apply, and written steps still have to be shown.</td></tr><tr><td>What math?</td><td>"Most of the problems on the Euclid Contest are based on curricula up to and including the final year of secondary school. Some problems might require students to use knowledge beyond the curriculum in their school."</td></tr><tr><td>When are results out?</td><td>In the Contest Supervisor Portal "four to six weeks after the contest date".</td></tr><tr><td>Fee?</td><td>Eighteen dollars per participant, plus processing and shipping charges, all billed to the school.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A change for 2027 schools should know about</h3><p>CEMC has marked a new shipping rule on its Euclid page: the question booklets "will NOT be shipped to the schools". Instead, teachers download and print them from CEMC's Contest Material Repository "roughly one day before contest day in their timezone".</p>
+<p>Solution booklets and Student Information Forms still arrive by post, and the finished papers go back to CEMC in one package for marking. Nothing in this changes what a student does on the day.</p></div><div><h3>Who counts as an official participant</h3><p>For a student writing at a school in Canada, CEMC counts an official participant as one who completes the Student Information Form, "were born on or after January 1, 2008, and" "live in Canada."</p>
+<p>Official status decides inclusion on honour rolls and in a school's team score. CEMC says unofficial participants are still marked and still eligible for certificates and medals.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/euclid" rel="noopener" target="_blank">CEMC, Euclid Contest</a>, read 22 October 2026. Modern Age Coders is a teaching company; we have no connection with CEMC or the University of Waterloo, and we cannot enter students or mark their papers.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="marks">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 100 marks</p><h2>How a Euclid paper is marked: boxes, then arguments</h2><p class="ag-lede">The front cover of the 2025 Euclid booklet sets out the marking in a few lines, and those lines explain how the paper should be written. The quotations below are from that cover; the 2027 booklet may word them differently.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Euclid marking, quoted from the cover of CEMC's 2025 Euclid Contest booklet</caption><thead><tr><th scope="col">Part type</th><th scope="col">What the cover says</th></tr></thead><tbody><tr><td>Every question</td><td>"Number of questions: 10" and "Each question is worth 10 marks"</td></tr><tr><td>Short answer parts</td><td>"worth 3 marks each"; "full marks given for a correct answer which is placed in the box"; "part marks awarded only if relevant work is shown in the space provided"</td></tr><tr><td>Full solution parts</td><td>"worth the remainder of the 10 marks for the question"; "marks awarded for completeness, clarity, and style of presentation"; "a correct solution poorly presented will not earn full marks"</td></tr><tr><td>Form of answers</td><td>"Express answers as simplified exact numbers except where otherwise indicated."</td></tr><tr><td>How to write</td><td>"Use mathematical statements and words to explain all of the steps of your solution." "Work out some details in rough on a separate piece of paper before writing your finished solution."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What that means in practice</h3><p>A short-answer part is a box: the right answer in the box earns all 3 marks, whatever the working looks like. A wrong answer earns part marks only if relevant work is shown, so a line or two of working is insurance, not decoration.</p>
+<p>A full-solution part is an essay in miniature. A student who writes only the final number to a full-solution part has done the least valuable part of the job.</p></div><div><h3>Calculators do not write solutions</h3><p>CEMC's calculator page is direct: on contests with full-solution questions, "other mathematical steps must be shown and justified in your written solutions and specific marks may be allocated for these steps."</p>
+<p>So a root found on a calculator is still a root that has to be found on paper. "Simplified exact numbers" also rules out a decimal from the screen where a surd or a fraction is expected.</p></div></div>
+    <p class="ag-mt-40">CEMC's own Euclid page says the same thing in one sentence: each submitted solution "is assessed for completeness, clarity, and presentation style; a correct solution, poorly presented, will not earn a full score for that problem." The model solution further down this page is our attempt to show what that sentence looks like on paper.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="averages">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">2026 in numbers</p><h2>How far into the 2026 Euclid students got</h2><p class="ag-lede">CEMC's 2026 Euclid results booklet lists the average mark on each of the ten questions, each out of 10. It is the clearest picture available of how the paper climbs.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Average mark per question, 2026 Euclid Contest, each out of 10, from CEMC's 2026 Euclid Results booklet</caption><thead><tr><th scope="col">Question</th><th scope="col">Average out of 10</th></tr></thead><tbody><tr><td>1</td><td>9.5</td></tr><tr><td>2</td><td>9.1</td></tr><tr><td>3</td><td>8.2</td></tr><tr><td>4</td><td>7.9</td></tr><tr><td>5</td><td>5.8</td></tr><tr><td>6</td><td>4.5</td></tr><tr><td>7</td><td>3.4</td></tr><tr><td>8</td><td>1.8</td></tr><tr><td>9</td><td>1.2</td></tr><tr><td>10</td><td>0.73</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Euclid 2026 headline figures, from CEMC's Euclid page</caption><thead><tr><th scope="col">Measure</th><th scope="col">Euclid 2026</th></tr></thead><tbody><tr><td>Average (mean)</td><td>52.2 out of 100</td></tr><tr><td>Certificate of Distinction cutoff</td><td>66</td></tr><tr><td>School Medal Champion cutoff</td><td>52</td></tr><tr><td>Number of contestants</td><td>23 985</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Our readings, labelled as ours. The first four questions averaged close to full marks; from question 5 the averages fall quickly, and by question 8 they are under 2 out of 10. The Certificate of Distinction line of 66 out of 100 sits above what the first four questions alone can give a student who is perfect on them (40), so a certificate in 2026 needed real progress on the middle questions as well. And because the averages on questions 8 to 10 are so low, a few marks earned there, for a correct part (a) or a clearly argued partial result, are worth more relative to the field than anywhere else on the paper. We have not added the ten averages together; CEMC publishes the overall mean itself.</p>
+    <p class="ag-source-note ag-mt-40">Sources: CEMC's 2026 Euclid Results booklet (Problem Averages) and the averages and cut-offs table on the <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/euclid" rel="noopener" target="_blank">Euclid page</a>, read 22 October 2026. CEMC reminds schools there is "no passing or failing score".</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="model">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A complete written solution</p><h2>What a full-marks solution looks like: one of ours, taken apart</h2><p class="ag-lede">Below is a Euclid-style full-solution question we wrote and the complete solution our teachers would hope to see. It is our problem and our solution, not CEMC's, and the notes after it explain what each part of the write-up is doing for the marker.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem 6 &middot; our question and our complete solution</b><span>text</span></figcaption><pre>Problem 6 (ours). Determine all positive integers n for which
+n + 2 is a divisor of n^2 + 20.
+
+Solution.
+Since n^2 - 4 = (n - 2)(n + 2), we can write
+    n^2 + 20 = (n - 2)(n + 2) + 24.
+
+Because n - 2 is an integer, n + 2 always divides (n - 2)(n + 2).
+
+If n + 2 divides n^2 + 20, then it divides the difference
+(n^2 + 20) - (n - 2)(n + 2) = 24.
+Conversely, if n + 2 divides 24, then it divides the sum
+(n - 2)(n + 2) + 24 = n^2 + 20.
+So n + 2 divides n^2 + 20 exactly when n + 2 divides 24.
+
+Since n is a positive integer, n + 2 is at least 3.
+The positive divisors of 24 that are at least 3 are
+    3, 4, 6, 8, 12 and 24,
+which give n = 1, 2, 4, 6, 10 and 22.
+
+Check of the largest: when n = 22, n^2 + 20 = 504 = 24 x 21.
+
+Therefore the positive integers n are 1, 2, 4, 6, 10 and 22.</pre></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Why each part of the model solution is there (our notes, written the way we mark in class)</caption><thead><tr><th scope="col">Part of the write-up</th><th scope="col">What it does for the marker</th></tr></thead><tbody><tr><td>The identity n<sup>2</sup> + 20 = (n - 2)(n + 2) + 24</td><td>States the key idea at once, in a line anyone can check by expanding</td></tr><tr><td>"Because n - 2 is an integer..."</td><td>Gives the reason the first term is divisible, instead of leaving the marker to supply it</td></tr><tr><td>Both directions, "if" and "conversely"</td><td>Shows the condition is exactly right: every n found works, and no n is missed. This is the step most first drafts leave out</td></tr><tr><td>"n + 2 is at least 3"</td><td>Explains why the divisors 1 and 2 are thrown away, so the list is complete for a reason, not by luck</td></tr><tr><td>The check with n = 22</td><td>Optional, but a quick sign that the answer was tested</td></tr><tr><td>The final sentence</td><td>Answers the question as asked, in words, so the marker never has to hunt for the result</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The draft that loses marks</h3><p>A typical first attempt tries n = 1, 2, 3 and so on up to 10, finds that 1, 2, 4, 6 and 10 work, and writes "the answer is 1, 2, 4, 6, 10". It misses 22, and even with 22 added it gives no reason why there are no more.</p>
+<p>On a short-answer box that might earn part marks. On a full-solution part it shows the student found a pattern, not that the pattern is complete, and that is the difference CEMC's marking is designed to see.</p></div><div><h3>CEMC's own advice on writing</h3><p>CEMC's General Preparation Advice for the CSMC and Euclid gives short rules we use in class: "Use words! You do not need to use full sentences, but words can make things clearer." and "If you introduce variables, be clear about what those variables represent."</p>
+<p>It also suggests separating rough work from the solution itself. The model above is what is left after the rough work: every line is there because the argument needs it.</p></div></div>
+    <p class="ag-mt-40">The lesson behind this page is that a solution is written for a stranger. The marker has never met the student and cannot ask what they meant. Our students hand in one written solution a week from the start of the season, and get it back marked against the three words CEMC uses: completeness, clarity, presentation.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Five two-part problems</p><h2>Five Euclid-style practice problems, with solutions</h2><p class="ag-lede">Each of these is our practice problem, not a CEMC problem. We wrote them for students preparing for the Euclid; none is taken from or modelled on a past paper. Like the contest, most come in parts, with part (a) a short answer and part (b) either a harder short answer or a full solution. They climb roughly as questions 1 to 7 of a Euclid paper do. All answers were checked in Python.</p></div>
+    <p><b>Problem 1.</b> <i>Our practice problem, not a CEMC problem.</i> (a) What is the value of log<sub>2</sub> 48 - log<sub>2</sub> 3? (b) Determine all real numbers x for which log<sub>3</sub>(x + 6) + log<sub>3</sub> x = 3.</p>
+    <p><b>Solution.</b> (a) log<sub>2</sub> 48 - log<sub>2</sub> 3 = log<sub>2</sub>(48 / 3) = log<sub>2</sub> 16 = 4. (b) Both logarithms must be defined, so x > 0. Combining, log<sub>3</sub>(x(x + 6)) = 3, so x(x + 6) = 27, giving x<sup>2</sup> + 6x - 27 = 0 and (x + 9)(x - 3) = 0. The root x = -9 is rejected because log<sub>3</sub> x is not defined there, so x = 3. Check: log<sub>3</sub> 9 + log<sub>3</sub> 3 = 2 + 1 = 3. The rejected root is where marks are won or lost: writing "x = 3 or x = -9" is an incomplete answer.</p>
+    <p class="ag-mt-40"><b>Problem 2.</b> <i>Our practice problem, not a CEMC problem.</i> (a) In triangle ABC, the angle at C is 90 degrees, sin A = 5/13 and AB = 26. What is the length of BC? (b) Determine all angles t with 0 &le; t &le; 360 degrees for which 2 sin<sup>2</sup> t = 3 cos t. Full solution.</p>
+    <p><b>Solution to (a).</b> BC is opposite angle A and AB is the hypotenuse, so BC / AB = sin A = 5/13, giving BC = 26 x 5/13 = 10.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Problem 2(b) &middot; our full solution</b><span>text</span></figcaption><pre>2 sin^2(t) = 3 cos(t)
+Use sin^2(t) = 1 - cos^2(t):
+2 - 2 cos^2(t) = 3 cos(t)
+2 cos^2(t) + 3 cos(t) - 2 = 0
+(2 cos(t) - 1)(cos(t) + 2) = 0
+
+cos(t) = -2 is impossible, because -1 &lt;= cos(t) &lt;= 1 for every angle.
+So cos(t) = 1/2, and for 0 &lt;= t &lt;= 360 degrees, t = 60 or t = 300.
+Check t = 300: sin^2(300) = 3/4, so the left side is 3/2,
+and 3 cos(300) = 3/2. Both sides agree.</pre><p class="ag-code-note">The line that earns the marks a hurried student loses is the rejection of cos t = -2, with its reason. "Not possible" with no reason is a gap in the argument; "because cosine is always between -1 and 1" closes it.</p></figure>
+    <p class="ag-mt-40"><b>Problem 3.</b> <i>Our practice problem, not a CEMC problem.</i> (a) The first three terms of a geometric sequence are 6, x and 24, and x > 0. What is x? (b) An arithmetic sequence has first term a and common difference d. The sum of its first 10 terms is 155 and the sum of its first 20 terms is 610. Determine a and d.</p>
+    <p><b>Solution.</b> (a) In a geometric sequence the ratio x / 6 equals 24 / x, so x<sup>2</sup> = 144, and since x > 0, x = 12. (b) The sum of the first n terms is (n/2)(2a + (n - 1)d). For n = 10: 5(2a + 9d) = 155, so 2a + 9d = 31. For n = 20: 10(2a + 19d) = 610, so 2a + 19d = 61. Subtracting, 10d = 30, so d = 3, and then 2a = 31 - 27 = 4, so a = 2. Check: the first 10 terms run from 2 to 29, and 10 x (2 + 29) / 2 = 155.</p>
+    <p class="ag-mt-40"><b>Problem 4.</b> <i>Our practice problem, not a CEMC problem.</i> (a) When p(x) = x<sup>3</sup> + kx - 6 is divided by x - 2, the remainder is 8. What is k? (b) The roots of x<sup>2</sup> - 7x + c = 0 are r and s, and r<sup>2</sup> + s<sup>2</sup> = 29. What is c?</p>
+    <p><b>Solution.</b> (a) By the remainder theorem the remainder is p(2) = 8 + 2k - 6 = 2 + 2k. Setting 2 + 2k = 8 gives k = 3. (b) The roots satisfy r + s = 7 and rs = c. Then r<sup>2</sup> + s<sup>2</sup> = (r + s)<sup>2</sup> - 2rs = 49 - 2c, and 49 - 2c = 29 gives c = 10. Check: x<sup>2</sup> - 7x + 10 = (x - 2)(x - 5), and 4 + 25 = 29. Neither part needs the roots themselves, which is the point of both.</p>
+    <p class="ag-mt-40"><b>Problem 5.</b> <i>Our practice problem, not a CEMC problem.</i> (a) What is the distance from the origin to the line 3x + 4y = 20? (b) The points A(1, 3) and B(7, -5) are given. Determine all points P on the x-axis for which angle APB is 90 degrees. Give exact coordinates.</p>
+    <p><b>Solution.</b> (a) The distance from (0, 0) to 3x + 4y - 20 = 0 is |0 + 0 - 20| / &radic;(3<sup>2</sup> + 4<sup>2</sup>) = 20 / 5 = 4. (b) Angle APB is 90 degrees exactly when P lies on the circle with diameter AB (with P different from A and B). The centre is the midpoint of AB, (4, -1), and the radius is half of AB: AB = &radic;(6<sup>2</sup> + 8<sup>2</sup>) = 10, so the radius is 5. The circle is (x - 4)<sup>2</sup> + (y + 1)<sup>2</sup> = 25. On the x-axis y = 0, so (x - 4)<sup>2</sup> = 24 and x = 4 &plusmn; 2&radic;6. The points are (4 + 2&radic;6, 0) and (4 - 2&radic;6, 0). The exact form matters: "Express answers as simplified exact numbers", so 8.90 and -0.90 would not do.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Using the set</h3><p>Problems 1 to 3 are the pace of Euclid questions 1 to 4: aim for about ten minutes each, written up properly. Problems 4 and 5 sit nearer questions 5 to 7.</p>
+<p>Write problem 2(b) and problem 5(b) as full solutions, then compare them with ours line by line. Every line of ours that you skipped is a line to ask about.</p></div><div><h3>What links the five</h3><p>Each has a moment where the obvious answer is incomplete: a root to reject, an impossible cosine, a positive ratio, an identity that avoids solving, an exact value instead of a decimal.</p>
+<p>The Euclid rewards students who notice those moments and say so in writing. That habit, more than any formula, is what our classes build.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="topics">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What the paper draws on</p><h2>The eight topic areas CEMC names for the Euclid</h2><p class="ag-lede">CEMC's preparation materials for the CSMC and Euclid, "the CEMC's most senior math contests", are organized into eight topic areas, each with a toolkit, worked samples and a problem set. The topic names are CEMC's; the notes beside them are ours.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>CEMC's eight preparation topics (names as CEMC lists them, read 22 October 2026) with our teaching notes</caption><thead><tr><th scope="col">CEMC topic</th><th scope="col">Our note on what students most need</th></tr></thead><tbody><tr><td>Exponents and Logarithms</td><td>Log laws used fluently, and the domain check every time (see our problem 1)</td></tr><tr><td>Trigonometry</td><td>Identities, exact values and the sine and cosine laws, with impossible values rejected in writing</td></tr><tr><td>Functions, Equations and Polynomials</td><td>The remainder and factor theorems, and sums and products of roots</td></tr><tr><td>Analytic Geometry</td><td>Lines, circles and distances, and when a geometric fact saves algebra</td></tr><tr><td>Sequences and Series</td><td>Arithmetic and geometric sums set up cleanly as equations</td></tr><tr><td>Euclidean Geometry</td><td>Similar triangles, circle theorems and the habit of a large, labelled diagram</td></tr><tr><td>Counting and Probability</td><td>Choosing whether order matters, and the complement</td></tr><tr><td>Properties of Numbers</td><td>Divisibility, primes and factoring tricks like the one in our model solution</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Calculus is not on the list</h3><p>CEMC's General Preparation Advice says the CSMC and Euclid "use ideas from all areas of high school mathematics except for calculus and vectors." CEMC also notes that the topics "are not posted in any particular order" and that contest problems often mix them.</p>
+<p>For an Ontario student, that means MHF4U, Advanced Functions, matters far more to the Euclid than MCV4U, Calculus and Vectors, although many Euclid writers take both.</p></div><div><h3>Beyond the school course</h3><p>CEMC says some problems "might require students to use knowledge beyond the curriculum in their school." In our experience that usually means a counting or number theory idea, or a classical geometry result, rather than new topics.</p>
+<p>CEMC itself points students who need a review to its free courseware, naming the Grades 9/10/11 and Advanced Functions and Pre-Calculus material as the most helpful.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="clock">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Two and a half hours</p><h2>Spending 150 minutes on ten questions</h2><p class="ag-lede">The Euclid is long enough that time management is a skill of its own. CEMC's advice and our own budget are below; the budget is ours, built from timing students on past papers.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From CEMC's General Preparation Advice for the CSMC and Euclid (read 22 October 2026)</caption><thead><tr><th scope="col">CEMC's advice</th><th scope="col">In CEMC's words</th></tr></thead><tbody><tr><td>When stuck</td><td>"If you find yourself spending more than 5 minutes on a problem without making any progress, put a star on the problem" and move on</td></tr><tr><td>Difficulty is uneven</td><td>"Part (a) on questions 9 and 10 may be easier than question 8"</td></tr><tr><td>Practice</td><td>"Set a timer and use no resources other than your calculator."</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Our 150-minute budget for a Euclid paper (ours, not CEMC's)</caption><thead><tr><th scope="col">Minutes</th><th scope="col">Questions</th><th scope="col">Aim</th></tr></thead><tbody><tr><td>0 to 35</td><td>1 to 4</td><td>All of it, with short answers boxed and full solutions written cleanly the first time</td></tr><tr><td>35 to 85</td><td>5 to 7</td><td>Most of it; star anything stuck after five minutes</td></tr><tr><td>85 to 115</td><td>8 to 10, part (a) of each</td><td>The opening parts, which CEMC says may be easier than question 8</td></tr><tr><td>115 to 140</td><td>Starred questions, or one later part</td><td>The single most promising unfinished part</td></tr><tr><td>140 to 150</td><td>Everything</td><td>Read every full solution once for missing reasons and an unanswered final sentence</td></tr></tbody></table></div>
+    <p class="ag-mt-40">The last ten minutes are the ones students most often give away. Read in a hurry, a full solution usually looks finished. Read slowly, it often turns out to skip the "conversely" step, a rejected root or the closing sentence, and each of those can be put right in under a minute.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="day">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Contest morning</p><h2>The Euclid morning across Canada's time zones</h2><p class="ag-lede">There is no national start time. CEMC asks each school to start the paper close to the beginning of its own school day, on the official date for its country, so a student in Halifax finishes before a student in Vancouver begins.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>UTC offsets on Tuesday, April 6, 2027, the Euclid date in the Americas (from the tz database, release 2026e)</caption><thead><tr><th scope="col">Province or zone</th><th scope="col">Offset on 6 April 2027</th></tr></thead><tbody><tr><td>Newfoundland (NT)</td><td>UTC-2:30</td></tr><tr><td>Nova Scotia, New Brunswick, Prince Edward Island (AT)</td><td>UTC-3</td></tr><tr><td>Ontario and Quebec (ET)</td><td>UTC-4</td></tr><tr><td>Manitoba (on UTC-5 all year from 1 November 2026)</td><td>UTC-5</td></tr><tr><td>Saskatchewan and Alberta</td><td>UTC-6</td></tr><tr><td>British Columbia (most of the province) and Yukon</td><td>UTC-7</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the day means for a student</h3><p>The paper starts in the morning, at school, so the student needs the usual school-day routine, not a late night of revision. The question booklet is printed at the school, so there is nothing to collect beforehand.</p>
+<p>The paper is written on paper only, individually. Bring the permitted calculator, pencils and an eraser, and nothing that stores notes.</p></div><div><h3>Our classes in April 2027</h3><p>Eastern clocks move forward on 14 March 2027, three weeks before the contest. We confirm class times with every family after that change, because Manitoba, Saskatchewan, Alberta and British Columbia do not move.</p>
+<p>The final class before 6 April is a short review on a weekday evening, never a long session the night before.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="entry">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Entry and integrity</p><h2>Entering the Euclid, and the rule every writer should know</h2><p class="ag-lede">A student writes the Euclid through a school, at that school, under supervision. The school's order is due by Thursday, March 11, 2027.</p></div>
+    <ol class="ag-steps"><li><b>Ask early in the final year.</b> Find out from the head of math whether the school orders the Euclid, and tell them your child intends to write.</li><li><b>If the school has no CEMC account,</b> its head of math or principal applies for one, and CEMC reviews applications by hand over as long as three weeks.</li><li><b>If the school will not order,</b> CEMC suggests looking for another school in the area that will let the student sit the paper with its students.</li><li><b>Write on the official date.</b> CEMC says a contest can never be written before its official date, and the Euclid is always written in person.</li></ol>
+    <p class="ag-mt-40">CEMC's integrity rule carries particular weight for a final-year student. Participants who break the contest rules, CEMC says, "will be disqualified from the contest, will not be considered for CEMC invitational workshops, and any current or future offers of admission to the University of Waterloo may be revoked." We teach students to write every line themselves, in class and on the day, and we mean it: no shortcut is worth that risk. Source: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">CEMC, How contests work</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="waterloo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Euclid and Waterloo</p><h2>What the University of Waterloo says about the Euclid</h2><p class="ag-lede">Families ask about this more than anything else. The rows below are only what CEMC and the University of Waterloo publish; we add nothing to them and promise nothing beyond them.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Euclid and University of Waterloo admission, in the organizers' own words (read 22 October 2026)</caption><thead><tr><th scope="col">Statement</th><th scope="col">Where it appears</th></tr></thead><tbody><tr><td>"Participation in the Euclid Mathematics Contest is not required for admission to the Faculty of Mathematics at the University of Waterloo."</td><td>CEMC's Euclid page</td></tr><tr><td>"Participation in the Canadian Senior Mathematics Contest and/or the Euclid Mathematics Contest is not required for admission, but writing one of these contests is required for some scholarships offered by the Faculty of Mathematics."</td><td>Waterloo's Computer Science program page</td></tr><tr><td>The Admission Information Form "is required for admission."</td><td>Waterloo's Computer Science program page</td></tr><tr><td>The deadline Waterloo lists for "Programs other than those listed in the next rows" is February 15, 2027; Engineering, listed separately, is February 1, 2027.</td><td>Waterloo's Admission Information Form page</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Two things follow, and they are our reading only. The Euclid is not an entry requirement, so no student should treat it as a gate. And because Waterloo names it among the contests required for some Faculty of Mathematics scholarships, a student interested in those scholarships should read Waterloo's scholarship pages directly and write the Euclid in the year Waterloo expects. We cannot say how any university weighs a Euclid score, and we never claim to.</p>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/euclid" rel="noopener" target="_blank">CEMC, Euclid Contest</a>, <a class="ag-inline-link" href="https://uwaterloo.ca/future-students/programs/computer-science" rel="noopener" target="_blank">University of Waterloo, Computer Science</a> and <a class="ag-inline-link" href="https://uwaterloo.ca/future-students/admissions/admission-information-form" rel="noopener" target="_blank">University of Waterloo, Admission Information Form</a>, read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The plan</p><h2>Five blocks from November 2026 to 6 April 2027</h2><p class="ag-lede">Our plan for a final-year student who starts in early November and writes on Tuesday, April 6, 2027. It runs on two live classes a week and one written solution handed in every week from the first block.</p></div>
+    <ol class="ag-steps"><li><b>Block 1, 2 November to 6 December 2026: logarithms, exponents and sequences.</b> Questions 1 to 4 from two past Euclid papers, untimed. First written solutions marked for completeness, clarity and presentation.</li><li><b>Block 2, 7 December 2026 to 10 January 2027: trigonometry and polynomials.</b> Identities, exact values, the remainder theorem and sums and products of roots. The holiday weeks carry one full-solution question a day, nothing more.</li><li><b>Block 3, 11 January to 14 February 2027: analytic and Euclidean geometry.</b> Circles, distances, similar triangles and circle theorems. One full past paper, timed at 150 minutes, at the end of January. Waterloo lists February 15, 2027 as its form deadline for most programs, at the end of this block, so we keep the load lighter for applicants.</li><li><b>Block 4, 15 February to 21 March 2027: counting, probability and properties of numbers.</b> The later questions: part (a) of questions 8 to 10 from past papers, and model-solution practice like our problem 6. Confirm the school's order before Thursday, March 11, 2027.</li><li><b>Block 5, 22 March to 6 April 2027: rehearsal.</b> Two more full papers under contest conditions, each reviewed line by line, then a last week of rewriting old solutions more clearly rather than learning anything new.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Grade 11, writing early</h3><p>Blocks 1 to 3 matter most. A first Euclid is a rehearsal for the final-year one, as CEMC itself notes many students write it more than once.</p></div><div><h3>Final year, first Euclid</h3><p>The full plan, aiming at questions 1 to 7 and part (a) of the last three.</p></div><div><h3>Final year, experienced</h3><p>Blocks 1 and 2 shortened; the time moves to questions 8 to 10 and to cleaner write-ups.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="archive">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Free CEMC material</p><h2>CEMC's free Euclid materials, and how we use them</h2><p class="ag-lede">CEMC publishes more Euclid help than most families realize, all of it free. We link to it rather than reproducing it, and we build our own problems alongside it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Free CEMC resources for a Euclid writer (read 22 October 2026)</caption><thead><tr><th scope="col">Resource</th><th scope="col">What CEMC provides</th><th scope="col">How we use it</th></tr></thead><tbody><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">Past Euclid papers</a></td><td>Past contests with official solutions and results</td><td>Three full timed papers from late January, and question-by-question work before that</td></tr><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/csmc-and-euclid-preparation-material" rel="noopener" target="_blank">CSMC and Euclid preparation material</a></td><td>Eight topic areas, each with a toolkit, sample problems with full solutions and a problem set</td><td>One topic set per block, solutions read only after a full attempt</td></tr><tr><td>Euclid Preparation Workshops</td><td>"three 90-minute sessions" based on the eight modules, with CEMC's own schedule and registration</td><td>A useful addition for students who want CEMC's own presenters</td></tr><tr><td>Problem of the Month</td><td>A new problem "on the first Tuesday of every month from October to May"</td><td>Stretch material for students aiming at questions 9 and 10</td></tr><tr><td><a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/courseware" rel="noopener" target="_blank">CEMC Courseware</a></td><td>Free lessons, including Advanced Functions and Pre-Calculus</td><td>Review of a single curriculum gap a past paper has exposed</td></tr></tbody></table></div>
+    <p class="ag-mt-40">One more habit from CEMC's advice that we use: swapping solutions. CEMC suggests students "swap solutions with a classmate and see if you can understand each other's solutions." In our batches students read and mark each other's write-ups, which teaches them to see a gap from the marker's side of the desk.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where students start</p>
+      <h2>Four stages of a Euclid writer</h2>
+      <p class="ag-lede">Our stages, used to place a student in the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From answer-finder to solution-writer (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Answer-finder</td><td class="ag-num">Solves the early questions but writes only the final number</td></tr><tr><td>2. Steady</td><td class="ag-num">Clears questions 1 to 4 with working that a marker can follow</td></tr><tr><td>3. Solution-writer</td><td class="ag-num">Writes complete full solutions to questions 5 to 7, with reasons for every step</td></tr><tr><td>4. Explorer</td><td class="ag-num">Earns part (a) marks on questions 8 to 10 and argues partial results clearly</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Most strong students start at stage 1, because school math rarely asks for a full written argument. The move to stage 3 takes months, which is why we start written solutions in the first week.</p>
+<p>The Euclid is one morning. What lasts is the ability to explain a piece of mathematics in writing, which first-year university courses ask for at once.</p></div><div><h3>For students</h3><p>Write the final sentence of every full solution: "Therefore..." It costs five seconds and saves the marker a search.</p>
+<p>When a root, an angle or a case is thrown away, say why in the same line.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The wider catalogue</p>
+      <h2>Nine courses for a final-year math student</h2>
+      <p class="ag-lede">Every course is live and online, with one teacher who follows the student, in a group or one to one, for students in any province.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Senior math</h3>
+        <span class="ag-band-sub">Final year of school</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / BASE / 01</p>
+          <h4>AP Calculus</h4>
+          <p>Calculus for schools that offer AP; not needed for the Euclid itself.</p>
+          <a class="ag-course-link" href="/courses/ap-calculus-exam-prep">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / BASE / 02</p>
+          <h4>Statistics and probability</h4>
+          <p>The counting and probability topic in depth.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / BASE / 03</p>
+          <h4>IB Mathematics</h4>
+          <p>For IB students writing the Euclid too.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>After the Euclid</h3>
+        <span class="ag-band-sub">University-level math</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / NEXT / 01</p>
+          <h4>University mathematics</h4>
+          <p>Calculus, linear algebra and analysis, a first-year preview.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / NEXT / 02</p>
+          <h4>Math for data science</h4>
+          <p>Statistics and linear algebra for future data scientists.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / NEXT / 03</p>
+          <h4>Proof foundations</h4>
+          <p>For younger siblings starting to write proofs.</p>
+          <a class="ag-course-link" href="/courses/jee-foundation-maths-course-class-8-10">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Math meets code</h3>
+        <span class="ag-band-sub">For future Math and CS students</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / CODE / 01</p>
+          <h4>ICS3U and ICS4U companion</h4>
+          <p>Ontario computer science, taught alongside school.</p>
+          <a class="ag-course-link" href="/courses/ics3u-ics4u-computer-science-companion-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / CODE / 02</p>
+          <h4>CCC Junior and Senior</h4>
+          <p>CEMC's programming contest, earlier in the year.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ECP / CODE / 03</p>
+          <h4>Data structures and algorithms</h4>
+          <p>For students heading into computer science.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live Euclid classes in a busy final year</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Evening batches, fixed in Eastern time and shown on each family's own clock.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning classes that leave school nights for applications and homework.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Arranged around a final-year timetable, planned back from 6 April.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Written every week</h3><p>One full solution handed in weekly and returned marked.</p></div>
+      <div><h3>Our own problems</h3><p>Euclid-style sets we write, beside CEMC's papers.</p></div>
+      <div><h3>Timed papers</h3><p>Three full 150-minute papers from late January.</p></div>
+      <div><h3>Peer marking</h3><p>Students read each other's solutions as a marker would.</p></div>
+      <div><h3>All provinces</h3><p>One live class, joined from Victoria, Regina or Moncton.</p></div>
+      <div><h3>Batch or private</h3><p>A batch of fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student projects alongside the math</h2>
+      <p class="ag-lede">Many of our Euclid students also code. A few of their projects are below; the <a class="ag-inline-link" href="/student-labs">student labs</a> page shows more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">CEMC's Euclid fee is charged to the school. Our fee covers the teaching only, monthly, and a final-year student can stop the month after the April 2027 contest with nothing further owed.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One Euclid-style question, written up together</li><li>No card asked for</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A batch of fifteen to twenty</li><li>Final-year students together</li><li>Choose your batch</li><li>Month by month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher of your own</li><li>Paced to 6 April 2027</li><li>Built on your own written solutions</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews parents left on Google, exactly as written.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Final-year families ask</p>
+      <h2>Euclid Contest: questions answered</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Euclid Contest?</h3>
+        <p>It is CEMC's senior math contest, from the University of Waterloo, for students in their final year of secondary school or at CÉGEP. It has ten questions, takes two and a half hours, is marked out of 100, and mixes short answers with full written solutions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the Euclid Contest in 2027?</h3>
+        <p>CEMC lists Tuesday, April 6, 2027 for North and South America and Wednesday, April 7, 2027 elsewhere. Schools must order it by Thursday, March 11, 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How is the Euclid marked?</h3>
+        <p>Each question is worth 10 marks. On the 2025 paper, short-answer parts were worth 3 marks each, with full marks for a correct answer in the box, and full-solution parts were worth the rest of the 10, marked for completeness, clarity and style of presentation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are calculators allowed on the Euclid?</h3>
+        <p>CEMC says some calculators are permitted, but on full-solution questions the other mathematical steps must still be shown and justified, and specific marks may be given for them. Answers are expected as simplified exact numbers unless a question says otherwise.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Euclid required for University of Waterloo admission?</h3>
+        <p>No. CEMC says participation in the Euclid is not required for admission to Waterloo's Faculty of Mathematics. Waterloo says writing the Euclid or the CSMC is required for some Faculty of Mathematics scholarships. We make no promise about admission or scholarships.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a Grade 11 student write the Euclid?</h3>
+        <p>Yes, if the school orders it for them. Younger students who are keen are welcome, says CEMC, and its Euclid page says many students aiming for a strong final-year score write it more than once before then.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What was a good Euclid score in 2026?</h3>
+        <p>CEMC lists a 2026 average of 52.2 out of 100, a Certificate of Distinction cutoff of 66 and a School Medal Champion cutoff of 52, with 23 985 contestants. The question averages fell from 9.5 out of 10 on question 1 to 0.73 on question 10.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the Euclid include calculus?</h3>
+        <p>CEMC's preparation advice says the CSMC and Euclid use ideas from all areas of high school math except calculus and vectors. Its eight preparation topics run from exponents and logarithms to properties of numbers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do we register for the Euclid?</h3>
+        <p>Through the school. Students cannot register themselves; the school orders the contest from CEMC and the student writes there in person. If the school will not order, CEMC suggests finding another local school that will let the student join.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times are your Euclid classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We plan in Eastern time and confirm every class in the family's own time zone, including after the clocks change on 14 March 2027.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More to read</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Pages for final-year students in Canada thinking about contests, university math and computer science.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a></h3><p>Every CEMC math contest on one page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor, Canada</a></h3><p>Help with MHF4U and other final-year courses.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Where our Canada pages start.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ics3u-computer-science-help">ICS3U help</a></h3><p>Ontario Grade 11 computer science, for future CS applicants.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>CEMC's programming contest, in February.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-12th-grade">Grade 12 math tutoring</a></h3><p>Final-year math, one topic at a time.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-olympiad-amc-tutoring">AMC 12 and AIME</a></h3><p>The American contests many Euclid writers also sit.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-olympiad-classes-online">Choosing an olympiad</a></h3><p>How the world's math contests compare.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">How we teach thinking</a></h3><p>Why we teach arguments, not answer keys.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">The first class takes one Euclid-style full-solution question we wrote and writes it up together, line by line, on screen. You leave knowing which of the four stages your child is at and how we would use the months before 6 April 2027.</p>
+        <p class="ag-mt-40">Would you rather read first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> shows a live class, and the <a class="ag-inline-link" href="/courses">course list</a> has each syllabus in full.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20their%20final%20year%20in%20Canada%20and%20wants%20to%20prepare%20for%20the%20Euclid%20Contest%20on%206%20April%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ecp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are in India and every class is live on video, so there is no Canadian office to visit. WhatsApp gets the fastest reply from anywhere in Canada.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ecp(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first class. No card, no contract.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/cemc-waterloo-contests-preparation">CEMC math contests</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/math-olympiad-amc-tutoring">AMC and AIME</a></li><li><a href="/maths-olympiad-classes-online">Choosing an olympiad</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/online-math-tutor-canada">Online math tutor, Canada</a></li><li><a href="/ics3u-computer-science-help">ICS3U help</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Write it for a stranger</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ecp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'euclid-contest-preparation-inline', meta: { name: name, age: age, page: 'euclid-contest-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

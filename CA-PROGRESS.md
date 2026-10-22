@@ -188,7 +188,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 1 | ics3u-computer-science-help (ics, #485A56) | door | 8,624 | 0.7% vs ccc-junior-guide | school course help | trace tables and decomposition | 523cb5d0 |
 | 44 | pascal-contest-preparation (pcp, #8F512F) | contest | 6,412 | 0.7% vs ccc-junior-guide | contest guide | scoring rules and when to leave a blank | bd219f0d |
 | 45 | cayley-contest-preparation (ccp, #4C300B) | contest | 6,226 | 1.3% vs pascal-contest-preparation | contest guide | checking an answer without options | c11ca363 |
-| 46 | fermat-contest-preparation (fer, #374C1C) | contest | 5,942 | 1.6% vs pascal-contest-preparation | contest guide | time triage in a one-hour contest | (this commit) |
+| 46 | fermat-contest-preparation (fer, #374C1C) | contest | 5,942 | 1.6% vs pascal-contest-preparation | contest guide | time triage in a one-hour contest | 8eafe94f |
+| 47 | euclid-contest-preparation (ecp, #436631) | contest | 7,160 | 1.2% vs pascal-contest-preparation | contest guide | writing a complete solution | (this commit) |
 
 ## Skipped
 

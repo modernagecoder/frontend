@@ -738,6 +738,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Euclid contest preparation (Grade 12)](/euclid-contest-preparation)
 - [Fermat contest preparation (Grade 11)](/fermat-contest-preparation)
 - [Cayley contest preparation (Grade 10)](/cayley-contest-preparation)
 - [Pascal contest preparation (Grade 9)](/pascal-contest-preparation)
