@@ -7590,4 +7590,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ccc-junior-guide /src/pages/ccc-junior-guide.html 200
 /ccc-junior-guide.md /src/pages/ccc-junior-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ics3u-computer-science-help /src/pages/ics3u-computer-science-help.html 200
+/ics3u-computer-science-help.md /src/pages/ics3u-computer-science-help.md 200
 /* /src/pages/404.html 404

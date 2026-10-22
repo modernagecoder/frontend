@@ -483,6 +483,7 @@ const SLUGS = [
   'coding-with-kids-alternative',
   'common-core-math-vs-traditional-math',
   'ccc-junior-guide',
+  'ics3u-computer-science-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1045,6 +1046,7 @@ const LLMS_LABELS = {
   'coding-with-kids-alternative': 'Coding with Kids alternative',
   'common-core-math-vs-traditional-math': 'Common Core math vs traditional math',
   'ccc-junior-guide': 'CCC Junior guide',
+  'ics3u-computer-science-help': 'ICS3U computer science help',
 };
 
 function wireLlms(slugs) {
