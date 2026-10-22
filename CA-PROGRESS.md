@@ -250,7 +250,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 75 | math-classes-for-kids-in-canada (mkc, #665E3D) | door | 5,312 | 1.6% vs beaver-computing-challenge-guide | subject door | number sense | 183ed164 |
 | 73 | coding-classes-for-adults-in-canada (adc, #9E212E) | door | 4,740 | 1% vs beaver-computing-challenge-guide | subject door | web accessibility | e49db1a3 |
 | 74 | coding-classes-for-seniors-in-canada (sc, #703F36) | door | 4,454 | 1.3% vs ccc-junior-guide | subject door | practical projects | 6d1b1ffd |
-| 76 | homeschool-coding-and-math-ontario (hmo, #485231) | door | 4,581 | 1.7% vs ccc-junior-guide | homeschool guide | weekly planning | (this commit) |
+| 76 | homeschool-coding-and-math-ontario (hmo, #485231) | door | 4,581 | 1.7% vs ccc-junior-guide | homeschool guide | weekly planning | f5a98d39 |
+| 77 | homeschool-coding-and-math-alberta (hma, #325C1E) | door | 4,663 | 1.8% vs math-classes-for-kids-in-canada | homeschool guide | weekly planning | (this commit) |
 
 ## Skipped
 

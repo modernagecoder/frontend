@@ -549,6 +549,7 @@ const SLUGS = [
   'coding-classes-for-adults-in-canada',
   'coding-classes-for-seniors-in-canada',
   'homeschool-coding-and-math-ontario',
+  'homeschool-coding-and-math-alberta',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1177,6 +1178,7 @@ const LLMS_LABELS = {
   'coding-classes-for-adults-in-canada': 'Coding classes for adults, Canada',
   'coding-classes-for-seniors-in-canada': 'Coding classes for seniors, Canada',
   'homeschool-coding-and-math-ontario': 'Homeschool coding and math, Ontario',
+  'homeschool-coding-and-math-alberta': 'Homeschool coding and math, Alberta',
 };
 
 function wireLlms(slugs) {
