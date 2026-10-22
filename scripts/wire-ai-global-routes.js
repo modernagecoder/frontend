@@ -541,6 +541,7 @@ const SLUGS = [
   'problem-solving-coding-and-math-classes-canada',
   'math-30-1-tutor-alberta',
   'alberta-math-30-1-diploma-exam-prep',
+  'math-30-1-vs-math-30-2',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1161,6 +1162,7 @@ const LLMS_LABELS = {
   'problem-solving-coding-and-math-classes-canada': 'Problem-solving classes',
   'math-30-1-tutor-alberta': 'Math 30-1 tutor, Alberta',
   'alberta-math-30-1-diploma-exam-prep': 'Alberta Math 30-1 diploma exam prep',
+  'math-30-1-vs-math-30-2': 'Math 30-1 vs Math 30-2',
 };
 
 function wireLlms(slugs) {

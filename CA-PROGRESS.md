@@ -242,7 +242,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 80 | best-online-math-tutoring-in-canada (bmtc, #0F1C66) | best | 5,529 | 2.3% vs canada-high-school-math-courses-compared | criteria guide | gap finding | 3050b3f1 |
 | 81 | problem-solving-coding-and-math-classes-canada (psmc, #311694) | think | 5,065 | 1.6% vs best-online-math-tutoring-in-canada | teaching approach | reasoning before code | 581fcf8f |
 | 28 | math-30-1-tutor-alberta (mat, #187028) | school-ab | 5,954 | 1.2% vs mhf4u-advanced-functions-tutor | school course help | functions and trigonometry | 779695bc |
-| 32 | alberta-math-30-1-diploma-exam-prep (alb, #3A3157) | school-ab | 5,712 | 1.2% vs math-30-1-tutor-alberta | exam guide | exam strategy | (this commit) |
+| 32 | alberta-math-30-1-diploma-exam-prep (alb, #3A3157) | school-ab | 5,712 | 1.2% vs math-30-1-tutor-alberta | exam guide | exam strategy | 3400d1f5 |
+| 29 | math-30-1-vs-math-30-2 (math, #0D574F) | school-ab | 4,768 | 1.7% vs math-30-1-tutor-alberta | decision page | course choice | (this commit) |
 
 ## Skipped
 
