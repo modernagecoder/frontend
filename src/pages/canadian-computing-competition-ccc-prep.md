@@ -499,6 +499,21 @@ Parent
 
 The other nine
 
+## Deeper guides for each part of the CCC year
+
+Each guide takes one piece of the contest season further than this page can: one division, one practice routine, the olympiad after it, and the school courses most CCC writers take alongside.
+
+- [CCC Junior guide](/ccc-junior-guide) (2027 contest)
+- [CCC Senior guide](/ccc-senior-guide) (Graphs and DP)
+- [Practising with CCC past problems](/ccc-past-problems-practice-guide) (CCC Grader)
+- [Canadian Computing Olympiad](/canadian-computing-olympiad-cco-guide) (CCO and IOI)
+- [Beaver Computing Challenge](/beaver-computing-challenge-guide) (Grades 3 to 12)
+- [How to register](/how-to-register-for-waterloo-contests) (Through a school)
+- [2026-27 contest calendar](/canada-math-and-coding-contest-calendar) (All dates)
+- [USACO for Canadian students](/usaco-for-canadian-students) (USACO vs CCC)
+- [ICS3U help](/ics3u-computer-science-help) (Grade 11)
+- [ICS4U help](/ics4u-computer-science-help) (Grade 12)
+
 ## The other exams and contests we prepare students for
 
 Most CCC students are sitting a school qualification at the same time, and some are also writing other national contests. These are the ones we teach alongside it.

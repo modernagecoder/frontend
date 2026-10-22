@@ -258,7 +258,21 @@ Related pages
 
 ## The other contests, and the maths underneath them
 
-CEMC's programming contest, the American and Indian pathways, and the live courses this batch is built on.
+A guide to each Waterloo contest, the CMS contests, the 2026-27 calendar, CEMC's programming contest, the American and Indian pathways, and the live courses this batch is built on.
+
+- [Gauss contest guide (Grades 7 and 8)](/gauss-contest-preparation)
+- [Pascal contest guide (Grade 9)](/pascal-contest-preparation)
+- [Cayley contest guide (Grade 10)](/cayley-contest-preparation)
+- [Fermat contest guide (Grade 11)](/fermat-contest-preparation)
+- [Euclid contest guide (Grade 12)](/euclid-contest-preparation)
+- [Fryer, Galois and Hypatia guide](/fryer-galois-hypatia-contests-guide)
+- [CIMC and CSMC guide](/cimc-and-csmc-contest-guide)
+- [Canadian Open Mathematics Challenge guide](/comc-canada-open-mathematics-challenge-guide)
+- [The path to the Canadian Math Olympiad](/canadian-math-olympiad-cmo-path)
+- [2026-27 contest calendar for Canada](/canada-math-and-coding-contest-calendar)
+- [How to register for Waterloo contests](/how-to-register-for-waterloo-contests)
+- [CEMC free resources guide](/cemc-free-resources-guide)
+- [Waterloo Math Contests course](/courses/waterloo-math-contests-gauss-to-euclid-course)
 
 [Which maths olympiad? The chooser/maths-olympiad-classes-online](/maths-olympiad-classes-online)[Canadian Computing Competition prep/canadian-computing-competition-ccc-prep](/canadian-computing-competition-ccc-prep)[AMC 8, 10, 12 and AIME coaching/math-olympiad-amc-tutoring](/math-olympiad-amc-tutoring)[SOF IMO preparation/sof-imo-preparation](/sof-imo-preparation)[Maths challenges and competitions/maths-challenges](/maths-challenges)[Maths Olympiad and Competition Course/courses/olympiad-competition-mathematics-mastery](/courses/olympiad-competition-mathematics-mastery)[High School Mathematics, Grades 9 to 12/courses/complete-high-school-mathematics-mastery](/courses/complete-high-school-mathematics-mastery)[Middle School Mathematics, Grades 6 to 8/courses/comprehensive-middle-school-mathematics-mastery](/courses/comprehensive-middle-school-mathematics-mastery)[Online maths tuition, all grades/online-maths-tuition](/online-maths-tuition)
 
