@@ -723,6 +723,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - Coding curriculum by province: https://learn.modernagecoders.com/canada-coding-curriculum-by-province
 - Grade 12 math by province: https://learn.modernagecoders.com/canada-high-school-math-courses-compared
 - Canada time zones 2026 and class times: https://learn.modernagecoders.com/canada-time-zones-2026-online-class-times
+- MHF4U Advanced Functions tutor: https://learn.modernagecoders.com/mhf4u-advanced-functions-tutor
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

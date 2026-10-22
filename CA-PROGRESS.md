@@ -193,7 +193,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 43 | gauss-contest-preparation (gcp, #85142C) | contest | 6,294 | 1.1% vs euclid-contest-preparation | contest guide | organized counting | bd476c8b |
 | 62 | canada-coding-curriculum-by-province (ccbp, #26165C) | ref | 5,635 | 1.1% vs ics3u-computer-science-help | reference table | curriculum by province | 26519f0c |
 | 63 | canada-high-school-math-courses-compared (chsm, #66182B) | ref | 4,867 | 1.6% vs ics3u-computer-science-help | reference table | course equivalence | 95d6f5cf |
-| 64 | canada-time-zones-2026-online-class-times (can, #611614) | ref | 4,742 | 1% vs ccc-junior-guide | scheduling reference | time zones | (this commit) |
+| 64 | canada-time-zones-2026-online-class-times (can, #611614) | ref | 4,742 | 1% vs ccc-junior-guide | scheduling reference | time zones | d1ad49f5 |
+| 15 | mhf4u-advanced-functions-tutor (maft, #8A5115) | school-on | 6,472 | 0.9% vs canada-high-school-math-courses-compared | school course help | functions and logarithms | (this commit) |
 
 ## Skipped
 

@@ -25257,6 +25257,18 @@
   to = "/src/pages/canada-time-zones-2026-online-class-times.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/mhf4u-advanced-functions-tutor"
+  to = "/src/pages/mhf4u-advanced-functions-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/mhf4u-advanced-functions-tutor.md"
+  to = "/src/pages/mhf4u-advanced-functions-tutor.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
