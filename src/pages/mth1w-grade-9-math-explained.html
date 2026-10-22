@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MTH1W Explained: Ontario De-streamed Grade 9 Math and Coding</title>
+  <meta name="description" content="MTH1W, the Ontario de-streamed Grade 9 math course, explained from the 2021 curriculum: its strands, what de-streaming means, coding expectation C2.1, Python.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/mth1w-grade-9-math-explained">
+  <link rel="alternate" type="text/markdown" href="/src/pages/mth1w-grade-9-math-explained.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#32648A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/mth1w-grade-9-math-explained">
+  <meta property="og:title" content="MTH1W Explained: Ontario De-streamed Grade 9 Math and Coding">
+  <meta property="og:description" content="What MTH1W is, why Ontario Grade 9 math has one course instead of two, what the coding strand asks for, and a worked coding-for-algebra problem in Python, all from the ministry&amp;rsquo;s own curriculum.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MTH1W Explained: Ontario De-streamed Grade 9 Math and Coding">
+  <meta name="twitter:description" content="MTH1W, Ontario&amp;rsquo;s de-streamed Grade 9 math course, explained with a coding-for-algebra example.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-mtgr .ag-hero h1 { letter-spacing: -0.012em; max-width: 19ch; }
+.ag-root.ag-mtgr .ag-capsule { border-left-width: 5px; border-radius: 4px; }
+.ag-root.ag-mtgr .ag-table th { text-transform: uppercase; letter-spacing: 0.04em; }
+.ag-root.ag-mtgr .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-mtgr .ag-code-note { line-height: 1.6; }
+.ag-root.ag-mtgr .ag-steps li { margin-bottom: 0.55rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/mth1w-grade-9-math-explained#page","url":"https://learn.modernagecoders.com/mth1w-grade-9-math-explained","name":"MTH1W Grade 9 Math Explained","description":"A guide for Ontario Grade 9 students and parents to MTH1W, the de-streamed Grade 9 mathematics course issued in 2021, built from the ministry curriculum, with a worked coding-for-algebra example and five practice questions.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":3,"name":"Ontario","item":"https://learn.modernagecoders.com/coding-classes-in-ontario"},{"@type":"ListItem","position":4,"name":"MTH1W explained","item":"https://learn.modernagecoders.com/mth1w-grade-9-math-explained"}]},{"@type":"Course","name":"MTH1W Grade 9 Math Explained","description":"Live online MTH1W help for Ontario Grade 9 students: algebra, linear relations, data, geometry and the coding strand in Python, taught alongside the school course in a batch or one to one. No Ontario credit is granted.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/mth1w-grade-9-math-explained"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/mth1w-grade-9-math-explained"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/mth1w-grade-9-math-explained"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is MTH1W?","acceptedAnswer":{"@type":"Answer","text":"MTH1W is the Ontario Grade 9 mathematics course, issued in 2021 and listed as de-streamed. It is the one Grade 9 math course for all students, covering number, algebra, data, geometry and measurement, and financial literacy, with coding and mathematical modelling used throughout."}},{"@type":"Question","name":"What does de-streamed mean?","acceptedAnswer":{"@type":"Answer","text":"It means Grade 8 students no longer choose between an applied and an academic Grade 9 math course. Ontario's parent information says there is strong evidence for not having Grade 8 students make that choice, and that this is called de-streaming. Since September 2021 everyone takes MTH1W."}},{"@type":"Question","name":"Can my teen earn the MTH1W credit with you?","acceptedAnswer":{"@type":"Answer","text":"No. Our classes run beside the school course, and we do not grant Ontario credits. The credit is earned at the student's own school, a board summer program or an Ontario credit provider, while our lessons supply extra teaching and practice."}},{"@type":"Question","name":"What coding is in MTH1W?","acceptedAnswer":{"@type":"Answer","text":"Expectation C2 asks students to apply coding skills to represent math concepts and relationships and to solve problems, in algebra and across the course. C2.1 asks them to use code to show they understand variables, parameters, equations and inequalities."}},{"@type":"Question","name":"Which programming language does MTH1W use?","acceptedAnswer":{"@type":"Answer","text":"The curriculum does not name one. Classes use different tools, from block-based editors to Python and spreadsheets. We teach in Python unless the class uses something else, and the algebra ideas carry across."}},{"@type":"Question","name":"Is MTH1W hard?","acceptedAnswer":{"@type":"Answer","text":"It is a step up from Grade 8, mainly because students compare whole linear relations and explain their meaning, rather than finding single values. Students who are secure with fractions, negative numbers and the idea of a variable usually manage well. No one can promise a mark in advance."}},{"@type":"Question","name":"What replaced the academic and applied Grade 9 courses?","acceptedAnswer":{"@type":"Answer","text":"MTH1W did. The MTH1W curriculum says the course supersedes the two Grade 9 courses in the 2005 Ontario mathematics curriculum for Grades 9 and 10."}},{"@type":"Question","name":"Does the EQAO Grade 9 math assessment count?","acceptedAnswer":{"@type":"Answer","text":"It does. EQAO states that the result becomes part of the final MTH1W course mark under the ministry's assessment policy, without giving a weight. Its next window runs from January 12 to February 5, 2027."}},{"@type":"Question","name":"What comes after MTH1W?","acceptedAnswer":{"@type":"Answer","text":"The MTH1W course table lists it as a prerequisite option for the Grade 10 academic and applied courses, MPM2D and MFM2P, and for the Grade 11 workplace course MEL3E. Students who started Grade 9 in 2024 or later need three math credits for the diploma."}},{"@type":"Question","name":"When can my teen have classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We fix lesson times in your local clock and check them again after Ontario changes its clocks on 1 November 2026."}},{"@type":"Question","name":"How are lessons paid for?","acceptedAnswer":{"@type":"Answer","text":"We charge nothing for the first lesson. Families then pay monthly for eight live lessons, without a semester contract; the price box higher up gives the current group and private figures."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/mth1w-grade-9-math-explained","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-mtgr">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#destreamed">De-streamed</a></li>
+      <li><a href="#strands">Strands</a></li>
+      <li><a href="#coding">Coding C2</a></li>
+      <li><a href="#worked">Worked example</a></li>
+      <li><a href="#after">After Grade 9</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-canada">Canada</a> / <a href="/coding-classes-in-ontario">Ontario</a> / MTH1W explained
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Ontario &middot; Grade 9 &middot; MTH1W, the de-streamed course</p>
+        <h1>MTH1W explained: Ontario&rsquo;s Grade 9 math course</h1>
+        <p class="ag-lede">MTH1W is the one Grade 9 math course every Ontario student now takes. It replaced a choice between two courses, it asks students to code as part of algebra, and its results feed into a provincial assessment. This guide reads the course straight from the 2021 curriculum documents, then works one coding-for-algebra problem in Python. Our lessons support what the school teaches, and we do not grant Ontario credits: the MTH1W credit comes from the school.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#worked" class="ag-btn ag-btn--ghost">See the worked example</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20is%20taking%20MTH1W%20in%20Grade%209%20in%20Ontario%20and%20would%20like%20help%20alongside%20the%20school%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mtgr'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; Algebra with Python</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Ontario Grade 9, MTH1W</dd>
+          <dt>Covers</dt><dd>All six strands, coding included</dd>
+          <dt>Code in</dt><dd>Python, or the tool the class uses</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Clock</dt><dd>Eastern time for most of Ontario</dd>
+          <dt>Credit</dt><dd>None granted: the school awards it</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>MTH1W is Ontario&rsquo;s de-streamed Grade 9 math course, issued in 2021, which replaced the separate applied and academic courses. It covers number, algebra, data, geometry and measurement, and financial literacy, and its coding expectation C2.1 links code to variables and equations. Modern Age Coders gives MTH1W help live online, in a batch or one to one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses for a student taking MTH1W</h2>
+      <p class="ag-lede">Algebra is the heart of the course, so it comes first. The other two cover the wider math and the coding strand.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/algebra-foundations-masterclass">
+        <div class="ag-pick-shot"><img src="/images/algebra-foundations.webp" alt="Algebra Foundations course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MTH / 01</p>
+          <h3>Algebra Foundations</h3>
+          <p>Grades 7 to 9. Fractions and negatives repaired, then linear equations and relations: the core of MTH1W Strand C.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MTH / 02</p>
+          <h3>High School Math</h3>
+          <p>Grades 9 to 12. Algebra, geometry and statistics now, with the functions of Grades 10 to 12 in view.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/maths-through-coding">
+        <div class="ag-pick-shot"><img src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MTH / 03</p>
+          <h3>Math Through Coding</h3>
+          <p>Up to age 15. Linear relations, geometry and probability written as Python programs, the C2 strand in practice.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="destreamed">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">One course for everyone</p><h2>What de-streamed means for Grade 9 math</h2><p class="ag-lede">Before 2021, Ontario students entering Grade 9 chose between an academic and an applied math course. MTH1W ended that choice. The ministry&rsquo;s parent information puts it simply: &ldquo;Starting September 2021, there will be one new Grade 9 math course for all students.&rdquo;</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>MTH1W at a glance, from the Ontario curriculum website&rsquo;s course record and parent information (read 22 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">What the source says</th></tr></thead><tbody><tr><td>Course code and name</td><td>MTH1W, Mathematics, Grade 9</td></tr><tr><td>Year issued</td><td>2021</td></tr><tr><td>Destination</td><td>Listed as Destreamed</td></tr><tr><td>Prerequisite</td><td>None</td></tr><tr><td>What changed</td><td>&ldquo;This means that there will no longer be applied or academic courses for Grade 9 math.&rdquo;</td></tr><tr><td>The term</td><td>&ldquo;There is strong evidence that supports not having Grade 8 students choose between applied and academic courses when they enter Grade 9. This is called de-streaming.&rdquo;</td></tr><tr><td>What it replaced</td><td>&ldquo;This course supersedes the two Grade 9 courses outlined in The Ontario Curriculum, Grades 9 and 10: Mathematics, 2005&rdquo;</td></tr><tr><td>What it builds on</td><td>&ldquo;The new Grade 9 math course builds on the 2020 elementary (Grades 1 to 8) mathematics curriculum&rdquo;</td></tr><tr><td>Credit</td><td>&ldquo;Each of the courses listed above is worth one credit.&rdquo;</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the ministry made the change</h3><p>The parent information lists several benefits it expects from de-streaming, among them &ldquo;setting high academic standards for all students&rdquo;, &ldquo;enabling students with a range of skills and interests to learn together&rdquo; and &ldquo;keeping future options open for all students (for example, going to college, university or apprenticeship)&rdquo;.</p>
+<p>The practical effect for a family is that no Grade 8 student has to pick a math track before they know what they want to study. Everyone takes MTH1W, and the choices start in Grade 10.</p></div><div><h3>What it means in the classroom</h3><p>One course for everyone means one classroom with a wider range of starting points. A student who found Grade 8 math easy sits beside one who found it hard, and the teacher plans for both.</p>
+<p>In our first classes we see both kinds of student. The confident ones sometimes coast and then meet linear relations unprepared; the anxious ones often know more than they think. Either way, the remedy is the same: secure fractions, integers and the meaning of a variable early in the term.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-mathematics/courses/mth1w" rel="noopener" target="_blank">The Ontario Curriculum: Mathematics, Grade 9 (MTH1W, 2021)</a>, the course record, its context section and its parent information, read through the curriculum website&rsquo;s content service on 22 October 2026. We left out of this page one line of the benefit list that names groups of students. Modern Age Coders works independently of the Ontario Ministry of Education.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="strands">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Inside the course</p><h2>The MTH1W strands and what each one asks</h2><p class="ag-lede">MTH1W has seven strands in all. The first two, social-emotional learning skills and Mathematical Thinking and Making Connections, run through the course; the other five carry the content. The course description sums up the approach: &ldquo;Students will use mathematical processes, mathematical modelling, and coding to make sense of the mathematics they are learning&rdquo;.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>MTH1W strands with one expectation quoted from each content strand (MTH1W curriculum, 2021, read 22 October 2026); the last column is ours</caption><thead><tr><th scope="col">Strand</th><th scope="col">One expectation, quoted</th><th scope="col">What students usually find hard (ours)</th></tr></thead><tbody><tr><td>AA. Social-Emotional Learning Skills</td><td>Developed &ldquo;in connection with the expectations across all other strands&rdquo;</td><td>Sticking with a problem after the first wrong attempt</td></tr><tr><td>A. Mathematical Thinking and Making Connections</td><td>Apply the mathematical processes to develop &ldquo;a conceptual understanding of, and procedural fluency with, the mathematics they are learning&rdquo;</td><td>Explaining a method, not only using it</td></tr><tr><td>B. Number</td><td>Use the sign and size of an exponent to &ldquo;express numbers in scientific notation and evaluate powers&rdquo;</td><td>Negative exponents, and operations with negative fractions</td></tr><tr><td>C. Algebra</td><td>&ldquo;compare two linear relations of the form y = a x + b graphically and algebraically, and interpret the meaning of their point of intersection in terms of a given context&rdquo;</td><td>Saying what the point of intersection means in words</td></tr><tr><td>D. Data</td><td>Analyse one-variable data in various ways, &ldquo;including the use of quartile values and box plots&rdquo;</td><td>Reading a box plot backwards, from picture to data</td></tr><tr><td>E. Geometry and Measurement</td><td>Solve problems involving &ldquo;the side-length relationship for right triangles in real-life situations&rdquo;</td><td>Choosing which side is the hypotenuse in a diagram that is turned around</td></tr><tr><td>F. Financial Literacy</td><td>Compare how interest rates, borrowing time and down payments affect the cost of a purchase</td><td>Mostly reading the situation carefully; we teach it from the class materials</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Strand C is the centre of the course</h3><p>Algebra in MTH1W covers expressions and equations (C1), coding (C2), applications of relations (C3) and characteristics of relations (C4). Linear relations appear in three of the four, and coding is expected to support all of them.</p>
+<p>The jump from Grade 8 is real. In Grade 8 a student finds a value; in MTH1W they compare whole relations, their rates of change and initial values, and explain what a graph means in context.</p></div><div><h3>Where coding fits</h3><p>The MTH1W document says students &ldquo;will extend and apply coding skills to dynamically represent situations, analyse mathematics concepts, and solve problems in various contexts.&rdquo; The C2 overall expectation places that work &ldquo;in algebra and across the other strands&rdquo;.</p>
+<p>So the coding in MTH1W is not a separate unit to get through. A good teacher uses it whenever a pattern, a relation or a large data set is easier to see by running code than by drawing by hand.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="coding">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Expectation C2</p><h2>The MTH1W coding expectations, C2.1 to C2.3</h2><p class="ag-lede">Strand C sets one overall expectation for coding: students will &ldquo;apply coding skills to represent mathematical concepts and relationships dynamically, and to solve problems, in algebra and across the other strands&rdquo;. Three specific expectations sit under it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>MTH1W coding expectations, quoted (MTH1W curriculum, 2021, read 22 October 2026); the right column is ours</caption><thead><tr><th scope="col">Expectation</th><th scope="col">In the curriculum&rsquo;s words</th><th scope="col">In plain language (ours)</th></tr></thead><tbody><tr><td>C2.1</td><td>&ldquo;use coding to demonstrate an understanding of algebraic concepts including variables, parameters, equations, and inequalities&rdquo;</td><td>Show you understand algebra by using it in code: store values, hold a constant, test an equation, test a range</td></tr><tr><td>C2.2</td><td>&ldquo;create code by decomposing situations into computational steps in order to represent mathematical concepts and relationships, and to solve problems&rdquo;</td><td>Break a situation into steps a computer can follow, then write them</td></tr><tr><td>C2.3</td><td>&ldquo;read code to predict its outcome, and alter code to adjust constraints, parameters, and outcomes to represent a similar or new mathematical situation&rdquo;</td><td>Read someone&rsquo;s code, say what it will do, then change it for a new case</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What C2.1 means by its four words</h3><p>The curriculum&rsquo;s examples spell out each idea. Variables are used to &ldquo;store data temporarily&rdquo; and to access and alter it. A parameter acts as a placeholder &ldquo;to represent a quantity that influences the output of a mathematical object but is viewed as being held constant&rdquo;; in y = ax, the a.</p>
+<p>Equations in code assign values and test equality; inequalities test a range. In our worked example below, the start height and burn rate are parameters, the height at each hour is a variable, the equal heights are an equation and &ldquo;taller&rdquo; is an inequality.</p></div><div><h3>Coding arrives with history</h3><p>MTH1W students are not starting from zero. The teacher notes tell teachers to &ldquo;make connections to prior learning in coding from the elementary grades, such as using loops, conditional statements, and subprograms&rdquo;, since Ontario students have had coding in math since Grade 1.</p>
+<p>In practice that prior learning varies widely. Some Grade 9 students have written Python for years; others have only dragged blocks once or twice. Neither the curriculum nor the course record names a coding language or tool.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="worked">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Coding for algebra, ours</p><h2>A worked MTH1W example: two linear relations in Python</h2><p class="ag-lede">A problem we made up for this guide, pitched at MTH1W Strand C. It touches C2.1 (variables, parameters, an equation, inequalities), C2.3 (alter a parameter and predict) and C3.3 (the meaning of a point of intersection). The program ran in Python 3 and the output is printed below it.</p></div>
+    <p><b>The problem.</b> Candle A is 30 cm tall and burns down 2 cm every hour. Candle B is 20 cm tall and burns 1 cm an hour. Both are lit at the same moment. When are they the same height, and what does that moment mean?</p>
+    <ol class="ag-steps"><li><b>Name the relations.</b> Height of A: y = 30 &minus; 2x. Height of B: y = 20 &minus; x, where x is hours since lighting. Both are linear, with negative rates of change.</li><li><b>Pick out the parameters.</b> The start heights (30 and 20) and the burn rates (2 and 1) stay fixed for each candle. In code they become arguments to one function, so the same function serves both candles.</li><li><b>Decompose the situation.</b> For each hour: work out both heights, stop if either candle is gone, then compare. That is C2.2 in four lines.</li><li><b>Solve it by algebra too.</b> 30 &minus; 2x = 20 &minus; x gives x = 10, and both heights are then 10 cm. The code should agree; if it does not, one of them is wrong.</li><li><b>Interpret the intersection.</b> Before hour 10, A is taller; after it, B is taller. The point (10, 10) is the moment the order changes, which is what C3.3 asks students to put into words.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; two candles (ours)</b><span>python</span></figcaption><pre># Two candles, two linear relations: when are they the same height? (ours)
+def height(start, rate, hours):
+    """Height in cm of a candle that starts at start cm and burns rate cm per hour."""
+    return start - rate * hours
+
+a_start, a_rate = 30, 2      # parameters for candle A
+b_start, b_rate = 20, 1      # parameters for candle B
+
+for t in range(0, 16):
+    a = height(a_start, a_rate, t)
+    b = height(b_start, b_rate, t)
+    if a &lt; 0 or b &lt; 0:
+        break
+    if a == b:
+        print("Hour", t, ": both", a, "cm  &lt;- same height")
+    elif a &gt; b:
+        print("Hour", t, ": A taller,", a, "vs", b)
+    else:
+        print("Hour", t, ": B taller,", a, "vs", b)</pre><p class="ag-code-note">The run prints one line per hour, from <code>Hour 0 : A taller, 30 vs 20</code> through <code>Hour 9 : A taller, 12 vs 11</code>, then <code>Hour 10 : both 10 cm  &lt;- same height</code>, then <code>Hour 11 : B taller, 8 vs 9</code> and on to <code>Hour 15 : B taller, 0 vs 5</code>. The algebra and the program agree.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Alter a parameter (C2.3)</h3><p>Change <code>a_rate</code> from 2 to 3 and predict before running. Algebra: 30 &minus; 3x = 20 &minus; x gives x = 5, height 15. The program agrees: <code>Hour 5 : both 15 cm</code>. A faster burn brings the crossing earlier.</p>
+<p>Then try a change that breaks the story. Set <code>a_rate</code> to 1, the same as B. The lines are now parallel; A is always 10 cm taller and the candles never match. Ask the student what that means for the equation: 30 &minus; x = 20 &minus; x has no solution.</p></div><div><h3>Linear or not? (C2.2)</h3><p>One of the situations the curriculum lists for decomposing into steps is &ldquo;determining whether a relationship is linear or non-linear&rdquo;. The short program below does it our way, by checking whether every first difference matches the first one.</p>
+<p>The seats around tables in a row grow by 4 each time, so they are linear. The areas of squares grow by 3, 5, 7 and 9, so they are not. The same test, run on a pattern from class, gives a quick check before any graph is drawn.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; linear or non-linear (ours)</b><span>python</span></figcaption><pre># Linear or non-linear? Check the first differences (ours)
+def is_linear(values):
+    first = values[1] - values[0]
+    for i in range(2, len(values)):
+        if values[i] - values[i - 1] != first:
+            return False
+    return True
+
+chairs = [6, 10, 14, 18, 22]      # seats around 1 to 5 tables in a row
+squares = [1, 4, 9, 16, 25]       # areas of squares with sides 1 to 5
+print("chairs:", is_linear(chairs))
+print("squares:", is_linear(squares))</pre><p class="ag-code-note">Output: <code>chairs: True</code> and <code>squares: False</code>. The function stops at the first difference that does not match, which is the efficient move: one counterexample is enough.</p></figure>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice, ours</p><h2>Five MTH1W coding-for-algebra questions</h2><p class="ag-lede">Our own questions, built on the two programs above. They are not taken from EQAO, a school or a textbook. Answers follow.</p></div>
+    <ol class="ag-steps"><li><b>Predict.</b> Using the <code>height</code> function, what is <code>height(25, 1.5, 4)</code>? What does each argument mean?</li><li><b>Alter.</b> Keep candle B as it is. What burn rate for candle A makes the two candles the same height at hour 5? Check with algebra.</li><li><b>Linear or not.</b> What does <code>is_linear([2, 6, 18, 54])</code> return? Describe the pattern in words.</li><li><b>Read the relation.</b> For candle B, y = 20 &minus; x. What are the rate of change and the initial value, and what does each mean for the candle?</li><li><b>Inequality.</b> For which whole numbers of hours is candle A taller than candle B? Write and solve the inequality, then say how the program&rsquo;s output shows the same answer.</li></ol>
+    <ol class="ag-steps ag-mt-40"><li><b>19.0 cm.</b> Start 25, rate 1.5, hours 4: 25 &minus; 1.5 &times; 4 = 19. Python prints 19.0 because a decimal rate makes the result a decimal.</li><li><b>3 cm per hour.</b> 30 &minus; 5r = 20 &minus; 5 gives 5r = 15, so r = 3. Both candles are then 15 cm tall at hour 5, matching the altered run above.</li><li><b>False.</b> The differences are 4, 12 and 36, not equal, so the relation is non-linear. Each term is 3 times the one before, which students meet again as exponential growth.</li><li><b>Rate &minus;1, initial value 20.</b> The candle starts at 20 cm (the y-intercept) and loses 1 cm each hour (the slope). It burns out after 20 hours.</li><li><b>Hours 0 to 9.</b> 30 &minus; 2x &gt; 20 &minus; x gives 10 &gt; x, so x &lt; 10. In the output, every line before hour 10 says A is taller, and hour 10 is the equality.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="eqao">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The provincial assessment</p><h2>MTH1W and the EQAO Grade 9 math assessment</h2><p class="ag-lede">Every MTH1W class also meets EQAO&rsquo;s Grade 9 Assessment of Mathematics. EQAO ties the two together in one sentence: &ldquo;Students enrolled in the MTH1W Grade 9 de-streamed mathematics course are learning the knowledge and skills that are defined in the expectations found in the 2021 Ontario Grade 9 mathematics curriculum.&rdquo;</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>What families need to know</h3><p>The next sitting EQAO shows is a window from January 12 to February 5, 2027, with each school picking its own days. EQAO also states that the result feeds into the MTH1W course mark under ministry policy, without naming a weight, so we name none either.</p>
+<p>The window named above is the next one EQAO lists, so a student whose MTH1W course ends at another point in the year should ask the school which sitting applies to them.</p></div><div><h3>How we prepare students</h3><p>Because the assessment mirrors the classroom curriculum, EQAO tells families it &ldquo;does not require additional preparation&rdquo;. We take that at face value: the preparation that matters is learning MTH1W well, then becoming familiar with the online format through EQAO&rsquo;s own sample test.</p>
+<p>Students who want a structured review can work through EQAO&rsquo;s released questions with us. We never promise a level or a mark. Start from EQAO&rsquo;s <a class="ag-inline-link" href="https://www.eqao.com/the-assessments/grade-9-math/" rel="noopener" target="_blank">Grade 9 Assessment of Mathematics page</a>.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: EQAO, <a class="ag-inline-link" href="https://www.eqao.com/the-assessments/grade-9-math/" rel="noopener" target="_blank">Grade 9 Assessment of Mathematics</a> and <a class="ag-inline-link" href="https://www.eqao.com/the-assessments/" rel="noopener" target="_blank">Assessments</a>, saved 22 October 2026. EQAO is an Ontario government agency; we have no connection with it.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="after">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After Grade 9</p><h2>After MTH1W: Grade 10 and the diploma</h2><p class="ag-lede">MTH1W opens every Grade 10 math pathway. The course table in the MTH1W curriculum shows exactly how.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Grade 10 and 11 courses that list MTH1W, from the course table in the MTH1W curriculum document (read 22 October 2026)</caption><thead><tr><th scope="col">Course</th><th scope="col">Type</th><th scope="col">Prerequisite as listed</th></tr></thead><tbody><tr><td>MPM2D, Principles of Mathematics, Grade 10</td><td>Academic</td><td>&ldquo;Grade 9 Mathematics, De-streamed (2021), or Grade 9 Principles of Mathematics, Academic (2005)&rdquo;</td></tr><tr><td>MFM2P, Foundations of Mathematics, Grade 10</td><td>Applied</td><td>&ldquo;Grade 9 Mathematics, De-streamed (2021), or Grade 9 Foundations of Mathematics, Applied (2005)&rdquo;</td></tr><tr><td>MEL3E, Mathematics for Work and Everyday Life, Grade 11</td><td>Workplace</td><td>Lists Grade 9 Mathematics, De-streamed (2021) among its options</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The diploma requirement</h3><p>Ontario&rsquo;s graduation requirements page lists, for students who started Grade 9 in 2024 or later, &ldquo;3 credits in mathematics (Grade 9, Grade 10 and 1 credit in Grade 11 or 12)&rdquo;. MTH1W is the first of the three (page updated September 02, 2026).</p>
+<p>The credit itself is earned at school. Because we do not grant Ontario credits, a family that needs a credit course turns to the home school, a board&rsquo;s summer program or an Ontario credit provider, and uses us for the teaching around it.</p></div><div><h3>Planning ahead from Grade 9</h3><p>A student aiming at university math, science or engineering usually heads for the academic Grade 10 course and then Functions in Grade 11. The skills that carry furthest from MTH1W are linear relations, rearranging equations and confidence with negative numbers and fractions.</p>
+<p>For Grades 10 to 12, see our <a class="ag-inline-link" href="/online-math-tutor-canada">online math tutoring page for Canada</a>. Students who enjoyed the coding strand often take a computer science course in Grade 11; our <a class="ag-inline-link" href="/ics3u-computer-science-help">ICS3U guide</a> explains that one.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Both read on 22 October 2026: <a class="ag-inline-link" href="https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-mathematics/courses/mth1w" rel="noopener" target="_blank">The Ontario Curriculum: Mathematics, Grade 9 (MTH1W, 2021)</a> (course table); <a class="ag-inline-link" href="https://www.ontario.ca/page/high-school-graduation-requirements" rel="noopener" target="_blank">Ontario high school graduation requirements</a>. Course offerings change, so check the school&rsquo;s course calendar in the year your teen chooses.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your teen is now</p>
+      <h2>Four stages through MTH1W algebra</h2>
+      <p class="ag-lede">Our own stages, from working with Grade 9 students in their first term of de-streamed math.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of a Grade 9 algebra learner (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Solver</td><td class="ag-num">Solves a one-step equation and can check the answer by substituting it back</td></tr><tr><td>2. Grapher</td><td class="ag-num">Graphs y = ax + b from a table and reads the slope and intercept</td></tr><tr><td>3. Comparer</td><td class="ag-num">Compares two relations and explains their point of intersection in context</td></tr><tr><td>4. Modeller</td><td class="ag-num">Writes a relation for a new situation, codes it, and changes a parameter to test a prediction</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask your teen what the slope means in this week&rsquo;s homework problem, in words, not numbers. That one question shows whether stage 2 is secure.</p>
+<p>Stage 3 is where many Grade 9 students stall, and it is the stage the provincial assessment and the course both lean on.</p></div><div><h3>For students</h3><p>Say every equation as a sentence about the situation before you solve it.</p>
+<p>When you change a number in your code, predict the new output first. If you were wrong, find out why.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine more courses for Ontario Grade 9 students</h2>
+      <p class="ag-lede">Each runs as live online lessons with a teacher who knows your teen, in a group or on their own.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Math support</h3>
+        <span class="ag-band-sub">Grades 8 to 10</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / SUP / 01</p>
+          <h4>Middle School Math</h4>
+          <p>For gaps from Grades 6 to 8 that MTH1W exposes.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / SUP / 02</p>
+          <h4>Statistics and Probability</h4>
+          <p>Box plots, scatter plots and what the data says.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / SUP / 03</p>
+          <h4>Competition Math</h4>
+          <p>For Grade 9 students who want harder problems.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>The coding strand, extended</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / COD / 01</p>
+          <h4>Python for Teens</h4>
+          <p>Functions, lists and files, well past MTH1W.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / COD / 02</p>
+          <h4>Problem Solving for Teens</h4>
+          <p>Algorithms and logic for future programmers.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / COD / 03</p>
+          <h4>CCC Junior and Senior</h4>
+          <p>Waterloo&rsquo;s programming contest, prepared properly.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond Grade 9</h3>
+        <span class="ag-band-sub">Grades 10 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / NXT / 01</p>
+          <h4>Data Science for Teens</h4>
+          <p>Collect, clean and chart a data set of your own choosing.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / NXT / 02</p>
+          <h4>Ontario CS Companion</h4>
+          <p>Help alongside ICS3U and ICS4U in Grades 11 and 12.</p>
+          <a class="ag-course-link" href="/courses/ics3u-ics4u-computer-science-companion-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MTH / NXT / 03</p>
+          <h4>Java for Teens</h4>
+          <p>A second language for students heading to ICS courses.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live MTH1W help that follows the school semester</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Early evening, after school and practice.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A Saturday or Sunday morning review hour.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Around unit tests and the EQAO window.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>The school&rsquo;s order</h3><p>We follow the class unit plan.</p></div>
+      <div><h3>Algebra said aloud</h3><p>Every equation explained in words.</p></div>
+      <div><h3>Code when it helps</h3><p>Python for relations and data.</p></div>
+      <div><h3>Homework explained</h3><p>Understood, never done for them.</p></div>
+      <div><h3>Test weeks planned</h3><p>Review timed to the school dates.</p></div>
+      <div><h3>Group or solo</h3><p>Fifteen to twenty teens, or one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Work by older students who first met code the way MTH1W students do, through math. See the <a class="ag-inline-link" href="/student-labs">student labs</a> for more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The first class is on us. From then on, one monthly fee pays for eight live classes, shown in the price box with its currency code; there is no semester contract, and you may stop after any month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring this week&rsquo;s homework</li><li>No card at booking</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty teens</li><li>One steady teacher</li><li>Choose a batch time</li><li>Billed monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A teacher for your teen alone</li><li>Times around school tests</li><li>Built from their unit plan</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews from families and students on Google, unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from Grade 9 families</p>
+      <h2>MTH1W: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is MTH1W?</h3>
+        <p>MTH1W is the Ontario Grade 9 mathematics course, issued in 2021 and listed as de-streamed. It is the one Grade 9 math course for all students, covering number, algebra, data, geometry and measurement, and financial literacy, with coding and mathematical modelling used throughout.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does de-streamed mean?</h3>
+        <p>It means Grade 8 students no longer choose between an applied and an academic Grade 9 math course. Ontario's parent information says there is strong evidence for not having Grade 8 students make that choice, and that this is called de-streaming. Since September 2021 everyone takes MTH1W.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my teen earn the MTH1W credit with you?</h3>
+        <p>No. Our classes run beside the school course, and we do not grant Ontario credits. The credit is earned at the student's own school, a board summer program or an Ontario credit provider, while our lessons supply extra teaching and practice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What coding is in MTH1W?</h3>
+        <p>Expectation C2 asks students to apply coding skills to represent math concepts and relationships and to solve problems, in algebra and across the course. C2.1 asks them to use code to show they understand variables, parameters, equations and inequalities.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming language does MTH1W use?</h3>
+        <p>The curriculum does not name one. Classes use different tools, from block-based editors to Python and spreadsheets. We teach in Python unless the class uses something else, and the algebra ideas carry across.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is MTH1W hard?</h3>
+        <p>It is a step up from Grade 8, mainly because students compare whole linear relations and explain their meaning, rather than finding single values. Students who are secure with fractions, negative numbers and the idea of a variable usually manage well. No one can promise a mark in advance.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What replaced the academic and applied Grade 9 courses?</h3>
+        <p>MTH1W did. The MTH1W curriculum says the course supersedes the two Grade 9 courses in the 2005 Ontario mathematics curriculum for Grades 9 and 10.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the EQAO Grade 9 math assessment count?</h3>
+        <p>It does. EQAO states that the result becomes part of the final MTH1W course mark under the ministry's assessment policy, without giving a weight. Its next window runs from January 12 to February 5, 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What comes after MTH1W?</h3>
+        <p>The MTH1W course table lists it as a prerequisite option for the Grade 10 academic and applied courses, MPM2D and MFM2P, and for the Grade 11 workplace course MEL3E. Students who started Grade 9 in 2024 or later need three math credits for the diploma.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When can my teen have classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We fix lesson times in your local clock and check them again after Ontario changes its clocks on 1 November 2026.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are lessons paid for?</h3>
+        <p>We charge nothing for the first lesson. Families then pay monthly for eight live lessons, without a semester contract; the price box higher up gives the current group and private figures.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Ontario high school students and parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-ontario">Coding classes in Ontario</a></h3><p>Our Ontario page for learners of all ages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutor, Canada</a></h3><p>From Grade 9 math through calculus.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-9th-grade">Grade 9 math tutor</a></h3><p>One-to-one help in the first high school year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ics3u-computer-science-help">ICS3U help</a></h3><p>Grade 11 computer science, Ontario&rsquo;s first coding credit.</p></div>
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">Waterloo math contests</a></h3><p>Pascal is the CEMC contest for Grade 9.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Every Canadian page we have written.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/how-to-solve-maths-word-problems">Word problems</a></h3><p>Turning a paragraph into an equation.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>The structure of our live lessons.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us which MTH1W unit your teen is on and when the next test is. The free class starts from their own homework.</p>
+        <p class="ag-mt-40">Prefer to read first? <a class="ag-inline-link" href="/how-we-teach">How we teach</a> describes a lesson, and the <a class="ag-inline-link" href="/courses/algebra-foundations-masterclass">Algebra Foundations syllabus</a> lists the topics week by week.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20is%20taking%20MTH1W%20in%20Grade%209%20in%20Ontario%20and%20would%20like%20help%20alongside%20the%20school%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mtgr',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Teaching is live on video, from teachers in India, at hours set for Ontario. There is nowhere to drive; WhatsApp gets the quickest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_mtgr(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The free class is booked without card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Grade 9 math</h4><ul><li><a href="/courses/algebra-foundations-masterclass">Algebra Foundations</a></li><li><a href="/courses/complete-high-school-mathematics-mastery">High School Math</a></li><li><a href="/online-math-tutor-9th-grade">Grade 9 math tutor</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/coding-classes-in-ontario">Coding classes in Ontario</a></li><li><a href="/ics3u-computer-science-help">ICS3U help</a></li><li><a href="/online-math-tutor-canada">Math tutoring in Canada</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Name the parameter, change it, predict</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_mtgr = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'mth1w-grade-9-math-explained-inline', meta: { name: name, age: age, page: 'mth1w-grade-9-math-explained' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

@@ -25341,6 +25341,18 @@
   to = "/src/pages/ontario-grade-6-math-and-coding-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/mth1w-grade-9-math-explained"
+  to = "/src/pages/mth1w-grade-9-math-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/mth1w-grade-9-math-explained.md"
+  to = "/src/pages/mth1w-grade-9-math-explained.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
