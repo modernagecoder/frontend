@@ -486,6 +486,7 @@ const SLUGS = [
   'ics3u-computer-science-help',
   'pascal-contest-preparation',
   'cayley-contest-preparation',
+  'fermat-contest-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1051,6 +1052,7 @@ const LLMS_LABELS = {
   'ics3u-computer-science-help': 'ICS3U computer science help',
   'pascal-contest-preparation': 'Pascal Contest preparation',
   'cayley-contest-preparation': 'Cayley Contest preparation',
+  'fermat-contest-preparation': 'Fermat Contest preparation',
 };
 
 function wireLlms(slugs) {

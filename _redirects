@@ -7602,4 +7602,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /cayley-contest-preparation /src/pages/cayley-contest-preparation.html 200
 /cayley-contest-preparation.md /src/pages/cayley-contest-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/fermat-contest-preparation /src/pages/fermat-contest-preparation.html 200
+/fermat-contest-preparation.md /src/pages/fermat-contest-preparation.md 200
 /* /src/pages/404.html 404

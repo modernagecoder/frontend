@@ -717,6 +717,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - ICS3U computer science help: https://learn.modernagecoders.com/ics3u-computer-science-help
 - Pascal Contest preparation: https://learn.modernagecoders.com/pascal-contest-preparation
 - Cayley Contest preparation: https://learn.modernagecoders.com/cayley-contest-preparation
+- Fermat Contest preparation: https://learn.modernagecoders.com/fermat-contest-preparation
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fermat Contest 2027 (Grade 11): Date, Timing, Practice</title>
+  <meta name="description" content="The Fermat Contest for Grade 11: the 2027 date, how the 60 minutes run out (CEMC's 2026 blank rates), a three-pass time plan, six practice problems and Euclid.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/fermat-contest-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/fermat-contest-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#374C1C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/fermat-contest-preparation">
+  <meta property="og:title" content="Fermat Contest 2027 (Grade 11): Date, Timing, Practice">
+  <meta property="og:description" content="CEMC lists the 2027 Fermat Contest for Tuesday 23 or Wednesday 24 February 2027 in the Americas. The paper, the 2026 statistics on what Grade 11 writers left blank, a time plan and six practice problems.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fermat Contest 2027 (Grade 11): Date, Timing, Practice">
+  <meta name="twitter:description" content="Fermat Contest 2027 for Grade 11: date, timing strategy, 2026 statistics and six original problems.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-fer .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-fer .ag-capsule { border-left-width: 3px; border-radius: 6px; }
+.ag-root.ag-fer .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-fer .ag-table caption { text-align: left; font-weight: 500; font-style: italic; }
+.ag-root.ag-fer .ag-band-head h3 { letter-spacing: -0.01em; }
+.ag-root.ag-fer .ag-slots { gap: 1rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/fermat-contest-preparation#page","url":"https://learn.modernagecoders.com/fermat-contest-preparation","name":"Fermat Contest Preparation","description":"A guide for Grade 11 students in Canada and their parents to CEMC's Fermat Contest, built from CEMC's 2027 page, the 2025 Fermat booklet cover and the 2026 results booklet, with a time plan, original practice problems and the route to Hypatia, CSMC and Euclid.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"CEMC Waterloo contests","item":"https://learn.modernagecoders.com/cemc-waterloo-contests-preparation"},{"@type":"ListItem","position":5,"name":"Fermat Contest","item":"https://learn.modernagecoders.com/fermat-contest-preparation"}]},{"@type":"Course","name":"Fermat Contest Preparation","description":"Live online preparation for the CEMC Waterloo math contests from Gauss to Euclid, including the Grade 11 Fermat and Hypatia contests, for students across Canada, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/fermat-contest-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/fermat-contest-preparation"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/fermat-contest-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Fermat Contest?","acceptedAnswer":{"@type":"Answer","text":"It is CEMC's math contest for Grade 11, from the University of Waterloo. Students have 60 minutes for 25 questions worth 150 marks: twenty with five lettered options and five with a whole-number answer from 0 to 99."}},{"@type":"Question","name":"When is the Fermat Contest in 2027?","acceptedAnswer":{"@type":"Answer","text":"The Americas window is two days long, Tuesday, February 23, 2027 or Wednesday, February 24, 2027, with the school choosing its day. Canadian schools order by Tuesday, February 9, 2027."}},{"@type":"Question","name":"Can a Grade 10 student write Fermat?","acceptedAnswer":{"@type":"Answer","text":"Yes. CEMC says the Fermat Contest may be written by any participant in Grade 11 or below, so a Grade 10 student working ahead can choose it. They would then not write Cayley that year, because only one of Pascal, Cayley and Fermat is allowed per school year."}},{"@type":"Question","name":"How many students leave Fermat questions blank?","acceptedAnswer":{"@type":"Answer","text":"Many. In CEMC's 2026 results booklet, over half of the counted Fermat contestants left question 21 blank, and about four in five left questions 24 and 25 blank. That is why we teach a time plan as well as the math."}},{"@type":"Question","name":"What was the Fermat cutoff in 2026?","acceptedAnswer":{"@type":"Answer","text":"CEMC lists a 2026 Fermat average of 88.9, a Certificate of Distinction cutoff of 102 and a School Medal Champion cutoff of 88, out of 150, with 17 959 contestants."}},{"@type":"Question","name":"Does the Fermat Contest matter for University of Waterloo admission?","acceptedAnswer":{"@type":"Answer","text":"Waterloo names the CSMC and the Euclid, not Fermat, as the contests required for some Faculty of Mathematics scholarships, and says neither is required for admission. Fermat is good preparation for both. We make no admission or scholarship promises."}},{"@type":"Question","name":"Should my child write Hypatia as well as Fermat?","acceptedAnswer":{"@type":"Answer","text":"If they enjoy Fermat, yes. Hypatia is CEMC's Grade 11 full-solution contest, on Wednesday, April 7, 2027 in the Americas, and it trains the written reasoning the Euclid asks for a year later."}},{"@type":"Question","name":"Can a student write the Euclid in Grade 11?","acceptedAnswer":{"@type":"Answer","text":"CEMC welcomes motivated students in lower grades and says many students write the Euclid one or more times before their final year. Whether a Grade 11 student can sit it depends on the school ordering it for them."}},{"@type":"Question","name":"How do we enter the Fermat Contest?","acceptedAnswer":{"@type":"Answer","text":"Through the school, which orders it from CEMC; students cannot enter themselves. A student whose school says no can, as CEMC suggests, ask a different school in the area to let them sit the paper there."}},{"@type":"Question","name":"When are Fermat classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We work in Eastern time and confirm each class in your province's time."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/fermat-contest-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-fer">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#glance">Date and format</a></li>
+      <li><a href="#clock">The hour</a></li>
+      <li><a href="#practice">Six problems</a></li>
+      <li><a href="#months">Plan</a></li>
+      <li><a href="#bridge">Toward Euclid</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / <a href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a> / Fermat Contest
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Waterloo math contests &middot; Grade 11</p>
+        <h1>Fermat Contest preparation for Grade 11</h1>
+        <p class="ag-lede">The Fermat Contest is the Grade 11 member of CEMC's Pascal, Cayley and Fermat trio, and for many students it is the last multiple-choice contest before the written Euclid in their final year. The format has not changed since Grade 9, but the math has, and so has the pressure of the clock: CEMC's own 2026 statistics show most Fermat writers leaving the final questions untouched. This page lays out the 2027 contest from CEMC's pages, reads the 2026 results booklet question by question, gives a three-pass plan for spending the sixty minutes, offers six problems we wrote with full solutions, and shows how Fermat leads to the Hypatia, the CSMC and the Euclid.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#clock" class="ag-btn ag-btn--ghost">See the time plan</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Grade%2011%20and%20is%20writing%20the%20Fermat%20Contest%20in%20February%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'fer'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online teaching since 2020 &middot; 10,000+ students &middot; six Grade 11 problems on this page, all our own</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Contest</dt><dd>Fermat, from CEMC (University of Waterloo)</dd>
+          <dt>Grade</dt><dd>Grade 11, or a keen younger student</dd>
+          <dt>2027 window</dt><dd>Tuesday 23 and Wednesday 24 February (Americas)</dd>
+          <dt>Working time</dt><dd>60 minutes</dd>
+          <dt>Paper</dt><dd>25 questions in three parts</dd>
+          <dt>How to enter</dt><dd>Ask the school; no individual entry</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Begin with</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Quick answer</p>
+      <p>The Fermat Contest is CEMC's Grade 11 math contest from the University of Waterloo: twenty-five questions, mostly multiple choice, sixty minutes, out of 150, written at school on Tuesday 23 or Wednesday 24 February 2027 in the Americas, with entry only through the school. Modern Age Coders prepares Grade 11 students for it live online, in a batch or one to one, in the Waterloo Math Contests course, Gauss to Euclid.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for Grade 11</p>
+      <h2>Three courses we pair with a Fermat year</h2>
+      <p class="ag-lede">Contest preparation first, then the deeper problem solving the last questions demand, then the senior school math that Fermat and, a year later, Euclid are built on.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/waterloo-math-contests-gauss-to-euclid-course">
+        <div class="ag-pick-shot"><img src="/images/waterloo-math-contests.webp" alt="Waterloo Math Contests course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FER / 01</p>
+          <h3>Waterloo Math Contests: Gauss to Euclid</h3>
+          <p>Ages 11 to 18. Its Grades 11 and 12 track takes a student from Fermat in February to Hypatia, the CSMC and Euclid, with written solutions every week.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FER / 02</p>
+          <h3>Competition mathematics</h3>
+          <p>Functional equations, number theory and counting at the depth of Fermat's last ten questions.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FER / 03</p>
+          <h3>High school math, Grades 9 to 12</h3>
+          <p>Functions, exponents, sequences and trigonometry, taught to the point where they are tools rather than topics.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="glance">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Date and format</p><h2>The 2027 Fermat Contest in brief</h2><p class="ag-lede">One CEMC page covers Pascal, Cayley and Fermat together. Here are the Fermat details, as that page and the cover of the 2025 Fermat booklet read on 22 October 2026.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Who and when</h3><p>CEMC: "Students in Grade 11 are eligible to write the Fermat Contest." For official results, "The Fermat Contest may be written by any participant in Grade 11 or below," so a strong Grade 10 student may write Fermat instead of Cayley.</p>
+<p>In North and South America the 2027 contest runs on Tuesday, February 23, 2027 and Wednesday, February 24, 2027, and each school uses one of the two days. Schools in Canada must order by Tuesday, February 9, 2027.</p></div><div><h3>The paper itself</h3><p>Twenty-five questions: ten in Part A, ten in Part B, both with five lettered options, and five in Part C, each with a whole-number answer from 0 to 99. The total is 150.</p>
+<p>The 2025 booklet tells writers: "When your supervisor tells you to begin, you will have 60 minutes of working time." It also warns that "Diagrams are not drawn to scale. They are intended as aids only." Measuring a diagram with a ruler is not a method.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Fermat 2027: the remaining practical points, from CEMC's contest page and the 2025 Fermat booklet (read 22 October 2026)</caption><thead><tr><th scope="col">Topic</th><th scope="col">Detail</th></tr></thead><tbody><tr><td>Marks per question</td><td>5 in Part A, 6 in Part B, 8 in Part C; a wrong answer loses nothing; a blank gains 2, for no more than 10 blanks</td></tr><tr><td>Paper or online</td><td>The school chooses when it orders; a paper Fermat is sent back to CEMC to be marked</td></tr><tr><td>Calculators</td><td>Some are permitted; devices with a computer algebra system or internet access are among those that are not</td></tr><tr><td>One per year</td><td>Pascal, Cayley and Fermat are a group, and a student writes only one of them in a school year</td></tr><tr><td>After the paper</td><td>Writers are asked not to discuss the problems or solutions online for 48 hours</td></tr><tr><td>Awards</td><td>A Certificate of Distinction for the top 25%; a Contest Medal for each School Champion who reaches the medal cutoff, with two medals in a tie</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/pcf" rel="noopener" target="_blank">CEMC, Pascal, Cayley and Fermat Contests</a> and the cover of CEMC's 2025 Fermat Contest booklet, read 22 October 2026. Modern Age Coders works independently of CEMC and the University of Waterloo.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="clock">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The hour</p><h2>Where the Fermat hour runs out, and a plan for spending it</h2><p class="ag-lede">CEMC's 2026 results booklet shows, for every Fermat question, the share of counted contestants who left it blank. Read down the column and the shape of the hour appears: by the last five questions, a majority had stopped writing answers.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fermat 2026, from question 15 on: share leaving each question blank and share answering it correctly, from CEMC's 2026 PCF Results booklet (Fermat statistics page: 14670 contestants, average mark 88.77). No answers are reproduced.</caption><thead><tr><th scope="col">Question</th><th scope="col">Left blank</th><th scope="col">Answered correctly</th></tr></thead><tbody><tr><td>15</td><td>35.96%</td><td>29.97%</td></tr><tr><td>19</td><td>41.59%</td><td>29.14%</td></tr><tr><td>20</td><td>49.58%</td><td>25.99%</td></tr><tr><td>21</td><td>60.4%</td><td>17.27%</td></tr><tr><td>22</td><td>51.06%</td><td>22.33%</td></tr><tr><td>23</td><td>69.92%</td><td>7.33%</td></tr><tr><td>24</td><td>79.41%</td><td>4.10%</td></tr><tr><td>25</td><td>80.34%</td><td>1.55%</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Two things stand out, and the reading is ours. First, question 22 was answered correctly more often than question 21, and left blank less often. Order on the paper is a guide to difficulty, not a rule, and a student who stops at 21 may walk past a question they could have done. Second, the blank column passes 50% at question 21. For most Grade 11 writers, the contest is decided by how well they use the first forty minutes.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Our three-pass plan for the 60 minutes of a Fermat paper (ours, not CEMC's)</caption><thead><tr><th scope="col">Pass</th><th scope="col">Clock</th><th scope="col">What the student does</th></tr></thead><tbody><tr><td>1. Sweep</td><td>Minutes 0 to 25</td><td>Questions 1 to 15 in order. Anything that will clearly take more than three minutes gets a mark in the margin and is skipped.</td></tr><tr><td>2. Scout</td><td>Minutes 25 to 30</td><td>Read all five Part C questions, and questions 16 to 20, without solving. Choose the two or three that look most approachable.</td></tr><tr><td>3. Spend</td><td>Minutes 30 to 55</td><td>Work the chosen questions, Part C first if one looked open, then the skipped ones from pass 1.</td></tr><tr><td>Close</td><td>Minutes 55 to 60</td><td>Count blanks. Up to ten earn 2 each, so guess only where at least two Part B options are already ruled out.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why scout before spending</h3><p>A Part C question is worth 8 marks, more than a Part B question at 6. If one of the last five happens to suit a student, finding it in minute 26 instead of never is the cheapest 8 marks on the paper.</p>
+<p>Scouting also stops the most common Fermat failure we see: fifteen minutes lost on question 18 while an easier question 22 waits unread.</p></div><div><h3>Practising the plan</h3><p>We rehearse the passes with a timer on short sets from November, so by February the switch from sweep to scout happens without thinking.</p>
+<p>After each timed paper the student writes down where the minutes went. Two or three papers later, most students find that their time was not short; it was spent on the wrong questions.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="traps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Strong wrong answers</p><h2>When most Fermat writers chose the same wrong option</h2><p class="ag-lede">The results booklet also prints how many contestants chose each option in Parts A and B. In 2026 two Fermat questions in the first half had one wrong option that pulled in a large share of the field.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Two 2026 Fermat questions with a strong wrong option, from CEMC's 2026 PCF Results booklet. Letters and answers are not reproduced.</caption><thead><tr><th scope="col">Question</th><th scope="col">Chose the correct option</th><th scope="col">Chose the most popular wrong option</th></tr></thead><tbody><tr><td>9</td><td>56.19%</td><td>31.32%</td></tr><tr><td>10</td><td>30.15%</td><td>58.51%</td></tr></tbody></table></div>
+    <p class="ag-mt-40">On question 10, a single wrong option drew 58.51% of the counted contestants, almost twice the 30.15% who chose the correct one. We will not guess at what that question asked, and we do not reproduce it, but the pattern is one every contest teacher knows: an option that matches the first, quick reading of a question. The habit that protects against it is cheap. Before filling in a circle, the student asks what the question would have to say for the quick answer to be right, and whether it says that.</p>
+    <ol class="ag-steps ag-mt-40"><li><b>Re-read the final sentence.</b> Is it asking for the number, its square, the difference, the remainder?</li><li><b>Test an extreme.</b> Put in 0, 1 or a very large value and see whether the chosen option still makes sense.</li><li><b>Distrust the diagram.</b> The booklet says diagrams are not drawn to scale, so an angle that looks like 90 degrees has to be proved to be one.</li><li><b>Estimate first.</b> A rough size for the answer rules out options that are ten times too big or too small.</li></ol>
+    <p class="ag-mt-40">These four habits are ours, and they cost about fifteen seconds a question. Over twenty multiple-choice questions that is five minutes, and in our experience it is the best five minutes a Fermat writer can spend.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Six practice problems</p><h2>Six Fermat-style problems, written by us, solved in full</h2><p class="ag-lede">Every problem here is our practice problem, not a CEMC problem. Our teachers wrote them for Grade 11 students, and none is copied from or modelled on a past Fermat. Two sit at Part A level, two at Part B level and two in Part C, with answers from 0 to 99. We checked each answer in Python by brute force or substitution before publishing.</p></div>
+    <p><b>F1.</b> <i>Our practice problem, not a CEMC problem. Part A level.</i> If f(x) = 2x - 3, what is the value of f(f(4))? (A) 5 &nbsp;(B) 7 &nbsp;(C) 9 &nbsp;(D) 11 &nbsp;(E) 13</p>
+    <p><b>Worked solution.</b> Work from the inside out. f(4) = 2(4) - 3 = 5, then f(5) = 2(5) - 3 = 7, answer (B). Option (A) is the inside value only, the most common slip on composition questions: stopping one step early.</p>
+    <p class="ag-mt-40"><b>F2.</b> <i>Our practice problem, not a CEMC problem. Part A level.</i> If 2<sup>x + 3</sup> = 4<sup>x - 1</sup>, what is the value of x? (A) 1 &nbsp;(B) 2 &nbsp;(C) 4 &nbsp;(D) 5 &nbsp;(E) 7</p>
+    <p><b>Worked solution.</b> Write both sides with base 2: 4<sup>x - 1</sup> = (2<sup>2</sup>)<sup>x - 1</sup> = 2<sup>2x - 2</sup>. Equal powers of 2 have equal exponents, so x + 3 = 2x - 2 and x = 5, answer (D). Check: 2<sup>8</sup> = 256 and 4<sup>4</sup> = 256.</p>
+    <p class="ag-mt-40"><b>F3.</b> <i>Our practice problem, not a CEMC problem. Part B level.</i> In an arithmetic sequence, the 3rd term is 14 and the 8th term is 39. What is the 20th term? (A) 94 &nbsp;(B) 96 &nbsp;(C) 99 &nbsp;(D) 104 &nbsp;(E) 109</p>
+    <p><b>Worked solution.</b> From the 3rd term to the 8th there are 5 steps, and the terms rise by 39 - 14 = 25, so the common difference is 5. From the 8th term to the 20th there are 12 more steps: 39 + 12 x 5 = 99, answer (C). Counting steps, not terms, avoids the off-by-one error that leads to (D), 104.</p>
+    <p class="ag-mt-40"><b>F4.</b> <i>Our practice problem, not a CEMC problem. Part B level.</i> A function f satisfies f(x) + 2f(1/x) = 3x for every non-zero real number x. What is f(2)? (A) -1 &nbsp;(B) 0 &nbsp;(C) 1 &nbsp;(D) 2 &nbsp;(E) 3</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>F4 &middot; our worked solution</b><span>text</span></figcaption><pre>f(x) + 2f(1/x) = 3x        ... (1)
+Replace x by 1/x everywhere:
+f(1/x) + 2f(x) = 3/x        ... (2)
+
+Double (2):   2f(1/x) + 4f(x) = 6/x
+Subtract (1): 3f(x) = 6/x - 3x
+So            f(x)  = 2/x - x
+
+f(2) = 2/2 - 2 = -1
+Check in (1) with x = 2: f(2) + 2f(1/2) = -1 + 2(4 - 1/2) = -1 + 7 = 6 = 3 x 2</pre><p class="ag-code-note">The answer is (A), -1. Substituting x = 2 alone gives one equation with two unknowns, f(2) and f(1/2). The idea is to substitute 1/x as well, which gives a second equation, and then solve the pair. This trick appears in Fermat-level function questions often enough to be worth practising until it is automatic.</p></figure>
+    <p class="ag-mt-40"><b>F5.</b> <i>Our practice problem, not a CEMC problem. Part C level.</i> For how many integers n with 1 &le; n &le; 99 is n<sup>2</sup> - 1 a multiple of 24? Give a whole number from 0 to 99.</p>
+    <p><b>Worked solution.</b> Write n<sup>2</sup> - 1 = (n - 1)(n + 1). If n is odd, n - 1 and n + 1 are consecutive even numbers, so one of them is a multiple of 4 and their product is a multiple of 8. If n is not a multiple of 3, one of n - 1 and n + 1 is, so the product is a multiple of 3. Together: when n is odd and not a multiple of 3, n<sup>2</sup> - 1 is a multiple of 24. Conversely, if n is even then n<sup>2</sup> - 1 is odd, and if 3 divides n then 3 does not divide n<sup>2</sup> - 1, so both conditions are needed. Count from 1 to 99: there are 50 odd numbers, and of those the odd multiples of 3 are 3, 9, 15 and so on up to 99, which is 17 numbers. The answer is 50 - 17 = 33.</p>
+    <p class="ag-mt-40"><b>F6.</b> <i>Our practice problem, not a CEMC problem. Part C level.</i> Two fair six-sided dice are rolled. The probability that the product of the two numbers rolled is a multiple of 6 can be written as p/q in lowest terms. What is p + q?</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>F6 &middot; our worked solution</b><span>text</span></figcaption><pre>Complement: products that are NOT multiples of 6
+
+Product misses the factor 2  -&gt;  both dice odd:          3 x 3 = 9 pairs
+Product misses the factor 3  -&gt;  neither die is 3 or 6:  4 x 4 = 16 pairs
+Misses both 2 and 3          -&gt;  both dice in {1, 5}:    2 x 2 = 4 pairs
+
+Not a multiple of 6: 9 + 16 - 4 = 21 pairs
+Multiple of 6:      36 - 21 = 15 pairs
+Probability 15/36 = 5/12, so p + q = 5 + 12 = 17</pre><p class="ag-code-note">The answer is 17. Counting the complement is easier here: a product fails to be a multiple of 6 when it misses the factor 2 or the factor 3, and inclusion and exclusion stops the four pairs that miss both from being counted twice. A direct count, listing all 15 good pairs, makes a good check.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Working the six as a mini paper</h3><p>Allow fourteen minutes and use the three passes: F1 to F3 quickly, then read F5 and F6 before choosing between F4 and a Part C problem.</p>
+<p>Score it with the contest marks: 5 for F1 and F2, 6 for F3 and F4, 8 for F5 and F6. The maximum is 38.</p></div><div><h3>The ideas inside</h3><p>Composition and bases (F1, F2) are Part A habits. Counting steps (F3) and substituting 1/x (F4) are the kind of single idea Part B rewards.</p>
+<p>F5 and F6 both turn on the factors 2 and 3, from two different directions: divisibility of a product, and the complement of a probability. Spotting the shared structure is the point.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="grade11">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Grade 11 math</p><h2>The Grade 11 math the Fermat paper rests on</h2><p class="ag-lede">CEMC writes Fermat on curriculum common to all the provinces. Below is our own map of what that means in practice for a Grade 11 student, not a CEMC list.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Topics on a Fermat paper and how we teach them (our analysis)</caption><thead><tr><th scope="col">Topic</th><th scope="col">What Fermat does with it</th><th scope="col">What we teach</th></tr></thead><tbody><tr><td>Functions</td><td>Composition, inverses, functional equations, transformations</td><td>Substitution as a tool, as in F4: choose the input that creates a second equation</td></tr><tr><td>Exponents and powers</td><td>Equations with powers, comparing large numbers, last digits</td><td>Rewriting with a common base before anything else</td></tr><tr><td>Sequences</td><td>Arithmetic and geometric sequences, sums, recursive rules</td><td>Counting steps between terms, and writing out the first five terms</td></tr><tr><td>Trigonometry</td><td>Right-triangle ratios, special angles, the sine and cosine laws</td><td>Exact values of sine and cosine for 30, 45 and 60 degrees, and when to use each law</td></tr><tr><td>Counting and probability</td><td>Dice, cards, arrangements, complements</td><td>Choosing between a direct count and the complement before starting</td></tr><tr><td>Number theory</td><td>Divisibility, remainders, factoring numbers like n squared minus 1</td><td>Factoring first, then testing small cases, as in F5</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Two provinces as examples</h3><p>In Ontario, the Grade 11 university math course is MCR3U, Functions. It is the prerequisite for MHF4U, Advanced Functions, so the function work Fermat rewards feeds straight into Grade 12.</p>
+<p>In British Columbia, Grade 11 students take Pre-calculus 11 or Foundations of Mathematics 11. Pre-calculus 11, with its quadratic functions and trigonometry, is the closer match for a Fermat paper.</p></div><div><h3>February comes early in the course</h3><p>The contest falls in February, when a semestered Grade 11 course may have only just started. A student whose functions course runs in the second semester may meet some Fermat topics in our classes first.</p>
+<p>That is one reason we spend November and December on functions and sequences: by February the student has them, whatever the school timetable.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="results">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">2026 results</p><h2>Fermat 2026: averages, cutoffs and what results look like</h2><p class="ag-lede">CEMC lists the Fermat average and cutoffs for 2026 on its contest page. These are the Fermat figures only, never added to Pascal or Cayley.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fermat 2026, from CEMC's contest page (read 22 October 2026)</caption><thead><tr><th scope="col">Measure</th><th scope="col">Fermat 2026</th></tr></thead><tbody><tr><td>Average (mean)</td><td>88.9</td></tr><tr><td>Certificate of Distinction cutoff</td><td>102</td></tr><tr><td>School Medal Champion cutoff</td><td>88</td></tr><tr><td>Maximum possible score</td><td>150</td></tr><tr><td>Number of contestants</td><td>17 959</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Reading the cutoff</h3><p>Our arithmetic: the 2026 Certificate of Distinction line of 102 is 68 percent of 150 (102 / 150). That is a lower share than the Pascal and Cayley lines, and our reading is that it matches the blank rates above: the Grade 11 paper asks the most of its writers, so the top quarter begins lower.</p>
+<p>CEMC also prints "Student rankings" in its results booklet, so a student can see where a score places among all contestants, and that is more useful than the raw number.</p></div><div><h3>Names, rankings and opting out</h3><p>The 2025 Fermat cover says that "The name, grade, school and location, and score range of some top-scoring students will be published on our website, cemc.uwaterloo.ca."</p>
+<p>CEMC's rules let a student decline that: participants consent to having their names in public results "unless they choose to opt out". A family that prefers privacy should raise it with the school's contest supervisor.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/pcf" rel="noopener" target="_blank">CEMC, averages and cut-offs</a>, the 2025 Fermat booklet cover and <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">How contests work</a>, read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="entry">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Entering</p><h2>Fermat entry goes through the school</h2><p class="ag-lede">The rule is the same for every CEMC contest: a school orders, and its students write. A Grade 11 family's part is a timely conversation.</p></div>
+    <ol class="ag-steps"><li><b>November 2026:</b> ask the head of math whether the school will order the 2027 Fermat, and on which February day it will run.</li><li><b>December 2026:</b> if the school has never ordered from CEMC, an application for a school account is needed, and CEMC reviews it by hand, which can take up to three weeks.</li><li><b>January 2027:</b> if the school will not order, look for a nearby school willing to let your child sit the paper there, as CEMC suggests.</li><li><b>By Tuesday, February 9, 2027:</b> the order for a school in Canada must be in.</li><li><b>Contest day:</b> the student writes at the ordering school, supervised in person, on paper or online as the school chose.</li></ol>
+    <p class="ag-mt-40">We prepare students; we cannot enter them or host the paper. The full entry rules are on <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/how-contests-work" rel="noopener" target="_blank">CEMC's How contests work page</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="months">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The plan</p><h2>A Grade 11 plan, November 2026 to February 2027</h2><p class="ag-lede">Our plan, month by month, for a student starting in November and writing on Tuesday 23 or Wednesday 24 February 2027, with two live classes each week.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our month-by-month Fermat plan (not a CEMC schedule)</caption><thead><tr><th scope="col">Month</th><th scope="col">Math focus</th><th scope="col">Contest skill</th><th scope="col">Practice</th></tr></thead><tbody><tr><td>November 2026</td><td>Functions, composition, functional equations</td><td>The sweep: questions 1 to 15 at three minutes or less</td><td>Part A of two past Fermat papers, timed</td></tr><tr><td>December 2026</td><td>Exponents, sequences, the factors of n squared minus 1</td><td>Elimination and the four trap checks</td><td>Part B of two past papers; F1 to F4 above</td></tr><tr><td>January 2027</td><td>Trigonometry, counting, probability</td><td>The scout: choosing among Part C questions</td><td>Two full papers under the three-pass plan; F5 and F6</td></tr><tr><td>February 2027 (to the 22nd)</td><td>No new topics</td><td>Calm blank counting in the last five minutes</td><td>One final full paper, then the mistakes list only</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>First CEMC contest</h3><p>Aim for a clean sweep of Part A and half of Part B. Try the scout in every timed paper.</p></div><div><h3>Wrote Cayley last year</h3><p>Your Cayley mistakes are the starting list. The goal moves to Part C.</p></div><div><h3>Euclid in view</h3><p>Add one written solution a week from December, ready for Hypatia and the Euclid.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="bridge">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After Fermat</p><h2>From Fermat to Hypatia, the CSMC and the Euclid</h2><p class="ag-lede">Grade 11 is the year a CEMC student moves from choosing answers to writing them. Everything in the table is from CEMC or Waterloo; the last column is our advice.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The written contests open to a Grade 11 student, from CEMC's and the University of Waterloo's pages (read 22 October 2026)</caption><thead><tr><th scope="col">Contest</th><th scope="col">What the organizer says</th><th scope="col">Our advice</th></tr></thead><tbody><tr><td>Hypatia (Grade 11), Wednesday, April 7, 2027</td><td>"Students in Grade 11 are eligible to write the Hypatia Contest." Each solution is judged on completeness, clarity and presentation, and "a correct solution, poorly presented, will not earn a full score for that problem."</td><td>The natural partner to Fermat: the same grade, every step written out</td></tr><tr><td>CSMC (Grades 11 and 12)</td><td>"Students in Grades 11 and 12 and CÉGEP students are eligible to write the CSMC." Marked out of 60; most problems use curriculum "up to and including the final year of secondary school."</td><td>The 2026 sitting is on Wednesday, November 18, 2026, and CEMC's ordering deadline for it is Thursday, October 22, 2026, the day this page was written; for most readers it is a Grade 12 plan</td></tr><tr><td>Euclid (final year)</td><td>CEMC: "Many students seeking to achieve a strong score in their final year of secondary school write the Euclid one or more times in previous years." The 2027 date is Tuesday, April 6, 2027 in the Americas.</td><td>Worth writing in Grade 11 as a rehearsal, if the school will enter a Grade 11 student</td></tr></tbody></table></div>
+    <p class="ag-mt-40">What Waterloo says, in its own words: its Supplementary Information Form "asks about any Waterloo mathematics contests you've participated in", and writing the CSMC or the Euclid "is not required for admission, but writing one of these contests is required for some Faculty of Mathematics scholarships." Fermat is not one of the two contests named there. Its value in Grade 11 is as preparation for them, and as a contest worth writing for its own sake. We make no promise about any scholarship, admission or result.</p>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/fgh" rel="noopener" target="_blank">CEMC, Fryer, Galois and Hypatia</a>, <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/csimc" rel="noopener" target="_blank">CEMC, CSMC and CIMC</a>, <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/euclid" rel="noopener" target="_blank">CEMC, Euclid</a> and <a class="ag-inline-link" href="https://uwaterloo.ca/future-students/admissions/admission-information-form" rel="noopener" target="_blank">University of Waterloo, Admission Information Form</a>, read 22 October 2026. Our <a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC contests page</a> covers the whole family.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="archive">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Free practice</p><h2>Past Fermat papers, and the booklets most students never open</h2><p class="ag-lede">CEMC posts every recent Fermat paper with solutions, and its results booklets too. Students use the first; almost nobody uses the second, which is a mistake.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Past papers</h3><p>CEMC's <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/past-contests" rel="noopener" target="_blank">past contests, solutions and results</a> page has the Fermat papers of recent years. We use them whole and timed from January 2027, and part by part before that.</p>
+<p>The <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/resources/problem-set-generator" rel="noopener" target="_blank">Problem Set Generator</a> also draws on past Fermat questions, which makes it useful for a holiday fortnight of mixed practice.</p></div><div><h3>Results booklets</h3><p>The booklet for each year shows how many students chose each option on each question. After a timed past paper, we have the student compare their own blanks and errors with the national pattern for the same paper.</p>
+<p>A question that 80% of contestants left blank and the student also left blank is no cause for worry. A question most contestants answered correctly and the student missed is the one to study.</p></div></div>
+    <p class="ag-mt-40">Solutions are read after a genuine attempt, never before, and the student explains CEMC's solution back in their own words. That one rule turns an old paper from a quiz into a lesson.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Starting point</p>
+      <h2>Four kinds of Fermat writer we meet</h2>
+      <p class="ag-lede">Our labels, used to plan from the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Where Grade 11 students tend to start (ours)</caption><thead><tr><th scope="col">Type</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. The newcomer</td><td class="ag-num">Strong at school math, has never written a CEMC contest</td></tr><tr><td>2. The sprinter</td><td class="ag-num">Fast through Part A, stuck by question 16, never reaches Part C</td></tr><tr><td>3. The perfectionist</td><td class="ag-num">Accurate but slow; leaves points on the table by refusing to skip</td></tr><tr><td>4. The planner</td><td class="ag-num">Uses the passes, finds the open Part C question, counts blanks at the end</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Types 2 and 3 are the most common, and both are fixed by the same thing: practising the hour, not just the math.</p>
+<p>A Fermat score is only one February afternoon. Ask your child what they would do differently next time; that answer tells you more.</p></div><div><h3>For students</h3><p>Read all of Part C by minute 30, every time, even when it feels like a waste.</p>
+<p>If a question has taken four minutes and you can see no way in, mark it and move on. You can come back.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Further courses</p>
+      <h2>Nine courses for a Grade 11 problem solver</h2>
+      <p class="ag-lede">All taught live online, with the same teacher every week, in a group or privately, wherever in Canada a student lives.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Senior school math</h3>
+        <span class="ag-band-sub">Grades 11 and 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FER / BASE / 01</p>
+          <h4>Statistics and probability</h4>
+          <p>The probability questions late in a Fermat paper.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FER / BASE / 02</p>
+          <h4>AP Calculus</h4>
+          <p>For schools that offer AP in Grade 12.</p>
+          <a class="ag-course-link" href="/courses/ap-calculus-exam-prep">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FER / BASE / 03</p>
+          <h4>IB Mathematics</h4>
+          <p>For IB Diploma students writing CEMC contests too.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Proof and contest depth</h3>
+        <span class="ag-band-sub">For Hypatia and Euclid</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FER / STEP / 01</p>
+          <h4>Proof and problem solving</h4>
+          <p>How to set out a proof, one line at a time.</p>
+          <a class="ag-course-link" href="/courses/jee-foundation-maths-course-class-8-10">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FER / STEP / 02</p>
+          <h4>University math</h4>
+          <p>Linear algebra and calculus, for students who are ready.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FER / STEP / 03</p>
+          <h4>SAT math</h4>
+          <p>For applicants to universities in the United States.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Math and code</h3>
+        <span class="ag-band-sub">For students who like both</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FER / CODE / 01</p>
+          <h4>CCC Junior and Senior</h4>
+          <p>CEMC's computing contest, six days before Fermat.</p>
+          <a class="ag-course-link" href="/courses/ccc-junior-and-senior-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FER / CODE / 02</p>
+          <h4>Math through coding</h4>
+          <p>Check a counting answer with a short program.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FER / CODE / 03</p>
+          <h4>Competitive programming</h4>
+          <p>Algorithms and contest habits.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Class setup</p>
+      <h2>How live Fermat classes fit around Grade 11</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After-school groups, timed in Eastern time and shown in yours.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A morning class that leaves weeknights for school.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Fitted to a busy Grade 11 timetable and planned to the contest.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Our own problems</h3><p>Weekly Fermat-style sets, plus CEMC's past papers.</p></div>
+      <div><h3>The hour, rehearsed</h3><p>Sweep, scout and spend, practised with a timer.</p></div>
+      <div><h3>Trap checks</h3><p>Fifteen seconds of doubt before every circle is filled.</p></div>
+      <div><h3>Written solutions too</h3><p>One a week, ready for Hypatia and the Euclid.</p></div>
+      <div><h3>Across Canada</h3><p>Students in every province join the same live class.</p></div>
+      <div><h3>Group or one to one</h3><p>Fifteen to twenty together, or a teacher of your own.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our students</h2>
+      <p class="ag-lede">Our students build real things alongside contest math. A few are shown here; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Whatever CEMC charges is paid by the school with its order. Our monthly fee is for teaching alone, with no term contract, so stopping after the February 2027 paper is simple.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Two Fermat-style questions and a timed sweep</li><li>No card, no commitment</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty in a group</li><li>Grade 11 students together</li><li>Pick a batch that suits you</li><li>Paid monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A private teacher</li><li>Planned around Grade 11 workload</li><li>Every class built on your timed papers</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' Google reviews, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From Grade 11 families</p>
+      <h2>Fermat Contest: what families ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the Fermat Contest?</h3>
+        <p>It is CEMC's math contest for Grade 11, from the University of Waterloo. Students have 60 minutes for 25 questions worth 150 marks: twenty with five lettered options and five with a whole-number answer from 0 to 99.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the Fermat Contest in 2027?</h3>
+        <p>The Americas window is two days long, Tuesday, February 23, 2027 or Wednesday, February 24, 2027, with the school choosing its day. Canadian schools order by Tuesday, February 9, 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a Grade 10 student write Fermat?</h3>
+        <p>Yes. CEMC says the Fermat Contest may be written by any participant in Grade 11 or below, so a Grade 10 student working ahead can choose it. They would then not write Cayley that year, because only one of Pascal, Cayley and Fermat is allowed per school year.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many students leave Fermat questions blank?</h3>
+        <p>Many. In CEMC's 2026 results booklet, over half of the counted Fermat contestants left question 21 blank, and about four in five left questions 24 and 25 blank. That is why we teach a time plan as well as the math.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What was the Fermat cutoff in 2026?</h3>
+        <p>CEMC lists a 2026 Fermat average of 88.9, a Certificate of Distinction cutoff of 102 and a School Medal Champion cutoff of 88, out of 150, with 17 959 contestants.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the Fermat Contest matter for University of Waterloo admission?</h3>
+        <p>Waterloo names the CSMC and the Euclid, not Fermat, as the contests required for some Faculty of Mathematics scholarships, and says neither is required for admission. Fermat is good preparation for both. We make no admission or scholarship promises.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child write Hypatia as well as Fermat?</h3>
+        <p>If they enjoy Fermat, yes. Hypatia is CEMC's Grade 11 full-solution contest, on Wednesday, April 7, 2027 in the Americas, and it trains the written reasoning the Euclid asks for a year later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a student write the Euclid in Grade 11?</h3>
+        <p>CEMC welcomes motivated students in lower grades and says many students write the Euclid one or more times before their final year. Whether a Grade 11 student can sit it depends on the school ordering it for them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do we enter the Fermat Contest?</h3>
+        <p>Through the school, which orders it from CEMC; students cannot enter themselves. A student whose school says no can, as CEMC suggests, ask a different school in the area to let them sit the paper there.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are Fermat classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We work in Eastern time and confirm each class in your province's time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Read next</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Grade 11 students in Canada who are thinking about contests and university math.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/cemc-waterloo-contests-preparation">CEMC Waterloo contests</a></h3><p>The full CEMC family, Gauss to Euclid.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Math tutor, Canada</a></h3><p>Help with the Grade 11 course itself.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Canada overview</a></h3><p>All our Canadian pages in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canadian-computing-competition-ccc-prep">CCC preparation</a></h3><p>CEMC's programming contest, the week before.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-olympiad-amc-tutoring">AMC 12 and AIME</a></h3><p>The American route many Fermat writers also take.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-olympiad-classes-online">Choosing an olympiad</a></h3><p>How the major contests compare.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-11th-grade">Grade 11 math tutoring</a></h3><p>Grade 11 math, one topic at a time.</p></div>
+      <div><h3><a class="ag-inline-link" href="/why-coding-and-maths-together">Coding and math together</a></h3><p>Why the two strengthen each other.</p></div>
+      <div><h3><a class="ag-inline-link" href="/we-teach-you-how-to-think">How we think about teaching</a></h3><p>Ideas over answer keys.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">In the first class your child does two Fermat-style questions we wrote and a short timed sweep, with a teacher watching how they spend the minutes. You hear which of the four types they are and what we would change before February 2027.</p>
+        <p class="ag-mt-40">Prefer to look around first? Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or open the <a class="ag-inline-link" href="/courses">course list</a> for every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20Grade%2011%20and%20is%20writing%20the%20Fermat%20Contest%20in%20February%202027.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'fer',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live on video, taught by our teachers in India, so there is nowhere to travel to. Message us on WhatsApp from anywhere in Canada for the fastest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_fer(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free. No card, no contract.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>CEMC contests</h4><ul><li><a href="/cemc-waterloo-contests-preparation">CEMC math contests</a></li><li><a href="/canadian-computing-competition-ccc-prep">CCC preparation</a></li><li><a href="/ccc-junior-guide">CCC Junior guide</a></li><li><a href="/math-olympiad-amc-tutoring">AMC and AIME</a></li></ul></div>
+      <div><h4>In Canada</h4><ul><li><a href="/coding-classes-in-canada">Canada overview</a></li><li><a href="/online-math-tutor-canada">Math tutor, Canada</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student labs</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Scout before you spend</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_fer = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'fermat-contest-preparation-inline', meta: { name: name, age: age, page: 'fermat-contest-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>
