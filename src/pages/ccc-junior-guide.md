@@ -101,7 +101,7 @@ Families often look for a sign-up form. There is none for students. CEMC is dire
 
 ### Homeschooled students, and schools without the CCC
 
-CEMC's pages that we read give one route for a student whose own school does not take part: another local school that agrees to host them. They do not describe a separate route for homeschooled students, so we do not invent one. A homeschooling family's practical step is the same: contact a nearby school's math or computer science department and ask whether the student can write there.
+CEMC's pages that we read give one route for a student whose own school does not take part: another local school that agrees to host them. CEMC's new school application page adds one more line: "Parents, students, schools that have participated previously, home schools, and all others should contact the CEMC for assistance." So a homeschooling family has two practical steps: ask a nearby school's math or computer science department whether the student can write there, and contact the CEMC directly.
 
 An online class cannot host the sitting. We teach the preparation; the contest itself is always written in person at a school, under that school's supervision.
 
@@ -498,7 +498,7 @@ No. CEMC says it is not possible for students to individually register, and all 
 
 ### Can a homeschooled student write the CCC?
 
-CEMC's pages that we read describe one route for a student whose school does not take part: another local school that agrees to host them. The contest must be written in person at the ordering school, under supervision, so ask a nearby school early.
+CEMC's pages that we read describe one route for a student whose school does not take part: another local school that agrees to host them. The contest must be written in person at the ordering school, under supervision, so ask a nearby school early. CEMC also says home schools and parents should contact the CEMC for assistance.
 
 ### Which programming languages can be used on the CCC?
 

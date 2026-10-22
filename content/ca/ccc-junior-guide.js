@@ -284,7 +284,7 @@ module.exports = {
         { kind: 'two', mt: true,
           leftH3: 'Homeschooled students, and schools without the CCC',
           left: [
-            'CEMC\'s pages that we read give one route for a student whose own school does not take part: another local school that agrees to host them. They do not describe a separate route for homeschooled students, so we do not invent one. A homeschooling family\'s practical step is the same: contact a nearby school\'s math or computer science department and ask whether the student can write there.',
+            'CEMC\'s pages that we read give one route for a student whose own school does not take part: another local school that agrees to host them. CEMC\'s new school application page adds one more line: "Parents, students, schools that have participated previously, home schools, and all others should contact the CEMC for assistance." So a homeschooling family has two practical steps: ask a nearby school\'s math or computer science department whether the student can write there, and contact the CEMC directly.',
             'An online class cannot host the sitting. We teach the preparation; the contest itself is always written in person at a school, under that school\'s supervision.'
           ],
           rightH3: 'Who counts as an official participant',
@@ -549,7 +549,7 @@ module.exports = {
       { q: 'How many questions are on CCC Junior, and how is it scored?', a: 'Five questions, each worth 15, for a score out of 75. CEMC says problems may have subtasks with partial scores, and the grader keeps the highest score across a student\'s submissions for each problem.' },
       { q: 'Should my child write CCC Junior or Senior?', a: 'CEMC lets each student choose a level regardless of grade. Our rule of thumb: if past Junior questions 4 and 5 are solved comfortably inside the time, Senior is the more useful paper. CEMC invites about 20 of the top official CCC Senior participants from schools in Canada to the Canadian Computing Olympiad, at its discretion.' },
       { q: 'Can a student register for the CCC on their own?', a: 'No. CEMC says it is not possible for students to individually register, and all students must participate through their school. If their own school is not taking part, CEMC suggests looking for another local school that will let them join.' },
-      { q: 'Can a homeschooled student write the CCC?', a: 'CEMC\'s pages that we read describe one route for a student whose school does not take part: another local school that agrees to host them. The contest must be written in person at the ordering school, under supervision, so ask a nearby school early.' },
+      { q: 'Can a homeschooled student write the CCC?', a: 'CEMC\'s pages that we read describe one route for a student whose school does not take part: another local school that agrees to host them. The contest must be written in person at the ordering school, under supervision, so ask a nearby school early. CEMC also says home schools and parents should contact the CEMC for assistance.' },
       { q: 'Which programming languages can be used on the CCC?', a: 'CEMC allows C, C++, Python 2, Python 3 and Java, and the contest is available in English and French. The CCO, the next step after Senior, requires C++.' },
       { q: 'Can students use AI tools or the internet during the CCC?', a: 'Only for editing, compiling, submitting and reading official language documentation. The CCC rules forbid generative AI and AI tools inside an editor. Outside the contest, ChatGPT needs a parent\'s permission for anyone under 18.' },
       { q: 'Where can I find CCC Junior past problems?', a: 'CEMC publishes past contests, solutions and results free on its website, covering the last ten years, and the CCC Online Grader lets students open a free practice account. We do not copy those problems; we link to them and write our own practice sets.' },
@@ -624,7 +624,7 @@ module.exports = {
     ],
     rejectedClaims: [
       'Any CEMC past problem or solution: never reproduced; the page links to CEMC\'s archive and uses three problems we wrote.',
-      'A separate CEMC route for homeschooled students: not found on the pages read, so the page states only the another-local-school route.',
+      'A separate CEMC registration route for homeschooled students: none found; the page gives the another-local-school route plus CEMC\'s own "contact the CEMC for assistance" line from its new school application page.',
       'A combined Junior and Senior contestant total: not printed; CEMC\'s two figures are shown separately.',
       'Names of IOI medallists or their schools from CEMC\'s IOI page: not reproduced.',
       'That our classes raise scores, earn certificates or lead to CCO invitations: refused; CEMC decides at its discretion.',
