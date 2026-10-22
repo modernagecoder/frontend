@@ -7902,4 +7902,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /game-development-classes-for-kids-canada /src/pages/game-development-classes-for-kids-canada.html 200
 /game-development-classes-for-kids-canada.md /src/pages/game-development-classes-for-kids-canada.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/ai-and-python-classes-for-teens-in-waterloo-ontario /src/pages/ai-and-python-classes-for-teens-in-waterloo-ontario.html 200
+/ai-and-python-classes-for-teens-in-waterloo-ontario.md /src/pages/ai-and-python-classes-for-teens-in-waterloo-ontario.md 200
 /* /src/pages/404.html 404

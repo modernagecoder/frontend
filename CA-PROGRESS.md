@@ -262,7 +262,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 69 | ai-classes-for-kids-in-canada (akc, #1C4C39) | door | 4,805 | 1.9% vs coding-classes-for-kids-in-canada | subject door | kid-safe AI | b82c5a76 |
 | 70 | vibe-coding-and-ai-agents-classes-in-canada (vaac, #375C7A) | door | 4,643 | 2.6% vs ai-classes-for-kids-in-canada | subject door | agents with limits | abc37d03 |
 | 71 | app-development-classes-for-teens-canada (adtc, #273175) | door | 4,379 | 1.9% vs vibe-coding-and-ai-agents-classes-in-canada | subject door | app projects | d03f9487 |
-| 72 | game-development-classes-for-kids-canada (gdkc, #382B9E) | door | 4,415 | 1.9% vs coding-classes-for-kids-in-canada | subject door | game loops | (this commit) |
+| 72 | game-development-classes-for-kids-canada (gdkc, #382B9E) | door | 4,415 | 1.9% vs coding-classes-for-kids-in-canada | subject door | game loops | 299854f2 |
+| 122 | ai-and-python-classes-for-teens-in-waterloo-ontario (aptw, #18665C) | city | 4,703 | 1.1% vs coding-and-ai-classes-in-toronto | teen city page | city data ML | (this commit) |
 
 ## Skipped
 

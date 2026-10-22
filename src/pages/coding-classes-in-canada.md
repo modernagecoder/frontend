@@ -738,6 +738,8 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding classes for kids in Scarborough](/coding-classes-for-kids-in-scarborough-toronto)
+- [AI and Python classes for teens in Waterloo](/ai-and-python-classes-for-teens-in-waterloo-ontario)
 - [Game development classes for kids in Canada](/game-development-classes-for-kids-canada)
 - [App development classes for teens in Canada](/app-development-classes-for-teens-canada)
 - [Vibe coding and AI agents classes in Canada](/vibe-coding-and-ai-agents-classes-in-canada)

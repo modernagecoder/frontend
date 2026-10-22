@@ -54472,5 +54472,91 @@
       "Names of Toronto schools, school boards results or private people: not used.",
       "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC, the University of Waterloo or Skills Ontario."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-waterloo-ontario": {
+    "market": "Waterloo",
+    "bodyClass": "cg-aptw",
+    "pageType": "city",
+    "curriculumAuthority": "CEMC pages read 22 October 2026 (CCC 2027 date, levels, languages and the Python caveat, through-a-school rule, CCO at the University of Waterloo and C++ only, IOI 2026 news, CS Circles, free past contests, CCC not required for Faculty of Mathematics admission); CCC Online Grader rules on generative AI; University of Waterloo CS recommended course; Ontario curriculum API for MTH1W C2.3, ICD2O (2023) AI and programming expectations, ICS3U and ICS4U (2008) and the one-credit note; OpenAI Terms of Use (January 1, 2026) and Anthropic Consumer Terms (Oct 8, 2025); facts-geo.md for area codes 226/382/519/548 and Eastern time offsets (IANA tzdb 2026e).",
+    "localProject": "City of Waterloo Open Data, City of Waterloo Trail Counter Data (Waterloo Open Data User Licence), counter LOC_ID 4 Laurel Trail at University Ave. W., 44,114 hourly rows fetched with urllib on 22 October 2026 and modelled with our waterloo_trail_model.py (python -I): 356 training days in 2018, 360 test days in 2019; mean absolute error 90 for one average, 90 by weekday, 65 by month; 2018 daily mean about 171, 2019 about 133; zero-total days 15 April 2018, 14 and 15 September 2019; newest rows 30 November 2021 although the item says it is updated daily; whole table 534,489 rows; LOC_ID 2 and LOC_ID 10 each carry two spellings. Labelled as ours. Lesson family: baseline versus feature models, time-based split, mean absolute error, label audit.",
+    "requiredMentions": [
+      "Laurel Trail at University Ave. W.",
+      "Iron Horse Tail at John St. W.",
+      "Spurline Trail South of Roger St.",
+      "Waterloo Open Data User Licence",
+      "Contains information provided by the City of Waterloo under licence",
+      "perceived drop in traffic",
+      "534,489 rows",
+      "15 April 2018",
+      "Spur Line Trail at Roger Street",
+      "about 59 a day in January to 324 in July",
+      "226, 382, 519 and 548"
+    ],
+    "sources": [
+      {
+        "claim": "CEMC CCC page: 2027 date, levels by skill, languages, Python caveat, written in school, CCO at the University of Waterloo, CCO in C++.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC how contests work: all students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "CEMC news: Team Canada at IOI 2026, supported by CEMC and the Faculty of Mathematics.",
+        "url": "https://cemc.uwaterloo.ca/team-canada-brought-back-four-medals-ioi-2026"
+      },
+      {
+        "claim": "CEMC Computer Science Circles: free Python tutorials.",
+        "url": "https://cscircles.cemc.uwaterloo.ca/"
+      },
+      {
+        "claim": "CEMC past contests: resources from the last 10 years, free.",
+        "url": "https://cemc.uwaterloo.ca/resources/past-contests"
+      },
+      {
+        "claim": "CCC Online Grader rules: generative AI and AI-based IDE tools forbidden.",
+        "url": "https://cccgrader.com/rules.pdf"
+      },
+      {
+        "claim": "University of Waterloo Computer Science: recommended Grade 11 U Introduction to Computer Science.",
+        "url": "https://uwaterloo.ca/future-students/programs/computer-science"
+      },
+      {
+        "claim": "Ontario curriculum API: ICD2O, ICS3U, ICS4U and MTH1W course text.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code=ICD2O&depth=0"
+      },
+      {
+        "claim": "OpenAI Terms of Use: parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/terms-of-use/"
+      },
+      {
+        "claim": "Anthropic Consumer Terms: users must be at least 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "City of Waterloo Open Data: Trail Counter Data dataset.",
+        "url": "https://data.waterloo.ca/datasets/5d41afff252e45b5b5fe7fc3fd5df3ab_0"
+      },
+      {
+        "claim": "City of Waterloo: Waterloo Open Data User Licence (commercial use, attribution text, non-endorsement).",
+        "url": "https://data.waterloo.ca/pages/open-data-licence"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026 to 2027 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about Waterloo schools, school boards or their results: none made, by the row instruction.",
+      "Any Waterloo or region population: StatCan not reachable live, so none printed.",
+      "That the 2019 drop on the Laurel Trail was caused by construction: refused; the City note does not name this counter, so it is posed as a question.",
+      "That the trail counter data is current: refused; the newest rows we could fetch are dated 30 November 2021.",
+      "Whether the counter timestamps are local or UTC: not asserted; counts are grouped by the date the file records.",
+      "A total of rows across counters built by adding locations: not computed; the agency count of 534,489 is quoted instead.",
+      "That our courses earn or count toward an Ontario credit: refused; we do not grant Ontario credits.",
+      "Recommending Claude or any 18+ tool to a teenager: refused under Anthropic's terms.",
+      "Any affiliation with CEMC, the University of Waterloo, the City of Waterloo or the Ontario Ministry of Education.",
+      "CEMC contest fees: left out of the copy (currency-neutral page)."
+    ]
   }
 }
