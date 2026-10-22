@@ -500,6 +500,7 @@ const SLUGS = [
   'ontario-coding-curriculum-grades-1-to-8',
   'ontario-grade-6-math-and-coding-help',
   'mth1w-grade-9-math-explained',
+  'eqao-grade-3-math-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1079,6 +1080,7 @@ const LLMS_LABELS = {
   'ontario-coding-curriculum-grades-1-to-8': 'Ontario coding curriculum, Grades 1 to 8',
   'ontario-grade-6-math-and-coding-help': 'Ontario Grade 6 math and coding help',
   'mth1w-grade-9-math-explained': 'MTH1W Grade 9 math explained',
+  'eqao-grade-3-math-practice': 'EQAO Grade 3 math practice',
 };
 
 function wireLlms(slugs) {
