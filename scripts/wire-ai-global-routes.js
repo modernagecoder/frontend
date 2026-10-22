@@ -511,6 +511,7 @@ const SLUGS = [
   'icd2o-digital-technology-course-explained',
   'ics3u-ics4u-exam-review-practice',
   'ontario-computer-science-course-pathway',
+  'ontario-high-school-diploma-credits-explained',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1101,6 +1102,7 @@ const LLMS_LABELS = {
   'icd2o-digital-technology-course-explained': 'ICD2O explained',
   'ics3u-ics4u-exam-review-practice': 'ICS3U and ICS4U exam review',
   'ontario-computer-science-course-pathway': 'Ontario computer science course pathway',
+  'ontario-high-school-diploma-credits-explained': 'Ontario high school diploma credits explained',
 };
 
 function wireLlms(slugs) {

@@ -742,6 +742,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - ICD2O explained: https://learn.modernagecoders.com/icd2o-digital-technology-course-explained
 - ICS3U and ICS4U exam review: https://learn.modernagecoders.com/ics3u-ics4u-exam-review-practice
 - Ontario computer science course pathway: https://learn.modernagecoders.com/ontario-computer-science-course-pathway
+- Ontario high school diploma credits explained: https://learn.modernagecoders.com/ontario-high-school-diploma-credits-explained
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

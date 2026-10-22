@@ -212,7 +212,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 5 | ics3u-vs-ics3c (ii, #61590F) | school-on | 5,293 | 2.2% vs ics3u-computer-science-help | decision page | course choice | 32439cd0 |
 | 6 | icd2o-digital-technology-course-explained (idtc, #30520C) | school-on | 6,274 | 1.7% vs ics3u-computer-science-help | course explainer | accessibility checker | 7804f4c0 |
 | 7 | ics3u-ics4u-exam-review-practice (iier, #2F662E) | school-on | 6,686 | 1.5% vs ics3u-computer-science-help | exam practice | mock exams | 5b7c6567 |
-| 20 | ontario-computer-science-course-pathway (ocsc, #153857) | school-on | 5,201 | 2.3% vs icd2o-digital-technology-course-explained | pathway map | prerequisites | (this commit) |
+| 20 | ontario-computer-science-course-pathway (ocsc, #153857) | school-on | 5,201 | 2.3% vs icd2o-digital-technology-course-explained | pathway map | prerequisites | b1d7dd06 |
+| 19 | ontario-high-school-diploma-credits-explained (ohsd, #117041) | school-on | 5,433 | 2.1% vs ontario-computer-science-course-pathway | requirements explainer | credit tally | (this commit) |
 
 ## Skipped
 
