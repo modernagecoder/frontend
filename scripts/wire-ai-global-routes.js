@@ -557,6 +557,7 @@ const SLUGS = [
   'coding-classes-for-teens-in-canada',
   'python-classes-in-canada',
   'java-classes-for-teens-in-canada',
+  'ai-classes-for-kids-in-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1193,6 +1194,7 @@ const LLMS_LABELS = {
   'coding-classes-for-teens-in-canada': 'Coding classes for teens in Canada',
   'python-classes-in-canada': 'Python classes in Canada',
   'java-classes-for-teens-in-canada': 'Java classes for teens in Canada',
+  'ai-classes-for-kids-in-canada': 'AI classes for kids in Canada',
 };
 
 function wireLlms(slugs) {
