@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Game Development Classes for Kids in Canada: Scratch to Roblox</title>
+  <meta name="description" content="Game design and Roblox coding for Canadian kids aged 8 to 14: Roblox's own age and safety rules, which game tool fits which age, and an original Luau game mechanic.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/game-development-classes-for-kids-canada">
+  <link rel="alternate" type="text/markdown" href="/src/pages/game-development-classes-for-kids-canada.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#382B9E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/game-development-classes-for-kids-canada">
+  <meta property="og:title" content="Game Development Classes for Kids in Canada: Scratch to Roblox">
+  <meta property="og:description" content="Children in Canada who love games can learn to make them: Scratch first, then Roblox Studio and Luau, with Roblox's own rules for young players and creators set out plainly.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Game Development Classes for Kids in Canada: Scratch to Roblox">
+  <meta name="twitter:description" content="Game design and Roblox coding for Canadian kids, with Roblox's own age rules and an original Luau script.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-gdkc .ag-hero h1 { letter-spacing: -0.011em; }
+.ag-root.ag-gdkc .ag-capsule { border-left-width: 6px; border-radius: 3px; }
+.ag-root.ag-gdkc .ag-section-head h2 { max-width: 33ch; }
+.ag-root.ag-gdkc .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-gdkc .ag-band-head h3 { letter-spacing: -0.003em; }
+.ag-root.ag-gdkc .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/game-development-classes-for-kids-canada#page","url":"https://learn.modernagecoders.com/game-development-classes-for-kids-canada","name":"Game Development Classes for Kids in Canada","description":"A guide for Canadian parents of children aged 8 to 14 to learning game development and Roblox coding, built from Roblox's terms, parental controls and creator documentation, the Ontario and BC curricula, with an original Roblox game mechanic and a runnable simulation of its key bug.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":4,"name":"Game development for kids","item":"https://learn.modernagecoders.com/game-development-classes-for-kids-canada"}]},{"@type":"Course","name":"Game Development Classes for Kids in Canada","description":"Live online game development classes for children aged 8 to 14 across Canada, from Scratch games to Roblox Studio and Luau scripting, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/game-development-classes-for-kids-canada"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/game-development-classes-for-kids-canada"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/game-development-classes-for-kids-canada"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What age can a child start game development?","acceptedAnswer":{"@type":"Answer","text":"Our Game Development for Kids course starts at 8 with Scratch, and our Roblox Game Coding course takes children from 8 to 14. Children who are not yet comfortable reading usually start with Scratch."}},{"@type":"Question","name":"Is Roblox safe for my child to learn coding on?","acceptedAnswer":{"@type":"Answer","text":"Roblox sets its own rules: every user must complete an age check to access chat, the Chat Tab is only for users 9 and over, voice chat with friends is off for all users under 13, and trusted friends for under-13s need a parent's permission. We ask parents to set up Roblox's parental controls before class."}},{"@type":"Question","name":"Does my child need to buy Robux for your classes?","acceptedAnswer":{"@type":"Answer","text":"No. Nothing in our classes requires purchases. Roblox itself says only users who have reached the age of majority may buy Robux or make real-money transactions."}},{"@type":"Question","name":"What language does Roblox use?","acceptedAnswer":{"@type":"Answer","text":"Luau. Roblox describes it as the scripting language creators use in Roblox Studio, derived from Lua 5.1. It is typed text code, so children learn real programming."}},{"@type":"Question","name":"Can kids earn money from Roblox games?","acceptedAnswer":{"@type":"Answer","text":"Roblox says creators who are 13 or older and have earned at least 30,000 Earned Robux can use its Developer Exchange. We do not teach earning as a goal; our classes are about designing and coding."}},{"@type":"Question","name":"What computer does my child need?","acceptedAnswer":{"@type":"Answer","text":"For Roblox Studio, a Windows or Mac computer, because Roblox describes Studio as a free application for Windows and Mac. Scratch runs in a web browser on most computers."}},{"@type":"Question","name":"Should my child start with Scratch or Roblox?","acceptedAnswer":{"@type":"Answer","text":"Most children should start with Scratch, where blocks teach events, loops and variables without typing. Once a child types comfortably and can read an error aloud, Roblox Studio and Luau are the next step."}},{"@type":"Question","name":"How does game design connect to school in Canada?","acceptedAnswer":{"@type":"Answer","text":"Ontario math asks for code with repeating events in Grade 3 and nested events in Grade 4, and BC's Grade 6 design module names visual programming tools such as Kodu and Scratch. Making games practises exactly those ideas."}},{"@type":"Question","name":"When are game classes held for Canadian families?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every class is booked in your own province's time."}},{"@type":"Question","name":"What will my child build?","acceptedAnswer":{"@type":"Answer","text":"Games they design themselves, starting with Scratch games and moving to Roblox mechanics like our Maple Leaf Collector, a scoreboard and a collectable leaf that must count each touch once."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/game-development-classes-for-kids-canada","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-gdkc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#school">Games and school</a></li>
+      <li><a href="#roblox">Roblox rules</a></li>
+      <li><a href="#tools">Which tool</a></li>
+      <li><a href="#leaf">Luau project</a></li>
+      <li><a href="#design">Design sheet</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-canada">Coding classes in Canada</a> / Game development for kids
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Canada &middot; Game development and Roblox &middot; Ages 8 to 14</p>
+        <h1>Game development classes for kids in Canada</h1>
+        <p class="ag-lede">For many Canadian children, games are the first thing they want to make with a computer, and Roblox is often the first place they try. That is a good instinct: building a game needs every core coding idea, from repeating steps to keeping score. This page shows where game making meets the Ontario and BC curricula, sets out Roblox's own rules for young players and creators in Roblox's words, matches tools to ages, and walks through one original Roblox mechanic in Luau, including the bug almost every child writes first.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#leaf" class="ag-btn ag-btn--ghost">See the Luau project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20loves%20games%20and%20wants%20to%20learn%20to%20make%20them.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gdkc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; children design, script and debug their own games</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Ages</dt><dd>8 to 14</dd>
+          <dt>Tools</dt><dd>Scratch, then Roblox Studio and Luau</dd>
+          <dt>Builds</dt><dd>Games the child designs and scripts</dd>
+          <dt>Roblox rules</dt><dd>Followed, with parent controls on</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Game development classes for kids in Canada teach children aged 8 to 14 to design, code and debug their own games, starting in Scratch and moving to Roblox Studio and its Luau language, within Roblox's own age and safety rules. Modern Age Coders teaches them live online, in a batch or one to one, in its Roblox Game Coding course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for young game makers</p>
+      <h2>Three game courses for Canadian children</h2>
+      <p class="ag-lede">A broad game course that starts in Scratch, a Roblox course built around Luau, and a Godot course for older children who want a professional engine.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/roblox-game-coding-for-kids-lua-course">
+        <div class="ag-pick-shot"><img src="/images/roblox-coding-kids.webp" alt="Roblox Game Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDKC / 01</p>
+          <h3>Roblox Game Coding for Kids</h3>
+          <p>Ages 8 to 14. Six months: Studio skills and first Luau scripts, then events, players and score, then real mechanics and a published capstone.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/game-development-masterclass-for-kids">
+        <div class="ag-pick-shot"><img src="/images/game-dev-kids.webp" alt="Game Development for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDKC / 02</p>
+          <h3>Game Development for Kids</h3>
+          <p>Ages 8 to 12, complete beginners. Six to eight months from game logic in Scratch through 2D games to 3D worlds.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/godot-game-development-course-for-kids-and-teens">
+        <div class="ag-pick-shot"><img src="/images/godot-game-dev.webp" alt="Godot Game Development for Kids and Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GDKC / 03</p>
+          <h3>Godot Game Development</h3>
+          <p>Ages 10 to 17. Six months of GDScript in 2D and 3D, ending with a capstone game.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Games and the curriculum</p><h2>Why making games fits what Canadian schools teach</h2><p class="ag-lede">No province we read has a game design course for children, but the coding lines in their documents describe exactly what a game needs. These are the lines we read on 22 October 2026.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Coding ideas in provincial documents, and where they appear in a game (documents read 22 October 2026)</caption><thead><tr><th scope="col">Document</th><th scope="col">What it says</th><th scope="col">Where it shows up in a game</th></tr></thead><tbody><tr><td>Ontario math, Grade 3, C3.1</td><td>Code with "sequential, concurrent, and repeating events"</td><td>A character that walks while music plays; an enemy that patrols in a loop</td></tr><tr><td>Ontario math, Grade 4, C3.1</td><td>Adds "nested events"</td><td>A loop inside a loop: every enemy checks every coin</td></tr><tr><td>British Columbia, ADST 6, computational thinking</td><td>"visual programming", "for example, Kodu, Scratch"</td><td>Kodu and Scratch are both game-making tools</td></tr><tr><td>CEMC Beaver Computing Challenge, Grade 5/6</td><td>Puzzles needing only school math, written through a school, 9 to 20 November 2026</td><td>The same logic puzzles that sit under game rules</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A game is a good teacher</h3><p>A game gives instant feedback: the character either jumps or it does not. Children fix bugs because they want to play, not because a worksheet asks them to, and they meet ideas like events, variables and loops long before anyone names them.</p>
+<p>The risk is that the game takes over and the learning stops. Our classes keep a simple rule: before adding a feature, the child says how it will work in words.</p></div><div><h3>What children carry back to school</h3><p>A child who has scripted a scoreboard has met variables; one who has made enemies patrol has met loops; one who has made a door open only with a key has met conditions. When those ideas appear in Ontario Grade 5 math as "conditional statements", they are already familiar.</p>
+<p>We are not connected with any ministry, and our classes do not replace school coding. They give children a reason to practise it.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_4___strands?depth=4" rel="noopener" target="_blank">Ontario curriculum, Grade 4 math data</a>; <a class="ag-inline-link" href="https://curriculum.gov.bc.ca/curriculum/adst/6/core" rel="noopener" target="_blank">BC ADST 6</a>; <a class="ag-inline-link" href="https://cemc.uwaterloo.ca/contests/bcc" rel="noopener" target="_blank">CEMC, Beaver Computing Challenge</a>. Read 22 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="roblox">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Roblox's own rules</p><h2>Roblox age and safety rules for young players and creators</h2><p class="ag-lede">Parents ask about Roblox more than any other platform. Here is what Roblox itself says, from its terms, its parental controls page and its creator documentation, all read on 22 October 2026. Roblox lists a terms update with an effective date of November 1, 2026, so check its pages again.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Roblox rules relevant to children, from Roblox's own pages (read 22 October 2026)</caption><thead><tr><th scope="col">Topic</th><th scope="col">What Roblox says</th><th scope="col">What it means for a family</th></tr></thead><tbody><tr><td>Agreeing to the terms</td><td>A user under the legal age of majority needs a parent or legal guardian to read and consent to the Roblox Terms (the terms say this in capitals)</td><td>A parent signs off on a child's account</td></tr><tr><td>Buying Robux</td><td>"Only Users who have reached the age of majority in their jurisdiction or state of residence may purchase Robux or engage in other real-money transactions on the Services"</td><td>Purchases are a parent's decision</td></tr><tr><td>Chat</td><td>"To access chat features, every user must complete an age check"; "The Chat Tab is only available for users 9+."</td><td>Children under 9 do not get the chat tab</td></tr><tr><td>Voice</td><td>"Voice chat with friends is OFF for all users under 13."</td><td>No voice chat for younger children by default</td></tr><tr><td>Friends</td><td>"If your child is under 13 years old, trusted friends can only be added with your permission."</td><td>A parent approves trusted friends under 13</td></tr><tr><td>Parental controls</td><td>Controls are available for parents of children in "Roblox Kids and Roblox Select accounts"; screen time limits cover Roblox Kids accounts and ages 9 to 12 in Roblox Select</td><td>Set up a parent account before the first class</td></tr><tr><td>Earning as a creator</td><td>"Creators who are 13 or older and have earned at least 30,000 Earned Robux can turn their Earned Robux into real money using our Developer Exchange (DevEx)"</td><td>Children under 13 cannot cash out, and we never make earning a goal</td></tr><tr><td>Publishing to all ages</td><td>"Verify your account through facial age estimation if you are under 18 years old, or through government ID if you are 18 years old or older"; "Enable 2FA on your Roblox account."</td><td>Wide publishing needs verification; a family decides whether to do it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How our Roblox classes use these rules</h3><p>Children build in Roblox Studio, test their games privately, and share them with classmates through the teacher. We ask parents to set up Roblox's parental controls first, and we never ask a child to chat with strangers, buy Robux or verify their age as part of a class.</p>
+<p>Publishing a finished game more widely is a family decision. Where Roblox requires age verification or two-factor authentication for that step, a parent handles it.</p></div><div><h3>What we leave out on purpose</h3><p>Earning money from games is not part of our teaching for children, even though Roblox offers it to creators aged 13 and over. The aim is to learn to design and code; making a game fun for a friend is reward enough at this age.</p>
+<p>Roblox Studio is described by Roblox as "a free application available on Windows and Mac", so a child needs one of those computers, not a tablet or Chromebook, for Studio work.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use" rel="noopener" target="_blank">Roblox Terms of Use</a>; <a class="ag-inline-link" href="https://about.roblox.com/parental-controls" rel="noopener" target="_blank">Roblox parental controls</a>; <a class="ag-inline-link" href="https://create.roblox.com/docs/monetize" rel="noopener" target="_blank">Roblox creator docs, earning</a>; <a class="ag-inline-link" href="https://create.roblox.com/docs/production/publishing/publish-games-and-places" rel="noopener" target="_blank">Roblox creator docs, publishing</a>; <a class="ag-inline-link" href="https://create.roblox.com/docs/studio/setup" rel="noopener" target="_blank">Roblox Studio setup</a>. All read 22 October 2026. Modern Age Coders is not connected with Roblox.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Which tool, which age</p><h2>Scratch, Roblox Studio or Godot: matching the tool to the child</h2><p class="ag-lede">Each tool teaches the same ideas at a different depth. The age bands are our guidance and the course details come from our syllabuses.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Game tools by age (our guidance; course facts from our syllabuses)</caption><thead><tr><th scope="col">Tool</th><th scope="col">Suits</th><th scope="col">How the child codes</th><th scope="col">Our course</th></tr></thead><tbody><tr><td>Scratch</td><td>8 to 10, and any beginner</td><td>Snapping blocks: events, loops, variables, broadcast messages</td><td>Game Development for Kids, months 1 and 2</td></tr><tr><td>Roblox Studio and Luau</td><td>9 to 14, once reading is comfortable</td><td>Typed Luau scripts reacting to events in a 3D world</td><td>Roblox Game Coding for Kids, ages 8 to 14</td></tr><tr><td>Godot and GDScript</td><td>10 to 17</td><td>Typed scripts in a professional open engine, 2D and 3D</td><td>Godot Game Development, ages 10 to 17</td></tr><tr><td>Minecraft</td><td>7 to 12</td><td>Blocks first, then real code inside a world children know</td><td>Minecraft Coding for Kids, ages 7 to 12</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why typed Luau is worth the jump</h3><p>Roblox describes Luau as "the scripting language creators use in Roblox Studio", "derived from Lua 5.1". It is a real, typed programming language, so a child who learns it is learning text coding, not a toy. The same ideas, functions, events and variables, carry straight into Python later.</p>
+<p>The jump from blocks to Luau is the hardest moment in a young game maker's path. We make it slowly: the same small mechanic is built in Scratch first, then in Luau, side by side.</p></div><div><h3>Signs a child is ready for Roblox Studio</h3><p>They can type a short line without hunting for every key, read an error message aloud, and explain what a Scratch "when this sprite is clicked" block does. If not yet, a few more weeks of Scratch games is time well spent.</p>
+<p>Scratch itself is no small thing: the Scratch Foundation says millions of children have created over a billion Scratch projects.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="leaf">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">An original Roblox mechanic</p><h2>The Maple Leaf Collector: a scoreboard, a touch and one famous bug</h2><p class="ag-lede">Our own small game, designed for children of 9 to 12 in their first Roblox weeks: maple leaves float around a park, a player touches one to collect it, the scoreboard counts it, and the leaf grows back after five seconds. Two short scripts do all of it. They are written for Roblox Studio and were not run outside it, since Luau runs inside Studio; the Python simulation further down was run.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 1 &middot; LeafScore, in ServerScriptService (Luau, written for Roblox Studio)</b><span>lua</span></figcaption><pre>-- LeafScore (ours): a Script in ServerScriptService. Written for Roblox Studio; not run outside it.
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(player)
+	local stats = Instance.new("Folder")
+	stats.Name = "leaderstats"          -- Roblox's docs: a leaderstats folder drives the in-game rankings
+	stats.Parent = player
+
+	local leaves = Instance.new("IntValue")
+	leaves.Name = "Leaves"
+	leaves.Value = 0
+	leaves.Parent = stats
+end)</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Script 2 &middot; MapleLeaf, inside each leaf Part (Luau, written for Roblox Studio)</b><span>lua</span></figcaption><pre>-- MapleLeaf (ours): a Script inside each leaf Part. Written for Roblox Studio; not run outside it.
+local Players = game:GetService("Players")
+local leaf = script.Parent
+local collected = false                 -- the debounce: one touch, one point
+
+leaf.Touched:Connect(function(hit)
+	if collected then
+		return
+	end
+	local player = Players:GetPlayerFromCharacter(hit.Parent)
+	if player then
+		collected = true
+		player.leaderstats.Leaves.Value += 1
+		leaf.Transparency = 1
+		leaf.CanTouch = false
+		task.wait(5)                    -- the leaf grows back after 5 seconds
+		leaf.Transparency = 0
+		leaf.CanTouch = true
+		collected = false
+	end
+end)</pre><p class="ag-code-note">The line that matters most is <b>local collected = false</b>, and the check at the start of the function. Without them, one touch can score many points.</p></figure>
+    <p class="ag-mt-40"><b>The famous bug.</b> Roblox's own scripting guide warns that "the Touched event fires multiple times in quick succession based on subtle physical collisions." A first version without the <b>collected</b> flag adds a point every time, so a single step on a leaf can score several points. Roblox calls the fix a debounce: "a coding technique that prevents a function from running too many times or an input from triggering multiple times."</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our simulation of the bug &middot; debounce_sim.py (plain Python, run with python -I)</b><span>python</span></figcaption><pre># Our simulation of why a Roblox leaf needs a debounce (plain Python, not Roblox code)
+touches = [0.00, 0.03, 0.05, 0.11, 0.16]   # made-up times in seconds: one foot landing makes several touches
+
+def score(touch_times, debounce):
+    points = 0
+    busy_until = -1.0
+    for t in touch_times:
+        if debounce and t &lt; busy_until:
+            continue                        # the leaf is already collected; ignore this touch
+        points += 1
+        busy_until = t + 5                  # the leaf grows back after 5 seconds
+    return points
+
+print("without a debounce:", score(touches, False), "points")
+print("with a debounce:   ", score(touches, True), "point")</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>What the simulation printed</b><span>text</span></figcaption><pre>without a debounce: 5 points
+with a debounce:    1 point</pre><p class="ag-code-note">The five touch times are made up for the simulation. The real number of touches in Roblox varies; the point is that it is more than one.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the child learns from it</h3><p><b>Events:</b> code that waits for something to happen, here a touch, instead of running top to bottom. <b>State:</b> a variable, collected, that remembers what has already happened. <b>Order:</b> the flag must be set before the wait, or a second touch slips in during it.</p>
+<p>These are the same ideas Ontario's Grade 3 and 4 math call concurrent, repeating and nested events, met in a form a child wants to get right.</p></div><div><h3>How a class builds it</h3><p>First on paper: what happens when a player touches a leaf, in four numbered steps. Then the scoreboard script alone, tested by watching the board appear. Then the leaf, deliberately without the debounce, so every child sees the score jump. Only then the fix.</p>
+<p>Each child then changes one thing on purpose, such as the regrow time or a golden leaf worth five, and explains the change to the class.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="design">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Design before code</p><h2>A one-page game design sheet to use at home</h2><p class="ag-lede">Our own worksheet. A child who can fill it in has a game they can build; a child who cannot needs more thinking, not more code.</p></div>
+    <ol class="ag-steps"><li><b>The goal in one sentence.</b> "Collect 20 maple leaves before the snow falls." If it takes two sentences, the game is two games.</li><li><b>What the player can do.</b> List every action: walk, jump, collect. Each one becomes an event in code.</li><li><b>What the game remembers.</b> Score, lives, time left. Each one becomes a variable.</li><li><b>How it is won and how it is lost.</b> Both must be possible, or it is not yet a game.</li><li><b>One thing that changes over time.</b> Faster leaves, more enemies, less time. This is what keeps it interesting, and it is usually a loop.</li><li><b>The first bug you expect.</b> Write it down before building. Children who predict bugs find them faster.</li></ol>
+    <p class="ag-mt-40">Step 6 surprises parents. Asking a ten year old "what will go wrong?" before they start is the single habit that most separates children who finish games from children who abandon them.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="thinking">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Thinking, not copying</p><h2>Children who script their own games</h2><p class="ag-lede">Our promise to families in Canada is the one we make everywhere: children learn to think a problem through and solve it, not to copy an answer, a tutorial or an AI's output. Game making is full of copy-and-paste scripts online, so we are strict about it.</p></div>
+    <div class="ag-grid-3"><div><h3>Typed, not pasted</h3><p>Every script in a child's game is typed by the child and explained line by line. Free models and scripts from the internet are studied, never dropped in unread.</p></div><div><h3>Bugs on purpose</h3><p>Like the missing debounce, the common bugs are shown deliberately, so children recognise them in their own games.</p></div><div><h3>No AI shortcuts</h3><p>Children under 13 do not use adult AI chatbots in our classes; OpenAI says ChatGPT is not meant for them, and Claude is 18 and over.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="time">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Across the country</p><h2>Game classes at times that suit Canadian children</h2><p class="ag-lede">Weekend mornings and the hour straight after school tend to suit young game makers. We book every class in the family's own zone and recheck it when Eastern and Atlantic clocks change.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Clock offsets for families, 2026 to 2027 (IANA tz database 2026e)</caption><thead><tr><th scope="col">Region</th><th scope="col">Through the winter</th><th scope="col">Spring and summer 2027</th></tr></thead><tbody><tr><td>West coast and Yukon</td><td>UTC-7</td><td>UTC-7, no change</td></tr><tr><td>Prairies west of Manitoba</td><td>UTC-6</td><td>UTC-6, no change</td></tr><tr><td>Manitoba</td><td>UTC-5</td><td>UTC-5, no change</td></tr><tr><td>Ontario and Quebec</td><td>UTC-5</td><td>UTC-4 from 14 March</td></tr><tr><td>The Maritimes</td><td>UTC-4</td><td>UTC-3 from 14 March</td></tr><tr><td>Newfoundland</td><td>UTC-3:30</td><td>UTC-2:30 from 14 March</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Roblox Studio needs a Windows or Mac computer, so we check the family's set-up in the first class. Scratch runs in a web browser, which suits a shared family laptop.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Four levels</p>
+      <h2>How far along is your young game maker?</h2>
+      <p class="ag-lede">Our levels for placing a child fairly in the first class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four game-making levels (ours)</caption><thead><tr><th scope="col">Level</th><th scope="col">What the child can do</th></tr></thead><tbody><tr><td>1. Moves</td><td class="ag-num">Makes a character move and react to a key or a click</td></tr><tr><td>2. Rules</td><td class="ag-num">Adds a score, a win and a loss, each tested on purpose</td></tr><tr><td>3. Scripts</td><td class="ag-num">Writes typed Luau or GDScript for an event, like the maple leaf</td></tr><tr><td>4. Designs</td><td class="ag-num">Plans a whole game on paper first and builds it to the plan</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Most children who love playing games are at level 1 when they start, whatever their age. Level 2 is the big step.</p>
+<p>Ask your child to explain their game's rules. If they can, they are ready for the next level.</p></div><div><h3>For young game makers</h3><p>Test every new feature straight away, before adding the next one.</p>
+<p>If the score jumps by more than one, you probably need a debounce.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More for children</p>
+      <h2>Nine more courses for Canadian children</h2>
+      <p class="ag-lede">All taught live by one regular teacher, in a batch or one to one, for children in any province or territory.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Start here</h3>
+        <span class="ag-band-sub">Ages 6 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / START / 01</p>
+          <h4>Scratch first</h4>
+          <p>Three months of Scratch games.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / START / 02</p>
+          <h4>Minecraft code</h4>
+          <p>Blocks, then text, in a familiar world.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / START / 03</p>
+          <h4>All-round coding</h4>
+          <p>Games, apps and a bridge to Python.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Typed code</h3>
+        <span class="ag-band-sub">Ages 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / TYPE / 01</p>
+          <h4>Python and Pygame</h4>
+          <p>Typed games in Python, 9 to 12.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / TYPE / 02</p>
+          <h4>C++ puzzles and games</h4>
+          <p>A first compiled language, 9 to 12.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / TYPE / 03</p>
+          <h4>Browser projects</h4>
+          <p>Websites built by children, 9 to 12.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Next steps</h3>
+        <span class="ag-band-sub">Ages 8 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / NEXT / 01</p>
+          <h4>Unity for teens</h4>
+          <p>C# and shipped games, 13 to 18.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / NEXT / 02</p>
+          <h4>Puzzle thinking</h4>
+          <p>The logic under every game rule.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GDKC / NEXT / 03</p>
+          <h4>Hackathon for kids</h4>
+          <p>A project in a team, 8 to 12.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live game classes, one mechanic at a time</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Right after school, in your own zone.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Morning build sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">For a child with a game idea of their own.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Design on paper</h3><p>Every feature planned in words first.</p></div>
+      <div><h3>Scratch to Luau</h3><p>The same mechanic built twice, side by side.</p></div>
+      <div><h3>Roblox rules kept</h3><p>Parental controls on, no chat with strangers.</p></div>
+      <div><h3>No purchases</h3><p>Nothing in class needs Robux.</p></div>
+      <div><h3>Show and explain</h3><p>Children present their games and their bugs.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty children, or one alone.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our students</h2>
+      <p class="ag-lede">Young game makers grow into builders of projects like these. More are on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Eight live classes a month for one monthly fee, paid a month at a time. Nothing in our classes requires buying Robux or any in-game item.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A first moving character</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Fifteen to twenty children of a similar age</li><li>One regular teacher</li><li>A weekly time that suits you</li><li>Paid monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>One child, one teacher</li><li>The child's own game idea</li><li>Times to suit the family</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from our parents and students, unaltered.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Parents in Canada ask</p>
+      <h2>Game development and Roblox for kids: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What age can a child start game development?</h3>
+        <p>Our Game Development for Kids course starts at 8 with Scratch, and our Roblox Game Coding course takes children from 8 to 14. Children who are not yet comfortable reading usually start with Scratch.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Roblox safe for my child to learn coding on?</h3>
+        <p>Roblox sets its own rules: every user must complete an age check to access chat, the Chat Tab is only for users 9 and over, voice chat with friends is off for all users under 13, and trusted friends for under-13s need a parent's permission. We ask parents to set up Roblox's parental controls before class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to buy Robux for your classes?</h3>
+        <p>No. Nothing in our classes requires purchases. Roblox itself says only users who have reached the age of majority may buy Robux or make real-money transactions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What language does Roblox use?</h3>
+        <p>Luau. Roblox describes it as the scripting language creators use in Roblox Studio, derived from Lua 5.1. It is typed text code, so children learn real programming.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can kids earn money from Roblox games?</h3>
+        <p>Roblox says creators who are 13 or older and have earned at least 30,000 Earned Robux can use its Developer Exchange. We do not teach earning as a goal; our classes are about designing and coding.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What computer does my child need?</h3>
+        <p>For Roblox Studio, a Windows or Mac computer, because Roblox describes Studio as a free application for Windows and Mac. Scratch runs in a web browser on most computers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child start with Scratch or Roblox?</h3>
+        <p>Most children should start with Scratch, where blocks teach events, loops and variables without typing. Once a child types comfortably and can read an error aloud, Roblox Studio and Luau are the next step.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How does game design connect to school in Canada?</h3>
+        <p>Ontario math asks for code with repeating events in Grade 3 and nested events in Grade 4, and BC's Grade 6 design module names visual programming tools such as Kodu and Scratch. Making games practises exactly those ideas.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are game classes held for Canadian families?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every class is booked in your own province's time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What will my child build?</h3>
+        <p>Games they design themselves, starting with Scratch games and moving to Roblox mechanics like our Maple Leaf Collector, a scoreboard and a collectable leaf that must count each touch once.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Canadian children who want to make games.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-canada">Coding classes in Canada</a></h3><p>Our pages for every province.</p></div>
+      <div><h3><a class="ag-inline-link" href="/roblox-coding-classes-for-kids">Roblox coding classes</a></h3><p>Our Roblox teaching in depth.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-roblox-game">How to make a Roblox game</a></h3><p>A step-by-step guide.</p></div>
+      <div><h3><a class="ag-inline-link" href="/roblox-studio-errors-fixed">Roblox Studio errors fixed</a></h3><p>The errors children meet first.</p></div>
+      <div><h3><a class="ag-inline-link" href="/lua-for-kids">Lua for kids</a></h3><p>The language family behind Luau.</p></div>
+      <div><h3><a class="ag-inline-link" href="/scratch-coding-classes-for-kids">Scratch classes for kids</a></h3><p>Where most game makers begin.</p></div>
+      <div><h3><a class="ag-inline-link" href="/godot-for-kids-and-teens">Godot for kids and teens</a></h3><p>A professional open engine.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-to-make-a-video-game-for-kids">Making a video game</a></h3><p>From idea to playable game.</p></div>
+      <div><h3><a class="ag-inline-link" href="/video-game-coding-classes-for-kids">Video game coding classes</a></h3><p>More about our game courses.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">In the first class your child makes a character move and react, in Scratch or Roblox Studio depending on age. The teacher learns how your child thinks and suggests the course that fits.</p>
+        <p class="ag-mt-40">Before booking, see <a class="ag-inline-link" href="/how-we-teach">how we teach</a> a live class and the <a class="ag-inline-link" href="/courses">complete course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20Canada%20loves%20games%20and%20wants%20to%20learn%20to%20make%20them.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gdkc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Every class is live online, taught by teachers based in India, so children join from any province. WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_gdkc(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free. We do not take card details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Making games</h4><ul><li><a href="/roblox-coding-classes-for-kids">Roblox coding</a></li><li><a href="/how-to-make-a-roblox-game">Make a Roblox game</a></li><li><a href="/lua-for-kids">Lua for kids</a></li><li><a href="/godot-for-kids-and-teens">Godot</a></li></ul></div>
+      <div><h4>Canada</h4><ul><li><a href="/coding-classes-in-canada">Coding classes in Canada</a></li><li><a href="/canada-coding-curriculum-by-province">Curriculum by province</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>One touch, one point</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_gdkc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'game-development-classes-for-kids-canada-inline', meta: { name: name, age: age, page: 'game-development-classes-for-kids-canada' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

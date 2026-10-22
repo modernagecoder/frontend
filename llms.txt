@@ -791,6 +791,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 - AI classes for kids in Canada: https://learn.modernagecoders.com/ai-classes-for-kids-in-canada
 - Vibe coding and AI agents classes in Canada: https://learn.modernagecoders.com/vibe-coding-and-ai-agents-classes-in-canada
 - App development classes for teens in Canada: https://learn.modernagecoders.com/app-development-classes-for-teens-canada
+- Game development classes for kids in Canada: https://learn.modernagecoders.com/game-development-classes-for-kids-canada
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

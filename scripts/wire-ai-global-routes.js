@@ -560,6 +560,7 @@ const SLUGS = [
   'ai-classes-for-kids-in-canada',
   'vibe-coding-and-ai-agents-classes-in-canada',
   'app-development-classes-for-teens-canada',
+  'game-development-classes-for-kids-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1199,6 +1200,7 @@ const LLMS_LABELS = {
   'ai-classes-for-kids-in-canada': 'AI classes for kids in Canada',
   'vibe-coding-and-ai-agents-classes-in-canada': 'Vibe coding and AI agents classes in Canada',
   'app-development-classes-for-teens-canada': 'App development classes for teens in Canada',
+  'game-development-classes-for-kids-canada': 'Game development classes for kids in Canada',
 };
 
 function wireLlms(slugs) {
