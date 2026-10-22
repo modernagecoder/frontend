@@ -1,0 +1,458 @@
+{
+  "meta": {
+    "slug": "ccc-junior-and-senior-preparation-course",
+    "date": "2026-10-22",
+    "title": "CCC Junior and Senior Preparation (Canadian Computing Competition)",
+    "description": "Live online Canadian Computing Competition prep for ages 13 to 18: Junior and Senior tracks in Python or C++, from September to the CCC on Wednesday, February 17, 2027.",
+    "keywords": [
+      "ccc junior",
+      "ccc senior",
+      "canadian computing competition",
+      "ccc preparation",
+      "ccc practice",
+      "canadian computing competition past papers",
+      "ccc junior problems",
+      "canadian computing olympiad",
+      "cco preparation",
+      "ccc 2027"
+    ],
+    "category": "Competitive Programming",
+    "taxonomy": "programming",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "A 24-week season, September to the CCC on Wednesday, February 17, 2027, joinable any month",
+    "level": "Students roughly aged 13 to 18 who can write simple programs (Junior track) or are confident programmers ready for algorithms (Senior track)",
+    "commitment": "2 live classes/week + weekly problem sets and timed practice contests",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment",
+    "image_path": "ccc-junior-senior-prep.webp",
+    "dateModified": "2026-10-22"
+  },
+  "program_overview": {
+    "title": "CCC Junior and Senior Preparation",
+    "tagline": "One season, two tracks, real problem solving: from the first CCC Junior loops to the Senior algorithms that lead toward the Canadian Computing Olympiad.",
+    "description": "The Canadian Computing Competition (CCC) is run by the Centre for Education in Mathematics and Computing (CEMC) at the University of Waterloo. The 2027 contest for North and South America is on Wednesday, February 17, 2027. It has two levels: Junior, for \"any participant with beginner to intermediate programming skills\", and Senior, for \"any participant with intermediate to advanced programming skills\", and CEMC says each participant can choose the best level \"regardless of their grade\". Each level has 5 questions, the time allowed is 3 hours, and it is scored out of 75. CCC participants may use C, C++, Python 2, Python 3 or Java, and the contest is written in school: participants write online, individually.\n\nThis course is a full September-to-February season with two parallel tracks. The Junior track follows the skills CEMC's own question guide describes, from basic loops and conditions, through loops, conditions and counting together, up to the recursion, two-dimensional arrays and efficient algorithms of the hardest Junior question. The Senior track starts where CEMC says the Senior paper starts, with sorting and searching, then moves through careful counting and mathematical reasoning toward the algorithms of the final question, which CEMC calls an IOI level question. Both tracks are taught in Python or C++. For Senior students aiming beyond the CCC we teach C++ properly, because CEMC states that \"CCO participants must use C++\".\n\nPractice comes from two places: our own original problems written for each topic, and CEMC's free past contests, which CEMC publishes with no registration or fee and which students can also try on CEMC's free CCC Online Grader practice account. We never copy contest problems into our materials; students work them where CEMC publishes them. Students register through their school, not through us. We teach the skills and the contest habits, and we make no promise of scores, distinctions, CCO invitations or admissions.",
+    "what_makes_this_different": [
+      "Built for the CCC as CEMC runs it: 5 questions, 3 hours, scored out of 75, written online at school",
+      "Two tracks in one season: Junior and Senior, with the level chosen by skill, not by grade",
+      "Python or C++, with an honest explanation of when C++ matters and why the CCO requires it",
+      "Our own original problems for every topic, plus CEMC's free past contests used as practice where CEMC publishes them",
+      "A timed practice contest every month, ending with full 3-hour mock contests in January and February",
+      "Clear guidance on registering through a school, including CEMC's advice when a school does not take part"
+    ],
+    "learning_path": {
+      "phase_1": "The shared core for both tracks: reading CCC-style statements, exact input and output, loops, conditions, strings, lists, counting and grids",
+      "phase_2": "The tracks split: Junior builds toward recursion, two-dimensional arrays and efficient algorithms; Senior covers sorting, searching, careful counting, graphs and dynamic programming",
+      "phase_3": "Contest season: timed mocks, partial-mark strategy, contest-day routine, the CCC on February 17, 2027, then upsolving and next steps"
+    },
+    "career_outcomes": [
+      "The ability to read a contest problem, plan a solution and test it before submitting",
+      "Confidence with the skills the CCC Junior and Senior question guides describe",
+      "Efficient-algorithm thinking: knowing when a correct solution is too slow, and fixing it",
+      "Contest habits: pacing a 3-hour, 5-question paper and earning marks on harder questions",
+      "A clear picture of the path from CCC Senior to the CCO and the IOI team, and what each step asks",
+      "A strong base for school computer science, university programming and further contests"
+    ]
+  },
+  "phase_1_shared_core": {
+    "title": "PHASE 1: The Shared Core (September and October, Weeks 1-8)",
+    "description": "Everything both tracks need: precise reading, exact input and output, and the loops, conditions, strings, lists and counting that the first CCC questions are built on.",
+    "month_1_contest_setup_and_basics": {
+      "title": "Month 1: Contest Setup, Input and Output, Loops and Conditions",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: How the CCC Works and First Problems",
+        "topics": [
+          "The CCC format: 5 questions, 3 hours, scored out of 75, Junior and Senior levels",
+          "Choosing a level by skill: a diagnostic to place each student on the Junior or Senior track",
+          "Setting up Python or C++ and creating a free practice account on CEMC's CCC Online Grader",
+          "Reading input exactly as the statement describes and printing exactly what is asked",
+          "Basic loops and conditions on short original problems",
+          "Testing with the sample input, then with cases you write yourself"
+        ],
+        "projects": [
+          "A personal starting profile: track choice, language choice and five solved warm-up problems"
+        ],
+        "practice": "Ten short original problems, each tested on at least two extra cases before submitting"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Strings, Lists and Simple Counting",
+        "topics": [
+          "String processing: characters, counting, reversing and comparing",
+          "Lists and arrays: storing input, scanning, finding maxima and minima",
+          "Counting with conditions, the core of the middle Junior questions",
+          "Dictionaries or maps for frequency counts",
+          "Simulation: following a set of rules step by step",
+          "Edge cases: empty input, one item, ties and the largest values"
+        ],
+        "projects": [
+          "A counting and simulation problem set solved in full, with a written list of edge cases for each"
+        ],
+        "practice": "A first CEMC past contest from CEMC's site, attempted untimed, with a written review",
+        "assessment": "Month 1 timed round: a short practice contest of original problems"
+      }
+    },
+    "month_2_grids_and_efficiency": {
+      "title": "Month 2: Grids, Functions and First Ideas of Efficiency",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Two-Dimensional Grids and Functions",
+        "topics": [
+          "Reading and storing a grid of characters or numbers",
+          "Moving through a grid: neighbours, borders and directions",
+          "Breaking a solution into functions so it stays readable",
+          "Debugging with small hand-made test cases",
+          "Avoiding repeated work inside loops",
+          "Writing clean code fast enough for a 3-hour contest"
+        ],
+        "projects": [
+          "A grid puzzle solver for an original problem, organized into clear functions"
+        ],
+        "practice": "Grid and simulation problems, each traced on a small grid by hand first"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: How Fast Is Fast Enough?",
+        "topics": [
+          "Counting the steps a program takes as the input grows",
+          "Reading the input limits to guess what solution is needed",
+          "Why a nested loop can pass small tests and time out on large ones",
+          "Sorting with the built-in sort and when it helps",
+          "Partial marks: solving the small cases when the full solution is out of reach",
+          "Keeping an error log of every wrong or slow submission"
+        ],
+        "projects": [
+          "Solve one original problem three ways, from slow to fast, and time each version"
+        ],
+        "practice": "Mixed problem set plus one CEMC past contest at the student's level, reviewed in class",
+        "assessment": "Phase 1 assessment: a 90-minute practice contest and a written review of every question"
+      }
+    }
+  },
+  "phase_2_track_split": {
+    "title": "PHASE 2: Junior and Senior Tracks (November and December, Weeks 9-16)",
+    "description": "The tracks run in parallel in separate batches. Junior students build toward the hardest Junior question; Senior students build the algorithm families the Senior paper rewards.",
+    "month_3_4_junior_track": {
+      "title": "Months 3-4, Junior Track: From Counting to Recursion and Efficient Algorithms",
+      "weeks": "Weeks 9-16",
+      "week_9_10": {
+        "title": "Weeks 9-10: Junior Questions 3 and 4 Skills",
+        "topics": [
+          "Combining loops, conditions and counting in one solution",
+          "Careful string and number parsing from mixed input",
+          "Nested loops over pairs and their cost",
+          "Sets for fast membership checks",
+          "Planning a solution in plain words before coding",
+          "Checking the answer against the samples and a brute-force version"
+        ],
+        "projects": [
+          "Five original middle-level problems, each with a plain-word plan and a test list"
+        ],
+        "practice": "Middle Junior questions from CEMC past contests, solved on CEMC's site and reviewed in class"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Two-Dimensional Arrays in Depth",
+        "topics": [
+          "Grids as two-dimensional arrays or lists of lists",
+          "Rotations, reflections and counting regions",
+          "Flood fill to find connected areas",
+          "Row and column totals for fast answers",
+          "Off-by-one and border mistakes, and how to avoid them",
+          "Choosing between storing a grid and computing on the fly"
+        ],
+        "projects": [
+          "An original region-counting problem solved with flood fill"
+        ],
+        "practice": "Grid problems timed at 30 minutes each, with every miss logged"
+      },
+      "week_13_14": {
+        "title": "Weeks 13-14: Recursion",
+        "topics": [
+          "Base case and recursive case on small examples",
+          "Recursive counting and generating all options",
+          "Recursive flood fill and its limits",
+          "Tracing recursion with a call diagram",
+          "When to replace recursion with a loop",
+          "Pruning: stopping early when an option cannot work"
+        ],
+        "projects": [
+          "Three recursion problems solved and explained in a short written note"
+        ],
+        "practice": "Recursion problem set with a trace for each solution"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Efficient and Insightful Algorithms",
+        "topics": [
+          "Spotting a pattern so a slow search becomes a quick formula",
+          "Prefix sums for fast range totals",
+          "Sorting first to make a problem simple",
+          "Breadth-first search on a grid for shortest moves",
+          "Earning partial marks with a correct slow solution, then improving it",
+          "When a Junior student is ready to try the Senior track"
+        ],
+        "projects": [
+          "Take a slow solution from earlier in the course and rewrite it to run within the limits"
+        ],
+        "practice": "A full Junior-style mock of original problems, timed at 3 hours",
+        "assessment": "Junior track assessment: a full timed mock with a written review of every question"
+      }
+    },
+    "month_3_4_senior_track": {
+      "title": "Months 3-4, Senior Track: Sorting, Searching, Counting, Graphs and Dynamic Programming",
+      "weeks": "Weeks 9-16",
+      "week_9_10_senior": {
+        "title": "Weeks 9-10: Sorting and Searching",
+        "topics": [
+          "Sorting with custom keys and comparators",
+          "Binary search on a sorted list and binary search on the answer",
+          "Two pointers and sliding windows",
+          "Prefix sums and difference arrays",
+          "Fast input and output in Python and C++",
+          "Reading constraints to choose the right complexity"
+        ],
+        "projects": [
+          "An original problem solved with binary search on the answer, with a written proof that it is fast enough"
+        ],
+        "practice": "Early Senior questions from CEMC past contests, solved on CEMC's site and reviewed in class"
+      },
+      "week_11_12_senior": {
+        "title": "Weeks 11-12: Careful Counting and Mathematical Reasoning",
+        "topics": [
+          "Counting without listing: the multiplication rule and complements",
+          "Avoiding overflow, and taking answers modulo a number",
+          "GCD, primes and divisibility in contest problems",
+          "Greedy choices and how to check one is safe",
+          "Turning a word problem into a precise mathematical model",
+          "Testing a clever idea against a brute-force check"
+        ],
+        "projects": [
+          "A greedy and counting problem pack with a short argument for each solution"
+        ],
+        "practice": "Counting and reasoning problems at 40 minutes each, with the idea written before the code"
+      },
+      "week_13_14_senior": {
+        "title": "Weeks 13-14: Graphs",
+        "topics": [
+          "Representing graphs with adjacency lists",
+          "Depth-first and breadth-first search",
+          "Connected components and cycle checks",
+          "Shortest paths with Dijkstra's algorithm",
+          "Disjoint set union",
+          "Spotting a graph hidden inside a problem that never says graph"
+        ],
+        "projects": [
+          "An original routing problem solved with breadth-first search and then with Dijkstra's algorithm"
+        ],
+        "practice": "Graph problem set, with C++ versions written by students aiming at the CCO"
+      },
+      "week_15_16_senior": {
+        "title": "Weeks 15-16: Dynamic Programming and the Hardest Questions",
+        "topics": [
+          "Defining a state and a transition",
+          "Classic one-dimensional and grid dynamic programming",
+          "Knapsack-style choices",
+          "Combining techniques on the hardest question of a paper",
+          "Partial marks on the final question: solving the smaller subtasks first",
+          "C++ for speed: the standard library containers students will use most"
+        ],
+        "projects": [
+          "Solve one original dynamic programming problem top-down and bottom-up, and compare"
+        ],
+        "practice": "A full Senior-style mock of original problems, timed at 3 hours",
+        "assessment": "Senior track assessment: a full timed mock with a written review of every question"
+      }
+    }
+  },
+  "phase_3_contest_season": {
+    "title": "PHASE 3: Contest Season (January and February, Weeks 17-24)",
+    "description": "Full timed mocks, contest craft and the CCC itself on Wednesday, February 17, 2027, followed by upsolving and a plan for what comes next.",
+    "month_5_mock_contests": {
+      "title": "Month 5: Mock Contests and Contest Craft",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Pacing a 3-Hour, 5-Question Paper",
+        "topics": [
+          "Reading all five questions first and ordering the attempt",
+          "Banking the early questions quickly and carefully",
+          "Deciding when to move on from a stuck question",
+          "Partial-mark strategy on the last two questions",
+          "Testing before submitting, every time",
+          "Using CEMC's past contests from the last 10 years as timed practice on CEMC's site"
+        ],
+        "projects": [
+          "Two full 3-hour mocks, each followed by a written pacing review"
+        ],
+        "practice": "One full timed mock a week at the student's level, then a structured upsolve"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Upsolving and Weak-Spot Repair",
+        "topics": [
+          "Upsolving: solving every missed question unaided after the mock",
+          "Reading the error log to find the real weak spot",
+          "Targeted mini-lessons on each student's weakest topic",
+          "Templates and checklists kept short and personal",
+          "Choosing Python or C++ for the contest day, with honest advice for each student",
+          "Making sure the school has the student on its CCC order"
+        ],
+        "projects": [
+          "A personal weak-spot plan with three topics, each with a problem set completed"
+        ],
+        "practice": "Original problem sets on each student's weak topics",
+        "assessment": "Month 5 assessment: a full timed mock reviewed one to one with the teacher"
+      }
+    },
+    "month_6_ccc_and_next_steps": {
+      "title": "Month 6: Final Mocks, the CCC and Next Steps",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Final Mocks",
+        "topics": [
+          "Final full mocks under contest timing",
+          "Calm, routine starts: setup, reading and the first question",
+          "Checking output format one last time",
+          "What to do when the code works on samples but not on the judge",
+          "Rest and practice balance in the last two weeks",
+          "Reading CEMC's current CCC instructions together"
+        ],
+        "projects": [
+          "A final mock with a written contest-day plan"
+        ],
+        "practice": "Light, steady practice: short problems that keep skills sharp"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Contest Week and After",
+        "topics": [
+          "Contest-day routine for the CCC on Wednesday, February 17, 2027",
+          "After the contest: upsolving the paper once CEMC publishes it",
+          "For Senior students: what the CCO is and how CEMC selects for it",
+          "For Junior students: whether to aim for Senior next season",
+          "Planning the next season of practice",
+          "Presenting a favourite solution of the season to the class"
+        ],
+        "projects": [
+          "A next-season plan based on the error log and the mock history"
+        ],
+        "practice": "Write a full explanation of your favourite solution of the season for a newer student",
+        "assessment": "Final assessment: the last mock contest result plus a short conversation about method choices"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the Canadian Computing Competition?",
+      "answer": "The CCC is a programming contest run by CEMC (the Centre for Education in Mathematics and Computing) at the University of Waterloo. It has a Junior and a Senior level. Each has 5 questions, the time allowed is 3 hours, and it is scored out of 75. CEMC says the contest is available in English and French and is written in school, with participants writing online, individually."
+    },
+    {
+      "question": "When is CCC 2027?",
+      "answer": "CEMC lists the 2027 CCC for North and South America on Wednesday, February 17, 2027, and the ordering deadline for schools as Thursday, February 11, 2027. Our season runs from September up to that date, and students who join later get a catch-up plan."
+    },
+    {
+      "question": "Should my child write CCC Junior or CCC Senior?",
+      "answer": "CEMC describes Junior as for \"any participant with beginner to intermediate programming skills\" and Senior as for \"any participant with intermediate to advanced programming skills\", and says each participant can choose the best level \"regardless of their grade\". In the first two weeks we place each student on a track by skill, and we review the choice before the contest."
+    },
+    {
+      "question": "How do we register for the CCC?",
+      "answer": "Through a school, not through us. CEMC says \"It is not possible for students to individually register for a contest\" and \"all students must participate through their school.\" If a student's school does not take part, CEMC suggests that \"students can look for another local school that will allow them to join as a participant\". We remind families to check the school's order well before the deadline."
+    },
+    {
+      "question": "Python or C++ for the CCC?",
+      "answer": "CEMC says \"CCC participants may use C, C++, Python 2, Python 3, or Java.\" It also notes that \"it may not always be possible to achieve a perfect score with a particular language choice (for example, Python or Java)\". Python is a sensible choice for most Junior students. For Senior students aiming at the Canadian Computing Olympiad we teach C++, because CEMC states that \"CCO participants must use C++.\""
+    },
+    {
+      "question": "Do you use CCC past papers?",
+      "answer": "Yes, the way CEMC intends. CEMC publishes its past contests free, with no registration or fee, and students can practise on CEMC's free CCC Online Grader account. We set those contests as practice and review them in class, alongside our own original problems written for each topic. We do not copy CEMC's problems into our materials."
+    },
+    {
+      "question": "What is the Canadian Computing Olympiad (CCO)?",
+      "answer": "CEMC says \"Approximately 20 of the top official CCC Senior participants from schools in Canada are invited to the CCO at the University of Waterloo each spring\", and that this invitation-only event \"is also used to select Canada's teams for the International Olympiad in Informatics (IOI)\". So the path is CCC Senior, then the CCO by invitation, then the IOI team. CEMC's page sets out who counts as an official participant, so read its current rules."
+    },
+    {
+      "question": "Will this course get my child a distinction or a CCO invitation?",
+      "answer": "No course can promise that, and we do not. Results depend on the student, the paper and the day. What the course gives is a full season of structured practice, timed mocks, honest reviews and an error log, so progress is visible month by month."
+    },
+    {
+      "question": "Does the CCC matter for university admission?",
+      "answer": "It is a good experience, not a requirement. CEMC states that \"Participation in the Canadian Computing Competition (CCC) is not required for admission to the Faculty of Mathematics at the University of Waterloo.\" We encourage students to write it for the problem solving it builds."
+    },
+    {
+      "question": "Does my child need coding experience?",
+      "answer": "For the Junior track, a little: writing simple programs with variables, loops and conditions in Python or C++. For the Senior track, a student should be confident with lists or arrays, functions and basic sorting. The first-week diagnostic places each student, and our other coding courses are a good first step for complete beginners."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or 1-on-1. Junior and Senior students are taught in separate batches. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher works through a short original problem with your child, suggests the Junior or Senior track, and recommends group, mini batch or 1-on-1 classes. There is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Starting profile with track and language choice",
+      "Counting, simulation and grid problem sets of original problems",
+      "Slow-to-fast rewrites with timings",
+      "Recursion and flood fill solutions (Junior track)",
+      "Binary search, graph and dynamic programming solutions (Senior track)",
+      "Full 3-hour mock contests with written pacing reviews",
+      "A next-season plan built from the error log"
+    ],
+    "total_projects_built": "A season of solved original problems, reviewed CEMC past contests, an error log and a mock contest history",
+    "skills_mastered": [
+      "Reading contest statements precisely and handling input and output exactly",
+      "Loops, conditions, strings, lists and counting",
+      "Two-dimensional grids, recursion and flood fill",
+      "Sorting, searching, prefix sums and two pointers",
+      "Careful counting, number theory basics and greedy reasoning",
+      "Graphs, shortest paths and dynamic programming (Senior track)",
+      "Pacing a 3-hour, 5-question contest and earning partial marks"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, Junior and Senior in separate batches",
+      "practice": "A problem set after every class, with core and stretch problems",
+      "review": "Solutions reviewed with written comments, a timed contest every month and a monthly error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. Fall short and there is focused revision and a free retest: the certificate certifies real learning, not attendance"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with mock results and next steps",
+      "free_past_contests": "CEMC's past contests from the last 10 years, free with no registration, used as practice where CEMC publishes them",
+      "free_online_grader": "CEMC's free CCC Online Grader practice account, where students can try previous contests",
+      "free_python_tutorials": "Computer Science Circles, CEMC's free Python tutorials, a good warm-up for beginners"
+    }
+  },
+  "prerequisites": {
+    "coding_level": "Junior track: simple programs with variables, loops and conditions. Senior track: confident with lists or arrays, functions and basic sorting",
+    "language": "Python or C++. Senior students aiming at the CCO move to C++ during the season",
+    "age": "Roughly 13 to 18. Level is chosen by skill, not by grade",
+    "equipment": "A computer with stable internet that can run Python or a C++ compiler",
+    "contest_entry": "The CCC is written through a school; check that your school (or another local school) is taking part",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "first_time_contest_writers": "Students who can code a little and want to write CCC Junior with real preparation",
+    "returning_junior_students": "Students who wrote Junior before and want to reach the harder questions or move up to Senior",
+    "senior_track_students": "Confident programmers who want the sorting, searching, graph and dynamic programming toolkit for CCC Senior",
+    "olympiad_hopefuls": "Senior students who want to understand the CCO path and train in C++",
+    "school_programmers": "Students in school computer science who want harder, more interesting problems"
+  },
+  "career_paths_after_completion": [
+    "A second season of this course, moving from Junior to Senior or deeper into Senior",
+    "Our Competitive Programming for Teens course for year-round contest training",
+    "School computer science such as ICS3U and ICS4U, through our Ontario companion course",
+    "University computer science, mathematics or engineering, with strong problem-solving habits",
+    "Further contests and personal projects built on algorithmic thinking"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "two_tracks": "Separate Junior and Senior batches, so every student works at the right level.",
+    "original_problems": "Original problems written for each topic, with CEMC's free past contests used as practice where CEMC publishes them.",
+    "feedback": "Written feedback on solutions, a timed contest every month and a monthly progress note to parents.",
+    "certificate": "A certificate from Modern Age Coders that you earn by passing the final assessment, with a free retest after revision if needed.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  }
+}

@@ -39,7 +39,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-10-13 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-10-22 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt, brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 
@@ -77,11 +77,11 @@ Full companion to /llms.txt, brand overview, complete course catalog, embedded t
 
 **Q: How are classes conducted?** Live over video in groups of 15 to 20 (or 1-on-1). Recorded for revision. Student dashboard at https://dashboard.modernagecoders.com
 
-## Course Catalog (127 courses)
+## Course Catalog (134 courses)
 
 Every Modern Age Coders course, grouped by audience.
 
-### Kids (13)
+### Kids (15)
 
 ### [Abacus & Mental Maths for Kids: From First Beads to Anzan](https://learn.modernagecoders.com/courses/abacus-mental-maths-course-for-kids/)
 
@@ -94,6 +94,12 @@ Abacus classes for kids ages 5-10: live online mental maths course from first be
 *Level:* Ages 8 to 14; no prior coding required, everything is taught from scratch · *Duration:* 4 months (16 weeks), joinable any month · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Live online AI literacy classes for ages 8 to 14. Children learn how AI actually works, how it learns from data, where it goes wrong, and how to judge it, with age-appropriate supervised tools.
+
+### [C++ for Kids: First Real Code, Games and Puzzles (Ages 9-12)](https://learn.modernagecoders.com/courses/cpp-programming-for-kids-course/)
+
+*Level:* Complete beginner to text coding, ages 9 to 12 · *Duration:* 6 months (24 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+C++ course for kids aged 9 to 12: live online classes from a first program to loops, functions, vectors and text games, taught slowly and clearly in 6 months.
 
 ### [CBSE Computational Thinking & AI for Kids (Class 3-8)](https://learn.modernagecoders.com/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8/)
 
@@ -112,6 +118,12 @@ Coding for kids aged 6-12: live online classes from first Scratch game to mobile
 *Level:* Complete beginner, ages 8 to 12 · *Duration:* 6-8 months (26-32 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Game development course for kids aged 8-12: live online classes building real games in Scratch, then Roblox and Minecraft worlds, in 6-8 months.
+
+### [Godot Game Development for Kids and Teens: GDScript, 2D and 3D](https://learn.modernagecoders.com/courses/godot-game-development-course-for-kids-and-teens/)
+
+*Level:* Beginner to text coding, ages 10 to 17 · *Duration:* 6 months (24 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Godot game development course for ages 10 to 17: live online classes building real 2D and 3D games in Godot 4 with GDScript, from first scene to a finished web build.
 
 ### [Hackathon for Kids: Free Event + 12-Week Prep (Ages 8-12)](https://learn.modernagecoders.com/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course/)
 
@@ -161,7 +173,7 @@ Live online vibe coding course for kids ages 8-12: learn Scratch, AI tools and g
 
 Web development course for kids aged 9-12: HTML, CSS and first JavaScript in live online classes, with real published websites in 8-10 months.
 
-### Teens (25)
+### Teens (26)
 
 ### [AI Agents with Microsoft Copilot Studio for Teens](https://learn.modernagecoders.com/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens/)
 
@@ -222,6 +234,12 @@ Live online competitive programming for teenagers: algorithms, data structures a
 *Level:* Beginner friendly, ages 13 to 18 · *Duration:* 8-10 months (32-40 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Creative media course for teens aged 13-18: photo editing, video production and graphic design in live online classes, with a real portfolio in 8-10 months.
+
+### [Cybersecurity Competitions for Teens: picoCTF and CyberPatriot Prep](https://learn.modernagecoders.com/courses/picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens/)
+
+*Level:* Beginner to intermediate, ages 13 to 18, no prior security experience needed · *Duration:* 6 months (24 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online cybersecurity competition prep for ages 13 to 18: CyberPatriot-style system hardening on Windows and Linux, and picoCTF-style CTF skills, ethical and defensive.
 
 ### [Cybersecurity for Teens: Online Safety & White-Hat Defense](https://learn.modernagecoders.com/courses/cybersecurity-course-for-teens-ethical-defensive/)
 
@@ -477,7 +495,7 @@ TypeScript course for college students and professionals: JavaScript foundations
 
 Live online vibe coding course for college students 18+: master the MERN stack, DSA, machine learning and system design, crack tech placements and internships.
 
-### Mathematics (32)
+### Mathematics (34)
 
 ### [11 Plus Maths Prep: UK Grammar & Independent School Entry](https://learn.modernagecoders.com/courses/11-plus-maths-preparation-course-uk/)
 
@@ -496,6 +514,12 @@ A Level Further Maths course online: live classes in Core Pure plus mechanics, s
 *Level:* A-Level students (Years 12-13 or equivalent), Edexcel, AQA and OCR · *Duration:* 18 months (72 weeks), joinable any month · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 A-Level Maths course online: live small-batch classes covering Pure, Mechanics & Statistics for Edexcel, AQA & OCR, from AS foundations to timed past papers.
+
+### [ACT Math Prep: Live Classes for the ACT Mathematics Section](https://learn.modernagecoders.com/courses/act-math-prep-course/)
+
+*Level:* Grades 9-12 (ages 14 to 18), all starting scores · *Duration:* 5 months (20 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online ACT Math prep for ages 14 to 18: every ACT reporting category, from algebra and functions to geometry and statistics, plus pacing and full timed sections.
 
 ### [Algebra Foundations: Pre-Algebra & Algebra 1, Live Online](https://learn.modernagecoders.com/courses/algebra-foundations-masterclass/)
 
@@ -629,6 +653,12 @@ Live course where kids ages 10-15 learn maths by coding it: fractions, algebra, 
 
 Live mental maths course for kids ages 5-10: number bonds, decomposition and estimation build real number sense, the honest alternative to abacus. Free demo.
 
+### [Middle School Math Competitions: MATHCOUNTS, AMC 8 and Math Kangaroo Prep](https://learn.modernagecoders.com/courses/middle-school-math-competitions-course/)
+
+*Level:* Students roughly aged 10 to 14 (grades 5 to 8) who are comfortable with school maths and want more challenge · *Duration:* 6 months (24 weeks), repeatable as a second season with new problem sets · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online math competition prep for ages 10 to 14: number theory, counting, algebra and geometry problem solving for MATHCOUNTS, AMC 8 and Math Kangaroo, with timed rounds.
+
 ### [Middle School Mathematics Mastery: Pre-Algebra & Geometry](https://learn.modernagecoders.com/courses/comprehensive-middle-school-mathematics-mastery/)
 
 *Level:* Complete Beginner to Advanced Middle School Level · *Duration:* 12-14 months (52-60 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
@@ -691,7 +721,7 @@ Coding course for girls and women: HTML, CSS, JavaScript, React and backend basi
 
 Advanced course for women developers: software architecture, cloud, security, AI engineering and technical leadership in 9-11 months, live online.
 
-### Other (27)
+### Other (29)
 
 ### [Advanced Git & GitHub Masterclass for Professionals](https://learn.modernagecoders.com/courses/git-github-advanced-version-control-masterclass-for-professionals/)
 
@@ -740,6 +770,12 @@ Live online Cambridge AS and A Level Computer Science 9618 classes across all fo
 *Level:* Beginner friendly, ages 13 to adult · *Duration:* 6-8 months (26-32 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Canva and AI design course for teens and adults (13+): design principles, social and marketing graphics, Canva Magic Studio and Firefly, video, and a portfolio in 6-8 months.
+
+### [CCC Junior and Senior Preparation (Canadian Computing Competition)](https://learn.modernagecoders.com/courses/ccc-junior-and-senior-preparation-course/)
+
+*Level:* Students roughly aged 13 to 18 who can write simple programs (Junior track) or are confident programmers ready for algorithms (Senior track) · *Duration:* A 24-week season, September to the CCC on Wednesday, February 17, 2027, joinable any month · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online Canadian Computing Competition prep for ages 13 to 18: Junior and Senior tracks in Python or C++, from September to the CCC on Wednesday, February 17, 2027.
 
 ### [Codex & Claude Code: AI Coding Agents for Professionals](https://learn.modernagecoders.com/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals/)
 
@@ -824,6 +860,12 @@ CBSE Informatics Practices course for Class 11 & 12: master Python, Pandas, NumP
 *Level:* Complete beginner (18+); college students, graduates and working professionals · *Duration:* 10-12 months (44-52 weeks) · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
 
 Kotlin course for college students and professionals: modern Kotlin, coroutines, then real Android development with Jetpack Compose in 10-12 months.
+
+### [Ontario Computer Science Companion: ICS3U and ICS4U (Python and Java)](https://learn.modernagecoders.com/courses/ics3u-ics4u-computer-science-companion-course/)
+
+*Level:* Ontario students in Grades 11 and 12 (roughly ages 15 to 18) taking ICS3U or ICS4U at school, in Python or Java · *Duration:* 6 months (24 weeks) per plan, joinable any month and paced to your school course · *Group:* ₹1,499/month · *1-on-1:* ₹4,999/month
+
+Live online ICS3U and ICS4U help in Python or Java, taught alongside your Ontario school course. We teach the skills; we do not grant Ontario high school credits.
 
 ### [PCAP Certification Prep: Certified Associate in Python Programming](https://learn.modernagecoders.com/courses/pcap-python-certification-prep-course/)
 

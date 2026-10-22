@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "slug": "ics3u-ics4u-computer-science-companion-course",
+    "date": "2026-10-22",
+    "title": "Ontario Computer Science Companion: ICS3U and ICS4U (Python and Java)",
+    "description": "Live online ICS3U and ICS4U help in Python or Java, taught alongside your Ontario school course. We teach the skills; we do not grant Ontario high school credits.",
+    "keywords": [
+      "ics3u",
+      "ics4u",
+      "ics3u help",
+      "ics4u help",
+      "ics3u python",
+      "ics3u java",
+      "ics4u java",
+      "ics3u exam review",
+      "ics4u exam review",
+      "grade 11 computer science ontario",
+      "grade 12 computer science ontario",
+      "is ics3u hard"
+    ],
+    "category": "Ontario High School Computer Science",
+    "taxonomy": "programming",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks) per plan, joinable any month and paced to your school course",
+    "level": "Ontario students in Grades 11 and 12 (roughly ages 15 to 18) taking ICS3U or ICS4U at school, in Python or Java",
+    "commitment": "2 live classes/week + short practice tasks between classes",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not an Ontario high school credit)",
+    "image_path": "ontario-computer-science-ics3u-ics4u.webp",
+    "dateModified": "2026-10-22"
+  },
+  "program_overview": {
+    "title": "Ontario Computer Science Companion: ICS3U and ICS4U",
+    "tagline": "A second teacher for Grade 11 and Grade 12 computer science: problem solving first, then clean code in Python or Java, in step with your school course.",
+    "description": "ICS3U (Introduction to Computer Science, Grade 11, University Preparation) and ICS4U (Computer Science, Grade 12, University Preparation) are Ontario's university-preparation computer science courses, described in the ministry's Computer Studies curriculum for Grades 10 to 12 (2008). The ministry describes ICS3U this way: \"Students will design software independently and as part of a team, using industry-standard programming tools and applying the software development life-cycle model\". For ICS4U it says: \"Students will use modular design principles to create complex and fully documented programs, according to industry standards\". In each Grade 11 and 12 course, the curriculum document says, the first strand is Programming Concepts and Skills and the second is Software Development, and the fourth strand \"deals with the role of computers in society\". ICS3U has no prerequisite; ICS4U requires \"Introduction to Computer Science, Grade 11, University Preparation\", which is ICS3U.\n\nThis course runs alongside the student's own ICS3U or ICS4U class. We teach in whichever language the school uses, Python or Java, and we follow the order of the student's school course outline, so what is learned here is used in class the same week. Every topic starts with the problem before the syntax: reading the task, breaking it into steps, writing the algorithm in plain words, then turning it into code and testing it. From there we build data types, control structures, lists and arrays, modular programming with functions or methods, string and file handling, sorting and searching, and for ICS4U students, recursion and object-oriented design. Assignments and the final project or exam are the student's own work: we explain, question and review, and the student writes the code.\n\nPlease read this plainly: Modern Age Coders teaches alongside school and does not grant Ontario high school credits. ICS3U and ICS4U are each worth one credit, and families who need the credit take the course through their school or a ministry-inspected credit provider. What we add is understanding, practice and confidence, in live classes with a real teacher.",
+    "what_makes_this_different": [
+      "Built around Ontario's ICS3U and ICS4U, following the student's own school course outline week by week",
+      "Python or Java, whichever the school uses, with the same concepts shown side by side when a student meets both",
+      "Problem solving and algorithm design before syntax: plain-word steps, tracing tables and test cases come first",
+      "Honest about credits: we teach alongside school and do not grant Ontario high school credits",
+      "Assignments stay the student's own work: we explain and review, we never write school code for them",
+      "Exam review technique taught directly: tracing code by hand, writing code on paper and planning answers under time"
+    ],
+    "learning_path": {
+      "phase_1": "Problem solving and the ICS3U core: algorithms in plain words, data types, input and output, decisions and loops, in Python or Java",
+      "phase_2": "Completing ICS3U: lists and arrays, modular programming, string and file handling, sorting and searching, the software development life cycle and exam review",
+      "phase_3": "The ICS4U toolkit: recursion, object-oriented design, algorithm efficiency, large documented programs, the final project and exam review"
+    },
+    "career_outcomes": [
+      "A clear understanding of the ideas behind ICS3U and ICS4U, not just working code",
+      "The habit of designing an algorithm before writing a line of Python or Java",
+      "Confidence with lists, arrays, files, strings, sorting, searching, recursion and classes",
+      "A planned, documented final project that is entirely the student's own work",
+      "An exam review method that works for tracing questions, written code and longer problems",
+      "A solid base for university computer science and programming courses later"
+    ]
+  },
+  "phase_1_problem_solving_and_ics3u_core": {
+    "title": "PHASE 1: Problem Solving and the ICS3U Core (Months 1-2, Weeks 1-8)",
+    "description": "How a programmer thinks before typing, then the building blocks every ICS3U program uses, in Python or Java.",
+    "month_1_algorithms_and_data": {
+      "title": "Month 1: Algorithms, Data Types and Input and Output",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Problem Solving Before Syntax",
+        "topics": [
+          "A starting conversation and short diagnostic: the school, the language, the course outline and the next assignment",
+          "Reading a programming task and listing the inputs, outputs and rules",
+          "Writing an algorithm as numbered plain-word steps, then as pseudocode",
+          "Flowcharts for decisions and repetition, kept simple",
+          "Tracing an algorithm by hand with a trace table",
+          "Setting up the school's editor or IDE at home so practice matches class"
+        ],
+        "projects": [
+          "Three small problems solved twice: once as plain-word steps, once as working code"
+        ],
+        "practice": "Write the algorithm for each practice task before opening the editor, and keep both"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Data Types, Variables and Expressions",
+        "topics": [
+          "Integers, decimals, text and true or false values, in Python and in Java",
+          "Static types in Java and dynamic types in Python, and what each means for errors",
+          "Arithmetic, integer division and remainder, and the rounding surprises they cause",
+          "Reading input and converting it to the right type",
+          "Formatting output neatly, as school assignments usually require",
+          "Naming variables so a marker can follow the code"
+        ],
+        "projects": [
+          "A unit converter or bill splitter with clear prompts, checked input and formatted output"
+        ],
+        "practice": "Short daily tracing questions: predict the output, then run the code to check",
+        "assessment": "Month 1 check: a short written trace plus one small program, reviewed with written feedback"
+      }
+    },
+    "month_2_control_structures": {
+      "title": "Month 2: Control Structures",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Decisions",
+        "topics": [
+          "if, else if and else in Python and Java",
+          "Boolean expressions with and, or and not",
+          "Nested decisions and when to flatten them",
+          "Testing every branch: choosing test cases on purpose",
+          "Validating input so a program does not crash on a bad value",
+          "Comparing text correctly, including the Java equals trap"
+        ],
+        "projects": [
+          "A rules-based program, such as a ticket pricing or grading-rules calculator, with a written test plan"
+        ],
+        "practice": "For every decision program, list the test cases first and record the expected results"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Loops",
+        "topics": [
+          "Counted loops and condition-controlled loops",
+          "Running totals, counters and finding the largest or smallest value",
+          "Loops that validate input until it is correct",
+          "Nested loops for tables and patterns",
+          "Off-by-one errors and how a trace table catches them",
+          "Choosing a for loop or a while loop for the job"
+        ],
+        "projects": [
+          "A number guessing game or a times-table quiz with scoring and replay"
+        ],
+        "practice": "A loop tracing set: write the value of every variable after each pass",
+        "assessment": "Phase 1 assessment: a written tracing section and a short program, marked with comments"
+      }
+    }
+  },
+  "phase_2_completing_ics3u": {
+    "title": "PHASE 2: Completing ICS3U (Months 3-4, Weeks 9-16)",
+    "description": "The data structures, modular design, files and classic algorithms that larger ICS3U programs need, plus the software development habits the course describes.",
+    "month_3_lists_and_modular_programming": {
+      "title": "Month 3: Lists, Arrays and Modular Programming",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Lists and Arrays",
+        "topics": [
+          "Python lists, Java arrays and Java ArrayList, and how they differ",
+          "Looping through a collection by index and by value",
+          "Parallel lists and when a better structure is needed",
+          "Searching a list for a value, counting matches and filtering",
+          "Two-dimensional lists and arrays for grids and tables",
+          "Index errors: why they happen and how to prevent them"
+        ],
+        "projects": [
+          "A class marks analyzer: store scores, report the average, the highest and lowest, and a simple bar display"
+        ],
+        "practice": "Short list and array tasks, each with a trace of the indexes visited"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Modular Programming with Functions and Methods",
+        "topics": [
+          "Breaking a program into functions in Python or static methods in Java",
+          "Parameters, return values and why a function should do one job",
+          "Local and global scope, and avoiding hidden shared state",
+          "Writing a short comment or docstring that says what a function does",
+          "Testing one function at a time",
+          "Refactoring a long program into clear modules"
+        ],
+        "projects": [
+          "Refactor an earlier project into well-named functions or methods, with a test for each"
+        ],
+        "practice": "For each new function, write its purpose, its inputs and its output before the body",
+        "assessment": "Month 3 check: a modular program built from a given plan, reviewed for structure and clarity"
+      }
+    },
+    "month_4_strings_files_sorting_searching": {
+      "title": "Month 4: Strings, Files, Sorting and Searching",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: String and File Handling",
+        "topics": [
+          "Strings as sequences: indexing, slicing or substring, and length",
+          "Common string tasks: counting letters, reversing, checking palindromes, simple ciphers",
+          "Splitting a line of text into fields and joining fields back together",
+          "Reading a text file line by line in Python and in Java",
+          "Writing results to a file and handling a missing file safely",
+          "Processing a small data file from start to finish"
+        ],
+        "projects": [
+          "A file report tool: read a data file, summarize it and write a tidy results file"
+        ],
+        "practice": "String puzzles and short file tasks, with the expected output written before running"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Sorting, Searching and the Development Life Cycle",
+        "topics": [
+          "Linear search and binary search, and when binary search is allowed",
+          "Bubble, selection and insertion sort, traced pass by pass",
+          "Counting comparisons to see why some algorithms are faster",
+          "The software development life cycle: analysis, design, coding, testing and maintenance",
+          "Planning and documenting a larger program, and working on a team project with clear roles",
+          "ICS3U exam review: tracing questions, written code and longer design questions"
+        ],
+        "projects": [
+          "A searchable, sortable record list built from a file, with a short design document and test log"
+        ],
+        "practice": "Trace each sort on a new list by hand, then confirm with code",
+        "assessment": "Phase 2 assessment: a mixed ICS3U-style review paper plus a program built from a written specification"
+      }
+    }
+  },
+  "phase_3_ics4u_toolkit": {
+    "title": "PHASE 3: The ICS4U Toolkit, Final Project and Exam Review (Months 5-6, Weeks 17-24)",
+    "description": "What we teach for Grade 12: recursion, object-oriented design, efficiency and large, fully documented programs, then the final project and exam review. ICS4U batches begin with a fast review of Phases 1 and 2.",
+    "month_5_recursion_and_object_oriented_design": {
+      "title": "Month 5: Recursion and Object-Oriented Design",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Recursion",
+        "topics": [
+          "Base case and recursive case, explained with small examples",
+          "Tracing recursion with a call stack diagram",
+          "Recursive versions of factorial, sums, string reversal and power",
+          "Recursive binary search and an introduction to merge sort",
+          "When recursion is clearer than a loop, and when it is slower",
+          "Common recursion mistakes: a missing base case and a case that never shrinks"
+        ],
+        "projects": [
+          "Write three recursive solutions and their loop versions, and compare them in a short written note"
+        ],
+        "practice": "Draw the call stack for every recursion question before running the code"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Classes and Object-Oriented Design",
+        "topics": [
+          "Classes and objects: attributes, methods and constructors in Java and Python",
+          "Encapsulation: private data and public methods",
+          "Designing classes from a description: nouns, responsibilities and relationships",
+          "Lists of objects, and sorting objects by a chosen field",
+          "Inheritance and when to use it, with a simple class diagram",
+          "Documenting classes and methods so another programmer can use them"
+        ],
+        "projects": [
+          "An object-oriented library, inventory or game roster program with a class diagram and documentation"
+        ],
+        "practice": "Design the classes on paper first, then build them one method at a time with tests",
+        "assessment": "Month 5 check: a recursion trace and a small class design, reviewed with written feedback"
+      }
+    },
+    "month_6_final_project_and_exam_review": {
+      "title": "Month 6: Efficiency, the Final Project and Exam Review",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Efficiency and Large Documented Programs",
+        "topics": [
+          "Comparing algorithms by counting steps, with an introduction to big-O language",
+          "Choosing data structures for the job: lists, dictionaries or maps, and sets",
+          "Modular design for larger programs: files, classes and clear interfaces",
+          "Version control basics with Git so work is never lost",
+          "If your school sets a final project or culminating task: reading the brief, scoping it and planning milestones",
+          "Writing user documentation, internal comments and a test log"
+        ],
+        "projects": [
+          "A project plan and working first version for the student's own final project, built by the student"
+        ],
+        "practice": "Weekly milestone check-ins: what was built, what was tested, what is next"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Exam Review Technique",
+        "topics": [
+          "Making a one-page summary for each topic of the school course",
+          "Tracing questions: working steadily with a trace table under time",
+          "Writing code on paper: structure first, then details, then a quick self-check",
+          "Design and explanation questions: answering exactly what is asked",
+          "Timed review papers in the style of school exams, with careful review afterwards",
+          "Reading the teacher's exam outline so revision matches what will be assessed"
+        ],
+        "projects": [
+          "A personal review pack: topic summaries, a mistakes list and two reviewed timed papers"
+        ],
+        "practice": "A timed mixed review each week, with every mistake written up and fixed",
+        "assessment": "Final assessment: a timed review paper plus a short live walk-through of the student's own project code"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "Does this course give my child an Ontario high school credit?",
+      "answer": "No. Modern Age Coders teaches alongside school and does not grant Ontario high school credits. ICS3U and ICS4U are each worth one credit, and a family who needs the credit takes the course through the student's school or a ministry-inspected credit provider. Our course helps the student understand and do well in the school course they are already taking."
+    },
+    {
+      "question": "Is ICS3U hard?",
+      "answer": "It is often a student's first full programming course, so the early weeks can feel steep. The hard part is usually not the syntax but turning a problem into steps. That is why we teach problem solving and algorithm design before code, use trace tables, and practise little and often. Most of the difficulty eases once a student can plan a program before typing it."
+    },
+    {
+      "question": "Does the course use Python or Java?",
+      "answer": "Whichever your school uses. Some ICS3U and ICS4U classes use Python, others use Java. We teach in the school's language so the work transfers straight back to class, and when it helps we show the same idea in the other language too."
+    },
+    {
+      "question": "What do ICS3U and ICS4U cover?",
+      "answer": "The ministry describes ICS3U as a course where students \"design software independently and as part of a team, using industry-standard programming tools and applying the software development life-cycle model\", and ICS4U as one where students \"use modular design principles to create complex and fully documented programs, according to industry standards\". In each Grade 11 and 12 course the first strand is Programming Concepts and Skills, the second is Software Development, and the fourth deals with the role of computers in society. Your school's course outline gives the detail for your class."
+    },
+    {
+      "question": "Does my child need to take ICS3U before ICS4U?",
+      "answer": "Yes. The ministry lists the ICS4U prerequisite as \"Introduction to Computer Science, Grade 11, University Preparation\", which is ICS3U. ICS3U itself has no prerequisite, so a student can start it without a Grade 10 computer course."
+    },
+    {
+      "question": "What is the difference between ICS3U and ICS3C?",
+      "answer": "Both are Grade 11 computer courses and neither has a prerequisite. ICS3U is the University Preparation course, Introduction to Computer Science. ICS3C is the College Preparation course, Introduction to Computer Programming, which the ministry describes as introducing \"computer programming concepts and practices\". This companion course is built around ICS3U and ICS4U."
+    },
+    {
+      "question": "How does ICS3U connect to university computer science?",
+      "answer": "Some programs name it directly. The University of Waterloo's Computer Science page lists \"Grade 11 U Introduction to Computer Science\", which is ICS3U, as a recommended course. The required courses on that page are mainly Grade 12 math and English, so a recommended course is an addition, not a replacement. Always check each university's current admission page. We make no admission promises; we help the student build real computer science understanding."
+    },
+    {
+      "question": "Will you do my child's assignments or final project?",
+      "answer": "No. School work stays the student's own. We explain concepts, ask questions, review code the student has written and suggest how to improve it, and we follow the school's rules on outside help. That is also the only kind of help that lasts into the exam room."
+    },
+    {
+      "question": "Can you help with exam review?",
+      "answer": "Yes. The course teaches exam technique directly: tracing code by hand, writing code on paper, answering design and explanation questions, and timed review papers with careful review afterwards. We also use the teacher's exam outline so revision matches what will actually be assessed."
+    },
+    {
+      "question": "Can my child join partway through the school year?",
+      "answer": "Yes, the course is joinable any month. We start from the student's current unit and next assignment, fill gaps from earlier units as needed, and keep pace with the school course from then on. ICS4U students begin with a quick review of the ICS3U ideas they will rely on."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group of 15 to 20 students, a mini batch of up to 6, or 1-on-1. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Current fees for your region are shown in the pricing section of this page."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. Book a free demo class. The teacher looks at where your child is in ICS3U or ICS4U, works through a short problem with them, and suggests whether group, mini batch or 1-on-1 classes fit best. There is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Plain-word algorithms and trace tables kept for every topic",
+      "Unit converter, rules-based calculator and loop games",
+      "Class marks analyzer using lists or arrays",
+      "File report tool and a searchable, sortable record list",
+      "Recursive and loop solutions compared in writing",
+      "An object-oriented program with a class diagram and documentation",
+      "A personal exam review pack"
+    ],
+    "total_projects_built": "A portfolio of small programs, a documented object-oriented program and a review pack, all the student's own work",
+    "skills_mastered": [
+      "Problem solving and algorithm design before code",
+      "Data types, input and output, decisions and loops in Python or Java",
+      "Lists, arrays and two-dimensional data",
+      "Modular programming with functions or methods",
+      "String and file handling",
+      "Sorting and searching, traced by hand and in code",
+      "Recursion and object-oriented design",
+      "Testing, documentation and exam review technique"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, paced to the student's school course outline",
+      "practice": "Short practice tasks after every class, separate from school assignments",
+      "review": "Practice work reviewed with written comments, and a monthly check that mixes in earlier topics"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an Ontario high school credit. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints and questions first so the student does the thinking",
+      "progress_updates": "A monthly progress note to parents with what was covered, what is strong and what to practise next"
+    }
+  },
+  "prerequisites": {
+    "school_course": "Currently taking, or about to take, ICS3U or ICS4U at an Ontario school. ICS4U students should have completed ICS3U",
+    "coding_level": "No coding experience needed for ICS3U students. ICS4U students should know the ICS3U basics, which we review quickly",
+    "age": "Roughly 15 to 18 (Grades 11 and 12)",
+    "equipment": "A computer with stable internet and the school's Python or Java editor installed",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "grade_11_students": "Grade 11 students meeting programming for the first time who want to understand it properly",
+    "grade_12_students": "Grade 12 students facing recursion, object-oriented design and a larger final project",
+    "students_who_feel_behind": "Students who missed a unit or lost confidence and want to catch up calmly",
+    "students_aiming_higher": "Students who are doing well and want to write cleaner, better designed code",
+    "future_cs_students": "Students thinking about university computer science who want a strong, honest foundation"
+  },
+  "career_paths_after_completion": [
+    "University computer science, software engineering or other programs that use programming",
+    "College programs in programming and computer systems",
+    "Contest programming, such as the Canadian Computing Competition, through our CCC preparation course",
+    "Further Python or Java study in our teen and college courses",
+    "Personal projects, clubs and open-source contributions built on solid fundamentals"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "small_batches": "Group classes of 15 to 20 students, with mini-batch (up to 6 students) and personal 1-on-1 options.",
+    "school_aligned": "Lessons paced to the student's own ICS3U or ICS4U course outline, in the school's language.",
+    "feedback": "Written feedback on practice work and a monthly progress note to parents.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A certificate from Modern Age Coders that you earn by passing the final assessment, with a free retest after revision if needed. It is not an Ontario high school credit.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  }
+}

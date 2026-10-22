@@ -506,5 +506,13 @@
  "middle-school-math-competitions-course": {
   "img": "/images/middle-school-math-competitions.webp",
   "alt": "Middle School Math Competitions - Modern Age Coders course"
+ },
+ "ics3u-ics4u-computer-science-companion-course": {
+  "img": "/images/ontario-computer-science-ics3u-ics4u.webp",
+  "alt": "Ontario Computer Science Companion: ICS3U and ICS4U - Modern Age Coders course"
+ },
+ "ccc-junior-and-senior-preparation-course": {
+  "img": "/images/ccc-junior-senior-prep.webp",
+  "alt": "CCC Junior and Senior Preparation - Modern Age Coders course"
  }
 }
