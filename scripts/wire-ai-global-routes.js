@@ -542,6 +542,7 @@ const SLUGS = [
   'math-30-1-tutor-alberta',
   'alberta-math-30-1-diploma-exam-prep',
   'math-30-1-vs-math-30-2',
+  'alberta-grade-9-math-pat-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1163,6 +1164,7 @@ const LLMS_LABELS = {
   'math-30-1-tutor-alberta': 'Math 30-1 tutor, Alberta',
   'alberta-math-30-1-diploma-exam-prep': 'Alberta Math 30-1 diploma exam prep',
   'math-30-1-vs-math-30-2': 'Math 30-1 vs Math 30-2',
+  'alberta-grade-9-math-pat-practice': 'Alberta Grade 9 math PAT practice',
 };
 
 function wireLlms(slugs) {
