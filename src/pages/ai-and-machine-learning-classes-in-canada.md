@@ -8,7 +8,7 @@ source: src/pages/ai-and-machine-learning-classes-in-canada.html
 
 In short
 
-Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a cohort of fifteen to twenty or privately. What is taught is model building: Python, the probability and matrix work beneath it, then training and testing models on published Canadian data. Lessons are in English, and because the staff work from India the timetable sits in Canadian mornings and weekends. A group seat is USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a cohort of fifteen to twenty or privately. What is taught is model building: Python, the probability and matrix work beneath it, then training and testing models on published Canadian data. Lessons are in English, in groups on weekdays or weekends, or one to one at a time the learner sets. A group seat is USD 100 a month, billed in US dollars, and the first class is free.
 
 The catalogue
 
@@ -62,7 +62,7 @@ CA / TEEN / 02
 
 #### Data Science for Teens
 
-Reading a file nobody tidied for you: loading, joining, plotting, catching the row in the wrong units. Most of the wildfire project lives here.
+Reading a file nobody tidied for you: loading, joining, plotting, catching the row in the wrong units. Most of the Montreal rink project lives here.
 
 [Open the syllabus](/courses/data-science-course-for-teens-python-data)
 
@@ -122,7 +122,7 @@ CA / PRO / 05
 
 #### Data Structures and Algorithms
 
-Every serious engineering employer puts this in front of a candidate, and it is why a pipeline surviving 39 rows survives 39 million.
+Every serious engineering employer puts this in front of a candidate, and it is why a pipeline that copes with 190,102 rink-days still copes at a hundred times that.
 
 [Open the syllabus](/courses/data-structures-algorithms-masterclass-college)
 
@@ -136,54 +136,85 @@ Mathematics to degree level, plus web, app and game building.
 
 What you actually build
 
-## Fewer fires, more of the country gone: modelling a Canadian fire season
+## Will the rink be open tomorrow? Twenty-three Montreal winters and one leakage trap
 
-Each country we teach into gets its opening project cut from its own public measurements. Canada gets wildfire. The 2025 season reported fewer fires than 2024 and burned far more land, which breaks a beginner's instinct that more fires must mean more damage. The figures trace back to Canadian Interagency Forest Fire Centre situation reports, each carrying its reporting date.
+Each country we teach into gets its opening project cut from its own public measurements. Canada gets the outdoor rink. The Ville de Montréal publishes the condition reports filed on its outdoor rinks since 21 December 2001, open or closed, cleared, flooded or resurfaced, under a Creative Commons Attribution 4.0 licence that allows commercial reuse. A beginner's instinct is to hand the model every column in the file. The column that scores best turns out to be one written down after the answer was already known.
 
-| Season | Fires reported | Area burned | Figure as of |
+| Winter | Reports with a status | Rink names reporting | Marked open |
 | --- | --- | --- | --- |
-| 2023 | 6,551 | 184,961 km2, or 18.496 M ha | 6 October 2023 |
-| 2024 | 5,686 | 5.378 M ha | 20 November 2024 |
-| 2025 | 5,349 | 8.78 M ha | 16 September 2025 |
+| 2001-02 | 4,759 | 135 | 30.7% |
+| 2010-11 | 8,016 | 135 | 65.9% |
+| 2013-14 | 11,824 | 239 | 70.1% |
+| 2019-20 | 8,448 | 239 | 64.5% |
+| 2024-25 | 9,353 | 239 | 92.9% |
+| 2025-26 | 108 | 45 | 83.3% |
 
-The fourth column is not decoration. These are snapshots from three different points in three seasons, and treating them as a certified series is the second trap here.
+The first and last rows are traps. The file opens on 21 December, part way through a winter, and 2025-26 holds 108 reports so far. Neither is a winter, so both leave the panel before any model sees them.
 
-Run the arithmetic before touching a model. 184,961 km2 at 100 hectares per square kilometre gives 18,496,100 hectares, matching the 18.496 million figure. Unit checking is the first hour here.
+Count before you model. Our download has 355,183 rows, the same total the city's data portal gives for the file, across 19 boroughs and 306 distinct rink name strings. In 85,277 rows the OUVERT column is blank. A blank is not a closed rink. Filling those cells with zero would invent 85,277 closures that nobody reported.
 
-Here is the comparison the project hangs on. From 2024 to 2025 the number of fires fell about 6 per cent while the area burned rose roughly 63 per cent. What decides how much of Canada burns is not the number of ignitions. It is a handful of extreme fire weather days, and how large a few megafires get.
+Here is the comparison the project hangs on. Of the 77,036 skating rink reports where RESURFACÉ is 1, 76,869 also say the rink is open: 99.78 per cent. DÉBLAYÉ, the snow cleared flag, behaves the same way, open in 118,877 of 119,164 reports. Give a model those columns and it looks close to perfect, because each one is filed in the same report as the answer. Nobody knows tonight whether a rink will be resurfaced tomorrow.
 
-The target is hectares burned in one province in one season, modelled as log1p of hectares, so one row is one jurisdiction in one fire season. The learner assembles the features rather than downloading them ready made: seasonal mean Fire Weather Index and Drought Code, May to June precipitation anomaly, lightning strike count, fires overwintered from the previous season, and days at preparedness level 4 or 5.
+The target is OUVERT for one rink on one day, a plain yes or no. One row is a rink-day, using the last report filed that day, from 1 November to 31 March, across the 23 complete winters from 2002-03 to 2024-25: 190,102 rows in our panel. The learner builds the features: rink type read from the code at the end of each name, borough, days counted from 1 December, day of the week, the calendar date, and whether the same rink was open yesterday. Daily temperature is the obvious missing piece. It is not in this file, so the learner finds a source, reads its licence and joins it by date.
 
-pandasscikit-learn GroupKFoldlog1p target gradient boostingmean absolute error
+pandasscikit-learn GroupKFoldbalanced accuracy gradient boostingleakage audit
 
-| Province or territory | Season | Fires | Area burned | Note |
-| --- | --- | --- | --- | --- |
-| British Columbia | 2023 | 2,293 | 2,840,104 ha | stated as the final tally |
-| Alberta | 2023 | 1,088 | 2,222,900 ha | end of fire season |
-| Alberta | 2024 | not stated | 775,000 ha | against 2.2 million in 2023 |
-| Manitoba | 2024 | not stated | 266,000 ha | season total |
-| Northwest Territories | 2024 | not stated | 1.7 M ha | by the end of October |
+| Code | What the names in the file say | Rink names | Reports with a status | Marked open | Open when RESURFACÉ is 1 |
+| --- | --- | --- | --- | --- | --- |
+| PSE | Patinoire avec bandes, rinks with boards | 117 | 93,455 | 75.3% | 99.78% |
+| PPL | Patinoire de patin libre, free skating | 83 | 69,874 | 66.5% | 99.74% |
+| PP | Decorative rinks, ice paths and skating rings | 39 | 34,186 | 58.1% | 99.90% |
 
-Three rows have no published fire count. The cell says so rather than carrying a zero, because a zero is a claim and a blank is an absence.
+Source: [Patinoires, historique des conditions](https://donnees.montreal.ca/dataset/patinoires-historique), Ville de Montréal, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Every figure in this section is our own count from the file as downloaded on 22 October 2026. Rink names are distinct strings in the file, not a verified count of rinks. Some rinks are spelled two ways and a few carry a doubled code, so a cleaning pass comes first, and the counts will move when it is done.
 
-1. #### Assemble the panel by hand, and normalise the snapshots
+1. #### Assemble the panel, and decide what a blank means
 
-  One row per province or territory per fire season, built from the situation reports rather than a tidy download, with the as-of date of every area figure in its own column. Then keep only end of season figures, or fix one calendar cutoff for every row. The three national rows above are dated 6 October, 20 November and 16 September, so scraping the latest total per year sets a mid-September number against a late-November one and invents a decline that is really a publishing schedule.
-2. #### Engineer the fire weather features, and mark which are knowable in advance
+  Sort by timestamp and keep the last report per rink per day. Drop 2001-02 and 2025-26, keep 1 November to 31 March, and leave blank OUVERT rows out of the target rather than coding them as closed. Then face the coverage jump: 135 rink names report through 2010-11 and 239 from 2013-14. That is the file covering more rinks, not Montreal skating more. A model given the year as a number will read it as a change in skating, so mark it, and score the model with and without the winters before 2013-14.
+2. #### Engineer the features, and mark which are knowable in advance
 
-  For each feature, write down whether it is known at the moment a forecast is wanted. Fire count is not: it is final only once the season ends, and it barely tracks the target anyway.
-3. #### Plot the target, then plot it again
+  For every column, write down whether it is known the evening before. Rink type, borough, date, day of the week and yesterday's status: yes. DÉBLAYÉ, ARROSÉ and RESURFACÉ for the same day: no. They sit in the same report as OUVERT, and the table above shows how closely they track it.
+3. #### Look at the class balance, then choose the metric
 
-  Hectares burned is violently right skewed. Apply log1p and plot again, then write one sentence saying why. On raw hectares one season owns nearly all the squared error, and the model optimises for that year alone.
-4. #### Build the baseline that every later model has to beat
+  Across the panel 70.6 per cent of rink-days are open, and the share moves by winter, from 60.7 per cent in 2011-12 to 93 per cent in 2024-25. A model that always answers open scores 93 per cent accuracy on 2024-25 and a balanced accuracy of exactly 0.5, because it never gets a closed day right. So the project reports balanced accuracy: the average of the hit rate on open days and the hit rate on closed days.
+4. #### Build the two baselines every later model has to beat
 
-  Predict each province's own historical median hectares. That is the floor, and any model failing to beat it is not a model. The baseline goes in the results table so it cannot be dropped.
-5. #### Fit under GroupKFold, grouped by fire season
+  Baseline one predicts open when more than half the rinks in the training winters were open on that day of winter. In our run it scores 0.578. Baseline two says tomorrow will look like today, falling back to baseline one when yesterday has no report, and it scores 0.892. Both go in the results table so neither can be dropped, and the second is far harder to beat than it looks.
+5. #### Fit under GroupKFold, grouped by winter
 
-  Gradient boosting, with groups set to the season year. Report mean absolute error on the log scale and back transformed into hectares, because a reader can argue with hectares and not with a log-axis decimal.
+  Gradient boosting with groups set to the winter, five folds, so every test fold is whole winters the model has never seen. Calendar and rink features alone reach 0.675. Adding yesterday's status reaches 0.912, which beats tomorrow-looks-like-today by 0.020. That margin, not the headline number, is the result the write-up has to defend.
 6. #### Rerun it wrong on purpose, and write up the gap
 
-  Do step five again with a plain random split and record the inflated score. Canadian fire seasons are correlated across the continent: 2023 was catastrophic in British Columbia at 2,840,104 hectares and Alberta at 2,222,900 hectares at once, on the same drought and heat. Under a random split, British Columbia 2023 sits in training while Alberta 2023 sits in test, so the model learns nothing about fire weather. It learns to recognise a row from 2023, which it reads off the training set. The grouped score is lower and it is the honest one. When rows share a shock, split on the shock.
+  Repeat step five with a plain shuffled split. Calendar features climb from 0.675 to 0.711, and the model with yesterday from 0.912 to 0.928. Every rink in the city sits under the same cold snap and the same thaw. Shuffle the rows and one rink's 14 January lands in test while dozens of other rinks' 14 January sit in training, so the model reads the day's answer off its neighbours. Then put the three maintenance flags back under the honest split and watch the score reach 0.989. Both inflations have one cause: the model was shown something it could not know when the forecast was wanted. When rows share a day, split on the winter. When a column is written with the answer, leave it out.
+7. #### Write it up so someone outside the class can check it
+
+  One page: the question, the source and its licence, which rows were kept and which dropped and why, both baselines, the grouped score with its fold spread, the shuffled score labelled as inflated, and the three columns left out with the reason. It closes with what would change the answer, such as a temperature join or another winter as open as 2024-25.
+
+***Python · the honest split and the shuffled one**python*
+
+```
+# rink_split.py (ours): the same model, scored two ways
+import pandas as pd
+from sklearn.ensemble import HistGradientBoostingClassifier
+from sklearn.model_selection import GroupKFold, KFold, cross_val_score
+
+panel = pd.read_csv("rink_days.csv")      # one row per rink per day
+for col in ["rink_type", "borough"]:
+    panel[col] = panel[col].astype("category")
+known_tonight = ["rink_type", "borough", "day_of_winter",
+                 "weekday", "date_ord", "open_yesterday"]
+X, y = panel[known_tonight], panel["open"]
+
+model = HistGradientBoostingClassifier(random_state=0)
+by_winter = cross_val_score(model, X, y, groups=panel["winter"],
+                            cv=GroupKFold(n_splits=5),
+                            scoring="balanced_accuracy")
+shuffled = cross_val_score(model, X, y,
+                           cv=KFold(n_splits=5, shuffle=True, random_state=0),
+                           scoring="balanced_accuracy")
+print(round(by_winter.mean(), 3), round(shuffled.mean(), 3))
+```
+
+On the city's file, downloaded 22 October 2026, our full version of this prints 0.912 for the grouped split and 0.928 for the shuffled one. The grouped number is lower, and it is the one to publish.
 
 The distinction
 
@@ -203,10 +234,10 @@ Both are taught here, in that sequence, and we name which holds its value. One i
 #### Building AI
 
 - Open a public file, count the rows, and work out what the columns mean
-- Notice one bad season hit two provinces at once, and split on that
+- Notice that one cold snap reaches every rink in the city on the same day, and split on the winter
 - Choose a model knowing what it assumes on your behalf
-- Report the error in hectares, so a reader with no statistics can argue
-- Put it in front of a season it has never seen and accept the lower score
+- Report the score next to a tomorrow-looks-like-today baseline, so a reader with no statistics can argue
+- Put it in front of a winter it has never seen and accept the lower score
 - Underneath sit probability, matrices and code, none of which expire
 
 Canada makes that argument easy, because the building side is domestic: a language model company valued at roughly $7 billion in September 2025 runs from Toronto, and three federally funded institutes sit in Montreal, Toronto and Edmonton.
@@ -241,9 +272,9 @@ $240 million
 
 Cohere revenue reported by CNBC in February 2026, from a company run out of Toronto
 
-8.78 M ha
+190,102
 
-Burned in the 2025 Canadian fire season as of 16 September 2025, the season behind the opening project
+Rink-days in the opening project's panel, 23 Montreal winters, our count of the Ville de Montréal's CC BY 4.0 file downloaded 22 October 2026
 
 School and university
 
@@ -281,27 +312,44 @@ Both flagships want Grade 12 calculus and advanced functions, so the mathematics
 
 How the classes run
 
-## Canadian mornings and weekends, because the after-school hour lands in the Indian night
+## Pick the days and the hour: a weekday or weekend group, or 1-on-1 on your own schedule
 
-Canada spans six time zones, while India sits at UTC plus 5 hours 30 minutes in every month and keeps no daylight saving, so the gap moves twice a year. In July 2026, Toronto, Ottawa and Montreal are 9 hours 30 minutes behind India; Winnipeg 10 hours 30 minutes, Calgary and Edmonton 11 hours 30 minutes, Vancouver 12 hours 30 minutes, Halifax 8 hours 30 minutes and St. John's 8 hours. In winter, Toronto is 10 hours 30 minutes behind and Vancouver 13 hours 30 minutes. Saskatchewan and Yukon never move.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every class time we confirm is written in the family's own zone, and Canada's clocks look different from this autumn, so the table below is the 2026 version rather than the one many families remember.
 
-Saturday 09:00 to 10:30 ET
+Weekdays
 
-Toronto time, 18:30 to 20:00 the same day in India. Our default cohort slot, and the easiest to staff properly.
+Weekday times are on offer for a group of fifteen to twenty, with the same teacher each time. Tell us the days that fit the learner's week and we work from those.
 
-Sunday 10:30 to 12:00 ET
+Weekends
 
-Toronto time, 20:00 to 21:30 the same day in India. The unhurried slot, and the one parents most often sit in on.
+Weekend times on request, for families whose weekdays are already full of school, sport and shifts. The syllabus and the weekly build task do not change with the day.
 
-Saturday 08:00 to 09:30 PT
+1-on-1, your hours
 
-Vancouver time, 20:30 to 22:00 the same day in India. Built for British Columbia, Alberta and the Yukon, not converted from an Eastern slot.
+Private teaching at a time the learner sets, moved when the term changes. The usual choice in Grade 11 and 12, and for adults fitting study round work.
+
+| Where | Cities | Winter | Summer | What changed |
+| --- | --- | --- | --- | --- |
+| Newfoundland | St. John's | UTC-3:30 | UTC-2:30 | Nothing: clocks still change twice a year |
+| Nova Scotia, New Brunswick, Prince Edward Island, Labrador (most) | Halifax, Moncton, Charlottetown | UTC-4 | UTC-3 | Nothing: clocks still change twice a year |
+| Ontario (most) and Quebec (most) | Toronto, Ottawa, Montreal | UTC-5 | UTC-4 | Nothing: clocks still change twice a year |
+| Manitoba | Winnipeg, Brandon | UTC-5 | UTC-5 | Clocks do not go back on 1 November 2026, so the province stays on UTC-5 |
+| Saskatchewan | Regina, Saskatoon | UTC-6 | UTC-6 | No seasonal change |
+| Alberta | Calgary, Edmonton | UTC-6 | UTC-6 | The Official Time Act sets official time at 6 hours behind UTC |
+| British Columbia (most) | Vancouver, Victoria, Kelowna | UTC-7 | UTC-7 | Permanent since the spring change on 8 March 2026 |
+| Yukon | Whitehorse | UTC-7 | UTC-7 | Permanent since 2020 |
+
+Sources: the British Columbia government release of 2026 on permanent time, Manitoba's news release on clocks not reverting on 1 November, and Alberta's Official Time Act. For the Northwest Territories, Nunavut and the parts of Ontario, Quebec and British Columbia that keep another clock, we confirm the offset with the family.
 
 ### What a session is
 
 An hour and a half of live teaching with the same person each week, who arrives knowing where the student stopped. Both screens stay visible, so a mistake is corrected while it is still being typed. Groups run fifteen to twenty, or one to one for a learner who wants the syllabus bent to a goal.
 
-Homework is a thing to build, never a worksheet, and a question at nine in the evening reaches the teacher who set it rather than a queue. We will not sell a Canadian weekday evening, and the reason is arithmetic: 7:00 PM in Toronto is 4:30 the next morning in India, and 7:00 PM in Vancouver is 7:30. Nobody teaches well at either hour. Enrolment stays open all year.
+Homework is a thing to build, never a worksheet, and a question sent between classes reaches the teacher who set it rather than a queue. Enrolment stays open all year.
+
+### What the new clocks mean for a family
+
+Three things are true from 1 November 2026. Winnipeg and Toronto read the same time all winter, then Toronto moves an hour ahead again on 14 March 2027. Calgary, Edmonton, Regina and Saskatoon share one clock all year. Vancouver sits one hour behind them, every month. So Vancouver is two hours behind Toronto in winter and three in summer, and a group that mixes provinces can drift by an hour against itself twice a year. We reconfirm each family's local class time in the weeks of both changes.
 
 ### The Canadian year, which is thirteen calendars
 
@@ -351,7 +399,7 @@ Data and forecasting
 
 #### SkyCast, a weather app
 
-Live forecast data presented as an application, the closest cousin of the fire season work above.
+Live forecast data presented as an application, and the natural partner to the rink project above: daily weather is the join that model is missing.
 
 by Krish
 
@@ -472,7 +520,7 @@ The college and adult cohort, not a teen one. Quebec secondary school ends after
 
 ### What time are classes in Vancouver, Toronto and Regina, and does the time change?
 
-We sell Canadian mornings and weekends and not weekday evenings, because our teachers are in India and 7:00 PM in Toronto is 4:30 the following morning there. Three slots work cleanly: Saturday 09:00 to 10:30 Eastern, Sunday 10:30 to 12:00 Eastern, and Saturday 08:00 to 09:30 Pacific. India holds at UTC plus 5 hours 30 minutes and never moves its clocks, so the gap changes when Canada changes, in November and again in March, and we rebuild the timetable both times. Saskatchewan and Yukon never shift, so Regina, Saskatoon and Whitehorse keep one offset all year.
+At a time the family chooses, on weekdays or at weekends, in a group or one to one, and every time we confirm is written in your own zone. The clocks need more care than usual this year. British Columbia has stayed on UTC-7 since 8 March 2026, Alberta and Saskatchewan sit on UTC-6 all year, and Manitoba stays on UTC-5 from 1 November 2026 instead of falling back. Ontario and Quebec still change, UTC-5 in winter and UTC-4 in summer. So Vancouver is two hours behind Toronto in winter and three in summer, while Regina is one hour behind Toronto in winter and two in summer. We reconfirm local class times in the weeks the eastern clocks change.
 
 ### Will this help with the Canadian Computing Competition or the Euclid?
 
@@ -494,7 +542,7 @@ Start here
 
 ## One free class, and then you decide
 
-Give us a number and a mentor returns the call inside Canadian hours rather than ours. The free session is a lesson and not a pitch: a teacher runs it as they would any other, and uses it to decide which band and course the learner should enter. Nothing is charged to enrol and no card is touched beforehand.
+Give us a number and a mentor returns the call inside Canadian hours. The free session is a lesson and not a pitch: a teacher runs it as they would any other, and uses it to decide which band and course the learner should enter. Nothing is charged to enrol and no card is touched beforehand.
 
 Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
 

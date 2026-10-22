@@ -213,7 +213,7 @@ Every mentor teaches from a structured curriculum, adapted live to your child. I
 
 [Grades 1-6Elementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)[Grades 7-10Middle School Mathematics Mastery Program](/courses/comprehensive-middle-school-mathematics-mastery)[Grades 11-12High School Mathematics Mastery Program](/courses/complete-high-school-mathematics-mastery)[For the Euclid mindsetOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)Pricing
 
-## Premium teaching. One honest price.
+## Serious teaching. One honest price.
 
 You are paying for a real teacher, live, for a full hour, twice a week, the format Canadian private tutors bill C$40 to C$80 an hour for. Our cost base is global, so the price is not.
 
