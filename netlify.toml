@@ -25365,6 +25365,18 @@
   to = "/src/pages/eqao-grade-3-math-practice.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/eqao-grade-6-math-practice"
+  to = "/src/pages/eqao-grade-6-math-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/eqao-grade-6-math-practice.md"
+  to = "/src/pages/eqao-grade-6-math-practice.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
