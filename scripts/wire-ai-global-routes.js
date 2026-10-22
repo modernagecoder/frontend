@@ -498,6 +498,7 @@ const SLUGS = [
   'mdm4u-data-management-tutor',
   'mcf3m-vs-mcr3u',
   'ontario-coding-curriculum-grades-1-to-8',
+  'ontario-grade-6-math-and-coding-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1075,6 +1076,7 @@ const LLMS_LABELS = {
   'mdm4u-data-management-tutor': 'MDM4U Data Management tutor',
   'mcf3m-vs-mcr3u': 'MCF3M vs MCR3U',
   'ontario-coding-curriculum-grades-1-to-8': 'Ontario coding curriculum, Grades 1 to 8',
+  'ontario-grade-6-math-and-coding-help': 'Ontario Grade 6 math and coding help',
 };
 
 function wireLlms(slugs) {

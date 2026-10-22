@@ -199,7 +199,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 14 | mcr3u-functions-tutor (mft, #4C1919) | school-on | 5,641 | 1.5% vs ics3u-computer-science-help | school course help | functions | ea723888 |
 | 17 | mdm4u-data-management-tutor (mdmt, #1E7011) | school-on | 6,799 | 1.8% vs mcr3u-functions-tutor | school course help | data analysis | f07746c7 |
 | 18 | mcf3m-vs-mcr3u (mm, #274C2B) | school-on | 5,207 | 1.2% vs mcr3u-functions-tutor | decision page | course choice | b4ff1f34 |
-| 8 | ontario-coding-curriculum-grades-1-to-8 (ont, #0C5215) | school-on | 5,821 | 1.8% vs canada-coding-curriculum-by-province | curriculum reference | coding by grade | (this commit) |
+| 8 | ontario-coding-curriculum-grades-1-to-8 (ont, #0C5215) | school-on | 5,821 | 1.8% vs canada-coding-curriculum-by-province | curriculum reference | coding by grade | d3317f81 |
+| 9 | ontario-grade-6-math-and-coding-help (ong, #0C5235) | school-on | 5,447 | 0.7% vs ontario-coding-curriculum-grades-1-to-8 | grade help | divisibility and coding | (this commit) |
 
 ## Skipped
 
