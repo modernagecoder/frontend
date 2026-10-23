@@ -340,7 +340,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 168 | math-tutor-vancouver (mtuv, #664D1C) | math-city | 4,413 | 1.1% vs online-coding-and-python-classes-in-red-deer | math city page | math on city data | af9267fe |
 | 169 | math-tutor-surrey-bc (maac, #39662B) | math-city | 4,134 | 1.7% vs math-tutor-waterloo-ontario | math city page | math on city data | e498be9f |
 | 170 | math-tutor-burnaby (maad, #343C85) | math-city | 3,993 | 1.8% vs math-tutor-vancouver | math city page | math on city data | 49ee9def |
-| 171 | math-tutor-calgary (mtuc, #2D2361) | math-city | 4,241 | 1.7% vs math-tutor-waterloo-ontario | math city page | math on city data | (this commit) |
+| 171 | math-tutor-calgary (mtuc, #2D2361) | math-city | 4,241 | 1.7% vs math-tutor-waterloo-ontario | math city page | math on city data | d37a818f |
+| 173 | math-tutor-winnipeg (mtuw, #703C18) | math-city | 4,052 | 2% vs math-tutor-waterloo-ontario | math city page | math on city data | (this commit) |
 
 ## Skipped
 

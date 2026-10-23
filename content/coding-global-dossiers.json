@@ -59815,5 +59815,67 @@
       "Names of Calgary schools, board results or private people: not used.",
       "Any affiliation with The City of Calgary, Alberta Education and Childcare or CEMC."
     ]
+  },
+  "math-tutor-winnipeg": {
+    "market": "Winnipeg",
+    "bodyClass": "cg-mtuw",
+    "pageType": "city",
+    "curriculumAuthority": "Manitoba, read 23 October 2026 from edu.gov.mb.ca and saved raw: assessment schedule 2026/27 (Grade 3 numeracy collection 19 October to 27 November 2026; Grade 7 mathematics 18 January to 26 February 2027; Grade 12 Applied 26 January and 17 June, Essential 27 January and 16 June, Pre-Calculus 28 January and 15 June 2027; end of each semester; marked locally; 20 per cent of the final grade); Framework for Learning (two new Grade 9 courses piloted 2026/27, full 2027/28; Grade 12 course list; Pre-Calculus course code 3939, one credit, course overview; Applied 3903); Manitoba news release 75397 (clocks will not revert on 1 November 2026); UTC-5 all year and area codes 204, 431, 584 (facts-geo.md); CEMC 2026-27 dates and the through-a-school rule.",
+    "localProject": "City of Winnipeg open data, Tree Inventory (Open Government Licence - Winnipeg, commercial use allowed), grouped counts fetched with the SODA API on 23 October 2026 and analysed with our scripts trees.py and worked.py (python -I): 305,969 trees, 197 common-name labels; green ash 81,895 (26.77%), American Elm 39,661 (12.96%); chance two random trees share a label 0.1102 and both green ash 0.0716; 160 neighbourhoods with 500+ trees, Maybank 0.0613 to Southland Park 0.431; 690 trees without a neighbourhood; eight or more elm labels. Labelled as ours. Lesson family: combinations, permutations with repeated elements, probability from counts.",
+    "requiredMentions": [
+      "305,969 trees under 197 common-name labels",
+      "about 11 times in 100",
+      "both are green ash alone is 0.0716",
+      "Southland Park, 452 of 696 trees",
+      "Maybank",
+      "690 trees carry no neighbourhood",
+      "10! / (5! 3! 2!) = 2,520",
+      "The probability is 14/45",
+      "Kingston Crescent",
+      "Thursday 28 January and Tuesday 15 June 2027"
+    ],
+    "sources": [
+      {
+        "claim": "City of Winnipeg open data: Tree Inventory (description, department, update interval, licence).",
+        "url": "https://data.winnipeg.ca/Parks/Tree-Inventory/hfwk-jp4h"
+      },
+      {
+        "claim": "City of Winnipeg: Open Government Licence - Winnipeg (commercial use, attribution, non-endorsement).",
+        "url": "https://data.winnipeg.ca/open-data-licence"
+      },
+      {
+        "claim": "Manitoba Education and Early Childhood Learning: provincial assessment programme and 2026/27 schedule.",
+        "url": "https://www.edu.gov.mb.ca/k12/assess/index.html"
+      },
+      {
+        "claim": "Manitoba Framework for Learning: curriculum updates 2026/27 (new Grade 9 math courses).",
+        "url": "https://www.edu.gov.mb.ca/k12/cur/math/index.html"
+      },
+      {
+        "claim": "Manitoba Framework for Learning: Grade 12 Pre-Calculus Mathematics (course code, credit, overview).",
+        "url": "https://www.edu.gov.mb.ca/k12/framework/english/math/grade_12/precal.html"
+      },
+      {
+        "claim": "Manitoba Framework for Learning: Grade 12 mathematics course list.",
+        "url": "https://www.edu.gov.mb.ca/k12/framework/english/math/math_gr12.html"
+      },
+      {
+        "claim": "Manitoba news release: clocks will not revert to standard time on 1 November 2026.",
+        "url": "https://news.gov.mb.ca/news/?item=75397"
+      },
+      {
+        "claim": "CEMC: contest dates for 2026/27 and how contests work.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Winnipeg or Manitoba population figure: StatCan was not reachable live.",
+      "Tree health, pests or disease: the file has a tag column related to tree disease; it is not used.",
+      "That the 197 labels are 197 species: refused; several labels name the same kind of tree.",
+      "That our lessons earn Manitoba credits or affect provincial test results: refused.",
+      "Grade 12 provincial test format details (question counts, calculators): not read in a saved source, so not printed.",
+      "Names of Winnipeg schools, division results or private people: not used.",
+      "Any affiliation with the City of Winnipeg, Manitoba Education and Early Childhood Learning or CEMC."
+    ]
   }
 }
