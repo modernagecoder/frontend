@@ -8054,4 +8054,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-saskatchewan /src/pages/coding-classes-in-saskatchewan.html 200
 /coding-classes-in-saskatchewan.md /src/pages/coding-classes-in-saskatchewan.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-nova-scotia /src/pages/coding-classes-in-nova-scotia.html 200
+/coding-classes-in-nova-scotia.md /src/pages/coding-classes-in-nova-scotia.md 200
 /* /src/pages/404.html 404

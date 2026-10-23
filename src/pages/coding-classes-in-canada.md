@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding classes in Nova Scotia](/coding-classes-in-nova-scotia)
 - [Coding classes in Saskatchewan](/coding-classes-in-saskatchewan)
 - [Coding classes in Manitoba](/coding-classes-in-manitoba)
 - [Coding classes in Quebec](/coding-classes-in-quebec)

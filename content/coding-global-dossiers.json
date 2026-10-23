@@ -57021,5 +57021,85 @@
       "That our classes grant or count toward a Saskatchewan credit: refused.",
       "Any affiliation with the Saskatchewan Ministry of Education, the Ministry of Parks, Culture and Sport, a school division or CEMC."
     ]
+  },
+  "coding-classes-in-nova-scotia": {
+    "market": "Nova Scotia",
+    "bodyClass": "cg-ns",
+    "pageType": "city",
+    "curriculumAuthority": "Nova Scotia, read 22 October 2026 from ednet.ns.ca and plans.ednet.ns.ca (Education and Early Childhood Development) and saved raw: Credits for Graduation Diploma (18 credits, Grade 10 and Grade 12 limits, three math credits, one science or technology credit from Sciences, Skilled Trades, Technology Education, Technology Integration and ICT Courses, Extended Mathematics 11 as math plus technology, 20 to 24 credits encouraged); Public School Program pages (Primary to 3 information technology integrated; Grades 7 and 8 numeracy block; secondary program begins at Grade 9; AP available); Provincial Assessments and Examinations (Grades 3, 6, 8 assessments; Grade 10 exams; 2026-27 windows; Grade 6 and 8 online; Mathematics 10 exam 23 June 2027, 20% of course mark, two hours, paper; Grade 8 results not used for report cards). Nova Scotia Virtual School Computer Programming 12 (Technology Education, second semester, Java on CodeHS). Atlantic time and Cape Breton zone from tzdb 2026e; area codes 782 and 902 from facts-geo.md. CEMC dates via facts-schools-contests.md.",
+    "localProject": "Nova Scotia open data, Nova Scotia Public Libraries Statistics (Communities, Culture, Tourism and Heritage; Open Government Licence - Nova Scotia), rows.csv downloaded with curl on 22 October 2026 and analysed with our script library_rates.py (python -I), 2024-2025 against 2022-2023: loans per item owned from 6.99 (Halifax Public Libraries) to 1.87 (Western Counties); visits per hour open from 76.3 to 2.1 (Eastern Counties); visits change from -12.6% (Annapolis Valley) to +24.7% (Halifax). Regions never summed. Labelled as ours. Lesson family: rates and percent change instead of totals.",
+    "requiredMentions": [
+      "Nova Scotia Public Libraries Statistics",
+      "Open Government Licence - Nova Scotia",
+      "Students require a minimum of 18 credits to graduate.",
+      "Technology Integration and ICT Courses",
+      "Extended Mathematics 11",
+      "the numeracy block which includes mathematics, technology and science",
+      "America/Glace_Bay",
+      "Eastern Counties shows 2.1 in-person visits per hour open",
+      "Same Page shared catalogue",
+      "counts for 20% of the final course mark"
+    ],
+    "sources": [
+      {
+        "claim": "Credits for Graduation Diploma (Nova Scotia Education and Early Childhood Development).",
+        "url": "https://www.ednet.ns.ca/docs/creditsforgraduationdiplomaen.pdf"
+      },
+      {
+        "claim": "Provincial Assessments and Examinations: grades, 2026-27 windows, online Grade 6 and 8 assessments.",
+        "url": "https://plans.ednet.ns.ca/"
+      },
+      {
+        "claim": "Mathematics 10 provincial examination: courses, 20% of the final mark, two-hour paper session.",
+        "url": "https://plans.ednet.ns.ca/mathematics-10"
+      },
+      {
+        "claim": "Grade 8 provincial assessment: results not used for report card grades.",
+        "url": "https://plans.ednet.ns.ca/grade-8"
+      },
+      {
+        "claim": "Public School Program, Primary to Grade 3 (information technology integrated).",
+        "url": "https://www.ednet.ns.ca/psp/teaching-learning/learning/programs-curriculum/grade-levels/primary-3"
+      },
+      {
+        "claim": "Public School Program, Grades 4 to 8 (numeracy block in Grades 7 and 8).",
+        "url": "https://www.ednet.ns.ca/psp/teaching-learning/learning/programs-curriculum/grade-levels/4-8"
+      },
+      {
+        "claim": "Public School Program, Grades 9 to 12 (secondary program begins at Grade 9; AP available).",
+        "url": "https://www.ednet.ns.ca/psp/teaching-learning/learning/programs-curriculum/grade-levels/9-12"
+      },
+      {
+        "claim": "Nova Scotia Virtual School, Computer Programming 12.",
+        "url": "https://elearning.ednet.ns.ca/index.php/cm-course/computer-programming-12/"
+      },
+      {
+        "claim": "Nova Scotia open data: Nova Scotia Public Libraries Statistics.",
+        "url": "https://data.novascotia.ca/d/tnu4-55e9"
+      },
+      {
+        "claim": "Open Government Licence - Nova Scotia, version 1.1 (read from the Internet Archive copy of 23 July 2026; the live host did not connect).",
+        "url": "https://support.novascotia.ca/services/open-data-portal-licence"
+      },
+      {
+        "claim": "CEMC contests 2026-27: BCC, CCC, Pascal, Cayley and Fermat dates; languages; through a school.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Halifax and America/Glace_Bay.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Nova Scotia or Halifax population figure: none printed.",
+      "A provincial total for library borrowing, visits or items: never summed from the nine regions.",
+      "That Computer Programming 12 counts as the science or technology graduation credit: not stated; the page quotes the categories and leaves eligibility to the school.",
+      "The pandemic detail in the library usage note: reduced to \"closures\"; no health content on the page.",
+      "The contact person named in the credits PDF: not reproduced.",
+      "Course facts from curriculum.novascotia.ca: the host did not connect today; nothing is quoted from it.",
+      "Reproducing provincial assessment items: refused; we point to the department's own samples.",
+      "That our classes grant or count toward a Nova Scotia credit: refused.",
+      "Any affiliation with Education and Early Childhood Development, a regional centre for education, the Nova Scotia Virtual School, the Province of Nova Scotia or CEMC."
+    ]
   }
 }
