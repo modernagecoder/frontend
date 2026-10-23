@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [BC Grade 10 numeracy assessment practice](/bc-grade-10-numeracy-assessment-practice)
 - [BC ADST coding by grade](/bc-adst-curriculum-coding-by-grade)
 - [BC Foundations of Math 11 help](/foundations-of-math-11-tutor-bc)
 - [BC Pre-calculus 11 help](/pre-calculus-11-tutor-bc)

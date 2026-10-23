@@ -8242,4 +8242,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /bc-adst-curriculum-coding-by-grade /src/pages/bc-adst-curriculum-coding-by-grade.html 200
 /bc-adst-curriculum-coding-by-grade.md /src/pages/bc-adst-curriculum-coding-by-grade.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/bc-grade-10-numeracy-assessment-practice /src/pages/bc-grade-10-numeracy-assessment-practice.html 200
+/bc-grade-10-numeracy-assessment-practice.md /src/pages/bc-grade-10-numeracy-assessment-practice.md 200
 /* /src/pages/404.html 404

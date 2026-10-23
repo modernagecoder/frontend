@@ -565,6 +565,7 @@ const SLUGS = [
   'pre-calculus-11-tutor-bc',
   'foundations-of-math-11-tutor-bc',
   'bc-adst-curriculum-coding-by-grade',
+  'bc-grade-10-numeracy-assessment-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1209,6 +1210,7 @@ const LLMS_LABELS = {
   'pre-calculus-11-tutor-bc': 'Pre-calculus 11 tutor, BC',
   'foundations-of-math-11-tutor-bc': 'Foundations of Math 11 tutor, BC',
   'bc-adst-curriculum-coding-by-grade': 'BC ADST curriculum, coding by grade',
+  'bc-grade-10-numeracy-assessment-practice': 'BC Grade 10 Numeracy Assessment practice',
 };
 
 function wireLlms(slugs) {

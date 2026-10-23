@@ -347,7 +347,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 24 | pre-calculus-12-tutor-bc (prc, #613811) | school-bc | 6,126 | 1.3% vs calculus-12-tutor-bc | school course help | rational and trig functions | e8304202 |
 | 23 | pre-calculus-11-tutor-bc (pre, #6B2A43) | school-bc | 5,538 | 1.1% vs pre-calculus-12-tutor-bc | school course help | quadratics and radicals | 54a1415d |
 | 26 | foundations-of-math-11-tutor-bc (fou, #485717) | school-bc | 5,638 | 0.8% vs computer-programming-11-and-12-bc | school course help | optimization and scale | 959dabbc |
-| 21 | bc-adst-curriculum-coding-by-grade (bacb, #595D94) | school-bc | 5,887 | 0.9% vs canada-coding-curriculum-by-province | curriculum reference | unplugged and coded activities | (this commit) |
+| 21 | bc-adst-curriculum-coding-by-grade (bacb, #595D94) | school-bc | 5,887 | 0.9% vs canada-coding-curriculum-by-province | curriculum reference | unplugged and coded activities | 736f3bb6 |
+| 27 | bc-grade-10-numeracy-assessment-practice (bcgr, #3B522F) | school-bc | 5,757 | 1.5% vs eqao-grade-9-math-practice | assessment practice | numeracy processes | (this commit) |
 
 ## Skipped
 
