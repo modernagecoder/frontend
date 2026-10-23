@@ -58287,5 +58287,79 @@
       "Names of Hamilton schools or private people: not used.",
       "Any affiliation with the City of Hamilton, the Ontario Ministry of Education, CEMC or the University of Waterloo."
     ]
+  },
+  "online-coding-and-python-classes-in-coquitlam": {
+    "market": "Coquitlam",
+    "bodyClass": "cg-pyt",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 22 October 2026 from curriculum.gov.bc.ca and saved raw: ADST 6-7 three-module minimum and the ADST 6 computational thinking content (simple algorithms, visual programming, Kodu, Scratch); Computer Programming 11 constructs and computational thinking components; Computer Programming 12 higher-level structures; Computer Science 11 and 12 listed under Mathematics, Computer Science 11 decomposition. BC permanent UTC-7 from the BC Gov News release 2026AG0013-000209; Ontario offsets from IANA tzdb 2026e. CEMC 2026-27: BCC dates and no-coding note, CCC date and Junior level, through-a-school rule. Coquitlam in the Vancouver CMA and BC area codes from facts-geo.md.",
+    "localProject": "City of Coquitlam open data, Parks, Recreation and Culture layer 17 Walking Jogging and Hiking Routes (Open Government Licence - Coquitlam), 12 features downloaded with curl on 22 October 2026 and analysed with our script coquitlam_walks.py (python -I): DISTANCE text in two styles cleaned to 0.6 to 5.7 km; GRADE with a trailing space on Steep; pick_walks(routes, 2.0, need_washroom=True) and pick_walks(routes, 5.0, flat_only=True) each return five named routes. Labelled as ours. Lesson family: text-to-number cleaning and a filter function with default parameters.",
+    "requiredMentions": [
+      "DeBoville Slough Dike Trail at 4.1 km",
+      "Town Centre Perimetre Trail",
+      "pick_walks(routes, 2.0, need_washroom=True)",
+      "printing repr() of the value",
+      "Coquitlam is two hours behind Toronto",
+      "Wednesday 4:30 pm Pacific time",
+      "km() lowers the text",
+      "Port Coquitlam, Port Moody, Burnaby and Vancouver",
+      "236, 257, 604, 672 and 778"
+    ],
+    "sources": [
+      {
+        "claim": "BC curriculum: ADST 6 core (module minimum, computational thinking content).",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/6/core"
+      },
+      {
+        "claim": "BC curriculum: Computer Programming 11 content and computational thinking definition.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/11/computer-programming"
+      },
+      {
+        "claim": "BC curriculum: Computer Programming 12 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/12/computer-programming"
+      },
+      {
+        "claim": "BC curriculum: Computer Science 11 under Mathematics.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/computer-science"
+      },
+      {
+        "claim": "BC Gov News: permanent year-round daylight saving time, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC: contest dates 2026/27, BCC and CCC.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC: how contests work (through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Coquitlam: Parks, Recreation and Culture item (licence pointer).",
+        "url": "https://www.arcgis.com/home/item.html?id=00ff485accf74cb586bd3320b9a09af8"
+      },
+      {
+        "claim": "City of Coquitlam: Walking Jogging and Hiking Routes layer.",
+        "url": "https://services2.arcgis.com/Q6Lq3evZUGfPrN7o/arcgis/rest/services/Parks%20Recreation%20and%20Culture/FeatureServer/17"
+      },
+      {
+        "claim": "City of Coquitlam: Open Government Licence - Coquitlam.",
+        "url": "https://www.coquitlam.ca/894/Open-Government-Licence"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Vancouver and America/Toronto offsets.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Coquitlam population: StatCan was not reachable live.",
+      "BC graduation requirements (credits, numeracy and literacy assessments): the source was blocked, so nothing is stated.",
+      "That trails are open or in good condition: not claimed; the file is a list of routes.",
+      "Use of the City of Coquitlam Maintained Trails layer: its TOTAL_LENGTH repeats across segments, so it was not used.",
+      "That our classes earn BC credits: refused.",
+      "CEMC contest fees: left out (currency-neutral page).",
+      "Names of Coquitlam schools, school districts or private people: not used.",
+      "Any affiliation with the City of Coquitlam, the BC education ministry, CEMC or the University of Waterloo."
+    ]
   }
 }
