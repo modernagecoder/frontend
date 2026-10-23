@@ -56124,5 +56124,62 @@
       "Any ranking of Laval coding providers, or that Modern Age Coders is the best: refused.",
       "Any affiliation with the Ville de Laval, Donnees Quebec, the Ministere de l'Education, CEMC or the University of Waterloo."
     ]
+  },
+  "best-coding-classes-for-kids-in-kelowna": {
+    "market": "Kelowna",
+    "bodyClass": "cg-bkik",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 22 October 2026 from curriculum.gov.bc.ca and saved raw: ADST 6-7 Computational Thinking content (evolution of programming languages with historical examples; visual programming with Kodu and Scratch), the ADST course list (Computer Studies 10, Web Development 10, Computer Programming 11, Computer Information Systems 11, Robotics 11) and Computer Programming 11 content. BC Gov News 2026AG0013-000209 on Pacific time at UTC-7; East Kootenay and Golden on UTC-6 (tzdb 2026e comments via facts-geo.md). CEMC BCC levels; Kelowna CMA and the 250 overlay (CNAC via the Internet Archive).",
+    "localProject": "City of Kelowna open data, Okanagan Rail Trail Kilometre Markers (Open Government Licence - City of Kelowna), JSON downloaded 22 October 2026 (2,961 bytes, 13 markers) and analysed with our script page_script.py (python -I): labels 38KM to 50KM; elevation 411.473 at km 38 to 345.182 at km 50, total drop 66.291, falling at every step (0.1 to 9.8 per km); straight-line neighbour gaps 961 to 1,016, implying metre coordinates (our reasoning). Labelled as ours. Lesson family: text to numbers, differences between neighbours, a units check.",
+    "requiredMentions": [
+      "a total drop of 66.291 over twelve kilometres",
+      "yet one gap is 1,016",
+      "a label like 100KM would come before 38KM",
+      "Open Government Licence - City of Kelowna",
+      "from the Airport to the North End of Kelowna",
+      "Kelowna, unlike East Kootenay and Golden",
+      "Kelowna numbers use 250, with 778, 236, 672 and 257",
+      "Kamloops, Nanaimo, Victoria and elsewhere on the 250",
+      "Ada Lovelace, punch cards, Grace Hopper, Alan Turing and Enigma"
+    ],
+    "sources": [
+      {
+        "claim": "BC curriculum, ADST 6-7 core: Computational Thinking content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/6/core"
+      },
+      {
+        "claim": "BC curriculum, ADST course list (Grades 10 to 12).",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst"
+      },
+      {
+        "claim": "BC curriculum, Computer Programming 11 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/11/computer-programming"
+      },
+      {
+        "claim": "BC Gov News: Pacific time at UTC-7, last change 8 March 2026.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "City of Kelowna open data: Okanagan Rail Trail Kilometre Markers.",
+        "url": "https://hub.arcgis.com/datasets/cf4cbc7b7b8b49f7a7395efded84f2be_10"
+      },
+      {
+        "claim": "Open Government Licence - City of Kelowna (commercial use, attribution, information provider).",
+        "url": "http://apps.kelowna.ca/images/opendata/opengovernmentlicence.pdf"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Vancouver on UTC-7; East Kootenay and Golden on UTC-6.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Kelowna population figure: StatCan was not reachable live.",
+      "Which end of the trail is physically higher on the ground: refused; the answer is about the direction the kilometre labels count.",
+      "The units of Elevation and of the coordinates as a stated fact: refused; metres are our reasoning from the marker gaps and the spatial reference.",
+      "That every Kelowna child takes the Computational Thinking module: refused; schools choose modules.",
+      "That we teach robotics hardware: refused; programming side only.",
+      "Any ranking of Kelowna coding providers, or that Modern Age Coders is the best: refused.",
+      "Any affiliation with the City of Kelowna, the Kelowna school district, the BC education ministry or CEMC."
+    ]
   }
 }
