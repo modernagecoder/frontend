@@ -58946,5 +58946,75 @@
       "Recommending Claude or Claude Code to anyone under 18: refused under Anthropic's terms.",
       "Any affiliation with the City of Richmond, Metro Vancouver, the BC ministry or CEMC."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-milton-ontario": {
+    "market": "Milton",
+    "bodyClass": "cg-vaam",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario curriculum service, read 22 October 2026: Grade 8 C3.1 data analysis; MTH1W C2.3; ICD2O (2023) AI benefits and limitations; ICS3U and ICS4U; EQAO 2026-27 Grade 9 window counting in the course mark; PPM 128. CEMC 2026-27 BCC and CCC dates and the school-entry rule; Skills Ontario 2027; CCC rules on AI; Anthropic, OpenAI and GitHub age rules; Anthropic, Building effective agents (ACI quote). Milton area codes and Eastern offsets from facts-geo.md.",
+    "localProject": "Town of Milton Park Amenities (Open Government Licence - Milton), hub CSV downloaded 23 October 2026, 166 rows: our script milton_filter_check.py (python -I) shows an exact-match STATUS filter finding 0 of 13 playgrounds and 0 of 3 pickleball courts because STATUS holds ACTIVE 120, Active 44 and Historic 2; the normalised filter finds all; address variants 805 SANTA MARIA BLVD (21) and BOULEVARD (8). Labelled as ours. Lesson family: reconciling counts to catch a silent filter.",
+    "requiredMentions": [
+      "120 rows say ACTIVE, 44 say Active, and 2 say Historic",
+      "805 SANTA MARIA BLVD",
+      "OBJECTID 162 and 163",
+      "Open Government Licence - Milton",
+      "not Milton Keynes in England",
+      "agent-computer interface (ACI)",
+      "905, 289, 365 and 742",
+      "Check 1: buckets that add up",
+      "Draft filter finds",
+      "Saturday 10 am in Milton"
+    ],
+    "sources": [
+      {
+        "claim": "Town of Milton Park Amenities item: snippet, description, licence link.",
+        "url": "https://www.arcgis.com/home/item.html?id=1490c8632ba74ab299ea20424a27b5a9"
+      },
+      {
+        "claim": "Town of Milton disclaimer and terms of use: Open Government Licence - Milton.",
+        "url": "https://discover-milton.hub.arcgis.com/pages/disclaimer-and-terms-of-use"
+      },
+      {
+        "claim": "Ontario curriculum content API: MTH1W, Grade 8 math, ICD2O, ICS courses.",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "EQAO 2026-27 assessment windows; Grade 9 counts in the course mark.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC contests 2026-27 and how contests work.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "Skills Ontario Competition 2027.",
+        "url": "https://www.skillsontario.com/skills-ontario-competition"
+      },
+      {
+        "claim": "OpenAI help centre: parental consent ages 13 to 18.",
+        "url": "https://help.openai.com/"
+      },
+      {
+        "claim": "Anthropic consumer terms: minimum age 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "Anthropic, Building effective agents: agent-computer interface.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      },
+      {
+        "claim": "IANA tzdb: America/Toronto changes in 2026-27.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Milton or Halton population figure: not used.",
+      "Why two rows say Historic in a layer described as active amenities: not explained by the Town, so not guessed.",
+      "Opening or closing dates of amenities: the layer has no date column.",
+      "Public Art layer: rejected because its artist column names private people.",
+      "That our classes earn an Ontario credit: refused; we do not grant Ontario credits.",
+      "Recommending Claude or Claude Code to anyone under 18: refused.",
+      "Any affiliation with the Town of Milton, Halton Region, the ministry, EQAO, CEMC or Skills Ontario."
+    ]
   }
 }
