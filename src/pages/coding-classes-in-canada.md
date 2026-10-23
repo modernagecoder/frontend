@@ -391,7 +391,7 @@ A real live lesson of 30 to 45 minutes at a time that suits your province’s cl
 ### Kids’ coding classes by city
 
 - [Coding classes for kids in Abbotsford](/coding-classes-for-kids-in-abbotsford)
-- [Coding classes for kids in Ajax And Pickering](/coding-classes-for-kids-in-ajax-and-pickering)
+- [Coding classes for kids in Ajax and Pickering](/coding-classes-for-kids-in-ajax-and-pickering)
 - [Coding classes for kids in Burnaby](/best-coding-classes-for-kids-in-burnaby)
 - [Coding classes for kids in Cambridge](/coding-classes-for-kids-in-cambridge-ontario)
 - [Coding classes for kids in Etobicoke](/coding-classes-for-kids-in-etobicoke-toronto)
@@ -404,7 +404,7 @@ A real live lesson of 30 to 45 minutes at a time that suits your province’s cl
 - [Coding classes for kids in Moncton](/best-coding-classes-for-kids-in-moncton)
 - [Coding classes for kids in North York](/coding-classes-for-kids-in-north-york-toronto)
 - [Coding classes for kids in Oakville](/best-coding-classes-for-kids-in-oakville)
-- [Coding classes for kids in Oshawa And Whitby](/coding-classes-for-kids-in-oshawa-and-whitby)
+- [Coding classes for kids in Oshawa and Whitby](/coding-classes-for-kids-in-oshawa-and-whitby)
 - [Coding classes for kids in Scarborough](/coding-classes-for-kids-in-scarborough-toronto)
 - [Coding classes for kids in St Catharines Niagara](/coding-classes-for-kids-in-st-catharines-niagara)
 - [Coding classes for kids in Vancouver](/best-coding-classes-for-kids-in-vancouver)
