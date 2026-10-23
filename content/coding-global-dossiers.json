@@ -55638,5 +55638,71 @@
       "CEMC fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the City of Winnipeg, Manitoba Education and Early Childhood Learning, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-quebec-city": {
+    "market": "Quebec City",
+    "bodyClass": "cg-aqc",
+    "pageType": "city",
+    "curriculumAuthority": "Quebec, read 22 October 2026: Quebec Education Program, Mathematics Secondary Cycle Two (three options, all allow pre-university entry; CST statistics and discrete mathematics; TS identify errors and anomalies; Science formal proofs; Appendix F bridges between options); quebec.ca CEGEP diplomas page (DCS). Constitution Act, 1867 s.68 (seat of government of Quebec); Charter of the French language s.1 (Internet Archive copy). Telecom Decision CRTC 2025-269 (area code 273 for 367/418/581 from 27 February 2027; Internet Archive copy). CEMC 2026-27: CCC in English and French, BCC English only, Euclid for final-year secondary or CEGEP students, through-a-school rule. IANA tzdb 2026e (America/Toronto).",
+    "localProject": "Ville de Québec via Données Québec, Arbres potentiellement remarquables (CC BY 4.0), CSV downloaded 22 October 2026 and summarised with our script quebec_trees.py (python -I): 684 trees; POSITION_MESURE DHP 592 (median 79, three zeros), M 65 (median 86), DHS 27 (median 85); 75 Latin names, Quercus rubra 145; 609 of 684 on land recorded as private; 62 multi-trunk trees; 8 planting dates; 168 trees on Chemin Saint-Louis. No unit stated. Labelled as ours. Lesson family: grouping before summarising, and medians over means.",
+    "requiredMentions": [
+      "POSITION_MESURE",
+      "Quercus rubra, the red oak",
+      "609 of the 684 trees",
+      "Arbres potentiellement remarquables",
+      "Three math options, three programming habits",
+      "Trees recorded with more than one trunk",
+      "Group before you summarise",
+      "area code 273 to join them, taking effect on 27 February 2027",
+      "Telecom Decision 2025-269",
+      "Wednesday 3:30 to 4:30 pm here is, in India"
+    ],
+    "sources": [
+      {
+        "claim": "Quebec Education Program, Mathematics, Secondary Cycle Two (option descriptions, pre-university access, bridges between options).",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/programmes/PFEQ-mathematique-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "quebec.ca: CEGEP diplomas (Diploma of College Studies).",
+        "url": "https://www.quebec.ca/en/education/cegeps-private-colleges/diplomas"
+      },
+      {
+        "claim": "Constitution Act, 1867, section 68: seats of government of the provinces.",
+        "url": "https://laws-lois.justice.gc.ca/eng/const/page-2.html"
+      },
+      {
+        "claim": "Telecom Decision CRTC 2025-269: area code 273 for 367/418/581, effective 27 February 2027 (read via the Internet Archive).",
+        "url": "https://crtc.gc.ca/eng/archive/2025/2025-269.htm"
+      },
+      {
+        "claim": "CEMC: 2026-27 contest dates, language and eligibility notes, through-a-school rule, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Données Québec: Ville de Québec, Arbres potentiellement remarquables dataset page.",
+        "url": "https://www.donneesquebec.ca/recherche/dataset/vque_82"
+      },
+      {
+        "claim": "Données Québec licence page (CC BY 4.0 allows commercial reuse with credit).",
+        "url": "https://www.donneesquebec.ca/licence/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets used for Quebec, 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Quebec City or Quebec population figure: StatCan was not reachable live, so no population is printed.",
+      "A unit for DIAMETRE or definitions of DHP, DHS and M: not in any saved source, so not stated.",
+      "A single biggest tree or an average diameter across all trees: refused; three measuring positions are mixed.",
+      "Names of cemetery locations in the tree file: not printed on purpose.",
+      "That we teach in French or have bilingual teachers: refused; teaching is in English.",
+      "That our classes earn Quebec credits, diplomas or option placements: refused.",
+      "A mapping of CEMC grades to Quebec Secondary levels: not sourced, so families are told to ask the school.",
+      "The 54-credit secondary diploma and French-language instruction rules: unverified (education.gouv.qc.ca unreachable), not used.",
+      "That we run robotics hardware classes: refused; we teach the programming side only.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the Ville de Québec, Données Québec, the Ministère de l'Éducation, any CEGEP, the CRTC, CEMC or the University of Waterloo."
+    ]
   }
 }
