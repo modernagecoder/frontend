@@ -58031,5 +58031,69 @@
       "CEMC fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the City of Regina, the Saskatchewan Ministry of Education, the Legislative Assembly, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-victoria-bc": {
+    "market": "Victoria",
+    "bodyClass": "cg-avb",
+    "pageType": "city",
+    "curriculumAuthority": "BC curriculum (curriculum.gov.bc.ca), read raw 22 October 2026 (ca/src/bc/): ADST 6-7 minimum three modules a year, computational thinking module (simple algorithms, visual programming, Kodu and Scratch); ADST 10-12 computing courses; Mathematics list with Computer Science 11 and 12, Pre-calculus 11 and 12, Calculus 12; CS 11 decomposition and algorithm questions; CP 11 constructs. BC Gov News release 2026AG0013-000209 (permanent Pacific time, UTC-7, after 8 March 2026). CMS COMC and CMO facts; CEMC CCC date and through-a-school rule. Victoria area codes and offsets from facts-geo.md.",
+    "localProject": "City of Victoria open data, Tree Species (Parks trees database) (Open Government Licence - City of Victoria), CSV downloaded with curl on 22 October 2026 and checked with our script trees_page.py (python -I): 34,965 rows, 490 common names; Garry oak 5,200; flags height 0 (68), negative (24), DBH 0 (21), cherry over 20 m (5); tallest Redwood 112 m, kwanzan cherry 76 m, Flowering Cherry 72 m; kwanzan cherry median 6 m; Douglas fir max 36 m. Units from the dataset description. Thresholds labelled ours. Lesson family: validation rules on numeric columns, flag rather than delete.",
+    "requiredMentions": [
+      "Garry oak is the commonest tree, with 5,200 rows",
+      "median height of 6 m",
+      "whose tallest is 36 m",
+      "118 flags on 100 different rows",
+      "the 76 m and 56 m kwanzan cherries",
+      "the gap to Toronto shrinks to two hours",
+      "Pacific time and sits seven hours behind UTC",
+      "Matching the word",
+      "Repechage round",
+      "two Victoria classes can have quite different years"
+    ],
+    "sources": [
+      {
+        "claim": "BC curriculum: ADST 6 core (modules, computational thinking).",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/6/core"
+      },
+      {
+        "claim": "BC curriculum: ADST course list for Grades 10 to 12.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst"
+      },
+      {
+        "claim": "BC curriculum: Mathematics course list and Computer Science 11.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/computer-science"
+      },
+      {
+        "claim": "BC Gov News: Adopting permanent daylight saving time (2 March 2026).",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "City of Victoria open data: Tree Species (Parks trees database), with units in the description.",
+        "url": "https://opendata.victoria.ca/datasets/36e90771770542baaa89afddce69195a_15"
+      },
+      {
+        "claim": "City of Victoria: Open Government Licence (commercial use, attribution, non-endorsement).",
+        "url": "https://opendata.victoria.ca/pages/open-data-licence"
+      },
+      {
+        "claim": "Canadian Mathematical Society: COMC and its 2026 changes; CMO invitations.",
+        "url": "https://cms.math.ca/competitions/comc/"
+      },
+      {
+        "claim": "CEMC Canadian Computing Competition: 2027 date and languages.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      }
+    ],
+    "rejectedClaims": [
+      "That Victoria has a 112 m redwood or a 76 m cherry: not claimed; the values are flagged as doubtful, not confirmed or corrected.",
+      "Any explanation of why a value is wrong (typo, wrong field): offered only as possibilities; the file cannot say.",
+      "Any Victoria population figure: StatCan was not reachable live.",
+      "BC graduation numeracy and literacy assessments: not stated; the BC government page could not be read (connection reset).",
+      "That our classes earn or count toward a BC credit: refused; we do not grant provincial credits.",
+      "A total of trees per neighbourhood presented as an official count: not printed.",
+      "CMS and CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of Victoria schools or private people: not used (the school district is referred to generically).",
+      "Any affiliation with the City of Victoria, the BC government, the CMS, CEMC or the University of Waterloo."
+    ]
   }
 }
