@@ -59016,5 +59016,72 @@
       "Recommending Claude or Claude Code to anyone under 18: refused.",
       "Any affiliation with the Town of Milton, Halton Region, the ministry, EQAO, CEMC or Skills Ontario."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-north-vancouver": {
+    "market": "North Vancouver",
+    "bodyClass": "cg-vaan",
+    "pageType": "city",
+    "curriculumAuthority": "BC curriculum, read 22 October 2026: Computer Programming 11 key components, Computer Science 11 decomposition, ADST 10-12 list, ADST 6-7 modules; BC Gov News 2026AG0013-000209 permanent UTC-7; CEMC 2026-27 BCC and CCC dates, BCC curriculum note, CCC format and language caveat; CCC rules on AI; Anthropic, OpenAI and GitHub age rules; Anthropic, Building effective agents (human feedback at checkpoints). Area codes and the two North Vancouver CSDs from facts-geo.md.",
+    "localProject": "District of North Vancouver Street Trees (Open Government Licence - North Vancouver), shapefile zip downloaded 23 October 2026, attribute table reduced to 13 non-personal columns: our script tree_sanity.py (python -I) shows a plain maximum returning a 615 m European Hornbeam (STREE01036), our 40 m review limit flagging it, our trunk-ratio rule flagging 194 standing trees, and a checked answer of 30 m; a 200 cm Vine Maple with no ASSET_ID; TAGNUMBER repeats. Limits labelled as ours. Lesson family: plausibility checks on numbers.",
+    "requiredMentions": [
+      "European Hornbeam, 615 m, STREE01036",
+      "Red Alder and a Big Leaf Maple",
+      "194 standing trees",
+      "Open Government Licence - North Vancouver",
+      "Vine Maple listed with a 200 cm trunk",
+      "pause for human feedback at checkpoints",
+      "Deep Cove to Lower Lonsdale",
+      "Phone numbers starting 604, 778",
+      "Limits before looking",
+      "Computer Information Systems 11"
+    ],
+    "sources": [
+      {
+        "claim": "District of North Vancouver GEOweb data page: Street Trees listing, licence, attribution.",
+        "url": "https://geoweb.dnv.org/data/"
+      },
+      {
+        "claim": "Street Trees shapefile download used.",
+        "url": "https://geoweb.dnv.org/Products/Data/SHP/EnvStreetTree_shp.zip"
+      },
+      {
+        "claim": "BC curriculum: Computer Programming 11 and Computer Science 11.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/11/computer-programming"
+      },
+      {
+        "claim": "BC permanent daylight time.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC BCC and CCC 2026-27.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "Anthropic consumer terms: 18+.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "OpenAI terms: parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/terms-of-use/"
+      },
+      {
+        "claim": "GitHub Education: Copilot free for verified students.",
+        "url": "https://github.com/education/students"
+      },
+      {
+        "claim": "Anthropic, Building effective agents: human feedback at checkpoints.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      }
+    ],
+    "rejectedClaims": [
+      "The true height of tree STREE01036: unknown; flagged, not corrected.",
+      "That the 40 m limit or the trunk ratio is a forestry standard: refused; both are our teaching choices.",
+      "Staff usernames, house numbers and comments in the District file: dropped before use.",
+      "City of North Vancouver data: not used; the District file covers District streets only, and the page says so.",
+      "Any population figure for either North Vancouver: not used.",
+      "That our classes earn BC credits: refused.",
+      "Recommending Claude or Claude Code to anyone under 18: refused.",
+      "Any affiliation with the District or City of North Vancouver, the ministry or CEMC."
+    ]
   }
 }

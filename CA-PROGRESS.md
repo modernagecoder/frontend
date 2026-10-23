@@ -328,7 +328,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 139 | online-coding-and-python-classes-in-thunder-bay (pthb, #163494) | city | 3,685 | 1.6% vs online-coding-and-python-classes-in-kamloops | online city page | city open data | 0b5295a1 |
 | 140 | online-coding-and-python-classes-in-saint-john-new-brunswick (psjn, #483C99) | city | 3,557 | 2.3% vs online-coding-and-python-classes-in-sherbrooke | online city page | city open data | 4d501653 |
 | 141 | vibe-coding-and-ai-agents-classes-in-richmond-bc (vaar, #80415A) | city | 4,398 | 2.2% vs online-coding-and-python-classes-in-coquitlam | vibe city page | human-checked AI work | f2842a9b |
-| 142 | vibe-coding-and-ai-agents-classes-in-milton-ontario (vaam, #8A412D) | city | 3,990 | 2.2% vs coding-and-ai-classes-in-toronto | vibe city page | human-checked AI work | (this commit) |
+| 142 | vibe-coding-and-ai-agents-classes-in-milton-ontario (vaam, #8A412D) | city | 3,990 | 2.2% vs coding-and-ai-classes-in-toronto | vibe city page | human-checked AI work | 67dfd1fe |
+| 143 | vibe-coding-and-ai-agents-classes-in-north-vancouver (vaan, #7A5F42) | city | 4,007 | 2.6% vs vibe-coding-and-ai-agents-classes-in-richmond-bc | vibe city page | human-checked AI work | (this commit) |
 
 ## Skipped
 
