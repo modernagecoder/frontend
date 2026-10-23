@@ -56654,5 +56654,72 @@
       "Names of Abbotsford schools, the school district or private people: not used.",
       "Any affiliation with the City of Abbotsford, the BC education ministry, Math Kangaroo Canada or the University of the Fraser Valley."
     ]
+  },
+  "coding-classes-for-kids-in-cambridge-ontario": {
+    "market": "Cambridge",
+    "bodyClass": "cg-kco",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 7 C3.1 (a defined count and/or subprogram), and the Grade 7 notes on sub-programs (modular code, reuse, introduction through a defined count, the rectangle-area example) and on defined counts (a predefined number of times or until a condition). PPM 128 Grades 7 to 12 rule. CEMC Team Up Challenge (Grades 6 to 8, groups of four, 1 June 2027 or later) and CS Circles (Python tutorials, progress remembered). Kitchener - Cambridge - Waterloo CMA membership and area codes from facts-geo.md; Eastern offsets from IANA tzdb 2026e.",
+    "localProject": "City of Cambridge Open Data, Bikeway Network (Open Data Licence Version 2.0, based on OGL - Canada 2.0, commercial use allowed), downloaded as JSON with curl on 22 October 2026 and measured with our scripts bikeway_lengths.py and page_script.py (python -I): 1,541 pieces, all in service, lengths in metres (UTM 17N); bike lane 62.88 km, signed route 43.51, multi-use secondary 39.27, paved shoulder 35.37, multi-use primary 33.92; on-road 157.93 km and trail 89.07 km; about 247.0 km in all by our sum of raw lengths (not a City figure); shortest piece 0.03 m, 71 under 10 m. Labelled as ours. Lesson family: a function called once per category, summing decimals, metres to kilometres, rounding at the end.",
+    "requiredMentions": [
+      "Sub-programs are used to assemble a complex program",
+      "Children write both kinds and compare",
+      "One way to introduce the idea of a sub-program is to use a defined count",
+      "all the pieces come to about 247.0 km by our sum",
+      "the shortest piece is 0.03 metres long",
+      "Why 266 pieces of bike lane?",
+      "km_of takes a type name",
+      "grouping four students to solve challenging math problems",
+      "Is this Cambridge in Ontario or in England?",
+      "why does the second answer look odd"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 7 math strands, C3 coding expectations and sub-program notes.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_7___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum site, Elementary Mathematics (human-readable home of the API content).",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "Ontario PPM 128: Grades 7 to 12 devices during instructional time.",
+        "url": "https://www.ontario.ca/document/education-ontario-policy-and-program-direction/policyprogram-memorandum-128"
+      },
+      {
+        "claim": "CEMC contests overview: Team Up Challenge description and 2027 timing.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC Computer Science Circles: Python tutorials.",
+        "url": "https://cscircles.cemc.uwaterloo.ca/"
+      },
+      {
+        "claim": "City of Cambridge Bikeway Network layer query (1,541 features, SHAPE.LEN, TYPE, ASSET_TYPE).",
+        "url": "https://maps.cambridge.ca/arcgispub03/rest/services/OpenData3/MapServer/2/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+      },
+      {
+        "claim": "City of Cambridge Open Data Licence Version 2.0 (commercial use, attribution).",
+        "url": "https://maps.cambridge.ca/images/opendata/Open%20data%20licence.pdf"
+      },
+      {
+        "claim": "City of Cambridge open data page (purpose statement).",
+        "url": "https://www.cambridge.ca/mayor-city-council-government/open-data/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Cambridge population figure: StatCan was not reachable live, so none is printed.",
+      "A City total for bikeway length: none was published in the layer; the 247.0 km figure is labelled as our own sum.",
+      "Street, trail and route names and the ownership column: left out (names can honour people; ownership values name school boards).",
+      "Play Structures, Splash Pads and Parks layers: their service answered \"Could not find service\" on 22 October 2026, so they were not used.",
+      "That any route is safe or suitable for children to ride: not claimed; the file has no safety information and none is implied.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of Cambridge schools, school boards or private people: not used.",
+      "Any affiliation with the City of Cambridge, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
