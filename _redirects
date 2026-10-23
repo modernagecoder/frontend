@@ -8026,4 +8026,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-for-kids-in-oshawa-and-whitby /src/pages/coding-classes-for-kids-in-oshawa-and-whitby.html 200
 /coding-classes-for-kids-in-oshawa-and-whitby.md /src/pages/coding-classes-for-kids-in-oshawa-and-whitby.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-for-kids-in-langley-bc /src/pages/coding-classes-for-kids-in-langley-bc.html 200
+/coding-classes-for-kids-in-langley-bc.md /src/pages/coding-classes-for-kids-in-langley-bc.md 200
 /* /src/pages/404.html 404

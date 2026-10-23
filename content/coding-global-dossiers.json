@@ -56531,5 +56531,69 @@
       "Names of Oshawa or Whitby schools, school boards or private people: not used.",
       "Any affiliation with the City of Oshawa, the Town of Whitby, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-for-kids-in-langley-bc": {
+    "market": "Langley",
+    "bodyClass": "cg-klb",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 22 October 2026 from curriculum.gov.bc.ca and saved raw: Applied Design, Skills, and Technologies 6-7 (minimum of three modules in each of Grades 6 and 7; locally developed modules; the Computational Thinking module content: simple algorithms for sorting, searching, sequence, selection and repetition and code breaking, visual programming such as Kodu and Scratch, visual representations including flow charts and tables; the Big Idea on complex tasks). BC permanent UTC-7 from BC Gov News 2026AG0013-000209 (via facts-geo.md). CEMC Beaver Computing Challenge 2026 (concepts from every province, Grade 5/6 eligibility, dates, English only, once a year, through a school). Area codes from facts-geo.md (CNAC via the Internet Archive).",
+    "localProject": "Township of Langley Open Data, Parks layer (ArcGIS feature service, Open Government License - Township of Langley, commercial use allowed), downloaded as JSON with curl on 22 October 2026 and tabulated with our scripts park_crosstab.py and page_script.py (python -I): 216 records; neighbourhood parks by community Walnut Grove 13, Willoughby 10, Aldergrove 8, Murrayville 7, Willowbrook 7, Rural 5, Brookswood 3, Fort Langley 2, Gloucester 1; greenway lots led by Willoughby 25; 46 records with no community, all greenway lots; 34 school-ground records counted but never named. Township only (the City of Langley is separate). Labelled as ours. Lesson family: a two-way table with nested dictionaries, reading JSON, and a missing value kept as its own category.",
+    "requiredMentions": [
+      "Code breaking is the hook we use with ten-year-olds",
+      "Willoughby has by far the most greenway lots",
+      "Locally developed modules can be offered in addition to, or instead of",
+      "Walnut Grove leads for neighbourhood parks with 13",
+      "All 46 turn out to be greenway lots",
+      "The layer includes 34 school grounds",
+      "both of them in Fort Langley",
+      "previously scheduled for Nov. 1, 2026",
+      "Langley ends up two hours behind Toronto in winter",
+      "two Langley children in the same grade can have quite different years"
+    ],
+    "sources": [
+      {
+        "claim": "BC curriculum: Applied Design, Skills, and Technologies 6 (modules, Computational Thinking content, Big Ideas).",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/6/core"
+      },
+      {
+        "claim": "BC Gov News 2026AG0013-000209: permanent year-round daylight time from 8 March 2026, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge: 2026 dates, eligibility, all-province math basis, once a year.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC: all students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "Township of Langley Parks item (description, licence link, TOL Geomatics).",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/93ae11e4d5f240ccad6387154ce8f685?f=json"
+      },
+      {
+        "claim": "Township of Langley Parks feature service query (216 records).",
+        "url": "https://services5.arcgis.com/frpHL0Fv8koQRVWY/arcgis/rest/services/Parks/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json&resultRecordCount=1000"
+      },
+      {
+        "claim": "Open Government License - Township of Langley (commercial use, attribution, pre-2016 data note).",
+        "url": "https://www.tol.ca/en/connect/open-data-licence.aspx"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Vancouver from 2026.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Langley population figure: StatCan was not reachable live, so none is printed.",
+      "City of Langley data: the City is a separate municipality; its site returned 403 on a second request and was not retried, so no City data is used.",
+      "Park names: none printed; 34 records are school grounds carrying school names, and other names honour people.",
+      "BC coding expectations for Kindergarten to Grade 5: no primary source was fetched, so none is claimed.",
+      "That every Langley Grade 6 or 7 student takes Computational Thinking: rejected; schools choose modules.",
+      "Any BC graduation numeracy or literacy assessment details: the BC government page was unreachable, so none appear.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of Langley schools, school districts or private people: not used.",
+      "Any affiliation with the Township of Langley, the City of Langley, the BC education ministry, CEMC or the University of Waterloo."
+    ]
   }
 }
