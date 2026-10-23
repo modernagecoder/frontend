@@ -58432,5 +58432,70 @@
       "Names of Burlington schools or private people: not used.",
       "Any affiliation with the City of Burlington, the Ontario Ministry of Education, CEMC or the University of Waterloo."
     ]
+  },
+  "online-coding-and-python-classes-in-windsor-ontario": {
+    "market": "Windsor",
+    "bodyClass": "cg-pwo",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and the 2008 computer studies PDF, saved raw: MTH1W (2021) overall expectation C2; ICD2O (2023) description and its automation and AI expectation; ICS4C description; Grade 11 and 12 strands Programming Concepts and Skills and Software Development; one credit per course; ICS3U and ICS3C without prerequisite. CEMC: CCC 2027 date, Senior question ladder, CCO invitation and C++ rule, Python caveat, through-a-school rule. Skills Ontario 2027 coding contest and registration through an institution. Windsor CMA, SW Ontario area codes and Eastern time offsets from facts-geo.md (IANA tzdb 2026e).",
+    "localProject": "City of Windsor open data, playground layer (Open Government Licence - The Corporation of the City of Windsor), hub CSV downloaded with curl on 22 October 2026 (131 rows) and parsed with our script windsor_play.py (python -I): key=value asset descriptions turned into dictionaries; SIZE x ACCESSIBLE counts (LARGE YES 28 to SMALL NO 23, 14 blank); rows and ACCESSIBLE=YES per ward (Ward 7 19/3, Ward 3 9/6); 27 themed rows, 24 themes; 7 park_id values with a trailing space; the unguarded version raises ValueError on the blank description on line 3. Labelled as ours. Lesson family: parsing key=value text into dictionaries and guarding blank input.",
+    "requiredMentions": [
+      "not enough values to unpack (expected 2, got 1)",
+      "MEDIUM YES 13, MEDIUM NO 33",
+      "Ward 7 has the most playground rows, 19",
+      "Seven park_id values also end in a stray space",
+      "Forest appears three times and Pirate Ship twice",
+      "single rows include Automotive, Aviation, Dinosaur and Space Ship",
+      "A Monday 4:00 pm Windsor class in February",
+      "LaSalle, Tecumseh, Amherstburg and Lakeshore",
+      "South Walkerville and another in LaSalle"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: MTH1W strands, ICD2O course and strands, ICS course descriptions.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code=ICD2O&depth=0"
+      },
+      {
+        "claim": "Ontario Computer Studies, Grades 10 to 12 (2008): strands and one credit per course.",
+        "url": "https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf"
+      },
+      {
+        "claim": "CEMC: CCC 2027 date, Senior question ladder, CCO invitation and language rule, Python caveat.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC: how contests work (through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "Skills Ontario Competition 2027: dates, Coding contest, registration through an institution.",
+        "url": "https://www.skillsontario.com/skills-ontario-competition"
+      },
+      {
+        "claim": "City of Windsor open data: playground item (snippet, licence pointer).",
+        "url": "https://www.arcgis.com/home/item.html?id=c3b0dfb6b09b450a952b5198d5de3989"
+      },
+      {
+        "claim": "City of Windsor open data hub: playground CSV download.",
+        "url": "https://open-data-portal-citywindsor.hub.arcgis.com/datasets/c3b0dfb6b09b450a952b5198d5de3989_35"
+      },
+      {
+        "claim": "City of Windsor: Open Government Licence - The Corporation of the City of Windsor (PDF).",
+        "url": "https://opendata.citywindsor.ca/Documents/OpenDataTermsofUse.pdf"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Windsor or Windsor CMA population: StatCan was not reachable live.",
+      "That a playground without ACCESSIBLE=YES is inaccessible: refused; 14 rows have no description.",
+      "Any judgment of a ward or the City from the accessibility counts: refused; the file cannot explain them.",
+      "That our classes earn or count toward an Ontario credit: refused.",
+      "CEMC and Skills Ontario fees: left out (currency-neutral page).",
+      "Names of Windsor schools or private people: not used.",
+      "Any affiliation with the City of Windsor, the Ontario Ministry of Education, CEMC, the University of Waterloo or Skills Ontario."
+    ]
   }
 }
