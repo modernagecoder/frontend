@@ -58361,5 +58361,76 @@
       "Names of Coquitlam schools, school districts or private people: not used.",
       "Any affiliation with the City of Coquitlam, the BC education ministry, CEMC or the University of Waterloo."
     ]
+  },
+  "online-coding-and-python-classes-in-burlington-ontario": {
+    "market": "Burlington",
+    "bodyClass": "cg-pyb",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and ontario.ca and saved raw: Elementary Mathematics (2020) Grade 2, 4 and 6 C3.1; MTH1W (2021) course description; ICS3C description, ICS3U and ICS3C without prerequisite; OSSD (2024+ starters) 17 compulsory credits with computer studies in the STEM-related group. CEMC 2026-27 dates (PCF, FGH, Euclid, CCC) and through-a-school rule; University of Waterloo contest and AIF lines. Burlington in the Hamilton CMA, 905 belt area codes and Eastern time offsets from facts-geo.md (IANA tzdb 2026e).",
+    "localProject": "City of Burlington open data (Navigate Burlington), AADT Counts 2018 and AADT Counts 2022 layers (City of Burlington Terms of Use for Open Data, read from an Internet Archive copy), downloaded with curl on 23 October 2026 and joined on TES_ID with our script burlington_join.py (python -I): 310 and 1,687 rows, 309 and 1,581 distinct ids, 71 repeated in 2022; 327 pairs over 294 distinct segments, 52 from repeated ids; largest changes Cavendish Dr. 12,016 to 471, Upper Middle Rd. 2,741 to 13,605. Labelled as ours. Lesson family: joining on a key with a dictionary and auditing repeated keys.",
+    "requiredMentions": [
+      "1,687 rows, 1,581 distinct ids, 71 of them repeated",
+      "they cover only 294 distinct segments",
+      "one segment on Blue Spruce Avenue appears twice",
+      "the median of the 1,675 rows with a volume is 2,964",
+      "non-exclusive, revocable licence for any lawful purpose",
+      "Two Cavendish Drive segments fall",
+      "a 7:00 pm Burlington class in January",
+      "Aldershot, Alton Village or by the lake",
+      "Oakville, Milton and Hamilton join the same groups"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: elementary math C3.1 (Grades 2, 4, 6), MTH1W course description, ICS3C description.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_4___strands?depth=4"
+      },
+      {
+        "claim": "ontario.ca: earning the OSSD, compulsory credits and the STEM-related group.",
+        "url": "https://www.ontario.ca/page/high-school-graduation-requirements"
+      },
+      {
+        "claim": "CEMC: contest dates 2026/27 (PCF, FGH, Euclid, CCC).",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC: how contests work (through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "University of Waterloo: Computer Science admission (contests and scholarships).",
+        "url": "https://uwaterloo.ca/future-students/programs/computer-science"
+      },
+      {
+        "claim": "University of Waterloo: Admission Information Form (contests question, deadline).",
+        "url": "https://uwaterloo.ca/future-students/admissions/admission-information-form"
+      },
+      {
+        "claim": "City of Burlington: AADT item, years 2016 to 2018.",
+        "url": "https://www.arcgis.com/home/item.html?id=fcd514cc40244d63b4a5b8fd3e337953"
+      },
+      {
+        "claim": "City of Burlington: AADT 2022 item (TES counts).",
+        "url": "https://www.arcgis.com/home/item.html?id=f6f3ad1316f94b2ca0699de7f2c1e605"
+      },
+      {
+        "claim": "City of Burlington Terms of Use for Open Data (Internet Archive copy, 3 September 2026).",
+        "url": "https://web.archive.org/web/20260903224504/https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Burlington population: StatCan was not reachable live.",
+      "That Burlington traffic on any road rose or fell by the amounts in the join: refused; the table shows differences between two files.",
+      "A meaning for the 2018 Source labels applied to 2022 figures: refused; the 2022 layer has no Source field.",
+      "Calling the Burlington terms an Open Government Licence: refused; they are the City's own Terms of Use.",
+      "Any promise about university admission or scholarships: refused.",
+      "That our classes earn or count toward an Ontario credit: refused.",
+      "CEMC contest fees: left out (currency-neutral page).",
+      "Names of Burlington schools or private people: not used.",
+      "Any affiliation with the City of Burlington, the Ontario Ministry of Education, CEMC or the University of Waterloo."
+    ]
   }
 }
