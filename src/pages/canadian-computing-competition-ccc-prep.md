@@ -215,22 +215,22 @@ The autumn before February
 
 Two live classes a week, 1-on-1 or in a group batch, worked backwards from the February sitting rather than forwards through a syllabus. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
 
-1. #### September: decide the division honestly
+1. #### September 2026: decide the division honestly
 
   A timed past Senior paper, sat properly. What comes out of it is not a score but a decision: Senior this year, or Junior this year and Senior next. Making that call in September rather than in February is the highest-value hour of the whole cycle.
-2. #### October: complete solutions, and reading all five first
+2. #### October 2026: complete solutions, and reading all five first
 
   Whichever division, this comes first. Reading every question before writing anything, choosing the order deliberately, and finishing one problem properly before starting the next.
-3. #### November: the algorithms the chosen division actually needs
+3. #### November 2026: the algorithms the chosen division actually needs
 
   For Junior that is careful implementation, arrays, strings and simulation done reliably. For Senior it is graphs, dynamic programming and the standard data structures, recognised on sight rather than derived on the day.
-4. #### December: input handling and the online environment
+4. #### December 2026: input handling and the online environment
 
   Practising in the format the contest is actually written in, with the input read exactly as specified. Both are unglamorous and both convert directly into marks that would otherwise be lost.
-5. #### January: full past papers, timed, both divisions if undecided
+5. #### January 2027: full past papers, timed, both divisions if undecided
 
   Complete five-question papers under real conditions, marked and reviewed line by line. This is also the last honest moment to change division, and occasionally we do.
-6. #### Early February: taper, and rehearse the sitting itself
+6. #### Early February 2027: taper, and rehearse the sitting itself
 
   Short daily problems rather than long sessions, one final full paper, and a rehearsal of the first ten minutes: read all five, rank them, start with the second-easiest. Then stop and let them arrive rested.
 
@@ -497,22 +497,15 @@ Ritu Kedia
 
 Parent
 
-The other nine
+Canadian guides
 
 ## Deeper guides for each part of the CCC year
 
 Each guide takes one piece of the contest season further than this page can: one division, one practice routine, the olympiad after it, and the school courses most CCC writers take alongside.
 
-- [CCC Junior guide](/ccc-junior-guide) (2027 contest)
-- [CCC Senior guide](/ccc-senior-guide) (Graphs and DP)
-- [Practising with CCC past problems](/ccc-past-problems-practice-guide) (CCC Grader)
-- [Canadian Computing Olympiad](/canadian-computing-olympiad-cco-guide) (CCO and IOI)
-- [Beaver Computing Challenge](/beaver-computing-challenge-guide) (Grades 3 to 12)
-- [How to register](/how-to-register-for-waterloo-contests) (Through a school)
-- [2026-27 contest calendar](/canada-math-and-coding-contest-calendar) (All dates)
-- [USACO for Canadian students](/usaco-for-canadian-students) (USACO vs CCC)
-- [ICS3U help](/ics3u-computer-science-help) (Grade 11)
-- [ICS4U help](/ics4u-computer-science-help) (Grade 12)
+[CCC Junior guide2027 contest](/ccc-junior-guide)[CCC Senior guideGraphs and DP](/ccc-senior-guide)[Practising with CCC past problemsCCC Grader](/ccc-past-problems-practice-guide)[Canadian Computing OlympiadCCO and IOI](/canadian-computing-olympiad-cco-guide)[Beaver Computing ChallengeGrades 3 to 12](/beaver-computing-challenge-guide)[How to registerThrough a school](/how-to-register-for-waterloo-contests)[2026-27 contest calendarAll dates](/canada-math-and-coding-contest-calendar)[USACO for Canadian studentsUSACO vs CCC](/usaco-for-canadian-students)[ICS3U helpGrade 11](/ics3u-computer-science-help)[ICS4U helpGrade 12](/ics4u-computer-science-help)
+
+The other nine
 
 ## The other exams and contests we prepare students for
 
