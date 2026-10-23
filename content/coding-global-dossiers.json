@@ -55032,5 +55032,69 @@
       "Names of Markham schools, boards or private people: not used (park names appear only as the City stores them for one segment).",
       "Any affiliation with the City of Markham, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "math-tutor-vaughan": {
+    "market": "Vaughan",
+    "bodyClass": "cg-mtv",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: MDM4U (2007), MHF4U, MCV4U (MHF4U prior or concurrent), MCR3U, MCF3M and MTH1W course records; EQAO 2026-27 windows. CEMC Euclid eligibility, 6 April 2027 date, format, 2.5 hours and reach; Waterloo computer science page on contests and Faculty of Mathematics scholarships; the through-a-school rule. Vaughan area codes and Eastern time offsets from facts-geo.md.",
+    "localProject": "York Region Open Data, Street Trees layer (York Region Open Data Licence), Vaughan records downloaded 22 October 2026 in 11 pages (count endpoint 20,127). Our counts: Ivory Silk Lilac 2,294 most common; Acer 4,365 of 53 genera; height bands; 104 records with year planted 9999; Rutherford Road 2,327. Two-way table maple x tall (15 m or more): 601, 3,764, 869, 14,893; P(maple) 0.217, P(tall given maple) 0.138, P(tall given other) 0.055, P(maple given tall) 0.409. Labelled as ours. Lesson family: conditional probability and two-way tables.",
+    "requiredMentions": [
+      "Ivory Silk Lilac 2,294",
+      "Kentucky Coffee Tree 1,496",
+      "Rutherford Road 2,327",
+      "601 &divide; 1,470",
+      "Urban-Boulevard 14,141",
+      "Year planted recorded as 9999",
+      "14,893",
+      "So P(maple given tall) = 601",
+      "over 25,000 participants worldwide",
+      "the largest of 53 genera"
+    ],
+    "sources": [
+      {
+        "claim": "York Region Open Data: Street Trees item (purpose, urban and partial rural coverage, licence pointer).",
+        "url": "https://www.arcgis.com/home/item.html?id=293d80c24bf54a4f8ab66bddaeaab184"
+      },
+      {
+        "claim": "York Region: Street Trees map service layer queried for Vaughan records.",
+        "url": "https://ww8.yorkmaps.ca/arcgis/rest/services/OpenData/Biodiversity/MapServer/0"
+      },
+      {
+        "claim": "York Region Open Data Licence (commercial use, credit statement, non-endorsement), saved PDF.",
+        "url": "https://insights-york.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Ontario curriculum content API: senior math course records including MDM4U.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code%5Bin%5D=MCR3U,MHF4U,MCV4U,MDM4U,MPM2D,MTH1W,MCF3M,MAP4C,MEL4E&depth=0"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC: Euclid contest (eligibility, date, format, reach).",
+        "url": "https://cemc.uwaterloo.ca/contests/euclid"
+      },
+      {
+        "claim": "University of Waterloo: Computer Science admission page (contests and scholarships).",
+        "url": "https://uwaterloo.ca/future-students/programs/computer-science"
+      },
+      {
+        "claim": "CEMC: how contests work (entry through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Vaughan population figure: StatCan was not reachable live.",
+      "That these are all of Vaughan's trees: refused; the layer covers regional road right-of-ways only, with partial rural data by York Region's own description.",
+      "Tree health or condition figures: the health field was not downloaded or used.",
+      "An average planting year: not printed, because 104 records hold the 9999 placeholder.",
+      "Other tutors' rates in Vaughan: not sourced, so not printed.",
+      "Any fee figure or currency in the copy: fees render from the template only.",
+      "That our lessons earn an Ontario credit: refused; we do not grant Ontario credits.",
+      "Names of Vaughan schools, boards or private people: not used.",
+      "Any affiliation with York Region, the City of Vaughan, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }

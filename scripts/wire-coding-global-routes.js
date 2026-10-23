@@ -1147,6 +1147,7 @@ const MARKETS = [
   ['math-tutor-mississauga', 'Math tutor in Mississauga'],
   ['math-tutor-brampton', 'Math tutor in Brampton'],
   ['math-tutor-markham', 'Math tutor in Markham'],
+  ['math-tutor-vaughan', 'Math tutor in Vaughan'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

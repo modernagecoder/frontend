@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Math tutor in Vaughan](/math-tutor-vaughan)
 - [Math tutor in Markham](/math-tutor-markham)
 - [Math tutor in Brampton](/math-tutor-brampton)
 - [Math tutor in Mississauga](/math-tutor-mississauga)
