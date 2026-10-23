@@ -288,7 +288,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 117 | best-coding-classes-for-kids-in-burnaby (bkib, #992E49) | city | 3,718 | 2.2% vs best-coding-classes-for-kids-in-vancouver | kids city page | city open data | c9450538 |
 | 118 | best-coding-classes-for-kids-in-kitchener (bkk, #522A22) | city | 3,629 | 1.8% vs best-coding-classes-for-kids-in-burnaby | kids city page | city open data | 3be075bf |
 | 119 | best-coding-classes-for-kids-in-laval (bkl, #665A1C) | city | 3,855 | 1.9% vs best-coding-classes-for-kids-in-oakville | kids city page | city open data | d897342d |
-| 120 | best-coding-classes-for-kids-in-kelowna (bkik, #32610F) | city | 3,635 | 2.7% vs best-coding-classes-for-kids-in-vancouver | kids city page | city open data | (this commit) |
+| 120 | best-coding-classes-for-kids-in-kelowna (bkik, #32610F) | city | 3,635 | 2.7% vs best-coding-classes-for-kids-in-vancouver | kids city page | city open data | 5318e151 |
+| 121 | best-coding-classes-for-kids-in-moncton (beab, #0F661E) | city | 3,744 | 1.6% vs best-coding-classes-for-kids-in-markham | kids city page | city open data | (this commit) |
 
 ## Skipped
 

@@ -56181,5 +56181,64 @@
       "Any ranking of Kelowna coding providers, or that Modern Age Coders is the best: refused.",
       "Any affiliation with the City of Kelowna, the Kelowna school district, the BC education ministry or CEMC."
     ]
+  },
+  "best-coding-classes-for-kids-in-moncton": {
+    "market": "Moncton",
+    "bodyClass": "cg-beab",
+    "pageType": "city",
+    "curriculumAuthority": "New Brunswick, read 22 October 2026 from curriculum.nbed.ca and saved raw: middle-block Technology (Grades 6 to 8) update statement, the Computational Practice skill and its three indicators (simple game design in Scratch, coding a robot and refining from testing feedback, coding a microcontroller LED display), the privacy and AI indicator; Computer Science 110 (foundation in coding; AI-assisted debugging tools) and the course list (Computer Science 120, Cybersecurity 120, Cybersecurity and Technical Support 110, Technology 9). Charter s.16(2) on New Brunswick's official languages; Constitution Act, 1867 s.68 on Fredericton. CEMC contest languages and BCC dates. Moncton CMA, area codes 428/506, America/Moncton offsets (facts-geo.md; IANA tzdb 2026e).",
+    "localProject": "Environment and Climate Change Canada daily climate data, MONCTON/GREATER MONCTON ROMEO LEBLANC INTL A (Climate ID 8103201, Station ID 50309), 2025, downloaded 22 October 2026 in French and English (ECCC Data Services End-use Licence 2.1.1), read with our script page_script.py (python -I -X utf8): snow on the ground on January 25, February 28, March 19, April 4, November 3 and December 23 days (102 in all, counted directly); Neige au sol blank on 231 days; decimal commas handled; French and English files agree on all 365 daily highs. Federal data chosen because the City of Moncton terms are cancellable and carry an indemnity. Labelled as ours. Lesson family: bilingual headers, decimal commas, blank is not zero.",
+    "requiredMentions": [
+      "Neige au sol (cm)",
+      "could not convert string to float",
+      "at least 4 April days had snow on the ground",
+      "a figure we counted directly rather than adding up the months",
+      "Lesson 2: a blank is not a zero.",
+      "Code a microcontroller to perform an LED display",
+      "simple game design in Scratch",
+      "names New Brunswick&rsquo;s zone after the city: America/Moncton",
+      "New Brunswick uses the 506 and 428 area codes"
+    ],
+    "sources": [
+      {
+        "claim": "New Brunswick curriculum, middle block Technology (Grades 6 to 8): update statement, Computational Practice outcomes, privacy and AI indicator.",
+        "url": "https://curriculum.nbed.ca/learning-areas/middle-block/technology/"
+      },
+      {
+        "claim": "New Brunswick Computer Science 110: coding foundation and AI-assisted debugging.",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/"
+      },
+      {
+        "claim": "Canadian Charter of Rights and Freedoms s.16(2): official languages of New Brunswick.",
+        "url": "https://laws-lois.justice.gc.ca/eng/const/page-12.html"
+      },
+      {
+        "claim": "CEMC contests: BCC English only, CCC English and French, 2026 dates, through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Environment and Climate Change Canada historical climate data (Moncton airport station, daily, 2025).",
+        "url": "https://climate.weather.gc.ca/"
+      },
+      {
+        "claim": "Environment and Climate Change Canada Data Services End-use Licence 2.1.1 (commercial use, attribution, non-endorsement).",
+        "url": "https://eccc-msc.github.io/open-data/licence/readme_en/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Moncton offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Moncton population or language-statistics figure: StatCan was not reachable live.",
+      "Using City of Moncton open data: rejected; its terms allow the City to cancel access without notice and for any reason and require an indemnity.",
+      "That Moncton had exactly 102 snowy days in 2025: refused; one station, and the column is blank on 231 days.",
+      "A count of April snow days: given only as a minimum, since 23 April days have no value.",
+      "That we teach in French or teach robotics or microcontroller hardware: refused.",
+      "Any claim about how New Brunswick organises its English and French school systems: not verified, not stated.",
+      "Storm, extreme-weather or disaster content: deliberately not used.",
+      "Any ranking of Moncton coding providers, or that Modern Age Coders is the best: refused.",
+      "Any affiliation with the City of Moncton, the New Brunswick education department, ECCC, CEMC or the University of Waterloo."
+    ]
   }
 }
