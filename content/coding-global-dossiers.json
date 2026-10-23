@@ -56793,5 +56793,89 @@
       "Names of Niagara schools, school boards or private people: not used.",
       "Any affiliation with the City of St. Catharines, the City of Niagara Falls, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-in-quebec": {
+    "market": "Quebec",
+    "bodyClass": "cg-qux",
+    "pageType": "city",
+    "curriculumAuthority": "Quebec, read 22 October 2026 from Québec.ca and the English QEP PDFs on cdn-contenu.quebec.ca: QEP elementary (Elementary 1 to 6) and secondary (Secondary I to V) pages; elementary cross-curricular Competency 6 (use ICT; identify the limitations of the technology); elementary Mathematics (ICT compulsory, teacher chooses activities; computer simulation of a random experiment); elementary Science and Technology (servomechanism and robots; robotics and automation); Secondary Cycle Two cross-curricular competencies (problem solving not reducible to an algorithm); Digital Competency Framework 2026 (12 dimensions, preschool through higher education, AI integrated, D2 computer science and AI, programming element, themes). Charter of the French language s.1. CEMC 2026-27 (CCC English and French; BCC English only; CSMC and Euclid open to CÉGEP students; through a school). Eastern time and Blanc-Sablon from IANA tzdb 2026e; area codes from CNAC files and CRTC 2025-269 (273 from 27 February 2027) via facts-geo.md.",
+    "localProject": "Données Québec, Répertoire des municipalités du Québec (Ministère des Affaires municipales et de l'Habitation, CC BY 4.0, updated daily), MUN.csv downloaded with curl on 22 October 2026 and counted with our script count_regions_dates.py (python -I): 1,281 rows; 17 administrative regions, Montérégie 150 down to Laval 1; designations Municipalité 651, Ville 234, Paroisse 128, Territoire non organisé 105 (15 labels); 57 rows with no constitution date; earliest 30 March 1846 (La Prairie), latest 1 January 2026 (Hébertville); 389 dates before 1900, 160 from 2000. Population and elected-official columns deliberately unused. Lesson family: parsing structured text fields and sorting tuples.",
+    "requiredMentions": [
+      "Répertoire des municipalités du Québec",
+      "Digital Competency Framework 2026",
+      "computer simulation of a random experiment",
+      "reduced to the application of an algorithm",
+      "Servomechanism and robots",
+      "Blanc-Sablon",
+      "effective 27 February 2027",
+      "Saguenay--Lac-Saint-Jean",
+      "30 March 1846",
+      "CCC is available in English and French"
+    ],
+    "sources": [
+      {
+        "claim": "Québec Education Program, elementary: Elementary 1 to Elementary 6.",
+        "url": "https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/elementary"
+      },
+      {
+        "claim": "Québec Education Program, secondary: Secondary I to Secondary V, subject list.",
+        "url": "https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/secondary"
+      },
+      {
+        "claim": "QEP elementary cross-curricular competencies: Competency 6, ICT.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/primaire/PFEQ-competences-transversales-primaire-AN.pdf"
+      },
+      {
+        "claim": "QEP elementary Mathematics: ICT compulsory; computer simulation of a random experiment.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/primaire/programmes/PFEQ-mathematique-primaire-AN.pdf"
+      },
+      {
+        "claim": "QEP elementary Science and Technology: servomechanism and robots; robotics and automation.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/primaire/programmes/PFEQ-science-technologie-primaire-AN.pdf"
+      },
+      {
+        "claim": "QEP Secondary Cycle Two cross-curricular competencies: problem solving and algorithms.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/PFEQ-competences-transversales-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "Ministère de l'Éducation, Digital Competency Framework 2026 (English version).",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/Numerique/Cadre-reference-competence-num-AN.pdf"
+      },
+      {
+        "claim": "Charter of the French language, s.1.",
+        "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-11"
+      },
+      {
+        "claim": "CEMC contests: languages, CSMC and Euclid eligibility, 2026-27 dates, through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Données Québec: Répertoire des municipalités du Québec dataset page (MAMH, CC BY 4.0, daily).",
+        "url": "https://www.donneesquebec.ca/recherche/dataset/repertoire-des-municipalites-du-quebec"
+      },
+      {
+        "claim": "Données Québec licence page (Creative Commons 4.0 variants; Attribution allows commercial use).",
+        "url": "https://www.donneesquebec.ca/licence/"
+      },
+      {
+        "claim": "Telecom Decision CRTC 2025-269: area code 273 effective 27 February 2027.",
+        "url": "https://crtc.gc.ca/eng/archive/2025/2025-269.htm"
+      },
+      {
+        "claim": "IANA tzdb: America/Toronto offsets; America/Blanc-Sablon linked to America/Puerto_Rico.",
+        "url": "https://data.iana.org/time-zones/tzdb/backward"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Quebec population figure, including the mpopul column of MUN.csv: no population is printed.",
+      "Names of mayors or councillors from the register (maire, con1 to con75): never used.",
+      "Who is eligible for English-language schooling in Quebec: no primary source saved, left out.",
+      "The 54-credit DES and other diploma rules: education.gouv.qc.ca did not resolve, left out.",
+      "That Quebec has no computer science course at all: we say only that the secondary subject list names none and that named computer science programs are college programs.",
+      "Detail on the three Secondary Cycle Two math options and CEGEP program prerequisites: covered on sibling pages and linked, not repeated.",
+      "That a recent constitution date means a new town: refused; the page says it usually marks a change of status or a merger.",
+      "CEMC fees: left out (currency-neutral page).",
+      "Any affiliation with the Ministère de l'Éducation, the MAMH, Données Québec, CEMC or the University of Waterloo."
+    ]
   }
 }
