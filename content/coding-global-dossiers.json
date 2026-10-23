@@ -59542,5 +59542,81 @@
       "Names of Waterloo schools, school board results or private people: not used.",
       "Any affiliation with the City of Waterloo, the Region of Waterloo, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "math-tutor-vancouver": {
+    "market": "Vancouver",
+    "bodyClass": "cg-mtuv",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 23 October 2026 from curriculum.gov.bc.ca and saved raw: Mathematics 9, Foundations of Mathematics and Pre-calculus 10, Workplace Mathematics 10, Pre-calculus 11 and 12, Foundations of Mathematics 11, Statistics 12 content lists (quoted phrases); course list incl. Calculus 12 (facts-schools-contests.md row 72); UBC requirements data (Pre-Calculus 12 for Science, Applied Science and Commerce); BC permanent UTC-7 (BC Gov News 2026AG0013-000209); Lower Mainland area codes (facts-geo.md); CEMC 2026-27 dates and the through-a-school rule; CMS COMC 2026 date, closed registration and the CMO invitation range.",
+    "localProject": "City of Vancouver Open Data, Public trees (Open Government Licence - Vancouver, commercial use allowed), CSV export downloaded 23 October 2026 and analysed with our scripts count_trees.py and worked.py (python -I): 184,268 rows; five-number summary of 183,791 positive diameters 0.6, 10.2, 25.4, 45.7, 6,673.0 cm; IQR 35.5, fence 98.95, 3,925 beyond it; asset 68485 pin oak flagged, next largest 779.0; mean 32.48 and 32.45 without it; 477 zero diameters, 3 zero heights; 84 distinct heights, eight hold 93.7% of rows; r = 0.651, 0.755 inside the fence, Acer 0.807, Prunus 0.636; genus medians. Labelled as ours. Lesson family: resistant statistics, outlier fences, correlation and cleaning.",
+    "requiredMentions": [
+      "asset 68485",
+      "6,673 cm across",
+      "3,925 trees above the 98.95 cm fence",
+      "from 32.48 to 32.45 cm",
+      "r = 0.651",
+      "only 84 distinct heights",
+      "477 rows with a diameter of 0",
+      "UBC Sauder School of Business",
+      "about 48.33, nearly twice the median",
+      "Statistics 12 exists as its own course in BC"
+    ],
+    "sources": [
+      {
+        "claim": "City of Vancouver Open Data: Public trees dataset (description, licence field, data currency notes).",
+        "url": "https://opendata.vancouver.ca/explore/dataset/public-trees/"
+      },
+      {
+        "claim": "City of Vancouver: Open Government Licence - Vancouver (commercial use, attribution, no implied endorsement).",
+        "url": "https://opendata.vancouver.ca/pages/licence/"
+      },
+      {
+        "claim": "BC curriculum: Statistics 12 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/12/statistics"
+      },
+      {
+        "claim": "BC curriculum: Pre-calculus 12 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/12/pre-calculus"
+      },
+      {
+        "claim": "BC curriculum: Pre-calculus 11 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/pre-calculus"
+      },
+      {
+        "claim": "BC curriculum: Foundations of Mathematics 11 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/foundations-of-mathematics"
+      },
+      {
+        "claim": "BC curriculum: Mathematics 9 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/9/core"
+      },
+      {
+        "claim": "BC curriculum: mathematics course list.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics"
+      },
+      {
+        "claim": "BC Gov News: permanent daylight time, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CMS: COMC 2026 date, registration close and CMO invitations.",
+        "url": "https://cms.math.ca/competitions/comc/"
+      },
+      {
+        "claim": "CEMC: contest dates for 2026/27 and how contests work.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Vancouver or Metro Vancouver population figure: StatCan was not reachable live.",
+      "That the 6,673 cm record is a typing error: the page flags it and says the file cannot tell us why.",
+      "That the height steps are ten-foot bands: labelled as our inference, not a City statement.",
+      "BC graduation requirements and the Grade 10 numeracy assessment: the provincial page could not be reached, so nothing about them is printed.",
+      "That UBC requires Calculus 12: not printed; the saved data shows it as recommended for one program only.",
+      "That our lessons earn BC credits or help UBC admission: refused.",
+      "CMS and CEMC fees: left out (currency-neutral page).",
+      "Names of Vancouver schools, districts' results or private people: not used.",
+      "Any affiliation with the City of Vancouver, the BC Ministry of Education and Child Care, UBC, CEMC or the CMS."
+    ]
   }
 }
