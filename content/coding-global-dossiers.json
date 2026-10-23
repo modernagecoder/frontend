@@ -57610,5 +57610,88 @@
       "Any affiliation with CEMC, the City of Guelph or the Ontario Ministry of Education.",
       "CEMC contest fees: left out of the copy (currency-neutral page)."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-lethbridge": {
+    "market": "Lethbridge",
+    "bodyClass": "cg-aptl",
+    "pageType": "city",
+    "curriculumAuthority": "alberta.ca curriculum renewal page (AI and computer science sentence in the draft science 7 to 9, CALM 10 and physical education and wellness 10 passage; piloting 2027/28 and mandatory 2028/29; grades 7 to 9 math mandatory September 2027); alberta.ca diploma exams (30 per cent weighting, 70/30 split, Math 30-1 and 30-2); alberta.ca PATs (grades 6 and 9, digital); Official Time Act (UTC-6) via facts-geo.md; CEMC (contests not tests, scale, no individual registration, CCC languages and 2027 date); OpenAI Help Center ages; Anthropic Consumer Terms (Oct 8, 2025); CCC Online Grader rules; facts-geo.md for 368/403/587/825.",
+    "localProject": "City of Lethbridge Open Data, Street Network (City of Lethbridge Open Data License Version 2.0: worldwide, royalty-free, any lawful purpose; FLAG: no explicit commercial wording), 4,830 Local, Collector and Arterial segments with a speed, fetched with urllib on 22 October 2026 from 5,833 in the layer; our lethbridge_stump.py (python -I): seeded 75/25 split, 3,622 train and 1,208 test (247 arterial); never-arterial accuracy 79.6%; learned stump speed over 50: accuracy 88.7%, precision 99.1%, recall 44.9%; sanding priority 1 or 2: accuracy 86.8%, precision 63.7%, recall 83.0%; depth-two tree no better; 532 arterial segments posted at 50; 8 non-arterials above 50. Labelled as ours. Lesson family: decision stumps, class imbalance, precision and recall.",
+    "requiredMentions": [
+      "Street Network",
+      "Lethbridge Open Data Catalogue",
+      "Version 2.0, which grants",
+      "never-arterial rule scores 79.6 per cent",
+      "because 532 arterial segments are posted at 50",
+      "Only 8 of the kept non-arterial segments are posted above 50",
+      "Optional piloting of these draft curriculums will occur in 2027/28, followed by mandatory implementation in 2028/29.",
+      "for over 300 000 students worldwide, reaching students in over 85 countries",
+      "Lethbridge phones use 403 and Alberta&rsquo;s overlay codes 368, 587 and 825",
+      "how mixed the two resulting groups are (the Gini"
+    ],
+    "sources": [
+      {
+        "claim": "alberta.ca curriculum renewal: AI and computer science; draft timelines.",
+        "url": "https://www.alberta.ca/curriculum-how-we-got-here"
+      },
+      {
+        "claim": "alberta.ca diploma exams: weighting and course list.",
+        "url": "https://www.alberta.ca/diploma-exams-overview"
+      },
+      {
+        "claim": "alberta.ca PATs: grades 6 and 9, digital.",
+        "url": "https://www.alberta.ca/provincial-achievement-tests"
+      },
+      {
+        "claim": "Official Time Act RSA 2000 c O-5.7: UTC-6.",
+        "url": "https://kings-printer.alberta.ca/documents/Acts/O05p7.pdf"
+      },
+      {
+        "claim": "CEMC: contests are not tests; contests ordered worldwide.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "CEMC CCC page: languages and 2027 date.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "OpenAI Help Center: ChatGPT ages and parental consent.",
+        "url": "https://help.openai.com/en/articles/8313401-is-chatgpt-safe-for-all-ages"
+      },
+      {
+        "claim": "Anthropic Consumer Terms: users must be at least 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "CCC Online Grader rules: other internet use and generative AI forbidden.",
+        "url": "https://cccgrader.com/rules.pdf"
+      },
+      {
+        "claim": "City of Lethbridge: Street Network item.",
+        "url": "https://www.arcgis.com/home/item.html?id=3e6c0d16e3dd4c359b08d89523bb0a1f"
+      },
+      {
+        "claim": "City of Lethbridge Open Data License, Version 2.0 (hub page item).",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/87f968e5b0d54e4fb32b7cb1bab7a326/data?f=json"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Edmonton and America/Toronto offsets.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about Lethbridge schools, school divisions or their results: none made, by the row instruction.",
+      "Any Lethbridge population: StatCan not reachable live, so none printed.",
+      "Alberta CTS computing science courses: not named; the source was unreadable as plain text (UNVERIFIED).",
+      "That Lethbridge students will be taught to build AI models in school soon: refused; Alberta names AI as an integrated topic in draft curriculums with mandatory implementation in 2028/29 for science.",
+      "That posted speed defines street type: refused; it is posed as a clue only.",
+      "Address ranges or named streets from the layer: not reproduced.",
+      "The Micro-Generation Capacity layer: not used; it lists meter addresses.",
+      "That the City of Lethbridge licence uses the word commercial: not claimed; the page quotes its any-lawful-purpose wording.",
+      "That our courses earn Alberta credits: refused; we do not grant provincial credits.",
+      "Recommending Claude or any 18+ tool to a teenager: refused under Anthropic's terms.",
+      "Any affiliation with CEMC, the Alberta education ministry, the City of Lethbridge or any school division.",
+      "CEMC contest fees: left out of the copy (currency-neutral page)."
+    ]
   }
 }

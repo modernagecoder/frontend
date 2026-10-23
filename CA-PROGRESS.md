@@ -307,7 +307,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 124 | ai-and-python-classes-for-teens-in-brampton (aipy, #3C2C7A) | city | 4,801 | 1.6% vs ai-and-python-classes-for-teens-in-waterloo-ontario | teen city page | city data ML | edb1e442 |
 | 125 | ai-and-python-classes-for-teens-in-surrey-bc (apyb, #52162C) | city | 4,542 | 2.4% vs ai-and-python-classes-for-teens-in-richmond-hill | teen city page | city data ML | 215bfcaa |
 | 126 | ai-and-python-classes-for-teens-in-gatineau (aptg, #6B2710) | city | 4,493 | 3% vs ai-and-python-classes-for-teens-in-waterloo-ontario | teen city page | city data ML | 7b26ee15 |
-| 127 | ai-and-python-classes-for-teens-in-guelph (apyg, #6B6530) | city | 4,445 | 2.9% vs ai-and-python-classes-for-teens-in-gatineau | teen city page | city data ML | (this commit) |
+| 127 | ai-and-python-classes-for-teens-in-guelph (apyg, #6B6530) | city | 4,445 | 2.9% vs ai-and-python-classes-for-teens-in-gatineau | teen city page | city data ML | ef0b9959 |
+| 128 | ai-and-python-classes-for-teens-in-lethbridge (aptl, #16520F) | city | 4,580 | 2.5% vs ai-and-python-classes-for-teens-in-richmond-hill | teen city page | city data ML | (this commit) |
 
 ## Skipped
 
