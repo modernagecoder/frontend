@@ -54,6 +54,18 @@ Canadian visitors keep `__MAC_IS_INDIAN = false`, so all the existing India-only
    - Unit tests.
    - `feetest.js` cases: Toronto with en-IN under `?test=canada` gives a CAD bill and Razorpay at 14350 CAD cents. Kolkata gives INR, New York gives USD, and Toronto with the flag off gives USD.
    - Toronto readback on the hub, a course page, /pricing, the homepage, a camp, a UK page with USD text and the two fixed pages: no ₹, no visible USD, CAD labels, 0 JS errors.
-7. **After go-live (owner).** Cost rows 82 to 84, then Canada md twins and JSON-LD in CAD.
+7. **Go-live checklist (owner's word).**
+   1. Deploy the backend: `857584a` (gateway charges) and `bd59cb6` (CAD). This must happen even before a `?test=canada` checkout on production. The backend live today turns any unknown currency into INR.
+   2. Set `canada.live` to true.
+   3. Run `npm run pricing:apply`.
+   4. Push the frontend.
+8. **Not done by flipping the flag.**
+   - The WhatsApp agent knowledge base and `llms.txt` quote only USD outside India.
+   - Canada md twins and JSON-LD still say USD 100 (owner question).
+   - Cost rows 82 to 84 are unblocked now that CAD is decided. They are written once CAD is live.
+   - About 8 comparison and cost pages keep one typed USD fee for Canadians.
+   - The /course FAQ shows the India-only Mini Batch in rupees to every visitor abroad. This was already the case before Plan B.
+
+Status 2026-10-24: tasks 1 to 6 done, with real-click checks (visible 6-month Canada card, Gemini 1-on-1 CAD 350, 390px popup). Commits: backend `bd59cb6`, frontend `4b456923a` and `d09d34f8d`.
 
 Commit only. Never push without the owner's word. The backend must deploy before the flag is flipped.
