@@ -26841,6 +26841,18 @@
   to = "/src/pages/online-coding-and-python-classes-in-thunder-bay.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-saint-john-new-brunswick"
+  to = "/src/pages/online-coding-and-python-classes-in-saint-john-new-brunswick.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-and-python-classes-in-saint-john-new-brunswick.md"
+  to = "/src/pages/online-coding-and-python-classes-in-saint-john-new-brunswick.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

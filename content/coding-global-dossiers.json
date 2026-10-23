@@ -58816,5 +58816,64 @@
       "CEMC and Skills Ontario fees: left out (currency-neutral page).",
       "Any affiliation with the City of Thunder Bay, the Ontario Ministry of Education, EQAO, CEMC or Skills Ontario."
     ]
+  },
+  "online-coding-and-python-classes-in-saint-john-new-brunswick": {
+    "market": "Saint John",
+    "bodyClass": "cg-psjn",
+    "pageType": "city",
+    "curriculumAuthority": "New Brunswick, read 22 October 2026 from curriculum.nbed.ca saved raw: Computer Science 110 (Grade 11) description, achievement indicators on pseudocode and parsing a line of code, AI-assisted tools \"while maintaining student authorship\"; subcluster course list. Canadian Charter s.16(2): English and French official in New Brunswick. CEMC 2026-27 BCC (English only) and CCC (English and French), through a school. Atlantic time (America/Moncton, IANA tzdb 2026e) and area codes 428/506 from facts-geo.md.",
+    "localProject": "City of Saint John open data, Civic Addresses (Open Government Licence - City of Saint John), read on 22 October 2026 through 7 paged REST queries and counted with our scripts (python -I): 25,577 points; 176 non-whole civic numbers skipped; first digits of 25,401 whole numbers 1: 7,970 (31.4%) down to 9: 1,164 (4.6%) against Benford 30.1% to 4.6%; number lengths 1,947 / 11,095 / 10,471 / 1,887 / 1; designators Street/rue 7,013, Road/chemin 5,022, Drive/promenade 3,516; Place 410 and Plaza 6 both map to place; 48 English vs 47 French non-blank designators, reverse dictionary keeps Place and drops Plaza. No addresses printed. Labelled as ours. Lesson family: digit distributions and one-to-many translation tables.",
+    "requiredMentions": [
+      "Benford's law predicts",
+      "Place and Plaza",
+      "57 1/2, 107 A or 37A",
+      "48 different English designators but only 47 French ones",
+      "Open Government Licence - City of Saint John",
+      "Rothesay, Quispamsis, Grand Bay-Westfield and Hampton",
+      "while maintaining student authorship",
+      "Parse one complete logical line of code",
+      "An AI tool will happily lose your Plaza addresses",
+      "one of the nearest Canadian clocks to India"
+    ],
+    "sources": [
+      {
+        "claim": "City of Saint John open data catalogue (Civic Addresses layer).",
+        "url": "https://catalogue-saintjohn.opendata.arcgis.com/"
+      },
+      {
+        "claim": "City of Saint John ArcGIS item: Civic Addresses, description and Open Government Licence - City of Saint John text.",
+        "url": "https://www.arcgis.com/home/item.html?id=88d9dbea7fad4767a9870c5666ec4c71"
+      },
+      {
+        "claim": "City of Saint John Civic Addresses feature service (paged query source).",
+        "url": "https://services.arcgis.com/DLk7hgTJeJILuEBg/arcgis/rest/services/Civic_Addresses/FeatureServer"
+      },
+      {
+        "claim": "New Brunswick curriculum framework: Computer Science 110.",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/"
+      },
+      {
+        "claim": "Canadian Charter of Rights and Freedoms s.16(2): official languages of New Brunswick.",
+        "url": "https://laws-lois.justice.gc.ca/eng/const/page-12.html"
+      },
+      {
+        "claim": "CEMC contests 2026-27: BCC and CCC dates and languages, through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Moncton (Atlantic) offsets and 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Saint John population or language-share figure: StatCan not reachable live, nothing printed.",
+      "Individual addresses or address points: never printed; counts only.",
+      "That Saint John civic numbers prove or disprove Benford's law: refused; we show a comparison and the reason for the pattern, not a test result.",
+      "That the address layer counts buildings or households: refused; it counts posted civic address points.",
+      "That we teach in French: refused; classes are taught in English.",
+      "That our classes earn New Brunswick credits: refused.",
+      "CEMC and Python Institute exam fees: left out (currency-neutral page).",
+      "Any affiliation with the City of Saint John, the New Brunswick Department of Education and Early Childhood Development, CEMC or the Python Institute."
+    ]
   }
 }
