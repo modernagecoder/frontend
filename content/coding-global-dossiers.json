@@ -58753,5 +58753,68 @@
       "That our classes earn BC credits: refused.",
       "Any affiliation with the City of Kamloops, the BC ministry or CEMC."
     ]
+  },
+  "online-coding-and-python-classes-in-thunder-bay": {
+    "market": "Thunder Bay",
+    "bodyClass": "cg-pthb",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and ontario.ca, saved raw: Grade 1 math C3.2 read and alter code; Grade 6 science A2.1 coding with input; MTH1W C2.2 decomposing into computational steps; ICD2O (2023) automation and AI; ICS3U and ICS4U (2008); EQAO Grade 9 window 12 January to 5 February 2027, counts in the course mark; OSSD STEM group includes computer studies. CEMC 2026-27 BCC, CCC and Gauss dates and school-entry rules; Skills Ontario 2027. IANA tzdb 2026e link America/Thunder_Bay to America/Toronto and the NW Ontario note; CNAC dial plan Note E on 807 ten-digit dialling.",
+    "localProject": "City of Thunder Bay open data, Heritage Register CSV (Open Data Licence 1.0, The Corporation of the City of Thunder Bay), downloaded with curl on 22 October 2026 and analysed with our scripts (python -I): 136 rows; Cira column 128 plain years, 7 ranges, 1 \"1790 (placed 1964)\"; construction decades by first year (1900s 53, 1910s 35, 1920s 14 ...); ownership after merging three federal spellings (Private 84, Public Agency 25, City 16, board-run 5, Federal 5, provincial 1); 62 entries added in 1988, 60 of them Waverley Park; file last updated 22 August 2022 per its description. No building names printed. Labelled as ours. Lesson family: messy text fields, category normalisation, data age.",
+    "requiredMentions": [
+      "Federal Governement",
+      "Provincal Government",
+      "1790 (placed 1964)",
+      "The data was last updated on August 22 2022.",
+      "Designated - Waverley Park",
+      "Open Data Licence - The Corporation of the City of Thunder Bay",
+      "Kakabeka Falls, Nipigon, Marathon and Dryden",
+      "Five tests that tell you whether an online coding class is genuinely live",
+      "America/Thunder_Bay is simply a link to America/Toronto",
+      "area code 807 moved to ten-digit local dialling"
+    ],
+    "sources": [
+      {
+        "claim": "City of Thunder Bay open data portal (Heritage Register CSV).",
+        "url": "https://opendata-thunderbay.hub.arcgis.com/"
+      },
+      {
+        "claim": "City of Thunder Bay ArcGIS item: Heritage Register CSV, description and last-updated note.",
+        "url": "https://www.arcgis.com/home/item.html?id=bd50ba0dc1534a13b4cb6f057646b049"
+      },
+      {
+        "claim": "City of Thunder Bay Open Data Licence 1.0 (commercial use, attribution, non-endorsement).",
+        "url": "https://media-004-ca.cdn.govstack.com/thunderbay-002-ca-dot-site/media/inmjquon/city-of-thunder-bay-open-data-licence.pdf"
+      },
+      {
+        "claim": "Ontario curriculum content API: elementary math and science coding, MTH1W, ICD2O, ICS courses.",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "EQAO: Grade 9 math window and course-mark rule.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC contests 2026-27 and the through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Skills Ontario Competition 2027.",
+        "url": "https://www.skillsontario.com/skills-ontario-competition"
+      },
+      {
+        "claim": "IANA tzdb backward and northamerica: America/Thunder_Bay link and the NW Ontario note.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Thunder Bay population figure: StatCan not reachable live, nothing printed.",
+      "Names of buildings on the register: not printed (the register includes schools, places of worship and private residences).",
+      "That the register is current: refused; its description says it was last updated on 22 August 2022.",
+      "The city's exact longitude relative to 90 degrees west: not stated, no saved source.",
+      "That the 1988 spike was 62 separate decisions: refused; 60 of the entries share the Waverley Park designation.",
+      "That our classes earn Ontario credits: refused; we do not grant Ontario credits.",
+      "CEMC and Skills Ontario fees: left out (currency-neutral page).",
+      "Any affiliation with the City of Thunder Bay, the Ontario Ministry of Education, EQAO, CEMC or Skills Ontario."
+    ]
   }
 }
