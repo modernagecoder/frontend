@@ -138,7 +138,9 @@ const tick = (ms) => new Promise((r) => setTimeout(r, ms));
     const form = ov.querySelector('form.mac-dc-form');
     assert.ok(form, 'book() opens on the payment form');
     assert.ok(!ov.querySelector('.mac-dc-eyebrow'), 'no "request submitted" eyebrow without a request');
-    assert.ok(/Pay \$10/.test(form.querySelector('[data-dc-pay]').textContent), 'overseas visitor sees $10 with the default +91 code');
+    assert.ok(/Pay \$10\.25/.test(form.querySelector('[data-dc-pay]').textContent), 'overseas visitor pays $10 plus 2.5% gateway charges with the default +91 code');
+    const billText = form.querySelector('[data-dc-bill]').textContent;
+    assert.ok(/Demo fee\$10(?![.\d])/.test(billText) && /Payment gateway charges \(2\.5%\)\$0\.25/.test(billText) && /Total payable\$10\.25/.test(billText), 'bill lists fee, charges and total: ' + billText);
     form.querySelector('#macDcName').value = 'Liam';
     form.querySelector('#macDcEmail').value = 'liam@example.com';
     form.querySelector('#macDcPhone').value = '9876543210';
@@ -146,7 +148,7 @@ const tick = (ms) => new Promise((r) => setTimeout(r, ms));
     form.dispatchEvent(new w.Event('submit', { bubbles: true, cancelable: true }));
     await tick(50);
     const sent = JSON.parse(w.__calls.find((c) => /create-order/.test(String(c.input))).init.body);
-    assert.strictEqual(sent.amount, 10, 'charged in dollars outside India');
+    assert.strictEqual(sent.amount, 10, 'charged in dollars outside India; the server adds the gateway charges');
     assert.strictEqual(sent.currency, 'USD');
     assert.ok(!sent.notes.leadId, 'no lead id in direct mode');
 
@@ -154,11 +156,13 @@ const tick = (ms) => new Promise((r) => setTimeout(r, ms));
     const wi = makeWindow({ url: 'https://learn.modernagecoders.com/priority-demo', isIndian: true });
     wi.MACDemoChoice.book();
     const fi = wi.document.querySelector('.mac-dc-overlay form.mac-dc-form');
-    assert.ok(/Pay ₹499/.test(fi.querySelector('[data-dc-pay]').textContent), 'India sees rupees');
+    assert.ok(/Pay ₹511\.48/.test(fi.querySelector('[data-dc-pay]').textContent), 'India sees rupees, ₹499 plus 2.5% gateway charges');
+    assert.ok(/Demo fee₹499/.test(fi.querySelector('[data-dc-bill]').textContent), 'rupee bill');
     const ph = fi.querySelector('#macDcPhone');
     ph.dataset.countryIso = 'AE'; ph.dataset.countryDial = '+971';
     ph.dispatchEvent(new wi.Event('countrycodechange', { bubbles: true }));
-    assert.ok(/Pay \$10/.test(fi.querySelector('[data-dc-pay]').textContent), 'foreign number pays dollars');
+    assert.ok(/Pay \$10\.25/.test(fi.querySelector('[data-dc-pay]').textContent), 'foreign number pays dollars');
+    assert.ok(/Total payable\$10\.25/.test(fi.querySelector('[data-dc-bill]').textContent), 'bill follows the phone country');
 
     // The free link in direct mode has no lead to queue, so it is not recorded.
     assert.ok(!wi.__calls.find((c) => /demo-choice/.test(String(c.input))), 'nothing recorded in direct mode');

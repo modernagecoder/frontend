@@ -393,6 +393,7 @@ const CoursePayment = {
     }
 
     const displayPricing = isIndian ? pricing : intlP;
+    const bill = this.gatewayBill(displayPricing.amount, isIndian ? 'INR' : 'USD');
     const phoneMaxLength = isIndian ? '10' : '15';
     const phonePlaceholder = isIndian ? '10-digit mobile number' : 'Phone number';
     // "₹1,499/month" -> "₹1,499" + "/month", so the figure can be set large.
@@ -432,6 +433,12 @@ const CoursePayment = {
             <div class="mac-pay-price"><b>${esc(priceMain)}</b><span>${esc(pricePer)}</span></div>
           </div>
 
+          <dl class="mac-pay-bill">
+            <div><dt>Plan fee</dt><dd>${esc(bill.planFee)}</dd></div>
+            <div><dt>${esc(bill.label)} (${esc(bill.percent)}%)</dt><dd>${esc(bill.fee)}</dd></div>
+            <div class="mac-pay-bill-total"><dt>Total payable</dt><dd>${esc(bill.total)}</dd></div>
+          </dl>
+
           <form id="payment-form" class="mac-pay-form" novalidate>
             <div class="mac-pay-field">
               <label for="pay-name">Student or parent name</label>
@@ -447,7 +454,7 @@ const CoursePayment = {
               <input type="tel" id="pay-phone" autocomplete="tel-national" required placeholder="${phonePlaceholder}" maxlength="${phoneMaxLength}">
             </div>
             <div class="mac-pay-err" role="alert" hidden></div>
-            <button type="submit" class="payment-submit-btn mac-pay-btn">${lock}<span>Pay ${esc(priceMain)} securely</span></button>
+            <button type="submit" class="payment-submit-btn mac-pay-btn">${lock}<span>Pay ${esc(bill.total)} securely</span></button>
             <p class="mac-pay-methods">${methods}</p>
           </form>
 
@@ -465,14 +472,14 @@ const CoursePayment = {
     document.body.classList.add('mac-pay-open');
 
     this._fb('InitiateCheckout', {
-      value: Number(displayPricing.amount),
+      value: bill.totalAmount,
       currency: isIndian ? 'INR' : 'USD',
       num_items: 1,
       plan: planType + (sixMonth ? '_6month' : '')
     });
 
     const overlay = document.getElementById('payment-modal');
-    this._payButtonLabel = 'Pay ' + priceMain + ' securely';
+    this._payButtonLabel = 'Pay ' + bill.total + ' securely';
     overlay.querySelector('.mac-pay-close').addEventListener('click', () => this.closeModal());
     // A tap on the dim backdrop closes it only before checkout has started,
     // so a stray tap cannot throw away a payment in progress.
@@ -510,8 +517,34 @@ const CoursePayment = {
     } catch (e) { /* analytics must never block enrolment */ }
   },
 
-  // Meta Pixel standard event. value is always the major-unit price the
-  // visitor sees (never Razorpay's paise/cents figure). eventID, when given,
+  // Payment gateway charges (owner 2026-10-23): 2.5% on top of every payment,
+  // shown only in this popup's bill, never on the page. The rate comes from
+  // pricing.config.jsonc through window.MAC_PRICING.gatewayFee. The backend
+  // charges the same rate (backend/lib/gatewayFee.js) and is the authority;
+  // 2.5 here only stands in on a page whose data file is a deploy behind.
+  // Sums in paise / cents, the way the backend does them.
+  gatewayBill: function(amount, currency) {
+    var gf = window.MAC_PRICING && window.MAC_PRICING.gatewayFee;
+    var pct = (gf && typeof gf.percent === 'number') ? gf.percent : 2.5;
+    var baseMinor = Math.round(Number(amount) * 100);
+    var feeMinor = Math.round(baseMinor * Math.round(pct * 100) / 10000);
+    var usd = currency === 'USD';
+    var fmt = function(minor) {
+      return (usd ? '$' : '₹') + (minor / 100).toLocaleString(usd ? 'en-US' : 'en-IN',
+        { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 });
+    };
+    return {
+      percent: pct,
+      label: (gf && gf.label) || 'Payment gateway charges',
+      planFee: fmt(baseMinor),
+      fee: fmt(feeMinor),
+      total: fmt(baseMinor + feeMinor),
+      totalAmount: (baseMinor + feeMinor) / 100
+    };
+  },
+
+  // Meta Pixel standard event. value is always the major-unit amount the
+  // visitor pays, gateway charges included (never Razorpay's paise/cents figure). eventID, when given,
   // lets a server-side Conversions API event for the same order be deduped.
   _fb: function(event, params, eventID) {
     try {
@@ -810,6 +843,13 @@ const CoursePayment = {
         throw new Error(data.error || 'Failed to create order');
       }
 
+      // The server's bill is what Razorpay charges. The popup worked out the
+      // same figure; a difference means the two rates have drifted apart.
+      const shown = this.gatewayBill(finalAmount, currency);
+      if (data.bill && Math.abs(data.bill.total - shown.totalAmount) > 0.001) {
+        console.warn('[CoursePayment] Popup showed ' + shown.total + ' but the order total is ' + data.bill.total + ' ' + currency + '.');
+      }
+
       // Open Razorpay checkout
       const options = {
         key: data.key,
@@ -839,7 +879,7 @@ const CoursePayment = {
       });
       // Kept for Purchase: the verify response carries no currency.
       this._checkout = {
-        value: Number(finalAmount),
+        value: data.bill ? data.bill.total : shown.totalAmount,
         currency: currency,
         plan: planType + (sixMonth ? '_6month' : '')
       };
@@ -942,6 +982,10 @@ const CoursePayment = {
       if (planName) params.set('plan', planName);
       if (payment && payment.orderId) params.set('orderId', payment.orderId);
       if (payment && payment.amount != null) params.set('amount', String(payment.amount));
+      if (payment && payment.gatewayFee != null) {
+        params.set('planFee', String(payment.planFee));
+        params.set('gatewayFee', String(payment.gatewayFee));
+      }
       params.set('currency', currency);
       window.location.href = '/welcome?' + params.toString();
     } catch (e) {
@@ -1018,6 +1062,12 @@ const CoursePayment = {
       .mac-pay-price{text-align:right;white-space:nowrap;flex-shrink:0}
       .mac-pay-price b{display:block;font-family:var(--mp-display);font-weight:600;font-size:27px;line-height:1.05;color:var(--mp-amber-deep)}
       .mac-pay-price span{font-size:12.5px;color:var(--mp-muted)}
+      .mac-pay-plan + .mac-pay-bill{margin-top:-8px}
+      .mac-pay-bill{margin:0 0 20px;padding:2px 0;border-bottom:1px solid var(--mp-line);font-size:14px;color:var(--mp-soft)}
+      .mac-pay-bill div{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:5px 0}
+      .mac-pay-bill dt,.mac-pay-bill dd{margin:0}
+      .mac-pay-bill dd{white-space:nowrap;font-variant-numeric:tabular-nums}
+      .mac-pay-bill .mac-pay-bill-total{margin-top:2px;padding-top:8px;border-top:1px dashed rgba(28,24,20,.2);font-size:15.5px;font-weight:700;color:var(--mp-ink)}
       .mac-pay-form{margin:0}
       .mac-pay-field{margin:0 0 14px}
       .mac-pay-field label{display:block;margin:0 0 6px;font-size:13.5px;font-weight:600;color:var(--mp-soft)}
@@ -1052,6 +1102,7 @@ const CoursePayment = {
         .mac-pay{max-width:none;max-height:94dvh;border-radius:20px 20px 0 0;border-bottom:0;padding:24px 18px calc(18px + env(safe-area-inset-bottom));animation:macPaySheet .3s cubic-bezier(.2,.8,.2,1) both}
         .mac-pay-title{font-size:20px;margin-bottom:14px}
         .mac-pay-plan{padding:13px 14px;margin-bottom:16px}
+        .mac-pay-bill{margin-bottom:16px;font-size:13.5px}
         .mac-pay-price b{font-size:23px}
         .mac-pay-field{margin-bottom:12px}
       }

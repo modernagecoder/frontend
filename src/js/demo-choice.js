@@ -60,6 +60,13 @@
         INR: { currency: 'INR', amount: 499, display: '₹499' },
         USD: { currency: 'USD', amount: 10, display: '$10' }
     };
+    // Payment gateway charges (owner 2026-10-23): 2.5% on top, shown only in
+    // the pay form's bill, never on the option card. The backend adds the
+    // same (backend/lib/gatewayFee.js) and is the authority. The rate is read
+    // from pricing.config.jsonc when the page carries window.MAC_PRICING;
+    // this script also runs on pages that do not, hence the 2.5 here. Change
+    // the rate in all three places together.
+    var GATEWAY_FEE = { percent: 2.5, label: 'Payment gateway charges' };
 
     // /api/leads is the demo form on the age and board-prep landing pages. The
     // server maps it onto an ordinary enquiry and answers with a contactId.
@@ -139,7 +146,7 @@
             content_name: 'Priority Live Demo',
             content_type: 'product',
             content_category: 'Priority Demo',
-            value: price.amount,
+            value: billFor(price).totalAmount,
             currency: price.currency,
             num_items: 1
         };
@@ -245,6 +252,37 @@
     }
 
     function priceFor(isIndia) { return isIndia ? PRICES.INR : PRICES.USD; }
+
+    // "₹511.48", "$10.25", "₹499": paise / cents only when there are some.
+    function money(amount, currency) {
+        var usd = currency === 'USD';
+        var minor = Math.round(Number(amount) * 100);
+        return (usd ? '$' : '₹') + (minor / 100).toLocaleString(usd ? 'en-US' : 'en-IN',
+            { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 });
+    }
+
+    // The bill for a price: plan fee, gateway charges, total. Sums in paise /
+    // cents, the way the backend does them.
+    function billFor(price) {
+        var gf = (window.MAC_PRICING && window.MAC_PRICING.gatewayFee) || GATEWAY_FEE;
+        var pct = typeof gf.percent === 'number' ? gf.percent : GATEWAY_FEE.percent;
+        var baseMinor = Math.round(price.amount * 100);
+        var feeMinor = Math.round(baseMinor * Math.round(pct * 100) / 10000);
+        return {
+            percent: pct,
+            label: gf.label || GATEWAY_FEE.label,
+            fee: money(feeMinor / 100, price.currency),
+            total: money((baseMinor + feeMinor) / 100, price.currency),
+            totalAmount: (baseMinor + feeMinor) / 100
+        };
+    }
+
+    function billHtml(price) {
+        var b = billFor(price);
+        return '<div><dt>Demo fee</dt><dd>' + esc(price.display) + '</dd></div>' +
+            '<div><dt>' + esc(b.label) + ' (' + esc(b.percent) + '%)</dt><dd>' + esc(b.fee) + '</dd></div>' +
+            '<div class="mac-dc-bill-total"><dt>Total payable</dt><dd>' + esc(b.total) + '</dd></div>';
+    }
 
     // ───────────────────────── phone helpers ─────────────────────────
 
@@ -518,6 +556,11 @@
             '.mac-dc-chip.active{border-color:#d97706;background:#fff3dc;box-shadow:0 0 0 2px rgba(217,119,6,.18)}',
             '.mac-dc-chip.active b{color:#8f3f08}',
             '.mac-dc-tiny{font-size:12px;color:#6b6259;margin-top:8px!important}',
+            '.mac-dc-bill{margin:6px 0 10px;padding:2px 0;border-bottom:1px solid rgba(28,24,20,.12);font-size:13.5px;color:#3a332c}',
+            '.mac-dc-bill div{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:4px 0}',
+            '.mac-dc-bill dt,.mac-dc-bill dd{margin:0}',
+            '.mac-dc-bill dd{white-space:nowrap;font-variant-numeric:tabular-nums}',
+            '.mac-dc-bill .mac-dc-bill-total{margin-top:2px;padding-top:7px;border-top:1px dashed rgba(28,24,20,.2);font-size:15px;font-weight:700;color:#1c1814}',
             '.mac-dc-err{display:none;background:#fdecea;color:#8a2a22;border:1px solid rgba(176,71,60,.35);border-radius:10px;padding:10px 12px;font-size:13.5px;margin:10px 0}',
             '.mac-dc-err a{color:#8a2a22;font-weight:700}',
             '.mac-dc-secure{font-size:12.5px;color:#6b6259;text-align:center;margin-top:10px!important;display:flex;flex-wrap:wrap;justify-content:center;gap:4px 10px;align-items:center}',
@@ -666,8 +709,9 @@
                 '<span class="mac-dc-label">Pick your slot</span>' +
                 '<div class="mac-dc-slots"></div>' +
                 '<input type="hidden" name="slot" id="macDcSlot">' +
+                '<dl class="mac-dc-bill" data-dc-bill>' + billHtml(price) + '</dl>' +
                 '<div class="mac-dc-err" role="alert"></div>' +
-                '<button type="submit" class="mac-dc-btn mac-dc-btn--solid" data-dc-pay>Pay ' + esc(price.display) + ' · we’ll call to fix the time</button>' +
+                '<button type="submit" class="mac-dc-btn mac-dc-btn--solid" data-dc-pay>Pay ' + esc(billFor(price).total) + ' · we’ll call to fix the time</button>' +
                 '<p class="mac-dc-secure"><span>🔒 Secured by Razorpay</span><span>·</span><button type="button" class="mac-dc-btn mac-dc-btn--link" data-action="back">Back to both options</button></p>' +
             '</form>'
         );
@@ -684,7 +728,7 @@
                 '<p>Paid ' + esc(paid.display) + ' · Order ID <code>' + esc(paid.orderId) + '</code></p>' +
                 '<p>A mentor confirms your demo on WhatsApp shortly. To move faster, send us the confirmation yourself:</p>' +
                 '<a class="mac-dc-btn mac-dc-btn--wa" href="' + waLink(msg) + '" target="_blank" rel="noopener noreferrer">' + ICON_WA + 'Confirm on WhatsApp</a>' +
-                '<p class="mac-dc-tiny"><b>Keep your Order ID.</b> If you enrol, send it to us on WhatsApp and we adjust ' + esc(paid.display) + ' against your first month\'s fee. Your written skill report and learning roadmap arrive on WhatsApp within a day of the class.</p>' +
+                '<p class="mac-dc-tiny"><b>Keep your Order ID.</b> If you enrol, send it to us on WhatsApp and we adjust ' + esc(paid.feeDisplay || paid.display) + ' against your first month\'s fee. Your written skill report and learning roadmap arrive on WhatsApp within a day of the class.</p>' +
                 '<p class="mac-dc-tiny">Keep a laptop or desktop ready with Chrome and a stable connection. The demo is a real class, not a sales call.</p>' +
             '</div>'
         );
@@ -861,13 +905,16 @@
         }
 
         var currentPrice = price;
+        var billEl = form.querySelector('[data-dc-bill]');
         function refreshPrice() {
             var cc = readPhone(phone);
             currentPrice = priceFor(regionIsIndia(cc.iso));
             var slot = slotHidden.value;
+            var total = billFor(currentPrice).total;
+            if (billEl) billEl.innerHTML = billHtml(currentPrice);
             payBtn.textContent = slot
-                ? 'Pay ' + currentPrice.display + ' & book ' + slot.replace(/\s*\(.*\)\s*$/, '')
-                : 'Pay ' + currentPrice.display + ' · we’ll call to fix the time';
+                ? 'Pay ' + total + ' & book ' + slot.replace(/\s*\(.*\)\s*$/, '')
+                : 'Pay ' + total + ' · we’ll call to fix the time';
         }
         phone.addEventListener('countrycodechange', refreshPrice);
         phone.addEventListener('input', refreshPrice);
@@ -948,11 +995,14 @@
                     theme: { color: '#d97706' },
                     handler: function (resp) {
                         setBusy(true, 'Confirming your booking…');
+                        var chargeBill = billFor(charge);
                         self.verify(resp, {
                             orderId: data.order.orderId,
                             amount: charge.amount,
                             currency: charge.currency,
                             display: charge.display,
+                            // The server's total is what Razorpay charged.
+                            paidDisplay: data.bill ? money(data.bill.total, charge.currency) : chargeBill.total,
                             slot: slot
                         }, function (failure) {
                             setBusy(false);
@@ -1013,9 +1063,12 @@
             if (!data || !data.success) throw new Error((data && data.error) || 'verification failed');
             var paid = {
                 orderId: (data.payment && data.payment.orderId) || order.orderId,
-                amount: order.amount,
+                amount: (data.payment && data.payment.amount) || billFor(order).totalAmount,
                 currency: order.currency,
-                display: order.display,
+                // What was paid, gateway charges included. feeDisplay is the
+                // demo fee alone, the part adjusted against the first month.
+                display: order.paidDisplay || billFor(order).total,
+                feeDisplay: order.display,
                 slot: order.slot,
                 paymentId: resp.razorpay_payment_id,
                 at: Date.now()
@@ -1026,7 +1079,7 @@
             self.showSuccess(paid);
             syncInline(self);
             track('demo_priority_paid', {
-                value: order.amount, currency: order.currency,
+                value: billFor(order).totalAmount, currency: order.currency,
                 transaction_id: paid.orderId, source: self.rec.kind || 'unknown'
             });
             fbTrack('Purchase', demoParams(order), paid.orderId);
@@ -1475,6 +1528,6 @@
             track('demo_priority_direct_open', { page: window.location.pathname, placement: String(placement || 'link') });
         },
         prices: PRICES,
-        version: '20261022a'
+        version: '20261023a'
     };
 })();

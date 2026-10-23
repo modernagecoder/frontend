@@ -11,7 +11,12 @@
  * the popup and hands the form values back through onSubmit.
  *
  *   MACCampPay.open({ theme, courseName, planName, planInfo, price, pricePer,
- *                     isIndian, onSubmit({ name, email, phone, phoneEl }) })
+ *                     amount, currency, isIndian,
+ *                     onSubmit({ name, email, phone, phoneEl }) })
+ *
+ * With amount and currency, the popup shows the bill: camp fee, payment
+ * gateway charges (2.5%, owner 2026-10-23) and the total, and the Pay button
+ * carries the total. The camp page itself never shows the charge.
  *   MACCampPay.showError(msg)  MACCampPay.setPaying(bool, label)  MACCampPay.close()
  */
 (function () {
@@ -31,11 +36,39 @@
     _paying: false,
     _onKey: null,
 
+    // Payment gateway charges: the rate comes from pricing.config.jsonc
+    // through window.MAC_PRICING.gatewayFee. The backend charges the same
+    // rate (backend/lib/gatewayFee.js) and is the authority; 2.5 here only
+    // stands in on a page whose data file is a deploy behind. Sums in paise
+    // / cents, the way the backend does them.
+    bill: function (amount, currency) {
+      var gf = window.MAC_PRICING && window.MAC_PRICING.gatewayFee;
+      var pct = (gf && typeof gf.percent === 'number') ? gf.percent : 2.5;
+      var baseMinor = Math.round(Number(amount) * 100);
+      var feeMinor = Math.round(baseMinor * Math.round(pct * 100) / 10000);
+      return {
+        percent: pct,
+        label: (gf && gf.label) || 'Payment gateway charges',
+        planFee: this.money(baseMinor / 100, currency),
+        fee: this.money(feeMinor / 100, currency),
+        total: this.money((baseMinor + feeMinor) / 100, currency),
+        totalAmount: (baseMinor + feeMinor) / 100
+      };
+    },
+
+    money: function (amount, currency) {
+      var usd = currency === 'USD';
+      var minor = Math.round(Number(amount) * 100);
+      return (usd ? '$' : '₹') + (minor / 100).toLocaleString(usd ? 'en-US' : 'en-IN',
+        { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 });
+    },
+
     open: function (o) {
       this.close();
       this.addStyles();
       var isIndian = o.isIndian !== false;
-      this._label = 'Pay ' + o.price + ' securely';
+      var bill = o.amount != null ? this.bill(o.amount, o.currency) : null;
+      this._label = 'Pay ' + (bill ? bill.total : o.price) + ' securely';
       var html =
         '<div id="' + ID + '" class="mcp-overlay mcp--' + esc(o.theme || 'summer') + '" role="dialog" aria-modal="true" aria-labelledby="mcp-title">' +
           '<div class="mcp">' +
@@ -50,6 +83,11 @@
               '</div>' +
               '<div class="mcp-price"><b>' + esc(o.price) + '</b><span>' + esc(o.pricePer || '') + '</span></div>' +
             '</div>' +
+            (bill ? '<dl class="mcp-bill">' +
+              '<div><dt>Camp fee</dt><dd>' + esc(bill.planFee) + '</dd></div>' +
+              '<div><dt>' + esc(bill.label) + ' (' + esc(bill.percent) + '%)</dt><dd>' + esc(bill.fee) + '</dd></div>' +
+              '<div class="mcp-bill-total"><dt>Total payable</dt><dd>' + esc(bill.total) + '</dd></div>' +
+            '</dl>' : '') +
             '<form class="mcp-form" novalidate>' +
               '<div class="mcp-field"><label for="mcp-name">Student or parent name</label>' +
                 '<input type="text" id="mcp-name" autocomplete="name" required placeholder="Full name"></div>' +
@@ -201,6 +239,12 @@
         '.mcp-price{text-align:right;white-space:nowrap;flex-shrink:0}',
         '.mcp-price b{display:block;font-family:var(--c-display);font-weight:800;font-size:26px;line-height:1.05;color:var(--c-accent)}',
         '.mcp-price span{font-size:12.5px;color:var(--c-muted)}',
+        '.mcp-plan + .mcp-bill{margin-top:-8px}',
+        '.mcp-bill{margin:0 0 20px;padding:2px 0;border-bottom:1px solid var(--c-line);font-size:14px;color:var(--c-muted)}',
+        '.mcp-bill div{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:5px 0}',
+        '.mcp-bill dt,.mcp-bill dd{margin:0}',
+        '.mcp-bill dd{white-space:nowrap;font-variant-numeric:tabular-nums}',
+        '.mcp-bill .mcp-bill-total{margin-top:2px;padding-top:8px;border-top:1px dashed var(--c-line);font-size:15.5px;font-weight:700;color:var(--c-text)}',
         '.mcp-form{margin:0}',
         '.mcp-field{margin:0 0 14px}',
         '.mcp-field label{display:block;margin:0 0 6px;font-size:13.5px;font-weight:600;color:var(--c-soft)}',
@@ -225,7 +269,7 @@
         '.mcp-done .mcp-plan{text-align:left}',
         '.mcp-tick{width:62px;height:62px;margin:0 auto 12px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:rgba(74,222,128,.14);color:#4ade80;font-size:30px;font-weight:700}',
         '.mcp-note{margin:0 0 16px;font-size:14px;color:var(--c-soft)}',
-        '@media (max-width:560px){.mcp-overlay{padding:0;align-items:flex-end}.mcp{max-width:none;max-height:94dvh;border-radius:22px 22px 0 0;border-bottom:0;padding:24px 18px calc(18px + env(safe-area-inset-bottom));animation:mcpSheet .3s cubic-bezier(.2,.8,.2,1) both}.mcp-title{font-size:19.5px;margin-bottom:14px}.mcp-plan{padding:13px 14px;margin-bottom:16px}.mcp-price b{font-size:22px}.mcp-field{margin-bottom:12px}}',
+        '@media (max-width:560px){.mcp-overlay{padding:0;align-items:flex-end}.mcp{max-width:none;max-height:94dvh;border-radius:22px 22px 0 0;border-bottom:0;padding:24px 18px calc(18px + env(safe-area-inset-bottom));animation:mcpSheet .3s cubic-bezier(.2,.8,.2,1) both}.mcp-title{font-size:19.5px;margin-bottom:14px}.mcp-plan{padding:13px 14px;margin-bottom:16px}.mcp-bill{margin-bottom:16px;font-size:13.5px}.mcp-price b{font-size:22px}.mcp-field{margin-bottom:12px}}',
         '@keyframes mcpFade{from{opacity:0}to{opacity:1}}',
         '@keyframes mcpUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}',
         '@keyframes mcpSheet{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}',

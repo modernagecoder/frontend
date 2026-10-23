@@ -106,6 +106,10 @@ window.MAC_PRICING = {
       "personal": 672
     }
   },
+  "gatewayFee": {
+    "percent": 2.5,
+    "label": "Payment gateway charges"
+  },
   "display": {
     "chargeCurrencies": {
       "india": "INR",

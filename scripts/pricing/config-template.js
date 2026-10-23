@@ -141,6 +141,16 @@ function render(v) {
   },
 
   // ───────────────────────────────────────────────────────────────────────
+  //  PAYMENT GATEWAY CHARGES  (owner's decision 2026-10-23)
+  //  Added on top of EVERY payment at checkout: course plans, 6 months at
+  //  once, camps, the priority demo. Page and card prices never include it;
+  //  the pay popup shows the plan fee, this charge and the total before the
+  //  visitor pays. The backend charges the same rate (backend/lib/
+  //  gatewayFee.js) and demo-choice.js repeats it; change all three together.
+  // ───────────────────────────────────────────────────────────────────────
+  "gatewayFee": { "percent": 2.5, "label": "Payment gateway charges" },
+
+  // ───────────────────────────────────────────────────────────────────────
   //  COURSES PRICED DIFFERENTLY, add a slug to move a course onto another
   //  price set. pricing:check errors on a slug that matches no course.
   // ───────────────────────────────────────────────────────────────────────

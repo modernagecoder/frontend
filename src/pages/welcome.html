@@ -238,6 +238,10 @@
             padding: 0.3rem 0;
         }
 
+        .payment-details div[hidden] {
+            display: none;
+        }
+
         .payment-details span:first-child {
             color: #94a3b8;
         }
@@ -357,6 +361,8 @@
 
             <div class="payment-details" id="payment-details" style="display:none;">
                 <div><span>Order ID</span><span id="order-id">, </span></div>
+                <div id="order-fee-row" hidden><span>Plan fee</span><span id="order-fee"></span></div>
+                <div id="order-gateway-row" hidden><span>Payment gateway charges</span><span id="order-gateway"></span></div>
                 <div><span>Amount Paid</span><span id="order-amount">, </span></div>
             </div>
 
@@ -391,9 +397,22 @@
             if (orderId || amount) {
                 document.getElementById('payment-details').style.display = 'block';
                 if (orderId) document.getElementById('order-id').textContent = orderId;
-                if (amount) {
+                // "₹1,536.48": paise / cents only when there are some.
+                var money = function (v) {
                     var symbol = currency === 'USD' ? '$' : (currency === 'INR' ? '₹' : '');
-                    document.getElementById('order-amount').textContent = symbol + amount;
+                    var minor = Math.round(Number(v) * 100);
+                    if (!isFinite(minor)) return symbol + v;
+                    return symbol + (minor / 100).toLocaleString(currency === 'USD' ? 'en-US' : 'en-IN',
+                        { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 });
+                };
+                if (amount) document.getElementById('order-amount').textContent = money(amount);
+                var planFee = params.get('planFee');
+                var gatewayFee = params.get('gatewayFee');
+                if (planFee && gatewayFee) {
+                    document.getElementById('order-fee').textContent = money(planFee);
+                    document.getElementById('order-gateway').textContent = money(gatewayFee);
+                    document.getElementById('order-fee-row').hidden = false;
+                    document.getElementById('order-gateway-row').hidden = false;
                 }
             }
 

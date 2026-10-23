@@ -53,7 +53,8 @@ const WinterCampEnrollment = {
                 content_name: this.courseName,
                 content_type: 'product',
                 content_category: 'Camp',
-                value: Number(this.getCoursePrice()),
+                // What the visitor pays: the camp fee plus the payment gateway charges.
+                value: window.MACCampPay ? window.MACCampPay.bill(this.getCoursePrice(), this.getCourseCurrency()).totalAmount : Number(this.getCoursePrice()),
                 currency: this.getCourseCurrency(),
                 num_items: 1
             };
@@ -111,6 +112,8 @@ const WinterCampEnrollment = {
             planInfo: 'Small batch, at most 20 learners',
             price: this.getPriceDisplay(),
             pricePer: 'one-time fee',
+            amount: this.getCoursePrice(),
+            currency: this.getCourseCurrency(),
             isIndian: this.isIndian(),
             onSubmit: (v) => this.processPayment(v)
         });
@@ -231,7 +234,7 @@ const WinterCampEnrollment = {
             theme: 'winter',
             courseName: this.courseName,
             orderId: payment.orderId,
-            amount: (this.isIndian() ? '₹' : '$') + payment.amount
+            amount: window.MACCampPay.money(payment.amount, payment.currency || this.getCourseCurrency())
         });
     },
 
