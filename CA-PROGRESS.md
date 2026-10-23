@@ -354,7 +354,7 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 
 ## Open items
 
-- Plan B (CAD region): owner to confirm Razorpay CAD is enabled; other CAD figures (six-month, Gemini 1-on-1, camp, Priority Demo); Canadian time zone vs Indian browser language.
+- Plan B (CAD region): BUILT 2026-10-24, NOT LIVE. Owner answers 2026-10-23: Razorpay CAD enabled; Canadian time zone beats Indian browser language; other figures 1.4 x USD (6-month 629/941, Gemini 350, camp 280, demo 14). Backend bd59cb6, frontend 4b456923a (+ stamps d09d34f8d); plan docs/superpowers/plans/2026-10-23-ca-plan-b-cad.md. Preview with ?test=canada. Go live = deploy backend, then set canada.live true in pricing.config.jsonc and push frontend.
 - md twins print USD fees (renderer md path); Plan B switches Canada twins when CAD goes live.
 - Rows 82, 83, 84 (cost pages) wait for Plan B: their market prices are in CAD and Canada pages are currency-neutral until the CAD region is live (Plan 2 default).
 - Rows 21, 23, 24, 26, 27 (BC): written 2026-10-23 once curriculum.gov.bc.ca was reachable (row 27 from the curriculum site's own numeracy assessment pages).
@@ -367,3 +367,4 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 - The other 9 country hubs still carry '15&ndash;20 batches' in the related-pages block (generator fixed in build-internal-links.js; rerun `npm run build:links` with owner OK).
 - Status 2026-10-23: all queued rows shipped locally (102 row commits since origin e4d0cd856); nothing pushed.
 - generate-static-md.js glues adjacent links and spans with no separator in .md twins (e.g. 'OntarioMath tutor in Brampton'); sitewide generator flaw, affects AI-readable twins; fix needs owner OK (touches every twin).
+- 2026-10-24 Plan B known gaps: ~8 comparison/cost pages keep one typed USD fee in a sentence for Canadians (vs-cuemath, vs-juni-learning, vs-outschool, coding-classes-cost-india-2026, best-online-maths-classes-2026, coding-classes-for-kids-cost); 1,557 pages without the pricing scripts (UK/US/AU lead pages) stay USD; /course catalog FAQ shows the India-only mini batch as rupees to every visitor abroad (pre-existing).
