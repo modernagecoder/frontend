@@ -59149,5 +59149,68 @@
       "Recommending Claude or Claude Code to anyone under 18: refused.",
       "Any affiliation with the City of Kingston, the ministry, EQAO or CEMC."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-longueuil": {
+    "market": "Longueuil",
+    "bodyClass": "cg-vaal",
+    "pageType": "city",
+    "curriculumAuthority": "Québec Education Program Secondary Cycle Two mathematics (three options, pre-university access); quebec.ca CEGEP overview (two and three years, R score); Charter of the French language s.1 (facts-geo.md); CEMC 2026-27 BCC (English only) and CCC (English and French) and the school-entry rule; CCC rules on AI; Anthropic, OpenAI and GitHub age rules; Anthropic, Building effective agents (simplest solution first, paraphrased). Longueuil area codes and Eastern offsets from facts-geo.md.",
+    "localProject": "Ville de Longueuil, Équipements sportifs et récréatifs on Données Québec (CC BY 4.0), XLSX downloaded 23 October 2026, 644 rows: our longueuil_search.py (python -I) shows a naive lowercase search finding 0 for jeux d'eau, petanque, patinoires et sentier glace and aréna - olympia, against 19, 27, 47 and 1 after folding apostrophes, accents, case and spacing; 23 curly and 8 straight apostrophes in type values; 27 place names with stray spaces; Secteur holds postal codes on 637 rows and district names on 6. Labelled as ours. Lesson family: text normalisation with test queries written first.",
+    "requiredMentions": [
+      "Jeux d&rsquo;eau, with a curly apostrophe",
+      "Terrain sportif - Pétanque",
+      "J4P3K3 on OBJECTID 69",
+      "261 raw place names into 246",
+      "même à des fins commerciales",
+      "Saint-Hubert four times",
+      "450, 579 and 354",
+      "Write the queries first",
+      "Brossard, Boucherville",
+      "Know what folding costs"
+    ],
+    "sources": [
+      {
+        "claim": "Ville de Longueuil, Équipements sportifs et récréatifs on Données Québec (package and XLSX resource).",
+        "url": "https://www.donneesquebec.ca/recherche/dataset/equipements-sportifs-et-recreatifs"
+      },
+      {
+        "claim": "Données Québec licence page: CC BY 4.0 section.",
+        "url": "https://www.donneesquebec.ca/licence/#cc-by"
+      },
+      {
+        "claim": "Québec Education Program, Secondary Cycle Two mathematics.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/programmes/PFEQ-mathematique-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "Quebec CEGEP overview: program lengths and R score.",
+        "url": "https://www.quebec.ca/en/education/cegeps-private-colleges/studying/overview"
+      },
+      {
+        "claim": "CEMC contests: languages and 2026-27 dates.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Anthropic consumer terms: 18+.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "OpenAI terms: parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/terms-of-use/"
+      },
+      {
+        "claim": "Anthropic, Building effective agents.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Longueuil or Montreal-area population: not used.",
+      "Quebec rules on French-language schooling and the DES credit total: not verified (source unreachable), so not stated.",
+      "That folding accents is always safe: refused; the page says to test for collisions.",
+      "What the Secteur column was meant to hold: not documented, so only its actual contents are described.",
+      "The two malformed Longueuil CSVs (parcs, installations): not used; installations lists schools and phone numbers.",
+      "That our classes grant Quebec credits: refused.",
+      "Recommending Claude or Claude Code to anyone under 18: refused.",
+      "Any affiliation with Ville de Longueuil, Données Québec, the ministry or CEMC."
+    ]
   }
 }
