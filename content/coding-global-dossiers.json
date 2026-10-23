@@ -55947,5 +55947,62 @@
       "That our classes improve EQAO results or report-card marks: refused.",
       "Any affiliation with the Town of Oakville, the Halton school boards, the Ontario Ministry of Education, EQAO or FIRST Robotics Canada."
     ]
+  },
+  "best-coding-classes-for-kids-in-burnaby": {
+    "market": "Burnaby",
+    "bodyClass": "cg-bkib",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 22 October 2026 from curriculum.gov.bc.ca (ADST 6-7 core, saved raw): the three-module rule with school choice; Computers and Communications Devices (keyboarding techniques, troubleshooting); Digital Literacy (Internet safety, privacy and security; judging search results by accuracy, timeliness, appropriateness, credibility and bias). BC Gov News 2026AG0013-000209 on permanent Pacific time (UTC-7). CEMC Beaver Computing Challenge 2026 levels, formats, dates and the 2025 turnout table (not summed); through-a-school rule. Burnaby area codes and the Vancouver CMA from facts-geo.md.",
+    "localProject": "City of Burnaby open data, Drinking Water Fountains (Open Government Licence - City of Burnaby, based on OGL-BC 2.0), JSON downloaded 22 October 2026 (21,923 bytes, 151 rows) and counted with our script page_script.py (python -I): DF 84, ST 46, DDF 14, BF 5, blank 2; 66 named sites, 36 with one fixture, 7 with five or more; 60 site names in capitals and 6 in mixed case. Meanings of DF, BF and ST are labelled as our reading; DDF left unexplained; site names not printed. Labelled as ours. Lesson family: nested JSON, a lookup table, and refusing to guess a code.",
+    "requiredMentions": [
+      "Not explained anywhere in the file or its description",
+      "36 sites have a single fixture and 7 have five or more",
+      "effective and efficient keyboarding techniques",
+      "accuracy, timeliness, appropriateness, credibility, and bias",
+      "Open Government Licence - City of Burnaby",
+      "Pacific time, the name of B.C.&rsquo;s new time zone",
+      "14 260",
+      "Coquitlam, Surrey and Richmond",
+      "60 are written in capitals and 6 in mixed case"
+    ],
+    "sources": [
+      {
+        "claim": "BC curriculum, ADST 6-7 core: module rule, keyboarding, troubleshooting, Internet safety, search-result criteria.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/6/core"
+      },
+      {
+        "claim": "BC Gov News: permanent Pacific time, UTC-7, no change on 1 November 2026.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge: 2026 levels, formats, dates and 2025 turnout.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC: students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Burnaby open data: Drinking Water Fountains dataset.",
+        "url": "https://data.burnaby.ca/datasets/burnaby::drinking-water-fountains"
+      },
+      {
+        "claim": "Open Government Licence - City of Burnaby (commercial use, attribution, non-endorsement).",
+        "url": "https://data.burnaby.ca/pages/open-government-licence"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Vancouver on UTC-7 all year.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Burnaby population figure: StatCan was not reachable live.",
+      "What DDF stands for: refused; neither the file nor its description says.",
+      "Site names from the fountain file: not printed, because some name schools.",
+      "That every fountain in the file works today: refused; the record was last changed in August 2023 and is updated as required.",
+      "A total of BCC writers across levels: refused; CEMC publishes the levels separately and we do not add them.",
+      "Any ranking of Burnaby coding providers, or that Modern Age Coders is the best: refused.",
+      "Any affiliation with the City of Burnaby, the Burnaby school district, the BC education ministry, CEMC or the University of Waterloo."
+    ]
   }
 }
