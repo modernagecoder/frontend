@@ -1211,6 +1211,7 @@ const MARKETS = [
   ['vibe-coding-and-ai-agents-classes-in-nanaimo', 'Nanaimo'],
   ['vibe-coding-and-ai-agents-classes-in-brantford', 'Brantford'],
   ['vibe-coding-and-ai-agents-classes-in-peterborough-ontario', 'Peterborough, Ontario'],
+  ['vibe-coding-and-ai-agents-classes-in-greater-sudbury', 'Greater Sudbury'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

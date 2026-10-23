@@ -59411,5 +59411,67 @@
       "Recommending Claude or Claude Code to anyone under 18: refused.",
       "Any affiliation with the City or County of Peterborough, the province, EQAO or CEMC."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-greater-sudbury": {
+    "market": "Greater Sudbury",
+    "bodyClass": "cg-vaag",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario curriculum service, read 22 October 2026: Grade 2, Grade 5 and Grade 8 C3.1 coding, ICS3U, ICS3C, ICD2O; CEMC BCC (English only), CCC (English and French), Euclid and FGH 2027 dates and the Euclid participation line, school entry; CCC rules on AI; Anthropic, OpenAI and GitHub age rules; Anthropic, Building effective agents (trusted environments). Greater Sudbury area codes and Eastern offsets from facts-geo.md.",
+    "localProject": "City of Greater Sudbury Parks / Parcs (City of Greater Sudbury Open Data Licence, based on OGL Ontario 1.0), CSV downloaded 23 October 2026, 406 rows with English and French columns: our bilingual_audit.py (python -I) learns the usual category pairing by majority and flags OBJECTID 115 (Tot Lot / Rue Redfern), 123 (Natural Park / Parc) and 169 (Park / Parc naturel); flags 9 name pairs where only one language says unnamed (65 Unnamed / croissant Douglas; 265, 273, 290, 305, 334; 364 to 366); counts 21 French values with stray spaces or line breaks. Labelled as ours. Lesson family: consistency between paired columns before an agent answers.",
+    "requiredMentions": [
+      "OBJECTID 115 is a Tot Lot in English and Rue Redfern in French",
+      "croissant Douglas",
+      "265 Lively Greenspace and 273 Bell Grove",
+      "Unnamed - Lake Access",
+      "Open Data Licence - City of Greater Sudbury",
+      "trusted environments",
+      "Northeastern numbers",
+      "Capreol to Lively",
+      "North Bay and Timmins",
+      "Why a person decides"
+    ],
+    "sources": [
+      {
+        "claim": "City of Greater Sudbury Parks / Parcs dataset.",
+        "url": "https://opendata.greatersudbury.ca/datasets/e1f2c475a7d14e3dbc46715b8baed81a_4"
+      },
+      {
+        "claim": "City of Greater Sudbury Open Data Licence.",
+        "url": "https://www.greatersudbury.ca/city-hall/open-data/licence/"
+      },
+      {
+        "claim": "Ontario curriculum: elementary coding, ICS3U, ICS3C, ICD2O.",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "CEMC contests: languages, 2026-27 dates.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC Euclid contest.",
+        "url": "https://cemc.uwaterloo.ca/contests/euclid"
+      },
+      {
+        "claim": "OpenAI help centre: parental consent ages 13 to 18.",
+        "url": "https://help.openai.com/"
+      },
+      {
+        "claim": "Anthropic consumer terms: 18+.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "Anthropic, Building effective agents.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      }
+    ],
+    "rejectedClaims": [
+      "Which language is right for each flagged record: not decided by us; flagged for a person to ask the City.",
+      "Any figure about French speakers in Greater Sudbury: not sourced, not used.",
+      "Any Greater Sudbury population: not used.",
+      "Naming individual schools: the School Park rows are not discussed.",
+      "That our classes earn Ontario credits: refused.",
+      "Recommending Claude or Claude Code to anyone under 18: refused.",
+      "Any affiliation with the City of Greater Sudbury, the ministry or CEMC."
+    ]
   }
 }
