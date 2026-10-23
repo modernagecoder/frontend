@@ -41,7 +41,7 @@ One row per jurisdiction. The ministry or department column uses the name printe
 | New Brunswick | Not verified (the provincial government site blocked us) | Computer Science 110 and 120, Cybersecurity 120, Cybersecurity and Technical Support 110, Technology 9 | Computer Science 110: "Learners will gain a strong foundation in coding while demonstrating operational skills, using computational thinking". | Partly verified |
 | Nova Scotia | Not verified (the curriculum site did not connect) | Computer Programming 12, offered through the Nova Scotia Virtual School | The virtual school lists "CodeHS: NSVS Computer Programming 12 (Java)." | Partly verified |
 | Prince Edward Island | Not verified | Not verified | The government site was offline on 21 October and showed a bot check on 22 October 2026, so we stopped. | Not verified |
-| Newfoundland and Labrador | Not verified | Not verified | The government site returned server errors on 21 and 22 October 2026. | Not verified |
+| Newfoundland and Labrador | Department of Education and Early Childhood Development | Computer Science 8 (a technology education module); Computer Science 1204; Communications Technology 3104 | Computer Science 1204 "provides opportunities to build skills in both block-based and text-based programming languages". | Verified |
 | Yukon | Not verified | Not verified | yukon.ca refused our request with a security challenge. We make no claim about which curriculum Yukon uses. | Not verified |
 | Northwest Territories | Department of Education, Culture and Employment (ECE) | Moving to an adapted version of BC's curriculum, including its design and technology learning | ECE says it is "partnering with the British Columbia Ministry of Education to start using that province's curriculum". | Verified |
 | Nunavut | Not verified | Not verified | The territorial government site refused our request with a security challenge. | Not verified |
@@ -149,9 +149,11 @@ New Brunswick's curriculum site lists Computer Science 110, Computer Science 120
 
 Nova Scotia's Virtual School describes Computer Programming 12 by its "Modules: Problem Solving in Computer Programming, Fundamentals of Programming, Applied Problem Solving, Project Development." and lists it on CodeHS in Java. The province's own curriculum site did not connect, so we cannot say how widely schools offer it.
 
-Prince Edward Island and Newfoundland and Labrador: not verified. On 21 October 2026 the PEI government site showed an offline notice, and on 22 October it put up a bot check, so we stopped rather than work around it. Newfoundland and Labrador's government site returned server errors on both days. We print nothing about either province's coding courses until a primary page can be read.
+Newfoundland and Labrador. The Department of Education and Early Childhood Development's technology education page lists Computer Science 8, a module in which students "plan, design and create block-based programs for specific tasks" and use them to control LEDs and motors, and Computer Science 1204, which "provides opportunities to build skills in both block-based and text-based programming languages". Communications Technology 3104 adds data and programming work. The site had returned server errors earlier, and we read it once it answered.
 
-Sources: [Québec Education Program, secondary](https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/secondary) and [pre-university programs](https://www.quebec.ca/en/education/cegeps-private-colleges/services/programmes/pre-university-programs); [New Brunswick Computer Science 110](https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/); [Nova Scotia Virtual School, Computer Programming 12](https://elearning.ednet.ns.ca/index.php/cm-course/computer-programming-12/); all read 22 October 2026.
+Prince Edward Island: not verified. On 21 October 2026 the PEI government site showed an offline notice, and on 22 October it put up a bot check, so we stopped rather than work around it. We print nothing about PEI's coding courses until a primary page can be read.
+
+Sources: [Québec Education Program, secondary](https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/secondary) and [pre-university programs](https://www.quebec.ca/en/education/cegeps-private-colleges/services/programmes/pre-university-programs); [New Brunswick Computer Science 110](https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/); [Newfoundland and Labrador technology education](https://www.gov.nl.ca/education/k12/curriculum/descriptions/technology-education/); [Nova Scotia Virtual School, Computer Programming 12](https://elearning.ednet.ns.ca/index.php/cm-course/computer-programming-12/); all read 22 October 2026.
 
 ## One task, two programs: what "efficient code" means in practice
 
@@ -247,7 +249,7 @@ A reference page is only useful if its blank cells are honest. These are the cla
 
 ### Not printed, because no primary source was read
 
-Any coding or computer science course name for Prince Edward Island, Newfoundland and Labrador, Yukon or Nunavut. Any claim about which curriculum Yukon follows. The departmental names for New Brunswick and Nova Scotia.
+Any coding or computer science course name for Prince Edward Island, Yukon or Nunavut. Any claim about which curriculum Yukon follows. The departmental names for New Brunswick and Nova Scotia.
 
 Alberta's Career and Technology Studies computing courses: the old provincial PDF now shows a "We've Moved" notice, the new curriculum site needs JavaScript to show any text, and the open-data host refused us.
 
@@ -359,7 +361,7 @@ The Québec Education Program subject list for Secondary I to V names no stand-a
 
 ### Why do some rows say not verified?
 
-On 22 October 2026 the government sites for Prince Edward Island, Newfoundland and Labrador, Yukon and Nunavut were offline, returned errors or refused automated requests. We stopped rather than work around a block, and we print nothing we could not read at the source.
+On 22 October 2026 the government sites for Prince Edward Island, Yukon and Nunavut were offline or refused automated requests. We stopped rather than work around a block, and we print nothing we could not read at the source.
 
 ### Can online classes count for school credit?
 

@@ -53,8 +53,10 @@
 //    Employment (ECE)"; "partnering with the British Columbia Ministry of Education to start using that province's
 //    curriculum"; BC's curriculum "teaches students the ability to design, make, acquire, and apply skills and
 //    technologies"; 2022-23 "final year that NWT students take the Alberta Achievement Tests (AATs)".
-//  - NOT verified, stated plainly on the page: Newfoundland and Labrador (gov.nl.ca HTTP 500 on 21 and 22 October 2026),
-//    Prince Edward Island (offline notice 21 October, Radware bot check 22 October: stopped), Yukon (yukon.ca 403),
+//  - gov.nl.ca technology education page (read 22 October 2026 after earlier HTTP 500s): Computer Science 8 module, students
+//    "plan, design and create block-based programs for specific tasks"; Computer Science 1204 "provides opportunities to
+//    build skills in both block-based and text-based programming languages"; Communications Technology 3104.
+//  - NOT verified, stated plainly on the page: Prince Edward Island (offline notice 21 October, Radware bot check 22 October: stopped), Yukon (yukon.ca 403),
 //    Nunavut (gov.nu.ca 403). No claim that Yukon follows BC.
 // Our own material, labelled on the page: the freeze-thaw worked example in Python (run under CPython on 22 October
 // 2026: 6 freeze-thaw days, longest run 2, 16 checks against 10, and 7260 against 120 on a 120-day winter), the
@@ -184,7 +186,7 @@ module.exports = {
           ['New Brunswick', 'Not verified (the provincial government site blocked us)', 'Computer Science 110 and 120, Cybersecurity 120, Cybersecurity and Technical Support 110, Technology 9', 'Computer Science 110: "Learners will gain a strong foundation in coding while demonstrating operational skills, using computational thinking".', 'Partly verified'],
           ['Nova Scotia', 'Not verified (the curriculum site did not connect)', 'Computer Programming 12, offered through the Nova Scotia Virtual School', 'The virtual school lists "CodeHS: NSVS Computer Programming 12 (Java)."', 'Partly verified'],
           ['Prince Edward Island', 'Not verified', 'Not verified', 'The government site was offline on 21 October and showed a bot check on 22 October 2026, so we stopped.', 'Not verified'],
-          ['Newfoundland and Labrador', 'Not verified', 'Not verified', 'The government site returned server errors on 21 and 22 October 2026.', 'Not verified'],
+          ['Newfoundland and Labrador', 'Department of Education and Early Childhood Development', 'Computer Science 8 (a technology education module); Computer Science 1204; Communications Technology 3104', 'Computer Science 1204 "provides opportunities to build skills in both block-based and text-based programming languages".', 'Verified'],
           ['Yukon', 'Not verified', 'Not verified', 'yukon.ca refused our request with a security challenge. We make no claim about which curriculum Yukon uses.', 'Not verified'],
           ['Northwest Territories', 'Department of Education, Culture and Employment (ECE)', 'Moving to an adapted version of BC\'s curriculum, including its design and technology learning', 'ECE says it is "partnering with the British Columbia Ministry of Education to start using that province\'s curriculum".', 'Verified'],
           ['Nunavut', 'Not verified', 'Not verified', 'The territorial government site refused our request with a security challenge.', 'Not verified']
@@ -281,8 +283,9 @@ module.exports = {
             'New Brunswick\'s curriculum site lists Computer Science 110, Computer Science 120, Cybersecurity 120, Cybersecurity and Technical Support 110 and Technology 9. The Computer Science 110 page also mentions AI-assisted debugging tools alongside coding environments, one of the few provincial pages we read that does.',
             'Nova Scotia\'s Virtual School describes Computer Programming 12 by its "Modules: Problem Solving in Computer Programming, Fundamentals of Programming, Applied Problem Solving, Project Development." and lists it on CodeHS in Java. The province\'s own curriculum site did not connect, so we cannot say how widely schools offer it.'
           ] },
-        { kind: 'p', mt: true, html: '<b>Prince Edward Island and Newfoundland and Labrador: not verified.</b> On 21 October 2026 the PEI government site showed an offline notice, and on 22 October it put up a bot check, so we stopped rather than work around it. Newfoundland and Labrador\'s government site returned server errors on both days. We print nothing about either province\'s coding courses until a primary page can be read.' },
-        { kind: 'source', html: 'Sources: <a class="ag-inline-link" href="https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/secondary" rel="noopener" target="_blank">Québec Education Program, secondary</a> and <a class="ag-inline-link" href="https://www.quebec.ca/en/education/cegeps-private-colleges/services/programmes/pre-university-programs" rel="noopener" target="_blank">pre-university programs</a>; <a class="ag-inline-link" href="https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/" rel="noopener" target="_blank">New Brunswick Computer Science 110</a>; <a class="ag-inline-link" href="https://elearning.ednet.ns.ca/index.php/cm-course/computer-programming-12/" rel="noopener" target="_blank">Nova Scotia Virtual School, Computer Programming 12</a>; all read 22 October 2026.' }
+        { kind: 'p', mt: true, html: '<b>Newfoundland and Labrador.</b> The Department of Education and Early Childhood Development\'s technology education page lists Computer Science 8, a module in which students "plan, design and create block-based programs for specific tasks" and use them to control LEDs and motors, and Computer Science 1204, which "provides opportunities to build skills in both block-based and text-based programming languages". Communications Technology 3104 adds data and programming work. The site had returned server errors earlier, and we read it once it answered.' },
+        { kind: 'p', mt: true, html: '<b>Prince Edward Island: not verified.</b> On 21 October 2026 the PEI government site showed an offline notice, and on 22 October it put up a bot check, so we stopped rather than work around it. We print nothing about PEI\'s coding courses until a primary page can be read.' },
+        { kind: 'source', html: 'Sources: <a class="ag-inline-link" href="https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/secondary" rel="noopener" target="_blank">Québec Education Program, secondary</a> and <a class="ag-inline-link" href="https://www.quebec.ca/en/education/cegeps-private-colleges/services/programmes/pre-university-programs" rel="noopener" target="_blank">pre-university programs</a>; <a class="ag-inline-link" href="https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/" rel="noopener" target="_blank">New Brunswick Computer Science 110</a>; <a class="ag-inline-link" href="https://www.gov.nl.ca/education/k12/curriculum/descriptions/technology-education/" rel="noopener" target="_blank">Newfoundland and Labrador technology education</a>; <a class="ag-inline-link" href="https://elearning.ednet.ns.ca/index.php/cm-course/computer-programming-12/" rel="noopener" target="_blank">Nova Scotia Virtual School, Computer Programming 12</a>; all read 22 October 2026.' }
       ]
     },
     {
@@ -333,7 +336,7 @@ module.exports = {
         { kind: 'two',
           leftH3: 'Not printed, because no primary source was read',
           left: [
-            'Any coding or computer science course name for Prince Edward Island, Newfoundland and Labrador, Yukon or Nunavut. Any claim about which curriculum Yukon follows. The departmental names for New Brunswick and Nova Scotia.',
+            'Any coding or computer science course name for Prince Edward Island, Yukon or Nunavut. Any claim about which curriculum Yukon follows. The departmental names for New Brunswick and Nova Scotia.',
             'Alberta\'s Career and Technology Studies computing courses: the old provincial PDF now shows a "We\'ve Moved" notice, the new curriculum site needs JavaScript to show any text, and the open-data host refused us.'
           ],
           rightH3: 'Printed carefully, because sources only go so far',
@@ -429,7 +432,7 @@ module.exports = {
       { q: 'Does BC have computer science in high school?', a: 'Yes. BC lists Computer Programming 11 and 12, Computer Information Systems 11 and 12 and Robotics 11 and 12 under Applied Design, Skills, and Technologies, plus Computer Science 11 and 12 under Mathematics. Computer Studies 10 and Web Development 10 come earlier.' },
       { q: 'Does Alberta teach coding in school?', a: 'Alberta\'s draft Grades 7 to 9 curriculum integrates computer science and artificial intelligence, with mandatory implementation planned for September 2027. We could not verify Alberta\'s current high school computing courses from a primary source on 22 October 2026.' },
       { q: 'Is there a computer science course in Quebec high schools?', a: 'The Québec Education Program subject list for Secondary I to V names no stand-alone computer science course. Computer science appears as a college program after secondary school, for example Computer Science and Mathematics (200.C0) at CEGEP.' },
-      { q: 'Why do some rows say not verified?', a: 'On 22 October 2026 the government sites for Prince Edward Island, Newfoundland and Labrador, Yukon and Nunavut were offline, returned errors or refused automated requests. We stopped rather than work around a block, and we print nothing we could not read at the source.' },
+      { q: 'Why do some rows say not verified?', a: 'On 22 October 2026 the government sites for Prince Edward Island, Yukon and Nunavut were offline or refused automated requests. We stopped rather than work around a block, and we print nothing we could not read at the source.' },
       { q: 'Can online classes count for school credit?', a: 'Not ours. We teach alongside the school course and do not grant Ontario credits or any other provincial credit. Credits come from the school, under each province\'s rules.' },
       { q: 'What language should my child learn to match their school?', a: 'Ask the teacher which language the class uses. Provincial curricula describe concepts rather than one language. Python is a common first typed language; Nova Scotia\'s virtual school course runs in Java.' },
       { q: 'When are your classes for families across Canada?', a: 'Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. We confirm the time in your own province\'s clock.' },
@@ -490,7 +493,7 @@ module.exports = {
 `,
 
   dossier: {
-    curriculumAuthority: 'Ontario Ministry of Education curriculum service (C3 coding expectations Grades 1 to 8, MTH1W, ICD2O and the ICS course list), Ontario.ca graduation requirements, curriculum.gov.bc.ca (ADST and Mathematics), BC Gov News ministry page, alberta.ca curriculum history, Saskatchewan curriculum site and Ministry of Education page, Manitoba Computer Science framework and Framework for Learning news, curriculum.nbed.ca, Nova Scotia Virtual School, Québec.ca (QEP secondary, pre-university and technical program lists) and NWT ECE curriculum pages, all read raw on 22 October 2026; PEI, NL, Yukon and Nunavut blocked or offline and marked not verified.',
+    curriculumAuthority: 'Ontario Ministry of Education curriculum service (C3 coding expectations Grades 1 to 8, MTH1W, ICD2O and the ICS course list), Ontario.ca graduation requirements, curriculum.gov.bc.ca (ADST and Mathematics), BC Gov News ministry page, alberta.ca curriculum history, Saskatchewan curriculum site and Ministry of Education page, Manitoba Computer Science framework and Framework for Learning news, curriculum.nbed.ca, Nova Scotia Virtual School, Québec.ca (QEP secondary, pre-university and technical program lists) and NWT ECE curriculum pages, all read raw on 22 October 2026; NL technology education page; PEI, Yukon and Nunavut blocked or offline and marked not verified.',
     localProject: 'Our freeze-thaw worked example in Python: ten days of highs and lows, three functions, and the longest run solved two ways with the checks counted (16 against 10; 7260 against 120 on a 120-day winter, 120 x 121 / 2), linked to Ontario Grade 6 efficiency and BC Computer Programming 11 computational thinking. Plus a four-step parent checklist and a grade-band table, both labelled ours. Lesson family: decomposition and efficiency.',
     requiredMentions: ['Every grade from 1 to 8 carries the same coding expectation', 'Senior 2 (20S), Senior 3 (30S), and Senior 4 (40S) Computer Science', 'CodeHS: NSVS Computer Programming 12 (Java).', 'What to work on at home, by grade band', 'start using that province\'s curriculum', 'The gaps in this page, listed openly', 'Computer Science 20 and other science curricula', 'freeze-thaw days', '7260 checks', 'One task, two programs'],
     sources: [
@@ -503,11 +506,12 @@ module.exports = {
       { claim: 'Manitoba Computer Science framework 20S, 30S, 40S.', url: 'https://www.edu.gov.mb.ca/k12/cur/cs/index.html' },
       { claim: 'New Brunswick Computer Science 110.', url: 'https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/' },
       { claim: 'Nova Scotia Virtual School Computer Programming 12.', url: 'https://elearning.ednet.ns.ca/index.php/cm-course/computer-programming-12/' },
+      { claim: 'Newfoundland and Labrador Computer Science 8, Computer Science 1204 and Communications Technology 3104.', url: 'https://www.gov.nl.ca/education/k12/curriculum/descriptions/technology-education/' },
       { claim: 'NWT curriculum managed by ECE; partnering with BC.', url: 'https://www.ece.gov.nt.ca/en/services/jk-12-school-curriculum/jk-12-curriculum-renewal' },
       { claim: 'Quebec pre-university program 200.C0 and technical program 420.B0.', url: 'https://www.quebec.ca/en/education/cegeps-private-colleges/services/programmes/pre-university-programs' }
     ],
     rejectedClaims: [
-      'Course names for PEI, NL, Yukon and Nunavut: no primary source could be read; marked not verified.',
+      'Course names for PEI, Yukon and Nunavut: no primary source could be read; marked not verified.',
       'That Yukon follows the BC curriculum: unverified (yukon.ca 403); not printed.',
       'That ICD2O replaced ICS2O: neither source says so; given as two separate facts.',
       'Alberta CTS Computing Science course names: unverified; not printed.',
