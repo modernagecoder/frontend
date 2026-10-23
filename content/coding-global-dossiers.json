@@ -58631,5 +58631,64 @@
       "CEMC fees: left out (currency-neutral page).",
       "Any affiliation with the Ville de Sherbrooke, the Ministère de l'Éducation or CEMC."
     ]
+  },
+  "online-coding-and-python-classes-in-red-deer": {
+    "market": "Red Deer",
+    "bodyClass": "cg-prd",
+    "pageType": "city",
+    "curriculumAuthority": "Alberta, read 22 October 2026 from alberta.ca pages saved raw: new K-6 math implemented (2022/2023); draft Grades 7-9 with artificial intelligence and computer science, mandatory September 2027; PATs in Grades 6 and 9, digital, January 2026 Grade 9 PATs cancelled; diploma exams weighted 30% from 1 September 2023, 70% course work; Mathematics 30-1 and 30-2. Official Time Act RSA 2000 c O-5.7: UTC-6. CEMC 2026-27 BCC and CCC dates, through-a-school rule. Area codes 368/403/587/825 from facts-geo.md (CNAC via the Internet Archive).",
+    "localProject": "City of Red Deer Open Data, GTFS Data Feed (Open Government Licence - The City of Red Deer), zip downloaded with curl on 22 October 2026 and analysed with our scripts analysis.py and trips_on.py (python -I): feed 30 August to 5 December 2026; 613 stops, 2,323 trips, 42 routes (40 with trips); trips on sample dates 724 / 623 / 318 / 318 (11 November, Sunday timetable) / 658 (27 November) / 0 (6 December, after the feed ends); service 2 removed on 13 of 14 Fridays; first and last weekday departures 04:57 and 23:54; busiest weekday stop 541 stop times; agency_timezone America/Edmonton. Labelled as ours. Lesson family: date rules, exceptions and data expiry.",
+    "requiredMentions": [
+      "49 AV @ 48 ST SORENSEN STN",
+      "Zero does not mean no buses",
+      "remove it on 13 of the 14 Fridays",
+      "Sunday timetable (exception in the file)",
+      "Open Government Licence - The City of Red Deer",
+      "Ask an AI how many buses run on 11 November",
+      "Sylvan Lake, Lacombe, Blackfalds, Penhold and Innisfail",
+      "Red Deer keeps one clock all year now",
+      "the earliest weekday departure is at 04:57",
+      "Live online, recorded course or app"
+    ],
+    "sources": [
+      {
+        "claim": "City of Red Deer Open Data: GTFS Data Feed dataset page and download.",
+        "url": "https://data.reddeer.ca/gtfsdatafeed"
+      },
+      {
+        "claim": "City of Red Deer Open Data: Open Government Licence - The City of Red Deer (commercial use, attribution, non-endorsement).",
+        "url": "https://data.reddeer.ca/About"
+      },
+      {
+        "claim": "Alberta curriculum timeline: K-6 math implemented, draft 7-9 with AI and computer science, mandatory September 2027.",
+        "url": "https://www.alberta.ca/curriculum-how-we-got-here"
+      },
+      {
+        "claim": "Alberta Provincial Achievement Tests: Grades 6 and 9, digital.",
+        "url": "https://www.alberta.ca/provincial-achievement-tests"
+      },
+      {
+        "claim": "Alberta diploma exams: 30% weighting from 1 September 2023, Math 30-1 and 30-2, January 2026 cancellation.",
+        "url": "https://www.alberta.ca/diploma-exams-overview"
+      },
+      {
+        "claim": "Alberta Official Time Act RSA 2000 c O-5.7: official time is 6 hours behind UTC.",
+        "url": "https://kings-printer.alberta.ca/documents/Acts/O05p7.pdf"
+      },
+      {
+        "claim": "CEMC contests 2026-27: BCC and CCC dates, through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Red Deer population figure: StatCan not reachable live, nothing printed.",
+      "A last-updated date for the transit feed: the portal metadata (2024) and the zip contents (2026) disagree, so neither is quoted.",
+      "That Red Deer has no buses after 5 December 2026: refused; the feed simply ends there.",
+      "Why calendar_dates.txt changes service on the five dates: left to students; reasons are not stated in the file.",
+      "Route long names: not printed, because some name an individual school.",
+      "That our classes earn Alberta credits or diploma marks: refused.",
+      "CEMC fees: left out (currency-neutral page).",
+      "Any affiliation with the City of Red Deer, Red Deer Transit, Alberta Education or CEMC."
+    ]
   }
 }
