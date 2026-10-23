@@ -54968,5 +54968,69 @@
       "Names of Brampton schools, boards or private people: not used.",
       "Any affiliation with the City of Brampton, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "math-tutor-markham": {
+    "market": "Markham",
+    "bodyClass": "cg-mtum",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: MTH1W (2021), MPM2D (2005) as the MCR3U prerequisite, MCR3U, MHF4U, MCV4U (MHF4U prior or concurrent), MDM4U; EQAO 2026-27 windows. CEMC CIMC and CSMC eligibility, format, 18 November 2026 date and 22 October 2026 ordering deadline; the through-a-school rule. Markham area codes and Eastern time offsets from facts-geo.md.",
+    "localProject": "City of Markham Open Data, Trails layer (Open Data Licence - City of Markham, Version 1.0), downloaded 22 October 2026 in two pages, UTM zone 17N metres. Our distance-formula lengths for all 3,424 segments: 3,240 within 1 cm of the LENGTH field, 3,422 within 1 m; OBJECTID 3066 off by 3.70 m and OBJECTID 3064 by 2.99 m; median 36.7 m, mean 72.4 m. Worked segment OBJECTID 45 in Randall Park: 9.7879 m against stored 9.78788496 m, and 9.7954 m from coordinates rounded to two decimals. Labelled as ours. Lesson family: distance formula and checking a stored field.",
+    "requiredMentions": [
+      "OBJECTID 3066",
+      "3,240 segments",
+      "Randall Park",
+      "9.78788496",
+      "9.7954",
+      "Its coordinates are in a projected system",
+      "Marked public in the PUBLIC_ field",
+      "CONC 1,348",
+      "6 answer only, 3 full solution",
+      "36.7 m"
+    ],
+    "sources": [
+      {
+        "claim": "City of Markham Open Data: Trails item record (description, licence link).",
+        "url": "https://www.arcgis.com/home/item.html?id=c445d4d0a22041d2a961e919a8df59ed"
+      },
+      {
+        "claim": "City of Markham: Trails feature service (OD_TRAILS).",
+        "url": "https://utility.arcgis.com/usrsvcs/servers/c445d4d0a22041d2a961e919a8df59ed/rest/services/OpenData/OD_TRAILS/FeatureServer"
+      },
+      {
+        "claim": "City of Markham: Open Data Licence Version 1.0 (commercial use, credit statement, non-endorsement).",
+        "url": "https://data-markham.opendata.arcgis.com/pages/terms-of-use"
+      },
+      {
+        "claim": "Ontario curriculum content API: senior math course records and prerequisites.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code%5Bin%5D=MCR3U,MHF4U,MCV4U,MDM4U,MPM2D,MTH1W,MCF3M,MAP4C,MEL4E&depth=0"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC: CIMC and CSMC (eligibility, format, 2026 date).",
+        "url": "https://cemc.uwaterloo.ca/contests/csimc"
+      },
+      {
+        "claim": "CEMC: contest dates and ordering deadlines for 2026/27.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets for 2026-27.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Markham population figure: StatCan was not reachable live.",
+      "A total length of Markham trails, or per-trail totals: not printed; it would be a sum of the City's published segment lengths.",
+      "Why OBJECTID 3066 and 3064 disagree with LENGTH: the file does not say, so no cause is given.",
+      "That trail segments marked PUBLIC_ No are closed or private land: the field is not defined in the saved record, so it is only counted.",
+      "Other tutors' rates in Markham: not sourced, so not printed.",
+      "Any fee figure or currency in the copy: fees render from the template only.",
+      "That our lessons earn an Ontario credit: refused; we do not grant Ontario credits.",
+      "Names of Markham schools, boards or private people: not used (park names appear only as the City stores them for one segment).",
+      "Any affiliation with the City of Markham, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
