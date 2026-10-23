@@ -55161,5 +55161,70 @@
       "Names of Richmond Hill schools, boards or private people: not used.",
       "Any affiliation with York Region, the City of Richmond Hill, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "math-tutor-oakville": {
+    "market": "Oakville",
+    "bodyClass": "cg-mto",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: MTH1W (2021) C2.2; MDM4U, MCR3U, MCF3M, MHF4U, MCV4U records (MHF4U prior or concurrent); EQAO 2026-27 windows. CEMC Beaver Computing Challenge 2026 dates, levels, format and ordering deadline; Problem of the Week; free resources; the through-a-school rule. Oakville area codes and Eastern time offsets from facts-geo.md.",
+    "localProject": "Town of Oakville Open Data, Energy Consumption at Town Facilities (aggregate) 2017 (Town of Oakville Open Data Licence), downloaded 22 October 2026. Our statistics: 55 rows, 54 usable; floor area against electricity r 0.721 and slope 16.01 kWh per sq ft; without eight 1 sq ft rows, n 46, r 0.894, slope 17.32; median energy intensity 41.5 against 32.72; the implied gas factor 10.628 ekWh per cubic metre in all 40 rows with gas, solved by hand for ObjectId 2. Labelled as ours. Lesson family: correlation, placeholder values, solving for an unknown constant.",
+    "requiredMentions": [
+      "O. Reg. 397/11",
+      "r = 0.894",
+      "16.01 kWh per sq ft",
+      "ObjectId 2",
+      "9.86646",
+      "6,061.24",
+      "f = 64,417.51",
+      "Six of the rows are an indoor pool or ice rinks",
+      "5,190,942.75",
+      "a maximum of 168"
+    ],
+    "sources": [
+      {
+        "claim": "Town of Oakville: Energy Consumption at Town Facilities (aggregate) 2017 item (purpose, Green Energy Act reporting, licence link).",
+        "url": "https://www.arcgis.com/home/item.html?id=a61e6426a2354815ae77294fb6beec12"
+      },
+      {
+        "claim": "Town of Oakville: 2017 aggregate energy feature service.",
+        "url": "https://services5.arcgis.com/QJebCdoMf4PF8fJP/arcgis/rest/services/Energy_Consumption_Corporate_2017_Aggregate/FeatureServer"
+      },
+      {
+        "claim": "Town of Oakville Open Data Licence (commercial use, attribution statement, non-endorsement).",
+        "url": "https://www.oakville.ca/town-hall/town-studies-plans-projects/town-initiatives/open-data/open-data-licence/"
+      },
+      {
+        "claim": "Ontario curriculum content API: MTH1W strands (C2.2).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/mth4w___strands?depth=4"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC: Beaver Computing Challenge (dates, levels, format, no coding needed).",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC: Problem of the Week (Grades 3 to 12, weekly schedule).",
+        "url": "https://cemc.uwaterloo.ca/resources/potw"
+      },
+      {
+        "claim": "CEMC: free resources, no registration or fee.",
+        "url": "https://cemc.uwaterloo.ca/resources"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Oakville population figure: StatCan was not reachable live.",
+      "That 10.628 is an official conversion factor: presented as our inference from the file, which does not state it.",
+      "What the 1 sq ft rows are: not stated in the file; described only as placeholders.",
+      "Total energy use or emissions of the Town: not computed or printed (the file is aggregate per facility and totals would add published parts).",
+      "Facility names: not needed; the worked row is identified by its ObjectId and type.",
+      "Other tutors' rates in Oakville: not sourced, so not printed.",
+      "Any fee figure or currency in the copy, and BCC fees: omitted (currency-neutral page).",
+      "That our lessons earn an Ontario credit: refused; we do not grant Ontario credits.",
+      "Names of Oakville schools, boards or private people: not used.",
+      "Any affiliation with the Town of Oakville, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }

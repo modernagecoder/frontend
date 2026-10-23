@@ -26205,6 +26205,18 @@
   to = "/src/pages/math-tutor-richmond-hill.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/math-tutor-oakville"
+  to = "/src/pages/math-tutor-oakville.html"
+  status = 200
+
+[[redirects]]
+  from = "/math-tutor-oakville.md"
+  to = "/src/pages/math-tutor-oakville.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
