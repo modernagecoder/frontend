@@ -342,7 +342,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 170 | math-tutor-burnaby (maad, #343C85) | math-city | 3,993 | 1.8% vs math-tutor-vancouver | math city page | math on city data | 49ee9def |
 | 171 | math-tutor-calgary (mtuc, #2D2361) | math-city | 4,241 | 1.7% vs math-tutor-waterloo-ontario | math city page | math on city data | d37a818f |
 | 173 | math-tutor-winnipeg (mtuw, #703C18) | math-city | 4,052 | 2% vs math-tutor-waterloo-ontario | math city page | math on city data | 5b4466dc |
-| 174 | math-tutor-montreal (maae, #6B5F10) | math-city | 4,056 | 1.8% vs math-tutor-vancouver | math city page | math on city data | (this commit) |
+| 174 | math-tutor-montreal (maae, #6B5F10) | math-city | 4,056 | 1.8% vs math-tutor-vancouver | math city page | math on city data | 9ce7d014 |
+| 172 | math-tutor-edmonton (mtue, #8A2950) | math-city | 4,266 | 1.7% vs math-tutor-winnipeg | math city page | math on city data | (this commit) |
 
 ## Skipped
 

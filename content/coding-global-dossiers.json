@@ -59936,5 +59936,68 @@
       "Names of Montreal schools, school service centres' results or private people: not used.",
       "Any affiliation with the Ville de Montreal, the Ministère de l'Éducation or CEMC."
     ]
+  },
+  "math-tutor-edmonton": {
+    "market": "Edmonton",
+    "bodyClass": "cg-mtue",
+    "pageType": "city",
+    "curriculumAuthority": "Alberta, read 22 and 23 October 2026 from Alberta Education and Childcare documents saved raw: 2026-2027 Mathematics 6 and Mathematics 9 Subject Bulletins (parts, question counts, timing, calculator rules, the 2026/27 pilot exemption); Grade 9 Parent Guide (discourages test rehearsal and coaching); PAT schedule (Grade 6 Part A 14 June, Part B 16 June 2027; Grade 9 22 and 25 January, 15 and 17 June 2027); Mathematics 30-2 Information Bulletin (programs that do not require calculus); K-6 math 2022/2023 and draft 7-9 mandatory September 2027; diploma weighting 30%; Alberta UTC-6 all year; area codes 780, 587, 825, 368 (facts-geo.md); CEMC Gauss, Team Up Challenge and PCF dates and the through-a-school rule.",
+    "localProject": "City of Edmonton open data, Trees (City-sourced; Open Government Licence - Edmonton, commercial use allowed), grouped SODA queries on 23 October 2026 analysed with our scripts oak.py and worked.py (python -I): 482,603 trees, 258,504 dated 1 June 1990 (53.6%) and treated as unknown; bur oak 17,971 trees; planting years 2004 to 2025, 22 points, 15,848 trees; linear fit d = 0.5325t + 3.337, r = 0.950, R2 0.903; exponential fit d = 4.697(1.0567)^t, R2 0.959; 100-year projections 56.6 against 1,167 cm; 30 cm at 50.1 or 33.6 years; doubling time 12.6 years. Labelled as ours. Lesson family: linear against exponential models and extrapolation.",
+    "requiredMentions": [
+      "258,504 trees, or 53.6 percent",
+      "d = 0.5325t + 3.337",
+      "d = 4.697(1.0567)",
+      "R squared 0.903",
+      "its R squared is higher, 0.959",
+      "22 points covering 15,848 trees",
+      "about 50.1 years",
+      "about 12.6 years",
+      "a trunk more than eleven metres across",
+      "Part A Monday 14 June; Part B Wednesday 16 June"
+    ],
+    "sources": [
+      {
+        "claim": "City of Edmonton open data: Trees inventory (description, City attribution, internally sourced, monthly updates).",
+        "url": "https://data.edmonton.ca/d/eecg-fc54"
+      },
+      {
+        "claim": "City of Edmonton: Open Government Licence - Edmonton, Version 1.0 (commercial use, attribution, non-endorsement).",
+        "url": "https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/"
+      },
+      {
+        "claim": "Alberta Education and Childcare: 2026-2027 Mathematics 6 Subject Bulletin.",
+        "url": "https://www.alberta.ca/system/files/edc-math-6-subject-bulletin-2026-27.pdf"
+      },
+      {
+        "claim": "Alberta Education and Childcare: 2026-2027 Mathematics 9 Subject Bulletin.",
+        "url": "https://www.alberta.ca/system/files/edc-math-9-subject-bulletin-2026-27.pdf"
+      },
+      {
+        "claim": "Alberta Education and Childcare: PAT administration schedules 2026-2027.",
+        "url": "https://www.alberta.ca/system/files/ecc-pat-administration-schedules.pdf"
+      },
+      {
+        "claim": "alberta.ca: Provincial Achievement Tests.",
+        "url": "https://www.alberta.ca/provincial-achievement-tests"
+      },
+      {
+        "claim": "Alberta Education and Childcare: Mathematics 30-2 Information Bulletin.",
+        "url": "https://www.alberta.ca/system/files/ecc-math-30-2-info-bulletin.pdf"
+      },
+      {
+        "claim": "CEMC: contest dates for 2026/27 and how contests work.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Edmonton population figure: StatCan was not reachable live.",
+      "The EPCOR-supplied per capita water file: withdrawn on 23 October 2026 as third-party data under the licence exemption.",
+      "What the 1 June 1990 planting date means: the file does not say; the page treats it as unknown and labels that reading as ours.",
+      "That the ages are exact: refused; the file gives no measurement date, so age is our approximation.",
+      "Tree condition, pests or disease: the inventory has a condition column; it is not used.",
+      "That our lessons earn Alberta credits or change PAT or diploma results: refused.",
+      "Names of Edmonton schools, board results or private people: not used.",
+      "Any affiliation with the City of Edmonton, Alberta Education and Childcare or CEMC."
+    ]
   }
 }
