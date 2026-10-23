@@ -309,7 +309,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 126 | ai-and-python-classes-for-teens-in-gatineau (aptg, #6B2710) | city | 4,493 | 3% vs ai-and-python-classes-for-teens-in-waterloo-ontario | teen city page | city data ML | 7b26ee15 |
 | 127 | ai-and-python-classes-for-teens-in-guelph (apyg, #6B6530) | city | 4,445 | 2.9% vs ai-and-python-classes-for-teens-in-gatineau | teen city page | city data ML | ef0b9959 |
 | 128 | ai-and-python-classes-for-teens-in-lethbridge (aptl, #16520F) | city | 4,580 | 2.5% vs ai-and-python-classes-for-teens-in-richmond-hill | teen city page | city data ML | 730b7413 |
-| 129 | ai-and-python-classes-for-teens-in-fredericton (aptf, #165C1A) | city | 4,383 | 2.7% vs ai-and-python-classes-for-teens-in-brampton | teen city page | city data ML | (this commit) |
+| 129 | ai-and-python-classes-for-teens-in-fredericton (aptf, #165C1A) | city | 4,383 | 2.7% vs ai-and-python-classes-for-teens-in-brampton | teen city page | city data ML | 79712837 |
+| 107 | coding-and-ai-classes-in-halifax-nova-scotia (ahns, #122E7A) | city | 3,864 | 2.6% vs coding-classes-in-quebec | city page | city open data | (this commit) |
 
 ## Skipped
 

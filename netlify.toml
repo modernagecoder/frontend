@@ -26649,6 +26649,18 @@
   to = "/src/pages/ai-and-python-classes-for-teens-in-fredericton.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-halifax-nova-scotia"
+  to = "/src/pages/coding-and-ai-classes-in-halifax-nova-scotia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-halifax-nova-scotia.md"
+  to = "/src/pages/coding-and-ai-classes-in-halifax-nova-scotia.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

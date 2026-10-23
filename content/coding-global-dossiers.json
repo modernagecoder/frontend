@@ -57780,5 +57780,69 @@
       "Any affiliation with CEMC, the New Brunswick education department, the City of Fredericton or any school district.",
       "CEMC contest fees: left out of the copy (currency-neutral page)."
     ]
+  },
+  "coding-and-ai-classes-in-halifax-nova-scotia": {
+    "market": "Halifax",
+    "bodyClass": "cg-ahns",
+    "pageType": "city",
+    "curriculumAuthority": "Nova Scotia, read raw 22 October 2026 from the Department of Education and Early Childhood Development (plans.ednet.ns.ca and ednet.ns.ca, copies in ca/src/coding-classes-in-nova-scotia/): Grades 3, 6 and 8 provincial assessments; Grade 6 and 8 assessments online on school devices; Grade 8 main window 17 May to 8 June 2027; Mathematics 10 exam 23 June 2027, 20% of the final course mark; Grades 7 and 8 numeracy block includes technology; one graduation credit from science or technology; Nova Scotia Virtual School Computer Programming 12 modules and CodeHS Java (facts-schools-contests.md rows 104-105). CEMC 2026-27 BCC and CCC facts and the through-a-school rule. America/Halifax offsets and the 902/782 area codes from facts-geo.md.",
+    "localProject": "Halifax Regional Municipality open data, Outdoor Recreation Equipment (Open Government Licence - Halifax), CSV downloaded with curl on 22 October 2026 and counted with our script equipment_page.py (python -I): 2,218 rows; 2,195 In Service; ASSETCODE decoded through the layer coded values; 1,356 in-service rows with no install year; 712 in-service rows with a year rated confidence 1 or 2; medians Climber 2007.5 (60 rows), Spring Toy 2012, Play Structure 2013 (274), Slide 2014, Swing 2015, Basketball Hoop 2018 (101); ACCESSIBLE 228 yes, 378 no, 1,612 blank. Labelled as ours. Lesson family: decoding codes with a lookup, then filtering by a data-quality column before a median.",
+    "requiredMentions": [
+      "Spring Toy",
+      "INSTYRCONF",
+      "Open Government Licence - Halifax",
+      "1,356 in-service rows have no install year",
+      "902 or 782",
+      "Ahead of the November 2026 fall-back and the March 2027 spring-forward",
+      "712 of the 839 in-service rows",
+      "median rests on 60 rows out of 205 climbers",
+      "UTC-3 to UTC-4 on 1 November 2026",
+      "1,612 left blank across the whole file"
+    ],
+    "sources": [
+      {
+        "claim": "Halifax Regional Municipality open data: Outdoor Recreation Equipment dataset page.",
+        "url": "https://data-hrm.hub.arcgis.com/datasets/5dbc7a7c78c54dfbae7b53ac428fda90_0"
+      },
+      {
+        "claim": "Outdoor Recreation Equipment layer metadata: coded values for ASSETCODE, INSTYRCONF and ASSETSTAT.",
+        "url": "https://services2.arcgis.com/11XBiaBYA9Ep0yNJ/arcgis/rest/services/OutdoorRecreationEquipment/FeatureServer/0?f=json"
+      },
+      {
+        "claim": "Open Government Licence - Halifax: commercial use, attribution statement, non-endorsement.",
+        "url": "https://data-hrm.hub.arcgis.com/pages/open-data-licence"
+      },
+      {
+        "claim": "Nova Scotia provincial assessments and examinations: grades, online delivery, calendar, Mathematics 10 weighting.",
+        "url": "https://plans.ednet.ns.ca/"
+      },
+      {
+        "claim": "Nova Scotia Credits for Graduation Diploma: science or technology credit.",
+        "url": "https://www.ednet.ns.ca/docs/creditsforgraduationdiplomaen.pdf"
+      },
+      {
+        "claim": "Nova Scotia Virtual School: Computer Programming 12 modules and Java on CodeHS.",
+        "url": "https://elearning.ednet.ns.ca/index.php/cm-course/computer-programming-12/"
+      },
+      {
+        "claim": "CEMC: BCC and CCC 2026-27 dates, levels, languages, through-a-school rule, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Halifax offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Halifax population figure: StatCan was not reachable live, so none is printed.",
+      "The hub record count of 2,285 for the equipment layer: our own download had 2,218 rows, and only our count is used.",
+      "A Grade 6 assessment date: the calendar says TBD while the Grade 6 page describes an autumn window, so no date is given.",
+      "That equipment with a blank ACCESSIBLE value is inaccessible: blank means not recorded in this file.",
+      "That our classes earn or count toward a Nova Scotia credit: refused; we do not grant Nova Scotia credits.",
+      "A total of all equipment by type summed into one figure for Halifax: not computed; counts are shown per type.",
+      "CEMC fees: left out of the copy on purpose (currency-neutral page).",
+      "Names of Halifax schools, regional centres results or private people: not used.",
+      "Any affiliation with Halifax Regional Municipality, the Nova Scotia education department, the Nova Scotia Virtual School, CEMC or the University of Waterloo."
+    ]
   }
 }
