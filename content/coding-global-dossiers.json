@@ -57334,5 +57334,95 @@
       "Any affiliation with CEMC, Skills Ontario, the City of Brampton, Peel Region or the Ontario Ministry of Education.",
       "CEMC and Skills Ontario fees: left out of the copy (currency-neutral page)."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-surrey-bc": {
+    "market": "Surrey",
+    "bodyClass": "cg-apyb",
+    "pageType": "city",
+    "curriculumAuthority": "curriculum.gov.bc.ca: ADST 10 to 12 course list (Computer Studies 10, Web Development 10, Computer Programming 11 and 12, Computer Information Systems 11, Robotics 11), Computer Programming 11 content and computational thinking definition, Computer Programming 12 content, Mathematics list with Computer Science 11 and 12, CS 11 big ideas and sample question; BC Gov News 2026AG0013-000209 on permanent UTC-7; CEMC BCC (2026 dates, Grade 9/10 eligibility, 15 questions out of 90, 45 minutes, maths-only concepts, English only) and CCC (2027 date, 5 questions, free practice account, English and French, through a school); OpenAI Help Center age article; Anthropic Consumer Terms (Oct 8, 2025); CCC Online Grader rules on AI tools in an IDE; facts-geo.md for 236/257/604/672/778 and America/Vancouver.",
+    "localProject": "City of Surrey open data, Park Playgrounds (City of Surrey Open Data License, commercial use allowed), 167 playgrounds fetched with urllib on 22 October 2026 in NAD83 UTM zone 10N metres; each reduced to the mean of its outline vertices; our surrey_kmeans_page.py (python -I): k = 6, 20 seeds, 50 rounds; tightest run 891 million square metres total squared distance, 137 of 167 in a cluster led by their own community, South Surrey split in two and no Fleetwood cluster; tightest six-leader run 944 million square metres, 144 of 167; labels Newton 38, Cloverdale 32, Whalley 28, South Surrey 24, Guildford 18, Fleetwood 13, blank 13, City Centre 1. Labelled as ours. Lesson family: unsupervised learning, k-means, random restarts, comparing clusters with human labels.",
+    "requiredMentions": [
+      "Contains information licensed under the Open Government License",
+      "Park Playgrounds",
+      "891 million square metres",
+      "944 million square metres",
+      "split South Surrey into two clusters and left Fleetwood without one of its own",
+      "Of the 167 playgrounds, 13 carry no community label and one is tagged City Centre",
+      "Newton has the most labelled playgrounds (38)",
+      "What makes one algorithm better than another algorithm?",
+      "Surrey numbers use 604 and the BC overlay codes 236, 257, 672 and 778",
+      "Students in Grade 10 or below are eligible to participate in the Grade 9/10 BCC"
+    ],
+    "sources": [
+      {
+        "claim": "BC curriculum: ADST 10 to 12 course list.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst"
+      },
+      {
+        "claim": "BC curriculum: Computer Programming 11 content and computational thinking definition.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/11/computer-programming"
+      },
+      {
+        "claim": "BC curriculum: Computer Programming 12 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/12/computer-programming"
+      },
+      {
+        "claim": "BC curriculum: Mathematics course list and Computer Science 11 big ideas.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/computer-science"
+      },
+      {
+        "claim": "BC Gov News: permanent daylight saving time from 8 March 2026, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge: 2026 dates, Grade 9/10 eligibility, format.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC CCC: 2027 date, 5 questions, free practice account.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC how contests work: all students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "OpenAI Help Center: ChatGPT ages and parental consent.",
+        "url": "https://help.openai.com/en/articles/8313401-is-chatgpt-safe-for-all-ages"
+      },
+      {
+        "claim": "Anthropic Consumer Terms: users must be at least 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "CCC Online Grader rules: AI-based tools within an IDE cannot be used.",
+        "url": "https://cccgrader.com/rules.pdf"
+      },
+      {
+        "claim": "City of Surrey: Park Playgrounds item.",
+        "url": "https://www.arcgis.com/home/item.html?id=b842e45ce90d4e3899c1a5218743c9ce"
+      },
+      {
+        "claim": "City of Surrey Open Data License hub page: commercial use, attribution, non-endorsement.",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/55089a19491a4fe59a41e059fd8af708/data?f=json"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Vancouver and America/Toronto offsets.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about Surrey schools, school districts or their results: none made, by the row instruction.",
+      "Any Surrey population: StatCan not reachable live, so none printed.",
+      "BC graduation requirements or credit counts: not stated; www2.gov.bc.ca was blocked.",
+      "Traffic loop counts from gisprod.surrey.ca: not used; the host returned a Cloudflare challenge and was not retried.",
+      "That the k-means clusters are City areas or boundaries: refused; they are our clusters.",
+      "True polygon centroids: not claimed; we average outline vertices and say so.",
+      "Which BC schools offer which computing courses: not claimed; families are told to check their school.",
+      "That our courses earn BC credits: refused; we do not grant provincial credits.",
+      "Recommending Claude or any 18+ tool to a teenager: refused under Anthropic's terms.",
+      "Any affiliation with CEMC, the BC education ministry, the City of Surrey or any BC school district.",
+      "CEMC contest fees: left out of the copy (currency-neutral page)."
+    ]
   }
 }
