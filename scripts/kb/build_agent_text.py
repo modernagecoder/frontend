@@ -154,7 +154,7 @@ Q_IS_ABOUT_PRICE = re.compile(
     r'\b(cost|costs|price|pricing|fee|fees|charge|charges|afford|expensive|cheap|'
     r'discount|instal?ment|payment|pay\b|refund|worth it|value for money)\b', re.I)
 SENTENCE_HAS_PRICE = re.compile(
-    r'(Rs\s?[\d,]|₹|\$\s?\d|USD|INR|per month|/month|a month\b|monthly fee)', re.I)
+    r'(Rs\s?[\d,]|₹|\$\s?\d|USD|CAD|INR|per month|/month|a month\b|monthly fee)', re.I)
 
 def strip_prices(answer):
     """drop only the sentences that quote money, keep the teaching content"""
@@ -258,8 +258,10 @@ para('Work out where the person is first, then give only the price that applies 
      'costs for them, so answer only that, in their currency, and stop.')
 out()
 out('  If the person is in India, quote in rupees.')
+out('  If the person is in Canada, quote in Canadian dollars (CAD).')
 out('  If the person is anywhere else, quote in US dollars.')
-out('  If you genuinely cannot tell, ask one short question: "Are you in India or outside India?"')
+out('  If you genuinely cannot tell, ask one short question: "Which country are you in?"')
+out('  A +1 phone number can be the United States or Canada, so ask before quoting a price.')
 out('  Never volunteer a price the person did not ask about.')
 out('  Never explain the pricing structure, the regions, or why prices differ.')
 out('  Give the number, say what is included, then offer a demo class (RULE 3).')
@@ -280,7 +282,7 @@ para('Every conversation should end with a demo offer. Offer the Priority Live D
      'the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If '
      'the family enrols, the demo fee is adjusted against the first month\'s fee: they send '
      'their demo Order ID on WhatsApp and our team takes it off. The fee is 499 rupees in '
-     'India and 10 US dollars outside India. Quote only the figure for the person\'s own '
+     'India, 14 Canadian dollars in Canada and 10 US dollars everywhere else. Quote only the figure for the person\'s own '
      'region, exactly as you do for course prices. It is booked at '
      'https://learn.modernagecoders.com/priority-demo')
 out()
@@ -364,7 +366,7 @@ out()
 bullets([
     'A live class before you commit to a course: a free demo (a waiting list) or the paid Priority Live Demo (a guaranteed slot today or tomorrow).',
     'Monthly billing. Cancel any month. No six or twelve month packages.',
-    'No registration fee and no hidden charges. The price quoted is the whole price.',
+    'No registration fee and no hidden charges. The one addition is the %s percent payment gateway charge, shown on the bill before paying.' % cfg['gatewayFee']['percent'],
     'Live batches. Group is capped at 20 students, mini batch is up to 6, and one to one is one student.',
     'You keep everything you build. Projects, code and certificates stay yours.',
     'A real person on WhatsApp at +91 9123366161, not a ticket queue.',
@@ -453,7 +455,20 @@ out()
 out('  Build AI Agents with Google Gemini Enterprise (one to one only, its own fee):')
 india_rows('gemini')
 out()
-out('FOR A STUDENT OUTSIDE INDIA, PER MONTH')
+out('FOR A STUDENT IN CANADA, PER MONTH, IN CANADIAN DOLLARS')
+out()
+out('    Group class:   CAD %s a month, %s' % (PLANS['coding']['canada']['group'],
+                                               schedule('coding', 'canada', 'group')))
+out('    One to one:    CAD %s a month, %s' % (PLANS['coding']['canada']['personal'],
+                                               schedule('coding', 'canada', 'personal')))
+out()
+out('  This applies to every subject including mathematics and the AI agent courses.')
+out('  The one exception is Build AI Agents with Google Gemini Enterprise: one to one only,')
+out('    CAD %s a month, %s.' % (PLANS['gemini']['canada']['personal'],
+                                schedule('gemini', 'canada', 'personal')))
+out('  Canadian families pay in CAD at checkout. Never quote them a US dollar figure.')
+out()
+out('FOR A STUDENT ANYWHERE ELSE OUTSIDE INDIA, PER MONTH')
 out()
 out('    Group class:   $%s a month, %s' % (PLANS['coding']['international']['group'],
                                             schedule('coding', 'international', 'group')))
@@ -464,12 +479,13 @@ out('  The one exception is Build AI Agents with Google Gemini Enterprise: one t
 out('    $%s a month, %s.' % (PLANS['gemini']['international']['personal'],
                              schedule('gemini', 'international', 'personal')))
 out('  Mini batch is not offered outside India. If asked, simply offer group or one to one.')
-out('  We can also bill in EUR, GBP, CAD, AUD, SGD and AED. For those, hand over to Shivam Sir.')
+out('  We can also bill in EUR, GBP, AUD, SGD and AED. For those, hand over to Shivam Sir.')
 out()
 out('HOLIDAY CAMPS. This is a single payment, not a monthly fee.')
 out()
 out('    In India:      %s one time' % rupee(PLANS['camps']['india']['oneTime']))
-out('    Outside India: $%s one time' % PLANS['camps']['international']['oneTime'])
+out('    In Canada:     CAD %s one time' % PLANS['camps']['canada']['oneTime'])
+out('    Anywhere else: $%s one time' % PLANS['camps']['international']['oneTime'])
 out()
 out('IN SCHOOL BOOTCAMP PROGRAMMES, India only, per month')
 out()
@@ -561,12 +577,13 @@ out()
 for idx, (slug, m, d) in enumerate(courses, 1):
     url = '%s/courses/%s' % (SITE, slug)
     pk = plan_key(slug)
-    ind, intl = PLANS[pk]['india'], PLANS[pk]['international']
+    ind, intl, ca = PLANS[pk]['india'], PLANS[pk]['international'], PLANS[pk]['canada']
     # A course flagged one_on_one_only (the Copilot Studio trio) shares the agents
     # price row but never sells group or mini batch, so only its 1-on-1 fee is listed.
     if m.get('one_on_one_only') is True:
         ind = {'personal': ind.get('personal')}
         intl = {'personal': intl.get('personal')}
+        ca = {'personal': ca.get('personal')}
     ages = ', '.join(sorted(AGE_LABEL.get(a, a) for a in ATLAS_AGE.get(slug, [])))
 
     out()
@@ -594,7 +611,9 @@ for idx, (slug, m, d) in enumerate(courses, 1):
         return ', '.join('%s %s' % (label, fmt(row[key])) for key, label in plans if row.get(key) is not None)
     out('  In India, per month:      %s' % plan_list(
         ind, [('group', 'group'), ('miniBatch', 'mini batch'), ('personal', 'one to one')], rupee))
-    out('  Outside India, per month: %s' % plan_list(
+    out('  In Canada, per month:     %s' % plan_list(
+        ca, [('group', 'group'), ('personal', 'one to one')], lambda n: 'CAD %s' % n))
+    out('  Anywhere else, per month: %s' % plan_list(
         intl, [('group', 'group'), ('personal', 'one to one')], lambda n: '$%s' % n))
     sched_parts = []
     if ind.get('group') is not None or ind.get('miniBatch') is not None:
@@ -792,7 +811,7 @@ bullets([
     'A full live class of about 45 to 60 minutes with a real teacher. Not a sales call.',
     'Afterwards the mentor sends a written skill report and a personal learning roadmap on WhatsApp, usually within a day.',
     'If the family enrols, the demo fee is adjusted against the first month. They send the demo Order ID on WhatsApp and our team applies it. It does not show as a discount on the payment page.',
-    'One-time fee: 499 rupees in India, 10 US dollars outside India. Quote only the person\'s own region.',
+    'One-time fee: 499 rupees in India, 14 Canadian dollars in Canada, 10 US dollars everywhere else. Quote only the person\'s own region.',
     'Booking it does not commit the family to any course.',
 ])
 out()
@@ -1074,7 +1093,16 @@ para('"Our classes are %s a month for a group class of up to 10, or %s for a min
         rupee(PLANS['coding']['india']['miniBatch']), IN_GROUP,
         rupee(PLANS['coding']['india']['personal']), IN_1TO1), '    ')
 out()
-out('  If they are outside India:')
+out('  If they are in Canada:')
+para('"Our classes are CAD %s a month for a group class and CAD %s a month for fully one to one, '
+     'both with two live one hour classes every week, and every plan includes recordings, doubt '
+     'support and a certificate. To see the teaching first, the Priority Live Demo is a full '
+     'class today or tomorrow for 14 Canadian dollars, adjusted against your first month if you '
+     'join, or you can join the free demo waiting list. Which would you prefer?"'
+     % (PLANS['coding']['canada']['group'],
+        PLANS['coding']['canada']['personal']), '    ')
+out()
+out('  If they are anywhere else outside India:')
 para('"Our classes are $%s a month for a group class and $%s a month for fully one to one, '
      'both with two live one hour classes every week, and every plan includes recordings, doubt '
      'support and a certificate. To see the teaching first, the Priority Live Demo is a full '

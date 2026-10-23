@@ -4207,6 +4207,11 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
         "group": 100,
         "miniBatch": null,
         "personal": 150
+      },
+      "canada": {
+        "group": 140,
+        "miniBatch": null,
+        "personal": 210
       }
     },
     "maths": {
@@ -4219,6 +4224,11 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
         "group": 100,
         "miniBatch": null,
         "personal": 150
+      },
+      "canada": {
+        "group": 140,
+        "miniBatch": null,
+        "personal": 210
       }
     },
     "agents": {
@@ -4231,6 +4241,11 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
         "group": 100,
         "miniBatch": null,
         "personal": 150
+      },
+      "canada": {
+        "group": 140,
+        "miniBatch": null,
+        "personal": 210
       }
     },
     "gemini": {
@@ -4243,6 +4258,11 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
         "group": null,
         "miniBatch": null,
         "personal": 250
+      },
+      "canada": {
+        "group": null,
+        "miniBatch": null,
+        "personal": 350
       }
     },
     "school": {
@@ -4255,6 +4275,11 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
         "group": null,
         "miniBatch": null,
         "personal": null
+      },
+      "canada": {
+        "group": null,
+        "miniBatch": null,
+        "personal": null
       }
     },
     "camps": {
@@ -4263,15 +4288,19 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
       },
       "international": {
         "oneTime": 200
+      },
+      "canada": {
+        "oneTime": 280
       }
     }
   },
   "pricing_ambiguous_figures": {},
   "pricing_currencies": {
     "india": "INR",
-    "international": "USD"
+    "international": "USD",
+    "canada": "CAD"
   },
-  "pricing_updated": "2026-09-11",
+  "pricing_updated": "2026-10-23",
   "premium_course_overrides": {
     "codex-and-claude-code-ai-coding-agents-course-for-teens": "agents",
     "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": "agents",
@@ -4297,7 +4326,7 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "batch timings",
     "slot availability",
     "discounts",
-    "non-USD international pricing",
+    "international pricing other than USD or CAD",
     "corporate quotes",
     "school quotes",
     "custom curriculum",
