@@ -57259,5 +57259,80 @@
       "Any affiliation with CEMC, EQAO, York Region, the City of Richmond Hill or the Ontario Ministry of Education.",
       "CEMC contest fees: left out of the copy (currency-neutral page)."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-brampton": {
+    "market": "Brampton",
+    "bodyClass": "cg-aipy",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario curriculum API for ICS3C, ICS4C (description and prerequisite), ICS3U and ICS4U; ontario.ca OSSD page for the STEM group that lists computer studies; CEMC CCC page (Senior level, Senior question ladder, 2026 Senior mean 15.56, cutoff 26, 2439 writers, CCO invitation of about 20, C++ only, IOI team selection, 2027 date, languages); Skills Ontario 2027 competition date, Coding (S/PS) and institution-only registration; OpenAI Terms of Use (January 1, 2026); Anthropic Consumer Terms (Oct 8, 2025); CCC Online Grader rules; facts-geo.md for the 905 belt area codes and Eastern time (IANA tzdb 2026e).",
+    "localProject": "City of Brampton GeoHub, Energy Consumption and Greenhouse Gas Emissions (licence field CC BY), 711 rows fetched with urllib on 22 October 2026, report years 2013 to 2019; our brampton_ghg_model.py (python -I): 503 training rows 2013 to 2017, 208 test rows 2018 and 2019; two-input least squares 1.885 kg per cubic metre of gas and 0.0491 kg per kWh; average miss 196,390 kg for the mean guess, 10,928 kg for the line, 8,390 kg fitted on 2017 only; gas factor 1.888 to 1.899 each year; electricity factor 0.076 in 2013 falling to 0.03 in 2018; 43 rows with zero electricity, 123 with zero gas. Labelled as ours. Lesson family: linear regression, coefficients, a target computed from its inputs, drift.",
+    "requiredMentions": [
+      "Energy Consumption and Greenhouse Gas Emissions",
+      "Ontario Regulation 25/23",
+      "The City receives utility bills that contain energy consumption data.",
+      "Emissions = 1.885 kg per cubic metre of gas + 0.0491 kg per kWh of electricity",
+      "Training on 2017 alone cuts the miss from 10,928 to 8,390 kg",
+      "Forty-three rows record zero electricity and 123 record zero gas",
+      "falls from 0.076 in 2013 to about 0.03 by 2018",
+      "2027 Skills Ontario Competition: May 3rd and 4th at the Toronto Congress Centre",
+      "Mean 15.56 and distinction cutoff 26, each out of 75, across 2439 Senior writers",
+      "the 905 area code and its overlays 289, 365 and 742"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum API: ICS3C, ICS4C, ICS3U and ICS4U descriptions and prerequisites.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code%5Bin%5D=ICS2O,ICS3U,ICS3C,ICS4U,ICS4C&depth=0"
+      },
+      {
+        "claim": "Ontario OSSD requirements: STEM-related group of compulsory credits includes computer studies.",
+        "url": "https://www.ontario.ca/page/high-school-graduation-requirements"
+      },
+      {
+        "claim": "CEMC CCC page: Senior level, Senior question ladder, 2026 averages and cutoffs, CCO invitation, C++, IOI selection, 2027 date, languages.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "Skills Ontario Competition 2027: date, venue, Coding (S/PS), registration through an institution.",
+        "url": "https://www.skillsontario.com/skills-ontario-competition"
+      },
+      {
+        "claim": "OpenAI Terms of Use: minimum age 13 and parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/row-terms-of-use/"
+      },
+      {
+        "claim": "Anthropic Consumer Terms: users must be at least 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "CCC Online Grader rules: generative AI forbidden.",
+        "url": "https://cccgrader.com/rules.pdf"
+      },
+      {
+        "claim": "City of Brampton GeoHub: Energy Consumption and Greenhouse Gas Emissions item, description and CC BY licence field.",
+        "url": "https://www.arcgis.com/home/item.html?id=a7ae04db763c434f8834e5e7c81f6c67"
+      },
+      {
+        "claim": "Creative Commons Attribution 4.0 deed: use for any purpose, even commercially.",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026 to 2027 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about Brampton schools, Peel school boards or their results: none made, by the row instruction.",
+      "Any Brampton or Peel population: StatCan not reachable live, so none printed.",
+      "Why the electricity factor fell between 2013 and 2019: not asserted; the data does not say, so it is posed as a question.",
+      "That the file covers 2010 to 2019: refused; the item says so, but the rows we downloaded run 2013 to 2019, and we say so.",
+      "A CC BY version number: not asserted; the item field reads CC BY only, and the 4.0 deed is cited for the commercial-use wording.",
+      "Naming individual City buildings or comparing them: avoided; the lesson is about the model, not a ranking of sites.",
+      "Brampton One Million Trees: not used, to avoid repeating a sibling page.",
+      "That ICD2O or any computer course satisfies the technological education credit: not claimed; only the STEM-group listing is quoted.",
+      "That our courses earn or count toward an Ontario credit: refused; we do not grant Ontario credits.",
+      "Recommending Claude or any 18+ tool to a teenager: refused under Anthropic's terms.",
+      "Any affiliation with CEMC, Skills Ontario, the City of Brampton, Peel Region or the Ontario Ministry of Education.",
+      "CEMC and Skills Ontario fees: left out of the copy (currency-neutral page)."
+    ]
   }
 }

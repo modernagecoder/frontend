@@ -303,7 +303,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 93 | coding-classes-in-saskatchewan (sas, #4C3C1C) | prov | 4,083 | 1.7% vs coding-classes-in-northwest-territories | province page | provincial open data | 962275cb |
 | 94 | coding-classes-in-nova-scotia (ns, #3D5717) | prov | 4,135 | 1.6% vs coding-classes-in-quebec | province page | provincial open data | 62e2cbd9 |
 | 95 | coding-classes-in-new-brunswick (nb, #274C19) | prov | 4,085 | 2.3% vs coding-classes-in-nova-scotia | province page | provincial open data | 55168616 |
-| 123 | ai-and-python-classes-for-teens-in-richmond-hill (aptr, #25388A) | city | 4,910 | 1.4% vs coding-and-ai-classes-in-toronto | teen city page | city data ML | (this commit) |
+| 123 | ai-and-python-classes-for-teens-in-richmond-hill (aptr, #25388A) | city | 4,910 | 1.4% vs coding-and-ai-classes-in-toronto | teen city page | city data ML | 0c523b63 |
+| 124 | ai-and-python-classes-for-teens-in-brampton (aipy, #3C2C7A) | city | 4,801 | 1.6% vs ai-and-python-classes-for-teens-in-waterloo-ontario | teen city page | city data ML | (this commit) |
 
 ## Skipped
 

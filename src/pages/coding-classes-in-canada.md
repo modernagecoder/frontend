@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [AI and Python classes for teens in Brampton](/ai-and-python-classes-for-teens-in-brampton)
 - [AI and Python classes for teens in Richmond Hill](/ai-and-python-classes-for-teens-in-richmond-hill)
 - [Coding classes in New Brunswick](/coding-classes-in-new-brunswick)
 - [Coding classes in Nova Scotia](/coding-classes-in-nova-scotia)
