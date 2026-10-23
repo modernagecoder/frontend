@@ -59083,5 +59083,71 @@
       "Recommending Claude or Claude Code to anyone under 18: refused.",
       "Any affiliation with the District or City of North Vancouver, the ministry or CEMC."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-kingston-ontario": {
+    "market": "Kingston",
+    "bodyClass": "cg-vaak",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario curriculum service, read 22 October 2026: Grade 6 C3.1 efficient code; MTH1W C2.2; ICD2O strands; ICS3U, ICS3C, ICS4U descriptions; OSSD online learning credits (ontario.ca); EQAO OSSLT 3 to 30 November 2026. CEMC CCC 2027 date, Junior question ladder, free practice account, school entry; CCC rules on AI; Anthropic, OpenAI and GitHub age rules; Anthropic, Building effective agents (many turns, trust). Kingston area codes and Eastern offsets from facts-geo.md.",
+    "localProject": "City of Kingston Public Outdoor Rinks (City of Kingston Open Data Licence 1.0, based on OGL Ontario 1.0), CSV downloaded 23 October 2026, 17 rows: our rink_agent.py (python -I) whose tool returns each row with the layer last-edit date (21 March 2026) and whose human-written check passes an honest dated answer and rejects a hasty one for dropping the date and for using the undefined Capacity field; all 17 rinks Closed; Type 13/4; OBJECTIDs 2 and 3 absent. Labelled as ours. Lesson family: data freshness and undefined fields.",
+    "requiredMentions": [
+      "Polson Park Outdoor Rink",
+      "Community Rink Agreement 4",
+      "last edited 21 March 2026",
+      "Contains information licensed under the Open Data Licence - City of Kingston",
+      "not Kingston upon Thames",
+      "operate for many turns",
+      "613, 343 and 753",
+      "Undefined means untouchable",
+      "Napanee, Gananoque",
+      "Two OBJECTIDs, 2 and 3"
+    ],
+    "sources": [
+      {
+        "claim": "City of Kingston Public Outdoor Rinks dataset (item and layer).",
+        "url": "https://opendatakingston.cityofkingston.ca/datasets/10f7c977639442679ea836b47935ab3b_0"
+      },
+      {
+        "claim": "City of Kingston Open Data Licence 1.0.",
+        "url": "https://www.cityofkingston.ca/documents/10180/144997/CityofKingston_OpenDataLicense.pdf"
+      },
+      {
+        "claim": "Rinks FeatureServer layer metadata: data last edit date.",
+        "url": "https://services1.arcgis.com/5GRYvurYYUwAecLQ/arcgis/rest/services/Outdoor_Rinks_Public/FeatureServer/0"
+      },
+      {
+        "claim": "Ontario curriculum: computer studies courses, MTH1W, Grade 6 coding.",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "Ontario diploma requirements: online learning credits.",
+        "url": "https://www.ontario.ca/page/high-school-graduation-requirements"
+      },
+      {
+        "claim": "EQAO OSSLT window.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC CCC 2027.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "Anthropic consumer terms: 18+.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "Anthropic, Building effective agents.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      }
+    ],
+    "rejectedClaims": [
+      "What the Capacity values count: not defined by the City, so not interpreted.",
+      "Why OBJECTIDs 2 and 3 are missing: not stated, not guessed.",
+      "Current rink conditions: the file is a snapshot; the page points to the City instead.",
+      "Any Kingston population: not used.",
+      "That our classes count toward Ontario credits or online learning credits: refused.",
+      "Recommending Claude or Claude Code to anyone under 18: refused.",
+      "Any affiliation with the City of Kingston, the ministry, EQAO or CEMC."
+    ]
   }
 }
