@@ -59345,5 +59345,71 @@
       "Recommending Claude or Claude Code to anyone under 18: refused.",
       "Any affiliation with the City of Brantford, the ministry, EQAO or CEMC."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-peterborough-ontario": {
+    "market": "Peterborough",
+    "bodyClass": "cg-vaap",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario curriculum service, read 22 October 2026: Grade 1 C3.2, Grade 4 C3.1, MTH1W course description, ICS4C; EQAO Grade 9 format and window; CEMC CCC 2027, Pascal/Cayley/Fermat 2027 dates and format, \"not tests or exams\", school entry; CCC rules on AI; Anthropic, OpenAI and GitHub age rules; Anthropic, Building effective agents (absolute file paths, paraphrased). Peterborough area codes and Eastern offsets from facts-geo.md.",
+    "localProject": "County of Peterborough Waterbody layer (Ontario Hydro Network clipped to the county; Open Government Licence - Ontario), 7 query pages downloaded 23 October 2026, 12,073 polygons in metres: our lake_units.py (python -I) shows an AI-style conversion dividing by 1,000 and 100 failing the 1 km2 = 100 ha check for Little Lake (604,381 m2), Chemong Lake and Rice Lake, the corrected figures, and 4 rows where the two area columns disagree by more than 1 percent (Crowe Lake 0.835, Burnt River 0.735). 483 named polygons. Labelled as ours. The City of Peterborough portal was not used (no commercial-reuse grant). Lesson family: units and consistency checks.",
+    "requiredMentions": [
+      "Little Lake, in the city",
+      "604,381",
+      "Check 1: units agree with each other",
+      "Crowe Lake the first is 0.835",
+      "Only 483 of the 12,073 polygons",
+      "Names are rarer than water",
+      "not the cathedral city in England",
+      "705 and friends",
+      "Lakefield, Selwyn and Cobourg",
+      "absolute file paths"
+    ],
+    "sources": [
+      {
+        "claim": "County of Peterborough Waterbody item (OHN clipped to the county) and its licence pointer.",
+        "url": "https://www.arcgis.com/home/item.html?id=d84ead49d8094ec1ae4539c516fb56a0"
+      },
+      {
+        "claim": "Waterbody FeatureServer layer used.",
+        "url": "https://services3.arcgis.com/08bk1ZSzqef9JX5q/arcgis/rest/services/Waterbody/FeatureServer/0"
+      },
+      {
+        "claim": "Open Government Licence - Ontario: commercial use, attribution.",
+        "url": "https://www.ontario.ca/page/open-government-licence-ontario"
+      },
+      {
+        "claim": "Ontario curriculum: elementary coding, MTH1W, ICS4C.",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "EQAO Grade 9 mathematics format and window.",
+        "url": "https://www.eqao.com/the-assessments/grade-9-math/"
+      },
+      {
+        "claim": "CEMC Pascal, Cayley, Fermat and CCC 2026-27.",
+        "url": "https://cemc.uwaterloo.ca/contests/pcf"
+      },
+      {
+        "claim": "Anthropic consumer terms: 18+.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "OpenAI terms: parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/terms-of-use/"
+      },
+      {
+        "claim": "Anthropic, Building effective agents: tool design appendix.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      }
+    ],
+    "rejectedClaims": [
+      "City of Peterborough datasets: not used; the City portal terms do not grant commercial reuse.",
+      "Why the two area columns differ on 4 rows: our guess (clipping at the county boundary) is labelled as a guess.",
+      "Any total water area for the county: not computed or printed.",
+      "Any Peterborough population: not used.",
+      "That our classes earn Ontario credits: refused.",
+      "Recommending Claude or Claude Code to anyone under 18: refused.",
+      "Any affiliation with the City or County of Peterborough, the province, EQAO or CEMC."
+    ]
   }
 }
