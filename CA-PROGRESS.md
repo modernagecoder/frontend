@@ -345,7 +345,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 174 | math-tutor-montreal (maae, #6B5F10) | math-city | 4,056 | 1.8% vs math-tutor-vancouver | math city page | math on city data | 9ce7d014 |
 | 172 | math-tutor-edmonton (mtue, #8A2950) | math-city | 4,266 | 1.7% vs math-tutor-winnipeg | math city page | math on city data | ea0c5f9c |
 | 24 | pre-calculus-12-tutor-bc (prc, #613811) | school-bc | 6,126 | 1.3% vs calculus-12-tutor-bc | school course help | rational and trig functions | e8304202 |
-| 23 | pre-calculus-11-tutor-bc (pre, #6B2A43) | school-bc | 5,538 | 1.1% vs pre-calculus-12-tutor-bc | school course help | quadratics and radicals | (this commit) |
+| 23 | pre-calculus-11-tutor-bc (pre, #6B2A43) | school-bc | 5,538 | 1.1% vs pre-calculus-12-tutor-bc | school course help | quadratics and radicals | 54a1415d |
+| 26 | foundations-of-math-11-tutor-bc (fou, #485717) | school-bc | 5,638 | 0.8% vs computer-programming-11-and-12-bc | school course help | optimization and scale | (this commit) |
 
 ## Skipped
 

@@ -563,6 +563,7 @@ const SLUGS = [
   'game-development-classes-for-kids-canada',
   'pre-calculus-12-tutor-bc',
   'pre-calculus-11-tutor-bc',
+  'foundations-of-math-11-tutor-bc',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1205,6 +1206,7 @@ const LLMS_LABELS = {
   'game-development-classes-for-kids-canada': 'Game development classes for kids in Canada',
   'pre-calculus-12-tutor-bc': 'Pre-calculus 12 tutor, BC',
   'pre-calculus-11-tutor-bc': 'Pre-calculus 11 tutor, BC',
+  'foundations-of-math-11-tutor-bc': 'Foundations of Math 11 tutor, BC',
 };
 
 function wireLlms(slugs) {

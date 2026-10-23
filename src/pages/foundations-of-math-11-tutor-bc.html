@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Foundations of Math 11 BC Tutor: Curriculum, Practice, Help</title>
+  <meta name="description" content="BC Foundations of Mathematics 11 from the curriculum: reasoning, angle proofs, optimization, statistics, scale models, a worked feasible-region problem in Python.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc">
+  <link rel="alternate" type="text/markdown" href="/src/pages/foundations-of-math-11-tutor-bc.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#485717">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc">
+  <meta property="og:title" content="Foundations of Math 11 BC Tutor: Curriculum, Practice, Help">
+  <meta property="og:description" content="What Foundations of Mathematics 11 covers in BC, quoted from curriculum.gov.bc.ca, how it differs from Pre-calculus 11, two worked problems and twelve original questions with answers.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_CA">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Foundations of Math 11 BC Tutor: Curriculum, Practice, Help">
+  <meta name="twitter:description" content="BC Foundations of Math 11 from the curriculum, with a feasible-region problem and twelve practice questions.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="CA">
+  <meta name="geo.placename" content="Canada">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-fou .ag-hero h1 { letter-spacing: -0.008em; max-width: 24ch; }
+.ag-root.ag-fou .ag-capsule { border-left-width: 5px; border-radius: 3px; }
+.ag-root.ag-fou .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-fou .ag-table caption { text-align: left; font-style: normal; }
+.ag-root.ag-fou .ag-steps li { margin-bottom: 0.5rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Canada"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc#page","url":"https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc","name":"Foundations of Math 11 Tutor for BC Students","description":"A guide for British Columbia students and parents to Foundations of Mathematics 11, built from the provincial curriculum page fetched on 23 October 2026, with two worked problems, twelve practice questions and a plan.","inLanguage":"en-CA","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Canada","item":"https://learn.modernagecoders.com/coding-classes-in-canada"},{"@type":"ListItem","position":3,"name":"British Columbia","item":"https://learn.modernagecoders.com/coding-classes-in-british-columbia"},{"@type":"ListItem","position":4,"name":"Foundations of Math 11 tutor","item":"https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc"}]},{"@type":"Course","name":"Foundations of Math 11 Tutor for BC Students","description":"Live online Foundations of Mathematics 11 tutoring for British Columbia students, alongside the school course, in a batch or one to one. No provincial credit is granted.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Foundations of Math 11 in BC?","acceptedAnswer":{"@type":"Answer","text":"It is a BC Grade 11 mathematics course. Its curriculum covers forms of mathematical reasoning and proof, angle relationships, graphical analysis of inequalities, quadratics and systems using technology, optimization with feasible regions, applications of statistics, scale models and financial literacy."}},{"@type":"Question","name":"Do you grant Foundations of Math 11 credit?","acceptedAnswer":{"@type":"Answer","text":"No: we do not grant provincial credits. Think of us as a second teacher beside the class. The Foundations of Mathematics 11 credit itself has to come from a school that runs and marks the course, online or in person."}},{"@type":"Question","name":"Is Foundations of Math 11 easier than Pre-calculus 11?","acceptedAnswer":{"@type":"Answer","text":"It is different. Foundations 11 has lighter algebra but asks for proofs, written reasoning, statistics and judgement about whether an answer makes sense. Its Grade 11 neighbour, Pre-calculus 11, leans harder on algebra and trigonometry. Students who find algebra hard often still find Foundations 11 demanding in its own way."}},{"@type":"Question","name":"Can I go to university with Foundations of Math 11?","acceptedAnswer":{"@type":"Answer","text":"It depends on the program. When we checked UBC's requirements tool for BC applicants on 22 October 2026, Arts listed English Studies 12 or English First Peoples 12 and asked for Pre-Calculus 12 only from students planning an Economics major, while Science and Commerce listed Pre-Calculus 12. Check each program you are considering."}},{"@type":"Question","name":"What comes after Foundations of Math 11?","acceptedAnswer":{"@type":"Answer","text":"The BC mathematics course list includes Foundations of Mathematics 12, the next course in the same line. Some students also take Statistics 12. Moving to Pre-calculus 12 instead usually needs Pre-calculus 11 algebra, and the school decides the rules."}},{"@type":"Question","name":"Does Foundations of Math 11 include statistics?","acceptedAnswer":{"@type":"Answer","text":"Yes. The curriculum lists posing a question about variation, collecting and interpreting data, and measures of central tendency, standard deviation, confidence intervals, z-scores and distributions."}},{"@type":"Question","name":"Do students graph by hand in Foundations 11?","acceptedAnswer":{"@type":"Answer","text":"The curriculum attaches the note \"using technology only\" to its graphical analysis content, which covers linear inequalities, quadratic functions, systems of equations and optimization. So students use graphing tools, and the skill being assessed is reading and explaining the graph."}},{"@type":"Question","name":"How should my teen prepare for Foundations 11 tests?","acceptedAnswer":{"@type":"Answer","text":"Find out the assessment format, learn the vocabulary of reasoning, practise proofs in the teacher's layout, get quick with one graphing tool, follow fixed steps for optimization and statistics, keep units on every number, and practise explaining answers aloud."}},{"@type":"Question","name":"What lesson times work in BC?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The province dropped clock changes in 2026, which means your agreed lesson hour is the same in January as in June."}},{"@type":"Question","name":"How much is Foundations 11 tutoring?","acceptedAnswer":{"@type":"Answer","text":"The first class is free. Ongoing classes are billed by the month for eight live lessons, with no term contract, and stop whenever a month ends. The fees section on this page lists the group and private amounts."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Canada"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/foundations-of-math-11-tutor-bc","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="CA">
+</head>
+
+<body class="ag-root ag-fou">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">CA</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-canada">Canada</a></li>
+      <li><a href="#course">The course</a></li>
+      <li><a href="#choose">Foundations or Pre-calc</a></li>
+      <li><a href="#garden">Worked problems</a></li>
+      <li><a href="#practice">Practice</a></li>
+      <li><a href="#prep">Preparing</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/coding-classes-in-canada">Canada</a> / <a href="/coding-classes-in-british-columbia">British Columbia</a> / Foundations of Math 11 tutor
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">British Columbia &middot; Grade 11 &middot; Foundations of Mathematics 11</p>
+        <h1>Foundations of Math 11 tutor for BC students, live online</h1>
+        <p class="ag-lede">Foundations of Mathematics 11 is the BC Grade 11 course for reasoning with math rather than manipulating it: proving things about angles, finding the optimal plan inside a set of limits, judging what a set of data really says, and working out what happens when a model is scaled up. It suits many students well and surprises others, because it asks for explanation as much as calculation. Below you will find the course as the province defines it, an honest comparison with Pre-calculus 11, works two problems of our own and gives twelve practice questions. We teach beside the school course and do not grant provincial credits.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#practice" class="ag-btn ag-btn--ghost">Try the practice set</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20BC%20is%20taking%20Foundations%20of%20Math%2011%20and%20would%20like%20help%20alongside%20the%20school%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'fou'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching live online since 2020 &middot; 10,000+ students &middot; math explained, not memorised</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>For</dt><dd>Grade 11 students in BC</dd>
+          <dt>Strands</dt><dd>Reasoning, optimization, statistics, scale</dd>
+          <dt>Leads to</dt><dd>Foundations of Mathematics 12</dd>
+          <dt>Format</dt><dd>A batch, or one to one</dd>
+          <dt>Times</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Clock</dt><dd>Pacific time, UTC-7 all year</dd>
+          <dt>Credit</dt><dd>None granted: we teach alongside school</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Foundations of Mathematics 11 is a BC Grade 11 math course. Its curriculum covers logical reasoning and angle proofs, graphing inequalities, quadratics and systems with technology, optimization with feasible regions, statistics including z-scores and confidence intervals, scale models and financial literacy. Modern Age Coders offers Foundations 11 help to BC teens live online, as a group batch or as one-to-one lessons, through our High School Mathematics course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn it with a teacher</p>
+      <h2>Three courses for a Foundations 11 student</h2>
+      <p class="ag-lede">The first is the course we pace to Foundations 11. The second deepens the statistics strand; the third is for students switching towards Pre-calculus 12.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FOU / 01</p>
+          <h3>High school mathematics</h3>
+          <p>Grades 9 to 12. Paced to the Foundations 11 outline: reasoning, graphs, optimization, statistics and scale.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/statistics-probability-maths-course">
+        <div class="ag-pick-shot"><img src="/images/statistics-probability-maths.webp" alt="Statistics &amp; Probability course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FOU / 02</p>
+          <h3>Statistics and probability</h3>
+          <p>Central tendency, spread, z-scores and confidence intervals, with real data.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course">
+        <div class="ag-pick-shot"><img src="/images/western-canada-grade-12-math.webp" alt="Western Canada Grade 12 Math course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FOU / 03</p>
+          <h3>Western Canada Grade 12 Math</h3>
+          <p>Ages 16 to 18. For a student who later needs Pre-calculus 12. No credit from us.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="course">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The BC curriculum</p><h2>What Foundations of Mathematics 11 covers</h2><p class="ag-lede">Seven content headings make up the course on the BC curriculum site. Below, each heading&rsquo;s list is quoted, with a note from us on the work it produces in class. One note stands out: the graphing topics carry the elaboration &ldquo;using technology only&rdquo;, so students graph inequalities, quadratics and systems with tools rather than by hand.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Foundations of Mathematics 11 content, quoted from the BC curriculum website (raw copy of 23 October 2026)</caption><thead><tr><th scope="col">Heading</th><th scope="col">What the curriculum lists</th><th scope="col">What students do (our reading)</th></tr></thead><tbody><tr><td>Forms of mathematical reasoning</td><td>&ldquo;logic, conjecturing, inductive and deductive thinking, proofs, game/puzzle analysis, counter-examples&rdquo;</td><td>Make a conjecture, test it, then prove it or break it</td></tr><tr><td>Angle relationships</td><td>&ldquo;properties, proofs, parallel lines, triangles and other polygons, angle constructions&rdquo;</td><td>Write two-column or paragraph proofs about angles</td></tr><tr><td>Graphical analysis</td><td>Linear inequalities: &ldquo;graphing of the solution region&rdquo;, slope and intercepts, intersection points; quadratic functions: &ldquo;characteristics of graphs, including end behaviour, maximum/minimum, vertex, symmetry, intercepts&rdquo;; &ldquo;systems of equations including linear with linear, linear with quadratic, and quadratic with quadratic&rdquo;</td><td>Graph with technology, then read and explain what the graph shows</td></tr><tr><td>Optimization</td><td>&ldquo;using feasible region to optimize objective function&rdquo;; &ldquo;maximizing area or volume while minimizing perimeter&rdquo;</td><td>Pick the optimal plan within the limits</td></tr><tr><td>Applications of statistics</td><td>&ldquo;posing a question about an observed variation, collecting and interpreting data, and answering the question&rdquo;; &ldquo;measures of central tendency, standard deviation, confidence intervals, z-scores, distributions&rdquo;</td><td>Run a small study from question to conclusion</td></tr><tr><td>Scale models</td><td>&ldquo;enlargements and reductions of 2D shapes and 3D objects&rdquo;; &ldquo;comparing the properties of similar objects (length, area, volume)&rdquo;; &ldquo;square-cube law&rdquo;</td><td>Predict how area and volume change when lengths are scaled</td></tr><tr><td>Financial literacy</td><td>Compound interest; investments and loans with regular payments, using technology; buy or lease</td><td>Taught at school with the class&rsquo;s own tools; not covered on this page</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Four big ideas</h3><p>Similar &ldquo;shapes and objects have proportional relationships that can be described, measured, and compared.&rdquo; Optimization, defined as &ldquo;a mathematical analysis used to determine the minimum or maximum output for a given situation&rdquo;, &ldquo;informs the decision-making process in situations involving extreme values.&rdquo;</p>
+<p>Logical reasoning, &ldquo;the process of using a strategic, systematic series of steps based on valid mathematical procedures and given statements to form a conclusion&rdquo;, &ldquo;helps us discover and describe mathematical truths.&rdquo; And statistical analysis &ldquo;allows us to notice, wonder about, and answer questions about variation&rdquo;.</p></div><div><h3>Inquiry questions to use as revision</h3><p>Three of the curriculum&rsquo;s sample questions make good spoken revision: &ldquo;How do the properties of 3D objects change in an enlargement or a reduction?&rdquo;, &ldquo;How do graphs aid in understanding a situation that is being optimized?&rdquo; and &ldquo;How does puzzle and game analysis help us in the world outside the math classroom?&rdquo;</p>
+<p>If your teen can answer each in a few sentences with an example, they understand the scale, optimization and reasoning strands. Our two worked problems below answer the first two.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://curriculum.gov.bc.ca/curriculum/mathematics/11/foundations-of-mathematics" rel="noopener" target="_blank">BC Foundations of Mathematics 11 curriculum</a>. Big ideas, content and competencies come from the page as downloaded with curl on 23 October 2026. Modern Age Coders works independently of BC&rsquo;s education ministry and every school district.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="choose">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Foundations or Pre-calculus</p><h2>Foundations of Math 11 or Pre-calculus 11?</h2><p class="ag-lede">The Grade 11 choice in BC is often framed as easy against hard. It is better framed as two different kinds of math, leading to different Grade 12 courses. The comparison is ours, built from the two curriculum pages.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The two Grade 11 BC math courses side by side (our comparison from the curriculum pages, fetched 23 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">Foundations of Mathematics 11</th><th scope="col">Pre-calculus 11</th></tr></thead><tbody><tr><td>Big ideas centre on</td><td>Similarity, optimization, logical reasoning, statistical analysis</td><td>Algebra, operations on powers and radicals, quadratics, trigonometry</td></tr><tr><td>Algebra load</td><td>Moderate: quadratics and systems, graphed with technology</td><td>Heavy: radicals, rational expressions, factoring, solving by several methods</td></tr><tr><td>Proof and logic</td><td>Named content: inductive and deductive thinking, counter-examples, angle proofs</td><td>Reasoning through algebra rather than as its own topic</td></tr><tr><td>Statistics</td><td>Central tendency, standard deviation, confidence intervals, z-scores</td><td>Not listed</td></tr><tr><td>Trigonometry</td><td>Not listed</td><td>Sine and cosine laws, including ambiguous cases</td></tr><tr><td>Graphing</td><td>&ldquo;using technology only&rdquo; for its graphical analysis</td><td>By hand and with technology</td></tr><tr><td>Next course on the list</td><td>Foundations of Mathematics 12</td><td>Pre-calculus 12</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the choice matters for Grade 12</h3><p>Many UBC programs name Pre-Calculus 12 for BC applicants. When we read UBC&rsquo;s requirements tool on 22 October 2026, Science and Commerce both listed it, Arts listed it for students who &ldquo;intend to major in Economics&rdquo;, and Media Studies said &ldquo;Pre-Calculus 12 is strongly recommended&rdquo;.</p>
+<p>A Foundations 11 student who later wants one of those programs usually has extra ground to cover, since the Grade 12 pre-calculus course assumes Grade 11 pre-calculus algebra. Whether a school lets a student switch, and how, is the school&rsquo;s rule; ask the counsellor before Grade 11 starts.</p></div><div><h3>Who Foundations suits</h3><p>Students who like arguing a point, analysing a game or making sense of data often enjoy Foundations 11 more than any math course before it. Its statistics strand is genuinely useful in every field, from biology to journalism.</p>
+<p>If a student is unsure, our honest advice is to look at the Grade 12 courses their likely programs require and work backwards. For the algebra-heavy route, our <a class="ag-inline-link" href="/precalculus-tutoring-online">precalculus tutoring page</a> shows the kind of work involved.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="garden">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked problem 1, ours</p><h2>Optimization with a feasible region: the garden club</h2><p class="ag-lede">This problem is ours. It follows the curriculum&rsquo;s optimization content, a feasible region and an objective function, then asks the question real plans always raise: what if the answer has to be a whole number? Technology does the graphing and the checking, as the course expects.</p></div>
+    <p><b>The problem.</b> A school garden club grows tomatoes and kale in trays. A tomato tray needs 3 m<sup>2</sup> of bed space and 2 volunteer hours and yields about 5 kg; a kale tray needs 2 m<sup>2</sup> and 3 hours and yields about 4 kg. The club has 60 m<sup>2</sup> of beds and 48 volunteer hours for the season. How many trays of each should it plant to harvest the most?</p>
+    <ol class="ag-steps"><li><b>Name the variables.</b> Let t be tomato trays and k be kale trays.</li><li><b>Write the constraints.</b> Space: 3t + 2k &le; 60. Time: 2t + 3k &le; 48. And t &ge; 0, k &ge; 0, because trays cannot be negative.</li><li><b>Write the objective function.</b> Harvest H = 5t + 4k, to be maximized.</li><li><b>Graph the feasible region.</b> With graphing technology, shade the region that satisfies all four inequalities. It is a four-sided shape with corners on the axes and one where the two boundary lines cross.</li><li><b>Find the crossing corner.</b> Solve 3t + 2k = 60 and 2t + 3k = 48 together. Triple the first and double the second: 9t + 6k = 180 and 4t + 6k = 96. Subtract: 5t = 84, so t = 16.8 and k = 4.8.</li><li><b>Test the objective at every corner.</b> The maximum of a linear objective over a region like this occurs at a corner. The program checks all four, then checks every whole-number plan.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Python &middot; corners and whole-number plans (ours)</b><span>python</span></figcaption><pre># Garden club plan: maximize harvest inside the feasible region (ours)
+# Tomato tray: 3 m^2 of bed, 2 volunteer hours, 5 kg. Kale tray: 2 m^2, 3 hours, 4 kg.
+# Limits: 60 m^2 of bed space, 48 volunteer hours.
+
+def feasible(t, k):
+    return t &gt;= 0 and k &gt;= 0 and 3*t + 2*k &lt;= 60 and 2*t + 3*k &lt;= 48
+
+def harvest(t, k):
+    return 5*t + 4*k
+
+# 1. The corners of the region (from solving pairs of boundary lines by hand)
+corners = [(0, 0), (20, 0), (0, 16), (16.8, 4.8)]
+for t, k in corners:
+    print(f"corner ({t}, {k}): harvest {harvest(t, k):.1f} kg")
+
+# 2. Trays come in whole numbers, so test every whole-number plan
+top = max(((t, k) for t in range(21) for k in range(17) if feasible(t, k)),
+           key=lambda p: harvest(*p))
+print("top whole-number plan:", top, "harvest", harvest(*top), "kg")</pre></figure>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Output, Python 3.13</b><span>text</span></figcaption><pre>corner (0, 0): harvest 0.0 kg
+corner (20, 0): harvest 100.0 kg
+corner (0, 16): harvest 64.0 kg
+corner (16.8, 4.8): harvest 103.2 kg
+top whole-number plan: (18, 3) harvest 102 kg</pre></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The corner answer and the real answer</h3><p>Mathematically, the optimal point is the corner (16.8, 4.8), with 103.2 kg. But a club cannot plant 0.8 of a tray. The obvious fix, rounding to 17 tomato trays and 5 kale trays, needs 3(17) + 2(5) = 61 m<sup>2</sup>, one more than the club has. Rounding broke a constraint.</p>
+<p>Checking every whole-number plan finds 18 tomato trays and 3 kale trays: exactly 60 m<sup>2</sup> and 45 hours, for 102 kg. Only 1.2 kg below the corner value, and actually possible. That gap between the ideal and the feasible is the kind of judgement the optimization big idea calls decision making.</p></div><div><h3>How graphs help, in the curriculum&rsquo;s terms</h3><p>The inquiry question asks how graphs aid in understanding an optimized situation. Here the graph shows at a glance that the time limit only matters near the top of the region, and that the winning corner is where both limits bite at once.</p>
+<p>A competency elaboration asks students to judge the reasonableness of &ldquo;optimal solutions&rdquo;. Testing the rounded plan against the constraints, as above, is that judgement in practice.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="scale">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked problem 2, ours</p><h2>Scale models and the square-cube law</h2><p class="ag-lede">The scale-model content asks students to compare &ldquo;the properties of similar objects (length, area, volume)&rdquo; and names the &ldquo;square-cube law&rdquo;. This problem of ours shows why the three properties scale so differently.</p></div>
+    <p><b>The problem.</b> A student builds a 1:25 scale model of a garden shed. The model is 12 cm long, its walls and roof use 0.18 m<sup>2</sup> of card, and it encloses 2,000 cm<sup>3</sup>. Find the shed&rsquo;s real length, surface area and volume, and explain why the surface area to volume ratio changes.</p>
+    <ol class="ag-steps"><li><b>Lengths scale by the factor.</b> The scale factor is 25, so the real length is 12 &times; 25 = 300 cm, which is 3 m.</li><li><b>Areas scale by the square of the factor.</b> 25<sup>2</sup> = 625, so the real surface is 0.18 &times; 625 = 112.5 m<sup>2</sup>.</li><li><b>Volumes scale by the cube.</b> 25<sup>3</sup> = 15,625, so the real volume is 2,000 &times; 15,625 = 31,250,000 cm<sup>3</sup>. Since 1 m<sup>3</sup> is 1,000,000 cm<sup>3</sup>, that is 31.25 m<sup>3</sup>.</li><li><b>Compare the ratios.</b> In the model, surface over volume is 1,800 cm<sup>2</sup> / 2,000 cm<sup>3</sup> = 0.9 per cm. In the shed it is 1,125,000 cm<sup>2</sup> / 31,250,000 cm<sup>3</sup> = 0.036 per cm, exactly 1/25 of the model&rsquo;s.</li><li><b>State the law.</b> Scaling lengths by k multiplies area by k<sup>2</sup> and volume by k<sup>3</sup>, so surface per unit of volume falls by a factor of k. That is the square-cube law.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>How each property of the 1:25 shed scales (ours)</caption><thead><tr><th scope="col">Property</th><th scope="col">Model</th><th scope="col">Multiply by</th><th scope="col">Real shed</th></tr></thead><tbody><tr><td>Length</td><td>12 cm</td><td>25</td><td>3 m</td></tr><tr><td>Surface area</td><td>0.18 m<sup>2</sup></td><td>625</td><td>112.5 m<sup>2</sup></td></tr><tr><td>Volume</td><td>2,000 cm<sup>3</sup></td><td>15,625</td><td>31.25 m<sup>3</sup></td></tr><tr><td>Surface per volume</td><td>0.9 per cm</td><td>1/25</td><td>0.036 per cm</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Unit choice is half the problem</h3><p>The competencies mention &ldquo;scale calculations and unit choice&rdquo; for good reason. Mixing square metres of card with cubic centimetres of volume is the fastest way to a wrong ratio. Converting everything to centimetres before step 4 (0.18 m<sup>2</sup> is 1,800 cm<sup>2</sup>) keeps it honest.</p>
+<p>A useful habit: write the unit after every number, every time, and check that both sides of an equation carry the same unit.</p></div><div><h3>Why the law matters outside class</h3><p>The square-cube law explains why a large building needs proportionally less heating surface per cubic metre than a small one, why ice cubes melt faster when crushed, and why a model bridge that holds up perfectly may fail when built full size: weight grows with volume, but the strength of a beam grows with its cross-section area.</p>
+<p>So the sample question on 3D enlargements gets a numerical reply: every doubling of length leaves each cubic unit with half the surface it had.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice, ours</p><h2>Twelve Foundations of Math 11 practice questions</h2><p class="ag-lede">Every question here is our own work, written for this guide rather than taken from a school, a district or an exam. They cover reasoning, angles, graphs, statistics and scale. Answer on paper, using a graphing tool where the course would.</p></div>
+    <ol class="ag-steps"><li><b>Deductive proof.</b> Prove that the sum of any two odd integers is even.</li><li><b>Counter-example.</b> A student notices that n<sup>2</sup> + n + 41 is prime for n = 0, 1, 2, 3 and 4, and conjectures it is always prime. Find a counter-example.</li><li><b>Game analysis.</b> Two players take turns removing 1, 2 or 3 counters from a pile of 15. Whoever takes the last counter wins. Should you go first, and how many should you take?</li><li><b>Parallel lines.</b> A transversal crosses two parallel lines, making alternate interior angles of (3x + 10)&deg; and (5x &minus; 30)&deg;. Find x and the angle.</li><li><b>Polygons.</b> Find the sum of the interior angles of a hexagon, and each interior angle of a regular hexagon.</li><li><b>Solution region.</b> Is the point (2, 3) in the region defined by y &lt; &minus;x + 6 and y &ge; 2x &minus; 3? Show the test.</li><li><b>Quadratic graph.</b> For y = &minus;x<sup>2</sup> + 6x &minus; 5, give the vertex, the maximum, the axis of symmetry and the intercepts.</li><li><b>Linear-quadratic system.</b> Find where y = x<sup>2</sup> &minus; 4 and y = 2x &minus; 1 meet.</li><li><b>z-score.</b> A class test has mean 72 and standard deviation 8. What is the z-score of a mark of 84, and what does it tell you?</li><li><b>Confidence interval.</b> A school survey reports that 62% of students walk or cycle to school, accurate within 4 percentage points, 19 times out of 20. State the interval and explain what 19 times out of 20 means.</li><li><b>Scale.</b> A 1:200 model of a building is 45 cm tall and its footprint is 0.06 m<sup>2</sup>. Find the real height and footprint.</li><li><b>Square-cube law.</b> Every length of a solid is tripled. By what factors do its surface area, volume and surface-to-volume ratio change?</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="answers">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Answers, ours</p><h2>Answers, explained</h2><p class="ag-lede">We checked the numerical answers by computation and the proofs line by line. In Foundations 11 the explanation earns the marks, so each answer gives it.</p></div>
+    <ol class="ag-steps"><li><b>Proof.</b> Any odd integer can be written 2m + 1 for some integer m. Two odd integers sum to (2m + 1) + (2n + 1) = 2(m + n + 1), which is 2 times an integer, so it is even. Checking examples is inductive; this argument is deductive, because it covers every case.</li><li><b>n = 40.</b> 40<sup>2</sup> + 40 + 41 = 1,681 = 41 &times; 41, which is not prime. (n = 41 also works.) Five true cases never prove a pattern; one counter-example disproves it.</li><li><b>Go first and take 3.</b> That leaves 12. Whatever your opponent takes (1, 2 or 3), you take enough to make the total for the round 4, leaving 8, then 4, then 0. Multiples of 4 are losing positions for whoever must move.</li><li><b>x = 20, angle 70&deg;.</b> Alternate interior angles are equal: 3x + 10 = 5x &minus; 30, so 40 = 2x.</li><li><b>720&deg; and 120&deg;.</b> A polygon with n sides has interior angles summing to (n &minus; 2) &times; 180&deg;; for n = 6 that is 720&deg;, and 720 / 6 = 120.</li><li><b>Yes.</b> First inequality: 3 &lt; &minus;2 + 6 = 4, true. Second: 3 &ge; 2(2) &minus; 3 = 1, true. Both hold, so the point is inside.</li><li><b>Vertex (3, 4), maximum 4, axis x = 3, x-intercepts 1 and 5, y-intercept &minus;5.</b> It factors as &minus;(x &minus; 1)(x &minus; 5), and the vertex lies midway between the zeros.</li><li><b>(3, 5) and (&minus;1, &minus;3).</b> Set x<sup>2</sup> &minus; 4 = 2x &minus; 1, so x<sup>2</sup> &minus; 2x &minus; 3 = 0 and (x &minus; 3)(x + 1) = 0. Substitute each x into the line.</li><li><b>z = 1.5.</b> (84 &minus; 72) / 8 = 1.5: the mark is one and a half standard deviations above the mean. In a roughly normal distribution, that is well above most of the class.</li><li><b>58% to 66%.</b> 62 &plusmn; 4. &ldquo;19 times out of 20&rdquo; is a 95% confidence level: if the survey were repeated many times in the same way, about 95% of the intervals produced would contain the true value. It does not mean the true value is 95% likely to be in this particular interval.</li><li><b>90 m tall; footprint 2,400 m<sup>2</sup>.</b> 45 cm &times; 200 = 9,000 cm = 90 m. Areas scale by 200<sup>2</sup> = 40,000, and 0.06 &times; 40,000 = 2,400.</li><li><b>Area &times; 9, volume &times; 27, surface-to-volume ratio &divide; 3.</b> Area scales by 3<sup>2</sup>, volume by 3<sup>3</sup>, and the ratio by 9/27 = 1/3.</li></ol>
+    <p class="ag-mt-40">Question 3 is the kind of puzzle the curriculum&rsquo;s game analysis means, and it is also a programming exercise: a few lines of code can test the multiples-of-4 strategy against every possible reply. If that appeals, the senior coding courses are described on our <a class="ag-inline-link" href="/computer-programming-11-and-12-bc">Computer Programming 11 and 12 guide</a>.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="prep">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Preparing, ours</p><h2>How to prepare for Foundations 11 tests and projects</h2><p class="ag-lede">Foundations 11 assessments often mix calculation with written explanation, and some teachers set a statistics project. The format is the school&rsquo;s choice; this preparation plan is ours.</p></div>
+    <ol class="ag-steps"><li><b>Ask how the course is assessed.</b> Tests, a statistics project, presentations, and which graphing tools are allowed.</li><li><b>Learn the vocabulary of reasoning.</b> Conjecture, inductive, deductive, counter-example, proof. Write one example of each.</li><li><b>Practise proofs in a set format.</b> Statement and reason, line by line, for angle proofs; the teacher&rsquo;s preferred layout is the one to use.</li><li><b>Get fluent with one graphing tool.</b> Inequalities, quadratics and systems are graphed with technology in this course, so speed with the tool matters.</li><li><b>For optimization, follow the same five steps every time.</b> Variables, constraints, objective, region, corners. Then ask whether the answer must be a whole number.</li><li><b>For statistics, start from the question.</b> Pose it, decide what data answers it, collect, summarise with mean and standard deviation, and answer the question in a sentence.</li><li><b>For scale, write units everywhere.</b> Convert before comparing, and square or cube the factor for area or volume.</li><li><b>Keep an explanation log.</b> For each topic, one paragraph in your own words explaining why the method works.</li><li><b>Do a mixed review every two weeks.</b> Our twelve questions above make a starting set.</li><li><b>Before a test, explain three answers out loud</b> to someone who has not taken the course. If they follow, you are ready.</li></ol>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A four-week run-up to a Foundations 11 unit test or project deadline (ours)</caption><thead><tr><th scope="col">Weeks before</th><th scope="col">Work on</th><th scope="col">Done when</th></tr></thead><tbody><tr><td class="ag-num">4</td><td>Assessment format; vocabulary; one graphing tool</td><td>Five reasoning terms defined with examples</td></tr><tr><td class="ag-num">3</td><td>Proofs and optimization steps</td><td>Two proofs and one optimization written without notes</td></tr><tr><td class="ag-num">2</td><td>Statistics and scale</td><td>One small data question answered from start to finish</td></tr><tr><td class="ag-num">1</td><td>Mixed review and explaining aloud</td><td>Three answers explained clearly to a listener</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="credit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Credit and the clock</p><h2>Help with Foundations 11; the credit stays with the school</h2><p class="ag-lede">Some families searching for Foundations of Math 11 online really want the credit. Only a school can give that, so here is what our lessons cover instead.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The credit</h3><p>To earn Foundations of Mathematics 11, a student enrols where the course is delivered and marked, such as their own secondary, a summer session or an online school. We do not grant high school credits, and nothing we mark goes on a transcript.</p>
+<p>For diploma questions, such as whether Foundations 11 satisfies a requirement, talk to the school counsellor. We could not open the province&rsquo;s graduation page while researching, so we stay silent on it.</p></div><div><h3>What we offer</h3><p>Live lessons that follow the school&rsquo;s own unit order: proofs explained, graphing tools practised, statistics projects planned, scale problems worked until they make sense. Your teen does the work; we make sure the reasoning holds.</p>
+<p>Home-educating in BC? A weekly Grade 11 math routine for registered home learners is sketched on our <a class="ag-inline-link" href="/homeschool-coding-and-math-bc">homeschool coding and math guide for BC</a>.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Weekend lesson times, BC against India (provincial time change of 2026, tz version 2026e; India runs on UTC+5:30)</caption><thead><tr><th scope="col">BC region</th><th scope="col">UTC offset</th><th scope="col">India difference</th><th scope="col">A 9:00 am Saturday BC lesson, for the teacher</th></tr></thead><tbody><tr><td>Most of the province</td><td>UTC-7, fixed</td><td>12 hours 30 minutes ahead</td><td>9:30 pm Saturday</td></tr><tr><td>East Kootenay and Golden</td><td>UTC-6, fixed</td><td>11 hours 30 minutes ahead</td><td>8:30 pm Saturday</td></tr></tbody></table></div>
+    <p class="ag-mt-40">BC kept its spring 2026 clock after 8 March and no longer moves it in November, so a lesson time set on Pacific time holds all year. Our <a class="ag-inline-link" href="/canada-time-zones-2026-online-class-times">Canada time zones page</a> covers the other provinces, several of which still change.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your teen is now</p>
+      <h2>Four stages in Foundations 11 thinking</h2>
+      <p class="ag-lede">Stages we use to place a Foundations 11 student, from our own lessons.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From answer-getter to explainer (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Answer-getter</td><td class="ag-num">Can produce a number, cannot yet say why it is right</td></tr><tr><td>2. Tester</td><td class="ag-num">Checks a claim with examples and finds counter-examples</td></tr><tr><td>3. Prover</td><td class="ag-num">Writes a short deductive argument that covers every case</td></tr><tr><td>4. Judge</td><td class="ag-num">Decides whether an optimal or statistical answer is reasonable in its context</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask your teen to prove one small fact to you, such as why two odd numbers add to an even one. How they explain it shows their stage.</p>
+<p>Foundations 11 rewards talking about math. A teen who explains aloud at home tends to write better answers in tests.</p></div><div><h3>For students</h3><p>After every answer, add one sentence explaining why it makes sense. That sentence is often worth more marks than the number.</p>
+<p>Look for a counter-example before trying to prove something. It saves time when the claim is false.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine more courses for BC Grade 11 students</h2>
+      <p class="ag-lede">Live and online, with the same teacher each week, in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Math beside Foundations</h3>
+        <span class="ag-band-sub">Grades 10 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / MTH / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Equations and graphs, rebuilt calmly.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / MTH / 02</p>
+          <h4>AP Precalculus</h4>
+          <p>If the plan moves towards Pre-calculus.</p>
+          <a class="ag-course-link" href="/courses/ap-precalculus-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / MTH / 03</p>
+          <h4>SAT Math</h4>
+          <p>For students looking at US universities.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Reasoning and puzzles</h3>
+        <span class="ag-band-sub">Grades 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / RSN / 01</p>
+          <h4>Waterloo math contests</h4>
+          <p>Logic-heavy contest problems.</p>
+          <a class="ag-course-link" href="/courses/waterloo-math-contests-gauss-to-euclid-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / RSN / 02</p>
+          <h4>Competition mathematics</h4>
+          <p>Proof as a sport.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / RSN / 03</p>
+          <h4>Problem solving for teens</h4>
+          <p>Game analysis turned into code.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Data and code</h3>
+        <span class="ag-band-sub">Teens</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / DAT / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Questions answered from real data sets.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / DAT / 02</p>
+          <h4>Python for teens</h4>
+          <p>Simulate, graph and test your own ideas.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FOU / DAT / 03</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Statistics behind modern models.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>Live Foundations 11 lessons for BC teens</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Once the BC school day ends, in a batch you pick.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Weekend mornings on the Pacific clock.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Around project deadlines and unit tests.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>A regular teacher</h3><p>Who knows your teen&rsquo;s course order.</p></div>
+      <div><h3>Graphing tools used</h3><p>As the course itself requires.</p></div>
+      <div><h3>Proofs written out</h3><p>Line by line, with reasons.</p></div>
+      <div><h3>Projects planned</h3><p>From question to conclusion.</p></div>
+      <div><h3>Explain it back</h3><p>Every lesson ends with a summary.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty, or one learner.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have built</h2>
+      <p class="ag-lede">Our students make things with code as well as solve problems on paper; here are a few, and the <a class="ag-inline-link" href="/student-labs">student labs</a> page has the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">The first class is on us. After that, a monthly fee covers eight live classes and is shown in your region&rsquo;s currency; there is no term to commit to, so you can stop at the end of a month.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>Free first class</li><li>Bring a current assignment</li><li>No card asked</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.international.group">$100</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>A batch of fifteen to twenty</li><li>One regular teacher</li><li>Batch time you choose</li><li>Monthly, no term</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.international.personal">$150</span> <span class="fee-cur" data-price-currency>USD</span></p>
+        <p class="ag-price-alt">a month, eight live classes</p>
+        <ul><li>Just your teen and a teacher</li><li>Booked around deadlines</li><li>Built on the school outline</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews left by families and students, unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from BC families</p>
+      <h2>Foundations of Math 11: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is Foundations of Math 11 in BC?</h3>
+        <p>It is a BC Grade 11 mathematics course. Its curriculum covers forms of mathematical reasoning and proof, angle relationships, graphical analysis of inequalities, quadratics and systems using technology, optimization with feasible regions, applications of statistics, scale models and financial literacy.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you grant Foundations of Math 11 credit?</h3>
+        <p>No: we do not grant provincial credits. Think of us as a second teacher beside the class. The Foundations of Mathematics 11 credit itself has to come from a school that runs and marks the course, online or in person.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Foundations of Math 11 easier than Pre-calculus 11?</h3>
+        <p>It is different. Foundations 11 has lighter algebra but asks for proofs, written reasoning, statistics and judgement about whether an answer makes sense. Its Grade 11 neighbour, Pre-calculus 11, leans harder on algebra and trigonometry. Students who find algebra hard often still find Foundations 11 demanding in its own way.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I go to university with Foundations of Math 11?</h3>
+        <p>It depends on the program. When we checked UBC's requirements tool for BC applicants on 22 October 2026, Arts listed English Studies 12 or English First Peoples 12 and asked for Pre-Calculus 12 only from students planning an Economics major, while Science and Commerce listed Pre-Calculus 12. Check each program you are considering.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What comes after Foundations of Math 11?</h3>
+        <p>The BC mathematics course list includes Foundations of Mathematics 12, the next course in the same line. Some students also take Statistics 12. Moving to Pre-calculus 12 instead usually needs Pre-calculus 11 algebra, and the school decides the rules.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does Foundations of Math 11 include statistics?</h3>
+        <p>Yes. The curriculum lists posing a question about variation, collecting and interpreting data, and measures of central tendency, standard deviation, confidence intervals, z-scores and distributions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do students graph by hand in Foundations 11?</h3>
+        <p>The curriculum attaches the note "using technology only" to its graphical analysis content, which covers linear inequalities, quadratic functions, systems of equations and optimization. So students use graphing tools, and the skill being assessed is reading and explaining the graph.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How should my teen prepare for Foundations 11 tests?</h3>
+        <p>Find out the assessment format, learn the vocabulary of reasoning, practise proofs in the teacher's layout, get quick with one graphing tool, follow fixed steps for optimization and statistics, keep units on every number, and practise explaining answers aloud.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What lesson times work in BC?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The province dropped clock changes in 2026, which means your agreed lesson hour is the same in January as in June.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much is Foundations 11 tutoring?</h3>
+        <p>The first class is free. Ongoing classes are billed by the month for eight live lessons, with no term contract, and stop whenever a month ends. The fees section on this page lists the group and private amounts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for BC students choosing and taking Grade 11 and 12 math.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/precalculus-tutoring-online">Precalculus tutoring</a></h3><p>The algebra-heavy route, for comparison.</p></div>
+      <div><h3><a class="ag-inline-link" href="/canada-high-school-math-courses-compared">Grade 12 math by province</a></h3><p>Where the Grade 12 options sit nationally.</p></div>
+      <div><h3><a class="ag-inline-link" href="/calculus-12-tutor-bc">Calculus 12 tutor, BC</a></h3><p>For students heading to calculus.</p></div>
+      <div><h3><a class="ag-inline-link" href="/computer-programming-11-and-12-bc">Computer Programming 11 and 12</a></h3><p>Coding alongside senior math.</p></div>
+      <div><h3><a class="ag-inline-link" href="/homeschool-coding-and-math-bc">Homeschool math and coding, BC</a></h3><p>Planning Grade 11 at home.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-british-columbia">British Columbia hub</a></h3><p>Every BC page we offer.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-canada">Online math tutoring, Canada</a></h3><p>Help across provinces.</p></div>
+      <div><h3><a class="ag-inline-link" href="/blog/probability-for-beginners">Probability for beginners</a></h3><p>A gentle start for the statistics strand.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What a lesson looks like.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us the unit, any project due and the date of the next test. We start from the work your teen is doing now.</p>
+        <p class="ag-mt-40">Curious first? Read the <a class="ag-inline-link" href="/courses/complete-high-school-mathematics-mastery">High School Mathematics syllabus</a> or see <a class="ag-inline-link" href="/how-we-teach">how our lessons work</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20teen%20in%20BC%20is%20taking%20Foundations%20of%20Math%2011%20and%20would%20like%20help%20alongside%20the%20school%20course.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'fou',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Every lesson is a live video call with a teacher working from India. No premises in BC, no home visits; send a WhatsApp for the fastest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_fou(event)" novalidate>
+          <div class="ag-field">
+            <label for="ca-name">Your name</label>
+            <input id="ca-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-phone">Phone or WhatsApp, Canada +1</label>
+            <input id="ca-phone" type="tel" name="phone" placeholder="(416) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="ca-age">Learner age group</label>
+            <select id="ca-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No payment card is needed for the free class.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>BC Grade 11 math</h4><ul><li><a href="/precalculus-tutoring-online">Precalculus tutoring</a></li><li><a href="/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course">Western Canada Grade 12 Math</a></li><li><a href="/courses/statistics-probability-maths-course">Statistics and probability</a></li><li><a href="/courses/complete-high-school-mathematics-mastery">High school mathematics</a></li></ul></div>
+      <div><h4>British Columbia</h4><ul><li><a href="/coding-classes-in-british-columbia">Classes in BC</a></li><li><a href="/homeschool-coding-and-math-bc">Homeschool in BC</a></li><li><a href="/calculus-12-tutor-bc">Calculus 12 tutor</a></li><li><a href="/canada-time-zones-2026-online-class-times">Canada class times</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Reason it out, then test it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_fou = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'CA';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Canada phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'CA', countryName: 'Canada',
+      source: 'foundations-of-math-11-tutor-bc-inline', meta: { name: name, age: age, page: 'foundations-of-math-11-tutor-bc' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=090197a729"></script>
+    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+</body>
+</html>

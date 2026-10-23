@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [BC Foundations of Math 11 help](/foundations-of-math-11-tutor-bc)
 - [BC Pre-calculus 11 help](/pre-calculus-11-tutor-bc)
 - [BC Pre-calculus 12 help](/pre-calculus-12-tutor-bc)
 - [Math tutor in Edmonton](/math-tutor-edmonton)

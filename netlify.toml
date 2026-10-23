@@ -27081,6 +27081,18 @@
   to = "/src/pages/pre-calculus-11-tutor-bc.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/foundations-of-math-11-tutor-bc"
+  to = "/src/pages/foundations-of-math-11-tutor-bc.html"
+  status = 200
+
+[[redirects]]
+  from = "/foundations-of-math-11-tutor-bc.md"
+  to = "/src/pages/foundations-of-math-11-tutor-bc.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
