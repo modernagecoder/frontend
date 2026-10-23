@@ -57520,5 +57520,95 @@
       "Any affiliation with CEMC, the Ministère de l'Éducation, the Ville de Gatineau or Données Québec.",
       "CEMC contest fees: left out of the copy (currency-neutral page)."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-guelph": {
+    "market": "Guelph",
+    "bodyClass": "cg-apyg",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario curriculum API for Grade 8 math C3.1 and C3.2 (data analysis), MTH1W C2.1, ICD2O strand titles and the current computer studies list (no ICS2O); 2008 computer studies document (first and second strands, strand D computers in society, ICS2O three strands); CEMC Courseware, Problem of the Week and CCC pages (Junior level, 2027 date, school-based entry); OpenAI Terms of Use (January 1, 2026); Anthropic Consumer Terms (Oct 8, 2025); CCC Online Grader rules; facts-geo.md for the south-western Ontario area codes and Eastern time.",
+    "localProject": "City of Guelph open data, Total Organic Waste Volume by Month 2012_2019 (Guelph Open Data Licence Version 2.0), 96 rows fetched with urllib on 22 October 2026; our guelph_forecast.py (python -I): year only on January rows, month labels typed 16 ways; forecasting 2019: flat 2018 monthly average misses 98.2 per month on average, same month in 2018 misses 38.5, six-year same-month mean misses 51.4; February lowest total in every year 2013 to 2019 but lowest per day only in 2014, 2015 and 2019; January 2012 74.33 against February 2012 256.67; April and August 2019 the largest misses. No annual totals built from monthly rows. Labelled as ours. Lesson family: time-series forecasting, seasonal naive baseline, cleaning, per-day rates.",
+    "requiredMentions": [
+      "Total Organic Waste Volume by Month 2012_2019",
+      "Guelph Waste Resource Innovation Centre",
+      "Open Data Licence Version 2.0",
+      "an average miss of 38.5 against 51.4 and 98.2",
+      "per day, February is the lowest month only in 2014, 2015 and 2019",
+      "January 2012 shows 74.33 against 256.67 in February",
+      "month labels typed sixteen different ways",
+      "seasonal naive forecast",
+      "Guelph shares 519 and its overlays 226, 382 and 548",
+      "including code that involves the analysis of data in order to inform and communicate decisions"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum API: Grade 8 math coding expectations on data analysis.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_8___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum API: MTH1W coding strand.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/mth4w___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum API: ICD2O strands and the current computer studies course list.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/boh4m___strands__copy__3f73159?depth=3"
+      },
+      {
+        "claim": "Ontario 2008 computer studies curriculum: strands and ICS2O.",
+        "url": "https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf"
+      },
+      {
+        "claim": "CEMC Courseware: topics, no registration, no credential.",
+        "url": "https://cemc.uwaterloo.ca/resources/courseware"
+      },
+      {
+        "claim": "CEMC Problem of the Week: Grades 3 to 12, weekly Thursday problems.",
+        "url": "https://cemc.uwaterloo.ca/resources/potw"
+      },
+      {
+        "claim": "CEMC CCC page: Junior level and 2027 date.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC how contests work: participation through a school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "OpenAI Terms of Use: minimum age 13 and parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/row-terms-of-use/"
+      },
+      {
+        "claim": "Anthropic Consumer Terms: users must be at least 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "CCC Online Grader rules: generative AI and AI-based IDE tools forbidden.",
+        "url": "https://cccgrader.com/rules.pdf"
+      },
+      {
+        "claim": "City of Guelph: Total Organic Waste Volume by Month 2012_2019 item.",
+        "url": "https://www.arcgis.com/home/item.html?id=ca6f0863d68247a88b77cbce90e6bae2"
+      },
+      {
+        "claim": "City of Guelph Open Data Licence Version 2.0 (hub page item): commercial use, attribution, non-endorsement.",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/4430c79729cf47968ffde39ed58771d4/data?f=json"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about Guelph schools, school boards or their results: none made, by the row instruction.",
+      "Any Guelph population: StatCan not reachable live, so none printed.",
+      "A unit for the green bin volumes: not asserted; the dataset does not state one.",
+      "Yearly green bin totals built by adding monthly rows: refused; the City publishes a separate yearly file.",
+      "Why volumes rose from 2013 to 2019: not asserted; posed as a trend for students to test.",
+      "That ICD2O replaced ICS2O: not claimed; the two facts are stated side by side.",
+      "Any University of Guelph claim: none made.",
+      "That our courses earn or count toward an Ontario credit: refused; we do not grant Ontario credits.",
+      "Recommending Claude or any 18+ tool to a teenager: refused under Anthropic's terms.",
+      "Any affiliation with CEMC, the City of Guelph or the Ontario Ministry of Education.",
+      "CEMC contest fees: left out of the copy (currency-neutral page)."
+    ]
   }
 }
