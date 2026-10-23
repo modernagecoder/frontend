@@ -55766,5 +55766,66 @@
       "CEMC contest fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the Region of Peel, the City of Mississauga, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "best-coding-classes-for-kids-in-markham": {
+    "market": "Markham",
+    "bodyClass": "cg-beaa",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 4 C3.1 (nested events), the Grade 4 nested-loop note and square example, Grade 5 C3.1 (conditional statements), the Grade 5 binary-logic note and its roller coaster and guess-the-number examples, and the read-and-alter expectation. CEMC Gauss (Grades 7 and 8, 25 questions in 60 minutes, 10 to 21 May 2027, ordering by 22 April 2027) and Team Up Challenge (Grades 6 to 8, groups of four, 1 June 2027 or later); through-a-school rule. Markham in the Toronto CMA and the 905 overlay; Eastern time offsets from facts-geo.md (IANA tzdb 2026e).",
+    "localProject": "City of Markham Open Data, City Owned Facilities (Open Data Licence - City of Markham, Version 1.0), CSV downloaded 22 October 2026 (11,383 bytes) and counted with our script page_script.py (python -I): 82 rows; by hundreds 1800s 37, 1900s 36, 2000s 9; Museum 31/18/3, Community Centre 3/12/6, Library 1/2/0, Recycling Depot 1/2/0, Art Gallery 1/1/0, Theatre 0/1/0; oldest 1824 (Museum), newest 2016, median 1926; 9 names contain LIBRARY against 3 Library rows. Labelled as ours. Lesson family: integer-division bins and checking a type label against names.",
+    "requiredMentions": [
+      "hundreds = year // 100 * 100",
+      "9 building names contain the word LIBRARY",
+      "The earliest YEAR_BUILT in the file is 1824",
+      "City of Markham&rsquo;s Open Data Licence",
+      "a representation of binary logic (yes or no, true or false, 1 or 0)",
+      "With a height of 125 it prints",
+      "groups four students to solve problems together",
+      "with schools ordering by 22 April 2027",
+      "Unionville, Thornhill, Milliken and Box Grove"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 4 math strands (nested events, loop note, square example).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_4___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum content API: Grade 5 math strands (conditional statements, binary logic note, examples).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_5___strands?depth=4"
+      },
+      {
+        "claim": "CEMC Gauss contest: grades, format, 2027 dates and ordering deadline.",
+        "url": "https://cemc.uwaterloo.ca/contests/gauss"
+      },
+      {
+        "claim": "CEMC contests overview: Team Up Challenge description and date.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC: students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Markham Open Data: City Owned Facilities dataset page.",
+        "url": "https://data-markham.opendata.arcgis.com/datasets/d8cee9f1183f4d8f9c731e777782f3a3_0"
+      },
+      {
+        "claim": "Open Data Licence - City of Markham, Version 1.0 (commercial use, credit statement, non-endorsement).",
+        "url": "https://data-markham.opendata.arcgis.com/pages/terms-of-use"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Markham population figure: StatCan was not reachable live.",
+      "Names of individual City buildings and of any Markham school: not printed.",
+      "That YEAR_BUILT is when the City acquired or last renovated a building: not stated in the file, so refused.",
+      "Any ranking of Markham coding providers, or that Modern Age Coders is the best: refused; the page gives signs to look for.",
+      "That our classes raise report-card marks or EQAO results: refused.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the City of Markham, the Markham school boards, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }

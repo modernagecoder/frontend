@@ -281,7 +281,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 104 | coding-and-ai-classes-in-edmonton (aie, #2A7011) | city | 3,791 | 1.5% vs coding-and-ai-classes-in-ottawa | city page | city open data | 71fdb8d0 |
 | 105 | coding-and-ai-classes-in-winnipeg (aiwi, #28704A) | city | 3,761 | 1.9% vs coding-and-ai-classes-in-calgary | city page | city open data | da12fec4 |
 | 106 | coding-and-ai-classes-in-quebec-city (aqc, #2C615B) | city | 3,825 | 1.7% vs coding-and-ai-classes-in-winnipeg | city page | city open data | 74487a25 |
-| 113 | best-coding-classes-for-kids-in-mississauga (bkim, #3D664D) | city | 4,410 | 1.1% vs coding-and-ai-classes-in-toronto | kids city page | city open data | (this commit) |
+| 113 | best-coding-classes-for-kids-in-mississauga (bkim, #3D664D) | city | 4,410 | 1.1% vs coding-and-ai-classes-in-toronto | kids city page | city open data | 141948f0 |
+| 114 | best-coding-classes-for-kids-in-markham (beaa, #104C3F) | city | 3,957 | 1.5% vs best-coding-classes-for-kids-in-mississauga | kids city page | city open data | (this commit) |
 
 ## Skipped
 
