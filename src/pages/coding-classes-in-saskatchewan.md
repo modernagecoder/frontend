@@ -286,6 +286,13 @@ Age 6 or Grade 1 for block coding. Most children are ready for typed Python by G
 
 In the fees section of this page, which lists the free first class, the monthly group fee and the monthly private fee, each shown with its currency. Nothing is billed before the free class.
 
+## Our city pages in Saskatchewan
+
+2 pages for Saskatchewan towns and cities, each written for the families there.
+
+- [Coding and AI classes in Regina](/coding-and-ai-classes-in-regina)
+- [Coding and AI classes in Saskatoon](/coding-and-ai-classes-in-saskatoon)
+
 ## Other pages for Saskatchewan students
 
 Begin at [coding classes in Canada](/coding-classes-in-canada), or read how Saskatchewan compares with other provinces in [our curriculum guide](/canada-coding-curriculum-by-province). Neighbouring Alberta has its own page, [coding classes in Alberta](/coding-classes-in-alberta), and every province's high school math is side by side in [Canadian high school math courses compared](/canada-high-school-math-courses-compared).

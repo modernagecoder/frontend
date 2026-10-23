@@ -327,7 +327,13 @@ Can we try a class before enrolling?
 
 Yes. [Book a Priority Demo](/priority-demo): a full live class of about 45 to 60 minutes, today or tomorrow, with a mentor reserved for your child. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee.
 
-Keep exploring
+By city
+
+## Math tutoring pages for 16 Canadian cities.
+
+Each city page works its math through a problem set on that city's own open data, beside the courses its province teaches.
+
+[OntarioMath tutor in Brampton](/math-tutor-brampton)[British ColumbiaMath tutor in Burnaby](/math-tutor-burnaby)[AlbertaMath tutor in Calgary](/math-tutor-calgary)[AlbertaMath tutor in Edmonton](/math-tutor-edmonton)[OntarioMath tutor in Markham](/math-tutor-markham)[OntarioMath tutor in Mississauga](/math-tutor-mississauga)[QuebecMath tutor in Montreal](/math-tutor-montreal)[OntarioMath tutor in Oakville](/math-tutor-oakville)[OntarioMath tutor in Ottawa](/math-tutor-ottawa)[OntarioMath tutor in Richmond Hill](/math-tutor-richmond-hill)[British ColumbiaMath tutor in Surrey](/math-tutor-surrey-bc)[OntarioMath tutor in Toronto](/math-tutor-toronto)[British ColumbiaMath tutor in Vancouver](/math-tutor-vancouver)[OntarioMath tutor in Vaughan](/math-tutor-vaughan)[OntarioMath tutor in Waterloo](/math-tutor-waterloo-ontario)[ManitobaMath tutor in Winnipeg](/math-tutor-winnipeg)Keep exploring
 
 ## More math help from Modern Age Coders.
 

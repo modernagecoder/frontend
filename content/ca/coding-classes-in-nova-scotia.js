@@ -298,6 +298,17 @@ module.exports = {
     ]
   },
 
+  cityLinks: {
+    "eyebrow": "Nova Scotia cities",
+    "h2": "Our city page in Nova Scotia",
+    "p": "One page so far for a Nova Scotia city, written for families there.",
+    "links": [
+      {
+        "href": "/coding-and-ai-classes-in-halifax-nova-scotia",
+        "label": "Coding and AI classes in Halifax"
+      }
+    ]
+  },
   next: {
     eyebrow: 'More for Canada',
     h2: 'Other pages for Nova Scotia students',

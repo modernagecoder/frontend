@@ -280,6 +280,14 @@ Six is a good age for block coding. Most children are ready to type Python somew
 
 In the fees section of this page, which shows the free first class, the monthly group fee and the monthly one-to-one fee with the currency beside each. Nothing is charged before the free class.
 
+## Our city pages in New Brunswick
+
+3 pages for New Brunswick towns and cities, each written for the families there.
+
+- [AI and Python classes for teens in Fredericton](/ai-and-python-classes-for-teens-in-fredericton)
+- [Coding classes for kids in Moncton](/best-coding-classes-for-kids-in-moncton)
+- [Online coding and Python classes in Saint John](/online-coding-and-python-classes-in-saint-john-new-brunswick)
+
 ## Other pages for New Brunswick students
 
 Start from [coding classes in Canada](/coding-classes-in-canada), or see New Brunswick next to the other provinces in [our curriculum comparison](/canada-coding-curriculum-by-province). Families on Atlantic time can check [Canada time zones in 2026](/canada-time-zones-2026-online-class-times), and contest students the [contest calendar](/canada-math-and-coding-contest-calendar).

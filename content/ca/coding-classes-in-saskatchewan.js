@@ -306,6 +306,21 @@ module.exports = {
     ]
   },
 
+  cityLinks: {
+    "eyebrow": "Saskatchewan cities",
+    "h2": "Our city pages in Saskatchewan",
+    "p": "2 pages for Saskatchewan towns and cities, each written for the families there.",
+    "links": [
+      {
+        "href": "/coding-and-ai-classes-in-regina",
+        "label": "Coding and AI classes in Regina"
+      },
+      {
+        "href": "/coding-and-ai-classes-in-saskatoon",
+        "label": "Coding and AI classes in Saskatoon"
+      }
+    ]
+  },
   next: {
     eyebrow: 'More for Canada',
     h2: 'Other pages for Saskatchewan students',

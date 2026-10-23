@@ -298,6 +298,25 @@ module.exports = {
     ]
   },
 
+  cityLinks: {
+    "eyebrow": "New Brunswick cities",
+    "h2": "Our city pages in New Brunswick",
+    "p": "3 pages for New Brunswick towns and cities, each written for the families there.",
+    "links": [
+      {
+        "href": "/ai-and-python-classes-for-teens-in-fredericton",
+        "label": "AI and Python classes for teens in Fredericton"
+      },
+      {
+        "href": "/best-coding-classes-for-kids-in-moncton",
+        "label": "Coding classes for kids in Moncton"
+      },
+      {
+        "href": "/online-coding-and-python-classes-in-saint-john-new-brunswick",
+        "label": "Online coding and Python classes in Saint John"
+      }
+    ]
+  },
   next: {
     eyebrow: 'More for Canada',
     h2: 'Other pages for New Brunswick students',

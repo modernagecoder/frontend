@@ -140,6 +140,13 @@ function twin(page) {
   out.push(`## ${md(page.faq.h2)}`);
   out.push('');
   for (const f of page.faq.items) { out.push(`### ${md(f.q)}`); out.push(''); out.push(md(f.a)); out.push(''); }
+  if (page.cityLinks) {
+    out.push(`## ${md(page.cityLinks.h2)}`);
+    out.push('');
+    if (page.cityLinks.p) { out.push(md(page.cityLinks.p)); out.push(''); }
+    for (const l of page.cityLinks.links) out.push(`- [${md(l.label)}](${l.href})`);
+    out.push('');
+  }
   out.push(`## ${md(page.next.h2)}`);
   out.push('');
   out.push(md(page.next.html));

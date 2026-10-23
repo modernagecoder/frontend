@@ -380,9 +380,13 @@ BC guides
 
 Rotations are only the middle years. These guides pick up the Grade 11 and 12 courses, the university entry question and home learning in the province.
 
-[Computer Programming 11 and 12](/computer-programming-11-and-12-bc)[Calculus 12](/calculus-12-tutor-bc)[Homeschooling in BC](/homeschool-coding-and-math-bc)[UBC computer science admission](/ubc-computer-science-admission-requirements)[Canada's 2026 clock changes](/canada-time-zones-2026-online-class-times)[Coding curriculum by province](/canada-coding-curriculum-by-province)
+[Computer Programming 11 and 12](/computer-programming-11-and-12-bc)[Calculus 12](/calculus-12-tutor-bc)[Homeschooling in BC](/homeschool-coding-and-math-bc)[UBC computer science admission](/ubc-computer-science-admission-requirements)[Canada's 2026 clock changes](/canada-time-zones-2026-online-class-times)[Coding curriculum by province](/canada-coding-curriculum-by-province)British Columbia cities
 
-Nearby
+## Our city pages in British Columbia
+
+15 pages for British Columbia towns and cities, each written for the families there.
+
+[AI and Python classes for teens in Surrey](/ai-and-python-classes-for-teens-in-surrey-bc)[Coding and AI classes in Victoria](/coding-and-ai-classes-in-victoria-bc)[Coding classes for kids in Abbotsford](/coding-classes-for-kids-in-abbotsford)[Coding classes for kids in Burnaby](/best-coding-classes-for-kids-in-burnaby)[Coding classes for kids in Kelowna](/best-coding-classes-for-kids-in-kelowna)[Coding classes for kids in Langley](/coding-classes-for-kids-in-langley-bc)[Coding classes for kids in Vancouver](/best-coding-classes-for-kids-in-vancouver)[Math tutor in Burnaby](/math-tutor-burnaby)[Math tutor in Surrey](/math-tutor-surrey-bc)[Math tutor in Vancouver](/math-tutor-vancouver)[Online coding and Python classes in Coquitlam](/online-coding-and-python-classes-in-coquitlam)[Online coding and Python classes in Kamloops](/online-coding-and-python-classes-in-kamloops)[Vibe coding and AI agents classes in Nanaimo](/vibe-coding-and-ai-agents-classes-in-nanaimo)[Vibe coding and AI agents classes in North Vancouver](/vibe-coding-and-ai-agents-classes-in-north-vancouver)[Vibe coding and AI agents classes in Richmond](/vibe-coding-and-ai-agents-classes-in-richmond-bc)Nearby
 
 ## Other places we teach
 

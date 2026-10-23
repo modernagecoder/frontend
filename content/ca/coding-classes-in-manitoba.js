@@ -306,6 +306,21 @@ module.exports = {
     ]
   },
 
+  cityLinks: {
+    "eyebrow": "Manitoba cities",
+    "h2": "Our city pages in Manitoba",
+    "p": "2 pages for Manitoba towns and cities, each written for the families there.",
+    "links": [
+      {
+        "href": "/coding-and-ai-classes-in-winnipeg",
+        "label": "Coding and AI classes in Winnipeg"
+      },
+      {
+        "href": "/math-tutor-winnipeg",
+        "label": "Math tutor in Winnipeg"
+      }
+    ]
+  },
   next: {
     eyebrow: 'More for Canada',
     h2: 'Other pages for Manitoba students',

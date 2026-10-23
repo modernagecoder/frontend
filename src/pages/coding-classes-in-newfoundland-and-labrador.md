@@ -300,6 +300,12 @@ It works. Key in the ten digits of the 709 number without a leading 1, because t
 
 Further up this page: the free first class, then the monthly group fee and the monthly fee for one-to-one teaching, each in your own currency. Billing starts only after the free class.
 
+## Our city page in Newfoundland and Labrador
+
+One page so far for a Newfoundland and Labrador city, written for families there.
+
+- [Coding and AI classes in St Johns](/coding-and-ai-classes-in-st-johns-newfoundland)
+
 ## Other pages for students in Newfoundland and Labrador
 
 Start from [coding classes in Canada](/coding-classes-in-canada), or compare provinces on [coding in each provincial curriculum](/canada-coding-curriculum-by-province). Contest students can read [CCC preparation](/canadian-computing-competition-ccc-prep) and [Waterloo contest preparation](/cemc-waterloo-contests-preparation), families juggling clocks can use [Canadian time zones for online classes](/canada-time-zones-2026-online-class-times), and for math support see our page on [online math tutoring in Canada](/online-math-tutor-canada).

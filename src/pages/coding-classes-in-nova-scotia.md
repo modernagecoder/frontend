@@ -276,6 +276,12 @@ From about age 6, in Primary or Grade 1, with block coding. Typed Python usually
 
 Further up this page, under Fees. You will see three lines, for the free introductory lesson, the group rate per month and the one-to-one rate per month, each shown in your currency. Payment only starts after the introductory lesson.
 
+## Our city page in Nova Scotia
+
+One page so far for a Nova Scotia city, written for families there.
+
+- [Coding and AI classes in Halifax](/coding-and-ai-classes-in-halifax-nova-scotia)
+
 ## Other pages for Nova Scotia students
 
 For all of Canada, go to [coding classes in Canada](/coding-classes-in-canada); [the curriculum by province](/canada-coding-curriculum-by-province) compares Nova Scotia with its neighbours. Contest dates for the whole country sit in the [Canadian contest calendar](/canada-math-and-coding-contest-calendar), and students who need math support can read about [online math tutoring in Canada](/online-math-tutor-canada).

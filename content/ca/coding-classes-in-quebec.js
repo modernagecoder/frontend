@@ -321,6 +321,41 @@ module.exports = {
     ]
   },
 
+  cityLinks: {
+    "eyebrow": "Quebec cities",
+    "h2": "Our city pages in Quebec",
+    "p": "7 pages for Quebec towns and cities, each written for the families there.",
+    "links": [
+      {
+        "href": "/ai-and-python-classes-for-teens-in-gatineau",
+        "label": "AI and Python classes for teens in Gatineau"
+      },
+      {
+        "href": "/coding-and-ai-classes-in-montreal",
+        "label": "Coding and AI classes in Montreal"
+      },
+      {
+        "href": "/coding-and-ai-classes-in-quebec-city",
+        "label": "Coding and AI classes in Quebec City"
+      },
+      {
+        "href": "/best-coding-classes-for-kids-in-laval",
+        "label": "Coding classes for kids in Laval"
+      },
+      {
+        "href": "/math-tutor-montreal",
+        "label": "Math tutor in Montreal"
+      },
+      {
+        "href": "/online-coding-and-python-classes-in-sherbrooke",
+        "label": "Online coding and Python classes in Sherbrooke"
+      },
+      {
+        "href": "/vibe-coding-and-ai-agents-classes-in-longueuil",
+        "label": "Vibe coding and AI agents classes in Longueuil"
+      }
+    ]
+  },
   next: {
     eyebrow: 'More for Canada',
     h2: 'Other pages for Quebec students',

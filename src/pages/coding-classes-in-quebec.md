@@ -303,6 +303,18 @@ Yes, as math tutoring alongside school. Our Secondary IV page explains the three
 
 Scroll to the fees block above the reviews. It lists three things: the free trial lesson, what a group place costs per month and what one-to-one teaching costs per month. Nothing is charged before the trial lesson is over.
 
+## Our city pages in Quebec
+
+7 pages for Quebec towns and cities, each written for the families there.
+
+- [AI and Python classes for teens in Gatineau](/ai-and-python-classes-for-teens-in-gatineau)
+- [Coding and AI classes in Montreal](/coding-and-ai-classes-in-montreal)
+- [Coding and AI classes in Quebec City](/coding-and-ai-classes-in-quebec-city)
+- [Coding classes for kids in Laval](/best-coding-classes-for-kids-in-laval)
+- [Math tutor in Montreal](/math-tutor-montreal)
+- [Online coding and Python classes in Sherbrooke](/online-coding-and-python-classes-in-sherbrooke)
+- [Vibe coding and AI agents classes in Longueuil](/vibe-coding-and-ai-agents-classes-in-longueuil)
+
 ## Other pages for Quebec students
 
 For the national picture, start at [coding classes in Canada](/coding-classes-in-canada) or compare provinces in [the coding curriculum by province](/canada-coding-curriculum-by-province). Quebec math help is on [Secondary IV math options](/quebec-secondary-4-math-cst-ts-science) and [Secondary V math](/quebec-secondary-5-math-tutor), and the step after Secondary V is on [CEGEP computer science preparation](/cegep-computer-science-preparation).

@@ -240,11 +240,14 @@ ${jsonLd(page)}
 
   const next = `<section class="cg-section cg-section--deep" id="next"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">${esc(page.next.eyebrow)}</span><h2>${page.next.h2}</h2><p>${page.next.html}</p></div><div class="cg-hero-actions"><a class="cg-btn cg-btn--primary" href="#book">Book the free class</a>${pdLink('cg-next', 'cg-btn cg-btn--pd', 'Book a priority demo')}<a class="cg-btn cg-btn--ghost" href="${wa}">${esc(page.next.waLabel || 'Close with WhatsApp')}</a></div></div></section>`;
 
+  // Optional link-down list (province pages to their city pages).
+  const cities = page.cityLinks ? `<section class="cg-section" id="cities"><div class="cg-wrap"><div class="cg-section-head"><span class="cg-eyebrow">${esc(page.cityLinks.eyebrow)}</span><h2>${esc(page.cityLinks.h2)}</h2>${page.cityLinks.p ? `<p>${esc(page.cityLinks.p)}</p>` : ''}</div><div class="cg-markets">${page.cityLinks.links.map(l => `<a class="cg-market" href="${l.href}">${esc(l.label)}</a>`).join('')}</div></div></section>` : '';
+
   const sticky = `<div class="cg-sticky" id="cgBar"><a href="#book">Free class</a>${pdLink('cg-sticky', 'cg-sticky-pd', 'Priority demo')}<a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>`;
 
   const footer = `<footer class="cg-footer"><div class="cg-wrap"><div class="cg-grid-3"><div><h3>Start here</h3><ul><li><a href="/courses">All courses</a></li><li><a href="/course-atlas">Course atlas</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div><div><h3>${esc(page.footerHeading)}</h3><ul>${page.footerPlaces.map(p => `<li><a href="${p.href}">${esc(p.label)}</a></li>`).join('')}</ul></div><div><h3>Company</h3><ul><li><a href="/about">About us</a></li><li><a href="/contact">Contact</a></li><li><a href="/love">Wall of love</a></li><li><a href="/student-labs">Student labs</a></li></ul></div></div><p class="cg-footer-bottom">Modern Age Coders. Live online coding, AI and mathematics for ages ${BRAND.ages}. Teaching since ${BRAND.founded}, more than ${BRAND.students.replace('+', '')} students.</p></div></footer>`;
 
-  return [head, hero, picks, sections, ladder, ai, delivery, pricing, reviews, book, faq, next, sticky, footer, leadScript(page), '</body>', '</html>', ''].join('\n');
+  return [head, hero, picks, sections, ladder, ai, delivery, pricing, reviews, book, faq, cities, next, sticky, footer, leadScript(page), '</body>', '</html>', ''].join('\n');
 }
 
 module.exports = { render, REVIEWS, FLAGSHIPS, plain, groupLabel };

@@ -284,6 +284,13 @@ Around age 6, in Grade 1, with block coding. Most children move to typed Python 
 
 In the fees block on this page: the free first lesson, the monthly group fee and the monthly private fee, each with its currency. You pay nothing until after the free lesson.
 
+## Our city pages in Manitoba
+
+2 pages for Manitoba towns and cities, each written for the families there.
+
+- [Coding and AI classes in Winnipeg](/coding-and-ai-classes-in-winnipeg)
+- [Math tutor in Winnipeg](/math-tutor-winnipeg)
+
 ## Other pages for Manitoba students
 
 The national page is [coding classes in Canada](/coding-classes-in-canada), and [our province-by-province curriculum guide](/canada-coding-curriculum-by-province) sets Manitoba beside its neighbours. For time zones across the country after this year's changes, see [Canada time zones in 2026](/canada-time-zones-2026-online-class-times); for contests, the [contest calendar](/canada-math-and-coding-contest-calendar); for math help, [online math tutoring in Canada](/online-math-tutor-canada).

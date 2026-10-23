@@ -309,6 +309,17 @@ module.exports = {
     ]
   },
 
+  cityLinks: {
+    "eyebrow": "Newfoundland and Labrador cities",
+    "h2": "Our city page in Newfoundland and Labrador",
+    "p": "One page so far for a Newfoundland and Labrador city, written for families there.",
+    "links": [
+      {
+        "href": "/coding-and-ai-classes-in-st-johns-newfoundland",
+        "label": "Coding and AI classes in St Johns"
+      }
+    ]
+  },
   next: {
     eyebrow: 'More for Canada',
     h2: 'Other pages for students in Newfoundland and Labrador',

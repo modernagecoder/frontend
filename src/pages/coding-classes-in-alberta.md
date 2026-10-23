@@ -390,9 +390,13 @@ Alberta guides
 
 Computing science is one chain. Mathematics has its own, with the provincial achievement tests and the Math 30-1 diploma exam along the way, and each of these guides follows one part of it.
 
-[Math 30-1 tutoring](/math-30-1-tutor-alberta)[Math 30-1 diploma exam](/alberta-math-30-1-diploma-exam-prep)[Math 30-1 or Math 30-2](/math-30-1-vs-math-30-2)[Grade 6 math PAT](/alberta-grade-6-math-pat-practice)[Grade 9 math PAT](/alberta-grade-9-math-pat-practice)[The new K to 6 math curriculum](/alberta-new-math-curriculum-explained)[Homeschooling in Alberta](/homeschool-coding-and-math-alberta)[Canada's 2026 clock changes](/canada-time-zones-2026-online-class-times)
+[Math 30-1 tutoring](/math-30-1-tutor-alberta)[Math 30-1 diploma exam](/alberta-math-30-1-diploma-exam-prep)[Math 30-1 or Math 30-2](/math-30-1-vs-math-30-2)[Grade 6 math PAT](/alberta-grade-6-math-pat-practice)[Grade 9 math PAT](/alberta-grade-9-math-pat-practice)[The new K to 6 math curriculum](/alberta-new-math-curriculum-explained)[Homeschooling in Alberta](/homeschool-coding-and-math-alberta)[Canada's 2026 clock changes](/canada-time-zones-2026-online-class-times)Alberta cities
 
-Nearby
+## Our city pages in Alberta
+
+6 pages for Alberta towns and cities, each written for the families there.
+
+[AI and Python classes for teens in Lethbridge](/ai-and-python-classes-for-teens-in-lethbridge)[Coding and AI classes in Calgary](/coding-and-ai-classes-in-calgary)[Coding and AI classes in Edmonton](/coding-and-ai-classes-in-edmonton)[Math tutor in Calgary](/math-tutor-calgary)[Math tutor in Edmonton](/math-tutor-edmonton)[Online coding and Python classes in Red Deer](/online-coding-and-python-classes-in-red-deer)Nearby
 
 ## Other places we teach
 
