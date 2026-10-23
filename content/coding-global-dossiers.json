@@ -55889,5 +55889,63 @@
       "Contest fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the City of Vancouver, the Park Board, the BC education ministry, any school district, CEMC, the University of Waterloo, the University of the Fraser Valley or Math Kangaroo."
     ]
+  },
+  "best-coding-classes-for-kids-in-oakville": {
+    "market": "Oakville",
+    "bodyClass": "cg-bkio",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 6 C3.1 (efficient code with conditional statements) and C3.2 (efficiency of the code); Science and Technology (2022) Grade 6 A2 and A2.1 (coding in investigations, obtaining input in different ways); EQAO Grade 6 window 4 May to 8 June 2027. FIRST Robotics Canada on FIRST LEGO League (ages 4 to 14) and FIRST Tech Challenge (design, build and program; Java-based programming). Oakville in the Toronto CMA and the 905 overlay; Eastern time offsets (facts-geo.md; IANA tzdb 2026e).",
+    "localProject": "Town of Oakville open data, Recreation and Culture Drop in Programs (Open Government Licence - Town of Oakville), CSV downloaded 22 October 2026 (60,479 bytes, 200 rows) and cleaned with our script page_script.py (python -I): 27 raw AGES labels, 25 after strip and lower; 50+ with a trailing space on 52 rows; All Ages 35 and All ages 1; 13-17 and 13 to 17 once each; Grades 6 to 12 on 11 rows and one Test row skipped; 188 rows parsed; 44 fit a 9-year-old (swimming 15, skating 13, sports 8, museum 4, fitness 2, art studios 1 plus 1 under a second heading); 46 fit age 6 and 51 age 12. Fee column never printed. Labelled as ours. Lesson family: cleaning messy labels into numbers.",
+    "requiredMentions": [
+      "A row whose age label is simply &ldquo;Test&rdquo;",
+      "Drop-in Art Studios and Drop-in Arts Studio",
+      "Of the 200 rows, 188 turn into an age range",
+      "Open Government Licence - Town of Oakville",
+      "with a focus on obtaining input in different ways",
+      "print(100 * 101 // 2)",
+      "Robotics club or coding class: a decision guide",
+      "Swap the 9 for 6 and the count is 46",
+      "Burlington, Milton and Mississauga"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 6 math strands (C3.1 efficient code, C3.2 efficiency).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_6___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum content API: Grade 6 Science and Technology strands (A2, A2.1 coding).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/e___sci___tech___grade_6___strands?depth=4"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows, including Grade 6.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "FIRST Robotics Canada: FIRST LEGO League ages, FIRST Tech Challenge description and Java-based programming.",
+        "url": "https://www.firstroboticscanada.org/"
+      },
+      {
+        "claim": "Town of Oakville open data: Recreation and Culture Drop in Programs dataset.",
+        "url": "https://portal-exploreoakville.opendata.arcgis.com/datasets/e2fa873b4c784544a50d1b48bdb880e4_0"
+      },
+      {
+        "claim": "Town of Oakville Open Data Licence (commercial use, attribution statement, non-endorsement).",
+        "url": "https://www.oakville.ca/town-hall/plans-strategies/open-data/open-data-licence/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Oakville population figure: StatCan was not reachable live.",
+      "That we teach robotics hardware or run robotics teams: refused; we teach the programming side.",
+      "Any ranking of Oakville coding or robotics providers, or that Modern Age Coders is the best: refused.",
+      "Program fees and program names from the Town file: not reproduced (currency-neutral page; fees column never printed).",
+      "That the drop-in file is the current schedule: refused; the catalogue record dates from May 2024.",
+      "Turning Grades 6 to 12 into ages: refused in the script on purpose.",
+      "That our classes improve EQAO results or report-card marks: refused.",
+      "Any affiliation with the Town of Oakville, the Halton school boards, the Ontario Ministry of Education, EQAO or FIRST Robotics Canada."
+    ]
   }
 }
