@@ -59685,5 +59685,72 @@
       "Names of Surrey schools, district results or private people: not used.",
       "Any affiliation with the City of Surrey, the BC Ministry of Education and Child Care, Math Kangaroo, the University of the Fraser Valley or CEMC."
     ]
+  },
+  "math-tutor-burnaby": {
+    "market": "Burnaby",
+    "bodyClass": "cg-maad",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 23 October 2026 from curriculum.gov.bc.ca and saved raw: Mathematics 9 (similar triangles), Foundations of Mathematics and Pre-calculus 10 (right-triangle problems), Pre-calculus 11 (sine and cosine laws including ambiguous cases, angles in standard position, special angles, unit circle), Pre-calculus 12 (radians and degrees, identities); course list incl. Calculus 12 (facts-schools-contests.md row 72); BC permanent UTC-7 (BC Gov News 2026AG0013-000209); Vancouver CMA area codes (facts-geo.md); CEMC 2026-27 FGH, Euclid and CTMC dates and formats, POTW, courseware and the through-a-school rule.",
+    "localProject": "City of Burnaby open data, SkyTrain Station (Open Government Licence - City of Burnaby, commercial use allowed), 11 points in UTM Zone 10N queried with curl on 23 October 2026 and analysed with our scripts stations.py and worked.py (python -I): 55 pairs, closest Metrotown-Patterson 764.3 m, farthest Gilmore-Lougheed 8,679.9 m; triangle Metrotown, Brentwood Town Centre, Lougheed Town Centre with sides 4,517.9, 8,184.9 and 7,877.8 m, angles 69.96, 77.44 and 32.60 degrees, sine-law ratio 8,385.6 m, area 17.37 km2; standard-position angles from Metrotown; ambiguous case giving 69.96 or 110.04 degrees and b = 8,184.9 or 5,088.4 m. Labelled as ours. Lesson family: sine and cosine laws, the ambiguous case, angles in standard position.",
+    "requiredMentions": [
+      "points of ingress and egress",
+      "8,385.6 m for all three sides",
+      "Metrotown and Patterson, 764.3 m apart",
+      "Gilmore and Lougheed Town Centre at 8,679.9 m",
+      "17.37 square kilometres",
+      "minus 25.1 degrees",
+      "110.04 degrees",
+      "b = 5,088.4 m",
+      "Brentwood Town Centre sits at 88.0 degrees",
+      "Open Government Licence - City of Burnaby, which allows commercial use"
+    ],
+    "sources": [
+      {
+        "claim": "City of Burnaby: Open Government Licence - City of Burnaby (commercial use, attribution, non-endorsement).",
+        "url": "https://data.burnaby.ca/pages/open-government-licence"
+      },
+      {
+        "claim": "City of Burnaby GIS: SkyTrainStn layer (station points, UTM Zone 10N).",
+        "url": "https://gis.burnaby.ca/arcgis/rest/services/OpenData/OpenData5/MapServer/10"
+      },
+      {
+        "claim": "BC curriculum: Pre-calculus 11 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/pre-calculus"
+      },
+      {
+        "claim": "BC curriculum: Pre-calculus 12 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/12/pre-calculus"
+      },
+      {
+        "claim": "BC curriculum: Foundations of Mathematics and Pre-calculus 10 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/10/foundations-of-mathematics-and-pre-calculus"
+      },
+      {
+        "claim": "BC curriculum: Mathematics 9 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/9/core"
+      },
+      {
+        "claim": "CEMC: Fryer, Galois and Hypatia contests.",
+        "url": "https://cemc.uwaterloo.ca/contests/fgh"
+      },
+      {
+        "claim": "CEMC: Euclid contest.",
+        "url": "https://cemc.uwaterloo.ca/contests/euclid"
+      },
+      {
+        "claim": "BC Gov News: permanent daylight time, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Burnaby population figure: StatCan was not reachable live.",
+      "Track lengths or travel times between stations: not computed; the page says the distances are straight lines between map points.",
+      "Any TransLink figure or affiliation: none used, none claimed.",
+      "BC graduation requirements and the Grade 10 numeracy assessment: the provincial page could not be reached.",
+      "That our lessons earn BC credits: refused.",
+      "Facts about universities in Burnaby: not sourced, so not printed.",
+      "Names of Burnaby schools, district results or private people: not used.",
+      "Any affiliation with the City of Burnaby, the BC Ministry of Education and Child Care or CEMC."
+    ]
   }
 }
