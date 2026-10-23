@@ -8046,4 +8046,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /coding-classes-in-quebec /src/pages/coding-classes-in-quebec.html 200
 /coding-classes-in-quebec.md /src/pages/coding-classes-in-quebec.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/coding-classes-in-manitoba /src/pages/coding-classes-in-manitoba.html 200
+/coding-classes-in-manitoba.md /src/pages/coding-classes-in-manitoba.md 200
 /* /src/pages/404.html 404

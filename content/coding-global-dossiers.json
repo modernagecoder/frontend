@@ -56877,5 +56877,77 @@
       "CEMC fees: left out (currency-neutral page).",
       "Any affiliation with the Ministère de l'Éducation, the MAMH, Données Québec, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-in-manitoba": {
+    "market": "Manitoba",
+    "bodyClass": "cg-man",
+    "pageType": "city",
+    "curriculumAuthority": "Manitoba, read 22 October 2026 from edu.gov.mb.ca and saved raw: Senior 2 (20S), Senior 3 (30S), and Senior 4 (40S) Computer Science Curriculum Framework of Outcomes (2004): no prescribed language, outcomes need programming, no prerequisites, one to three full credits, course code 0280, course descriptions and topic outlines, hand-tracing, advanced algorithms, classes not required until S4; ICT page (replaces Computer Science 205 and 305); assessment schedule 2026/27 (Grade 12 Applied, Essential, Pre-Calculus test dates; 20 per cent; marked locally; Grade 3 and Grade 7 collection windows); Framework for Learning Grade 12 Pre-Calculus (code 3939, 1 credit, overview). Time: news release 17 September 2026 and Official Time Amendment Act S.M. 2023 c.4; tzdb 2026e America/Winnipeg. Area codes 204, 431, 584 (facts-geo.md). CEMC 2026-27 dates via facts-schools-contests.md.",
+    "localProject": "Manitoba Government open data, Manitoba_Waterbody_Stocking_Records (OpenMB Information and Data Use License), queried with curl on 22 October 2026 in seven pages of up to 2,000 records and counted with our script count_stocking.py (python -I): 12,880 events; per decade from 1 (1910s) to 2,287 (1990s), 1,210 in the 2020s to date; busiest year 1994 (291); walleye 4,404, rainbow trout 3,408, brook trout 1,643 events; 594 waterbody IDs but 576 names, 23 names shared by 2+ waterbodies, Gull Lake 4; 2,930 events without a date; 13 SIZE labels incl. 70 rows of 0 and 3 SEE COMMENTS. QUANTITY never summed. Labelled as ours. Lesson family: paging an API and grouping by a key; names are not keys.",
+    "requiredMentions": [
+      "Manitoba_Waterbody_Stocking_Records",
+      "OpenMB Information and Data Use License",
+      "does not prescribe a specific language",
+      "Computer Science 205 and 305",
+      "course code 3939",
+      "busiest single year in the file is 1994",
+      "Gull Lake alone covers four separate waterbodies",
+      "594 waterbody IDs but only 576 names",
+      "204, 431 and 584",
+      "will not revert to standard time on Nov. 1"
+    ],
+    "sources": [
+      {
+        "claim": "Manitoba Senior 2, 3 and 4 Computer Science framework (2004).",
+        "url": "https://www.edu.gov.mb.ca/k12/cur/cs/framework.pdf"
+      },
+      {
+        "claim": "Manitoba Computer Science framework page (Manitoba Education and Early Childhood Learning).",
+        "url": "https://www.edu.gov.mb.ca/k12/cur/cs/index.html"
+      },
+      {
+        "claim": "Manitoba assessment schedule 2026/27, Grade 12 provincial tests, 20 per cent.",
+        "url": "https://www.edu.gov.mb.ca/k12/assess/index.html"
+      },
+      {
+        "claim": "Manitoba Framework for Learning, Grade 12 Pre-Calculus Mathematics (code 3939, 1 credit).",
+        "url": "https://www.edu.gov.mb.ca/k12/framework/english/math/grade_12/precal.html"
+      },
+      {
+        "claim": "Manitoba news release, permanent daylight saving time, 17 September 2026.",
+        "url": "https://news.gov.mb.ca/news/?item=75397"
+      },
+      {
+        "claim": "The Official Time Amendment Act, S.M. 2023, c. 4: Manitoba Standard Time five hours behind UTC.",
+        "url": "https://web2.gov.mb.ca/laws/statutes/2023/pdf/c00423.pdf"
+      },
+      {
+        "claim": "Manitoba open data: Manitoba_Waterbody_Stocking_Records dataset.",
+        "url": "https://geoportal.gov.mb.ca/datasets/42b7b0930d304ea4a5457cf046507253_0/about"
+      },
+      {
+        "claim": "OpenMB Information and Data Use License (commercial use, attribution statement, non-endorsement).",
+        "url": "https://www.gov.mb.ca/asset_library/en/legal/OpenMB-Information-Data-Use-Licence.pdf"
+      },
+      {
+        "claim": "CEMC contests 2026-27: BCC, CCC, Gauss dates and the through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Winnipeg from 2026 Nov 1.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Manitoba or Winnipeg population figure: StatCan not reachable live; none printed.",
+      "A total number of fish stocked: QUANTITY is approximate and never summed.",
+      "The premier's quotation and the consultation figures in the time release: left out; only the Nov. 1 sentence is used.",
+      "That 20S, 30S and 40S are fixed to Grades 10, 11 and 12: only 40S is tied to Grade 12 by the assessment page; the rest is labelled as a pattern, and schools decide.",
+      "That C5 (Western Canada Grade 12 Math) was written for Manitoba: refused; the page says it was written for BC and Alberta and is mapped to the Manitoba outline.",
+      "Reproducing provincial test items: refused; we point to the department archive.",
+      "Math facts from mb-math-9-12.html: that file is a copy of the Framework for Learning landing page and was not used.",
+      "That our classes grant or count toward a Manitoba credit: refused.",
+      "Any affiliation with Manitoba Education and Early Childhood Learning, a school division, the Manitoba government or CEMC."
+    ]
   }
 }
