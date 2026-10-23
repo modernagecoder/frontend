@@ -323,7 +323,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 134 | online-coding-and-python-classes-in-windsor-ontario (pwo, #7A4625) | city | 3,627 | 2.4% vs online-coding-and-python-classes-in-burlington-ontario | online city page | city open data | dabd6773 |
 | 135 | online-coding-and-python-classes-in-barrie (pyth, #6B6623) | city | 3,390 | 2% vs coding-and-ai-classes-in-ottawa | online city page | city open data | 7ebc4aaa |
 | 136 | online-coding-and-python-classes-in-sherbrooke (ps, #1D661C) | city | 3,811 | 2.1% vs coding-and-ai-classes-in-montreal | online city page | city open data | 7ebf637f |
-| 137 | online-coding-and-python-classes-in-red-deer (prd, #22702F) | city | 3,771 | 1.6% vs ai-and-python-classes-for-teens-in-lethbridge | online city page | city open data | (this commit) |
+| 137 | online-coding-and-python-classes-in-red-deer (prd, #22702F) | city | 3,771 | 1.6% vs ai-and-python-classes-for-teens-in-lethbridge | online city page | city open data | 6c99734f |
+| 138 | online-coding-and-python-classes-in-kamloops (pk, #2D6B56) | city | 3,608 | 1.3% vs coding-and-ai-classes-in-victoria-bc | online city page | city open data | (this commit) |
 
 ## Skipped
 

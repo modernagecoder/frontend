@@ -58690,5 +58690,68 @@
       "CEMC fees: left out (currency-neutral page).",
       "Any affiliation with the City of Red Deer, Red Deer Transit, Alberta Education or CEMC."
     ]
+  },
+  "online-coding-and-python-classes-in-kamloops": {
+    "market": "Kamloops",
+    "bodyClass": "cg-pk",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 22 October 2026 from curriculum.gov.bc.ca pages saved raw: ADST 6-7 minimum three modules, visual programming (Kodu, Scratch); ADST 10-12 list (Computer Studies 10, Web Development 10, Computer Programming 11 and 12, Robotics 11 and 12); Computer Programming 11 and 12 content quotes; Computer Science 11 and 12 under Mathematics, decomposition. BC Gov News 2026AG0013-000209: permanent UTC-7. CEMC 2026-27 BCC and CCC, through a school. Area codes 236/250/257/672/778 from facts-geo.md.",
+    "localProject": "City of Kamloops open data, Tree layer (Open Government Licence - Kamloops), read on 22 October 2026 through 20 paged REST queries (maxRecordCount 1000) and counted with our scripts (python -I): 19,730 rows; SITETYPE TREE 17,207, PLANTING SITE 1,034, REMOVAL SITE 982, STUMP 491, DELETE 16; first-word genus counts MAPL 2,867, PINE 1,719, SPRUCE 1,451, CRABAPPLE SPP 1,286, ASH 1,091; names starting MAPL 3,078 (206 spelled MAPLE); planting year on 4,670 tree rows, 30 of them 1800; 86 rows 2026, 210 rows 2025. Labelled as ours. Lesson family: API paging, filtering and label cleaning.",
+    "requiredMentions": [
+      "REMOVAL SITE",
+      "MAPL, NWY CRMSN KG",
+      "Twenty requests, one file",
+      "30 of those say 1800",
+      "Open Government Licence - Kamloops",
+      "Sun Peaks, Chase, Logan Lake, Merritt and Barriere",
+      "An AI assistant would tell you Kamloops has 19,730 trees",
+      "250, 778, 236, 672 and 257",
+      "One ordinary week for a Kamloops learner",
+      "Kamloops on permanent Pacific time"
+    ],
+    "sources": [
+      {
+        "claim": "City of Kamloops open data portal (Tree layer, Open Government Licence - Kamloops).",
+        "url": "https://maps.kamloops.ca/opendata"
+      },
+      {
+        "claim": "City of Kamloops Tree layer (TreeSite), map service REST endpoint, maxRecordCount 1000.",
+        "url": "https://maps.kamloops.ca/arcgis/rest/services/OpenData/OpenDataParks/MapServer/12"
+      },
+      {
+        "claim": "City of Kamloops ArcGIS item: Tree, with licence text (commercial use, attribution, non-endorsement).",
+        "url": "https://www.arcgis.com/home/item.html?id=e14c04be6c6c4692b70147edb937088c"
+      },
+      {
+        "claim": "BC curriculum, ADST: Grade 6-7 modules and the 10-12 course list.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst"
+      },
+      {
+        "claim": "BC curriculum, Computer Programming 11 and 12 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/11/computer-programming"
+      },
+      {
+        "claim": "BC curriculum, Mathematics: Computer Science 11 and 12.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/computer-science"
+      },
+      {
+        "claim": "BC Gov News 2026AG0013-000209: permanent daylight time, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC contests 2026-27: BCC and CCC dates, through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Kamloops population figure: StatCan not reachable live, nothing printed.",
+      "That Kamloops has 19,730 trees: refused; only 17,207 rows are trees, and the inventory covers city-tracked trees only.",
+      "A combined cleaned maple-plus-crabapple total or any summed genus total: not printed.",
+      "Planting-year trends: refused as a claim about planting; the year field is blank on most rows and has 1800 placeholders.",
+      "Tree risk, defect, inspector and address fields: not pulled or used.",
+      "A published fetch script: not printed, because Python urllib requests to the server returned HTTP 500 in our test; the paging method is described instead.",
+      "That our classes earn BC credits: refused.",
+      "Any affiliation with the City of Kamloops, the BC ministry or CEMC."
+    ]
   }
 }
