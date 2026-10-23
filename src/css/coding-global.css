@@ -1844,3 +1844,4 @@
 .cg-root.cg-man  { --cg-accent: #8A4C46; --cg-accent-soft: rgba(138,76,70,.10); }   /* Manitoba: a muted prairie-brick red, #8A4C46, allocated to row 92; contrast 6.19 on the paper #FBF8F2, 5.82 on #F5F1E8 and 5.32 on #EDE7DA, so it clears 4.5 on all three paper tints */
 .cg-root.cg-sas  { --cg-accent: #4C3C1C; --cg-accent-soft: rgba(76,60,28,.10); }   /* Saskatchewan: a dark wheat-stubble brown, #4C3C1C, allocated to row 93; contrast 10.05 on the paper #FBF8F2, 9.45 on #F5F1E8 and 8.65 on #EDE7DA */
 .cg-root.cg-ns  { --cg-accent: #3D5717; --cg-accent-soft: rgba(61,87,23,.10); }   /* Nova Scotia: a deep spruce-moss green, #3D5717, allocated to row 94; contrast 7.70 on the paper #FBF8F2, 7.24 on #F5F1E8 and 6.62 on #EDE7DA */
+.cg-root.cg-nb  { --cg-accent: #274C19; --cg-accent-soft: rgba(39,76,25,.10); }   /* New Brunswick: a deep balsam-fir green, #274C19, allocated to row 95; contrast 9.28 on the paper #FBF8F2, 8.73 on #F5F1E8 and 7.99 on #EDE7DA */

@@ -57101,5 +57101,85 @@
       "That our classes grant or count toward a Nova Scotia credit: refused.",
       "Any affiliation with Education and Early Childhood Development, a regional centre for education, the Nova Scotia Virtual School, the Province of Nova Scotia or CEMC."
     ]
+  },
+  "coding-classes-in-new-brunswick": {
+    "market": "New Brunswick",
+    "bodyClass": "cg-nb",
+    "pageType": "city",
+    "curriculumAuthority": "New Brunswick, read 22 October 2026 from curriculum.nbed.ca and saved raw: five program blocks; Middle Block Technology (coding, computational thinking, Grades 6 to 8 updates on privacy, cybersecurity, algorithms and AI); Technology 9 (algorithms in coding, encryption, capstone); Computer Science 110 (Grade 11, decomposition skill descriptor, Virtual Learning Centre); Computer Science 120 (Grade 12, OOP, recursion, data science, machine learning, AI, gaming, own software); Cybersecurity 120 (entirely defensive); Digital and Information Technology subcluster list; High School Mathematics (12 credit hours, Geometry, Measurement and Finance 10 compulsory, options to Calculus 120). Charter s.16(2) official bilingualism; Fredericton seat (s.68); America/Moncton tzdb 2026e; area codes 428 and 506. CEMC dates and languages via facts-schools-contests.md. www2.gnb.ca and related hosts 403, not used.",
+    "localProject": "Natural Resources Canada, GeoBase Canadian Geographical Names, New Brunswick CSV (Open Government Licence - Canada per the NRCan metadata), downloaded 22 October 2026 and analysed with our script name_pairs.py (python -I): 11,663 names, 11,469 features, 194 features with two official names, 166 of them parks and protected areas, 189 pairs with Language Undetermined on both rows; our French-looking rule settles 158 pairs and leaves 36 (Grand Falls / Grand-Sault, New Brunswick / Nouveau-Brunswick); 61 Protected Natural Area pairs dated 21 March 2003. Labelled as ours. Lesson family: grouping by a shared ID and inferring a missing label with string tests, then measuring the rule's failures.",
+    "requiredMentions": [
+      "Toponymic Feature ID",
+      "Grand Falls and Grand-Sault",
+      "Madawaska River and Rivière Madawaska",
+      "Natural Resources Canada does not endorse this page",
+      "five program blocks: Early Learning and Childcare, Primary, Elementary, Middle, and High",
+      "critically examine the role of algorithms, artificial intelligence, digital data, and online environments",
+      "object-oriented programming, recursion, data science, machine learning, artificial intelligence, and gaming",
+      "Required: 12 credit hours from Mathematics",
+      "equality of status",
+      "506 and 428"
+    ],
+    "sources": [
+      {
+        "claim": "New Brunswick curriculum framework: program blocks.",
+        "url": "https://curriculum.nbed.ca/curriculum-framework/how-we-teach-program-blocks/"
+      },
+      {
+        "claim": "Middle Block Technology (Grades 6 to 8): coding, computational thinking, algorithms and AI.",
+        "url": "https://curriculum.nbed.ca/learning-areas/middle-block/technology/"
+      },
+      {
+        "claim": "Technology 9.",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/technology-9/"
+      },
+      {
+        "claim": "Computer Science 110 (Grade 11).",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/"
+      },
+      {
+        "claim": "Computer Science 120 (Grade 12).",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-120/"
+      },
+      {
+        "claim": "Cybersecurity 120 (entirely defensive).",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/cybersecurity-120/"
+      },
+      {
+        "claim": "High School Block Mathematics: 12 credit hours.",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/mathematics/"
+      },
+      {
+        "claim": "Canadian Charter of Rights and Freedoms s.16(2): New Brunswick official languages.",
+        "url": "https://laws-lois.justice.gc.ca/eng/const/page-12.html"
+      },
+      {
+        "claim": "NRCan GeoBase Canadian Geographical Names, New Brunswick CSV and metadata.",
+        "url": "https://ftp.cartes.canada.ca/pub/nrcan_rncan/vector/geobase_cgn_toponyme/prov_csv_eng/cgn_nb_csv_eng.zip"
+      },
+      {
+        "claim": "Open Government Licence - Canada (read from the Internet Archive copy of 13 October 2026; the live host rejects requests).",
+        "url": "https://open.canada.ca/en/open-government-licence-canada"
+      },
+      {
+        "claim": "CEMC contests 2026-27: languages and dates; through a school.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Moncton.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any New Brunswick, Moncton, Saint John or Fredericton population figure: none printed.",
+      "Anything from www2.gnb.ca, www.gnb.ca, geonb.snb.ca or www.snb.ca: 403 today, not retried, not used (including the department name page and the provincial open data portal).",
+      "That one name in each pair is English and the other French as recorded fact: the file does not say; the page presents our rule as a guess and counts its failures.",
+      "Indigenous-language name labels in the CGN file: not made the subject of the lesson.",
+      "Names of religious, medical, military or justice sites from the pairs: not used as examples.",
+      "The Cybersecurity 120 wording about criminal activities: not reproduced.",
+      "Who may attend French-language or English-language schools: no source saved, left out.",
+      "That our classes grant or count toward New Brunswick credit hours: refused.",
+      "The name of the New Brunswick education department: its gnb.ca page was blocked, so the page says only the education department. Any affiliation with the New Brunswick government, a school district, the Virtual Learning Centre, Natural Resources Canada or CEMC."
+    ]
   }
 }
