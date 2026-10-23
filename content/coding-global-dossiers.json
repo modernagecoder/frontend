@@ -59278,5 +59278,72 @@
       "Recommending Claude or Claude Code to anyone under 18: refused.",
       "Any affiliation with the City of Nanaimo, the BC ministry or CEMC."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-brantford": {
+    "market": "Brantford",
+    "bodyClass": "cg-vaab",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario curriculum service, read 22 October 2026: Grade 7 math C3.1, Grade 6 science A2.1, MTH1W C2.1, ICD2O description; ontario.ca diploma rules (STEM group includes computer studies); EQAO Grades 3 and 6 window; CEMC CCC 2027 format and Senior question ladder, BCC dates, school entry; CCC rules on AI; Anthropic, OpenAI and GitHub age rules; Anthropic, Building effective agents (tool appendix). Brantford area codes and Eastern offsets from facts-geo.md.",
+    "localProject": "City of Brantford Play Equipment Areas (Open Data License - Brantford 1.0), hub CSV downloaded 23 October 2026, 221 rows: our play_key_check.py (python -I) shows a dictionary keyed on FacilityID holding 175 entries because 47 rows have a blank ID, so installs read 2 for 2017 (22 in the file) and 1 for 2018 (17); 37 of the lost rows date from 2017 or 2018; 1990 appears on 66 rows; Subtype, Status and Condition codes are undefined; data last edited August 2018. Labelled as ours. Lesson family: keys and indexes.",
+    "requiredMentions": [
+      "47 rows with a blank FacilityID",
+      "entries in the draft index 175",
+      "2017 draft 2 checked 22",
+      "37 of the 47 blank-ID rows",
+      "Open Data License - Brantford",
+      "put themselves in the model",
+      "519, 226, 548 and 382",
+      "Check 1: size of the index",
+      "Paris, Hamilton and Cambridge",
+      "SpringG"
+    ],
+    "sources": [
+      {
+        "claim": "City of Brantford Play Equipment Areas item and layer.",
+        "url": "https://www.arcgis.com/home/item.html?id=1bb46a36f0d54673b9f39c1151ae802c"
+      },
+      {
+        "claim": "City of Brantford Open Data License, version 1.0.",
+        "url": "https://brantfordopendata-brantford.hub.arcgis.com/pages/c3382064290946129d12fe7de7adaf64"
+      },
+      {
+        "claim": "City of Brantford open data page pointing to the portal licence.",
+        "url": "https://www.brantford.ca/your-government/open-data/"
+      },
+      {
+        "claim": "Ontario curriculum: Grade 7 math coding, Grade 6 science coding, ICD2O.",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "Ontario diploma requirements: STEM group.",
+        "url": "https://www.ontario.ca/page/high-school-graduation-requirements"
+      },
+      {
+        "claim": "EQAO 2026-27 windows.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC CCC 2027.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "Anthropic consumer terms: 18+.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "Anthropic, Building effective agents: prompt engineering your tools.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      }
+    ],
+    "rejectedClaims": [
+      "Why 47 rows have no FacilityID: not stated by the City, not guessed beyond a marked possibility.",
+      "That 1990 is a placeholder year: flagged as a possibility only.",
+      "Meanings of Subtype codes, Status and Condition numbers: no code list in the layer, so none given.",
+      "That ICD2O meets the technological education credit: not claimed; only computer studies in the STEM group is stated.",
+      "Any Brantford population: not used.",
+      "That our classes earn Ontario credits: refused.",
+      "Recommending Claude or Claude Code to anyone under 18: refused.",
+      "Any affiliation with the City of Brantford, the ministry, EQAO or CEMC."
+    ]
   }
 }

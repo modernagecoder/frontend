@@ -332,7 +332,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 143 | vibe-coding-and-ai-agents-classes-in-north-vancouver (vaan, #7A5F42) | city | 4,007 | 2.6% vs vibe-coding-and-ai-agents-classes-in-richmond-bc | vibe city page | human-checked AI work | bd7282e5 |
 | 144 | vibe-coding-and-ai-agents-classes-in-kingston-ontario (vaak, #205C1E) | city | 3,918 | 1.9% vs vibe-coding-and-ai-agents-classes-in-milton-ontario | vibe city page | human-checked AI work | f55fd422 |
 | 145 | vibe-coding-and-ai-agents-classes-in-longueuil (vaal, #2E6642) | city | 3,832 | 1.9% vs vibe-coding-and-ai-agents-classes-in-richmond-bc | vibe city page | human-checked AI work | 5e3e8bf1 |
-| 146 | vibe-coding-and-ai-agents-classes-in-nanaimo (vib, #182E66) | city | 3,924 | 2.1% vs vibe-coding-and-ai-agents-classes-in-kingston-ontario | vibe city page | human-checked AI work | (this commit) |
+| 146 | vibe-coding-and-ai-agents-classes-in-nanaimo (vib, #182E66) | city | 3,924 | 2.1% vs vibe-coding-and-ai-agents-classes-in-kingston-ontario | vibe city page | human-checked AI work | e1ed962e |
+| 147 | vibe-coding-and-ai-agents-classes-in-brantford (vaab, #685A9E) | city | 3,679 | 2.3% vs vibe-coding-and-ai-agents-classes-in-north-vancouver | vibe city page | human-checked AI work | (this commit) |
 
 ## Skipped
 
