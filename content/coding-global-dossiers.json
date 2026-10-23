@@ -57424,5 +57424,101 @@
       "Any affiliation with CEMC, the BC education ministry, the City of Surrey or any BC school district.",
       "CEMC contest fees: left out of the copy (currency-neutral page)."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-gatineau": {
+    "market": "Gatineau",
+    "bodyClass": "cg-aptg",
+    "pageType": "city",
+    "curriculumAuthority": "quebec.ca QEP secondary page (Secondary I to Secondary V); QEP math cycle two PDF (CST, TS, Science options; all lead to pre-university); quebec.ca CEGEP overview (two-year pre-university, three-year technical, R score); QEP secondary cross-curricular competencies (problem solving quote); Ministère de l'Éducation Digital Competency Framework 2026 (short phrases: computer science and AI, programming element, machine learning theme); Charter of the French language s.1; CEMC (CCC in English and French, 2027 date, school-based entry; BCC English only and 2026 dates); CCC Online Grader rules; OpenAI Terms of Use (January 1, 2026); Anthropic Consumer Terms (Oct 8, 2025); facts-geo.md for 468/819/873 and Eastern time.",
+    "localProject": "Ville de Gatineau, Débits de circulation, on Données Québec (Attribution (CC-BY 4.0)), 7,384 rows from 2016 to 2023 downloaded 22 October 2026; our gatineau_anomalies.py (python -I): 25 rows with heavy-vehicle share above 100 (highest 324.6), 644 zero totals, 1,916 rows without a sector including all of 2023, city-wide quartile fence 14,100 flags 624 rows, 1,864 two-row pairs with 1,762 identical and 16 lopsided by more than three times; most lopsided 243 against 24,300; Aylmer / Vanier 2018 at 127,400 beside 12,700, the file maximum, next largest 41,400. Labelled as ours. Lesson family: anomaly detection, validity rules, global versus paired outlier tests.",
+    "requiredMentions": [
+      "Débits de circulation",
+      "PCENT_V_LOURD",
+      "Aylmer / Vanier",
+      "Fournier &amp; Lac Leamy",
+      "the highest at 324.6",
+      "Of 1,864 pairs, 1,762 match exactly",
+      "including every 2023 row",
+      "Masson-Angers",
+      "the 819 area code and its overlays 468 and 873",
+      "comprises programs of study for students from Secondary I to Secondary V",
+      "also incorporates computer science and concepts related to AI"
+    ],
+    "sources": [
+      {
+        "claim": "quebec.ca: Québec Education Program, secondary, Secondary I to Secondary V.",
+        "url": "https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/secondary"
+      },
+      {
+        "claim": "QEP Secondary Cycle Two mathematics: three options; all allow pre-university entry.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/programmes/PFEQ-mathematique-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "quebec.ca CEGEP overview: pre-university two years, technical three years, R score.",
+        "url": "https://www.quebec.ca/en/education/cegeps-private-colleges/studying/overview"
+      },
+      {
+        "claim": "QEP Secondary Cycle Two cross-curricular competencies: problem solving quote.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/PFEQ-competences-transversales-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "Ministère de l'Éducation, Digital Competency Framework 2026: computer science and AI, programming element, themes.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/Numerique/Cadre-reference-competence-num-AN.pdf"
+      },
+      {
+        "claim": "Charter of the French language s.1.",
+        "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-11"
+      },
+      {
+        "claim": "CEMC contests: CCC in English and French; BCC English only.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC CCC page: 2027 date.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC how contests work: participation through a school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "CCC Online Grader rules: other internet use and generative AI forbidden.",
+        "url": "https://cccgrader.com/rules.pdf"
+      },
+      {
+        "claim": "OpenAI Terms of Use: parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/row-terms-of-use/"
+      },
+      {
+        "claim": "Anthropic Consumer Terms: users must be at least 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "Données Québec: Ville de Gatineau, Débits de circulation, CC BY 4.0.",
+        "url": "https://www.donneesquebec.ca/recherche/dataset/debits-de-circulation"
+      },
+      {
+        "claim": "Données Québec licence page: CC BY allows commercial use.",
+        "url": "https://www.donneesquebec.ca/licence/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about Gatineau schools, school bodies or their results: none made, by the row instruction.",
+      "Any Gatineau population or language statistics: StatCan not reachable live, so none printed.",
+      "That Quebec has a compulsory secondary computer science course: not claimed; none appears in the documents read.",
+      "That the Digital Competency Framework is a course or is taught the same way in every school: refused; it is a framework.",
+      "Long quotations from the Digital Competency Framework: avoided; its notice limits reproduction to non-commercial use, so only short phrases are quoted.",
+      "That the 127,400 and 243 counts are errors: not asserted; posed as questions for the data owner.",
+      "That paired rows repeat one approach total: posed as a question, not stated as fact.",
+      "Naming a mid-block count location that includes a building number: avoided.",
+      "That our courses earn Quebec credits: refused; we do not grant provincial credits.",
+      "Recommending Claude or any 18+ tool to a teenager: refused under Anthropic's terms.",
+      "Any affiliation with CEMC, the Ministère de l'Éducation, the Ville de Gatineau or Données Québec.",
+      "CEMC contest fees: left out of the copy (currency-neutral page)."
+    ]
   }
 }
