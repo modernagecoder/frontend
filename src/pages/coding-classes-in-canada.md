@@ -700,6 +700,22 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Vibe coding and AI agents classes in Kingston](/vibe-coding-and-ai-agents-classes-in-kingston-ontario)
+- [Vibe coding and AI agents classes in North Vancouver](/vibe-coding-and-ai-agents-classes-in-north-vancouver)
+- [Vibe coding and AI agents classes in Milton](/vibe-coding-and-ai-agents-classes-in-milton-ontario)
+- [Vibe coding and AI agents classes in Richmond](/vibe-coding-and-ai-agents-classes-in-richmond-bc)
+- [Online coding and Python classes in Saint John](/online-coding-and-python-classes-in-saint-john-new-brunswick)
+- [Online coding and Python classes in Thunder Bay](/online-coding-and-python-classes-in-thunder-bay)
+- [Online coding and Python classes in Kamloops](/online-coding-and-python-classes-in-kamloops)
+- [Online coding and Python classes in Red Deer](/online-coding-and-python-classes-in-red-deer)
+- [Online coding and Python classes in Sherbrooke](/online-coding-and-python-classes-in-sherbrooke)
+- [Online coding and Python classes in Barrie](/online-coding-and-python-classes-in-barrie)
+- [Online coding and Python classes in Windsor](/online-coding-and-python-classes-in-windsor-ontario)
+- [Online coding and Python classes in Burlington](/online-coding-and-python-classes-in-burlington-ontario)
+- [Online coding and Python classes in Coquitlam](/online-coding-and-python-classes-in-coquitlam)
+- [Online coding and Python classes in Hamilton](/online-coding-and-python-classes-in-hamilton-ontario)
+- [Online coding and Python classes in Vaughan](/online-coding-and-python-classes-in-vaughan)
+- [Coding and AI classes in St Johns](/coding-and-ai-classes-in-st-johns-newfoundland)
 - [Coding and AI classes in Victoria](/coding-and-ai-classes-in-victoria-bc)
 - [Coding and AI classes in Regina](/coding-and-ai-classes-in-regina)
 - [Coding and AI classes in Saskatoon](/coding-and-ai-classes-in-saskatoon)

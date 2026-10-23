@@ -26709,6 +26709,18 @@
   to = "/src/pages/coding-and-ai-classes-in-victoria-bc.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-st-johns-newfoundland"
+  to = "/src/pages/coding-and-ai-classes-in-st-johns-newfoundland.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-st-johns-newfoundland.md"
+  to = "/src/pages/coding-and-ai-classes-in-st-johns-newfoundland.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

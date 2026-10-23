@@ -58095,5 +58095,65 @@
       "Names of Victoria schools or private people: not used (the school district is referred to generically).",
       "Any affiliation with the City of Victoria, the BC government, the CMS, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-st-johns-newfoundland": {
+    "market": "St. John's",
+    "bodyClass": "cg-asjn",
+    "pageType": "city",
+    "curriculumAuthority": "Newfoundland and Labrador Program of Studies 2025-2026 (raw copies saved by the NL writer, re-grepped 23 October 2026): Computer Science 8 (four 26-hour intermediate modules; block-based programs; LEDs and motors), Computer Science 1204, Communications Technology 3104 (units including Designing a Mobile Application), 36 credits to graduate, CDLI, Grades 3 and 6 PRMA, Advanced math for programs that require calculus. CEMC CCC, CCO and IOI facts and the through-a-school rule. America/St_Johns offsets and the 709/879 area codes from facts-geo.md.",
+    "localProject": "Environment and Climate Change Canada, MSC GeoMet climate-daily collection, ST. JOHN'S INTL A (climate ID 8403505), 2025 daily rows (ECCC Data Services End-use Licence v2.1.1), CSV downloaded with curl on 22 October 2026 and counted with our script weather_page.py (python -I): measurable precipitation 216 days, trace 53, dry 96; maximum temperature missing 5 days; gusts of 60 km/h or more on 146 of 341 days with a reading. National data about the city's airport station (the City publishes no open data licence). Labelled as ours. Lesson family: flags that change a value's meaning, and shrinking denominators.",
+    "requiredMentions": [
+      "climate ID 8403505",
+      "invent five freezing afternoons",
+      "53 of those zeros become days when something did fall",
+      "146 of 341 days with a gust reading",
+      "measurable precipitation on 216 days and a trace on 53 more",
+      "the intermediate program has four compulsory modules of 26 hours",
+      "the student is building the app, not learning what a loop is",
+      "the earlier that change happens the less painful it is",
+      "the half hours cancel",
+      "709, with 879 as an overlay"
+    ],
+    "sources": [
+      {
+        "claim": "Newfoundland and Labrador Program of Studies: Technology Education course descriptions.",
+        "url": "https://www.gov.nl.ca/education/k12/curriculum/"
+      },
+      {
+        "claim": "ECCC MSC GeoMet: climate-daily collection (Climate - Daily Observations).",
+        "url": "https://api.weather.gc.ca/collections/climate-daily"
+      },
+      {
+        "claim": "ECCC Data Services End-use Licence v2.1.1: commercial use, attribution.",
+        "url": "https://eccc-msc.github.io/open-data/licence/readme_en/"
+      },
+      {
+        "claim": "ECCC climate glossary: definition of Trace (under 0.2 mm).",
+        "url": "https://climate.weather.gc.ca/glossary_e.html"
+      },
+      {
+        "claim": "CEMC Canadian Computing Competition: 2027 date, languages, CCO invitations and C++ rule.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC: Team Canada IOI 2026 result.",
+        "url": "https://cemc.uwaterloo.ca/team-canada-brought-back-four-medals-ioi-2026"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/St_Johns offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "That this is the City of St. John's own open data: refused; the City publishes no open data licence, so national ECCC data for the airport station is used and labelled so.",
+      "The climate.weather.gc.ca bulk CSV: not used, because its Data Licence Agreement limits redistribution; the GeoMet copy under the End-use Licence is used instead.",
+      "That it rained on 216 days in St. John's: refused; precipitation includes snow and the 53 trace days are counted separately.",
+      "The strongest gust of 2025 and any storm framing: left out (no disaster content).",
+      "Any St. John's population figure: StatCan was not reachable live.",
+      "That our classes earn or count toward a Newfoundland and Labrador credit: refused; we do not grant provincial credits.",
+      "CEMC fees and the names of IOI team members: left out on purpose.",
+      "Names of St. John's schools or private people: not used.",
+      "Any affiliation with ECCC, the City of St. John's, the Newfoundland and Labrador education department, CDLI, CEMC or the University of Waterloo."
+    ]
   }
 }
