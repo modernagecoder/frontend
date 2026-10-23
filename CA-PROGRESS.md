@@ -335,7 +335,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 146 | vibe-coding-and-ai-agents-classes-in-nanaimo (vib, #182E66) | city | 3,924 | 2.1% vs vibe-coding-and-ai-agents-classes-in-kingston-ontario | vibe city page | human-checked AI work | e1ed962e |
 | 147 | vibe-coding-and-ai-agents-classes-in-brantford (vaab, #685A9E) | city | 3,679 | 2.3% vs vibe-coding-and-ai-agents-classes-in-north-vancouver | vibe city page | human-checked AI work | 7d78a94f |
 | 148 | vibe-coding-and-ai-agents-classes-in-peterborough-ontario (vaap, #8A5358) | city | 3,737 | 2.4% vs vibe-coding-and-ai-agents-classes-in-north-vancouver | vibe city page | human-checked AI work | 86ccdb7a |
-| 149 | vibe-coding-and-ai-agents-classes-in-greater-sudbury (vaag, #61433A) | city | 3,833 | 1.7% vs vibe-coding-and-ai-agents-classes-in-longueuil | vibe city page | human-checked AI work | (this commit) |
+| 149 | vibe-coding-and-ai-agents-classes-in-greater-sudbury (vaag, #61433A) | city | 3,833 | 1.7% vs vibe-coding-and-ai-agents-classes-in-longueuil | vibe city page | human-checked AI work | cb05bd93 |
+| 167 | math-tutor-waterloo-ontario (mtwo, #9E4026) | math-city | 5,011 | 2.1% vs coding-and-ai-classes-in-toronto | math city page | math on city data | (this commit) |
 
 ## Skipped
 

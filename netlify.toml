@@ -26961,6 +26961,18 @@
   to = "/src/pages/vibe-coding-and-ai-agents-classes-in-greater-sudbury.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/math-tutor-waterloo-ontario"
+  to = "/src/pages/math-tutor-waterloo-ontario.html"
+  status = 200
+
+[[redirects]]
+  from = "/math-tutor-waterloo-ontario.md"
+  to = "/src/pages/math-tutor-waterloo-ontario.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

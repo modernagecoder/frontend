@@ -59473,5 +59473,74 @@
       "Recommending Claude or Claude Code to anyone under 18: refused.",
       "Any affiliation with the City of Greater Sudbury, the ministry or CEMC."
     ]
+  },
+  "math-tutor-waterloo-ontario": {
+    "market": "Waterloo",
+    "bodyClass": "cg-mtwo",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: MTH1W (2021, de-streamed) course description; MPM2D, MCR3U, MCF3M, MHF4U, MCV4U, MDM4U records and prerequisites (MCR3U after Grade 10 academic; MHF4U after MCR3U or a college technology course; MHF4U before or with MCV4U); EQAO 2026-27 windows (Grades 3 and 6 4 May to 8 June 2027; Grade 9 12 January to 5 February 2027; 54 questions, adaptive, counts in the course mark); OSSD 3 math credits for 2024+ starters; University of Waterloo CS requirements, scholarship contest note and AIF (15 February 2027); CEMC 2026-27 dates and formats (Gauss, PCF, FGH, CIMC/CSMC with the 22 October 2026 ordering deadline, Euclid, CTMC) and the through-a-school rule; SW Ontario area codes and Eastern time offsets from facts-geo.md (IANA tzdb 2026e).",
+    "localProject": "City of Waterloo open data, Water Distribution Mains (Waterloo Open Data User Licence, commercial use allowed), layer queried with curl on 22 October 2026 in nine pages and analysed with our scripts count_mains.py and worked.py (python -I): 8,118 rows; rows, km of LENGTH_M and modelled cylinder volume by diameter (150 mm 3,207 rows, 190.18 km, 3,361 cubic metres; 300 mm 2,008, 122.03, 8,626; 600 mm 94, 20.75, 5,868); totals 480.55 km and 26,180 cubic metres (our sums); 150 mm 39.6% of length, 12.8% of volume; OBJECTID 1015 diameter 999 excluded; 47 rows dated 1850, 10 PVC; Shape__Length in degrees, unused; owners and materials counted. Labelled as ours. Lesson family: cylinder volume as a model, scale factors, a power function and its inverse.",
+    "requiredMentions": [
+      "Water Distribution Mains",
+      "480.55 km of pipe",
+      "26,180 cubic metres",
+      "OBJECTID 1015",
+      "47 rows carry an install year of 1850",
+      "39.6 percent of the length",
+      "roughly 357 mm",
+      "7,069 litres",
+      "Shape__Length column is measured in degrees",
+      "1.7671 cubic metres"
+    ],
+    "sources": [
+      {
+        "claim": "City of Waterloo open data: Water Distribution Mains dataset page (layer description and data caveat).",
+        "url": "https://data.waterloo.ca/datasets/cd14a354eaaa4fccb83a5269173879ac_0"
+      },
+      {
+        "claim": "City of Waterloo: Waterloo Open Data User Licence (commercial use, credit text, no implied endorsement).",
+        "url": "https://data.waterloo.ca/pages/open-data-licence"
+      },
+      {
+        "claim": "Ontario curriculum content API: MTH1W and senior math course records and prerequisites.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code%5Bin%5D=MCR3U,MHF4U,MCV4U,MDM4U,MPM2D,MTH1W,MCF3M,MAP4C,MEL4E&depth=0"
+      },
+      {
+        "claim": "EQAO: 2026-27 windows; Grade 9 format and the course-mark rule.",
+        "url": "https://www.eqao.com/the-assessments/grade-9-math/"
+      },
+      {
+        "claim": "Ontario: high school graduation requirements (math credits).",
+        "url": "https://www.ontario.ca/page/high-school-graduation-requirements"
+      },
+      {
+        "claim": "University of Waterloo: Computer Science admission requirements and the contest scholarship note.",
+        "url": "https://uwaterloo.ca/future-students/programs/computer-science"
+      },
+      {
+        "claim": "CEMC: contest dates and ordering deadlines for 2026/27.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC: how contests work (through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Waterloo or Kitchener-Cambridge-Waterloo population figure: StatCan was not reachable live.",
+      "That the modelled 26,180 cubic metres is the water actually in the system: refused; it is a full-cylinder model using nominal diameters.",
+      "Why 47 rows carry the year 1850: no source explains it, so the page only says the column needs checking.",
+      "That DIAMETER is in millimetres as a stated fact: the file gives no unit; the page labels it an assumption.",
+      "Any figure about water main breaks, water quality or health: deliberately left out.",
+      "One material label in the file with a health association: counted but not printed.",
+      "That our classes earn an Ontario credit or help admission to the University of Waterloo: refused.",
+      "CEMC fees and the parent page's typed hourly tutor rates: left out (currency-neutral page).",
+      "Names of Waterloo schools, school board results or private people: not used.",
+      "Any affiliation with the City of Waterloo, the Region of Waterloo, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }

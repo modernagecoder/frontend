@@ -1212,6 +1212,7 @@ const MARKETS = [
   ['vibe-coding-and-ai-agents-classes-in-brantford', 'Brantford'],
   ['vibe-coding-and-ai-agents-classes-in-peterborough-ontario', 'Peterborough, Ontario'],
   ['vibe-coding-and-ai-agents-classes-in-greater-sudbury', 'Greater Sudbury'],
+  ['math-tutor-waterloo-ontario', 'Math tutor in Waterloo'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);
