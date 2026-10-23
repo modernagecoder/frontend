@@ -55501,5 +55501,72 @@
       "CEMC fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the City of Calgary, Alberta Education, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-edmonton": {
+    "market": "Edmonton",
+    "bodyClass": "cg-aie",
+    "pageType": "city",
+    "curriculumAuthority": "Alberta, read 22 October 2026: 2026-2027 Grade 6 Parent Guide (Grade 6 Science reporting categories including Computational Thinking, 50 questions, expectation to write, discourages test rehearsal and coaching); 2026-2027 General Information Bulletin PAT schedules (Grade 6 Science 11 June 2027, Grade 6 Mathematics 14 and 16 June 2027, Grade 9 Mathematics and Science January or June 2027); alberta.ca PAT page (grades 6 and 9, digital); curriculum history (draft 7 to 9 with AI and computer science, mandatory September 2027; Grades 4 to 6 science 2024/2025). Legislative Assembly address in Edmonton (facts-geo.md). CEMC 2026-27: CCC Senior, CCO invitation and C++ rule, PCF, FGH and Euclid dates, through-a-school rule. Edmonton area codes and time offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e; Alberta Official Time Act; Manitoba news release).",
+    "localProject": "City of Edmonton open data, Pet Licenses by Neighbourhood (Open Government Licence - Edmonton), CSV downloaded 22 October 2026 and counted with our script edmonton_pets.py (python -I): 85,368 rows; Dog 56,140, Cat 28,917, Hens 143, Pigeons 97, Bees 69, blank 2; YEAR 2024 1,923, 2025 24,131, 2026 59,281 (to October); 33 rows before 2024; top dog breeds Labrador Retriever 5,015, German Shepherd 3,444, UNKNOWN 2,822; 336 named neighbourhoods. The city states the file is a snapshot and cannot show trends. Labelled as ours. Lesson family: reading the description before the chart.",
+    "requiredMentions": [
+      "not possible to use this dataset to see trends in pet licensing over time",
+      "LABRADOR RETRIEVER 5,015",
+      "The file also holds 143 hens and 69 bees",
+      "Open Government Licence - City of Edmonton",
+      "YEAR 2026 (to October)",
+      "Rows dated October 2026",
+      "Value of COUNT on every row",
+      "Friday 11 June 2027, 9 to 10 am",
+      "requires C++ at the CCO",
+      "Edmonton numbers use 780"
+    ],
+    "sources": [
+      {
+        "claim": "Alberta 2026-2027 Grade 6 Parent Guide (science reporting categories, expectation to write, coaching statement).",
+        "url": "https://www.alberta.ca/system/files/edc-grade-6-parent-guide-2026-27.pdf"
+      },
+      {
+        "claim": "Alberta 2026-2027 General Information Bulletin, PAT administration schedules.",
+        "url": "https://www.alberta.ca/system/files/ecc-pat-administration-schedules.pdf"
+      },
+      {
+        "claim": "alberta.ca: Provincial Achievement Tests (grades 6 and 9, digital).",
+        "url": "https://www.alberta.ca/provincial-achievement-tests"
+      },
+      {
+        "claim": "alberta.ca: how the curriculum got here (draft 7 to 9 with AI and computer science; September 2027).",
+        "url": "https://www.alberta.ca/curriculum-how-we-got-here"
+      },
+      {
+        "claim": "CEMC: CCC levels and languages, CCO invitation and C++ rule, 2026-27 contest dates, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "City of Edmonton open data: Pet Licenses by Neighbourhood dataset page and description.",
+        "url": "https://data.edmonton.ca/Community-Services/Pet-Licenses-by-Neighbourhood/5squ-mg4w"
+      },
+      {
+        "claim": "City of Edmonton: Open Government Licence - Edmonton (attribution, commercial use, non-endorsement).",
+        "url": "https://data.edmonton.ca/stories/s/Open-Government-Licence-Edmonton/msh8-if28/"
+      },
+      {
+        "claim": "Manitoba news release on permanent UTC-5 from 1 November 2026.",
+        "url": "https://news.gov.mb.ca/news/?item=75397"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Edmonton or Alberta population figure: StatCan was not reachable live, so no population is printed.",
+      "That pet ownership or licensing grew from 2024 to 2026: refused; the city says the file cannot show trends.",
+      "The number of pets in Edmonton: refused; the file holds current licences only.",
+      "Pet gender, spay or neuter status and neighbourhood names: not used on purpose.",
+      "That Alberta tests coding directly in Grade 6: not claimed; Computational Thinking is a science reporting category.",
+      "That we prepare students by rehearsing PAT formats: refused; Alberta discourages test rehearsal and coaching.",
+      "That our classes earn Alberta credits, PAT results or diploma marks: refused.",
+      "That we run robotics hardware classes: refused; we teach the programming side only.",
+      "Named Edmonton employers or AI institutes: not fetched raw for this page, so not used.",
+      "Names of Edmonton schools, school boards or private people: not used.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the City of Edmonton, Alberta Education and Childcare, CEMC or the University of Waterloo."
+    ]
   }
 }
