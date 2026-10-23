@@ -55368,5 +55368,76 @@
       "CEMC fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the City of Ottawa, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-montreal": {
+    "market": "Montreal",
+    "bodyClass": "cg-amom",
+    "pageType": "city",
+    "curriculumAuthority": "Quebec, read 22 October 2026: quebec.ca QEP secondary page (Secondary I to Secondary V; list of secondary programs with no separate computer science subject); QEP Mathematics Secondary Cycle Two PDF (CST, TS and S options, all lead to pre-university); quebec.ca CEGEP overview (pre-university two years, technical three years, R score). Charter of the French language s.1 (Internet Archive copy of legisquebec). CEMC 2026-27: BCC English only and dates; CCC English and French, 17 February 2027; Euclid and CSMC eligibility naming CEGEP students; through-a-school rule. Montreal area codes and Eastern offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e).",
+    "localProject": "Ville de Montréal open data, Compteurs cyclistes permanents (CC BY 4.0), 2025 Eco-Compteur file downloaded 22 October 2026 and analysed with our script montreal_counters.py (python -I): 1,404,316 rows, 45 counters, 26 complete; 9 March 2025 has 92 rows at 25 complete counters; monthly passages at complete counters from 90,564 (February) to 1,459,622 (September); 482,308 zero rows; busiest complete counter REV St-Denis/Duluth dir nord 929,477; peak quarter-hour 434. Labelled as ours. Lesson family: grouping a time series by month, completeness checks and the daylight-saving gap.",
+    "requiredMentions": [
+      "1,459,622",
+      "REV St-Denis/Duluth dir nord",
+      "nb_passages",
+      "one keeps 96 rows with the vanished hour stored as blanks",
+      "26 counters with a complete year",
+      "Island numbers with 514, 438 or 263",
+      "A passage is one bike detected passing one counter",
+      "no separate computer science or programming subject",
+      "arrives with French column names",
+      "Compteurs cyclistes permanents"
+    ],
+    "sources": [
+      {
+        "claim": "quebec.ca: Quebec Education Program, secondary (Secondary I to V, list of programs of study).",
+        "url": "https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/secondary"
+      },
+      {
+        "claim": "Quebec Education Program, Mathematics, Secondary Cycle Two (CST, TS and S options; all lead to pre-university).",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/programmes/PFEQ-mathematique-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "quebec.ca: CEGEP studies overview (program lengths, R score).",
+        "url": "https://www.quebec.ca/en/education/cegeps-private-colleges/studying/overview"
+      },
+      {
+        "claim": "Charter of the French language, section 1.",
+        "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-11"
+      },
+      {
+        "claim": "CEMC: 2026-27 contest dates, eligibility and language notes, through-a-school rule, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Ville de Montréal open data: Compteurs cyclistes permanents dataset page and files.",
+        "url": "https://donnees.montreal.ca/dataset/cyclistes"
+      },
+      {
+        "claim": "Ville de Montréal open data API: package metadata with the CC BY 4.0 licence.",
+        "url": "https://donnees.montreal.ca/api/3/action/package_show?id=cyclistes"
+      },
+      {
+        "claim": "Creative Commons Attribution 4.0 International deed (commercial reuse allowed with attribution).",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets used for Quebec and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Montreal or Quebec population figure: StatCan was not reachable live, so no population is printed.",
+      "That we teach in French or have bilingual teachers: refused; teaching is in English.",
+      "That our classes earn Quebec credits, a diploma or R score marks: refused.",
+      "That Quebec schools never teach coding: not claimed; only that the program list names no separate computer science subject.",
+      "The 54-credit secondary diploma and French-language instruction rules: unverified (education.gouv.qc.ca unreachable), not used.",
+      "A count of cyclists: refused; the file counts passages at counters.",
+      "A reason for the 434 quarter-hour peak or for September beating July: not stated in the file; presented as unknown or as a labelled guess.",
+      "The Montreal outdoor rink history: used on ai-and-machine-learning-classes-in-canada, so not reused here.",
+      "Named Montreal employers or AI institutes: not fetched raw for this page, so not used.",
+      "That the CSMC 2026 is still open to order: CEMC's ordering deadline was 22 October 2026, so it is shown as passed.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the Ville de Montréal, the Ministère de l'Éducation, any CEGEP, CEMC or the University of Waterloo."
+    ]
   }
 }

@@ -700,6 +700,8 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding and AI classes in Calgary](/coding-and-ai-classes-in-calgary)
+- [Coding and AI classes in Montreal](/coding-and-ai-classes-in-montreal)
 - [Coding and AI classes in Ottawa](/coding-and-ai-classes-in-ottawa)
 - [Math tutor in Ottawa](/math-tutor-ottawa)
 - [Math tutor in Oakville](/math-tutor-oakville)
