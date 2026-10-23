@@ -55439,5 +55439,67 @@
       "CEMC fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the Ville de Montréal, the Ministère de l'Éducation, any CEGEP, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-calgary": {
+    "market": "Calgary",
+    "bodyClass": "cg-aica",
+    "pageType": "city",
+    "curriculumAuthority": "Alberta, read 22 October 2026: alberta.ca curriculum renewal timeline (K to 3 mathematics September 2022, Grades 4 to 6 mathematics 2023-24); diploma exams overview (30% weighting from 1 September 2023, 70/30 split, 50% pass mark, January 2026 cancellation, digital format); 2026-2027 General Information Bulletin diploma schedule (Mathematics 30-1 on 3 November 2026, 20 January, 8 April and 17 June 2027, 9 am to noon); Official Time Act s.1 (UTC-6 all year). CEMC 2026-27: BCC, Gauss and CCC dates, Gauss eligibility, CCC Junior question ladder, through-a-school rule. Calgary area codes from facts-geo.md (CNAC via the Internet Archive).",
+    "localProject": "City of Calgary open data, Playground Equipment (Open Government Licence - City of Calgary, version 2.1), CSV downloaded 22 October 2026 and analysed with our script calgary_seats.py (python -I): 5,905 rows; SWING 1,225, MULTI PLAY COMPLEX 1,116, SPRING TOY 684 and five more types; seats on swing rows 1,356 standard and 1,162 baby, with 176 blanks; codes 1 and 5 carry more than one label; ACTIVE 5,684 and INSTALLED 221, all INSTALLED rows developer-maintained; 144 non-swing rows with seat counts. Labelled as ours. Lesson family: rows versus quantities, summing a count column with blanks, then code-label checks.",
+    "requiredMentions": [
+      "COUNT_BABY_SWING",
+      "1,356 standard seats",
+      "so 1,162 is a floor, not a total",
+      "MULTI PLAY COMPLEX",
+      "Rows that are not swings but still hold a swing-seat count",
+      "All 221 of them",
+      "Rows are not swings",
+      "the combined mark has to reach at least 50%",
+      "Official Time Act fixes official time",
+      "Calgary numbers use 403"
+    ],
+    "sources": [
+      {
+        "claim": "alberta.ca: curriculum subject areas and renewal timeline (K to 3 math September 2022; Grades 4 to 6 math 2023-24).",
+        "url": "https://www.alberta.ca/curriculum-subject-areas"
+      },
+      {
+        "claim": "alberta.ca: diploma exams overview (30% weighting, 70/30 split, 50% pass, January 2026 cancellation, digital exams).",
+        "url": "https://www.alberta.ca/diploma-exams-overview"
+      },
+      {
+        "claim": "Alberta 2026-2027 General Information Bulletin, diploma exam schedule (Mathematics 30-1 sittings).",
+        "url": "https://www.alberta.ca/system/files/custom_downloaded_images/edc-diploma-exam-schedule.pdf"
+      },
+      {
+        "claim": "Alberta Official Time Act, RSA 2000 c O-5.7, s.1 (official time 6 hours behind UTC).",
+        "url": "https://kings-printer.alberta.ca/documents/Acts/O05p7.pdf"
+      },
+      {
+        "claim": "CEMC: 2026-27 contest dates, BCC and Gauss eligibility, CCC question ladder, through-a-school rule, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "City of Calgary open data: Playground Equipment dataset page.",
+        "url": "https://data.calgary.ca/Recreation-and-Culture/Playground-Equipment/bdu9-amk8"
+      },
+      {
+        "claim": "City of Calgary: Open Government Licence - City of Calgary, version 2.1 (attribution, commercial use, non-endorsement).",
+        "url": "https://data.calgary.ca/stories/s/Open-Calgary-Terms-of-Use/u45n-7awa"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Calgary or Alberta population figure: StatCan was not reachable live, so no population is printed.",
+      "That our classes earn Alberta credits or diploma marks: refused; we do not grant Alberta credits.",
+      "That we run robotics hardware classes: refused; we teach the programming side only.",
+      "A total number of swing seats or of playgrounds: refused; 176 blank seat counts make the sum a floor, and the file lists equipment, not playgrounds.",
+      "A meaning for ASSET_CD: not documented in the metadata, so not interpreted.",
+      "Any value of the ASSET_CLASS column: free-text staff notes, one naming a person, so never printed.",
+      "The ages behind SENIOR and JUNIOR equipment classes: not defined in the file, so not stated.",
+      "A Math 30-1 August 2027 sitting: not re-checked in the raw schedule for this page, so not listed.",
+      "Names of Calgary schools, school boards or private people: not used.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the City of Calgary, Alberta Education, CEMC or the University of Waterloo."
+    ]
   }
 }
