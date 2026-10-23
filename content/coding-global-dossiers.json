@@ -58572,5 +58572,64 @@
       "Names of Barrie schools or private people: not used.",
       "Any affiliation with the City of Barrie, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "online-coding-and-python-classes-in-sherbrooke": {
+    "market": "Sherbrooke",
+    "bodyClass": "cg-ps",
+    "pageType": "city",
+    "curriculumAuthority": "Quebec, read 22 October 2026 from English ministry documents saved raw: Ministère de l'Éducation; Digital Competency Framework 2026 (12 dimensions, AI integration principle, programming element, computational thinking theme); Secondary Cycle Two math options CST, TS, S, all leading to pre-university; CEGEP pre-university two years, technical three years, R score; Charter of the French language s.1. CEMC 2026-27: BCC English only, CCC English and French, Euclid and CSMC open to CÉGEP students, through-a-school rule. Eastern time and area codes 468/819/873 from facts-geo.md (IANA tzdb 2026e; CNAC via the Internet Archive).",
+    "localProject": "Ville de Sherbrooke open data, Pistes cyclables (CC BY 4.0), CSV and GeoJSON downloaded with curl on 22 October 2026 and analysed with our scripts (python -I): 1,257 rows; TYPEVOIE counts 514 / 353 / 177 / 125 / 88; SHAPE__Length is planar Web Mercator length (EPSG:3857), total 445.0 km, against 312.2 km great-circle ground length (ratio 0.7014; cos 45.4 = 0.7022); cos-corrected km by type 112.8, 105.6, 38.7, 34.7, 20.7. Labelled as ours. Lesson family: map projections and unit checks.",
+    "requiredMentions": [
+      "Accotement revêtu",
+      "WKID 3857",
+      "312.2 km on the ground",
+      "At 45.4 degrees north the cosine is 0.7022",
+      "Réseau utilitaire",
+      "A learner in Rock Forest and one in Brompton",
+      "This is the Python that prints the right-hand columns",
+      "Numbers on the 819, 873 and 468 area codes",
+      "An AI tool would have given you 445 km",
+      "Wednesday 5:30 pm in Sherbrooke"
+    ],
+    "sources": [
+      {
+        "claim": "Ville de Sherbrooke open data: Pistes cyclables dataset (CC BY 4.0, 1,257 records, Web Mercator WKID 3857).",
+        "url": "https://donneesouvertes-sherbrooke.opendata.arcgis.com/datasets/9478537c06104aa0a2c7e4634947f382_0"
+      },
+      {
+        "claim": "Creative Commons Attribution 4.0 International licence: use for any purpose, even commercially.",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "claim": "Québec Education Program, Secondary Cycle Two mathematics: CST, TS and S options; all lead to pre-university.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/programmes/PFEQ-mathematique-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "Québec.ca CEGEP overview: pre-university two years, technical three years, R score.",
+        "url": "https://www.quebec.ca/en/education/cegeps-private-colleges/studying/overview"
+      },
+      {
+        "claim": "Ministère de l'Éducation Digital Competency Framework 2026 (English version).",
+        "url": "https://www.quebec.ca/en/education"
+      },
+      {
+        "claim": "CEMC contests 2026-27: dates, languages, eligibility, through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Sherbrooke population or language-share figure: StatCan not reachable live, nothing printed.",
+      "The 445.0 km map sum or the 312.2 km ground figure as the official length of the city network: refused; both are our calculations with stated limits.",
+      "That a lane kilometre equals a street kilometre: refused; two one-way lanes on one street are two segments.",
+      "That our classes earn Quebec credits, diplomas or R scores: refused.",
+      "That we teach in French: refused; classes are in English.",
+      "Named schools, school service centres or CEGEPs: not used.",
+      "CEMC fees: left out (currency-neutral page).",
+      "Any affiliation with the Ville de Sherbrooke, the Ministère de l'Éducation or CEMC."
+    ]
   }
 }
