@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Key years  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 USD View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 USD View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 USD View course & enroll](/courses/maths-through-coding)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
 A good online math tutor for a Canadian student is **province-exact**: Ontario, BC, Alberta and Quebec run genuinely different curricula, pathways and exams. They treat EQAO and numeracy assessments as gap-finders, build the runway to the Grade 12 courses universities actually require (in Ontario: Advanced Functions and Calculus & Vectors), and teach for understanding throughout. That is what we do: 8 live one-hour classes a month across every Canadian time zone, 1-on-1 or a group batch of 15 to 20, priced in your currency, Priority Demo first. We teach alongside the student's school course and do not grant provincial credits.
 
@@ -24,7 +24,7 @@ Canada has no national curriculum, and the differences are not cosmetic. Ontario
 
 What every province shares is the shape of the ending: **Grade 12 math decides admissions**. Ontario's competitive STEM programs require Advanced Functions (MHF4U) and Calculus & Vectors (MCV4U) and weigh their marks heavily; BC and Alberta's pre-calculus streams play the same role. Some programs add more behind that: Waterloo's Faculty of Mathematics asks applicants to write the CSMC or the Euclid to qualify for its entrance scholarships. The students who clear these gates comfortably built their base in Grades 7-10; the ones who suffer usually carry a fraction or algebra gap from years earlier.
 
-The early-warning systems exist, EQAO in Ontario Grades 3, 6 and 9, BC's numeracy assessment, but a score report is a smoke alarm, not a fire plan. And the standard responses each miss something: private tutors at C$40 to C$80 an hour are costly twice a week; franchise centers drill worksheets without teaching; apps practice whatever the child already does, errors included.
+The early-warning systems exist, EQAO in Ontario Grades 3, 6 and 9, BC's numeracy assessment, but a score report is a smoke alarm, not a fire plan. And the standard responses each miss something: private tutors billed by the hour add up quickly at twice a week; worksheet centres practise procedures more than they teach ideas; apps practice whatever the child already does, errors included.
 
 What we offer is one specific combination: **a dedicated mentor, a full interactive hour, twice a week, teaching understanding-first**, mapped to your province's actual courses. And one genuinely unfair advantage: our mentors teach both math and coding, in the one country whose largest province literally examines coding inside math class. Quality first; the global-cost-base price is just what makes verifying that claim risk-free.
 
@@ -83,13 +83,13 @@ Watch the method work
 
 ## A Grade 9-style problem, solved with meaning.
 
-Worked example · linear relations, EQAO-flavouredTwo phone plans:Plan A: $20 per month plus $4 per GB of dataPlan B: $44 per month, data includedFor what data use are the plans equal, and which should a 3-GB user pick?
+Worked example · linear relations, EQAO-flavouredTwo phone plans:Plan A: 20 dollars a month plus 4 dollars per GB of dataPlan B: 44 dollars a month, data includedFor what data use are the plans equal, and which should a 3-GB user pick?
 
 **The procedure-only student** asks "is this a solving question or a graphing question?", because equations are rituals to them, not statements.
 
 **The meaning-trained student** reads the equation as a sentence: when does 20 plus 4-per-GB reach 44?
 
-20 + 4g = 444g = 24 → g = 6 GB (the break-even point)3-GB user: Plan A costs 20 + 12 = $32 < $44 → Plan A(and on a graph: two lines crossing at (6, 44), Plan A below until then)
+20 + 4g = 444g = 24 → g = 6 GB (the break-even point)3-GB user: Plan A costs 20 + 12 = 32 dollars < 44 → Plan A(and on a graph: two lines crossing at (6, 44), Plan A below until then)
 
 One situation, three faces, equation, table, graph, telling the same story: that is exactly what Ontario's Grade 9 course and the EQAO reward, and what memorized "solving steps" cannot fake. Meaning is also what survives into Grade 12, when these same lines return wearing function notation.
 
@@ -215,27 +215,27 @@ Every mentor teaches from a structured curriculum, adapted live to your child. I
 
 ## Serious teaching. One honest price.
 
-You are paying for a real teacher, live, for a full hour, twice a week, the format Canadian private tutors bill C$40 to C$80 an hour for. Our cost base is global, so the price is not.
+You are paying for a real teacher, live, for a full hour, twice a week, the format private tutors usually bill by the hour. Our cost base is global, so the price is not.
 
 ### 1:1 Private Mentorship
 
-$150 / month
+$150 USD / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
 - Diagnostic-led plan for your child's province and grade
-- Class recordings for revision · cancel any time
+- Progress notes for parents · cancel any time
 
 [Book a Priority Demo](/priority-demo)
 
 ### Group Batch
 
-$100 / month
+$100 USD / month
 
 - 8 live one-hour classes a month, 2 per week
 - Fifteen to twenty students at the same level
 - Same teaching method, gentle peer energy
-- Recordings included · cancel any time
+- Progress notes for parents · cancel any time
 
 [See the high school course](/courses/complete-high-school-mathematics-mastery)
 
@@ -265,13 +265,13 @@ An honest comparison
 
 ## Your real options in Canada.
 
-| Option | Typical cost | What it really is | Best for |
+| Option | Typical cost | What it really is | Suits |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 / month | Live one-hour 1-on-1 classes, province-exact, understanding-first, coding strand included | Sustained repair and stretch, from EQAO years to the Grade 12 gate |
-| Private tutors | C$40-$80+ / hour | Quality varies widely; twice weekly runs C$320-$640+ a month | Families who have found, and can keep, a proven local gem |
-| Mathnasium-style centers | C$300-$450 / month | Drop-in worksheet floors with rotating instructors, plus the drive | Children who focus better out of the house |
-| Kumon | C$150-$220 / subject / month | Daily drill packets and brief check-ins, process without teaching | Building a practice habit and calculation speed |
-| Math apps | C$10-$30 / month | Gamified practice, no teacher, no accountability | Extra reps between real lessons |
+| Modern Age Coders | $100-$150 USD / month | Live one-hour 1-on-1 classes, province-exact, understanding-first, coding strand included | Sustained repair and stretch, from EQAO years to the Grade 12 gate |
+| Private tutors | Usually billed per hour | Quality varies widely; twice a week adds up across a month | Families who have found, and can keep, a proven local gem |
+| Learning centres | Usually a monthly membership | Centre-based sessions, plus the drive | Children who focus better out of the house |
+| Worksheet programmes | Usually monthly, per subject | Daily worksheet practice with short check-ins | Building a practice habit and calculation speed |
+| Math apps | Usually a monthly subscription | Gamified practice, no teacher, no accountability | Extra reps between real lessons |
 
 Competitor figures are typical published Canadian prices as of July 2026. See our full comparisons: [vs Mathnasium](/modern-age-coders-vs-mathnasium) · [vs Kumon](/modern-age-coders-vs-kumon) · [best online math tutoring 2026](/best-online-math-tutoring-2026).
 
