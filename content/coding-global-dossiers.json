@@ -59752,5 +59752,68 @@
       "Names of Burnaby schools, district results or private people: not used.",
       "Any affiliation with the City of Burnaby, the BC Ministry of Education and Child Care or CEMC."
     ]
+  },
+  "math-tutor-calgary": {
+    "market": "Calgary",
+    "bodyClass": "cg-mtuc",
+    "pageType": "city",
+    "curriculumAuthority": "Alberta, read 22 and 23 October 2026 from Alberta Education and Childcare documents saved raw: Mathematics 30-1 Information Bulletin 2026-2027 (blueprint 32 machine-scored 75%, 3 written-response 25%; topic emphasis; sinusoidal and identity observations; up to 6 hours); diploma schedule (Math 30-1 3 November 2026, 20 January, 8 April, 17 June, 5 August 2027); diploma weighting 30% since 1 September 2023, 70/30; Guide to Education (Math 30-1 prerequisite or corequisite for Math 31; 5 credits each); new K-6 math 2022/2023 and draft 7-9 mandatory September 2027; PATs in Grades 6 and 9; Alberta UTC-6 all year (Official Time Act); area codes 403, 587, 825, 368 (facts-geo.md); CEMC 2026-27 dates and the through-a-school rule.",
+    "localProject": "The City of Calgary open data, Monthly Solar Energy Production (KWh) (Open Government Licence - City of Calgary, commercial use allowed), CSV downloaded 23 October 2026 and analysed with our scripts solar.py and worked.py (python -I): 2,323 rows, 25 facilities; Southland Leisure Centre 123 months, complete years 2016-2024, monthly means from 1,014.8 (December) to 24,033.2 kWh (July); hand model amplitude 11,509.2, midline 12,524.0, peak month 7, R2 0.89; least-squares amplitude 11,781.4, midline 12,995.2, peak 6.39, R2 0.991; June 25,613 (2016) to 18,379 (2024); 2025 about half, October 2025 missing. Labelled as ours. Lesson family: sinusoidal functions fitted to seasonal data.",
+    "requiredMentions": [
+      "Southland Leisure Centre",
+      "amplitude of half their difference, 11,509.2",
+      "moves the peak back to month 6.39",
+      "It explains 99.1 percent of the variation",
+      "from 25,613 kWh in 2016 to 18,379 in 2024",
+      "about 0.4758",
+      "between about 4.23 and 8.55",
+      "2,323 rows across 25 facility names",
+      "It explains 89 percent",
+      "spring is too low and autumn too high"
+    ],
+    "sources": [
+      {
+        "claim": "The City of Calgary open data: Monthly Solar Energy Production (KWh).",
+        "url": "https://data.calgary.ca/Environment/Monthly-Solar-Energy-Production-KWh-/iric-4rrc"
+      },
+      {
+        "claim": "The City of Calgary: Open Data Terms (Open Government Licence - City of Calgary).",
+        "url": "https://data.calgary.ca/d/Open-Data-Terms/u45n-7awa"
+      },
+      {
+        "claim": "Alberta Education and Childcare: Mathematics 30-1 Information Bulletin 2026-2027.",
+        "url": "https://www.alberta.ca/system/files/ecc-math-30-1-info-bulletin.pdf"
+      },
+      {
+        "claim": "Alberta Education and Childcare: diploma examination schedule 2026-2027.",
+        "url": "https://www.alberta.ca/system/files/edc-diploma-exam-schedule.pdf"
+      },
+      {
+        "claim": "alberta.ca: diploma exams overview (30% weighting, 70/30 split).",
+        "url": "https://www.alberta.ca/diploma-exams-overview"
+      },
+      {
+        "claim": "Guide to Education: transfer points and course sequences for senior high school.",
+        "url": "https://manuals.alberta.ca/guide-to-education/"
+      },
+      {
+        "claim": "alberta.ca: curriculum, how we got here (K-6 math, draft 7-9 timeline).",
+        "url": "https://www.alberta.ca/curriculum-how-we-got-here"
+      },
+      {
+        "claim": "CEMC: contest dates for 2026/27 and how contests work.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Calgary population figure: StatCan was not reachable live.",
+      "Why the Southland output fell in 2025: the file gives no reason, so none is offered.",
+      "University of Calgary admission requirements: the saved page renders its requirements by script, so nothing is quoted.",
+      "Any total of the City's solar production: not printed; the lesson uses one site.",
+      "That our lessons earn Alberta credits or affect diploma results: refused.",
+      "Diploma exam fees or rewrite fees: left out (currency-neutral page).",
+      "Names of Calgary schools, board results or private people: not used.",
+      "Any affiliation with The City of Calgary, Alberta Education and Childcare or CEMC."
+    ]
   }
 }
