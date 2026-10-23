@@ -59877,5 +59877,64 @@
       "Names of Winnipeg schools, division results or private people: not used.",
       "Any affiliation with the City of Winnipeg, Manitoba Education and Early Childhood Learning or CEMC."
     ]
+  },
+  "math-tutor-montreal": {
+    "market": "Montreal",
+    "bodyClass": "cg-maae",
+    "pageType": "city",
+    "curriculumAuthority": "Quebec, read 22 and 23 October 2026 from saved raw documents: QEP Mathematics Secondary Cycle Two, English PDF (three options; all allow pre-university entry; two-variable distributions, correlation and regression line; causal judgment); Québec.ca ministerial exam schedule 2026-2027 (Mathematics, Sec. 4 on 21 January, 11 June TS and Science, 18 June CST, 3 August 2027) and the 50% rule; Québec.ca CEGEP overview (two-year pre-university program; R score); Charter of the French language s.1; Eastern time 2026-27 offsets and Montreal area codes (facts-geo.md); CEMC eligibility of CÉGEP students for the Euclid and CSMC and 2026-27 dates.",
+    "localProject": "Ville de Montreal open data, Bibliotheques de Montreal statistics (Creative Commons Attribution 4.0), consolidated workbook downloaded 23 October 2026 and analysed with our scripts libraries.py and worked.py (python -I): 2018 sheet, 45 libraries in 19 boroughs (4 rows skipped); loans against visits r = 0.825, r2 0.681, line loans = 1.1486 x visits + 45,658, 217,952 loans at 150,000 visits; visits against floor area r = 0.661; residuals Ahuntsic +272,282, Marc-Favreau +250,033, Benny -167,753; Pierrefonds 20,469 visits (2018) against 365,408 (2019). Labelled as ours. Lesson family: correlation, regression lines, residuals, interpolation and extrapolation.",
+    "requiredMentions": [
+      "r = 0.825",
+      "loans = 1.1486 &times; visits + 45,658",
+      "about 217,952 loans",
+      "Benny had the most visits in 2018, 611,789",
+      "Ahuntsic lent about 272,282 more",
+      "Pierrefonds recorded only 20,469 visits",
+      "r = 0.661 in our calculation",
+      "The squared x deviations add to 25,000",
+      "two mobile services and two sites with missing figures",
+      "droite de régression"
+    ],
+    "sources": [
+      {
+        "claim": "Ville de Montreal open data: Bibliotheques de Montreal statistics on loans, collections and attendance (CC BY 4.0).",
+        "url": "https://donnees.montreal.ca/dataset/bibliotheques-montreal-statistiques"
+      },
+      {
+        "claim": "Creative Commons Attribution 4.0 International deed.",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "claim": "Québec Education Program, Mathematics, Secondary Cycle Two (English).",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/programmes/PFEQ-mathematique-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "Québec.ca: schedule of ministerial examinations 2026-2027.",
+        "url": "https://www.quebec.ca/en/education/study-quebec/ministerial-examinations"
+      },
+      {
+        "claim": "Québec.ca: CEGEP overview (pre-university programs, R score).",
+        "url": "https://www.quebec.ca/en/education/cegeps-private-colleges/studying/overview"
+      },
+      {
+        "claim": "CEMC: Euclid and CSMC eligibility and 2026/27 dates.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto (Montreal) offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Montreal population figure: StatCan was not reachable live.",
+      "Rules on who may attend English-language schools: not read in a saved source, so not printed.",
+      "Why Pierrefonds reports so few visits in 2018: no source explains it.",
+      "That more visits cause more loans: refused; the page says correlation is not cause.",
+      "Any mapping of Secondary levels to CEMC grade contests: not sourced; families are sent to the school.",
+      "That our lessons earn Quebec credits or affect ministerial exam results: refused.",
+      "Names of Montreal schools, school service centres' results or private people: not used.",
+      "Any affiliation with the Ville de Montreal, the Ministère de l'Éducation or CEMC."
+    ]
   }
 }
