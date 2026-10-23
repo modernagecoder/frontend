@@ -273,7 +273,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 162 | math-tutor-markham (mtum, #615C2F) | math-city | 3,823 | 2.1% vs math-tutor-toronto | math city page | distance formula | 760e92ea |
 | 163 | math-tutor-vaughan (mtv, #385C32) | math-city | 3,957 | 2.2% vs math-tutor-markham | math city page | conditional probability | 7e2034f3 |
 | 164 | math-tutor-richmond-hill (mtrh, #323B99) | math-city | 3,892 | 2.2% vs math-tutor-markham | math city page | slope and regression | ebdc863b |
-| 165 | math-tutor-oakville (mto, #29298A) | math-city | 3,904 | 1.8% vs math-tutor-vaughan | math city page | correlation and cleaning | (this commit) |
+| 165 | math-tutor-oakville (mto, #29298A) | math-city | 3,904 | 1.8% vs math-tutor-vaughan | math city page | correlation and cleaning | 63884433 |
+| 166 | math-tutor-ottawa (mtuo, #751925) | math-city | 3,897 | 2.2% vs math-tutor-toronto | math city page | sinusoidal models | (this commit) |
 
 ## Skipped
 

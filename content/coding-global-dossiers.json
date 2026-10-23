@@ -55226,5 +55226,70 @@
       "Names of Oakville schools, boards or private people: not used.",
       "Any affiliation with the Town of Oakville, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "math-tutor-ottawa": {
+    "market": "Ottawa",
+    "bodyClass": "cg-mtuo",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: MTH1W (2021), MCR3U (prerequisite Grade 10 academic), MHF4U, MCV4U (MHF4U prior or concurrent), MDM4U; EQAO 2026-27 windows. CEMC Fermat and Hypatia formats and 2027 dates; the through-a-school rule; CMS COMC 2026 date and closed registration, CMO by invitation. Ottawa area codes 343/613/753 and Eastern time offsets from facts-geo.md.",
+    "localProject": "City of Ottawa, Ottawa River Temperature 2025 workbook (Open Government Licence - City of Ottawa, Version 2.0), downloaded 22 October 2026: daily raw water temperature at the Britannia intake, 2005 to 2025, 365 rows with no 29 February. Our 2025 sinusoid: amplitude 13.24, midline 13.51, period 365, peak day 225 (13 August); mean absolute error 2.49 degrees; spring overestimate (1 June 17.60 against 13.45); winter floor near 1 degree. Rates around 1 June: 0.22, 0.405 and -0.30 degrees per day for 15, 5 and 1 day half-widths; model derivative about 0.217. Labelled as ours. Lesson family: sinusoidal modelling and rates of change.",
+    "requiredMentions": [
+      "raw river water at the Britannia water purification plant",
+      "approximately 427 m out from the plant",
+      "12 reinforced fibreglass bells",
+      "364 ML/day",
+      "26.75 on 13 August",
+      "0.27 on 17 January",
+      "T(d) = 13.24 cos",
+      "2.49 degrees on average",
+      "no row for 29 February",
+      "The coldest day is 208 days before the warmest"
+    ],
+    "sources": [
+      {
+        "claim": "City of Ottawa: Ottawa River Temperature 2025 item (measurement method, intake details, annual update).",
+        "url": "https://www.arcgis.com/home/item.html?id=4b659d7c349d4bf6afccbd658773b6ea"
+      },
+      {
+        "claim": "City of Ottawa: Open Data Licence Version 2.0 (commercial use, attribution statement, non-endorsement).",
+        "url": "https://ottawa.ca/en/city-hall/get-know-your-city/open-data#open-data-licence-version-2-0"
+      },
+      {
+        "claim": "Open Ottawa: the City of Ottawa open data portal.",
+        "url": "https://open.ottawa.ca/"
+      },
+      {
+        "claim": "Ontario curriculum content API: senior math course records and prerequisites.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code%5Bin%5D=MCR3U,MHF4U,MCV4U,MDM4U,MPM2D,MTH1W,MCF3M,MAP4C,MEL4E&depth=0"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC: Pascal, Cayley and Fermat contests (Grade 11 Fermat, format, 2027 dates).",
+        "url": "https://cemc.uwaterloo.ca/contests/pcf"
+      },
+      {
+        "claim": "CEMC: Fryer, Galois and Hypatia contests (format, 2027 date).",
+        "url": "https://cemc.uwaterloo.ca/contests/fgh"
+      },
+      {
+        "claim": "Canadian Mathematical Society: COMC 2026 (date, registration, path to the CMO).",
+        "url": "https://cms.math.ca/competitions/comc/"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Ottawa population figure: StatCan was not reachable live.",
+      "A warming trend in the river: not claimed; our July-mean line over 21 years has r of only 0.34, too weak to print as a trend.",
+      "Why the spring warms slowly (ice, snowmelt, flow): not sourced, so the page describes the shape only.",
+      "Official-language or French-language school claims for Ottawa: not made; the page says only that Ottawa public schools follow the Ontario curriculum.",
+      "The item's named contact person: not reproduced.",
+      "Water quality or treatment claims: none made; temperature only.",
+      "Other tutors' rates in Ottawa: not sourced, so not printed.",
+      "Any fee figure or currency in the copy, and CMS or CEMC fees: omitted (currency-neutral page).",
+      "That our lessons earn an Ontario credit: refused; we do not grant Ontario credits.",
+      "Any affiliation with the City of Ottawa, the Ontario Ministry of Education, EQAO, CEMC, the University of Waterloo or the Canadian Mathematical Society."
+    ]
   }
 }
