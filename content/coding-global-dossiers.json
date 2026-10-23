@@ -55096,5 +55096,70 @@
       "Names of Vaughan schools, boards or private people: not used.",
       "Any affiliation with York Region, the City of Vaughan, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "math-tutor-richmond-hill": {
+    "market": "Richmond Hill",
+    "bodyClass": "cg-mtrh",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: MTH1W (2021) C2.1; MPM2D (2005) as the MCR3U prerequisite; MCR3U, MHF4U, MCV4U (MHF4U prior or concurrent), MDM4U; EQAO 2026-27 windows and the Grade 9 format (two sessions, 54 questions). CEMC CTMC team format and 13 and 14 April 2027 dates; the through-a-school rule. Richmond Hill area codes and Eastern time offsets from facts-geo.md.",
+    "localProject": "York Region Open Data, Benchmarks, Vertical Control and Municipal Boundary layers (York Region Open Data Licence), downloaded 22 October 2026 in UTM zone 17N. Our analysis: 31 of 293 benchmarks inside Richmond Hill; elevations 186.83 m to 314.578 m; grade 1.21 percent between lowest and highest; least-squares line 8.16 m per km north, intercept 151.0 m, r 0.895; residual of benchmark 848145 +42.1 m; 21 benchmarks with zero latitude and longitude fields. Labelled as ours. Lesson family: slope, regression, residuals and extrapolation.",
+    "requiredMentions": [
+      "benchmark 848145",
+      "249-66",
+      "127.748 m",
+      "8.16 m per km",
+      "r = 0.895",
+      "most were established approximately 20 years ago",
+      "21 of 31",
+      "a grade of about 1.21 percent",
+      "Members collaborate on 25 problems",
+      "which would put them in the Atlantic off Africa"
+    ],
+    "sources": [
+      {
+        "claim": "York Region Open Data: Benchmarks, Vertical Control item (definition, mean sea level datum, age and accuracy note).",
+        "url": "https://www.arcgis.com/home/item.html?id=e602259bf2d24ee69d21ab3f111ca371"
+      },
+      {
+        "claim": "York Region: benchmarks map service layer.",
+        "url": "https://ww8.yorkmaps.ca/arcgis/rest/services/OpenData/Location/MapServer/1"
+      },
+      {
+        "claim": "York Region: municipal boundary map service layer.",
+        "url": "https://ww8.yorkmaps.ca/arcgis/rest/services/OpenData/Boundary/MapServer/1"
+      },
+      {
+        "claim": "York Region Open Data site, where the York Region Open Data Licence is published (PDF saved).",
+        "url": "https://insights-york.opendata.arcgis.com/"
+      },
+      {
+        "claim": "Ontario curriculum content API: MTH1W strands (C2.1).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/mth4w___strands?depth=4"
+      },
+      {
+        "claim": "EQAO: Grade 9 assessment format and 2026-27 windows.",
+        "url": "https://www.eqao.com/the-assessments/grade-9-math/"
+      },
+      {
+        "claim": "CEMC: Canadian Team Mathematics Contest (team format, events).",
+        "url": "https://cemc.uwaterloo.ca/contests/ctmc"
+      },
+      {
+        "claim": "CEMC: contest dates for 2026/27.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Richmond Hill population figure: StatCan was not reachable live.",
+      "Naming the Oak Ridges Moraine or any landform as the cause of the slope: no saved source says so; the page describes the trend only.",
+      "Benchmark descriptions, which name individual buildings: not reproduced.",
+      "That any benchmark is out of date or inaccurate: not claimed; York Region's own caution is quoted instead.",
+      "CTMC fees: omitted on purpose (currency-neutral page).",
+      "Other tutors' rates in Richmond Hill: not sourced, so not printed.",
+      "Any fee figure or currency in the copy: fees render from the template only.",
+      "That our lessons earn an Ontario credit: refused; we do not grant Ontario credits.",
+      "Names of Richmond Hill schools, boards or private people: not used.",
+      "Any affiliation with York Region, the City of Richmond Hill, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
