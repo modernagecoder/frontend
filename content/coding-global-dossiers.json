@@ -58497,5 +58497,80 @@
       "Names of Windsor schools or private people: not used.",
       "Any affiliation with the City of Windsor, the Ontario Ministry of Education, CEMC, the University of Waterloo or Skills Ontario."
     ]
+  },
+  "online-coding-and-python-classes-in-barrie": {
+    "market": "Barrie",
+    "bodyClass": "cg-pyth",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API, EQAO and ontario.ca, saved raw: Elementary Mathematics (2020) Grade 1 and Grade 8 C3.1; MTH1W (2021) C2.1; ICS4U after ICS3U; EQAO Grade 9 format (online, two sessions, 54 questions, multi-stage adaptive); PPM 128 from 1 September 2024. CEMC: BCC and Gauss dates, eligibility and formats; free resources with no registration or fee; Problem of the Week weekly rhythm; CCC 2027 date; through-a-school rule. Barrie CMA, NE Ontario area codes and Eastern time offsets from facts-geo.md (IANA tzdb 2026e).",
+    "localProject": "City of Barrie open data, Park Amenity (Open Government Licence - Barrie), portal CSV downloaded with curl on 22 October 2026 (1,538 rows against a hub recordCount of 1,670; the live map service timed out) and checked with our script barrie_gaps.py (python -I): blanks after strip() DATEINST 1,520, SUBTYPE 1,188, SEAT 793, BASE 351, RECSOURCE 340, PARKID 103 (75 empty, 28 a single space); DATEINST 30 December 1899 on 8 rows; TYPE BENCH 654 to BLEACHER 73; RECYCLING RECEPTICAL on 26 rows. Labelled as ours; the placeholder reading of 1899 is ours. Lesson family: missing values, whitespace, placeholder dates and row-count checks.",
+    "requiredMentions": [
+      "PARKID would show 75 blanks instead of 103",
+      "lists 1,670 records for Park Amenity",
+      "install date as 30 December 1899",
+      "RECYCLING RECEPTICAL, on 26 rows",
+      "Of the 654 benches, 573 have wooden seats",
+      "value.strip() == \"\"",
+      "first six months of live Python, month by month",
+      "Innisfil, Springwater and Oro-Medonte",
+      "a student near Kempenfelt Bay"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: elementary math C3.1 (Grades 1 and 8), MTH1W C2.1, ICS4U prerequisite.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_8___strands?depth=4"
+      },
+      {
+        "claim": "EQAO: Grade 9 Assessment of Mathematics format.",
+        "url": "https://www.eqao.com/the-assessments/grade-9-math/"
+      },
+      {
+        "claim": "Ontario PPM 128: personal mobile devices in schools.",
+        "url": "https://www.ontario.ca/document/education-ontario-policy-and-program-direction/policyprogram-memorandum-128"
+      },
+      {
+        "claim": "CEMC: Beaver Computing Challenge 2026 dates, levels and format.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC: Gauss 2027 dates, eligibility and format.",
+        "url": "https://cemc.uwaterloo.ca/contests/gauss"
+      },
+      {
+        "claim": "CEMC: free resources and Problem of the Week.",
+        "url": "https://cemc.uwaterloo.ca/resources/potw"
+      },
+      {
+        "claim": "CEMC: how contests work (through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Barrie open data: Park Amenity item (snippet).",
+        "url": "https://www.arcgis.com/home/item.html?id=e7f2f5048fe7445b93beb0a44f4ff626"
+      },
+      {
+        "claim": "City of Barrie open data: Park Amenity dataset record and CSV download.",
+        "url": "https://opendata.barrie.ca/datasets/e7f2f5048fe7445b93beb0a44f4ff626_23"
+      },
+      {
+        "claim": "City of Barrie: Open Government Licence - Barrie (PDF).",
+        "url": "https://www.barrie.ca/Online%20Services/PublishingImages/OpenData_Images/COB_DataLicense.pdf"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Barrie population: StatCan was not reachable live.",
+      "An average age of park amenities: refused; 1,520 of 1,538 install dates are blank.",
+      "That 30 December 1899 is a documented default in the City's system: not sourced; offered as our reading only.",
+      "That our 1,538 rows are the whole layer: refused; the portal lists 1,670.",
+      "A fixed number of classes per month or a guaranteed pace: the six-month plan is an example and is labelled ours.",
+      "That our classes earn or count toward an Ontario credit: refused.",
+      "CEMC contest fees: left out (currency-neutral page).",
+      "Names of Barrie schools or private people: not used.",
+      "Any affiliation with the City of Barrie, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
