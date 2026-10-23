@@ -55291,5 +55291,82 @@
       "That our lessons earn an Ontario credit: refused; we do not grant Ontario credits.",
       "Any affiliation with the City of Ottawa, the Ontario Ministry of Education, EQAO, CEMC, the University of Waterloo or the Canadian Mathematical Society."
     ]
+  },
+  "coding-and-ai-classes-in-ottawa": {
+    "market": "Ottawa",
+    "bodyClass": "cg-aiot",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Science and Technology (2022) Grade 6 A2 and A2.1 coding; MTH1W (2021) C2.2; ICD2O (2023, Open) AI strand and C2; ICS3U and ICS4U (2008), one credit each. ontario.ca OSSD page: technological education credit and computer studies in the STEM group (2024+ cohort). EQAO Grade 9 math format (54 questions, two sessions, multi-stage computer adaptive) and the 12 January to 5 February 2027 window, results in the course mark. PPM 128 social media restriction. Quebec (Gatineau): QEP Secondary I to V, CEGEP pre-university two years. CEMC 2026-27 dates and language notes (CCC English and French, BCC English only), through-a-school rule. Constitution Act, 1867 s.16; Ottawa - Gatineau CMA; area codes and Eastern offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e).",
+    "localProject": "City of Ottawa open data, Parks and Greenspace (Open Government Licence - City of Ottawa), CSV downloaded 22 October 2026, decoded with the map service coded-value domain and counted with our script ottawa_dog_codes.py (python -I): 1,378 parks; Not Designated (Dogs on Leash) 631, Dogs on Leash 356, Dogs Allowed (off-leash) 175, No Dogs 119, Mixed 69, blank 28; 24 wards, 21 with an off-leash park, River ward 23; English and French park type crossed on 36 rows; dog code differs between languages on 1 row. Labelled as ours. Lesson family: decoding codes with a lookup dictionary and auditing two columns that should agree.",
+    "requiredMentions": [
+      "English and French park type disagree",
+      "Loisirs dynamiques",
+      "a list of 37 rows to report to the city",
+      "coded-value domain",
+      "River ward has the most, 23",
+      "Ottawa numbers use 343, 613 and 753",
+      "Wards with at least one off-leash park",
+      "981 of the 987 parks coded 1 or 4",
+      "a class booked from Gatineau and one booked from Barrhaven",
+      "Language CEMC lists"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 6 Science and Technology strand A2, MTH1W strands, ICD2O course and strands, computer studies course list.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/e___sci___tech___grade_6___strands?depth=4"
+      },
+      {
+        "claim": "ontario.ca: Ontario Secondary School Diploma requirements (technological education credit, STEM group with computer studies).",
+        "url": "https://www.ontario.ca/page/high-school-graduation-requirements"
+      },
+      {
+        "claim": "EQAO: Grade 9 Assessment of Mathematics format, adaptive model, window and course-mark rule.",
+        "url": "https://www.eqao.com/the-assessments/grade-9-math/"
+      },
+      {
+        "claim": "Ontario PPM 128: personal mobile devices and social media in schools.",
+        "url": "https://www.ontario.ca/document/education-ontario-policy-and-program-direction/policyprogram-memorandum-128"
+      },
+      {
+        "claim": "Quebec Education Program, secondary: Secondary I to Secondary V.",
+        "url": "https://www.quebec.ca/en/education/preschool-elementary-and-secondary-schools/programs-training-evaluation/quebec-education-program/secondary"
+      },
+      {
+        "claim": "CEMC: 2026-27 contest dates, language notes, through-a-school rule, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "City of Ottawa open data: Parks and Greenspace dataset page.",
+        "url": "https://open.ottawa.ca/datasets/ottawa::parks-and-greenspace"
+      },
+      {
+        "claim": "City of Ottawa map service layer 24 (coded-value domain for the dogs-in-parks designation).",
+        "url": "https://maps.ottawa.ca/arcgis/rest/services/Parks_Inventory/MapServer/24"
+      },
+      {
+        "claim": "City of Ottawa: Open Government Licence - City of Ottawa (attribution, commercial use, non-endorsement).",
+        "url": "https://open.ottawa.ca/pages/open-data-licence"
+      },
+      {
+        "claim": "Constitution Act, 1867, section 16: seat of government.",
+        "url": "https://laws-lois.justice.gc.ca/eng/const/page-1.html"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Ottawa, Gatineau or CMA population figure: StatCan was not reachable live, so no population is printed.",
+      "That ICD2O satisfies the technological education credit: ontario.ca does not say so; only computer studies in the STEM group is stated.",
+      "That our classes earn or count toward an Ontario credit: refused; we do not grant Ontario credits.",
+      "That we teach in French or have bilingual teachers: refused; teaching is in English.",
+      "That we run robotics hardware classes: refused; we teach the programming side only.",
+      "Which of two disagreeing English and French columns is correct: not decided; the rows are reported, not corrected.",
+      "Named employers or research institutes in Ottawa: not fetched raw for this page, so not used.",
+      "Names of Ottawa or Gatineau schools, school boards or private people: not used; park names are not printed.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the City of Ottawa, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
