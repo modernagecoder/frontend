@@ -348,18 +348,20 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 23 | pre-calculus-11-tutor-bc (pre, #6B2A43) | school-bc | 5,538 | 1.1% vs pre-calculus-12-tutor-bc | school course help | quadratics and radicals | 54a1415d |
 | 26 | foundations-of-math-11-tutor-bc (fou, #485717) | school-bc | 5,638 | 0.8% vs computer-programming-11-and-12-bc | school course help | optimization and scale | 959dabbc |
 | 21 | bc-adst-curriculum-coding-by-grade (bacb, #595D94) | school-bc | 5,887 | 0.9% vs canada-coding-curriculum-by-province | curriculum reference | unplugged and coded activities | 736f3bb6 |
-| 27 | bc-grade-10-numeracy-assessment-practice (bcgr, #3B522F) | school-bc | 5,757 | 1.5% vs eqao-grade-9-math-practice | assessment practice | numeracy processes | (this commit) |
+| 27 | bc-grade-10-numeracy-assessment-practice (bcgr, #3B522F) | school-bc | 5,757 | 1.5% vs eqao-grade-9-math-practice | assessment practice | numeracy processes | c7d19e45 |
 
 ## Skipped
 
 ## Open items
 
 - Plan B (CAD region): owner to confirm Razorpay CAD is enabled; other CAD figures (six-month, Gemini 1-on-1, camp, Priority Demo); Canadian time zone vs Indian browser language.
-- Phase 0b: coding-classes-in-canada has a section naming Canadian schools students came from (rule: never name individual schools); review in Phase 0b.
 - md twins print USD fees (renderer md path); Plan B switches Canada twins when CAD goes live.
 - Rows 82, 83, 84 (cost pages) wait for Plan B: their market prices are in CAD and Canada pages are currency-neutral until the CAD region is live (Plan 2 default).
 - Rows 21, 23, 24, 26, 27 (BC): written 2026-10-23 once curriculum.gov.bc.ca was reachable (row 27 from the curriculum site's own numeracy assessment pages).
 - Rows 30 (Math 20-1) and 31 (Math 31) skipped 2026-10-22: no Alberta source for course content (program of studies PDF moved, LearnAlberta JavaScript-only, open.alberta.ca 403). Retry when a source is reachable.
 - Rows 97 (PEI), 98 (Yukon), 100 (Nunavut) skipped 2026-10-22: princeedwardisland.ca Radware bot check; yukon.ca, laws.yukon.ca, open.yukon.ca 403; gov.nu.ca 403. Retry later.
 - Phase 0b: update the Newfoundland and Labrador row on canada-coding-curriculum-by-province (now verified; sources in src-pilots/coding-classes-in-newfoundland-and-labrador/); add CEMC "contact the CEMC" homeschool line to ccc-junior-guide; link new contest spokes from cemc-waterloo-contests-preparation and canadian-computing-competition-ccc-prep.
-- Phase 0b: coding-classes-in-canada still has unverifiable 'many of our students/parents/adult learners' claims (CCC results in Waterloo applications, French-speaking mentors, employer reimbursement, screen time) and typed USD prices; needs a careful rewrite.
+- DONE 2026-10-23 `348aa66f5`: hub rewrite (typed USD, Premium, named schools and companies, 'many of our' claims, old clock grid removed; ISED-cited AI section; 166 guide links in 12 groups) and online-math-tutor-canada (C$ competitor prices, recordings claim). BC and Alberta dossier requiredMentions realigned with Phase 0b; verify-cluster-pages 1729/1729.
+- Hub policies removed pending owner word before any return: sibling discount, gift month, referral month, six-month reports, Interac, corporate group sizes. The hub's 'Most popular' badge on the 1-on-1 card is unchanged.
+- The other 9 country hubs still carry '15&ndash;20 batches' in the related-pages block (generator fixed in build-internal-links.js; rerun `npm run build:links` with owner OK).
+- Status 2026-10-23: all queued rows shipped locally (102 row commits since origin e4d0cd856); nothing pushed.
