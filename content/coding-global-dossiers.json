@@ -59618,5 +59618,72 @@
       "Names of Vancouver schools, districts' results or private people: not used.",
       "Any affiliation with the City of Vancouver, the BC Ministry of Education and Child Care, UBC, CEMC or the CMS."
     ]
+  },
+  "math-tutor-surrey-bc": {
+    "market": "Surrey",
+    "bodyClass": "cg-maac",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 23 October 2026 from curriculum.gov.bc.ca and saved raw: Workplace Mathematics 10, Foundations of Mathematics and Pre-calculus 10, Foundations of Mathematics 11 and Pre-calculus 11 content lists (quoted phrases); course list incl. Calculus 12 (facts-schools-contests.md row 72); BC permanent UTC-7 (BC Gov News 2026AG0013-000209); Vancouver CMA area codes (facts-geo.md); UFV Math Kangaroo host-centre page (grades, versions, formats, Sunday 21 March 2027 at the Abbotsford campus); CEMC 2026-27 Gauss and PCF dates and the through-a-school rule.",
+    "localProject": "City of Surrey open data, Park Dog Off Leash Areas (Open Government License - City of Surrey, commercial use allowed), 22 polygons queried with curl on 23 October 2026 in UTM Zone 10N and analysed with our scripts offleash.py and worked.py (python -I): shoelace areas match SHAPE__Area within 0.0002%; areas 622.2 to 85,586.6 m2, median 5,392.5, our sum 213,749 m2; compactness 0.104 (Tynehead) to 0.883 (Nicomekl); East View Trail Park outer ring 14,383.4 minus holes 357.2 and 622.1; Joe Brown Park large and small dog areas; Bolivar Park 0.840. Labelled as ours. Lesson family: area and perimeter from coordinates, optimization for a fixed perimeter.",
+    "requiredMentions": [
+      "Park Dog Off Leash Areas",
+      "Tynehead&rsquo;s area is a strip",
+      "outer boundary of 14,383.4 square metres",
+      "213,749 square metres",
+      "within 0.0002 percent",
+      "Nicomekl&rsquo;s main area, at 0.883",
+      "about 5,227.3 square metres",
+      "Bolivar&rsquo;s polygon encloses 5,592.2",
+      "Workplace Mathematics 10 covers useful ground",
+      "Joe Brown Park has separate polygons"
+    ],
+    "sources": [
+      {
+        "claim": "City of Surrey open data: Park Dog Off Leash Areas dataset page.",
+        "url": "https://surrey-open-data-surreygis.hub.arcgis.com/datasets/6f382ce77e64436b82f5d4e34752a53f_0"
+      },
+      {
+        "claim": "City of Surrey: Open Data License (commercial use, attribution statement, non-endorsement).",
+        "url": "https://surrey-open-data-surreygis.hub.arcgis.com/pages/open-data-license"
+      },
+      {
+        "claim": "BC curriculum: Foundations of Mathematics 11 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/foundations-of-mathematics"
+      },
+      {
+        "claim": "BC curriculum: Foundations of Mathematics and Pre-calculus 10 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/10/foundations-of-mathematics-and-pre-calculus"
+      },
+      {
+        "claim": "BC curriculum: Workplace Mathematics 10 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/10/workplace-mathematics"
+      },
+      {
+        "claim": "BC curriculum: Pre-calculus 11 content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/mathematics/11/pre-calculus"
+      },
+      {
+        "claim": "University of the Fraser Valley: Canadian Math Kangaroo host-centre page.",
+        "url": "https://ufv.ca/math/contests/canadian-math-kangaroo"
+      },
+      {
+        "claim": "CEMC: contest dates for 2026/27 and how contests work.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "BC Gov News: permanent daylight time, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Surrey population figure: StatCan was not reachable live.",
+      "Which Grade 11 courses each Grade 10 course leads to: no provincial prerequisite source was saved, so families are sent to the school.",
+      "BC graduation requirements and the Grade 10 numeracy assessment: the provincial page could not be reached.",
+      "Math Kangaroo fees: the host page shows 2026 figures only, and the page is currency-neutral.",
+      "That a high compactness ratio means a better park: refused; the page limits the ratio to geometry.",
+      "That our lessons earn BC credits: refused.",
+      "Names of Surrey schools, district results or private people: not used.",
+      "Any affiliation with the City of Surrey, the BC Ministry of Education and Child Care, Math Kangaroo, the University of the Fraser Valley or CEMC."
+    ]
   }
 }

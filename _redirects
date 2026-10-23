@@ -8202,4 +8202,8 @@
 # International growth cluster (coding-global.css). Must precede the /* catch-all.
 /math-tutor-vancouver /src/pages/math-tutor-vancouver.html 200
 /math-tutor-vancouver.md /src/pages/math-tutor-vancouver.md 200
+
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+/math-tutor-surrey-bc /src/pages/math-tutor-surrey-bc.html 200
+/math-tutor-surrey-bc.md /src/pages/math-tutor-surrey-bc.md 200
 /* /src/pages/404.html 404

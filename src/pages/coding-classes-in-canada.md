@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Math tutor in Surrey](/math-tutor-surrey-bc)
 - [Math tutor in Vancouver](/math-tutor-vancouver)
 - [Math tutor in Waterloo](/math-tutor-waterloo-ontario)
 - [Vibe coding and AI agents classes in Greater Sudbury](/vibe-coding-and-ai-agents-classes-in-greater-sudbury)
