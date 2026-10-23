@@ -294,7 +294,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 152 | coding-classes-for-kids-in-etobicoke-toronto (ket, #1B2852) | city | 3,849 | 2.3% vs best-coding-classes-for-kids-in-mississauga | kids city page | city open data | 560999bc |
 | 153 | coding-classes-for-kids-in-ajax-and-pickering (kap, #140E5C) | city | 3,821 | 2% vs coding-classes-for-kids-in-etobicoke-toronto | kids city page | city open data | 5d316f54 |
 | 154 | coding-classes-for-kids-in-oshawa-and-whitby (kow, #5C3439) | city | 3,768 | 2.1% vs coding-classes-for-kids-in-scarborough-toronto | kids city page | city open data | 3e44ca80 |
-| 155 | coding-classes-for-kids-in-langley-bc (klb, #7A2212) | city | 3,715 | 1.9% vs best-coding-classes-for-kids-in-burnaby | kids city page | city open data | (this commit) |
+| 155 | coding-classes-for-kids-in-langley-bc (klb, #7A2212) | city | 3,715 | 1.9% vs best-coding-classes-for-kids-in-burnaby | kids city page | city open data | 4c8ae02b |
+| 156 | coding-classes-for-kids-in-abbotsford (ka, #57330D) | city | 3,735 | 2.2% vs coding-classes-for-kids-in-langley-bc | kids city page | city open data | (this commit) |
 
 ## Skipped
 

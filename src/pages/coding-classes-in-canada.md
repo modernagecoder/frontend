@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding classes for kids in Abbotsford](/coding-classes-for-kids-in-abbotsford)
 - [Coding classes for kids in Langley](/coding-classes-for-kids-in-langley-bc)
 - [Coding classes for kids in Oshawa And Whitby](/coding-classes-for-kids-in-oshawa-and-whitby)
 - [Coding classes for kids in Ajax And Pickering](/coding-classes-for-kids-in-ajax-and-pickering)

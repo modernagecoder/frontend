@@ -56595,5 +56595,64 @@
       "Names of Langley schools, school districts or private people: not used.",
       "Any affiliation with the Township of Langley, the City of Langley, the BC education ministry, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-for-kids-in-abbotsford": {
+    "market": "Abbotsford",
+    "bodyClass": "cg-ka",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 22 October 2026 from curriculum.gov.bc.ca and saved raw: Applied Design, Skills, and Technologies 6-7 Robotics content (definition of a robot; sense, think and act parts; programming and logic for robotics components) and Digital Literacy content (how search results are selected and ranked; accuracy, timeliness, appropriateness, credibility and bias), plus the module structure and the Computational Thinking module. BC permanent UTC-7 from BC Gov News 2026AG0013-000209 (via facts-geo.md). Math Kangaroo Fraser Valley Contest 21 March 2027 at UFV Abbotsford Campus and the grade formats, from the UFV host-centre page. Area codes from facts-geo.md (CNAC via the Internet Archive).",
+    "localProject": "City of Abbotsford Open Data, Parks (Open Government Licence - City of Abbotsford, commercial use allowed), downloaded with curl on 22 October 2026 and analysed with our scripts neighbourhood_parks.py and page_script.py (python -I): 238 records; top neighbourhoods TOWNLINE HILL 21, UPPER TEN OAKS 19, LOWER SUMAS MOUNTAIN 18, MATSQUI PRAIRIE 15, WEST CLEARBROOK 15; 43 with no neighbourhood (36 empty, 7 a single space); 129 open space, 64 neighbourhood parks; Area (m2) behaves like hectares against Shape__Area for 218 records; 181 distinct Park IDs. Labelled as ours. Lesson family: strip() for space-only blanks, sorting by value with a key function, top five, and a two-column plausibility check.",
+    "requiredMentions": [
+      "a machine capable of carrying out a complex series of actions automatically",
+      "the parts of the robot that allow it to gather information about its environment",
+      "Most bugs live in the middle box",
+      "36 cells are truly empty, but 7 contain a single space",
+      "TOWNLINE HILL",
+      "Two neighbourhoods tie on 15",
+      "there are 181 distinct Park ID values among the 238 records",
+      "the drawn area is about 10,000 times the labelled value",
+      "Sunday 21 March 2027 at the Abbotsford Campus",
+      "Abbotsford is two hours behind Toronto through the winter"
+    ],
+    "sources": [
+      {
+        "claim": "BC curriculum: Applied Design, Skills, and Technologies 6 (Robotics, Digital Literacy and Computational Thinking content; modules).",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/6/core"
+      },
+      {
+        "claim": "BC Gov News 2026AG0013-000209: permanent year-round daylight time, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "University of the Fraser Valley: Canadian Math Kangaroo host-centre page (2027 date, formats by grade).",
+        "url": "https://ufv.ca/math/contests/canadian-math-kangaroo"
+      },
+      {
+        "claim": "City of Abbotsford Parks item (description, owner, modified date).",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/b3b8d59e891645e89232402fdac9023d?f=json"
+      },
+      {
+        "claim": "City of Abbotsford Parks CSV download.",
+        "url": "https://opendata-abbotsford.hub.arcgis.com/api/download/v1/items/b3b8d59e891645e89232402fdac9023d/csv?layers=193"
+      },
+      {
+        "claim": "City of Abbotsford Open Data Licence (commercial use, attribution, based on OGL - Canada 2.0).",
+        "url": "https://opendata-abbotsford.hub.arcgis.com/pages/city-of-abbotsford-open-data-licence"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Vancouver from 2026.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Abbotsford population figure: StatCan was not reachable live, so none is printed.",
+      "Park names, locations and the staff account columns: left out (some names honour people; account names identify staff).",
+      "That the Area (m2) column is in square metres: rejected after comparing it with Shape__Area; the page labels its reading as ours.",
+      "Math Kangaroo 2027 fees and deadlines: the UFV page shows 2026 figures, so none are given.",
+      "BC coding expectations for Kindergarten to Grade 5: no primary source was fetched, so none is claimed.",
+      "That every Abbotsford Grade 6 or 7 student takes Robotics or Computational Thinking: rejected; schools choose modules.",
+      "Names of Abbotsford schools, the school district or private people: not used.",
+      "Any affiliation with the City of Abbotsford, the BC education ministry, Math Kangaroo Canada or the University of the Fraser Valley."
+    ]
   }
 }
