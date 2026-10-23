@@ -316,7 +316,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 110 | coding-and-ai-classes-in-regina (ar, #992617) | city | 3,521 | 2.7% vs coding-classes-in-saskatchewan | city page | city open data | 7ea20a72 |
 | 111 | coding-and-ai-classes-in-victoria-bc (avb, #4C3C0E) | city | 3,755 | 1.9% vs coding-and-ai-classes-in-halifax-nova-scotia | city page | city open data | c44a3d4b |
 | 112 | coding-and-ai-classes-in-st-johns-newfoundland (asjn, #2E572A) | city | 3,714 | 2.8% vs coding-and-ai-classes-in-saskatoon | city page | city open data | 4cc8fd7e |
-| 130 | online-coding-and-python-classes-in-vaughan (pv, #1C6648) | city | 3,799 | 1.6% vs ai-and-python-classes-for-teens-in-waterloo-ontario | online city page | city open data | (this commit) |
+| 130 | online-coding-and-python-classes-in-vaughan (pv, #1C6648) | city | 3,799 | 1.6% vs ai-and-python-classes-for-teens-in-waterloo-ontario | online city page | city open data | 79d23576 |
+| 131 | online-coding-and-python-classes-in-hamilton-ontario (pho, #294B8A) | city | 3,711 | 1.7% vs coding-and-ai-classes-in-toronto | online city page | city open data | (this commit) |
 
 ## Skipped
 

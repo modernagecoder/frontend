@@ -58225,5 +58225,67 @@
       "Names of Vaughan schools or private people: not used.",
       "Any affiliation with York Region, the City of Vaughan, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "online-coding-and-python-classes-in-hamilton-ontario": {
+    "market": "Hamilton",
+    "bodyClass": "cg-pho",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 3 and Grade 5 C3.1; Science and Technology (2022) Grade 6 A2.1; MTH1W (2021) C2.3; ICS3U description and no prerequisite. CEMC 2026-27: CCC date, format (5 questions, 3 hours, out of 75), Junior question ladder, level by skill, written at school online, free practice account, through-a-school rule. Hamilton CMA membership, 905 belt area codes and Eastern time offsets from facts-geo.md (IANA tzdb 2026e).",
+    "localProject": "City of Hamilton open data, City Waterfalls (City of Hamilton Open Data Licence), 103 features downloaded with curl on 22 October 2026 and analysed with our script hamilton_falls.py (python -I): five tallest by HEIGHT_IN_M (41, 39.5, 37, 30, 25 m); Waterfall 47 rows mean 12.5 m, Cascade 56 rows mean 8.1 m; by COMMUNITY rows/mean/max from Hamilton 41/10.8/39.5 to Burlington 1/25.0/25; median 7 m, 11 rows at 3 m; RANKING A 18, B 36, C 49 and OWNERSHIP public-I 28 left unexplained. Labelled as ours. Lesson family: key-function sorting, small functions and grouping with setdefault, mean against median.",
+    "requiredMentions": [
+      "Lower Princess Falls at 39.5 m",
+      "Ferguson Falls at 30 m",
+      "56 cascades with a mean of 8.1 m",
+      "mean of 25.0 m rests on a single record",
+      "median height is 7 m",
+      "a value written public-I on 28 rows",
+      "A quiz that reads its questions from a file",
+      "A Thursday 5:00 pm class in Hamilton",
+      "Dundas, Ancaster and Stoney Creek"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: elementary math C3.1 (Grades 3 and 5), MTH1W C2.3 and ICS course descriptions.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_5___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum content API: Science and Technology Grade 6 A2 and A2.1 coding.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/e___sci___tech___grade_6___strands?depth=4"
+      },
+      {
+        "claim": "CEMC: CCC 2027 date, format, levels, Junior question ladder, delivery and practice.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC: how contests work (through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Hamilton open data: City Waterfalls item (snippet and description).",
+        "url": "https://www.arcgis.com/home/item.html?id=359c66af76404326beb86059a48df24c"
+      },
+      {
+        "claim": "City of Hamilton: City Waterfalls feature service layer queried for all records.",
+        "url": "https://services.arcgis.com/rYz782eMbySr2srL/arcgis/rest/services/City_Waterfalls/FeatureServer/16"
+      },
+      {
+        "claim": "City of Hamilton Open Data Licence (commercial use, attribution statement, no endorsement).",
+        "url": "https://www.hamilton.ca/city-initiatives/strategies-actions/open-data-licence-terms-and-conditions"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Hamilton population: StatCan was not reachable live.",
+      "A meaning for the RANKING letters or the public-I ownership value: not defined in the saved item, so not invented.",
+      "Any advice about visiting or the safety of waterfalls: out of scope; the file lists accessible falls only.",
+      "Reuse of the City of Hamilton Spray Pads file: already used by another page on the site.",
+      "That our classes earn or count toward an Ontario credit: refused.",
+      "CEMC contest fees: left out (currency-neutral page).",
+      "Names of Hamilton schools or private people: not used.",
+      "Any affiliation with the City of Hamilton, the Ontario Ministry of Education, CEMC or the University of Waterloo."
+    ]
   }
 }

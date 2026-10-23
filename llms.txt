@@ -1939,6 +1939,7 @@ USD 100 a month small group, USD 150 a month one to one.
 - Victoria, BC: https://learn.modernagecoders.com/coding-and-ai-classes-in-victoria-bc
 - St. John's: https://learn.modernagecoders.com/coding-and-ai-classes-in-st-johns-newfoundland
 - Vaughan: https://learn.modernagecoders.com/online-coding-and-python-classes-in-vaughan
+- Hamilton: https://learn.modernagecoders.com/online-coding-and-python-classes-in-hamilton-ontario
 ## Class 10 Board Preparation (CBSE AI 417 and ICSE Computer Applications)
 
 Live online Class 10 board preparation, taught in small batches: CBSE Artificial Intelligence (subject code 417, 2026-27 curriculum) and ICSE Computer Applications (Java with BlueJ, CISCE 100 plus 100 scheme).
