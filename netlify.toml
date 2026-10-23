@@ -26445,6 +26445,18 @@
   to = "/src/pages/coding-classes-for-kids-in-ajax-and-pickering.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-oshawa-and-whitby"
+  to = "/src/pages/coding-classes-for-kids-in-oshawa-and-whitby.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-oshawa-and-whitby.md"
+  to = "/src/pages/coding-classes-for-kids-in-oshawa-and-whitby.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -292,7 +292,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 121 | best-coding-classes-for-kids-in-moncton (beab, #0F661E) | city | 3,744 | 1.6% vs best-coding-classes-for-kids-in-markham | kids city page | city open data | 66786c09 |
 | 151 | coding-classes-for-kids-in-north-york-toronto (knyt, #22570D) | city | 4,094 | 2% vs coding-classes-for-kids-in-scarborough-toronto | kids city page | city open data | 37ed4852 |
 | 152 | coding-classes-for-kids-in-etobicoke-toronto (ket, #1B2852) | city | 3,849 | 2.3% vs best-coding-classes-for-kids-in-mississauga | kids city page | city open data | 560999bc |
-| 153 | coding-classes-for-kids-in-ajax-and-pickering (kap, #140E5C) | city | 3,821 | 2% vs coding-classes-for-kids-in-etobicoke-toronto | kids city page | city open data | (this commit) |
+| 153 | coding-classes-for-kids-in-ajax-and-pickering (kap, #140E5C) | city | 3,821 | 2% vs coding-classes-for-kids-in-etobicoke-toronto | kids city page | city open data | 5d316f54 |
+| 154 | coding-classes-for-kids-in-oshawa-and-whitby (kow, #5C3439) | city | 3,768 | 2.1% vs coding-classes-for-kids-in-scarborough-toronto | kids city page | city open data | (this commit) |
 
 ## Skipped
 

@@ -56464,5 +56464,72 @@
       "Names of Ajax or Pickering schools, school boards or private people: not used.",
       "Any affiliation with the Town of Ajax, the City of Pickering, the Ontario Ministry of Education, EQAO, FIRST Robotics Canada, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-for-kids-in-oshawa-and-whitby": {
+    "market": "Oshawa and Whitby",
+    "bodyClass": "cg-kow",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 6 C3.1 (efficient code), C3.2 (effect of changes on outcomes and efficiency), and the Grade 6 notes on efficient code, flow charts, adapting efficient code and the probability-trials example; Science and Technology (2022) Grade 6 A2.1 (obtaining input in different ways). EQAO Grade 6 window 4 May to 8 June 2027. CEMC Gauss 2027 (Grades 7 and 8, younger welcome, 10 to 21 May 2027, ordering 22 April 2027, 25 questions, 60 minutes, through a school). Oshawa CMA membership and area codes from facts-geo.md; Eastern offsets from IANA tzdb 2026e.",
+    "localProject": "Town of Whitby Open Data, Parks (Open Government Licence - The Corporation of the Town of Whitby, commercial use allowed), downloaded with curl on 22 October 2026 and analysed with our scripts park_class_sizes.py and page_script.py (python -I): 128 rows, 127 parks after one repeated ID; one ID with a stray space; LOCAL 55 (mean 1.78 ha, median 1.65), PARKETTE 33 (0.39, 0.39), DISTRICT 21 (5.65, 4.70), WATERFRONT (TOWN) 11 (6.20, 3.52), TOWN PARK 3 (10.95, 2.14); 48 under 1 hectare; Playspace at 90 parks. Description and metadata disagree with the file and with each other on classes and update date. Oshawa licence unreachable, so Whitby only. Labelled as ours. Lesson family: one pass with a dictionary of lists, a set for repeats, mean against median.",
+    "requiredMentions": [
+      "one ID appears twice with identical details",
+      "Efficient code can be altered more easily than inefficient code",
+      "with a focus on obtaining input in different ways for a variety of purposes",
+      "The download has 128 rows but 127 parks",
+      "Their mean is 10.95, larger than two of the three",
+      "Playspace listed at 90 of the 127 parks",
+      "The file holds a FACILITY row anyway",
+      "last updated in October 2024",
+      "describes the middle park far better",
+      "48 parks are under one hectare"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 6 math strands, C3 coding expectations and efficiency notes.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_6___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum content API: Grade 6 Science and Technology strands, A2.1 coding expectation.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/e___sci___tech___grade_6___strands?depth=4"
+      },
+      {
+        "claim": "EQAO: 2026-27 Grade 6 assessment window.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC Gauss Mathematics Contest: 2027 dates, deadline, format, eligibility.",
+        "url": "https://cemc.uwaterloo.ca/contests/gauss"
+      },
+      {
+        "claim": "CEMC: all students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "Town of Whitby Parks item (description, classes included and excluded, Updated December 2025).",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/fa9584c26e20401083665a6fd4ec9568?f=json"
+      },
+      {
+        "claim": "Town of Whitby Parks metadata PDF (update frequency, last updated October 2024, AREA1_HECT in hectares).",
+        "url": "https://whitby.maps.arcgis.com/sharing/rest/content/items/e1fe736c80fc4441a87b3fe4e2ac4703/data"
+      },
+      {
+        "claim": "Open Government Licence - The Corporation of the Town of Whitby (commercial use, attribution).",
+        "url": "https://whitby.maps.arcgis.com/sharing/rest/content/items/223810efc31c40b3aff99dd74f809a97/data"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Oshawa or Whitby population figure: StatCan was not reachable live, so none is printed.",
+      "An Oshawa data project: the City of Oshawa licence PDF failed to connect on 22 October 2026 (one attempt, not retried), so no Oshawa dataset is used.",
+      "Park names and addresses: left out, since several parks are named after people.",
+      "A total park area for Whitby: not printed; only per-class means and medians appear.",
+      "That the description or the metadata is the correct one: the page reports both and the file contents without choosing.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of Oshawa or Whitby schools, school boards or private people: not used.",
+      "Any affiliation with the City of Oshawa, the Town of Whitby, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
