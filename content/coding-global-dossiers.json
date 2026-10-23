@@ -56721,5 +56721,77 @@
       "Names of Cambridge schools, school boards or private people: not used.",
       "Any affiliation with the City of Cambridge, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-for-kids-in-st-catharines-niagara": {
+    "market": "St. Catharines and Niagara",
+    "bodyClass": "cg-kscn",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 1 (paraphrased) and Grade 8 C3.1 and C3.2 (analysis of data to inform and communicate decisions), the Grade 8 notes on storing data in lists and drawing conclusions from data, and the schoolyard-cleanup proportional reasoning example. EQAO Grade 3 and 6 window 4 May to 8 June 2027. CEMC Beaver Computing Challenge Grade 7/8 level (Grade 8 or below, 15 questions out of 90, 45 minutes, 2026 dates, 2025 participation and mean, through a school). CMA membership of Niagara Falls from StatCan 98-10-0003-01 (Internet Archive copy); area codes and Eastern offsets from facts-geo.md.",
+    "localProject": "City of Niagara Falls Open Data, Niagara Falls Community Parks and Trail Lands (Open Government Licence - Niagara Falls, commercial use allowed), downloaded with curl on 22 October 2026 and analysed with our scripts park_shares.py and page_script.py (python -I): 109 parks and 441.61 hectares; neighbourhood parks 56.0% of parks but 20.7% of land; city-wide parks 23.9% of parks but 50.0% of land; community parks 20.2% and 29.4%; both sets of rounded shares add to 100.1; 35 parks under one hectare; the City&rsquo;s own quality rating 89.1/100. Niagara Falls is a municipality in the St. Catharines - Niagara CMA; the St. Catharines layer has no licence. Labelled as ours. Lesson family: share of count against share of size, and rounding that adds to 100.1.",
+    "requiredMentions": [
+      "Data can be stored in lists, or input into a program",
+      "the choice of percentage is a choice of story",
+      "use a sample of a schoolyard cleanup",
+      "Neighbourhood parks are more than half of all the parks but only about a fifth of the land",
+      "56.0 + 23.9 + 20.2 = 100.1",
+      "Open Data Quality Rating (Beta): 89.1/100",
+      "its record carries no licence, so we did not use it",
+      "16 344 contestants, mean score 68.93 out of 90",
+      "the small ones cover 12 hectares in all",
+      "35 parks are under one hectare"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 1 math strands, C3 coding expectations.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_1___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum content API: Grade 8 math strands, C3 coding expectations and data notes.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_8___strands?depth=4"
+      },
+      {
+        "claim": "EQAO: 2026-27 Grade 3 and Grade 6 assessment window.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge: Grade 7/8 level, 2026 dates, 2025 results.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC: all students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Niagara Falls: Community Parks and Trail Lands item (description, quality rating).",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/768454489e19403abeeb1a869eb88b37?f=json"
+      },
+      {
+        "claim": "City of Niagara Falls: parks CSV download.",
+        "url": "https://open.niagarafalls.ca/api/download/v1/items/768454489e19403abeeb1a869eb88b37/csv?layers=1"
+      },
+      {
+        "claim": "City of Niagara Falls open data terms of use: Open Government Licence - Niagara Falls.",
+        "url": "https://open.niagarafalls.ca/pages/terms-of-use"
+      },
+      {
+        "claim": "Statistics Canada 98-10-0003-01: CMA, CA and CSD membership (Niagara Falls under St. Catharines - Niagara).",
+        "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000301"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any St. Catharines, Niagara Falls or Niagara population figure: StatCan was not reachable live, so none is printed.",
+      "A St. Catharines data project: the City of St. Catharines parks item has no licence information, and niagaraopendata.ca returned 403 earlier, so neither is used.",
+      "That the Niagara Falls figures describe St. Catharines or the whole region: rejected; the page says plainly they are Niagara Falls data.",
+      "Park names and the owner column detail: left out (names honour people; owner values name organisations).",
+      "An average of the City quality scores: not computed; the scores are quoted as the City publishes them.",
+      "A combined BCC participation figure across levels: not computed; the Grade 7/8 row is quoted on its own.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of Niagara schools, school boards or private people: not used.",
+      "Any affiliation with the City of St. Catharines, the City of Niagara Falls, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }

@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding classes for kids in St Catharines Niagara](/coding-classes-for-kids-in-st-catharines-niagara)
 - [Coding classes for kids in Cambridge](/coding-classes-for-kids-in-cambridge-ontario)
 - [Coding classes for kids in Abbotsford](/coding-classes-for-kids-in-abbotsford)
 - [Coding classes for kids in Langley](/coding-classes-for-kids-in-langley-bc)
