@@ -57,6 +57,10 @@ Canadian visitors keep `__MAC_IS_INDIAN = false`, so all the existing India-only
 7. **Go-live checklist (owner's word).**
    1. Deploy the backend: `857584a` (gateway charges) and `bd59cb6` (CAD). This must happen even before a `?test=canada` checkout on production. The backend live today turns any unknown currency into INR.
    2. Merge branch `ca-cad-copy` (worktree `../frontend-cadcopy`) into main. It holds the CAD crawler copy (see 9).
+      - The agent KB `.pdf` and `.docx` conflict (binary): take either side, then rerun `npm run kb && npm run kb:agent`.
+      - Run `node scripts/pricing/ca-cad-copy.js` (dry run). Any Canada page built on main since 2026-10-24 used the old USD generator; if it lists changes, rerun with `--write`. It must end with "no problems".
+      - `npm run pricing:apply`, `npm run pricing:verify`, then `node scripts/pricing/ca-cad-views.js 3001` with the dev server running.
+      - Removing the worktree: first `cmd //c rmdir node_modules` inside `../frontend-cadcopy` (it is a junction to the main checkout's node_modules; some delete tools follow it), then `git worktree remove ../frontend-cadcopy`.
    3. Set `canada.live` to true.
    4. Run `npm run pricing:apply`.
    5. Push the frontend.
@@ -66,7 +70,7 @@ Canadian visitors keep `__MAC_IS_INDIAN = false`, so all the existing India-only
    - About 8 comparison and cost pages keep one typed USD fee for Canadians.
    - The /course FAQ shows the India-only Mini Batch in rupees to every visitor abroad. This was already the case before Plan B.
    - The WhatsApp KB still says "No six or twelve month packages" although course pages sell a 6-month prepay (all regions).
-9. **CAD crawler copy (owner 2026-10-24: "all md files and llms.txt and whatsapp knowledge everything updated").** Built on branch `ca-cad-copy` so a push of main cannot publish CAD before checkout charges CAD. Commits `e70adb6fc` (173 Canada pages: fallback figures, currency label and JSON-LD on the canada row; md twins; generators in `scripts/nl/lib`; llms.txt answer via pricing:apply; llms-full) and `5d0d093a9` (WhatsApp KB). Visitors are unaffected: anchors are still priced for the visitor's region. Googlebot renders in a US time zone, so it sees $100 USD in the body and CAD 140 in the structured data on Canada pages.
+9. **CAD crawler copy (owner 2026-10-24: "all md files and llms.txt and whatsapp knowledge everything updated").** Built on branch `ca-cad-copy` so a push of main cannot publish CAD before checkout charges CAD. Commits `e70adb6fc` (173 Canada pages: fallback figures, currency label and JSON-LD on the canada row; md twins; generators in `scripts/nl/lib`; llms.txt answer via pricing:apply; llms-full) , `5d0d093a9` (WhatsApp KB) and `244978b09` (sweep and view-check scripts). The KB gateway-charge line is on main, `39b8d2615`. Visitors are unaffected: anchors are still priced for the visitor's region. Googlebot renders in a US time zone, so it sees $100 USD in the body and CAD 140 in the structured data on Canada pages.
 
 Status 2026-10-24: tasks 1 to 6 done, with real-click checks (visible 6-month Canada card, Gemini 1-on-1 CAD 350, 390px popup). Commits: backend `bd59cb6`, frontend `4b456923a` and `d09d34f8d`.
 
