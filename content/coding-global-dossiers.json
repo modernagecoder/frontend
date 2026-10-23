@@ -59212,5 +59212,71 @@
       "Recommending Claude or Claude Code to anyone under 18: refused.",
       "Any affiliation with Ville de Longueuil, Données Québec, the ministry or CEMC."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-nanaimo": {
+    "market": "Nanaimo",
+    "bodyClass": "cg-vib",
+    "pageType": "city",
+    "curriculumAuthority": "BC curriculum, read 22 October 2026: ADST 6-7 modules and the computational thinking module, ADST 10-12 computing and robotics courses, Computer Programming 12 content, Computer Science 11 and 12 under Mathematics; BC Gov News 2026AG0013-000209 permanent UTC-7; CEMC BCC format and dates, CCC date, levels and languages, CCO invitation; CCC rules on AI; Anthropic, OpenAI and GitHub age rules; Anthropic, Building effective agents (stopping conditions). Nanaimo area codes from places.tsv.",
+    "localProject": "City of Nanaimo Trails (Open Government Licence - Nanaimo), FeatureServer layer 1 queried in two pages on 23 October 2026, 2,190 segments in metres: our trail_agent.py (python -I) pages through the 219 Bowen Park segments 50 at a time; the honest plan answers 7.53 km (our sum), a stuck plan is stopped by an eight-step budget, and an early plan is rejected for reading 100 of 219 segments. Surface counts and 147 unnamed segments from our tally. Labelled as ours. Lesson family: stopping conditions and completeness.",
+    "requiredMentions": [
+      "STOPPED: budget of 8 steps spent, no answer",
+      "REJECTED: read 100 of 219 segments",
+      "Segments named Bowen Park",
+      "147 have no trail name",
+      "Open Government Licence - Nanaimo",
+      "Contains information licenced under",
+      "Departure Bay to Cedar",
+      "250, 778, 236, 672 or 257",
+      "Completeness rule",
+      "it is unsupervised"
+    ],
+    "sources": [
+      {
+        "claim": "City of Nanaimo Trails item and FeatureServer layer.",
+        "url": "https://www.arcgis.com/home/item.html?id=82dfda594b9448f7812109d6e3a11072"
+      },
+      {
+        "claim": "City of Nanaimo Open Data Catalogue Licence (Open Government Licence - Nanaimo).",
+        "url": "https://www.nanaimo.ca/your-government/maps-data/open-data-catalogue/open-data-catalogue-licence"
+      },
+      {
+        "claim": "BC curriculum ADST and Computer Programming 12.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/12/computer-programming"
+      },
+      {
+        "claim": "BC permanent daylight time.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC BCC, CCC and CCO.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "Anthropic consumer terms: 18+.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "OpenAI terms: parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/terms-of-use/"
+      },
+      {
+        "claim": "GitHub Education: Copilot free for verified students.",
+        "url": "https://github.com/education/students"
+      },
+      {
+        "claim": "Anthropic, Building effective agents: stopping conditions.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      }
+    ],
+    "rejectedClaims": [
+      "A city-wide total trail length: not printed; segment sums are given for one name only and labelled as ours.",
+      "That 7.53 km is the official length of the Bowen Park trails: refused; it is our sum of segment lengths.",
+      "Any Nanaimo population: not used.",
+      "BC graduation requirements: source blocked, not stated.",
+      "That our classes earn BC credits: refused.",
+      "Recommending Claude or Claude Code to anyone under 18: refused.",
+      "Any affiliation with the City of Nanaimo, the BC ministry or CEMC."
+    ]
   }
 }

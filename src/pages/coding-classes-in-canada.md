@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Vibe coding and AI agents classes in Nanaimo](/vibe-coding-and-ai-agents-classes-in-nanaimo)
 - [Vibe coding and AI agents classes in Longueuil](/vibe-coding-and-ai-agents-classes-in-longueuil)
 - [Vibe coding and AI agents classes in Kingston](/vibe-coding-and-ai-agents-classes-in-kingston-ontario)
 - [Vibe coding and AI agents classes in North Vancouver](/vibe-coding-and-ai-agents-classes-in-north-vancouver)
