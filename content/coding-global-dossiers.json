@@ -56065,5 +56065,64 @@
       "Any ranking of Kitchener coding providers, or that Modern Age Coders is the best: refused.",
       "Any affiliation with the City of Kitchener, the local school boards, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "best-coding-classes-for-kids-in-laval": {
+    "market": "Laval",
+    "bodyClass": "cg-bkl",
+    "pageType": "city",
+    "curriculumAuthority": "Quebec, read 22 October 2026: Charter of the French language s.1 (official language, via facts-geo.md); the ministry named as the Ministère de l&rsquo;Éducation (quebec.ca); Secondary Cycle Two math options and their pre-university route (PFEQ English PDF). No primary source on Quebec elementary coding was found, so none is claimed. CEMC contest languages (BCC English only, CCC English and French), BCC 2026 dates, the 2027 CCC date and the through-a-school rule. Laval in the Montreal CMA, the 354/450/579 overlay and Eastern time offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e).",
+    "localProject": "Ville de Laval, Sites de loisirs, on Donnees Quebec (CC BY 4.0), CSV downloaded 22 October 2026 (194,689 bytes, 1,264 rows, UTF-8) and counted with our script page_script.py (python -I -X utf8): Modules de jeux 28 rows, only in Secteur 2 (16) and Secteur 3 (12); Jeu d&rsquo;eau 9; Pataugeoire 18; Butte de glisse 1; 24 blank rows; 35 facility types, 9 with accents; the encoding demonstration mojibake.py shows the latin-1 misreading. No phone numbers or site names printed. Labelled as ours. Lesson family: French headers and accented UTF-8 text.",
+    "requiredMentions": [
+      "Régional RÃ©gional",
+      "All 28 Modules de jeux rows sit in Secteur 2 and Secteur 3",
+      "Butte de glisse (sledding hill)",
+      "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "Before any counting, children in our upper classes",
+      "Laval numbers use 450, 579 and 354",
+      "une boucle",
+      "pointage = 0",
+      "Twenty-four rows are blank in every column"
+    ],
+    "sources": [
+      {
+        "claim": "Charter of the French language, CQLR c C-11, s.1 (official language of Quebec).",
+        "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/C-11"
+      },
+      {
+        "claim": "Quebec government education portal: the Ministere de l'Education named.",
+        "url": "https://www.quebec.ca/en/education"
+      },
+      {
+        "claim": "Quebec Education Program, Secondary Cycle Two mathematics (English PDF): the three options and pre-university access.",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/pfeq/secondaire/programmes/PFEQ-mathematique-deuxieme-cycle-secondaire-AN.pdf"
+      },
+      {
+        "claim": "CEMC contests: languages of the BCC and CCC, 2026-27 dates, through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Ville de Laval, Sites de loisirs dataset on Donnees Quebec (CC BY 4.0).",
+        "url": "https://www.donneesquebec.ca/recherche/dataset/sites-de-loisirs"
+      },
+      {
+        "claim": "Donnees Quebec licence page: CC BY allows commercial reuse with credit.",
+        "url": "https://www.donneesquebec.ca/licence/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto (used by Quebec) offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Laval population or language-statistics figure: StatCan was not reachable live.",
+      "How Quebec elementary schools teach coding: no primary source found, so no claim is made.",
+      "That children must or must not attend French-language school, or any rule on the language of instruction: not verified, not stated.",
+      "That four Laval sectors have no play structures: refused; the label is uneven in the file.",
+      "The meaning of ind_sans_reserv: given only as our reading, not as fact.",
+      "Phone numbers and site names from the file, including school sites: not printed.",
+      "That we teach in French: refused; our classes are in English.",
+      "Any ranking of Laval coding providers, or that Modern Age Coders is the best: refused.",
+      "Any affiliation with the Ville de Laval, Donnees Quebec, the Ministere de l'Education, CEMC or the University of Waterloo."
+    ]
   }
 }
