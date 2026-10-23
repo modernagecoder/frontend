@@ -55827,5 +55827,67 @@
       "CEMC fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the City of Markham, the Markham school boards, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "best-coding-classes-for-kids-in-vancouver": {
+    "market": "Vancouver",
+    "bodyClass": "cg-bkv",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia, read 22 October 2026 from curriculum.gov.bc.ca and saved raw: ADST 6-7 core page, the minimum-three-modules rule for Grades 6 and 7, schools choosing or developing modules, and the Computational Thinking module content (simple algorithms for sorting, searching, sequence, selection and repetition; cryptography and code breaking; visual programming with Kodu and Scratch as examples). BC Gov News 2026AG0013-000209 on permanent Pacific time (UTC-7, final change 8 March 2026, no change on 1 November 2026). CEMC BCC dates and the school rule; UFV Math Kangaroo host-centre page (grade versions, Fraser Valley sitting 21 March 2027). Vancouver area codes from facts-geo.md (CNAC via the Internet Archive).",
+    "localProject": "City of Vancouver Open Data, Parks (218 rows) and Parks facilities (645 rows), Open Government Licence - Vancouver, downloaded 22 October 2026 and joined on parkid with our script page_script.py (python -I): 114 parks with a Playgrounds row; 52 of them list washrooms Y; 21 of 22 neighbourhood names have at least one, Shaughnessy none; Renfrew-Collingwood 12, Kensington-Cedar Cottage 11, Hastings-Sunrise 9, Grandview-Woodland 8, Mount Pleasant 8, Downtown 7, Marpole 7; the comma-delimiter trap shown with trap.py. facilitycount never summed. Labelled as ours. Lesson family: delimiter trap and a two-file join.",
+    "requiredMentions": [
+      "parkid;name;official;...",
+      "Shaughnessy has none in this file",
+      "Only 52 of the 114 playground parks list one",
+      "Renfrew-Collingwood",
+      "Open Government Licence - Vancouver",
+      "India stays 12 hours 30 minutes ahead of Vancouver",
+      "cryptography and code breaking",
+      "Vancouver phones use 604, 778, 236, 672 or 257",
+      "over 220 parks, while the parks file we downloaded has 218 rows"
+    ],
+    "sources": [
+      {
+        "claim": "BC curriculum, ADST 6-7 core: module rule and Computational Thinking content.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst/6/core"
+      },
+      {
+        "claim": "BC Gov News: permanent year-round Pacific time, UTC-7, final change on 8 March 2026.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge: 2026 dates, no coding needed, through a school.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "University of the Fraser Valley, Canadian Math Kangaroo host-centre page: grade versions and the 2027 Fraser Valley date.",
+        "url": "https://ufv.ca/math/contests/canadian-math-kangaroo"
+      },
+      {
+        "claim": "City of Vancouver Open Data: Parks dataset.",
+        "url": "https://opendata.vancouver.ca/explore/dataset/parks/"
+      },
+      {
+        "claim": "City of Vancouver Open Data: Parks facilities dataset (updated weekly).",
+        "url": "https://opendata.vancouver.ca/explore/dataset/parks-facilities/"
+      },
+      {
+        "claim": "Open Government Licence - Vancouver: commercial use, attribution statement, non-endorsement.",
+        "url": "https://opendata.vancouver.ca/pages/licence/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Vancouver on UTC-7 all year.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Vancouver population figure: StatCan was not reachable live.",
+      "A total number of playgrounds in Vancouver: refused; facilitycount is per park and is not summed into a city total.",
+      "That Shaughnessy has no playgrounds: refused; the file lists no Playgrounds row for its parks, which is a statement about the file only.",
+      "That every Vancouver child takes the Computational Thinking module: refused; BC lets schools choose the modules.",
+      "Any ranking of Vancouver coding providers, or that Modern Age Coders is the best: refused.",
+      "That we run robotics hardware classes: refused; we teach the programming side.",
+      "Contest fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the City of Vancouver, the Park Board, the BC education ministry, any school district, CEMC, the University of Waterloo, the University of the Fraser Valley or Math Kangaroo."
+    ]
   }
 }
