@@ -57844,5 +57844,72 @@
       "Names of Halifax schools, regional centres results or private people: not used.",
       "Any affiliation with Halifax Regional Municipality, the Nova Scotia education department, the Nova Scotia Virtual School, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-london-ontario": {
+    "market": "London",
+    "bodyClass": "cg-alo",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API (saved raw in ca/src/ontario/): ICS3U and ICS4U descriptions and prerequisites, MCR3U, MHF4U and MCV4U prerequisites (MHF4U before or with MCV4U), ICD2O (2023, Open); ontario.ca OSSD page (computer studies in the STEM group); EQAO Grade 9 format and 2027 window. University of Waterloo CS page (requirements, ICS3U recommended, contests and scholarships, AIF 15 February 2027). CEMC CCC page (format, ladders, 2026 means, Python caveat, 2027 date) and Euclid date. London area codes and Eastern offsets from facts-geo.md.",
+    "localProject": "City of London Open Data, Park Amenities (Terms of Use - City of London Open Data, any lawful purpose), CSV downloaded with curl on 22 October 2026 and analysed with our script amenities_page.py (python -I): 1,225 rows; 1,073 with a year; decades 1990s 181, 2000s 279, 2010s 290, 2020s 262; 203 rows dated 2021 (School 164, City 32, Private 7); all 276 school rows dated 2021 or blank (112); Peewee 25 and PeeWee 1. The record-entry reading of 2021 is labelled our inference. Lesson family: a year histogram and a cross-tab that explains a spike; case normalisation.",
+    "requiredMentions": [
+      "Terms of Use for City of London open data",
+      "203 rows dated 2021",
+      "Not a single school row carries any other year",
+      "Peewee 25 times and as PeeWee once",
+      "141 of them in 1996 alone",
+      "164 are school-owned, 32 city-owned and 7 private",
+      "online test of 54 questions over two sessions",
+      "2026 average score",
+      "hold projected map coordinates",
+      "6:30 pm weekday in London"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: ICS3U, ICS4U, MCR3U, MHF4U, MCV4U and ICD2O course records and prerequisites.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code%5Bin%5D=MCR3U,MHF4U,MCV4U,MDM4U,MPM2D,MTH1W,MCF3M,MAP4C,MEL4E&depth=0"
+      },
+      {
+        "claim": "Ontario: earning your high school diploma (STEM compulsory credit group, math credits).",
+        "url": "https://www.ontario.ca/page/high-school-graduation-requirements"
+      },
+      {
+        "claim": "EQAO Grade 9 Assessment of Mathematics: format, adaptive model, course mark.",
+        "url": "https://www.eqao.com/the-assessments/grade-9-math/"
+      },
+      {
+        "claim": "University of Waterloo Computer Science: Ontario requirements, recommended course, contests and scholarships.",
+        "url": "https://uwaterloo.ca/future-students/programs/computer-science"
+      },
+      {
+        "claim": "CEMC Canadian Computing Competition: format, ladders, languages, 2026 results, 2027 date.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC Euclid contest: eligibility and 2027 date.",
+        "url": "https://cemc.uwaterloo.ca/contests/euclid"
+      },
+      {
+        "claim": "City of London Open Data: Park Amenities dataset.",
+        "url": "https://opendata.london.ca/datasets/716311972be047f39a5937247ed80a2c_1"
+      },
+      {
+        "claim": "Terms of Use - City of London Open Data (any lawful purpose, optional credit, no endorsement).",
+        "url": "https://london.maps.arcgis.com/sharing/rest/content/items/e31458fd0c7e41dd9f93144a9550781d/data"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "That 203 amenities were built in London in 2021: not claimed; the file only dates them 2021, and our record-entry reading is labelled an inference.",
+      "Any London or southwestern Ontario population figure: StatCan was not reachable live.",
+      "Names of London schools, universities other than as an admission source, or private people: not used; no addresses printed.",
+      "That ICS3U is required for every computer science degree: refused; Waterloo lists it as recommended, and each university sets its own rules.",
+      "That our classes earn or count toward an Ontario credit: refused; we do not grant Ontario credits.",
+      "A total of all amenities built per decade across owners summed with blanks: not printed; 152 rows with no year are reported separately.",
+      "CEMC fees: left out of the copy on purpose (currency-neutral page).",
+      "Any affiliation with the City of London, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
