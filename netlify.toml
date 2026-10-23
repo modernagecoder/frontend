@@ -26685,6 +26685,18 @@
   to = "/src/pages/coding-and-ai-classes-in-saskatoon.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-regina"
+  to = "/src/pages/coding-and-ai-classes-in-regina.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-and-ai-classes-in-regina.md"
+  to = "/src/pages/coding-and-ai-classes-in-regina.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

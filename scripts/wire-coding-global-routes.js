@@ -1189,6 +1189,7 @@ const MARKETS = [
   ['coding-and-ai-classes-in-halifax-nova-scotia', 'Halifax'],
   ['coding-and-ai-classes-in-london-ontario', 'London, Ontario'],
   ['coding-and-ai-classes-in-saskatoon', 'Saskatoon'],
+  ['coding-and-ai-classes-in-regina', 'Regina'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

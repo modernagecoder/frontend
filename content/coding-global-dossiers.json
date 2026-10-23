@@ -57971,5 +57971,65 @@
       "Names of Saskatoon schools, school divisions results or private people: not used.",
       "Any affiliation with the City of Saskatoon, Saskatoon Transit, the Saskatchewan Ministry of Education, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-regina": {
+    "market": "Regina",
+    "bodyClass": "cg-ar",
+    "pageType": "city",
+    "curriculumAuthority": "Saskatchewan Ministry of Education curriculum site, read raw 22 October 2026 (copies in ca/src/coding-classes-in-saskatchewan/): Computer Science 30 outcomes CP2, FP1 to FP4, CC1, CC2, CAP1, CAP2; Pre-Calculus 30 P30.2, P30.9, P30.10, P30.12, PC30.13; Calculus 30 C30.3, C30.4, C30.6. The Time Act, 2026, Bill No. 58 text (UTC-6, Lloydminster, in force by order). CEMC Fryer, Galois, Hypatia, CTMC and Problem of the Week facts and the through-a-school rule. America/Regina offsets and the 306/639/474 area codes from facts-geo.md.",
+    "localProject": "City of Regina open data, ParksAndAmenities layers 0 and 1 (Open Government Licence - City of Regina), downloaded with curl on 22 October 2026 and reconciled with our script reconcile_page.py (python -I): 998 park areas under 442 names; PLAYGROUND Yes on 210 areas (200 names); 254 playground points on 220 names; 175 names on both lists, 25 flag only, 45 point only (35 absent from layer 0); winter amenity counts. No park or school names printed. Labelled as ours. Lesson family: reconciling two tables with set operations on a key, and why a text key fails.",
+    "requiredMentions": [
+      "Open Government Licence - City of Regina",
+      "998 areas carry only 442 names",
+      "agree on 175 park names and differ on 70",
+      "35 never appear among the park areas",
+      "19 toboggan hills",
+      "Engage in collaborative programming practices.",
+      "34 outdoor rink shelters",
+      "Booked once, fixed all year",
+      "11:00 am on a Sunday",
+      "teams of six students from any mix of Grades 9 to 12"
+    ],
+    "sources": [
+      {
+        "claim": "Saskatchewan curriculum: Computer Science 30 outcomes.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumHome?id=444"
+      },
+      {
+        "claim": "Saskatchewan curriculum: Pre-Calculus 30 and Calculus 30 outcomes.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumOutcomeContent?id=159"
+      },
+      {
+        "claim": "Legislative Assembly of Saskatchewan: The Time Act, 2026, Bill No. 58.",
+        "url": "https://docs.legassembly.sk.ca/legdocs/Bills/30L2S/Bill30-58.pdf"
+      },
+      {
+        "claim": "City of Regina ParksAndAmenities map service (layers 0 and 1).",
+        "url": "https://opengis.regina.ca/arcgis/rest/services/OpenData/ParksAndAmenities/MapServer"
+      },
+      {
+        "claim": "City of Regina: Open Government Licence (commercial use, attribution, non-endorsement).",
+        "url": "https://regina.ca/city-government/open-data/open-government-licence"
+      },
+      {
+        "claim": "CEMC: Fryer, Galois, Hypatia, CTMC and Problem of the Week, 2026-27.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Regina, no daylight saving time.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "That Regina has 254 playgrounds, or that 45 are missing from the map: refused; the layers support only the reconciliation counts.",
+      "That the Time Act, 2026 is in force: not claimed; only the bill text was read.",
+      "That Regina is the capital of Saskatchewan: not stated; marked UNVERIFIED in facts-geo.md.",
+      "Any Regina population figure: StatCan was not reachable live.",
+      "Park or school names from the City layers: not printed (school names appear in the NAME column).",
+      "That our Grade 12 math course was written for Pre-Calculus 30: not claimed; matched to the school outline.",
+      "That our classes grant a Saskatchewan credit: refused; we do not grant provincial credits.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the City of Regina, the Saskatchewan Ministry of Education, the Legislative Assembly, CEMC or the University of Waterloo."
+    ]
   }
 }

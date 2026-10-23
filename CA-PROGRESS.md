@@ -312,7 +312,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 129 | ai-and-python-classes-for-teens-in-fredericton (aptf, #165C1A) | city | 4,383 | 2.7% vs ai-and-python-classes-for-teens-in-brampton | teen city page | city data ML | 79712837 |
 | 107 | coding-and-ai-classes-in-halifax-nova-scotia (ahns, #122E7A) | city | 3,864 | 2.6% vs coding-classes-in-quebec | city page | city open data | db92aef4 |
 | 108 | coding-and-ai-classes-in-london-ontario (alo, #21194C) | city | 3,770 | 2.6% vs coding-and-ai-classes-in-toronto | city page | city open data | 74dac91c |
-| 109 | coding-and-ai-classes-in-saskatoon (aisa, #6B404A) | city | 3,655 | 2.3% vs coding-and-ai-classes-in-halifax-nova-scotia | city page | city open data | (this commit) |
+| 109 | coding-and-ai-classes-in-saskatoon (aisa, #6B404A) | city | 3,655 | 2.3% vs coding-and-ai-classes-in-halifax-nova-scotia | city page | city open data | a31b970f |
+| 110 | coding-and-ai-classes-in-regina (ar, #992617) | city | 3,521 | 2.7% vs coding-classes-in-saskatchewan | city page | city open data | (this commit) |
 
 ## Skipped
 
