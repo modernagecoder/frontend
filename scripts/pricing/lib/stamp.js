@@ -188,7 +188,8 @@ function stampJsonLd(html, config, report) {
             // the scope's region turned a ₹1,499 INR offer into $149.99 USD, 
             // a fabricated dollar price on a rupee plan.
             const curM = offerText.match(/"priceCurrency"\s*:\s*"([^"]*)"/);
-            const region = (curM && curM[1] === 'INR') ? 'india' : parts[1];
+            const region = (curM && curM[1] === 'INR') ? 'india'
+                : (curM && curM[1] === 'CAD') ? 'canada' : parts[1];
             const key = parts[0] + '.' + region + '.' + tier;
 
             let r;

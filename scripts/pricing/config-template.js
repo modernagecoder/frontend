@@ -35,7 +35,13 @@ const FIELDS = [
     ['six.india.miniBatch', '6 months paid at once, Mini Batch (India)'],
     ['six.india.personal', '6 months paid at once, 1-on-1 (India)'],
     ['six.intl.group', '6 months paid at once, Group (USD)'],
-    ['six.intl.personal', '6 months paid at once, 1-on-1 (USD)']
+    ['six.intl.personal', '6 months paid at once, 1-on-1 (USD)'],
+    ['ca.group', 'CANADA, Group (CAD, all courses)'],
+    ['ca.personal', 'CANADA, 1-on-1 (CAD, all courses)'],
+    ['gemini.ca.personal', 'Google Gemini Enterprise agents programme, 1-on-1 (CAD, per 8-class month)'],
+    ['camps.ca.oneTime', 'Holiday camp, one payment (CAD)'],
+    ['six.ca.group', '6 months paid at once, Group (CAD)'],
+    ['six.ca.personal', '6 months paid at once, 1-on-1 (CAD)']
 ];
 
 function num(v) {
@@ -64,6 +70,8 @@ function render(v) {
 //  PRICING MODEL (deliberately simple, owner's decision 2026-08-01):
 //  one USD price list for every country outside India, rupees inside India.
 //  Detection is automatic; international visitors are charged in USD.
+//  Canada (owner 2026-10-22/23) has its own CAD list, 1.4 x the USD one,
+//  used for visitors in a Canadian time zone once "canada.live" is true.
 //
 //  Rules: plain digits only (7500, never 7,500 or "7500" or ₹7500).
 //  null means "we do not sell this", the plan is hidden, never given a
@@ -83,14 +91,16 @@ function render(v) {
 
     "coding": {
       "india":         { "group": ${num(v['coding.india.group'])}, "miniBatch": ${num(v['coding.india.miniBatch'])}, "personal": ${num(v['coding.india.personal'])} },
-      "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
+      "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} },
+      "canada":        { "group": ${num(v['ca.group'])},  "miniBatch": null, "personal": ${num(v['ca.personal'])} }
     },
 
     // Maths is listed separately so it can differ from coding when the owner
     // wants it to (today it matches coding on every tier).
     "maths": {
       "india":         { "group": ${num(v['maths.india.group'])}, "miniBatch": ${num(v['maths.india.miniBatch'])}, "personal": ${num(v['maths.india.personal'])} },
-      "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
+      "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} },
+      "canada":        { "group": ${num(v['ca.group'])},  "miniBatch": null, "personal": ${num(v['ca.personal'])} }
     },
 
     // The AI agents courses (Codex + Claude Code, and AI Agents with Copilot
@@ -100,7 +110,8 @@ function render(v) {
     // Mini Batch plans, so those two numbers never show there).
     "agents": {
       "india":         { "group": ${num(v['agents.india.group'])}, "miniBatch": ${num(v['agents.india.miniBatch'])}, "personal": ${num(v['agents.india.personal'])} },
-      "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} }
+      "international": { "group": ${num(v['intl.group'])},  "miniBatch": null, "personal": ${num(v['intl.personal'])} },
+      "canada":        { "group": ${num(v['ca.group'])},  "miniBatch": null, "personal": ${num(v['ca.personal'])} }
     },
 
     // The premium Google Gemini Enterprise agent-building programme (see
@@ -109,19 +120,22 @@ function render(v) {
     // course never sells them.
     "gemini": {
       "india":         { "group": null, "miniBatch": null, "personal": ${num(v['gemini.india.personal'])} },
-      "international": { "group": null, "miniBatch": null, "personal": ${num(v['gemini.intl.personal'])} }
+      "international": { "group": null, "miniBatch": null, "personal": ${num(v['gemini.intl.personal'])} },
+      "canada":        { "group": null, "miniBatch": null, "personal": ${num(v['gemini.ca.personal'])} }
     },
 
     // In-school bootcamp programmes (published inside school-page FAQ schema).
     "school": {
       "india":         { "group": ${num(v['school.india.group'])}, "miniBatch": null, "personal": ${num(v['school.india.personal'])} },
-      "international": { "group": null, "miniBatch": null, "personal": null }
+      "international": { "group": null, "miniBatch": null, "personal": null },
+      "canada":        { "group": null, "miniBatch": null, "personal": null }
     },
 
     // Holiday camps: one payment, not monthly.
     "camps": {
       "india":         { "oneTime": ${num(v['camps.india.oneTime'])} },
-      "international": { "oneTime": ${num(v['camps.intl.oneTime'])} }
+      "international": { "oneTime": ${num(v['camps.intl.oneTime'])} },
+      "canada":        { "oneTime": ${num(v['camps.ca.oneTime'])} }
     }
   },
 
@@ -131,13 +145,34 @@ function render(v) {
   //  "6 months" tab, with the saving worked out against six monthly payments.
   //  Applies to every course on the subjects in "appliesTo". null = no
   //  6-month option for that plan. A brand-new figure here must also be added
-  //  to the backend's VALID_INR_AMOUNTS / VALID_USD_AMOUNTS or checkout
-  //  refuses it.
+  //  to the backend's VALID_INR_AMOUNTS / VALID_USD_AMOUNTS /
+  //  VALID_CAD_AMOUNTS or checkout refuses it.
   // ───────────────────────────────────────────────────────────────────────
   "sixMonth": {
     "appliesTo": ["coding", "maths", "agents"],
     "india":         { "group": ${num(v['six.india.group'])}, "miniBatch": ${num(v['six.india.miniBatch'])}, "personal": ${num(v['six.india.personal'])} },
-    "international": { "group": ${num(v['six.intl.group'])},  "miniBatch": null,  "personal": ${num(v['six.intl.personal'])} }
+    "international": { "group": ${num(v['six.intl.group'])},  "miniBatch": null,  "personal": ${num(v['six.intl.personal'])} },
+    "canada":        { "group": ${num(v['six.ca.group'])},  "miniBatch": null,  "personal": ${num(v['six.ca.personal'])} }
+  },
+
+  // ───────────────────────────────────────────────────────────────────────
+  //  CANADA  (owner's decisions 2026-10-22 and 2026-10-23)
+  //  Visitors in a Canadian time zone see and pay the "canada" prices above,
+  //  in CAD, even with an Indian browser language; an Indian time zone still
+  //  means rupees. While "live" is false every Canadian is shown USD and only
+  //  ?test=canada shows the CAD view (for previewing). Set it to true only
+  //  after the backend that accepts CAD is deployed.
+  // ───────────────────────────────────────────────────────────────────────
+  "canada": {
+    "live": ${v['canada.live'] ? 'true' : 'false'},
+    "timeZones": ["America/Toronto", "America/Montreal", "America/Vancouver", "America/Edmonton", "America/Winnipeg",
+      "America/Regina", "America/Swift_Current", "America/Halifax", "America/Glace_Bay", "America/Moncton",
+      "America/Goose_Bay", "America/St_Johns", "America/Whitehorse", "America/Dawson", "America/Dawson_Creek",
+      "America/Fort_Nelson", "America/Creston", "America/Yellowknife", "America/Inuvik", "America/Iqaluit",
+      "America/Rankin_Inlet", "America/Resolute", "America/Cambridge_Bay", "America/Atikokan", "America/Blanc-Sablon",
+      "America/Nipigon", "America/Thunder_Bay", "America/Rainy_River", "America/Pangnirtung",
+      "Canada/Atlantic", "Canada/Central", "Canada/Eastern", "Canada/Mountain", "Canada/Newfoundland",
+      "Canada/Pacific", "Canada/Saskatchewan", "Canada/Yukon"]
   },
 
   // ───────────────────────────────────────────────────────────────────────
@@ -167,7 +202,7 @@ function render(v) {
   //  DISPLAY
   // ───────────────────────────────────────────────────────────────────────
   "display": {
-    "chargeCurrencies": { "india": "INR", "international": "USD" },
+    "chargeCurrencies": { "india": "INR", "international": "USD", "canada": "CAD" },
     "periodLabels": { "monthly": "/month", "oneTime": "" },
     // Used to recalculate the "per class" figures on some pages. 8 fits the
     // group/mini-batch schedule (2 classes a week). Plans on a different
@@ -221,7 +256,14 @@ function extract(cfg) {
         'six.india.miniBatch': six('india', 'miniBatch'),
         'six.india.personal': six('india', 'personal'),
         'six.intl.group': six('international', 'group'),
-        'six.intl.personal': six('international', 'personal')
+        'six.intl.personal': six('international', 'personal'),
+        'ca.group': g('coding', 'canada', 'group'),
+        'ca.personal': g('coding', 'canada', 'personal'),
+        'gemini.ca.personal': g('gemini', 'canada', 'personal'),
+        'camps.ca.oneTime': g('camps', 'canada', 'oneTime'),
+        'six.ca.group': six('canada', 'group'),
+        'six.ca.personal': six('canada', 'personal'),
+        'canada.live': !!(cfg.canada && cfg.canada.live)
     };
 }
 

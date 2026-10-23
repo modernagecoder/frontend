@@ -125,7 +125,7 @@ function currentAmounts(config) {
     if (CURRENT_AMOUNTS) return CURRENT_AMOUNTS;
     const s = new Set();
     Object.keys(config.plans).forEach(function (subject) {
-        ['india', 'international'].forEach(function (region) {
+        ['india', 'international', 'canada'].forEach(function (region) {
             const t = config.plans[subject][region] || {};
             Object.keys(t).forEach(function (tier) {
                 if (typeof t[tier] === 'number') s.add(String(t[tier]));
@@ -238,7 +238,7 @@ function checkSixMonth(rel, html, config) {
     const grids = html.split('class="six-grid').slice(1);
     grids.forEach(function (chunk) {
         const head = chunk.slice(0, 200);
-        const region = /data-intl-only/.test(head) ? 'international' : 'india';
+        const region = /data-ca-only/.test(head) ? 'canada' : /data-intl-only/.test(head) ? 'international' : 'india';
         const end = chunk.indexOf('class="six-grid');
         const body = end === -1 ? chunk : chunk.slice(0, end);
         const rx = /class="six-total">([^<]*)<\/div>[\s\S]*?data-plan-type="(\w+)" data-billing="sixMonth"/g;
@@ -340,7 +340,8 @@ function checkFile(rel, config) {
             // its region, the scope only supplies the subject. India-facing
             // pages legitimately publish INR and USD offers in one block.
             const curM = offerText.match(/"priceCurrency"\s*:\s*"([^"]*)"/);
-            const region = (curM && curM[1] === 'INR') ? 'india' : scope.split('.')[1];
+            const region = (curM && curM[1] === 'INR') ? 'india'
+                : (curM && curM[1] === 'CAD') ? 'canada' : scope.split('.')[1];
             const key = scope.split('.')[0] + '.' + region + '.' + tier;
 
             let r;

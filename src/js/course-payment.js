@@ -292,9 +292,11 @@ const CoursePayment = {
         : (ip && ip.isAgentsContext && ip.isAgentsContext()) ? 'agents'
         : (ip && ip.isMathsContext && ip.isMathsContext()) ? 'maths' : 'coding';
 
-      // Flat model: one USD price list for everyone outside India.
-      var amount = (data.plans[subject] && data.plans[subject].international)
-        ? data.plans[subject].international[planType] : null;
+      // One price list for everyone outside India: USD, or CAD for a
+      // visitor on the Canada list.
+      var abroad = this.abroadRegion();
+      var amount = (data.plans[subject] && data.plans[subject][abroad])
+        ? data.plans[subject][abroad][planType] : null;
 
       if (amount === null || amount === undefined) return null;   // not sold
       p = {
@@ -318,6 +320,7 @@ const CoursePayment = {
   // the plan is not sold for 6 months; callers then stop rather than fall
   // back to the monthly amount.
   getSixMonthPricing: function(planType, region) {
+    if (region === 'international') region = this.abroadRegion();
     var data = window.MAC_PRICING;
     var six = data && data.sixMonth;
     if (!six || !six[region]) return null;
@@ -393,7 +396,7 @@ const CoursePayment = {
     }
 
     const displayPricing = isIndian ? pricing : intlP;
-    const bill = this.gatewayBill(displayPricing.amount, isIndian ? 'INR' : 'USD');
+    const bill = this.gatewayBill(displayPricing.amount, this.chargeCurrency(isIndian));
     const phoneMaxLength = isIndian ? '10' : '15';
     const phonePlaceholder = isIndian ? '10-digit mobile number' : 'Phone number';
     // "₹1,499/month" -> "₹1,499" + "/month", so the figure can be set large.
@@ -473,7 +476,7 @@ const CoursePayment = {
 
     this._fb('InitiateCheckout', {
       value: bill.totalAmount,
-      currency: isIndian ? 'INR' : 'USD',
+      currency: this.chargeCurrency(isIndian),
       num_items: 1,
       plan: planType + (sixMonth ? '_6month' : '')
     });
@@ -528,9 +531,9 @@ const CoursePayment = {
     var pct = (gf && typeof gf.percent === 'number') ? gf.percent : 2.5;
     var baseMinor = Math.round(Number(amount) * 100);
     var feeMinor = Math.round(baseMinor * Math.round(pct * 100) / 10000);
-    var usd = currency === 'USD';
+    var inr = currency === 'INR';
     var fmt = function(minor) {
-      return (usd ? '$' : '₹') + (minor / 100).toLocaleString(usd ? 'en-US' : 'en-IN',
+      return (inr ? '₹' : '$') + (minor / 100).toLocaleString(inr ? 'en-IN' : 'en-US',
         { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 });
     };
     return {
@@ -538,9 +541,22 @@ const CoursePayment = {
       label: (gf && gf.label) || 'Payment gateway charges',
       planFee: fmt(baseMinor),
       fee: fmt(feeMinor),
-      total: fmt(baseMinor + feeMinor),
+      // A Canadian dollar total carries its code: a bare "$" reads as US.
+      total: fmt(baseMinor + feeMinor) + (currency === 'CAD' ? ' CAD' : ''),
       totalAmount: (baseMinor + feeMinor) / 100
     };
+  },
+
+  // The price list a visitor outside India is on: 'canada' (CAD) or
+  // 'international' (USD). Set by international-pricing.js.
+  abroadRegion: function() {
+    return window.__MAC_REGION === 'canada' ? 'canada' : 'international';
+  },
+
+  // The currency this visitor pays in: INR, USD, or CAD on the Canada list.
+  chargeCurrency: function(isIndian) {
+    if (isIndian) return 'INR';
+    return this.abroadRegion() === 'canada' ? 'CAD' : 'USD';
   },
 
   // Meta Pixel standard event. value is always the major-unit amount the
@@ -815,7 +831,7 @@ const CoursePayment = {
       }
 
       const finalAmount = isIndian ? amount : intlP.amount;
-      const currency = isIndian ? 'INR' : 'USD';
+      const currency = this.chargeCurrency(isIndian);
 
       // Create order
       const apiUrl = this.getApiUrl();
@@ -958,7 +974,7 @@ const CoursePayment = {
     try {
       var currency = (payment && payment.currency)
         ? payment.currency
-        : ((window.__MAC_IS_INDIAN === false) ? 'USD' : 'INR');
+        : this.chargeCurrency(window.__MAC_IS_INDIAN !== false);
       var planType = (payment && payment.planType) || null;
       var planName = planType ? this.getPlanName(planType) : '';
       if (planName && this._billing === 'sixMonth') planName += ', 6 months paid at once';
@@ -1000,6 +1016,7 @@ const CoursePayment = {
   showSuccessMessage: function(payment) {
     const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
     const currencySymbol = isIndian ? '₹' : '$';
+    const currencyCode = this.chargeCurrency(isIndian) === 'CAD' ? ' CAD' : '';
     const successHtml = `
       <div id="payment-success-modal" class="payment-modal-overlay mac-pay-overlay" role="dialog" aria-modal="true">
         <div class="mac-pay mac-pay-done">
@@ -1011,7 +1028,7 @@ const CoursePayment = {
               <span class="mac-pay-label">Order ID</span>
               <strong class="mac-pay-plan-name">${payment.orderId}</strong>
             </div>
-            <div class="mac-pay-price"><b>${currencySymbol}${payment.amount}</b></div>
+            <div class="mac-pay-price"><b>${currencySymbol}${payment.amount}${currencyCode}</b></div>
           </div>
           <p class="mac-pay-note">We have received your response. We will reach out to you within 48 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p>
           <button type="button" class="mac-pay-btn" onclick="document.getElementById('payment-success-modal').remove();document.body.classList.remove('mac-pay-open')"><span>Continue</span></button>

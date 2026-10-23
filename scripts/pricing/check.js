@@ -192,6 +192,15 @@ function showPrices(config) {
     console.log('    ' + 'Holiday camp (one-time)'.padEnd(26) + inr(c.india.oneTime).padStart(10) + usd(c.international.oneTime).padStart(18));
     console.log('');
     console.log('    Everyone outside India pays the same flat USD prices, for all courses.');
+    if (config.canada) {
+        const cad = (n) => n == null ? 'not sold' : cfgLib.format(n, 'CAD') + ' CAD';
+        const ca = function (s, t) { return config.plans[s] && config.plans[s].canada ? config.plans[s].canada[t] : null; };
+        const six = config.sixMonth && config.sixMonth.canada || {};
+        console.log('');
+        console.log('    Canada (' + (config.canada.live ? 'LIVE for Canadian time zones' : 'NOT live yet: only ?test=canada shows it') + '):');
+        console.log('      Group ' + cad(ca('coding', 'group')) + '/month, 1-on-1 ' + cad(ca('coding', 'personal')) + '/month, Gemini 1-on-1 ' +
+            cad(ca('gemini', 'personal')) + '/month, camp ' + cad(ca('camps', 'oneTime')) + ', 6 months: group ' + cad(six.group) + ', 1-on-1 ' + cad(six.personal));
+    }
     const offer = config.sixMonth && config.sixMonth.appliesTo && cfgLib.sixMonthOffer(config.sixMonth.appliesTo[0], config);
     if (offer) {
         console.log('');

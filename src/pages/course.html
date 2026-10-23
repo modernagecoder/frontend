@@ -2828,7 +2828,10 @@
                 // so their cards quote the agents-tier 1-on-1 rate from the config
                 //. There is no ₹1,499 group plan for them to "start" at.
                 const isOneOnOneOnly = /copilot-studio|gemini-enterprise/i.test(course.templateUrl || '');
-                const intlStart = '$100';   // flat model: every course, one USD price list
+                // One price list abroad: USD, or CAD on the Canada list.
+                const abroad = window.__MAC_REGION === 'canada' ? 'canada' : 'international';
+                const abroadGroup = window.MAC_PRICING && window.MAC_PRICING.plans.coding[abroad] && window.MAC_PRICING.plans.coding[abroad].group;
+                const intlStart = abroadGroup ? '$' + abroadGroup : '$100';
                 // A 1-on-1-only card quotes its own row's 1-on-1 price straight from
                 // the config table (window.MAC_PRICING, loaded before this runs), so
                 // a price change in pricing.config.jsonc reaches the card without a
@@ -2840,7 +2843,7 @@
                 const fmt = (n, cur) => (n == null) ? null : (cur === 'INR' ? '₹' : '$') +
                     new Intl.NumberFormat(cur === 'INR' ? 'en-IN' : 'en-US').format(n);
                 const oneOnOnePrice = cardRow
-                    ? (isIndian ? fmt(cardRow.india && cardRow.india.personal, 'INR') : fmt(cardRow.international && cardRow.international.personal, 'USD'))
+                    ? (isIndian ? fmt(cardRow.india && cardRow.india.personal, 'INR') : fmt(cardRow[abroad] && cardRow[abroad].personal, 'USD'))
                     : null;
                 const priceAmount = isIndian
                     ? (isOneOnOneOnly ? (oneOnOnePrice || '₹4,999') : '₹1,499')
@@ -3415,8 +3418,8 @@
     <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/keyboard-navigation.js"></script>
     <script src="/js/tab-accessibility.js"></script>
-    <script src="/js/pricing-data.generated.js?v=37295cacd5"></script>
-    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+    <script src="/js/pricing-data.generated.js?v=c7df34f959"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
 
 
     <!-- Components inlined at build time -->

@@ -747,8 +747,8 @@
 <!-- END_LINK_MESH -->
     <div id="footer-placeholder"></div>
 
-    <script src="/js/pricing-data.generated.js?v=37295cacd5"></script>
-    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+    <script src="/js/pricing-data.generated.js?v=c7df34f959"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
     <script>
     // Priority demo fee by region, the same rule as /priority-demo: rupees in
     // India, dollars elsewhere. ?test=intl / ?test=india previews either view.
@@ -771,7 +771,7 @@
         }
         if (!isIndia()) {
             var spans = document.querySelectorAll('[data-bco-demo-price]');
-            for (var i = 0; i < spans.length; i++) spans[i].innerHTML = '&middot; $10';
+            for (var i = 0; i < spans.length; i++) spans[i].innerHTML = '&middot; ' + (window.__MAC_REGION === 'canada' ? '$14' : '$10');
         }
         // Open the priority demo payment form in place when the chooser script is
         // loaded; otherwise the link falls through to /book-demo.

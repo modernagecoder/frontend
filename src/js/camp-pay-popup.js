@@ -51,15 +51,16 @@
         label: (gf && gf.label) || 'Payment gateway charges',
         planFee: this.money(baseMinor / 100, currency),
         fee: this.money(feeMinor / 100, currency),
-        total: this.money((baseMinor + feeMinor) / 100, currency),
+        // A Canadian dollar total carries its code: a bare "$" reads as US.
+        total: this.money((baseMinor + feeMinor) / 100, currency) + (currency === 'CAD' ? ' CAD' : ''),
         totalAmount: (baseMinor + feeMinor) / 100
       };
     },
 
     money: function (amount, currency) {
-      var usd = currency === 'USD';
+      var inr = currency === 'INR';
       var minor = Math.round(Number(amount) * 100);
-      return (usd ? '$' : '₹') + (minor / 100).toLocaleString(usd ? 'en-US' : 'en-IN',
+      return (inr ? '₹' : '$') + (minor / 100).toLocaleString(inr ? 'en-IN' : 'en-US',
         { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 });
     },
 

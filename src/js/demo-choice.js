@@ -58,7 +58,10 @@
     };
     var PRICES = {
         INR: { currency: 'INR', amount: 499, display: '₹499' },
-        USD: { currency: 'USD', amount: 10, display: '$10' }
+        USD: { currency: 'USD', amount: 10, display: '$10' },
+        // Canada list (owner 2026-10-23: 1.4 x USD). Backend lib/paidDemo.js
+        // allowlists CAD 14 as well.
+        CAD: { currency: 'CAD', amount: 14, display: '$14' }
     };
     // Payment gateway charges (owner 2026-10-23): 2.5% on top, shown only in
     // the pay form's bill, never on the option card. The backend adds the
@@ -223,10 +226,32 @@
     function testRegion() {
         try {
             var t = (new URLSearchParams(window.location.search).get('test') || '').toLowerCase();
-            if (t === 'intl' || t === 'international') return false;
+            if (t === 'intl' || t === 'international' || t === 'canada') return false;
             if (t === 'india') return true;
+            if (!t && sessionStorage.getItem('mac_test_region') === 'canada') return false;
         } catch (e) { }
         return null;
+    }
+
+    /**
+     * Is this visitor on the Canada (CAD) list? international-pricing.js
+     * decides it when it is on the page (window.__MAC_REGION); otherwise the
+     * same rules: ?test=canada (sticky for the tab), or a Canadian time zone
+     * once MAC_PRICING.canada.live is true, never an Indian time zone.
+     */
+    function onCanadaList() {
+        try {
+            var t = (new URLSearchParams(window.location.search).get('test') || '').toLowerCase();
+            if (t === 'canada') return true;
+            if (t) return false;
+            if (typeof window.__MAC_REGION === 'string') return window.__MAC_REGION === 'canada';
+            if (sessionStorage.getItem('mac_test_region') === 'canada') return true;
+            var ca = window.MAC_PRICING && window.MAC_PRICING.canada;
+            if (!ca || !ca.live || !Array.isArray(ca.timeZones)) return false;
+            var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+            if (tz === 'Asia/Kolkata' || tz === 'Asia/Calcutta') return false;
+            return ca.timeZones.indexOf(tz) !== -1;
+        } catch (e) { return false; }
     }
 
     // Where the visitor is, by the same signals course pricing uses.
@@ -251,13 +276,13 @@
         return !phoneIso || String(phoneIso).toUpperCase() === 'IN';
     }
 
-    function priceFor(isIndia) { return isIndia ? PRICES.INR : PRICES.USD; }
+    function priceFor(isIndia) { return isIndia ? PRICES.INR : onCanadaList() ? PRICES.CAD : PRICES.USD; }
 
     // "₹511.48", "$10.25", "₹499": paise / cents only when there are some.
     function money(amount, currency) {
-        var usd = currency === 'USD';
+        var inr = currency === 'INR';
         var minor = Math.round(Number(amount) * 100);
-        return (usd ? '$' : '₹') + (minor / 100).toLocaleString(usd ? 'en-US' : 'en-IN',
+        return (inr ? '₹' : '$') + (minor / 100).toLocaleString(inr ? 'en-IN' : 'en-US',
             { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 });
     }
 
@@ -272,7 +297,8 @@
             percent: pct,
             label: gf.label || GATEWAY_FEE.label,
             fee: money(feeMinor / 100, price.currency),
-            total: money((baseMinor + feeMinor) / 100, price.currency),
+            // A Canadian dollar total carries its code: a bare "$" reads as US.
+            total: money((baseMinor + feeMinor) / 100, price.currency) + (price.currency === 'CAD' ? ' CAD' : ''),
             totalAmount: (baseMinor + feeMinor) / 100
         };
     }
@@ -953,7 +979,7 @@
             setBusy(true, 'Opening secure checkout…');
 
             var notes = {
-                region: isIndia ? 'india' : 'international',
+                region: isIndia ? 'india' : charge.currency === 'CAD' ? 'canada' : 'international',
                 leadPage: rec.page || window.location.pathname
             };
             if (slot) notes.demoSlot = slot;
@@ -1002,7 +1028,7 @@
                             currency: charge.currency,
                             display: charge.display,
                             // The server's total is what Razorpay charged.
-                            paidDisplay: data.bill ? money(data.bill.total, charge.currency) : chargeBill.total,
+                            paidDisplay: data.bill ? money(data.bill.total, charge.currency) + (charge.currency === 'CAD' ? ' CAD' : '') : chargeBill.total,
                             slot: slot
                         }, function (failure) {
                             setBusy(false);
@@ -1427,7 +1453,8 @@
         try {
             if (visitorInIndia()) return;
             var spans = (scope || document).querySelectorAll('.pd-price');
-            for (var i = 0; i < spans.length; i++) spans[i].textContent = PRICES.USD.display;
+            var abroad = priceFor(false);
+            for (var i = 0; i < spans.length; i++) spans[i].textContent = abroad.display;
         } catch (e) { }
     }
 
@@ -1528,6 +1555,6 @@
             track('demo_priority_direct_open', { page: window.location.pathname, placement: String(placement || 'link') });
         },
         prices: PRICES,
-        version: '20261023a'
+        version: '20261024a'
     };
 })();

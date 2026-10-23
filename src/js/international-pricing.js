@@ -43,6 +43,13 @@ const InternationalPricing = {
       return false;
     }
 
+    // Outside India the visitor is on the flat USD list, or, in a Canadian
+    // time zone once Canada is live, on the CAD list. Every "international"
+    // table below is built from that region, so the swaps, course cards and
+    // checkout that read PRICES.international need no Canada branch of their
+    // own: for a Canadian visitor the international table IS the CAD one.
+    var abroad = this.abroadRegion();
+
     function money(amount, currency) {
       if (amount === null || amount === undefined) return null;
       var symbol = currency === 'INR' ? '₹' : '$';
@@ -75,9 +82,9 @@ const InternationalPricing = {
 
     this.PRICES = {
       india:                 tierSet('coding', 'india'),
-      international:         tierSet('coding', 'international'),
-      internationalMaths:    tierSet('maths', 'international'),
-      internationalAgents:   tierSet('agents', 'international'),
+      international:         tierSet('coding', abroad),
+      internationalMaths:    tierSet('maths', abroad),
+      internationalAgents:   tierSet('agents', abroad),
       indiaMaths:            tierSet('maths', 'india'),
       indiaAgents:           tierSet('agents', 'india')
     };
@@ -85,30 +92,65 @@ const InternationalPricing = {
   },
 
   isIndian: true, // default to India
+  region: 'india', // 'india' | 'international' | 'canada'
+
+  // The price list a visitor outside India is on: 'canada' or 'international'.
+  abroadRegion() {
+    return this.region === 'canada' ? 'canada' : 'international';
+  },
+
+  // The currency each region is shown and charged in (INR / USD / CAD).
+  regionCurrency(region) {
+    var data = window.MAC_PRICING;
+    var cc = data && data.display && data.display.chargeCurrencies;
+    return (cc && cc[region]) || (region === 'india' ? 'INR' : region === 'canada' ? 'CAD' : 'USD');
+  },
 
   // ─── Synchronous Detection (runs on script parse, before DOMContentLoaded) ───
   // Sets window.__MAC_IS_INDIAN immediately so consumers like course.html's
   // generateCourseCard() see the correct region flag when they build cards
   // inside their own DOMContentLoaded listeners.
   detectRegion() {
-    // FLAT MODEL (owner, 2026-08-01): the only question is India or not.
-    // The per-country layer, its cookie and its ?country= override were
-    // removed with the worldwide pricing feature.
+    // FLAT MODEL (owner, 2026-08-01): India, or one USD list for the rest of
+    // the world. Canada (owner 2026-10-22/23) is the one exception: a
+    // Canadian time zone gets the CAD list once MAC_PRICING.canada.live is
+    // true. ?test=canada shows it before then, and stays on for the browser
+    // tab so a preview can be followed from page to checkout.
     var testMode = new URLSearchParams(window.location.search).get('test');
+    try {
+      if (testMode === 'canada') sessionStorage.setItem('mac_test_region', 'canada');
+      else if (testMode) sessionStorage.removeItem('mac_test_region');
+      else if (sessionStorage.getItem('mac_test_region') === 'canada') testMode = 'canada';
+    } catch (e) { /* storage blocked: the query string alone still works */ }
     if (testMode === 'intl' || testMode === 'international') {
-      this.isIndian = false;
+      this.region = 'international';
     } else if (testMode === 'india') {
-      this.isIndian = true;
+      this.region = 'india';
+    } else if (testMode === 'canada') {
+      this.region = 'canada';
     } else {
-      // Deliberately India-biased: an Indian locale OR an Indian timezone is
-      // enough, because an Indian family browsing in en-US must still be
-      // billed in rupees.
-      this.isIndian = this.detectIndia();
+      this.region = this.detectVisitorRegion();
     }
+    this.isIndian = this.region === 'india';
 
-    // Store globals for payment JS files and inline scripts to read
+    // Store globals for payment JS files and inline scripts to read.
+    // __MAC_IS_INDIAN stays false for Canada, so every India-only rule
+    // (Mini Batch, India-only cards) applies to Canadians as to the world.
     window.__MAC_IS_INDIAN = this.isIndian;
-    window.__MAC_CURRENCY = this.isIndian ? 'INR' : 'USD';
+    window.__MAC_REGION = this.region;
+    window.__MAC_CURRENCY = this.regionCurrency(this.region);
+  },
+
+  // Indian time zone: India. Canadian time zone (Canada live): Canada, even
+  // with an Indian browser language (owner 2026-10-23). Otherwise an Indian
+  // language means India, and everyone else is international.
+  detectVisitorRegion() {
+    var tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+    if (tz === 'Asia/Kolkata' || tz === 'Asia/Calcutta') return 'india';
+    var ca = window.MAC_PRICING && window.MAC_PRICING.canada;
+    if (ca && ca.live && Array.isArray(ca.timeZones) && ca.timeZones.indexOf(tz) !== -1) return 'canada';
+    return this.detectIndia() ? 'india' : 'international';
   },
 
   // ─── Initialize (DOM-dependent: runs on DOMContentLoaded) ───
@@ -129,7 +171,7 @@ const InternationalPricing = {
     // down and leave the page exactly as the server sent it.
     if (!this.loadTables()) return;
 
-    console.log('[International Pricing] Detected:', this.isIndian ? 'INDIA (INR)' : 'INTERNATIONAL (USD)');
+    console.log('[International Pricing] Detected:', this.region.toUpperCase() + ' (' + this.regionCurrency(this.region) + ')');
 
     // Anchors first, and for every visitor: they are the precise mechanism,
     // and the text-scanning fallbacks below must not run over a value they
@@ -156,6 +198,11 @@ const InternationalPricing = {
 
     if (!this.isIndian && !hasManualPanels) {
       this.updateAllPages();
+    } else if (this.region === 'canada') {
+      // A page with its own India / International tabs keeps its static
+      // prices, so its typed USD fees still need the CAD rewrite.
+      this.applyCanadaOverlays();
+      this.usdProseToCad();
     }
   },
 
@@ -225,8 +272,10 @@ const InternationalPricing = {
     var subject = this.pageSubject();
     if (subject === 'coding' || !data || !this.PRICES) return this.PRICES ? this.PRICES.international : null;
     var cache = this._intlTables || (this._intlTables = {});
+    var abroad = this.abroadRegion();
+    var currency = this.regionCurrency(abroad);
     if (!cache[subject]) {
-      var src = (data.plans[subject] && data.plans[subject].international) || {};
+      var src = (data.plans[subject] && data.plans[subject][abroad]) || {};
       var out = {};
       Object.keys(src).forEach(function (tier) {
         var amount = src[tier];
@@ -235,7 +284,7 @@ const InternationalPricing = {
           minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
           maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
         }).format(amount);
-        out[tier] = { amount: amount, display: '$' + grouped, symbol: '$', currency: 'USD',
+        out[tier] = { amount: amount, display: '$' + grouped, symbol: '$', currency: currency,
                       period: (tier === 'oneTime') ? data.display.periodLabels.oneTime : data.display.periodLabels.monthly };
       });
       if (this.PRICES.international && this.PRICES.international.summer) out.summer = this.PRICES.international.summer;
@@ -284,7 +333,7 @@ const InternationalPricing = {
   // are shown and charged in (the ISO code), so a bare "$" is never ambiguous:
   // pages written for countries with their own dollar use it beside the fee.
   updateCurrencyLabels: function () {
-    var code = this.isIndian ? 'INR' : 'USD';
+    var code = this.regionCurrency(this.region);
     document.querySelectorAll('[data-price-currency]').forEach(function (el) {
       el.textContent = code;
     });
@@ -303,10 +352,10 @@ const InternationalPricing = {
       // The anchor names the PLAN; the region follows the visitor. A maths
       // page anchored to maths.international.personal must still show rupees
       // to an Indian family.
-      var region = self.isIndian ? 'india' : 'international';
+      var region = self.isIndian ? 'india' : self.abroadRegion();
       var table = (data.plans[subject] && data.plans[subject][region]) || {};
       var amount = table[tier];
-      var currency = self.isIndian ? 'INR' : 'USD';
+      var currency = self.regionCurrency(region);
 
       // Not sold in this region. Leave the markup untouched and let the
       // India-only hiding rules deal with the card.
@@ -351,6 +400,7 @@ const InternationalPricing = {
   // ─── Update ALL pages ───
   updateAllPages() {
     this.showIntlOnlySections();
+    if (this.region === 'canada') this.applyCanadaOverlays();
     this.hideIndiaOnlyCards();
     this.updatePricingPage();
     this.updateHomePage();
@@ -363,6 +413,151 @@ const InternationalPricing = {
     // point belongs to markup they don't know about.
     this.hideGenericMiniBatchCards();
     this.genericPriceSwap();
+    if (this.region === 'canada') this.usdProseToCad();
+  },
+
+  // Canada: blocks rendered three ways (India / rest of world / Canada, e.g.
+  // the 6-month cards) carry data-not-ca on the USD copy and data-ca-only on
+  // the CAD copy, which ships hidden.
+  applyCanadaOverlays() {
+    document.querySelectorAll('[data-not-ca="true"]').forEach(function (el) {
+      el.hidden = true;
+      el.style.display = 'none';
+    });
+    document.querySelectorAll('[data-ca-only="true"]').forEach(function (el) {
+      el.hidden = false;
+      el.style.removeProperty('display');
+    });
+  },
+
+  /**
+   * Canada: pages written for other countries quote our fees as typed prose.
+   * For a visitor on the CAD list each such figure becomes the CAD price of
+   * the same plan, so the page never shows two currencies:
+   *   "USD 100 a month"            -> "CAD 140 a month"
+   *   "$100 per month", "$150/mo"  -> "$140 per month", "$210/mo"
+   *   "$100 to $150 a month"       -> "$140 to $210 a month"
+   *   "billed in US dollars"       -> "billed in Canadian dollars"
+   * Only amounts that are our own USD prices on exactly one plan are
+   * touched, a bare "$N" only when a monthly fee follows it ("a month", "per
+   * month", "/month", "/mo", "monthly"), and never inside
+   * [data-no-price-swap] (sections quoting other providers). Other bare
+   * dollar figures (salaries, funding, other providers) are left alone.
+   */
+  usdProseToCad() {
+    var data = window.MAC_PRICING;
+    if (!data || !data.plans) return;
+    var map = {}, clash = {};
+    function pair(usd, cad) {
+      if (usd === null || usd === undefined || cad === null || cad === undefined) return;
+      if (map[usd] !== undefined && map[usd] !== cad) clash[usd] = true;
+      map[usd] = cad;
+    }
+    Object.keys(data.plans).forEach(function (subject) {
+      var u = data.plans[subject].international || {}, c = data.plans[subject].canada || {};
+      Object.keys(u).forEach(function (tier) { pair(u[tier], c[tier]); });
+    });
+    var su = (data.sixMonth && data.sixMonth.international) || {}, sc = (data.sixMonth && data.sixMonth.canada) || {};
+    Object.keys(su).forEach(function (tier) { pair(su[tier], sc[tier]); });
+    // 10 is also the priority demo (CAD 14), and a bare "USD 10" is too
+    // common a figure to claim; leave it.
+    delete map[10];
+    Object.keys(clash).forEach(function (k) { delete map[k]; });
+    var keys = Object.keys(map).sort(function (a, b) { return b - a; });
+    if (!keys.length) return;
+    map[0] = 0;                       // "USD 0" (the free first class)
+    var cadVals = keys.map(function (k) { return map[k]; });
+    // Spaces in the source may be line breaks or no-break spaces.
+    var S = '[\\s\\u00a0]*', S1 = '[\\s\\u00a0]+';
+    // Not "1,000" or "100.50", but "USD 100, billed monthly" is ours.
+    var end = '(?!\\d|[,.]\\d)';
+    var n = '(' + keys.join('|') + ')' + end;
+    // What may follow a bare "$N" for it to be our monthly fee: a month, the
+    // per-class sum worked from it ("$150 ÷ 8"), "for 8 classes", or a
+    // "USD" label ("$150 USD per month").
+    var monthText = S + '(?:a' + S1 + 'month|per' + S1 + 'month|/' + S + '(?:month|mo|Monat)\\b|monthly|per 8-class month|' +
+      'for 8 (?:live |taught |structured |private )?(?:classes|lessons|sessions|hours)|÷' + S + '8|USD\\b)';
+    var month = '(?=' + monthText + ')';
+    var monthStart = new RegExp('^' + monthText);
+    var usdWord = new RegExp('\\bUSD' + S + '(0|' + keys.join('|') + ')' + end, 'g');
+    // (^|[^\w$]) instead of a lookbehind, which older Safari lacks.
+    var range = new RegExp('(^|[^\\w$])\\$' + n + '(' + S + '(?:to|-|–)' + S + ')\\$' + n + month, 'g');
+    var single = new RegExp('(^|[^\\w$])\\$' + n + month, 'g');
+    // "$140 USD": an anchor already re-priced to CAD, with a typed USD label.
+    var dollarUsd = new RegExp('(\\$' + S + '(?:' + cadVals.join('|') + ')' + end + S + ')USD\\b', 'g');
+    var alone = new RegExp('^(\\s*)\\$' + n + '(\\s*)$');
+    var bareNum = new RegExp('^\\s*' + n + '\\s*$');
+    // Per-class figures worked from the monthly fees ($150 / 8 = $18.75),
+    // when a unit follows, directly or after a range: "$18.75 per hour",
+    // "$12.50 a lesson", "$12.50 to $18.75 per 60-minute live class".
+    var perMonth = (data.display && data.display.classesPerMonth) || 8;
+    var perClass = {};
+    keys.forEach(function (k) {
+      var u = Math.round(k / perMonth * 100) / 100, c = Math.round(map[k] / perMonth * 100) / 100;
+      if (!Number.isInteger(u)) perClass[u.toFixed(2)] = c.toFixed(2);
+    });
+    var perKeys = Object.keys(perClass).map(function (k) { return k.replace('.', '\\.'); });
+    var unit = '(?:per|a|an|/)' + S + '(?:\\d+-minute |live |dedicated |private |one-to-one |taught )*(?:class|lesson|hour|session)';
+    var perRx = perKeys.length ? new RegExp('(^|[^\\w$])\\$(' + perKeys.join('|') + ')(?!\\d)(?=' + S +
+      '(?:(?:to|-|–)' + S + '\\$[\\d.]+' + S + ')?' + unit + ')', 'g') : null;
+    var phrases = [
+      [new RegExp('\\bin' + S1 + 'US' + S1 + 'dollars\\b', 'g'), 'in Canadian dollars'],
+      [new RegExp('\\bin' + S1 + 'USD\\b', 'g'), 'in CAD'],
+      [new RegExp('\\bUSD' + S1 + 'pricing\\b', 'g'), 'CAD pricing']
+    ];
+    // "$140" just before, or "... in" ("We bill in <b>USD</b>").
+    var cadBefore = new RegExp('(?:\\$' + S + '(?:' + cadVals.join('|') + ')|\\bin)' + S + '$');
+    // The text beside a node: its sibling, or, when the node is all its
+    // element holds, the element's sibling ("<div>$140</div><div>USD /
+    // month</div>"). Fees are often split this way in cards.
+    function step(n, dir) {
+      var s = dir < 0 ? n.previousSibling : n.nextSibling;
+      while (s && s.nodeType === 3 && !s.nodeValue.trim()) s = dir < 0 ? s.previousSibling : s.nextSibling;
+      return s;
+    }
+    function beside(node, parent, dir) {
+      var sib = step(node, dir);
+      if (sib) return sib.textContent;
+      if (parent.textContent.trim() !== node.nodeValue.trim()) return '';
+      var up = step(parent, dir);
+      return up ? up.textContent : '';
+    }
+    var skip = { SCRIPT: 1, STYLE: 1, NOSCRIPT: 1, TEXTAREA: 1, TITLE: 1 };
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while ((node = walker.nextNode())) {
+      var parent = node.parentNode;
+      if (!parent || skip[parent.nodeName]) continue;
+      var text = node.nodeValue;
+      if (!/USD|\$|US[\s ]/.test(text)) continue;
+      if (parent.closest && parent.closest('[data-no-price-swap]')) continue;
+      var next = parent.childNodes.length === 1 ? parent.nextElementSibling : null;
+      // A fee split over elements, "<span>USD</span><span>100</span>".
+      if (text.trim() === 'USD' && next && next.childNodes.length === 1 && bareNum.test(next.textContent)) {
+        node.nodeValue = text.replace('USD', 'CAD');
+        next.textContent = next.textContent.replace(new RegExp(n), function (a) { return map[a]; });
+        continue;
+      }
+      // A USD label after a fee already in CAD, "$140<small> USD / month".
+      if (/^[\s ]*USD\b/.test(text) && cadBefore.test(beside(node, parent, -1))) {
+        text = text.replace('USD', 'CAD');
+        node.nodeValue = text;
+      }
+      var out = text
+        .replace(usdWord, function (m, a) { return 'CAD ' + map[a]; })
+        .replace(range, function (m, pre, a, sep, b) { return pre + '$' + map[a] + sep + '$' + map[b]; })
+        .replace(single, function (m, pre, a) { return pre + '$' + map[a]; })
+        .replace(dollarUsd, '$1CAD');
+      if (perRx) out = out.replace(perRx, function (m, pre, a) { return pre + '$' + perClass[a]; });
+      // A fee in its own element, "<span>$100</span><span>per month</span>":
+      // the month phrase is in the next element.
+      var lone = out.match(alone);
+      if (lone && monthStart.test(beside(node, parent, 1).replace(/^\s+/, ' '))) {
+        out = lone[1] + '$' + map[lone[2]] + lone[3];
+      }
+      phrases.forEach(function (p) { out = out.replace(p[0], p[1]); });
+      if (out !== text) node.nodeValue = out;
+    }
   },
 
   // Hide cards/blocks that are India-only (e.g., Mini Batch tier has no USD price).

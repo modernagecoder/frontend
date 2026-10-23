@@ -1,9 +1,9 @@
 // ═══════════════════════════════════════════════════════════════════════════
-//  MODERN AGE CODERS — THE ONLY FILE YOU EDIT TO CHANGE A PRICE
+//  MODERN AGE CODERS: THE ONLY FILE YOU EDIT TO CHANGE A PRICE
 // ═══════════════════════════════════════════════════════════════════════════
 //
 //  Easiest way: run  npm run dev  and open  http://localhost:3001/__pricing
-//  — a form that edits this file and updates every page for you.
+//, a form that edits this file and updates every page for you.
 //
 //  By hand: change a number below, then run
 //
@@ -15,43 +15,48 @@
 //  PRICING MODEL (deliberately simple, owner's decision 2026-08-01):
 //  one USD price list for every country outside India, rupees inside India.
 //  Detection is automatic; international visitors are charged in USD.
+//  Canada (owner 2026-10-22/23) has its own CAD list, 1.4 x the USD one,
+//  used for visitors in a Canadian time zone once "canada.live" is true.
 //
 //  Rules: plain digits only (7500, never 7,500 or "7500" or ₹7500).
-//  null means "we do not sell this" — the plan is hidden, never given a
+//  null means "we do not sell this", the plan is hidden, never given a
 //  made-up price. Comments are allowed; trailing commas are not.
 //
-//  DO NOT hand-edit the structure — the price editor rewrites this file from
+//  DO NOT hand-edit the structure, the price editor rewrites this file from
 //  scripts/pricing/config-template.js. Change VALUES here or use the editor.
 // ═══════════════════════════════════════════════════════════════════════════
 {
   "version": 2,
-  "updated": "2026-09-11",
+  "updated": "2026-10-23",
 
   // ───────────────────────────────────────────────────────────────────────
-  //  THE PRICES  (subject.region.tier — e.g. coding.india.group)
+  //  THE PRICES  (subject.region.tier, e.g. coding.india.group)
   // ───────────────────────────────────────────────────────────────────────
   "plans": {
 
     "coding": {
       "india":         { "group": 1499, "miniBatch": 2999, "personal": 4999 },
-      "international": { "group": 100,  "miniBatch": null, "personal": 150 }
+      "international": { "group": 100,  "miniBatch": null, "personal": 150 },
+      "canada":        { "group": 140,  "miniBatch": null, "personal": 210 }
     },
 
     // Maths is listed separately so it can differ from coding when the owner
     // wants it to (today it matches coding on every tier).
     "maths": {
       "india":         { "group": 1499, "miniBatch": 2999, "personal": 4999 },
-      "international": { "group": 100,  "miniBatch": null, "personal": 150 }
+      "international": { "group": 100,  "miniBatch": null, "personal": 150 },
+      "canada":        { "group": 140,  "miniBatch": null, "personal": 210 }
     },
 
     // The AI agents courses (Codex + Claude Code, and AI Agents with Copilot
-    // Studio — see courseOverrides below). Priced the same as coding since
+    // Studio. See courseOverrides below). Priced the same as coding since
     // 2026-08-10; raise these rows alone to restore a premium. The Copilot
     // Studio courses are sold 1-on-1 ONLY (their pages hide the Group and
     // Mini Batch plans, so those two numbers never show there).
     "agents": {
       "india":         { "group": 1499, "miniBatch": 2999, "personal": 4999 },
-      "international": { "group": 100,  "miniBatch": null, "personal": 150 }
+      "international": { "group": 100,  "miniBatch": null, "personal": 150 },
+      "canada":        { "group": 140,  "miniBatch": null, "personal": 210 }
     },
 
     // The premium Google Gemini Enterprise agent-building programme (see
@@ -60,19 +65,22 @@
     // course never sells them.
     "gemini": {
       "india":         { "group": null, "miniBatch": null, "personal": 14999 },
-      "international": { "group": null, "miniBatch": null, "personal": 250 }
+      "international": { "group": null, "miniBatch": null, "personal": 250 },
+      "canada":        { "group": null, "miniBatch": null, "personal": 350 }
     },
 
     // In-school bootcamp programmes (published inside school-page FAQ schema).
     "school": {
       "india":         { "group": 1499, "miniBatch": null, "personal": 2999 },
-      "international": { "group": null, "miniBatch": null, "personal": null }
+      "international": { "group": null, "miniBatch": null, "personal": null },
+      "canada":        { "group": null, "miniBatch": null, "personal": null }
     },
 
     // Holiday camps: one payment, not monthly.
     "camps": {
       "india":         { "oneTime": 9999 },
-      "international": { "oneTime": 200 }
+      "international": { "oneTime": 200 },
+      "canada":        { "oneTime": 280 }
     }
   },
 
@@ -82,13 +90,34 @@
   //  "6 months" tab, with the saving worked out against six monthly payments.
   //  Applies to every course on the subjects in "appliesTo". null = no
   //  6-month option for that plan. A brand-new figure here must also be added
-  //  to the backend's VALID_INR_AMOUNTS / VALID_USD_AMOUNTS or checkout
-  //  refuses it.
+  //  to the backend's VALID_INR_AMOUNTS / VALID_USD_AMOUNTS /
+  //  VALID_CAD_AMOUNTS or checkout refuses it.
   // ───────────────────────────────────────────────────────────────────────
   "sixMonth": {
     "appliesTo": ["coding", "maths", "agents"],
     "india":         { "group": 7199, "miniBatch": 14399, "personal": 24000 },
-    "international": { "group": 449,  "miniBatch": null,  "personal": 672 }
+    "international": { "group": 449,  "miniBatch": null,  "personal": 672 },
+    "canada":        { "group": 629,  "miniBatch": null,  "personal": 941 }
+  },
+
+  // ───────────────────────────────────────────────────────────────────────
+  //  CANADA  (owner's decisions 2026-10-22 and 2026-10-23)
+  //  Visitors in a Canadian time zone see and pay the "canada" prices above,
+  //  in CAD, even with an Indian browser language; an Indian time zone still
+  //  means rupees. While "live" is false every Canadian is shown USD and only
+  //  ?test=canada shows the CAD view (for previewing). Set it to true only
+  //  after the backend that accepts CAD is deployed.
+  // ───────────────────────────────────────────────────────────────────────
+  "canada": {
+    "live": false,
+    "timeZones": ["America/Toronto", "America/Montreal", "America/Vancouver", "America/Edmonton", "America/Winnipeg",
+      "America/Regina", "America/Swift_Current", "America/Halifax", "America/Glace_Bay", "America/Moncton",
+      "America/Goose_Bay", "America/St_Johns", "America/Whitehorse", "America/Dawson", "America/Dawson_Creek",
+      "America/Fort_Nelson", "America/Creston", "America/Yellowknife", "America/Inuvik", "America/Iqaluit",
+      "America/Rankin_Inlet", "America/Resolute", "America/Cambridge_Bay", "America/Atikokan", "America/Blanc-Sablon",
+      "America/Nipigon", "America/Thunder_Bay", "America/Rainy_River", "America/Pangnirtung",
+      "Canada/Atlantic", "Canada/Central", "Canada/Eastern", "Canada/Mountain", "Canada/Newfoundland",
+      "Canada/Pacific", "Canada/Saskatchewan", "Canada/Yukon"]
   },
 
   // ───────────────────────────────────────────────────────────────────────
@@ -102,7 +131,7 @@
   "gatewayFee": { "percent": 2.5, "label": "Payment gateway charges" },
 
   // ───────────────────────────────────────────────────────────────────────
-  //  COURSES PRICED DIFFERENTLY — add a slug to move a course onto another
+  //  COURSES PRICED DIFFERENTLY, add a slug to move a course onto another
   //  price set. pricing:check errors on a slug that matches no course.
   // ───────────────────────────────────────────────────────────────────────
   "courseOverrides": {
@@ -118,7 +147,7 @@
   //  DISPLAY
   // ───────────────────────────────────────────────────────────────────────
   "display": {
-    "chargeCurrencies": { "india": "INR", "international": "USD" },
+    "chargeCurrencies": { "india": "INR", "international": "USD", "canada": "CAD" },
     "periodLabels": { "monthly": "/month", "oneTime": "" },
     // Used to recalculate the "per class" figures on some pages. 8 fits the
     // group/mini-batch schedule (2 classes a week). Plans on a different

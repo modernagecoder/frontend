@@ -270,14 +270,14 @@
         }
         if (!isIndia()) {
             var spans = document.querySelectorAll('.pd-price');
-            for (var i = 0; i < spans.length; i++) spans[i].textContent = '$10';
+            for (var i = 0; i < spans.length; i++) spans[i].textContent = (window.__MAC_REGION === 'canada' ? '$14' : '$10');
         }
         // [data-pd-book] links are opened by src/js/demo-choice.js, which is
         // on every page; without it the link falls through to /book-demo.
     })();
     </script>
-    <script src="/js/pricing-data.generated.js?v=37295cacd5"></script>
-    <script src="/js/international-pricing.js?v=036cde00c4"></script>
+    <script src="/js/pricing-data.generated.js?v=c7df34f959"></script>
+    <script src="/js/international-pricing.js?v=73c0675aaf"></script>
 </body>
 
 </html>

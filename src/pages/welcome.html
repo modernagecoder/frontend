@@ -399,11 +399,12 @@
                 if (orderId) document.getElementById('order-id').textContent = orderId;
                 // "₹1,536.48": paise / cents only when there are some.
                 var money = function (v) {
-                    var symbol = currency === 'USD' ? '$' : (currency === 'INR' ? '₹' : '');
+                    var symbol = currency === 'INR' ? '₹' : (currency === 'USD' || currency === 'CAD' ? '$' : '');
+                    var code = currency === 'CAD' ? ' CAD' : '';
                     var minor = Math.round(Number(v) * 100);
-                    if (!isFinite(minor)) return symbol + v;
-                    return symbol + (minor / 100).toLocaleString(currency === 'USD' ? 'en-US' : 'en-IN',
-                        { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 });
+                    if (!isFinite(minor)) return symbol + v + code;
+                    return symbol + (minor / 100).toLocaleString(currency === 'INR' ? 'en-IN' : 'en-US',
+                        { minimumFractionDigits: minor % 100 ? 2 : 0, maximumFractionDigits: 2 }) + code;
                 };
                 if (amount) document.getElementById('order-amount').textContent = money(amount);
                 var planFee = params.get('planFee');

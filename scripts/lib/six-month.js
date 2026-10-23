@@ -46,6 +46,14 @@ function offerForCourse(courseData, config) {
 }
 
 const NAMES = { group: 'Group Classes', miniBatch: 'Mini Batch', personal: 'Personalized 1-on-1' };
+// Which visitors see each region's copy. India ships visible (crawler and
+// no-JS view); the USD copy is for everyone else except Canadians on the CAD
+// list, who get the Canada copy (international-pricing.js swaps them).
+const GRID_GATE = {
+    india: 'data-india-only="true"',
+    international: 'data-intl-only="true" data-not-ca="true" hidden',
+    canada: 'data-ca-only="true" hidden'
+};
 const BATCH = { group: '15 to 20 students', miniBatch: 'Up to 6 students' };
 
 /**
@@ -55,7 +63,7 @@ const BATCH = { group: '15 to 20 students', miniBatch: 'Up to 6 students' };
  */
 function renderRegion(offer, region, opts) {
     const tiers = opts.oneOnOneOnly ? ['personal'] : ['group', 'miniBatch', 'personal'];
-    const cur = region === 'india' ? 'INR' : 'USD';
+    const cur = region === 'india' ? 'INR' : region === 'canada' ? 'CAD' : 'USD';
     const f = (n) => PRICING.format(n, cur, { style: 'display' });
     const sold = tiers.filter((t) => offer[region][t]);
     if (!sold.length) return null;
@@ -120,7 +128,7 @@ function renderRegion(offer, region, opts) {
         pct: pct,
         sub: p ? `${f(p.perSession)} a session instead of ${f(p.monthlyPerSession)}` : `Save ${pct}% on every plan`,
         grid: `
-                    <div class="six-grid${opts.oneOnOneOnly ? ' solo' : ''}" ${region === 'india' ? 'data-india-only="true"' : 'data-intl-only="true" hidden'}>
+                    <div class="six-grid${opts.oneOnOneOnly ? ' solo' : ''}" ${GRID_GATE[region]}>
                         <p class="six-lede">${lede}</p>${cards}
                     </div>`
     };
@@ -134,9 +142,11 @@ function renderCourse(courseData, config) {
     const opts = { mode: 'course', oneOnOneOnly: !!(courseData.meta && courseData.meta.one_on_one_only === true) };
     const india = renderRegion(offer, 'india', opts);
     const intl = renderRegion(offer, 'international', opts);
+    const ca = offer.canada ? renderRegion(offer, 'canada', opts) : null;
     if (!india) return empty;
     const gate = (field) => intl
-        ? `<span data-india-only="true">${india[field]}</span><span data-intl-only="true" hidden>${intl[field]}</span>`
+        ? `<span data-india-only="true">${india[field]}</span><span ${GRID_GATE.international}>${intl[field]}</span>` +
+          (ca ? `<span ${GRID_GATE.canada}>${ca[field]}</span>` : '')
         : india[field];
 
     const switchHtml = `
@@ -150,14 +160,14 @@ function renderCourse(courseData, config) {
                             <span class="bill-tab-sub">One month at a time, cancel any time</span>
                         </label>
                         <label for="bill-six" class="bill-tab bill-tab-six">
-                            <span class="bill-save">Save ${intl ? `<span data-india-only="true">${india.pct}%</span><span data-intl-only="true" hidden>${intl.pct}%</span>` : india.pct + '%'}</span>
+                            <span class="bill-save">Save ${gate('pct')}%</span>
                             <span class="bill-tab-name">Pay 6 months at once</span>
                             <span class="bill-tab-sub">${gate('sub')}</span>
                         </label>
                     </div>
                 </div>`;
     const panelHtml = `
-                <div class="bill-panel bill-panel-six">${india.grid}${intl ? intl.grid : ''}
+                <div class="bill-panel bill-panel-six">${india.grid}${intl ? intl.grid : ''}${ca ? ca.grid : ''}
                 </div>`;
     return { switchHtml, panelHtml };
 }
@@ -170,12 +180,16 @@ function renderPricingSection(config) {
     if (!offer) return '';
     const india = renderRegion(offer, 'india', { mode: 'pricing' });
     const intl = renderRegion(offer, 'international', { mode: 'pricing' });
+    const ca = offer.canada ? renderRegion(offer, 'canada', { mode: 'pricing' }) : null;
     if (!india) return '';
+    const abroadPct = intl && ca && ca.pct !== intl.pct
+        ? `<span ${GRID_GATE.international}>${intl.pct}%</span><span ${GRID_GATE.canada}>${ca.pct}%</span>`
+        : (intl ? intl.pct + '%' : '');
     return `
         <section class="six-section" id="six-months" aria-labelledby="six-section-title">
             <div class="six-section-inner">
                 <p class="six-section-eyebrow">Pay for 6 months at once</p>
-                <h2 id="six-section-title" class="six-section-title">Save ${intl && intl.pct !== india.pct ? `<span data-india-only="true">${india.pct}%</span><span data-intl-only="true" hidden>${intl.pct}%</span>` : india.pct + '%'} when you pay for 6 months together</h2>${india.grid}${intl ? intl.grid : ''}
+                <h2 id="six-section-title" class="six-section-title">Save ${intl && intl.pct !== india.pct ? `<span data-india-only="true">${india.pct}%</span><span data-intl-only="true" hidden>${abroadPct}</span>` : india.pct + '%'} when you pay for 6 months together</h2>${india.grid}${intl ? intl.grid : ''}${ca ? ca.grid : ''}
             </div>
         </section>
 `;

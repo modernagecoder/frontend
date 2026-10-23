@@ -74,6 +74,7 @@ function emitRuntimeData(config) {
         courseOverrides: config.courseOverrides || {},
         sixMonth: config.sixMonth || null,
         gatewayFee: config.gatewayFee || null,
+        canada: config.canada || null,
         display: config.display
     };
 

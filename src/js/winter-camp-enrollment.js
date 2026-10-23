@@ -20,10 +20,13 @@ const WinterCampEnrollment = {
         if (this.isIndian()) {
             return { amount: data.plans.camps.india.oneTime, currency: 'INR', symbol: '₹' };
         }
-        // Flat model: everyone outside India pays the same USD camp fee.
-        var amount = data.plans.camps.international.oneTime;
+        // One camp fee for everyone outside India: USD, or CAD for a visitor
+        // on the Canada list (international-pricing.js sets __MAC_REGION).
+        var canada = window.__MAC_REGION === 'canada';
+        var row = data.plans.camps[canada ? 'canada' : 'international'] || {};
+        var amount = row.oneTime;
         if (amount === null || amount === undefined) return null;
-        return { amount: amount, currency: 'USD', symbol: '$' };
+        return { amount: amount, currency: canada ? 'CAD' : 'USD', symbol: '$' };
     },
     getCoursePrice() {
         var p = this.campPrice();
@@ -32,7 +35,7 @@ const WinterCampEnrollment = {
     },
     getCourseCurrency() {
         var p = this.campPrice();
-        return p ? p.currency : (this.isIndian() ? 'INR' : 'USD');
+        return p ? p.currency : (this.isIndian() ? 'INR' : window.__MAC_REGION === 'canada' ? 'CAD' : 'USD');
     },
     getPriceDisplay() {
         var p = this.campPrice();
@@ -234,7 +237,7 @@ const WinterCampEnrollment = {
             theme: 'winter',
             courseName: this.courseName,
             orderId: payment.orderId,
-            amount: window.MACCampPay.money(payment.amount, payment.currency || this.getCourseCurrency())
+            amount: window.MACCampPay.money(payment.amount, payment.currency || this.getCourseCurrency()) + ((payment.currency || this.getCourseCurrency()) === 'CAD' ? ' CAD' : '')
         });
     },
 

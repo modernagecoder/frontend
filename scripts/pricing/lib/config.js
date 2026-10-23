@@ -25,7 +25,8 @@ const REPO_ROOT = path.resolve(__dirname, '..', '..', '..');
 const CONFIG_PATH = path.join(REPO_ROOT, 'pricing', 'pricing.config.jsonc');
 const DATA_DIR = path.join(REPO_ROOT, 'pricing', 'data');
 
-const REGIONS = ['india', 'international'];
+// canada (owner 2026-10-22/23): CAD for visitors in a Canadian time zone.
+const REGIONS = ['india', 'international', 'canada'];
 // lifetime was retired 2026-07-31 and removed from the schema entirely on
 // 2026-08-01 with the worldwide layer.
 const MONTHLY_TIERS = ['group', 'miniBatch', 'personal'];
@@ -380,7 +381,7 @@ function sixMonthOffer(subject, config) {
             const sessionsPerMonth = overrides[key] || cfg.display.classesPerMonth;
             const sessions = sessionsPerMonth * SIX_MONTHS;
             const monthlyTotal = monthly * SIX_MONTHS;
-            const cents = region === 'india' ? 1 : 100;   // rupees whole, dollars to the cent
+            const cents = region === 'india' ? 1 : 100;   // rupees whole, dollars (USD, CAD) to the cent
             const round = function (n) { return Math.round(n * cents) / cents; };
             out[region][tier] = {
                 total: total,

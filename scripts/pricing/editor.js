@@ -58,6 +58,14 @@ const GROUPS = [
         ['six.india.personal', 'India, 1-on-1 (₹ for 6 months)'],
         ['six.intl.group', 'Outside India, Group (US$ for 6 months)'],
         ['six.intl.personal', 'Outside India, 1-on-1 (US$ for 6 months)']
+    ]],
+    ['Canada, every course (CA$). Shown only while "canada.live" is true in the config', [
+        ['ca.group', 'Group classes / month'],
+        ['ca.personal', '1-on-1 personal / month'],
+        ['gemini.ca.personal', 'Gemini Enterprise 1-on-1 / month'],
+        ['camps.ca.oneTime', 'Holiday camp (one payment)'],
+        ['six.ca.group', 'Group, the whole 6 months'],
+        ['six.ca.personal', '1-on-1, the whole 6 months']
     ]]
 ];
 
@@ -143,7 +151,9 @@ function handle(req, res) {
             let log = '';
             let ok = false;
             try {
-                const values = JSON.parse(body);
+                // Start from the file as it stands, so a setting the form does
+                // not show (canada.live) survives a save.
+                const values = Object.assign(template.extract(cfgLib.load({ fresh: true })), JSON.parse(body));
 
                 // Sanity before anything is written: numbers or null only.
                 Object.keys(values).forEach(function (k) {

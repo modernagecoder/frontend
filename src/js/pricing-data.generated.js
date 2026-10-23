@@ -9,7 +9,7 @@
  */
 window.MAC_PRICING = {
   "version": 2,
-  "updated": "2026-09-11",
+  "updated": "2026-10-23",
   "generatedFrom": "pricing/pricing.config.jsonc",
   "plans": {
     "coding": {
@@ -22,6 +22,11 @@ window.MAC_PRICING = {
         "group": 100,
         "miniBatch": null,
         "personal": 150
+      },
+      "canada": {
+        "group": 140,
+        "miniBatch": null,
+        "personal": 210
       }
     },
     "maths": {
@@ -34,6 +39,11 @@ window.MAC_PRICING = {
         "group": 100,
         "miniBatch": null,
         "personal": 150
+      },
+      "canada": {
+        "group": 140,
+        "miniBatch": null,
+        "personal": 210
       }
     },
     "agents": {
@@ -46,6 +56,11 @@ window.MAC_PRICING = {
         "group": 100,
         "miniBatch": null,
         "personal": 150
+      },
+      "canada": {
+        "group": 140,
+        "miniBatch": null,
+        "personal": 210
       }
     },
     "gemini": {
@@ -58,6 +73,11 @@ window.MAC_PRICING = {
         "group": null,
         "miniBatch": null,
         "personal": 250
+      },
+      "canada": {
+        "group": null,
+        "miniBatch": null,
+        "personal": 350
       }
     },
     "school": {
@@ -70,6 +90,11 @@ window.MAC_PRICING = {
         "group": null,
         "miniBatch": null,
         "personal": null
+      },
+      "canada": {
+        "group": null,
+        "miniBatch": null,
+        "personal": null
       }
     },
     "camps": {
@@ -78,6 +103,9 @@ window.MAC_PRICING = {
       },
       "international": {
         "oneTime": 200
+      },
+      "canada": {
+        "oneTime": 280
       }
     }
   },
@@ -104,16 +132,64 @@ window.MAC_PRICING = {
       "group": 449,
       "miniBatch": null,
       "personal": 672
+    },
+    "canada": {
+      "group": 629,
+      "miniBatch": null,
+      "personal": 941
     }
   },
   "gatewayFee": {
     "percent": 2.5,
     "label": "Payment gateway charges"
   },
+  "canada": {
+    "live": false,
+    "timeZones": [
+      "America/Toronto",
+      "America/Montreal",
+      "America/Vancouver",
+      "America/Edmonton",
+      "America/Winnipeg",
+      "America/Regina",
+      "America/Swift_Current",
+      "America/Halifax",
+      "America/Glace_Bay",
+      "America/Moncton",
+      "America/Goose_Bay",
+      "America/St_Johns",
+      "America/Whitehorse",
+      "America/Dawson",
+      "America/Dawson_Creek",
+      "America/Fort_Nelson",
+      "America/Creston",
+      "America/Yellowknife",
+      "America/Inuvik",
+      "America/Iqaluit",
+      "America/Rankin_Inlet",
+      "America/Resolute",
+      "America/Cambridge_Bay",
+      "America/Atikokan",
+      "America/Blanc-Sablon",
+      "America/Nipigon",
+      "America/Thunder_Bay",
+      "America/Rainy_River",
+      "America/Pangnirtung",
+      "Canada/Atlantic",
+      "Canada/Central",
+      "Canada/Eastern",
+      "Canada/Mountain",
+      "Canada/Newfoundland",
+      "Canada/Pacific",
+      "Canada/Saskatchewan",
+      "Canada/Yukon"
+    ]
+  },
   "display": {
     "chargeCurrencies": {
       "india": "INR",
-      "international": "USD"
+      "international": "USD",
+      "canada": "CAD"
     },
     "periodLabels": {
       "monthly": "/month",
