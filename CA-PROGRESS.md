@@ -278,7 +278,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 101 | coding-and-ai-classes-in-ottawa (aiot, #662B25) | city | 4,432 | 1.5% vs coding-classes-in-newfoundland-and-labrador | city page | city open data | 6427a72c |
 | 102 | coding-and-ai-classes-in-montreal (amom, #614726) | city | 4,093 | 1.6% vs coding-and-ai-classes-in-toronto | city page | city open data | 392a4046 |
 | 103 | coding-and-ai-classes-in-calgary (aica, #3E570D) | city | 3,835 | 1.1% vs coding-and-ai-classes-in-ottawa | city page | city open data | 871b535a |
-| 104 | coding-and-ai-classes-in-edmonton (aie, #2A7011) | city | 3,791 | 1.5% vs coding-and-ai-classes-in-ottawa | city page | city open data | (this commit) |
+| 104 | coding-and-ai-classes-in-edmonton (aie, #2A7011) | city | 3,791 | 1.5% vs coding-and-ai-classes-in-ottawa | city page | city open data | 71fdb8d0 |
+| 105 | coding-and-ai-classes-in-winnipeg (aiwi, #28704A) | city | 3,761 | 1.9% vs coding-and-ai-classes-in-calgary | city page | city open data | (this commit) |
 
 ## Skipped
 

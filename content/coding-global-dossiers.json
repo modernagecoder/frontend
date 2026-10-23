@@ -55568,5 +55568,75 @@
       "CEMC fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the City of Edmonton, Alberta Education and Childcare, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-winnipeg": {
+    "market": "Winnipeg",
+    "bodyClass": "cg-aiwi",
+    "pageType": "city",
+    "curriculumAuthority": "Manitoba, read 22 October 2026: Manitoba Education and Early Childhood Learning assessment page (2026/27 schedule: Grade 12 Applied, Essential and Pre-Calculus Mathematics Achievement Tests in January and June 2027; Grade 3 Numeracy and Grade 7 Mathematics result collection windows); computer science page and 2004 framework for 20S, 30S and 40S (replaces CS 205 and 305; does not prescribe a specific language); Framework for Learning updates 2026/27 (two new Grade 9 Mathematics courses in pilot, full implementation 2027/28; renewed K to 10 Science full implementation 2026/27). Manitoba news release 75397 and the Official Time Amendment Act (UTC-5 all year from 1 November 2026). CEMC 2026-27: BCC, CCC and Gauss dates, CCC languages, not-a-test line, through-a-school rule. Manitoba area codes from facts-geo.md (CNAC via the Internet Archive).",
+    "localProject": "City of Winnipeg open data, LeisureONLINE Activities (Open Government Licence - Winnipeg), fall 2026 rows fetched 22 October 2026 and parsed with our script winnipeg_schedule.py (python -I): 2,440 activities and 2,451 weekly slots (11 meet twice a week); Saturday 546, Monday 417, Sunday 356, Tuesday 326, Wednesday 326, Thursday 308, Friday 172; 902 weekend slots; start hours 6 pm 481, 5 pm 466; swimming lessons 1,476 activities; the header misspells activty_number. Labelled as ours. Lesson family: parsing a packed text field and tallying its parts.",
+    "requiredMentions": [
+      "default_pattern_dates",
+      "activty_number",
+      "the day counts add to 2,451, not 2,440",
+      "Weekends hold 902 of the 2,451 slots",
+      "Open Government Licence - Winnipeg",
+      "does not prescribe one",
+      "Saturday is the busiest day",
+      "Activities typed as French-language",
+      "A Winnipeg class booked for Thursday at 4:30 pm",
+      "Manitoba numbers use 204, 431 and 584"
+    ],
+    "sources": [
+      {
+        "claim": "Manitoba Education and Early Childhood Learning: assessment and evaluation, 2026/27 test schedule and result collection windows.",
+        "url": "https://www.edu.gov.mb.ca/k12/assess/index.html"
+      },
+      {
+        "claim": "Manitoba: Senior Years ICT and Computer Science page (purpose of CS courses; replaces CS 205 and 305).",
+        "url": "https://www.edu.gov.mb.ca/k12/cur/cs/index.html"
+      },
+      {
+        "claim": "Manitoba Senior 2, 3 and 4 Computer Science framework (2004): no prescribed language.",
+        "url": "https://www.edu.gov.mb.ca/k12/cur/cs/framework.pdf"
+      },
+      {
+        "claim": "Manitoba Framework for Learning: curriculum updates for 2026/27 (Grade 9 math, K to 10 science).",
+        "url": "https://www.edu.gov.mb.ca/k12/framework/index.html"
+      },
+      {
+        "claim": "Manitoba news release: clocks will not revert to standard time on 1 November 2026.",
+        "url": "https://news.gov.mb.ca/news/?item=75397"
+      },
+      {
+        "claim": "CEMC: 2026-27 contest dates, CCC languages, through-a-school rule, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "City of Winnipeg open data: LeisureONLINE Activities dataset page.",
+        "url": "https://data.winnipeg.ca/Recreation/LeisureONLINE-Activities/a2fq-ufu6"
+      },
+      {
+        "claim": "City of Winnipeg: Open Government Licence - Winnipeg (attribution, commercial use, non-endorsement).",
+        "url": "https://data.winnipeg.ca/open-data-licence"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Winnipeg and America/Toronto offsets for 2026-27.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Winnipeg or Manitoba population figure: StatCan was not reachable live, so no population is printed.",
+      "That Winnipeg is the capital of Manitoba: not verified from a saved primary source for this page, so not stated.",
+      "The licence as \"Canada Open Government Licence\": the dataset's licence field says so, but its custom licence field and the city's licence page name the Open Government Licence - Winnipeg, which is used.",
+      "Attendance or popularity of activities: refused; the file lists scheduled slots, not participants.",
+      "Whether open_spaces 0 means an activity is full: not documented, so not used.",
+      "Venue names (several are schools) and disability or health-related programs: not printed.",
+      "That our Western Canada Grade 12 math course covers Manitoba Pre-Calculus 40S: not claimed; it is not in this page's picks.",
+      "That our classes earn Manitoba credits or test results: refused.",
+      "That we run robotics hardware classes: refused; we teach the programming side only.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the City of Winnipeg, Manitoba Education and Early Childhood Learning, CEMC or the University of Waterloo."
+    ]
   }
 }
