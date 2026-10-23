@@ -57181,5 +57181,83 @@
       "That our classes grant or count toward New Brunswick credit hours: refused.",
       "The name of the New Brunswick education department: its gnb.ca page was blocked, so the page says only the education department. Any affiliation with the New Brunswick government, a school district, the Virtual Learning Centre, Natural Resources Canada or CEMC."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-richmond-hill": {
+    "market": "Richmond Hill",
+    "bodyClass": "cg-aptr",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario curriculum API for MTH1W C2.2, ICD2O (2023) course description, ICS3U and ICS3C (no prerequisite) and ICS4U (2008, modular design); EQAO Grade 9 Assessment of Mathematics 2027 window and the final-course-mark rule; CEMC CCC page (2027 date, Junior question ladder, 3 hours, score out of 75, 2026 Junior mean 42.65 and 3421 contestants, Certificate of Distinction rule, official age rule) and how-contests-work (no individual registration, another local school); CCC Online Grader rules; OpenAI Help Center age article; Anthropic Consumer Terms (Oct 8, 2025); facts-geo.md for 289/365/742/905 and Eastern time (IANA tzdb 2026e).",
+    "localProject": "York Region Open Data, Street Trees (York Region Open Data Licence), MUNICIPALITY = Richmond Hill: 9,505 rows fetched with urllib on 22 October 2026, 9,398 with a height band; seeded 80/20 split, 7,518 train and 1,880 test; majority baseline 63.9%, 1 neighbour 72.3%, 15 neighbours 76.8%, 101 neighbours 74.5% (our rh_tree_knn.py and rh_tree_explore.py, python -I); 0 - 2 metres band 16 of 57 right; 10 - 15 metres 61 of 150 right; CURRENTDBH stored as text; 2,816 rows with diameter 5; planting years 1920 to 2026; Ivory Silk Lilac 925 rows, Kentucky Coffee Tree 673; Bayview Avenue 1,751 rows. Labelled as ours. Lesson family: classification, majority baseline, k-nearest neighbours, choosing k, confusion breakdown.",
+    "requiredMentions": [
+      "Ivory Silk Lilac",
+      "Kentucky Coffee Tree",
+      "within regional road right-of-ways",
+      "The Regional Municipality of York",
+      "York Region Open Data Licence",
+      "7,518 trees to learn from, 1,880 held back to test",
+      "2,816 of the 9,505 rows",
+      "Of the 57 test trees recorded as",
+      "Bayview Avenue carries more rows than any other road (1,751)",
+      "289, 365, 742 and 905",
+      "Mean 42.65 out of 75 across 3421 Junior contestants"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum API: MTH1W coding strand, ICD2O, ICS3U, ICS3C and ICS4U course text and prerequisites.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code%5Bin%5D=ICS2O,ICS3U,ICS3C,ICS4U,ICS4C&depth=0"
+      },
+      {
+        "claim": "EQAO: Grade 9 Assessment of Mathematics window for 2027.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "EQAO: Grade 9 results are included in the final course mark.",
+        "url": "https://www.eqao.com/the-assessments/grade-9-math/"
+      },
+      {
+        "claim": "CEMC CCC page: 2027 date, Junior question ladder, 3 hours, score out of 75, 2026 results, Certificate of Distinction, official age.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC how contests work: no individual registration; another local school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "CCC Online Grader rules: generative AI forbidden.",
+        "url": "https://cccgrader.com/rules.pdf"
+      },
+      {
+        "claim": "OpenAI Help Center: ChatGPT under 13 and parental consent from 13 to 18.",
+        "url": "https://help.openai.com/en/articles/8313401-is-chatgpt-safe-for-all-ages"
+      },
+      {
+        "claim": "Anthropic Consumer Terms: users must be at least 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "York Region Open Data: Street Trees item and description.",
+        "url": "https://www.arcgis.com/home/item.html?id=293d80c24bf54a4f8ab66bddaeaab184"
+      },
+      {
+        "claim": "York Region Open Data Licence (PDF on the York Region Open Data hub): commercial use, credit statement, non-endorsement.",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/78cc02388af248c0b7a30eda6adfade0/data"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026 to 2027 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about Richmond Hill schools, York Region school boards or their results: none made, by the row instruction.",
+      "Any Richmond Hill or York Region population: StatCan not reachable live, so none printed.",
+      "Calling the file every tree in Richmond Hill: refused; the item covers Region-owned street trees on regional road right-of-ways with partial rural data.",
+      "A unit for CURRENTDBH: not asserted; the layer does not state one.",
+      "Using the City of Richmond Hill ArcGIS layers: rejected; they carry a disclaimer or nothing, not a reuse licence.",
+      "A tree total for York Region built by adding municipalities: not computed.",
+      "That our courses earn or count toward an Ontario credit: refused; we do not grant Ontario credits.",
+      "Recommending Claude or any 18+ tool to a teenager: refused under Anthropic's terms.",
+      "Any affiliation with CEMC, EQAO, York Region, the City of Richmond Hill or the Ontario Ministry of Education.",
+      "CEMC contest fees: left out of the copy (currency-neutral page)."
+    ]
   }
 }
