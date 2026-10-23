@@ -14,7 +14,7 @@ Every mentor teaches from a structured programme, adapted live to your child. Op
 
 [![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Best fit  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 View course & enroll](/courses/maths-through-coding)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
-A good online math tutor for a Canadian student is **province-exact**: Ontario, BC, Alberta and Quebec run genuinely different curricula, pathways and exams. They treat EQAO and numeracy assessments as gap-finders, build the runway to the Grade 12 courses universities actually require (in Ontario: Advanced Functions and Calculus & Vectors), and teach for understanding throughout. That is what we do: 8 live one-hour classes a month across every Canadian time zone, 1-on-1 or small group, priced in your currency, Priority Demo first.
+A good online math tutor for a Canadian student is **province-exact**: Ontario, BC, Alberta and Quebec run genuinely different curricula, pathways and exams. They treat EQAO and numeracy assessments as gap-finders, build the runway to the Grade 12 courses universities actually require (in Ontario: Advanced Functions and Calculus & Vectors), and teach for understanding throughout. That is what we do: 8 live one-hour classes a month across every Canadian time zone, 1-on-1 or a group batch of 15 to 20, priced in your currency, Priority Demo first. We teach alongside the student's school course and do not grant provincial credits.
 
 Why Canadian families come looking
 
@@ -22,11 +22,11 @@ Why Canadian families come looking
 
 Canada has no national curriculum, and the differences are not cosmetic. Ontario de-streamed Grade 9 math into one course and wove **coding into the math curriculum from Grade 1**. BC forks students into Workplace, Foundations and Pre-calculus pathways, and only one of those keeps STEM doors open. Alberta runs the -1/-2 course split with diploma exams at the end. A tutor teaching "generic math" is teaching some other province's course.
 
-What every province shares is the shape of the ending: **Grade 12 math decides admissions**. Ontario's competitive STEM programs require Advanced Functions (MHF4U) and Calculus & Vectors (MCV4U) and weigh their marks heavily; BC and Alberta's pre-calculus streams play the same role. Top programs sit further gates behind that, Waterloo famously weighs its Euclid contest. The students who clear these gates comfortably built their base in Grades 7-10; the ones who suffer usually carry a fraction or algebra gap from years earlier.
+What every province shares is the shape of the ending: **Grade 12 math decides admissions**. Ontario's competitive STEM programs require Advanced Functions (MHF4U) and Calculus & Vectors (MCV4U) and weigh their marks heavily; BC and Alberta's pre-calculus streams play the same role. Some programs add more behind that: Waterloo's Faculty of Mathematics asks applicants to write the CSMC or the Euclid to qualify for its entrance scholarships. The students who clear these gates comfortably built their base in Grades 7-10; the ones who suffer usually carry a fraction or algebra gap from years earlier.
 
 The early-warning systems exist, EQAO in Ontario Grades 3, 6 and 9, BC's numeracy assessment, but a score report is a smoke alarm, not a fire plan. And the standard responses each miss something: private tutors at C$40 to C$80 an hour are costly twice a week; franchise centers drill worksheets without teaching; apps practice whatever the child already does, errors included.
 
-What we bring is the combination Canadian parents keep telling us they could not find locally: **a dedicated mentor, a full interactive hour, twice a week, teaching understanding-first**, mapped to your province's actual courses. And one genuinely unfair advantage: our mentors teach both math and coding, in the one country whose largest province literally examines coding inside math class. Quality first; the global-cost-base price is just what makes verifying that claim risk-free.
+What we offer is one specific combination: **a dedicated mentor, a full interactive hour, twice a week, teaching understanding-first**, mapped to your province's actual courses. And one genuinely unfair advantage: our mentors teach both math and coding, in the one country whose largest province literally examines coding inside math class. Quality first; the global-cost-base price is just what makes verifying that claim risk-free.
 
 Know the road
 
@@ -181,7 +181,7 @@ Curriculum-true problems, EQAO-flavoured where relevant, exam-format for seniors
 
 Your child teaches the idea back, and the week's practice is set with a purpose they can state.
 
-Parents tell us these classes become the hour their child stops dreading math. Watch one first: the demo is free. [See exactly how we teach →](/how-we-teach)
+The aim is an hour your child stops dreading. Watch one first: the demo is free. [See exactly how we teach →](/how-we-teach)
 
 The honest part
 
@@ -228,18 +228,18 @@ $150 / month
 
 [Book a Priority Demo](/priority-demo)
 
-### Small-Group Class
+### Group Batch
 
 $100 / month
 
 - 8 live one-hour classes a month, 2 per week
-- A handful of children at the same level
+- Fifteen to twenty students at the same level
 - Same teaching method, gentle peer energy
 - Recordings included · cancel any time
 
 [See the high school course](/courses/complete-high-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a small group. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
+That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a group batch. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -293,7 +293,7 @@ Not as a goal, but absolutely as information. We treat an EQAO result as a gap m
 
 What are the Grade 12 courses universities actually require?
 
-In Ontario, STEM and business programs typically require Advanced Functions (MHF4U) and usually Calculus & Vectors (MCV4U), with Data Management (MDM4U) accepted for some programs; BC and Alberta's pre-calculus streams (Pre-calculus 12, Math 30-1) play the same role. Requirements vary by university and program, so we check the actual admission pages for your teen's targets and build the runway backward from them.
+In Ontario, STEM and business programs typically require Advanced Functions (MHF4U) and usually Calculus & Vectors (MCV4U), with Data Management (MDM4U) accepted for some programs; BC and Alberta's pre-calculus streams (Pre-calculus 12, Math 30-1) play the same role. Requirements vary by university and program, so we check the actual admission pages for your teen's targets and build the runway backward from them. We teach alongside the student's school course and do not grant provincial credits.
 
 My child is in the de-streamed Grade 9. Should I worry?
 
@@ -301,15 +301,15 @@ De-streaming helps some students and hides others. One class at one pace means a
 
 Do you coach for the Waterloo contests (Pascal, Cayley, Fermat, Euclid)?
 
-Yes, through our competition mathematics track: CEMC-style multi-step problems, proof-flavoured reasoning, and the calm persistence contest papers reward. For students eyeing Waterloo and similar programs, contest results, especially the Euclid, are a genuine differentiator, and the reasoning depth transfers straight back into school marks.
+Yes, through our competition mathematics track: CEMC-style multi-step problems, proof-flavoured reasoning, and the calm persistence contest papers reward. Students write the contests through their school, which orders them from CEMC. For students eyeing Waterloo, its Faculty of Mathematics asks applicants to write the CSMC or the Euclid to qualify for entrance scholarships, and the reasoning the papers demand is the same reasoning school math rewards.
 
 How do class timings work across Canadian time zones?
 
-We schedule around your family, from Atlantic to Pacific, with after-school, evening and weekend slots available in every zone. You pick two weekly slots and they stay yours, and we adjust with daylight saving rather than making you re-book.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time we confirm is written in your province's own clock. Ontario, Quebec, the Atlantic provinces and Newfoundland and Labrador change on 1 November 2026 and 14 March 2027, and we reconfirm your slot in those weeks; British Columbia, Alberta, Saskatchewan and, from 1 November 2026, Manitoba keep one clock all year.
 
 What does it cost, honestly?
 
-The fees for private 1-on-1 and small-group classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
+The fees for private 1-on-1 and group batch classes are shown in your own currency in the pricing section of this page. Billing is monthly, there is no contract and you can cancel any time.
 
 Can you rescue a Grade 11 or 12 student mid-course?
 
@@ -331,7 +331,7 @@ Keep exploring
 
 ## More math help from Modern Age Coders.
 
-[IB school?IB Maths Tuition](/ib-maths-tuition-online)[Gaps to close?Math Catch-Up Program](/math-catch-up-program)[MCV4U depthCalculus Tutoring Online](/calculus-tutoring-online)[Grades 11-12High School Mathematics Mastery Program](/courses/complete-high-school-mathematics-mastery)[Contest trackOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)[By provinceCoding & Maths in Ontario](/coding-classes-in-ontario)[Ranked guideBest Online Math Tutoring 2026](/best-online-math-tutoring-2026)
+[IB school?IB Maths Tuition](/ib-maths-tuition-online)[Gaps to close?Math Catch-Up Program](/math-catch-up-program)[MCV4U depthCalculus Tutoring Online](/calculus-tutoring-online)[Grades 11-12High School Mathematics Mastery Program](/courses/complete-high-school-mathematics-mastery)[Contest trackOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)[By provinceCoding & Maths in Ontario](/coding-classes-in-ontario)[Ranked guideBest Online Math Tutoring 2026](/best-online-math-tutoring-2026)[Choosing a tutorOnline Math Tutoring in Canada](/best-online-math-tutoring-in-canada)[Ages 6 to 12Math Classes for Kids in Canada](/math-classes-for-kids-in-canada)[By provinceHigh School Math Courses Compared](/canada-high-school-math-courses-compared)[Ontario Grade 9MTH1W Explained](/mth1w-grade-9-math-explained)[Ontario EQAOEQAO Grade 9 Math Practice](/eqao-grade-9-math-practice)[Ontario EQAOEQAO Grade 6 Math Practice](/eqao-grade-6-math-practice)[Ontario EQAOEQAO Grade 3 Math Practice](/eqao-grade-3-math-practice)[Ontario Grade 11MCR3U Functions](/mcr3u-functions-tutor)[Ontario Grade 12MHF4U Advanced Functions](/mhf4u-advanced-functions-tutor)[Ontario Grade 12MCV4U Calculus and Vectors](/mcv4u-calculus-and-vectors-tutor)[Ontario Grade 12MDM4U Data Management](/mdm4u-data-management-tutor)[British ColumbiaCalculus 12](/calculus-12-tutor-bc)[AlbertaMath 30-1 Tutoring](/math-30-1-tutor-alberta)[AlbertaGrade 9 Math PAT Practice](/alberta-grade-9-math-pat-practice)[QuebecSecondary 4 Math: CST, TS or SN](/quebec-secondary-4-math-cst-ts-science)[QuebecSecondary 5 Math](/quebec-secondary-5-math-tutor)[ContestsCEMC Waterloo Contest Preparation](/cemc-waterloo-contests-preparation)
 
 ## Watch one full hour of real teaching. Free.
 

@@ -14,11 +14,11 @@ Alberta / Live online
 
 The short answer
 
-Alberta's CTS computing science courses are worth one credit each and are joined by prerequisites, so they form a chain rather than a menu. Reaching Recursive Algorithms 1 means passing through Structured Programming 1 and 2, Procedural Programming 1, Data Structures 1, Iterative Algorithm 1 and Object-oriented Programming 1 first. Modern Age Coders teaches live online coding and math to ages 6 to 67 in Alberta from USD 100 a month, and the first class is free.
+Alberta's CTS computing science courses are worth one credit each and are joined by prerequisites, so they form a chain rather than a menu. Reaching Recursive Algorithms 1 means passing through Structured Programming 1 and 2, Procedural Programming 1, Data Structures 1, Iterative Algorithm 1 and Object-oriented Programming 1 first. Modern Age Coders teaches live online coding and math to ages 6 to 67 in Alberta, in a group batch of fifteen to twenty or 1-on-1, and the first class is free. We teach alongside the student's school course and do not grant Alberta credits.
 
 Six links, and high school is six semesters. That arithmetic is the most useful thing on this page, because it means a student who spends their first computing credit finding out what a variable is has already lost the room they needed at the other end.
 
-Modern Age Coders teaches from India to families across Alberta. Lessons are live online and there is no Alberta location. Mountain Time is roughly eleven and a half to twelve and a half hours behind India, so weekend slots are easiest and weekday slots are agreed case by case rather than published.
+Modern Age Coders teaches families across Alberta live online, and there is no Alberta location. Classes run on weekdays or at weekends, in a batch or one to one. Alberta now keeps UTC-6 through every season, so a class time agreed in the autumn stays put all winter.
 
 Book the free first class[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Alberta.)Read the Alberta evidence
 
@@ -68,7 +68,7 @@ If a prerequisite has to be finished before the next course starts, then the dee
 
 Not every course sits on that chain, and that is worth knowing too. Client-side Scripting 1 and 2 and the CSE project courses have **no prerequisite**, so they are available immediately and are a sensible way to earn a credit or find out whether a student enjoys this. They are just not the door to the deep end. Structured Programming 1 is.
 
-Source: [Calgary Board of Education, CBe-learn computing science course listing](https://cbe.ab.ca/), for the course codes, the prerequisites, the 1-credit value and the note that students usually aim to complete five courses in a semester. Verified 17 August 2026. The 100-credit diploma minimum is an Alberta requirement; we have deliberately not published a per-grade credit breakdown, for the reason set out in the data project below.
+Source: an Alberta school authority's published CTS computing science course listing, for the course codes, the prerequisites, the 1-credit value and the note that students usually aim to complete five courses in a semester. Checked 17 August 2026. Alberta Education's own CTS programme pages could not be read as plain text when we rechecked in October 2026, so confirm the sequence with your school. The 100-credit diploma minimum is an Alberta requirement; we have deliberately not published a per-grade credit breakdown, for the reason set out in the data project below.
 
 What this means before Grade 10
 
@@ -96,7 +96,7 @@ Take Structured Programming 1 in the first semester if the deep end is the goal.
 
 Protect the diploma courses. If a learner is starting from nothing here, aim at scripting and a portfolio rather than at recursion.
 
-Nothing here carries CTS credit, appears on an Alberta transcript or counts toward the 100. The claim is narrower and, we think, more useful: arrive at the first link already able to program. Learners join from Calgary, Edmonton, Red Deer, Lethbridge, Airdrie, St. Albert and Fort McMurray without anybody driving anywhere.
+Nothing here carries CTS credit, appears on an Alberta transcript or counts toward the 100. The claim is narrower and, we think, more useful: arrive at the first link already able to program. The live class is the same whether the learner is in Calgary, Edmonton, Red Deer or Grande Prairie, and nobody drives anywhere.
 
 Alignment
 
@@ -230,23 +230,23 @@ Grouped by present ability rather than by grade, drawn from the whole intake.
 
 ### One to one
 
-For a narrow goal, a diploma year, or a weekend-only week that a group cannot absorb.
+For a narrow goal, a diploma year, or a week that no group time fits.
 
 ### Twice a week
 
 Normally eight lessons a month. One a week is reasonable in a heavy semester.
 
-### Mountain Time
+### Alberta time, UTC-6
 
-Roughly eleven and a half to twelve and a half hours behind India, depending on the season.
+One clock all year, so an agreed class time does not move in November or March.
 
 ### What is needed
 
 A laptop or desktop, stable internet, working audio, a current browser. Nothing to buy.
 
-On scheduling, and why no weekday time is printed here
+When classes run
 
-A weekday evening in Calgary or Edmonton is the middle of the night in India, and we have not confirmed staffing for it. Rather than advertise a slot and then negotiate it away, this page says what we know: weekend slots are the easiest to arrange, a weekend-heavy pattern works well once set, and weekday slots are agreed case by case on the free call. If the only time that suits your family is one we cannot cover, you will hear that before paying anything.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. No fixed class time is printed here, because the time is agreed with each family. It is written in Alberta time, UTC-6 all year, which Regina and Saskatoon share; Vancouver is one hour behind it in every month. If the only time that suits your family is one we cannot cover, you will hear that before paying anything.
 
 Fees
 
@@ -254,15 +254,15 @@ Fees
 
 No enrolment charge, nothing to buy, no minimum term.
 
-Group$100per month, 8 classes
+Group$100 USDper month, 8 classes
 
 For a learner who gains from hearing how others approached the same problem, at the shared level of a fifteen to twenty person group.
 
-Private$150per month, 8 classes
+Private$150 USDper month, 8 classes
 
 For a specific target, a tight semester, or a starting point that no current group happens to match.
 
-Two live lessons a week on either plan, and the first is free and doubles as placement. Prices are published in USD, the single international rate rather than a Canadian one, and payment is arranged once the course and the slot are agreed.
+Two live lessons a week on either plan, and the first is free and doubles as placement. Both fees are shown in the currency you are billed in, and payment is arranged once the course and the time are agreed.
 
 Pauses, plan changes and missed classes are covered on the [pricing page](/pricing).
 
@@ -342,11 +342,11 @@ One credit each, and students usually aim to complete five of them in a semester
 
 ### What time are classes from Alberta?
 
-Mountain Time sits roughly eleven and a half to twelve and a half hours behind India depending on the season. Weekend slots are the easiest to arrange, weekday slots are agreed case by case, and we do not publish a fixed weekday evening time because that is the middle of the night in India and we have not confirmed staffing for it. Times are settled on the free call before any payment.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time we confirm is written in Alberta time. Alberta keeps UTC-6 all year, the same clock as Saskatchewan, so nothing moves on 1 November 2026. Times are settled after the free class, before any payment.
 
 ### How much do coding classes in Alberta cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. A group batch has fifteen to twenty compatible learners and two live lessons a week, normally eight a month; private tuition gives one learner one teacher at the same usual rhythm. The fees section of this page shows both monthly fees in the currency you are billed in. No enrolment fee, nothing to buy and no minimum term.
 
 ### Do you have a location in Alberta?
 
@@ -354,7 +354,7 @@ No. No Alberta office, branch or classroom is claimed. Every lesson is live onli
 
 ### Does this earn Alberta credits?
 
-No. Nothing taught here carries CTS credit, appears on an Alberta transcript or counts toward the 100. What it can do is get a learner to Structured Programming 1 already able to program, which is worth more than it sounds when the whole sequence depends on not stalling at the first link.
+No. We teach alongside the student's school course and do not grant Alberta credits. Nothing taught here carries CTS credit, appears on an Alberta transcript or counts toward the 100. What it can do is get a learner to Structured Programming 1 already able to program, which is worth more than it sounds when the whole sequence depends on not stalling at the first link.
 
 ### Is coding still worth learning now that AI writes it?
 
@@ -382,7 +382,15 @@ You can also use the [contact page](/contact), or read [about us](/about) first.
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20Alberta.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
-Email or WhatsApp are more practical than a call given the time difference. The number is Indian, not an Alberta office.
+Email or WhatsApp is usually easier than an international call. The number is Indian, not an Alberta office.
+
+Alberta guides
+
+## The rest of Alberta's sequence, one page at a time
+
+Computing science is one chain. Mathematics has its own, with the provincial achievement tests and the Math 30-1 diploma exam along the way, and each of these guides follows one part of it.
+
+[Math 30-1 tutoring](/math-30-1-tutor-alberta)[Math 30-1 diploma exam](/alberta-math-30-1-diploma-exam-prep)[Math 30-1 or Math 30-2](/math-30-1-vs-math-30-2)[Grade 6 math PAT](/alberta-grade-6-math-pat-practice)[Grade 9 math PAT](/alberta-grade-9-math-pat-practice)[The new K to 6 math curriculum](/alberta-new-math-curriculum-explained)[Homeschooling in Alberta](/homeschool-coding-and-math-alberta)[Canada's 2026 clock changes](/canada-time-zones-2026-online-class-times)
 
 Nearby
 

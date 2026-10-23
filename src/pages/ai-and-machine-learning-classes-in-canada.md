@@ -1,14 +1,14 @@
 ---
 title: "AI and Machine Learning Classes in Canada | Build AI"
-description: "Live online AI and machine learning classes for students in Canada, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month."
+description: "Live online AI and machine learning classes for students in Canada, ages 6 to 67. Train real models in Python, not just prompts. Group batch or 1-on-1, first class free."
 canonical: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-canada
 source: src/pages/ai-and-machine-learning-classes-in-canada.html
 ---
-> Live online AI and machine learning classes for students in Canada, ages 6 to 67. Train real models in Python, not just prompts. From USD 100 a month.
+> Live online AI and machine learning classes for students in Canada, ages 6 to 67. Train real models in Python, not just prompts. Group batch or 1-on-1, first class free.
 
 In short
 
-Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a cohort of fifteen to twenty or privately. What is taught is model building: Python, the probability and matrix work beneath it, then training and testing models on published Canadian data. Lessons are in English, in groups on weekdays or weekends, or one to one at a time the learner sets. A group seat is USD 100 a month, billed in US dollars, and the first class is free.
+Modern Age Coders teaches AI and machine learning live online across Canada, ages 6 to 67, in a cohort of fifteen to twenty or privately. What is taught is model building: Python, the probability and matrix work beneath it, then training and testing models on published Canadian data. Lessons are in English, in groups on weekdays or weekends, or one to one at a time the learner sets. The monthly fee is shown on this page in the currency you are billed in, and the first class is free.
 
 The catalogue
 
@@ -54,7 +54,7 @@ CA / TEEN / 01
 
 #### AI and Machine Learning for Teens
 
-Where most Canadian teenagers land. Python and its mathematics, then regression, classification, neural networks, vision and language models. No stage closes until a model is trained and its error stated.
+The core teen programme. Python and its mathematics, then regression, classification, neural networks, vision and language models. No stage closes until a model is trained and its error stated.
 
 [Open the syllabus](/courses/ai-ml-masterclass-teens)
 
@@ -282,7 +282,7 @@ School and university
 
 ### Ontario, where computing has course codes
 
-Education in Canada is within provincial jurisdiction and the curriculum is overseen by the province, so a live online school sells into thirteen systems rather than one. Ontario has the tidiest labels: ICS2O, Introduction to Computer Studies, Grade 10, Open; then ICS3U and ICS3C, the Grade 11 university and college preparation courses; then ICS4U and ICS4C, their Grade 12 pair.
+Education in Canada is within provincial jurisdiction and the curriculum is overseen by the province, so a live online school sells into thirteen systems rather than one. Ontario has the tidiest labels: ICD2O, Digital Technology and Innovations in the Changing World, Grade 10, Open; then ICS3U and ICS3C, the Grade 11 university and college preparation courses; then ICS4U and ICS4C, their Grade 12 pair.
 
 The prerequisite chain matters more than the list. ICS4U requires ICS3U, so a student who skipped Grade 11 computer science cannot arrive in Grade 12 and take the university preparation course. That one line is why an out of school track needs to exist. The diploma around it is 30 credits, 18 compulsory, including 3 in Mathematics with at least one in Grade 11 or 12, plus 40 hours of community service and the Ontario Secondary School Literacy Test. The OSSLT is run by the Education Quality and Accountability Office, sat in Grade 10, and written every year in either October to December or March to May, with the literacy course OLC 4O available in Grade 12 to students who do not pass.
 
@@ -405,13 +405,13 @@ by Krish
 
 Fees
 
-## What this costs a Canadian family, in plain US dollars
+## What this costs a Canadian family, month by month
 
-Payment is monthly. Nothing is charged to join, nothing commits a family for a year, and the first class carries no fee. Fees are a flat USD 100 a month for a group seat and USD 150 for one to one, billed in US dollars everywhere outside India.
+Payment is monthly. Nothing is charged to join, nothing commits a family for a year, and the first class carries no fee. Each fee below is shown in the currency you are billed in.
 
 Free first class
 
-USD 0
+Free
 
 No card needed
 
@@ -423,9 +423,9 @@ Book it
 
 Group batch
 
-USD 100
+$100 USD
 
-a month, billed in US dollars
+a month
 
 - Fifteen to twenty students, one teacher, every week
 - Live video, never a recording
@@ -436,9 +436,9 @@ Start here
 
 One to one
 
-USD 150
+$150 USD
 
-a month, billed in US dollars
+a month
 
 - Private teaching at the learner's own pace
 - Suited to Grade 11 and 12 years, and to adults with few free hours
@@ -446,7 +446,7 @@ a month, billed in US dollars
 
 Enquire
 
-One honest note. The price itself does not move, but the card is billed in US dollars, so the Canadian dollar figure on a statement follows your bank's rate on the day rather than any number we could print here.
+One note on billing. The fee is charged in the currency printed beside it, so if your card uses another currency, the figure on your statement follows your bank's rate on the day.
 
 What families say
 
@@ -508,7 +508,7 @@ Questions from Canada
 
 ### Does this count toward my child's OSSD?
 
-No, and we will not imply otherwise. This is not an Ontario Ministry of Education credit course, it carries no ministry course code, and it will not appear on a transcript. What it produces is evidence: a model trained on public Canadian data, validated honestly and written up. That is what a student puts into Waterloo's Admission Information Form, or the supplemental application U of T St. George lists as required. Neither form can be filled in with an average.
+No, and we will not imply otherwise. We teach alongside the student's school course and do not grant Ontario credits. This is not an Ontario Ministry of Education credit course, it carries no ministry course code, and it will not appear on a transcript. What it produces is evidence: a model trained on public Canadian data, validated honestly and written up. That is what a student puts into Waterloo's Admission Information Form, or the supplemental application U of T St. George lists as required. Neither form can be filled in with an average.
 
 ### How does this sit next to ICS3U and ICS4U?
 
@@ -520,19 +520,19 @@ The college and adult cohort, not a teen one. Quebec secondary school ends after
 
 ### What time are classes in Vancouver, Toronto and Regina, and does the time change?
 
-At a time the family chooses, on weekdays or at weekends, in a group or one to one, and every time we confirm is written in your own zone. The clocks need more care than usual this year. British Columbia has stayed on UTC-7 since 8 March 2026, Alberta and Saskatchewan sit on UTC-6 all year, and Manitoba stays on UTC-5 from 1 November 2026 instead of falling back. Ontario and Quebec still change, UTC-5 in winter and UTC-4 in summer. So Vancouver is two hours behind Toronto in winter and three in summer, while Regina is one hour behind Toronto in winter and two in summer. We reconfirm local class times in the weeks the eastern clocks change.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time we confirm is written in your own zone. The clocks need more care than usual this year. British Columbia has stayed on UTC-7 since 8 March 2026, Alberta and Saskatchewan sit on UTC-6 all year, and Manitoba stays on UTC-5 from 1 November 2026 instead of falling back. Ontario and Quebec still change, UTC-5 in winter and UTC-4 in summer. So Vancouver is two hours behind Toronto in winter and three in summer, while Regina is one hour behind Toronto in winter and two in summer. We reconfirm local class times in the weeks the eastern clocks change.
 
 ### Will this help with the Canadian Computing Competition or the Euclid?
 
 Partly, and we would rather draw the line than blur it. The Canadian Computing Competition is organised by the Centre for Education in Mathematics and Computing at the University of Waterloo, with Junior and Senior divisions; the top 20 Senior competitors advance to the Canadian Computing Olympiad and the top four are selected for the Canadian IOI team. Those are algorithm and mathematics contests rather than machine learning contests, so the course that overlaps is Data Structures and Algorithms. Waterloo also asks applicants to write either the Canadian Senior Mathematics Contest or the Euclid to qualify for Faculty of Mathematics entrance scholarships.
 
-### What does it cost in Canadian dollars?
+### What does it cost, and in which currency?
 
-A group seat is USD 100 a month and private one to one teaching is USD 150 a month, billed in US dollars everywhere outside India. We do not publish a Canadian dollar price list; your bank converts the charge at its own rate on the day. Billing is monthly and the first class is free.
+The monthly fee for a group seat and for private one to one teaching is shown in the fees section of this page, in the currency you are billed in. If your card uses a different currency, your bank converts the charge at its own rate on the day. Billing is monthly and the first class is free.
 
-### Is there a route from this to Cohere, Mila, Vector or Amii?
+### Who builds AI in Canada, and are you connected with them?
 
-There is, and it starts at a Canadian university rather than an American one. Cohere is headquartered in Toronto and was founded in 2019 by Aidan Gomez, Ivan Zhang and Nick Frosst, all three of whom attended the University of Toronto. Mila in Montreal was founded in 1993 by Yoshua Bengio, Vector in Toronto in March 2017 with Geoffrey Hinton as Chief Scientific Advisor, and Amii in Edmonton in 2002. Waterloo co-op students alternate school and work every four months, so employers here take students and not only graduates. What we add is the portfolio that makes a student worth taking.
+Several well-known AI organisations are based in Canada. Cohere is headquartered in Toronto and was founded in 2019 by Aidan Gomez, Ivan Zhang and Nick Frosst, all three of whom attended the University of Toronto. Mila in Montreal was founded in 1993 by Yoshua Bengio, Vector in Toronto in March 2017 with Geoffrey Hinton as Chief Scientific Advisor, and Amii in Edmonton in 2002. Waterloo co-op students alternate school and work every four months, so employers here take students and not only graduates. We are not connected with any of these organisations and offer no route into them. What we teach is the groundwork such work assumes: Python, the mathematics under a model, and a validated project the student can explain line by line.
 
 ### Are the classes taught in French?
 
@@ -544,7 +544,7 @@ Start here
 
 Give us a number and a mentor returns the call inside Canadian hours. The free session is a lesson and not a pitch: a teacher runs it as they would any other, and uses it to decide which band and course the learner should enter. Nothing is charged to enrol and no card is touched beforehand.
 
-Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs).
+Prefer to look around first? Read [how we teach](/how-we-teach), browse the [full course catalogue](/courses), or see what students have built in [Student Labs](/student-labs). For a narrower start, there are separate Canada pages for [AI classes for kids](/ai-classes-for-kids-in-canada), [vibe coding and AI agents](/vibe-coding-and-ai-agents-classes-in-canada) and [Python classes](/python-classes-in-canada).
 
 ## Keep exploring Modern Age Coders
 

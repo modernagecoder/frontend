@@ -12,7 +12,7 @@ Start here
 
 CEMC sets its papers on the school curriculum up to each grade, plus problems that need an idea nobody taught. The base is our live maths course for the grade band; the full-solution habit comes from the olympiad course.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Grades 7 to 8 / Gauss Middle School Mathematics Ratio, percentages, geometry, counting and the number sense the Gauss paper turns sideways. Taught live in a small batch by a teacher who asks why. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  Grades 9 to 12 / Pascal to Euclid High School Mathematics Algebra to trigonometry to early calculus, the curriculum the Pascal, Cayley, Fermat and Euclid papers are built on, with the reasoning the papers actually reward. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)[![Maths Olympiad and Competition course thumbnail](/images/olympiad-competition-maths.webp)  Full solutions / the next step Maths Olympiad and Competition Course Where the Fryer, Galois, Hypatia and Euclid full-solution habit is built: writing a solution a marker credits, not just finding the answer. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  Grades 7 to 8 / Gauss Middle School Mathematics Ratio, percentages, geometry, counting and the number sense the Gauss paper turns sideways. Taught live in a group batch by a teacher who asks why. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  Grades 9 to 12 / Pascal to Euclid High School Mathematics Algebra to trigonometry to early calculus, the curriculum the Pascal, Cayley, Fermat and Euclid papers are built on, with the reasoning the papers actually reward. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)[![Maths Olympiad and Competition course thumbnail](/images/olympiad-competition-maths.webp)  Full solutions / the next step Maths Olympiad and Competition Course Where the Fryer, Galois, Hypatia and Euclid full-solution habit is built: writing a solution a marker credits, not just finding the answer. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)
 
 Ans. The short version
 
@@ -63,7 +63,7 @@ The capstone
 
 ### Euclid, Grade 12
 
-Two and a half hours, out of 100, a mix of short-answer and full-solution questions, some calculators permitted, content "up to and including the final year of secondary school" with problems that go beyond it. Universities notice it. It rewards the student who can do both kinds of paper in one sitting.
+Two and a half hours, out of 100, a mix of short-answer and full-solution questions, some calculators permitted, content "up to and including the final year of secondary school" with problems that go beyond it. Waterloo's Faculty of Mathematics asks applicants to write it or the CSMC to qualify for its entrance scholarships. It rewards the student who can do both kinds of paper in one sitting.
 
 The senior pair and the team event
 
@@ -139,7 +139,7 @@ Two live classes a week. One on the mathematics and the technique for the paper'
 
   The last four weeks before the school's date are past contests under contest conditions, reviewed line by line. Students walk into the classroom having already sat the paper twice.
 
-Timings are after-school and weekend slots in Indian Standard Time, fixed on the call once we know the grade and the contest, and families abroad on the same calendar join the same batches. The fee for families outside India is shown in your own currency on this page.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Each time is confirmed in the family's own clock once we know the grade and the contest, and families in Canada and elsewhere on the same CEMC calendar join the same batches. The fee is shown in your own currency on this page.
 
 Q5. Is this batch right for my child?
 
@@ -151,7 +151,7 @@ A Grade 7 to 12 student whose school orders CEMC contests, or can be persuaded t
 
 ### It also suits
 
-A student who wrote Pascal or Cayley last year on instinct and wants Fermat or a full-solution contest this year. An Indian school cohort ordering before the 27 January deadline. A family in Canada, the Gulf, Singapore or the UK on the same CEMC calendar who wants an English-medium batch at an evening hour in their own time zone.
+A student who wrote Pascal or Cayley last year on instinct and wants Fermat or a full-solution contest this year. An Indian school cohort ordering before the 27 January deadline. A family in Canada, the Gulf, Singapore or the UK on the same CEMC calendar who wants an English-medium batch at a time that works in their own time zone.
 
 ### It does not suit
 
@@ -176,7 +176,7 @@ per month
 
 Book the free demo
 
-Mini batch
+Mini batch (India only)
 
 ₹2,999
 
@@ -302,7 +302,7 @@ No. The University of Waterloo's Cayley Contest is a multiple-choice paper for G
 
 ### What is the Euclid Contest like?
 
-CEMC describes it as 2.5 hours, scored out of 100, with a mix of short-answer and full-solution questions, some calculators permitted, and content based on curricula up to the final year of secondary school with some problems that need an idea beyond it. It is the Grade 12 capstone, and the paper universities most often mention, so it is the one we prepare hardest for.
+CEMC describes it as 2.5 hours, scored out of 100, with a mix of short-answer and full-solution questions, some calculators permitted, and content based on curricula up to the final year of secondary school with some problems that need an idea beyond it. It is the Grade 12 capstone, and one of the two papers Waterloo's Faculty of Mathematics names for its entrance scholarships, so it is the one we prepare hardest for.
 
 ### How are the full-solution contests marked?
 
@@ -314,11 +314,11 @@ Yes, for practice, because CEMC publishes its past contests and solutions on its
 
 ### Does this help with AMC, IOQM or other contests?
 
-The multiple-choice technique transfers directly to AMC 8, 10 and 12, and the full-solution writing is the same skill the IOQM to INMO pathway and the UK olympiads demand. Students in our olympiad course often sit CEMC contests as milestones. If your child's goal is the Indian pathway or the American one, we will say so on the call and point you to the right batch.
+The multiple-choice technique transfers directly to AMC 8, 10 and 12, and the full-solution writing is the same skill the IOQM to INMO pathway and the UK olympiads demand. Students in our olympiad course can use CEMC contests as milestones. If your child's goal is the Indian pathway or the American one, we will say so on the call and point you to the right batch.
 
 ### What happens after I send the form?
 
-A mentor calls within a few hours, asks which grade your child is in and which contest the school has ordered or could order, and books a free demo class at a time that suits you. The demo is a real session: a handful of questions from a past CEMC paper for the grade, worked live, with the teacher showing the reasoning rather than the answer key. There is no card, no enrolment fee and no pressure on the call.
+A mentor calls you back, asks which grade your child is in and which contest the school has ordered or could order, and books a free demo class at a time that suits you. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The demo is a real session: a handful of questions from a past CEMC paper for the grade, worked live, with the teacher showing the reasoning rather than the answer key. There is no card, no enrolment fee and no pressure on the call.
 
 Start
 

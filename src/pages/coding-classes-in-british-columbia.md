@@ -1,10 +1,10 @@
 ---
 title: "Online Coding Classes in British Columbia | Modern Age Coders"
-description: "Live online coding and math classes for British Columbia students, ages 6 to 67. ADST arrives in rotations, so we place by watching. Free first class, USD fees."
+description: "Live online coding and math classes for British Columbia students, ages 6 to 67. ADST arrives in rotations, so we place by watching. Free first class, batch or 1-on-1."
 canonical: https://learn.modernagecoders.com/coding-classes-in-british-columbia
 source: src/pages/coding-classes-in-british-columbia.html
 ---
-> Live online coding and math classes for British Columbia students, ages 6 to 67. ADST arrives in rotations, so we place by watching. Free first class, USD fees.
+> Live online coding and math classes for British Columbia students, ages 6 to 67. ADST arrives in rotations, so we place by watching. Free first class, batch or 1-on-1.
 
 [Home](/) / [Canada](/coding-classes-in-canada) / Coding Classes in British Columbia
 
@@ -14,11 +14,11 @@ British Columbia / Live online
 
 The short answer
 
-British Columbia delivers Applied Design, Skills and Technologies content in the middle years as short modules that the Ministry says may be offered in a variety of ways, in rotation being its own example, with Grade 8 and 9 options differing again. So what a BC learner has actually met varies by school and by year. Modern Age Coders teaches live online coding and math to ages 6 to 67 in BC, from USD 100 a month, and the first class is free.
+British Columbia delivers Applied Design, Skills and Technologies content in the middle years as short modules that the Ministry says may be offered in a variety of ways, in rotation being its own example, with Grade 8 and 9 options differing again. So what a BC learner has actually met varies by school and by year. Modern Age Coders teaches live online coding and math to ages 6 to 67 in BC, in a group batch of fifteen to twenty or 1-on-1, and the first class is free. We teach alongside the student's school course and do not grant British Columbia credits.
 
 That single design decision explains something parents find confusing. Your child can have completed ADST in good faith and still never have written a line of code, while a friend three blocks away spent a term on exactly that. Neither school did anything wrong. The variability is in the structure.
 
-Modern Age Coders teaches from India to families across BC. Lessons are live online and there is no BC location. On timing we are blunt rather than optimistic, because Pacific Time is the widest gap of any market we serve: weekend slots are the realistic option and weekday slots often are not available at all.
+Modern Age Coders teaches families across BC live online, and there is no BC location. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most of the province has kept UTC-7 all year since 8 March 2026, so a class time agreed now does not shift in November.
 
 Book the free first class[Ask on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20British%20Columbia.)Read the BC evidence
 
@@ -86,7 +86,7 @@ Also fine, and common. They may have had an excellent year of making things with
 
 The most frequent answer in the middle years, and the reason the free session exists. Fifteen minutes of watching settles it.
 
-None of this is on a BC transcript, earns credit, or satisfies a graduation requirement, and we will not imply otherwise. It is additional time on the part of the curriculum that a rotation, by design, can only touch briefly. Learners join from Vancouver, Surrey, Burnaby, Richmond, Victoria, Coquitlam, Abbotsford and Kelowna without anybody driving anywhere.
+None of this is on a BC transcript, earns credit, or satisfies a graduation requirement, and we will not imply otherwise. It is additional time on the part of the curriculum that a rotation, by design, can only touch briefly. The class is the same live session whether the learner is in Vancouver, Victoria, Kelowna or Prince George, with no driving involved.
 
 Alignment
 
@@ -118,11 +118,11 @@ The learning area is built around design and making rather than around a languag
 
 Exactly our order. Decide what to build, build it, find your own mistake. The language is the tool, not the subject.
 
-Pacific Time
+One clock all year
 
-Twelve and a half to thirteen and a half hours behind India, depending on the season.
+Most of the province has stayed on UTC-7 since the spring change on 8 March 2026, with no change in November.
 
-Weekend slots are the realistic option and we say so up front. Weekday availability is limited and sometimes nil.
+Group times on weekdays or at weekends, or 1-on-1 at hours the family sets, all written in BC time.
 
 If you have asked the school which modules your child took and are not sure what to do with the answer, that is worth five minutes of conversation.
 
@@ -220,23 +220,23 @@ Grouped by present ability, drawn from the whole intake rather than from one pro
 
 ### One to one
 
-For a narrow goal, a tight graduation year, or a weekend-only schedule that a group cannot absorb.
+For a narrow goal, a tight graduation year, or a week that no group time fits.
 
 ### Twice a week
 
-Normally eight lessons a month. Weekend-heavy patterns are common here and entirely workable.
+Normally eight lessons a month, on weekdays, at weekends or a mix of the two.
 
-### The widest gap we work with
+### BC time, all year
 
-Roughly twelve and a half to thirteen and a half hours, depending on the season.
+Times are written in UTC-7, which most of British Columbia now keeps through every season.
 
 ### What is needed
 
 A laptop or desktop, stable internet, working audio, a current browser. Nothing to buy.
 
-Being blunt about the clock
+When classes run
 
-British Columbia is the hardest market we serve for scheduling and pretending otherwise would waste your time and ours. A weekday evening in Vancouver is the middle of the night in India. Weekend slots are the realistic option, and a weekend-heavy pattern works well once it is set. Weekday slots are agreed case by case and are sometimes simply unavailable, in which case you will hear that on the free call rather than after paying.
+Pick a weekday or weekend batch, or a private slot that suits one learner. Every time is confirmed in BC time. Vancouver no longer moves its clocks, while Toronto still does, so Toronto runs two hours ahead of Vancouver from 1 November 2026 and three hours ahead again from 14 March 2027. A mixed-province group is planned with that in mind.
 
 Fees
 
@@ -244,15 +244,15 @@ Fees
 
 No enrolment charge, nothing to buy, no minimum term.
 
-Group$100per month, 8 classes
+Group$100 USDper month, 8 classes
 
 For a learner who gains from hearing how other people approached the same problem, at the shared level of a fifteen to twenty person group.
 
-Private$150per month, 8 classes
+Private$150 USDper month, 8 classes
 
-For a specific goal, a weekend-only week, or a starting point that no current group happens to match.
+For a specific goal, a fixed week that no group slot fits, or a starting point that no current group happens to match.
 
-Two live lessons a week on either plan, and the first session is free and doubles as placement. Prices are published in USD, which is the single international rate rather than a Canadian one, and payment is arranged after the course and slot are agreed.
+Two live lessons a week on either plan, and the first session is free and doubles as placement. Each fee is shown in the currency you are billed in, and payment is arranged after the course and the time are agreed.
 
 Pauses, plan changes and missed classes are covered on the [pricing page](/pricing).
 
@@ -316,7 +316,7 @@ FAQ
 
 ## Questions BC families ask before booking
 
-Including the awkward ones: no transcript credit, no local office, and the worst time zone we work with.
+Including the awkward ones: no transcript credit and no local office.
 
 ### My child did ADST at school. Why would we add anything?
 
@@ -328,15 +328,15 @@ Ask which ADST modules were actually offered this year and which ones your child
 
 ### What time are classes from British Columbia?
 
-This is the widest time gap of any market we teach, and we would rather be blunt than optimistic. Pacific Time is roughly twelve and a half to thirteen and a half hours behind India depending on the season. Weekend slots are the realistic option. Weekday slots are agreed case by case and often we cannot cover them, in which case you will be told that rather than booked into something unworkable.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time we confirm is written in BC time. Most of British Columbia has stayed on UTC-7 all year since 8 March 2026, so the clocks do not go back in November and an agreed slot stays where it is. If a time cannot be covered, you hear that on the free call, before anything is booked.
 
 ### Does this count toward BC graduation requirements?
 
-No. Nothing taught here appears on a BC transcript, earns credit, or satisfies any graduation requirement. It is additional teaching in the area school timetables give least sustained time to, which is a smaller and more honest claim than most of this industry makes.
+No. We teach alongside the student's school course and do not grant British Columbia credits. Nothing taught here appears on a BC transcript, earns credit, or satisfies any graduation requirement. It is additional teaching in the area school timetables give least sustained time to, which is a smaller and more honest claim than most of this industry makes.
 
 ### How much do coding classes in British Columbia cost?
 
-The first class is free. Group tuition is USD 100 per month for two live lessons each week, normally eight lessons monthly, in a group of fifteen to twenty compatible learners. Private tuition is USD 150 per month for one learner with one teacher on the same usual frequency. There is no enrolment fee, nothing to buy and no minimum term.
+The first class is free. Group tuition is two live lessons each week, normally eight a month, in a batch of fifteen to twenty compatible learners, and private tuition is one learner with one teacher on the same usual frequency. Both monthly fees are shown in the fees section of this page, in the currency you are billed in. There is no enrolment fee, nothing to buy and no minimum term.
 
 ### Do you have a location in British Columbia?
 
@@ -352,7 +352,7 @@ Six to sixty-seven. Under about nine it is ordering, counting and predicting rat
 
 ### My child is in Grade 11. Is there any point starting now?
 
-There is, but it should be narrow. One lesson a week on something specific, usually a portfolio piece or a particular language, rather than a general ladder. If graduation requirements are tight, we would say wait, and we have said that to families before.
+There is, but it should be narrow. One lesson a week on something specific, usually a portfolio piece or a particular language, rather than a general ladder. If graduation requirements are tight, we would say wait.
 
 ### What happens after we send the form?
 
@@ -360,7 +360,7 @@ Somebody reads it and contacts you to arrange the free session. No card, no char
 
 ### Ask before booking
 
-Use [WhatsApp for a question about BC timings](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20British%20Columbia.) or go straight to the form. Course, format and a workable weekend slot are settled before any payment.
+Use [WhatsApp for a question about BC timings](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20British%20Columbia.) or go straight to the form. Course, format and a workable time are settled before any payment.
 
 Book a free class
 
@@ -372,7 +372,15 @@ You can also use the [contact page](/contact), or read [about us](/about) first.
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20British%20Columbia.)[+91 91233 66161](tel:+919123366161)[connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
-Email or WhatsApp are far more practical than a call from the Pacific coast. The number is Indian, not a BC office.
+Email or WhatsApp is usually easier than an international call. The number is Indian, not a BC office.
+
+BC guides
+
+## Where BC courses get their own page
+
+Rotations are only the middle years. These guides pick up the Grade 11 and 12 courses, the university entry question and home learning in the province.
+
+[Computer Programming 11 and 12](/computer-programming-11-and-12-bc)[Calculus 12](/calculus-12-tutor-bc)[Homeschooling in BC](/homeschool-coding-and-math-bc)[UBC computer science admission](/ubc-computer-science-admission-requirements)[Canada's 2026 clock changes](/canada-time-zones-2026-online-class-times)[Coding curriculum by province](/canada-coding-curriculum-by-province)
 
 Nearby
 

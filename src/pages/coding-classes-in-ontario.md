@@ -1,10 +1,10 @@
 ---
 title: "Coding Classes in Ontario | Live Online, Ages 6 to 67"
-description: "Live online coding and maths classes for Ontario students aged 6 to 67, taught the way Ontario teaches it: coding inside the Algebra strand. From USD 100 a month."
+description: "Live online coding and maths classes for Ontario students aged 6 to 67, taught the way Ontario teaches it: coding inside the Algebra strand. Group batch or 1-on-1, first class free."
 canonical: https://learn.modernagecoders.com/coding-classes-in-ontario
 source: src/pages/coding-classes-in-ontario.html
 ---
-> Live online coding and maths classes for Ontario students aged 6 to 67, taught the way Ontario teaches it: coding inside the Algebra strand. From USD 100 a month.
+> Live online coding and maths classes for Ontario students aged 6 to 67, taught the way Ontario teaches it: coding inside the Algebra strand. Group batch or 1-on-1, first class free.
 
 [Home](/) / [Canada](/coding-classes-in-canada) / Ontario
 
@@ -14,11 +14,11 @@ Ontario / Live online
 
 The short answer
 
-Ontario became the first Canadian province to place coding inside the mathematics curriculum, in the Algebra strand, from 2020. That is why we teach coding and maths as one subject rather than two products. Live classes for ages 6 to 67, batches of fifteen to twenty or private tuition, USD 100 and USD 150 a month, and the opening class is free.
+Ontario became the first Canadian province to place coding inside the mathematics curriculum, in the Algebra strand, from 2020. That is why we teach coding and maths as one subject rather than two products. Live classes for ages 6 to 67, in a group batch of fifteen to twenty or 1-on-1, and the opening class is free. We teach alongside the student's school course and do not grant Ontario credits.
 
 In 2020 Ontario became the first province in Canada to write coding into the mathematics curriculum itself. Not a technology option, not a club after school. Coding sits in the Algebra strand from Grade 1, alongside patterns and variables, because the province decided that writing a sequence of instructions and reasoning about a pattern are the same intellectual act. Almost every coding provider ignores this and sells your child a games course. That is a real mismatch with what the child is being assessed on at school.
 
-We are the rare provider that teaches coding and mathematics under one roof, on one continuous track, which is exactly the shape Ontario's curriculum asks for. Ontario is one province inside our [Canada](/coding-classes-in-canada) coverage.
+We teach coding and mathematics under one roof, on one continuous track, which is exactly the shape Ontario's curriculum asks for. Ontario is one province inside our [Canada](/coding-classes-in-canada) coverage.
 
 Book the free first classSee the strand mapping
 
@@ -30,7 +30,7 @@ No card. No obligation. We call, we do not spam.
 
 Because Ontario places coding inside the Algebra strand, the coding and the mathematics get chosen together here rather than sold as two separate products.
 
-[![Maths through coding course thumbnail](/images/maths-through-coding.webp)  Ages 6 to 13 Maths through coding Loops and variables taught as mathematics, which is exactly how Ontario frames them. See the syllabus](/courses/maths-through-coding)[![Coding in blocks course thumbnail](/images/kids-coding.webp)  Ages 6 to 10 Coding in blocks Where a six year old starts, debugging their own broken code from the first weeks. See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python, complete course thumbnail](/images/python-teens.webp)  Ages 11 to 18 Python, complete The language taught to real depth rather than to a demo. Our most requested course. See the syllabus](/courses/python-complete-masterclass-teens)[![Middle school mathematics course thumbnail](/images/middle-school-maths.webp)  Ages 11 to 13 Middle school mathematics Fluency first, so that algebra later is about ideas rather than about arithmetic. See the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
+[![Maths through coding course thumbnail](/images/maths-through-coding.webp)  Ages 6 to 13 Maths through coding Loops and variables taught as mathematics, which is exactly how Ontario frames them. See the syllabus](/courses/maths-through-coding)[![Coding in blocks course thumbnail](/images/kids-coding.webp)  Ages 6 to 10 Coding in blocks Where a six year old starts, debugging their own broken code from the first weeks. See the syllabus](/courses/kids-coding-blocks-masterclass)[![Python, complete course thumbnail](/images/python-teens.webp)  Ages 11 to 18 Python, complete The language taught to real depth rather than to a demo. See the syllabus](/courses/python-complete-masterclass-teens)[![Middle school mathematics course thumbnail](/images/middle-school-maths.webp)  Ages 11 to 13 Middle school mathematics Fluency first, so that algebra later is about ideas rather than about arithmetic. See the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
 
 That is four of more than a hundred. The rest, sorted by age and subject, sit on the [course atlas](/course-atlas), and the order we teach them in is on the [coding roadmap](/coding-roadmap).
 
@@ -86,7 +86,7 @@ The diploma
 
 ## What the OSSD requires, and what we honestly are not
 
-The Ontario Secondary School Diploma takes a minimum of 30 credits. Students who entered Grade 9 in 2023 or earlier need 18 compulsory and 12 optional. Students entering from 2024 to 2025 onward need 17 compulsory and 13 optional. Every cohort must earn at least two of those 30 credits online. On top of the credits, a student must satisfy the provincial literacy requirement through the Ontario Secondary School Literacy Test, the equivalent literacy course, or an adjudication process, and complete 40 hours of community involvement activities.
+The Ontario Secondary School Diploma is built from compulsory and optional credits. Students who entered Grade 9 in 2023 or earlier need 18 compulsory and 12 optional. Students entering from 2024 to 2025 onward need 17 compulsory and 13 optional. Every cohort must earn at least two of those credits online. On top of the credits, a student must satisfy the provincial literacy requirement through the Ontario Secondary School Literacy Test, the equivalent literacy course, or an adjudication process, and complete 40 hours of community involvement activities.
 
 | Requirement | Detail |
 | --- | --- |
@@ -112,7 +112,7 @@ After Grade 8, coding stops being part of mathematics and becomes its own subjec
 
 | Code | Course | Grade and pathway |
 | --- | --- | --- |
-| ICD2O | Digital Technology and Innovations in the Changing World | Grade 10, open. Replaced ICS2O from September 2023 |
+| ICD2O | Digital Technology and Innovations in the Changing World | Grade 10, open. Published 2023; the older ICS2O is not on the ministry's current list |
 | ICS3U | Introduction to Computer Science | Grade 11, university preparation |
 | ICS3C | Introduction to Computer Programming | Grade 11, college preparation |
 | ICS4U | Computer Science | Grade 12, university preparation |
@@ -206,9 +206,9 @@ The arrangement
 
 Set out plainly, because most providers describe this in a way that hides the batch size.
 
-| Item | Small group | One to one |
+| Item | Group batch | One to one |
 | --- | --- | --- |
-| Students in the room | Five to eight | One |
+| Students in the room | Fifteen to twenty | One |
 | Teacher | The same one every week | The same one every week |
 | Classes | Two a week, eight a month | Two a week, eight a month |
 | Format | Live video, never a recording | Live video, never a recording |
@@ -217,19 +217,21 @@ Set out plainly, because most providers describe this in a way that hides the ba
 | Commitment | Month to month | Month to month |
 | Equipment | Laptop or desktop, microphone, video-capable connection | Same |
 
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every class time we confirm is written in Eastern Time: Ontario goes back to UTC-5 on 1 November 2026 and forward to UTC-4 on 14 March 2027, and a family in the north-west of the province that keeps a different clock confirms its own with us.
+
 Nothing is installed and nothing is licensed. Everything runs in the browser, which matters more than it sounds in a household where the family computer is shared and locked down.
 
 Fees
 
-## Billed monthly in US dollars
+## Billed monthly, in your own currency
 
-Ontario families are charged in USD. There is no registration fee and no term commitment, so a month that does not work is a month you can end.
+Each fee below is shown in the currency you are billed in. There is no registration fee and no term commitment, so a month that does not work is a month you can end.
 
-Small group$100per month, 8 classes
+Group batch$100 USDper month, 8 classes
 
-Fifteen to twenty learners with a consistent teacher. Most Ontario students start here and stay, because the group is small enough that nobody hides in it.
+Fifteen to twenty learners with a consistent teacher. One teacher for the whole batch, every week, and every learner in it working on the same build at the same stage.
 
-One to one$150per month, 8 classes
+One to one$150 USDper month, 8 classes
 
 Chosen where the pace has to belong entirely to one student, whether that means moving far faster than a group or taking considerably longer over the same idea.
 
@@ -301,7 +303,7 @@ Yes, and it is the reason this page exists. The 2020 mathematics curriculum for 
 
 ### Do your courses count toward the Ontario Secondary School Diploma?
 
-No, and we will not pretend otherwise. We are not an inspected Ontario private school and we cannot grant OSSD credits, including the two online credits the diploma requires. What we do is teach the underlying subject properly so a student performs better in the courses that do carry credit. If somebody tells you a tutoring service can award you OSSD credits, check that claim carefully.
+No, and we will not pretend otherwise. We teach alongside the student's school course and do not grant Ontario credits. We are not an inspected Ontario private school, so that includes the two online credits the diploma requires. What we do is teach the underlying subject properly so a student performs better in the courses that do carry credit. If somebody tells you a tutoring service can award you OSSD credits, check that claim carefully.
 
 ### What is the new financial literacy graduation requirement?
 
@@ -313,11 +315,11 @@ Anywhere in the province. Classes are live over video, so a student in Brampton,
 
 ### When do classes run for a family on Eastern Time?
 
-We fit the schedule to you, not the reverse. Weekend slots are the easiest to arrange for Eastern Time and weekday slots are set case by case. The exact times are agreed with you on the demo call before you pay anything, so you are never guessing whether a slot will actually suit your week.
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Every time we confirm is written in Eastern Time, which goes back to UTC-5 on 1 November 2026 and forward to UTC-4 on 14 March 2027. The exact times are agreed with you after the free first class and before you pay anything.
 
 ### What do classes cost in Ontario?
 
-Small group is USD 100 a month and one to one is USD 150 a month, each running two classes a week for eight a month. Billing is in US dollars. There is no registration fee, no materials to buy and no term-length commitment, so you can stop at the end of any month.
+The monthly fee for a group batch and for 1-on-1 is shown in the fees section of this page, in the currency you are billed in. Each runs two classes a week, eight a month. There is no registration fee, no materials to buy and no term-length commitment, so you can stop at the end of any month.
 
 ### Which ages do you take?
 
@@ -342,6 +344,14 @@ Book a free class
 Tell us the student's grade and what they have already tried. A teacher runs a genuine first class, finds out where they actually are, and recommends a level. If we are not right for your child, that is what you will hear.
 
 You can also reach us through the [contact page](/contact), or read [about us](/about) first.
+
+Ontario guides
+
+## One Ontario course, test or rule per page
+
+This page maps the province in outline. Each guide below takes a single course code, assessment or diploma rule and works through it in detail.
+
+[ICS3U help](/ics3u-computer-science-help)[ICS4U help](/ics4u-computer-science-help)[ICS3U and ICS4U exam review](/ics3u-ics4u-exam-review-practice)[ICS3U or ICS3C](/ics3u-vs-ics3c)[ICD2O explained](/icd2o-digital-technology-course-explained)[Computer science course pathway](/ontario-computer-science-course-pathway)[MHF4U Advanced Functions](/mhf4u-advanced-functions-tutor)[MCV4U Calculus and Vectors](/mcv4u-calculus-and-vectors-tutor)[MCR3U Functions](/mcr3u-functions-tutor)[MDM4U Data Management](/mdm4u-data-management-tutor)[MCF3M or MCR3U](/mcf3m-vs-mcr3u)[MTH1W, Grade 9 math](/mth1w-grade-9-math-explained)[EQAO Grade 3 math](/eqao-grade-3-math-practice)[EQAO Grade 6 math](/eqao-grade-6-math-practice)[EQAO Grade 9 math](/eqao-grade-9-math-practice)[OSSD credits explained](/ontario-high-school-diploma-credits-explained)[Coding curriculum, Grades 1 to 8](/ontario-coding-curriculum-grades-1-to-8)[Grade 6 math and coding](/ontario-grade-6-math-and-coding-help)[Toronto](/coding-and-ai-classes-in-toronto)[Scarborough, ages 6 to 12](/coding-classes-for-kids-in-scarborough-toronto)[Waterloo, teens](/ai-and-python-classes-for-teens-in-waterloo-ontario)[Homeschooling in Ontario](/homeschool-coding-and-math-ontario)
 
 Nearby
 

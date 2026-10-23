@@ -18,24 +18,24 @@ The course
 
 ## CCC preparation, worked backwards from February
 
-Two formats, both live. Small batches group students in the same division, because a Junior candidate and a Senior candidate need different autumns. One to one is paced to this student's division decision and gaps.
+Two formats, both live. A group batch of fifteen to twenty keeps students in the same division, because a Junior candidate and a Senior candidate need different autumns. One to one is paced to this student's division decision and gaps.
 
-| How it runs | Small batch | One to one |
+| How it runs | Group batch | One to one |
 | --- | --- | --- |
 | Grouped by | Division, never mixed | Not applicable |
-| Live classes each week | Two, fixed slot | Two, slot agreed with you |
+| Live classes each week | Two, at the batch time you choose | Two, slot agreed with you |
 | Division decision | Timed paper in September, discussed | The same, revisited in January |
 | Full timed papers | Monthly from October | Monthly, plus extra in January |
 | Online-environment practice | From December | From December, or earlier if new to it |
 | Solution review | Group walkthrough plus written notes | Line by line on the student's code |
-| Monthly fee | USD 100 | USD 150 |
+| Monthly fee | $100 USD | $150 USD |
 | Trial | First class free, no card | First class free, no card |
 
 [Open the full syllabus](/courses/competitive-programming-for-teens-course) Book the free first class
 
 The short answer
 
-The Canadian Computing Competition is run by the Centre for Education in Mathematics and Computing at the University of Waterloo and is held online in February. There are two divisions, Junior and Senior, and each paper consists of five questions. The divisions are defined by ability rather than by grade: Junior for any student with elementary programming skills, Senior for any student with intermediate to advanced skills. Roughly twenty of the top official Senior participants from schools in Canada are invited each spring to the Canadian Computing Olympiad at Waterloo, which is invitation only and is used to select Canada's teams for the International Olympiad in Informatics. Modern Age Coders coaches it live online, one to one or in small batches, from USD 100 a month with the first class free.
+The Canadian Computing Competition is run by the Centre for Education in Mathematics and Computing at the University of Waterloo and is held online in February. There are two divisions, Junior and Senior, and each paper consists of five questions. The divisions are defined by ability rather than by grade: Junior for any participant with beginner to intermediate programming skills, Senior for any participant with intermediate to advanced programming skills. Roughly twenty of the top official Senior participants from schools in Canada are invited each spring to the Canadian Computing Olympiad at Waterloo, which is invitation only and is used to select Canada's teams for the International Olympiad in Informatics. Modern Age Coders coaches it live online, 1-on-1 or in a group batch of fifteen to twenty, with the first class free. CEMC lists the 2027 CCC for Wednesday 17 February 2027 in North and South America.
 
 Module by module
 
@@ -127,7 +127,7 @@ The decision that costs a year
 
 ## Junior and Senior are a choice, not a year group
 
-The CEMC describes Junior as being for any student with elementary programming skills and Senior for any student with intermediate to advanced skills. Neither is defined by grade.
+The CEMC describes Junior as being for any participant with beginner to intermediate programming skills and Senior for any participant with intermediate to advanced programming skills. Neither is defined by grade.
 
 Families read Junior and Senior as though they mean younger and older, and enter accordingly. They do not. A Grade 9 student who has been programming seriously for two years belongs in Senior, and a Grade 12 student who started last term belongs in Junior. The divisions describe ability, and the entry form does not check your age.
 
@@ -135,7 +135,7 @@ That matters more than it would in most contests, because only one of the two di
 
 So a capable student who enters Junior because it sounded age-appropriate has quietly removed themselves from that route for a year. The CCC runs once, online, in February. A division chosen wrongly is not a setback of a few weeks; it is the whole cycle.
 
-None of which means Junior is a waste. For a student genuinely at elementary level it is the right paper and a good experience, and doing well there is a real foundation for entering Senior the following year. The point is only that the choice should be made deliberately, on ability, in the autumn rather than in the week of the contest.
+None of which means Junior is a waste. For a student genuinely at beginner level it is the right paper and a good experience, and doing well there is a real foundation for entering Senior the following year. The point is only that the choice should be made deliberately, on ability, in the autumn rather than in the week of the contest.
 
 The contest, exactly
 
@@ -147,11 +147,11 @@ Run by the Centre for Education in Mathematics and Computing at the University o
 | --- | --- | --- |
 | Organiser | CEMC, University of Waterloo | The CEMC page is the only source for dates |
 | Divisions | Junior and Senior | Chosen on ability, not on grade |
-| Junior is for | Any student with elementary programming skills | A real paper, not a warm-up |
-| Senior is for | Any student with intermediate to advanced skills | The only division that leads onward |
+| Junior is for | Any participant with beginner to intermediate programming skills | A real paper, not a warm-up |
+| Senior is for | Any participant with intermediate to advanced programming skills | The only division that leads onward |
 | Questions | Five per paper | Question selection is a genuine skill |
 | Format | Online | Practise in the environment, not only on paper |
-| When | February | Preparation must be finished, not under way |
+| When | Wednesday 17 February 2027 in North and South America, per CEMC | Preparation must be finished, not under way |
 | Frequency | Once a year | A wrong division choice costs the cycle |
 | Beyond | Top Senior participants invited to the CCO | And the CCO selects Canada's IOI teams |
 
@@ -213,7 +213,7 @@ The autumn before February
 
 ## How we prepare a student for a contest that happens once
 
-Two live classes a week, one to one or in a small batch, worked backwards from the February sitting rather than forwards through a syllabus.
+Two live classes a week, 1-on-1 or in a group batch, worked backwards from the February sitting rather than forwards through a syllabus. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.
 
 1. #### September: decide the division honestly
 
@@ -240,7 +240,7 @@ Being straight about it
 
 **We cannot get anybody invited to the CCO.** Invitations go to roughly twenty of the top official Senior participants from schools in Canada, decided by the CEMC on contest results. We have no relationship with them and no influence of any kind.
 
-**We do not publish the date.** The CEMC sets it each year and its own page is correct where a tutoring page would go stale. Check it in the autumn, not in January.
+**We print only the date the CEMC publishes.** CEMC lists the 2027 CCC for Wednesday 17 February 2027 in North and South America, with the school ordering deadline on Thursday 11 February 2027. Its own page is the one to recheck each autumn, because a tutoring page can go stale.
 
 **Your school handles the entry.** The CCC is written through participating schools, and arrangements, eligibility and supervision are theirs. We teach alongside that and cannot enter a student.
 
@@ -364,7 +364,7 @@ NEXT / 01
 
 #### AP Computer Science A Exam Prep
 
-Sat by many Canadian students alongside the CCC, and the Java overlap is worth using deliberately.
+A school exam that pairs well with the CCC, and the Java overlap is worth using deliberately.
 
 [Open the syllabus](/courses/ap-computer-science-a-java-exam-prep-course)
 
@@ -380,7 +380,7 @@ NEXT / 03
 
 #### Complete High School Mathematics Mastery
 
-The mathematics underneath the Senior paper, and the CEMC mathematics contests many CCC students also write.
+The mathematics underneath the Senior paper, and the CEMC mathematics contests a CCC writer may also sit.
 
 [Open the syllabus](/courses/complete-high-school-mathematics-mastery)
 
@@ -404,11 +404,11 @@ Fees
 
 ## What CCC coaching costs
 
-The same two figures as every other course we teach outside India, monthly, in US dollars. No premium for the word olympiad, nothing owed once you stop, first class free without a card.
+The same monthly fees as our other courses, shown in the currency you are billed in. Contest coaching costs nothing extra, nothing is owed once you stop, and the first class is free without a card.
 
 Free first class
 
-USD 0
+Free
 
 no card required
 
@@ -420,9 +420,9 @@ Book it
 
 Group batch
 
-USD 100
+$100 USD
 
-a month, billed in US dollars
+a month
 
 - Fifteen to twenty students, one teacher throughout
 - Live video, never a recording
@@ -433,12 +433,12 @@ Start here
 
 One to one
 
-USD 150
+$150 USD
 
-a month, billed in US dollars
+a month
 
 - Private teaching, paced to the entry date
-- The only way to get a weekday morning slot
+- Class times set around one student's week
 - Syllabus rebuilt around the papers the student is weakest on
 
 Enquire
@@ -516,7 +516,7 @@ Each guide takes one piece of the contest season further than this page can: one
 
 ## The other exams and contests we prepare students for
 
-Most CCC students are sitting a school qualification at the same time, and some are also writing other national contests. These are the ones we teach alongside it.
+A CCC writer may be sitting a school qualification in the same year, or writing other national contests. These are the ones we teach alongside it.
 
 [AP Computer Science AJava](/ap-computer-science-a-online-classes)[AP Computer Science PrinciplesAny language](/ap-computer-science-principles-online-coaching)[Cambridge IGCSE 0478Python, VB, Java](/cambridge-igcse-computer-science-tuition)[Cambridge A Level 9618Python, VB, Java](/cambridge-a-level-computer-science-online-classes)[UK GCSE Computer SciencePython](/uk-gcse-computer-science-tutoring)[IB Diploma Computer ScienceJava or Python](/ib-computer-science-online-tuition)[USACOC++, Java, Python](/usaco-preparation-online-coaching)[Informatics olympiadsC++](/ioi-olympiad-informatics-training)[PCEP and PCAPPython](/python-certification-pcep-pcap-course)
 
@@ -526,7 +526,7 @@ CCC questions
 
 ### Should my child enter Junior or Senior?
 
-On ability, not on grade. The CEMC describes Junior as being for any student with elementary programming skills and Senior for any student with intermediate to advanced skills, and neither is defined by year group. A capable Grade 9 student belongs in Senior. We settle this in September with a timed past Senior paper rather than guessing from a school year.
+On ability, not on grade. The CEMC describes Junior as being for any participant with beginner to intermediate programming skills and Senior for any participant with intermediate to advanced programming skills, and neither is defined by year group. A capable Grade 9 student belongs in Senior. We settle this in September with a timed past Senior paper rather than guessing from a school year.
 
 ### Why does the division matter so much?
 
@@ -534,11 +534,11 @@ Because only Senior leads onward. Roughly twenty of the top official CCC Senior 
 
 ### How much does the coaching cost?
 
-A small batch is USD 100 a month and one to one is USD 150 a month, billed in US dollars, the same figures as every other course we teach outside India. There is no premium for contest coaching. No enrolment fee, no minimum term, and the first class is free without a card.
+The monthly fee for a group batch and for 1-on-1 is shown in the fees section of this page, in the currency you are billed in, and it is the same as for our other courses. Contest coaching costs nothing extra. No enrolment fee, no minimum term, and the first class is free without a card.
 
 ### When is the CCC?
 
-It is held online in February. The exact date is set by the CEMC each year, so we deliberately do not print it here; the CEMC's own page is correct where a tutoring page would go stale. Check it in the autumn rather than in January, because the preparation calendar is built backwards from it.
+CEMC lists the 2027 CCC for Wednesday 17 February 2027 in North and South America, written online at school, and schools order it by Thursday 11 February 2027. The CEMC's own page is the one to recheck in the autumn, because the preparation calendar is built backwards from that date.
 
 ### How do we enter?
 
@@ -558,7 +558,7 @@ No. Invitations go to roughly twenty of the top official Senior participants fro
 
 ### Is Junior a waste of time for a strong student?
 
-For a genuinely strong student, entering Junior costs them the CCO route for that year, so yes in that specific sense. For a student actually at elementary level it is the right paper, a real contest and a good foundation for Senior the following year. The mistake is choosing by age instead of by ability.
+For a genuinely strong student, entering Junior costs them the CCO route for that year, so yes in that specific sense. For a student actually at beginner level it is the right paper, a real contest and a good foundation for Senior the following year. The mistake is choosing by age instead of by ability.
 
 ### When should we start preparing?
 
@@ -582,11 +582,11 @@ A timed past paper problem, sat properly, and a conversation about which divisio
 
 ### What happens after we send the form?
 
-A mentor calls you at a reasonable hour to arrange the free class. Nothing is charged and no card is requested. Tell us the student's grade and how long they have been programming, because those two facts together start the division conversation, which is where everything else follows from.
+A mentor calls you at a reasonable hour to arrange the free class. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Nothing is charged and no card is requested. Tell us the student's grade and how long they have been programming, because those two facts together start the division conversation, which is where everything else follows from.
 
 Read next
 
-## Students choose their own CCC level, and most choose it by age.
+## Students choose their own CCC level. Age is the wrong guide.
 
 A test that settles the level honestly, the scoring arithmetic that turns thirty five points into fifty on the same afternoon, and where the invitation to the CCO actually goes.
 
@@ -602,7 +602,7 @@ Rather read first? [USACO preparation](/usaco-preparation-online-coaching), [inf
 
 [WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders.%20I%20am%20interested%20in%20Canadian%20Computing%20Competition%20preparation.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
 
-Every class is live, one to one or in a small division-matched batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
+Every class is live, 1-on-1 or in a division-matched group batch, taught from India at a time arranged with you. Nothing here is a recording. The form starts a conversation, not an enrolment.
 
 ## Keep exploring Modern Age Coders
 
