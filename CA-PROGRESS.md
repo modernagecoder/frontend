@@ -299,7 +299,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 157 | coding-classes-for-kids-in-cambridge-ontario (kco, #33702C) | city | 3,820 | 2% vs coding-classes-for-kids-in-north-york-toronto | kids city page | city open data | 8a63fec5 |
 | 158 | coding-classes-for-kids-in-st-catharines-niagara (kscn, #2B3866) | city | 3,882 | 2.1% vs coding-classes-for-kids-in-north-york-toronto | kids city page | city open data | b2049248 |
 | 91 | coding-classes-in-quebec (qux, #4C2937) | prov | 4,599 | 1.9% vs coding-and-ai-classes-in-ottawa | province page | provincial open data | 6e376cc2 |
-| 92 | coding-classes-in-manitoba (man, #8A4C46) | prov | 4,057 | 1.5% vs coding-and-ai-classes-in-toronto | province page | provincial open data | (this commit) |
+| 92 | coding-classes-in-manitoba (man, #8A4C46) | prov | 4,057 | 1.5% vs coding-and-ai-classes-in-toronto | province page | provincial open data | bf31e168 |
+| 93 | coding-classes-in-saskatchewan (sas, #4C3C1C) | prov | 4,083 | 1.7% vs coding-classes-in-northwest-territories | province page | provincial open data | (this commit) |
 
 ## Skipped
 

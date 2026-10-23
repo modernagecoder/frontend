@@ -56949,5 +56949,77 @@
       "That our classes grant or count toward a Manitoba credit: refused.",
       "Any affiliation with Manitoba Education and Early Childhood Learning, a school division, the Manitoba government or CEMC."
     ]
+  },
+  "coding-classes-in-saskatchewan": {
+    "market": "Saskatchewan",
+    "bodyClass": "cg-sas",
+    "pageType": "city",
+    "curriculumAuthority": "Saskatchewan, read 22 October 2026 from curriculum.gov.sk.ca and saved raw: Computer Science 20 outcomes (five goals, CS20-FP1, FP3, FP4, CS2, SD1) and the January 2018 CS20 guide (language left to teachers, suggested languages for CS20 and CS30, Blockly and Scratch not the core language, start coding early, Karel bridge, four computational thinking dimensions, science credit requirement); Computer Science 30 outcomes (FP2, FP3, FP4, CC1, CC2, CAP1); secondary course lists (CS20 and CS30 under Sciences; Pre-Calculus 20 and 30, Calculus 30 under Mathematics); Pre-Calculus 30 (P30.1 to P30.13) and Calculus 30 (C30.1 to C30.8) outcomes. Time: The Time Act, 2026, Bill No. 58 (UTC-6, Lloydminster, coming into force by order); tzdb 2026e America/Regina. Area codes 306, 474, 639. CEMC 2027 dates via facts-schools-contests.md.",
+    "localProject": "Government of Saskatchewan GeoHub, Saskatchewan Parks Boundaries (Ministry of Parks, Culture and Sport; Standard Unrestricted Use Data Licence v2.0), 172 records queried with curl on 22 October 2026 and analysed with our script mean_median.py (python -I): RS 104, PA 24, PP-N 12, PP-R 11, PP-H 9, HS 8, PP-W 4; all parks mean 72.61 km2 against median 0.61 km2; PP-N mean 583.02, median 235.42; largest Lac La Ronge Provincial Park about 3,191.9 km2; 99 of 172 under 1 km2; description says PR, file says PA. No total area. Labelled as ours. Lesson family: mean versus median on a skewed column, unit conversion.",
+    "requiredMentions": [
+      "Saskatchewan Parks Boundaries",
+      "Standard Unrestricted Use Data Licence (Version 2.0)",
+      "the median is 0.61 km2",
+      "Lac La Ronge Provincial Park",
+      "Create programs that utilize external files.",
+      "Explore number systems and character encoding used in computing.",
+      "should not be the core language of Computer Science 20",
+      "includes the City of Lloydminster",
+      "306, 474 and 639",
+      "but the file itself uses PA"
+    ],
+    "sources": [
+      {
+        "claim": "Saskatchewan Computer Science 20 outcomes.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumOutcomeContent?id=446"
+      },
+      {
+        "claim": "Saskatchewan Computer Science 20 curriculum guide (January 2018): languages, visual environments, computational thinking.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumFile?id=446"
+      },
+      {
+        "claim": "Saskatchewan Computer Science 30 outcomes.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumOutcomeContent?id=444"
+      },
+      {
+        "claim": "Saskatchewan Pre-Calculus 30 outcomes.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumOutcomeContent?id=159"
+      },
+      {
+        "claim": "Saskatchewan Calculus 30 outcomes.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumOutcomeContent?id=163"
+      },
+      {
+        "claim": "The Time Act, 2026, Bill No. 58 (UTC-6, Lloydminster, coming into force by order).",
+        "url": "https://docs.legassembly.sk.ca/legdocs/Bills/30L2S/Bill30-58.pdf"
+      },
+      {
+        "claim": "Saskatchewan GeoHub: Saskatchewan Parks Boundaries dataset.",
+        "url": "https://geohub.saskatchewan.ca/datasets/2dcf3ee92e2c4d25a109eeac74f085af_4/about"
+      },
+      {
+        "claim": "Government of Saskatchewan Standard Unrestricted Use Data Licence (Version 2.0).",
+        "url": "https://gisappl.saskatchewan.ca/Html5Ext/Resources/GOS_Standard_Unrestricted_Use_Data_Licence_v2.0.pdf"
+      },
+      {
+        "claim": "CEMC contests 2026-27: CCC, Pascal, Cayley, Fermat, Euclid, Gauss dates; through a school.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Regina, no daylight saving time.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Saskatchewan, Regina or Saskatoon population figure: none printed.",
+      "That The Time Act, 2026 is in force: refused; the bill comes into force by order of the Lieutenant Governor in Council and our copy shows no assent date.",
+      "That Computer Science 20 counts toward the science graduation requirement: not stated by the guide; only the general science credit rule is quoted.",
+      "A total area of Saskatchewan parks: not computed.",
+      "That C5 was written for Saskatchewan: refused; it was written for BC and Alberta and is mapped to the P30 outcomes.",
+      "The name of the smallest site in the parks file: left out (a religious building).",
+      "That every Saskatchewan high school offers Computer Science 20 or 30: refused.",
+      "That our classes grant or count toward a Saskatchewan credit: refused.",
+      "Any affiliation with the Saskatchewan Ministry of Education, the Ministry of Parks, Culture and Sport, a school division or CEMC."
+    ]
   }
 }
