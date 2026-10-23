@@ -364,7 +364,7 @@ out()
 bullets([
     'A live class before you commit to a course: a free demo (a waiting list) or the paid Priority Live Demo (a guaranteed slot today or tomorrow).',
     'Monthly billing. Cancel any month. No six or twelve month packages.',
-    'No registration fee and no hidden charges. The price quoted is the whole price.',
+    'No registration fee and no hidden charges. The one addition is the %s percent payment gateway charge, shown on the bill before paying.' % cfg['gatewayFee']['percent'],
     'Live batches. Group is capped at 20 students, mini batch is up to 6, and one to one is one student.',
     'You keep everything you build. Projects, code and certificates stay yours.',
     'A real person on WhatsApp at +91 9123366161, not a ticket queue.',
