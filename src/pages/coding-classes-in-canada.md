@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [AI and Python classes for teens in Fredericton](/ai-and-python-classes-for-teens-in-fredericton)
 - [AI and Python classes for teens in Lethbridge](/ai-and-python-classes-for-teens-in-lethbridge)
 - [AI and Python classes for teens in Guelph](/ai-and-python-classes-for-teens-in-guelph)
 - [AI and Python classes for teens in Gatineau](/ai-and-python-classes-for-teens-in-gatineau)

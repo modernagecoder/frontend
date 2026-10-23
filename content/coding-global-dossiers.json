@@ -57693,5 +57693,92 @@
       "Any affiliation with CEMC, the Alberta education ministry, the City of Lethbridge or any school division.",
       "CEMC contest fees: left out of the copy (currency-neutral page)."
     ]
+  },
+  "ai-and-python-classes-for-teens-in-fredericton": {
+    "market": "Fredericton",
+    "bodyClass": "cg-aptf",
+    "pageType": "city",
+    "curriculumAuthority": "curriculum.nbed.ca: Computer Science 110 (coding aim, AI in the field, AI-assisted debugging indicator) and the digital and information technology subcluster list (Computer Science 110 and 120, Cybersecurity 120, Cybersecurity and Technical Support 110, Technology 9); Constitution Act, 1982 s.16(2) and Constitution Act, 1867 s.68 via facts-geo.md; CEMC CCC (2027 date, ordering deadline, level choice, English and French, school-based entry); CCC Online Grader rules on AI in the IDE; OpenAI Terms of Use (January 1, 2026); Anthropic Consumer Terms (Oct 8, 2025); facts-geo.md for 428/506 and Atlantic time (IANA tzdb 2026e).",
+    "localProject": "City of Fredericton open data, Recreation Amenities Public View (Open Government License - City of Fredericton, version 1.0, commercial use allowed), 295 rows fetched with urllib on 22 October 2026, 283 tagged Summer (130) or Year-Round (153); our fredericton_bayes.py (python -I): leave-one-out naive Bayes with add-one smoothing; always Year-Round 54.1%; English descriptions 88.7%; French descriptions 85.2%; 32 English mistakes, mostly parking (7 and 4) and community school gyms (6); diamond and ball 25 each only on summer amenities, drop 31 only on summer, playground 57 year-round against 2 summer. Labelled as ours. Lesson family: text classification, naive Bayes, leave-one-out, comparing languages.",
+    "requiredMentions": [
+      "Recreation Amenities",
+      "Open Government License - City of Fredericton",
+      "diamond&rdquo; and &ldquo;ball&rdquo; appear 25 times each, always on summer amenities",
+      "Seven are summer parking areas called year-round",
+      "The French descriptions give 85.2 per cent against 88.7 in English",
+      "The English model makes 32 mistakes",
+      "appears 31 times, every time on a summer amenity",
+      "Cybersecurity and Technical Support 110",
+      "AI‑assisted debugging tools",
+      "New Brunswick numbers use the 506 area code and its overlay 428",
+      "Thursday 11 February 2027"
+    ],
+    "sources": [
+      {
+        "claim": "NB curriculum: Computer Science 110 description, AI scope and AI-assisted debugging indicator.",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/computer-science-110/"
+      },
+      {
+        "claim": "NB curriculum: digital and information technology subcluster course list.",
+        "url": "https://curriculum.nbed.ca/learning-areas/high-school-block/career-connected-learning/digital-and-information-technology/digital-production-120"
+      },
+      {
+        "claim": "Constitution Act, 1982 s.16(2): New Brunswick official languages.",
+        "url": "https://laws-lois.justice.gc.ca/eng/const/page-12.html"
+      },
+      {
+        "claim": "Constitution Act, 1867 s.68: Fredericton as seat of government of New Brunswick.",
+        "url": "https://laws-lois.justice.gc.ca/eng/const/page-2.html"
+      },
+      {
+        "claim": "CEMC CCC page: 2027 date, ordering deadline, level choice.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC contests: CCC available in English and French.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC how contests work: participation through a school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "CCC Online Grader rules: generative AI and AI tools in an IDE forbidden.",
+        "url": "https://cccgrader.com/rules.pdf"
+      },
+      {
+        "claim": "OpenAI Terms of Use: minimum age 13 and parent or guardian permission under 18.",
+        "url": "https://openai.com/policies/row-terms-of-use/"
+      },
+      {
+        "claim": "Anthropic Consumer Terms: users must be at least 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "City of Fredericton: Recreation Amenities Public View item.",
+        "url": "https://www.arcgis.com/home/item.html?id=0dcaf00b5ef14eb780903ce767204f0e"
+      },
+      {
+        "claim": "City of Fredericton Open Government License, version 1.0 (hub page item): commercial use, based on OGL Canada, non-endorsement.",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/814c4f293308411aba1d6f035e08683b/data?f=json"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Moncton and America/Toronto offsets.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any claim about Fredericton schools, school districts or their results: none made, by the row instruction.",
+      "Any Fredericton population or language statistics: StatCan not reachable live, so none printed.",
+      "Grade levels for Computer Science 110 and 120: not asserted; the pages read do not state them.",
+      "That every New Brunswick school offers these courses: not claimed.",
+      "Crime, income and flood-sensor layers on the City portal: not used, by the brief.",
+      "Street addresses from the amenity layer: not reproduced.",
+      "That the model understands what drop-in means: refused; it only counts words.",
+      "That our courses earn New Brunswick credits: refused; we do not grant provincial credits.",
+      "Recommending Claude or any 18+ tool to a teenager: refused under Anthropic's terms.",
+      "Any affiliation with CEMC, the New Brunswick education department, the City of Fredericton or any school district.",
+      "CEMC contest fees: left out of the copy (currency-neutral page)."
+    ]
   }
 }
