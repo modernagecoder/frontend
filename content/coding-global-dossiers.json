@@ -58155,5 +58155,75 @@
       "Names of St. John's schools or private people: not used.",
       "Any affiliation with ECCC, the City of St. John's, the Newfoundland and Labrador education department, CDLI, CEMC or the University of Waterloo."
     ]
+  },
+  "online-coding-and-python-classes-in-vaughan": {
+    "market": "Vaughan",
+    "bodyClass": "cg-pv",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 1 C3.2, Grade 6 C3.2, Grade 7 C3.1, Grade 8 C3.1; MTH1W (2021) C2.2; ICD2O (2023) C2; ICS3U no prerequisite; ICS4U modular design; EQAO Grade 9 window 12 January to 5 February 2027, counts in the course mark. CEMC 2026-27: CCC Wednesday 17 February 2027 with its language list and Python caveat, through-a-school rule, BCC 9 to 20 November 2026, Gauss 10 to 21 May 2027, CS Circles. Vaughan in the Toronto CMA, 905 belt area codes and Eastern time offsets from facts-geo.md (IANA tzdb 2026e).",
+    "localProject": "York Region Open Data, Bike Path layer (York Region Open Data Licence), the 238 rows with SOURCE = Vaughan downloaded with curl on 22 October 2026 and summed with our script vaughan_paths.py (python -I): geometry length by facility class, Shared Pathway (in-boulevard) 36.0 km to Connection 0.1 km, 114.2 km in all (our sum); OWNER labels CITY OF VAUGHAN 88, Vaughan 4, York Region 22 after upper(), UNC 12, blank 112; ACTUAL_LENGTH blank in 6 rows and off by more than 0.5 m in 20. Labelled as ours. Lesson family: per-group sums with defaultdict, unit conversion and label normalisation.",
+    "requiredMentions": [
+      "Cycle Track (Region Maintained)",
+      "Painted Bike Lane (Region)",
+      "114.2 km",
+      "blank in 6 of the 238 rows",
+      "starts every new facility class at 0.0",
+      "Shared Roadway (signed route)",
+      "Tuesday 6:30 pm in Vaughan",
+      "Concord, Kleinburg, Thornhill and Woodbridge",
+      "289, 365, 742 or 905"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: elementary math C3 coding expectations (Grades 1, 6, 7, 8), MTH1W C2.2, ICD2O C2 and ICS course descriptions.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_7___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum site, Elementary Mathematics.",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows; Grade 9 results in the final course mark.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC: CCC 2027 date, languages and Python caveat.",
+        "url": "https://cemc.uwaterloo.ca/contests/ccc"
+      },
+      {
+        "claim": "CEMC: how contests work (through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "CEMC: contest dates for 2026/27 (BCC, Gauss).",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "York Region Open Data: Bike Path item (description, line network of existing bike facilities).",
+        "url": "https://www.arcgis.com/home/item.html?id=c1c2100c9f22435f982af79c7385eb1a"
+      },
+      {
+        "claim": "York Region: Bike Path map service layer queried for SOURCE = Vaughan.",
+        "url": "https://ww8.yorkmaps.ca/arcgis/rest/services/OpenData/Society/MapServer/0"
+      },
+      {
+        "claim": "York Region Open Data Licence (commercial use, credit statement, non-endorsement), saved PDF.",
+        "url": "https://www.arcgis.com/home/item.html?id=78cc02388af248c0b7a30eda6adfade0"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Vaughan or York Region population: StatCan was not reachable live.",
+      "That 114.2 km is the length of Vaughan's cycling network: refused; it is our sum of the rows Vaughan supplied to the regional file.",
+      "Use of the City of Vaughan open data portal: vaughan.ca returned 403 and was not retried around.",
+      "A fixed class length in minutes: not published in brand facts, so the class walk-through gives order, not minutes.",
+      "That our classes earn or count toward an Ontario credit: refused.",
+      "CEMC contest fees: left out (currency-neutral page).",
+      "Names of Vaughan schools or private people: not used.",
+      "Any affiliation with York Region, the City of Vaughan, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
