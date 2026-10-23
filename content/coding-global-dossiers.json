@@ -56320,5 +56320,77 @@
       "Names of North York schools, school boards or private people: not used.",
       "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-for-kids-in-etobicoke-toronto": {
+    "market": "Etobicoke",
+    "bodyClass": "cg-ket",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 3 overview (write code to perform a repeating operation), C3.1 (sequential, concurrent and repeating events), the Set value to 0 example, the teacher note on loops and repetitive properties, the unplugged mirroring context, and the number-sense note that each decade repeats the 0 to 9 counting sequence. EQAO Grade 3 window 4 May to 8 June 2027. CEMC Beaver Computing Challenge 2026 ordering deadline and dates, 2025 Grade 5/6 participation and mean, not-a-test statement, entry through a school. Area codes and Eastern offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e).",
+    "localProject": "City of Toronto Open Data, Public Art (Economic Development & Culture; Open Government Licence - Toronto), downloaded with curl on 22 October 2026 and filtered to WARD 1, 2 and 3 (the wards named Etobicoke North, Etobicoke Centre and Etobicoke-Lakeshore in the City Wards file) with our scripts art_decades.py and page_script.py (python -I): 25 of 459 rows; by decade 1930s 1, 1950s 1, 1960s 3, 1990s 6, 2000s 3, 2010s 2, 2020s 8, unknown 1; matching on the ward-file spelling of the names finds only 21 because the art file writes Etobicoke-Centre and one Etobicoke-Lakeshore (3); 20 sculptures; 13 City-owned, 11 developer program; steel in 9 rows and bronze in 5 (overlapping). Labelled as ours. Lesson family: integer-division buckets, matching on a code not a name, and a text bar chart.",
+    "requiredMentions": [
+      "Students will write code to perform a repeating operation, such as a repeating number pattern.",
+      "Each decade repeats the 0 to 9 counting sequence.",
+      "two characters mirroring one another",
+      "The art file writes ward 2 as Etobicoke-Centre",
+      "Matching the WARD number instead finds all 25",
+      "the 2020s already have more works than any earlier decade",
+      "steel in 9 rows and bronze in 5",
+      "Monday 26 October 2026 as the ordering deadline",
+      "14 260 contestants at the Grade 5/6 level in 2025",
+      "1997 // 10 is 199"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 3 math strands, C3 coding expectations, notes and the decade note.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_3___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum site, Elementary Mathematics (human-readable home of the API content).",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "EQAO: 2026-27 Grade 3 assessment window.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge: 2026 ordering deadline and dates, 2025 results, not a test.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC: all students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Toronto Open Data: Public Art dataset page (inventory, programs, ward fields).",
+        "url": "https://open.toronto.ca/dataset/public-art/"
+      },
+      {
+        "claim": "City of Toronto CKAN API: Public Art package metadata (licence title, notes, refresh).",
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/package_show?id=public-art"
+      },
+      {
+        "claim": "City of Toronto: Open Government Licence - Toronto (commercial use, attribution).",
+        "url": "https://open.toronto.ca/open-data-licence/"
+      },
+      {
+        "claim": "City of Toronto City Wards file (City Clerk's Office): wards 1, 2 and 3 named Etobicoke North, Etobicoke Centre, Etobicoke-Lakeshore.",
+        "url": "https://open.toronto.ca/dataset/city-wards/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Etobicoke or Toronto population figure: StatCan was not reachable live, so none is printed.",
+      "That wards 1 to 3 are exactly the former City of Etobicoke: not sourced; the page says the ward choice is ours, and the Etobicoke York Community Council area (which includes York wards) is not used.",
+      "Artist names, artwork titles, descriptions, addresses and commissioning companies: left out (private people and companies; one work is a memorial).",
+      "A street tree project: the Street Tree Data endpoints returned HTTP 500 and 502 on 22 October 2026, so the dataset was dropped and not retried.",
+      "A total of materials: the material words overlap within rows, so they are never added.",
+      "A combined BCC participation figure across levels: CEMC publishes each level separately and the page quotes the Grade 5/6 row only.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of Etobicoke schools, school boards or private people: not used.",
+      "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }

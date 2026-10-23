@@ -290,7 +290,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 119 | best-coding-classes-for-kids-in-laval (bkl, #665A1C) | city | 3,855 | 1.9% vs best-coding-classes-for-kids-in-oakville | kids city page | city open data | d897342d |
 | 120 | best-coding-classes-for-kids-in-kelowna (bkik, #32610F) | city | 3,635 | 2.7% vs best-coding-classes-for-kids-in-vancouver | kids city page | city open data | 5318e151 |
 | 121 | best-coding-classes-for-kids-in-moncton (beab, #0F661E) | city | 3,744 | 1.6% vs best-coding-classes-for-kids-in-markham | kids city page | city open data | 66786c09 |
-| 151 | coding-classes-for-kids-in-north-york-toronto (knyt, #22570D) | city | 4,094 | 2% vs coding-classes-for-kids-in-scarborough-toronto | kids city page | city open data | (this commit) |
+| 151 | coding-classes-for-kids-in-north-york-toronto (knyt, #22570D) | city | 4,094 | 2% vs coding-classes-for-kids-in-scarborough-toronto | kids city page | city open data | 37ed4852 |
+| 152 | coding-classes-for-kids-in-etobicoke-toronto (ket, #1B2852) | city | 3,849 | 2.3% vs best-coding-classes-for-kids-in-mississauga | kids city page | city open data | (this commit) |
 
 ## Skipped
 
