@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding classes for kids in North York](/coding-classes-for-kids-in-north-york-toronto)
 - [Coding classes for kids in Moncton](/best-coding-classes-for-kids-in-moncton)
 - [Coding classes for kids in Kelowna](/best-coding-classes-for-kids-in-kelowna)
 - [Coding classes for kids in Laval](/best-coding-classes-for-kids-in-laval)

@@ -56240,5 +56240,85 @@
       "Any ranking of Moncton coding providers, or that Modern Age Coders is the best: refused.",
       "Any affiliation with the City of Moncton, the New Brunswick education department, ECCC, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-for-kids-in-north-york-toronto": {
+    "market": "North York",
+    "bodyClass": "cg-knyt",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 4 C3.1 (sequential, concurrent, repeating and nested events), C3.2 (read and alter existing code), and Grade 4 teacher notes (loops make code more readable; nested loops; code altered for a new situation; the Repeat 4 times example; determining area, using whole numbers as a coding context). EQAO Grade 6 window 4 May to 8 June 2027; PPM 128 effective 1 September 2024. CEMC Problem of the Week (Grades 3 to 12, every Thursday) and Courseware (Grades 4 to 12, no registration, no credential). Area codes and Eastern offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e).",
+    "localProject": "City of Toronto Open Data, Indoor Ice Rinks and Outdoor Artificial Ice Rinks (Parks, Forestry & Recreation; Open Government Licence - Toronto), downloaded with curl on 22 October 2026 and filtered to Community Council Area North York with our scripts rinks_area.py and page_script.py (python -I): 33 rows (20 indoor, 13 outdoor including 1 skate trail), 26 with a length and width; areas from 7,656 to 24,300 square feet; 18 pads at 185 by 85; the 289 by 49 pad is longest but smaller than 185 by 85; 27 distinct locations across the two files though the per-file counts are 18 and 10; three indoor pads labelled Undersized; all 13 outdoor rows lit. Labelled as ours. Lesson family: computing a new column from two others, skipping blanks with try and except, sorting and unit conversion.",
+    "requiredMentions": [
+      "someone points at the 289-foot one",
+      "determining area, using whole numbers",
+      "three North York indoor pads carry the label",
+      "Hockey Canada Line Markings diagrams approved by Hockey Canada",
+      "24,300 square feet first",
+      "smaller than a standard 185 by 85 pad",
+      "together there are only 27",
+      "seven notes appear, and 26 areas remain",
+      "Eight arenas in Toronto are operated by volunteer Arena Boards of Management",
+      "all 13 outdoor rows are marked as lit"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 4 math strands, C3 coding expectations and teacher notes.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_4___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum site, Elementary Mathematics (human-readable home of the API content).",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "EQAO: 2026-27 Grade 6 assessment window.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "Ontario PPM 128: personal mobile devices, effective 1 September 2024.",
+        "url": "https://www.ontario.ca/document/education-ontario-policy-and-program-direction/policyprogram-memorandum-128"
+      },
+      {
+        "claim": "CEMC Problem of the Week: Grades 3 to 12, sent every Thursday.",
+        "url": "https://cemc.uwaterloo.ca/resources/potw"
+      },
+      {
+        "claim": "CEMC Courseware: Grades 4 to 12, no registration, no credential.",
+        "url": "https://cemc.uwaterloo.ca/resources/courseware"
+      },
+      {
+        "claim": "CEMC: all students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "City of Toronto Open Data: Indoor Ice Rinks (Community Council Area, pad sizes, Hockey Canada note, Arena Boards).",
+        "url": "https://open.toronto.ca/dataset/indoor-ice-rinks/"
+      },
+      {
+        "claim": "City of Toronto Open Data: Outdoor Artificial Ice Rinks (Community Council Area, pad sizes, lighting).",
+        "url": "https://open.toronto.ca/dataset/outdoor-artificial-ice-rinks/"
+      },
+      {
+        "claim": "City of Toronto: Open Government Licence - Toronto (commercial use, attribution).",
+        "url": "https://open.toronto.ca/open-data-licence/"
+      },
+      {
+        "claim": "City of Toronto City Wards file (City Clerk's Office): names of wards 6, 8, 15, 16, 17 and 18.",
+        "url": "https://open.toronto.ca/dataset/city-wards/"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any North York or Toronto population figure: StatCan was not reachable live, so none is printed.",
+      "That the North York Community Council Area matches the former City of North York: not sourced, so the page uses the City's label only.",
+      "Rink, arena, park or sponsor names from the Public Name and Asset Name columns: left out, since some carry the names of people or companies.",
+      "A count of rinks across the whole city or a total ice area: not printed; every figure is for North York rows only.",
+      "Any comparison with NHL or international rink sizes: the files carry such labels elsewhere, but none applies to a North York row, so none is drawn.",
+      "The live rink status feed: not used, since it changes through the day.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of North York schools, school boards or private people: not used.",
+      "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
