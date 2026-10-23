@@ -57911,5 +57911,65 @@
       "CEMC fees: left out of the copy on purpose (currency-neutral page).",
       "Any affiliation with the City of London, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-and-ai-classes-in-saskatoon": {
+    "market": "Saskatoon",
+    "bodyClass": "cg-aisa",
+    "pageType": "city",
+    "curriculumAuthority": "Saskatchewan Ministry of Education, read raw 22 October 2026 (copies in ca/src/coding-classes-in-saskatchewan/): Computer Science 20 outcomes CS20-FP1 to FP4, CP2, CS2 and SD1; CS 20 curriculum document (January 2018): language left to teachers, suggested languages, start coding as soon as possible, visual environments not the core language, Karel the Robot, science framework and 20-level science credit; CS 30 outcomes (files, libraries, OOP). CEMC Gauss and Pascal, Cayley, Fermat 2026-27 facts and through-a-school rule. America/Regina UTC-6 with no DST and the 306/639/474 area codes from facts-geo.md.",
+    "localProject": "Saskatoon Transit stops, City of Saskatoon open data (statement: free to use, re-use and redistribute without restriction), CSV downloaded with curl on 22 October 2026 and analysed with our script stops_page.py (python -I): 1,368 rows; wheelchair_boarding parentless 998 \"1\", 340 \"0\" (6 hub stations), 9 empty; 21 child stops \"1\"; none \"2\"; read against the GTFS Schedule reference (0 or empty = no information); 1,363 distinct stop codes (6 blank, all hubs); nearest stop to our sample point Downtown Terminal North at 82 m (haversine). Labelled as ours. Lesson family: coded column read against its specification, split by a second column, great-circle distance.",
+    "requiredMentions": [
+      "Downtown Terminal North at 82 m",
+      "1,019 marked boardable, 349 unknown, none marked impossible",
+      "without any legal, technological or social restriction",
+      "should not be used as the core language in Computer Science 20",
+      "Karel-style puzzles",
+      "3rd Avenue / 23rd Street at 102 m",
+      "only 1,363 different stop codes",
+      "CS20-FP2",
+      "A class booked now stays at the same local time all winter",
+      "the 21 child stops from being read with the wrong rule"
+    ],
+    "sources": [
+      {
+        "claim": "Saskatchewan curriculum: Computer Science 20 outcomes and curriculum document.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumHome?id=446"
+      },
+      {
+        "claim": "Saskatchewan curriculum: Computer Science 30 outcomes.",
+        "url": "https://curriculum.gov.sk.ca/CurriculumHome?id=444"
+      },
+      {
+        "claim": "City of Saskatoon open data: Transit Stops (GTFS) dataset.",
+        "url": "https://data-citysaskatoon.opendata.arcgis.com/datasets/657bed1e360b45cb8cfb21e3144244fc_0"
+      },
+      {
+        "claim": "City of Saskatoon: open data statement on reuse.",
+        "url": "https://saskatoon.ca/services-residents/connect-your-city/open-data"
+      },
+      {
+        "claim": "GTFS Schedule reference: wheelchair_boarding values.",
+        "url": "https://gtfs.org/documentation/schedule/reference/"
+      },
+      {
+        "claim": "CEMC: Gauss and Pascal, Cayley, Fermat 2026-27, through-a-school rule, free past contests.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Regina, no daylight saving time.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "That 340 Saskatoon stops are inaccessible: refused; the GTFS reference says 0 means no information.",
+      "Any Saskatoon population figure: StatCan was not reachable live.",
+      "That the Time Act, 2026 is in force: not claimed; only the bill text and tzdb were read.",
+      "That Computer Science 20 counts as the 20-level science credit at every school: not claimed; left to the school.",
+      "That our Grade 12 math course is written for Saskatchewan Pre-Calculus 30: not claimed; it is built for Pre-calculus 12 and Math 30-1 and matched to the school outline.",
+      "That our classes grant a Saskatchewan credit: refused; we do not grant provincial credits.",
+      "CEMC fees: left out on purpose (currency-neutral page).",
+      "Names of Saskatoon schools, school divisions results or private people: not used.",
+      "Any affiliation with the City of Saskatoon, Saskatoon Transit, the Saskatchewan Ministry of Education, CEMC or the University of Waterloo."
+    ]
   }
 }

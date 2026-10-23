@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding and AI classes in Saskatoon](/coding-and-ai-classes-in-saskatoon)
 - [Coding and AI classes in London](/coding-and-ai-classes-in-london-ontario)
 - [Coding and AI classes in Halifax](/coding-and-ai-classes-in-halifax-nova-scotia)
 - [AI and Python classes for teens in Fredericton](/ai-and-python-classes-for-teens-in-fredericton)
