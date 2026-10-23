@@ -1144,6 +1144,7 @@ const MARKETS = [
   ['coding-classes-in-newfoundland-and-labrador', 'Newfoundland and Labrador'],
   ['coding-classes-in-northwest-territories', 'Northwest Territories'],
   ['math-tutor-toronto', 'Math tutor in Toronto'],
+  ['math-tutor-mississauga', 'Math tutor in Mississauga'],
 ];
 
 const SLUGS = MARKETS.map(m => m[0]);

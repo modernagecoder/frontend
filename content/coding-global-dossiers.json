@@ -54838,5 +54838,70 @@
       "Names of Toronto schools, school boards or private people: not used (the CKAN record's contact address is not reproduced).",
       "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "math-tutor-mississauga": {
+    "market": "Mississauga",
+    "bodyClass": "cg-matu",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: MTH1W (2021), MPM2D (2005, Grade 10 Academic), MCR3U (2007, prerequisite Grade 10 academic), MHF4U (prerequisite MCR3U or MCT4C), MCV4U with MHF4U prior or concurrent; EQAO 2026-27 windows. CEMC Fryer, Galois and Hypatia eligibility, format and 7 April 2027 date, and the through-a-school rule. Mississauga area codes and Eastern time offsets from facts-geo.md.",
+    "localProject": "Region of Peel Open Data, Traffic Count Stations and Municipal Boundary (Open Data Licence for The Regional Municipality of Peel, Version 1.0), downloaded 22 October 2026. Our analysis: 124 of 529 stations inside the Mississauga polygon; 36 direction series with 2004 and 2024 counts; median constant yearly change -0.98 percent, 5 of 36 positive; Erin Mills Parkway station 00100100 northbound 28,568 to 17,758, about -2.35 percent a year, halving time about 29.2 years, with a 32.6 percent one-year drop from 2011 to 2012. Labelled as ours. Lesson family: exponential models and logarithms.",
+    "requiredMentions": [
+      "Traffic Count Stations",
+      "station 00100100",
+      "28,568",
+      "17,758",
+      "29.2 years",
+      "Thamesgate",
+      "no 2020 or 2021 column",
+      "can be down for up to seven consecutive days",
+      "Highest 2024 direction value inside Mississauga",
+      "Four questions in seventy-five minutes sounds gentle"
+    ],
+    "sources": [
+      {
+        "claim": "Region of Peel Open Data: Traffic Count Stations (AADT definition, count method, direction rule, zero means not counted).",
+        "url": "https://services6.arcgis.com/ONZht79c8QWuX759/arcgis/rest/services/Traffic_Count_Stations/FeatureServer"
+      },
+      {
+        "claim": "Region of Peel: Open Data Licence Version 1.0 (commercial use, attribution statement, non-endorsement).",
+        "url": "https://data.peelregion.ca/pages/license"
+      },
+      {
+        "claim": "Region of Peel ArcGIS item record for Traffic Count Stations.",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/844846e93de64ddd910c2b6e964105f1?f=json"
+      },
+      {
+        "claim": "Ontario curriculum content API: senior math course records and prerequisites.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code%5Bin%5D=MCR3U,MHF4U,MCV4U,MDM4U,MPM2D,MTH1W,MCF3M,MAP4C,MEL4E&depth=0"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC: Fryer, Galois and Hypatia contests (eligibility, format, 2027 date).",
+        "url": "https://cemc.uwaterloo.ca/contests/fgh"
+      },
+      {
+        "claim": "CEMC: how contests work (entry through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets for 2026-27.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Mississauga or Peel population figure: StatCan was not reachable live.",
+      "Why the Erin Mills Parkway count fell in 2012: the Peel file does not say, so no cause is given.",
+      "A total of traffic across stations or directions: not computed; directions are never added or averaged.",
+      "Use of the City of Mississauga terms of use: not relied on (revocable licence); only Region of Peel data and licence are used.",
+      "Other tutors' rates in Mississauga: not sourced, so not printed.",
+      "Any fee figure or currency in the copy: fees render from the template only.",
+      "That our lessons earn an Ontario credit: refused; we do not grant Ontario credits.",
+      "CEMC contest fees: omitted on purpose (currency-neutral page).",
+      "Names of Mississauga schools, boards or private people: not used.",
+      "Any affiliation with the Region of Peel, the City of Mississauga, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
