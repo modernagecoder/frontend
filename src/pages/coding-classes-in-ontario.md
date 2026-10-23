@@ -93,7 +93,7 @@ The Ontario Secondary School Diploma is built from compulsory and optional credi
 | Total credits | Minimum 30 |
 | Grade 9 in 2023 or earlier | 18 compulsory, 12 optional |
 | Grade 9 from 2024 to 2025 onward | 17 compulsory, 13 optional |
-| Online learning | At least two of the 30 credits earned online |
+| Online learning | At least two credits earned online |
 | Literacy | Ontario Secondary School Literacy Test, the literacy course, or adjudication |
 | Community involvement | 40 hours of community involvement activities |
 | Financial literacy, from 2026 to 2027 | 70 percent or higher on the financial literacy modules, for students entering Grade 9 from 2025 to 2026 |
