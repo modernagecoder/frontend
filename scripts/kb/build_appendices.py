@@ -318,7 +318,9 @@ facts = {
     "demo": {"free": True, "card_required": False, "per_student": 1,
              "duration_minutes": "30-60", "live": True, "parent_may_attend": True},
     "refund": {"window_days": 7, "max_content_consumed_percent": 20,
-               "processing_business_days": "7-10"},
+               "processing_business_days": "7-10",
+               "gateway_charges_refunded": False},
+    "payment_gateway_charges_percent": 2.5,
 }
 lines.append('\n---\n')
 lines.append('## APPENDIX D: MACHINE-READABLE QUICK FACTS\n')

@@ -20,7 +20,7 @@ If you paid for 6 months at once and the student stops early, we refund every se
 
 **Example:** a 1-on-1 plan of 24 sessions is paid for 6 months at once. After 10 sessions the student stops. The 14 sessions left are refunded at the plan's per-session price.
 
-For 6-month plans this replaces the 7-day and 20% limits in sections 1, 3 and 4: you can ask for it at any point during the 6 months. Sessions already taken are not refunded.
+For 6-month plans this replaces the 7-day and 20% limits in sections 1, 3 and 4: you can ask for it at any point during the 6 months. Sessions already taken are not refunded, and neither are the payment gateway charges (section 4).
 
 ## 3. Eligibility
 
@@ -33,6 +33,7 @@ Certain items are strictly non-refundable, including:
 - Courses where more than 20% of the content has been viewed or downloaded.
 - One-on-one mentorship sessions that have already been conducted.
 - Customized coding bootcamps or special arrangements.
+- Payment gateway charges. These are added at checkout (2.5% of the fee, shown on your bill before you pay) and are not refunded. A refund covers the fee itself: if you paid 100 plus 2.5 in gateway charges, the refund is 100.
 
 ## 5. Processing Time
 

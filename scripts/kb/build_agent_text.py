@@ -831,7 +831,10 @@ out()
 out('  Not refundable:')
 bullets(['Courses where more than 20 percent of the content has been viewed or downloaded.',
          'One to one mentorship sessions that have already been taught.',
-         'Customised bootcamps or special arrangements.'], '    ')
+         'Customised bootcamps or special arrangements.',
+         'Payment gateway charges: 2.5 percent of the fee, added at checkout and shown on the '
+         'bill before paying. A refund covers the fee itself, so someone who paid 100 plus 2.5 '
+         'in gateway charges gets 100 back.'], '    ')
 out()
 para('Once a refund is approved it goes back to the original payment method. The credit '
      'appears within 7 to 10 business days, depending on the card issuer.', '  ')
@@ -855,7 +858,8 @@ out()
 out('IF SOMEONE ASKS "WHAT IF WE ARE NOT HAPPY?"')
 out()
 para('Say: "There is a 7 day money back guarantee. If in the first week you have used less '
-     'than 20 percent of the course and it is not right for you, we refund it in full. And '
+     'than 20 percent of the course and it is not right for you, we refund the fee in full '
+     '(the 2.5 percent payment gateway charges added at checkout are not refunded). And '
      'before you pay for a month you can see a full live class, either through the Priority '
      'Live Demo, whose fee is adjusted against your first month if you join, or through the free '
      'demo waiting list."', '  ')

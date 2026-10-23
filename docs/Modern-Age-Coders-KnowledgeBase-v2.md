@@ -1012,12 +1012,12 @@ ESCALATE TO SHIVAM SIR FOR:
 - **January 2026.** Terms of Service last reviewed.
 - **2020.** Modern Age Coders founded by Shivam Khemka.
 
-## APPENDIX A: EVERY COURSE PAGE (127 live courses)
+## APPENDIX A: EVERY COURSE PAGE (137 live courses)
 
 All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Every URL below was checked against the sitemap and the routing table on 4 August 2026.
 
 
-### A.1 Coding, AI and technology courses (94)
+### A.1 Coding, AI and technology courses (99)
 
 | Course | URL path | Who it is for |
 |---|---|---|
@@ -1040,12 +1040,14 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Backend Development for Teens: Node, APIs and Databases | `/courses/backend-coding-masterclass-for-teens` | Teens |
 | Build AI Agents with Google Gemini Enterprise | `/courses/build-ai-agents-with-google-gemini-enterprise-course` | College |
 | C Programming for Beginners: Pointers, Memory & Structs | `/courses/c-programming-course-for-college-beginners` | College |
+| C++ for Kids: First Real Code, Games and Puzzles (Ages 9-12) | `/courses/cpp-programming-for-kids-course` | Kids |
 | C++ for Teens: Fundamentals, STL, DSA and Real Games | `/courses/cpp-programming-masterclass-for-teens` | Teens |
 | C++ Masterclass: Fundamentals to Modern C++ and Systems | `/courses/cpp-programming-complete-masterclass-college` | College |
 | Cambridge AS and A Level Computer Science 9618 Course | `/courses/cambridge-a-level-computer-science-9618-course` | Teens |
 | Canva and AI Design Course (13+): Real Graphic Design Skills | `/courses/canva-ai-design-masterclass` | Kids |
 | CBSE Computational Thinking & AI for Kids (Class 3-8) | `/courses/cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8` | Kids |
 | CBSE Computational Thinking & AI for Teens (Class 9-12) | `/courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843` | Teens |
+| CCC Junior and Senior Preparation (Canadian Computing Competition) | `/courses/ccc-junior-and-senior-preparation-course` | Teens |
 | Codex & Claude Code for Teens: AI Coding Agents Course | `/courses/codex-and-claude-code-ai-coding-agents-course-for-teens` | Teens |
 | Codex & Claude Code: AI Coding Agents for Professionals | `/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals` | College |
 | Coding for Kids: Scratch to Games, Apps and AI | `/courses/kids-coding-blocks-masterclass` | Kids |
@@ -1055,6 +1057,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Copilot Studio Agent Masterclass for Professionals | `/courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals` | College |
 | Creative Coding and Animation: Video, Motion and p5.js | `/courses/creative-coding-animation-mastery` | Kids |
 | Creative Media for Teens: Photo, Video and Design | `/courses/creative-media-design-masterclass-teens` | Teens |
+| Cybersecurity Competitions for Teens: picoCTF and CyberPatriot Prep | `/courses/picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens` | Teens |
 | Cybersecurity for Teens: Online Safety & White-Hat Defense | `/courses/cybersecurity-course-for-teens-ethical-defensive` | Teens |
 | Data Analysis Course: Excel, SQL, Python & BI | `/courses/data-analysis-mastery-course-college` | College |
 | Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) | `/courses/data-and-ai-analytics-for-non-programmers-course` | Professionals |
@@ -1074,6 +1077,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Git & GitHub Course for College Students: Team-Ready Skills | `/courses/git-github-version-control-course-for-college-students` | College |
 | Git & GitHub Course for Teens: Version Control from Zero | `/courses/git-github-version-control-course-for-teens` | Teens |
 | Go Course: Backend Services from Zero to Production Habits | `/courses/complete-golang-programming-masterclass-college` | College |
+| Godot Game Development for Kids and Teens: GDScript, 2D and 3D | `/courses/godot-game-development-course-for-kids-and-teens` | Teens |
 | Hackathon for Adults: Free Event + 12-Week Pro Prep (18+) | `/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course` | Professionals |
 | Hackathon for Kids: Free Event + 12-Week Prep (Ages 8-12) | `/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course` | Kids |
 | Hackathon for Teens: Free Event + 12-Week Prep (Ages 13-17) | `/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course` | Teens |
@@ -1091,6 +1095,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Minecraft Coding for Kids: From Blocks to Real Code | `/courses/minecraft-coding-for-kids-course` | Kids |
 | MySQL Course: SQL, Database Design and Real Administration | `/courses/mysql-database-complete-masterclass-college` | College |
 | MySQL for Teens: SQL from First Query to Real Apps | `/courses/mysql-mastery-for-teens` | Teens |
+| Ontario Computer Science Companion: ICS3U and ICS4U (Python and Java) | `/courses/ics3u-ics4u-computer-science-companion-course` | High school |
 | Orange Data Mining Course for College Students: Machine Learning and Analytics | `/courses/orange-data-mining-machine-learning-course-for-college-students` | College |
 | Orange Data Mining Course for Teens: Machine Learning Without Code | `/courses/orange-data-mining-visual-machine-learning-course-for-teens` | Teens |
 | PCAP Certification Prep: Certified Associate in Python Programming | `/courses/pcap-python-certification-prep-course` | Professionals |
@@ -1116,7 +1121,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17) | `/courses/vibe-coding-for-teens-python-web-ai-projects-course` | Teens |
 | Web Development for Kids: Build Real Websites | `/courses/kids-ai-web-development-course` | Kids |
 
-### A.2 Mathematics courses (33)
+### A.2 Mathematics courses (38)
 
 | Course | URL path | Who it is for |
 |---|---|---|
@@ -1124,6 +1129,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | A Level Further Maths: Core Pure and Applied Options | `/courses/a-level-further-maths-course` | High school |
 | A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA) | `/courses/a-level-maths-course-pure-mechanics-statistics` | High school |
 | Abacus & Mental Maths for Kids: From First Beads to Anzan | `/courses/abacus-mental-maths-course-for-kids` | Elementary |
+| ACT Math Prep: Live Classes for the ACT Mathematics Section | `/courses/act-math-prep-course` | High school |
 | Algebra Foundations: Pre-Algebra & Algebra 1, Live Online | `/courses/algebra-foundations-masterclass` | Middle school |
 | AP Calculus AB & BC Exam Prep, Live Online, Score 5 Goal | `/courses/ap-calculus-exam-prep` | High school |
 | AP Precalculus: Units 1 to 3 and Full Exam Prep | `/courses/ap-precalculus-exam-prep-course` | High school |
@@ -1146,17 +1152,21 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Maths Olympiad & Competition Course: AMC, AIME to IMO | `/courses/olympiad-competition-mathematics-mastery` | Elementary, Girls only, High school, Middle school |
 | Maths Through Coding: Learn Math in Python (Ages 10-15) | `/courses/maths-through-coding` | Middle school |
 | Mental Maths for Kids: Number Sense, Not Tricks (Ages 5-10) | `/courses/mental-maths-mastery-kids` | Elementary |
+| Middle School Math Competitions: MATHCOUNTS, AMC 8 and Math Kangaroo Prep | `/courses/middle-school-math-competitions-course` | Middle school |
 | Middle School Mathematics Mastery: Pre-Algebra & Geometry | `/courses/comprehensive-middle-school-mathematics-mastery` | Girls only, Middle school |
 | National 5 and Higher Maths Course Online (Scotland) | `/courses/national-5-and-higher-maths-course` | High school |
 | Olympiad Mathematics: IOQM, INMO and AMC Preparation | `/courses/olympiad-mathematics-premium-course` | Teens |
+| Ontario Grade 12 University Math: Advanced Functions and Calculus and Vectors (MHF4U and MCV4U) | `/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course` | High school |
 | PSLE Maths: Model Method, Problem Sums & MOE Syllabus | `/courses/psle-maths-mastery` | Elementary |
 | SAT Math 800 Prep: Live Classes for the Digital SAT | `/courses/sat-math-prep-course` | High school |
 | Statistics & Probability: Data to Hypothesis Testing | `/courses/statistics-probability-maths-course` | College |
 | Vedic Maths Mastery: Speed Calculation with All 16 Sutras | `/courses/vedic-maths-course-speed-calculation-mastery` | Middle school |
+| Waterloo Math Contests: Gauss to Euclid | `/courses/waterloo-math-contests-gauss-to-euclid-course` | Middle school |
+| Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1 | `/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course` | High school |
 
 ---
 
-## APPENDIX B: COMPLETE SITE URL INDEX (2328 live URLs)
+## APPENDIX B: COMPLETE SITE URL INDEX (2654 live URLs)
 
 Every URL below is present in a sitemap **and** resolves through the routing table. Redirect-only URLs are excluded. The site-wide link check passed with 0 broken internal links across 53,903 link instances on 4 August 2026. Prefix any path with `https://learn.modernagecoders.com`.
 
@@ -1201,7 +1211,7 @@ Every URL below is present in a sitemap **and** resolves through the routing tab
 | `/success-stories` | Success Stories |
 | `/terms` | Terms of Service |
 
-### B.2 Course detail pages (127)
+### B.2 Course detail pages (137)
 
 Listed with titles in Appendix A.
 
@@ -1210,6 +1220,7 @@ Listed with titles in Appendix A.
 /courses/a-level-further-maths-course
 /courses/a-level-maths-course-pure-mechanics-statistics
 /courses/abacus-mental-maths-course-for-kids
+/courses/act-math-prep-course
 /courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students
 /courses/ai-agents-with-microsoft-copilot-studio-course-for-teens
 /courses/ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals
@@ -1238,6 +1249,7 @@ Listed with titles in Appendix A.
 /courses/cbse-computational-thinking-and-ai-course-for-teens-classes-9-to-12-code-417-843
 /courses/cbse-icse-computer-science-class-11-12-python-java-complete-course
 /courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course
+/courses/ccc-junior-and-senior-preparation-course
 /courses/codex-and-claude-code-ai-coding-agents-course-for-teens
 /courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals
 /courses/college-mathematics-complete-masterclass
@@ -1257,6 +1269,7 @@ Listed with titles in Appendix A.
 /courses/complete-typescript-programming-masterclass-college
 /courses/comprehensive-middle-school-mathematics-mastery
 /courses/cpp-programming-complete-masterclass-college
+/courses/cpp-programming-for-kids-course
 /courses/cpp-programming-masterclass-for-teens
 /courses/creative-coding-animation-mastery
 /courses/creative-media-design-masterclass-teens
@@ -1282,6 +1295,7 @@ Listed with titles in Appendix A.
 /courses/git-github-advanced-version-control-masterclass-for-professionals
 /courses/git-github-version-control-course-for-college-students
 /courses/git-github-version-control-course-for-teens
+/courses/godot-game-development-course-for-kids-and-teens
 /courses/gre-gmat-quant-maths-prep-course
 /courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course
 /courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course
@@ -1289,6 +1303,7 @@ Listed with titles in Appendix A.
 /courses/html-css-course-for-beginners-build-real-websites
 /courses/ib-diploma-computer-science-course
 /courses/ib-mathematics-aa-ai-masterclass
+/courses/ics3u-ics4u-computer-science-companion-course
 /courses/icse-computer-applications-java-bluej-course
 /courses/igcse-computer-science-0478-course
 /courses/igcse-mathematics-mastery
@@ -1302,16 +1317,19 @@ Listed with titles in Appendix A.
 /courses/mental-maths-mastery-kids
 /courses/mern-stack-development-masterclass-college
 /courses/microsoft-office-kids-mastery
+/courses/middle-school-math-competitions-course
 /courses/minecraft-coding-for-kids-course
 /courses/mysql-database-complete-masterclass-college
 /courses/mysql-mastery-for-teens
 /courses/national-5-and-higher-maths-course
 /courses/olympiad-competition-mathematics-mastery
 /courses/olympiad-mathematics-premium-course
+/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course
 /courses/orange-data-mining-machine-learning-course-for-college-students
 /courses/orange-data-mining-visual-machine-learning-course-for-teens
 /courses/pcap-python-certification-prep-course
 /courses/pcep-pcap-python-certification-course
+/courses/picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens
 /courses/princess-coders-complete-coding-masterclass
 /courses/problem-solving-and-computational-thinking-for-kids
 /courses/problem-solving-dsa-masterclass-teens
@@ -1333,6 +1351,8 @@ Listed with titles in Appendix A.
 /courses/vibe-coding-for-college-fullstack-ai-dsa-career-course
 /courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev
 /courses/vibe-coding-for-teens-python-web-ai-projects-course
+/courses/waterloo-math-contests-gauss-to-euclid-course
+/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course
 ```
 
 ### B.3 Blog posts (176)
@@ -1795,7 +1815,7 @@ Listed with titles in Appendix C.
 | `/best-coding-class-in-wrexham` | Best Coding Classes in Wrexham |
 | `/best-coding-class-in-york` | Best Coding Classes in York |
 
-### B.7 School partnership pages (21)
+### B.7 School partnership pages (23)
 
 | URL path | Page title |
 |---|---|
@@ -1818,10 +1838,12 @@ Listed with titles in Appendix C.
 | `/coding-classes-for-dps-rohini-new-delhi` | Coding Classes for DPS Rohini Students |
 | `/coding-classes-for-dps-ruby-park-kolkata` | Coding Classes for DPS Ruby Park Students Students |
 | `/coding-classes-for-dps-vasant-kunj-new-delhi` | Coding Classes for DPS Vasant Kunj Students Students |
+| `/coding-classes-for-high-school-students` | Coding Classes for High School Students: CS, AP and Beyond |
 | `/coding-classes-for-la-martiniere-boys-kolkata` | Coding Classes for La Martiniere for Boys Students |
 | `/coding-classes-for-la-martiniere-girls-kolkata` | Coding Classes for La Martiniere for Girls Students |
+| `/coding-classes-for-middle-school-students` | Coding Classes for Middle School Students: Grades 6 to 8 |
 
-### B.8 Country and international pages (553)
+### B.8 Country and international pages (574)
 
 | URL path | Page title |
 |---|---|
@@ -1858,22 +1880,36 @@ Listed with titles in Appendix C.
 | `/coding-classes-for-9-and-10-year-olds-australia` | Coding Classes for 9 and 10 Year Olds in Australia |
 | `/coding-classes-for-adults` | Coding Classes for Adults: Live, Small Batches, Ages 18 to 67 |
 | `/coding-classes-for-adults-australia` | Coding Classes for Adults in Australia |
+| `/coding-classes-for-adults-in-canada` | Coding Classes for Adults in Canada: Python and Web, Live |
+| `/coding-classes-for-elementary-students` | Coding Classes for Elementary Students: Grades 1 to 5 |
 | `/coding-classes-for-girls` | Coding Classes for Girls |
 | `/coding-classes-for-kids-adelaide` | Coding Classes for Kids in Adelaide |
 | `/coding-classes-for-kids-brisbane` | Coding Classes for Kids in Brisbane |
 | `/coding-classes-for-kids-canberra` | Coding Classes for Kids in Canberra |
 | `/coding-classes-for-kids-cost` | Coding Classes for Kids Cost 2026: US Prices by Format |
 | `/coding-classes-for-kids-gold-coast` | Coding Classes for Kids on the Gold Coast |
+| `/coding-classes-for-kids-in-abbotsford` | Coding Classes for Kids in Abbotsford, BC |
+| `/coding-classes-for-kids-in-ajax-and-pickering` | Coding Classes for Kids in Ajax and Pickering |
+| `/coding-classes-for-kids-in-cambridge-ontario` | Coding Classes for Kids in Cambridge, Ontario |
+| `/coding-classes-for-kids-in-canada` | Coding Classes for Kids in Canada: Live Online, Ages 6 to 12 |
 | `/coding-classes-for-kids-in-doha` | Coding Classes for Kids in Doha |
 | `/coding-classes-for-kids-in-dubai` | Coding Classes for Kids in Dubai |
+| `/coding-classes-for-kids-in-etobicoke-toronto` | Coding Classes for Kids in Etobicoke |
+| `/coding-classes-for-kids-in-langley-bc` | Coding Classes for Kids in Langley, BC |
 | `/coding-classes-for-kids-in-nassau` | Coding Classes for Kids in Nassau |
+| `/coding-classes-for-kids-in-north-york-toronto` | Coding Classes for Kids in North York |
+| `/coding-classes-for-kids-in-oshawa-and-whitby` | Coding Classes for Kids in Oshawa and Whitby |
 | `/coding-classes-for-kids-in-riyadh` | Coding Classes for Kids in Riyadh |
+| `/coding-classes-for-kids-in-scarborough-toronto` | Coding Classes for Kids in Scarborough |
+| `/coding-classes-for-kids-in-st-catharines-niagara` | Coding Classes for Kids in St. Catharines and Niagara |
 | `/coding-classes-for-kids-melbourne` | Coding Classes for Kids in Melbourne |
 | `/coding-classes-for-kids-netherlands` | Coding Classes for Kids in the Netherlands |
 | `/coding-classes-for-kids-newcastle` | Coding Classes for Kids in Newcastle NSW |
 | `/coding-classes-for-kids-perth` | Coding Classes for Kids in Perth |
 | `/coding-classes-for-kids-sydney` | Coding Classes for Kids in Sydney |
+| `/coding-classes-for-seniors-in-canada` | Coding Classes for Seniors in Canada: Patient, Live Online |
 | `/coding-classes-for-teens-australia` | Coding Classes for Teens in Australia |
+| `/coding-classes-for-teens-in-canada` | Coding Classes for Teens in Canada: High School and Beyond |
 | `/coding-classes-for-teens-netherlands` | Coding Classes for Teens in the Netherlands |
 | `/coding-classes-in-aberdeenshire` | Coding Classes in Aberdeenshire |
 | `/coding-classes-in-abu-dhabi` | Coding Classes in Abu Dhabi |
@@ -2156,7 +2192,8 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-mahdah` | Coding Classes in Mahdah |
 | `/coding-classes-in-mahout` | Coding Classes in Mahout |
 | `/coding-classes-in-manah` | Coding Classes in Manah |
-| `/coding-classes-in-maryland` | Online Coding Classes in Maryland |
+| `/coding-classes-in-manitoba` | Coding Classes in Manitoba |
+| `/coding-classes-in-maryland` | Coding and AI Classes in Maryland |
 | `/coding-classes-in-masirah` | Coding Classes in Masirah |
 | `/coding-classes-in-mawaleh` | Coding Classes in Mawaleh |
 | `/coding-classes-in-meierijstad` | Coding Classes in Meierijstad |
@@ -2178,9 +2215,11 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-natural-city-garia` | Coding & Maths Classes in Garia, Kolkata |
 | `/coding-classes-in-neath-port-talbot` | Coding Classes in Neath Port Talbot |
 | `/coding-classes-in-netherlands` | Online Coding Classes in the Netherlands |
-| `/coding-classes-in-new-jersey` | Coding Classes in New Jersey |
+| `/coding-classes-in-new-brunswick` | Coding Classes in New Brunswick |
+| `/coding-classes-in-new-jersey` | Coding and AI Classes in New Jersey |
 | `/coding-classes-in-new-york` | Coding Classes in New York |
 | `/coding-classes-in-new-zealand` | Online Coding & AI Classes in New Zealand |
+| `/coding-classes-in-newfoundland-and-labrador` | Coding Classes in Newfoundland and Labrador |
 | `/coding-classes-in-newham-london` | Coding Classes in Newham, Stratford, East Ham |
 | `/coding-classes-in-nijmegen` | Coding Classes in Nijmegen |
 | `/coding-classes-in-nissewaard` | Coding Classes in Nissewaard |
@@ -2193,7 +2232,9 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-north-yorkshire` | Coding Classes in North Yorkshire |
 | `/coding-classes-in-northamptonshire` | Coding Classes in Northamptonshire |
 | `/coding-classes-in-northumberland` | Coding Classes in Northumberland |
+| `/coding-classes-in-northwest-territories` | Coding Classes in the Northwest Territories |
 | `/coding-classes-in-nottinghamshire` | Coding Classes in Nottinghamshire |
+| `/coding-classes-in-nova-scotia` | Coding Classes in Nova Scotia |
 | `/coding-classes-in-odisha` | Coding Classes in Odisha |
 | `/coding-classes-in-oegstgeest` | Coding Classes in Oegstgeest |
 | `/coding-classes-in-oman` | Online Coding Classes in Oman |
@@ -2209,6 +2250,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-punjab` | Coding Classes in Punjab |
 | `/coding-classes-in-purmerend` | Coding Classes in Purmerend |
 | `/coding-classes-in-qatar` | Coding Classes in Qatar |
+| `/coding-classes-in-quebec` | Coding Classes in Quebec |
 | `/coding-classes-in-qurayyat` | Coding Classes in Qurayyat |
 | `/coding-classes-in-qurum` | Online Coding Classes in Qurum |
 | `/coding-classes-in-rajasthan` | Coding Classes in Rajasthan |
@@ -2231,6 +2273,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-salalah` | Coding Classes in Salalah |
 | `/coding-classes-in-samail` | Coding Classes in Samail |
 | `/coding-classes-in-sandyford-dublin` | Coding Classes in Sandyford, Dublin 18 |
+| `/coding-classes-in-saskatchewan` | Coding Classes in Saskatchewan |
 | `/coding-classes-in-saudi-arabia` | Coding Classes in Saudi Arabia |
 | `/coding-classes-in-scheveningen` | Coding Classes in Scheveningen, The Hague |
 | `/coding-classes-in-schiedam` | Coding Classes in Schiedam |
@@ -2301,7 +2344,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-veenendaal` | Coding Classes in Veenendaal |
 | `/coding-classes-in-velsen` | Coding Classes in Velsen |
 | `/coding-classes-in-venlo` | Coding Classes in Venlo |
-| `/coding-classes-in-virginia` | Coding Classes in Virginia |
+| `/coding-classes-in-virginia` | Coding and AI Classes in Virginia |
 | `/coding-classes-in-vlaardingen` | Coding Classes in Vlaardingen |
 | `/coding-classes-in-voorschoten` | Coding Classes in Voorschoten |
 | `/coding-classes-in-wadi-al-maawil` | Coding Classes in Wadi Al Maawil |
@@ -2309,7 +2352,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-in-waltham-forest-london` | Coding Classes in Waltham Forest, Walthamstow |
 | `/coding-classes-in-wandsworth-london` | Coding Classes in Wandsworth and Putney |
 | `/coding-classes-in-warwickshire` | Coding Classes in Warwickshire |
-| `/coding-classes-in-washington` | Coding Classes in Washington State |
+| `/coding-classes-in-washington` | Coding and AI Classes in Washington State |
 | `/coding-classes-in-wassenaar` | Coding Classes in Wassenaar |
 | `/coding-classes-in-weesp` | Coding Classes in Weesp |
 | `/coding-classes-in-west-bengal` | Coding Classes in West Bengal |
@@ -2425,7 +2468,7 @@ Listed with titles in Appendix C.
 | `/python-for-class-8` | Python for Class 8: OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro |
 | `/python-for-class-9` | Python for Class 9: CBSE Code 402 Python, Flask, Django Intro & Kaggle |
 
-### B.11 Comparison and alternative pages (36)
+### B.11 Comparison and alternative pages (50)
 
 | URL path | Page title |
 |---|---|
@@ -2434,24 +2477,38 @@ Listed with titles in Appendix C.
 | `/bhanzu-alternative` | Bhanzu Alternative for 2026: Live Maths and Coding, Ages 6 to 67 |
 | `/brightchamps-alternative` | BrightChamps Alternative 2026: Focused Depth, Not Breadth |
 | `/byjus-coding-alternative` | BYJU'S Coding Alternative 2026: Live, Small-Batch, Honest |
+| `/codakid-alternative` | CodaKid Alternative: Self-Paced Courses or Live Classes? |
+| `/codewizardshq-alternative` | CodeWizardsHQ Alternative: How the Two Compare (2026) |
 | `/codeyoung-alternative` | Codeyoung Alternative for 2026: Live Small-Batch Coding and Maths |
 | `/coding-vs-maths` | Coding vs Maths: Which Should Your Child Learn? The Honest Answer |
 | `/coding-vs-programming` | Coding vs Programming: The Real Difference & How We Build Programmers |
+| `/coding-with-kids-alternative` | Coding with Kids Alternative: Ladder, In-Person, Online |
 | `/codingal-alternative` | Codingal Alternative 2026: Depth-First Coding and Maths |
+| `/common-core-math-vs-traditional-math` | Common Core Math vs Traditional Math: A Parent Guide |
+| `/create-and-learn-alternative` | Create & Learn Alternative: Small Groups, Levels, Trials |
 | `/cuemath-alternative` | Cuemath Alternative for 2026: A Live Coding and Maths School |
 | `/free-demo-vs-priority-demo` | Free Demo vs Priority Demo |
 | `/functional-skills-maths-vs-gcse-maths` | Functional Skills Maths vs GCSE Maths: Which Should You Take? |
 | `/gcse-maths-calculator-vs-non-calculator-papers` | GCSE Maths Calculator vs Non-Calculator Papers Explained |
 | `/gcse-maths-foundation-vs-higher` | GCSE Maths Foundation vs Higher Tier: Which Should You Sit? |
 | `/group-vs-one-to-one-maths-tuition` | Group vs One-to-One Maths Tuition: Cost, Evidence, Fit |
+| `/ics3u-vs-ics3c` | ICS3U vs ICS3C: Choosing Grade 11 Computer Studies in Ontario |
+| `/id-tech-alternative` | iD Tech Alternative: Camps, Private Lessons, Weekly Classes |
+| `/khan-academy-computer-science-vs-live-classes` | Khan Academy Computer Science vs Live Classes: How to Choose |
 | `/live-vs-recorded-coding-classes` | Live vs Recorded Coding Classes for Kids: Which Is Better? |
+| `/math-30-1-vs-math-30-2` | Math 30-1 vs Math 30-2: Alberta's Two Grade 12 Math Paths |
 | `/maths-tutor-vs-tuition-centre-uk` | Maths Tutor vs Tuition Centre UK: Kumon, Explore Learning, Cost |
+| `/mcf3m-vs-mcr3u` | MCF3M vs MCR3U: Which Grade 11 Math to Take in Ontario |
+| `/modern-age-coders-vs-brightchamps` | Modern Age Coders vs BrightCHAMPS in Canada (2026) |
+| `/modern-age-coders-vs-code-ninjas` | Modern Age Coders vs Code Ninjas: Canada Comparison 2026 |
 | `/modern-age-coders-vs-codingal` | Modern Age Coders vs Codingal: Honest 2026 Comparison |
 | `/modern-age-coders-vs-cuemath` | Modern Age Coders vs Cuemath: Honest 2026 Comparison |
 | `/modern-age-coders-vs-juni-learning` | Modern Age Coders vs Juni Learning: 2026 Comparison |
 | `/modern-age-coders-vs-kumon` | Modern Age Coders vs Kumon: Honest 2026 Comparison |
 | `/modern-age-coders-vs-mathnasium` | Modern Age Coders vs Mathnasium: Honest 2026 Comparison |
 | `/modern-age-coders-vs-outschool` | Modern Age Coders vs Outschool: School or Marketplace? (2026) |
+| `/modern-age-coders-vs-oxford-learning` | Modern Age Coders vs Oxford Learning: Cost and Fit 2026 |
+| `/modern-age-coders-vs-spirit-of-math` | Modern Age Coders vs Spirit of Math: 2026 Comparison |
 | `/modern-age-coders-vs-tynker` | Modern Age Coders vs Tynker: App or Live Teaching? (2026) |
 | `/modern-age-coders-vs-whitehat-jr-cuemath-codingal` | Modern Age Coders vs WhiteHat Jr, Cuemath & Codingal - Honest Comparison |
 | `/national-5-vs-higher-maths` | National 5 vs Higher Maths: Papers, Topics and the Jump |
@@ -2466,11 +2523,16 @@ Listed with titles in Appendix C.
 | `/whitehat-jr-alternative` | WhiteHat Jr Alternative in 2026: Real Mentors, Not Scripts |
 | `/year-round-coding-classes-vs-summer-camps-bahamas` | Year-Round Coding Classes vs Summer Camps in The Bahamas |
 
-### B.12 Camps (summer and winter) (10)
+### B.12 Camps (summer and winter) (15)
 
 | URL path | Page title |
 |---|---|
+| `/coding-bootcamp-for-teens` | Coding Bootcamp for Teens: An Honest Eight-Week Plan |
+| `/coding-summer-camp-for-middle-schoolers` | Coding Summer Camp for Middle Schoolers: Grades 6 to 8 |
+| `/game-design-summer-camp-for-teens` | Game Design Summer Camp for Teens: Engines, Plans, Portfolio |
+| `/march-break-coding-camp-online` | March Break Coding Online: 2027 Dates, PA Days, Live Classes |
 | `/online-coding-summer-camp` | Online Coding Summer Camp |
+| `/online-coding-summer-camp-canada` | Online Coding Summer Camp in Canada: Summer 2027 Guide |
 | `/summer-coding-camp` | Summer Coding Camp 2026 |
 | `/summer-coding-camp-adults` | Summer Coding Bootcamp for Adults 2026 (18+) |
 | `/summer-coding-camp-kids` | Summer Coding Camp for Kids 2026 - Ages 6-12 |
@@ -2481,7 +2543,7 @@ Listed with titles in Appendix C.
 | `/winter-coding-camp-kids` | Winter Coding Camp for Kids 2026 (Ages 6-11) |
 | `/winter-coding-camp-teens` | Winter Coding Camp for Teens 2026 (Ages 12-17) |
 
-### B.13 Mathematics landing pages (178)
+### B.13 Mathematics landing pages (227)
 
 | URL path | Page title |
 |---|---|
@@ -2515,12 +2577,20 @@ Listed with titles in Appendix C.
 | `/a-level-maths-tutor-uae` | A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics |
 | `/act-math-tutoring-online` | ACT Math Tutoring Online · 1:1 ACT Math Prep |
 | `/advanced-higher-maths-tuition-online` | Advanced Higher Maths Tuition Online |
+| `/alberta-grade-6-math-pat-practice` | Alberta Grade 6 Math PAT 2027: What It Tests, With Practice |
+| `/alberta-grade-9-math-pat-practice` | Alberta Grade 9 Math PAT: Part A, Part B and Practice |
+| `/alberta-math-30-1-diploma-exam-prep` | Alberta Math 30-1 Diploma Exam 2027: Dates, Marking, Prep |
+| `/alberta-new-math-curriculum-explained` | Alberta's New Math Curriculum Explained: K to 6 and 7 to 9 |
 | `/algebra-2-tutoring-online` | Algebra 2 Tutoring Online |
 | `/algebra-tutoring-online-usa` | Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 |
 | `/american-maths-tutor-uae` | American Curriculum & SAT Maths Tutor in the UAE · 1:1 Online |
 | `/ap-calculus-tutoring-online` | AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep |
 | `/ap-computer-science-a-online-classes` | AP Computer Science A Online Classes |
+| `/ap-computer-science-a-practice-questions` | AP Computer Science A Practice Questions, With Answers |
+| `/ap-computer-science-a-score-calculator` | AP Computer Science A Score Calculator: A Labelled Estimate |
 | `/ap-computer-science-principles-online-coaching` | AP Computer Science Principles Online Coaching |
+| `/ap-csp-create-performance-task-guide` | AP CSP Create Performance Task Guide: Rules, PPR and Deadline |
+| `/ap-csp-score-calculator` | AP CSP Score Calculator: Weights, Rubric Points, an Estimate |
 | `/ap-statistics-tutoring-online` | AP Statistics Tutoring Online · 1:1 AP Stats Prep |
 | `/apsmo-maths-olympiad-practice` | APSMO Maths Olympiad Practice |
 | `/australian-coding-maths-and-ai-competitions-calendar` | Coding and Maths Competitions in Australia: 2026 Calendar |
@@ -2528,13 +2598,22 @@ Listed with titles in Appendix C.
 | `/australian-maths-competitions-for-primary-kids` | Maths Competitions for Primary Kids in Australia: A Guide |
 | `/australian-maths-trust-amc-aio-cat-preparation` | Australian Maths Trust Prep: AMC, AIO and CAT, Live Online |
 | `/best-online-math-tutoring-2026` | Best Online Math Tutoring 2026: Ranked Honestly, With Sources |
+| `/best-online-math-tutoring-in-canada` | Best Online Math Tutoring in Canada: 7 Checks Before You Pick |
 | `/best-online-maths-classes-2026` | Best Online Maths Classes for Kids 2026: Ranked Honestly |
+| `/calculus-12-tutor-bc` | Calculus 12 BC Tutor Online: Limits, Derivatives, Integrals |
 | `/calculus-tutoring-online` | Calculus Tutoring Online |
+| `/canada-high-school-math-courses-compared` | Grade 12 Math by Province: MHF4U, Math 30-1 and More |
+| `/canada-math-and-coding-contest-calendar` | Canada Contest Calendar 2026 to 2027: CEMC, CCC and COMC |
+| `/canadian-math-olympiad-cmo-path` | Canadian Math Olympiad (CMO): The Path to Team Canada |
 | `/cbse-icse-maths-tuition-online` | CBSE and ICSE Maths Tuition Online, Class 6 to 12: Live Batches |
 | `/cbse-maths-tutor-uae` | CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE: Class 6 to 12 |
 | `/ccea-gcse-maths-help` | CCEA GCSE Maths Help |
 | `/coding-class-or-maths-tutor-first-australia` | Coding Class or Maths Tutor First? A Guide for Australian Parents |
 | `/common-entrance-maths-tuition` | Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths |
+| `/eqao-grade-3-math-practice` | EQAO Grade 3 Math Practice: 15 Free Questions with Answers |
+| `/eqao-grade-6-math-practice` | EQAO Grade 6 Math Practice: 15 Sample Questions, Answers |
+| `/eqao-grade-9-math-practice` | EQAO Grade 9 Math Practice: Format, Formula Sheet, 15 Questions |
+| `/foundations-of-math-11-tutor-bc` | Foundations of Math 11 BC Tutor: Curriculum, Practice, Help |
 | `/functional-skills-maths-course-cost-uk` | Functional Skills Maths Course Cost UK 2026: Free or Paid? |
 | `/functional-skills-maths-tuition-online` | Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 |
 | `/further-maths-tuition-online` | Further Maths Tuition Online · 1:1 A-Level Further Mathematics |
@@ -2547,6 +2626,9 @@ Listed with titles in Appendix C.
 | `/gcse-maths-tutor-uae` | GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE: AQA, Edexcel, OCR, CIE |
 | `/geometry-tutoring-online-usa` | Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs |
 | `/higher-maths-tuition-online` | Higher Maths Tuition Online |
+| `/homeschool-coding-and-math-alberta` | Homeschool Coding and Math in Alberta: Home Education Guide |
+| `/homeschool-coding-and-math-bc` | Homeschool Coding and Math in BC: School Act Guide |
+| `/homeschool-coding-and-math-ontario` | Homeschool Coding and Math in Ontario: A PPM 131 Guide |
 | `/homeschool-math-curriculum-usa` | Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers |
 | `/hsc-maths-advanced-tutoring` | HSC Maths Advanced Tutoring |
 | `/hsc-maths-extension-1-tutoring` | HSC Maths Extension 1 Tutoring |
@@ -2563,9 +2645,29 @@ Listed with titles in Appendix C.
 | `/ks2-maths-tuition-online` | KS2 Maths Tuition Online · 1:1 Year 3-6 & SATs Maths |
 | `/ks2-sats-maths-papers-explained` | KS2 SATs Maths Papers Explained: Arithmetic and Reasoning |
 | `/ks3-maths-tuition-online` | KS3 Maths Tuition Online · 1:1 Year 7-9 Maths |
+| `/math-30-1-tutor-alberta` | Math 30-1 Tutor, Alberta: Outcomes, Worked Problems, Practice |
 | `/math-catch-up-program` | Math Catch-Up Program |
+| `/math-classes-for-kids-in-canada` | Math Classes for Kids in Canada: Grades 1 to 8, Live Online |
+| `/math-competitions-for-middle-school-students` | Math Competitions for Middle School: MATHCOUNTS and More |
+| `/math-kangaroo-canada-preparation` | Math Kangaroo Canada 2027: Format, Grades and Practice |
 | `/math-kangaroo-usa-preparation` | Math Kangaroo USA Preparation: Live Online, Grades 1 to 12 |
 | `/math-olympiad-amc-tutoring` | Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching |
+| `/math-tutor-brampton` | Math Tutor Brampton |
+| `/math-tutor-burnaby` | Math Tutor Burnaby |
+| `/math-tutor-calgary` | Math Tutor Calgary |
+| `/math-tutor-edmonton` | Math Tutor Edmonton |
+| `/math-tutor-markham` | Math Tutor Markham |
+| `/math-tutor-mississauga` | Math Tutor Mississauga |
+| `/math-tutor-montreal` | Math Tutor Montreal |
+| `/math-tutor-oakville` | Math Tutor Oakville |
+| `/math-tutor-ottawa` | Math Tutor Ottawa |
+| `/math-tutor-richmond-hill` | Math Tutor Richmond Hill |
+| `/math-tutor-surrey-bc` | Math Tutor Surrey, BC |
+| `/math-tutor-toronto` | Math Tutor Toronto |
+| `/math-tutor-vancouver` | Math Tutor Vancouver |
+| `/math-tutor-vaughan` | Math Tutor Vaughan |
+| `/math-tutor-waterloo-ontario` | Math Tutor Waterloo, Ontario |
+| `/math-tutor-winnipeg` | Math Tutor Winnipeg |
 | `/maths-behind-machine-learning` | The Maths Behind Machine Learning - Linear Algebra, Calculus & Probability for AI |
 | `/maths-challenge-for-young-australians-practice` | Maths Challenge for Young Australians Practice |
 | `/maths-class-10` | Maths Tuition for Class 10: CBSE & ICSE Board Exam Prep |
@@ -2613,6 +2715,8 @@ Listed with titles in Appendix C.
 | `/maths-tutor-perth-wa` | Maths Tutor in Perth, WA |
 | `/maths-tutor-sunnybank` | Maths Tutor in Sunnybank |
 | `/maths-tutor-sydney` | Maths Tutor in Sydney |
+| `/mcv4u-calculus-and-vectors-tutor` | MCV4U Calculus and Vectors Tutor: Ontario Grade 12 Help |
+| `/mth1w-grade-9-math-explained` | MTH1W Explained: Ontario De-streamed Grade 9 Math and Coding |
 | `/national-5-maths-tuition-online` | National 5 Maths Tuition Online |
 | `/oc-test-maths-practice-nsw` | OC Test Maths Practice NSW |
 | `/online-math-tutor-10th-grade` | Online Math Tutor for 10th Grade |
@@ -2642,9 +2746,15 @@ Listed with titles in Appendix C.
 | `/online-maths-tutoring-for-college-students-in-usa` | Online Maths Tutoring for College Students in the USA · 1:1 Calculus, Linear Algebra &... |
 | `/online-maths-tutoring-for-kids-in-usa` | Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K-5) |
 | `/online-maths-tutoring-for-teens-in-usa` | Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math |
+| `/ontario-grade-6-math-and-coding-help` | Grade 6 Math and Coding Help, Ontario: Strands and Practice |
+| `/pre-calculus-11-tutor-bc` | Pre-calculus 11 BC Tutor: Course Topics, Practice and Help |
+| `/pre-calculus-12-tutor-bc` | Pre-calculus 12 BC Tutor: Units, Practice Questions, Plan |
 | `/precalculus-tutoring-online` | Precalculus Tutoring Online |
 | `/preliminary-hsc-maths-year-11-help` | Year 11 Maths Help NSW |
 | `/primary-maths-challenge-practice` | Primary Maths Challenge Practice |
+| `/problem-solving-coding-and-math-classes-canada` | Problem-Solving Coding and Math Classes in Canada |
+| `/quebec-secondary-4-math-cst-ts-science` | Quebec Secondary 4 Math: CST, TS or Science, and the 2027 Exam |
+| `/quebec-secondary-5-math-tutor` | Quebec Secondary 5 Math Tutor: CST, TS, Science Help Online |
 | `/queensland-academies-entry-maths-practice` | Queensland Academies Entrance Test Maths Practice |
 | `/sa-ignite-entry-maths-practice` | SA Ignite Assessment Maths Practice |
 | `/sat-math-tutoring-online` | SAT Math Tutoring Online · 1:1 Digital SAT Math Prep |
@@ -2654,6 +2764,7 @@ Listed with titles in Appendix C.
 | `/uk-coding-maths-and-ai-competitions-calendar` | UK Coding, Maths and AI Competitions 2026-27 |
 | `/ukmt-maths-challenge-tutoring` | UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge |
 | `/ukmt-team-maths-challenge-practice` | UKMT Team Maths Challenge Practice |
+| `/us-coding-math-and-ai-competitions-calendar` | US Coding, Math and AI Competitions Calendar 2026-27 |
 | `/vce-foundation-maths-help` | VCE Foundation Maths Help |
 | `/vce-general-maths-tutoring` | VCE General Maths Tutoring |
 | `/vce-maths-methods-tutoring` | VCE Maths Methods Tutoring |
@@ -2664,7 +2775,7 @@ Listed with titles in Appendix C.
 | `/year-10-maths-methods-preparation` | Year 10 Maths Methods Preparation |
 | `/year-12-maths-holiday-revision-australia` | Year 12 Maths Holiday Revision |
 
-### B.14 AI and machine learning pages (188)
+### B.14 AI and machine learning pages (214)
 
 | URL path | Page title |
 |---|---|
@@ -2818,20 +2929,42 @@ Listed with titles in Appendix C.
 | `/ai-and-python-academy-sohar` | AI and Python Academy for Students in Sohar |
 | `/ai-and-python-academy-the-hague` | AI and Python Academy, The Hague |
 | `/ai-and-python-academy-utrecht` | AI and Python Academy, Utrecht |
+| `/ai-and-python-classes-for-teens-in-austin-texas` | AI and Python Classes for Teens in Austin, Texas |
+| `/ai-and-python-classes-for-teens-in-boston-massachusetts` | AI and Python Classes for Teens in Boston, Massachusetts |
+| `/ai-and-python-classes-for-teens-in-brampton` | AI and Python Classes for Teens in Brampton, ON |
+| `/ai-and-python-classes-for-teens-in-denver` | AI and Python Classes for Teens in Denver |
+| `/ai-and-python-classes-for-teens-in-fredericton` | AI and Python Classes for Teens in Fredericton, NB |
+| `/ai-and-python-classes-for-teens-in-gatineau` | AI and Python Classes for Teens in Gatineau, QC |
+| `/ai-and-python-classes-for-teens-in-guelph` | AI and Python Classes for Teens in Guelph, ON |
+| `/ai-and-python-classes-for-teens-in-lethbridge` | AI and Python Classes for Teens in Lethbridge, AB |
+| `/ai-and-python-classes-for-teens-in-miami` | AI and Python Classes for Teens in Miami |
+| `/ai-and-python-classes-for-teens-in-northern-virginia` | AI and Python Classes for Teens in Northern Virginia |
+| `/ai-and-python-classes-for-teens-in-orange-county-california` | AI and Python Classes for Teens in Orange County, CA |
+| `/ai-and-python-classes-for-teens-in-portland-oregon` | AI and Python Classes for Teens in Portland, Oregon |
+| `/ai-and-python-classes-for-teens-in-richmond-hill` | AI and Python Classes for Teens in Richmond Hill, ON |
+| `/ai-and-python-classes-for-teens-in-san-francisco-bay-area` | AI and Python Classes for Teens in the SF Bay Area |
+| `/ai-and-python-classes-for-teens-in-surrey-bc` | AI and Python Classes for Teens in Surrey, BC |
+| `/ai-and-python-classes-for-teens-in-waterloo-ontario` | AI and Python Classes for Teens in Waterloo, ON |
+| `/ai-certification-for-high-school-students` | AI Certification for High School Students: The Exams Compared |
 | `/ai-classes-for-adults` | AI Classes for Adults |
 | `/ai-classes-for-beginners` | AI Classes for Beginners - Start From Zero, No Experience Needed |
 | `/ai-classes-for-cbse-class-6-to-8` | CBSE AI Classes for Class 6-8: Where AI Literacy Actually Begins |
 | `/ai-classes-for-kids` | AI Classes for Kids (Ages 6-12) - Fun, Live, Project-Based |
+| `/ai-classes-for-kids-in-canada` | AI Classes for Kids in Canada: What Children Learn and Build |
 | `/ai-classes-for-kids-in-uae` | AI Classes for Kids in UAE |
 | `/ai-classes-for-kids-uk` | AI Classes for Kids in the UK |
+| `/ai-classes-for-middle-school-students` | AI Classes for Middle School Students: Grades 6 to 8 |
 | `/ai-classes-for-teenagers` | AI Classes for Teenagers (13-18) - Build Real AI Projects & a Portfolio |
 | `/ai-classes-for-teens-australia` | AI Classes for Teens in Australia |
 | `/ai-coding-course` | AI Coding Course |
 | `/ai-course-for-beginners` | AI Course for Beginners |
+| `/ai-courses-for-high-school-students` | AI Courses for High School Students: School, Free and Live |
 | `/ai-courses-for-kids-australia` | AI Courses for Kids in Australia |
 | `/ai-development-services` | AI Development Company |
 | `/ai-engineer-roadmap-2026` | The AI Engineer Roadmap 2026: From Python Day One to Shipping AI in Production |
 | `/ai-evaluations-course` | AI Evaluations Course |
+| `/ai-guidance-for-schools-by-state` | AI Guidance for Schools by State: All 50 and DC |
+| `/ai-literacy-for-elementary-students` | AI Literacy for Elementary Students: A K-5 Guide |
 | `/ai-literacy-for-students` | AI Literacy for Students |
 | `/ai-ml-certification-course` | AI & ML Certification Course |
 | `/ai-ml-course-for-college-students` | AI & ML Course for College Students |
@@ -2839,6 +2972,9 @@ Listed with titles in Appendix C.
 | `/ai-ml-projects-for-students` | AI & ML Projects for Students |
 | `/ai-projects-for-high-school-students` | AI Projects for High School Students |
 | `/ai-projects-for-kids` | AI Projects for Kids |
+| `/ai-projects-for-middle-school-students` | AI Projects for Middle School Students: 10 Ideas, 2 in Python |
+| `/ai-research-programs-for-high-school-students` | AI Research Programs for High School Students: 2026 to 2027 |
+| `/ai-summer-programs-for-high-school-students` | AI Summer Programs for High School Students: 2027 Guide |
 | `/artificial-intelligence-course` | Artificial Intelligence Course |
 | `/best-ai-and-machine-learning-course-in-india` | Best AI & Machine Learning Course in India |
 | `/build-machine-learning-models-in-python` | Build Machine Learning Models in Python |
@@ -2849,6 +2985,7 @@ Listed with titles in Appendix C.
 | `/how-computer-vision-works` | How Computer Vision Works - CNNs, Feature Maps & Object Detection Explained |
 | `/how-llms-actually-work` | How LLMs Actually Work |
 | `/how-to-train-machine-learning-models` | How to Train Machine Learning Models |
+| `/machine-learning-competitions-for-high-school-students` | Machine Learning Competitions for High School Students |
 | `/machine-learning-course-for-beginners` | Machine Learning Course for Beginners |
 | `/machine-learning-for-school-students-netherlands` | Machine Learning for School Students, Netherlands |
 | `/machine-learning-for-school-students-oman` | Machine Learning for School Students in Oman |
@@ -2857,11 +2994,12 @@ Listed with titles in Appendix C.
 | `/python-for-machine-learning` | Python for Machine Learning |
 | `/uk-olympiad-in-artificial-intelligence-preparation` | UK Olympiad in AI Preparation |
 
-### B.15 Programming language and topic pages (701)
+### B.15 Programming language and topic pages (900)
 
 | URL path | Page title |
 |---|---|
 | `/a-level-computer-science-nea-help` | A-Level Computer Science NEA Help |
+| `/acsl-competition-preparation` | ACSL Competition Preparation: Divisions, Dates, Topics |
 | `/advanced-higher-computing-science-project-help` | Advanced Higher Computing Science Project Help |
 | `/after-code-club-next-step-coding-uk` | After Code Club: The Next Step in Coding, UK |
 | `/after-coderdojo-next-step-coding-ireland` | After CoderDojo: The Next Step in Coding in Ireland |
@@ -2869,10 +3007,12 @@ Listed with titles in Appendix C.
 | `/after-scratch-next-step-python-australia` | After Scratch: Moving to Python, for Australian Kids |
 | `/agentic-coding-classes` | Agentic Coding Classes |
 | `/aio-to-ioi-pathway-australia` | AIO to IOI Pathway in Australia |
+| `/app-development-classes-for-teens-canada` | App Development Classes for Teens in Canada: Build and Ship |
 | `/app-development-course-australia` | App Development Course in Australia |
 | `/app-development-course-ireland` | App Development Course in Ireland |
 | `/app-development-course-netherlands` | App Development Course in the Netherlands |
 | `/app-development-course-uk` | App Development Course in the UK |
+| `/app-inventor-for-kids` | MIT App Inventor for Kids: Sign-In, Setup and a First App |
 | `/aqa-a-level-computer-science-7517-help` | AQA A-level Computer Science 7517 Help |
 | `/aqa-gcse-computer-science-8525-help` | AQA GCSE Computer Science 8525 Help |
 | `/astro-pi-mission-zero-and-space-lab-help` | Astro Pi Mission Zero Help |
@@ -2883,6 +3023,9 @@ Listed with titles in Appendix C.
 | `/australian-mathematical-olympiad-preparation` | Australian Mathematical Olympiad Preparation: AMO Explained |
 | `/australian-mathematics-competition-practice-by-year` | Australian Mathematics Competition Practice by Year |
 | `/australian-student-hackathons` | Student Hackathons in Australia: Who Can Enter, How to Prepare |
+| `/bc-adst-curriculum-coding-by-grade` | BC ADST Curriculum: Coding by Grade, Kindergarten to Grade 9 |
+| `/bc-grade-10-numeracy-assessment-practice` | BC Grade 10 Numeracy Assessment Practice: Format, Questions |
+| `/beaver-computing-challenge-guide` | Beaver Computing Challenge 2026: Guide and Practice Tasks |
 | `/bebras-challenge-australia-practice` | Bebras Challenge Australia Practice |
 | `/bebras-computational-thinking-challenge-practice-uk` | UK Bebras Challenge Practice |
 | `/best-age-to-start-coding` | Best Age to Start Coding? The Honest Age-by-Age Answer |
@@ -2993,6 +3136,23 @@ Listed with titles in Appendix C.
 | `/best-coding-and-ai-classes-in-yeovil` | Coding and AI Classes in Yeovil |
 | `/best-coding-classes-for-adults-ireland` | Best Coding Classes for Adults in Ireland |
 | `/best-coding-classes-for-adults-uk` | Best Coding Classes for Adults in the UK |
+| `/best-coding-classes-for-kids-in-burnaby` | Best Coding Classes for Kids in Burnaby |
+| `/best-coding-classes-for-kids-in-charlotte` | Best Coding Classes for Kids in Charlotte |
+| `/best-coding-classes-for-kids-in-chicago` | Best Coding Classes for Kids in Chicago |
+| `/best-coding-classes-for-kids-in-houston` | Best Coding Classes for Kids in Houston |
+| `/best-coding-classes-for-kids-in-kelowna` | Best Coding Classes for Kids in Kelowna |
+| `/best-coding-classes-for-kids-in-kitchener` | Best Coding Classes for Kids in Kitchener |
+| `/best-coding-classes-for-kids-in-laval` | Best Coding Classes for Kids in Laval |
+| `/best-coding-classes-for-kids-in-markham` | Best Coding Classes for Kids in Markham |
+| `/best-coding-classes-for-kids-in-minneapolis` | Best Coding Classes for Kids in Minneapolis |
+| `/best-coding-classes-for-kids-in-mississauga` | Best Coding Classes for Kids in Mississauga |
+| `/best-coding-classes-for-kids-in-moncton` | Best Coding Classes for Kids in Moncton |
+| `/best-coding-classes-for-kids-in-new-york-city` | Best Coding Classes for Kids in New York City |
+| `/best-coding-classes-for-kids-in-oakville` | Best Coding Classes for Kids in Oakville |
+| `/best-coding-classes-for-kids-in-orlando` | Best Coding Classes for Kids in Orlando |
+| `/best-coding-classes-for-kids-in-philadelphia` | Best Coding Classes for Kids in Philadelphia |
+| `/best-coding-classes-for-kids-in-san-jose` | Best Coding Classes for Kids in San Jose |
+| `/best-coding-classes-for-kids-in-vancouver` | Best Coding Classes for Kids in Vancouver |
 | `/best-coding-classes-for-kids-ireland` | Best Coding Classes for Kids in Ireland |
 | `/best-coding-classes-for-teens-ireland` | Best Coding Classes for Teens in Ireland |
 | `/best-coding-classes-for-teens-uk` | Best Coding Classes for Teens in the UK |
@@ -3019,11 +3179,14 @@ Listed with titles in Appendix C.
 | `/best-coding-classes-online` | Best Online Coding Classes for Kids, Teens and Adults |
 | `/best-java-classes-in-india` | Best Java Classes in India |
 | `/best-online-coding-classes-for-kids-2026` | Online Coding Classes for Kids: Best Live Options, Ranked (2026) |
+| `/best-online-coding-classes-for-kids-usa-compared` | Online Coding Classes for Kids in the USA, Compared (2026) |
+| `/best-online-coding-classes-in-canada` | Best Online Coding Classes in Canada (2026): How to Choose |
 | `/best-online-coding-classes-ireland` | Best Online Coding Classes in Ireland |
 | `/best-online-coding-classes-uk` | Best Online Coding Classes in the UK |
 | `/best-python-classes-online-ireland` | Best Python Classes Online in Ireland |
 | `/best-python-classes-online-uk` | Best Python Classes Online in the UK |
 | `/big-bang-competition-project-help` | Big Bang Competition Project Help |
+| `/bluej-not-working-fix` | BlueJ Not Working? Fixes for Install, Output and Frozen Programs |
 | `/bootstrap` | Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch |
 | `/british-informatics-olympiad-preparation` | British Informatics Olympiad Preparation |
 | `/british-mathematical-olympiad-bmo-preparation` | British Mathematical Olympiad Preparation |
@@ -3041,55 +3204,129 @@ Listed with titles in Appendix C.
 | `/c-plus-plus-dsa-course` | C++ DSA Course |
 | `/c-plus-plus-for-beginners` | C++ for Beginners |
 | `/c-plus-plus-for-competitive-programming` | C++ for Competitive Programming |
+| `/c-plus-plus-for-kids` | C++ for Kids: Is It a Good First Language? Real Code Inside |
 | `/c-plus-plus-for-placement-preparation` | C++ for Placement Preparation |
 | `/c-plus-plus-game-development` | C++ Game Development Course |
 | `/c-plus-plus-oops-concepts-course` | C++ OOP Concepts Course |
 | `/c-plus-plus-projects-for-students` | C++ Projects for Students |
 | `/cambridge-a-level-computer-science-online-classes` | Cambridge A Level Computer Science 9618 Online Classes |
 | `/cambridge-igcse-computer-science-tuition` | Cambridge IGCSE Computer Science Tuition |
+| `/canada-coding-curriculum-by-province` | Coding Curriculum by Province: Canada's Schools Compared |
+| `/canada-time-zones-2026-online-class-times` | Canada Time Zones 2026: Online Class Times by Province |
 | `/canadian-computing-competition-ccc-prep` | Canadian Computing Competition Prep |
+| `/canadian-computing-olympiad-cco-guide` | Canadian Computing Olympiad (CCO): From CCC to the IOI |
+| `/cayley-contest-preparation` | Cayley Contest 2027 (Grade 10): Paper, Results, Practice |
 | `/cbse-ai-curriculum-classes` | CBSE's Computational Thinking & AI Curriculum (2026-27): A Parent's Complete Guide |
 | `/cbse-class-10-ai-board-exam-preparation` | CBSE Class 10 AI Board Exam Preparation |
 | `/cbse-class-10-ai-classes-online` | CBSE Class 10 AI Classes Online (417) |
+| `/cbse-class-10-ai-employability-skills-part-a` | CBSE Class 10 AI Part A: Employability Skills (10 Marks) |
+| `/cbse-class-10-ai-exam-date-and-paper-pattern` | CBSE Class 10 AI Exam Date 2027 and Paper Pattern (417) |
+| `/cbse-class-10-ai-important-questions` | CBSE Class 10 AI Important Questions 2027 (417), Unit-Wise |
+| `/cbse-class-10-ai-online-classes-gulf-and-abroad` | CBSE Class 10 AI Online Classes in the UAE, Gulf and Abroad |
 | `/cbse-class-10-ai-project-and-practical-file` | CBSE Class 10 AI Project and Practical File |
+| `/cbse-class-10-ai-sample-paper-and-mock-tests` | CBSE Class 10 AI Sample Paper 2026-27 and Mock Tests, Solved Live |
 | `/cbse-class-10-ai-syllabus-explained` | CBSE Class 10 AI Syllabus 2026-27 (417) Explained, Unit by Unit |
 | `/cbse-computational-thinking-classes-3-to-5` | CBSE Computational Thinking for Classes 3-5: What Your Child Actually Learns |
+| `/ccc-junior-guide` | CCC Junior 2027 Guide: Format, Rules, Practice Problems |
+| `/ccc-past-problems-practice-guide` | CCC Past Papers: How to Practise with CEMC's Archive |
+| `/ccc-senior-guide` | CCC Senior 2027 Guide: Graphs, DP and Efficient Code |
 | `/ccea-a-level-software-systems-development-help` | CCEA A Level Software Systems Development Help |
 | `/ccea-gcse-digital-technology-programming-help` | CCEA GCSE Digital Technology Programming Help |
+| `/cegep-computer-science-preparation` | CEGEP Computer Science: Programs, Admission and Preparation |
+| `/cemc-free-resources-guide` | CEMC Free Resources: Problem of the Week, CS Circles, More |
 | `/cemc-waterloo-contests-preparation` | CEMC Waterloo Contest Preparation: Gauss to Euclid, Live Online |
 | `/choosing-gcse-computer-science-year-9-options` | Choosing GCSE Computer Science |
 | `/choosing-year-11-computing-subjects-australia` | Choosing Year 11 Computing Subjects |
+| `/cimc-and-csmc-contest-guide` | CIMC and CSMC 2026: Dates, Marking and Practice |
+| `/code-org-app-lab-help` | Code.org App Lab Help: Fix Events, Variables and Screens |
+| `/codehs-help-for-students` | CodeHS Help for Students: Errors, Resets and Debugging |
 | `/coding-alongside-informatica-havo-vwo-netherlands` | Coding Alongside Informatica, Havo and Vwo |
 | `/coding-and-ai-alongside-bjc-and-bgcse-bahamas` | Coding and AI Alongside BJC and BGCSE in The Bahamas |
 | `/coding-and-ai-classes-for-adults-netherlands` | Coding and AI Classes for Adults, Netherlands |
+| `/coding-and-ai-classes-in-alabama` | Coding and AI Classes in Alabama |
+| `/coding-and-ai-classes-in-alaska` | Coding and AI Classes in Alaska |
+| `/coding-and-ai-classes-in-arizona` | Coding and AI Classes in Arizona |
+| `/coding-and-ai-classes-in-arkansas` | Coding and AI Classes in Arkansas |
 | `/coding-and-ai-classes-in-australian-capital-territory` | Coding and AI Classes in the ACT |
 | `/coding-and-ai-classes-in-bahamas` | Coding and AI Classes in The Bahamas |
+| `/coding-and-ai-classes-in-calgary` | Coding and AI Classes in Calgary |
+| `/coding-and-ai-classes-in-colorado` | Coding and AI Classes in Colorado |
 | `/coding-and-ai-classes-in-connacht` | Coding and AI Classes in Connacht |
+| `/coding-and-ai-classes-in-connecticut` | Coding and AI Classes in Connecticut |
+| `/coding-and-ai-classes-in-delaware` | Coding and AI Classes in Delaware |
 | `/coding-and-ai-classes-in-east-midlands` | Coding and AI Classes in the East Midlands |
 | `/coding-and-ai-classes-in-east-of-england` | Coding and AI Classes in the East of England |
+| `/coding-and-ai-classes-in-edmonton` | Coding and AI Classes in Edmonton |
 | `/coding-and-ai-classes-in-england` | Coding and AI Classes in England |
+| `/coding-and-ai-classes-in-florida` | Coding and AI Classes in Florida |
+| `/coding-and-ai-classes-in-halifax-nova-scotia` | Coding and AI Classes in Halifax, Nova Scotia |
+| `/coding-and-ai-classes-in-hawaii` | Coding and AI Classes in Hawaii |
+| `/coding-and-ai-classes-in-idaho` | Coding and AI Classes in Idaho |
+| `/coding-and-ai-classes-in-indiana` | Coding and AI Classes in Indiana |
+| `/coding-and-ai-classes-in-iowa` | Coding and AI Classes in Iowa |
+| `/coding-and-ai-classes-in-kansas` | Coding and AI Classes in Kansas |
+| `/coding-and-ai-classes-in-kentucky` | Coding and AI Classes in Kentucky |
 | `/coding-and-ai-classes-in-leinster` | Coding and AI Classes in Leinster |
+| `/coding-and-ai-classes-in-london-ontario` | Coding and AI Classes in London, Ontario |
+| `/coding-and-ai-classes-in-louisiana` | Coding and AI Classes in Louisiana |
+| `/coding-and-ai-classes-in-maine` | Coding and AI Classes in Maine |
+| `/coding-and-ai-classes-in-massachusetts` | Coding and AI Classes in Massachusetts |
+| `/coding-and-ai-classes-in-michigan` | Coding and AI Classes in Michigan |
+| `/coding-and-ai-classes-in-minnesota` | Coding and AI Classes in Minnesota |
+| `/coding-and-ai-classes-in-mississippi` | Coding and AI Classes in Mississippi |
+| `/coding-and-ai-classes-in-missouri` | Coding and AI Classes in Missouri |
+| `/coding-and-ai-classes-in-montana` | Coding and AI Classes in Montana |
+| `/coding-and-ai-classes-in-montreal` | Coding and AI Classes in Montreal |
 | `/coding-and-ai-classes-in-munster` | Coding and AI Classes in Munster |
 | `/coding-and-ai-classes-in-nassau` | Coding and AI Classes in Nassau, Bahamas |
+| `/coding-and-ai-classes-in-nevada` | Coding and AI Classes in Nevada |
+| `/coding-and-ai-classes-in-new-hampshire` | Coding and AI Classes in New Hampshire |
+| `/coding-and-ai-classes-in-new-mexico` | Coding and AI Classes in New Mexico |
 | `/coding-and-ai-classes-in-new-south-wales` | Coding and AI Classes in New South Wales |
+| `/coding-and-ai-classes-in-north-carolina` | Coding and AI Classes in North Carolina |
+| `/coding-and-ai-classes-in-north-dakota` | Coding, Cyber and AI Classes in North Dakota |
 | `/coding-and-ai-classes-in-north-east-england` | Coding and AI Classes in North East England |
 | `/coding-and-ai-classes-in-north-west-england` | Coding and AI Classes in North West England |
 | `/coding-and-ai-classes-in-northern-ireland` | Coding and AI Classes in Northern Ireland |
 | `/coding-and-ai-classes-in-northern-territory` | Coding and AI Classes in the Northern Territory |
+| `/coding-and-ai-classes-in-ohio` | Coding and AI Classes in Ohio |
+| `/coding-and-ai-classes-in-oklahoma` | Coding and AI Classes in Oklahoma |
+| `/coding-and-ai-classes-in-oregon` | Coding and AI Classes in Oregon |
+| `/coding-and-ai-classes-in-ottawa` | Coding and AI Classes in Ottawa |
+| `/coding-and-ai-classes-in-pennsylvania` | Coding and AI Classes in Pennsylvania |
+| `/coding-and-ai-classes-in-quebec-city` | Coding and AI Classes in Quebec City |
 | `/coding-and-ai-classes-in-queensland` | Coding and AI Classes in Queensland |
+| `/coding-and-ai-classes-in-regina` | Coding and AI Classes in Regina |
+| `/coding-and-ai-classes-in-rhode-island` | Coding and AI Classes in Rhode Island |
+| `/coding-and-ai-classes-in-saskatoon` | Coding and AI Classes in Saskatoon |
 | `/coding-and-ai-classes-in-scotland` | Coding and AI Classes in Scotland |
 | `/coding-and-ai-classes-in-south-australia` | Coding and AI Classes in South Australia |
+| `/coding-and-ai-classes-in-south-carolina` | Coding and AI Classes in South Carolina |
+| `/coding-and-ai-classes-in-south-dakota` | Coding and AI Classes in South Dakota |
 | `/coding-and-ai-classes-in-south-east-england` | Coding and AI Classes in South East England |
 | `/coding-and-ai-classes-in-south-west-england` | Coding and AI Classes in South West England |
+| `/coding-and-ai-classes-in-st-johns-newfoundland` | Coding and AI Classes in St. John's, Newfoundland |
 | `/coding-and-ai-classes-in-tasmania` | Coding and AI Classes in Tasmania |
+| `/coding-and-ai-classes-in-tennessee` | Coding and AI Classes in Tennessee |
+| `/coding-and-ai-classes-in-toronto` | Coding and AI Classes in Toronto |
 | `/coding-and-ai-classes-in-ulster` | Coding and AI Classes in Ulster |
+| `/coding-and-ai-classes-in-utah` | Coding and AI Classes in Utah |
+| `/coding-and-ai-classes-in-vermont` | Coding and AI Classes in Vermont |
 | `/coding-and-ai-classes-in-victoria` | Coding and AI Classes in Victoria |
+| `/coding-and-ai-classes-in-victoria-bc` | Coding and AI Classes in Victoria, BC |
 | `/coding-and-ai-classes-in-wales` | Coding and AI Classes in Wales |
+| `/coding-and-ai-classes-in-washington-dc` | Coding and AI Classes in Washington, DC |
 | `/coding-and-ai-classes-in-west-midlands-region` | Coding and AI Classes in the West Midlands Region |
+| `/coding-and-ai-classes-in-west-virginia` | Coding and AI Classes in West Virginia |
 | `/coding-and-ai-classes-in-western-australia` | Coding and AI Classes in Western Australia |
+| `/coding-and-ai-classes-in-winnipeg` | Coding and AI Classes in Winnipeg |
+| `/coding-and-ai-classes-in-wisconsin` | Coding and AI Classes in Wisconsin |
+| `/coding-and-ai-classes-in-wyoming` | Coding and AI Classes in Wyoming |
 | `/coding-and-ai-classes-in-yorkshire-and-the-humber` | Coding and AI Classes in Yorkshire and the Humber |
 | `/coding-before-a-degree-apprenticeship-uk` | Coding Before a Degree Apprenticeship, UK |
 | `/coding-comeback-women` | Coding Comeback for Women: Return to Tech After a Career Break, Maternity Pause or Sabb... |
+| `/coding-competitions-for-high-school-students` | Coding Competitions for High School Students: 2026-27 Guide |
+| `/coding-competitions-for-middle-school-students` | Coding Competitions for Middle School Students (2026-27) |
 | `/coding-competitions-for-students-bahamas` | Coding Competitions for Students in The Bahamas |
 | `/coding-for-career-changers-australia` | Coding for Career Changers in Australia |
 | `/coding-for-cbse-students` | Coding for CBSE Students: Python, CS & Informatics Practices from Class 6 to 12 |
@@ -3104,20 +3341,31 @@ Listed with titles in Appendix C.
 | `/coding-for-year-7-australia` | Coding for Year 7 in Australia: From Blocks to Python |
 | `/coding-games-for-kids-australia` | Coding Games for Kids in Australia |
 | `/coding-lang` | Programming Languages, Frameworks and Tools to Learn in 2026: The Complete Guide |
+| `/coding-milestones-by-age` | Coding Milestones by Age: What Kids Can Do from 6 to 18 |
 | `/coding-olympiad-medal-track` | Coding Olympiad Medal Track: IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching |
+| `/comc-canada-open-mathematics-challenge-guide` | COMC 2026: Canadian Open Mathematics Challenge Guide |
 | `/competitive-programming-australia` | Competitive Programming in Australia |
 | `/computer-applications-icse-class-10` | Computer Applications ICSE Class 10: Java BlueJ Tuition, Project & Viva Prep |
+| `/computer-programming-11-and-12-bc` | BC Computer Programming 11 and 12, Computer Science 11 Help |
 | `/computer-science-class-11-cbse` | Computer Science Class 11 CBSE: Python, Boolean Logic & Full Syllabus Tuition |
 | `/computer-science-class-11-icse` | Computer Science Class 11 ICSE: Java OOP, Boolean Algebra & ISC Full Syllabus |
 | `/computer-science-class-12-cbse` | Computer Science Class 12 CBSE: Python Data Structures, SQL & Full Board Tuition |
 | `/computer-science-class-12-icse` | Computer Science Class 12 ICSE: ISC Java Data Structures, Recursion & Board Prep |
 | `/computer-science-extracurriculars` | Computer Science Extracurriculars, Ranked by What Actually Counts |
+| `/computer-science-graduation-requirements-by-state` | Computer Science Graduation Requirements by State |
+| `/computer-science-internships-for-high-school-students` | Computer Science Internships for High School Students |
+| `/computer-science-prerequisites-canadian-universities` | Computer Science Prerequisites at Canadian Universities |
+| `/computer-science-standards-by-state` | K-12 Computer Science Standards by State, With AI |
+| `/computer-science-summer-programs-for-high-school-students` | CS Summer Programs for High School Students: 2027 Guide |
+| `/congressional-app-challenge-guide` | Congressional App Challenge Guide: Rules, Video, Judging |
 | `/context-engineering-course` | Context Engineering Course |
 | `/coolest-projects-uk-project-ideas` | Coolest Projects UK |
 | `/cpa-cpp-certification-prep` | CPA C++ Certification (CPA-21-02): Full Exam Guide, Syllabus & Live Coaching |
 | `/cyber-security-course-for-teens-australia` | Cyber Security Course for Teens in Australia |
 | `/cyber-security-course-for-teens-uk` | Cyber Security Course for Teens in the UK |
 | `/cyberfirst-girls-competition-preparation` | CyberFirst Girls Competition Preparation |
+| `/cyberpatriot-preparation` | CyberPatriot Preparation: 2026-27 Schedule, Scoring, Setup |
+| `/cybersecurity-classes-for-teens` | Cybersecurity Classes for Teens: CyberPatriot, AP and CTFs |
 | `/data-analytics-course` | Data Analytics Course |
 | `/data-science-course` | Data Science Course |
 | `/data-science-course-australia` | Data Science Course in Australia |
@@ -3127,24 +3375,38 @@ Listed with titles in Appendix C.
 | `/data-structures-and-algorithms-course` | DSA Course: Build Your Logic with Data Structures & Algorithms |
 | `/digital-technologies-primary-coding-help` | Primary Digital Technologies Coding Help |
 | `/digital-technologies-years-7-to-10-coding` | Digital Technologies Years 7 to 10 Coding |
+| `/does-ap-computer-science-give-college-credit` | Does AP Computer Science Give College Credit? A and CSP Compared |
+| `/eclipse-java-help-for-students` | Eclipse Java Help for Students: Run, Errors and Setup Fixes |
 | `/edexcel-gcse-computer-science-1cp2-help` | Edexcel GCSE Computer Science 1CP2 Help |
+| `/euclid-contest-preparation` | Euclid Contest 2027: Date, Marking and Full Solutions |
+| `/fermat-contest-preparation` | Fermat Contest 2027 (Grade 11): Date, Timing, Practice |
 | `/first-competitions-for-primary-school-children-uk` | First Competitions for Primary School Children UK |
 | `/first-lego-league-australia-coding-help` | FIRST LEGO League Australia: Coding Help for Teams |
 | `/first-lego-league-uk-coding-help` | FIRST LEGO League UK Coding Help |
 | `/free-coding-classes-for-kids-australia-what-you-get` | Free Coding Classes for Kids in Australia: What You Get |
+| `/free-coding-programs-for-high-school-students` | Free Coding Programs for High School Students: What Is Free |
+| `/fryer-galois-hypatia-contests-guide` | Fryer, Galois and Hypatia Contests 2027: A Full Guide |
 | `/full-stack-software-development-course-ireland` | Full Stack Software Development Course |
 | `/full-stack-software-development-course-netherlands` | Full Stack Software Development Course, Netherlands |
 | `/full-stack-software-development-course-uk` | Full Stack Software Development Course, UK |
+| `/game-design-classes-for-teens` | Game Design for Teens: Live Classes, a Method and Real Code |
+| `/game-development-classes-for-kids-canada` | Game Development Classes for Kids in Canada: Scratch to Roblox |
 | `/game-development-for-kids-australia` | Game Development for Kids in Australia |
 | `/game-programming-course-australia` | Game Programming Course in Australia |
+| `/gauss-contest-preparation` | Gauss Contest 2027 (Grades 7 and 8): Dates and Practice |
 | `/gazette` | The Modern Age Coders Gazette |
 | `/girls-programming-network-next-step-australia` | After a Girls' Programming Network Workshop: Next Steps |
+| `/github-classroom-help-for-students` | GitHub Classroom Retired: Help for Students in 2026 |
 | `/github-portfolio-for-students-bahamas` | GitHub Portfolios for Bahamian Students |
+| `/godot-for-kids-and-teens` | Godot for Kids and Teens: Free Engine, GDScript, Real Code |
+| `/google-colab-help-for-students` | Google Colab Help for Students: Errors, Files and Limits |
 | `/hackathon` | Modern Age Coders Hackathon 1.0 (June 2026): ₹30,000 Prize Pool |
 | `/hackathon-guide` | Hackathon 1.0 Guide (June 2026): How It Worked, 3 Rounds, Rules & What to Build |
 | `/hackathons-for-high-school-students` | Hackathons for High School Students |
+| `/high-school-computer-science-access-by-state` | High School Computer Science Access by State, 2025 Data |
 | `/higher-computing-science-help` | Higher Computing Science Help |
 | `/homeschool-coding-curriculum` | Homeschool Coding Curriculum |
+| `/homeschool-computer-science-high-school-credit` | Homeschool Computer Science High School Credit, State by State |
 | `/how-ai-actually-works` | How AI Actually Works: A First-Principles Guide to LLMs, Tokens, Embeddings and Transfo... |
 | `/how-large-language-models-work` | How Large Language Models Work - Understand Tokens, Embeddings & Attention |
 | `/how-to-actually-learn-to-code` | How to Actually Learn to Code |
@@ -3152,25 +3414,42 @@ Listed with titles in Appendix C.
 | `/how-to-build-a-coding-portfolio` | How To Build a Coding Portfolio That Holds Up Under Questioning |
 | `/how-to-build-ai-models` | How to Build AI Models |
 | `/how-to-debug-code` | How to Debug Code: Search, Do Not Guess |
+| `/how-to-make-a-3d-game-for-kids` | How to Make a 3D Video Game for Kids: Tools, Steps and Code |
+| `/how-to-make-a-roblox-game` | How to Make a Roblox Game: Studio, Luau and Publishing |
+| `/how-to-make-a-video-game-for-kids` | How to Make a Video Game for Kids: Free Tools and Steps |
 | `/how-to-read-code` | How to Read Code: A Method, Not a Talent |
+| `/how-to-register-for-waterloo-contests` | How to Register for Waterloo Contests and the CCC in Canada |
 | `/how-to-think-like-a-programmer` | How to Think Like a Programmer |
 | `/hsc-enterprise-computing-help` | HSC Enterprise Computing Help |
 | `/hsc-software-engineering-help` | HSC Software Engineering Help |
 | `/ib-computer-science-online-tuition` | IB Computer Science Online Tuition |
 | `/icas-digital-technologies-practice` | ICAS Digital Technologies Practice: Papers by Year Level |
+| `/icd2o-digital-technology-course-explained` | ICD2O Explained: Ontario Grade 10 Computer Course, and ICS2O |
+| `/ics3u-computer-science-help` | ICS3U Computer Science Help: Python, Java, Exam Review |
+| `/ics3u-ics4u-exam-review-practice` | ICS3U and ICS4U Exam Review: Mock Exams With a Marking Guide |
+| `/ics4u-computer-science-help` | ICS4U Computer Science Help: Recursion, OOP, Python and Java |
 | `/icse-class-10-bluej-java-coaching` | ICSE Class 10 BlueJ Java Coaching |
 | `/icse-class-10-computer-applications-board-exam-preparation` | ICSE Class 10 Computer Applications Board Exam Preparation |
+| `/icse-class-10-computer-applications-classes-gulf-and-abroad` | ICSE Computer Applications Classes in Dubai, UAE and Abroad |
+| `/icse-class-10-computer-applications-exam-date-and-paper-pattern` | ICSE Computer Applications Exam Date 2027 and Paper Pattern |
+| `/icse-class-10-computer-applications-important-questions` | ICSE Computer Applications Important Questions 2027, Unit-Wise |
+| `/icse-class-10-computer-applications-project-and-internal-assessment` | ICSE Computer Applications Project and Internal Assessment 2027 |
+| `/icse-class-10-computer-applications-specimen-paper-and-mock-tests` | ICSE Computer Applications Specimen Paper 2027 and Mock Tests |
 | `/icse-class-10-computer-applications-syllabus-explained` | ICSE Class 10 Computer Applications Syllabus 2026-27 Explained |
 | `/icse-class-10-java-classes-online` | ICSE Class 10 Java Classes Online |
 | `/icse-class-10-java-programs-practice` | ICSE Class 10 Java Programs Practice |
 | `/indian-computing-olympiad-preparation` | Indian Computing Olympiad Prep: ZIO, ZCO and INOI, Live Online |
 | `/inside-neural-networks` | Inside Neural Networks: How Deep Learning Really Works, From Perceptron to Transformer |
+| `/intellij-and-pycharm-free-for-students` | IntelliJ and PyCharm Free for Students: License and Setup |
 | `/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation` | Cayley, Hamilton and Maclaurin Preparation |
 | `/ioi-olympiad-informatics-training` | IOI and Informatics Olympiad Training |
 | `/ioqm-rmo-inmo-preparation` | IOQM, RMO and INMO Preparation Online: India's Olympiad Pathway |
+| `/is-ap-computer-science-hard` | Is AP Computer Science Hard? CSA and CSP, by the Numbers |
+| `/java-cannot-find-symbol-error` | Java "cannot find symbol" Error: What It Means and How to Fix It |
 | `/java-certification-course` | Java Certification Course |
 | `/java-classes-for-adults` | Java Classes for Adults |
 | `/java-classes-for-teens` | Java Classes for Teens |
+| `/java-classes-for-teens-in-canada` | Java Classes for Teens in Canada: ICS3U, ICS4U and Beyond |
 | `/java-classes-ireland` | Java Classes in Ireland |
 | `/java-classes-netherlands` | Java Classes in the Netherlands |
 | `/java-classes-online-australia` | Java Classes Online in Australia |
@@ -3182,9 +3461,11 @@ Listed with titles in Appendix C.
 | `/java-programming-for-kids-teens` | Java Programming for Kids & Teens: Learn Java Online |
 | `/java-projects-for-students` | Java Projects for Students |
 | `/javascript-classes-online-australia` | JavaScript Classes Online in Australia |
+| `/javascript-for-kids` | JavaScript for Kids: Where to Start, With Three Real Programs |
 | `/jee-aspirant-coding-track` | JEE Aspirant Coding Track: Python & Computational Maths for Class 11 & 12 Without Distu... |
 | `/junior-cycle-coding-short-course-help` | Junior Cycle Coding Short Course Help |
 | `/junior-mathematical-olympiad-preparation` | Junior Mathematical Olympiad Preparation |
+| `/jupyter-notebook-errors-for-students` | Jupyter Notebook Errors: A Fix Guide for Students |
 | `/kids-coding-languages-australia` | Kids Coding Languages: Which One First? Australia Guide |
 | `/ks2-coding-lessons-online` | Key Stage 2 Coding Lessons Online |
 | `/ks3-computing-tuition-online` | Key Stage 3 Computing Tuition Online |
@@ -3193,6 +3474,7 @@ Listed with titles in Appendix C.
 | `/learn-coding-by-class` | Learn Coding by Class (4-12) |
 | `/learn-coding-from-first-principles` | Learn Coding From First Principles: Understand How Code Actually Works |
 | `/learn-to-build-ai` | Learn to Build AI, Not Just Use It |
+| `/learn-to-code-minecraft-mods` | Learn to Code Minecraft Mods in Java: A Guide for Teens |
 | `/learn-to-code-over-50-australia` | Learn to Code Over 50 in Australia |
 | `/learn-to-code-over-50-uk` | Learn to Code Over 50, UK |
 | `/learn-to-code-with-ai` | Learn to Code with AI |
@@ -3208,9 +3490,14 @@ Listed with titles in Appendix C.
 | `/levels/coding-for-professionals` | Coding for Adults & Beginners: Career Switch to Tech |
 | `/levels/coding-for-teens` | Coding for Teenagers Ages 13-18 |
 | `/levels/corporate-training` | Corporate Coding Training |
+| `/lua-for-kids` | Lua for Kids: Learn Lua and Luau with Real Code |
+| `/makecode-arcade-help-for-students` | MakeCode Arcade Help: Jump, Gravity, Levels and Saving |
 | `/master-ai-ml-python-java` | Master AI, ML, Python & Java: Go Deeper |
 | `/mathcounts-preparation` | MATHCOUNTS Preparation Online: Sprint, Target, Team, Countdown |
 | `/mathematical-olympiad-for-girls-preparation` | Mathematical Olympiad for Girls Preparation |
+| `/mcr3u-functions-tutor` | MCR3U Functions Tutor: Grade 11 Help and Final Exam Prep |
+| `/mdm4u-data-management-tutor` | MDM4U Data Management Tutor: Grade 12 Help and Practice |
+| `/mhf4u-advanced-functions-tutor` | MHF4U Advanced Functions Tutor: Grade 12 Help and Exam Prep |
 | `/minecraft-coding-classes-australia` | Minecraft Coding Classes in Australia |
 | `/minecraft-coding-classes-for-kids` | Minecraft Coding Classes for Kids |
 | `/mobile-app-development-services` | Mobile App Development Company |
@@ -3238,6 +3525,13 @@ Listed with titles in Appendix C.
 | `/one-to-one-coding-classes-in-nassau` | One to One Coding Classes in Nassau |
 | `/one-to-one-coding-classes-netherlands` | One-to-One Coding Classes in the Netherlands |
 | `/online-c-plus-plus-classes` | Online C++ Classes |
+| `/online-coding-and-ai-classes-in-atlanta` | Online Coding and AI Classes in Atlanta, Georgia |
+| `/online-coding-and-ai-classes-in-dallas-fort-worth` | Online Coding and AI Classes in Dallas Fort Worth |
+| `/online-coding-and-ai-classes-in-los-angeles` | Online Coding and AI Classes in Los Angeles |
+| `/online-coding-and-ai-classes-in-phoenix` | Online Coding and AI Classes in Phoenix |
+| `/online-coding-and-ai-classes-in-raleigh-durham` | Online Coding and AI Classes in Raleigh-Durham, North Carolina |
+| `/online-coding-and-ai-classes-in-san-diego` | Online Coding and AI Classes in San Diego |
+| `/online-coding-and-ai-classes-in-seattle` | Online Coding and AI Classes in Seattle |
 | `/online-coding-and-python-classes-in-altrincham` | Online Coding and Python Classes in Altrincham |
 | `/online-coding-and-python-classes-in-arnold` | Online Coding and Python Classes in Arnold, Nottingham |
 | `/online-coding-and-python-classes-in-ashford` | Online Coding and Python Classes in Ashford, Kent |
@@ -3246,6 +3540,7 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-ballina` | Online Coding and Python Classes in Ballina |
 | `/online-coding-and-python-classes-in-ballymena` | Online Coding and Python Classes in Ballymena |
 | `/online-coding-and-python-classes-in-balwyn-melbourne` | Online Coding and Python Classes in Balwyn, Melbourne |
+| `/online-coding-and-python-classes-in-barrie` | Online Coding and Python Classes in Barrie |
 | `/online-coding-and-python-classes-in-bedford` | Online Coding and Python Classes in Bedford |
 | `/online-coding-and-python-classes-in-beeston` | Online Coding and Python Classes in Beeston, Nottinghamshire |
 | `/online-coding-and-python-classes-in-bexhill-on-sea` | Online Coding and Python Classes, Bexhill-on-Sea |
@@ -3258,6 +3553,7 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-brentwood` | Online Coding and Python Classes in Brentwood |
 | `/online-coding-and-python-classes-in-broken-hill` | Online Coding and Python Classes in Broken Hill |
 | `/online-coding-and-python-classes-in-bundaberg` | Online Coding and Python Classes in Bundaberg |
+| `/online-coding-and-python-classes-in-burlington-ontario` | Online Coding and Python Classes in Burlington, Ontario |
 | `/online-coding-and-python-classes-in-burwood-east-melbourne` | Online Coding and Python Classes in Burwood East, Melbourne |
 | `/online-coding-and-python-classes-in-bury` | Online Coding and Python Classes in Bury |
 | `/online-coding-and-python-classes-in-calamvale-brisbane` | Online Coding and Python Classes in Calamvale, Brisbane |
@@ -3271,6 +3567,7 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-chiswick-london` | Online Coding and Python Classes in Chiswick |
 | `/online-coding-and-python-classes-in-coatbridge` | Online Coding and Python Classes in Coatbridge |
 | `/online-coding-and-python-classes-in-colwyn-bay` | Online Coding and Python Classes in Colwyn Bay |
+| `/online-coding-and-python-classes-in-coquitlam` | Online Coding and Python Classes in Coquitlam |
 | `/online-coding-and-python-classes-in-corby` | Online Coding and Python Classes in Corby |
 | `/online-coding-and-python-classes-in-craigieburn-melbourne` | Online Coding and Python Classes in Craigieburn, Melbourne |
 | `/online-coding-and-python-classes-in-crawley` | Online Coding and Python Classes in Crawley |
@@ -3287,6 +3584,7 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-epping-vic-melbourne` | Online Coding and Python Classes in Epping, Melbourne |
 | `/online-coding-and-python-classes-in-forest-lake-brisbane` | Online Coding and Python Classes in Forest Lake, Brisbane |
 | `/online-coding-and-python-classes-in-geelong` | Online Coding and Python Classes in Geelong |
+| `/online-coding-and-python-classes-in-hamilton-ontario` | Online Coding and Python Classes in Hamilton, Ontario |
 | `/online-coding-and-python-classes-in-hartlepool` | Online Coding and Python Classes in Hartlepool |
 | `/online-coding-and-python-classes-in-hastings` | Online Coding and Python Classes in Hastings |
 | `/online-coding-and-python-classes-in-hatfield` | Online Coding and Python Classes in Hatfield |
@@ -3299,6 +3597,7 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-ilford-london` | Online Coding and Python Classes in Ilford, London |
 | `/online-coding-and-python-classes-in-inner-north-canberra` | Online Coding and Python Classes in Inner North Canberra |
 | `/online-coding-and-python-classes-in-irvine` | Online Coding and Python Classes in Irvine |
+| `/online-coding-and-python-classes-in-kamloops` | Online Coding and Python Classes in Kamloops |
 | `/online-coding-and-python-classes-in-kings-lynn` | Online Coding and Python Classes in King's Lynn |
 | `/online-coding-and-python-classes-in-kingswinford` | Online Coding and Python Classes in Kingswinford |
 | `/online-coding-and-python-classes-in-kingswood-bristol` | Online Coding and Python Classes in Kingswood |
@@ -3328,15 +3627,18 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-poole` | Online Coding and Python Classes in Poole |
 | `/online-coding-and-python-classes-in-prospect-sa-adelaide` | Online Coding and Python Classes in Prospect, Adelaide |
 | `/online-coding-and-python-classes-in-queanbeyan` | Online Coding and Python Classes in Queanbeyan |
+| `/online-coding-and-python-classes-in-red-deer` | Online Coding and Python Classes in Red Deer |
 | `/online-coding-and-python-classes-in-redlands-brisbane` | Online Coding and Python Classes in Redlands, Brisbane |
 | `/online-coding-and-python-classes-in-rochdale` | Online Coding and Python Classes in Rochdale |
 | `/online-coding-and-python-classes-in-royal-leamington-spa` | Online Coding and Python Classes in Royal Leamington Spa |
 | `/online-coding-and-python-classes-in-rugby` | Online Coding and Python Classes in Rugby |
 | `/online-coding-and-python-classes-in-runcorn` | Online Coding and Python Classes in Runcorn |
+| `/online-coding-and-python-classes-in-saint-john-new-brunswick` | Online Coding and Python Classes in Saint John, NB |
 | `/online-coding-and-python-classes-in-sandy-bay-hobart` | Online Coding and Python Classes in Sandy Bay, Hobart |
 | `/online-coding-and-python-classes-in-scarborough` | Online Coding and Python Classes in Scarborough |
 | `/online-coding-and-python-classes-in-scarborough-wa-perth` | Online Coding and Python Classes in Scarborough, Perth |
 | `/online-coding-and-python-classes-in-shepparton` | Online Coding and Python Classes in Shepparton |
+| `/online-coding-and-python-classes-in-sherbrooke` | Online Coding and Python Classes in Sherbrooke |
 | `/online-coding-and-python-classes-in-solihull` | Online Coding and Python Classes in Solihull |
 | `/online-coding-and-python-classes-in-stafford` | Online Coding and Python Classes in Stafford |
 | `/online-coding-and-python-classes-in-stockbridge-edinburgh` | Online Coding and Python Classes in Stockbridge, Edinburgh |
@@ -3346,7 +3648,9 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-surfers-paradise-gold-coast` | Online Coding and Python Classes in Surfers Paradise, Gold Coast |
 | `/online-coding-and-python-classes-in-sutherland-shire-sydney` | Online Coding and Python Classes in Sutherland Shire, Sydney |
 | `/online-coding-and-python-classes-in-tamworth-nsw` | Online Coding and Python Classes in Tamworth NSW |
+| `/online-coding-and-python-classes-in-thunder-bay` | Online Coding and Python Classes in Thunder Bay |
 | `/online-coding-and-python-classes-in-tuggeranong-canberra` | Online Coding and Python Classes in Tuggeranong, Canberra |
+| `/online-coding-and-python-classes-in-vaughan` | Online Coding and Python Classes in Vaughan |
 | `/online-coding-and-python-classes-in-wangaratta` | Online Coding and Python Classes in Wangaratta |
 | `/online-coding-and-python-classes-in-wanneroo-perth` | Online Coding and Python Classes in Wanneroo, Perth |
 | `/online-coding-and-python-classes-in-warragul` | Online Coding and Python Classes in Warragul |
@@ -3358,6 +3662,7 @@ Listed with titles in Appendix C.
 | `/online-coding-and-python-classes-in-whyalla` | Online Coding and Python Classes in Whyalla |
 | `/online-coding-and-python-classes-in-wigan` | Online Coding and Python Classes in Wigan |
 | `/online-coding-and-python-classes-in-wigston-leicester` | Online Coding and Python Classes in Wigston |
+| `/online-coding-and-python-classes-in-windsor-ontario` | Online Coding and Python Classes in Windsor, Ontario |
 | `/online-coding-and-python-classes-in-yarra-ranges-melbourne` | Online Coding and Python Classes in Yarra Ranges, Melbourne |
 | `/online-coding-classes-australia-compared` | Online Coding Classes in Australia Compared: What to Check |
 | `/online-coding-classes-cost` | How Much Do Coding Classes Cost in 2026? Fees by Format |
@@ -3369,11 +3674,17 @@ Listed with titles in Appendix C.
 | `/online-coding-tutor-australia` | Online Coding Tutor in Australia |
 | `/online-coding-tutor-uk` | Online Coding Tutor UK |
 | `/online-java-classes` | Online Java Classes |
+| `/ontario-coding-curriculum-grades-1-to-8` | Ontario Math Curriculum Coding, Grades 1 to 8, by Grade |
+| `/ontario-computer-science-course-pathway` | Ontario Computer Science Pathway: ICD2O to ICS4U, Grade by Grade |
+| `/ontario-high-school-diploma-credits-explained` | Ontario High School Credits Explained: OSSD Requirements |
 | `/oxford-university-computing-challenge-preparation` | Oxford University Computing Challenge |
 | `/parents-guide-to-vibe-coding` | A Parent's Guide to Vibe Coding |
+| `/pascal-contest-preparation` | Pascal Contest 2027 (Grade 9): Format, Scoring, Practice |
 | `/passion-project-ideas-computer-science` | Passion Project Ideas for Computer Science Students |
 | `/pcep-python-certification-prep` | PCEP Certification Preparation: Python Entry-Level Exam Guide & Live Coaching |
 | `/perse-coding-team-challenge-preparation` | Perse Coding Team Challenge Preparation |
+| `/picoctf-for-beginners` | picoCTF for Beginners: How to Start, Ethically, in 2026 |
+| `/presidential-ai-challenge-guide` | Presidential AI Challenge Guide: 2027 Rules, Dates, Scoring |
 | `/priority-demo` | Priority Live Demo Class |
 | `/problem-solving-skills-through-coding-ireland` | Problem Solving Skills Through Coding |
 | `/problem-solving-skills-through-coding-uk` | Problem-Solving Skills Through Coding |
@@ -3383,6 +3694,7 @@ Listed with titles in Appendix C.
 | `/python-and-ai-classes-for-kids-teens` | Python for Kids & Teens |
 | `/python-and-ai-track-for-students-bahamas` | The 12-Month Python and AI Track for Bahamian Students |
 | `/python-certification-pcep-pcap-course` | Python Certification Course |
+| `/python-classes-in-canada` | Python Classes in Canada: Live Online for Kids, Teens, Adults |
 | `/python-classes-in-dubai` | Python Classes in Dubai |
 | `/python-classes-in-qatar` | Python Classes in Qatar |
 | `/python-classes-in-saudi-arabia` | Python Classes in Saudi Arabia |
@@ -3393,15 +3705,19 @@ Listed with titles in Appendix C.
 | `/python-for-data-science` | Python for Data Science |
 | `/python-for-kids-in-dubai` | Python for Kids in Dubai |
 | `/python-from-the-ground-up` | Python From the Ground Up: Complete, In-Depth Python Course (Grade 6 to Professional) |
+| `/python-games-for-kids` | Python Games for Kids: Code Your First Game, Then Pygame |
+| `/python-indentation-error-explained` | Python IndentationError Explained: Every Message and Fix |
 | `/python-projects-for-kids` | Python Projects for Kids: 20+ Finishable Python Projects (Ages 8 to 15) |
 | `/python-to-ai-roadmap-for-students-netherlands` | Python to AI Roadmap for Students in the Netherlands |
 | `/python-to-ai-roadmap-for-students-oman` | Python to AI Roadmap for Students in Oman |
+| `/python-turtle-not-working` | Python Turtle Not Working? Real Errors and Fixes |
 | `/rag-systems-course` | RAG Systems Course |
 | `/raspberry-pi-coding-projects-uk` | Raspberry Pi Coding Projects for Kids and Teens, UK |
 | `/real-coding-classes` | Real Coding Classes: Learn How Code Actually Works, How to Think Like a Programmer & Bu... |
 | `/results` | Our Results |
 | `/roblox-coding-classes-australia` | Roblox Coding Classes in Australia |
 | `/roblox-coding-classes-for-kids` | Roblox Coding Classes for Kids |
+| `/roblox-studio-errors-fixed` | Roblox Studio Errors Fixed: 403, 502, HTTP and Output |
 | `/robocup-junior-australia-coding-help` | RoboCup Junior Australia Coding Help: Challenges Explained |
 | `/sace-digital-technologies-help` | SACE Digital Technologies Help |
 | `/sace-mathematical-methods-tutoring` | SACE Mathematical Methods Tutoring |
@@ -3410,6 +3726,7 @@ Listed with titles in Appendix C.
 | `/science-fair-project-ideas-ai` | AI Science Fair Project Ideas That Follow the Actual Rules |
 | `/scottish-mathematical-challenge-practice` | Scottish Mathematical Challenge Practice |
 | `/scratch-coding-classes-for-kids` | Scratch Coding Classes for Kids |
+| `/scratch-not-working-help` | Scratch Not Working? Fixes for Saving, Sign-In and Loading |
 | `/screen-time-to-skill` | Screen Time to Skill Calculator: Turn Your Child's YouTube Hours into Apps, Code & Income |
 | `/sentinus-young-innovators-coding-help` | Sentinus Young Innovators Coding Help |
 | `/should-my-child-learn-ai` | Should My Child Learn AI? An Honest Decision Guide |
@@ -3426,13 +3743,18 @@ Listed with titles in Appendix C.
 | `/tasc-computer-science-help` | TASC Computer Science Help |
 | `/tasc-mathematics-methods-tutoring` | TASC Mathematics Methods Tutoring |
 | `/team` | Our Team |
+| `/technovation-girls-guide` | Technovation Girls Guide: 2026-27 Divisions, Dates, Rules |
 | `/think-like-a-software-engineer` | Think Like a Software Engineer |
 | `/transition-year-coding-course-ireland` | Transition Year Coding Course in Ireland |
+| `/ubc-computer-science-admission-requirements` | UBC Computer Science Admission Requirements, 2027 Entry |
 | `/uk-gcse-computer-science-tutoring` | GCSE Computer Science Tutoring |
 | `/ukmt-kangaroo-rounds-practice` | UKMT Kangaroo Practice |
 | `/understand-the-code-dont-copy-paste-australia` | Understand the Code, Don't Copy-Paste |
 | `/understand-the-code-dont-copy-paste-ireland` | Understand the Code, Don't Copy-Paste |
 | `/understand-the-code-dont-copy-paste-uk` | Understand the Code, Do Not Copy-Paste It |
+| `/unity-for-teens` | Unity for Teens: Age Rules, Free Plans and First C# Scripts |
+| `/uoft-computer-science-admission-requirements` | U of T Computer Science Admission: TAD, TMX and TXC |
+| `/usaco-for-canadian-students` | USACO for Canadian Students: How It Differs from the CCC |
 | `/usaco-preparation-online-coaching` | USACO Preparation Online Coaching |
 | `/vce-algorithmics-hess-help` | VCE Algorithmics (HESS) Help |
 | `/vce-applied-computing-data-analytics-help` | VCE Data Analytics Help |
@@ -3450,12 +3772,14 @@ Listed with titles in Appendix C.
 | `/vibe-coding-and-ai-agents-classes-in-blacktown-sydney` | Vibe Coding and AI Agents Classes in Blacktown, Sydney |
 | `/vibe-coding-and-ai-agents-classes-in-bognor-regis` | Vibe Coding and AI Agents Classes in Bognor Regis |
 | `/vibe-coding-and-ai-agents-classes-in-box-hill-melbourne` | Vibe Coding and AI Agents Classes in Box Hill, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-brantford` | Vibe Coding and AI Agents Classes in Brantford, Ontario |
 | `/vibe-coding-and-ai-agents-classes-in-bridgwater` | Vibe Coding and AI Agents Classes in Bridgwater, Somerset |
 | `/vibe-coding-and-ai-agents-classes-in-bunbury` | Vibe Coding and AI Agents Classes in Bunbury |
 | `/vibe-coding-and-ai-agents-classes-in-burnie` | Vibe Coding and AI Agents Classes in Burnie |
 | `/vibe-coding-and-ai-agents-classes-in-burnley` | Vibe Coding and AI Agents Classes in Burnley |
 | `/vibe-coding-and-ai-agents-classes-in-cairns` | Vibe Coding and AI Agents Classes in Cairns |
 | `/vibe-coding-and-ai-agents-classes-in-camberwell-melbourne` | Vibe Coding and AI Agents Classes in Camberwell, Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-canada` | Vibe Coding and AI Agents Classes in Canada: Teens and Adults |
 | `/vibe-coding-and-ai-agents-classes-in-canberra` | Vibe Coding and AI Agents Classes in Canberra |
 | `/vibe-coding-and-ai-agents-classes-in-central-coast-nsw` | Vibe Coding and AI Agents Classes on the Central Coast NSW |
 | `/vibe-coding-and-ai-agents-classes-in-chatswood-sydney` | Vibe Coding and AI Agents Classes in Chatswood, Sydney |
@@ -3477,6 +3801,7 @@ Listed with titles in Appendix C.
 | `/vibe-coding-and-ai-agents-classes-in-golden-grove-adelaide` | Vibe Coding and AI Agents Classes in Golden Grove, Adelaide |
 | `/vibe-coding-and-ai-agents-classes-in-goulburn` | Vibe Coding and AI Agents Classes in Goulburn |
 | `/vibe-coding-and-ai-agents-classes-in-grays` | Vibe Coding and AI Agents Classes in Grays, Essex |
+| `/vibe-coding-and-ai-agents-classes-in-greater-sudbury` | Vibe Coding and AI Agents Classes in Greater Sudbury |
 | `/vibe-coding-and-ai-agents-classes-in-gungahlin-canberra` | Vibe Coding and AI Agents Classes in Gungahlin, Canberra |
 | `/vibe-coding-and-ai-agents-classes-in-halesowen` | Vibe Coding and AI Agents Classes in Halesowen |
 | `/vibe-coding-and-ai-agents-classes-in-hamilton-scotland` | Vibe Coding and AI Agents Classes in Hamilton |
@@ -3492,32 +3817,39 @@ Listed with titles in Appendix C.
 | `/vibe-coding-and-ai-agents-classes-in-kidderminster` | Vibe Coding and AI Agents Classes in Kidderminster |
 | `/vibe-coding-and-ai-agents-classes-in-kilmarnock` | Vibe Coding and AI Agents Classes in Kilmarnock |
 | `/vibe-coding-and-ai-agents-classes-in-kings-heath-birmingham` | Vibe Coding and AI Agents Classes in Kings Heath |
+| `/vibe-coding-and-ai-agents-classes-in-kingston-ontario` | Vibe Coding and AI Agents Classes in Kingston, Ontario |
 | `/vibe-coding-and-ai-agents-classes-in-knox-melbourne` | Vibe Coding and AI Agents Classes in Knox, Melbourne |
 | `/vibe-coding-and-ai-agents-classes-in-lake-macquarie-newcastle` | Vibe Coding and AI Agents Classes in Lake Macquarie |
 | `/vibe-coding-and-ai-agents-classes-in-lane-cove-sydney` | Vibe Coding and AI Agents Classes in Lane Cove, Sydney |
 | `/vibe-coding-and-ai-agents-classes-in-leigh` | Vibe Coding and AI Agents Classes in Leigh, Wigan |
 | `/vibe-coding-and-ai-agents-classes-in-liverpool-sydney` | Vibe Coding and AI Agents Classes in Liverpool, Sydney |
 | `/vibe-coding-and-ai-agents-classes-in-llandaff-cardiff` | Vibe Coding and AI Agents Classes in Llandaff, Cardiff |
+| `/vibe-coding-and-ai-agents-classes-in-longueuil` | Vibe Coding and AI Agents Classes in Longueuil |
 | `/vibe-coding-and-ai-agents-classes-in-lurgan` | Vibe Coding and AI Agents Classes in Lurgan |
 | `/vibe-coding-and-ai-agents-classes-in-melbourne` | Vibe Coding and AI Agents Classes in Melbourne |
+| `/vibe-coding-and-ai-agents-classes-in-milton-ontario` | Vibe Coding and AI Agents Classes in Milton, Ontario |
 | `/vibe-coding-and-ai-agents-classes-in-molonglo-canberra` | Vibe Coding and AI Agents Classes in Molonglo, Canberra |
 | `/vibe-coding-and-ai-agents-classes-in-monash-melbourne` | Vibe Coding and AI Agents Classes in Monash, Melbourne |
 | `/vibe-coding-and-ai-agents-classes-in-morningside-edinburgh` | Vibe Coding and AI Agents Classes in Morningside, Edinburgh |
 | `/vibe-coding-and-ai-agents-classes-in-mount-gambier` | Vibe Coding and AI Agents Classes in Mount Gambier |
 | `/vibe-coding-and-ai-agents-classes-in-mount-waverley-melbourne` | Vibe Coding and AI Agents Classes in Mount Waverley, Melbourne |
 | `/vibe-coding-and-ai-agents-classes-in-murray-bridge` | Vibe Coding and AI Agents Classes in Murray Bridge |
+| `/vibe-coding-and-ai-agents-classes-in-nanaimo` | Vibe Coding and AI Agents Classes in Nanaimo, BC |
 | `/vibe-coding-and-ai-agents-classes-in-newcastle-under-lyme` | Vibe Coding and AI Agents Classes in Newcastle-under-Lyme |
 | `/vibe-coding-and-ai-agents-classes-in-north-lakes-brisbane` | Vibe Coding and AI Agents Classes in North Lakes, Brisbane |
+| `/vibe-coding-and-ai-agents-classes-in-north-vancouver` | Vibe Coding and AI Agents Classes in North Vancouver |
 | `/vibe-coding-and-ai-agents-classes-in-nuneaton` | Vibe Coding and AI Agents Classes in Nuneaton |
 | `/vibe-coding-and-ai-agents-classes-in-oadby-leicester` | Vibe Coding and AI Agents Classes in Oadby |
 | `/vibe-coding-and-ai-agents-classes-in-oldbury` | Vibe Coding and AI Agents Classes in Oldbury, Sandwell |
 | `/vibe-coding-and-ai-agents-classes-in-orange` | Vibe Coding and AI Agents Classes in Orange |
 | `/vibe-coding-and-ai-agents-classes-in-pennant-hills-sydney` | Vibe Coding and AI Agents Classes in Pennant Hills, Sydney |
+| `/vibe-coding-and-ai-agents-classes-in-peterborough-ontario` | Vibe Coding and AI Agents Classes in Peterborough, Ontario |
 | `/vibe-coding-and-ai-agents-classes-in-pinner-london` | Vibe Coding and AI Agents Classes in Pinner |
 | `/vibe-coding-and-ai-agents-classes-in-port-macquarie` | Vibe Coding and AI Agents Classes in Port Macquarie |
 | `/vibe-coding-and-ai-agents-classes-in-port-talbot` | Vibe Coding and AI Agents Classes in Port Talbot |
 | `/vibe-coding-and-ai-agents-classes-in-randwick-sydney` | Vibe Coding and AI Agents Classes in Randwick, Sydney |
 | `/vibe-coding-and-ai-agents-classes-in-rhyl` | Vibe Coding and AI Agents Classes in Rhyl |
+| `/vibe-coding-and-ai-agents-classes-in-richmond-bc` | Vibe Coding and AI Agents Classes in Richmond, BC |
 | `/vibe-coding-and-ai-agents-classes-in-robina-gold-coast` | Vibe Coding and AI Agents Classes in Robina, Gold Coast |
 | `/vibe-coding-and-ai-agents-classes-in-ryde-sydney` | Vibe Coding and AI Agents Classes in Ryde, Sydney |
 | `/vibe-coding-and-ai-agents-classes-in-schofields-sydney` | Vibe Coding and AI Agents Classes in Schofields, Sydney |
@@ -3550,7 +3882,11 @@ Listed with titles in Appendix C.
 | `/vibe-coding-for-beginners` | Vibe Coding for Beginners |
 | `/vibe-coding-for-teens` | Vibe Coding for Teens |
 | `/vibe-coding-projects-for-students` | Vibe Coding Projects for Students |
+| `/video-game-coding-classes-for-kids` | Video Game Coding Classes for Kids: Live Online, Ages 6 to 17 |
 | `/video-game-design-for-kids-australia` | Video Game Design for Kids in Australia |
+| `/vs-code-setup-for-students` | VS Code Setup for Students: Python and Java Without Errors |
+| `/waterloo-aif-guide` | Waterloo AIF Guide: Questions, Deadline, AI Rule, Hours |
+| `/waterloo-computer-science-admission-requirements` | Waterloo Computer Science Admission Requirements, 2027 |
 | `/we-teach-you-how-to-think` | We Teach You How to Think |
 | `/web-application-development-services` | Web Application Development Company |
 | `/web-development-course-for-teens-australia` | Web Development Course for Teens in Australia |
@@ -3857,9 +4193,9 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "one_to_one": 1,
     "custom_group": "3-10"
   },
-  "courses_live": 127,
+  "courses_live": 137,
   "blog_posts": 176,
-  "live_urls": 2328,
+  "live_urls": 2654,
   "pricing": {
     "coding": {
       "india": {
@@ -3979,8 +4315,10 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
   "refund": {
     "window_days": 7,
     "max_content_consumed_percent": 20,
-    "processing_business_days": "7-10"
-  }
+    "processing_business_days": "7-10",
+    "gateway_charges_refunded": false
+  },
+  "payment_gateway_charges_percent": 2.5
 }
 ```
 
@@ -4210,6 +4548,29 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Weeks 31-32: The Graded Mental Test and Family Show
 
 **Projects students build:** My abacus card: the child draws bead pictures for the numbers 1 to 9 and reads them back from the drawing; Two-digit dictation sheet: 20 numbers set from hearing alone, scored and kept as the month 1 record; Make-5 rainbow chart: the child's own picture of the pairs that make 5, used at home during practice; Row book started: a notebook of daily rows with date and score, kept for the rest of the course; Make-10 rainbow chart to sit beside the make-5 chart at home; Mixed-rules row sheet: 15 rows solved and marked with which friend rule each step used; Speed ladder record: one row sheet attempted three times with times and scores charted by the child; Shop game record: a pretend-shop worksheet of five purchases totalled and checked on the abacus; Eyes-closed challenge card: ten single-number settings done mentally and verified, signed off in class; Flash round scorecard: three class flash rounds with scores tracked by the child; Listening log: ten dictated mental rows across the fortnight with scores and row lengths recorded; Level test one: a graded mental-only paper of rows, flash and listening sums, marked and kept; Table pattern cards: bead-picture cards for the 2, 3, 4 and 5 tables made by the child; Mixed paper folder: three 20-question mixed papers completed, marked and filed across the fortnight; Row book review page: the child charts their own week 8 versus week 30 row length and speed - plus 2 more on the course page.
+
+### ACT Math Prep: Live Classes for the ACT Mathematics Section
+
+`/courses/act-math-prep-course` · 5 months (20 weeks) · Grades 9-12 (ages 14 to 18), all starting scores
+
+  - PHASE 1: Diagnostic and Integrating Essential Skills (Weeks 1-6)
+    Find the starting point, learn how the section works, and secure the multi-step essential skills questions that appear throughout the test.
+    - Weeks 1-2: Diagnostic and How ACT Math Works
+    - Weeks 3-4: Rates, Percentages and Proportional Reasoning
+    - Weeks 5-6: Area, Volume, Averages and Number Forms
+  - PHASE 2: Preparing for Higher Math (Weeks 7-16)
+    The categories that make up most of the section, taught in the order they build on each other: number, algebra, functions, geometry, then statistics and probability.
+    - Weeks 7-8: Number and Quantity
+    - Weeks 9-10: Algebra
+    - Weeks 11-12: Functions
+    - Weeks 13-14: Geometry and Trigonometry
+    - Weeks 15-16: Statistics and Probability
+  - PHASE 3: Modeling and Test Craft (Weeks 17-20)
+    Knowledge becomes a repeatable score: modeling questions, calculator workflows, pacing under real timing, and full timed sections with honest review.
+    - Weeks 17-18: Modeling, Calculators and Pacing
+    - Weeks 19-20: Full Timed Sections and Test Week
+
+**Projects students build:** Personal diagnostic report: score by category, top three content gaps and a starting pacing target; Error log opened with every diagnostic miss classified and corrected; Word problem translation sheet: twenty phrasings mapped to the equation each one means; Timed essential skills set with every step written out for review; Formula and method sheet written by the student, with one worked example per idea; Mixed essential skills timed set reviewed question by question; Exponent and radical rule card built from worked examples; Number and Quantity timed set with errors classified in the log; Algebra method map: which method to reach for first for each equation type; Two timed algebra sets, the second solved with a calculator check strategy; Function family gallery: a sketch, an equation and a key feature for each family; Functions timed set with a graph-first solution for every miss; Geometry recognition sheet: diagrams that signal similar triangles, special right triangles or circle facts; Geometry timed set reviewed for drawing and labelling habits; Statistics vocabulary and method sheet with one example of each idea - plus 5 more on the course page.
 
 ### Advanced Git & GitHub Masterclass for Professionals
 
@@ -5219,6 +5580,37 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Banner program: compile, break, and fix a program five different ways to learn the error messages early; Limits explorer: a program that prints the size and range of every basic type on your machine; Grade and tax calculator: branching logic with real edge cases, negative inputs, and boundary values; Pattern engine: pyramids, diamonds, and number triangles from nested loops; Prime and perfect number finder with a hand-traced dry run submitted alongside the code; Number theory library: gcd, lcm, prime check, and digit sum as clean reusable functions in their own file; Stack tracer: a set of nested function calls with a hand-drawn stack diagram matched against actual output; Recursive toolkit: power, GCD, decimal-to-binary, and Tower of Hanoi with move printing; Unit converter suite: a menu-driven multi-file program with separate modules for length, weight, and temperature; Memory mapper: a program that prints the address and value of every variable it owns, matched to a hand-drawn diagram; Statistics engine: one function that fills min, max, and mean through pointer parameters from a single pass; Array toolkit: reverse, rotate, and search implemented twice, once with indices and once with pointers; mini_string.h: your own implementation of five standard string functions, tested against the real library; Runtime array: a program that asks the user how much data is coming, allocates exactly that, and cleans up properly; Growable list: a dynamic array module with append, insert, and remove that survives a sanitizer run cleanly - plus 10 more on the course page.
 
+### C++ for Kids: First Real Code, Games and Puzzles (Ages 9-12)
+
+`/courses/cpp-programming-for-kids-course` · 6 months (24 weeks) · Complete beginner to text coding, ages 9 to 12
+
+  - PHASE 1: First Programs (Months 1-2, Weeks 1-8)
+    From what a program is to loops that draw patterns and run games. Every concept is shown on paper first, then typed, run and changed.
+    - Month 1: Hello, C++
+      - Weeks 1-2: What Code Is and Your First Program
+      - Weeks 3-4: Variables, Input and Arithmetic
+    - Month 2: Decisions and Loops
+      - Weeks 5-6: If, Else and Making Choices
+      - Weeks 7-8: Loops That Repeat
+  - PHASE 2: Building Blocks (Months 3-4, Weeks 9-16)
+    The tools that let programs grow without getting messy: functions, lists, text and grouped data, each taught inside a small game or tool.
+    - Month 3: Functions and Vectors
+      - Weeks 9-10: Functions
+      - Weeks 11-12: Lists with Vectors
+    - Month 4: Strings and Structs
+      - Weeks 13-14: Working with Text
+      - Weeks 15-16: Grouping Data with Structs
+  - PHASE 3: Games and Puzzles (Months 5-6, Weeks 17-24)
+    Everything comes together in bigger text games, grid puzzles and the short problem-solving tasks used in programming contests, ending with a capstone each child designs.
+    - Month 5: Bigger Games
+      - Weeks 17-18: Random Numbers and a Text Adventure
+      - Weeks 19-20: Grids and Nested Loops
+    - Month 6: Contest Puzzles and the Capstone
+      - Weeks 21-22: Thinking Like a Problem Solver
+      - Weeks 23-24: Capstone Project and Showcase
+
+**Projects students build:** Name banner: a program that prints a decorated banner with the student's name and favourite things; Pocket calculator and age-in-days converter that ask the user for numbers and print answers; Quiz show: a five-question quiz that keeps score and gives a message based on the result; Times-table trainer and a number guessing game that says higher or lower until the player wins; Shape helper: functions that draw squares and triangles and work out area and perimeter; High score board: enter scores, sort them and print the top five with medals beside them; Secret code machine: a shift cipher that encodes and decodes messages between friends; Virtual pet: a pet that gets hungry and bored over time and responds to feeding and play commands; Dungeon adventure: a text adventure with rooms, random encounters, an inventory and a win condition; Tic-tac-toe for two players and a maze game where the player finds the exit; Puzzle notebook: eight short contest-style problems solved, each with a sentence on the idea behind it; Capstone: an original game or tool planned, built and presented by the student.
+
 ### C++ for Teens: Fundamentals, STL, DSA and Real Games
 
 `/courses/cpp-programming-masterclass-for-teens` · 10-12 months (40-48 weeks) · Absolute beginner, ages 13 to 18
@@ -5573,6 +5965,41 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Graduation & Final Showcase
 
 **Projects students build:** Write a 500-word reflective essay on 'AI in my life'; Create a SMART goals worksheet for the AI course; Group presentation: 'Barriers to communication in AI teams'; Set up a cloud backup of your AI work (Google Drive); Interview a local entrepreneur (1-page report); Green AI poster, connect 3 SDGs to AI; AI Spotter, identify 50 AI systems in daily life; AI Timeline infographic (Canva); Debate: 'Narrow AI vs General AI, will we ever reach AGI?'; Apply the full 5-stage Project Cycle to a real school problem; Write a 10-page CBSE-format AI Project Report; Present project in board-exam viva style; BMI Calculator; Temperature converter; Interactive quiz on AI concepts - plus 66 more on the course page.
+
+### CCC Junior and Senior Preparation (Canadian Computing Competition)
+
+`/courses/ccc-junior-and-senior-preparation-course` · A 24-week season, September to the CCC on Wednesday, February 17, 2027, joinable any month · Students roughly aged 13 to 18 who can write simple programs (Junior track) or are confident programmers ready for algorithms (Senior track)
+
+  - PHASE 1: The Shared Core (September and October, Weeks 1-8)
+    Everything both tracks need: precise reading, exact input and output, and the loops, conditions, strings, lists and counting that the first CCC questions are built on.
+    - Month 1: Contest Setup, Input and Output, Loops and Conditions
+      - Weeks 1-2: How the CCC Works and First Problems
+      - Weeks 3-4: Strings, Lists and Simple Counting
+    - Month 2: Grids, Functions and First Ideas of Efficiency
+      - Weeks 5-6: Two-Dimensional Grids and Functions
+      - Weeks 7-8: How Fast Is Fast Enough?
+  - PHASE 2: Junior and Senior Tracks (November and December, Weeks 9-16)
+    The tracks run in parallel in separate batches. Junior students build toward the hardest Junior question; Senior students build the algorithm families the Senior paper rewards.
+    - Months 3-4, Junior Track: From Counting to Recursion and Efficient Algorithms
+      - Weeks 9-10: Junior Questions 3 and 4 Skills
+      - Weeks 11-12: Two-Dimensional Arrays in Depth
+      - Weeks 13-14: Recursion
+      - Weeks 15-16: Efficient and Insightful Algorithms
+    - Months 3-4, Senior Track: Sorting, Searching, Counting, Graphs and Dynamic Programming
+      - Weeks 9-10: Sorting and Searching
+      - Weeks 11-12: Careful Counting and Mathematical Reasoning
+      - Weeks 13-14: Graphs
+      - Weeks 15-16: Dynamic Programming and the Hardest Questions
+  - PHASE 3: Contest Season (January and February, Weeks 17-24)
+    Full timed mocks, contest craft and the CCC itself on Wednesday, February 17, 2027, followed by upsolving and a plan for what comes next.
+    - Month 5: Mock Contests and Contest Craft
+      - Weeks 17-18: Pacing a 3-Hour, 5-Question Paper
+      - Weeks 19-20: Upsolving and Weak-Spot Repair
+    - Month 6: Final Mocks, the CCC and Next Steps
+      - Weeks 21-22: Final Mocks
+      - Weeks 23-24: Contest Week and After
+
+**Projects students build:** A personal starting profile: track choice, language choice and five solved warm-up problems; A counting and simulation problem set solved in full, with a written list of edge cases for each; A grid puzzle solver for an original problem, organized into clear functions; Solve one original problem three ways, from slow to fast, and time each version; Five original middle-level problems, each with a plain-word plan and a test list; An original region-counting problem solved with flood fill; Three recursion problems solved and explained in a short written note; Take a slow solution from earlier in the course and rewrite it to run within the limits; An original problem solved with binary search on the answer, with a written proof that it is fast enough; A greedy and counting problem pack with a short argument for each solution; An original routing problem solved with breadth-first search and then with Dijkstra's algorithm; Solve one original dynamic programming problem top-down and bottom-up, and compare; Two full 3-hour mocks, each followed by a written pacing review; A personal weak-spot plan with three topics, each with a problem set completed; A final mock with a written contest-day plan - plus 1 more on the course page.
 
 ### Codex & Claude Code for Teens: AI Coding Agents Course
 
@@ -6032,6 +6459,37 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Demo Day and the Final Exam
 
 **Projects students build:** Set up complete creative workstation; Create organized folder structure for projects; Design a personal creative brand/logo; Edit 10 personal photos to perfection; Design custom phone wallpapers; Create surreal photo manipulation artwork; Professional portrait retouching project; Design Instagram post templates; 30-day Instagram feed makeover; Mobile photography portfolio; Shoot and plan first short film (2-3 minutes); Create a day-in-my-life vlog; Record product review video; Edit a cinematic travel video; Create YouTube video with intro/outro - plus 27 more on the course page.
+
+### Cybersecurity Competitions for Teens: picoCTF and CyberPatriot Prep
+
+`/courses/picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens` · 6 months (24 weeks) · Beginner to intermediate, ages 13 to 18, no prior security experience needed
+
+  - PHASE 1: Foundations and Ethics (Months 1-2, Weeks 1-8)
+    The shared foundations of both competitions, starting with the rules: what is allowed, what is not, and why that line matters.
+    - Month 1: The White-Hat Agreement and the Linux Command Line
+      - Weeks 1-2: Rules, Ethics and the Practice Lab
+      - Weeks 3-4: Linux Command Line Essentials
+    - Month 2: Windows Administration and Networking
+      - Weeks 5-6: Windows Administration
+      - Weeks 7-8: How Networks Move Data
+  - PHASE 2: System Hardening in the CyberPatriot Style (Months 3-4, Weeks 9-16)
+    Defence under a clock: securing Windows and Linux systems against a scenario, answering forensics questions, learning network fundamentals and working as a team.
+    - Month 3: Hardening Windows and Linux
+      - Weeks 9-10: Hardening Windows
+      - Weeks 11-12: Hardening Linux
+    - Month 4: Network Fundamentals and Team Rounds
+      - Weeks 13-14: Network Fundamentals and Server Roles
+      - Weeks 15-16: Team Rounds
+  - PHASE 3: Capture-the-Flag Skills in the picoCTF Style (Months 5-6, Weeks 17-24)
+    Puzzle-style security challenges on purpose-built practice platforms: encodings and ciphers, forensics, reading code, and how web and memory bugs are recognised and fixed, ending in a mock CTF.
+    - Month 5: Cryptography and Forensics
+      - Weeks 17-18: Encodings and Cryptography
+      - Weeks 19-20: Forensics
+    - Month 6: Reading Code, Bugs and Fixes, and a Mock CTF
+      - Weeks 21-22: Reading Code and Recognising Bugs
+      - Weeks 23-24: Mock CTF and the Road Ahead
+
+**Projects students build:** Signed white-hat agreement and a working practice lab with a Linux virtual machine and a restore snapshot; Command line treasure hunt: an instructor-built set of files and folders with clues found only by using the right commands; Read-only Windows settings audit on your own computer: users, services and updates checked against a written checklist, nothing changed; Packet capture walkthrough: an annotated explanation of a provided capture from first packet to last; Personal Windows hardening checklist, checked read-only against your own computer's settings; Personal Linux hardening checklist, tested on your own Linux practice virtual machine; Small simulated network built and documented, with a subnetting worksheet; Full mock team round on your Linux practice virtual machines and written Windows scenarios, followed by a written team review; Cryptography challenge set solved on a practice platform, with a written solution for each; Forensics challenge set solved on a practice platform, with a written solution for each; Bug and fix notebook: for each practice challenge, the bug, how it was recognised and the code change that would fix it; Mock CTF on an instructor-built challenge set, followed by a polished solution portfolio.
 
 ### Cybersecurity for Teens: Online Safety & White-Hat Defense
 
@@ -7236,6 +7694,37 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Hello World with command-line arguments; Personal information display program; ASCII art generator in Go; Simple text output variations; Environment variable reader; Calculator with all arithmetic operations; Temperature converter (Celsius, Fahrenheit, Kelvin); Unit converter (length, weight, volume); BMI calculator with health assessment; Currency converter with live rates simulation; Bitwise operations demonstrator; Type conversion examples program; Interest calculator (simple and compound); Number guessing game; Grade calculator with switch - plus 277 more on the course page.
 
+### Godot Game Development for Kids and Teens: GDScript, 2D and 3D
+
+`/courses/godot-game-development-course-for-kids-and-teens` · 6 months (24 weeks) · Beginner to text coding, ages 10 to 17
+
+  - PHASE 1: Godot Foundations and a First Finished Game (Months 1-2, Weeks 1-8)
+    Students learn how Godot thinks, write their first GDScript, and finish a complete 2D arcade game with scoring, a game over screen and a browser build.
+    - Month 1: Nodes, Scenes and Scripts
+      - Weeks 1-2: The Godot Editor and Your First Scene
+      - Weeks 3-4: Movement, Input and the Game Loop
+    - Month 2: A Complete Arcade Game
+      - Weeks 5-6: Collisions, Signals and Spawning
+      - Weeks 7-8: Score, HUD, Game Over and Export
+  - PHASE 2: Platformers and Game Feel (Months 3-4, Weeks 9-16)
+    The genre that teaches the most: gravity, jumping, levels built from tiles, enemies that think a little, and the animation and sound that make a game feel alive.
+    - Month 3: Platformer Physics and Levels
+      - Weeks 9-10: CharacterBody2D, Gravity and Jumping
+      - Weeks 11-12: Tile Maps, Cameras and Animation
+    - Month 4: Enemies, Menus and Game Feel
+      - Weeks 13-14: Enemies and Simple State Machines
+      - Weeks 15-16: Animation, Sound, Menus and Saving
+  - PHASE 3: 3D and the Capstone Game (Months 5-6, Weeks 17-24)
+    Students carry what they know into 3D, then design and ship an original game of their own, from written plan to playable build.
+    - Month 5: Into 3D
+      - Weeks 17-18: 3D Scenes, Cameras and Movement
+      - Weeks 19-20: A 3D Collect-a-thon Level
+    - Month 6: The Capstone Game
+      - Weeks 21-22: Design Document, Scope and Prototype
+      - Weeks 23-24: Polish, Export and Showcase
+
+**Projects students build:** Hello Godot: a scene with a moving title, a sprite and a script that greets the player by name; Top-down mover: a player ship that moves smoothly in eight directions and stays inside the screen; Dodge the falling objects: enemies spawn at random positions and the game reacts when the player is hit; First finished game: the dodge game with title screen, score, high score for the session, sound and a web build; Jump lab: a test room where every jump setting can be tuned live and compared; Two-level platformer: tile map levels, collectibles, an animated player and a working exit; Enemy pack: three enemies with different behaviours added to the platformer; Polished platformer: menus, pause, music, particles and a saved best time, exported for the web; 3D playground: a lit scene where a character runs, jumps and pushes objects around; 3D level: collect every item before the timer runs out, with a finish screen and a best time; Capstone prototype: the core loop of the student's own game, playable from start to finish; Finished capstone game, exported and presented at the class showcase.
+
 ### GRE & GMAT Quantitative Prep: Live Maths Coaching
 
 `/courses/gre-gmat-quant-maths-prep-course` · 6 months (24 weeks) · Adults preparing for graduate admissions; school maths is refreshed from the ground up
@@ -8366,6 +8855,37 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Customize desktop wallpaper and theme; Create desktop shortcuts; Organize taskbar with favorite apps; Personal desktop setup; Create organized folder system for schoolwork; Digital filing cabinet setup; Photo organization project; Backup important files; Create pixel art characters; Design birthday card; Draw house and landscape; Make school poster; Create emoji collection; Edited photo set: before and after; A 60-second family slideshow video in Clipchamp - plus 60 more on the course page.
 
+### Middle School Math Competitions: MATHCOUNTS, AMC 8 and Math Kangaroo Prep
+
+`/courses/middle-school-math-competitions-course` · 6 months (24 weeks), repeatable as a second season with new problem sets · Students roughly aged 10 to 14 (grades 5 to 8) who are comfortable with school maths and want more challenge
+
+  - PHASE 1: The Problem-Solving Base (Months 1-2, Weeks 1-8)
+    Fast, reliable number work and the first big competition ideas: divisibility, primes, ratios and counting.
+    - Month 1: Number Sense and Number Theory
+      - Weeks 1-2: Diagnostic, Contest Formats and Fast Arithmetic
+      - Weeks 3-4: Primes, Factors and Divisibility
+    - Month 2: Ratios, Word Problems and Counting
+      - Weeks 5-6: Ratios, Rates and Algebra Word Problems
+      - Weeks 7-8: Counting Basics
+  - PHASE 2: Core Contest Topics (Months 3-4, Weeks 9-16)
+    Probability, geometry and the patterns and logic questions that appear across all three contests.
+    - Month 3: Probability and Plane Geometry
+      - Weeks 9-10: Probability
+      - Weeks 11-12: Angles, Triangles and Area
+    - Month 4: Circles, Solids, Patterns and Logic
+      - Weeks 13-14: Circles and Solids
+      - Weeks 15-16: Patterns, Sequences, Remainders and Logic
+  - PHASE 3: Contest Craft and Mock Contests (Months 5-6, Weeks 17-24)
+    Turning knowledge into results on the day: round-by-round strategy for MATHCOUNTS, multiple-choice technique for the AMC 8 and Math Kangaroo, and full mock contests.
+    - Month 5: MATHCOUNTS Round Strategy
+      - Weeks 17-18: Sprint and Countdown Speed
+      - Weeks 19-20: Target and Team Strategy
+    - Month 6: Multiple-Choice Craft and Mock Contests
+      - Weeks 21-22: Multiple-Choice Technique for the AMC 8 and Math Kangaroo
+      - Weeks 23-24: Final Mocks and the Next Season
+
+**Projects students build:** Personal diagnostic summary with three target topics and an opened error log; Number theory toolkit page: each rule with a worked contest-style example; Word problem casebook: ten problem types, each with a model solution; Counting toolkit page: when to list, multiply, arrange, choose or subtract; Probability lab: run a small experiment, compare it with the calculated answer and explain the difference; Geometry fact sheet with a diagram for every fact; Shaded-region and solids casebook with ten worked problems; Patterns and logic casebook, with a one-line explanation of why each pattern holds; Two timed Sprint-style rounds with a personal pacing plan written after each; Full MATHCOUNTS-style mock: Sprint, Target and Team rounds, with a written review; Timed multiple-choice mock papers in the AMC 8 and Math Kangaroo styles, with written reviews; Final mock contest and a personal next-season plan based on the error log.
+
 ### Middle School Mathematics Mastery: Pre-Algebra & Geometry
 
 `/courses/comprehensive-middle-school-mathematics-mastery` · 12-14 months (52-60 weeks) · Complete Beginner to Advanced Middle School Level
@@ -8612,6 +9132,68 @@ Share this freely and in detail when a parent or student asks what a course cove
       - INMO and AIME Level, and Peak Form
 
 **Projects students build:** Write five full proofs and have every line challenged in class; Solve a set of invariant problems and articulate the invariant explicitly in each; Solve a graded ladder of number theory problems from IOQM level upward; Work a set of Vieta and functional equation problems from past papers; Prove a graded set of inequalities, each with a fully justified argument; Solve a counting problem two different ways and reconcile the results; Solve a ladder of synthetic geometry problems with full written proofs; Attack the same hard problem three ways and compare which was cleanest; Weekly mixed problem sets with no topic labels; Full timed IOQM and AMC papers every week; Full INMO-style and AIME-style papers, marked on rigour.
+
+### Ontario Computer Science Companion: ICS3U and ICS4U (Python and Java)
+
+`/courses/ics3u-ics4u-computer-science-companion-course` · 6 months (24 weeks) per plan, joinable any month and paced to your school course · Ontario students in Grades 11 and 12 (roughly ages 15 to 18) taking ICS3U or ICS4U at school, in Python or Java
+
+  - PHASE 1: Problem Solving and the ICS3U Core (Months 1-2, Weeks 1-8)
+    How a programmer thinks before typing, then the building blocks every ICS3U program uses, in Python or Java.
+    - Month 1: Algorithms, Data Types and Input and Output
+      - Weeks 1-2: Problem Solving Before Syntax
+      - Weeks 3-4: Data Types, Variables and Expressions
+    - Month 2: Control Structures
+      - Weeks 5-6: Decisions
+      - Weeks 7-8: Loops
+  - PHASE 2: Completing ICS3U (Months 3-4, Weeks 9-16)
+    The data structures, modular design, files and classic algorithms that larger ICS3U programs need, plus the software development habits the course describes.
+    - Month 3: Lists, Arrays and Modular Programming
+      - Weeks 9-10: Lists and Arrays
+      - Weeks 11-12: Modular Programming with Functions and Methods
+    - Month 4: Strings, Files, Sorting and Searching
+      - Weeks 13-14: String and File Handling
+      - Weeks 15-16: Sorting, Searching and the Development Life Cycle
+  - PHASE 3: The ICS4U Toolkit, Final Project and Exam Review (Months 5-6, Weeks 17-24)
+    What we teach for Grade 12: recursion, object-oriented design, efficiency and large, fully documented programs, then the final project and exam review. ICS4U batches begin with a fast review of Phases 1 and 2.
+    - Month 5: Recursion and Object-Oriented Design
+      - Weeks 17-18: Recursion
+      - Weeks 19-20: Classes and Object-Oriented Design
+    - Month 6: Efficiency, the Final Project and Exam Review
+      - Weeks 21-22: Efficiency and Large Documented Programs
+      - Weeks 23-24: Exam Review Technique
+
+**Projects students build:** Three small problems solved twice: once as plain-word steps, once as working code; A unit converter or bill splitter with clear prompts, checked input and formatted output; A rules-based program, such as a ticket pricing or grading-rules calculator, with a written test plan; A number guessing game or a times-table quiz with scoring and replay; A class marks analyzer: store scores, report the average, the highest and lowest, and a simple bar display; Refactor an earlier project into well-named functions or methods, with a test for each; A file report tool: read a data file, summarize it and write a tidy results file; A searchable, sortable record list built from a file, with a short design document and test log; Write three recursive solutions and their loop versions, and compare them in a short written note; An object-oriented library, inventory or game roster program with a class diagram and documentation; A project plan and working first version for the student's own final project, built by the student; A personal review pack: topic summaries, a mistakes list and two reviewed timed papers.
+
+### Ontario Grade 12 University Math: Advanced Functions and Calculus and Vectors (MHF4U and MCV4U)
+
+`/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course` · 6 months (24 weeks) per plan, joinable any month and paced to your school course · Ontario students in Grade 12 (roughly ages 16 to 18) taking MHF4U, MCV4U or both at school
+
+  - PHASE 1: Advanced Functions, Part 1 (Months 1-2, Weeks 1-8)
+    The function toolkit every Grade 12 topic depends on, then polynomial and rational functions in depth.
+    - Month 1: The Function Toolkit and Polynomial Functions
+      - Weeks 1-2: Starting Point and the Function Toolkit
+      - Weeks 3-4: Polynomial Functions
+    - Month 2: Polynomial Equations and Rational Functions
+      - Weeks 5-6: Polynomial Equations and Inequalities
+      - Weeks 7-8: Rational Functions
+  - PHASE 2: Advanced Functions, Part 2 (Months 3-4, Weeks 9-16)
+    Trigonometry in radians, exponential and logarithmic functions, combining functions and rates of change, with MHF4U exam review.
+    - Month 3: Trigonometric Functions, Identities and Equations
+      - Weeks 9-10: Radians and Trigonometric Functions
+      - Weeks 11-12: Identities and Trigonometric Equations
+    - Month 4: Exponential and Logarithmic Functions, Combining Functions and Rates of Change
+      - Weeks 13-14: Exponential and Logarithmic Functions
+      - Weeks 15-16: Combining Functions, Rates of Change and MHF4U Review
+  - PHASE 3: Calculus and Vectors, and Exam Review (Months 5-6, Weeks 17-24)
+    What we teach for MCV4U: limits and the derivative, derivative rules and applications, then vectors, lines and planes, ending with exam review. MCV4U batches begin with a quick review of the MHF4U ideas calculus relies on.
+    - Month 5: Limits, Derivatives and Their Applications
+      - Weeks 17-18: Rates of Change, Limits and the Derivative
+      - Weeks 19-20: Curve Sketching, Optimization and Rates
+    - Month 6: Vectors, Lines and Planes, and Exam Review
+      - Weeks 21-22: Vectors in Two and Three Dimensions
+      - Weeks 23-24: Lines and Planes, and Exam Review Technique
+
+**Projects students build:** A one-page function toolkit summary, with a sketch of each parent function and its transformations; A polynomial sketch set: ten polynomials sketched by hand from factored form, then checked with graphing technology; A worked solutions file for factoring and inequalities, with every step justified in words; A rational function sketch set with asymptotes, intercepts and behaviour near each asymptote explained; A sinusoidal model of a real periodic situation, with the equation built from the data and explained; An identity proof file: ten identities proved in full, with the strategy for each written first; An applications pack: four real situations modelled with exponential or logarithmic functions and solved in full; A personal MHF4U review pack: one-page summaries for each unit, a mistakes list and a reviewed timed paper; Three derivatives worked from first principles, then confirmed with the rules, with a short written explanation; An optimization pack: four real problems set up and solved in full, each with a domain check; A vector applications set with a labelled diagram and a full written solution for each problem; A personal MCV4U review pack: unit summaries, a mistakes list and two reviewed timed papers.
 
 ### Orange Data Mining Course for College Students: Machine Learning and Analytics
 
@@ -9780,6 +10362,46 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** Personal Bio Generator, asks 5 questions and prints a formatted story about you; Simple Calculator, performs all 4 operations with user input; Mad Libs Creator, fill-in-the-blank story generator; Number Guessing Game, with hints, attempts counter, and high score; Times Table Generator, print any multiplication table on demand; Password Strength Checker, analyses a password and gives a strength rating; Dice Rolling Simulator, roll any number of sides, track statistics; Tip Calculator, restaurant bill splitter with formatted output; Word Counter, analyses a paragraph for word count, unique words, and top 5 most used; Contact Manager, add, search, update, delete contacts saved to a file; Student Grade Tracker, stores grades in JSON and calculates averages; Vocabulary Flash Card App, add words, quiz yourself, track score; Personal Portfolio Page v1, bio, skills, and contact section in pure HTML; Recipe Website, multi-page site with ingredients and instructions; Event Landing Page, HTML structure for a fictional school event - plus 19 more on the course page.
 
+### Waterloo Math Contests: Gauss to Euclid
+
+`/courses/waterloo-math-contests-gauss-to-euclid-course` · 6 months (24 weeks) per season, joinable any month and timed to the CEMC contests each student will write · Students roughly aged 11 to 18 (Grades 7 to 12) who are comfortable with school math and want harder problems, in a Gauss track (Grades 7 and 8), a Grades 9 and 10 track and a Grades 11 and 12 track
+
+  - PHASE 1: The Shared Toolkit (Months 1-2, Weeks 1-8)
+    Everything all three tracks need: how to read a contest problem, the core ideas of number, algebra, counting and geometry, and the first full written solutions.
+    - Month 1: Reading Problems, Number Sense and Algebra
+      - Weeks 1-2: How the Waterloo Contests Work and First Problems
+      - Weeks 3-4: Number Sense and Algebra Habits
+    - Month 2: Counting, Geometry and Writing a Full Solution
+      - Weeks 5-6: Counting and Geometry Foundations
+      - Weeks 7-8: Full Solutions and Multiple-Choice Technique
+  - PHASE 2: The Grade Tracks (Months 3-4, Weeks 9-16)
+    The tracks run in parallel in separate batches. Each track builds the mathematics and the question types of the contests its students will write.
+    - Months 3-4, Gauss Track (Grades 7 and 8): Building the Gauss Toolkit
+      - Weeks 9-10: Number Theory for Grades 7 and 8
+      - Weeks 11-12: Ratios, Rates and Algebra in Words
+      - Weeks 13-14: Counting and Probability
+      - Weeks 15-16: Geometry and Measurement
+    - Months 3-4, Grades 9 and 10 Track: Pascal, Cayley, Fryer, Galois and CIMC
+      - Weeks 9-10: Algebra for Contests
+      - Weeks 11-12: Number Theory and Counting
+      - Weeks 13-14: Geometry with Reasons
+      - Weeks 15-16: Full Solutions and Mixed Rounds
+    - Months 3-4, Grades 11 and 12 Track: Fermat, Hypatia, CSMC and Euclid
+      - Weeks 9-10: Functions, Equations and Inequalities
+      - Weeks 11-12: Sequences, Number Theory and Counting
+      - Weeks 13-14: Trigonometry and Geometry
+      - Weeks 15-16: Proof Writing for Full-Solution Contests
+  - PHASE 3: Contest Season (Months 5-6, Weeks 17-24)
+    Timed rounds in the format of each student's next contest, polish on full solutions, the contest-day routine, then review and a plan for the next contest.
+    - Month 5: Timed Rounds and Contest Craft
+      - Weeks 17-18: Pacing Each Contest Format
+      - Weeks 19-20: Review and Weak-Spot Repair
+    - Month 6: Final Practice, Contest Days and Next Steps
+      - Weeks 21-22: Final Practice Papers
+      - Weeks 23-24: Contest Week and After
+
+**Projects students build:** A personal starting profile: track, target contests for the year and ten solved warm-up problems; A word-problem pack of original problems, each solved with a clear equation and a check; A counting and geometry problem set of original problems, with a labelled diagram for every geometry question; Rewrite three of your own earlier answers as full solutions, then compare them with a model write-up; An original number puzzle pack, each solution explained in two or three sentences; A ratio and rate problem set solved two ways: once with a table, once with an equation; Design and solve three original counting problems for a classmate; A shaded-region problem pack of original problems, each with a labelled diagram; An original algebra problem set with full written solutions for the last three questions; A casework problem pack where each solution lists its cases clearly; Three original geometry problems solved with full written reasons; A personal model-solution file: five of your own best full solutions, rewritten after feedback; An original functions problem set with full written solutions for every question; A sequences and counting pack where each solution proves its pattern, not just finds it; Three original geometry problems, each solved by two different methods and written up in full - plus 5 more on the course page.
+
 ### Web Development for Kids: Build Real Websites
 
 `/courses/kids-ai-web-development-course` · 8-10 months (32-40 weeks) · Complete beginner, ages 9 to 12
@@ -9818,6 +10440,37 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Capstone and the Final Exam
 
 **Projects students build:** Build a digital pet profile page; Make a birthday invitation webpage; Digital photo album with captions; My favorite YouTube videos collection; Interactive storybook with multiple pages; School project presentation website; Friend information collector form; Class schedule table; Restaurant menu with order form; Personal video channel page; Music playlist website; Digital art gallery with canvas; Multimedia learning resource page; Rainbow text website; Colorful mood board page - plus 40 more on the course page.
+
+### Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1
+
+`/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course` · 6 months (24 weeks) per plan, joinable any month and paced to your school course · Students in Grade 12 (roughly ages 16 to 18) taking Pre-calculus 12 in British Columbia or Math 30-1 in Alberta
+
+  - PHASE 1: Functions, Transformations and Polynomial, Radical and Rational Functions (Months 1-2, Weeks 1-8)
+    The function toolkit every Grade 12 topic depends on, then the polynomial, radical and rational families.
+    - Month 1: Functions and Transformations
+      - Weeks 1-2: Starting Point and the Function Toolkit
+      - Weeks 3-4: Transformations and Inverses
+    - Month 2: Polynomial, Radical and Rational Functions
+      - Weeks 5-6: Polynomial Functions
+      - Weeks 7-8: Radical and Rational Functions
+  - PHASE 2: Exponential and Logarithmic Functions, and Trigonometry (Months 3-4, Weeks 9-16)
+    Growth, decay and logarithms, then trigonometry in radians with identities and equations.
+    - Month 3: Exponential and Logarithmic Functions
+      - Weeks 9-10: Exponential Functions
+      - Weeks 11-12: Logarithms
+    - Month 4: Trigonometry in Radians, Identities and Equations
+      - Weeks 13-14: Radians, the Unit Circle and Trigonometric Graphs
+      - Weeks 15-16: Identities and Trigonometric Equations
+  - PHASE 3: Permutations and Combinations, Combining Functions and Exam Review (Months 5-6, Weeks 17-24)
+    Careful counting, combining functions, then exam review for school finals and, for Alberta students, the Math 30-1 diploma exam.
+    - Month 5: Permutations, Combinations and Combining Functions
+      - Weeks 17-18: Permutations, Combinations and the Binomial Theorem
+      - Weeks 19-20: Combining Functions
+    - Month 6: Exam Review Technique
+      - Weeks 21-22: Mixed Review and Written Solutions
+      - Weeks 23-24: Timed Practice for School Finals and the Alberta Diploma Exam
+
+**Projects students build:** A one-page function toolkit summary, with a sketch of each parent function and its key points; A transformation set: ten graphs transformed by hand from mapping rules, then checked with graphing technology; A polynomial sketch set with end behaviour, zeros and intercepts explained for each graph; A radical and rational function set with every restriction, asymptote and hole labelled; An applications pack: three real growth or decay situations modelled and solved in full; A logarithm laws file: ten equations solved in full, with each law named at the step where it is used; A sinusoidal model of a real periodic situation, with the equation built from the data and explained; An identity proof file: ten identities proved in full, with the strategy for each written first; A counting pack: twelve problems sorted by method, each solved with the reason for the method written first; A combining functions set with graphs, equations and domains explained for each; A personal review pack: unit summaries and a mistakes list with a corrected example for each mistake; Two reviewed timed papers and a written exam-week plan.
 
 ---
 
