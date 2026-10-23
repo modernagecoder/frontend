@@ -225,9 +225,9 @@ Surrey is spread out, from Whalley and Guildford to Cloverdale and South Surrey.
 
 Three lines, each in your local currency.
 
-- First class: USD 0. A full live lesson for free, finishing with a recommended course and level.
-- Group tuition: USD 100 a month. The monthly fee for eight live group classes, fifteen to twenty students at one stage.
-- Private tuition: USD 150 a month. The monthly fee for eight lessons with a teacher of your own.
+- First class: Free. A full live lesson for free, finishing with a recommended course and level.
+- Group tuition: CAD 140 a month. The monthly fee for eight live group classes, fifteen to twenty students at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for eight lessons with a teacher of your own.
 
 Surrey families pay the same as every other Canadian family. We bill only after the free lesson, once a course and a time are agreed; holidays and missed classes are explained on the pricing page.
 

@@ -315,9 +315,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is free. Continuing classes are paid monthly for eight live sessions, the amount shows its currency code beside it, and nothing locks you in beyond the month you have paid for.
 
-- Free first class: USD 0. A free first class. Bring a recent MCV4U test. No payment details needed.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. One teacher all semester. Choose the batch time. Monthly billing.
-- One to one: USD 150 a month. One teacher, one student. Times around school tests. Planned from the school course.
+- Free first class: Free. A free first class. Bring a recent MCV4U test. No payment details needed.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. One teacher all semester. Choose the batch time. Monthly billing.
+- One to one: CAD 210 a month. One teacher, one student. Times around school tests. Planned from the school course.
 
 ## MCV4U: frequently asked questions
 

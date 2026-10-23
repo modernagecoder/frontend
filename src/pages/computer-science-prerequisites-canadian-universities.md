@@ -312,9 +312,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Your first class is on us. Families who carry on pay a single monthly fee for eight live classes, priced in the currency code shown, and can end it after any month with nothing to cancel.
 
-- Free first class: USD 0. First class on us. Any province, any course name. No card required.
-- Group batch: USD 100 a month. Group of fifteen to twenty. Steady teacher. You choose the batch. Pay month by month.
-- One to one: USD 150 a month. Just your teen and a teacher. Paced to their school calendar. Built around their own course.
+- Free first class: Free. First class on us. Any province, any course name. No card required.
+- Group batch: CAD 140 a month. Group of fifteen to twenty. Steady teacher. You choose the batch. Pay month by month.
+- One to one: CAD 210 a month. Just your teen and a teacher. Paced to their school calendar. Built around their own course.
 
 ## Computer science prerequisites in Canada: questions
 

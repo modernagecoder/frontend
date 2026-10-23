@@ -262,9 +262,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class costs nothing. To continue, families pay once a month for eight live classes, and the price box gives the figure with its currency code. Stopping is as simple as telling us before the next month.
 
-- Free first class: USD 0. A free first class. Bring a recent unit test. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty teens. One regular teacher. Pick your batch. Monthly billing.
-- One to one: USD 150 a month. A teacher for your teen only. Extra time before the window. Planned from their mistakes.
+- Free first class: Free. A free first class. Bring a recent unit test. No card details.
+- Group batch: CAD 140 a month. Fifteen to twenty teens. One regular teacher. Pick your batch. Monthly billing.
+- One to one: CAD 210 a month. A teacher for your teen only. Extra time before the window. Planned from their mistakes.
 
 ## EQAO Grade 9 math: common questions
 

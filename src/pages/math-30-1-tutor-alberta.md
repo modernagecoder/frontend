@@ -293,9 +293,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is free. From then on it is a monthly fee for eight live classes a month, shown below in your own currency; there is no term contract, and you can cancel before any new month begins.
 
-- Free first class: USD 0. A free first class. Bring a recent unit test. No card details needed.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. The same teacher each week. Pick the batch time. Billed monthly.
-- One to one: USD 150 a month. Your teen, one teacher, no batch. Times set around the diploma date. Planned from their own outline.
+- Free first class: Free. A free first class. Bring a recent unit test. No card details needed.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. The same teacher each week. Pick the batch time. Billed monthly.
+- One to one: CAD 210 a month. Your teen, one teacher, no batch. Times set around the diploma date. Planned from their own outline.
 
 ## Math 30-1: common questions
 

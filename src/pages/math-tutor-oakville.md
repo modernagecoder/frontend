@@ -219,9 +219,9 @@ Bronte, Glen Abbey or Old Oakville: the lesson comes to the student at home, so 
 
 Shown in the currency for where you live.
 
-- First class: USD 0. A complete live lesson for free, finishing with the course and level we recommend.
-- Group tuition: USD 100 a month. The monthly fee for a live class of 15 to 20 students working at one level.
-- Private tuition: USD 150 a month. The monthly fee for a teacher and one student, at hours you choose.
+- First class: Free. A complete live lesson for free, finishing with the course and level we recommend.
+- Group tuition: CAD 140 a month. The monthly fee for a live class of 15 to 20 students working at one level.
+- Private tuition: CAD 210 a month. The monthly fee for a teacher and one student, at hours you choose.
 
 The fee is the same across Canada, Oakville included. Nothing is charged before the free lesson, and billing starts only once you have chosen a course and a time.
 

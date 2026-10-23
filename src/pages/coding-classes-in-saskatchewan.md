@@ -234,9 +234,9 @@ Every class is live with a teacher on video, so distance from a city makes no di
 
 The currency appears next to each fee, so nothing has to be converted by hand.
 
-- First class: USD 0. A full live lesson that costs nothing and ends with a recommended level, course and time.
-- Group tuition: USD 100 a month. The monthly fee for a seat in a group batch of fifteen to twenty students at one level.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one teaching on a schedule built around the student.
+- First class: Free. A full live lesson that costs nothing and ends with a recommended level, course and time.
+- Group tuition: CAD 140 a month. The monthly fee for a seat in a group batch of fifteen to twenty students at one level.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one teaching on a schedule built around the student.
 
 Saskatchewan families pay the same monthly fee as families elsewhere in Canada. We bill only after the free lesson, once the course and the time are fixed; the pricing page covers holidays and missed classes.
 

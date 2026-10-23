@@ -201,9 +201,9 @@ One teacher, a fixed group or a one-to-one plan, and times written on the local 
 
 Three lines. The currency appears beside each fee for your region.
 
-- First class: USD 0. A full live lesson free of charge, ending with a level and a course suggestion.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one teacher and one learner, at times you agree.
+- First class: Free. A full live lesson free of charge, ending with a level and a course suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher and one learner, at times you agree.
 
 Sherbrooke learners pay what every learner in Canada pays. No invoice arrives before the free class has happened and a course has been chosen; rules for missed lessons and holiday weeks are on the pricing page.
 

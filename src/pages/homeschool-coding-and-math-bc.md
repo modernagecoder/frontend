@@ -272,9 +272,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 A single monthly fee covers eight live classes with code review. Families are never tied to a school year with us: keep going month by month, or stop when your plan changes.
 
-- Free first class: USD 0. A free first class. A short placement task. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty learners per batch. Learners grouped by age and stage. Daytime or weekend times. Charged monthly.
-- One to one: USD 150 a month. A dedicated teacher. Fitted to your educational program. Projects built on real data.
+- Free first class: Free. A free first class. A short placement task. No card details.
+- Group batch: CAD 140 a month. Fifteen to twenty learners per batch. Learners grouped by age and stage. Daytime or weekend times. Charged monthly.
+- One to one: CAD 210 a month. A dedicated teacher. Fitted to your educational program. Projects built on real data.
 
 ## Homeschool coding and math in BC: common questions
 

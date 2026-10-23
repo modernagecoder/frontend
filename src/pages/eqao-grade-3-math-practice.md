@@ -240,9 +240,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Try a class first, free. If you continue, a monthly fee covers eight live classes; the box below shows it with the currency code. Nothing is signed for the school year, and you can stop at the end of a month.
 
-- Free first class: USD 0. A free first class. A friendly placement chat. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children. Same age group. One teacher all year. Pay monthly.
-- One to one: USD 150 a month. A teacher for one child. Your choice of times. Paced to your child.
+- Free first class: Free. A free first class. A friendly placement chat. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty children. Same age group. One teacher all year. Pay monthly.
+- One to one: CAD 210 a month. A teacher for one child. Your choice of times. Paced to your child.
 
 ## EQAO Grade 3 math: common questions
 

@@ -366,9 +366,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Criterion five, applied to ourselves: the monthly fee is printed here, in your own currency, before you talk to anyone. You pay month by month and can stop at the end of any month.
 
-- Free first class: USD 0. A free first class. The transfer test, if you ask. No card, no contract.
-- Group batch: USD 100 a month. A batch of 15 to 20. Eight live classes a month. One regular teacher.
-- One to one: USD 150 a month. A teacher for one student. Planned around the school course. Times that suit your family.
+- Free first class: Free. A free first class. The transfer test, if you ask. No card, no contract.
+- Group batch: CAD 140 a month. A batch of 15 to 20. Eight live classes a month. One regular teacher.
+- One to one: CAD 210 a month. A teacher for one student. Planned around the school course. Times that suit your family.
 
 ## Choosing a coding class in Canada: questions and answers
 

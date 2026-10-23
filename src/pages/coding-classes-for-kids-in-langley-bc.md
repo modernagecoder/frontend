@@ -199,9 +199,9 @@ A child in Fort Langley and a child in Aldergrove join the same class from home,
 
 Three lines, each with its currency printed beside the fee.
 
-- First class: USD 0. A free, complete live lesson that ends with our suggestion of a course, a level and a time.
-- Group tuition: USD 100 a month. The monthly fee for a seat in a group of fifteen to twenty children at the same level.
-- Private tuition: USD 150 a month. The monthly fee for one teacher and your child alone, on a schedule that suits you.
+- First class: Free. A free, complete live lesson that ends with our suggestion of a course, a level and a time.
+- Group tuition: CAD 140 a month. The monthly fee for a seat in a group of fifteen to twenty children at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher and your child alone, on a schedule that suits you.
 
 Langley families pay what families pay across Canada. The free lesson comes first, and fees begin only when you decide to go on; the pricing page covers breaks and missed lessons.
 

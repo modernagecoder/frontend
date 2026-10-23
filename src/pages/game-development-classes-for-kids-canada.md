@@ -310,9 +310,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Eight live classes a month for one monthly fee, paid a month at a time. Nothing in our classes requires buying Robux or any in-game item.
 
-- Free first class: USD 0. A free first class. A first moving character. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children of a similar age. One regular teacher. A weekly time that suits you. Paid monthly.
-- One to one: USD 150 a month. One child, one teacher. The child's own game idea. Times to suit the family.
+- Free first class: Free. A free first class. A first moving character. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty children of a similar age. One regular teacher. A weekly time that suits you. Paid monthly.
+- One to one: CAD 210 a month. One child, one teacher. The child's own game idea. Times to suit the family.
 
 ## Game development and Roblox for kids: common questions
 

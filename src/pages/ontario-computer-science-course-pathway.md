@@ -346,9 +346,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Start with a free class. After it, families pay a monthly fee for eight live classes a month; the amount appears below in your own currency, with no year-long commitment, and you can stop after any month.
 
-- Free first class: USD 0. A free first class. Bring the course selection form. No card required.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. The same teacher throughout. Your choice of batch. Monthly payments.
-- One to one: USD 150 a month. One student, one teacher. Planned around the school year. Built from their courses.
+- Free first class: Free. A free first class. Bring the course selection form. No card required.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. The same teacher throughout. Your choice of batch. Monthly payments.
+- One to one: CAD 210 a month. One student, one teacher. Planned around the school year. Built from their courses.
 
 ## Ontario computer science pathway: common questions
 

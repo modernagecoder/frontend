@@ -196,9 +196,9 @@ A child in St. Catharines, one in Welland and one in Niagara Falls can share the
 
 Three options; the currency appears beside every fee.
 
-- First class: USD 0. A full live lesson, free of charge, ending with our advice on a course, a level and a time.
-- Group tuition: USD 100 a month. The monthly fee for a seat in a class of fifteen to twenty children at one stage.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons with a teacher, on days and times you choose.
+- First class: Free. A full live lesson, free of charge, ending with our advice on a course, a level and a time.
+- Group tuition: CAD 140 a month. The monthly fee for a seat in a class of fifteen to twenty children at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons with a teacher, on days and times you choose.
 
 Niagara families pay what families pay across Canada. The free lesson comes before any charge, and billing starts only when you pick a course and a slot; missed lessons and holidays are covered on the pricing page.
 

@@ -246,9 +246,9 @@ Classes are online, so a teen in Hull and another in Aylmer or Buckingham share 
 
 Each fee shows in your own currency, with the currency code next to it.
 
-- First class: USD 0. One full live lesson at no cost, ending with a placement and a course suggestion.
-- Group tuition: USD 100 a month. A monthly fee covering eight live classes with fifteen to twenty teens at one level.
-- Private tuition: USD 150 a month. A monthly fee covering one teacher and one teen at times the family picks.
+- First class: Free. One full live lesson at no cost, ending with a placement and a course suggestion.
+- Group tuition: CAD 140 a month. A monthly fee covering eight live classes with fifteen to twenty teens at one level.
+- Private tuition: CAD 210 a month. A monthly fee covering one teacher and one teen at times the family picks.
 
 Gatineau families pay the same as families anywhere in Canada. There is no charge before the free class, and none until a course and a schedule are agreed; the pricing page explains missed classes and breaks.
 

@@ -301,9 +301,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Contest entry is paid by the school to the organiser and never passes through us. Our fee is for live teaching, charged monthly, so a family can pause between contests or stop after the last one.
 
-- Free first class: USD 0. A free first class. A short problem in the student's next contest format. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. One teacher across the season. A batch time you choose. Charged monthly.
-- One to one: USD 150 a month. A personal teacher. Planned around the student's contests. Pace set by the student.
+- Free first class: Free. A free first class. A short problem in the student's next contest format. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. One teacher across the season. A batch time you choose. Charged monthly.
+- One to one: CAD 210 a month. A personal teacher. Planned around the student's contests. Pace set by the student.
 
 ## The 2026 to 2027 contest calendar: common questions
 

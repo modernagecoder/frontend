@@ -367,9 +367,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is free. After that a monthly fee covers eight live classes a month, displayed below in your own currency; there is no long commitment and families can stop after any month.
 
-- Free first class: USD 0. A free first class. Bring a current assignment. No card asked for.
-- Group batch: USD 100 a month. Batches of fifteen to twenty. A regular teacher. A batch time that suits you. Monthly billing.
-- One to one: USD 150 a month. Private lessons. Planned around school. Built from their own courses.
+- Free first class: Free. A free first class. Bring a current assignment. No card asked for.
+- Group batch: CAD 140 a month. Batches of fifteen to twenty. A regular teacher. A batch time that suits you. Monthly billing.
+- One to one: CAD 210 a month. Private lessons. Planned around school. Built from their own courses.
 
 ## Ontario high school credits: common questions
 

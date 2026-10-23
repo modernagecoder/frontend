@@ -12,7 +12,7 @@ Enroll now
 
 Every mentor teaches from a structured programme, adapted live to your child. Open a course to see the full syllabus and enroll in minutes, or start with a **Priority Demo** and let the diagnostic pick the level for you.
 
-[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Key years  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 USD View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 USD View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthPriority Demo first **$100**/mo group · **$150**/mo 1-on-1 USD View course & enroll](/courses/maths-through-coding)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
+[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)Key years  Middle School Mathematics Mastery Ratios, negatives, algebra and geometry: the make-or-break years, taught for genuine ownership. Grades 6-88 live classes / monthPriority Demo first **$140**/mo group · **$210**/mo 1-on-1 CAD View course & enroll](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics Mastery course thumbnail](/images/high-school-maths.webp)  High School Mathematics Mastery Algebra through precalculus and calculus readiness, with exam craft for the courses that decide admissions. Grades 9-128 live classes / monthPriority Demo first **$140**/mo group · **$210**/mo 1-on-1 CAD View course & enroll](/courses/complete-high-school-mathematics-mastery)[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  Maths Through Coding Learn math by building it in Python: fraction machines, turtle geometry and probability simulators. Ages 10-158 live classes / monthPriority Demo first **$140**/mo group · **$210**/mo 1-on-1 CAD View course & enroll](/courses/maths-through-coding)[Not sure which fits? Book a Priority Demo](/priority-demo)See what is includedThe 20-second answer
 
 A good online math tutor for a Canadian student is **province-exact**: Ontario, BC, Alberta and Quebec run genuinely different curricula, pathways and exams. They treat EQAO and numeracy assessments as gap-finders, build the runway to the Grade 12 courses universities actually require (in Ontario: Advanced Functions and Calculus & Vectors), and teach for understanding throughout. That is what we do: 8 live one-hour classes a month across every Canadian time zone, 1-on-1 or a group batch of 15 to 20, priced in your currency, Priority Demo first. We teach alongside the student's school course and do not grant provincial credits.
 
@@ -219,7 +219,7 @@ You are paying for a real teacher, live, for a full hour, twice a week, the form
 
 ### 1:1 Private Mentorship
 
-$150 USD / month
+$210 CAD / month
 
 - 8 live one-hour classes a month, 2 per week
 - A dedicated mentor who knows your child by name
@@ -230,7 +230,7 @@ $150 USD / month
 
 ### Group Batch
 
-$100 USD / month
+$140 CAD / month
 
 - 8 live one-hour classes a month, 2 per week
 - Fifteen to twenty students at the same level
@@ -239,7 +239,7 @@ $100 USD / month
 
 [See the high school course](/courses/complete-high-school-mathematics-mastery)
 
-That is **$18.75 per dedicated hour** of 1-on-1 teaching, or $12.50 in a group batch. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
+That is **$26.25 per dedicated hour** of 1-on-1 teaching, or $17.50 in a group batch. No registration fee, no contract, and you can see a full class first with a Priority Demo. [Read our zero-risk promise](/guarantee) or compare with [what maths tutoring costs in 2026](/online-math-tutor-cost).
 
 Who teaches your child
 
@@ -267,7 +267,7 @@ An honest comparison
 
 | Option | Typical cost | What it really is | Suits |
 | --- | --- | --- | --- |
-| Modern Age Coders | $100-$150 USD / month | Live one-hour 1-on-1 classes, province-exact, understanding-first, coding strand included | Sustained repair and stretch, from EQAO years to the Grade 12 gate |
+| Modern Age Coders | $140-$210 CAD / month | Live one-hour 1-on-1 classes, province-exact, understanding-first, coding strand included | Sustained repair and stretch, from EQAO years to the Grade 12 gate |
 | Private tutors | Usually billed per hour | Quality varies widely; twice a week adds up across a month | Families who have found, and can keep, a proven local gem |
 | Learning centres | Usually a monthly membership | Centre-based sessions, plus the drive | Children who focus better out of the house |
 | Worksheet programmes | Usually monthly, per subject | Daily worksheet practice with short check-ins | Building a practice habit and calculation speed |

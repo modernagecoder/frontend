@@ -200,9 +200,9 @@ Children in Galt, Preston or Hespeler join the same live class from home, so the
 
 Three options; each fee has its currency printed alongside.
 
-- First class: USD 0. A full live lesson without charge, after which we suggest a course, a level and a time.
-- Group tuition: USD 100 a month. The monthly fee for a place among fifteen to twenty children learning at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for lessons with one teacher and your child, timed around your week.
+- First class: Free. A full live lesson without charge, after which we suggest a course, a level and a time.
+- Group tuition: CAD 140 a month. The monthly fee for a place among fifteen to twenty children learning at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for lessons with one teacher and your child, timed around your week.
 
 A Cambridge family pays exactly what a family in Halifax or Calgary pays. You decide after the free lesson whether to carry on, and only then is a course and weekly slot booked and billed; the pricing page covers holidays.
 

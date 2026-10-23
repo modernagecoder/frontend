@@ -228,9 +228,9 @@ Every lesson is taught live by a teacher on video, so a student in Campbellton a
 
 The currency is printed next to every fee shown below.
 
-- First class: USD 0. A complete live lesson free of charge, ending with a suggested level, course and weekly time.
-- Group tuition: USD 100 a month. The monthly fee for a seat in a shared class of fifteen to twenty students at one level.
-- Private tuition: USD 150 a month. The monthly fee for one teacher and one student, scheduled around the family.
+- First class: Free. A complete live lesson free of charge, ending with a suggested level, course and weekly time.
+- Group tuition: CAD 140 a month. The monthly fee for a seat in a shared class of fifteen to twenty students at one level.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher and one student, scheduled around the family.
 
 New Brunswick families pay the same monthly fee as families anywhere else in Canada. Payment begins only after the free lesson, once the course and the time are decided; the pricing page explains holidays and missed classes.
 

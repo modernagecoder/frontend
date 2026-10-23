@@ -218,9 +218,9 @@ Lessons run at home on a laptop or desktop, so a student near Metrotown and one 
 
 Free lesson, group month, private month: each priced in your currency.
 
-- First class: USD 0. A free, complete live lesson that ends with a course and level suggestion.
-- Group tuition: USD 100 a month. The monthly fee for eight live classes in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. The monthly fee for eight lessons with one teacher, at times you choose.
+- First class: Free. A free, complete live lesson that ends with a course and level suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for eight live classes in a group of fifteen to twenty at one level.
+- Private tuition: CAD 210 a month. The monthly fee for eight lessons with one teacher, at times you choose.
 
 Burnaby families pay the same as families in any other part of Canada. Nothing is charged before the free lesson and an agreed plan; holidays and missed lessons are covered on the pricing page.
 

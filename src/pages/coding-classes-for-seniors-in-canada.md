@@ -309,9 +309,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Classes are paid monthly, eight live classes at a time, with no long commitment. Many older learners take a month, pause for travel or family, and come back: that is welcome.
 
-- Free first class: USD 0. A free first class. Screen and editor set up together. No card needed to book.
-- Group batch: USD 100 a month. A batch of fifteen to twenty adults. The same teacher each class. Choose days that suit your week. Monthly payment.
-- One to one: USD 150 a month. A teacher just for you. Your own pace, always. Projects you choose.
+- Free first class: Free. A free first class. Screen and editor set up together. No card needed to book.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty adults. The same teacher each class. Choose days that suit your week. Monthly payment.
+- One to one: CAD 210 a month. A teacher just for you. Your own pace, always. Projects you choose.
 
 ## Coding for seniors: common questions
 

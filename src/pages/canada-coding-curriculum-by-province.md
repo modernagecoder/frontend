@@ -329,9 +329,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The school course belongs to the school, and we do not replace it. Our classes are an extra, paid as a monthly fee for eight live classes a month, with no contract, so you can stop when the school course no longer needs support.
 
-- Free first class: USD 0. A free first class. Placement on our four-stage ladder. No card details needed.
-- Group batch: USD 100 a month. Fifteen to twenty students. A regular teacher. A batch you choose. Paid month by month.
-- One to one: USD 150 a month. One teacher, one student. Paced to the school course. Built around their own projects.
+- Free first class: Free. A free first class. Placement on our four-stage ladder. No card details needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students. A regular teacher. A batch you choose. Paid month by month.
+- One to one: CAD 210 a month. One teacher, one student. Paced to the school course. Built around their own projects.
 
 ## Coding in Canadian schools: common questions
 

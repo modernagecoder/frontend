@@ -384,9 +384,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The CMS charges its registration through the school or the Open Writing Centre. Our monthly fee covers live teaching and nothing else, and it can stop at the end of any month.
 
-- Free first class: USD 0. A free first class. One Part C question written together. No card details.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. Olympiad-path students together. Choose your batch. Pay month by month.
-- One to one: USD 150 a month. Your own teacher. Planned to the COMC and beyond. Built on your past papers.
+- Free first class: Free. A free first class. One Part C question written together. No card details.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. Olympiad-path students together. Choose your batch. Pay month by month.
+- One to one: CAD 210 a month. Your own teacher. Planned to the COMC and beyond. Built on your past papers.
 
 ## COMC: answers to common questions
 

@@ -228,9 +228,9 @@ Learners sit at their own computer in their own home; the teacher, live on video
 
 Three items, each displayed in your own currency by the price anchor.
 
-- First class: USD 0. A full first lesson at no charge, with a placement at the end.
-- Group tuition: USD 100 a month. The monthly fee for a class of fifteen to twenty, eight live lessons a month.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons at times you choose.
+- First class: Free. A full first lesson at no charge, with a placement at the end.
+- Group tuition: CAD 140 a month. The monthly fee for a class of fifteen to twenty, eight live lessons a month.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons at times you choose.
 
 There is no Longueuil surcharge or discount: the fee matches every other Canadian city. Payment starts after the first lesson, when you have chosen a course and a time.
 

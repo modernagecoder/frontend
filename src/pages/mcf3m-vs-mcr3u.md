@@ -298,9 +298,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is free, and it can double as the placement conversation. After that, a monthly fee covers eight live classes, the fee shows its currency code, and there is no term contract: stop after any month.
 
-- Free first class: USD 0. Free first class. Placement questions included. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty per batch. One regular teacher. Batch time you choose. Paid monthly.
-- One to one: USD 150 a month. One teacher for your teen. Paced to the chosen course. Times around school.
+- Free first class: Free. Free first class. Placement questions included. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty per batch. One regular teacher. Batch time you choose. Paid monthly.
+- One to one: CAD 210 a month. One teacher for your teen. Paced to the chosen course. Times around school.
 
 ## MCF3M vs MCR3U: common questions
 

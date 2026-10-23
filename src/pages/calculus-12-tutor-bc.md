@@ -397,9 +397,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Your first class costs nothing. From then on, each month&rsquo;s fee pays for eight live classes and appears here in your own currency; there is no term to sign up for, and you can stop when a month ends.
 
-- Free first class: USD 0. A free first class. Bring the latest test. No card at booking.
-- Group batch: USD 100 a month. Fifteen to twenty students. The same teacher weekly. Pick a batch time. Paid each month.
-- One to one: USD 150 a month. One teacher, one student. Booked around test dates. Planned from the school outline.
+- Free first class: Free. A free first class. Bring the latest test. No card at booking.
+- Group batch: CAD 140 a month. Fifteen to twenty students. The same teacher weekly. Pick a batch time. Paid each month.
+- One to one: CAD 210 a month. One teacher, one student. Booked around test dates. Planned from the school outline.
 
 ## Calculus 12: frequently asked questions
 

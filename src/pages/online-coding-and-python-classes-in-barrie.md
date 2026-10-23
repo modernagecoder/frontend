@@ -188,9 +188,9 @@ Lessons are online, so a student near Kempenfelt Bay and one in the south end sh
 
 Your own currency, with the code printed next to each fee.
 
-- First class: USD 0. A first lesson, live and free, ending in a suggested course and starting month.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty students at the same month of the plan.
-- Private tuition: USD 150 a month. The monthly fee for one student with one teacher, on times you choose.
+- First class: Free. A first lesson, live and free, ending in a suggested course and starting month.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty students at the same month of the plan.
+- Private tuition: CAD 210 a month. The monthly fee for one student with one teacher, on times you choose.
 
 Barrie families pay the Canada-wide monthly fee. Nothing is charged until the free lesson is done and the course and time are agreed. Missed classes and holidays are explained on the pricing page.
 

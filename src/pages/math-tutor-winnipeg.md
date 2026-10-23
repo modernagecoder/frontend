@@ -230,9 +230,9 @@ From Transcona to Charleswood, a Winnipeg student joins from home, which matters
 
 Free first lesson, then two monthly choices, each shown in your currency.
 
-- First class: USD 0. One full live lesson without charge, ending in a course and level suggestion.
-- Group tuition: USD 100 a month. The monthly fee for eight live classes with fifteen to twenty students at one level.
-- Private tuition: USD 150 a month. The monthly fee for eight lessons with a teacher of your own.
+- First class: Free. One full live lesson without charge, ending in a course and level suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for eight live classes with fifteen to twenty students at one level.
+- Private tuition: CAD 210 a month. The monthly fee for eight lessons with a teacher of your own.
 
 Winnipeg families pay the same as families anywhere else in Canada. Billing starts only after the free lesson, once course and time are settled; holidays and missed lessons are explained on the pricing page.
 

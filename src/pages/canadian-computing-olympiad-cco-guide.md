@@ -301,9 +301,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 No family pays for a CCO invitation, and none can buy one. Our fee is for live teaching only, paid monthly, so a student can train for a season or for several years without committing to either.
 
-- Free first class: USD 0. A free first class. One Senior-level task in C++. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. A regular teacher. A batch time you choose. Charged by the month.
-- One to one: USD 150 a month. A teacher for one student. A plan across several years. C++ reviewed line by line.
+- Free first class: Free. A free first class. One Senior-level task in C++. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. A regular teacher. A batch time you choose. Charged by the month.
+- One to one: CAD 210 a month. A teacher for one student. A plan across several years. C++ reviewed line by line.
 
 ## The Canadian Computing Olympiad: common questions
 

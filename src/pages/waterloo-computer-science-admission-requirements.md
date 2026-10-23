@@ -390,9 +390,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Start with a free class. If it suits, the monthly fee covers eight live classes a month, shown with its currency code, with no term contract and no penalty for stopping after any month.
 
-- Free first class: USD 0. No charge for the opening class. Bring a current unit or problem set. No card asked for.
-- Group batch: USD 100 a month. Fifteen to twenty students. The same teacher throughout. Choose your batch. Billed monthly.
-- One to one: USD 150 a month. Your teen and one teacher. Paced to their own course. Times around tests and exams.
+- Free first class: Free. No charge for the opening class. Bring a current unit or problem set. No card asked for.
+- Group batch: CAD 140 a month. Fifteen to twenty students. The same teacher throughout. Choose your batch. Billed monthly.
+- One to one: CAD 210 a month. Your teen and one teacher. Paced to their own course. Times around tests and exams.
 
 ## Waterloo Computer Science admission: common questions
 

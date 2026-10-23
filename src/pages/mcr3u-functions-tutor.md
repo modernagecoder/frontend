@@ -311,9 +311,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Your first class is free. Afterwards, eight live classes a month are billed monthly with the currency code printed beside the fee, and you can leave after any month: there is no term to sign up for.
 
-- Free first class: USD 0. First class free. Bring the latest MCR3U test. No card details.
-- Group batch: USD 100 a month. Batches of fifteen to twenty. The same teacher every week. Choose your batch. Paid month by month.
-- One to one: USD 150 a month. Private lessons for one student. Fitted around tests. Built from the school course.
+- Free first class: Free. First class free. Bring the latest MCR3U test. No card details.
+- Group batch: CAD 140 a month. Batches of fifteen to twenty. The same teacher every week. Choose your batch. Paid month by month.
+- One to one: CAD 210 a month. Private lessons for one student. Fitted around tests. Built from the school course.
 
 ## MCR3U: questions families ask
 

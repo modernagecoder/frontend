@@ -317,9 +317,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 There is no separate summer camp fee. Summer classes are part of the normal monthly fee, shown here in your own currency, and you can pause for a travel month.
 
-- Free first class: USD 0. A free first class. One summer goal agreed. No card asked for.
-- Group batch: USD 100 a month. 15 to 20 in a summer batch. Eight live classes in July, eight in August. Carried on by the same teacher in September.
-- One to one: USD 150 a month. A teacher for one student. Booked around your summer. Paused for travel weeks.
+- Free first class: Free. A free first class. One summer goal agreed. No card asked for.
+- Group batch: CAD 140 a month. 15 to 20 in a summer batch. Eight live classes in July, eight in August. Carried on by the same teacher in September.
+- One to one: CAD 210 a month. A teacher for one student. Booked around your summer. Paused for travel weeks.
 
 ## Summer coding in Canada: questions and answers
 

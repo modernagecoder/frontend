@@ -416,9 +416,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Any contest fee CEMC charges goes through the school. Ours is for the teaching alone, billed by the month, and a student who only wants the November run can stop after it.
 
-- Free first class: USD 0. A free first class. One Part B question written up together. No card needed.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. Grouped CIMC or CSMC. Choose your batch. Monthly, stop any time.
-- One to one: USD 150 a month. One teacher, one student. Planned to 18 November 2026. Built on your own past papers.
+- Free first class: Free. A free first class. One Part B question written up together. No card needed.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. Grouped CIMC or CSMC. Choose your batch. Monthly, stop any time.
+- One to one: CAD 210 a month. One teacher, one student. Planned to 18 November 2026. Built on your own past papers.
 
 ## CIMC and CSMC: common questions
 

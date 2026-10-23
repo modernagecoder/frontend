@@ -202,9 +202,9 @@ Online and live, so the teacher sees the student&rsquo;s screen and hears their 
 
 Three options; the page shows each in your own currency.
 
-- First class: USD 0. A full live lesson, free, finishing with a recommended course and class time.
-- Group tuition: USD 100 a month. The monthly fee for a group of 15 to 20 students at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons, at hours the family picks.
+- First class: Free. A full live lesson, free, finishing with a recommended course and class time.
+- Group tuition: CAD 140 a month. The monthly fee for a group of 15 to 20 students at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons, at hours the family picks.
 
 Regina families pay the same monthly fee as families elsewhere in Canada. Billing starts only after the free lesson, once course and time are agreed; the pricing page covers holidays and missed classes.
 

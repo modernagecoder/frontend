@@ -199,9 +199,9 @@ Children north of Taunton Road and children near the lake join the same class fr
 
 Three options; each fee shows its currency next to it.
 
-- First class: USD 0. A complete live lesson at no cost, after which we recommend a course, level and time.
-- Group tuition: USD 100 a month. The monthly fee for a seat in a group of fifteen to twenty children at a shared level.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons with a teacher, scheduled around your family.
+- First class: Free. A complete live lesson at no cost, after which we recommend a course, level and time.
+- Group tuition: CAD 140 a month. The monthly fee for a seat in a group of fifteen to twenty children at a shared level.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons with a teacher, scheduled around your family.
 
 Oshawa and Whitby families pay the same as families elsewhere in Canada. The free lesson always comes first, and fees start only when you choose to continue; the pricing page explains breaks and missed classes.
 

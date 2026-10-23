@@ -300,9 +300,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Start with a free class. If you continue, one monthly fee covers eight live classes, shown below in your own currency, and you can stop when any month finishes.
 
-- Free first class: USD 0. Trial class at no cost. Bring the worksheet that stumped them. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children. One familiar teacher. A batch time you pick. Paid monthly.
-- One to one: USD 150 a month. Your child and a teacher. Times around the school week. Planned from their worksheets.
+- Free first class: Free. Trial class at no cost. Bring the worksheet that stumped them. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty children. One familiar teacher. A batch time you pick. Paid monthly.
+- One to one: CAD 210 a month. Your child and a teacher. Times around the school week. Planned from their worksheets.
 
 ## Grade 6 math PAT: common questions
 

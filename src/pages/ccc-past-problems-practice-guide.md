@@ -318,9 +318,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 CEMC's past papers are free, and stay free in our classes. What we charge is a monthly fee for live teaching and review, with no contract, so a family can stop whenever the season ends.
 
-- Free first class: USD 0. A free first class. One past problem worked with the six-step method. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. The same teacher every week. A batch time that works for you. Paid each month.
-- One to one: USD 150 a month. One student, one teacher. Your own submissions reviewed. Paced to 17 February 2027.
+- Free first class: Free. A free first class. One past problem worked with the six-step method. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. The same teacher every week. A batch time that works for you. Paid each month.
+- One to one: CAD 210 a month. One student, one teacher. Your own submissions reviewed. Paced to 17 February 2027.
 
 ## CCC past problems: common questions
 

@@ -303,9 +303,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is on us. From then on, one monthly fee pays for eight live classes, shown in the price box with its currency code; there is no semester contract, and you may stop after any month.
 
-- Free first class: USD 0. A free first class. Bring this week&rsquo;s homework. No card at booking.
-- Group batch: USD 100 a month. Fifteen to twenty teens. One steady teacher. Choose a batch time. Billed monthly.
-- One to one: USD 150 a month. A teacher for your teen alone. Times around school tests. Built from their unit plan.
+- Free first class: Free. A free first class. Bring this week&rsquo;s homework. No card at booking.
+- Group batch: CAD 140 a month. Fifteen to twenty teens. One steady teacher. Choose a batch time. Billed monthly.
+- One to one: CAD 210 a month. A teacher for your teen alone. Times around school tests. Built from their unit plan.
 
 ## MTH1W: common questions
 

@@ -196,9 +196,9 @@ A child near Clearbrook and a child out on Sumas Prairie join the same class fro
 
 Three options, and the currency is shown beside each fee.
 
-- First class: USD 0. A complete live lesson at no cost, after which we suggest a course, a level and a time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a class of fifteen to twenty children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for private lessons, your child and one teacher, at times you pick.
+- First class: Free. A complete live lesson at no cost, after which we suggest a course, a level and a time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a class of fifteen to twenty children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons, your child and one teacher, at times you pick.
 
 Abbotsford families pay the same as families across Canada. The free lesson always comes first; you are charged only after choosing a course and a time, and the pricing page explains breaks and missed lessons.
 

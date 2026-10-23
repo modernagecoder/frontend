@@ -314,9 +314,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Your first class costs nothing. Continuing means one monthly fee for eight live classes, displayed below in your currency, and no commitment beyond the month you are in.
 
-- Free first class: USD 0. A free first class. Bring a recent practice set. No payment details asked.
-- Group batch: USD 100 a month. Batch of fifteen to twenty. One teacher all year. You pick the batch. Paid month by month.
-- One to one: USD 150 a month. One teacher, one student. Extra sessions before the sitting. Planned from the error log.
+- Free first class: Free. A free first class. Bring a recent practice set. No payment details asked.
+- Group batch: CAD 140 a month. Batch of fifteen to twenty. One teacher all year. You pick the batch. Paid month by month.
+- One to one: CAD 210 a month. One teacher, one student. Extra sessions before the sitting. Planned from the error log.
 
 ## Math 30-1 diploma exam: common questions
 

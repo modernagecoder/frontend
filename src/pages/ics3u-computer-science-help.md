@@ -601,9 +601,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class costs nothing. After it, families pay a monthly fee for eight live classes a month, with the currency code printed beside it, no term contract, and you can stop at the end of any month.
 
-- Free first class: USD 0. A free first class. Bring this week&rsquo;s assignment. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Paid monthly.
-- One to one: USD 150 a month. A teacher for your teen alone. Times around school deadlines. Planned from their own course.
+- Free first class: Free. A free first class. Bring this week&rsquo;s assignment. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Paid monthly.
+- One to one: CAD 210 a month. A teacher for your teen alone. Times around school deadlines. Planned from their own course.
 
 ## ICS3U: common questions
 

@@ -219,9 +219,9 @@ From Oak Ridges to Bayview Hill, lessons come to the student&rsquo;s desk; nobod
 
 Each amount below is displayed in your local currency.
 
-- First class: USD 0. A full, free live lesson that ends with a suggested course and level.
-- Group tuition: USD 100 a month. The monthly fee for a live class of 15 to 20 students at one level.
-- Private tuition: USD 150 a month. The monthly fee for a teacher with your student alone, at times you set.
+- First class: Free. A full, free live lesson that ends with a suggested course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a live class of 15 to 20 students at one level.
+- Private tuition: CAD 210 a month. The monthly fee for a teacher with your student alone, at times you set.
 
 There is one Canadian fee, and Richmond Hill pays it like everywhere else. You pay nothing until after the free lesson, and only once you have chosen a course and a time.
 

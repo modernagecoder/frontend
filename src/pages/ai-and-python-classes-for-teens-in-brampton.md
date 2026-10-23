@@ -264,9 +264,9 @@ Teaching is online, so a teen in Heart Lake and one in Mississauga or Caledon sh
 
 Fees display in your own currency, with the currency code shown beside each one.
 
-- First class: USD 0. A full live class, free, which ends with a placement and a course suggestion.
-- Group tuition: USD 100 a month. Eight live classes a month with a group of fifteen to twenty, charged as one monthly fee.
-- Private tuition: USD 150 a month. A teacher of the student&rsquo;s own, at times the family sets, charged as one monthly fee.
+- First class: Free. A full live class, free, which ends with a placement and a course suggestion.
+- Group tuition: CAD 140 a month. Eight live classes a month with a group of fifteen to twenty, charged as one monthly fee.
+- Private tuition: CAD 210 a month. A teacher of the student&rsquo;s own, at times the family sets, charged as one monthly fee.
 
 Brampton families pay the same fee as families elsewhere in Canada. Billing starts only after the free class, once course and times are settled; the pricing page sets out how missed classes and breaks are handled.
 

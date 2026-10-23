@@ -260,9 +260,9 @@ A live lesson on a laptop at home, with the same teacher each week. Nobody cross
 
 The same three options everywhere in Canada; each fee carries its currency code.
 
-- First class: USD 0. One full live class at no charge, with a recommended level and course at the end.
-- Group tuition: USD 100 a month. The monthly fee for a seat in a batch of 15 to 20 children at the same level.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons, at times that suit your week.
+- First class: Free. One full live class at no charge, with a recommended level and course at the end.
+- Group tuition: CAD 140 a month. The monthly fee for a seat in a batch of 15 to 20 children at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons, at times that suit your week.
 
 Vancouver families pay what every Canadian family pays. We bill only after the free class and only once you have picked a course and a time; the pricing page explains holidays and missed classes.
 

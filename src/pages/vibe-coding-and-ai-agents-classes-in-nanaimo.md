@@ -237,9 +237,9 @@ No ferry, no drive. A live teacher works through the lesson with each learner ov
 
 Three lines, each priced in your own currency by the anchor.
 
-- First class: USD 0. A full first lesson, free, ending with a level and a suggested course.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty, eight live classes a month.
-- Private tuition: USD 150 a month. The monthly fee for private lessons at times that suit you.
+- First class: Free. A full first lesson, free, ending with a level and a suggested course.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty, eight live classes a month.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons at times that suit you.
 
 Island learners pay the same monthly fee as learners on the mainland or anywhere else in Canada. Billing begins only after the first lesson.
 

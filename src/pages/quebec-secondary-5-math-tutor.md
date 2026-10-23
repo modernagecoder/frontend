@@ -268,9 +268,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 A monthly fee covers eight live classes a month. There is no contract for the year, so tutoring can stop in June 2027 when Secondary V ends, or continue into the summer before CEGEP.
 
-- Free first class: USD 0. A free first class. A diagnostic on Secondary IV algebra. No card details asked.
-- Group batch: USD 100 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Monthly billing.
-- One to one: USD 150 a month. A tutor to yourself. Paced to your option and units. Built on your own tests.
+- Free first class: Free. A free first class. A diagnostic on Secondary IV algebra. No card details asked.
+- Group batch: CAD 140 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Monthly billing.
+- One to one: CAD 210 a month. A tutor to yourself. Paced to your option and units. Built on your own tests.
 
 ## Quebec Secondary 5 math: common questions
 

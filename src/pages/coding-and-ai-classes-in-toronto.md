@@ -232,9 +232,9 @@ Classes are online, so a student in Scarborough and one in Etobicoke share the s
 
 Three lines, each with the currency code printed beside the fee.
 
-- First class: USD 0. One full live lesson at no charge, finishing with a recommended level, course and time.
-- Group tuition: USD 100 a month. The monthly fee for a batch of fifteen to twenty students working at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one teacher and one student, at times you choose.
+- First class: Free. One full live lesson at no charge, finishing with a recommended level, course and time.
+- Group tuition: CAD 140 a month. The monthly fee for a batch of fifteen to twenty students working at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher and one student, at times you choose.
 
 Toronto families pay the same monthly fee as families anywhere else in Canada. Nothing is billed until after the free lesson, once the course and the time are agreed; the pricing page sets out missed classes and holidays.
 

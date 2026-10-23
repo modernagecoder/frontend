@@ -440,9 +440,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 CEMC's Euclid fee is charged to the school. Our fee covers the teaching only, monthly, and a final-year student can stop the month after the April 2027 contest with nothing further owed.
 
-- Free first class: USD 0. A free first class. One Euclid-style question, written up together. No card asked for.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. Final-year students together. Choose your batch. Month by month.
-- One to one: USD 150 a month. A teacher of your own. Paced to 6 April 2027. Built on your own written solutions.
+- Free first class: Free. A free first class. One Euclid-style question, written up together. No card asked for.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. Final-year students together. Choose your batch. Month by month.
+- One to one: CAD 210 a month. A teacher of your own. Paced to 6 April 2027. Built on your own written solutions.
 
 ## Euclid Contest: questions answered
 

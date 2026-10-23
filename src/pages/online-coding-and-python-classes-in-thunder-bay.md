@@ -209,9 +209,9 @@ Distance is the problem online learning solves best. Here is how the rest works.
 
 Three items, each shown in the currency for your region.
 
-- First class: USD 0. A full live lesson without charge, closing with a level and a course suggestion.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. The monthly fee for one teacher with one learner, at times you set together.
+- First class: Free. A full live lesson without charge, closing with a level and a course suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty learners at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher with one learner, at times you set together.
 
 A Thunder Bay learner pays the same as one in Toronto or anywhere else in Canada. There is no bill until the free lesson has happened and you have picked a course and time; holiday and missed-class rules sit on the pricing page.
 

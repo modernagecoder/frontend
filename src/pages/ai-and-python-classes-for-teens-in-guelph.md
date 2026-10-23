@@ -249,9 +249,9 @@ Classes are online, so a teen near downtown Guelph and another in Fergus, Elora 
 
 Fees show in your own currency, with the currency code beside each one.
 
-- First class: USD 0. A complete live lesson, free, ending in a placement and a suggested course.
-- Group tuition: USD 100 a month. Charged as a monthly fee: eight live classes with fifteen to twenty teens at the same level.
-- Private tuition: USD 150 a month. Charged as a monthly fee: one teacher for one teen at hours the family sets.
+- First class: Free. A complete live lesson, free, ending in a placement and a suggested course.
+- Group tuition: CAD 140 a month. Charged as a monthly fee: eight live classes with fifteen to twenty teens at the same level.
+- Private tuition: CAD 210 a month. Charged as a monthly fee: one teacher for one teen at hours the family sets.
 
 Families in Guelph pay the same as families elsewhere in Canada. Nothing is charged before the free class or before a course and schedule are agreed; the pricing page explains how missed classes and holidays work.
 

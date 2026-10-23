@@ -219,9 +219,9 @@ Because lessons are live online, a student on the Mountain and one in Waterdown 
 
 Three lines, each shown in your own currency with its code beside it.
 
-- First class: USD 0. A first live lesson at no charge, after which we suggest a course and level.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty students at one stage.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher, at times you choose.
+- First class: Free. A first live lesson at no charge, after which we suggest a course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty students at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher, at times you choose.
 
 A Hamilton address changes nothing about the fee; it is the same across Canada. No payment is taken until after the free lesson, once course and time are agreed, and the pricing page covers missed classes and holidays.
 

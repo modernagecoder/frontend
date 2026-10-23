@@ -232,9 +232,9 @@ Lessons are online, so a student in Thompson has the same teacher and the same c
 
 Each fee below shows its currency next to the number.
 
-- First class: USD 0. One full lesson free of charge, ending with a recommended level, course and weekly time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a class of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher, scheduled around the student.
+- First class: Free. One full lesson free of charge, ending with a recommended level, course and weekly time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a class of fifteen to twenty learners at one level.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher, scheduled around the student.
 
 Manitoba families are charged the same monthly fee as families in every other province. No payment is taken until the free lesson is over and the course and time are agreed; see the pricing page for holidays and missed classes.
 

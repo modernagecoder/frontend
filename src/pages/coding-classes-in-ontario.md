@@ -227,11 +227,11 @@ Fees
 
 Each fee below is shown in the currency you are billed in. There is no registration fee and no term commitment, so a month that does not work is a month you can end.
 
-Group batch$100 USDper month, 8 classes
+Group batch$140 CADper month, 8 classes
 
 Fifteen to twenty learners with a consistent teacher. One teacher for the whole batch, every week, and every learner in it working on the same build at the same stage.
 
-One to one$150 USDper month, 8 classes
+One to one$210 CADper month, 8 classes
 
 Chosen where the pace has to belong entirely to one student, whether that means moving far faster than a group or taking considerably longer over the same idea.
 

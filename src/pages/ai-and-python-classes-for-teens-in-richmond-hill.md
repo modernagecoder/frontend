@@ -253,9 +253,9 @@ Lessons are online, so a teen near Yonge and Major Mackenzie and another in Mark
 
 Each fee shows in your own currency, with its code beside it.
 
-- First class: USD 0. One complete live lesson with no charge, ending in a placement and a suggested course.
-- Group tuition: USD 100 a month. Eight live classes a month with fifteen to twenty teens at one level, billed as a monthly fee.
-- Private tuition: USD 150 a month. One teacher for one teen at hours the family picks, billed as a monthly fee.
+- First class: Free. One complete live lesson with no charge, ending in a placement and a suggested course.
+- Group tuition: CAD 140 a month. Eight live classes a month with fifteen to twenty teens at one level, billed as a monthly fee.
+- Private tuition: CAD 210 a month. One teacher for one teen at hours the family picks, billed as a monthly fee.
 
 Richmond Hill families pay what families pay anywhere else in Canada. We bill nothing until after the free class, once a course and a schedule suit the family. Missed classes and holidays are covered on the pricing page.
 

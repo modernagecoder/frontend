@@ -327,9 +327,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is on us. After that, a monthly fee covers eight live classes and is shown in your region&rsquo;s currency; there is no term to commit to, so you can stop at the end of a month.
 
-- Free first class: USD 0. Free first class. Bring a current assignment. No card asked.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. One regular teacher. Batch time you choose. Monthly, no term.
-- One to one: USD 150 a month. Just your teen and a teacher. Booked around deadlines. Built on the school outline.
+- Free first class: Free. Free first class. Bring a current assignment. No card asked.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. One regular teacher. Batch time you choose. Monthly, no term.
+- One to one: CAD 210 a month. Just your teen and a teacher. Booked around deadlines. Built on the school outline.
 
 ## Foundations of Math 11: common questions
 

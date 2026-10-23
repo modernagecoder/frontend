@@ -304,9 +304,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The fee is the same whichever zone you are in: a monthly fee for eight live classes a month, no contract, and the price shown in your own currency. Changing the class time later costs nothing.
 
-- Free first class: USD 0. A free first class. Booked in your local time. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Monthly billing.
-- One to one: USD 150 a month. Your own teacher. Any slot in your zone. Moved when your week changes.
+- Free first class: Free. A free first class. Booked in your local time. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Monthly billing.
+- One to one: CAD 210 a month. Your own teacher. Any slot in your zone. Moved when your week changes.
 
 ## Canada's 2026 time changes: common questions
 

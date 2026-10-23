@@ -449,9 +449,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Begin with a free class. Afterwards, a monthly fee pays for eight live classes each month, shown below in your own currency; nothing locks you in, and you can stop when a month ends.
 
-- Free first class: USD 0. A free first class. Bring a current ICD2O task. No card asked for.
-- Group batch: USD 100 a month. Fifteen to twenty per batch. One regular teacher. Your choice of batch. Paid by the month.
-- One to one: USD 150 a month. Private classes. Timed around the school week. Built from their own work.
+- Free first class: Free. A free first class. Bring a current ICD2O task. No card asked for.
+- Group batch: CAD 140 a month. Fifteen to twenty per batch. One regular teacher. Your choice of batch. Paid by the month.
+- One to one: CAD 210 a month. Private classes. Timed around the school week. Built from their own work.
 
 ## ICD2O and ICS2O: questions families ask
 

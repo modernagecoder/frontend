@@ -192,9 +192,9 @@ Everything is online, so distance across the region stops mattering. These are t
 
 Three lines, each in the currency for your region.
 
-- First class: USD 0. A full live lesson at no charge, ending with a suggested level and course.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. The monthly fee for one learner and one teacher, at agreed times.
+- First class: Free. A full live lesson at no charge, ending with a suggested level and course.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty learners at one level.
+- Private tuition: CAD 210 a month. The monthly fee for one learner and one teacher, at agreed times.
 
 Kamloops learners pay the same monthly fee as learners elsewhere in Canada. An invoice comes only after the free lesson, when a course and a time have been chosen together; the pricing page explains holiday weeks and missed lessons.
 

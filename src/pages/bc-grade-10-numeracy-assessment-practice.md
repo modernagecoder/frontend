@@ -332,9 +332,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is free. After it, one monthly fee buys eight live classes, shown in your currency, and you can stop at any month end; there is no term to sign.
 
-- Free first class: USD 0. A free first class. Bring a sample question. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty students. One regular teacher. Choose the batch time. Paid monthly.
-- One to one: USD 150 a month. A teacher for your teen alone. Timed to the session date. Built on their weak spots.
+- Free first class: Free. A free first class. Bring a sample question. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty students. One regular teacher. Choose the batch time. Paid monthly.
+- One to one: CAD 210 a month. A teacher for your teen alone. Timed to the session date. Built on their weak spots.
 
 ## The Grade 10 Numeracy Assessment: common questions
 

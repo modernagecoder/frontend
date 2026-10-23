@@ -302,9 +302,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The trial class is free. Families who continue pay one monthly fee for eight live classes, displayed with its currency code, and may leave at the end of any month; there is no term to sign up for.
 
-- Free first class: USD 0. Trial class, no charge. Bring this week&rsquo;s math or code. No card to book.
-- Group batch: USD 100 a month. Batch of fifteen to twenty. A regular teacher. Batch time of your choice. Paid each month.
-- One to one: USD 150 a month. Private classes. Scheduled around tests. Planned from their own course.
+- Free first class: Free. Trial class, no charge. Bring this week&rsquo;s math or code. No card to book.
+- Group batch: CAD 140 a month. Batch of fifteen to twenty. A regular teacher. Batch time of your choice. Paid each month.
+- One to one: CAD 210 a month. Private classes. Scheduled around tests. Planned from their own course.
 
 ## U of T computer science admission: questions families ask
 

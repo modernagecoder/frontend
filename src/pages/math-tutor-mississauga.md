@@ -209,9 +209,9 @@ No commute on Hurontario or the 403: the lesson comes to the student&rsquo;s des
 
 Three options, each shown in your own currency.
 
-- First class: USD 0. A full live math lesson, free, ending with a suggested course and level.
-- Group tuition: USD 100 a month. The monthly fee for a live class of fifteen to twenty students at one level.
-- Private tuition: USD 150 a month. The monthly fee for a teacher working with one student at times you pick.
+- First class: Free. A full live math lesson, free, ending with a suggested course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a live class of fifteen to twenty students at one level.
+- Private tuition: CAD 210 a month. The monthly fee for a teacher working with one student at times you pick.
 
 The fee does not change by city: Mississauga pays what every other Canadian family pays. Billing begins only after the free lesson and once a course and time are agreed.
 

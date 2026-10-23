@@ -291,9 +291,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Contest fees go from the school to CEMC and have nothing to do with us. Our monthly fee pays only for live teaching, with no season contract, and past CEMC papers stay free, as CEMC requires.
 
-- Free first class: USD 0. A free first class. A route check for your child's contest. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. A regular teacher. Choose the batch time. Monthly billing.
-- One to one: USD 150 a month. A teacher for one student. Paced to the chosen contest. Built around the student's level.
+- Free first class: Free. A free first class. A route check for your child's contest. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. A regular teacher. Choose the batch time. Monthly billing.
+- One to one: CAD 210 a month. A teacher for one student. Paced to the chosen contest. Built around the student's level.
 
 ## Registering for Waterloo contests: common questions
 

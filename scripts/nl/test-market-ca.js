@@ -45,9 +45,12 @@ ok(/if\(!foreignLead&&\(digits\.length<10\|\|digits\.length>10\|\|!\/\^\[2-9\]\/
 const agHtml = ag.render(Object.assign({}, neutral('content/uk/best-online-coding-classes-uk.js'), { market: CA }));
 ok(/countryIso: 'CA'/.test(agHtml) && /countryCode: '\+1'/.test(agHtml), 'ag lead contract sends +1 / CA');
 // Fees: price anchors the pricing script rewrites to the visitor's currency, never a printed USD figure.
+// The crawler fallback and structured data carry the CAD row (owner 2026-10-24).
 for (const [label, html] of [['cg', cgHtml], ['ag', agHtml]]) {
-  ok(/data-price="coding\.international\.group"/.test(html) && /data-price="coding\.international\.personal"/.test(html), `${label} fees are data-price anchors`);
+  ok(/data-price="coding\.canada\.group">\$140</.test(html) && /data-price="coding\.canada\.personal">\$210</.test(html), `${label} fees are data-price anchors on the CAD row`);
+  ok(/data-price-currency>CAD</.test(html) && !/data-price-currency>USD</.test(html), `${label} fee label is CAD`);
   ok(!/USD 100|USD 150|billed in US dollars/.test(html.replace(/<script[\s\S]*?<\/script>/g, '')), `${label} fee block prints no USD figure`);
+  ok(/data-price-scope="coding\.canada"/.test(html) && !/"priceCurrency":"USD"/.test(html) && /"price":"210","priceCurrency":"CAD"/.test(html), `${label} structured data in CAD`);
 }
 ok(agHtml.includes('<html lang="en-CA">') && agHtml.includes('content="en_CA"'), 'ag html lang en-CA and og:locale en_CA');
 ok(/if \(!foreignLead && \(phoneDigits\.length > 10 \|\| !\/\^\[2-9\]\//.test(agHtml), 'ag maximum 10 national digits starting 2-9');

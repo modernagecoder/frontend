@@ -226,9 +226,9 @@ Lessons are live, in English, from home, with one regular teacher on Atlantic ti
 
 Three options. Each fee is printed with its currency code.
 
-- First class: USD 0. One full live lesson, free, ending with a recommended course and level.
-- Group tuition: USD 100 a month. The monthly fee for a place in a batch of 15 to 20 children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher.
+- First class: Free. One full live lesson, free, ending with a recommended course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a batch of 15 to 20 children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher.
 
 The monthly fee in Moncton is the Canada-wide fee. Nothing is charged before the free lesson, and billing starts only once a course and a time are agreed; the pricing page explains holidays and missed lessons.
 

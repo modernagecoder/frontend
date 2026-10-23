@@ -273,9 +273,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Our monthly fee covers eight live classes with a teacher and is shown below in your region's currency. There is no joining fee and no term contract; families pay a month at a time.
 
-- Free first class: USD 0. A free first class online. A placement chat with the teacher. No card needed to book.
-- Group batch: USD 100 a month. Fifteen to twenty classmates. The same teacher every class. Choose the batch time that suits you. Billed month by month.
-- One to one: USD 150 a month. One student, one teacher. Pace set by the student. Projects chosen with the student.
+- Free first class: Free. A free first class online. A placement chat with the teacher. No card needed to book.
+- Group batch: CAD 140 a month. Fifteen to twenty classmates. The same teacher every class. Choose the batch time that suits you. Billed month by month.
+- One to one: CAD 210 a month. One student, one teacher. Pace set by the student. Projects chosen with the student.
 
 ## Code Ninjas and Modern Age Coders: common questions
 

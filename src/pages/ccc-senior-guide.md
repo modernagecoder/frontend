@@ -517,9 +517,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Schools pay CEMC for the contest; we have no part in that. Our monthly fee pays for live algorithm teaching, month by month, so a family can stop after February with nothing owed.
 
-- Free first class: USD 0. A free first class. One Senior-style problem, solved together. No card details asked.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. The same teacher through February. A batch time you pick. Monthly payment.
-- One to one: USD 150 a month. A teacher of your own. Built around Senior targets. Your own code reviewed line by line.
+- Free first class: Free. A free first class. One Senior-style problem, solved together. No card details asked.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. The same teacher through February. A batch time you pick. Monthly payment.
+- One to one: CAD 210 a month. A teacher of your own. Built around Senior targets. Your own code reviewed line by line.
 
 ## CCC Senior: common questions
 

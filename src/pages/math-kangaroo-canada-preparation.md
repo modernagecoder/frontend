@@ -312,9 +312,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Any contest fee is paid to the organizer or host centre, not to us. Our monthly fee covers live teaching only, and you can stop after the contest with nothing more to pay.
 
-- Free first class: USD 0. A free first class. Two of our problems, drawn and solved together. No card needed.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. Grouped by grade version. Choose your batch. Monthly, cancel any time.
-- One to one: USD 150 a month. One teacher, one child. Paced to your host centre's date. Built around your child's drawings.
+- Free first class: Free. A free first class. Two of our problems, drawn and solved together. No card needed.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. Grouped by grade version. Choose your batch. Monthly, cancel any time.
+- One to one: CAD 210 a month. One teacher, one child. Paced to your host centre's date. Built around your child's drawings.
 
 ## Math Kangaroo Canada: frequently asked questions
 

@@ -28,7 +28,7 @@ Two formats, both live. A group batch of fifteen to twenty keeps students in the
 | Full timed papers | Monthly from October | Monthly, plus extra in January |
 | Online-environment practice | From December | From December, or earlier if new to it |
 | Solution review | Group walkthrough plus written notes | Line by line on the student's code |
-| Monthly fee | $100 USD | $150 USD |
+| Monthly fee | $140 CAD | $210 CAD |
 | Trial | First class free, no card | First class free, no card |
 
 [Open the full syllabus](/courses/competitive-programming-for-teens-course) Book the free first class
@@ -420,7 +420,7 @@ Book it
 
 Group batch
 
-$100 USD
+$140 CAD
 
 a month
 
@@ -433,7 +433,7 @@ Start here
 
 One to one
 
-$150 USD
+$210 CAD
 
 a month
 

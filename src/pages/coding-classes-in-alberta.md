@@ -254,11 +254,11 @@ Fees
 
 No enrolment charge, nothing to buy, no minimum term.
 
-Group$100 USDper month, 8 classes
+Group$140 CADper month, 8 classes
 
 For a learner who gains from hearing how others approached the same problem, at the shared level of a fifteen to twenty person group.
 
-Private$150 USDper month, 8 classes
+Private$210 CADper month, 8 classes
 
 For a specific target, a tight semester, or a starting point that no current group happens to match.
 

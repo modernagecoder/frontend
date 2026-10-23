@@ -247,9 +247,9 @@ Every class is live with a teacher, so a student in the Outaouais and one in the
 
 Each line shows its own currency beside the figure, so nothing needs converting.
 
-- First class: USD 0. A complete live lesson at no charge, closing with a recommended stage, course and class time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a batch of fifteen to twenty learners at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for a teacher working with one student, at agreed times.
+- First class: Free. A complete live lesson at no charge, closing with a recommended stage, course and class time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a batch of fifteen to twenty learners at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for a teacher working with one student, at agreed times.
 
 A family in Quebec pays the same monthly fee as a family anywhere in Canada. Billing begins only once the free lesson is done and the course and time are settled; the pricing page explains missed classes and holidays.
 

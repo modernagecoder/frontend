@@ -252,9 +252,9 @@ Classes are online, so a teen on the north side of the Saint John River and anot
 
 Fees are displayed in your own currency, each marked with its currency code.
 
-- First class: USD 0. A full live class free of charge, finishing with a placement and a suggested course.
-- Group tuition: USD 100 a month. Eight live group sessions each month, among fifteen to twenty teens of similar level, for one monthly fee.
-- Private tuition: USD 150 a month. A single monthly fee for a private teacher at times that suit the family.
+- First class: Free. A full live class free of charge, finishing with a placement and a suggested course.
+- Group tuition: CAD 140 a month. Eight live group sessions each month, among fifteen to twenty teens of similar level, for one monthly fee.
+- Private tuition: CAD 210 a month. A single monthly fee for a private teacher at times that suit the family.
 
 Fredericton is charged the same fee as every other Canadian city. Payment only begins after the free class, when the family has settled on a course and times. Rules on missed sessions and holidays are on our pricing page.
 

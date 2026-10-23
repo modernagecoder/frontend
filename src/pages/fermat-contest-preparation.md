@@ -374,9 +374,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Whatever CEMC charges is paid by the school with its order. Our monthly fee is for teaching alone, with no term contract, so stopping after the February 2027 paper is simple.
 
-- Free first class: USD 0. A free first class. Two Fermat-style questions and a timed sweep. No card, no commitment.
-- Group batch: USD 100 a month. Fifteen to twenty in a group. Grade 11 students together. Pick a batch that suits you. Paid monthly.
-- One to one: USD 150 a month. A private teacher. Planned around Grade 11 workload. Every class built on your timed papers.
+- Free first class: Free. A free first class. Two Fermat-style questions and a timed sweep. No card, no commitment.
+- Group batch: CAD 140 a month. Fifteen to twenty in a group. Grade 11 students together. Pick a batch that suits you. Paid monthly.
+- One to one: CAD 210 a month. A private teacher. Planned around Grade 11 workload. Every class built on your timed papers.
 
 ## Fermat Contest: what families ask
 

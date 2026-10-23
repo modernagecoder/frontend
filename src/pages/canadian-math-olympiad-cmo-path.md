@@ -336,9 +336,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Nobody can buy a place at a CMS olympiad, and we do not sell one. What the monthly fee pays for is live teaching, with no term to sign up for.
 
-- Free first class: USD 0. A free first class. One olympiad problem proved together. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty in a batch. Students at a similar stage. Choose your batch. Monthly, no contract.
-- One to one: USD 150 a month. A private teacher. Paced to the next COMC. Built on your own proofs.
+- Free first class: Free. A free first class. One olympiad problem proved together. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty in a batch. Students at a similar stage. Choose your batch. Monthly, no contract.
+- One to one: CAD 210 a month. A private teacher. Paced to the next COMC. Built on your own proofs.
 
 ## The Canadian Math Olympiad: questions answered
 

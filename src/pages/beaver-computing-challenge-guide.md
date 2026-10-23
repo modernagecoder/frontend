@@ -379,9 +379,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Whatever the school pays CEMC for the contest is separate from us. Our monthly fee covers live teaching alone, month by month, so a family can stop after November without notice or penalty.
 
-- Free first class: USD 0. A free first class. Two of our Beaver-style tasks to start. No card details needed.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. The same teacher each week. A batch time that suits your family. Paid monthly.
-- One to one: USD 150 a month. A teacher for one student. Paced to the school's contest day. Puzzles chosen for the student.
+- Free first class: Free. A free first class. Two of our Beaver-style tasks to start. No card details needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. The same teacher each week. A batch time that suits your family. Paid monthly.
+- One to one: CAD 210 a month. A teacher for one student. Paced to the school's contest day. Puzzles chosen for the student.
 
 ## Beaver Computing Challenge: common questions
 

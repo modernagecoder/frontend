@@ -215,9 +215,9 @@ Lessons are online, so Concord, Kleinburg, Thornhill and Woodbridge students joi
 
 Each line shows the fee in your own currency, with its code printed beside it.
 
-- First class: USD 0. A free live first lesson that ends with a recommended course and level for the student.
-- Group tuition: USD 100 a month. The monthly fee for a batch of fifteen to twenty students at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one teacher with one student, at agreed times.
+- First class: Free. A free live first lesson that ends with a recommended course and level for the student.
+- Group tuition: CAD 140 a month. The monthly fee for a batch of fifteen to twenty students at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher with one student, at agreed times.
 
 Living in Vaughan does not change the fee: it matches the rest of Canada. Billing begins only once a course and a time are agreed after the free lesson; missed classes and holidays are set out on the pricing page.
 

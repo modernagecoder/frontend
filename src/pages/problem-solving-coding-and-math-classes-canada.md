@@ -339,9 +339,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 One monthly fee, shown here in your own currency, for eight live classes. There is no long contract; families pay a month at a time.
 
-- Free first class: USD 0. A free first class. A problem matched to your child. No card required.
-- Group batch: USD 100 a month. Batch of 15 to 20 students. Eight live classes each month. The same teacher throughout.
-- One to one: USD 150 a month. Private lessons for one student. Problems from their own course. Times arranged with you.
+- Free first class: Free. A free first class. A problem matched to your child. No card required.
+- Group batch: CAD 140 a month. Batch of 15 to 20 students. Eight live classes each month. The same teacher throughout.
+- One to one: CAD 210 a month. Private lessons for one student. Problems from their own course. Times arranged with you.
 
 ## Problem-solving classes: questions and answers
 

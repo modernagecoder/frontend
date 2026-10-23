@@ -285,9 +285,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is on us. After that, a monthly fee buys eight live classes, shown below in your currency, and you can end it at any month&rsquo;s close without a penalty.
 
-- Free first class: USD 0. A free first class. Bring this week&rsquo;s homework. No card to book.
-- Group batch: USD 100 a month. Fifteen to twenty children. The same teacher. Choose a batch time. Monthly payment.
-- One to one: USD 150 a month. One child, one teacher. Hours that fit Grade 9. Built from their own gaps.
+- Free first class: Free. A free first class. Bring this week&rsquo;s homework. No card to book.
+- Group batch: CAD 140 a month. Fifteen to twenty children. The same teacher. Choose a batch time. Monthly payment.
+- One to one: CAD 210 a month. One child, one teacher. Hours that fit Grade 9. Built from their own gaps.
 
 ## Grade 9 math PAT: common questions
 

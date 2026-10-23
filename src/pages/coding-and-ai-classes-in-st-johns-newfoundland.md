@@ -217,9 +217,9 @@ Online and live, with the teacher watching the student&rsquo;s screen, so a stud
 
 Three options, shown in your own currency.
 
-- First class: USD 0. One full live lesson free, ending with a recommended course and time.
-- Group tuition: USD 100 a month. The monthly fee for a shared class of 15 to 20 students at one stage.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one teaching at hours that suit you.
+- First class: Free. One full live lesson free, ending with a recommended course and time.
+- Group tuition: CAD 140 a month. The monthly fee for a shared class of 15 to 20 students at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one teaching at hours that suit you.
 
 St. John's families pay the same monthly fee as everyone else in Canada. Nothing is billed before the free lesson; the pricing page explains holidays and missed classes.
 

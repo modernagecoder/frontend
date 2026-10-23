@@ -307,9 +307,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Start with a free class. If it fits, families pay by the month for eight live classes, the currency code is printed beside the amount, and there is no term contract to sign: stop after any month.
 
-- Free first class: USD 0. A free first class. Bring the latest MHF4U test. No card details asked.
-- Group batch: USD 100 a month. Fifteen to twenty students. The same teacher each week. Pick the batch time. Billed monthly.
-- One to one: USD 150 a month. Your teen and one teacher. Booked around tests and the final. Built from their own course.
+- Free first class: Free. A free first class. Bring the latest MHF4U test. No card details asked.
+- Group batch: CAD 140 a month. Fifteen to twenty students. The same teacher each week. Pick the batch time. Billed monthly.
+- One to one: CAD 210 a month. Your teen and one teacher. Booked around tests and the final. Built from their own course.
 
 ## MHF4U: common questions
 

@@ -14,7 +14,7 @@
 const fs = require('fs');
 const path = require('path');
 const { course } = require('./catalogue');
-const { neutralFee, feeAnchor } = require('./fee-anchor');
+const { neutralFee, feeAnchor, feeRegion, ldPrice, feeText } = require('./fee-anchor');
 
 const ROOT = path.resolve(__dirname, '..', '..', '..');
 const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts.json'), 'utf8'));
@@ -133,12 +133,12 @@ function jsonLd(page) {
       { '@type': 'EducationalOrganization', '@id': SITE + '/#org', name: 'Modern Age Coders', url: SITE, logo: SITE + '/images/logo.svg', foundingDate: String(BRAND.founded), areaServed: area, knowsAbout: ['Python', 'Machine Learning', 'AI Agents', 'Deep Learning', 'Data Science', 'Generative AI', 'Large Language Models', 'Model Evaluation', 'Git and GitHub', 'Statistics'] },
       { '@type': 'WebPage', '@id': url + '#page', url, name: plain(page.pageName), description: page.webPageDescription, inLanguage: m.lang, isPartOf: { '@type': 'WebSite', url: SITE, name: 'Modern Age Coders' } },
       { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE + '/' }].concat(page.crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 2, name: c.name, item: SITE + c.href }))).concat([{ '@type': 'ListItem', position: page.crumbs.length + 2, name: plain(page.crumbLabel), item: url }]) },
-      { '@type': 'Course', name: plain(page.pageName), description: page.courseDescription, provider: { '@id': SITE + '/#org' }, inLanguage: 'en', educationalCredentialAwarded: 'Modern Age Coders certificate of completion', audience: { '@type': 'EducationalAudience', educationalRole: 'student' }, hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'online', courseWorkload: 'PT1H30M', location: { '@type': 'VirtualLocation', url }, instructor: { '@type': 'Organization', name: 'Modern Age Coders' } }, offers: [{ '@type': 'Offer', name: 'Group batch', price: '100', priceCurrency: 'USD', category: 'Monthly', availability: 'https://schema.org/InStock', url }, { '@type': 'Offer', name: 'One to one', price: '150', priceCurrency: 'USD', category: 'Monthly', availability: 'https://schema.org/InStock', url }] },
+      { '@type': 'Course', name: plain(page.pageName), description: page.courseDescription, provider: { '@id': SITE + '/#org' }, inLanguage: 'en', educationalCredentialAwarded: 'Modern Age Coders certificate of completion', audience: { '@type': 'EducationalAudience', educationalRole: 'student' }, hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'online', courseWorkload: 'PT1H30M', location: { '@type': 'VirtualLocation', url }, instructor: { '@type': 'Organization', name: 'Modern Age Coders' } }, offers: [{ '@type': 'Offer', name: 'Group batch', ...ldPrice(page, 'group'), category: 'Monthly', availability: 'https://schema.org/InStock', url }, { '@type': 'Offer', name: 'One to one', ...ldPrice(page, 'personal'), category: 'Monthly', availability: 'https://schema.org/InStock', url }] },
       { '@type': 'FAQPage', mainEntity: page.faq.items.map(f => ({ '@type': 'Question', name: plain(f.q), acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) }
     ]
   };
   const service = { '@context': 'https://schema.org', '@type': 'Service', serviceType: 'Online Python, AI and machine learning teaching for students', provider: { '@type': 'EducationalOrganization', name: 'Modern Age Coders', url: SITE + '/' }, areaServed: area, availableChannel: { '@type': 'ServiceChannel', serviceUrl: url, availableLanguage: ['en'] } };
-  return `  <script type="application/ld+json" data-price-scope="coding.international">\n  ${JSON.stringify(graph)}\n  </script>\n\n  <script type="application/ld+json">\n  ${JSON.stringify(service)}\n  </script>`;
+  return `  <script type="application/ld+json" data-price-scope="coding.${feeRegion(page)}">\n  ${JSON.stringify(graph)}\n  </script>\n\n  <script type="application/ld+json">\n  ${JSON.stringify(service)}\n  </script>`;
 }
 
 function leadScript(page) {
@@ -586,7 +586,7 @@ function twin(page) {
   out.push('');
   for (const c of page.how.cells) out.push(`- **${md(c.h3)}** ${md(c.p)}`);
   out.push('');
-  out.push(`## ${md(page.fees.h2)}`, '', md(page.fees.lede), '', `- Free first class: USD 0. ${page.fees.free.map(md).join('. ')}.`, `- Group batch: USD 100 a month. ${page.fees.group.map(md).join('. ')}.`, `- One to one: USD 150 a month. ${page.fees.one.map(md).join('. ')}.`, '');
+  out.push(`## ${md(page.fees.h2)}`, '', md(page.fees.lede), '', `- Free first class: ${feeText(page, 'free')}. ${page.fees.free.map(md).join('. ')}.`, `- Group batch: ${feeText(page, 'group')} a month. ${page.fees.group.map(md).join('. ')}.`, `- One to one: ${feeText(page, 'personal')} a month. ${page.fees.one.map(md).join('. ')}.`, '');
   out.push(`## ${md(page.faq.h2)}`, '');
   for (const f of page.faq.items) out.push(`### ${md(f.q)}`, '', md(f.a), '');
   out.push(`## ${md(page.elsewhere.h2)}`, '');

@@ -216,9 +216,9 @@ Lessons are online, so a learner in Sainte-Foy, Charlesbourg or across the river
 
 Three lines, each shown with its currency code.
 
-- First class: USD 0. A full live lesson free of charge, after which the teacher suggests a level, course and time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a class of fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. The monthly fee for lessons with a dedicated teacher, scheduled around the learner.
+- First class: Free. A full live lesson free of charge, after which the teacher suggests a level, course and time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a class of fifteen to twenty learners at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for lessons with a dedicated teacher, scheduled around the learner.
 
 A Quebec City learner pays the same monthly fee as a learner anywhere else in Canada. Billing begins after the free lesson, when you are happy with the course and the hour. The pricing page sets out what happens on holidays and after a missed lesson.
 
