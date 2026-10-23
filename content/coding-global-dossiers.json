@@ -56392,5 +56392,77 @@
       "Names of Etobicoke schools, school boards or private people: not used.",
       "Any affiliation with the City of Toronto, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "coding-classes-for-kids-in-ajax-and-pickering": {
+    "market": "Ajax and Pickering",
+    "bodyClass": "cg-kap",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 5 C3.1 (conditional statements and other control structures), the notes on Boolean conditions and nested conditionals, and the suggested situations (minimum and maximum values; a guessing game that decides too high, too low or correct). EQAO Grade 6 window 4 May to 8 June 2027. FIRST Robotics Canada on FIRST LEGO League (ages 4 to 14; critical thinking, coding and design skills). CEMC contests for Grades 5 to 12, through a school. Area codes and Eastern offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e); Toronto CMA membership from facts-geo.md (StatCan 98-10-0003-01 via the Internet Archive).",
+    "localProject": "Town of Ajax Open Data, Ajax Playgrounds (Town of Ajax - Open Data Licence v.1.0, commercial use allowed), downloaded with curl on 22 October 2026 and analysed with our scripts playground_ages.py and page_script.py (python -I): 81 rows, 73 playgrounds; age in 2026 (2026 minus INSTALL) under 10: 9, 10 to 19: 33, 20 or more: 31; youngest 6, oldest 27; mean 17.6, median 18; 42 installed in the 2000s; most rows last edited 2013 to 2014; item modified 9 May 2021. Pickering has no parks or playground layer on its hub, so the project is Ajax only. Labelled as ours. Lesson family: if, elif and else bands, min and max, mean against median.",
+    "requiredMentions": [
+      "A conditional statement evaluates a Boolean condition",
+      "can be nested to allow for a range of possible outcomes or to implement decision trees",
+      "determining the minimum and maximum values from a set of numbers",
+      "every playground under 10 also passes the under-20 test first",
+      "42 of the 73 playgrounds went in during the 2000s",
+      "a mean of 17.6 years and a median of 18",
+      "The youngest is 6 years old in 2026 and the oldest 27",
+      "modified on 9 May 2021",
+      "Main 54 times, Senior 18 times and Junior once",
+      "no City of Pickering parks or playground file"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 5 math strands, C3 coding expectations and notes on conditional statements.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_5___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum site, Elementary Mathematics (human-readable home of the API content).",
+        "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics"
+      },
+      {
+        "claim": "EQAO: 2026-27 Grade 6 assessment window.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "FIRST Robotics Canada: FIRST LEGO League ages and aims.",
+        "url": "https://www.firstroboticscanada.org/"
+      },
+      {
+        "claim": "CEMC: contests for Grades 5 to 12, through a school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "Town of Ajax Open Data: Ajax Playgrounds item (description, modified date, owner).",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/89d1d77d654e42dd8e5292d501a31498?f=json"
+      },
+      {
+        "claim": "Town of Ajax Open Data: Ajax Playgrounds CSV download.",
+        "url": "https://opendata.ajax.ca/api/download/v1/items/89d1d77d654e42dd8e5292d501a31498/csv?layers=27"
+      },
+      {
+        "claim": "Town of Ajax - Open Data Licence v.1.0 (commercial use, optional credit statement).",
+        "url": "https://townofajax.maps.arcgis.com/sharing/rest/content/items/22e2d8e248724d7cb0310dc2db675abd/data"
+      },
+      {
+        "claim": "City of Pickering maps and open data page (portal searched; no parks or playground layer found).",
+        "url": "https://pickering.ca/business-building-development/maps-and-open-data"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Ajax or Pickering population figure: StatCan was not reachable live, so none is printed.",
+      "A Pickering data project: no City of Pickering parks or playground dataset was found on its open data hub on 22 October 2026, so none is claimed.",
+      "Playground location names, equipment makers and the staff username column: left out (locations can name schools or people; one names a school).",
+      "That a playground age equals the age of its equipment: rejected; the page explains INSTALL is the only date and parts can be replaced.",
+      "Any ranking of playgrounds as safe or unsafe by age: not made; the file has no condition data.",
+      "Robotics teams run by Modern Age Coders: none exist; the page says we teach the coding only.",
+      "CEMC and FIRST fees: left out on purpose (currency-neutral page).",
+      "Names of Ajax or Pickering schools, school boards or private people: not used.",
+      "Any affiliation with the Town of Ajax, the City of Pickering, the Ontario Ministry of Education, EQAO, FIRST Robotics Canada, CEMC or the University of Waterloo."
+    ]
   }
 }
