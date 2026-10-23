@@ -700,6 +700,7 @@ Modern Age Coders teaches students worldwide over live video, in 15–20 batches
 ## Canadian guides, contests, provinces and cities
 
 <!-- CA-GUIDES -->
+- [Coding classes for kids in Mississauga](/best-coding-classes-for-kids-in-mississauga)
 - [Coding and AI classes in Quebec City](/coding-and-ai-classes-in-quebec-city)
 - [Coding and AI classes in Winnipeg](/coding-and-ai-classes-in-winnipeg)
 - [Coding and AI classes in Edmonton](/coding-and-ai-classes-in-edmonton)

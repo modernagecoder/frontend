@@ -55704,5 +55704,67 @@
       "CEMC fees: left out on purpose (currency-neutral page).",
       "Any affiliation with the Ville de Québec, Données Québec, the Ministère de l'Éducation, any CEGEP, the CRTC, CEMC or the University of Waterloo."
     ]
+  },
+  "best-coding-classes-for-kids-in-mississauga": {
+    "market": "Mississauga",
+    "bodyClass": "cg-bkim",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 3 C3.1 (sequential, concurrent and repeating events), the Grade 3 teacher note on loops, the ministry example that counts by twos to 20, and the Grade 3 summary on repeating operations; EQAO Grade 3 window 4 May to 8 June 2027. CEMC 2026 Beaver Computing Challenge Grade 5/6 facts (dates, ordering deadline 26 October 2026, 12 questions out of 60, 45 minutes, English only, not a test), the through-a-school rule and the Gauss dates. Mississauga area codes (289, 365, 742, 905) and Eastern time offsets from facts-geo.md (CNAC via the Internet Archive; IANA tzdb 2026e).",
+    "localProject": "Region of Peel, Active Recreation (Open Data Licence for The Regional Municipality of Peel, Version 1.0), CSV downloaded 22 October 2026 (653,262 bytes) and counted with our script count_playgrounds.py (python -I): 2,415 rows; Mississauga 1,179; 9 rows with no town; 325 Mississauga playground rows (Playset/Swings 252, Playset 32, Splashpad 17, Swings 11, Climber 4, Wading Pool 4, Playset/Climber 3, Climber/Swings 2); 295 of the 325 last updated in 2012. Labelled as ours. Lesson family: filtering one town out of a regional file and reading the date column.",
+    "requiredMentions": [
+      "Playground - Playset/Swings",
+      "Of the 325 playground rows, last updated in 2012",
+      "Rows with no town at all",
+      "Regional Municipality of Peel&rsquo;s Open Data Licence - Version 1.0",
+      "Loops make code more readable and reduce the number of instructions",
+      "Set value to 0. Repeat 10 times",
+      "By Monday 26 October 2026",
+      "Mississauga lines use the 289",
+      "971 Brampton rows and 256 Caledon rows"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 3 math strands, C3.1 coding with repeating events, teacher notes and worked example.",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_3___strands?depth=4"
+      },
+      {
+        "claim": "EQAO: 2026-27 assessment windows, including Grade 3.",
+        "url": "https://www.eqao.com/the-assessments/"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge: 2026 dates, ordering deadline, levels, format, language.",
+        "url": "https://cemc.uwaterloo.ca/contests/bcc"
+      },
+      {
+        "claim": "CEMC: students participate through their school.",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "CEMC Gauss contest: grades and 2027 dates.",
+        "url": "https://cemc.uwaterloo.ca/contests/gauss"
+      },
+      {
+        "claim": "Region of Peel Active Recreation dataset page.",
+        "url": "https://data.peelregion.ca/datasets/active-recreation"
+      },
+      {
+        "claim": "Open Data Licence for The Regional Municipality of Peel, Version 1.0 (commercial use, attribution statement, non-endorsement).",
+        "url": "https://data.peelregion.ca/pages/license"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Mississauga population figure: StatCan was not reachable live, so none is printed.",
+      "A count of playgrounds a child can visit: refused; the file counts mapped rows, many last updated in 2012, and the Region warns some sites are not open to the public.",
+      "Facility names, phone numbers and school identifiers from the Peel file: deliberately not printed.",
+      "Any ranking or naming of other Mississauga coding providers: this page sets criteria only.",
+      "That Modern Age Coders is the best kids coding class in Mississauga: never claimed.",
+      "That our classes prepare children for EQAO or improve report-card marks: refused.",
+      "CEMC contest fees: left out on purpose (currency-neutral page).",
+      "Any affiliation with the Region of Peel, the City of Mississauga, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
