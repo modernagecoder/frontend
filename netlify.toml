@@ -26853,6 +26853,18 @@
   to = "/src/pages/online-coding-and-python-classes-in-saint-john-new-brunswick.md"
   status = 200
 
+# International growth cluster (coding-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-richmond-bc"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-richmond-bc.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-and-ai-agents-classes-in-richmond-bc.md"
+  to = "/src/pages/vibe-coding-and-ai-agents-classes-in-richmond-bc.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

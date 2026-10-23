@@ -326,7 +326,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 137 | online-coding-and-python-classes-in-red-deer (prd, #22702F) | city | 3,771 | 1.6% vs ai-and-python-classes-for-teens-in-lethbridge | online city page | city open data | 6c99734f |
 | 138 | online-coding-and-python-classes-in-kamloops (pk, #2D6B56) | city | 3,608 | 1.3% vs coding-and-ai-classes-in-victoria-bc | online city page | city open data | 0ecfe403 |
 | 139 | online-coding-and-python-classes-in-thunder-bay (pthb, #163494) | city | 3,685 | 1.6% vs online-coding-and-python-classes-in-kamloops | online city page | city open data | 0b5295a1 |
-| 140 | online-coding-and-python-classes-in-saint-john-new-brunswick (psjn, #483C99) | city | 3,557 | 2.3% vs online-coding-and-python-classes-in-sherbrooke | online city page | city open data | (this commit) |
+| 140 | online-coding-and-python-classes-in-saint-john-new-brunswick (psjn, #483C99) | city | 3,557 | 2.3% vs online-coding-and-python-classes-in-sherbrooke | online city page | city open data | 4d501653 |
+| 141 | vibe-coding-and-ai-agents-classes-in-richmond-bc (vaar, #80415A) | city | 4,398 | 2.2% vs online-coding-and-python-classes-in-coquitlam | vibe city page | human-checked AI work | (this commit) |
 
 ## Skipped
 

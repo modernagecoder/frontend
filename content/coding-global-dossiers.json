@@ -58875,5 +58875,76 @@
       "CEMC and Python Institute exam fees: left out (currency-neutral page).",
       "Any affiliation with the City of Saint John, the New Brunswick Department of Education and Early Childhood Development, CEMC or the Python Institute."
     ]
+  },
+  "vibe-coding-and-ai-agents-classes-in-richmond-bc": {
+    "market": "Richmond",
+    "bodyClass": "cg-vaar",
+    "pageType": "city",
+    "curriculumAuthority": "British Columbia curriculum, read 22 October 2026: ADST 6-7 minimum three modules, computational thinking module (simple algorithms, visual programming), ADST 10-12 computing courses, Computer Programming 11 and 12 content, Computer Science 11 and 12 under Mathematics; BC Gov News 2026AG0013-000209 permanent UTC-7; CEMC 2026-27 BCC and CCC dates and the through-a-school rule; CCC rules on AI; Anthropic, OpenAI and GitHub terms and GitHub Education; Anthropic, Building effective agents. Richmond area codes from places.tsv (CNAC via the Internet Archive).",
+    "localProject": "Metro Vancouver Regional Greenway Network 2050 (Open Government Licence - Metro Vancouver), FeatureServer JSON downloaded 23 October 2026, filtered to the 51 segments tagged Richmond: our test-first exercise greenway_tests_first.py (python -I) in which an AI-style draft using any() fails two of three tests and the all() version passes; 6 routes open end to end, 4 wrongly claimed by the draft; status counts 23/13/12/3; three segments moved from Operational to Planned (OBJECTID 618, 812, 1005); 6 NA descriptions. Labelled as ours. Lesson family: tests written before accepting AI code.",
+    "requiredMentions": [
+      "Steveston Greenways / South Dike / East Richmond Trails+",
+      "OBJECTID 618, 812 and 1005",
+      "Railway Ave. Greenway",
+      "any() and all()",
+      "Open Government Licence - Metro Vancouver",
+      "not Richmond Hill in Ontario",
+      "604, 778, 236, 672 or 257",
+      "twelve and a half hours ahead of Richmond",
+      "every assistant switched off",
+      "Say what right looks like"
+    ],
+    "sources": [
+      {
+        "claim": "Regional Greenway Network 2050 item: description, status definitions, between 2020 and 2023.",
+        "url": "https://www.arcgis.com/home/item.html?id=64dae354287e41b5a5f5b97b2d0e5e3d"
+      },
+      {
+        "claim": "Regional Greenway Network 2050 FeatureServer layer 2, the segments used.",
+        "url": "https://services6.arcgis.com/56eqCzQ5SZhBaDST/arcgis/rest/services/Regional_Greenway_Network_2050/FeatureServer/2"
+      },
+      {
+        "claim": "Open Government Licence - Metro Vancouver: commercial use, attribution, non-endorsement.",
+        "url": "https://open-data-portal-metrovancouver.hub.arcgis.com/pages/Open%20Government%20Licence"
+      },
+      {
+        "claim": "BC curriculum: ADST and Computer Programming 11 and 12.",
+        "url": "https://curriculum.gov.bc.ca/curriculum/adst"
+      },
+      {
+        "claim": "BC permanent daylight time, UTC-7.",
+        "url": "https://news.gov.bc.ca/releases/2026AG0013-000209"
+      },
+      {
+        "claim": "CEMC contests 2026-27: BCC and CCC dates, through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "Anthropic consumer terms: minimum age 18.",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "claim": "OpenAI terms: under 18 needs parent or guardian permission.",
+        "url": "https://openai.com/policies/terms-of-use/"
+      },
+      {
+        "claim": "GitHub Education: Copilot free for verified students.",
+        "url": "https://github.com/education/students"
+      },
+      {
+        "claim": "Anthropic, Building effective agents: ground truth at each step.",
+        "url": "https://www.anthropic.com/research/building-effective-agents"
+      }
+    ],
+    "rejectedClaims": [
+      "A City of Richmond dataset: none found under an open licence (portal items carry no licence or forbid unauthorized use), so Metro Vancouver data is used and named.",
+      "Any total length of Richmond greenways: not printed; the Richmond tag includes boundary bridges and a Delta piece.",
+      "Why three segments went from Operational to Planned: not stated in the file, not guessed.",
+      "Any Richmond or Metro Vancouver population: not used.",
+      "BC graduation requirements: the source was blocked, so none are stated.",
+      "That our classes earn BC credits: refused; we do not grant British Columbia credits.",
+      "Recommending Claude or Claude Code to anyone under 18: refused under Anthropic's terms.",
+      "Any affiliation with the City of Richmond, Metro Vancouver, the BC ministry or CEMC."
+    ]
   }
 }
