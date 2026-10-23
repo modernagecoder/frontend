@@ -56004,5 +56004,66 @@
       "Any ranking of Burnaby coding providers, or that Modern Age Coders is the best: refused.",
       "Any affiliation with the City of Burnaby, the Burnaby school district, the BC education ministry, CEMC or the University of Waterloo."
     ]
+  },
+  "best-coding-classes-for-kids-in-kitchener": {
+    "market": "Kitchener",
+    "bodyClass": "cg-bkk",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grade 7 C3.1 (defined count and subprogram), the sub-program reuse note and rectangle-area example, the student-voice note on staying calm, and Grade 8 C3.1 (analysis of data). CEMC free resources (Problem of the Week for Grades 3 to 12, courseware for Grades 4 to 12 with no certificate, past contests from the last 10 years, CS Circles, no registration or fee), BCC 7/8 eligibility and dates, Gauss dates, through-a-school rule. Kitchener and Waterloo in one CMA, SW Ontario area codes, Eastern time offsets (facts-geo.md; IANA tzdb 2026e).",
+    "localProject": "City of Kitchener open data, Playgrounds (Open Government Licence - The Corporation of the City of Kitchener), portal CSV downloaded 22 October 2026 (162,622 bytes, 337 rows; the live service reported 340) and checked with our script page_script.py (python -I): CONSTRUCTION_YEAR blank 92, PRE 72, numeric 173 (1998 to 2024); one INSTALLATION_DATE of 3013/06/18 on a row built 2013; 240 rows without an installation date; 48 of 77 rows agree on the year; 9 show installation before construction. Labelled as ours; no names printed. Lesson family: validating dates and flagging impossible values.",
+    "requiredMentions": [
+      "INSTALLATION_DATE in the year 3013",
+      "CONSTRUCTION_YEAR written as the word PRE",
+      "173 usable years, from 1998 to 2024",
+      "the live map service reported 340",
+      "Open Government Licence - The Corporation of the City of Kitchener",
+      "I need to stay calm, knowing that we may have to make a few tweaks",
+      "Problems e-mailed to educators for students from Grades 3 to 12",
+      "no certificate or credential awarded",
+      "Kitchener phones use 519 and 226"
+    ],
+    "sources": [
+      {
+        "claim": "Ontario curriculum content API: Grade 7 math strands (subprogram, defined count, reuse note, rectangle example, student voice).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_7___strands?depth=4"
+      },
+      {
+        "claim": "Ontario curriculum content API: Grade 8 math strands (analysis of data).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items/ele___math___grade_8___strands?depth=4"
+      },
+      {
+        "claim": "CEMC resources: free, no registration or fee.",
+        "url": "https://cemc.uwaterloo.ca/resources"
+      },
+      {
+        "claim": "CEMC Problem of the Week: Grades 3 to 12, weekly schedule.",
+        "url": "https://cemc.uwaterloo.ca/resources/potw"
+      },
+      {
+        "claim": "CEMC Courseware: Grades 4 to 12, no registration, no credential.",
+        "url": "https://cemc.uwaterloo.ca/resources/courseware"
+      },
+      {
+        "claim": "CEMC Beaver Computing Challenge and Gauss: eligibility and dates; through-a-school rule.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "City of Kitchener open data: Playgrounds dataset (update frequency daily; licence text in the item).",
+        "url": "https://open-kitchenergis.opendata.arcgis.com/datasets/443172cdd0a34d39a45b7b69530afb07_0"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets and the 2026-27 changes.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Kitchener population figure: StatCan was not reachable live.",
+      "That the 3013 installation date is 2013: refused as a fact; flagged as our likely reading only.",
+      "What PRE means in the construction year column: refused; the file does not define it.",
+      "Playground names, staff user names, manufacturers and school-board sites from the file: not printed.",
+      "That CEMC endorses or partners with us, or that we reproduce CEMC material: refused.",
+      "Any ranking of Kitchener coding providers, or that Modern Age Coders is the best: refused.",
+      "Any affiliation with the City of Kitchener, the local school boards, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
