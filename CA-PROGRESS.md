@@ -268,7 +268,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 96 | coding-classes-in-newfoundland-and-labrador (new, #236134) | prov | 4,508 | 1% vs ai-and-python-classes-for-teens-in-waterloo-ontario | province page | place names data | 535c8466 |
 | 99 | coding-classes-in-northwest-territories (nt, #4F4C85) | prov | 4,813 | 1.3% vs coding-classes-in-newfoundland-and-labrador | territory page | weather runs | ebc8252d |
 | 159 | math-tutor-toronto (mtt, #201870) | math-city | 4,215 | 0.9% vs coding-and-ai-classes-in-toronto | math city page | mean vs median | 078f4762 |
-| 160 | math-tutor-mississauga (matu, #6B2D34) | math-city | 3,922 | 1.2% vs math-tutor-toronto | math city page | growth rates and logs | (this commit) |
+| 160 | math-tutor-mississauga (matu, #6B2D34) | math-city | 3,922 | 1.2% vs math-tutor-toronto | math city page | growth rates and logs | 9d4c785a |
+| 161 | math-tutor-brampton (mtub, #8A1B15) | math-city | 4,059 | 1.7% vs math-tutor-mississauga | math city page | data cleaning and linear models | (this commit) |
 
 ## Skipped
 

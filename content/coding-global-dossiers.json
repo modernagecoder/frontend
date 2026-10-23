@@ -54903,5 +54903,70 @@
       "Names of Mississauga schools, boards or private people: not used.",
       "Any affiliation with the Region of Peel, the City of Mississauga, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
     ]
+  },
+  "math-tutor-brampton": {
+    "market": "Brampton",
+    "bodyClass": "cg-mtub",
+    "pageType": "city",
+    "curriculumAuthority": "Ontario, read 22 October 2026 from the Ontario curriculum content API and saved raw: Elementary Mathematics (2020) Grades 6 to 8 and C3 coding; MTH1W (2021) course description on modelling and coding; senior course titles. EQAO 2026-27 windows, the adaptive Grade 9 model and the course-mark rule. CEMC Gauss eligibility, format and 10 to 21 May 2027 window; Team Up Challenge for Grades 6 to 8 from 1 June 2027; the through-a-school rule. Brampton area codes and Eastern time offsets from facts-geo.md.",
+    "localProject": "City of Brampton, Brampton One Million Trees tracker layer (CC BY), downloaded 22 October 2026 in two pages. Our checks: 1,228 records; median 1; raw mean about 81,433,224,775 because objectid 1291 reports 100,000,000,000,000 trees; objectid 1292 dated 24 June 2027; after removing objectid 1291, 1,227 records, mean 19.21, 23,576 trees, 60 records of 100+ hold 76.6 percent; 1.5 x IQR fence of 3.5 flags 212 records. Worked linear model on the City's stated 50,000 a year from 2020. Labelled as ours. Lesson family: data cleaning and validity.",
+    "requiredMentions": [
+      "objectid 1291",
+      "100,000,000,000,000",
+      "24 June 2027",
+      "19.21",
+      "23,576",
+      "one million trees by 2040",
+      "holding 76.6 percent of the cleaned trees",
+      "flags 212 records",
+      "Records marked as planted by an organization number 838",
+      "43,000 trees a year"
+    ],
+    "sources": [
+      {
+        "claim": "City of Brampton: Brampton One Million Trees item (CC BY, programme target and pace, tracker description).",
+        "url": "https://www.arcgis.com/home/item.html?id=b6a1a530a4914ef3bcd1cbb2eb0300ac"
+      },
+      {
+        "claim": "City of Brampton: tree planting tracker open data feature service.",
+        "url": "https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Tree_Planting_Tracker_Open_Data/FeatureServer"
+      },
+      {
+        "claim": "Ontario curriculum content API: MTH1W course record (modelling and coding).",
+        "url": "https://ws.api.dcp.edu.gov.on.ca/content/api/items?system.type=l2___course&elements.code=MTH1W&depth=0"
+      },
+      {
+        "claim": "EQAO: 2026-27 windows; Grade 9 adaptive model and course-mark rule.",
+        "url": "https://www.eqao.com/the-assessments/grade-9-math/"
+      },
+      {
+        "claim": "CEMC: Gauss contest (eligibility, format, 2027 window).",
+        "url": "https://cemc.uwaterloo.ca/contests/gauss"
+      },
+      {
+        "claim": "CEMC: contest list for 2026/27, including the Team Up Challenge.",
+        "url": "https://cemc.uwaterloo.ca/contests"
+      },
+      {
+        "claim": "CEMC: how contests work (entry through a school).",
+        "url": "https://cemc.uwaterloo.ca/contests/how-contests-work"
+      },
+      {
+        "claim": "IANA tzdb northamerica: America/Toronto offsets for 2026-27.",
+        "url": "https://data.iana.org/time-zones/tzdb/northamerica"
+      }
+    ],
+    "rejectedClaims": [
+      "Any Brampton population figure: StatCan was not reachable live.",
+      "That the programme is ahead of or behind its target: the open tracker layer is a self-reported sample, so no progress claim is made.",
+      "That 43,000 trees a year is a City figure: presented only as our arithmetic on the City's sentence.",
+      "Which version of CC BY applies: the item says only \"CC BY\", so no version number is printed.",
+      "Who entered objectid 1291 or why: not known, not guessed.",
+      "Other tutors' rates in Brampton: not sourced, so not printed.",
+      "Any fee figure or currency in the copy: fees render from the template only.",
+      "That our lessons earn an Ontario credit: refused; we do not grant Ontario credits.",
+      "Names of Brampton schools, boards or private people: not used.",
+      "Any affiliation with the City of Brampton, the Ontario Ministry of Education, EQAO, CEMC or the University of Waterloo."
+    ]
   }
 }
