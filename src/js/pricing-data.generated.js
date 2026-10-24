@@ -144,7 +144,7 @@ window.MAC_PRICING = {
     "label": "Payment gateway charges"
   },
   "canada": {
-    "live": false,
+    "live": true,
     "timeZones": [
       "America/Toronto",
       "America/Montreal",

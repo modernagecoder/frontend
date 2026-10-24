@@ -109,7 +109,7 @@
   //  after the backend that accepts CAD is deployed.
   // ───────────────────────────────────────────────────────────────────────
   "canada": {
-    "live": false,
+    "live": true,
     "timeZones": ["America/Toronto", "America/Montreal", "America/Vancouver", "America/Edmonton", "America/Winnipeg",
       "America/Regina", "America/Swift_Current", "America/Halifax", "America/Glace_Bay", "America/Moncton",
       "America/Goose_Bay", "America/St_Johns", "America/Whitehorse", "America/Dawson", "America/Dawson_Creek",
