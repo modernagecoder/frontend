@@ -353,9 +353,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Try one class without paying. From then on you pay by the month for eight live lessons, the amount is labelled with its currency code, and there is no contract: stopping after any month is fine.
 
-- Free first class: USD 0. Opening class at no charge. Bring a project idea, or none. No card details.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. One teacher all term. Pick a batch time. Monthly billing.
-- One to one: USD 150 a month. Private lessons for your teen. Around exams and job shifts. Built on their own project.
+- Free first class: Free. Opening class at no charge. Bring a project idea, or none. No card details.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. One teacher all term. Pick a batch time. Monthly billing.
+- One to one: CAD 210 a month. Private lessons for your teen. Around exams and job shifts. Built on their own project.
 
 ## The Waterloo AIF: common questions
 

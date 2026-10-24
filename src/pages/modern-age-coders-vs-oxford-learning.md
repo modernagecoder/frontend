@@ -286,9 +286,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 A single monthly fee for eight live classes, shown below in your region's currency. No assessment charge and no registration fee; billing is monthly and can be cancelled at any time.
 
-- Free first class: USD 0. The first class at no cost. Placement by a math teacher. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty in a batch. One teacher throughout. A batch time you choose. Paid monthly.
-- One to one: USD 150 a month. A teacher for one student. Paced to the school course. Math, coding or both.
+- Free first class: Free. The first class at no cost. Placement by a math teacher. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty in a batch. One teacher throughout. A batch time you choose. Paid monthly.
+- One to one: CAD 210 a month. A teacher for one student. Paced to the school course. Math, coding or both.
 
 ## Oxford Learning and Modern Age Coders: what parents ask
 

@@ -249,9 +249,9 @@ Learners join from home, so the island, Laval and the South Shore all share the 
 
 Three lines, each printed with its currency code.
 
-- First class: USD 0. A full live lesson without charge, after which we recommend a level, a course and a time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a group of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. The monthly fee for one learner and one teacher, scheduled around the learner.
+- First class: Free. A full live lesson without charge, after which we recommend a level, a course and a time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a group of fifteen to twenty learners at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for one learner and one teacher, scheduled around the learner.
 
 Montreal learners pay the same monthly fee as learners anywhere in Canada. Billing begins only after the free lesson, once a course and time are agreed; the pricing page covers holidays and missed sessions.
 

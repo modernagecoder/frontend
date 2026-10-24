@@ -219,9 +219,9 @@ Lessons are online, so a student by the lake and one north of the QEW share a te
 
 Each fee appears in your own currency, with the currency code beside it.
 
-- First class: USD 0. The first live lesson, free, ending with a recommended course and level.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty students at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one student with one teacher, scheduled with you.
+- First class: Free. The first live lesson, free, ending with a recommended course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty students at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one student with one teacher, scheduled with you.
 
 The fee in Burlington is the fee everywhere in Canada. You pay only after the free lesson, once the course and time suit you; the pricing page covers missed classes and holidays.
 

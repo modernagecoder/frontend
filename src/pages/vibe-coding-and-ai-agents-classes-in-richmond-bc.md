@@ -239,9 +239,9 @@ Nobody crosses a bridge for a lesson. Every class is live, online and taught by 
 
 Three lines, each shown in your own currency by the price anchor.
 
-- First class: USD 0. A full live lesson at no cost, ending with a placement and a course suggestion.
-- Group tuition: USD 100 a month. The monthly fee for a batch of fifteen to twenty learners of one age group, eight live classes a month.
-- Private tuition: USD 150 a month. The monthly fee for one teacher and one learner, at times that suit you.
+- First class: Free. A full live lesson at no cost, ending with a placement and a course suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for a batch of fifteen to twenty learners of one age group, eight live classes a month.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher and one learner, at times that suit you.
 
 Richmond pays the same monthly fee as the rest of Canada. Nothing is billed before the free lesson, and adults working around shifts can pause between months.
 

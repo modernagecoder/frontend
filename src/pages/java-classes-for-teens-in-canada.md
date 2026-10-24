@@ -310,9 +310,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 A monthly fee buys eight live classes. Families can stop at the end of any month, which suits a student who wants help only through one semester.
 
-- Free first class: USD 0. A free first class. A short Java program to read together. No card asked for.
-- Group batch: USD 100 a month. A class of fifteen to twenty. One regular teacher. A steady weekly time. Paid by the month.
-- One to one: USD 150 a month. One teacher, one student. Paced to your school course. Feedback on your own programs.
+- Free first class: Free. A free first class. A short Java program to read together. No card asked for.
+- Group batch: CAD 140 a month. A class of fifteen to twenty. One regular teacher. A steady weekly time. Paid by the month.
+- One to one: CAD 210 a month. One teacher, one student. Paced to your school course. Feedback on your own programs.
 
 ## Java for teens in Canada: common questions
 

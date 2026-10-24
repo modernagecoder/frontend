@@ -203,9 +203,9 @@ A child in Willowdale and a child near Don Mills join the same class from home, 
 
 There are three lines below, each with its currency printed next to it.
 
-- First class: USD 0. A real live lesson at no cost, which ends with a level, a course and a time we suggest.
-- Group tuition: USD 100 a month. The monthly fee for a seat in a batch of fifteen to twenty children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for lessons with one teacher and your child only, at times you choose.
+- First class: Free. A real live lesson at no cost, which ends with a level, a course and a time we suggest.
+- Group tuition: CAD 140 a month. The monthly fee for a seat in a batch of fifteen to twenty children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for lessons with one teacher and your child only, at times you choose.
 
 North York families pay what families pay everywhere in Canada. The first invoice comes after the free lesson, when you have chosen a course and a time; how missed classes and breaks work is set out on the pricing page.
 

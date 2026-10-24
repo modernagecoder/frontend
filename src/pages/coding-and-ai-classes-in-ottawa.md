@@ -251,9 +251,9 @@ Because every class is online, a student in Stittsville and one in Hull can shar
 
 Each line shows the fee with its currency code, so there is no guessing.
 
-- First class: USD 0. A complete live lesson, free, after which we suggest a level, a course and a time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a group of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. The monthly fee for one learner with one teacher, at hours the family picks.
+- First class: Free. A complete live lesson, free, after which we suggest a level, a course and a time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a group of fifteen to twenty learners at one level.
+- Private tuition: CAD 210 a month. The monthly fee for one learner with one teacher, at hours the family picks.
 
 An Ottawa family pays what a family in any other Canadian city pays. Nothing is charged until the free lesson is done and the course and time are agreed; the pricing page explains holidays and missed classes.
 

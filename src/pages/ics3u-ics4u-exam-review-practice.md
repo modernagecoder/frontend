@@ -547,9 +547,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Your first class costs nothing. Families then pay a monthly fee for eight live classes a month, displayed below in your currency, with no contract beyond the month, so you can stop once the exam is over.
 
-- Free first class: USD 0. A free first class. Bring an old test or the outline. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty per batch. One regular teacher. Batch time of your choice. Paid each month.
-- One to one: USD 150 a month. A private teacher. Sessions near the exam date. Planned from their own tests.
+- Free first class: Free. A free first class. Bring an old test or the outline. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty per batch. One regular teacher. Batch time of your choice. Paid each month.
+- One to one: CAD 210 a month. A private teacher. Sessions near the exam date. Planned from their own tests.
 
 ## ICS3U and ICS4U exams: common questions
 

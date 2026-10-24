@@ -406,12 +406,24 @@ function syncLlmsTxt(config) {
     const WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six'];
     const count = WORDS[indiaTiers.length] || String(indiaTiers.length);
 
+    // Canada (owner 2026-10-23) is billed in Canadian dollars from its own row, so the
+    // flat USD sentence must not claim to cover it.
+    const ca = config.plans.coding.canada || {};
+    const gCa = (gemini.canada || {}).personal;
+    const cadAmt = function (n) { return 'CAD ' + cfgLib.format(n, 'CAD', { style: 'plain' }); };
+    const canadaNote = (ca.group != null && ca.personal != null)
+        ? ' Students in Canada are charged in Canadian dollars: ' + cadAmt(ca.group) +
+          ' per month for group classes and ' + cadAmt(ca.personal) + ' for one-on-one' +
+          (geminiNote && gCa != null ? ', and ' + cadAmt(gCa) + ' per month for the Gemini Enterprise programme' : '') + '.'
+        : '';
+
     const answer = 'A: In India there are ' + count + ' tiers, all billed monthly with no lock-in: ' +
         indiaTiers.join(', ') + '.' + mathsNote +
         agentsNote + ' ' +
-        'Outside India the pricing is a flat ' + usd(intl.group) + ' per month for group classes and ' +
+        'Outside India' + (canadaNote ? ' and Canada' : '') + ' the pricing is a flat ' + usd(intl.group) + ' per month for group classes and ' +
         usd(intl.personal) + ' for one-on-one, in US dollars, for all courses' +
         (geminiNote ? ' except the Gemini Enterprise programme below' : '') + '.' + geminiNote +
+        canadaNote +
         ' A free demo class is available before enrollment, with no card required.';
 
     // Wrap to the file's existing line width so it stays readable.

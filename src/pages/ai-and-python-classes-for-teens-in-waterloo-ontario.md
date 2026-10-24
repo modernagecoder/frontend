@@ -258,9 +258,9 @@ Classes are online, so a teen near Uptown Waterloo and one in Cambridge sit in t
 
 Each fee below shows in your own currency, with the code printed next to it.
 
-- First class: USD 0. A full live lesson, free, ending with a placement and a suggested course.
-- Group tuition: USD 100 a month. The monthly fee for a batch of fifteen to twenty teens working at the same level.
-- Private tuition: USD 150 a month. The monthly fee for one teacher with one teen, at hours the family picks.
+- First class: Free. A full live lesson, free, ending with a placement and a suggested course.
+- Group tuition: CAD 140 a month. The monthly fee for a batch of fifteen to twenty teens working at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher with one teen, at hours the family picks.
 
 A Waterloo family pays the same as one anywhere in Canada. Billing begins only once the free lesson is done and a course and hours are agreed; the pricing page covers missed lessons and holiday weeks.
 

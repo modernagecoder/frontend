@@ -371,9 +371,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is free. After that a monthly fee covers eight live classes a month; the figure below appears in your local currency, and there is no long contract, so you can stop at the end of a month.
 
-- Free first class: USD 0. A free first class. Talk through the U or C choice. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty in a batch. A regular teacher. A batch time you choose. Billed monthly.
-- One to one: USD 150 a month. Your teen and one teacher. Times that suit your week. Planned from their own course.
+- Free first class: Free. A free first class. Talk through the U or C choice. No card details.
+- Group batch: CAD 140 a month. Fifteen to twenty in a batch. A regular teacher. A batch time you choose. Billed monthly.
+- One to one: CAD 210 a month. Your teen and one teacher. Times that suit your week. Planned from their own course.
 
 ## ICS3U vs ICS3C: common questions
 

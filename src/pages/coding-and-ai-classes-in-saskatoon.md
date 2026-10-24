@@ -209,9 +209,9 @@ A student on either side of the river joins the same lesson from home, with the 
 
 Three choices, each shown in the currency your browser displays.
 
-- First class: USD 0. A full live lesson at no charge, ending with a suggested level and course.
-- Group tuition: USD 100 a month. The monthly fee for a group of 15 to 20 students working at one level.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons at times you choose.
+- First class: Free. A full live lesson at no charge, ending with a suggested level and course.
+- Group tuition: CAD 140 a month. The monthly fee for a group of 15 to 20 students working at one level.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons at times you choose.
 
 Saskatoon families pay the same monthly fee as families in every other province. Nothing is charged before the free lesson, and the pricing page covers missed classes and holidays.
 

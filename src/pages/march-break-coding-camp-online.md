@@ -275,9 +275,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 There is no separate camp fee. Break-week classes are part of our normal monthly fee, which this section shows in your own currency, paid one month at a time.
 
-- Free first class: USD 0. A free first class, during the break if you like. A project idea for the week. No card needed.
-- Group batch: USD 100 a month. Join a batch of 15 to 20. Eight live classes a month. Your teacher stays on after the break.
-- One to one: USD 150 a month. One-to-one classes. Booked on the break days you choose. Planned around one project.
+- Free first class: Free. A free first class, during the break if you like. A project idea for the week. No card needed.
+- Group batch: CAD 140 a month. Join a batch of 15 to 20. Eight live classes a month. Your teacher stays on after the break.
+- One to one: CAD 210 a month. One-to-one classes. Booked on the break days you choose. Planned around one project.
 
 ## March Break and PA day coding: questions and answers
 

@@ -300,9 +300,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Each month's fee covers eight live Python classes, paid month by month. Adults working around shifts and families with busy terms can pause between months without a penalty.
 
-- Free first class: USD 0. A free first class. Python installed and running. No payment details taken.
-- Group batch: USD 100 a month. Fifteen to twenty learners of one age band. A regular teacher. A fixed weekly slot. Monthly billing.
-- One to one: USD 150 a month. Your own teacher. Your pace and your project. Times arranged around you.
+- Free first class: Free. A free first class. Python installed and running. No payment details taken.
+- Group batch: CAD 140 a month. Fifteen to twenty learners of one age band. A regular teacher. A fixed weekly slot. Monthly billing.
+- One to one: CAD 210 a month. Your own teacher. Your pace and your project. Times arranged around you.
 
 ## Learning Python in Canada: common questions
 

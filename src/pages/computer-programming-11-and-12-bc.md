@@ -560,9 +560,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Start with a free class. Then a monthly fee covers eight live classes a month, shown in your own currency on this page, with no term contract: stop at the end of any month.
 
-- Free first class: USD 0. A free first class. Bring the current project. No card details asked.
-- Group batch: USD 100 a month. Fifteen to twenty students. A regular teacher. Choose the batch time. Billed month by month.
-- One to one: USD 150 a month. Your teen and one teacher. Times set around deadlines. Built on their own outline.
+- Free first class: Free. A free first class. Bring the current project. No card details asked.
+- Group batch: CAD 140 a month. Fifteen to twenty students. A regular teacher. Choose the batch time. Billed month by month.
+- One to one: CAD 210 a month. Your teen and one teacher. Times set around deadlines. Built on their own outline.
 
 ## Computer Programming 11 and 12: common questions
 

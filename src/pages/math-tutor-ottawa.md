@@ -216,9 +216,9 @@ Kanata, Barrhaven, Orléans or the Glebe: lessons reach the student at home, whi
 
 Displayed in the currency that matches your location.
 
-- First class: USD 0. A full live lesson without charge, ending with our recommended course and level.
-- Group tuition: USD 100 a month. The monthly fee for a live class of 15 to 20 students at one level.
-- Private tuition: USD 150 a month. The monthly fee for a teacher working with one student at chosen times.
+- First class: Free. A full live lesson without charge, ending with our recommended course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a live class of 15 to 20 students at one level.
+- Private tuition: CAD 210 a month. The monthly fee for a teacher working with one student at chosen times.
 
 Ottawa families pay the same fee as any family in Canada. Billing waits until after the free lesson and until a course and time are agreed.
 

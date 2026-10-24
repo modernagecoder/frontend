@@ -343,9 +343,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Begin with a free class. Ongoing lessons are billed monthly for eight live classes, shown in the currency of your region; nothing ties you to a term, and you can end at the close of any month.
 
-- Free first class: USD 0. A free first class. Bring the latest test or quiz. No card needed to book.
-- Group batch: USD 100 a month. Fifteen to twenty students. A regular teacher. Choose a batch time. Monthly billing.
-- One to one: USD 150 a month. One student, one teacher. Lessons fitted to test dates. Paced to the school outline.
+- Free first class: Free. A free first class. Bring the latest test or quiz. No card needed to book.
+- Group batch: CAD 140 a month. Fifteen to twenty students. A regular teacher. Choose a batch time. Monthly billing.
+- One to one: CAD 210 a month. One student, one teacher. Lessons fitted to test dates. Paced to the school outline.
 
 ## Pre-calculus 12: common questions
 

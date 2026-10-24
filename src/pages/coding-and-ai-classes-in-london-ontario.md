@@ -223,9 +223,9 @@ Everything happens on a home computer, so a student in north London and one in t
 
 Three options, priced in the currency your browser shows.
 
-- First class: USD 0. One complete live lesson, free, finishing with a suggested level and course.
-- Group tuition: USD 100 a month. The monthly fee for a class of 15 to 20 students at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for a private teacher, at times that suit the student.
+- First class: Free. One complete live lesson, free, finishing with a suggested level and course.
+- Group tuition: CAD 140 a month. The monthly fee for a class of 15 to 20 students at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for a private teacher, at times that suit the student.
 
 The monthly fee in London is the same as anywhere else in Canada. Billing begins only after the free lesson and once a course and time are agreed; the pricing page explains missed classes and holidays.
 

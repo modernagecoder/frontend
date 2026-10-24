@@ -224,9 +224,9 @@ Woodbridge, Maple, Thornhill or Kleinburg: lessons reach the student at home, wi
 
 The amounts below appear in the currency for where you are.
 
-- First class: USD 0. A full live lesson at no cost, ending with a recommended course and level.
-- Group tuition: USD 100 a month. The monthly fee for a live group of 15 to 20 students at the same level.
-- Private tuition: USD 150 a month. The monthly fee for one teacher with one student, at times that suit you.
+- First class: Free. A full live lesson at no cost, ending with a recommended course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a live group of 15 to 20 students at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher with one student, at times that suit you.
 
 Vaughan families pay the Canada-wide fee; there is no city surcharge. We charge nothing until the free lesson is done and you have said yes to a course and a time.
 

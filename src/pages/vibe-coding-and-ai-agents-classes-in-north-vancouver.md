@@ -231,9 +231,9 @@ No bridge, no SeaBus, no parking. Lessons are live with a teacher who follows th
 
 Three items, each shown in your currency by the price anchor.
 
-- First class: USD 0. A trial lesson at no charge that ends with a placement.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty, eight live classes a month.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with your own teacher.
+- First class: Free. A trial lesson at no charge that ends with a placement.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty, eight live classes a month.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with your own teacher.
 
 North Shore learners pay the same monthly fee as learners anywhere else in Canada. You are billed only after the trial lesson, when a course and a time suit you.
 

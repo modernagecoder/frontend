@@ -234,9 +234,9 @@ No long drives across the city. Lessons are live on video, with a teacher who wa
 
 Each figure below appears in the currency of wherever you are browsing from.
 
-- First class: USD 0. A full first lesson at no charge, with a placement at the end.
-- Group tuition: USD 100 a month. The monthly fee for a class of fifteen to twenty, eight live lessons a month.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons at times you choose.
+- First class: Free. A full first lesson at no charge, with a placement at the end.
+- Group tuition: CAD 140 a month. The monthly fee for a class of fifteen to twenty, eight live lessons a month.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons at times you choose.
 
 Sudbury fees are identical to fees in every other Canadian city. We bill nothing until the free lesson is over and you have chosen both course and time.
 

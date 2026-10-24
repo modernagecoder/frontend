@@ -230,9 +230,9 @@ Classes happen at home on a computer, with a live teacher who can see the learne
 
 Three lines, with your own currency printed by the price anchor.
 
-- First class: USD 0. An opening lesson at no cost, finishing with a level and a course suggestion.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty in one age group, eight live classes a month.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher, at times you pick.
+- First class: Free. An opening lesson at no cost, finishing with a level and a course suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty in one age group, eight live classes a month.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher, at times you pick.
 
 Milton families and adults pay what everyone else in Canada pays. Billing begins only after the free lesson, once a course and a time are agreed.
 

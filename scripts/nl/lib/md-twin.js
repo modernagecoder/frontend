@@ -8,6 +8,7 @@
  */
 const { course } = require('./catalogue');
 const { FLAGSHIPS, groupLabel } = require('./render-cg');
+const { feeText } = require('./fee-anchor');
 const fs = require('fs');
 const path = require('path');
 
@@ -131,9 +132,9 @@ function twin(page) {
   out.push('');
   out.push(md(page.fees.intro));
   out.push('');
-  out.push(`- First class: USD 0. ${md(page.fees.first)}`);
-  out.push(`- Group tuition: USD 100 a month. ${md(page.fees.group)}`);
-  out.push(`- Private tuition: USD 150 a month. ${md(page.fees.private)}`);
+  out.push(`- First class: ${feeText(page, 'free')}. ${md(page.fees.first)}`);
+  out.push(`- Group tuition: ${feeText(page, 'group')} a month. ${md(page.fees.group)}`);
+  out.push(`- Private tuition: ${feeText(page, 'personal')} a month. ${md(page.fees.private)}`);
   out.push('');
   out.push(md(page.fees.closer));
   out.push('');

@@ -345,9 +345,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Your first class is free. Families then pay one monthly fee for eight live classes a month; the price box shows the amount with its currency code. Nothing is signed for a term, and a family that wants to stop simply tells us before the next month begins.
 
-- Free first class: USD 0. A free first class. A short placement chat. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty children. Grouped by age. One regular teacher. Paid month by month.
-- One to one: USD 150 a month. A teacher for one child. Times that suit your week. Planned from their grade.
+- Free first class: Free. A free first class. A short placement chat. No card details.
+- Group batch: CAD 140 a month. Fifteen to twenty children. Grouped by age. One regular teacher. Paid month by month.
+- One to one: CAD 210 a month. A teacher for one child. Times that suit your week. Planned from their grade.
 
 ## Coding in Ontario elementary math: common questions
 

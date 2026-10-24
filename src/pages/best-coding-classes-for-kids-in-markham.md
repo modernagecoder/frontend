@@ -241,9 +241,9 @@ Your child joins from home; the teacher joins from India; the lesson is live, wi
 
 Three lines; the currency code is printed beside each fee.
 
-- First class: USD 0. A complete live trial lesson, free, finishing with a suggested course and level.
-- Group tuition: USD 100 a month. The monthly fee for a group place among 15 to 20 children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher, at times you pick.
+- First class: Free. A complete live trial lesson, free, finishing with a suggested course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a group place among 15 to 20 children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher, at times you pick.
 
 Markham families are charged exactly what any Canadian family is charged. There is no bill before the free trial lesson; payment starts once you have agreed a course and a time, and the pricing page covers missed lessons and holidays.
 

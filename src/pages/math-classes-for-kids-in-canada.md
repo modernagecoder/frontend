@@ -316,9 +316,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The monthly fee covers eight live classes with the same teacher. You pay one month at a time, with nothing to sign for the school year, and you can pause over the summer.
 
-- Free first class: USD 0. A free first class. A placement chat with your child. No card details needed.
-- Group batch: USD 100 a month. Fifteen to twenty children in a batch. Grouped by grade and level. Eight live classes a month. Paid monthly.
-- One to one: USD 150 a month. A teacher to your child alone. Paced to your child. Built around school topics.
+- Free first class: Free. A free first class. A placement chat with your child. No card details needed.
+- Group batch: CAD 140 a month. Fifteen to twenty children in a batch. Grouped by grade and level. Eight live classes a month. Paid monthly.
+- One to one: CAD 210 a month. A teacher to your child alone. Paced to your child. Built around school topics.
 
 ## Math classes for kids: common questions
 

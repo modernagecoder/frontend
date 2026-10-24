@@ -310,9 +310,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Everything CEMC publishes is free, and we keep it that way. Our monthly fee is for live teaching only, without a long contract, so a family can use our classes for a term and return to self-study.
 
-- Free first class: USD 0. A free first class. A look at the student's current CEMC work. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. The same teacher weekly. A batch time of your choice. Monthly fee.
-- One to one: USD 150 a month. A teacher for one student. Fitted around the student's routine. Problems chosen to the level.
+- Free first class: Free. A free first class. A look at the student's current CEMC work. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. The same teacher weekly. A batch time of your choice. Monthly fee.
+- One to one: CAD 210 a month. A teacher for one student. Fitted around the student's routine. Problems chosen to the level.
 
 ## CEMC free resources: common questions
 

@@ -289,9 +289,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Our fee pays for teaching only: a monthly fee for eight live classes a month, with no contract for the school year, so a student can stop once the Grade 12 course is done. School fees and exam arrangements are separate, with the school.
 
-- Free first class: USD 0. A free first class. A short diagnostic on algebra and functions. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Billed each month.
-- One to one: USD 150 a month. A teacher to yourself. Paced to your school's test dates. Built from your own unit tests.
+- Free first class: Free. A free first class. A short diagnostic on algebra and functions. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Billed each month.
+- One to one: CAD 210 a month. A teacher to yourself. Paced to your school's test dates. Built from your own unit tests.
 
 ## Grade 12 math across Canada: common questions
 

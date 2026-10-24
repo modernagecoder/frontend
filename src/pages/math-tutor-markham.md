@@ -226,9 +226,9 @@ Unionville, Cornell or Markham Village: the lesson reaches the student at home, 
 
 Three options, shown in your own currency.
 
-- First class: USD 0. One complete live lesson, free, finishing with a recommended course and level.
-- Group tuition: USD 100 a month. The monthly fee for a live class of fifteen to twenty at the same level.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one teaching at times you choose.
+- First class: Free. One complete live lesson, free, finishing with a recommended course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a live class of fifteen to twenty at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one teaching at times you choose.
 
 Markham families pay the same fee as families anywhere in Canada. Nothing is billed until after the free lesson, once the course and the time are settled.
 

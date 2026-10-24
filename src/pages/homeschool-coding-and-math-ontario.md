@@ -281,9 +281,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Each month's fee pays for eight live classes with one regular teacher. Home-schooling plans change, so there is no yearly commitment: pay month by month and pause when your family needs to.
 
-- Free first class: USD 0. A free first class. A placement check in coding or math. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty students per batch. Grouped by age and level. Daytime and weekend options. Monthly billing.
-- One to one: USD 150 a month. One teacher for your child. Matched to your home-school plan. Moves at your child's speed.
+- Free first class: Free. A free first class. A placement check in coding or math. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty students per batch. Grouped by age and level. Daytime and weekend options. Monthly billing.
+- One to one: CAD 210 a month. One teacher for your child. Matched to your home-school plan. Moves at your child's speed.
 
 ## Homeschool coding and math in Ontario: common questions
 

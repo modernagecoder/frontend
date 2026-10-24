@@ -248,9 +248,9 @@ Online teaching makes distance irrelevant: a student on the Avalon and a student
 
 A free first lesson, then one of two monthly fees, each shown in your own currency.
 
-- First class: USD 0. A complete first lesson with a teacher, free, ending in a recommended level, course and class time.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty students at the same stage, with eight live classes a month.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one teaching, at times agreed with the family.
+- First class: Free. A complete first lesson with a teacher, free, ending in a recommended level, course and class time.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty students at the same stage, with eight live classes a month.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one teaching, at times agreed with the family.
 
 The fee is the same across Canada, wherever a family lives. Nothing is charged before the free lesson, and the pricing page explains holidays and missed classes.
 

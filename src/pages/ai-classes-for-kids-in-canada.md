@@ -307,9 +307,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The fee is monthly and covers eight live classes. AI Literacy for Kids runs sixteen weeks, and families pay month by month rather than for the whole course at once.
 
-- Free first class: USD 0. A free first class. A sorting game that shows how machines learn. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty children of a similar age. A regular teacher. A fixed weekly time. Paid monthly.
-- One to one: USD 150 a month. One child, one teacher. A project of the child's choosing. Times that suit your family.
+- Free first class: Free. A free first class. A sorting game that shows how machines learn. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty children of a similar age. A regular teacher. A fixed weekly time. Paid monthly.
+- One to one: CAD 210 a month. One child, one teacher. A project of the child's choosing. Times that suit your family.
 
 ## AI classes for kids in Canada: common questions
 

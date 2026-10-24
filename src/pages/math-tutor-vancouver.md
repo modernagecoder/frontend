@@ -223,9 +223,9 @@ A student in Kitsilano and one in Renfrew-Collingwood can share one teacher with
 
 Three lines, displayed in the currency of your location.
 
-- First class: USD 0. One full live lesson at no charge, with a suggested course and level at the end.
-- Group tuition: USD 100 a month. The monthly fee for eight live classes with fifteen to twenty students at one stage.
-- Private tuition: USD 150 a month. The monthly fee for eight one-to-one lessons with a single teacher.
+- First class: Free. One full live lesson at no charge, with a suggested course and level at the end.
+- Group tuition: CAD 140 a month. The monthly fee for eight live classes with fifteen to twenty students at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for eight one-to-one lessons with a single teacher.
 
 The fee in Vancouver is the same as anywhere else in Canada. Billing begins only once the free lesson is done and a course and time are agreed; holiday and missed-class rules are on the pricing page.
 

@@ -339,9 +339,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 You are billed once a month for eight live classes, each with code review. There is no contract for the length of the course: pay a month at a time and stop when you choose, which suits adults whose work and family weeks change.
 
-- Free first class: USD 0. A free first class. Set up your editor with the teacher. No card details asked for.
-- Group batch: USD 100 a month. Fifteen to twenty adults in a batch. One teacher for the whole course. An evening or weekend slot of your choosing. Paid a month at a time.
-- One to one: USD 150 a month. A private teacher. Paced to your goals. Projects from your own work or interests.
+- Free first class: Free. A free first class. Set up your editor with the teacher. No card details asked for.
+- Group batch: CAD 140 a month. Fifteen to twenty adults in a batch. One teacher for the whole course. An evening or weekend slot of your choosing. Paid a month at a time.
+- One to one: CAD 210 a month. A private teacher. Paced to your goals. Projects from your own work or interests.
 
 ## Coding for adults: common questions
 

@@ -307,9 +307,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Check five, applied to us: the monthly fee appears here in your own currency. Months are paid one at a time, with nothing to sign for the school year.
 
-- Free first class: USD 0. A free first class. A short diagnostic. No card details needed.
-- Group batch: USD 100 a month. Groups of 15 to 20. Eight live lessons monthly. One teacher who knows the course code.
-- One to one: USD 150 a month. One student, one teacher. Planned to your course code. Times your family chooses.
+- Free first class: Free. A free first class. A short diagnostic. No card details needed.
+- Group batch: CAD 140 a month. Groups of 15 to 20. Eight live lessons monthly. One teacher who knows the course code.
+- One to one: CAD 210 a month. One student, one teacher. Planned to your course code. Times your family chooses.
 
 ## Choosing a math tutor in Canada: questions and answers
 

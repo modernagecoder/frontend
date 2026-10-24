@@ -260,9 +260,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Begin with one free class. After it, eight live classes a month cost one monthly fee, printed in the box below with its currency code. You sign nothing for the year and can leave at any month&rsquo;s end.
 
-- Free first class: USD 0. A free first class. Bring a recent test. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty students. Grouped by grade. A regular teacher. Month-to-month.
-- One to one: USD 150 a month. A private teacher. Times you choose. Built on their weak spots.
+- Free first class: Free. A free first class. Bring a recent test. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty students. Grouped by grade. A regular teacher. Month-to-month.
+- One to one: CAD 210 a month. A private teacher. Times you choose. Built on their weak spots.
 
 ## EQAO Grade 6 math: common questions
 

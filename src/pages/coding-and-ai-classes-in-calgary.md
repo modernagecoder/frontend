@@ -227,9 +227,9 @@ Every class is online, so a student in the northwest and one in the deep south o
 
 The fees appear with their currency code beside each figure.
 
-- First class: USD 0. One complete live lesson at no charge, finished with a recommended level, course and time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a group of fifteen to twenty students at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher, at hours you choose.
+- First class: Free. One complete live lesson at no charge, finished with a recommended level, course and time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a group of fifteen to twenty students at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher, at hours you choose.
 
 A Calgary family pays the same monthly fee as a family anywhere else in Canada. Billing starts only once you have taken the free lesson and settled on a course and a time. Holidays and missed sessions are covered on the pricing page.
 

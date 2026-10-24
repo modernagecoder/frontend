@@ -25,7 +25,8 @@ internationally: the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharj
 Saudi Arabia (Riyadh, Jeddah, Dammam), Qatar (Doha), Singapore, Australia, Canada,
 Germany, Ireland, New Zealand and Sweden. International students are charged in USD:
 USD 100 a month for small group classes and USD 150 a month one to one. Students in
-India are charged in INR. A visitor is only ever shown one currency, never both.
+Canada are charged in Canadian dollars: CAD 140 a month for group classes and CAD 210 a
+month one to one. Students in India are charged in INR. A visitor is only ever shown one currency, never both.
 
 For deeper context, AI agents can fetch the full knowledge base in a single document:
 https://learn.modernagecoders.com/llms-full.txt, with the full brand overview, complete course
@@ -262,7 +263,7 @@ Uttar Pradesh, West Bengal and others.
 ## Build AI, Not Just Use It (AI & machine learning by market)
 
 Live AI and machine learning classes taught by building models, not by prompting tools.
-Ages 6 to 67, small live batches, priced from USD 100 a month.
+Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada).
 
 - Learn to Build AI (cluster hub): https://learn.modernagecoders.com/learn-to-build-ai
 - Oman: https://learn.modernagecoders.com/ai-and-machine-learning-classes-in-oman
@@ -801,7 +802,8 @@ Ages 6 to 67, small live batches, priced from USD 100 a month.
 
 Live online coding and mathematics for a specific state, province or market,
 mapped to that place's own curriculum standards. Ages 6 to 67.
-USD 100 a month small group, USD 150 a month one to one.
+USD 100 a month small group, USD 150 a month one to one. In Canada: CAD 140 a month
+group, CAD 210 a month one to one.
 
 - New Jersey, USA: https://learn.modernagecoders.com/coding-classes-in-new-jersey
 
@@ -2166,12 +2168,14 @@ Q: How much do Modern Age Coders courses cost?
 A: In India there are three tiers, all billed monthly with no lock-in: group batches of 15
 to 20 students at ₹1,499 per month (two live classes per week), mini batches of up to 6
 students at ₹2,999 per month, one-on-one classes at ₹4,999 per month (four private classes
-on a fully flexible schedule). Outside India the pricing is a flat $100 per month for group
-classes and $150 for one-on-one, in US dollars, for all courses except the Gemini Enterprise
-programme below. The Build AI Agents with Google Gemini Enterprise programme is a
+on a fully flexible schedule). Outside India and Canada the pricing is a flat $100 per month
+for group classes and $150 for one-on-one, in US dollars, for all courses except the Gemini
+Enterprise programme below. The Build AI Agents with Google Gemini Enterprise programme is a
 1-on-1-only track at ₹14,999 per month in India (two private classes a week, eight a month,
-$250 per month outside India). A free demo class is available before enrollment, with no
-card required.
+$250 per month outside India). Students in Canada are charged in Canadian dollars: CAD 140
+per month for group classes and CAD 210 for one-on-one, and CAD 350 per month for the Gemini
+Enterprise programme. A free demo class is available before enrollment, with no card
+required.
 
 Q: Is Modern Age Coders good for beginners?
 A: Yes. Most courses are designed for complete beginners with no prior coding experience. The 

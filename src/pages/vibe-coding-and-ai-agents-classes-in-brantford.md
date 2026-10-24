@@ -217,9 +217,9 @@ Learners join from home. A live teacher sees their screen and asks them to expla
 
 Three items, each shown in your currency by the price anchor.
 
-- First class: USD 0. A full first session, free, that ends with a level and a course suggestion.
-- Group tuition: USD 100 a month. The monthly fee for a shared class of fifteen to twenty, eight live sessions a month.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher.
+- First class: Free. A full first session, free, that ends with a level and a course suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for a shared class of fifteen to twenty, eight live sessions a month.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher.
 
 Brantford pays the same monthly fee as every other Canadian city. Billing starts only after the free session, once you have picked a course and a slot.
 

@@ -232,9 +232,9 @@ Live online lessons at home, with a teacher who speaks clearly and checks often 
 
 Three options. The currency code is shown beside each fee.
 
-- First class: USD 0. A full live class at no cost, ending with a suggested level and course.
-- Group tuition: USD 100 a month. The monthly fee for a place in a class of 15 to 20 children at one stage.
-- Private tuition: USD 150 a month. The monthly fee for private lessons, which can go at your child&rsquo;s language pace.
+- First class: Free. A full live class at no cost, ending with a suggested level and course.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a class of 15 to 20 children at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons, which can go at your child&rsquo;s language pace.
 
 The monthly fee in Laval matches the fee anywhere else in Canada. Payment starts only after the free class, and only when a course and a time suit you; holidays and missed classes are explained on the pricing page.
 

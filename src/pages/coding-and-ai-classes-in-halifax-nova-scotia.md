@@ -208,9 +208,9 @@ There is no commute across the harbour: a student in Dartmouth and one on the pe
 
 Three options, each shown in the visitor&rsquo;s own currency.
 
-- First class: USD 0. A full live lesson at no cost, ending with a recommended level, course and class time.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty students at one stage, eight live classes a month.
-- Private tuition: USD 150 a month. The monthly fee for one teacher with one student, at times you choose.
+- First class: Free. A full live lesson at no cost, ending with a recommended level, course and class time.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty students at one stage, eight live classes a month.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher with one student, at times you choose.
 
 A Halifax family pays what a family in any other province pays. Nothing is charged until after the free lesson, once a course and time are agreed; missed classes and holidays are set out on the pricing page.
 

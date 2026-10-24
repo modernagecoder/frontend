@@ -622,9 +622,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Your first class is free. Families then pay a monthly fee for eight live classes a month; the fee is shown below in your own currency, there is no semester contract, and you can stop after any month.
 
-- Free first class: USD 0. A free first class. Bring the current unit or project. No card required.
-- Group batch: USD 100 a month. Batch of fifteen to twenty. The same teacher each week. Pick a batch time. Monthly payment.
-- One to one: USD 150 a month. One teacher, one student. Booked around deadlines. Built from their own course.
+- Free first class: Free. A free first class. Bring the current unit or project. No card required.
+- Group batch: CAD 140 a month. Batch of fifteen to twenty. The same teacher each week. Pick a batch time. Monthly payment.
+- One to one: CAD 210 a month. One teacher, one student. Booked around deadlines. Built from their own course.
 
 ## ICS4U: questions families ask
 

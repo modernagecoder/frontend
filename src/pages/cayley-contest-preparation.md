@@ -366,9 +366,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Ordering the paper from CEMC is the school's cost. Ours is the teaching, billed monthly, and a family can stop at the end of any month, including straight after the Cayley.
 
-- Free first class: USD 0. A free first class. A short Cayley-style warm-up. No payment details needed.
-- Group batch: USD 100 a month. A group of fifteen to twenty. Grade 10 students together. Your choice of batch. One month at a time.
-- One to one: USD 150 a month. Private lessons. Planned to your school's Cayley day. Every class on your own errors.
+- Free first class: Free. A free first class. A short Cayley-style warm-up. No payment details needed.
+- Group batch: CAD 140 a month. A group of fifteen to twenty. Grade 10 students together. Your choice of batch. One month at a time.
+- One to one: CAD 210 a month. Private lessons. Planned to your school's Cayley day. Every class on your own errors.
 
 ## Cayley Contest: questions and answers
 

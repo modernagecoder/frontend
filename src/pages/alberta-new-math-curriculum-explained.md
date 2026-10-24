@@ -271,9 +271,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Your first class is free. From the second month on it is one monthly fee for eight live classes, shown in your currency below, and you may stop whenever a month ends.
 
-- Free first class: USD 0. A free first class. Bring a recent worksheet. No card needed to book.
-- Group batch: USD 100 a month. Fifteen to twenty learners. A steady teacher. Batch time you choose. Monthly, no term contract.
-- One to one: USD 150 a month. Just your child. Times around school. Planned to their curriculum.
+- Free first class: Free. A free first class. Bring a recent worksheet. No card needed to book.
+- Group batch: CAD 140 a month. Fifteen to twenty learners. A steady teacher. Batch time you choose. Monthly, no term contract.
+- One to one: CAD 210 a month. Just your child. Times around school. Planned to their curriculum.
 
 ## Alberta&rsquo;s new math curriculum: common questions
 

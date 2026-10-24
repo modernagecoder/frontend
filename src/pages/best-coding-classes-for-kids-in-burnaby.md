@@ -207,9 +207,9 @@ Classes happen at home, live, with one teacher who knows your child. Nobody has 
 
 Three options; the currency code appears next to each fee.
 
-- First class: USD 0. A full live lesson, free, ending with a suggested course for your child&rsquo;s age.
-- Group tuition: USD 100 a month. The monthly fee for a place in a class of 15 to 20 children of a similar age and level.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher.
+- First class: Free. A full live lesson, free, ending with a suggested course for your child&rsquo;s age.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a class of 15 to 20 children of a similar age and level.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher.
 
 Burnaby families pay the same monthly fee as families anywhere in Canada. You are not charged until after the free lesson, once a course and a time are settled; holidays and missed lessons are covered on the pricing page.
 

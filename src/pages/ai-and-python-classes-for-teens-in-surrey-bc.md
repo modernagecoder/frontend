@@ -255,9 +255,9 @@ Classes are online, so a teen in Newton and another in Cloverdale, Delta or Whit
 
 Fees appear in your own currency, with the currency code printed beside each.
 
-- First class: USD 0. A complete live class at no cost, finishing with a placement and a course suggestion.
-- Group tuition: USD 100 a month. A monthly fee for eight live classes with fifteen to twenty teens at one level.
-- Private tuition: USD 150 a month. A monthly fee for one teacher with one student, at hours the family chooses.
+- First class: Free. A complete live class at no cost, finishing with a placement and a course suggestion.
+- Group tuition: CAD 140 a month. A monthly fee for eight live classes with fifteen to twenty teens at one level.
+- Private tuition: CAD 210 a month. A monthly fee for one teacher with one student, at hours the family chooses.
 
 Surrey families pay the same as families anywhere in Canada. There is no charge until after the free class and an agreed course and schedule; the pricing page covers missed lessons and school breaks.
 

@@ -217,9 +217,9 @@ Everything is taught live online. These are the arrangements that matter day to 
 
 Three lines, each showing the currency for your region.
 
-- First class: USD 0. One complete live lesson, free, with a recommended level and course at the end.
-- Group tuition: USD 100 a month. The monthly fee for a class of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. The monthly fee for a single learner with a teacher, at agreed times.
+- First class: Free. One complete live lesson, free, with a recommended level and course at the end.
+- Group tuition: CAD 140 a month. The monthly fee for a class of fifteen to twenty learners at one level.
+- Private tuition: CAD 210 a month. The monthly fee for a single learner with a teacher, at agreed times.
 
 Saint John learners pay the same fee as everyone in Canada. Payment begins only after the free lesson, once you have chosen a course and a time; the pricing page covers holidays and missed lessons.
 

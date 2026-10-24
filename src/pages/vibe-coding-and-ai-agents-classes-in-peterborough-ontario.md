@@ -222,9 +222,9 @@ Lessons happen at home, with a live teacher on video who follows the learner's s
 
 Three items, each displayed in your currency by the price anchor.
 
-- First class: USD 0. A free first lesson, taught in full, ending with a placement.
-- Group tuition: USD 100 a month. The monthly fee for a shared class of fifteen to twenty, eight live lessons a month.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with your own teacher.
+- First class: Free. A free first lesson, taught in full, ending with a placement.
+- Group tuition: CAD 140 a month. The monthly fee for a shared class of fifteen to twenty, eight live lessons a month.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with your own teacher.
 
 Peterborough learners pay the same monthly fee as learners elsewhere in Canada. You are billed only after the free lesson, once you have a course and a time.
 

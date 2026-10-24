@@ -302,9 +302,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 A single monthly fee pays for eight live classes. There is no contract for the year, so a teen can pause in exam season or over the summer and restart later.
 
-- Free first class: USD 0. A free first class. A placement program to read and explain. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty teenagers. The same teacher each week. Classes on weekdays or at weekends. Billed one month at a time.
-- One to one: USD 150 a month. A teacher to yourself. Paced to your school course. Built around your own projects.
+- Free first class: Free. A free first class. A placement program to read and explain. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty teenagers. The same teacher each week. Classes on weekdays or at weekends. Billed one month at a time.
+- One to one: CAD 210 a month. A teacher to yourself. Paced to your school course. Built around your own projects.
 
 ## Coding for teens in Canada: common questions
 

@@ -207,9 +207,9 @@ One regular teacher, a screen-sharing group or one to one, and no driving for an
 
 Three options, each with its currency code printed next to it.
 
-- First class: USD 0. A full live lesson at no charge, closing with a suggested level and course.
-- Group tuition: USD 100 a month. The monthly fee for a seat in a batch of 15 to 20 children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons at times you choose.
+- First class: Free. A full live lesson at no charge, closing with a suggested level and course.
+- Group tuition: CAD 140 a month. The monthly fee for a seat in a batch of 15 to 20 children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons at times you choose.
 
 Kelowna families pay what families pay everywhere in Canada. There is no charge until after the free lesson, and only once you have chosen a course and a time; holidays and missed lessons are covered on the pricing page.
 

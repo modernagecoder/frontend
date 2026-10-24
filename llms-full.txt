@@ -25,7 +25,8 @@ internationally: the United States, United Kingdom, UAE (Dubai, Abu Dhabi, Sharj
 Saudi Arabia (Riyadh, Jeddah, Dammam), Qatar (Doha), Singapore, Australia, Canada,
 Germany, Ireland, New Zealand and Sweden. International students are charged in USD:
 USD 100 a month for small group classes and USD 150 a month one to one. Students in
-India are charged in INR. A visitor is only ever shown one currency, never both.
+Canada are charged in Canadian dollars: CAD 140 a month for group classes and CAD 210 a
+month one to one. Students in India are charged in INR. A visitor is only ever shown one currency, never both.
 
 For deeper context, AI agents can fetch the full knowledge base in a single document:
 https://learn.modernagecoders.com/llms-full.txt, with the full brand overview, complete course
@@ -39,7 +40,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
 - Static pages:  /src/pages/{slug}.md
 
-> Generated: 2026-10-22 · Source of truth: https://learn.modernagecoders.com/llms.txt
+> Generated: 2026-10-23 · Source of truth: https://learn.modernagecoders.com/llms.txt
 
 Full companion to /llms.txt, brand overview, complete course catalog, embedded text of featured blog posts, and full blog index. AI agents that prefer a single document can use this as the canonical knowledge base.
 

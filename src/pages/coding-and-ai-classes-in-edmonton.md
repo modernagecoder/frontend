@@ -224,9 +224,9 @@ Lessons are live and online, so a student in Sherwood Park, St. Albert or the so
 
 Each figure below carries its currency code.
 
-- First class: USD 0. A full live lesson, free, ending with a suggested level, course and class time.
-- Group tuition: USD 100 a month. The monthly fee for one place in a class of fifteen to twenty students at the same level.
-- Private tuition: USD 150 a month. The monthly fee for private teaching, one student and one teacher.
+- First class: Free. A full live lesson, free, ending with a suggested level, course and class time.
+- Group tuition: CAD 140 a month. The monthly fee for one place in a class of fifteen to twenty students at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for private teaching, one student and one teacher.
 
 Edmonton families pay the same monthly fee as families anywhere in Canada. Payment begins after the free lesson, and only once the course and time suit you; holidays and missed classes are set out on the pricing page.
 

@@ -225,9 +225,9 @@ Edmonton winters make an evening drive to a tutor hard work. Online lessons happ
 
 Free first lesson, then two monthly options, all priced for where you live.
 
-- First class: USD 0. A full live lesson free of charge, ending with a suggested course and level.
-- Group tuition: USD 100 a month. The monthly fee for eight live classes in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. The monthly fee for eight one-to-one lessons at times that suit you.
+- First class: Free. A full live lesson free of charge, ending with a suggested course and level.
+- Group tuition: CAD 140 a month. The monthly fee for eight live classes in a group of fifteen to twenty at one level.
+- Private tuition: CAD 210 a month. The monthly fee for eight one-to-one lessons at times that suit you.
 
 Edmonton families pay what families anywhere in Canada pay. We bill only after the free lesson, once a course and time are agreed; the pricing page covers holidays and missed lessons.
 

@@ -403,9 +403,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The school pays CEMC for the contest itself. Our monthly fee is for live teaching only, and students can pause after the April 2027 papers without notice.
 
-- Free first class: USD 0. A free first class. One four-part question of ours, solved together. No payment details asked.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. Grouped by grade. Choose your batch. Billed month to month.
-- One to one: USD 150 a month. A private teacher. Paced to 7 April 2027. Built on your past papers.
+- Free first class: Free. A free first class. One four-part question of ours, solved together. No payment details asked.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. Grouped by grade. Choose your batch. Billed month to month.
+- One to one: CAD 210 a month. A private teacher. Paced to 7 April 2027. Built on your past papers.
 
 ## Fryer, Galois and Hypatia: frequently asked
 

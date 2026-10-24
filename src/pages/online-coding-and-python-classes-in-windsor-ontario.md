@@ -222,9 +222,9 @@ Lessons are online, so a student in South Walkerville and another in LaSalle sha
 
 Each fee appears in your own currency, its code beside the figure.
 
-- First class: USD 0. Your student's first live lesson costs nothing and finishes with a course and level we recommend.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty students at one stage.
-- Private tuition: USD 150 a month. The monthly fee for one to one lessons with a single teacher.
+- First class: Free. Your student's first live lesson costs nothing and finishes with a course and level we recommend.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty students at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for one to one lessons with a single teacher.
 
 Windsor families pay the same as families in any other Canadian city. Nothing is billed until after the free lesson, when the course and time are settled; the pricing page sets out missed classes and holidays.
 

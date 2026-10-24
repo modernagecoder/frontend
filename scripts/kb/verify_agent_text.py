@@ -87,6 +87,15 @@ for b in blocks:
     if want not in b:
         got = re.search(r'In India, per month:\s+(.*)', b)
         wrong.append((slug, key, want, got.group(1) if got else '??'))
+    # Canada is billed in CAD from its own row (owner 2026-10-23).
+    ca = PLANS[key]['canada']
+    if slug in one_only:
+        ca = {'personal': ca.get('personal')}
+    want_ca = ', '.join('%s CAD %s' % (label, ca[k]) for k, label in (('group', 'group'), ('personal', 'one to one'))
+                        if ca.get(k) is not None)
+    got_ca = re.search(r'In Canada, per month:\s+(.*)', b)
+    if not got_ca or got_ca.group(1).strip() != want_ca:
+        wrong.append((slug, key + ' canada', want_ca, got_ca.group(1) if got_ca else '??'))
 print('courses with a wrong price     %d' % len(wrong))
 for w in wrong[:6]:
     print('    %s (%s)\n      want: %s\n      got : %s' % w)
@@ -129,7 +138,8 @@ for pat, why in ((r'\*\*[A-Za-z][^*\n]{0,60}\*\*', 'markdown bold'),
 flat = re.sub(r'\s+', ' ', txt)
 for need in ('Never read out two different price lists',
              'quote only the one that applies',
-             'Are you in India or outside India'):
+             'Which country are you in',
+             'If the person is in Canada, quote in Canadian dollars'):
     if need not in flat:
         fails.append('missing pricing rule text: %s' % need)
 

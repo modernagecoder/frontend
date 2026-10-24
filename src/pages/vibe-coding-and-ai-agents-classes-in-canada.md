@@ -325,9 +325,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Courses are paid by the month, and the fee covers eight live classes. Adults fitting classes around work can pause between months without anything owed.
 
-- Free first class: USD 0. A free first class. A short read-the-AI-code exercise. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty learners of one age group. A regular teacher. A weekly slot that suits you. Billed monthly.
-- One to one: USD 150 a month. A teacher to yourself. Your own project or repository. Times around your week.
+- Free first class: Free. A free first class. A short read-the-AI-code exercise. No card details.
+- Group batch: CAD 140 a month. Fifteen to twenty learners of one age group. A regular teacher. A weekly slot that suits you. Billed monthly.
+- One to one: CAD 210 a month. A teacher to yourself. Your own project or repository. Times around your week.
 
 ## Vibe coding and AI agents in Canada: common questions
 

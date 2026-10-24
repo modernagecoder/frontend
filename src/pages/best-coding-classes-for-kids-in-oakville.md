@@ -222,9 +222,9 @@ No kit and no drive across town: a teacher, a laptop and a project, live every w
 
 Three options, each with its currency code shown.
 
-- First class: USD 0. A free live class that ends with a suggested course and level.
-- Group tuition: USD 100 a month. The monthly fee for a place in a class of 15 to 20 children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for private lessons with one teacher.
+- First class: Free. A free live class that ends with a suggested course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a class of 15 to 20 children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons with one teacher.
 
 An Oakville family pays the same monthly fee as any family in Canada, with no kit to buy on top. The first charge comes only after the free class, once a course and time are chosen; holidays and missed lessons are explained on the pricing page.
 

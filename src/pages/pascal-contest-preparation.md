@@ -367,9 +367,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The school pays CEMC's contest fee when it orders. Our monthly fee covers the teaching only, with no season contract, so a family can stop after the February 2027 paper with nothing owed.
 
-- Free first class: USD 0. A free first class. Three Pascal-style questions to start. Nothing to pay on the day.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. Grouped by grade. Choose the batch that suits you. Billed month by month.
-- One to one: USD 150 a month. One student, one teacher. Timed to your school's contest day. Built on your own mistakes list.
+- Free first class: Free. A free first class. Three Pascal-style questions to start. Nothing to pay on the day.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. Grouped by grade. Choose the batch that suits you. Billed month by month.
+- One to one: CAD 210 a month. One student, one teacher. Timed to your school's contest day. Built on your own mistakes list.
 
 ## Pascal Contest questions, answered
 

@@ -267,9 +267,9 @@ Teaching is online, so a teen on the west side of Lethbridge and one in Coaldale
 
 Every fee is shown in the visitor&rsquo;s own currency, labelled with its code.
 
-- First class: USD 0. A full live lesson with no charge, ending with a placement and a course suggestion.
-- Group tuition: USD 100 a month. One monthly fee for eight live classes in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. One monthly fee for lessons with a private teacher at hours the family chooses.
+- First class: Free. A full live lesson with no charge, ending with a placement and a course suggestion.
+- Group tuition: CAD 140 a month. One monthly fee for eight live classes in a group of fifteen to twenty at one level.
+- Private tuition: CAD 210 a month. One monthly fee for lessons with a private teacher at hours the family chooses.
 
 The fee in Lethbridge is the same as in any other Canadian city. Billing starts only after the free class, once a course and a schedule are agreed; see the pricing page for missed classes and holidays.
 

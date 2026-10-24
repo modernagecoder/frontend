@@ -303,9 +303,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 We charge one monthly fee for eight live classes, shown below in your region's currency. Billing is monthly, there is no registration fee, and you can cancel at any time.
 
-- Free first class: USD 0. A free first class. Placement on the path. No payment details to book.
-- Group batch: USD 100 a month. A batch of fifteen to twenty. A regular teacher. Batch times to choose from. Monthly billing.
-- One to one: USD 150 a month. One to one with a teacher. Paced to school or contests. Moves along the path with the student.
+- Free first class: Free. A free first class. Placement on the path. No payment details to book.
+- Group batch: CAD 140 a month. A batch of fifteen to twenty. A regular teacher. Batch times to choose from. Monthly billing.
+- One to one: CAD 210 a month. One to one with a teacher. Paced to school or contests. Moves along the path with the student.
 
 ## BrightCHAMPS or Modern Age Coders: questions parents ask
 

@@ -236,9 +236,9 @@ Lessons run on a laptop or desktop at home, so a student near Uptown Waterloo an
 
 Three lines, each shown in the currency for where you are.
 
-- First class: USD 0. A complete live lesson at no cost, closing with a suggested course, level and time.
-- Group tuition: USD 100 a month. The monthly fee for eight live classes in a group of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. The monthly fee for one teacher with one student, scheduled around your week.
+- First class: Free. A complete live lesson at no cost, closing with a suggested course, level and time.
+- Group tuition: CAD 140 a month. The monthly fee for eight live classes in a group of fifteen to twenty at one level.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher with one student, scheduled around your week.
 
 Waterloo families pay the same as families elsewhere in Canada. Nothing is charged until after the free lesson and an agreed course and time; the pricing page explains holidays and missed classes.
 

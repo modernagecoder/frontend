@@ -224,9 +224,9 @@ Because lessons are online, learners from St. Vital to Transcona, or from Brando
 
 Every fee is printed with its currency code beside it.
 
-- First class: USD 0. One complete live lesson at no cost, ending with a suggested level, course and time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a group of fifteen to twenty learners at the same level.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons with a teacher, at times you choose.
+- First class: Free. One complete live lesson at no cost, ending with a suggested level, course and time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a group of fifteen to twenty learners at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons with a teacher, at times you choose.
 
 The monthly fee in Winnipeg matches the fee everywhere else in Canada. The free lesson comes first, and billing starts only after it, once you have picked a course and a time; holidays and missed lessons are covered on the pricing page.
 

@@ -295,9 +295,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 CEGEP itself is a matter between the student and the college. Our classes are paid as a monthly fee for eight live classes a month, with no contract, so a student can pause during exams or stop when college begins.
 
-- Free first class: USD 0. A free first class. A short programming task to place the student. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Monthly payments.
-- One to one: USD 150 a month. A teacher to yourself. Planned around Secondary V. Built on your own projects.
+- Free first class: Free. A free first class. A short programming task to place the student. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Monthly payments.
+- One to one: CAD 210 a month. A teacher to yourself. Planned around Secondary V. Built on your own projects.
 
 ## CEGEP computer science: common questions
 

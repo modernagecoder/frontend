@@ -313,7 +313,7 @@ facts = {
                             "any lifetime plan", "6 to 65", "500+ students", "247 reviews",
                             "15+ countries", "/courses/kids-ai-mastery-course"],
     "escalate_to_human": ["batch timings", "slot availability", "discounts",
-                          "non-USD international pricing", "corporate quotes", "school quotes",
+                          "international pricing other than USD or CAD", "corporate quotes", "school quotes",
                           "custom curriculum", "refund disputes", "anything not in this document"],
     "demo": {"free": True, "card_required": False, "per_student": 1,
              "duration_minutes": "30-60", "live": True, "parent_may_attend": True},

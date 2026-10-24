@@ -197,9 +197,9 @@ Children on both sides of the town line join the same live class from home, so t
 
 Three lines, with each fee shown in its currency.
 
-- First class: USD 0. A full live lesson, free, ending with our suggestion of a course, a level and a time.
-- Group tuition: USD 100 a month. The monthly fee for a place in a group of fifteen to twenty children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for private lessons, one teacher with your child, at times that suit you.
+- First class: Free. A full live lesson, free, ending with our suggestion of a course, a level and a time.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a group of fifteen to twenty children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons, one teacher with your child, at times that suit you.
 
 Families in Ajax and Pickering pay what families pay across Canada. We charge nothing before the free lesson, and only once you have chosen a course and a time; see the pricing page for missed lessons and school breaks.
 

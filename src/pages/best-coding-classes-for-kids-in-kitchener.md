@@ -230,9 +230,9 @@ A teacher and a group, live on screen each week, from home in Kitchener.
 
 Three options; each fee is shown with its currency code.
 
-- First class: USD 0. A complete live class, free, ending with a suggested course and level.
-- Group tuition: USD 100 a month. The monthly fee for a place among 15 to 20 children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons at times you pick.
+- First class: Free. A complete live class, free, ending with a suggested course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a place among 15 to 20 children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons at times you pick.
 
 Kitchener families pay the same monthly fee as families anywhere in Canada. Billing begins only after the free class, once you have chosen a course and a time, and the pricing page covers holidays and missed sessions.
 

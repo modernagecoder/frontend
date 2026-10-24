@@ -286,9 +286,9 @@ Teaching happens online, so a student in a small community has the same teacher 
 
 One free lesson, then a monthly fee for a group or for one-to-one teaching, displayed in your own currency.
 
-- First class: USD 0. A full first lesson, free of charge, that ends with a recommended level, course and class time.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty learners at one stage, with eight live classes a month.
-- Private tuition: USD 150 a month. The monthly fee for one teacher working with one student, at agreed times.
+- First class: Free. A full first lesson, free of charge, that ends with a recommended level, course and class time.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty learners at one stage, with eight live classes a month.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher working with one student, at agreed times.
 
 Families in the territories pay the same fee as families in the provinces. No payment is taken before the free lesson, and the pricing page covers holidays and missed classes.
 

@@ -214,9 +214,9 @@ No ferry, no drive: a student in Saanich and one downtown share a teacher from h
 
 Three options, displayed in your own currency.
 
-- First class: USD 0. A complete live lesson at no cost, ending with a suggested course and time.
-- Group tuition: USD 100 a month. The monthly fee for a class of 15 to 20 students at the same level.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one lessons at times the family chooses.
+- First class: Free. A complete live lesson at no cost, ending with a suggested course and time.
+- Group tuition: CAD 140 a month. The monthly fee for a class of 15 to 20 students at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one lessons at times the family chooses.
 
 Victoria is charged exactly what the rest of Canada is charged. Nothing is billed until after the free lesson; missed classes and holidays are explained on the pricing page.
 

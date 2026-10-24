@@ -301,9 +301,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The monthly fee covers eight live classes. Store fees, where a family chooses to publish, are paid to the store and are separate from ours.
 
-- Free first class: USD 0. A free first class. A first screen on the teen's own phone. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty teens. One regular teacher. A set weekly slot. Month-to-month billing.
-- One to one: USD 150 a month. Your own teacher. Your own app idea. Pace set by your project.
+- Free first class: Free. A free first class. A first screen on the teen's own phone. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty teens. One regular teacher. A set weekly slot. Month-to-month billing.
+- One to one: CAD 210 a month. Your own teacher. Your own app idea. Pace set by your project.
 
 ## App development for teens in Canada: common questions
 

@@ -229,9 +229,9 @@ Lessons happen on a computer at home, so a student in North York and one in the 
 
 Three lines, each shown in your own currency.
 
-- First class: USD 0. One complete live lesson at no charge, ending with a recommended course, level and class time.
-- Group tuition: USD 100 a month. The monthly fee for a live class of fifteen to twenty students working at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one teacher and one student, booked at times that suit you.
+- First class: Free. One complete live lesson at no charge, ending with a recommended course, level and class time.
+- Group tuition: CAD 140 a month. The monthly fee for a live class of fifteen to twenty students working at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher and one student, booked at times that suit you.
 
 A Toronto student pays exactly what a student anywhere else in Canada pays. No payment is taken before the free lesson, and the pricing page explains missed classes and holidays.
 

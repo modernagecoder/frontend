@@ -299,9 +299,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 USACO charges nothing to compete, and the school covers the CCC. Our monthly fee is only for live coaching, with no season contract, so a family can coach through the winter rounds and stop in spring.
 
-- Free first class: USD 0. A free first class. One Bronze-style problem together. No card asked for.
-- Group batch: USD 100 a month. Fifteen to twenty students in a batch. One teacher all winter. Choose your batch time. Billed each month.
-- One to one: USD 150 a month. A private teacher. Planned around both contests. Every round reviewed.
+- Free first class: Free. A free first class. One Bronze-style problem together. No card asked for.
+- Group batch: CAD 140 a month. Fifteen to twenty students in a batch. One teacher all winter. Choose your batch time. Billed each month.
+- One to one: CAD 210 a month. A private teacher. Planned around both contests. Every round reviewed.
 
 ## USACO for Canadian students: common questions
 

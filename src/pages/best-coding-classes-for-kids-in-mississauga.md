@@ -258,9 +258,9 @@ The teacher and the class are online, so a child in Malton and one in Clarkson c
 
 Three options. Each fee shows its currency code beside it.
 
-- First class: USD 0. A full live lesson at no cost, ending with a recommended course and level for your child.
-- Group tuition: USD 100 a month. The monthly fee for a place in a batch of 15 to 20 children at the same stage.
-- Private tuition: USD 150 a month. The monthly fee for one teacher and one child, at times that suit your family.
+- First class: Free. A full live lesson at no cost, ending with a recommended course and level for your child.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a batch of 15 to 20 children at the same stage.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher and one child, at times that suit your family.
 
 A Mississauga family pays the same monthly fee as a family in any other Canadian city. The first bill comes only after the free lesson, when you have chosen a course and a time; the pricing page sets out how missed classes and holidays work.
 

@@ -279,9 +279,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 A monthly fee for eight live classes a month, paid month to month with no contract for the school year. Stop after the June 2027 sitting, or carry on into Secondary V; there is nothing to cancel.
 
-- Free first class: USD 0. A free first class. A short reasoning problem in your option. No card needed.
-- Group batch: USD 100 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Monthly payments.
-- One to one: USD 150 a month. A teacher to yourself. Paced to your exam session. Built on your own tests and homework.
+- Free first class: Free. A free first class. A short reasoning problem in your option. No card needed.
+- Group batch: CAD 140 a month. Fifteen to twenty students. One regular teacher. Choose your batch. Monthly payments.
+- One to one: CAD 210 a month. A teacher to yourself. Paced to your exam session. Built on your own tests and homework.
 
 ## Quebec Secondary 4 math: common questions
 

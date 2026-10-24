@@ -328,9 +328,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Start with a free class. After that a monthly fee covers eight live classes; the price shown carries its currency code, and families can stop after any month with no term to sign.
 
-- Free first class: USD 0. A free first class. Bring a recent worksheet. No card asked for.
-- Group batch: USD 100 a month. Fifteen to twenty students. Grouped by grade. A regular teacher. Monthly payment.
-- One to one: USD 150 a month. One teacher, one child. Times that fit your week. Paced to the school units.
+- Free first class: Free. A free first class. Bring a recent worksheet. No card asked for.
+- Group batch: CAD 140 a month. Fifteen to twenty students. Grouped by grade. A regular teacher. Monthly payment.
+- One to one: CAD 210 a month. One teacher, one child. Times that fit your week. Paced to the school units.
 
 ## Ontario Grade 6 math and coding: common questions
 

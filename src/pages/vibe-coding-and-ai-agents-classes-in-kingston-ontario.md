@@ -248,9 +248,9 @@ Lessons happen at home with a live teacher who watches the screen and asks the l
 
 Three items; the price anchors show each one in your own currency.
 
-- First class: USD 0. A full trial lesson, free, finishing with a level and a course suggestion.
-- Group tuition: USD 100 a month. The monthly fee for a group of fifteen to twenty, eight live classes a month.
-- Private tuition: USD 150 a month. The monthly fee for private lessons at times you choose.
+- First class: Free. A full trial lesson, free, finishing with a level and a course suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for a group of fifteen to twenty, eight live classes a month.
+- Private tuition: CAD 210 a month. The monthly fee for private lessons at times you choose.
 
 Kingston learners pay the same monthly fee as anyone else in Canada. Billing starts only once the trial is done and a course and time are agreed.
 

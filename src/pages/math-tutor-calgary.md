@@ -238,9 +238,9 @@ Tuscany in the northwest and Mahogany in the southeast are a long drive apart, b
 
 Three lines, each in the currency of your location.
 
-- First class: USD 0. One complete live lesson at no charge, with a course and level recommendation at the end.
-- Group tuition: USD 100 a month. The monthly fee for eight live classes in a group of fifteen to twenty at one stage.
-- Private tuition: USD 150 a month. The monthly fee for eight lessons with a teacher to yourself.
+- First class: Free. One complete live lesson at no charge, with a course and level recommendation at the end.
+- Group tuition: CAD 140 a month. The monthly fee for eight live classes in a group of fifteen to twenty at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for eight lessons with a teacher to yourself.
 
 A Calgary family pays exactly what any other Canadian family pays. Charges begin only after the free lesson and an agreed plan; the pricing page explains missed classes and holidays.
 

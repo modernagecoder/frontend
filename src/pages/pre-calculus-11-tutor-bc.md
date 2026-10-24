@@ -354,9 +354,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 You pay nothing for the first class. Regular lessons cost a monthly fee for eight live classes, displayed in your local currency, and you can leave when any month ends without a term commitment.
 
-- Free first class: USD 0. First class free. Bring a recent quiz. No card to book.
-- Group batch: USD 100 a month. Fifteen to twenty in a batch. One regular teacher. Your choice of batch time. Paid per month.
-- One to one: USD 150 a month. A private teacher. Around test dates. Following the school outline.
+- Free first class: Free. First class free. Bring a recent quiz. No card to book.
+- Group batch: CAD 140 a month. Fifteen to twenty in a batch. One regular teacher. Your choice of batch time. Paid per month.
+- One to one: CAD 210 a month. A private teacher. Around test dates. Following the school outline.
 
 ## Pre-calculus 11: questions families ask
 

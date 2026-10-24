@@ -219,9 +219,9 @@ Online means the drive to Calgary or Edmonton never comes into it. Here is how t
 
 Three items, each shown in your own currency.
 
-- First class: USD 0. One complete live lesson at no cost, ending with a level and a course.
-- Group tuition: USD 100 a month. The monthly fee for a group class of fifteen to twenty learners at one stage.
-- Private tuition: USD 150 a month. The monthly fee for one learner with one teacher, on agreed times.
+- First class: Free. One complete live lesson at no cost, ending with a level and a course.
+- Group tuition: CAD 140 a month. The monthly fee for a group class of fifteen to twenty learners at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for one learner with one teacher, on agreed times.
 
 A learner in Red Deer pays the same as a learner anywhere in Canada. You are invoiced only once the free lesson is done and a course and time are agreed; the pricing page covers holidays and missed lessons.
 

@@ -219,9 +219,9 @@ From Springdale to Mount Pleasant, the lesson arrives on the student&rsquo;s own
 
 Three lines, each in your own currency.
 
-- First class: USD 0. A full live lesson, free, that ends with a recommended course and level.
-- Group tuition: USD 100 a month. The monthly fee for a live class of fifteen to twenty at one level.
-- Private tuition: USD 150 a month. The monthly fee for one-to-one teaching, scheduled around your family.
+- First class: Free. A full live lesson, free, that ends with a recommended course and level.
+- Group tuition: CAD 140 a month. The monthly fee for a live class of fifteen to twenty at one level.
+- Private tuition: CAD 210 a month. The monthly fee for one-to-one teaching, scheduled around your family.
 
 Brampton students pay the same as students anywhere in Canada. We bill only after the free lesson and only once the course and the time are agreed.
 

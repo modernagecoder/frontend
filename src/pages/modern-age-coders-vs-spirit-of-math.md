@@ -295,9 +295,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 One monthly fee for eight live math classes, displayed below in your region's currency. There is no entrance fee, no assessment fee and no year-long contract.
 
-- Free first class: USD 0. A free first class. A placement by the teacher. Nothing to pay to book.
-- Group batch: USD 100 a month. Fifteen to twenty students per batch. One teacher for the whole course. Pick a batch time that suits your week. Paid one month at a time.
-- One to one: USD 150 a month. Just the student and the teacher. Paced to their school course. Contest or school focus, your choice.
+- Free first class: Free. A free first class. A placement by the teacher. Nothing to pay to book.
+- Group batch: CAD 140 a month. Fifteen to twenty students per batch. One teacher for the whole course. Pick a batch time that suits your week. Paid one month at a time.
+- One to one: CAD 210 a month. Just the student and the teacher. Paced to their school course. Contest or school focus, your choice.
 
 ## What parents ask about Spirit of Math and about us
 

@@ -280,9 +280,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Our classes are billed monthly: one fee for eight live classes with the same teacher. There is no term contract, so a family can stop at the end of any month.
 
-- Free first class: USD 0. A free first class. A level check in math or coding. No card asked for.
-- Group batch: USD 100 a month. Fifteen to twenty students per batch. Placed by age and level. Weekday and weekend times. A monthly payment.
-- One to one: USD 150 a month. A teacher for one student. Follows your program outline. Paced to the cycle you choose.
+- Free first class: Free. A free first class. A level check in math or coding. No card asked for.
+- Group batch: CAD 140 a month. Fifteen to twenty students per batch. Placed by age and level. Weekday and weekend times. A monthly payment.
+- One to one: CAD 210 a month. A teacher for one student. Follows your program outline. Paced to the cycle you choose.
 
 ## Homeschool coding and math in Alberta: common questions
 

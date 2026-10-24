@@ -415,9 +415,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The first class is on us. Ongoing classes come as eight live sessions a month for a monthly fee, shown with its currency code, and you can stop at the end of any month with no term commitment.
 
-- Free first class: USD 0. Free first class. Bring a test or a project draft. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty per batch. A regular teacher. Batch time of your choice. Monthly payment.
-- One to one: USD 150 a month. A private teacher. Around tests and checkpoints. Built from the school course.
+- Free first class: Free. Free first class. Bring a test or a project draft. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty per batch. A regular teacher. Batch time of your choice. Monthly payment.
+- One to one: CAD 210 a month. A private teacher. Around tests and checkpoints. Built from the school course.
 
 ## MDM4U: what families ask
 

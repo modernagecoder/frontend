@@ -264,9 +264,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 We charge nothing for the first class. After it, families pay a monthly fee that covers eight live classes, shown in their local currency below; nothing locks you in past the current month.
 
-- Free first class: USD 0. First class free. Bring the course outline. No card asked for.
-- Group batch: USD 100 a month. Batch of fifteen to twenty. A fixed teacher. Batch time of your choice. Monthly billing.
-- One to one: USD 150 a month. Your teen only. Hours to suit the school week. Built around 30-1 or 30-2.
+- Free first class: Free. First class free. Bring the course outline. No card asked for.
+- Group batch: CAD 140 a month. Batch of fifteen to twenty. A fixed teacher. Batch time of your choice. Monthly billing.
+- One to one: CAD 210 a month. Your teen only. Hours to suit the school week. Built around 30-1 or 30-2.
 
 ## Math 30-1 vs 30-2: common questions
 

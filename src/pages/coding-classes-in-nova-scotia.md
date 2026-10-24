@@ -224,9 +224,9 @@ A real teacher leads each lesson over video, which puts a student in Antigonish 
 
 Every fee is shown with its currency beside it.
 
-- First class: USD 0. An introductory live lesson with no charge, after which the teacher proposes a starting level, course and weekly slot.
-- Group tuition: USD 100 a month. The monthly fee for a place in a batch of fifteen to twenty learners at one level.
-- Private tuition: USD 150 a month. The monthly fee for individual lessons with one teacher, at agreed times.
+- First class: Free. An introductory live lesson with no charge, after which the teacher proposes a starting level, course and weekly slot.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a batch of fifteen to twenty learners at one level.
+- Private tuition: CAD 210 a month. The monthly fee for individual lessons with one teacher, at agreed times.
 
 There is one Canadian fee, so a Nova Scotia family pays what a family in Ontario or Alberta pays. No charge is made before the free lesson, or before the course and schedule are settled; holidays and missed classes are explained on the pricing page.
 

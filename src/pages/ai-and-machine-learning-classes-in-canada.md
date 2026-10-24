@@ -423,7 +423,7 @@ Book it
 
 Group batch
 
-$100 USD
+$140 CAD
 
 a month
 
@@ -436,7 +436,7 @@ Start here
 
 One to one
 
-$150 USD
+$210 CAD
 
 a month
 

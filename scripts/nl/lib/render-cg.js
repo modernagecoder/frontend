@@ -14,7 +14,7 @@
 const fs = require('fs');
 const path = require('path');
 const { course } = require('./catalogue');
-const { neutralFee, feeAnchor } = require('./fee-anchor');
+const { neutralFee, feeAnchor, feeRegion, ldPrice } = require('./fee-anchor');
 
 const ROOT = path.resolve(__dirname, '..', '..', '..');
 const BRAND = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts', 'brand-facts.json'), 'utf8'));
@@ -149,12 +149,12 @@ function jsonLd(page) {
     '@graph': [
       { '@type': 'EducationalOrganization', '@id': SITE + '/#org', name: 'Modern Age Coders', url: SITE + '/', logo: SITE + '/logo.png', foundingDate: String(BRAND.founded), email: 'connect@modernagecoders.com', telephone: '+919123366161', sameAs: ['https://www.facebook.com/modernagecoders', 'https://www.instagram.com/modernagecoders', 'https://www.youtube.com/@modernagecoders'] },
       { '@type': 'BreadcrumbList', itemListElement: crumbs(page).ld },
-      { '@type': 'Course', name: page.courseSchema.name, description: page.courseSchema.description, provider: { '@id': SITE + '/#org' }, educationalLevel: 'Elementary, Middle School, High School, College, Adult', inLanguage: 'en', hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'Online', courseWorkload: 'PT2H', location: { '@type': 'VirtualLocation', url } }, offers: { '@type': 'Offer', price: '100', priceCurrency: 'USD', availability: 'https://schema.org/InStock', url } },
+      { '@type': 'Course', name: page.courseSchema.name, description: page.courseSchema.description, provider: { '@id': SITE + '/#org' }, educationalLevel: 'Elementary, Middle School, High School, College, Adult', inLanguage: 'en', hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'Online', courseWorkload: 'PT2H', location: { '@type': 'VirtualLocation', url } }, offers: { '@type': 'Offer', ...(neutralFee(page) ? { name: 'Group batch' } : {}), ...ldPrice(page, 'group'), availability: 'https://schema.org/InStock', url } },
       { '@type': 'FAQPage', mainEntity: page.faq.items.map(f => ({ '@type': 'Question', name: plain(f.q), acceptedAnswer: { '@type': 'Answer', text: plain(f.a) } })) }
     ]
   };
-  const service = { '@context': 'https://schema.org', '@type': 'Service', name: 'Live Online Coding Classes in ' + page.place.name, serviceType: 'Online coding, AI, data and mathematics education', provider: { '@id': SITE + '/#org' }, areaServed: areaServed(page), audience: { '@type': 'EducationalAudience', educationalRole: 'student' }, availableChannel: { '@type': 'ServiceChannel', serviceUrl: url, availableLanguage: 'English' }, offers: [{ '@type': 'Offer', name: 'First live class', price: '0', priceCurrency: 'USD' }, { '@type': 'Offer', name: 'Monthly group classes', price: '100', priceCurrency: 'USD' }, { '@type': 'Offer', name: 'Monthly private classes', price: '150', priceCurrency: 'USD' }] };
-  return `  <script type="application/ld+json" data-price-scope="coding.international">\n  ${JSON.stringify(graph)}\n  </script>\n  <script type="application/ld+json">\n  ${JSON.stringify(service)}\n  </script>`;
+  const service = { '@context': 'https://schema.org', '@type': 'Service', name: 'Live Online Coding Classes in ' + page.place.name, serviceType: 'Online coding, AI, data and mathematics education', provider: { '@id': SITE + '/#org' }, areaServed: areaServed(page), audience: { '@type': 'EducationalAudience', educationalRole: 'student' }, availableChannel: { '@type': 'ServiceChannel', serviceUrl: url, availableLanguage: 'English' }, offers: [{ '@type': 'Offer', name: 'First live class', ...ldPrice(page, 'free') }, { '@type': 'Offer', name: 'Monthly group classes', ...ldPrice(page, 'group') }, { '@type': 'Offer', name: 'Monthly private classes', ...ldPrice(page, 'personal') }] };
+  return `  <script type="application/ld+json" data-price-scope="coding.${feeRegion(page)}">\n  ${JSON.stringify(graph)}\n  </script>\n  <script type="application/ld+json">\n  ${JSON.stringify(service)}\n  </script>`;
 }
 
 function leadScript(page) {

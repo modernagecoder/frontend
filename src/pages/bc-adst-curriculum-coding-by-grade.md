@@ -372,9 +372,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 Try a first class at no charge. After that, eight live classes are billed together each month, priced in your own currency, with no term contract; leave at any month end.
 
-- Free first class: USD 0. A free trial class. Bring something your child made. No card required.
-- Group batch: USD 100 a month. Fifteen to twenty children. One regular teacher. Batch time of your choice. Paid monthly.
-- One to one: USD 150 a month. Your child and one teacher. Paced to their level. Times that fit your week.
+- Free first class: Free. A free trial class. Bring something your child made. No card required.
+- Group batch: CAD 140 a month. Fifteen to twenty children. One regular teacher. Batch time of your choice. Paid monthly.
+- One to one: CAD 210 a month. Your child and one teacher. Paced to their level. Times that fit your week.
 
 ## BC ADST and coding: common questions
 

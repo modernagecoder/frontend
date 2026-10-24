@@ -341,9 +341,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The opening class costs nothing. Continuing families pay monthly for eight live classes, with the currency code shown beside the fee, and there is no contract to stop you leaving after any month.
 
-- Free first class: USD 0. Opening class free. Bring current math or code. No card details.
-- Group batch: USD 100 a month. Fifteen to twenty in a batch. One teacher all year. Batch time you choose. Paid monthly.
-- One to one: USD 150 a month. A private teacher. Fitted around tests. Shaped by their course.
+- Free first class: Free. Opening class free. Bring current math or code. No card details.
+- Group batch: CAD 140 a month. Fifteen to twenty in a batch. One teacher all year. Batch time you choose. Paid monthly.
+- One to one: CAD 210 a month. A private teacher. Fitted around tests. Shaped by their course.
 
 ## UBC computer science admission: common questions
 

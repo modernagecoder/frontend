@@ -386,9 +386,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 The school pays CEMC for the contest itself. Our fee is for the classes only, charged each month, and ends whenever you say, the May 2027 window included.
 
-- Free first class: USD 0. A free first class. Three Gauss-style questions together. No card needed.
-- Group batch: USD 100 a month. A group of fifteen to twenty. Grades 7 and 8 together. Choose a batch time. Monthly billing.
-- One to one: USD 150 a month. One student, one teacher. Planned to the May window. Built around your child's pace.
+- Free first class: Free. A free first class. Three Gauss-style questions together. No card needed.
+- Group batch: CAD 140 a month. A group of fifteen to twenty. Grades 7 and 8 together. Choose a batch time. Monthly billing.
+- One to one: CAD 210 a month. One student, one teacher. Planned to the May window. Built around your child's pace.
 
 ## Gauss Contest: frequently asked
 

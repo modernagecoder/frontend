@@ -190,9 +190,9 @@ From the lakeshore wards to Etobicoke North, every child joins from home, so the
 
 Three options, and the currency appears beside each fee.
 
-- First class: USD 0. One complete live lesson, free, after which we suggest a course, a level and a time.
-- Group tuition: USD 100 a month. The monthly fee for a place among fifteen to twenty children learning at the same level.
-- Private tuition: USD 150 a month. The monthly fee for a teacher working with your child alone, on a schedule you set.
+- First class: Free. One complete live lesson, free, after which we suggest a course, a level and a time.
+- Group tuition: CAD 140 a month. The monthly fee for a place among fifteen to twenty children learning at the same level.
+- Private tuition: CAD 210 a month. The monthly fee for a teacher working with your child alone, on a schedule you set.
 
 Etobicoke families pay the same rates as families anywhere in Canada. Billing begins only after the free lesson, once your family has picked a course and a weekly slot. Holidays and missed lessons are explained on the pricing page.
 

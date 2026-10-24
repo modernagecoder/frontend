@@ -311,9 +311,9 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 
 One monthly fee covers eight live classes. Families pay a month at a time and can stop between months, so a child who loses interest costs nothing more.
 
-- Free first class: USD 0. A free first class. Placement by age and rung. No card details needed.
-- Group batch: USD 100 a month. Fifteen to twenty children, grouped by age. One regular teacher. Weekday or weekend times. Paid monthly.
-- One to one: USD 150 a month. One teacher, one child. Times that fit your family. Paced to how your child learns.
+- Free first class: Free. A free first class. Placement by age and rung. No card details needed.
+- Group batch: CAD 140 a month. Fifteen to twenty children, grouped by age. One regular teacher. Weekday or weekend times. Paid monthly.
+- One to one: CAD 210 a month. One teacher, one child. Times that fit your family. Paced to how your child learns.
 
 ## Coding for kids in Canada: questions from parents
 

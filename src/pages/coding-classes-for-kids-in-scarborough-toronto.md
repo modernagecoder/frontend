@@ -211,9 +211,9 @@ Online means a child near the lake and a child up by the Rouge share one teacher
 
 Three lines, and each fee shows its currency beside it.
 
-- First class: USD 0. A full live lesson at no charge, ending with a level, a course and a time we suggest for your child.
-- Group tuition: USD 100 a month. The monthly fee for a place in a batch of fifteen to twenty children at one stage.
-- Private tuition: USD 150 a month. The monthly fee for one teacher and your child alone, at times that suit the family.
+- First class: Free. A full live lesson at no charge, ending with a level, a course and a time we suggest for your child.
+- Group tuition: CAD 140 a month. The monthly fee for a place in a batch of fifteen to twenty children at one stage.
+- Private tuition: CAD 210 a month. The monthly fee for one teacher and your child alone, at times that suit the family.
 
 Scarborough families pay the same as every other family in Canada. Nothing is charged until after the free lesson, once a course and a slot are agreed; the pricing page covers missed classes and holidays.
 

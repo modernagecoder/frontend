@@ -219,9 +219,9 @@ From Verdun to Ahuntsic, and across the bridges to Laval and Longueuil, students
 
 Free to start; after that, a group month or a private month, priced in your currency.
 
-- First class: USD 0. One full live lesson in English at no cost, ending with a course and level suggestion.
-- Group tuition: USD 100 a month. The monthly fee for eight live classes with fifteen to twenty students at one level.
-- Private tuition: USD 150 a month. The monthly fee for eight one-to-one lessons with your own teacher.
+- First class: Free. One full live lesson in English at no cost, ending with a course and level suggestion.
+- Group tuition: CAD 140 a month. The monthly fee for eight live classes with fifteen to twenty students at one level.
+- Private tuition: CAD 210 a month. The monthly fee for eight one-to-one lessons with your own teacher.
 
 Fees in Montreal match fees everywhere else in Canada. We charge nothing until after the free lesson and an agreed plan; the pricing page explains holidays and missed classes.
 
