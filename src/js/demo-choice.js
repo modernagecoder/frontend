@@ -894,7 +894,7 @@
                         currency: charge.currency,
                         productType: PRODUCT.productType,
                         productId: PRODUCT.productId,
-                        productName: PRODUCT.productName + (slotText(slot, true) ? ' - ' + slotText(slot, true) : ''),
+                        productName: PRODUCT.productName + (slot ? ' - ' + slot : ''),
                         customerName: name,
                         customerEmail: email,
                         customerPhone: cc.digits,
