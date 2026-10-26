@@ -320,7 +320,7 @@ const pages = [
     eyebrow: 'How to book',
     h1: 'Book your priority demo <em>in about two minutes.</em>',
     lede: 'One short form, a slot you choose, one secure payment. A mentor confirms on WhatsApp within the hour.',
-    answer: 'To book a Priority Live Demo, press the booking button on this page, enter a name, email and WhatsApp number, pick a day and an hour between 10 am and 8 pm IST, and pay the one-time fee ({{PRICE}}) through Razorpay. Your slot is reserved immediately and a mentor confirms it on WhatsApp within the hour.',
+    answer: 'To book a Priority Live Demo, press the booking button on this page, enter a name, email and WhatsApp number, pick a day and an hour (shown in your own local time, or type a time that suits you), and pay the one-time fee ({{PRICE}}) through Razorpay. Your slot is reserved immediately and a mentor confirms it on WhatsApp within the hour.',
     sections: [
       {
         h2: 'The steps',
@@ -329,7 +329,7 @@ const pages = [
   <li><b>Open the booking form.</b> Use the button above, or submit any demo form on the site and choose the paid option when asked.</li>
   <li><b>Enter your details.</b> Student or parent name, email and a WhatsApp number. Pick your country code so we message the right number.</li>
   <li><b>Pick a day.</b> Today and tomorrow are offered first, then the next few days.</li>
-  <li><b>Pick a time.</b> Hourly slots from 10 am to 8 pm IST. If you are outside India, your local time is shown under each slot.</li>
+  <li><b>Pick a time.</b> Hourly slots in your own local time: 10 am to 8 pm IST in India, 8 am to 9 pm wherever you are outside India. None suit? Type a time and we match it to a mentor.</li>
   <li><b>Pay once.</b> Payment runs through Razorpay. Cards, UPI, net banking and wallets are supported, depending on your country.</li>
   <li><b>Get confirmed.</b> You see your slot and order ID on screen, and a mentor confirms on WhatsApp within the hour.</li>
 </ol>`
@@ -360,7 +360,7 @@ const pages = [
     ],
     faqs: [
       ['Which payment methods are accepted?', 'Payment runs through Razorpay, which supports cards, UPI, net banking and wallets. Available methods depend on your country.'],
-      ['What time zone are the slots in?', 'Slots are in IST, from 10 am to 8 pm. Visitors outside India see their local time under each slot.'],
+      ['What time zone are the slots in?', 'Your own. In India the slots run from 10 am to 8 pm IST. Outside India every slot is shown in your local time, from 8 am to 9 pm, and you can type a time instead. Our team matches it to a mentor and confirms on WhatsApp.'],
       ['Can I reschedule?', 'Message us on WhatsApp as early as you can and we will move the slot to another time that works.'],
       ['I paid but did not get a confirmation. What now?', 'Do not pay again. Send your payment ID on WhatsApp to 9123366161 and we will confirm the slot manually.']
     ]

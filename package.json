@@ -49,6 +49,7 @@
     "sync:shared": "node scripts/sync-shared-sections.js",
     "verify:hreflang": "node scripts/verify-hreflang.js",
     "verify:demo-choice": "node scripts/audit-demo-choice-coverage.js",
+    "verify:demo-time": "node scripts/verify-demo-time-picker.js",
     "test:demo-choice": "node scripts/test-demo-choice.js"
   },
   "dependencies": {

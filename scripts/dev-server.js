@@ -69,6 +69,11 @@ function inlineComponents(html) {
     // the demo chooser to every page. Mirror it here so "Book priority demo"
     // links and the after-form chooser can be checked locally.
     // Match a real script tag: page comments mention the file by name.
+    // demo-slot-picker.js goes first: it is the shared demo time picker the
+    // chooser, the callback modal and /book-demo all build their chips with.
+    if (!/<script[^>]+\/js\/demo-slot-picker\.js/i.test(result)) {
+        result = result.replace(/<\/body>/i, '    <script src="/js/demo-slot-picker.js" defer></script>\n</body>');
+    }
     if (!/<script[^>]+\/js\/demo-choice\.js/i.test(result)) {
         result = result.replace(/<\/body>/i, '    <script src="/js/demo-choice.js" defer></script>\n</body>');
     }

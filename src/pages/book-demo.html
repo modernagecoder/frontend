@@ -556,8 +556,8 @@
                             <div class="bd-chip-row" id="bd-day-row" role="group" aria-label="Choose a day"></div>
                             <div class="bd-chip-row bd-time-row" id="bd-time-row" role="group" aria-label="Choose a time" hidden></div>
                             <input type="hidden" id="demo-slot" name="demo-slot">
-                            <p class="bd-slot-note">Times are shown in your local timezone alongside IST.
-                                Flexible? Leave this unselected and we will call to fix a time.</p>
+                            <p class="bd-slot-note">Times are shown in your local time.</p>
+                            <p class="bd-slot-note">Flexible? Leave this unselected and we will call to fix a time.</p>
                         </div>
 
                         <button type="submit" class="submit-btn-new" id="submitBtn">
@@ -1080,87 +1080,8 @@
     <!-- Background Canvas Script -->
     <script>
         // API Configuration
-        // ---- Timezone-aware demo slot picker ----
-        (function initSlotPicker() {
-            var DEMO_HOURS_IST = { start: 10, end: 20 }; // demo availability window, IST
-            var IST_TZ = 'Asia/Kolkata';
-            var dayRow = document.getElementById('bd-day-row');
-            var timeRow = document.getElementById('bd-time-row');
-            var slotInput = document.getElementById('demo-slot');
-            if (!dayRow || !timeRow || !slotInput) return;
-
-            var localTz = '';
-            try { localTz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) { }
-            var isIST = localTz === 'Asia/Kolkata' || localTz === 'Asia/Calcutta';
-
-            function istDate(base, hour) {
-                // Date object for `hour`:00 IST on base's calendar date (IST = UTC+5:30)
-                return new Date(Date.UTC(base.getFullYear(), base.getMonth(), base.getDate(), hour - 5, -30));
-            }
-            function fmt(dt, tz, opts) {
-                var o = Object.assign({}, opts);
-                if (tz) o.timeZone = tz;
-                return new Intl.DateTimeFormat('en-GB', o).format(dt);
-            }
-
-            var days = [];
-            var now = new Date();
-            for (var i = 1; i <= 7; i++) {
-                days.push(new Date(now.getFullYear(), now.getMonth(), now.getDate() + i));
-            }
-            var selectedDay = null, selectedTime = null;
-
-            function writeSlot() {
-                if (selectedDay && selectedTime) {
-                    var dayLabel = fmt(selectedDay, IST_TZ, { weekday: 'short', day: 'numeric', month: 'short' });
-                    slotInput.value = dayLabel + ', ' + selectedTime.ist + ' IST' +
-                        (isIST ? '' : ' (' + selectedTime.local + ' ' + localTz + ')');
-                } else {
-                    slotInput.value = '';
-                }
-            }
-
-            function renderTimes() {
-                timeRow.innerHTML = '';
-                if (!selectedDay) { timeRow.hidden = true; return; }
-                timeRow.hidden = false;
-                for (var h = DEMO_HOURS_IST.start; h <= DEMO_HOURS_IST.end; h++) {
-                    (function (h) {
-                        var dt = istDate(selectedDay, h);
-                        var istLabel = fmt(dt, IST_TZ, { hour: '2-digit', minute: '2-digit', hour12: true });
-                        var localLabel = fmt(dt, null, { hour: '2-digit', minute: '2-digit', hour12: true });
-                        var btn = document.createElement('button');
-                        btn.type = 'button';
-                        btn.className = 'bd-chip bd-time-chip';
-                        btn.innerHTML = '<b>' + istLabel + ' IST</b>' +
-                            (isIST ? '' : '<span>' + localLabel + ' your time</span>');
-                        btn.addEventListener('click', function () {
-                            selectedTime = { ist: istLabel, local: localLabel };
-                            timeRow.querySelectorAll('.bd-time-chip').forEach(function (c) { c.classList.remove('active'); });
-                            btn.classList.add('active');
-                            writeSlot();
-                        });
-                        timeRow.appendChild(btn);
-                    })(h);
-                }
-            }
-
-            days.forEach(function (d) {
-                var btn = document.createElement('button');
-                btn.type = 'button';
-                btn.className = 'bd-chip bd-day-chip';
-                btn.innerHTML = '<b>' + fmt(d, null, { weekday: 'short' }) + '</b><span>' +
-                    fmt(d, null, { day: 'numeric', month: 'short' }) + '</span>';
-                btn.addEventListener('click', function () {
-                    selectedDay = d; selectedTime = null;
-                    dayRow.querySelectorAll('.bd-day-chip').forEach(function (c) { c.classList.remove('active'); });
-                    btn.classList.add('active');
-                    writeSlot();
-                    renderTimes();
-                });
-                dayRow.appendChild(btn);
-            });
-        })();
+        // The demo slot chips are built by /js/demo-slot-picker.js (injected on
+        // every page), which shows overseas visitors their own clock only.
 
         const API_CONFIG = {
             development: 'http://localhost:5000',

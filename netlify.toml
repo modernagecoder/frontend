@@ -30,11 +30,15 @@
   # the one it publishes to Google — the fault that was live on the homepage
   # before this system existed.
   #
+  # verify:demo-time fails the build if any page or template builds its own
+  # demo time picker. Overseas visitors must see their own clock, never IST,
+  # and only the shared src/js/demo-slot-picker.js does that.
+  #
   # pricing:refresh is deliberately NOT here. It pulls live World Bank and
   # exchange-rate data, and running it on every deploy would let prices move
   # without anyone reviewing the change. It is a manual command; the committed
   # data files are what deploys.
-  command = "npm install && npm run generate:all && npm run pricing:verify && npm run build:inline && npm run build:phone && npm run verify:phone && npm run build:pixel && npm run verify:pixel && npm run minify && cd lovewall && npm install && npm run build && cd .."
+  command = "npm install && npm run generate:all && npm run pricing:verify && npm run verify:demo-time && npm run build:inline && npm run build:phone && npm run verify:phone && npm run build:pixel && npm run verify:pixel && npm run minify && cd lovewall && npm install && npm run build && cd .."
   publish = "."
   functions = "api"
 

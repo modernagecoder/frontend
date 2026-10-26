@@ -77,8 +77,6 @@
     var WA_NUMBER = '919123366161';
     var RAZORPAY_SRC = 'https://checkout.razorpay.com/v1/checkout.js';
 
-    var IST_TZ = 'Asia/Kolkata';
-    var DEMO_HOURS_IST = { start: 10, end: 20 };
     var DAYS_AHEAD = 5;              // today and the next four days
     var MIN_LEAD_MINUTES = 90;       // a slot today must be at least this far away
     var OPEN_DELAY_MS = 350;         // lets a redirecting page leave before the popup shows
@@ -345,154 +343,48 @@
     }
 
     // ───────────────────────── slot picker ─────────────────────────
-    // Writes the SAME string format as demo-slot-picker.js and /book-demo
-    // ("Thu, 10 Sep, 06:00 pm IST (01:30 pm Europe/London)") so the server
-    // parses it with the one function it already has.
-
-    function fmt(dt, tz, opts) {
-        var o = {};
-        for (var k in opts) if (opts.hasOwnProperty(k)) o[k] = opts[k];
-        if (tz) o.timeZone = tz;
-        try { return new Intl.DateTimeFormat('en-GB', o).format(dt); } catch (e) { return ''; }
-    }
-
-    // hour:00 IST on the IST calendar date given by (y, m, d). IST is UTC+5:30.
-    function istDate(y, m, d, hour) {
-        return new Date(Date.UTC(y, m, d, hour - 5, -30));
-    }
-
-    // "Thu, 10 Sep" built from parts rather than one locale string, because
-    // newer browsers format en-GB as "Thu 10 Sept" (no comma, four-letter
-    // month) and the server's parser documents the three-letter form.
-    function dayLabel(dt) {
-        var weekday = fmt(dt, IST_TZ, { weekday: 'short' }).replace(/[^A-Za-z]/g, '').slice(0, 3);
-        var day = fmt(dt, IST_TZ, { day: 'numeric' }).replace(/\D/g, '');
-        var month = fmt(dt, IST_TZ, { month: 'short' }).replace(/[^A-Za-z]/g, '').slice(0, 3);
-        return weekday + ', ' + day + ' ' + month;
-    }
-
-    // Today's date as it is in India right now, as [year, monthIndex, day].
-    function istToday() {
-        var parts;
-        try {
-            parts = new Intl.DateTimeFormat('en-GB', { timeZone: IST_TZ, year: 'numeric', month: '2-digit', day: '2-digit' })
-                .formatToParts(new Date());
-        } catch (e) { parts = null; }
-        if (parts) {
-            var y, m, d;
-            for (var i = 0; i < parts.length; i++) {
-                if (parts[i].type === 'year') y = parseInt(parts[i].value, 10);
-                if (parts[i].type === 'month') m = parseInt(parts[i].value, 10) - 1;
-                if (parts[i].type === 'day') d = parseInt(parts[i].value, 10);
-            }
-            if (y && d >= 1) return [y, m, d];
-        }
-        var now = new Date(Date.now() + 5.5 * 60 * 60 * 1000);
-        return [now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()];
-    }
+    // Built by the shared picker in demo-slot-picker.js (window.MACDemoTime),
+    // the one every booking form uses: overseas visitors see their own clock
+    // only, India sees IST, and the hidden field always carries the IST string
+    // the server parses, with the visitor's own time in brackets.
 
     function buildSlotPicker(container, hidden, onChange) {
-        var localTz = '';
-        try { localTz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) { }
-        var isIST = localTz === 'Asia/Kolkata' || localTz === 'Asia/Calcutta';
-
+        if (!window.MACDemoTime) {
+            container.innerHTML = '<p class="mac-dc-tiny">We will call you to fix a time that suits you.</p>';
+            return { hasDays: false };
+        }
         var dayRow = document.createElement('div');
         dayRow.className = 'mac-dc-chips';
         var timeRow = document.createElement('div');
         timeRow.className = 'mac-dc-chips mac-dc-chips--times';
-        timeRow.style.display = 'none';
         var note = document.createElement('p');
         note.className = 'mac-dc-tiny';
-
-        var selectedDay = null;   // { y, m, d, label }
-        var selectedTime = null;  // { ist, local }
-        var earliest = Date.now() + MIN_LEAD_MINUTES * 60 * 1000;
-
-        function hoursFor(day) {
-            var out = [];
-            for (var h = DEMO_HOURS_IST.start; h <= DEMO_HOURS_IST.end; h++) {
-                var dt = istDate(day.y, day.m, day.d, h);
-                if (dt.getTime() < earliest) continue;
-                out.push({ hour: h, dt: dt });
-            }
-            return out;
-        }
-
-        function write() {
-            if (selectedDay && selectedTime) {
-                hidden.value = selectedDay.label + ', ' + selectedTime.ist + ' IST' +
-                    (isIST ? '' : ' (' + selectedTime.local + ' ' + localTz + ')');
-            } else {
-                hidden.value = '';
-            }
-            if (onChange) onChange(hidden.value);
-        }
-
-        function renderTimes() {
-            timeRow.innerHTML = '';
-            if (!selectedDay) { timeRow.style.display = 'none'; return; }
-            timeRow.style.display = 'flex';
-            var hours = hoursFor(selectedDay);
-            for (var i = 0; i < hours.length; i++) {
-                (function (slot) {
-                    var istLabel = fmt(slot.dt, IST_TZ, { hour: '2-digit', minute: '2-digit', hour12: true });
-                    var localLabel = fmt(slot.dt, null, { hour: '2-digit', minute: '2-digit', hour12: true });
-                    var btn = document.createElement('button');
-                    btn.type = 'button';
-                    btn.className = 'mac-dc-chip';
-                    btn.innerHTML = '<b>' + esc(istLabel) + ' IST</b>' +
-                        (isIST ? '' : '<span>' + esc(localLabel) + ' your time</span>');
-                    btn.addEventListener('click', function () {
-                        selectedTime = { ist: istLabel, local: localLabel };
-                        var chips = timeRow.querySelectorAll('.mac-dc-chip');
-                        for (var j = 0; j < chips.length; j++) chips[j].classList.remove('active');
-                        btn.classList.add('active');
-                        write();
-                    });
-                    timeRow.appendChild(btn);
-                })(hours[i]);
-            }
-        }
-
-        var today = istToday();
-        var shown = 0;
-        var todaySkipped = false;
-        for (var offset = 0; offset < DAYS_AHEAD; offset++) {
-            (function (off) {
-                var probe = new Date(Date.UTC(today[0], today[1], today[2] + off));
-                var day = { y: probe.getUTCFullYear(), m: probe.getUTCMonth(), d: probe.getUTCDate() };
-                if (!hoursFor(day).length) { if (off === 0) todaySkipped = true; return; }
-                var noon = istDate(day.y, day.m, day.d, 12);
-                day.label = dayLabel(noon);
-                var top = off === 0 ? 'Today' : (off === 1 ? 'Tomorrow' : day.label.split(',')[0]);
-                var btn = document.createElement('button');
-                btn.type = 'button';
-                btn.className = 'mac-dc-chip' + (off <= 1 ? ' mac-dc-chip--hot' : '');
-                btn.innerHTML = '<b>' + esc(top) + '</b><span>' +
-                    esc(fmt(noon, IST_TZ, { day: 'numeric', month: 'short' })) + '</span>';
-                btn.addEventListener('click', function () {
-                    selectedDay = day;
-                    selectedTime = null;
-                    var chips = dayRow.querySelectorAll('.mac-dc-chip');
-                    for (var j = 0; j < chips.length; j++) chips[j].classList.remove('active');
-                    btn.classList.add('active');
-                    renderTimes();
-                    write();
-                });
-                dayRow.appendChild(btn);
-                shown++;
-            })(offset);
-        }
-
-        note.textContent = (todaySkipped
-            ? 'Today’s slots are over for now, so tomorrow is the earliest. '
-            : 'Slots today start at least 90 minutes from now. ') +
-            'Times are in IST (India)' + (isIST ? '.' : ', with your local time underneath.');
-
         container.appendChild(dayRow);
         container.appendChild(timeRow);
         container.appendChild(note);
-        return { hasDays: shown > 0 };
+        return window.MACDemoTime.build({
+            dayRow: dayRow, timeRow: timeRow, hidden: hidden, note: note,
+            classes: { chip: 'mac-dc-chip', hot: 'mac-dc-chip--hot' },
+            startOffset: 0, days: DAYS_AHEAD, minLeadMinutes: MIN_LEAD_MINUTES,
+            todayWords: true, onChange: onChange
+        });
+    }
+
+    // The slot in the visitor's own WhatsApp message to us: their clock and
+    // zone overseas ('Mon, 28 Jul, 05:00 pm America/New_York time'), so the
+    // team can match it to IST, and the plain IST text in India.
+    function slotForMessage(raw) {
+        var text = String(raw || '');
+        var typed = text.match(/^Visitor typed: (.*?)(?:\s*\(their time zone ([^)]+)\))?$/);
+        if (typed) return typed[1] + (typed[2] ? ' (' + typed[2] + ' time)' : '');
+        var local = text.match(/\(([^)]+)\)\s*$/);
+        return local ? local[1] + ' time' : text;
+    }
+
+    // The slot as the visitor should read it (their own clock overseas).
+    function slotText(raw, short) {
+        if (!raw) return '';
+        return window.MACDemoTime ? window.MACDemoTime.display(raw, { short: short }) : raw;
     }
 
     // ───────────────────────── styles ─────────────────────────
@@ -653,7 +545,7 @@
                     '<span class="mac-dc-badge">Booked</span>' +
                     '<span class="mac-dc-kicker">Option 2 · Priority</span>' +
                     '<h3>Your priority demo is booked</h3>' +
-                    '<p class="mac-dc-price"><b>' + esc(paid.slot || 'Time to be fixed by call') + '</b></p>' +
+                    '<p class="mac-dc-price"><b>' + esc(slotText(paid.slot) || 'Time to be fixed by call') + '</b></p>' +
                     '<p class="mac-dc-body">Paid ' + esc(paid.display) + ' · Order ID ' + esc(paid.orderId) + '. A mentor confirms on WhatsApp. No need to pay again.</p>' +
                     '<button type="button" class="mac-dc-btn mac-dc-btn--solid" data-action="paid-view">View my booking</button>' +
                 '</section>';
@@ -745,12 +637,12 @@
 
     function successHtml(paid) {
         var msg = 'Hi! I just paid ' + paid.display + ' for a priority live demo (Order ID ' + paid.orderId + ')' +
-            (paid.slot ? ' for ' + paid.slot : '') + '. Please confirm my slot.';
+            (paid.slot ? ' for ' + slotForMessage(paid.slot) : '') + '. Please confirm my slot.';
         return (
             '<div class="mac-dc-done">' +
                 '<span class="mac-dc-tick">' + ICON_TICK + '</span>' +
                 '<h3>Payment received. Your priority demo is booked.</h3>' +
-                '<div class="mac-dc-slotbox">' + esc(paid.slot || 'We call you within the hour to fix the time') + '</div>' +
+                '<div class="mac-dc-slotbox">' + esc(slotText(paid.slot) || 'We call you within the hour to fix the time') + '</div>' +
                 '<p>Paid ' + esc(paid.display) + ' · Order ID <code>' + esc(paid.orderId) + '</code></p>' +
                 '<p>A mentor confirms your demo on WhatsApp shortly. To move faster, send us the confirmation yourself:</p>' +
                 '<a class="mac-dc-btn mac-dc-btn--wa" href="' + waLink(msg) + '" target="_blank" rel="noopener noreferrer">' + ICON_WA + 'Confirm on WhatsApp</a>' +
@@ -938,9 +830,12 @@
             var slot = slotHidden.value;
             var total = billFor(currentPrice).total;
             if (billEl) billEl.innerHTML = billHtml(currentPrice);
-            payBtn.textContent = slot
-                ? 'Pay ' + total + ' & book ' + slot.replace(/\s*\(.*\)\s*$/, '')
-                : 'Pay ' + total + ' · we’ll call to fix the time';
+            var shortSlot = slotText(slot, true);
+            payBtn.textContent = shortSlot
+                ? 'Pay ' + total + ' & book ' + shortSlot
+                : slot
+                    ? 'Pay ' + total + ' · we confirm your time on WhatsApp'
+                    : 'Pay ' + total + ' · we’ll call to fix the time';
         }
         phone.addEventListener('countrycodechange', refreshPrice);
         phone.addEventListener('input', refreshPrice);
@@ -982,6 +877,10 @@
                 region: isIndia ? 'india' : charge.currency === 'CAD' ? 'canada' : 'international',
                 leadPage: rec.page || window.location.pathname
             };
+            // The visitor's own time zone, so the WhatsApp alert can show
+            // their clock beside IST even when no slot was picked.
+            var visitorTz = window.MACDemoTime ? window.MACDemoTime.zone() : '';
+            if (visitorTz) notes.visitorTz = visitorTz.slice(0, 64);
             if (slot) notes.demoSlot = slot;
             if (rec.lid) notes.leadId = String(rec.lid);
             if (rec.kind) notes.leadKind = rec.kind;
@@ -995,7 +894,7 @@
                         currency: charge.currency,
                         productType: PRODUCT.productType,
                         productId: PRODUCT.productId,
-                        productName: PRODUCT.productName + (slot ? ' - ' + slot : ''),
+                        productName: PRODUCT.productName + (slotText(slot, true) ? ' - ' + slotText(slot, true) : ''),
                         customerName: name,
                         customerEmail: email,
                         customerPhone: cc.digits,
@@ -1014,7 +913,7 @@
                     amount: data.order.amount,
                     currency: data.order.currency,
                     name: 'Modern Age Coders',
-                    description: PRODUCT.productName + (slot ? ' · ' + slot.replace(/\s*\(.*\)\s*$/, '') : ''),
+                    description: PRODUCT.productName + (slotText(slot, true) ? ' · ' + slotText(slot, true) : ''),
                     order_id: data.order.id,
                     prefill: { name: name, email: email, contact: cc.dial + cc.digits },
                     notes: notes,
@@ -1555,6 +1454,6 @@
             track('demo_priority_direct_open', { page: window.location.pathname, placement: String(placement || 'link') });
         },
         prices: PRICES,
-        version: '20261024a'
+        version: '20261026a'
     };
 })();

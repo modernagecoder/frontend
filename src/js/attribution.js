@@ -155,6 +155,15 @@
         };
     }
 
+    function visitorTimeZone() {
+        try {
+            if (window.MACDemoTime) return window.MACDemoTime.zone() || '';
+            return Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+        } catch (e) {
+            return '';
+        }
+    }
+
     window.MACAttribution = {
 
         /**
@@ -170,7 +179,10 @@
                 // than from storage so it is always this page.
                 formPage: window.location.pathname + window.location.search,
                 journey: (saved.journey || []).slice(-MAX_JOURNEY),
-                firstSeenAt: saved.firstSeenAt || null
+                firstSeenAt: saved.firstSeenAt || null,
+                // The visitor's IANA time zone, so the team can read an
+                // overseas lead's clock beside IST in the WhatsApp alert.
+                timeZone: visitorTimeZone()
             };
         },
 

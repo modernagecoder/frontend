@@ -43,10 +43,18 @@ const FOOTER_FILE = path.join(ROOT, 'components', 'footer.html');
 // copy after the price or the flow changes. Bump the date here AND in
 // src/pages/thank-you.html (the only page that references it by hand) when
 // the file changes.
-const DEMO_CHOICE_VERSION = '20261024a';
+//
+// demo-slot-picker.js is versioned for the same reason: it is the one demo
+// time picker on the site (overseas visitors see their own clock, never IST),
+// and a cached old copy would put IST chips back in front of them.
+// attribution.js shares its version: it now sends the visitor's time zone,
+// which the WhatsApp alert prints beside the country. Pages that reference
+// any of these scripts by hand are re-pointed at these versions below.
+const DEMO_CHOICE_VERSION = '20261026a';
+const DEMO_SLOT_PICKER_VERSION = '20261026a';
 const GLOBAL_LEAD_SCRIPTS = [
-    '/js/attribution.js',
-    '/js/demo-slot-picker.js',
+    '/js/attribution.js?v=' + DEMO_SLOT_PICKER_VERSION,
+    '/js/demo-slot-picker.js?v=' + DEMO_SLOT_PICKER_VERSION,
     '/js/demo-choice.js?v=' + DEMO_CHOICE_VERSION
 ];
 
@@ -204,14 +212,19 @@ function inlineFile(filePath, navHtml, footerHtml) {
     //    changes would silently miss around 40% of landing pages and quietly
     //    mis-credit the leads that came from them.
     //
-    //    Idempotent: pages that already reference a script are left alone, so
-    //    re-running the build never stacks up duplicate tags.
+    //    Idempotent: a page that already references a script keeps its one
+    //    tag, re-pointed at the current ?v= when it carries an older one (or
+    //    none), so re-running the build never stacks up duplicate tags and a
+    //    hand-written tag (thank-you, how-we-teach) cannot pin a stale copy.
     if (/<\/body>/i.test(content)) {
         GLOBAL_LEAD_SCRIPTS.forEach((src) => {
             // Escape for use in a regex - these are plain paths, but building
             // the pattern from the constant keeps the two in step.
-            const present = new RegExp(src.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-            if (!present.test(content)) {
+            const base = src.split('?')[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const anyVersion = new RegExp('(["\'])' + base + '(\\?v=[^"\']*)?\\1', 'g');
+            if (anyVersion.test(content)) {
+                content = content.replace(anyVersion, (m, q) => q + src + q);
+            } else {
                 content = content.replace(
                     /<\/body>/i,
                     `    <script src="${src}" defer></script>\n</body>`
