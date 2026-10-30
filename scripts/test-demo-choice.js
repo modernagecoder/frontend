@@ -7,6 +7,9 @@ const path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
 
 const SRC = fs.readFileSync(path.join(__dirname, '..', 'src', 'js', 'demo-choice.js'), 'utf8');
+// The payment form's day/time chips come from the shared picker
+// (window.MACDemoTime), which every page loads before demo-choice.js.
+const PICKER = fs.readFileSync(path.join(__dirname, '..', 'src', 'js', 'demo-slot-picker.js'), 'utf8');
 const LEAD_ID = '64f1c0ffee0000000000abcd';
 
 function makeWindow(opts) {
@@ -25,6 +28,7 @@ function makeWindow(opts) {
     return Promise.resolve({ ok: reply.ok, status: reply.status, clone() { return this; }, json() { return Promise.resolve(reply.body); } });
   };
   if (opts.isIndian !== undefined) w.__MAC_IS_INDIAN = opts.isIndian;
+  w.eval(PICKER);
   w.eval(SRC);
   return w;
 }

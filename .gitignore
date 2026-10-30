@@ -116,3 +116,12 @@ design-system/dist/
 # knowledge base: regenerable intermediate (scripts/kb/make_pdf.py rewrites it)
 docs/_kb-v2.html
 docs/_kb-agent.html
+
+# Local scratch, never deployed (Netlify publishes from "." so anything tracked goes live):
+# Git-for-Windows crash dumps, a saved search-results page, research PDFs,
+# WhatsApp catalogue working files and screenshot dumps.
+*.stackdump
+/ddg2.html
+/output/
+/tmp/
+/public/images/.whatsapp-catalogue/
