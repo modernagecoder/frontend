@@ -537,6 +537,7 @@ A real live lesson of 30 to 45 minutes at a time that suits your province’s cl
 - [March Break coding online: live classes for the break week](/march-break-coding-camp-online)
 - [Math classes for kids in Canada](/math-classes-for-kids-in-canada)
 - [Online coding summer camp for Canadian students](/online-coding-summer-camp-canada)
+- [What coding camps cost in Canada](/coding-camp-cost-canada)
 - [Python classes in Canada](/python-classes-in-canada)
 - [Vibe coding and AI agents classes in Canada](/vibe-coding-and-ai-agents-classes-in-canada)
 

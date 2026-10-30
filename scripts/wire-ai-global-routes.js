@@ -568,6 +568,7 @@ const SLUGS = [
   'bc-grade-10-numeracy-assessment-practice',
   'coding-classes-cost-canada',
   'math-tutor-cost-canada',
+  'coding-camp-cost-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1215,6 +1216,7 @@ const LLMS_LABELS = {
   'bc-grade-10-numeracy-assessment-practice': 'BC Grade 10 Numeracy Assessment practice',
   'coding-classes-cost-canada': 'Coding classes cost in Canada',
   'math-tutor-cost-canada': 'Math tutor cost in Canada',
+  'coding-camp-cost-canada': 'Coding camp cost',
 };
 
 function wireLlms(slugs) {
