@@ -127,7 +127,16 @@ if (LEAD_ISO === 'US') {
 // Canadian price region is live; a school course-code page (ICS3U, MHF4U ...) must say we grant no credits.
 if (LEAD_ISO === 'CA') {
   const vis = html.replace(/<script[\s\S]*?<\/script>/g, ' ');
-  const copy = vis.replace(/<pre[\s\S]*?<\/pre>/g, ' ');
+  // Cost pages (rows 82 to 84, owner 2026-10-24 with CAD live) quote other providers' published fees as found, in
+  // Canadian dollars, only inside <span data-market-price data-no-price-swap>$65 CAD</span>: international-pricing.js
+  // never rewrites [data-no-price-swap], and every figure names its currency. Our own fees stay data-price anchors.
+  const MARKET = /<span\b[^>]*\bdata-market-price\b[^>]*>([^<]*)<\/span>/g;
+  for (const m of vis.matchAll(MARKET)) {
+    if (!page.marketPrices) fail('data-market-price outside a cost page: set marketPrices: true on the module');
+    if (!/\bdata-no-price-swap\b/.test(m[0])) fail('data-market-price without data-no-price-swap: the pricing script would convert it');
+    if (!/^\$\d[\d,]*(\.\d\d)?( to \$\d[\d,]*(\.\d\d)?)? CAD$/.test(m[1].trim())) fail('market price "' + m[1] + '" must read "$N CAD" or "$N to $M CAD", as published');
+  }
+  const copy = vis.replace(MARKET, ' ').replace(/<pre[\s\S]*?<\/pre>/g, ' ');
   if (/\bIST\b/.test(vis)) fail('bare IST on a Canadian page: write India time, and ET, PT, MT, CT, AT or the province');
   if (/weekend batch/i.test(vis)) fail('"weekend batch" on a Canadian page: use the flexible timing line');
   if (/\$\s?\d/.test(copy.replace(/<[^>]*data-price[^>]*>[^<]*</g, '<'))) fail('typed dollar figure on a Canadian page: prices go through data-price only');

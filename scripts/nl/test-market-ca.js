@@ -79,9 +79,16 @@ const CASES = [
   ['nocredit', '', 'course-code page without the no-credit sentence', { courseCodePage: true }],
   ['credit', CREDIT, null, { courseCodePage: true }],
   ['codedollar', '', null, null, { kind: 'code', label: 'A shop', lang: 'python', code: 'print("$140 off")' }],
+  // Cost pages quote other providers' fees as published, only in marked spans the pricing script never rewrites.
+  ['market', 'A centre lists <span data-market-price data-no-price-swap>$65 CAD</span> an hour.', null, { marketPrices: true }],
+  ['marketrange', 'Camps run <span data-market-price data-no-price-swap>$350 to $495 CAD</span> a week.', null, { marketPrices: true }],
+  ['marketflag', 'A centre lists <span data-market-price data-no-price-swap>$65 CAD</span> an hour.', 'data-market-price outside a cost page'],
+  ['marketswap', 'A centre lists <span data-market-price>$65 CAD</span> an hour.', 'data-market-price without data-no-price-swap', { marketPrices: true }],
+  ['marketcur', 'A centre lists <span data-market-price data-no-price-swap>$65</span> an hour.', 'market price "', { marketPrices: true }],
+  ['marketout', 'A centre lists <span data-market-price data-no-price-swap>$65 CAD</span> an hour, or $70 elsewhere.', 'typed dollar figure on a Canadian page', { marketPrices: true }],
 ];
 fs.mkdirSync(DIR, { recursive: true });
-const gateRe = /BUILD FAIL: (bare IST on a Canadian|"weekend batch" on a Canadian|typed dollar figure on a Canadian|currency named on a Canadian|'Premium' on a Canadian|en dash on a Canadian|html lang must be en or en-CA|course-code page without)/;
+const gateRe = /BUILD FAIL: (bare IST on a Canadian|"weekend batch" on a Canadian|typed dollar figure on a Canadian|currency named on a Canadian|'Premium' on a Canadian|en dash on a Canadian|html lang must be en or en-CA|course-code page without|data-market-price outside|data-market-price without|market price ")/;
 for (const [name, text, want, extra, codeBlock] of CASES) {
   const slug = 'zz-ca-gate-test-' + name;
   const file = path.join(DIR, slug + '.js');
