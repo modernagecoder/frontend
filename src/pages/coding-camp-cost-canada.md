@@ -4,7 +4,7 @@ description: "What coding and STEM camps cost in Canada per week: 2026 fees from
 canonical: https://learn.modernagecoders.com/coding-camp-cost-canada
 source: src/pages/coding-camp-cost-canada.html
 ---
-> Canadian university and non-profit STEM day camps listed $325 to $365 CAD for a five-day summer week in 2026, for about seven hours a day. Four-day holiday weeks cost less; teen streams and paid before or after care cost more; franchises such as Code Ninjas set fees locally. Modern Age Coders' live online holiday camp is one payment of $280 CAD for eight one-to-one classes, in tracks such as Young Innovators (ages 6 to 12).
+> Canadian university and non-profit STEM day camps listed fees between $325 CAD and $365 CAD for a five-day summer week in 2026, for about seven hours a day. Four-day holiday weeks cost less; teen streams and paid before or after care cost more; franchises such as Code Ninjas set fees locally. Modern Age Coders' live online holiday camp is one payment of $280 CAD for eight one-to-one classes, in tracks such as Young Innovators (ages 6 to 12).
 
 [Home](/) / [Courses](/courses) / [Coding classes in Canada](/coding-classes-in-canada) / Coding camp cost
 
@@ -14,7 +14,7 @@ Canada · Camp fees 2026 · Day camps and online camps
 
 Parents searching for a coding camp price in Canada usually find a fee with no context: a number for a week, sometimes for four days, sometimes with care hours on top. We went to the camps' own pages instead. This guide prints the 2026 weekly fees that university and non-profit coding and STEM camps publish, exactly as they publish them, shows what each week includes and what it leaves out, works out what each fee buys per hour (our arithmetic, shown), and explains how our own live online holiday camp is priced: one payment for eight one-to-one classes, taught from home in your own time zone.
 
-At a glance: Five-day university STEM week, summer 2026: $325 to $365 CAD as published; Four-day holiday week, summer 2026: $275 to $295 CAD as published; uOttawa March Break week, 2026: $345 CAD as published; Typical camp day: 9 a.m. to 4 p.m., as most camps list it; Before and after care: Free at one camp, charged at others; Our online holiday camp: $280 CAD, paid once; What it includes: Eight one-to-one live classes, two to three weeks; Our monthly classes: $140 CAD in a batch, $210 CAD one to one. Rated 4.9 across 547 Google reviews.
+At a glance: Five-day university STEM week, summer 2026: from $325 CAD to $365 CAD across the camps we checked; Four-day holiday week, summer 2026: from $275 CAD to $295 CAD across the camps we checked; uOttawa March Break week, 2026: $345 CAD as published; Typical camp day: 9 a.m. to 4 p.m., as most camps list it; Before and after care: Free at one camp, charged at others; Our online holiday camp: $280 CAD, paid once; What it includes: Eight one-to-one live classes, two to three weeks; Our monthly classes: $140 CAD in a batch, $210 CAD one to one. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that carry on after a camp ends
 

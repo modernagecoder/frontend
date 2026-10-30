@@ -112,8 +112,8 @@ module.exports = {
   wa: 'Hello Modern Age Coders, we are comparing coding camps in Canada for our child. Could you tell us about your online holiday camp?',
   heroNote: 'Teaching live online since 2020 &middot; students aged 6 to 67 &middot; camp fee paid once, shown in your own currency',
   spec: [
-    ['Five-day university STEM week, summer 2026', M('$325 to $365') + ' as published'],
-    ['Four-day holiday week, summer 2026', M('$275 to $295') + ' as published'],
+    ['Five-day university STEM week, summer 2026', 'from ' + M('$325') + ' to ' + M('$365') + ' across the camps we checked'],
+    ['Four-day holiday week, summer 2026', 'from ' + M('$275') + ' to ' + M('$295') + ' across the camps we checked'],
     ['uOttawa March Break week, 2026', M('$345') + ' as published'],
     ['Typical camp day', '9 a.m. to 4 p.m., as most camps list it'],
     ['Before and after care', 'Free at one camp, charged at others'],
@@ -122,7 +122,7 @@ module.exports = {
     ['Our monthly classes', GROUP + ' in a batch, ' + ONE + ' one to one']
   ],
   capsuleQ: 'In short',
-  capsule: `Canadian university and non-profit STEM day camps listed ${M('$325 to $365')} for a five-day summer week in 2026, for about seven hours a day. Four-day holiday weeks cost less; teen streams and paid before or after care cost more; franchises such as Code Ninjas set fees locally. Modern Age Coders' live online holiday camp is one payment of ${CAMP} for eight one-to-one classes, in tracks such as Young Innovators (ages 6 to 12).`,
+  capsule: `Canadian university and non-profit STEM day camps listed fees between ${M('$325')} and ${M('$365')} for a five-day summer week in 2026, for about seven hours a day. Four-day holiday weeks cost less; teen streams and paid before or after care cost more; franchises such as Code Ninjas set fees locally. Modern Age Coders' live online holiday camp is one payment of ${CAMP} for eight one-to-one classes, in tracks such as Young Innovators (ages 6 to 12).`,
 
   picks: {
     eyebrow: 'Courses a camp can lead into',
