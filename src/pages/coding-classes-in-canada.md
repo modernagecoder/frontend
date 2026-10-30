@@ -518,6 +518,7 @@ A real live lesson of 30 to 45 minutes at a time that suits your province’s cl
 - [Modern Age Coders vs Oxford Learning](/modern-age-coders-vs-oxford-learning)
 - [Modern Age Coders vs Spirit of Math](/modern-age-coders-vs-spirit-of-math)
 - [Online math tutoring in Canada: how to choose](/best-online-math-tutoring-in-canada)
+- [What a math tutor costs in Canada](/math-tutor-cost-canada)
 - [Problem-solving coding and math classes](/problem-solving-coding-and-math-classes-canada)
 
 ### Ages, subjects, camps and homeschool

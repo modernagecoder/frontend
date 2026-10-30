@@ -349,7 +349,8 @@ Spec: docs/superpowers/specs/2026-10-22-ca-cluster-design.md. Plan A: docs/super
 | 26 | foundations-of-math-11-tutor-bc (fou, #485717) | school-bc | 5,638 | 0.8% vs computer-programming-11-and-12-bc | school course help | optimization and scale | 959dabbc |
 | 21 | bc-adst-curriculum-coding-by-grade (bacb, #595D94) | school-bc | 5,887 | 0.9% vs canada-coding-curriculum-by-province | curriculum reference | unplugged and coded activities | 736f3bb6 |
 | 27 | bc-grade-10-numeracy-assessment-practice (bcgr, #3B522F) | school-bc | 5,757 | 1.5% vs eqao-grade-9-math-practice | assessment practice | numeracy processes | c7d19e45 |
-| 82 | coding-classes-cost-canada (ccc, #455C71) | cost | 5,475 | 1.7% vs modern-age-coders-vs-code-ninjas | market fee table + per-live-hour table | cost calculator (Python) | (this commit) |
+| 82 | coding-classes-cost-canada (ccc, #455C71) | cost | 5,475 | 1.7% vs modern-age-coders-vs-code-ninjas | market fee table + per-live-hour table | cost calculator (Python) | 63f11946 |
+| 83 | math-tutor-cost-canada (mtca, #6B4960) | cost | 6,855 | 0.9% vs mhf4u-advanced-functions-tutor | hourly cost table by option | real hourly cost worked example | (this commit) |
 
 ## Skipped
 

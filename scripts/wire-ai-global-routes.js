@@ -567,6 +567,7 @@ const SLUGS = [
   'bc-adst-curriculum-coding-by-grade',
   'bc-grade-10-numeracy-assessment-practice',
   'coding-classes-cost-canada',
+  'math-tutor-cost-canada',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1213,6 +1214,7 @@ const LLMS_LABELS = {
   'bc-adst-curriculum-coding-by-grade': 'BC ADST curriculum, coding by grade',
   'bc-grade-10-numeracy-assessment-practice': 'BC Grade 10 Numeracy Assessment practice',
   'coding-classes-cost-canada': 'Coding classes cost in Canada',
+  'math-tutor-cost-canada': 'Math tutor cost in Canada',
 };
 
 function wireLlms(slugs) {

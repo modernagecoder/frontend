@@ -799,6 +799,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - BC ADST curriculum, coding by grade: https://learn.modernagecoders.com/bc-adst-curriculum-coding-by-grade
 - BC Grade 10 Numeracy Assessment practice: https://learn.modernagecoders.com/bc-grade-10-numeracy-assessment-practice
 - Coding classes cost in Canada: https://learn.modernagecoders.com/coding-classes-cost-canada
+- Math tutor cost in Canada: https://learn.modernagecoders.com/math-tutor-cost-canada
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
