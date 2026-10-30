@@ -27121,6 +27121,18 @@
   to = "/src/pages/bc-grade-10-numeracy-assessment-practice.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-cost-canada"
+  to = "/src/pages/coding-classes-cost-canada.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-cost-canada.md"
+  to = "/src/pages/coding-classes-cost-canada.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -512,6 +512,7 @@ A real live lesson of 30 to 45 minutes at a time that suits your province’s cl
 ### Choosing a class
 
 - [Best online coding classes in Canada: how to choose](/best-online-coding-classes-in-canada)
+- [What coding classes cost in Canada](/coding-classes-cost-canada)
 - [Modern Age Coders vs BrightCHAMPS](/modern-age-coders-vs-brightchamps)
 - [Modern Age Coders vs Code Ninjas](/modern-age-coders-vs-code-ninjas)
 - [Modern Age Coders vs Oxford Learning](/modern-age-coders-vs-oxford-learning)
