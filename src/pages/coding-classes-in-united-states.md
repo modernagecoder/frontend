@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
 - [Science Olympiad coding events help](/science-olympiad-coding-events-help)
 - [FTC programming help](/ftc-programming-help)
 - [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)

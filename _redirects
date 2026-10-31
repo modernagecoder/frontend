@@ -8734,4 +8734,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /science-olympiad-coding-events-help /src/pages/science-olympiad-coding-events-help.html 200
 /science-olympiad-coding-events-help.md /src/pages/science-olympiad-coding-events-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/isef-computer-science-project-mentoring /src/pages/isef-computer-science-project-mentoring.html 200
+/isef-computer-science-project-mentoring.md /src/pages/isef-computer-science-project-mentoring.md 200
 /* /src/pages/404.html 404

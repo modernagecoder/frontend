@@ -688,6 +688,7 @@ const SLUGS = [
   'first-lego-league-coding-help-usa',
   'ftc-programming-help',
   'science-olympiad-coding-events-help',
+  'isef-computer-science-project-mentoring',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1455,6 +1456,7 @@ const LLMS_LABELS = {
   'first-lego-league-coding-help-usa': 'FIRST LEGO League coding help',
   'ftc-programming-help': 'FTC programming help',
   'science-olympiad-coding-events-help': 'Science Olympiad coding events help',
+  'isef-computer-science-project-mentoring': 'ISEF computer science project mentoring',
 };
 
 function wireLlms(slugs) {

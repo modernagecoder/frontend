@@ -28585,6 +28585,18 @@
   to = "/src/pages/science-olympiad-coding-events-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/isef-computer-science-project-mentoring"
+  to = "/src/pages/isef-computer-science-project-mentoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/isef-computer-science-project-mentoring.md"
+  to = "/src/pages/isef-computer-science-project-mentoring.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

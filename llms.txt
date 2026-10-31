@@ -920,6 +920,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - FIRST LEGO League coding help: https://learn.modernagecoders.com/first-lego-league-coding-help-usa
 - FTC programming help: https://learn.modernagecoders.com/ftc-programming-help
 - Science Olympiad coding events help: https://learn.modernagecoders.com/science-olympiad-coding-events-help
+- ISEF computer science project mentoring: https://learn.modernagecoders.com/isef-computer-science-project-mentoring
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
