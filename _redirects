@@ -8338,4 +8338,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /oxford-mat-preparation /src/pages/oxford-mat-preparation.html 200
 /oxford-mat-preparation.md /src/pages/oxford-mat-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/step-maths-preparation /src/pages/step-maths-preparation.html 200
+/step-maths-preparation.md /src/pages/step-maths-preparation.md 200
 /* /src/pages/404.html 404

@@ -589,6 +589,7 @@ const SLUGS = [
   'iowa-assessments-math-prep',
   'gifted-and-talented-test-prep',
   'oxford-mat-preparation',
+  'step-maths-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1257,6 +1258,7 @@ const LLMS_LABELS = {
   'iowa-assessments-math-prep': 'Iowa Assessments math prep',
   'gifted-and-talented-test-prep': 'Gifted and talented test prep',
   'oxford-mat-preparation': 'Oxford MAT preparation',
+  'step-maths-preparation': 'STEP maths preparation',
 };
 
 function wireLlms(slugs) {
