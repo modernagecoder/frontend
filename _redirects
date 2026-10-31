@@ -8310,4 +8310,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /tachs-math-prep /src/pages/tachs-math-prep.html 200
 /tachs-math-prep.md /src/pages/tachs-math-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/vex-iq-programming-help /src/pages/vex-iq-programming-help.html 200
+/vex-iq-programming-help.md /src/pages/vex-iq-programming-help.md 200
 /* /src/pages/404.html 404

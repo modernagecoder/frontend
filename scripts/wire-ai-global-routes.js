@@ -582,6 +582,7 @@ const SLUGS = [
   'shsat-math-prep',
   'hspt-math-prep',
   'tachs-math-prep',
+  'vex-iq-programming-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1243,6 +1244,7 @@ const LLMS_LABELS = {
   'shsat-math-prep': 'SHSAT math prep',
   'hspt-math-prep': 'HSPT math prep',
   'tachs-math-prep': 'TACHS math prep',
+  'vex-iq-programming-help': 'VEX IQ programming help',
 };
 
 function wireLlms(slugs) {
