@@ -645,7 +645,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK065 | ib-maths-ia-guidance (iig, #007177) | IB | 3,837 | 0.8% vs ccea-gcse-maths-help | exam door | original worked example | b5a35616 |
 | UK082 | maths-for-home-educated-children-uk (hec, #7F544C) | Enrichment | 4,152 | 0.7% vs ai-classes-for-kids-in-canada | exam door | original worked example | 21098391 |
 | UK040 | a-level-computer-science-tutor-online-uk (lcsu, #715B13) | A level computer science | 4,022 | 0.9% vs aqa-a-level-computer-science-7517-help | exam door | original worked example | 07baddf4 |
-| UK026 | cambridge-igcse-maths-0580-help (ci, #683F65) | International GCSE | 4,707 | 0.8% vs gl-assessment-11-plus-maths-practice | exam door | original worked example | (this commit) |
+| UK026 | cambridge-igcse-maths-0580-help (ci, #683F65) | International GCSE | 4,707 | 0.8% vs gl-assessment-11-plus-maths-practice | exam door | original worked example | f6761bff |
+| UK027 | cambridge-igcse-additional-maths-0606-help (cia, #722F31) | International GCSE | 4,200 | 2.4% vs cambridge-igcse-maths-0580-help | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

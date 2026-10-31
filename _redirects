@@ -8410,4 +8410,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /cambridge-igcse-maths-0580-help /src/pages/cambridge-igcse-maths-0580-help.html 200
 /cambridge-igcse-maths-0580-help.md /src/pages/cambridge-igcse-maths-0580-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cambridge-igcse-additional-maths-0606-help /src/pages/cambridge-igcse-additional-maths-0606-help.html 200
+/cambridge-igcse-additional-maths-0606-help.md /src/pages/cambridge-igcse-additional-maths-0606-help.md 200
 /* /src/pages/404.html 404
