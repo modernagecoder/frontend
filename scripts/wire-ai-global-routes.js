@@ -574,6 +574,7 @@ const SLUGS = [
   'teaching-textbooks-math-help',
   'eureka-math-homework-help',
   'russian-school-of-mathematics-alternative',
+  'khan-academy-math-vs-live-tutor',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1227,6 +1228,7 @@ const LLMS_LABELS = {
   'teaching-textbooks-math-help': 'Teaching Textbooks math help',
   'eureka-math-homework-help': 'Eureka Math homework help',
   'russian-school-of-mathematics-alternative': 'Russian School of Mathematics alternative',
+  'khan-academy-math-vs-live-tutor': 'Khan Academy math vs live tutor',
 };
 
 function wireLlms(slugs) {

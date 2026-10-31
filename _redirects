@@ -8278,4 +8278,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /russian-school-of-mathematics-alternative /src/pages/russian-school-of-mathematics-alternative.html 200
 /russian-school-of-mathematics-alternative.md /src/pages/russian-school-of-mathematics-alternative.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/khan-academy-math-vs-live-tutor /src/pages/khan-academy-math-vs-live-tutor.html 200
+/khan-academy-math-vs-live-tutor.md /src/pages/khan-academy-math-vs-live-tutor.md 200
 /* /src/pages/404.html 404
