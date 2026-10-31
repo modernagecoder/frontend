@@ -28369,6 +28369,18 @@
   to = "/src/pages/independent-school-11-plus-maths-london.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/13-plus-scholarship-maths-preparation"
+  to = "/src/pages/13-plus-scholarship-maths-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/13-plus-scholarship-maths-preparation.md"
+  to = "/src/pages/13-plus-scholarship-maths-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
