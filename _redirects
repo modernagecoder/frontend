@@ -8866,4 +8866,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /keystone-algebra-1-prep /src/pages/keystone-algebra-1-prep.html 200
 /keystone-algebra-1-prep.md /src/pages/keystone-algebra-1-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/11-plus-maths-tuition-north-yorkshire /src/pages/11-plus-maths-tuition-north-yorkshire.html 200
+/11-plus-maths-tuition-north-yorkshire.md /src/pages/11-plus-maths-tuition-north-yorkshire.md 200
 /* /src/pages/404.html 404

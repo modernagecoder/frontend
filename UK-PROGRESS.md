@@ -710,7 +710,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK017 | year-11-maths-tutor-online (gaj, #145153) | Secondary (England) | 4,318 | 1.7% vs year-10-maths-tutor-online | exam door | original worked example | a577e948 |
 | UK020 | ocr-gcse-maths-j560-help (ogj, #74452C) | GCSE maths | 4,568 | 1.1% vs aqa-gcse-maths-8300-help | exam door | original worked example | 16e5c914 |
 | UK023 | gcse-statistics-tutor-online (gs, #733746) | GCSE maths | 4,211 | 1.6% vs aqa-gcse-maths-8300-help | exam door | original worked example | 3cfb8994 |
-| UK025 | ocr-fsmq-additional-maths-6993-help (ofa, #404770) | GCSE maths | 4,197 | 1.7% vs gcse-statistics-tutor-online | exam door | original worked example | (this commit) |
+| UK025 | ocr-fsmq-additional-maths-6993-help (ofa, #404770) | GCSE maths | 4,197 | 1.7% vs gcse-statistics-tutor-online | exam door | original worked example | 6b5b2317 |
+| UK058 | 11-plus-maths-tuition-north-yorkshire (ptn, #385E2B) | 11+ area | 4,821 | 2% vs 11-plus-maths-tuition-lincolnshire | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

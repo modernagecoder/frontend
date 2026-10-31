@@ -721,6 +721,7 @@ const SLUGS = [
   'dual-enrollment-math-help',
   'clep-calculus-prep',
   'keystone-algebra-1-prep',
+  '11-plus-maths-tuition-north-yorkshire',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1521,6 +1522,7 @@ const LLMS_LABELS = {
   'dual-enrollment-math-help': 'Dual enrollment math help',
   'clep-calculus-prep': 'CLEP Calculus prep',
   'keystone-algebra-1-prep': 'Keystone Algebra I prep',
+  '11-plus-maths-tuition-north-yorkshire': '11 plus maths tuition in North Yorkshire',
 };
 
 function wireLlms(slugs) {
