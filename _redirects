@@ -8686,4 +8686,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /smarter-balanced-math-practice /src/pages/smarter-balanced-math-practice.html 200
 /smarter-balanced-math-practice.md /src/pages/smarter-balanced-math-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/mcas-math-prep /src/pages/mcas-math-prep.html 200
+/mcas-math-prep.md /src/pages/mcas-math-prep.md 200
 /* /src/pages/404.html 404

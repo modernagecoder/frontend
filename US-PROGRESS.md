@@ -340,7 +340,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US080 | online-math-circle-for-kids (ck, #145E3D) | enrichment | 3,248 | 1.4% vs bebras-challenge-practice | exam door | original worked example | e6fd40b5 |
 | US081 | stanford-10-math-practice (gav, #415D18) | homeschool | 3,671 | 1.7% vs stanford-online-high-school-math-prep | exam door | original worked example | 24fa122b |
 | US022 | caaspp-math-practice (cap, #9B506D) | state tests | 4,886 | 1.2% vs girls-who-code-next-step | exam door | original worked example | 2486e00e |
-| US023 | smarter-balanced-math-practice (sbp, #845C68) | state tests | 4,426 | 1.3% vs caaspp-math-practice | exam door | original worked example | (this commit) |
+| US023 | smarter-balanced-math-practice (sbp, #845C68) | state tests | 4,426 | 1.3% vs caaspp-math-practice | exam door | original worked example | f94dbc04 |
+| US024 | mcas-math-prep (mcx, #865D58) | state tests | 4,336 | 1.8% vs nys-math-test-prep-grades-3-8 | exam door | original worked example | (this commit) |
 
 ## Skipped
 

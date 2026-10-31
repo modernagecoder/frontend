@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [MCAS math prep](/mcas-math-prep)
 - [Smarter Balanced math practice](/smarter-balanced-math-practice)
 - [CAASPP math practice](/caaspp-math-practice)
 - [Stanford 10 math practice](/stanford-10-math-practice)
