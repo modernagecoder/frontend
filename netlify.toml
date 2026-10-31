@@ -27517,6 +27517,18 @@
   to = "/src/pages/psat-8-9-math-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/preact-math-prep"
+  to = "/src/pages/preact-math-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/preact-math-prep.md"
+  to = "/src/pages/preact-math-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
