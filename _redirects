@@ -8578,4 +8578,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /reception-maths-online-uk /src/pages/reception-maths-online-uk.html 200
 /reception-maths-online-uk.md /src/pages/reception-maths-online-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ks1-sats-maths-explained /src/pages/ks1-sats-maths-explained.html 200
+/ks1-sats-maths-explained.md /src/pages/ks1-sats-maths-explained.md 200
 /* /src/pages/404.html 404

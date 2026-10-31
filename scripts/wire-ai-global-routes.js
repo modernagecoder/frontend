@@ -649,6 +649,7 @@ const SLUGS = [
   'go-math-homework-help',
   'math-mammoth-tutor',
   'reception-maths-online-uk',
+  'ks1-sats-maths-explained',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1377,6 +1378,7 @@ const LLMS_LABELS = {
   'go-math-homework-help': 'Go Math homework help',
   'math-mammoth-tutor': 'Math Mammoth tutor',
   'reception-maths-online-uk': 'Reception maths online',
+  'ks1-sats-maths-explained': 'KS1 SATs maths explained',
 };
 
 function wireLlms(slugs) {

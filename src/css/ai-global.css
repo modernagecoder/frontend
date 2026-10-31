@@ -1184,3 +1184,4 @@
 .ag-root.ag-gh { --ag-accent: #743B1F; --ag-accent-soft: rgba(116,59,31,.09); }   /* Go Math homework help: a russet brown, #743B1F as allocated, warm and school-desk plain, about 8.3:1 on the #FBF8F2 paper */
 .ag-root.ag-max { --ag-accent: #835F0F; --ag-accent-soft: rgba(131,95,15,.09); }   /* Math Mammoth tutor: an old-gold ochre, #835F0F as allocated, earthy for a homeschool page and about 5.5:1 on the #FBF8F2 paper */
 .ag-root.ag-ru { --ag-accent: #653C22; --ag-accent-soft: rgba(101,60,34,.09); }   /* Reception maths: a warm conker brown (#653C22, 8.91:1 on #FBF8F2 and 7.67:1 on the deepest paper tint), soft and earthy for the youngest page, apart from the KS1 dusk violet */
+.ag-root.ag-kse { --ag-accent: #315966; --ag-accent-soft: rgba(49,89,102,.09); }   /* KS1 SATs: a slate teal (#315966, 7.20:1 on #FBF8F2 and 6.19:1 on the deepest paper tint), calm and paper-like for a test explainer, apart from the KS1 dusk violet */
