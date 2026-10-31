@@ -44,7 +44,7 @@ module.exports = {
   clusterName: 'United Kingdom',
   hub: { group: 'exam', tag: 'CAMBRIDGE 9709', blurb: 'Six papers and three routes. The applied pair is the real choice: Paper 4 cannot sit with Paper 6, and a pure-only AS cannot carry forward.' },
   slug: 'cambridge-a-level-maths-9709-help',
-  code: 'cal',
+  code: 'cmal',
   accent: '#725D3C',
   accentRationale: 'Cambridge International 9709: a weathered bronze #725D3C from the cluster allocation, 5.92:1 on #FBF8F2 and 5.09:1 on the deepest paper tint, earthier and greyer than the two English A level pages',
   pageType: 'market',
@@ -357,12 +357,12 @@ module.exports = {
   },
 
   personalityCss: `
-.ag-root.ag-cal .ag-hero h1 { letter-spacing: -0.017em; font-weight: 700; }
-.ag-root.ag-cal .ag-capsule { border-left-width: 5px; border-radius: 5px; }
-.ag-root.ag-cal .ag-section-head h2 { max-width: 26ch; }
-.ag-root.ag-cal .ag-table caption { text-align: left; font-weight: 610; }
-.ag-root.ag-cal .ag-table th:first-child { width: 20%; }
-.ag-root.ag-cal .ag-steps li { padding-bottom: 8px; }
+.ag-root.ag-cmal .ag-hero h1 { letter-spacing: -0.017em; font-weight: 700; }
+.ag-root.ag-cmal .ag-capsule { border-left-width: 5px; border-radius: 5px; }
+.ag-root.ag-cmal .ag-section-head h2 { max-width: 26ch; }
+.ag-root.ag-cmal .ag-table caption { text-align: left; font-weight: 610; }
+.ag-root.ag-cmal .ag-table th:first-child { width: 20%; }
+.ag-root.ag-cmal .ag-steps li { padding-bottom: 8px; }
 `,
 
   dossier: {
