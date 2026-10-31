@@ -8742,4 +8742,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /after-hour-of-code-next-steps /src/pages/after-hour-of-code-next-steps.html 200
 /after-hour-of-code-next-steps.md /src/pages/after-hour-of-code-next-steps.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ib-myp-maths-tutor-online /src/pages/ib-myp-maths-tutor-online.html 200
+/ib-myp-maths-tutor-online.md /src/pages/ib-myp-maths-tutor-online.md 200
 /* /src/pages/404.html 404
