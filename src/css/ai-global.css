@@ -1170,3 +1170,4 @@
 .ag-root.ag-gaf { --ag-accent: #573F66; --ag-accent-soft: rgba(87,63,102,.09); }   /* Year 7 maths: a dusk plum (#573F66, 8.58:1 on #FBF8F2), redder than the KS1 violet and well apart from the Year 8 navy */
 .ag-root.ag-gag { --ag-accent: #184F71; --ag-accent-soft: rgba(24,79,113,.09); }   /* Year 8 maths: a deep harbour navy (#184F71, 8.27:1 on #FBF8F2), clearly bluer than the Year 7 plum */
 .ag-root.ag-mas { --ag-accent: #2E445F; --ag-accent-soft: rgba(46,68,95,.09); }   /* Maths masterclasses: a slate blue (#2E445F), 9.40:1 on #FBF8F2, the colour of a lecture-theatre board, cooler and greyer than the olympiad indigo and the junior olympiad navy */
+.ag-root.ag-cu { --ag-accent: #454520; --ag-accent-soft: rgba(69,69,32,.09); }   /* Online maths circle: a dark olive (#454520), 9.32:1 on #FBF8F2, a seminar-room green that sits apart from the masterclass slate and every competition blue */

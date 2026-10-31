@@ -27949,6 +27949,18 @@
   to = "/src/pages/maths-masterclasses-for-able-students-uk.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-maths-circle-uk"
+  to = "/src/pages/online-maths-circle-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-circle-uk.md"
+  to = "/src/pages/online-maths-circle-uk.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
