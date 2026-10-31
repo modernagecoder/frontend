@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Illinois IAR math practice](/illinois-iar-math-practice)
 - [NJGPA math prep](/njgpa-math-prep)
 - [NJSLA math practice](/njsla-math-practice)
 - [After the Hour of Code](/after-hour-of-code-next-steps)

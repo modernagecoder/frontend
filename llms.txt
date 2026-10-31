@@ -935,6 +935,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Cambridge A level Further Maths 9231 help: https://learn.modernagecoders.com/cambridge-a-level-further-maths-9231-help
 - NJSLA math practice: https://learn.modernagecoders.com/njsla-math-practice
 - NJGPA math prep: https://learn.modernagecoders.com/njgpa-math-prep
+- Illinois IAR math practice: https://learn.modernagecoders.com/illinois-iar-math-practice
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

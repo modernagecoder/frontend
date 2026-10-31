@@ -703,6 +703,7 @@ const SLUGS = [
   'cambridge-a-level-further-maths-9231-help',
   'njsla-math-practice',
   'njgpa-math-prep',
+  'illinois-iar-math-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1485,6 +1486,7 @@ const LLMS_LABELS = {
   'cambridge-a-level-further-maths-9231-help': 'Cambridge A level Further Maths 9231 help',
   'njsla-math-practice': 'NJSLA math practice',
   'njgpa-math-prep': 'NJGPA math prep',
+  'illinois-iar-math-practice': 'Illinois IAR math practice',
 };
 
 function wireLlms(slugs) {
