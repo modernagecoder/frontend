@@ -27649,6 +27649,18 @@
   to = "/src/pages/edexcel-igcse-further-pure-maths-4pm1-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/igcse-maths-for-home-educated-students-uk"
+  to = "/src/pages/igcse-maths-for-home-educated-students-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/igcse-maths-for-home-educated-students-uk.md"
+  to = "/src/pages/igcse-maths-for-home-educated-students-uk.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
