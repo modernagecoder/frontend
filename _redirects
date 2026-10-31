@@ -8282,4 +8282,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /khan-academy-math-vs-live-tutor /src/pages/khan-academy-math-vs-live-tutor.html 200
 /khan-academy-math-vs-live-tutor.md /src/pages/khan-academy-math-vs-live-tutor.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/common-core-math-tutor /src/pages/common-core-math-tutor.html 200
+/common-core-math-tutor.md /src/pages/common-core-math-tutor.md 200
 /* /src/pages/404.html 404
