@@ -576,6 +576,7 @@ const SLUGS = [
   'russian-school-of-mathematics-alternative',
   'khan-academy-math-vs-live-tutor',
   'common-core-math-tutor',
+  'trigonometry-tutoring-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1231,6 +1232,7 @@ const LLMS_LABELS = {
   'russian-school-of-mathematics-alternative': 'Russian School of Mathematics alternative',
   'khan-academy-math-vs-live-tutor': 'Khan Academy math vs live tutor',
   'common-core-math-tutor': 'Common Core math tutor',
+  'trigonometry-tutoring-online': 'Trigonometry tutoring online',
 };
 
 function wireLlms(slugs) {

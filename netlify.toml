@@ -27241,6 +27241,18 @@
   to = "/src/pages/common-core-math-tutor.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/trigonometry-tutoring-online"
+  to = "/src/pages/trigonometry-tutoring-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/trigonometry-tutoring-online.md"
+  to = "/src/pages/trigonometry-tutoring-online.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
