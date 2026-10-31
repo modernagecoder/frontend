@@ -27277,6 +27277,18 @@
   to = "/src/pages/middle-school-math-placement-test-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/shsat-math-prep"
+  to = "/src/pages/shsat-math-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/shsat-math-prep.md"
+  to = "/src/pages/shsat-math-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

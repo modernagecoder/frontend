@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [SHSAT math prep](/shsat-math-prep)
 - [Middle school math placement test prep](/middle-school-math-placement-test-prep)
 - [Accelerated math program online](/accelerated-math-program-online)
 - [Trigonometry tutoring online](/trigonometry-tutoring-online)

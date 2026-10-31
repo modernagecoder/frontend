@@ -579,6 +579,7 @@ const SLUGS = [
   'trigonometry-tutoring-online',
   'accelerated-math-program-online',
   'middle-school-math-placement-test-prep',
+  'shsat-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1237,6 +1238,7 @@ const LLMS_LABELS = {
   'trigonometry-tutoring-online': 'Trigonometry tutoring online',
   'accelerated-math-program-online': 'Accelerated math program online',
   'middle-school-math-placement-test-prep': 'Middle school math placement test prep',
+  'shsat-math-prep': 'SHSAT math prep',
 };
 
 function wireLlms(slugs) {
