@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BTEC IT Programming Unit Help | Unit 4, Level 3 Nationals</title>
+  <meta name="description" content="BTEC IT programming unit help for Level 3 Nationals Unit 4: the learning aims, what Pass to Distinction ask, Pearson's authenticity rules, and live Python teaching.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/btec-it-programming-unit-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/btec-it-programming-unit-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#665381">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/btec-it-programming-unit-help">
+  <meta property="og:title" content="BTEC IT Programming Unit Help | Unit 4, Level 3 Nationals">
+  <meta property="og:description" content="BTEC IT Unit 4 Programming is internally assessed, and Pearson's rules close the door once the assignment starts. How to build the skills honestly, before it does.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BTEC IT Programming Unit Help">
+  <meta name="twitter:description" content="BTEC Level 3 IT Unit 4 Programming: computational thinking, design, testing with typical, extreme and erroneous data, and live lessons that never touch assessed work.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-bip .ag-hero h1 { letter-spacing: -0.02em; font-weight: 700; }
+.ag-root.ag-bip .ag-capsule { border-left-width: 5px; border-right: 1px solid var(--ag-accent); }
+.ag-root.ag-bip .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-bip .ag-table caption { text-align: left; font-weight: 660; }
+.ag-root.ag-bip .ag-table td:first-child { font-weight: 640; white-space: nowrap; }
+.ag-root.ag-bip .ag-code pre { font-size: 0.86rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/btec-it-programming-unit-help#page","url":"https://learn.modernagecoders.com/btec-it-programming-unit-help","name":"BTEC IT Programming Unit Help","description":"Live online programming teaching for students on the Pearson BTEC Level 3 Nationals in Information Technology, built from the 2016 specification for Unit 4 Programming and Pearson's rules on authentic work.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the UK","item":"https://learn.modernagecoders.com/coding-classes-in-united-kingdom"},{"@type":"ListItem","position":4,"name":"BTEC IT programming help","item":"https://learn.modernagecoders.com/btec-it-programming-unit-help"}]},{"@type":"Course","name":"BTEC IT Programming Unit Help","description":"Live online Python and programming for BTEC IT students: computational thinking, data types and constructs, design documents, validation, test plans with typical, extreme and erroneous data, and optimisation, taught on practice briefs and never on assessed work.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/btec-it-programming-unit-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/btec-it-programming-unit-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/btec-it-programming-unit-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is BTEC IT Unit 4?","acceptedAnswer":{"@type":"Answer","text":"Unit 4: Programming is a Level 3, internally assessed unit of 90 guided learning hours in the BTEC Nationals in Information Technology (2016). Students examine computational thinking, then design and develop a program for a client."}},{"@type":"Question","name":"Is Unit 4 Programming mandatory?","acceptedAnswer":{"@type":"Answer","text":"It is mandatory in the Foundation Diploma, Diploma and Extended Diploma, according to Pearson's specification. It is not part of the Certificate or Extended Certificate."}},{"@type":"Question","name":"Which programming language should I use for BTEC IT?","acceptedAnswer":{"@type":"Answer","text":"Pearson does not fix one. The specification gives Python, C and Perl as procedural examples, C++, C# and Java as object-orientated ones and Visual Basic as event-driven, and your college chooses. We teach Python, with Java for comparison."}},{"@type":"Question","name":"How do I get a Distinction in Unit 4?","acceptedAnswer":{"@type":"Answer","text":"You need every Pass and Merit criterion plus A.D1, BC.D2 and BC.D3: evaluating computational thinking, evaluating your optimised program against the client's needs, and showing individual responsibility and creativity. All three depend on your own independent work."}},{"@type":"Question","name":"Can a tutor help me with my BTEC assignment?","acceptedAnswer":{"@type":"Answer","text":"A tutor can teach programming and help with practice work. Once an assessment has begun, Pearson says learners must not be given feedback on progress towards the criteria, and you sign a declaration that the work is your own, so we never help with live assessed work."}},{"@type":"Question","name":"What happens if work is not authentic?","acceptedAnswer":{"@type":"Answer","text":"Pearson treats it as malpractice and may impose penalties. Its specification also says no resubmission is offered where work is not authentic."}},{"@type":"Question","name":"Can I resubmit a BTEC assignment?","acceptedAnswer":{"@type":"Answer","text":"Only once, if the Lead Internal Verifier approves it, with a deadline within 15 working days in the same academic year, and only where you can improve without further guidance."}},{"@type":"Question","name":"Is BTEC IT being scrapped?","acceptedAnswer":{"@type":"Answer","text":"Pearson lists 31 July 2025 as the last registration date for DfE-funded students in England, and 31 July 2029 for Northern Ireland and Wales. Students already registered continue their course."}},{"@type":"Question","name":"When are lessons?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. All times are given in UK time."}},{"@type":"Question","name":"Are you connected with Pearson or my college?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders is an independent online school, not linked to Pearson or any school or college."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/btec-it-programming-unit-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="GB">
+</head>
+
+<body class="ag-root ag-bip">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#unit">Unit 4</a></li>
+      <li><a href="#criteria">Pass to Distinction</a></li>
+      <li><a href="#rules">Authentic work</a></li>
+      <li><a href="#practice">Practice brief</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a> / BTEC IT programming help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">England, Wales and Northern Ireland &middot; Pearson BTEC Level 3 Nationals &middot; Information Technology</p>
+        <h1>BTEC IT programming unit help</h1>
+        <p class="ag-lede">Students on the BTEC Level 3 Nationals in Information Technology usually come looking for help at the worst possible moment: the assignment brief for Unit 4 Programming has been handed out, the program has to be designed and built for a client, and the deadline is close. By then, Pearson's rules limit what anyone can do. Once an assessment has begun, even the student's own teacher may not give feedback on meeting the criteria, and the student signs a declaration that the work is their own. The honest window for help is before the brief arrives, and it is wide: computational thinking, the constructs of a real language, design documents, test plans and optimisation can all be learned properly on practice work. This page explains the unit, the criteria, Pearson's authenticity rules in its own words, and how we teach within them.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#rules" class="ag-btn ag-btn--ghost">What help is allowed</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20lesson%20in%20programming%20for%20my%20BTEC%20IT%20course." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bip'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Built from Pearson's Unit 4 specification and authenticity rules</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Qualification</dt><dd>BTEC Level 3 Nationals in IT (2016)</dd>
+          <dt>Unit</dt><dd>4: Programming</dd>
+          <dt>Assessment</dt><dd>Internal, up to two assignments</dd>
+          <dt>Guided learning hours</dt><dd>90</dd>
+          <dt>Mandatory in</dt><dd>Foundation Diploma, Diploma, Extended Diploma</dd>
+          <dt>Our help</dt><dd>Teaching on practice work only</dd>
+          <dt>Classes</dt><dd>Group of 15 to 20 or 1-on-1</dd>
+          <dt>First lesson</dt><dd>Free</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>BTEC IT Unit 4 Programming is a mandatory, internally assessed unit of 90 guided learning hours in the Pearson BTEC Level 3 National Foundation Diploma, Diploma and Extended Diploma in Information Technology (2016). Students examine computational thinking, then design and develop a program for a client, graded Pass, Merit or Distinction. Pearson requires the work to be the learner's "own independent work". Modern Age Coders gives BTEC IT programming unit help live online, in a group of 15 to 20 or 1-on-1, through its Python for Teens course, teaching the skills on our own practice briefs and never on assessed work. The first lesson is free; we are not connected with Pearson or any college.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses for BTEC IT students</p>
+      <h2>Three courses for the programming unit</h2>
+      <p class="ag-lede">Python for Teens is the core: the procedural language the specification names first. Data Structures adds the depth a Distinction evaluation draws on, and Java covers the object-orientated side.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIP / 01</p>
+          <h3>Python for Teens</h3>
+          <p>Variables, selection, iteration, functions, files and validation, built up to small client-style programs.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIP / 02</p>
+          <h3>Data Structures and Algorithms</h3>
+          <p>Arrays, searching, sorting and efficiency, the vocabulary of optimisation and quality.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BIP / 03</p>
+          <h3>Java Programming</h3>
+          <p>Classes and objects, for students comparing paradigms in learning aim A.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="unit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unit 4</p><h2>What is in BTEC IT Unit 4 Programming?</h2><p class="ag-lede">Three learning aims: examine computational thinking and programming principles, design a software solution for a client, then develop it. Pearson's unit summary puts it in one line: "Learners study the underpinning concepts and implications of programming languages to design, develop and test computer programs."</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Unit 4: Programming, from the 2016 specification (Issue 6, April 2021)</caption><thead><tr><th scope="col">Learning aim</th><th scope="col">Content areas</th><th scope="col">Evidence Pearson suggests</th></tr></thead><tbody><tr><td>A: Examine the computational thinking skills and principles of computer programming</td><td>Decomposition, pattern recognition, abstraction; types of language; constructs; logic; software quality</td><td>A report evaluating computational thinking and how design principles produce high-quality software</td></tr><tr><td>B: Design a software solution to meet client requirements</td><td>The software development life cycle; problem definition, algorithms, data structures, validation, a test plan</td><td>A project brief, design documentation, user feedback and design refinement</td></tr><tr><td>C: Develop a software solution to meet client requirements</td><td>Development, testing, improvement and optimisation, review, skills and behaviours</td><td>The program with development and testing logs, meeting notes and an evaluative report</td></tr></tbody></table></div>
+    <p>Learning aims B and C are normally assessed together in one assignment, and the specification allows "a maximum number of two summative assignments for this unit". The language is not fixed. The content lists procedural languages such as C, Perl and Python, object-orientated ones such as C++, C# and Java, event-driven Visual Basic, machine code and mark-up such as HTML, and asks students to compare them by performance, development time and ease of development. Most centres teach the build in one language; we teach Python, the first procedural example named.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Where Unit 4 sits in the five sizes of the qualification (2016 specification)</caption><thead><tr><th scope="col">Size</th><th scope="col">Guided learning hours</th><th scope="col">Unit 4</th></tr></thead><tbody><tr><td>Certificate</td><td>180</td><td>Not included</td></tr><tr><td>Extended Certificate</td><td>360</td><td>Not included</td></tr><tr><td>Foundation Diploma</td><td>510</td><td>Mandatory</td></tr><tr><td>Diploma</td><td>720</td><td>Mandatory</td></tr><tr><td>Extended Diploma</td><td>1080, equivalent in size to three A levels</td><td>Mandatory</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Pearson, <a class="ag-inline-link" href="https://qualifications.pearson.com/en/qualifications/btec-nationals/information-technology-2016.html" rel="noopener" target="_blank">BTEC Nationals Information Technology (2016)</a> and its Extended Diploma specification, Issue 6, read on 31 October 2026. Students on the smaller sizes may meet programming in optional units such as Mobile Apps Development or Computer Games Development instead.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="criteria">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Pass to Distinction</p><h2>What do you need for a Distinction in BTEC IT Unit 4?</h2><p class="ag-lede">Every Pass and Merit criterion, plus the three Distinction criteria: an evaluation of how computational thinking affects software quality, an evaluation of the optimised program against the client's requirements, and evidence of individual responsibility, creativity and self-management throughout.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Unit 4 criteria, with our plain-English reading (criteria from the specification)</caption><thead><tr><th scope="col">Criterion</th><th scope="col">Pearson's wording, shortened</th><th scope="col">What it asks of the student (ours)</th></tr></thead><tbody><tr><td>A.P1 to A.P3</td><td>Explain computational thinking, programming principles in different languages, and design principles for quality</td><td>Explain, with real code examples, how problems are broken down and why language features matter</td></tr><tr><td>A.M1</td><td>Analyse how computational thinking can impact software design and quality</td><td>Go beyond describing: show cause and effect</td></tr><tr><td>A.D1</td><td>Evaluate how computational thinking can impact design and quality</td><td>Weigh strengths and limits and reach a judgement</td></tr><tr><td>B.P4, B.P5</td><td>Produce a design to meet client requirements; review it with others</td><td>A design someone else could build from, improved after feedback</td></tr><tr><td>B.M2</td><td>Justify design decisions</td><td>Say why each choice suits this client</td></tr><tr><td>C.P6, C.P7</td><td>Produce a program that meets the requirements; review how far it does</td><td>Working, tested code and an honest review</td></tr><tr><td>C.M3</td><td>"Optimise the computer program to meet client requirements."</td><td>Make it better, measurably, and record how</td></tr><tr><td>BC.D2</td><td>Evaluate the design and optimised program against client requirements</td><td>Judge the whole solution, not only the code</td></tr><tr><td>BC.D3</td><td>"Demonstrate individual responsibility, creativity and effective self-management"</td><td>Evidence that the student ran the project themselves</td></tr></tbody></table></div>
+    <p>BC.D3 deserves a second look. It asks for individual responsibility in "the design, development and review of the computer program". A student who has been steered step by step by someone outside college is, by definition, not showing it. That is one more reason the useful help is skill-building in advance rather than guidance during the assignment.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Robustness is in the content</h3><p>The specification defines robustness as coding and testing so that "extreme and erroneous data can be processed without causing the program to crash". Validation is not optional polish.</p></div><div><h3>Test data has three kinds</h3><p>A design needs a "Test plan with test data to include typical, extreme and erroneous data". We practise all three on every exercise.</p></div><div><h3>Optimisation needs evidence</h3><p>C.M3 is easier to show when the first version was measured. We teach students to keep before-and-after notes on their own practice code.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="rules">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Authentic work</p><h2>Can a tutor help with a BTEC IT assignment?</h2><p class="ag-lede">A tutor can teach programming, and can help with practice tasks before an assignment begins. Once an assessment has begun, Pearson's rules say learners must not be given feedback on progress towards the criteria, the work must be the learner's own, and the learner signs a declaration saying so. We work entirely on the first side of that line.</p></div>
+    <p>Pearson's specification is direct. "Once an assessment has begun, learners must not be given feedback on progress towards fulfilling the targeted criteria." "An assessor must assess only learner work that is authentic, i.e. learners' own independent work." "Learners must authenticate the evidence that they provide for assessment through signing a declaration stating that it is their own work." Assessors in turn declare that the learner "has clearly referenced any sources used in the work". On malpractice, Pearson says it "does not tolerate actions (or attempted actions) of malpractice by learners, centre staff or centres in connection with Pearson qualifications", and may impose penalties where it is proven.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Our line, drawn from Pearson's rules</caption><thead><tr><th scope="col">We do</th><th scope="col">We never do</th></tr></thead><tbody><tr><td>Teach Python, design methods, testing and optimisation in lessons</td><td>Write, edit, debug or improve any code that will be submitted</td></tr><tr><td>Set our own practice briefs, unlike the college's, with full feedback</td><td>Look at, comment on or suggest changes to an assignment brief once it is live</td></tr><tr><td>Explain the meaning of words such as analyse, justify and evaluate</td><td>Draft, rewrite or check any report, log or evaluation for submission</td></tr><tr><td>Teach how to reference sources properly</td><td>Supply code snippets, designs or text intended for the assignment</td></tr><tr><td>Pause topic teaching that overlaps a live assignment if the college asks</td><td>Work around a college's instructions on outside help</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Resubmission is not a second draft</h3><p>Pearson allows one resubmission only if the Lead Internal Verifier approves it, with a deadline "within 15 working days in the same academic year", and the learner must be able to improve "without further guidance".</p>
+<p>It is never offered where work "is not authentic". A retake, if allowed at all, "may only be achieved at a pass".</p></div><div><h3>What to tell the college</h3><p>If a student has outside lessons, it is wise to tell the unit teacher. A short note saying that lessons cover general programming on separate practice tasks protects everyone.</p>
+<p>If the college has its own rule about tutoring during an assignment, that rule comes first, and we follow it.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: Pearson BTEC Level 3 National Extended Diploma in Information Technology specification, Issue 6, section on making valid assessment decisions and dealing with malpractice, read on 31 October 2026. Pearson's fuller centre guidance on malpractice is on its website.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="status">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Still running?</p><h2>Is the BTEC IT Level 3 qualification still running in 2026?</h2><p class="ag-lede">Yes, for students already on it, with dates that differ by nation. Pearson's qualification page gives the last registration date for DfE-funded students in England as 31 July 2025, and 31 July 2029 for Northern Ireland and Wales.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>BTEC Nationals Information Technology (2016): dates on Pearson's qualification page, read 31 October 2026</caption><thead><tr><th scope="col">Item</th><th scope="col">As Pearson lists it</th></tr></thead><tbody><tr><td>First teaching</td><td>June 2016</td></tr><tr><td>Performance tables</td><td>Applied Generals (2021 to 2026)</td></tr><tr><td>Funding approval end date, England</td><td>31 July 2025</td></tr><tr><td>Last registration, England, DfE funded</td><td>31 July 2025</td></tr><tr><td>Last registration, England, private or apprenticeship funded</td><td>31 December 2026</td></tr><tr><td>Last registration, Northern Ireland</td><td>31 July 2029</td></tr><tr><td>Last registration, Wales</td><td>31 July 2029</td></tr></tbody></table></div>
+    <p>In practice, a student in England on a two-year funded programme who registered before the end of July 2025 is still working through the units, including Unit 4, in 2026 to 2027. In Wales and Northern Ireland new cohorts can continue to register for several more years. If you are unsure which version or size your college offers, the unit list on the assignment briefs, or a quick question to the course leader, will tell you.</p>
+    <p>Students choosing between routes after GCSE may also find <a class="ag-inline-link" href="/t-level-digital-coding-help">the T Level digital page</a> and <a class="ag-inline-link" href="/a-level-computer-science-tutor-online-uk">A level Computer Science tuition</a> useful, since the three qualifications teach programming in very different ways.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice brief</p><h2>A worked practice brief: design, code, test, optimise</h2><p class="ag-lede">Here is the kind of exercise we use in lessons. The brief is ours and deliberately unlike any Pearson assignment. It shows the full cycle on a small scale, so that the habits are automatic before the real brief arrives.</p></div>
+    <p><strong>Practice brief (ours).</strong> A youth club wants a tiny program to record attendance at four sessions and report the average. Attendance is a whole number from 0 to 40, the hall's capacity. The program must not crash on bad input.</p>
+    <ol class="ag-steps"><li><strong>Decompose.</strong> Read one valid number; repeat four times; calculate and print the average. Three steps, one of them reusable.</li><li><strong>Abstract.</strong> Inputs: four attendance figures. Constant: the capacity of 40. Output: the average to one decimal place. Everything else about the club is irrelevant.</li><li><strong>Design the validation.</strong> Reject anything that is not a whole number, and anything outside 0 to 40, with a message that says what is wanted.</li><li><strong>Plan the tests before coding.</strong> Typical, extreme and erroneous data, as the specification asks.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our practice solution</b><span>Python</span></figcaption><pre># Practice brief (ours, not a Pearson assignment): log club attendance.
+def read_attendance(prompt):
+    """Return a whole number of members from 0 to 40, re-asking until valid."""
+    while True:
+        raw = input(prompt).strip()
+        if not raw.isdigit():
+            print("Please type a whole number, for example 12.")
+            continue
+        value = int(raw)
+        if 0 &lt;= value &lt;= 40:
+            return value
+        print("Attendance must be between 0 and 40.")
+
+sessions = [read_attendance(f"Session {n}: ") for n in range(1, 5)]
+print("Average attendance:", round(sum(sessions) / len(sessions), 1))</pre><p class="ag-code-note">One function does the validation and is reused four times. Written by us for teaching; it is not, and should never be used as, assignment code.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Our test plan for the practice brief</caption><thead><tr><th scope="col">Test</th><th scope="col">Type</th><th scope="col">Input</th><th scope="col">Expected result</th></tr></thead><tbody><tr><td>1</td><td>Typical</td><td>12</td><td>Accepted</td></tr><tr><td>2</td><td>Extreme</td><td>0</td><td>Accepted, the lowest valid value</td></tr><tr><td>3</td><td>Extreme</td><td>40</td><td>Accepted, the highest valid value</td></tr><tr><td>4</td><td>Erroneous</td><td>41</td><td>Rejected with the range message, asked again</td></tr><tr><td>5</td><td>Erroneous</td><td>twelve</td><td>Rejected with the whole-number message</td></tr><tr><td>6</td><td>Erroneous</td><td>-3</td><td>Rejected, because "-3".isdigit() is False</td></tr><tr><td>7</td><td>Erroneous</td><td>7.5</td><td>Rejected, not a whole number</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Optimise, and show it</h3><p>A first version might repeat the input and checking code four times. Moving it into one function shortens the program, removes four chances for an inconsistent check, and makes a change to the capacity a one-line edit.</p>
+<p>That is maintainability, one of the quality factors the specification lists, and it can be shown with a before-and-after line count.</p></div><div><h3>Review against the brief</h3><p>Does it reject bad data? Tests 4 to 7 say yes. Does it report the average? Yes, to one decimal place.</p>
+<p>What would the club want next? Perhaps names, dates or saving to a file, each a sensible extension to discuss, which is the habit an evaluation needs.</p></div></div>
+    <p class="ag-mt-40"><strong>Try these yourself (ours).</strong> (1) Change the program so the capacity is a named constant. (2) Add a fifth session without copying any line. (3) Make it print the highest attendance as well. (4) Write two more erroneous tests the plan above misses. <strong>Hints:</strong> (1) CAPACITY = 40 at the top; (2) change range(1, 5) to range(1, 6); (3) max(sessions); (4) an empty input, or a number with spaces inside such as "1 2".</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="classes">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Our lessons</p><h2>How do your BTEC IT programming lessons work?</h2><p class="ag-lede">They follow the unit content, not your assignment. Students learn the language, the methods and the vocabulary on our own briefs, so that when the college assignment arrives they can do it independently.</p></div>
+    <ol class="ag-steps"><li><strong>A free first lesson.</strong> A short programming task and a conversation about where you are in the course, including whether any assignment is live.</li><li><strong>Timing around assignments.</strong> Ideally we start before Unit 4 begins. If an assignment is already live, lessons stay on general skills and separate practice tasks only.</li><li><strong>Learning aim A skills.</strong> Computational thinking, paradigms and constructs, explained with code we write in lessons, so the vocabulary is understood rather than memorised.</li><li><strong>Learning aims B and C skills.</strong> Design documents, flowcharts and pseudocode, validation, test plans and optimisation, all on practice briefs.</li><li><strong>Command words.</strong> What explain, analyse, justify and evaluate mean in practice, taught on our own examples.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Group or 1-on-1?</h3><p>A group of 15 to 20 students suits steady skill building in Python across a term.</p>
+<p>1-on-1 suits a student who has fallen behind on the basics, or wants to move quickly before Unit 4 starts.</p></div><div><h3>What we will not claim</h3><p>Any grade. Grades are decided by college assessors and Pearson's quality assurance, on the student's own work.</p>
+<p>Any link with Pearson or any college. We are an independent online school.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>Four rungs before the Unit 4 brief</h2>
+      <p class="ag-lede">Skills a student should have under their own control before the assignment starts.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our progression for BTEC IT programming</caption><thead><tr><th scope="col">Rung</th><th scope="col">When</th><th scope="col">What the student can do alone</th></tr></thead><tbody><tr><td>1. Core Python</td><td class="ag-num">First term</td><td class="ag-num">Variables, data types, selection, loops, functions and lists</td></tr><tr><td>2. Robust programs</td><td class="ag-num">Second term</td><td class="ag-num">Validation, error handling, files, typical, extreme and erroneous testing</td></tr><tr><td>3. Design and documentation</td><td class="ag-num">Before Unit 4</td><td class="ag-num">Problem definitions, flowcharts, pseudocode, test plans and logs</td></tr><tr><td>4. Quality and evaluation</td><td class="ag-num">Before Unit 4</td><td class="ag-num">Optimising code, judging it against a brief, using the command words</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Rung two is the gap</h3><p>Many students can make code work on good input. Far fewer can make it survive bad input.</p>
+<p>Students wanting a wider view may like <a class="ag-inline-link" href="/coding-roadmap">the coding roadmap</a>.</p></div><div><h3>Rung four is where grades rise</h3><p>Merit and Distinction criteria ask for justification and evaluation. Both can be practised early.</p>
+<p>During live assignments we keep to general practice only.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Catalogue</p>
+      <h2>Nine courses for BTEC IT students</h2>
+      <p class="ag-lede">Programming first, then the units that sit beside it.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programming</h3>
+        <span class="ag-band-sub">For Unit 4</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI1 / 01</p>
+          <h4>Python for teens</h4>
+          <p>The language most Unit 4 students use.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI1 / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Efficiency and the words to discuss it.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI1 / 03</p>
+          <h4>Java</h4>
+          <p>An object-orientated language to compare.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Neighbouring units</h3>
+        <span class="ag-band-sub">Web, apps and games</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI2 / 01</p>
+          <h4>Web development</h4>
+          <p>HTML, CSS and JavaScript for the website unit.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI2 / 02</p>
+          <h4>App development</h4>
+          <p>Building mobile apps step by step.</p>
+          <a class="ag-course-link" href="/courses/complete-app-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI2 / 03</p>
+          <h4>Game development</h4>
+          <p>Event-driven programming through games.</p>
+          <a class="ag-course-link" href="/courses/complete-game-development-masterclass-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Data and next steps</h3>
+        <span class="ag-band-sub">Beyond the BTEC</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI3 / 01</p>
+          <h4>SQL and databases</h4>
+          <p>Data modelling and queries.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI3 / 02</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>Python taken into real models.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">UK / BI3 / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Version control, useful for development logs.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Lessons</p>
+      <h2>When BTEC programming lessons run</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Our teachers work from India, and every time offered to a UK student is stated in UK time.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After college</p><p class="ag-slot-l">The usual slot for sixth-form and college students.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evening</p><p class="ag-slot-l">Around part-time work.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend</p><p class="ag-slot-l">Longer sessions for a full practice brief.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Unit content</h3><p>Taught from the specification, not from your assignment.</p></div>
+      <div><h3>Our own briefs</h3><p>Practice tasks unlike any college assignment, with full feedback.</p></div>
+      <div><h3>Three kinds of test data</h3><p>Typical, extreme and erroneous in every exercise.</p></div>
+      <div><h3>Command words</h3><p>Explain, analyse, justify and evaluate, practised on our examples.</p></div>
+      <div><h3>Assignment-safe</h3><p>General practice only while a college assignment is live.</p></div>
+      <div><h3>Batch or 1-on-1</h3><p>15 to 20 students, or one student with one teacher.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our teenage students have built</h2>
+      <p class="ag-lede">Projects from our own lessons, none of them submitted for any qualification. See <a class="ag-inline-link" href="/student-labs">student labs</a> for more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for BTEC IT programming lessons</h2>
+      <p class="ag-lede">Your first lesson is free. After that, a monthly fee applies, lower for a group place and higher for 1-on-1, and only once a course and weekly time are agreed. No contract ties you in.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A short programming task</li><li>A clear plan around your college timetable</li><li>Booked with a phone number</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>15 to 20 students</li><li>The same teacher through the term</li><li>Practice briefs with feedback</li><li>Testing and validation every week</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One teacher, one student</li><li>A plan timed before Unit 4</li><li>Suits a student catching up on basics</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' and students' Google reviews, left exactly as posted.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">BTEC IT questions</p>
+      <h2>What BTEC IT students ask about the programming unit</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is BTEC IT Unit 4?</h3>
+        <p>Unit 4: Programming is a Level 3, internally assessed unit of 90 guided learning hours in the BTEC Nationals in Information Technology (2016). Students examine computational thinking, then design and develop a program for a client.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Unit 4 Programming mandatory?</h3>
+        <p>It is mandatory in the Foundation Diploma, Diploma and Extended Diploma, according to Pearson's specification. It is not part of the Certificate or Extended Certificate.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which programming language should I use for BTEC IT?</h3>
+        <p>Pearson does not fix one. The specification gives Python, C and Perl as procedural examples, C++, C# and Java as object-orientated ones and Visual Basic as event-driven, and your college chooses. We teach Python, with Java for comparison.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I get a Distinction in Unit 4?</h3>
+        <p>You need every Pass and Merit criterion plus A.D1, BC.D2 and BC.D3: evaluating computational thinking, evaluating your optimised program against the client's needs, and showing individual responsibility and creativity. All three depend on your own independent work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a tutor help me with my BTEC assignment?</h3>
+        <p>A tutor can teach programming and help with practice work. Once an assessment has begun, Pearson says learners must not be given feedback on progress towards the criteria, and you sign a declaration that the work is your own, so we never help with live assessed work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What happens if work is not authentic?</h3>
+        <p>Pearson treats it as malpractice and may impose penalties. Its specification also says no resubmission is offered where work is not authentic.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I resubmit a BTEC assignment?</h3>
+        <p>Only once, if the Lead Internal Verifier approves it, with a deadline within 15 working days in the same academic year, and only where you can improve without further guidance.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is BTEC IT being scrapped?</h3>
+        <p>Pearson lists 31 July 2025 as the last registration date for DfE-funded students in England, and 31 July 2029 for Northern Ireland and Wales. Students already registered continue their course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are lessons?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. All times are given in UK time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with Pearson or my college?</h3>
+        <p>No. Modern Age Coders is an independent online school, not linked to Pearson or any school or college.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related routes</p>
+      <h2>Other pages for 16 to 19 programmers</h2>
+      <p class="ag-lede">Other post-16 qualifications that involve programming, and where they differ.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/t-level-digital-coding-help">T Level digital help</a></h3><p>The technical route with an employer placement.</p></div>
+      <div><h3><a class="ag-inline-link" href="/a-level-computer-science-tutor-online-uk">A level Computer Science</a></h3><p>The academic route, with its own exam papers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/a-level-computer-science-nea-help">A level Computer Science project</a></h3><p>Coursework at AQA and OCR, and the line around it.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ccea-a-level-software-systems-development-help">CCEA Software Systems Development</a></h3><p>Northern Ireland's programming A level.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-agents-course-for-students-uk">AI agents course for students</a></h3><p>Building with AI once the basics are secure.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-united-kingdom">Coding classes in the UK</a></h3><p>All our UK pages.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free programming lesson</h2>
+        <p class="ag-lede">Leave a number and we will call at a UK time that suits. The lesson is a short coding task and a plan built around your college timetable and any live assignment.</p>
+        <p class="ag-mt-40">Want to look first? The <a class="ag-inline-link" href="/courses/python-complete-masterclass-teens">Python for Teens syllabus</a> lists what we teach, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains our lessons.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20lesson%20in%20programming%20for%20my%20BTEC%20IT%20course." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'bip',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">WhatsApp works well and is free from a UK mobile. We reply from India, so the number begins +91.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_bip(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No fee and no obligation; you get one reply with a time.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Post-16 computing</h4><ul><li><a href="/t-level-digital-coding-help">T Level digital</a></li><li><a href="/a-level-computer-science-tutor-online-uk">A level Computer Science</a></li><li><a href="/a-level-computer-science-nea-help">A level CS project</a></li><li><a href="/ocr-a-level-computer-science-h446-help">OCR H446</a></li></ul></div>
+      <div><h4>Elsewhere</h4><ul><li><a href="/coding-roadmap">Coding roadmap</a></li><li><a href="/student-labs">Student labs</a></li><li><a href="/how-we-teach">How we teach</a></li><li><a href="/courses">All courses</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>BTEC IT programming skills, live in UK time</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_bip = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'btec-it-programming-unit-help-inline', meta: { name: name, age: age, page: 'btec-it-programming-unit-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>

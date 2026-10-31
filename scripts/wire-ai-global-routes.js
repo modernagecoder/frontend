@@ -659,6 +659,7 @@ const SLUGS = [
   's1-s3-maths-tutor-online-scotland',
   'national-5-applications-of-maths-help',
   'transfer-test-maths-tuition-belfast',
+  'btec-it-programming-unit-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1397,6 +1398,7 @@ const LLMS_LABELS = {
   's1-s3-maths-tutor-online-scotland': 'S1 to S3 maths tutor online',
   'national-5-applications-of-maths-help': 'National 5 Applications of Maths help',
   'transfer-test-maths-tuition-belfast': 'Transfer test maths tuition Belfast',
+  'btec-it-programming-unit-help': 'BTEC IT programming unit help',
 };
 
 function wireLlms(slugs) {
