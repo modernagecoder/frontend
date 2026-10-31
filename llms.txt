@@ -930,6 +930,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - WJEC A level Maths help (Wales): https://learn.modernagecoders.com/wjec-a-level-maths-help-wales
 - CCEA A level Maths help: https://learn.modernagecoders.com/ccea-a-level-maths-help
 - Edexcel A level Further Maths 9FM0 help: https://learn.modernagecoders.com/edexcel-a-level-further-maths-9fm0-help
+- AQA A level Further Maths 7367 help: https://learn.modernagecoders.com/aqa-a-level-further-maths-7367-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

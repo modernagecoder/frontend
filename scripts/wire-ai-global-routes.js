@@ -698,6 +698,7 @@ const SLUGS = [
   'wjec-a-level-maths-help-wales',
   'ccea-a-level-maths-help',
   'edexcel-a-level-further-maths-9fm0-help',
+  'aqa-a-level-further-maths-7367-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1475,6 +1476,7 @@ const LLMS_LABELS = {
   'wjec-a-level-maths-help-wales': 'WJEC A level Maths help (Wales)',
   'ccea-a-level-maths-help': 'CCEA A level Maths help',
   'edexcel-a-level-further-maths-9fm0-help': 'Edexcel A level Further Maths 9FM0 help',
+  'aqa-a-level-further-maths-7367-help': 'AQA A level Further Maths 7367 help',
 };
 
 function wireLlms(slugs) {
