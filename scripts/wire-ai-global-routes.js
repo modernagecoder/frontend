@@ -591,6 +591,7 @@ const SLUGS = [
   'oxford-mat-preparation',
   'step-maths-preparation',
   'tmua-preparation',
+  'math-league-contest-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1261,6 +1262,7 @@ const LLMS_LABELS = {
   'oxford-mat-preparation': 'Oxford MAT preparation',
   'step-maths-preparation': 'STEP maths preparation',
   'tmua-preparation': 'TMUA preparation',
+  'math-league-contest-preparation': 'Math League contest preparation',
 };
 
 function wireLlms(slugs) {
