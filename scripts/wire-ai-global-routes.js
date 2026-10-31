@@ -623,6 +623,7 @@ const SLUGS = [
   'year-5-maths-tutor-online',
   'staar-math-tutoring',
   'staar-algebra-1-eoc-prep',
+  'nys-math-test-prep-grades-3-8',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1325,6 +1326,7 @@ const LLMS_LABELS = {
   'year-5-maths-tutor-online': 'Year 5 maths tutor online',
   'staar-math-tutoring': 'STAAR math tutoring',
   'staar-algebra-1-eoc-prep': 'STAAR Algebra 1 EOC prep',
+  'nys-math-test-prep-grades-3-8': 'NYS math test prep, grades 3 to 8',
 };
 
 function wireLlms(slugs) {

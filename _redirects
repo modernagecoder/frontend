@@ -8474,4 +8474,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /staar-algebra-1-eoc-prep /src/pages/staar-algebra-1-eoc-prep.html 200
 /staar-algebra-1-eoc-prep.md /src/pages/staar-algebra-1-eoc-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/nys-math-test-prep-grades-3-8 /src/pages/nys-math-test-prep-grades-3-8.html 200
+/nys-math-test-prep-grades-3-8.md /src/pages/nys-math-test-prep-grades-3-8.md 200
 /* /src/pages/404.html 404
