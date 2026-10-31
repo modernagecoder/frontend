@@ -729,6 +729,7 @@ const SLUGS = [
   'uk-maths-year-by-year-guide',
   'uk-selective-school-maths-tests-guide',
   'uk-university-admissions-maths-and-computing-guide',
+  'uk-maths-enrichment-and-competitions-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1537,6 +1538,7 @@ const LLMS_LABELS = {
   'uk-maths-year-by-year-guide': 'UK maths year by year guide',
   'uk-selective-school-maths-tests-guide': 'UK selective school maths tests guide',
   'uk-university-admissions-maths-and-computing-guide': 'UK university admissions guide',
+  'uk-maths-enrichment-and-competitions-guide': 'Maths competitions and enrichment for able children in the UK',
 };
 
 function wireLlms(slugs) {

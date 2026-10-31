@@ -718,7 +718,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK083 | uk-maths-exam-boards-and-specification-codes (ukeb, #2B4A5E) | index | 5,247 | 1.6% vs aqa-gcse-maths-8300-help | exam door | original worked example | 5b686715 |
 | UK084 | uk-maths-year-by-year-guide (ukyy, #2E5A5A) | index | 4,997 | 1.2% vs year-6-maths-tutor-online | exam door | original worked example | 9e25e26b |
 | UK085 | uk-selective-school-maths-tests-guide (ukss, #2F5A6B) | index | 6,235 | 1% vs gl-assessment-11-plus-maths-practice | exam door | original worked example | dc9f6523 |
-| UK086 | uk-university-admissions-maths-and-computing-guide (ukua, #3E4F6B) | index | 4,994 | 1.3% vs step-maths-preparation | exam door | original worked example | (this commit) |
+| UK086 | uk-university-admissions-maths-and-computing-guide (ukua, #3E4F6B) | index | 4,994 | 1.3% vs step-maths-preparation | exam door | original worked example | a1d14e23 |
+| UK087 | uk-maths-enrichment-and-competitions-guide (ukec, #6B2F3A) | index | 5,025 | 1.4% vs gifted-and-talented-maths-and-coding-uk | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

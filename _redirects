@@ -8898,4 +8898,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /uk-university-admissions-maths-and-computing-guide /src/pages/uk-university-admissions-maths-and-computing-guide.html 200
 /uk-university-admissions-maths-and-computing-guide.md /src/pages/uk-university-admissions-maths-and-computing-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/uk-maths-enrichment-and-competitions-guide /src/pages/uk-maths-enrichment-and-competitions-guide.html 200
+/uk-maths-enrichment-and-competitions-guide.md /src/pages/uk-maths-enrichment-and-competitions-guide.md 200
 /* /src/pages/404.html 404

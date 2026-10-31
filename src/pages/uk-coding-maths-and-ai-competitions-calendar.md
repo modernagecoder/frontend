@@ -6,7 +6,7 @@ source: src/pages/uk-coding-maths-and-ai-competitions-calendar.html
 ---
 > The 2026-27 UK competition year opens with UKMT's Mathematical Olympiad for Girls on 22 September 2026 and runs through the Senior Mathematical Challenge on 7 October, the Primary Mathematics Challenge from 9 to 20 November, UK Bebras in November, the British Informatics Olympiad over December and January, the Perse Coding Team Challenge from 25 January 2027, and the Junior Mathematical Olympiad on 15 June 2027. Beyond school, the UK Olympiad in AI chooses the team for the International Olympiad in AI, held in Singapore from 4 to 10 July 2027. Most of these are entered through a school, and many are free. We teach the problem solving, programming and mathematics underneath them in live online classes for ages 6 and up; we do not run or enter any competition, and we promise no results. A first class is free; groups are USD 100 a month and one-to-one USD 150.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Competitions calendar 2026-27
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / Competitions calendar 2026-27
 
 United Kingdom · 2026 to 2027 · Checked with each organiser
 
@@ -263,6 +263,8 @@ At a fixed weekly slot agreed in the free class, usually after school or at the 
 - [Choosing an online class in the UK](/best-online-coding-classes-uk): Seven checks for any provider.
 
 ## Related pages in this guide
+
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ### Computing programmes and competitions
 
