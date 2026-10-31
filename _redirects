@@ -8590,4 +8590,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /times-tables-tutor-online-uk /src/pages/times-tables-tutor-online-uk.html 200
 /times-tables-tutor-online-uk.md /src/pages/times-tables-tutor-online-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/white-rose-maths-help-at-home /src/pages/white-rose-maths-help-at-home.html 200
+/white-rose-maths-help-at-home.md /src/pages/white-rose-maths-help-at-home.md 200
 /* /src/pages/404.html 404

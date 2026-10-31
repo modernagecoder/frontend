@@ -652,6 +652,7 @@ const SLUGS = [
   'ks1-sats-maths-explained',
   'ks1-coding-lessons-online',
   'times-tables-tutor-online-uk',
+  'white-rose-maths-help-at-home',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1383,6 +1384,7 @@ const LLMS_LABELS = {
   'ks1-sats-maths-explained': 'KS1 SATs maths explained',
   'ks1-coding-lessons-online': 'KS1 coding lessons online',
   'times-tables-tutor-online-uk': 'Times tables tutor online',
+  'white-rose-maths-help-at-home': 'White Rose Maths help at home',
 };
 
 function wireLlms(slugs) {
