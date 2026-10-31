@@ -8738,4 +8738,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /isef-computer-science-project-mentoring /src/pages/isef-computer-science-project-mentoring.html 200
 /isef-computer-science-project-mentoring.md /src/pages/isef-computer-science-project-mentoring.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/after-hour-of-code-next-steps /src/pages/after-hour-of-code-next-steps.html 200
+/after-hour-of-code-next-steps.md /src/pages/after-hour-of-code-next-steps.md 200
 /* /src/pages/404.html 404

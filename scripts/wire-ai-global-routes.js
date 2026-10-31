@@ -689,6 +689,7 @@ const SLUGS = [
   'ftc-programming-help',
   'science-olympiad-coding-events-help',
   'isef-computer-science-project-mentoring',
+  'after-hour-of-code-next-steps',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1457,6 +1458,7 @@ const LLMS_LABELS = {
   'ftc-programming-help': 'FTC programming help',
   'science-olympiad-coding-events-help': 'Science Olympiad coding events help',
   'isef-computer-science-project-mentoring': 'ISEF computer science project mentoring',
+  'after-hour-of-code-next-steps': 'After the Hour of Code',
 };
 
 function wireLlms(slugs) {
