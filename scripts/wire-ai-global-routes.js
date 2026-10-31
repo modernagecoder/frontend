@@ -675,6 +675,7 @@ const SLUGS = [
   '16-plus-sixth-form-entrance-maths',
   'ukiset-maths-reasoning-practice',
   'caaspp-math-practice',
+  'smarter-balanced-math-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1429,6 +1430,7 @@ const LLMS_LABELS = {
   '16-plus-sixth-form-entrance-maths': '16 plus sixth form entrance maths',
   'ukiset-maths-reasoning-practice': 'UKiset maths reasoning practice',
   'caaspp-math-practice': 'CAASPP math practice',
+  'smarter-balanced-math-practice': 'Smarter Balanced math practice',
 };
 
 function wireLlms(slugs) {

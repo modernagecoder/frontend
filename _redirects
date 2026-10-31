@@ -8682,4 +8682,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /caaspp-math-practice /src/pages/caaspp-math-practice.html 200
 /caaspp-math-practice.md /src/pages/caaspp-math-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/smarter-balanced-math-practice /src/pages/smarter-balanced-math-practice.html 200
+/smarter-balanced-math-practice.md /src/pages/smarter-balanced-math-practice.md 200
 /* /src/pages/404.html 404
