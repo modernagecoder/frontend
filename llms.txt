@@ -817,6 +817,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - VEX IQ programming help: https://learn.modernagecoders.com/vex-iq-programming-help
 - CogAT test prep: https://learn.modernagecoders.com/cogat-test-prep
 - NNAT test prep: https://learn.modernagecoders.com/nnat-test-prep
+- OLSAT test prep: https://learn.modernagecoders.com/olsat-test-prep
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

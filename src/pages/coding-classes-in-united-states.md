@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [OLSAT test prep](/olsat-test-prep)
 - [NNAT test prep](/nnat-test-prep)
 - [CogAT test prep](/cogat-test-prep)
 - [VEX IQ programming help](/vex-iq-programming-help)

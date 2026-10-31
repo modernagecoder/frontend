@@ -1120,3 +1120,4 @@
 .ag-root.ag-vip { --ag-accent: #793457; --ag-accent-soft: rgba(121,52,87,.09); }   /* VEX IQ programming help: a plum #793457 from the US allocation table, 8.11:1 on paper #FBF8F2, kept away from the robotics greens used on the FIRST LEGO League pages */
 .ag-root.ag-cot { --ag-accent: #175040; --ag-accent-soft: rgba(23,80,64,.09); }   /* CogAT test prep: a deep pine green, #175040 as allocated, calm rather than urgent for a page that argues against cramming; 8.77:1 on the #FBF8F2 paper */
 .ag-root.ag-nnt { --ag-accent: #6C2A49; --ag-accent-soft: rgba(108,42,73,.09); }   /* NNAT test prep: a dark plum, #6C2A49 as allocated, quiet and distinct from the green CogAT page; 9.59:1 on the #FBF8F2 paper */
+.ag-root.ag-ot { --ag-accent: #5F6C4C; --ag-accent-soft: rgba(95,108,76,.09); }   /* OLSAT test prep: a muted olive, #5F6C4C as allocated, earthy and unhurried; 5.30:1 on the #FBF8F2 paper, above the 4.5:1 floor */

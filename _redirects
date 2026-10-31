@@ -8322,4 +8322,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /nnat-test-prep /src/pages/nnat-test-prep.html 200
 /nnat-test-prep.md /src/pages/nnat-test-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/olsat-test-prep /src/pages/olsat-test-prep.html 200
+/olsat-test-prep.md /src/pages/olsat-test-prep.md 200
 /* /src/pages/404.html 404
