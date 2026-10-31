@@ -713,6 +713,7 @@ const SLUGS = [
   'gcse-statistics-tutor-online',
   'ocr-fsmq-additional-maths-6993-help',
   'statistics-tutoring-online',
+  'integrated-math-1-tutoring',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1505,6 +1506,7 @@ const LLMS_LABELS = {
   'gcse-statistics-tutor-online': 'GCSE Statistics tutor online',
   'ocr-fsmq-additional-maths-6993-help': 'OCR FSMQ Additional Maths 6993 help',
   'statistics-tutoring-online': 'Statistics tutoring online',
+  'integrated-math-1-tutoring': 'Integrated Math 1 tutoring',
 };
 
 function wireLlms(slugs) {

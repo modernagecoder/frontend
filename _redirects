@@ -8834,4 +8834,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /statistics-tutoring-online /src/pages/statistics-tutoring-online.html 200
 /statistics-tutoring-online.md /src/pages/statistics-tutoring-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/integrated-math-1-tutoring /src/pages/integrated-math-1-tutoring.html 200
+/integrated-math-1-tutoring.md /src/pages/integrated-math-1-tutoring.md 200
 /* /src/pages/404.html 404
