@@ -708,6 +708,7 @@ const SLUGS = [
   'nc-math-1-eoc-prep',
   'year-9-maths-tutor-online',
   'year-10-maths-tutor-online',
+  'year-11-maths-tutor-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1495,6 +1496,7 @@ const LLMS_LABELS = {
   'nc-math-1-eoc-prep': 'NC Math 1 EOC prep',
   'year-9-maths-tutor-online': 'Year 9 maths tutor online',
   'year-10-maths-tutor-online': 'Year 10 maths tutor online',
+  'year-11-maths-tutor-online': 'Year 11 maths tutor online',
 };
 
 function wireLlms(slugs) {
