@@ -715,7 +715,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK059 | 11-plus-maths-tuition-lancashire (gal, #854234) | 11+ area | 4,288 | 1.2% vs 11-plus-maths-tuition-lincolnshire | exam door | original worked example | 634e86ee |
 | UK060 | 11-plus-maths-tuition-wiltshire (ptw, #256668) | 11+ area | 4,021 | 1.4% vs 11-plus-maths-tuition-north-yorkshire | exam door | original worked example | a2d5f212 |
 | UK061 | 11-plus-maths-tuition-bromley (gam, #506232) | 11+ area | 4,182 | 1.9% vs 11-plus-maths-tuition-north-yorkshire | exam door | original worked example | 8a29a8a5 |
-| UK083 | uk-maths-exam-boards-and-specification-codes (ukeb, #2B4A5E) | index | 5,247 | 1.6% vs aqa-gcse-maths-8300-help | exam door | original worked example | (this commit) |
+| UK083 | uk-maths-exam-boards-and-specification-codes (ukeb, #2B4A5E) | index | 5,247 | 1.6% vs aqa-gcse-maths-8300-help | exam door | original worked example | 5b686715 |
+| UK084 | uk-maths-year-by-year-guide (ukyy, #2E5A5A) | index | 4,997 | 1.2% vs year-6-maths-tutor-online | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

@@ -8886,4 +8886,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /uk-maths-exam-boards-and-specification-codes /src/pages/uk-maths-exam-boards-and-specification-codes.html 200
 /uk-maths-exam-boards-and-specification-codes.md /src/pages/uk-maths-exam-boards-and-specification-codes.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/uk-maths-year-by-year-guide /src/pages/uk-maths-year-by-year-guide.html 200
+/uk-maths-year-by-year-guide.md /src/pages/uk-maths-year-by-year-guide.md 200
 /* /src/pages/404.html 404
