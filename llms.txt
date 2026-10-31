@@ -856,6 +856,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - STAAR math tutoring: https://learn.modernagecoders.com/staar-math-tutoring
 - STAAR Algebra 1 EOC prep: https://learn.modernagecoders.com/staar-algebra-1-eoc-prep
 - NYS math test prep, grades 3 to 8: https://learn.modernagecoders.com/nys-math-test-prep-grades-3-8
+- Algebra 1 Regents prep: https://learn.modernagecoders.com/algebra-1-regents-prep
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

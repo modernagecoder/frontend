@@ -8478,4 +8478,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /nys-math-test-prep-grades-3-8 /src/pages/nys-math-test-prep-grades-3-8.html 200
 /nys-math-test-prep-grades-3-8.md /src/pages/nys-math-test-prep-grades-3-8.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/algebra-1-regents-prep /src/pages/algebra-1-regents-prep.html 200
+/algebra-1-regents-prep.md /src/pages/algebra-1-regents-prep.md 200
 /* /src/pages/404.html 404

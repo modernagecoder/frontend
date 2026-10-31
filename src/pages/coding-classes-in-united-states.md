@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Algebra 1 Regents prep](/algebra-1-regents-prep)
 - [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)
 - [STAAR Algebra 1 EOC prep](/staar-algebra-1-eoc-prep)
 - [STAAR math tutoring](/staar-math-tutoring)
