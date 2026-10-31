@@ -617,6 +617,7 @@ const SLUGS = [
   'aqa-gcse-maths-8300-help',
   'edexcel-gcse-maths-1ma1-help',
   'gcse-foundation-maths-tutor-online',
+  'gcse-higher-maths-grade-9-tutor',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1313,6 +1314,7 @@ const LLMS_LABELS = {
   'aqa-gcse-maths-8300-help': 'AQA GCSE Maths 8300 help',
   'edexcel-gcse-maths-1ma1-help': 'Edexcel GCSE Maths 1MA1 help',
   'gcse-foundation-maths-tutor-online': 'GCSE Foundation maths tutor online',
+  'gcse-higher-maths-grade-9-tutor': 'GCSE Higher maths grade 9 tutor',
 };
 
 function wireLlms(slugs) {

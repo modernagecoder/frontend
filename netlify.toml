@@ -27733,6 +27733,18 @@
   to = "/src/pages/gcse-foundation-maths-tutor-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/gcse-higher-maths-grade-9-tutor"
+  to = "/src/pages/gcse-higher-maths-grade-9-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcse-higher-maths-grade-9-tutor.md"
+  to = "/src/pages/gcse-higher-maths-grade-9-tutor.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
