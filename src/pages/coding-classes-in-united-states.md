@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
 - [Math League contest preparation](/math-league-contest-preparation)
 - [Gifted and talented test prep](/gifted-and-talented-test-prep)
 - [Iowa Assessments math prep](/iowa-assessments-math-prep)

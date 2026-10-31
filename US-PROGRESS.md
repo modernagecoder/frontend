@@ -311,7 +311,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US045 | olsat-test-prep (ot, #5F6C4C) | gifted and selective | 3,604 | 1.2% vs nnat-test-prep | exam door | original worked example | 0de8acc9 |
 | US046 | iowa-assessments-math-prep (ia, #497061) | gifted and selective | 3,722 | 2.4% vs cogat-test-prep | exam door | original worked example | 2cb3fd1c |
 | US047 | gifted-and-talented-test-prep (gtt, #2A5718) | gifted and selective | 3,534 | 2.2% vs nnat-test-prep | exam door | original worked example | 7a6539a3 |
-| US067 | math-league-contest-preparation (lcp, #686A35) | math competitions | 4,285 | 1.3% vs math-competitions-for-middle-school-students | exam door | original worked example | (this commit) |
+| US067 | math-league-contest-preparation (lcp, #686A35) | math competitions | 4,285 | 1.3% vs math-competitions-for-middle-school-students | exam door | original worked example | ae35af41 |
+| US059 | ap-precalculus-tutoring-online (app, #623236) | ap and ib | 4,246 | 1.4% vs math-league-contest-preparation | exam door | original worked example | (this commit) |
 
 ## Skipped
 
