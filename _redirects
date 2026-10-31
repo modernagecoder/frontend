@@ -8822,4 +8822,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ocr-gcse-maths-j560-help /src/pages/ocr-gcse-maths-j560-help.html 200
 /ocr-gcse-maths-j560-help.md /src/pages/ocr-gcse-maths-j560-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/gcse-statistics-tutor-online /src/pages/gcse-statistics-tutor-online.html 200
+/gcse-statistics-tutor-online.md /src/pages/gcse-statistics-tutor-online.md 200
 /* /src/pages/404.html 404
