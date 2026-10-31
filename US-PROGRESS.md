@@ -329,7 +329,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US042 | algebra-1-eoc-prep (aeoc, #44460D) | state tests | 3,882 | 2% vs staar-algebra-1-eoc-prep | exam door | original worked example | 69720ea4 |
 | US038 | colorado-cmas-math-practice (coc, #7A5E7A) | state tests | 5,137 | 1.7% vs staar-math-tutoring | exam door | original worked example | eb5f3f72 |
 | US083 | math-u-see-tutor (mus, #1B4761) | homeschool and curricula | 4,587 | 2% vs teaching-textbooks-math-help | exam door | original worked example | 557e7cca |
-| US088 | big-ideas-math-help (bi, #6D2C00) | homeschool and curricula | 3,906 | 1.5% vs teaching-textbooks-math-help | exam door | original worked example | (this commit) |
+| US088 | big-ideas-math-help (bi, #6D2C00) | homeschool and curricula | 3,906 | 1.5% vs teaching-textbooks-math-help | exam door | original worked example | ca0e82f4 |
+| US089 | envision-math-help (enx, #316A32) | homeschool and curricula | 3,691 | 1.6% vs iowa-assessments-math-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

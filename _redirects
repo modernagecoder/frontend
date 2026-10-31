@@ -8562,4 +8562,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /big-ideas-math-help /src/pages/big-ideas-math-help.html 200
 /big-ideas-math-help.md /src/pages/big-ideas-math-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/envision-math-help /src/pages/envision-math-help.html 200
+/envision-math-help.md /src/pages/envision-math-help.md 200
 /* /src/pages/404.html 404

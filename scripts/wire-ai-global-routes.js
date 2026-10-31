@@ -645,6 +645,7 @@ const SLUGS = [
   'cyberfirst-courses-and-bursary-preparation',
   'math-u-see-tutor',
   'big-ideas-math-help',
+  'envision-math-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1369,6 +1370,7 @@ const LLMS_LABELS = {
   'cyberfirst-courses-and-bursary-preparation': 'CyberFirst courses and bursary',
   'math-u-see-tutor': 'Math-U-See tutor',
   'big-ideas-math-help': 'Big Ideas Math help',
+  'envision-math-help': 'enVision Math help',
 };
 
 function wireLlms(slugs) {

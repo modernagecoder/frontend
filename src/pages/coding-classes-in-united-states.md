@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [enVision Math help](/envision-math-help)
 - [Big Ideas Math help](/big-ideas-math-help)
 - [Math-U-See tutor](/math-u-see-tutor)
 - [CMAS math practice](/colorado-cmas-math-practice)
