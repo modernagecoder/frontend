@@ -655,6 +655,7 @@ const SLUGS = [
   'white-rose-maths-help-at-home',
   'year-1-maths-tutor-online',
   'year-2-maths-tutor-online',
+  'scottish-primary-maths-tutor-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1389,6 +1390,7 @@ const LLMS_LABELS = {
   'white-rose-maths-help-at-home': 'White Rose Maths help at home',
   'year-1-maths-tutor-online': 'Year 1 maths tutor online',
   'year-2-maths-tutor-online': 'Year 2 maths tutor online',
+  'scottish-primary-maths-tutor-online': 'Scottish primary maths tutor online',
 };
 
 function wireLlms(slugs) {
