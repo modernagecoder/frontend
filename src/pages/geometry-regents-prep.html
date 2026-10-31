@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Geometry Regents Prep: Proofs, Tools and the June 2027 Exam</title>
+  <meta name="description" content="Geometry Regents prep from NYSED: the 35-question, 80-credit Next Generation exam, compass and pi rules, the June 22, 2027 date and a coordinate proof worked.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/geometry-regents-prep">
+  <link rel="alternate" type="text/markdown" href="/src/pages/geometry-regents-prep.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#287181">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/geometry-regents-prep">
+  <meta property="og:title" content="Geometry Regents Prep: Proofs, Tools and the June 2027 Exam">
+  <meta property="og:description" content="The Geometry Regents asks students to prove, not just compute: its 6-credit question is an extended proof. What NYSED requires, from the compass to the value of pi, and a proof worked line by line.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Geometry Regents Prep: Proofs, Tools and the June 2027 Exam">
+  <meta name="twitter:description" content="The Next Generation Geometry Regents from NYSED, with a coordinate proof worked.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-gr .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-gr .ag-capsule { border-left-width: 2px; border-radius: 0; }
+.ag-root.ag-gr .ag-table caption { text-align: left; font-weight: 600; text-transform: none; }
+.ag-root.ag-gr .ag-table td.ag-num { font-variant-numeric: tabular-nums; }
+.ag-root.ag-gr .ag-steps li { line-height: 1.7; }
+.ag-root.ag-gr .ag-section-head h2 { max-width: 26ch; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/geometry-regents-prep#page","url":"https://learn.modernagecoders.com/geometry-regents-prep","name":"Geometry Regents Prep","description":"Everything NYSED publishes about the Next Generation Geometry Regents, first given in June 2025: its four parts, six domains, compass and pi rules, short reference sheet and 2027 sittings, plus a coordinate proof and practice we wrote ourselves.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Geometry Regents prep","item":"https://learn.modernagecoders.com/geometry-regents-prep"}]},{"@type":"Course","name":"Geometry Regents Prep","description":"Geometry Regents classes taught live online: congruence and similarity proofs, trigonometry, circles, constructions and coordinate proof, for New York high schoolers in a group or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/geometry-regents-prep"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/geometry-regents-prep"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/geometry-regents-prep"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"When is the Geometry Regents in June 2027?","acceptedAnswer":{"@type":"Answer","text":"Tuesday, June 22, 2027, at 1:15 p.m., on NYSED's June 2027 examination schedule. It is also given in the January period and on Wednesday, August 18, 2027, at 12:30 p.m."}},{"@type":"Question","name":"How many questions are on the Geometry Regents?","acceptedAnswer":{"@type":"Answer","text":"Thirty-five, in four parts: 24 multiple choice, 7 two-credit questions, 3 four-credit questions and one six-credit question. NYSED's guide gives a total of 80 credits."}},{"@type":"Question","name":"Is the Geometry Regents hard?","acceptedAnswer":{"@type":"Answer","text":"It is different rather than simply harder: it asks students to prove and construct, not only calculate. Students who practise written proofs and constructions all year usually find the exam far more manageable."}},{"@type":"Question","name":"Do you need a compass for the Geometry Regents?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every student must have access to a compass and a straightedge, which the school provides, and a graphing calculator for all three hours."}},{"@type":"Question","name":"Can you use 3.14 for pi on the Geometry Regents?","acceptedAnswer":{"@type":"Answer","text":"No, unless a question says so. NYSED's guide says students should use the pi symbol or the pi key, and that 3.1416, 3.14 or 22/7 are unacceptable."}},{"@type":"Question","name":"What formulas are given on the Geometry Regents?","acceptedAnswer":{"@type":"Answer","text":"Only volume formulas: cylinder, general prism, sphere, cone and pyramid, on a detachable reference sheet. Area, circumference, distance and the trigonometric ratios must be known."}},{"@type":"Question","name":"What is the biggest topic on the Geometry Regents?","acceptedAnswer":{"@type":"Answer","text":"Similarity, right triangles and trigonometry, at 29 to 37 percent of the credits, followed by congruence at 27 to 34 percent, according to NYSED's blueprint."}},{"@type":"Question","name":"When did the Geometry Regents change?","acceptedAnswer":{"@type":"Answer","text":"NYSED's implementation memo set the first new Next Generation Geometry exam for June 2025, with the previous exam given for the last time in January 2025."}},{"@type":"Question","name":"When are your Geometry classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern Time."}},{"@type":"Question","name":"Are you affiliated with NYSED?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders is an independent school that teaches geometry live online. We quote NYSED's public documents and send students to NYSED's own past exams."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/geometry-regents-prep","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-gr">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#exam">The exam</a></li>
+      <li><a href="#domains">Domains</a></li>
+      <li><a href="#tools">Tools and pi</a></li>
+      <li><a href="#proof">A proof</a></li>
+      <li><a href="#when">June 2027</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Geometry Regents prep
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">New York &middot; Regents Examination in Geometry &middot; Next Generation, since June 2025</p>
+        <h1>Geometry Regents prep</h1>
+        <p class="ag-lede">Geometry is the Regents where a correct number is often not enough. NYSED&rsquo;s own guide says the final 6-credit question asks for &ldquo;multi-step, extended logical arguments and proofs&rdquo;, and constructions with a compass appear in the constructed-response parts. Students who did well in Algebra I by calculating carefully can find this a different subject. Since June 2025 the exam has measured the Next Generation standards. This page sets out its design, its tools and its one surprising rule about pi, then writes a coordinate proof the way a grader wants to read it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#proof" class="ag-btn ag-btn--ghost">Read the worked proof</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20New%20York%20is%20taking%20the%20Geometry%20Regents.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gr'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Geometry taught live since 2020 &middot; 10,000+ students &middot; Eastern Time lessons</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Exam</dt><dd>Regents Examination in Geometry</dd>
+          <dt>Standards</dt><dd>Next Generation, since June 2025</dd>
+          <dt>Questions</dt><dd>35, worth 80 credits</dd>
+          <dt>Time</dt><dd>Three hours</dd>
+          <dt>Tools</dt><dd>Compass, straightedge, graphing calculator</dd>
+          <dt>June 2027</dt><dd>Tuesday June 22, 1:15 p.m.</dd>
+          <dt>Our classes</dt><dd>Batch or 1-on-1</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>New York&rsquo;s Regents Examination in Geometry, set by NYSED, tests the high school geometry course against the Next Generation standards, first in this form in June 2025. Students answer 35 questions for 80 credits over three hours, with compass, straightedge and graphing calculator, finishing on a six-credit proof. In June 2027 it falls on Tuesday the 22nd at 1:15 p.m. Modern Age Coders prepares students for it live online, in a batch or 1-on-1, through our High School Mathematics course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">For the Geometry Regents</p>
+      <h2>Three courses for geometry and the Regents</h2>
+      <p class="ag-lede">Geometry rests on algebra, so the right starting course depends on how solid Algebra I is.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GR / 01</p>
+          <h3>High school math</h3>
+          <p>The full geometry course: proof, similarity, trigonometry, circles.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/algebra-foundations-masterclass">
+        <div class="ag-pick-shot"><img src="/images/algebra-foundations.webp" alt="Algebra Foundations course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GR / 02</p>
+          <h3>Algebra foundations</h3>
+          <p>For students whose equations and slopes need repair first.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/maths-through-coding">
+        <div class="ag-pick-shot"><img src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">GR / 03</p>
+          <h3>Math through coding</h3>
+          <p>Transformations and coordinates, drawn in Python.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="exam">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The exam</p><h2>What is the format of the Geometry Regents?</h2><p class="ag-lede">Thirty-five questions in four parts, for 80 credits. It looks like the Algebra I design at first glance, but Part II is longer and Part III shorter.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Geometry examination design (NYSED Geometry Educator Guide, read 31 October 2026)</caption><thead><tr><th scope="col">Part</th><th scope="col">Questions</th><th scope="col">Credits each</th><th scope="col">Credits in the part</th></tr></thead><tbody><tr><td>Part I (multiple choice)</td><td class="ag-num">24</td><td class="ag-num">2</td><td class="ag-num">48</td></tr><tr><td>Part II (constructed response)</td><td class="ag-num">7</td><td class="ag-num">2</td><td class="ag-num">14</td></tr><tr><td>Part III (constructed response)</td><td class="ag-num">3</td><td class="ag-num">4</td><td class="ag-num">12</td></tr><tr><td>Part IV (constructed response)</td><td class="ag-num">1</td><td class="ag-num">6</td><td class="ag-num">6</td></tr><tr><td>Total (as published)</td><td class="ag-num">35</td><td class="ag-num"></td><td class="ag-num">80</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What each part asks</h3><p>Two-credit questions may involve several steps and ask students to show work or justify. Four-credit questions ask students to &ldquo;explain, justify, and/or prove geometric relationships&rdquo; and to reason quantitatively in real-world modelling.</p>
+<p>The single Part IV question is the proof. NYSED describes it as developing &ldquo;multi-step, extended logical arguments and proofs involving geometric relationships.&rdquo;</p></div><div><h3>Constructions count</h3><p>NYSED says constructed-response questions require understanding &ldquo;as well as demonstrating geometric concepts through constructions&rdquo;. The standards include a cluster called Make geometric constructions (G-CO.D).</p>
+<p>A construction earns credit only when the arcs are visible. Practising with a real compass, not only with software, is part of preparation.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: <a class="ag-inline-link" href="https://www.nysed.gov/sites/default/files/programs/state-assessment/geometry-educator-guide-2024.pdf" rel="noopener" target="_blank">Geometry Educator Guide</a>, published by NYSED&rsquo;s assessment office and read on 31 October 2026. Our school is independent of NYSED and of every New York district.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="domains">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Domains</p><h2>What topics are on the Geometry Regents?</h2><p class="ag-lede">Six domains. Similarity, right triangles and trigonometry is the largest; congruence, where most proofs live, is close behind.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Geometry blueprint: percent of test by credit (NYSED Geometry Educator Guide, read 31 October 2026)</caption><thead><tr><th scope="col">Domain</th><th scope="col">Code</th><th scope="col">Percent of credits</th></tr></thead><tbody><tr><td>Similarity, Right Triangles, and Trigonometry</td><td>G-SRT</td><td>29 to 37%</td></tr><tr><td>Congruence</td><td>G-CO</td><td>27 to 34%</td></tr><tr><td>Expressing Geometric Properties with Equations</td><td>G-GPE</td><td>12 to 18%</td></tr><tr><td>Modeling with Geometry</td><td>G-MG</td><td>8 to 15%</td></tr><tr><td>Circles</td><td>G-C</td><td>2 to 8%</td></tr><tr><td>Geometric Measurement and Dimension</td><td>G-GMD</td><td>2 to 8%</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The two big domains</h3><p>G-SRT and G-CO together carry well over half the credits. Similar triangles, the trigonometric ratios, rigid motions and triangle congruence are where a student&rsquo;s year should be spent.</p>
+<p>Congruence also holds the cluster Prove geometric theorems (G-CO.C): theorems about lines and angles, triangles and parallelograms.</p></div><div><h3>Coordinates and modelling</h3><p>G-GPE is algebra in geometry&rsquo;s clothes: slopes, distances, midpoints, and proving that a shape is what it claims to be on a grid. Students who are good at Algebra I often find these their easiest credits.</p>
+<p>Circles and solid measurement are small on the blueprint, so they deserve attention in proportion: secure, but not at the cost of proof.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Tools and pi</p><h2>What tools and formulas can you use on the Geometry Regents?</h2><p class="ag-lede">A compass, a straightedge and a graphing calculator. The reference sheet is short, and NYSED is strict about how pi is used.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Geometry Regents tools and rules (NYSED Geometry Educator Guide and Reference Sheet for Geometry, read 31 October 2026)</caption><thead><tr><th scope="col">Item</th><th scope="col">What NYSED says</th></tr></thead><tbody><tr><td>Time</td><td>Three hours</td></tr><tr><td>Calculator</td><td>Exclusive use of a graphing calculator for the full exam; no symbol manipulation</td></tr><tr><td>Compass and straightedge</td><td>Must be available to every student; schools supply the tools</td></tr><tr><td>Value of pi</td><td>Use the pi symbol or pi key; 3.1416, 3.14 or 22/7 are unacceptable unless the question says otherwise</td></tr><tr><td>Reference sheet</td><td>Detachable, at the end of the booklet: volume of a cylinder, general prism, sphere, cone and pyramid</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the pi rule matters</h3><p>Our example: the volume of a sphere of radius 10 is (4/3)&pi;(10)&sup3;. With the pi key that is 4188.79..., which rounds to 4189. With 3.14 it is 4186.67, which rounds to 4187. The second answer is wrong by NYSED&rsquo;s rule, even though the method is right.</p>
+<p>Students used to 3.14 from middle school need to unlearn it early in the year, not on exam day.</p></div><div><h3>What the sheet leaves out</h3><p>The geometry reference sheet holds the volume formulas and nothing else. Area of a circle, circumference, the distance formula, the trigonometric ratios and the special right triangles are not on it.</p>
+<p>Those must be known. We drill them as short daily recall, a few minutes at the start of each lesson.</p></div></div>
+    <p class="ag-source-note ag-mt-40">NYSED publishes the <a class="ag-inline-link" href="https://www.nysed.gov/sites/default/files/programs/state-assessment/geometry-next-gen-reference-sheet.pdf" rel="noopener" target="_blank">Next Generation Geometry Reference Sheet</a> and the <a class="ag-inline-link" href="https://www.nysed.gov/state-assessment/geometry" rel="noopener" target="_blank">Geometry resources page</a>, read 31 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="proof">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A proof</p><h2>How to write a coordinate geometry proof for the Regents</h2><p class="ag-lede">Our own problem, in the G-GPE style. The method matters more than the answer: claim, evidence, and a sentence that ties them together.</p></div>
+    <ol class="ag-steps"><li><b>The problem (ours).</b> Quadrilateral ABCD has vertices A(-2, 1), B(2, 4), C(5, 0) and D(1, -3). Prove that ABCD is a square.</li><li><b>Plan before calculating.</b> A square is a rhombus with a right angle. So we will show all four sides are equal, then show one pair of adjacent sides is perpendicular.</li><li><b>Distances.</b> AB = &radic;((2 - (-2))&sup2; + (4 - 1)&sup2;) = &radic;(16 + 9) = 5. BC = &radic;(3&sup2; + (-4)&sup2;) = 5. CD = &radic;((-4)&sup2; + (-3)&sup2;) = 5. DA = &radic;((-3)&sup2; + 4&sup2;) = 5. All four sides are 5, so ABCD is a rhombus.</li><li><b>Slopes.</b> Slope of AB = (4 - 1)/(2 - (-2)) = 3/4. Slope of BC = (0 - 4)/(5 - 2) = -4/3. Their product is -1, so AB is perpendicular to BC and angle B is a right angle.</li><li><b>Concluding statement.</b> &ldquo;ABCD is a rhombus because all four sides are congruent, and a rhombus with a right angle is a square. Therefore ABCD is a square.&rdquo;</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Where proof credit is lost</h3><p>Calculating every slope and length correctly and then stopping. The question said prove, and a list of numbers is evidence without a conclusion.</p>
+<p>Using the wrong definition: four equal sides alone gives a rhombus, not a square. Name the property you are proving at each step.</p></div><div><h3>A second example, trigonometry (ours)</h3><p>A wheelchair ramp rises 1.2 meters over a horizontal run of 9 meters. Find the angle it makes with the ground, to the nearest tenth of a degree.</p>
+<p>tan&theta; = 1.2/9, so &theta; = tan<sup>-1</sup>(0.1333...), about 7.6 degrees. Write the ratio first, then the inverse: the grader looks for both.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="when">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">June 2027</p><h2>When is the Geometry Regents in 2027?</h2><p class="ag-lede">NYSED&rsquo;s June 2027 schedule puts Geometry on Tuesday, June 22 at 1:15 p.m. It is also offered in the January and August periods.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Geometry Regents sittings in 2027 (NYSED examination schedules and final dates memo, read 31 October 2026)</caption><thead><tr><th scope="col">Period</th><th scope="col">Geometry</th><th scope="col">Note</th></tr></thead><tbody><tr><td>January 2027</td><td>Within Tuesday, January 26 to Friday, January 29</td><td>January sheet still marked draft by NYSED</td></tr><tr><td>June 2027</td><td>Tuesday, June 22, 1:15 p.m.</td><td>One of the last exams of the June period</td></tr><tr><td>August 2027</td><td>Wednesday, August 18, 12:30 p.m.</td><td>Afternoon of the second August day</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Scoring and levels</h3><p>Results come in five levels. The geometry guide&rsquo;s Level 3 description says those students &ldquo;meet the content area requirements for a Regents diploma&rdquo;, with a warning that the next course may need extra support.</p>
+<p>Each sitting has its own conversion chart on nysedregents.org, turning raw credits out of 80 into a scale score and level.</p></div><div><h3>Where Geometry fits in a diploma</h3><p>Under current NYSED rules a Regents diploma needs one math Regents, and the advanced designation needs three. For most students Geometry is the second of those three.</p>
+<p>Through its NY Inspires plan NYSED wants passing Regents exams to stop being a diploma condition from fall 2027. That needs a Board of Regents vote; today&rsquo;s rules hold for every student in the meantime.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.nysed.gov/sites/default/files/programs/state-assessment/regents-exams-schedule-june-2027.pdf" rel="noopener" target="_blank">June 2027 Regents schedule</a>, <a class="ag-inline-link" href="https://www.nysed.gov/sites/default/files/programs/state-assessment/regents-exams-schedule-august-2027.pdf" rel="noopener" target="_blank">August 2027 schedule</a>, <a class="ag-inline-link" href="https://www.nysed.gov/sites/default/files/programs/state-assessment/memo-regents-exam-dates-2027.pdf" rel="noopener" target="_blank">final dates memo</a> and <a class="ag-inline-link" href="https://www.nysed.gov/ny-inspires/transformation-timeline" rel="noopener" target="_blank">NY Inspires timeline</a>, read 31 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice</p><h2>Twelve Geometry Regents practice questions with answers</h2><p class="ag-lede">Our own questions across all six domains. Use the pi key wherever pi appears.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our practice questions, written for this page, with answers</caption><thead><tr><th scope="col">Domain</th><th scope="col">Question</th><th scope="col">Answer</th></tr></thead><tbody><tr><td>G-CO</td><td>Point (3, -2) is reflected over the y-axis. Where does it land?</td><td>(-3, -2)</td></tr><tr><td>G-CO</td><td>Two angles of a triangle are 48 and 67 degrees. Find the third.</td><td>65 degrees</td></tr><tr><td>G-CO</td><td>Which rigid motion maps (x, y) to (-y, x)?</td><td>A rotation of 90 degrees counterclockwise about the origin</td></tr><tr><td>G-SRT</td><td>Triangles with sides 6, 8, 10 and 9, 12, 15: similar? Give the scale factor.</td><td>Yes, 3/2</td></tr><tr><td>G-SRT</td><td>In a right triangle, sin A = 5/13. What is cos A?</td><td>12/13</td></tr><tr><td>G-SRT</td><td>A 30-60-90 triangle has a short leg of 7. Find the hypotenuse.</td><td>14</td></tr><tr><td>G-GPE</td><td>Find the midpoint of (-4, 6) and (8, 2).</td><td>(2, 4)</td></tr><tr><td>G-GPE</td><td>Write the equation of the line through (1, 3) perpendicular to y = 2x - 5.</td><td>y = -x/2 + 7/2</td></tr><tr><td>G-C</td><td>A circle has radius 6. Find the length of a 60-degree arc in terms of pi.</td><td>2&pi;</td></tr><tr><td>G-C</td><td>Complete the square to find the center and radius: x&sup2; + y&sup2; - 6x + 4y = 12.</td><td>Center (3, -2), radius 5</td></tr><tr><td>G-GMD</td><td>A cylinder has radius 4 and height 10. Find its volume to the nearest tenth.</td><td>502.7</td></tr><tr><td>G-MG</td><td>A tank holds 1,000 cubic inches of water at 0.036 pounds per cubic inch. How heavy is the water?</td><td>36 pounds</td></tr></tbody></table></div>
+    <p class="ag-mt-40">NYSED&rsquo;s <a class="ag-inline-link" href="https://www.nysedregents.org/geometryre/" rel="noopener" target="_blank">past Geometry exams</a> from June 2025 onward follow the current design, each with its rating guide and model responses. Marking a practice proof against a model response is one of the most useful hours a student can spend.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A plan</p><h2>How to prepare for the Geometry Regents, week by week</h2><p class="ag-lede">Our twelve-week plan counted back from Tuesday, June 22, 2027.</p></div>
+    <ol class="ag-steps"><li><b>Weeks 1 and 2: recall drill and a diagnostic.</b> Formulas not on the sheet, then one full recent exam marked with the rating guide.</li><li><b>Weeks 3 to 5: congruence and proof.</b> Rigid motions, triangle congruence criteria, and a two-column or paragraph proof every lesson.</li><li><b>Weeks 6 to 8: similarity and trigonometry.</b> Scale factors, the side-splitter idea, trigonometric ratios and their inverses, with a wording-to-diagram habit for word problems.</li><li><b>Week 9: coordinate geometry.</b> Slope, distance and midpoint proofs, finishing each with a concluding statement.</li><li><b>Week 10: constructions and circles.</b> Compass work by hand, arc length, sector area and the equation of a circle.</li><li><b>Weeks 11 and 12: full papers.</b> Two three-hour rehearsals with the student&rsquo;s own compass and calculator, and the pi key every time.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Proof readiness</p>
+      <h2>Four stages of writing a geometry proof</h2>
+      <p class="ag-lede">How students usually grow into the 6-credit question, in our experience of teaching it.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of proof writing (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th><th scope="col">Next step</th></tr></thead><tbody><tr><td>1. Calculator</td><td class="ag-num">Finds numbers, never states why</td><td class="ag-num">Say the reason out loud for each step</td></tr><tr><td>2. Listing</td><td class="ag-num">Writes true statements in no clear order</td><td class="ag-num">Start from the given, end at the claim</td></tr><tr><td>3. Chaining</td><td class="ag-num">Each step follows from the last, with a reason</td><td class="ag-num">Name the theorem or definition used</td></tr><tr><td>4. Concluding</td><td class="ag-num">Ends with a sentence that answers the question</td><td class="ag-num">Write proofs under time</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Ask your child to explain one homework proof to you. If they can tell the story, they can usually write it.</p>
+<p>Geometry marks often drop from Algebra I marks in the first term. That is common and fixable, once proof writing clicks.</p></div><div><h3>For students</h3><p>Before writing a proof, say in one sentence what you are going to show and how.</p>
+<p>Use the pi key. Every time.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>High school math courses for New York</h2>
+      <p class="ag-lede">Live lessons for each Regents year and after.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Grades 8 and 9</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GR / F / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Algebra I, secured.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GR / F / 02</p>
+          <h4>Middle school math</h4>
+          <p>Angles, area and the Pythagorean theorem.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GR / F / 03</p>
+          <h4>Math through coding</h4>
+          <p>Draw transformations in code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Geometry year</h3>
+        <span class="ag-band-sub">Grades 9 and 10</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GR / G / 01</p>
+          <h4>High school math</h4>
+          <p>Geometry through calculus.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GR / G / 02</p>
+          <h4>Competition math</h4>
+          <p>Proof for students who want more.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GR / G / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>Ahead of Algebra II.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>After Geometry</h3>
+        <span class="ag-band-sub">Grades 10 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">GR / A / 01</p>
+          <h4>AP Precalculus</h4>
+          <p>Functions and trigonometry.</p>
+          <a class="ag-course-link" href="/courses/ap-precalculus-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GR / A / 02</p>
+          <h4>SAT Math</h4>
+          <p>Geometry and trig included.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">GR / A / 03</p>
+          <h4>ACT Math</h4>
+          <p>Heavier on geometry than the SAT.</p>
+          <a class="ag-course-link" href="/courses/act-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Geometry lessons with a whiteboard and a compass</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Evenings ET</p><p class="ag-slot-l">After-school lessons on New York time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Proof clinics and full practice papers.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">One proof at a time, written and rewritten.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Proof every lesson</h3><p>Short or long, always concluded.</p></div>
+      <div><h3>Real compass work</h3><p>Arcs drawn by hand and shown.</p></div>
+      <div><h3>Pi key habit</h3><p>No 3.14, ever.</p></div>
+      <div><h3>Recall drill</h3><p>Formulas the sheet leaves out.</p></div>
+      <div><h3>Model responses</h3><p>Our proofs marked against NYSED&rsquo;s.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student work</h2>
+      <p class="ag-lede">Coordinates and shapes appear in every app our students build. More on <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Geometry Regents classes are charged monthly in US dollars and can stop at any time, so a student can join for the spring proof units and finish after June 22.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring a proof you got stuck on</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>One geometry teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Your own teacher</li><li>Proof writing in depth</li><li>Flexible times</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents, quoted in full.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Geometry Regents questions</p>
+      <h2>Geometry Regents: questions students ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>When is the Geometry Regents in June 2027?</h3>
+        <p>Tuesday, June 22, 2027, at 1:15 p.m., on NYSED's June 2027 examination schedule. It is also given in the January period and on Wednesday, August 18, 2027, at 12:30 p.m.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many questions are on the Geometry Regents?</h3>
+        <p>Thirty-five, in four parts: 24 multiple choice, 7 two-credit questions, 3 four-credit questions and one six-credit question. NYSED's guide gives a total of 80 credits.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Geometry Regents hard?</h3>
+        <p>It is different rather than simply harder: it asks students to prove and construct, not only calculate. Students who practise written proofs and constructions all year usually find the exam far more manageable.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you need a compass for the Geometry Regents?</h3>
+        <p>Yes. Every student must have access to a compass and a straightedge, which the school provides, and a graphing calculator for all three hours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you use 3.14 for pi on the Geometry Regents?</h3>
+        <p>No, unless a question says so. NYSED's guide says students should use the pi symbol or the pi key, and that 3.1416, 3.14 or 22/7 are unacceptable.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What formulas are given on the Geometry Regents?</h3>
+        <p>Only volume formulas: cylinder, general prism, sphere, cone and pyramid, on a detachable reference sheet. Area, circumference, distance and the trigonometric ratios must be known.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the biggest topic on the Geometry Regents?</h3>
+        <p>Similarity, right triangles and trigonometry, at 29 to 37 percent of the credits, followed by congruence at 27 to 34 percent, according to NYSED's blueprint.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When did the Geometry Regents change?</h3>
+        <p>NYSED's implementation memo set the first new Next Generation Geometry exam for June 2025, with the previous exam given for the last time in January 2025.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your Geometry classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Times are set in Eastern Time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you affiliated with NYSED?</h3>
+        <p>No. Modern Age Coders is an independent school that teaches geometry live online. We quote NYSED's public documents and send students to NYSED's own past exams.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More geometry and New York pages.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/geometry-tutoring-online-usa">Geometry tutoring</a></h3><p>Proof as a chain of reasons.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-10th-grade">Tenth grade math tutoring</a></h3><p>The usual geometry year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/algebra-2-tutoring-online">Algebra 2 tutoring</a></h3><p>The course after Geometry.</p></div>
+      <div><h3><a class="ag-inline-link" href="/precalculus-tutoring-online">Precalculus tutoring</a></h3><p>Trigonometry carried further.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-new-york">Coding classes in New York</a></h3><p>Our New York page.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Bring a proof that went wrong in class. The teacher will rebuild it with your child, line by line, and show where the reasons belong.</p>
+        <p class="ag-mt-40">See <a class="ag-inline-link" href="/how-we-teach">how our lessons work</a>, or look at <a class="ag-inline-link" href="/courses">all courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20in%20New%20York%20is%20taking%20the%20Geometry%20Regents.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'gr',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Teachers teach live from India on Eastern Time slots, weekday evenings or weekends. WhatsApp gets you the fastest reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_gr(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free and needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Geometry</h4><ul><li><a href="/geometry-tutoring-online-usa">Geometry tutoring</a></li><li><a href="/online-math-tutor-10th-grade">Grade 10 math</a></li><li><a href="/precalculus-tutoring-online">Precalculus</a></li><li><a href="/online-math-tutor-cost">Math tutor cost</a></li></ul></div>
+      <div><h4>New York and the US</h4><ul><li><a href="/coding-classes-in-new-york">New York</a></li><li><a href="/coding-classes-in-united-states">Our US pages</a></li><li><a href="/algebra-2-tutoring-online">Algebra 2 tutoring</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Claim, evidence, conclusion</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_gr = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'geometry-regents-prep-inline', meta: { name: name, age: age, page: 'geometry-regents-prep' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>

@@ -625,6 +625,7 @@ const SLUGS = [
   'staar-algebra-1-eoc-prep',
   'nys-math-test-prep-grades-3-8',
   'algebra-1-regents-prep',
+  'geometry-regents-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1329,6 +1330,7 @@ const LLMS_LABELS = {
   'staar-algebra-1-eoc-prep': 'STAAR Algebra 1 EOC prep',
   'nys-math-test-prep-grades-3-8': 'NYS math test prep, grades 3 to 8',
   'algebra-1-regents-prep': 'Algebra 1 Regents prep',
+  'geometry-regents-prep': 'Geometry Regents prep',
 };
 
 function wireLlms(slugs) {
