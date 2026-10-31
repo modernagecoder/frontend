@@ -684,6 +684,7 @@ const SLUGS = [
   'moems-math-olympiad-preparation',
   'noetic-math-contest-preparation',
   'continental-math-league-preparation',
+  'art-of-problem-solving-alternative',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1447,6 +1448,7 @@ const LLMS_LABELS = {
   'moems-math-olympiad-preparation': 'MOEMS math olympiad preparation',
   'noetic-math-contest-preparation': 'Noetic math contest preparation',
   'continental-math-league-preparation': 'Continental Math League preparation',
+  'art-of-problem-solving-alternative': 'Art of Problem Solving alternative',
 };
 
 function wireLlms(slugs) {

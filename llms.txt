@@ -916,6 +916,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - MOEMS math olympiad preparation: https://learn.modernagecoders.com/moems-math-olympiad-preparation
 - Noetic math contest preparation: https://learn.modernagecoders.com/noetic-math-contest-preparation
 - Continental Math League preparation: https://learn.modernagecoders.com/continental-math-league-preparation
+- Art of Problem Solving alternative: https://learn.modernagecoders.com/art-of-problem-solving-alternative
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
