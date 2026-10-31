@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
 - [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
 - [Statistics tutoring online](/statistics-tutoring-online)
 - [NC Math 1 EOC prep](/nc-math-1-eoc-prep)
