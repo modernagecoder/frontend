@@ -8646,4 +8646,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /online-math-circle-for-kids /src/pages/online-math-circle-for-kids.html 200
 /online-math-circle-for-kids.md /src/pages/online-math-circle-for-kids.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/stanford-10-math-practice /src/pages/stanford-10-math-practice.html 200
+/stanford-10-math-practice.md /src/pages/stanford-10-math-practice.md 200
 /* /src/pages/404.html 404
