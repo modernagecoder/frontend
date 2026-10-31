@@ -28045,6 +28045,18 @@
   to = "/src/pages/cyberfirst-courses-and-bursary-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/math-u-see-tutor"
+  to = "/src/pages/math-u-see-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/math-u-see-tutor.md"
+  to = "/src/pages/math-u-see-tutor.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

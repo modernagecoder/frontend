@@ -327,7 +327,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US018 | geometry-regents-prep (gr, #287181) | state tests | 3,551 | 2.6% vs algebra-1-regents-prep | exam door | original worked example | d0696019 |
 | US019 | algebra-2-regents-prep (gar, #007255) | state tests | 3,853 | 2.7% vs algebra-1-regents-prep | exam door | original worked example | a9076887 |
 | US042 | algebra-1-eoc-prep (aeoc, #44460D) | state tests | 3,882 | 2% vs staar-algebra-1-eoc-prep | exam door | original worked example | 69720ea4 |
-| US038 | colorado-cmas-math-practice (coc, #7A5E7A) | state tests | 5,137 | 1.7% vs staar-math-tutoring | exam door | original worked example | (this commit) |
+| US038 | colorado-cmas-math-practice (coc, #7A5E7A) | state tests | 5,137 | 1.7% vs staar-math-tutoring | exam door | original worked example | eb5f3f72 |
+| US083 | math-u-see-tutor (mus, #1B4761) | homeschool and curricula | 4,587 | 2% vs teaching-textbooks-math-help | exam door | original worked example | (this commit) |
 
 ## Skipped
 

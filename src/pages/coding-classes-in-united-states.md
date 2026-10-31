@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Math-U-See tutor](/math-u-see-tutor)
 - [CMAS math practice](/colorado-cmas-math-practice)
 - [Algebra 1 EOC prep](/algebra-1-eoc-prep)
 - [Algebra 2 Regents prep](/algebra-2-regents-prep)
