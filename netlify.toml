@@ -27469,6 +27469,18 @@
   to = "/src/pages/aleks-math-placement-test-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/tsia2-math-prep"
+  to = "/src/pages/tsia2-math-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/tsia2-math-prep.md"
+  to = "/src/pages/tsia2-math-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

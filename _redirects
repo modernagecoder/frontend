@@ -8362,4 +8362,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /aleks-math-placement-test-prep /src/pages/aleks-math-placement-test-prep.html 200
 /aleks-math-placement-test-prep.md /src/pages/aleks-math-placement-test-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/tsia2-math-prep /src/pages/tsia2-math-prep.html 200
+/tsia2-math-prep.md /src/pages/tsia2-math-prep.md 200
 /* /src/pages/404.html 404

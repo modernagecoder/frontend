@@ -314,7 +314,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US067 | math-league-contest-preparation (lcp, #686A35) | math competitions | 4,285 | 1.3% vs math-competitions-for-middle-school-students | exam door | original worked example | ae35af41 |
 | US059 | ap-precalculus-tutoring-online (app, #623236) | ap and ib | 4,246 | 1.4% vs math-league-contest-preparation | exam door | original worked example | 2c718b5f |
 | US009 | accuplacer-math-prep (acx, #37613C) | placement and tracks | 4,175 | 1.1% vs common-core-math-vs-traditional-math | exam door | original worked example | f4d3d670 |
-| US010 | aleks-math-placement-test-prep (apt, #6C501F) | placement and tracks | 3,536 | 1.5% vs accuplacer-math-prep | exam door | original worked example | (this commit) |
+| US010 | aleks-math-placement-test-prep (apt, #6C501F) | placement and tracks | 3,536 | 1.5% vs accuplacer-math-prep | exam door | original worked example | f8560f0b |
+| US011 | tsia2-math-prep (tsx, #085023) | placement and tracks | 3,813 | 1.6% vs accuplacer-math-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

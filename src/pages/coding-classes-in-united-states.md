@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [TSIA2 math prep](/tsia2-math-prep)
 - [ALEKS math placement test prep](/aleks-math-placement-test-prep)
 - [ACCUPLACER math prep](/accuplacer-math-prep)
 - [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)

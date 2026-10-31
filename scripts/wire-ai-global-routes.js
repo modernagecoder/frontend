@@ -595,6 +595,7 @@ const SLUGS = [
   'ap-precalculus-tutoring-online',
   'accuplacer-math-prep',
   'aleks-math-placement-test-prep',
+  'tsia2-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1269,6 +1270,7 @@ const LLMS_LABELS = {
   'ap-precalculus-tutoring-online': 'AP Precalculus tutoring online',
   'accuplacer-math-prep': 'ACCUPLACER math prep',
   'aleks-math-placement-test-prep': 'ALEKS math placement test prep',
+  'tsia2-math-prep': 'TSIA2 math prep',
 };
 
 function wireLlms(slugs) {
