@@ -344,7 +344,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US024 | mcas-math-prep (mcx, #865D58) | state tests | 4,336 | 1.8% vs nys-math-test-prep-grades-3-8 | exam door | original worked example | 0d6c7808 |
 | US025 | pssa-math-practice (pspr, #6E4B43) | state tests | 4,169 | 1.8% vs nys-math-test-prep-grades-3-8 | exam door | original worked example | 9997c513 |
 | US048 | nyc-gifted-and-talented-guide (ngt, #437349) | gifted and selective | 5,516 | 1.5% vs shsat-math-prep | exam door | original worked example | 64d73bc5 |
-| US051 | hunter-college-high-school-math-prep (hch, #346767) | gifted and selective | 4,843 | 1.2% vs tachs-math-prep | exam door | original worked example | (this commit) |
+| US051 | hunter-college-high-school-math-prep (hch, #346767) | gifted and selective | 4,843 | 1.2% vs tachs-math-prep | exam door | original worked example | 34f3e92c |
+| US052 | boston-exam-schools-math-prep (boe, #2B6E8F) | gifted and selective | 4,971 | 1.5% vs tachs-math-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

@@ -28489,6 +28489,18 @@
   to = "/src/pages/hunter-college-high-school-math-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/boston-exam-schools-math-prep"
+  to = "/src/pages/boston-exam-schools-math-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/boston-exam-schools-math-prep.md"
+  to = "/src/pages/boston-exam-schools-math-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

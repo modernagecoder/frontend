@@ -680,6 +680,7 @@ const SLUGS = [
   'pssa-math-practice',
   'nyc-gifted-and-talented-guide',
   'hunter-college-high-school-math-prep',
+  'boston-exam-schools-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1439,6 +1440,7 @@ const LLMS_LABELS = {
   'pssa-math-practice': 'PSSA math practice',
   'nyc-gifted-and-talented-guide': 'NYC Gifted and Talented guide',
   'hunter-college-high-school-math-prep': 'Hunter College High School math prep',
+  'boston-exam-schools-math-prep': 'Boston exam schools math prep',
 };
 
 function wireLlms(slugs) {
