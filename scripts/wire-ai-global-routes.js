@@ -716,6 +716,7 @@ const SLUGS = [
   'integrated-math-1-tutoring',
   'integrated-math-2-tutoring',
   'integrated-math-3-tutoring',
+  'map-growth-math-test-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1511,6 +1512,7 @@ const LLMS_LABELS = {
   'integrated-math-1-tutoring': 'Integrated Math 1 tutoring',
   'integrated-math-2-tutoring': 'Integrated Math 2 tutoring',
   'integrated-math-3-tutoring': 'Integrated Math 3 tutoring',
+  'map-growth-math-test-prep': 'MAP Growth math test prep',
 };
 
 function wireLlms(slugs) {

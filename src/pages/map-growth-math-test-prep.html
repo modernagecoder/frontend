@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MAP Growth Math Test Prep: RIT Scores and Readiness</title>
+  <meta name="description" content="MAP Growth math test prep for parents: how NWEA's adaptive test and RIT scale work, why it measures growth rather than pass or fail, and readiness practice.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/map-growth-math-test-prep">
+  <link rel="alternate" type="text/markdown" href="/src/pages/map-growth-math-test-prep.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#51628C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/map-growth-math-test-prep">
+  <meta property="og:title" content="MAP Growth Math Test Prep: RIT Scores and Readiness">
+  <meta property="og:description" content="MAP Growth is an adaptive growth measure, not a pass or fail test. How it works, how to read a RIT score, and the math readiness that actually helps.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MAP Growth Math Test Prep: RIT Scores and Readiness">
+  <meta name="twitter:description" content="NWEA MAP Growth math explained from NWEA's own family pages, with readiness warm-ups.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-mag .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-mag .ag-capsule { border-left-width: 4px; border-radius: 8px; }
+.ag-root.ag-mag .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-mag .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-mag .ag-section-head h2 { max-width: 30ch; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/map-growth-math-test-prep#page","url":"https://learn.modernagecoders.com/map-growth-math-test-prep","name":"MAP Growth Math Test Prep","description":"A parent guide to the NWEA MAP Growth math test, drawn from NWEA's own family questions and product pages, explaining adaptivity and the RIT scale, with original readiness activities and practice.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"MAP Growth math test prep","item":"https://learn.modernagecoders.com/map-growth-math-test-prep"}]},{"@type":"Course","name":"MAP Growth Math Test Prep","description":"Live online math lessons for grades K to 8 that build the number sense and reasoning MAP Growth measures, in a group of 15 to 20 or one to one, with no item drilling.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/map-growth-math-test-prep"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/map-growth-math-test-prep"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/map-growth-math-test-prep"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the MAP Growth math test?","acceptedAnswer":{"@type":"Answer","text":"It is NWEA's computer-adaptive interim test for grades K to 12. It measures what a student knows and how they are growing, and reports a RIT score. Most schools give it in fall, winter and spring."}},{"@type":"Question","name":"Is MAP Growth a pass or fail test?","acceptedAnswer":{"@type":"Answer","text":"No. There is no pass mark; the RIT score places a student on a scale and is compared across seasons to show growth. NWEA says it does not recommend using MAP Growth for grade-level advancement or accountability purposes."}},{"@type":"Question","name":"What is a good RIT score in math?","acceptedAnswer":{"@type":"Answer","text":"It depends on grade and season, which is why NWEA publishes national norms. Ask the school for your child's percentile and projected growth; steady growth over time matters more than a single number."}},{"@type":"Question","name":"How many questions are on the MAP Growth math test?","acceptedAnswer":{"@type":"Answer","text":"NWEA says students answer around 43 questions in a session. The test is untimed, and most students finish in about 45 to 55 minutes at school."}},{"@type":"Question","name":"Why does my child say MAP Growth was too hard?","acceptedAnswer":{"@type":"Answer","text":"Because it adapts: a right answer brings a harder question. NWEA says the goal is to answer about 50 percent correctly, so every student meets questions they cannot yet answer."}},{"@type":"Question","name":"Are there MAP Growth math practice tests?","acceptedAnswer":{"@type":"Answer","text":"Yes. NWEA provides a practice test in the Student Resources section of its Family Toolkit, so children can see the question types. Real test questions are secure and are not shared."}},{"@type":"Question","name":"Can I help my child during a MAP test at home?","acceptedAnswer":{"@type":"Answer","text":"NWEA asks parents not to give hints or help with answers, because it compromises the data teachers use. Encourage your child to do their best, and keep the room quiet."}},{"@type":"Question","name":"Does test prep raise MAP Growth scores?","acceptedAnswer":{"@type":"Answer","text":"Item drilling does not work on an adaptive test with secure questions. What raises scores over time is stronger math: place value, fluency, fractions and reasoning, which is what we teach."}},{"@type":"Question","name":"When are your classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are you connected with NWEA?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders has no affiliation with NWEA, and MAP Growth is NWEA's trademark. We teach math skills and point families to NWEA's own free resources."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/map-growth-math-test-prep","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-mag">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#test">The test</a></li>
+      <li><a href="#rit">RIT scores</a></li>
+      <li><a href="#prepare">Preparing</a></li>
+      <li><a href="#warmups">Warm-ups</a></li>
+      <li><a href="#ladder">How schools use it</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / MAP Growth math test prep
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades K to 12 &middot; NWEA MAP Growth</p>
+        <h1>MAP Growth math test prep: readiness, not drilling</h1>
+        <p class="ag-lede">Many US districts give the NWEA MAP Growth math test two or three times a year, and parents often first hear of it when a RIT score comes home or a school mentions acceleration. It is a growth measure, not a test you pass or fail: the questions adapt to your child, and the score tracks learning over months and years. That changes what sensible preparation looks like. This page explains the test from NWEA's own family pages, then offers math readiness work that helps without gaming anything.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#rit" class="ag-btn ag-btn--ghost">How to read a RIT score</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20takes%20the%20MAP%20Growth%20math%20test%20at%20school.%20Could%20we%20book%20a%20free%20first%20class%20to%20build%20their%20math%20skills%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mag'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live math teaching since 2020 &middot; 10,000+ students &middot; grades K to 8</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Publisher</dt><dd>NWEA</dd>
+          <dt>Type</dt><dd>Computer-adaptive interim test</dd>
+          <dt>Math grades</dt><dd>K to 12</dd>
+          <dt>Score</dt><dd>RIT, an equal-interval scale</dd>
+          <dt>Typical length</dt><dd>About 43 questions, untimed</dd>
+          <dt>When</dt><dd>Often fall, winter and spring</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>NWEA MAP Growth math is a computer-adaptive interim test for grades K to 12 that measures what a student knows and how they are growing, reported as a RIT score on an equal-interval scale. It has no pass mark. Modern Age Coders does not drill test items; we build the underlying number sense and reasoning live online, in a batch of 15 to 20 or 1-on-1, through our Elementary Mathematics course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Math readiness</p>
+      <h2>Three courses that build MAP Growth math readiness</h2>
+      <p class="ag-lede">Each course teaches the math itself, by grade band. None of them teaches to the test.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/elementary-mathematics-complete-masterclass">
+        <div class="ag-pick-shot"><img src="/images/elementary-maths.webp" alt="Elementary Maths for Grades 1-5 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MAG / 01</p>
+          <h3>Elementary math</h3>
+          <p>Grades 1 to 5: number sense, operations, fractions, measurement.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MAG / 02</p>
+          <h3>Middle school math</h3>
+          <p>Grades 6 to 8: ratio, expressions, equations, geometry.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/reasoning-and-readiness-course-for-young-thinkers">
+        <div class="ag-pick-shot"><img src="/images/reasoning-readiness-young-thinkers.webp" alt="Reasoning and Readiness for Young Thinkers (Ages 6 to 9) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">MAG / 03</p>
+          <h3>Reasoning and readiness</h3>
+          <p>Ages 6 to 9: patterns and spatial reasoning through play.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="test">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The test</p><h2>What is the MAP Growth math test?</h2><p class="ag-lede">MAP Growth is an interim assessment from NWEA, taken on a computer or tablet. NWEA says it "measures what your student knows and how they are growing academically."</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>MAP Growth math at a glance (NWEA Common Questions for Families and MAP Growth features pages, read 31 October 2026)</caption><thead><tr><th scope="col">Feature</th><th scope="col">What NWEA says</th></tr></thead><tbody><tr><td>Kind of test</td><td>Computer adaptive; an "Interim assessment for growth"</td></tr><tr><td>Math grades</td><td>K to 12 in English, and K to 12 in Spanish</td></tr><tr><td>Youngest students</td><td>MAP Growth K to 2, with headphones, since many questions include audio</td></tr><tr><td>Questions</td><td>"Your child will answer around 43 questions", in formats such as multiple choice and drag-and-drop</td></tr><tr><td>Time</td><td>Untimed; most students finish in about 45 to 55 minutes in school</td></tr><tr><td>How often</td><td>Most schools test in fall, winter and spring; some only twice a year</td></tr><tr><td>Score</td><td>A RIT score on the RIT (Rasch Unit) scale</td></tr><tr><td>Course tests</td><td>Algebra 1 and 2, Integrated Math 1, 2 and 3, and Geometry</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: NWEA, <a class="ag-inline-link" href="https://www.nwea.org/the-map-suite/common-questions-families/" rel="noopener" target="_blank">Common Questions for Families</a> and <a class="ag-inline-link" href="https://www.nwea.org/map-growth/features/" rel="noopener" target="_blank">MAP Growth Features</a>.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Adaptive means harder after a right answer</h3><p>NWEA explains: "If a student gets a question wrong, the next question will be easier. If a student gets a question right, the next question will be harder."</p>
+<p>It also says "the goal is to answer 50 percent of the questions correctly." A child who comes home saying the test was hard has usually experienced the test working as designed.</p></div><div><h3>Growth measure, not pass or fail</h3><p>NWEA contrasts MAP Growth with standardized tests that ask everyone the same questions: it "adjusts to each child's performance."</p>
+<p>It is also plain about limits: "We do not recommend using MAP Growth for grade-level advancement or accountability purposes." And it calls the scores "just one data point that teachers use to determine how a child is performing."</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="rit">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">RIT scores</p><h2>What does a RIT score mean on MAP Growth math?</h2><p class="ag-lede">A RIT score places a student on a single scale that runs across all grades. NWEA compares it to marks on a growth chart: what matters most is how far the line moves.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Equal steps, any grade</h3><p>NWEA says "The RIT (Rasch Unit) scale is a stable, equal-interval scale," meaning that "a change of 10 RIT points indicates the same thing regardless of whether a student is at the top, bottom, or middle of the scale."</p>
+<p>It also says "A RIT score has the same meaning regardless of grade level or age of the student." That is why a fourth grader and a sixth grader can be compared on it, and why one child can be tracked for years.</p></div><div><h3>Not a percentage</h3><p>A RIT score is not the share of questions answered correctly. Because the test aims for about half right, two children can both get roughly half the questions right and earn very different RIT scores.</p>
+<p>NWEA publishes national norms, updated for 2025, that teachers use to set the score in context. Ask the school for your child's percentile and growth projection rather than comparing raw RIT numbers with other families.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Reading one year of growth (an invented student; the numbers are ours, not NWEA norms)</caption><thead><tr><th scope="col">Season</th><th scope="col">Math RIT</th><th scope="col">Change</th><th scope="col">What to ask the teacher</th></tr></thead><tbody><tr><td>Fall</td><td class="ag-num">198</td><td>Starting point</td><td>Which strands were lower than the others?</td></tr><tr><td>Winter</td><td class="ag-num">204</td><td>+6 since fall</td><td>Is that growth on track for the year?</td></tr><tr><td>Spring</td><td class="ag-num">207</td><td>+3 since winter, +9 for the year</td><td>Did the projected growth come through?</td></tr></tbody></table></div>
+    <p class="ag-mt-40">In our example, the winter-to-spring gain is smaller than fall-to-winter. That alone is not alarming: a single test has some measurement wobble, and spring testing days can be crowded. The trend across several seasons tells you far more than any one score. NWEA also notes that, because of federal privacy law, it "is unable to discuss any student information, test results, or school assessment programs directly with parents", so the school is where those questions go.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="prepare">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Preparing</p><h2>Can you prepare for the MAP Growth math test?</h2><p class="ag-lede">You can prepare your child for the experience, and you can strengthen the math. You cannot, and should not try to, learn the questions, which NWEA keeps secure.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What helps and what does not (NWEA guidance quoted; our view in the right column)</caption><thead><tr><th scope="col">Idea</th><th scope="col">What NWEA says</th><th scope="col">Our view</th></tr></thead><tbody><tr><td>Seeing the format</td><td>A practice test is available in the Student Resources of the Family Toolkit</td><td>One look at the format removes surprise; repeated runs add little</td></tr><tr><td>Memorizing items</td><td>Test questions "are considered secure test content" and are not shared</td><td>Not possible, and the adaptive design would defeat it</td></tr><tr><td>Helping during a home test</td><td>"Helping your child answer questions compromises test data"</td><td>A helped score leads to the wrong lessons later</td></tr><tr><td>Calm before testing</td><td>Remind your child the test "is not tied to their grades"</td><td>Sleep, breakfast and a normal morning matter</td></tr><tr><td>Stronger math</td><td>The test measures "what your student knows"</td><td>The only lasting way to move a RIT score</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Ask the school which seasons it tests.</b> NWEA says most schools test in fall, winter and spring.</li><li><b>Open the practice test once with your child.</b> NWEA points families to it in the Family Toolkit, so drag-and-drop and on-screen tools are familiar.</li><li><b>If testing happens at home, check the device.</b> NWEA offers an interactive device readiness check and suggests a quiet space with toys and extra screens removed.</li><li><b>Explain that hard questions are normal.</b> NWEA notes that every student "gets some answers right and some answers wrong because the test is adapting."</li><li><b>Keep weekly math practice steady.</b> Short, regular work on number sense helps far more than a cram session the week before.</li><li><b>Read the Family Report with the teacher.</b> NWEA says most schools share it; the teacher can explain which goal areas to work on.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="warmups">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Warm-ups</p><h2>What math skills help most on MAP Growth math?</h2><p class="ag-lede">The same skills that help in class: place value, fluent operations, fractions, and the habit of reasoning about a problem before calculating. These warm-ups are ours. They are not MAP items and are not written to look like them.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Readiness warm-ups by grade band, written by us, with the thinking we look for</caption><thead><tr><th scope="col">Band</th><th scope="col">Warm-up (ours)</th><th scope="col">Thinking we look for</th></tr></thead><tbody><tr><td>K to 2</td><td>I have 8 shells and find some more. Now I have 13. How many did I find?</td><td>Counting on from 8 to 13, or 13 - 8; answer 5</td></tr><tr><td>K to 2</td><td>Which is more: 3 tens and 4 ones, or 4 tens and 3 ones?</td><td>Tens matter more: 43 is more than 34</td></tr><tr><td>3 to 5</td><td>Is 3/4 bigger or smaller than 5/8?</td><td>Rename 3/4 as 6/8; so 3/4 is bigger</td></tr><tr><td>3 to 5</td><td>25 x 16 without paper</td><td>25 x 4 = 100, and 16 is 4 fours, so 400</td></tr><tr><td>3 to 5</td><td>A rectangle has area 36 and one side 4. Perimeter?</td><td>Other side 9; perimeter 26</td></tr><tr><td>6 to 8</td><td>A shirt costs 20% less than before and now costs 32 points in a class store. What did it cost before?</td><td>80% is 32, so 100% is 40</td></tr><tr><td>6 to 8</td><td>Solve 3(x - 2) = 2x + 5</td><td>x = 11</td></tr><tr><td>6 to 8</td><td>Which is greater, -7 or -3, and by how much?</td><td>-3, by 4</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A twelve-item readiness check (ours), easiest first, answers in the final column</caption><thead><tr><th scope="col">#</th><th scope="col">Skill</th><th scope="col">Problem</th><th scope="col">Answer</th></tr></thead><tbody><tr><td>1</td><td>Counting</td><td>What number is 10 more than 47?</td><td>57</td></tr><tr><td>2</td><td>Place value</td><td>Write 6 hundreds, 0 tens, 9 ones as a number</td><td>609</td></tr><tr><td>3</td><td>Addition</td><td>398 + 47</td><td>445</td></tr><tr><td>4</td><td>Multiplication</td><td>7 x 8</td><td>56</td></tr><tr><td>5</td><td>Division</td><td>84 shared equally among 4</td><td>21</td></tr><tr><td>6</td><td>Fractions</td><td>1/2 + 1/4</td><td>3/4</td></tr><tr><td>7</td><td>Decimals</td><td>Order 0.5, 0.45, 0.405 from least to greatest</td><td>0.405, 0.45, 0.5</td></tr><tr><td>8</td><td>Measurement</td><td>How many minutes in 2.5 hours?</td><td>150</td></tr><tr><td>9</td><td>Ratio</td><td>Mix 2 cups of juice for every 3 cups of water. Juice for 12 cups of water?</td><td>8 cups</td></tr><tr><td>10</td><td>Expressions</td><td>Evaluate 3a + 2 when a = 5</td><td>17</td></tr><tr><td>11</td><td>Equations</td><td>Solve x / 4 = 9</td><td>36</td></tr><tr><td>12</td><td>Geometry</td><td>Angles in a triangle are 50 and 60 degrees. The third?</td><td>70 degrees</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Children rarely sit a whole list like this. A teacher uses it to find the point where answers start to slow down, then teaches from there, which, in miniature, is also how an adaptive test works.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How schools use it</p>
+      <h2>How do schools use MAP Growth math scores?</h2>
+      <p class="ag-lede">For several decisions at once. NWEA's product page lists the uses it is built for; its family page adds a caution. Both are worth knowing before a placement conversation.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Uses NWEA lists for MAP Growth (NWEA MAP Growth page, read 31 October 2026)</caption><thead><tr><th scope="col">Use</th><th scope="col">NWEA's wording</th></tr></thead><tbody><tr><td>Screening</td><td class="ag-num">Screen every student as a universal screener for RTI, MTSS and other models</td></tr><tr><td>Placement</td><td class="ag-num">Place students precisely into the programs that will maximize their growth</td></tr><tr><td>Instruction</td><td class="ag-num">Drive instruction to help students access grade-level content</td></tr><tr><td>Growth</td><td class="ag-num">Measure growth over time with the grade-level independent RIT scale</td></tr><tr><td>Prediction</td><td class="ag-num">Predict performance on upcoming state tests, ACT, or SAT</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If a score is used for acceleration</h3><p>Some districts use MAP Growth percentiles as one input to gifted or acceleration decisions. Ask what other evidence the district looks at, and whether there is a second opportunity to test.</p>
+<p>Remember NWEA's own line that it does not recommend the test for grade-level advancement on its own.</p></div><div><h3>If a score looks too low</h3><p>NWEA's advice is to "Always talk to your child's teacher" when results do not seem to reflect a child's abilities.</p>
+<p>Bring examples of recent classwork. A teacher who sees both can judge whether the test day was an off day or a real gap.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Math courses from kindergarten to grade 8</h2>
+      <p class="ag-lede">Live courses that teach mathematics by grade band, for steady growth across the school year.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Early grades</h3>
+        <span class="ag-band-sub">Ages 4 to 9</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / E / 01</p>
+          <h4>Early math foundations</h4>
+          <p>Counting and shapes.</p>
+          <a class="ag-course-link" href="/courses/early-math-foundations">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / E / 02</p>
+          <h4>Reasoning and readiness</h4>
+          <p>Patterns and spatial play.</p>
+          <a class="ag-course-link" href="/courses/reasoning-and-readiness-course-for-young-thinkers">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / E / 03</p>
+          <h4>Mental math</h4>
+          <p>Number sense, not tricks.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Elementary</h3>
+        <span class="ag-band-sub">Grades 1 to 5</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / M / 01</p>
+          <h4>Elementary math</h4>
+          <p>The full grade 1 to 5 course.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / M / 02</p>
+          <h4>Math through coding</h4>
+          <p>For ages 10 and up.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / M / 03</p>
+          <h4>Competition math</h4>
+          <p>For strong problem solvers.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Middle school</h3>
+        <span class="ag-band-sub">Grades 6 to 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / S / 01</p>
+          <h4>Middle school math</h4>
+          <p>Ratio through equations.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / S / 02</p>
+          <h4>Algebra foundations</h4>
+          <p>For accelerated grade 8.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">MAG / S / 03</p>
+          <h4>Math competitions</h4>
+          <p>MATHCOUNTS-style problems.</p>
+          <a class="ag-course-link" href="/courses/middle-school-math-competitions-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Math lessons that build growth between test seasons</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">Short after-school lessons for younger children.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Unhurried morning sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Targeted at goal areas from the Family Report.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Report-led</h3><p>We start from the goal areas the school shares.</p></div>
+      <div><h3>Number sense first</h3><p>Place value and fluency, every week.</p></div>
+      <div><h3>Reasoning aloud</h3><p>Children explain before they calculate.</p></div>
+      <div><h3>No item drilling</h3><p>We teach math, not test questions.</p></div>
+      <div><h3>Calm about testing</h3><p>Hard questions treated as normal.</p></div>
+      <div><h3>Group or private</h3><p>A class of 15 to 20, or one child.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work from our students</h2>
+      <p class="ag-lede">Some of our younger students turn number patterns into simple games. Browse <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Lessons are paid monthly in US dollars with no contract. MAP Growth itself is given by your school; we have no part in it and charge nothing connected with it.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Share the Family Report if you have it</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty children</li><li>One steady teacher</li><li>Choose a batch</li><li>Monthly billing</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Your child and one teacher</li><li>Focused on reported goal areas</li><li>Flexible times</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Parents' reviews from Google, word for word.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions parents ask</p>
+      <h2>MAP Growth math: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is the MAP Growth math test?</h3>
+        <p>It is NWEA's computer-adaptive interim test for grades K to 12. It measures what a student knows and how they are growing, and reports a RIT score. Most schools give it in fall, winter and spring.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is MAP Growth a pass or fail test?</h3>
+        <p>No. There is no pass mark; the RIT score places a student on a scale and is compared across seasons to show growth. NWEA says it does not recommend using MAP Growth for grade-level advancement or accountability purposes.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is a good RIT score in math?</h3>
+        <p>It depends on grade and season, which is why NWEA publishes national norms. Ask the school for your child's percentile and projected growth; steady growth over time matters more than a single number.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many questions are on the MAP Growth math test?</h3>
+        <p>NWEA says students answer around 43 questions in a session. The test is untimed, and most students finish in about 45 to 55 minutes at school.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does my child say MAP Growth was too hard?</h3>
+        <p>Because it adapts: a right answer brings a harder question. NWEA says the goal is to answer about 50 percent correctly, so every student meets questions they cannot yet answer.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are there MAP Growth math practice tests?</h3>
+        <p>Yes. NWEA provides a practice test in the Student Resources section of its Family Toolkit, so children can see the question types. Real test questions are secure and are not shared.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I help my child during a MAP test at home?</h3>
+        <p>NWEA asks parents not to give hints or help with answers, because it compromises the data teachers use. Encourage your child to do their best, and keep the room quiet.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does test prep raise MAP Growth scores?</h3>
+        <p>Item drilling does not work on an adaptive test with secure questions. What raises scores over time is stronger math: place value, fluency, fractions and reasoning, which is what we teach.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with NWEA?</h3>
+        <p>No. Modern Age Coders has no affiliation with NWEA, and MAP Growth is NWEA's trademark. We teach math skills and point families to NWEA's own free resources.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Other test and grade-level guides for elementary and middle school families.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/cogat-test-prep">CogAT readiness</a></h3><p>Another test used for gifted screening.</p></div>
+      <div><h3><a class="ag-inline-link" href="/iowa-assessments-math-prep">Iowa Assessments math</a></h3><p>A different standardized test.</p></div>
+      <div><h3><a class="ag-inline-link" href="/accelerated-math-program-online">Accelerated math</a></h3><p>For students placed ahead.</p></div>
+      <div><h3><a class="ag-inline-link" href="/middle-school-math-placement-test-prep">Math placement tests</a></h3><p>How middle schools place students.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-3rd-grade">Third grade math</a></h3><p>A common first MAP year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-5th-grade">Fifth grade math</a></h3><p>Before middle school placement.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us your child's grade and, if the school has shared it, the goal areas from the latest Family Report. The teacher will spend the first class on place value and reasoning, without any test questions.</p>
+        <p class="ag-mt-40">Read about <a class="ag-inline-link" href="/how-we-teach">our teaching approach</a>, or look at <a class="ag-inline-link" href="/courses">every course we run</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20takes%20the%20MAP%20Growth%20math%20test%20at%20school.%20Could%20we%20book%20a%20free%20first%20class%20to%20build%20their%20math%20skills%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'mag',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are based in India and schedule young children's lessons for US afternoons and weekend mornings. The easiest way to start is a WhatsApp message.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_mag(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">First class free; payment details are not requested.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Elementary and middle school</h4><ul><li><a href="/online-math-tutor-3rd-grade">Grade 3 math</a></li><li><a href="/online-math-tutor-5th-grade">Grade 5 math</a></li><li><a href="/online-math-tutor-8th-grade">Grade 8 math</a></li><li><a href="/cogat-test-prep">CogAT readiness</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Our US pages</a></li><li><a href="/common-core-math-tutor">Common Core math</a></li><li><a href="/online-math-tutor-cost">Math tutor cost</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>fall 198, winter 204, spring 207: +9</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_mag = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'map-growth-math-test-prep-inline', meta: { name: name, age: age, page: 'map-growth-math-test-prep' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>
