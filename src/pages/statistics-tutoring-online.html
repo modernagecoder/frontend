@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Statistics Tutoring Online: High School Stats, Non-AP Help</title>
+  <meta name="description" content="High school statistics tutoring online: the Common Core S-ID, S-IC, S-CP and S-MD standards explained, two-way tables, margin of error and our own practice set.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/statistics-tutoring-online">
+  <link rel="alternate" type="text/markdown" href="/src/pages/statistics-tutoring-online.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3B6C75">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/statistics-tutoring-online">
+  <meta property="og:title" content="Statistics Tutoring Online: High School Stats, Non-AP Help">
+  <meta property="og:description" content="Non-AP high school statistics, from box plots to margin of error. What the Common Core asks for, where students slip, and how live tutoring helps.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Statistics Tutoring Online: High School Stats, Non-AP Help">
+  <meta name="twitter:description" content="High school statistics (non-AP) explained from the Common Core, with worked examples.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-st .ag-hero h1 { letter-spacing: -0.01em; }
+.ag-root.ag-st .ag-capsule { border-left-width: 3px; border-radius: 4px; }
+.ag-root.ag-st .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-st .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-st .ag-section-head h2 { max-width: 30ch; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/statistics-tutoring-online#page","url":"https://learn.modernagecoders.com/statistics-tutoring-online","name":"Statistics Tutoring Online","description":"A guide for students and parents to high school statistics and probability outside AP, built from the Common Core statistics standards and a state pathway document, with original worked examples, a Python simulation and a practice set.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Statistics tutoring online","item":"https://learn.modernagecoders.com/statistics-tutoring-online"}]},{"@type":"Course","name":"Statistics Tutoring Online","description":"High school statistics and probability taught live online for grades 9 to 12, in a class of 15 to 20 or one to one, alongside the student's own school course.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/statistics-tutoring-online"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/statistics-tutoring-online"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/statistics-tutoring-online"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is taught in high school statistics?","acceptedAnswer":{"@type":"Answer","text":"Under the Common Core, high school statistics covers interpreting categorical and quantitative data, making inferences and justifying conclusions, and conditional probability, with expected value and decision-making for advanced courses. Plots, measures of center and spread, two-way tables, regression and simulation run through all of it."}},{"@type":"Question","name":"Is high school statistics the same as AP Statistics?","acceptedAnswer":{"@type":"Answer","text":"No. AP Statistics is a College Board course with its own exam. A non-AP statistics course or unit follows the state standards and the school's own tests, and is usually less formal about inference. We have a separate page for AP Statistics tutoring."}},{"@type":"Question","name":"Is statistics harder than algebra?","acceptedAnswer":{"@type":"Answer","text":"It is different rather than harder. Algebra usually has one correct answer, while statistics asks students to choose a method and justify a conclusion about messy data. Students who are strong at procedures sometimes find that shift uncomfortable at first."}},{"@type":"Question","name":"What is conditional probability in simple terms?","acceptedAnswer":{"@type":"Answer","text":"It is a probability worked out inside a smaller group. The Common Core defines the probability of A given B as P(A and B) divided by P(B): out of the outcomes where B happens, what fraction also have A. Reading a two-way table row by row is the easiest way to see it."}},{"@type":"Question","name":"Why does my child keep losing marks on interpretation questions?","acceptedAnswer":{"@type":"Answer","text":"Usually because the answer gives a number without context. A full interpretation names the variables, the units and the direction, for example that each extra hour goes with about 2.4 more points. We practise those sentences every lesson."}},{"@type":"Question","name":"Do high school statistics students need a graphing calculator?","acceptedAnswer":{"@type":"Answer","text":"That depends on the school. The Common Core expects technology for some tasks, such as computing a correlation coefficient and estimating areas under the normal curve with calculators, spreadsheets or tables. We also use short Python programs for simulation."}},{"@type":"Question","name":"Can you help with a statistics project for school?","acceptedAnswer":{"@type":"Answer","text":"We can teach the method: how to frame a question, collect data fairly, choose plots and write a conclusion. We do not collect data for the student, write the report or edit it for a grade. The work must be the student's own."}},{"@type":"Question","name":"Where can I find free high school statistics practice problems?","acceptedAnswer":{"@type":"Answer","text":"Our own practice set is on this page with answers. The student's textbook and school materials are the next place to look, since tests follow them. We do not reproduce state test items or publisher questions."}},{"@type":"Question","name":"When are your statistics classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are you connected with the Common Core or any state?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders is an independent online school. We teach from the published standards and each student's school course, and we are not affiliated with any state, district or publisher."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/statistics-tutoring-online","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-st">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#standards">What is taught</a></li>
+      <li><a href="#hard">Hard ideas</a></li>
+      <li><a href="#worked">Worked examples</a></li>
+      <li><a href="#practice">Practice</a></li>
+      <li><a href="#ladder">Where it appears</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Statistics tutoring online
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; High school math &middot; Statistics and probability</p>
+        <h1>Statistics tutoring online for high school</h1>
+        <p class="ag-lede">Plenty of high school students meet statistics outside the AP track: a semester elective, a unit inside Integrated Math, the data chapters of Algebra 1 and 2, or an introductory statistics course. The arithmetic is rarely the problem. The trouble is the reasoning: why the median beats the mean on skewed data, which way round a conditional probability goes, and what a margin of error actually promises. This page lays out what the Common Core asks for, then works through it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#standards" class="ag-btn ag-btn--ghost">See the four domains</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20taking%20high%20school%20statistics%20(not%20AP)%20and%20needs%20help.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'st'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live math teaching since 2020 &middot; 10,000+ students &middot; grades 9 to 12</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Level</dt><dd>High school, non-AP</dd>
+          <dt>Standards</dt><dd>Common Core S-ID, S-IC, S-CP, S-MD</dd>
+          <dt>Core ideas</dt><dd>Variability, randomness, conditional probability</dd>
+          <dt>Tools</dt><dd>Plots, two-way tables, simulation</dd>
+          <dt>Formats</dt><dd>Batch of 15 to 20, or 1-on-1</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>High school statistics outside AP follows the Common Core Statistics and Probability category: interpreting categorical and quantitative data (S-ID), making inferences and justifying conclusions (S-IC), conditional probability (S-CP) and, for advanced courses, using probability to make decisions (S-MD). Modern Age Coders teaches it live online, in a batch of 15 to 20 or 1-on-1, through our Statistics and Probability course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Statistics courses</p>
+      <h2>Three courses for high school statistics</h2>
+      <p class="ag-lede">The statistics course matches a school semester; the other two serve students heading for the AP exam or toward data work.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/statistics-probability-maths-course">
+        <div class="ag-pick-shot"><img src="/images/statistics-probability-maths.webp" alt="Statistics &amp; Probability course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ST / 01</p>
+          <h3>Statistics and probability</h3>
+          <p>Data, probability and inference at high school level.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-statistics-maths-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-statistics.webp" alt="AP Statistics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ST / 02</p>
+          <h3>AP Statistics</h3>
+          <p>For students who move on to the AP course.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/data-analytics-mathematics-masterclass">
+        <div class="ag-pick-shot"><img src="/images/data-analytics-maths.webp" alt="Maths for Data Science course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">ST / 03</p>
+          <h3>Math for data science</h3>
+          <p>Statistics put to work with real data sets.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="standards">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What is taught</p><h2>What does high school statistics cover under the Common Core?</h2><p class="ag-lede">Four domains sit in the Common Core's Statistics and Probability category. Most non-AP courses teach the first three in full and dip into the fourth.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common Core high school Statistics and Probability domains and their clusters (thecorestandards.org, Math/Content/HSS, read 31 October 2026)</caption><thead><tr><th scope="col">Domain</th><th scope="col">Code</th><th scope="col">Clusters, in the standards' own headings</th></tr></thead><tbody><tr><td>Interpreting Categorical and Quantitative Data</td><td>S-ID</td><td>Summarize, represent, and interpret data on a single count or measurement variable; on two categorical and quantitative variables; interpret linear models</td></tr><tr><td>Making Inferences and Justifying Conclusions</td><td>S-IC</td><td>Understand and evaluate random processes underlying statistical experiments; make inferences and justify conclusions from sample surveys, experiments and observational studies</td></tr><tr><td>Conditional Probability and the Rules of Probability</td><td>S-CP</td><td>Understand independence and conditional probability and use them to interpret data; use the rules of probability to compute probabilities of compound events in a uniform probability model</td></tr><tr><td>Using Probability to Make Decisions</td><td>S-MD</td><td>Calculate expected values and use them to solve problems; use probability to evaluate outcomes of decisions (all standards marked (+))</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.thecorestandards.org/Math/Content/HSS/" rel="noopener" target="_blank">Common Core High School Statistics and Probability</a> and its domain pages for <a class="ag-inline-link" href="https://www.thecorestandards.org/Math/Content/HSS/ID/" rel="noopener" target="_blank">S-ID</a>, <a class="ag-inline-link" href="https://www.thecorestandards.org/Math/Content/HSS/IC/" rel="noopener" target="_blank">S-IC</a>, <a class="ag-inline-link" href="https://www.thecorestandards.org/Math/Content/HSS/CP/" rel="noopener" target="_blank">S-CP</a> and <a class="ag-inline-link" href="https://www.thecorestandards.org/Math/Content/HSS/MD/" rel="noopener" target="_blank">S-MD</a>.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the (+) sign means</h3><p>The Common Core mathematics document marks with (+) the "Additional mathematics that students should learn in order to take advanced courses such as calculus, advanced statistics, or discrete mathematics."</p>
+<p>It adds that "All standards without a (+) symbol should be in the common mathematics curriculum for all college and career ready students." So S-ID, S-IC and most of S-CP are meant for everyone, while expected value and the general Multiplication Rule are extras that a statistics elective often includes.</p></div><div><h3>Why the subject feels different from algebra</h3><p>The Common Core introduction puts it plainly: decisions would be easy "if the data always sent a clear message, but the message is often obscured by variability." Statistics, it says, "provides tools for describing variability in data and for making informed decisions that take it into account."</p>
+<p>Algebra rewards one right answer. Statistics rewards a justified judgment: which plot, which measure of center, how much to trust a sample. That shift is where most of our tutoring time goes.</p></div></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Shape, center, spread</h3><p>The introduction describes distributions as "symmetric, skewed, flat, or bell shaped" and pairs mean with standard deviation, median with interquartile range.</p></div><div><h3>Randomness as a tool</h3><p>Random samples support conclusions about a population; random assignment supports a fair comparison of treatments.</p></div><div><h3>Probability models</h3><p>A model is "a list or description of the possible outcomes (the sample space)", each given a probability.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="hard">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Hard ideas</p><h2>Which parts of high school statistics do students find hardest?</h2><p class="ag-lede">In our teaching, four ideas cause most of the lost marks: choosing a summary, reading conditional probability, the logic of randomization, and correlation. Each has a precise line in the standards.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Four sticking points, the standard that names each, and the habit we build (standard text from thecorestandards.org; the habit column is ours)</caption><thead><tr><th scope="col">Sticking point</th><th scope="col">Standard</th><th scope="col">What the standard says</th><th scope="col">Habit we build</th></tr></thead><tbody><tr><td>Mean or median?</td><td>S-ID.A.2, A.3</td><td>Use statistics appropriate to the shape of the data; account for possible effects of extreme data points (outliers)</td><td>Plot first, then pick the summary</td></tr><tr><td>Which way is the condition?</td><td>S-CP.A.3, A.5</td><td>Conditional probability of A given B as P(A and B)/P(B); explain it in everyday language</td><td>Say "out of the ones that..." aloud before dividing</td></tr><tr><td>Why randomize?</td><td>S-IC.B.3</td><td>Recognize the purposes of and differences among sample surveys, experiments, and observational studies; explain how randomization relates to each</td><td>Name the study type before any conclusion</td></tr><tr><td>Correlation is not proof</td><td>S-ID.C.9</td><td>Distinguish between correlation and causation</td><td>Ask what else could explain the pattern</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Randomization does two separate jobs</h3><p>The standards say "Randomization has two important uses in drawing statistical conclusions." A random sample makes it possible to draw valid conclusions about a whole population; random assignment "allows a fair comparison of the effectiveness of those treatments."</p>
+<p>Students often blur the two. A survey of randomly chosen students can describe the school but cannot show cause; a randomized experiment can suggest cause but only for the people like those in it.</p></div><div><h3>Significance, in plain words</h3><p>The Common Core defines it in one sentence: "A statistically significant outcome is one that is unlikely to be due to chance alone, and this can be evaluated only under the condition of randomness."</p>
+<p>At this level, students judge significance with simulation rather than formulas. S-IC.B.5 asks them to "use simulations to decide if differences between parameters are significant", which is why our lessons lean on short Python simulations.</p></div></div>
+    <p class="ag-mt-40">The last S-IC standard is the one that lasts longest after school ends: "Evaluate reports based on data." The introduction asks students, when reading statistics in the news, "to consider the study design, how the data were gathered, and the analyses employed as well as the data summaries and the conclusions drawn." We finish most units with a short report, written by us, for students to take apart.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="worked">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked examples</p><h2>How do you read a two-way table and a box plot correctly?</h2><p class="ag-lede">Five examples we wrote ourselves, one per sticking point plus an expected value. None is taken from a textbook, a state test or a released item.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our two-way table: 200 students surveyed on a part-time job and weekly study time (invented data)</caption><thead><tr><th scope="col"></th><th scope="col">Studies more than 5 hours</th><th scope="col">Studies 5 hours or less</th><th scope="col">Total</th></tr></thead><tbody><tr><td>Has a part-time job</td><td class="ag-num">24</td><td class="ag-num">56</td><td class="ag-num">80</td></tr><tr><td>No part-time job</td><td class="ag-num">54</td><td class="ag-num">66</td><td class="ag-num">120</td></tr><tr><td>Total</td><td class="ag-num">78</td><td class="ag-num">122</td><td class="ag-num">200</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Reading the table (ours)</caption><thead><tr><th scope="col">Question</th><th scope="col">Working</th><th scope="col">Answer</th></tr></thead><tbody><tr><td>P(studies more than 5 hours, given a job)</td><td>Restrict to the job row: 24 out of 80</td><td>0.30</td></tr><tr><td>P(studies more than 5 hours, given no job)</td><td>Restrict to the no-job row: 54 out of 120</td><td>0.45</td></tr><tr><td>P(has a job, given studies more than 5 hours)</td><td>Restrict to the first column: 24 out of 78</td><td>about 0.31</td></tr><tr><td>Are job and long study independent?</td><td>P(job) x P(long study) = 0.40 x 0.39 = 0.156, but P(both) = 24/200 = 0.12</td><td>No, the product rule fails</td></tr><tr><td>Does a job cause less study?</td><td>This is an observational survey, not an experiment</td><td>Not shown; only an association</td></tr></tbody></table></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Our outlier example: minutes of homework one week, eight students: 12, 15, 15, 18, 20, 22, 25, 90</caption><thead><tr><th scope="col">Step</th><th scope="col">Working</th><th scope="col">Result</th></tr></thead><tbody><tr><td>Mean</td><td>217 divided by 8</td><td>27.125 minutes</td></tr><tr><td>Median</td><td>Average of the 4th and 5th values, 18 and 20</td><td>19 minutes</td></tr><tr><td>Quartiles</td><td>Q1 = median of 12, 15, 15, 18; Q3 = median of 20, 22, 25, 90</td><td>Q1 = 15, Q3 = 23.5</td></tr><tr><td>IQR and fence</td><td>IQR = 8.5; upper fence = 23.5 + 1.5 x 8.5</td><td>36.25, so 90 is an outlier</td></tr><tr><td>Choice of summary</td><td>One value drags the mean above seven of the eight students</td><td>Report median and IQR</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>margin_of_error_sim.py (our example)</b><span>Python 3</span></figcaption><pre>import random
+
+# A sample of 100 students: 58 said yes. How far might a sample proportion wander?
+p_hat, n, trials = 0.58, 100, 10000
+results = []
+for _ in range(trials):
+    yes = sum(1 for _ in range(n) if random.random() &lt; p_hat)
+    results.append(yes / n)
+
+results.sort()
+low, high = results[int(0.025 * trials)], results[int(0.975 * trials)]
+print(f"middle 95% of simulated proportions: {low:.2f} to {high:.2f}")
+print(f"margin of error is about {(high - low) / 2:.2f}")   # close to 0.10</pre><p class="ag-code-note">Our simulation for S-IC.B.4, which asks students to "develop a margin of error through the use of simulation models for random sampling." Each run differs slightly; the margin comes out near 0.10, so a fair report is "about 48% to 68% say yes".</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Two more of ours: a fitted line, and an expected value</caption><thead><tr><th scope="col">Problem</th><th scope="col">Reasoning</th><th scope="col">Result</th></tr></thead><tbody><tr><td>A line fitted to quiz score against hours studied is y = 2.4x + 31, with r = 0.62. Interpret it.</td><td>Slope: each extra hour goes with about 2.4 more points. Intercept: the model predicts 31 at zero hours. r = 0.62 is a moderate positive linear association.</td><td>Association, not proof that studying caused the gain</td></tr><tr><td>A spinner awards 0 points half the time, 2 points a third of the time and 6 points a sixth of the time. What is the expected score per spin?</td><td>0 x 1/2 + 2 x 1/3 + 6 x 1/6 = 0 + 2/3 + 1</td><td>5/3, about 1.67 points</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice</p><h2>Original high school statistics practice problems with answers</h2><p class="ag-lede">Twelve short problems we wrote across the four domains, then a plan for supporting a one-semester school course.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>High school statistics practice written by us, answers in the last column</caption><thead><tr><th scope="col">#</th><th scope="col">Domain</th><th scope="col">Problem</th><th scope="col">Answer</th></tr></thead><tbody><tr><td>1</td><td>S-ID</td><td>Data: 3, 4, 4, 5, 9. Find the mean and the median.</td><td>Mean 5, median 4</td></tr><tr><td>2</td><td>S-ID</td><td>Which plot shows the five-number summary directly?</td><td>A box plot</td></tr><tr><td>3</td><td>S-ID</td><td>A data set is strongly right-skewed. Which measure of center fits better?</td><td>The median</td></tr><tr><td>4</td><td>S-ID</td><td>Heights are roughly normal with mean 160 cm and standard deviation 8 cm. About what percent lie between 152 and 168?</td><td>About 68%</td></tr><tr><td>5</td><td>S-ID</td><td>Is r = -0.9 weaker than r = 0.5?</td><td>No, it is stronger (negative)</td></tr><tr><td>6</td><td>S-IC</td><td>A gym asks its own members whether exercise matters. What is the problem?</td><td>The sample is not random; it is biased</td></tr><tr><td>7</td><td>S-IC</td><td>Volunteers choose whether to try a new study app. Survey, experiment or observational study?</td><td>Observational study</td></tr><tr><td>8</td><td>S-IC</td><td>A spinning coin lands tails 5 times in a row. Under a fair model, how likely is that?</td><td>1/32, about 0.03</td></tr><tr><td>9</td><td>S-CP</td><td>Number cube: P(even or greater than 4)?</td><td>4/6 = 2/3</td></tr><tr><td>10</td><td>S-CP</td><td>P(A) = 0.5, P(B) = 0.4, P(A and B) = 0.2. Independent?</td><td>Yes, 0.5 x 0.4 = 0.2</td></tr><tr><td>11</td><td>S-CP</td><td>P(A and B) = 0.12 and P(B) = 0.3. Find P(A given B).</td><td>0.4</td></tr><tr><td>12</td><td>S-MD</td><td>A fair number cube scores its face value. Expected score?</td><td>3.5</td></tr></tbody></table></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Weeks 1 and 2: one-variable data.</b> Dot plots, histograms and box plots by hand, then the choice between mean with standard deviation and median with IQR.</li><li><b>Weeks 3 and 4: two variables.</b> Two-way tables with joint, marginal and conditional relative frequencies; scatter plots and the meaning of slope and intercept.</li><li><b>Week 5: correlation.</b> Computing r with technology and practising one sentence that separates association from cause.</li><li><b>Weeks 6 and 7: study design.</b> Surveys, experiments and observational studies; bias; simulating a margin of error.</li><li><b>Weeks 8 and 9: probability rules.</b> Sample spaces, the Addition Rule, independence and conditional probability from tables.</li><li><b>Week 10 onward: matching the school calendar.</b> Normal-curve estimates, expected value if the course includes it, and review before each school test.</li></ol>
+    <p class="ag-mt-40">This plan is ours and follows the order of the Common Core domains; the teacher reorders it to fit the student's school textbook and test dates. We never complete graded homework or school projects for a student. We teach the method, and the student does the work.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where statistics appears</p>
+      <h2>Where does statistics show up before and beyond AP?</h2>
+      <p class="ag-lede">One state's published pathway shows how statistics threads through every year. Utah's graduation pathways chart, from the Utah State Board of Education in 2021, is the example here.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Statistics in the Utah high school mathematics pathways (Utah State Board of Education, Graduation Pathways PDF, 2021)</caption><thead><tr><th scope="col">Course or stage</th><th scope="col">Statistics content Utah lists</th></tr></thead><tbody><tr><td>Secondary Math I</td><td class="ag-num">Descriptive Statistics</td></tr><tr><td>Secondary Math II</td><td class="ag-num">Conditional Probability</td></tr><tr><td>Secondary Math III</td><td class="ag-num">Data Collection and Analysis</td></tr><tr><td>Alternative selection (after Secondary Math II)</td><td class="ag-num">Introductory Statistics</td></tr><tr><td>College mathematics credit (after Secondary Math III)</td><td class="ag-num">A college Statistics course, or AP Statistics</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The caution Utah adds</h3><p>Utah says its alternative courses, Introductory Statistics among them, "meet graduation requirements but are not sufficient to meet post-secondary requirements."</p>
+<p>Families choosing a statistics elective should check whether it is meant as preparation for college math, or as an interest course.</p></div><div><h3>What a college statistics course covers</h3><p>Utah's concurrent enrollment flyer describes its Statistics course as one that "Covers descriptive and statistical methods used to understand data", recommended for majors such as nursing, psychology and the social sciences.</p>
+<p>Other states name and sequence their courses differently, so check your own district's course guide.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Math courses around high school statistics</h2>
+      <p class="ag-lede">Courses for the algebra statistics leans on, for the AP route, and for students who want to use data in code.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">The algebra underneath</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ST / F / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Linear models start here.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ST / F / 02</p>
+          <h4>High school math</h4>
+          <p>Grades 9 to 12 in sequence.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ST / F / 03</p>
+          <h4>Middle school math</h4>
+          <p>Grade 6 to 8 data and probability.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Statistics</h3>
+        <span class="ag-band-sub">School and exam level</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ST / S / 01</p>
+          <h4>Statistics and probability</h4>
+          <p>The non-AP course.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ST / S / 02</p>
+          <h4>AP Statistics</h4>
+          <p>Course and exam.</p>
+          <a class="ag-course-link" href="/courses/ap-statistics-maths-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ST / S / 03</p>
+          <h4>SAT math</h4>
+          <p>Data questions included.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Data in practice</h3>
+        <span class="ag-band-sub">Beyond the classroom</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">ST / D / 01</p>
+          <h4>Math for data science</h4>
+          <p>Statistics with real data.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ST / D / 02</p>
+          <h4>Math through coding</h4>
+          <p>Simulation in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">ST / D / 03</p>
+          <h4>College math</h4>
+          <p>After high school.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Statistics lessons that keep pace with the school course</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, timed to the unit in class.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer sessions with a data set to explore.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Built around the student's own textbook.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Plot before computing</h3><p>Every data question starts with a picture.</p></div>
+      <div><h3>Sentences, not just numbers</h3><p>Interpretations written in context.</p></div>
+      <div><h3>Simulation in Python</h3><p>Randomness students can watch.</p></div>
+      <div><h3>Tables read aloud</h3><p>Conditional probability said in words.</p></div>
+      <div><h3>Reports to critique</h3><p>Our own news-style claims to test.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty, or just one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work from our students</h2>
+      <p class="ag-lede">Some students go on to chart their own data in code. See more on <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Statistics classes are billed monthly in US dollars, with no long contract. The first class costs nothing, so a student can try a lesson before a parent decides.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring the current unit or worksheet</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A class of 15 to 20</li><li>The same teacher each week</li><li>Pick your batch time</li><li>Billed monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One teacher, one student</li><li>Matched to the school syllabus</li><li>Times that suit you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What families and students have written about us on Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions students ask</p>
+      <h2>High school statistics: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What is taught in high school statistics?</h3>
+        <p>Under the Common Core, high school statistics covers interpreting categorical and quantitative data, making inferences and justifying conclusions, and conditional probability, with expected value and decision-making for advanced courses. Plots, measures of center and spread, two-way tables, regression and simulation run through all of it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is high school statistics the same as AP Statistics?</h3>
+        <p>No. AP Statistics is a College Board course with its own exam. A non-AP statistics course or unit follows the state standards and the school's own tests, and is usually less formal about inference. We have a separate page for AP Statistics tutoring.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is statistics harder than algebra?</h3>
+        <p>It is different rather than harder. Algebra usually has one correct answer, while statistics asks students to choose a method and justify a conclusion about messy data. Students who are strong at procedures sometimes find that shift uncomfortable at first.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is conditional probability in simple terms?</h3>
+        <p>It is a probability worked out inside a smaller group. The Common Core defines the probability of A given B as P(A and B) divided by P(B): out of the outcomes where B happens, what fraction also have A. Reading a two-way table row by row is the easiest way to see it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why does my child keep losing marks on interpretation questions?</h3>
+        <p>Usually because the answer gives a number without context. A full interpretation names the variables, the units and the direction, for example that each extra hour goes with about 2.4 more points. We practise those sentences every lesson.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do high school statistics students need a graphing calculator?</h3>
+        <p>That depends on the school. The Common Core expects technology for some tasks, such as computing a correlation coefficient and estimating areas under the normal curve with calculators, spreadsheets or tables. We also use short Python programs for simulation.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you help with a statistics project for school?</h3>
+        <p>We can teach the method: how to frame a question, collect data fairly, choose plots and write a conclusion. We do not collect data for the student, write the report or edit it for a grade. The work must be the student's own.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where can I find free high school statistics practice problems?</h3>
+        <p>Our own practice set is on this page with answers. The student's textbook and school materials are the next place to look, since tests follow them. We do not reproduce state test items or publisher questions.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your statistics classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with the Common Core or any state?</h3>
+        <p>No. Modern Age Coders is an independent online school. We teach from the published standards and each student's school course, and we are not affiliated with any state, district or publisher.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">Other math help for high school students and families.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/ap-statistics-tutoring-online">AP Statistics tutoring</a></h3><p>For students on the AP route.</p></div>
+      <div><h3><a class="ag-inline-link" href="/algebra-2-tutoring-online">Algebra 2 tutoring</a></h3><p>Functions and data models together.</p></div>
+      <div><h3><a class="ag-inline-link" href="/common-core-math-tutor">Common Core math tutor</a></h3><p>The standards behind school math.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-10th-grade">Tenth grade math</a></h3><p>A year when statistics units appear.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-for-data-science">Python for data science</a></h3><p>Statistics carried into code.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-cost">Math tutor cost</a></h3><p>How tutoring is usually priced.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us the course name, the unit your child is on and the date of the next test. The teacher starts with one plot and one two-way table to see how your child reasons.</p>
+        <p class="ag-mt-40">Read <a class="ag-inline-link" href="/how-we-teach">how our classes work</a>, or browse <a class="ag-inline-link" href="/courses">all our courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20taking%20high%20school%20statistics%20(not%20AP)%20and%20needs%20help.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'st',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers teach live from India, with after-school slots across US time zones from Eastern to Pacific. A WhatsApp message is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_st(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free and asks for no payment details.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>High school math</h4><ul><li><a href="/ap-statistics-tutoring-online">AP Statistics</a></li><li><a href="/algebra-2-tutoring-online">Algebra 2</a></li><li><a href="/precalculus-tutoring-online">Precalculus</a></li><li><a href="/online-math-tutor-cost">Math tutor cost</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Our US pages</a></li><li><a href="/common-core-math-tutor">Common Core math</a></li><li><a href="/online-math-tutor-11th-grade">Grade 11 math</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>P(A | B) = P(A and B) / P(B)</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_st = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'statistics-tutoring-online-inline', meta: { name: name, age: age, page: 'statistics-tutoring-online' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>

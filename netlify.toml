@@ -28873,6 +28873,18 @@
   to = "/src/pages/ocr-fsmq-additional-maths-6993-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/statistics-tutoring-online"
+  to = "/src/pages/statistics-tutoring-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/statistics-tutoring-online.md"
+  to = "/src/pages/statistics-tutoring-online.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

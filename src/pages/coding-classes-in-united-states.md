@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Statistics tutoring online](/statistics-tutoring-online)
 - [NC Math 1 EOC prep](/nc-math-1-eoc-prep)
 - [NC EOG math practice](/nc-eog-math-practice)
 - [Illinois IAR math practice](/illinois-iar-math-practice)

@@ -359,7 +359,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US028 | njgpa-math-prep (njx, #7E634B) | state tests | 4,177 | 1.2% vs mcas-math-prep | exam door | original worked example | 2351b663 |
 | US030 | illinois-iar-math-practice (iip, #93504F) | state tests | 4,067 | 1.6% vs njsla-math-practice | exam door | original worked example | 1ca23a67 |
 | US032 | nc-eog-math-practice (nep, #5F613C) | state tests | 4,211 | 1.2% vs nys-math-test-prep-grades-3-8 | exam door | original worked example | 0309523c |
-| US033 | nc-math-1-eoc-prep (ne, #74588B) | state tests | 4,180 | 1.3% vs algebra-1-eoc-prep | exam door | original worked example | (this commit) |
+| US033 | nc-math-1-eoc-prep (ne, #74588B) | state tests | 4,180 | 1.3% vs algebra-1-eoc-prep | exam door | original worked example | f0c2b44c |
+| US003 | statistics-tutoring-online (st, #3B6C75) | hs course sequence | 3,859 | 1.4% vs trigonometry-tutoring-online | exam door | original worked example | (this commit) |
 
 ## Skipped
 
