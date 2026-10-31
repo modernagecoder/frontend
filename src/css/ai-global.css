@@ -1167,3 +1167,4 @@
 .ag-root.ag-gab { --ag-accent: #464A7E; --ag-accent-soft: rgba(70,74,126,.09); }   /* Year 3 maths: a slate indigo (#464A7E, 7.8:1 on #FBF8F2), cooler and greyer than the KS1 violet and well apart from the Year 5 olive */
 .ag-root.ag-gac { --ag-accent: #286248; --ag-accent-soft: rgba(40,98,72,.09); }   /* Year 4 maths: a deep fir green (#286248, 6.76:1 on #FBF8F2), bluer than the Year 5 olive so the two primary years read apart */
 .ag-root.ag-gae { --ag-accent: #603C40; --ag-accent-soft: rgba(96,60,64,.09); }   /* Year 6 maths: a dark claret brown (#603C40, 8.93:1 on #FBF8F2), warmer than the secondary blues and distinct from the green primary years */
+.ag-root.ag-gaf { --ag-accent: #573F66; --ag-accent-soft: rgba(87,63,102,.09); }   /* Year 7 maths: a dusk plum (#573F66, 8.58:1 on #FBF8F2), redder than the KS1 violet and well apart from the Year 8 navy */

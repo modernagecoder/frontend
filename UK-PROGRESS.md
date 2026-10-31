@@ -662,7 +662,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK011 | year-5-maths-tutor-online (gad, #435A40) | Primary (England) | 4,071 | 2% vs ks1-maths-tuition-online | exam door | original worked example | 83ffcc2b |
 | UK009 | year-3-maths-tutor-online (gab, #464A7E) | Primary (England) | 4,634 | 2.2% vs ks1-maths-tuition-online | exam door | original worked example | f4d700cb |
 | UK010 | year-4-maths-tutor-online (gac, #286248) | Primary (England) | 4,158 | 2.1% vs year-3-maths-tutor-online | exam door | original worked example | 30a02689 |
-| UK012 | year-6-maths-tutor-online (gae, #603C40) | Primary (England) | 4,102 | 2% vs year-3-maths-tutor-online | exam door | original worked example | (this commit) |
+| UK012 | year-6-maths-tutor-online (gae, #603C40) | Primary (England) | 4,102 | 2% vs year-3-maths-tutor-online | exam door | original worked example | 21992854 |
+| UK013 | year-7-maths-tutor-online (gaf, #573F66) | Secondary (England) | 3,944 | 1.8% vs year-3-maths-tutor-online | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
