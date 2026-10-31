@@ -660,6 +660,7 @@ const SLUGS = [
   'national-5-applications-of-maths-help',
   'transfer-test-maths-tuition-belfast',
   'btec-it-programming-unit-help',
+  'epq-computer-science-artefact-mentoring',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1399,6 +1400,7 @@ const LLMS_LABELS = {
   'national-5-applications-of-maths-help': 'National 5 Applications of Maths help',
   'transfer-test-maths-tuition-belfast': 'Transfer test maths tuition Belfast',
   'btec-it-programming-unit-help': 'BTEC IT programming unit help',
+  'epq-computer-science-artefact-mentoring': 'EPQ computer science artefact mentoring',
 };
 
 function wireLlms(slugs) {

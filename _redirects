@@ -8622,4 +8622,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /btec-it-programming-unit-help /src/pages/btec-it-programming-unit-help.html 200
 /btec-it-programming-unit-help.md /src/pages/btec-it-programming-unit-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/epq-computer-science-artefact-mentoring /src/pages/epq-computer-science-artefact-mentoring.html 200
+/epq-computer-science-artefact-mentoring.md /src/pages/epq-computer-science-artefact-mentoring.md 200
 /* /src/pages/404.html 404
