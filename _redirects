@@ -8750,4 +8750,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ib-maths-ai-sl-tutor-online /src/pages/ib-maths-ai-sl-tutor-online.html 200
 /ib-maths-ai-sl-tutor-online.md /src/pages/ib-maths-ai-sl-tutor-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ib-extended-essay-maths-computer-science-mentoring /src/pages/ib-extended-essay-maths-computer-science-mentoring.html 200
+/ib-extended-essay-maths-computer-science-mentoring.md /src/pages/ib-extended-essay-maths-computer-science-mentoring.md 200
 /* /src/pages/404.html 404

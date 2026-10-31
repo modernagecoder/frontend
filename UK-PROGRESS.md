@@ -695,7 +695,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK055 | 16-plus-sixth-form-entrance-maths (psf, #4F375D) | Selective entry | 4,000 | 1.9% vs gl-assessment-11-plus-maths-practice | exam door | original worked example | 473efede |
 | UK056 | ukiset-maths-reasoning-practice (urp, #714C52) | Selective entry | 4,009 | 1.7% vs cem-11-plus-maths-practice | exam door | original worked example | 6dc18fb7 |
 | UK062 | ib-myp-maths-tutor-online (im, #4C6951) | IB | 4,116 | 1.5% vs iseb-common-pre-test-maths-practice | exam door | original worked example | 666eb5bb |
-| UK064 | ib-maths-ai-sl-tutor-online (ias, #006036) | IB | 3,776 | 1.3% vs ib-maths-ia-guidance | exam door | original worked example | (this commit) |
+| UK064 | ib-maths-ai-sl-tutor-online (ias, #006036) | IB | 3,776 | 1.3% vs ib-maths-ia-guidance | exam door | original worked example | 84466861 |
+| UK066 | ib-extended-essay-maths-computer-science-mentoring (iee, #5E588E) | IB | 3,931 | 1.7% vs ib-myp-maths-tutor-online | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

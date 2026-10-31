@@ -692,6 +692,7 @@ const SLUGS = [
   'after-hour-of-code-next-steps',
   'ib-myp-maths-tutor-online',
   'ib-maths-ai-sl-tutor-online',
+  'ib-extended-essay-maths-computer-science-mentoring',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1463,6 +1464,7 @@ const LLMS_LABELS = {
   'after-hour-of-code-next-steps': 'After the Hour of Code',
   'ib-myp-maths-tutor-online': 'IB MYP maths tutor online',
   'ib-maths-ai-sl-tutor-online': 'IB Maths AI SL tutor online',
+  'ib-extended-essay-maths-computer-science-mentoring': 'IB Extended Essay in maths or computer science',
 };
 
 function wireLlms(slugs) {
