@@ -8382,4 +8382,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /preact-math-prep /src/pages/preact-math-prep.html 200
 /preact-math-prep.md /src/pages/preact-math-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/gl-assessment-11-plus-maths-practice /src/pages/gl-assessment-11-plus-maths-practice.html 200
+/gl-assessment-11-plus-maths-practice.md /src/pages/gl-assessment-11-plus-maths-practice.md 200
 /* /src/pages/404.html 404

@@ -27529,6 +27529,18 @@
   to = "/src/pages/preact-math-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/gl-assessment-11-plus-maths-practice"
+  to = "/src/pages/gl-assessment-11-plus-maths-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/gl-assessment-11-plus-maths-practice.md"
+  to = "/src/pages/gl-assessment-11-plus-maths-practice.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

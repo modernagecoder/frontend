@@ -600,6 +600,7 @@ const SLUGS = [
   'psat-math-prep',
   'psat-8-9-math-prep',
   'preact-math-prep',
+  'gl-assessment-11-plus-maths-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1279,6 +1280,7 @@ const LLMS_LABELS = {
   'psat-math-prep': 'PSAT math prep',
   'psat-8-9-math-prep': 'PSAT 8/9 and PSAT 10 math prep',
   'preact-math-prep': 'PreACT math prep',
+  'gl-assessment-11-plus-maths-practice': 'GL Assessment 11 plus maths practice',
 };
 
 function wireLlms(slugs) {
