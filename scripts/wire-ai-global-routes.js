@@ -609,6 +609,7 @@ const SLUGS = [
   'cambridge-igcse-maths-0580-help',
   'cambridge-igcse-additional-maths-0606-help',
   'edexcel-international-gcse-maths-a-4ma1-help',
+  'edexcel-igcse-further-pure-maths-4pm1-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1297,6 +1298,7 @@ const LLMS_LABELS = {
   'cambridge-igcse-maths-0580-help': 'Cambridge IGCSE Maths 0580 help',
   'cambridge-igcse-additional-maths-0606-help': 'IGCSE Additional Maths 0606 help',
   'edexcel-international-gcse-maths-a-4ma1-help': 'Edexcel International GCSE Maths A 4MA1 help',
+  'edexcel-igcse-further-pure-maths-4pm1-help': 'Edexcel IGCSE Further Pure Maths 4PM1 help',
 };
 
 function wireLlms(slugs) {

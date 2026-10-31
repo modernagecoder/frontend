@@ -16152,4 +16152,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/edexcel-igcse-further-pure-maths-4pm1-help</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>
