@@ -918,6 +918,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Continental Math League preparation: https://learn.modernagecoders.com/continental-math-league-preparation
 - Art of Problem Solving alternative: https://learn.modernagecoders.com/art-of-problem-solving-alternative
 - FIRST LEGO League coding help: https://learn.modernagecoders.com/first-lego-league-coding-help-usa
+- FTC programming help: https://learn.modernagecoders.com/ftc-programming-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FTC Programming Help: Java and Blocks for BIOBUZZ 2026-27</title>
+  <meta name="description" content="FTC programming help for 2026-27 BIOBUZZ: Blocks, OnBot Java or Android Studio, SDK v12.0, OpModes, autonomous rules and a worked Java TeleOp lesson.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ftc-programming-help">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ftc-programming-help.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#8E5C35">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ftc-programming-help">
+  <meta property="og:title" content="FTC Programming Help: Java and Blocks for BIOBUZZ 2026-27">
+  <meta property="og:description" content="How to program a FIRST Tech Challenge robot this season: the three official tools, what an OpMode is, the 30-second AUTO rules, and a joystick-shaping lesson in real FTC Java.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FTC Programming Help: Java and Blocks for BIOBUZZ 2026-27">
+  <meta name="twitter:description" content="FTC robot coding for BIOBUZZ: tools, OpModes and a Java lesson.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-fp .ag-hero h1 { letter-spacing: -0.02em; }
+.ag-root.ag-fp .ag-capsule { border-left-width: 4px; border-radius: 8px; }
+.ag-root.ag-fp .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-fp .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-fp .ag-steps li { line-height: 1.62; }
+.ag-root.ag-fp .ag-slots { gap: 0.9rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ftc-programming-help#page","url":"https://learn.modernagecoders.com/ftc-programming-help","name":"FTC Programming Help","description":"A guide for US high school and middle school students, parents and coaches to programming a FIRST Tech Challenge robot in the 2026 to 2027 BIOBUZZ season, from the competition manual, the FTC docs and the official SDK, with an original Java OpMode and practice problems.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"FTC programming help","item":"https://learn.modernagecoders.com/ftc-programming-help"}]},{"@type":"Course","name":"FTC Programming Help","description":"Live online Java classes for FIRST Tech Challenge students in grades 7 to 12 that teach the programming behind an FTC robot: classes and methods, loops, conditions, sensors and clean OpMode structure, in a batch of 15 to 20 or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ftc-programming-help"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ftc-programming-help"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ftc-programming-help"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What programming language does FTC use?","acceptedAnswer":{"@type":"Answer","text":"FTC robots are programmed in Blocks, a visual tool, or in Java, either in the browser with OnBot Java or in Android Studio. The FTC docs also cover Kotlin as an advanced option. Java is the text language most teams use."}},{"@type":"Question","name":"Should a rookie FTC team start with Blocks or Java?","acceptedAnswer":{"@type":"Answer","text":"FIRST's Blocks tutorial recommends starting with Blocks, even for experienced programmers, because it is the quickest way to get a robot moving. Teams usually move to OnBot Java or Android Studio when their code grows."}},{"@type":"Question","name":"What is the current FTC SDK version?","acceptedAnswer":{"@type":"Answer","text":"The FtcRobotController repository lists v12.0 as the official release for the 2026/2027 season, published September 12, 2026. Building it in Android Studio needs Narwhal 3 Feature Drop or later."}},{"@type":"Question","name":"How long is autonomous in FTC 2026-2027?","acceptedAnswer":{"@type":"Answer","text":"The 2026-2027 Competition Manual gives a 30-second AUTO period, then an 8-second transition, then a 2-minute TELEOP period. During AUTO the drive team may not touch the robot or the Driver Station, apart from start, stop and safety."}},{"@type":"Question","name":"What is an OpMode?","acceptedAnswer":{"@type":"Answer","text":"An OpMode is one program the robot can run, chosen on the Driver Station. Teams write TeleOp OpModes for driver control and Autonomous OpModes for the first 30 seconds, usually by extending LinearOpMode."}},{"@type":"Question","name":"Does an FTC team need an autonomous program?","acceptedAnswer":{"@type":"Answer","text":"Rule G305 requires every team to select and initialize an OpMode before each match. The manual suggests that teams without an AUTO OpMode create a default one from the BasicOpMode sample and auto-load their TeleOp."}},{"@type":"Question","name":"How many motors can an FTC robot have?","acceptedAnswer":{"@type":"Answer","text":"Rule R503 in the 2026-2027 manual limits a robot to a total of 8 motors and 8 servos across all the mechanisms it uses. Only motors on the manual's allowed list count as legal."}},{"@type":"Question","name":"How much can a mentor help with FTC code?","acceptedAnswer":{"@type":"Answer","text":"The manual answers the question of mentor involvement with \"However much is needed to inspire the youth on the team.\" We teach programming ideas on our own example robots, and the student writes the team's code."}},{"@type":"Question","name":"What is the FTC Control Award?","acceptedAnswer":{"@type":"Answer","text":"It recognizes a team that uses sensors and software creatively to solve game challenges. The team needs a portfolio summarizing its control components, and at least one solution must use external feedback; the full code does not have to be included."}},{"@type":"Question","name":"When are your lessons?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are you part of FIRST?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders is an independent coding school, not connected with FIRST, FIRST Tech Challenge or REV Robotics. FIRST and FIRST Tech Challenge are FIRST's trademarks."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ftc-programming-help","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-fp">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#match">The match</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#opmode">OpModes</a></li>
+      <li><a href="#shaping">Java lesson</a></li>
+      <li><a href="#auto">Autonomous</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / FTC programming help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Grades 7 to 12 &middot; The 2026 to 2027 BIOBUZZ season</p>
+        <h1>FTC programming help: Java and Blocks for FIRST Tech Challenge</h1>
+        <p class="ag-lede">A FIRST Tech Challenge robot runs two kinds of program in every match: one that drives itself for the first 30 seconds, and one that turns a driver&rsquo;s joystick into motor power for the next two minutes. This guide reads the 2026 to 2027 BIOBUZZ competition manual, the official FTC docs and the current SDK release, then teaches a piece of real FTC Java most new programmers never think about: shaping the joystick so a driver can make small, precise moves without losing top speed.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#shaping" class="ag-btn ag-btn--ghost">See the Java lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20on%20a%20FIRST%20Tech%20Challenge%20team%20in%20the%20US%20and%20wants%20help%20programming%20the%20robot%20in%20Java.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'fp'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; students write their team&rsquo;s code</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Season</dt><dd>BIOBUZZ presented by RTX</dd>
+          <dt>Grades</dt><dd>7 to 12 (ages 12 to 18)</dd>
+          <dt>AUTO period</dt><dd>30 seconds</dd>
+          <dt>TELEOP period</dt><dd>2 minutes</dd>
+          <dt>SDK</dt><dd>v12.0, released September 12, 2026</dd>
+          <dt>Tools</dt><dd>Blocks, OnBot Java, Android Studio</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>FTC programming means writing the OpModes that run a FIRST Tech Challenge robot, in Blocks, OnBot Java or Java in Android Studio, using FIRST&rsquo;s SDK, now v12.0 for 2026 to 2027. Each BIOBUZZ match has a 30-second autonomous period and a 2-minute driver period. Modern Age Coders teaches the Java behind it live online, in a batch or 1-on-1, in our Java for Teens course.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn with a teacher</p>
+      <h2>Courses for FTC programmers</h2>
+      <p class="ag-lede">Java first, because FTC text code is Java, then the logic and math a robot depends on.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FP / 01</p>
+          <h3>Java for teens</h3>
+          <p>Classes, methods, loops and conditions: the language of FTC text code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FP / 02</p>
+          <h3>Python for teens</h3>
+          <p>A gentler first text language for a grade 7 or 8 team member.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/maths-through-coding">
+        <div class="ag-pick-shot"><img src="/images/maths-through-coding.webp" alt="Maths Through Coding course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FP / 03</p>
+          <h3>Math through coding</h3>
+          <p>Functions, curves and angles, written as code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="match">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 2026 to 2027 match</p><h2>How is a 2026 to 2027 FTC match structured?</h2><p class="ag-lede">Each BIOBUZZ match has a 30-second autonomous period, an 8-second transition and a 2-minute driver-controlled period. Two alliances of two teams each play, so a robot&rsquo;s code also has to work alongside a partner robot it has never seen before.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The match as the 2026 to 2027 FIRST Tech Challenge Competition Manual (version TU07) describes it, read 31 October 2026</caption><thead><tr><th scope="col">Part</th><th scope="col">Length</th><th scope="col">Who is in control</th><th scope="col">What the code does</th></tr></thead><tbody><tr><td>Pre-match</td><td>Before the timer</td><td>Drive team sets up</td><td>An OpMode is selected and initialized on the Driver Station (rule G305)</td></tr><tr><td>AUTO</td><td>30 seconds</td><td>The robot alone</td><td>Runs only its pre-programmed instructions; drivers may not touch it or the console (G401)</td></tr><tr><td>Transition</td><td>8 seconds</td><td>Nobody</td><td>Teams switch from the AUTO OpMode to the TELEOP one</td></tr><tr><td>TELEOP</td><td>2 minutes</td><td>Two human drivers</td><td>Turns gamepad input into motor and servo commands</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The BIOBUZZ game in one paragraph</h3><p>The manual describes two alliances collecting POLLEN and NECTAR, launching them into their HIVE and placing them into FLOWERS. Robots can use sensors in AUTO to collect and navigate; in the last 60 seconds of the match, all remaining NECTAR can be entered.</p>
+<p>We describe the game only at that level. The full scoring rules belong to FIRST, and every team should read the current manual, which changes through team updates during the season.</p></div><div><h3>Who takes part</h3><p>FIRST lists FIRST Tech Challenge for grades 7 to 12, ages 12 to 18, with a new game released every September. In North America a team is competition ready only after registering, paying, and having two Lead Coaches pass Youth Protection Program screening, under rule I101.</p>
+<p>For a grade 7 or 8 student coming from FIRST LEGO League, which ends after its 2026 to 2027 season, FTC is the FIRST program that carries on for grades 7 to 12, so it is a natural next step.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: the <a class="ag-inline-link" href="https://ftc-resources.firstinspires.org/ftc/game/manual" rel="noopener" target="_blank">2026-2027 FIRST Tech Challenge Competition Manual</a> (version TU07) and the <a class="ag-inline-link" href="https://www.firstinspires.org/programs/ftc" rel="noopener" target="_blank">FIRST Tech Challenge program page</a>, read 31 October 2026. FIRST, FIRST Tech Challenge and BIOBUZZ are trademarks of their owners. We are not connected with FIRST.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="tools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Tools</p><h2>Should an FTC team program in Blocks or Java?</h2><p class="ag-lede">The FTC docs offer three official ways to program: Blocks, OnBot Java and Android Studio. FIRST&rsquo;s own Blocks tutorial recommends starting with Blocks, even for experienced programmers, and most teams move to Java once code grows.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The three programming tools in the FTC docs (ftc-docs.firstinspires.org, read 31 October 2026)</caption><thead><tr><th scope="col">Tool</th><th scope="col">What it is</th><th scope="col">Who it suits (our view)</th></tr></thead><tbody><tr><td>Blocks</td><td>A visual tool in a web browser, served by the Robot Controller app</td><td>New teams, younger members, and anyone testing hardware quickly</td></tr><tr><td>OnBot Java</td><td>Text-based Java in a web browser, also served by the Robot Controller app</td><td>Members with basic to advanced Java who want text code without installing an IDE</td></tr><tr><td>Android Studio</td><td>A full Java development environment on a laptop, building the Robot Controller app from the SDK source</td><td>Experienced programmers who want libraries, version control and debugging tools</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The SDK this season</h3><p>The FtcRobotController repository on GitHub lists v12.0 as the official release for the 2026/2027 season, published on September 12, 2026. Building it in Android Studio needs Android Studio Narwhal 3 Feature Drop or later.</p>
+<p>The FTC docs explain that the Kickoff SDK release is typically the minimum software version required for the season, so teams update their Robot Controller and Driver Station apps early and check the release notes for breaking changes.</p></div><div><h3>Kotlin, libraries and vision</h3><p>The docs also cover Kotlin as an advanced topic and external libraries in OnBot Java and Blocks. Vision is its own section: AprilTags, color processing and on-board vision sensors.</p>
+<p>None of that is needed to start. A student who writes clean Java classes and methods can learn any of it later, which is why our lessons build the language first and the robot extras second.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://ftc-docs.firstinspires.org/en/latest/programming_resources/index.html" rel="noopener" target="_blank">FTC docs: Programming Resources</a>, the <a class="ag-inline-link" href="https://ftc-docs.firstinspires.org/en/latest/ftc_sdk/overview/index.html" rel="noopener" target="_blank">SDK overview</a>, and the <a class="ag-inline-link" href="https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases" rel="noopener" target="_blank">FtcRobotController releases</a>, read 31 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="opmode">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">OpModes</p><h2>What is an OpMode in FTC programming?</h2><p class="ag-lede">An OpMode is one program the robot can run, chosen on the Driver Station. A team usually has at least one autonomous OpMode and one TeleOp OpMode, and the manual requires a team to select and initialize an OpMode before every match.</p></div>
+    <ol class="ag-steps"><li><b>Annotate the class.</b> <code>@TeleOp</code> or <code>@Autonomous</code> puts the OpMode on the Driver Station list, as the docs&rsquo; first OnBot Java example shows.</li><li><b>Extend LinearOpMode.</b> The class extends <code>LinearOpMode</code> and puts its work in <code>runOpMode()</code>, which runs from top to bottom.</li><li><b>Map the hardware.</b> <code>hardwareMap.get(DcMotor.class, "name")</code> finds each device by the name given in the robot configuration. A spelling mismatch here is the first bug most teams meet.</li><li><b>Wait for the start.</b> <code>waitForStart()</code> pauses until the driver presses PLAY, so nothing moves during setup.</li><li><b>Loop while active.</b> <code>while (opModeIsActive())</code> repeats until STOP, reading sensors and gamepads and setting motor power each time.</li><li><b>Report with telemetry.</b> <code>telemetry.addData</code> then <code>telemetry.update()</code> prints values on the Driver Station, the quickest way to see what the code believes.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>A rule that catches new teams</h3><p>Rule G305 says every team must select and INIT an OpMode before the match, and if it is an AUTO OpMode the 30-second timer must be enabled. A team with no autonomous program is not excused.</p>
+<p>The manual&rsquo;s own advice for such teams is to create a default AUTO OpMode from the BasicOpMode sample and use auto-loading to queue up the TeleOp OpMode. That is a sensible first coding task for a rookie.</p></div><div><h3>Why telemetry first</h3><p>Students often want to write a whole autonomous routine at once. We start with a program that only prints sensor and encoder values, because a programmer who can see the numbers stops guessing.</p>
+<p>The docs&rsquo; own sensor tutorial works the same way: its example prints a distance reading in centimeters and whether a touch sensor is pressed, so the student sees the sensor before trusting it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="shaping">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java lesson</p><h2>How do you make FTC driving smoother in Java?</h2><p class="ag-lede">Pass each joystick value through a shaping function before setting motor power. A blend of a cube and a straight line, plus a small deadband, gives drivers fine control near the center of the stick and full power at the edge.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>ShapedTankDrive.java (our teaching OpMode)</b><span>Java</span></figcaption><pre>package org.firstinspires.ftc.teamcode;
+
+import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+import com.qualcomm.robotcore.hardware.DcMotor;
+
+// Our teaching OpMode: tank drive with a shaped joystick response.
+@TeleOp(name = "Shaped Tank Drive (practice)", group = "Practice")
+public class ShapedTankDrive extends LinearOpMode {
+
+    static final double DEADBAND = 0.05; // ignore tiny stick drift
+    static final double BLEND = 0.7;     // 0 = straight line, 1 = pure cube
+
+    private DcMotor leftDrive;
+    private DcMotor rightDrive;
+
+    double shape(double stick) {
+        if (Math.abs(stick) &lt; DEADBAND) return 0.0;
+        return BLEND * stick * stick * stick + (1 - BLEND) * stick;
+    }
+
+    @Override
+    public void runOpMode() {
+        leftDrive = hardwareMap.get(DcMotor.class, "left_drive");
+        rightDrive = hardwareMap.get(DcMotor.class, "right_drive");
+        leftDrive.setDirection(DcMotor.Direction.REVERSE);
+
+        telemetry.addData("Status", "Initialized");
+        telemetry.update();
+        waitForStart();
+
+        while (opModeIsActive()) {
+            double leftStick = -gamepad1.left_stick_y;  // pushing up reads negative
+            double rightStick = -gamepad1.right_stick_y;
+            leftDrive.setPower(shape(leftStick));
+            rightDrive.setPower(shape(rightStick));
+            telemetry.addData("Left stick to power", "%.2f to %.2f", leftStick, shape(leftStick));
+            telemetry.update();
+        }
+    }
+}</pre><p class="ag-code-note">Our own program for practice. It uses only calls shown in the FTC docs and the official SDK samples: LinearOpMode, hardwareMap.get, setDirection, waitForStart, opModeIsActive, gamepad stick values, setPower and telemetry. Rename the motors to match your robot configuration.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Motor power for each stick position under three mappings (our calculation, blend 0.7, deadband 0.05)</caption><thead><tr><th scope="col">Stick pushed</th><th scope="col">Straight line</th><th scope="col">Pure cube</th><th scope="col">Our blend</th></tr></thead><tbody><tr><td class="ag-num">0.04</td><td class="ag-num">0.04</td><td class="ag-num">0.0001</td><td class="ag-num">0 (inside the deadband)</td></tr><tr><td class="ag-num">0.10</td><td class="ag-num">0.10</td><td class="ag-num">0.001</td><td class="ag-num">0.0307</td></tr><tr><td class="ag-num">0.25</td><td class="ag-num">0.25</td><td class="ag-num">0.0156</td><td class="ag-num">0.0859</td></tr><tr><td class="ag-num">0.50</td><td class="ag-num">0.50</td><td class="ag-num">0.125</td><td class="ag-num">0.2375</td></tr><tr><td class="ag-num">0.75</td><td class="ag-num">0.75</td><td class="ag-num">0.4219</td><td class="ag-num">0.5203</td></tr><tr><td class="ag-num">1.00</td><td class="ag-num">1.00</td><td class="ag-num">1.00</td><td class="ag-num">1.00</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the numbers show</h3><p>With a straight line, the gentlest quarter of the motor&rsquo;s power uses only the first quarter of stick travel. With our blend, a quarter of full power needs about 51 percent of the stick, so roughly half of the stick&rsquo;s movement is spent on slow, careful moves.</p>
+<p>Top speed is untouched: a stick pushed all the way still gives full power. That is the whole trick, more control where it is needed and no loss where it is not.</p></div><div><h3>Why not pure cube?</h3><p>A pure cube makes the middle of the stick very weak: half stick is only 12.5 percent power, and many robots will not even move at that. The straight-line part of the blend keeps the robot responsive.</p>
+<p>The deadband solves a different problem. Gamepad sticks rarely rest at exactly zero, and without it a robot can creep while the driver is not touching anything.</p></div></div>
+    <p class="ag-mt-40"><b>Worked example (ours).</b> A driver pushes the stick to 0.6. The cube part is 0.6 times 0.6 times 0.6, which is 0.216, and 0.7 of that is 0.1512. The straight part is 0.3 times 0.6, which is 0.18. Added together the motor gets 0.3312 power, a little over a third, where a straight-line mapping would have given 0.6. Students check this by running the OpMode and reading the telemetry line, which prints the stick value and the power side by side.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="auto">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Autonomous</p><h2>How should an FTC autonomous program be written?</h2><p class="ag-lede">Build autonomous from short, checked steps, each with a timeout, and use sensor or encoder feedback rather than timing alone. That is also what FIRST&rsquo;s Control Award asks for: hardware or software that uses external feedback to control the robot.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Always give a step a way out</h3><p>The official encoder sample, RobotAutoDriveByEncoder_Linear, loops only while the OpMode is active, the elapsed time is under a timeout and the motors are still busy. If a wheel slips or an arm jams, the step gives up instead of freezing the whole 30 seconds.</p>
+<p>We teach that pattern as a habit: every loop in an autonomous program names the condition that ends it and a time limit that ends it anyway.</p></div><div><h3>Limits the code must respect</h3><p>Rule R503 limits a robot to 8 motors and 8 servos across every mechanism it uses. Rule R701 requires one robot controller, a REV Control Hub or an Android phone with a REV Expansion Hub, and the manual calls the Control Hub the only officially supported controller.</p>
+<p>During AUTO, rule G401 bars the drive team from touching the robot or the console, except to press start, press stop, or for safety. Whatever the program does, it does alone.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>What the 2026 to 2027 Control Award asks of a team&rsquo;s software, summarized from the competition manual (section 6.3.7)</caption><thead><tr><th scope="col">Criterion</th><th scope="col">Status in the manual</th><th scope="col">In plain words</th></tr></thead><tbody><tr><td>Portfolio summary</td><td>Required</td><td>Describe the control components, the problem each solves and what each does; the full code does not have to be included</td></tr><tr><td>External feedback</td><td>Required</td><td>Use one or more hardware or software solutions that use feedback, such as sensors, to control the robot</td></tr><tr><td>Consistency</td><td>Encouraged</td><td>The solution should work during most matches, though not necessarily every time</td></tr><tr><td>Reliability explained</td><td>Encouraged</td><td>Show it working, or explain how it could be improved</td></tr><tr><td>What was learned</td><td>Encouraged</td><td>Describe the engineering process behind the control solution</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: the 2026-2027 Competition Manual (sections 6.3.7, 11 and 12) and the official <a class="ag-inline-link" href="https://github.com/FIRST-Tech-Challenge/FtcRobotController" rel="noopener" target="_blank">FtcRobotController samples</a>, read 31 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice set</p><h2>FTC Java practice problems</h2><p class="ag-lede">Five original problems, written by us, for a student who has met Java classes and loops. Answers come with reasoning; none uses BIOBUZZ scoring.</p></div>
+    <ol class="ag-steps"><li><b>Sign flip.</b> Why does the teaching OpMode write <code>-gamepad1.left_stick_y</code>? <i>Answer:</i> the official tank sample negates the stick value too, and our comment gives the reason: pushing the stick up reads as negative. Negating it makes "push up" mean "drive forward".</li><li><b>Shaping by hand.</b> With our blend of 0.7, what power does a stick at 0.2 give? <i>Answer:</i> 0.2 cubed is 0.008, times 0.7 is 0.0056; 0.3 times 0.2 is 0.06; the total is 0.0656.</li><li><b>Deadband.</b> A stick resting at 0.03 makes the robot creep. Which line of our code stops it, and what power results? <i>Answer:</i> the deadband check, because 0.03 is under 0.05, so <code>shape</code> returns 0.0.</li><li><b>A missing timeout.</b> An autonomous loop runs <code>while (opModeIsActive() &amp;&amp; leftDrive.isBusy())</code>. What goes wrong if the wheel is blocked? <i>Answer:</i> the motor never reaches its target, so it stays busy and the loop runs until AUTO ends. Adding an elapsed-time check, as the official sample does, lets the step give up.</li><li><b>Counting motors.</b> A design uses four drive motors, two intake motors and one launcher motor, plus a second launcher motor on a swap-in mechanism. Is it legal under R503? <i>Answer:</i> that is eight motors across all mechanisms, which is exactly the limit, so yes; a ninth would not be.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we teach with them</h3><p>A student predicts the answer, works it out on paper, then runs the code on a robot or in a simulator and compares. The gap between prediction and result is where the lesson lives.</p>
+<p>FIRST also lists FTC SIM among its season resources, which helps a student without a robot at home try ideas between team meetings.</p></div><div><h3>What stays with the team</h3><p>We teach Java and robot programming ideas on our own example robots. We do not write a team&rsquo;s OpModes, fix its competition code for it or plan its BIOBUZZ strategy.</p>
+<p>The manual describes the right level of mentor involvement as whatever is needed to inspire the youth on the team. Our part is to make the student a stronger programmer who then works on the team&rsquo;s code.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A season plan</p><h2>A ten-week Java plan for a new FTC programmer</h2><p class="ag-lede">Our plan for a student joining a team as its programmer, taking one live lesson a week with us alongside team meetings. It assumes no Java at the start.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Ten weeks from first Java to a working autonomous step (our plan)</caption><thead><tr><th scope="col">Week</th><th scope="col">Java with us</th><th scope="col">Try at the team meeting</th></tr></thead><tbody><tr><td>1</td><td>Variables, types and printing</td><td>Telemetry that prints a stick value</td></tr><tr><td>2</td><td>Conditions</td><td>A button that changes drive speed</td></tr><tr><td>3</td><td>Loops</td><td>Understand the opModeIsActive loop</td></tr><tr><td>4</td><td>Methods with return values</td><td>Write a shaping method</td></tr><tr><td>5</td><td>Classes and fields</td><td>Move hardware setup into its own class</td></tr><tr><td>6</td><td>Constants and tuning</td><td>Tune the deadband and blend with drivers</td></tr><tr><td>7</td><td>Encoders and units</td><td>Print wheel positions while pushing the robot</td></tr><tr><td>8</td><td>Timeouts and states</td><td>One autonomous step that can give up</td></tr><tr><td>9</td><td>Reading sensors</td><td>Stop on a distance reading</td></tr><tr><td>10</td><td>Explaining code</td><td>Write the portfolio summary of one control solution</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Starting from Blocks</h3><p>A team already using Blocks does not have to switch at once. The ideas transfer: a loop is a loop and a condition is a condition, whatever the tool.</p>
+<p>We often teach a student to rebuild one of their Blocks programs in OnBot Java, line by line, so the new language is attached to logic they already understand.</p></div><div><h3>After the season</h3><p>FTC Java is real Java. Classes, methods and loops learned on a robot carry straight into AP Computer Science A, which also uses Java.</p>
+<p>Our <a class="ag-inline-link" href="/ap-computer-science-a-practice-questions">AP Computer Science A practice questions</a> are a good test of how much has transferred.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Readiness</p>
+      <h2>Four stages of an FTC programmer</h2>
+      <p class="ag-lede">Teams often have one student who can make the robot move and nobody who can make it reliable. These are the stages between, as we see them.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From first OpMode to control engineer (our stages)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the student can do</th></tr></thead><tbody><tr><td>1. Driver code</td><td class="ag-num">Writes a TeleOp that maps sticks to motors</td></tr><tr><td>2. Shaped control</td><td class="ag-num">Adds deadbands, shaping and speed modes that drivers ask for</td></tr><tr><td>3. Feedback</td><td class="ag-num">Uses encoders and sensors, with timeouts, in autonomous steps</td></tr><tr><td>4. Structure</td><td class="ag-num">Splits code into classes others on the team can read and change</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents and coaches</h3><p>Ask your student to show the telemetry while the robot runs. If they can explain each number, they understand their code.</p>
+<p>A team with one programmer has a single point of failure. Teaching a second student the basics is often the most useful thing a season can do.</p></div><div><h3>For students</h3><p>Commit or copy working code before every change. Robot bugs often appear only on the field, and going back fast matters.</p>
+<p>Name every constant. <code>DEADBAND</code> is easier to tune at an event than a bare 0.05 buried in a line.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for high school and middle school coders</h2>
+      <p class="ag-lede">Taught live online by one teacher who stays with the student, in a class or privately.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Java and its foundations</h3>
+        <span class="ag-band-sub">Grades 7 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FP / JV / 01</p>
+          <h4>Java for teens</h4>
+          <p>The FTC text language.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FP / JV / 02</p>
+          <h4>Python for teens</h4>
+          <p>A first text language.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FP / JV / 03</p>
+          <h4>Math through coding</h4>
+          <p>Curves and angles in code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Smarter robots</h3>
+        <span class="ag-band-sub">Sensors, vision and data</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FP / SM / 01</p>
+          <h4>AI and machine learning</h4>
+          <p>How vision models decide.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FP / SM / 02</p>
+          <h4>C++ basics</h4>
+          <p>Another robot language.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FP / SM / 03</p>
+          <h4>Problem solving</h4>
+          <p>Breaking tasks into steps.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Projects and contests</h3>
+        <span class="ag-band-sub">Beyond the field</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FP / PR / 01</p>
+          <h4>Game development</h4>
+          <p>Loops with instant feedback.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FP / PR / 02</p>
+          <h4>Hackathon prep</h4>
+          <p>Build and pitch fast.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FP / PR / 03</p>
+          <h4>Python and AI for kids</h4>
+          <p>For younger team members.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Java lessons that fit a robotics season</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, between build nights.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A morning lesson before a league meet.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Built around one student&rsquo;s role and code.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Real FTC Java</h3><p>Only calls from the docs and samples.</p></div>
+      <div><h3>Our example robots</h3><p>Never the team&rsquo;s competition code.</p></div>
+      <div><h3>Telemetry first</h3><p>See the numbers, then decide.</p></div>
+      <div><h3>Blocks to Java</h3><p>Rebuild what the student already knows.</p></div>
+      <div><h3>Every US time zone</h3><p>Live online, coast to coast.</p></div>
+      <div><h3>Group size</h3><p>Fifteen to twenty per batch, or one student.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Built by our students</h2>
+      <p class="ag-lede">Apps, games and AI projects from our learners. More are in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Team registration, parts and event entry are paid to FIRST and to suppliers; our fee covers Java and programming lessons only. We bill by the month, so lessons can run through league meets and stop after the last event.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A short Java and logic check</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>One regular teacher</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A private Java teacher</li><li>Paced around your meets</li><li>Blocks, OnBot Java or Android Studio</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents, in their own words.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from FTC families and coaches</p>
+      <h2>FTC programming: what people ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What programming language does FTC use?</h3>
+        <p>FTC robots are programmed in Blocks, a visual tool, or in Java, either in the browser with OnBot Java or in Android Studio. The FTC docs also cover Kotlin as an advanced option. Java is the text language most teams use.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should a rookie FTC team start with Blocks or Java?</h3>
+        <p>FIRST's Blocks tutorial recommends starting with Blocks, even for experienced programmers, because it is the quickest way to get a robot moving. Teams usually move to OnBot Java or Android Studio when their code grows.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the current FTC SDK version?</h3>
+        <p>The FtcRobotController repository lists v12.0 as the official release for the 2026/2027 season, published September 12, 2026. Building it in Android Studio needs Narwhal 3 Feature Drop or later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is autonomous in FTC 2026-2027?</h3>
+        <p>The 2026-2027 Competition Manual gives a 30-second AUTO period, then an 8-second transition, then a 2-minute TELEOP period. During AUTO the drive team may not touch the robot or the Driver Station, apart from start, stop and safety.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is an OpMode?</h3>
+        <p>An OpMode is one program the robot can run, chosen on the Driver Station. Teams write TeleOp OpModes for driver control and Autonomous OpModes for the first 30 seconds, usually by extending LinearOpMode.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does an FTC team need an autonomous program?</h3>
+        <p>Rule G305 requires every team to select and initialize an OpMode before each match. The manual suggests that teams without an AUTO OpMode create a default one from the BasicOpMode sample and auto-load their TeleOp.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many motors can an FTC robot have?</h3>
+        <p>Rule R503 in the 2026-2027 manual limits a robot to a total of 8 motors and 8 servos across all the mechanisms it uses. Only motors on the manual's allowed list count as legal.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How much can a mentor help with FTC code?</h3>
+        <p>The manual answers the question of mentor involvement with "However much is needed to inspire the youth on the team." We teach programming ideas on our own example robots, and the student writes the team's code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the FTC Control Award?</h3>
+        <p>It recognizes a team that uses sensors and software creatively to solve game challenges. The team needs a portfolio summarizing its control components, and at least one solution must use external feedback; the full code does not have to be included.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your lessons?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you part of FIRST?</h3>
+        <p>No. Modern Age Coders is an independent coding school, not connected with FIRST, FIRST Tech Challenge or REV Robotics. FIRST and FIRST Tech Challenge are FIRST's trademarks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>More for teen coders and builders</h2>
+      <p class="ag-lede">Other contests, Java next steps and robot programs.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-competitions-for-middle-school-students">Middle school coding contests</a></h3><p>For grade 7 and 8 students weighing FTC against other contests.</p></div>
+      <div><h3><a class="ag-inline-link" href="/vex-iq-programming-help">VEX IQ programming help</a></h3><p>Coded runs on a different robot system.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-competitions-for-high-school-students">High school coding competitions</a></h3><p>Contests where the code runs on a screen, not a field.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-a-practice-questions">AP CSA practice questions</a></h3><p>Where FTC Java pays off in school.</p></div>
+      <div><h3><a class="ag-inline-link" href="/us-coding-math-and-ai-competitions-calendar">US competitions calendar</a></h3><p>Coding, math and AI contest dates this year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-high-school-students">Coding for high schoolers</a></h3><p>Courses beyond the robot.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us your child&rsquo;s grade, whether their team uses Blocks, OnBot Java or Android Studio, and how much Java they know. The teacher sets a short logic task and suggests where to begin.</p>
+        <p class="ag-mt-40">Want to know how we teach first? Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or see <a class="ag-inline-link" href="/courses">all our courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20on%20a%20FIRST%20Tech%20Challenge%20team%20in%20the%20US%20and%20wants%20help%20programming%20the%20robot%20in%20Java.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'fp',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are in India and teach live by video at US after-school and weekend hours. WhatsApp is usually the fastest way to get a reply.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_fp(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson costs nothing, and we never ask for a card to book it.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Robots and contests</h4><ul><li><a href="/coding-competitions-for-middle-school-students">Middle school contests</a></li><li><a href="/vex-iq-programming-help">VEX IQ programming</a></li><li><a href="/coding-competitions-for-high-school-students">High school contests</a></li><li><a href="/us-coding-math-and-ai-competitions-calendar">Competitions calendar</a></li></ul></div>
+      <div><h4>Java and beyond</h4><ul><li><a href="/ap-computer-science-a-practice-questions">AP CSA practice</a></li><li><a href="/is-ap-computer-science-hard">Is AP CS hard?</a></li><li><a href="/coding-classes-for-high-school-students">High school coding</a></li><li><a href="/coding-classes-in-united-states">All US pages</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Shape the stick, keep the speed</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_fp = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'ftc-programming-help-inline', meta: { name: name, age: age, page: 'ftc-programming-help' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>

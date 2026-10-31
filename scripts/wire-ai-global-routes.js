@@ -686,6 +686,7 @@ const SLUGS = [
   'continental-math-league-preparation',
   'art-of-problem-solving-alternative',
   'first-lego-league-coding-help-usa',
+  'ftc-programming-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1451,6 +1452,7 @@ const LLMS_LABELS = {
   'continental-math-league-preparation': 'Continental Math League preparation',
   'art-of-problem-solving-alternative': 'Art of Problem Solving alternative',
   'first-lego-league-coding-help-usa': 'FIRST LEGO League coding help',
+  'ftc-programming-help': 'FTC programming help',
 };
 
 function wireLlms(slugs) {

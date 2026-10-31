@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [FTC programming help](/ftc-programming-help)
 - [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
 - [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
 - [Continental Math League preparation](/continental-math-league-preparation)
