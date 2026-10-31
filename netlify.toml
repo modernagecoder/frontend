@@ -28549,6 +28549,18 @@
   to = "/src/pages/art-of-problem-solving-alternative.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/first-lego-league-coding-help-usa"
+  to = "/src/pages/first-lego-league-coding-help-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/first-lego-league-coding-help-usa.md"
+  to = "/src/pages/first-lego-league-coding-help-usa.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

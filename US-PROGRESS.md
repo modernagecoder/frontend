@@ -349,7 +349,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US065 | moems-math-olympiad-preparation (mop, #216E45) | math competitions | 4,426 | 1.3% vs girls-who-code-next-step | exam door | original worked example | 80493e6f |
 | US066 | noetic-math-contest-preparation (ncp, #8D4445) | math competitions | 4,638 | 1.5% vs nyc-gifted-and-talented-guide | exam door | original worked example | 237ba23a |
 | US068 | continental-math-league-preparation (clp, #5A6B2D) | math competitions | 4,411 | 1.3% vs noetic-math-contest-preparation | exam door | original worked example | 40a7bb71 |
-| US069 | art-of-problem-solving-alternative (aps, #82623A) | math competitions | 4,135 | 1.3% vs beast-academy-tutor | exam door | original worked example | (this commit) |
+| US069 | art-of-problem-solving-alternative (aps, #82623A) | math competitions | 4,135 | 1.3% vs beast-academy-tutor | exam door | original worked example | fb138b76 |
+| US070 | first-lego-league-coding-help-usa (fllc, #267260) | coding competitions | 4,873 | 1.7% vs vex-iq-programming-help | exam door | original worked example | (this commit) |
 
 ## Skipped
 

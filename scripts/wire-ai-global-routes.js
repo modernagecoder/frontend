@@ -685,6 +685,7 @@ const SLUGS = [
   'noetic-math-contest-preparation',
   'continental-math-league-preparation',
   'art-of-problem-solving-alternative',
+  'first-lego-league-coding-help-usa',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1449,6 +1450,7 @@ const LLMS_LABELS = {
   'noetic-math-contest-preparation': 'Noetic math contest preparation',
   'continental-math-league-preparation': 'Continental Math League preparation',
   'art-of-problem-solving-alternative': 'Art of Problem Solving alternative',
+  'first-lego-league-coding-help-usa': 'FIRST LEGO League coding help',
 };
 
 function wireLlms(slugs) {

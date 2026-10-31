@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FIRST LEGO League Coding Help USA: BIOGLOW 2026-27</title>
+  <meta name="description" content="FIRST LEGO League programming help for US teams in the final 2026-27 BIOGLOW season: robot game coding rules, precision tokens and what replaces FLL.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/first-lego-league-coding-help-usa">
+  <link rel="alternate" type="text/markdown" href="/src/pages/first-lego-league-coding-help-usa.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#267260">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/first-lego-league-coding-help-usa">
+  <meta property="og:title" content="FIRST LEGO League Coding Help USA: BIOGLOW 2026-27">
+  <meta property="og:description" content="BIOGLOW is the last FIRST LEGO League season. What the 2026-27 robot game rules say about code, why only your highest of three matches counts, and where US teams go in 2027.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FIRST LEGO League Coding Help USA: BIOGLOW 2026-27">
+  <meta name="twitter:description" content="FLL coding for the final season: rules, tokens and top-of-three planning.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-fllc .ag-hero h1 { letter-spacing: -0.016em; }
+.ag-root.ag-fllc .ag-capsule { border-left-width: 6px; border-radius: 4px; }
+.ag-root.ag-fllc .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-fllc .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-fllc .ag-steps li { line-height: 1.7; }
+.ag-root.ag-fllc .ag-slots { gap: 1.05rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/first-lego-league-coding-help-usa#page","url":"https://learn.modernagecoders.com/first-lego-league-coding-help-usa","name":"FIRST LEGO League Coding Help USA","description":"A guide for US students, parents and coaches to programming a FIRST LEGO League Challenge robot in the 2026 to 2027 BIOGLOW season, from the FIRST rulebook and season pages and the LEGO Education announcement, with an original top-of-three planning lesson in Python.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"FIRST LEGO League coding help","item":"https://learn.modernagecoders.com/first-lego-league-coding-help-usa"}]},{"@type":"Course","name":"FIRST LEGO League Coding Help USA","description":"Live online coding classes for FIRST LEGO League students aged about 9 to 14 that teach the programming behind an autonomous robot game run: sequences, sensors, functions and planning, in a batch of 15 to 20 or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/first-lego-league-coding-help-usa"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/first-lego-league-coding-help-usa"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/first-lego-league-coding-help-usa"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is 2026-2027 the last season of FIRST LEGO League?","acceptedAnswer":{"@type":"Answer","text":"Yes. FIRST says the 2026 to 2027 BIOGLOW season will be the final season of FIRST LEGO League, and LEGO Education says FIRST LEGO League comes to an end after BIOGLOW. The current season goes ahead as planned."}},{"@type":"Question","name":"What will replace FIRST LEGO League in 2027?","acceptedAnswer":{"@type":"Answer","text":"Two programs have been announced. FIRST is launching its own next generation of K to 8 programs for the 2027 to 2028 season, and LEGO Education is launching LEGO League in August 2027 for ages 5 to 16. Program details are still being published by both."}},{"@type":"Question","name":"What programming language can an FLL Challenge robot use?","acceptedAnswer":{"@type":"Answer","text":"Any. The BIOGLOW Robot Game Rulebook says teams can use any software or programming language, as long as the robot is autonomous outside home and no remote controller is used. Many teams use blocks, and some use Python."}},{"@type":"Question","name":"How long is a FIRST LEGO League robot game match?","acceptedAnswer":{"@type":"Answer","text":"Two and a half minutes. The rulebook defines a match as 2.5 minutes in which the robot autonomously completes as many missions as possible. Teams play three official matches and only the highest score counts."}},{"@type":"Question","name":"How many motors and sensors can an FLL robot have?","acceptedAnswer":{"@type":"Answer","text":"The BIOGLOW rulebook allows one controller and up to four motors in any one match. Sensors may be touch or force, color, distance or ultrasonic, and gyro, in any mix and number."}},{"@type":"Question","name":"What are precision tokens in FLL?","acceptedAnswer":{"@type":"Answer","text":"Each team starts a match with six precision tokens worth 50 points and loses one each time it interrupts the robot outside home. Five tokens are still worth 50, four are worth 35 and three are worth 25, so the first rescue costs nothing and the second costs 15 points."}},{"@type":"Question","name":"What ages can join FIRST LEGO League Challenge in the US?","acceptedAnswer":{"@type":"Answer","text":"The participation rules linked from the 2026 to 2027 materials say US and Canada participants must be between 9 and 14, on a team of two to ten children. FIRST lists Challenge for grades 4 to 8."}},{"@type":"Question","name":"Can a tutor or parent write our team's robot code?","acceptedAnswer":{"@type":"Answer","text":"No. The participation rules say all work presented at events is the work of the children on the team. We teach programming ideas on our own invented missions, and the children write their team's code."}},{"@type":"Question","name":"Can we still use SPIKE Prime after FLL ends?","acceptedAnswer":{"@type":"Answer","text":"For a while. FIRST plans to keep SPIKE Prime and Essential compatible with its new K to 8 programs through the 2028 to 2029 season, and LEGO League accepts SPIKE in 2027 to 2028 but requires Computer Science & AI kits from 2028 to 2029."}},{"@type":"Question","name":"When are your coding lessons?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are you part of FIRST or LEGO Education?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders is an independent coding school with no tie to FIRST, LEGO Education or the LEGO Group. FIRST LEGO League is a jointly held trademark of FIRST and the LEGO Group."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/first-lego-league-coding-help-usa","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-fllc">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#season">BIOGLOW</a></li>
+      <li><a href="#after">After 2027</a></li>
+      <li><a href="#rules">Coding rules</a></li>
+      <li><a href="#tokens">Tokens</a></li>
+      <li><a href="#bestof">Top of three</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / FIRST LEGO League coding help
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Ages 9 to 14 in Challenge &middot; The final season, 2026 to 2027</p>
+        <h1>FIRST LEGO League coding help for US teams</h1>
+        <p class="ag-lede">Every point a FIRST LEGO League Challenge robot scores comes from code the children on the team wrote and launched by hand from home. This guide reads the 2026 to 2027 BIOGLOW Robot Game Rulebook and FIRST&rsquo;s season pages for what they say about programming, then teaches the planning idea most teams miss: since only your highest of three matches counts, the steadiest run plan is not always the right one. It also explains what changes after this season, because BIOGLOW is the last FIRST LEGO League season of all.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#bestof" class="ag-btn ag-btn--ghost">See the top-of-three lesson</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20on%20a%20FIRST%20LEGO%20League%20team%20in%20the%20US%20and%20wants%20help%20with%20coding%20the%20robot.%20Could%20we%20book%20a%20free%20first%20lesson%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'fllc'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; the team&rsquo;s code stays the team&rsquo;s</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Season</dt><dd>BIOGLOW, 2026 to 2027</dd>
+          <dt>Status</dt><dd>The final FLL season</dd>
+          <dt>Match</dt><dd>2.5 minutes, autonomous</dd>
+          <dt>Official matches</dt><dd>Three, top score counts</dd>
+          <dt>Motors</dt><dd>Four at most per match</dd>
+          <dt>US ages</dt><dd>9 to 14 in Challenge</dd>
+          <dt>Classes</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first lesson</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>FIRST LEGO League coding help means learning to program the LEGO robot a team launches in the robot game. In the 2026 to 2027 BIOGLOW season, the final FIRST LEGO League season, a Challenge match lasts 2.5 minutes, the robot runs autonomously on the team&rsquo;s own code, and only the highest of three matches counts. Modern Age Coders teaches that coding live online, in a batch or 1-on-1.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learn with a teacher</p>
+      <h2>Courses for FIRST LEGO League coders</h2>
+      <p class="ag-lede">Blocks first, Python next, and the planning habits a robot game run depends on.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/kids-coding-blocks-masterclass">
+        <div class="ag-pick-shot"><img src="/images/kids-coding.webp" alt="Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FLLC / 01</p>
+          <h3>Coding for kids: blocks</h3>
+          <p>Ages about 9 to 12. Order, loops, events and conditions.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FLLC / 02</p>
+          <h3>Python for kids</h3>
+          <p>For team members ready to type their robot code.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-and-computational-thinking-for-kids">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-kids.webp" alt="Problem Solving and Computational Thinking for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">FLLC / 03</p>
+          <h3>Problem solving</h3>
+          <p>Splitting a mission into steps that can be tested.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="season">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The 2026 to 2027 season</p><h2>What is the 2026 to 2027 FIRST LEGO League season?</h2><p class="ag-lede">The 2026 to 2027 season is BIOGLOW, a biodiversity challenge released on August 4, 2026 as part of the FIRST CANOPY season. FIRST says it will be the final season of FIRST LEGO League, and it comes in two editions, Founders and Future, which use different LEGO Education hardware.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The BIOGLOW editions and divisions, as FIRST lists them (firstinspires.org, read 31 October 2026)</caption><thead><tr><th scope="col">Option</th><th scope="col">Grades</th><th scope="col">Hardware</th><th scope="col">What the team does</th></tr></thead><tbody><tr><td>Founders Edition: Explore</td><td>Grades 2 to 4 (ages 6 to 10)</td><td>LEGO Education SPIKE Essential</td><td>Design, code and discover solutions; no competitive robot game</td></tr><tr><td>Founders Edition: Challenge</td><td>Grades 4 to 8 (ages 9 to 16, varies by country)</td><td>LEGO Education SPIKE Prime</td><td>Program a robot to complete missions autonomously in two-and-a-half minute matches</td></tr><tr><td>Future Edition</td><td>Grades K to 2, and grades 3 to 8</td><td>LEGO Education Computer Science & AI kits</td><td>Build and code wireless hardware in an alliance-based game across the mat</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The four parts of Challenge</h3><p>FIRST&rsquo;s BIOGLOW season overview gives Challenge four equally weighted parts: Core Values, Innovation Project, Robot Design and Robot Game. Coding sits inside two of them. The robot game is the code running; robot design is where judges ask how the team built and programmed it.</p>
+<p>The same overview describes the BIOGLOW robot game as 15 biodiversity-inspired missions, and Challenge teams as groups of up to 10 children.</p></div><div><h3>Who can join in the US</h3><p>The Challenge participation rules linked from the 2026 to 2027 materials say US and Canada participants must not be younger than 9 or older than 14, and a competitive team has two to ten children.</p>
+<p>FIRST&rsquo;s June 17, 2026 registration post says US and Canada teams sign up through a refreshed FIRST Dashboard, and a group with both kinds of LEGO kit can register one team for each edition.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.firstinspires.org/programs/fll" rel="noopener" target="_blank">FIRST LEGO League program page</a>, the <a class="ag-inline-link" href="https://www.firstinspires.org/resources/library/fll/season-materials" rel="noopener" target="_blank">BIOGLOW season materials</a> (season overview and participation rules) and FIRST&rsquo;s community blog, read 31 October 2026. FIRST, FIRST LEGO League, BIOGLOW, LEGO and SPIKE are trademarks of their owners. We are not connected with FIRST or the LEGO Group.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="after">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">After this season</p><h2>What replaces FIRST LEGO League after 2026 to 2027?</h2><p class="ag-lede">Two programs are announced for 2027 to 2028, one from each former partner. FIRST is building its own next generation of K to 8 programs, and LEGO Education is launching a program called LEGO League in August 2027. Neither has published its full game yet, so a US team choosing between them should read both announcements.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The two successor programs, from each organization&rsquo;s own page (read 31 October 2026)</caption><thead><tr><th scope="col">Point</th><th scope="col">FIRST next-generation K to 8 programs</th><th scope="col">LEGO League (LEGO Education)</th></tr></thead><tbody><tr><td>First season</td><td>The 2027 to 2028 FIRST season</td><td>Launching August 2027, for the 2027 to 2028 season</td></tr><tr><td>Ages or grades</td><td>Kindergarten through grade 8</td><td>Ages 5 to 16, in bands of 5 to 7 (grades K to 2) and 8 to 16 (grades 3 to 8)</td></tr><tr><td>SPIKE kits</td><td>FIRST plans compatibility with SPIKE Prime and Essential through the 2028 to 2029 season</td><td>SPIKE and legacy hardware welcome in 2027 to 2028; from 2028 to 2029, Computer Science & AI kits required</td></tr><tr><td>Coding</td><td>Not yet announced</td><td>Blocks in the LEGO Education Coding Canvas, or Python</td></tr><tr><td>Names and details</td><td>New program names, game and hardware to be shared before 2027 to 2028</td><td>Registration expected between March and May of 2027</td></tr><tr><td>Relationship</td><td>FIRST says its new programs are not sponsored, endorsed or affiliated with LEGO Education or the LEGO Group</td><td>LEGO Education says BIOGLOW is the final season of its collaboration with FIRST</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What this means for a family now</h3><p>Nothing in the current season changes. FIRST says the 2026 to 2027 season goes ahead as planned, so a child on a Challenge team this year should simply enjoy the last BIOGLOW events and learn as much as they can.</p>
+<p>The coding a child learns this year carries into either successor. Both announcements describe team robotics with a themed game and a research project, and LEGO League names Python as its text option.</p></div><div><h3>One fact worth checking</h3><p>FIRST&rsquo;s K to 8 FAQ says SPIKE products retire June 30, 2026, and points to LEGO Education for details. A team buying kits for next year should look at both successors&rsquo; hardware rules first.</p>
+<p>For a student in grade 7 or above, FIRST Tech Challenge continues for grades 7 to 12, so moving up is another route. Our <a class="ag-inline-link" href="/coding-competitions-for-middle-school-students">middle school coding competitions guide</a> compares other options.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.firstinspires.org/programs/k-8" rel="noopener" target="_blank">FIRST K-8 Programs: 2027 and Beyond</a> (FAQ updated August 27, 2026) and <a class="ag-inline-link" href="https://education.lego.com/en-us/lego-league/program-update/" rel="noopener" target="_blank">LEGO Education: Introducing LEGO League</a>, both read 31 October 2026. Details may change as both organizations publish more.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="rules">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Coding rules</p><h2>What does the BIOGLOW rulebook say about programming the robot?</h2><p class="ag-lede">The rulebook asks for a robot that operates autonomously once launched and follows programming written by the team. Teams may use any software or programming language, but no remote control of any kind, and electric parts are limited.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Rules a robot programmer needs, from the FIRST LEGO League Challenge BIOGLOW Robot Game Rulebook (read 31 October 2026)</caption><thead><tr><th scope="col">Rule</th><th scope="col">What the rulebook says</th></tr></thead><tbody><tr><td>Match</td><td>A timed period of 2.5 minutes in which the robot autonomously completes as many missions as possible</td></tr><tr><td>Official matches</td><td>Three, and only the team&rsquo;s best score counts toward awards and advancement</td></tr><tr><td>Software</td><td>Any software or programming language</td></tr><tr><td>Control</td><td>Autonomous outside home; no remote controllers of any type</td></tr><tr><td>Electric parts</td><td>One controller, up to four motors in any mix, and only touch or force, color, distance or ultrasonic, and gyro sensors</td></tr><tr><td>Program notes</td><td>One sheet of notebook paper per home area, not counted as equipment</td></tr><tr><td>Launch</td><td>The robot and anything it is about to move must fit completely inside the launch area</td></tr><tr><td>Inspection bonus</td><td>20 points if all equipment fits in one launch area under 12 in. (305 mm)</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Read the words exactly</h3><p>The rulebook warns that "All robot game wording means precisely and only what it says." For a programmer that cuts both ways: a mission condition must be met exactly as written, and a detail the rulebook does not mention does not matter.</p>
+<p>Challenge updates outrank the rulebook. FIRST&rsquo;s October 14, 2026 updates allow a robot to release an interchangeable model from its dock with the built-in latch, so long as it does so autonomously, and say the leaves in one mission are randomized before every match.</p></div><div><h3>Why randomness changes the code</h3><p>If a model&rsquo;s starting position is randomized, a program that drives to one fixed spot will sometimes miss. That is a nudge toward code that checks: drive until a sensor sees something, then act.</p>
+<p>The rulebook also lets teams calibrate sensors on any part of the mat during setup. A two-line calibration routine at the start of the first launch is cheap insurance against a strange gym light.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Source: the <a class="ag-inline-link" href="https://www.firstinspires.org/resources/library/fll/season-materials" rel="noopener" target="_blank">FIRST LEGO League Challenge BIOGLOW Robot Game Rulebook and Challenge Updates</a> (updated October 14th, 2026). Short phrases only; read the full rulebook before your event.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="tokens">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Precision tokens</p><h2>How do precision tokens affect a coding plan?</h2><p class="ag-lede">A team starts each match with six precision tokens worth 50 points, and loses one each time technicians interrupt the robot outside home. The points fall unevenly as tokens go, so the first rescue costs nothing and the second costs the most.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Precision token points from the BIOGLOW rulebook, and the cost of each lost token (the cost column is our subtraction)</caption><thead><tr><th scope="col">Tokens left</th><th scope="col">Points (rulebook)</th><th scope="col">Cost of losing the last one (ours)</th></tr></thead><tbody><tr><td class="ag-num">6</td><td class="ag-num">50</td><td class="ag-num">none, the starting value</td></tr><tr><td class="ag-num">5</td><td class="ag-num">50</td><td class="ag-num">0</td></tr><tr><td class="ag-num">4</td><td class="ag-num">35</td><td class="ag-num">15</td></tr><tr><td class="ag-num">3</td><td class="ag-num">25</td><td class="ag-num">10</td></tr><tr><td class="ag-num">2</td><td class="ag-num">15</td><td class="ag-num">10</td></tr><tr><td class="ag-num">1</td><td class="ag-num">10</td><td class="ag-num">5</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the table tells a coder</h3><p>One rescue per match is free. If the robot is about to wander into a mission model it will wreck, grabbing it outside home costs no points the first time, and that is worth knowing before the match.</p>
+<p>The second rescue is the expensive one. A program that needs saving twice a match is giving away 15 points, which is often more than a whole mission is worth. Fixing the run that fails is better than practicing the rescue.</p></div><div><h3>Code that comes home</h3><p>The cheapest interruption is none: a run that ends with the robot back in home lets technicians handle it freely. So every run should end with a drive home, and the time for that drive belongs in the plan.</p>
+<p>We teach students to write the return trip first, test it until it never fails, and only then add the mission in the middle. A run that always comes home is a run that never costs a token.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="bestof">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Top of three</p><h2>Should a team code for reliability or for a high score?</h2><p class="ag-lede">It depends on the scoring rule, and in Challenge only the highest of three official matches counts. When the top attempt is what matters, a bolder plan that sometimes fails can beat a steady plan on average, even though it scores less in a typical single match.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Two made-up run plans (all mission points and success rates are ours, not BIOGLOW&rsquo;s), computed exactly in Python</caption><thead><tr><th scope="col">Plan</th><th scope="col">Missions attempted</th><th scope="col">Expected score, one match</th><th scope="col">Expected highest of three</th></tr></thead><tbody><tr><td>A: steady</td><td>Five missions worth 20 each, each working 90 percent of the time</td><td class="ag-num">90.0</td><td class="ag-num">98.6</td></tr><tr><td>B: bold</td><td>Three of those, plus one 60-point mission that works 45 percent of the time</td><td class="ag-num">81.0</td><td class="ag-num">107.0</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Our model of top-of-three scoring</b><span>Python</span></figcaption><pre># Our model: which run plan wins when only the highest of three matches counts?
+# Mission points and success rates are invented for teaching.
+from itertools import product
+
+def outcomes(missions):
+    """Every possible score for one match, with its probability."""
+    table = {}
+    for result in product([0, 1], repeat=len(missions)):
+        prob, score = 1.0, 0
+        for (points, p), hit in zip(missions, result):
+            prob *= p if hit else 1 - p
+            score += points if hit else 0
+        table[score] = table.get(score, 0) + prob
+    return table
+
+def expected_top_of(table, n=3):
+    """Expected value of the highest score in n independent matches."""
+    total, below = 0.0, 0.0
+    for score in sorted(table):
+        at_or_below = below + table[score]
+        total += score * (at_or_below ** n - below ** n)
+        below = at_or_below
+    return total
+
+plan_a = [(20, 0.90)] * 5                  # five steady missions
+plan_b = [(20, 0.90)] * 3 + [(60, 0.45)]   # three steady, one bold
+
+for name, plan in [("A", plan_a), ("B", plan_b)]:
+    t = outcomes(plan)
+    one = sum(s * p for s, p in t.items())
+    print(name, round(one, 1), round(expected_top_of(t), 1))
+
+# prints:  A 90.0 98.6
+#          B 81.0 107.0</pre><p class="ag-code-note">Our own teaching program, standard Python with no robot library. It lists every way a match can go, then works out the expected highest score across three matches.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why plan B can win</h3><p>In a single match plan A is better, 90.0 points against 81.0. But a team gets three tries and keeps the highest. Plan B&rsquo;s big mission only has to come off once in three matches, and the chance of that is far higher than 45 percent.</p>
+<p>So under a top-of-three rule plan B&rsquo;s expected top score is 107.0 against plan A&rsquo;s 98.6. The rule of the game changed the right answer, and nothing about the robot did.</p></div><div><h3>When steady is still right</h3><p>If the goal is simply to reach 100 points at least once, plan A does it in about 93 matches out of every 100 by our numbers, and plan B in about 82. A team chasing a target, not a maximum, should prefer steady.</p>
+<p>Real teams also face a time limit plan B ignores: the bold mission may take longer to reset. The model is a way to think, not an order. Each team fills in its own robot&rsquo;s numbers.</p></div></div>
+    <p class="ag-mt-40"><b>Worked example (ours).</b> Suppose your robot&rsquo;s riskiest mission works 4 times in 10 practice runs. The chance it fails in all three official matches is 0.6 times 0.6 times 0.6, which is 0.216. So it succeeds in at least one match about 78 percent of the time. A mission that looks unreliable in one run is quite likely to land once in three, which is why top-of-three rewards keeping it in the plan.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="practice">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice set</p><h2>Practice problems for robot game planning</h2><p class="ag-lede">Four original problems, written by us, at the level of a grade 5 to 8 Challenge team member. They use invented missions, not BIOGLOW&rsquo;s, and each answer shows its reasoning.</p></div>
+    <ol class="ag-steps"><li><b>Tokens.</b> A team interrupts its robot outside home three times in one match. How many token points does it keep? <i>Answer:</i> six minus three leaves three tokens, which the rulebook values at 25 points, so the three rescues cost 25 of the starting 50.</li><li><b>Inspection.</b> A team&rsquo;s robot plus attachments fit in one launch area and stand 290 mm tall. Do they earn the inspection bonus? <i>Answer:</i> yes, because 290 mm is under the 305 mm limit and everything fits in one launch area, so 20 points.</li><li><b>Once in three.</b> A mission works half the time. What is the chance it works in at least one of three matches? <i>Answer:</i> the chance of three failures is 0.5 cubed, or 0.125, so at least one success is 0.875, or 87.5 percent.</li><li><b>Motors.</b> A team wants two drive motors, one arm motor and one motor for a spinning attachment, plus a spare arm swapped in between runs. Is that legal? <i>Answer:</i> the rulebook allows four motors in any one match, so four is the limit; a spare arm motor would make five and is not allowed in that match.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>How we use problems like these</h3><p>In class a student first guesses the answer, then works it out, then explains the gap. The guess-then-check habit is what makes a programmer suspicious of their own code in a useful way.</p>
+<p>The arithmetic is light on purpose. The real skill is translating a rule written in words into a number a team can act on.</p></div><div><h3>What we never do</h3><p>We do not solve the team&rsquo;s BIOGLOW missions, write its robot code, or tell it which missions to choose. The participation rules say all work presented at events is the work of the children on the team, and we follow that.</p>
+<p>We teach ideas on our own invented missions, and students bring the ideas back to their team.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="plan">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Season plan</p><h2>An eight-week coding plan for a Challenge team member</h2><p class="ag-lede">Our plan for a student who meets their team each week and adds one live lesson with us. It assumes the team already has a working robot and has started on missions.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Eight weeks from first program to tournament day (our plan)</caption><thead><tr><th scope="col">Week</th><th scope="col">Lesson with us</th><th scope="col">Try with the team</th></tr></thead><tbody><tr><td>1</td><td>Sequences and units: degrees, rotations, seconds</td><td>Drive out and back to home five times</td></tr><tr><td>2</td><td>Wait-until and sensors</td><td>Stop on a color line instead of a distance</td></tr><tr><td>3</td><td>My Blocks and functions</td><td>Turn the return trip into one reusable block</td></tr><tr><td>4</td><td>Conditions and calibration</td><td>A start-of-match light reading</td></tr><tr><td>5</td><td>Counting reliability</td><td>Ten tries per run, success written down</td></tr><tr><td>6</td><td>Tokens and rescues</td><td>Which run needs saving, and why</td></tr><tr><td>7</td><td>Top of three planning</td><td>Fill in the planning model with real numbers</td></tr><tr><td>8</td><td>Explaining code to judges</td><td>Talk through one program in two minutes</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Blocks or Python?</h3><p>The rulebook lets teams use any software or language, so the choice is the team&rsquo;s. Most younger members start with blocks, which make order and logic visible and remove typing mistakes.</p>
+<p>Older members often move to Python, and LEGO League names Python as its text option from 2027. We teach blocks first and then Python, so a child is ready for either.</p></div><div><h3>Robot design judging</h3><p>Judges in robot design want to hear how the team decided, tested and improved. A child who can show reliability counts and say why a run changed has something real to tell them.</p>
+<p>We help students learn to explain their own reasoning clearly. The engineering notebook, the code and the answers remain the team&rsquo;s own.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Readiness</p>
+      <h2>Four steps to becoming the team&rsquo;s programmer</h2>
+      <p class="ag-lede">Being able to build a robot and being able to program a reliable run are different skills. These are the steps between them, as we see them in class.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>From builder to robot game programmer (our steps)</caption><thead><tr><th scope="col">Step</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Order</td><td class="ag-num">Writes moves in the right order and runs them without help</td></tr><tr><td>2. Senses</td><td class="ag-num">Uses a sensor to decide when to stop or turn</td></tr><tr><td>3. Reuses</td><td class="ag-num">Builds functions or My Blocks so one fix changes every run</td></tr><tr><td>4. Weighs</td><td class="ag-num">Chooses missions with reliability counts and the top-of-three rule in mind</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents and coaches</h3><p>Ask your child how often their run works out of ten. A child who knows the number is already thinking like an engineer; one who says "usually" has their next lesson.</p>
+<p>Under the participation rules, adults who over-instruct or prompt at events can be asked to leave. Coaching ideas at home is fine; the decisions at the table are the children&rsquo;s.</p></div><div><h3>For students</h3><p>Write the drive home first. A run that always returns saves tokens and calms the technicians.</p>
+<p>Save a copy of the program before each change, and name it with the date. Going back to the last good version is faster than guessing.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for robot game coders and beyond</h2>
+      <p class="ag-lede">All taught live online, one teacher throughout, in a group or individually.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Starting out</h3>
+        <span class="ag-band-sub">Ages about 8 to 11</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / ST / 01</p>
+          <h4>Coding for kids</h4>
+          <p>Blocks, games, first logic.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / ST / 02</p>
+          <h4>Scratch coding</h4>
+          <p>Events and loops in depth.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / ST / 03</p>
+          <h4>Problem solving</h4>
+          <p>Big tasks into small ones.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Typing code</h3>
+        <span class="ag-band-sub">Ages about 10 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / TY / 01</p>
+          <h4>Python for kids</h4>
+          <p>The step after blocks.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / TY / 02</p>
+          <h4>Math through coding</h4>
+          <p>Chance and angles in code.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / TY / 03</p>
+          <h4>C++ for kids</h4>
+          <p>A compiled language, gently.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond the table</h3>
+        <span class="ag-band-sub">Making and inventing</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / MK / 01</p>
+          <h4>Game development</h4>
+          <p>Logic with instant feedback.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / MK / 02</p>
+          <h4>AI literacy for kids</h4>
+          <p>How smart kits really work.</p>
+          <a class="ag-course-link" href="/courses/ai-literacy-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">FLLC / MK / 03</p>
+          <h4>Hackathon prep</h4>
+          <p>Plan and pitch a project.</p>
+          <a class="ag-course-link" href="/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Coding lessons that sit between team meetings</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, on a night without practice.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">A morning lesson before a scrimmage.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Shaped around one child&rsquo;s role on the team.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Invented missions</h3><p>We teach on our tasks, never on BIOGLOW&rsquo;s.</p></div>
+      <div><h3>Counts, not hopes</h3><p>Every run is measured out of ten.</p></div>
+      <div><h3>Blocks then Python</h3><p>Ready for whichever program comes next.</p></div>
+      <div><h3>Rules read aloud</h3><p>Students learn to turn rule text into numbers.</p></div>
+      <div><h3>All fifty states</h3><p>Live online, any US time zone.</p></div>
+      <div><h3>Group size</h3><p>Fifteen to twenty per batch, or one child.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work by our students</h2>
+      <p class="ag-lede">Games, apps and AI projects our learners have built. See more in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Registration, kits and event fees belong to FIRST and your local event; we charge only for coding lessons. Billing is monthly, so a child can study through the tournament season and stop when it ends.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A short sequencing and logic task</li><li>No card details asked</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>The same teacher each week</li><li>Choose your batch</li><li>Monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>A private coding teacher</li><li>Timed around your tournaments</li><li>Blocks or Python, your choice</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents wrote on Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from US families and coaches</p>
+      <h2>FIRST LEGO League coding: what people ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Is 2026-2027 the last season of FIRST LEGO League?</h3>
+        <p>Yes. FIRST says the 2026 to 2027 BIOGLOW season will be the final season of FIRST LEGO League, and LEGO Education says FIRST LEGO League comes to an end after BIOGLOW. The current season goes ahead as planned.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What will replace FIRST LEGO League in 2027?</h3>
+        <p>Two programs have been announced. FIRST is launching its own next generation of K to 8 programs for the 2027 to 2028 season, and LEGO Education is launching LEGO League in August 2027 for ages 5 to 16. Program details are still being published by both.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What programming language can an FLL Challenge robot use?</h3>
+        <p>Any. The BIOGLOW Robot Game Rulebook says teams can use any software or programming language, as long as the robot is autonomous outside home and no remote controller is used. Many teams use blocks, and some use Python.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is a FIRST LEGO League robot game match?</h3>
+        <p>Two and a half minutes. The rulebook defines a match as 2.5 minutes in which the robot autonomously completes as many missions as possible. Teams play three official matches and only the highest score counts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many motors and sensors can an FLL robot have?</h3>
+        <p>The BIOGLOW rulebook allows one controller and up to four motors in any one match. Sensors may be touch or force, color, distance or ultrasonic, and gyro, in any mix and number.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What are precision tokens in FLL?</h3>
+        <p>Each team starts a match with six precision tokens worth 50 points and loses one each time it interrupts the robot outside home. Five tokens are still worth 50, four are worth 35 and three are worth 25, so the first rescue costs nothing and the second costs 15 points.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What ages can join FIRST LEGO League Challenge in the US?</h3>
+        <p>The participation rules linked from the 2026 to 2027 materials say US and Canada participants must be between 9 and 14, on a team of two to ten children. FIRST lists Challenge for grades 4 to 8.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a tutor or parent write our team's robot code?</h3>
+        <p>No. The participation rules say all work presented at events is the work of the children on the team. We teach programming ideas on our own invented missions, and the children write their team's code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can we still use SPIKE Prime after FLL ends?</h3>
+        <p>For a while. FIRST plans to keep SPIKE Prime and Essential compatible with its new K to 8 programs through the 2028 to 2029 season, and LEGO League accepts SPIKE in 2027 to 2028 but requires Computer Science & AI kits from 2028 to 2029.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your coding lessons?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you part of FIRST or LEGO Education?</h3>
+        <p>No. Modern Age Coders is an independent coding school with no tie to FIRST, LEGO Education or the LEGO Group. FIRST LEGO League is a jointly held trademark of FIRST and the LEGO Group.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>More for young builders in the US</h2>
+      <p class="ag-lede">Other robots, other contests, and the next step in code.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/vex-iq-programming-help">VEX IQ programming help</a></h3><p>Solo coding runs for VEX IQ and RECF Engage robots.</p></div>
+      <div><h3><a class="ag-inline-link" href="/us-coding-math-and-ai-competitions-calendar">US competitions calendar</a></h3><p>Contest dates in coding, math and AI for this school year.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-competitions-for-middle-school-students">Middle school coding contests</a></h3><p>Where a 13 or 14 year old robot coder can go next.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-elementary-students">Elementary coding classes</a></h3><p>For the Explore and K to 2 age groups.</p></div>
+      <div><h3><a class="ag-inline-link" href="/first-lego-league-uk-coding-help">FIRST LEGO League in the UK</a></h3><p>How the same final season runs for UK teams.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-literacy-for-elementary-students">AI literacy for elementary students</a></h3><p>Useful background for AI-enabled robot kits.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Tell us your child&rsquo;s grade, which edition their team is in and whether they code in blocks or Python. The teacher sets a short task on an invented mission and suggests a starting point.</p>
+        <p class="ag-mt-40">Curious how lessons feel? Read <a class="ag-inline-link" href="/how-we-teach">how we teach</a>, or browse <a class="ag-inline-link" href="/courses">every course we run</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20on%20a%20FIRST%20LEGO%20League%20team%20in%20the%20US%20and%20wants%20help%20with%20coding%20the%20robot.%20Could%20we%20book%20a%20free%20first%20lesson%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'fllc',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Teachers work from India and teach live on video at US after-school and weekend hours. Most US families find WhatsApp the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_fllc(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first lesson is free, and you will not be asked for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Robotics and contests</h4><ul><li><a href="/vex-iq-programming-help">VEX IQ programming</a></li><li><a href="/us-coding-math-and-ai-competitions-calendar">Competitions calendar</a></li><li><a href="/coding-competitions-for-middle-school-students">Middle school contests</a></li><li><a href="/acsl-competition-preparation">ACSL preparation</a></li></ul></div>
+      <div><h4>Coding by grade</h4><ul><li><a href="/coding-classes-for-elementary-students">Elementary coding</a></li><li><a href="/coding-classes-for-middle-school-students">Middle school coding</a></li><li><a href="/coding-milestones-by-age">Coding milestones by age</a></li><li><a href="/coding-classes-in-united-states">All US pages</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Only the top score of three counts</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_fllc = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'first-lego-league-coding-help-usa-inline', meta: { name: name, age: age, page: 'first-lego-league-coding-help-usa' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>
