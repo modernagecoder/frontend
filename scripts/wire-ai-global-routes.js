@@ -725,6 +725,7 @@ const SLUGS = [
   '11-plus-maths-tuition-lancashire',
   '11-plus-maths-tuition-wiltshire',
   '11-plus-maths-tuition-bromley',
+  'uk-maths-exam-boards-and-specification-codes',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1529,6 +1530,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-lancashire': '11 plus maths tuition in Lancashire',
   '11-plus-maths-tuition-wiltshire': '11 plus maths tuition in Wiltshire',
   '11-plus-maths-tuition-bromley': '11 plus maths tuition in Bromley',
+  'uk-maths-exam-boards-and-specification-codes': 'UK maths exam boards and specification codes',
 };
 
 function wireLlms(slugs) {

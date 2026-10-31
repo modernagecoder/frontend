@@ -262,6 +262,39 @@ At a fixed weekly slot agreed in the free class, usually after school or at the 
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
 - [Choosing an online class in the UK](/best-online-coding-classes-uk): Seven checks for any provider.
 
+## Related pages in this guide
+
+### Computing programmes and competitions
+
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+
+### Enrichment and able pupils
+
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
+
+### Maths competitions
+
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes)
+
 ## Contact
 
 Book the free first class at [https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar](https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
