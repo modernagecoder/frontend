@@ -526,5 +526,25 @@
  "western-canada-grade-12-math-pre-calculus-12-math-30-1-course": {
   "img": "/images/western-canada-grade-12-math.webp",
   "alt": "Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1 - Modern Age Coders course"
+ },
+ "a-level-computer-science-course-aqa-ocr": {
+  "img": "/images/a-level-computer-science-aqa-ocr.webp",
+  "alt": "A Level Computer Science for AQA 7517 and OCR H446 - Modern Age Coders course"
+ },
+ "shsat-math-prep-course": {
+  "img": "/images/shsat-math-prep.webp",
+  "alt": "SHSAT Math Prep: NYC Specialized High Schools Test - Modern Age Coders course"
+ },
+ "tmua-mat-step-preparation-course": {
+  "img": "/images/tmua-mat-step-prep.webp",
+  "alt": "TMUA and STEP Preparation (Oxford MAT Now TMUA) - Modern Age Coders course"
+ },
+ "reasoning-and-readiness-course-for-young-thinkers": {
+  "img": "/images/reasoning-readiness-young-thinkers.webp",
+  "alt": "Reasoning and Readiness for Young Thinkers (Ages 6 to 9) - Modern Age Coders course"
+ },
+ "college-math-placement-test-prep-course": {
+  "img": "/images/college-math-placement-prep.webp",
+  "alt": "College Math Placement Test Prep: ALEKS, ACCUPLACER, TSIA2, CLEP - Modern Age Coders course"
  }
 }

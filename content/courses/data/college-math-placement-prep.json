@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "slug": "college-math-placement-test-prep-course",
+    "date": "2026-10-31",
+    "title": "College Math Placement Test Prep: ALEKS, ACCUPLACER, TSIA2, CLEP",
+    "description": "Live online college math placement prep for ages 15 and up: ALEKS PPL, ACCUPLACER QAS and AAF, TSIA2 math and CLEP College Algebra, from arithmetic to functions.",
+    "keywords": [
+      "college math placement test prep",
+      "aleks ppl prep",
+      "aleks math placement",
+      "accuplacer math prep",
+      "accuplacer qas",
+      "accuplacer advanced algebra and functions",
+      "tsia2 math prep",
+      "tsi math test",
+      "clep college algebra prep",
+      "college algebra placement",
+      "math placement test for adults",
+      "community college math placement"
+    ],
+    "category": "College Readiness Maths for Teens and Adults",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "4 months (16 weeks), joinable any month; shorter focused plans are possible 1-on-1 when a test date is close",
+    "level": "Students aged 15 and up, including adults returning to study, from rusty arithmetic to precalculus-level functions",
+    "commitment": "2 live classes/week + short daily skill practice and a timed practice set every two weeks",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not a College Board, McGraw Hill, THECB or college document, score or credit)",
+    "image_path": "college-math-placement-prep.webp",
+    "dateModified": "2026-10-31"
+  },
+  "program_overview": {
+    "title": "College Math Placement Test Prep: ALEKS, ACCUPLACER, TSIA2, CLEP",
+    "tagline": "Rebuild the math, then meet the test: arithmetic, algebra and functions relearned properly, so the placement reflects what you can really do.",
+    "description": "Most US colleges place new students into math courses using a placement test, and the result decides whether a student starts in a credit-bearing course or a support course. The four tests this course covers work differently.\n\nACCUPLACER, from College Board, is \"a series of tests that evaluate students' skills in reading, writing, and math to determine if additional support will be required for enrolling in credit bearing courses\". Its math tests include Arithmetic; Quantitative Reasoning, Algebra, and Statistics (QAS); and Advanced Algebra and Functions (AAF). College Board says the QAS test \"is a computer adaptive assessment\" covering rational numbers, ratio and proportional relationships, exponents, algebraic expressions, linear equations and applications, probability and sets, descriptive statistics and geometry concepts, and that AAF covers \"linear, quadratic, rational, radical, polynomial, and exponential\" equations and functions, \"some geometry and trigonometry concepts\". All its questions \"are multiple choice in format\".\n\nALEKS Placement, Preparation and Learning (ALEKS PPL), from McGraw Hill, uses an open-response placement assessment. McGraw Hill says: \"In 25 questions or less, PPL's open-response Placement Assessment determines students' knowledge across 314 topics and places them into courses from Basic Math to Calculus\", and that PPL comes with \"12 months' access to a personalized learning module and up to five assessment attempts\" (each college sets its own rules).\n\nThe TSIA2 is the Texas Success Initiative Assessment 2.0, required for non-exempt students entering Texas public colleges. The Texas Higher Education Coordinating Board's brochure says the math College Readiness Classification test \"is made up of 20 questions\" across quantitative, algebraic, geometric and spatial, and probabilistic and statistical reasoning, and that a student is college ready with a score in the range of 950 to 990 on it, or a lower score with a diagnostic level of 6. The TSIA2 is computer adaptive and untimed.\n\nCLEP College Algebra, also from College Board, is a credit-by-exam test. College Board says it \"contains approximately 60 questions to be answered in 90 minutes\", with an on-screen TI-30XS MultiView scientific calculator, and that the American Council on Education recommends a credit-granting score of 50 for 3 semester hours, though \"Each institution reserves the right to set its own credit-granting policy\".\n\nThis course teaches the mathematics underneath all four, from fractions and percents through linear and quadratic equations to functions, exponentials and logarithms, then trains students in each test's format with our own original practice questions and the official free practice on the publishers' sites. Placement tests should show what a student truly knows: we never help during a placement test, and we follow each college's integrity rules. We are independent of College Board, McGraw Hill, the Texas Higher Education Coordinating Board and every college, and we make no promise of placements, scores or credit.",
+    "what_makes_this_different": [
+      "One course for four common tests: ALEKS PPL, ACCUPLACER QAS and AAF, TSIA2 math and CLEP College Algebra",
+      "A diagnostic first, so each student studies only the topics they need",
+      "Real relearning of arithmetic and algebra for adults who have been away from math for years",
+      "Format training for each test: open-response for ALEKS, adaptive multiple choice for ACCUPLACER and TSIA2, timed with a calculator for CLEP",
+      "Original practice sets every two weeks, plus the official free practice on College Board, ALEKS and THECB pages",
+      "Honest and integrity-first: no help during any real placement test, and no promises of placement or credit"
+    ],
+    "learning_path": {
+      "phase_1": "Number and arithmetic rebuilt: fractions, decimals, percents, ratios, signed numbers, exponents and order of operations",
+      "phase_2": "Algebra core: expressions, linear equations and inequalities, systems, factoring, quadratics, radicals and rational expressions, with statistics and geometry",
+      "phase_3": "Functions and test formats: functions and graphs, exponentials and logarithms, then timed practice for ALEKS, ACCUPLACER, TSIA2 and CLEP"
+    },
+    "career_outcomes": [
+      "Confident arithmetic with fractions, decimals, percents and negative numbers",
+      "Secure algebra: solving, factoring and simplifying without guesswork",
+      "A working understanding of functions, graphs, exponentials and logarithms",
+      "Basic statistics, probability and geometry used in context",
+      "Calm, honest test-taking on adaptive and open-response formats",
+      "A solid base to succeed in the college math course you are placed into"
+    ]
+  },
+  "phase_1_number_and_arithmetic": {
+    "title": "PHASE 1: Number and Arithmetic Rebuilt (Month 1, Weeks 1-4)",
+    "description": "Everything later depends on number sense. Adults returning to study often find this month the turning point.",
+    "month_1_arithmetic": {
+      "title": "Month 1: Fractions, Percents, Ratios and Exponents",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Which Test, a Diagnostic, and Fractions and Decimals",
+        "topics": [
+          "Which placement test your college uses, and what it decides",
+          "The four tests compared: ALEKS PPL, ACCUPLACER, TSIA2 and CLEP College Algebra",
+          "A diagnostic of our own across arithmetic, algebra and functions",
+          "Fractions: simplifying, comparing, and the four operations",
+          "Decimals and conversions between fractions, decimals and percents",
+          "Starting a personal topic tracker from the diagnostic"
+        ],
+        "projects": [
+          "A personal study map: test, college, target course and topic list"
+        ],
+        "practice": "Ten minutes a day of original arithmetic practice, without a calculator"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Percents, Ratios, Signed Numbers and Exponents",
+        "topics": [
+          "Percent of a number, percent change and reverse percent problems",
+          "Ratios, rates and proportions in word problems",
+          "Operations with negative numbers and absolute value",
+          "Order of operations in long expressions",
+          "Integer exponents, square roots and scientific notation",
+          "Estimating to check an answer"
+        ],
+        "projects": [
+          "A real-life math sheet: a budget, a recipe scaled up and a sale price worked out"
+        ],
+        "practice": "Mixed arithmetic word problems of our own design",
+        "assessment": "Phase 1 check: a timed set of original arithmetic and percent problems"
+      }
+    }
+  },
+  "phase_2_algebra_core": {
+    "title": "PHASE 2: Algebra Core, Statistics and Geometry (Months 2-3, Weeks 5-12)",
+    "description": "The algebra at the heart of every placement test, plus the statistics and geometry that QAS and TSIA2 include.",
+    "month_2_linear_algebra": {
+      "title": "Month 2: Expressions, Linear Equations, Inequalities and Systems",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Expressions and Linear Equations",
+        "topics": [
+          "Variables, expressions and combining like terms",
+          "The distributive property and simplifying expressions",
+          "Solving linear equations, including fractions and variables on both sides",
+          "Rearranging formulas for a given variable",
+          "Translating words into equations",
+          "Slope, intercepts and graphing lines"
+        ],
+        "projects": [
+          "Model three real situations with linear equations and graph them"
+        ],
+        "practice": "Open-response style answers typed exactly, ALEKS-style, using our own questions"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Inequalities, Systems and Linear Applications",
+        "topics": [
+          "Solving and graphing linear inequalities",
+          "Absolute value equations and inequalities",
+          "Systems of two linear equations by substitution and elimination",
+          "Writing the equation of a line from two points",
+          "Linear applications: cost, distance and mixtures",
+          "Checking solutions by substitution"
+        ],
+        "projects": [
+          "A phone-plan comparison solved as a system of equations"
+        ],
+        "practice": "Mixed linear problems, timed",
+        "assessment": "Month 2 practice set: an original adaptive-style set on linear algebra"
+      }
+    },
+    "month_3_nonlinear_stats_geometry": {
+      "title": "Month 3: Polynomials, Quadratics, Radicals, Statistics and Geometry",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Polynomials, Factoring and Quadratics",
+        "topics": [
+          "Adding, subtracting and multiplying polynomials",
+          "Factoring: common factors, trinomials and difference of squares",
+          "Solving quadratics by factoring, by the quadratic formula and by completing the square",
+          "Radical expressions and rational exponents",
+          "Rational expressions: simplifying and solving",
+          "Complex numbers in outline, for CLEP College Algebra"
+        ],
+        "projects": [
+          "A factoring strategy card the student builds from their own worked examples"
+        ],
+        "practice": "Factoring and quadratic drills of our own, with full working"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Statistics, Probability and Geometry",
+        "topics": [
+          "Mean, median, mode, range and spread",
+          "Reading tables, bar graphs, scatter plots and box plots",
+          "Probability of simple and compound events, and sets",
+          "Perimeter, area, surface area and volume",
+          "Unit conversion and the Pythagorean theorem",
+          "Right triangle trigonometry for AAF and TSIA2"
+        ],
+        "projects": [
+          "Summarize a small real data set and write a short interpretation"
+        ],
+        "practice": "Statistics and geometry problems in context",
+        "assessment": "Phase 2 assessment: a timed mixed set of original algebra, statistics and geometry problems"
+      }
+    }
+  },
+  "phase_3_functions_and_test_formats": {
+    "title": "PHASE 3: Functions and Test Formats (Month 4, Weeks 13-16)",
+    "description": "The function topics that decide higher placements, then format training for the student's own test.",
+    "month_4_functions_and_formats": {
+      "title": "Month 4: Functions, Exponentials, Logarithms and Timed Practice",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Functions, Exponentials and Logarithms",
+        "topics": [
+          "Functions: notation, domain, range and evaluation",
+          "Graphs and transformations of functions",
+          "Combining functions and inverse functions",
+          "Exponential growth and decay",
+          "Logarithms, their properties and solving exponential equations",
+          "Polynomial and rational functions in outline"
+        ],
+        "projects": [
+          "A function gallery: eight function types graphed and described by the student"
+        ],
+        "practice": "Function questions of our own in each test's style"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Test-Format Training and Final Review",
+        "topics": [
+          "ALEKS PPL: open-response entry, and using the learning module honestly between attempts",
+          "ACCUPLACER: adaptive multiple choice on QAS or AAF, and College Board's free practice",
+          "TSIA2: the mandatory Pre-Assessment Activity, the untimed adaptive format and the diagnostic test",
+          "CLEP College Algebra: about 60 questions in 90 minutes with the on-screen scientific calculator",
+          "Integrity: placement tests must be your own work, and many colleges use proctoring or lockdown tools",
+          "Talking to your college advisor about your placement and next course"
+        ],
+        "projects": [
+          "A personal test-day plan for the student's own test"
+        ],
+        "practice": "Official free practice on the publisher's own site, reviewed in class, plus our own final set",
+        "assessment": "Final assessment: a timed mixed set of original problems in the student's test format, plus a short review conversation"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "Which placement test does my college use?",
+      "answer": "It depends on the college, so check its testing or advising page. Many use ALEKS PPL or ACCUPLACER, Texas public colleges use the TSIA2 for non-exempt students, and CLEP College Algebra is a separate credit-by-exam test. In the free demo class we help you identify your test and the course you are aiming for."
+    },
+    {
+      "question": "What is on the ACCUPLACER math tests?",
+      "answer": "College Board's math tests include Arithmetic, Quantitative Reasoning, Algebra, and Statistics (QAS), and Advanced Algebra and Functions (AAF). College Board says QAS covers topics such as rational numbers, ratios, exponents, linear equations, probability and sets, statistics and geometry, and AAF covers linear, quadratic, rational, radical, polynomial and exponential equations and functions, plus some geometry and trigonometry. Both are computer adaptive and multiple choice."
+    },
+    {
+      "question": "How does ALEKS PPL work?",
+      "answer": "McGraw Hill says its open-response Placement Assessment uses 25 questions or less to measure knowledge across 314 topics, placing students from Basic Math to Calculus. It also describes 12 months' access to a personalized learning module and up to five assessment attempts, though each college sets its own rules on attempts."
+    },
+    {
+      "question": "What score do I need on the TSIA2 math test?",
+      "answer": "The Texas Higher Education Coordinating Board's brochure says a student is college ready in mathematics with a score of 950 to 990 on the College Readiness Classification test, or a score below 950 with a diagnostic level of 6 on the Diagnostic test. The CRC test has 20 questions, and the TSIA2 is computer adaptive and untimed."
+    },
+    {
+      "question": "What is CLEP College Algebra?",
+      "answer": "A College Board credit-by-exam test with approximately 60 questions in 90 minutes and an on-screen scientific calculator. College Board lists algebraic operations (25%), equations and inequalities (25%), functions and their properties (30%) and number systems and operations (20%). The American Council on Education recommends a credit-granting score of 50, but each college sets its own policy."
+    },
+    {
+      "question": "Can you help me during my placement test?",
+      "answer": "No. A placement test should show what you truly know, so that you start in a course you can succeed in. We teach the math beforehand and never help during a real test. McGraw Hill, for example, describes lockdown browser and webcam proctoring for ALEKS PPL, and colleges set their own integrity rules."
+    },
+    {
+      "question": "I am an adult and have not done math in years. Is this for me?",
+      "answer": "Yes. The course starts with a diagnostic and rebuilds arithmetic from fractions and percents, so nobody is left behind. Many adults find that relearning the basics properly makes algebra much easier."
+    },
+    {
+      "question": "How long do I need to prepare?",
+      "answer": "The full course is 4 months. If your test date is close, a focused 1-on-1 plan can target only the topics your diagnostic shows you need. Retesting rules differ by test and college, so check yours before you book."
+    },
+    {
+      "question": "Can you guarantee a higher placement or college credit?",
+      "answer": "No, and nobody honest can. Placement and credit decisions belong to your college. What we give is real relearning of the math, honest practice in your test's format and a clear plan for your weak topics."
+    },
+    {
+      "question": "Are you connected with College Board, McGraw Hill or THECB?",
+      "answer": "No. We are an independent online school and are not connected with or endorsed by College Board, McGraw Hill, the Texas Higher Education Coordinating Board or any college. ACCUPLACER, CLEP and ALEKS are trademarks of their owners."
+    },
+    {
+      "question": "How are the classes run, and can we try one?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group batch of 15 to 20 students or 1-on-1. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The first class is free, with no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A personal study map from the diagnostic",
+      "A real-life math sheet: budget, scaled recipe and sale price",
+      "Three real situations modelled with linear equations",
+      "A phone-plan comparison solved as a system",
+      "A factoring strategy card and a data-set summary",
+      "A function gallery and a personal test-day plan"
+    ],
+    "total_projects_built": "A diagnostic-led topic tracker, a set of real-life math projects, an original practice-set history and a test-day plan for the student's own placement test",
+    "skills_mastered": [
+      "Fractions, decimals, percents and ratios",
+      "Signed numbers, exponents and order of operations",
+      "Linear equations, inequalities and systems",
+      "Polynomials, factoring, quadratics, radicals and rational expressions",
+      "Statistics, probability and geometry in context",
+      "Functions, exponentials and logarithms",
+      "Honest test-taking in open-response and adaptive formats"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week",
+      "practice": "Short daily skill practice after every class, focused on the student's own topic list",
+      "review": "A timed practice set every two weeks and a monthly progress check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not a placement score, a test publisher's document or college credit. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes for course practice, with hints first; we never help during a real placement test",
+      "progress_updates": "A monthly progress note, sent to the student or, for students under 18, to parents",
+      "official_practice": "College Board's free ACCUPLACER practice and sample questions, CLEP sample questions, THECB's TSIA2 sample questions and each college's ALEKS information, used where they are published"
+    }
+  },
+  "prerequisites": {
+    "math_level": "Any starting point; the diagnostic places each student",
+    "age": "15 and up, including adults returning to study",
+    "equipment": "A computer with stable internet, paper and a pencil, and a basic scientific calculator for CLEP practice",
+    "test_registration": "Placement tests are booked through your college or testing center, not through us",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "high_school_seniors": "High school students heading to college or dual credit who must take a placement test",
+    "returning_adults": "Adults going back to college after years away from math",
+    "texas_students": "Students entering Texas public colleges who need the TSIA2 math test",
+    "credit_seekers": "Students who want to earn College Algebra credit by exam through CLEP, where their college accepts it",
+    "retakers": "Students who placed lower than they hoped and want to relearn the math before an allowed retest"
+  },
+  "career_paths_after_completion": [
+    "College Algebra, Statistics or Precalculus at college with a strong base",
+    "Further college math through our college mathematics course",
+    "Statistics and probability in depth through our statistics course",
+    "Programming and data analysis, which build on algebra and functions",
+    "Nursing, business, education and technical programs that require college math"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes.",
+    "diagnostic_first": "A diagnostic at the start, so each student studies what they actually need.",
+    "original_practice": "Every practice set is our own; official practice is used on the publishers' own sites.",
+    "integrity": "We never help during a real placement test and follow each college's integrity rules.",
+    "independence": "We are independent of College Board, McGraw Hill, THECB and every college, and promise learning, never placements or credit.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

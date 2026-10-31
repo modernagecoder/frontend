@@ -195,7 +195,9 @@ function render(v) {
     "ai-agents-with-microsoft-copilot-studio-course-for-teens":                 "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-college-students":      "agents",
     "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals":    "agents",
-    "build-ai-agents-with-google-gemini-enterprise-course":                      "gemini"
+    "build-ai-agents-with-google-gemini-enterprise-course":                      "gemini",
+    "tmua-mat-step-preparation-course":                                          "maths",
+    "reasoning-and-readiness-course-for-young-thinkers":                         "maths"
   },
 
   // ───────────────────────────────────────────────────────────────────────

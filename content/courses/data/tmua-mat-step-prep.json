@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "slug": "tmua-mat-step-preparation-course",
+    "date": "2026-10-31",
+    "title": "TMUA and STEP Preparation (Oxford MAT Now TMUA)",
+    "description": "Live online TMUA and STEP preparation, ages 16 to 18: logic, proof and problem solving for Oxford, Cambridge and UAT-UK maths admissions, plus STEP 2 and 3.",
+    "keywords": [
+      "tmua preparation",
+      "tmua course",
+      "tmua 2027",
+      "step maths preparation",
+      "step 2 step 3 preparation",
+      "oxford mat preparation",
+      "oxford mat replaced by tmua",
+      "cambridge maths admissions test",
+      "tmua paper 2 logic and proof",
+      "university admissions maths uk",
+      "step support",
+      "maths proof problem solving sixth form"
+    ],
+    "category": "University Admissions Maths for Teens",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks) per stage: a TMUA stage for Year 12 and early Year 13, and a STEP stage for Year 13 offer-holders; joinable any month",
+    "level": "Year 12 and Year 13 students (roughly ages 16 to 18) taking A Level Maths, ideally with Further Maths, who enjoy hard problems",
+    "commitment": "2 live classes/week + weekly problem sets, written proofs and a monthly timed paper",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not a UAT-UK, OCR or university document or result)",
+    "image_path": "tmua-mat-step-prep.webp",
+    "dateModified": "2026-10-31"
+  },
+  "program_overview": {
+    "title": "TMUA and STEP Preparation (Oxford MAT Now TMUA)",
+    "tagline": "School maths, used with real depth: reasoning about arguments for the TMUA, and long, careful written solutions for STEP.",
+    "description": "Two tests now sit at the centre of UK university admissions maths. The first is the Test of Mathematics for University Admission (TMUA), run by UAT-UK. Its content specification says \"The test will consist of two 75 minute papers, taken one after the other. Each paper will consist of 20 multiple-choice questions.\" Paper 1 is Applications of Mathematical Knowledge and Paper 2 is Mathematical Reasoning; there is \"no formulae booklet\", \"Candidates may not use calculators\", and there is \"no penalty for incorrect answers\". UAT-UK says the TMUA \"is based on content typically covered within Higher Level GCSE mathematics courses or AS level mathematics\", and that results are reported \"on a scale from 1 (low) to 9 (high) to one decimal place\". UAT-UK's 2027 entry course list names seven universities using the TMUA for some courses: Durham, Imperial College London, the LSE, Cambridge, Oxford, Warwick and UCL.\n\nThe Oxford Mathematics Admissions Test (MAT) has ended. Oxford's Mathematical Institute says: \"The MAT will not take place, and all applicants for Mathematics or Computer Science (including joint honours courses) will take the TMUA instead.\" It describes the MAT as \"a test used from 2007 to 2025\". Oxford still publishes MAT past papers and solutions, and they remain fine problem-solving practice.\n\nThe second test is STEP, the Sixth Term Examination Paper, administered by OCR. OCR says STEP \"is used by the University of Cambridge, the University of Warwick and Imperial College London\", and Cambridge says STEP is used \"as part of almost all conditional offers from Cambridge for\" Mathematics. OCR's specification says STEP 2 and STEP 3 \"will each be a 3-hour paper\" of 12 questions: eight pure, two mechanics and two probability and statistics, each worth 20 marks, with candidates \"assessed on the six questions best answered\". OCR lists STEP 2 on 14 June 2027 and STEP 3 on 21 June 2027.\n\nCambridge itself says the TMUA \"uses mathematics you will have already learned in your school studies, so there is no need to take a preparation course or to do much preparation beyond familiarising yourself with the test format\". We take that seriously. This course is not a shortcut or a set of tricks: it is a place to do hard mathematics regularly with a teacher, to learn the logic and proof that TMUA Paper 2 tests, and to write the long, justified solutions STEP marks. Practice uses our own original problems, plus the free official materials (UAT-UK practice papers and Notes on Logic and Proof, Oxford's MAT archive, and STEP past papers and the Cambridge STEP Support Programme), which students use where they are published. We never copy official questions into our materials. We are independent of UAT-UK, OCR and every university, and we make no promise of scores, offers or places.",
+    "what_makes_this_different": [
+      "Built around the 2027 entry reality: TMUA for Oxford and Cambridge maths and computer science, with the Oxford MAT archive kept as practice",
+      "Logic and proof taught directly for TMUA Paper 2: necessary and sufficient conditions, converses, counterexamples and finding the error in a proof",
+      "No-calculator, no-formula-booklet fluency, so the mathematics is fast enough to leave time for thinking",
+      "A STEP stage with full written solutions marked in detail, because OCR says marks may be lost if examiners cannot follow your working",
+      "Original problems for every topic, plus the free official papers used where UAT-UK, Oxford, OCR and Cambridge publish them",
+      "Honest about what preparation can do, quoting the universities' own advice, and never promising scores or offers"
+    ],
+    "learning_path": {
+      "phase_1": "Fluency and depth in the TMUA content: algebra, functions, sequences, coordinate geometry, trigonometry, logarithms and calculus, without a calculator",
+      "phase_2": "Mathematical reasoning for TMUA Paper 2: logic of arguments, proof methods, counterexamples and identifying errors in proofs, then timed TMUA-style papers",
+      "phase_3": "STEP 2 and STEP 3: extended pure problems, mechanics and probability, full written solutions, timed 3-hour practice and the June 2027 papers"
+    },
+    "career_outcomes": [
+      "Speed and accuracy in A Level pure mathematics without a calculator or formula booklet",
+      "A precise grasp of logical statements, implication and quantifiers",
+      "The ability to build, check and criticise a proof",
+      "Long, clear written solutions that an examiner can follow",
+      "Calm persistence on unfamiliar problems that take twenty minutes or more",
+      "A strong start for a mathematics, computer science, economics or physics degree"
+    ]
+  },
+  "phase_1_tmua_content_fluency": {
+    "title": "PHASE 1: TMUA Content Fluency (Months 1-2, Weeks 1-8)",
+    "description": "UAT-UK's Section 1 knowledge, made fast and flexible without a calculator, and used in problems that do not look like textbook exercises.",
+    "month_1_algebra_and_functions": {
+      "title": "Month 1: Algebra, Functions and Sequences",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: The Tests, a Diagnostic and Algebra Without a Calculator",
+        "topics": [
+          "The TMUA and STEP in 2026 to 2027, which universities use them and what each paper tests",
+          "Why the Oxford MAT ended after 2025, and how its archive is still useful practice",
+          "A diagnostic of our own across GCSE and AS pure content",
+          "Indices, surds and rationalising denominators at speed",
+          "Quadratics: completing the square, the discriminant and what it says about roots",
+          "Starting an error log and a list of favourite techniques"
+        ],
+        "projects": [
+          "A personal starting profile: target tests, target universities and ten solved warm-ups"
+        ],
+        "practice": "Short original problems where the obvious method is slow and a better idea exists"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Polynomials, Inequalities, Sequences and Series",
+        "topics": [
+          "The factor and remainder theorems, and algebraic division",
+          "Linear and quadratic inequalities, and inequalities with a parameter",
+          "Sequences from a formula and from a recurrence relation",
+          "Arithmetic and geometric series, and the sum to infinity",
+          "Binomial expansion for positive integer powers",
+          "Spotting structure: symmetry, substitution and a clever factorisation"
+        ],
+        "projects": [
+          "Write and solve five original problems that each hide a factorisation"
+        ],
+        "practice": "Timed sets at under four minutes a question (our arithmetic: 75 minutes for 20 questions)",
+        "assessment": "Month 1 check: a timed set of original multiple-choice problems"
+      }
+    },
+    "month_2_geometry_trig_logs_calculus": {
+      "title": "Month 2: Coordinate Geometry, Trigonometry, Logarithms and Calculus",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Coordinate Geometry, Circles and Trigonometry",
+        "topics": [
+          "Straight lines, parallel and perpendicular conditions",
+          "Circles in both forms the specification lists, and the circle theorems",
+          "Sine and cosine rules and the area of a triangle",
+          "Trigonometric graphs, identities and equations in a given interval",
+          "Exponentials and logarithms, and solving equations with them",
+          "Sketching graphs quickly and reading information from a sketch"
+        ],
+        "projects": [
+          "An original geometry pack where every answer starts from a careful sketch"
+        ],
+        "practice": "Graph-sketching drills: ten curves in ten minutes, checked in class"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Differentiation and Integration",
+        "topics": [
+          "Differentiating polynomials and powers, tangents, normals and stationary points",
+          "Increasing and decreasing functions and second derivatives",
+          "Integration as the reverse of differentiation and as area",
+          "Definite integrals and areas between a curve and an axis",
+          "Using calculus to reason about a graph without drawing it precisely",
+          "Mixed problems where algebra, geometry and calculus meet"
+        ],
+        "projects": [
+          "A calculus problem set of our own with one written explanation per answer"
+        ],
+        "practice": "Mixed Paper 1 style sets of original problems, timed",
+        "assessment": "Phase 1 assessment: a timed 75-minute set of 20 original multiple-choice problems"
+      }
+    }
+  },
+  "phase_2_mathematical_reasoning": {
+    "title": "PHASE 2: Mathematical Reasoning for TMUA Paper 2 (Months 3-4, Weeks 9-16)",
+    "description": "UAT-UK's Section 2: the logic of arguments and mathematical proof, taught from first principles and then tested under time.",
+    "month_3_logic_of_arguments": {
+      "title": "Month 3: The Logic of Arguments",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Statements, Implication and Quantifiers",
+        "topics": [
+          "True and false statements, and the words and, or (inclusive) and not",
+          "If A then B, A if B, A only if B, and A if and only if B",
+          "Necessary and sufficient conditions, and how to tell them apart",
+          "The converse and the contrapositive, and which one is equivalent",
+          "For all and there exists, and negating a statement with quantifiers",
+          "Working through UAT-UK's free Notes on Logic and Proof alongside our own examples"
+        ],
+        "projects": [
+          "A logic glossary written in the student's own words with one original example each"
+        ],
+        "practice": "Original statements to classify as true or false, each with a reason or a counterexample"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Proof Methods and Counterexamples",
+        "topics": [
+          "Direct proof and proof by cases",
+          "Proof by contradiction, including the irrationality of root 2 and the infinitude of primes",
+          "Disproof by counterexample, and choosing a good counterexample",
+          "Proof by induction, beyond the TMUA but needed later for STEP",
+          "What makes an argument valid even when its conclusion is false",
+          "Writing a proof so each line follows from the last"
+        ],
+        "projects": [
+          "Five short proofs of original statements, each written up twice: once rough, once clean"
+        ],
+        "practice": "Paper 2 style multiple-choice reasoning problems of our own, timed",
+        "assessment": "Month 3 check: a timed reasoning set plus one written proof marked in detail"
+      }
+    },
+    "month_4_errors_and_timed_papers": {
+      "title": "Month 4: Finding Errors in Proofs and Timed TMUA Papers",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Identifying Errors in Proofs",
+        "topics": [
+          "Dividing by something that might be zero",
+          "Squaring both sides and gaining false solutions",
+          "Assuming what was to be proved",
+          "Arguments that check a few cases and claim them all",
+          "Reversing an implication that only works one way",
+          "Locating the first incorrect line in a flawed argument"
+        ],
+        "projects": [
+          "Write three deliberately flawed proofs of our own design and swap them with a classmate to find the errors"
+        ],
+        "practice": "Error-finding problems of our own, each with the faulty line named and corrected"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Full TMUA-Style Practice",
+        "topics": [
+          "Pacing two 75-minute papers taken back to back",
+          "When to move on, and why a guess is worth making when there is no penalty",
+          "Elimination, checking options and testing special cases in multiple choice",
+          "Using UAT-UK's free practice papers under timed conditions on UAT-UK's site",
+          "Using Oxford's MAT archive for longer problem-solving practice",
+          "Reviewing a paper: knowledge gap, method choice or slip"
+        ],
+        "projects": [
+          "Two full timed TMUA-style papers of our own, each followed by a written review"
+        ],
+        "practice": "One official free practice paper worked under timed conditions, reviewed in class",
+        "assessment": "Phase 2 assessment: a full TMUA-style practice of two 75-minute papers of original problems"
+      }
+    }
+  },
+  "phase_3_step_2_and_3": {
+    "title": "PHASE 3: STEP 2 and STEP 3 (Months 5-6, Weeks 17-24)",
+    "description": "For students holding or expecting STEP offers: the specification's pure, mechanics and probability content stretched to STEP depth, and long solutions written in full.",
+    "month_5_step_pure": {
+      "title": "Month 5: STEP Pure Mathematics",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: How STEP Is Built, and Pure Problems That Take Time",
+        "topics": [
+          "OCR's STEP format: 3 hours, 12 questions, each worth 20 marks, with the six highest-scoring answers counted",
+          "STEP 2 built on A Level Maths and AS Further Maths pure content; STEP 3 on A Level Further Maths pure content, with OCR's additions",
+          "Choosing questions in the first ten minutes",
+          "Algebra and functions problems with several connected parts",
+          "Inequalities proved, not just solved",
+          "Using the earlier parts of a question to unlock the later parts"
+        ],
+        "projects": [
+          "Two long original problems written up in full, then rewritten after detailed feedback"
+        ],
+        "practice": "One STEP-length problem per class, about 30 minutes each"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Calculus, Series and Complex Numbers at STEP Depth",
+        "topics": [
+          "Integration techniques: substitution, by parts and reduction formulae",
+          "Differential equations in context",
+          "Series, limits and careful approximation",
+          "Complex numbers and their geometry for STEP 3",
+          "Matrices and vectors as STEP uses them",
+          "Formulae OCR says candidates are expected to know, which go beyond the A levels"
+        ],
+        "projects": [
+          "A personal technique file: twelve methods, each with an original example"
+        ],
+        "practice": "STEP past papers worked from OCR's site and the Cambridge STEP Support Programme modules, reviewed in class",
+        "assessment": "Month 5 assessment: a timed 90-minute half paper of original STEP-style problems"
+      }
+    },
+    "month_6_step_applied_and_june": {
+      "title": "Month 6: Mechanics, Probability and the June 2027 Papers",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Mechanics and Probability Questions",
+        "topics": [
+          "Kinematics, forces and moments at STEP depth",
+          "Energy, momentum and collisions",
+          "Probability problems that need careful counting and conditional reasoning",
+          "Distributions and expectation in multi-part questions",
+          "Deciding whether an applied question suits you better than a pure one",
+          "Writing an applied solution: diagram, assumptions, equations and a conclusion"
+        ],
+        "projects": [
+          "Two applied problems of our own written up in full with diagrams"
+        ],
+        "practice": "Mixed long problems, one pure and one applied each week"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Full Papers and the June Sittings",
+        "topics": [
+          "Full 3-hour practice papers under exam conditions",
+          "Clear, logical and legible working, as OCR's specification asks",
+          "Final review of each student's error log",
+          "OCR's 2027 dates: STEP 2 on 14 June 2027 and STEP 3 on 21 June 2027, with results on 12 August 2027",
+          "Registering through your school or college between 1 March and 4 May 2027",
+          "Moving on to university mathematics with good habits"
+        ],
+        "projects": [
+          "A final full paper reviewed one to one with the teacher"
+        ],
+        "practice": "Light, steady problem practice in the last week before each paper",
+        "assessment": "Final assessment: a full timed STEP-style paper of original problems plus a short conversation about method choices"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the TMUA?",
+      "answer": "The Test of Mathematics for University Admission, run by UAT-UK. Its specification lists two 75-minute papers of 20 multiple-choice questions each: Paper 1, Applications of Mathematical Knowledge, and Paper 2, Mathematical Reasoning. There are no calculators and no formula booklet, and wrong answers carry no penalty."
+    },
+    {
+      "question": "Has the Oxford MAT been replaced by the TMUA?",
+      "answer": "Yes. Oxford's Mathematical Institute says \"The MAT will not take place, and all applicants for Mathematics or Computer Science (including joint honours courses) will take the TMUA instead.\" It describes the MAT as a test used from 2007 to 2025. Oxford's MAT past papers and solutions are still published and remain good problem-solving practice."
+    },
+    {
+      "question": "Which universities use the TMUA?",
+      "answer": "UAT-UK's course list for 2027 entry names Durham University, Imperial College London, the London School of Economics, the University of Cambridge, the University of Oxford, the University of Warwick and UCL, for some courses in mathematics, economics or computer science. Requirements differ by course, and some list it as recommended rather than compulsory, so always check each university's own course page."
+    },
+    {
+      "question": "When is the TMUA?",
+      "answer": "For 2027 entry, UAT-UK ran an October sitting from 12 to 16 October 2026, with booking closed on 28 September 2026 and results due on Monday 16 November 2026, and runs a January sitting from 4 to 8 January 2027. Most Oxford and Cambridge applicants must sit in October. Dates for 2028 entry will appear on UAT-UK's site."
+    },
+    {
+      "question": "Do I really need a preparation course for the TMUA?",
+      "answer": "Cambridge says there is \"no need to take a preparation course or to do much preparation beyond familiarising yourself with the test format\", and UAT-UK publishes free practice materials. We agree that tricks are not the point. This course is for students who want regular, guided work on hard problems, logic and proof with a teacher, and it continues into STEP, which needs much more sustained practice."
+    },
+    {
+      "question": "What is STEP and who needs it?",
+      "answer": "STEP is the Sixth Term Examination Paper, administered by OCR. OCR says it is used by the University of Cambridge, the University of Warwick and Imperial College London, and Cambridge says it is part of almost all of its conditional offers for Mathematics. There are two papers, STEP 2 and STEP 3, and offers usually name one or both."
+    },
+    {
+      "question": "How is STEP structured, and when is it in 2027?",
+      "answer": "OCR's specification says each STEP paper is 3 hours with 12 questions: eight pure, two mechanics and two probability and statistics, each worth 20 marks, and only the six highest-scoring answers count. Calculators are not permitted. OCR lists STEP 2 on 14 June 2027 and STEP 3 on 21 June 2027, with registration through a school or college from 1 March to 4 May 2027."
+    },
+    {
+      "question": "Do I need Further Maths?",
+      "answer": "For the TMUA, UAT-UK says the content is typically covered in Higher GCSE maths or AS level maths. For STEP, OCR bases STEP 2 on A Level Maths and AS Further Maths pure content and STEP 3 on A Level Further Maths pure content, so Further Maths matters a great deal for the STEP stage."
+    },
+    {
+      "question": "Do you use real past papers?",
+      "answer": "Yes, where they are published, and on the publishers' own sites: UAT-UK's practice papers, Oxford's MAT archive, OCR's STEP past papers and Cambridge's STEP Support Programme. Our own class problems and mock papers are original and written by us. We never copy official questions into our materials."
+    },
+    {
+      "question": "Can you guarantee a high TMUA score or a STEP grade?",
+      "answer": "No, and nobody honest can. Results depend on the student, the paper and the work they put in. What we give is steady practice on hard problems, written feedback on proofs and solutions, and a monthly timed paper."
+    },
+    {
+      "question": "Are you connected with UAT-UK, OCR, Oxford or Cambridge?",
+      "answer": "No. We are an independent online school and are not connected with or endorsed by UAT-UK, OCR or any university. Students register for the TMUA through UAT-UK and for STEP through their school or college, and should always check current dates and rules on the official sites."
+    },
+    {
+      "question": "How are the classes run, and can we try one?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group batch of 15 to 20 students or 1-on-1. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The first class is free, and there is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Starting profile with target tests and ten solved warm-ups",
+      "Original factorisation, geometry and calculus problem packs",
+      "A logic glossary and five proofs written twice",
+      "Deliberately flawed proofs swapped and corrected in class",
+      "Full TMUA-style practice papers with written reviews",
+      "Long STEP-style solutions rewritten after detailed feedback, and a technique file"
+    ],
+    "total_projects_built": "A course of solved original problems, written proofs and full STEP-style solutions, reviewed official practice papers, an error log and a timed-paper history",
+    "skills_mastered": [
+      "A Level pure mathematics without a calculator or formula booklet",
+      "Logic: implication, necessary and sufficient conditions and quantifiers",
+      "Proof by direct argument, cases, contradiction, counterexample and induction",
+      "Finding the error in a flawed argument",
+      "Multi-part STEP problems in pure, mechanics and probability",
+      "Clear, complete written solutions",
+      "Pacing 75-minute and 3-hour papers"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week",
+      "practice": "A problem set after every class, with one longer problem to write up in full",
+      "review": "Written feedback on proofs and long solutions, a timed paper every month and a monthly error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not a UAT-UK, OCR or university document or result. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with timed-paper results and next steps",
+      "free_official_materials": "UAT-UK practice papers and Notes on Logic and Proof, Oxford's MAT archive, OCR's STEP past papers and the Cambridge STEP Support Programme, used where they are published"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Taking A Level Maths (Further Maths strongly advised for the STEP stage) and confident with GCSE Higher content",
+    "age": "Roughly 16 to 18, in Year 12 or Year 13, or the equivalent in another system",
+    "equipment": "A computer with stable internet, paper and a pencil, and a way to share photos of written solutions",
+    "registration": "TMUA bookings are made through UAT-UK and STEP entries through a school or college, not through us",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "year_12_students": "Year 12 students planning to apply for mathematics, computer science or economics and expecting to sit the TMUA in Year 13",
+    "oxford_and_cambridge_applicants": "Oxford and Cambridge maths and computer science applicants, now sitting the TMUA",
+    "offer_holders": "Year 13 students holding or expecting an offer that names STEP 2 or STEP 3",
+    "international_students": "Students on IB, Scottish Highers or other systems applying to UK maths degrees",
+    "problem_lovers": "Students who simply enjoy hard problems and want to go beyond the school syllabus"
+  },
+  "career_paths_after_completion": [
+    "Mathematics, computer science, economics, physics or engineering at university",
+    "A Level Further Maths in more depth through our A Level Further Maths course",
+    "Olympiad-style problem solving through our olympiad mathematics course",
+    "Programming and algorithms, where proof and logic are everyday tools",
+    "Research-style projects and mathematics competitions"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes.",
+    "original_problems": "Every class problem and mock paper is our own; official papers are used only where they are published.",
+    "written_feedback": "Detailed written feedback on proofs and long solutions every week.",
+    "honesty": "We quote the universities' own advice on preparation and promise learning, never scores, offers or places.",
+    "independence": "We are independent of UAT-UK, OCR and every university.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "slug": "shsat-math-prep-course",
+    "date": "2026-10-31",
+    "title": "SHSAT Math Prep: NYC Specialized High Schools Test",
+    "description": "Live online SHSAT math prep for grades 7 to 9: the new computer-adaptive SHSAT's 50 math questions, multi-step problems, no calculator, with timed digital practice.",
+    "keywords": [
+      "shsat math prep",
+      "shsat prep online",
+      "shsat math practice",
+      "shsat computer adaptive test",
+      "specialized high schools admissions test math",
+      "shsat 2027",
+      "shsat tutoring nyc",
+      "shsat grade 9 test",
+      "hunter college high school entrance exam math",
+      "boston exam schools map test math",
+      "nyc specialized high school test prep",
+      "shsat math topics"
+    ],
+    "category": "Test Prep for Teens: SHSAT Math",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks) per cycle, joinable any month; families usually start in grade 7 for the fall test in grade 8",
+    "level": "Students in grades 7 to 9 (roughly ages 12 to 15) who are confident with grade-level math and want to work on harder multi-step problems",
+    "commitment": "2 live classes/week + weekly problem sets, no-calculator drills and a monthly timed digital-style practice section",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not an NYC Public Schools document or score)",
+    "image_path": "shsat-math-prep.webp",
+    "dateModified": "2026-10-31"
+  },
+  "program_overview": {
+    "title": "SHSAT Math Prep: NYC Specialized High Schools Test",
+    "tagline": "Grade-level math, used in unfamiliar multi-step problems, one question at a time and without a calculator: the exact habits the new adaptive SHSAT rewards.",
+    "description": "New York City Public Schools describes the Specialized High Schools Admissions Test (SHSAT) as \"the exam used as the sole factor to determine admissions to New York City's Specialized High Schools (except LaGuardia High School, whose admissions are determined through an audition process).\" The eight testing schools it lists are Bronx High School of Science, Brooklyn Latin School, Brooklyn Technical High School, High School for Math, Science and Engineering at City College, High School of American Studies at Lehman College, Queens High School for Sciences at York College, Staten Island Technical High School and Stuyvesant High School. The test is for New York City residents in grade 8, or in grade 9 for the first time.\n\nThe test changed in fall 2026. NYC Public Schools says: \"Beginning in fall 2026, the SHSAT will move to a computer-adaptive test.\" There are two sections, \"50 questions per section\", and a standard test time of 180 minutes. The math section \"includes questions about ratios and proportional relationships, number system and expressions, equations, inequalities, statistics and probability, and geometry\", with multiple-choice, fill-in-the-blank and technology-enhanced items. In the math section students \"will not be able to return to the question after they have advanced.\" Each subject also has \"10 unscored field-test items\". The 2027 admissions guide says math questions on grade 8 forms \"are based on the New York State's learning standards through Grade 7\", that the math items \"will require you to apply familiar Math skills to complex, multi-step problems\", and that formulas \"will NOT be given\". Calculators are on the guide's list of items not to bring.\n\nThis course teaches that math in depth. Students build fluency and accuracy without a calculator, learn to set up multi-step word problems, master the grade 7 and grade 8 content the test draws on, and practice answering one question at a time with no going back, the way the adaptive test works. Practice uses our own original problems, plus the four free official practice tests on the NYC SHSAT Portal, which students take there. We never copy official test items.\n\nThe same grade-level math also supports two other selective-school tests. Hunter College High School's entrance exam (for 7th grade entry, on Wednesday, January 27, 2027) has a math section that, in Hunter's words, \"assesses students' understanding of mathematical concepts and their ability to apply mathematical reasoning and problem-solving skills\". Boston Public Schools uses a student's MAP Growth test score and GPA for its exam schools. We are independent of NYC Public Schools, Hunter College High School and Boston Public Schools, and we make no promise of scores or offers.",
+    "what_makes_this_different": [
+      "Built for the computer-adaptive SHSAT that NYC Public Schools introduced in fall 2026: 50 math questions, one at a time, no going back",
+      "No-calculator fluency taught on purpose: fractions, decimals, percents and negative numbers done fast and checked",
+      "Multi-step word problems broken into a repeatable routine: read, model, solve, check",
+      "Grade-matched content: the grade 7 standards behind grade 8 forms and the grade 8 standards behind grade 9 forms",
+      "Monthly timed practice sections of our own original problems, plus the four free official practice tests on the NYC SHSAT Portal",
+      "Honest about admissions: the SHSAT is the sole factor for the eight testing schools, and we promise learning, never a seat"
+    ],
+    "learning_path": {
+      "phase_1": "Number fluency without a calculator: rational numbers, fractions, percents, exponents and the routines that stop careless errors",
+      "phase_2": "The SHSAT math content areas in depth: ratios and proportions, expressions and equations, inequalities, statistics and probability, and geometry",
+      "phase_3": "Test craft for the adaptive format: one-question-at-a-time pacing, fill-in-the-blank accuracy, timed sections, review and a test-day plan"
+    },
+    "career_outcomes": [
+      "Fast, accurate arithmetic with fractions, decimals, percents and negative numbers, without a calculator",
+      "A dependable routine for multi-step word problems",
+      "Secure algebra: expressions, equations and inequalities set up from words",
+      "Confidence with ratios, rates, percent change, probability and data",
+      "Geometry facts and formulas known by heart and used correctly",
+      "Calm pacing on a long, adaptive test where every question needs a real attempt"
+    ]
+  },
+  "phase_1_number_fluency": {
+    "title": "PHASE 1: Number Fluency Without a Calculator (Months 1-2, Weeks 1-8)",
+    "description": "The arithmetic that every SHSAT math question rests on, made fast and accurate, plus the reading routine for word problems.",
+    "month_1_rational_numbers": {
+      "title": "Month 1: Rational Numbers and the Problem Routine",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: How the Adaptive SHSAT Works and a Starting Diagnostic",
+        "topics": [
+          "The SHSAT in fall 2026 and after: two sections, 50 questions each, 180 minutes, choose which section to start",
+          "What computer-adaptive means: the next question depends on your answers so far",
+          "Why there is no going back in the math section, and what that changes about checking",
+          "A diagnostic of our own to find each student's starting point",
+          "The four-step routine: read, model, solve, check",
+          "Starting an error log on day one"
+        ],
+        "projects": [
+          "A personal starting profile: strengths, gaps and a target topic list"
+        ],
+        "practice": "Ten short original problems, each with the routine written out"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Fractions, Decimals and Negative Numbers",
+        "topics": [
+          "Adding, subtracting, multiplying and dividing fractions and mixed numbers",
+          "Converting between fractions, decimals and percents in your head",
+          "Operations with negative numbers and absolute value",
+          "Order of operations in long expressions",
+          "Estimation as a check before you commit to an answer",
+          "Repeating decimals and when a fraction is easier"
+        ],
+        "projects": [
+          "A no-calculator speed sheet of our own, retaken weekly to track accuracy and time"
+        ],
+        "practice": "Daily ten-minute fluency drills",
+        "assessment": "Month 1 check: a timed set of original computation and word problems"
+      }
+    },
+    "month_2_number_system_and_exponents": {
+      "title": "Month 2: Number System, Exponents and Percents",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Factors, Primes, Exponents and Roots",
+        "topics": [
+          "Factors, multiples, primes, greatest common factor and least common multiple",
+          "Divisibility rules used to save time",
+          "Integer exponents and the laws of exponents",
+          "Square roots, cube roots and estimating irrational numbers (grade 8 content)",
+          "Scientific notation and operations with it",
+          "Remainders and patterns in long lists"
+        ],
+        "projects": [
+          "An original number-puzzle set, each solution explained in two sentences"
+        ],
+        "practice": "Mixed number-system problems timed at about a minute and a half each"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Percents, Percent Change and Multi-Step Number Problems",
+        "topics": [
+          "Percent of a number, percent increase and decrease in one step",
+          "Successive percent changes and why they do not simply add",
+          "Discounts, tax, tips and simple interest",
+          "Working backwards from a final amount to the original",
+          "Unit conversions inside a word problem",
+          "Combining two or three skills in one problem"
+        ],
+        "projects": [
+          "Write and solve three original multi-step percent problems for a classmate"
+        ],
+        "practice": "Multi-step word problems, each solved with the four-step routine",
+        "assessment": "Phase 1 assessment: a timed mixed set of original problems, one at a time with no going back"
+      }
+    }
+  },
+  "phase_2_content_areas": {
+    "title": "PHASE 2: The SHSAT Math Content Areas (Months 3-4, Weeks 9-16)",
+    "description": "Each content area NYC Public Schools names for the math section, taught at the depth multi-step questions need.",
+    "month_3_ratios_and_algebra": {
+      "title": "Month 3: Ratios, Expressions, Equations and Inequalities",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Ratios, Rates and Proportional Relationships",
+        "topics": [
+          "Ratios and part-to-part versus part-to-whole",
+          "Unit rates, speed, distance and time",
+          "Proportions solved by scaling and by cross multiplication",
+          "Recognising a proportional relationship in a table, graph or equation",
+          "Scale drawings and maps",
+          "Mixtures and work-rate problems at the right level"
+        ],
+        "projects": [
+          "A ratio problem pack of our own, each problem solved two ways"
+        ],
+        "practice": "Ratio and rate problems with a table or tape diagram drawn first"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Expressions, Linear Equations and Inequalities",
+        "topics": [
+          "Writing and simplifying expressions, combining like terms and the distributive property",
+          "Solving multi-step linear equations, including variables on both sides",
+          "Equations with fractions and decimals cleared in one move",
+          "Solving and graphing inequalities, and flipping the sign when multiplying by a negative",
+          "Translating words into equations accurately",
+          "Systems of two linear equations (grade 8 content) by substitution and elimination"
+        ],
+        "projects": [
+          "An equation-building challenge: turn ten original word problems into equations, then solve"
+        ],
+        "practice": "Fill-in-the-blank style answers: exact values, simplified fractions and no rounding slips",
+        "assessment": "Month 3 timed set: ratios and algebra, original problems"
+      }
+    },
+    "month_4_statistics_probability_geometry": {
+      "title": "Month 4: Statistics, Probability and Geometry",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Statistics and Probability",
+        "topics": [
+          "Mean, median, mode and range, and what changes when a value is added or removed",
+          "Using the total instead of the list in average problems",
+          "Reading tables, bar graphs, line plots and box plots",
+          "Probability of single and compound events",
+          "Counting outcomes with lists, trees and the multiplication rule",
+          "Samples and what they can tell you about a population"
+        ],
+        "projects": [
+          "Collect a small data set, summarize it and write three probability questions about it"
+        ],
+        "practice": "Statistics and probability problems of our own, timed"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Geometry and Measurement",
+        "topics": [
+          "Angle relationships: supplementary, complementary, vertical and angles with parallel lines",
+          "Area and perimeter of triangles, quadrilaterals, circles and composite shapes",
+          "Surface area and volume of prisms, cylinders, cones and spheres",
+          "The Pythagorean theorem and its converse (grade 8 content)",
+          "Transformations: translations, reflections, rotations and dilations",
+          "Formulas the guide says are NOT given, learned by heart and used correctly"
+        ],
+        "projects": [
+          "A personal formula sheet built from memory, then tested with original problems"
+        ],
+        "practice": "Shaded-region and three-dimensional problems with a labeled diagram every time",
+        "assessment": "Phase 2 assessment: a timed mixed section of original problems across all content areas"
+      }
+    }
+  },
+  "phase_3_adaptive_test_craft": {
+    "title": "PHASE 3: Test Craft for the Adaptive Format (Months 5-6, Weeks 17-24)",
+    "description": "Pacing, accuracy and calm on a long test where each question must be answered before the next appears.",
+    "month_5_pacing_and_accuracy": {
+      "title": "Month 5: One Question at a Time",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Pacing and Decision-Making",
+        "topics": [
+          "Planning time across ELA and math within 180 minutes",
+          "Why NYC Public Schools advises a best attempt on each item rather than rapid guessing near the end",
+          "Checking an answer before moving on, because there is no return in the math section",
+          "Using the on-screen notepad, pencil and answer eliminator tools the guide describes",
+          "Entering answers with the equation editor for fill-in-the-blank items",
+          "Getting unstuck: estimate, test a value, or draw it"
+        ],
+        "projects": [
+          "Two full timed math sections of our own, each followed by a written pacing review"
+        ],
+        "practice": "Students take one official practice test on the NYC SHSAT Portal and review it in class"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Weak-Spot Repair",
+        "topics": [
+          "Reading the error log to find the real weak topics",
+          "Targeted mini-lessons on each student's two weakest areas",
+          "Careless-error patterns and the checks that stop them",
+          "Hard multi-step problems combining fractions, equations and statistics",
+          "Grade 9 forms: the grade 8 standards for students testing in grade 9",
+          "A short personal checklist for every math question"
+        ],
+        "projects": [
+          "A weak-spot plan with three topics, each with a completed problem set"
+        ],
+        "practice": "Original problem sets on each student's weak topics",
+        "assessment": "Month 5 assessment: a full timed math section reviewed one to one with the teacher"
+      }
+    },
+    "month_6_final_practice_and_test_day": {
+      "title": "Month 6: Final Practice and Test Day",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Final Timed Practice",
+        "topics": [
+          "Final timed math sections in the adaptive, no-return style",
+          "A second official practice test on the NYC SHSAT Portal, reviewed in class",
+          "Reviewing the Student Readiness Tool so the platform feels familiar",
+          "Balancing practice and rest in the final weeks",
+          "What to bring and what not to bring, from the official guide",
+          "Reading the current NYC Public Schools dates and rules together"
+        ],
+        "projects": [
+          "A written test-day plan: section order, pacing checkpoints and checks"
+        ],
+        "practice": "Short daily sets that keep fluency sharp"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Test Week and Beyond",
+        "topics": [
+          "A calm test-day routine",
+          "After the test: what the student learned, whatever the result",
+          "For grade 7 students: a plan for the following fall",
+          "Moving on to algebra 1 and high school math with a strong base",
+          "Math contests and enrichment for students who enjoyed the challenge",
+          "Presenting a favorite problem to the class"
+        ],
+        "projects": [
+          "Write a full solution to your favorite problem of the course for a newer student"
+        ],
+        "practice": "A final mixed set of original problems",
+        "assessment": "Final assessment: a timed mixed math section plus a short conversation about the student's method choices"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the SHSAT?",
+      "answer": "It is the Specialized High Schools Admissions Test run by New York City Public Schools. NYC Public Schools calls it \"the exam used as the sole factor to determine admissions\" to its Specialized High Schools, except LaGuardia High School, which admits by audition. It is for NYC residents in grade 8, or in grade 9 for the first time."
+    },
+    {
+      "question": "Is the SHSAT computer adaptive now?",
+      "answer": "Yes. NYC Public Schools says \"Beginning in fall 2026, the SHSAT will move to a computer-adaptive test.\" Each section has 50 questions, the standard time is 180 minutes, and in the math section students cannot return to a question after moving on. Each subject also includes 10 unscored field-test items."
+    },
+    {
+      "question": "What math is on the SHSAT?",
+      "answer": "NYC Public Schools lists \"ratios and proportional relationships, number system and expressions, equations, inequalities, statistics and probability, and geometry\". The 2027 admissions guide says grade 8 forms are based on New York State standards through grade 7, and grade 9 forms on standards through grade 8. Questions are multiple choice, fill in the blank and technology-enhanced items."
+    },
+    {
+      "question": "Can you use a calculator on the SHSAT?",
+      "answer": "No. Calculators are on the official guide's list of items not to bring, and the guide says formulas will not be given. That is why this course trains arithmetic fluency and formula recall without a calculator from the first week."
+    },
+    {
+      "question": "When is the SHSAT in 2026?",
+      "answer": "NYC Public Schools lists fall 2026 dates of Wednesday, November 18 at school for grade 8 students in public middle schools that end in grade 8; Saturday, November 14 or Sunday, November 15 at a central site for other grade 8 students; and Saturday, November 21 for grade 9 students. Registration in MySchools closed on October 30. Families planning for the fall 2027 test should watch the NYC Public Schools site for new dates."
+    },
+    {
+      "question": "When should my child start preparing?",
+      "answer": "Many families start in grade 7, because the test is taken in the fall of grade 8. A student testing in grade 9 can also join, with extra attention to the grade 8 standards. In the free demo class the teacher looks at your child's current level and suggests a start date."
+    },
+    {
+      "question": "Do you use real SHSAT questions?",
+      "answer": "No. Our practice problems are original and written by us at the test's level. Students also take the four free official practice tests on the NYC SHSAT Portal, which mirror the real exam, and we review their reasoning in class. We never copy official items into our materials."
+    },
+    {
+      "question": "Does this course help with the Hunter College High School exam?",
+      "answer": "The math overlaps strongly. Hunter's exam, on Wednesday, January 27, 2027 for 7th grade entry, has reading, math and writing sections in three hours. Hunter also says it \"does not publish any portion of the actual exam and does not endorse any test preparation service or agency\", so we teach the math and reasoning, not imitation items. A strong sixth grader can join after the free demo class if the teacher agrees the level fits."
+    },
+    {
+      "question": "Does this course help with the Boston exam schools?",
+      "answer": "It builds the same grade-level math. Boston Public Schools uses a student's MAP Growth test score and GPA for exam school admission, and says applicants must take the MAP Growth test. Check Boston Public Schools' current pages for eligibility and dates."
+    },
+    {
+      "question": "Can you guarantee a Specialized High School seat?",
+      "answer": "No, and nobody honestly can. Seats depend on the student's score, their choices and the scores of other applicants. What the course gives is steady practice, monthly timed sections and a clear plan for every weak topic."
+    },
+    {
+      "question": "Are you connected with NYC Public Schools?",
+      "answer": "No. We are an independent online school and are not connected with or endorsed by New York City Public Schools, the Specialized High Schools, Hunter College High School or Boston Public Schools. Always check current rules and dates on their official sites."
+    },
+    {
+      "question": "How are the classes run, and can we try one?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group batch of 15 to 20 students or 1-on-1. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. The first class is free, with no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Starting profile and a weekly no-calculator speed sheet",
+      "Original number-puzzle and percent problem sets",
+      "Ratio problems solved two ways, and an equation-building challenge",
+      "A small data set summarized with probability questions",
+      "A personal formula sheet built from memory",
+      "Timed math sections with written pacing reviews and a test-day plan"
+    ],
+    "total_projects_built": "A course of solved original problems, reviewed official practice tests, an error log, a formula sheet and a timed-section history",
+    "skills_mastered": [
+      "Rational number fluency without a calculator",
+      "Exponents, roots, scientific notation and the number system",
+      "Ratios, rates, percents and proportional reasoning",
+      "Expressions, equations, inequalities and systems",
+      "Statistics, probability and counting",
+      "Geometry and measurement with formulas recalled",
+      "Pacing an adaptive, no-return math section"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week",
+      "practice": "A problem set after every class, with core and stretch problems, plus short fluency drills",
+      "review": "A timed math section every month and a monthly error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an NYC Public Schools document or SHSAT score. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with timed-section results and next steps",
+      "official_practice": "The four free official practice tests and the Student Readiness Tool on the NYC SHSAT Portal, taken where NYC Public Schools publishes them"
+    }
+  },
+  "prerequisites": {
+    "math_level": "Comfortable with math for the student's grade and happy to work on longer problems",
+    "age": "Grades 7 to 9, roughly ages 12 to 15. A strong grade 6 student preparing for Hunter may join after the demo class",
+    "equipment": "A computer with stable internet, paper and a pencil",
+    "eligibility": "SHSAT registration is for NYC residents and is done through MySchools, not through us",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "grade_7_students": "Grade 7 students planning to sit the SHSAT in the fall of grade 8",
+    "grade_8_students": "Grade 8 students who want focused practice before their test date",
+    "grade_9_students": "Grade 9 students taking their one grade 9 opportunity, with extra grade 8 content",
+    "selective_school_applicants": "Students preparing for the math on the Hunter College High School exam or building math for Boston's MAP Growth test",
+    "strong_math_students": "Students who find school math easy and want harder multi-step problems"
+  },
+  "career_paths_after_completion": [
+    "A strong start in algebra 1 and high school math",
+    "Math contests through our middle school math competitions course",
+    "SAT math later in high school through our SAT Math course",
+    "Coding and computer science, where the same problem-solving habits apply",
+    "Science, technology, engineering and math programs in high school"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes.",
+    "original_problems": "Every practice problem is our own; official practice tests are used only on the NYC SHSAT Portal.",
+    "adaptive_ready": "Practice in the one-question-at-a-time, no-return style of the fall 2026 adaptive SHSAT.",
+    "feedback": "A timed section every month, an error log and a monthly progress note to parents.",
+    "independence": "We are independent of NYC Public Schools and promise learning, never scores or seats.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

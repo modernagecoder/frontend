@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "slug": "a-level-computer-science-course-aqa-ocr",
+    "date": "2026-10-31",
+    "title": "A Level Computer Science for AQA 7517 and OCR H446",
+    "description": "Live online A Level Computer Science for AQA 7517 and OCR H446, ages 16 to 18: Python, both exam papers' topics, timed practice and NEA method mentoring.",
+    "keywords": [
+      "a level computer science aqa 7517",
+      "ocr h446 computer science",
+      "a level computer science tutor online",
+      "aqa a level computer science paper 1 skeleton program",
+      "ocr a level computer science programming project",
+      "a level computer science nea help",
+      "a level computer science python",
+      "aqa 7517 paper 2 revision",
+      "h446 computer systems paper 01",
+      "h446 algorithms and programming paper 02",
+      "a level computer science online classes uk",
+      "year 12 computer science"
+    ],
+    "category": "A Level Computer Science for Teens",
+    "taxonomy": "programming",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "9 months (36 weeks) covering the two-year content, joinable any month and paced to the student's year and board",
+    "level": "Year 12 and Year 13 students (roughly ages 16 to 18) on AQA 7517 or OCR H446; GCSE Computer Science helps but is not required",
+    "commitment": "2 live classes/week + weekly Python programming, written exam questions and a monthly timed paper",
+    "certification": "Certificate from Modern Age Coders, awarded on passing the final assessment (this is not an AQA or OCR qualification or result)",
+    "image_path": "a-level-computer-science-aqa-ocr.webp",
+    "dateModified": "2026-10-31"
+  },
+  "program_overview": {
+    "title": "A Level Computer Science for AQA 7517 and OCR H446",
+    "tagline": "Two boards, one discipline: write real Python, explain the theory in the words examiners mark, and run your own project with a method you understand.",
+    "description": "Two English exam boards set most A Level Computer Science entries, and they examine the same subject in different shapes. AQA's A Level 7517 has two exams worth 40% each and a project worth 20%. AQA's Paper 1 is an \"On-screen exam: 2 hours 30 minutes\" in which \"Students answer a series of short questions and write/adapt/extend programs in an Electronic Answer Document\", and AQA says it will \"issue Preliminary Material, a Skeleton Program (available in each of the Programming Languages) and, where appropriate, test data, for use in the exam.\" AQA's Paper 2 is a \"Written exam: 2 hours 30 minutes\" of \"Compulsory short-answer and extended-answer questions.\" AQA's entry options for the A Level are C# (7517A), Java (7517B), Python (7517D) and VB.Net (7517E).\n\nOCR's A Level H446 (OCR now calls itself Cambridge OCR: \"As of September 2025, our name is Cambridge OCR.\") also has two exams. Computer systems (01) and Algorithms and programming (02) are each a 140-mark, 2 hours and 30 minutes written paper with \"no calculators allowed\", and each is 40% of the A Level. The Programming project (03 or 04) is non-exam assessment worth 70 marks and 20%. Python is first on OCR's list of programming languages it will accept for the project.\n\nThis course teaches the content of both boards in Python, split into the two kinds of thinking the exams test: the programming and algorithms that AQA's Paper 1 and OCR's Paper 02 reward, and the systems theory that AQA's Paper 2 and OCR's Paper 01 reward. Each student works in a batch matched to their board, and every timed paper uses our own original questions written in that board's style. Students practise with the board's free past papers on the board's own website; we never copy board papers or mark schemes into our materials.\n\nThe NEA project is the student's own work. AQA asks teachers to sign that \"the work is solely that of the student concerned\", and OCR's specification says \"Students are not allowed help from anyone else. This includes: teachers, parents/carers and other students\". So we teach the method on our own practice projects (analysis, design, iterative development, testing and evaluation), and we never write, edit, review or comment on any part of a student's actual NEA. We are independent of AQA and OCR, and we make no promise of grades or university offers.",
+    "what_makes_this_different": [
+      "Board-matched batches: AQA 7517 students and OCR H446 students are taught the same ideas in the shape their own papers ask for",
+      "Python throughout, the language both boards offer, with real programs written and tested by the student every week",
+      "Skeleton-program practice for AQA Paper 1: reading, adapting and extending a large unfamiliar program under time, using our own practice programs",
+      "Written-answer craft for the theory papers: precise definitions, comparisons and extended answers taught as a skill",
+      "NEA method taught on practice projects only, so the student's real project stays entirely their own, as both boards require",
+      "A timed paper of original questions every month, marked with written feedback, plus the boards' free past papers worked on the boards' sites"
+    ],
+    "learning_path": {
+      "phase_1": "Programming and data foundations in Python: types, structures, files, object-oriented programming, number bases and the first written answers",
+      "phase_2": "The two exam disciplines: algorithms, data structures and theory of computation on one side; architecture, networks, databases, software and ethics on the other",
+      "phase_3": "Exam season and project method: skeleton-program and algorithms papers, extended theory answers, NEA method on a practice project, mocks and review"
+    },
+    "career_outcomes": [
+      "Fluent Python: writing, tracing, debugging and testing programs that do real work",
+      "A working command of the standard algorithms and data structures, with their time complexity explained",
+      "Clear written explanations of how computers, networks and databases work, in the vocabulary the boards use",
+      "The habit of reading a large unfamiliar program and changing it safely",
+      "A project method (analyse, design, build in iterations, test, evaluate) you can use on any software problem",
+      "A strong base for computer science, software engineering, data science or mathematics at university"
+    ]
+  },
+  "phase_1_python_and_data_foundations": {
+    "title": "PHASE 1: Python and Data Foundations (Months 1-3, Weeks 1-12)",
+    "description": "The programming every later topic depends on, taught in Python, with the data representation theory that both boards examine early.",
+    "month_1_programming_core": {
+      "title": "Month 1: Programming Core in Python",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: How the Boards Assess, and Python from Solid Ground",
+        "topics": [
+          "AQA 7517 and OCR H446 side by side: which paper tests programming, which tests theory, and how the project fits",
+          "A short diagnostic in Python and theory to set each student's starting point",
+          "Variables, data types, input and output, and why type matters",
+          "Selection and iteration written cleanly, with trace tables to check them",
+          "Subroutines with parameters and return values, and local versus global scope",
+          "Starting a personal code journal and an error log"
+        ],
+        "projects": [
+          "A unit converter with validated input, written as small tested subroutines"
+        ],
+        "practice": "Short daily programs plus trace-table exercises of our own design"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Strings, Lists, Files and Exceptions",
+        "topics": [
+          "String handling: slicing, searching, character codes and formatting",
+          "Lists and two-dimensional lists, and when a record or dictionary fits better",
+          "Reading and writing text files, and processing them line by line",
+          "Exception handling so a program fails politely instead of crashing",
+          "Random numbers and simple simulations",
+          "Writing pseudocode that matches the board's published style before writing Python"
+        ],
+        "projects": [
+          "A quiz engine that reads its questions from a file and saves scores back"
+        ],
+        "practice": "A set of original short-answer programming questions in the board's style",
+        "assessment": "Month 1 check: a short timed set of programming and tracing questions"
+      }
+    },
+    "month_2_object_oriented_and_structured": {
+      "title": "Month 2: Object-Oriented Programming and Program Structure",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Classes, Objects and Encapsulation",
+        "topics": [
+          "Classes, attributes, methods and constructors in Python",
+          "Encapsulation and private attributes, and why they protect a program",
+          "Inheritance and overriding a method",
+          "Polymorphism explained with a working example",
+          "Class diagrams drawn from code and code written from class diagrams",
+          "Aggregation and composition, and how exam questions describe them"
+        ],
+        "projects": [
+          "A small library system with a class hierarchy and a class diagram"
+        ],
+        "practice": "Read a short class-based program of our own, then extend it with one new subclass"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Reading Large Programs and Recursion",
+        "topics": [
+          "Reading a program you did not write: following the data, not the lines",
+          "Finding where to make a change and testing that nothing else broke",
+          "Recursion: base case, recursive case and the call stack",
+          "Recursive and iterative versions of the same algorithm compared",
+          "Testing with normal, boundary and erroneous data",
+          "Commenting and naming so a marker can follow your code"
+        ],
+        "projects": [
+          "Adapt and extend a 300-line practice program of our own in three requested ways"
+        ],
+        "practice": "Recursion tracing problems, each drawn as a call stack",
+        "assessment": "Month 2 timed task: a code-reading and extension exercise in the AQA Paper 1 or OCR Paper 02 style"
+      }
+    },
+    "month_3_data_representation": {
+      "title": "Month 3: Data Representation and Boolean Logic",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Numbers, Bases and Floating Point",
+        "topics": [
+          "Binary, denary and hexadecimal conversions done fast and checked",
+          "Two's complement for negative numbers and binary arithmetic",
+          "Fixed point and floating point representation, normalisation and precision",
+          "Rounding errors, overflow and underflow explained with examples",
+          "Character sets, ASCII and Unicode",
+          "Writing a Python tool that checks your own conversions"
+        ],
+        "projects": [
+          "A base-conversion and two's complement checker in Python"
+        ],
+        "practice": "Mixed number-representation questions with full working shown"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Images, Sound, Compression, Encryption and Boolean Algebra",
+        "topics": [
+          "Bitmap and vector graphics, resolution, colour depth and file-size calculations",
+          "Sampling sound: rate, resolution and the size of the file",
+          "Lossy and lossless compression, run-length encoding and dictionary methods",
+          "Encryption basics, and hashing as a different idea",
+          "Logic gates, truth tables and Boolean algebra simplification, including De Morgan's laws",
+          "Karnaugh maps for OCR students and Boolean identities for both boards"
+        ],
+        "projects": [
+          "A run-length encoder and decoder, with a written comparison of compression methods"
+        ],
+        "practice": "Boolean simplification problems and file-size calculations of our own design",
+        "assessment": "Phase 1 assessment: a mixed timed paper of original questions, programming and theory together"
+      }
+    }
+  },
+  "phase_2_the_two_exam_disciplines": {
+    "title": "PHASE 2: The Two Exam Disciplines (Months 4-6, Weeks 13-24)",
+    "description": "Algorithms and computation for the programming paper, and systems theory for the written paper, taught in alternating weeks so both stay sharp.",
+    "month_4_algorithms_and_structures": {
+      "title": "Month 4: Data Structures and Standard Algorithms",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Stacks, Queues, Linked Lists, Trees and Hash Tables",
+        "topics": [
+          "Stacks and queues, including circular and priority queues, built from lists",
+          "Linked lists: adding and removing nodes, drawn and coded",
+          "Binary trees and binary search trees, with pre-order, in-order and post-order traversal",
+          "Hash tables, hashing functions and handling collisions",
+          "Graphs: adjacency matrix and adjacency list, and when each is better",
+          "Dictionaries and vectors as AQA describes them"
+        ],
+        "projects": [
+          "Implement a stack, a queue and a binary search tree as Python classes with tests"
+        ],
+        "practice": "Draw-then-code exercises: every structure sketched before it is programmed"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Searching, Sorting, Graph Algorithms and Complexity",
+        "topics": [
+          "Linear and binary search, written and traced",
+          "Bubble, insertion, merge and quick sort, compared on real data",
+          "Breadth-first and depth-first traversal of a graph",
+          "Dijkstra's shortest path algorithm traced by hand and coded",
+          "A* search for OCR students, and why a heuristic helps",
+          "Big O notation: constant, logarithmic, linear, polynomial and exponential time"
+        ],
+        "projects": [
+          "A sorting race: time four sorts on growing lists and explain the results with Big O"
+        ],
+        "practice": "Algorithm tracing questions of our own, timed",
+        "assessment": "Month 4 timed paper: algorithms and data structures, original questions"
+      }
+    },
+    "month_5_computation_and_architecture": {
+      "title": "Month 5: Theory of Computation and Computer Architecture",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Abstraction, Automata and the Limits of Computation",
+        "topics": [
+          "Abstraction, decomposition and computational thinking as both boards describe them",
+          "Finite state machines with and without output, drawn and tabulated",
+          "Regular expressions and the languages they describe",
+          "Backus-Naur form and syntax diagrams",
+          "Turing machines and the idea of a universal machine (AQA)",
+          "Tractable, intractable and non-computable problems, and the Halting problem"
+        ],
+        "projects": [
+          "Code a finite state machine in Python that validates a postcode-style pattern"
+        ],
+        "practice": "State diagram and regular expression questions with written explanations"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Processors, Memory, Assembly and Operating Systems",
+        "topics": [
+          "The processor: ALU, control unit, registers and buses",
+          "The fetch-decode-execute cycle and the registers it uses",
+          "Factors affecting performance: cores, cache and clock speed",
+          "Assembly language, addressing modes and a little machine code",
+          "Operating systems: memory management, scheduling and interrupts",
+          "Translators: compilers, interpreters and assemblers, and the stages of compilation"
+        ],
+        "projects": [
+          "Write and trace a short assembly-style program in an online simulator"
+        ],
+        "practice": "Extended-answer questions on the processor, marked for precise vocabulary",
+        "assessment": "Month 5 timed paper: computation and architecture, original questions"
+      }
+    },
+    "month_6_networks_databases_and_society": {
+      "title": "Month 6: Networks, Databases, Software and Ethics",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Networks, the Internet and Web Technologies",
+        "topics": [
+          "Network topologies, protocols and the TCP/IP stack",
+          "Packet switching, routing, IP addressing and the domain name system",
+          "Network security: firewalls, encryption and common threats",
+          "Client-server and peer-to-peer models",
+          "HTML, CSS and JavaScript at the level OCR's Paper 01 expects",
+          "Search engine indexing and page rank in outline (OCR)"
+        ],
+        "projects": [
+          "A small client-server message program in Python on one machine"
+        ],
+        "practice": "Comparison questions: two technologies, three reasoned differences"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Databases, SQL, Big Data, Functional Programming and Ethics",
+        "topics": [
+          "Relational databases, keys, normalisation to third normal form and entity relationship diagrams",
+          "SQL: SELECT, JOIN, INSERT, UPDATE and DELETE, written and tested in Python with sqlite3",
+          "Transactions, ACID and record locking",
+          "Big Data and functional programming in outline for AQA, with map, filter and reduce in Python",
+          "Software development methods: waterfall, agile and the rest the boards name",
+          "Legal, moral, ethical and cultural issues, with UK legislation the boards list"
+        ],
+        "projects": [
+          "Design a normalised database for a club and query it with SQL from Python"
+        ],
+        "practice": "SQL writing tasks and a structured ethics essay plan",
+        "assessment": "Phase 2 assessment: a full-length timed theory paper of original questions"
+      }
+    }
+  },
+  "phase_3_exam_season_and_project_method": {
+    "title": "PHASE 3: Exam Season and Project Method (Months 7-9, Weeks 25-36)",
+    "description": "The final three months build exam speed on both papers and teach the project method on a practice project, never the student's own NEA.",
+    "month_7_programming_paper_craft": {
+      "title": "Month 7: Programming Paper Craft",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Skeleton Programs and Pre-Release Thinking (AQA) and Algorithms Under Time (OCR)",
+        "topics": [
+          "AQA: studying a large practice skeleton program of our own in the days before a mock",
+          "AQA: predicting the kinds of change a question might ask for, then practising them",
+          "AQA: working in an Electronic Answer Document style, pasting code and evidence",
+          "OCR: answering algorithm questions in the pseudocode format OCR publishes, or in Python",
+          "OCR: writing, tracing and correcting code on paper without a computer",
+          "Both: pacing a 2 hours 30 minutes paper"
+        ],
+        "projects": [
+          "A full mock of the programming paper for the student's board, written by us"
+        ],
+        "practice": "Two timed code-change exercises per week on practice programs"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: The Questions That Separate Answers",
+        "topics": [
+          "Questions that ask why one algorithm or structure suits a problem better",
+          "Complexity questions answered with a reason, not just a symbol",
+          "Object-oriented design questions: classes, inheritance and diagrams",
+          "Testing questions: choosing test data and explaining its purpose",
+          "Common slips in tracing and how to stop making them",
+          "Reviewing a marked mock and rewriting the weakest answers"
+        ],
+        "projects": [
+          "A personal answer bank: ten of your own corrected answers to hard question types"
+        ],
+        "practice": "Board past papers worked on the board's website, reviewed in class against the student's own reasoning",
+        "assessment": "Month 7 mock: the programming paper for the student's board, marked with written feedback"
+      }
+    },
+    "month_8_theory_paper_craft_and_project_method": {
+      "title": "Month 8: Theory Paper Craft and Project Method",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Extended Answers on the Theory Paper",
+        "topics": [
+          "Reading the command word: state, describe, explain, compare, evaluate",
+          "Planning a long answer in three minutes and writing it in ten",
+          "Using precise technical terms instead of everyday words",
+          "Calculation questions: file sizes, floating point and Boolean simplification",
+          "Linking topics: an answer about networks that uses security and protocols together",
+          "Self-marking against a level-of-response style of our own"
+        ],
+        "projects": [
+          "A set of model extended answers written by the student and improved after feedback"
+        ],
+        "practice": "One timed extended answer every class"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: The Project Method on a Practice Project",
+        "topics": [
+          "What the boards mark in a project: for AQA, Analysis 9, Documented design 12, Technical solution 42, Testing 8 and Evaluation 4 marks out of 75",
+          "For OCR: Analysis of the problem 10, Design of the solution 15, Developing the solution 25 and Evaluation 20 marks out of 70",
+          "Choosing a problem with enough technical depth, and identifying real users",
+          "Designing in iterations, prototyping early and tackling the hardest part first",
+          "Testing evidence and evaluation against measurable success criteria",
+          "Acknowledging sources and AI use, as JCQ and the boards require, and why only your own work earns marks"
+        ],
+        "projects": [
+          "A small practice project of our own choosing, taken from analysis to evaluation in class, entirely separate from the student's NEA"
+        ],
+        "practice": "Write success criteria and a test plan for the practice project",
+        "assessment": "Month 8 mock: the theory paper for the student's board, marked with written feedback"
+      }
+    },
+    "month_9_mocks_and_final_review": {
+      "title": "Month 9: Full Mocks and Final Review",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
+        "title": "Weeks 33-34: Back-to-Back Mocks",
+        "topics": [
+          "A full mock of each paper for the student's board, in exam conditions",
+          "Reviewing every lost mark and sorting it into knowledge, method or slip",
+          "Targeted mini-lessons on each student's two weakest topics",
+          "Speed drills on the calculation and tracing questions",
+          "Rewriting the weakest extended answers",
+          "Checking the board's current specification and dates together"
+        ],
+        "projects": [
+          "A personal revision plan based on the mock evidence"
+        ],
+        "practice": "Short daily mixed questions across both papers"
+      },
+      "week_35_36": {
+        "title": "Weeks 35-36: Final Review and Next Steps",
+        "topics": [
+          "Last review of programming: tracing, recursion, object-oriented design and algorithms",
+          "Last review of theory: architecture, networks, databases and ethics",
+          "Exam-day routine for a 2 hours 30 minutes paper",
+          "University courses in computer science and what they expect",
+          "Contests and projects to keep programming after the exams",
+          "Presenting a favourite program of the year to the class"
+        ],
+        "projects": [
+          "A final portfolio of the student's own practice programs from the year"
+        ],
+        "practice": "One last timed mixed paper of original questions",
+        "assessment": "Final assessment: a timed mixed paper plus a short conversation about the student's own code"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "Which exam boards does this course cover?",
+      "answer": "AQA A Level Computer Science (7517) and OCR A Level Computer Science (H446), now branded Cambridge OCR. Students are taught in batches matched to their board, so each timed paper follows the shape of their own exams. A student on another board can ask in the free demo class, but the course is built around these two."
+    },
+    {
+      "question": "How are the AQA 7517 exams structured?",
+      "answer": "AQA lists Paper 1 as an \"On-screen exam: 2 hours 30 minutes\" worth 40% of the A Level, where students write, adapt and extend programs using AQA's Preliminary Material and Skeleton Program. Paper 2 is a \"Written exam: 2 hours 30 minutes\" worth 40%. The non-exam assessment project is 75 marks and 20% of the A Level."
+    },
+    {
+      "question": "How are the OCR H446 exams structured?",
+      "answer": "OCR's specification lists Computer systems (01) and Algorithms and programming (02) as 140-mark written papers of 2 hours and 30 minutes each, with no calculators allowed, each worth 40%. The Programming project is non-exam assessment worth 70 marks and 20% of the A Level."
+    },
+    {
+      "question": "Which programming language do you teach?",
+      "answer": "Python. AQA's A Level entry options are C#, Java, Python and VB.Net, and Python is first on OCR's list of languages it accepts for the project. If a school has entered a student for a different AQA language, tell us in the demo class so we can discuss whether this course fits."
+    },
+    {
+      "question": "Will you help with my NEA project?",
+      "answer": "We teach the project method on our own practice projects: choosing a problem, analysis, design, iterative development, testing and evaluation. We never write, edit, review or comment on any part of a student's actual NEA. AQA asks teachers to confirm the work is \"solely that of the student concerned\", and OCR says \"Students are not allowed help from anyone else\", so the project must stay entirely the student's own."
+    },
+    {
+      "question": "Do you use past papers?",
+      "answer": "Yes, the way the boards publish them. Students work the boards' free past papers and specimen papers on the boards' own websites and we review their reasoning in class. Our own mocks and practice questions are written by us in each board's style; we never copy board papers or mark schemes into our materials."
+    },
+    {
+      "question": "Can a Year 13 student join partway through?",
+      "answer": "Yes. A Year 13 student joins the current month and also gets a catch-up plan for any earlier topic their school has not covered well. In the final months the course focuses on mocks, weak topics and exam technique for both papers."
+    },
+    {
+      "question": "Do I need GCSE Computer Science?",
+      "answer": "No, but it helps. A student without it should be comfortable with GCSE Maths and willing to program every week. The first month rebuilds Python from solid ground so that nobody is left behind."
+    },
+    {
+      "question": "Will this course guarantee an A or A* or a university offer?",
+      "answer": "No, and nobody honest can promise that. Results depend on the student, the papers and the work they put in. What the course gives is steady programming practice, monthly timed papers with written feedback and a clear plan for each weak topic."
+    },
+    {
+      "question": "Are you connected with AQA or OCR?",
+      "answer": "No. We are an independent online school and are not connected with, endorsed by or approved by AQA, OCR or any exam board. The course follows the boards' published specifications, and students should always check current details with their school and the board."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live online classes, twice a week, with a real teacher, in a group batch of 15 to 20 students or 1-on-1. Batches are matched to the student's board. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. The first class is free. The teacher works through a short Python task and one theory question with the student, checks their board and year, and recommends a group batch or 1-on-1. There is no obligation to enrol."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Unit converter and file-based quiz engine in Python",
+      "Library system with a class hierarchy and class diagram",
+      "Extension of a 300-line practice program in three requested ways",
+      "Base-conversion checker and run-length encoder",
+      "Stack, queue and binary search tree classes with tests",
+      "A sorting race explained with Big O, and a finite state machine validator",
+      "A normalised club database queried with SQL from Python",
+      "A practice project taken from analysis to evaluation, separate from the NEA"
+    ],
+    "total_projects_built": "A year of the student's own Python programs, a practice project with full documentation, an answer bank of corrected exam answers and a mock-paper history for both papers",
+    "skills_mastered": [
+      "Python programming, tracing, debugging and testing",
+      "Object-oriented design and recursion",
+      "Data structures and standard algorithms with Big O",
+      "Theory of computation: state machines, regular expressions and computability",
+      "Architecture, operating systems, networks and databases",
+      "Precise extended written answers in the boards' vocabulary",
+      "A full software project method from analysis to evaluation"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, in batches matched to AQA 7517 or OCR H446",
+      "practice": "A programming task and a short set of written questions after every class",
+      "review": "A timed paper of original questions every month, with written feedback and an error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an AQA or OCR qualification or result. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes for course work and practice programs, with hints first; NEA questions are never answered, as the boards require",
+      "progress_updates": "A monthly progress note to parents with mock results and next steps",
+      "board_resources": "The boards' free specifications, past papers and specimen materials, used where the boards publish them"
+    }
+  },
+  "prerequisites": {
+    "programming": "None required to start; the first month rebuilds Python from the beginning. Any GCSE Computer Science or prior coding helps",
+    "maths": "Comfortable with GCSE Maths, especially algebra and number",
+    "age": "Roughly 16 to 18, in Year 12 or Year 13 on AQA 7517 or OCR H446",
+    "equipment": "A computer with stable internet and Python installed (we help set it up in the first class)",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays"
+  },
+  "who_is_this_for": {
+    "on_7517": "Year 12 and 13 students on AQA 7517 who want confident Python for Paper 1 and clear theory for Paper 2",
+    "on_H446": "Year 12 and 13 students on OCR H446 preparing for Computer systems (01) and Algorithms and programming (02)",
+    "new_to_the_subject": "Students who started A Level Computer Science without GCSE Computer Science and need the foundations quickly",
+    "strong_coders": "Students who already code well but lose marks on written theory answers",
+    "future_university_applicants": "Students planning to apply for computer science, engineering or mathematics at university"
+  },
+  "career_paths_after_completion": [
+    "Computer science, software engineering or data science at university",
+    "Mathematics or engineering degrees that use programming heavily",
+    "Data structures and algorithms in more depth through our DSA and competitive programming courses",
+    "Degree apprenticeships in software development",
+    "Personal projects, open-source work and programming contests"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes, matched to the student's board.",
+    "original_materials": "Every mock and practice question is our own, written in each board's style; board papers are used only where the boards publish them.",
+    "project_integrity": "We teach the project method on practice projects and never write, edit, review or comment on a student's actual NEA.",
+    "feedback": "Written feedback on every monthly paper and a monthly progress note to parents.",
+    "independence": "We are independent of AQA and OCR, and we promise learning, never grades or offers.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}
