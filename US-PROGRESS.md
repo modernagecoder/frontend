@@ -369,7 +369,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US060 | dual-enrollment-math-help (dem, #795200) | college credit | 3,379 | 1.4% vs clep-college-algebra-prep | exam door | original worked example | 83e2c6fd |
 | US062 | clep-calculus-prep (cle, #004869) | college credit | 3,583 | 1.3% vs clep-college-algebra-prep | exam door | original worked example | 3e5126c7 |
 | US026 | keystone-algebra-1-prep (kea, #756127) | state tests | 4,450 | 1.5% vs algebra-1-eoc-prep | exam door | original worked example | 0317857f |
-| US094 | us-state-math-tests-by-state (usst, #3F5E7A) | index | 4,987 | 1.2% vs caaspp-math-practice | exam door | original worked example | (this commit) |
+| US094 | us-state-math-tests-by-state (usst, #3F5E7A) | index | 4,987 | 1.2% vs caaspp-math-practice | exam door | original worked example | 4b0ad5af |
+| US095 | us-gifted-and-selective-school-tests-guide (usgs, #3B4F8C) | index | 5,006 | 1.3% vs cogat-test-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

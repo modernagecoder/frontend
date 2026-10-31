@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [US gifted and selective school tests guide](/us-gifted-and-selective-school-tests-guide)
 - [US state math tests by state](/us-state-math-tests-by-state)
 - [Keystone Algebra I prep](/keystone-algebra-1-prep)
 - [CLEP Calculus prep](/clep-calculus-prep)
