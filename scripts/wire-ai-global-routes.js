@@ -673,6 +673,7 @@ const SLUGS = [
   '13-plus-scholarship-maths-preparation',
   '7-plus-maths-preparation',
   '16-plus-sixth-form-entrance-maths',
+  'ukiset-maths-reasoning-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1425,6 +1426,7 @@ const LLMS_LABELS = {
   '13-plus-scholarship-maths-preparation': '13 plus scholarship maths preparation',
   '7-plus-maths-preparation': '7 plus maths preparation',
   '16-plus-sixth-form-entrance-maths': '16 plus sixth form entrance maths',
+  'ukiset-maths-reasoning-practice': 'UKiset maths reasoning practice',
 };
 
 function wireLlms(slugs) {

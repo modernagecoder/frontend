@@ -8674,4 +8674,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /16-plus-sixth-form-entrance-maths /src/pages/16-plus-sixth-form-entrance-maths.html 200
 /16-plus-sixth-form-entrance-maths.md /src/pages/16-plus-sixth-form-entrance-maths.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ukiset-maths-reasoning-practice /src/pages/ukiset-maths-reasoning-practice.html 200
+/ukiset-maths-reasoning-practice.md /src/pages/ukiset-maths-reasoning-practice.md 200
 /* /src/pages/404.html 404
