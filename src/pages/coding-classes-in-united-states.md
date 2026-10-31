@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [STAAR Algebra 1 EOC prep](/staar-algebra-1-eoc-prep)
 - [STAAR math tutoring](/staar-math-tutoring)
 - [PreACT math prep](/preact-math-prep)
 - [PSAT 8/9 and PSAT 10 math prep](/psat-8-9-math-prep)

@@ -320,7 +320,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US055 | psat-math-prep (psx, #8C4568) | college admissions | 3,839 | 1.9% vs tsia2-math-prep | exam door | original worked example | 9e0c34d1 |
 | US056 | psat-8-9-math-prep (psa, #626D21) | college admissions | 3,662 | 2.3% vs psat-math-prep | exam door | original worked example | 07a6cec3 |
 | US057 | preact-math-prep (prx, #0D6677) | college admissions | 3,715 | 1.6% vs accuplacer-math-prep | exam door | original worked example | 4f7746d6 |
-| US014 | staar-math-tutoring (sttu, #254B3D) | state tests | 4,566 | 1.1% vs common-core-math-tutor | exam door | original worked example | (this commit) |
+| US014 | staar-math-tutoring (sttu, #254B3D) | state tests | 4,566 | 1.1% vs common-core-math-tutor | exam door | original worked example | 482794f3 |
+| US015 | staar-algebra-1-eoc-prep (sae, #5C412C) | state tests | 3,929 | 1.5% vs staar-math-tutoring | exam door | original worked example | (this commit) |
 
 ## Skipped
 

@@ -622,6 +622,7 @@ const SLUGS = [
   'ks1-maths-tuition-online',
   'year-5-maths-tutor-online',
   'staar-math-tutoring',
+  'staar-algebra-1-eoc-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1323,6 +1324,7 @@ const LLMS_LABELS = {
   'ks1-maths-tuition-online': 'KS1 maths tuition online',
   'year-5-maths-tutor-online': 'Year 5 maths tutor online',
   'staar-math-tutoring': 'STAAR math tutoring',
+  'staar-algebra-1-eoc-prep': 'STAAR Algebra 1 EOC prep',
 };
 
 function wireLlms(slugs) {

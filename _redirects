@@ -8470,4 +8470,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /staar-math-tutoring /src/pages/staar-math-tutoring.html 200
 /staar-math-tutoring.md /src/pages/staar-math-tutoring.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/staar-algebra-1-eoc-prep /src/pages/staar-algebra-1-eoc-prep.html 200
+/staar-algebra-1-eoc-prep.md /src/pages/staar-algebra-1-eoc-prep.md 200
 /* /src/pages/404.html 404
