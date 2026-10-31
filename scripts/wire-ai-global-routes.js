@@ -598,6 +598,7 @@ const SLUGS = [
   'tsia2-math-prep',
   'clep-college-algebra-prep',
   'psat-math-prep',
+  'psat-8-9-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1275,6 +1276,7 @@ const LLMS_LABELS = {
   'tsia2-math-prep': 'TSIA2 math prep',
   'clep-college-algebra-prep': 'CLEP College Algebra prep',
   'psat-math-prep': 'PSAT math prep',
+  'psat-8-9-math-prep': 'PSAT 8/9 and PSAT 10 math prep',
 };
 
 function wireLlms(slugs) {
