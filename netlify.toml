@@ -28657,6 +28657,18 @@
   to = "/src/pages/ocr-a-level-maths-h240-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ocr-mei-a-level-maths-h640-help"
+  to = "/src/pages/ocr-mei-a-level-maths-h640-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/ocr-mei-a-level-maths-h640-help.md"
+  to = "/src/pages/ocr-mei-a-level-maths-h640-help.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

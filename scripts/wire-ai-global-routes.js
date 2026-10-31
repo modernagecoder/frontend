@@ -694,6 +694,7 @@ const SLUGS = [
   'ib-maths-ai-sl-tutor-online',
   'ib-extended-essay-maths-computer-science-mentoring',
   'ocr-a-level-maths-h240-help',
+  'ocr-mei-a-level-maths-h640-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1467,6 +1468,7 @@ const LLMS_LABELS = {
   'ib-maths-ai-sl-tutor-online': 'IB Maths AI SL tutor online',
   'ib-extended-essay-maths-computer-science-mentoring': 'IB Extended Essay in maths or computer science',
   'ocr-a-level-maths-h240-help': 'OCR A level Maths H240 help',
+  'ocr-mei-a-level-maths-h640-help': 'OCR MEI A level Maths H640 help',
 };
 
 function wireLlms(slugs) {

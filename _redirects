@@ -8758,4 +8758,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ocr-a-level-maths-h240-help /src/pages/ocr-a-level-maths-h240-help.html 200
 /ocr-a-level-maths-h240-help.md /src/pages/ocr-a-level-maths-h240-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ocr-mei-a-level-maths-h640-help /src/pages/ocr-mei-a-level-maths-h640-help.html 200
+/ocr-mei-a-level-maths-h640-help.md /src/pages/ocr-mei-a-level-maths-h640-help.md 200
 /* /src/pages/404.html 404
