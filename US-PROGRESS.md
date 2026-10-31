@@ -303,7 +303,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US007 | accelerated-math-program-online (acpr, #1A7551) | placement and tracks | 3,958 | 1.9% vs common-core-math-tutor | exam door | original worked example | ac374c70 |
 | US008 | middle-school-math-placement-test-prep (msp, #5A6416) | placement and tracks | 4,186 | 1.1% vs accelerated-math-program-online | exam door | original worked example | 24ad4464 |
 | US050 | shsat-math-prep (shx, #525C08) | gifted and selective | 5,311 | 0.8% vs accelerated-math-program-online | exam door | original worked example | f50f806e |
-| US053 | hspt-math-prep (hsx, #496F3B) | private school admissions | 4,345 | 1.2% vs shsat-math-prep | exam door | original worked example | (this commit) |
+| US053 | hspt-math-prep (hsx, #496F3B) | private school admissions | 4,345 | 1.2% vs shsat-math-prep | exam door | original worked example | 4d36b570 |
+| US054 | tachs-math-prep (tax, #5E6082) | private school admissions | 4,242 | 1.5% vs hspt-math-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

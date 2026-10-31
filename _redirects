@@ -8306,4 +8306,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /hspt-math-prep /src/pages/hspt-math-prep.html 200
 /hspt-math-prep.md /src/pages/hspt-math-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/tachs-math-prep /src/pages/tachs-math-prep.html 200
+/tachs-math-prep.md /src/pages/tachs-math-prep.md 200
 /* /src/pages/404.html 404

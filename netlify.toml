@@ -27301,6 +27301,18 @@
   to = "/src/pages/hspt-math-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/tachs-math-prep"
+  to = "/src/pages/tachs-math-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/tachs-math-prep.md"
+  to = "/src/pages/tachs-math-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

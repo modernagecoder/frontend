@@ -581,6 +581,7 @@ const SLUGS = [
   'middle-school-math-placement-test-prep',
   'shsat-math-prep',
   'hspt-math-prep',
+  'tachs-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1241,6 +1242,7 @@ const LLMS_LABELS = {
   'middle-school-math-placement-test-prep': 'Middle school math placement test prep',
   'shsat-math-prep': 'SHSAT math prep',
   'hspt-math-prep': 'HSPT math prep',
+  'tachs-math-prep': 'TACHS math prep',
 };
 
 function wireLlms(slugs) {

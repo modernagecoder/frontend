@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [TACHS math prep](/tachs-math-prep)
 - [HSPT math prep](/hspt-math-prep)
 - [SHSAT math prep](/shsat-math-prep)
 - [Middle school math placement test prep](/middle-school-math-placement-test-prep)
