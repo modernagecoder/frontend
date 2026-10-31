@@ -678,7 +678,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK003 | ks1-sats-maths-explained (kse, #315966) | Primary (England) | 4,834 | 1.5% vs ks1-maths-tuition-online | exam door | original worked example | c2f81cc8 |
 | UK004 | ks1-coding-lessons-online (kcl, #0E4F64) | Primary (England) | 4,457 | 1.7% vs ks1-maths-tuition-online | exam door | original worked example | 6be515e7 |
 | UK005 | times-tables-tutor-online-uk (ttu, #32503B) | Primary (England) | 4,192 | 2.4% vs year-4-maths-tutor-online | exam door | original worked example | 552dd055 |
-| UK006 | white-rose-maths-help-at-home (wra, #5F4106) | Primary (England) | 4,216 | 1.6% vs ks1-maths-tuition-online | exam door | original worked example | (this commit) |
+| UK006 | white-rose-maths-help-at-home (wra, #5F4106) | Primary (England) | 4,216 | 1.6% vs ks1-maths-tuition-online | exam door | original worked example | 5f3e8e10 |
+| UK007 | year-1-maths-tutor-online (yea, #6A3752) | Primary (England) | 4,288 | 2.1% vs ks1-sats-maths-explained | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
