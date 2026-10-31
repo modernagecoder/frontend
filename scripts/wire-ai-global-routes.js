@@ -732,6 +732,7 @@ const SLUGS = [
   'uk-maths-enrichment-and-competitions-guide',
   'us-state-math-tests-by-state',
   'us-gifted-and-selective-school-tests-guide',
+  'us-math-placement-and-college-readiness-tests',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1543,6 +1544,7 @@ const LLMS_LABELS = {
   'uk-maths-enrichment-and-competitions-guide': 'Maths competitions and enrichment for able children in the UK',
   'us-state-math-tests-by-state': 'US state math tests by state',
   'us-gifted-and-selective-school-tests-guide': 'US gifted and selective school tests guide',
+  'us-math-placement-and-college-readiness-tests': 'US math placement and college readiness tests',
 };
 
 function wireLlms(slugs) {
