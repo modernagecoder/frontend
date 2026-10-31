@@ -335,7 +335,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US091 | math-mammoth-tutor (max, #835F0F) | homeschool and curricula | 3,576 | 1.8% vs envision-math-help | exam door | original worked example | 6aea9cfc |
 | US076 | girls-who-code-next-step (gwcn, #3B5582) | coding competitions | 3,890 | 1.2% vs iowa-assessments-math-prep | exam door | original worked example | 45ace25f |
 | US077 | bebras-challenge-practice (bcp, #2F5004) | coding competitions | 3,595 | 1.4% vs math-mammoth-tutor | exam door | original worked example | 1730b636 |
-| US078 | stanford-online-high-school-math-prep (sthi, #8A5F21) | enrichment | 3,638 | 1.4% vs iowa-assessments-math-prep | exam door | original worked example | (this commit) |
+| US078 | stanford-online-high-school-math-prep (sthi, #8A5F21) | enrichment | 3,638 | 1.4% vs iowa-assessments-math-prep | exam door | original worked example | e99ea166 |
+| US079 | duke-tip-alternatives (dta, #88557C) | enrichment | 3,450 | 1.7% vs cogat-test-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

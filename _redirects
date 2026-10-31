@@ -8638,4 +8638,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /stanford-online-high-school-math-prep /src/pages/stanford-online-high-school-math-prep.html 200
 /stanford-online-high-school-math-prep.md /src/pages/stanford-online-high-school-math-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/duke-tip-alternatives /src/pages/duke-tip-alternatives.html 200
+/duke-tip-alternatives.md /src/pages/duke-tip-alternatives.md 200
 /* /src/pages/404.html 404

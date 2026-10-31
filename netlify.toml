@@ -28297,6 +28297,18 @@
   to = "/src/pages/stanford-online-high-school-math-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/duke-tip-alternatives"
+  to = "/src/pages/duke-tip-alternatives.html"
+  status = 200
+
+[[redirects]]
+  from = "/duke-tip-alternatives.md"
+  to = "/src/pages/duke-tip-alternatives.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

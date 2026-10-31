@@ -664,6 +664,7 @@ const SLUGS = [
   'girls-who-code-next-step',
   'bebras-challenge-practice',
   'stanford-online-high-school-math-prep',
+  'duke-tip-alternatives',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1407,6 +1408,7 @@ const LLMS_LABELS = {
   'girls-who-code-next-step': 'Girls Who Code next step',
   'bebras-challenge-practice': 'Bebras Challenge practice',
   'stanford-online-high-school-math-prep': 'Stanford Online High School math prep',
+  'duke-tip-alternatives': 'Duke TIP alternatives',
 };
 
 function wireLlms(slugs) {
