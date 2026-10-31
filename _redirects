@@ -8342,4 +8342,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /step-maths-preparation /src/pages/step-maths-preparation.html 200
 /step-maths-preparation.md /src/pages/step-maths-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/tmua-preparation /src/pages/tmua-preparation.html 200
+/tmua-preparation.md /src/pages/tmua-preparation.md 200
 /* /src/pages/404.html 404

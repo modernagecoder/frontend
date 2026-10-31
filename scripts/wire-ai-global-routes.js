@@ -590,6 +590,7 @@ const SLUGS = [
   'gifted-and-talented-test-prep',
   'oxford-mat-preparation',
   'step-maths-preparation',
+  'tmua-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1259,6 +1260,7 @@ const LLMS_LABELS = {
   'gifted-and-talented-test-prep': 'Gifted and talented test prep',
   'oxford-mat-preparation': 'Oxford MAT preparation',
   'step-maths-preparation': 'STEP maths preparation',
+  'tmua-preparation': 'TMUA preparation',
 };
 
 function wireLlms(slugs) {
