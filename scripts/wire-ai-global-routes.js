@@ -615,6 +615,7 @@ const SLUGS = [
   'edexcel-a-level-maths-9ma0-help',
   'cambridge-a-level-maths-9709-help',
   'aqa-gcse-maths-8300-help',
+  'edexcel-gcse-maths-1ma1-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1309,6 +1310,7 @@ const LLMS_LABELS = {
   'edexcel-a-level-maths-9ma0-help': 'Edexcel A level Maths 9MA0 help',
   'cambridge-a-level-maths-9709-help': 'Cambridge A Level Maths 9709 help',
   'aqa-gcse-maths-8300-help': 'AQA GCSE Maths 8300 help',
+  'edexcel-gcse-maths-1ma1-help': 'Edexcel GCSE Maths 1MA1 help',
 };
 
 function wireLlms(slugs) {

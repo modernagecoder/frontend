@@ -653,7 +653,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK031 | aqa-a-level-maths-7357-help (aql, #7D4646) | A level maths | 3,945 | 2.1% vs cambridge-igcse-additional-maths-0606-help | exam door | original worked example | 6882189a |
 | UK032 | edexcel-a-level-maths-9ma0-help (el, #76400F) | A level maths | 3,892 | 2.1% vs aqa-a-level-maths-7357-help | exam door | original worked example | 974c7c90 |
 | UK067 | cambridge-a-level-maths-9709-help (cal, #725D3C) | Cambridge International | 3,957 | 1.9% vs cambridge-igcse-maths-0580-help | exam door | original worked example | dd590ac4 |
-| UK018 | aqa-gcse-maths-8300-help (ag, #495572) | GCSE maths | 4,736 | 1.1% vs a-level-computer-science-tutor-online-uk | exam door | original worked example | (this commit) |
+| UK018 | aqa-gcse-maths-8300-help (ag, #495572) | GCSE maths | 4,736 | 1.1% vs a-level-computer-science-tutor-online-uk | exam door | original worked example | 452b08a8 |
+| UK019 | edexcel-gcse-maths-1ma1-help (eg, #224F55) | GCSE maths | 4,407 | 1.3% vs aqa-gcse-maths-8300-help | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
