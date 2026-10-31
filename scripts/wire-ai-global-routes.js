@@ -571,6 +571,7 @@ const SLUGS = [
   'coding-camp-cost-canada',
   'saxon-math-tutor',
   'beast-academy-tutor',
+  'teaching-textbooks-math-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1221,6 +1222,7 @@ const LLMS_LABELS = {
   'coding-camp-cost-canada': 'Coding camp cost',
   'saxon-math-tutor': 'Saxon Math tutor',
   'beast-academy-tutor': 'Beast Academy tutor',
+  'teaching-textbooks-math-help': 'Teaching Textbooks math help',
 };
 
 function wireLlms(slugs) {
