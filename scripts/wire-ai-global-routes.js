@@ -661,6 +661,7 @@ const SLUGS = [
   'transfer-test-maths-tuition-belfast',
   'btec-it-programming-unit-help',
   'epq-computer-science-artefact-mentoring',
+  'girls-who-code-next-step',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1401,6 +1402,7 @@ const LLMS_LABELS = {
   'transfer-test-maths-tuition-belfast': 'Transfer test maths tuition Belfast',
   'btec-it-programming-unit-help': 'BTEC IT programming unit help',
   'epq-computer-science-artefact-mentoring': 'EPQ computer science artefact mentoring',
+  'girls-who-code-next-step': 'Girls Who Code next step',
 };
 
 function wireLlms(slugs) {

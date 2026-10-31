@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Girls Who Code next step](/girls-who-code-next-step)
 - [Math Mammoth tutor](/math-mammoth-tutor)
 - [Go Math homework help](/go-math-homework-help)
 - [enVision Math help](/envision-math-help)

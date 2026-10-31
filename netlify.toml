@@ -28261,6 +28261,18 @@
   to = "/src/pages/epq-computer-science-artefact-mentoring.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/girls-who-code-next-step"
+  to = "/src/pages/girls-who-code-next-step.html"
+  status = 200
+
+[[redirects]]
+  from = "/girls-who-code-next-step.md"
+  to = "/src/pages/girls-who-code-next-step.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
