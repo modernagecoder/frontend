@@ -28789,6 +28789,18 @@
   to = "/src/pages/nc-eog-math-practice.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/nc-math-1-eoc-prep"
+  to = "/src/pages/nc-math-1-eoc-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/nc-math-1-eoc-prep.md"
+  to = "/src/pages/nc-math-1-eoc-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

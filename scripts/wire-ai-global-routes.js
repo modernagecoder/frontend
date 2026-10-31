@@ -705,6 +705,7 @@ const SLUGS = [
   'njgpa-math-prep',
   'illinois-iar-math-practice',
   'nc-eog-math-practice',
+  'nc-math-1-eoc-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1489,6 +1490,7 @@ const LLMS_LABELS = {
   'njgpa-math-prep': 'NJGPA math prep',
   'illinois-iar-math-practice': 'Illinois IAR math practice',
   'nc-eog-math-practice': 'NC EOG math practice',
+  'nc-math-1-eoc-prep': 'NC Math 1 EOC prep',
 };
 
 function wireLlms(slugs) {

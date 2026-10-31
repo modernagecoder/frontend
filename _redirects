@@ -8802,4 +8802,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /nc-eog-math-practice /src/pages/nc-eog-math-practice.html 200
 /nc-eog-math-practice.md /src/pages/nc-eog-math-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/nc-math-1-eoc-prep /src/pages/nc-math-1-eoc-prep.html 200
+/nc-math-1-eoc-prep.md /src/pages/nc-math-1-eoc-prep.md 200
 /* /src/pages/404.html 404
