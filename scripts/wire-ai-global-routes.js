@@ -641,6 +641,7 @@ const SLUGS = [
   'duke-of-edinburgh-skills-section-coding',
   'esat-maths-preparation',
   'oxbridge-maths-interview-problem-solving',
+  'computer-science-personal-statement-projects-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1361,6 +1362,7 @@ const LLMS_LABELS = {
   'duke-of-edinburgh-skills-section-coding': 'Duke of Edinburgh Skills section coding',
   'esat-maths-preparation': 'ESAT maths preparation',
   'oxbridge-maths-interview-problem-solving': 'Oxbridge maths interview preparation',
+  'computer-science-personal-statement-projects-uk': 'Computer science personal statement projects',
 };
 
 function wireLlms(slugs) {

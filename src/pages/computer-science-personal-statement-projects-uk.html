@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Computer Science Personal Statement Projects for UCAS 2027</title>
+  <meta name="description" content="Computer science personal statement projects for the three UCAS questions: what universities ask, six project briefs of ours. We mentor projects, never statements.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk">
+  <link rel="alternate" type="text/markdown" href="/src/pages/computer-science-personal-statement-projects-uk.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7A4F7A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk">
+  <meta property="og:title" content="Computer Science Personal Statement Projects for UCAS 2027">
+  <meta property="og:description" content="Cambridge says a simple command-line program is a great super-curricular project. What UCAS, Imperial and Cambridge ask of the three-question statement, six project briefs of ours, and a build log.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Computer Science Personal Statement Projects for UCAS 2027">
+  <meta name="twitter:description" content="Computer science personal statement projects: what UCAS and universities ask for, and projects worth writing about.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-csps .ag-hero h1 { letter-spacing: -0.01em; max-width: 27ch; }
+.ag-root.ag-csps .ag-capsule { border-left-width: 4px; padding-left: 1.15rem; }
+.ag-root.ag-csps .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-csps .ag-table caption { text-align: left; font-weight: 500; }
+.ag-root.ag-csps .ag-table th:first-child { width: 8%; }
+.ag-root.ag-csps .ag-three h3 { letter-spacing: -0.005em; }
+.ag-root.ag-csps .ag-steps li { line-height: 1.58; }
+.ag-root.ag-csps .ag-slots { gap: 0.95rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk#page","url":"https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk","name":"Computer Science Personal Statement Projects","description":"A guide for UK computer science applicants to the three-question UCAS personal statement, built from UCAS, Imperial College London and University of Cambridge pages, with original project briefs and a worked programming experiment.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the UK","item":"https://learn.modernagecoders.com/coding-classes-in-united-kingdom"},{"@type":"ListItem","position":4,"name":"CS personal statement projects","item":"https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk"}]},{"@type":"Course","name":"Computer Science Personal Statement Projects","description":"Live online mentoring for sixth-form computer science applicants building super-curricular projects in Python and machine learning: choosing a question, building, measuring, and keeping a log the student can write from in their own words.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the three UCAS personal statement questions?","acceptedAnswer":{"@type":"Answer","text":"Why do you want to study this course or subject; how have your qualifications and studies helped you to prepare; and what else have you done to prepare outside of education, and why are these experiences useful. UCAS says they share one 4,000-character limit."}},{"@type":"Question","name":"How long is the UCAS personal statement?","acceptedAnswer":{"@type":"Answer","text":"Up to 4,000 characters including spaces, across all three answers, with at least 350 characters for each. Imperial confirms the same structure for 2027 entry."}},{"@type":"Question","name":"What should I write about in a computer science personal statement?","acceptedAnswer":{"@type":"Answer","text":"Cambridge asks for mostly academic detail and says it is interested in your thoughts. A project you built, measured and can explain, or a topic you researched, gives you something specific to say in your own words."}},{"@type":"Question","name":"What can I do if I have no computer science experience?","acceptedAnswer":{"@type":"Answer","text":"Start small. Cambridge's Computer Science department suggests programming puzzles such as Project Euler and Advent of Code, and says a simple command-line program is a great example of independent work."}},{"@type":"Question","name":"Can I use ChatGPT to write my personal statement?","acceptedAnswer":{"@type":"Answer","text":"Not to produce the text. UCAS says applicants declare the statement was not copied or provided by another source, including AI software, and that anything not in your words could be flagged as fraud."}},{"@type":"Question","name":"Does UCAS check personal statements for copying?","acceptedAnswer":{"@type":"Answer","text":"Yes. UCAS says its Verification Team checks for patterns of similarity, and Imperial says every statement goes through the Copycatch similarity system. Copying from example statements is a real risk."}},{"@type":"Question","name":"Do extracurricular activities matter for computer science?","acceptedAnswer":{"@type":"Answer","text":"Subject-related ones matter most. Cambridge says non-academic activities should take up no more than 20% of the section they appear in, and that a few activities in detail beat a list."}},{"@type":"Question","name":"Will you write or check my personal statement?","acceptedAnswer":{"@type":"Answer","text":"No. We mentor the project itself and the computing and mathematics behind it. A school teacher is the right person to read a draft, and every word should be yours."}},{"@type":"Question","name":"What days are mentoring sessions?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are you connected with UCAS or any university?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders is an independent online school, not connected with UCAS, Cambridge, Imperial or any other university, and we promise no offer."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/computer-science-personal-statement-projects-uk","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="GB">
+</head>
+
+<body class="ag-root ag-csps">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#questions">Three questions</a></li>
+      <li><a href="#universities">What universities say</a></li>
+      <li><a href="#briefs">Project briefs</a></li>
+      <li><a href="#experiment">Worked project</a></li>
+      <li><a href="#integrity">Your own words</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a> / CS personal statement projects
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United Kingdom &middot; Years 12 and 13 &middot; UCAS applications for 2027 entry</p>
+        <h1>Computer science personal statement projects: something real to write about</h1>
+        <p class="ag-lede">Most searches for a computer science personal statement end at example statements, and copying from those is the one thing UCAS checks for. The useful question comes earlier: what has the student actually done with computing that they can describe, explain and defend? Cambridge's Department of Computer Science and Technology says a simple program run from the command line is a great example of independent work. This page sets out what UCAS, Imperial and Cambridge say about the three-question statement, gives six project briefs of ours sized for a sixth former, and works one through with real measurements. We mentor the project. The statement stays the student's own.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#briefs" class="ag-btn ag-btn--ghost">See the six project briefs</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20applying%20for%20computer%20science%20and%20would%20like%20help%20building%20a%20project%2C%20please." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'csps'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Guidance quoted from UCAS, Imperial and Cambridge</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Statement</dt><dd>Three questions, one total</dd>
+          <dt>Length</dt><dd>4,000 characters including spaces</dd>
+          <dt>Each answer</dt><dd>At least 350 characters</dd>
+          <dt>Checked by</dt><dd>UCAS similarity detection</dd>
+          <dt>Declaration</dt><dd>Not copied, not from AI</dd>
+          <dt>What we mentor</dt><dd>The project, never the text</dd>
+          <dt>Formats</dt><dd>Group of 15 to 20, or 1-on-1</dd>
+          <dt>Start</dt><dd>One free class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>The UCAS personal statement is now three questions sharing 4,000 characters, each answer at least 350 characters, and Imperial confirms that structure for 2027 entry. For computer science, Cambridge suggests super-curricular work such as building an app, a command-line program or a Raspberry Pi device, or researching a theoretical topic. Modern Age Coders mentors sixth formers live online, in a group of 15 to 20 or 1-on-1, through building and measuring such a project; we never write or edit any part of the statement.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses behind a strong project</h2>
+      <p class="ag-lede">One for machine learning projects, one for the A Level that underpins them, and one for the algorithms that make a project worth measuring.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-ml-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSP / 01</p>
+          <h3>AI and machine learning for teens</h3>
+          <p>Train a small model, then study where it goes wrong: the part worth writing about.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/a-level-computer-science-course-aqa-ocr">
+        <div class="ag-pick-shot"><img src="/images/a-level-computer-science-aqa-ocr.webp" alt="A Level Computer Science for AQA 7517 and OCR H446 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSP / 02</p>
+          <h3>A Level Computer Science</h3>
+          <p>AQA 7517 or OCR H446, with the theory that turns a project into an explanation.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/problem-solving-dsa-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/problem-solving-teens.webp" alt="Problem Solving for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CSP / 03</p>
+          <h3>Problem solving and algorithms</h3>
+          <p>Complexity, searching and sorting: the tools for a project that compares two methods.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="questions">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The UCAS format</p><h2>What are the three UCAS personal statement questions?</h2><p class="ag-lede">UCAS replaced the single free-text statement with three questions that share one 4,000-character limit. Each answer needs at least 350 characters, and UCAS says admissions staff still read the three as a whole, so evidence should not be repeated across them.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The three questions as UCAS words them, with the evidence UCAS suggests for each (read 31 October 2026)</caption><thead><tr><th scope="col">#</th><th scope="col">UCAS question</th><th scope="col">Evidence UCAS mentions</th><th scope="col">Where a CS project fits</th></tr></thead><tbody><tr><td>1</td><td>Why do you want to study this course or subject?</td><td>Motivation, subject knowledge, research, super-curricular activities</td><td>The question the project set out to answer, and why it mattered to you</td></tr><tr><td>2</td><td>How have your qualifications and studies helped you to prepare for this course or subject?</td><td>Skills from formal study, EPQ, competitions such as UKMT, essays or projects on a technique</td><td>A project grown from A Level work, an EPQ, or an olympiad you sat</td></tr><tr><td>3</td><td>What else have you done to prepare outside of education, and why are these experiences useful?</td><td>Work experience, hobbies, online learning such as MOOCs, podcasts</td><td>A project built in your own time, and what it taught you</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>The numbers, and how flexible they are</h3><p>UCAS says the 4,000-character limit, including spaces, is unchanged, and that it can be spread across the three answers in any way. Imperial gives the same rule for 2027 entry: at least 350 characters per section, 4,000 overall, with a built-in counter.</p>
+<p>Our arithmetic: three minimum answers use only 1,050 characters, leaving 2,950 to place where the evidence is strongest. A strong project might take a third of the total on its own.</p></div><div><h3>No wrong box</h3><p>UCAS says there is no wrong place for a piece of evidence and that applicants should not panic about whether something belongs in question 2 or 3. Cambridge adds that it has no preference for how a statement is split.</p>
+<p>So a project built for an A Level class and then extended at home can sit in either answer. What matters is that it appears once, explained, rather than three times in passing.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: UCAS <a class="ag-inline-link" href="https://www.ucas.com/applying/applying-to-university/writing-your-personal-statement/how-to-write-your-personal-statement" rel="noopener" target="_blank">How to write your personal statement</a>, and Imperial College London <a class="ag-inline-link" href="https://www.imperial.ac.uk/study/apply/undergraduate/process/personal-statement/" rel="noopener" target="_blank">personal statement page</a>, read 31 October 2026. The character arithmetic is ours. We are not connected with UCAS or any university named here.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="universities">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Imperial and Cambridge</p><h2>What do universities want to see in a computer science personal statement?</h2><p class="ag-lede">Academic engagement, explained. Cambridge says it reads every statement in full, gives it no formal score, and wants mostly academic detail; Imperial wants fewer skills with evidence rather than a long list. Both point away from activity lists and towards what the student thought.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What two universities say about the statement, quoted from their own pages (read 31 October 2026)</caption><thead><tr><th scope="col">University</th><th scope="col">What it says</th></tr></thead><tbody><tr><td>Cambridge</td><td>"We will read your personal statement in full." and "We don't give personal statements a formal score."</td></tr><tr><td>Cambridge</td><td>Your statement "should focus mostly on academic detail throughout"; "Don't exaggerate."</td></tr><tr><td>Cambridge</td><td>Non-academic activities "should not take up more than 20% of the section that you mention them in"</td></tr><tr><td>Cambridge</td><td>"It is better to focus on a few activities in detail." and "Crucially, we are interested in your thoughts."</td></tr><tr><td>Cambridge</td><td>"The best personal statements show a pattern and logic in an applicant's academic engagement."</td></tr><tr><td>Imperial</td><td>One statement goes to all five choices; choose "quality over quantity" when describing skills, with evidence for each</td></tr><tr><td>Imperial</td><td>Work experience "isn't essential for most Imperial courses"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Cambridge Computer Science, specifically</h3><p>The Department of Computer Science and Technology defines super-curricular work as "learning about the subject independently, beyond what you're taught in school". Its suggestions are deliberately modest: an app or website, a command-line program, something built with a Raspberry Pi, or an article on a theoretical topic you researched.</p>
+<p>It also suggests learning a language the Cambridge course does not teach, naming Python as a popular choice, and lists puzzle sites such as Project Euler, Advent of Code and Codewars, plus the Bebras Computing Challenge and the Cipher Challenge.</p></div><div><h3>Mathematics is still the centre</h3><p>The same department says in its FAQs that its primary focus is on Mathematics, that Further Mathematics is highly recommended, and that A Level Computer Science is valuable where a school offers it. Cambridge Computer Science also requires the TMUA, and Peterhouse and Trinity add the CSAT.</p>
+<p>A project does not replace any of that. It gives the reader of a strong mathematical application a reason to believe the student will enjoy a degree that ends with a substantial project and a 10,000 to 12,000 word dissertation.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: University of Cambridge <a class="ag-inline-link" href="https://www.undergraduate.study.cam.ac.uk/apply/how/ucas-personal-statement" rel="noopener" target="_blank">UCAS personal statement page</a> and <a class="ag-inline-link" href="https://www.undergraduate.study.cam.ac.uk/courses/computer-science" rel="noopener" target="_blank">Computer Science course page</a>; Cambridge Department of Computer Science and Technology <a class="ag-inline-link" href="https://www.cst.cam.ac.uk/admissions/undergraduate/super-curricular-activities" rel="noopener" target="_blank">super-curricular activities</a> and <a class="ag-inline-link" href="https://www.cst.cam.ac.uk/admissions/undergraduate/faqs" rel="noopener" target="_blank">FAQs</a>; Imperial's personal statement page; all read 31 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="briefs">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Six briefs of ours</p><h2>What computer science projects are good for a personal statement?</h2><p class="ag-lede">Small, finished projects that start from a question and end with something measured or explained. The six briefs below are ours, sized for a sixth former working a few hours a week, and each matches one of the kinds of work Cambridge's department suggests. None needs anything beyond a laptop, apart from the Raspberry Pi in brief 4.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our six project briefs, with the question each one asks</caption><thead><tr><th scope="col">#</th><th scope="col">Our brief</th><th scope="col">The question it answers</th><th scope="col">What to measure or explain</th></tr></thead><tbody><tr><td>1</td><td>Count primes two ways in Python: trial division and the sieve of Eratosthenes</td><td>Why is one method so much faster as N grows?</td><td>Steps taken for N = 10<sup>4</sup>, 10<sup>5</sup>, 10<sup>6</sup>; the growth rate of each</td></tr><tr><td>2</td><td>A command-line Sudoku solver: plain backtracking, then with constraint propagation</td><td>How much search does a little reasoning save?</td><td>Number of guesses on the same twenty puzzles, before and after</td></tr><tr><td>3</td><td>A frequency-analysis breaker for Caesar and Vigen&egrave;re ciphers</td><td>How much ciphertext does frequency analysis need to work?</td><td>Success rate against message length</td></tr><tr><td>4</td><td>A Raspberry Pi logger that records room temperature every minute for a week</td><td>How noisy is a cheap sensor, and how do you smooth it?</td><td>Raw against moving-average readings; what the window size does</td></tr><tr><td>5</td><td>A small handwritten-digit classifier, then a study of its mistakes</td><td>Which digits does it confuse, and why those?</td><td>A confusion table; examples of 4 read as 9, and what they share</td></tr><tr><td>6</td><td>A researched article: why no program can decide whether every program halts</td><td>What does the proof actually show, and what does it not?</td><td>The argument in your own words, with one worked case</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Start from a question</h3><p>"I built a website" invites the reply "so what?". "I wanted to know why my prime counter slowed down so badly" invites a conversation. Every brief above is phrased as a question for that reason.</p></div><div><h3>Finish small</h3><p>Cambridge's department says a project "doesn't have to be something complicated and polished". A finished command-line tool with one clear result beats an ambitious app abandoned at the login screen.</p></div><div><h3>Measure something</h3><p>A number the student produced, such as steps taken, guesses saved or accuracy lost, turns a hobby into evidence. It is also the thing an interviewer is most likely to ask about.</p></div></div>
+    <p class="ag-source-note ag-mt-40">The six briefs are ours, written on 31 October 2026. They follow the categories on the Cambridge Department of Computer Science and Technology super-curricular page (a program, a hardware build with a Raspberry Pi, a cryptography challenge, a researched article) and use public datasets and puzzles only. A student choosing one should still pick the question that genuinely interests them.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="experiment">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Brief 1, worked through</p><h2>What does a finished personal statement project look like?</h2><p class="ag-lede">Here is our brief 1 carried to the end, with numbers we measured ourselves on 31 October 2026. The point is not the primes; it is that the student ends with a result they can explain in a sentence and defend for ten minutes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our prime-counting experiment: basic steps taken by each method (measured by us, 31 October 2026)</caption><thead><tr><th scope="col">N</th><th scope="col">Primes up to N</th><th scope="col">Trial division steps</th><th scope="col">Sieve crossings-out</th><th scope="col">Ratio</th></tr></thead><tbody><tr><td>10,000</td><td>1,229</td><td>117,527</td><td>16,981</td><td>about 7 to 1</td></tr><tr><td>100,000</td><td>9,592</td><td>2,745,694</td><td>193,078</td><td>about 14 to 1</td></tr><tr><td>1,000,000</td><td>78,498</td><td>67,740,404</td><td>2,122,048</td><td>about 32 to 1</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What the numbers say</h3><p>Each time N grows tenfold, trial division does roughly 23 to 25 times as much work, while the sieve does about 11 times as much. Trial division tests each number against divisors up to its square root, so its total grows faster than N; the sieve crosses out each composite a few times, growing only slightly faster than N.</p>
+<p>That observation leads straight to the next question: what is the growth rate of each? A student who goes on to read about why the sieve's work is close to N log log N has moved from a coding exercise to the edge of number theory, which is the "pattern and logic" Cambridge says strong statements show.</p></div><div><h3>What the student writes down</h3><p>Not a paragraph for UCAS. A log: the question, the first version, the surprise (trial division at a million took far longer than expected), the measurement, what they read next, and what they would try now, such as a segmented sieve to save memory.</p>
+<p>Months later, the student writes their own sentences from that log. Because every claim in them came from something they did, there is nothing to exaggerate and nothing they cannot explain if asked.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><strong>Write the question first.</strong> One line, in the log, before any code.</li><li><strong>Build the simplest version that answers it.</strong> For brief 1, that is two short functions and a counter.</li><li><strong>Measure, then check the measurement.</strong> Both methods must agree on the prime count; ours give 78,498 below a million, the known value.</li><li><strong>Read one source about what you found.</strong> Note its title and the one idea you took from it.</li><li><strong>Change one thing and measure again.</strong> A second version, compared with the first, is a project; one version is an exercise.</li><li><strong>Stop and keep the log.</strong> The code goes in a public repository with a short README; the log stays with the student.</li></ol>
+    <p class="ag-source-note ag-mt-40">The experiment, counts and ratios are ours, run in Python on 31 October 2026; the prime counts are standard values and the step counts depend on exactly how steps are counted. This is a model of a project, not text for a personal statement.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="integrity">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Your own words</p><h2>Can someone else write or edit my personal statement?</h2><p class="ag-lede">No, and UCAS checks. Applicants now declare that the statement has not been copied or provided from another source, including AI software, and UCAS runs similarity checks on every statement. Imperial names the system: Copycatch. That is why we mentor projects and never touch the text.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What UCAS and Imperial say about copied and AI-written statements (read 31 October 2026)</caption><thead><tr><th scope="col">Source</th><th scope="col">What it says</th></tr></thead><tbody><tr><td>UCAS</td><td>You "now have to declare that your personal statement hasn't been copied or provided from another source, including artificial intelligence software"</td></tr><tr><td>UCAS</td><td>The UCAS Verification Team checks "patterns of similarity in personal statements", and universities may be notified of similar elements</td></tr><tr><td>UCAS</td><td>Submitting AI-generated text as your own "could be considered cheating" and "Anything not in your words could get flagged as fraud"</td></tr><tr><td>UCAS</td><td>Acceptable uses of AI include ideas, structure and checking, not producing the text</td></tr><tr><td>Imperial</td><td>"UCAS runs all personal statements through its similarity detection system, Copycatch, to compare them with previous statements."</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What we do</h3><p>We teach the programming, mathematics and machine learning a project needs. We help a student choose a question they care about, size it so it can be finished, measure the result properly and keep an honest log.</p>
+<p>If a student wants to talk through what they learned, we ask questions the way an interviewer might. Answering them out loud is good preparation for the statement and for any interview that follows.</p></div><div><h3>What we never do</h3><p>We do not write, draft, edit, rewrite, shorten or "polish" any answer in a personal statement, and we do not supply example statements. We do not build a project for a student to present as their own.</p>
+<p>A teacher at school, who writes the reference and knows the student, is the right person to read a draft. Every word of the statement should be the student's.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Quotations from UCAS <a class="ag-inline-link" href="https://www.ucas.com/undergraduate/applying-university/writing-your-personal-statement/guide-using-ai-and-chatgpt-your-personal-statement" rel="noopener" target="_blank">Using AI and ChatGPT with your personal statement</a> and Imperial's personal statement page, read 31 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">From Year 12 to the UCAS deadline</p>
+      <h2>Four stages for a project worth writing about</h2>
+      <p class="ag-lede">Our suggested timing for a student applying in the autumn of Year 13. The project finishes before the writing starts, so the statement describes something complete.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our project timeline</caption><thead><tr><th scope="col">When</th><th scope="col">Stage</th><th scope="col">Finished when</th></tr></thead><tbody><tr><td>Year 12, spring term</td><td class="ag-num">1. Choose a question</td><td class="ag-num">One line in a log, and a brief small enough to finish</td></tr><tr><td>Year 12, Easter to June</td><td class="ag-num">2. Build the first version</td><td class="ag-num">It runs and answers the question roughly</td></tr><tr><td>Year 12, summer holiday</td><td class="ag-num">3. Measure, read, improve</td><td class="ag-num">A second version compared with the first, and one source read</td></tr><tr><td>Year 13, September</td><td class="ag-num">4. Stop and write, alone</td><td class="ag-num">The log is complete; the statement is drafted by the student and read by a teacher</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If it is already September of Year 13</h3><p>Pick the smallest brief, such as brief 1 or brief 3, and finish it in three or four weeks. A small finished project is honest; a large unfinished one is hard to write about.</p>
+<p>Applicants with the 15 October deadline for Oxford or Cambridge have less time than others and should be strict about scope.</p></div><div><h3>If you are in Year 11 or early Year 12</h3><p>Start with puzzles: the Cambridge department suggests Project Euler, Advent of Code and the Bebras challenge. They build fluency without the pressure of a project.</p>
+<p>An EPQ in computing is another route, and UCAS lists the EPQ as evidence for question 2. The project must then follow the EPQ rules for the student's own work.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The full list</p>
+      <h2>What we teach a computer science applicant</h2>
+      <p class="ag-lede">Grouped by what the project needs: the code, the mathematics, and the competitions that sit beside it.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Building the project</h3>
+        <span class="ag-band-sub">Python and machine learning</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / B / 01</p>
+          <h4>Python for teens</h4>
+          <p>The language most of the six briefs use.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / B / 02</p>
+          <h4>AI and machine learning</h4>
+          <p>For the classifier brief and beyond.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / B / 03</p>
+          <h4>Data science for teens</h4>
+          <p>Cleaning and plotting what a project measures.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>The theory behind it</h3>
+        <span class="ag-band-sub">A Level and mathematics</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / T / 01</p>
+          <h4>A Level Computer Science</h4>
+          <p>AQA 7517 and OCR H446.</p>
+          <a class="ag-course-link" href="/courses/a-level-computer-science-course-aqa-ocr">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / T / 02</p>
+          <h4>A Level Further Maths</h4>
+          <p>Highly recommended by Cambridge Computer Science.</p>
+          <a class="ag-course-link" href="/courses/a-level-further-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / T / 03</p>
+          <h4>TMUA preparation</h4>
+          <p>The test Cambridge and others set for CS.</p>
+          <a class="ag-course-link" href="/courses/tmua-mat-step-preparation-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Alongside the project</h3>
+        <span class="ag-band-sub">Competitions and problem solving</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / C / 01</p>
+          <h4>Algorithms and data structures</h4>
+          <p>Why one method beats another.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / C / 02</p>
+          <h4>Competitive programming</h4>
+          <p>For the olympiad route.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CSP / C / 03</p>
+          <h4>Cyber security for teens</h4>
+          <p>The Cipher Challenge side of computing.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How mentoring runs</p>
+      <h2>Live project mentoring through Year 12</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evenings</p><p class="ag-slot-l">Teaching: the code and theory a brief needs.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend mornings</p><p class="ag-slot-l">Build sessions, with a teacher on hand.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">One student, one project, a weekly check of the log.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Question first</h3><p>No code until the question is written down in one line.</p></div>
+      <div><h3>Student types</h3><p>The student writes every line of code; teachers explain and point.</p></div>
+      <div><h3>Measured results</h3><p>Each project ends with a number the student produced and checked.</p></div>
+      <div><h3>Groups of 15 to 20</h3><p>Students demo work in progress and field each other's questions.</p></div>
+      <div><h3>The log is theirs</h3><p>We read the build log for gaps; we never read or edit a statement.</p></div>
+      <div><h3>No offer promised</h3><p>A project is evidence, not a guarantee, and we promise no place.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects our students have built</h2>
+      <p class="ag-lede">Coding, maths and machine-learning work our students have chosen to publish. Browse more in the <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Applying through UCAS has its own fee, paid to UCAS. Our mentoring is a separate monthly fee with nothing to join; most project students stay for one to two terms in Year 12.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Choose a question for your project together</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Groups of 15 to 20</li><li>Weekly build sessions</li><li>Work in progress shown and questioned</li><li>Monthly, stop when the project is done</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One student, one mentor</li><li>A weekly look at the build log</li><li>For a project with a near deadline</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Unedited reviews from families on our Google business profile.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Personal statement questions</p>
+      <h2>What computer science applicants and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What are the three UCAS personal statement questions?</h3>
+        <p>Why do you want to study this course or subject; how have your qualifications and studies helped you to prepare; and what else have you done to prepare outside of education, and why are these experiences useful. UCAS says they share one 4,000-character limit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is the UCAS personal statement?</h3>
+        <p>Up to 4,000 characters including spaces, across all three answers, with at least 350 characters for each. Imperial confirms the same structure for 2027 entry.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What should I write about in a computer science personal statement?</h3>
+        <p>Cambridge asks for mostly academic detail and says it is interested in your thoughts. A project you built, measured and can explain, or a topic you researched, gives you something specific to say in your own words.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What can I do if I have no computer science experience?</h3>
+        <p>Start small. Cambridge's Computer Science department suggests programming puzzles such as Project Euler and Advent of Code, and says a simple command-line program is a great example of independent work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use ChatGPT to write my personal statement?</h3>
+        <p>Not to produce the text. UCAS says applicants declare the statement was not copied or provided by another source, including AI software, and that anything not in your words could be flagged as fraud.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does UCAS check personal statements for copying?</h3>
+        <p>Yes. UCAS says its Verification Team checks for patterns of similarity, and Imperial says every statement goes through the Copycatch similarity system. Copying from example statements is a real risk.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do extracurricular activities matter for computer science?</h3>
+        <p>Subject-related ones matter most. Cambridge says non-academic activities should take up no more than 20% of the section they appear in, and that a few activities in detail beat a list.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you write or check my personal statement?</h3>
+        <p>No. We mentor the project itself and the computing and mathematics behind it. A school teacher is the right person to read a draft, and every word should be yours.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What days are mentoring sessions?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected with UCAS or any university?</h3>
+        <p>No. Modern Age Coders is an independent online school, not connected with UCAS, Cambridge, Imperial or any other university, and we promise no offer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for computer science applicants</h2>
+      <p class="ag-lede">The wider picture on activities, the A Level, and competitions that give a project company.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/computer-science-extracurriculars">Computer science extracurriculars</a></h3><p>How UK and US admissions weigh activities, ranked.</p></div>
+      <div><h3><a class="ag-inline-link" href="/passion-project-ideas-computer-science">Passion project ideas</a></h3><p>Fourteen more projects, and what finished means.</p></div>
+      <div><h3><a class="ag-inline-link" href="/a-level-computer-science-nea-help">A Level Computer Science NEA</a></h3><p>The assessed project, and the rules for your own work.</p></div>
+      <div><h3><a class="ag-inline-link" href="/aqa-a-level-computer-science-7517-help">AQA Computer Science 7517</a></h3><p>The AQA A Level, paper by paper.</p></div>
+      <div><h3><a class="ag-inline-link" href="/british-informatics-olympiad-preparation">British Informatics Olympiad</a></h3><p>A national competition UCAS-style evidence can point to.</p></div>
+      <div><h3><a class="ag-inline-link" href="/uk-olympiad-in-artificial-intelligence-preparation">UK Olympiad in AI</a></h3><p>For students whose project is machine learning.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free project class</h2>
+        <p class="ag-lede">Tell us which courses you are applying for and what you have built so far, even if the answer is nothing. In the free class we pick a question for a first project with you and plan the smallest version that would answer it.</p>
+        <p class="ag-mt-40">You can also look at <a class="ag-inline-link" href="/courses">our full course list</a>, or read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> before you book.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20applying%20for%20computer%20science%20and%20would%20like%20help%20building%20a%20project%2C%20please." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'csps',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Mentors teach from India on a timetable set in UK time. For a quick reply from a UK number, WhatsApp is usually quickest.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_csps(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Nothing to pay, no card; we write back once to fix a time.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Computer science</h4><ul><li><a href="/computer-science-extracurriculars">CS extracurriculars</a></li><li><a href="/passion-project-ideas-computer-science">Passion project ideas</a></li><li><a href="/a-level-computer-science-nea-help">A Level NEA</a></li><li><a href="/ocr-a-level-computer-science-h446-help">OCR Computer Science H446</a></li></ul></div>
+      <div><h4>Courses</h4><ul><li><a href="/courses/ai-ml-masterclass-teens">AI and machine learning</a></li><li><a href="/courses/a-level-computer-science-course-aqa-ocr">A Level Computer Science</a></li><li><a href="/courses/python-complete-masterclass-teens">Python for teens</a></li><li><a href="/coding-classes-in-united-kingdom">All UK pages</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Build it, measure it, then write it yourself</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_csps = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'computer-science-personal-statement-projects-uk-inline', meta: { name: name, age: age, page: 'computer-science-personal-statement-projects-uk' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>
