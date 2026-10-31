@@ -647,6 +647,7 @@ const SLUGS = [
   'big-ideas-math-help',
   'envision-math-help',
   'go-math-homework-help',
+  'math-mammoth-tutor',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1373,6 +1374,7 @@ const LLMS_LABELS = {
   'big-ideas-math-help': 'Big Ideas Math help',
   'envision-math-help': 'enVision Math help',
   'go-math-homework-help': 'Go Math homework help',
+  'math-mammoth-tutor': 'Math Mammoth tutor',
 };
 
 function wireLlms(slugs) {

@@ -28093,6 +28093,18 @@
   to = "/src/pages/go-math-homework-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/math-mammoth-tutor"
+  to = "/src/pages/math-mammoth-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/math-mammoth-tutor.md"
+  to = "/src/pages/math-mammoth-tutor.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

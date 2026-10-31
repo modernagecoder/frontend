@@ -1182,3 +1182,4 @@
 .ag-root.ag-bi { --ag-accent: #6D2C00; --ag-accent-soft: rgba(109,44,0,.09); }   /* Big Ideas Math help: a dark burnt sienna, #6D2C00 as allocated, warm like a well-used textbook, about 9.8:1 on the #FBF8F2 paper */
 .ag-root.ag-enx { --ag-accent: #316A32; --ag-accent-soft: rgba(49,106,50,.09); }   /* enVision Math help: a garden green, #316A32 as allocated, fresh for an elementary page and about 6.1:1 on the #FBF8F2 paper */
 .ag-root.ag-gh { --ag-accent: #743B1F; --ag-accent-soft: rgba(116,59,31,.09); }   /* Go Math homework help: a russet brown, #743B1F as allocated, warm and school-desk plain, about 8.3:1 on the #FBF8F2 paper */
+.ag-root.ag-max { --ag-accent: #835F0F; --ag-accent-soft: rgba(131,95,15,.09); }   /* Math Mammoth tutor: an old-gold ochre, #835F0F as allocated, earthy for a homeschool page and about 5.5:1 on the #FBF8F2 paper */

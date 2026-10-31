@@ -331,7 +331,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US083 | math-u-see-tutor (mus, #1B4761) | homeschool and curricula | 4,587 | 2% vs teaching-textbooks-math-help | exam door | original worked example | 557e7cca |
 | US088 | big-ideas-math-help (bi, #6D2C00) | homeschool and curricula | 3,906 | 1.5% vs teaching-textbooks-math-help | exam door | original worked example | ca0e82f4 |
 | US089 | envision-math-help (enx, #316A32) | homeschool and curricula | 3,691 | 1.6% vs iowa-assessments-math-prep | exam door | original worked example | fa41dce9 |
-| US090 | go-math-homework-help (gh, #743B1F) | homeschool and curricula | 3,717 | 1.5% vs envision-math-help | exam door | original worked example | (this commit) |
+| US090 | go-math-homework-help (gh, #743B1F) | homeschool and curricula | 3,717 | 1.5% vs envision-math-help | exam door | original worked example | a8f2f825 |
+| US091 | math-mammoth-tutor (max, #835F0F) | homeschool and curricula | 3,576 | 1.8% vs envision-math-help | exam door | original worked example | (this commit) |
 
 ## Skipped
 
