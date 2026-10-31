@@ -8918,4 +8918,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /homeschool-math-curriculum-guide-usa /src/pages/homeschool-math-curriculum-guide-usa.html 200
 /homeschool-math-curriculum-guide-usa.md /src/pages/homeschool-math-curriculum-guide-usa.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/us-math-and-coding-competitions-guide /src/pages/us-math-and-coding-competitions-guide.html 200
+/us-math-and-coding-competitions-guide.md /src/pages/us-math-and-coding-competitions-guide.md 200
 /* /src/pages/404.html 404

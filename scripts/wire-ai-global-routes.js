@@ -734,6 +734,7 @@ const SLUGS = [
   'us-gifted-and-selective-school-tests-guide',
   'us-math-placement-and-college-readiness-tests',
   'homeschool-math-curriculum-guide-usa',
+  'us-math-and-coding-competitions-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1547,6 +1548,7 @@ const LLMS_LABELS = {
   'us-gifted-and-selective-school-tests-guide': 'US gifted and selective school tests guide',
   'us-math-placement-and-college-readiness-tests': 'US math placement and college readiness tests',
   'homeschool-math-curriculum-guide-usa': 'Homeschool math curriculum guide',
+  'us-math-and-coding-competitions-guide': 'US math and coding competitions guide',
 };
 
 function wireLlms(slugs) {

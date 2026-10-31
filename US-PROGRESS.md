@@ -372,7 +372,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US094 | us-state-math-tests-by-state (usst, #3F5E7A) | index | 4,987 | 1.2% vs caaspp-math-practice | exam door | original worked example | 4b0ad5af |
 | US095 | us-gifted-and-selective-school-tests-guide (usgs, #3B4F8C) | index | 5,006 | 1.3% vs cogat-test-prep | exam door | original worked example | d7616eb3 |
 | US096 | us-math-placement-and-college-readiness-tests (uspc, #3D5A80) | index | 4,998 | 1.5% vs dual-enrollment-math-help | exam door | original worked example | 3c402e93 |
-| US097 | homeschool-math-curriculum-guide-usa (ushc, #3F5B4A) | index | 5,004 | 2.3% vs saxon-math-tutor | exam door | original worked example | (this commit) |
+| US097 | homeschool-math-curriculum-guide-usa (ushc, #3F5B4A) | index | 5,004 | 2.3% vs saxon-math-tutor | exam door | original worked example | b366a708 |
+| US098 | us-math-and-coding-competitions-guide (usmc, #2E4A6B) | index | 5,023 | 1.7% vs moems-math-olympiad-preparation | exam door | original worked example | (this commit) |
 
 ## Skipped
 
