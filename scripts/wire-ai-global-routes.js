@@ -720,6 +720,7 @@ const SLUGS = [
   'i-ready-math-help',
   'dual-enrollment-math-help',
   'clep-calculus-prep',
+  'keystone-algebra-1-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1519,6 +1520,7 @@ const LLMS_LABELS = {
   'i-ready-math-help': 'i-Ready math help',
   'dual-enrollment-math-help': 'Dual enrollment math help',
   'clep-calculus-prep': 'CLEP Calculus prep',
+  'keystone-algebra-1-prep': 'Keystone Algebra I prep',
 };
 
 function wireLlms(slugs) {

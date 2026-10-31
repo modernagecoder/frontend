@@ -367,7 +367,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US012 | map-growth-math-test-prep (mag, #51628C) | placement and tracks | 3,368 | 1.8% vs colorado-cmas-math-practice | exam door | original worked example | 8c910dd7 |
 | US013 | i-ready-math-help (ir, #004C51) | placement and tracks | 3,405 | 1.6% vs map-growth-math-test-prep | exam door | original worked example | c3b1059f |
 | US060 | dual-enrollment-math-help (dem, #795200) | college credit | 3,379 | 1.4% vs clep-college-algebra-prep | exam door | original worked example | 83e2c6fd |
-| US062 | clep-calculus-prep (cle, #004869) | college credit | 3,583 | 1.3% vs clep-college-algebra-prep | exam door | original worked example | (this commit) |
+| US062 | clep-calculus-prep (cle, #004869) | college credit | 3,583 | 1.3% vs clep-college-algebra-prep | exam door | original worked example | 3e5126c7 |
+| US026 | keystone-algebra-1-prep (kea, #756127) | state tests | 4,450 | 1.5% vs algebra-1-eoc-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

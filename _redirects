@@ -8862,4 +8862,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /clep-calculus-prep /src/pages/clep-calculus-prep.html 200
 /clep-calculus-prep.md /src/pages/clep-calculus-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/keystone-algebra-1-prep /src/pages/keystone-algebra-1-prep.html 200
+/keystone-algebra-1-prep.md /src/pages/keystone-algebra-1-prep.md 200
 /* /src/pages/404.html 404
