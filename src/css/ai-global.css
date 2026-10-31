@@ -1165,3 +1165,4 @@
 .ag-root.ag-cmal { --ag-accent: #725D3C; --ag-accent-soft: rgba(114,93,60,.09); }   /* Cambridge International 9709: a weathered bronze #725D3C from the cluster allocation, 5.92:1 on #FBF8F2 and 5.09:1 on the deepest paper tint, earthier and greyer than the two English A level pages */
 .ag-root.ag-coc { --ag-accent: #7A5E7A; --ag-accent-soft: rgba(122,94,122,.09); }   /* CMAS math: a muted mountain plum #7A5E7A as allocated, 5.34:1 on paper #FBF8F2, readable for body links and quiet beside the warm editorial palette */
 .ag-root.ag-gab { --ag-accent: #464A7E; --ag-accent-soft: rgba(70,74,126,.09); }   /* Year 3 maths: a slate indigo (#464A7E, 7.8:1 on #FBF8F2), cooler and greyer than the KS1 violet and well apart from the Year 5 olive */
+.ag-root.ag-gac { --ag-accent: #286248; --ag-accent-soft: rgba(40,98,72,.09); }   /* Year 4 maths: a deep fir green (#286248, 6.76:1 on #FBF8F2), bluer than the Year 5 olive so the two primary years read apart */

@@ -630,6 +630,7 @@ const SLUGS = [
   'algebra-1-eoc-prep',
   'colorado-cmas-math-practice',
   'year-3-maths-tutor-online',
+  'year-4-maths-tutor-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1339,6 +1340,7 @@ const LLMS_LABELS = {
   'algebra-1-eoc-prep': 'Algebra 1 EOC prep',
   'colorado-cmas-math-practice': 'CMAS math practice',
   'year-3-maths-tutor-online': 'Year 3 maths tutor online',
+  'year-4-maths-tutor-online': 'Year 4 maths tutor online',
 };
 
 function wireLlms(slugs) {
