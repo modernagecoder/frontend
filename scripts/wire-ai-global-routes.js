@@ -648,6 +648,7 @@ const SLUGS = [
   'envision-math-help',
   'go-math-homework-help',
   'math-mammoth-tutor',
+  'reception-maths-online-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1375,6 +1376,7 @@ const LLMS_LABELS = {
   'envision-math-help': 'enVision Math help',
   'go-math-homework-help': 'Go Math homework help',
   'math-mammoth-tutor': 'Math Mammoth tutor',
+  'reception-maths-online-uk': 'Reception maths online',
 };
 
 function wireLlms(slugs) {

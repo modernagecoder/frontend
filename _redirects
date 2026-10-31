@@ -8574,4 +8574,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /math-mammoth-tutor /src/pages/math-mammoth-tutor.html 200
 /math-mammoth-tutor.md /src/pages/math-mammoth-tutor.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/reception-maths-online-uk /src/pages/reception-maths-online-uk.html 200
+/reception-maths-online-uk.md /src/pages/reception-maths-online-uk.md 200
 /* /src/pages/404.html 404
