@@ -612,6 +612,7 @@ const SLUGS = [
   'edexcel-igcse-further-pure-maths-4pm1-help',
   'igcse-maths-for-home-educated-students-uk',
   'aqa-a-level-maths-7357-help',
+  'edexcel-a-level-maths-9ma0-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1303,6 +1304,7 @@ const LLMS_LABELS = {
   'edexcel-igcse-further-pure-maths-4pm1-help': 'Edexcel IGCSE Further Pure Maths 4PM1 help',
   'igcse-maths-for-home-educated-students-uk': 'IGCSE maths for home-educated students',
   'aqa-a-level-maths-7357-help': 'AQA A level Maths 7357 help',
+  'edexcel-a-level-maths-9ma0-help': 'Edexcel A level Maths 9MA0 help',
 };
 
 function wireLlms(slugs) {

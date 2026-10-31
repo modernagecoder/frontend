@@ -844,6 +844,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Edexcel IGCSE Further Pure Maths 4PM1 help: https://learn.modernagecoders.com/edexcel-igcse-further-pure-maths-4pm1-help
 - IGCSE maths for home-educated students: https://learn.modernagecoders.com/igcse-maths-for-home-educated-students-uk
 - AQA A level Maths 7357 help: https://learn.modernagecoders.com/aqa-a-level-maths-7357-help
+- Edexcel A level Maths 9MA0 help: https://learn.modernagecoders.com/edexcel-a-level-maths-9ma0-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

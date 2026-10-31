@@ -8430,4 +8430,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /aqa-a-level-maths-7357-help /src/pages/aqa-a-level-maths-7357-help.html 200
 /aqa-a-level-maths-7357-help.md /src/pages/aqa-a-level-maths-7357-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/edexcel-a-level-maths-9ma0-help /src/pages/edexcel-a-level-maths-9ma0-help.html 200
+/edexcel-a-level-maths-9ma0-help.md /src/pages/edexcel-a-level-maths-9ma0-help.md 200
 /* /src/pages/404.html 404
