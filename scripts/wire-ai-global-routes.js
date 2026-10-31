@@ -674,6 +674,7 @@ const SLUGS = [
   '7-plus-maths-preparation',
   '16-plus-sixth-form-entrance-maths',
   'ukiset-maths-reasoning-practice',
+  'caaspp-math-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1427,6 +1428,7 @@ const LLMS_LABELS = {
   '7-plus-maths-preparation': '7 plus maths preparation',
   '16-plus-sixth-form-entrance-maths': '16 plus sixth form entrance maths',
   'ukiset-maths-reasoning-practice': 'UKiset maths reasoning practice',
+  'caaspp-math-practice': 'CAASPP math practice',
 };
 
 function wireLlms(slugs) {

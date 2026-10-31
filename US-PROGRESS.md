@@ -338,7 +338,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US078 | stanford-online-high-school-math-prep (sthi, #8A5F21) | enrichment | 3,638 | 1.4% vs iowa-assessments-math-prep | exam door | original worked example | e99ea166 |
 | US079 | duke-tip-alternatives (dta, #88557C) | enrichment | 3,450 | 1.7% vs cogat-test-prep | exam door | original worked example | 0386ffae |
 | US080 | online-math-circle-for-kids (ck, #145E3D) | enrichment | 3,248 | 1.4% vs bebras-challenge-practice | exam door | original worked example | e6fd40b5 |
-| US081 | stanford-10-math-practice (gav, #415D18) | homeschool | 3,671 | 1.7% vs stanford-online-high-school-math-prep | exam door | original worked example | (this commit) |
+| US081 | stanford-10-math-practice (gav, #415D18) | homeschool | 3,671 | 1.7% vs stanford-online-high-school-math-prep | exam door | original worked example | 24fa122b |
+| US022 | caaspp-math-practice (cap, #9B506D) | state tests | 4,886 | 1.2% vs girls-who-code-next-step | exam door | original worked example | (this commit) |
 
 ## Skipped
 
