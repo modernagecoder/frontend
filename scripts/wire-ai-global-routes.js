@@ -604,6 +604,7 @@ const SLUGS = [
   'iseb-common-pre-test-maths-practice',
   '11-plus-maths-tuition-lincolnshire',
   'ib-maths-ia-guidance',
+  'maths-for-home-educated-children-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1287,6 +1288,7 @@ const LLMS_LABELS = {
   'iseb-common-pre-test-maths-practice': 'ISEB Common Pre-Test maths practice',
   '11-plus-maths-tuition-lincolnshire': '11 plus maths tuition in Lincolnshire',
   'ib-maths-ia-guidance': 'IB Maths IA guidance',
+  'maths-for-home-educated-children-uk': 'Maths for home-educated children',
 };
 
 function wireLlms(slugs) {

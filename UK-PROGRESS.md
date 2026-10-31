@@ -642,7 +642,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK048 | gl-assessment-11-plus-maths-practice (gap, #56512C) | Selective entry | 4,799 | 1.2% vs 11-plus-maths-tuition-buckinghamshire | exam door | original worked example | 7491adf5 |
 | UK051 | iseb-common-pre-test-maths-practice (icp, #6A4B34) | Selective entry | 4,231 | 0.8% vs game-development-classes-for-kids-canada | exam door | original worked example | 7e9aeaaa |
 | UK057 | 11-plus-maths-tuition-lincolnshire (gak, #634558) | 11+ area | 3,901 | 0.8% vs comc-canada-open-mathematics-challenge-guide | exam door | original worked example | 6a4f0d31 |
-| UK065 | ib-maths-ia-guidance (iig, #007177) | IB | 3,837 | 0.8% vs ccea-gcse-maths-help | exam door | original worked example | (this commit) |
+| UK065 | ib-maths-ia-guidance (iig, #007177) | IB | 3,837 | 0.8% vs ccea-gcse-maths-help | exam door | original worked example | b5a35616 |
+| UK082 | maths-for-home-educated-children-uk (hec, #7F544C) | Enrichment | 4,152 | 0.7% vs ai-classes-for-kids-in-canada | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

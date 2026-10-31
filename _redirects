@@ -8398,4 +8398,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ib-maths-ia-guidance /src/pages/ib-maths-ia-guidance.html 200
 /ib-maths-ia-guidance.md /src/pages/ib-maths-ia-guidance.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/maths-for-home-educated-children-uk /src/pages/maths-for-home-educated-children-uk.html 200
+/maths-for-home-educated-children-uk.md /src/pages/maths-for-home-educated-children-uk.md 200
 /* /src/pages/404.html 404
