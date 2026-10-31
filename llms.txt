@@ -965,6 +965,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - US state math tests by state: https://learn.modernagecoders.com/us-state-math-tests-by-state
 - US gifted and selective school tests guide: https://learn.modernagecoders.com/us-gifted-and-selective-school-tests-guide
 - US math placement and college readiness tests: https://learn.modernagecoders.com/us-math-placement-and-college-readiness-tests
+- Homeschool math curriculum guide: https://learn.modernagecoders.com/homeschool-math-curriculum-guide-usa
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

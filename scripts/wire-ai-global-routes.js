@@ -733,6 +733,7 @@ const SLUGS = [
   'us-state-math-tests-by-state',
   'us-gifted-and-selective-school-tests-guide',
   'us-math-placement-and-college-readiness-tests',
+  'homeschool-math-curriculum-guide-usa',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1545,6 +1546,7 @@ const LLMS_LABELS = {
   'us-state-math-tests-by-state': 'US state math tests by state',
   'us-gifted-and-selective-school-tests-guide': 'US gifted and selective school tests guide',
   'us-math-placement-and-college-readiness-tests': 'US math placement and college readiness tests',
+  'homeschool-math-curriculum-guide-usa': 'Homeschool math curriculum guide',
 };
 
 function wireLlms(slugs) {

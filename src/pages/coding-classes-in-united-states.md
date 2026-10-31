@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Homeschool math curriculum guide](/homeschool-math-curriculum-guide-usa)
 - [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
 - [US gifted and selective school tests guide](/us-gifted-and-selective-school-tests-guide)
 - [US state math tests by state](/us-state-math-tests-by-state)

@@ -29125,6 +29125,18 @@
   to = "/src/pages/us-math-placement-and-college-readiness-tests.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/homeschool-math-curriculum-guide-usa"
+  to = "/src/pages/homeschool-math-curriculum-guide-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/homeschool-math-curriculum-guide-usa.md"
+  to = "/src/pages/homeschool-math-curriculum-guide-usa.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
