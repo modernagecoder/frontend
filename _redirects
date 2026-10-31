@@ -8446,4 +8446,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /edexcel-gcse-maths-1ma1-help /src/pages/edexcel-gcse-maths-1ma1-help.html 200
 /edexcel-gcse-maths-1ma1-help.md /src/pages/edexcel-gcse-maths-1ma1-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/gcse-foundation-maths-tutor-online /src/pages/gcse-foundation-maths-tutor-online.html 200
+/gcse-foundation-maths-tutor-online.md /src/pages/gcse-foundation-maths-tutor-online.md 200
 /* /src/pages/404.html 404
