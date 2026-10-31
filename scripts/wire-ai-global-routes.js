@@ -701,6 +701,7 @@ const SLUGS = [
   'aqa-a-level-further-maths-7367-help',
   'further-maths-when-your-school-does-not-offer-it',
   'cambridge-a-level-further-maths-9231-help',
+  'njsla-math-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1481,6 +1482,7 @@ const LLMS_LABELS = {
   'aqa-a-level-further-maths-7367-help': 'AQA A level Further Maths 7367 help',
   'further-maths-when-your-school-does-not-offer-it': 'Further Maths when your school does not offer it',
   'cambridge-a-level-further-maths-9231-help': 'Cambridge A level Further Maths 9231 help',
+  'njsla-math-practice': 'NJSLA math practice',
 };
 
 function wireLlms(slugs) {

@@ -354,7 +354,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US071 | ftc-programming-help (fp, #8E5C35) | coding competitions | 4,589 | 1.6% vs first-lego-league-coding-help-usa | exam door | original worked example | afbbd0b4 |
 | US073 | science-olympiad-coding-events-help (soc, #415908) | coding competitions | 4,542 | 1.5% vs first-lego-league-coding-help-usa | exam door | original worked example | 80395a96 |
 | US074 | isef-computer-science-project-mentoring (icsp, #5D6594) | coding competitions | 5,086 | 1.3% vs first-lego-league-coding-help-usa | exam door | original worked example | 8e90925d |
-| US075 | after-hour-of-code-next-steps (ahc, #925241) | coding competitions | 3,919 | 1.2% vs isef-computer-science-project-mentoring | exam door | original worked example | (this commit) |
+| US075 | after-hour-of-code-next-steps (ahc, #925241) | coding competitions | 3,919 | 1.2% vs isef-computer-science-project-mentoring | exam door | original worked example | d8d77ebd |
+| US027 | njsla-math-practice (np, #6C6285) | state tests | 4,487 | 1.4% vs caaspp-math-practice | exam door | original worked example | (this commit) |
 
 ## Skipped
 
