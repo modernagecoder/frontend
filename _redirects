@@ -8798,4 +8798,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /illinois-iar-math-practice /src/pages/illinois-iar-math-practice.html 200
 /illinois-iar-math-practice.md /src/pages/illinois-iar-math-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/nc-eog-math-practice /src/pages/nc-eog-math-practice.html 200
+/nc-eog-math-practice.md /src/pages/nc-eog-math-practice.md 200
 /* /src/pages/404.html 404

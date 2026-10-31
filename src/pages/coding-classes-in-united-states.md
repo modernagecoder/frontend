@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [NC EOG math practice](/nc-eog-math-practice)
 - [Illinois IAR math practice](/illinois-iar-math-practice)
 - [NJGPA math prep](/njgpa-math-prep)
 - [NJSLA math practice](/njsla-math-practice)

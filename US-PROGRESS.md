@@ -357,7 +357,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US075 | after-hour-of-code-next-steps (ahc, #925241) | coding competitions | 3,919 | 1.2% vs isef-computer-science-project-mentoring | exam door | original worked example | d8d77ebd |
 | US027 | njsla-math-practice (np, #6C6285) | state tests | 4,487 | 1.4% vs caaspp-math-practice | exam door | original worked example | 5bf00413 |
 | US028 | njgpa-math-prep (njx, #7E634B) | state tests | 4,177 | 1.2% vs mcas-math-prep | exam door | original worked example | 2351b663 |
-| US030 | illinois-iar-math-practice (iip, #93504F) | state tests | 4,067 | 1.6% vs njsla-math-practice | exam door | original worked example | (this commit) |
+| US030 | illinois-iar-math-practice (iip, #93504F) | state tests | 4,067 | 1.6% vs njsla-math-practice | exam door | original worked example | 1ca23a67 |
+| US032 | nc-eog-math-practice (nep, #5F613C) | state tests | 4,211 | 1.2% vs nys-math-test-prep-grades-3-8 | exam door | original worked example | (this commit) |
 
 ## Skipped
 
