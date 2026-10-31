@@ -578,6 +578,7 @@ const SLUGS = [
   'common-core-math-tutor',
   'trigonometry-tutoring-online',
   'accelerated-math-program-online',
+  'middle-school-math-placement-test-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1235,6 +1236,7 @@ const LLMS_LABELS = {
   'common-core-math-tutor': 'Common Core math tutor',
   'trigonometry-tutoring-online': 'Trigonometry tutoring online',
   'accelerated-math-program-online': 'Accelerated math program online',
+  'middle-school-math-placement-test-prep': 'Middle school math placement test prep',
 };
 
 function wireLlms(slugs) {
