@@ -657,6 +657,7 @@ const SLUGS = [
   'year-2-maths-tutor-online',
   'scottish-primary-maths-tutor-online',
   's1-s3-maths-tutor-online-scotland',
+  'national-5-applications-of-maths-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1393,6 +1394,7 @@ const LLMS_LABELS = {
   'year-2-maths-tutor-online': 'Year 2 maths tutor online',
   'scottish-primary-maths-tutor-online': 'Scottish primary maths tutor online',
   's1-s3-maths-tutor-online-scotland': 'S1 to S3 maths tutor online',
+  'national-5-applications-of-maths-help': 'National 5 Applications of Maths help',
 };
 
 function wireLlms(slugs) {
