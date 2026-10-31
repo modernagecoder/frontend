@@ -594,6 +594,7 @@ const SLUGS = [
   'math-league-contest-preparation',
   'ap-precalculus-tutoring-online',
   'accuplacer-math-prep',
+  'aleks-math-placement-test-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1267,6 +1268,7 @@ const LLMS_LABELS = {
   'math-league-contest-preparation': 'Math League contest preparation',
   'ap-precalculus-tutoring-online': 'AP Precalculus tutoring online',
   'accuplacer-math-prep': 'ACCUPLACER math prep',
+  'aleks-math-placement-test-prep': 'ALEKS math placement test prep',
 };
 
 function wireLlms(slugs) {

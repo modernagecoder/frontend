@@ -313,7 +313,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US047 | gifted-and-talented-test-prep (gtt, #2A5718) | gifted and selective | 3,534 | 2.2% vs nnat-test-prep | exam door | original worked example | 7a6539a3 |
 | US067 | math-league-contest-preparation (lcp, #686A35) | math competitions | 4,285 | 1.3% vs math-competitions-for-middle-school-students | exam door | original worked example | ae35af41 |
 | US059 | ap-precalculus-tutoring-online (app, #623236) | ap and ib | 4,246 | 1.4% vs math-league-contest-preparation | exam door | original worked example | 2c718b5f |
-| US009 | accuplacer-math-prep (acx, #37613C) | placement and tracks | 4,175 | 1.1% vs common-core-math-vs-traditional-math | exam door | original worked example | (this commit) |
+| US009 | accuplacer-math-prep (acx, #37613C) | placement and tracks | 4,175 | 1.1% vs common-core-math-vs-traditional-math | exam door | original worked example | f4d3d670 |
+| US010 | aleks-math-placement-test-prep (apt, #6C501F) | placement and tracks | 3,536 | 1.5% vs accuplacer-math-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 
