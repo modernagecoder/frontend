@@ -28225,6 +28225,18 @@
   to = "/src/pages/national-5-applications-of-maths-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/transfer-test-maths-tuition-belfast"
+  to = "/src/pages/transfer-test-maths-tuition-belfast.html"
+  status = 200
+
+[[redirects]]
+  from = "/transfer-test-maths-tuition-belfast.md"
+  to = "/src/pages/transfer-test-maths-tuition-belfast.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
