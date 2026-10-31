@@ -362,7 +362,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US033 | nc-math-1-eoc-prep (ne, #74588B) | state tests | 4,180 | 1.3% vs algebra-1-eoc-prep | exam door | original worked example | f0c2b44c |
 | US003 | statistics-tutoring-online (st, #3B6C75) | hs course sequence | 3,859 | 1.4% vs trigonometry-tutoring-online | exam door | original worked example | 5c0bbb5d |
 | US004 | integrated-math-1-tutoring (it, #436A8C) | hs course sequence | 3,491 | 2.3% vs statistics-tutoring-online | exam door | original worked example | 7c2b42ba |
-| US005 | integrated-math-2-tutoring (int, #5F4518) | hs course sequence | 3,394 | 1.7% vs integrated-math-1-tutoring | exam door | original worked example | (this commit) |
+| US005 | integrated-math-2-tutoring (int, #5F4518) | hs course sequence | 3,394 | 1.7% vs integrated-math-1-tutoring | exam door | original worked example | 665e9be4 |
+| US006 | integrated-math-3-tutoring (gao, #7E4401) | hs course sequence | 3,489 | 1.3% vs psat-math-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

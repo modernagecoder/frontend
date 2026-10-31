@@ -715,6 +715,7 @@ const SLUGS = [
   'statistics-tutoring-online',
   'integrated-math-1-tutoring',
   'integrated-math-2-tutoring',
+  'integrated-math-3-tutoring',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1509,6 +1510,7 @@ const LLMS_LABELS = {
   'statistics-tutoring-online': 'Statistics tutoring online',
   'integrated-math-1-tutoring': 'Integrated Math 1 tutoring',
   'integrated-math-2-tutoring': 'Integrated Math 2 tutoring',
+  'integrated-math-3-tutoring': 'Integrated Math 3 tutoring',
 };
 
 function wireLlms(slugs) {
