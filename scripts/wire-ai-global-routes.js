@@ -700,6 +700,7 @@ const SLUGS = [
   'edexcel-a-level-further-maths-9fm0-help',
   'aqa-a-level-further-maths-7367-help',
   'further-maths-when-your-school-does-not-offer-it',
+  'cambridge-a-level-further-maths-9231-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1479,6 +1480,7 @@ const LLMS_LABELS = {
   'edexcel-a-level-further-maths-9fm0-help': 'Edexcel A level Further Maths 9FM0 help',
   'aqa-a-level-further-maths-7367-help': 'AQA A level Further Maths 7367 help',
   'further-maths-when-your-school-does-not-offer-it': 'Further Maths when your school does not offer it',
+  'cambridge-a-level-further-maths-9231-help': 'Cambridge A level Further Maths 9231 help',
 };
 
 function wireLlms(slugs) {

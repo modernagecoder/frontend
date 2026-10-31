@@ -932,6 +932,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Edexcel A level Further Maths 9FM0 help: https://learn.modernagecoders.com/edexcel-a-level-further-maths-9fm0-help
 - AQA A level Further Maths 7367 help: https://learn.modernagecoders.com/aqa-a-level-further-maths-7367-help
 - Further Maths when your school does not offer it: https://learn.modernagecoders.com/further-maths-when-your-school-does-not-offer-it
+- Cambridge A level Further Maths 9231 help: https://learn.modernagecoders.com/cambridge-a-level-further-maths-9231-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
