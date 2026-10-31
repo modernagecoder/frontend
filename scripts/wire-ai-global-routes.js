@@ -613,6 +613,7 @@ const SLUGS = [
   'igcse-maths-for-home-educated-students-uk',
   'aqa-a-level-maths-7357-help',
   'edexcel-a-level-maths-9ma0-help',
+  'cambridge-a-level-maths-9709-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1305,6 +1306,7 @@ const LLMS_LABELS = {
   'igcse-maths-for-home-educated-students-uk': 'IGCSE maths for home-educated students',
   'aqa-a-level-maths-7357-help': 'AQA A level Maths 7357 help',
   'edexcel-a-level-maths-9ma0-help': 'Edexcel A level Maths 9MA0 help',
+  'cambridge-a-level-maths-9709-help': 'Cambridge A Level Maths 9709 help',
 };
 
 function wireLlms(slugs) {
