@@ -8426,4 +8426,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /igcse-maths-for-home-educated-students-uk /src/pages/igcse-maths-for-home-educated-students-uk.html 200
 /igcse-maths-for-home-educated-students-uk.md /src/pages/igcse-maths-for-home-educated-students-uk.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/aqa-a-level-maths-7357-help /src/pages/aqa-a-level-maths-7357-help.html 200
+/aqa-a-level-maths-7357-help.md /src/pages/aqa-a-level-maths-7357-help.md 200
 /* /src/pages/404.html 404
