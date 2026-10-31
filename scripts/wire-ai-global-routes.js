@@ -637,6 +637,7 @@ const SLUGS = [
   'maths-masterclasses-for-able-students-uk',
   'online-maths-circle-uk',
   'online-maths-summer-school-uk',
+  'gifted-and-talented-maths-and-coding-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1353,6 +1354,7 @@ const LLMS_LABELS = {
   'maths-masterclasses-for-able-students-uk': 'Maths masterclasses for able students',
   'online-maths-circle-uk': 'Online maths circle',
   'online-maths-summer-school-uk': 'Online maths summer school',
+  'gifted-and-talented-maths-and-coding-uk': 'Gifted and talented maths and coding',
 };
 
 function wireLlms(slugs) {
