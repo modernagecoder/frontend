@@ -27865,6 +27865,18 @@
   to = "/src/pages/algebra-1-eoc-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/colorado-cmas-math-practice"
+  to = "/src/pages/colorado-cmas-math-practice.html"
+  status = 200
+
+[[redirects]]
+  from = "/colorado-cmas-math-practice.md"
+  to = "/src/pages/colorado-cmas-math-practice.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

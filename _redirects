@@ -8494,4 +8494,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /algebra-1-eoc-prep /src/pages/algebra-1-eoc-prep.html 200
 /algebra-1-eoc-prep.md /src/pages/algebra-1-eoc-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/colorado-cmas-math-practice /src/pages/colorado-cmas-math-practice.html 200
+/colorado-cmas-math-practice.md /src/pages/colorado-cmas-math-practice.md 200
 /* /src/pages/404.html 404

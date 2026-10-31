@@ -860,6 +860,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Geometry Regents prep: https://learn.modernagecoders.com/geometry-regents-prep
 - Algebra 2 Regents prep: https://learn.modernagecoders.com/algebra-2-regents-prep
 - Algebra 1 EOC prep: https://learn.modernagecoders.com/algebra-1-eoc-prep
+- CMAS math practice: https://learn.modernagecoders.com/colorado-cmas-math-practice
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
