@@ -654,6 +654,7 @@ const SLUGS = [
   'times-tables-tutor-online-uk',
   'white-rose-maths-help-at-home',
   'year-1-maths-tutor-online',
+  'year-2-maths-tutor-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1387,6 +1388,7 @@ const LLMS_LABELS = {
   'times-tables-tutor-online-uk': 'Times tables tutor online',
   'white-rose-maths-help-at-home': 'White Rose Maths help at home',
   'year-1-maths-tutor-online': 'Year 1 maths tutor online',
+  'year-2-maths-tutor-online': 'Year 2 maths tutor online',
 };
 
 function wireLlms(slugs) {
