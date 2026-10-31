@@ -8630,4 +8630,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /girls-who-code-next-step /src/pages/girls-who-code-next-step.html 200
 /girls-who-code-next-step.md /src/pages/girls-who-code-next-step.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/bebras-challenge-practice /src/pages/bebras-challenge-practice.html 200
+/bebras-challenge-practice.md /src/pages/bebras-challenge-practice.md 200
 /* /src/pages/404.html 404

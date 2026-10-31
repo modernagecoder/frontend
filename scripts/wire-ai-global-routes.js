@@ -662,6 +662,7 @@ const SLUGS = [
   'btec-it-programming-unit-help',
   'epq-computer-science-artefact-mentoring',
   'girls-who-code-next-step',
+  'bebras-challenge-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1403,6 +1404,7 @@ const LLMS_LABELS = {
   'btec-it-programming-unit-help': 'BTEC IT programming unit help',
   'epq-computer-science-artefact-mentoring': 'EPQ computer science artefact mentoring',
   'girls-who-code-next-step': 'Girls Who Code next step',
+  'bebras-challenge-practice': 'Bebras Challenge practice',
 };
 
 function wireLlms(slugs) {
