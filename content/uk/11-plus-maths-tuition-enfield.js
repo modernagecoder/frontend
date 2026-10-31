@@ -39,9 +39,9 @@ module.exports = {
   market: { name: 'United Kingdom', iso: 'GB', dial: '+44', lang: 'en-GB', locale: 'en_GB', geoRegion: 'GB', brandTag: 'UK', phonePlaceholder: '7700 900123', minDigits: 10, stripTrunk: true },
   routeLabel: '11 plus maths tuition in Enfield',
   title: '11 Plus Maths Tuition Enfield | Latymer Test Maths Online',
-  description: 'Live online 11 plus maths for The Latymer School test in Edmonton: what changes for 2028 entry, why maths becomes Paper One, and Year 5 fractions taught well.',
-  ogDescription: 'Latymer\'s 11 plus changes for children now in Year 5: a new provider, no verbal reasoning, and maths as Paper One. What that means for preparation.',
-  twitterDescription: 'Latymer 11 plus maths, taught live online: the 2028-entry changes and the Year 5 maths behind them.',
+  description: 'Live online 11 plus maths for The Latymer School test in Edmonton: the proposed 2028 changes, why maths may become Paper One, and Year 5 fractions taught well.',
+  ogDescription: 'Latymer\'s proposed 11 plus changes for children now in Year 5: a new provider, no verbal reasoning, and maths as Paper One. What that means for preparation.',
+  twitterDescription: 'Latymer 11 plus maths, taught live online: the proposed 2028-entry changes and the Year 5 maths behind them.',
   pageName: '11 Plus Maths Tuition in Enfield',
   webPageDescription: 'Live online mathematics teaching for children preparing for The Latymer School entrance assessment in Edmonton, based on what the school, Quest Assessments and Enfield Council publish.',
   courseDescription: 'Live online maths classes for children in Years 4 and 5 preparing for the Latymer assessment, teaching the Year 5 curriculum for a multiple-choice mathematics paper.',
@@ -56,13 +56,13 @@ module.exports = {
   ],
   eyebrow: 'Enfield &middot; The Latymer School 11 plus maths &middot; Live online, small groups or one to one',
   h1: '11 plus maths tuition in Enfield',
-  lede: 'If your child is in Year 5 this year and you are thinking about The Latymer School, the test they will sit is not the one Enfield children sat earlier this month. Latymer has announced that from September 2027, for 2028 entry, its assessment will be provided by Quest Assessments and will have three sections: Mathematics, English Comprehension and English Writing. Verbal reasoning, half of last cycle\'s first paper, is gone. Quest describes the new mathematics as Paper One, multiple choice, sat in the same session as the English. Advice written for the old test, including much of what circulates among parents, is about to go out of date. This page sets out both the old arrangement and the new one, as the school and Quest publish them, and then teaches a slice of the Year 5 maths that sits underneath either: fractions.',
+  lede: 'If your child is in Year 5 this year and you are thinking about The Latymer School, the test they will sit is not the one Enfield children sat earlier this month. Latymer is proposing that from September 2027, for 2028 entry, its assessment would be provided by Quest Assessments, with three sections: Mathematics, English Comprehension and English Writing. The school says the change is subject to formal consultation from 10 November 2026. If it goes ahead, verbal reasoning, half of last cycle\'s first paper, goes. Quest describes the new mathematics as Paper One, multiple choice, sat in the same session as the English. Advice written for the old test, including much of what circulates among parents, could soon go out of date. This page sets out both the old arrangement and the proposed one, as the school and Quest publish them, and then teaches a slice of the Year 5 maths that sits underneath either: fractions.',
   secondaryCta: { href: '#change', label: 'See what changes for 2028' },
   wa: 'Hello Modern Age Coders, I would like a free maths lesson for my child for the Latymer 11 plus.',
   heroNote: 'Maths only &middot; We do not teach English for the assessment &middot; No connection with Latymer or Quest',
   spec: [
     ['School', 'The Latymer School, Edmonton'],
-    ['2028 entry provider', 'Quest Assessments'],
+    ['2028 entry provider', 'Quest Assessments (proposed)'],
     ['2028 sections', 'Mathematics, English Comprehension, English Writing'],
     ['2028 maths', 'Paper One, multiple choice'],
     ['Verbal reasoning', 'Dropped for 2028 entry'],
@@ -71,7 +71,7 @@ module.exports = {
     ['We teach', 'The Year 5 maths behind Paper One']
   ],
   capsuleQ: 'In short',
-  capsule: 'The Latymer School in Edmonton is Enfield\'s selective grammar school, and it sets its own test. For September 2027 entry, sat on 3 to 5 September 2026, the maths was a 30-minute multiple-choice booklet by GL Assessment, paired with 30 minutes of verbal reasoning, then a 60-minute English paper set by the school; the English was marked only for the top 700 on maths and verbal reasoning combined. For September 2028 entry the school has switched to Quest Assessments, and the assessment has three sections: Mathematics, English Comprehension and English Writing. Quest lists mathematics as Paper One, multiple choice, with registration from March to June 2027 and the test in September 2027. The school expects Key Stage 2 competence. We teach that maths, live online. Book a first lesson at no charge; a group place after that is USD 100 a month, and one to one lessons USD 150 a month.',
+  capsule: 'The Latymer School in Edmonton is Enfield\'s selective grammar school, and it sets its own test. For September 2027 entry, sat on 3 to 5 September 2026, the maths was a 30-minute multiple-choice booklet by GL Assessment, paired with 30 minutes of verbal reasoning, then a 60-minute English paper set by the school; the English was marked only for the top 700 on maths and verbal reasoning combined. For September 2028 entry the school is proposing to move to Quest Assessments, subject to formal consultation from 10 November 2026, with three sections: Mathematics, English Comprehension and English Writing. Quest lists mathematics as Paper One, multiple choice, with registration from March to June 2027 and the test in September 2027. The school expects Key Stage 2 competence. We teach that maths, live online. Book a first lesson at no charge; a group place after that is USD 100 a month, and one to one lessons USD 150 a month.',
 
   picks: {
     eyebrow: 'Where to begin for Latymer',
@@ -88,10 +88,10 @@ module.exports = {
     {
       id: 'change', tint: 'tint', eyebrow: 'What changes for 2028 entry',
       h2: 'A new provider, three sections, and maths as Paper One',
-      lede: 'The Latymer School announced the change on its admissions pages; Quest Assessments publishes the paper structure. Both read on 26 September 2026.',
+      lede: 'The Latymer School set out the change on its admissions pages; Quest Assessments publishes the paper structure. Both read on 26 September 2026; on 1 November 2026 the school\'s page called it a proposal, subject to formal consultation from 10 November 2026.',
       body: [
-        { kind: 'table', caption: 'Latymer\'s assessment, last cycle and next, as the school and Quest publish them', head: ['', 'September 2027 entry (sat September 2026)', 'September 2028 entry (to be sat September 2027)'], rows: [
-          ['Provider', 'GL Assessment for maths and verbal reasoning; English set by the school', 'Quest Assessments'],
+        { kind: 'table', caption: 'Latymer\'s assessment, last cycle and next, as the school and Quest publish them', head: ['', 'September 2027 entry (sat September 2026)', 'September 2028 entry (proposed, to be sat September 2027)'], rows: [
+          ['Provider', 'GL Assessment for maths and verbal reasoning; English set by the school', 'Quest Assessments (proposed)'],
           ['Sections', 'Mathematics, verbal reasoning, English', 'Mathematics, English Comprehension, English Writing'],
           ['Maths format', '30-minute multiple-choice booklet', 'Paper One, multiple choice'],
           ['Registration', '17 March to 2 June 2026', 'March to June 2027, according to Quest'],
@@ -99,7 +99,7 @@ module.exports = {
         ] },
         { kind: 'two', mt: true,
           left: [
-            'The school\'s wording is short: "From September 2027 (for 2028 entry), our 11+ assessments will be provided by Quest Assessments." The assessment "will consist of three sections: Mathematics, English Comprehension and English Writing".',
+            'The school\'s wording, as of 1 November 2026: "From September 2027 (for 2028 entry), we are proposing to use Quest Assessments for our 11+ entrance test." It adds: "These are proposed changes and are subject to formal consultation from 10 November 2026."',
             'Quest\'s own page for the Latymer assessment describes "two non-adaptive written assessments, both sat in a single session", with Paper One mathematics and Paper Two English and writing. "The English and mathematics papers use multiple-choice questions, while the writing paper is entirely written."'
           ],
           right: [
@@ -154,8 +154,8 @@ module.exports = {
       ]
     },
     {
-      id: 'prepare', tint: 'tint', eyebrow: 'Preparing for a new test',
-      h2: 'What to do when the format has just changed',
+      id: 'prepare', tint: 'tint', eyebrow: 'Preparing for a possible new test',
+      h2: 'What to do when the format may be about to change',
       lede: 'A change of provider unsettles families. For maths, it changes much less than it seems.',
       body: [
         { kind: 'three', cells: [
@@ -194,7 +194,7 @@ module.exports = {
 
   ladder: {
     eyebrow: 'Towards September 2027',
-    h2: 'Four stages for the first Quest cycle',
+    h2: 'Four stages if the Quest change goes ahead',
     lede: 'Quest lists registration in March to June 2027 and the test in September 2027, early in Year 6 for today\'s Year 5.',
     table: { caption: 'Building to a multiple-choice mathematics paper', head: ['When', 'Stage', 'How you can tell'], rows: [
       ['Autumn, Year 5', '1. Number facts', 'Tables and place value are instant and reliable'],
@@ -275,7 +275,7 @@ module.exports = {
     eyebrow: 'Latymer questions',
     h2: 'What Enfield families ask us',
     items: [
-      { q: 'Is the Latymer test changing?', a: 'Yes. The school says that from September 2027, for 2028 entry, its assessments will be provided by Quest Assessments and will have three sections: Mathematics, English Comprehension and English Writing.' },
+      { q: 'Is the Latymer test changing?', a: 'It may. The school is proposing that from September 2027, for 2028 entry, Quest Assessments would set its test, with three sections: Mathematics, English Comprehension and English Writing. The school says this is subject to formal consultation from 10 November 2026, so check its admissions page for the outcome.' },
       { q: 'Is there still verbal reasoning?', a: 'Verbal reasoning is not among the three sections the school lists for 2028 entry. For 2027 entry it was a 30-minute booklet alongside 30 minutes of maths.' },
       { q: 'What is the maths paper like for 2028 entry?', a: 'Quest describes mathematics as Paper One of two papers sat in a single session, with multiple-choice questions. It has not published the length of the paper.' },
       { q: 'What maths does Latymer expect?', a: 'The school says applicants are expected to show competence in skills appropriate to Key Stage 2 English and Mathematics. For a test early in Year 6, that is the primary curriculum up to the end of Year 5.' },
