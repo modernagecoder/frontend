@@ -27781,6 +27781,18 @@
   to = "/src/pages/year-5-maths-tutor-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/staar-math-tutoring"
+  to = "/src/pages/staar-math-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/staar-math-tutoring.md"
+  to = "/src/pages/staar-math-tutoring.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

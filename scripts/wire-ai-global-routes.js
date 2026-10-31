@@ -621,6 +621,7 @@ const SLUGS = [
   'aqa-level-2-further-maths-8365-help',
   'ks1-maths-tuition-online',
   'year-5-maths-tutor-online',
+  'staar-math-tutoring',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1321,6 +1322,7 @@ const LLMS_LABELS = {
   'aqa-level-2-further-maths-8365-help': 'AQA Level 2 Further Maths 8365 help',
   'ks1-maths-tuition-online': 'KS1 maths tuition online',
   'year-5-maths-tutor-online': 'Year 5 maths tutor online',
+  'staar-math-tutoring': 'STAAR math tutoring',
 };
 
 function wireLlms(slugs) {
