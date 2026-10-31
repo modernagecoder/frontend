@@ -577,6 +577,7 @@ const SLUGS = [
   'khan-academy-math-vs-live-tutor',
   'common-core-math-tutor',
   'trigonometry-tutoring-online',
+  'accelerated-math-program-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1233,6 +1234,7 @@ const LLMS_LABELS = {
   'khan-academy-math-vs-live-tutor': 'Khan Academy math vs live tutor',
   'common-core-math-tutor': 'Common Core math tutor',
   'trigonometry-tutoring-online': 'Trigonometry tutoring online',
+  'accelerated-math-program-online': 'Accelerated math program online',
 };
 
 function wireLlms(slugs) {

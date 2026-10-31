@@ -299,7 +299,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US092 | russian-school-of-mathematics-alternative (rsm, #15592B) | provider alternatives | 3,409 | 1.7% vs common-core-math-vs-traditional-math | exam door | original worked example | b9dd4918 |
 | US093 | khan-academy-math-vs-live-tutor (kav, #2A534A) | provider alternatives | 3,453 | 1.6% vs russian-school-of-mathematics-alternative | exam door | original worked example | 942ba859 |
 | US001 | common-core-math-tutor (cc, #5F4674) | standards | 4,441 | 1.9% vs common-core-math-vs-traditional-math | exam door | original worked example | fb91e750 |
-| US002 | trigonometry-tutoring-online (tt, #784E14) | hs course sequence | 4,276 | 1.4% vs common-core-math-tutor | exam door | original worked example | (this commit) |
+| US002 | trigonometry-tutoring-online (tt, #784E14) | hs course sequence | 4,276 | 1.4% vs common-core-math-tutor | exam door | original worked example | 916da463 |
+| US007 | accelerated-math-program-online (acpr, #1A7551) | placement and tracks | 3,958 | 1.9% vs common-core-math-tutor | exam door | original worked example | (this commit) |
 
 ## Skipped
 
