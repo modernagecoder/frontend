@@ -27625,6 +27625,18 @@
   to = "/src/pages/cambridge-igcse-additional-maths-0606-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/edexcel-international-gcse-maths-a-4ma1-help"
+  to = "/src/pages/edexcel-international-gcse-maths-a-4ma1-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/edexcel-international-gcse-maths-a-4ma1-help.md"
+  to = "/src/pages/edexcel-international-gcse-maths-a-4ma1-help.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -608,6 +608,7 @@ const SLUGS = [
   'a-level-computer-science-tutor-online-uk',
   'cambridge-igcse-maths-0580-help',
   'cambridge-igcse-additional-maths-0606-help',
+  'edexcel-international-gcse-maths-a-4ma1-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1295,6 +1296,7 @@ const LLMS_LABELS = {
   'a-level-computer-science-tutor-online-uk': 'A level Computer Science tutor online',
   'cambridge-igcse-maths-0580-help': 'Cambridge IGCSE Maths 0580 help',
   'cambridge-igcse-additional-maths-0606-help': 'IGCSE Additional Maths 0606 help',
+  'edexcel-international-gcse-maths-a-4ma1-help': 'Edexcel International GCSE Maths A 4MA1 help',
 };
 
 function wireLlms(slugs) {
