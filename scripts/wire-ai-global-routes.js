@@ -672,6 +672,7 @@ const SLUGS = [
   'independent-school-11-plus-maths-london',
   '13-plus-scholarship-maths-preparation',
   '7-plus-maths-preparation',
+  '16-plus-sixth-form-entrance-maths',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1423,6 +1424,7 @@ const LLMS_LABELS = {
   'independent-school-11-plus-maths-london': 'Independent school 11 plus maths in London',
   '13-plus-scholarship-maths-preparation': '13 plus scholarship maths preparation',
   '7-plus-maths-preparation': '7 plus maths preparation',
+  '16-plus-sixth-form-entrance-maths': '16 plus sixth form entrance maths',
 };
 
 function wireLlms(slugs) {

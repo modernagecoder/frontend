@@ -28393,6 +28393,18 @@
   to = "/src/pages/7-plus-maths-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/16-plus-sixth-form-entrance-maths"
+  to = "/src/pages/16-plus-sixth-form-entrance-maths.html"
+  status = 200
+
+[[redirects]]
+  from = "/16-plus-sixth-form-entrance-maths.md"
+  to = "/src/pages/16-plus-sixth-form-entrance-maths.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -8670,4 +8670,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /7-plus-maths-preparation /src/pages/7-plus-maths-preparation.html 200
 /7-plus-maths-preparation.md /src/pages/7-plus-maths-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/16-plus-sixth-form-entrance-maths /src/pages/16-plus-sixth-form-entrance-maths.html 200
+/16-plus-sixth-form-entrance-maths.md /src/pages/16-plus-sixth-form-entrance-maths.md 200
 /* /src/pages/404.html 404
