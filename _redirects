@@ -8462,4 +8462,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ks1-maths-tuition-online /src/pages/ks1-maths-tuition-online.html 200
 /ks1-maths-tuition-online.md /src/pages/ks1-maths-tuition-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/year-5-maths-tutor-online /src/pages/year-5-maths-tutor-online.html 200
+/year-5-maths-tutor-online.md /src/pages/year-5-maths-tutor-online.md 200
 /* /src/pages/404.html 404

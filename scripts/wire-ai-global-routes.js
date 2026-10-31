@@ -620,6 +620,7 @@ const SLUGS = [
   'gcse-higher-maths-grade-9-tutor',
   'aqa-level-2-further-maths-8365-help',
   'ks1-maths-tuition-online',
+  'year-5-maths-tutor-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1319,6 +1320,7 @@ const LLMS_LABELS = {
   'gcse-higher-maths-grade-9-tutor': 'GCSE Higher maths grade 9 tutor',
   'aqa-level-2-further-maths-8365-help': 'AQA Level 2 Further Maths 8365 help',
   'ks1-maths-tuition-online': 'KS1 maths tuition online',
+  'year-5-maths-tutor-online': 'Year 5 maths tutor online',
 };
 
 function wireLlms(slugs) {

@@ -658,7 +658,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK021 | gcse-foundation-maths-tutor-online (gf, #2A4A6C) | GCSE maths | 4,160 | 1.8% vs aqa-gcse-maths-8300-help | exam door | original worked example | f750856e |
 | UK022 | gcse-higher-maths-grade-9-tutor (ghg, #0B5447) | GCSE maths | 4,033 | 1.3% vs aqa-gcse-maths-8300-help | exam door | original worked example | 973ca64a |
 | UK024 | aqa-level-2-further-maths-8365-help (alf, #215A36) | GCSE maths | 4,363 | 1.5% vs aqa-gcse-maths-8300-help | exam door | original worked example | e610f1c3 |
-| UK002 | ks1-maths-tuition-online (kt, #464361) | Primary (England) | 4,192 | 1.6% vs cambridge-igcse-maths-0580-help | exam door | original worked example | (this commit) |
+| UK002 | ks1-maths-tuition-online (kt, #464361) | Primary (England) | 4,192 | 1.6% vs cambridge-igcse-maths-0580-help | exam door | original worked example | 31cefac0 |
+| UK011 | year-5-maths-tutor-online (gad, #435A40) | Primary (England) | 4,071 | 2% vs ks1-maths-tuition-online | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
