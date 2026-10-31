@@ -28141,6 +28141,18 @@
   to = "/src/pages/ks1-coding-lessons-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/times-tables-tutor-online-uk"
+  to = "/src/pages/times-tables-tutor-online-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/times-tables-tutor-online-uk.md"
+  to = "/src/pages/times-tables-tutor-online-uk.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

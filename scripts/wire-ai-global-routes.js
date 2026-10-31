@@ -651,6 +651,7 @@ const SLUGS = [
   'reception-maths-online-uk',
   'ks1-sats-maths-explained',
   'ks1-coding-lessons-online',
+  'times-tables-tutor-online-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1381,6 +1382,7 @@ const LLMS_LABELS = {
   'reception-maths-online-uk': 'Reception maths online',
   'ks1-sats-maths-explained': 'KS1 SATs maths explained',
   'ks1-coding-lessons-online': 'KS1 coding lessons online',
+  'times-tables-tutor-online-uk': 'Times tables tutor online',
 };
 
 function wireLlms(slugs) {

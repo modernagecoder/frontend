@@ -8586,4 +8586,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ks1-coding-lessons-online /src/pages/ks1-coding-lessons-online.html 200
 /ks1-coding-lessons-online.md /src/pages/ks1-coding-lessons-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/times-tables-tutor-online-uk /src/pages/times-tables-tutor-online-uk.html 200
+/times-tables-tutor-online-uk.md /src/pages/times-tables-tutor-online-uk.md 200
 /* /src/pages/404.html 404
