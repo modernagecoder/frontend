@@ -27157,6 +27157,18 @@
   to = "/src/pages/coding-camp-cost-canada.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/saxon-math-tutor"
+  to = "/src/pages/saxon-math-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/saxon-math-tutor.md"
+  to = "/src/pages/saxon-math-tutor.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

@@ -291,7 +291,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 133 | online-coding-and-ai-classes-in-raleigh-durham (ard, #27275C) | metro | 3,119 | 1.7% vs coding-and-ai-classes-in-north-carolina | phase 5 | data cleaning (inconsistent labels, two kinds of missing value, zero versus blan | 00a1f0cd |
 | 134 | ai-and-python-classes-for-teens-in-northern-virginia (aptn, #6B334A) | metro | 3,132 | 2.2% vs ai-and-python-classes-for-teens-in-miami | phase 5 | time series (reshape wide to long, group by calendar month, find seasonality, ha | cb40b245 |
 | 137 | ai-and-python-classes-for-teens-in-portland-oregon (aptp, #291C9E) | metro | 3,265 | 1.7% vs ai-and-python-classes-for-teens-in-denver | phase 5 | frequency counting and diversity (Counter, top-10 share, Simpson index), and gro | 20a01f1b |
-| 138 | best-coding-classes-for-kids-in-minneapolis (beki, #5C161C) | metro | 3,251 | 2.3% vs best-coding-classes-for-kids-in-orlando | phase 5 | pivot tables (crosstab of two categorical fields) and checking that the parts ad | (this commit) |
+| 138 | best-coding-classes-for-kids-in-minneapolis (beki, #5C161C) | metro | 3,251 | 2.3% vs best-coding-classes-for-kids-in-orlando | phase 5 | pivot tables (crosstab of two categorical fields) and checking that the parts ad | 19b6dc56 |
+| US082 | saxon-math-tutor (sax, #823C5F) | homeschool and curricula | 3,725 | 1.3% vs ai-guidance-for-schools-by-state | exam door | original worked example | (this commit) |
 
 ## Skipped
 

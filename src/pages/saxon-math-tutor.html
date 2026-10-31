@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Saxon Math Tutor Online: Live Help Alongside the Books</title>
+  <meta name="description" content="A Saxon Math tutor online for families using the books: how the incremental lessons and cumulative tests work, where students stall, and live help.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/saxon-math-tutor">
+  <link rel="alternate" type="text/markdown" href="/src/pages/saxon-math-tutor.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#823C5F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/saxon-math-tutor">
+  <meta property="og:title" content="Saxon Math Tutor Online: Live Help Alongside the Books">
+  <meta property="og:description" content="Saxon Math teaches in small increments and reviews everything, every day. That is its strength and the reason some students stall. How the program is built, and how a live tutor works alongside it.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Saxon Math Tutor Online: Live Help Alongside the Books">
+  <meta name="twitter:description" content="Live online help for students using Saxon Math, from Algebra 1 back to the early courses.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-sax .ag-hero h1 { letter-spacing: -0.012em; max-width: 22ch; }
+.ag-root.ag-sax .ag-capsule { border-left-width: 5px; border-radius: 3px; }
+.ag-root.ag-sax .ag-table caption { text-align: left; font-weight: 600; font-style: italic; }
+.ag-root.ag-sax .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-sax .ag-section-head h2 { max-width: 28ch; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/saxon-math-tutor#page","url":"https://learn.modernagecoders.com/saxon-math-tutor","name":"Saxon Math Tutor","description":"A guide for US families using Saxon Math, built from Houghton Mifflin Harcourt pages read on 31 October 2026, with our own worked examples, a mistake-sorting method and details of live online tutoring.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Saxon Math tutor","item":"https://learn.modernagecoders.com/saxon-math-tutor"}]},{"@type":"Course","name":"Saxon Math Tutor","description":"Live online math lessons for US students using Saxon Math, from the middle courses to Algebra 1, Geometry and Algebra 2, in a batch of 15 to 20 or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/saxon-math-tutor"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/saxon-math-tutor"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/saxon-math-tutor"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you tutor my child in Saxon Math online?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our teachers work live by video with the student's own Saxon book, starting from the current lesson and recent mixed sets. Classes run as a batch of 15 to 20 or one to one."}},{"@type":"Question","name":"Who publishes Saxon Math?","acceptedAnswer":{"@type":"Answer","text":"Saxon Math is published by Houghton Mifflin Harcourt (HMH). Its program page describes an incremental approach with cumulative practice and assessment, from kindergarten to Algebra 2. We are not connected with HMH."}},{"@type":"Question","name":"Why is Saxon Math so hard for some children?","acceptedAnswer":{"@type":"Answer","text":"Its mixed practice keeps returning to earlier lessons, so one insecure idea shows up as scattered wrong answers for weeks. In our experience the fix is to find and reteach those few lessons, not to slow the whole book down."}},{"@type":"Question","name":"What tests does Saxon Math use?","acceptedAnswer":{"@type":"Answer","text":"HMH lists Power Up, Cumulative, Benchmark and End-of-Year tests as its summative assessments, with formative checks through daily lessons and written practice."}},{"@type":"Question","name":"Which Saxon levels do you help with?","acceptedAnswer":{"@type":"Answer","text":"All of them, but most families come to us from the middle courses, Algebra 1, Geometry or Algebra 2. Younger children are taught through our elementary course with the Saxon lessons beside it."}},{"@type":"Question","name":"Should my child skip the mixed practice to catch up?","acceptedAnswer":{"@type":"Answer","text":"We would not. The cumulative review is how Saxon is designed to work. It is better to repair the old lessons behind the misses so the review starts helping again."}},{"@type":"Question","name":"Will you do my child's Saxon homework or tests?","acceptedAnswer":{"@type":"Answer","text":"No. We teach the idea behind a problem and set similar problems of our own. Homework, tests and grades remain the student's work."}},{"@type":"Question","name":"My child's book has a different title from the levels you list. Is that a problem?","acceptedAnswer":{"@type":"Answer","text":"No. Editions and titles vary. Send a photo of the contents page and a recent test and the teacher will place your child by what the lessons cover."}},{"@type":"Question","name":"When are classes?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Is the first class free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The first class is free and needs no card details. Bring the Saxon book and the last week or two of work."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/saxon-math-tutor","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-sax">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#how-saxon-works">How Saxon works</a></li>
+      <li><a href="#levels">Levels</a></li>
+      <li><a href="#stall">Where students stall</a></li>
+      <li><a href="#worked">Worked examples</a></li>
+      <li><a href="#tutor">With a tutor</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Saxon Math tutor
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Saxon Math K to Algebra 2 &middot; Live help alongside the books</p>
+        <h1>Saxon Math tutor online, alongside the books you already use</h1>
+        <p class="ag-lede">Saxon Math has a reputation among homeschool and school families for being steady and relentless: a short new idea each day, then a long mixed set that keeps reaching back to old lessons. Many children thrive on it. Some reach a point, often in the middle courses or Algebra 1, where the mixed sets stop feeling like review and start feeling like a wall. This page explains how the program is designed, from the publisher&rsquo;s own description, and how a live tutor can work with the Saxon book on the table rather than replacing it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#worked" class="ag-btn ag-btn--ghost">See the worked examples</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20uses%20Saxon%20Math%20in%20the%20US%20and%20is%20getting%20stuck.%20Could%20we%20book%20a%20free%20first%20class%20with%20a%20tutor%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'sax'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching math and coding live since 2020 &middot; 10,000+ students &middot; grades K to 12</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Publisher</dt><dd>Houghton Mifflin Harcourt (HMH)</dd>
+          <dt>Method</dt><dd>Incremental, cumulative review</dd>
+          <dt>Levels</dt><dd>Primary, Intermediate, Courses 1 to 3, high school</dd>
+          <dt>Tests</dt><dd>Power Up, Cumulative, Benchmark, End-of-Year</dd>
+          <dt>Our help</dt><dd>Live online, with your book</dd>
+          <dt>Formats</dt><dd>Batch of 15 to 20, or 1-on-1</dd>
+          <dt>Timing</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Saxon Math is a K to 12 math program published by Houghton Mifflin Harcourt (HMH) that teaches in small daily increments and keeps every earlier lesson in cumulative practice and tests. A Saxon Math tutor helps a student who has stalled by finding which earlier lesson each missed problem depends on and reteaching it. Modern Age Coders teaches live online for US students, in a batch or 1-on-1, through its Algebra Foundations course, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Courses that sit beside Saxon</p>
+      <h2>Three live courses for students working through Saxon Math</h2>
+      <p class="ag-lede">We teach to the student&rsquo;s current Saxon lesson, so these courses run alongside the book rather than in place of it.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/algebra-foundations-masterclass">
+        <div class="ag-pick-shot"><img src="/images/algebra-foundations.webp" alt="Algebra Foundations course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SAX / 01</p>
+          <h3>Algebra foundations</h3>
+          <p>Pre-algebra and Algebra 1: the stage where most Saxon students ask for help.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SAX / 02</p>
+          <h3>Middle school math</h3>
+          <p>Fractions, ratios, negatives and early equations, the Courses 1 to 3 territory.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-high-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/high-school-maths.webp" alt="High School Mathematics course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">SAX / 03</p>
+          <h3>High school math</h3>
+          <p>Geometry and Algebra 2 for students who carry on with Saxon after Algebra 1.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="how-saxon-works">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">How Saxon works</p><h2>How does Saxon Math teach, according to its publisher?</h2><p class="ag-lede">HMH describes Saxon as incremental and cumulative: each lesson adds one small step, and practice keeps returning to everything taught before. Understanding that design is the first step to helping a student who is struggling with it.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The Saxon Math design in HMH&rsquo;s own words (hmhco.com/programs/saxon-math, checked 31 October 2026)</caption><thead><tr><th scope="col">Feature</th><th scope="col">What HMH says</th></tr></thead><tbody><tr><td>Starting point</td><td>"To master mathematics, students need to build on prior learning"</td></tr><tr><td>Increments</td><td>"An incremental approach gives students the time to understand and practice a small concept before adding the next step."</td></tr><tr><td>Distribution</td><td>"Distributing skills across the year ensures that students have time to practice and master a concept."</td></tr><tr><td>Review</td><td>"Cumulative practice and assessments cover ideas from earlier lessons"</td></tr><tr><td>Strands</td><td>Concepts from every strand are "woven together and connected throughout the year"</td></tr><tr><td>Daily routine</td><td>"Easy-to-follow daily lessons offer a consistent structure"</td></tr><tr><td>Summative tests</td><td>"Power Up, Cumulative, Benchmark, and End-of-Year tests"</td></tr><tr><td>Ongoing checks</td><td>Formative assessment "through daily instruction, lesson practice, and written practice"</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What a lesson contains</h3><p>HMH lists three parts to the classroom experience: Classroom Discourse (daily discussion and practice), Hands-On Learning with manipulatives, and Writing, where "written practice" gives students the chance to review and apply earlier concepts.</p>
+<p>Online, the program adds Drawing Tools, "iTools digital math manipulatives", Calculator Activities and an eGlossary, and teachers get a Guide to Differentiated Instruction for planning.</p></div><div><h3>Where the method comes from</h3><p>HMH says the program&rsquo;s authors work "Guided by the incremental approach developed by John Saxon." The name on the cover is the name of the method.</p>
+<p>HMH&rsquo;s homeschool page lists Saxon Math among its home math programs, beside Math in Focus and Head for Home Math Skills workbooks, which is why so many homeschool families meet it.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://www.hmhco.com/programs/saxon-math" rel="noopener" target="_blank">HMH Saxon Math program page</a> and <a class="ag-inline-link" href="https://www.hmhco.com/classroom-solutions/homeschool" rel="noopener" target="_blank">HMH homeschool page</a>, checked 31 October 2026. Saxon Math is a trademark of its owner. Modern Age Coders is not affiliated with, endorsed by or connected with Houghton Mifflin Harcourt.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="levels">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Levels</p><h2>Which Saxon Math levels are there, from kindergarten to Algebra 2?</h2><p class="ag-lede">HMH groups the program into four bands. Knowing the band tells a tutor what the student has already been given and what is coming next.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Saxon Math instructional content by band (HMH program page, checked 31 October 2026; the right-hand column is our teaching note)</caption><thead><tr><th scope="col">Band</th><th scope="col">Grades</th><th scope="col">HMH description</th><th scope="col">What we usually help with</th></tr></thead><tbody><tr><td>Primary</td><td>K to 3</td><td>Materials and activities "in the consumable kit"; "Grade 3 is available in kit or textbook format"</td><td>Fact fluency, place value, early word problems</td></tr><tr><td>Intermediate</td><td>3 to 5</td><td>Lessons embedded with activities and practical applications</td><td>Long division, fractions, decimals</td></tr><tr><td>Courses 1 to 3</td><td>Middle grades</td><td>Units "integrated and distributed" to develop skills and "algebraic thinking"</td><td>Negatives, ratios, first equations</td></tr><tr><td>High school</td><td>Algebra 1, Geometry, Algebra 2</td><td>Practical applications of abstract concepts</td><td>Equations, functions, proofs, quadratics</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Homeschool editions have sometimes carried different book titles from the classroom bands above. If your child&rsquo;s book has another name on the cover, that is fine: we place by what the lessons contain, not by the title. Send us a photo of the contents page and the last test your child took, and the teacher will start from there.</p>
+    <p class="ag-mt-40"><b>HMH&rsquo;s evidence labels, as HMH states them.</b> On its program page HMH links three documents describing how Saxon Math meets the federal ESSA evidence tiers: grades K to 5 "STRONG", grades 6 to 8 "MODERATE" and grades 9 to 12 "PROMISING". These are the publisher&rsquo;s own descriptions of its research, reported here as HMH words. We make no claim about outcomes for any program, including our own.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="stall">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Where students stall</p><h2>Why do some students get stuck in Saxon Math?</h2><p class="ag-lede">In our teaching experience, Saxon students rarely get stuck on the new lesson of the day. They get stuck on problem 18 of the mixed set, which quietly depends on something taught thirty lessons ago. The patterns below are general guidance from our classes, not statistics.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Common stall points with Saxon Math and what we do about them (our teaching notes)</caption><thead><tr><th scope="col">What the parent sees</th><th scope="col">What is usually underneath</th><th scope="col">What helps</th></tr></thead><tbody><tr><td>New lessons are fine, mixed sets are slow</td><td>One or two old lessons were never secure</td><td>Sort missed problems by the lesson that taught them</td></tr><tr><td>Test scores drop while daily work looks fine</td><td>Daily sets were done with the lesson example open</td><td>Do a few mixed problems closed-book each week</td></tr><tr><td>Tears at Algebra 1</td><td>Negative numbers and fraction arithmetic are shaky</td><td>Rebuild integers and fractions before more algebra</td></tr><tr><td>Every problem gets the newest method</td><td>The student guesses which lesson a problem belongs to</td><td>Practise naming the idea before solving</td></tr><tr><td>Hours per lesson</td><td>Too many problems attempted without help on the first error</td><td>Stop after two misses on one idea and ask</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why the design causes this</h3><p>Cumulative practice is exactly what HMH says it is: ideas from earlier lessons keep coming back. That is a gift to a student who understood them, and a slow leak for one who memorised a step and moved on.</p>
+<p>Because the review is mixed, a gap does not show up as one bad lesson. It shows up as a scatter of wrong answers across many days, which is hard for a parent to diagnose from the gradebook.</p></div><div><h3>What not to do</h3><p>Do not skip the mixed practice to get through more lessons. The review is the program; without it Saxon becomes a thin textbook.</p>
+<p>Do not restart the whole book either. A student who is stuck at lesson 64 usually needs three or four earlier lessons retaught, not sixty.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="worked">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked examples</p><h2>How does a tutor find the lesson behind a wrong answer?</h2><p class="ag-lede">Our method, shown on a made-up week of work. Every missed problem is traced to the lesson that first taught it, and the lessons that appear most often are the ones to reteach.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>lesson_of_origin.py (our example; lesson and problem numbers are invented)</b><span>Python 3</span></figcaption><pre>from collections import Counter
+
+# One week of missed problems: (lesson done, problem number, lesson it reviews)
+missed = [(61, 7, 42), (61, 18, 55), (62, 4, 42), (62, 21, 38),
+          (63, 12, 42), (63, 25, 55), (64, 9, 30)]
+
+by_origin = Counter(origin for _, _, origin in missed)
+for lesson, count in by_origin.most_common():
+    print(f"Lesson {lesson}: missed {count} time(s)")</pre><p class="ag-code-note">Output: Lesson 42: missed 3 time(s), Lesson 55: missed 2 time(s), Lesson 38: missed 1 time(s), Lesson 30: missed 1 time(s). Seven wrong answers across four days look random; sorted by origin, almost half point to one earlier lesson. That is the lesson to reteach first. A paper tally works just as well; the code only shows the idea.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Four worked problems at Algebra 1 level, in the mixed style Saxon students meet (our problems and solutions)</caption><thead><tr><th scope="col">Problem</th><th scope="col">Idea it depends on</th><th scope="col">Worked solution</th></tr></thead><tbody><tr><td>Simplify 3(2x - 5) - 4(x - 2)</td><td>Distributing a negative</td><td>6x - 15 - 4x + 8, so 2x - 7. The usual slip is -4 times -2 written as -8.</td></tr><tr><td>Solve 0.4x + 1.2 = 0.1x + 3</td><td>Clearing decimals</td><td>Multiply every term by 10: 4x + 12 = x + 30, so 3x = 18 and x = 6.</td></tr><tr><td>Three consecutive odd integers add to 81. Find them.</td><td>Writing an equation from words</td><td>n + (n + 2) + (n + 4) = 81, so 3n + 6 = 81, n = 25: the numbers are 25, 27 and 29.</td></tr><tr><td>Solve (2/3)x - 5 = 7</td><td>Undoing a fraction coefficient</td><td>Add 5: (2/3)x = 12. Multiply by 3/2: x = 18. Check: 12 - 5 = 7.</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Naming the idea first</h3><p>Before solving any mixed problem, we ask the student to say in a few words what kind of problem it is: "distributing a negative", "clear the decimals". It takes ten seconds and stops the habit of applying today&rsquo;s method to everything.</p>
+<p>When a student cannot name the idea, that is the gap, found before a single wrong answer is written.</p></div><div><h3>Checking without the key</h3><p>Each worked example above ends with a check a student can do alone: substitute the answer back, or estimate first. For x = 6, 0.4 times 6 plus 1.2 is 3.6, and 0.1 times 6 plus 3 is also 3.6.</p>
+<p>A student who checks their own work needs the answer key less, and learns more from the times the check fails.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>A short mixed practice set to try (ours; answers in brackets)</caption><thead><tr><th scope="col">Problem</th><th scope="col">Idea to name first</th></tr></thead><tbody><tr><td>-2(3x - 4) + 5x</td><td>Distributing a negative (-x + 8)</td></tr><tr><td>0.3x - 0.6 = 0.1x + 1</td><td>Clearing decimals (x = 8)</td></tr><tr><td>Four consecutive integers add to 66</td><td>Equation from words (15, 16, 17, 18)</td></tr><tr><td>(3/4)x + 2 = 11</td><td>Fraction coefficient (x = 12)</td></tr><tr><td>Find 15% of 240</td><td>Percent as a decimal (36)</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="tutor">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">With a tutor</p><h2>How does a live tutor work alongside Saxon Math?</h2><p class="ag-lede">The book stays in charge of the sequence. The tutor&rsquo;s job is to keep the cumulative review working by repairing old lessons before the gaps spread.</p></div>
+    <ol class="ag-steps"><li><b>Bring the book and the last two weeks of work.</b> The first class starts from your child&rsquo;s current lesson and their recent mixed sets and tests.</li><li><b>Trace the misses.</b> The teacher sorts wrong answers by the lesson that taught them, the method shown above.</li><li><b>Reteach the two or three lessons that matter.</b> Usually with a different explanation from the book&rsquo;s, so the idea lands a second way.</li><li><b>Return to the current lesson.</b> The student carries on in Saxon; we do not skip ahead or reorder the book.</li><li><b>Watch the next Cumulative test.</b> If the same lessons come back wrong, we revisit them; if not, we look for the next pattern.</li></ol>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>A batch may suit</h3><p>A student in the middle courses or Algebra 1 who needs steady weekly teaching of the same topics the book covers, with classmates working through similar material.</p></div><div><h3>1-on-1 may suit</h3><p>A homeschool student whose Saxon lesson number does not match a class, or one who needs several old lessons repaired quickly.</p></div><div><h3>Saxon alone may suit</h3><p>A student who checks their own work, reads the lesson carefully and keeps test scores steady. Many children never need a tutor for Saxon.</p></div></div>
+    <p class="ag-mt-40">Homework stays the student&rsquo;s own. We teach the idea and set similar problems written by us; we do not complete Saxon sets or tests for anyone, and we never share test answers.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your child is</p>
+      <h2>Four stages of working through a cumulative program</h2>
+      <p class="ag-lede">Our description of how students relate to mixed review, from struggling with it to relying on it.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages with cumulative review (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Lesson-bound</td><td class="ag-num">Can do today&rsquo;s problems with the example open, not much else</td></tr><tr><td>2. Patchy</td><td class="ag-num">Most mixed problems right, the same few kinds always wrong</td></tr><tr><td>3. Self-checking</td><td class="ag-num">Names each problem&rsquo;s idea and checks answers without the key</td></tr><tr><td>4. Fluent</td><td class="ag-num">Mixed sets feel like warm-ups; tests hold steady</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 2 is the most common reason families call us. It is also the easiest to fix, because the gaps are few and findable.</p>
+<p>The gradebook alone will not show stage 2; sorting misses by lesson will.</p></div><div><h3>For students</h3><p>If a problem looks unfamiliar, it probably is not new. Ask which old lesson it is from.</p>
+<p>Checking your answer is not extra work. It is the work.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine math courses for every Saxon band</h2>
+      <p class="ag-lede">Live courses that line up with what a Saxon student is studying, from early number sense to Algebra 2.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Primary and intermediate</h3>
+        <span class="ag-band-sub">Grades K to 5</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / E / 01</p>
+          <h4>Early math foundations</h4>
+          <p>Counting and number sense.</p>
+          <a class="ag-course-link" href="/courses/early-math-foundations">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / E / 02</p>
+          <h4>Elementary math</h4>
+          <p>Facts, place value, fractions.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / E / 03</p>
+          <h4>Mental math</h4>
+          <p>Quick, reasoned arithmetic.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Courses 1 to 3</h3>
+        <span class="ag-band-sub">Middle grades</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / M / 01</p>
+          <h4>Middle school math</h4>
+          <p>Ratios, negatives, equations.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / M / 02</p>
+          <h4>Math through coding</h4>
+          <p>Algebra ideas in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / M / 03</p>
+          <h4>Math competitions</h4>
+          <p>For the student who wants more.</p>
+          <a class="ag-course-link" href="/courses/middle-school-math-competitions-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>High school</h3>
+        <span class="ag-band-sub">Algebra 1 to Algebra 2</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / H / 01</p>
+          <h4>Algebra foundations</h4>
+          <p>Algebra 1, explained.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / H / 02</p>
+          <h4>High school math</h4>
+          <p>Geometry and Algebra 2.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">SAX / H / 03</p>
+          <h4>SAT Math</h4>
+          <p>After Algebra 2.</p>
+          <a class="ag-course-link" href="/courses/sat-math-prep-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live lessons that keep the Saxon book in charge</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school or during the homeschool day.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Repair sessions before a Cumulative test.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Matched to your lesson number.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Book stays open</h3><p>We follow the Saxon sequence.</p></div>
+      <div><h3>Trace, then teach</h3><p>Misses sorted by the lesson behind them.</p></div>
+      <div><h3>Our own problems</h3><p>Practice written by our teachers.</p></div>
+      <div><h3>No answers handed over</h3><p>Tests and sets stay the student&rsquo;s.</p></div>
+      <div><h3>Every US time zone</h3><p>Eastern to Pacific and beyond.</p></div>
+      <div><h3>Pick a size</h3><p>Fifteen to twenty in a batch, or private.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work from our students</h2>
+      <p class="ag-lede">Some of our math students also write small programs. A few are on <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Saxon support is billed by the month in US dollars with no long contract, so a family can add a tutor for a hard stretch of lessons and stop when the mixed sets settle.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring the Saxon book</li><li>No card details needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty students</li><li>The same teacher each week</li><li>Choose your batch</li><li>Monthly billing</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One teacher, one student</li><li>Paced to your lesson number</li><li>Times that suit you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents wrote on Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Saxon Math tutoring: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Can you tutor my child in Saxon Math online?</h3>
+        <p>Yes. Our teachers work live by video with the student's own Saxon book, starting from the current lesson and recent mixed sets. Classes run as a batch of 15 to 20 or one to one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who publishes Saxon Math?</h3>
+        <p>Saxon Math is published by Houghton Mifflin Harcourt (HMH). Its program page describes an incremental approach with cumulative practice and assessment, from kindergarten to Algebra 2. We are not connected with HMH.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why is Saxon Math so hard for some children?</h3>
+        <p>Its mixed practice keeps returning to earlier lessons, so one insecure idea shows up as scattered wrong answers for weeks. In our experience the fix is to find and reteach those few lessons, not to slow the whole book down.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What tests does Saxon Math use?</h3>
+        <p>HMH lists Power Up, Cumulative, Benchmark and End-of-Year tests as its summative assessments, with formative checks through daily lessons and written practice.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which Saxon levels do you help with?</h3>
+        <p>All of them, but most families come to us from the middle courses, Algebra 1, Geometry or Algebra 2. Younger children are taught through our elementary course with the Saxon lessons beside it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should my child skip the mixed practice to catch up?</h3>
+        <p>We would not. The cumulative review is how Saxon is designed to work. It is better to repair the old lessons behind the misses so the review starts helping again.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you do my child's Saxon homework or tests?</h3>
+        <p>No. We teach the idea behind a problem and set similar problems of our own. Homework, tests and grades remain the student's work.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child's book has a different title from the levels you list. Is that a problem?</h3>
+        <p>No. Editions and titles vary. Send a photo of the contents page and a recent test and the teacher will place your child by what the lessons cover.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the first class free?</h3>
+        <p>Yes. The first class is free and needs no card details. Bring the Saxon book and the last week or two of work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More help for US families teaching math at home or alongside school.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/homeschool-math-curriculum-usa">Homeschool math curriculum</a></h3><p>Planning a whole math sequence at home.</p></div>
+      <div><h3><a class="ag-inline-link" href="/algebra-tutoring-online-usa">Algebra tutoring</a></h3><p>Where many Saxon students first want a teacher.</p></div>
+      <div><h3><a class="ag-inline-link" href="/geometry-tutoring-online-usa">Geometry tutoring</a></h3><p>For the year after Algebra 1.</p></div>
+      <div><h3><a class="ag-inline-link" href="/common-core-math-vs-traditional-math">Common Core vs traditional math</a></h3><p>Two teaching styles set side by side from the standards.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-7th-grade">Seventh grade math tutoring</a></h3><p>Negatives, ratios and first equations.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-cost">Math tutor cost</a></h3><p>What shapes the fee for online math help.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first Saxon class</h2>
+        <p class="ag-lede">Tell us the Saxon level and lesson number, and which problems keep coming back wrong. The teacher will trace them in the first class.</p>
+        <p class="ag-mt-40">Read how <a class="ag-inline-link" href="/how-we-teach">our teachers plan a lesson</a>, or look through the <a class="ag-inline-link" href="/courses">full course list</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20uses%20Saxon%20Math%20in%20the%20US%20and%20is%20getting%20stuck.%20Could%20we%20book%20a%20free%20first%20class%20with%20a%20tutor%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'sax',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers are based in India and teach US families live, at times set around American school days and homeschool routines. WhatsApp is the quickest way to reach us.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_sax(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free first class, and no payment details are asked for.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Math help</h4><ul><li><a href="/algebra-tutoring-online-usa">Algebra tutoring</a></li><li><a href="/geometry-tutoring-online-usa">Geometry tutoring</a></li><li><a href="/online-math-tutor-7th-grade">Seventh grade math</a></li><li><a href="/online-math-tutor-cost">Math tutor cost</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Our US pages</a></li><li><a href="/homeschool-math-curriculum-usa">Homeschool math</a></li><li><a href="/mathcounts-preparation">MATHCOUNTS</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Lesson 42, three times</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_sax = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'saxon-math-tutor-inline', meta: { name: name, age: age, page: 'saxon-math-tutor' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>

@@ -569,6 +569,7 @@ const SLUGS = [
   'coding-classes-cost-canada',
   'math-tutor-cost-canada',
   'coding-camp-cost-canada',
+  'saxon-math-tutor',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1217,6 +1218,7 @@ const LLMS_LABELS = {
   'coding-classes-cost-canada': 'Coding classes cost in Canada',
   'math-tutor-cost-canada': 'Math tutor cost in Canada',
   'coding-camp-cost-canada': 'Coding camp cost',
+  'saxon-math-tutor': 'Saxon Math tutor',
 };
 
 function wireLlms(slugs) {
