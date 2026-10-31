@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Oxbridge Maths Interview Preparation: Problems and Practice</title>
+  <meta name="description" content="Oxbridge maths interview preparation: what Oxford and Cambridge say about format, length and timing for 2027 entry, and five practice problems of ours with hints.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving">
+  <link rel="alternate" type="text/markdown" href="/src/pages/oxbridge-maths-interview-problem-solving.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#1B6D70">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving">
+  <meta property="og:title" content="Oxbridge Maths Interview Preparation: Problems and Practice">
+  <meta property="og:description" content="Oxford and Cambridge maths interviews are about how you think when you are stuck. Formats, dates and lengths from the universities, plus original problems with hint ladders.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_GB">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oxbridge Maths Interview Preparation: Problems and Practice">
+  <meta name="twitter:description" content="Oxbridge maths interviews: format and dates from Oxford and Cambridge, and original practice problems with hints.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="GB">
+  <meta name="geo.placename" content="United Kingdom">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-oip .ag-hero h1 { letter-spacing: -0.014em; max-width: 26ch; }
+.ag-root.ag-oip .ag-capsule { border-left-width: 3px; padding-left: 1.3rem; }
+.ag-root.ag-oip .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-oip .ag-table caption { text-align: left; letter-spacing: 0.01em; }
+.ag-root.ag-oip .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-oip .ag-three h3 { letter-spacing: -0.008em; }
+.ag-root.ag-oip .ag-steps li { line-height: 1.66; }
+.ag-root.ag-oip .ag-slots { gap: 1.2rem; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United Kingdom"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving#page","url":"https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving","name":"Oxbridge Maths Interview Preparation","description":"A guide to mathematics interviews at the University of Oxford and the University of Cambridge for 2027 entry, built from the Oxford Mathematical Institute, the Cambridge Faculty of Mathematics and Cambridge admissions pages, with original problems for practising thinking aloud.","inLanguage":"en-GB","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the UK","item":"https://learn.modernagecoders.com/coding-classes-in-united-kingdom"},{"@type":"ListItem","position":4,"name":"Oxbridge maths interviews","item":"https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving"}]},{"@type":"Course","name":"Oxbridge Maths Interview Preparation","description":"Live online practice for Oxford and Cambridge mathematics interviews: unfamiliar problems solved aloud with a teacher, hints given and used, and A Level and Further Maths depth for Year 13 applicants.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What happens in an Oxbridge maths interview?","acceptedAnswer":{"@type":"Answer","text":"You are given mathematical problems and asked to work on them aloud while one or two interviewers watch and offer hints. Oxford also mentions curve sketching, points of technique and exploring a new definition."}},{"@type":"Question","name":"Are Oxford maths interviews online?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Oxford Mathematical Institute says interviews are online via video call for all candidates, in December, at the first-choice college and at least one other."}},{"@type":"Question","name":"How long is a Cambridge maths interview?","acceptedAnswer":{"@type":"Answer","text":"The Faculty of Mathematics says an interview typically lasts about 20 to 40 minutes. The University says most applicants have one or two interviews totalling 35 minutes to an hour, with some having three or four."}},{"@type":"Question","name":"When are Cambridge interviews in 2026?","acceptedAnswer":{"@type":"Answer","text":"Cambridge gives the main interview period as 7 to 18 December 2026, with invitations mostly sent in November. Winter pool interviews take place around mid to late January 2027."}},{"@type":"Question","name":"How many Cambridge maths applicants get an interview?","acceptedAnswer":{"@type":"Answer","text":"The Faculty of Mathematics says that historically between 75% and 80% of applicants have been invited to interview, and that around 30% of all applicants have ultimately received conditional offers."}},{"@type":"Question","name":"Where can I find Oxbridge maths interview questions?","acceptedAnswer":{"@type":"Answer","text":"Not from the universities: Cambridge says sharing interview questions is strictly prohibited. Practise on unfamiliar problems instead, such as STEP questions, problem books and the original problems on this page."}},{"@type":"Question","name":"Is it bad to get stuck in a Cambridge maths interview?","acceptedAnswer":{"@type":"Answer","text":"No. The Faculty says it will always ask some questions where you get stuck, and that seeing how you use a hint helps it judge mathematical potential."}},{"@type":"Question","name":"Do I need interview coaching for Oxford or Cambridge?","acceptedAnswer":{"@type":"Answer","text":"The universities say no special training is needed and that paid services have no exclusive information. Practice with someone who does not know you, as Cambridge suggests, is the part a class can supply."}},{"@type":"Question","name":"What topics come up in Cambridge maths interviews?","acceptedAnswer":{"@type":"Answer","text":"The Faculty lists numbers, sequences, integrals and graph sketching, sometimes probability and some basic mechanics. Mathematics with Physics applicants always get at least one mechanics question."}},{"@type":"Question","name":"When are your classes held?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Are you linked to Oxford or Cambridge?","acceptedAnswer":{"@type":"Answer","text":"No. Modern Age Coders is independent and is not endorsed by the University of Oxford, the University of Cambridge or any college, and we have no inside information about interviews."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United Kingdom"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/oxbridge-maths-interview-problem-solving","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="GB">
+</head>
+
+<body class="ag-root ag-oip">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">UK</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#format">Format</a></li>
+      <li><a href="#purpose">What they test</a></li>
+      <li><a href="#problems">Practice problems</a></li>
+      <li><a href="#aloud">Thinking aloud</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-kingdom">Coding classes in the UK</a> / Oxbridge maths interviews
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United Kingdom &middot; Year 13 &middot; Interviews in December 2026</p>
+        <h1>Oxbridge maths interview preparation: problem solving out loud</h1>
+        <p class="ag-lede">An Oxford or Cambridge mathematics interview is not a viva on the A Level syllabus. It is a problem, often one you cannot finish alone, worked through with one or two mathematicians who offer hints and watch what you do with them. Cambridge's Faculty of Mathematics says it will always ask something you get stuck on. Oxford says tutors want to see how you think when you do mathematics. This page sets out each university's own description of the interview for 2027 entry, then gives five problems we wrote for practising the skill they describe: thinking aloud, getting stuck honestly, and using a hint well.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#problems" class="ag-btn ag-btn--ghost">Try the practice problems</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20have%20an%20Oxford%20or%20Cambridge%20maths%20interview%20coming%20up%20and%20would%20like%20a%20free%20practice%20class." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'oip'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live teaching since 2020 &middot; 10,000+ students &middot; Interview facts from Oxford and Cambridge pages only</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Oxford</dt><dd>About 25 minutes each, online, in December</dd>
+          <dt>Cambridge</dt><dd>1 or 2 interviews, 35 minutes to an hour in total</dd>
+          <dt>Cambridge dates</dt><dd>7 to 18 December 2026</dd>
+          <dt>Test first</dt><dd>TMUA, October 2026, for both</dd>
+          <dt>Content</dt><dd>Problems, hints, graph sketching</dd>
+          <dt>Our problems</dt><dd>Original, labelled ours</dd>
+          <dt>Formats</dt><dd>Group of 15 to 20, or 1-on-1</dd>
+          <dt>Start</dt><dd>One free class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Oxbridge maths interviews are academic problem-solving conversations held by Oxford colleges and Cambridge Colleges for mathematics applicants, after the TMUA in October. Oxford interviews are online, about 25 minutes each, in December; Cambridge's main interview period for 2027 entry is 7 to 18 December 2026, with most applicants having one or two interviews totalling 35 minutes to an hour. Both say they want to see how you think. Modern Age Coders runs live online interview practice with original problems, in a group of 15 to 20 or 1-on-1.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three courses for an Oxbridge maths applicant</h2>
+      <p class="ag-lede">Problem solving beyond the syllabus, the admissions-test and STEP mathematics that sits around the interview, and the Further Maths Cambridge requires.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/olympiad-competition-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/olympiad-competition-maths.webp" alt="Maths Olympiad &amp; Competition Course course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">OIP / 01</p>
+          <h3>Olympiad and competition maths</h3>
+          <p>Unfamiliar problems every week, the closest thing to an interview a course can give.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/tmua-mat-step-preparation-course">
+        <div class="ag-pick-shot"><img src="/images/tmua-mat-step-prep.webp" alt="TMUA and STEP Preparation (Oxford MAT Now TMUA) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">OIP / 02</p>
+          <h3>TMUA and STEP preparation</h3>
+          <p>The test before the interview and the papers in the offer; Cambridge says STEP work also prepares you to interview.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/a-level-further-maths-course">
+        <div class="ag-pick-shot"><img src="/images/a-level-further-maths.webp" alt="A Level Further Maths course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">OIP / 03</p>
+          <h3>A Level Further Maths</h3>
+          <p>Cambridge requires it of A Level applicants; interview problems often lean on it.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="format">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Oxford and Cambridge side by side</p><h2>What are Oxford and Cambridge maths interviews like?</h2><p class="ag-lede">Both are short, mathematical and held in December. Oxford interviews every shortlisted mathematician online, at two colleges at least; Cambridge decides online or in person College by College, and its Faculty describes the interview in one line: maths, followed by some more maths.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Mathematics interviews for 2027 entry, from each university's own pages (read 31 October 2026)</caption><thead><tr><th scope="col"></th><th scope="col">University of Oxford</th><th scope="col">University of Cambridge</th></tr></thead><tbody><tr><td>Admissions test first</td><td>TMUA, October sitting (12 to 16 October 2026)</td><td>TMUA, October sitting; registration deadline 28 September 2026</td></tr><tr><td>When</td><td>"Interviews occur in December."</td><td>Main period 7 to 18 December 2026; winter pool mid to late January 2027</td></tr><tr><td>Where</td><td>Online via video call for all candidates</td><td>Online or in person, depending on College and course</td></tr><tr><td>How many</td><td>One or two at the first-choice college, at least one at another</td><td>Most applicants 1 or 2; some 3 or 4</td></tr><tr><td>How long</td><td>About 25 minutes each</td><td>35 minutes to an hour in total (University); about 20 to 40 minutes (Faculty)</td></tr><tr><td>What happens</td><td>Talk about maths studied, technique, curve sketching, a problem, a new definition</td><td>Mathematical problems with guidance; some Colleges add a written assessment</td></tr><tr><td>Who is interviewed</td><td>Shortlisted applicants</td><td>Historically 75% to 80% of Mathematics applicants</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Oxford, in its own words</h3><p>The Mathematical Institute lists four things an interview may do: ask about an area of mathematics you have studied, look closely at a point of technique or curve sketching, set a problem and ask you to talk through your thinking, or give you a definition and ask you to work out its consequences.</p>
+<p>It adds a line worth pinning above the desk: tutors are "not mind-readers", so a candidate who works in silence gives them nothing to assess.</p></div><div><h3>Cambridge, in its own words</h3><p>The Faculty says there are no trick questions and that interviews mostly cover numbers, sequences, integrals and graph sketching, sometimes probability and basic mechanics. Applicants to Mathematics with Physics always get at least one mechanics question.</p>
+<p>Cambridge also says the number of interviews, and their timing, say nothing about how strong a candidate is. Families who read meaning into a single interview or a late slot can stop.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: the Oxford Mathematical Institute <a class="ag-inline-link" href="https://www.maths.ox.ac.uk/study-here/undergraduate-study/interviews" rel="noopener" target="_blank">interviews page</a> and <a class="ag-inline-link" href="https://www.maths.ox.ac.uk/study-here/undergraduate-study" rel="noopener" target="_blank">undergraduate study page</a>; the University of Cambridge <a class="ag-inline-link" href="https://www.undergraduate.study.cam.ac.uk/apply/after/cambridge-interviews" rel="noopener" target="_blank">interviews page</a>; the Cambridge Faculty of Mathematics <a class="ag-inline-link" href="https://www.maths.cam.ac.uk/undergrad/admissions/faq" rel="noopener" target="_blank">admissions FAQ</a> and <a class="ag-inline-link" href="https://www.maths.cam.ac.uk/undergrad/admissions/how-to-apply" rel="noopener" target="_blank">how to apply</a>; all read 31 October 2026. We are not connected with either university or any college.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="purpose">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What the interviewers are looking for</p><h2>What do Oxbridge maths interviewers want to see?</h2><p class="ag-lede">How you think when the answer is not obvious. Cambridge's Faculty says an instant solution mostly shows you have seen a problem before, while getting stuck and using a hint shows potential. That turns the usual exam instinct upside down.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>What each source says it is assessing, quoted from the pages read on 31 October 2026</caption><thead><tr><th scope="col">Source</th><th scope="col">In its words</th></tr></thead><tbody><tr><td>Oxford Mathematical Institute</td><td>"We are trying to see how you think when you do Mathematics."</td></tr><tr><td>Cambridge Faculty of Mathematics</td><td>"All we are interested in is your ability to tackle mathematical problems."</td></tr><tr><td>Cambridge Faculty of Mathematics</td><td>"we will always ask some questions where you will get stuck somewhere"</td></tr><tr><td>University of Cambridge</td><td>Interviews assess understanding of the subject, readiness for high-level study, and "your ability to think critically and independently"</td></tr><tr><td>University of Cambridge</td><td>On the day, interviewers "are interested in how you work out your answers and how you think"; you may ask them to explain anything you do not understand</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Why being stuck is the point</h3><p>The Faculty FAQ spells out the logic. If a candidate solves a problem straight away, the interviewers learn that the candidate can solve that problem, "and perhaps that you have seen it before". If the candidate gets stuck, a hint follows, and the interviewers see whether it can be used.</p>
+<p>So the hint is not a penalty. A student who takes a hint, says what it changes and moves on is showing exactly the quality the interview exists to find.</p></div><div><h3>Why rehearsed answers fail</h3><p>Cambridge forbids sharing interview questions, and the university says paid preparation companies "do not have access to any exclusive information". Lists of supposed past questions are therefore unofficial at best.</p>
+<p>Even a genuine past question would not help much. Recognising a problem removes the very thing interviewers are trying to watch: a mind meeting something new.</p></div></div>
+    <p class="ag-mt-40"><strong>What the universities say about paid preparation.</strong> Cambridge's interviews page states that some companies offer interview preparation for a fee, that these services are not endorsed by the University, and that all official guidance is free. That includes us. Oxford's Mathematical Institute says the main preparation is doing mathematics, lots of it, on and near the syllabus. What a class can add is a teacher who sets fresh problems and gives hints the way an interviewer would.</p>
+    <p class="ag-source-note ag-mt-40">Quotations from the Oxford Mathematical Institute interviews page, the Cambridge Faculty of Mathematics admissions FAQ, and the University of Cambridge <a class="ag-inline-link" href="https://www.undergraduate.study.cam.ac.uk/apply/after/interview-preparation" rel="noopener" target="_blank">preparing for your interview</a> and <a class="ag-inline-link" href="https://www.undergraduate.study.cam.ac.uk/apply/how/admission-tests" rel="noopener" target="_blank">admission tests</a> pages, read 31 October 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="problems">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Five problems of ours</p><h2>What kind of problems come up in an Oxbridge maths interview?</h2><p class="ag-lede">Problems that start inside A Level and leave it quickly: a curve to sketch, a claim about whole numbers, a new definition, an integral to compare, a short probability. The five below are ours, written for this page in the areas Cambridge and Oxford name. None is a reported interview question. Each comes with the hints we would give, in order.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our five interview-style problems, with hint ladders</caption><thead><tr><th scope="col">Our problem</th><th scope="col">Hint 1</th><th scope="col">Hint 2</th><th scope="col">Where it leads</th></tr></thead><tbody><tr><td>Sketch y = x / (1 + x<sup>2</sup>).</td><td>What happens when x is replaced by &minus;x?</td><td>What happens for very large x?</td><td>An odd curve through the origin, peaking at (1, 1/2), dipping to (&minus;1, &minus;1/2), flattening towards 0</td></tr><tr><td>Show that n<sup>3</sup> &minus; n is divisible by 6 for every integer n.</td><td>Factorise it fully.</td><td>What is true of any three consecutive integers?</td><td>n(n &minus; 1)(n + 1) holds a multiple of 2 and a multiple of 3</td></tr><tr><td>Call a number a staircase number if it is a sum of two or more consecutive positive integers. Which numbers are staircase numbers?</td><td>List 1 to 16. Which fail?</td><td>Write the sum of k terms starting at a as one fraction.</td><td>Exactly the numbers that are not powers of 2</td></tr><tr><td>Which is larger: the integral of sin x or of sin<sup>2</sup> x, from 0 to &pi;?</td><td>Where does sin x lie on that interval?</td><td>Compare a number between 0 and 1 with its square.</td><td>sin<sup>2</sup> x &le; sin x there, so the first is larger: 2 against &pi;/2</td></tr><tr><td>A metre stick is broken at a uniformly random point. What is the expected length of the longer piece?</td><td>If the break is at x, how long is the longer piece?</td><td>Use symmetry about the middle.</td><td>3/4 of a metre</td></tr></tbody></table></div>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>The curve</h3><p>The derivative of x / (1 + x<sup>2</sup>) is (1 &minus; x<sup>2</sup>) / (1 + x<sup>2</sup>)<sup>2</sup>, zero at x = &plusmn;1. But a good candidate sketches before differentiating: oddness, the origin and the behaviour at infinity give the shape, and the derivative only pins the turning points.</p></div><div><h3>The extension</h3><p>An interviewer who sees n<sup>3</sup> &minus; n done quickly will push: is n<sup>5</sup> &minus; n always divisible by 30? It is. It factorises as n(n &minus; 1)(n + 1)(n<sup>2</sup> + 1), which handles 2 and 3, and checking n = 0 to 4 modulo 5 shows a factor of 5 every time.</p></div><div><h3>The stick</h3><p>If the break is at x, the longer piece is the larger of x and 1 &minus; x. By symmetry assume x is at least 1/2, where x is uniform on [1/2, 1]. Its average is the midpoint, 3/4. Saying "by symmetry" out loud, and justifying it, is half the marks an interviewer would give.</p></div></div>
+    <p class="ag-source-note ag-mt-40">All five problems, hints and solutions are ours, written on 31 October 2026, in the topic areas the Cambridge Faculty of Mathematics lists (numbers, sequences, integrals, graph sketching, probability) and the activities the Oxford Mathematical Institute describes (curve sketching, a problem talked through, a new definition explored). They are not reported or reconstructed interview questions, which Cambridge prohibits sharing.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="aloud">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">One problem, narrated</p><h2>How do you think out loud in a maths interview?</h2><p class="ag-lede">By saying what you are trying, why, and what you notice, in short sentences, while you work. Here is our staircase problem as a strong candidate might talk it through, with the two moments where an interviewer would usually step in.</p></div>
+    <ol class="ag-steps"><li><strong>Restate it.</strong> "So I want numbers that are sums of at least two consecutive positive whole numbers, like 9 = 4 + 5 or 9 = 2 + 3 + 4."</li><li><strong>Try small cases and say what happens.</strong> "3 is 1 + 2, 5 is 2 + 3, 6 is 1 + 2 + 3, 7 is 3 + 4. I can't make 1, 2 or 4. Let me check 8: no. 16? Also no."</li><li><strong>Name the pattern as a guess, not a fact.</strong> "The failures so far are 1, 2, 4, 8, 16. My guess is that powers of 2 are exactly the ones that fail, but I haven't shown anything yet."</li><li><strong>Find a general form, with or without the hint.</strong> "A run of k terms starting at a adds up to k(2a + k &minus; 1)/2. So twice the number is k times (2a + k &minus; 1)." An interviewer might offer this step if the candidate is circling.</li><li><strong>Notice the parity.</strong> "k and 2a + k &minus; 1 differ by 2a &minus; 1, which is odd, so one of them is odd and the other even. Both are at least 2. So twice the number has an odd factor bigger than 1, which means the number itself does."</li><li><strong>Close both directions.</strong> "A power of 2 has no odd factor above 1, so it can't be a staircase number. For the other direction I'd need to build a run for any number with an odd factor; could I try that with 12?" Here the interviewer may hint: use the odd factor as the length of the run.</li></ol>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What made that strong</h3><p>The candidate guessed in public and labelled the guess as a guess. They wrote the general sum before trying to prove anything with it. When they reached the harder direction they said so plainly and offered a concrete case instead of going quiet.</p>
+<p>Nothing in it needs mathematics beyond Year 12. What it needs is the habit of narrating, which most students have never been asked to practise.</p></div><div><h3>Finishing the construction</h3><p>For 12 the odd factor is 3, so try a run of three centred on 12 / 3 = 4: that gives 3 + 4 + 5 = 12. In general a number with an odd factor m above 1 can be written as m terms centred on its quotient by m, or, when that run dips below 1, as a shorter run made by cancelling negative and positive terms.</p>
+<p>An interviewer would not expect every detail of that last step in 25 minutes. They would expect the candidate to see the idea, test it, and say what still needs checking.</p></div></div>
+    <p class="ag-source-note ag-mt-40">The narration is ours and illustrates the advice in Cambridge's <a class="ag-inline-link" href="https://www.undergraduate.study.cam.ac.uk/apply/after/interview-preparation" rel="noopener" target="_blank">interview preparation page</a> to "think about how you might show or explain the way you worked out a problem", and the Oxford Mathematical Institute's suggestion to practise explaining A Level ideas aloud.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="timeline">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">From the TMUA to an offer</p><h2>When are Oxbridge maths interviews for 2027 entry?</h2><p class="ag-lede">December 2026 for both. Cambridge's main period is 7 to 18 December 2026 and invitations mostly go out in November; Oxford's Mathematical Institute says interviews occur in December. Decisions for October applicants arrive in January 2027.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The 2027-entry route for a mathematics applicant, from the Oxford and Cambridge pages</caption><thead><tr><th scope="col">Stage</th><th scope="col">Oxford</th><th scope="col">Cambridge</th></tr></thead><tbody><tr><td>UCAS application</td><td>By 15 October, 6pm UK time</td><td>By 15 October</td></tr><tr><td>Admissions test</td><td>TMUA, 12 to 16 October 2026</td><td>TMUA, October sitting</td></tr><tr><td>Extra form</td><td>None named on the Institute page</td><td>My Cambridge Application, listing the maths topics you have covered</td></tr><tr><td>Interview invitations</td><td>After shortlisting</td><td>Mostly November, some early December</td></tr><tr><td>Interviews</td><td>December, online</td><td>7 to 18 December 2026; winter pool mid to late January 2027</td></tr><tr><td>Offers</td><td>Conditional, on A Level or equivalent grades</td><td>Conditional, typically including grades 1 in STEP 2 and STEP 3</td></tr><tr><td>Share made offers</td><td>Not read by us</td><td>Around 30% of all Mathematics applicants in previous years (Faculty)</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Tell Cambridge what you have covered</h3><p>The Faculty asks applicants to list the mathematics topics in their qualifications on My Cambridge Application, because this "will help interviewers ask appropriate questions". A student on a course that has not yet reached complex numbers should say so.</p>
+<p>It is also the place to mention any lack of help with STEP at school. Cambridge says applicants in that position are not disadvantaged and that free support follows an offer.</p></div><div><h3>Get the technology right</h3><p>Cambridge says mathematics applicants may need to share workings, sometimes with a stylus and tablet on a shared whiteboard, and that Colleges may run a tech check. Practise writing mathematics on that setup before the day, not during it.</p>
+<p>For any online interview: a quiet room, a charged device, working camera and microphone, and pen and paper within reach. Cambridge lists all of these.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Dates and stages from the Oxford Mathematical Institute undergraduate study and interviews pages and the Cambridge interviews page and Faculty admissions pages, read 31 October 2026. The central Oxford admissions site refused our request that day and was not retried, so Oxford shortlisting figures are not given here.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Eight weeks to December</p>
+      <h2>Four stages before the interview</h2>
+      <p class="ag-lede">Our suggested plan from the October test to the December interviews. It assumes Year 13 school work continues alongside, as it must.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Our interview practice plan</caption><thead><tr><th scope="col">When</th><th scope="col">Stage</th><th scope="col">You are ready to move on when</th></tr></thead><tbody><tr><td>Late October</td><td class="ag-num">1. Problems, untimed and alone</td><td class="ag-num">You have tried twenty unfamiliar problems and written down where each one stalled</td></tr><tr><td>Early November</td><td class="ag-num">2. Problems aloud, on your own</td><td class="ag-num">You can talk through a whole problem to a recording without long silences</td></tr><tr><td>Mid November</td><td class="ag-num">3. Problems aloud, with a stranger</td><td class="ag-num">Someone who does not know you sets problems and gives hints, and you use them</td></tr><tr><td>Early December</td><td class="ag-num">4. Two mock interviews</td><td class="ag-num">Two 25-minute sessions on screen with a shared whiteboard, then a rest</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>If the invitation comes late</h3><p>Cambridge says the timing of an invitation says nothing about the candidate. Skip stage 1 and go straight to talking problems through.</p>
+<p>One honest mock with a stranger is worth more than ten solo sessions in the last week.</p></div><div><h3>If you are in Year 12</h3><p>Do lots of problems on and near the syllabus, as Oxford advises, and start STEP-style questions slowly. Cambridge says STEP preparation doubles as interview preparation.</p>
+<p>Explain one A Level idea a week to someone at home. It feels odd, and it is the cheapest practice there is.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The full list</p>
+      <h2>What we teach an Oxbridge maths applicant</h2>
+      <p class="ag-lede">Three groups: problem solving for the interview, the school mathematics it stands on, and the tests around it.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Problem solving</h3>
+        <span class="ag-band-sub">For the interview itself</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / P / 01</p>
+          <h4>Olympiad and competition maths</h4>
+          <p>Fresh problems, weekly.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / P / 02</p>
+          <h4>Problem solving and algorithms</h4>
+          <p>For Mathematics and Computer Science applicants.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / P / 03</p>
+          <h4>Statistics and probability</h4>
+          <p>The probability that sometimes appears.</p>
+          <a class="ag-course-link" href="/courses/statistics-probability-maths-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>The school mathematics</h3>
+        <span class="ag-band-sub">Years 12 and 13</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / S / 01</p>
+          <h4>A Level Further Maths</h4>
+          <p>Required of A Level applicants at Cambridge.</p>
+          <a class="ag-course-link" href="/courses/a-level-further-maths-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / S / 02</p>
+          <h4>A Level Maths</h4>
+          <p>Pure and mechanics in depth.</p>
+          <a class="ag-course-link" href="/courses/a-level-maths-course-pure-mechanics-statistics">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / S / 03</p>
+          <h4>IB Mathematics</h4>
+          <p>Analysis and Approaches HL applicants.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>The tests around it</h3>
+        <span class="ag-band-sub">October and June</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / T / 01</p>
+          <h4>TMUA and STEP preparation</h4>
+          <p>Before and after the interview.</p>
+          <a class="ag-course-link" href="/courses/tmua-mat-step-preparation-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / T / 02</p>
+          <h4>Competitive programming</h4>
+          <p>For Computer Science interview problems.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">OIP / T / 03</p>
+          <h4>University mathematics</h4>
+          <p>A first look at first-year topics.</p>
+          <a class="ag-course-link" href="/courses/college-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How practice runs</p>
+      <h2>Live interview practice through November and December</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekday evenings</p><p class="ag-slot-l">A new problem, solved aloud in turns.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend mornings</p><p class="ag-slot-l">Mock interviews on a shared whiteboard.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Full 25-minute mocks with a teacher you have not met.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Unseen problems</h3><p>Every problem is new to the student; recognising one defeats the exercise.</p></div>
+      <div><h3>Hints on purpose</h3><p>Teachers hold back, then hint, the way an interviewer would.</p></div>
+      <div><h3>Narration marked</h3><p>Feedback covers what the student said, not only what they wrote.</p></div>
+      <div><h3>Groups of 15 to 20</h3><p>Students watch each other think aloud, which teaches the habit fast.</p></div>
+      <div><h3>Whiteboard practice</h3><p>Writing mathematics on a tablet or shared board, before the real day.</p></div>
+      <div><h3>No offer promised</h3><p>We are not endorsed by either university and we promise no place.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>What our students have made</h2>
+      <p class="ag-lede">A few of the mathematics, coding and machine-learning projects our students have published. The <a class="ag-inline-link" href="/student-labs">student labs</a> hold the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Oxford and Cambridge charge nothing for interviews, and Cambridge says all official guidance is free. Our practice classes are optional and billed monthly; most interview students join for six to eight weeks and stop in December.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>One of our problems, solved aloud with hints</li><li>No card details</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Groups of 15 to 20</li><li>A different problem every lesson</li><li>Turns at the whiteboard</li><li>Monthly, stop after December</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>One applicant, one teacher</li><li>Mock interviews at full length</li><li>For an invitation already in hand</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Copied without edits from reviews on our Google business profile.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Interview questions</p>
+      <h2>What Oxbridge maths applicants and parents ask</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>What happens in an Oxbridge maths interview?</h3>
+        <p>You are given mathematical problems and asked to work on them aloud while one or two interviewers watch and offer hints. Oxford also mentions curve sketching, points of technique and exploring a new definition.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are Oxford maths interviews online?</h3>
+        <p>Yes. The Oxford Mathematical Institute says interviews are online via video call for all candidates, in December, at the first-choice college and at least one other.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long is a Cambridge maths interview?</h3>
+        <p>The Faculty of Mathematics says an interview typically lasts about 20 to 40 minutes. The University says most applicants have one or two interviews totalling 35 minutes to an hour, with some having three or four.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are Cambridge interviews in 2026?</h3>
+        <p>Cambridge gives the main interview period as 7 to 18 December 2026, with invitations mostly sent in November. Winter pool interviews take place around mid to late January 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many Cambridge maths applicants get an interview?</h3>
+        <p>The Faculty of Mathematics says that historically between 75% and 80% of applicants have been invited to interview, and that around 30% of all applicants have ultimately received conditional offers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where can I find Oxbridge maths interview questions?</h3>
+        <p>Not from the universities: Cambridge says sharing interview questions is strictly prohibited. Practise on unfamiliar problems instead, such as STEP questions, problem books and the original problems on this page.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is it bad to get stuck in a Cambridge maths interview?</h3>
+        <p>No. The Faculty says it will always ask some questions where you get stuck, and that seeing how you use a hint helps it judge mathematical potential.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do I need interview coaching for Oxford or Cambridge?</h3>
+        <p>The universities say no special training is needed and that paid services have no exclusive information. Practice with someone who does not know you, as Cambridge suggests, is the part a class can supply.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What topics come up in Cambridge maths interviews?</h3>
+        <p>The Faculty lists numbers, sequences, integrals and graph sketching, sometimes probability and some basic mechanics. Mathematics with Physics applicants always get at least one mechanics question.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are your classes held?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you linked to Oxford or Cambridge?</h3>
+        <p>No. Modern Age Coders is independent and is not endorsed by the University of Oxford, the University of Cambridge or any college, and we have no inside information about interviews.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Related pages</p>
+      <h2>More for sixth-form problem solvers</h2>
+      <p class="ag-lede">Competitions and school courses that build the habit of meeting new problems.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/british-mathematical-olympiad-bmo-preparation">British Mathematical Olympiad</a></h3><p>Written proofs of hard problems, a natural warm-up for interviews.</p></div>
+      <div><h3><a class="ag-inline-link" href="/maths-olympiad-training-uk">Maths olympiad training in the UK</a></h3><p>Problem solving across the UKMT rounds.</p></div>
+      <div><h3><a class="ag-inline-link" href="/mathematical-olympiad-for-girls-preparation">Mathematical Olympiad for Girls</a></h3><p>Proof-style problems for girls in the UK.</p></div>
+      <div><h3><a class="ag-inline-link" href="/further-maths-tuition-online">Further Maths tuition online</a></h3><p>The A Level Cambridge asks mathematicians to take.</p></div>
+      <div><h3><a class="ag-inline-link" href="/a-level-maths-tuition-online">A Level Maths tuition online</a></h3><p>The syllabus interview problems start from.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ukmt-maths-challenge-tutoring">UKMT maths challenge tutoring</a></h3><p>Short unfamiliar problems, from Year 7 up.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free interview practice class</h2>
+        <p class="ag-lede">Say which university and course you applied for and whether you have an invitation yet. The free class gives you one of our problems to work aloud, with hints when you need them, and tells you honestly how your narration comes across.</p>
+        <p class="ag-mt-40">To see how a lesson is run before booking, read <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or browse <a class="ag-inline-link" href="/courses">every course</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20have%20an%20Oxford%20or%20Cambridge%20maths%20interview%20coming%20up%20and%20would%20like%20a%20free%20practice%20class." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'oip',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers work from India and timetable interview practice in UK time. A WhatsApp message from a UK number usually gets the quickest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_oip(event)" novalidate>
+          <div class="ag-field">
+            <label for="gb-name">Your name</label>
+            <input id="gb-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-phone">Phone or WhatsApp, United Kingdom +44</label>
+            <input id="gb-phone" type="tel" name="phone" placeholder="7700 900123" required>
+          </div>
+          <div class="ag-field">
+            <label for="gb-age">Learner age group</label>
+            <select id="gb-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">No fee and no card; one reply from us to fix a time.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Problem solving</h4><ul><li><a href="/british-mathematical-olympiad-bmo-preparation">British Mathematical Olympiad</a></li><li><a href="/maths-olympiad-training-uk">Olympiad training</a></li><li><a href="/further-maths-tuition-online">Further Maths tuition</a></li><li><a href="/a-level-maths-tuition-online">A Level Maths tuition</a></li></ul></div>
+      <div><h4>Courses</h4><ul><li><a href="/courses/olympiad-competition-mathematics-mastery">Olympiad mathematics</a></li><li><a href="/courses/tmua-mat-step-preparation-course">TMUA and STEP preparation</a></li><li><a href="/courses/a-level-further-maths-course">A Level Further Maths</a></li><li><a href="/coding-classes-in-united-kingdom">All UK pages</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Say it while you think it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_oip = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0044') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('44') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United Kingdom phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+44', countryIso: 'GB', countryName: 'United Kingdom',
+      source: 'oxbridge-maths-interview-problem-solving-inline', meta: { name: name, age: age, page: 'oxbridge-maths-interview-problem-solving' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>

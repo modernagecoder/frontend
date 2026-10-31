@@ -28009,6 +28009,18 @@
   to = "/src/pages/esat-maths-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/oxbridge-maths-interview-problem-solving"
+  to = "/src/pages/oxbridge-maths-interview-problem-solving.html"
+  status = 200
+
+[[redirects]]
+  from = "/oxbridge-maths-interview-problem-solving.md"
+  to = "/src/pages/oxbridge-maths-interview-problem-solving.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

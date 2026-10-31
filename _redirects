@@ -8542,4 +8542,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /esat-maths-preparation /src/pages/esat-maths-preparation.html 200
 /esat-maths-preparation.md /src/pages/esat-maths-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/oxbridge-maths-interview-problem-solving /src/pages/oxbridge-maths-interview-problem-solving.html 200
+/oxbridge-maths-interview-problem-solving.md /src/pages/oxbridge-maths-interview-problem-solving.md 200
 /* /src/pages/404.html 404
