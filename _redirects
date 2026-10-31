@@ -8606,4 +8606,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /scottish-primary-maths-tutor-online /src/pages/scottish-primary-maths-tutor-online.html 200
 /scottish-primary-maths-tutor-online.md /src/pages/scottish-primary-maths-tutor-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/s1-s3-maths-tutor-online-scotland /src/pages/s1-s3-maths-tutor-online-scotland.html 200
+/s1-s3-maths-tutor-online-scotland.md /src/pages/s1-s3-maths-tutor-online-scotland.md 200
 /* /src/pages/404.html 404
