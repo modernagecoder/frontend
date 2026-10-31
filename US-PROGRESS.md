@@ -364,7 +364,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US004 | integrated-math-1-tutoring (it, #436A8C) | hs course sequence | 3,491 | 2.3% vs statistics-tutoring-online | exam door | original worked example | 7c2b42ba |
 | US005 | integrated-math-2-tutoring (int, #5F4518) | hs course sequence | 3,394 | 1.7% vs integrated-math-1-tutoring | exam door | original worked example | 665e9be4 |
 | US006 | integrated-math-3-tutoring (gao, #7E4401) | hs course sequence | 3,489 | 1.3% vs psat-math-prep | exam door | original worked example | 70edeeae |
-| US012 | map-growth-math-test-prep (mag, #51628C) | placement and tracks | 3,368 | 1.8% vs colorado-cmas-math-practice | exam door | original worked example | (this commit) |
+| US012 | map-growth-math-test-prep (mag, #51628C) | placement and tracks | 3,368 | 1.8% vs colorado-cmas-math-practice | exam door | original worked example | 8c910dd7 |
+| US013 | i-ready-math-help (ir, #004C51) | placement and tracks | 3,405 | 1.6% vs map-growth-math-test-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 
