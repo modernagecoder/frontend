@@ -293,7 +293,7 @@ At a fixed weekly slot agreed in the free class, usually after school or at the 
 - [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
 - [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
 
-More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
 ## Contact
 

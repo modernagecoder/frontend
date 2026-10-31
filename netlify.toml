@@ -29053,6 +29053,18 @@
   to = "/src/pages/uk-maths-year-by-year-guide.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/uk-selective-school-maths-tests-guide"
+  to = "/src/pages/uk-selective-school-maths-tests-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/uk-selective-school-maths-tests-guide.md"
+  to = "/src/pages/uk-selective-school-maths-tests-guide.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

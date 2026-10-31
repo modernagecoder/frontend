@@ -8890,4 +8890,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /uk-maths-year-by-year-guide /src/pages/uk-maths-year-by-year-guide.html 200
 /uk-maths-year-by-year-guide.md /src/pages/uk-maths-year-by-year-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/uk-selective-school-maths-tests-guide /src/pages/uk-selective-school-maths-tests-guide.html 200
+/uk-selective-school-maths-tests-guide.md /src/pages/uk-selective-school-maths-tests-guide.md 200
 /* /src/pages/404.html 404

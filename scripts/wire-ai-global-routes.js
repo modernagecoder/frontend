@@ -727,6 +727,7 @@ const SLUGS = [
   '11-plus-maths-tuition-bromley',
   'uk-maths-exam-boards-and-specification-codes',
   'uk-maths-year-by-year-guide',
+  'uk-selective-school-maths-tests-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1533,6 +1534,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-bromley': '11 plus maths tuition in Bromley',
   'uk-maths-exam-boards-and-specification-codes': 'UK maths exam boards and specification codes',
   'uk-maths-year-by-year-guide': 'UK maths year by year guide',
+  'uk-selective-school-maths-tests-guide': 'UK selective school maths tests guide',
 };
 
 function wireLlms(slugs) {
