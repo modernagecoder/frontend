@@ -27445,6 +27445,18 @@
   to = "/src/pages/ap-precalculus-tutoring-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/accuplacer-math-prep"
+  to = "/src/pages/accuplacer-math-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/accuplacer-math-prep.md"
+  to = "/src/pages/accuplacer-math-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

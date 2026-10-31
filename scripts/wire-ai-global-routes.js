@@ -593,6 +593,7 @@ const SLUGS = [
   'tmua-preparation',
   'math-league-contest-preparation',
   'ap-precalculus-tutoring-online',
+  'accuplacer-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1265,6 +1266,7 @@ const LLMS_LABELS = {
   'tmua-preparation': 'TMUA preparation',
   'math-league-contest-preparation': 'Math League contest preparation',
   'ap-precalculus-tutoring-online': 'AP Precalculus tutoring online',
+  'accuplacer-math-prep': 'ACCUPLACER math prep',
 };
 
 function wireLlms(slugs) {
