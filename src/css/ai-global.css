@@ -1122,3 +1122,4 @@
 .ag-root.ag-nnt { --ag-accent: #6C2A49; --ag-accent-soft: rgba(108,42,73,.09); }   /* NNAT test prep: a dark plum, #6C2A49 as allocated, quiet and distinct from the green CogAT page; 9.59:1 on the #FBF8F2 paper */
 .ag-root.ag-ot { --ag-accent: #5F6C4C; --ag-accent-soft: rgba(95,108,76,.09); }   /* OLSAT test prep: a muted olive, #5F6C4C as allocated, earthy and unhurried; 5.30:1 on the #FBF8F2 paper, above the 4.5:1 floor */
 .ag-root.ag-ia { --ag-accent: #497061; --ag-accent-soft: rgba(73,112,97,.09); }   /* Iowa Assessments math prep: a grey-teal, #497061 as allocated, steady and school-like; 5.25:1 on the #FBF8F2 paper, above the 4.5:1 floor */
+.ag-root.ag-gtt { --ag-accent: #2A5718; --ag-accent-soft: rgba(42,87,24,.09); }   /* Gifted and talented test prep: a deep leaf green, #2A5718 as allocated, warm and growing rather than competitive; 8.00:1 on the #FBF8F2 paper */

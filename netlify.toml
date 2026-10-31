@@ -27373,6 +27373,18 @@
   to = "/src/pages/iowa-assessments-math-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/gifted-and-talented-test-prep"
+  to = "/src/pages/gifted-and-talented-test-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/gifted-and-talented-test-prep.md"
+  to = "/src/pages/gifted-and-talented-test-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
