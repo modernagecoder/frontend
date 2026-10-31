@@ -697,6 +697,7 @@ const SLUGS = [
   'ocr-mei-a-level-maths-h640-help',
   'wjec-a-level-maths-help-wales',
   'ccea-a-level-maths-help',
+  'edexcel-a-level-further-maths-9fm0-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1473,6 +1474,7 @@ const LLMS_LABELS = {
   'ocr-mei-a-level-maths-h640-help': 'OCR MEI A level Maths H640 help',
   'wjec-a-level-maths-help-wales': 'WJEC A level Maths help (Wales)',
   'ccea-a-level-maths-help': 'CCEA A level Maths help',
+  'edexcel-a-level-further-maths-9fm0-help': 'Edexcel A level Further Maths 9FM0 help',
 };
 
 function wireLlms(slugs) {
