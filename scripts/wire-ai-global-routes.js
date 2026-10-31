@@ -642,6 +642,7 @@ const SLUGS = [
   'esat-maths-preparation',
   'oxbridge-maths-interview-problem-solving',
   'computer-science-personal-statement-projects-uk',
+  'cyberfirst-courses-and-bursary-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1363,6 +1364,7 @@ const LLMS_LABELS = {
   'esat-maths-preparation': 'ESAT maths preparation',
   'oxbridge-maths-interview-problem-solving': 'Oxbridge maths interview preparation',
   'computer-science-personal-statement-projects-uk': 'Computer science personal statement projects',
+  'cyberfirst-courses-and-bursary-preparation': 'CyberFirst courses and bursary',
 };
 
 function wireLlms(slugs) {

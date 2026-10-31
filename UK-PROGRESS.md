@@ -672,7 +672,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK081 | duke-of-edinburgh-skills-section-coding (des, #307041) | Enrichment | 3,877 | 1.5% vs python-games-for-kids | exam door | original worked example | 4a2115dd |
 | UK072 | esat-maths-preparation (ep, #71330C) | University admissions | 5,140 | 1% vs tmua-preparation | exam door | original worked example | 8ab4dd14 |
 | UK073 | oxbridge-maths-interview-problem-solving (oip, #1B6D70) | University admissions | 4,499 | 1% vs oxford-mat-preparation | exam door | original worked example | 41e75b9c |
-| UK074 | computer-science-personal-statement-projects-uk (csps, #7A4F7A) | University admissions | 4,320 | 0.9% vs oxford-mat-preparation | exam door | original worked example | (this commit) |
+| UK074 | computer-science-personal-statement-projects-uk (csps, #7A4F7A) | University admissions | 4,320 | 0.9% vs oxford-mat-preparation | exam door | original worked example | ca64629f |
+| UK075 | cyberfirst-courses-and-bursary-preparation (ccb, #075474) | Competitions (computing) | 4,142 | 1.3% vs computer-science-personal-statement-projects-uk | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
