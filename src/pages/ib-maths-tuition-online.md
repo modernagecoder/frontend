@@ -148,7 +148,7 @@ The syllabus taught for ownership, algebra debt repaired inline, and paper techn
 
 ### IA season · The Exploration, shepherded
 
-Topic chosen against the criteria, milestones set, mathematics deepened, drafts critiqued honestly, your teen's own work, guided properly.
+The five criteria taught on our own sample explorations, the mathematics deepened in class; your teen's draft goes only to their school teacher.
 
 ### Year 2 · Close the syllabus, open the papers
 
@@ -202,7 +202,7 @@ The honest part
 
 • You want homework done *for* the teen. We teach the teen to do it, which is slower on night one and far faster by week four.
 
-• You want the IA written for your teen. We coach it hard, structure, criteria, honest critique, but the work stays theirs; IB academic integrity rules exist and we take them seriously.
+• You want the IA written for your teen. We teach the method and the mathematics, but we never read, edit or comment on the real exploration; IB academic integrity rules exist and we take them seriously.
 
 Structured paths
 
@@ -288,7 +288,7 @@ Schools generally allow changes early in the programme, and dropping HL to SL is
 
 Do you help with the IA? How far is too far?
 
-We coach it properly: topic selection against the actual criteria, structure, pushing the mathematics deep enough to score, and honest critique of drafts. We do not write it, suggest results to fake, or polish prose into someone else's voice, IB academic integrity rules are real, schools check, and a mentor who breaks them is risking your teen's diploma. Done right, the IA is the most coachable 20% of the grade.
+We teach the method of the Mathematical Exploration: how the five criteria work, how to scope a question the mathematics can carry, and the mathematics itself, practised on our own sample explorations. We do not read, write, edit or comment on the student's actual exploration: under IB academic integrity rules that feedback comes from the student's own teacher, and the work must be entirely theirs. A mentor who breaks those rules is risking your teen's diploma.
 
 My AA student falls apart on the non-calculator paper. Fixable?
 

@@ -41,7 +41,7 @@
     "what_makes_this_different": [
       "Course-exact teaching: AA and AI are different subjects here, as they are on exam day",
       "Non-calculator craft for AA Paper 1 and GDC power-workflows for AI, each trained deliberately",
-      "The IA coached properly: topic selection against the actual criteria, milestones, mathematical depth and honest draft critique, never ghost-writing",
+      "The IA method taught properly: the five criteria, scoping a question, and the mathematics, practised on our own sample explorations; we never read, edit or ghost-write the real one",
       "HL Paper 3 stamina built through olympiad-flavoured problem work",
       "Predicted-grade awareness: the arc aims at internal assessments too, because those set the number universities see",
       "MYP-era gaps repaired inline instead of ignored",
@@ -267,7 +267,7 @@
           "A milestone plan for the IA",
           "Academic integrity expectations set from the start"
         ],
-        "practice": "Draft three candidate IA questions and test each honestly against the five criteria.",
+        "practice": "Write three practice exploration questions of your own and test each against the five criteria.",
         "assessment": "IA milestone: the exploration proposal is locked with a dated milestone plan."
       },
       "week_49_52": {
@@ -284,18 +284,18 @@
         "practice": "Develop the core mathematics of your exploration and annotate where each criterion is being met."
       },
       "week_53_56": {
-        "title": "IA Draft Critique and Final Polish Plan",
-        "description": "Draft critique rounds: honest feedback against each criterion, reflection strengthened, and the final polish plan, the work staying the student's own throughout, per IB academic integrity rules",
+        "title": "Judging an Exploration Against the Criteria",
+        "description": "Students mark our own sample explorations against each criterion, learn what strong reflection and communication look like, and build a self-check list; their real draft goes only to their school teacher, per IB academic integrity rules",
         "topics": [
-          "Honest critique against each criterion",
+          "Marking sample explorations against each criterion",
           "Strengthening the reflection",
           "Improving communication and presentation",
-          "The final polish plan",
+          "A self-check list for your own draft",
           "Academic integrity kept throughout",
           "Self-checking before submission"
         ],
-        "practice": "Revise your IA draft against criterion-by-criterion feedback and record the changes you make.",
-        "assessment": "IA milestone: a full draft is reviewed against all five criteria before the final polish."
+        "practice": "Mark two of our sample explorations against all five criteria and explain each mark you give.",
+        "assessment": "Milestone: the student can explain, criterion by criterion, what a strong exploration does."
       }
     },
     "month_15_16": {
@@ -446,7 +446,7 @@
     },
     {
       "question": "How does the IA coaching work, and how far is too far?",
-      "answer": "We coach the Mathematical Exploration properly: topic selection against the actual criteria, structure, pushing the mathematics deep enough to score, and honest critique of drafts. We do not write it or polish prose into someone else's voice, IB academic integrity rules are real, schools check, and the IA only helps your student if it is genuinely theirs. Done right, it is the most coachable 20% of the grade."
+      "answer": "We teach the method of the Mathematical Exploration: how the five criteria work, how to scope a question the mathematics can carry, and the mathematics itself, practised on our own sample explorations. We do not read, write, edit or comment on the student's actual exploration: under IB academic integrity rules that feedback comes from the student's own teacher, and the work must be entirely theirs."
     },
     {
       "question": "My AA student falls apart on the non-calculator paper. Fixable?",
@@ -537,7 +537,7 @@
   "who_is_this_for": {
     "aa_students": "AA SL/HL students who want the ideas owned and Paper 1 made routine",
     "ai_students": "AI SL/HL students who need modelling depth and real GDC fluency",
-    "ia_season": "Students whose Exploration is drifting and needs structure and honest critique",
+    "ia_season": "Students who need the criteria, the method and the mathematics behind a strong Exploration",
     "hl_ambition": "HL students building the Paper 3 stamina regular homework never builds",
     "myp_runway": "MYP students buying the cheapest IB insurance: a real algebra base"
   },
