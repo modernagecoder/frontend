@@ -305,7 +305,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US050 | shsat-math-prep (shx, #525C08) | gifted and selective | 5,311 | 0.8% vs accelerated-math-program-online | exam door | original worked example | f50f806e |
 | US053 | hspt-math-prep (hsx, #496F3B) | private school admissions | 4,345 | 1.2% vs shsat-math-prep | exam door | original worked example | 4d36b570 |
 | US054 | tachs-math-prep (tax, #5E6082) | private school admissions | 4,242 | 1.5% vs hspt-math-prep | exam door | original worked example | 63bb8fe3 |
-| US072 | vex-iq-programming-help (vip, #793457) | coding competitions | 4,175 | 1.3% vs hspt-math-prep | exam door | original worked example | (this commit) |
+| US072 | vex-iq-programming-help (vip, #793457) | coding competitions | 4,175 | 1.3% vs hspt-math-prep | exam door | original worked example | 95b31355 |
+| US043 | cogat-test-prep (cot, #175040) | gifted and selective | 4,114 | 1.1% vs common-core-math-tutor | exam door | original worked example | (this commit) |
 
 ## Skipped
 

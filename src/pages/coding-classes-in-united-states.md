@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [CogAT test prep](/cogat-test-prep)
 - [VEX IQ programming help](/vex-iq-programming-help)
 - [TACHS math prep](/tachs-math-prep)
 - [HSPT math prep](/hspt-math-prep)

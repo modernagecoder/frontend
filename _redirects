@@ -8314,4 +8314,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /vex-iq-programming-help /src/pages/vex-iq-programming-help.html 200
 /vex-iq-programming-help.md /src/pages/vex-iq-programming-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cogat-test-prep /src/pages/cogat-test-prep.html 200
+/cogat-test-prep.md /src/pages/cogat-test-prep.md 200
 /* /src/pages/404.html 404

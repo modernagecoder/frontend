@@ -1118,3 +1118,4 @@
 .ag-root.ag-hsx { --ag-accent: #496F3B; --ag-accent-soft: rgba(73,111,59,.09); }   /* HSPT math prep: a fern green #496F3B from the US allocation table, 5.47:1 on paper #FBF8F2, set apart from the SHSAT olive and the TACHS slate */
 .ag-root.ag-tax { --ag-accent: #5E6082; --ag-accent-soft: rgba(94,96,130,.09); }   /* TACHS math prep: a slate blue-grey #5E6082 from the US allocation table, 5.71:1 on paper #FBF8F2, distinct from the SHSAT olive and the HSPT green */
 .ag-root.ag-vip { --ag-accent: #793457; --ag-accent-soft: rgba(121,52,87,.09); }   /* VEX IQ programming help: a plum #793457 from the US allocation table, 8.11:1 on paper #FBF8F2, kept away from the robotics greens used on the FIRST LEGO League pages */
+.ag-root.ag-cot { --ag-accent: #175040; --ag-accent-soft: rgba(23,80,64,.09); }   /* CogAT test prep: a deep pine green, #175040 as allocated, calm rather than urgent for a page that argues against cramming; 8.77:1 on the #FBF8F2 paper */
