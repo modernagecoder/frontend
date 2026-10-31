@@ -308,7 +308,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US072 | vex-iq-programming-help (vip, #793457) | coding competitions | 4,175 | 1.3% vs hspt-math-prep | exam door | original worked example | 95b31355 |
 | US043 | cogat-test-prep (cot, #175040) | gifted and selective | 4,114 | 1.1% vs common-core-math-tutor | exam door | original worked example | e0151b88 |
 | US044 | nnat-test-prep (nnt, #6C2A49) | gifted and selective | 3,709 | 1.3% vs cogat-test-prep | exam door | original worked example | 83a29cda |
-| US045 | olsat-test-prep (ot, #5F6C4C) | gifted and selective | 3,604 | 1.2% vs nnat-test-prep | exam door | original worked example | (this commit) |
+| US045 | olsat-test-prep (ot, #5F6C4C) | gifted and selective | 3,604 | 1.2% vs nnat-test-prep | exam door | original worked example | 0de8acc9 |
+| US046 | iowa-assessments-math-prep (ia, #497061) | gifted and selective | 3,722 | 2.4% vs cogat-test-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

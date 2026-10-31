@@ -8326,4 +8326,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /olsat-test-prep /src/pages/olsat-test-prep.html 200
 /olsat-test-prep.md /src/pages/olsat-test-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/iowa-assessments-math-prep /src/pages/iowa-assessments-math-prep.html 200
+/iowa-assessments-math-prep.md /src/pages/iowa-assessments-math-prep.md 200
 /* /src/pages/404.html 404
