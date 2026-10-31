@@ -709,6 +709,7 @@ const SLUGS = [
   'year-9-maths-tutor-online',
   'year-10-maths-tutor-online',
   'year-11-maths-tutor-online',
+  'ocr-gcse-maths-j560-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1497,6 +1498,7 @@ const LLMS_LABELS = {
   'year-9-maths-tutor-online': 'Year 9 maths tutor online',
   'year-10-maths-tutor-online': 'Year 10 maths tutor online',
   'year-11-maths-tutor-online': 'Year 11 maths tutor online',
+  'ocr-gcse-maths-j560-help': 'OCR GCSE Maths J560 help',
 };
 
 function wireLlms(slugs) {
