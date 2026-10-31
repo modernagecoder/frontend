@@ -671,6 +671,7 @@ const SLUGS = [
   'quest-assessments-11-plus-maths-practice',
   'independent-school-11-plus-maths-london',
   '13-plus-scholarship-maths-preparation',
+  '7-plus-maths-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1421,6 +1422,7 @@ const LLMS_LABELS = {
   'quest-assessments-11-plus-maths-practice': 'Quest Assessments 11 plus maths practice',
   'independent-school-11-plus-maths-london': 'Independent school 11 plus maths in London',
   '13-plus-scholarship-maths-preparation': '13 plus scholarship maths preparation',
+  '7-plus-maths-preparation': '7 plus maths preparation',
 };
 
 function wireLlms(slugs) {
