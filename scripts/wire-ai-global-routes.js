@@ -711,6 +711,7 @@ const SLUGS = [
   'year-11-maths-tutor-online',
   'ocr-gcse-maths-j560-help',
   'gcse-statistics-tutor-online',
+  'ocr-fsmq-additional-maths-6993-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1501,6 +1502,7 @@ const LLMS_LABELS = {
   'year-11-maths-tutor-online': 'Year 11 maths tutor online',
   'ocr-gcse-maths-j560-help': 'OCR GCSE Maths J560 help',
   'gcse-statistics-tutor-online': 'GCSE Statistics tutor online',
+  'ocr-fsmq-additional-maths-6993-help': 'OCR FSMQ Additional Maths 6993 help',
 };
 
 function wireLlms(slugs) {

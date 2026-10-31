@@ -28861,6 +28861,18 @@
   to = "/src/pages/gcse-statistics-tutor-online.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ocr-fsmq-additional-maths-6993-help"
+  to = "/src/pages/ocr-fsmq-additional-maths-6993-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/ocr-fsmq-additional-maths-6993-help.md"
+  to = "/src/pages/ocr-fsmq-additional-maths-6993-help.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

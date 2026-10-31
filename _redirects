@@ -8826,4 +8826,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /gcse-statistics-tutor-online /src/pages/gcse-statistics-tutor-online.html 200
 /gcse-statistics-tutor-online.md /src/pages/gcse-statistics-tutor-online.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ocr-fsmq-additional-maths-6993-help /src/pages/ocr-fsmq-additional-maths-6993-help.html 200
+/ocr-fsmq-additional-maths-6993-help.md /src/pages/ocr-fsmq-additional-maths-6993-help.md 200
 /* /src/pages/404.html 404
