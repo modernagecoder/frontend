@@ -28513,6 +28513,18 @@
   to = "/src/pages/moems-math-olympiad-preparation.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/noetic-math-contest-preparation"
+  to = "/src/pages/noetic-math-contest-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/noetic-math-contest-preparation.md"
+  to = "/src/pages/noetic-math-contest-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

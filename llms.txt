@@ -914,6 +914,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Hunter College High School math prep: https://learn.modernagecoders.com/hunter-college-high-school-math-prep
 - Boston exam schools math prep: https://learn.modernagecoders.com/boston-exam-schools-math-prep
 - MOEMS math olympiad preparation: https://learn.modernagecoders.com/moems-math-olympiad-preparation
+- Noetic math contest preparation: https://learn.modernagecoders.com/noetic-math-contest-preparation
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

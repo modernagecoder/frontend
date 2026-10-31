@@ -682,6 +682,7 @@ const SLUGS = [
   'hunter-college-high-school-math-prep',
   'boston-exam-schools-math-prep',
   'moems-math-olympiad-preparation',
+  'noetic-math-contest-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1443,6 +1444,7 @@ const LLMS_LABELS = {
   'hunter-college-high-school-math-prep': 'Hunter College High School math prep',
   'boston-exam-schools-math-prep': 'Boston exam schools math prep',
   'moems-math-olympiad-preparation': 'MOEMS math olympiad preparation',
+  'noetic-math-contest-preparation': 'Noetic math contest preparation',
 };
 
 function wireLlms(slugs) {
