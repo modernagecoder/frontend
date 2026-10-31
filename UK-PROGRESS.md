@@ -666,7 +666,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK013 | year-7-maths-tutor-online (gaf, #573F66) | Secondary (England) | 3,944 | 1.8% vs year-3-maths-tutor-online | exam door | original worked example | c66d0ab3 |
 | UK014 | year-8-maths-tutor-online (gag, #184F71) | Secondary (England) | 3,998 | 2.2% vs year-7-maths-tutor-online | exam door | original worked example | 4e60ed38 |
 | UK077 | maths-masterclasses-for-able-students-uk (mas, #2E445F) | Enrichment | 4,215 | 1.5% vs ib-maths-ia-guidance | exam door | original worked example | c8695ae2 |
-| UK078 | online-maths-circle-uk (cu, #454520) | Enrichment | 3,870 | 1.1% vs maths-masterclasses-for-able-students-uk | exam door | original worked example | (this commit) |
+| UK078 | online-maths-circle-uk (cu, #454520) | Enrichment | 3,870 | 1.1% vs maths-masterclasses-for-able-students-uk | exam door | original worked example | e99d6577 |
+| UK079 | online-maths-summer-school-uk (ssu, #514907) | Enrichment | 3,689 | 1.2% vs maths-masterclasses-for-able-students-uk | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 

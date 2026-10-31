@@ -636,6 +636,7 @@ const SLUGS = [
   'year-8-maths-tutor-online',
   'maths-masterclasses-for-able-students-uk',
   'online-maths-circle-uk',
+  'online-maths-summer-school-uk',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1351,6 +1352,7 @@ const LLMS_LABELS = {
   'year-8-maths-tutor-online': 'Year 8 maths tutor online',
   'maths-masterclasses-for-able-students-uk': 'Maths masterclasses for able students',
   'online-maths-circle-uk': 'Online maths circle',
+  'online-maths-summer-school-uk': 'Online maths summer school',
 };
 
 function wireLlms(slugs) {
