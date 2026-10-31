@@ -8270,4 +8270,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /teaching-textbooks-math-help /src/pages/teaching-textbooks-math-help.html 200
 /teaching-textbooks-math-help.md /src/pages/teaching-textbooks-math-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/eureka-math-homework-help /src/pages/eureka-math-homework-help.html 200
+/eureka-math-homework-help.md /src/pages/eureka-math-homework-help.md 200
 /* /src/pages/404.html 404

@@ -294,7 +294,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | 138 | best-coding-classes-for-kids-in-minneapolis (beki, #5C161C) | metro | 3,251 | 2.3% vs best-coding-classes-for-kids-in-orlando | phase 5 | pivot tables (crosstab of two categorical fields) and checking that the parts ad | 19b6dc56 |
 | US082 | saxon-math-tutor (sax, #823C5F) | homeschool and curricula | 3,725 | 1.3% vs ai-guidance-for-schools-by-state | exam door | original worked example | 48c5ec74 |
 | US084 | beast-academy-tutor (ba, #7E4F6C) | homeschool and curricula | 3,619 | 1.6% vs saxon-math-tutor | exam door | original worked example | b87678a4 |
-| US085 | teaching-textbooks-math-help (tet, #44532B) | homeschool and curricula | 3,506 | 1.7% vs saxon-math-tutor | exam door | original worked example | (this commit) |
+| US085 | teaching-textbooks-math-help (tet, #44532B) | homeschool and curricula | 3,506 | 1.7% vs saxon-math-tutor | exam door | original worked example | 7aca5a6c |
+| US086 | eureka-math-homework-help (eh, #106F47) | homeschool and curricula | 3,700 | 1.6% vs saxon-math-tutor | exam door | original worked example | (this commit) |
 
 ## Skipped
 

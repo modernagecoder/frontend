@@ -1107,3 +1107,4 @@
 .ag-root.ag-sax { --ag-accent: #823C5F; --ag-accent-soft: rgba(130,60,95,.09); }   /* Saxon Math tutor: a mulberry ink, #823C5F as allocated, warm and clearly apart from the green curriculum pages, well above contrast on the #FBF8F2 paper */
 .ag-root.ag-ba { --ag-accent: #7E4F6C; --ag-accent-soft: rgba(126,79,108,.09); }   /* Beast Academy tutor: a dusky plum, #7E4F6C as allocated, softer than the Saxon mulberry and still well above contrast on the #FBF8F2 paper */
 .ag-root.ag-tet { --ag-accent: #44532B; --ag-accent-soft: rgba(68,83,43,.09); }   /* Teaching Textbooks math help: a deep olive, #44532B as allocated, earthy and distinct from the plum curriculum pages, with strong contrast on the #FBF8F2 paper */
+.ag-root.ag-eh { --ag-accent: #106F47; --ag-accent-soft: rgba(16,111,71,.09); }   /* Eureka Math homework help: a clear jade, #106F47 as allocated, fresher than the olive Teaching Textbooks page and comfortably above contrast on the #FBF8F2 paper */

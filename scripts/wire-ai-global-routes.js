@@ -572,6 +572,7 @@ const SLUGS = [
   'saxon-math-tutor',
   'beast-academy-tutor',
   'teaching-textbooks-math-help',
+  'eureka-math-homework-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1223,6 +1224,7 @@ const LLMS_LABELS = {
   'saxon-math-tutor': 'Saxon Math tutor',
   'beast-academy-tutor': 'Beast Academy tutor',
   'teaching-textbooks-math-help': 'Teaching Textbooks math help',
+  'eureka-math-homework-help': 'Eureka Math homework help',
 };
 
 function wireLlms(slugs) {
