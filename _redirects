@@ -8790,4 +8790,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /njsla-math-practice /src/pages/njsla-math-practice.html 200
 /njsla-math-practice.md /src/pages/njsla-math-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/njgpa-math-prep /src/pages/njgpa-math-prep.html 200
+/njgpa-math-prep.md /src/pages/njgpa-math-prep.md 200
 /* /src/pages/404.html 404

@@ -702,6 +702,7 @@ const SLUGS = [
   'further-maths-when-your-school-does-not-offer-it',
   'cambridge-a-level-further-maths-9231-help',
   'njsla-math-practice',
+  'njgpa-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1483,6 +1484,7 @@ const LLMS_LABELS = {
   'further-maths-when-your-school-does-not-offer-it': 'Further Maths when your school does not offer it',
   'cambridge-a-level-further-maths-9231-help': 'Cambridge A level Further Maths 9231 help',
   'njsla-math-practice': 'NJSLA math practice',
+  'njgpa-math-prep': 'NJGPA math prep',
 };
 
 function wireLlms(slugs) {
