@@ -8642,4 +8642,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /duke-tip-alternatives /src/pages/duke-tip-alternatives.html 200
 /duke-tip-alternatives.md /src/pages/duke-tip-alternatives.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/online-math-circle-for-kids /src/pages/online-math-circle-for-kids.html 200
+/online-math-circle-for-kids.md /src/pages/online-math-circle-for-kids.md 200
 /* /src/pages/404.html 404

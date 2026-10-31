@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Online math circle for kids](/online-math-circle-for-kids)
 - [Duke TIP alternatives](/duke-tip-alternatives)
 - [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
 - [Bebras Challenge practice](/bebras-challenge-practice)

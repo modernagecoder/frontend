@@ -665,6 +665,7 @@ const SLUGS = [
   'bebras-challenge-practice',
   'stanford-online-high-school-math-prep',
   'duke-tip-alternatives',
+  'online-math-circle-for-kids',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1409,6 +1410,7 @@ const LLMS_LABELS = {
   'bebras-challenge-practice': 'Bebras Challenge practice',
   'stanford-online-high-school-math-prep': 'Stanford Online High School math prep',
   'duke-tip-alternatives': 'Duke TIP alternatives',
+  'online-math-circle-for-kids': 'Online math circle for kids',
 };
 
 function wireLlms(slugs) {

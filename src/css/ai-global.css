@@ -1200,3 +1200,4 @@
 .ag-root.ag-bcp { --ag-accent: #2F5004; --ag-accent-soft: rgba(47,80,4,.09); }   /* Bebras Challenge practice: the allocated deep moss green #2F5004, calm and outdoorsy; about 9.4:1 on the #FBF8F2 paper, far above the 4.5:1 floor */
 .ag-root.ag-sthi { --ag-accent: #8A5F21; --ag-accent-soft: rgba(138,95,33,.09); }   /* Stanford Online High School math prep: the allocated warm bronze #8A5F21, a library-desk brown; about 5.3:1 on the #FBF8F2 paper, above the 4.5:1 floor */
 .ag-root.ag-dta { --ag-accent: #88557C; --ag-accent-soft: rgba(136,85,124,.09); }   /* Duke TIP alternatives: the allocated dusky plum #88557C, quiet and scholarly; about 5.4:1 on the #FBF8F2 paper, above the 4.5:1 floor */
+.ag-root.ag-ck { --ag-accent: #145E3D; --ag-accent-soft: rgba(20,94,61,.09); }   /* Online math circle for kids: the allocated deep pine #145E3D, a chalkboard green; about 7.6:1 on the #FBF8F2 paper, far above the 4.5:1 floor */

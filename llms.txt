@@ -897,6 +897,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Bebras Challenge practice: https://learn.modernagecoders.com/bebras-challenge-practice
 - Stanford Online High School math prep: https://learn.modernagecoders.com/stanford-online-high-school-math-prep
 - Duke TIP alternatives: https://learn.modernagecoders.com/duke-tip-alternatives
+- Online math circle for kids: https://learn.modernagecoders.com/online-math-circle-for-kids
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
