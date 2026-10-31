@@ -1,0 +1,107 @@
+{
+  "_about": "UK and US exams cluster (2026-10-31): each hub has one index page and named sections. render-ag adds a related-pages block (class ag-siblings, excluded from the uniqueness gate) and an index breadcrumb to every member. Members are content/uk|us module slugs (label = routeLabel) or {slug, label} for legacy pages outside the pipeline. A link is emitted only when src/pages/<slug>.html exists.",
+  "hubs": [
+    {
+      "index": "uk-maths-exam-boards-and-specification-codes",
+      "market": "GB",
+      "label": "UK maths exam boards and specification codes",
+      "sections": [
+        { "name": "GCSE maths", "members": ["aqa-gcse-maths-8300-help", "edexcel-gcse-maths-1ma1-help", "ocr-gcse-maths-j560-help", "ccea-gcse-maths-help", "gcse-maths-and-numeracy-wales-help", "gcse-foundation-maths-tutor-online", "gcse-higher-maths-grade-9-tutor", "gcse-statistics-tutor-online", "aqa-level-2-further-maths-8365-help", "ocr-fsmq-additional-maths-6993-help", { "slug": "gcse-maths-tuition-online", "label": "GCSE maths tuition online" }, { "slug": "aqa-vs-edexcel-vs-ocr-gcse-maths", "label": "AQA vs Edexcel vs OCR GCSE maths" }] },
+        { "name": "International GCSE and Cambridge International", "members": ["cambridge-igcse-maths-0580-help", "cambridge-igcse-additional-maths-0606-help", "edexcel-international-gcse-maths-a-4ma1-help", "edexcel-igcse-further-pure-maths-4pm1-help", "igcse-maths-for-home-educated-students-uk", "cambridge-a-level-maths-9709-help", "cambridge-a-level-further-maths-9231-help", { "slug": "igcse-maths-tuition-online", "label": "IGCSE maths tuition online" }] },
+        { "name": "A level maths and further maths", "members": ["aqa-a-level-maths-7357-help", "edexcel-a-level-maths-9ma0-help", "ocr-a-level-maths-h240-help", "ocr-mei-a-level-maths-h640-help", "ccea-a-level-maths-help", "wjec-a-level-maths-help-wales", "aqa-a-level-further-maths-7367-help", "edexcel-a-level-further-maths-9fm0-help", "further-maths-when-your-school-does-not-offer-it", { "slug": "a-level-maths-tuition-online", "label": "A level maths tuition online" }] },
+        { "name": "Scotland", "members": ["scottish-primary-maths-tutor-online", "s1-s3-maths-tutor-online-scotland", "national-5-maths-tuition-online", "national-5-applications-of-maths-help", "higher-maths-tuition-online", "advanced-higher-maths-tuition-online"] },
+        { "name": "International Baccalaureate", "members": ["ib-myp-maths-tutor-online", "ib-maths-ai-sl-tutor-online", "ib-maths-ia-guidance", "ib-extended-essay-maths-computer-science-mentoring", { "slug": "ib-maths-tuition-online", "label": "IB maths tuition online" }] }
+      ]
+    },
+    {
+      "index": "uk-maths-year-by-year-guide",
+      "market": "GB",
+      "label": "UK maths year by year, Reception to Year 11",
+      "sections": [
+        { "name": "Primary, Reception to Year 6", "members": ["reception-maths-online-uk", "ks1-maths-tuition-online", "ks1-sats-maths-explained", "year-1-maths-tutor-online", "year-2-maths-tutor-online", "year-3-maths-tutor-online", "year-4-maths-tutor-online", "multiplication-tables-check-year-4-practice", "times-tables-tutor-online-uk", "year-5-maths-tutor-online", "year-6-maths-tutor-online", { "slug": "ks2-sats-maths-papers-explained", "label": "KS2 SATs maths papers explained" }, "white-rose-maths-help-at-home"] },
+        { "name": "Secondary, Year 7 to Year 11", "members": ["year-7-maths-tutor-online", "year-8-maths-tutor-online", "year-9-maths-tutor-online", "year-10-maths-tutor-online", "year-11-maths-tutor-online"] },
+        { "name": "Scotland", "members": ["scottish-primary-maths-tutor-online", "s1-s3-maths-tutor-online-scotland"] }
+      ]
+    },
+    {
+      "index": "uk-selective-school-maths-tests-guide",
+      "market": "GB",
+      "label": "UK selective school maths tests: 7+, 11+, 13+ and 16+",
+      "sections": [
+        { "name": "Tests by provider and entry point", "members": ["gl-assessment-11-plus-maths-practice", "cem-11-plus-maths-practice", "quest-assessments-11-plus-maths-practice", "iseb-common-pre-test-maths-practice", "ukiset-maths-reasoning-practice", "independent-school-11-plus-maths-london", "7-plus-maths-preparation", "13-plus-scholarship-maths-preparation", "16-plus-sixth-form-entrance-maths", { "slug": "11-plus-maths-tuition", "label": "11 plus maths tuition" }] },
+        { "name": "11+ by area", "members": ["11-plus-maths-tuition-barnet", "11-plus-maths-tuition-bexley", "11-plus-maths-tuition-birmingham", "11-plus-maths-tuition-bournemouth-christchurch-and-poole", "11-plus-maths-tuition-bromley", "11-plus-maths-tuition-buckinghamshire", "11-plus-maths-tuition-calderdale", "11-plus-maths-tuition-enfield", "11-plus-maths-tuition-essex", "11-plus-maths-tuition-gloucestershire", "11-plus-maths-tuition-hertfordshire", "11-plus-maths-tuition-kent", "11-plus-maths-tuition-kingston", "11-plus-maths-tuition-lancashire", "11-plus-maths-tuition-lincolnshire", "11-plus-maths-tuition-medway", "11-plus-maths-tuition-north-yorkshire", "11-plus-maths-tuition-plymouth", "11-plus-maths-tuition-reading", "11-plus-maths-tuition-redbridge", "11-plus-maths-tuition-slough", "11-plus-maths-tuition-southend", "11-plus-maths-tuition-sutton", "11-plus-maths-tuition-torbay", "11-plus-maths-tuition-trafford", "11-plus-maths-tuition-warwickshire", "11-plus-maths-tuition-wiltshire", "11-plus-maths-tuition-wirral", "11-plus-maths-tuition-wolverhampton-and-walsall"] },
+        { "name": "Northern Ireland transfer test", "members": ["transfer-test-maths-tuition-belfast", "transfer-test-maths-practice-northern-ireland"] }
+      ]
+    },
+    {
+      "index": "uk-university-admissions-maths-and-computing-guide",
+      "market": "GB",
+      "label": "UK university admissions: maths tests and computing applications",
+      "sections": [
+        { "name": "Admissions tests and interviews", "members": ["tmua-preparation", "step-maths-preparation", "esat-maths-preparation", "oxford-mat-preparation", "oxbridge-maths-interview-problem-solving"] },
+        { "name": "Computer science applications", "members": ["computer-science-personal-statement-projects-uk", "a-level-computer-science-tutor-online-uk", "aqa-a-level-computer-science-7517-help", "ocr-a-level-computer-science-h446-help", "a-level-computer-science-nea-help", "epq-computer-science-artefact-mentoring", "btec-it-programming-unit-help"] }
+      ]
+    },
+    {
+      "index": "uk-maths-enrichment-and-competitions-guide",
+      "market": "GB",
+      "label": "UK maths enrichment, competitions and able pupils",
+      "sections": [
+        { "name": "Enrichment and able pupils", "members": ["online-maths-circle-uk", "online-maths-summer-school-uk", "maths-masterclasses-for-able-students-uk", "gifted-and-talented-maths-and-coding-uk", "maths-for-home-educated-children-uk", "duke-of-edinburgh-skills-section-coding"] },
+        { "name": "Maths competitions", "members": ["maths-olympiad-training-uk", "primary-maths-challenge-practice", "ukmt-kangaroo-rounds-practice", "ukmt-team-maths-challenge-practice", "junior-mathematical-olympiad-preparation", "intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation", "british-mathematical-olympiad-bmo-preparation", "mathematical-olympiad-for-girls-preparation", "scottish-mathematical-challenge-practice"] },
+        { "name": "Computing programmes and competitions", "members": ["cyberfirst-courses-and-bursary-preparation", "cyberfirst-girls-competition-preparation", "bebras-computational-thinking-challenge-practice-uk", "british-informatics-olympiad-preparation", "ks1-coding-lessons-online", "uk-coding-maths-and-ai-competitions-calendar"] }
+      ]
+    },
+    {
+      "index": "us-state-math-tests-by-state",
+      "market": "US",
+      "label": "US state math tests by state",
+      "sections": [
+        { "name": "State tests, grades 3 to 8", "members": ["caaspp-math-practice", "smarter-balanced-math-practice", "colorado-cmas-math-practice", "illinois-iar-math-practice", "mcas-math-prep", "nc-eog-math-practice", "njsla-math-practice", "nys-math-test-prep-grades-3-8", "pssa-math-practice", "staar-math-tutoring"] },
+        { "name": "High school end-of-course and graduation tests", "members": ["algebra-1-eoc-prep", "staar-algebra-1-eoc-prep", "keystone-algebra-1-prep", "nc-math-1-eoc-prep", "njgpa-math-prep", "algebra-1-regents-prep", "geometry-regents-prep", "algebra-2-regents-prep"] },
+        { "name": "Standards behind the tests", "members": ["common-core-math-tutor", "common-core-math-vs-traditional-math"] }
+      ]
+    },
+    {
+      "index": "us-gifted-and-selective-school-tests-guide",
+      "market": "US",
+      "label": "US gifted and selective school tests",
+      "sections": [
+        { "name": "Gifted and talented screening", "members": ["cogat-test-prep", "nnat-test-prep", "olsat-test-prep", "iowa-assessments-math-prep", "gifted-and-talented-test-prep", "nyc-gifted-and-talented-guide"] },
+        { "name": "Exam schools and private high schools", "members": ["shsat-math-prep", "hunter-college-high-school-math-prep", "boston-exam-schools-math-prep", "hspt-math-prep", "tachs-math-prep", { "slug": "isee-ssat-math-prep", "label": "ISEE and SSAT math prep" }] },
+        { "name": "Programs for advanced students", "members": ["duke-tip-alternatives", "stanford-online-high-school-math-prep", "accelerated-math-program-online"] }
+      ]
+    },
+    {
+      "index": "us-math-placement-and-college-readiness-tests",
+      "market": "US",
+      "label": "US math placement and college readiness tests",
+      "sections": [
+        { "name": "School placement and growth tests", "members": ["map-growth-math-test-prep", "i-ready-math-help", "middle-school-math-placement-test-prep", "accelerated-math-program-online"] },
+        { "name": "High school math courses", "members": ["integrated-math-1-tutoring", "integrated-math-2-tutoring", "integrated-math-3-tutoring", "trigonometry-tutoring-online", "statistics-tutoring-online", "ap-precalculus-tutoring-online"] },
+        { "name": "PSAT and PreACT", "members": ["psat-8-9-math-prep", "psat-math-prep", "preact-math-prep", { "slug": "sat-math-tutoring-online", "label": "SAT math tutoring online" }, { "slug": "act-math-tutoring-online", "label": "ACT math tutoring online" }] },
+        { "name": "College placement and credit", "members": ["accuplacer-math-prep", "aleks-math-placement-test-prep", "tsia2-math-prep", "clep-college-algebra-prep", "clep-calculus-prep", "dual-enrollment-math-help"] }
+      ]
+    },
+    {
+      "index": "homeschool-math-curriculum-guide-usa",
+      "market": "US",
+      "label": "Homeschool and school math curricula guide",
+      "sections": [
+        { "name": "Curricula we teach alongside", "members": ["saxon-math-tutor", "beast-academy-tutor", "teaching-textbooks-math-help", "math-mammoth-tutor", "math-u-see-tutor", "eureka-math-homework-help", "envision-math-help", "go-math-homework-help", "big-ideas-math-help"] },
+        { "name": "Comparing options", "members": ["khan-academy-math-vs-live-tutor", "russian-school-of-mathematics-alternative", "art-of-problem-solving-alternative"] },
+        { "name": "Homeschool testing and credit", "members": ["stanford-10-math-practice", "homeschool-computer-science-high-school-credit"] }
+      ]
+    },
+    {
+      "index": "us-math-and-coding-competitions-guide",
+      "market": "US",
+      "label": "US math and coding competitions guide",
+      "sections": [
+        { "name": "Math contests", "members": ["moems-math-olympiad-preparation", "noetic-math-contest-preparation", "math-league-contest-preparation", "continental-math-league-preparation", "math-competitions-for-middle-school-students", "online-math-circle-for-kids", "art-of-problem-solving-alternative"] },
+        { "name": "Coding and robotics", "members": ["bebras-challenge-practice", "first-lego-league-coding-help-usa", "ftc-programming-help", "vex-iq-programming-help", "science-olympiad-coding-events-help", "acsl-competition-preparation", "coding-competitions-for-middle-school-students", "coding-competitions-for-high-school-students"] },
+        { "name": "Projects and next steps", "members": ["isef-computer-science-project-mentoring", "girls-who-code-next-step", "after-hour-of-code-next-steps", "us-coding-math-and-ai-competitions-calendar"] }
+      ]
+    }
+  ]
+}

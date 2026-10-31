@@ -14,6 +14,7 @@
 const fs = require('fs');
 const path = require('path');
 const { course } = require('./catalogue');
+const { withGroup } = require('./exam-groups');
 const { neutralFee, feeAnchor, feeRegion, ldPrice, feeText } = require('./fee-anchor');
 
 const ROOT = path.resolve(__dirname, '..', '..', '..');
@@ -197,6 +198,7 @@ window.${fn} = function (e) {
 }
 
 function render(page) {
+  page = withGroup(page);
   const url = SITE + '/' + page.slug;
   const m = page.market;
   const wa = WA + encodeURIComponent(page.wa);
@@ -473,6 +475,20 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
   </div>
 </section>`;
 
+  // UK/US exams cluster (scripts/nl/lib/exam-groups.js): hub index, sibling pages and other hubs.
+  // The ag-siblings suffix marks it as shared chrome for the uniqueness gate.
+  const rel = page.cluster_related;
+  const related = !rel ? '' : `<section class="ag-section ag-siblings" aria-label="${esc(rel.h2)}">
+  <div class="ag-wrap">
+    <h2 class="ag-siblings-h2">${esc(rel.h2)}</h2>${rel.index ? `
+    <p class="ag-siblings-index">Part of the guide: <a class="ag-inline-link" href="${rel.index.href}">${esc(rel.index.label)}</a></p>` : ''}
+    <div class="ag-siblings-cols">
+      ${rel.sections.map(s => `<div class="ag-siblings-col"><h3>${esc(s.name)}</h3><ul>${s.links.map(l => `<li><a href="${l.href}">${esc(l.label)}</a></li>`).join('')}</ul></div>`).join('\n      ')}
+    </div>${rel.others.length ? `
+    <p class="ag-siblings-more">More guides: ${rel.others.map(o => `<a class="ag-inline-link" href="${o.href}">${esc(o.label)}</a>`).join(' &middot; ')}</p>` : ''}
+  </div>
+</section>`;
+
   const start = `<section class="ag-section ag-section--deep" id="start">
   <div class="ag-wrap">
     <div class="ag-grid-2" style="align-items:start">
@@ -539,7 +555,7 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
   </div>
 </footer>`;
 
-  return [head, '', hero, '', capsule, '', picks, '', sections, '', ladder, '', catalogue, '', how, '', projects, '', fees, '', reviews, '', faq, '', elsewhere, '', start, '', footer, '', `<div class="ag-sticky"><a href="#start">Free class</a>${pdLink('ag-sticky', 'ag-sticky-pd', 'Priority demo')}<a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>`, '', leadScript(page), '', '</body>', '</html>', ''].join('\n');
+  return [head, '', hero, '', capsule, '', picks, '', sections, '', ladder, '', catalogue, '', how, '', projects, '', fees, '', reviews, '', faq, '', elsewhere, '', related, '', start, '', footer, '', `<div class="ag-sticky"><a href="#start">Free class</a>${pdLink('ag-sticky', 'ag-sticky-pd', 'Priority demo')}<a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>`, '', leadScript(page), '', '</body>', '</html>', ''].join('\n');
 }
 
 // ---------------------------------------------------------------- md twin
@@ -568,6 +584,7 @@ function mdBlock(b) {
   }
 }
 function twin(page) {
+  page = withGroup(page);
   const url = SITE + '/' + page.slug;
   const out = ['---', `title: ${JSON.stringify(page.title)}`, `description: ${JSON.stringify(page.description)}`, `canonical: ${url}`, `source: src/pages/${page.slug}.html`, '---'];
   out.push(`> ${md(page.capsule)}`, '');
@@ -591,6 +608,13 @@ function twin(page) {
   for (const f of page.faq.items) out.push(`### ${md(f.q)}`, '', md(f.a), '');
   out.push(`## ${md(page.elsewhere.h2)}`, '');
   for (const i of page.elsewhere.items) out.push(`- [${i.label}](${i.href}): ${md(i.p)}`);
+  const rel = page.cluster_related;
+  if (rel) {
+    out.push('', `## ${md(rel.h2)}`, '');
+    if (rel.index) out.push(`Part of the guide: [${rel.index.label}](${rel.index.href})`, '');
+    for (const sec of rel.sections) { out.push(`### ${md(sec.name)}`, ''); for (const l of sec.links) out.push(`- [${l.label}](${l.href})`); out.push(''); }
+    if (rel.others.length) out.push('More guides: ' + rel.others.map(o => `[${o.label}](${o.href})`).join(', '));
+  }
   out.push('', '## Contact', '', `Book the free first class at [${url}](${url}#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.`, '');
   return out.join('\n');
 }
