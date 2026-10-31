@@ -28645,6 +28645,18 @@
   to = "/src/pages/ib-extended-essay-maths-computer-science-mentoring.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ocr-a-level-maths-h240-help"
+  to = "/src/pages/ocr-a-level-maths-h240-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/ocr-a-level-maths-h240-help.md"
+  to = "/src/pages/ocr-a-level-maths-h240-help.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

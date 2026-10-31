@@ -8754,4 +8754,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ib-extended-essay-maths-computer-science-mentoring /src/pages/ib-extended-essay-maths-computer-science-mentoring.html 200
 /ib-extended-essay-maths-computer-science-mentoring.md /src/pages/ib-extended-essay-maths-computer-science-mentoring.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ocr-a-level-maths-h240-help /src/pages/ocr-a-level-maths-h240-help.html 200
+/ocr-a-level-maths-h240-help.md /src/pages/ocr-a-level-maths-h240-help.md 200
 /* /src/pages/404.html 404
