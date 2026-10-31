@@ -668,6 +668,7 @@ const SLUGS = [
   'online-math-circle-for-kids',
   'stanford-10-math-practice',
   'cem-11-plus-maths-practice',
+  'quest-assessments-11-plus-maths-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1415,6 +1416,7 @@ const LLMS_LABELS = {
   'online-math-circle-for-kids': 'Online math circle for kids',
   'stanford-10-math-practice': 'Stanford 10 math practice',
   'cem-11-plus-maths-practice': 'CEM 11 plus maths practice',
+  'quest-assessments-11-plus-maths-practice': 'Quest Assessments 11 plus maths practice',
 };
 
 function wireLlms(slugs) {

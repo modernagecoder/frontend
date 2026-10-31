@@ -8654,4 +8654,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /cem-11-plus-maths-practice /src/pages/cem-11-plus-maths-practice.html 200
 /cem-11-plus-maths-practice.md /src/pages/cem-11-plus-maths-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/quest-assessments-11-plus-maths-practice /src/pages/quest-assessments-11-plus-maths-practice.html 200
+/quest-assessments-11-plus-maths-practice.md /src/pages/quest-assessments-11-plus-maths-practice.md 200
 /* /src/pages/404.html 404
