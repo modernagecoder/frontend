@@ -677,6 +677,7 @@ const SLUGS = [
   'caaspp-math-practice',
   'smarter-balanced-math-practice',
   'mcas-math-prep',
+  'pssa-math-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1433,6 +1434,7 @@ const LLMS_LABELS = {
   'caaspp-math-practice': 'CAASPP math practice',
   'smarter-balanced-math-practice': 'Smarter Balanced math practice',
   'mcas-math-prep': 'MCAS math prep',
+  'pssa-math-practice': 'PSSA math practice',
 };
 
 function wireLlms(slugs) {
