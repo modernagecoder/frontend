@@ -691,6 +691,7 @@ const SLUGS = [
   'isef-computer-science-project-mentoring',
   'after-hour-of-code-next-steps',
   'ib-myp-maths-tutor-online',
+  'ib-maths-ai-sl-tutor-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1461,6 +1462,7 @@ const LLMS_LABELS = {
   'isef-computer-science-project-mentoring': 'ISEF computer science project mentoring',
   'after-hour-of-code-next-steps': 'After the Hour of Code',
   'ib-myp-maths-tutor-online': 'IB MYP maths tutor online',
+  'ib-maths-ai-sl-tutor-online': 'IB Maths AI SL tutor online',
 };
 
 function wireLlms(slugs) {
