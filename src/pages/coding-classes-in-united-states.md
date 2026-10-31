@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
 - [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
 - [PSSA math practice](/pssa-math-practice)
 - [MCAS math prep](/mcas-math-prep)
