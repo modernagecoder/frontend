@@ -668,7 +668,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK077 | maths-masterclasses-for-able-students-uk (mas, #2E445F) | Enrichment | 4,215 | 1.5% vs ib-maths-ia-guidance | exam door | original worked example | c8695ae2 |
 | UK078 | online-maths-circle-uk (cu, #454520) | Enrichment | 3,870 | 1.1% vs maths-masterclasses-for-able-students-uk | exam door | original worked example | e99d6577 |
 | UK079 | online-maths-summer-school-uk (ssu, #514907) | Enrichment | 3,689 | 1.2% vs maths-masterclasses-for-able-students-uk | exam door | original worked example | 89c0c539 |
-| UK080 | gifted-and-talented-maths-and-coding-uk (gtc, #1C587C) | Enrichment | 3,810 | 1.3% vs maths-masterclasses-for-able-students-uk | exam door | original worked example | (this commit) |
+| UK080 | gifted-and-talented-maths-and-coding-uk (gtc, #1C587C) | Enrichment | 3,810 | 1.3% vs maths-masterclasses-for-able-students-uk | exam door | original worked example | 69ce36f7 |
+| UK081 | duke-of-edinburgh-skills-section-coding (des, #307041) | Enrichment | 3,877 | 1.5% vs python-games-for-kids | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
