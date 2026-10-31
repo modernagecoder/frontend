@@ -8390,4 +8390,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /iseb-common-pre-test-maths-practice /src/pages/iseb-common-pre-test-maths-practice.html 200
 /iseb-common-pre-test-maths-practice.md /src/pages/iseb-common-pre-test-maths-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/11-plus-maths-tuition-lincolnshire /src/pages/11-plus-maths-tuition-lincolnshire.html 200
+/11-plus-maths-tuition-lincolnshire.md /src/pages/11-plus-maths-tuition-lincolnshire.md 200
 /* /src/pages/404.html 404
