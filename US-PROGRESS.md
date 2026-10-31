@@ -316,7 +316,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US009 | accuplacer-math-prep (acx, #37613C) | placement and tracks | 4,175 | 1.1% vs common-core-math-vs-traditional-math | exam door | original worked example | f4d3d670 |
 | US010 | aleks-math-placement-test-prep (apt, #6C501F) | placement and tracks | 3,536 | 1.5% vs accuplacer-math-prep | exam door | original worked example | f8560f0b |
 | US011 | tsia2-math-prep (tsx, #085023) | placement and tracks | 3,813 | 1.6% vs accuplacer-math-prep | exam door | original worked example | a4202b9f |
-| US061 | clep-college-algebra-prep (cca, #89461F) | college credit | 3,608 | 2.2% vs accuplacer-math-prep | exam door | original worked example | (this commit) |
+| US061 | clep-college-algebra-prep (cca, #89461F) | college credit | 3,608 | 2.2% vs accuplacer-math-prep | exam door | original worked example | e6613d0b |
+| US055 | psat-math-prep (psx, #8C4568) | college admissions | 3,839 | 1.9% vs tsia2-math-prep | exam door | original worked example | (this commit) |
 
 ## Skipped
 

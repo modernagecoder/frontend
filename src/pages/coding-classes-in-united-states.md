@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [PSAT math prep](/psat-math-prep)
 - [CLEP College Algebra prep](/clep-college-algebra-prep)
 - [TSIA2 math prep](/tsia2-math-prep)
 - [ALEKS math placement test prep](/aleks-math-placement-test-prep)

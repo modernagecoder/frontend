@@ -597,6 +597,7 @@ const SLUGS = [
   'aleks-math-placement-test-prep',
   'tsia2-math-prep',
   'clep-college-algebra-prep',
+  'psat-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1273,6 +1274,7 @@ const LLMS_LABELS = {
   'aleks-math-placement-test-prep': 'ALEKS math placement test prep',
   'tsia2-math-prep': 'TSIA2 math prep',
   'clep-college-algebra-prep': 'CLEP College Algebra prep',
+  'psat-math-prep': 'PSAT math prep',
 };
 
 function wireLlms(slugs) {
