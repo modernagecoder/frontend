@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Algebra 1 EOC prep](/algebra-1-eoc-prep)
 - [Algebra 2 Regents prep](/algebra-2-regents-prep)
 - [Geometry Regents prep](/geometry-regents-prep)
 - [Algebra 1 Regents prep](/algebra-1-regents-prep)

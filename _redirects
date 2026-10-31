@@ -8490,4 +8490,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /algebra-2-regents-prep /src/pages/algebra-2-regents-prep.html 200
 /algebra-2-regents-prep.md /src/pages/algebra-2-regents-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/algebra-1-eoc-prep /src/pages/algebra-1-eoc-prep.html 200
+/algebra-1-eoc-prep.md /src/pages/algebra-1-eoc-prep.md 200
 /* /src/pages/404.html 404
