@@ -28057,6 +28057,18 @@
   to = "/src/pages/math-u-see-tutor.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/big-ideas-math-help"
+  to = "/src/pages/big-ideas-math-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/big-ideas-math-help.md"
+  to = "/src/pages/big-ideas-math-help.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
