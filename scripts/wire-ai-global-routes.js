@@ -606,6 +606,7 @@ const SLUGS = [
   'ib-maths-ia-guidance',
   'maths-for-home-educated-children-uk',
   'a-level-computer-science-tutor-online-uk',
+  'cambridge-igcse-maths-0580-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1291,6 +1292,7 @@ const LLMS_LABELS = {
   'ib-maths-ia-guidance': 'IB Maths IA guidance',
   'maths-for-home-educated-children-uk': 'Maths for home-educated children',
   'a-level-computer-science-tutor-online-uk': 'A level Computer Science tutor online',
+  'cambridge-igcse-maths-0580-help': 'Cambridge IGCSE Maths 0580 help',
 };
 
 function wireLlms(slugs) {
