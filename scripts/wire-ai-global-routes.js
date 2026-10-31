@@ -724,6 +724,7 @@ const SLUGS = [
   '11-plus-maths-tuition-north-yorkshire',
   '11-plus-maths-tuition-lancashire',
   '11-plus-maths-tuition-wiltshire',
+  '11-plus-maths-tuition-bromley',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1527,6 +1528,7 @@ const LLMS_LABELS = {
   '11-plus-maths-tuition-north-yorkshire': '11 plus maths tuition in North Yorkshire',
   '11-plus-maths-tuition-lancashire': '11 plus maths tuition in Lancashire',
   '11-plus-maths-tuition-wiltshire': '11 plus maths tuition in Wiltshire',
+  '11-plus-maths-tuition-bromley': '11 plus maths tuition in Bromley',
 };
 
 function wireLlms(slugs) {
