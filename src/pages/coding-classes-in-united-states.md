@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
 - [Boston exam schools math prep](/boston-exam-schools-math-prep)
 - [Hunter College High School math prep](/hunter-college-high-school-math-prep)
 - [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)

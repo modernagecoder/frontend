@@ -8706,4 +8706,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /boston-exam-schools-math-prep /src/pages/boston-exam-schools-math-prep.html 200
 /boston-exam-schools-math-prep.md /src/pages/boston-exam-schools-math-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/moems-math-olympiad-preparation /src/pages/moems-math-olympiad-preparation.html 200
+/moems-math-olympiad-preparation.md /src/pages/moems-math-olympiad-preparation.md 200
 /* /src/pages/404.html 404

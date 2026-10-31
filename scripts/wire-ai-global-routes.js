@@ -681,6 +681,7 @@ const SLUGS = [
   'nyc-gifted-and-talented-guide',
   'hunter-college-high-school-math-prep',
   'boston-exam-schools-math-prep',
+  'moems-math-olympiad-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1441,6 +1442,7 @@ const LLMS_LABELS = {
   'nyc-gifted-and-talented-guide': 'NYC Gifted and Talented guide',
   'hunter-college-high-school-math-prep': 'Hunter College High School math prep',
   'boston-exam-schools-math-prep': 'Boston exam schools math prep',
+  'moems-math-olympiad-preparation': 'MOEMS math olympiad preparation',
 };
 
 function wireLlms(slugs) {

@@ -28501,6 +28501,18 @@
   to = "/src/pages/boston-exam-schools-math-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/moems-math-olympiad-preparation"
+  to = "/src/pages/moems-math-olympiad-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/moems-math-olympiad-preparation.md"
+  to = "/src/pages/moems-math-olympiad-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
