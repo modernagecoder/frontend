@@ -723,6 +723,7 @@ const SLUGS = [
   'keystone-algebra-1-prep',
   '11-plus-maths-tuition-north-yorkshire',
   '11-plus-maths-tuition-lancashire',
+  '11-plus-maths-tuition-wiltshire',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1525,6 +1526,7 @@ const LLMS_LABELS = {
   'keystone-algebra-1-prep': 'Keystone Algebra I prep',
   '11-plus-maths-tuition-north-yorkshire': '11 plus maths tuition in North Yorkshire',
   '11-plus-maths-tuition-lancashire': '11 plus maths tuition in Lancashire',
+  '11-plus-maths-tuition-wiltshire': '11 plus maths tuition in Wiltshire',
 };
 
 function wireLlms(slugs) {
