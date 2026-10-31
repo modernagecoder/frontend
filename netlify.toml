@@ -27997,6 +27997,18 @@
   to = "/src/pages/duke-of-edinburgh-skills-section-coding.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/esat-maths-preparation"
+  to = "/src/pages/esat-maths-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/esat-maths-preparation.md"
+  to = "/src/pages/esat-maths-preparation.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

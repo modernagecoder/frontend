@@ -639,6 +639,7 @@ const SLUGS = [
   'online-maths-summer-school-uk',
   'gifted-and-talented-maths-and-coding-uk',
   'duke-of-edinburgh-skills-section-coding',
+  'esat-maths-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1357,6 +1358,7 @@ const LLMS_LABELS = {
   'online-maths-summer-school-uk': 'Online maths summer school',
   'gifted-and-talented-maths-and-coding-uk': 'Gifted and talented maths and coding',
   'duke-of-edinburgh-skills-section-coding': 'Duke of Edinburgh Skills section coding',
+  'esat-maths-preparation': 'ESAT maths preparation',
 };
 
 function wireLlms(slugs) {

@@ -871,6 +871,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Online maths summer school: https://learn.modernagecoders.com/online-maths-summer-school-uk
 - Gifted and talented maths and coding: https://learn.modernagecoders.com/gifted-and-talented-maths-and-coding-uk
 - Duke of Edinburgh Skills section coding: https://learn.modernagecoders.com/duke-of-edinburgh-skills-section-coding
+- ESAT maths preparation: https://learn.modernagecoders.com/esat-maths-preparation
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
