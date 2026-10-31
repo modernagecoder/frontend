@@ -588,6 +588,7 @@ const SLUGS = [
   'olsat-test-prep',
   'iowa-assessments-math-prep',
   'gifted-and-talented-test-prep',
+  'oxford-mat-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1255,6 +1256,7 @@ const LLMS_LABELS = {
   'olsat-test-prep': 'OLSAT test prep',
   'iowa-assessments-math-prep': 'Iowa Assessments math prep',
   'gifted-and-talented-test-prep': 'Gifted and talented test prep',
+  'oxford-mat-preparation': 'Oxford MAT preparation',
 };
 
 function wireLlms(slugs) {

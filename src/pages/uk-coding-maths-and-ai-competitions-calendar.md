@@ -4,28 +4,34 @@ description: "Every UK coding, maths and AI competition for 2026-27 we could con
 canonical: https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar
 source: src/pages/uk-coding-maths-and-ai-competitions-calendar.html
 ---
-> Every UK coding, maths and AI competition for 2026-27 we could confirm with the organiser: UKMT, BIO, Bebras, Cipher Challenge, UKOAI, PCTC and more, month by month.
+> The 2026-27 UK competition year opens with UKMT's Mathematical Olympiad for Girls on 22 September 2026 and runs through the Senior Mathematical Challenge on 7 October, the Primary Mathematics Challenge from 9 to 20 November, UK Bebras in November, the British Informatics Olympiad over December and January, the Perse Coding Team Challenge from 25 January 2027, and the Junior Mathematical Olympiad on 15 June 2027. Beyond school, the UK Olympiad in AI chooses the team for the International Olympiad in AI, held in Singapore from 4 to 10 July 2027. Most of these are entered through a school, and many are free. We teach the problem solving, programming and mathematics underneath them in live online classes for ages 6 and up; we do not run or enter any competition, and we promise no results. A first class is free; groups are USD 100 a month and one-to-one USD 150.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Competitions calendar 2026-27
 
-The 2026-27 UK competition year opens with UKMT's Mathematical Olympiad for Girls on 22 September 2026 and runs through the Senior Mathematical Challenge on 7 October, the Primary Mathematics Challenge from 9 to 20 November, UK Bebras in November, the British Informatics Olympiad over December and January, the Perse Coding Team Challenge from 25 January 2027, and the Junior Mathematical Olympiad on 15 June 2027. Beyond school, the UK Olympiad in AI chooses the team for the International Olympiad in AI, held in Singapore from 4 to 10 July 2027. Most of these are entered through a school, and many are free. We teach the problem solving, programming and mathematics underneath them in live online classes for ages 6 and up; we do not run or enter any competition, and we promise no results. A first class is free; groups are USD 100 a month and one-to-one USD 150.
+United Kingdom · 2026 to 2027 · Checked with each organiser
 
-Courses behind the competitions
+# UK coding, maths and AI competitions, 2026 to 2027
+
+The UK has a competition for almost every young mathematician and programmer, from a 45-minute puzzle challenge a six-year-old can do in class to the olympiads that choose national teams. They are run by different bodies, on different dates, with different rules about age, school year and nation, and no single official list brings them together. This page does. Each date below was read at the organiser's own website in September 2026. Where an organiser had not yet published next season's dates, the page says so rather than guessing, and competitions whose current arrangements we could not confirm are named at the end without details.
+
+At a glance: Covers: Coding, maths, AI, projects; Season: September 2026 to July 2027; Youngest: Age 6 upwards; Oldest: Up to the end of school; Nations: All four, each rule noted; Sources: Organisers' own sites; Cost to enter: Many are free; Our part: Teaching, never entering you. Rated 4.9 across 547 Google reviews.
 
 ## Three courses that train the thinking competitions reward
 
 Competitions test reasoning, not memory. These three build it at three stages.
 
-[![Maths Through Coding course thumbnail](/images/maths-through-coding.webp)  COMP / 01 Maths through coding For primary and lower secondary pupils: puzzles and patterns solved with small programs, good grounding for the Primary Mathematics Challenge and Bebras. Open the syllabus →](/courses/maths-through-coding)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  COMP / 02 Olympiad mathematics For the UKMT challenges and olympiads: written solutions, proof and the habit of checking every case. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![Competitive Programming for Teens course thumbnail](/images/competitive-programming-teens.webp)  COMP / 03 Competitive programming for teens For the British Informatics Olympiad and team coding challenges: algorithms, timing and careful testing. Open the syllabus →](/courses/competitive-programming-for-teens-course)
-
-The calendar
+- [Maths through coding](/courses/maths-through-coding): For primary and lower secondary pupils: puzzles and patterns solved with small programs, good grounding for the Primary Mathematics Challenge and Bebras.
+- [Olympiad mathematics](/courses/olympiad-competition-mathematics-mastery): For the UKMT challenges and olympiads: written solutions, proof and the habit of checking every case.
+- [Competitive programming for teens](/courses/competitive-programming-for-teens-course): For the British Informatics Olympiad and team coding challenges: algorithms, timing and careful testing.
 
 ## The 2026-27 competition year, month by month
 
 Dates are as each organiser published them when we checked in September 2026. Most competitions are entered through a school, so a teacher usually registers pupils.
 
+**UK coding, maths and AI competitions with published dates, 2026-27**
+
 | When | Competition | Run by | Who and how |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | 22 September 2026 | Mathematical Olympiad for Girls; Mathematical Competition for Girls | UKMT | Two papers for girls, sat in school |
 | September 2026 to January 2027 | National Cipher Challenge | University of Southampton | Registration opens 24 September; weekly codes to crack online |
 | Late September 2026, final 26 November 2026 | Sentinus Young Innovators: Young Coder and Young Mathematician of the Year | Sentinus | Northern Ireland; entrants under 19 on 1 July 2027; final at Ulster University, Belfast |
@@ -53,8 +59,6 @@ Three we could not confirm and so do not describe: the Oxford University Computi
 
 Sources: [UKMT competitions](https://ukmt.org.uk/competitions); [Primary Mathematics Challenge](https://www.primarymathschallenge.org.uk/); [British Informatics Olympiad](https://olympiad.org.uk/2026/index.html); [Raspberry Pi Foundation, UK Bebras 2026](https://www.raspberrypi.org/blog/join-the-uk-bebras-challenge-2026/); [National Cipher Challenge](https://www.cipherchallenge.org/); [Perse Coding Team Challenge](https://pctc.perse.co.uk/); [UK Olympiad in AI](https://ukoai.org/); [IOAI](https://ioai-official.org/); [Astro Pi](https://astro-pi.org/); [Sentinus Young Innovators 2026](https://sentinus.co.uk/live-programmes/sentinus-young-innovators-2026/); [EngineeringUK, the Big Bang Competition](https://eukeducation.org.uk/our-programmes/the-big-bang-competition/); [LEGO Education](https://education.lego.com/en-us/lego-league/program-update/). Read 20 September 2026.
 
-By age
-
 ## A first competition at six, an olympiad at seventeen
 
 Most learners do not jump straight to an olympiad. They start with something short and friendly, find they enjoy it, and move up.
@@ -73,14 +77,14 @@ The Intermediate and Senior Challenges, the Cayley, Hamilton and Maclaurin paper
 
 The step between rungs is bigger than it looks. A multiple-choice challenge rewards quick, accurate reasoning; an olympiad asks for a written argument that would convince a sceptical reader; an informatics olympiad asks for a program that is correct on inputs the author never tried. Each step up needs a different habit, and the habits can be taught.
 
-Who can enter
-
 ## The rules differ by nation, age and school
 
 Read the eligibility line of any competition before planning around it. Some are open to the whole UK, some to part of it, and some depend on a school entering you.
 
+**Eligibility as each organiser states it**
+
 | Competition | Who can enter, in the organiser's terms |
-| --- | --- |
+|---|---|
 | British Informatics Olympiad | Students in full-time pre-university education in mainland Britain |
 | UK Olympiad in AI | Secondary school students living in the UK |
 | Perse Coding Team Challenge | UK pupils up to Year 11 (S4 in Scotland); free |
@@ -94,14 +98,14 @@ Notice the British Informatics Olympiad's phrase: mainland Britain. A family in 
 
 Most of the maths challenges are entered by schools. If a school does not take part, ask the organiser how else a pupil can sit the paper, rather than assuming there is no route.
 
-Preparing well
-
 ## How to prepare without cramming or copying
 
 Good preparation looks like good learning: regular, varied and honest about what the learner can do alone.
 
+**Preparation that works, and what to avoid**
+
 | Do | Why | Avoid |
-| --- | --- | --- |
+|---|---|---|
 | Use the organiser's own past papers | They show the real style and difficulty, and they are the organiser's to share | Copied or reworded papers passed around online |
 | Solve, then write the reasoning down | Olympiads mark the argument, not just the answer | Checking only whether the final number matches |
 | Test programs on nasty inputs | Informatics rounds run hidden tests | Stopping when the sample input passes |
@@ -109,8 +113,6 @@ Good preparation looks like good learning: regular, varied and honest about what
 | Treat a low score as data | It shows which idea to learn next | Treating a result as a verdict on the child |
 
 In our classes, practice problems are written fresh in the style of each competition, never copied from past papers, and learners are pointed to the organisers' own archives for the real thing. We teach the mathematics and programming that competitions draw on; we do not register learners, we do not have any role in any competition named here, and we make no promise of scores, medals or selection.
-
-Where we fit
 
 ## What live classes add, and what they cannot
 
@@ -128,22 +130,20 @@ Enter a pupil for a school-based paper, guarantee a qualifying score, or replace
 
 If a learner is not enjoying it. The skills competitions test are worth having regardless, and a class can build them with no competition in view at all.
 
-One page each
-
 ## A preparation page for every competition we could confirm
 
 Each page below is written for one competition: what the organiser actually asks for, what a learner should practise, and where the real past papers live.
 
 [Astro Pi Mission Zero and Space Lab](/astro-pi-mission-zero-and-space-lab-help) · [British Informatics Olympiad](/british-informatics-olympiad-preparation) · [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation) · [Cayley, Hamilton and Maclaurin](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation) · [Coolest Projects UK](/coolest-projects-uk-project-ideas) · [CyberFirst Girls Competition](/cyberfirst-girls-competition-preparation) · [First competitions for primary children](/first-competitions-for-primary-school-children-uk) · [FIRST LEGO League](/first-lego-league-uk-coding-help) · [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation) · [Mathematical Olympiad for Girls](/mathematical-olympiad-for-girls-preparation) · [Maths olympiad training](/maths-olympiad-training-uk) · [National Cipher Challenge](/national-cipher-challenge-preparation) · [Oxford University Computing Challenge](/oxford-university-computing-challenge-preparation) · [Perse Coding Team Challenge](/perse-coding-team-challenge-preparation) · [Primary Maths Challenge](/primary-maths-challenge-practice) · [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice) · [Sentinus Young Innovators](/sentinus-young-innovators-coding-help) · [Student hackathons in the UK](/student-hackathons-uk) · [Team Maths Challenges](/ukmt-team-maths-challenge-practice) · [The Big Bang Competition](/big-bang-competition-project-help) · [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk) · [UK Olympiad in AI](/uk-olympiad-in-artificial-intelligence-preparation) · [UKMT Kangaroo rounds](/ukmt-kangaroo-rounds-practice)
 
-Stepping up
-
 ## Five stages from a first puzzle to a national team
 
 Ages are rough. Learners move on when their work shows the next habit is in place.
 
+**From puzzles to olympiads**
+
 | Roughly | Stage | The habit it builds |
-| --- | --- | --- |
+|---|---|---|
 | Ages 6 to 9 | 1. Puzzles | Reading a problem slowly and finding what it really asks |
 | Ages 9 to 12 | 2. Challenges | Quick, careful reasoning under a time limit |
 | Ages 11 to 14 | 3. First programs | Turning a method into code and testing it |
@@ -153,293 +153,63 @@ Ages are rough. Learners move on when their work shows the next habit is in plac
 ### Skipping stages
 
 A strong twelve-year-old can sit an intermediate paper, and a beginner of sixteen can start at stage 2 and move quickly. What matters is the habit, not the birthday.
-
 The [coding roadmap](/coding-roadmap) shows the programming topics in order.
 
 ### Around the school year
 
 Autumn and late winter are busy on the calendar above. Learners often raise their practice for a few weeks before a round and ease off after it.
-
 Adults who enjoy puzzles use the same stages for their own sake.
-
-The catalogue
 
 ## Nine courses for competition-minded learners
 
 Grouped by what they prepare for. Each card opens its syllabus, and a free class shows which fits.
 
-I
-
 ### Mathematics
 
 From puzzles to proof
 
-COMP / MATH / 01
-
-#### Maths with small programs
-
-Patterns and puzzles explored in code, for primary and lower secondary pupils.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-COMP / MATH / 02
-
-#### Olympiad mathematics
-
-Written solutions for challenge and olympiad papers, checked case by case.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
-
-COMP / MATH / 03
-
-#### Python and AI for children
-
-A first typed language, handy for Bebras-style thinking and simple simulations.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)II
+- [Maths with small programs](/courses/maths-through-coding): Patterns and puzzles explored in code, for primary and lower secondary pupils.
+- [Olympiad mathematics](/courses/olympiad-competition-mathematics-mastery): Written solutions for challenge and olympiad papers, checked case by case.
+- [Python and AI for children](/courses/python-ai-kids-masterclass): A first typed language, handy for Bebras-style thinking and simple simulations.
 
 ### Programming contests
 
 Algorithms that survive hidden tests
 
-COMP / CODE / 01
-
-#### Competitive programming
-
-Contest problems, time limits and the discipline of testing edge cases.
-
-[Open the syllabus](/courses/competitive-programming-for-teens-course)
-
-COMP / CODE / 02
-
-#### Algorithms and data structures
-
-The toolkit behind informatics olympiad problems, reasoned out on paper first.
-
-[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
-
-COMP / CODE / 03
-
-#### Advanced competitive programming
-
-For sixth formers and students aiming at the harder rounds.
-
-[Open the syllabus](/courses/competitive-programming-masterclass-college)III
+- [Competitive programming](/courses/competitive-programming-for-teens-course): Contest problems, time limits and the discipline of testing edge cases.
+- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): The toolkit behind informatics olympiad problems, reasoned out on paper first.
+- [Advanced competitive programming](/courses/competitive-programming-masterclass-college): For sixth formers and students aiming at the harder rounds.
 
 ### Projects, AI and security
 
 For showcases, hackathons and AI rounds
 
-COMP / PROJ / 01
-
-#### AI and machine learning for teens
-
-Models trained and evaluated honestly, the ground the AI olympiad covers.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-COMP / PROJ / 02
-
-#### Hackathon preparation for teens
-
-Building a working project fast, then presenting it clearly.
-
-[Open the syllabus](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course)
-
-COMP / PROJ / 03
-
-#### Defensive cyber security for teens
-
-Ciphers, puzzles and safe, legal security thinking.
-
-[Open the syllabus](/courses/cybersecurity-course-for-teens-ethical-defensive)
-
-The classes
+- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Models trained and evaluated honestly, the ground the AI olympiad covers.
+- [Hackathon preparation for teens](/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course): Building a working project fast, then presenting it clearly.
+- [Defensive cyber security for teens](/courses/cybersecurity-course-for-teens-ethical-defensive): Ciphers, puzzles and safe, legal security thinking.
 
 ## Weekly practice with a teacher who reads the working
 
 Lessons are live and online. India, where our teachers work, is five and a half hours ahead of the UK in winter and four and a half in summer, so most competition learners take a slot after school or at the weekend, fixed in UK time.
 
-After school
+- **After school** Short, regular problem sessions for primary and secondary pupils.
+- **Weekend mornings** Longer blocks for olympiad papers and programming rounds.
+- **Evenings** For sixth formers fitting practice around A levels or Highers.
 
-Short, regular problem sessions for primary and secondary pupils.
-
-Weekend mornings
-
-Longer blocks for olympiad papers and programming rounds.
-
-Evenings
-
-For sixth formers fitting practice around A levels or Highers.
-
-### Written solutions read
-
-The teacher reads the full argument or program, not just the final answer.
-
-### Fresh practice problems
-
-Written in each competition's style, never lifted from its papers.
-
-### Matched groups
-
-Fifteen to twenty learners at a similar level, so explanations are shared and argued over.
-
-### One to one for a target
-
-For a learner aiming at a particular round with little time left.
-
-### Honest feedback
-
-Clear notes on what went wrong and which idea to learn next.
-
-### Nothing promised
-
-No scores, medals or selections are promised, because no teacher can deliver them.
-
-Student work
-
-## Projects our students built
-
-Four published examples of student work. There are more on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **Written solutions read** The teacher reads the full argument or program, not just the final answer.
+- **Fresh practice problems** Written in each competition's style, never lifted from its papers.
+- **Matched groups** Fifteen to twenty learners at a similar level, so explanations are shared and argued over.
+- **One to one for a target** For a learner aiming at a particular round with little time left.
+- **Honest feedback** Clear notes on what went wrong and which idea to learn next.
+- **Nothing promised** No scores, medals or selections are promised, because no teacher can deliver them.
 
 ## Fees
 
 Monthly, in US dollars, as for every family outside India. Nothing to pay before the first class.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A real problem-solving lesson
-- A frank view of the right stage
-- No payment details
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty learners at one level
-- The same teacher every week
-- Solutions read and marked
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher for one learner
-- Built around a target round
-- Suited to strong or late starters
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-What families wrote on Google, reproduced as it stands.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Questions about competitions
+- Free first class: USD 0. A real problem-solving lesson. A frank view of the right stage. No payment details.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher every week. Solutions read and marked. A certificate at the end.
+- One to one: USD 150 a month. A teacher for one learner. Built around a target round. Suited to strong or late starters.
 
 ## What families ask about UK competitions
 
@@ -483,54 +253,15 @@ The first class is free. After that it is USD 100 a month in a group of fifteen 
 
 At a fixed weekly slot agreed in the free class, usually after school or at the weekend. India is five and a half hours ahead of the UK in winter and four and a half in summer.
 
-Related pages
-
 ## More on competitions and the UK
 
-Deeper pages on single competitions and on UK learning.
+- [UKMT maths challenge tutoring](/ukmt-maths-challenge-tutoring): The Junior, Intermediate and Senior Challenges in depth.
+- [International Olympiad in Informatics training](/ioi-olympiad-informatics-training): Where the British Informatics Olympiad leads.
+- [The coding olympiad track](/coding-olympiad-medal-track): How programming contests build on one another.
+- [USACO preparation](/usaco-preparation-online-coaching): An online contest many UK students also take.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
+- [Choosing an online class in the UK](/best-online-coding-classes-uk): Seven checks for any provider.
 
-### [UKMT maths challenge tutoring](/ukmt-maths-challenge-tutoring)
+## Contact
 
-The Junior, Intermediate and Senior Challenges in depth.
-
-### [International Olympiad in Informatics training](/ioi-olympiad-informatics-training)
-
-Where the British Informatics Olympiad leads.
-
-### [The coding olympiad track](/coding-olympiad-medal-track)
-
-How programming contests build on one another.
-
-### [USACO preparation](/usaco-preparation-online-coaching)
-
-An online contest many UK students also take.
-
-### [Coding classes in the UK](/coding-classes-in-united-kingdom)
-
-The four school systems, and every UK page.
-
-### [Choosing an online class in the UK](/best-online-coding-classes-uk)
-
-Seven checks for any provider.
-
-Start here
-
-## Start with a free problem-solving class
-
-Tell us the learner's age and which competitions interest them. The first class is a real session on the kind of problem those competitions set.
-
-Read first if you prefer: every [course page](/courses) has a syllabus, [how we teach](/how-we-teach) explains the method, and the [roadmap](/coding-roadmap) sets out the order of topics.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20interested%20in%20UK%20coding%20or%20maths%20competitions%20and%20I%20would%20like%20a%20free%20first%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp from a UK mobile is free and usually quickest. Our number is Indian, and we say so; there is no UK office.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar*
+Book the free first class at [https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar](https://learn.modernagecoders.com/uk-coding-maths-and-ai-competitions-calendar#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

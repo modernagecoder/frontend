@@ -8334,4 +8334,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /gifted-and-talented-test-prep /src/pages/gifted-and-talented-test-prep.html 200
 /gifted-and-talented-test-prep.md /src/pages/gifted-and-talented-test-prep.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/oxford-mat-preparation /src/pages/oxford-mat-preparation.html 200
+/oxford-mat-preparation.md /src/pages/oxford-mat-preparation.md 200
 /* /src/pages/404.html 404

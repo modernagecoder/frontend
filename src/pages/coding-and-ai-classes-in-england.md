@@ -4,32 +4,46 @@ description: "Live online coding, Python, AI and maths classes for families acro
 canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-england
 source: src/pages/coding-and-ai-classes-in-england.html
 ---
-> Live online coding, Python, AI and maths classes for families across England, built around the computing programmes of study and what academies must teach.
+> England has a statutory computing curriculum that runs from Reception to Year 11, and most English secondary schools are under no obligation to teach it. Both halves of that sentence come from the government. Computing is one of the national curriculum subjects with published programmes of study for key stages 1 to 4. GOV.UK also says that "academies and private schools do not have to follow the national curriculum", and that academies "must teach a broad and balanced curriculum including English, maths and science" with computing absent from the list. At the January 2026 census, 83.9 per cent of secondary schools in England were academies or free schools. So a family cannot read the curriculum and assume it describes their child's week. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
 
-Skip to contentCourse picks for England
+[Home](/) / [United Kingdom](/coding-classes-in-united-kingdom) / England
+
+England, United Kingdom / Live online
+
+# Coding and AI classes in England
+
+**What are the best coding classes in England?** England has a statutory computing curriculum that runs from Reception to Year 11, and most English secondary schools are under no obligation to teach it. Both halves of that sentence come from the government. Computing is one of the national curriculum subjects with published programmes of study for key stages 1 to 4. GOV.UK also says that "academies and private schools do not have to follow the national curriculum", and that academies "must teach a broad and balanced curriculum including English, maths and science" with computing absent from the list. At the January 2026 census, 83.9 per cent of secondary schools in England were academies or free schools. So a family cannot read the curriculum and assume it describes their child's week. We teach live online from India, ages 6 to 67, in groups of fifteen to twenty or one to one. The first lesson is free; a group place is then USD 100 a month and one-to-one teaching USD 150.
+
+This page is about a gap, not a complaint. England wrote one of the most ambitious school computing curricula in the world in 2014, and then spent a decade converting its schools into academies that are not required to deliver it. Most do teach computing, many teach it well, and the curriculum still sets the language everyone uses. But the entitlement a parent assumes exists is weaker than they think, and the difference between two secondary schools three miles apart can be enormous and entirely lawful. What follows is what the documents actually say, the one question that tells you where a school stands, and what a family can do about it.
+
+Facts last verified 20 September 2026. Teaching is online; no England branch is claimed. 10,000+ students taught, rated 4.9 across 547 Google reviews, teaching since 2020, 25+ countries, ages 6 to 67, 15 to 20 students per group.
 
 ## Four courses for learners in England
 
 A Year 3 child in Leeds who has only ever used blocks, a Year 8 in Bristol who should be writing text by now, a Year 10 in Manchester starting GCSE Computer Science, and an adult in Norwich retraining. All four start the same way, with a free lesson.
 
-[![Scratch Coding for Kids course thumbnail](/images/scratch-kids.webp)Ages 6 to 10Scratch Coding for KidsThe blocks stage done properly, so a child leaves primary school able to build and debug rather than only to follow.See the syllabus](/courses/scratch-programming-complete-course)[![Python and AI for Kids course thumbnail](/images/python-kids.webp)Ages 10 to 13Python and AI for KidsThe textual language key stage 3 asks for, taught at the age the curriculum expects it.See the syllabus](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)Ages 13 to 17Python for TeensPython to GCSE standard and beyond, for students whose school teaches it lightly or not at all.See the syllabus](/courses/python-complete-masterclass-teens)[![Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI) course thumbnail](/images/data-ai-analytics-non-programmers.webp)AdultsData and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)The concepts without the career change, for parents and professionals who want to follow the argument.See the syllabus](/courses/data-and-ai-analytics-for-non-programmers-course)
+- [Scratch Coding for Kids](/courses/scratch-programming-complete-course) (Ages 6 to 10): The blocks stage done properly, so a child leaves primary school able to build and debug rather than only to follow.
+- [Python and AI for Kids](/courses/python-ai-kids-masterclass) (Ages 10 to 13): The textual language key stage 3 asks for, taught at the age the curriculum expects it.
+- [Python for Teens](/courses/python-complete-masterclass-teens) (Ages 13 to 17): Python to GCSE standard and beyond, for students whose school teaches it lightly or not at all.
+- [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course) (Adults): The concepts without the career change, for parents and professionals who want to follow the argument.
 
-Browse the [course atlas](/course-atlas) for more than one hundred options and use the [coding roadmap](/coding-roadmap) to check prerequisites.
+The four we are known for, on every market page:
 
-The four we are known for
+- [Vibe Coding for Teens](/courses/vibe-coding-for-teens-python-web-ai-projects-course) (Ages 13 to 17): Python, web and AI projects where the learner still owns the thinking.
+- [Python Automation Course](/courses/python-ai-automation-masterclass-college) (College and adult): Automate the work you already do, then let AI carry part of it.
+- [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens) (Ages 14 to 18): Train a model, read what it learned, and be able to say why it is wrong.
+- [Codex & Claude Code](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals) (Professionals): Run AI coding agents on real work without losing control of the codebase.
 
-### Python, AI, vibe coding and agentic coding
-
-These run underneath everything above. Every one is live and online, placed by ability rather than by age, and the first class is free.
-
-[![Vibe Coding for Teens course thumbnail](/images/vibe-coding-teens.webp)Vibe codingAges 13 to 17Vibe Coding for TeensPython, web and AI projects where the learner still owns the thinking.See the syllabus](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[![Python Automation Course course thumbnail](/images/python-college.webp)Python and AICollege and adultPython Automation CourseAutomate the work you already do, then let AI carry part of it.See the syllabus](/courses/python-ai-automation-masterclass-college)[![AI and Machine Learning for Teens course thumbnail](/images/ai-ml-teens.webp)AI and MLAges 14 to 18AI and Machine Learning for TeensTrain a model, read what it learned, and be able to say why it is wrong.See the syllabus](/courses/ai-ml-masterclass-teens)[![Codex & Claude Code course thumbnail](/images/codex-claude-code-adults.webp)Agentic codingProfessionalsCodex & Claude CodeRun AI coding agents on real work without losing control of the codebase.See the syllabus](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)What is written down
+Browse the [course atlas](/course-atlas) for more than one hundred options and the [coding roadmap](/coding-roadmap) for prerequisites.
 
 ## Computing is statutory from Reception to Year 11
 
 The programmes of study for computing cover all four key stages. These are the government's own words.
 
+**Key stages in England, as GOV.UK publishes them**
+
 | Stage | Year groups | Ages |
-| --- | --- | --- |
+|---|---|---|
 | Early years foundation stage | Reception | 4 to 5 |
 | Key stage 1 | Years 1 to 2 | 5 to 7 |
 | Key stage 2 | Years 3 to 6 | 7 to 11 |
@@ -54,8 +68,6 @@ The wording changes. "All pupils must have the opportunity to study aspects of i
 
 A school satisfies key stage 4 by offering the subject. A pupil who does not choose it may do no computing at all between Year 9 and Year 12, entirely within the rules.
 
-Who it applies to
-
 ## Most English secondary schools do not have to follow it
 
 This is the part almost nobody tells parents, and the government states it in one sentence.
@@ -64,8 +76,10 @@ This is the part almost nobody tells parents, and the government states it in on
 
 "Other types of school, like academies and private schools, do not have to follow the national curriculum. Academies must teach a broad and balanced curriculum including English, maths and science. They must also teach relationships and sex education, and religious education." Computing is not on that list.
 
-|   | Share of schools | Share of pupils |
-| --- | --- | --- |
+**Academies and free schools in England, January 2026 school census**
+
+|  | Share of schools | Share of pupils |
+|---|---|---|
 | Secondary schools | 83.9 per cent | 83.6 per cent |
 | Primary schools | 48.8 per cent | 49.9 per cent |
 | All schools | 48.2 per cent | 60.4 per cent |
@@ -84,17 +98,15 @@ A parent cannot look up what their child will be taught. They have to ask their 
 
 Two Year 8s from different English schools can be three years apart in practice. We test what a learner can do rather than what their year group implies.
 
-Where this sits across the UK
-
-England leaves the decision with the school. Wales names one language in the rules and sits every candidate on screen. Northern Ireland runs two separate qualifications under one subject name. Scotland uses its own qualifications and stages entirely. The [UK page](/coding-classes-in-united-kingdom) sets the four systems out together.
-
-What to ask
+**Where this sits across the UK** England leaves the decision with the school. Wales names one language in the rules and sits every candidate on screen. Northern Ireland runs two separate qualifications under one subject name. Scotland uses its own qualifications and stages entirely. The [UK page](/coding-classes-in-united-kingdom) sets the four systems out together.
 
 ## One question that tells you where a school actually stands
 
 Not "do you teach computing". Every school says yes to that. Ask something the curriculum makes checkable.
 
-AskWhich two programming languages will my child use by the end of Year 9, and which of them is textual?It quotes the key stage 3 requirement back at the school without sounding like an inspection, and there is no vague answer to it.GoodA clear pair, usually blocks or a visual language in Year 7 and Python from Year 8, with a named term when the switch happens.That school is doing what the curriculum describes, and a learner joining us will be building on it rather than repairing it.WarningOnly a visual language named, or an answer about software packages, online safety and presentations.Useful things, but not programming. A pupil arriving at GCSE from that start has ground to make up, and it is better to know in Year 8 than in Year 10.
+- **Ask**: Which two programming languages will my child use by the end of Year 9, and which of them is textual? Our answer: It quotes the key stage 3 requirement back at the school without sounding like an inspection, and there is no vague answer to it.
+- **Good**: A clear pair, usually blocks or a visual language in Year 7 and Python from Year 8, with a named term when the switch happens. Our answer: That school is doing what the curriculum describes, and a learner joining us will be building on it rather than repairing it.
+- **Warning**: Only a visual language named, or an answer about software packages, online safety and presentations. Our answer: Useful things, but not programming. A pupil arriving at GCSE from that start has ground to make up, and it is better to know in Year 8 than in Year 10.
 
 The question works because it is the school's own standard, not ours. It is also the moment a parent finds out whether their child has met a text editor. The move from dragging blocks to typing code is the single hardest transition in school computing, and a student who has not made it by Year 10 spends the first term of a GCSE course fighting syntax instead of learning ideas.
 
@@ -112,19 +124,19 @@ Some English schools teach far beyond the curriculum. Then the right question is
 
 For students already past that stage, the competitions this country runs are unusually good, from primary puzzle rounds through to national olympiads. The [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) lists what is open this year and when entries close.
 
-Across England
-
 ## Nine regions, 56,489,800 people, one class list
 
 Published census figures, reproduced as published. They are not totalled here, for the reason given below.
 
+**Usual residents by English region, Census 2021**
+
 | Region | Usual residents | Region | Usual residents |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | South East | 9,278,065 | South West | 5,701,186 |
 | London | 8,799,728 | Yorkshire and The Humber | 5,480,774 |
 | North West | 7,417,397 | East Midlands | 4,880,054 |
 | East | 6,335,074 | North East | 2,647,013 |
-| West Midlands | 5,950,757 |   |   |
+| West Midlands | 5,950,757 |  |  |
 
 The Office for National Statistics reports that "there were 56,489,800 people in England" on census day, 21 March 2021, and publishes that figure with a warning that rounded numbers "may not add exactly because of this rounding". The regional rows above come from the census tables and are printed exactly as the census gives them. They are not added together here and no total is claimed from them, because a sum of published parts is an arithmetic result rather than a published statistic, and the difference is the kind of thing that turns a careful page into an inaccurate one.
 
@@ -142,41 +154,16 @@ Fifteen to twenty learners at one stage, drawn from across England and beyond, w
 
 [London](/best-coding-class-in-london), [Surrey](/coding-classes-in-surrey) and [Harrow](/coding-classes-in-harrow-london) have pages of their own, with local schools, transport and selection covered in detail.
 
-Sources
-
-Curriculum: GOV.UK, The national curriculum, and National curriculum in England: computing programmes of study. School types: Department for Education, Schools, pupils and their characteristics, January 2026 school census, published 4 June 2026. Population: Office for National Statistics, Population and household estimates, England and Wales, Census 2021, and ONS Census 2021 usual residents by region via Nomis. All read 20 September 2026.
-
-Learning ladder
+**Sources** Curriculum: GOV.UK, The national curriculum, and National curriculum in England: computing programmes of study. School types: Department for Education, Schools, pupils and their characteristics, January 2026 school census, published 4 June 2026. Population: Office for National Statistics, Population and household estimates, England and Wales, Census 2021, and ONS Census 2021 usual residents by region via Nomis. All read 20 September 2026.
 
 ## From blocks to a textual language, and past it
 
 Placement is by what a learner can build unaided, which is the only reliable measure when schools differ this much.
 
-Ages 6 to 10
-
-### The blocks years
-
-Key stage 1 and 2 work done properly: sequences, repetition, debugging, and a child who can say why something broke.
-
-[Scratch Coding for Kids](/courses/scratch-programming-complete-course)[Coding for Kids](/courses/kids-coding-blocks-masterclass)Ages 10 to 13
-
-### The textual crossing
-
-The key stage 3 requirement met in practice, with typed Python introduced slowly enough to stick.
-
-[Python and AI for Kids](/courses/python-ai-kids-masterclass)[Maths Through Coding](/courses/maths-through-coding)Ages 13 to 16
-
-### GCSE depth
-
-Algorithms, data structures and programs long enough to need planning, whether or not a school is teaching them.
-
-[Python for Teens](/courses/python-complete-masterclass-teens)[GCSE Computer Science](/courses/gcse-computer-science-course)Ages 16 to 67
-
-### Sixth form and after
-
-A level study, projects, data and AI, and adults retraining from a standing start.
-
-[AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens)[Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)Coding and AI
+- **Ages 6 to 10: The blocks years** Key stage 1 and 2 work done properly: sequences, repetition, debugging, and a child who can say why something broke. [Scratch Coding for Kids](/courses/scratch-programming-complete-course), [Coding for Kids](/courses/kids-coding-blocks-masterclass)
+- **Ages 10 to 13: The textual crossing** The key stage 3 requirement met in practice, with typed Python introduced slowly enough to stick. [Python and AI for Kids](/courses/python-ai-kids-masterclass), [Maths Through Coding](/courses/maths-through-coding)
+- **Ages 13 to 16: GCSE depth** Algorithms, data structures and programs long enough to need planning, whether or not a school is teaching them. [Python for Teens](/courses/python-complete-masterclass-teens), [GCSE Computer Science](/courses/gcse-computer-science-course)
+- **Ages 16 to 67: Sixth form and after** A level study, projects, data and AI, and adults retraining from a standing start. [AI and Machine Learning for Teens](/courses/ai-ml-masterclass-teens), [Data and AI Analytics for Non-Programmers (Excel, Sheets, Power BI)](/courses/data-and-ai-analytics-for-non-programmers-course)
 
 ## Why learn to code in England when an assistant can write it?
 
@@ -188,139 +175,30 @@ There is a practical edge too. GCSE and A level assessment in England still happ
 
 So the case in England is the curriculum's own case. It asks for a young person who can think in computational terms, and no assistant will do that part for them. The longer argument is in [why teenagers should still learn to code in 2026](/blog/is-coding-worth-learning-2026).
 
-Delivery
-
 ## Nine regions, one teacher, no commute
 
 A country this varied is exactly where placing by ability beats placing by postcode.
 
-### Placed by what they can do
+- **Placed by what they can do** Not by year group. Two Year 8s from different English schools can be years apart, and pretending otherwise wastes a term.
+- **Curriculum language used** Key stages, programmes of study and the textual-language requirement, named the way the Department for Education names them.
+- **A free lesson first** Real teaching, closing with an honest view of where the learner is and what to take next.
+- **Groups** Fifteen to twenty learners at one stage, so nobody waits and nobody drowns.
+- **Or one to one** For a learner a long way ahead or a long way behind, where a group would be the wrong room.
+- **Fixed in UK time** Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is agreed in UK time.
 
-Not by year group. Two Year 8s from different English schools can be years apart, and pretending otherwise wastes a term.
-
-### Curriculum language used
-
-Key stages, programmes of study and the textual-language requirement, named the way the Department for Education names them.
-
-### A free lesson first
-
-Real teaching, closing with an honest view of where the learner is and what to take next.
-
-### Groups
-
-Fifteen to twenty learners at one stage, so nobody waits and nobody drowns.
-
-### Or one to one
-
-For a learner a long way ahead or a long way behind, where a group would be the wrong room.
-
-### Fixed in UK time
-
-Teachers work from India, four and a half hours ahead in summer and five and a half in winter, and every slot is agreed in UK time.
-
-The transition that decides everything
-
-Blocks to text. The national curriculum puts it in key stage 3, which means by the end of Year 9, and a child who makes that crossing on time finds GCSE Computer Science a subject about ideas. A child who makes it in Year 10 finds it a subject about semicolons. Nothing else a family can arrange early has a bigger effect.
-
-Fees
+**The transition that decides everything** Blocks to text. The national curriculum puts it in key stage 3, which means by the end of Year 9, and a child who makes that crossing on time finds GCSE Computer Science a subject about ideas. A child who makes it in Year 10 finds it a subject about semicolons. Nothing else a family can arrange early has a bigger effect.
 
 ## What classes cost in England
 
 The same three prices in every region.
 
-First class**USD 0**
-
-A full lesson on real work, ending with a level and a recommended course.
-
-Group tuition**USD 100**
-
-Roughly eight lessons a month, shared with fifteen to twenty learners at the same stage.
-
-Private tuition**USD 150**
-
-Roughly eight lessons a month, one teacher and one learner.
+- First class: USD 0. A full lesson on real work, ending with a level and a recommended course.
+- Group tuition: USD 100 a month. Roughly eight lessons a month, shared with fifteen to twenty learners at the same stage.
+- Private tuition: USD 150 a month. Roughly eight lessons a month, one teacher and one learner.
 
 Prices are in US dollars, which is how we quote everywhere outside India, and no pound list is published. Nothing is charged until the free lesson has settled a course and a weekly slot. Pauses, missed lessons and moving between group and private teaching are all explained on the pricing page.
 
-Request placement[Check availability](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20England.)Reviews
-
-## Six families, six Google reviews, printed unedited
-
-Rated 4.9 across 547 Google reviews. These are real reviews, reproduced as written.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Free placement class
-
-## Tell us about the learner
-
-A year group and what they enjoy is enough to start. The first lesson might be a game, a first typed program, or a look at whether a Year 9 has really met a textual language yet.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)
-
-### Contact the team directly
-
-WhatsApp or call [+91 91233 66161](tel:+919123366161), or email [connect@modernagecoders.com](mailto:connect@modernagecoders.com). This is Modern Age Coders' actual contact, an Indian number, and not an invented England one.
-
-[WhatsApp Modern Age Coders](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20England.)
-
-Submitted details are used for placement and follow-up.
-
-FAQ
-
 ## Coding classes in England: questions
-
-About the computing curriculum, academies and how lessons work.
 
 ### Is computing compulsory in England?
 
@@ -362,14 +240,10 @@ Yes. Lessons are online and live, so a learner in Northumberland and a learner i
 
 Yes, all lessons are taught in English by teachers working from India, and every slot is agreed in UK time.
 
-Explore the UK
-
 ## The other nations
 
 All four school systems are compared on the [UK page](/coding-classes-in-united-kingdom), which carries a link to every page in this series. [Wales](/coding-and-ai-classes-in-wales), [Northern Ireland](/coding-and-ai-classes-in-northern-ireland) and [Scotland](/coding-and-ai-classes-in-scotland) each run computing differently enough to be worth reading if a family is moving.
 
-Book the free class[Book a priority demo](/book-demo)[Message us on WhatsApp](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20want%20a%20free%20coding%20class%20for%20a%20learner%20in%20England.)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
+## Contact
 
----
-
-*Canonical: https://learn.modernagecoders.com/coding-and-ai-classes-in-england*
+Book the free class on [https://learn.modernagecoders.com/coding-and-ai-classes-in-england](https://learn.modernagecoders.com/coding-and-ai-classes-in-england#book), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com. Rated 4.9 across 547 Google reviews.
