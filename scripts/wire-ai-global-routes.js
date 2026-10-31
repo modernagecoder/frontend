@@ -573,6 +573,7 @@ const SLUGS = [
   'beast-academy-tutor',
   'teaching-textbooks-math-help',
   'eureka-math-homework-help',
+  'russian-school-of-mathematics-alternative',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1225,6 +1226,7 @@ const LLMS_LABELS = {
   'beast-academy-tutor': 'Beast Academy tutor',
   'teaching-textbooks-math-help': 'Teaching Textbooks math help',
   'eureka-math-homework-help': 'Eureka Math homework help',
+  'russian-school-of-mathematics-alternative': 'Russian School of Mathematics alternative',
 };
 
 function wireLlms(slugs) {

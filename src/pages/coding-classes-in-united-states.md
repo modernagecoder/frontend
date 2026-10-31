@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
 - [Eureka Math homework help](/eureka-math-homework-help)
 - [Teaching Textbooks math help](/teaching-textbooks-math-help)
 - [Beast Academy tutor](/beast-academy-tutor)

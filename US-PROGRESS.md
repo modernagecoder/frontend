@@ -295,7 +295,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US082 | saxon-math-tutor (sax, #823C5F) | homeschool and curricula | 3,725 | 1.3% vs ai-guidance-for-schools-by-state | exam door | original worked example | 48c5ec74 |
 | US084 | beast-academy-tutor (ba, #7E4F6C) | homeschool and curricula | 3,619 | 1.6% vs saxon-math-tutor | exam door | original worked example | b87678a4 |
 | US085 | teaching-textbooks-math-help (tet, #44532B) | homeschool and curricula | 3,506 | 1.7% vs saxon-math-tutor | exam door | original worked example | 7aca5a6c |
-| US086 | eureka-math-homework-help (eh, #106F47) | homeschool and curricula | 3,700 | 1.6% vs saxon-math-tutor | exam door | original worked example | (this commit) |
+| US086 | eureka-math-homework-help (eh, #106F47) | homeschool and curricula | 3,700 | 1.6% vs saxon-math-tutor | exam door | original worked example | b5b9738f |
+| US092 | russian-school-of-mathematics-alternative (rsm, #15592B) | provider alternatives | 3,409 | 1.7% vs common-core-math-vs-traditional-math | exam door | original worked example | (this commit) |
 
 ## Skipped
 
