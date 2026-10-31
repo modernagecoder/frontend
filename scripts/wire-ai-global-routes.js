@@ -728,6 +728,7 @@ const SLUGS = [
   'uk-maths-exam-boards-and-specification-codes',
   'uk-maths-year-by-year-guide',
   'uk-selective-school-maths-tests-guide',
+  'uk-university-admissions-maths-and-computing-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1535,6 +1536,7 @@ const LLMS_LABELS = {
   'uk-maths-exam-boards-and-specification-codes': 'UK maths exam boards and specification codes',
   'uk-maths-year-by-year-guide': 'UK maths year by year guide',
   'uk-selective-school-maths-tests-guide': 'UK selective school maths tests guide',
+  'uk-university-admissions-maths-and-computing-guide': 'UK university admissions guide',
 };
 
 function wireLlms(slugs) {
