@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [CLEP Calculus prep](/clep-calculus-prep)
 - [Dual enrollment math help](/dual-enrollment-math-help)
 - [i-Ready math help](/i-ready-math-help)
 - [MAP Growth math test prep](/map-growth-math-test-prep)

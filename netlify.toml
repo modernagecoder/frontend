@@ -28957,6 +28957,18 @@
   to = "/src/pages/dual-enrollment-math-help.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/clep-calculus-prep"
+  to = "/src/pages/clep-calculus-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/clep-calculus-prep.md"
+  to = "/src/pages/clep-calculus-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

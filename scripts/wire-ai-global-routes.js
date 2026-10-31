@@ -719,6 +719,7 @@ const SLUGS = [
   'map-growth-math-test-prep',
   'i-ready-math-help',
   'dual-enrollment-math-help',
+  'clep-calculus-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1517,6 +1518,7 @@ const LLMS_LABELS = {
   'map-growth-math-test-prep': 'MAP Growth math test prep',
   'i-ready-math-help': 'i-Ready math help',
   'dual-enrollment-math-help': 'Dual enrollment math help',
+  'clep-calculus-prep': 'CLEP Calculus prep',
 };
 
 function wireLlms(slugs) {
