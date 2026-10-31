@@ -663,6 +663,7 @@ const SLUGS = [
   'epq-computer-science-artefact-mentoring',
   'girls-who-code-next-step',
   'bebras-challenge-practice',
+  'stanford-online-high-school-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1405,6 +1406,7 @@ const LLMS_LABELS = {
   'epq-computer-science-artefact-mentoring': 'EPQ computer science artefact mentoring',
   'girls-who-code-next-step': 'Girls Who Code next step',
   'bebras-challenge-practice': 'Bebras Challenge practice',
+  'stanford-online-high-school-math-prep': 'Stanford Online High School math prep',
 };
 
 function wireLlms(slugs) {

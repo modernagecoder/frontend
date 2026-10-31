@@ -8634,4 +8634,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /bebras-challenge-practice /src/pages/bebras-challenge-practice.html 200
 /bebras-challenge-practice.md /src/pages/bebras-challenge-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/stanford-online-high-school-math-prep /src/pages/stanford-online-high-school-math-prep.html 200
+/stanford-online-high-school-math-prep.md /src/pages/stanford-online-high-school-math-prep.md 200
 /* /src/pages/404.html 404
