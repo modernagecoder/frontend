@@ -722,6 +722,7 @@ const SLUGS = [
   'clep-calculus-prep',
   'keystone-algebra-1-prep',
   '11-plus-maths-tuition-north-yorkshire',
+  '11-plus-maths-tuition-lancashire',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1523,6 +1524,7 @@ const LLMS_LABELS = {
   'clep-calculus-prep': 'CLEP Calculus prep',
   'keystone-algebra-1-prep': 'Keystone Algebra I prep',
   '11-plus-maths-tuition-north-yorkshire': '11 plus maths tuition in North Yorkshire',
+  '11-plus-maths-tuition-lancashire': '11 plus maths tuition in Lancashire',
 };
 
 function wireLlms(slugs) {
