@@ -858,6 +858,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - NYS math test prep, grades 3 to 8: https://learn.modernagecoders.com/nys-math-test-prep-grades-3-8
 - Algebra 1 Regents prep: https://learn.modernagecoders.com/algebra-1-regents-prep
 - Geometry Regents prep: https://learn.modernagecoders.com/geometry-regents-prep
+- Algebra 2 Regents prep: https://learn.modernagecoders.com/algebra-2-regents-prep
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Algebra 2 Regents prep](/algebra-2-regents-prep)
 - [Geometry Regents prep](/geometry-regents-prep)
 - [Algebra 1 Regents prep](/algebra-1-regents-prep)
 - [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)

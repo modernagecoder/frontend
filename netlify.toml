@@ -27841,6 +27841,18 @@
   to = "/src/pages/geometry-regents-prep.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/algebra-2-regents-prep"
+  to = "/src/pages/algebra-2-regents-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/algebra-2-regents-prep.md"
+  to = "/src/pages/algebra-2-regents-prep.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

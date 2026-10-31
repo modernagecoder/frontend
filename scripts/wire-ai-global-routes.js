@@ -626,6 +626,7 @@ const SLUGS = [
   'nys-math-test-prep-grades-3-8',
   'algebra-1-regents-prep',
   'geometry-regents-prep',
+  'algebra-2-regents-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1331,6 +1332,7 @@ const LLMS_LABELS = {
   'nys-math-test-prep-grades-3-8': 'NYS math test prep, grades 3 to 8',
   'algebra-1-regents-prep': 'Algebra 1 Regents prep',
   'geometry-regents-prep': 'Geometry Regents prep',
+  'algebra-2-regents-prep': 'Algebra 2 Regents prep',
 };
 
 function wireLlms(slugs) {
