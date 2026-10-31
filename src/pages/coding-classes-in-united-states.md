@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
 - [PSSA math practice](/pssa-math-practice)
 - [MCAS math prep](/mcas-math-prep)
 - [Smarter Balanced math practice](/smarter-balanced-math-practice)

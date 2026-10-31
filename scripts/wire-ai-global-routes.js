@@ -678,6 +678,7 @@ const SLUGS = [
   'smarter-balanced-math-practice',
   'mcas-math-prep',
   'pssa-math-practice',
+  'nyc-gifted-and-talented-guide',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1435,6 +1436,7 @@ const LLMS_LABELS = {
   'smarter-balanced-math-practice': 'Smarter Balanced math practice',
   'mcas-math-prep': 'MCAS math prep',
   'pssa-math-practice': 'PSSA math practice',
+  'nyc-gifted-and-talented-guide': 'NYC Gifted and Talented guide',
 };
 
 function wireLlms(slugs) {
