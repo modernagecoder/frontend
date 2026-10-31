@@ -882,6 +882,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Math Mammoth tutor: https://learn.modernagecoders.com/math-mammoth-tutor
 - Reception maths online: https://learn.modernagecoders.com/reception-maths-online-uk
 - KS1 SATs maths explained: https://learn.modernagecoders.com/ks1-sats-maths-explained
+- KS1 coding lessons online: https://learn.modernagecoders.com/ks1-coding-lessons-online
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

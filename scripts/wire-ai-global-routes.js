@@ -650,6 +650,7 @@ const SLUGS = [
   'math-mammoth-tutor',
   'reception-maths-online-uk',
   'ks1-sats-maths-explained',
+  'ks1-coding-lessons-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1379,6 +1380,7 @@ const LLMS_LABELS = {
   'math-mammoth-tutor': 'Math Mammoth tutor',
   'reception-maths-online-uk': 'Reception maths online',
   'ks1-sats-maths-explained': 'KS1 SATs maths explained',
+  'ks1-coding-lessons-online': 'KS1 coding lessons online',
 };
 
 function wireLlms(slugs) {

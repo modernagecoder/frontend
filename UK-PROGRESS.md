@@ -675,7 +675,8 @@ Phase 11, maths by city (optional) (20): maths-tuition-in-london · maths-tuitio
 | UK074 | computer-science-personal-statement-projects-uk (csps, #7A4F7A) | University admissions | 4,320 | 0.9% vs oxford-mat-preparation | exam door | original worked example | ca64629f |
 | UK075 | cyberfirst-courses-and-bursary-preparation (ccb, #075474) | Competitions (computing) | 4,142 | 1.3% vs computer-science-personal-statement-projects-uk | exam door | original worked example | 634b3133 |
 | UK001 | reception-maths-online-uk (ru, #653C22) | Primary (England) | 5,195 | 0.9% vs ks1-maths-tuition-online | exam door | original worked example | 7d5593f5 |
-| UK003 | ks1-sats-maths-explained (kse, #315966) | Primary (England) | 4,834 | 1.5% vs ks1-maths-tuition-online | exam door | original worked example | (this commit) |
+| UK003 | ks1-sats-maths-explained (kse, #315966) | Primary (England) | 4,834 | 1.5% vs ks1-maths-tuition-online | exam door | original worked example | c2f81cc8 |
+| UK004 | ks1-coding-lessons-online (kcl, #0E4F64) | Primary (England) | 4,457 | 1.7% vs ks1-maths-tuition-online | exam door | original worked example | (this commit) |
 
 ## Skipped (fewer than 8 place facts)
 
