@@ -1,0 +1,318 @@
+---
+title: "AQA GCSE Maths 8300 Help | Papers, Dates, References"
+description: "AQA GCSE Maths 8300 help: three 80-mark papers, the N1 to S6 content references, the 2027 exam dates, and what AQA examiners wrote about June 2025."
+canonical: https://learn.modernagecoders.com/aqa-gcse-maths-8300-help
+source: src/pages/aqa-gcse-maths-8300-help.html
+---
+> AQA GCSE Mathematics 8300 is the GCSE Maths qualification set by AQA for students in England, usually sat at the end of Year 11. It has a Foundation tier (grades 1 to 5) and a Higher tier (grades 4 to 9), each assessed by three 1 hour 30 minute papers of 80 marks: Paper 1 without a calculator, Papers 2 and 3 with one. Modern Age Coders teaches 8300 live online, in a group of 15 to 20 or 1-on-1, through its GCSE Maths: Foundation and Higher course. AQA lists the June 2027 papers on 14 May, 27 May and 14 June 2027, and the November 2026 papers on 4, 6 and 9 November 2026. We are not connected with AQA; we teach to its published specification.
+
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / AQA GCSE Maths 8300
+
+England · AQA GCSE Mathematics 8300 · Years 10 and 11
+
+# AQA GCSE Maths 8300 help
+
+AQA writes its GCSE Maths specification as a numbered list. Every topic a student can be examined on has a reference, from N1 for ordering numbers to S6 for scatter graphs, and each one sits in a column that says whether it belongs to Foundation, to both tiers, or to Higher only. That numbering is the most useful thing a family can know about 8300, because it turns a vague report ("needs to work on algebra") into a short list of lines to fix. This page sets out the three papers and the 2026 to 2027 dates from AQA, explains how to read the references, summarises what AQA's own examiners wrote about the June 2025 papers, and works through three original questions, each tagged to the line of the specification it tests.
+
+At a glance: Qualification: AQA GCSE Mathematics 8300; Tiers: Foundation 1 to 5, Higher 4 to 9; Papers: Three, 1 hour 30 minutes, 80 marks each; No calculator: Paper 1; Next AQA exam: 4 November 2026; Format: Group of 15 to 20, or 1-on-1; Timing: Weekdays or weekends, flexible; Start: First class free. Rated 4.9 across 547 Google reviews.
+
+## Three courses for an AQA 8300 student
+
+The first course is the one most 8300 students join. The other two cover the commonest detours: algebra that keeps leaking marks, and a resit after Year 11.
+
+- [GCSE Maths: Foundation and Higher](/courses/gcse-mathematics-mastery): The whole 8300 content at the tier the school has entered, with AQA papers and mark schemes.
+- [Algebra Foundations](/courses/algebra-foundations-masterclass): For a student whose A references (A1 to A25) are where the marks keep going.
+- [GCSE Maths Resit](/courses/gcse-maths-resit-course): For students re-sitting 8300 after Year 11, including the November series for those old enough.
+
+## How is AQA GCSE Maths 8300 assessed?
+
+Three papers, all at one tier, all in one exam series. The table is taken from the specification at a glance in AQA's version 1.1 document, dated September 2026.
+
+**AQA GCSE Mathematics 8300: the three papers**
+
+| Paper | Calculator | Length | Marks | Share of the GCSE |
+|---|---|---|---|---|
+| Paper 1 (8300/1F or 8300/1H) | Not allowed | 1 hour 30 minutes | 80 | One third |
+| Paper 2 (8300/2F or 8300/2H) | Allowed | 1 hour 30 minutes | 80 | One third |
+| Paper 3 (8300/3F or 8300/3H) | Allowed | 1 hour 30 minutes | 80 | One third |
+
+AQA's specification says the same thing about all three papers: content "from any part of the specification may be assessed", and the questions run from short single-mark items to multi-step problems. It adds one sentence that should shape how a student uses the time: "The mathematical demand increases as a student progresses through the paper." The early pages are where a well-prepared student should bank marks quickly, so that the later, harder questions get the minutes they need.
+
+**When AQA sits 8300, from the AQA key dates page**
+
+| Series | Paper 1 | Paper 2 | Paper 3 |
+|---|---|---|---|
+| November 2026 (resit series) | Wednesday 4 November 2026, morning | Friday 6 November 2026, morning | Monday 9 November 2026, morning |
+| June 2027 series | Friday 14 May 2027, morning | Thursday 27 May 2027, morning | Monday 14 June 2027, morning |
+
+The June 2027 series is spread over a month: almost two weeks between Paper 1 and Paper 2, and two and a half weeks between Paper 2 and Paper 3. That gap is useful. A student can review the non-calculator paper's weak spots before the calculator papers, rather than sitting all three in a single week. The November series is open only to students who, in AQA's words, "were at least 16 on the previous 31 August", which in practice means students resitting after Year 11.
+
+### Entry and tier
+
+Schools enter students as 8300F or 8300H, and a student can be entered for only one tier in a series. Foundation awards grades 1 to 5; Higher awards grades 4 to 9.
+
+AQA's Ofqual accreditation number for the qualification is 601/4608/4, which is the code to quote when a college or employer asks exactly which GCSE was taken.
+
+### What to bring
+
+The specification lists the instruments for every paper: a pencil "for use in diagrams only", a ruler, a pair of compasses and a protractor. A calculator is required for Papers 2 and 3.
+
+AQA's June 2025 Foundation report shows why the list matters even on Paper 1: circles drawn freehand were awarded no marks.
+
+Sources: [AQA GCSE Mathematics 8300 specification](https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300/specification) (version 1.1, September 2026) and the [AQA 8300 key dates page](https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300/key-dates), both read on 31 October 2026. Dates can change; check the school's exams office before the series.
+
+## What do the N, A, R, G, P and S references in the AQA spec mean?
+
+They are AQA's labels for every examinable topic, and the fastest way to turn a mock result into a revision list.
+
+AQA groups the 8300 content into six areas and gives each statement a reference: "Number references start with N", algebra with A, ratio, proportion and rates of change with R, geometry and measures with G, probability with P and statistics with S. Counting the references in the version 1.1 specification, we find 97 of them. That count is ours, not AQA's, but it is a useful size to hold in mind: the whole of GCSE Maths, at both tiers, fits on a checklist of fewer than a hundred lines.
+
+**The six areas and their references, as numbered in the 8300 specification (count ours)**
+
+| Area | References | How many | Examples of what sits there |
+|---|---|---|---|
+| Number | N1 to N16 | 16 | Ordering numbers, standard form (N9), rounding and error intervals (N15) |
+| Algebra | A1 to A25 | 25 | Functions (A7), straight lines (A9), quadratics (A18), inequalities (A22) |
+| Ratio, proportion and rates of change | R1 to R16 | 16 | Percentages (R9), direct and inverse proportion, compound measures |
+| Geometry and measures | G1 to G25 | 25 | Volume of spheres and cones (G17), exact trigonometric values (G21) |
+| Probability | P1 to P9 | 9 | Frequency trees, tree diagrams, Venn diagrams |
+| Statistics | S1 to S6 | 6 | Box plots and measures of spread (S4), scatter graphs |
+
+Each reference is then split across three columns, which AQA calls "basic foundation content", "additional foundation content" and "Higher content only". Foundation papers can test the first two columns. Higher papers can test all three. So when a student on Foundation meets an unfamiliar topic in a past paper, the first question is not "how do I do this?" but "which column is it in?" If the answer is Higher content only, it should not be on their paper at all, and the time is better spent elsewhere.
+
+### One reference, two tiers
+
+Many references have content in more than one column. A22, for example, asks Foundation students to solve linear inequalities in one variable, and Higher students to go on to quadratic inequalities and solution sets on a graph.
+
+### The notes count too
+
+Small notes under a reference carry rules. Under A1, AQA says answers are expected "in their simplest form without an explicit instruction to do so", so an unsimplified answer can cost a mark nobody warned about.
+
+### What is given, what is not
+
+Other notes say what the paper will supply: "unfamiliar formulae will be given in the question", and "Imperial/metric conversions will be given in the question". Metric conversions are not given, and must be known.
+
+### The mark log: our method
+
+After every past paper, we write each lost mark against its reference, with a one-word reason: knowledge, method, slip or time. After three or four papers, the same references repeat.
+
+Those repeating lines are the revision plan. It is usually five to ten references, not "all of algebra", and each can be taught and retested in a lesson.
+
+### The formulae sheet
+
+Ofqual requires a formulae sheet in GCSE Maths for the 2025, 2026 and 2027 exams, including the November series, and AQA had to publish the 2027 sheet by 1 September 2026. For exams from 2028 the sheets continue for the rest of the life of this specification.
+
+Ofqual also bars questions that can be answered "solely by transferring information" from the sheet. Knowing where a formula is printed is not the same as knowing when to use it.
+
+## What did AQA examiners say about the June 2025 GCSE Maths papers?
+
+AQA publishes a report on the examination for every paper. Three of the June 2025 reports, read in full, point at the same few habits and the same handful of references.
+
+**From AQA's June 2025 reports on the examination (summarised, with references added by us)**
+
+| Paper | Where students did well | Where students struggled |
+|---|---|---|
+| 8300/1F, Foundation non-calculator | Sequences; primes, factors and multiples; pictograms; ratio and simple probability | Working backwards from an answer and a remainder; the volume of a sphere (G17); standard form (N9); recalling sin 90° (G21) |
+| 8300/1H, Higher non-calculator | Simple simultaneous equations; frequency trees; ratio; simplifying surds; completing the square | Inequalities (A22); the inter-quartile range (S4); algebraic proof (A6) |
+| 8300/2H, Higher calculator | Prime factors; error intervals; right-angled trigonometry; speed, distance and time | The gradient of a horizontal line; the equation of a circle and of a tangent (A16); a composite and inverse functions proof (A7) |
+
+Two things stand out. First, several of the topics that hurt Foundation students are pure recall: the exact value of sin 90° is a fact listed under G21, and the volume of a sphere is a formula a student needs to recognise and use. Second, the Higher struggles cluster around writing mathematics down rather than calculating it. Algebraic proof, a functions proof and inequalities all reward a clear chain of reasoning, and the Higher calculator report noted that "Some students' poor presentation made it difficult to know what was trying to be communicated."
+
+### Working shown, marks earned
+
+On a Foundation substitution question, the examiners wrote that "students who showed their working scored better than those who did not", and gave an example of two students reaching the same wrong answer, where only the one who wrote the substituted line earned marks.
+
+Method marks are awarded for the line, not the answer. A blank line between question and answer is a mark left on the desk.
+
+### Instruments on a non-calculator paper
+
+The same Foundation report says circles "were often drawn freehand which would not be awarded any marks", and reminds centres that "even on a non-calculator paper, they must bring a ruler and a pair of compasses."
+
+It is the cheapest lesson on this page: a pair of compasses in the pencil case for every paper.
+
+The good news in the reports is about time. The Higher non-calculator report found "no evidence of students having time problems", and the Foundation non-calculator report recorded the mean score up by "a little more than one mark" on 2024. The papers are hard in places, but they are finishable. Marks are lost to gaps and habits far more often than to the clock.
+
+Source: AQA, GCSE Mathematics 8300/1F, 8300/1H and 8300/2H, Reports on the examination, June 2025, linked from the [8300 assessment resources page](https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300/assessment-resources). We summarise the examiners' comments and do not reproduce the questions.
+
+## Three questions we wrote, each tagged to its reference
+
+These are our own questions in the style of the topics AQA's examiners flagged. They are not AQA questions. The point is the habit: name the reference, then write every step.
+
+### Example 1, Foundation, N2 (working backwards)
+
+**Question (ours).** Priya divides a number by 7. Her answer is 38 remainder 4. What was the number?
+
+**Think first.** Division with a remainder means: number = divisor × quotient + remainder. Write that line before touching the numbers.
+
+**Working.** 7 × 38 = 266. Then 266 + 4 = 270. **Check:** 270 ÷ 7 = 38 with 4 left over, because 7 × 38 = 266 and 270 &minus; 266 = 4.
+
+The examiners' report describes students adding the remainder to the quotient first, or treating the remainder as a decimal. Both errors vanish once the relationship line is written down.
+
+### Example 2, Higher, A22 (a quadratic inequality)
+
+**Question (ours).** Solve x² &minus; 2x &minus; 15 < 0.
+
+**Working.** Factorise: (x &minus; 5)(x + 3) < 0. The critical values are x = 5 and x = &minus;3.
+
+**Think.** The graph of y = x² &minus; 2x &minus; 15 is a U-shaped curve crossing the x-axis at &minus;3 and 5. "Less than zero" means the part of the curve below the axis, which is between the roots.
+
+**Answer.** &minus;3 < x < 5. A quick sketch is the step that stops students writing x < &minus;3 or x > 5, the region where the expression is positive.
+
+### Example 3, Higher, A6 (a short algebraic proof)
+
+**Question (ours).** Prove that the sum of any three consecutive even numbers is a multiple of 6.
+
+**Working.** Any even number can be written 2n, where n is an integer, so the three are 2n, 2n + 2 and 2n + 4. Their sum is 6n + 6 = 6(n + 1).
+
+**Conclusion.** Because n + 1 is an integer, 6(n + 1) is a multiple of 6, whichever even number we started from. The final sentence is part of the proof: it says why the algebra answers the question.
+
+### Why the last sentence matters
+
+A6 asks students to "argue mathematically to show algebraic expressions are equivalent" and to construct proofs. A line of algebra that stops at 6n + 6 has shown something, but has not said what.
+
+Writing the conclusion in words is the habit that turns two method marks into full marks, and it is the kind of presentation the June 2025 Higher reports asked for.
+
+**Practice set (ours, answers at the end).** (1) N9: write 0.00052 in standard form. (2) G21: without a calculator, what is cos 60°? (3) N2: a number divided by 9 gives 14 remainder 5; find it. (4) A22: solve 3x &minus; 7 > 11 and show the solution on a number line with the correct circle. (5) S4: a data set has lower quartile 12 and upper quartile 31; what is the inter-quartile range, and why is it less affected by one extreme value than the range? **Answers:** (1) 5.2 × 10&minus;4; (2) one half; (3) 131; (4) x > 6, with an open circle at 6; (5) 19, because it uses only the middle half of the data.
+
+## How should a Year 11 student revise for AQA 8300 before May 2027?
+
+A seven-month plan from November 2026 to Paper 3, written by us around AQA's dates. It assumes one live class a week and two short practice sessions between classes.
+
+1. **November 2026: one full paper, marked honestly.** Sit an AQA past Paper 1 at the right tier under timed conditions. Start the mark log: every lost mark against its reference.
+2. **December 2026: the five worst references.** Teach and retest the references that appear most often in the log. For Foundation students these are often in number and ratio; for Higher, in algebra.
+3. **January 2027: the mock series.** Most schools run mocks around now. Add the mock's lost marks to the same log, so the plan follows evidence rather than mood.
+4. **February to March 2027: recall lists.** The facts AQA expects students to know (exact trigonometric values, area and volume formulae, angle facts) drilled in five-minute daily bursts.
+5. **April 2027: full papers in AQA order.** One non-calculator and one calculator paper a week, alternating, with the mark log updated after each.
+6. **Early May 2027: Paper 1 rehearsal.** Non-calculator fluency in the fortnight before 14 May 2027: fractions, percentages and estimation by hand.
+7. **Between papers: review, do not cram.** Use the gaps before 27 May and 14 June 2027 to revisit the references Paper 1 exposed.
+
+The plan is a template, not a promise. A student starting at grade 3 and one aiming for a 9 need very different references on their list. The mark log is what makes the plan personal, and it is the first thing we build together.
+
+## Four rungs for an AQA 8300 student
+
+Each rung is something a student can show on a real AQA paper, not a feeling about a topic.
+
+**What should be true at each stage**
+
+| Rung | When | What should be true |
+|---|---|---|
+| 1. Knows the tier and the column | Start of Year 10 or on joining | Can say which tier they are entered for and which references are Higher content only |
+| 2. Recall secure | Year 10 | The facts listed in the specification and its appendix recalled without the sheet |
+| 3. Mark log short | Spring of Year 11 | Fewer than ten repeating references across the last three papers |
+| 4. Exam habits automatic | Before Paper 1 | Working shown, instruments packed, answers simplified, one clear answer per question |
+
+### Rung one takes an hour
+
+Reading the three columns with a student is often the most calming lesson of the year: the list is finite.
+A student who also studies computing may like the [AQA GCSE Computer Science 8525 page](/aqa-gcse-computer-science-8525-help).
+
+### Rung three is the real work
+
+Shrinking the mark log is slow, steady teaching. We report on it to families every month.
+Lessons lighten in the exam weeks themselves.
+
+## Nine courses around AQA GCSE Maths
+
+Grouped by what a student needs before, during and after 8300.
+
+### The GCSE itself
+
+Foundation and Higher
+
+- [GCSE Maths](/courses/gcse-mathematics-mastery): All six areas of 8300, taught at the tier a student sits.
+- [Algebra Foundations](/courses/algebra-foundations-masterclass): The A references rebuilt from expressions upwards.
+- [GCSE Maths Resit](/courses/gcse-maths-resit-course): A second attempt planned from the first attempt's marks.
+
+### Gaps and skills
+
+Before or alongside Year 10
+
+- [Lower secondary maths](/courses/comprehensive-middle-school-mathematics-mastery): Key Stage 3 number and geometry that 8300 assumes.
+- [Statistics and probability](/courses/statistics-probability-maths-course): The P and S references, from frequency trees to box plots.
+- [Functional Skills Maths](/courses/functional-skills-maths-course): A practical Level 1 or Level 2 route for some post-16 learners.
+
+### Beyond grade 7
+
+For students heading further
+
+- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): The course a strong Higher result leads to.
+- [Competition maths](/courses/olympiad-competition-mathematics-mastery): Proof and problem solving beyond the specification.
+- [Maths through coding](/courses/maths-through-coding): Sequences and functions explored in Python as well as on paper.
+
+## Live classes built on AQA's own papers
+
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Our teachers are in India and every class is set in UK time.
+
+- **After school** The usual time for Years 10 and 11.
+- **Evenings** Around clubs, sport and homework.
+- **Weekend mornings** Room for a full 90-minute paper.
+
+- **AQA papers only** Past papers and mark schemes from AQA, at the right tier, so the layout is familiar.
+- **References, not chapters** Every lost mark logged against N1 to S6, so the plan is a short list of lines.
+- **Recall drills** Exact values and formulae practised in short daily bursts until they are automatic.
+- **Written reasoning** Proofs and explanations finished with a sentence that says what has been shown.
+- **A free first class** One live class to see the work and agree where to start, with no payment taken.
+- **Two formats** A group of 15 to 20 at the same tier, or 1-on-1 planned around one student.
+
+## Fees for AQA GCSE Maths classes
+
+The first class is free. After it, one monthly fee, smaller for a group place than for 1-on-1, with no contract and nothing taken before a weekly time is agreed.
+
+- Free first class: USD 0. A live class on the student's own tier. The first page of a mark log. Book with just a phone number.
+- Group batch: USD 100 a month. 15 to 20 students at one tier. One teacher from Year 10 to the exams. An AQA paper marked most weeks. Monthly note to parents on the mark log.
+- One to one: USD 150 a month. A teacher for one student. Planned around the student's references. Suits resits and late starters.
+
+## What families ask about AQA GCSE Maths
+
+### How many papers are there in AQA GCSE Maths 8300?
+
+Three, at either Foundation or Higher tier. Each lasts 1 hour 30 minutes and is worth 80 marks. Paper 1 is non-calculator and Papers 2 and 3 allow a calculator, and all three must be sat in the same series.
+
+### When are the AQA GCSE Maths exams in 2027?
+
+AQA's key dates page lists the June 2027 series papers on Friday 14 May, Thursday 27 May and Monday 14 June 2027, all in the morning. The November 2026 resit papers are on 4, 6 and 9 November 2026.
+
+### What do N1, A22 or G21 mean in the AQA specification?
+
+They are AQA's content references. N stands for number, A for algebra, R for ratio, G for geometry and measures, P for probability and S for statistics, and each number is one topic statement. Logging lost marks against them gives a precise revision list.
+
+### How do I know if a topic is Higher only?
+
+Each reference in the specification has three columns: basic foundation content, additional foundation content, and Higher content only. Foundation papers test the first two columns; Higher papers can test all three.
+
+### Is there a formulae sheet in AQA GCSE Maths?
+
+Yes. Ofqual requires boards to provide a formulae sheet in the 2025, 2026 and 2027 GCSE Maths exams, including November, and has decided the sheets continue for exams from 2028 for the life of the current specification. Questions cannot be answered just by copying from the sheet.
+
+### Can my child sit AQA GCSE Maths in November?
+
+Only if they were at least 16 on the previous 31 August, according to the AQA specification. In practice the November series is a resit series for students who have finished Year 11.
+
+### What equipment is needed for AQA GCSE Maths?
+
+The specification lists a pencil for diagrams, a ruler, a pair of compasses and a protractor for every paper, and a calculator for Papers 2 and 3. AQA's June 2025 report noted freehand circles scored no marks, even on the non-calculator paper.
+
+### Can a private candidate sit AQA 8300?
+
+Yes, through an AQA-approved school or college that accepts private candidates. The specification says private candidates must be based in the UK, and the exams officer at the centre handles the entry.
+
+### When are classes held?
+
+Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. All times are given in UK time.
+
+### Are you connected with AQA?
+
+No. Modern Age Coders is independent of AQA. We teach to the published 8300 specification and use AQA's freely available past papers and reports, and we never promise a particular grade.
+
+## More GCSE Maths pages
+
+- [AQA vs Edexcel vs OCR GCSE maths](/aqa-vs-edexcel-vs-ocr-gcse-maths): Where the three boards really differ, line by line.
+- [Foundation vs Higher](/gcse-maths-foundation-vs-higher): How the tier decision works and who makes it.
+- [Calculator and non-calculator papers](/gcse-maths-calculator-vs-non-calculator-papers): Preparing differently for Paper 1 and Papers 2 and 3.
+- [GCSE maths grades explained](/gcse-maths-grades-explained): What grades 1 to 9 mean and where 4 and 7 sit.
+- [GCSE maths resits](/gcse-maths-resit-explained): The post-16 rule and the November series.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): Our hub for every UK page, maths and computing.
+
+## Contact
+
+Book the free first class at [https://learn.modernagecoders.com/aqa-gcse-maths-8300-help](https://learn.modernagecoders.com/aqa-gcse-maths-8300-help#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
