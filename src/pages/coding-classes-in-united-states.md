@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Beast Academy tutor](/beast-academy-tutor)
 - [Saxon Math tutor](/saxon-math-tutor)
 - [Minneapolis](/best-coding-classes-for-kids-in-minneapolis)
 - [Portland, Oregon](/ai-and-python-classes-for-teens-in-portland-oregon)

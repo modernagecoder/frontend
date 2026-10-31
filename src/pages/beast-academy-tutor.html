@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Beast Academy Tutor: Live Help With Levels 1 to 5</title>
+  <meta name="description" content="A Beast Academy tutor for families using the books or BA Online: the levels and units, pacing, getting unstuck on starred problems, and live help.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/beast-academy-tutor">
+  <link rel="alternate" type="text/markdown" href="/src/pages/beast-academy-tutor.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7E4F6C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/beast-academy-tutor">
+  <meta property="og:title" content="Beast Academy Tutor: Live Help With Levels 1 to 5">
+  <meta property="og:description" content="Beast Academy is meant to be hard. Its own FAQ says some Practice pages take more than an hour. What the levels contain, how its makers suggest pacing it, and how a tutor helps without giving answers away.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Beast Academy Tutor: Live Help With Levels 1 to 5">
+  <meta name="twitter:description" content="Live help for children using Beast Academy, with hints rather than answers.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-ba .ag-hero h1 { letter-spacing: -0.015em; max-width: 20ch; }
+.ag-root.ag-ba .ag-capsule { border-left-width: 6px; border-radius: 8px; }
+.ag-root.ag-ba .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-ba .ag-table td { font-variant-numeric: tabular-nums; line-height: 1.5; }
+.ag-root.ag-ba .ag-steps li { margin-bottom: 10px; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.international">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/beast-academy-tutor#page","url":"https://learn.modernagecoders.com/beast-academy-tutor","name":"Beast Academy Tutor","description":"A guide for US families using Beast Academy from Art of Problem Solving, built from beastacademy.com as read on 31 October 2026, with our own worked puzzles and a hint ladder for live tutoring.","inLanguage":"en-US","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in the USA","item":"https://learn.modernagecoders.com/coding-classes-in-united-states"},{"@type":"ListItem","position":4,"name":"Beast Academy tutor","item":"https://learn.modernagecoders.com/beast-academy-tutor"}]},{"@type":"Course","name":"Beast Academy Tutor","description":"Live online math classes for children aged 6 to 12 who use Beast Academy, teaching problem solving with hints rather than answers, in a batch or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/beast-academy-tutor"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"100","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/beast-academy-tutor"},{"@type":"Offer","name":"One to one","price":"150","priceCurrency":"USD","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/beast-academy-tutor"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do you offer a Beast Academy tutor online?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our teachers work live by video with your child's Beast Academy Guide and Practice books or BA Online, using hints rather than answers. Classes run as a batch of 15 to 20 or one to one."}},{"@type":"Question","name":"Who makes Beast Academy?","acceptedAnswer":{"@type":"Answer","text":"Beast Academy is the elementary math program created by Art of Problem Solving (AoPS). Its FAQ describes it as a full math program for ages 6 to 13. We are independent and not affiliated with AoPS."}},{"@type":"Question","name":"What level of Beast Academy should my child start?","acceptedAnswer":{"@type":"Answer","text":"The Beast Academy FAQ suggests starting about a level behind the child's current grade, so a child of 8 or 9 would usually begin at Level 2. It also offers a placement test, which we recommend."}},{"@type":"Question","name":"How long should a Beast Academy chapter take?","acceptedAnswer":{"@type":"Answer","text":"The FAQ suggests 12 to 15 days per chapter, so that one level fills a 180-day school year. It recommends assigning Practice by time rather than by pages."}},{"@type":"Question","name":"Does my child need to do every Beast Academy problem?","acceptedAnswer":{"@type":"Answer","text":"No. The FAQ says the curriculum has a lot of material and children are not expected to complete every problem. Some Practice pages can take more than an hour."}},{"@type":"Question","name":"My child gets upset on hard problems. What helps?","acceptedAnswer":{"@type":"Answer","text":"Beast Academy advises re-reading the Guide, using the guiding questions at the back of the Practice book and taking breaks. A tutor adds hints tailored to the exact point where your child is stuck."}},{"@type":"Question","name":"Is Beast Academy aligned to Common Core?","acceptedAnswer":{"@type":"Answer","text":"Its FAQ says Beast Academy is loosely based on the Common Core standards and covers the key topics for grades 1 to 5 in greater depth, with Levels 4 and 5 also covering many middle-grade standards."}},{"@type":"Question","name":"What comes after Beast Academy Level 5?","acceptedAnswer":{"@type":"Answer","text":"Beast Academy says a child who completes Level 5 of BA Online has the background for AoPS prealgebra. Our middle school and competitions courses are also a natural next step."}},{"@type":"Question","name":"When are classes held?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays."}},{"@type":"Question","name":"Will the tutor give my child the answers?","acceptedAnswer":{"@type":"Answer","text":"No. Our teachers use a hint ladder that gives the least help needed. A problem that is still unsolved is parked for next time rather than answered."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"United States"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/beast-academy-tutor","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="US">
+</head>
+
+<body class="ag-root ag-ba">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">US</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="#what">What it is</a></li>
+      <li><a href="#levels">Levels and units</a></li>
+      <li><a href="#pace">Pacing</a></li>
+      <li><a href="#stuck">When stuck</a></li>
+      <li><a href="#puzzles">Worked puzzles</a></li>
+      <li><a href="#fees">Fees</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-united-states">Coding classes in the USA</a> / Beast Academy tutor
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">United States &middot; Beast Academy Levels 1 to 5 &middot; Hints, not answers</p>
+        <h1>Beast Academy tutor: live help for Levels 1 to 5</h1>
+        <p class="ag-lede">Families choose Beast Academy because it asks more of a child than a typical elementary book: comic-style Guides, long Practice pages and starred problems that can take a whole afternoon. That is the point of it, and also why some children stop enjoying it. A good tutor for Beast Academy does not make it easier. They keep a child inside the hard problem long enough to crack it, with the right hint at the right moment. This page sets out how the program is organised, from its own site, and how live help fits beside it.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#puzzles" class="ag-btn ag-btn--ghost">Try the worked puzzles</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20uses%20Beast%20Academy%20and%20gets%20stuck%20on%20the%20harder%20problems.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ba'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Teaching math and coding live since 2020 &middot; 10,000+ students &middot; grades K to 12</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Made by</dt><dd>Art of Problem Solving (AoPS)</dd>
+          <dt>Ages</dt><dd>6 to 13, Levels 1 to 5</dd>
+          <dt>Units</dt><dd>Four per level, A to D</dd>
+          <dt>Pacing</dt><dd>12 to 15 days a chapter, per its FAQ</dd>
+          <dt>Our help</dt><dd>Live online, beside the books</dd>
+          <dt>Formats</dt><dd>Batch of 15 to 20, or 1-on-1</dd>
+          <dt>Timing</dt><dd>Weekdays or weekends, flexible</dd>
+          <dt>Start</dt><dd>A free first class</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Beast Academy is an elementary math program from Art of Problem Solving for ages 6 to 13, in five levels of four units each, taught through comic-style Guide books, Practice books and BA Online. A Beast Academy tutor helps a child work through its challenging problems with hints instead of answers. Modern Age Coders teaches live online for US families, in a batch or 1-on-1, through its Elementary Math course, and the first class is free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Live courses for Beast Academy families</p>
+      <h2>Three courses that work beside Beast Academy</h2>
+      <p class="ag-lede">Each keeps the Beast Academy book or online level in front of the child and adds a teacher who knows when to hint and when to wait.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/elementary-mathematics-complete-masterclass">
+        <div class="ag-pick-shot"><img src="/images/elementary-maths.webp" alt="Elementary Maths for Grades 1-5 course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BA / 01</p>
+          <h3>Elementary math, grades 1 to 5</h3>
+          <p>Our main course for Levels 1 to 4: number sense, multiplication, fractions, taught for depth.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/middle-school-math-competitions-course">
+        <div class="ag-pick-shot"><img src="/images/middle-school-math-competitions.webp" alt="Middle School Math Competitions course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BA / 02</p>
+          <h3>Math competitions</h3>
+          <p>For Level 4 and 5 students who love the puzzles and want MATHCOUNTS or AMC 8 problems.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/comprehensive-middle-school-mathematics-mastery">
+        <div class="ag-pick-shot"><img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Mastery course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">BA / 03</p>
+          <h3>Middle school math</h3>
+          <p>For the step after Level 5: prealgebra, ratios and equations.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">What it is</p><h2>What is Beast Academy, and who is it for?</h2><p class="ag-lede">Beast Academy is the elementary math program of Art of Problem Solving. Its FAQ calls it a full math program for ages 6 to 13 that covers grade-level standards in more depth than most elementary curricula.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Beast Academy at a glance (beastacademy.com home, FAQ and books pages, checked 31 October 2026)</caption><thead><tr><th scope="col">Question</th><th scope="col">What Beast Academy says</th></tr></thead><tbody><tr><td>Who makes it?</td><td>"the elementary school math program created by Art of Problem Solving (AoPS)"</td></tr><tr><td>Ages</td><td>A full math program "for kids ages 6-13"</td></tr><tr><td>Standards</td><td>"loosely based on the Common Core standards"</td></tr><tr><td>Formats</td><td>Physical books, BA Online, or a mix of both</td></tr><tr><td>Size</td><td>"20,000+ problems, puzzles, and skill games" across books and online lessons</td></tr><tr><td>Live classes</td><td>Video-based classes for Levels 2 to 5, learning "alongside 10-16 curious peers"</td></tr><tr><td>Full or supplement?</td><td>Either: "a stand-alone curriculum or as a supplement to another program"</td></tr><tr><td>What comes next</td><td>Level 5 of BA Online gives the background for AoPS prealgebra</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Guide and Practice</h3><p>The books page explains the pairing. Guide books teach in an illustrated, comic-style format. Practice books "contain exercises, problems, and puzzles that reinforce the lessons taught in the Guides", with step-by-step solutions, and "Many solutions feature more than one approach."</p>
+<p>Books and BA Online "cover the same concepts in the same order of units and chapters", but the Practice books contain completely different problems from the online ones, so a child can use both without repeating work.</p></div><div><h3>Not only for advanced children</h3><p>The FAQ says the program was created with accelerated learners in mind but is flexible, and that children with a wide range of abilities have used it.</p>
+<p>It also says honestly that some children use it independently while others "might need greater support as they encounter new topics and work through challenging problems." That second group is who this page is for.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: <a class="ag-inline-link" href="https://beastacademy.com/" rel="noopener" target="_blank">Beast Academy</a>, its <a class="ag-inline-link" href="https://beastacademy.com/faq" rel="noopener" target="_blank">FAQ</a> and <a class="ag-inline-link" href="https://beastacademy.com/books" rel="noopener" target="_blank">books page</a>, checked 31 October 2026. Beast Academy and Art of Problem Solving are trademarks of their owner. Modern Age Coders is not affiliated with or endorsed by Art of Problem Solving.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="levels">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Levels and units</p><h2>What do Beast Academy Levels 1 to 5 cover?</h2><p class="ag-lede">Each of the five levels is split into four units, A to D. Once a child finishes unit D of a level, the books page says they are ready for unit A of the next.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Beast Academy levels, ages and unit topics (beastacademy.com/books, checked 31 October 2026)</caption><thead><tr><th scope="col">Level</th><th scope="col">Ages</th><th scope="col">Unit A</th><th scope="col">Unit B</th><th scope="col">Unit C</th><th scope="col">Unit D</th></tr></thead><tbody><tr><td>1</td><td>6 to 8</td><td>Counting, shapes, comparing</td><td>Addition, subtraction, categories</td><td>Addition and subtraction, comparing, patterns</td><td>Big numbers, measurement, problem solving</td></tr><tr><td>2</td><td>7 to 9</td><td>Place value, comparing, addition</td><td>Subtraction, expressions, problem solving</td><td>Measurement, strategies, odds and evens</td><td>Big numbers, algorithms, problem solving</td></tr><tr><td>3</td><td>8 to 10</td><td>Shapes, skip-counting, perimeter and area</td><td>Multiplication, perfect squares, the distributive property</td><td>Variables, division, measurement</td><td>Fractions, estimation, area</td></tr><tr><td>4</td><td>9 to 12</td><td>Shapes, multiplication, exponents</td><td>Counting, division, logic</td><td>Factors, fractions, integers</td><td>Fractions, decimals, probability</td></tr><tr><td>5</td><td>10 to 13</td><td>3D solids, integers, expressions and equations</td><td>Statistics, factors and multiples, fractions</td><td>Sequences, ratios and rates, decimals</td><td>Percents, square roots, exponents</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Starting a level behind</h3><p>The FAQ recommends that students start "about a level &lsquo;behind&rsquo; their current grade level", because the problems are demanding. Its example: a child who is 8 or 9 should likely start with Level 2.</p>
+<p>Beast Academy also offers a placement test, which we suggest before any tutoring starts, so the teacher and the book agree on where the child is.</p></div><div><h3>Level 1 is different</h3><p>Level 1 does not have separate Guide and Practice books; all of its material is combined into a single book per unit. Levels 2 to 5 each have four Guide books and four Practice books.</p>
+<p>The FAQ adds that Levels 4 and 5 "also cover many middle-grades standards", which is why some older children use them in grades 6 and 7.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="pace">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Pacing</p><h2>How fast should a child move through Beast Academy?</h2><p class="ag-lede">Slower than parents expect. The FAQ suggests 12 to 15 days per chapter, so that one level fills a 180-day school year, and it says children are not meant to do every problem.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Beast Academy&rsquo;s own pacing advice (beastacademy.com/faq, checked 31 October 2026) and what it means in practice (our reading)</caption><thead><tr><th scope="col">What the FAQ says</th><th scope="col">What it means at home</th></tr></thead><tbody><tr><td>"Aim to spend 12-15 days teaching a chapter"</td><td>Two to three school weeks per chapter is normal, not slow</td></tr><tr><td>Finish one level in 180 days</td><td>One level is roughly one school year</td></tr><tr><td>Assign Practice "by time and not by pages"</td><td>Set 30 or 40 minutes, not "do pages 12 to 18"</td></tr><tr><td>"some pages in the Practice books may take more than an hour"</td><td>A long page is not a sign of failure</td></tr><tr><td>"we don't expect students to complete every single problem"</td><td>Skipping some problems is part of the design</td></tr></tbody></table></div>
+    <p class="ag-mt-40">In our experience the families who struggle most with Beast Academy are not the ones whose children find it hard. They are the ones trying to finish a set number of pages a day. Switching to a timed session, with the hardest starred problems saved for a class with the teacher, usually changes the mood within a couple of weeks.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="stuck">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">When stuck</p><h2>What should a child do when stuck on a Beast Academy problem?</h2><p class="ag-lede">Beast Academy publishes its own advice, and it is good. A tutor adds a second layer: a hint ladder that gives the least help that still moves the child forward.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Beast Academy&rsquo;s advice</h3><p>The FAQ says children should know that hard problems take time, and that taking a long time "does not mean that they&rsquo;re bad at math." It suggests re-reading the lesson in the Guide and the examples at the top of the Practice pages, trying something new, and using "the guiding questions at the back of the Practice book" for starred problems.</p>
+<p>And: "it&rsquo;s always okay to take a break and come back later with fresh eyes."</p></div><div><h3>What a tutor adds</h3><p>A book&rsquo;s hint is the same for every child. A teacher watching the child work can see whether they misread the question, chose a poor first step or simply ran out of patience, and hint at exactly that.</p>
+<p>The aim is the same as the book&rsquo;s: the child solves it. The tutor just makes the gap between stuck and solved smaller.</p></div></div>
+    <ol class="ag-steps ag-mt-40"><li><b>Rung 1, restate.</b> "Tell me what the problem is asking, in your own words." Many stalls end here.</li><li><b>Rung 2, smaller case.</b> "Try it with smaller numbers first." A pattern in small cases often reveals the method.</li><li><b>Rung 3, a picture.</b> "Can you draw it?" Dots, a number line or a grid.</li><li><b>Rung 4, a first step.</b> The teacher suggests one move, not the whole route.</li><li><b>Rung 5, a parked problem.</b> If it is still stuck, it goes in a notebook and comes back next class. Nobody gives the answer.</li></ol>
+    <p class="ag-mt-40">This ladder is ours; it is how our teachers work with any challenging curriculum. It sits comfortably beside Beast Academy&rsquo;s own suggestions.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="puzzles">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Worked puzzles</p><h2>Worked puzzles in Beast Academy&rsquo;s topics, written by us</h2><p class="ag-lede">Three original problems on topics the books page lists for Levels 3 to 5, worked the way we would in class. They are ours, not copied from any Beast Academy book.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Neighbor squares, a Level 3 style topic: perfect squares and the distributive property (our example)</caption><thead><tr><th scope="col">Step</th><th scope="col">What the child does</th><th scope="col">What they notice</th></tr></thead><tbody><tr><td>1</td><td>Work out 13 x 13 = 169 and 12 x 14 = 168</td><td>They differ by exactly 1</td></tr><tr><td>2</td><td>Try 9 x 9 = 81 and 8 x 10 = 80</td><td>Again 1 apart</td></tr><tr><td>3</td><td>Draw a 13 by 13 square of dots, then move one column to make 12 by 14</td><td>One dot is left over</td></tr><tr><td>4</td><td>Use the distributive property: 12 x 14 = 12 x 12 + 12 x 2 = 144 + 24 = 168</td><td>The algebra agrees with the drawing</td></tr><tr><td>5</td><td>Predict 19 x 21 from 20 x 20 = 400</td><td>399, before multiplying</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>neighbor_squares.py (our example)</b><span>Python 3</span></figcaption><pre>for n in range(11, 16):
+    print(n, n * n, (n - 1) * (n + 1))</pre><p class="ag-code-note">Output: 11 121 120, then 12 144 143, 13 169 168, 14 196 195, 15 225 224. A parent can use this to check the pattern quickly; the child should find it with dots and the distributive property first.</p></figure>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Factor rectangles (a Level 4 topic)</h3><p>How many different rectangles with whole-number sides have an area of 36 square units? Our worked answer: list factor pairs in order, 1 x 36, 2 x 18, 3 x 12, 4 x 9, 6 x 6, and stop when the pairs start repeating. Five rectangles, if a 4 by 9 and a 9 by 4 count as the same shape.</p>
+<p>The thinking move is the stopping rule: once the first factor passes the square root, every pair has already appeared.</p></div><div><h3>A growing sequence (a Level 5 topic)</h3><p>What is the 50th term of 4, 7, 10, 13, and so on? Our worked answer: each step adds 3, and the 50th term is 49 steps after the first, so 4 + 49 x 3 = 151.</p>
+<p>The common slip is 50 x 3 + 4 = 154: counting terms instead of steps. Asking "how many jumps from the 1st to the 3rd term?" fixes it.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Practice set in the same spirit (ours; answers in brackets)</caption><thead><tr><th scope="col">Problem</th><th scope="col">Hint if stuck</th></tr></thead><tbody><tr><td>21 x 19 without a calculator</td><td>Start from 20 x 20 (399)</td></tr><tr><td>Which is bigger, 30 x 30 or 29 x 31? By how much?</td><td>Neighbor squares (30 x 30, by 1)</td></tr><tr><td>How many rectangles with whole-number sides have area 24?</td><td>List factor pairs (4)</td></tr><tr><td>The 50th term of 2, 7, 12, 17, and so on</td><td>Count the jumps (247)</td></tr><tr><td>99 x 101</td><td>Neighbor squares around 100 (9,999)</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where your child is</p>
+      <h2>Four stages of working with a challenging curriculum</h2>
+      <p class="ag-lede">Our description of how children grow into Beast Academy-style problems.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Stages of problem-solving stamina (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">What it looks like</th></tr></thead><tbody><tr><td>1. Answer-seeking</td><td class="ag-num">Wants the method before trying; upset by a long problem</td></tr><tr><td>2. Trying</td><td class="ag-num">Makes an attempt, gives up after a few minutes</td></tr><tr><td>3. Exploring</td><td class="ag-num">Tries small cases and drawings without being asked</td></tr><tr><td>4. Enjoying</td><td class="ag-num">Chooses the starred problems first</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 2 is where most families ask for a tutor. The goal is time on the problem, not speed.</p>
+<p>Praise the attempt and the drawing, not only the answer.</p></div><div><h3>For children</h3><p>Being stuck is part of the problem. It means you are at the interesting bit.</p>
+<p>Try the problem with smaller numbers. It works surprisingly often.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">The catalogue</p>
+      <h2>Nine courses for curious young mathematicians</h2>
+      <p class="ag-lede">From early number sense to competitions, taught live with plenty of thinking time.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Early years</h3>
+        <span class="ag-band-sub">Ages 6 to 8</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BA / E / 01</p>
+          <h4>Early math foundations</h4>
+          <p>Hands-on number sense.</p>
+          <a class="ag-course-link" href="/courses/early-math-foundations">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BA / E / 02</p>
+          <h4>Mental math</h4>
+          <p>Patterns, not tricks.</p>
+          <a class="ag-course-link" href="/courses/mental-maths-mastery-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BA / E / 03</p>
+          <h4>Elementary math</h4>
+          <p>Grades 1 to 5 in depth.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Problem solvers</h3>
+        <span class="ag-band-sub">Ages 9 to 12</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BA / P / 01</p>
+          <h4>Math competitions</h4>
+          <p>MATHCOUNTS and AMC 8.</p>
+          <a class="ag-course-link" href="/courses/middle-school-math-competitions-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BA / P / 02</p>
+          <h4>Math through coding</h4>
+          <p>Test patterns in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BA / P / 03</p>
+          <h4>Middle school math</h4>
+          <p>Prealgebra and beyond.</p>
+          <a class="ag-course-link" href="/courses/comprehensive-middle-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Further on</h3>
+        <span class="ag-band-sub">Ages 12 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">BA / F / 01</p>
+          <h4>Olympiad mathematics</h4>
+          <p>AMC 10 and higher.</p>
+          <a class="ag-course-link" href="/courses/olympiad-competition-mathematics-mastery">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BA / F / 02</p>
+          <h4>Algebra foundations</h4>
+          <p>Algebra 1 properly.</p>
+          <a class="ag-course-link" href="/courses/algebra-foundations-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">BA / F / 03</p>
+          <h4>High school math</h4>
+          <p>Through to calculus.</p>
+          <a class="ag-course-link" href="/courses/complete-high-school-mathematics-mastery">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>Live classes with room to think</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Weekdays</p><p class="ag-slot-l">After school, with the week&rsquo;s parked problems.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Longer sessions for the starred pages.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Paced to your level and unit.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Hint ladder</h3><p>The smallest hint that still helps.</p></div>
+      <div><h3>Book stays central</h3><p>Guide and Practice on the desk.</p></div>
+      <div><h3>Original puzzles</h3><p>Extra problems written by our teachers.</p></div>
+      <div><h3>No answer sheets</h3><p>The child solves it.</p></div>
+      <div><h3>All US time zones</h3><p>Times around school and homeschool.</p></div>
+      <div><h3>Batch or private</h3><p>A class of fifteen to twenty, or one child.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Work from our students</h2>
+      <p class="ag-lede">Some puzzle lovers go on to code. See a few of their projects on <a class="ag-inline-link" href="/student-labs">student labs</a>.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees</h2>
+      <p class="ag-lede">Live classes alongside Beast Academy are billed monthly in US dollars, with no annual commitment, so families can add help for a demanding level and pause afterwards.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">USD 0</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>Bring a starred problem</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Fifteen to twenty children</li><li>A steady teacher</li><li>Choose your batch</li><li>Billed monthly</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">a month, billed in US dollars</p>
+        <ul><li>Your child and one teacher</li><li>Matched to their unit</li><li>Flexible times</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from parents, as they wrote them.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Questions from families</p>
+      <h2>Beast Academy tutoring: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Do you offer a Beast Academy tutor online?</h3>
+        <p>Yes. Our teachers work live by video with your child's Beast Academy Guide and Practice books or BA Online, using hints rather than answers. Classes run as a batch of 15 to 20 or one to one.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who makes Beast Academy?</h3>
+        <p>Beast Academy is the elementary math program created by Art of Problem Solving (AoPS). Its FAQ describes it as a full math program for ages 6 to 13. We are independent and not affiliated with AoPS.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What level of Beast Academy should my child start?</h3>
+        <p>The Beast Academy FAQ suggests starting about a level behind the child's current grade, so a child of 8 or 9 would usually begin at Level 2. It also offers a placement test, which we recommend.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How long should a Beast Academy chapter take?</h3>
+        <p>The FAQ suggests 12 to 15 days per chapter, so that one level fills a 180-day school year. It recommends assigning Practice by time rather than by pages.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child need to do every Beast Academy problem?</h3>
+        <p>No. The FAQ says the curriculum has a lot of material and children are not expected to complete every problem. Some Practice pages can take more than an hour.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My child gets upset on hard problems. What helps?</h3>
+        <p>Beast Academy advises re-reading the Guide, using the guiding questions at the back of the Practice book and taking breaks. A tutor adds hints tailored to the exact point where your child is stuck.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is Beast Academy aligned to Common Core?</h3>
+        <p>Its FAQ says Beast Academy is loosely based on the Common Core standards and covers the key topics for grades 1 to 5 in greater depth, with Levels 4 and 5 also covering many middle-grade standards.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What comes after Beast Academy Level 5?</h3>
+        <p>Beast Academy says a child who completes Level 5 of BA Online has the background for AoPS prealgebra. Our middle school and competitions courses are also a natural next step.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes held?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will the tutor give my child the answers?</h3>
+        <p>No. Our teachers use a hint ladder that gives the least help needed. A problem that is still unsolved is parked for next time rather than answered.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for families of children who love a hard problem.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/math-competitions-for-middle-school-students">Math competitions for middle school</a></h3><p>Contests to try after Level 5.</p></div>
+      <div><h3><a class="ag-inline-link" href="/mathcounts-preparation">MATHCOUNTS preparation</a></h3><p>Team and individual problem solving.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-3rd-grade">Third grade math tutoring</a></h3><p>Multiplication and early fractions.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-math-tutor-4th-grade">Fourth grade math tutoring</a></h3><p>Factors, fractions and multi-digit work.</p></div>
+      <div><h3><a class="ag-inline-link" href="/homeschool-math-curriculum-usa">Homeschool math curriculum</a></h3><p>Building a math plan for home learning.</p></div>
+      <div><h3><a class="ag-inline-link" href="/math-olympiad-amc-tutoring">Olympiad and AMC tutoring</a></h3><p>For older students who want the hardest problems.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us the Beast Academy level and unit, and send a photo of a problem that beat your child this week. The teacher will start there.</p>
+        <p class="ag-mt-40">See <a class="ag-inline-link" href="/how-we-teach">how our teachers guide a lesson</a>, or browse <a class="ag-inline-link" href="/courses">every course we teach</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20uses%20Beast%20Academy%20and%20gets%20stuck%20on%20the%20harder%20problems.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'ba',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our teachers work from India and teach American children live, at hours that fit school evenings and weekend mornings across the US. WhatsApp reaches us fastest.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_ba(event)" novalidate>
+          <div class="ag-field">
+            <label for="us-name">Your name</label>
+            <input id="us-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-phone">Phone or WhatsApp, United States +1</label>
+            <input id="us-phone" type="tel" name="phone" placeholder="(201) 555-0123" required>
+          </div>
+          <div class="ag-field">
+            <label for="us-age">Learner age group</label>
+            <select id="us-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class costs nothing and needs no card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Math help</h4><ul><li><a href="/online-math-tutor-3rd-grade">Third grade math</a></li><li><a href="/online-math-tutor-4th-grade">Fourth grade math</a></li><li><a href="/online-math-tutor-5th-grade">Fifth grade math</a></li><li><a href="/online-math-tutor-cost">Math tutor cost</a></li></ul></div>
+      <div><h4>United States</h4><ul><li><a href="/coding-classes-in-united-states">Our US pages</a></li><li><a href="/mathcounts-preparation">MATHCOUNTS</a></li><li><a href="/math-competitions-for-middle-school-students">Math competitions</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>13 x 13, one more than 12 x 14</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_ba = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('001') === 0) phoneDigits = phoneDigits.slice(3);
+  else if (phoneDigits.indexOf('1') === 0 && phoneDigits.length > 10) phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 10) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'US';
+  if (!foreignLead && (phoneDigits.length > 10 || !/^[2-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid United States phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+1', countryIso: 'US', countryName: 'United States',
+      source: 'beast-academy-tutor-inline', meta: { name: name, age: age, page: 'beast-academy-tutor' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+</body>
+</html>

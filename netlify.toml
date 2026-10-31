@@ -27169,6 +27169,18 @@
   to = "/src/pages/saxon-math-tutor.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/beast-academy-tutor"
+  to = "/src/pages/beast-academy-tutor.html"
+  status = 200
+
+[[redirects]]
+  from = "/beast-academy-tutor.md"
+  to = "/src/pages/beast-academy-tutor.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

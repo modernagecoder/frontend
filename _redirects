@@ -8262,4 +8262,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /saxon-math-tutor /src/pages/saxon-math-tutor.html 200
 /saxon-math-tutor.md /src/pages/saxon-math-tutor.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/beast-academy-tutor /src/pages/beast-academy-tutor.html 200
+/beast-academy-tutor.md /src/pages/beast-academy-tutor.md 200
 /* /src/pages/404.html 404
