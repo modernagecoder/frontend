@@ -8902,4 +8902,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /uk-maths-enrichment-and-competitions-guide /src/pages/uk-maths-enrichment-and-competitions-guide.html 200
 /uk-maths-enrichment-and-competitions-guide.md /src/pages/uk-maths-enrichment-and-competitions-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/us-state-math-tests-by-state /src/pages/us-state-math-tests-by-state.html 200
+/us-state-math-tests-by-state.md /src/pages/us-state-math-tests-by-state.md 200
 /* /src/pages/404.html 404
