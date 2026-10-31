@@ -8714,4 +8714,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /noetic-math-contest-preparation /src/pages/noetic-math-contest-preparation.html 200
 /noetic-math-contest-preparation.md /src/pages/noetic-math-contest-preparation.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/continental-math-league-preparation /src/pages/continental-math-league-preparation.html 200
+/continental-math-league-preparation.md /src/pages/continental-math-league-preparation.md 200
 /* /src/pages/404.html 404

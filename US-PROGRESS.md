@@ -347,7 +347,8 @@ Spec: docs/superpowers/specs/2026-10-17-us-cluster-design.md. Plan 1: docs/super
 | US051 | hunter-college-high-school-math-prep (hch, #346767) | gifted and selective | 4,843 | 1.2% vs tachs-math-prep | exam door | original worked example | 34f3e92c |
 | US052 | boston-exam-schools-math-prep (boe, #2B6E8F) | gifted and selective | 4,971 | 1.5% vs tachs-math-prep | exam door | original worked example | 0cb59e85 |
 | US065 | moems-math-olympiad-preparation (mop, #216E45) | math competitions | 4,426 | 1.3% vs girls-who-code-next-step | exam door | original worked example | 80493e6f |
-| US066 | noetic-math-contest-preparation (ncp, #8D4445) | math competitions | 4,638 | 1.5% vs nyc-gifted-and-talented-guide | exam door | original worked example | (this commit) |
+| US066 | noetic-math-contest-preparation (ncp, #8D4445) | math competitions | 4,638 | 1.5% vs nyc-gifted-and-talented-guide | exam door | original worked example | 237ba23a |
+| US068 | continental-math-league-preparation (clp, #5A6B2D) | math competitions | 4,411 | 1.3% vs noetic-math-contest-preparation | exam door | original worked example | (this commit) |
 
 ## Skipped
 

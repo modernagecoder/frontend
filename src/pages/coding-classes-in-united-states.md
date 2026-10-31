@@ -471,6 +471,7 @@ A real 30-minute live lesson on your student's local slot. We tailor a learning 
 ## US guides, competitions and states
 
 <!-- US-GUIDES -->
+- [Continental Math League preparation](/continental-math-league-preparation)
 - [Noetic math contest preparation](/noetic-math-contest-preparation)
 - [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
 - [Boston exam schools math prep](/boston-exam-schools-math-prep)
