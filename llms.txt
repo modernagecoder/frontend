@@ -812,6 +812,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Accelerated math program online: https://learn.modernagecoders.com/accelerated-math-program-online
 - Middle school math placement test prep: https://learn.modernagecoders.com/middle-school-math-placement-test-prep
 - SHSAT math prep: https://learn.modernagecoders.com/shsat-math-prep
+- HSPT math prep: https://learn.modernagecoders.com/hspt-math-prep
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

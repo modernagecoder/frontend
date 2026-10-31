@@ -580,6 +580,7 @@ const SLUGS = [
   'accelerated-math-program-online',
   'middle-school-math-placement-test-prep',
   'shsat-math-prep',
+  'hspt-math-prep',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1239,6 +1240,7 @@ const LLMS_LABELS = {
   'accelerated-math-program-online': 'Accelerated math program online',
   'middle-school-math-placement-test-prep': 'Middle school math placement test prep',
   'shsat-math-prep': 'SHSAT math prep',
+  'hspt-math-prep': 'HSPT math prep',
 };
 
 function wireLlms(slugs) {
