@@ -4,7 +4,7 @@
 //  - gov.uk/guidance/techfirst: "TechFirst is the government's flagship tech skills programme"; "From
 //    September 2026 students in the existing CyberFirst Bursary scheme will become TechFirst scholars";
 //    "National competitions will run throughout the year with prizes to be won, including the TechFirst
-//    Girls Competition this November." TechFirst is delivered by DSIT with regional delivery partners.
+//    Girls Competition this November." TechFirst: gov.uk TechFirst page says "From: Department for Digital, Culture, Media and Sport" (rechecked 2026-11-01); delivered with regional delivery partners.
 //  - ncsc.gov.uk: the NCSC's own CyberFirst Girls Competition page no longer describes the competition,
 //    and the CyberFirst overview says only that the NCSC "has supported thousands of young people
 //    through the CyberFirst programme" since 2016. The 2025/26 competition was run as a partnership
@@ -39,7 +39,7 @@ module.exports = {
   routeLabel: 'CyberFirst Girls Competition preparation',
   title: 'CyberFirst Girls Competition Preparation | Now TechFirst Girls',
   description: 'Preparing for the CyberFirst Girls Competition, now the TechFirst Girls Competition: Year 8 teams of four, cryptography and logic puzzles, and regional finals.',
-  ogDescription: 'The CyberFirst Girls Competition is now the TechFirst Girls Competition, delivered by DSIT. Year 8 teams of four, and puzzles from cryptography to logic.',
+  ogDescription: 'The CyberFirst Girls Competition is now the TechFirst Girls Competition, run by DCMS. Year 8 teams of four, and puzzles from cryptography to logic.',
   twitterDescription: 'CyberFirst Girls Competition preparation: Year 8 teams of four, now run as TechFirst Girls.',
   pageName: 'CyberFirst Girls Competition Preparation',
   webPageDescription: 'Preparation guidance for the competition most people know as the CyberFirst Girls Competition and which the government now runs as the TechFirst Girls Competition, covering eligibility, team size, the qualifying round and the regional finals.',
@@ -55,13 +55,13 @@ module.exports = {
   ],
   eyebrow: 'United Kingdom &middot; One school year &middot; November qualifier, February finals',
   h1: 'CyberFirst Girls Competition preparation',
-  lede: 'Start with the thing that will otherwise waste your evening: the competition has a new name. The government now runs it as the TechFirst Girls Competition, delivered by the Department for Science, Innovation and Technology, after CyberFirst became part of TechFirst in September 2026, and gov.uk says the TechFirst Girls Competition runs in November. Almost every page you will find still calls it CyberFirst, and so does this one, because that is what people search for. What has not changed is the shape: one school year, teams of up to four, a teacher who registers them, an online round of puzzles from cryptography to logic, and regional finals for the teams that get through.',
+  lede: 'Start with the thing that will otherwise waste your evening: the competition has a new name. The government now runs it as the TechFirst Girls Competition, run by the Department for Digital, Culture, Media and Sport, after CyberFirst became part of TechFirst in September 2026, and gov.uk says the TechFirst Girls Competition runs in November. Almost every page you will find still calls it CyberFirst, and so does this one, because that is what people search for. What has not changed is the shape: one school year, teams of up to four, a teacher who registers them, an online round of puzzles from cryptography to logic, and regional finals for the teams that get through.',
   secondaryCta: { href: '#questions', label: 'See the idea behind the puzzles' },
   wa: 'Hello Modern Age Coders, my daughter is entering the CyberFirst or TechFirst Girls Competition and I would like a free class.',
   heroNote: 'Sourced from gov.uk and the NCSC with the date we read it &middot; No puzzle reproduced &middot; Nothing promised about a final',
   spec: [
     ['Now run as', 'The TechFirst Girls Competition'],
-    ['Delivered by', 'DSIT, with the NCSC leading cyber'],
+    ['Delivered by', 'DCMS (gov.uk), with the NCSC leading cyber'],
     ['England and Wales', 'Girls in Year 8'],
     ['Scotland', 'S2'],
     ['Northern Ireland', 'Year 9'],
@@ -70,7 +70,7 @@ module.exports = {
     ['Finals', 'Thirteen, around the UK']
   ],
   capsuleQ: 'In short',
-  capsule: 'The competition most families search for as the CyberFirst Girls Competition is now the TechFirst Girls Competition. Gov.uk says "TechFirst is the government\'s flagship tech skills programme", delivered by the Department for Science, Innovation and Technology, and that "national competitions will run throughout the year with prizes to be won, including the TechFirst Girls Competition this November"; CyberFirst became part of TechFirst from September 2026, with the NCSC continuing to lead the cyber pathway. The NCSC\'s own announcements describe the competition itself: "girls in Year 8 in England and Wales, S2 in Scotland, and Year 9 in Northern Ireland" entering in "teams of up to four", registered by "a teacher at their school or a school guardian"; an online qualifying round of "puzzles, covering topics from cryptography to AI to logic"; and the highest scoring teams going "to one of 13 finals held across the UK". Since 2017 more than 43,000 girls have taken part. We teach the coding and logic underneath. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.',
+  capsule: 'The competition most families search for as the CyberFirst Girls Competition is now the TechFirst Girls Competition. Gov.uk says "TechFirst is the government\'s flagship tech skills programme", run by the Department for Digital, Culture, Media and Sport, and that "national competitions will run throughout the year with prizes to be won, including the TechFirst Girls Competition this November"; CyberFirst became part of TechFirst from September 2026, with the NCSC continuing to lead the cyber pathway. The NCSC\'s own announcements describe the competition itself: "girls in Year 8 in England and Wales, S2 in Scotland, and Year 9 in Northern Ireland" entering in "teams of up to four", registered by "a teacher at their school or a school guardian"; an online qualifying round of "puzzles, covering topics from cryptography to AI to logic"; and the highest scoring teams going "to one of 13 finals held across the UK". Since 2017 more than 43,000 girls have taken part. We teach the coding and logic underneath. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.',
 
   picks: {
     eyebrow: 'Where to start',
