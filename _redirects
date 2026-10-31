@@ -8730,4 +8730,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ftc-programming-help /src/pages/ftc-programming-help.html 200
 /ftc-programming-help.md /src/pages/ftc-programming-help.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/science-olympiad-coding-events-help /src/pages/science-olympiad-coding-events-help.html 200
+/science-olympiad-coding-events-help.md /src/pages/science-olympiad-coding-events-help.md 200
 /* /src/pages/404.html 404
