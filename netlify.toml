@@ -27565,6 +27565,18 @@
   to = "/src/pages/11-plus-maths-tuition-lincolnshire.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/ib-maths-ia-guidance"
+  to = "/src/pages/ib-maths-ia-guidance.html"
+  status = 200
+
+[[redirects]]
+  from = "/ib-maths-ia-guidance.md"
+  to = "/src/pages/ib-maths-ia-guidance.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

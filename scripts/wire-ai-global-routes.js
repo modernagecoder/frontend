@@ -603,6 +603,7 @@ const SLUGS = [
   'gl-assessment-11-plus-maths-practice',
   'iseb-common-pre-test-maths-practice',
   '11-plus-maths-tuition-lincolnshire',
+  'ib-maths-ia-guidance',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1285,6 +1286,7 @@ const LLMS_LABELS = {
   'gl-assessment-11-plus-maths-practice': 'GL Assessment 11 plus maths practice',
   'iseb-common-pre-test-maths-practice': 'ISEB Common Pre-Test maths practice',
   '11-plus-maths-tuition-lincolnshire': '11 plus maths tuition in Lincolnshire',
+  'ib-maths-ia-guidance': 'IB Maths IA guidance',
 };
 
 function wireLlms(slugs) {
