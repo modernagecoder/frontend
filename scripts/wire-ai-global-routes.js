@@ -667,6 +667,7 @@ const SLUGS = [
   'duke-tip-alternatives',
   'online-math-circle-for-kids',
   'stanford-10-math-practice',
+  'cem-11-plus-maths-practice',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1413,6 +1414,7 @@ const LLMS_LABELS = {
   'duke-tip-alternatives': 'Duke TIP alternatives',
   'online-math-circle-for-kids': 'Online math circle for kids',
   'stanford-10-math-practice': 'Stanford 10 math practice',
+  'cem-11-plus-maths-practice': 'CEM 11 plus maths practice',
 };
 
 function wireLlms(slugs) {

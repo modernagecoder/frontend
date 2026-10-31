@@ -8650,4 +8650,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /stanford-10-math-practice /src/pages/stanford-10-math-practice.html 200
 /stanford-10-math-practice.md /src/pages/stanford-10-math-practice.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/cem-11-plus-maths-practice /src/pages/cem-11-plus-maths-practice.html 200
+/cem-11-plus-maths-practice.md /src/pages/cem-11-plus-maths-practice.md 200
 /* /src/pages/404.html 404
