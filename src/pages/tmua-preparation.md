@@ -6,7 +6,7 @@ source: src/pages/tmua-preparation.html
 ---
 > The TMUA (Test of Mathematics for University Admission) is a computer-based admissions test run by UAT-UK at Pearson VUE centres. It has two papers, Applications of Mathematical Knowledge and Mathematical Reasoning, each with 20 multiple-choice questions in 75 minutes, no calculator, and no marks lost for wrong answers. Imperial lists seven universities that use it for some courses: Imperial, Cambridge, Durham, LSE, UCL, Oxford and Warwick. Windows for 2027 entry are 12 to 16 October 2026 and 4 to 8 January 2027. Modern Age Coders runs live online TMUA classes, in groups of 15 to 20 or one-to-one.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / TMUA preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / TMUA preparation
 
 United Kingdom · Year 13 · 12 to 16 October 2026 and 4 to 8 January 2027
 
@@ -324,6 +324,29 @@ No. Our classes are entirely separate from UAT-UK, Pearson VUE and every univers
 - [OCR A Level Computer Science H446](/ocr-a-level-computer-science-h446-help): For computer science applicants on the OCR course.
 - [AQA A Level Computer Science 7517](/aqa-a-level-computer-science-7517-help): The AQA route, paper by paper.
 - [Maths tuition in London](/maths-tuition-in-london): For families near LSE, UCL and Imperial.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Admissions tests and interviews
+
+- [STEP maths preparation](/step-maths-preparation)
+- [ESAT maths preparation](/esat-maths-preparation)
+- [Oxford MAT preparation](/oxford-mat-preparation)
+- [Oxbridge maths interview preparation](/oxbridge-maths-interview-problem-solving)
+
+### Computer science applications
+
+- [Computer science personal statement projects](/computer-science-personal-statement-projects-uk)
+- [A level Computer Science tutor online](/a-level-computer-science-tutor-online-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
+- [BTEC IT programming unit help](/btec-it-programming-unit-help)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

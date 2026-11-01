@@ -6,7 +6,7 @@ source: src/pages/a-level-computer-science-tutor-online-uk.html
 ---
 > A level Computer Science is a two-year qualification taken in Years 12 and 13. Every board's specification in England follows the Department for Education's subject content of April 2014, which lists programming, data types and structures, data representation, algorithms and their efficiency, databases, systems software, architecture, networks and programming paradigms, and requires "a minimum of 10% mathematics". At AQA 7517, Paper 1 is a 2 hour 30 minute on-screen exam worth 40 per cent, Paper 2 a written exam worth 40 per cent, and a 75-mark project the last 20 per cent. At OCR H446, two written papers with no calculators make up 80 per cent and a programming project 20 per cent. AQA says its specification is "not available to private candidates"; OCR says private candidates may enter. Modern Age Coders teaches A level Computer Science live online for both boards, in Python, with project method taught but never project work done.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / A level Computer Science
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / A level Computer Science
 
 England · A level Computer Science · Years 12 and 13
 
@@ -311,6 +311,29 @@ Yes. The first lesson is free, on a topic the student finds hard, and afterwards
 - [Cambridge A level Computer Science](/cambridge-a-level-computer-science-online-classes): The 9618 route in international schools.
 - [CCEA Software Systems Development](/ccea-a-level-software-systems-development-help): The Northern Ireland A level route.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): Our hub for every UK page.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Computer science applications
+
+- [Computer science personal statement projects](/computer-science-personal-statement-projects-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
+- [BTEC IT programming unit help](/btec-it-programming-unit-help)
+
+### Admissions tests and interviews
+
+- [TMUA preparation](/tmua-preparation)
+- [STEP maths preparation](/step-maths-preparation)
+- [ESAT maths preparation](/esat-maths-preparation)
+- [Oxford MAT preparation](/oxford-mat-preparation)
+- [Oxbridge maths interview preparation](/oxbridge-maths-interview-problem-solving)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

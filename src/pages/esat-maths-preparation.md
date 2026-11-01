@@ -6,7 +6,7 @@ source: src/pages/esat-maths-preparation.html
 ---
 > The ESAT (Engineering and Science Admissions Test) is sat on screen at Pearson test centres and administered by UAT-UK, for entry to engineering and science degrees. It has five modules of 27 multiple-choice questions and 40 minutes each; every candidate sits Mathematics 1, and most add two more, such as Mathematics 2 and Physics. There is no calculator and no penalty for a wrong answer. For 2027 entry the October sitting runs 12 to 16 October 2026 and the January sitting 4 to 8 January 2027. Modern Age Coders teaches the two mathematics modules live online, either in a class of 15 to 20 students or with a single teacher 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / ESAT maths preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / ESAT maths preparation
 
 United Kingdom · Years 12 and 13 · Sittings 12 to 16 October 2026 and 4 to 8 January 2027
 
@@ -368,6 +368,29 @@ No. We are an independent online school with no link to UAT-UK, Pearson or any u
 - [UKMT maths challenge tutoring](/ukmt-maths-challenge-tutoring): Fast multiple-choice problem solving, a year or two earlier.
 - [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation): For applicants who want harder problems than any test sets.
 - [Maths tuition in London](/maths-tuition-in-london): Live lessons for London sixth formers, wherever they apply.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Admissions tests and interviews
+
+- [TMUA preparation](/tmua-preparation)
+- [STEP maths preparation](/step-maths-preparation)
+- [Oxford MAT preparation](/oxford-mat-preparation)
+- [Oxbridge maths interview preparation](/oxbridge-maths-interview-problem-solving)
+
+### Computer science applications
+
+- [Computer science personal statement projects](/computer-science-personal-statement-projects-uk)
+- [A level Computer Science tutor online](/a-level-computer-science-tutor-online-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
+- [BTEC IT programming unit help](/btec-it-programming-unit-help)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

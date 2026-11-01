@@ -6,7 +6,7 @@ source: src/pages/btec-it-programming-unit-help.html
 ---
 > BTEC IT Unit 4 Programming is a mandatory, internally assessed unit of 90 guided learning hours in the Pearson BTEC Level 3 National Foundation Diploma, Diploma and Extended Diploma in Information Technology (2016). Students examine computational thinking, then design and develop a program for a client, graded Pass, Merit or Distinction. Pearson requires the work to be the learner's "own independent work". Modern Age Coders gives BTEC IT programming unit help live online, in a group of 15 to 20 or 1-on-1, through its Python for Teens course, teaching the skills on our own practice briefs and never on assessed work. The first lesson is free; we are not connected with Pearson or any college.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / BTEC IT programming help
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / BTEC IT programming help
 
 England, Wales and Northern Ireland · Pearson BTEC Level 3 Nationals · Information Technology
 
@@ -335,6 +335,29 @@ No. Modern Age Coders is an independent online school, not linked to Pearson or 
 - [CCEA Software Systems Development](/ccea-a-level-software-systems-development-help): Northern Ireland's programming A level.
 - [AI agents course for students](/ai-agents-course-for-students-uk): Building with AI once the basics are secure.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): All our UK pages.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Computer science applications
+
+- [Computer science personal statement projects](/computer-science-personal-statement-projects-uk)
+- [A level Computer Science tutor online](/a-level-computer-science-tutor-online-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
+
+### Admissions tests and interviews
+
+- [TMUA preparation](/tmua-preparation)
+- [STEP maths preparation](/step-maths-preparation)
+- [ESAT maths preparation](/esat-maths-preparation)
+- [Oxford MAT preparation](/oxford-mat-preparation)
+- [Oxbridge maths interview preparation](/oxbridge-maths-interview-problem-solving)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

@@ -343,7 +343,7 @@ No. We are an independent teaching company with no link to UAT-UK, OCR, AQA, Pea
 - [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
 - [BTEC IT programming unit help](/btec-it-programming-unit-help)
 
-More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

@@ -6,7 +6,7 @@ source: src/pages/computer-science-personal-statement-projects-uk.html
 ---
 > The UCAS personal statement is now three questions sharing 4,000 characters, each answer at least 350 characters, and Imperial confirms that structure for 2027 entry. For computer science, Cambridge suggests super-curricular work such as building an app, a command-line program or a Raspberry Pi device, or researching a theoretical topic. Modern Age Coders mentors sixth formers live online, in a group of 15 to 20 or 1-on-1, through building and measuring such a project; we never write or edit any part of the statement.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / CS personal statement projects
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / CS personal statement projects
 
 United Kingdom · Years 12 and 13 · UCAS applications for 2027 entry
 
@@ -294,6 +294,29 @@ No. Modern Age Coders is an independent online school, not connected with UCAS, 
 - [AQA Computer Science 7517](/aqa-a-level-computer-science-7517-help): The AQA A Level, paper by paper.
 - [British Informatics Olympiad](/british-informatics-olympiad-preparation): A national competition UCAS-style evidence can point to.
 - [UK Olympiad in AI](/uk-olympiad-in-artificial-intelligence-preparation): For students whose project is machine learning.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Computer science applications
+
+- [A level Computer Science tutor online](/a-level-computer-science-tutor-online-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
+- [BTEC IT programming unit help](/btec-it-programming-unit-help)
+
+### Admissions tests and interviews
+
+- [TMUA preparation](/tmua-preparation)
+- [STEP maths preparation](/step-maths-preparation)
+- [ESAT maths preparation](/esat-maths-preparation)
+- [Oxford MAT preparation](/oxford-mat-preparation)
+- [Oxbridge maths interview preparation](/oxbridge-maths-interview-problem-solving)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

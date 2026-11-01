@@ -6,7 +6,7 @@ source: src/pages/epq-computer-science-artefact-mentoring.html
 ---
 > An EPQ computer science artefact is an Extended Project Qualification (AQA 7993 or the Pearson Edexcel Level 3 Extended Project) whose product is something built, such as an app, website or AI model, with a research-based written report of at least 1000 words at AQA. The qualification is 120 guided learning hours, and at AQA the Develop and Realise objective carries 40 per cent. Modern Age Coders offers EPQ computer science artefact mentoring live online, one to one or in batches of 15 to 20, through its AI and Machine Learning for Teens course, teaching method on practice material and never writing or editing the project. The first session is free; we are not linked with any exam board or school.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / EPQ computing artefact
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / EPQ computing artefact
 
 England, Wales and Northern Ireland · Extended Project Qualification · Computing and AI artefacts
 
@@ -323,6 +323,29 @@ No. We are a separate online teaching business, unconnected to AQA, Pearson, OCR
 - [T Level digital help](/t-level-digital-coding-help): The technical post-16 route.
 - [OCR A level Computer Science H446](/ocr-a-level-computer-science-h446-help): One of the two main A level boards.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): The hub that indexes every UK page we publish.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Computer science applications
+
+- [Computer science personal statement projects](/computer-science-personal-statement-projects-uk)
+- [A level Computer Science tutor online](/a-level-computer-science-tutor-online-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [BTEC IT programming unit help](/btec-it-programming-unit-help)
+
+### Admissions tests and interviews
+
+- [TMUA preparation](/tmua-preparation)
+- [STEP maths preparation](/step-maths-preparation)
+- [ESAT maths preparation](/esat-maths-preparation)
+- [Oxford MAT preparation](/oxford-mat-preparation)
+- [Oxbridge maths interview preparation](/oxbridge-maths-interview-problem-solving)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

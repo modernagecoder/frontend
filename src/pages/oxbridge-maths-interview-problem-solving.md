@@ -6,7 +6,7 @@ source: src/pages/oxbridge-maths-interview-problem-solving.html
 ---
 > Oxbridge maths interviews are academic problem-solving conversations held by Oxford colleges and Cambridge Colleges for mathematics applicants, after the TMUA in October. Oxford interviews are online, about 25 minutes each, in December; Cambridge's main interview period for 2027 entry is 7 to 18 December 2026, with most applicants having one or two interviews totalling 35 minutes to an hour. Both say they want to see how you think. Modern Age Coders runs live online interview practice with original problems, in a group of 15 to 20 or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Oxbridge maths interviews
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / Oxbridge maths interviews
 
 United Kingdom · Year 13 · Interviews in December 2026
 
@@ -295,6 +295,29 @@ No. Modern Age Coders is independent and is not endorsed by the University of Ox
 - [Further Maths tuition online](/further-maths-tuition-online): The A Level Cambridge asks mathematicians to take.
 - [A Level Maths tuition online](/a-level-maths-tuition-online): The syllabus interview problems start from.
 - [UKMT maths challenge tutoring](/ukmt-maths-challenge-tutoring): Short unfamiliar problems, from Year 7 up.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Admissions tests and interviews
+
+- [TMUA preparation](/tmua-preparation)
+- [STEP maths preparation](/step-maths-preparation)
+- [ESAT maths preparation](/esat-maths-preparation)
+- [Oxford MAT preparation](/oxford-mat-preparation)
+
+### Computer science applications
+
+- [Computer science personal statement projects](/computer-science-personal-statement-projects-uk)
+- [A level Computer Science tutor online](/a-level-computer-science-tutor-online-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
+- [BTEC IT programming unit help](/btec-it-programming-unit-help)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

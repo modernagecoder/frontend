@@ -6,7 +6,7 @@ source: src/pages/oxford-mat-preparation.html
 ---
 > The Oxford MAT (Mathematics Admissions Test) no longer exists: the Mathematical Institute used it from 2007 to 2025 and says that from 2026 all applicants for Mathematics, Computer Science and joint honours courses take the TMUA, administered by UAT-UK, in the 12 to 16 October 2026 sitting. The TMUA is two 75-minute papers of 20 multiple-choice questions each, with no calculator. Oxford says MAT topics are very similar, so MAT papers remain useful practice. Modern Age Coders teaches Year 13 Oxford applicants live online, in a batch of 15 to 20 or 1-on-1, through our TMUA, MAT and STEP preparation course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Oxford MAT preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / Oxford MAT preparation
 
 United Kingdom · Year 13 · Oxford Mathematics and Computer Science, 2026 round
 
@@ -332,6 +332,29 @@ No. Modern Age Coders is an independent online school with no connection to the 
 - [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation): Six problems in three and a half hours, sat in school.
 - [Oxford University Computing Challenge](/oxford-university-computing-challenge-preparation): A computing competition for applicants drawn to Computer Science.
 - [Maths tuition in Oxford](/maths-tuition-in-oxford): For families who live in the city itself.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Admissions tests and interviews
+
+- [TMUA preparation](/tmua-preparation)
+- [STEP maths preparation](/step-maths-preparation)
+- [ESAT maths preparation](/esat-maths-preparation)
+- [Oxbridge maths interview preparation](/oxbridge-maths-interview-problem-solving)
+
+### Computer science applications
+
+- [Computer science personal statement projects](/computer-science-personal-statement-projects-uk)
+- [A level Computer Science tutor online](/a-level-computer-science-tutor-online-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
+- [BTEC IT programming unit help](/btec-it-programming-unit-help)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

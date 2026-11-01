@@ -6,7 +6,7 @@ source: src/pages/step-maths-preparation.html
 ---
 > STEP (Sixth Term Examination Paper) is a mathematics exam set by OCR and used by the University of Cambridge, the University of Warwick and Imperial College London. There are two papers, STEP 2 and STEP 3, each three hours long with twelve questions; only the six highest-scoring answers count, each marked out of 20, and grades run S, 1, 2, 3, U. In 2027 STEP 2 is on 14 June and STEP 3 on 21 June. Modern Age Coders runs live online STEP classes for Year 13 students, as a group of fifteen to twenty or one-to-one, as part of its admissions-test course for TMUA, MAT and STEP.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / STEP maths preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide) / STEP maths preparation
 
 United Kingdom · Year 13 · STEP 2 on 14 June 2027 and STEP 3 on 21 June 2027
 
@@ -320,6 +320,29 @@ No. We teach independently, online, and OCR, Cambridge University Press and Asse
 - [British Mathematical Olympiad](/british-mathematical-olympiad-bmo-preparation): Long problems in November, a good rehearsal for June.
 - [Further Maths tutor cost in the UK](/further-maths-tutor-cost-uk): What families pay for help at this level, and why it varies.
 - [Maths tuition in Cambridge](/maths-tuition-in-cambridge): For families living in the city.
+
+## Related pages in this guide
+
+Part of the guide: [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
+
+### Admissions tests and interviews
+
+- [TMUA preparation](/tmua-preparation)
+- [ESAT maths preparation](/esat-maths-preparation)
+- [Oxford MAT preparation](/oxford-mat-preparation)
+- [Oxbridge maths interview preparation](/oxbridge-maths-interview-problem-solving)
+
+### Computer science applications
+
+- [Computer science personal statement projects](/computer-science-personal-statement-projects-uk)
+- [A level Computer Science tutor online](/a-level-computer-science-tutor-online-uk)
+- [AQA A-level Computer Science 7517 help](/aqa-a-level-computer-science-7517-help)
+- [OCR A-level Computer Science H446 help](/ocr-a-level-computer-science-h446-help)
+- [A-level Computer Science coursework help](/a-level-computer-science-nea-help)
+- [EPQ computer science artefact mentoring](/epq-computer-science-artefact-mentoring)
+- [BTEC IT programming unit help](/btec-it-programming-unit-help)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 
