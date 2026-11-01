@@ -6,7 +6,7 @@ source: src/pages/njgpa-math-prep.html
 ---
 > The NJGPA-A (New Jersey Graduation Proficiency Assessment-Adaptive) is the New Jersey Department of Education&rsquo;s graduation test, taken in grade 11. Its math component covers Algebra I and Geometry, at least 40 items in two 75-minute sessions, and 450 on a 300 to 650 scale is Graduation Ready. Our High School Mathematics course rebuilds that content live online for juniors, either in a group batch or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / NJGPA math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US state math tests by state](/us-state-math-tests-by-state) / NJGPA math prep
 
 New Jersey · Grade 11 · From NJDOE&rsquo;s own documents
 
@@ -340,6 +340,40 @@ No. We are an independent tutoring company and have nothing to do with NJDOE, Ne
 - [ACT math tutoring](/act-math-tutoring-online): Another second-pathway option.
 - [Trigonometry tutoring](/trigonometry-tutoring-online): For the largest Geometry category.
 - [Coding classes in New Jersey](/coding-classes-in-new-jersey): Coding and AI for New Jersey teens.
+
+## Related pages in this guide
+
+Part of the guide: [US state math tests by state](/us-state-math-tests-by-state)
+
+### High school end-of-course and graduation tests
+
+- [Algebra 1 EOC prep](/algebra-1-eoc-prep)
+- [STAAR Algebra 1 EOC prep](/staar-algebra-1-eoc-prep)
+- [Keystone Algebra I prep](/keystone-algebra-1-prep)
+- [NC Math 1 EOC prep](/nc-math-1-eoc-prep)
+- [Algebra 1 Regents prep](/algebra-1-regents-prep)
+- [Geometry Regents prep](/geometry-regents-prep)
+- [Algebra 2 Regents prep](/algebra-2-regents-prep)
+
+### State tests, grades 3 to 8
+
+- [CAASPP math practice](/caaspp-math-practice)
+- [Smarter Balanced math practice](/smarter-balanced-math-practice)
+- [CMAS math practice](/colorado-cmas-math-practice)
+- [Illinois IAR math practice](/illinois-iar-math-practice)
+- [MCAS math prep](/mcas-math-prep)
+- [NC EOG math practice](/nc-eog-math-practice)
+- [NJSLA math practice](/njsla-math-practice)
+- [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)
+- [PSSA math practice](/pssa-math-practice)
+- [STAAR math tutoring](/staar-math-tutoring)
+
+### Standards behind the tests
+
+- [Common Core math tutor](/common-core-math-tutor)
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math)
+
+More guides: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

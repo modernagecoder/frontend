@@ -6,7 +6,7 @@ source: src/pages/geometry-regents-prep.html
 ---
 > New York&rsquo;s Regents Examination in Geometry, set by NYSED, tests the high school geometry course against the Next Generation standards, first in this form in June 2025. Students answer 35 questions for 80 credits over three hours, with compass, straightedge and graphing calculator, finishing on a six-credit proof. In June 2027 it falls on Tuesday the 22nd at 1:15 p.m. Modern Age Coders prepares students for it live online, in a batch or 1-on-1, through our High School Mathematics course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Geometry Regents prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US state math tests by state](/us-state-math-tests-by-state) / Geometry Regents prep
 
 New York · Regents Examination in Geometry · Next Generation, since June 2025
 
@@ -312,6 +312,40 @@ No. Modern Age Coders is an independent school that teaches geometry live online
 - [Algebra 2 tutoring](/algebra-2-tutoring-online): The course after Geometry.
 - [Precalculus tutoring](/precalculus-tutoring-online): Trigonometry carried further.
 - [Coding classes in New York](/coding-classes-in-new-york): Our New York page.
+
+## Related pages in this guide
+
+Part of the guide: [US state math tests by state](/us-state-math-tests-by-state)
+
+### High school end-of-course and graduation tests
+
+- [Algebra 1 EOC prep](/algebra-1-eoc-prep)
+- [STAAR Algebra 1 EOC prep](/staar-algebra-1-eoc-prep)
+- [Keystone Algebra I prep](/keystone-algebra-1-prep)
+- [NC Math 1 EOC prep](/nc-math-1-eoc-prep)
+- [NJGPA math prep](/njgpa-math-prep)
+- [Algebra 1 Regents prep](/algebra-1-regents-prep)
+- [Algebra 2 Regents prep](/algebra-2-regents-prep)
+
+### State tests, grades 3 to 8
+
+- [CAASPP math practice](/caaspp-math-practice)
+- [Smarter Balanced math practice](/smarter-balanced-math-practice)
+- [CMAS math practice](/colorado-cmas-math-practice)
+- [Illinois IAR math practice](/illinois-iar-math-practice)
+- [MCAS math prep](/mcas-math-prep)
+- [NC EOG math practice](/nc-eog-math-practice)
+- [NJSLA math practice](/njsla-math-practice)
+- [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)
+- [PSSA math practice](/pssa-math-practice)
+- [STAAR math tutoring](/staar-math-tutoring)
+
+### Standards behind the tests
+
+- [Common Core math tutor](/common-core-math-tutor)
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math)
+
+More guides: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

@@ -6,7 +6,7 @@ source: src/pages/smarter-balanced-math-practice.html
 ---
 > The Smarter Balanced math test (SBAC) is the consortium&rsquo;s summative mathematics assessment for grades 3 to 8 and 11, given by member states such as California. It combines computer-adaptive items with a performance task and measures four claims: Concepts and Procedures, Problem Solving, Communicating Reasoning and Modeling and Data Analysis. Modern Age Coders teaches the math behind it live online, in a batch or 1-on-1, built on our Elementary Maths course and grade-level classes.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Smarter Balanced math practice
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US state math tests by state](/us-state-math-tests-by-state) / Smarter Balanced math practice
 
 Smarter Balanced states · Grades 3 to 8 and 11 · From the consortium&rsquo;s documents
 
@@ -321,6 +321,40 @@ No. Modern Age Coders is an independent online school with no link to the Smarte
 - [Seventh grade math tutoring](/online-math-tutor-7th-grade): Proportions, integers and equations.
 - [Middle school math competitions](/math-competitions-for-middle-school-students): Reasoning beyond the state test.
 - [Coding and AI classes in Oregon](/coding-and-ai-classes-in-oregon): One of our state pages.
+
+## Related pages in this guide
+
+Part of the guide: [US state math tests by state](/us-state-math-tests-by-state)
+
+### State tests, grades 3 to 8
+
+- [CAASPP math practice](/caaspp-math-practice)
+- [CMAS math practice](/colorado-cmas-math-practice)
+- [Illinois IAR math practice](/illinois-iar-math-practice)
+- [MCAS math prep](/mcas-math-prep)
+- [NC EOG math practice](/nc-eog-math-practice)
+- [NJSLA math practice](/njsla-math-practice)
+- [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)
+- [PSSA math practice](/pssa-math-practice)
+- [STAAR math tutoring](/staar-math-tutoring)
+
+### High school end-of-course and graduation tests
+
+- [Algebra 1 EOC prep](/algebra-1-eoc-prep)
+- [STAAR Algebra 1 EOC prep](/staar-algebra-1-eoc-prep)
+- [Keystone Algebra I prep](/keystone-algebra-1-prep)
+- [NC Math 1 EOC prep](/nc-math-1-eoc-prep)
+- [NJGPA math prep](/njgpa-math-prep)
+- [Algebra 1 Regents prep](/algebra-1-regents-prep)
+- [Geometry Regents prep](/geometry-regents-prep)
+- [Algebra 2 Regents prep](/algebra-2-regents-prep)
+
+### Standards behind the tests
+
+- [Common Core math tutor](/common-core-math-tutor)
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math)
+
+More guides: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

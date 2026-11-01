@@ -352,6 +352,7 @@ No. Modern Age Coders is an independent online school with no tie to any state e
 - [Common Core math tutor](/common-core-math-tutor)
 - [Common Core math vs traditional math](/common-core-math-vs-traditional-math)
 
+More guides: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

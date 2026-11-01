@@ -6,7 +6,7 @@ source: src/pages/staar-algebra-1-eoc-prep.html
 ---
 > The STAAR Algebra I EOC is the Texas Education Agency&rsquo;s end-of-course exam for Algebra I, one of five EOCs Texas students must pass to graduate. TEA&rsquo;s blueprint gives it 50 questions worth 59 points across five reporting categories, with a graphing calculator required throughout. In 2026 to 2027 it runs in December, April and June. Modern Age Coders teaches it live online, in a batch or 1-on-1, through our Algebra Foundations course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / STAAR Algebra 1 EOC
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US state math tests by state](/us-state-math-tests-by-state) / STAAR Algebra 1 EOC
 
 Texas · Algebra I end-of-course · Usually grade 8 or 9
 
@@ -317,6 +317,40 @@ No. We are an independent online school. We teach the Algebra I TEKS, quote TEA'
 - [Ninth grade math tutoring](/online-math-tutor-9th-grade): The usual Algebra I year.
 - [Geometry tutoring](/geometry-tutoring-online-usa): The course that usually comes next.
 - [Coding classes in Texas](/coding-classes-in-texas): Our Texas page.
+
+## Related pages in this guide
+
+Part of the guide: [US state math tests by state](/us-state-math-tests-by-state)
+
+### High school end-of-course and graduation tests
+
+- [Algebra 1 EOC prep](/algebra-1-eoc-prep)
+- [Keystone Algebra I prep](/keystone-algebra-1-prep)
+- [NC Math 1 EOC prep](/nc-math-1-eoc-prep)
+- [NJGPA math prep](/njgpa-math-prep)
+- [Algebra 1 Regents prep](/algebra-1-regents-prep)
+- [Geometry Regents prep](/geometry-regents-prep)
+- [Algebra 2 Regents prep](/algebra-2-regents-prep)
+
+### State tests, grades 3 to 8
+
+- [CAASPP math practice](/caaspp-math-practice)
+- [Smarter Balanced math practice](/smarter-balanced-math-practice)
+- [CMAS math practice](/colorado-cmas-math-practice)
+- [Illinois IAR math practice](/illinois-iar-math-practice)
+- [MCAS math prep](/mcas-math-prep)
+- [NC EOG math practice](/nc-eog-math-practice)
+- [NJSLA math practice](/njsla-math-practice)
+- [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)
+- [PSSA math practice](/pssa-math-practice)
+- [STAAR math tutoring](/staar-math-tutoring)
+
+### Standards behind the tests
+
+- [Common Core math tutor](/common-core-math-tutor)
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math)
+
+More guides: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

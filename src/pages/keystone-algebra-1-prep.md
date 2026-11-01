@@ -6,7 +6,7 @@ source: src/pages/keystone-algebra-1-prep.html
 ---
 > The Keystone Algebra I is Pennsylvania&rsquo;s end-of-course Algebra I exam, set by the Pennsylvania Department of Education and taken online at or near the end of the course. It has two modules, each with 18 points of multiple-choice and technology-enhanced items and three 4-point constructed-response items, for 60 points in all, and no time limit. It is offered in winter, spring and summer. Modern Age Coders runs live online Keystone preparation, as a group batch or 1-on-1, built on the Algebra Foundations course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Keystone Algebra I prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US state math tests by state](/us-state-math-tests-by-state) / Keystone Algebra I prep
 
 Pennsylvania · Algebra I end-of-course · From PDE&rsquo;s test definition
 
@@ -337,6 +337,40 @@ No. We are a separate, independent online school. PDE writes and runs the Keysto
 - [PSAT 8/9 math prep](/psat-8-9-math-prep): The same algebra, a different test.
 - [Pennsylvania coding and AI](/coding-and-ai-classes-in-pennsylvania): Python and AI alongside Algebra I.
 - [SAT math tutoring](/sat-math-tutoring-online): Where Keystone algebra leads next.
+
+## Related pages in this guide
+
+Part of the guide: [US state math tests by state](/us-state-math-tests-by-state)
+
+### High school end-of-course and graduation tests
+
+- [Algebra 1 EOC prep](/algebra-1-eoc-prep)
+- [STAAR Algebra 1 EOC prep](/staar-algebra-1-eoc-prep)
+- [NC Math 1 EOC prep](/nc-math-1-eoc-prep)
+- [NJGPA math prep](/njgpa-math-prep)
+- [Algebra 1 Regents prep](/algebra-1-regents-prep)
+- [Geometry Regents prep](/geometry-regents-prep)
+- [Algebra 2 Regents prep](/algebra-2-regents-prep)
+
+### State tests, grades 3 to 8
+
+- [CAASPP math practice](/caaspp-math-practice)
+- [Smarter Balanced math practice](/smarter-balanced-math-practice)
+- [CMAS math practice](/colorado-cmas-math-practice)
+- [Illinois IAR math practice](/illinois-iar-math-practice)
+- [MCAS math prep](/mcas-math-prep)
+- [NC EOG math practice](/nc-eog-math-practice)
+- [NJSLA math practice](/njsla-math-practice)
+- [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)
+- [PSSA math practice](/pssa-math-practice)
+- [STAAR math tutoring](/staar-math-tutoring)
+
+### Standards behind the tests
+
+- [Common Core math tutor](/common-core-math-tutor)
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math)
+
+More guides: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

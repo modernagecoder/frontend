@@ -6,7 +6,7 @@ source: src/pages/nc-math-1-eoc-prep.html
 ---
 > The NC Math 1 and NC Math 3 End-of-Course (EOC) tests are NCDPI&rsquo;s state exams for those two courses, taken online at the end of the course. Each has 60 items, 50 of them scored, with a graphing calculator; NC Math 1 also has 15 calculator-inactive items. Results count for at least 20 percent of the final course grade. Our Algebra Foundations course covers NC Math 1 live online, with group batches and 1-on-1 options, and our high school course carries on to NC Math 3.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / NC Math 1 and 3 EOC prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US state math tests by state](/us-state-math-tests-by-state) / NC Math 1 and 3 EOC prep
 
 North Carolina · NC Math 1 and NC Math 3 · From NCDPI&rsquo;s specifications
 
@@ -327,6 +327,40 @@ No. We are a tutoring company working independently; neither the state departmen
 - [ACT math tutoring](/act-math-tutoring-online): The grade 11 test in North Carolina.
 - [Coding classes in Charlotte](/best-coding-classes-for-kids-in-charlotte): For North Carolina families.
 - [Coding and AI in North Carolina](/coding-and-ai-classes-in-north-carolina): Python and AI classes for NC teens.
+
+## Related pages in this guide
+
+Part of the guide: [US state math tests by state](/us-state-math-tests-by-state)
+
+### High school end-of-course and graduation tests
+
+- [Algebra 1 EOC prep](/algebra-1-eoc-prep)
+- [STAAR Algebra 1 EOC prep](/staar-algebra-1-eoc-prep)
+- [Keystone Algebra I prep](/keystone-algebra-1-prep)
+- [NJGPA math prep](/njgpa-math-prep)
+- [Algebra 1 Regents prep](/algebra-1-regents-prep)
+- [Geometry Regents prep](/geometry-regents-prep)
+- [Algebra 2 Regents prep](/algebra-2-regents-prep)
+
+### State tests, grades 3 to 8
+
+- [CAASPP math practice](/caaspp-math-practice)
+- [Smarter Balanced math practice](/smarter-balanced-math-practice)
+- [CMAS math practice](/colorado-cmas-math-practice)
+- [Illinois IAR math practice](/illinois-iar-math-practice)
+- [MCAS math prep](/mcas-math-prep)
+- [NC EOG math practice](/nc-eog-math-practice)
+- [NJSLA math practice](/njsla-math-practice)
+- [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)
+- [PSSA math practice](/pssa-math-practice)
+- [STAAR math tutoring](/staar-math-tutoring)
+
+### Standards behind the tests
+
+- [Common Core math tutor](/common-core-math-tutor)
+- [Common Core math vs traditional math](/common-core-math-vs-traditional-math)
+
+More guides: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

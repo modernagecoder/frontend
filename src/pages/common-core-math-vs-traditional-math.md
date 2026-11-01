@@ -6,7 +6,7 @@ source: src/pages/common-core-math-vs-traditional-math.html
 ---
 > Common Core math does not replace the standard algorithms; the standards require them: adding and subtracting multi-digit numbers in grade 4 (4.NBT.B.4), multiplying in grade 5 (5.NBT.B.5) and dividing in grade 6 (6.NS.B.2). Before that, students use place-value strategies and models such as area models and explain their reasoning. Traditional math usually means teaching the algorithm first and practising it heavily. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Common Core vs traditional math
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US state math tests by state](/us-state-math-tests-by-state) / Common Core vs traditional math
 
 United States · Grades K to 8 · From the standards themselves
 
@@ -108,6 +108,22 @@ A child who understands the area model usually learns the algorithm faster and m
 
 Division follows the same idea. For 852 / 4, a Common Core worksheet may use partial quotients: 4 x 200 = 800, leaving 52; 4 x 13 = 52; so the quotient is 200 + 13 = 213. Long division, required by 6.NS.B.2, records the same steps digit by digit.
 
+**partial_products.py (our example)** (Python 3)
+```python3
+def place_values(n):
+    digits = str(n)
+    return [int(d) * 10 ** (len(digits) - i - 1) for i, d in enumerate(digits) if d != "0"]
+
+def partial_products(a, b):
+    parts = [x * y for x in place_values(a) for y in place_values(b)]
+    print(" + ".join(str(p) for p in parts), "=", sum(parts))
+    return sum(parts)
+
+assert partial_products(47, 36) == 47 * 36
+partial_products(128, 5)
+```
+Output: 1200 + 240 + 210 + 42 = 1692, then 500 + 100 + 40 = 640. The assert line checks the area-model total against Python&rsquo;s own multiplication, the way a student checks one method with another.
+
 ## The habits Common Core asks for in every grade
 
 Alongside grade content, the standards list eight Standards for Mathematical Practice. They explain why homework often asks a child to "explain" or "show another way".
@@ -140,6 +156,12 @@ Both can be true in a given classroom. The standards ask for balance; whether a 
 ## How to help with homework in a method you were not taught
 
 Our advice for parents who learned the algorithm first.
+
+1. Ask your child to teach you the method. Explaining is itself one of the practices the homework is aiming at.
+2. Check the answer your way. If both methods agree, the method on the page is probably fine.
+3. Match each part of the model to your method. Show how the carried digit is one of the partial products.
+4. Do not skip the model if the assignment asks for it. The teacher is assessing the reasoning, not only the answer.
+5. Keep a few minutes for facts. Times tables from memory are a grade 3 standard and make every later method easier.
 
 **A short practice set, both ways (ours; answers in brackets)**
 
@@ -277,6 +299,40 @@ No. We are an independent online school; we quote the published standards and li
 - [CS graduation requirements by state](/computer-science-graduation-requirements-by-state): Computer science graduation requirements in all 50 states and DC, with state sources.
 - [CS standards by state](/computer-science-standards-by-state): Which states have K-12 computer science standards, and which include AI.
 - [High school CS access by state](/high-school-computer-science-access-by-state): High school computer science access and enrollment in every US state, 2025 data.
+
+## Related pages in this guide
+
+Part of the guide: [US state math tests by state](/us-state-math-tests-by-state)
+
+### Standards behind the tests
+
+- [Common Core math tutor](/common-core-math-tutor)
+
+### State tests, grades 3 to 8
+
+- [CAASPP math practice](/caaspp-math-practice)
+- [Smarter Balanced math practice](/smarter-balanced-math-practice)
+- [CMAS math practice](/colorado-cmas-math-practice)
+- [Illinois IAR math practice](/illinois-iar-math-practice)
+- [MCAS math prep](/mcas-math-prep)
+- [NC EOG math practice](/nc-eog-math-practice)
+- [NJSLA math practice](/njsla-math-practice)
+- [NYS math test prep, grades 3 to 8](/nys-math-test-prep-grades-3-8)
+- [PSSA math practice](/pssa-math-practice)
+- [STAAR math tutoring](/staar-math-tutoring)
+
+### High school end-of-course and graduation tests
+
+- [Algebra 1 EOC prep](/algebra-1-eoc-prep)
+- [STAAR Algebra 1 EOC prep](/staar-algebra-1-eoc-prep)
+- [Keystone Algebra I prep](/keystone-algebra-1-prep)
+- [NC Math 1 EOC prep](/nc-math-1-eoc-prep)
+- [NJGPA math prep](/njgpa-math-prep)
+- [Algebra 1 Regents prep](/algebra-1-regents-prep)
+- [Geometry Regents prep](/geometry-regents-prep)
+- [Algebra 2 Regents prep](/algebra-2-regents-prep)
+
+More guides: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 
