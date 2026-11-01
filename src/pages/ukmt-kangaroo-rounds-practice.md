@@ -4,28 +4,34 @@ description: "Preparing for the UKMT Kangaroo rounds: 25 multiple choice questio
 canonical: https://learn.modernagecoders.com/ukmt-kangaroo-rounds-practice
 source: src/pages/ukmt-kangaroo-rounds-practice.html
 ---
-> Preparing for the UKMT Kangaroo rounds: 25 multiple choice questions in 60 minutes, who sits which paper, and why the wrong options are somebody else's working.
+> The UKMT Kangaroo rounds are follow-on papers to the Mathematical Challenges. Grey and Pink are described by UKMT as "60 minute, 25 multiple choice challenges" following the Intermediate Maths Challenge, with Grey for "England and Wales: Year 9 and below" and Pink for "England and Wales: Year 10 and 11"; both fall on 18 March 2027 alongside the Primary Kangaroo, "a 20 question multiple choice paper aimed at students aged 9-11". The Junior Kangaroo, 60 minutes and 25 questions for "students year 8 or below", is on 15 June 2027, and the Andrew Jobbings Senior Kangaroo, same length for "students year 13 or below", on 18 November 2026. Entry is by invitation on a qualifying Challenge score or by discretionary entry, and UKMT says several thousand UK students qualify from the Intermediate Challenge each year. We teach the mathematics underneath, live online for ages 6 to 67. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-In short
+[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / UKMT Kangaroo rounds
 
-The UKMT Kangaroo rounds are follow-on papers to the Mathematical Challenges. Grey and Pink are described by UKMT as "60 minute, 25 multiple choice challenges" following the Intermediate Maths Challenge, with Grey for "England and Wales: Year 9 and below" and Pink for "England and Wales: Year 10 and 11"; both fall on 18 March 2027 alongside the Primary Kangaroo, "a 20 question multiple choice paper aimed at students aged 9-11". The Junior Kangaroo, 60 minutes and 25 questions for "students year 8 or below", is on 15 June 2027, and the Andrew Jobbings Senior Kangaroo, same length for "students year 13 or below", on 18 November 2026. Entry is by invitation on a qualifying Challenge score or by discretionary entry, and UKMT says several thousand UK students qualify from the Intermediate Challenge each year. We teach the mathematics underneath, live online for ages 6 to 67. The first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+United Kingdom · Ages 9 to 18 · November, March and June
 
-Where to start
+# UKMT Kangaroo rounds practice
+
+The Kangaroo is the biggest school mathematics competition on earth and most British parents have never heard of it. UKMT is the UK member of the Association Kangourou sans Frontières, and around six million young people sit a Kangaroo paper somewhere in the world each year. In Britain it arrives as a follow-on round: a pupil does well in a Challenge, and a few weeks later sits twenty-five multiple-choice questions in sixty minutes at a level a notch above. The format looks familiar and the questions are not, and there is one thing about a good multiple-choice paper that almost nobody explains to a child before they sit one.
+
+At a glance: Organiser: UK Mathematics Trust; Part of: Kangourou sans Frontières; Worldwide: Around six million entrants a year; Format: 25 questions in 60 minutes; Primary paper: 20 questions, ages 9 to 11; Five papers: Primary, Junior, Grey, Pink, Senior; Entry: From a Challenge score, or discretionary; Entered by: A school, not by us. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a Kangaroo candidate
 
 Speed comes from fluency, and fluency is the thing a course can actually build.
 
-[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  KAN / 01 Mental maths for kids For the Primary and Junior papers: calculation that arrives instead of being worked out. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  KAN / 02 Middle school maths mastery For Grey and Pink: the algebra, ratio and geometry those questions are built from. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  KAN / 03 Olympiad and competition maths For a pupil who finds the Challenge easy and wants questions that resist a first look. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)
-
-The five papers
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): For the Primary and Junior papers: calculation that arrives instead of being worked out.
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): For Grey and Pink: the algebra, ratio and geometry those questions are built from.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): For a pupil who finds the Challenge easy and wants questions that resist a first look.
 
 ## One format, five age groups, three dates
 
 Facts read at UKMT's own pages on 20 September 2026.
 
+**The UKMT Kangaroo rounds, as UKMT publishes them**
+
 | Paper | 2026-27 date | Format | Who sits it |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | Primary Kangaroo | 18 March 2027 | 20 multiple choice questions | Aged 9 to 11: Year 5 or 6 and below in England and Wales, P6 or P7 and below in Scotland and Northern Ireland |
 | Junior Kangaroo | 15 June 2027 | 25 questions in 60 minutes | "students year 8 or below", following the Junior Mathematical Challenge |
 | Grey Kangaroo | 18 March 2027 | 25 questions in 60 minutes | Year 9 and below in England and Wales, S2 or below in Scotland, Year 10 or below in Northern Ireland |
@@ -42,16 +48,16 @@ Two of these papers share their date with an olympiad. The Grey and Pink papers 
 
 Sources: [UKMT, Grey and Pink Kangaroos](https://ukmt.org.uk/intermediate-challenges/grey-and-pink-kangaroos), [Primary Kangaroo](https://ukmt.org.uk/junior-challenges/primary-kangaroo) and the [competitions calendar](https://ukmt.org.uk/competitions), read 20 September 2026. We have no connection with the UK Mathematics Trust or Kangourou sans Frontières.
 
-The method
-
 ## The wrong answers are somebody's working
 
 In a well-written multiple-choice paper the options are not decoration. Each wrong one is the number a particular ordinary mistake produces.
 
 Take a question of the right shape. **A price goes up by 10 per cent, then down by 10 per cent, and finishes at 99. What was it before?** Most pupils get to an answer inside a minute. The interesting part is how many different answers a minute produces.
 
+**Our arithmetic of 20 September 2026: one question, six plausible numbers**
+
 | Number | The thinking that produces it | Right? |
-| --- | --- | --- |
+|---|---|---|
 | 100 | Up 10 per cent then down 10 per cent multiplies by 0.99, so the start was 99 divided by 0.99 | Yes |
 | 99 | The two changes look as though they cancel, so nothing happened | No, and this is the one that catches most people |
 | 110 | Undoing only the 10 per cent fall: 99 divided by 0.9 | No |
@@ -81,14 +87,14 @@ What we do teach is that the answer should be arrived at before the options are 
 
 The question and all six numbers are ours, computed on 20 September 2026. No UKMT question is reproduced anywhere on this page; UKMT publishes its own past papers free.
 
-How to practise
-
 ## Twenty-five questions, sixty minutes, and the ones to leave
 
 Two minutes and twenty-four seconds a question is the average, and a pupil should almost never spend it evenly.
 
+**What helps on a Kangaroo paper, and what does not**
+
 | Worth doing | Why | Not worth doing |
-| --- | --- | --- |
+|---|---|---|
 | Arriving at an answer before reading the options | The options are built from likely errors and will confirm one of them | Scanning the options first to narrow down |
 | Practising mental arithmetic to fluency | Every second not spent calculating is a second spent thinking | Drilling past papers against a clock with shaky tables |
 | Learning to leave a question and come back | Six minutes on one question costs two and a half others | Refusing to move on out of stubbornness |
@@ -103,14 +109,14 @@ A pupil who wants harder mathematics after a Kangaroo should look at the written
 
 The whole season, with every organiser named and every date checked, is on the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
 
-Getting ready
-
 ## Four rungs to a comfortable hour
 
 A pupil moves up when the previous habit needs no thought, not when a year passes.
 
+**From arithmetic to unfamiliar questions at speed**
+
 | Stage | Rung | The sign it is secure |
-| --- | --- | --- |
+|---|---|---|
 | Ages 9 to 10 | 1. Recall | Tables, doubles and percentages of round numbers arrive without working |
 | Ages 10 to 12 | 2. Methods that do not wobble | Fractions, ratio and area come out right when the numbers are awkward |
 | Ages 12 to 14 | 3. Answer before options | Reaches a number first and then looks at what is printed |
@@ -119,321 +125,71 @@ A pupil moves up when the previous habit needs no thought, not when a year passe
 ### If the paper is next week
 
 Work UKMT's own past papers with the published solutions, and read why each wrong option is there. That is the whole of useful last-minute preparation.
-
 Do not add topics. A Kangaroo paper is built from mathematics the pupil has already met.
 
 ### If a pupil wants more
 
 The olympiad papers on the same dates ask for written arguments instead, which is a different and deeper skill.
-
 Pupils who enjoy fast puzzle work often take to programming quickly, which is what [maths through coding](/courses/maths-through-coding) is built for.
-
-The full list
 
 ## Courses behind a fast, accurate hour
 
 Grouped by age, with the syllabus behind every card.
 
-I
-
 ### Primary and Junior
 
 Ages 9 to 13
 
-KAN / A / 01
-
-#### Mental maths for kids
-
-Calculation that stops costing thinking time.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-KAN / A / 02
-
-#### Primary maths, Years 1 to 5
-
-The number work every fast paper assumes.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-KAN / A / 03
-
-#### Abacus and mental maths
-
-From first beads to calculating with none.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Calculation that stops costing thinking time.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): The number work every fast paper assumes.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): From first beads to calculating with none.
 
 ### Grey and Pink
 
 Years 9 to 11
 
-KAN / B / 01
-
-#### Middle school maths mastery
-
-Ratio, algebra and geometry at the level these papers use.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-KAN / B / 02
-
-#### GCSE maths
-
-The school course, taught to the board in use.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-KAN / B / 03
-
-#### Vedic maths
-
-Speed methods for the arithmetic underneath.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)III
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Ratio, algebra and geometry at the level these papers use.
+- [GCSE maths](/courses/gcse-mathematics-mastery): The school course, taught to the board in use.
+- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speed methods for the arithmetic underneath.
 
 ### Senior
 
 Years 12 and 13
 
-KAN / C / 01
-
-#### High school mathematics
-
-Algebra through to calculus, at sixth-form pace.
-
-[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
-
-KAN / C / 02
-
-#### A-level maths
-
-The qualification running alongside the competitions.
-
-[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
-
-KAN / C / 03
-
-#### Olympiad and competition maths
-
-For questions that do not announce their method.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)IV
+- [High school mathematics](/courses/complete-high-school-mathematics-mastery): Algebra through to calculus, at sixth-form pace.
+- [A-level maths](/courses/a-level-maths-course-pure-mechanics-statistics): The qualification running alongside the competitions.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): For questions that do not announce their method.
 
 ### Sideways
 
 For pupils who also build
 
-KAN / D / 01
-
-#### Maths through coding
-
-Python as a way of seeing why a method works.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-KAN / D / 02
-
-#### Python and AI for kids
-
-A first typed language for a curious ten-year-old.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)
-
-KAN / D / 03
-
-#### Algorithms and data structures
-
-Searching, sorting and how long a method takes.
-
-[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
-
-How lessons run
+- [Maths through coding](/courses/maths-through-coding): Python as a way of seeing why a method works.
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first typed language for a curious ten-year-old.
+- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Searching, sorting and how long a method takes.
 
 ## Short weekly sessions, with the arithmetic done out loud
 
 Teaching is live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer. Younger pupils take an early evening slot, agreed in UK time.
 
-Early weekday evening
+- **Early weekday evening** For pupils of primary and lower secondary age.
+- **Later weekday evening** For Year 10 upwards.
+- **Weekend morning** For a longer session on a set of questions.
 
-For pupils of primary and lower secondary age.
-
-Later weekday evening
-
-For Year 10 upwards.
-
-Weekend morning
-
-For a longer session on a set of questions.
-
-### Answers before options
-
-Every practice question is worked to a number before anything printed is looked at.
-
-### Mistakes named
-
-When a pupil lands on a wrong option we work out which mistake produced it, rather than moving on.
-
-### Fifteen to twenty pupils
-
-Enough for a quicker method to surface, small enough that nobody hides at the back.
-
-### Our own questions
-
-Written by us in the same style. UKMT publishes its past papers free and that is where the real ones live.
-
-### One to one when useful
-
-For a pupil far ahead of their year, or one who freezes in a timed group.
-
-### Nothing promised
-
-We cannot enter anyone for a Kangaroo paper and promise no score or certificate.
-
-Student work
-
-## What our students build
-
-Four published projects by students at our school, none of them competition entries. More on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **Answers before options** Every practice question is worked to a number before anything printed is looked at.
+- **Mistakes named** When a pupil lands on a wrong option we work out which mistake produced it, rather than moving on.
+- **Fifteen to twenty pupils** Enough for a quicker method to surface, small enough that nobody hides at the back.
+- **Our own questions** Written by us in the same style. UKMT publishes its past papers free and that is where the real ones live.
+- **One to one when useful** For a pupil far ahead of their year, or one who freezes in a timed group.
+- **Nothing promised** We cannot enter anyone for a Kangaroo paper and promise no score or certificate.
 
 ## Fees
 
 A single monthly rate in US dollars for families outside India, with nothing to pay to register and no minimum term.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A full lesson with a teacher
-- A straight read on the level
-- No card details taken
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty pupils at one level
-- The same teacher every week
-- Work marked and discussed
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher working with one pupil
-- Shaped around the specific gap
-- Useful when a group hour will not fit
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Reviews left on our Google profile, reproduced word for word.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Kangaroo questions
+- Free first class: USD 0. A full lesson with a teacher. A straight read on the level. No card details taken.
+- Group batch: USD 100 a month. Fifteen to twenty pupils at one level. The same teacher every week. Work marked and discussed. A certificate at the end.
+- One to one: USD 150 a month. A teacher working with one pupil. Shaped around the specific gap. Useful when a group hour will not fit.
 
 ## What parents and pupils ask
 
@@ -477,54 +233,50 @@ With UKMT's own past papers and published solutions, reading why each wrong opti
 
 The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to join and no minimum term.
 
-Related pages
-
 ## Other papers on the same dates
 
-The written papers that share a calendar with these, and where the whole year is set out.
+- [Cayley, Hamilton and Maclaurin](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation): Same afternoon as Grey and Pink, entirely different paper.
+- [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation): Shares 15 June 2027 with the Junior Kangaroo.
+- [Primary Maths Challenge](/primary-maths-challenge-practice): The November paper for ages 9 to 11.
+- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Dates for every contest, checked with the people who run them.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
+- [Choosing an online class](/best-online-coding-classes-uk): How to tell a serious provider from a well-designed one.
 
-### [Cayley, Hamilton and Maclaurin](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+## Related pages in this guide
 
-Same afternoon as Grey and Pink, entirely different paper.
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-### [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation)
+### Maths competitions
 
-Shares 15 June 2027 with the Junior Kangaroo.
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
 
-### [Primary Maths Challenge](/primary-maths-challenge-practice)
+### Enrichment and able pupils
 
-The November paper for ages 9 to 11.
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
 
-### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+### Computing programmes and competitions
 
-Dates for every contest, checked with the people who run them.
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
 
-### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
-The four school systems, and every UK page.
+## Contact
 
-### [Choosing an online class](/best-online-coding-classes-uk)
-
-How to tell a serious provider from a well-designed one.
-
-Start here
-
-## Book a free maths lesson
-
-Tell us the year group and which paper is coming. The free lesson is a real one, and afterwards we say honestly where the time is being lost.
-
-Rather read? Each course keeps its syllabus on its own [course page](/courses), the method is on [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap) shows what follows what.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20has%20qualified%20for%20a%20UKMT%20Kangaroo%20round%20and%20I%20would%20like%20a%20free%20maths%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-A WhatsApp message costs a UK mobile nothing and usually reaches us first. Our number belongs to India, which we state on every page, and there is no British office.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/ukmt-kangaroo-rounds-practice*
+Book the free first class at [https://learn.modernagecoders.com/ukmt-kangaroo-rounds-practice](https://learn.modernagecoders.com/ukmt-kangaroo-rounds-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

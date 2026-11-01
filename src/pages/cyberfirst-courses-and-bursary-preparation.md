@@ -6,7 +6,7 @@ source: src/pages/cyberfirst-courses-and-bursary-preparation.html
 ---
 > CyberFirst, the National Cyber Security Centre's programme for young people since 2016, has transitioned into TechFirst, the UK government's tech skills programme. The NCSC still lists free CyberFirst courses, Defenders for ages 14 to 15 and Futures for 15 to 16 marked coming soon, while the old bursary is succeeded by the TechFirst Undergraduate Scholarship, which opens in November 2026 with an aptitude assessment and an interview. Modern Age Coders teaches cyber security and computing live online, in a group of 15 to 20 or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / CyberFirst courses and bursary
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / CyberFirst courses and bursary
 
 United Kingdom · Ages 7 to 18 · Status checked 31 October 2026
 
@@ -308,6 +308,41 @@ No. Modern Age Coders is an independent online school, not connected with the NC
 - [Cyber security classes for teens](/cybersecurity-classes-for-teens): The wider course, for any country.
 - [AQA GCSE Computer Science 8525](/aqa-gcse-computer-science-8525-help): Networks and security at GCSE.
 - [OCR GCSE Computer Science J277](/ocr-gcse-computer-science-j277-help): The OCR route, including network security.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
+
+### Computing programmes and competitions
+
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+### Enrichment and able pupils
+
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
+
+### Maths competitions
+
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
 ## Contact
 

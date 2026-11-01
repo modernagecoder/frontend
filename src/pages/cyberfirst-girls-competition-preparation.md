@@ -4,28 +4,34 @@ description: "Preparing for the CyberFirst Girls Competition, now the TechFirst 
 canonical: https://learn.modernagecoders.com/cyberfirst-girls-competition-preparation
 source: src/pages/cyberfirst-girls-competition-preparation.html
 ---
-> Preparing for the CyberFirst Girls Competition, now the TechFirst Girls Competition: Year 8 teams of four, cryptography and logic puzzles, and regional finals.
+> The competition most families search for as the CyberFirst Girls Competition is now the TechFirst Girls Competition. Gov.uk says "TechFirst is the government's flagship tech skills programme", run by the Department for Digital, Culture, Media and Sport, and that "national competitions will run throughout the year with prizes to be won, including the TechFirst Girls Competition this November"; CyberFirst became part of TechFirst from September 2026, with the NCSC continuing to lead the cyber pathway. The NCSC's own announcements describe the competition itself: "girls in Year 8 in England and Wales, S2 in Scotland, and Year 9 in Northern Ireland" entering in "teams of up to four", registered by "a teacher at their school or a school guardian"; an online qualifying round of "puzzles, covering topics from cryptography to AI to logic"; and the highest scoring teams going "to one of 13 finals held across the UK". Since 2017 more than 43,000 girls have taken part. We teach the coding and logic underneath. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-In short
+[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / CyberFirst Girls Competition
 
-The competition most families search for as the CyberFirst Girls Competition is now the TechFirst Girls Competition. Gov.uk says "TechFirst is the government's flagship tech skills programme", delivered by the Department for Science, Innovation and Technology, and that "national competitions will run throughout the year with prizes to be won, including the TechFirst Girls Competition this November"; CyberFirst became part of TechFirst from September 2026, with the NCSC continuing to lead the cyber pathway. The NCSC's own announcements describe the competition itself: "girls in Year 8 in England and Wales, S2 in Scotland, and Year 9 in Northern Ireland" entering in "teams of up to four", registered by "a teacher at their school or a school guardian"; an online qualifying round of "puzzles, covering topics from cryptography to AI to logic"; and the highest scoring teams going "to one of 13 finals held across the UK". Since 2017 more than 43,000 girls have taken part. We teach the coding and logic underneath. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+United Kingdom · One school year · November qualifier, February finals
 
-Where to start
+# CyberFirst Girls Competition preparation
+
+Start with the thing that will otherwise waste your evening: the competition has a new name. The government now runs it as the TechFirst Girls Competition, run by the Department for Digital, Culture, Media and Sport, after CyberFirst became part of TechFirst in September 2026, and gov.uk says the TechFirst Girls Competition runs in November. Almost every page you will find still calls it CyberFirst, and so does this one, because that is what people search for. What has not changed is the shape: one school year, teams of up to four, a teacher who registers them, an online round of puzzles from cryptography to logic, and regional finals for the teams that get through.
+
+At a glance: Now run as: The TechFirst Girls Competition; Delivered by: DCMS (gov.uk), with the NCSC leading cyber; England and Wales: Girls in Year 8; Scotland: S2; Northern Ireland: Year 9; Team: Up to four, with a teacher as mentor; Qualifier: Online puzzles, in November; Finals: Thirteen, around the UK. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a Year 8 team
 
 The qualifying round rewards puzzle thinking and a little code, in that order.
 
-[![Python and AI for Kids course thumbnail](/images/python-kids.webp)  CFG / 01 Python and AI for kids The right level for most Year 8 entrants: typed code, logic and a first look at how AI systems work. Open the syllabus →](/courses/python-ai-kids-masterclass)[![Python for Teens course thumbnail](/images/python-teens.webp)  CFG / 02 Python from start to finish For a student who already writes Python and wants the loops and string work a cryptography puzzle needs. Open the syllabus →](/courses/python-complete-masterclass-teens)[![Problem Solving for Teens course thumbnail](/images/problem-solving-teens.webp)  CFG / 03 Algorithms and data structures Searching, counting and the idea of how many steps a method needs, which is what a logic puzzle is really testing. Open the syllabus →](/courses/problem-solving-dsa-masterclass-teens)
-
-The competition
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): The right level for most Year 8 entrants: typed code, logic and a first look at how AI systems work.
+- [Python from start to finish](/courses/python-complete-masterclass-teens): For a student who already writes Python and wants the loops and string work a cryptography puzzle needs.
+- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Searching, counting and the idea of how many steps a method needs, which is what a logic puzzle is really testing.
 
 ## A new name, the same one school year
 
 Facts read at gov.uk and ncsc.gov.uk on 20 September 2026, with each attributed where it came from.
 
+**What we could confirm, and where**
+
 | Part | What the source says | Source |
-| --- | --- | --- |
+|---|---|---|
 | The programme | "TechFirst is the government's flagship tech skills programme opening pathways into the UK's fast-growing tech sector" | gov.uk guidance on TechFirst |
 | The competition | "National competitions will run throughout the year with prizes to be won, including the TechFirst Girls Competition this November" | gov.uk guidance on TechFirst |
 | The transition | CyberFirst became part of TechFirst from September 2026, with the NCSC continuing to lead the cyber pathway | gov.uk and NCSC |
@@ -46,16 +52,16 @@ Which makes the timing worth knowing a year early. A girl in Year 7 who would en
 
 Sources: [gov.uk, TechFirst](https://www.gov.uk/guidance/techfirst) and the [NCSC CyberFirst Girls Competition pages](https://www.ncsc.gov.uk/cyberfirst/girls-competition), read 20 September 2026. The NCSC's competition page no longer carries the competition's details, which is part of why this page exists. Modern Age Coders is not connected with DSIT, the NCSC or IBM.
 
-The method
-
 ## How many questions does it take to find one thing?
 
 Cryptography and logic puzzles look like different subjects. Underneath a great many of them is a single idea about information, and it can be taught in ten minutes.
 
 **I am thinking of a number between 1 and 1,000. You may ask yes or no questions. How many do you need to be certain?** Most people guess a large number or say it depends on luck. The answer is exactly ten, it does not depend on luck, and knowing why changes how a team attacks a puzzle round.
 
+**Our computation of 20 September 2026, checked by simulating every possible target**
+
 | Possibilities | Questions needed | Why |
-| --- | --- | --- |
+|---|---|---|
 | 10 | 4 | 2 to the power 3 is 8, too few; 2 to the power 4 is 16 |
 | 100 | 7 | 2 to the power 6 is 64, too few; 2 to the power 7 is 128 |
 | 1,000 | 10 | 2 to the power 9 is 512, too few; 2 to the power 10 is 1,024 |
@@ -83,14 +89,14 @@ And it is a genuinely good thing for a thirteen-year-old to carry away from a co
 
 The figures are ours, computed on 20 September 2026 by simulating every possible target rather than applying the formula. No competition puzzle is reproduced anywhere on this page.
 
-How to practise
-
 ## A team, an hour a week, and no pressure at all
 
 The qualifying round is online, in school, and sat by four girls who may never have done anything like it.
 
+**What actually helps a first-time team**
+
 | Worth doing | Why | Not worth doing |
-| --- | --- | --- |
+|---|---|---|
 | Splitting the puzzles by taste | A four-person team will contain someone who likes codes and someone who likes logic | Everyone working on the same puzzle at once |
 | Writing down what has been ruled out | Most logic puzzles are won by elimination, and elimination that is not written down is lost | Holding the deductions in four separate heads |
 | A little Python | Counting letters, trying possibilities and checking a pattern are all faster written down | A full programming course started in October |
@@ -105,14 +111,14 @@ We teach the coding and the logic and nothing about entering: registration is a 
 
 Other competitions in the same term are on the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar), including the [Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk) in November, which is open to every year group and needs no programming at all.
 
-Getting ready
-
 ## Four rungs, and a Year 7 girl has a year to climb them
 
 The competition comes once, in one school year, so the preparation that matters happens before it.
 
+**From puzzles to programs**
+
 | Stage | Rung | The sign it is secure |
-| --- | --- | --- |
+|---|---|---|
 | Year 6 to 7 | 1. Enjoying puzzles | Will sit with a logic problem rather than ask for the answer |
 | Year 7 | 2. Writing deductions down | Keeps a record of what has been ruled out and why |
 | Year 7 to 8 | 3. A little code | Can write a loop that tries every possibility |
@@ -121,321 +127,71 @@ The competition comes once, in one school year, so the preparation that matters 
 ### If November is close
 
 Do one puzzle a week as a team, out loud, with someone writing down what has been eliminated. That is the round.
-
 Do not start a programming course in October. A few lines of Python helps; a half-finished course does not.
 
 ### After the competition
 
 Programming is the natural next step, and everything in the qualifying round becomes easier with it.
-
 The [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) lists what else is open, including contests with no year-group restriction at all.
-
-The full list
 
 ## Courses for a curious Year 7 or Year 8
 
 Grouped by what a student can do now, with the syllabus behind each card.
 
-I
-
 ### Starting out
 
 Ages 9 to 12
 
-CFG / A / 01
-
-#### Scratch for kids
-
-Logic and sequence, before the typing.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-CFG / A / 02
-
-#### Coding for kids, blocks to AI
-
-Games and apps, then a first look at AI.
-
-[Open the syllabus](/courses/kids-coding-blocks-masterclass)
-
-CFG / A / 03
-
-#### Maths through coding
-
-Counting and patterns, written as programs.
-
-[Open the syllabus](/courses/maths-through-coding)II
+- [Scratch for kids](/courses/scratch-programming-complete-course): Logic and sequence, before the typing.
+- [Coding for kids, blocks to AI](/courses/kids-coding-blocks-masterclass): Games and apps, then a first look at AI.
+- [Maths through coding](/courses/maths-through-coding): Counting and patterns, written as programs.
 
 ### The competition year
 
 Ages 12 to 14
 
-CFG / B / 01
-
-#### Python and AI for kids
-
-Typed code and how AI systems actually work.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)
-
-CFG / B / 02
-
-#### Python from start to finish
-
-Strings, loops and functions, to fluency.
-
-[Open the syllabus](/courses/python-complete-masterclass-teens)
-
-CFG / B / 03
-
-#### Minecraft coding for kids
-
-From blocks to real code, in a world she knows.
-
-[Open the syllabus](/courses/minecraft-coding-for-kids-course)III
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): Typed code and how AI systems actually work.
+- [Python from start to finish](/courses/python-complete-masterclass-teens): Strings, loops and functions, to fluency.
+- [Minecraft coding for kids](/courses/minecraft-coding-for-kids-course): From blocks to real code, in a world she knows.
 
 ### Going further
 
 Ages 14 to 18
 
-CFG / C / 01
-
-#### Algorithms and data structures
-
-How many steps a method needs, and why it matters.
-
-[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
-
-CFG / C / 02
-
-#### GCSE Computer Science
-
-Taught to the board the school uses.
-
-[Open the syllabus](/courses/gcse-computer-science-course)
-
-CFG / C / 03
-
-#### AI and machine learning for teens
-
-What is actually happening inside the tools she hears about.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)IV
+- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): How many steps a method needs, and why it matters.
+- [GCSE Computer Science](/courses/gcse-computer-science-course): Taught to the board the school uses.
+- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): What is actually happening inside the tools she hears about.
 
 ### Building things
 
 For students who want a project
 
-CFG / D / 01
-
-#### Full stack web development
-
-A site with its own database.
-
-[Open the syllabus](/courses/full-stack-web-development-teens-masterclass)
-
-CFG / D / 02
-
-#### App development
-
-Screens, taps and what the app remembers.
-
-[Open the syllabus](/courses/complete-app-development-masterclass-for-teens)
-
-CFG / D / 03
-
-#### Data science with Python
-
-Patterns in real data rather than exercises.
-
-[Open the syllabus](/courses/data-science-course-for-teens-python-data)
-
-How lessons run
+- [Full stack web development](/courses/full-stack-web-development-teens-masterclass): A site with its own database.
+- [App development](/courses/complete-app-development-masterclass-for-teens): Screens, taps and what the app remembers.
+- [Data science with Python](/courses/data-science-course-for-teens-python-data): Patterns in real data rather than exercises.
 
 ## Small groups, early evening, and puzzles talked through out loud
 
 Lessons are live on video from India, five and a half hours ahead of the UK in winter and four and a half in summer, at a time agreed and kept in UK time.
 
-Early weekday evening
+- **Early weekday evening** The usual slot for Years 7 and 8.
+- **Later weekday evening** For older students.
+- **Weekend morning** For a longer session on one problem.
 
-The usual slot for Years 7 and 8.
-
-Later weekday evening
-
-For older students.
-
-Weekend morning
-
-For a longer session on one problem.
-
-### Reasoning out loud
-
-Students say what they have ruled out and why, which is the habit a team round needs.
-
-### Girls-only groups where wanted
-
-We run mixed groups by default and girls-only groups where a family prefers one.
-
-### Fifteen to twenty students
-
-Enough for a better method to surface, small enough that nobody stays quiet.
-
-### Our own puzzles
-
-Written by us. We do not reproduce competition material.
-
-### One to one on request
-
-For a student who would rather think aloud without an audience.
-
-### No part in the competition
-
-A teacher registers a team. We have no role in the competition and promise nothing about it.
-
-Student work
-
-## What our students build
-
-Four things students here have made and published, none of them for a contest. The [student labs](/student-labs) page has more.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **Reasoning out loud** Students say what they have ruled out and why, which is the habit a team round needs.
+- **Girls-only groups where wanted** We run mixed groups by default and girls-only groups where a family prefers one.
+- **Fifteen to twenty students** Enough for a better method to surface, small enough that nobody stays quiet.
+- **Our own puzzles** Written by us. We do not reproduce competition material.
+- **One to one on request** For a student who would rather think aloud without an audience.
+- **No part in the competition** A teacher registers a team. We have no role in the competition and promise nothing about it.
 
 ## Fees
 
 The same monthly price in US dollars wherever a family lives outside India. Nothing to join, and you can stop at the end of any month.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A full lesson on a real puzzle
-- A straight read on the level
-- No card details taken
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty students at one level
-- The same teacher every week
-- Work talked through together
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher working with one student
-- Shaped around what she finds hard
-- Useful when a group hour will not fit
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Reviews left on our Google profile by families, printed as written.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-CyberFirst Girls questions
+- Free first class: USD 0. A full lesson on a real puzzle. A straight read on the level. No card details taken.
+- Group batch: USD 100 a month. Fifteen to twenty students at one level. The same teacher every week. Work talked through together. A certificate at the end.
+- One to one: USD 150 a month. A teacher working with one student. Shaped around what she finds hard. Useful when a group hour will not fit.
 
 ## What parents and teachers ask
 
@@ -479,54 +235,50 @@ Counting the possibilities. Ten yes or no questions can pin any number from 1 to
 
 The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to pay to register.
 
-Related pages
-
 ## Other contests in the same term
 
-What else is open to a Year 8 student in the autumn, and where the whole year is listed.
+- [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk): November, free, every year group, no programming.
+- [National Cipher Challenge](/national-cipher-challenge-preparation): Ten challenges from September to January.
+- [Perse Coding Team Challenge](/perse-coding-team-challenge-preparation): Teams, hidden tests, January and March.
+- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Dates for every contest, checked with the people who run them.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
+- [Choosing an online class](/best-online-coding-classes-uk): How to tell a serious provider from a well-designed one.
 
-### [UK Bebras Challenge](/bebras-computational-thinking-challenge-practice-uk)
+## Related pages in this guide
 
-November, free, every year group, no programming.
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-### [National Cipher Challenge](/national-cipher-challenge-preparation)
+### Computing programmes and competitions
 
-Ten challenges from September to January.
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
 
-### [Perse Coding Team Challenge](/perse-coding-team-challenge-preparation)
+### Enrichment and able pupils
 
-Teams, hidden tests, January and March.
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
 
-### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+### Maths competitions
 
-Dates for every contest, checked with the people who run them.
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
 
-### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
-The four school systems, and every UK page.
+## Contact
 
-### [Choosing an online class](/best-online-coding-classes-uk)
-
-How to tell a serious provider from a well-designed one.
-
-Start here
-
-## Book a free lesson
-
-Tell us the year group and whether she has written any code. The free lesson works through a real puzzle, and we say afterwards what we saw.
-
-Rather read first? Syllabuses are on the [course pages](/courses), the method on [how we teach](/how-we-teach), and the topic order on the [roadmap](/coding-roadmap).
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20daughter%20is%20entering%20the%20CyberFirst%20or%20TechFirst%20Girls%20Competition%20and%20I%20would%20like%20a%20free%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-The quickest route to us is usually a WhatsApp message, which is free from a UK mobile. The number is Indian, as we state everywhere, and there is no office in Britain.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/cyberfirst-girls-competition-preparation*
+Book the free first class at [https://learn.modernagecoders.com/cyberfirst-girls-competition-preparation](https://learn.modernagecoders.com/cyberfirst-girls-competition-preparation#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

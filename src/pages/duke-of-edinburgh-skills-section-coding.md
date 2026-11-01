@@ -6,7 +6,7 @@ source: src/pages/duke-of-edinburgh-skills-section-coding.html
 ---
 > Yes, if your DofE Leader agrees. The DofE says the Skills section is about developing personal interests and practical skills, and that "you should keep learning and get better at your activity". It names web design among possible Skills and coding an app among programme ideas. You need an average of 1 hour a week for 3 months at Bronze, 3 or 6 months at Silver and 6 or 12 months at Gold, with longer for direct entrants. School lessons do not count, since the DofE says core curriculum does not. Modern Age Coders teaches coding live online outside school, on our Python course for teens, in a batch of 15 to 20 or 1-on-1. We are not an Approved Activity Provider.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / DofE Skills section coding
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / DofE Skills section coding
 
 Bronze, Silver, Gold · Ages 14 to 18 · Online
 
@@ -295,6 +295,41 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 - [National Cipher Challenge](/national-cipher-challenge-preparation): Code-breaking with Python.
 - [Online coding summer course](/online-coding-summer-course-uk): A holiday of real projects.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): All our UK pages.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
+
+### Enrichment and able pupils
+
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+
+### Maths competitions
+
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
+
+### Computing programmes and competitions
+
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
 ## Contact
 

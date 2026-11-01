@@ -4,28 +4,34 @@ description: "Preparing for the UKMT Team Maths Challenge and Senior Team Maths 
 canonical: https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice
 source: src/pages/ukmt-team-maths-challenge-practice.html
 ---
-> Preparing for the UKMT Team Maths Challenge and Senior Team Maths Challenge: teams of four, the Crossnumber and Shuttle rounds, and how regional finals work.
+> UKMT runs two team competitions. In the Team Maths Challenge "each team consists of four students, with a maximum of two students from the older year group", drawn from "Year 8 and Year 9" in England and Wales, S1 to S3 in Scotland and Years 9 and 10 in Northern Ireland, and it has four rounds: The Group, The Crossnumber, The Shuttle and The Relay. The Senior Team Maths Challenge has "teams of four students" from Years 12 and 13 in England and Wales, Years 13 and 14 in Northern Ireland and S5 and S6 in Scotland, with "three rounds - The Group, The Crossnumber and The Shuttle" plus non-scoring starters. Senior registration opened on Thursday 10 September 2026, regional finals run through November 2026 and the national final is in February 2027. Regional finals are hosted in schools, and high-scoring teams are invited to the national final. We teach the mathematics and the accuracy, live online. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
 
-In short
+[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / Team Maths Challenges
 
-UKMT runs two team competitions. In the Team Maths Challenge "each team consists of four students, with a maximum of two students from the older year group", drawn from "Year 8 and Year 9" in England and Wales, S1 to S3 in Scotland and Years 9 and 10 in Northern Ireland, and it has four rounds: The Group, The Crossnumber, The Shuttle and The Relay. The Senior Team Maths Challenge has "teams of four students" from Years 12 and 13 in England and Wales, Years 13 and 14 in Northern Ireland and S5 and S6 in Scotland, with "three rounds - The Group, The Crossnumber and The Shuttle" plus non-scoring starters. Senior registration opened on Thursday 10 September 2026, regional finals run through November 2026 and the national final is in February 2027. Regional finals are hosted in schools, and high-scoring teams are invited to the national final. We teach the mathematics and the accuracy, live online. A first class is free; a group place is USD 100 a month and one-to-one teaching USD 150.
+United Kingdom · Teams of four · Years 8 to 13
 
-Where to start
+# UKMT Team Maths Challenge practice
+
+Every other competition on this site is sat alone. The Team Maths Challenges are not, and that changes what a good performance is made of. Four students share a table, one round has them working in pairs with each answer feeding the next question, another has them running answers to a marker, and the mathematics is deliberately no harder than the school course. What separates teams is accuracy and communication, in that order, and the shuttle round exists to punish anybody who has only ever been fast.
+
+At a glance: Organiser: UK Mathematics Trust; Team: Four students; Junior years: Year 8 and Year 9; Senior years: Year 12 and Year 13; Junior rounds: Group, Crossnumber, Shuttle, Relay; Senior rounds: Group, Crossnumber, Shuttle; Regionals: Hosted in schools around the UK; National final: By invitation only. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a team squad
 
 Team rounds reward reliable mathematics done quickly, not clever mathematics done slowly.
 
-[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  TMC / 01 Mental maths for kids For Year 8 and 9 squads: arithmetic that arrives, because in a relay the clock is the opponent. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Middle School Mathematics Mastery course thumbnail](/images/middle-school-maths.webp)  TMC / 02 Middle school maths mastery The ratio, algebra and geometry the junior rounds are built from, taught to reliability. Open the syllabus →](/courses/comprehensive-middle-school-mathematics-mastery)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  TMC / 03 High school mathematics For senior squads: the sixth-form content the Group and Crossnumber rounds draw on. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)
-
-The rounds
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): For Year 8 and 9 squads: arithmetic that arrives, because in a relay the clock is the opponent.
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): The ratio, algebra and geometry the junior rounds are built from, taught to reliability.
+- [High school mathematics](/courses/complete-high-school-mathematics-mastery): For senior squads: the sixth-form content the Group and Crossnumber rounds draw on.
 
 ## Four rounds, and only one of them is an ordinary paper
 
 Facts read at UKMT's own pages on 20 September 2026.
 
-|   | Team Maths Challenge | Senior Team Maths Challenge |
-| --- | --- | --- |
+**The two team competitions as UKMT describes them**
+
+|  | Team Maths Challenge | Senior Team Maths Challenge |
+|---|---|---|
 | Team | "Each team consists of four students, with a maximum of two students from the older year group" | "Teams of four students", no more than two from the older year |
 | England and Wales | "Year 8 and Year 9 (with a maximum of two Year 9 pupils)" | Year 12 and 13 |
 | Scotland | S1, S2 and S3 | S5 and S6 |
@@ -56,16 +62,16 @@ A school may enter only one team per senior regional event, so internal selectio
 
 Sources: [UKMT, Team Maths Challenge](https://ukmt.org.uk/team-challenges/team-mathematical-challenge) and [Senior Team Maths Challenge](https://ukmt.org.uk/team-challenges/senior-team-maths-challenge), read 20 September 2026. We have no connection with the UK Mathematics Trust.
 
-The method
-
 ## In a chain, accuracy compounds
 
 The shuttle round feeds each answer into the next question. That one design decision changes what a team should practise.
 
 On an ordinary paper the questions are independent: get one wrong and you lose one mark. In a shuttle the answer to the first question is an input to the second, so a slip at the start does not cost one answer. It costs every answer after it. That sounds obvious and its arithmetic is not, because people badly underestimate how quickly reliability drains away when steps depend on each other.
 
+**Our arithmetic of 20 September 2026: four questions, chained against independent**
+
 | If each question is right this often | Independent: expected right out of 4 | Chained: all four right |
-| --- | --- | --- |
+|---|---|---|
 | 95 per cent of the time | 3.8 | 81.5 per cent of the time |
 | 90 per cent of the time | 3.6 | 65.6 per cent of the time |
 | 85 per cent of the time | 3.4 | 52.2 per cent of the time |
@@ -87,14 +93,14 @@ None of this is exam craft dressed up. It is the same reasoning that makes engin
 
 The figures are ours, computed on 20 September 2026 from the stated accuracies. They describe arithmetic, not any particular team.
 
-Regionals and finals
-
 ## Hosted in schools, and won by teams that talk
 
 The competition is built around regional events rather than a single national paper, which changes the experience completely.
 
+**How a team progresses, in UKMT's own terms**
+
 | Stage | Junior | Senior |
-| --- | --- | --- |
+|---|---|---|
 | Registration | Opens in October | Opened Thursday 10 September 2026 |
 | Regional finals | February to the Easter break, in host schools | Throughout November 2026, at venues around the UK |
 | Who goes through | "The winning team from the Regional Finals will be invited to participate in the National Final" | High-scoring teams from the regional finals are invited |
@@ -110,14 +116,14 @@ The most useful preparation, and the cheapest, is to run the rounds. A teacher w
 
 What we add is the mathematics underneath: arithmetic that does not wobble under time pressure, and the habit of checking an answer that something else depends on. The rest belongs to the school.
 
-Getting ready
-
 ## Four rungs to a squad that holds together
 
 Team performance is built from individual reliability, then communication, then pace.
 
+**From quick arithmetic to a chain that does not break**
+
 | Stage | Rung | The sign it is secure |
-| --- | --- | --- |
+|---|---|---|
 | Year 7 to 8 | 1. Reliable arithmetic | Gets the ordinary questions right when hurried |
 | Year 8 | 2. Working out loud | Can explain a step to a teammate mid-question without losing it |
 | Year 8 to 9 | 3. Checking what matters | Checks an answer harder when something depends on it |
@@ -126,321 +132,71 @@ Team performance is built from individual reliability, then communication, then 
 ### If a regional is close
 
 Run a shuttle round in practice and record where it broke. In our experience the answer is almost always the handover, not the mathematics.
-
 Practise the crossnumber with the clues genuinely split. Doing it with all the clues visible teaches none of the skill the round is testing.
 
 ### Beyond the team rounds
 
 Individual papers ask for something different, and the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) lays them all out.
-
 Pupils who like the relay pace often like [competitive programming](/courses/competitive-programming-for-teens-course), which is the same sport with a compiler.
-
-The full list
 
 ## Courses behind a reliable team
 
 Grouped by what a squad member needs, with each syllabus a click away.
 
-I
-
 ### Speed and accuracy
 
 The foundation of every round
 
-TMC / A / 01
-
-#### Mental maths for kids
-
-Arithmetic that arrives rather than being worked out.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-TMC / A / 02
-
-#### Vedic maths
-
-Speed methods for the calculation underneath.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-TMC / A / 03
-
-#### Abacus and mental maths
-
-From first beads to calculating with none.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Arithmetic that arrives rather than being worked out.
+- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speed methods for the calculation underneath.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): From first beads to calculating with none.
 
 ### Junior squads
 
 Years 8 and 9
 
-TMC / B / 01
-
-#### Middle school maths mastery
-
-Ratio, algebra and geometry taught to reliability.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-TMC / B / 02
-
-#### Olympiad and competition maths
-
-For the questions that do not announce a method.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
-
-TMC / B / 03
-
-#### GCSE maths
-
-The school course, taught to the board in use.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)III
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Ratio, algebra and geometry taught to reliability.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): For the questions that do not announce a method.
+- [GCSE maths](/courses/gcse-mathematics-mastery): The school course, taught to the board in use.
 
 ### Senior squads
 
 Years 12 and 13
 
-TMC / C / 01
-
-#### High school mathematics
-
-Sixth-form content at the pace a group round needs.
-
-[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
-
-TMC / C / 02
-
-#### A-level maths
-
-The qualification running alongside.
-
-[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
-
-TMC / C / 03
-
-#### Statistics and probability
-
-Including how quickly reliability drains in a chain.
-
-[Open the syllabus](/courses/statistics-probability-maths-course)IV
+- [High school mathematics](/courses/complete-high-school-mathematics-mastery): Sixth-form content at the pace a group round needs.
+- [A-level maths](/courses/a-level-maths-course-pure-mechanics-statistics): The qualification running alongside.
+- [Statistics and probability](/courses/statistics-probability-maths-course): Including how quickly reliability drains in a chain.
 
 ### Sideways
 
 Same instincts, different tools
 
-TMC / D / 01
-
-#### Competitive programming
-
-The relay round with a compiler as the marker.
-
-[Open the syllabus](/courses/competitive-programming-for-teens-course)
-
-TMC / D / 02
-
-#### Maths through coding
-
-Programs that check the answer you were about to hand over.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-TMC / D / 03
-
-#### Algorithms and data structures
-
-Searching, sorting and how long a method takes.
-
-[Open the syllabus](/courses/problem-solving-dsa-masterclass-teens)
-
-How lessons run
+- [Competitive programming](/courses/competitive-programming-for-teens-course): The relay round with a compiler as the marker.
+- [Maths through coding](/courses/maths-through-coding): Programs that check the answer you were about to hand over.
+- [Algorithms and data structures](/courses/problem-solving-dsa-masterclass-teens): Searching, sorting and how long a method takes.
 
 ## Individual teaching for a team sport
 
 Lessons are live on video from India, where the clock sits five and a half hours ahead of Britain in winter and four and a half in summer. Times are agreed and kept in UK time.
 
-Early weekday evening
+- **Early weekday evening** For Year 8 and 9 squad members.
+- **Later weekday evening** For sixth-form squads.
+- **Weekend morning** For a longer session on a full set of rounds.
 
-For Year 8 and 9 squad members.
-
-Later weekday evening
-
-For sixth-form squads.
-
-Weekend morning
-
-For a longer session on a full set of rounds.
-
-### Accuracy before speed
-
-We work on getting it right when hurried, which is the thing a chained round actually tests.
-
-### Answers said aloud
-
-Every answer is stated and repeated back, which is the habit that stops shuttle handovers going wrong.
-
-### Fifteen to twenty learners
-
-A group is large enough that two methods meet and small enough that every answer is heard.
-
-### Our own material
-
-Practice rounds written by us. UKMT publishes its own past material and that is where the real thing lives.
-
-### One to one when needed
-
-For a squad member with one specific weakness to close before a regional.
-
-### Nothing promised
-
-We cannot register a team or influence selection, and we promise no result.
-
-Student work
-
-## What our students build
-
-Four published projects by students at our school, built outside any competition. More on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **Accuracy before speed** We work on getting it right when hurried, which is the thing a chained round actually tests.
+- **Answers said aloud** Every answer is stated and repeated back, which is the habit that stops shuttle handovers going wrong.
+- **Fifteen to twenty learners** A group is large enough that two methods meet and small enough that every answer is heard.
+- **Our own material** Practice rounds written by us. UKMT publishes its own past material and that is where the real thing lives.
+- **One to one when needed** For a squad member with one specific weakness to close before a regional.
+- **Nothing promised** We cannot register a team or influence selection, and we promise no result.
 
 ## Fees
 
 One monthly rate in US dollars for families outside India. No registration fee and no minimum number of months.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A full lesson with a teacher
-- An honest read on where the errors come from
-- No card details taken
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty learners at one level
-- The same teacher every week
-- Work checked and talked through
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher working with one learner
-- Aimed at one specific weakness
-- Useful in the weeks before a regional final
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Google reviews left by families, reproduced with nothing changed.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Team challenge questions
+- Free first class: USD 0. A full lesson with a teacher. An honest read on where the errors come from. No card details taken.
+- Group batch: USD 100 a month. Fifteen to twenty learners at one level. The same teacher every week. Work checked and talked through. A certificate at the end.
+- One to one: USD 150 a month. A teacher working with one learner. Aimed at one specific weakness. Useful in the weeks before a regional final.
 
 ## What teachers and parents ask
 
@@ -484,54 +240,50 @@ By running the rounds, especially the crossnumber with the clues genuinely split
 
 The first lesson is free. A group place is then USD 100 a month and one-to-one teaching USD 150, with nothing to pay to register.
 
-Related pages
-
 ## Papers sat alone
 
-The individual rounds a squad member is likely to sit as well, and the whole season in one table.
+- [UKMT Kangaroo rounds](/ukmt-kangaroo-rounds-practice): Twenty-five multiple-choice questions in an hour.
+- [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation): Six written questions for Year 8 and below.
+- [Cayley, Hamilton and Maclaurin](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation): The intermediate olympiads, split by school year.
+- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Dates for every contest, checked with the people who run them.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): The four school systems, and every UK page.
+- [Choosing an online class](/best-online-coding-classes-uk): How to tell a serious provider from a well-designed one.
 
-### [UKMT Kangaroo rounds](/ukmt-kangaroo-rounds-practice)
+## Related pages in this guide
 
-Twenty-five multiple-choice questions in an hour.
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-### [Junior Mathematical Olympiad](/junior-mathematical-olympiad-preparation)
+### Maths competitions
 
-Six written questions for Year 8 and below.
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
 
-### [Cayley, Hamilton and Maclaurin](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+### Enrichment and able pupils
 
-The intermediate olympiads, split by school year.
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
 
-### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+### Computing programmes and competitions
 
-Dates for every contest, checked with the people who run them.
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
 
-### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
-The four school systems, and every UK page.
+## Contact
 
-### [Choosing an online class](/best-online-coding-classes-uk)
-
-How to tell a serious provider from a well-designed one.
-
-Start here
-
-## Book a free maths lesson
-
-Tell us the year group and which round a squad member struggles with. The free lesson is a real one, and afterwards we say plainly where the errors are coming from.
-
-Rather read first? The syllabus for each course is on its own [course page](/courses), the approach is on [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap) puts the topics in order.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20in%20a%20UKMT%20team%20maths%20challenge%20squad%20and%20I%20would%20like%20a%20free%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp is free from a UK mobile and tends to reach us soonest. Our number is an Indian one, which we state on every page, and no British office exists.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice*
+Book the free first class at [https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice](https://learn.modernagecoders.com/ukmt-team-maths-challenge-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

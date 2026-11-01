@@ -4,28 +4,34 @@ description: "How to prepare for the Primary Maths Challenge: the 25-question pa
 canonical: https://learn.modernagecoders.com/primary-maths-challenge-practice
 source: src/pages/primary-maths-challenge-practice.html
 ---
-> How to prepare for the Primary Maths Challenge: the 25-question paper, the five questions with no choices, the November 2026 dates and the Bonus Round.
+> The Primary Mathematics Challenge is sat in school between 9 and 20 November 2026 by pupils aged 9 to 11. The organiser describes a paper of 25 questions with 45 minutes to answer them: "20 of these are multiple choice. The questions are graded; starting with easy ones and graduating to harder questions. The final five require an answer where no choices are given." Papers are marked in school and the results returned electronically, each pack carries one gold, two silver and three bronze certificates, and pupils who do well are invited to a Bonus Round in February, with the cut-off score announced in December. Schools enter; families cannot enter a child directly, and neither can we. What we teach is the arithmetic and problem solving the paper draws on, in live online classes for ages 6 upwards. A first class is free, a group place is USD 100 a month and one-to-one teaching USD 150.
 
-In short
+[Home](/) / [Courses](/courses) / [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / Primary Maths Challenge
 
-The Primary Mathematics Challenge is sat in school between 9 and 20 November 2026 by pupils aged 9 to 11. The organiser describes a paper of 25 questions with 45 minutes to answer them: "20 of these are multiple choice. The questions are graded; starting with easy ones and graduating to harder questions. The final five require an answer where no choices are given." Papers are marked in school and the results returned electronically, each pack carries one gold, two silver and three bronze certificates, and pupils who do well are invited to a Bonus Round in February, with the cut-off score announced in December. Schools enter; families cannot enter a child directly, and neither can we. What we teach is the arithmetic and problem solving the paper draws on, in live online classes for ages 6 upwards. A first class is free, a group place is USD 100 a month and one-to-one teaching USD 150.
+United Kingdom · Ages 9 to 11 · 9 to 20 November 2026
 
-Where to start
+# Primary Maths Challenge practice
+
+Most children meet the Primary Maths Challenge as a surprise: a paper handed out one November morning, twenty-five questions, forty-five minutes, and a teacher saying to have a go. It is a generous competition, run by mathematics teachers for nine to eleven year olds, and nothing about it needs a tutor. But it has a shape worth understanding before the morning arrives, because twenty of its questions offer answers to choose from and the last five do not, and those five are the hardest on the paper by design. A child who knows that is not being coached. They are being told what the room looks like before they walk into it.
+
+At a glance: Organiser: The Primary Mathematics Challenge; For: Pupils aged 9 to 11; Held: 9 to 20 November 2026; Paper: 25 questions in 45 minutes; Choices given: On the first 20 only; Marked: In school, returned electronically; Next round: Bonus Round in February; Entered by: The school, not by us. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a Year 5 or Year 6 mathematician
 
 Pick by how settled the arithmetic is, not by how near November is.
 
-[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  PMC / 01 Primary maths, Years 1 to 5 The whole primary ladder, taught properly, for a child whose number work still needs a pencil. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  PMC / 02 Mental maths for kids Number sense rather than tricks, which is what buys thinking time in a forty-five minute paper. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  PMC / 03 Olympiad and competition maths For a child who finds the school paper easy and wants problems that fight back. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)
-
-The paper
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): The whole primary ladder, taught properly, for a child whose number work still needs a pencil.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Number sense rather than tricks, which is what buys thinking time in a forty-five minute paper.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): For a child who finds the school paper easy and wants problems that fight back.
 
 ## Twenty-five questions, and only twenty of them offer a way in
 
 Everything here is quoted or summarised from the organiser's own pages, read on 20 September 2026.
 
+**The Primary Maths Challenge as its organiser describes it**
+
 | Part | What the organiser says | What it means on the day |
-| --- | --- | --- |
+|---|---|---|
 | Who it is for | "aimed at pupils aged 9 - 11, children must be in Primary school", with younger or older pupils entered at the school's discretion | Year 5 and Year 6 in England and Wales, and the equivalent primary years elsewhere |
 | When | Held between 9 and 20 November 2026 | A window, not a fixed morning: the school picks its slot |
 | The paper | 25 questions, graded from easy to hard, 45 minutes to answer them | Roughly 108 seconds a question if the time were spread evenly, which it should not be |
@@ -44,16 +50,16 @@ The packs of ten are a clue to the spirit of it: most schools enter a handful of
 
 Sources: [Primary Mathematics Challenge](https://www.primarymathschallenge.org.uk/), its [about page](https://www.primarymathschallenge.org.uk/about-the-pmc/) and its [FAQs](https://www.primarymathschallenge.org.uk/pmc-faqs/), read 20 September 2026. Modern Age Coders is not connected with the Primary Mathematics Challenge or the Association for Mathematics in Education.
 
-The method
-
 ## Forty-five minutes is a budget, and it is not spent evenly
 
 This section is arithmetic on the organiser's published numbers. It makes no claim about how quickly any particular child works.
 
 Twenty-five questions and forty-five minutes come to 108 seconds a question if a child spreads the time evenly. Almost nobody should. The questions are graded from easy to hard, and the five hardest are the five with no choices, which are also the five a child cannot shortcut by recognising an answer. So the interesting question is how much time the first twenty can bank for the last five, and that is a sum a ten-year-old can do.
 
+**Our arithmetic: what the first twenty questions bank for the last five**
+
 | Pace on the first twenty | Time that leaves | Per question on the last five |
-| --- | --- | --- |
+|---|---|---|
 | 30 seconds each | 35.0 minutes | 7 minutes each |
 | 40 seconds each | 31.7 minutes | 6 minutes and 20 seconds each |
 | 50 seconds each | 28.3 minutes | 5 minutes and 40 seconds each |
@@ -68,8 +74,6 @@ The practical version for a ten-year-old is three sentences. Go through once and
 The counterpart at home is arithmetic that does not need paper. A child who computes 25 per cent of 48 in their head has bought themselves forty seconds; a child who sets it out in columns has spent them.
 
 The pace figures are ours, computed from the 25 questions and 45 minutes the organiser publishes. They describe a budget, not a child.
-
-What to practise
 
 ## Fluency, then unfamiliar shapes, then the end of the paper
 
@@ -95,14 +99,14 @@ We write our own practice problems in the spirit of the challenge, and we do not
 
 If a child finds the whole thing enjoyable rather than stressful, the useful next step is not more PMC practice. It is harder mathematics of any kind: the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) has what comes after primary school.
 
-After November
-
 ## The Bonus Round, and what a certificate is worth
 
 Two things happen after the paper: a cut-off is published, and most children find out they are better at this than they thought.
 
+**What follows the November challenge**
+
 | Stage | When | What the organiser says |
-| --- | --- | --- |
+|---|---|---|
 | Cut-off announced | December | The score that qualifies for the Bonus Round is set after the papers are in |
 | Bonus Round | February | "an invite-only opportunity for those pupils who did well in the first round, to extend and challenge their maths skills" |
 | Certificates | With the pack | One gold, two silver and three bronze per pack of ten, plus an electronic certificate for taking part |
@@ -116,14 +120,14 @@ A bronze certificate from a pack of ten is not a consolation. It means a child w
 
 The one thing worth watching for afterwards is the child who says the last five were the good bit. That is the child to point at harder problems, whatever their score was.
 
-Getting ready
-
 ## Four rungs from tables to the end of the paper
 
 Where a child starts depends on their arithmetic, not on which year they are in.
 
+**From secure number work to questions with no options**
+
 | Stage | Rung | The sign it is secure |
-| --- | --- | --- |
+|---|---|---|
 | Year 3 to 4 | 1. Recall | Tables and number bonds arrive without counting or writing |
 | Year 4 to 5 | 2. Methods | Multiplication, division and fractions come out right when the numbers are awkward |
 | Year 5 | 3. Unfamiliar shapes | Reads a wordy question and can say what kind of maths it is before starting |
@@ -132,321 +136,71 @@ Where a child starts depends on their arithmetic, not on which year they are in.
 ### If November is close
 
 Two habits are worth more than any amount of content in the last month: answer what you can quickly, and practise questions that offer no choices.
-
 Nothing about a low score in November means a child is not good at mathematics. The paper is graded to be hard at the end on purpose.
 
 ### What comes next
 
 After primary school the UKMT Junior Mathematical Challenge is the usual next step, and the [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar) lays out the whole ladder.
-
 Children who like the puzzle side often take to programming quickly, which is what [maths through coding](/courses/maths-through-coding) is for.
-
-The full list
 
 ## Maths and coding courses for primary-age children
 
 Grouped by what a child needs next, with the syllabus behind every card.
 
-I
-
 ### Number and fluency
 
 The ground the paper stands on
 
-PMC / NUM / 01
-
-#### Primary maths, Years 1 to 5
-
-Every primary topic, taught until it is automatic.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-PMC / NUM / 02
-
-#### Mental maths for kids
-
-Number sense, so calculation stops costing time.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-PMC / NUM / 03
-
-#### Abacus and mental maths
-
-From first beads to calculating with none.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
-
-PMC / NUM / 04
-
-#### Vedic maths
-
-Speed methods for the arithmetic underneath.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)II
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Every primary topic, taught until it is automatic.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Number sense, so calculation stops costing time.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): From first beads to calculating with none.
+- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Speed methods for the arithmetic underneath.
 
 ### Problem solving
 
 Where competitions actually live
 
-PMC / SOLVE / 01
-
-#### Olympiad and competition maths
-
-Problems that do not announce their method.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
-
-PMC / SOLVE / 02
-
-#### 11 plus maths preparation
-
-The same upper primary content, under time pressure.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-PMC / SOLVE / 03
-
-#### Middle school maths mastery
-
-For a Year 6 child already working beyond primary.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)III
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Problems that do not announce their method.
+- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): The same upper primary content, under time pressure.
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): For a Year 6 child already working beyond primary.
 
 ### Maths with a computer
 
 For children who like to build
 
-PMC / CODE / 01
-
-#### Maths through coding
-
-Python as a way of seeing why a method works.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-PMC / CODE / 02
-
-#### Scratch for kids
-
-A first language, built on the same logic.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-PMC / CODE / 03
-
-#### Coding for kids, blocks to AI
-
-Games, apps and a first look at AI.
-
-[Open the syllabus](/courses/kids-coding-blocks-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Python as a way of seeing why a method works.
+- [Scratch for kids](/courses/scratch-programming-complete-course): A first language, built on the same logic.
+- [Coding for kids, blocks to AI](/courses/kids-coding-blocks-masterclass): Games, apps and a first look at AI.
 
 ### Further on
 
 When primary is no longer enough
 
-PMC / NEXT / 01
-
-#### Python and AI for kids
-
-Typed code once the ideas are comfortable.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)
-
-PMC / NEXT / 02
-
-#### Early maths foundations
-
-For a younger sibling starting from the beginning.
-
-[Open the syllabus](/courses/early-math-foundations)
-
-How lessons run
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): Typed code once the ideas are comfortable.
+- [Early maths foundations](/courses/early-math-foundations): For a younger sibling starting from the beginning.
 
 ## Short, weekly, and at an hour a ten-year-old can still concentrate in
 
 Teaching is live on video from India, which runs five and a half hours ahead of the UK in winter and four and a half in summer. Primary children take an early evening slot and never a late one.
 
-Early weekday evening
+- **Early weekday evening** Straight after school, before the day runs out.
+- **Weekend morning** For families who keep weeknights clear.
+- **Half term and holidays** Shorter sessions, more often, while school is out.
 
-Straight after school, before the day runs out.
-
-Weekend morning
-
-For families who keep weeknights clear.
-
-Half term and holidays
-
-Shorter sessions, more often, while school is out.
-
-### The same teacher weekly
-
-A child's mistakes only get fixed by someone who has seen them before.
-
-### Our own problems
-
-Practice is written by us in the spirit of the challenge. No PMC paper is copied.
-
-### Fifteen to twenty children
-
-Enough for a child to hear a better method than their own, few enough that nobody hides at the back.
-
-### Parents told the truth
-
-A short, plain note on what went well and what did not, rather than a score to put on the fridge.
-
-### One to one when useful
-
-For a child who freezes in a group, or has one specific gap to close.
-
-### Nothing promised
-
-No certificate, no Bonus Round place and no score is promised by us or anyone honest.
-
-Student work
-
-## What our students build
-
-Four published projects by students at our school, most of them older than this, all of them once nine. More on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **The same teacher weekly** A child's mistakes only get fixed by someone who has seen them before.
+- **Our own problems** Practice is written by us in the spirit of the challenge. No PMC paper is copied.
+- **Fifteen to twenty children** Enough for a child to hear a better method than their own, few enough that nobody hides at the back.
+- **Parents told the truth** A short, plain note on what went well and what did not, rather than a score to put on the fridge.
+- **One to one when useful** For a child who freezes in a group, or has one specific gap to close.
+- **Nothing promised** No certificate, no Bonus Round place and no score is promised by us or anyone honest.
 
 ## Fees
 
 A monthly rate in US dollars, the same for every country outside India. Nothing to join and nothing to cancel.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A real lesson, taught not sold
-- A straight answer about where the maths is
-- No card details
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children at one level
-- The same teacher every week
-- Work marked and talked through
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- One child with one teacher
-- Built around a specific gap
-- Useful when a group hour will not fit
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Parents' own words, taken from our Google profile without edits.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Primary Maths Challenge questions
+- Free first class: USD 0. A real lesson, taught not sold. A straight answer about where the maths is. No card details.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. The same teacher every week. Work marked and talked through. A certificate at the end.
+- One to one: USD 150 a month. One child with one teacher. Built around a specific gap. Useful when a group hour will not fit.
 
 ## What parents and teachers ask
 
@@ -490,54 +244,50 @@ The first is free. A place in a group is then USD 100 a month and one-to-one tea
 
 A weekly slot is agreed after the free lesson, and for primary children we keep to early evening. Our teachers work five and a half hours ahead of the UK in winter and four and a half in summer, and every time is confirmed in UK time.
 
-Related pages
-
 ## More for young mathematicians
 
-What comes after primary school, what runs beside it, and where the whole calendar lives.
+- [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar): Every contest we could confirm, month by month.
+- [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland): For families north of the border, where the school year differs.
+- [11 plus maths in Kent](/11-plus-maths-tuition-kent): The same upper primary content, with a selective test attached.
+- [11 plus maths tuition](/11-plus-maths-tuition): The national page for grammar and independent entry.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): Four school systems, and every UK page.
+- [Choosing an online class](/best-online-coding-classes-uk): Questions worth asking any provider, ours included.
 
-### [UK competitions calendar 2026-27](/uk-coding-maths-and-ai-competitions-calendar)
+## Related pages in this guide
 
-Every contest we could confirm, month by month.
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-### [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland)
+### Maths competitions
 
-For families north of the border, where the school year differs.
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
 
-### [11 plus maths in Kent](/11-plus-maths-tuition-kent)
+### Enrichment and able pupils
 
-The same upper primary content, with a selective test attached.
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+### Computing programmes and competitions
 
-The national page for grammar and independent entry.
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
 
-### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
-Four school systems, and every UK page.
+## Contact
 
-### [Choosing an online class](/best-online-coding-classes-uk)
-
-Questions worth asking any provider, ours included.
-
-Start here
-
-## Start with a free maths lesson
-
-Tell us the school year and how your child feels about maths. The free lesson teaches something real, and afterwards we say honestly what we saw.
-
-Prefer to read first? Each course keeps its syllabus on its own [course page](/courses), our method is described on [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap) shows what follows what.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20doing%20the%20Primary%20Maths%20Challenge%20and%20I%20would%20like%20a%20free%20maths%20class.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp is usually the quickest way to reach us and costs a UK mobile nothing. Our number is Indian, as we say everywhere, and we keep no office in Britain.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/primary-maths-challenge-practice*
+Book the free first class at [https://learn.modernagecoders.com/primary-maths-challenge-practice](https://learn.modernagecoders.com/primary-maths-challenge-practice#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

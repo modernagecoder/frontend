@@ -6,7 +6,7 @@ source: src/pages/online-maths-summer-school-uk.html
 ---
 > The National Mathematics Summer School is a one-week residential event run by the UK Mathematics Trust for students aged 14 to 16. Nobody applies: UKMT sends invitations through schools in March to students chosen at random from the top 1.5 per cent of Intermediate Mathematical Challenge results, in Years 10 to 11 in England and Wales, S3 to S4 in Scotland and Years 11 to 12 in Northern Ireland, with only one student per school. UKMT says it usually runs three events a year from the start of August. Modern Age Coders has no link with UKMT; we teach summer school topics live online on our olympiad course to any pupil aged 11 to 17, in groups of 15 to 20 or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths summer school
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / Maths summer school
 
 Summer enrichment · Ages 11 to 17 · UK-wide, online
 
@@ -276,6 +276,41 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 - [Intermediate olympiads](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation): Cayley, Hamilton and Maclaurin, after the IMC.
 - [Maths olympiad training](/maths-olympiad-training-uk): Every UKMT round in one table.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): Our UK hub.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
+
+### Enrichment and able pupils
+
+- [Online maths circle](/online-maths-circle-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
+
+### Maths competitions
+
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
+
+### Computing programmes and competitions
+
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
 ## Contact
 

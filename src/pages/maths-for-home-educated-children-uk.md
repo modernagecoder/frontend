@@ -6,7 +6,7 @@ source: src/pages/maths-for-home-educated-children-uk.html
 ---
 > No. In England the Department for Education's guidance for parents lists no legal requirement to teach the National Curriculum, give formal lessons, mark work or "match school-based, age-specific standards". Wales says home-educated children need not follow the Curriculum for Wales, Scotland's 1980 Act asks for "efficient education" suitable to age, ability and aptitude, and Northern Ireland's guidance says a child "is not obliged to follow the curriculum or take tests". What every nation does require is a suitable education, and England's guidance notes councils "may use minimum expectations for literacy and numeracy in assessing suitability". So maths matters, on the family's own terms. DfE figures for autumn 2025 put home education at 1.5 per cent of children of comparable ages in England. Modern Age Coders teaches home-educated children maths live online, from first number to GCSE, alongside whatever curriculum the family uses.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Home education maths
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / Home education maths
 
 England, Wales, Scotland, Northern Ireland · Ages 5 to 16
 
@@ -286,6 +286,41 @@ No. We send you short written notes on what was covered and what is secure, for 
 - [Functional Skills maths](/functional-skills-maths-tuition-online): A practical qualification for older learners.
 - [KS2 maths papers explained](/ks2-sats-maths-papers-explained): A yardstick for age 11, even without the tests.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): Our hub for every UK page.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
+
+### Enrichment and able pupils
+
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
+
+### Maths competitions
+
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
+
+### Computing programmes and competitions
+
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
 ## Contact
 
