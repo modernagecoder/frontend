@@ -6,7 +6,7 @@ source: src/pages/go-math-homework-help.html
 ---
 > Go Math! is an HMH core math curriculum for grades K to 6 built around chapters and a 5E lesson model; Into Math is the HMH program for kindergarten to Algebra 1, built around modules that open with a Spark Your Learning task. Go Math homework help from a live tutor teaches the reasoning, never the answers. Modern Age Coders runs it live online in its Elementary Mathematics course, in a batch or 1-on-1, with the first class free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Go Math homework help
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Go Math homework help
 
 United States · HMH Go Math! and Into Math · Grades K to 6
 
@@ -320,6 +320,34 @@ No. We are an independent online school. Go Math! and Into Math belong to their 
 - [Sixth grade math tutoring](/online-math-tutor-6th-grade): The last Go Math year, and ratios.
 - [Common Core math tutor](/common-core-math-tutor): Help with standards-based homework.
 - [Math catch-up program](/math-catch-up-program): When several earlier topics need repair.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

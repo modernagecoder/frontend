@@ -6,7 +6,7 @@ source: src/pages/math-u-see-tutor.html
 ---
 > Math-U-See is a mastery-based math curriculum from Demme Learning with 13 levels named by Greek letters and subjects, from Primer through Calculus, taught with integer blocks, a lesson video and a Build, Write, Say routine. A Math-U-See tutor works live with the student on the current lesson, especially from Delta to Algebra 1. Modern Age Coders runs these lessons live online in its Algebra Foundations course, as a group batch or 1-on-1, and the first class costs nothing.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Math-U-See tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Math-U-See tutor
 
 United States · Math-U-See Primer to Calculus · Live help with the hard levels
 
@@ -365,6 +365,34 @@ No. We are an independent online school. Math-U-See is a trademark of Demme Lear
 - [Fourth grade math tutoring](/online-math-tutor-4th-grade): Multiplication and division, around Gamma and Delta.
 - [Saxon Math tutor](/saxon-math-tutor): If your family is comparing a cumulative program.
 - [Teaching Textbooks help](/teaching-textbooks-math-help): Another self-paced homeschool program, explained.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

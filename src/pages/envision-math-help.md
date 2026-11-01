@@ -6,7 +6,7 @@ source: src/pages/envision-math-help.html
 ---
 > enVision Mathematics is a K to 12 math curriculum from Savvas Learning Company; its current enVision+ Mathematics editions cover grades K-5 and 6-8, with enVision A|G|A and Integrated Mathematics for high school. Lessons start with an exploration task, then a visual learning example. For enVision Math help, Modern Age Coders teaches children live online (Elementary Mathematics course), either with a batch of classmates or 1-on-1, starting with a free class.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / enVision Math help
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / enVision Math help
 
 United States · enVision+ Mathematics from Savvas · Grades K to 8
 
@@ -326,6 +326,34 @@ No. We are an independent online school. enVision and Savvas are trademarks of S
 - [Common Core vs traditional math](/common-core-math-vs-traditional-math): Why homework methods look new to parents.
 - [Eureka Math homework help](/eureka-math-homework-help): Another school program built on models.
 - [Sixth grade math tutoring](/online-math-tutor-6th-grade): Ratios and the start of middle school.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

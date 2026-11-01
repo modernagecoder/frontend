@@ -6,7 +6,7 @@ source: src/pages/russian-school-of-mathematics-alternative.html
 ---
 > The Russian School of Mathematics (RSM) is a K to 12 after-school math program with in-person branches and RSM-Online for grades 2 to 10, an average class size of 12 and three levels per grade, according to its own site. An RSM alternative might be a different live class, an online school or a private tutor. Modern Age Coders teaches math live online in a batch of 15 to 20 or 1-on-1, including Middle School Math Mastery; the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / RSM alternative
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / RSM alternative
 
 United States · Grades K to 12 · A comparison from published facts
 
@@ -283,6 +283,34 @@ No. Modern Age Coders is independent and not affiliated with the Russian School 
 - [Olympiad and AMC tutoring](/math-olympiad-amc-tutoring): For high school competitors.
 - [Eighth grade math tutoring](/online-math-tutor-8th-grade): Linear equations and functions.
 - [US competitions calendar](/us-coding-math-and-ai-competitions-calendar): Math, coding and AI contest dates.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

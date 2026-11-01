@@ -6,7 +6,7 @@ source: src/pages/saxon-math-tutor.html
 ---
 > Saxon Math is a K to 12 math program published by Houghton Mifflin Harcourt (HMH) that teaches in small daily increments and keeps every earlier lesson in cumulative practice and tests. A Saxon Math tutor helps a student who has stalled by finding which earlier lesson each missed problem depends on and reteaching it. Modern Age Coders teaches live online for US students, in a batch or 1-on-1, through its Algebra Foundations course, and the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Saxon Math tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Saxon Math tutor
 
 United States · Saxon Math K to Algebra 2 · Live help alongside the books
 
@@ -295,6 +295,34 @@ Yes. The first class is free and needs no card details. Bring the Saxon book and
 - [Common Core vs traditional math](/common-core-math-vs-traditional-math): Two teaching styles set side by side from the standards.
 - [Seventh grade math tutoring](/online-math-tutor-7th-grade): Negatives, ratios and first equations.
 - [Math tutor cost](/online-math-tutor-cost): What shapes the fee for online math help.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Curricula we teach alongside
+
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

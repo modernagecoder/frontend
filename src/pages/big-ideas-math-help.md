@@ -6,7 +6,7 @@ source: src/pages/big-ideas-math-help.html
 ---
 > Big Ideas Math is a K to 12 math textbook series from Big Ideas Learning, a Larson Texts company, used in many US districts for grades 6 to 8, Algebra 1, Geometry and Algebra 2; its newer programs are called Math & YOU. Big Ideas Math help from a live tutor means learning the method, not copying answers. Modern Age Coders teaches it live online through its Middle School Mathematics Mastery course, in a batch or 1-on-1, with a free first class.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Big Ideas Math help
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Big Ideas Math help
 
 United States · Big Ideas Math and Math & YOU · Grade 6 to Algebra 2
 
@@ -326,6 +326,34 @@ No. We are an independent online school. We describe the programs only from the 
 - [Geometry tutoring](/geometry-tutoring-online-usa): Proof and reasoning about shapes.
 - [Common Core math tutor](/common-core-math-tutor): If your state follows the Common Core standards.
 - [Eureka Math homework help](/eureka-math-homework-help): For families whose school uses Eureka.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

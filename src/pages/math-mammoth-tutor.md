@@ -6,7 +6,7 @@ source: src/pages/math-mammoth-tutor.html
 ---
 > Math Mammoth is a mastery-oriented homeschool math curriculum whose Light Blue Series covers grades K to 8 in two worktexts per grade, with explanations written directly to the student and a strong focus on mental math and word problems. A Math Mammoth tutor works live on the chapter where self-teaching has stalled. Modern Age Coders offers that help live online, mainly in its Elementary Mathematics course, choosing between a group batch and 1-on-1, and you pay nothing for the first class.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Math Mammoth tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Math Mammoth tutor
 
 United States · Math Mammoth Light Blue Series · Grades 1 to 7
 
@@ -319,6 +319,34 @@ No. We are an independent online school. Math Mammoth is a trademark of its owne
 - [Algebra tutoring](/algebra-tutoring-online-usa): The step after Math Mammoth grade 7 or 8.
 - [Beast Academy tutor](/beast-academy-tutor): Another homeschool favorite, explained.
 - [Teaching Textbooks help](/teaching-textbooks-math-help): A self-grading app-based program, explained.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

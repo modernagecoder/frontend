@@ -6,7 +6,7 @@ source: src/pages/teaching-textbooks-math-help.html
 ---
 > Teaching Textbooks is a self-paced homeschool math curriculum delivered as one app per course, from Math 3 to Pre-Calculus, that teaches each lesson, grades every problem and gives a step-by-step solution for each. Teaching Textbooks math help from a live tutor suits a student who follows the solutions but cannot yet explain or start problems alone. Modern Age Coders teaches live online, in a batch or 1-on-1, through its Algebra Foundations course; the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Teaching Textbooks help
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Teaching Textbooks help
 
 United States · Teaching Textbooks Math 3 to Pre-Calculus · A person beside the app
 
@@ -296,6 +296,34 @@ No. We are an independent online school. Teaching Textbooks is a trademark of it
 - [Precalculus tutoring](/precalculus-tutoring-online): For the last course in the TT series.
 - [Sixth grade math tutoring](/online-math-tutor-6th-grade): Fractions, decimals and ratios.
 - [Homeschool computer science credit](/homeschool-computer-science-high-school-credit): Adding a CS course to the transcript.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

@@ -6,7 +6,7 @@ source: src/pages/stanford-10-math-practice.html
 ---
 > The Stanford 10 (SAT10), Pearson's Stanford Achievement Test Series, Tenth Edition, is a nationally normed, multiple-choice achievement test for grades K to 12, with 2018 norms. From Primary 1 to Advanced 2 its math has two subtests, Mathematics Problem Solving and Mathematics Procedures. Many homeschoolers use it for state testing rules. Modern Age Coders, not connected with Pearson, teaches the grade-level math it measures, live online in our elementary math course, as a group of 15 to 20 or one to one.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Stanford 10 math practice
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Stanford 10 math practice
 
 United States · Grades K to 12 · Stanford 10 and achievement tests
 
@@ -289,6 +289,34 @@ No. Modern Age Coders is an independent online school with no link to Pearson, S
 - [Third grade math tutoring](/online-math-tutor-3rd-grade): Primary 2 and 3 math, taught well.
 - [Sixth grade math tutoring](/online-math-tutor-6th-grade): Ratios, fractions and early algebra.
 - [Common Core vs traditional math](/common-core-math-vs-traditional-math): Why methods at school look different.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Homeschool testing and credit
+
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

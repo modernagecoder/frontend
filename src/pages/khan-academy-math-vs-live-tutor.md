@@ -6,7 +6,7 @@ source: src/pages/khan-academy-math-vs-live-tutor.html
 ---
 > Khan Academy math is a free, self-paced library of videos, exercises and articles from the nonprofit Khan Academy; Khanmigo is its paid AI tutor, which guides students instead of giving answers and needs a parent to sign up for under-18s. A live tutor is a teacher who hears the student reason at a set time. Modern Age Coders teaches math live online, in a batch or 1-on-1, through Elementary Math; the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Khan Academy math vs tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Khan Academy math vs tutor
 
 United States · Elementary and middle school math · Self-paced, AI or live
 
@@ -274,6 +274,34 @@ No. Modern Age Coders is an independent online school, not affiliated with Khan 
 - [Sixth grade math tutoring](/online-math-tutor-6th-grade): Ratios, decimals and negatives.
 - [Common Core vs traditional math](/common-core-math-vs-traditional-math): Methods and standards explained.
 - [Math tutor cost](/online-math-tutor-cost): What online math help costs and why.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Comparing options
+
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

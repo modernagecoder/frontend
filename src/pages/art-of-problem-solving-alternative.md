@@ -6,7 +6,7 @@ source: src/pages/art-of-problem-solving-alternative.html
 ---
 > Art of Problem Solving (AoPS) publishes problem-solving math textbooks, has run online courses since 2003, runs AoPS Academy, an after-school enrichment program for grades 1 to 12 with over 20 campuses in 12 states, and created Beast Academy for ages 6 to 13. Modern Age Coders is an independent alternative: live online olympiad and problem-solving math, in a batch or 1-on-1, through our Olympiad Mathematics course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Art of Problem Solving alternative
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Art of Problem Solving alternative
 
 Grades 1 to 12 · AoPS Academy, Beast Academy and AoPS books · A neutral comparison
 
@@ -321,6 +321,61 @@ No. Modern Age Coders is independent and has no connection with Art of Problem S
 - [MATHCOUNTS preparation](/mathcounts-preparation): The middle school team contest.
 - [Middle school math competitions](/math-competitions-for-middle-school-students): Three contests compared.
 - [Accelerated math online](/accelerated-math-program-online): Moving ahead of grade level with depth.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

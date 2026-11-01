@@ -327,7 +327,7 @@ Yes. The first class is free and no card details are needed. Tell us your curric
 - [Stanford 10 math practice](/stanford-10-math-practice)
 - [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
 
-More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

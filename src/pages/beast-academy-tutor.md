@@ -6,7 +6,7 @@ source: src/pages/beast-academy-tutor.html
 ---
 > Beast Academy is an elementary math program from Art of Problem Solving for ages 6 to 13, in five levels of four units each, taught through comic-style Guide books, Practice books and BA Online. A Beast Academy tutor helps a child work through its challenging problems with hints instead of answers. Modern Age Coders teaches live online for US families, in a batch or 1-on-1, through its Elementary Math course, and the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Beast Academy tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Beast Academy tutor
 
 United States · Beast Academy Levels 1 to 5 · Hints, not answers
 
@@ -288,6 +288,34 @@ No. Our teachers use a hint ladder that gives the least help needed. A problem t
 - [Fourth grade math tutoring](/online-math-tutor-4th-grade): Factors, fractions and multi-digit work.
 - [Homeschool math curriculum](/homeschool-math-curriculum-usa): Building a math plan for home learning.
 - [Olympiad and AMC tutoring](/math-olympiad-amc-tutoring): For older students who want the hardest problems.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+- [Homeschool CS high school credit](/homeschool-computer-science-high-school-credit)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

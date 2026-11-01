@@ -6,7 +6,7 @@ source: src/pages/homeschool-computer-science-high-school-credit.html
 ---
 > Homeschool computer science counts for high school credit in very different ways by state. New York says "Credit is given only by schools." Pennsylvania lets a supervising parent issue a diploma under Act 196 of 2014, with electives such as computer science among the required courses. Texas awards no state diploma to homeschoolers. Modern Age Coders teaches the course live online and supplies the syllabus, hours and graded work a family records.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Homeschool CS credit
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa) / Homeschool CS credit
 
 United States · Homeschool · Grades 9 to 12
 
@@ -106,6 +106,12 @@ Act 196 of 2014 lets a home education supervisor award a state-recognized diplom
 
 Approved diploma-granting home education associations are a second route; they keep records and some provide transcripts.
 
+1. Some schools accept all home education credits.
+2. Some schools do not accept any home education credits.
+3. Some accept credit for classes the school also offers.
+4. Some accept those and assign general credit for classes the district does not offer.
+5. Some schools allow students to test for credit.
+
 Those five examples are the guide&rsquo;s own, for a homeschooled student who later enrolls in a district school. The guide adds that no law governs acceptance of home education work, that it is left to each school, and that districts must have written policies. A computer science elective with strong records is easiest to accept under any of the five. Source: [PDE Home Education and Private Tutoring Guide](https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/instruction/home-education-and-private-tutoring/home%20education%20and%20private%20tutoring%20guide.pdf), revised May 2026, read 17 October 2026.
 
 ## Texas: no state diploma, local decisions on credit
@@ -141,6 +147,12 @@ Sources: [TEA Home Schooling](https://tea.texas.gov/families-and-students/findin
 
 An AP score is the one piece of evidence that means the same thing in every state, which is why many homeschool families use it for computer science. The College Board&rsquo;s rules for homeschoolers are short and firm.
 
+1. Search the AP Course Ledger. The College Board calls it "the official, up-to-date, comprehensive list of schools that have passed the AP Course Audit", searchable by state and city.
+2. Call the school and ask for the AP coordinator. Schools set their own policies on testing outside students and may have local deadlines.
+3. Do it early in the school year. AP coordinators order exams by the November 13 deadline for full-year courses, so the arrangement should be in place before then.
+4. Remember the ordering rule. "Parents and students cannot order AP Exams directly." The coordinator creates an exam only section and gives the student its join code.
+5. Study at home if you like. The College Board says "you can self-study for most AP Exams", while recommending a course.
+
 ### Principles or A?
 
 AP Computer Science Principles is the broader course and suits a first year of CS. AP Computer Science A is Java programming and suits a student who already codes.
@@ -170,6 +182,23 @@ Whichever state you are in, the same file answers the questions a school, an eva
 | Assessed work | Projects and tests with marks and the marking rule | Unit 4 project, 86 out of 100, rubric attached |
 | External evidence | Anything assessed outside the home | AP exam score, competition entry, public repository |
 | Grade | How the final grade was calculated | Projects 60 percent, tests 30 percent, participation 10 percent |
+
+**Totalling the hours log · our script** (python)
+```python
+import csv
+from collections import defaultdict
+
+# cs_hours_log.csv has three columns: date,unit,hours
+totals = defaultdict(float)
+with open("cs_hours_log.csv", newline="") as f:
+    for row in csv.DictReader(f):
+        totals[row["unit"]] += float(row["hours"])
+
+for unit, hours in sorted(totals.items()):
+    print(f"{unit:<30}{hours:6.1f}")
+print(f"{'Total for the course':<30}{sum(totals.values()):6.1f}")
+```
+Standard-library Python: csv.DictReader reads each row as a dictionary keyed by the header. Keep one row per session in the CSV, and the script prints hours per unit and the course total.
 
 Our planning assumption, not a legal rule: we plan a full-year high school computer science course at about 144 hours, which is 36 weeks at 4 hours a week (36 x 4), including live lessons, practice and projects. Pennsylvania&rsquo;s guide explicitly bases graduation on courses and standards rather than credit counts, so in that state the hours log supports the course description rather than defining the credit.
 
@@ -327,6 +356,34 @@ A syllabus, a dated attendance log, graded projects with rubrics and unit notes 
 - [AI summer programs for high school students](/ai-summer-programs-for-high-school-students): AI summer programs for US high schoolers in 2027, and an eight-week AI summer you can run at home.
 - [CS summer programs for high school students](/computer-science-summer-programs-for-high-school-students): Four CS summer programs for high schoolers, from their own 2027 pages.
 - [Coding summer camp for middle schoolers](/coding-summer-camp-for-middle-schoolers): Coding summer camp for grades 6 to 8: blocks to Python in four weeks.
+
+## Related pages in this guide
+
+Part of the guide: [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
+
+### Homeschool testing and credit
+
+- [Stanford 10 math practice](/stanford-10-math-practice)
+
+### Curricula we teach alongside
+
+- [Saxon Math tutor](/saxon-math-tutor)
+- [Beast Academy tutor](/beast-academy-tutor)
+- [Teaching Textbooks math help](/teaching-textbooks-math-help)
+- [Math Mammoth tutor](/math-mammoth-tutor)
+- [Math-U-See tutor](/math-u-see-tutor)
+- [Eureka Math homework help](/eureka-math-homework-help)
+- [enVision Math help](/envision-math-help)
+- [Go Math homework help](/go-math-homework-help)
+- [Big Ideas Math help](/big-ideas-math-help)
+
+### Comparing options
+
+- [Khan Academy math vs live tutor](/khan-academy-math-vs-live-tutor)
+- [Russian School of Mathematics alternative](/russian-school-of-mathematics-alternative)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 
