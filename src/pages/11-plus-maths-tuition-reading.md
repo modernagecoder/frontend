@@ -4,28 +4,34 @@ description: "Live online 11 plus maths for Kendrick School and Reading School: 
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-reading
 source: src/pages/11-plus-maths-tuition-reading.html
 ---
-> Live online 11 plus maths for Kendrick School and Reading School: two different tests on two calendars, one sat in July of Year 5, and Year 5 volume taught well.
+> Brighter Futures for Children, which runs children's services for Reading, says the town has two selective state grammar schools, Reading School (boys) and Kendrick School (girls), and that families register with each school directly. Kendrick's test is two papers of about an hour, marked and standardised by GL Assessment, covering verbal and non-verbal reasoning, English and mathematics, with no creative writing; for 2027 entry it was on Friday 18 September 2026. Reading School uses an FSCE test with multiple-choice and written questions; for 2027 entry its main sitting was on Thursday 16 July 2026, and the school says candidates must reach the standard in each element. FSCE draws on Key Stage 2 up to the end of Year 5, with no calculators. We teach that maths, live online, on a timetable that works for a July test. A trial lesson is on the house; ongoing tuition is billed monthly at USD 100 for a small group or USD 150 for individual lessons.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Reading
 
-Brighter Futures for Children, which runs children's services for Reading, says the town has two selective state grammar schools, Reading School (boys) and Kendrick School (girls), and that families register with each school directly. Kendrick's test is two papers of about an hour, marked and standardised by GL Assessment, covering verbal and non-verbal reasoning, English and mathematics, with no creative writing; for 2027 entry it was on Friday 18 September 2026. Reading School uses an FSCE test with multiple-choice and written questions; for 2027 entry its main sitting was on Thursday 16 July 2026, and the school says candidates must reach the standard in each element. FSCE draws on Key Stage 2 up to the end of Year 5, with no calculators. We teach that maths, live online, on a timetable that works for a July test. A trial lesson is on the house; ongoing tuition is billed monthly at USD 100 for a small group or USD 150 for individual lessons.
+Reading · Kendrick School and Reading School entrance tests · Live online, small groups or one to one
 
-Where to start in Reading
+# 11 plus maths tuition in Reading
+
+Reading has two grammar schools, and they do not share a test, a provider or even a season. Kendrick School, for girls, sets two one-hour GL Assessment papers in September of Year 6. Reading School, for boys, uses a test from Future Stories Community Enterprise (FSCE), and for 2027 entry its main sitting was on Thursday 16 July 2026, in the final weeks of Year 5. Reading School also says a candidate must be "of the standard" in each element of the test: a high score in one area does not rescue a low one in another. Put those two facts together and the maths plan for a Reading School applicant has to be finished earlier, and has to stand on its own, than almost anywhere else in England. This page sets out what both schools publish, and then teaches a Year 5 topic that FSCE names explicitly: volume and the three-dimensional shapes behind it.
+
+At a glance: Schools: Kendrick School (girls); Reading School (boys); Kendrick test: GL, two papers of about an hour; Kendrick date: September of Year 6; Reading School test: FSCE, multiple choice and written; Reading School date: July of Year 5, this cycle; Reading School rule: "Of the standard" in each element; Content: Up to the end of Year 5; We teach: Year 5 maths, finished early. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for two different tests
 
 For a Reading School applicant, start by spring of Year 5 at the latest. For Kendrick, the summer is still usable.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  READING / 01 Year 5 maths, completed early The whole Year 5 curriculum, paced to be secure by July, including the measures and shape FSCE names. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  READING / 02 Firm primary foundations For Year 4 children who need number and shape settled before the Year 5 work begins. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  READING / 03 Written and mental calculation FSCE tests maths "through written and mental methods of calculation (no calculators)". Open the syllabus →](/courses/mental-maths-mastery-kids)
-
-Two schools, two tests
+- [Year 5 maths, completed early](/courses/11-plus-maths-preparation-course-uk): The whole Year 5 curriculum, paced to be secure by July, including the measures and shape FSCE names.
+- [Firm primary foundations](/courses/elementary-mathematics-complete-masterclass): For Year 4 children who need number and shape settled before the Year 5 work begins.
+- [Written and mental calculation](/courses/mental-maths-mastery-kids): FSCE tests maths "through written and mental methods of calculation (no calculators)".
 
 ## What Kendrick School and Reading School publish
 
 Each school sets and publishes its own arrangements. Read on 26 September 2026, together with Brighter Futures for Children's admissions guidance.
 
-|   | Kendrick School | Reading School |
-| --- | --- | --- |
+**The two Reading entrance tests for September 2027 entry, as each school publishes them**
+
+|  | Kendrick School | Reading School |
+|---|---|---|
 | Provider | GL Assessment | Future Stories Community Enterprise (FSCE) |
 | Registration | 1 May to midnight, 1 July 2026 | 27 March to midnight, 17 May 2026 |
 | Main test date | Friday 18 September 2026 (Year 6) | Thursday 16 July 2026 (Year 5) |
@@ -42,8 +48,6 @@ Reading School uses FSCE's test, which mixes multiple-choice and written respons
 The rule that matters most for maths is Reading School's: "To be eligible, a candidate must be 'of the standard' in each of the elements of the entrance test. They may score highly on one area but if they perform poorly on another, they will not be classed as eligible." Places and priorities after that are for each school to explain.
 
 Sources: [Brighter Futures for Children, secondary admissions](https://brighterfuturesforchildren.org/for-parents-carers/schools/secondary-admissions/); [Kendrick School, admission into Year 7 in September 2027](https://www.kendrick.reading.sch.uk/page/?title=Admission+into+Year+7+in+September+2027&pid=72), with its admissions procedure summary and guide; [Reading School, Year 7 entry](https://www.reading-school.co.uk/admissions/year-7-entry), with FSCE's information and familiarisation guide. Modern Age Coders has no connection with either school, FSCE, GL Assessment or Brighter Futures for Children.
-
-A test before Year 5 ends
 
 ## Why a July sitting changes the whole plan
 
@@ -63,14 +67,14 @@ Because each element must reach the standard, we do not let maths be the weak on
 
 Kendrick applicants have the usual September rhythm, with the summer holiday for practice. Families applying to both schools, which happens with siblings, are effectively preparing for two tests three months apart. The maths underneath is the same; only the calendar differs. For children now in Year 5, both schools will publish their own 2028-entry dates, and we do not assume them.
 
-The lesson
-
 ## Volume and 3-D shapes, the Year 5 way
 
 FSCE lists measuring, estimating and comparing "perimeters, volumes, areas and capacity" and geometry with 2D and 3D shapes. Year 5 is where volume is first built from cubes.
 
+**Year 5 volume and 3-D shape, with questions of our own**
+
 | Year 5 idea | Our question | Answer and reasoning |
-| --- | --- | --- |
+|---|---|---|
 | Volume by counting cubes | A cuboid is built from 1 cm cubes: 4 cubes long, 3 wide, 2 high. What is its volume? | 24 cm³: 4 × 3 = 12 in one layer, two layers |
 | Same volume, different shape | Which cuboid has more cubes: 6 by 2 by 2, or 4 by 3 by 2? | Both have 24 cubes |
 | Cuboids from pictures | A drawing shows a cuboid with 5 cubes visible along the front edge, 2 along the side and 3 high. How many cubes if it is solid? | 30: the hidden cubes count too |
@@ -87,8 +91,6 @@ The "hidden cubes" row is the classic trap. In a drawing of a solid cuboid, some
 The capacity row connects two units children often keep apart: 1 cm³ holds 1 ml, so 1,000 cm³ is a litre. It is one of the most useful single facts in primary measures, and it turns up in science too.
 
 Sources: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 geometry and measurement (statutory requirements); FSCE Familiarisation Guide for Parents, maths section, published by Reading School. The questions are our own.
-
-Formats
 
 ## Multiple choice at Kendrick, both kinds at Reading School
 
@@ -114,8 +116,6 @@ Reading School's test also includes creative and non-maths elements, and Kendric
 
 We give no advice on catchment, designated areas or places. Those are published by the schools and by Brighter Futures for Children.
 
-Reading and around it
-
 ## Two schools in one town, taught from anywhere
 
 Both schools are in Reading itself, yet their tests are entirely separate, with separate registration, dates and providers.
@@ -128,14 +128,14 @@ For the Slough schools' test, see our [Slough 11 plus page](/11-plus-maths-tuiti
 
 We have no connection with Kendrick School, Reading School, FSCE, GL Assessment or Brighter Futures for Children.
 
-Working back from July
-
 ## Four stages, finished by early summer
 
 Planned for a Reading School test in July of Year 5; Kendrick applicants have the summer as well.
 
+**From number facts to both answer formats, ready for July**
+
 | When | Stage | You will see |
-| --- | --- | --- |
+|---|---|---|
 | Year 4 | 1. Foundations | Tables, place value and the four operations secure |
 | Autumn, Year 5 | 2. Year 5 number and fractions | Large numbers, primes, fractions and decimals done without calculators |
 | Spring, Year 5 | 3. Measures and shape | Volume by layers, 3-D shapes from pictures, area and perimeter |
@@ -144,321 +144,71 @@ Planned for a Reading School test in July of Year 5; Kendrick applicants have th
 ### Late in the year?
 
 For a July test, a spring start is tight but workable if the child is already secure in number. For Kendrick, a later start is more forgiving.
-
 We will tell you honestly at the free lesson what is realistic.
 
 ### After the tests
 
 Volume and shape grow into secondary geometry and science. Many children continue with [maths through coding](/courses/maths-through-coding), building 3-D shapes in code.
-
 Others take on the national challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-Our courses
 
 ## Maths and coding for Reading families
 
 Grouped by stage; every card opens a full syllabus.
 
-I
-
 ### For Kendrick and Reading School
 
 Years 3 to 5
 
-RDM / I
-
-#### 11 plus maths preparation
-
-Year 5 maths, paced for a July or September test.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-RDM / II
-
-#### Primary maths, Years 1 to 5
-
-Number and shape foundations first.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-RDM / III
-
-#### Mental maths for kids
-
-Calculation without a calculator.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-RDM / IV
-
-#### Abacus and mental maths
-
-A tactile route to confident arithmetic.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): Year 5 maths, paced for a July or September test.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Number and shape foundations first.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Calculation without a calculator.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): A tactile route to confident arithmetic.
 
 ### Secondary
 
 From Year 6
 
-RDM / V
-
-#### Middle school maths mastery
-
-Volume formulae, algebra and proof.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-RDM / VI
-
-#### GCSE maths, foundation and higher
-
-Taught to AQA, Edexcel and OCR.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-RDM / VII
-
-#### Olympiad and competition maths
-
-Spatial and number puzzles that stretch.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Volume formulae, algebra and proof.
+- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): Taught to AQA, Edexcel and OCR.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Spatial and number puzzles that stretch.
 
 ### Coding
 
 Shapes and numbers in code
 
-RDM / VIII
-
-#### Maths through coding
-
-Compute volumes; draw nets.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-RDM / IX
-
-#### Scratch coding for kids
-
-Visual programming with real logic.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-RDM / X
-
-#### Python and AI for kids
-
-When blocks feel too easy, real syntax.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Compute volumes; draw nets.
+- [Scratch coding for kids](/courses/scratch-programming-complete-course): Visual programming with real logic.
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): When blocks feel too easy, real syntax.
 
 ### Later
 
 Teenagers
 
-RDM / XI
-
-#### Vedic maths and speed calculation
-
-Clever shortcuts, once the standard methods are fluent.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-RDM / XII
-
-#### AI and machine learning for teens
-
-Mathematics in working software.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-Lesson times
+- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Clever shortcuts, once the standard methods are fluent.
+- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Mathematics in working software.
 
 ## After school or at the weekend, UK time
 
 We teach live from India, and for primary children we keep to early evenings and weekend mornings by the UK clock. When Britain changes its clocks, our teachers move their hours.
 
-Weekdays, just after school
+- **Weekdays, just after school** Before homework and tea.
+- **Weekend mornings** A fresh hour at the start of the day.
+- **School holidays** Short extra sessions, useful before a July test.
 
-Before homework and tea.
-
-Weekend mornings
-
-A fresh hour at the start of the day.
-
-School holidays
-
-Short extra sessions, useful before a July test.
-
-### One teacher throughout
-
-The same person weekly, who learns how your child thinks.
-
-### Candid notes home
-
-Brief reports that include what is not working yet.
-
-### Groups of fifteen to twenty
-
-Matched by level for the right pace.
-
-### Our own questions
-
-Nothing from GL or FSCE is reproduced.
-
-### One to one if helpful
-
-For a child racing a July deadline.
-
-### Maths only
-
-No English, reasoning or creativity coaching; no admissions advice.
-
-Student work
-
-## Where our students take their maths
-
-Four projects built and published by students at our school, all on foundations laid in primary maths. See more on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **One teacher throughout** The same person weekly, who learns how your child thinks.
+- **Candid notes home** Brief reports that include what is not working yet.
+- **Groups of fifteen to twenty** Matched by level for the right pace.
+- **Our own questions** Nothing from GL or FSCE is reproduced.
+- **One to one if helpful** For a child racing a July deadline.
+- **Maths only** No English, reasoning or creativity coaching; no admissions advice.
 
 ## Fees
 
 Families outside India all pay the same US dollar rate, month by month. There is nothing to join and nothing to sign.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A proper lesson with a teacher
-- An honest view afterwards
-- No card required
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children at one level
-- A regular teacher
-- Marked work, explained
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- One child, one teacher
-- Paced to a July or September test
-- Focused on weaker topics
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Parents on Google, word for word.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Reading questions
+- Free first class: USD 0. A proper lesson with a teacher. An honest view afterwards. No card required.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Marked work, explained. A certificate at the end.
+- One to one: USD 150 a month. One child, one teacher. Paced to a July or September test. Focused on weaker topics.
 
 ## What Reading families ask us
 
@@ -502,54 +252,70 @@ No. Our lessons cover the mathematics; the English, reasoning and creativity ele
 
 The first lesson is free of charge. Continuing costs USD 100 a month for a group place or USD 150 a month one to one, and there is no minimum term.
 
-Related
-
 ## More for Berkshire families
 
-Neighbouring selective areas, our national 11 plus page, and coding for UK children.
+- [11 plus maths in Slough](/11-plus-maths-tuition-slough): The Slough Consortium test, a short drive east.
+- [11 plus maths in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire): A county test with published weightings.
+- [11 plus maths tuition](/11-plus-maths-tuition): The general picture of 11 plus maths in England.
+- [Coding for UK children](/online-coding-classes-for-kids-uk): First steps in programming for primary pupils.
+- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges through the school year.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area we cover.
 
-### [11 plus maths in Slough](/11-plus-maths-tuition-slough)
+## Related pages in this guide
 
-The Slough Consortium test, a short drive east.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [11 plus maths in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+### 11+ by area
 
-A county test with published weightings.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+### Tests by provider and entry point
 
-The general picture of 11 plus maths in England.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [Coding for UK children](/online-coding-classes-for-kids-uk)
+### Northern Ireland transfer test
 
-First steps in programming for primary pupils.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-Maths challenges through the school year.
+## Contact
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
-
-Every UK area we cover.
-
-Start here
-
-## Arrange a free maths lesson
-
-Tell us which school, your child's year, and how maths is going. We teach a proper lesson and then tell you straight what we saw and what the calendar allows.
-
-Weighing things up? Our [catalogue](/courses) carries a syllabus for each course, the [teaching page](/how-we-teach) describes a typical lesson, and the [roadmap](/coding-roadmap) sets out a route from primary maths into programming.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Reading%20grammar%20school%20tests.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-Messages on WhatsApp are answered quickest. The school behind this page is Indian, as is the phone number, and there are no premises in Berkshire or anywhere in the UK.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-reading*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-reading](https://learn.modernagecoders.com/11-plus-maths-tuition-reading#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

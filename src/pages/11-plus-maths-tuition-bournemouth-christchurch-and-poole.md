@@ -4,28 +4,34 @@ description: "Live online 11 plus maths for the four BCP grammar schools: the Do
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-bournemouth-christchurch-and-poole
 source: src/pages/11-plus-maths-tuition-bournemouth-christchurch-and-poole.html
 ---
-> Live online 11 plus maths for the four BCP grammar schools: the Dorset Consortium test, the shorter Quest maths paper for 2028 entry, and Year 5 shape taught well.
+> Bournemouth School, Bournemouth School for Girls, Parkstone Grammar School and Poole Grammar School form the Dorset Consortium and share one set of entrance tests. For September 2027 entry they were GL Assessment papers in maths (50 minutes), English (45) and verbal reasoning (50), all multiple choice, sat on Saturday 26 September 2026 with results on 16 October. For children now in Year 5, the consortium moves to Quest Assessments: three papers of 40 minutes in one session, with maths as Paper One, and Bournemouth School says the maths will exclude work covered in Year 6. Quest lists registration from April 2027 and the exam in September 2027. Poole Grammar School's proposed policy gives 3 September 2027 as its registration deadline and 15 October 2027 for results. We teach the maths, live online. Our first session costs nothing; families who continue pay USD 100 monthly for a small class or USD 150 monthly for a private teacher.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Bournemouth, Christchurch and Poole
 
-Bournemouth School, Bournemouth School for Girls, Parkstone Grammar School and Poole Grammar School form the Dorset Consortium and share one set of entrance tests. For September 2027 entry they were GL Assessment papers in maths (50 minutes), English (45) and verbal reasoning (50), all multiple choice, sat on Saturday 26 September 2026 with results on 16 October. For children now in Year 5, the consortium moves to Quest Assessments: three papers of 40 minutes in one session, with maths as Paper One, and Bournemouth School says the maths will exclude work covered in Year 6. Quest lists registration from April 2027 and the exam in September 2027. Poole Grammar School's proposed policy gives 3 September 2027 as its registration deadline and 15 October 2027 for results. We teach the maths, live online. Our first session costs nothing; families who continue pay USD 100 monthly for a small class or USD 150 monthly for a private teacher.
+Bournemouth, Christchurch and Poole · Dorset Consortium 11+ maths · Live online, small groups or one to one
 
-Where to start in BCP
+# 11 plus maths tuition in Bournemouth, Christchurch and Poole
+
+As we write, on Saturday 26 September 2026, children across Bournemouth, Christchurch and Poole are sitting the Dorset Consortium's entrance tests for the four grammar schools. For their younger brothers and sisters in Year 5, the maths paper is about to change, and in a helpful direction. Last cycle the GL maths paper ran for fifty minutes, and Poole Grammar School described it as covering most of Key Stage 2 "up to level 5, with some questions aimed at level 6". From September 2027 the provider becomes Quest Assessments, maths is "Paper One", forty minutes long, and Bournemouth School describes its content as Key Stage 2 "but excluding work covered in Year 6". A shorter paper with a clear Year 5 ceiling is a sharper target. This page sets out what the schools and Quest publish, then teaches one Year 5 geometry topic that fits it: regular and irregular polygons.
+
+At a glance: Schools: Bournemouth School, BSG, Parkstone, Poole Grammar; Test for 2028 entry: Quest Assessments, three papers; Maths: Paper One, 40 minutes; Maths content: Key Stage 2, excluding Year 6 work; Other papers: English; verbal reasoning; Format: Multiple choice, usually five options; Last cycle's maths: GL, 50 minutes; We teach: Year 5 maths, ready for Paper One. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Paper One
 
 With a Year 5 ceiling and forty minutes, depth in Year 5 is everything. Choose by where the gaps are.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  BCP / 1 Year 5 maths for Paper One The whole Year 5 curriculum, including geometry, for a forty-minute multiple-choice paper. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  BCP / 2 Speedy arithmetic Forty minutes is shorter than last cycle's fifty; quick recall matters more. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  BCP / 3 Earlier years, made firm For a child who still hesitates over Year 3 or Year 4 skills such as times tables and place value. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
-
-The Dorset Consortium tests
+- [Year 5 maths for Paper One](/courses/11-plus-maths-preparation-course-uk): The whole Year 5 curriculum, including geometry, for a forty-minute multiple-choice paper.
+- [Speedy arithmetic](/courses/mental-maths-mastery-kids): Forty minutes is shorter than last cycle's fifty; quick recall matters more.
+- [Earlier years, made firm](/courses/elementary-mathematics-complete-masterclass): For a child who still hesitates over Year 3 or Year 4 skills such as times tables and place value.
 
 ## What the schools and Quest publish
 
 Bournemouth School and Poole Grammar School publish the details for both cycles; Quest Assessments publishes the new format with the four schools. Read on 26 September 2026.
 
-|   | September 2027 entry | September 2028 entry |
-| --- | --- | --- |
+**The Dorset Consortium tests, last cycle and next**
+
+|  | September 2027 entry | September 2028 entry |
+|---|---|---|
 | Provider | GL Assessment | Quest Assessments |
 | Maths | 50 minutes | Paper One, 40 minutes |
 | Other papers | English 45 minutes; verbal reasoning 50 minutes | English and verbal reasoning, 40 minutes each |
@@ -42,8 +48,6 @@ For 2028 entry, Quest describes "Three papers, sat in the same session with a sh
 Poole Grammar School is consulting on its admissions policy for 2028 entry, so its proposed dates may change. For children who move to the area late, Bournemouth School runs late registration to 29 January 2027 and late testing in February for the 2027 cycle. Places are the schools' business, not ours.
 
 Sources: [Bournemouth School, joining Year 7](https://www.bournemouth-school.org/admissions-2/joining-year-7-in-september/); [Poole Grammar School, admissions to Year 7](https://www.poolegrammar.com/join-our-school/admissions/admissions-to-year-7/), with its 2027 policy and proposed 2028 policy; [Quest Assessments, Dorset Consortium 11+ Assessment](https://www.questassessments.com/parent-guidance-consortium/dorset-consortium-11-assessment). BCP Council's pages do not describe the tests, and Parkstone Grammar School's admissions page was unavailable when we tried. Modern Age Coders has no connection with the consortium, its schools, GL, Quest or the council.
-
-The Year 5 ceiling
 
 ## From "level 6" to "excluding Year 6": a clearer target
 
@@ -63,14 +67,14 @@ Paired with a forty-minute paper instead of fifty, it means fewer minutes on nar
 
 Maths also moves to the front. Quest lists it as Paper One, the first of three in the session. A child starts the morning with maths, fresh, rather than meeting it after an hour of English and reasoning. We practise cold starts so the first questions of the day are as accurate as any.
 
-The lesson
-
 ## Regular and irregular polygons, by reasoning
 
 The Year 5 curriculum asks children to "distinguish between regular and irregular polygons based on reasoning about equal sides and angles". It is a small statement with plenty of room for good multiple-choice questions.
 
+**Year 5 polygons, with questions of our own**
+
 | Idea | Our question | Answer and reasoning |
-| --- | --- | --- |
+|---|---|---|
 | What regular means | A shape has all sides equal and all angles equal. What is it called? | A regular polygon: both conditions are needed |
 | Equal sides only | A rhombus has four equal sides. Is it regular? | Not unless its angles are also equal, which makes it a square |
 | Equal angles only | A rectangle has four equal angles. Is it regular? | Only if its sides are equal too: then it is a square |
@@ -87,8 +91,6 @@ The perimeter rows connect shape to measurement, which Year 5 also covers. Once 
 On multiple-choice questions, the wrong options usually come from seeing rather than reasoning: calling a rhombus regular because it looks neat, or an irregular pentagon regular because it is drawn nearly symmetrical. We train the habit of checking the labels before trusting the picture.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 geometry, properties of shapes (statutory requirements). The questions are our own.
-
-Our approach
 
 ## Preparing for a test that has just changed
 
@@ -114,14 +116,14 @@ Because the aggregate of all three papers decides whether a child meets the stan
 
 We do not advise on which school to name, catchment or places. The schools publish their own policies, and Poole Grammar School is consulting on its 2028 policy now.
 
-Across the conurbation
-
 ## Four grammar schools, one set of tests, taught online
 
 Two schools in Bournemouth and two in Poole share one testing day. The list is here purely to make the scope of the page clear.
 
+**Members of the consortium and roughly where each one is**
+
 | Consortium member | Where |
-| --- | --- |
+|---|---|
 | Bournemouth School | Bournemouth |
 | Bournemouth School for Girls | Bournemouth |
 | Parkstone Grammar School | Poole |
@@ -135,14 +137,14 @@ The schools' town names in the table are ours, given as a rough guide.
 
 We have no connection with the consortium, any of its schools, Quest, GL or BCP Council, and we do not advise on applications or places.
 
-Towards September 2027
-
 ## Four stages for the first Quest sitting
 
 Registration from April 2027, the exam in September 2027: early in Year 6 for today's Year 5.
 
+**Year 5 depth, then a forty-minute rhythm**
+
 | When | Stage | You will see |
-| --- | --- | --- |
+|---|---|---|
 | Autumn, Year 5 | 1. Number | Place value, the four operations and fractions secure |
 | Winter, Year 5 | 2. Shape and measures | Polygons, angles, area and perimeter reasoned, not guessed |
 | Spring, Year 5 | 3. The rest of Year 5 | Statistics, decimals and conversions complete |
@@ -151,321 +153,71 @@ Registration from April 2027, the exam in September 2027: early in Year 6 for to
 ### If time is short
 
 The Year 5 ceiling helps a late starter: there is a fixed body of content, and we cover the biggest parts first.
-
 At the free lesson we will give you an honest view.
 
 ### After the tests
 
 Shape reasoning grows into secondary geometry and proof. Some pupils continue with [maths through coding](/courses/maths-through-coding) and draw regular polygons in code.
-
 Others look for the national challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-Courses
 
 ## Maths and coding for BCP families
 
 Primary preparation, secondary follow-on, coding and teenage options, each card opening its syllabus.
 
-I
-
 ### For the consortium tests
 
 Years 3 to 5
 
-BCM / 1a
-
-#### 11 plus maths, Dorset Consortium
-
-Year 5 maths for Paper One.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-BCM / 1b
-
-#### Mental maths drills and ideas
-
-Speed for a forty-minute paper.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-BCM / 1c
-
-#### Primary maths, all years
-
-The foundations under Year 5.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-BCM / 1d
-
-#### Abacus for beginners
-
-Number sense for younger children.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [11 plus maths, Dorset Consortium](/courses/11-plus-maths-preparation-course-uk): Year 5 maths for Paper One.
+- [Mental maths drills and ideas](/courses/mental-maths-mastery-kids): Speed for a forty-minute paper.
+- [Primary maths, all years](/courses/elementary-mathematics-complete-masterclass): The foundations under Year 5.
+- [Abacus for beginners](/courses/abacus-mental-maths-course-for-kids): Number sense for younger children.
 
 ### Secondary
 
 Year 6 onwards
 
-BCM / 2a
-
-#### Middle years maths
-
-Geometry, algebra and proof.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-BCM / 2b
-
-#### GCSE maths, higher and foundation
-
-For every exam board.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-BCM / 2c
-
-#### Competition maths club
-
-For strong, curious pupils.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
+- [Middle years maths](/courses/comprehensive-middle-school-mathematics-mastery): Geometry, algebra and proof.
+- [GCSE maths, higher and foundation](/courses/gcse-mathematics-mastery): For every exam board.
+- [Competition maths club](/courses/olympiad-competition-mathematics-mastery): For strong, curious pupils.
 
 ### Coding
 
 Shapes in code
 
-BCM / 3a
-
-#### Maths through coding
-
-Draw regular polygons with loops.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-BCM / 3b
-
-#### Scratch turtle drawing
-
-Turn angles into shapes.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-BCM / 3c
-
-#### Python and AI for 9 to 12s
-
-The first typed language.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Draw regular polygons with loops.
+- [Scratch turtle drawing](/courses/scratch-programming-complete-course): Turn angles into shapes.
+- [Python and AI for 9 to 12s](/courses/python-ai-kids-masterclass): The first typed language.
 
 ### Later
 
 Teenagers
 
-BCM / 4a
-
-#### Vedic maths (teens)
-
-Speed on firm foundations.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-BCM / 4b
-
-#### Machine learning for 13 to 18s
-
-Maths behind modern software.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-When we teach
+- [Vedic maths (teens)](/courses/vedic-maths-course-speed-calculation-mastery): Speed on firm foundations.
+- [Machine learning for 13 to 18s](/courses/ai-ml-masterclass-teens): Maths behind modern software.
 
 ## Scheduled for a BCP school week
 
 We teach live from India, and fix primary lessons in UK time: after school on weekdays, or early at the weekend. The spring and autumn clock changes are our problem, not yours.
 
-After school
+- **After school** Early evening, before tiredness.
+- **Weekend mornings** Good rehearsal for a morning exam.
+- **Holidays** Short extra sessions.
 
-Early evening, before tiredness.
-
-Weekend mornings
-
-Good rehearsal for a morning exam.
-
-Holidays
-
-Short extra sessions.
-
-### A teacher for the year
-
-Who learns how your child thinks.
-
-### Straight talk
-
-Brief notes on what is secure and what is not.
-
-### Fifteen to twenty per class
-
-Matched on level.
-
-### Written by us
-
-No Quest or GL material copied.
-
-### One to one
-
-For a stubborn topic.
-
-### Maths, nothing else
-
-No English or reasoning coaching; no admissions advice.
-
-Student work
-
-## What shape reasoning turns into
-
-A few years after Year 5, our students design and ship their own software; four examples sit below, and the [student labs](/student-labs) page lists the rest.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **A teacher for the year** Who learns how your child thinks.
+- **Straight talk** Brief notes on what is secure and what is not.
+- **Fifteen to twenty per class** Matched on level.
+- **Written by us** No Quest or GL material copied.
+- **One to one** For a stubborn topic.
+- **Maths, nothing else** No English or reasoning coaching; no admissions advice.
 
 ## Fees
 
 The same monthly US dollar price for every family outside India. No joining fee and no fixed term.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A taught lesson
-- An honest verdict
-- No card needed
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children at one level
-- A regular teacher
-- Work reviewed together
-- Certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- One child, one teacher
-- Paper One practice
-- Flexible timing
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-In families' own words, as posted to our Google listing.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-BCP questions
+- Free first class: USD 0. A taught lesson. An honest verdict. No card needed.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work reviewed together. Certificate at the end.
+- One to one: USD 150 a month. One child, one teacher. Paper One practice. Flexible timing.
 
 ## What Bournemouth, Christchurch and Poole families ask us
 
@@ -509,54 +261,70 @@ No. We write our own questions and do not reproduce familiarisation material.
 
 The first lesson is free. Continuing costs USD 100 a month in a group or USD 150 a month one to one.
 
-Related
-
 ## More for Dorset and the south
 
-Along the coast and beyond: another south-west test, the national overview, and programming for young children.
+- [11 plus maths tuition](/11-plus-maths-tuition): The national overview.
+- [11 plus maths in Torbay](/11-plus-maths-tuition-torbay): Another south coast test, English and maths only.
+- [Coding classes in Southampton](/best-coding-class-in-southampton): Programming for Hampshire children.
+- [Coding for UK children](/online-coding-classes-for-kids-uk): Where a primary child begins.
+- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges through the year.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area we cover.
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+## Related pages in this guide
 
-The national overview.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [11 plus maths in Torbay](/11-plus-maths-tuition-torbay)
+### 11+ by area
 
-Another south coast test, English and maths only.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [Coding classes in Southampton](/best-coding-class-in-southampton)
+### Tests by provider and entry point
 
-Programming for Hampshire children.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [Coding for UK children](/online-coding-classes-for-kids-uk)
+### Northern Ireland transfer test
 
-Where a primary child begins.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-Maths challenges through the year.
+## Contact
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
-
-Every UK area we cover.
-
-Start here
-
-## Book a free BCP maths lesson
-
-Tell us your child's year and which school you have in mind. We teach a real lesson and then give you an honest account of it.
-
-Reading first? Every [syllabus](/courses) is online, [how we teach](/how-we-teach) explains our lessons, and the [roadmap](/coding-roadmap) shows the path ahead.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Bournemouth%20and%20Poole%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-For a fast reply, WhatsApp us. Lessons come from our teachers in India; the number is Indian, and there are no premises in Bournemouth, Poole or elsewhere in the UK.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-bournemouth-christchurch-and-poole*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-bournemouth-christchurch-and-poole](https://learn.modernagecoders.com/11-plus-maths-tuition-bournemouth-christchurch-and-poole#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -6,7 +6,7 @@ source: src/pages/cem-11-plus-maths-practice.html
 ---
 > CEM was a university assessment centre founded in 1983 that joined Cambridge in 2019 and was renamed Cambridge Insight in 2025, according to its own history page. Its entrance test today is Cambridge Select Insight, a computer assessment of about 60 minutes with numerical, verbal and non-verbal sections, sold to selective independent schools, grammar schools, partially selective schools and schools that use fair banding, for entry into Years 7 to 10. Cambridge sells no practice papers for it and says it endorses no tuition. Several grammar areas that once used a CEM paper have changed provider; Warwickshire moved to GL Assessment for 2023 entry. Modern Age Coders teaches the number skills a numerical section draws on, live online, with practice questions we write ourselves.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / CEM 11 plus maths
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / CEM 11 plus maths
 
 England · CEM and Cambridge Select Insight · Years 5 to 9
 
@@ -300,6 +300,61 @@ No. Modern Age Coders is an independent online school. We have never seen a Camb
 - [11 plus maths in Bexley](/11-plus-maths-tuition-bexley): A Quest Assessments area in south east London.
 - [Common Entrance maths](/common-entrance-maths-tuition): Written papers for 11+ and 13+ independent entry.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): Every UK page we publish, in one place.
+
+## Related pages in this guide
+
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
+
+### Tests by provider and entry point
+
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
+
+### 11+ by area
+
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
+
+### Northern Ireland transfer test
+
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

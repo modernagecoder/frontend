@@ -346,7 +346,7 @@ No. Places depend on scores, rules and preferences that councils and schools set
 - [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
 - [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

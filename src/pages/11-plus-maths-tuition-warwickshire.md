@@ -4,28 +4,34 @@ description: "Live online 11 plus maths for Warwickshire grammar schools: a test
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-warwickshire
 source: src/pages/11-plus-maths-tuition-warwickshire.html
 ---
-> Live online 11 plus maths for Warwickshire grammar schools: a test the council says may go beyond Key Stage 2 difficulty, and multi-step Year 5 maths taught well.
+> Warwickshire County Council says the county has six selective grammar schools, in Stratford-upon-Avon, Alcester and Rugby, all allocating places by the 11+, which is free to sit. The test is shared with the grammar schools of Birmingham, Walsall, Wolverhampton and Shropshire: two multiple-choice tests of about 60 minutes each, covering English, verbal reasoning, non-verbal reasoning and mathematics. The council says it "closely relates to the curriculum" but that its difficulty "may go beyond the levels" expected by the end of Key Stage 2. Registration opens on 7 May each year for children in Year 5 and closes on 30 June; for 2027 entry the test was on 12 and 13 September 2026, with results on the Parent Portal on 16 October. We teach the maths deeply, live online. The first lesson is free; afterwards lessons cost USD 100 a month in a small group or USD 150 a month individually.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Warwickshire
 
-Warwickshire County Council says the county has six selective grammar schools, in Stratford-upon-Avon, Alcester and Rugby, all allocating places by the 11+, which is free to sit. The test is shared with the grammar schools of Birmingham, Walsall, Wolverhampton and Shropshire: two multiple-choice tests of about 60 minutes each, covering English, verbal reasoning, non-verbal reasoning and mathematics. The council says it "closely relates to the curriculum" but that its difficulty "may go beyond the levels" expected by the end of Key Stage 2. Registration opens on 7 May each year for children in Year 5 and closes on 30 June; for 2027 entry the test was on 12 and 13 September 2026, with results on the Parent Portal on 16 October. We teach the maths deeply, live online. The first lesson is free; afterwards lessons cost USD 100 a month in a small group or USD 150 a month individually.
+Warwickshire · West Midlands Grammar Schools test maths · Live online, small groups or one to one
 
-Starting points in Warwickshire
+# 11 plus maths tuition in Warwickshire
+
+Warwickshire County Council describes its 11 plus in a sentence worth reading slowly: "Although it closely relates to the curriculum that children are taught in schools, the level of difficulty may go beyond the levels that children are expected to be achieving by the end of Key Stage 2." Two claims sit in that sentence, and they point in the same direction. The content is familiar. The difficulty is not. So the answer is not to race ahead into secondary topics but to go deeper into primary ones, especially the kind of question that needs several steps, each easy on its own, in the right order. This page sets out what the council publishes about the test shared by Warwickshire's six grammar schools, then teaches that kind of question: multi-step problems with rates and scaling, straight from the Year 5 curriculum.
+
+At a glance: Schools: Six Warwickshire grammar schools; Test: Shared across the West Midlands; Sections: English, verbal, non-verbal, maths; Format: Multiple choice; Length: Two tests of about 60 minutes; Difficulty: May go beyond end-of-KS2 levels; Registration: 7 May to 30 June, each year; We teach: Year 5 maths in depth. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a harder paper
 
 The test is harder, not broader. Choose by how your child handles a problem with three steps.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  WARKS / 1 11 plus maths, in depth Year 5 content taken to the difficulty the council describes, through multi-step problems. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  WARKS / 2 Stretch and challenge For confident children who need problems with no obvious first step. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  WARKS / 3 Number facts at speed Every step goes faster when the arithmetic inside it is automatic. Open the syllabus →](/courses/mental-maths-mastery-kids)
-
-The Warwickshire test
+- [11 plus maths, in depth](/courses/11-plus-maths-preparation-course-uk): Year 5 content taken to the difficulty the council describes, through multi-step problems.
+- [Stretch and challenge](/courses/olympiad-competition-mathematics-mastery): For confident children who need problems with no obvious first step.
+- [Number facts at speed](/courses/mental-maths-mastery-kids): Every step goes faster when the arithmetic inside it is automatic.
 
 ## What Warwickshire County Council publishes
 
 The council coordinates the 11+ for its six grammar schools and publishes the schedule, format and schools. Read on 26 September 2026.
 
+**Warwickshire's 11+ schedule for September 2027 entry, from the county council**
+
 | Date | Step | Detail |
-| --- | --- | --- |
+|---|---|---|
 | 7 May 2026 | Registration opens | Through the council's Parent Portal, for children in Year 5. |
 | 30 June 2026 | Registration closes | Also the deadline for access arrangements and evidence. |
 | Week of 10 August 2026 | Invitations | Letters to the test sent out. |
@@ -41,8 +47,6 @@ Registration follows a standing rule: it "opens on 7 May each year for those chi
 Places depend on each school's admission arrangements and on whether a score meets the minimum standard set for that year. That is for the council and schools to explain, and we do not.
 
 Sources: [Warwickshire County Council, the 11+ test](https://www.warwickshire.gov.uk/grammar-schools-11-test/11-test), with its pages on [grammar schools in Warwickshire](https://www.warwickshire.gov.uk/grammar-schools-11-test/grammar-schools-warwickshire), [registering for the test](https://www.warwickshire.gov.uk/grammar-schools-11-test/register-11-test) and applying; the GL familiarisation guide hosted by the council. Modern Age Coders has no connection with the council, GL Assessment or any school.
-
-Harder, not newer
 
 ## What "may go beyond Key Stage 2" does and does not mean
 
@@ -62,14 +66,14 @@ That is exactly what the Year 5 curriculum calls "multi-step problems in context
 
 There is a practical reason depth matters for this test in particular. With four kinds of question in each paper and a spoken timetable guiding the sections, there is little time to puzzle over what a maths question wants. A child who has met many multi-step problems recognises the shape quickly and spends the time on the steps.
 
-The lesson
-
 ## Multi-step problems with rates and scaling
 
 The Year 5 curriculum asks children to solve problems "including scaling by simple fractions and problems involving simple rates". Here is how a single idea becomes a harder question.
 
+**One topic at rising levels of difficulty (our own questions)**
+
 | Level | Question | Steps and answer |
-| --- | --- | --- |
+|---|---|---|
 | One step | A box holds 35 crayons. How many crayons are in 6 boxes? | 6 × 35 = 210 |
 | Two steps | A class has 500 crayons and gives away 6 boxes of 35. How many are left? | 210 given away, then 500 - 210 = 290 |
 | Three steps | A pack of 8 batteries gives 240 hours of use in total. Another brand gives 35 hours per battery. How many more hours per battery does the other brand give? | 240 ÷ 8 = 30 hours; 35 - 30 = 5 more hours per battery |
@@ -85,8 +89,6 @@ We teach one habit for multi-step problems: write down what the question wants b
 Scaling problems reward flexibility. The biscuit recipe can be solved per biscuit or by noticing that 30 is two and a half times 12. Children who can see both routes check one against the other, which is a quiet advantage on a harder paper.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 addition and subtraction, and multiplication and division (statutory requirements). The questions are written by Modern Age Coders.
-
-A shared test
 
 ## The same papers across the West Midlands
 
@@ -112,14 +114,14 @@ English, verbal reasoning and non-verbal reasoning make up the rest of each pape
 
 The council also points some families to a free online Key Stage 2 learning and familiarisation programme run with a partner. Check the council's registration page to see whether your child qualifies before paying anyone, us included.
 
-Warwickshire's six
-
 ## Stratford, Alcester and Rugby, taught online
 
 The council names the six grammar schools. We reproduce the list only to show which test this page covers.
 
+**Warwickshire's grammar schools, as the county council lists them**
+
 | School | Town | As described |
-| --- | --- | --- |
+|---|---|---|
 | King Edward VI School | Stratford-upon-Avon | Boys only |
 | Stratford Girls' Grammar School | Stratford-upon-Avon | Girls only |
 | Alcester Grammar School | Alcester | Boys and girls |
@@ -137,14 +139,14 @@ We have no connection with the council, GL Assessment or any of these schools, a
 
 Source: Warwickshire County Council, grammar schools in Warwickshire, read 26 September 2026.
 
-Towards September 2027
-
 ## Four stages, getting deeper each term
 
 For today's Year 5, registration should open in May 2027 and the test fall early in Year 6.
 
+**From single steps to several**
+
 | When | Stage | Signs of progress |
-| --- | --- | --- |
+|---|---|---|
 | Autumn, Year 5 | 1. Secure facts | Tables, money and place value handled without hesitation |
 | Winter, Year 5 | 2. Two-step problems | Chooses the right two operations and checks the answer makes sense |
 | Spring, Year 5 | 3. Three steps and more | Plans a solution in writing before calculating |
@@ -153,321 +155,71 @@ For today's Year 5, registration should open in May 2027 and the test fall early
 ### Starting later
 
 Even a spring start helps if facts come first. Multi-step work collapses when the single steps are slow.
-
 We will tell you honestly at the first lesson how far the time can go.
 
 ### After October
 
 Multi-step reasoning is the core of secondary maths and science. Some pupils carry on with [maths through coding](/courses/maths-through-coding), where every program is a multi-step problem.
-
 Others enjoy the problem-solving challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-Courses
 
 ## Maths and coding for Warwickshire families
 
 By stage, each linked to a full syllabus.
 
-I
-
 ### For the Warwickshire 11+
 
 Years 3 to 5
 
-WKM / i
-
-#### 11 plus maths, Warwickshire
-
-Year 5 maths, taken deeper.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-WKM / ii
-
-#### Challenge maths for keen pupils
-
-Multi-step, non-routine problems.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
-
-WKM / iii
-
-#### Mental arithmetic course
-
-Fast steps inside long problems.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-WKM / iv
-
-#### Primary maths foundations
-
-Years 1 to 5, made secure.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)II
+- [11 plus maths, Warwickshire](/courses/11-plus-maths-preparation-course-uk): Year 5 maths, taken deeper.
+- [Challenge maths for keen pupils](/courses/olympiad-competition-mathematics-mastery): Multi-step, non-routine problems.
+- [Mental arithmetic course](/courses/mental-maths-mastery-kids): Fast steps inside long problems.
+- [Primary maths foundations](/courses/elementary-mathematics-complete-masterclass): Years 1 to 5, made secure.
 
 ### Secondary
 
 Year 6 on
 
-WKM / v
-
-#### Key Stage 3 mathematics
-
-Ratio, algebra and problem solving.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-WKM / vi
-
-#### GCSE maths preparation
-
-Every board, both tiers.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-WKM / vii
-
-#### Abacus for younger siblings
-
-A visual start to number.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)III
+- [Key Stage 3 mathematics](/courses/comprehensive-middle-school-mathematics-mastery): Ratio, algebra and problem solving.
+- [GCSE maths preparation](/courses/gcse-mathematics-mastery): Every board, both tiers.
+- [Abacus for younger siblings](/courses/abacus-mental-maths-course-for-kids): A visual start to number.
 
 ### Coding
 
 Steps in code
 
-WKM / viii
-
-#### Maths through coding
-
-Break a problem into steps a computer follows.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-WKM / ix
-
-#### Scratch coding, beginners
-
-Sequencing and logic in blocks.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-WKM / x
-
-#### Python for young coders
-
-The step to typed programs.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Break a problem into steps a computer follows.
+- [Scratch coding, beginners](/courses/scratch-programming-complete-course): Sequencing and logic in blocks.
+- [Python for young coders](/courses/python-ai-kids-masterclass): The step to typed programs.
 
 ### Later
 
 Teenagers
 
-WKM / xi
-
-#### Vedic calculation methods
-
-Speed, once understanding is firm.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-WKM / xii
-
-#### AI and machine learning, teens
-
-Multi-step thinking, automated.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-When lessons run
+- [Vedic calculation methods](/courses/vedic-maths-course-speed-calculation-mastery): Speed, once understanding is firm.
+- [AI and machine learning, teens](/courses/ai-ml-masterclass-teens): Multi-step thinking, automated.
 
 ## Scheduled for a Warwickshire school week
 
 Teaching is live from India. Primary pupils have lessons after school or on weekend mornings, set in UK time; the twice-yearly clock change is handled at our end.
 
-After school, weekdays
+- **After school, weekdays** Early, before tiredness.
+- **Weekend mornings** For busy weekday diaries.
+- **Holidays** Short extra sessions.
 
-Early, before tiredness.
-
-Weekend mornings
-
-For busy weekday diaries.
-
-Holidays
-
-Short extra sessions.
-
-### Same teacher
-
-Continuity, so habits are noticed.
-
-### Honest notes
-
-Short updates after lessons.
-
-### Fifteen to twenty children
-
-Grouped by level.
-
-### Our own questions
-
-No GL or council material copied.
-
-### One to one
-
-For targeted help.
-
-### Maths only
-
-No reasoning or English coaching; no admissions advice.
-
-Student work
-
-## Where multi-step thinking leads
-
-Four projects published by students at our school, each built step by step from primary maths. More on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **Same teacher** Continuity, so habits are noticed.
+- **Honest notes** Short updates after lessons.
+- **Fifteen to twenty children** Grouped by level.
+- **Our own questions** No GL or council material copied.
+- **One to one** For targeted help.
+- **Maths only** No reasoning or English coaching; no admissions advice.
 
 ## Fees
 
 Monthly, in US dollars, at one rate for all families outside India. No registration fee; leave any month.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A real lesson
-- A frank assessment
-- No card needed
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children at one level
-- A regular teacher
-- Work discussed in class
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- One child, one teacher
-- Focused on multi-step problems
-- Flexible scheduling
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Parents' words from Google, unchanged.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Warwickshire questions
+- Free first class: USD 0. A real lesson. A frank assessment. No card needed.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Work discussed in class. A certificate at the end.
+- One to one: USD 150 a month. One child, one teacher. Focused on multi-step problems. Flexible scheduling.
 
 ## What Warwickshire families ask us
 
@@ -511,54 +263,70 @@ No. The council and the familiarisation guide both point to the curriculum child
 
 The first lesson costs nothing. Continuing is USD 100 a month in a group or USD 150 a month one to one.
 
-Related
-
 ## More for Warwickshire and the West Midlands
 
-The same test seen from Birmingham, our national page, and other nearby pages.
+- [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham): The same test, with its equipment rules explained.
+- [11 plus maths tuition](/11-plus-maths-tuition): The national overview.
+- [Coding classes in Birmingham](/coding-classes-in-birmingham): Programming for West Midlands children.
+- [11 plus maths in Gloucestershire](/11-plus-maths-tuition-gloucestershire): A neighbouring county with a new July test.
+- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges by date.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area.
 
-### [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham)
+## Related pages in this guide
 
-The same test, with its equipment rules explained.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+### 11+ by area
 
-The national overview.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [Coding classes in Birmingham](/coding-classes-in-birmingham)
+### Tests by provider and entry point
 
-Programming for West Midlands children.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [11 plus maths in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+### Northern Ireland transfer test
 
-A neighbouring county with a new July test.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-Maths challenges by date.
+## Contact
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
-
-Every UK area.
-
-Start here
-
-## Book a free first lesson
-
-Tell us your child's year and how they cope with longer problems. We teach a real lesson and then tell you plainly what we saw.
-
-Want to read first? See our [courses](/courses), [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap).
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Warwickshire%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp gets the quickest reply. We are in India, with an Indian number and no UK office.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-warwickshire*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-warwickshire](https://learn.modernagecoders.com/11-plus-maths-tuition-warwickshire#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

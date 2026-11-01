@@ -4,35 +4,43 @@ description: "Live online 11 plus maths for the Buckinghamshire Secondary Transf
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-buckinghamshire
 source: src/pages/11-plus-maths-tuition-buckinghamshire.html
 ---
-> Live online 11 plus maths for the Buckinghamshire Secondary Transfer Test: what TBGS publishes about the maths, its 25% weighting, and how we teach it.
+> In Buckinghamshire every child at a state-funded primary is entered for the Secondary Transfer Test automatically; others register. The test is two multiple-choice papers of about 45 minutes each, and The Buckinghamshire Grammar Schools (TBGS) say the second one holds "non-verbal, spatial reasoning and maths skills questions". The Secondary Transfer Test Score (STTS) adds three age-standardised section scores with fixed weights, verbal 50%, mathematical 25% and non-verbal 25%, and a child qualifies at 121 or above. TBGS also say the maths "does not go beyond what the national curriculum expects children to know and be able to do by the end of Year 5". For children now in Year 5, the council's timeline puts registration in May to June 2027 and the test in early September 2027. We teach that Year 5 maths, live online. A first lesson is free; groups are USD 100 a month and one to one USD 150.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Buckinghamshire
 
-In Buckinghamshire every child at a state-funded primary is entered for the Secondary Transfer Test automatically; others register. The test is two multiple-choice papers of about 45 minutes each, and The Buckinghamshire Grammar Schools (TBGS) say the second one holds "non-verbal, spatial reasoning and maths skills questions". The Secondary Transfer Test Score (STTS) adds three age-standardised section scores with fixed weights, verbal 50%, mathematical 25% and non-verbal 25%, and a child qualifies at 121 or above. TBGS also say the maths "does not go beyond what the national curriculum expects children to know and be able to do by the end of Year 5". For children now in Year 5, the council's timeline puts registration in May to June 2027 and the test in early September 2027. We teach that Year 5 maths, live online. A first lesson is free; groups are USD 100 a month and one to one USD 150.
+Buckinghamshire · Secondary Transfer Test maths · Live online, small groups or one to one
 
-Where a Bucks child begins
+# 11 plus maths tuition in Buckinghamshire
+
+The Buckinghamshire Secondary Transfer Test tells families something unusually precise about its maths: it is a quarter of the score. The Buckinghamshire Grammar Schools, the company the county's thirteen grammar schools set up to run the test, publish the weightings in plain figures, say that every correct answer earns one raw mark, and say that the weightings reflect how much of the test each skill takes up. The maths also arrives in a particular way: inside the second paper, alongside non-verbal and spatial questions, worked strictly in order while an audio file keeps time. That is a narrower and more teachable target than "the 11 plus", and this page is about exactly that target.
+
+At a glance: Test: Buckinghamshire Secondary Transfer Test; Produced by: GL Assessment, for TBGS; Papers: Two, same day, a break between; Maths sits in: Paper two, with non-verbal and spatial; Maths weighting: 25% of the STTS; Questions: All multiple choice, worked in order; Content ceiling: The end of Year 5; We teach: Year 5 maths, fast and in sequence. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for the maths quarter
 
 Pick by what happens when your child meets a sum they cannot do in their head, not by the calendar.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  BUCKS / A 11 plus maths preparation Year 5 number, fractions, percentages and measures, practised until they are quick and dependable. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  BUCKS / B Mental maths, number sense first When a section runs to an audio clock, arithmetic done in the head is the time a child keeps for thinking. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  BUCKS / C Primary maths, Years 1 to 5 For the Year 4 child whose place value or tables are not yet solid enough to build speed on. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
-
-The test, as published
+- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): Year 5 number, fractions, percentages and measures, practised until they are quick and dependable.
+- [Mental maths, number sense first](/courses/mental-maths-mastery-kids): When a section runs to an audio clock, arithmetic done in the head is the time a child keeps for thinking.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): For the Year 4 child whose place value or tables are not yet solid enough to build speed on.
 
 ## What TBGS and the council say about the Transfer Test
 
 Two organisations publish the facts. TBGS commissions the test on behalf of the thirteen schools; Buckinghamshire Council administers it under contract. Both were read on 26 September 2026.
 
+**The Secondary Transfer Test for September 2027 entry (sat in September 2026), from Buckinghamshire Council and TBGS**
+
 | Step | Date | As published |
-| --- | --- | --- |
+|---|---|---|
 | Registration | 1 May to 2 June 2026, 3pm | Only for children not at a state-funded Buckinghamshire primary or partner school; everyone else is entered automatically. |
 | Practice test | Tuesday 8 September 2026 | Two short papers, not marked, giving children the test conditions and the audio instructions in advance. |
 | Transfer Test | Thursday 10 September 2026 | Both papers on the same day, with a short gap between them. |
 | Results | Friday 9 October 2026 | The date TBGS lists for results. |
 
+**The council's timeline for September 2028 entry, the cohort now in Year 5**
+
 | Step | When | Who it covers |
-| --- | --- | --- |
+|---|---|---|
 | Registration | May to June 2027 | Children born 1 September 2016 to 31 August 2017 who are not entered automatically. |
 | Transfer Test | Early September 2027 | The first days of Year 6. The council has not yet published the exact date. |
 | Results | Mid-October 2027 | Exact date to follow from the council and TBGS. |
@@ -46,8 +54,6 @@ Families near the county line should read one council sentence carefully: "Milto
 Admissions are a separate matter and not ours. Which schools to name, and how each school's own admissions policy works, belong to the schools and the council. This page deals with one part of one paper: the maths.
 
 Sources: [Buckinghamshire Council, grammar schools and transfer testing](https://www.buckinghamshire.gov.uk/schools-libraries-and-parks/school-admissions-and-appeals/grammar-schools-and-transfer-testing-11/), including its Secondary Transfer Test page and its timeline for 2028 entry; [The Buckinghamshire Grammar Schools, FAQs](https://www.thebucksgrammarschools.org/faqs) and The Secondary Transfer Test page. Modern Age Coders has no connection with TBGS, GL Assessment, Buckinghamshire Council or any Buckinghamshire school.
-
-The weighting, as Year 5 maths
 
 ## Twenty-five per cent, read the way a Year 5 child would read it
 
@@ -65,12 +71,14 @@ TBGS: "every correct answer will gain one raw mark". A hard maths question and a
 
 TBGS say the weightings "indicate the proportion of the test devoted to that skill". So maths is roughly a quarter of what a child answers, not a quarter squeezed into a small corner.
 
+**How a weighted total adds up: invented section scores, to show the arithmetic only**
+
 | Section | Weight | Illustrative section score | Contribution |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | Verbal | 50%, a half | 116 | Half of 116 = 58 |
 | Mathematical | 25%, a quarter | 130 | A quarter of 130 = 32.5 |
 | Non-verbal | 25%, a quarter | 122 | A quarter of 122 = 30.5 |
-| Total | One whole |   | 58 + 32.5 + 30.5 = 121 |
+| Total | One whole |  | 58 + 32.5 + 30.5 = 121 |
 
 The numbers in that table are ours and are there only to show how a weighted total behaves. TBGS publish the weights and the qualifying score of 121; they do not publish how raw marks become section scores, and nobody outside the test can predict a child's section scores. Read the table as a worked example, never as a target.
 
@@ -81,8 +89,6 @@ We use this very calculation in lessons, with different numbers each time, becau
 Children tend to enjoy it more than a page of percentage exercises, because the numbers are about something they have heard adults talking about. The one rule we hold to: the example is about arithmetic, and the conversation never turns into guessing a score.
 
 Sources: TBGS FAQs on the weightings, raw marks and the STTS; the [national curriculum in England, mathematics programmes of study](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 fractions (including decimals and percentages). The illustrative section scores are invented.
-
-The part families rarely hear
 
 ## Worked in order, with an audio file keeping time
 
@@ -102,14 +108,14 @@ The second habit is switching. A child who has just spent several minutes on non
 
 Neither habit needs a Buckinghamshire paper, which is fortunate, because we do not have any. The skills are ordinary ones practised under a clock: read the question once, decide whether this is a now question or a later question, answer or mark it and go on. We say more about papers below.
 
-The content ceiling
-
 ## Year 5 maths, and nothing beyond it
 
 TBGS: the maths and English content "does not go beyond what the national curriculum expects children to know and be able to do by the end of Year 5". That sentence is a syllabus.
 
+**Year 5 national curriculum content we teach for the Transfer Test, with the kind of question we write for it**
+
 | Year 5 strand | What the curriculum asks | A question in our own style |
-| --- | --- | --- |
+|---|---|---|
 | Place value | Round any number up to 1,000,000 to the nearest 10, 100, 1,000, 10,000 and 100,000 | Which of five numbers rounds to 250,000 to the nearest 10,000? |
 | Primes and factors | Establish whether a number up to 100 is prime and recall prime numbers up to 19 | How many numbers between 40 and 60 are prime? |
 | Multiplication | Long multiplication for two-digit numbers | A hall has 38 rows of 46 chairs. How many chairs? |
@@ -127,8 +133,6 @@ Speed matters here because the paper is multiple choice and every mark is one ma
 
 Sources: TBGS FAQs; national curriculum in England, mathematics, Year 5 programme of study (statutory requirements). Example questions are written by Modern Age Coders.
 
-Said plainly
-
 ## TBGS do not endorse tutoring. Here is where we stand.
 
 A tuition page that left this out would be hiding the most relevant sentence the test's own organisers have published.
@@ -141,14 +145,14 @@ What we offer is narrower and, we think, defensible: a teacher who makes sure a 
 
 TBGS also suggest things families can do at home, including working through the familiarisation materials released in the summer term of Year 5, which show what the booklets and answer sheets look like. Use those. They come from the people who make the test.
 
-The county
-
 ## Thirteen schools, one test, taught from anywhere
 
 TBGS list the thirteen member schools with a label for each. We reproduce the list only so families know which test this page is about.
 
+**The Buckinghamshire Grammar Schools' member list**
+
 | School | As TBGS describe it |
-| --- | --- |
+|---|---|
 | Aylesbury Grammar School | Boys |
 | Aylesbury High School | Girls |
 | Beaconsfield High School | Girls |
@@ -173,14 +177,14 @@ We have no connection with any of the thirteen schools, with TBGS or with the co
 
 Source: [The Buckinghamshire Grammar Schools, TBGS Schools](https://www.thebucksgrammarschools.org/tbgs-schools), read 26 September 2026.
 
-A year of preparation
-
 ## Four stages between now and early September 2027
 
 For a child in Year 5 this school year, the test falls in the first days of Year 6. Build from the bottom.
 
+**From dependable facts to a timed section worked in order**
+
 | When | Stage | How you know it is done |
-| --- | --- | --- |
+|---|---|---|
 | Autumn of Year 5 | 1. Facts | Multiplication facts to 12 × 12 and the common fraction, decimal and percentage pairs come instantly |
 | Spring of Year 5 | 2. Year 5 methods | Long multiplication, rounding and conversions are right first time, even with awkward numbers |
 | Summer term of Year 5 | 3. One mark each | Moves on from a stuck question without fuss, and comes back if time allows |
@@ -189,321 +193,71 @@ For a child in Year 5 this school year, the test falls in the first days of Year
 ### Arriving late
 
 Starting in the summer term still helps, provided the order holds. Timed sections on shaky facts produce confident wrong answers, and those are hard to undo in a few weeks.
-
 If the foundations are genuinely weak, the free lesson is where we will say so.
 
 ### After October
 
 The maths keeps its value whatever the result. Many children move on to [maths through coding](/courses/maths-through-coding), where the percentages they practised turn into programs.
-
 Children who liked the puzzles more than the test often try the Primary Maths Challenge and the UKMT challenges, listed on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-All the courses
 
 ## Maths and coding for Buckinghamshire families
 
 Grouped by where a child is, each card leading to the full syllabus.
 
-I
-
 ### Towards the Transfer Test
 
 Years 3 to 5
 
-BK / 1.1
-
-#### 11 plus maths preparation
-
-The Year 5 curriculum, practised for speed and accuracy.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-BK / 1.2
-
-#### Mental maths for kids
-
-Facts and strategies that save seconds on every question.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-BK / 1.3
-
-#### Primary maths, Years 1 to 5
-
-Place value, tables and fractions made solid first.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-BK / 1.4
-
-#### Abacus and mental maths
-
-A visual route into fast calculation for younger children.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): The Year 5 curriculum, practised for speed and accuracy.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Facts and strategies that save seconds on every question.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Place value, tables and fractions made solid first.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): A visual route into fast calculation for younger children.
 
 ### Into secondary
 
 Year 6 onwards
 
-BK / 2.1
-
-#### Middle school maths mastery
-
-Algebra and geometry for the start of Key Stage 3.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-BK / 2.2
-
-#### GCSE maths, foundation and higher
-
-Taught to AQA, Edexcel and OCR specifications.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-BK / 2.3
-
-#### Olympiad and competition maths
-
-Problems with no routine method, for keen mathematicians.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Algebra and geometry for the start of Key Stage 3.
+- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): Taught to AQA, Edexcel and OCR specifications.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Problems with no routine method, for keen mathematicians.
 
 ### Maths meets code
 
 Numbers you can program
 
-BK / 3.1
-
-#### Maths through coding
-
-Percentages, primes and patterns, written as Python.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-BK / 3.2
-
-#### Scratch coding for kids
-
-Block coding that trains careful, step-by-step thinking.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-BK / 3.3
-
-#### Python and AI for kids
-
-A first typed language for confident primary pupils.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Percentages, primes and patterns, written as Python.
+- [Scratch coding for kids](/courses/scratch-programming-complete-course): Block coding that trains careful, step-by-step thinking.
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): A first typed language for confident primary pupils.
 
 ### Further on
 
 Beyond the test year
 
-BK / 4.1
-
-#### Vedic maths and speed calculation
-
-Shortcuts that make sense once the basics are secure.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-BK / 4.2
-
-#### AI and machine learning for teens
-
-Weighted sums reappear here as the heart of a neural network.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-The lessons
+- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Shortcuts that make sense once the basics are secure.
+- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Weighted sums reappear here as the heart of a neural network.
 
 ## Short, live and early in the evening
 
 Our teachers are in India, which is five and a half hours ahead of the UK in winter and four and a half in summer. For children of nine and ten we schedule early evenings and weekend mornings in UK time, never late at night.
 
-After school, early evening
+- **After school, early evening** Before tiredness sets in, and before tea.
+- **Saturday or Sunday morning** For families with busy weekday evenings.
+- **Half term and holidays** Extra short sessions while school is out.
 
-Before tiredness sets in, and before tea.
-
-Saturday or Sunday morning
-
-For families with busy weekday evenings.
-
-Half term and holidays
-
-Extra short sessions while school is out.
-
-### The same teacher
-
-Week after week, so the particular slips a child makes are noticed and fixed.
-
-### A note home
-
-What went well, what did not, and what to practise, in two or three honest sentences.
-
-### Groups of fifteen to twenty
-
-Matched by level, so every child is stretched and nobody is lost.
-
-### Questions we write
-
-All practice is our own. No Transfer Test or familiarisation material is copied.
-
-### One to one if needed
-
-For a stubborn gap, or a child who works better alone.
-
-### Maths only
-
-We do not teach verbal or non-verbal reasoning, and admissions questions go to the schools and the council.
-
-Student work
-
-## What our students build later on
-
-Four published projects from students at our school, all of whom were once doing Year 5 maths. There are more on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **The same teacher** Week after week, so the particular slips a child makes are noticed and fixed.
+- **A note home** What went well, what did not, and what to practise, in two or three honest sentences.
+- **Groups of fifteen to twenty** Matched by level, so every child is stretched and nobody is lost.
+- **Questions we write** All practice is our own. No Transfer Test or familiarisation material is copied.
+- **One to one if needed** For a stubborn gap, or a child who works better alone.
+- **Maths only** We do not teach verbal or non-verbal reasoning, and admissions questions go to the schools and the council.
 
 ## Fees
 
 Monthly, in US dollars, as for every family outside India. No joining fee and no term contract.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A real lesson, not a sales call
-- An honest view of the maths so far
-- No card needed
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children, one level
-- One regular teacher
-- Work checked and discussed
-- Certificate on completion
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- One child and one teacher
-- Planned around the child's gaps
-- Useful in the summer of Year 5
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-From parents on our Google profile, copied word for word.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Buckinghamshire questions
+- Free first class: USD 0. A real lesson, not a sales call. An honest view of the maths so far. No card needed.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. One regular teacher. Work checked and discussed. Certificate on completion.
+- One to one: USD 150 a month. One child and one teacher. Planned around the child's gaps. Useful in the summer of Year 5.
 
 ## What Buckinghamshire parents ask us
 
@@ -547,54 +301,70 @@ TBGS publish the qualifying score as an STTS of 121 or above. We will not predic
 
 The first lesson is free. After that it is USD 100 a month in a group or USD 150 a month one to one, with no joining fee and no fixed term.
 
-Also useful
-
 ## More pages for Buckinghamshire families
 
-The national 11 plus page, other selective areas, and what a keen mathematician can do next.
+- [11 plus maths tuition](/11-plus-maths-tuition): Our national page on 11 plus maths, wherever the test is set.
+- [11 plus maths in Kent](/11-plus-maths-tuition-kent): A neighbouring county with a very different test.
+- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges from primary school upwards, month by month.
+- [Coding for UK children](/online-coding-classes-for-kids-uk): The order a primary child learns programming in.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every nation, city and borough we have written about.
+- [Choosing an online class](/best-online-coding-classes-uk): Questions to put to any provider, including us.
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+## Related pages in this guide
 
-Our national page on 11 plus maths, wherever the test is set.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [11 plus maths in Kent](/11-plus-maths-tuition-kent)
+### 11+ by area
 
-A neighbouring county with a very different test.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+### Tests by provider and entry point
 
-Maths challenges from primary school upwards, month by month.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [Coding for UK children](/online-coding-classes-for-kids-uk)
+### Northern Ireland transfer test
 
-The order a primary child learns programming in.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-Every nation, city and borough we have written about.
+## Contact
 
-### [Choosing an online class](/best-online-coding-classes-uk)
-
-Questions to put to any provider, including us.
-
-Start here
-
-## Book a free maths lesson
-
-Tell us your child's school year and how maths is going. We teach a proper lesson, then tell you plainly what we saw and what we would do next.
-
-Prefer to read first? Every course has its full syllabus on its [course page](/courses), our method is on [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap) shows what leads to what.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20class%20for%20my%20child%20about%20the%20Buckinghamshire%20Transfer%20Test.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp is the quickest way to reach us. Our number is Indian and we have no office in the UK, which is why we mention it.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-buckinghamshire*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-buckinghamshire](https://learn.modernagecoders.com/11-plus-maths-tuition-buckinghamshire#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

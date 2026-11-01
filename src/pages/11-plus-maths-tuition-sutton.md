@@ -4,28 +4,34 @@ description: "Live online 11 plus maths for the Sutton Selective Eligibility Tes
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-sutton
 source: src/pages/11-plus-maths-tuition-sutton.html
 ---
-> Live online 11 plus maths for the Sutton Selective Eligibility Test and the written second stage: the same maths asked with five options, then with none.
+> Six schools share the Sutton Selective Eligibility Test: Greenshaw High School, Nonsuch High School for Girls, Sutton Grammar School, Wallington County Grammar School, Wallington High School for Girls and Wilson's School. The SET is two multiple-choice papers of 40 to 50 minutes, one maths and one English, and the schools say it includes no verbal or non-verbal reasoning. The pass is on the total of the two, with no negative marking. Children who pass then sit a written second stage for the girls' or boys' schools: again maths and English, but "not multiple choice". For September 2027 entry the SET was on Tuesday 15 September 2026, the girls' second stage on 26 September and the boys' on 3 October. The maths is broadly Key Stage 2 throughout, and we teach it for both formats, live online. There is no charge for the first lesson; regular lessons cost USD 100 a month in a group or USD 150 one to one.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Sutton
 
-Six schools share the Sutton Selective Eligibility Test: Greenshaw High School, Nonsuch High School for Girls, Sutton Grammar School, Wallington County Grammar School, Wallington High School for Girls and Wilson's School. The SET is two multiple-choice papers of 40 to 50 minutes, one maths and one English, and the schools say it includes no verbal or non-verbal reasoning. The pass is on the total of the two, with no negative marking. Children who pass then sit a written second stage for the girls' or boys' schools: again maths and English, but "not multiple choice". For September 2027 entry the SET was on Tuesday 15 September 2026, the girls' second stage on 26 September and the boys' on 3 October. The maths is broadly Key Stage 2 throughout, and we teach it for both formats, live online. There is no charge for the first lesson; regular lessons cost USD 100 a month in a group or USD 150 one to one.
+Sutton · Selective Eligibility Test and second stage maths · Live online, small groups or one to one
 
-First steps for Sutton
+# 11 plus maths tuition in Sutton
+
+Sutton's selective schools ask a child to show their maths twice. First comes the Selective Eligibility Test, a multiple-choice maths paper and a multiple-choice English paper, with no verbal or non-verbal reasoning at all. For the boys' schools and the girls' schools that hold one, a second stage follows a few weeks later: another maths paper, but this time "not multiple choice". The content is the same Key Stage 2 maths. The task is not. With five options on the page, a child can check a wrong answer against the list; with a blank line, nothing warns them. That shift, from choosing to producing an answer, is what this page is about, together with what the schools and the council publish.
+
+At a glance: Stage one: Selective Eligibility Test (SET); SET papers: Maths and English, multiple choice; Reasoning papers: None: no verbal or non-verbal; SET length: 40 to 50 minutes a paper; Stage two: Written maths and English; Stage two length: About 45 minutes to 1 hour a paper; Negative marking: None in the SET; We teach: The maths for both formats. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a two-stage test
 
 Pick by how your child copes when there are no answers to choose from.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  SUTTON / 1 11 plus maths, both formats Key Stage 2 content taught for five-option questions and for written answers on a blank line. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  SUTTON / 2 Mental arithmetic, sharpened No calculators at either stage; quick, reliable calculation leaves time to check. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  SUTTON / 3 Core primary maths For a Year 4 child who needs place value, tables and fractions secured before anything timed. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
-
-Stage one
+- [11 plus maths, both formats](/courses/11-plus-maths-preparation-course-uk): Key Stage 2 content taught for five-option questions and for written answers on a blank line.
+- [Mental arithmetic, sharpened](/courses/mental-maths-mastery-kids): No calculators at either stage; quick, reliable calculation leaves time to check.
+- [Core primary maths](/courses/elementary-mathematics-complete-masterclass): For a Year 4 child who needs place value, tables and fractions secured before anything timed.
 
 ## The Selective Eligibility Test, as the schools describe it
 
 The London Borough of Sutton lists the six schools and their deadlines; the schools publish the detail, in a shared FAQ on Sutton Grammar School's website. Read on 26 September 2026.
 
+**SET and second stage dates for September 2027 entry, from the participating schools and the council**
+
 | Step | Date | What is published |
-| --- | --- | --- |
+|---|---|---|
 | Registration opens | Friday 1 May 2026 | One online form, reachable from any participating school's website. |
 | Access arrangements | By Friday 12 June 2026 | Earlier deadline for requests and evidence for children with SEN. |
 | Registration closes | Midnight, Friday 31 July 2026 | No late registrations accepted. |
@@ -42,8 +48,6 @@ No rough paper is given. The FAQ says candidates may use any spare space on the 
 Greenshaw High School uses the SET only for its ability places, and not every school holds a second stage. How each school then uses the results for places is set out by the schools, and we leave it there. This page is about the maths in the two stages.
 
 Sources: [London Borough of Sutton, secondary school tests and assessments](https://www.sutton.gov.uk/schools-and-learning/school-admissions/apply-start-secondary-school/secondary-school-tests-assessments-and-supplementary-forms); [Sutton Grammar School, admissions FAQs](https://www.suttongrammar.sutton.sch.uk/admissions/faqs/), covering the SET and the shared second stage; SET Maths sample questions for 2027 entry. Modern Age Coders has no connection with any participating school or with the council.
-
-Stage two
 
 ## The same subjects, with the options taken away
 
@@ -63,14 +67,14 @@ Read as a Year 6 ratio, 2:2:3:3 has ten parts, and the two second-stage papers h
 
 For a family, the practical point is the calendar. The SET falls in mid-September and the written papers two or three weeks later. There is no time after the SET to learn a new way of answering. Written maths has to be practised through Year 5 alongside multiple-choice work, not bolted on at the end.
 
-The lesson
-
 ## Answering when nobody offers you a choice
 
 Two Year 5 curriculum statements carry most of the weight here: interpreting remainders for the context, and using rounding to check answers.
 
+**One division, three questions: a Year 5 lesson we use with Sutton pupils (our own example)**
+
 | The question | The calculation | The answer that fits |
-| --- | --- | --- |
+|---|---|---|
 | 215 guests sit at tables of 8. How many tables are needed? | 215 ÷ 8 = 26 remainder 7 | 27 tables: the 7 left over still need a table |
 | 215 guests sit at tables of 8. How many tables are completely full? | 215 ÷ 8 = 26 remainder 7 | 26 tables |
 | 215 stickers are shared among 8 children. How many does each get? | 215 ÷ 8 = 26 remainder 7 | 26 each, with 7 left over |
@@ -85,8 +89,6 @@ The second habit is checking by rounding, which the curriculum also names: "use 
 The third is units. A written paper has no options to hint that the answer is in metres rather than centimetres. Children learn to write the unit before the number, so the unit is decided first.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 multiplication and division, and addition and subtraction (statutory requirements). The table is a Modern Age Coders teaching example, not a test question.
-
-Two formats, one course
 
 ## Teaching for five options and for none
 
@@ -112,14 +114,14 @@ We do not have Sutton papers and do not pretend to. The schools release sample q
 
 English is half of the SET total and part of the second stage, but it is not something we teach for the test. Families should know that before they book with us.
 
-The participating schools
-
 ## Six schools, two second stages, one online class
 
 The council and the schools name the participants. We list them so it is clear which tests this page covers.
 
+**The six participating schools, as the Sutton Grammar School FAQ and the council list them**
+
 | School | After the SET |
-| --- | --- |
+|---|---|
 | Greenshaw High School | SET used for its ability places; no second stage |
 | Nonsuch High School for Girls | Joint girls' second stage |
 | Wallington High School for Girls | Joint girls' second stage |
@@ -137,14 +139,14 @@ We have no connection with any of the six schools or with the London Borough of 
 
 Sources: Sutton Grammar School admissions FAQs; London Borough of Sutton, secondary school tests and assessments; both read 26 September 2026.
 
-Working back from September
-
 ## Four stages, two formats
 
 For a child now in Year 5, the next SET will fall in September of Year 6, with written papers soon after. Every stage below is practised in both formats.
 
+**Building towards a multiple-choice paper and a written one**
+
 | When | Stage | What secure looks like |
-| --- | --- | --- |
+|---|---|---|
 | Year 4 | 1. Facts | Tables and number bonds instant; place value clear to a million |
 | Autumn, Year 5 | 2. Written methods | Long multiplication and short division correct, with remainders read for the context |
 | Spring, Year 5 | 3. The swap | Questions answered correctly with options are also answered correctly without them |
@@ -153,321 +155,71 @@ For a child now in Year 5, the next SET will fall in September of Year 6, with w
 ### Late start
 
 Starting in the summer of Year 5 still leaves time, if the written format is not left out. It is the part that improves slowest.
-
 At the trial lesson we will say plainly what a few months can do.
 
 ### After October
 
 Written maths is the maths of secondary school. Many children continue into [maths through coding](/courses/maths-through-coding), where every answer has to be produced, not picked.
-
 Keen ones try the challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-Our courses
 
 ## Maths and coding for Sutton families
 
 Grouped by stage. Open any card for the syllabus.
 
-I
-
 ### For the SET and stage two
 
 Years 3 to 5
 
-STM / I-a
-
-#### 11 plus maths preparation
-
-Key Stage 2 maths for chosen and written answers.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-STM / I-b
-
-#### Mental maths for kids
-
-Calculation without a calculator, at speed.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-STM / I-c
-
-#### Primary maths, Years 1 to 5
-
-Foundations for a child not yet ready for timed work.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-STM / I-d
-
-#### Abacus and mental maths
-
-Concrete, then visual, then mental calculation.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): Key Stage 2 maths for chosen and written answers.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Calculation without a calculator, at speed.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Foundations for a child not yet ready for timed work.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): Concrete, then visual, then mental calculation.
 
 ### Secondary
 
 Year 6 and after
 
-STM / II-a
-
-#### Middle school maths mastery
-
-Written reasoning and algebra for Key Stage 3.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-STM / II-b
-
-#### GCSE maths, foundation and higher
-
-Where method marks and written working count most.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-STM / II-c
-
-#### Olympiad and competition maths
-
-Problems that need a full written argument.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Written reasoning and algebra for Key Stage 3.
+- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): Where method marks and written working count most.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Problems that need a full written argument.
 
 ### Code and maths
 
 Producing answers, not picking them
 
-STM / III-a
-
-#### Maths through coding
-
-Programs that compute and check their own answers.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-STM / III-b
-
-#### Scratch coding for kids
-
-Precise instructions, tested at once.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-STM / III-c
-
-#### Python and AI for kids
-
-Typed code for confident primary pupils.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Programs that compute and check their own answers.
+- [Scratch coding for kids](/courses/scratch-programming-complete-course): Precise instructions, tested at once.
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): Typed code for confident primary pupils.
 
 ### Beyond
 
 Teenage years
 
-STM / IV-a
-
-#### Vedic maths and speed calculation
-
-Quicker methods, once the standard ones are secure.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-STM / IV-b
-
-#### AI and machine learning for teens
-
-Maths that ends in working software.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-Timing
+- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Quicker methods, once the standard ones are secure.
+- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Maths that ends in working software.
 
 ## After school, on the UK clock
 
 Our teachers are in India, and when Britain changes its clocks in March and October the gap changes with it. We fix primary lessons in UK time, in the early evening or at weekends, and adjust on our side.
 
-Early evening, weekdays
+- **Early evening, weekdays** A settled hour between school and supper.
+- **Weekend mornings** Good for children who flag after a school day.
+- **Half terms** Short intensive sessions in the break.
 
-A settled hour between school and supper.
-
-Weekend mornings
-
-Good for children who flag after a school day.
-
-Half terms
-
-Short intensive sessions in the break.
-
-### One teacher, all year
-
-Continuity means patterns in a child's mistakes are spotted early.
-
-### Brief honest reports
-
-A few plain lines to parents after lessons, good news and bad.
-
-### Fifteen to twenty per class
-
-Children at the same level, so the pace suits everyone in the room.
-
-### Written by us
-
-All questions are ours, in both formats; no school material is reproduced.
-
-### Private option
-
-One to one when a child needs targeted help with written answers.
-
-### Maths only
-
-We do not teach the English papers and do not advise on admissions.
-
-Student work
-
-## Where our students go next
-
-Four projects built by students at our school, every one of whom started with arithmetic like this. See more on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **One teacher, all year** Continuity means patterns in a child's mistakes are spotted early.
+- **Brief honest reports** A few plain lines to parents after lessons, good news and bad.
+- **Fifteen to twenty per class** Children at the same level, so the pace suits everyone in the room.
+- **Written by us** All questions are ours, in both formats; no school material is reproduced.
+- **Private option** One to one when a child needs targeted help with written answers.
+- **Maths only** We do not teach the English papers and do not advise on admissions.
 
 ## Fees
 
 A flat monthly fee in US dollars, as for all families outside India. No deposit and no minimum term.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A full lesson with a teacher
-- An honest account of what we saw
-- No card asked for
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children, one level
-- The same teacher weekly
-- Written work marked and returned
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- One teacher, one child
-- Focused on written answers if needed
-- Valuable between the SET and stage two
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Reviews by parents on our Google profile, reproduced exactly.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Sutton questions
+- Free first class: USD 0. A full lesson with a teacher. An honest account of what we saw. No card asked for.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. The same teacher weekly. Written work marked and returned. A certificate at the end.
+- One to one: USD 150 a month. One teacher, one child. Focused on written answers if needed. Valuable between the SET and stage two.
 
 ## What Sutton families ask us
 
@@ -511,54 +263,70 @@ No. The schools say the SET is for children in Year 6 and can be taken only once
 
 The first lesson is free. After that, a group place is USD 100 a month and one to one is USD 150 a month, with no deposit and no minimum term.
 
-Nearby
-
 ## Related pages for south London and Surrey families
 
-Coding in Sutton, the national 11 plus page, and other selective areas nearby.
+- [Coding classes in Sutton](/coding-classes-in-sutton-london): Our page on coding for the borough.
+- [11 plus maths tuition](/11-plus-maths-tuition): The national 11 plus maths page.
+- [11 plus maths in Kent](/11-plus-maths-tuition-kent): A county test sat in the first week of Year 6.
+- [11 plus maths in Trafford](/11-plus-maths-tuition-trafford): A consortium that names four maths areas.
+- [Coding classes in Surrey](/coding-classes-in-surrey): For families over the county line.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area we cover.
 
-### [Coding classes in Sutton](/coding-classes-in-sutton-london)
+## Related pages in this guide
 
-Our page on coding for the borough.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+### 11+ by area
 
-The national 11 plus maths page.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [11 plus maths in Kent](/11-plus-maths-tuition-kent)
+### Tests by provider and entry point
 
-A county test sat in the first week of Year 6.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [11 plus maths in Trafford](/11-plus-maths-tuition-trafford)
+### Northern Ireland transfer test
 
-A consortium that names four maths areas.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [Coding classes in Surrey](/coding-classes-in-surrey)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-For families over the county line.
+## Contact
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
-
-Every UK area we cover.
-
-Start here
-
-## Arrange a free lesson
-
-Let us know the school year and whether written answers or multiple choice feels harder. We teach a real lesson and then give you a straight account of it.
-
-Reading first? The [course syllabuses](/courses) are all online, [how we teach](/how-we-teach) sets out our method, and the [roadmap](/coding-roadmap) shows what follows what.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Sutton%20SET.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp gets the quickest answer. Our phone number is Indian and we have no office in Britain.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-sutton*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-sutton](https://learn.modernagecoders.com/11-plus-maths-tuition-sutton#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

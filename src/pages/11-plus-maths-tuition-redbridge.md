@@ -4,28 +4,34 @@ description: "Live online 11 plus maths for the Redbridge test used by Ilford Co
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-redbridge
 source: src/pages/11-plus-maths-tuition-redbridge.html
 ---
-> Live online 11 plus maths for the Redbridge test used by Ilford County High and Woodford County High: the maths paper, and Year 5 measures taught thoroughly.
+> The London Borough of Redbridge runs the 11 plus for its two grammar schools, Ilford County High School for Boys and Woodford County High School for Girls, with GL Assessment as the provider. There are two papers: English and Verbal Reasoning, and Mathematics and Non-Verbal Reasoning. The council's admission arrangements set a minimum threshold score of 104 for all applicants. For September 2027 entry, families registered between 1 May and 5pm on 15 June 2026, and the test was on Friday 18 September 2026; the council says to register in Year 5 for a test in Year 6. It also warns that free practice materials might not match its test in the number, type or difficulty of questions. So we teach the maths curriculum rather than a paper style, live online. There is no fee for the first lesson; after that a group place costs USD 100 a month and one to one USD 150 a month.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Redbridge
 
-The London Borough of Redbridge runs the 11 plus for its two grammar schools, Ilford County High School for Boys and Woodford County High School for Girls, with GL Assessment as the provider. There are two papers: English and Verbal Reasoning, and Mathematics and Non-Verbal Reasoning. The council's admission arrangements set a minimum threshold score of 104 for all applicants. For September 2027 entry, families registered between 1 May and 5pm on 15 June 2026, and the test was on Friday 18 September 2026; the council says to register in Year 5 for a test in Year 6. It also warns that free practice materials might not match its test in the number, type or difficulty of questions. So we teach the maths curriculum rather than a paper style, live online. There is no fee for the first lesson; after that a group place costs USD 100 a month and one to one USD 150 a month.
+Redbridge · 11 plus for Ilford and Woodford County High · Live online, small groups or one to one
 
-Starting in Redbridge
+# 11 plus maths tuition in Redbridge
+
+Redbridge Council's 11 plus page contains a sentence most test organisers would not write. After pointing families to GL Assessment's free familiarisation materials, it adds that "the free materials might not match the exact test your child will take. Differences could include the number of questions, types of questions, or difficulty." We think that is an honest and useful warning, and it has a clear consequence for maths. If the practice papers are not a reliable picture of the test, then the thing to prepare is not a practice-paper style; it is the maths itself, the primary curriculum up to the end of Year 5. This page sets out what the council publishes about the test, and then works through one part of that curriculum that turns up everywhere in word problems: measures and converting between units.
+
+At a glance: Schools: Ilford County High; Woodford County High; Run by: London Borough of Redbridge; Provider: GL Assessment; Papers: Two; Maths paper: Mathematics and Non-Verbal Reasoning; Minimum threshold: A score of 104; Practice materials: May not match the real test, says the council; We teach: The Year 5 curriculum, thoroughly. Rated 4.9 across 547 Google reviews.
 
 ## Three courses built on the curriculum
 
 Since the practice papers may differ from the real one, choose by the gaps in the maths, not by paper scores.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  REDBRIDGE / A Curriculum-first 11 plus maths Every Year 5 topic, including the measures and conversions that fill word problems. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  REDBRIDGE / B Years 1 to 5, secured For children whose place value, decimals or tables are not yet solid enough to build on. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  REDBRIDGE / C Mental calculation Multiplying and dividing by 10, 100 and 1,000 in the head, which is most of converting units. Open the syllabus →](/courses/mental-maths-mastery-kids)
-
-The Redbridge 11 plus
+- [Curriculum-first 11 plus maths](/courses/11-plus-maths-preparation-course-uk): Every Year 5 topic, including the measures and conversions that fill word problems.
+- [Years 1 to 5, secured](/courses/elementary-mathematics-complete-masterclass): For children whose place value, decimals or tables are not yet solid enough to build on.
+- [Mental calculation](/courses/mental-maths-mastery-kids): Multiplying and dividing by 10, 100 and 1,000 in the head, which is most of converting units.
 
 ## What the council publishes about the test
 
 Redbridge Council runs registration and testing and publishes both a parents' page and formal admission arrangements. Both read on 26 September 2026.
 
+**The Redbridge 11 plus for September 2027 entry, from the London Borough of Redbridge**
+
 | Step | Date | What the council says |
-| --- | --- | --- |
+|---|---|---|
 | Registration | 1 May to 5pm, Monday 15 June 2026 | Registered in Year 5; no late registrations. Adjustment requests also closed on 15 June. |
 | Invitation | Start of September 2026 | An email with a photo ID form and a letter giving the time, place, test duration and what can be brought. |
 | Test | Friday 18 September 2026 | The completed photo ID form must be brought; without it a child cannot sit the test. |
@@ -40,8 +46,6 @@ Before registering, the council asks families to check whether they live in the 
 The council also publishes data on registrations, the number of children who sat the test and scores, for families who want the background. We do not reproduce it here and do not use it to predict anything.
 
 Sources: [London Borough of Redbridge, Redbridge 11 plus](https://www.redbridge.gov.uk/schools/school-admissions/redbridge-11-plus); Redbridge Determined Admission Arrangements 2027-28. Modern Age Coders has no connection with Redbridge Council, GL Assessment, Ilford County High School or Woodford County High School.
-
-An honest warning
 
 ## When the council says practice papers may not match
 
@@ -61,14 +65,14 @@ The one thing that cannot vary between areas is the curriculum a child has been 
 
 There is a trap in the opposite direction too. A child who does many practice papers of one style can become quick at that style and brittle outside it. When the real paper has a different number of questions, or a question type they have not seen, the rhythm breaks. A child who knows the curriculum well does not depend on the rhythm.
 
-The lesson
-
 ## Measures and conversions: the maths inside word problems
 
 Whatever form the Redbridge maths takes, word problems about length, mass, capacity, time and money will be in it. Year 5 measurement is where they live.
 
+**Year 5 measurement, with practice questions of our own**
+
 | Year 5 skill | Our question | Answer and method |
-| --- | --- | --- |
+|---|---|---|
 | Convert metric units | How many metres is 2.35 km? | 2,350 m: multiply by 1,000 |
 | Measure with decimals | Four cartons each hold 750 ml. How many litres altogether? | 3 litres: 4 × 750 = 3,000 ml |
 | Approximate imperial equivalents | Roughly how many centimetres is 12 inches? | About 30 cm, using 1 inch as roughly 2.5 cm |
@@ -85,8 +89,6 @@ The perimeter row is our favourite, because it catches strong children. Removing
 Underneath almost every conversion is place value: multiplying or dividing by 10, 100 or 1,000. That is why a Year 5 measures lesson with us often turns, for ten minutes, into a place value lesson. It is the part that fails most often.
 
 Source: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 measurement (statutory requirements). All questions in the table are Modern Age Coders' own.
-
-How we prepare
 
 ## Curriculum first, papers last
 
@@ -112,14 +114,14 @@ We are also careful about the minimum threshold of 104. It is a published rule o
 
 Older brothers and sisters are welcome in our secondary classes, where the approach is exactly the same: the curriculum, taught properly, rather than a style of paper.
 
-Ilford, Woodford and around
-
 ## Two schools, one test, taught from home
 
 Ilford County High School and Woodford County High School share the Redbridge test. We list them only to show which test this page covers.
 
+**Redbridge's two grammar schools, as the council names them**
+
 | School | Who it admits |
-| --- | --- |
+|---|---|
 | Ilford County High School | Boys |
 | Woodford County High School | Girls |
 
@@ -133,14 +135,14 @@ We have no connection with either school or with the council, and we give no adv
 
 Source: London Borough of Redbridge, Redbridge 11 plus, read 26 September 2026.
 
-A year of work
-
 ## Four stages before a September test
 
 For a child in Year 5 now, the council's pattern points to registration around May to June 2027 and a test early in Year 6. The council publishes the exact dates.
 
+**From place value to timed papers**
+
 | When | Stage | You can see it when |
-| --- | --- | --- |
+|---|---|---|
 | Autumn, Year 5 | 1. Place value and decimals | Multiplies and divides by 10, 100 and 1,000 without hesitation |
 | Winter, Year 5 | 2. Measures | Converts units and solves measure problems with decimals correctly |
 | Spring, Year 5 | 3. The rest of Year 5 | Fractions, geometry and statistics are as secure as number |
@@ -149,321 +151,71 @@ For a child in Year 5 now, the council's pattern points to registration around M
 ### Starting now, in the spring
 
 There is still time if the order holds: place value, then measures and the rest of Year 5, then papers.
-
 We will give you our honest estimate at the free lesson.
 
 ### After October
 
 Measures and conversions run straight through secondary science and maths. Some pupils continue into [maths through coding](/courses/maths-through-coding), where units become variables.
-
 Pupils who relish problems try the national challenges listed on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-Courses
 
 ## Maths and coding for Redbridge families
 
 Grouped by stage; each links to its syllabus.
 
-I
-
 ### For the Redbridge 11 plus
 
 Years 3 to 5
 
-RBM / A1
-
-#### 11 plus maths preparation
-
-The full Year 5 curriculum, not one paper style.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-RBM / A2
-
-#### Primary maths, Years 1 to 5
-
-Place value and decimals, made secure.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-RBM / A3
-
-#### Mental maths for kids
-
-Quick conversions by powers of ten.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-RBM / A4
-
-#### Abacus and mental maths
-
-Hands-on place value for younger pupils.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): The full Year 5 curriculum, not one paper style.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Place value and decimals, made secure.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Quick conversions by powers of ten.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): Hands-on place value for younger pupils.
 
 ### Secondary maths
 
 From Year 6
 
-RBM / B1
-
-#### Middle school maths mastery
-
-Compound measures, ratio and algebra.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-RBM / B2
-
-#### GCSE maths, foundation and higher
-
-Taught to the exam board specification.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-RBM / B3
-
-#### Olympiad and competition maths
-
-Problems that reward real understanding.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Compound measures, ratio and algebra.
+- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): Taught to the exam board specification.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Problems that reward real understanding.
 
 ### Coding
 
 Maths made runnable
 
-RBM / C1
-
-#### Maths through coding
-
-Write a unit converter; test it on real values.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-RBM / C2
-
-#### Scratch coding for kids
-
-Logic and sequence for younger coders.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-RBM / C3
-
-#### Python and AI for kids
-
-The step up to typed code.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Write a unit converter; test it on real values.
+- [Scratch coding for kids](/courses/scratch-programming-complete-course): Logic and sequence for younger coders.
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): The step up to typed code.
 
 ### Further
 
 Teenage years
 
-RBM / D1
-
-#### Vedic maths and speed calculation
-
-Fast methods for secure calculators.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-RBM / D2
-
-#### AI and machine learning for teens
-
-Data, units and models in practice.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-When lessons run
+- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Fast methods for secure calculators.
+- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Data, units and models in practice.
 
 ## After school and at weekends, by the UK clock
 
 Lessons are taught live from India. For primary children we use early evening and weekend morning slots in UK time, and we shift our own hours when the UK clocks change.
 
-Weekdays, early evening
+- **Weekdays, early evening** An hour that fits between school and bedtime.
+- **Weekend mornings** Good for children who flag after school.
+- **Holidays** Brief extra lessons when school is closed.
 
-An hour that fits between school and bedtime.
-
-Weekend mornings
-
-Good for children who flag after school.
-
-Holidays
-
-Brief extra lessons when school is closed.
-
-### A regular teacher
-
-One person, week after week, who knows the child's habits.
-
-### Honest updates
-
-Short notes that say what is going well and what is not.
-
-### Fifteen to twenty children
-
-Grouped by level for the right pace.
-
-### Questions we write
-
-No GL or council material is reproduced.
-
-### One to one available
-
-For a stubborn topic or a child who prefers it.
-
-### Maths only
-
-No reasoning coaching and no admissions advice.
-
-Student work
-
-## Where primary maths leads our students
-
-Four projects by students at our school, all built on the place value and measures they once learned. More on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **A regular teacher** One person, week after week, who knows the child's habits.
+- **Honest updates** Short notes that say what is going well and what is not.
+- **Fifteen to twenty children** Grouped by level for the right pace.
+- **Questions we write** No GL or council material is reproduced.
+- **One to one available** For a stubborn topic or a child who prefers it.
+- **Maths only** No reasoning coaching and no admissions advice.
 
 ## Fees
 
 One monthly price in US dollars, the same for families everywhere outside India. No joining fee; leave whenever you wish.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A proper lesson from a teacher
-- An honest assessment afterwards
-- No card details
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children, one level
-- The same teacher each week
-- Work checked together
-- Certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher for your child alone
-- Aimed at the weakest topics
-- Useful in the summer before the test
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Reviews left by parents on Google, quoted without changes.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Redbridge questions
+- Free first class: USD 0. A proper lesson from a teacher. An honest assessment afterwards. No card details.
+- Group batch: USD 100 a month. Fifteen to twenty children, one level. The same teacher each week. Work checked together. Certificate at the end.
+- One to one: USD 150 a month. A teacher for your child alone. Aimed at the weakest topics. Useful in the summer before the test.
 
 ## What Redbridge families ask us
 
@@ -507,54 +259,70 @@ No. Our practice questions are our own, written to the national curriculum.
 
 The first lesson is on us. Regular lessons are USD 100 a month in a small group or USD 150 a month one to one, with no minimum commitment.
 
-Nearby
-
 ## More for east London families
 
-Coding in Redbridge, our national 11 plus page, and other London selective areas.
+- [Coding classes in Redbridge](/coding-classes-in-redbridge-london): Programming lessons for children and teens in the borough.
+- [11 plus maths tuition](/11-plus-maths-tuition): Our national page on 11 plus maths.
+- [11 plus maths in Enfield](/11-plus-maths-tuition-enfield): A school test changing provider for 2028 entry.
+- [11 plus maths in Bexley](/11-plus-maths-tuition-bexley): South-east London's numerical reasoning test.
+- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): National maths challenges with their dates.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area we cover.
 
-### [Coding classes in Redbridge](/coding-classes-in-redbridge-london)
+## Related pages in this guide
 
-Programming lessons for children and teens in the borough.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+### 11+ by area
 
-Our national page on 11 plus maths.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [11 plus maths in Enfield](/11-plus-maths-tuition-enfield)
+### Tests by provider and entry point
 
-A school test changing provider for 2028 entry.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [11 plus maths in Bexley](/11-plus-maths-tuition-bexley)
+### Northern Ireland transfer test
 
-South-east London's numerical reasoning test.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-National maths challenges with their dates.
+## Contact
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
-
-Every UK area we cover.
-
-Start here
-
-## Book a free first lesson
-
-Tell us your child's school year and which maths topics feel wobbly. We teach a real lesson and then tell you honestly what we noticed.
-
-Want to read more first? Browse the [course syllabuses](/courses), read [how we teach](/how-we-teach), or follow the [roadmap](/coding-roadmap).
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Redbridge%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp gets the fastest reply. We are an Indian school with an Indian phone number and no UK office.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-redbridge*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-redbridge](https://learn.modernagecoders.com/11-plus-maths-tuition-redbridge#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

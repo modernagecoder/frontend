@@ -4,28 +4,34 @@ description: "Live online 11 plus maths for Barnet's three grammar school tests:
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-barnet
 source: src/pages/11-plus-maths-tuition-barnet.html
 ---
-> Live online 11 plus maths for Barnet's three grammar school tests: QE's single session, Henrietta Barnett's Round Two maths paper, and St Michael's.
+> Barnet's three selective state schools set their own tests. Queen Elizabeth's School holds one sitting of two multiple-choice papers, maths and English; for September 2027 entry it ran on 16 and 17 September 2026, and QE publishes a combined score of 225 or higher as the standard its Governors require. The Henrietta Barnett School tests verbal reasoning, non-verbal reasoning and English in Round One, then invites its top 300 to a Round Two of a 60-minute English paper and a 50-minute maths paper, on 6 October 2026 for this cycle. St Michael's Catholic Grammar School holds entrance tests by invitation, with multiple-choice papers including maths and a written English paper, on 11 September 2026 this cycle. None of the three publishes past papers. We teach the maths, live online, deep enough for any of them. Try a lesson without paying; staying on costs USD 100 monthly in a group or USD 150 monthly for one to one.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Barnet
 
-Barnet's three selective state schools set their own tests. Queen Elizabeth's School holds one sitting of two multiple-choice papers, maths and English; for September 2027 entry it ran on 16 and 17 September 2026, and QE publishes a combined score of 225 or higher as the standard its Governors require. The Henrietta Barnett School tests verbal reasoning, non-verbal reasoning and English in Round One, then invites its top 300 to a Round Two of a 60-minute English paper and a 50-minute maths paper, on 6 October 2026 for this cycle. St Michael's Catholic Grammar School holds entrance tests by invitation, with multiple-choice papers including maths and a written English paper, on 11 September 2026 this cycle. None of the three publishes past papers. We teach the maths, live online, deep enough for any of them. Try a lesson without paying; staying on costs USD 100 monthly in a group or USD 150 monthly for one to one.
+Barnet · Grammar school entrance test maths · Live online, small groups or one to one
 
-Starting points in Barnet
+# 11 plus maths tuition in Barnet
+
+Barnet has no single 11 plus. Its three grammar schools, Queen Elizabeth's School, The Henrietta Barnett School and St Michael's Catholic Grammar School, each run their own entrance test, and maths appears in each at a different moment. At QE it is one of two multiple-choice papers in a single sitting. At Henrietta Barnett there is no maths in the first round at all; it arrives as a 50-minute paper in Round Two, for the top 300 from Round One, about a month later. At St Michael's it sits among multiple-choice papers taken by invitation. The one thing all three share is the content, which is primary school maths, and it pays to know it deeply rather than in outline. This page sets out what each school publishes, and uses one Year 5 topic, factors and primes, to show what deep means.
+
+At a glance: Schools: QE, Henrietta Barnett, St Michael's; Tests: Three, one per school; QE: Maths and English, one sitting; Henrietta Barnett: Maths only in Round Two; St Michael's: Multiple-choice papers, by invitation; Maths paper at HBS: 50 minutes; Past papers: None published by any of the three; We teach: Primary maths in depth. Rated 4.9 across 547 Google reviews.
 
 ## Three courses, whichever school
 
 Depth matters more than format here: none of the three schools shows its papers.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  BARNET / i Primary maths for three tests Year 5 content taught deeply enough for a QE sitting, a St Michael's paper or a Round Two at HBS. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Maths Olympiad & Competition Course course thumbnail](/images/olympiad-competition-maths.webp)  BARNET / ii Problems without a recipe For confident children aiming at a school-set paper with no published resources. Open the syllabus →](/courses/olympiad-competition-mathematics-mastery)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  BARNET / iii Number facts at speed Tables, squares and primes known by heart, so harder questions get the time. Open the syllabus →](/courses/mental-maths-mastery-kids)
-
-Three schools, three tests
+- [Primary maths for three tests](/courses/11-plus-maths-preparation-course-uk): Year 5 content taught deeply enough for a QE sitting, a St Michael's paper or a Round Two at HBS.
+- [Problems without a recipe](/courses/olympiad-competition-mathematics-mastery): For confident children aiming at a school-set paper with no published resources.
+- [Number facts at speed](/courses/mental-maths-mastery-kids): Tables, squares and primes known by heart, so harder questions get the time.
 
 ## What each Barnet grammar school publishes
 
 The London Borough of Barnet's admissions pages would not load for our reader, so this page relies on the three schools' own admissions pages, read on 26 September 2026.
 
+**Barnet's three grammar school tests for September 2027 entry, as each school publishes them**
+
 | School | Where the maths is | Dates this cycle |
-| --- | --- | --- |
+|---|---|---|
 | Queen Elizabeth's School | Two multiple-choice papers, maths and English, "sat in a single session" | Requests 1 May to noon, 8 July 2026; test 16 and 17 September 2026; results provisionally 1 October |
 | The Henrietta Barnett School | Round One has no maths; Round Two has "a 50 minute Maths paper" | Round One 2 to 4 September 2026; Round Two Tuesday 6 October 2026 for the top 300 |
 | St Michael's Catholic Grammar School | Multiple-choice entrance tests including maths; English is a written paper | Applications 14 April to 4pm, 7 July 2026; tests Friday 11 September 2026, by invitation |
@@ -39,8 +45,6 @@ St Michael's holds its entrance tests by invitation. Its familiarisation page of
 How each school uses its results for places, including priority rules, is published in each admissions policy and is not something we advise on. We teach the maths.
 
 Sources: [Queen Elizabeth's School, entrance test FAQs](https://www.qebarnet.co.uk/admissions-information/secondary-transfer-entrance-test-faqs/), admissions and sample papers pages; [The Henrietta Barnett School, admissions](https://www.hbschool.org.uk/admissions/); [St Michael's Catholic Grammar School, admissions 2027-28](https://www.st-michaels.barnet.sch.uk/home/admissions/admissions-2027-28/) and familiarisation page. Barnet council's admissions pages were not readable to us. Modern Age Coders has no connection with any of these schools or the council.
-
-When the maths counts
 
 ## Same subject, three different moments
 
@@ -66,14 +70,14 @@ For QE, maths shares one sitting with English. Its FAQ explains that the two sco
 
 St Michael's publishes provider-designed maths familiarisation booklets and a parents' guide. Families should use those to see the format. We do not copy them, and the school asks that others do not reproduce them.
 
-What deep looks like
-
 ## Factors and primes, all the way down
 
 With no past papers from any of the three schools, depth in the curriculum is the only safe preparation. Factors and primes show what depth means in Year 5.
 
+**One Year 5 topic, from recall to reasoning (our own questions)**
+
 | Level | Question | What it takes |
-| --- | --- | --- |
+|---|---|---|
 | Recall | List the prime numbers up to 19. | 2, 3, 5, 7, 11, 13, 17, 19: known, not worked out |
 | Method | Find all the factor pairs of 36. | 1 × 36, 2 × 18, 3 × 12, 4 × 9, 6 × 6: nine factors in all |
 | Connection | Why does 36 have an odd number of factors when 24 has an even number? | 36 is a square number: 6 pairs with itself |
@@ -90,8 +94,6 @@ Common factors follow the same way. The common factors of 24 and 36 are 1, 2, 3,
 
 Curriculum wording from the Department for Education's [mathematics programmes of study](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), the Year 5 statements on factors, multiples and primes. Every question in the table is ours; none comes from a school's test.
 
-Our approach
-
 ## Teaching for papers nobody has seen
 
 QE shares sample materials, St Michael's shares familiarisation booklets, Henrietta Barnett shares nothing for Round Two. Our answer is the same for all three.
@@ -106,8 +108,6 @@ We also do not teach verbal reasoning, non-verbal reasoning or English. For Henr
 
 None of the three schools' calendars leaves room to learn maths in the autumn of Year 6. The work belongs in Year 5, steadily, with the summer used to practise timed papers in both formats.
 
-Barnet and around it
-
 ## Three schools across the borough, one lesson at home
 
 QE is in Barnet, Henrietta Barnett in Hampstead Garden Suburb and St Michael's in North Finchley. Our lessons need no journey to any of them.
@@ -120,14 +120,14 @@ Classes are put together by ability. A pupil aiming at QE, Henrietta Barnett or 
 
 We have no connection with any of the three schools or with the London Borough of Barnet, and we offer no advice on applications, faith criteria or places.
 
-The year ahead
-
 ## Four stages, finished before September
 
 For a child in Year 5 now, the next tests should fall in September and October of Year 6, on dates each school will publish.
 
+**From recall to reasoning, in time for any of the three tests**
+
 | When | Stage | Signs of readiness |
-| --- | --- | --- |
+|---|---|---|
 | Year 4 | 1. Recall | Tables, squares to 12 × 12 and primes to 19 known instantly |
 | Autumn and spring, Year 5 | 2. Method | All Year 5 topics done accurately with written methods |
 | Summer term, Year 5 | 3. Reasoning | Explains why, not just how, as in the prime test by 2, 3, 5 and 7 |
@@ -136,321 +136,71 @@ For a child in Year 5 now, the next tests should fall in September and October o
 ### Short on time
 
 A late start still helps if the order holds. Recall and method first; reasoning grows out of them.
-
 At the free lesson we will say candidly what a few months can achieve.
 
 ### After the results
 
 Factors and primes lead straight into secondary number theory. Some children continue with [maths through coding](/courses/maths-through-coding) and write their own prime finders.
-
 Puzzle-lovers find the national maths challenges, month by month, on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-Course list
 
 ## Maths and coding for Barnet families
 
 By stage, each with its full syllabus a click away.
 
-I
-
 ### For the three tests
 
 Years 3 to 5
 
-BTM / a
-
-#### 11 plus maths preparation
-
-The Year 5 curriculum, at three depths.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-BTM / b
-
-#### Mental maths for kids
-
-Primes, squares and tables at speed.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-BTM / c
-
-#### Primary maths, Years 1 to 5
-
-Tables and place value, made solid before any test practice.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-BTM / d
-
-#### Abacus and mental maths
-
-Number sense built by hand, then in the head.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): The Year 5 curriculum, at three depths.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Primes, squares and tables at speed.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Tables and place value, made solid before any test practice.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): Number sense built by hand, then in the head.
 
 ### Secondary
 
 From Year 6
 
-BTM / e
-
-#### Middle school maths mastery
-
-Prime factorisation, algebra and more.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-BTM / f
-
-#### GCSE maths, foundation and higher
-
-All three exam boards, taught to the specification.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-BTM / g
-
-#### Olympiad and competition maths
-
-Number theory and problems that stretch.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Prime factorisation, algebra and more.
+- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): All three exam boards, taught to the specification.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): Number theory and problems that stretch.
 
 ### Code and number
 
 Programs that count
 
-BTM / h
-
-#### Maths through coding
-
-Write a prime checker; test a conjecture.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-BTM / i
-
-#### Scratch coding for kids
-
-A visual first language with real logic.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-BTM / j
-
-#### Python and AI for kids
-
-Typed programming for capable primary pupils.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Write a prime checker; test a conjecture.
+- [Scratch coding for kids](/courses/scratch-programming-complete-course): A visual first language with real logic.
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): Typed programming for capable primary pupils.
 
 ### Onwards
 
 Teenage options
 
-BTM / k
-
-#### Vedic maths and speed calculation
-
-Shortcuts for pupils who already understand the standard methods.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-BTM / l
-
-#### AI and machine learning for teens
-
-Where factor-style thinking meets data and code.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-Hours
+- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Shortcuts for pupils who already understand the standard methods.
+- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Where factor-style thinking meets data and code.
 
 ## Early evenings and weekend mornings, UK time
 
 Our teachers are in India. We keep primary lessons within sensible UK hours, after school or on a weekend morning, and handle the twice-yearly clock change on our side.
 
-After school, weekdays
+- **After school, weekdays** An hour before the evening winds down.
+- **Saturday or Sunday morning** For children who tire after school.
+- **Holidays** Brief extra sessions in the breaks.
 
-An hour before the evening winds down.
-
-Saturday or Sunday morning
-
-For children who tire after school.
-
-Holidays
-
-Brief extra sessions in the breaks.
-
-### One familiar teacher
-
-Every week, so progress and slips are both noticed.
-
-### Frank notes home
-
-Short and honest, including what has not clicked yet.
-
-### Fifteen to twenty in a class
-
-Grouped by level, so the teaching fits.
-
-### Questions we wrote
-
-Nothing from any Barnet school's materials is reproduced.
-
-### Individual lessons
-
-One to one for a specific gap or a child who prefers it.
-
-### Maths, and only maths
-
-No reasoning or English coaching, no admissions advice.
-
-Student work
-
-## Where our students take their maths
-
-Four projects published by students at our school, each resting on primary number work like this. More on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **One familiar teacher** Every week, so progress and slips are both noticed.
+- **Frank notes home** Short and honest, including what has not clicked yet.
+- **Fifteen to twenty in a class** Grouped by level, so the teaching fits.
+- **Questions we wrote** Nothing from any Barnet school's materials is reproduced.
+- **Individual lessons** One to one for a specific gap or a child who prefers it.
+- **Maths, and only maths** No reasoning or English coaching, no admissions advice.
 
 ## Fees
 
 A monthly fee in US dollars, identical for all families outside India. Stop at any time; there is no contract.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A real lesson with a teacher
-- An honest read on the maths
-- No card needed
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children at one level
-- A teacher who knows your child
-- Work checked and explained
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher for one child
-- Aimed at the gaps
-- Handy in the weeks before Round Two
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Unedited words from families who reviewed us on Google.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Barnet questions
+- Free first class: USD 0. A real lesson with a teacher. An honest read on the maths. No card needed.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A teacher who knows your child. Work checked and explained. A certificate at the end.
+- One to one: USD 150 a month. A teacher for one child. Aimed at the gaps. Handy in the weeks before Round Two.
 
 ## What Barnet families ask us
 
@@ -494,54 +244,70 @@ No. Applications, priority criteria and places are for the schools and your loca
 
 Nothing for the first lesson. From then on, a seat in a small group is USD 100 per month and private tuition USD 150 per month; you can stop whenever you choose.
 
-Related
-
 ## More for north London families
 
-Coding in Barnet, the national 11 plus page, and other selective areas nearby.
+- [Coding classes in Barnet](/coding-classes-in-barnet-london): Programming lessons for Barnet children and teens.
+- [11 plus maths tuition](/11-plus-maths-tuition): How we approach 11 plus maths across England.
+- [11 plus maths in Kingston](/11-plus-maths-tuition-kingston): Two schools with two-stage tests, south-west London.
+- [Coding classes in Harrow](/coding-classes-in-harrow-london): For families in the neighbouring borough.
+- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): From the Primary Maths Challenge to the UKMT, dated.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every area we write about.
 
-### [Coding classes in Barnet](/coding-classes-in-barnet-london)
+## Related pages in this guide
 
-Programming lessons for Barnet children and teens.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+### 11+ by area
 
-How we approach 11 plus maths across England.
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [11 plus maths in Kingston](/11-plus-maths-tuition-kingston)
+### Tests by provider and entry point
 
-Two schools with two-stage tests, south-west London.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [Coding classes in Harrow](/coding-classes-in-harrow-london)
+### Northern Ireland transfer test
 
-For families in the neighbouring borough.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-From the Primary Maths Challenge to the UKMT, dated.
+## Contact
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
-
-Every area we write about.
-
-Start here
-
-## Book a free taster lesson
-
-Tell us the school year and which school you are thinking about. We teach a real lesson and tell you honestly what we saw.
-
-Prefer to read? All [course syllabuses](/courses) are online, [how we teach](/how-we-teach) explains our lessons, and the [roadmap](/coding-roadmap) shows the path onwards.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Barnet%20grammar%20school%20tests.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-A WhatsApp message usually gets the speediest reply. Our team and phone number are in India, and there is no Barnet or London office.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-barnet*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-barnet](https://learn.modernagecoders.com/11-plus-maths-tuition-barnet#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

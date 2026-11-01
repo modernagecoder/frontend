@@ -4,28 +4,34 @@ description: "Live online 11 plus maths for Southend's CSSE test: a sixty-minute
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-southend
 source: src/pages/11-plus-maths-tuition-southend.html
 ---
-> Live online 11 plus maths for Southend's CSSE test: a sixty-minute maths paper worth half the total, what the consortium publishes, and every Year 5 strand taught.
+> Southend-on-Sea City Council says four grammar schools, Southend High School for Boys, Southend High School for Girls, Westcliff High School for Boys and Westcliff High School for Girls, admit only through the 11+, while Shoeburyness High School, St Bernard's High School and St Thomas More High School take part of their intake that way. All use the CSSE test: an English paper of sixty minutes plus ten minutes' reading, and a Mathematics paper of sixty minutes, each worth half the marks and based on Key Stage 2, with no calculators. The CSSE makes no offer to a child with a total standardised score under 303. For September 2027 entry the test was on Saturday 19 September 2026; the CSSE will publish 2028-entry dates by Easter 2027. We teach the maths, live online. Lesson one is on us; after it, lessons run at USD 100 a month in a group or USD 150 a month individually.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Southend
 
-Southend-on-Sea City Council says four grammar schools, Southend High School for Boys, Southend High School for Girls, Westcliff High School for Boys and Westcliff High School for Girls, admit only through the 11+, while Shoeburyness High School, St Bernard's High School and St Thomas More High School take part of their intake that way. All use the CSSE test: an English paper of sixty minutes plus ten minutes' reading, and a Mathematics paper of sixty minutes, each worth half the marks and based on Key Stage 2, with no calculators. The CSSE makes no offer to a child with a total standardised score under 303. For September 2027 entry the test was on Saturday 19 September 2026; the CSSE will publish 2028-entry dates by Easter 2027. We teach the maths, live online. Lesson one is on us; after it, lessons run at USD 100 a month in a group or USD 150 a month individually.
+Southend-on-Sea · CSSE 11+ mathematics paper · Live online, small groups or one to one
 
-Starting in Southend
+# 11 plus maths tuition in Southend
+
+In Southend, the 11 plus is the test set by the Consortium of Selective Schools in Essex, the CSSE, and its structure is refreshingly plain. There are two papers. One is English. The other is mathematics, on its own, for sixty minutes. The consortium says the two are standardised and weighted "each being worth 50% of the marks". There is no reasoning paper for maths to hide inside and nothing else to share the clock with: an hour of Key Stage 2 maths, without a calculator, counting for half. A paper that long and that heavy has room for every strand of the primary curriculum, including the small statements that busy classrooms rush past. One of those, reading Roman numerals, sits in Year 5 alongside place value to a million. This page sets out what the CSSE and the council publish, then teaches that corner of Year 5 properly.
+
+At a glance: Test: CSSE 11+, used by ten schools; Papers: English and Mathematics; Maths paper: Sixty minutes; Maths weighting: Half of the total; Content: Key Stage 2 of the National Curriculum; Calculators: Not permitted; Minimum total: A standardised 303; We teach: Every Year 5 strand, no gaps. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for a full maths paper
 
 An hour of maths rewards breadth. Pick by which strands your child has not yet met properly.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  SOUTHEND / A Whole-curriculum 11 plus maths Every Key Stage 2 strand to Year 5, from place value and Roman numerals to measures and data. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  SOUTHEND / B Arithmetic without a calculator An hour without a calculator is a stamina test for mental and written methods alike. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  SOUTHEND / C Primary foundations For children in Year 4 who need earlier strands secured before Year 5 work. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
-
-The CSSE test
+- [Whole-curriculum 11 plus maths](/courses/11-plus-maths-preparation-course-uk): Every Key Stage 2 strand to Year 5, from place value and Roman numerals to measures and data.
+- [Arithmetic without a calculator](/courses/mental-maths-mastery-kids): An hour without a calculator is a stamina test for mental and written methods alike.
+- [Primary foundations](/courses/elementary-mathematics-complete-masterclass): For children in Year 4 who need earlier strands secured before Year 5 work.
 
 ## What the consortium and the council publish
 
 The CSSE runs the examination for ten schools in Southend and Essex; Southend-on-Sea City Council explains which Southend schools use it. Read on 26 September 2026.
 
+**The CSSE 11+ for September 2027 entry, from the CSSE Information Guide and website**
+
 | Step | Date | As published |
-| --- | --- | --- |
+|---|---|---|
 | Registration opened | Tuesday 12 May 2026 | Online with the CSSE, not with each school. |
 | Registration closed | Friday 19 June 2026 | The CSSE's absolute deadline. |
 | Tests | Saturday 19 September 2026 | English and Mathematics, at the nominated test centre. |
@@ -40,9 +46,7 @@ Southend-on-Sea City Council's booklet explains the local picture: the four gram
 
 The CSSE says offers are not made to any child with a total standardised score under 303, and that its office "deals only with examination administration". For 2028 entry, it says registration opens next year and dates will be published by Easter 2027. Admissions after the test are for the schools and the council.
 
-Sources: [CSSE, home page and CSSE 11+ Examination page](https://csse.org.uk/), with the *11+ Information Guide, Selective Test 2027 Entry*; Southend-on-Sea City Council, secondary schools admissions booklet 2026-27 (the most recent we could read). Modern Age Coders has no connection with the CSSE, the council or any Southend school.
-
-Half the marks
+Sources: [CSSE, home page and CSSE 11+ Examination page](https://csse.org.uk/), with the 11+ Information Guide, Selective Test 2027 Entry; Southend-on-Sea City Council, secondary schools admissions booklet 2026-27 (the most recent we could read). Modern Age Coders has no connection with the CSSE, the council or any Southend school.
 
 ## A maths paper with room for everything
 
@@ -62,14 +66,14 @@ An hour without a calculator is also a matter of stamina. Children who are accur
 
 Our answer is a checklist of every Year 5 statement in the national curriculum, ticked off only when a child can answer a fresh question on it correctly without help. The next section shows one of the statements families are most surprised to find on it.
 
-The lesson
-
 ## Roman numerals and numbers to a million
 
 The Year 5 curriculum asks pupils to "read Roman numerals to 1,000 (M) and recognise years written in Roman numerals", right next to reading and comparing numbers to a million. Both are about place value.
 
+**Year 5 place value and Roman numerals, with questions of our own**
+
 | Skill | Our question | Answer and reasoning |
-| --- | --- | --- |
+|---|---|---|
 | Read a year | The CSSE was formed in 1993. Write 1993 in Roman numerals. | MCMXCIII: M (1,000) + CM (900) + XC (90) + III (3) |
 | Recognise a year | What year is MMXXVII? | 2027: MM (2,000) + XX (20) + VII (7) |
 | Compare | Which is larger: CDXLIV or CCCXCIX? | CDXLIV, which is 444; CCCXCIX is 399 |
@@ -85,8 +89,6 @@ Numbers to a million go wrong in a different way. 405,090 and 450,009 have the s
 Rounding uses the same habit: look one place to the right of the place you are rounding to. For 748,500 to the nearest 100,000, the digit that decides is the 4 in the ten-thousands place, so it rounds down.
 
 Sources: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 number and place value (statutory requirements); CSSE Information Guide for the 1993 founding date. The questions are Modern Age Coders' own.
-
-How we prepare
 
 ## An hour of maths, practised properly
 
@@ -112,14 +114,14 @@ The English paper is the other half of the total. We do not teach English for th
 
 We give no advice on the choice between the four grammar schools and the three partially selective ones, priority areas or places. The council and the schools publish those rules.
 
-Southend's schools
-
 ## Seven schools use the test; lessons come to you
 
 The council names the Southend schools that admit through the CSSE test. We list them only to show which test this page covers.
 
+**Southend schools that use the CSSE test, as Southend-on-Sea City Council describes them**
+
 | School | Places through the test |
-| --- | --- |
+|---|---|
 | Southend High School for Boys | All |
 | Southend High School for Girls | All |
 | Westcliff High School for Boys | All |
@@ -138,14 +140,14 @@ We have no connection with the CSSE, Southend-on-Sea City Council or any of thes
 
 Source: Southend-on-Sea City Council, secondary schools admissions booklet 2026-27.
 
-Towards September 2027
-
 ## Four stages to a full hour of maths
 
 For a child in Year 5 now, the next CSSE test should fall in September 2027; the consortium will publish dates by Easter 2027.
 
+**Coverage first, then stamina**
+
 | When | Stage | Evidence of progress |
-| --- | --- | --- |
+|---|---|---|
 | Autumn, Year 5 | 1. Number and place value | Numbers to a million, rounding and Roman numerals read without errors |
 | Winter, Year 5 | 2. Operations and fractions | Written and mental methods fast and accurate, no calculator |
 | Spring and summer, Year 5 | 3. Measures, shape, data | Every remaining Year 5 statement ticked off with a fresh question |
@@ -154,321 +156,71 @@ For a child in Year 5 now, the next CSSE test should fall in September 2027; the
 ### Short on time
 
 Coverage matters most on a long paper. If time is short, we find the gaps first and fill those before anything else.
-
 At the free lesson we will say honestly what can be done.
 
 ### After the results
 
 A child who can work for an hour without a calculator is ready for secondary maths. Some continue with [maths through coding](/courses/maths-through-coding).
-
 Others enjoy the problem-solving challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-Course list
 
 ## Maths and coding for Southend families
 
 By stage, with each syllabus a click away.
 
-I
-
 ### For the CSSE maths paper
 
 Years 3 to 5
 
-SEM / 1a
-
-#### 11 plus maths preparation (CSSE)
-
-All of Key Stage 2 to Year 5, for a full paper.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-SEM / 1b
-
-#### Mental maths for primary pupils
-
-Fast, calculator-free arithmetic.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-SEM / 1c
-
-#### Primary maths, Years 1 to 5
-
-The earlier strands, secured.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-SEM / 1d
-
-#### Abacus and mental maths
-
-Place value made visible.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [11 plus maths preparation (CSSE)](/courses/11-plus-maths-preparation-course-uk): All of Key Stage 2 to Year 5, for a full paper.
+- [Mental maths for primary pupils](/courses/mental-maths-mastery-kids): Fast, calculator-free arithmetic.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): The earlier strands, secured.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): Place value made visible.
 
 ### Secondary
 
 Year 6 and beyond
 
-SEM / 2a
-
-#### Key Stage 3 maths mastery
-
-The step up from primary maths.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-SEM / 2b
-
-#### GCSE maths (all boards)
-
-Foundation and higher tiers.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-SEM / 2c
-
-#### Competition maths and olympiads
-
-Problems beyond the syllabus.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
+- [Key Stage 3 maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): The step up from primary maths.
+- [GCSE maths (all boards)](/courses/gcse-mathematics-mastery): Foundation and higher tiers.
+- [Competition maths and olympiads](/courses/olympiad-competition-mathematics-mastery): Problems beyond the syllabus.
 
 ### Coding
 
 Number in code
 
-SEM / 3a
-
-#### Maths through coding
-
-Write a Roman numeral converter.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-SEM / 3b
-
-#### Scratch for beginners
-
-Logic in blocks.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-SEM / 3c
-
-#### Python and AI, junior level
-
-The first typed language.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Write a Roman numeral converter.
+- [Scratch for beginners](/courses/scratch-programming-complete-course): Logic in blocks.
+- [Python and AI, junior level](/courses/python-ai-kids-masterclass): The first typed language.
 
 ### Later
 
 Teenagers
 
-SEM / 4a
-
-#### Speed calculation (Vedic methods)
-
-Faster arithmetic, on firm ground.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-SEM / 4b
-
-#### Machine learning for teenagers
-
-Maths put to work.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-Lesson times
+- [Speed calculation (Vedic methods)](/courses/vedic-maths-course-speed-calculation-mastery): Faster arithmetic, on firm ground.
+- [Machine learning for teenagers](/courses/ai-ml-masterclass-teens): Maths put to work.
 
 ## Evenings and weekends, on UK time
 
 Our lessons are taught live from India. For primary children we use early evening and weekend morning slots by the UK clock, and adjust our own hours for British Summer Time.
 
-After school
+- **After school** Early in the evening, before fatigue.
+- **Saturday and Sunday mornings** For fuller weekday diaries.
+- **School holidays** Extra lessons to build stamina.
 
-Early in the evening, before fatigue.
-
-Saturday and Sunday mornings
-
-For fuller weekday diaries.
-
-School holidays
-
-Extra lessons to build stamina.
-
-### Same teacher weekly
-
-Continuity that catches recurring slips.
-
-### Direct feedback
-
-Short, honest notes to parents.
-
-### Groups of fifteen to twenty
-
-Children matched by level.
-
-### No copied papers
-
-CSSE material is never reproduced.
-
-### One to one on offer
-
-For filling particular gaps quickly.
-
-### Maths, not English
-
-No English coaching and no admissions advice.
-
-Student work
-
-## Where our students go with maths
-
-Four projects by students at our school, built on primary number work like this. More on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **Same teacher weekly** Continuity that catches recurring slips.
+- **Direct feedback** Short, honest notes to parents.
+- **Groups of fifteen to twenty** Children matched by level.
+- **No copied papers** CSSE material is never reproduced.
+- **One to one on offer** For filling particular gaps quickly.
+- **Maths, not English** No English coaching and no admissions advice.
 
 ## Fees
 
 Families outside India pay one monthly US dollar price. Nothing to join, and you can stop at any point.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A taught lesson, not a pitch
-- Our honest findings
-- No card needed
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty pupils, one level
-- A familiar teacher
-- Work marked in the lesson
-- A certificate on completion
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- Individual teaching
-- Focused on the gaps
-- Useful for building stamina
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Reviews from parents on Google, exactly as posted.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Southend CSSE questions
+- Free first class: USD 0. A taught lesson, not a pitch. Our honest findings. No card needed.
+- Group batch: USD 100 a month. Fifteen to twenty pupils, one level. A familiar teacher. Work marked in the lesson. A certificate on completion.
+- One to one: USD 150 a month. Individual teaching. Focused on the gaps. Useful for building stamina.
 
 ## What Southend families ask us
 
@@ -512,54 +264,70 @@ Because reading Roman numerals to 1,000 is a Year 5 statement in the national cu
 
 There is no charge for the first lesson. After that it is USD 100 a month in a group or USD 150 a month for one to one, month by month.
 
-Nearby
-
 ## More for Essex families
 
-The other CSSE schools, coding in Southend, and our national 11 plus page.
+- [11 plus maths in Essex](/11-plus-maths-tuition-essex): The CSSE schools in Colchester and Chelmsford.
+- [Coding classes in Southend](/best-coding-class-in-southend-on-sea): Programming for the city's children and teens.
+- [11 plus maths tuition](/11-plus-maths-tuition): An overview of 11 plus maths in England.
+- [11 plus maths in Kent](/11-plus-maths-tuition-kent): Across the estuary, a different test.
+- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Maths challenges for enthusiasts, by date.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area we write about.
 
-### [11 plus maths in Essex](/11-plus-maths-tuition-essex)
+## Related pages in this guide
 
-The CSSE schools in Colchester and Chelmsford.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [Coding classes in Southend](/best-coding-class-in-southend-on-sea)
+### 11+ by area
 
-Programming for the city's children and teens.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+### Tests by provider and entry point
 
-An overview of 11 plus maths in England.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [11 plus maths in Kent](/11-plus-maths-tuition-kent)
+### Northern Ireland transfer test
 
-Across the estuary, a different test.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-Maths challenges for enthusiasts, by date.
+## Contact
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
-
-Every UK area we write about.
-
-Start here
-
-## Book a free lesson
-
-Share your child's year group and which maths topics feel shaky. We teach a real lesson, then give you an honest report.
-
-Prefer to explore? Each [course page](/courses) has a full syllabus, [how we teach](/how-we-teach) explains our lessons, and the [roadmap](/coding-roadmap) charts what follows.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Southend%20CSSE%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp brings the quickest reply. Our team is in India, our phone number is Indian, and we have no office in Essex.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-southend*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-southend](https://learn.modernagecoders.com/11-plus-maths-tuition-southend#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

@@ -4,28 +4,34 @@ description: "SEAG transfer test maths practice for P7: 28 maths questions in a 
 canonical: https://learn.modernagecoders.com/transfer-test-maths-practice-northern-ireland
 source: src/pages/transfer-test-maths-practice-northern-ireland.html
 ---
-> SEAG transfer test maths practice for P7: 28 maths questions in a shared 60 minutes with English, five-option multiple choice, and maths as half the outcome.
+> The SEAG Entrance Assessment is the single transfer test used by all 63 post-primary schools in Northern Ireland that select academically. Children in P7 sit two papers of identical format, in 2026 on Saturday 14 and Saturday 21 November. Each paper begins with an untimed practice section of five English and five maths questions, then a main test of 28 English and 28 maths questions in 60 minutes, which pupils may start with either subject. In the maths section, questions 29 to 50 are multiple choice with five options and questions 51 to 56 are free response; every question is worth one mark. Outcomes are standardised for age: an English score and a Maths score, each averaging 100, are added to give a total, and pupils are placed in six bands, Band 1 being the top 40 per cent. The content is based entirely on the Northern Ireland Key Stage 2 curriculum. Modern Age Coders teaches that maths content live and practises the format and timing with SEAG's free practice papers. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / Transfer test maths
 
-The SEAG Entrance Assessment is the single transfer test used by all 63 post-primary schools in Northern Ireland that select academically. Children in P7 sit two papers of identical format, in 2026 on Saturday 14 and Saturday 21 November. Each paper begins with an untimed practice section of five English and five maths questions, then a main test of 28 English and 28 maths questions in 60 minutes, which pupils may start with either subject. In the maths section, questions 29 to 50 are multiple choice with five options and questions 51 to 56 are free response; every question is worth one mark. Outcomes are standardised for age: an English score and a Maths score, each averaging 100, are added to give a total, and pupils are placed in six bands, Band 1 being the top 40 per cent. The content is based entirely on the Northern Ireland Key Stage 2 curriculum. Modern Age Coders teaches that maths content live and practises the format and timing with SEAG's free practice papers. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+Northern Ireland · P7 · Ages 10 and 11
 
-Start here
+# Transfer test maths practice, Northern Ireland
+
+Northern Ireland's transfer test is now a single assessment. The Schools' Entrance Assessment Group, SEAG, sets two identical-format papers on consecutive Saturdays each November, written and marked by GL Assessment, and all 63 schools that use academic selection accept the outcome. Each paper has a short untimed practice section, then a main test of 28 English and 28 maths questions with one shared allowance of 60 minutes. SEAG's own format guide adds a detail that shapes everything: "Pupils may begin their Main Test by starting with English (or Gaeilge) questions or by starting with Maths questions." So a ten-year-old has to decide, under pressure, how to split one hour between two subjects. The Maths score is half the result. This page sets out the format, the maths content, the timing decision, and how outcomes are calculated, from SEAG's published documents.
+
+At a glance: Assessment: SEAG Entrance Assessment, P7; 2026 papers: Saturday 14 and Saturday 21 November; Each paper: 28 English and 28 maths questions, 60 minutes; Maths questions: 22 multiple choice, then 6 free response; Multiple-choice options: Five per question; Outcome: English score plus Maths score; Pupils each year: Around 13,000; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for P7 maths
 
 Primary maths, quick number skills, and exam-style practice. SEAG's test is based on the Northern Ireland Key Stage 2 curriculum, and we teach from SEAG's own content list.
 
-[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  TT / 01 Primary Maths Number, fractions, measurement, shape, data and money across the primary years. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  TT / 02 Mental Maths for Kids Quick, reliable calculation, which matters when 56 questions share one hour. Open the syllabus →](/courses/mental-maths-mastery-kids)[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  TT / 03 11+ Maths Preparation Written for England's 11+, but much of the problem solving carries across; SEAG content is taught from SEAG's own list. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)
-
-The format
+- [Primary Maths](/courses/elementary-mathematics-complete-masterclass): Number, fractions, measurement, shape, data and money across the primary years.
+- [Mental Maths for Kids](/courses/mental-maths-mastery-kids): Quick, reliable calculation, which matters when 56 questions share one hour.
+- [11+ Maths Preparation](/courses/11-plus-maths-preparation-course-uk): Written for England's 11+, but much of the problem solving carries across; SEAG content is taught from SEAG's own list.
 
 ## Two identical papers, three sections each
 
 From SEAG's 2026 Entrance Assessment Format (at a glance) and Assessment Guide.
 
+**Each SEAG paper**
+
 | Section | What it contains | Counts? |
-| --- | --- | --- |
+|---|---|---|
 | 1. Practice test | 5 English and 5 maths questions, not timed, to settle pupils and practise the answer sheet | No |
 | 2. English main test | 28 questions: punctuation, grammar and spelling exercises, then a comprehension passage | Yes |
 | 3. Maths main test | 28 questions: numbers 29 to 50 multiple choice, 51 to 56 free response | Yes |
@@ -33,8 +39,10 @@ From SEAG's 2026 Entrance Assessment Format (at a glance) and Assessment Guide.
 
 SEAG says "Both Papers have an identical format and are set at the same level of difficulty", and a child must sit both: a pupil who sits only one receives estimated outcomes marked with an e. Every question is worth one mark, and each multiple-choice question has five possible answers. Answers go on a separate answer sheet, where a multiple-choice answer can be marked with a horizontal line or by shading the box.
 
+**Key dates for the 2026 assessment, as published by SEAG**
+
 | Date | What happens |
-| --- | --- |
+|---|---|
 | 21 to 24 September 2026 | Late registration window, the final opportunity to register |
 | Friday 9 October 2026 | Pupil cards available to download |
 | Saturday 14 November 2026 | Paper 1 |
@@ -43,8 +51,6 @@ SEAG says "Both Papers have an identical format and are set at the same level of
 | 25 January to 3 February 2027 | Window for re-mark requests |
 
 Source: [SEAG Assessment Guide](https://seagni.co.uk/guidance/assessment-guide), the 2026 Format (at a glance), the 2026 Specification, SEAG's key dates and FAQs, and its 2026 guidance notes for parents. Dates are SEAG's as displayed on 21 September 2026; check SEAG's site for any change.
-
-The shared hour
 
 ## One hour, two subjects, and the child decides the split
 
@@ -66,14 +72,14 @@ Every question is worth one mark. A child running out of time should at least ma
 
 The last point needs care. SEAG's documents say each question is worth one mark and do not describe any penalty for wrong answers; we therefore teach children to answer every multiple-choice question, and to make a considered choice where they can. We do not claim more about the marking than SEAG publishes.
 
-Maths content
-
 ## What the maths section covers
 
 From SEAG's 2026 Specification, which bases the test entirely on the Northern Ireland Key Stage 2 curriculum.
 
+**Maths content in the 2026 specification**
+
 | Area | Includes |
-| --- | --- |
+|---|---|
 | Number | Place value, decimals to two places, multiplying and dividing by 10, 100 and 1000, estimation, mental calculation, fractions, decimals and percentages and their equivalence |
 | Patterns and algebra | Sequences, doubling and halving, prime, square, cube and triangular numbers, simple indices, function machines, a letter standing for an unknown |
 | Operations | Problem solving with the four operations, estimation and approximation, interpreting a calculator display |
@@ -96,14 +102,14 @@ Transferring answers accurately to a separate answer sheet, which the practice t
 
 Keeping pace across 28 maths questions while also managing the English half.
 
-Outcomes
-
 ## How the outcome is worked out
 
 SEAG's outcomes are standardised, and maths is exactly half of the total.
 
+**What parents receive**
+
 | Outcome | What it means |
-| --- | --- |
+|---|---|
 | Maths SAS | A standardised age score for the maths section, on a scale that runs from 69 to 141 with an average of 100 |
 | English SAS | The same for the English (or Gaeilge) section |
 | TSAS | The two scores added together, averaging 200 |
@@ -126,14 +132,14 @@ Anything about marking beyond what SEAG publishes, and any shortcut past the con
 
 For later years, [the CCEA GCSE Maths page](/ccea-gcse-maths-help) explains the GCSE pathways, and [the Northern Ireland page](/coding-and-ai-classes-in-northern-ireland) sets out the wider system. For England's tests, see [11+ maths in Kent](/11-plus-maths-tuition-kent).
 
-Progression
-
 ## Four rungs through P6 and P7
 
 Placement follows what a child can do accurately and at pace, not only what they have covered.
 
+**What a transfer test candidate should be able to do**
+
 | Rung | When | What should be true |
-| --- | --- | --- |
+|---|---|---|
 | 1. Secure number | P6 | Place value, the four operations, fractions, decimals and percentages, done accurately |
 | 2. The full list | P6 into P7 | Every area on SEAG's specification covered, including probability, data and function machines |
 | 3. The format | Early P7 | Five-option multiple choice, free response, and a separate answer sheet handled confidently |
@@ -142,293 +148,63 @@ Placement follows what a child can do accurately and at pace, not only what they
 ### Rung two is about coverage
 
 Children often meet one or two areas late, such as function machines or probability. SEAG's list is the checklist.
-
 Children who enjoy puzzles may also like [the Primary Maths Challenge](/primary-maths-challenge-practice).
 
 ### Rung four is practice, not content
 
 Pace comes from timed papers with both subjects together, not from maths alone.
-
 Lessons wind down after the November papers.
-
-The catalogue
 
 ## Nine courses for primary children
 
 Grouped by purpose. The free lesson settles where a child starts.
 
-I
-
 ### Transfer test maths
 
 Key Stage 2 content
 
-UK / TT1 / 01
-
-#### Primary maths
-
-The whole primary maths curriculum, placed by year.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-UK / TT1 / 02
-
-#### Mental maths for kids
-
-Speed and accuracy without pen and paper.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-UK / TT1 / 03
-
-#### 11+ maths preparation
-
-Problem solving for selective tests, adapted to SEAG content.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)II
+- [Primary maths](/courses/elementary-mathematics-complete-masterclass): The whole primary maths curriculum, placed by year.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Speed and accuracy without pen and paper.
+- [11+ maths preparation](/courses/11-plus-maths-preparation-course-uk): Problem solving for selective tests, adapted to SEAG content.
 
 ### Number confidence
 
 For children who find maths slow
 
-UK / TT2 / 01
-
-#### Abacus mental maths
-
-A visual way into number.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)
-
-UK / TT2 / 02
-
-#### Vedic maths
-
-Calculation shortcuts for children who like patterns.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-UK / TT2 / 03
-
-#### Early maths foundations
-
-For siblings aged four to seven.
-
-[Open the syllabus](/courses/early-math-foundations)III
+- [Abacus mental maths](/courses/abacus-mental-maths-course-for-kids): A visual way into number.
+- [Vedic maths](/courses/vedic-maths-course-speed-calculation-mastery): Calculation shortcuts for children who like patterns.
+- [Early maths foundations](/courses/early-math-foundations): For siblings aged four to seven.
 
 ### Beyond the test
 
 Coding and puzzles
 
-UK / TT3 / 01
-
-#### Scratch programming
-
-Block coding, a relaxing change from test practice.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-UK / TT3 / 02
-
-#### Problem solving for kids
-
-Puzzles and logic for curious children.
-
-[Open the syllabus](/courses/problem-solving-and-computational-thinking-for-kids)
-
-UK / TT3 / 03
-
-#### Game development for kids
-
-After November, a project to look forward to.
-
-[Open the syllabus](/courses/game-development-masterclass-for-kids)
-
-How lessons work
+- [Scratch programming](/courses/scratch-programming-complete-course): Block coding, a relaxing change from test practice.
+- [Problem solving for kids](/courses/problem-solving-and-computational-thinking-for-kids): Puzzles and logic for curious children.
+- [Game development for kids](/courses/game-development-masterclass-for-kids): After November, a project to look forward to.
 
 ## Content first, then the hour
 
 Our teachers are in India, which keeps the same clock all year, so Northern Ireland is four and a half hours behind in summer and five and a half in winter. Lessons are set in UK time.
 
-After school
+- **After school** Short sessions suit P6 and P7 children.
+- **Early evening** Before homework and tea.
+- **Saturday morning** The same time of day as the real papers.
 
-Short sessions suit P6 and P7 children.
-
-Early evening
-
-Before homework and tea.
-
-Saturday morning
-
-The same time of day as the real papers.
-
-### SEAG's list
-
-Every area in the specification covered, checked off as it becomes secure.
-
-### Five-option practice
-
-Multiple choice with elimination, so options become a tool rather than a trap.
-
-### Free response
-
-The last six maths questions practised with clear working and exact answers.
-
-### Answer sheets
-
-Transferring answers to a separate sheet, as in the real test.
-
-### The shared hour
-
-Full timed papers with both subjects, a chosen order and a half-time check.
-
-### Small groups
-
-Five to ten P7 children, with a calm, encouraging pace.
-
-Student work
-
-## Made by children in our classes
-
-Small projects from everyday lessons, not practice tests. Plenty more are in [student labs](/student-labs).
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **SEAG's list** Every area in the specification covered, checked off as it becomes secure.
+- **Five-option practice** Multiple choice with elimination, so options become a tool rather than a trap.
+- **Free response** The last six maths questions practised with clear working and exact answers.
+- **Answer sheets** Transferring answers to a separate sheet, as in the real test.
+- **The shared hour** Full timed papers with both subjects, a chosen order and a half-time check.
+- **Small groups** Five to ten P7 children, with a calm, encouraging pace.
 
 ## Fees for transfer test maths lessons
 
 Fees are monthly and in US dollars, at one rate for families anywhere outside India. There is no charge for the first lesson, and we send no bill until a course and a weekly slot are agreed.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A gentle lesson on SEAG-style maths
-- A clear view of which areas need work
-- Only a phone number needed
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Five to ten P7 children at one stage
-- The same teacher each week
-- Timed practice as November nears
-- A calm, encouraging pace
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher for one child
-- Built around the areas a child finds slow
-- Suits a child anxious about the test
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-What parents have written on Google, unedited.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Questions about the transfer test
+- Free first class: USD 0. A gentle lesson on SEAG-style maths. A clear view of which areas need work. Only a phone number needed.
+- Group batch: USD 100 a month. Five to ten P7 children at one stage. The same teacher each week. Timed practice as November nears. A calm, encouraging pace.
+- One to one: USD 150 a month. A teacher for one child. Built around the areas a child finds slow. Suits a child anxious about the test.
 
 ## What P7 parents ask
 
@@ -472,54 +248,70 @@ SEAG set a final late registration window from 21 to 24 September 2026. After th
 
 Our first lesson is free. After that, lessons are one monthly fee in US dollars, lower for a group place than one to one, as shown in the fees section, with nothing charged in advance.
 
-Elsewhere on this site
-
 ## More for families in Northern Ireland
 
-The GCSE years ahead, the wider system, and puzzles for keen children.
+- [CCEA GCSE Maths](/ccea-gcse-maths-help): The GCSE pathways that come later.
+- [Coding and AI classes in Northern Ireland](/coding-and-ai-classes-in-northern-ireland): Primary school to A level.
+- [Primary Maths Challenge](/primary-maths-challenge-practice): A UK-wide puzzle competition for primary children.
+- [First competitions for primary children](/first-competitions-for-primary-school-children-uk): Gentle contests in maths and coding.
+- [11+ maths in Kent](/11-plus-maths-tuition-kent): How England's selective tests differ.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): Every UK page, in one place.
 
-### [CCEA GCSE Maths](/ccea-gcse-maths-help)
+## Related pages in this guide
 
-The GCSE pathways that come later.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [Coding and AI classes in Northern Ireland](/coding-and-ai-classes-in-northern-ireland)
+### Northern Ireland transfer test
 
-Primary school to A level.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
 
-### [Primary Maths Challenge](/primary-maths-challenge-practice)
+### Tests by provider and entry point
 
-A UK-wide puzzle competition for primary children.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [First competitions for primary children](/first-competitions-for-primary-school-children-uk)
+### 11+ by area
 
-Gentle contests in maths and coding.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Slough](/11-plus-maths-tuition-slough)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [11+ maths in Kent](/11-plus-maths-tuition-kent)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-How England's selective tests differ.
+## Contact
 
-### [Coding classes in the UK](/coding-classes-in-united-kingdom)
-
-Every UK page, in one place.
-
-Start here
-
-## Book a free first lesson
-
-Leave a number and we will call at a UK time that suits your family. The first lesson is gentle, uses SEAG-style maths, and ends with a plan up to November.
-
-Rather look around first? The [course list](/courses) gives each syllabus in full, [our teaching page](/how-we-teach) describes how we work with ten-year-olds, and [student labs](/student-labs) collects children's projects.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20maths%20lesson%20for%20my%20P7%20child%20and%20the%20transfer%20test.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-The fastest reply comes on WhatsApp, which is free from a UK phone. Our office is in India, so the number you will see starts +91.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/transfer-test-maths-practice-northern-ireland*
+Book the free first class at [https://learn.modernagecoders.com/transfer-test-maths-practice-northern-ireland](https://learn.modernagecoders.com/transfer-test-maths-practice-northern-ireland#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

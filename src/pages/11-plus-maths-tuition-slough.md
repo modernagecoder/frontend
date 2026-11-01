@@ -4,28 +4,34 @@ description: "Live online 11 plus maths for the Slough Consortium test: the pape
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-slough
 source: src/pages/11-plus-maths-tuition-slough.html
 ---
-> Live online 11 plus maths for the Slough Consortium test: the paper as the four grammar schools publish it, the 2028 switch to Quest, and Year 5 time maths.
+> Slough's four grammar schools, Herschel, Langley, St Bernard's Catholic and Upton Court, share one 11+ examination run by the Slough Consortium of Grammar Schools, independently of Slough Borough Council. Families register once, free of charge. The consortium describes two multiple-choice papers of 60 to 65 minutes, one covering maths and non-verbal reasoning and the other verbal skills, with no negative marking and rough work allowed. A standardised score of 111 or above, which the consortium says marks the top 35% of those tested, makes a child eligible to be considered. For September 2027 entry registration ran from 1 May to 5 June 2026 and the test was on Saturday 19 September 2026. From the September 2027 sitting, Quest Assessments replaces GL, with a similar structure and the same 111 line. We teach the maths, live online. The opening lesson is free, and from then on it is USD 100 a month for a group or USD 150 a month one to one.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide) / 11 plus maths in Slough
 
-Slough's four grammar schools, Herschel, Langley, St Bernard's Catholic and Upton Court, share one 11+ examination run by the Slough Consortium of Grammar Schools, independently of Slough Borough Council. Families register once, free of charge. The consortium describes two multiple-choice papers of 60 to 65 minutes, one covering maths and non-verbal reasoning and the other verbal skills, with no negative marking and rough work allowed. A standardised score of 111 or above, which the consortium says marks the top 35% of those tested, makes a child eligible to be considered. For September 2027 entry registration ran from 1 May to 5 June 2026 and the test was on Saturday 19 September 2026. From the September 2027 sitting, Quest Assessments replaces GL, with a similar structure and the same 111 line. We teach the maths, live online. The opening lesson is free, and from then on it is USD 100 a month for a group or USD 150 a month one to one.
+Slough · Slough Consortium 11+ maths · Live online, small groups or one to one
 
-Starting points in Slough
+# 11 plus maths tuition in Slough
+
+Among the answers the Slough Consortium of Grammar Schools gave parents in its April 2026 briefing is one that most families skim past: "Children can wear an analogue watch if they wish to. No smartwatches are permitted." Each of the two papers takes 60 to 65 minutes, the number of questions is not published and varies from year to year, and there is a clock on the wall. A child who can glance at a watch and know, instantly, how much of the paper is left has a real advantage over one who has to work it out. That skill is ordinary Year 5 maths: reading time, working out elapsed time, converting between units of time and reading timetables. This page sets out what the consortium publishes about its examination, including the change of provider for children now in Year 5, and then teaches the maths of time.
+
+At a glance: Schools: Herschel, Langley, St Bernard's, Upton Court; Run by: Slough Consortium of Grammar Schools; Provider: GL for 2027 entry; Quest from 2028 entry; Papers: Two, 60 to 65 minutes each; Maths: With non-verbal reasoning, multiple choice; Eligibility score: 111, the top 35%; On the wrist: An analogue watch is allowed; We teach: Year 5 maths, time included. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for the consortium maths
 
 Pick by what slows your child down, not by the number of practice papers done.
 
-[![11 Plus Maths Prep course thumbnail](/images/eleven-plus-maths.webp)  SLOUGH / 1 11 plus maths, Slough-ready The Year 5 curriculum for a multiple-choice paper, with time and timetables taught properly. Open the syllabus →](/courses/11-plus-maths-preparation-course-uk)[![Mental Maths for Kids course thumbnail](/images/mental-maths-kids.webp)  SLOUGH / 2 Quick-thinking arithmetic Fast recall so that the watch shows time to spare, not time running out. Open the syllabus →](/courses/mental-maths-mastery-kids)[![Elementary Maths for Grades 1-5 course thumbnail](/images/elementary-maths.webp)  SLOUGH / 3 Secure primary maths For a Year 4 child who still needs place value and tables to settle. Open the syllabus →](/courses/elementary-mathematics-complete-masterclass)
-
-The consortium exam
+- [11 plus maths, Slough-ready](/courses/11-plus-maths-preparation-course-uk): The Year 5 curriculum for a multiple-choice paper, with time and timetables taught properly.
+- [Quick-thinking arithmetic](/courses/mental-maths-mastery-kids): Fast recall so that the watch shows time to spare, not time running out.
+- [Secure primary maths](/courses/elementary-mathematics-complete-masterclass): For a Year 4 child who still needs place value and tables to settle.
 
 ## What the Slough Consortium publishes
 
 Slough Borough Council says the 11+ is run entirely by the consortium. The consortium's April 2026 briefing answers, published by its schools, are the fullest source. Read on 26 September 2026.
 
-|   | September 2027 entry | September 2028 entry |
-| --- | --- | --- |
+**The Slough Consortium 11+ for September 2027 entry, and what is announced for 2028 entry**
+
+|  | September 2027 entry | September 2028 entry |
+|---|---|---|
 | Registration | 10am, 1 May to 10am, 5 June 2026 | Not yet published |
 | Examination | Saturday 19 September 2026 | September 2027 |
 | Provider | GL Assessment | Quest Assessments |
@@ -41,8 +47,6 @@ On practice material the consortium is candid: GL provides familiarisation mater
 The four grammar schools are the test centres, and the same papers are used in the morning and afternoon sessions at all four. How each school then admits children is set out in its own arrangements, and we do not advise on it.
 
 Sources: [Slough Borough Council, secondary school admissions](https://www.slough.gov.uk/school-admissions/secondary-school-admissions); Slough Consortium of Grammar Schools, Parents' 11+ Examination Briefing, April 2026, questions and answers, published by [Langley Grammar School](https://www.lgs.slough.sch.uk/); the consortium registration portal; [Herschel Grammar School, Year 7 admissions 2028](https://www.herschel.slough.sch.uk/admissions/year-7-admissions-2028/). Modern Age Coders has no connection with the consortium, its schools, GL, Quest or the council.
-
-The 111 line
 
 ## What "top 35%" means, in plain numbers
 
@@ -62,14 +66,14 @@ That is why we never quote targets. What a child can control is how much of the 
 
 The consortium adds that a score of 111 or above "is not an offer of a place and does not guarantee a place". Allocation depends on each school's admission arrangements. That is the schools' business, not ours.
 
-The lesson
-
 ## The maths of time: watches, minutes and timetables
 
 Time questions test several things at once: reading a clock, adding in base 60, and pulling the right number out of a table. The Year 5 curriculum names each part.
 
+**A timetable of our own, used in lessons (not a real service)**
+
 | Stop | Bus A | Bus B | Bus C |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | Station | 07:48 | 08:13 | 08:41 |
 | High Street | 07:55 | 08:21 | 08:49 |
 | Park Road | 08:06 | 08:33 | 09:02 |
@@ -97,8 +101,6 @@ We practise with an analogue clock face on screen during timed work, so that rea
 
 Sources: [national curriculum in England, mathematics](https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study), Year 5 measurement and statistics (statutory requirements); Slough Consortium briefing, April 2026, on watches and paper length. The timetable is invented for teaching.
 
-How we prepare
-
 ## Unknown question counts, known curriculum
 
 The consortium publishes neither the number of questions nor the weighting of maths. Preparation has to be robust to both.
@@ -123,14 +125,14 @@ Maths shares a paper with non-verbal reasoning. We teach the maths only; familie
 
 Every question we use is our own, written to the Year 5 curriculum and the published format: multiple choice, an answer sheet, no negative marking.
 
-Slough and around
-
 ## Four schools, one exam, lessons at home
 
 The four consortium schools are the test centres. We list them only to show which exam this page covers.
 
+**The Slough Consortium of Grammar Schools, as Herschel Grammar School lists it**
+
 | School | Role on test day |
-| --- | --- |
+|---|---|
 | Herschel Grammar School | Test centre |
 | Langley Grammar School | Test centre |
 | St Bernard's Catholic Grammar School | Test centre |
@@ -146,14 +148,14 @@ We have no connection with the consortium, any of its schools or the council, an
 
 Sources: Herschel Grammar School, Year 7 admissions 2028; Slough Consortium briefing, April 2026.
 
-Timeline
-
 ## Four stages before the first Quest sitting
 
 For a child now in Year 5, the next consortium exam is in September 2027, early in Year 6, with Quest as the provider.
 
+**Building towards a 60 to 65 minute multiple-choice paper**
+
 | When | Stage | Signs it is done |
-| --- | --- | --- |
+|---|---|---|
 | Autumn, Year 5 | 1. Number | Tables, place value and mental calculation are fast and dependable |
 | Winter, Year 5 | 2. Measures and time | Elapsed time and timetables answered without the 71-minute mistake |
 | Spring and summer, Year 5 | 3. The full curriculum | Fractions, geometry and statistics as secure as number |
@@ -162,321 +164,71 @@ For a child now in Year 5, the next consortium exam is in September 2027, early 
 ### A later start
 
 Starting in the spring still works if number comes first and timed papers last.
-
 At the free lesson we will say honestly what the time available can do.
 
 ### After the results
 
 Time and timetables become speed, distance and rates in secondary school. Some pupils go on to [maths through coding](/courses/maths-through-coding) and build their own timetable tools.
-
 Keen problem solvers try the national challenges on our [competitions calendar](/uk-coding-maths-and-ai-competitions-calendar).
-
-Course list
 
 ## Maths and coding for Slough families
 
 Arranged by stage, with the syllabus behind each card.
 
-I
-
 ### Before the 11+
 
 Years 3 to 5
 
-SLM / 01
-
-#### 11 plus maths preparation
-
-The Year 5 curriculum for the consortium paper.
-
-[Open the syllabus](/courses/11-plus-maths-preparation-course-uk)
-
-SLM / 02
-
-#### Mental maths for kids
-
-Speed that leaves time on the watch.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-SLM / 03
-
-#### Primary maths, Years 1 to 5
-
-Clocks, tables and place value, made secure.
-
-[Open the syllabus](/courses/elementary-mathematics-complete-masterclass)
-
-SLM / 04
-
-#### Abacus and mental maths
-
-A visual start for younger children.
-
-[Open the syllabus](/courses/abacus-mental-maths-course-for-kids)II
+- [11 plus maths preparation](/courses/11-plus-maths-preparation-course-uk): The Year 5 curriculum for the consortium paper.
+- [Mental maths for kids](/courses/mental-maths-mastery-kids): Speed that leaves time on the watch.
+- [Primary maths, Years 1 to 5](/courses/elementary-mathematics-complete-masterclass): Clocks, tables and place value, made secure.
+- [Abacus and mental maths](/courses/abacus-mental-maths-course-for-kids): A visual start for younger children.
 
 ### Secondary
 
 From Year 6
 
-SLM / 05
-
-#### Middle school maths mastery
-
-Speed, distance, time and more.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-SLM / 06
-
-#### GCSE maths, foundation and higher
-
-Every exam board, taught to specification.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-SLM / 07
-
-#### Olympiad and competition maths
-
-For the child who wants harder problems.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)III
+- [Middle school maths mastery](/courses/comprehensive-middle-school-mathematics-mastery): Speed, distance, time and more.
+- [GCSE maths, foundation and higher](/courses/gcse-mathematics-mastery): Every exam board, taught to specification.
+- [Olympiad and competition maths](/courses/olympiad-competition-mathematics-mastery): For the child who wants harder problems.
 
 ### Coding
 
 Time and logic in code
 
-SLM / 08
-
-#### Maths through coding
-
-Program a clock; calculate journeys.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-SLM / 09
-
-#### Scratch coding for kids
-
-Timers and events in a visual language.
-
-[Open the syllabus](/courses/scratch-programming-complete-course)
-
-SLM / 10
-
-#### Python and AI for kids
-
-The move to typed programming.
-
-[Open the syllabus](/courses/python-ai-kids-masterclass)IV
+- [Maths through coding](/courses/maths-through-coding): Program a clock; calculate journeys.
+- [Scratch coding for kids](/courses/scratch-programming-complete-course): Timers and events in a visual language.
+- [Python and AI for kids](/courses/python-ai-kids-masterclass): The move to typed programming.
 
 ### Later
 
 Teenagers
 
-SLM / 11
-
-#### Vedic maths and speed calculation
-
-Faster arithmetic on firm ground.
-
-[Open the syllabus](/courses/vedic-maths-course-speed-calculation-mastery)
-
-SLM / 12
-
-#### AI and machine learning for teens
-
-Time series and data, a few years on.
-
-[Open the syllabus](/courses/ai-ml-masterclass-teens)
-
-When we teach
+- [Vedic maths and speed calculation](/courses/vedic-maths-course-speed-calculation-mastery): Faster arithmetic on firm ground.
+- [AI and machine learning for teens](/courses/ai-ml-masterclass-teens): Time series and data, a few years on.
 
 ## Primary-friendly hours in UK time
 
 We teach live from India and schedule primary children in the early evening or on weekend mornings by the UK clock. When the UK clocks change, our teachers' hours move, not yours.
 
-Weekdays after school
+- **Weekdays after school** Early enough that nobody is tired.
+- **Weekend mornings** A calm hour at the start of the day.
+- **Holidays** Extra short sessions in the breaks.
 
-Early enough that nobody is tired.
-
-Weekend mornings
-
-A calm hour at the start of the day.
-
-Holidays
-
-Extra short sessions in the breaks.
-
-### One teacher
-
-The same person weekly, who knows each child's habits.
-
-### Honest notes
-
-A few frank sentences after lessons.
-
-### Fifteen to twenty per group
-
-Children matched by level.
-
-### Our own questions
-
-No GL, Quest or consortium material is copied.
-
-### One to one option
-
-For a specific weakness, such as time.
-
-### Maths only
-
-No reasoning coaching and no admissions advice.
-
-Student work
-
-## What our students build later
-
-Four projects published by students at our school, built on the arithmetic of Year 5 and beyond. More on the [student labs](/student-labs) page.
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **One teacher** The same person weekly, who knows each child's habits.
+- **Honest notes** A few frank sentences after lessons.
+- **Fifteen to twenty per group** Children matched by level.
+- **Our own questions** No GL, Quest or consortium material is copied.
+- **One to one option** For a specific weakness, such as time.
+- **Maths only** No reasoning coaching and no admissions advice.
 
 ## Fees
 
 One monthly price in US dollars, the same for all families outside India. No joining fee and no notice period.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A real taught lesson
-- An honest verdict afterwards
-- No card required
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty children at one level
-- A regular teacher
-- Marked work, talked through
-- A certificate at the end
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher for your child only
-- Aimed at particular gaps
-- Useful in the summer of Year 5
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Straight from our Google reviews, unchanged.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Slough questions
+- Free first class: USD 0. A real taught lesson. An honest verdict afterwards. No card required.
+- Group batch: USD 100 a month. Fifteen to twenty children at one level. A regular teacher. Marked work, talked through. A certificate at the end.
+- One to one: USD 150 a month. A teacher for your child only. Aimed at particular gaps. Useful in the summer of Year 5.
 
 ## What Slough families ask us
 
@@ -520,54 +272,70 @@ The consortium says there is no charge for the 11+ test. Families register once 
 
 Your first lesson is free. Afterwards, group lessons are USD 100 a month and private lessons USD 150 a month, and you can stop at any point.
 
-Related
-
 ## More pages for Berkshire and Buckinghamshire families
 
-Coding across the UK, the national 11 plus page, and neighbouring selective areas.
+- [11 plus maths tuition](/11-plus-maths-tuition): How we teach 11 plus maths across England.
+- [11 plus maths in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire): The county next door, with its own transfer test.
+- [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham): Another GL test, with strict equipment rules.
+- [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar): Dated maths challenges for keen pupils.
+- [Coding for UK children](/online-coding-classes-for-kids-uk): Where a primary child begins with code.
+- [All our UK pages](/coding-classes-in-united-kingdom): Every UK area we cover.
 
-### [11 plus maths tuition](/11-plus-maths-tuition)
+## Related pages in this guide
 
-How we teach 11 plus maths across England.
+Part of the guide: [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide)
 
-### [11 plus maths in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+### 11+ by area
 
-The county next door, with its own transfer test.
+- [11 plus maths tuition in Barnet](/11-plus-maths-tuition-barnet)
+- [11 plus maths tuition in Bexley](/11-plus-maths-tuition-bexley)
+- [11 plus maths tuition in Birmingham](/11-plus-maths-tuition-birmingham)
+- [11 plus maths tuition in Bournemouth, Christchurch and Poole](/11-plus-maths-tuition-bournemouth-christchurch-and-poole)
+- [11 plus maths tuition in Bromley](/11-plus-maths-tuition-bromley)
+- [11 plus maths tuition in Buckinghamshire](/11-plus-maths-tuition-buckinghamshire)
+- [11 plus maths tuition in Calderdale](/11-plus-maths-tuition-calderdale)
+- [11 plus maths tuition in Enfield](/11-plus-maths-tuition-enfield)
+- [11 plus maths tuition in Essex](/11-plus-maths-tuition-essex)
+- [11 plus maths tuition in Gloucestershire](/11-plus-maths-tuition-gloucestershire)
+- [11 plus maths tuition in Hertfordshire](/11-plus-maths-tuition-hertfordshire)
+- [11 plus maths tuition in Kent](/11-plus-maths-tuition-kent)
+- [11 plus maths tuition in Kingston upon Thames](/11-plus-maths-tuition-kingston)
+- [11 plus maths tuition in Lancashire](/11-plus-maths-tuition-lancashire)
+- [11 plus maths tuition in Lincolnshire](/11-plus-maths-tuition-lincolnshire)
+- [11 plus maths tuition in Medway](/11-plus-maths-tuition-medway)
+- [11 plus maths tuition in North Yorkshire](/11-plus-maths-tuition-north-yorkshire)
+- [11 plus maths tuition in Plymouth](/11-plus-maths-tuition-plymouth)
+- [11 plus maths tuition in Reading](/11-plus-maths-tuition-reading)
+- [11 plus maths tuition in Redbridge](/11-plus-maths-tuition-redbridge)
+- [11 plus maths tuition in Southend-on-Sea](/11-plus-maths-tuition-southend)
+- [11 plus maths tuition in Sutton](/11-plus-maths-tuition-sutton)
+- [11 plus maths tuition in Torbay](/11-plus-maths-tuition-torbay)
+- [11 plus maths tuition in Trafford](/11-plus-maths-tuition-trafford)
+- [11 plus maths tuition in Warwickshire](/11-plus-maths-tuition-warwickshire)
+- [11 plus maths tuition in Wiltshire](/11-plus-maths-tuition-wiltshire)
+- [11 plus maths tuition on the Wirral](/11-plus-maths-tuition-wirral)
+- [11 plus maths tuition in Wolverhampton and Walsall](/11-plus-maths-tuition-wolverhampton-and-walsall)
 
-### [11 plus maths in Birmingham](/11-plus-maths-tuition-birmingham)
+### Tests by provider and entry point
 
-Another GL test, with strict equipment rules.
+- [GL Assessment 11 plus maths practice](/gl-assessment-11-plus-maths-practice)
+- [CEM 11 plus maths practice](/cem-11-plus-maths-practice)
+- [Quest Assessments 11 plus maths practice](/quest-assessments-11-plus-maths-practice)
+- [ISEB Common Pre-Test maths practice](/iseb-common-pre-test-maths-practice)
+- [UKiset maths reasoning practice](/ukiset-maths-reasoning-practice)
+- [Independent school 11 plus maths in London](/independent-school-11-plus-maths-london)
+- [7 plus maths preparation](/7-plus-maths-preparation)
+- [13 plus scholarship maths preparation](/13-plus-scholarship-maths-preparation)
+- [16 plus sixth form entrance maths](/16-plus-sixth-form-entrance-maths)
+- [11 plus maths tuition](/11-plus-maths-tuition)
 
-### [UK competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+### Northern Ireland transfer test
 
-Dated maths challenges for keen pupils.
+- [Transfer test maths tuition Belfast](/transfer-test-maths-tuition-belfast)
+- [Transfer test maths practice, Northern Ireland](/transfer-test-maths-practice-northern-ireland)
 
-### [Coding for UK children](/online-coding-classes-for-kids-uk)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-Where a primary child begins with code.
+## Contact
 
-### [All our UK pages](/coding-classes-in-united-kingdom)
-
-Every UK area we cover.
-
-Start here
-
-## Try a free maths lesson
-
-Tell us the school year and how comfortable your child is with time and timetables. We teach a real lesson and then tell you frankly what we saw.
-
-Would you like to read first? See the [courses and syllabuses](/courses), [how we teach](/how-we-teach), and the [roadmap](/coding-roadmap).
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20maths%20lesson%20for%20my%20child%20for%20the%20Slough%2011%20plus.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp is the quickest way to reach us. We are in India, with an Indian number, and have no UK office.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition-slough*
+Book the free first class at [https://learn.modernagecoders.com/11-plus-maths-tuition-slough](https://learn.modernagecoders.com/11-plus-maths-tuition-slough#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
