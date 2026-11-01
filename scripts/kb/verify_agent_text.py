@@ -179,10 +179,14 @@ disp = cfg.get('display', {})
 in_personal = int(disp.get('classesPerMonthOverrides', {}).get('coding.india.personal',
                                                                disp.get('classesPerMonth', 8)))
 if in_personal == 4:
-    need = 'One to one: Rs %s a month, one live class a week, four a month' % format(
+    # Owner rule 2026-10-13: four classes a month, fully flexible (matches the course pages).
+    need = 'One to one: Rs %s a month, four private classes a month, on a fully flexible schedule' % format(
         int(PLANS['coding']['india']['personal']), ',d')
     if need not in flat:
         fails.append('PART 4 does not state the India one to one schedule: %s' % need)
+    for stale in ('No six or twelve month packages', 'capped at 10', 'group class of up to 10', 'Everywhere else pays in US dollars'):
+        if stale in flat:
+            fails.append('stale line still present: %s' % stale)
     # Gemini Enterprise has its own row (two a week), so only the standard fee counts.
     wrong_sched = [x for x in re.findall(r'[^.]{0,220}one to one in India (?:two|2|eight|8)[^.]{0,40}', flat, re.I)
                    if 'Rs %s' % format(int(PLANS['coding']['india']['personal']), ',d') in x]

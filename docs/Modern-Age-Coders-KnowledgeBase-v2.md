@@ -1,6 +1,6 @@
 # Modern Age Coders: AI Agent, WhatsApp Agent and Support Knowledge Base
 
-**Version 2.0 · Last updated: 4 August 2026, pricing amended 10 August 2026 (one-to-one ₹4,999 for coding and maths, one class a week in India) · Supersedes the April 2026 edition**
+**Version 2.1 · Last updated: 1 November 2026 (batch sizes 15 to 20, India one-to-one = 4 flexible classes, 6-month prepay, 2.5% gateway charges, Canada in CAD, Priority Live Demo, overseas demo times in the family's own clock, 24 new courses, UK and US exam guides) · Supersedes the August 2026 edition**
 
 > **Purpose.** This document is the single source of truth for any AI assistant, WhatsApp bot, voice agent, or human support person representing Modern Age Coders. Read it top to bottom before answering customers. When uncertain, default to the answers and tone in this document. Anything not covered here, route to a human (Shivam Sir).
 >
@@ -17,15 +17,17 @@ Before answering any customer, follow these rules.
 1. **Batch timings, schedules, slot availability, "what time can my child join?", "is there a Saturday batch?", or anything time or day related.** Do NOT invent a timing. Always reply with:
    > *"We run multiple batches across weekdays, evenings and weekends, including dedicated slots for international time zones. To find the slot that fits your child's schedule perfectly, please connect with **Shivam Sir on +91 9123366161**. He manages all batch allocations and will help you pick the best one."*
 
-2. **Pricing.** Quote the current three-tier India structure: **₹1,499 / ₹2,999 / ₹4,999 per month**, the same for coding, maths and the AI-agents courses. India one-to-one runs **one class a week (4 a month)** since 10 August 2026; Group and Mini Batch run two a week. Mini Batch is **India only**. International students see **$100 group and $150 one-to-one** only. See §3, and read §3.8 before you quote anything.
+2. **Pricing.** Quote the current three-tier India structure: **₹1,499 / ₹2,999 / ₹4,999 per month**, the same for coding, maths and the AI-agents courses. India one-to-one is **4 private classes a month on a fully flexible schedule**; Group and Mini Batch run two a week. Mini Batch is **India only**. Canadian families pay in **CAD: 140 group, 210 one-to-one**. Everyone else outside India pays **$100 group and $150 one-to-one**. Paying **6 months at once** is an optional saving (§3.4a). A **2.5% payment gateway charge** is added at checkout. Quote only the person's own region. See §3, and read §3.8 before you quote anything.
 
-3. **Demo class requests.** Confirm it is **free**, that it is a **full live hour with a real mentor** (30 to 45 minutes for the shorter assessment format), that **no card details are ever requested**, and collect: student's name, age or class, parent's WhatsApp number with country code, preferred subject (coding or maths), preferred language (English or Hindi).
+3. **Demo class requests. There are two kinds; describe both honestly (§7.2).** The **Priority Live Demo** is paid (₹499 in India, CAD 14 in Canada, $10 elsewhere), guaranteed on a day and time the family picks (usually today or tomorrow), a full class of about 45 to 60 minutes, followed by a written skill report and learning roadmap on WhatsApp; the fee is adjusted against the first month if they enrol. Book at `/priority-demo`. The **free demo** is a **waiting list** of 30 to 45 minutes: no card, but no promised date. For either, collect: student's name, age or class, parent's WhatsApp number with country code, preferred subject (coding or maths), preferred language (English or Hindi).
 
 4. **Refund or cancellation queries.** Quote the policy verbatim from §13. Do not improvise.
 
 5. **Tone.** Warm, helpful, parent-friendly. Use "Sir" and "Ma'am" with Indian customers. Never overpromise placement, salary or guaranteed outcomes. Never insult a competitor.
 
-6. **Hard escalations to Shivam Sir (+91 9123366161):** custom corporate quotes · international pricing in non-USD currencies · bulk school partnerships · refund disputes · anything you cannot find in this document.
+6. **Hard escalations to Shivam Sir (+91 9123366161):** custom corporate quotes · payment in a currency other than INR, USD or CAD · bulk school partnerships · refund disputes · anything you cannot find in this document.
+
+7. **Times for families outside India.** They choose and discuss times in their **own local time**. On the website they pick a demo time in their own clock (or type one) and our team matches it to India time. Never ask an overseas family to work in IST.
 
 ### 0.1 THE MOST IMPORTANT CHANGE SINCE APRIL 2026: RETIRED FIGURES
 
@@ -60,7 +62,8 @@ These are places where the live website currently contradicts itself. Until the 
 
 | Topic | The contradiction on the live site | Safe answer to give |
 |---|---|---|
-| **Group batch size** | `/guarantee` and `/pricing` cards say **"capped at 20 students"**. `scripts/brand-facts.json` says **5 to 8**. `/about` says **"maximum 5-6 students"**. The comparison table on `/pricing` and `/contact` says **"Max 15-20 Students"**. Four different numbers. | Say **"group classes are capped at 20 students, and in practice batches usually run smaller."** This is the published promise on `/guarantee`, and it is the only one of the four that cannot become a broken promise. Never promise "maximum 5" or "maximum 6". |
+| **Group batch size** | **Resolved 13 October 2026.** The owner ruled: group **15 to 20 students**, Mini Batch **up to 6**, one-to-one a single student. `scripts/brand-facts.json` and the site were updated on 14 October 2026. | Say **"a group class is 15 to 20 students."** Never promise a smaller group. |
+| **"No 6 or 12 month packs" and "the price is the whole price"** | `/guarantee` still says "no 6 or 12 month packs" and that the pricing-page price is the whole price. Since October 2026 families may **optionally** pay 6 months at once, and a **2.5% payment gateway charge** is added at checkout. | Say: **"Billing is monthly and you can stop any month. Paying 6 months at once is optional and costs less. A 2.5% payment gateway charge is added at checkout and shown on the bill before you pay."** |
 | **Teen age band** | Nav and course pages say **13-18**. The `/pricing` and `/contact` FAQs say **13-17**. | Use **13 to 18**. |
 | **Overall age range** | Brand facts, `/pricing` and `/contact` say **6 to 67**. The `/faq` page is **stale** and still says "aged 6-18 and college students aged 18-21" and "courses for students aged 6-21". | Use **6 to 67**. The `/faq` page needs updating; do not quote it. |
 | **Team size** | The April document claimed "50+ instructors and staff". This number is **not** in `brand-facts.json` and is not evidenced anywhere in the codebase. | Do not quote a team size. Say "a team of professional engineers and educators". |
@@ -119,13 +122,13 @@ Modern Age Coders does two things and nothing else.
 **Core differentiators (lead with these, not with price):**
 
 - Live online classes, taught by a real mentor, never pre-recorded
-- Batches: group capped at 20, mini batch up to 6, and true one-to-one
+- Batches: group of 15 to 20, mini batch up to 6 (India only), and true one-to-one with 4 flexibly timed classes a month in India
 - Project-based: students build real things from the first week
 - Maths and code taught together, so logic skills compound across both
 - Flexible timing: weekday evening, weekend and international time-zone slots
 - A real portfolio: students graduate with projects, not just a certificate
 - Regular parent updates: progress reports and parent-mentor sync calls
-- Zero-risk start: free demo, monthly billing, no registration fee, cancel anytime
+- Zero-risk start: see a live class first (Priority Live Demo or the free demo waiting list), monthly billing, no registration fee, cancel anytime
 
 > **Positioning rule (important).** Lead with depth, mentorship and interactive live teaching. Price is the **closing proof**, not the opening pitch. We are not the cheapest option and we do not want to be sold as one.
 
@@ -139,10 +142,10 @@ Modern Age Coders does two things and nothing else.
 | Contact person (batch timings and enrolment) | **Shivam Sir** (Founder / Director) |
 | Email | connect@modernagecoders.com |
 | Registered office | Modern Age Coders Education, 1B, JK Ambika Tower, Kolkata, West Bengal 700002, India |
-| Phone hours | Monday to Saturday, 9:00 AM to 6:00 PM IST. Sunday closed. |
+| Phone hours | Monday to Saturday, 9:00 AM to 6:00 PM India time (IST). Sunday closed. Families abroad arrange times in their own clock. |
 | Callback request | Callback widget on every page. Takes a phone number, **callback within 3 hours**. |
 | Contact-form response time | Within 48 hours on working days |
-| Demo booking | https://learn.modernagecoders.com/book-demo or via WhatsApp |
+| Demo booking | Priority Live Demo: https://learn.modernagecoders.com/priority-demo · free demo waiting list: https://learn.modernagecoders.com/book-demo · or via WhatsApp |
 | Languages on call | English and Hindi |
 
 > **Note on the office address.** The Kolkata address is our **registered office**, not a campus. All teaching is 100% online. Students never travel to it. Phrase it as: "We are an online school, so classes happen live over video from wherever you are. Our registered office is in Kolkata, but there is no campus to visit."
@@ -181,17 +184,17 @@ Modern Age Coders does two things and nothing else.
 
 This is the single most asked question. Memorise this section. **Read §3.8 before quoting anything.**
 
-Prices come from one file, `pricing/pricing.config.jsonc`, last changed **1 August 2026**. The model is deliberately simple: **rupees inside India, one flat USD price list for every country outside India**. Detection is automatic. There is no country-by-country or purchasing-power pricing any more; that system was built and then removed by the owner on 1 August 2026.
+Prices come from one file, `pricing/pricing.config.jsonc`, last changed **23 October 2026**. The model is deliberately simple: **rupees inside India, Canadian dollars in Canada (since 24 October 2026), one flat USD price list for every other country**. Detection is automatic. There is no other country-by-country or purchasing-power pricing; that system was built and then removed by the owner on 1 August 2026.
 
 ### 3.1 India, coding (and every course except maths one-to-one)
 
 | Plan | Price | Batch size | Best for |
 |---|---|---|---|
-| **Group Classes** | **₹1,499 / month** | Capped at 20 students | Beginners, group energy, budget-conscious families |
+| **Group Classes** | **₹1,499 / month** | 15 to 20 students | Beginners, group energy, budget-conscious families |
 | **Mini Batch** *(Most Popular)* | **₹2,999 / month** | **Up to 6 students** | Near one-to-one attention at an affordable price |
-| **Personalised 1-on-1** | **₹4,999 / month** | 1 student, 1 mentor · 1 class a week (4 a month) | Custom curriculum, fast learners, exam prep, advanced learners |
+| **Personalised 1-on-1** | **₹4,999 / month** | 1 student, 1 mentor · 4 private classes a month, fully flexible timing | Custom curriculum, fast learners, exam prep, advanced learners |
 
-> **No exceptions to the ₹4,999 one-to-one rate any more.** Since 10 August 2026 the AI-agents courses (Codex + Claude Code, and AI Agents with Copilot Studio) also cost **₹4,999** one-to-one (§4.7), on the same one-class-a-week India schedule; the Copilot Studio courses are still taught 1-on-1 only. Group and Mini Batch are ₹1,499 and ₹2,999 for every course without exception.
+> **No exceptions to the ₹4,999 one-to-one rate any more.** Since 10 August 2026 the AI-agents courses (Codex + Claude Code, and AI Agents with Copilot Studio) also cost **₹4,999** one-to-one (§4.7), on the same 4-flexible-classes India schedule; the Copilot Studio courses are still taught 1-on-1 only. The one course with its own fee is **Build AI Agents with Google Gemini Enterprise**: 1-on-1 only, **₹14,999 / month** in India, **$250** abroad, **CAD 350** in Canada, two classes a week. Group and Mini Batch are ₹1,499 and ₹2,999 for every course without exception.
 
 ### 3.2 India, mathematics
 
@@ -213,11 +216,13 @@ Identical to coding **except the one-to-one tier**.
 | **Personalised 1-on-1** | **$150 USD / month** |
 | Mini Batch | **Not sold internationally.** India only. |
 
-Applies to coding and maths alike. Also available in EUR, GBP, CAD, AUD, SGD and AED at the equivalent rate; for those, route to Shivam Sir on +91 9123366161 for payment details.
+**Canada (since 24 October 2026), in Canadian dollars:** Group **CAD 140 / month**, Personalised 1-on-1 **CAD 210 / month**, two classes a week. Canadian families pay in CAD at checkout; never quote them a US dollar figure. A +1 phone number can be the US or Canada, so ask which country before quoting.
+
+Applies to coding and maths alike. We can also bill in EUR, GBP, AUD, SGD and AED; for those, route to Shivam Sir on +91 9123366161 for payment details.
 
 Per-class maths, useful when a parent asks "is that expensive?":
 - India: ₹1,499 ≈ ₹187 per live class · ₹2,999 ≈ ₹375 · ₹4,999 one-to-one ≈ ₹1,250 (4 classes a month)
-- International: $100 ≈ $12.50 per live class · $150 ≈ $18.75
+- International: $100 ≈ $12.50 per live class · $150 ≈ $18.75 · Canada: CAD 140 ≈ CAD 17.50 · CAD 210 ≈ CAD 26.25
 
 (Group and Mini Batch figures assume 8 live classes a month; the India one-to-one plan runs 4 a month, which is what makes its per-class figure ₹1,250.)
 
@@ -226,11 +231,28 @@ Per-class maths, useful when a parent asks "is that expensive?":
 | Region | Price |
 |---|---|
 | India | **₹9,999 one time** |
+| Canada | **CAD 280 one time** |
 | International | **$200 one time** |
 
 Every camp seat is **8 personalized one-to-one classes** with a dedicated mentor - there are no group camp batches. Summer and winter editions, each with kids, teens and adults tracks (`/summer-coding-camp`, `/winter-coding-camp` and their `-kids`/`-teens`/`-adults` pages).
 
-> Always say **"one time"** with the camp fee. ₹9,999 is also the monthly one-to-one rate for the two AI-agents courses, so an unqualified "₹9,999" is ambiguous.
+> Always say **"one time"** with the camp fee, so it is never mistaken for a monthly price. (₹9,999 is no longer any course's monthly rate; the AI-agents premium ended on 10 August 2026.)
+
+### 3.4a Pay for 6 months at once (optional, since 21 October 2026)
+
+Families can pay for 6 months in one go on the course page and pay less than six monthly payments. Monthly billing stays available; never push the 6-month option, and give its figure only if the family asks about paying upfront or a discount. Quote only their own region.
+
+| Region | Group | Mini Batch | 1-on-1 |
+|---|---|---|---|
+| India | **₹7,199** (48 sessions) | **₹14,399** (48 sessions) | **₹24,000** (24 sessions) |
+| Canada | **CAD 629** (48 sessions) | not sold | **CAD 941** (48 sessions) |
+| International | **$449** (48 sessions) | not sold | **$672** (48 sessions) |
+
+About 20% less than paying monthly in India and about 25% less abroad. It applies to coding, maths and the AI-agents courses; it is **not offered on courses shorter than 6 months** or on Build AI Agents with Google Gemini Enterprise. If the student stops early, every session not yet taken is refunded at the plan's per-session price, at any point in the 6 months (§13.1a).
+
+### 3.4b The Priority Live Demo fee
+
+**₹499 in India · CAD 14 in Canada · $10 elsewhere**, one time. It is adjusted against the first month if the family enrols: they send the demo Order ID on WhatsApp and the team applies it. See §7.2.
 
 ### 3.5 In-school bootcamp programmes (India only)
 
@@ -249,17 +271,17 @@ To get a quote, the customer fills the form on the website or speaks to Shivam S
 
 ### 3.7 What every plan includes
 
-- **Live one-hour classes: two a week (8 a month) on Group and Mini Batch, one a week (4 a month) on India one-to-one**
+- **Live one-hour classes: two a week (8 a month) on Group and Mini Batch; 4 private classes a month, timed flexibly, on India one-to-one; two a week on one-to-one outside India**
 - **Recorded session access** for revision and missed classes
 - **Doubt resolution support**
 - **Course completion certificate**
 - **Project-based learning**, real builds rather than theory
-- **Free demo before you pay**, no card required
+- **See a live class before you pay**: the Priority Live Demo, or the free demo waiting list (no card)
 - **Monthly billing, cancel anytime**, no registration fee, no lock-in
 
 **Mini Batch adds:** near one-to-one teacher attention, live doubt-clearing every class, targeted topic mastery.
 
-**Personalised 1-on-1 adds:** 100% customised curriculum (go at your own pace or cover twice the content), flexible scheduling you pick, monthly parent-mentor sync call, priority doubt support, lifetime recording access, portfolio building and career guidance. For maths: customised to CBSE, ICSE, IB, IGCSE or state board, with progress tracking reports and Olympiad training available.
+**Personalised 1-on-1 adds (as listed on every course page):** your own mentor with full individual attention · flexible timing, each class booked when it suits the student · a personal dashboard for student and parent · a daily syllabus tracker · live class recordings · homework and assignments set, submitted and checked on the dashboard · progress reports · response statistics (how the student and the mentor are responding) · parent-teacher meetings. Also a fully customised curriculum and pace. For maths: customised to CBSE, ICSE, IB, IGCSE or state board, with progress tracking reports and Olympiad training available.
 
 > **Careful with the word "lifetime".** "Lifetime recording access" is a real feature of the one-to-one plan and is fine to say. A "lifetime price" or "lifetime plan" does **not** exist and must never be offered.
 
@@ -273,19 +295,22 @@ To get a quote, the customer fills the form on the website or speaks to Shivam S
 - Do **not** quote **$100 as the one-to-one price**. $100 is the **group** price now; one-to-one is **$150**.
 - Do **not** quote **₹7,500 or ₹8,500 for any one-to-one**. Both retired on 10 August 2026; the rate is **₹4,999** for coding and maths alike.
 - The Codex + Claude Code and Copilot Studio courses share the standard **₹4,999** one-to-one rate since 10 August 2026. Do **not** quote ₹7,500 or ₹9,999 for them.
-- Do **not** say **₹9,999** without saying whether you mean the AI-agents one-to-one **monthly** rate or the India camp **one-time** fee.
+- **₹9,999** is only the India camp fee, **one time**. Always say "one time" with it. **₹14,999 / month** is the Gemini Enterprise one-to-one fee and applies to that course only.
 - Do **not** offer **Mini Batch** to an international customer. It is India only.
+- Do **not** quote a US dollar price to a family in **Canada**. They pay in CAD.
+- Do **not** leave out the **2.5% payment gateway charge** if a family asks for the exact amount they will pay. It is added at checkout and shown on the bill.
 - Do **not** offer any **lifetime** plan.
 - Do **not** promise a discount you cannot confirm. Say "let me check with Shivam Sir for any current offers".
 
 ### 3.9 Payment terms
 
-- **Currency:** INR inside India, USD everywhere else. Other currencies on request.
-- **Methods:** UPI, bank transfer, card. Payments only via secure links, never over chat.
+- **Currency:** INR inside India, CAD in Canada, USD everywhere else. Other currencies on request.
+- **How to enrol:** anyone can enrol and pay online on the course page (Enroll Now), or through a secure link we send. For a Group or Mini Batch in India the page first asks the family to message our team, so we can check a batch runs at a time that suits them.
+- **Methods:** UPI, bank transfer, card. Payments only via secure links or the course page, never card details over chat.
+- **Payment gateway charges:** **2.5% of the fee**, added at checkout and shown on the bill before paying. Not part of the course price and not refunded.
 - **Billing:** monthly and recurring. Cancel anytime, effective at the end of the current cycle.
-- **Discounts:** quarterly and yearly prepay discounts exist, and sibling and group discounts may apply. Confirm with Shivam Sir before promising one.
-- **Instalments:** available for many courses. Confirm with Shivam Sir.
-- **Free trial:** one free demo class before enrolment. No commitment, no card upfront.
+- **Paying ahead:** the published saving is the optional **6-month prepay** (§3.4a). Sibling offers may apply; confirm with Shivam Sir before promising one.
+- **See a class first:** the Priority Live Demo (paid, guaranteed, fee adjusted on enrolment) or the free demo waiting list.
 - **Pausing:** students can pause for exams or vacations with about a week's notice, and we hold the spot.
 
 ### 3.10 How we compare (use only if asked, never volunteer a competitor)
@@ -306,7 +331,15 @@ International comparison (published US rates as of July 2026, verify before repe
 
 ## 4. CODING CURRICULUM
 
-We organise coding by **audience**, not by language. **115 course pages** are live, each at `/courses/<slug>`. The complete list with URLs is **Appendix A**. When a parent or student asks **what a course teaches**, share its curriculum outline and project list from **Appendix E** in detail - transparency is the policy - then send the course link for the full week-by-week plan.
+We organise coding by **audience**, not by language. **142 course pages** are live (1 November 2026), each at `/courses/<slug>`. The complete list with URLs is **Appendix A**. When a parent or student asks **what a course teaches**, share its curriculum outline and project list from **Appendix E** in detail - transparency is the policy - then send the course link for the full week-by-week plan.
+
+### 4.0 Courses added since August 2026
+
+Coding and computing: Build AI Agents with Google Gemini Enterprise (1-on-1 only, own fee) · C++ for Kids · Godot Game Development for Kids and Teens · Cybersecurity Competitions for Teens (picoCTF, CyberPatriot) · PCEP and PCAP Python Certification · GCSE Computer Science · A Level Computer Science for AQA 7517 and OCR H446 · Cambridge AS and A Level Computer Science 9618 · CCC Junior and Senior Preparation (Canadian Computing Competition) · Ontario Computer Science Companion (ICS3U and ICS4U).
+
+Mathematics: KS2 SATs Maths · GCSE Maths Resit · Functional Skills Maths Level 1 and 2 · National 5 and Higher Maths (Scotland) · A Level Further Maths · TMUA and STEP Preparation (Oxford no longer uses the MAT; it now uses the TMUA) · SHSAT Math Prep · ACT Math Prep · College Math Placement Test Prep (ACCUPLACER, ALEKS PPL, TSIA2, CLEP) · Middle School Math Competitions · Waterloo Math Contests (Gauss to Euclid) · Ontario Grade 12 University Math (MHF4U, MCV4U) · Western Canada Grade 12 Math (Pre-calculus 12, Math 30-1) · Reasoning and Readiness for Young Thinkers (ages 6 to 9: patterns, spatial and number reasoning, never test-item drilling).
+
+Links for every course are in Appendix A.
 
 ### 4.1 The five audience tracks
 
@@ -373,7 +406,7 @@ Two courses on OpenAI Codex and Anthropic Claude Code, 24 hands-on classes: inst
 - Teens: `/courses/codex-and-claude-code-ai-coding-agents-course-for-teens`
 - Adults and professionals: `/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals`
 
-> **Two things to get right.** (1) **These courses cost the same as every other course since 10 August 2026** (the three AI Agents with Copilot Studio courses share the prices and are taught 1-on-1 only). Group **₹1,499** and Mini Batch **₹2,999** are the same as everywhere else, and one-to-one is the standard **₹4,999 / month** with one class a week in India (the ₹9,999 premium ran 3 to 10 August 2026). Internationally they follow the standard $100 group and $150 one-to-one. (2) Students **need their own Claude and ChatGPT subscriptions** for these two courses. Say so before enrolling anyone, so it is never a surprise.
+> **Two things to get right.** (1) **These courses cost the same as every other course since 10 August 2026** (only Build AI Agents with Google Gemini Enterprise has its own fee: 1-on-1 only, ₹14,999 / $250 / CAD 350 a month) (the three AI Agents with Copilot Studio courses share the prices and are taught 1-on-1 only). Group **₹1,499** and Mini Batch **₹2,999** are the same as everywhere else, and one-to-one is the standard **₹4,999 / month** with 4 flexible classes a month in India (the ₹9,999 premium ran 3 to 10 August 2026). Internationally they follow the standard $100 group and $150 one-to-one. (2) Students **need their own Claude and ChatGPT subscriptions** for these two courses. Say so before enrolling anyone, so it is never a surprise.
 
 ### 4.8 Programming languages we teach
 
@@ -406,7 +439,7 @@ Full list in Appendix B.
 
 ### 4.12 Camps (seasonal)
 
-Summer and winter camps, each with kids, teens and adults variants: `/summer-coding-camp`, `/summer-coding-camp-kids`, `/summer-coding-camp-teens`, `/summer-coding-camp-adults`, and the same pattern for `/winter-coding-camp`. Priced as a **one-time payment: ₹9,999 in India, $200 international**. See §3.4, and always say "one time" so it is not mistaken for a monthly fee.
+Summer and winter camps, each with kids, teens and adults variants: `/summer-coding-camp`, `/summer-coding-camp-kids`, `/summer-coding-camp-teens`, `/summer-coding-camp-adults`, and the same pattern for `/winter-coding-camp`. Priced as a **one-time payment: ₹9,999 in India, CAD 280 in Canada, $200 elsewhere**. See §3.4, and always say "one time" so it is not mistaken for a monthly fee.
 
 ---
 
@@ -458,6 +491,19 @@ Covers AMC, MATHCOUNTS, AIME, USAMO, IMO and Indian Olympiads.
 | SAT | SAT Math Prep | `/courses/sat-math-prep-course` |
 | AP | AP Calculus · AP Statistics · AP Precalculus | `/courses/ap-calculus-exam-prep`, `/courses/ap-statistics-maths-exam-prep-course`, `/courses/ap-precalculus-exam-prep-course` |
 | GRE / GMAT | GRE & GMAT Quant | `/courses/gre-gmat-quant-maths-prep-course` |
+| UK admissions | TMUA and STEP Preparation | `/courses/tmua-mat-step-preparation-course` |
+| NYC SHSAT | SHSAT Math Prep | `/courses/shsat-math-prep-course` |
+| US college placement | College Math Placement Test Prep | `/courses/college-math-placement-test-prep-course` |
+| Ages 6 to 9 reasoning | Reasoning and Readiness for Young Thinkers | `/courses/reasoning-and-readiness-course-for-young-thinkers` |
+| Scotland | National 5 and Higher Maths | `/courses/national-5-and-higher-maths-course` |
+| Canada | Ontario Grade 12 · Western Canada Grade 12 · Waterloo contests | see Appendix A |
+
+**UK and US exam guides (November 2026).** Ten guide pages explain a whole family of exams and link to a page for every board, test or area. Send the guide for a broad question and the specific page for a specific exam:
+
+- UK: `/uk-maths-exam-boards-and-specification-codes` (GCSE, IGCSE, A level, Scotland, IB, every spec code) · `/uk-maths-year-by-year-guide` (Reception to Year 11) · `/uk-selective-school-maths-tests-guide` (7+, 11+ by area and provider, 13+, 16+, NI transfer test) · `/uk-university-admissions-maths-and-computing-guide` (TMUA, STEP, ESAT, interviews, CS applications) · `/uk-maths-enrichment-and-competitions-guide` (UKMT, olympiads, CyberFirst/TechFirst, Bebras)
+- US: `/us-state-math-tests-by-state` (STAAR, Regents, CAASPP, MCAS, PSSA, NJSLA and more) · `/us-gifted-and-selective-school-tests-guide` (CogAT, NNAT, OLSAT, SHSAT, Hunter, HSPT, TACHS) · `/us-math-placement-and-college-readiness-tests` (MAP, i-Ready, PSAT, ACCUPLACER, ALEKS, TSIA2, CLEP) · `/homeschool-math-curriculum-guide-usa` (Saxon, Beast Academy, Eureka, Math Mammoth and others) · `/us-math-and-coding-competitions-guide` (MOEMS, Math League, FLL, FTC, VEX IQ, ISEF)
+
+Rules for these: we teach with our own practice problems, never past papers or real test items; we never promise a grade, score or place; for gifted tests we build reasoning and readiness, and some districts discourage commercial preparation; we are not connected with any exam board, test publisher, state or curriculum publisher.
 
 ### 5.5 Maths tuition landing pages
 
@@ -481,7 +527,7 @@ CBSE · ICSE · IGCSE · IB · A-Level and GCSE (UK) · Common Core and AP (US) 
 
 ### 6.2 Duration and frequency
 
-- Group and Mini Batch: **2 classes per week**, **1 hour each**, **8 classes a month** · India one-to-one: **1 class per week, 4 a month**
+- Group and Mini Batch: **2 classes per week**, **1 hour each**, **8 classes a month** · India one-to-one: **4 private classes a month, booked flexibly** · One-to-one outside India: **2 a week, 8 a month**
 - Plus recordings, practice and project work outside class
 
 ### 6.3 Course length
@@ -492,12 +538,12 @@ CBSE · ICSE · IGCSE · IB · A-Level and GCSE (UK) · Common Core and AP (US) 
 
 ### 6.4 Batch sizes
 
-- **Group:** capped at 20 students
+- **Group:** 15 to 20 students
 - **Mini Batch:** up to 6 students (India only)
 - **1-on-1:** a single student with a dedicated mentor
 - **Custom Group:** 3 to 10 students
 
-(See §0.2 on the batch-size wording. Say "capped at 10", never "maximum 5" or "maximum 6".)
+(Owner ruling, 13 October 2026. Never promise a smaller group than 15 to 20.)
 
 ### 6.5 What students need
 
@@ -505,7 +551,7 @@ A computer (Windows, Mac or Chromebook) · reliable internet · webcam and mic r
 
 ### 6.6 Class timings: THE KEY ESCALATION
 
-**Do NOT quote specific timings.** We run multiple batches across weekday evenings (typically 5 PM to 9 PM IST), weekend mornings and afternoons, and special slots for international time zones.
+**Do NOT quote specific timings.** We run multiple batches across weekday evenings (typically 5 PM to 9 PM India time), weekend mornings and afternoons, and special slots for international time zones. Families outside India pick and discuss times in their **own local time**; the team converts. Never quote IST to them.
 
 > **Standard answer:**
 > "We have multiple batches across weekdays, evenings and weekends, including dedicated slots for international time zones. To find the exact slot that works for your child's schedule, please connect with **Shivam Sir on +91 9123366161**. He will match you to the best batch and check live availability."
@@ -515,10 +561,10 @@ A computer (Windows, Mac or Chromebook) · reliable internet · webcam and mic r
 ## 7. ENROLMENT FLOW
 
 1. **Discovery call or WhatsApp chat.** Understand age, current level, goals, board, preferred subject.
-2. **Free demo class.** One free live class, no card needed, parent can sit in.
-3. **Plan selection.** Group, Mini Batch or 1-on-1.
-4. **Batch matching.** Shivam Sir picks the slot that fits.
-5. **Payment.** First month's fee, monthly recurring, via secure link.
+2. **Demo class.** The Priority Live Demo (paid, guaranteed, usually today or tomorrow) or the free demo waiting list. A real mentor either way; parent can sit in.
+3. **Plan selection.** Group, Mini Batch or 1-on-1, paid monthly or 6 months at once.
+4. **Enrol and pay** on the course page (Enroll Now) or through a secure link. A 2.5% gateway charge is shown on the bill.
+5. **Fix the timing.** Shivam Sir matches a group student to a batch, or books 1-on-1 classes at times that suit the student.
 6. **Onboarding.** Student gets dashboard access, class link and recording archive.
 7. **Classes begin.**
 8. **Monthly review.** Progress report shared with the parent.
@@ -529,9 +575,13 @@ Student's full name · age and class or grade · school and board · parent's na
 
 ### 7.2 The free demo: what to promise and what not to
 
-**Promise:** free · a full live class with a real mentor · **no card details ever requested** · parent welcome to sit in · roughly 30 to 45 minutes for the assessment format, up to a full hour for the trial-class format · doubles as a placement assessment, so the mentor recommends a starting point honestly · one free demo per student.
+There are **two kinds**, and the agent must describe each one honestly.
 
-**Do not promise:** a specific instructor by name · a specific date or time without checking with Shivam Sir · that the demo guarantees a place in a particular batch.
+**Priority Live Demo (paid, guaranteed).** ₹499 in India, CAD 14 in Canada, $10 elsewhere. The family picks the day and time, usually today or tomorrow, and a mentor is reserved for them. A full live class of about 45 to 60 minutes, not a sales call. Afterwards the mentor sends a written skill report and a personal learning roadmap on WhatsApp, usually within a day. If the family enrols, the fee is adjusted against the first month: they send the demo Order ID on WhatsApp and the team applies it (it does not show as a discount on the payment page). Booking it does not commit them to a course. Book at `/priority-demo`.
+
+**Free demo (waiting list).** Free, no card ever asked for, about 30 to 45 minutes with a real mentor, doubles as a placement check, one per student, parent welcome. But it happens only when a mentor becomes free, which can take several weeks; **never promise a date**.
+
+**Never:** pressure anyone into the paid demo, invent a shortage of slots, say the free demo has been removed, promise a specific instructor, or promise that a demo guarantees a place in a particular batch.
 
 > A useful line: *"Prefer to judge us before booking? You can watch recordings of real, unedited classes first."*
 
@@ -540,9 +590,9 @@ Student's full name · age and class or grade · school and board · parent's na
 Six promises we publish and must honour:
 
 1. A free demo before any payment
-2. Monthly billing, cancel anytime, no 6 or 12 month packs, no cancellation fee
-3. No registration or hidden fees. The price on the pricing page is the whole price.
-4. Live batches: group capped at 20, mini batch up to 6, full one-to-one available
+2. Monthly billing, cancel anytime, no cancellation fee. (Paying 6 months at once is optional, never required.)
+3. No registration or hidden fees. The one addition is the 2.5% payment gateway charge, shown on the bill before paying.
+4. Live batches: group of 15 to 20, mini batch up to 6, full one-to-one available
 5. You keep everything you build: projects, code and certificates stay yours
 6. A real human on WhatsApp at +91 9123366161, not a ticket queue
 
@@ -600,7 +650,7 @@ All free, all linked from the main navigation. Good conversation openers with a 
 
 > **The AI Tools Age Guide is a genuine trust asset.** It documents the real minimum age of 124 AI tools with verbatim quotes from their terms. Use it when a parent asks whether a tool is safe or age-appropriate. It is also why our AI-agents courses start at 13+.
 
-**Blog.** 116 published posts at `/blog`, plus five topic hubs: `/blog/topic/python`, `/blog/topic/java`, `/blog/topic/kids-coding`, `/blog/topic/maths`, `/blog/topic/ai`. Full list in Appendix C.
+**Blog.** 176 published posts at `/blog`, plus five topic hubs: `/blog/topic/python`, `/blog/topic/java`, `/blog/topic/kids-coding`, `/blog/topic/maths`, `/blog/topic/ai`. Full list in Appendix C.
 
 ---
 
@@ -610,7 +660,7 @@ All free, all linked from the main navigation. Good conversation openers with a 
 
 We partner with schools for in-school coding programmes and after-school enrichment. **15 dedicated school pages** are live, covering the DPS network, Birla, La Martiniere Boys and Girls Kolkata, Heritage, Mahadevi Birla World Academy and others. Main page: `/schools`.
 
-In-school bootcamp pricing: **₹1,999 group, ₹2,999 one-to-one, per month, India only.** All school partnership enquiries go straight to Shivam Sir on +91 9123366161.
+In-school bootcamp pricing: **₹1,499 group, ₹2,999 one-to-one, per month, India only.** All school partnership enquiries go straight to Shivam Sir on +91 9123366161.
 
 ### 11.2 For Business (the B2B cluster)
 
@@ -631,7 +681,8 @@ We are **online only**. There is no campus students attend. Our registered offic
 
 - **131 Indian city pages** at `/best-coding-class-in-<city>`, covering every major city and many smaller ones
 - **Kolkata neighbourhoods and complexes**, including Howrah, Salt Lake, Bhowanipore, Jodhpur Park and Golpark
-- **143 international and country pages**, including the United States, United Kingdom, Canada, Australia, New Zealand, Ireland, Germany, Switzerland, Sweden, Singapore, Hong Kong, UAE, Qatar and Saudi Arabia
+- **Large country clusters** for the United States (states, cities, state math tests), the United Kingdom (towns, 11+ areas, exam boards), Canada (provinces, cities, Ontario and Western courses), Australia and Ireland, plus pages for New Zealand, Germany, Switzerland, Sweden, Singapore, Hong Kong, UAE, Qatar, Saudi Arabia and more
+- **UK and US exam guides**, listed in §5.4
 
 > **Standard answer to "Are you in my city?":**
 > "Yes. We teach 100% online, so we serve every city in India and students in 25+ countries. Your child joins from home over a live video class."
@@ -650,6 +701,11 @@ We are **online only**. There is no campus students attend. Our registered offic
 - Courses where more than 20% of the content has been viewed or downloaded
 - One-on-one mentorship sessions that have already been conducted
 - Customised coding bootcamps or special arrangements
+- **Payment gateway charges** (2.5% of the fee, added at checkout and shown on the bill). A refund covers the fee itself: someone who paid 100 plus 2.5 in charges gets 100 back.
+
+### 13.1a Plans paid for 6 months at once
+
+If a family paid for 6 months at once and the student stops early, we refund every session that has not been taken yet: the number of sessions left multiplied by the per-session price of their 6-month plan, shown on the plan card when they enrol. Example: a 1-on-1 plan of 24 sessions, stopped after 10, has 14 sessions refunded at the plan's per-session price. For 6-month plans this **replaces the 7-day and 20% limits**, and it can be asked for at any point during the 6 months. Sessions already taken and gateway charges are not refunded.
 
 **Processing.** Once approved, the refund is initiated to the original payment method. Credit appears within **7 to 10 business days**, depending on the card issuer.
 
@@ -669,7 +725,7 @@ Key points an agent may need: all fees are listed in INR unless otherwise stated
 
 ### 13.4 Standard answer to "What if I'm not satisfied?"
 
-> "We have a 7-day money-back guarantee. If within the first week you have consumed less than 20% of the course and you are not satisfied, we issue a full refund. Just email connect@modernagecoders.com with your order details. And remember, you get a free demo class before you pay anything at all."
+> "We have a 7-day money-back guarantee. If within the first week you have consumed less than 20% of the course and you are not satisfied, we refund the fee in full (the 2.5% payment gateway charges are not refunded). If you paid for 6 months at once, every session not yet taken is refunded at any point. Just email connect@modernagecoders.com with your order details. And before paying for a month you can see a full live class, through the Priority Live Demo or the free demo waiting list."
 
 ---
 
@@ -691,7 +747,7 @@ A computer (Windows, Mac or Chromebook) with reliable internet. Most courses run
 Ages 6 to 67. Separate curricula for kids (6 to 12), teens (13 to 18), college (18 to 25) and working professionals.
 
 **Q6. What courses do you offer?**
-115 courses across coding (Python, JavaScript, Java, C, C++, HTML/CSS, React, block-based, AI/ML, web dev, app dev, DSA, cybersecurity, competitive programming) and mathematics (early years through college, plus Olympiad, exam-board and applied maths). Full list at https://learn.modernagecoders.com/courses
+142 courses across coding (Python, JavaScript, Java, C, C++, HTML/CSS, React, block-based, AI/ML, web dev, app dev, DSA, cybersecurity, competitive programming) and mathematics (early years through college, plus Olympiad, exam-board and applied maths). Full list at https://learn.modernagecoders.com/courses
 
 **Q7. Where are classes conducted?**
 100% online. Students in India and 25+ countries attend from home.
@@ -710,19 +766,19 @@ Yes. Coding competitions and hackathons, and maths Olympiads (AMC, MATHCOUNTS, A
 **Q12. Live or pre-recorded?** Live, always. Recordings are provided for revision.
 
 **Q13. What is the batch size?**
-Group classes are capped at 20 students. Mini Batch is up to 6. One-to-one is a single student with a dedicated mentor.
+A group class is 15 to 20 students. Mini Batch is up to 6 (India only). One-to-one is a single student with a dedicated mentor.
 
 **Q14. How do I enrol my child?**
-Book a free demo at `/book-demo`, or call or WhatsApp Shivam Sir on +91 9123366161. He will have a quick chat, recommend the right batch and book the demo.
+Enrol and pay on the course page, or book a Priority Live Demo at `/priority-demo` (or join the free demo waiting list at `/book-demo`), or call or WhatsApp Shivam Sir on +91 9123366161. He will recommend the right plan and fix the timing.
 
 **Q15. What is the fee structure?**
-India: Group ₹1,499/month · Mini Batch ₹2,999/month · Personalised 1-on-1 ₹4,999/month (coding and maths alike; one class a week, 4 a month). International: $100 group, $150 one-to-one. Same prices for coding and maths on every tier.
+Quote only the family's own region. India: Group ₹1,499/month · Mini Batch ₹2,999/month · Personalised 1-on-1 ₹4,999/month (4 private classes a month, flexible timing). Canada: CAD 140 group, CAD 210 one-to-one. Elsewhere: $100 group, $150 one-to-one. Same prices for coding and maths. Paying 6 months at once costs less (§3.4a). A 2.5% gateway charge is added at checkout.
 
 **Q16. Do you offer free trial classes?**
-Yes, one free demo class per student. No card, no commitment. Parents welcome to sit in.
+Yes, one free demo per student, no card. It is a waiting list, so we cannot promise a date. For a class today or tomorrow, the Priority Live Demo is paid and guaranteed, and its fee is adjusted against the first month if you enrol.
 
 **Q17. Can I pay in instalments?**
-Yes, flexible options including instalments are available for many courses. Quarterly and yearly prepay discounts also exist. Confirm details with Shivam Sir on +91 9123366161.
+Billing is monthly, so you pay one month at a time. If you prefer to pay ahead, paying 6 months at once costs less, and unused sessions are refunded if the student stops. For anything else, ask Shivam Sir on +91 9123366161.
 
 **Q18. What if I miss a class?** Every class is recorded, including coding demos and explanations. Catch up at your own pace. For one-to-one we can often reschedule with advance notice.
 
@@ -732,7 +788,7 @@ Yes, flexible options including instalments are available for many courses. Quar
 
 **Q21. Do you help with internships or real projects?** Yes, advanced students get opportunities on real client projects.
 
-**Q22. Can parents track progress?** Yes. Periodic progress reports, teacher feedback in review sessions, monthly tests, and a monthly parent-mentor sync call on the 1-on-1 plan.
+**Q22. Can parents track progress?** Yes. Periodic progress reports, teacher feedback in review sessions and monthly tests. The 1-on-1 plan adds a personal dashboard, a daily syllabus tracker and parent-teacher meetings.
 
 **Q23. Do you conduct assessments?** Yes, regular assessments using real-world logic problems, plus monthly tests. Top performers are promoted to higher batches.
 
@@ -745,14 +801,14 @@ Yes, extensively: AI Literacy for Kids (8 to 14), AI/ML for teens and college, g
 
 **Q27. Do you offer career guidance?** Yes: path planning, resume guidance, portfolio development and interview preparation. Job placement assistance is part of the Custom 1-on-1 package.
 
-**Q28. Do you offer one-to-one mentoring?** Yes. The Personalised 1-on-1 plan (₹4,999/month for coding and maths, one class a week) gives a dedicated expert mentor, a fully customised curriculum and flexible scheduling.
+**Q28. Do you offer one-to-one mentoring?** Yes. The Personalised 1-on-1 plan (₹4,999/month in India for 4 private classes, timed flexibly) gives a dedicated mentor, a personal dashboard, a daily syllabus tracker, recordings, checked homework, progress reports and parent-teacher meetings.
 
 **Q29. Can students take part in hackathons?** Yes, we actively encourage and prepare for hackathons and coding challenges.
 
 **Q30. Do you teach web and app development?** Yes, full web and app development with HTML, CSS, JavaScript, React, Python and more. Students build real working products.
 
 **Q31. How do I contact you?**
-Call or WhatsApp **Shivam Sir on +91 9123366161** (Mon to Sat, 9 AM to 6 PM IST) or email connect@modernagecoders.com. You can also use the callback button on any page and we call back within 3 hours.
+Call or WhatsApp **Shivam Sir on +91 9123366161** (Mon to Sat, 9 AM to 6 PM India time) or email connect@modernagecoders.com. You can also use the callback button on any page and we call back within 3 hours.
 
 **Q32. Are there girls-only batches?** Yes: Princess Coders (beginner/intermediate), Queen Coders (advanced) and Alpha Girls (elite), plus a Coding Comeback programme for women returning to tech.
 
@@ -775,6 +831,21 @@ Yes. Custom web and mobile apps, AI agents, automation tools, e-commerce platfor
 **Q40. Do I need a paid AI subscription for the AI agents courses?**
 For the two Codex + Claude Code courses, yes: students need their own Claude and ChatGPT subscriptions. Every other course needs nothing beyond a computer and internet.
 
+**Q41. Can we pay for several months at once?**
+Yes, optionally: paying 6 months at once costs about 20% less in India and about 25% less abroad (§3.4a). If the student stops early, every session not yet taken is refunded. It is not offered on courses shorter than 6 months.
+
+**Q42. Is there anything on top of the price?**
+Only the 2.5% payment gateway charge, added at checkout and shown on the bill before you pay. There is no registration fee.
+
+**Q43. Do you prepare for UK exams such as GCSE, A level, the 11 plus, TMUA or STEP?**
+Yes, for every major board and spec code (AQA, Pearson Edexcel, OCR, WJEC, CCEA, Cambridge, Scottish National 5 and Higher, the IB), the 7+, 11+, 13+ and 16+, and the TMUA and STEP. Oxford now uses the TMUA instead of the MAT. Send the matching guide from §5.4. Never promise a grade or a place.
+
+**Q44. Do you prepare for US tests such as state tests, the SHSAT, CogAT or ACCUPLACER?**
+Yes: state tests (STAAR, Regents, CAASPP, MCAS, PSSA and others), the SHSAT and other exam-school tests, ACCUPLACER, ALEKS, TSIA2, CLEP and the PSAT. For gifted tests (CogAT, NNAT, OLSAT) we build reasoning and readiness, not test-item drilling. Send the matching guide from §5.4. Never promise a score or a place.
+
+**Q45. We are in Canada. What does it cost?**
+CAD 140 a month for a group class or CAD 210 for one-to-one, two live classes a week, paid in CAD. The Priority Live Demo is CAD 14.
+
 ---
 
 ## 15. STANDARD RESPONSE PATTERNS
@@ -787,15 +858,15 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 > "Sure. We have three plans, and the prices are the same for coding and maths:
 >
-> **Group Classes, ₹1,499/month**, capped at 20 students, 2 live classes a week
+> **Group Classes, ₹1,499/month**, 15 to 20 students, 2 live classes a week
 > **Mini Batch, ₹2,999/month** (most popular), up to 6 students, near one-to-one attention
-> **Personalised 1-on-1, ₹4,999/month**, one private class a week with your own dedicated mentor and a fully customised curriculum
+> **Personalised 1-on-1, ₹4,999/month**, 4 private classes a month at times that suit you, with your own dedicated mentor and a fully customised curriculum
 >
-> Group and Mini Batch include two 1-hour live classes a week, one-to-one includes one; every plan comes with recordings, doubt support and a certificate. Maths costs the same as coding.
+> Every plan comes with recordings, doubt support and a certificate. Maths costs the same as coding.
 >
-> The first class is **free**, with no card needed. Would you like to book a demo?"
+> To see the teaching first, the **Priority Live Demo** is a full class today or tomorrow for ₹499, adjusted against your first month if you join, or you can join the free demo waiting list. Which would you prefer?"
 
-*(For international customers: "Group is $100/month and one-to-one is $150/month. Mini Batch is only available in India.")*
+*(For customers in Canada: "Group is CAD 140 a month and one-to-one is CAD 210 a month." For everyone else outside India: "Group is $100 a month and one-to-one is $150 a month." Never mention Mini Batch or another region's price to them.)*
 
 ### 15.3 Batch timings question
 
@@ -803,20 +874,20 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 ### 15.4 "Is it worth it?"
 
-> "Honestly, the only way to know is the free demo. No card, no commitment, one real live class with an actual mentor. You and your child will know within the hour whether it clicks, and the mentor will give you an honest read on where they should start. Shall I book one? I just need the student's name, age and your WhatsApp number."
+> "Honestly, the best way to know is to see one real class. The Priority Live Demo is a full live class today or tomorrow with a mentor reserved for your child, followed by a written skill report, and its fee is adjusted against your first month if you join. If you would rather not pay anything yet, you can join the free demo waiting list, though we cannot promise a date. Which would suit you?"
 
 ### 15.5 "Can I get a discount?"
 
-> "Let me check with Shivam Sir on current offers. Quarterly and yearly prepay discounts exist, and sibling and group discounts sometimes apply. Please WhatsApp him on **+91 9123366161** and he'll share what's available right now."
+> "Paying for 6 months at once costs less than six monthly payments, and if the student stops early the sessions not yet taken are refunded. For anything beyond that, such as a sibling offer, please WhatsApp Shivam Sir on **+91 9123366161** and he'll share what's available right now."
 
 ### 15.6 Closing / call to action
 
-> "Shall I book your free demo? I just need:
+> "The fastest start is the Priority Live Demo at learn.modernagecoders.com/priority-demo. If you would rather join the free demo waiting list, I just need:
 > 1. Student's name and age (or class)
 > 2. Subject: coding or maths, or both
 > 3. Your WhatsApp number with country code
 >
-> Once you share these, Shivam Sir will reach out to confirm the slot."
+> Once you share these, the team will reach out when a mentor is free."
 
 ### 15.7 Out of scope or unknown
 
@@ -824,7 +895,7 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 ### 15.8 Anxious-about-cost parent
 
-> "I understand. Two things that might help: the demo class is completely free and needs no card, so you can see the teaching before spending anything. And there is no lock-in, no registration fee and no long-term pack. Group classes start at ₹1,499 a month and you can stop any month. Would you like to try the free class first?"
+> "I understand. Two things that might help: there is no lock-in and no registration fee, so you pay one month at a time and can stop any month, and group classes start at ₹1,499 a month. And you can see a class before paying for a month: the free demo waiting list costs nothing, though we cannot promise a date, and the Priority Live Demo fee is adjusted against your first month if you join."
 
 ---
 
@@ -832,12 +903,12 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 ### DO
 
-- Quote prices accurately: **₹1,499 / ₹2,999 / ₹4,999** for every course (coding, maths and the AI-agents courses alike), international **$100 / $150**
-- Always offer the **free demo class** as the next step
+- Quote prices accurately, for the person's own region only: India **₹1,499 / ₹2,999 / ₹4,999**, Canada **CAD 140 / 210**, elsewhere **$100 / $150** (Gemini Enterprise has its own 1-on-1 fee)
+- Always offer a **demo class** as the next step: the Priority Live Demo first, the free waiting list honestly described
 - Refer to **Shivam Sir on +91 9123366161** for batch timings, custom quotes and anything ambiguous
 - Use "Sir" and "Ma'am" politely with Indian customers
 - Keep replies short and warm. Parents are busy.
-- Lead with **teaching quality and small batches**, then use price as closing proof
+- Lead with **teaching quality and live mentors**, then use price as closing proof
 - Mention classes are **LIVE**, never pre-recorded
 - Mention **recordings** are available for missed classes
 - Ask qualifying questions (age, level, goal) before recommending a plan
@@ -850,12 +921,13 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 - Quote **$100 as the one-to-one price**. That is now the group price.
 - Quote **₹7,500 or ₹8,500 for any one-to-one**. The rate is **₹4,999** since 10 August 2026.
 - Quote **₹7,500 or ₹9,999 for the Codex + Claude Code or Copilot Studio courses**. Their one-to-one rate is the standard **₹4,999** since 10 August 2026.
-- Say **₹9,999** without saying whether it is the AI-agents **monthly** rate or the camp **one-time** fee
+- Say **₹9,999** without saying it is the camp **one-time** fee
 - Offer **Mini Batch** to an international customer
 - Offer any **lifetime** plan or lifetime price
 - Say **"6 to 65"**, **"500+ students"**, **"247 reviews"** or **"15+ countries"**. All retired.
 - Offer `/courses/kids-ai-mastery-course`. Retired URL, and the course is now **13+**.
-- Promise a **maximum batch size below 10** for group classes (see §0.2)
+- Promise a **group smaller than 15 to 20** students
+- Quote a **US dollar** price to a family in Canada, or any **IST** time to a family abroad
 - Promise specific instructor names or specific class times without confirming with Shivam Sir
 - Promise jobs, placements or salary outcomes
 - Compare us negatively to competitors. Stay on our strengths.
@@ -876,13 +948,15 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 > "Not at all. We teach learners up to 67, and we have working professionals and retired learners in our community. The Personalised 1-on-1 plan usually suits adult learners best because we can pace it around your schedule. Would you like a free demo?"
 
 **17.3 "I'm in [country X]"**
-> "Wonderful, we have students in 25+ countries. Outside India we offer Group at $100/month and Personalised 1-on-1 at $150/month, and we can also bill in EUR, GBP, CAD, AUD, SGD or AED. For your time zone Shivam Sir will pick a batch that fits. Please WhatsApp him on +91 9123366161."
+> "Wonderful, we have students in 25+ countries. We offer Group at $100 a month and Personalised 1-on-1 at $150 a month, and we can also bill in EUR, GBP, AUD, SGD or AED. You choose times in your own local clock and we match them. Please WhatsApp Shivam Sir on +91 9123366161."
+>
+> (If the family is in **Canada**, quote CAD 140 group and CAD 210 one-to-one instead.)
 
 **17.4 "Can I switch plans later?"**
 > "Yes, you can upgrade or downgrade anytime. Just message us a few days before the next billing cycle and we'll adjust. Shivam Sir will make the transition clean."
 
 **17.5 "What if my child doesn't like the demo?"**
-> "No pressure at all. The demo is free with zero commitment. If your child doesn't enjoy it you walk away with no charge. We only enrol students who actually want to be there."
+> "No pressure at all. A demo never commits you to a course. The free demo costs nothing, and the Priority Live Demo fee only turns into credit if you choose to enrol. We only enrol students who actually want to be there."
 
 **17.6 "Do you have a mobile app?"**
 > "Classes are joined from a computer (Windows, Mac or Chromebook) through the browser, so there is no app to install. The student dashboard is at dashboard.modernagecoders.com."
@@ -922,7 +996,7 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 - Hindi is welcome with Indian customers who switch to Hindi.
 - Always offer a next step: "Want me to book a free demo?" or "Shall I share Shivam Sir's number?"
 - **Never use an em-dash.** It is a house style rule. Use a comma, a full stop or a colon.
-- If a parent is anxious about cost, lead with the **free demo** and the no-lock-in promise, then the Group plan.
+- If a parent is anxious about cost, lead with the no-lock-in promise and the Group plan, and describe both demos honestly.
 - If a parent wants the best result for the money, recommend **Mini Batch**.
 - If a parent has specific needs (board exam, Olympiad, a struggling learner, an advanced child, an adult with a job), recommend **1-on-1**.
 - Lead with **quality and depth**. Price closes; it does not open.
@@ -936,7 +1010,7 @@ COMPANY .............. Modern Age Coders (legal: Modern Age Coders Education)
 FOUNDED .............. 2020
 FOUNDER .............. Shivam Khemka (Shivam Sir)
 PRIMARY PHONE ........ +91 9123366161   <- batch timings route HERE
-PHONE HOURS .......... Mon-Sat, 9 AM - 6 PM IST (Sun closed)
+PHONE HOURS .......... Mon-Sat, 9 AM - 6 PM India time (Sun closed)
 EMAIL ................ connect@modernagecoders.com
 WEBSITE .............. learn.modernagecoders.com
 DASHBOARD ............ dashboard.modernagecoders.com
@@ -947,15 +1021,16 @@ STUDENTS ............. 10,000+
 RATING ............... 4.9 across 547 Google reviews
 COUNTRIES ............ 25+
 DELIVERY ............. 100% online, LIVE classes, recordings included
-CLASSES/WEEK ......... 2  (1 hour each, 8 a month)
+CLASSES .............. 2 a week, 1 hour (India 1-on-1: 4 a month, flexible)
 SUBJECTS ............. Coding + Mathematics
-COURSES LIVE ......... 115
-BLOG POSTS ........... 116
+COURSES LIVE ......... 142
+BLOG POSTS ........... 176
 
 PRICING (India, per month):
-  Group Classes        Rs 1,499    capped at 20 students
+  Group Classes        Rs 1,499    15 to 20 students
   Mini Batch           Rs 2,999    up to 6 students     MOST POPULAR
-  Personalised 1-on-1  Rs 4,999    1 student + dedicated mentor · 1 class/wk
+  Personalised 1-on-1  Rs 4,999    1 student + dedicated mentor · 4 flexible classes/month
+  Gemini Enterprise    Rs 14,999   1-on-1 only, its own fee
   Maths 1-on-1         Rs 4,999    <- same as coding
   AI-agents 1-on-1     Rs 4,999    <- same as every other course
 
@@ -964,7 +1039,13 @@ PRICING (International, per month):
   1-on-1               $150        (all subjects, incl. AI agents)
   Mini Batch           NOT SOLD outside India
 
-CAMPS ................ Rs 9,999 ONE-TIME (India) / $200 ONE-TIME (intl)
+PRICING (Canada, per month, CAD): Group 140 · 1-on-1 210
+
+6 MONTHS AT ONCE (optional): India Rs 7,199 / 14,399 / 24,000 · Canada CAD 629 / 941 · elsewhere $449 / $672
+GATEWAY CHARGE ....... 2.5% added at checkout, shown on the bill, not refunded
+PRIORITY DEMO ........ Rs 499 / CAD 14 / $10, adjusted against month one
+
+CAMPS ................ Rs 9,999 / CAD 280 / $200, ONE-TIME
 SCHOOL BOOTCAMP ...... Rs 1,499 group / Rs 2,999 1-on-1 (India only)
 CUSTOM / CORPORATE ... quote-based, route to Shivam Sir
 
@@ -978,13 +1059,13 @@ RETIRED, NEVER QUOTE:
   "247 reviews" · "15+ countries" · /courses/kids-ai-mastery-course — never quote
   (Rs 9,999 stays valid ONLY as the one-time camp fee.)
 
-DEMO ................. free, live, real mentor, no card, 30-60 min
+DEMO ................. Priority (paid, guaranteed, 45-60 min, report) or free (waiting list, 30-45 min)
 CALLBACK ............. within 3 hours
 FORM RESPONSE ........ within 48 hours
-REFUND ............... 7-day money-back, if <20% content consumed
+REFUND ............... 7-day money-back if <20% consumed; 6-month plans: unused sessions any time
 CANCELLATION ......... anytime, effective end of billing cycle
 CERTIFICATE .......... yes, on completion
-PROGRESS REPORTS ..... periodic; 1-on-1 adds monthly parent call
+PROGRESS REPORTS ..... periodic; 1-on-1 adds dashboard, syllabus tracker, parent-teacher meetings
 
 GIRLS-ONLY ........... Princess Coders / Queen Coders / Alpha Girls
 SCHOOLS .............. yes, 15 pages (DPS, Birla, La Martiniere, etc.)
@@ -995,7 +1076,7 @@ INTERNSHIPS .......... available to advanced students
 ESCALATE TO SHIVAM SIR FOR:
   - Batch timings / slot availability      - Corporate & school quotes
   - Discounts                              - Custom curriculum
-  - Non-USD international pricing          - Refund disputes
+  - Currencies other than INR, USD, CAD    - Refund disputes
   - ANYTHING not covered in this document
 ```
 
@@ -1003,6 +1084,7 @@ ESCALATE TO SHIVAM SIR FOR:
 
 ## 20. CHANGELOG
 
+- **1 November 2026 (v2.1).** Group batches **15 to 20** (owner ruling 13 October). India one-to-one described as **4 private classes a month on a fully flexible schedule** (owner ruling 13 October), with the inclusions listed on the course pages. **Canada priced in CAD** from 24 October (140 / 210, camp 280, demo 14). Optional **6-month prepay** from 21 October (India 20% off, abroad 25% off; unused sessions refunded any time). **2.5% payment gateway charge** at checkout from 23 October, not refunded. Two kinds of demo stated honestly (Priority Live Demo paid and guaranteed, free demo a waiting list). Overseas families choose demo times in their own clock (26 October). Online enrolment on every course page. 24 new courses (now 142). Ten UK and US exam guide pages. School bootcamp group corrected to ₹1,499.
 - **10 August 2026 (owner price change).** India one-to-one moved to **₹4,999 per month** for coding AND maths (the ₹8,500 maths exception ended), on a new schedule of **one class a week, four a month — India only**. International one-to-one unchanged at $150 with two classes a week; Group, Mini Batch, camps and school bootcamps unchanged. Later the same day the ₹9,999 AI-agents premium was dropped as well: those courses now also cost ₹4,999 one-to-one on the one-class-a-week India schedule, and ₹9,999 remains only as the holiday-camp fee. ₹4,999 is a current price again and no longer a retired figure; **₹7,500 and ₹8,500 are retired instead**.
 - **4 August 2026 (v2.0, this edition).** Rebuilt from the live codebase. Flat worldwide pricing adopted 1 August 2026: India ₹1,499 / ₹2,999 / ₹7,500 (maths one-to-one ₹8,500), international $100 group and $150 one-to-one. Per-country and purchasing-power pricing removed. Brand facts corrected to 10,000+ students, 547 Google reviews, 25+ countries, ages 6 to 67.
 - **3 August 2026 (owner price change, captured in this edition).** Premium one-to-one restored at **₹9,999** for the two Codex + Claude Code AI-agents courses. Holiday camp fee raised to **₹9,999 one time** in India and **$200** internationally. School bootcamp group rate lowered to **₹1,499**. Because ₹9,999 is a current price again, it is no longer a retired figure. Course catalogue grew to 115 and the blog to 116 posts. Added camps and school-bootcamp price rows, the For Business cluster, exam-board maths (A-Level, GCSE, IGCSE, IB, SAT, AP, JEE, PSLE, 11-plus, CBSE Class 10), certification prep, the Codex + Claude Code courses, the tools and games catalogue, the zero-risk guarantee, the registered office address and office hours. Corrected the LinkedIn and Facebook URLs. Kids AI Mastery retired to a 13+ teens course.
@@ -1012,15 +1094,16 @@ ESCALATE TO SHIVAM SIR FOR:
 - **January 2026.** Terms of Service last reviewed.
 - **2020.** Modern Age Coders founded by Shivam Khemka.
 
-## APPENDIX A: EVERY COURSE PAGE (137 live courses)
+## APPENDIX A: EVERY COURSE PAGE (142 live courses)
 
 All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Every URL below was checked against the sitemap and the routing table on 4 August 2026.
 
 
-### A.1 Coding, AI and technology courses (99)
+### A.1 Coding, AI and technology courses (100)
 
 | Course | URL path | Who it is for |
 |---|---|---|
+| A Level Computer Science for AQA 7517 and OCR H446 | `/courses/a-level-computer-science-course-aqa-ocr` | Teens |
 | Advanced Git & GitHub Masterclass for Professionals | `/courses/git-github-advanced-version-control-masterclass-for-professionals` | College |
 | AI Agents with Microsoft Copilot Studio for College Students | `/courses/ai-agents-with-microsoft-copilot-studio-course-for-college-students` | College |
 | AI Agents with Microsoft Copilot Studio for Teens | `/courses/ai-agents-with-microsoft-copilot-studio-course-for-teens` | Teens |
@@ -1121,7 +1204,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Vibe Coding for Teens: Python, Web Dev & AI (Ages 13-17) | `/courses/vibe-coding-for-teens-python-web-ai-projects-course` | Teens |
 | Web Development for Kids: Build Real Websites | `/courses/kids-ai-web-development-course` | Kids |
 
-### A.2 Mathematics courses (38)
+### A.2 Mathematics courses (42)
 
 | Course | URL path | Who it is for |
 |---|---|---|
@@ -1136,6 +1219,7 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | AP Statistics: Exam Prep with the Investigative Task | `/courses/ap-statistics-maths-exam-prep-course` | High school |
 | Business & Finance Mathematics: Investment to Risk | `/courses/complete-business-finance-mathematics-mastery` | Professionals |
 | CBSE Class 10 Maths Board Prep: Case Studies & Mocks | `/courses/cbse-class-10-maths-board-exam-prep-course` | High school |
+| College Math Placement Test Prep: ALEKS, ACCUPLACER, TSIA2, CLEP | `/courses/college-math-placement-test-prep-course` | College |
 | College Maths Course: Calculus, Linear Algebra to Analysis | `/courses/college-mathematics-complete-masterclass` | College, Girls only |
 | Early Math Foundations: Playful, Concrete Math (Ages 4-7) | `/courses/early-math-foundations` | Elementary |
 | Elementary Maths for Grades 1-5: Live Online Classes | `/courses/elementary-mathematics-complete-masterclass` | Elementary, Girls only |
@@ -1158,15 +1242,18 @@ All course pages live at `https://learn.modernagecoders.com/courses/<slug>`. Eve
 | Olympiad Mathematics: IOQM, INMO and AMC Preparation | `/courses/olympiad-mathematics-premium-course` | Teens |
 | Ontario Grade 12 University Math: Advanced Functions and Calculus and Vectors (MHF4U and MCV4U) | `/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course` | High school |
 | PSLE Maths: Model Method, Problem Sums & MOE Syllabus | `/courses/psle-maths-mastery` | Elementary |
+| Reasoning and Readiness for Young Thinkers (Ages 6 to 9) | `/courses/reasoning-and-readiness-course-for-young-thinkers` | Elementary |
 | SAT Math 800 Prep: Live Classes for the Digital SAT | `/courses/sat-math-prep-course` | High school |
+| SHSAT Math Prep: NYC Specialized High Schools Test | `/courses/shsat-math-prep-course` | Middle school |
 | Statistics & Probability: Data to Hypothesis Testing | `/courses/statistics-probability-maths-course` | College |
+| TMUA and STEP Preparation (Oxford MAT Now TMUA) | `/courses/tmua-mat-step-preparation-course` | High school |
 | Vedic Maths Mastery: Speed Calculation with All 16 Sutras | `/courses/vedic-maths-course-speed-calculation-mastery` | Middle school |
 | Waterloo Math Contests: Gauss to Euclid | `/courses/waterloo-math-contests-gauss-to-euclid-course` | Middle school |
 | Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1 | `/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course` | High school |
 
 ---
 
-## APPENDIX B: COMPLETE SITE URL INDEX (2654 live URLs)
+## APPENDIX B: COMPLETE SITE URL INDEX (2828 live URLs)
 
 Every URL below is present in a sitemap **and** resolves through the routing table. Redirect-only URLs are excluded. The site-wide link check passed with 0 broken internal links across 53,903 link instances on 4 August 2026. Prefix any path with `https://learn.modernagecoders.com`.
 
@@ -1211,12 +1298,13 @@ Every URL below is present in a sitemap **and** resolves through the routing tab
 | `/success-stories` | Success Stories |
 | `/terms` | Terms of Service |
 
-### B.2 Course detail pages (137)
+### B.2 Course detail pages (142)
 
 Listed with titles in Appendix A.
 
 ```
 /courses/11-plus-maths-preparation-course-uk
+/courses/a-level-computer-science-course-aqa-ocr
 /courses/a-level-further-maths-course
 /courses/a-level-maths-course-pure-mechanics-statistics
 /courses/abacus-mental-maths-course-for-kids
@@ -1252,6 +1340,7 @@ Listed with titles in Appendix A.
 /courses/ccc-junior-and-senior-preparation-course
 /courses/codex-and-claude-code-ai-coding-agents-course-for-teens
 /courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals
+/courses/college-math-placement-test-prep-course
 /courses/college-mathematics-complete-masterclass
 /courses/competitive-programming-for-teens-course
 /courses/competitive-programming-masterclass-college
@@ -1342,11 +1431,14 @@ Listed with titles in Appendix A.
 /courses/queen-coders-advanced-tech-leadership
 /courses/react-for-teens-complete-masterclass
 /courses/react-js-complete-masterclass-college
+/courses/reasoning-and-readiness-course-for-young-thinkers
 /courses/roblox-game-coding-for-kids-lua-course
 /courses/sat-math-prep-course
 /courses/scratch-programming-complete-course
+/courses/shsat-math-prep-course
 /courses/statistics-probability-maths-course
 /courses/teens-ai-tools-mastery-course
+/courses/tmua-mat-step-preparation-course
 /courses/vedic-maths-course-speed-calculation-mastery
 /courses/vibe-coding-for-college-fullstack-ai-dsa-career-course
 /courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev
@@ -1843,7 +1935,7 @@ Listed with titles in Appendix C.
 | `/coding-classes-for-la-martiniere-girls-kolkata` | Coding Classes for La Martiniere for Girls Students |
 | `/coding-classes-for-middle-school-students` | Coding Classes for Middle School Students: Grades 6 to 8 |
 
-### B.8 Country and international pages (574)
+### B.8 Country and international pages (575)
 
 | URL path | Page title |
 |---|---|
@@ -1873,6 +1965,7 @@ Listed with titles in Appendix C.
 | `/ai-classes-in-qatar` | AI Classes in Qatar |
 | `/ai-classes-in-saudi-arabia` | AI Classes in Saudi Arabia |
 | `/coding-classes-cost-australia` | Coding Classes Cost in Australia 2026: Per Lesson and Term |
+| `/coding-classes-cost-canada` | Coding Classes Cost in Canada 2026: Fees by Format |
 | `/coding-classes-cost-india-2026` | Coding Classes Cost in India 2026: Honest Price Guide |
 | `/coding-classes-for-11-and-12-year-olds-australia` | Coding Classes for 11 and 12 Year Olds in Australia |
 | `/coding-classes-for-5-and-6-year-olds-australia` | Coding Classes for 5 and 6 Year Olds in Australia |
@@ -2468,12 +2561,13 @@ Listed with titles in Appendix C.
 | `/python-for-class-8` | Python for Class 8: OOP, Flask API, sklearn, Kaggle Datasets & DSA Intro |
 | `/python-for-class-9` | Python for Class 9: CBSE Code 402 Python, Flask, Django Intro & Kaggle |
 
-### B.11 Comparison and alternative pages (50)
+### B.11 Comparison and alternative pages (54)
 
 | URL path | Page title |
 |---|---|
 | `/after-school-coding-club-vs-online-class-australia` | After-School Coding Club vs Online Class in Australia |
 | `/aqa-vs-edexcel-vs-ocr-gcse-maths` | AQA vs Edexcel vs OCR GCSE Maths: How the Boards Differ |
+| `/art-of-problem-solving-alternative` | Art of Problem Solving Alternative: AoPS Compared, and a Tutor |
 | `/bhanzu-alternative` | Bhanzu Alternative for 2026: Live Maths and Coding, Ages 6 to 67 |
 | `/brightchamps-alternative` | BrightChamps Alternative 2026: Focused Depth, Not Breadth |
 | `/byjus-coding-alternative` | BYJU'S Coding Alternative 2026: Live, Small-Batch, Honest |
@@ -2487,6 +2581,7 @@ Listed with titles in Appendix C.
 | `/common-core-math-vs-traditional-math` | Common Core Math vs Traditional Math: A Parent Guide |
 | `/create-and-learn-alternative` | Create & Learn Alternative: Small Groups, Levels, Trials |
 | `/cuemath-alternative` | Cuemath Alternative for 2026: A Live Coding and Maths School |
+| `/duke-tip-alternatives` | Duke TIP Alternatives: Gifted Programs Since TIP Closed |
 | `/free-demo-vs-priority-demo` | Free Demo vs Priority Demo |
 | `/functional-skills-maths-vs-gcse-maths` | Functional Skills Maths vs GCSE Maths: Which Should You Take? |
 | `/gcse-maths-calculator-vs-non-calculator-papers` | GCSE Maths Calculator vs Non-Calculator Papers Explained |
@@ -2495,6 +2590,7 @@ Listed with titles in Appendix C.
 | `/ics3u-vs-ics3c` | ICS3U vs ICS3C: Choosing Grade 11 Computer Studies in Ontario |
 | `/id-tech-alternative` | iD Tech Alternative: Camps, Private Lessons, Weekly Classes |
 | `/khan-academy-computer-science-vs-live-classes` | Khan Academy Computer Science vs Live Classes: How to Choose |
+| `/khan-academy-math-vs-live-tutor` | Khan Academy Math vs a Live Tutor: Which Does Your Child Need? |
 | `/live-vs-recorded-coding-classes` | Live vs Recorded Coding Classes for Kids: Which Is Better? |
 | `/math-30-1-vs-math-30-2` | Math 30-1 vs Math 30-2: Alberta's Two Grade 12 Math Paths |
 | `/maths-tutor-vs-tuition-centre-uk` | Maths Tutor vs Tuition Centre UK: Kumon, Explore Learning, Cost |
@@ -2515,6 +2611,7 @@ Listed with titles in Appendix C.
 | `/online-vs-face-to-face-maths-tuition-uk` | Online vs Face-to-Face Maths Tuition UK: Cost Compared |
 | `/online-vs-in-person-coding-classes-australia` | Online vs In-Person Coding Classes in Australia Compared |
 | `/private-math-tutor-vs-online-tutoring` | Private Math Tutor vs Online Tutoring: 2026 Decision Guide |
+| `/russian-school-of-mathematics-alternative` | Russian School of Mathematics Alternative: Compare and Choose |
 | `/tutor-vs-tutoring-centre-maths-australia` | Maths Tutor vs Tutoring Centre in Australia: How to Choose |
 | `/tynker-alternative` | Tynker Alternative 2026: A Live Teacher, Not an App Alone |
 | `/vedantu-alternative` | Vedantu Alternative for 2026: Live Coding and Maths Classes |
@@ -2523,11 +2620,12 @@ Listed with titles in Appendix C.
 | `/whitehat-jr-alternative` | WhiteHat Jr Alternative in 2026: Real Mentors, Not Scripts |
 | `/year-round-coding-classes-vs-summer-camps-bahamas` | Year-Round Coding Classes vs Summer Camps in The Bahamas |
 
-### B.12 Camps (summer and winter) (15)
+### B.12 Camps (summer and winter) (16)
 
 | URL path | Page title |
 |---|---|
 | `/coding-bootcamp-for-teens` | Coding Bootcamp for Teens: An Honest Eight-Week Plan |
+| `/coding-camp-cost-canada` | Coding Camp Cost in Canada: 2026 Weekly Fees Compared |
 | `/coding-summer-camp-for-middle-schoolers` | Coding Summer Camp for Middle Schoolers: Grades 6 to 8 |
 | `/game-design-summer-camp-for-teens` | Game Design Summer Camp for Teens: Engines, Plans, Portfolio |
 | `/march-break-coding-camp-online` | March Break Coding Online: 2027 Dates, PA Days, Live Classes |
@@ -2543,7 +2641,7 @@ Listed with titles in Appendix C.
 | `/winter-coding-camp-kids` | Winter Coding Camp for Kids 2026 (Ages 6-11) |
 | `/winter-coding-camp-teens` | Winter Coding Camp for Teens 2026 (Ages 12-17) |
 
-### B.13 Mathematics landing pages (227)
+### B.13 Mathematics landing pages (365)
 
 | URL path | Page title |
 |---|---|
@@ -2552,6 +2650,7 @@ Listed with titles in Appendix C.
 | `/11-plus-maths-tuition-bexley` | 11 Plus Maths Tuition Bexley |
 | `/11-plus-maths-tuition-birmingham` | 11 Plus Maths Tuition Birmingham |
 | `/11-plus-maths-tuition-bournemouth-christchurch-and-poole` | 11 Plus Maths Tuition Bournemouth and Poole |
+| `/11-plus-maths-tuition-bromley` | 11 Plus Maths Tuition Bromley |
 | `/11-plus-maths-tuition-buckinghamshire` | 11 Plus Maths Tuition Buckinghamshire |
 | `/11-plus-maths-tuition-calderdale` | 11 Plus Maths Tuition Calderdale |
 | `/11-plus-maths-tuition-enfield` | 11 Plus Maths Tuition Enfield |
@@ -2560,7 +2659,10 @@ Listed with titles in Appendix C.
 | `/11-plus-maths-tuition-hertfordshire` | 11 Plus Maths Tuition Hertfordshire |
 | `/11-plus-maths-tuition-kent` | 11 Plus Maths Tuition Kent |
 | `/11-plus-maths-tuition-kingston` | 11 Plus Maths Tuition Kingston |
+| `/11-plus-maths-tuition-lancashire` | 11 Plus Maths Tuition Lancashire |
+| `/11-plus-maths-tuition-lincolnshire` | 11 Plus Maths Tuition Lincolnshire |
 | `/11-plus-maths-tuition-medway` | 11 Plus Maths Tuition Medway |
+| `/11-plus-maths-tuition-north-yorkshire` | 11 Plus Maths Tuition North Yorkshire |
 | `/11-plus-maths-tuition-plymouth` | 11 Plus Maths Tuition Plymouth |
 | `/11-plus-maths-tuition-reading` | 11 Plus Maths Tuition Reading |
 | `/11-plus-maths-tuition-redbridge` | 11 Plus Maths Tuition Redbridge |
@@ -2570,17 +2672,27 @@ Listed with titles in Appendix C.
 | `/11-plus-maths-tuition-torbay` | 11 Plus Maths Tuition Torbay |
 | `/11-plus-maths-tuition-trafford` | 11 Plus Maths Tuition Trafford |
 | `/11-plus-maths-tuition-warwickshire` | 11 Plus Maths Tuition Warwickshire |
+| `/11-plus-maths-tuition-wiltshire` | 11 Plus Maths Tuition Wiltshire |
 | `/11-plus-maths-tuition-wirral` | 11 Plus Maths Tuition Wirral |
 | `/11-plus-maths-tuition-wolverhampton-and-walsall` | 11 Plus Maths Tuition Wolverhampton and Walsall |
+| `/13-plus-scholarship-maths-preparation` | 13 Plus Scholarship Maths Preparation |
+| `/16-plus-sixth-form-entrance-maths` | 16 Plus Entrance Exam Maths |
+| `/7-plus-maths-preparation` | 7 Plus Maths Preparation |
 | `/a-level-maths-tuition-online` | A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics |
 | `/a-level-maths-tutor-cost-uk` | A Level Maths Tutor Cost UK 2026: Hourly Rates Compared |
 | `/a-level-maths-tutor-uae` | A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics |
+| `/accelerated-math-program-online` | Accelerated Math Program Online: Compacted Math Help |
+| `/accuplacer-math-prep` | ACCUPLACER Math Prep: Arithmetic, QAS and AAF Tests |
 | `/act-math-tutoring-online` | ACT Math Tutoring Online · 1:1 ACT Math Prep |
 | `/advanced-higher-maths-tuition-online` | Advanced Higher Maths Tuition Online |
 | `/alberta-grade-6-math-pat-practice` | Alberta Grade 6 Math PAT 2027: What It Tests, With Practice |
 | `/alberta-grade-9-math-pat-practice` | Alberta Grade 9 Math PAT: Part A, Part B and Practice |
 | `/alberta-math-30-1-diploma-exam-prep` | Alberta Math 30-1 Diploma Exam 2027: Dates, Marking, Prep |
 | `/alberta-new-math-curriculum-explained` | Alberta's New Math Curriculum Explained: K to 6 and 7 to 9 |
+| `/aleks-math-placement-test-prep` | ALEKS Math Placement Test Prep: How ALEKS PPL Works |
+| `/algebra-1-eoc-prep` | Algebra 1 EOC Prep: How the Exam Works in Each State |
+| `/algebra-1-regents-prep` | Algebra 1 Regents Prep: Live Online Classes for June 2027 |
+| `/algebra-2-regents-prep` | Algebra 2 Regents Prep: The New Exam, June 2027 |
 | `/algebra-2-tutoring-online` | Algebra 2 Tutoring Online |
 | `/algebra-tutoring-online-usa` | Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 |
 | `/american-maths-tutor-uae` | American Curriculum & SAT Maths Tutor in the UAE · 1:1 Online |
@@ -2591,8 +2703,13 @@ Listed with titles in Appendix C.
 | `/ap-computer-science-principles-online-coaching` | AP Computer Science Principles Online Coaching |
 | `/ap-csp-create-performance-task-guide` | AP CSP Create Performance Task Guide: Rules, PPR and Deadline |
 | `/ap-csp-score-calculator` | AP CSP Score Calculator: Weights, Rubric Points, an Estimate |
+| `/ap-precalculus-tutoring-online` | AP Precalculus Tutoring Online: Units 1 to 3, May 2027 Exam |
 | `/ap-statistics-tutoring-online` | AP Statistics Tutoring Online · 1:1 AP Stats Prep |
 | `/apsmo-maths-olympiad-practice` | APSMO Maths Olympiad Practice |
+| `/aqa-a-level-further-maths-7367-help` | AQA A Level Further Maths 7367 Help: Papers and Options |
+| `/aqa-a-level-maths-7357-help` | AQA A Level Maths 7357 Help: Papers, Topics and Calculator |
+| `/aqa-gcse-maths-8300-help` | AQA GCSE Maths 8300 Help |
+| `/aqa-level-2-further-maths-8365-help` | AQA Level 2 Further Maths 8365 Help |
 | `/australian-coding-maths-and-ai-competitions-calendar` | Coding and Maths Competitions in Australia: 2026 Calendar |
 | `/australian-curriculum-maths-year-7-to-10-help` | Australian Curriculum Maths Years 7 to 10 Help |
 | `/australian-maths-competitions-for-primary-kids` | Maths Competitions for Primary Kids in Australia: A Guide |
@@ -2600,61 +2717,115 @@ Listed with titles in Appendix C.
 | `/best-online-math-tutoring-2026` | Best Online Math Tutoring 2026: Ranked Honestly, With Sources |
 | `/best-online-math-tutoring-in-canada` | Best Online Math Tutoring in Canada: 7 Checks Before You Pick |
 | `/best-online-maths-classes-2026` | Best Online Maths Classes for Kids 2026: Ranked Honestly |
+| `/big-ideas-math-help` | Big Ideas Math Help: Live Tutoring for Grades 6 to Algebra 2 |
+| `/boston-exam-schools-math-prep` | Boston Exam Schools Math Prep: MAP Growth and GPA, 2027 |
+| `/caaspp-math-practice` | CAASPP Math Practice: California Test Guide, Grades 3 to 11 |
 | `/calculus-12-tutor-bc` | Calculus 12 BC Tutor Online: Limits, Derivatives, Integrals |
 | `/calculus-tutoring-online` | Calculus Tutoring Online |
+| `/cambridge-a-level-further-maths-9231-help` | Cambridge 9231 Further Maths Help: Papers and Routes |
+| `/cambridge-a-level-maths-9709-help` | Cambridge A Level Maths 9709 Help: Papers, Routes, Syllabus |
+| `/cambridge-igcse-additional-maths-0606-help` | IGCSE Additional Maths 0606 Help: Papers, Topics, Grades |
+| `/cambridge-igcse-maths-0580-help` | Cambridge IGCSE Maths 0580 Help: Papers, Tiers, Accuracy |
 | `/canada-high-school-math-courses-compared` | Grade 12 Math by Province: MHF4U, Math 30-1 and More |
 | `/canada-math-and-coding-contest-calendar` | Canada Contest Calendar 2026 to 2027: CEMC, CCC and COMC |
 | `/canadian-math-olympiad-cmo-path` | Canadian Math Olympiad (CMO): The Path to Team Canada |
 | `/cbse-icse-maths-tuition-online` | CBSE and ICSE Maths Tuition Online, Class 6 to 12: Live Batches |
 | `/cbse-maths-tutor-uae` | CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE: Class 6 to 12 |
+| `/ccea-a-level-maths-help` | CCEA A Level Maths Help: AS 1 to A2 2 Units Explained |
 | `/ccea-gcse-maths-help` | CCEA GCSE Maths Help |
+| `/cem-11-plus-maths-practice` | CEM 11 Plus Maths Practice |
+| `/clep-calculus-prep` | CLEP Calculus Prep and CLEP Precalculus Prep: Exam Guide |
+| `/clep-college-algebra-prep` | CLEP College Algebra Prep: Exam Topics, Scores, Practice |
 | `/coding-class-or-maths-tutor-first-australia` | Coding Class or Maths Tutor First? A Guide for Australian Parents |
+| `/colorado-cmas-math-practice` | CMAS Math Practice for Colorado Grades 3 to 8 (2027 Test) |
+| `/common-core-math-tutor` | Common Core Math Tutor Online: Homework Help, Grades K to 8 |
 | `/common-entrance-maths-tuition` | Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths |
+| `/continental-math-league-preparation` | Continental Math League Practice Problems and Prep, Grades 2 to 9 |
+| `/dual-enrollment-math-help` | Dual Enrollment Math Help: College Algebra and Calculus I |
+| `/edexcel-a-level-further-maths-9fm0-help` | Edexcel A Level Further Maths 9FM0 Help: Option Routes |
+| `/edexcel-a-level-maths-9ma0-help` | Edexcel A Level Maths 9MA0 Help: Papers, Data Set, Formulae |
+| `/edexcel-gcse-maths-1ma1-help` | Edexcel GCSE Maths 1MA1 Help |
+| `/edexcel-igcse-further-pure-maths-4pm1-help` | Edexcel IGCSE Further Pure Maths 4PM1 Help and Topics |
+| `/edexcel-international-gcse-maths-a-4ma1-help` | Edexcel IGCSE Maths 4MA1 Help: Papers, Tiers and Grades |
+| `/envision-math-help` | enVision Math Help: Live Tutoring for Grades K to 8 (Savvas) |
 | `/eqao-grade-3-math-practice` | EQAO Grade 3 Math Practice: 15 Free Questions with Answers |
 | `/eqao-grade-6-math-practice` | EQAO Grade 6 Math Practice: 15 Sample Questions, Answers |
 | `/eqao-grade-9-math-practice` | EQAO Grade 9 Math Practice: Format, Formula Sheet, 15 Questions |
+| `/esat-maths-preparation` | ESAT Maths Preparation: Mathematics 1 and 2, 2026 to 2027 |
+| `/eureka-math-homework-help` | Eureka Math Homework Help for Parents (and EngageNY) |
 | `/foundations-of-math-11-tutor-bc` | Foundations of Math 11 BC Tutor: Curriculum, Practice, Help |
 | `/functional-skills-maths-course-cost-uk` | Functional Skills Maths Course Cost UK 2026: Free or Paid? |
 | `/functional-skills-maths-tuition-online` | Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 |
 | `/further-maths-tuition-online` | Further Maths Tuition Online · 1:1 A-Level Further Mathematics |
 | `/further-maths-tutor-cost-uk` | Further Maths Tutor Cost UK 2026: Rates and What You Pay For |
+| `/further-maths-when-your-school-does-not-offer-it` | Further Maths When Your School Does Not Offer It |
+| `/gcse-foundation-maths-tutor-online` | GCSE Foundation Maths Tutor Online |
+| `/gcse-higher-maths-grade-9-tutor` | GCSE Higher Maths Grade 9 Tutor |
 | `/gcse-maths-and-numeracy-wales-help` | GCSE Maths and Numeracy Help, Wales |
 | `/gcse-maths-grades-explained` | GCSE Maths Grades 1 to 9 Explained: What 4 and 5 Mean |
 | `/gcse-maths-resit-explained` | GCSE Maths Resit Explained: Rules, November Series, Adults |
 | `/gcse-maths-tuition-online` | GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR |
 | `/gcse-maths-tutor-cost-uk` | GCSE Maths Tutor Cost UK 2026: Hourly Rates by Format |
 | `/gcse-maths-tutor-uae` | GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE: AQA, Edexcel, OCR, CIE |
+| `/gcse-statistics-tutor-online` | GCSE Statistics Tutor Online |
+| `/geometry-regents-prep` | Geometry Regents Prep: Proofs, Tools and the June 2027 Exam |
 | `/geometry-tutoring-online-usa` | Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs |
+| `/gifted-and-talented-maths-and-coding-uk` | Gifted and Talented Maths and Coding UK: More Able Pupils |
+| `/gl-assessment-11-plus-maths-practice` | GL Assessment 11 Plus Maths Practice |
+| `/go-math-homework-help` | Go Math Homework Help (and Into Math): Live Tutor, Grades K to 6 |
 | `/higher-maths-tuition-online` | Higher Maths Tuition Online |
 | `/homeschool-coding-and-math-alberta` | Homeschool Coding and Math in Alberta: Home Education Guide |
 | `/homeschool-coding-and-math-bc` | Homeschool Coding and Math in BC: School Act Guide |
 | `/homeschool-coding-and-math-ontario` | Homeschool Coding and Math in Ontario: A PPM 131 Guide |
+| `/homeschool-math-curriculum-guide-usa` | Homeschool Math Curriculum Comparison: 9 Programs Side by Side |
 | `/homeschool-math-curriculum-usa` | Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers |
 | `/hsc-maths-advanced-tutoring` | HSC Maths Advanced Tutoring |
 | `/hsc-maths-extension-1-tutoring` | HSC Maths Extension 1 Tutoring |
 | `/hsc-maths-extension-2-tutoring` | HSC Maths Extension 2 Tutoring |
 | `/hsc-maths-standard-tutoring` | HSC Maths Standard Tutoring |
+| `/hspt-math-prep` | HSPT Math Prep and Tutoring: Quantitative and Math |
+| `/hunter-college-high-school-math-prep` | Hunter College High School Entrance Exam Math Prep 2027 |
+| `/i-ready-math-help` | i-Ready Math Help: Diagnostic Results and Home Support |
+| `/ib-extended-essay-maths-computer-science-mentoring` | IB Extended Essay in Maths or Computer Science |
+| `/ib-maths-ai-sl-tutor-online` | IB Maths AI SL Tutor Online |
+| `/ib-maths-ia-guidance` | IB Maths IA Guidance |
 | `/ib-maths-tuition-online` | IB Maths Tuition Online |
 | `/ib-maths-tutor-uae` | IB Maths Tutor in the UAE · 1:1 Maths AA & AI (SL & HL) |
+| `/ib-myp-maths-tutor-online` | IB MYP Maths Tutor Online |
 | `/icas-maths-practice-online` | ICAS Maths Practice Online |
+| `/igcse-maths-for-home-educated-students-uk` | IGCSE Maths for Home-Educated Students: Private Candidates |
 | `/igcse-maths-tuition-online` | IGCSE Maths Tuition Online |
+| `/illinois-iar-math-practice` | Illinois IAR Math Practice: The Spring 2027 Test, Grades 3 to 8 |
+| `/independent-school-11-plus-maths-london` | London 11 Plus Consortium Maths |
+| `/integrated-math-1-tutoring` | Integrated Math 1 Tutoring: Integrated Math I Help Online |
+| `/integrated-math-2-tutoring` | Integrated Math 2 Tutoring: Integrated Math II Help Online |
+| `/integrated-math-3-tutoring` | Integrated Math 3 Tutoring: Integrated Math III Help Online |
+| `/iowa-assessments-math-prep` | Iowa Assessments Math Prep (ITBS) for Grades 1 to 5 |
 | `/is-a-level-further-maths-worth-it` | Is A Level Further Maths Worth It? What It Adds and Costs |
 | `/is-maths-tuition-worth-it-uk` | Is Maths Tuition Worth It? An Honest UK Guide for 2026 |
+| `/iseb-common-pre-test-maths-practice` | ISEB Common Pre-Test Maths Practice |
 | `/isee-ssat-math-prep` | ISEE & SSAT Math Prep Online |
+| `/keystone-algebra-1-prep` | Keystone Algebra 1 Prep: Modules, Anchors and 2027 Dates |
+| `/ks1-maths-tuition-online` | KS1 Maths Tuition Online |
+| `/ks1-sats-maths-explained` | KS1 SATs Maths Explained |
 | `/ks2-and-11-plus-maths-tutor-cost-uk` | KS2 and 11 Plus Maths Tutor Cost UK 2026: What to Budget |
 | `/ks2-maths-tuition-online` | KS2 Maths Tuition Online · 1:1 Year 3-6 & SATs Maths |
 | `/ks2-sats-maths-papers-explained` | KS2 SATs Maths Papers Explained: Arithmetic and Reasoning |
 | `/ks3-maths-tuition-online` | KS3 Maths Tuition Online · 1:1 Year 7-9 Maths |
+| `/map-growth-math-test-prep` | MAP Growth Math Test Prep: RIT Scores and Readiness |
 | `/math-30-1-tutor-alberta` | Math 30-1 Tutor, Alberta: Outcomes, Worked Problems, Practice |
 | `/math-catch-up-program` | Math Catch-Up Program |
 | `/math-classes-for-kids-in-canada` | Math Classes for Kids in Canada: Grades 1 to 8, Live Online |
 | `/math-competitions-for-middle-school-students` | Math Competitions for Middle School: MATHCOUNTS and More |
 | `/math-kangaroo-canada-preparation` | Math Kangaroo Canada 2027: Format, Grades and Practice |
 | `/math-kangaroo-usa-preparation` | Math Kangaroo USA Preparation: Live Online, Grades 1 to 12 |
+| `/math-league-contest-preparation` | Math League Contest Preparation: 2026-27 Dates and Rounds |
+| `/math-mammoth-tutor` | Math Mammoth Tutor Online: Live Help for Grades 1 to 7 |
 | `/math-olympiad-amc-tutoring` | Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching |
 | `/math-tutor-brampton` | Math Tutor Brampton |
 | `/math-tutor-burnaby` | Math Tutor Burnaby |
 | `/math-tutor-calgary` | Math Tutor Calgary |
+| `/math-tutor-cost-canada` | Math Tutor Cost in Canada: Hourly Rates, Free Options, Real Price |
 | `/math-tutor-edmonton` | Math Tutor Edmonton |
 | `/math-tutor-markham` | Math Tutor Markham |
 | `/math-tutor-mississauga` | Math Tutor Mississauga |
@@ -2668,10 +2839,13 @@ Listed with titles in Appendix C.
 | `/math-tutor-vaughan` | Math Tutor Vaughan |
 | `/math-tutor-waterloo-ontario` | Math Tutor Waterloo, Ontario |
 | `/math-tutor-winnipeg` | Math Tutor Winnipeg |
+| `/math-u-see-tutor` | Math-U-See Tutor Online: Live Help From Delta to Algebra 1 |
 | `/maths-behind-machine-learning` | The Maths Behind Machine Learning - Linear Algebra, Calculus & Probability for AI |
 | `/maths-challenge-for-young-australians-practice` | Maths Challenge for Young Australians Practice |
 | `/maths-class-10` | Maths Tuition for Class 10: CBSE & ICSE Board Exam Prep |
 | `/maths-classes-for-adults-uae` | Maths Classes for Adults in the UAE · 1:1 Online: Work, Study & GMAT/GRE |
+| `/maths-for-home-educated-children-uk` | Maths for Home Educated Children UK |
+| `/maths-masterclasses-for-able-students-uk` | Maths Masterclasses UK: Royal Institution and Online Stretch |
 | `/maths-olympiad-classes-online` | Maths Olympiad Classes Online: Which Contest, and How to Enter |
 | `/maths-olympiad-training-uk` | Maths Olympiad Training UK |
 | `/maths-tuition-for-kids-uae` | Maths Tuition for Kids in the UAE · 1:1 Online Primary Maths |
@@ -2715,10 +2889,25 @@ Listed with titles in Appendix C.
 | `/maths-tutor-perth-wa` | Maths Tutor in Perth, WA |
 | `/maths-tutor-sunnybank` | Maths Tutor in Sunnybank |
 | `/maths-tutor-sydney` | Maths Tutor in Sydney |
+| `/mcas-math-prep` | MCAS Math Prep: Grades 3 to 8 and Grade 10, 2027 Guide |
 | `/mcv4u-calculus-and-vectors-tutor` | MCV4U Calculus and Vectors Tutor: Ontario Grade 12 Help |
+| `/middle-school-math-placement-test-prep` | Middle School Math Placement Test Prep: Grade 6 to Algebra 1 |
+| `/moems-math-olympiad-preparation` | MOEMS Preparation: Math Olympiad Practice for Grades 4 to 8 |
 | `/mth1w-grade-9-math-explained` | MTH1W Explained: Ontario De-streamed Grade 9 Math and Coding |
+| `/national-5-applications-of-maths-help` | National 5 Applications of Maths Help |
 | `/national-5-maths-tuition-online` | National 5 Maths Tuition Online |
+| `/nc-eog-math-practice` | NC EOG Math Practice: Grades 3 to 8, the 2027 Test |
+| `/nc-math-1-eoc-prep` | NC Math 1 EOC Prep, With NC Math 3: The North Carolina Tests |
+| `/njgpa-math-prep` | NJGPA Math Prep: The 450 Graduation Score, Class of 2028 |
+| `/njsla-math-practice` | NJSLA Math Practice: The 2027 Adaptive Test, Grades 3 to 8 |
+| `/noetic-math-contest-preparation` | Noetic Math Contest Practice Problems and Prep, Grades 2 to 8 |
+| `/nys-math-test-prep-grades-3-8` | NYS Math Test Prep, Grades 3 to 8: The 2027 State Test |
 | `/oc-test-maths-practice-nsw` | OC Test Maths Practice NSW |
+| `/ocr-a-level-maths-h240-help` | OCR A Level Maths H240 Help: Papers and Command Words |
+| `/ocr-fsmq-additional-maths-6993-help` | OCR FSMQ Additional Maths 6993 Help |
+| `/ocr-gcse-maths-j560-help` | OCR GCSE Maths J560 Help |
+| `/ocr-mei-a-level-maths-h640-help` | OCR MEI A Level Maths H640 Help: Comprehension Paper |
+| `/online-math-circle-for-kids` | Online Math Circle for Kids: What It Is and How to Join |
 | `/online-math-tutor-10th-grade` | Online Math Tutor for 10th Grade |
 | `/online-math-tutor-11th-grade` | Online Math Tutor for 11th Grade |
 | `/online-math-tutor-12th-grade` | Online Math Tutor for 12th Grade |
@@ -2734,8 +2923,10 @@ Listed with titles in Appendix C.
 | `/online-math-tutor-canada` | Online Math Tutor Canada |
 | `/online-math-tutor-cost` | Online Math Tutor Cost 2026: Real US Prices by Format |
 | `/online-math-tutor-kindergarten` | Online Math Tutor for Kindergarten |
+| `/online-maths-circle-uk` | Online Maths Circle UK: University Clubs and a Weekly Circle |
 | `/online-maths-classes-for-adults-in-uk` | Online Maths Classes for Adults in the UK · 1:1 Numeracy, GCSE Resit & Functional Skills |
 | `/online-maths-classes-for-adults-in-usa` | Online Maths Classes for Adults in the USA · 1:1 Math for Work, Study & Confidence |
+| `/online-maths-summer-school-uk` | Online Maths Summer School UK: UKMT Summer School Explained |
 | `/online-maths-tuition` | Online Maths Tuition for Class 1-12, CBSE & ICSE |
 | `/online-maths-tuition-for-college-students-in-uk` | Online Maths Tuition for College & Sixth Form in the UK · 1:1 A-Level & University Maths |
 | `/online-maths-tuition-for-kids-in-uk` | Online Maths Tuition for Kids in the UK · 1:1 Primary Maths (KS1 & KS2) |
@@ -2747,33 +2938,78 @@ Listed with titles in Appendix C.
 | `/online-maths-tutoring-for-kids-in-usa` | Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K-5) |
 | `/online-maths-tutoring-for-teens-in-usa` | Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math |
 | `/ontario-grade-6-math-and-coding-help` | Grade 6 Math and Coding Help, Ontario: Strands and Practice |
+| `/oxbridge-maths-interview-problem-solving` | Oxbridge Maths Interview Preparation: Problems and Practice |
 | `/pre-calculus-11-tutor-bc` | Pre-calculus 11 BC Tutor: Course Topics, Practice and Help |
 | `/pre-calculus-12-tutor-bc` | Pre-calculus 12 BC Tutor: Units, Practice Questions, Plan |
+| `/preact-math-prep` | PreACT Test Prep: PreACT and PreACT 8/9 Math Help |
 | `/precalculus-tutoring-online` | Precalculus Tutoring Online |
 | `/preliminary-hsc-maths-year-11-help` | Year 11 Maths Help NSW |
 | `/primary-maths-challenge-practice` | Primary Maths Challenge Practice |
 | `/problem-solving-coding-and-math-classes-canada` | Problem-Solving Coding and Math Classes in Canada |
+| `/psat-8-9-math-prep` | PSAT 8/9 Prep and PSAT 10 Math: Grades 8 to 10 |
+| `/psat-math-prep` | PSAT Math Prep: PSAT/NMSQT Math and National Merit |
+| `/pssa-math-practice` | PSSA Math Practice, Grades 3 to 8: The May 2027 Test |
 | `/quebec-secondary-4-math-cst-ts-science` | Quebec Secondary 4 Math: CST, TS or Science, and the 2027 Exam |
 | `/quebec-secondary-5-math-tutor` | Quebec Secondary 5 Math Tutor: CST, TS, Science Help Online |
 | `/queensland-academies-entry-maths-practice` | Queensland Academies Entrance Test Maths Practice |
+| `/quest-assessments-11-plus-maths-practice` | Quest 11 Plus Maths Practice |
+| `/reception-maths-online-uk` | Reception Maths Online UK |
+| `/s1-s3-maths-tutor-online-scotland` | S1 to S3 Maths Tutor Online, Scotland |
 | `/sa-ignite-entry-maths-practice` | SA Ignite Assessment Maths Practice |
 | `/sat-math-tutoring-online` | SAT Math Tutoring Online · 1:1 Digital SAT Math Prep |
+| `/saxon-math-tutor` | Saxon Math Tutor Online: Live Help Alongside the Books |
+| `/scottish-primary-maths-tutor-online` | Scottish Primary Maths Tutor Online |
+| `/shsat-math-prep` | SHSAT Math Prep and Tutoring: the 2026 Adaptive Test |
 | `/singapore-math-method-tutoring` | Singapore Math Method Tutoring Online |
+| `/smarter-balanced-math-practice` | Smarter Balanced Math Practice: SBAC Claims and Blueprint |
+| `/staar-algebra-1-eoc-prep` | STAAR Algebra 1 EOC Prep: Live Online Classes in Texas |
+| `/staar-math-tutoring` | STAAR Math Tutoring and Practice, Grades 3 to 8 (2027) |
+| `/stanford-10-math-practice` | Stanford 10 Math Practice (SAT10): Levels, Subtests, Scores |
+| `/stanford-online-high-school-math-prep` | Stanford Online High School Math Prep: OHS Courses, Dates |
+| `/statistics-tutoring-online` | Statistics Tutoring Online: High School Stats, Non-AP Help |
+| `/step-maths-preparation` | STEP Maths Preparation and Tuition: STEP 2 and 3 for 2027 |
 | `/summer-math-program-online` | Online Summer Math Program 2026 |
+| `/tachs-math-prep` | TACHS Math Prep and Tutoring: 2026 Test, Calculator |
+| `/teaching-textbooks-math-help` | Teaching Textbooks Math Help: When Your Child Needs a Tutor |
 | `/transfer-test-maths-practice-northern-ireland` | Transfer Test Maths Practice, Northern Ireland |
+| `/transfer-test-maths-tuition-belfast` | Transfer Test Maths Tuition Belfast |
+| `/trigonometry-tutoring-online` | Trigonometry Tutoring Online: Unit Circle to Identities |
+| `/tsia2-math-prep` | TSIA2 Math Prep: Texas College Readiness Test Help |
 | `/uk-coding-maths-and-ai-competitions-calendar` | UK Coding, Maths and AI Competitions 2026-27 |
+| `/uk-maths-enrichment-and-competitions-guide` | UK Maths Competitions and Enrichment for Able Children 2026-27 |
+| `/uk-maths-exam-boards-and-specification-codes` | GCSE and A Level Maths Exam Boards and Specification Codes |
+| `/uk-maths-year-by-year-guide` | What Maths Is Taught in Each Year? England Reception to Year 11 |
+| `/uk-selective-school-maths-tests-guide` | 11 Plus Exams Explained by Area and Provider |
+| `/uk-university-admissions-maths-and-computing-guide` | Which Universities Need TMUA, STEP or ESAT? UK Admissions Guide |
+| `/ukiset-maths-reasoning-practice` | UKiset Maths Reasoning Practice |
 | `/ukmt-maths-challenge-tutoring` | UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge |
 | `/ukmt-team-maths-challenge-practice` | UKMT Team Maths Challenge Practice |
 | `/us-coding-math-and-ai-competitions-calendar` | US Coding, Math and AI Competitions Calendar 2026-27 |
+| `/us-math-and-coding-competitions-guide` | Math and Coding Competitions for Kids in the USA, by Grade |
+| `/us-math-placement-and-college-readiness-tests` | Math Placement Tests Explained: ACCUPLACER, ALEKS PPL, TSIA2 |
+| `/us-state-math-tests-by-state` | State Math Tests by State: What Each US State Uses |
 | `/vce-foundation-maths-help` | VCE Foundation Maths Help |
 | `/vce-general-maths-tutoring` | VCE General Maths Tutoring |
 | `/vce-maths-methods-tutoring` | VCE Maths Methods Tutoring |
 | `/vce-specialist-maths-tutoring` | VCE Specialist Maths Tutoring |
 | `/victorian-selective-entry-exam-maths-practice` | Victorian Selective Entry Exam Maths Practice |
 | `/wa-gate-aset-maths-practice` | WA GATE ASET Maths Practice |
+| `/white-rose-maths-help-at-home` | White Rose Maths Help at Home |
 | `/why-coding-and-maths-together` | Why Coding and Maths Together |
+| `/wjec-a-level-maths-help-wales` | WJEC A Level Maths Help (Wales): Units, UMS and A* |
+| `/year-1-maths-tutor-online` | Year 1 Maths Tutor Online |
 | `/year-10-maths-methods-preparation` | Year 10 Maths Methods Preparation |
+| `/year-10-maths-tutor-online` | Year 10 Maths Tutor Online |
+| `/year-11-maths-tutor-online` | Year 11 Maths Tutor Online |
 | `/year-12-maths-holiday-revision-australia` | Year 12 Maths Holiday Revision |
+| `/year-2-maths-tutor-online` | Year 2 Maths Tutor Online |
+| `/year-3-maths-tutor-online` | Year 3 Maths Tutor Online |
+| `/year-4-maths-tutor-online` | Year 4 Maths Tutor Online |
+| `/year-5-maths-tutor-online` | Year 5 Maths Tutor Online |
+| `/year-6-maths-tutor-online` | Year 6 Maths Tutor Online |
+| `/year-7-maths-tutor-online` | Year 7 Maths Tutor Online |
+| `/year-8-maths-tutor-online` | Year 8 Maths Tutor Online |
+| `/year-9-maths-tutor-online` | Year 9 Maths Tutor Online |
 
 ### B.14 AI and machine learning pages (214)
 
@@ -2994,15 +3230,17 @@ Listed with titles in Appendix C.
 | `/python-for-machine-learning` | Python for Machine Learning |
 | `/uk-olympiad-in-artificial-intelligence-preparation` | UK Olympiad in AI Preparation |
 
-### B.15 Programming language and topic pages (900)
+### B.15 Programming language and topic pages (925)
 
 | URL path | Page title |
 |---|---|
 | `/a-level-computer-science-nea-help` | A-Level Computer Science NEA Help |
+| `/a-level-computer-science-tutor-online-uk` | A Level Computer Science Tutor Online |
 | `/acsl-competition-preparation` | ACSL Competition Preparation: Divisions, Dates, Topics |
 | `/advanced-higher-computing-science-project-help` | Advanced Higher Computing Science Project Help |
 | `/after-code-club-next-step-coding-uk` | After Code Club: The Next Step in Coding, UK |
 | `/after-coderdojo-next-step-coding-ireland` | After CoderDojo: The Next Step in Coding in Ireland |
+| `/after-hour-of-code-next-steps` | After the Hour of Code: Next Steps for Kids in 2026 |
 | `/after-microbit-next-step-python-uk` | After the micro:bit: The Next Step to Python, UK |
 | `/after-scratch-next-step-python-australia` | After Scratch: Moving to Python, for Australian Kids |
 | `/agentic-coding-classes` | Agentic Coding Classes |
@@ -3025,8 +3263,10 @@ Listed with titles in Appendix C.
 | `/australian-student-hackathons` | Student Hackathons in Australia: Who Can Enter, How to Prepare |
 | `/bc-adst-curriculum-coding-by-grade` | BC ADST Curriculum: Coding by Grade, Kindergarten to Grade 9 |
 | `/bc-grade-10-numeracy-assessment-practice` | BC Grade 10 Numeracy Assessment Practice: Format, Questions |
+| `/beast-academy-tutor` | Beast Academy Tutor: Live Help With Levels 1 to 5 |
 | `/beaver-computing-challenge-guide` | Beaver Computing Challenge 2026: Guide and Practice Tasks |
 | `/bebras-challenge-australia-practice` | Bebras Challenge Australia Practice |
+| `/bebras-challenge-practice` | Bebras Challenge Practice (USA 2026): Format, Scoring, Puzzles |
 | `/bebras-computational-thinking-challenge-practice-uk` | UK Bebras Challenge Practice |
 | `/best-age-to-start-coding` | Best Age to Start Coding? The Honest Age-by-Age Answer |
 | `/best-ai-courses-for-teens-2026` | Best AI Courses for Teens 2026 |
@@ -3190,6 +3430,7 @@ Listed with titles in Appendix C.
 | `/bootstrap` | Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch |
 | `/british-informatics-olympiad-preparation` | British Informatics Olympiad Preparation |
 | `/british-mathematical-olympiad-bmo-preparation` | British Mathematical Olympiad Preparation |
+| `/btec-it-programming-unit-help` | BTEC IT Programming Unit Help |
 | `/build-apps-with-ai` | Build Apps with AI |
 | `/build-real-ai-projects-australia` | Build Real AI Projects in Australia |
 | `/build-real-ai-projects-ireland` | Build Real AI Projects in Ireland |
@@ -3343,6 +3584,7 @@ Listed with titles in Appendix C.
 | `/coding-lang` | Programming Languages, Frameworks and Tools to Learn in 2026: The Complete Guide |
 | `/coding-milestones-by-age` | Coding Milestones by Age: What Kids Can Do from 6 to 18 |
 | `/coding-olympiad-medal-track` | Coding Olympiad Medal Track: IOQI, ZIO, INOI, IOI, Bebras, Math Kangaroo Coaching |
+| `/cogat-test-prep` | CogAT Test Prep: Reasoning and Readiness for Ages 6 to 9 |
 | `/comc-canada-open-mathematics-challenge-guide` | COMC 2026: Canadian Open Mathematics Challenge Guide |
 | `/competitive-programming-australia` | Competitive Programming in Australia |
 | `/computer-applications-icse-class-10` | Computer Applications ICSE Class 10: Java BlueJ Tuition, Project & Viva Prep |
@@ -3354,6 +3596,7 @@ Listed with titles in Appendix C.
 | `/computer-science-extracurriculars` | Computer Science Extracurriculars, Ranked by What Actually Counts |
 | `/computer-science-graduation-requirements-by-state` | Computer Science Graduation Requirements by State |
 | `/computer-science-internships-for-high-school-students` | Computer Science Internships for High School Students |
+| `/computer-science-personal-statement-projects-uk` | Computer Science Personal Statement Projects for UCAS 2027 |
 | `/computer-science-prerequisites-canadian-universities` | Computer Science Prerequisites at Canadian Universities |
 | `/computer-science-standards-by-state` | K-12 Computer Science Standards by State, With AI |
 | `/computer-science-summer-programs-for-high-school-students` | CS Summer Programs for High School Students: 2027 Guide |
@@ -3363,6 +3606,7 @@ Listed with titles in Appendix C.
 | `/cpa-cpp-certification-prep` | CPA C++ Certification (CPA-21-02): Full Exam Guide, Syllabus & Live Coaching |
 | `/cyber-security-course-for-teens-australia` | Cyber Security Course for Teens in Australia |
 | `/cyber-security-course-for-teens-uk` | Cyber Security Course for Teens in the UK |
+| `/cyberfirst-courses-and-bursary-preparation` | CyberFirst Bursary and Courses in 2026: What Runs Now |
 | `/cyberfirst-girls-competition-preparation` | CyberFirst Girls Competition Preparation |
 | `/cyberpatriot-preparation` | CyberPatriot Preparation: 2026-27 Schedule, Scoring, Setup |
 | `/cybersecurity-classes-for-teens` | Cybersecurity Classes for Teens: CyberPatriot, AP and CTFs |
@@ -3376,16 +3620,20 @@ Listed with titles in Appendix C.
 | `/digital-technologies-primary-coding-help` | Primary Digital Technologies Coding Help |
 | `/digital-technologies-years-7-to-10-coding` | Digital Technologies Years 7 to 10 Coding |
 | `/does-ap-computer-science-give-college-credit` | Does AP Computer Science Give College Credit? A and CSP Compared |
+| `/duke-of-edinburgh-skills-section-coding` | Duke of Edinburgh Skills Section Coding: Plans by Level |
 | `/eclipse-java-help-for-students` | Eclipse Java Help for Students: Run, Errors and Setup Fixes |
 | `/edexcel-gcse-computer-science-1cp2-help` | Edexcel GCSE Computer Science 1CP2 Help |
+| `/epq-computer-science-artefact-mentoring` | EPQ Computer Science Artefact Mentoring |
 | `/euclid-contest-preparation` | Euclid Contest 2027: Date, Marking and Full Solutions |
 | `/fermat-contest-preparation` | Fermat Contest 2027 (Grade 11): Date, Timing, Practice |
 | `/first-competitions-for-primary-school-children-uk` | First Competitions for Primary School Children UK |
 | `/first-lego-league-australia-coding-help` | FIRST LEGO League Australia: Coding Help for Teams |
+| `/first-lego-league-coding-help-usa` | FIRST LEGO League Coding Help USA: BIOGLOW 2026-27 |
 | `/first-lego-league-uk-coding-help` | FIRST LEGO League UK Coding Help |
 | `/free-coding-classes-for-kids-australia-what-you-get` | Free Coding Classes for Kids in Australia: What You Get |
 | `/free-coding-programs-for-high-school-students` | Free Coding Programs for High School Students: What Is Free |
 | `/fryer-galois-hypatia-contests-guide` | Fryer, Galois and Hypatia Contests 2027: A Full Guide |
+| `/ftc-programming-help` | FTC Programming Help: Java and Blocks for BIOBUZZ 2026-27 |
 | `/full-stack-software-development-course-ireland` | Full Stack Software Development Course |
 | `/full-stack-software-development-course-netherlands` | Full Stack Software Development Course, Netherlands |
 | `/full-stack-software-development-course-uk` | Full Stack Software Development Course, UK |
@@ -3395,7 +3643,9 @@ Listed with titles in Appendix C.
 | `/game-programming-course-australia` | Game Programming Course in Australia |
 | `/gauss-contest-preparation` | Gauss Contest 2027 (Grades 7 and 8): Dates and Practice |
 | `/gazette` | The Modern Age Coders Gazette |
+| `/gifted-and-talented-test-prep` | Gifted and Talented Test Prep: An Honest Guide for Ages 6 to 9 |
 | `/girls-programming-network-next-step-australia` | After a Girls' Programming Network Workshop: Next Steps |
+| `/girls-who-code-next-step` | Girls Who Code Next Step: After a GWC Club or Pathways |
 | `/github-classroom-help-for-students` | GitHub Classroom Retired: Help for Students in 2026 |
 | `/github-portfolio-for-students-bahamas` | GitHub Portfolios for Bahamian Students |
 | `/godot-for-kids-and-teens` | Godot for Kids and Teens: Free Engine, GDScript, Real Code |
@@ -3445,6 +3695,7 @@ Listed with titles in Appendix C.
 | `/ioi-olympiad-informatics-training` | IOI and Informatics Olympiad Training |
 | `/ioqm-rmo-inmo-preparation` | IOQM, RMO and INMO Preparation Online: India's Olympiad Pathway |
 | `/is-ap-computer-science-hard` | Is AP Computer Science Hard? CSA and CSP, by the Numbers |
+| `/isef-computer-science-project-mentoring` | ISEF Computer Science Project Mentoring: 2027 Rules Guide |
 | `/java-cannot-find-symbol-error` | Java "cannot find symbol" Error: What It Means and How to Fix It |
 | `/java-certification-course` | Java Certification Course |
 | `/java-classes-for-adults` | Java Classes for Adults |
@@ -3467,6 +3718,7 @@ Listed with titles in Appendix C.
 | `/junior-mathematical-olympiad-preparation` | Junior Mathematical Olympiad Preparation |
 | `/jupyter-notebook-errors-for-students` | Jupyter Notebook Errors: A Fix Guide for Students |
 | `/kids-coding-languages-australia` | Kids Coding Languages: Which One First? Australia Guide |
+| `/ks1-coding-lessons-online` | KS1 Coding Lessons Online |
 | `/ks2-coding-lessons-online` | Key Stage 2 Coding Lessons Online |
 | `/ks3-computing-tuition-online` | Key Stage 3 Computing Tuition Online |
 | `/large-language-models-course` | Large Language Models Course (LLMs) |
@@ -3514,12 +3766,15 @@ Listed with titles in Appendix C.
 | `/natural-language-processing-course` | Natural Language Processing Course (NLP) |
 | `/neural-networks-course` | Neural Networks Course |
 | `/new-computing-gcse-explained` | The New Computing GCSE Explained |
+| `/nnat-test-prep` | NNAT Test Prep: NNAT3 Nonverbal Reasoning for Ages 6 to 9 |
 | `/nsw-selective-test-mathematical-reasoning-practice` | NSW Selective Test Mathematical Reasoning Practice |
 | `/nsw-selective-test-thinking-skills-practice` | NSW Selective Test Thinking Skills Practice |
 | `/numpy-pandas-matplotlib-masterclass` | NumPy, Pandas & Matplotlib Masterclass: Python Data Analysis in Depth |
+| `/nyc-gifted-and-talented-guide` | NYC Gifted and Talented Guide 2027: No Test, Real Readiness |
 | `/oca-java-certification-prep` | OCA Java SE 8 Certification (1Z0-808): Full Exam Guide, Objectives & Live Coaching |
 | `/ocr-a-level-computer-science-h446-help` | OCR A-level Computer Science H446 Help |
 | `/ocr-gcse-computer-science-j277-help` | OCR GCSE Computer Science J277 Help |
+| `/olsat-test-prep` | OLSAT Test Prep: OLSAT-8 Reasoning and Readiness, Ages 6 to 9 |
 | `/one-on-one-ai-classes` | One to One AI Classes |
 | `/one-on-one-coding-tutor-australia` | One-on-One Coding Tutor in Australia |
 | `/one-to-one-coding-classes-in-nassau` | One to One Coding Classes in Nassau |
@@ -3677,6 +3932,7 @@ Listed with titles in Appendix C.
 | `/ontario-coding-curriculum-grades-1-to-8` | Ontario Math Curriculum Coding, Grades 1 to 8, by Grade |
 | `/ontario-computer-science-course-pathway` | Ontario Computer Science Pathway: ICD2O to ICS4U, Grade by Grade |
 | `/ontario-high-school-diploma-credits-explained` | Ontario High School Credits Explained: OSSD Requirements |
+| `/oxford-mat-preparation` | Oxford MAT Preparation: MAT Replaced by the TMUA in 2026 |
 | `/oxford-university-computing-challenge-preparation` | Oxford University Computing Challenge |
 | `/parents-guide-to-vibe-coding` | A Parent's Guide to Vibe Coding |
 | `/pascal-contest-preparation` | Pascal Contest 2027 (Grade 9): Format, Scoring, Practice |
@@ -3724,6 +3980,7 @@ Listed with titles in Appendix C.
 | `/sace-specialist-mathematics-tutoring` | SACE Specialist Mathematics Tutoring |
 | `/school-holiday-coding-course-australia` | School Holiday Coding Course in Australia |
 | `/science-fair-project-ideas-ai` | AI Science Fair Project Ideas That Follow the Actual Rules |
+| `/science-olympiad-coding-events-help` | Science Olympiad Coding Events Help: 2027 Season Guide |
 | `/scottish-mathematical-challenge-practice` | Scottish Mathematical Challenge Practice |
 | `/scratch-coding-classes-for-kids` | Scratch Coding Classes for Kids |
 | `/scratch-not-working-help` | Scratch Not Working? Fixes for Saving, Sign-In and Loading |
@@ -3745,6 +4002,8 @@ Listed with titles in Appendix C.
 | `/team` | Our Team |
 | `/technovation-girls-guide` | Technovation Girls Guide: 2026-27 Divisions, Dates, Rules |
 | `/think-like-a-software-engineer` | Think Like a Software Engineer |
+| `/times-tables-tutor-online-uk` | Times Tables Tutor Online UK |
+| `/tmua-preparation` | TMUA Preparation: Format, 2026 to 2027 Dates and Who Needs It |
 | `/transition-year-coding-course-ireland` | Transition Year Coding Course in Ireland |
 | `/ubc-computer-science-admission-requirements` | UBC Computer Science Admission Requirements, 2027 Entry |
 | `/uk-gcse-computer-science-tutoring` | GCSE Computer Science Tutoring |
@@ -3754,11 +4013,13 @@ Listed with titles in Appendix C.
 | `/understand-the-code-dont-copy-paste-uk` | Understand the Code, Do Not Copy-Paste It |
 | `/unity-for-teens` | Unity for Teens: Age Rules, Free Plans and First C# Scripts |
 | `/uoft-computer-science-admission-requirements` | U of T Computer Science Admission: TAD, TMX and TXC |
+| `/us-gifted-and-selective-school-tests-guide` | Gifted and Talented Tests Explained: CogAT, NNAT, OLSAT, SHSAT |
 | `/usaco-for-canadian-students` | USACO for Canadian Students: How It Differs from the CCC |
 | `/usaco-preparation-online-coaching` | USACO Preparation Online Coaching |
 | `/vce-algorithmics-hess-help` | VCE Algorithmics (HESS) Help |
 | `/vce-applied-computing-data-analytics-help` | VCE Data Analytics Help |
 | `/vce-applied-computing-software-development-help` | VCE Software Development Help |
+| `/vex-iq-programming-help` | VEX IQ Programming Help: Coding Tutorial for 2026-27 |
 | `/vibe-coding-and-ai-agents-classes-in-airdrie` | Vibe Coding and AI Agents Classes in Airdrie |
 | `/vibe-coding-and-ai-agents-classes-in-albany-wa` | Vibe Coding and AI Agents Classes in Albany, WA |
 | `/vibe-coding-and-ai-agents-classes-in-albury-wodonga` | Vibe Coding and AI Agents Classes in Albury-Wodonga |
@@ -4193,9 +4454,9 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "one_to_one": 1,
     "custom_group": "3-10"
   },
-  "courses_live": 137,
+  "courses_live": 142,
   "blog_posts": 176,
-  "live_urls": 2654,
+  "live_urls": 2828,
   "pricing": {
     "coding": {
       "india": {
@@ -4307,7 +4568,9 @@ Paste this block straight into an agent prompt or a retrieval index. Generated f
     "ai-agents-with-microsoft-copilot-studio-course-for-teens": "agents",
     "ai-agents-with-microsoft-copilot-studio-course-for-college-students": "agents",
     "ai-agents-with-microsoft-copilot-studio-masterclass-for-professionals": "agents",
-    "build-ai-agents-with-google-gemini-enterprise-course": "gemini"
+    "build-ai-agents-with-google-gemini-enterprise-course": "gemini",
+    "tmua-mat-step-preparation-course": "maths",
+    "reasoning-and-readiness-course-for-young-thinkers": "maths"
   },
   "retired_never_quote": [
     "Rs 2499",
@@ -4396,6 +4659,46 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Weeks 31-32: Final Papers and a Calm Finish
 
 **Projects students build:** Speed grid week: a daily 5-minute arithmetic grid, times recorded so the child can watch their own speed climb; Personal tables map: each child's slowest facts identified and drilled until they match their fastest; Number detective set: 12 who-am-I number puzzles solved using properties, the kind the 11 plus loves; First mini-paper: a 15-question arithmetic paper under generous timing, reviewed question by question in class; Fraction wall build: each child makes their own fraction wall and uses it to settle five comparison arguments; Conversion pack: a self-made table of the equivalences worth knowing cold, from a half down to a twentieth; Recipe rescale: one real family recipe scaled for 2, 6 and 9 people, with the working presented neatly; Supermarket challenge: real price comparisons worked as best-value problems and written up as answers with reasons; Puzzle exchange: each child writes three think-of-a-number puzzles and solves three written by classmates; Shape fact file: a one-page reference of shape and angle facts in the child's own words and drawings; Room plan: the child's own room measured, drawn to scale and its floor area calculated; Family survey: a small data set collected at home, charted by hand, and turned into three test-style questions; Problem autopsy set: 10 hard word problems dissected in writing, what was given, what was asked, what was the trap; Technique card: each child writes their own one-page test plan, timings, skip rules and reset routine included; Error log finalised: each child's recurring mistakes named, with the fix written next to each - plus 1 more on the course page.
+
+### A Level Computer Science for AQA 7517 and OCR H446
+
+`/courses/a-level-computer-science-course-aqa-ocr` · 9 months (36 weeks) covering the two-year content, joinable any month and paced to the student's year and board · Year 12 and Year 13 students (roughly ages 16 to 18) on AQA 7517 or OCR H446; GCSE Computer Science helps but is not required
+
+  - PHASE 1: Python and Data Foundations (Months 1-3, Weeks 1-12)
+    The programming every later topic depends on, taught in Python, with the data representation theory that both boards examine early.
+    - Month 1: Programming Core in Python
+      - Weeks 1-2: How the Boards Assess, and Python from Solid Ground
+      - Weeks 3-4: Strings, Lists, Files and Exceptions
+    - Month 2: Object-Oriented Programming and Program Structure
+      - Weeks 5-6: Classes, Objects and Encapsulation
+      - Weeks 7-8: Reading Large Programs and Recursion
+    - Month 3: Data Representation and Boolean Logic
+      - Weeks 9-10: Numbers, Bases and Floating Point
+      - Weeks 11-12: Images, Sound, Compression, Encryption and Boolean Algebra
+  - PHASE 2: The Two Exam Disciplines (Months 4-6, Weeks 13-24)
+    Algorithms and computation for the programming paper, and systems theory for the written paper, taught in alternating weeks so both stay sharp.
+    - Month 4: Data Structures and Standard Algorithms
+      - Weeks 13-14: Stacks, Queues, Linked Lists, Trees and Hash Tables
+      - Weeks 15-16: Searching, Sorting, Graph Algorithms and Complexity
+    - Month 5: Theory of Computation and Computer Architecture
+      - Weeks 17-18: Abstraction, Automata and the Limits of Computation
+      - Weeks 19-20: Processors, Memory, Assembly and Operating Systems
+    - Month 6: Networks, Databases, Software and Ethics
+      - Weeks 21-22: Networks, the Internet and Web Technologies
+      - Weeks 23-24: Databases, SQL, Big Data, Functional Programming and Ethics
+  - PHASE 3: Exam Season and Project Method (Months 7-9, Weeks 25-36)
+    The final three months build exam speed on both papers and teach the project method on a practice project, never the student's own NEA.
+    - Month 7: Programming Paper Craft
+      - Weeks 25-26: Skeleton Programs and Pre-Release Thinking (AQA) and Algorithms Under Time (OCR)
+      - Weeks 27-28: The Questions That Separate Answers
+    - Month 8: Theory Paper Craft and Project Method
+      - Weeks 29-30: Extended Answers on the Theory Paper
+      - Weeks 31-32: The Project Method on a Practice Project
+    - Month 9: Full Mocks and Final Review
+      - Weeks 33-34: Back-to-Back Mocks
+      - Weeks 35-36: Final Review and Next Steps
+
+**Projects students build:** A unit converter with validated input, written as small tested subroutines; A quiz engine that reads its questions from a file and saves scores back; A small library system with a class hierarchy and a class diagram; Adapt and extend a 300-line practice program of our own in three requested ways; A base-conversion and two's complement checker in Python; A run-length encoder and decoder, with a written comparison of compression methods; Implement a stack, a queue and a binary search tree as Python classes with tests; A sorting race: time four sorts on growing lists and explain the results with Big O; Code a finite state machine in Python that validates a postcode-style pattern; Write and trace a short assembly-style program in an online simulator; A small client-server message program in Python on one machine; Design a normalised database for a club and query it with SQL from Python; A full mock of the programming paper for the student's board, written by us; A personal answer bank: ten of your own corrected answers to hard question types; A set of model extended answers written by the student and improved after feedback - plus 3 more on the course page.
 
 ### A Level Further Maths: Core Pure and Applied Options
 
@@ -6175,6 +6478,31 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Demo Day and What Comes Next
 
 **Projects students build:** Animated greeting card; Pet animation with sounds; Interactive 'About Me' project; Animated story with 3 scenes; Dancing party animation; Virtual pet that moves and makes sounds; Interactive quiz game; Virtual piano/musical instrument; Dress-up game with clickable items; Catch the falling objects game; Simple maze game; Whack-a-mole style game; Number guessing game; Geometric art generator; Pattern-based puzzle game - plus 97 more on the course page.
+
+### College Math Placement Test Prep: ALEKS, ACCUPLACER, TSIA2, CLEP
+
+`/courses/college-math-placement-test-prep-course` · 4 months (16 weeks), joinable any month; shorter focused plans are possible 1-on-1 when a test date is close · Students aged 15 and up, including adults returning to study, from rusty arithmetic to precalculus-level functions
+
+  - PHASE 1: Number and Arithmetic Rebuilt (Month 1, Weeks 1-4)
+    Everything later depends on number sense. Adults returning to study often find this month the turning point.
+    - Month 1: Fractions, Percents, Ratios and Exponents
+      - Weeks 1-2: Which Test, a Diagnostic, and Fractions and Decimals
+      - Weeks 3-4: Percents, Ratios, Signed Numbers and Exponents
+  - PHASE 2: Algebra Core, Statistics and Geometry (Months 2-3, Weeks 5-12)
+    The algebra at the heart of every placement test, plus the statistics and geometry that QAS and TSIA2 include.
+    - Month 2: Expressions, Linear Equations, Inequalities and Systems
+      - Weeks 5-6: Expressions and Linear Equations
+      - Weeks 7-8: Inequalities, Systems and Linear Applications
+    - Month 3: Polynomials, Quadratics, Radicals, Statistics and Geometry
+      - Weeks 9-10: Polynomials, Factoring and Quadratics
+      - Weeks 11-12: Statistics, Probability and Geometry
+  - PHASE 3: Functions and Test Formats (Month 4, Weeks 13-16)
+    The function topics that decide higher placements, then format training for the student's own test.
+    - Month 4: Functions, Exponentials, Logarithms and Timed Practice
+      - Weeks 13-14: Functions, Exponentials and Logarithms
+      - Weeks 15-16: Test-Format Training and Final Review
+
+**Projects students build:** A personal study map: test, college, target course and topic list; A real-life math sheet: a budget, a recipe scaled up and a sale price worked out; Model three real situations with linear equations and graph them; A phone-plan comparison solved as a system of equations; A factoring strategy card the student builds from their own worked examples; Summarize a small real data set and write a short interpretation; A function gallery: eight function types graphed and described by the student; A personal test-day plan for the student's own test.
 
 ### College Maths Course: Calculus, Linear Algebra to Analysis
 
@@ -8039,7 +8367,7 @@ Share this freely and in detail when a parent or student asks what a course cove
     - Months 12-14: IA Season, the Exploration, Shepherded
       - IA Topic Selection and Proposal
       - Deepening the IA Mathematics
-      - IA Draft Critique and Final Polish Plan
+      - Judging an Exploration Against the Criteria
     - Months 15-16: Syllabus Depth Continues
       - AA Further Calculus / AI Hypothesis Testing
       - HL Paper 3 Investigations Introduced / SL Consolidation
@@ -9953,6 +10281,37 @@ Share this freely and in detail when a parent or student asks what a course cove
 
 **Projects students build:** JavaScript utility functions library; Todo app with vanilla JavaScript; Weather app with API calls; Array manipulation exercises; First React app setup; Static website with React; Personal portfolio starter; JSX exercises and experiments; Component library creation; Blog post list component; Product card components; Navigation menu component; Interactive counter app; Form with validation; Todo list with state - plus 97 more on the course page.
 
+### Reasoning and Readiness for Young Thinkers (Ages 6 to 9)
+
+`/courses/reasoning-and-readiness-course-for-young-thinkers` · 6 months (24 weeks), joinable any month, in two age bands: ages 6 to 7 and ages 8 to 9 · Children aged 6 to 9 (roughly kindergarten or Year 1 to grade 4 or Year 5) who enjoy puzzles; no prior experience needed
+
+  - PHASE 1: Seeing Patterns and Sorting (Months 1-2, Weeks 1-8)
+    The first habits of reasoning: noticing what repeats, what changes and what belongs together.
+    - Month 1: Patterns All Around
+      - Weeks 1-2: Repeating Patterns and What Comes Next
+      - Weeks 3-4: Growing Patterns and Shape Changes
+    - Month 2: Alike, Different and Belonging Together
+      - Weeks 5-6: Sorting and Classifying
+      - Weeks 7-8: Analogies and Relationships
+  - PHASE 2: Spatial and Quantitative Reasoning (Months 3-4, Weeks 9-16)
+    Thinking with shapes in space, and thinking with numbers, both built on hands-on play before pictures.
+    - Month 3: Turning, Flipping and Folding
+      - Weeks 9-10: Rotations, Reflections and Shape Puzzles
+      - Weeks 11-12: Folding, Cutting and Picturing
+    - Month 4: Number Sense and Quantitative Reasoning
+      - Weeks 13-14: Number Sense That Runs Deep
+      - Weeks 15-16: Balances, Number Series and Number Puzzles
+  - PHASE 3: Putting It Together (Months 5-6, Weeks 17-24)
+    Harder mixed puzzles, explaining thinking clearly, and a calm, honest look at what a group screening feels like.
+    - Month 5: Multi-Step Puzzles and Explaining Your Thinking
+      - Weeks 17-18: Puzzles With Two Rules
+      - Weeks 19-20: Listening, Choosing and Checking
+    - Month 6: Familiarity, Confidence and Celebration
+      - Weeks 21-22: What a Group Screening Is Like
+      - Weeks 23-24: Puzzle Portfolio and Next Steps
+
+**Projects students build:** A pattern necklace or pattern strip the child designs and explains; Build a growing pattern with blocks and draw the next two steps; A family sorting game the child invents and teaches at home; Draw three picture analogies of your own for the class to solve; A tangram picture book: five pictures built and named by the child; A folding and cutting predictions journal, checked with real paper each time; A number-line wall chart the child builds and uses in class; Invent a number series puzzle and a balance puzzle for the class; A two-rule puzzle the child designs, with a written or spoken explanation; A puzzle trail around the home with clues the child follows; A calm-day plan made with the child, in pictures; A puzzle portfolio: the child's own invented puzzles from the course.
+
 ### Roblox Game Coding for Kids: Build Real Games in Luau
 
 `/courses/roblox-game-coding-for-kids-lua-course` · 6 months (24 weeks) · Beginner, ages 8 to 14
@@ -10044,6 +10403,37 @@ Share this freely and in detail when a parent or student asks what a course cove
     - Final Projects and Portfolio
 
 **Projects students build:** THE CAPSTONE: an original game designed and built by the child, with levels, scoring and a polished start screen; Classic picks: an RPG adventure with quests, an educational quiz world, or an arcade game with increasing difficulty; A portfolio page collecting the course’s best 10 projects.
+
+### SHSAT Math Prep: NYC Specialized High Schools Test
+
+`/courses/shsat-math-prep-course` · 6 months (24 weeks) per cycle, joinable any month; families usually start in grade 7 for the fall test in grade 8 · Students in grades 7 to 9 (roughly ages 12 to 15) who are confident with grade-level math and want to work on harder multi-step problems
+
+  - PHASE 1: Number Fluency Without a Calculator (Months 1-2, Weeks 1-8)
+    The arithmetic that every SHSAT math question rests on, made fast and accurate, plus the reading routine for word problems.
+    - Month 1: Rational Numbers and the Problem Routine
+      - Weeks 1-2: How the Adaptive SHSAT Works and a Starting Diagnostic
+      - Weeks 3-4: Fractions, Decimals and Negative Numbers
+    - Month 2: Number System, Exponents and Percents
+      - Weeks 5-6: Factors, Primes, Exponents and Roots
+      - Weeks 7-8: Percents, Percent Change and Multi-Step Number Problems
+  - PHASE 2: The SHSAT Math Content Areas (Months 3-4, Weeks 9-16)
+    Each content area NYC Public Schools names for the math section, taught at the depth multi-step questions need.
+    - Month 3: Ratios, Expressions, Equations and Inequalities
+      - Weeks 9-10: Ratios, Rates and Proportional Relationships
+      - Weeks 11-12: Expressions, Linear Equations and Inequalities
+    - Month 4: Statistics, Probability and Geometry
+      - Weeks 13-14: Statistics and Probability
+      - Weeks 15-16: Geometry and Measurement
+  - PHASE 3: Test Craft for the Adaptive Format (Months 5-6, Weeks 17-24)
+    Pacing, accuracy and calm on a long test where each question must be answered before the next appears.
+    - Month 5: One Question at a Time
+      - Weeks 17-18: Pacing and Decision-Making
+      - Weeks 19-20: Weak-Spot Repair
+    - Month 6: Final Practice and Test Day
+      - Weeks 21-22: Final Timed Practice
+      - Weeks 23-24: Test Week and Beyond
+
+**Projects students build:** A personal starting profile: strengths, gaps and a target topic list; A no-calculator speed sheet of our own, retaken weekly to track accuracy and time; An original number-puzzle set, each solution explained in two sentences; Write and solve three original multi-step percent problems for a classmate; A ratio problem pack of our own, each problem solved two ways; An equation-building challenge: turn ten original word problems into equations, then solve; Collect a small data set, summarize it and write three probability questions about it; A personal formula sheet built from memory, then tested with original problems; Two full timed math sections of our own, each followed by a written pacing review; A weak-spot plan with three topics, each with a completed problem set; A written test-day plan: section order, pacing checkpoints and checks; Write a full solution to your favorite problem of the course for a newer student.
 
 ### Statistics & Probability: Data to Hypothesis Testing
 
@@ -10148,6 +10538,37 @@ Share this freely and in detail when a parent or student asks what a course cove
       - Demo Day and the Final Exam
 
 **Projects students build:** Hello World variations with personalized messages in Playground; Simple output programs using print() function; Personal information display program; ASCII art generator in Swift Playground; Interactive Playground with markdown documentation; Simple calculator (four basic operations) in Playground; Temperature converter (Celsius, Fahrenheit, Kelvin); Age calculator with optional handling; BMI calculator with health categories; Currency converter with type safety; Area and perimeter calculator for shapes; Compound interest calculator; String formatter and validator; Number guessing game with attempts limit; Grade calculator with letter grades using switch - plus 258 more on the course page.
+
+### TMUA and STEP Preparation (Oxford MAT Now TMUA)
+
+`/courses/tmua-mat-step-preparation-course` · 6 months (24 weeks) per stage: a TMUA stage for Year 12 and early Year 13, and a STEP stage for Year 13 offer-holders; joinable any month · Year 12 and Year 13 students (roughly ages 16 to 18) taking A Level Maths, ideally with Further Maths, who enjoy hard problems
+
+  - PHASE 1: TMUA Content Fluency (Months 1-2, Weeks 1-8)
+    UAT-UK's Section 1 knowledge, made fast and flexible without a calculator, and used in problems that do not look like textbook exercises.
+    - Month 1: Algebra, Functions and Sequences
+      - Weeks 1-2: The Tests, a Diagnostic and Algebra Without a Calculator
+      - Weeks 3-4: Polynomials, Inequalities, Sequences and Series
+    - Month 2: Coordinate Geometry, Trigonometry, Logarithms and Calculus
+      - Weeks 5-6: Coordinate Geometry, Circles and Trigonometry
+      - Weeks 7-8: Differentiation and Integration
+  - PHASE 2: Mathematical Reasoning for TMUA Paper 2 (Months 3-4, Weeks 9-16)
+    UAT-UK's Section 2: the logic of arguments and mathematical proof, taught from first principles and then tested under time.
+    - Month 3: The Logic of Arguments
+      - Weeks 9-10: Statements, Implication and Quantifiers
+      - Weeks 11-12: Proof Methods and Counterexamples
+    - Month 4: Finding Errors in Proofs and Timed TMUA Papers
+      - Weeks 13-14: Identifying Errors in Proofs
+      - Weeks 15-16: Full TMUA-Style Practice
+  - PHASE 3: STEP 2 and STEP 3 (Months 5-6, Weeks 17-24)
+    For students holding or expecting STEP offers: the specification's pure, mechanics and probability content stretched to STEP depth, and long solutions written in full.
+    - Month 5: STEP Pure Mathematics
+      - Weeks 17-18: How STEP Is Built, and Pure Problems That Take Time
+      - Weeks 19-20: Calculus, Series and Complex Numbers at STEP Depth
+    - Month 6: Mechanics, Probability and the June 2027 Papers
+      - Weeks 21-22: Mechanics and Probability Questions
+      - Weeks 23-24: Full Papers and the June Sittings
+
+**Projects students build:** A personal starting profile: target tests, target universities and ten solved warm-ups; Write and solve five original problems that each hide a factorisation; An original geometry pack where every answer starts from a careful sketch; A calculus problem set of our own with one written explanation per answer; A logic glossary written in the student's own words with one original example each; Five short proofs of original statements, each written up twice: once rough, once clean; Write three deliberately flawed proofs of our own design and swap them with a classmate to find the errors; Two full timed TMUA-style papers of our own, each followed by a written review; Two long original problems written up in full, then rewritten after detailed feedback; A personal technique file: twelve methods, each with an original example; Two applied problems of our own written up in full with diagrams; A final full paper reviewed one to one with the teacher.
 
 ### Trading Automation Course: Bots, Backtesting & Systems
 

@@ -1,35 +1,37 @@
 # Modern Age Coders: Course & Pricing Guide for WhatsApp Agents
 
-_Generated 2026-09-24 from the live pricing config. Regenerate with `node scripts/gen-whatsapp-agent-guide.js` after any change._
+_Generated 2026-11-01 from the live pricing config. Regenerate with `node scripts/gen-whatsapp-agent-guide.js` after any change._
 
 ## How to use this guide (instructions for the AI agent)
 
 - Always share the course LINK when discussing a course; the page has the full, always-current details.
 - When a parent or student asks about the CURRICULUM or PROJECTS, share the outline and project list from this guide for that course in detail, then the link for the complete week-by-week plan. Be transparent, parents should be able to check everything.
 - PRICING RULES, follow exactly:
-  - Quote ONLY the fee that applies to where the family lives. If they are in India, give the rupee fee; if they are anywhere else, give the dollar fee. Never say "the Indian price is X and the international price is Y", one person gets one price: theirs.
+  - Quote ONLY the fee that applies to where the family lives. If they are in India, give the rupee fee; in Canada, the CAD fee (CAD 140 group, CAD 210 1-on-1); anywhere else, the dollar fee. Never say "the Indian price is X and the international price is Y", one person gets one price: theirs.
   - Answer only the pricing question they asked. Do not volunteer other plans, other regions, or extra pricing commentary. If they ask "what does it cost", give the group fee and mention 1-on-1 exists if they want personal attention, nothing more.
-  - Quote fees exactly as written here. Never invent discounts.
-- Every course includes a FREE demo class first, always offer to book it (share https://learn.modernagecoders.com/contact/ or take their phone number for a callback).
+  - Quote fees exactly as written here. Never invent discounts. The published saving is paying 6 months at once (India 20% off, abroad 25% off; not on courses under 6 months); unused sessions are refunded if the student stops.
+  - A 2.5% payment gateway charge is added at checkout and shown on the bill. It is not refunded.
+- Always offer a demo: the Priority Live Demo (paid, guaranteed today or tomorrow, fee adjusted against the first month) at https://learn.modernagecoders.com/priority-demo, or the free demo, which is a waiting list with no fixed date.
+- Families outside India pick times in their own local clock; never quote IST to them.
 - Classes are LIVE with a real teacher (never recordings), for ages 6 to 67.
 - CLASS FREQUENCY, differs by plan and region, do not blur them:
   - Group and Mini Batch: 2 classes a week, 8 a month.
-  - 1-on-1 in India: 1 private class a week, 4 a month.
+  - 1-on-1 in India: 4 private classes a month, on a fully flexible schedule (never call it a fixed weekly class).
   - 1-on-1 outside India: 2 private classes a week, 8 a month.
 
 ## Fee reference (internal, quote only the line that matches the asker)
 
 | Plan | If the student is in India | If the student is outside India |
 |---|---|---|
-| Group class (max 10 students) | ₹1,499/month | $100/month |
-| Mini Batch (3-4 students, India only) | ₹2,999/month | not offered |
-| Personalized 1-on-1 | ₹4,999/month (1 class a week, 4 a month) | $150/month (2 classes a week, 8 a month) |
+| Group class (15 to 20 students) | ₹1,499/month | $100/month |
+| Mini Batch (up to 6 students, India only) | ₹2,999/month | not offered |
+| Personalized 1-on-1 | ₹4,999/month (4 private classes a month, flexible timing) | $150/month (2 classes a week, 8 a month) |
 
 Courses with their own fees are marked on their entries below.
 
 ## Holiday camps (Summer & Winter)
 
-One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized one-to-one classes** with a dedicated mentor. All ages, three tracks:
+One-time fee: **₹9,999 (India) / CAD 280 (Canada) / $200 (elsewhere)** for **8 personalized one-to-one classes** with a dedicated mentor. All ages, three tracks:
 
 - Summer camp hub: https://learn.modernagecoders.com/summer-coding-camp
   - Kids: https://learn.modernagecoders.com/summer-coding-camp-kids · Teens: https://learn.modernagecoders.com/summer-coding-camp-teens · Adults: https://learn.modernagecoders.com/summer-coding-camp-adults
@@ -38,7 +40,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 
 ---
 
-## All courses (122)
+## All courses (142)
 
 ### A Level Computer Science
 
@@ -105,6 +107,55 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
       - Second Full Set of Both
       - Exam Readiness
 - Career paths after completion: A strong AS or A Level Computer Science grade across all papers taken; A genuine programming ability, evidenced by Paper 4 rather than claimed; A foundation for a computer science degree that assumes data structures and recursion; The pseudocode and design habits that university algorithms courses assume; A portfolio of working programs if the practical work is committed as it is written
+
+### A Level Computer Science for Teens
+
+#### A Level Computer Science for AQA 7517 and OCR H446
+
+- Link: https://learn.modernagecoders.com/courses/a-level-computer-science-course-aqa-ocr
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 9 months (36 weeks) covering the two-year content, joinable any month and paced to the student's year and board
+- Level: Year 12 and Year 13 students (roughly ages 16 to 18) on AQA 7517 or OCR H446; GCSE Computer Science helps but is not required
+- About: Live online A Level Computer Science for AQA 7517 and OCR H446, ages 16 to 18: Python, both exam papers' topics, timed practice and NEA method mentoring.
+- Who it is for: Year 12 and 13 students on AQA 7517 who want confident Python for Paper 1 and clear theory for Paper 2; Year 12 and 13 students on OCR H446 preparing for Computer systems (01) and Algorithms and programming (02); Students who started A Level Computer Science without GCSE Computer Science and need the foundations quickly; Students who already code well but lose marks on written theory answers; Students planning to apply for computer science, engineering or mathematics at university
+- Prerequisites: programming: None required to start; the first month rebuilds Python from the beginning. Any GCSE Computer Science or prior coding helps · maths: Comfortable with GCSE Maths, especially algebra and number · age: Roughly 16 to 18, in Year 12 or Year 13 on AQA 7517 or OCR H446 · equipment: A computer with stable internet and Python installed (we help set it up in the first class)
+- Curriculum outline:
+  - PHASE 1: Python and Data Foundations (Months 1-3, Weeks 1-12)
+    The programming every later topic depends on, taught in Python, with the data representation theory that both boards examine early.
+    - Month 1: Programming Core in Python
+      - Weeks 1-2: How the Boards Assess, and Python from Solid Ground
+      - Weeks 3-4: Strings, Lists, Files and Exceptions
+    - Month 2: Object-Oriented Programming and Program Structure
+      - Weeks 5-6: Classes, Objects and Encapsulation
+      - Weeks 7-8: Reading Large Programs and Recursion
+    - Month 3: Data Representation and Boolean Logic
+      - Weeks 9-10: Numbers, Bases and Floating Point
+      - Weeks 11-12: Images, Sound, Compression, Encryption and Boolean Algebra
+  - PHASE 2: The Two Exam Disciplines (Months 4-6, Weeks 13-24)
+    Algorithms and computation for the programming paper, and systems theory for the written paper, taught in alternating weeks so both stay sharp.
+    - Month 4: Data Structures and Standard Algorithms
+      - Weeks 13-14: Stacks, Queues, Linked Lists, Trees and Hash Tables
+      - Weeks 15-16: Searching, Sorting, Graph Algorithms and Complexity
+    - Month 5: Theory of Computation and Computer Architecture
+      - Weeks 17-18: Abstraction, Automata and the Limits of Computation
+      - Weeks 19-20: Processors, Memory, Assembly and Operating Systems
+    - Month 6: Networks, Databases, Software and Ethics
+      - Weeks 21-22: Networks, the Internet and Web Technologies
+      - Weeks 23-24: Databases, SQL, Big Data, Functional Programming and Ethics
+  - PHASE 3: Exam Season and Project Method (Months 7-9, Weeks 25-36)
+    The final three months build exam speed on both papers and teach the project method on a practice project, never the student's own NEA.
+    - Month 7: Programming Paper Craft
+      - Weeks 25-26: Skeleton Programs and Pre-Release Thinking (AQA) and Algorithms Under Time (OCR)
+      - Weeks 27-28: The Questions That Separate Answers
+    - Month 8: Theory Paper Craft and Project Method
+      - Weeks 29-30: Extended Answers on the Theory Paper
+      - Weeks 31-32: The Project Method on a Practice Project
+    - Month 9: Full Mocks and Final Review
+      - Weeks 33-34: Back-to-Back Mocks
+      - Weeks 35-36: Final Review and Next Steps
+- Projects students build: A unit converter with validated input, written as small tested subroutines; A quiz engine that reads its questions from a file and saves scores back; A small library system with a class hierarchy and a class diagram; Adapt and extend a 300-line practice program of our own in three requested ways; A base-conversion and two's complement checker in Python; A run-length encoder and decoder, with a written comparison of compression methods; Implement a stack, a queue and a binary search tree as Python classes with tests; A sorting race: time four sorts on growing lists and explain the results with Big O; Code a finite state machine in Python that validates a postcode-style pattern; Write and trace a short assembly-style program in an online simulator; A small client-server message program in Python on one machine; Design a normalised database for a club and query it with SQL from Python; A full mock of the programming paper for the student's board, written by us; A personal answer bank: ten of your own corrected answers to hard question types; A set of model extended answers written by the student and improved after feedback, plus 3 more on the course page
+- Career paths after completion: Computer science, software engineering or data science at university; Mathematics or engineering degrees that use programming heavily; Data structures and algorithms in more depth through our DSA and competitive programming courses; Degree apprenticeships in software development; Personal projects, open-source work and programming contests
 
 ### Advanced Placement Computer Science
 
@@ -1443,6 +1494,44 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 
 ### C++ Programming
 
+#### C++ for Kids: First Real Code, Games and Puzzles (Ages 9-12)
+
+- Link: https://learn.modernagecoders.com/courses/cpp-programming-for-kids-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks)
+- Level: Complete beginner to text coding, ages 9 to 12
+- About: C++ course for kids aged 9 to 12: live online classes from a first program to loops, functions, vectors and text games, taught slowly and clearly in 6 months.
+- Who it is for: Children who have done block coding and are ready for real typed code; Children who have never coded and want to start with a language that teaches careful thinking; Kids who enjoy logic puzzles, codes and number games; Children who might enjoy programming contests later and want the right foundation now; Parents who want their child ready for C++ for Teens or computer science at school
+- Prerequisites: coding experience: None required. Children who have tried Scratch or similar often settle in faster, but it is not needed · computer skills: Can type short words, use a mouse and open a browser · equipment: A laptop or desktop with a stable internet connection. We start with a free online C++ compiler in the browser, so nothing needs installing at first · age: 9 to 12. Teens aged 13 and up should take our C++ for Teens course instead
+- Curriculum outline:
+  - PHASE 1: First Programs (Months 1-2, Weeks 1-8)
+    From what a program is to loops that draw patterns and run games. Every concept is shown on paper first, then typed, run and changed.
+    - Month 1: Hello, C++
+      - Weeks 1-2: What Code Is and Your First Program
+      - Weeks 3-4: Variables, Input and Arithmetic
+    - Month 2: Decisions and Loops
+      - Weeks 5-6: If, Else and Making Choices
+      - Weeks 7-8: Loops That Repeat
+  - PHASE 2: Building Blocks (Months 3-4, Weeks 9-16)
+    The tools that let programs grow without getting messy: functions, lists, text and grouped data, each taught inside a small game or tool.
+    - Month 3: Functions and Vectors
+      - Weeks 9-10: Functions
+      - Weeks 11-12: Lists with Vectors
+    - Month 4: Strings and Structs
+      - Weeks 13-14: Working with Text
+      - Weeks 15-16: Grouping Data with Structs
+  - PHASE 3: Games and Puzzles (Months 5-6, Weeks 17-24)
+    Everything comes together in bigger text games, grid puzzles and the short problem-solving tasks used in programming contests, ending with a capstone each child designs.
+    - Month 5: Bigger Games
+      - Weeks 17-18: Random Numbers and a Text Adventure
+      - Weeks 19-20: Grids and Nested Loops
+    - Month 6: Contest Puzzles and the Capstone
+      - Weeks 21-22: Thinking Like a Problem Solver
+      - Weeks 23-24: Capstone Project and Showcase
+- Projects students build: Name banner: a program that prints a decorated banner with the student's name and favourite things; Pocket calculator and age-in-days converter that ask the user for numbers and print answers; Quiz show: a five-question quiz that keeps score and gives a message based on the result; Times-table trainer and a number guessing game that says higher or lower until the player wins; Shape helper: functions that draw squares and triangles and work out area and perimeter; High score board: enter scores, sort them and print the top five with medals beside them; Secret code machine: a shift cipher that encodes and decodes messages between friends; Virtual pet: a pet that gets hungry and bored over time and responds to feeding and play commands; Dungeon adventure: a text adventure with rooms, random encounters, an inventory and a win condition; Tic-tac-toe for two players and a maze game where the player finds the exit; Puzzle notebook: eight short contest-style problems solved, each with a sentence on the idea behind it; Capstone: an original game or tool planned, built and presented by the student
+- Career paths after completion: Our C++ for Teens course, which adds pointers, object-oriented programming, the STL and data structures; Contest practice toward USACO Bronze, with a teacher guiding the next set of problems; Python for Kids or Teens, where the same ideas move much faster; Game development courses, where loops, functions and data structures are used every day; School computing clubs and projects, joined with real programming experience
+
 #### C++ for Teens: Fundamentals, STL, DSA and Real Games
 
 - Link: https://learn.modernagecoders.com/courses/cpp-programming-masterclass-for-teens
@@ -1769,6 +1858,40 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 - Projects students build: Epsilon-delta proof visualizer; Limit calculator implementation; Continuity explorer interactive tool; Derivative visualizer application; Automatic differentiation engine; Physics motion simulator; Optimization problem solver; Curve sketching software; Newton's method visualizer; Riemann sum visualizer; Numerical integration calculator; Volume calculator for solids of revolution; Advanced integration solver; Numerical methods comparison tool; Physics applications simulator, plus 108 more on the course page
 - Career paths after completion: Graduate study: Track 3 is precisely the core masters admissions and entrance tests assume; Data science and machine learning: the linear algebra, probability and optimization this program builds is the honest prerequisite; Quantitative finance and analytics: probability and methods from Track 2 carry directly; Research foundations: proof craft and analysis are the entry ticket to serious mathematics; Teaching and mentoring: mathematics understood deeply enough to explain simply
 
+### College Readiness Maths for Teens and Adults
+
+#### College Math Placement Test Prep: ALEKS, ACCUPLACER, TSIA2, CLEP
+
+- Link: https://learn.modernagecoders.com/courses/college-math-placement-test-prep-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 4 months (16 weeks), joinable any month; shorter focused plans are possible 1-on-1 when a test date is close
+- Level: Students aged 15 and up, including adults returning to study, from rusty arithmetic to precalculus-level functions
+- About: Live online college math placement prep for ages 15 and up: ALEKS PPL, ACCUPLACER QAS and AAF, TSIA2 math and CLEP College Algebra, from arithmetic to functions.
+- Who it is for: High school students heading to college or dual credit who must take a placement test; Adults going back to college after years away from math; Students entering Texas public colleges who need the TSIA2 math test; Students who want to earn College Algebra credit by exam through CLEP, where their college accepts it; Students who placed lower than they hoped and want to relearn the math before an allowed retest
+- Prerequisites: math level: Any starting point; the diagnostic places each student · age: 15 and up, including adults returning to study · equipment: A computer with stable internet, paper and a pencil, and a basic scientific calculator for CLEP practice · test registration: Placement tests are booked through your college or testing center, not through us
+- Curriculum outline:
+  - PHASE 1: Number and Arithmetic Rebuilt (Month 1, Weeks 1-4)
+    Everything later depends on number sense. Adults returning to study often find this month the turning point.
+    - Month 1: Fractions, Percents, Ratios and Exponents
+      - Weeks 1-2: Which Test, a Diagnostic, and Fractions and Decimals
+      - Weeks 3-4: Percents, Ratios, Signed Numbers and Exponents
+  - PHASE 2: Algebra Core, Statistics and Geometry (Months 2-3, Weeks 5-12)
+    The algebra at the heart of every placement test, plus the statistics and geometry that QAS and TSIA2 include.
+    - Month 2: Expressions, Linear Equations, Inequalities and Systems
+      - Weeks 5-6: Expressions and Linear Equations
+      - Weeks 7-8: Inequalities, Systems and Linear Applications
+    - Month 3: Polynomials, Quadratics, Radicals, Statistics and Geometry
+      - Weeks 9-10: Polynomials, Factoring and Quadratics
+      - Weeks 11-12: Statistics, Probability and Geometry
+  - PHASE 3: Functions and Test Formats (Month 4, Weeks 13-16)
+    The function topics that decide higher placements, then format training for the student's own test.
+    - Month 4: Functions, Exponentials, Logarithms and Timed Practice
+      - Weeks 13-14: Functions, Exponentials and Logarithms
+      - Weeks 15-16: Test-Format Training and Final Review
+- Projects students build: A personal study map: test, college, target course and topic list; A real-life math sheet: a budget, a recipe scaled up and a sale price worked out; Model three real situations with linear equations and graph them; A phone-plan comparison solved as a system of equations; A factoring strategy card the student builds from their own worked examples; Summarize a small real data set and write a short interpretation; A function gallery: eight function types graphed and described by the student; A personal test-day plan for the student's own test
+- Career paths after completion: College Algebra, Statistics or Precalculus at college with a strong base; Further college math through our college mathematics course; Statistics and probability in depth through our statistics course; Programming and data analysis, which build on algebra and functions; Nursing, business, education and technical programs that require college math
+
 ### College-Level Software Engineering
 
 #### Vibe Coding for College: Full Stack, AI & DSA (Ages 18+)
@@ -1877,7 +2000,134 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 - Projects students build: Solve 50 AMC 8 problems; Create problem-solving strategy guide; Analyze past competition papers; Implement prime generation algorithms; Solve 30 number theory competition problems; Create divisibility proof portfolio; Modular arithmetic problem set; CRT application problems; Create modular arithmetic reference guide; Advanced number theory problem collection; Historical theorems exploration; IMO number theory problems analysis; Combinatorial identity proofs; Counting problems compilation; Create combinatorics formula sheet, plus 102 more on the course page
 - Career paths after completion: International Mathematical Olympiad Participant; National Olympiad Team Member; University Mathematics Major; Mathematics Research Career; Quantitative Finance Analyst
 
+#### Middle School Math Competitions: MATHCOUNTS, AMC 8 and Math Kangaroo Prep
+
+- Link: https://learn.modernagecoders.com/courses/middle-school-math-competitions-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks), repeatable as a second season with new problem sets
+- Level: Students roughly aged 10 to 14 (grades 5 to 8) who are comfortable with school maths and want more challenge
+- About: Live online math competition prep for ages 10 to 14: number theory, counting, algebra and geometry problem solving for MATHCOUNTS, AMC 8 and Math Kangaroo, with timed rounds.
+- Who it is for: Students who are good at school maths and want to try their first competition; Students who have taken part before and want a structured toolkit and stronger timing; Students aiming to join or contribute to a school MATHCOUNTS team; Students preparing for Math Kangaroo or the AMC 8 who want more than past-paper drilling; Children who simply enjoy puzzles and want maths that is harder and more interesting than school
+- Prerequisites: maths level: Comfortable with school maths at grade level, including fractions, decimals and basic equations. No contest experience needed · age: Roughly 10 to 14 (grades 5 to 8). Younger students who are strong at maths are welcome after the free demo · equipment: A device with stable internet for live classes, paper and pencil, and a basic calculator for Target and Team practice · timing: Joinable any month. Starting several months before a contest leaves time for both the toolkit and the timed mocks
+- Curriculum outline:
+  - PHASE 1: The Problem-Solving Base (Months 1-2, Weeks 1-8)
+    Fast, reliable number work and the first big competition ideas: divisibility, primes, ratios and counting.
+    - Month 1: Number Sense and Number Theory
+      - Weeks 1-2: Diagnostic, Contest Formats and Fast Arithmetic
+      - Weeks 3-4: Primes, Factors and Divisibility
+    - Month 2: Ratios, Word Problems and Counting
+      - Weeks 5-6: Ratios, Rates and Algebra Word Problems
+      - Weeks 7-8: Counting Basics
+  - PHASE 2: Core Contest Topics (Months 3-4, Weeks 9-16)
+    Probability, geometry and the patterns and logic questions that appear across all three contests.
+    - Month 3: Probability and Plane Geometry
+      - Weeks 9-10: Probability
+      - Weeks 11-12: Angles, Triangles and Area
+    - Month 4: Circles, Solids, Patterns and Logic
+      - Weeks 13-14: Circles and Solids
+      - Weeks 15-16: Patterns, Sequences, Remainders and Logic
+  - PHASE 3: Contest Craft and Mock Contests (Months 5-6, Weeks 17-24)
+    Turning knowledge into results on the day: round-by-round strategy for MATHCOUNTS, multiple-choice technique for the AMC 8 and Math Kangaroo, and full mock contests.
+    - Month 5: MATHCOUNTS Round Strategy
+      - Weeks 17-18: Sprint and Countdown Speed
+      - Weeks 19-20: Target and Team Strategy
+    - Month 6: Multiple-Choice Craft and Mock Contests
+      - Weeks 21-22: Multiple-Choice Technique for the AMC 8 and Math Kangaroo
+      - Weeks 23-24: Final Mocks and the Next Season
+- Projects students build: Personal diagnostic summary with three target topics and an opened error log; Number theory toolkit page: each rule with a worked contest-style example; Word problem casebook: ten problem types, each with a model solution; Counting toolkit page: when to list, multiply, arrange, choose or subtract; Probability lab: run a small experiment, compare it with the calculated answer and explain the difference; Geometry fact sheet with a diagram for every fact; Shaded-region and solids casebook with ten worked problems; Patterns and logic casebook, with a one-line explanation of why each pattern holds; Two timed Sprint-style rounds with a personal pacing plan written after each; Full MATHCOUNTS-style mock: Sprint, Target and Team rounds, with a written review; Timed multiple-choice mock papers in the AMC 8 and Math Kangaroo styles, with written reviews; Final mock contest and a personal next-season plan based on the error log
+- Career paths after completion: A second season of this course with new problem sets, aimed at the next contest year; Our Olympiad Mathematics course, for proof-based problems and high school contests; Algebra and high school maths courses, started with a strong problem-solving base; Coding courses, where the same logical habits carry straight into programming; School maths clubs and team competitions, joined with real preparation
+
+#### Waterloo Math Contests: Gauss to Euclid
+
+- Link: https://learn.modernagecoders.com/courses/waterloo-math-contests-gauss-to-euclid-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks) per season, joinable any month and timed to the CEMC contests each student will write
+- Level: Students roughly aged 11 to 18 (Grades 7 to 12) who are comfortable with school math and want harder problems, in a Gauss track (Grades 7 and 8), a Grades 9 and 10 track and a Grades 11 and 12 track
+- About: Live online prep for CEMC's Waterloo math contests, ages 11 to 18: Gauss, Pascal, Cayley, Fermat, Euclid, Fryer, Galois, Hypatia, CIMC and CSMC, with grade tracks and proof writing.
+- Who it is for: Grade 7 and 8 students who enjoy puzzles and want to write the Gauss with real preparation; Students preparing for the Pascal, Cayley, Fryer, Galois or CIMC; Students preparing for the Fermat, Hypatia, CSMC or Euclid, including full-solution writing; Students who wrote a CEMC contest before and want to reach the harder questions; Students who find school math easy and want problems that make them think
+- Prerequisites: math level: Comfortable with school math for the student's grade, and happy to spend time on a hard problem · age: Roughly 11 to 18 (Grades 7 to 12). The track is chosen by grade and level after a short diagnostic · equipment: A computer with stable internet, paper and a pencil, and a way to share photos of written solutions · contest entry: CEMC contests are written through a school; check that your school (or another local school) is taking part
+- Curriculum outline:
+  - PHASE 1: The Shared Toolkit (Months 1-2, Weeks 1-8)
+    Everything all three tracks need: how to read a contest problem, the core ideas of number, algebra, counting and geometry, and the first full written solutions.
+    - Month 1: Reading Problems, Number Sense and Algebra
+      - Weeks 1-2: How the Waterloo Contests Work and First Problems
+      - Weeks 3-4: Number Sense and Algebra Habits
+    - Month 2: Counting, Geometry and Writing a Full Solution
+      - Weeks 5-6: Counting and Geometry Foundations
+      - Weeks 7-8: Full Solutions and Multiple-Choice Technique
+  - PHASE 2: The Grade Tracks (Months 3-4, Weeks 9-16)
+    The tracks run in parallel in separate batches. Each track builds the mathematics and the question types of the contests its students will write.
+    - Months 3-4, Gauss Track (Grades 7 and 8): Building the Gauss Toolkit
+      - Weeks 9-10: Number Theory for Grades 7 and 8
+      - Weeks 11-12: Ratios, Rates and Algebra in Words
+      - Weeks 13-14: Counting and Probability
+      - Weeks 15-16: Geometry and Measurement
+    - Months 3-4, Grades 9 and 10 Track: Pascal, Cayley, Fryer, Galois and CIMC
+      - Weeks 9-10: Algebra for Contests
+      - Weeks 11-12: Number Theory and Counting
+      - Weeks 13-14: Geometry with Reasons
+      - Weeks 15-16: Full Solutions and Mixed Rounds
+    - Months 3-4, Grades 11 and 12 Track: Fermat, Hypatia, CSMC and Euclid
+      - Weeks 9-10: Functions, Equations and Inequalities
+      - Weeks 11-12: Sequences, Number Theory and Counting
+      - Weeks 13-14: Trigonometry and Geometry
+      - Weeks 15-16: Proof Writing for Full-Solution Contests
+  - PHASE 3: Contest Season (Months 5-6, Weeks 17-24)
+    Timed rounds in the format of each student's next contest, polish on full solutions, the contest-day routine, then review and a plan for the next contest.
+    - Month 5: Timed Rounds and Contest Craft
+      - Weeks 17-18: Pacing Each Contest Format
+      - Weeks 19-20: Review and Weak-Spot Repair
+    - Month 6: Final Practice, Contest Days and Next Steps
+      - Weeks 21-22: Final Practice Papers
+      - Weeks 23-24: Contest Week and After
+- Projects students build: A personal starting profile: track, target contests for the year and ten solved warm-up problems; A word-problem pack of original problems, each solved with a clear equation and a check; A counting and geometry problem set of original problems, with a labelled diagram for every geometry question; Rewrite three of your own earlier answers as full solutions, then compare them with a model write-up; An original number puzzle pack, each solution explained in two or three sentences; A ratio and rate problem set solved two ways: once with a table, once with an equation; Design and solve three original counting problems for a classmate; A shaded-region problem pack of original problems, each with a labelled diagram; An original algebra problem set with full written solutions for the last three questions; A casework problem pack where each solution lists its cases clearly; Three original geometry problems solved with full written reasons; A personal model-solution file: five of your own best full solutions, rewritten after feedback; An original functions problem set with full written solutions for every question; A sequences and counting pack where each solution proves its pattern, not just finds it; Three original geometry problems, each solved by two different methods and written up in full, plus 5 more on the course page
+- Career paths after completion: A second season of this course, moving up a track or deeper into full-solution writing; Senior school math such as Ontario's MHF4U and MCV4U, through our Grade 12 university math course; Contest programming, such as the Canadian Computing Competition, through our CCC preparation course; University mathematics, computer science or engineering, with strong problem-solving habits; Further math contests and personal problem-solving projects
+
 ### Competitive Programming
+
+#### CCC Junior and Senior Preparation (Canadian Computing Competition)
+
+- Link: https://learn.modernagecoders.com/courses/ccc-junior-and-senior-preparation-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: A 24-week season, September to the CCC on Wednesday, February 17, 2027, joinable any month
+- Level: Students roughly aged 13 to 18 who can write simple programs (Junior track) or are confident programmers ready for algorithms (Senior track)
+- About: Live online Canadian Computing Competition prep for ages 13 to 18: Junior and Senior tracks in Python or C++, from September to the CCC on Wednesday, February 17, 2027.
+- Who it is for: Students who can code a little and want to write CCC Junior with real preparation; Students who wrote Junior before and want to reach the harder questions or move up to Senior; Confident programmers who want the sorting, searching, graph and dynamic programming toolkit for CCC Senior; Senior students who want to understand the CCO path and train in C++; Students in school computer science who want harder, more interesting problems
+- Prerequisites: coding level: Junior track: simple programs with variables, loops and conditions. Senior track: confident with lists or arrays, functions and basic sorting · language: Python or C++. Senior students aiming at the CCO move to C++ during the season · age: Roughly 13 to 18. Level is chosen by skill, not by grade · equipment: A computer with stable internet that can run Python or a C++ compiler
+- Curriculum outline:
+  - PHASE 1: The Shared Core (September and October, Weeks 1-8)
+    Everything both tracks need: precise reading, exact input and output, and the loops, conditions, strings, lists and counting that the first CCC questions are built on.
+    - Month 1: Contest Setup, Input and Output, Loops and Conditions
+      - Weeks 1-2: How the CCC Works and First Problems
+      - Weeks 3-4: Strings, Lists and Simple Counting
+    - Month 2: Grids, Functions and First Ideas of Efficiency
+      - Weeks 5-6: Two-Dimensional Grids and Functions
+      - Weeks 7-8: How Fast Is Fast Enough?
+  - PHASE 2: Junior and Senior Tracks (November and December, Weeks 9-16)
+    The tracks run in parallel in separate batches. Junior students build toward the hardest Junior question; Senior students build the algorithm families the Senior paper rewards.
+    - Months 3-4, Junior Track: From Counting to Recursion and Efficient Algorithms
+      - Weeks 9-10: Junior Questions 3 and 4 Skills
+      - Weeks 11-12: Two-Dimensional Arrays in Depth
+      - Weeks 13-14: Recursion
+      - Weeks 15-16: Efficient and Insightful Algorithms
+    - Months 3-4, Senior Track: Sorting, Searching, Counting, Graphs and Dynamic Programming
+      - Weeks 9-10: Sorting and Searching
+      - Weeks 11-12: Careful Counting and Mathematical Reasoning
+      - Weeks 13-14: Graphs
+      - Weeks 15-16: Dynamic Programming and the Hardest Questions
+  - PHASE 3: Contest Season (January and February, Weeks 17-24)
+    Full timed mocks, contest craft and the CCC itself on Wednesday, February 17, 2027, followed by upsolving and a plan for what comes next.
+    - Month 5: Mock Contests and Contest Craft
+      - Weeks 17-18: Pacing a 3-Hour, 5-Question Paper
+      - Weeks 19-20: Upsolving and Weak-Spot Repair
+    - Month 6: Final Mocks, the CCC and Next Steps
+      - Weeks 21-22: Final Mocks
+      - Weeks 23-24: Contest Week and After
+- Projects students build: A personal starting profile: track choice, language choice and five solved warm-up problems; A counting and simulation problem set solved in full, with a written list of edge cases for each; A grid puzzle solver for an original problem, organized into clear functions; Solve one original problem three ways, from slow to fast, and time each version; Five original middle-level problems, each with a plain-word plan and a test list; An original region-counting problem solved with flood fill; Three recursion problems solved and explained in a short written note; Take a slow solution from earlier in the course and rewrite it to run within the limits; An original problem solved with binary search on the answer, with a written proof that it is fast enough; A greedy and counting problem pack with a short argument for each solution; An original routing problem solved with breadth-first search and then with Dijkstra's algorithm; Solve one original dynamic programming problem top-down and bottom-up, and compare; Two full 3-hour mocks, each followed by a written pacing review; A personal weak-spot plan with three topics, each with a problem set completed; A final mock with a written contest-day plan, plus 1 more on the course page
+- Career paths after completion: A second season of this course, moving from Junior to Senior or deeper into Senior; Our Competitive Programming for Teens course for year-round contest training; School computer science such as ICS3U and ICS4U, through our Ontario companion course; University computer science, mathematics or engineering, with strong problem-solving habits; Further contests and personal projects built on algorithmic thinking
 
 #### Competitive Programming for Teens: ZCO, INOI and USACO Track
 
@@ -1965,6 +2215,44 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 - Career paths after completion: Motion Graphics Designer; Content Creator / Influencer; Video Editor; Creative Technologist; Animation Artist
 
 ### Cybersecurity
+
+#### Cybersecurity Competitions for Teens: picoCTF and CyberPatriot Prep
+
+- Link: https://learn.modernagecoders.com/courses/picoctf-cyberpatriot-cybersecurity-competition-prep-for-teens
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks)
+- Level: Beginner to intermediate, ages 13 to 18, no prior security experience needed
+- About: Live online cybersecurity competition prep for ages 13 to 18: CyberPatriot-style system hardening on Windows and Linux, and picoCTF-style CTF skills, ethical and defensive.
+- Who it is for: Students on, or joining, a school or club CyberPatriot team who want stronger individual skills to bring to it; Teens who have heard of picoCTF or capture-the-flag events and want a structured start; Students who enjoy codes, logic and detective work; Teens considering cybersecurity or computer science who want real hands-on foundations; Students who finished our Cybersecurity for Teens course and want a competition-focused next step
+- Prerequisites: coding experience: None required. Some Python helps in month 5, and we teach the small amount needed · computer skills: Comfortable installing software, managing files and using settings menus · equipment: A laptop or desktop that can run a virtual machine, with a stable internet connection. We check the computer and help set up the free virtual machine software in the first week · age: 13 to 18
+- Curriculum outline:
+  - PHASE 1: Foundations and Ethics (Months 1-2, Weeks 1-8)
+    The shared foundations of both competitions, starting with the rules: what is allowed, what is not, and why that line matters.
+    - Month 1: The White-Hat Agreement and the Linux Command Line
+      - Weeks 1-2: Rules, Ethics and the Practice Lab
+      - Weeks 3-4: Linux Command Line Essentials
+    - Month 2: Windows Administration and Networking
+      - Weeks 5-6: Windows Administration
+      - Weeks 7-8: How Networks Move Data
+  - PHASE 2: System Hardening in the CyberPatriot Style (Months 3-4, Weeks 9-16)
+    Defence under a clock: securing Windows and Linux systems against a scenario, answering forensics questions, learning network fundamentals and working as a team.
+    - Month 3: Hardening Windows and Linux
+      - Weeks 9-10: Hardening Windows
+      - Weeks 11-12: Hardening Linux
+    - Month 4: Network Fundamentals and Team Rounds
+      - Weeks 13-14: Network Fundamentals and Server Roles
+      - Weeks 15-16: Team Rounds
+  - PHASE 3: Capture-the-Flag Skills in the picoCTF Style (Months 5-6, Weeks 17-24)
+    Puzzle-style security challenges on purpose-built practice platforms: encodings and ciphers, forensics, reading code, and how web and memory bugs are recognised and fixed, ending in a mock CTF.
+    - Month 5: Cryptography and Forensics
+      - Weeks 17-18: Encodings and Cryptography
+      - Weeks 19-20: Forensics
+    - Month 6: Reading Code, Bugs and Fixes, and a Mock CTF
+      - Weeks 21-22: Reading Code and Recognising Bugs
+      - Weeks 23-24: Mock CTF and the Road Ahead
+- Projects students build: Signed white-hat agreement and a working practice lab with a Linux virtual machine and a restore snapshot; Command line treasure hunt: an instructor-built set of files and folders with clues found only by using the right commands; Read-only Windows settings audit on your own computer: users, services and updates checked against a written checklist, nothing changed; Packet capture walkthrough: an annotated explanation of a provided capture from first packet to last; Personal Windows hardening checklist, checked read-only against your own computer's settings; Personal Linux hardening checklist, tested on your own Linux practice virtual machine; Small simulated network built and documented, with a subnetting worksheet; Full mock team round on your Linux practice virtual machines and written Windows scenarios, followed by a written team review; Cryptography challenge set solved on a practice platform, with a written solution for each; Forensics challenge set solved on a practice platform, with a written solution for each; Bug and fix notebook: for each practice challenge, the bug, how it was recognised and the code change that would fix it; Mock CTF on an instructor-built challenge set, followed by a polished solution portfolio
+- Career paths after completion: Entering CyberPatriot through a school or approved organisation team, with practised skills; Competing in capture-the-flag events on free platforms built for students; Our Python or programming courses, where scripting and safe-coding habits grow further; Further study toward defensive roles such as security analyst or incident responder, which build on these foundations; Computer science electives and clubs, with a security perspective few classmates have
 
 #### Cybersecurity for Teens: Online Safety & White-Hat Defense
 
@@ -2980,6 +3268,84 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 
 ### Exam Board Mathematics
 
+#### A Level Further Maths: Core Pure and Applied Options
+
+- Link: https://learn.modernagecoders.com/courses/a-level-further-maths-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 18 months (72 weeks), taught alongside A Level Maths
+- Level: Year 12 and 13 students (or equivalent) taking Further Maths with AQA, Edexcel or OCR
+- About: A Level Further Maths course online: live classes in Core Pure plus mechanics, statistics or decision options for AQA, Edexcel and OCR, ending in timed papers.
+- Who it is for: Students starting Further Maths alongside A level Maths who want both taught in a sensible order; Students whose school or college does not teach Further Maths, who need the whole course taught and will sit the exams at an exam centre; Students whose school offers Further Maths in a small, rushed or part-timetabled class and who want steady teaching beside it; Students taking British A levels abroad, at international schools or as private candidates, who need live teaching across time zones; Adults who took A level Maths earlier and want the second maths A level for study or for its own sake
+- Prerequisites: maths level: Studying A level Maths at the same time, or already holding it. A strong GCSE Maths grade, which we suggest is 7 or above, makes the first months far smoother. The week 1 diagnostic finds gaps and we close them inside the course · exam board: AQA 7367, Edexcel 9FM0, OCR A H245 or OCR MEI H645. The core is shared; we teach the options your school or exam centre enters you for · equipment: A calculator that handles matrices, complex numbers and statistical distributions, notebooks, and a device with stable internet for live classes · timing: Best started at the beginning of Year 12 alongside A level Maths; later joiners get a catch-up plan after the diagnostic
+- Curriculum outline:
+  - PHASE 1: Core Pure, First Year (Months 1-5, Weeks 1-20)
+    The compulsory core every board examines, taught to AS depth. Each topic is introduced after the A level Maths skill it needs, and proof is practised from the first fortnight.
+    - Month 1: Proof and Series
+      - Weeks 1-2: Diagnostic and Proof by Induction
+      - Weeks 3-4: Standard Series and the Method of Differences
+    - Month 2: Complex Numbers
+      - Weeks 5-6: Complex Arithmetic and the Argand Diagram
+      - Weeks 7-8: Loci and Regions
+    - Month 3: Matrices
+      - Weeks 9-10: Matrix Algebra and Transformations
+      - Weeks 11-12: Determinants, Inverses and Linear Systems
+    - Month 4: Roots of Polynomials and Rational Functions
+      - Weeks 13-14: Roots of Polynomials
+      - Weeks 15-16: Curve Sketching and Inequalities
+    - Month 5: Vectors and First Further Calculus
+      - Weeks 17-18: Lines and Planes in Three Dimensions
+      - Weeks 19-20: Volumes of Revolution and Mean Values
+  - PHASE 2: Applied Option One (Months 6-9, Weeks 21-36)
+    The first of the options your board and centre have chosen. The topics below show the mechanics route; statistics, decision or discrete students follow the same timetable with their own option content.
+    - Month 6: Momentum and Impulse
+      - Weeks 21-22: Momentum, Impulse and Collisions
+      - Weeks 23-24: Successive Collisions and Impulse in Two Dimensions
+    - Month 7: Work, Energy and Power
+      - Weeks 25-26: Work, Energy and Power
+      - Weeks 27-28: Elastic Strings and Springs
+    - Month 8: Circular Motion and Dimensional Analysis
+      - Weeks 29-30: Horizontal and Vertical Circular Motion
+      - Weeks 31-32: Dimensional Analysis and Modelling
+    - Month 9: AS Checkpoint
+      - Weeks 33-34: Consolidation of Core and Option
+      - Weeks 35-36: AS-Standard Mock
+  - PHASE 3: Core Pure, Second Year (Months 10-14, Weeks 37-56)
+    The A level half of the core, where the subject becomes recognisably university mathematics: de Moivre, further calculus, polar curves, hyperbolic functions and differential equations.
+    - Month 10: Further Complex Numbers
+      - Weeks 37-38: Exponential Form and de Moivre's Theorem
+      - Weeks 39-40: Roots of Unity and Complex Roots
+    - Month 11: Further Calculus and Series
+      - Weeks 41-42: Improper Integrals and Inverse Trigonometric Functions
+      - Weeks 43-44: Maclaurin Series
+    - Month 12: Polar Coordinates and Hyperbolic Functions
+      - Weeks 45-46: Polar Coordinates
+      - Weeks 47-48: Hyperbolic Functions
+    - Month 13: Differential Equations
+      - Weeks 49-50: First and Second Order Differential Equations
+      - Weeks 51-52: Modelling with Differential Equations
+    - Month 14: Core Pure Consolidation
+      - Weeks 53-54: Mixed Core Pure Problems
+      - Weeks 55-56: Core Pure Mock
+  - PHASE 4: Applied Option Two and Option Depth (Months 15-16, Weeks 57-64)
+    The second option, taught at the depth your board sets, and the first option extended to full A level standard. Students on a further pure route take their extra pure option here.
+    - Month 15: Second Option
+      - Weeks 57-58: Second Option Foundations
+      - Weeks 59-60: Second Option Applications
+    - Month 16: Both Options at Full Depth
+      - Weeks 61-62: First Option to A Level Depth
+      - Weeks 63-64: Options Mock
+  - PHASE 5: Revision and the Past-Paper Cycle (Months 17-18, Weeks 65-72)
+    No new content. Structured revision by strand, then full past papers under real timing for your board, marked against official schemes.
+    - Month 17: Structured Revision
+      - Weeks 65-66: Core Pure Revision by Strand
+      - Weeks 67-68: Option Revision by Strand
+    - Month 18: Past Papers Under Timing
+      - Weeks 69-70: Full Past Papers, Core
+      - Weeks 71-72: Full Past Papers, Options and Final Review
+- Projects students build: Proof portfolio opened: six induction proofs written to exam standard and checked line by line; Question bank entry: 15 solved series questions, each checked by a second method; Complex number reference sheet built by the student, with one worked example per rule; Locus atlas: eight annotated sketches of standard loci and combined regions; Transformation catalogue: each standard 2 by 2 matrix with its effect drawn on the unit square; Three-planes casebook: every arrangement of three planes, with a system that produces it; Question bank entry: 12 roots questions solved two ways, by sums of roots and by substitution; Graph file: ten sketches with asymptotes, intercepts and turning points labelled; 3D geometry sheet: every distance and angle method on one page with a worked example; Modelling task: the volume of a real container estimated by a volume of revolution and compared with its label; Collision file: worked solutions for every collision type, with a diagram for each; Question bank entry: 10 multi-stage collision problems with the decision points marked; Energy method sheet: when to use energy and when to use Newton's second law; Modelling task: a bungee jump modelled with energy methods and its assumptions criticised; Circular motion casebook: six standard set-ups with force diagrams, plus 21 more on the course page
+- Career paths after completion: University courses that lean heavily on mathematics, such as mathematics, physics, engineering, computer science and economics; entry requirements differ by course, so check each one directly; A head start on first-year university topics that Further Maths introduces, including matrices, complex numbers and differential equations; Our statistics and programming courses, which put the applied mathematics to work
+
 #### A-Level Maths: Pure, Mechanics, Statistics (Edexcel/AQA)
 
 - Link: https://learn.modernagecoders.com/courses/a-level-maths-course-pure-mechanics-statistics
@@ -3124,7 +3490,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 - Duration: 24 months (the full Diploma Programme arc)
 - Level: IB DP students (AA & AI, SL & HL) and MYP students heading to the DP
 - About: Live online IB Maths course for AA and AI, SL and HL: syllabus-exact teaching, paper-specific technique, GDC fluency and honest IA coaching. Free demo first.
-- Who it is for: AA SL/HL students who want the ideas owned and Paper 1 made routine; AI SL/HL students who need modelling depth and real GDC fluency; Students whose Exploration is drifting and needs structure and honest critique; HL students building the Paper 3 stamina regular homework never builds; MYP students buying the cheapest IB insurance: a real algebra base
+- Who it is for: AA SL/HL students who want the ideas owned and Paper 1 made routine; AI SL/HL students who need modelling depth and real GDC fluency; Students who need the criteria, the method and the mathematics behind a strong Exploration; HL students building the Paper 3 stamina regular homework never builds; MYP students buying the cheapest IB insurance: a real algebra base
 - Prerequisites: education: IB DP students (either course, either level) or MYP years 4-5 students heading to the DP · math background: Any, the diagnostic finds the real base and MYP-era gaps are repaired inline · equipment: Computer with stable internet; an IB-approved GDC (we advise on models) · time commitment: 2 live hours plus 2-3 hours of past-paper and IA work weekly
 - Curriculum outline:
   - PHASE 1: The Shared Core at DP Strength (Months 1-8)
@@ -3151,7 +3517,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
     - Months 12-14: IA Season, the Exploration, Shepherded
       - IA Topic Selection and Proposal
       - Deepening the IA Mathematics
-      - IA Draft Critique and Final Polish Plan
+      - Judging an Exploration Against the Criteria
     - Months 15-16: Syllabus Depth Continues
       - AA Further Calculus / AI Hypothesis Testing
       - HL Paper 3 Investigations Introduced / SL Consolidation
@@ -3474,6 +3840,44 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
       - Launch, Demo Day and What Comes Next
 - Projects students build: Pong remake; Breakout/Arkanoid clone; Simple clicker game; Text adventure game; Number guessing game; Rock Paper Scissors with AI; Simple RPG battle system; Dice rolling game; Top-down shooter; Endless runner like Temple Run; 2D platformer basics; Asteroids remake; Angry Birds clone; Pinball game; Physics puzzle game, plus 104 more on the course page
 - Career paths after completion: Deeper Unity and C#: the direct road toward junior game programming roles later; Data Structures and Algorithms: the computer science muscle for engineering paths and interviews; 3D art and design: Blender skills here open the art-side road; Game jams and communities: the ecosystem where young developers actually grow; Transferable skill: everything here, C#, systems thinking, shipping, carries into any software path
+
+#### Godot Game Development for Kids and Teens: GDScript, 2D and 3D
+
+- Link: https://learn.modernagecoders.com/courses/godot-game-development-course-for-kids-and-teens
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks)
+- Level: Beginner to text coding, ages 10 to 17
+- About: Godot game development course for ages 10 to 17: live online classes building real 2D and 3D games in Godot 4 with GDScript, from first scene to a finished web build.
+- Who it is for: Children who have done Scratch or similar and are ready for real text code in a real engine; Kids and teens who play a lot of games and want to understand and build them; Students aged 10 and up who have never coded and want their first language to come with instant, visible results; Students with many half-built projects who need a structure that gets games finished; Teens weighing game development or computer science who want an honest first taste of both
+- Prerequisites: coding experience: No text coding needed. Students who have used Scratch or similar block tools settle in fastest, but it is not required · computer skills: Comfortable with a keyboard and mouse, saving files and finding them again · equipment: A laptop or desktop running Windows, macOS or Linux with a stable internet connection. Godot is a free download; tablets and phones are not enough for building · age: 10 to 17. Every project has a core version and stretch features, so younger and older students both work at the right level
+- Curriculum outline:
+  - PHASE 1: Godot Foundations and a First Finished Game (Months 1-2, Weeks 1-8)
+    Students learn how Godot thinks, write their first GDScript, and finish a complete 2D arcade game with scoring, a game over screen and a browser build.
+    - Month 1: Nodes, Scenes and Scripts
+      - Weeks 1-2: The Godot Editor and Your First Scene
+      - Weeks 3-4: Movement, Input and the Game Loop
+    - Month 2: A Complete Arcade Game
+      - Weeks 5-6: Collisions, Signals and Spawning
+      - Weeks 7-8: Score, HUD, Game Over and Export
+  - PHASE 2: Platformers and Game Feel (Months 3-4, Weeks 9-16)
+    The genre that teaches the most: gravity, jumping, levels built from tiles, enemies that think a little, and the animation and sound that make a game feel alive.
+    - Month 3: Platformer Physics and Levels
+      - Weeks 9-10: CharacterBody2D, Gravity and Jumping
+      - Weeks 11-12: Tile Maps, Cameras and Animation
+    - Month 4: Enemies, Menus and Game Feel
+      - Weeks 13-14: Enemies and Simple State Machines
+      - Weeks 15-16: Animation, Sound, Menus and Saving
+  - PHASE 3: 3D and the Capstone Game (Months 5-6, Weeks 17-24)
+    Students carry what they know into 3D, then design and ship an original game of their own, from written plan to playable build.
+    - Month 5: Into 3D
+      - Weeks 17-18: 3D Scenes, Cameras and Movement
+      - Weeks 19-20: A 3D Collect-a-thon Level
+    - Month 6: The Capstone Game
+      - Weeks 21-22: Design Document, Scope and Prototype
+      - Weeks 23-24: Polish, Export and Showcase
+- Projects students build: Hello Godot: a scene with a moving title, a sprite and a script that greets the player by name; Top-down mover: a player ship that moves smoothly in eight directions and stays inside the screen; Dodge the falling objects: enemies spawn at random positions and the game reacts when the player is hit; First finished game: the dodge game with title screen, score, high score for the session, sound and a web build; Jump lab: a test room where every jump setting can be tuned live and compared; Two-level platformer: tile map levels, collectibles, an animated player and a working exit; Enemy pack: three enemies with different behaviours added to the platformer; Polished platformer: menus, pause, music, particles and a saved best time, exported for the web; 3D playground: a lit scene where a character runs, jumps and pushes objects around; 3D level: collect every item before the timer runs out, with a finish screen and a best time; Capstone prototype: the core loop of the student's own game, playable from start to finish; Finished capstone game, exported and presented at the class showcase
+- Career paths after completion: Our Game Development for Teens course, which moves to Unity and C# with larger 2D and 3D projects; Bigger personal Godot projects, game jams and school showcases, entered with a real portfolio; Python or C++ courses, where the logic learned in GDScript transfers directly; Computer science electives and clubs, with practical programming experience behind them; A clear sense of whether game development is something worth pursuing further
 
 #### Roblox Game Coding for Kids: Build Real Games in Luau
 
@@ -4510,6 +4914,46 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 - Projects students build: Create a number system classification chart; Real-world scientific notation problems; Algebraic expression calculator design; Budget planning with linear equations; Distance-rate-time problem solver; Inequality graphing tool; Polynomial calculator implementation; Area and volume problems with polynomials; Pascal's triangle pattern explorer; Factoring flowchart creation; Projectile motion problems; Optimization problem solver; Supply and demand economic model; Mixture problem solver; Linear programming introduction, plus 100 more on the course page
 - Career paths after completion: Engineering (all disciplines); Data Science and Analytics; Actuarial Science; Financial Analysis; Research Scientist
 
+### Maths for Kids: Reasoning and Readiness
+
+#### Reasoning and Readiness for Young Thinkers (Ages 6 to 9)
+
+- Link: https://learn.modernagecoders.com/courses/reasoning-and-readiness-course-for-young-thinkers
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks), joinable any month, in two age bands: ages 6 to 7 and ages 8 to 9
+- Level: Children aged 6 to 9 (roughly kindergarten or Year 1 to grade 4 or Year 5) who enjoy puzzles; no prior experience needed
+- About: Live online reasoning classes for ages 6 to 9: patterns, shapes, spatial puzzles and number sense, with calm familiarity for CogAT, NNAT and OLSAT style screening.
+- Who it is for: Children aged 6 to 9 who love puzzles, patterns and building; Families whose school or district uses CogAT, NNAT, OLSAT or a similar screener and who want their child to feel at ease; Children in the UK and elsewhere noticed as more able, who want more challenge; Children who are ahead in math and need deeper problems rather than faster worksheets; Children still building English, who can show their thinking with pictures and shapes
+- Prerequisites: experience: None. A love of puzzles helps, but is not needed · age: Ages 6 to 9, placed into a 6 to 7 or 8 to 9 band after the free demo class · reading: Not required; directions are read aloud · equipment: A computer or tablet with stable internet, paper, scissors, crayons, and a few blocks or household objects
+- Curriculum outline:
+  - PHASE 1: Seeing Patterns and Sorting (Months 1-2, Weeks 1-8)
+    The first habits of reasoning: noticing what repeats, what changes and what belongs together.
+    - Month 1: Patterns All Around
+      - Weeks 1-2: Repeating Patterns and What Comes Next
+      - Weeks 3-4: Growing Patterns and Shape Changes
+    - Month 2: Alike, Different and Belonging Together
+      - Weeks 5-6: Sorting and Classifying
+      - Weeks 7-8: Analogies and Relationships
+  - PHASE 2: Spatial and Quantitative Reasoning (Months 3-4, Weeks 9-16)
+    Thinking with shapes in space, and thinking with numbers, both built on hands-on play before pictures.
+    - Month 3: Turning, Flipping and Folding
+      - Weeks 9-10: Rotations, Reflections and Shape Puzzles
+      - Weeks 11-12: Folding, Cutting and Picturing
+    - Month 4: Number Sense and Quantitative Reasoning
+      - Weeks 13-14: Number Sense That Runs Deep
+      - Weeks 15-16: Balances, Number Series and Number Puzzles
+  - PHASE 3: Putting It Together (Months 5-6, Weeks 17-24)
+    Harder mixed puzzles, explaining thinking clearly, and a calm, honest look at what a group screening feels like.
+    - Month 5: Multi-Step Puzzles and Explaining Your Thinking
+      - Weeks 17-18: Puzzles With Two Rules
+      - Weeks 19-20: Listening, Choosing and Checking
+    - Month 6: Familiarity, Confidence and Celebration
+      - Weeks 21-22: What a Group Screening Is Like
+      - Weeks 23-24: Puzzle Portfolio and Next Steps
+- Projects students build: A pattern necklace or pattern strip the child designs and explains; Build a growing pattern with blocks and draw the next two steps; A family sorting game the child invents and teaches at home; Draw three picture analogies of your own for the class to solve; A tangram picture book: five pictures built and named by the child; A folding and cutting predictions journal, checked with real paper each time; A number-line wall chart the child builds and uses in class; Invent a number series puzzle and a balance puzzle for the class; A two-rule puzzle the child designs, with a written or spoken explanation; A puzzle trail around the home with clues the child follows; A calm-day plan made with the child, in pictures; A puzzle portfolio: the child's own invented puzzles from the course
+- Career paths after completion: Elementary math in depth through our elementary math course; Olympiad-style puzzles through our elementary math olympiad course; Early coding with Scratch, where patterns and logic become programs; Mental math and number fluency courses; A lifelong habit of enjoying hard problems
+
 ### Mental Maths for Kids
 
 #### Abacus & Mental Maths for Kids: From First Beads to Anzan
@@ -4668,6 +5112,86 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
       - INMO and AIME Level, and Peak Form
 - Projects students build: Write five full proofs and have every line challenged in class; Solve a set of invariant problems and articulate the invariant explicitly in each; Solve a graded ladder of number theory problems from IOQM level upward; Work a set of Vieta and functional equation problems from past papers; Prove a graded set of inequalities, each with a fully justified argument; Solve a counting problem two different ways and reconcile the results; Solve a ladder of synthetic geometry problems with full written proofs; Attack the same hard problem three ways and compare which was cleanest; Weekly mixed problem sets with no topic labels; Full timed IOQM and AMC papers every week; Full INMO-style and AIME-style papers, marked on rigour
 - Career paths after completion: Readiness for IOQM, INMO, AMC and AIME; Proof-writing ability that makes university mathematics far less of a shock; A distinctive strength in competitive university applications; A foundation for research mathematics, physics or theoretical computer science; Problem-solving stamina that transfers to every quantitative field
+
+### Ontario High School Computer Science
+
+#### Ontario Computer Science Companion: ICS3U and ICS4U (Python and Java)
+
+- Link: https://learn.modernagecoders.com/courses/ics3u-ics4u-computer-science-companion-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks) per plan, joinable any month and paced to your school course
+- Level: Ontario students in Grades 11 and 12 (roughly ages 15 to 18) taking ICS3U or ICS4U at school, in Python or Java
+- About: Live online ICS3U and ICS4U help in Python or Java, taught alongside your Ontario school course. We teach the skills; we do not grant Ontario high school credits.
+- Who it is for: Grade 11 students meeting programming for the first time who want to understand it properly; Grade 12 students facing recursion, object-oriented design and a larger final project; Students who missed a unit or lost confidence and want to catch up calmly; Students who are doing well and want to write cleaner, better designed code; Students thinking about university computer science who want a strong, honest foundation
+- Prerequisites: school course: Currently taking, or about to take, ICS3U or ICS4U at an Ontario school. ICS4U students should have completed ICS3U · coding level: No coding experience needed for ICS3U students. ICS4U students should know the ICS3U basics, which we review quickly · age: Roughly 15 to 18 (Grades 11 and 12) · equipment: A computer with stable internet and the school's Python or Java editor installed
+- Curriculum outline:
+  - PHASE 1: Problem Solving and the ICS3U Core (Months 1-2, Weeks 1-8)
+    How a programmer thinks before typing, then the building blocks every ICS3U program uses, in Python or Java.
+    - Month 1: Algorithms, Data Types and Input and Output
+      - Weeks 1-2: Problem Solving Before Syntax
+      - Weeks 3-4: Data Types, Variables and Expressions
+    - Month 2: Control Structures
+      - Weeks 5-6: Decisions
+      - Weeks 7-8: Loops
+  - PHASE 2: Completing ICS3U (Months 3-4, Weeks 9-16)
+    The data structures, modular design, files and classic algorithms that larger ICS3U programs need, plus the software development habits the course describes.
+    - Month 3: Lists, Arrays and Modular Programming
+      - Weeks 9-10: Lists and Arrays
+      - Weeks 11-12: Modular Programming with Functions and Methods
+    - Month 4: Strings, Files, Sorting and Searching
+      - Weeks 13-14: String and File Handling
+      - Weeks 15-16: Sorting, Searching and the Development Life Cycle
+  - PHASE 3: The ICS4U Toolkit, Final Project and Exam Review (Months 5-6, Weeks 17-24)
+    What we teach for Grade 12: recursion, object-oriented design, efficiency and large, fully documented programs, then the final project and exam review. ICS4U batches begin with a fast review of Phases 1 and 2.
+    - Month 5: Recursion and Object-Oriented Design
+      - Weeks 17-18: Recursion
+      - Weeks 19-20: Classes and Object-Oriented Design
+    - Month 6: Efficiency, the Final Project and Exam Review
+      - Weeks 21-22: Efficiency and Large Documented Programs
+      - Weeks 23-24: Exam Review Technique
+- Projects students build: Three small problems solved twice: once as plain-word steps, once as working code; A unit converter or bill splitter with clear prompts, checked input and formatted output; A rules-based program, such as a ticket pricing or grading-rules calculator, with a written test plan; A number guessing game or a times-table quiz with scoring and replay; A class marks analyzer: store scores, report the average, the highest and lowest, and a simple bar display; Refactor an earlier project into well-named functions or methods, with a test for each; A file report tool: read a data file, summarize it and write a tidy results file; A searchable, sortable record list built from a file, with a short design document and test log; Write three recursive solutions and their loop versions, and compare them in a short written note; An object-oriented library, inventory or game roster program with a class diagram and documentation; A project plan and working first version for the student's own final project, built by the student; A personal review pack: topic summaries, a mistakes list and two reviewed timed papers
+- Career paths after completion: University computer science, software engineering or other programs that use programming; College programs in programming and computer systems; Contest programming, such as the Canadian Computing Competition, through our CCC preparation course; Further Python or Java study in our teen and college courses; Personal projects, clubs and open-source contributions built on solid fundamentals
+
+### Ontario High School Mathematics
+
+#### Ontario Grade 12 University Math: Advanced Functions and Calculus and Vectors (MHF4U and MCV4U)
+
+- Link: https://learn.modernagecoders.com/courses/ontario-grade-12-university-math-mhf4u-mcv4u-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks) per plan, joinable any month and paced to your school course
+- Level: Ontario students in Grade 12 (roughly ages 16 to 18) taking MHF4U, MCV4U or both at school
+- About: Live online MHF4U and MCV4U help for ages 16 to 18, taught alongside your Ontario school course: functions, trigonometry, logarithms, calculus and vectors. We do not grant Ontario credits.
+- Who it is for: Grade 12 students in MHF4U who want functions to make sense, not just to pass; Students in MCV4U meeting derivatives, optimization and three-dimensional vectors; Students taking MHF4U and MCV4U in the same year who want the two courses to fit together; Students who missed a unit or lost confidence and want to catch up calmly; Students heading toward computer science, engineering, mathematics or science at university
+- Prerequisites: school course: Currently taking, or about to take, MHF4U, MCV4U or both at an Ontario school · math level: The Grade 11 functions course or equivalent for MHF4U. MCV4U students should have MHF4U done or under way, which we support side by side · age: Roughly 16 to 18 (Grade 12) · equipment: A computer with stable internet, a scientific or graphing calculator, and a way to share photos of written work
+- Curriculum outline:
+  - PHASE 1: Advanced Functions, Part 1 (Months 1-2, Weeks 1-8)
+    The function toolkit every Grade 12 topic depends on, then polynomial and rational functions in depth.
+    - Month 1: The Function Toolkit and Polynomial Functions
+      - Weeks 1-2: Starting Point and the Function Toolkit
+      - Weeks 3-4: Polynomial Functions
+    - Month 2: Polynomial Equations and Rational Functions
+      - Weeks 5-6: Polynomial Equations and Inequalities
+      - Weeks 7-8: Rational Functions
+  - PHASE 2: Advanced Functions, Part 2 (Months 3-4, Weeks 9-16)
+    Trigonometry in radians, exponential and logarithmic functions, combining functions and rates of change, with MHF4U exam review.
+    - Month 3: Trigonometric Functions, Identities and Equations
+      - Weeks 9-10: Radians and Trigonometric Functions
+      - Weeks 11-12: Identities and Trigonometric Equations
+    - Month 4: Exponential and Logarithmic Functions, Combining Functions and Rates of Change
+      - Weeks 13-14: Exponential and Logarithmic Functions
+      - Weeks 15-16: Combining Functions, Rates of Change and MHF4U Review
+  - PHASE 3: Calculus and Vectors, and Exam Review (Months 5-6, Weeks 17-24)
+    What we teach for MCV4U: limits and the derivative, derivative rules and applications, then vectors, lines and planes, ending with exam review. MCV4U batches begin with a quick review of the MHF4U ideas calculus relies on.
+    - Month 5: Limits, Derivatives and Their Applications
+      - Weeks 17-18: Rates of Change, Limits and the Derivative
+      - Weeks 19-20: Curve Sketching, Optimization and Rates
+    - Month 6: Vectors, Lines and Planes, and Exam Review
+      - Weeks 21-22: Vectors in Two and Three Dimensions
+      - Weeks 23-24: Lines and Planes, and Exam Review Technique
+- Projects students build: A one-page function toolkit summary, with a sketch of each parent function and its transformations; A polynomial sketch set: ten polynomials sketched by hand from factored form, then checked with graphing technology; A worked solutions file for factoring and inequalities, with every step justified in words; A rational function sketch set with asymptotes, intercepts and behaviour near each asymptote explained; A sinusoidal model of a real periodic situation, with the equation built from the data and explained; An identity proof file: ten identities proved in full, with the strategy for each written first; An applications pack: four real situations modelled with exponential or logarithmic functions and solved in full; A personal MHF4U review pack: one-page summaries for each unit, a mistakes list and a reviewed timed paper; Three derivatives worked from first principles, then confirmed with the rules, with a short written explanation; An optimization pack: four real problems set up and solved in full, each with a domain check; A vector applications set with a labelled diagram and a full written solution for each problem; A personal MCV4U review pack: unit summaries, a mistakes list and two reviewed timed papers
+- Career paths after completion: University computer science, engineering, mathematics or science programs; First-year university calculus and linear algebra, on a solid base; Math contests such as the Euclid, through our Waterloo math contests course; School computer science such as ICS4U, through our Ontario computer science companion course; Further study in data science and programming, where functions and calculus are used every day
 
 ### Programming
 
@@ -5489,6 +6013,66 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 - Projects students build: Create number book with illustrations; Number hunt around the house; Build counting games with everyday objects; 100 chart coloring patterns; Place value manipulative games; Create skip counting songs; Addition fact family houses; Create addition story problems book; Design addition board game; Subtraction story problems collection; Fact family triangles craft; Subtraction bowling game; Shopping mall addition game; Create addition puzzle cards; Design digital addition calculator, plus 105 more on the course page
 - Career paths after completion: Middle School Mathematics: the direct continuation, entered with a tested foundation; Mental Maths Mastery: speed and number sense built alongside or after any level; Olympiad and competition maths: for Level C graduates who found the puzzles delicious; Maths Through Coding: where the numbers start moving on screen; School confidence, immediately: the level system mirrors and reinforces classroom maths all year
 
+### Scottish Mathematics
+
+#### National 5 and Higher Maths Course Online (Scotland)
+
+- Link: https://learn.modernagecoders.com/courses/national-5-and-higher-maths-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: About 6 months per level: National 5, then Higher (12 months for both)
+- Level: S3 to S6 learners and adults in Scotland taking National 5 or Higher Mathematics
+- About: National 5 and Higher Maths online for Scottish learners: C847 75 and C847 76 taught live, from algebra and trigonometry to calculus, ending in timed papers.
+- Who it is for: S3 and S4 learners working towards National 5 Mathematics; S5 and S6 learners taking Higher Mathematics; Learners whose school class moves faster than they can follow and who want steady teaching alongside it; Adults in Scotland returning to National 5 or Higher Mathematics for college, university or work; Learners abroad following the Scottish curriculum who need live teaching across time zones
+- Prerequisites: maths level: For National 5: the fourth curriculum level or National 4 Mathematics, as the course specification recommends. For Higher: National 5 Mathematics or equivalent. A diagnostic in the first week places every learner · exam entry: Learners are entered by their school or college. Adults and private candidates arrange entry through a centre; we teach to the specification and paper style · equipment: A scientific calculator, ruler, protractor, compasses, and a device with stable internet for live classes · timing: Start National 5 in S3 or early S4, and Higher early in S5, so the papers month comes before the prelims. Later joiners get a catch-up plan
+- Curriculum outline:
+  - PHASE 1: National 5 Skills (Months 1-5, Weeks 1-20)
+    The skills sampled in National 5 Mathematics, taught strand by strand with reasoning questions in every month.
+    - Month 1: Numerical Skills
+      - Weeks 1-2: Diagnostic, Surds and Indices
+      - Weeks 3-4: Percentages, Fractions and Appreciation
+    - Month 2: Algebraic Skills, Part One
+      - Weeks 5-6: Expressions and Factorising
+      - Weeks 7-8: Straight Lines and Equations
+    - Month 3: Algebraic Skills, Part Two
+      - Weeks 9-10: Quadratics
+      - Weeks 11-12: Functions and Mixed Algebra
+    - Month 4: Geometric Skills
+      - Weeks 13-14: Shape, Area and Volume
+      - Weeks 15-16: Vectors and Coordinates
+    - Month 5: Trigonometric and Statistical Skills
+      - Weeks 17-18: Trigonometry
+      - Weeks 19-20: Statistics
+  - PHASE 2: National 5 Papers (Month 6, Weeks 21-24)
+    Full National 5 papers under real timing: Paper 1 without a calculator, 40 marks in 1 hour, and Paper 2, 50 marks in 1 hour 30 minutes.
+    - Month 6: Full National 5 Papers
+      - Weeks 21-22: Prelim-Style Papers
+      - Weeks 23-24: Final Papers and Next Steps
+  - PHASE 3: Higher Skills (Months 7-11, Weeks 25-44)
+    The skills sampled in Higher Mathematics: algebraic and trigonometric, geometric and calculus skills, with reasoning throughout. Learners joining at Higher start here after a diagnostic.
+    - Month 7: Algebra and Functions
+      - Weeks 25-26: Polynomials and Quadratic Theory
+      - Weeks 27-28: Functions and Graphs
+    - Month 8: Trigonometry at Higher
+      - Weeks 29-30: Radians, Formulae and Identities
+      - Weeks 31-32: The Wave Function
+    - Month 9: Straight Line, Circle, Vectors and Recurrence
+      - Weeks 33-34: The Straight Line and the Circle
+      - Weeks 35-36: Vectors and Recurrence Relations
+    - Month 10: Differentiation
+      - Weeks 37-38: Differentiating Functions
+      - Weeks 39-40: Applying Differentiation
+    - Month 11: Integration
+      - Weeks 41-42: Integrating Functions
+      - Weeks 43-44: Areas and Mixed Calculus
+  - PHASE 4: Higher Papers (Month 12, Weeks 45-48)
+    Full Higher papers under real timing: Paper 1 without a calculator, 55 marks in 1 hour 15 minutes, and Paper 2, 65 marks in 1 hour 30 minutes.
+    - Month 12: Full Higher Papers
+      - Weeks 45-46: Prelim-Style Papers
+      - Weeks 47-48: Final Papers and Next Steps
+- Projects students build: Skills checklist started: every National 5 skill coloured by confidence; Money file: interest and depreciation problems solved and explained; Algebra method sheet: one worked example of every technique; Equation bank: simultaneous equation problems built from real contexts; Parabola file: six quadratics sketched with roots and turning points; Skills checklist updated after the first three months; Geometry sheet: every formula and property with a worked example; Vector diagram set: five shapes with pathways labelled; Triangle casebook: when to use each rule, with a solved example; Skills checklist completed for National 5; Paper tracker started for National 5; Completed National 5 paper tracker and error log; Higher skills checklist started; Graph file: transformations and log graphs annotated; Trigonometry sheet: exact values, formulae and identities, plus 9 more on the course page
+- Career paths after completion: Advanced Higher Mathematics and other Advanced Higher maths courses after Higher; College and university courses that ask for National 5 or Higher Mathematics; check each one's exact requirement; Our statistics and programming courses, which put the mathematics to work
+
 ### Speed Mathematics
 
 #### Vedic Maths Mastery: Speed Calculation with All 16 Sutras
@@ -5575,6 +6159,46 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 - Projects students build: Personal Bio Generator, asks 5 questions and prints a formatted story about you; Simple Calculator, performs all 4 operations with user input; Mad Libs Creator, fill-in-the-blank story generator; Number Guessing Game, with hints, attempts counter, and high score; Times Table Generator, print any multiplication table on demand; Password Strength Checker, analyses a password and gives a strength rating; Dice Rolling Simulator, roll any number of sides, track statistics; Tip Calculator, restaurant bill splitter with formatted output; Word Counter, analyses a paragraph for word count, unique words, and top 5 most used; Contact Manager, add, search, update, delete contacts saved to a file; Student Grade Tracker, stores grades in JSON and calculates averages; Vocabulary Flash Card App, add words, quiz yourself, track score; Personal Portfolio Page v1, bio, skills, and contact section in pure HTML; Recipe Website, multi-page site with ingredients and instructions; Event Landing Page, HTML structure for a fictional school event, plus 19 more on the course page
 - Career paths after completion: Junior Web Developer (freelance or internship); Python Developer Intern; Tech Entrepreneur / App Creator; Competitive Programmer (ICPC, CodeChef, HackerRank); Freelance Web Developer (₹500-1,500/hour)
 
+### Test Prep for Teens: SHSAT Math
+
+#### SHSAT Math Prep: NYC Specialized High Schools Test
+
+- Link: https://learn.modernagecoders.com/courses/shsat-math-prep-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks) per cycle, joinable any month; families usually start in grade 7 for the fall test in grade 8
+- Level: Students in grades 7 to 9 (roughly ages 12 to 15) who are confident with grade-level math and want to work on harder multi-step problems
+- About: Live online SHSAT math prep for grades 7 to 9: the new computer-adaptive SHSAT's 50 math questions, multi-step problems, no calculator, with timed digital practice.
+- Who it is for: Grade 7 students planning to sit the SHSAT in the fall of grade 8; Grade 8 students who want focused practice before their test date; Grade 9 students taking their one grade 9 opportunity, with extra grade 8 content; Students preparing for the math on the Hunter College High School exam or building math for Boston's MAP Growth test; Students who find school math easy and want harder multi-step problems
+- Prerequisites: math level: Comfortable with math for the student's grade and happy to work on longer problems · age: Grades 7 to 9, roughly ages 12 to 15. A strong grade 6 student preparing for Hunter may join after the demo class · equipment: A computer with stable internet, paper and a pencil · eligibility: SHSAT registration is for NYC residents and is done through MySchools, not through us
+- Curriculum outline:
+  - PHASE 1: Number Fluency Without a Calculator (Months 1-2, Weeks 1-8)
+    The arithmetic that every SHSAT math question rests on, made fast and accurate, plus the reading routine for word problems.
+    - Month 1: Rational Numbers and the Problem Routine
+      - Weeks 1-2: How the Adaptive SHSAT Works and a Starting Diagnostic
+      - Weeks 3-4: Fractions, Decimals and Negative Numbers
+    - Month 2: Number System, Exponents and Percents
+      - Weeks 5-6: Factors, Primes, Exponents and Roots
+      - Weeks 7-8: Percents, Percent Change and Multi-Step Number Problems
+  - PHASE 2: The SHSAT Math Content Areas (Months 3-4, Weeks 9-16)
+    Each content area NYC Public Schools names for the math section, taught at the depth multi-step questions need.
+    - Month 3: Ratios, Expressions, Equations and Inequalities
+      - Weeks 9-10: Ratios, Rates and Proportional Relationships
+      - Weeks 11-12: Expressions, Linear Equations and Inequalities
+    - Month 4: Statistics, Probability and Geometry
+      - Weeks 13-14: Statistics and Probability
+      - Weeks 15-16: Geometry and Measurement
+  - PHASE 3: Test Craft for the Adaptive Format (Months 5-6, Weeks 17-24)
+    Pacing, accuracy and calm on a long test where each question must be answered before the next appears.
+    - Month 5: One Question at a Time
+      - Weeks 17-18: Pacing and Decision-Making
+      - Weeks 19-20: Weak-Spot Repair
+    - Month 6: Final Practice and Test Day
+      - Weeks 21-22: Final Timed Practice
+      - Weeks 23-24: Test Week and Beyond
+- Projects students build: A personal starting profile: strengths, gaps and a target topic list; A no-calculator speed sheet of our own, retaken weekly to track accuracy and time; An original number-puzzle set, each solution explained in two sentences; Write and solve three original multi-step percent problems for a classmate; A ratio problem pack of our own, each problem solved two ways; An equation-building challenge: turn ten original word problems into equations, then solve; Collect a small data set, summarize it and write three probability questions about it; A personal formula sheet built from memory, then tested with original problems; Two full timed math sections of our own, each followed by a written pacing review; A weak-spot plan with three topics, each with a completed problem set; A written test-day plan: section order, pacing checkpoints and checks; Write a full solution to your favorite problem of the course for a newer student
+- Career paths after completion: A strong start in algebra 1 and high school math; Math contests through our middle school math competitions course; SAT math later in high school through our SAT Math course; Coding and computer science, where the same problem-solving habits apply; Science, technology, engineering and math programs in high school
+
 ### Test Prep Mathematics
 
 #### 11 Plus Maths Prep: UK Grammar & Independent School Entry
@@ -5622,6 +6246,36 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
       - Weeks 31-32: Final Papers and a Calm Finish
 - Projects students build: Speed grid week: a daily 5-minute arithmetic grid, times recorded so the child can watch their own speed climb; Personal tables map: each child's slowest facts identified and drilled until they match their fastest; Number detective set: 12 who-am-I number puzzles solved using properties, the kind the 11 plus loves; First mini-paper: a 15-question arithmetic paper under generous timing, reviewed question by question in class; Fraction wall build: each child makes their own fraction wall and uses it to settle five comparison arguments; Conversion pack: a self-made table of the equivalences worth knowing cold, from a half down to a twentieth; Recipe rescale: one real family recipe scaled for 2, 6 and 9 people, with the working presented neatly; Supermarket challenge: real price comparisons worked as best-value problems and written up as answers with reasons; Puzzle exchange: each child writes three think-of-a-number puzzles and solves three written by classmates; Shape fact file: a one-page reference of shape and angle facts in the child's own words and drawings; Room plan: the child's own room measured, drawn to scale and its floor area calculated; Family survey: a small data set collected at home, charted by hand, and turned into three test-style questions; Problem autopsy set: 10 hard word problems dissected in writing, what was given, what was asked, what was the trap; Technique card: each child writes their own one-page test plan, timings, skip rules and reset routine included; Error log finalised: each child's recurring mistakes named, with the fix written next to each, plus 1 more on the course page
 - Career paths after completion: Grammar school entrance tests, sat with the maths half properly prepared; Independent school pretests and entrance papers, including ISEB-style online formats; Key Stage 2 SATs, which draw on the same curriculum this course secures; A confident start to secondary maths, whichever school the child joins; Our school maths and maths-through-coding courses for children who find they enjoy the subject
+
+#### ACT Math Prep: Live Classes for the ACT Mathematics Section
+
+- Link: https://learn.modernagecoders.com/courses/act-math-prep-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 5 months (20 weeks)
+- Level: Grades 9-12 (ages 14 to 18), all starting scores
+- About: Live online ACT Math prep for ages 14 to 18: every ACT reporting category, from algebra and functions to geometry and statistics, plus pacing and full timed sections.
+- Who it is for: Students whose practice results show content gaps in algebra, functions or geometry that need rebuilding, not more drilling; Grade 10 and 11 students meeting topics such as logarithms, matrices or conic sections before school has taught them; Students with good grades whose timed results do not match, usually a pacing and method gap; Students who found the ACT suits them better than the SAT and need ACT-specific pacing; Students whose first attempt did not reflect what they know and who want a clear method for the next one
+- Prerequisites: education: Grades 9-12 (ages 14 to 18), or students between school and college retaking the ACT · math background: School algebra at any comfort level; the diagnostic finds the real starting point · equipment: A computer with stable internet and a permitted calculator. Students taking the ACT online also practise with the Desmos graphing calculator · time commitment: 2 live hours plus 2-3 practice hours weekly
+- Curriculum outline:
+  - PHASE 1: Diagnostic and Integrating Essential Skills (Weeks 1-6)
+    Find the starting point, learn how the section works, and secure the multi-step essential skills questions that appear throughout the test.
+    - Weeks 1-2: Diagnostic and How ACT Math Works
+    - Weeks 3-4: Rates, Percentages and Proportional Reasoning
+    - Weeks 5-6: Area, Volume, Averages and Number Forms
+  - PHASE 2: Preparing for Higher Math (Weeks 7-16)
+    The categories that make up most of the section, taught in the order they build on each other: number, algebra, functions, geometry, then statistics and probability.
+    - Weeks 7-8: Number and Quantity
+    - Weeks 9-10: Algebra
+    - Weeks 11-12: Functions
+    - Weeks 13-14: Geometry and Trigonometry
+    - Weeks 15-16: Statistics and Probability
+  - PHASE 3: Modeling and Test Craft (Weeks 17-20)
+    Knowledge becomes a repeatable score: modeling questions, calculator workflows, pacing under real timing, and full timed sections with honest review.
+    - Weeks 17-18: Modeling, Calculators and Pacing
+    - Weeks 19-20: Full Timed Sections and Test Week
+- Projects students build: Personal diagnostic report: score by category, top three content gaps and a starting pacing target; Error log opened with every diagnostic miss classified and corrected; Word problem translation sheet: twenty phrasings mapped to the equation each one means; Timed essential skills set with every step written out for review; Formula and method sheet written by the student, with one worked example per idea; Mixed essential skills timed set reviewed question by question; Exponent and radical rule card built from worked examples; Number and Quantity timed set with errors classified in the log; Algebra method map: which method to reach for first for each equation type; Two timed algebra sets, the second solved with a calculator check strategy; Function family gallery: a sketch, an equation and a key feature for each family; Functions timed set with a graph-first solution for every miss; Geometry recognition sheet: diagrams that signal similar triangles, special right triangles or circle facts; Geometry timed set reviewed for drawing and labelling habits; Statistics vocabulary and method sheet with one example of each idea, plus 5 more on the course page
+- Career paths after completion: Readiness for test day, with every ACT math category practised under real timing; Ready for AP Precalculus, AP Calculus or AP Statistics, with algebra and functions secure; Our SAT Math course, if a student decides to sit both tests; College mathematics courses, started with fewer gaps
 
 #### AP Calculus AB & BC Exam Prep, Live Online, Score 5 Goal
 
@@ -5681,6 +6335,178 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
     - Weeks 24-26: Full Mock Cycles and Peak Week
 - Projects students build: Personal score map: your exact domains, question types and target; First timed mini-module under real Digital SAT pacing; Break-even mini-case solved by equation, table and graph; Error-log review: your system-question mistakes classified and closed; Function-transformation exploration built live in Desmos; Mixed timed set: algebra domain at full pace; Algebra checkpoint mock + personal pacing plan v1; Updated error log with closed vs open gap list; Projectile/revenue modeling mini-case solved by vertex reasoning; Timed hard-module quadratic set with full review; Growth-model comparison case: same data, linear vs exponential fits; Advanced Math domain checkpoint under timing; Data-interpretation sprint: 20 real chart questions under time; Full mixed-domain mock: first complete Digital SAT math section; Geometry domain checkpoint under timing, plus 5 more on the course page
 - Career paths after completion: A math score that strengthens selective-college applications; AP Calculus and AP Statistics readiness, built on real algebra fluency; Stronger merit-scholarship positioning at score-aware universities; Ready for AP Calculus Exam Prep or the College Mathematics Masterclass
+
+### UK Adult and Post-16 Mathematics
+
+#### Functional Skills Maths Level 1 and Level 2 Course Online
+
+- Link: https://learn.modernagecoders.com/courses/functional-skills-maths-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks) for a full level; shorter for learners who start part-way
+- Level: Adults, apprentices and post-16 learners working towards Functional Skills maths at Level 1 or Level 2
+- About: Functional Skills maths online for adults, apprentices and post-16 learners: Level 1 and Level 2 taught live, with calculator and non-calculator practice.
+- Who it is for: Adults who need a maths qualification for a job, promotion or course and have not studied maths for years; Apprentices who need Functional Skills maths as part of their programme; Post-16 learners working towards a level 2 maths qualification; Career changers applying for roles or training that ask for level 2 maths; Parents who want to feel confident helping with homework and family budgets
+- Prerequisites: maths level: None beyond everyday numbers. The starting check places you on Level 1 or Level 2, and we fill gaps as they appear · exam entry: The qualification is examined by an awarding organisation through an approved exam centre, such as a college or training provider. You arrange the entry; we teach the content and the exam style · equipment: A basic calculator, a ruler, paper, and a device with stable internet for live classes · timing: Start any month. Most learners finish a level in about six months; those already part-way through take less
+- Curriculum outline:
+  - PHASE 1: Using Numbers (Months 1-2, Weeks 1-8)
+    The number skills every other part of the course depends on. Level 1 learners build the foundations; Level 2 learners extend them to percentage change, ratio and inverse proportion.
+    - Month 1: Whole Numbers, Fractions and Decimals
+      - Weeks 1-2: Starting Check and Whole Numbers
+      - Weeks 3-4: Fractions and Decimals
+    - Month 2: Percentages, Ratio and Proportion
+      - Weeks 5-6: Percentages
+      - Weeks 7-8: Ratio, Proportion and Formulae
+  - PHASE 2: Measures, Shape and Space (Months 3-4, Weeks 9-16)
+    Maths for money, measuring and making things fit. Contexts include budgets, travel, decorating, delivery and the workplace.
+    - Month 3: Money, Time and Units
+      - Weeks 9-10: Money and Budgeting
+      - Weeks 11-12: Time, Units and Compound Measures
+    - Month 4: Shape and Space
+      - Weeks 13-14: Perimeter, Area and Volume
+      - Weeks 15-16: Scale, Plans and Position
+  - PHASE 3: Handling Information and Data (Month 5, Weeks 17-20)
+    Reading, presenting and questioning data, the skill employers notice most when it is missing.
+    - Month 5: Data, Averages and Probability
+      - Weeks 17-18: Tables, Charts and Graphs
+      - Weeks 19-20: Averages, Range and Probability
+  - PHASE 4: Exam Practice (Month 6, Weeks 21-24)
+    Full practice assessments in the style of your exam centre's awarding organisation, with the non-calculator and calculator sections taken under real timing.
+    - Month 6: Practice Assessments
+      - Weeks 21-22: Underpinning Skills and Problem Solving
+      - Weeks 23-24: Final Practice and Exam Readiness
+- Projects students build: Personal method sheet: one worked example of each written method; Real-life problem set: a recipe scaled and a bill split, solved with fractions; Shopping comparison: three offers compared with percentages and a written recommendation; Workplace task: a staffing or mixing problem solved and explained in a short note; Monthly budget: a realistic household or event budget built and checked; Journey plan: a trip timed and costed from a real timetable; Room project: flooring and paint worked out for a real room plan, with costs; Scale plan: a simple floor plan drawn to scale from real measurements; Data report: a small real data set presented two ways with a written comparison; Comparison task: two shops, teams or months compared with averages and range; Error log started from the first practice assessment; Completed error log and method sheet, kept for revision
+- Career paths after completion: Jobs, apprenticeships and college courses that ask for level 2 maths; check each one's exact requirement; Our GCSE maths resit course for learners who want a GCSE as well; Our statistics and data courses for learners who enjoyed the data phase
+
+### UK Exam Board Mathematics
+
+#### GCSE Maths Resit Course Online: Post-16 and Adults
+
+- Link: https://learn.modernagecoders.com/courses/gcse-maths-resit-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks) for a summer entry; a shorter plan for the November series
+- Level: Learners aged 16 and over, and adults, resitting GCSE Maths with AQA, Edexcel or OCR
+- About: GCSE maths resit course online for post-16 learners and adults: a diagnostic, targeted repair of the topics that cost marks, then full papers for the November or summer series.
+- Who it is for: 16 to 18 year olds at college or sixth form who need to keep working towards GCSE Maths; Adults who need GCSE Maths for a job, training course or university application; Learners who missed the grade they needed by a few marks and want a focused plan for November; Learners who know more than their result shows but lose marks under pressure; Candidates sitting UK GCSE Maths as private candidates from abroad
+- Prerequisites: maths level: You have taken GCSE Maths before, or followed the course at school. The diagnostic paper shows exactly where to start · exam entry: Learners at college are entered by their college. Adults enter through an exam centre that accepts private candidates; you arrange the entry and we teach to your board and tier · equipment: A scientific calculator, ruler, protractor, compasses, and a device with stable internet for live classes · timing: For the November series, start as early in the autumn term as possible. For the summer series, start any time from September to January
+- Curriculum outline:
+  - PHASE 1: Diagnostic and Number (Months 1-2, Weeks 1-8)
+    Find the lost marks first, then repair number, the strand that runs through every paper and dominates the non-calculator paper.
+    - Month 1: Diagnostic and the Lost-Marks Map
+      - Weeks 1-2: The Diagnostic Paper
+      - Weeks 3-4: Number Without a Calculator
+    - Month 2: Fractions, Decimals and Percentages
+      - Weeks 5-6: Fractions and Decimals
+      - Weeks 7-8: Percentages and Money
+  - PHASE 2: Algebra and Ratio (Months 3-4, Weeks 9-16)
+    The strands where resit learners most often lose marks they could win: forming and solving equations, reading graphs, and ratio in context.
+    - Month 3: Expressions, Equations and Graphs
+      - Weeks 9-10: Expressions and Equations
+      - Weeks 11-12: Sequences and Graphs
+    - Month 4: Ratio, Proportion and Rates
+      - Weeks 13-14: Ratio and Proportion
+      - Weeks 15-16: Rates and Compound Measures
+  - PHASE 3: Geometry, Probability and Statistics (Month 5, Weeks 17-20)
+    Shape, space and data, taught to the depth your tier needs and practised in exam-style questions.
+    - Month 5: Geometry, Probability and Statistics
+      - Weeks 17-18: Geometry and Measures
+      - Weeks 19-20: Probability and Statistics
+  - PHASE 4: Full Papers (Month 6, Weeks 21-24)
+    No new content. Full sets of three papers at your tier under real timing, marked against published mark schemes, with repair lessons between papers.
+    - Month 6: Paper Sets and Repair
+      - Weeks 21-22: Full Sets Under Timing
+      - Weeks 23-24: Final Set and Exam Readiness
+- Projects students build: Lost-marks map: every topic coloured by how many marks it cost; Non-calculator method sheet: one worked example of every written method; Repair log: each fraction slip from the diagnostic re-done correctly; Money problem set: interest, discounts and comparisons solved two ways; Equation bank: one solved example of each equation type, with a check by substitution; Graph file: six graph types drawn and annotated; Ratio problem set: five real contexts solved with a bar model and then algebra; Repair log updated: ratio and rate errors from the diagnostic re-done; Geometry sheet: every formula and angle fact with a worked example; Data question bank: one solved example of every chart and average type; Paper tracker: every paper's score on one chart; Completed paper tracker and lost-marks map, kept for revision
+- Career paths after completion: Jobs, apprenticeships, training and university courses that ask for GCSE Maths; check each one's exact grade requirement; Our A Level Maths course for learners who discover they enjoy it; Our Functional Skills Maths course as an alternative level 2 route where it is accepted
+
+### UK Primary Mathematics
+
+#### KS2 SATs Maths: Arithmetic, Reasoning and Times Tables
+
+- Link: https://learn.modernagecoders.com/courses/ks2-sats-maths-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 8 months (32 weeks), timed to finish before the May tests
+- Level: Children in Years 4, 5 and 6 at primary schools in England, ages 8 to 11
+- About: KS2 SATs maths course online for Years 4 to 6: times tables for the multiplication check, the arithmetic paper and both reasoning papers, taught live.
+- Who it is for: Year 6 children preparing for the May tests who want steady, structured practice; Year 4 children getting ready for the multiplication tables check; Year 5 children who want arithmetic and times tables secure a year early; Children who know the maths but freeze or rush under time; Children who are already secure and want the harder reasoning questions
+- Prerequisites: maths level: Working on Year 4, 5 or 6 maths at school. The first week's diagnostic shows where each child is, and the plan starts from there · school system: Built for the key stage 2 tests at primary schools in England. Children elsewhere are welcome for the content, but the papers are England's · equipment: Pencil, ruler, protractor, a small mirror, squared paper, and a device with stable internet for live classes · timing: Ideally started in the autumn of Year 6, or earlier in Years 4 and 5 for times tables and arithmetic. Later joiners get a shorter plan focused on papers
+- Curriculum outline:
+  - PHASE 1: Times Tables to Instant Recall (Months 1-2, Weeks 1-8)
+    Every table up to 12 by 12 and its division facts, learned through patterns first and speed second. Year 4 children practise in the format of the multiplication tables check; older children use it as a warm-up for the papers.
+    - Month 1: Tables by Pattern
+      - Weeks 1-2: Diagnostic and the Easy Tables
+      - Weeks 3-4: The Harder Tables
+    - Month 2: Speed and Division Facts
+      - Weeks 5-6: Division Facts and Missing Numbers
+      - Weeks 7-8: Six-Second Recall
+  - PHASE 2: The Arithmetic Paper (Months 3-4, Weeks 9-16)
+    Paper 1 is 40 marks in 30 minutes, all calculation. Each written method is taught, practised and checked until it is automatic, then mixed under time.
+    - Month 3: Whole Numbers and Written Methods
+      - Weeks 9-10: Place Value and Addition and Subtraction
+      - Weeks 11-12: Multiplication and Division
+    - Month 4: Fractions, Decimals and Percentages
+      - Weeks 13-14: Fraction Calculations
+      - Weeks 15-16: Decimals, Percentages and the Full Paper
+  - PHASE 3: The Reasoning Papers (Months 5-6, Weeks 17-24)
+    Papers 2 and 3 are 35 marks and 40 minutes each, and they test whether a child can use maths in context and explain it. Each question type is taught on its own, then mixed.
+    - Month 5: Number Reasoning and Measures
+      - Weeks 17-18: Multi-Step Word Problems
+      - Weeks 19-20: Measures, Money and Time
+    - Month 6: Geometry, Statistics and Explaining
+      - Weeks 21-22: Geometry and Statistics
+      - Weeks 23-24: Explain, Show and Check
+  - PHASE 4: Full Papers Under Timing (Months 7-8, Weeks 25-32)
+    No new content. Full sets of three papers under real timing, marked against the published mark schemes, with a short review after each one and a calm plan for test week.
+    - Month 7: Paper Sets
+      - Weeks 25-26: First Full Sets
+      - Weeks 27-28: Targeted Repair
+    - Month 8: Ready for Test Week
+      - Weeks 29-30: Final Sets
+      - Weeks 31-32: Calm Before the Tests
+- Projects students build: Fact chart started: every fact up to 12 by 12 coloured by speed after the diagnostic; Fact chart updated: amber and red facts listed with a hook for each; Fact family cards made for the ten facts the child finds slowest; Fact chart completed: the aim is every fact green; Method book started: one worked example per method, written by the child; Method book entry: long multiplication and long division set out step by step; Method book entry: every fraction method with a worked example; Arithmetic tracker: score and time recorded for every practice paper; Problem journal started: one solved problem per question type with a bar model; Problem journal entry: a measures question for each unit type; Problem journal entry: geometry and statistics questions with labelled diagrams; Explanation bank: model answers to ten explain questions, written in the child's own words; Paper tracker: scores for each paper on one chart; Repair list: each weak area with the date it was fixed; Paper tracker completed, plus 1 more on the course page
+- Career paths after completion: A smooth start to Year 7 maths with times tables and written methods already secure; Our KS3 and 11 plus maths courses for children who want to keep going; Our mental maths and coding courses for children who enjoy number puzzles
+
+### University Admissions Maths for Teens
+
+#### TMUA and STEP Preparation (Oxford MAT Now TMUA)
+
+- Link: https://learn.modernagecoders.com/courses/tmua-mat-step-preparation-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks) per stage: a TMUA stage for Year 12 and early Year 13, and a STEP stage for Year 13 offer-holders; joinable any month
+- Level: Year 12 and Year 13 students (roughly ages 16 to 18) taking A Level Maths, ideally with Further Maths, who enjoy hard problems
+- About: Live online TMUA and STEP preparation, ages 16 to 18: logic, proof and problem solving for Oxford, Cambridge and UAT-UK maths admissions, plus STEP 2 and 3.
+- Who it is for: Year 12 students planning to apply for mathematics, computer science or economics and expecting to sit the TMUA in Year 13; Oxford and Cambridge maths and computer science applicants, now sitting the TMUA; Year 13 students holding or expecting an offer that names STEP 2 or STEP 3; Students on IB, Scottish Highers or other systems applying to UK maths degrees; Students who simply enjoy hard problems and want to go beyond the school syllabus
+- Prerequisites: maths level: Taking A Level Maths (Further Maths strongly advised for the STEP stage) and confident with GCSE Higher content · age: Roughly 16 to 18, in Year 12 or Year 13, or the equivalent in another system · equipment: A computer with stable internet, paper and a pencil, and a way to share photos of written solutions · registration: TMUA bookings are made through UAT-UK and STEP entries through a school or college, not through us
+- Curriculum outline:
+  - PHASE 1: TMUA Content Fluency (Months 1-2, Weeks 1-8)
+    UAT-UK's Section 1 knowledge, made fast and flexible without a calculator, and used in problems that do not look like textbook exercises.
+    - Month 1: Algebra, Functions and Sequences
+      - Weeks 1-2: The Tests, a Diagnostic and Algebra Without a Calculator
+      - Weeks 3-4: Polynomials, Inequalities, Sequences and Series
+    - Month 2: Coordinate Geometry, Trigonometry, Logarithms and Calculus
+      - Weeks 5-6: Coordinate Geometry, Circles and Trigonometry
+      - Weeks 7-8: Differentiation and Integration
+  - PHASE 2: Mathematical Reasoning for TMUA Paper 2 (Months 3-4, Weeks 9-16)
+    UAT-UK's Section 2: the logic of arguments and mathematical proof, taught from first principles and then tested under time.
+    - Month 3: The Logic of Arguments
+      - Weeks 9-10: Statements, Implication and Quantifiers
+      - Weeks 11-12: Proof Methods and Counterexamples
+    - Month 4: Finding Errors in Proofs and Timed TMUA Papers
+      - Weeks 13-14: Identifying Errors in Proofs
+      - Weeks 15-16: Full TMUA-Style Practice
+  - PHASE 3: STEP 2 and STEP 3 (Months 5-6, Weeks 17-24)
+    For students holding or expecting STEP offers: the specification's pure, mechanics and probability content stretched to STEP depth, and long solutions written in full.
+    - Month 5: STEP Pure Mathematics
+      - Weeks 17-18: How STEP Is Built, and Pure Problems That Take Time
+      - Weeks 19-20: Calculus, Series and Complex Numbers at STEP Depth
+    - Month 6: Mechanics, Probability and the June 2027 Papers
+      - Weeks 21-22: Mechanics and Probability Questions
+      - Weeks 23-24: Full Papers and the June Sittings
+- Projects students build: A personal starting profile: target tests, target universities and ten solved warm-ups; Write and solve five original problems that each hide a factorisation; An original geometry pack where every answer starts from a careful sketch; A calculus problem set of our own with one written explanation per answer; A logic glossary written in the student's own words with one original example each; Five short proofs of original statements, each written up twice: once rough, once clean; Write three deliberately flawed proofs of our own design and swap them with a classmate to find the errors; Two full timed TMUA-style papers of our own, each followed by a written review; Two long original problems written up in full, then rewritten after detailed feedback; A personal technique file: twelve methods, each with an original example; Two applied problems of our own written up in full with diagrams; A final full paper reviewed one to one with the teacher
+- Career paths after completion: Mathematics, computer science, economics, physics or engineering at university; A Level Further Maths in more depth through our A Level Further Maths course; Olympiad-style problem solving through our olympiad mathematics course; Programming and algorithms, where proof and logic are everyday tools; Research-style projects and mathematics competitions
 
 ### Version Control & Developer Tools
 
@@ -6480,6 +7306,46 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 - Projects students build: Hello World variations with personalized messages; Simple output programs using console.log; Personal information display program; ASCII art generator in JavaScript; Interactive greeting program; Simple calculator (four basic operations); Temperature converter (Celsius, Fahrenheit, Kelvin); Age calculator with detailed output; BMI calculator with health categories; Currency converter with exchange rates; Area and perimeter calculator for shapes; Compound interest calculator; Number guessing game with attempts limit; Grade calculator with letter grades; Even/odd checker and list generator, plus 192 more on the course page
 - Career paths after completion: Full-stack roles: TypeScript is the shared language of both ends now; Our React and full-stack courses pair naturally either side of this one; Backend depth: typed Node into production architectures; DSA for interviews, with types making practice cleaner
 
+### Western Canada High School Mathematics
+
+#### Western Canada Grade 12 Math: Pre-calculus 12 and Math 30-1
+
+- Link: https://learn.modernagecoders.com/courses/western-canada-grade-12-math-pre-calculus-12-math-30-1-course
+- Fee if the student is in India: Group ₹1,499/month · Mini Batch ₹2,999/month · 1-on-1 ₹4,999/month
+- Fee if the student is outside India: Group $100/month · 1-on-1 $150/month
+- Duration: 6 months (24 weeks) per plan, joinable any month and paced to your school course
+- Level: Students in Grade 12 (roughly ages 16 to 18) taking Pre-calculus 12 in British Columbia or Math 30-1 in Alberta
+- About: Live online help for BC Pre-calculus 12 and Alberta Math 30-1, ages 16 to 18, taught alongside school: functions, logarithms, trigonometry and counting. We do not grant credits.
+- Who it is for: BC students in Pre-calculus 12 who want functions, logarithms and trigonometry to make sense; Alberta students in Math 30-1 preparing for unit tests and the diploma exam; Students who missed a unit or lost confidence and want to catch up calmly; Students who are doing well and want cleaner, more complete written solutions; Students heading toward calculus and science, engineering or computer science programs
+- Prerequisites: school course: Currently taking, or about to take, Pre-calculus 12 in British Columbia or Math 30-1 in Alberta · math level: Comfortable with the Grade 11 math that came before, which we refresh in the first two weeks · age: Roughly 16 to 18 (Grade 12) · equipment: A computer with stable internet, a scientific or graphing calculator, and a way to share photos of written work
+- Curriculum outline:
+  - PHASE 1: Functions, Transformations and Polynomial, Radical and Rational Functions (Months 1-2, Weeks 1-8)
+    The function toolkit every Grade 12 topic depends on, then the polynomial, radical and rational families.
+    - Month 1: Functions and Transformations
+      - Weeks 1-2: Starting Point and the Function Toolkit
+      - Weeks 3-4: Transformations and Inverses
+    - Month 2: Polynomial, Radical and Rational Functions
+      - Weeks 5-6: Polynomial Functions
+      - Weeks 7-8: Radical and Rational Functions
+  - PHASE 2: Exponential and Logarithmic Functions, and Trigonometry (Months 3-4, Weeks 9-16)
+    Growth, decay and logarithms, then trigonometry in radians with identities and equations.
+    - Month 3: Exponential and Logarithmic Functions
+      - Weeks 9-10: Exponential Functions
+      - Weeks 11-12: Logarithms
+    - Month 4: Trigonometry in Radians, Identities and Equations
+      - Weeks 13-14: Radians, the Unit Circle and Trigonometric Graphs
+      - Weeks 15-16: Identities and Trigonometric Equations
+  - PHASE 3: Permutations and Combinations, Combining Functions and Exam Review (Months 5-6, Weeks 17-24)
+    Careful counting, combining functions, then exam review for school finals and, for Alberta students, the Math 30-1 diploma exam.
+    - Month 5: Permutations, Combinations and Combining Functions
+      - Weeks 17-18: Permutations, Combinations and the Binomial Theorem
+      - Weeks 19-20: Combining Functions
+    - Month 6: Exam Review Technique
+      - Weeks 21-22: Mixed Review and Written Solutions
+      - Weeks 23-24: Timed Practice for School Finals and the Alberta Diploma Exam
+- Projects students build: A one-page function toolkit summary, with a sketch of each parent function and its key points; A transformation set: ten graphs transformed by hand from mapping rules, then checked with graphing technology; A polynomial sketch set with end behaviour, zeros and intercepts explained for each graph; A radical and rational function set with every restriction, asymptote and hole labelled; An applications pack: three real growth or decay situations modelled and solved in full; A logarithm laws file: ten equations solved in full, with each law named at the step where it is used; A sinusoidal model of a real periodic situation, with the equation built from the data and explained; An identity proof file: ten identities proved in full, with the strategy for each written first; A counting pack: twelve problems sorted by method, each solved with the reason for the method written first; A combining functions set with graphs, equations and domains explained for each; A personal review pack: unit summaries and a mistakes list with a corrected example for each mistake; Two reviewed timed papers and a written exam-week plan
+- Career paths after completion: Calculus at school or in first-year university, on a solid base; University science, engineering, computer science or mathematics programs; Math contests for senior students, through our Waterloo math contests course; Further study in data science and programming, where functions and logarithms are used every day; Our other high school math courses for the next step
+
 ### Women in Tech
 
 #### Alpha Girls: Systems at Scale for Senior Women Engineers
@@ -6637,7 +7503,7 @@ One-time fee: **₹9,999 (India) / $200 (outside India)** for **8 personalized o
 ## Quick answers for common parent questions
 
 - **Demo class**: Priority Live Demo (paid, guaranteed today or tomorrow, fee adjusted against the first month) at https://learn.modernagecoders.com/priority-demo, or the free demo, which is a waiting list with no fixed date.
-- **Class format**: live online with a real teacher, one hour a class. Group (max 10) and Mini Batch (3-4): 2 classes a week. 1-on-1: 1 class a week (4 a month) in India, 2 a week outside India.
+- **Class format**: live online with a real teacher, one hour a class. Group (15 to 20) and Mini Batch (up to 6, India only): 2 classes a week. 1-on-1: 4 private classes a month on a flexible schedule in India, 2 a week outside India.
 - **Ages**: 6 to 67, kids (6-12), teens (13-18), college students and working professionals.
 - **Certificates**: yes, on course completion.
 - **Full catalog page**: https://learn.modernagecoders.com/courses · Course atlas: https://learn.modernagecoders.com/course-atlas

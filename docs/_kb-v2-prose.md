@@ -1,6 +1,6 @@
 # Modern Age Coders: AI Agent, WhatsApp Agent and Support Knowledge Base
 
-**Version 2.0 · Last updated: 4 August 2026, pricing amended 10 August 2026 (one-to-one ₹4,999 for coding and maths, one class a week in India) · Supersedes the April 2026 edition**
+**Version 2.1 · Last updated: 1 November 2026 (batch sizes 15 to 20, India one-to-one = 4 flexible classes, 6-month prepay, 2.5% gateway charges, Canada in CAD, Priority Live Demo, overseas demo times in the family's own clock, 24 new courses, UK and US exam guides) · Supersedes the August 2026 edition**
 
 > **Purpose.** This document is the single source of truth for any AI assistant, WhatsApp bot, voice agent, or human support person representing Modern Age Coders. Read it top to bottom before answering customers. When uncertain, default to the answers and tone in this document. Anything not covered here, route to a human (Shivam Sir).
 >
@@ -17,15 +17,17 @@ Before answering any customer, follow these rules.
 1. **Batch timings, schedules, slot availability, "what time can my child join?", "is there a Saturday batch?", or anything time or day related.** Do NOT invent a timing. Always reply with:
    > *"We run multiple batches across weekdays, evenings and weekends, including dedicated slots for international time zones. To find the slot that fits your child's schedule perfectly, please connect with **Shivam Sir on +91 9123366161**. He manages all batch allocations and will help you pick the best one."*
 
-2. **Pricing.** Quote the current three-tier India structure: **₹1,499 / ₹2,999 / ₹4,999 per month**, the same for coding, maths and the AI-agents courses. India one-to-one runs **one class a week (4 a month)** since 10 August 2026; Group and Mini Batch run two a week. Mini Batch is **India only**. International students see **$100 group and $150 one-to-one** only. See §3, and read §3.8 before you quote anything.
+2. **Pricing.** Quote the current three-tier India structure: **₹1,499 / ₹2,999 / ₹4,999 per month**, the same for coding, maths and the AI-agents courses. India one-to-one is **4 private classes a month on a fully flexible schedule**; Group and Mini Batch run two a week. Mini Batch is **India only**. Canadian families pay in **CAD: 140 group, 210 one-to-one**. Everyone else outside India pays **$100 group and $150 one-to-one**. Paying **6 months at once** is an optional saving (§3.4a). A **2.5% payment gateway charge** is added at checkout. Quote only the person's own region. See §3, and read §3.8 before you quote anything.
 
-3. **Demo class requests.** Confirm it is **free**, that it is a **full live hour with a real mentor** (30 to 45 minutes for the shorter assessment format), that **no card details are ever requested**, and collect: student's name, age or class, parent's WhatsApp number with country code, preferred subject (coding or maths), preferred language (English or Hindi).
+3. **Demo class requests. There are two kinds; describe both honestly (§7.2).** The **Priority Live Demo** is paid (₹499 in India, CAD 14 in Canada, $10 elsewhere), guaranteed on a day and time the family picks (usually today or tomorrow), a full class of about 45 to 60 minutes, followed by a written skill report and learning roadmap on WhatsApp; the fee is adjusted against the first month if they enrol. Book at `/priority-demo`. The **free demo** is a **waiting list** of 30 to 45 minutes: no card, but no promised date. For either, collect: student's name, age or class, parent's WhatsApp number with country code, preferred subject (coding or maths), preferred language (English or Hindi).
 
 4. **Refund or cancellation queries.** Quote the policy verbatim from §13. Do not improvise.
 
 5. **Tone.** Warm, helpful, parent-friendly. Use "Sir" and "Ma'am" with Indian customers. Never overpromise placement, salary or guaranteed outcomes. Never insult a competitor.
 
-6. **Hard escalations to Shivam Sir (+91 9123366161):** custom corporate quotes · international pricing in non-USD currencies · bulk school partnerships · refund disputes · anything you cannot find in this document.
+6. **Hard escalations to Shivam Sir (+91 9123366161):** custom corporate quotes · payment in a currency other than INR, USD or CAD · bulk school partnerships · refund disputes · anything you cannot find in this document.
+
+7. **Times for families outside India.** They choose and discuss times in their **own local time**. On the website they pick a demo time in their own clock (or type one) and our team matches it to India time. Never ask an overseas family to work in IST.
 
 ### 0.1 THE MOST IMPORTANT CHANGE SINCE APRIL 2026: RETIRED FIGURES
 
@@ -60,7 +62,8 @@ These are places where the live website currently contradicts itself. Until the 
 
 | Topic | The contradiction on the live site | Safe answer to give |
 |---|---|---|
-| **Group batch size** | `/guarantee` and `/pricing` cards say **"capped at 20 students"**. `scripts/brand-facts.json` says **5 to 8**. `/about` says **"maximum 5-6 students"**. The comparison table on `/pricing` and `/contact` says **"Max 15-20 Students"**. Four different numbers. | Say **"group classes are capped at 20 students, and in practice batches usually run smaller."** This is the published promise on `/guarantee`, and it is the only one of the four that cannot become a broken promise. Never promise "maximum 5" or "maximum 6". |
+| **Group batch size** | **Resolved 13 October 2026.** The owner ruled: group **15 to 20 students**, Mini Batch **up to 6**, one-to-one a single student. `scripts/brand-facts.json` and the site were updated on 14 October 2026. | Say **"a group class is 15 to 20 students."** Never promise a smaller group. |
+| **"No 6 or 12 month packs" and "the price is the whole price"** | `/guarantee` still says "no 6 or 12 month packs" and that the pricing-page price is the whole price. Since October 2026 families may **optionally** pay 6 months at once, and a **2.5% payment gateway charge** is added at checkout. | Say: **"Billing is monthly and you can stop any month. Paying 6 months at once is optional and costs less. A 2.5% payment gateway charge is added at checkout and shown on the bill before you pay."** |
 | **Teen age band** | Nav and course pages say **13-18**. The `/pricing` and `/contact` FAQs say **13-17**. | Use **13 to 18**. |
 | **Overall age range** | Brand facts, `/pricing` and `/contact` say **6 to 67**. The `/faq` page is **stale** and still says "aged 6-18 and college students aged 18-21" and "courses for students aged 6-21". | Use **6 to 67**. The `/faq` page needs updating; do not quote it. |
 | **Team size** | The April document claimed "50+ instructors and staff". This number is **not** in `brand-facts.json` and is not evidenced anywhere in the codebase. | Do not quote a team size. Say "a team of professional engineers and educators". |
@@ -119,13 +122,13 @@ Modern Age Coders does two things and nothing else.
 **Core differentiators (lead with these, not with price):**
 
 - Live online classes, taught by a real mentor, never pre-recorded
-- Batches: group capped at 20, mini batch up to 6, and true one-to-one
+- Batches: group of 15 to 20, mini batch up to 6 (India only), and true one-to-one with 4 flexibly timed classes a month in India
 - Project-based: students build real things from the first week
 - Maths and code taught together, so logic skills compound across both
 - Flexible timing: weekday evening, weekend and international time-zone slots
 - A real portfolio: students graduate with projects, not just a certificate
 - Regular parent updates: progress reports and parent-mentor sync calls
-- Zero-risk start: free demo, monthly billing, no registration fee, cancel anytime
+- Zero-risk start: see a live class first (Priority Live Demo or the free demo waiting list), monthly billing, no registration fee, cancel anytime
 
 > **Positioning rule (important).** Lead with depth, mentorship and interactive live teaching. Price is the **closing proof**, not the opening pitch. We are not the cheapest option and we do not want to be sold as one.
 
@@ -139,10 +142,10 @@ Modern Age Coders does two things and nothing else.
 | Contact person (batch timings and enrolment) | **Shivam Sir** (Founder / Director) |
 | Email | connect@modernagecoders.com |
 | Registered office | Modern Age Coders Education, 1B, JK Ambika Tower, Kolkata, West Bengal 700002, India |
-| Phone hours | Monday to Saturday, 9:00 AM to 6:00 PM IST. Sunday closed. |
+| Phone hours | Monday to Saturday, 9:00 AM to 6:00 PM India time (IST). Sunday closed. Families abroad arrange times in their own clock. |
 | Callback request | Callback widget on every page. Takes a phone number, **callback within 3 hours**. |
 | Contact-form response time | Within 48 hours on working days |
-| Demo booking | https://learn.modernagecoders.com/book-demo or via WhatsApp |
+| Demo booking | Priority Live Demo: https://learn.modernagecoders.com/priority-demo · free demo waiting list: https://learn.modernagecoders.com/book-demo · or via WhatsApp |
 | Languages on call | English and Hindi |
 
 > **Note on the office address.** The Kolkata address is our **registered office**, not a campus. All teaching is 100% online. Students never travel to it. Phrase it as: "We are an online school, so classes happen live over video from wherever you are. Our registered office is in Kolkata, but there is no campus to visit."
@@ -181,17 +184,17 @@ Modern Age Coders does two things and nothing else.
 
 This is the single most asked question. Memorise this section. **Read §3.8 before quoting anything.**
 
-Prices come from one file, `pricing/pricing.config.jsonc`, last changed **1 August 2026**. The model is deliberately simple: **rupees inside India, one flat USD price list for every country outside India**. Detection is automatic. There is no country-by-country or purchasing-power pricing any more; that system was built and then removed by the owner on 1 August 2026.
+Prices come from one file, `pricing/pricing.config.jsonc`, last changed **23 October 2026**. The model is deliberately simple: **rupees inside India, Canadian dollars in Canada (since 24 October 2026), one flat USD price list for every other country**. Detection is automatic. There is no other country-by-country or purchasing-power pricing; that system was built and then removed by the owner on 1 August 2026.
 
 ### 3.1 India, coding (and every course except maths one-to-one)
 
 | Plan | Price | Batch size | Best for |
 |---|---|---|---|
-| **Group Classes** | **₹1,499 / month** | Capped at 20 students | Beginners, group energy, budget-conscious families |
+| **Group Classes** | **₹1,499 / month** | 15 to 20 students | Beginners, group energy, budget-conscious families |
 | **Mini Batch** *(Most Popular)* | **₹2,999 / month** | **Up to 6 students** | Near one-to-one attention at an affordable price |
-| **Personalised 1-on-1** | **₹4,999 / month** | 1 student, 1 mentor · 1 class a week (4 a month) | Custom curriculum, fast learners, exam prep, advanced learners |
+| **Personalised 1-on-1** | **₹4,999 / month** | 1 student, 1 mentor · 4 private classes a month, fully flexible timing | Custom curriculum, fast learners, exam prep, advanced learners |
 
-> **No exceptions to the ₹4,999 one-to-one rate any more.** Since 10 August 2026 the AI-agents courses (Codex + Claude Code, and AI Agents with Copilot Studio) also cost **₹4,999** one-to-one (§4.7), on the same one-class-a-week India schedule; the Copilot Studio courses are still taught 1-on-1 only. Group and Mini Batch are ₹1,499 and ₹2,999 for every course without exception.
+> **No exceptions to the ₹4,999 one-to-one rate any more.** Since 10 August 2026 the AI-agents courses (Codex + Claude Code, and AI Agents with Copilot Studio) also cost **₹4,999** one-to-one (§4.7), on the same 4-flexible-classes India schedule; the Copilot Studio courses are still taught 1-on-1 only. The one course with its own fee is **Build AI Agents with Google Gemini Enterprise**: 1-on-1 only, **₹14,999 / month** in India, **$250** abroad, **CAD 350** in Canada, two classes a week. Group and Mini Batch are ₹1,499 and ₹2,999 for every course without exception.
 
 ### 3.2 India, mathematics
 
@@ -213,11 +216,13 @@ Identical to coding **except the one-to-one tier**.
 | **Personalised 1-on-1** | **$150 USD / month** |
 | Mini Batch | **Not sold internationally.** India only. |
 
-Applies to coding and maths alike. Also available in EUR, GBP, CAD, AUD, SGD and AED at the equivalent rate; for those, route to Shivam Sir on +91 9123366161 for payment details.
+**Canada (since 24 October 2026), in Canadian dollars:** Group **CAD 140 / month**, Personalised 1-on-1 **CAD 210 / month**, two classes a week. Canadian families pay in CAD at checkout; never quote them a US dollar figure. A +1 phone number can be the US or Canada, so ask which country before quoting.
+
+Applies to coding and maths alike. We can also bill in EUR, GBP, AUD, SGD and AED; for those, route to Shivam Sir on +91 9123366161 for payment details.
 
 Per-class maths, useful when a parent asks "is that expensive?":
 - India: ₹1,499 ≈ ₹187 per live class · ₹2,999 ≈ ₹375 · ₹4,999 one-to-one ≈ ₹1,250 (4 classes a month)
-- International: $100 ≈ $12.50 per live class · $150 ≈ $18.75
+- International: $100 ≈ $12.50 per live class · $150 ≈ $18.75 · Canada: CAD 140 ≈ CAD 17.50 · CAD 210 ≈ CAD 26.25
 
 (Group and Mini Batch figures assume 8 live classes a month; the India one-to-one plan runs 4 a month, which is what makes its per-class figure ₹1,250.)
 
@@ -226,11 +231,28 @@ Per-class maths, useful when a parent asks "is that expensive?":
 | Region | Price |
 |---|---|
 | India | **₹9,999 one time** |
+| Canada | **CAD 280 one time** |
 | International | **$200 one time** |
 
 Every camp seat is **8 personalized one-to-one classes** with a dedicated mentor - there are no group camp batches. Summer and winter editions, each with kids, teens and adults tracks (`/summer-coding-camp`, `/winter-coding-camp` and their `-kids`/`-teens`/`-adults` pages).
 
-> Always say **"one time"** with the camp fee. ₹9,999 is also the monthly one-to-one rate for the two AI-agents courses, so an unqualified "₹9,999" is ambiguous.
+> Always say **"one time"** with the camp fee, so it is never mistaken for a monthly price. (₹9,999 is no longer any course's monthly rate; the AI-agents premium ended on 10 August 2026.)
+
+### 3.4a Pay for 6 months at once (optional, since 21 October 2026)
+
+Families can pay for 6 months in one go on the course page and pay less than six monthly payments. Monthly billing stays available; never push the 6-month option, and give its figure only if the family asks about paying upfront or a discount. Quote only their own region.
+
+| Region | Group | Mini Batch | 1-on-1 |
+|---|---|---|---|
+| India | **₹7,199** (48 sessions) | **₹14,399** (48 sessions) | **₹24,000** (24 sessions) |
+| Canada | **CAD 629** (48 sessions) | not sold | **CAD 941** (48 sessions) |
+| International | **$449** (48 sessions) | not sold | **$672** (48 sessions) |
+
+About 20% less than paying monthly in India and about 25% less abroad. It applies to coding, maths and the AI-agents courses; it is **not offered on courses shorter than 6 months** or on Build AI Agents with Google Gemini Enterprise. If the student stops early, every session not yet taken is refunded at the plan's per-session price, at any point in the 6 months (§13.1a).
+
+### 3.4b The Priority Live Demo fee
+
+**₹499 in India · CAD 14 in Canada · $10 elsewhere**, one time. It is adjusted against the first month if the family enrols: they send the demo Order ID on WhatsApp and the team applies it. See §7.2.
 
 ### 3.5 In-school bootcamp programmes (India only)
 
@@ -249,17 +271,17 @@ To get a quote, the customer fills the form on the website or speaks to Shivam S
 
 ### 3.7 What every plan includes
 
-- **Live one-hour classes: two a week (8 a month) on Group and Mini Batch, one a week (4 a month) on India one-to-one**
+- **Live one-hour classes: two a week (8 a month) on Group and Mini Batch; 4 private classes a month, timed flexibly, on India one-to-one; two a week on one-to-one outside India**
 - **Recorded session access** for revision and missed classes
 - **Doubt resolution support**
 - **Course completion certificate**
 - **Project-based learning**, real builds rather than theory
-- **Free demo before you pay**, no card required
+- **See a live class before you pay**: the Priority Live Demo, or the free demo waiting list (no card)
 - **Monthly billing, cancel anytime**, no registration fee, no lock-in
 
 **Mini Batch adds:** near one-to-one teacher attention, live doubt-clearing every class, targeted topic mastery.
 
-**Personalised 1-on-1 adds:** 100% customised curriculum (go at your own pace or cover twice the content), flexible scheduling you pick, monthly parent-mentor sync call, priority doubt support, lifetime recording access, portfolio building and career guidance. For maths: customised to CBSE, ICSE, IB, IGCSE or state board, with progress tracking reports and Olympiad training available.
+**Personalised 1-on-1 adds (as listed on every course page):** your own mentor with full individual attention · flexible timing, each class booked when it suits the student · a personal dashboard for student and parent · a daily syllabus tracker · live class recordings · homework and assignments set, submitted and checked on the dashboard · progress reports · response statistics (how the student and the mentor are responding) · parent-teacher meetings. Also a fully customised curriculum and pace. For maths: customised to CBSE, ICSE, IB, IGCSE or state board, with progress tracking reports and Olympiad training available.
 
 > **Careful with the word "lifetime".** "Lifetime recording access" is a real feature of the one-to-one plan and is fine to say. A "lifetime price" or "lifetime plan" does **not** exist and must never be offered.
 
@@ -273,19 +295,22 @@ To get a quote, the customer fills the form on the website or speaks to Shivam S
 - Do **not** quote **$100 as the one-to-one price**. $100 is the **group** price now; one-to-one is **$150**.
 - Do **not** quote **₹7,500 or ₹8,500 for any one-to-one**. Both retired on 10 August 2026; the rate is **₹4,999** for coding and maths alike.
 - The Codex + Claude Code and Copilot Studio courses share the standard **₹4,999** one-to-one rate since 10 August 2026. Do **not** quote ₹7,500 or ₹9,999 for them.
-- Do **not** say **₹9,999** without saying whether you mean the AI-agents one-to-one **monthly** rate or the India camp **one-time** fee.
+- **₹9,999** is only the India camp fee, **one time**. Always say "one time" with it. **₹14,999 / month** is the Gemini Enterprise one-to-one fee and applies to that course only.
 - Do **not** offer **Mini Batch** to an international customer. It is India only.
+- Do **not** quote a US dollar price to a family in **Canada**. They pay in CAD.
+- Do **not** leave out the **2.5% payment gateway charge** if a family asks for the exact amount they will pay. It is added at checkout and shown on the bill.
 - Do **not** offer any **lifetime** plan.
 - Do **not** promise a discount you cannot confirm. Say "let me check with Shivam Sir for any current offers".
 
 ### 3.9 Payment terms
 
-- **Currency:** INR inside India, USD everywhere else. Other currencies on request.
-- **Methods:** UPI, bank transfer, card. Payments only via secure links, never over chat.
+- **Currency:** INR inside India, CAD in Canada, USD everywhere else. Other currencies on request.
+- **How to enrol:** anyone can enrol and pay online on the course page (Enroll Now), or through a secure link we send. For a Group or Mini Batch in India the page first asks the family to message our team, so we can check a batch runs at a time that suits them.
+- **Methods:** UPI, bank transfer, card. Payments only via secure links or the course page, never card details over chat.
+- **Payment gateway charges:** **2.5% of the fee**, added at checkout and shown on the bill before paying. Not part of the course price and not refunded.
 - **Billing:** monthly and recurring. Cancel anytime, effective at the end of the current cycle.
-- **Discounts:** quarterly and yearly prepay discounts exist, and sibling and group discounts may apply. Confirm with Shivam Sir before promising one.
-- **Instalments:** available for many courses. Confirm with Shivam Sir.
-- **Free trial:** one free demo class before enrolment. No commitment, no card upfront.
+- **Paying ahead:** the published saving is the optional **6-month prepay** (§3.4a). Sibling offers may apply; confirm with Shivam Sir before promising one.
+- **See a class first:** the Priority Live Demo (paid, guaranteed, fee adjusted on enrolment) or the free demo waiting list.
 - **Pausing:** students can pause for exams or vacations with about a week's notice, and we hold the spot.
 
 ### 3.10 How we compare (use only if asked, never volunteer a competitor)
@@ -306,7 +331,15 @@ International comparison (published US rates as of July 2026, verify before repe
 
 ## 4. CODING CURRICULUM
 
-We organise coding by **audience**, not by language. **115 course pages** are live, each at `/courses/<slug>`. The complete list with URLs is **Appendix A**. When a parent or student asks **what a course teaches**, share its curriculum outline and project list from **Appendix E** in detail - transparency is the policy - then send the course link for the full week-by-week plan.
+We organise coding by **audience**, not by language. **142 course pages** are live (1 November 2026), each at `/courses/<slug>`. The complete list with URLs is **Appendix A**. When a parent or student asks **what a course teaches**, share its curriculum outline and project list from **Appendix E** in detail - transparency is the policy - then send the course link for the full week-by-week plan.
+
+### 4.0 Courses added since August 2026
+
+Coding and computing: Build AI Agents with Google Gemini Enterprise (1-on-1 only, own fee) · C++ for Kids · Godot Game Development for Kids and Teens · Cybersecurity Competitions for Teens (picoCTF, CyberPatriot) · PCEP and PCAP Python Certification · GCSE Computer Science · A Level Computer Science for AQA 7517 and OCR H446 · Cambridge AS and A Level Computer Science 9618 · CCC Junior and Senior Preparation (Canadian Computing Competition) · Ontario Computer Science Companion (ICS3U and ICS4U).
+
+Mathematics: KS2 SATs Maths · GCSE Maths Resit · Functional Skills Maths Level 1 and 2 · National 5 and Higher Maths (Scotland) · A Level Further Maths · TMUA and STEP Preparation (Oxford no longer uses the MAT; it now uses the TMUA) · SHSAT Math Prep · ACT Math Prep · College Math Placement Test Prep (ACCUPLACER, ALEKS PPL, TSIA2, CLEP) · Middle School Math Competitions · Waterloo Math Contests (Gauss to Euclid) · Ontario Grade 12 University Math (MHF4U, MCV4U) · Western Canada Grade 12 Math (Pre-calculus 12, Math 30-1) · Reasoning and Readiness for Young Thinkers (ages 6 to 9: patterns, spatial and number reasoning, never test-item drilling).
+
+Links for every course are in Appendix A.
 
 ### 4.1 The five audience tracks
 
@@ -373,7 +406,7 @@ Two courses on OpenAI Codex and Anthropic Claude Code, 24 hands-on classes: inst
 - Teens: `/courses/codex-and-claude-code-ai-coding-agents-course-for-teens`
 - Adults and professionals: `/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals`
 
-> **Two things to get right.** (1) **These courses cost the same as every other course since 10 August 2026** (the three AI Agents with Copilot Studio courses share the prices and are taught 1-on-1 only). Group **₹1,499** and Mini Batch **₹2,999** are the same as everywhere else, and one-to-one is the standard **₹4,999 / month** with one class a week in India (the ₹9,999 premium ran 3 to 10 August 2026). Internationally they follow the standard $100 group and $150 one-to-one. (2) Students **need their own Claude and ChatGPT subscriptions** for these two courses. Say so before enrolling anyone, so it is never a surprise.
+> **Two things to get right.** (1) **These courses cost the same as every other course since 10 August 2026** (only Build AI Agents with Google Gemini Enterprise has its own fee: 1-on-1 only, ₹14,999 / $250 / CAD 350 a month) (the three AI Agents with Copilot Studio courses share the prices and are taught 1-on-1 only). Group **₹1,499** and Mini Batch **₹2,999** are the same as everywhere else, and one-to-one is the standard **₹4,999 / month** with 4 flexible classes a month in India (the ₹9,999 premium ran 3 to 10 August 2026). Internationally they follow the standard $100 group and $150 one-to-one. (2) Students **need their own Claude and ChatGPT subscriptions** for these two courses. Say so before enrolling anyone, so it is never a surprise.
 
 ### 4.8 Programming languages we teach
 
@@ -406,7 +439,7 @@ Full list in Appendix B.
 
 ### 4.12 Camps (seasonal)
 
-Summer and winter camps, each with kids, teens and adults variants: `/summer-coding-camp`, `/summer-coding-camp-kids`, `/summer-coding-camp-teens`, `/summer-coding-camp-adults`, and the same pattern for `/winter-coding-camp`. Priced as a **one-time payment: ₹9,999 in India, $200 international**. See §3.4, and always say "one time" so it is not mistaken for a monthly fee.
+Summer and winter camps, each with kids, teens and adults variants: `/summer-coding-camp`, `/summer-coding-camp-kids`, `/summer-coding-camp-teens`, `/summer-coding-camp-adults`, and the same pattern for `/winter-coding-camp`. Priced as a **one-time payment: ₹9,999 in India, CAD 280 in Canada, $200 elsewhere**. See §3.4, and always say "one time" so it is not mistaken for a monthly fee.
 
 ---
 
@@ -458,6 +491,19 @@ Covers AMC, MATHCOUNTS, AIME, USAMO, IMO and Indian Olympiads.
 | SAT | SAT Math Prep | `/courses/sat-math-prep-course` |
 | AP | AP Calculus · AP Statistics · AP Precalculus | `/courses/ap-calculus-exam-prep`, `/courses/ap-statistics-maths-exam-prep-course`, `/courses/ap-precalculus-exam-prep-course` |
 | GRE / GMAT | GRE & GMAT Quant | `/courses/gre-gmat-quant-maths-prep-course` |
+| UK admissions | TMUA and STEP Preparation | `/courses/tmua-mat-step-preparation-course` |
+| NYC SHSAT | SHSAT Math Prep | `/courses/shsat-math-prep-course` |
+| US college placement | College Math Placement Test Prep | `/courses/college-math-placement-test-prep-course` |
+| Ages 6 to 9 reasoning | Reasoning and Readiness for Young Thinkers | `/courses/reasoning-and-readiness-course-for-young-thinkers` |
+| Scotland | National 5 and Higher Maths | `/courses/national-5-and-higher-maths-course` |
+| Canada | Ontario Grade 12 · Western Canada Grade 12 · Waterloo contests | see Appendix A |
+
+**UK and US exam guides (November 2026).** Ten guide pages explain a whole family of exams and link to a page for every board, test or area. Send the guide for a broad question and the specific page for a specific exam:
+
+- UK: `/uk-maths-exam-boards-and-specification-codes` (GCSE, IGCSE, A level, Scotland, IB, every spec code) · `/uk-maths-year-by-year-guide` (Reception to Year 11) · `/uk-selective-school-maths-tests-guide` (7+, 11+ by area and provider, 13+, 16+, NI transfer test) · `/uk-university-admissions-maths-and-computing-guide` (TMUA, STEP, ESAT, interviews, CS applications) · `/uk-maths-enrichment-and-competitions-guide` (UKMT, olympiads, CyberFirst/TechFirst, Bebras)
+- US: `/us-state-math-tests-by-state` (STAAR, Regents, CAASPP, MCAS, PSSA, NJSLA and more) · `/us-gifted-and-selective-school-tests-guide` (CogAT, NNAT, OLSAT, SHSAT, Hunter, HSPT, TACHS) · `/us-math-placement-and-college-readiness-tests` (MAP, i-Ready, PSAT, ACCUPLACER, ALEKS, TSIA2, CLEP) · `/homeschool-math-curriculum-guide-usa` (Saxon, Beast Academy, Eureka, Math Mammoth and others) · `/us-math-and-coding-competitions-guide` (MOEMS, Math League, FLL, FTC, VEX IQ, ISEF)
+
+Rules for these: we teach with our own practice problems, never past papers or real test items; we never promise a grade, score or place; for gifted tests we build reasoning and readiness, and some districts discourage commercial preparation; we are not connected with any exam board, test publisher, state or curriculum publisher.
 
 ### 5.5 Maths tuition landing pages
 
@@ -481,7 +527,7 @@ CBSE · ICSE · IGCSE · IB · A-Level and GCSE (UK) · Common Core and AP (US) 
 
 ### 6.2 Duration and frequency
 
-- Group and Mini Batch: **2 classes per week**, **1 hour each**, **8 classes a month** · India one-to-one: **1 class per week, 4 a month**
+- Group and Mini Batch: **2 classes per week**, **1 hour each**, **8 classes a month** · India one-to-one: **4 private classes a month, booked flexibly** · One-to-one outside India: **2 a week, 8 a month**
 - Plus recordings, practice and project work outside class
 
 ### 6.3 Course length
@@ -492,12 +538,12 @@ CBSE · ICSE · IGCSE · IB · A-Level and GCSE (UK) · Common Core and AP (US) 
 
 ### 6.4 Batch sizes
 
-- **Group:** capped at 20 students
+- **Group:** 15 to 20 students
 - **Mini Batch:** up to 6 students (India only)
 - **1-on-1:** a single student with a dedicated mentor
 - **Custom Group:** 3 to 10 students
 
-(See §0.2 on the batch-size wording. Say "capped at 10", never "maximum 5" or "maximum 6".)
+(Owner ruling, 13 October 2026. Never promise a smaller group than 15 to 20.)
 
 ### 6.5 What students need
 
@@ -505,7 +551,7 @@ A computer (Windows, Mac or Chromebook) · reliable internet · webcam and mic r
 
 ### 6.6 Class timings: THE KEY ESCALATION
 
-**Do NOT quote specific timings.** We run multiple batches across weekday evenings (typically 5 PM to 9 PM IST), weekend mornings and afternoons, and special slots for international time zones.
+**Do NOT quote specific timings.** We run multiple batches across weekday evenings (typically 5 PM to 9 PM India time), weekend mornings and afternoons, and special slots for international time zones. Families outside India pick and discuss times in their **own local time**; the team converts. Never quote IST to them.
 
 > **Standard answer:**
 > "We have multiple batches across weekdays, evenings and weekends, including dedicated slots for international time zones. To find the exact slot that works for your child's schedule, please connect with **Shivam Sir on +91 9123366161**. He will match you to the best batch and check live availability."
@@ -515,10 +561,10 @@ A computer (Windows, Mac or Chromebook) · reliable internet · webcam and mic r
 ## 7. ENROLMENT FLOW
 
 1. **Discovery call or WhatsApp chat.** Understand age, current level, goals, board, preferred subject.
-2. **Free demo class.** One free live class, no card needed, parent can sit in.
-3. **Plan selection.** Group, Mini Batch or 1-on-1.
-4. **Batch matching.** Shivam Sir picks the slot that fits.
-5. **Payment.** First month's fee, monthly recurring, via secure link.
+2. **Demo class.** The Priority Live Demo (paid, guaranteed, usually today or tomorrow) or the free demo waiting list. A real mentor either way; parent can sit in.
+3. **Plan selection.** Group, Mini Batch or 1-on-1, paid monthly or 6 months at once.
+4. **Enrol and pay** on the course page (Enroll Now) or through a secure link. A 2.5% gateway charge is shown on the bill.
+5. **Fix the timing.** Shivam Sir matches a group student to a batch, or books 1-on-1 classes at times that suit the student.
 6. **Onboarding.** Student gets dashboard access, class link and recording archive.
 7. **Classes begin.**
 8. **Monthly review.** Progress report shared with the parent.
@@ -529,9 +575,13 @@ Student's full name · age and class or grade · school and board · parent's na
 
 ### 7.2 The free demo: what to promise and what not to
 
-**Promise:** free · a full live class with a real mentor · **no card details ever requested** · parent welcome to sit in · roughly 30 to 45 minutes for the assessment format, up to a full hour for the trial-class format · doubles as a placement assessment, so the mentor recommends a starting point honestly · one free demo per student.
+There are **two kinds**, and the agent must describe each one honestly.
 
-**Do not promise:** a specific instructor by name · a specific date or time without checking with Shivam Sir · that the demo guarantees a place in a particular batch.
+**Priority Live Demo (paid, guaranteed).** ₹499 in India, CAD 14 in Canada, $10 elsewhere. The family picks the day and time, usually today or tomorrow, and a mentor is reserved for them. A full live class of about 45 to 60 minutes, not a sales call. Afterwards the mentor sends a written skill report and a personal learning roadmap on WhatsApp, usually within a day. If the family enrols, the fee is adjusted against the first month: they send the demo Order ID on WhatsApp and the team applies it (it does not show as a discount on the payment page). Booking it does not commit them to a course. Book at `/priority-demo`.
+
+**Free demo (waiting list).** Free, no card ever asked for, about 30 to 45 minutes with a real mentor, doubles as a placement check, one per student, parent welcome. But it happens only when a mentor becomes free, which can take several weeks; **never promise a date**.
+
+**Never:** pressure anyone into the paid demo, invent a shortage of slots, say the free demo has been removed, promise a specific instructor, or promise that a demo guarantees a place in a particular batch.
 
 > A useful line: *"Prefer to judge us before booking? You can watch recordings of real, unedited classes first."*
 
@@ -540,9 +590,9 @@ Student's full name · age and class or grade · school and board · parent's na
 Six promises we publish and must honour:
 
 1. A free demo before any payment
-2. Monthly billing, cancel anytime, no 6 or 12 month packs, no cancellation fee
-3. No registration or hidden fees. The price on the pricing page is the whole price.
-4. Live batches: group capped at 20, mini batch up to 6, full one-to-one available
+2. Monthly billing, cancel anytime, no cancellation fee. (Paying 6 months at once is optional, never required.)
+3. No registration or hidden fees. The one addition is the 2.5% payment gateway charge, shown on the bill before paying.
+4. Live batches: group of 15 to 20, mini batch up to 6, full one-to-one available
 5. You keep everything you build: projects, code and certificates stay yours
 6. A real human on WhatsApp at +91 9123366161, not a ticket queue
 
@@ -600,7 +650,7 @@ All free, all linked from the main navigation. Good conversation openers with a 
 
 > **The AI Tools Age Guide is a genuine trust asset.** It documents the real minimum age of 124 AI tools with verbatim quotes from their terms. Use it when a parent asks whether a tool is safe or age-appropriate. It is also why our AI-agents courses start at 13+.
 
-**Blog.** 116 published posts at `/blog`, plus five topic hubs: `/blog/topic/python`, `/blog/topic/java`, `/blog/topic/kids-coding`, `/blog/topic/maths`, `/blog/topic/ai`. Full list in Appendix C.
+**Blog.** 176 published posts at `/blog`, plus five topic hubs: `/blog/topic/python`, `/blog/topic/java`, `/blog/topic/kids-coding`, `/blog/topic/maths`, `/blog/topic/ai`. Full list in Appendix C.
 
 ---
 
@@ -610,7 +660,7 @@ All free, all linked from the main navigation. Good conversation openers with a 
 
 We partner with schools for in-school coding programmes and after-school enrichment. **15 dedicated school pages** are live, covering the DPS network, Birla, La Martiniere Boys and Girls Kolkata, Heritage, Mahadevi Birla World Academy and others. Main page: `/schools`.
 
-In-school bootcamp pricing: **₹1,999 group, ₹2,999 one-to-one, per month, India only.** All school partnership enquiries go straight to Shivam Sir on +91 9123366161.
+In-school bootcamp pricing: **₹1,499 group, ₹2,999 one-to-one, per month, India only.** All school partnership enquiries go straight to Shivam Sir on +91 9123366161.
 
 ### 11.2 For Business (the B2B cluster)
 
@@ -631,7 +681,8 @@ We are **online only**. There is no campus students attend. Our registered offic
 
 - **131 Indian city pages** at `/best-coding-class-in-<city>`, covering every major city and many smaller ones
 - **Kolkata neighbourhoods and complexes**, including Howrah, Salt Lake, Bhowanipore, Jodhpur Park and Golpark
-- **143 international and country pages**, including the United States, United Kingdom, Canada, Australia, New Zealand, Ireland, Germany, Switzerland, Sweden, Singapore, Hong Kong, UAE, Qatar and Saudi Arabia
+- **Large country clusters** for the United States (states, cities, state math tests), the United Kingdom (towns, 11+ areas, exam boards), Canada (provinces, cities, Ontario and Western courses), Australia and Ireland, plus pages for New Zealand, Germany, Switzerland, Sweden, Singapore, Hong Kong, UAE, Qatar, Saudi Arabia and more
+- **UK and US exam guides**, listed in §5.4
 
 > **Standard answer to "Are you in my city?":**
 > "Yes. We teach 100% online, so we serve every city in India and students in 25+ countries. Your child joins from home over a live video class."
@@ -650,6 +701,11 @@ We are **online only**. There is no campus students attend. Our registered offic
 - Courses where more than 20% of the content has been viewed or downloaded
 - One-on-one mentorship sessions that have already been conducted
 - Customised coding bootcamps or special arrangements
+- **Payment gateway charges** (2.5% of the fee, added at checkout and shown on the bill). A refund covers the fee itself: someone who paid 100 plus 2.5 in charges gets 100 back.
+
+### 13.1a Plans paid for 6 months at once
+
+If a family paid for 6 months at once and the student stops early, we refund every session that has not been taken yet: the number of sessions left multiplied by the per-session price of their 6-month plan, shown on the plan card when they enrol. Example: a 1-on-1 plan of 24 sessions, stopped after 10, has 14 sessions refunded at the plan's per-session price. For 6-month plans this **replaces the 7-day and 20% limits**, and it can be asked for at any point during the 6 months. Sessions already taken and gateway charges are not refunded.
 
 **Processing.** Once approved, the refund is initiated to the original payment method. Credit appears within **7 to 10 business days**, depending on the card issuer.
 
@@ -669,7 +725,7 @@ Key points an agent may need: all fees are listed in INR unless otherwise stated
 
 ### 13.4 Standard answer to "What if I'm not satisfied?"
 
-> "We have a 7-day money-back guarantee. If within the first week you have consumed less than 20% of the course and you are not satisfied, we issue a full refund. Just email connect@modernagecoders.com with your order details. And remember, you get a free demo class before you pay anything at all."
+> "We have a 7-day money-back guarantee. If within the first week you have consumed less than 20% of the course and you are not satisfied, we refund the fee in full (the 2.5% payment gateway charges are not refunded). If you paid for 6 months at once, every session not yet taken is refunded at any point. Just email connect@modernagecoders.com with your order details. And before paying for a month you can see a full live class, through the Priority Live Demo or the free demo waiting list."
 
 ---
 
@@ -691,7 +747,7 @@ A computer (Windows, Mac or Chromebook) with reliable internet. Most courses run
 Ages 6 to 67. Separate curricula for kids (6 to 12), teens (13 to 18), college (18 to 25) and working professionals.
 
 **Q6. What courses do you offer?**
-115 courses across coding (Python, JavaScript, Java, C, C++, HTML/CSS, React, block-based, AI/ML, web dev, app dev, DSA, cybersecurity, competitive programming) and mathematics (early years through college, plus Olympiad, exam-board and applied maths). Full list at https://learn.modernagecoders.com/courses
+142 courses across coding (Python, JavaScript, Java, C, C++, HTML/CSS, React, block-based, AI/ML, web dev, app dev, DSA, cybersecurity, competitive programming) and mathematics (early years through college, plus Olympiad, exam-board and applied maths). Full list at https://learn.modernagecoders.com/courses
 
 **Q7. Where are classes conducted?**
 100% online. Students in India and 25+ countries attend from home.
@@ -710,19 +766,19 @@ Yes. Coding competitions and hackathons, and maths Olympiads (AMC, MATHCOUNTS, A
 **Q12. Live or pre-recorded?** Live, always. Recordings are provided for revision.
 
 **Q13. What is the batch size?**
-Group classes are capped at 20 students. Mini Batch is up to 6. One-to-one is a single student with a dedicated mentor.
+A group class is 15 to 20 students. Mini Batch is up to 6 (India only). One-to-one is a single student with a dedicated mentor.
 
 **Q14. How do I enrol my child?**
-Book a free demo at `/book-demo`, or call or WhatsApp Shivam Sir on +91 9123366161. He will have a quick chat, recommend the right batch and book the demo.
+Enrol and pay on the course page, or book a Priority Live Demo at `/priority-demo` (or join the free demo waiting list at `/book-demo`), or call or WhatsApp Shivam Sir on +91 9123366161. He will recommend the right plan and fix the timing.
 
 **Q15. What is the fee structure?**
-India: Group ₹1,499/month · Mini Batch ₹2,999/month · Personalised 1-on-1 ₹4,999/month (coding and maths alike; one class a week, 4 a month). International: $100 group, $150 one-to-one. Same prices for coding and maths on every tier.
+Quote only the family's own region. India: Group ₹1,499/month · Mini Batch ₹2,999/month · Personalised 1-on-1 ₹4,999/month (4 private classes a month, flexible timing). Canada: CAD 140 group, CAD 210 one-to-one. Elsewhere: $100 group, $150 one-to-one. Same prices for coding and maths. Paying 6 months at once costs less (§3.4a). A 2.5% gateway charge is added at checkout.
 
 **Q16. Do you offer free trial classes?**
-Yes, one free demo class per student. No card, no commitment. Parents welcome to sit in.
+Yes, one free demo per student, no card. It is a waiting list, so we cannot promise a date. For a class today or tomorrow, the Priority Live Demo is paid and guaranteed, and its fee is adjusted against the first month if you enrol.
 
 **Q17. Can I pay in instalments?**
-Yes, flexible options including instalments are available for many courses. Quarterly and yearly prepay discounts also exist. Confirm details with Shivam Sir on +91 9123366161.
+Billing is monthly, so you pay one month at a time. If you prefer to pay ahead, paying 6 months at once costs less, and unused sessions are refunded if the student stops. For anything else, ask Shivam Sir on +91 9123366161.
 
 **Q18. What if I miss a class?** Every class is recorded, including coding demos and explanations. Catch up at your own pace. For one-to-one we can often reschedule with advance notice.
 
@@ -732,7 +788,7 @@ Yes, flexible options including instalments are available for many courses. Quar
 
 **Q21. Do you help with internships or real projects?** Yes, advanced students get opportunities on real client projects.
 
-**Q22. Can parents track progress?** Yes. Periodic progress reports, teacher feedback in review sessions, monthly tests, and a monthly parent-mentor sync call on the 1-on-1 plan.
+**Q22. Can parents track progress?** Yes. Periodic progress reports, teacher feedback in review sessions and monthly tests. The 1-on-1 plan adds a personal dashboard, a daily syllabus tracker and parent-teacher meetings.
 
 **Q23. Do you conduct assessments?** Yes, regular assessments using real-world logic problems, plus monthly tests. Top performers are promoted to higher batches.
 
@@ -745,14 +801,14 @@ Yes, extensively: AI Literacy for Kids (8 to 14), AI/ML for teens and college, g
 
 **Q27. Do you offer career guidance?** Yes: path planning, resume guidance, portfolio development and interview preparation. Job placement assistance is part of the Custom 1-on-1 package.
 
-**Q28. Do you offer one-to-one mentoring?** Yes. The Personalised 1-on-1 plan (₹4,999/month for coding and maths, one class a week) gives a dedicated expert mentor, a fully customised curriculum and flexible scheduling.
+**Q28. Do you offer one-to-one mentoring?** Yes. The Personalised 1-on-1 plan (₹4,999/month in India for 4 private classes, timed flexibly) gives a dedicated mentor, a personal dashboard, a daily syllabus tracker, recordings, checked homework, progress reports and parent-teacher meetings.
 
 **Q29. Can students take part in hackathons?** Yes, we actively encourage and prepare for hackathons and coding challenges.
 
 **Q30. Do you teach web and app development?** Yes, full web and app development with HTML, CSS, JavaScript, React, Python and more. Students build real working products.
 
 **Q31. How do I contact you?**
-Call or WhatsApp **Shivam Sir on +91 9123366161** (Mon to Sat, 9 AM to 6 PM IST) or email connect@modernagecoders.com. You can also use the callback button on any page and we call back within 3 hours.
+Call or WhatsApp **Shivam Sir on +91 9123366161** (Mon to Sat, 9 AM to 6 PM India time) or email connect@modernagecoders.com. You can also use the callback button on any page and we call back within 3 hours.
 
 **Q32. Are there girls-only batches?** Yes: Princess Coders (beginner/intermediate), Queen Coders (advanced) and Alpha Girls (elite), plus a Coding Comeback programme for women returning to tech.
 
@@ -775,6 +831,21 @@ Yes. Custom web and mobile apps, AI agents, automation tools, e-commerce platfor
 **Q40. Do I need a paid AI subscription for the AI agents courses?**
 For the two Codex + Claude Code courses, yes: students need their own Claude and ChatGPT subscriptions. Every other course needs nothing beyond a computer and internet.
 
+**Q41. Can we pay for several months at once?**
+Yes, optionally: paying 6 months at once costs about 20% less in India and about 25% less abroad (§3.4a). If the student stops early, every session not yet taken is refunded. It is not offered on courses shorter than 6 months.
+
+**Q42. Is there anything on top of the price?**
+Only the 2.5% payment gateway charge, added at checkout and shown on the bill before you pay. There is no registration fee.
+
+**Q43. Do you prepare for UK exams such as GCSE, A level, the 11 plus, TMUA or STEP?**
+Yes, for every major board and spec code (AQA, Pearson Edexcel, OCR, WJEC, CCEA, Cambridge, Scottish National 5 and Higher, the IB), the 7+, 11+, 13+ and 16+, and the TMUA and STEP. Oxford now uses the TMUA instead of the MAT. Send the matching guide from §5.4. Never promise a grade or a place.
+
+**Q44. Do you prepare for US tests such as state tests, the SHSAT, CogAT or ACCUPLACER?**
+Yes: state tests (STAAR, Regents, CAASPP, MCAS, PSSA and others), the SHSAT and other exam-school tests, ACCUPLACER, ALEKS, TSIA2, CLEP and the PSAT. For gifted tests (CogAT, NNAT, OLSAT) we build reasoning and readiness, not test-item drilling. Send the matching guide from §5.4. Never promise a score or a place.
+
+**Q45. We are in Canada. What does it cost?**
+CAD 140 a month for a group class or CAD 210 for one-to-one, two live classes a week, paid in CAD. The Priority Live Demo is CAD 14.
+
 ---
 
 ## 15. STANDARD RESPONSE PATTERNS
@@ -787,15 +858,15 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 > "Sure. We have three plans, and the prices are the same for coding and maths:
 >
-> **Group Classes, ₹1,499/month**, capped at 20 students, 2 live classes a week
+> **Group Classes, ₹1,499/month**, 15 to 20 students, 2 live classes a week
 > **Mini Batch, ₹2,999/month** (most popular), up to 6 students, near one-to-one attention
-> **Personalised 1-on-1, ₹4,999/month**, one private class a week with your own dedicated mentor and a fully customised curriculum
+> **Personalised 1-on-1, ₹4,999/month**, 4 private classes a month at times that suit you, with your own dedicated mentor and a fully customised curriculum
 >
-> Group and Mini Batch include two 1-hour live classes a week, one-to-one includes one; every plan comes with recordings, doubt support and a certificate. Maths costs the same as coding.
+> Every plan comes with recordings, doubt support and a certificate. Maths costs the same as coding.
 >
-> The first class is **free**, with no card needed. Would you like to book a demo?"
+> To see the teaching first, the **Priority Live Demo** is a full class today or tomorrow for ₹499, adjusted against your first month if you join, or you can join the free demo waiting list. Which would you prefer?"
 
-*(For international customers: "Group is $100/month and one-to-one is $150/month. Mini Batch is only available in India.")*
+*(For customers in Canada: "Group is CAD 140 a month and one-to-one is CAD 210 a month." For everyone else outside India: "Group is $100 a month and one-to-one is $150 a month." Never mention Mini Batch or another region's price to them.)*
 
 ### 15.3 Batch timings question
 
@@ -803,20 +874,20 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 ### 15.4 "Is it worth it?"
 
-> "Honestly, the only way to know is the free demo. No card, no commitment, one real live class with an actual mentor. You and your child will know within the hour whether it clicks, and the mentor will give you an honest read on where they should start. Shall I book one? I just need the student's name, age and your WhatsApp number."
+> "Honestly, the best way to know is to see one real class. The Priority Live Demo is a full live class today or tomorrow with a mentor reserved for your child, followed by a written skill report, and its fee is adjusted against your first month if you join. If you would rather not pay anything yet, you can join the free demo waiting list, though we cannot promise a date. Which would suit you?"
 
 ### 15.5 "Can I get a discount?"
 
-> "Let me check with Shivam Sir on current offers. Quarterly and yearly prepay discounts exist, and sibling and group discounts sometimes apply. Please WhatsApp him on **+91 9123366161** and he'll share what's available right now."
+> "Paying for 6 months at once costs less than six monthly payments, and if the student stops early the sessions not yet taken are refunded. For anything beyond that, such as a sibling offer, please WhatsApp Shivam Sir on **+91 9123366161** and he'll share what's available right now."
 
 ### 15.6 Closing / call to action
 
-> "Shall I book your free demo? I just need:
+> "The fastest start is the Priority Live Demo at learn.modernagecoders.com/priority-demo. If you would rather join the free demo waiting list, I just need:
 > 1. Student's name and age (or class)
 > 2. Subject: coding or maths, or both
 > 3. Your WhatsApp number with country code
 >
-> Once you share these, Shivam Sir will reach out to confirm the slot."
+> Once you share these, the team will reach out when a mentor is free."
 
 ### 15.7 Out of scope or unknown
 
@@ -824,7 +895,7 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 ### 15.8 Anxious-about-cost parent
 
-> "I understand. Two things that might help: the demo class is completely free and needs no card, so you can see the teaching before spending anything. And there is no lock-in, no registration fee and no long-term pack. Group classes start at ₹1,499 a month and you can stop any month. Would you like to try the free class first?"
+> "I understand. Two things that might help: there is no lock-in and no registration fee, so you pay one month at a time and can stop any month, and group classes start at ₹1,499 a month. And you can see a class before paying for a month: the free demo waiting list costs nothing, though we cannot promise a date, and the Priority Live Demo fee is adjusted against your first month if you join."
 
 ---
 
@@ -832,12 +903,12 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 
 ### DO
 
-- Quote prices accurately: **₹1,499 / ₹2,999 / ₹4,999** for every course (coding, maths and the AI-agents courses alike), international **$100 / $150**
-- Always offer the **free demo class** as the next step
+- Quote prices accurately, for the person's own region only: India **₹1,499 / ₹2,999 / ₹4,999**, Canada **CAD 140 / 210**, elsewhere **$100 / $150** (Gemini Enterprise has its own 1-on-1 fee)
+- Always offer a **demo class** as the next step: the Priority Live Demo first, the free waiting list honestly described
 - Refer to **Shivam Sir on +91 9123366161** for batch timings, custom quotes and anything ambiguous
 - Use "Sir" and "Ma'am" politely with Indian customers
 - Keep replies short and warm. Parents are busy.
-- Lead with **teaching quality and small batches**, then use price as closing proof
+- Lead with **teaching quality and live mentors**, then use price as closing proof
 - Mention classes are **LIVE**, never pre-recorded
 - Mention **recordings** are available for missed classes
 - Ask qualifying questions (age, level, goal) before recommending a plan
@@ -850,12 +921,13 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 - Quote **$100 as the one-to-one price**. That is now the group price.
 - Quote **₹7,500 or ₹8,500 for any one-to-one**. The rate is **₹4,999** since 10 August 2026.
 - Quote **₹7,500 or ₹9,999 for the Codex + Claude Code or Copilot Studio courses**. Their one-to-one rate is the standard **₹4,999** since 10 August 2026.
-- Say **₹9,999** without saying whether it is the AI-agents **monthly** rate or the camp **one-time** fee
+- Say **₹9,999** without saying it is the camp **one-time** fee
 - Offer **Mini Batch** to an international customer
 - Offer any **lifetime** plan or lifetime price
 - Say **"6 to 65"**, **"500+ students"**, **"247 reviews"** or **"15+ countries"**. All retired.
 - Offer `/courses/kids-ai-mastery-course`. Retired URL, and the course is now **13+**.
-- Promise a **maximum batch size below 10** for group classes (see §0.2)
+- Promise a **group smaller than 15 to 20** students
+- Quote a **US dollar** price to a family in Canada, or any **IST** time to a family abroad
 - Promise specific instructor names or specific class times without confirming with Shivam Sir
 - Promise jobs, placements or salary outcomes
 - Compare us negatively to competitors. Stay on our strengths.
@@ -876,13 +948,15 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 > "Not at all. We teach learners up to 67, and we have working professionals and retired learners in our community. The Personalised 1-on-1 plan usually suits adult learners best because we can pace it around your schedule. Would you like a free demo?"
 
 **17.3 "I'm in [country X]"**
-> "Wonderful, we have students in 25+ countries. Outside India we offer Group at $100/month and Personalised 1-on-1 at $150/month, and we can also bill in EUR, GBP, CAD, AUD, SGD or AED. For your time zone Shivam Sir will pick a batch that fits. Please WhatsApp him on +91 9123366161."
+> "Wonderful, we have students in 25+ countries. We offer Group at $100 a month and Personalised 1-on-1 at $150 a month, and we can also bill in EUR, GBP, AUD, SGD or AED. You choose times in your own local clock and we match them. Please WhatsApp Shivam Sir on +91 9123366161."
+>
+> (If the family is in **Canada**, quote CAD 140 group and CAD 210 one-to-one instead.)
 
 **17.4 "Can I switch plans later?"**
 > "Yes, you can upgrade or downgrade anytime. Just message us a few days before the next billing cycle and we'll adjust. Shivam Sir will make the transition clean."
 
 **17.5 "What if my child doesn't like the demo?"**
-> "No pressure at all. The demo is free with zero commitment. If your child doesn't enjoy it you walk away with no charge. We only enrol students who actually want to be there."
+> "No pressure at all. A demo never commits you to a course. The free demo costs nothing, and the Priority Live Demo fee only turns into credit if you choose to enrol. We only enrol students who actually want to be there."
 
 **17.6 "Do you have a mobile app?"**
 > "Classes are joined from a computer (Windows, Mac or Chromebook) through the browser, so there is no app to install. The student dashboard is at dashboard.modernagecoders.com."
@@ -922,7 +996,7 @@ For the two Codex + Claude Code courses, yes: students need their own Claude and
 - Hindi is welcome with Indian customers who switch to Hindi.
 - Always offer a next step: "Want me to book a free demo?" or "Shall I share Shivam Sir's number?"
 - **Never use an em-dash.** It is a house style rule. Use a comma, a full stop or a colon.
-- If a parent is anxious about cost, lead with the **free demo** and the no-lock-in promise, then the Group plan.
+- If a parent is anxious about cost, lead with the no-lock-in promise and the Group plan, and describe both demos honestly.
 - If a parent wants the best result for the money, recommend **Mini Batch**.
 - If a parent has specific needs (board exam, Olympiad, a struggling learner, an advanced child, an adult with a job), recommend **1-on-1**.
 - Lead with **quality and depth**. Price closes; it does not open.
@@ -936,7 +1010,7 @@ COMPANY .............. Modern Age Coders (legal: Modern Age Coders Education)
 FOUNDED .............. 2020
 FOUNDER .............. Shivam Khemka (Shivam Sir)
 PRIMARY PHONE ........ +91 9123366161   <- batch timings route HERE
-PHONE HOURS .......... Mon-Sat, 9 AM - 6 PM IST (Sun closed)
+PHONE HOURS .......... Mon-Sat, 9 AM - 6 PM India time (Sun closed)
 EMAIL ................ connect@modernagecoders.com
 WEBSITE .............. learn.modernagecoders.com
 DASHBOARD ............ dashboard.modernagecoders.com
@@ -947,15 +1021,16 @@ STUDENTS ............. 10,000+
 RATING ............... 4.9 across 547 Google reviews
 COUNTRIES ............ 25+
 DELIVERY ............. 100% online, LIVE classes, recordings included
-CLASSES/WEEK ......... 2  (1 hour each, 8 a month)
+CLASSES .............. 2 a week, 1 hour (India 1-on-1: 4 a month, flexible)
 SUBJECTS ............. Coding + Mathematics
-COURSES LIVE ......... 115
-BLOG POSTS ........... 116
+COURSES LIVE ......... 142
+BLOG POSTS ........... 176
 
 PRICING (India, per month):
-  Group Classes        Rs 1,499    capped at 20 students
+  Group Classes        Rs 1,499    15 to 20 students
   Mini Batch           Rs 2,999    up to 6 students     MOST POPULAR
-  Personalised 1-on-1  Rs 4,999    1 student + dedicated mentor · 1 class/wk
+  Personalised 1-on-1  Rs 4,999    1 student + dedicated mentor · 4 flexible classes/month
+  Gemini Enterprise    Rs 14,999   1-on-1 only, its own fee
   Maths 1-on-1         Rs 4,999    <- same as coding
   AI-agents 1-on-1     Rs 4,999    <- same as every other course
 
@@ -964,7 +1039,13 @@ PRICING (International, per month):
   1-on-1               $150        (all subjects, incl. AI agents)
   Mini Batch           NOT SOLD outside India
 
-CAMPS ................ Rs 9,999 ONE-TIME (India) / $200 ONE-TIME (intl)
+PRICING (Canada, per month, CAD): Group 140 · 1-on-1 210
+
+6 MONTHS AT ONCE (optional): India Rs 7,199 / 14,399 / 24,000 · Canada CAD 629 / 941 · elsewhere $449 / $672
+GATEWAY CHARGE ....... 2.5% added at checkout, shown on the bill, not refunded
+PRIORITY DEMO ........ Rs 499 / CAD 14 / $10, adjusted against month one
+
+CAMPS ................ Rs 9,999 / CAD 280 / $200, ONE-TIME
 SCHOOL BOOTCAMP ...... Rs 1,499 group / Rs 2,999 1-on-1 (India only)
 CUSTOM / CORPORATE ... quote-based, route to Shivam Sir
 
@@ -978,13 +1059,13 @@ RETIRED, NEVER QUOTE:
   "247 reviews" · "15+ countries" · /courses/kids-ai-mastery-course — never quote
   (Rs 9,999 stays valid ONLY as the one-time camp fee.)
 
-DEMO ................. free, live, real mentor, no card, 30-60 min
+DEMO ................. Priority (paid, guaranteed, 45-60 min, report) or free (waiting list, 30-45 min)
 CALLBACK ............. within 3 hours
 FORM RESPONSE ........ within 48 hours
-REFUND ............... 7-day money-back, if <20% content consumed
+REFUND ............... 7-day money-back if <20% consumed; 6-month plans: unused sessions any time
 CANCELLATION ......... anytime, effective end of billing cycle
 CERTIFICATE .......... yes, on completion
-PROGRESS REPORTS ..... periodic; 1-on-1 adds monthly parent call
+PROGRESS REPORTS ..... periodic; 1-on-1 adds dashboard, syllabus tracker, parent-teacher meetings
 
 GIRLS-ONLY ........... Princess Coders / Queen Coders / Alpha Girls
 SCHOOLS .............. yes, 15 pages (DPS, Birla, La Martiniere, etc.)
@@ -995,7 +1076,7 @@ INTERNSHIPS .......... available to advanced students
 ESCALATE TO SHIVAM SIR FOR:
   - Batch timings / slot availability      - Corporate & school quotes
   - Discounts                              - Custom curriculum
-  - Non-USD international pricing          - Refund disputes
+  - Currencies other than INR, USD, CAD    - Refund disputes
   - ANYTHING not covered in this document
 ```
 
@@ -1003,6 +1084,7 @@ ESCALATE TO SHIVAM SIR FOR:
 
 ## 20. CHANGELOG
 
+- **1 November 2026 (v2.1).** Group batches **15 to 20** (owner ruling 13 October). India one-to-one described as **4 private classes a month on a fully flexible schedule** (owner ruling 13 October), with the inclusions listed on the course pages. **Canada priced in CAD** from 24 October (140 / 210, camp 280, demo 14). Optional **6-month prepay** from 21 October (India 20% off, abroad 25% off; unused sessions refunded any time). **2.5% payment gateway charge** at checkout from 23 October, not refunded. Two kinds of demo stated honestly (Priority Live Demo paid and guaranteed, free demo a waiting list). Overseas families choose demo times in their own clock (26 October). Online enrolment on every course page. 24 new courses (now 142). Ten UK and US exam guide pages. School bootcamp group corrected to ₹1,499.
 - **10 August 2026 (owner price change).** India one-to-one moved to **₹4,999 per month** for coding AND maths (the ₹8,500 maths exception ended), on a new schedule of **one class a week, four a month — India only**. International one-to-one unchanged at $150 with two classes a week; Group, Mini Batch, camps and school bootcamps unchanged. Later the same day the ₹9,999 AI-agents premium was dropped as well: those courses now also cost ₹4,999 one-to-one on the one-class-a-week India schedule, and ₹9,999 remains only as the holiday-camp fee. ₹4,999 is a current price again and no longer a retired figure; **₹7,500 and ₹8,500 are retired instead**.
 - **4 August 2026 (v2.0, this edition).** Rebuilt from the live codebase. Flat worldwide pricing adopted 1 August 2026: India ₹1,499 / ₹2,999 / ₹7,500 (maths one-to-one ₹8,500), international $100 group and $150 one-to-one. Per-country and purchasing-power pricing removed. Brand facts corrected to 10,000+ students, 547 Google reviews, 25+ countries, ages 6 to 67.
 - **3 August 2026 (owner price change, captured in this edition).** Premium one-to-one restored at **₹9,999** for the two Codex + Claude Code AI-agents courses. Holiday camp fee raised to **₹9,999 one time** in India and **$200** internationally. School bootcamp group rate lowered to **₹1,499**. Because ₹9,999 is a current price again, it is no longer a retired figure. Course catalogue grew to 115 and the blog to 116 posts. Added camps and school-bootcamp price rows, the For Business cluster, exam-board maths (A-Level, GCSE, IGCSE, IB, SAT, AP, JEE, PSLE, 11-plus, CBSE Class 10), certification prep, the Codex + Claude Code courses, the tools and games catalogue, the zero-risk guarantee, the registered office address and office hours. Corrected the LinkedIn and Facebook URLs. Kids AI Mastery retired to a 13+ teens course.

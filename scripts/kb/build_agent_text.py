@@ -61,13 +61,19 @@ def classes_per_month(subject, region, tier):
 
 def schedule(subject, region, tier):
     n = classes_per_month(subject, region, tier)
+    # Owner rule 2026-10-13: India one to one is "4 classes, completely flexible", the same
+    # wording as the course pages ("4 private classes on a fully flexible schedule"). Never
+    # describe it as a fixed weekly class.
+    if region == 'india' and tier == 'personal' and n == 4:
+        return 'four private classes a month, on a fully flexible schedule'
     wk = n // 4
     return '%s live class%s a week, %s a month' % (
         {1: 'one', 2: 'two', 3: 'three'}.get(wk, str(wk)), '' if wk == 1 else 'es',
         {4: 'four', 8: 'eight', 12: 'twelve'}.get(n, str(n)))
 
-IN_1TO1 = schedule('coding', 'india', 'personal')           # one live class a week, four a month
+IN_1TO1 = schedule('coding', 'india', 'personal')           # four private classes a month, fully flexible
 IN_GROUP = schedule('coding', 'india', 'group')             # two live classes a week, eight a month
+GROUP_SIZE = BF['batchSizes']['group'].replace('\u2013', ' to ')   # owner 2026-10-13: 15 to 20
 INTL_1TO1 = schedule('coding', 'international', 'personal')
 PER_CLASS_1TO1 = round(PLANS['coding']['india']['personal'] / classes_per_month('coding', 'india', 'personal'), -1)
 
@@ -273,6 +279,12 @@ para('Never invent a class time, a day or a slot. We run many batches across wee
      'hand over: "To fix the exact slot that suits you, please message Shivam Sir on '
      '+91 9123366161. He allocates every batch personally."')
 out()
+para('Families outside India choose and talk about times in their OWN local time. When they '
+     'book a demo on the website they pick a time in their own clock, or type one, and our team '
+     'matches it to India time. Never ask an overseas family to work in India time, and never '
+     'quote them a time in IST. If you mention our phone hours to someone abroad, say "India '
+     'time" and offer to arrange a time that suits their clock.')
+out()
 out('RULE 3. A DEMO CLASS IS ALWAYS THE NEXT STEP, AND THERE ARE TWO KINDS')
 out()
 para('Every conversation should end with a demo offer. Offer the Priority Live Demo first, '
@@ -304,7 +316,7 @@ bullets([
     'A specific class date or time before Shivam Sir confirms it.',
     'A job, a placement, a salary or a guaranteed exam score.',
     'A discount you have not confirmed.',
-    'A batch size smaller than the published cap of 10 for group classes.',
+    'A group class smaller than the published size of %s students, or an exact number of classmates.' % BF['batchSizes']['group'].replace('\u2013', ' to ').replace('–', ' to '),
     'A refund outside the written policy in PART 8.',
 ])
 out()
@@ -365,9 +377,9 @@ out('OUR PROMISE TO EVERY FAMILY')
 out()
 bullets([
     'A live class before you commit to a course: a free demo (a waiting list) or the paid Priority Live Demo (a guaranteed slot today or tomorrow).',
-    'Monthly billing. Cancel any month. No six or twelve month packages.',
+    'Monthly billing. Cancel any month. Paying for 6 months at once is an optional saving (PART 4), never required.',
     'No registration fee and no hidden charges. The one addition is the %s percent payment gateway charge, shown on the bill before paying.' % cfg['gatewayFee']['percent'],
-    'Live batches. Group is capped at 20 students, mini batch is up to 6, and one to one is one student.',
+    'Live batches. Group is %s students, mini batch is up to 6 (India only), and one to one is one student.' % GROUP_SIZE,
     'You keep everything you build. Projects, code and certificates stay yours.',
     'A real person on WhatsApp at +91 9123366161, not a ticket queue.',
 ])
@@ -389,14 +401,14 @@ bullets([
     'Most courses run inside the browser, so nothing needs installing.',
     'A webcam and microphone are recommended. For maths, a notebook and pen.',
     'Beginner courses usually run 3 to 6 months. Advanced ones run 6 to 9 months.',
-    'Course lengths on the course pages are counted at two classes a week. A one to one student in India has one class a week and moves at their own pace, so if they ask how long a course will take, ask Shivam Sir to estimate it.',
+    'Course lengths on the course pages are counted at two classes a week. A one to one student in India has four classes a month, timed flexibly, and moves at their own pace, so if they ask how long a course will take, ask Shivam Sir to estimate it.',
     'Students can join mid month. We either place them in a running batch or start a new one.',
     'Classes can be paused for exams or holidays with about a week of notice.',
 ])
 out()
 out('BATCH SIZES')
 out()
-out('  Group classes: capped at 20 students.')
+out('  Group classes: %s students.' % GROUP_SIZE)
 out('  Mini batch: up to 6 students, close to one to one attention.')
 out('  One to one: one student with one dedicated mentor.')
 out('  Custom group for a school or a friend group: 3 to 10 students.')
@@ -440,9 +452,23 @@ bullets([
     'Schedule: %s. Each class is one hour, private, with a dedicated mentor.' % IN_1TO1,
     'That works out to about %s per class.' % rupee(PER_CLASS_1TO1),
     'The same fee and schedule apply to coding, mathematics and the AI coding agent courses.',
-    'The class day and time are fixed around the student, and the pace and topics are set for them alone.',
+    'Each class is booked at a time that suits the student, and the pace and topics are set for them alone.',
     'It is billed monthly like every other plan. Cancel any month.',
-    'Never describe the India one to one plan as two classes a week or eight a month.',
+    'Never describe the India one to one plan as two classes a week or eight a month, and never as a fixed one class a week: the four classes are booked at times that suit the student.',
+])
+out()
+out('WHAT THE ONE TO ONE PLAN INCLUDES (as listed on every course page)')
+out()
+bullets([
+    'Your own mentor: full individual attention in every class.',
+    'Flexible timing: each class is booked at a time that suits the student.',
+    'A personal dashboard where the student and parent see everything.',
+    'A daily syllabus tracker: what was covered today and what comes next.',
+    'Live class recordings to rewatch whenever needed.',
+    'Homework and assignments, set, submitted and checked on the dashboard.',
+    'Progress reports on how the student is improving.',
+    'Response statistics: how the student is responding, and how the mentor is responding.',
+    'Parent and teacher meetings to talk with the instructor and share feedback.',
 ])
 out()
 out('  The two AI coding agent courses (Codex and Claude Code):')
@@ -481,6 +507,38 @@ out('    $%s a month, %s.' % (PLANS['gemini']['international']['personal'],
 out('  Mini batch is not offered outside India. If asked, simply offer group or one to one.')
 out('  We can also bill in EUR, GBP, AUD, SGD and AED. For those, hand over to Shivam Sir.')
 out()
+out('PAY FOR 6 MONTHS AT ONCE (optional, a lower total than six monthly payments)')
+out()
+para('Families can pay for 6 months in one go on the course page and pay less than six monthly '
+     'payments. Monthly billing stays available and is never pushed aside. Quote only the person\'s '
+     'own region, and give the 6 month figure only if they ask about paying upfront, a longer '
+     'commitment, or a discount.')
+out()
+SIX = cfg['sixMonth']
+def six_line(region, key, label, fmt, subj='coding'):
+    v = SIX[region].get(key)
+    if v is None:
+        return
+    monthly = PLANS[subj][region][key] * 6
+    sessions = classes_per_month(subj, region, key) * 6
+    off = round(100 * (1 - v / monthly))
+    out('    %-14s %s for 6 months (%d sessions), about %d percent less than paying monthly' % (label, fmt(v), sessions, off))
+out('  In India:')
+for k, l in (('group', 'Group class:'), ('miniBatch', 'Mini batch:'), ('personal', 'One to one:')):
+    six_line('india', k, l, rupee)
+out('  In Canada:')
+for k, l in (('group', 'Group class:'), ('personal', 'One to one:')):
+    six_line('canada', k, l, lambda n: 'CAD %s' % n)
+out('  Anywhere else:')
+for k, l in (('group', 'Group class:'), ('personal', 'One to one:')):
+    six_line('international', k, l, lambda n: '$%s' % n)
+out()
+bullets([
+    'The same 6 month figures apply to coding, mathematics and the AI coding agent courses.',
+    'It is not offered on courses shorter than 6 months, and not on Build AI Agents with Google Gemini Enterprise.',
+    'If a 6 month student stops early, every session not yet taken is refunded at the plan\'s per session price, at any point in the 6 months (PART 8).',
+])
+out()
 out('HOLIDAY CAMPS. This is a single payment, not a monthly fee.')
 out()
 out('    In India:      %s one time' % rupee(PLANS['camps']['india']['oneTime']))
@@ -500,9 +558,11 @@ out()
 out('PAYMENT')
 out()
 bullets([
-    'India pays in rupees. Everywhere else pays in US dollars.',
-    'We accept UPI, bank transfer and card, through secure payment links only.',
-    'Billing is monthly and recurring. Cancel any month.',
+    'India pays in rupees, Canada pays in Canadian dollars, everywhere else pays in US dollars.',
+    'Anyone can enrol and pay online on the course page (Enroll Now), or through a secure link we send. We accept UPI, bank transfer and card.',
+    'A payment gateway charge of %s percent of the fee is added at checkout and shown on the bill before paying. It is not part of the course price and it is not refunded.' % cfg['gatewayFee']['percent'],
+    'For a group class or mini batch in India, the course page first asks the family to message our team, so we can check a batch runs at a time that suits them before they pay.',
+    'Billing is monthly and recurring. Cancel any month. Paying 6 months at once is optional (see above).',
     'Never promise a discount. If asked, say you will check any current offer with Shivam Sir.',
 ])
 out()
@@ -781,9 +841,10 @@ out()
 out('  1. First chat. Find out the age, the subject, the current level and the goal.')
 out('  2. Demo class. Priority Live Demo (paid, guaranteed, today or tomorrow) or the free')
 out('     waiting list. A real teacher either way. Parent may sit in.')
-out('  3. Pick a plan. Group, mini batch or one to one.')
-out('  4. Shivam Sir matches the student to a batch that fits their timetable.')
-out('  5. Pay the first month through a secure link.')
+out('  3. Pick a plan. Group, mini batch or one to one, paid monthly or 6 months at once.')
+out('  4. Enrol and pay on the course page, or through a secure link we send.')
+out('  5. Fix the timing: Shivam Sir matches a group student to a batch, or books one to one')
+out('     classes at times that suit the student.')
 out('  6. The student gets dashboard access, the class link and the recordings.')
 out('  7. Classes begin.')
 out('  8. Progress updates go to the parent every month.')
@@ -860,6 +921,16 @@ para('Once a refund is approved it goes back to the original payment method. The
 out()
 para('To request one, email connect@modernagecoders.com with the order details and the '
      'reason.', '  ')
+out()
+out('PLANS PAID FOR 6 MONTHS AT ONCE')
+out()
+para('If a family paid for 6 months at once and the student stops early, we refund every session '
+     'that has not been taken yet: the number of sessions left multiplied by the per session price '
+     'of their 6 month plan, which is shown on the plan card when they enrol. For example, a one '
+     'to one plan of 24 sessions is paid for 6 months at once and the student stops after 10: the '
+     '14 sessions left are refunded at the plan\'s per session price. For 6 month plans this '
+     'replaces the 7 day and 20 percent limits, and it can be asked for at any point during the 6 '
+     'months. Sessions already taken are not refunded, and neither are the payment gateway charges.', '  ')
 out()
 out('CANCELLATION POLICY')
 out()
@@ -959,6 +1030,24 @@ for title, urls in [
     for u in urls:
         out('  %s%s' % (SITE, u))
     out()
+# UK and US exams cluster (content/exam-cluster-groups.json): one guide per hub, then its pages.
+EXAMS = json.load(open(os.path.join(ROOT, 'content/exam-cluster-groups.json'), encoding='utf-8'))['hubs']
+out('EXAM AND TEST GUIDES FOR UK AND US FAMILIES')
+out()
+para('Each guide explains one family of exams or tests and links to a page for every board, test '
+     'or area. Send the guide for a broad question, and the specific page for a specific exam.', '  ')
+out()
+for h in EXAMS:
+    if ('/' + h['index']) not in sm:
+        continue
+    out('  %s (%s)' % (h['label'], 'UK' if h['market'] == 'GB' else 'US'))
+    out('      %s/%s' % (SITE, h['index']))
+    for sec in h['sections']:
+        for mem in sec['members']:
+            slug = mem if isinstance(mem, str) else mem['slug']
+            if ('/' + slug) in sm:
+                out('      %s/%s' % (SITE, slug))
+    out()
 out('BLOG ARTICLES (%d)' % len(blogs))
 out()
 for u in blogs:
@@ -991,11 +1080,13 @@ GEN = [
   % (IN_GROUP, IN_1TO1, INTL_1TO1)),
  ('What do we get in one to one classes?',
   'A dedicated mentor teaching only your child, in private live one hour classes. In India that '
-  'is %s. The day and time are fixed around the student, and the pace and topics are planned '
-  'for them alone. It is billed monthly and can be cancelled any month.' % IN_1TO1),
+  'is %s. Each class is booked at a time that suits the student, and the pace and topics are '
+  'planned for them alone. The plan also includes a personal dashboard, a daily syllabus '
+  'tracker, recordings, homework checked on the dashboard, progress reports and parent and '
+  'teacher meetings. It is billed monthly and can be cancelled any month.' % IN_1TO1),
  ('How big are the batches?',
-  'Group classes are capped at 20 students. A mini batch is up to 6. One to one is a '
-  'single student with their own mentor.'),
+  'A group class is %s students. A mini batch is up to 6, in India only. One to one is a '
+  'single student with their own mentor.' % GROUP_SIZE),
  ('How long does a course take?',
   'Beginner courses usually run 3 to 6 months. Advanced ones run 6 to 9 months. Custom '
   'programmes are flexible.'),
@@ -1018,7 +1109,8 @@ GEN = [
   'Yes, when the course is completed. It lists the skills learned and the projects built.'),
  ('Can parents see progress?',
   'Yes. Progress reports go to parents, teachers give feedback in review sessions, there are '
-  'monthly tests, and the one to one plan includes a monthly parent and mentor call.'),
+  'monthly tests, and the one to one plan adds a personal dashboard, a daily syllabus tracker '
+  'and parent and teacher meetings.'),
  ('What if my child finds a topic hard?',
   'We add extra doubt clearing sessions and one to one help. No student is left behind.'),
  ('Which boards do you cover?',
@@ -1027,7 +1119,22 @@ GEN = [
  ('Do you prepare for Olympiads and competitive exams?',
   'Yes. Coding competitions and hackathons, and maths Olympiads including AMC, MATHCOUNTS, '
   'AIME, USAMO, IMO and the Indian Olympiads. Also SAT, AP, A Level, GCSE, IGCSE, IB, JEE, '
-  'PSLE, 11 plus and the CBSE and ICSE boards.'),
+  'PSLE, 11 plus and the CBSE and ICSE boards. For UK and US families we also have guides to '
+  'every exam board and test, listed in PART 9 under EXAM AND TEST GUIDES.'),
+ ('Do you prepare for UK exams like GCSE, A Level, 11 plus, TMUA or STEP?',
+  'Yes. We teach the maths behind every major board and specification code: AQA, Pearson '
+  'Edexcel, OCR, WJEC and CCEA GCSE and A Level, Cambridge IGCSE and International A Level, '
+  'Scottish National 5, Higher and Advanced Higher, the IB, the 7 plus, 11 plus, 13 plus and 16 '
+  'plus, and university admissions tests such as the TMUA and STEP. Oxford no longer uses the '
+  'MAT: it now uses the TMUA. We teach with our own practice problems and never promise a grade '
+  'or a place. Send the matching guide from PART 9.'),
+ ('Do you prepare for US tests like state tests, SHSAT, CogAT or ACCUPLACER?',
+  'Yes. We teach the math behind state tests such as STAAR, NY Regents, CAASPP, MCAS and PSSA, '
+  'the SHSAT and other exam school tests, college placement tests such as ACCUPLACER, ALEKS and '
+  'TSIA2, CLEP and the PSAT. For gifted screening tests such as the CogAT, NNAT and OLSAT we '
+  'build reasoning and readiness rather than drilling test items, and some districts discourage '
+  'commercial preparation. We also teach alongside curricula such as Saxon, Beast Academy, Eureka '
+  'and Math Mammoth. Never promise a score or a place. Send the matching guide from PART 9.'),
  ('Are there girls only batches?',
   'Yes. Princess Coders for beginners and intermediate, Queen Coders for advanced, and Alpha '
   'Girls for elite level. There is also a comeback programme for women returning to tech.'),
@@ -1083,7 +1190,7 @@ out()
 out('WHEN THEY ASK THE PRICE. Give only their own region, never both.')
 out()
 out('  If they are in India:')
-para('"Our classes are %s a month for a group class of up to 10, or %s for a mini batch of just '
+para('"Our classes are %s a month for a group class, or %s for a mini batch of just '
      'up to 6 students, both with %s. Fully one to one is %s a month, which is %s with a mentor '
      'who teaches only your child. Every plan includes recordings, doubt support and a '
      'certificate. To see the teaching first, the Priority Live Demo is a full class today or '
@@ -1131,9 +1238,11 @@ para('"The honest answer is to see one real class. The Priority Live Demo is a f
 out()
 out('WHEN THEY ASK FOR A DISCOUNT')
 out()
-para('"Let me check the current offers with Shivam Sir. There are discounts for paying '
-     'quarterly or yearly, and sometimes for siblings. Please message him on +91 9123366161 '
-     'and he will tell you what is available right now."', '  ')
+para('"Paying for 6 months at once costs less than six monthly payments, and if the student '
+     'stops early the sessions not yet taken are refunded. For anything beyond that, such as a '
+     'sibling offer, please message Shivam Sir on +91 9123366161 and he will tell you what is '
+     'available right now."', '  ')
+out('  Give the 6 month figure for their own region from PART 4 if they want the number.')
 out()
 out('WHEN THE COST WORRIES THEM')
 out()
