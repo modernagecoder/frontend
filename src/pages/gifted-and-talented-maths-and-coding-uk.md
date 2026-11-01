@@ -6,7 +6,7 @@ source: src/pages/gifted-and-talented-maths-and-coding-uk.html
 ---
 > There is no single national gifted and talented maths programme in the UK, and no national label. Ofsted's 2015 report on the most able said: "There is currently no national definition for most able." Potential Plus UK notes that most UK children are identified as most able or more able on academic achievement alone. The national curriculum for England is specific about stretch: "Pupils who grasp concepts rapidly should be challenged through being offered rich and sophisticated problems before any acceleration through new content." Modern Age Coders teaches that depth-first stretch live online in maths and coding for ages 6 to 16, on our olympiad and reasoning courses, in groups of 15 to 20 or 1-on-1, with no label attached.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Gifted and talented maths and coding
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / Gifted and talented maths and coding
 
 More able pupils · Ages 6 to 16 · Maths reasoning and code
 
@@ -282,6 +282,41 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 - [KS2 coding lessons](/ks2-coding-lessons-online): Coding for ages 7 to 11.
 - [KS3 maths](/ks3-maths-tuition-online): The Year 7 to 9 curriculum.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): The UK hub.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
+
+### Enrichment and able pupils
+
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Maths masterclasses for able students](/maths-masterclasses-for-able-students-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
+
+### Maths competitions
+
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
+
+### Computing programmes and competitions
+
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
 ## Contact
 

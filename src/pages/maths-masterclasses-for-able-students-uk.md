@@ -6,7 +6,7 @@ source: src/pages/maths-masterclasses-for-able-students-uk.html
 ---
 > Ri Masterclasses are extracurricular workshops in mathematics or computer science run by the Royal Institution with regional volunteer groups across the UK. A series usually lasts six weeks in term time; secondary sessions tend to be 2.5 hours on Saturday mornings, and primary ones are shorter. They cost nothing, and a child attends only after a teacher nominates them and the Ri sends a letter of acceptance. The Ri says places are normally for 9 and 10 year olds and 13 and 14 year olds. Modern Age Coders has no link with the Ri; we teach the same kind of beyond-the-syllabus maths live online each week, through our competition maths course, in a batch of 15 to 20 or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Maths masterclasses
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide) / Maths masterclasses
 
 Enrichment · Ages 9 to 16 · England, Scotland, Wales, Northern Ireland
 
@@ -294,6 +294,41 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 - [Maths tuition in London](/maths-tuition-in-london): Where the masterclass story began.
 - [British Informatics Olympiad](/british-informatics-olympiad-preparation): Problem solving with code.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): Every UK page from one hub.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
+
+### Enrichment and able pupils
+
+- [Online maths circle](/online-maths-circle-uk)
+- [Online maths summer school](/online-maths-summer-school-uk)
+- [Gifted and talented maths and coding](/gifted-and-talented-maths-and-coding-uk)
+- [Maths for home-educated children](/maths-for-home-educated-children-uk)
+- [Duke of Edinburgh Skills section coding](/duke-of-edinburgh-skills-section-coding)
+
+### Maths competitions
+
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+- [Primary Maths Challenge practice](/primary-maths-challenge-practice)
+- [UKMT Kangaroo rounds practice](/ukmt-kangaroo-rounds-practice)
+- [UKMT Team Maths Challenge practice](/ukmt-team-maths-challenge-practice)
+- [Junior Mathematical Olympiad preparation](/junior-mathematical-olympiad-preparation)
+- [Cayley, Hamilton and Maclaurin olympiad preparation](/intermediate-mathematical-olympiad-cayley-hamilton-maclaurin-preparation)
+- [British Mathematical Olympiad preparation](/british-mathematical-olympiad-bmo-preparation)
+- [Mathematical Olympiad for Girls preparation](/mathematical-olympiad-for-girls-preparation)
+- [Scottish Mathematical Challenge practice](/scottish-mathematical-challenge-practice)
+
+### Computing programmes and competitions
+
+- [CyberFirst courses and bursary](/cyberfirst-courses-and-bursary-preparation)
+- [CyberFirst Girls Competition preparation](/cyberfirst-girls-competition-preparation)
+- [UK Bebras Challenge practice](/bebras-computational-thinking-challenge-practice-uk)
+- [British Informatics Olympiad preparation](/british-informatics-olympiad-preparation)
+- [KS1 coding lessons online](/ks1-coding-lessons-online)
+- [UK coding, maths and AI competitions calendar](/uk-coding-maths-and-ai-competitions-calendar)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide)
 
 ## Contact
 
