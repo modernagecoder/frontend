@@ -6,7 +6,7 @@ source: src/pages/science-olympiad-coding-events-help.html
 ---
 > Science Olympiad is a US team science competition with 23 events in each division, Division B for grades 6 to 9 and C for grades 9 to 12. On the 2027 list there is no Robot Tour, but Electric Vehicle often runs on a microcontroller, and Codebusters rewards cipher skills students can drill in code. Modern Age Coders teaches that Python and math live online, in a batch or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Science Olympiad coding events
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / Science Olympiad coding events
 
 United States · Grades 6 to 12 · The 2027 Science Olympiad season
 
@@ -346,6 +346,39 @@ No. Modern Age Coders is an independent coding school with no connection to Scie
 - [Middle school math contests](/math-competitions-for-middle-school-students): Number sense that helps with ciphers.
 - [US competitions calendar](/us-coding-math-and-ai-competitions-calendar): Dates for this school year in one place.
 - [VEX IQ programming help](/vex-iq-programming-help): For students whose robots compete elsewhere.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

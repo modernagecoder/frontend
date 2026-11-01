@@ -6,7 +6,7 @@ source: src/pages/acsl-competition-preparation.html
 ---
 > ACSL, the American Computer Science League, is a team contest for K-12 students run in four online contests each season. Every contest has a short answer test on computer science topics, and the Junior, Intermediate and Senior divisions add a programming problem in Python, C++ or Java solved within 72 hours. For 2026-27, Contest #1 opens October 19, 2026, team registration closes December 31, 2026, and the Finals are on May 29, 2027. Modern Age Coders teaches this live online for US students, in a batch or one to one, and the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / ACSL preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / ACSL preparation
 
 United States · Grades 3 to 12 · Four contests a season
 
@@ -137,6 +137,13 @@ ACSL also sells downloadable collections of previous contests to advisors. Past 
 
 Every contest is taken online through links HackerRank emails to each student. The Student Guide explains the details that change how you should work.
 
+1. The email arrives. The advisor sends the invitation; Junior, Intermediate and Senior students receive a second link for the programming part. Each link is personal and must not be shared.
+2. Sign the honesty declaration. HackerRank checks programs for plagiarism, and "Students found to be collaborating will score 0 points for that test."
+3. Short problems. All are multiple choice. The test submits itself when time runs out, and once submitted the student cannot see the answers again.
+4. The programming problem. Boilerplate already handles input and output. In ACSL&rsquo;s words, "Your job will be to complete a function with specified parameters, and return a value in the correct format."
+5. Hidden tests. There are up to 12 test cases. The last 6 are hidden, and each hidden case passed is worth one point. The last run before time ends is the score.
+6. Results. Scores appear on the ACSL Leaderboard within 2 hours.
+
 ### What hidden tests mean for practice
 
 Passing the six visible cases proves very little. Hidden cases often probe edges: an empty string, a zero, the largest input allowed. We teach students to write three extra test inputs of their own before they press run.
@@ -160,9 +167,54 @@ We wrote these to match the official topic list. They are not ACSL problems, and
 | 1 | Computer Number Systems | Convert 2A3 (base 16) to base 10, then to base 8. | 675; 1243 in base 8 |
 | 2 | Prefix/Infix/Postfix | Evaluate the postfix expression 6 2 3 + * 4 - | 26 |
 | 3 | Prefix/Infix/Postfix | Evaluate the prefix expression - * 6 + 2 3 4 | 26, the same expression as #2 |
-| 4 | Recursive Functions | f(x) = f(x - 3) + 2 when x &gt; 5, otherwise x * x. Find f(11). | 29, since f(11) = f(8) + 2 = f(5) + 4 = 25 + 4 |
+| 4 | Recursive Functions | f(x) = f(x - 3) + 2 when x > 5, otherwise x * x. Find f(11). | 29, since f(11) = f(8) + 2 = f(5) + 4 = 25 + 4 |
 | 5 | Bit-String Flicking | Find 10110 AND 01100, then 10110 XOR 01100. | 00100; 11010 |
 | 6 | Boolean Algebra | Simplify A·B + A·(NOT B). | A, because B + NOT B is always 1 |
+
+**Python · check problem 1 by machine** (python)
+```python
+# bases.py (ours): check a number-systems answer by machine
+def to_base(n, base):
+    digits = "0123456789ABCDEF"
+    if n == 0:
+        return "0"
+    out = ""
+    while n > 0:
+        out = digits[n % base] + out
+        n //= base
+    return out
+
+value = int("2A3", 16)      # hexadecimal to decimal
+print(value)                # 675
+print(to_base(value, 8))    # 1243
+print(to_base(value, 2))    # 1010100011
+```
+The habit we teach: solve by hand first, then let a short program confirm it. Python&rsquo;s int() reads a string in any base from 2 to 36; to_base() goes the other way by repeated division.
+
+**Python · check problems 2 and 3 with a stack** (python)
+```python
+# postfix.py (ours): evaluate postfix with a stack
+def eval_postfix(expr):
+    stack = []
+    for token in expr.split():
+        if token in ("+", "-", "*", "/"):
+            right = stack.pop()
+            left = stack.pop()
+            if token == "+":
+                stack.append(left + right)
+            elif token == "-":
+                stack.append(left - right)
+            elif token == "*":
+                stack.append(left * right)
+            else:
+                stack.append(left / right)
+        else:
+            stack.append(int(token))
+    return stack.pop()
+
+print(eval_postfix("6 2 3 + * 4 -"))   # 26
+```
+Postfix evaluation is a stack: push numbers, and on each operator pop two, apply it, push the result. The order of the two pops matters, since 30 - 4 and 4 - 30 differ. Writing this once also prepares students for the Data Structures topic in Contest #3.
 
 Why both by hand and by machine? In the contest there is no time to write a program for a short answer question, and in the programming problem there is no partial credit for a correct idea with a wrong return format. Students need the speed of the first and the precision of the second.
 
@@ -344,6 +396,39 @@ A regular teacher works through the official topics in contest order, drills han
 - [picoCTF for beginners](/picoctf-for-beginners): picoCTF, now CyLab Security Academy, for US beginners aged 13 and up.
 - [CyberPatriot preparation](/cyberpatriot-preparation): CyberPatriot 19 (2026-27) explained from the official pages, with a practice plan.
 - [Technovation Girls guide](/technovation-girls-guide): Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

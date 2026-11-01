@@ -6,7 +6,7 @@ source: src/pages/coding-competitions-for-middle-school-students.html
 ---
 > Middle schoolers in the US can enter Bebras (free, 45 minutes, November 9 to 20, 2026), the ACSL Junior Division (no student beyond grade 9), CyberPatriot&rsquo;s Middle School Division, the Presidential SI Challenge for grades 6 to 8, the Congressional App Challenge (block code allowed), FIRST LEGO League, and USACO. Modern Age Coders teaches Scratch, Python and problem solving for them live online.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Middle school coding competitions
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / Middle school coding competitions
 
 United States · Grades 6 to 8 · First competitions
 
@@ -158,6 +158,13 @@ Our [Congressional App Challenge guide](/congressional-app-challenge-guide) cove
 
 Number systems is the first short answer topic most ACSL students meet. These six questions are ours, written for this page, at roughly Junior Division difficulty.
 
+1. Convert 45 (base 10) to binary.
+2. Convert 2F (base 16) to base 10.
+3. Convert 75 (base 8) to binary. Hint: each octal digit is exactly three binary digits.
+4. Add the binary numbers 1101 and 1011. Give the answer in binary.
+5. Which is largest: 3A (base 16), 71 (base 8) or 111011 (base 2)?
+6. Convert 1F (base 16) to base 8.
+
 **Answers and the reasoning (ours)**
 
 | Question | Answer | How |
@@ -168,6 +175,20 @@ Number systems is the first short answer topic most ACSL students meet. These si
 | 4 | 11000 | 1101 is 13 and 1011 is 11; 13 + 11 = 24, and 24 = 16 + 8 |
 | 5 | 111011 (base 2) | 3A is 58, 71 is 57, and 111011 is 59 |
 | 6 | 37 | 1F is 31; 31 = 3 x 8 + 7 |
+
+**Check every answer in Python (ours)** (Python)
+```python
+# Python reads other bases with int(text, base)
+# and writes them with bin() and oct().
+
+print(bin(45))                      # 0b101101
+print(int("2F", 16))                # 47
+print(bin(int("75", 8)))            # 0b111101
+print(bin(0b1101 + 0b1011))         # 0b11000
+print(max(0x3A, 0o71, 0b111011))    # 59, so the binary one wins
+print(oct(int("1F", 16)))           # 0o37
+```
+In the real contest there is no computer and no calculator for the short answer test, so do every question by hand first and use the code only to check.
 
 ### Why place value is the whole trick
 
@@ -331,6 +352,39 @@ No. We are an independent online school with no connection to any organiser. We 
 - [Machine learning competitions for high school students](/machine-learning-competitions-for-high-school-students): ML and AI competitions for US high schoolers, 2026-27, from the official rules.
 - [Math competitions for middle school students](/math-competitions-for-middle-school-students): Middle school math competitions for 2026-27, compared round by round.
 - [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar): US coding, math and AI competition dates for 2026-27, sourced row by row.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

@@ -6,7 +6,7 @@ source: src/pages/vex-iq-programming-help.html
 ---
 > VEX IQ programming means writing the code a VEX IQ robot runs on its own. In the 2026 to 2027 RECF Engage game, Tier Takeover, a solo coding match lasts 60 seconds with no controller, and teams may split code into segments launched after a reset. Modern Age Coders teaches the coding behind it live online, in a batch or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / VEX IQ programming help
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / VEX IQ programming help
 
 United States · Ages about 8 to 15 · The 2026 to 2027 season
 
@@ -358,6 +358,39 @@ No. Modern Age Coders is independent and has no tie to VEX Robotics, Innovation 
 - [C++ for kids](/c-plus-plus-for-kids): A first look at a compiled language.
 - [ACSL preparation](/acsl-competition-preparation): A computer science contest with no robot.
 - [Congressional App Challenge](/congressional-app-challenge-guide): Build an app instead of a robot.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

@@ -6,7 +6,7 @@ source: src/pages/us-coding-math-and-ai-competitions-calendar.html
 ---
 > Key 2026-27 dates for US student competitions: Congressional App Challenge deadline October 26, 2026; Bebras November 9 to 20, 2026; Presidential SI Challenge projects due December 23, 2026; USA-NA-AIO Round 1 February 19, 2027; MATHCOUNTS chapter rounds in February and nationals May 9 to 10, 2027; ACSL Finals May 29, 2027. Modern Age Coders, a live online school, prepares students for them.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Competitions calendar 2026-27
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / Competitions calendar 2026-27
 
 United States · School year 2026-27 · Dates as published, read 17 October 2026
 
@@ -196,6 +196,12 @@ The count is a planning aid, not a measure of how hard any month is for a partic
 
 Our five steps for a family choosing what to enter. The idea is to work backwards from each deadline, so preparation starts early enough.
 
+1. Pick two or three competitions, not ten. One that suits the student&rsquo;s strongest skill, and one that stretches them.
+2. Find the earliest registration date for each in the tables above, and the adult who must act on it.
+3. Count back eight to twelve weeks from the first contest date. That is when focused preparation should begin.
+4. Put every date in a shared family calendar with the source link, and check the link again a month before.
+5. After each contest, write down three things to fix before the next one on the list.
+
 ### Elementary
 
 Bebras and Math Kangaroo are gentle first contests; ACSL Elementary suits grades 3 to 6.
@@ -338,6 +344,39 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 - [Cybersecurity classes for teens](/cybersecurity-classes-for-teens): Cybersecurity for US teens: CyberPatriot, CyLab, AP Cybersecurity and a safe start.
 - [Technovation Girls guide](/technovation-girls-guide): Technovation Girls and the 2026-27 Technovation Challenge, from the official pages.
 - [Coding competitions for high school students](/coding-competitions-for-high-school-students): US high school coding competitions for 2026-27, from the organisers' own rules.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

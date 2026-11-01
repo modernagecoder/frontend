@@ -6,7 +6,7 @@ source: src/pages/ftc-programming-help.html
 ---
 > FTC programming means writing the OpModes that run a FIRST Tech Challenge robot, in Blocks, OnBot Java or Java in Android Studio, using FIRST&rsquo;s SDK, now v12.0 for 2026 to 2027. Each BIOBUZZ match has a 30-second autonomous period and a 2-minute driver period. Modern Age Coders teaches the Java behind it live online, in a batch or 1-on-1, in our Java for Teens course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / FTC programming help
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / FTC programming help
 
 United States · Grades 7 to 12 · The 2026 to 2027 BIOBUZZ season
 
@@ -384,6 +384,39 @@ No. Modern Age Coders is an independent coding school, not connected with FIRST,
 - [AP CSA practice questions](/ap-computer-science-a-practice-questions): Where FTC Java pays off in school.
 - [US competitions calendar](/us-coding-math-and-ai-competitions-calendar): Coding, math and AI contest dates this year.
 - [Coding for high schoolers](/coding-classes-for-high-school-students): Courses beyond the robot.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

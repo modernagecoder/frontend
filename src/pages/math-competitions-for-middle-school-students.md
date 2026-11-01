@@ -6,7 +6,7 @@ source: src/pages/math-competitions-for-middle-school-students.html
 ---
 > The main math competitions for US middle schoolers are MATHCOUNTS (grades 6 to 8; school, chapter, state and national levels; national final May 9 to 10, 2027), Math Kangaroo (a 75-minute multiple-choice test on the third Thursday in March) and MOEMS Division M (five 30-minute contests from November 2026 to March 2027). Modern Age Coders runs live online classes for all three.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Middle school math competitions
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / Middle school math competitions
 
 United States · Grades 6 to 8 · The 2026-27 contest year
 
@@ -181,6 +181,14 @@ Team rounds get their own practice: four students, ten problems, and a rule that
 ## Seven practice problems in the style of middle school contests
 
 These problems are ours, written for this page and not taken from any competition. They sit at roughly school and chapter level. Try them with a timer set to 80 seconds each.
+
+1. What is the sum of the first 20 positive odd integers?
+2. A rectangle&rsquo;s length is 3 more than its width, and its perimeter is 46. What is its area?
+3. How many positive divisors does 72 have?
+4. The mean of five numbers is 18. Four of them are 12, 15, 20 and 25. What is the fifth?
+5. How many integers from 1 to 100 are divisible by 3 or by 5?
+6. A bag holds 4 red and 6 blue marbles. Two are drawn without replacement. What is the probability that both are red? Give a common fraction.
+7. What is the units digit of 7 to the power 2026?
 
 **Answers and the key idea (ours; each answer checked in Python)**
 
@@ -361,6 +369,39 @@ Weekdays or weekends, flexible: choose your batch, or for a very personalised pl
 - [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar): US coding, math and AI competition dates for 2026-27, sourced row by row.
 - [Cybersecurity classes for teens](/cybersecurity-classes-for-teens): Cybersecurity for US teens: CyberPatriot, CyLab, AP Cybersecurity and a safe start.
 - [Congressional App Challenge guide](/congressional-app-challenge-guide): The Congressional App Challenge explained from the 2026 rules, with a ten-week plan.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

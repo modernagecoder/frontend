@@ -6,7 +6,7 @@ source: src/pages/noetic-math-contest-preparation.html
 ---
 > The Noetic Learning Math Contest (NLMC) is a semiannual problem-solving contest by Noetic Learning for grades 2 to 8: 20 problems in 45 minutes, or 50 online, with a separate set for each grade. Schools enter teams of up to 30; families can use the At-Home Edition. Modern Age Coders teaches contest problem solving live online, in a batch or 1-on-1, through our Elementary Mathematics course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Noetic math contest preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / Noetic math contest preparation
 
 Grades 2 to 8 · Fall 2026 and spring 2027 · 20 problems, 45 minutes
 
@@ -380,6 +380,39 @@ No. Modern Age Coders is an independent online school with no link to Noetic Lea
 - [4th grade math tutor](/online-math-tutor-4th-grade): Multi-step problems and multiplication.
 - [Beast Academy tutor](/beast-academy-tutor): Live help beside a puzzle-heavy curriculum.
 - [Middle school competitions](/math-competitions-for-middle-school-students): For grade 6 to 8 Noetic students.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

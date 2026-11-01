@@ -6,7 +6,7 @@ source: src/pages/after-hour-of-code-next-steps.html
 ---
 > The Hour of Code, a free one-hour coding activity run by the nonprofit once called Code.org and now CodeAI, has become the Hour of AI, held around CSEdWeek, December 7 to 11 in 2026. After it, children can continue free with Scratch or CodeAI&rsquo;s courses. Modern Age Coders teaches the next stage live online, in a batch or 1-on-1, in our Coding for Kids course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / After the Hour of Code
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / After the Hour of Code
 
 United States · Ages about 6 to 12 · CSEdWeek, December 7 to 11, 2026
 
@@ -325,6 +325,39 @@ No. We run our own classes and have no link to CodeAI, CSTA, the Scratch Foundat
 - [Coding milestones by age](/coding-milestones-by-age): What is typical, age by age.
 - [AI literacy for kids](/ai-literacy-for-elementary-students): Understanding AI before using it.
 - [Coding for middle schoolers](/coding-classes-for-middle-school-students): The step after elementary.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

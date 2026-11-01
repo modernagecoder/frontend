@@ -6,7 +6,7 @@ source: src/pages/coding-competitions-for-high-school-students.html
 ---
 > The main coding competitions open to US high school students in 2026-27 are USACO (free online algorithm contests in C, C++, Java or Python), ACSL (four school-team contests from October 19, 2026), CyberPatriot (team cyber defense), picoCTF (now CyLab Security Academy, free capture the flag), the Congressional App Challenge, the Presidential SI Challenge, the USA-NA-AIO and FIRST robotics. Modern Age Coders prepares teens for them in live online classes.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / High school coding competitions
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / High school coding competitions
 
 United States · Grades 9 to 12 · The 2026-27 school year
 
@@ -114,6 +114,22 @@ The American Computer Science League mixes computer science theory with programm
 | During tests | "No calculators are allowed." Paper and pencil only; no internet help and no help from people |
 | Finals cut-off | At least 28 points in the Junior, Intermediate and Senior Divisions |
 
+**How ACSL passes a list to your function (our example)** (Python)
+```python
+# ACSL's FAQ says its driver passes only primitives, so a list of
+# numbers arrives as one string. Split it and convert first.
+
+def largest_gap(numbers_text):
+    values = [int(part) for part in numbers_text.split()]
+    values.sort()
+    gaps = [values[i + 1] - values[i] for i in range(len(values) - 1)]
+    return max(gaps) if gaps else 0
+
+print(largest_gap("12 3 40 18 7"))   # sorted: 3 7 12 18 40, gaps 4 5 6 22, prints 22
+print(largest_gap("5"))              # one value, no gap, prints 0
+```
+Our own function and test strings. The point is the first line inside the function: forgetting to split and convert the string is a common way to lose a whole programming problem.
+
 ### If your school has no ACSL team
 
 Because any teacher, parent or other adult with some CS experience can act as advisor, a parent can register a small team. ACSL&rsquo;s FAQ says there is no minimum number of students, and it answers yes to homeschoolers directly.
@@ -216,6 +232,38 @@ Sources: [Congressional App Challenge rules](https://www.congressionalappchallen
 This problem is ours, written for this page, not taken from any contest. It shows the single idea that separates a passing solution from one that times out.
 
 The reading log. A student logged the pages read on each of N days. You are then asked Q questions, each giving two days a and b, and you must print the total pages read from day a to day b inclusive. N and Q can each be as large as 100,000. Input: N and Q on the first line, the N page counts on the second, then Q lines of a and b.
+
+**A fast solution with prefix sums (ours)** (Python)
+```python
+import sys
+
+def main():
+    data = sys.stdin.read().split()
+    n, q = int(data[0]), int(data[1])
+    pages = [int(x) for x in data[2:2 + n]]
+
+    # prefix[i] = pages read on days 1..i, so prefix[0] = 0
+    prefix = [0] * (n + 1)
+    for i in range(n):
+        prefix[i + 1] = prefix[i] + pages[i]
+
+    out = []
+    pos = 2 + n
+    for _ in range(q):
+        a, b = int(data[pos]), int(data[pos + 1])
+        pos += 2
+        out.append(prefix[b] - prefix[a - 1])
+    print("\n".join(map(str, out)))
+
+main()
+
+# Sample input:      Sample output:
+# 5 2                6
+# 3 1 4 1 5          14
+# 2 4
+# 1 5
+```
+Days 2 to 4 are 1 + 4 + 1 = 6 pages; days 1 to 5 are 3 + 1 + 4 + 1 + 5 = 14 pages.
 
 **Why the obvious solution fails (our estimate of the work, worst case)**
 
@@ -397,6 +445,39 @@ No. Modern Age Coders is an independent online school. We teach the skills these
 - [Coding competitions for middle school students](/coding-competitions-for-middle-school-students): Middle school coding competitions for 2026-27, grade by grade.
 - [Machine learning competitions for high school students](/machine-learning-competitions-for-high-school-students): ML and AI competitions for US high schoolers, 2026-27, from the official rules.
 - [Math competitions for middle school students](/math-competitions-for-middle-school-students): Middle school math competitions for 2026-27, compared round by round.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

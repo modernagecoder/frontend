@@ -6,7 +6,7 @@ source: src/pages/isef-computer-science-project-mentoring.html
 ---
 > Regeneron ISEF, run by Society for Science, is the pre-college science fair that students in grades 9 to 12 reach by winning at an affiliated fair. Computer science projects usually enter Software Design, Robotics and Intelligent Machines or Mathematics. Modern Age Coders teaches the Python, AI and research method live online, in a batch or 1-on-1; the student does the project.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / ISEF CS project mentoring
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / ISEF CS project mentoring
 
 United States · Grades 9 to 12 · Projects for Regeneron ISEF 2027
 
@@ -409,6 +409,39 @@ No. Modern Age Coders is an independent coding school with no connection to Soci
 - [CS summer programs](/computer-science-summer-programs-for-high-school-students): Where to build skills before a project year.
 - [High school coding competitions](/coding-competitions-for-high-school-students): For students who want contests as well as research.
 - [US competitions calendar](/us-coding-math-and-ai-competitions-calendar): Dates for this school year.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Projects and next steps
+
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

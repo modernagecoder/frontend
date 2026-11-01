@@ -6,7 +6,7 @@ source: src/pages/math-league-contest-preparation.html
 ---
 > Math League contests come from two unrelated organizations. The Math League (mathleague.com), formed in 1977, sends contests for grades 4 to 12 to schools: six high school contests from October 20, 2026 to March 16, 2027, and grade 7 and 8 contests on February 16 or 23, 2027. mathleague.org runs more than 400 local contests a year for grades 3 to 12 with state, national and international championships. Modern Age Coders teaches live online contest classes for both, in a batch of 15 to 20 or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Math League contest preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / Math League contest preparation
 
 United States · Grades 3 to 12 · The 2026-27 contest year
 
@@ -312,6 +312,39 @@ No. Modern Age Coders has no connection with The Math League (mathleague.com) or
 - [AMC and olympiad tutoring](/math-olympiad-amc-tutoring): Where strong high school Math League students go next.
 - [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar): Coding, math and AI contest dates in one place.
 - [Homeschool math](/homeschool-math-curriculum-usa): A full math program at home.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

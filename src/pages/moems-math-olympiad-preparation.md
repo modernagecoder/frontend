@@ -6,7 +6,7 @@ source: src/pages/moems-math-olympiad-preparation.html
 ---
 > MOEMS (Math Olympiads for Elementary and Middle Schools) runs five monthly problem-solving contests, each of five questions in 30 minutes, in Division E for grades 4 to 6 and Division M for grades 6 to 8. Schools, homeschools and institutes enter teams of up to 35. Modern Age Coders teaches MOEMS-style problem solving live online, in a batch or 1-on-1, in our Middle School Math Competitions course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / MOEMS preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / MOEMS preparation
 
 Grades 4 to 8 · Division E and Division M · November 2026 to March 2027
 
@@ -383,6 +383,39 @@ No. Modern Age Coders is an independent online school and is not connected with 
 - [MATHCOUNTS preparation](/mathcounts-preparation): The next team contest for middle schoolers.
 - [5th grade math tutor](/online-math-tutor-5th-grade): School math for Division E students.
 - [AMC and olympiad tutoring](/math-olympiad-amc-tutoring): Where MOEMS students often go next.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Math contests
+
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

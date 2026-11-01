@@ -6,7 +6,7 @@ source: src/pages/continental-math-league-preparation.html
 ---
 > The Continental Mathematics League (CML) runs school math meets for grades 2 to 9, plus a Calculus League. Grades 4 to 9 sit five meets of six questions in 30 minutes, in the Euclidean or the harder-reading Pythagorean division; schools proctor and grade them. Modern Age Coders teaches CML-style problem solving live online as group batch or 1-on-1 lessons in our Elementary Mathematics course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Continental Math League preparation
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / Continental Math League preparation
 
 Grades 2 to 9 · Euclidean and Pythagorean · The 2026 to 2027 season
 
@@ -368,6 +368,39 @@ No. Modern Age Coders is an independent online school, not connected with the Co
 - [4th grade math tutor](/online-math-tutor-4th-grade): The first five-meet year.
 - [6th grade math tutor](/online-math-tutor-6th-grade): Ratios and the middle grades.
 - [Saxon math tutor](/saxon-math-tutor): Help alongside a word-problem-heavy curriculum.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FIRST LEGO League coding help](/first-lego-league-coding-help-usa)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 

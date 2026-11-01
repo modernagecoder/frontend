@@ -6,7 +6,7 @@ source: src/pages/first-lego-league-coding-help-usa.html
 ---
 > FIRST LEGO League coding help means learning to program the LEGO robot a team launches in the robot game. In the 2026 to 2027 BIOGLOW season, the final FIRST LEGO League season, a Challenge match lasts 2.5 minutes, the robot runs autonomously on the team&rsquo;s own code, and only the highest of three matches counts. Modern Age Coders teaches that coding live online, in a batch or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / FIRST LEGO League coding help
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math and coding competitions guide](/us-math-and-coding-competitions-guide) / FIRST LEGO League coding help
 
 United States · Ages 9 to 14 in Challenge · The final season, 2026 to 2027
 
@@ -379,6 +379,39 @@ No. Modern Age Coders is an independent coding school with no tie to FIRST, LEGO
 - [Elementary coding classes](/coding-classes-for-elementary-students): For the Explore and K to 2 age groups.
 - [FIRST LEGO League in the UK](/first-lego-league-uk-coding-help): How the same final season runs for UK teams.
 - [AI literacy for elementary students](/ai-literacy-for-elementary-students): Useful background for AI-enabled robot kits.
+
+## Related pages in this guide
+
+Part of the guide: [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
+
+### Coding and robotics
+
+- [Bebras Challenge practice](/bebras-challenge-practice)
+- [FTC programming help](/ftc-programming-help)
+- [VEX IQ programming help](/vex-iq-programming-help)
+- [Science Olympiad coding events help](/science-olympiad-coding-events-help)
+- [ACSL competition preparation](/acsl-competition-preparation)
+- [Coding competitions for middle school students](/coding-competitions-for-middle-school-students)
+- [Coding competitions for high school students](/coding-competitions-for-high-school-students)
+
+### Math contests
+
+- [MOEMS math olympiad preparation](/moems-math-olympiad-preparation)
+- [Noetic math contest preparation](/noetic-math-contest-preparation)
+- [Math League contest preparation](/math-league-contest-preparation)
+- [Continental Math League preparation](/continental-math-league-preparation)
+- [Math competitions for middle school students](/math-competitions-for-middle-school-students)
+- [Online math circle for kids](/online-math-circle-for-kids)
+- [Art of Problem Solving alternative](/art-of-problem-solving-alternative)
+
+### Projects and next steps
+
+- [ISEF computer science project mentoring](/isef-computer-science-project-mentoring)
+- [Girls Who Code next step](/girls-who-code-next-step)
+- [After the Hour of Code](/after-hour-of-code-next-steps)
+- [US competitions calendar 2026-27](/us-coding-math-and-ai-competitions-calendar)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa)
 
 ## Contact
 
