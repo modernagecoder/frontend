@@ -6,7 +6,7 @@ source: src/pages/year-4-maths-tutor-online.html
 ---
 > Year 4 maths is the last year of lower Key Stage 2 in England's national curriculum, for children aged 8 to 9. Its best-known requirement is recall of every times table up to 12 × 12, checked in a statutory on-screen multiplication tables check held from 7 to 18 June 2027. The programme also adds four-digit place value, negative numbers, hundredths, Roman numerals to C, area by counting squares and coordinates. Modern Age Coders tutors Year 4 maths live online through its Mental Maths for Kids and Elementary Maths courses, one to one or in a class of 15 to 20. Your first class is free. We have no connection with the STA or any school.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Year 4 maths tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide) / Year 4 maths tutor
 
 England · Year 4 maths · ages 8 to 9
 
@@ -303,6 +303,40 @@ No. Modern Age Coders is a separate, independent online tutoring school. We foll
 - [KS2 SATs maths papers](/ks2-sats-maths-papers-explained): Where Year 4 leads in Year 6.
 - [Primary Maths Challenge](/primary-maths-challenge-practice): Puzzles for keen upper primary pupils.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): Our UK hub page.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide)
+
+### Primary, Reception to Year 6
+
+- [Reception maths online](/reception-maths-online-uk)
+- [KS1 maths tuition online](/ks1-maths-tuition-online)
+- [KS1 SATs maths explained](/ks1-sats-maths-explained)
+- [Year 1 maths tutor online](/year-1-maths-tutor-online)
+- [Year 2 maths tutor online](/year-2-maths-tutor-online)
+- [Year 3 maths tutor online](/year-3-maths-tutor-online)
+- [Multiplication tables check practice](/multiplication-tables-check-year-4-practice)
+- [Times tables tutor online](/times-tables-tutor-online-uk)
+- [Year 5 maths tutor online](/year-5-maths-tutor-online)
+- [Year 6 maths tutor online](/year-6-maths-tutor-online)
+- [KS2 SATs maths papers explained](/ks2-sats-maths-papers-explained)
+- [White Rose Maths help at home](/white-rose-maths-help-at-home)
+
+### Secondary, Year 7 to Year 11
+
+- [Year 7 maths tutor online](/year-7-maths-tutor-online)
+- [Year 8 maths tutor online](/year-8-maths-tutor-online)
+- [Year 9 maths tutor online](/year-9-maths-tutor-online)
+- [Year 10 maths tutor online](/year-10-maths-tutor-online)
+- [Year 11 maths tutor online](/year-11-maths-tutor-online)
+
+### Scotland
+
+- [Scottish primary maths tutor online](/scottish-primary-maths-tutor-online)
+- [S1 to S3 maths tutor online](/s1-s3-maths-tutor-online-scotland)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

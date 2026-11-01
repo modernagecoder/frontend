@@ -6,7 +6,7 @@ source: src/pages/year-8-maths-tutor-online.html
 ---
 > Year 8 maths is the middle year of Key Stage 3 in England, for students aged 12 to 13, taught from the DfE key stage 3 programme of study in an order each school sets. In its November 2025 response to the Curriculum and Assessment Review, the government said it will expect all schools to assess pupil progress in maths in Year 8, so gaps are closed before Key Stage 4. Most Year 8 schemes cover linear equations, straight-line graphs, ratio and proportion, and angle reasoning. Modern Age Coders tutors Year 8 maths live online, 1-on-1 or in a group of 15 to 20, through its Middle School Maths course. The first class is free; we are independent of every school.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Year 8 maths tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide) / Year 8 maths tutor
 
 England · Year 8 maths · ages 12 to 13
 
@@ -299,6 +299,40 @@ No. Modern Age Coders is independent and works for families directly. We have no
 - [UKMT challenges](/ukmt-maths-challenge-tutoring): Junior and Intermediate challenges.
 - [Year 9 options](/choosing-gcse-computer-science-year-9-options): GCSE choices coming next year.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): Our UK hub.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide)
+
+### Secondary, Year 7 to Year 11
+
+- [Year 7 maths tutor online](/year-7-maths-tutor-online)
+- [Year 9 maths tutor online](/year-9-maths-tutor-online)
+- [Year 10 maths tutor online](/year-10-maths-tutor-online)
+- [Year 11 maths tutor online](/year-11-maths-tutor-online)
+
+### Primary, Reception to Year 6
+
+- [Reception maths online](/reception-maths-online-uk)
+- [KS1 maths tuition online](/ks1-maths-tuition-online)
+- [KS1 SATs maths explained](/ks1-sats-maths-explained)
+- [Year 1 maths tutor online](/year-1-maths-tutor-online)
+- [Year 2 maths tutor online](/year-2-maths-tutor-online)
+- [Year 3 maths tutor online](/year-3-maths-tutor-online)
+- [Year 4 maths tutor online](/year-4-maths-tutor-online)
+- [Multiplication tables check practice](/multiplication-tables-check-year-4-practice)
+- [Times tables tutor online](/times-tables-tutor-online-uk)
+- [Year 5 maths tutor online](/year-5-maths-tutor-online)
+- [Year 6 maths tutor online](/year-6-maths-tutor-online)
+- [KS2 SATs maths papers explained](/ks2-sats-maths-papers-explained)
+- [White Rose Maths help at home](/white-rose-maths-help-at-home)
+
+### Scotland
+
+- [Scottish primary maths tutor online](/scottish-primary-maths-tutor-online)
+- [S1 to S3 maths tutor online](/s1-s3-maths-tutor-online-scotland)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

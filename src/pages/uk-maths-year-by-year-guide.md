@@ -335,7 +335,7 @@ No. We are independent of the DfE, the STA, Education Scotland and every exam bo
 - [Scottish primary maths tutor online](/scottish-primary-maths-tutor-online)
 - [S1 to S3 maths tutor online](/s1-s3-maths-tutor-online-scotland)
 
-More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes)
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

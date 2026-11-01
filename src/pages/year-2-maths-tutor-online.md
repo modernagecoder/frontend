@@ -6,7 +6,7 @@ source: src/pages/year-2-maths-tutor-online.html
 ---
 > Year 2 maths in England is set by the statutory Year 2 programme of study from the DfE, for children aged 6 to 7. Children recall addition and subtraction facts to 20 fluently and derive related facts up to 100, use tens and ones, add and subtract two-digit numbers, check answers with the inverse, learn the 2, 5 and 10 times tables, find thirds and quarters, tell the time to five minutes and read simple charts. We teach it live online through our Elementary Maths course, in a class of 15 to 20 or 1-on-1, and the opening class costs nothing.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / Year 2 maths tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide) / Year 2 maths tutor
 
 England · Year 2 maths · Ages 6 to 7
 
@@ -313,6 +313,40 @@ No. We run our classes entirely separately from schools, local authorities and t
 - [Primary Maths Challenge](/primary-maths-challenge-practice): Puzzles for confident primary children.
 - [KS2 coding lessons](/ks2-coding-lessons-online): Coding from Year 3, for young problem solvers.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): Our UK index of maths and coding pages.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide)
+
+### Primary, Reception to Year 6
+
+- [Reception maths online](/reception-maths-online-uk)
+- [KS1 maths tuition online](/ks1-maths-tuition-online)
+- [KS1 SATs maths explained](/ks1-sats-maths-explained)
+- [Year 1 maths tutor online](/year-1-maths-tutor-online)
+- [Year 3 maths tutor online](/year-3-maths-tutor-online)
+- [Year 4 maths tutor online](/year-4-maths-tutor-online)
+- [Multiplication tables check practice](/multiplication-tables-check-year-4-practice)
+- [Times tables tutor online](/times-tables-tutor-online-uk)
+- [Year 5 maths tutor online](/year-5-maths-tutor-online)
+- [Year 6 maths tutor online](/year-6-maths-tutor-online)
+- [KS2 SATs maths papers explained](/ks2-sats-maths-papers-explained)
+- [White Rose Maths help at home](/white-rose-maths-help-at-home)
+
+### Secondary, Year 7 to Year 11
+
+- [Year 7 maths tutor online](/year-7-maths-tutor-online)
+- [Year 8 maths tutor online](/year-8-maths-tutor-online)
+- [Year 9 maths tutor online](/year-9-maths-tutor-online)
+- [Year 10 maths tutor online](/year-10-maths-tutor-online)
+- [Year 11 maths tutor online](/year-11-maths-tutor-online)
+
+### Scotland
+
+- [Scottish primary maths tutor online](/scottish-primary-maths-tutor-online)
+- [S1 to S3 maths tutor online](/s1-s3-maths-tutor-online-scotland)
+
+More guides: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 
