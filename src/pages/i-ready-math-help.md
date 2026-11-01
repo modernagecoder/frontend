@@ -6,7 +6,7 @@ source: src/pages/i-ready-math-help.html
 ---
 > i-Ready is Curriculum Associates' program of an adaptive diagnostic, renamed i-Ready Inform from the 2026 to 2027 school year, plus personalized online lessons called My Path. The diagnostic reports a placement level, a scale score and a national norm, overall and by math domain. We help by teaching the flagged domains live online, in a batch of 15 to 20 or 1-on-1, through our Elementary Mathematics course; we never supply answers.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / i-Ready math help
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests) / i-Ready math help
 
 United States · Grades K to 8 · Curriculum Associates i-Ready
 
@@ -279,6 +279,44 @@ No. We are an independent online school with no tie to Curriculum Associates. i-
 - [Fourth grade math](/online-math-tutor-4th-grade): Multiplication and fractions.
 - [Sixth grade math](/online-math-tutor-6th-grade): Ratio and expressions.
 - [Iowa Assessments math](/iowa-assessments-math-prep): A different kind of school test.
+
+## Related pages in this guide
+
+Part of the guide: [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
+
+### School placement and growth tests
+
+- [MAP Growth math test prep](/map-growth-math-test-prep)
+- [Middle school math placement test prep](/middle-school-math-placement-test-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### High school math courses
+
+- [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
+- [Integrated Math 3 tutoring](/integrated-math-3-tutoring)
+- [Trigonometry tutoring online](/trigonometry-tutoring-online)
+- [Statistics tutoring online](/statistics-tutoring-online)
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
+
+### PSAT and PreACT
+
+- [PSAT 8/9 and PSAT 10 math prep](/psat-8-9-math-prep)
+- [PSAT math prep](/psat-math-prep)
+- [PreACT math prep](/preact-math-prep)
+- [SAT math tutoring online](/sat-math-tutoring-online)
+- [ACT math tutoring online](/act-math-tutoring-online)
+
+### College placement and credit
+
+- [ACCUPLACER math prep](/accuplacer-math-prep)
+- [ALEKS math placement test prep](/aleks-math-placement-test-prep)
+- [TSIA2 math prep](/tsia2-math-prep)
+- [CLEP College Algebra prep](/clep-college-algebra-prep)
+- [CLEP Calculus prep](/clep-calculus-prep)
+- [Dual enrollment math help](/dual-enrollment-math-help)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

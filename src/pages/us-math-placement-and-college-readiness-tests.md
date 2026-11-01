@@ -357,7 +357,7 @@ No. Modern Age Coders is an independent online school. We describe each test fro
 - [CLEP Calculus prep](/clep-calculus-prep)
 - [Dual enrollment math help](/dual-enrollment-math-help)
 
-More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

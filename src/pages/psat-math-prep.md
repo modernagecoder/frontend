@@ -6,7 +6,7 @@ source: src/pages/psat-math-prep.html
 ---
 > The PSAT/NMSQT is College Board's digital test, cosponsored by National Merit Scholarship Corporation (NMSC). Its Math section has 44 questions in two 35-minute adaptive modules, scored 160 to 760, with a Desmos calculator allowed throughout. Juniors' scores feed the NMSC Selection Index (48 to 228). Our SAT Math Prep course teaches this section live online, so the same lessons carry a student from PSAT to SAT, in a batch or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / PSAT math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests) / PSAT math prep
 
 United States · Grades 10 and 11 · The digital PSAT/NMSQT
 
@@ -337,6 +337,44 @@ No. We are an independent online school, not connected with College Board or Nat
 - [Eleventh grade math](/online-math-tutor-11th-grade): The National Merit year.
 - [Algebra 2 tutoring](/algebra-2-tutoring-online): Where Advanced Math is taught.
 - [Math tutor cost](/online-math-tutor-cost): How tutoring is usually priced.
+
+## Related pages in this guide
+
+Part of the guide: [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
+
+### PSAT and PreACT
+
+- [PSAT 8/9 and PSAT 10 math prep](/psat-8-9-math-prep)
+- [PreACT math prep](/preact-math-prep)
+- [SAT math tutoring online](/sat-math-tutoring-online)
+- [ACT math tutoring online](/act-math-tutoring-online)
+
+### School placement and growth tests
+
+- [MAP Growth math test prep](/map-growth-math-test-prep)
+- [i-Ready math help](/i-ready-math-help)
+- [Middle school math placement test prep](/middle-school-math-placement-test-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### High school math courses
+
+- [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
+- [Integrated Math 3 tutoring](/integrated-math-3-tutoring)
+- [Trigonometry tutoring online](/trigonometry-tutoring-online)
+- [Statistics tutoring online](/statistics-tutoring-online)
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
+
+### College placement and credit
+
+- [ACCUPLACER math prep](/accuplacer-math-prep)
+- [ALEKS math placement test prep](/aleks-math-placement-test-prep)
+- [TSIA2 math prep](/tsia2-math-prep)
+- [CLEP College Algebra prep](/clep-college-algebra-prep)
+- [CLEP Calculus prep](/clep-calculus-prep)
+- [Dual enrollment math help](/dual-enrollment-math-help)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

@@ -6,7 +6,7 @@ source: src/pages/clep-college-algebra-prep.html
 ---
 > CLEP College Algebra is a College Board credit-by-exam test covering a one-semester college algebra course: about 60 questions in 90 minutes, with a built-in TI-30XS scientific calculator. Scores run from 20 to 80, and the American Council on Education recommends 3 semester hours for a 50, though each college sets its own policy. Our College Math Placement Test Prep course includes it, taught live online in a group class or one to one.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / CLEP College Algebra prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests) / CLEP College Algebra prep
 
 United States · Credit by exam · College Board CLEP
 
@@ -309,6 +309,44 @@ No. We are an independent online school. We teach the published topics with our 
 - [Calculus tutoring](/calculus-tutoring-online): The next course after the credit.
 - [Twelfth grade math](/online-math-tutor-12th-grade): For seniors earning early credit.
 - [Math tutor cost](/online-math-tutor-cost): How tutoring is usually priced.
+
+## Related pages in this guide
+
+Part of the guide: [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
+
+### College placement and credit
+
+- [ACCUPLACER math prep](/accuplacer-math-prep)
+- [ALEKS math placement test prep](/aleks-math-placement-test-prep)
+- [TSIA2 math prep](/tsia2-math-prep)
+- [CLEP Calculus prep](/clep-calculus-prep)
+- [Dual enrollment math help](/dual-enrollment-math-help)
+
+### School placement and growth tests
+
+- [MAP Growth math test prep](/map-growth-math-test-prep)
+- [i-Ready math help](/i-ready-math-help)
+- [Middle school math placement test prep](/middle-school-math-placement-test-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### High school math courses
+
+- [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
+- [Integrated Math 3 tutoring](/integrated-math-3-tutoring)
+- [Trigonometry tutoring online](/trigonometry-tutoring-online)
+- [Statistics tutoring online](/statistics-tutoring-online)
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
+
+### PSAT and PreACT
+
+- [PSAT 8/9 and PSAT 10 math prep](/psat-8-9-math-prep)
+- [PSAT math prep](/psat-math-prep)
+- [PreACT math prep](/preact-math-prep)
+- [SAT math tutoring online](/sat-math-tutoring-online)
+- [ACT math tutoring online](/act-math-tutoring-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

@@ -6,7 +6,7 @@ source: src/pages/trigonometry-tutoring-online.html
 ---
 > Trigonometry in US high schools is taught in two places: right-triangle ratios in Geometry, under the Common Core standards G-SRT, and trigonometric functions on the unit circle in Algebra 2 or Precalculus, under F-TF, which AP Precalculus covers in Unit 3. Modern Age Coders teaches trigonometry live online, in a group of 15 to 20 or one to one, through our High School Mathematics course, with AP Precalculus preparation for exam students. The first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Trigonometry tutoring
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests) / Trigonometry tutoring
 
 United States · Grades 9 to 12 · Live online tutoring
 
@@ -327,6 +327,44 @@ No. Modern Age Coders is an independent online school, not affiliated with the C
 - [ACT math tutoring](/act-math-tutoring-online): Timed math, trigonometry included.
 - [Tenth grade math tutoring](/online-math-tutor-10th-grade): The Geometry year.
 - [Eleventh grade math tutoring](/online-math-tutor-11th-grade): Algebra 2 and Precalculus.
+
+## Related pages in this guide
+
+Part of the guide: [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
+
+### High school math courses
+
+- [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
+- [Integrated Math 3 tutoring](/integrated-math-3-tutoring)
+- [Statistics tutoring online](/statistics-tutoring-online)
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
+
+### School placement and growth tests
+
+- [MAP Growth math test prep](/map-growth-math-test-prep)
+- [i-Ready math help](/i-ready-math-help)
+- [Middle school math placement test prep](/middle-school-math-placement-test-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### PSAT and PreACT
+
+- [PSAT 8/9 and PSAT 10 math prep](/psat-8-9-math-prep)
+- [PSAT math prep](/psat-math-prep)
+- [PreACT math prep](/preact-math-prep)
+- [SAT math tutoring online](/sat-math-tutoring-online)
+- [ACT math tutoring online](/act-math-tutoring-online)
+
+### College placement and credit
+
+- [ACCUPLACER math prep](/accuplacer-math-prep)
+- [ALEKS math placement test prep](/aleks-math-placement-test-prep)
+- [TSIA2 math prep](/tsia2-math-prep)
+- [CLEP College Algebra prep](/clep-college-algebra-prep)
+- [CLEP Calculus prep](/clep-calculus-prep)
+- [Dual enrollment math help](/dual-enrollment-math-help)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

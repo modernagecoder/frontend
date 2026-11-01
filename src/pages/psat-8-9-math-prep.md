@@ -6,7 +6,7 @@ source: src/pages/psat-8-9-math-prep.html
 ---
 > College Board gives the PSAT 8/9 to students in grades 8 and 9 and the PSAT 10 to tenth graders, during the school day. On both, math means 70 minutes, 44 questions and the Desmos calculator. Total scores run 240 to 1440 on the PSAT 8/9 and 320 to 1520 on the PSAT 10; National Merit uses neither. Younger students learn this math with us live online, alone or in a batch, with the SAT Math Prep course as the test-format strand.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / PSAT 8/9 and PSAT 10 math
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests) / PSAT 8/9 and PSAT 10 math
 
 United States · Grades 8 to 10 · College Board SAT Suite
 
@@ -310,6 +310,44 @@ No. We are an independent online school. We describe the tests from College Boar
 - [Algebra tutoring](/algebra-tutoring-online-usa): The largest PSAT 8/9 domain.
 - [Middle school math competitions](/math-competitions-for-middle-school-students): For strong eighth graders.
 - [SAT math tutoring](/sat-math-tutoring-online): Where the sequence leads.
+
+## Related pages in this guide
+
+Part of the guide: [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
+
+### PSAT and PreACT
+
+- [PSAT math prep](/psat-math-prep)
+- [PreACT math prep](/preact-math-prep)
+- [SAT math tutoring online](/sat-math-tutoring-online)
+- [ACT math tutoring online](/act-math-tutoring-online)
+
+### School placement and growth tests
+
+- [MAP Growth math test prep](/map-growth-math-test-prep)
+- [i-Ready math help](/i-ready-math-help)
+- [Middle school math placement test prep](/middle-school-math-placement-test-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### High school math courses
+
+- [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
+- [Integrated Math 3 tutoring](/integrated-math-3-tutoring)
+- [Trigonometry tutoring online](/trigonometry-tutoring-online)
+- [Statistics tutoring online](/statistics-tutoring-online)
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
+
+### College placement and credit
+
+- [ACCUPLACER math prep](/accuplacer-math-prep)
+- [ALEKS math placement test prep](/aleks-math-placement-test-prep)
+- [TSIA2 math prep](/tsia2-math-prep)
+- [CLEP College Algebra prep](/clep-college-algebra-prep)
+- [CLEP Calculus prep](/clep-calculus-prep)
+- [Dual enrollment math help](/dual-enrollment-math-help)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

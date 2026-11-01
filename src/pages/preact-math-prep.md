@@ -6,7 +6,7 @@ source: src/pages/preact-math-prep.html
 ---
 > PreACT is a family of ACT assessments for grades 8 to 10: PreACT 8/9, PreACT, PreACT 9 Secure and PreACT Secure. Each tests English, math, reading and science on the ACT's 1 to 36 scale, with a lower top score, and predicts ACT performance. The new PreACT math blueprint, from fall 2026, has 36 items in 45 minutes with four answer choices. Our ACT Math Prep course takes students through this section live online, in a group batch or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / PreACT math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests) / PreACT math prep
 
 United States · Grades 8 to 10 · ACT's early assessments
 
@@ -322,6 +322,44 @@ No. We are an independent online school. We describe PreACT from ACT's published
 - [Tenth grade math](/online-math-tutor-10th-grade): Geometry and the PreACT year.
 - [Algebra tutoring](/algebra-tutoring-online-usa): The core of Preparing for Higher Math.
 - [SAT math tutoring](/sat-math-tutoring-online): For students sitting both tests.
+
+## Related pages in this guide
+
+Part of the guide: [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
+
+### PSAT and PreACT
+
+- [PSAT 8/9 and PSAT 10 math prep](/psat-8-9-math-prep)
+- [PSAT math prep](/psat-math-prep)
+- [SAT math tutoring online](/sat-math-tutoring-online)
+- [ACT math tutoring online](/act-math-tutoring-online)
+
+### School placement and growth tests
+
+- [MAP Growth math test prep](/map-growth-math-test-prep)
+- [i-Ready math help](/i-ready-math-help)
+- [Middle school math placement test prep](/middle-school-math-placement-test-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### High school math courses
+
+- [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
+- [Integrated Math 3 tutoring](/integrated-math-3-tutoring)
+- [Trigonometry tutoring online](/trigonometry-tutoring-online)
+- [Statistics tutoring online](/statistics-tutoring-online)
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
+
+### College placement and credit
+
+- [ACCUPLACER math prep](/accuplacer-math-prep)
+- [ALEKS math placement test prep](/aleks-math-placement-test-prep)
+- [TSIA2 math prep](/tsia2-math-prep)
+- [CLEP College Algebra prep](/clep-college-algebra-prep)
+- [CLEP Calculus prep](/clep-calculus-prep)
+- [Dual enrollment math help](/dual-enrollment-math-help)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

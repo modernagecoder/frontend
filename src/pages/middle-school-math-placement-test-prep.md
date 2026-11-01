@@ -6,7 +6,7 @@ source: src/pages/middle-school-math-placement-test-prep.html
 ---
 > Middle school math placement means deciding whether a student starts an accelerated grade 6 course or takes Algebra 1 in grade 7 or 8. Each district or state picks the evidence: last spring's state test, an adaptive screener such as MAP Growth, a district exam or class grades. Modern Age Coders prepares students for it with live online lessons, in batches of 15 to 20 or privately, using our Middle School Mathematics and Algebra Foundations courses. Your first class costs nothing.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Math placement test prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests) / Math placement test prep
 
 United States · Grades 5 to 8 · Placement and Algebra 1 readiness
 
@@ -306,6 +306,44 @@ No. We run independently of every state, district, NWEA and other test publisher
 - [Algebra tutoring](/algebra-tutoring-online-usa): Support once Algebra 1 begins.
 - [Common Core math tutor](/common-core-math-tutor): Grade-level help from kindergarten to grade 8.
 - [Middle school math competitions](/math-competitions-for-middle-school-students): For students already well ahead.
+
+## Related pages in this guide
+
+Part of the guide: [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests)
+
+### School placement and growth tests
+
+- [MAP Growth math test prep](/map-growth-math-test-prep)
+- [i-Ready math help](/i-ready-math-help)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### High school math courses
+
+- [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
+- [Integrated Math 3 tutoring](/integrated-math-3-tutoring)
+- [Trigonometry tutoring online](/trigonometry-tutoring-online)
+- [Statistics tutoring online](/statistics-tutoring-online)
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
+
+### PSAT and PreACT
+
+- [PSAT 8/9 and PSAT 10 math prep](/psat-8-9-math-prep)
+- [PSAT math prep](/psat-math-prep)
+- [PreACT math prep](/preact-math-prep)
+- [SAT math tutoring online](/sat-math-tutoring-online)
+- [ACT math tutoring online](/act-math-tutoring-online)
+
+### College placement and credit
+
+- [ACCUPLACER math prep](/accuplacer-math-prep)
+- [ALEKS math placement test prep](/aleks-math-placement-test-prep)
+- [TSIA2 math prep](/tsia2-math-prep)
+- [CLEP College Algebra prep](/clep-college-algebra-prep)
+- [CLEP Calculus prep](/clep-calculus-prep)
+- [Dual enrollment math help](/dual-enrollment-math-help)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 
