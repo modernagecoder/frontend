@@ -6,7 +6,7 @@ source: src/pages/accelerated-math-program-online.html
 ---
 > An accelerated math program, often called compacted math, is a middle school track set by each state or district that covers grades 6, 7 and 8 math plus Algebra 1 in fewer years, so students take Algebra 1 in grade 8 or earlier. Texas law requires automatic enrollment for strong grade 5 performers. Modern Age Coders helps students on these tracks live online, in a group of 15 to 20 or one to one, through our Middle School Mathematics course. The first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Accelerated math program
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / Accelerated math program
 
 United States · Grades 5 to 8 · Accelerated and compacted math
 
@@ -275,6 +275,67 @@ No. Modern Age Coders is an independent online school. We quote published state 
 - [MATHCOUNTS preparation](/mathcounts-preparation): Team and individual problem solving.
 - [Geometry tutoring](/geometry-tutoring-online-usa): Often the grade 9 course after acceleration.
 - [Common Core math tutor](/common-core-math-tutor): Grade-by-grade help from kindergarten to grade 8.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+
+### School placement and growth tests
+
+- [MAP Growth math test prep](/map-growth-math-test-prep)
+- [i-Ready math help](/i-ready-math-help)
+- [Middle school math placement test prep](/middle-school-math-placement-test-prep)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### High school math courses
+
+- [Integrated Math 1 tutoring](/integrated-math-1-tutoring)
+- [Integrated Math 2 tutoring](/integrated-math-2-tutoring)
+- [Integrated Math 3 tutoring](/integrated-math-3-tutoring)
+- [Trigonometry tutoring online](/trigonometry-tutoring-online)
+- [Statistics tutoring online](/statistics-tutoring-online)
+- [AP Precalculus tutoring online](/ap-precalculus-tutoring-online)
+
+### PSAT and PreACT
+
+- [PSAT 8/9 and PSAT 10 math prep](/psat-8-9-math-prep)
+- [PSAT math prep](/psat-math-prep)
+- [PreACT math prep](/preact-math-prep)
+- [SAT math tutoring online](/sat-math-tutoring-online)
+- [ACT math tutoring online](/act-math-tutoring-online)
+
+### College placement and credit
+
+- [ACCUPLACER math prep](/accuplacer-math-prep)
+- [ALEKS math placement test prep](/aleks-math-placement-test-prep)
+- [TSIA2 math prep](/tsia2-math-prep)
+- [CLEP College Algebra prep](/clep-college-algebra-prep)
+- [CLEP Calculus prep](/clep-calculus-prep)
+- [Dual enrollment math help](/dual-enrollment-math-help)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

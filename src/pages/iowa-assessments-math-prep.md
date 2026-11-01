@@ -6,7 +6,7 @@ source: src/pages/iowa-assessments-math-prep.html
 ---
 > The Iowa Assessments, published by Riverside Insights and long known as the Iowa Test of Basic Skills (ITBS), are achievement tests for grades K to 12 that measure what students have learned in reading, language, math and more. South Carolina uses them with the CogAT for grade 2 gifted screening, and North Carolina lists the ITBS among tests home schools commonly use. The honest preparation is solid grade-level math. Modern Age Coders teaches that live online in our elementary math course, in a batch or 1-on-1; the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Iowa Assessments math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / Iowa Assessments math prep
 
 United States · Grades 1 to 5 · Iowa Assessments and ITBS
 
@@ -299,6 +299,35 @@ No. We are an independent online school, not linked to Riverside Insights, the U
 - [Homeschool math curriculum](/homeschool-math-curriculum-usa): Planning a year of math at home.
 - [Common Core vs traditional math](/common-core-math-vs-traditional-math): Two routes to the same answer.
 - [What math tutoring costs](/online-math-tutor-cost): Comparing tutoring options.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

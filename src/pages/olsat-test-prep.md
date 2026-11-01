@@ -6,7 +6,7 @@ source: src/pages/olsat-test-prep.html
 ---
 > The OLSAT-8 (Otis-Lennon School Ability Test, Eighth Edition) is a Pearson ability test for kindergarten to grade 12 that, in Pearson&rsquo;s words, assesses verbal, nonverbal and quantitative cognitive abilities and reports a School Ability Index. Districts such as Darien, Westport and Los Alamitos Unified use it to screen for gifted programs alongside other evidence. Honest readiness is familiarity with the format plus listening, sequence and number play. Our teachers run those games live online for six- to nine-year-olds, in a group batch or 1-on-1, with a free first class.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / OLSAT test prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / OLSAT test prep
 
 United States · Ages 6 to 9 · OLSAT-8 explained
 
@@ -285,6 +285,35 @@ No. We are an independent online school with no link to Pearson or any district,
 - [Math tutoring for kids](/online-maths-tutoring-for-kids-in-usa): Live lessons for young US learners.
 - [Math Kangaroo preparation](/math-kangaroo-usa-preparation): Reasoning puzzles in a friendly contest.
 - [Common Core vs traditional math](/common-core-math-vs-traditional-math): Making sense of homework methods.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

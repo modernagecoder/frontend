@@ -6,7 +6,7 @@ source: src/pages/duke-tip-alternatives.html
 ---
 > Duke TIP, the Duke University Talent Identification Program, and its Academic Talent Search were permanently closed in 2020, according to Duke's Office of the Provost; Duke now runs a summer Duke Pre-College program instead. Families looking for a replacement usually turn to university talent-development centers such as Northwestern's CTD, or to enrichment and advanced classes. Modern Age Coders, which has no link to Duke, offers live online advanced math in a 15 to 20 batch or 1-on-1, with no test needed.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Duke TIP alternatives
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / Duke TIP alternatives
 
 United States · Grades 2 to 12 · After Duke TIP
 
@@ -268,6 +268,35 @@ No. Modern Age Coders is an independent online school with no link to Duke, Nort
 - [Homeschool math curriculum](/homeschool-math-curriculum-usa): Planning advanced math at home.
 - [CS summer programs](/computer-science-summer-programs-for-high-school-students): Summer options for teens.
 - [CogAT explained](/cogat-test-prep): Reasoning, not drilling.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Programs for advanced students
+
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

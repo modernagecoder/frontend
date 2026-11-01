@@ -6,7 +6,7 @@ source: src/pages/shsat-math-prep.html
 ---
 > The SHSAT (Specialized High Schools Admissions Test) is run by NYC Public Schools for city residents in grade 8, or grade 9 for the first time. From fall 2026 it is computer-adaptive: 180 minutes, 50 ELA and 50 math items, no calculator. Modern Age Coders teaches SHSAT math live online, in a group batch or 1-on-1, through our SHSAT Math Prep course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / SHSAT math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / SHSAT math prep
 
 New York City · Grades 8 and 9 · The fall 2026 SHSAT
 
@@ -404,6 +404,35 @@ No. Modern Age Coders is an independent online school with no connection to NYC 
 - [Geometry tutoring](/geometry-tutoring-online-usa): Area, volume and angle work in depth.
 - [Middle school math competitions](/math-competitions-for-middle-school-students): MATHCOUNTS and friends, for speed.
 - [Coding classes in NYC](/best-coding-classes-for-kids-in-new-york-city): For the student who also wants to build.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Exam schools and private high schools
+
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

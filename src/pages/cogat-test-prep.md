@@ -6,7 +6,7 @@ source: src/pages/cogat-test-prep.html
 ---
 > The CogAT (Cognitive Abilities Test), published by Riverside Insights, measures verbal, quantitative and nonverbal reasoning in three batteries of three subtests each, and many US districts use it to screen for gifted programs, often in grade 2. Honest preparation is familiarity with the format plus broad reasoning, number sense and spatial play. Modern Age Coders teaches that live online in our Reasoning and Readiness course for ages 6 to 9, in a batch or 1-on-1; the first class is free.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / CogAT test prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / CogAT test prep
 
 United States · Ages 6 to 9 · Grades K to 3
 
@@ -301,6 +301,35 @@ No. We are an independent online school. We quote the publisher and district pag
 - [Common Core vs traditional math](/common-core-math-vs-traditional-math): Why homework shows more than one method.
 - [Homeschool math curriculum](/homeschool-math-curriculum-usa): Building a sequence at home.
 - [Math Kangaroo preparation](/math-kangaroo-usa-preparation): A friendly first competition for curious kids.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Gifted and talented screening
+
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

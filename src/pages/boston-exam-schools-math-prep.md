@@ -6,7 +6,7 @@ source: src/pages/boston-exam-schools-math-prep.html
 ---
 > Boston Public Schools has three exam schools: Boston Latin Academy, Boston Latin School and the John D. O&rsquo;Bryant School of Mathematics and Science. Boston residents need a B or higher GPA and a MAP Growth score; the composite is 70 percent GPA and 30 percent MAP Growth. Modern Age Coders teaches the math live online, in a batch or 1-on-1, through our Middle School Mathematics course.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Boston exam schools math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / Boston exam schools math prep
 
 Boston · Grades 6 and 8 · Entry in September 2027
 
@@ -389,6 +389,35 @@ No. Modern Age Coders is an independent online school, not connected with Boston
 - [Algebra tutoring](/algebra-tutoring-online-usa): Equations and functions, one to one.
 - [Coding and AI classes in Boston](/best-coding-and-ai-classes-in-boston): Building alongside math.
 - [Coding across Massachusetts](/coding-and-ai-classes-in-massachusetts): Classes for the wider state.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

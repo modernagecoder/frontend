@@ -6,7 +6,7 @@ source: src/pages/hspt-math-prep.html
 ---
 > The HSPT (High School Placement Test) is published by Scholastic Testing Service and given by high schools and dioceses to eighth graders for admission, scholarships and ninth grade placement. Two of its five subtests use numbers: Quantitative Skills (52 items) and Mathematics (64 items), both without a calculator. Modern Age Coders teaches both live online, in a batch or 1-on-1.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / HSPT math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / HSPT math prep
 
 United States · Grade 8 · The High School Placement Test
 
@@ -364,6 +364,35 @@ No. Modern Age Coders is independent and has no tie to STS, any diocese or any h
 - [Algebra tutoring](/algebra-tutoring-online-usa): Equations and inequalities one to one.
 - [Geometry tutoring](/geometry-tutoring-online-usa): Area, volume and the Pythagorean theorem.
 - [Middle school math competitions](/math-competitions-for-middle-school-students): For students who enjoy the reasoning items.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

@@ -348,7 +348,7 @@ No. Modern Age Coders is an independent online school, not linked with Riverside
 - [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
 - [Accelerated math program online](/accelerated-math-program-online)
 
-More guides: [US state math tests by state](/us-state-math-tests-by-state)
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

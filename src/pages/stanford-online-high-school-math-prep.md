@@ -6,7 +6,7 @@ source: src/pages/stanford-online-high-school-math-prep.html
 ---
 > Stanford Online High School is a selective online school for academically advanced students in grades 7 to 12. It places students in math by demonstrated content knowledge, runs a sequence from Prealgebra to university-level courses with a strong focus on proof, and takes 2027-28 applications until January 7, 2027. Modern Age Coders is not connected with Stanford. We teach the algebra, geometry and proof-writing that sequence builds on, live online in our high school mathematics course, as a group of 15 to 20 or one to one.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Stanford Online High School math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / Stanford Online High School math prep
 
 United States · Grades 7 to 12 · Stanford Online High School
 
@@ -289,6 +289,35 @@ No. Modern Age Coders is an independent online school and is not affiliated with
 - [Algebra 2 tutoring](/algebra-2-tutoring-online): The bridge to precalculus.
 - [Middle school math competitions](/math-competitions-for-middle-school-students): Problem solving for younger applicants.
 - [Homeschool math curriculum](/homeschool-math-curriculum-usa): For homeschooled applicants.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

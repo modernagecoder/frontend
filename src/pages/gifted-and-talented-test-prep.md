@@ -6,7 +6,7 @@ source: src/pages/gifted-and-talented-test-prep.html
 ---
 > US public school districts set their own gifted and talented rules, but most screen a whole grade (often grade 2) with an ability test such as the CogAT, NNAT3 or OLSAT-8, then weigh it with achievement scores, teacher and parent input and student work. NYC&rsquo;s G&T program uses no admissions test. What genuinely helps is a little familiarity with the format and a lot of reasoning, number and spatial play. Modern Age Coders offers exactly that live online for children aged 6 to 9, in groups or one to one, starting with a free class.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Gifted and talented test prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / Gifted and talented test prep
 
 United States · Ages 6 to 9 · Gifted identification explained
 
@@ -276,6 +276,35 @@ No. We are an independent online school with no connection to any state, distric
 - [Math Kangaroo preparation](/math-kangaroo-usa-preparation): A puzzle contest for young thinkers.
 - [MATHCOUNTS preparation](/mathcounts-preparation): Where puzzle lovers go in middle school.
 - [Homeschool math curriculum](/homeschool-math-curriculum-usa): Planning math at home.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

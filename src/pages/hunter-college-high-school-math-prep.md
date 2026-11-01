@@ -6,7 +6,7 @@ source: src/pages/hunter-college-high-school-math-prep.html
 ---
 > The Hunter College High School entrance exam is set by Hunter College Campus Schools for NYC 6th graders who meet its 5th grade score and residency rules. It has 50 reading and 30 math multiple-choice questions plus a writing piece, in three hours, without a calculator. Modern Age Coders coaches this math section live online in its SHSAT Math Prep course, taught either 1-on-1 or to a group batch.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / Hunter College High School math prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / Hunter College High School math prep
 
 New York City · Grade 6 · Entrance exam January 27, 2027
 
@@ -382,6 +382,35 @@ No. Modern Age Coders is an independent online school, not connected with Hunter
 - [5th grade math tutor](/online-math-tutor-5th-grade): The year whose scores qualify a student.
 - [Middle school math competitions](/math-competitions-for-middle-school-students): Contests that reward careful reasoning.
 - [Coding classes in NYC](/best-coding-classes-for-kids-in-new-york-city): For students who like to build.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [NNAT test prep](/nnat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 

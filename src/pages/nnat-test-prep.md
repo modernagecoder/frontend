@@ -6,7 +6,7 @@ source: src/pages/nnat-test-prep.html
 ---
 > The NNAT3 (Naglieri Nonverbal Ability Test, Third Edition) is Pearson&rsquo;s nonverbal test of general ability for kindergarten to grade 12: about 30 minutes of shape and design patterns, with no reading, writing or speaking. Districts such as Edmonds, Fort Worth ISD and St. Louis use it as a universal gifted screener. Honest readiness is a calm look at the format plus spatial and pattern play. We teach that kind of play live online for children aged 6 to 9, one to one or in a batch, and the opening class costs nothing.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / NNAT test prep
+[Home](/) / [Courses](/courses) / [Coding classes in the USA](/coding-classes-in-united-states) / [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide) / NNAT test prep
 
 United States · Ages 6 to 9 · Picture reasoning
 
@@ -306,6 +306,35 @@ No. We are an independent online school with no connection to Pearson or any dis
 - [Math tutoring for kids](/online-maths-tutoring-for-kids-in-usa): Live lessons for children across the US.
 - [Math Kangaroo preparation](/math-kangaroo-usa-preparation): Picture-rich puzzles in a friendly contest.
 - [Homeschool math curriculum](/homeschool-math-curriculum-usa): Planning math at home.
+
+## Related pages in this guide
+
+Part of the guide: [US gifted and selective school tests](/us-gifted-and-selective-school-tests-guide)
+
+### Gifted and talented screening
+
+- [CogAT test prep](/cogat-test-prep)
+- [OLSAT test prep](/olsat-test-prep)
+- [Iowa Assessments math prep](/iowa-assessments-math-prep)
+- [Gifted and talented test prep](/gifted-and-talented-test-prep)
+- [NYC Gifted and Talented guide](/nyc-gifted-and-talented-guide)
+
+### Exam schools and private high schools
+
+- [SHSAT math prep](/shsat-math-prep)
+- [Hunter College High School math prep](/hunter-college-high-school-math-prep)
+- [Boston exam schools math prep](/boston-exam-schools-math-prep)
+- [HSPT math prep](/hspt-math-prep)
+- [TACHS math prep](/tachs-math-prep)
+- [ISEE and SSAT math prep](/isee-ssat-math-prep)
+
+### Programs for advanced students
+
+- [Duke TIP alternatives](/duke-tip-alternatives)
+- [Stanford Online High School math prep](/stanford-online-high-school-math-prep)
+- [Accelerated math program online](/accelerated-math-program-online)
+
+More guides: [US state math tests by state](/us-state-math-tests-by-state), [US math placement and college readiness tests](/us-math-placement-and-college-readiness-tests), [Homeschool and school math curricula guide](/homeschool-math-curriculum-guide-usa), [US math and coding competitions guide](/us-math-and-coding-competitions-guide)
 
 ## Contact
 
