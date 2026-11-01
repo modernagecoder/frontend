@@ -348,6 +348,7 @@ No. Modern Age Coders is independent of every board on this page and of the IB. 
 - [IB Extended Essay in maths or computer science](/ib-extended-essay-maths-computer-science-mentoring)
 - [IB maths tuition online](/ib-maths-tuition-online)
 
+More guides: [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

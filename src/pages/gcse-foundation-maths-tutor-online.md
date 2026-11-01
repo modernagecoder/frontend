@@ -6,7 +6,7 @@ source: src/pages/gcse-foundation-maths-tutor-online.html
 ---
 > GCSE Maths Foundation tier is the entry level of the GCSE Maths exam in England, awarding grades 1 to 5, and it is sat by students in Years 10 and 11 and by resit students on AQA, Pearson Edexcel or OCR. A Foundation maths tutor helps a student secure grade 4 and push for grade 5 by fixing the common-ground topics and exam habits that carry most marks. Modern Age Coders tutors Foundation tier live online, in a group of 15 to 20 or 1-on-1, through its GCSE Maths: Foundation and Higher course, on the student's own board. Our first class is free, and we are not connected with any exam board.
 
-[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / GCSE Foundation maths tutor
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes) / GCSE Foundation maths tutor
 
 England · GCSE Maths Foundation tier · AQA, Edexcel and OCR
 
@@ -303,6 +303,67 @@ No, and nobody honestly can. We show families what each full paper says, month b
 - [GCSE maths resits](/gcse-maths-resit-explained): What happens after a result below grade 4.
 - [Functional Skills or GCSE](/functional-skills-maths-vs-gcse-maths): Two routes to a Level 2 maths qualification.
 - [Coding classes in the UK](/coding-classes-in-united-kingdom): The hub for all our UK pages.
+
+## Related pages in this guide
+
+Part of the guide: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes)
+
+### GCSE maths
+
+- [AQA GCSE Maths 8300 help](/aqa-gcse-maths-8300-help)
+- [Edexcel GCSE Maths 1MA1 help](/edexcel-gcse-maths-1ma1-help)
+- [OCR GCSE Maths J560 help](/ocr-gcse-maths-j560-help)
+- [CCEA GCSE Maths help](/ccea-gcse-maths-help)
+- [GCSE Mathematics and Numeracy help, Wales](/gcse-maths-and-numeracy-wales-help)
+- [GCSE Higher maths grade 9 tutor](/gcse-higher-maths-grade-9-tutor)
+- [GCSE Statistics tutor online](/gcse-statistics-tutor-online)
+- [AQA Level 2 Further Maths 8365 help](/aqa-level-2-further-maths-8365-help)
+- [OCR FSMQ Additional Maths 6993 help](/ocr-fsmq-additional-maths-6993-help)
+- [GCSE maths tuition online](/gcse-maths-tuition-online)
+- [AQA vs Edexcel vs OCR GCSE maths](/aqa-vs-edexcel-vs-ocr-gcse-maths)
+
+### International GCSE and Cambridge International
+
+- [Cambridge IGCSE Maths 0580 help](/cambridge-igcse-maths-0580-help)
+- [IGCSE Additional Maths 0606 help](/cambridge-igcse-additional-maths-0606-help)
+- [Edexcel International GCSE Maths A 4MA1 help](/edexcel-international-gcse-maths-a-4ma1-help)
+- [Edexcel IGCSE Further Pure Maths 4PM1 help](/edexcel-igcse-further-pure-maths-4pm1-help)
+- [IGCSE maths for home-educated students](/igcse-maths-for-home-educated-students-uk)
+- [Cambridge A Level Maths 9709 help](/cambridge-a-level-maths-9709-help)
+- [Cambridge A level Further Maths 9231 help](/cambridge-a-level-further-maths-9231-help)
+- [IGCSE maths tuition online](/igcse-maths-tuition-online)
+
+### A level maths and further maths
+
+- [AQA A level Maths 7357 help](/aqa-a-level-maths-7357-help)
+- [Edexcel A level Maths 9MA0 help](/edexcel-a-level-maths-9ma0-help)
+- [OCR A level Maths H240 help](/ocr-a-level-maths-h240-help)
+- [OCR MEI A level Maths H640 help](/ocr-mei-a-level-maths-h640-help)
+- [CCEA A level Maths help](/ccea-a-level-maths-help)
+- [WJEC A level Maths help (Wales)](/wjec-a-level-maths-help-wales)
+- [AQA A level Further Maths 7367 help](/aqa-a-level-further-maths-7367-help)
+- [Edexcel A level Further Maths 9FM0 help](/edexcel-a-level-further-maths-9fm0-help)
+- [Further Maths when your school does not offer it](/further-maths-when-your-school-does-not-offer-it)
+- [A level maths tuition online](/a-level-maths-tuition-online)
+
+### Scotland
+
+- [Scottish primary maths tutor online](/scottish-primary-maths-tutor-online)
+- [S1 to S3 maths tutor online](/s1-s3-maths-tutor-online-scotland)
+- [National 5 Maths tuition online](/national-5-maths-tuition-online)
+- [National 5 Applications of Maths help](/national-5-applications-of-maths-help)
+- [Higher Maths tuition online](/higher-maths-tuition-online)
+- [Advanced Higher Maths tuition online](/advanced-higher-maths-tuition-online)
+
+### International Baccalaureate
+
+- [IB MYP maths tutor online](/ib-myp-maths-tutor-online)
+- [IB Maths AI SL tutor online](/ib-maths-ai-sl-tutor-online)
+- [IB Maths IA guidance](/ib-maths-ia-guidance)
+- [IB Extended Essay in maths or computer science](/ib-extended-essay-maths-computer-science-mentoring)
+- [IB maths tuition online](/ib-maths-tuition-online)
+
+More guides: [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
 ## Contact
 

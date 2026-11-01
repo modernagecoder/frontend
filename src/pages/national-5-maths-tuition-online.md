@@ -4,36 +4,44 @@ description: "National 5 Maths tuition online: no coursework, two papers, and 40
 canonical: https://learn.modernagecoders.com/national-5-maths-tuition-online
 source: src/pages/national-5-maths-tuition-online.html
 ---
-> National 5 Maths tuition online: no coursework, two papers, and 40 of the 90 marks earned without a calculator. What the 2025 report says, and how we prepare.
+> National 5 Mathematics is assessed entirely by two question papers: paper 1, without a calculator, worth 40 marks in one hour, and paper 2, with a calculator, worth 50 marks in an hour and a half. There is no coursework. The course also certifies Numeracy at SCQF level 5. In 2025, 34,846 candidates received a result. The course report said many candidates lost marks on paper 1 through weak basic number skills, and that algebra, the nature of roots, comparing data sets and vectors caused recurring problems. It also warned against preparing only from recent past papers. Modern Age Coders teaches National 5 Maths live, with daily-style non-calculator number work, the exact wording the marking instructions expect, and coverage of the whole specification rather than the last few papers. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes) / National 5 Maths
 
-National 5 Mathematics is assessed entirely by two question papers: paper 1, without a calculator, worth 40 marks in one hour, and paper 2, with a calculator, worth 50 marks in an hour and a half. There is no coursework. The course also certifies Numeracy at SCQF level 5. In 2025, 34,846 candidates received a result. The course report said many candidates lost marks on paper 1 through weak basic number skills, and that algebra, the nature of roots, comparing data sets and vectors caused recurring problems. It also warned against preparing only from recent past papers. Modern Age Coders teaches National 5 Maths live, with daily-style non-calculator number work, the exact wording the marking instructions expect, and coverage of the whole specification rather than the last few papers. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+Scotland · National 5 · S4
 
-Start here
+# National 5 Maths tuition online
+
+National 5 Mathematics has no coursework, no assignment and no project. The whole award rests on two question papers sat in the exam diet, and the first of them, 40 of the 90 marks, is taken without a calculator. That is where the 2025 course report put its sharpest warning: "In question paper 1, many candidates miss out on valuable marks because they do not demonstrate the necessary basic number skills." Not advanced topics. Fractions, percentages, simplifying, the arithmetic a calculator normally hides. This page sets out how the course is assessed, where the 2025 candidates dropped marks, the exact wording markers look for, and why working only from recent past papers leaves gaps.
+
+At a glance: Course: National 5 Mathematics C847 75; Paper 1: No calculator, 40 marks, 1 hour; Paper 2: Calculator, 50 marks, 1 hour 30 minutes; Coursework: None; Entries in 2025: 34,846 resulted; Awarded by: Qualifications Scotland, since February 2026; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for National 5 Maths
 
 The first card is our National 5 and Higher course, built from the National 5 specification; the other two cover overlapping content for students who need it. Each card opens a syllabus.
 
-[![National 5 and Higher Maths Course Online (Scotland) course thumbnail](/images/national-5-higher-maths.webp)  N5M / 01 National 5 and Higher Maths The National 5 skills strand by strand, then a month of full papers, with Higher to follow. Open the syllabus →](/courses/national-5-and-higher-maths-course)[![IGCSE Maths course thumbnail](/images/igcse-maths.webp)  N5M / 02 IGCSE Mathematics Surds, indices, quadratics, vectors and trigonometry, most of which National 5 shares. Open the syllabus →](/courses/igcse-mathematics-mastery)[![GCSE Maths course thumbnail](/images/gcse-maths.webp)  N5M / 03 GCSE Mathematics Number and algebra fluency at the level paper 1 demands, taught without a calculator first. Open the syllabus →](/courses/gcse-mathematics-mastery)
-
-Two papers
+- [National 5 and Higher Maths](/courses/national-5-and-higher-maths-course): The National 5 skills strand by strand, then a month of full papers, with Higher to follow.
+- [IGCSE Mathematics](/courses/igcse-mathematics-mastery): Surds, indices, quadratics, vectors and trigonometry, most of which National 5 shares.
+- [GCSE Mathematics](/courses/gcse-mathematics-mastery): Number and algebra fluency at the level paper 1 demands, taught without a calculator first.
 
 ## Two papers, no coursework, nowhere else to earn marks
 
 From the National 5 Mathematics Course Specification, version 3.0, valid from session 2023 to 24.
 
+**How National 5 Mathematics is assessed**
+
 | Component | Marks | Time | Calculator |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | Question paper 1 | 40 | 1 hour | Not allowed |
 | Question paper 2 | 50 | 1 hour 30 minutes | Allowed |
 | Coursework | None | Not applicable | Not applicable |
 
 Both papers can test anything in the course: numerical, algebraic, geometric, trigonometric and statistical skills, plus reasoning. The specification suggests about 160 hours of learning, recommends that candidates arrive having achieved the fourth curriculum level or National 4 Mathematics, and awards the Core Skill of Numeracy at SCQF level 5 automatically with the course.
 
+**National 5 Mathematics results, 2025**
+
 | Measure | Published figure |
-| --- | --- |
+|---|---|
 | Resulted entries | 34,846 (36,689 in 2024) |
 | Grade A | 39.6 per cent, minimum mark 64 of 90 |
 | Grade C minimum mark | 47 of 90 |
@@ -43,16 +51,16 @@ Grade boundaries move each year. In 2025 the report says "The question papers we
 
 Source: the National 5 Mathematics Course Specification, version 3.0, and the National 5 Mathematics course report 2025, both from sqa.org.uk. Qualifications Scotland replaced SQA on 1 February 2026 and confirms the SQA-era documents remain current; the [National 5 Computing page](/national-5-computing-science-help) quotes its notice in full.
 
-No calculator
-
 ## Forty marks without a calculator
 
 Paper 1 is where arithmetic, not advanced mathematics, decides the result.
 
 The specification says paper 1 lets candidates "apply numerical, algebraic, geometric, trigonometric, statistical and reasoning skills, without the aid of a calculator". In practice that means exact fractions, reverse percentages done by hand, surds, indices and algebra, with every step visible. The 2025 report is direct about what went wrong: "In question paper 1, many candidates miss out on valuable marks because they do not demonstrate the necessary basic number skills."
 
+**Paper 1 in 2025: where marks slipped**
+
 | Question topic | What the report saw |
-| --- | --- |
+|---|---|
 | Reverse percentage | Most did well, but a few could not divide 720 by 8 or by 80 correctly by hand |
 | Area of a triangle | Some substituted the sine of the wrong expression into the formula |
 | Straight line | Coordinates swapped in the gradient formula or the line equation |
@@ -74,14 +82,14 @@ Rearranging, factorising and simplifying cost marks in both papers. The skills a
 
 One 2025 question needed the area of a rectangle, from years earlier. The report asks candidates to keep previously learned skills in practice.
 
-Wording
-
 ## The words and habits markers look for
 
 Several 2025 marks were lost not on the mathematics but on how the answer was stated or where it was written.
 
+**The nature of the roots of a quadratic: the expected phrases**
+
 | Discriminant | Expected response |
-| --- | --- |
+|---|---|
 | Greater than zero | "two real and distinct roots" |
 | Equal to zero | "one repeated real root" or "two equal real roots" |
 | Less than zero | "no real roots" |
@@ -104,8 +112,6 @@ None of this is a trick. It is the marking instructions, which are published, ap
 
 Paper 2 has its own habits. A calculator removes the arithmetic but not the method: a percentage increase over two years still has to be applied twice, not doubled, and a volume still has to be rounded to the significant figures asked for. In 2025 a few candidates increased by 4 per cent for one year only, or by 8 per cent for two, on a simple appreciation question, and some rounded to the wrong number of figures on a sphere. Setting the working out clearly on the calculator paper protects method marks when a keying slip spoils the final number.
 
-Past papers
-
 ## Past papers are not the whole course
 
 The 2025 report named a question that had not appeared in recent years, and said so.
@@ -124,16 +130,16 @@ We do not run a course written only for National 5. Our maths courses serve seve
 
 We do not promise a grade. Boundaries move, and the report shows how much depends on steady number and algebra practice.
 
-For the next step, [the Higher Maths page](/higher-maths-tuition-online) covers what changes at Higher, and [the Scotland page](/coding-and-ai-classes-in-scotland) sets out the whole system. Students who enjoy problem solving may like [the Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice). For the two courses side by side, read [National 5 vs Higher Maths](/national-5-vs-higher-maths).
-
-Progression
+For the next step, [the Higher Maths page](/higher-maths-tuition-online) covers what changes at Higher, and [the Scotland page](/coding-and-ai-classes-in-scotland) sets out the whole system. Students who enjoy problem solving may like [the Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice).
 
 ## Four rungs through S4
 
 Placement follows what a student can do without a calculator, which is the fastest honest test.
 
+**What a National 5 candidate should be able to do**
+
 | Rung | When | What should be true |
-| --- | --- | --- |
+|---|---|---|
 | 1. Number by hand | Start of S4 | Fractions, percentages, reverse percentages and division done confidently without a calculator |
 | 2. Algebra | Autumn | Expanding, factorising, rearranging and simplifying, including algebraic fractions and indices |
 | 3. The course topics | Winter | Quadratics and the discriminant, trigonometry and its graphs, vectors, statistics, geometry |
@@ -142,293 +148,63 @@ Placement follows what a student can do without a calculator, which is the faste
 ### Rung one is where paper 1 is won
 
 The 2025 report pointed at basic number skills first. Ten minutes a day on them is worth more than an extra past paper.
-
 The wider order of topics is set out on the [coding roadmap](/coding-roadmap) for students who also code.
 
 ### Rung four is fast to learn
 
 The expected phrases and habits take a few weeks, then protect marks on every paper.
-
 Lessons ease off during the diet and resume for Higher afterwards.
-
-The catalogue
 
 ## Nine courses for S3 and S4
 
 Grouped by purpose. The free lesson decides the starting point.
 
-I
-
 ### National 5 content
 
 Number, algebra, geometry and statistics
 
-UK / N5M1 / 01
-
-#### National 5 and Higher maths
-
-The National 5 specification taught directly, then Higher.
-
-[Open the syllabus](/courses/national-5-and-higher-maths-course)
-
-UK / N5M1 / 02
-
-#### GCSE mathematics
-
-Non-calculator fluency and algebra, built steadily.
-
-[Open the syllabus](/courses/gcse-mathematics-mastery)
-
-UK / N5M1 / 03
-
-#### High school mathematics
-
-For students filling gaps from earlier years.
-
-[Open the syllabus](/courses/complete-high-school-mathematics-mastery)II
+- [National 5 and Higher maths](/courses/national-5-and-higher-maths-course): The National 5 specification taught directly, then Higher.
+- [GCSE mathematics](/courses/gcse-mathematics-mastery): Non-calculator fluency and algebra, built steadily.
+- [High school mathematics](/courses/complete-high-school-mathematics-mastery): For students filling gaps from earlier years.
 
 ### Foundations
 
 For students who are behind
 
-UK / N5M2 / 01
-
-#### Lower secondary mathematics
-
-Fractions, ratio and early algebra, rebuilt properly.
-
-[Open the syllabus](/courses/comprehensive-middle-school-mathematics-mastery)
-
-UK / N5M2 / 02
-
-#### Mental maths
-
-For younger siblings, or anyone whose number facts wobble.
-
-[Open the syllabus](/courses/mental-maths-mastery-kids)
-
-UK / N5M2 / 03
-
-#### Statistics and probability
-
-Mean, spread and interpretation, pitched older but clear.
-
-[Open the syllabus](/courses/statistics-probability-maths-course)III
+- [Lower secondary mathematics](/courses/comprehensive-middle-school-mathematics-mastery): Fractions, ratio and early algebra, rebuilt properly.
+- [Mental maths](/courses/mental-maths-mastery-kids): For younger siblings, or anyone whose number facts wobble.
+- [Statistics and probability](/courses/statistics-probability-maths-course): Mean, spread and interpretation, pitched older but clear.
 
 ### Beyond National 5
 
 Higher and problem solving
 
-UK / N5M3 / 01
-
-#### A level maths
-
-Calculus and more, much of which Higher shares.
-
-[Open the syllabus](/courses/a-level-maths-course-pure-mechanics-statistics)
-
-UK / N5M3 / 02
-
-#### Competition mathematics
-
-For students who enjoy hard problems.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
-
-UK / N5M3 / 03
-
-#### Maths through coding
-
-Mathematical ideas explored by writing programs.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-How lessons work
+- [A level maths](/courses/a-level-maths-course-pure-mechanics-statistics): Calculus and more, much of which Higher shares.
+- [Competition mathematics](/courses/olympiad-competition-mathematics-mastery): For students who enjoy hard problems.
+- [Maths through coding](/courses/maths-through-coding): Mathematical ideas explored by writing programs.
 
 ## Number first, calculator second
 
 Our teachers work from India, which keeps one clock all year, so Scotland is four and a half hours behind in summer and five and a half in winter. Lessons are timed in UK hours.
 
-After school
+- **After school** Most S4 students choose this.
+- **Evening** Around sport, clubs or part-time work.
+- **Weekend** Room for a full paper under timed conditions.
 
-Most S4 students choose this.
-
-Evening
-
-Around sport, clubs or part-time work.
-
-Weekend
-
-Room for a full paper under timed conditions.
-
-### Non-calculator warm-ups
-
-Every lesson opens with number work by hand, because paper 1 depends on it.
-
-### Algebra checked line by line
-
-Signs and brackets checked as they are written, where the 2025 errors came from.
-
-### Expected wording
-
-The phrases from the marking instructions practised until they are automatic.
-
-### Whole specification
-
-Every skill in the course covered, not only what recent papers asked.
-
-### Timed papers
-
-Past papers under exam timing in the spring, marked against the published instructions.
-
-### Small groups
-
-Five to ten S4 students at one rung, checking each other's working.
-
-Student work
-
-## Work by our students in lessons
-
-Four projects from classes, none of them assessed. More in [student labs](/student-labs).
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **Non-calculator warm-ups** Every lesson opens with number work by hand, because paper 1 depends on it.
+- **Algebra checked line by line** Signs and brackets checked as they are written, where the 2025 errors came from.
+- **Expected wording** The phrases from the marking instructions practised until they are automatic.
+- **Whole specification** Every skill in the course covered, not only what recent papers asked.
+- **Timed papers** Past papers under exam timing in the spring, marked against the published instructions.
+- **Small groups** Five to ten S4 students at one rung, checking each other's working.
 
 ## Fees for National 5 Maths lessons
 
 Lessons are billed monthly in US dollars, and families everywhere outside India pay the same. Your first lesson costs nothing; we only invoice once a course and a regular weekly slot are in place.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A lesson on real National 5 questions
-- A clear view of number and algebra gaps
-- A phone number is all we need
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Five to ten S4 students on one rung
-- The same teacher through the session
-- Non-calculator practice every week
-- Timed papers in spring
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher for one student
-- A plan built back from the exam date
-- Suits a student rebuilding foundations
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Google reviews from parents, reproduced exactly.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Questions about National 5 Maths
+- Free first class: USD 0. A lesson on real National 5 questions. A clear view of number and algebra gaps. A phone number is all we need.
+- Group batch: USD 100 a month. Five to ten S4 students on one rung. The same teacher through the session. Non-calculator practice every week. Timed papers in spring.
+- One to one: USD 150 a month. A teacher for one student. A plan built back from the exam date. Suits a student rebuilding foundations.
 
 ## What S4 students and parents ask
 
@@ -472,58 +248,77 @@ No. Our maths courses serve several curricula, and we teach the National 5 speci
 
 Nothing for the first lesson. Regular lessons are then a single monthly charge in US dollars, cheaper in a group than one to one; both prices appear in the fees section, and we never take payment in advance.
 
-Elsewhere on this site
-
 ## Further pages for Scottish students
 
-The next level, the computing equivalent, and the wider system.
+- [Higher Maths tuition](/higher-maths-tuition-online): What changes when the working itself earns the marks.
+- [Maths tutor costs in Scotland](/maths-tutor-cost-scotland): Published National 5 and Higher tutor rates and study centre fees.
+- [National 5 Computing Science](/national-5-computing-science-help): The other National 5 many maths students take.
+- [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice): Problem solving for pupils who enjoy maths.
+- [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland): Primary to S6, and how the system fits together.
+- [Maths olympiad training in the UK](/maths-olympiad-training-uk): The competition ladder for strong mathematicians.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): Our UK hub, with links to every page.
 
-### [Higher Maths tuition](/higher-maths-tuition-online)
+## Related pages in this guide
 
-What changes when the working itself earns the marks.
+Part of the guide: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes)
 
-### [Maths tutor costs in Scotland](/maths-tutor-cost-scotland)
+### Scotland
 
-Published National 5 and Higher tutor rates and study centre fees.
+- [Scottish primary maths tutor online](/scottish-primary-maths-tutor-online)
+- [S1 to S3 maths tutor online](/s1-s3-maths-tutor-online-scotland)
+- [National 5 Applications of Maths help](/national-5-applications-of-maths-help)
+- [Higher Maths tuition online](/higher-maths-tuition-online)
+- [Advanced Higher Maths tuition online](/advanced-higher-maths-tuition-online)
 
-### [National 5 Computing Science](/national-5-computing-science-help)
+### GCSE maths
 
-The other National 5 many maths students take.
+- [AQA GCSE Maths 8300 help](/aqa-gcse-maths-8300-help)
+- [Edexcel GCSE Maths 1MA1 help](/edexcel-gcse-maths-1ma1-help)
+- [OCR GCSE Maths J560 help](/ocr-gcse-maths-j560-help)
+- [CCEA GCSE Maths help](/ccea-gcse-maths-help)
+- [GCSE Mathematics and Numeracy help, Wales](/gcse-maths-and-numeracy-wales-help)
+- [GCSE Foundation maths tutor online](/gcse-foundation-maths-tutor-online)
+- [GCSE Higher maths grade 9 tutor](/gcse-higher-maths-grade-9-tutor)
+- [GCSE Statistics tutor online](/gcse-statistics-tutor-online)
+- [AQA Level 2 Further Maths 8365 help](/aqa-level-2-further-maths-8365-help)
+- [OCR FSMQ Additional Maths 6993 help](/ocr-fsmq-additional-maths-6993-help)
+- [GCSE maths tuition online](/gcse-maths-tuition-online)
+- [AQA vs Edexcel vs OCR GCSE maths](/aqa-vs-edexcel-vs-ocr-gcse-maths)
 
-### [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice)
+### International GCSE and Cambridge International
 
-Problem solving for pupils who enjoy maths.
+- [Cambridge IGCSE Maths 0580 help](/cambridge-igcse-maths-0580-help)
+- [IGCSE Additional Maths 0606 help](/cambridge-igcse-additional-maths-0606-help)
+- [Edexcel International GCSE Maths A 4MA1 help](/edexcel-international-gcse-maths-a-4ma1-help)
+- [Edexcel IGCSE Further Pure Maths 4PM1 help](/edexcel-igcse-further-pure-maths-4pm1-help)
+- [IGCSE maths for home-educated students](/igcse-maths-for-home-educated-students-uk)
+- [Cambridge A Level Maths 9709 help](/cambridge-a-level-maths-9709-help)
+- [Cambridge A level Further Maths 9231 help](/cambridge-a-level-further-maths-9231-help)
+- [IGCSE maths tuition online](/igcse-maths-tuition-online)
 
-### [Coding and AI classes in Scotland](/coding-and-ai-classes-in-scotland)
+### A level maths and further maths
 
-Primary to S6, and how the system fits together.
+- [AQA A level Maths 7357 help](/aqa-a-level-maths-7357-help)
+- [Edexcel A level Maths 9MA0 help](/edexcel-a-level-maths-9ma0-help)
+- [OCR A level Maths H240 help](/ocr-a-level-maths-h240-help)
+- [OCR MEI A level Maths H640 help](/ocr-mei-a-level-maths-h640-help)
+- [CCEA A level Maths help](/ccea-a-level-maths-help)
+- [WJEC A level Maths help (Wales)](/wjec-a-level-maths-help-wales)
+- [AQA A level Further Maths 7367 help](/aqa-a-level-further-maths-7367-help)
+- [Edexcel A level Further Maths 9FM0 help](/edexcel-a-level-further-maths-9fm0-help)
+- [Further Maths when your school does not offer it](/further-maths-when-your-school-does-not-offer-it)
+- [A level maths tuition online](/a-level-maths-tuition-online)
 
-### [Maths olympiad training in the UK](/maths-olympiad-training-uk)
+### International Baccalaureate
 
-The competition ladder for strong mathematicians.
+- [IB MYP maths tutor online](/ib-myp-maths-tutor-online)
+- [IB Maths AI SL tutor online](/ib-maths-ai-sl-tutor-online)
+- [IB Maths IA guidance](/ib-maths-ia-guidance)
+- [IB Extended Essay in maths or computer science](/ib-extended-essay-maths-computer-science-mentoring)
+- [IB maths tuition online](/ib-maths-tuition-online)
 
-### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+More guides: [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-Our UK hub, with links to every page.
+## Contact
 
-Start here
-
-## Book a free first lesson
-
-Leave a number and we will call at a UK time that suits. The lesson includes some non-calculator work and ends with a clear list of gaps.
-
-Not ready to talk yet? Each [course listing](/courses) shows its full syllabus, [our teaching approach](/how-we-teach) explains who it works for and who it does not, and [student labs](/student-labs) has real student work.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20lesson%20for%20National%205%20Maths.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-A WhatsApp message is the fastest way in and costs nothing from a UK mobile. Our office is in India, which is why the number begins +91.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/national-5-maths-tuition-online*
+Book the free first class at [https://learn.modernagecoders.com/national-5-maths-tuition-online](https://learn.modernagecoders.com/national-5-maths-tuition-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.

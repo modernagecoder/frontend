@@ -4,35 +4,43 @@ description: "Higher Maths tuition online: in 2025 correct answers lost marks wh
 canonical: https://learn.modernagecoders.com/higher-maths-tuition-online
 source: src/pages/higher-maths-tuition-online.html
 ---
-> Higher Maths tuition online: in 2025 correct answers lost marks when the working did not follow line by line. The two papers, the notation, and how we prepare.
+> Two exam papers make up the whole of Higher Mathematics. The first, 55 marks in 1 hour 15 minutes, allows no calculator; the second, 65 marks in 1 hour 30 minutes, does. Nothing is assessed in class, and most candidates arrive from National 5 Mathematics. The 2025 diet produced 19,767 results, and the course report that followed said many lost marks to numerical inaccuracy, and that working which did not follow logically from line to line could not gain full marks even when the final answer was right. It also flagged notation such as dx and the constant of integration, nature tables, the wave function, vector pathways and conclusions about collinearity. Modern Age Coders teaches Higher Maths live, with working checked line by line, notation treated as part of the answer, and practice on novel questions under exam timing. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
 
-In short
+[Home](/) / [Courses](/courses) / [Coding classes in the UK](/coding-classes-in-united-kingdom) / [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes) / Higher Maths
 
-Two exam papers make up the whole of Higher Mathematics. The first, 55 marks in 1 hour 15 minutes, allows no calculator; the second, 65 marks in 1 hour 30 minutes, does. Nothing is assessed in class, and most candidates arrive from National 5 Mathematics. The 2025 diet produced 19,767 results, and the course report that followed said many lost marks to numerical inaccuracy, and that working which did not follow logically from line to line could not gain full marks even when the final answer was right. It also flagged notation such as dx and the constant of integration, nature tables, the wave function, vector pathways and conclusions about collinearity. Modern Age Coders teaches Higher Maths live, with working checked line by line, notation treated as part of the answer, and practice on novel questions under exam timing. The first lesson is free, then USD 100 a month in a group or USD 150 one to one.
+Scotland · Higher · S5 and S6
 
-Start here
+# Higher Maths tuition online
+
+In the 2025 Higher Maths paper, a number of candidates factorised a polynomial and reached the right answer, and still did not get full marks. The course report explains why: the lines of working that led there contradicted each other along the way. "The inconsistencies meant that these examples did not gain full marks". That is the character of Higher. National 5 rewards getting the method and the number right; Higher also marks whether each step genuinely follows from the one before, whether the notation is exact, and whether the conclusion says precisely what was shown. This page sets out the two papers, where the 2025 candidates lost marks on the route rather than the destination, and how we teach working that holds up.
+
+At a glance: Course: Higher Mathematics C847 76; Paper 1: No calculator, 55 marks, 1 hour 15 minutes; Paper 2: Calculator, 65 marks, 1 hour 30 minutes; Coursework: None; Entries in 2025: 19,767 resulted; Entry: National 5 Mathematics or equivalent; Group: Fifteen to twenty at one stage; Start: One free lesson. Rated 4.9 across 547 Google reviews.
 
 ## Three courses for Higher Maths
 
 The first card is our National 5 and Higher course, built from the Higher specification; the other two cover overlapping content at a similar depth. Each card opens a syllabus.
 
-[![National 5 and Higher Maths Course Online (Scotland) course thumbnail](/images/national-5-higher-maths.webp)  HM / 01 National 5 and Higher Maths The Higher skills strand by strand, from logarithms and the wave function to calculus, then full papers. Open the syllabus →](/courses/national-5-and-higher-maths-course)[![A-Level Maths course thumbnail](/images/a-level-maths.webp)  HM / 02 A Level Maths Differentiation, integration, logarithms, radians and vectors, the core of Higher at a similar depth. Open the syllabus →](/courses/a-level-maths-course-pure-mechanics-statistics)[![High School Mathematics course thumbnail](/images/high-school-maths.webp)  HM / 03 High School Mathematics For students strengthening algebra and functions before the calculus arrives. Open the syllabus →](/courses/complete-high-school-mathematics-mastery)
-
-The papers
+- [National 5 and Higher Maths](/courses/national-5-and-higher-maths-course): The Higher skills strand by strand, from logarithms and the wave function to calculus, then full papers.
+- [A Level Maths](/courses/a-level-maths-course-pure-mechanics-statistics): Differentiation, integration, logarithms, radians and vectors, the core of Higher at a similar depth.
+- [High School Mathematics](/courses/complete-high-school-mathematics-mastery): For students strengthening algebra and functions before the calculus arrives.
 
 ## Two papers, 120 marks, no coursework
 
 From the Higher Mathematics Course Specification, valid from session 2023 to 24.
 
+**The Higher papers side by side**
+
 | Paper | Marks | Length | Calculator |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | Paper 1 | 55 | 1 hour 15 minutes | No |
 | Paper 2 | 65 | 1 hour 30 minutes | Yes |
 
 The specification suggests about 160 hours and expects candidates to have achieved National 5 Mathematics or equivalent. Without a calculator, the harder mathematics has to be done by hand: in 2025, paper 1 included a tangent, an indefinite integral, logarithms, the double-angle formula, a differential equation and a cubic with its stationary points.
 
+**The 2025 Higher results**
+
 | Figure | As published for 2025 |
-| --- | --- |
+|---|---|
 | Resulted entries | 19,767 (18,517 in 2024) |
 | Grade A | 41.2 per cent, minimum mark 86 of 120 |
 | Grade C minimum mark | 60 of 120 |
@@ -42,16 +50,16 @@ The report notes that two questions were less demanding than expected and that t
 
 Figures and rules come from two sqa.org.uk documents: the Higher Mathematics Course Specification and the 2025 Higher Mathematics course report. Since 1 February 2026 the award has belonged to Qualifications Scotland, which keeps those documents in force.
 
-Line by line
-
 ## Every line must follow from the one above
 
 The report's most distinctive message about Higher, and the one students find hardest to believe until they see it marked.
 
 In the 2025 non-calculator paper, question 7 was a polynomial, and part (b) involved factorising it. The report prints examples of working it describes as common: chains in which one line did not equal the next, a bracket appearing and disappearing, a sign changing without reason. Those examples reached the correct factorised form, and the verdict was: "The inconsistencies meant that these examples did not gain full marks". Its advice for teaching is equally direct: "Each line of working should follow logically from the line above."
 
+**Where consistency failed in 2025**
+
 | Question topic | What went wrong |
-| --- | --- |
+|---|---|
 | Factorising a polynomial | Lines that did not equal each other, even when the final factors were right |
 | Completing the square | Numeric terms handled loosely, producing inconsistent lines |
 | Simultaneous equations | Terms scored out mid-working, leaving lines that no longer matched |
@@ -72,14 +80,14 @@ Working that is not part of the answer should be scored out, including in the ad
 
 This is also where handwriting matters. The report records candidates losing marks to transcription errors between 3 and 5, 4 and y, and 1 and 7, copying their own working wrongly from one line to the next. Clear, unhurried writing is part of consistent working, not a separate nicety.
 
-Notation
-
 ## Notation is part of the answer
 
 Several 2025 marks were lost on symbols, labels and brackets rather than on the mathematics.
 
+**Notation slips in the 2025 report**
+
 | Area | The slip |
-| --- | --- |
+|---|---|
 | Derivatives | Lines labelled y = when they were derivatives, dy/dx = |
 | Integrals | No dx in a definite integral; no constant of integration where it belonged, which invalidated working in a differential equation |
 | Brackets | Missing brackets when substituting into the discriminant or when evaluating a definite integral |
@@ -102,14 +110,14 @@ Some candidates did not use the double-angle and addition formulae provided, and
 
 Knowing what is on the formulae list, and trusting it, saves marks and time.
 
-Exam habits
-
 ## Habits the report asked for
 
 Beyond the working itself, the 2025 report listed practical habits that separate strong scripts.
 
+**From the report's advice to teachers**
+
 | Habit | Why it matters |
-| --- | --- |
+|---|---|
 | Numerical care | "Maintain and practise basic numerical skills regularly, particularly fractions and negative numbers." Many marks in paper 1 went to numerical inaccuracy |
 | Common factors first | Candidates who did not take out a common factor made factorisation harder, and dividing by cos x lost solutions in a trigonometric equation |
 | Efficient calculator use | In paper 2, many wrote extra lines of working instead of letting the calculator do the arithmetic |
@@ -132,14 +140,14 @@ That any grade is assured. Boundaries move, and the report shows how many marks 
 
 Coming from National 5, [the National 5 Maths page](/national-5-maths-tuition-online) covers the non-calculator foundations. Going further, [the Advanced Higher Maths page](/advanced-higher-maths-tuition-online) covers proof and the rest of the S6 course. Strong problem solvers may enjoy [olympiad training](/maths-olympiad-training-uk).
 
-Progression
-
 ## Four rungs through S5
 
 Placement depends on how securely a student writes working, not only on what they know.
 
+**What a Higher Maths candidate should be able to do**
+
 | Rung | When | What should be true |
-| --- | --- | --- |
+|---|---|---|
 | 1. Algebra and functions | Start of S5 | Factorising, completing the square, composite and inverse functions, logarithms, with every line consistent |
 | 2. Calculus | Autumn | Differentiation with the chain rule, integration with the constant, areas, stationary points with full nature tables |
 | 3. Geometry and trigonometry | Winter | Circles, vectors in three dimensions and pathways, radians, exact values, the wave function |
@@ -148,293 +156,63 @@ Placement depends on how securely a student writes working, not only on what the
 ### Rung one sets the standard
 
 Consistent algebra is learned early or not at all. Every later topic depends on it.
-
 Students who also code may like the [coding roadmap](/coding-roadmap), where the same habit of exactness applies.
 
 ### Rung three has the weak spots
 
 Vector pathways and the wave function were among the hardest areas in 2025.
-
 We slow down while the diet runs and pick up again for Advanced Higher once it ends.
-
-The catalogue
 
 ## Nine courses for S5 and S6
 
 Arranged by where they help. The first lesson decides the order.
 
-I
-
 ### Higher content
 
 Calculus, functions and geometry
 
-UK / HM1 / 01
-
-#### National 5 and Higher maths
-
-The Higher specification taught directly, with full papers.
-
-[Open the syllabus](/courses/national-5-and-higher-maths-course)
-
-UK / HM1 / 02
-
-#### High school mathematics
-
-Algebra and functions made solid.
-
-[Open the syllabus](/courses/complete-high-school-mathematics-mastery)
-
-UK / HM1 / 03
-
-#### IB mathematics
-
-Careful notation and rigorous working.
-
-[Open the syllabus](/courses/ib-mathematics-aa-ai-masterclass)II
+- [National 5 and Higher maths](/courses/national-5-and-higher-maths-course): The Higher specification taught directly, with full papers.
+- [High school mathematics](/courses/complete-high-school-mathematics-mastery): Algebra and functions made solid.
+- [IB mathematics](/courses/ib-mathematics-aa-ai-masterclass): Careful notation and rigorous working.
 
 ### Towards Advanced Higher
 
 S6 and university
 
-UK / HM2 / 01
-
-#### University mathematics
-
-Matrices, series and differential equations ahead of time.
-
-[Open the syllabus](/courses/college-mathematics-complete-masterclass)
-
-UK / HM2 / 02
-
-#### Competition mathematics
-
-Novel problems and proof, for flexible thinkers.
-
-[Open the syllabus](/courses/olympiad-competition-mathematics-mastery)
-
-UK / HM2 / 03
-
-#### Statistics and probability
-
-For students heading to Advanced Higher Statistics.
-
-[Open the syllabus](/courses/statistics-probability-maths-course)III
+- [University mathematics](/courses/college-mathematics-complete-masterclass): Matrices, series and differential equations ahead of time.
+- [Competition mathematics](/courses/olympiad-competition-mathematics-mastery): Novel problems and proof, for flexible thinkers.
+- [Statistics and probability](/courses/statistics-probability-maths-course): For students heading to Advanced Higher Statistics.
 
 ### Maths with code
 
 For students who program
 
-UK / HM3 / 01
-
-#### Maths through coding
-
-Mathematical ideas tested by writing programs.
-
-[Open the syllabus](/courses/maths-through-coding)
-
-UK / HM3 / 02
-
-#### Mathematics for data analytics
-
-Where Higher maths meets real data.
-
-[Open the syllabus](/courses/data-analytics-mathematics-masterclass)
-
-UK / HM3 / 03
-
-#### Python, zero to advanced
-
-For students who want to compute as well as calculate.
-
-[Open the syllabus](/courses/python-programming-masterclass-zero-to-advanced-college)
-
-How lessons work
+- [Maths through coding](/courses/maths-through-coding): Mathematical ideas tested by writing programs.
+- [Mathematics for data analytics](/courses/data-analytics-mathematics-masterclass): Where Higher maths meets real data.
+- [Python, zero to advanced](/courses/python-programming-masterclass-zero-to-advanced-college): For students who want to compute as well as calculate.
 
 ## Working that holds, line after line
 
 Teachers work from India on a clock that never shifts, putting Scotland four and a half hours behind in summer and five and a half in winter. Times are agreed in UK hours.
 
-After school
+- **After school** The common choice in S5 and S6.
+- **Evening** For students with free periods or jobs.
+- **Weekend** Long enough for a full paper and its marking.
 
-The common choice in S5 and S6.
-
-Evening
-
-For students with free periods or jobs.
-
-Weekend
-
-Long enough for a full paper and its marking.
-
-### Line-by-line marking
-
-Written working checked for consistency at every step, as the marking instructions do.
-
-### Fixed forms
-
-One layout for nature tables, one for collinearity conclusions, used every time.
-
-### Notation drills
-
-dx, the constant, brackets and radians, until leaving them out feels wrong.
-
-### Novel questions
-
-Unfamiliar problems under exam timing, as the report recommends.
-
-### Calculator sense
-
-In paper 2 practice, the calculator used for what it does well, with working still recorded.
-
-### Fifteen to twenty per group
-
-S5 and S6 students at one rung, reviewing each other's chains of working.
-
-Student work
-
-## What our students have made in class
-
-Four projects from lessons, none of them assessed. More in [student labs](/student-labs).
-
-![NutriLife AI nutrition coach project screenshot](/images/projects/nutrilife.webp)
-
-AI and ML
-
-#### NutriLife
-
-An AI nutrition coach that reads what you eat and works you toward a target.
-
-by Bhavya · [Open it](https://nutrilife-bhavya.lovable.app)
-
-![Misti AI chatbot for maths and coding screenshot](/images/projects/misti.webp)
-
-AI and ML
-
-#### Misti
-
-A chatbot that answers mathematics and programming questions, built and deployed by a student.
-
-by Harshit · [Open it](https://misti.modernagecoders.com)
-
-![GuardianX AI internet safety assistant screenshot](/images/projects/guardianx.webp)
-
-AI and ML
-
-#### GuardianX
-
-An assistant that helps a young person recognise unsafe situations online.
-
-by Vivaan · [Open it](https://guardianx-cybersaver.lovable.app)
-
-![SkyCast weather forecast application screenshot](/images/projects/skycast.webp)
-
-Web app
-
-#### SkyCast
-
-A weather forecasting site with live conditions for any location.
-
-by Krish
-
-Fees
+- **Line-by-line marking** Written working checked for consistency at every step, as the marking instructions do.
+- **Fixed forms** One layout for nature tables, one for collinearity conclusions, used every time.
+- **Notation drills** dx, the constant, brackets and radians, until leaving them out feels wrong.
+- **Novel questions** Unfamiliar problems under exam timing, as the report recommends.
+- **Calculator sense** In paper 2 practice, the calculator used for what it does well, with working still recorded.
+- **Fifteen to twenty per group** S5 and S6 students at one rung, reviewing each other's chains of working.
 
 ## Fees for Higher Maths lessons
 
 We charge a monthly fee in US dollars, identical for every family outside India. There is no charge for a first lesson, and no invoice until a course and a weekly slot have been agreed.
 
-Free first class
-
-USD 0
-
-no card required
-
-- A lesson on real Higher questions
-- An honest read of how secure the working is
-- We ask only for a phone number
-
-Book it
-
-Group batch
-
-USD 100
-
-a month, billed in US dollars
-
-- Fifteen to twenty students on one rung
-- The same teacher across S5
-- Working marked line by line each week
-- Timed papers in spring
-
-Start here
-
-One to one
-
-USD 150
-
-a month, billed in US dollars
-
-- A teacher for one student
-- A plan built back from the diet
-- Suits a student repairing algebra habits
-
-Enquire
-
-What families say
-
-## Rated 4.9 across 547 Google reviews
-
-Parents' reviews from Google, unaltered.
-
-★★★★★
-
-"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
-
-Ria Mukherjee
-
-Parent
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
-
-Samriddha Mondal
-
-Student
-
-★★★★★
-
-"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."
-
-Vansh Agarwal
-
-Student
-
-★★★★★
-
-"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
-
-Sonam Oswal
-
-Parent of Dhairya
-
-★★★★★
-
-"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."
-
-Sonu Goyal
-
-Parent
-
-★★★★★
-
-"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."
-
-Ritu Kedia
-
-Parent
-
-Questions about Higher Maths
+- Free first class: USD 0. A lesson on real Higher questions. An honest read of how secure the working is. We ask only for a phone number.
+- Group batch: USD 100 a month. Fifteen to twenty students on one rung. The same teacher across S5. Working marked line by line each week. Timed papers in spring.
+- One to one: USD 150 a month. A teacher for one student. A plan built back from the diet. Suits a student repairing algebra habits.
 
 ## What S5 students and parents ask
 
@@ -478,54 +256,76 @@ No. The courses we use cover more than one curriculum, and the Higher specificat
 
 The first lesson is free. After that, lessons are one monthly charge in US dollars, less for a group place than for one to one, both listed in the fees section, and nothing is ever taken up front.
 
-Elsewhere on this site
-
 ## Related pages for Scotland
 
-The levels either side, and where strong mathematicians go next.
+- [National 5 Maths tuition](/national-5-maths-tuition-online): The level below, and its non-calculator foundations.
+- [Advanced Higher Maths tuition](/advanced-higher-maths-tuition-online): The S6 course, where proof enters properly.
+- [Higher Computing Science](/higher-computing-science-help): A natural partner subject for mathematicians.
+- [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice): Competition puzzles set for Scottish pupils.
+- [Maths olympiad training](/maths-olympiad-training-uk): The UK competition ladder.
+- [Coding classes in the UK](/coding-classes-in-united-kingdom): The UK hub for all our pages.
 
-### [National 5 Maths tuition](/national-5-maths-tuition-online)
+## Related pages in this guide
 
-The level below, and its non-calculator foundations.
+Part of the guide: [UK maths exam boards and specification codes](/uk-maths-exam-boards-and-specification-codes)
 
-### [Advanced Higher Maths tuition](/advanced-higher-maths-tuition-online)
+### Scotland
 
-The S6 course, where proof enters properly.
+- [Scottish primary maths tutor online](/scottish-primary-maths-tutor-online)
+- [S1 to S3 maths tutor online](/s1-s3-maths-tutor-online-scotland)
+- [National 5 Maths tuition online](/national-5-maths-tuition-online)
+- [National 5 Applications of Maths help](/national-5-applications-of-maths-help)
+- [Advanced Higher Maths tuition online](/advanced-higher-maths-tuition-online)
 
-### [Higher Computing Science](/higher-computing-science-help)
+### GCSE maths
 
-A natural partner subject for mathematicians.
+- [AQA GCSE Maths 8300 help](/aqa-gcse-maths-8300-help)
+- [Edexcel GCSE Maths 1MA1 help](/edexcel-gcse-maths-1ma1-help)
+- [OCR GCSE Maths J560 help](/ocr-gcse-maths-j560-help)
+- [CCEA GCSE Maths help](/ccea-gcse-maths-help)
+- [GCSE Mathematics and Numeracy help, Wales](/gcse-maths-and-numeracy-wales-help)
+- [GCSE Foundation maths tutor online](/gcse-foundation-maths-tutor-online)
+- [GCSE Higher maths grade 9 tutor](/gcse-higher-maths-grade-9-tutor)
+- [GCSE Statistics tutor online](/gcse-statistics-tutor-online)
+- [AQA Level 2 Further Maths 8365 help](/aqa-level-2-further-maths-8365-help)
+- [OCR FSMQ Additional Maths 6993 help](/ocr-fsmq-additional-maths-6993-help)
+- [GCSE maths tuition online](/gcse-maths-tuition-online)
+- [AQA vs Edexcel vs OCR GCSE maths](/aqa-vs-edexcel-vs-ocr-gcse-maths)
 
-### [Scottish Mathematical Challenge](/scottish-mathematical-challenge-practice)
+### International GCSE and Cambridge International
 
-Competition puzzles set for Scottish pupils.
+- [Cambridge IGCSE Maths 0580 help](/cambridge-igcse-maths-0580-help)
+- [IGCSE Additional Maths 0606 help](/cambridge-igcse-additional-maths-0606-help)
+- [Edexcel International GCSE Maths A 4MA1 help](/edexcel-international-gcse-maths-a-4ma1-help)
+- [Edexcel IGCSE Further Pure Maths 4PM1 help](/edexcel-igcse-further-pure-maths-4pm1-help)
+- [IGCSE maths for home-educated students](/igcse-maths-for-home-educated-students-uk)
+- [Cambridge A Level Maths 9709 help](/cambridge-a-level-maths-9709-help)
+- [Cambridge A level Further Maths 9231 help](/cambridge-a-level-further-maths-9231-help)
+- [IGCSE maths tuition online](/igcse-maths-tuition-online)
 
-### [Maths olympiad training](/maths-olympiad-training-uk)
+### A level maths and further maths
 
-The UK competition ladder.
+- [AQA A level Maths 7357 help](/aqa-a-level-maths-7357-help)
+- [Edexcel A level Maths 9MA0 help](/edexcel-a-level-maths-9ma0-help)
+- [OCR A level Maths H240 help](/ocr-a-level-maths-h240-help)
+- [OCR MEI A level Maths H640 help](/ocr-mei-a-level-maths-h640-help)
+- [CCEA A level Maths help](/ccea-a-level-maths-help)
+- [WJEC A level Maths help (Wales)](/wjec-a-level-maths-help-wales)
+- [AQA A level Further Maths 7367 help](/aqa-a-level-further-maths-7367-help)
+- [Edexcel A level Further Maths 9FM0 help](/edexcel-a-level-further-maths-9fm0-help)
+- [Further Maths when your school does not offer it](/further-maths-when-your-school-does-not-offer-it)
+- [A level maths tuition online](/a-level-maths-tuition-online)
 
-### [Coding classes in the UK](/coding-classes-in-united-kingdom)
+### International Baccalaureate
 
-The UK hub for all our pages.
+- [IB MYP maths tutor online](/ib-myp-maths-tutor-online)
+- [IB Maths AI SL tutor online](/ib-maths-ai-sl-tutor-online)
+- [IB Maths IA guidance](/ib-maths-ia-guidance)
+- [IB Extended Essay in maths or computer science](/ib-extended-essay-maths-computer-science-mentoring)
+- [IB maths tuition online](/ib-maths-tuition-online)
 
-Start here
+More guides: [UK maths year by year, Reception to Year 11](/uk-maths-year-by-year-guide), [UK selective school maths tests: 7+, 11+, 13+ and 16+](/uk-selective-school-maths-tests-guide), [UK university admissions: maths tests and computing applications](/uk-university-admissions-maths-and-computing-guide), [UK maths enrichment, competitions and able pupils](/uk-maths-enrichment-and-competitions-guide)
 
-## Book a free first lesson
+## Contact
 
-Leave a number and we will call at a UK time that suits you. The lesson looks at a real Higher question and how the working is set out, and ends with a plan.
-
-Want to look around first? Every [course page](/courses) lists what it covers, [how we teach](/how-we-teach) sets out who our method suits, and the [coding roadmap](/coding-roadmap) is there for students who code too.
-
-[WhatsApp us](https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20would%20like%20a%20free%20first%20lesson%20for%20Higher%20Maths.) · [+91 91233 66161](tel:+919123366161) · [connect@modernagecoders.com](mailto:connect@modernagecoders.com)
-
-WhatsApp is the quickest option and free from a UK mobile. Messages land at our office in India, so expect a number starting +91.
-
-### Want a class sooner? Book a priority demo
-
-A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.
-
-[Book a priority demo](/book-demo)Free class[Priority demo](/book-demo)[Call us](tel:+919123366161)
-
----
-
-*Canonical: https://learn.modernagecoders.com/higher-maths-tuition-online*
+Book the free first class at [https://learn.modernagecoders.com/higher-maths-tuition-online](https://learn.modernagecoders.com/higher-maths-tuition-online#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.
