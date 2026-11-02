@@ -84,7 +84,7 @@ const STR = {
     billedDe: 'a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span>'
   },
   de: {
-    home: 'Startseite', navCta: 'Kostenlose Probestunde', heroCta: 'Kostenlose Probestunde buchen', pdCta: 'Priority Demo buchen', wa: 'Per WhatsApp fragen',
+    home: 'Startseite', navCta: 'Probestunde', heroCta: 'Kostenlose Probestunde buchen', pdCta: 'Priority Demo buchen', wa: 'Per WhatsApp fragen',
     glance: 'Auf einen Blick', trust: () => `${deNum(BRAND.rating)} von 5 bei ${BRAND.reviews} Google-Bewertungen`, syllabus: 'Zum Lehrplan',
     projEyebrow: 'Projekte unserer Lernenden', by: 'von', openIt: 'Öffnen', feesEyebrow: 'Preise', freeName: 'Kostenlose Probestunde', free: 'Kostenlos', usd0: 'Kostenlos',
     noCard: 'keine Karte nötig', bookIt: 'Buchen', groupName: 'Gruppenkurs', perMonth8: 'pro Monat, acht Live-Stunden', billedUsd: 'pro Monat, acht Live-Stunden',

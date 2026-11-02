@@ -75,7 +75,7 @@ module.exports = {
     { href: '/coding-classes-in-germany', label: 'Deutschland' },
     { href: '#pflicht', label: 'Pflichtfach?' },
     { href: '#inhalte', label: 'Inhalte' },
-    { href: '#englisch', label: 'Auf Englisch' },
+    { href: '#englisch', label: 'Englisch' },
     { href: '#beispiel', label: 'Beispiel' },
     { href: '#zeiten', label: 'Zeiten' }
   ],
