@@ -17,8 +17,12 @@ for f in figs:
     n = txt.count(f)
     print(('ok   ' if n else 'MISS ') + f + '  x' + str(n))
     bad += 0 if n else 1
+# Germany pages (owner 2026-11-02) show euro, but only inside data-price anchors; build.js bans any typed figure.
+de = "countryIso:'DE'" in raw or "countryIso: 'DE'" in raw
 for k, v in {'em dash': '—', 'en dash': '–', 'euro sign': '€'}.items():
     n = raw.count(v)
+    if k == 'euro sign' and de:
+        n = len(re.findall('€', re.sub(r'<span data-price="[a-z]+\.germany\.[a-zA-Z]+"[^>]*>[^<]*</span>', ' ', raw)))
     print(('ok   ' if n == 0 else 'BAD  ') + k + ' in raw html: ' + str(n))
     bad += 1 if n else 0
 rules = {'bare IST': (r'\bIST\b', raw, 0), 'bare BST': (r'\bBST\b', noscript, 0), 'pound sign or GBP': (r'£|&pound;|&#163;|\bGBP\b', noscript, 0),

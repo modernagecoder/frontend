@@ -5,10 +5,16 @@
 // crawlers, AI engines and the .md twin read; on a Canadian page it is the CAD row (owner 2026-10-24), stamped
 // from pricing.config.jsonc by pricing:apply. Other markets keep their printed USD figures.
 const cfgLib = require('../../pricing/lib/config');
-const NEUTRAL = new Set(['CA']);
+// Germany (owner 2026-11-02, spec docs/superpowers/specs/2026-11-02-de-cluster-design.md section 6): the
+// same anchors, carrying the euro display row (the USD list at the ECB rate in config.germany). Crawlers,
+// AI engines and the .md twin read euro; the visitor's own currency still replaces it in the browser, and
+// checkout charges USD. German-language pages write "90 €", English ones "€90".
+const NEUTRAL = new Set(['CA', 'DE']);
 const neutralFee = page => NEUTRAL.has((page.market || {}).iso);
+const REGION_OF = { CA: 'canada', DE: 'germany' };
 // The pricing.config.jsonc region whose figures the page's crawler copy and structured data carry.
-const feeRegion = page => neutralFee(page) ? 'canada' : 'international';
+const feeRegion = page => REGION_OF[(page.market || {}).iso] || 'international';
+const germanText = page => /^de\b/i.test((page.market || {}).lang || '');
 let config;
 const resolve = (subject, region, tier) => {
   config = config || cfgLib.load();
@@ -21,6 +27,10 @@ const feeAnchor = (page, tier) => {
   const subject = page.priceSubject || 'coding';
   const region = feeRegion(page);
   const r = resolve(subject, region, tier);
+  if (region === 'germany') {
+    const style = germanText(page) ? 'suffix' : 'display';
+    return `<span data-price="${subject}.${region}.${tier}"${style === 'suffix' ? ' data-price-format="suffix"' : ''}>${cfgLib.format(r.amount, r.currency, { style })}</span>`;
+  }
   // The ISO code beside it settles which dollar: Canadians also write $.
   return `<span data-price="${subject}.${region}.${tier}">${cfgLib.format(r.amount, r.currency, { style: 'display' })}</span> <span class="fee-cur" data-price-currency>${r.currency}</span>`;
 };
@@ -33,7 +43,11 @@ const ldPrice = (page, tier) => {
 // the page). Other markets keep the USD figures their pages print.
 const feeText = (page, tier) => {
   if (!neutralFee(page)) return { free: 'USD 0', group: 'USD 100', personal: 'USD 150' }[tier];
-  if (tier === 'free') return 'Free';
+  if (tier === 'free') return germanText(page) ? 'kostenlos' : 'Free';
+  if (feeRegion(page) === 'germany') {
+    const r = resolve(page.priceSubject || 'coding', 'germany', tier);
+    return germanText(page) ? cfgLib.format(r.amount, 'EUR', { style: 'suffix' }) + ' (abgerechnet in US-Dollar)' : cfgLib.format(r.amount, 'EUR') + ' (charged in US dollars)';
+  }
   const r = resolve('coding', 'canada', tier);
   return r.currency + ' ' + cfgLib.format(r.amount, r.currency, { style: 'plain' });
 };

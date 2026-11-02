@@ -49,6 +49,69 @@ const PROJECTS = [
   ['skycast.webp', 'SkyCast weather forecast application screenshot', 'Web app', 'SkyCast', 'A weather forecasting site with live conditions for any location.', 'Krish', '']
 ];
 
+// Germany cluster (spec docs/superpowers/specs/2026-11-02-de-cluster-design.md): German-language pages
+// (market.lang 'de-DE') get the template's own words in German, formal "Sie". The words a page writes
+// come from its module as always. Reviews stay in the families' own English words, never translated.
+const PROJECTS_DE = {
+  NutriLife: ['Screenshot des Projekts NutriLife, ein KI-Ernährungscoach', 'KI und ML', 'Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.'],
+  Misti: ['Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren', 'KI und ML', 'Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.'],
+  GuardianX: ['Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet', 'KI und ML', 'Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.'],
+  SkyCast: ['Screenshot der Wetter-App SkyCast', 'Web-App', 'Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.']
+};
+const deNum = v => String(v).replace('.', ',');
+const STR = {
+  en: {
+    home: 'Home', navCta: 'Free first class', heroCta: 'Book the free first class', pdCta: 'Book a priority demo', wa: 'Ask on WhatsApp',
+    glance: 'At a glance', trust: () => `${BRAND.rating} across ${BRAND.reviews} Google reviews`, syllabus: 'Open the syllabus',
+    projEyebrow: 'Student work', by: 'by', openIt: 'Open it', feesEyebrow: 'Fees', freeName: 'Free first class', free: 'Free', usd0: 'USD 0',
+    noCard: 'no card required', bookIt: 'Book it', groupName: 'Group batch', perMonth8: 'a month, eight live classes', billedUsd: 'a month, billed in US dollars',
+    startHere: 'Start here', oneName: 'One to one', enquire: 'Enquire', revEyebrow: 'What families say', revH2: () => `Rated ${BRAND.rating} across ${BRAND.reviews} Google reviews`,
+    partOf: 'Part of the guide:', more: 'More guides:', startEyebrow: 'Start here', waUs: 'WhatsApp us', yourName: 'Your name', namePh: 'Parent or student name',
+    phoneIn: (name, dial) => 'Phone or WhatsApp, ' + name + ' ' + dial, phoneAny: 'Phone or WhatsApp, including your country code', ageLabel: 'Learner age group',
+    ages: ['Child, 6 to 12', 'Teen, 13 to 18', 'University student', 'Working professional'], submit: 'Request the free class',
+    pdH3: 'Want a class sooner? Book a priority demo', pdP: () => `A priority demo is a full class of ${PD.length}. ${PD.report} ${PD.feeCredit}`,
+    footAbout: () => `Live online coding, AI and mathematics for ages ${BRAND.ages}. Teaching since ${BRAND.founded}, more than
+          ${BRAND.students.replace('+', '')} students across ${BRAND.countries} countries.`,
+    company: 'Company', about: 'About us', howTeach: 'How we teach', reviewsL: 'Reviews', contact: 'Contact', copy: '&copy; 2026 Modern Age Coders. Live online classes worldwide.',
+    stickyFree: 'Free class', stickyPd: 'Priority demo', call: 'Call us',
+    badPhoneIn: name => 'Please enter a valid ' + name + ' phone number.', badPhoneAny: 'Please enter a valid phone number, including your country code.',
+    sending: 'Sending...', thanks: 'Thank you', willCall: '. A mentor will call you shortly.', wrong: 'Something went wrong. Please try again.', network: 'Network error. Please try again.',
+    mdGlance: 'At a glance', mdRated: () => `Rated ${BRAND.rating} across ${BRAND.reviews} Google reviews.`, mdFree: 'Free first class', mdGroup: 'Group batch', mdOne: 'One to one', mdMonth: 'a month',
+    mdPartOf: 'Part of the guide', mdMore: 'More guides', mdContact: 'Contact',
+    mdContactP: url => `Book the free first class at [${url}](${url}#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.`,
+    langRow: ['Teaching language', 'Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner'],
+    billedDe: 'a month, eight live classes, charged in US dollars'
+  },
+  de: {
+    home: 'Startseite', navCta: 'Kostenlose Probestunde', heroCta: 'Kostenlose Probestunde buchen', pdCta: 'Priority Demo buchen', wa: 'Per WhatsApp fragen',
+    glance: 'Auf einen Blick', trust: () => `${deNum(BRAND.rating)} von 5 bei ${BRAND.reviews} Google-Bewertungen`, syllabus: 'Zum Lehrplan',
+    projEyebrow: 'Projekte unserer Lernenden', by: 'von', openIt: 'Öffnen', feesEyebrow: 'Preise', freeName: 'Kostenlose Probestunde', free: 'Kostenlos', usd0: 'Kostenlos',
+    noCard: 'keine Karte nötig', bookIt: 'Buchen', groupName: 'Gruppenkurs', perMonth8: 'pro Monat, acht Live-Stunden', billedUsd: 'pro Monat, acht Live-Stunden',
+    startHere: 'Hier starten', oneName: 'Einzelunterricht', enquire: 'Anfragen', revEyebrow: 'Was Familien sagen', revH2: () => `${deNum(BRAND.rating)} von 5 bei ${BRAND.reviews} Google-Bewertungen`,
+    partOf: 'Teil des Leitfadens:', more: 'Weitere Leitfäden:', startEyebrow: 'Jetzt starten', waUs: 'Per WhatsApp schreiben', yourName: 'Ihr Name', namePh: 'Name von Elternteil oder Lernendem',
+    phoneIn: (name, dial) => 'Telefon oder WhatsApp, ' + (name === 'Germany' ? 'Deutschland' : name) + ' ' + dial, phoneAny: 'Telefon oder WhatsApp, mit Ländervorwahl', ageLabel: 'Altersgruppe',
+    ages: ['Kind, 6 bis 12', 'Jugendliche, 13 bis 18', 'Studierende', 'Berufstätige'], submit: 'Kostenlose Probestunde anfragen',
+    pdH3: 'Lieber früher starten? Priority Demo buchen',
+    pdP: () => 'Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.',
+    footAbout: () => `Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von ${BRAND.ages.replace(' to ', ' bis ')} Jahren. Wir unterrichten seit ${BRAND.founded}, mehr als
+          ${BRAND.students.replace('+', '').replace(',', '.')} Lernende in ${BRAND.countries.replace('+', '')} Ländern.`,
+    company: 'Unternehmen', about: 'Über uns', howTeach: 'So unterrichten wir', reviewsL: 'Bewertungen', contact: 'Kontakt', copy: '&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.',
+    stickyFree: 'Probestunde', stickyPd: 'Priority Demo', call: 'Anrufen',
+    badPhoneIn: () => 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.', badPhoneAny: 'Bitte geben Sie eine gültige Telefonnummer mit Ländervorwahl ein.',
+    sending: 'Wird gesendet...', thanks: 'Vielen Dank', willCall: '. Ein Mentor ruft Sie in Kürze an.', wrong: 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.', network: 'Netzwerkfehler. Bitte versuchen Sie es erneut.',
+    mdGlance: 'Auf einen Blick', mdRated: () => `${deNum(BRAND.rating)} von 5 bei ${BRAND.reviews} Google-Bewertungen.`, mdFree: 'Kostenlose Probestunde', mdGroup: 'Gruppenkurs', mdOne: 'Einzelunterricht', mdMonth: 'pro Monat',
+    mdPartOf: 'Teil des Leitfadens', mdMore: 'Weitere Leitfäden', mdContact: 'Kontakt',
+    mdContactP: url => `Kostenlose Probestunde buchen unter [${url}](${url}#start), per WhatsApp oder telefonisch unter +91 91233 66161 (eine indische Nummer, der tatsächliche Kontakt von Modern Age Coders) oder per E-Mail an connect@modernagecoders.com.`,
+    langRow: ['Unterrichtssprache', 'Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein'],
+    billedDe: 'pro Monat, acht Live-Stunden, abgerechnet in US-Dollar'
+  }
+};
+const isDe = page => /^de\b/i.test((page.market && page.market.lang) || '');
+const T = page => isDe(page) ? STR.de : STR.en;
+// Every Germany page (English or German) states the teaching language in its at-a-glance panel
+// (owner 2026-11-02: classes are live, in English only, matching the learner's pace and accent).
+const specRows = page => (page.market && page.market.iso === 'DE') ? [T(page).langRow].concat(page.spec) : page.spec;
+
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const plain = s => String(s).replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
 const groupLabel = () => BRAND.batchSizes.group.replace(/[–—-]/, ' to ');
@@ -99,7 +162,8 @@ function section(s) {
   return `<section class="ag-section${tint}"${s.id ? ` id="${s.id}"` : ''}>\n  <div class="ag-wrap">\n    ${head}\n    ${s.body.map(block).join('\n    ')}\n  </div>\n</section>`;
 }
 
-function pick(item, n) {
+function pick(item, n, L) {
+  L = L || STR.en;
   const c = course(item.course);
   return `      <a class="ag-pick" href="${c.url}">
         <div class="ag-pick-shot"><img src="${c.image}" alt="${esc(item.alt || (c.title.split(':')[0] + ' course thumbnail'))}" width="800" height="450" loading="lazy"></div>
@@ -107,18 +171,19 @@ function pick(item, n) {
           <p class="ag-pick-code">${esc(item.code || ('NL / ' + String(n + 1).padStart(2, '0')))}</p>
           <h3>${esc(item.title || c.title.split(':')[0])}</h3>
           <p>${item.note}</p>
-          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+          <span class="ag-pick-go">${L.syllabus} <span>&rarr;</span></span>
         </div>
       </a>`;
 }
 
-function courseCard(x) {
+function courseCard(x, L) {
+  L = L || STR.en;
   const c = course(x.slug);
   return `        <article class="ag-course">
           <p class="ag-course-code">${esc(x.code)}</p>
           <h4>${esc(x.title || c.title.split(':')[0])}</h4>
           <p>${x.blurb}</p>
-          <a class="ag-course-link" href="${c.url}">Open the syllabus</a>
+          <a class="ag-course-link" href="${c.url}">${L.syllabus}</a>
         </article>`;
 }
 
@@ -144,6 +209,7 @@ function jsonLd(page) {
 
 function leadScript(page) {
   const m = page.market;
+  const L = T(page);
   const fn = 'submitLead_' + page.code;
   return `<script>
 window.${fn} = function (e) {
@@ -157,14 +223,14 @@ window.${fn} = function (e) {
   if (phoneDigits.indexOf('00${String(m.dial).replace(/\D/g, '')}') === 0) phoneDigits = phoneDigits.slice(${String(m.dial).replace(/\D/g, '').length + 2});
   else if (phoneDigits.indexOf('${String(m.dial).replace(/\D/g, '')}') === 0 && phoneDigits.length > ${m.minDigits}) phoneDigits = phoneDigits.slice(${String(m.dial).replace(/\D/g, '').length});
   if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);` : ''}
-  if (phoneDigits.length < ${m.minDigits}) { if (note) note.textContent = '${m.iso ? 'Please enter a valid ' + m.name + ' phone number.' : 'Please enter a valid phone number, including your country code.'}'; return; }${m.maxDigits ? `
+  if (phoneDigits.length < ${m.minDigits}) { if (note) note.textContent = '${m.iso ? L.badPhoneIn(m.name) : L.badPhoneAny}'; return; }${m.maxDigits ? `
   // The country picker hands a visitor from another country an international number; only a number for
   // this page's country gets the national length and first-digit checks.
   var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== '${m.iso}';
-  if (!foreignLead && (phoneDigits.length > ${m.maxDigits}${m.nationalStart ? ` || !/^[${m.nationalStart}]/.test(phoneDigits)` : ''})) { if (note) note.textContent = 'Please enter a valid ${m.name} phone number.'; return; }` : ''}
+  if (!foreignLead && (phoneDigits.length > ${m.maxDigits}${m.nationalStart ? ` || !/^[${m.nationalStart}]/.test(phoneDigits)` : ''})) { if (note) note.textContent = '${L.badPhoneIn(m.name)}'; return; }` : ''}
   var btn = form.querySelector('button[type="submit"]');
   var oldText = btn.textContent;
-  btn.disabled = true; btn.textContent = 'Sending...';
+  btn.disabled = true; btn.textContent = '${L.sending}';
   var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
     ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
   fetch(API_URL + '/api/callback/request', {
@@ -176,13 +242,13 @@ window.${fn} = function (e) {
     })
   }).then(function (r) { return r.json(); }).then(function (data) {
     if (data && data.success) {
-      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+      form.innerHTML = '<p class="ag-form-ok">${L.thanks}' + (name ? ', ' + name.split(' ')[0] : '') + '${L.willCall}</p>';
     } else {
-      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      if (note) note.textContent = (data && data.message) || '${L.wrong}';
       btn.disabled = false; btn.textContent = oldText;
     }
   }).catch(function () {
-    if (note) note.textContent = 'Network error. Please try again.';
+    if (note) note.textContent = '${L.network}';
     btn.disabled = false; btn.textContent = oldText;
   });
 };
@@ -204,6 +270,7 @@ function render(page) {
   const wa = WA + encodeURIComponent(page.wa);
   const fn = 'submitLead_' + page.code;
   const fid = m.iso ? m.iso.toLowerCase() : 'intl';
+  const L = T(page);
 
   const head = `<!DOCTYPE html>
 <html lang="${m.lang}">
@@ -264,14 +331,14 @@ ${jsonLd(page)}
     <ul class="ag-nav-links">
       ${page.navLinks.map(l => `<li><a href="${l.href}">${esc(l.label)}</a></li>`).join('\n      ')}
     </ul>
-    <a href="#start" class="ag-btn">Free first class</a>
+    <a href="#start" class="ag-btn">${L.navCta}</a>
   </div>
 </nav>`;
 
   const hero = `<header class="ag-hero">
   <div class="ag-wrap">
     <nav class="ag-crumbs" aria-label="Breadcrumb">
-      <a href="/">Home</a> / ${page.crumbs.map(c => `<a href="${c.href}">${esc(c.name)}</a>`).join(' / ')} / ${page.crumbLabel}
+      <a href="/">${L.home}</a> / ${page.crumbs.map(c => `<a href="${c.href}">${esc(c.name)}</a>`).join(' / ')} / ${page.crumbLabel}
     </nav>
     <div class="ag-hero-grid ag-mt-40">
       <div>
@@ -279,22 +346,22 @@ ${jsonLd(page)}
         <h1>${page.h1}</h1>
         <p class="ag-lede">${page.lede}</p>
         <div class="ag-btn-row">
-          <a href="#start" class="ag-btn">Book the free first class</a>
-          ${pdLink('ag-hero', 'ag-btn ag-btn--pd', 'Book a priority demo')}
+          <a href="#start" class="ag-btn">${L.heroCta}</a>
+          ${pdLink('ag-hero', 'ag-btn ag-btn--pd', L.pdCta)}
           <a href="${page.secondaryCta.href}" class="ag-btn ag-btn--ghost">${esc(page.secondaryCta.label)}</a>
-          <a href="${wa}" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'${page.code}'});">Ask on WhatsApp</a>
+          <a href="${wa}" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'${page.code}'});">${L.wa}</a>
         </div>
         <p class="ag-hero-note">${page.heroNote}</p>
       </div>
 
       <aside class="ag-spec">
-        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-spec-title">${L.glance}</p>
         <p class="ag-trust">
           ${stars()}
-          ${BRAND.rating} across ${BRAND.reviews} Google reviews
+          ${L.trust()}
         </p>
         <dl>
-          ${page.spec.map(r => `<dt>${esc(r[0])}</dt><dd>${r[1]}</dd>`).join('\n          ')}
+          ${specRows(page).map(r => `<dt>${esc(r[0])}</dt><dd>${r[1]}</dd>`).join('\n          ')}
         </dl>
       </aside>
     </div>
@@ -318,7 +385,7 @@ ${jsonLd(page)}
       <p class="ag-lede">${page.picks.lede}</p>
     </div>
     <div class="ag-picks">
-${page.picks.items.map(pick).join('\n')}
+${page.picks.items.map((it, n) => pick(it, n, L)).join('\n')}
     </div>
   </div>
 </section>`;
@@ -351,7 +418,7 @@ ${page.catalogue.bands.map(b => `    <div class="ag-band">
         <span class="ag-band-sub">${b.sub}</span>
       </div>
       <div class="ag-grid-${b.courses.length >= 4 ? 4 : 3}">
-${b.courses.map(courseCard).join('\n')}
+${b.courses.map(x => courseCard(x, L)).join('\n')}
       </div>
     </div>`).join('\n')}
   </div>
@@ -376,20 +443,20 @@ ${b.courses.map(courseCard).join('\n')}
   const projects = `<section class="ag-section ag-section--tint">
   <div class="ag-wrap">
     <div class="ag-section-head">
-      <p class="ag-eyebrow">Student work</p>
+      <p class="ag-eyebrow">${L.projEyebrow}</p>
       <h2>${page.projectsH2}</h2>
       <p class="ag-lede">${page.projectsLede}</p>
     </div>
     <div class="ag-grid-4">
-${PROJECTS.map(p => `      <article class="ag-proj">
+${PROJECTS.map(p0 => { const t = isDe(page) ? PROJECTS_DE[p0[3]] : null; const p = t ? [p0[0], t[0], t[1], p0[3], t[2], p0[5], p0[6]] : p0; return `      <article class="ag-proj">
         <div class="ag-proj-shot"><img src="/images/projects/${p[0]}" alt="${p[1]}" loading="lazy" width="400" height="250"></div>
         <div class="ag-proj-body">
           <p class="ag-proj-cat">${p[2]}</p>
           <h4>${p[3]}</h4>
           <p>${p[4]}</p>
-          <p class="ag-proj-meta">by ${p[5]}${p[6] ? ` &middot; <a href="${p[6]}" rel="noopener" target="_blank">Open it</a>` : ''}</p>
+          <p class="ag-proj-meta">${L.by} ${p[5]}${p[6] ? ` &middot; <a href="${p[6]}" rel="noopener" target="_blank">${L.openIt}</a>` : ''}</p>
         </div>
-      </article>`).join('\n')}
+      </article>`; }).join('\n')}
     </div>
   </div>
 </section>`;
@@ -397,33 +464,33 @@ ${PROJECTS.map(p => `      <article class="ag-proj">
   const fees = `<section class="ag-section" id="fees">
   <div class="ag-wrap">
     <div class="ag-section-head">
-      <p class="ag-eyebrow">Fees</p>
+      <p class="ag-eyebrow">${L.feesEyebrow}</p>
       <h2>${page.fees.h2}</h2>
       <p class="ag-lede">${page.fees.lede}</p>
     </div>
     <div class="ag-grid-3">
       <div class="ag-price">
-        <p class="ag-price-name">Free first class</p>
-        <p class="ag-price-amt">${neutralFee(page) ? 'Free' : 'USD 0'}</p>
-        <p class="ag-price-alt">no card required</p>
+        <p class="ag-price-name">${L.freeName}</p>
+        <p class="ag-price-amt">${neutralFee(page) ? L.free : L.usd0}</p>
+        <p class="ag-price-alt">${L.noCard}</p>
         <ul>${page.fees.free.map(x => `<li>${x}</li>`).join('')}</ul>
-        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+        <a href="#start" class="ag-btn ag-btn--ghost">${L.bookIt}</a>
       </div>
       <div class="ag-price ag-price--feature">
-        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-name">${L.groupName}</p>
         ${neutralFee(page) ? `<p class="ag-price-amt">${feeAnchor(page, 'group')}</p>
-        <p class="ag-price-alt">a month, eight live classes</p>` : `<p class="ag-price-amt">USD 100</p>
-        <p class="ag-price-alt">a month, billed in US dollars</p>`}
+        <p class="ag-price-alt">${feeRegion(page) === 'germany' ? L.billedDe : L.perMonth8}</p>` : `<p class="ag-price-amt">USD 100</p>
+        <p class="ag-price-alt">${L.billedUsd}</p>`}
         <ul>${page.fees.group.map(x => `<li>${x}</li>`).join('')}</ul>
-        <a href="#start" class="ag-btn">Start here</a>
+        <a href="#start" class="ag-btn">${L.startHere}</a>
       </div>
       <div class="ag-price">
-        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-name">${L.oneName}</p>
         ${neutralFee(page) ? `<p class="ag-price-amt">${feeAnchor(page, 'personal')}</p>
-        <p class="ag-price-alt">a month, eight live classes</p>` : `<p class="ag-price-amt">USD 150</p>
-        <p class="ag-price-alt">a month, billed in US dollars</p>`}
+        <p class="ag-price-alt">${feeRegion(page) === 'germany' ? L.billedDe : L.perMonth8}</p>` : `<p class="ag-price-amt">USD 150</p>
+        <p class="ag-price-alt">${L.billedUsd}</p>`}
         <ul>${page.fees.one.map(x => `<li>${x}</li>`).join('')}</ul>
-        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+        <a href="#start" class="ag-btn ag-btn--ghost">${L.enquire}</a>
       </div>
     </div>
   </div>
@@ -432,8 +499,8 @@ ${PROJECTS.map(p => `      <article class="ag-proj">
   const reviews = `<section class="ag-section ag-section--tint">
   <div class="ag-wrap">
     <div class="ag-section-head">
-      <p class="ag-eyebrow">What families say</p>
-      <h2>Rated ${BRAND.rating} across ${BRAND.reviews} Google reviews</h2>
+      <p class="ag-eyebrow">${L.revEyebrow}</p>
+      <h2>${L.revH2()}</h2>
       <p class="ag-lede">${page.reviewsLede}</p>
     </div>
     <div class="ag-grid-3">
@@ -481,11 +548,11 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
   const related = !rel ? '' : `<section class="ag-section ag-siblings" aria-label="${esc(rel.h2)}">
   <div class="ag-wrap">
     <h2 class="ag-siblings-h2">${esc(rel.h2)}</h2>${rel.index ? `
-    <p class="ag-siblings-index">Part of the guide: <a class="ag-inline-link" href="${rel.index.href}">${esc(rel.index.label)}</a></p>` : ''}
+    <p class="ag-siblings-index">${L.partOf} <a class="ag-inline-link" href="${rel.index.href}">${esc(rel.index.label)}</a></p>` : ''}
     <div class="ag-siblings-cols">
       ${rel.sections.map(s => `<div class="ag-siblings-col"><h3>${esc(s.name)}</h3><ul>${s.links.map(l => `<li><a href="${l.href}">${esc(l.label)}</a></li>`).join('')}</ul></div>`).join('\n      ')}
     </div>${rel.others.length ? `
-    <p class="ag-siblings-more">More guides: ${rel.others.map(o => `<a class="ag-inline-link" href="${o.href}">${esc(o.label)}</a>`).join(' &middot; ')}</p>` : ''}
+    <p class="ag-siblings-more">${L.more} ${rel.others.map(o => `<a class="ag-inline-link" href="${o.href}">${esc(o.label)}</a>`).join(' &middot; ')}</p>` : ''}
   </div>
 </section>`;
 
@@ -493,12 +560,12 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
   <div class="ag-wrap">
     <div class="ag-grid-2" style="align-items:start">
       <div>
-        <p class="ag-eyebrow">Start here</p>
+        <p class="ag-eyebrow">${L.startEyebrow}</p>
         <h2>${page.start.h2}</h2>
         <p class="ag-lede">${page.start.lede}</p>
         <p class="ag-mt-40">${page.start.readFirst}</p>
         <p class="ag-mt-40">
-          <a class="ag-inline-link" href="${wa}" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'${page.code}',pos:'end'});">WhatsApp us</a>
+          <a class="ag-inline-link" href="${wa}" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'${page.code}',pos:'end'});">${L.waUs}</a>
           &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
           &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
         </p>
@@ -507,21 +574,21 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
       <div class="ag-form-panel">
         <form onsubmit="${fn}(event)" novalidate>
           <div class="ag-field">
-            <label for="${fid}-name">Your name</label>
-            <input id="${fid}-name" type="text" name="name" placeholder="Parent or student name" required>
+            <label for="${fid}-name">${L.yourName}</label>
+            <input id="${fid}-name" type="text" name="name" placeholder="${L.namePh}" required>
           </div>
           <div class="ag-field">
-            <label for="${fid}-phone">${m.iso ? 'Phone or WhatsApp, ' + esc(m.name) + ' ' + esc(m.dial) : 'Phone or WhatsApp, including your country code'}</label>
+            <label for="${fid}-phone">${m.iso ? L.phoneIn(esc(m.name), esc(m.dial)) : L.phoneAny}</label>
             <input id="${fid}-phone" type="tel" name="phone" placeholder="${esc(m.phonePlaceholder)}" required>
           </div>
           <div class="ag-field">
-            <label for="${fid}-age">Learner age group</label>
-            <select id="${fid}-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+            <label for="${fid}-age">${L.ageLabel}</label>
+            <select id="${fid}-age" name="age"><option value="6-12">${L.ages[0]}</option><option value="13-18">${L.ages[1]}</option><option value="college">${L.ages[2]}</option><option value="adult">${L.ages[3]}</option></select>
           </div>
-          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <button type="submit" class="ag-btn" style="width:100%">${L.submit}</button>
           <p class="ag-form-note">${page.start.formNote}</p>
         </form>
-        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of ${esc(PD.length)}. ${esc(PD.report)} ${esc(PD.feeCredit)}</p>${pdLink('ag-book', 'ag-btn ag-btn--pd', 'Book a priority demo')}</div>
+        <div class="ag-pd-card"><h3>${L.pdH3}</h3><p>${esc(L.pdP())}</p>${pdLink('ag-book', 'ag-btn ag-btn--pd', L.pdCta)}</div>
       </div>
     </div>
   </div>
@@ -533,29 +600,28 @@ ${page.faq.items.map(f => `      <div class="ag-faq-item">
       <div>
         <h4>Modern Age Coders</h4>
         <p style="font-size:.9rem;opacity:.82">
-          Live online coding, AI and mathematics for ages ${BRAND.ages}. Teaching since ${BRAND.founded}, more than
-          ${BRAND.students.replace('+', '')} students across ${BRAND.countries} countries.
+          ${L.footAbout()}
         </p>
       </div>
       ${page.footer.cols.map(c => `<div><h4>${esc(c.h4)}</h4><ul>${c.links.map(l => `<li><a href="${l.href}">${esc(l.label)}</a></li>`).join('')}</ul></div>`).join('\n      ')}
       <div>
-        <h4>Company</h4>
+        <h4>${L.company}</h4>
         <ul>
-          <li><a href="/about">About us</a></li>
-          <li><a href="/how-we-teach">How we teach</a></li>
-          <li><a href="/love">Reviews</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/about">${L.about}</a></li>
+          <li><a href="/how-we-teach">${L.howTeach}</a></li>
+          <li><a href="/love">${L.reviewsL}</a></li>
+          <li><a href="/contact">${L.contact}</a></li>
         </ul>
       </div>
     </div>
     <div class="ag-footer-bottom">
-      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>${L.copy}</span>
       <span>${page.footer.bottomRight}</span>
     </div>
   </div>
 </footer>`;
 
-  return [head, '', hero, '', capsule, '', picks, '', sections, '', ladder, '', catalogue, '', how, '', projects, '', fees, '', reviews, '', faq, '', elsewhere, '', related, '', start, '', footer, '', `<div class="ag-sticky"><a href="#start">Free class</a>${pdLink('ag-sticky', 'ag-sticky-pd', 'Priority demo')}<a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>`, '', leadScript(page), '', '</body>', '</html>', ''].join('\n');
+  return [head, '', hero, '', capsule, '', picks, '', sections, '', ladder, '', catalogue, '', how, '', projects, '', fees, '', reviews, '', faq, '', elsewhere, '', related, '', start, '', footer, '', `<div class="ag-sticky"><a href="#start">${L.stickyFree}</a>${pdLink('ag-sticky', 'ag-sticky-pd', L.stickyPd)}<a href="tel:+919123366161" aria-label="${isDe(page) ? 'Anrufen' : 'Call'} +91 91233 66161">${L.call}</a></div>`, '', leadScript(page), '', '</body>', '</html>', ''].join('\n');
 }
 
 // ---------------------------------------------------------------- md twin
@@ -585,12 +651,13 @@ function mdBlock(b) {
 }
 function twin(page) {
   page = withGroup(page);
+  const L = T(page);
   const url = SITE + '/' + page.slug;
   const out = ['---', `title: ${JSON.stringify(page.title)}`, `description: ${JSON.stringify(page.description)}`, `canonical: ${url}`, `source: src/pages/${page.slug}.html`, '---'];
   out.push(`> ${md(page.capsule)}`, '');
-  out.push('[Home](/) / ' + page.crumbs.map(c => `[${c.name}](${c.href})`).join(' / ') + ' / ' + md(page.crumbLabel), '');
+  out.push(`[${L.home}](/) / ` + page.crumbs.map(c => `[${c.name}](${c.href})`).join(' / ') + ' / ' + md(page.crumbLabel), '');
   out.push(md(page.eyebrow), '', `# ${md(page.h1)}`, '', md(page.lede), '');
-  out.push('At a glance: ' + page.spec.map(r => `${r[0]}: ${md(r[1])}`).join('; ') + `. Rated ${BRAND.rating} across ${BRAND.reviews} Google reviews.`, '');
+  out.push(L.mdGlance + ': ' + specRows(page).map(r => `${r[0]}: ${md(r[1])}`).join('; ') + '. ' + L.mdRated(), '');
   out.push(`## ${md(page.picks.h2)}`, '', md(page.picks.lede), '');
   page.picks.items.forEach(i => { const c = course(i.course); out.push(`- [${i.title || c.title.split(':')[0]}](${c.url}): ${md(i.note)}`); });
   out.push('');
@@ -603,7 +670,7 @@ function twin(page) {
   out.push('');
   for (const c of page.how.cells) out.push(`- **${md(c.h3)}** ${md(c.p)}`);
   out.push('');
-  out.push(`## ${md(page.fees.h2)}`, '', md(page.fees.lede), '', `- Free first class: ${feeText(page, 'free')}. ${page.fees.free.map(md).join('. ')}.`, `- Group batch: ${feeText(page, 'group')} a month. ${page.fees.group.map(md).join('. ')}.`, `- One to one: ${feeText(page, 'personal')} a month. ${page.fees.one.map(md).join('. ')}.`, '');
+  out.push(`## ${md(page.fees.h2)}`, '', md(page.fees.lede), '', `- ${L.mdFree}: ${feeText(page, 'free')}. ${page.fees.free.map(md).join('. ')}.`, `- ${L.mdGroup}: ${feeText(page, 'group')} ${L.mdMonth}. ${page.fees.group.map(md).join('. ')}.`, `- ${L.mdOne}: ${feeText(page, 'personal')} ${L.mdMonth}. ${page.fees.one.map(md).join('. ')}.`, '');
   out.push(`## ${md(page.faq.h2)}`, '');
   for (const f of page.faq.items) out.push(`### ${md(f.q)}`, '', md(f.a), '');
   out.push(`## ${md(page.elsewhere.h2)}`, '');
@@ -611,11 +678,11 @@ function twin(page) {
   const rel = page.cluster_related;
   if (rel) {
     out.push('', `## ${md(rel.h2)}`, '');
-    if (rel.index) out.push(`Part of the guide: [${rel.index.label}](${rel.index.href})`, '');
+    if (rel.index) out.push(`${L.mdPartOf}: [${rel.index.label}](${rel.index.href})`, '');
     for (const sec of rel.sections) { out.push(`### ${md(sec.name)}`, ''); for (const l of sec.links) out.push(`- [${l.label}](${l.href})`); out.push(''); }
-    if (rel.others.length) out.push('More guides: ' + rel.others.map(o => `[${o.label}](${o.href})`).join(', '));
+    if (rel.others.length) out.push(L.mdMore + ': ' + rel.others.map(o => `[${o.label}](${o.href})`).join(', '));
   }
-  out.push('', '## Contact', '', `Book the free first class at [${url}](${url}#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.`, '');
+  out.push('', '## ' + L.mdContact, '', L.mdContactP(url), '');
   return out.join('\n');
 }
 

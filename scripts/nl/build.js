@@ -26,7 +26,7 @@ const slug = process.argv[2];
 const DRY = process.argv.includes('--dry-run');
 if (!slug) { console.error('usage: node scripts/nl/build.js <slug> [--dry-run]'); process.exit(2); }
 
-const MARKET_DIRS = ['nl', 'ie', 'uk', 'au', 'us', 'ca'];
+const MARKET_DIRS = ['nl', 'ie', 'uk', 'au', 'us', 'ca', 'de'];
 const modPath = MARKET_DIRS.map(d => path.join(ROOT, 'content', d, slug + '.js')).find(p => fs.existsSync(p));
 if (!modPath) { console.error('no content module for ' + slug + ' in content/' + MARKET_DIRS.join(', content/')); process.exit(2); }
 delete require.cache[require.resolve(modPath)];
@@ -145,6 +145,33 @@ if (LEAD_ISO === 'CA') {
   if (/–|&ndash;/.test(vis)) fail('en dash on a Canadian page');
   if (!/<html lang="en(-CA)?"/.test(html)) fail('html lang must be en or en-CA on a Canadian page');
   if (page.courseCodePage && !/do not (grant|award|issue) (any )?(Ontario |provincial )?(high school )?credits?/i.test(vis.replace(/<[^>]+>/g, ' '))) fail('course-code page without the no-credit sentence ("we do not grant Ontario credits")');
+}
+// Germany (spec docs/superpowers/specs/2026-11-02-de-cluster-design.md, section 3; owner 2026-11-02). Pages show
+// euro through data-price anchors only (USD is charged at checkout, never printed as a fee); every page says the
+// classes are live and in English only (owner: "classes are live in english only matching your pace and accent");
+// German pages address parents formally (Sie, never du); no accreditation is claimed.
+if (LEAD_ISO === 'DE') {
+  const vis = html.replace(/<script[\s\S]*?<\/script>/g, ' ');
+  const MARKET = /<span\b[^>]*\bdata-market-price\b[^>]*>([^<]*)<\/span>/g;
+  for (const m of vis.matchAll(MARKET)) {
+    if (!page.marketPrices) fail('data-market-price outside a cost page: set marketPrices: true on the module');
+    if (!/\bdata-no-price-swap\b/.test(m[0])) fail('data-market-price without data-no-price-swap: the pricing script would convert it');
+  }
+  const copy = vis.replace(MARKET, ' ').replace(/<pre[\s\S]*?<\/pre>/g, ' ').replace(/<[^>]*data-price=[^>]*>[^<]*</g, '<');
+  const text = copy.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ');
+  if (/\bIST\b/.test(text)) fail('bare IST on a Germany page: write India time (indische Zeit) and German time (deutsche Zeit, MEZ/MESZ)');
+  if (/weekend batch|Wochenendkurs/i.test(text)) fail('fixed weekend batch on a Germany page: use the flexible timing line');
+  if (/\$\s?\d|\bUSD\s?\d|\d\s?USD\b/.test(text)) fail('typed dollar figure on a Germany page: our fees are euro anchors (data-price) only');
+  if (/€\s?\d|\d\s?€|\bEUR\s?\d|\d\s?(?:EUR|Euro)\b/.test(text)) fail('typed euro figure on a Germany page: fees go through data-price anchors; other providers\' fees through data-market-price on a cost page');
+  if (/\bpremium\b/i.test(text)) fail("'Premium' on a Germany page");
+  if (/–|&ndash;/.test(vis)) fail('en dash on a Germany page');
+  if (!/<html lang="(en|de)-DE"/.test(html)) fail('html lang must be en-DE or de-DE on a Germany page');
+  if (/\b(ZFU-(?:zugelassen|zertifiziert)|staatlich (?:anerkannt|zugelassen)|AZAV-zertifiziert|Bildungsgutschein (?:möglich|akzeptiert))\b/i.test(text)) fail('accreditation claim on a Germany page: we hold none (spec section 3.4)');
+  const de = /^de-/.test(page.market.lang);
+  const cap = (page.capsule || '').replace(/<[^>]+>/g, ' ');
+  if (de && !/auf Englisch/.test(cap)) fail('German page capsule must say the classes are "auf Englisch"');
+  if (!de && !/\bin English\b/.test(cap)) fail('Germany page capsule must say the classes are "in English"');
+  if (de && /\b(du|dein|deine|deinen|deinem|deiner|dich|dir)\b/.test(text.replace(/\bDu\b/g, ''))) fail('German page uses "du": address parents and learners formally (Sie)');
 }
 if (DRY) {
   const vw = html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<head[\s\S]*?<\/head>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;|&#\d+;/gi, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).length;
