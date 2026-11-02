@@ -201,6 +201,15 @@ function showPrices(config) {
         console.log('      Group ' + cad(ca('coding', 'group')) + '/month, 1-on-1 ' + cad(ca('coding', 'personal')) + '/month, Gemini 1-on-1 ' +
             cad(ca('gemini', 'personal')) + '/month, camp ' + cad(ca('camps', 'oneTime')) + ', 6 months: group ' + cad(six.group) + ', 1-on-1 ' + cad(six.personal));
     }
+    if (config.germany) {
+        const g = config.germany, eur = function (k) { const r = cfgLib.resolve(k, config); return r.exists ? cfgLib.format(r.amount, 'EUR') : 'not sold'; };
+        const six = config.sixMonth && config.sixMonth.international || {};
+        console.log('');
+        console.log('    Germany, display only, charged in USD (' + (g.live ? 'LIVE for German time zones' : 'NOT live: only ?test=germany shows it') +
+            ', ECB 1 EUR = ' + g.usdPerEur + ' USD on ' + g.rateDate + '):');
+        console.log('      Group ' + eur('coding.germany.group') + '/month, 1-on-1 ' + eur('coding.germany.personal') + '/month, camp ' + eur('camps.germany.oneTime') +
+            ', 6 months: group ' + cfgLib.format(cfgLib.eurFromUsd(six.group, config), 'EUR') + ', 1-on-1 ' + cfgLib.format(cfgLib.eurFromUsd(six.personal, config), 'EUR'));
+    }
     const offer = config.sixMonth && config.sixMonth.appliesTo && cfgLib.sixMonthOffer(config.sixMonth.appliesTo[0], config);
     if (offer) {
         console.log('');

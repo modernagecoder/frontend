@@ -341,7 +341,7 @@ function checkFile(rel, config) {
             // pages legitimately publish INR and USD offers in one block.
             const curM = offerText.match(/"priceCurrency"\s*:\s*"([^"]*)"/);
             const region = (curM && curM[1] === 'INR') ? 'india'
-                : (curM && curM[1] === 'CAD') ? 'canada' : scope.split('.')[1];
+                : (curM && curM[1] === 'CAD') ? 'canada' : (curM && curM[1] === 'EUR') ? 'germany' : scope.split('.')[1];
             const key = scope.split('.')[0] + '.' + region + '.' + tier;
 
             let r;

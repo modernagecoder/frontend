@@ -27,6 +27,19 @@ const DATA_DIR = path.join(REPO_ROOT, 'pricing', 'data');
 
 // canada (owner 2026-10-22/23): CAD for visitors in a Canadian time zone.
 const REGIONS = ['india', 'international', 'canada'];
+// germany (owner 2026-11-02): a DISPLAY-only region. Germany pages and visitors in a German time zone
+// see the euro equivalent of the international USD price at the ECB reference rate in config.germany;
+// checkout still charges the USD amount. It has no table of its own, so it is not in REGIONS: every
+// script that iterates REGIONS (course prices, six-month cards, verify) is unchanged.
+const DISPLAY_REGIONS = ['germany'];
+
+/** USD to whole euro at the configured ECB rate (1 EUR = usdPerEur USD). */
+function eurFromUsd(usd, config) {
+    const cfg = config || load();
+    const g = cfg.germany;
+    if (!g || !(g.usdPerEur > 0)) throw new Error('config.germany.usdPerEur is missing: the euro display needs the ECB rate');
+    return Math.round(usd / g.usdPerEur);
+}
 // lifetime was retired 2026-07-31 and removed from the schema entirely on
 // 2026-08-01 with the worldwide layer.
 const MONTHLY_TIERS = ['group', 'miniBatch', 'personal'];
@@ -117,6 +130,16 @@ function resolve(key, config) {
     }
     const [subject, region, tier] = parts;
 
+    if (region === 'germany') {
+        const base = resolve(subject + '.international.' + tier, cfg);
+        return Object.assign({}, base, {
+            region: 'germany',
+            currency: 'EUR',
+            amount: base.exists ? eurFromUsd(base.amount, cfg) : base.amount,
+            charged: { amount: base.amount, currency: base.currency }
+        });
+    }
+
     const subjectTable = cfg.plans[subject];
     if (!subjectTable) {
         throw new Error('Unknown subject "' + subject + '" in price key "' + key +
@@ -124,7 +147,7 @@ function resolve(key, config) {
     }
     if (REGIONS.indexOf(region) === -1) {
         throw new Error('Unknown region "' + region + '" in price key "' + key +
-            '". Use one of: ' + REGIONS.join(', '));
+            '". Use one of: ' + REGIONS.concat(DISPLAY_REGIONS).join(', '));
     }
     const regionTable = subjectTable[region];
     if (!regionTable) {
@@ -236,7 +259,7 @@ function format(amount, currency, options) {
     if (amount === null || amount === undefined) return '';
 
     const locale = currency === 'INR' ? 'en-IN' : 'en-US';
-    const symbol = currency === 'INR' ? '₹' : '$';
+    const symbol = currency === 'INR' ? '₹' : currency === 'EUR' ? '€' : '$';
 
     // Whole numbers stay whole: ₹1,499 not ₹1,499.00. Fractional USD prices
     // like 39.99 keep their two decimals.
@@ -253,6 +276,8 @@ function format(amount, currency, options) {
         case 'symbol':  return symbol;                  // ₹
         case 'display': return symbol + grouped;        // ₹1,499
         case 'full':    return symbol + grouped + (opts.period || '');
+        // German-language pages write the euro after the number: "90 €" (no-break space).
+        case 'suffix':  return new Intl.NumberFormat('de-DE', { minimumFractionDigits: isWhole ? 0 : 2, maximumFractionDigits: isWhole ? 0 : 2 }).format(amount) + '\u00a0' + symbol;
         default:
             throw new Error('Unknown price format "' + style + '"');
     }
@@ -401,6 +426,8 @@ function sixMonthOffer(subject, config) {
 }
 
 module.exports = {
+    eurFromUsd: eurFromUsd,
+    DISPLAY_REGIONS: DISPLAY_REGIONS,
     sixMonthOffer: sixMonthOffer,
     SIX_MONTHS: SIX_MONTHS,
     REPO_ROOT: REPO_ROOT,

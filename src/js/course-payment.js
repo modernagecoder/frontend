@@ -441,6 +441,7 @@ const CoursePayment = {
             <div><dt>${esc(bill.label)} (${esc(bill.percent)}%)</dt><dd>${esc(bill.fee)}</dd></div>
             <div class="mac-pay-bill-total"><dt>Total payable</dt><dd>${esc(bill.total)}</dd></div>
           </dl>
+          ${this.eurNote(bill, isIndian)}
 
           <form id="payment-form" class="mac-pay-form" novalidate>
             <div class="mac-pay-field">
@@ -542,9 +543,25 @@ const CoursePayment = {
       planFee: fmt(baseMinor),
       fee: fmt(feeMinor),
       // A Canadian dollar total carries its code: a bare "$" reads as US.
-      total: fmt(baseMinor + feeMinor) + (currency === 'CAD' ? ' CAD' : ''),
+      // So does a USD total shown to a visitor who sees euro everywhere else (Germany display).
+      total: fmt(baseMinor + feeMinor) + (currency === 'CAD' ? ' CAD' : (currency === 'USD' && window.__MAC_DISPLAY === 'germany') ? ' USD' : ''),
       totalAmount: (baseMinor + feeMinor) / 100
     };
+  },
+
+  // Germany display (owner 2026-11-02): the site shows a German visitor euro,
+  // but the card is charged in US dollars. The popup says so, with the euro
+  // equivalent of the total at the rate the pages use.
+  eurNote: function(bill, isIndian) {
+    var de = window.MAC_PRICING && window.MAC_PRICING.germany;
+    if (isIndian || window.__MAC_DISPLAY !== 'germany' || this.chargeCurrency(false) !== 'USD' || !de || !(de.usdPerEur > 0)) return '';
+    var eur = Math.round(bill.totalAmount / de.usdPerEur * 100) / 100;
+    var shown = '€' + eur.toLocaleString('en-US', { minimumFractionDigits: eur % 1 ? 2 : 0, maximumFractionDigits: 2 });
+    var d = String(de.rateDate || '').split('-');
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var when = d.length === 3 ? Number(d[2]) + ' ' + months[Number(d[1]) - 1] + ' ' + d[0] : '';
+    return '<p class="mac-pay-fx">About ' + shown + ' at the ECB reference rate' + (when ? ' of ' + when : '') +
+      '. You are charged in US dollars; your bank converts the payment, so the euro amount on your statement can differ slightly.</p>';
   },
 
   // The price list a visitor outside India is on: 'canada' (CAD) or
@@ -1084,6 +1101,7 @@ const CoursePayment = {
       .mac-pay-bill div{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:5px 0}
       .mac-pay-bill dt,.mac-pay-bill dd{margin:0}
       .mac-pay-bill dd{white-space:nowrap;font-variant-numeric:tabular-nums}
+      .mac-pay-fx{margin:-6px 0 14px;font-size:12.5px;line-height:1.45;color:var(--mp-muted,#6B6259)}
       .mac-pay-bill .mac-pay-bill-total{margin-top:2px;padding-top:8px;border-top:1px dashed rgba(28,24,20,.2);font-size:15.5px;font-weight:700;color:var(--mp-ink)}
       .mac-pay-form{margin:0}
       .mac-pay-field{margin:0 0 14px}

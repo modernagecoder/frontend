@@ -75,6 +75,7 @@ function emitRuntimeData(config) {
         sixMonth: config.sixMonth || null,
         gatewayFee: config.gatewayFee || null,
         canada: config.canada || null,
+        germany: config.germany || null,
         display: config.display
     };
 

@@ -189,7 +189,7 @@ function stampJsonLd(html, config, report) {
             // a fabricated dollar price on a rupee plan.
             const curM = offerText.match(/"priceCurrency"\s*:\s*"([^"]*)"/);
             const region = (curM && curM[1] === 'INR') ? 'india'
-                : (curM && curM[1] === 'CAD') ? 'canada' : parts[1];
+                : (curM && curM[1] === 'CAD') ? 'canada' : (curM && curM[1] === 'EUR') ? 'germany' : parts[1];
             const key = parts[0] + '.' + region + '.' + tier;
 
             let r;

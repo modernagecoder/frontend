@@ -157,6 +157,8 @@ function handle(req, res) {
 
                 // Sanity before anything is written: numbers or null only.
                 Object.keys(values).forEach(function (k) {
+                    // Settings the form does not show (on/off switches, the euro rate date).
+                    if (k === 'canada.live' || k === 'germany.live' || k === 'germany.rateDate') return;
                     const v = values[k];
                     if (v !== null && (typeof v !== 'number' || !isFinite(v) || v < 0)) {
                         throw new Error(k + ' is "' + v + '", enter a plain number, or leave empty.');

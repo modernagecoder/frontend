@@ -296,7 +296,8 @@
             label: gf.label || GATEWAY_FEE.label,
             fee: money(feeMinor / 100, price.currency),
             // A Canadian dollar total carries its code: a bare "$" reads as US.
-            total: money((baseMinor + feeMinor) / 100, price.currency) + (price.currency === 'CAD' ? ' CAD' : ''),
+            // So does a USD total for a visitor shown euro elsewhere (Germany display, owner 2026-11-02).
+            total: money((baseMinor + feeMinor) / 100, price.currency) + (price.currency === 'CAD' ? ' CAD' : (price.currency === 'USD' && window.__MAC_DISPLAY === 'germany') ? ' USD' : ''),
             totalAmount: (baseMinor + feeMinor) / 100
         };
     }
@@ -305,7 +306,17 @@
         var b = billFor(price);
         return '<div><dt>Demo fee</dt><dd>' + esc(price.display) + '</dd></div>' +
             '<div><dt>' + esc(b.label) + ' (' + esc(b.percent) + '%)</dt><dd>' + esc(b.fee) + '</dd></div>' +
-            '<div class="mac-dc-bill-total"><dt>Total payable</dt><dd>' + esc(b.total) + '</dd></div>';
+            '<div class="mac-dc-bill-total"><dt>Total payable</dt><dd>' + esc(b.total) + '</dd></div>' + eurRow(price, b);
+    }
+
+    // Germany display: the site shows euro, the card is charged in USD. One
+    // row with the euro equivalent at the rate the pages use.
+    function eurRow(price, b) {
+        var de = window.MAC_PRICING && window.MAC_PRICING.germany;
+        if (price.currency !== 'USD' || window.__MAC_DISPLAY !== 'germany' || !de || !(de.usdPerEur > 0)) return '';
+        var eur = Math.round(b.totalAmount / de.usdPerEur * 100) / 100;
+        return '<div class="mac-dc-fx"><dt>In euro, charged in USD</dt><dd>about €' +
+            eur.toLocaleString('en-US', { minimumFractionDigits: eur % 1 ? 2 : 0, maximumFractionDigits: 2 }) + '</dd></div>';
     }
 
     // ───────────────────────── phone helpers ─────────────────────────

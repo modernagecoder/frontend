@@ -93,6 +93,11 @@ const InternationalPricing = {
 
   isIndian: true, // default to India
   region: 'india', // 'india' | 'international' | 'canada'
+  // Display-only overlay on the international list (owner 2026-11-02): 'germany' shows
+  // euro (USD price / MAC_PRICING.germany.usdPerEur, whole euro) while checkout still
+  // charges USD. '' everywhere else. region stays 'international' for a German visitor,
+  // so every charging path is unchanged.
+  display: '',
 
   // The price list a visitor outside India is on: 'canada' or 'international'.
   abroadRegion() {
@@ -118,9 +123,12 @@ const InternationalPricing = {
     // tab so a preview can be followed from page to checkout.
     var testMode = new URLSearchParams(window.location.search).get('test');
     try {
-      if (testMode === 'canada') sessionStorage.setItem('mac_test_region', 'canada');
+      if (testMode === 'canada' || testMode === 'germany') sessionStorage.setItem('mac_test_region', testMode);
       else if (testMode) sessionStorage.removeItem('mac_test_region');
-      else if (sessionStorage.getItem('mac_test_region') === 'canada') testMode = 'canada';
+      else {
+        var held = sessionStorage.getItem('mac_test_region');
+        if (held === 'canada' || held === 'germany') testMode = held;
+      }
     } catch (e) { /* storage blocked: the query string alone still works */ }
     if (testMode === 'intl' || testMode === 'international') {
       this.region = 'international';
@@ -128,9 +136,13 @@ const InternationalPricing = {
       this.region = 'india';
     } else if (testMode === 'canada') {
       this.region = 'canada';
+    } else if (testMode === 'germany') {
+      this.region = 'international';
+      this.display = 'germany';
     } else {
       this.region = this.detectVisitorRegion();
     }
+    if (this.region !== 'international') this.display = '';
     this.isIndian = this.region === 'india';
 
     // Store globals for payment JS files and inline scripts to read.
@@ -139,6 +151,38 @@ const InternationalPricing = {
     window.__MAC_IS_INDIAN = this.isIndian;
     window.__MAC_REGION = this.region;
     window.__MAC_CURRENCY = this.regionCurrency(this.region);
+    // What the visitor is SHOWN; __MAC_CURRENCY stays what they are charged.
+    window.__MAC_DISPLAY = this.display;
+    window.__MAC_DISPLAY_CURRENCY = this.display === 'germany' ? 'EUR' : window.__MAC_CURRENCY;
+  },
+
+  // Germany display (owner 2026-11-02): a German time zone, while
+  // MAC_PRICING.germany.live is true. Checked before the Indian-language
+  // signal, as for Canada: an Indian family in Berlin sees euro and pays USD.
+  isGermanyVisitor(tz) {
+    var de = window.MAC_PRICING && window.MAC_PRICING.germany;
+    return !!(de && de.live && de.usdPerEur > 0 && Array.isArray(de.timeZones) && de.timeZones.indexOf(tz) !== -1);
+  },
+
+  // A USD amount in whole euro at the configured ECB rate; fractional USD
+  // figures (per-class sums) keep cents.
+  eur(usd) {
+    var de = window.MAC_PRICING && window.MAC_PRICING.germany;
+    var rate = de && de.usdPerEur;
+    if (!(rate > 0)) return usd;
+    var v = usd / rate;
+    return Number.isInteger(usd) ? Math.round(v) : Math.round(v * 100) / 100;
+  },
+
+  // "€90" on English pages, "90 €" on German ones (or an anchor asking for
+  // data-price-format="suffix").
+  fmtEur(amount, suffix) {
+    var whole = Number.isInteger(amount);
+    if (suffix === undefined) suffix = /^de\b/i.test(document.documentElement.lang || '');
+    var n = new Intl.NumberFormat(suffix ? 'de-DE' : 'en-US', {
+      minimumFractionDigits: whole ? 0 : 2, maximumFractionDigits: whole ? 0 : 2
+    }).format(amount);
+    return suffix ? n + '\u00a0€' : '€' + n;
   },
 
   // Indian time zone: India. Canadian time zone (Canada live): Canada, even
@@ -150,6 +194,7 @@ const InternationalPricing = {
     if (tz === 'Asia/Kolkata' || tz === 'Asia/Calcutta') return 'india';
     var ca = window.MAC_PRICING && window.MAC_PRICING.canada;
     if (ca && ca.live && Array.isArray(ca.timeZones) && ca.timeZones.indexOf(tz) !== -1) return 'canada';
+    if (this.isGermanyVisitor(tz)) { this.display = 'germany'; return 'international'; }
     return this.detectIndia() ? 'india' : 'international';
   },
 
@@ -171,7 +216,8 @@ const InternationalPricing = {
     // down and leave the page exactly as the server sent it.
     if (!this.loadTables()) return;
 
-    console.log('[International Pricing] Detected:', this.region.toUpperCase() + ' (' + this.regionCurrency(this.region) + ')');
+    console.log('[International Pricing] Detected:', this.region.toUpperCase() + ' (' + this.regionCurrency(this.region) + ')' +
+      (this.display ? ', shown as ' + this.display.toUpperCase() + ' (EUR)' : ''));
 
     // Anchors first, and for every visitor: they are the precise mechanism,
     // and the text-scanning fallbacks below must not run over a value they
@@ -203,6 +249,9 @@ const InternationalPricing = {
       // prices, so its typed USD fees still need the CAD rewrite.
       this.applyCanadaOverlays();
       this.usdProseToCad();
+    } else if (this.display === 'germany') {
+      this.sixGridsToEur();
+      this.usdProseTo('germany');
     }
   },
 
@@ -333,7 +382,7 @@ const InternationalPricing = {
   // are shown and charged in (the ISO code), so a bare "$" is never ambiguous:
   // pages written for countries with their own dollar use it beside the fee.
   updateCurrencyLabels: function () {
-    var code = this.regionCurrency(this.region);
+    var code = this.display === 'germany' ? 'EUR' : this.regionCurrency(this.region);
     document.querySelectorAll('[data-price-currency]').forEach(function (el) {
       el.textContent = code;
     });
@@ -361,6 +410,11 @@ const InternationalPricing = {
       // India-only hiding rules deal with the card.
       if (amount === null || amount === undefined) return;
 
+      // Germany: shown in euro, charged in USD. Convert the monthly figure
+      // first, so a per-class figure is the euro month divided by its classes.
+      var eurView = self.display === 'germany' && currency === 'USD';
+      if (eurView) { amount = self.eur(amount); currency = 'EUR'; }
+
       var derive = el.getAttribute('data-price-derive');
       if (derive) {
         // A plan can run on its own timetable: the India 1-on-1 plan is 1
@@ -376,8 +430,10 @@ const InternationalPricing = {
         amount = currency === 'INR' ? Math.round(amount) : Math.round(amount * 100) / 100;
       }
 
-      var symbol = currency === 'INR' ? '₹' : '$';
-      var text = symbol + new Intl.NumberFormat(currency === 'INR' ? 'en-IN' : 'en-US', {
+      var symbol = currency === 'INR' ? '₹' : currency === 'EUR' ? '€' : '$';
+      var text = currency === 'EUR'
+        ? self.fmtEur(amount, el.getAttribute('data-price-format') === 'suffix' ? true : undefined)
+        : symbol + new Intl.NumberFormat(currency === 'INR' ? 'en-IN' : 'en-US', {
         minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
         maximumFractionDigits: Number.isInteger(amount) ? 0 : 2
       }).format(amount);
@@ -414,6 +470,10 @@ const InternationalPricing = {
     this.hideGenericMiniBatchCards();
     this.genericPriceSwap();
     if (this.region === 'canada') this.usdProseToCad();
+    if (this.display === 'germany') {
+      this.sixGridsToEur();
+      this.usdProseTo('germany');
+    }
   },
 
   // Canada: blocks rendered three ways (India / rest of world / Canada, e.g.
@@ -444,9 +504,63 @@ const InternationalPricing = {
    * [data-no-price-swap] (sections quoting other providers). Other bare
    * dollar figures (salaries, funding, other providers) are left alone.
    */
-  usdProseToCad() {
+  // Germany display: the international 6-month cards (course pages) worked
+  // out again in euro. Every figure is derived from the euro month and the
+  // euro 6-month total, so the card's own arithmetic still adds up:
+  // "€90 × 6 months = €540", "You save €138 (25%)", per session €402 / 48.
+  sixGridsToEur() {
+    var data = window.MAC_PRICING, self = this;
+    if (!data || !data.sixMonth || !data.sixMonth.international) return;
+    var subject = this.pageSubject();
+    var monthly = (data.plans[subject] && data.plans[subject].international) || data.plans.coding.international;
+    var perMonth = (data.display && data.display.classesPerMonth) || 8;
+    var key = function (v) { return String(Math.round(v * 100) / 100); };
+    document.querySelectorAll('.six-grid[data-intl-only="true"]').forEach(function (grid) {
+      var low = null;
+      grid.querySelectorAll('.six-card').forEach(function (card) {
+        var btn = card.querySelector('[data-plan-type]');
+        var plan = btn && btn.getAttribute('data-plan-type');
+        var mU = monthly[plan], tU = data.sixMonth.international[plan];
+        if (mU == null || tU == null) return;
+        var term = card.querySelector('.six-term');
+        var sessions = Number(((term && term.textContent) || '').replace(/[^\d]+/g, ' ').trim().split(' ').pop()) || perMonth * 6;
+        var m = self.eur(mU), t = self.eur(tU), was = m * 6, save = was - t;
+        var pct = Math.floor(save / was * 100);
+        low = low === null ? pct : Math.min(low, pct);
+        // Each USD figure the card prints, mapped to its euro counterpart.
+        var pairs = {};
+        pairs[key(mU)] = m; pairs[key(tU)] = t; pairs[key(mU * 6)] = was; pairs[key(mU * 6 - tU)] = save;
+        pairs[key(tU / sessions)] = Math.round(t / sessions * 100) / 100;
+        pairs[key(Math.round(tU / sessions * 100) / 100)] = Math.round(t / sessions * 100) / 100;
+        pairs[key(mU / perMonth)] = Math.round(m / perMonth * 100) / 100;
+        var walker = document.createTreeWalker(card, NodeFilter.SHOW_TEXT, null, false), node;
+        while ((node = walker.nextNode())) {
+          var v = node.nodeValue;
+          if (v.indexOf('$') === -1 && v.indexOf('%') === -1) continue;
+          v = v.replace(/\$([\d,]+(?:\.\d+)?)/g, function (all, num) {
+            var k = key(Number(num.replace(/,/g, '')));
+            return pairs[k] !== undefined ? self.fmtEur(pairs[k]) : all;
+          }).replace(/(Save |\()\d+%/g, '$1' + pct + '%');
+          if (v !== node.nodeValue) node.nodeValue = v;
+        }
+      });
+      var lede = grid.querySelector('.six-lede b');
+      if (lede && low !== null) lede.textContent = low + '%';
+    });
+  },
+
+  usdProseToCad() { this.usdProseTo('canada'); },
+
+  // The same rewrite for the Germany display (owner 2026-11-02): each of our
+  // USD fees becomes its euro figure ("$100 a month" -> "€90 a month",
+  // "USD 150" -> "€134"). "Billed in US dollars" stays true and stays.
+  usdProseTo(target) {
     var data = window.MAC_PRICING;
     if (!data || !data.plans) return;
+    var self = this, toEur = target === 'germany';
+    var SYM = toEur ? '€' : '$', CODE = toEur ? 'EUR' : 'CAD';
+    // How a converted figure is written: "$140" (Canada), "€90" or "90 €" (Germany).
+    function money(v) { return toEur ? self.fmtEur(v) : '$' + v; }
     var map = {}, clash = {};
     function pair(usd, cad) {
       if (usd === null || usd === undefined || cad === null || cad === undefined) return;
@@ -455,10 +569,10 @@ const InternationalPricing = {
     }
     Object.keys(data.plans).forEach(function (subject) {
       var u = data.plans[subject].international || {}, c = data.plans[subject].canada || {};
-      Object.keys(u).forEach(function (tier) { pair(u[tier], c[tier]); });
+      Object.keys(u).forEach(function (tier) { pair(u[tier], toEur ? (u[tier] == null ? null : self.eur(u[tier])) : c[tier]); });
     });
     var su = (data.sixMonth && data.sixMonth.international) || {}, sc = (data.sixMonth && data.sixMonth.canada) || {};
-    Object.keys(su).forEach(function (tier) { pair(su[tier], sc[tier]); });
+    Object.keys(su).forEach(function (tier) { pair(su[tier], toEur ? (su[tier] == null ? null : self.eur(su[tier])) : sc[tier]); });
     // 10 is also the priority demo (CAD 14), and a bare "USD 10" is too
     // common a figure to claim; leave it.
     delete map[10];
@@ -484,7 +598,8 @@ const InternationalPricing = {
     var range = new RegExp('(^|[^\\w$])\\$' + n + '(' + S + '(?:to|-|–)' + S + ')\\$' + n + month, 'g');
     var single = new RegExp('(^|[^\\w$])\\$' + n + month, 'g');
     // "$140 USD": an anchor already re-priced to CAD, with a typed USD label.
-    var dollarUsd = new RegExp('(\\$' + S + '(?:' + cadVals.join('|') + ')' + end + S + ')USD\\b', 'g');
+    var conv = toEur ? '(?:€' + S + '(?:' + cadVals.join('|') + ')' + end + '|(?:' + cadVals.join('|') + ')' + S + '€)' : '\\$' + S + '(?:' + cadVals.join('|') + ')' + end;
+    var dollarUsd = new RegExp('(' + conv + S + ')USD\\b', 'g');
     var alone = new RegExp('^(\\s*)\\$' + n + '(\\s*)$');
     var bareNum = new RegExp('^\\s*' + n + '\\s*$');
     // Per-class figures worked from the monthly fees ($150 / 8 = $18.75),
@@ -494,19 +609,41 @@ const InternationalPricing = {
     var perClass = {};
     keys.forEach(function (k) {
       var u = Math.round(k / perMonth * 100) / 100, c = Math.round(map[k] / perMonth * 100) / 100;
+      if (toEur && !Number.isInteger(u)) { perClass[u.toFixed(2)] = c; return; }
       if (!Number.isInteger(u)) perClass[u.toFixed(2)] = c.toFixed(2);
     });
+    // Germany: the 6-month figures are ours wherever they appear ("Group $449",
+    // "$14 a session instead of $18.75"), so they convert without a month
+    // phrase. Six-month per-session sums join the per-class table.
+    var bareRx = null, bare = {};
+    if (toEur) {
+      var sixU = (data.sixMonth && data.sixMonth.international) || {};
+      var sessions = perMonth * 6;
+      Object.keys(sixU).forEach(function (tier) {
+        var u = sixU[tier];
+        if (typeof u !== 'number') return;
+        bare[String(u)] = self.eur(u);
+        var ps = Math.round(u / sessions * 100) / 100, pe = Math.round(self.eur(u) / sessions * 100) / 100;
+        perClass[Number.isInteger(ps) ? String(ps) : ps.toFixed(2)] = pe;
+      });
+      Object.keys(perClass).forEach(function (k) { if (k.indexOf('.') !== -1) bare[k] = perClass[k]; });
+      var bk = Object.keys(bare).map(function (k) { return k.replace('.', '\\.'); });
+      if (bk.length) bareRx = new RegExp('(^|[^\\w$])\\$(' + bk.join('|') + ')(?!\\d|[,.]\\d)', 'g');
+    }
     var perKeys = Object.keys(perClass).map(function (k) { return k.replace('.', '\\.'); });
     var unit = '(?:per|a|an|/)' + S + '(?:\\d+-minute |live |dedicated |private |one-to-one |taught )*(?:class|lesson|hour|session)';
     var perRx = perKeys.length ? new RegExp('(^|[^\\w$])\\$(' + perKeys.join('|') + ')(?!\\d)(?=' + S +
       '(?:(?:to|-|–)' + S + '\\$[\\d.]+' + S + ')?' + unit + ')', 'g') : null;
-    var phrases = [
+    // Germany is charged in USD, so "in US dollars" stays true there.
+    var phrases = toEur ? [] : [
       [new RegExp('\\bin' + S1 + 'US' + S1 + 'dollars\\b', 'g'), 'in Canadian dollars'],
       [new RegExp('\\bin' + S1 + 'USD\\b', 'g'), 'in CAD'],
       [new RegExp('\\bUSD' + S1 + 'pricing\\b', 'g'), 'CAD pricing']
     ];
     // "$140" just before, or "... in" ("We bill in <b>USD</b>").
-    var cadBefore = new RegExp('(?:\\$' + S + '(?:' + cadVals.join('|') + ')|\\bin)' + S + '$');
+    var cadBefore = new RegExp('(?:' + conv + '|\\bin)' + S + '$');
+    var demoBefore = /(\b[Dd]emo(?: fee| class)?(?: is| of| costs|:)?\s*)\$10(?!\d|[,.]\d)/g;
+    var demoAfter = /(^|[^\w$])\$10(?!\d|[,.]\d)(\s+(?:[Pp]riority\s+)?(?:[Ll]ive\s+)?[Dd]emo)/g;
     // The text beside a node: its sibling, or, when the node is all its
     // element holds, the element's sibling ("<div>$140</div><div>USD /
     // month</div>"). Fees are often split this way in cards.
@@ -534,27 +671,45 @@ const InternationalPricing = {
       var next = parent.childNodes.length === 1 ? parent.nextElementSibling : null;
       // A fee split over elements, "<span>USD</span><span>100</span>".
       if (text.trim() === 'USD' && next && next.childNodes.length === 1 && bareNum.test(next.textContent)) {
-        node.nodeValue = text.replace('USD', 'CAD');
+        node.nodeValue = text.replace('USD', CODE);
         next.textContent = next.textContent.replace(new RegExp(n), function (a) { return map[a]; });
         continue;
       }
+      // Germany: a symbol split from its figure, "<sup>$</sup>100" or
+      // "<span>$</span><span>100</span>".
+      if (toEur && text.trim() === '$') {
+        var after = step(parent.childNodes.length === 1 ? parent : node, 1);
+        if (parent.childNodes.length !== 1) after = step(node, 1);
+        if (after && bareNum.test(after.textContent)) {
+          node.nodeValue = text.replace('$', '€');
+          var numNode = after.nodeType === 3 ? after : after.firstChild;
+          if (numNode && numNode.nodeType === 3) numNode.nodeValue = numNode.nodeValue.replace(new RegExp(n), function (a) { return map[a]; });
+          continue;
+        }
+      }
       // A USD label after a fee already in CAD, "$140<small> USD / month".
       if (/^[\s ]*USD\b/.test(text) && cadBefore.test(beside(node, parent, -1))) {
-        text = text.replace('USD', 'CAD');
+        text = text.replace('USD', CODE);
         node.nodeValue = text;
       }
       var out = text
-        .replace(usdWord, function (m, a) { return 'CAD ' + map[a]; })
-        .replace(range, function (m, pre, a, sep, b) { return pre + '$' + map[a] + sep + '$' + map[b]; })
-        .replace(single, function (m, pre, a) { return pre + '$' + map[a]; })
-        .replace(dollarUsd, '$1CAD');
-      if (perRx) out = out.replace(perRx, function (m, pre, a) { return pre + '$' + perClass[a]; });
+        .replace(usdWord, function (m, a) { return toEur ? money(map[a]) : 'CAD ' + map[a]; })
+        .replace(range, function (m, pre, a, sep, b) { return pre + money(map[a]) + sep + money(map[b]); })
+        .replace(single, function (m, pre, a) { return pre + money(map[a]); })
+        .replace(dollarUsd, '$1' + CODE);
+      if (perRx) out = out.replace(perRx, function (m, pre, a) { return pre + money(perClass[a]); });
+      if (bareRx) out = out.replace(bareRx, function (m, pre, a) { return pre + money(bare[a]); });
+      // The USD 10 priority demo, only where it is named as the demo fee.
+      if (toEur) out = out.replace(demoBefore, function (m, pre) { return pre + money(self.eur(10)); })
+        .replace(demoAfter, function (m, pre, post) { return pre + money(self.eur(10)) + post; });
       // A fee in its own element, "<span>$100</span><span>per month</span>":
       // the month phrase is in the next element.
       var lone = out.match(alone);
       if (lone && monthStart.test(beside(node, parent, 1).replace(/^\s+/, ' '))) {
-        out = lone[1] + '$' + map[lone[2]] + lone[3];
+        out = lone[1] + money(map[lone[2]]) + lone[3];
       }
+      // "<dt>Demo fee</dt><dd>$10</dd>": the demo fee in its own element.
+      if (toEur && /^\s*\$10\s*$/.test(out) && /\bdemo\b/i.test(beside(node, parent, -1))) out = out.replace('$10', money(self.eur(10)));
       phrases.forEach(function (p) { out = out.replace(p[0], p[1]); });
       if (out !== text) node.nodeValue = out;
     }

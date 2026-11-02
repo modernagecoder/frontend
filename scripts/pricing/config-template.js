@@ -176,6 +176,24 @@ function render(v) {
   },
 
   // ───────────────────────────────────────────────────────────────────────
+  //  GERMANY  (owner's decision 2026-11-02)
+  //  DISPLAY ONLY. Visitors in a German time zone, and the Germany pages,
+  //  see euro: the international USD price divided by "usdPerEur" (the ECB
+  //  euro reference rate, 1 EUR = usdPerEur USD), rounded to whole euro.
+  //  Checkout still charges the USD amount; the pay popup says so and shows
+  //  the euro figure beside it. To refresh the rate, change usdPerEur and
+  //  rateDate, then run pricing:apply. "live": false shows Germans USD
+  //  again (only ?test=germany then shows the euro view).
+  // ───────────────────────────────────────────────────────────────────────
+  "germany": {
+    "live": ${v['germany.live'] === false ? 'false' : 'true'},
+    "usdPerEur": ${v['germany.usdPerEur'] || 1.1172},
+    "rateDate": "${v['germany.rateDate'] || '2026-10-30'}",
+    "rateSource": "ECB euro foreign exchange reference rates",
+    "timeZones": ["Europe/Berlin", "Europe/Busingen"]
+  },
+
+  // ───────────────────────────────────────────────────────────────────────
   //  PAYMENT GATEWAY CHARGES  (owner's decision 2026-10-23)
   //  Added on top of EVERY payment at checkout: course plans, 6 months at
   //  once, camps, the priority demo. Page and card prices never include it;
@@ -265,7 +283,10 @@ function extract(cfg) {
         'camps.ca.oneTime': g('camps', 'canada', 'oneTime'),
         'six.ca.group': six('canada', 'group'),
         'six.ca.personal': six('canada', 'personal'),
-        'canada.live': !!(cfg.canada && cfg.canada.live)
+        'canada.live': !!(cfg.canada && cfg.canada.live),
+        'germany.live': !!(cfg.germany && cfg.germany.live),
+        'germany.usdPerEur': cfg.germany ? cfg.germany.usdPerEur : null,
+        'germany.rateDate': cfg.germany ? cfg.germany.rateDate : null
     };
 }
 
