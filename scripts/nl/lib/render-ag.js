@@ -80,7 +80,8 @@ const STR = {
     mdPartOf: 'Part of the guide', mdMore: 'More guides', mdContact: 'Contact',
     mdContactP: url => `Book the free first class at [${url}](${url}#start), WhatsApp or call +91 91233 66161 (an Indian number, Modern Age Coders' actual contact), or email connect@modernagecoders.com.`,
     langRow: ['Teaching language', 'Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner'],
-    billedDe: 'a month, eight live classes, charged in US dollars'
+    // The USD note is shown only outside India: an Indian visitor sees and pays rupees (international-pricing.js reveals [data-intl-only]).
+    billedDe: 'a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span>'
   },
   de: {
     home: 'Startseite', navCta: 'Kostenlose Probestunde', heroCta: 'Kostenlose Probestunde buchen', pdCta: 'Priority Demo buchen', wa: 'Per WhatsApp fragen',
@@ -103,7 +104,7 @@ const STR = {
     mdPartOf: 'Teil des Leitfadens', mdMore: 'Weitere Leitfäden', mdContact: 'Kontakt',
     mdContactP: url => `Kostenlose Probestunde buchen unter [${url}](${url}#start), per WhatsApp oder telefonisch unter +91 91233 66161 (eine indische Nummer, der tatsächliche Kontakt von Modern Age Coders) oder per E-Mail an connect@modernagecoders.com.`,
     langRow: ['Unterrichtssprache', 'Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein'],
-    billedDe: 'pro Monat, acht Live-Stunden, abgerechnet in US-Dollar'
+    billedDe: 'pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span>'
   }
 };
 const isDe = page => /^de\b/i.test((page.market && page.market.lang) || '');
