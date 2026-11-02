@@ -7,6 +7,7 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 
 | row | slug | type | words | overlap | spine | trap | commit |
 |---|---|---|---|---|---|---|---|
+| P1-1 | coding-classes-for-kids-berlin (ber, #8A2D1C) | city door (EN) | 4,183 | 5.2% vs abitur-maths-in-english | Berlin school gaps, Biber 2026, bike counter | a missing value is not a zero | (this commit) |
 
 ## Notes
 

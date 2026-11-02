@@ -29149,6 +29149,42 @@
   to = "/src/pages/us-math-and-coding-competitions-guide.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-for-kids-berlin"
+  to = "/src/pages/coding-classes-for-kids-berlin.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-berlin.md"
+  to = "/src/pages/coding-classes-for-kids-berlin.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/informatik-nachhilfe-online"
+  to = "/src/pages/informatik-nachhilfe-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/informatik-nachhilfe-online.md"
+  to = "/src/pages/informatik-nachhilfe-online.md"
+  status = 200
+
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/abitur-maths-in-english"
+  to = "/src/pages/abitur-maths-in-english.html"
+  status = 200
+
+[[redirects]]
+  from = "/abitur-maths-in-english.md"
+  to = "/src/pages/abitur-maths-in-english.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

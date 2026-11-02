@@ -735,6 +735,9 @@ const SLUGS = [
   'us-math-placement-and-college-readiness-tests',
   'homeschool-math-curriculum-guide-usa',
   'us-math-and-coding-competitions-guide',
+  'coding-classes-for-kids-berlin',
+  'informatik-nachhilfe-online',
+  'abitur-maths-in-english',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1549,6 +1552,9 @@ const LLMS_LABELS = {
   'us-math-placement-and-college-readiness-tests': 'US math placement and college readiness tests',
   'homeschool-math-curriculum-guide-usa': 'Homeschool math curriculum guide',
   'us-math-and-coding-competitions-guide': 'US math and coding competitions guide',
+  'coding-classes-for-kids-berlin': 'Coding classes for kids in Berlin',
+  'informatik-nachhilfe-online': 'Informatik-Nachhilfe online (auf Englisch)',
+  'abitur-maths-in-english': 'Abitur maths in English',
 };
 
 function wireLlms(slugs) {

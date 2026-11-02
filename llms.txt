@@ -967,6 +967,9 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - US math placement and college readiness tests: https://learn.modernagecoders.com/us-math-placement-and-college-readiness-tests
 - Homeschool math curriculum guide: https://learn.modernagecoders.com/homeschool-math-curriculum-guide-usa
 - US math and coding competitions guide: https://learn.modernagecoders.com/us-math-and-coding-competitions-guide
+- Coding classes for kids in Berlin: https://learn.modernagecoders.com/coding-classes-for-kids-berlin
+- Informatik-Nachhilfe online (auf Englisch): https://learn.modernagecoders.com/informatik-nachhilfe-online
+- Abitur maths in English: https://learn.modernagecoders.com/abitur-maths-in-english
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
