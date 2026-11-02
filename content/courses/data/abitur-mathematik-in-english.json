@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "slug": "abitur-mathematics-course-in-english",
+    "date": "2026-11-02",
+    "title": "Abitur Mathematik in English: Leistungskurs and Grundkurs",
+    "description": "A live online Abitur maths course for Oberstufe students in Germany (ages 16 to 19), taught in English: Analysis, Analytische Geometrie and Stochastik for Leistungskurs and Grundkurs.",
+    "keywords": [
+      "abitur mathe vorbereitung",
+      "abitur mathematik online kurs",
+      "mathe leistungskurs abitur",
+      "mathe grundkurs abitur",
+      "abitur mathe 2027",
+      "iqb aufgabenpool mathematik",
+      "analysis analytische geometrie stochastik",
+      "mathe nachhilfe oberstufe online",
+      "abitur maths in english",
+      "german abitur maths tutor",
+      "abitur mathe ohne hilfsmittel",
+      "qualifikationsphase mathe"
+    ],
+    "category": "Abitur Mathematics for Teens",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks), joinable any month, LK and GK paths",
+    "level": "Oberstufe students (ages 16 to 19), Leistungskurs or Grundkurs",
+    "commitment": "2 live classes/week in English + weekly problems, a no-aids drill and a monthly timed paper",
+    "certification": "Modern Age Coders certificate on passing the final assessment (not an Abitur grade)",
+    "image_path": "abitur-mathematik-in-english.webp",
+    "dateModified": "2026-11-02"
+  },
+  "program_overview": {
+    "title": "Abitur Mathematik in English: Leistungskurs and Grundkurs",
+    "tagline": "Analysis, Analytische Geometrie and Stochastik for the Abitur, live and in English, with a mentor who matches your pace and accent and explains every step clearly.",
+    "description": "This is a live online maths course for students in the gymnasiale Oberstufe in Germany preparing for the Abitur in Mathematik, at Leistungskurs (erhöhtes Anforderungsniveau) or Grundkurs (grundlegendes Anforderungsniveau) level. It covers the three areas of the written exam: Analysis, Analytische Geometrie or Lineare Algebra, and Stochastik, plus the exam technique for the part without aids and the part with aids.\n\nClasses are live and taught in English only. The mentor matches each student's pace and accent: speaks clearly, slows down through long derivations, rephrases and checks understanding. A student whose first language is German gets Abitur maths help and English practice in the same class, which helps with English-language degrees and maths texts later. We never teach in German, but every worksheet puts the German term beside the English one (Ableitung and derivative, Wendepunkt and point of inflection, Zufallsgröße and random variable), so the work maps straight onto school notes and the exam paper.\n\nThe course is built on the format of the common Länder task pool. The IQB, which coordinates the pools, says that since the 2017 exam year the Länder have had common Abitur task pools in German, maths, English and French, and each Land's own commission decides which pool tasks it uses and how far it adds its own. The IQB describes the maths exam as two parts: in Part A no aids are allowed, and in Part B aids may be used, with Analysis, Analytische Geometrie or Lineare Algebra, and Stochastik in both. Part A must be handed in within the first 110 minutes at raised level and the first 100 minutes at basic level. The raised-level exam is worth 100 Bewertungseinheiten with \"Die Arbeitszeit einschließlich Auswahlzeit beträgt 300 Minuten\", and the basic-level exam 80 Bewertungseinheiten in 255 minutes. In NRW, for example, the 2027 written maths Abitur for LK and GK is on Wednesday 5 May 2027.\n\nEvery practice problem and mock paper in this course is our own, written in the pool format. After each exam year the IQB publishes the pool tasks the Länder used, with expectations and marking notes, and students can work those themselves; we never copy them into our materials. Topics, aids and rules differ by Land, so the mentor maps the course to the student's Land in the first class. We are independent of the IQB and every Land ministry and make no promise of grades.",
+    "what_makes_this_different": [
+      "Live classes in English only, with a mentor who matches your pace and accent and slows down through every long derivation",
+      "Built on the IQB common pool format: Part A without aids, Part B with aids, Analysis, Geometrie and Stochastik in both",
+      "Leistungskurs and Grundkurs paths, with full mocks timed at 300 and 255 minutes",
+      "A weekly no-aids drill, because Part A must be handed in within 110 minutes (LK) or 100 minutes (GK)",
+      "German term beside the English one on every worksheet, so class maps straight onto the exam paper",
+      "Mapped to your Land's topics and aids in the first class, with our own original problems only"
+    ],
+    "learning_path": {
+      "phase_1": "Analysis: functions, derivatives and curve analysis, exponential functions, integrals and areas, and modelling with functions",
+      "phase_2": "Analytische Geometrie and Lineare Algebra: vectors, lines and planes, positions, distances and angles, and matrices where the Land requires them",
+      "phase_3": "Stochastik and exam craft: probability, binomial and normal distributions, hypothesis tests, then timed Part A and Part B practice and full mocks"
+    },
+    "career_outcomes": [
+      "Secure Analysis, Geometrie and Stochastik for the written Abitur",
+      "Fast, accurate work without aids for Part A",
+      "Confident use of the permitted calculator or CAS for Part B",
+      "Clear written reasoning that follows the exam's operators",
+      "A strong base for maths, science, engineering or economics degrees",
+      "Mathematical English for study and work abroad"
+    ]
+  },
+  "phase_1_analysis": {
+    "title": "PHASE 1: Analysis (Months 1-2, Weeks 1-8)",
+    "description": "The largest area of the written exam, from derivatives and curve analysis to integrals and modelling.",
+    "month_1_derivatives": {
+      "title": "Month 1: Functions, Derivatives and Curve Analysis",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Your Exam, Your Pace, and Derivatives",
+        "topics": [
+          "A diagnostic: your Land, phase, LK or GK, permitted aids and what your class is doing now",
+          "How we work in English: the mentor's pace, phrases for asking to repeat, and a German to English maths term list",
+          "The structure of the pool exam: Part A without aids, Part B with aids, and the time limits",
+          "Polynomial functions, symmetry and behaviour at infinity",
+          "The derivative as a rate of change and the slope of a tangent",
+          "Power, sum, product, quotient and chain rules"
+        ],
+        "projects": [
+          "A personal formula sheet with German and English names, built and checked in class"
+        ],
+        "practice": "Short no-aids derivative drills of our own after each class"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Curve Analysis (Kurvendiskussion)",
+        "topics": [
+          "Zeros, extreme points and points of inflection, with necessary and sufficient conditions",
+          "Monotony and curvature from the first and second derivatives",
+          "Tangents and normals at a point",
+          "Reading the graph of f from the graph of f′ and the reverse",
+          "Function families with a parameter",
+          "Writing each step in the language of the operators (bestimmen, nachweisen, begründen)"
+        ],
+        "projects": [
+          "A complete curve analysis of a function family, written up as an exam answer"
+        ],
+        "practice": "Original curve analysis tasks with and without aids",
+        "assessment": "Month 1 check: a timed no-aids set plus one longer Part B style task"
+      }
+    },
+    "month_2_exponentials_integrals": {
+      "title": "Month 2: Exponential Functions, Integrals and Modelling",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Exponential and Logarithmic Functions",
+        "topics": [
+          "The natural exponential function and its derivative",
+          "Natural logarithms and solving exponential equations",
+          "Growth and decay models, and limited growth",
+          "Composite functions of e, such as x times e to the minus x",
+          "Leistungskurs depth: more complex function families and proofs",
+          "Interpreting a model's result in context, in full sentences"
+        ],
+        "projects": [
+          "A growth model for a real data set, fitted and interpreted"
+        ],
+        "practice": "Original modelling tasks with exponential functions"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Integrals and Areas",
+        "topics": [
+          "Antiderivatives and the fundamental theorem of calculus",
+          "Definite integrals and the area under a curve and between curves",
+          "Integration by substitution and by parts (as your Land requires)",
+          "Reconstructing a quantity from a rate of change",
+          "Average values and improper integrals for the Leistungskurs",
+          "Mixed Analysis tasks in the pool style"
+        ],
+        "projects": [
+          "A full Analysis task of our own, solved, then rewritten after feedback"
+        ],
+        "practice": "Timed mixed Analysis practice in Part A and Part B style",
+        "assessment": "Phase 1 assessment: a timed Analysis paper of original problems, Part A and Part B"
+      }
+    }
+  },
+  "phase_2_geometry_linear_algebra": {
+    "title": "PHASE 2: Analytische Geometrie and Lineare Algebra (Months 3-4, Weeks 9-16)",
+    "description": "Vectors in space, lines and planes, and the matrix topics some Länder examine.",
+    "month_3_vectors_lines_planes": {
+      "title": "Month 3: Vectors, Lines and Planes",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Vectors and Lines",
+        "topics": [
+          "Points and vectors in three-dimensional space",
+          "Vector addition, scalar multiplication and linear combinations",
+          "The scalar product, lengths and angles",
+          "Parametric equations of lines",
+          "Positions of two lines: parallel, identical, intersecting or skew",
+          "Sketching 3D situations clearly by hand"
+        ],
+        "projects": [
+          "A geometry pack of our own based on a pyramid or a roof"
+        ],
+        "practice": "No-aids vector drills each week"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Planes",
+        "topics": [
+          "Parametric, normal and coordinate forms of a plane",
+          "Converting between forms and the cross product",
+          "Intersection of a line and a plane, and of two planes",
+          "Positions of planes and lines",
+          "Modelling a real object with planes",
+          "Explaining a geometric method in clear English"
+        ],
+        "projects": [
+          "A model of a building's roof faces with all intersections computed"
+        ],
+        "practice": "Original plane tasks with and without aids",
+        "assessment": "Month 3 check: a timed geometry set"
+      }
+    },
+    "month_4_distances_angles_matrices": {
+      "title": "Month 4: Distances, Angles and Matrices",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Distances and Angles",
+        "topics": [
+          "Distance from a point to a plane and the Hesse normal form",
+          "Distance from a point to a line and between skew lines (LK)",
+          "Angles between lines, between planes, and between a line and a plane",
+          "Reflections and orthogonal projections",
+          "Mixed geometry problems with parameters",
+          "Checking answers for plausibility with a sketch"
+        ],
+        "projects": [
+          "A full geometry task of our own, solved and rewritten after feedback"
+        ],
+        "practice": "Timed geometry practice in Part A and Part B style"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Matrices and Systems of Equations",
+        "topics": [
+          "Linear systems and the Gaussian elimination method",
+          "Solution sets: unique, none or infinitely many",
+          "Matrices and matrix multiplication where the Land examines them",
+          "Transition matrices and processes over several steps",
+          "Choosing which Lineare Algebra topics your Land requires",
+          "Explaining a matrix model in context"
+        ],
+        "projects": [
+          "A transition-matrix model for a population or market share"
+        ],
+        "practice": "Original Lineare Algebra tasks",
+        "assessment": "Phase 2 assessment: a timed Geometrie and Lineare Algebra paper of original problems"
+      }
+    }
+  },
+  "phase_3_stochastics_and_exam": {
+    "title": "PHASE 3: Stochastik and Exam Craft (Months 5-6, Weeks 17-24)",
+    "description": "Probability and statistics for the third area of the exam, then full timed practice in the pool format.",
+    "month_5_stochastics": {
+      "title": "Month 5: Probability, Distributions and Tests",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Probability and the Binomial Distribution",
+        "topics": [
+          "Tree diagrams, path rules and conditional probability",
+          "Four-field tables and independence",
+          "Random variables, expected value and standard deviation",
+          "Bernoulli chains and the binomial distribution",
+          "Cumulative probabilities with the permitted aid",
+          "Writing the random variable and its distribution clearly before calculating"
+        ],
+        "projects": [
+          "A probability investigation of a game of our own design"
+        ],
+        "practice": "No-aids probability drills each week"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Normal Distribution and Hypothesis Tests",
+        "topics": [
+          "The normal distribution and the bell curve, where your Land includes it",
+          "Approximating the binomial distribution",
+          "One-sided and two-sided hypothesis tests",
+          "Significance level, decision rule and the two types of error",
+          "Leistungskurs depth: confidence intervals and test planning",
+          "Interpreting a test result in context, in full sentences"
+        ],
+        "projects": [
+          "A test planned and run on a claim from a product or poll of our own"
+        ],
+        "practice": "Original Stochastik tasks with and without aids",
+        "assessment": "Month 5 check: a timed Stochastik paper"
+      }
+    },
+    "month_6_exam_craft": {
+      "title": "Month 6: Abitur Exam Craft and Full Mocks",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Part A, Part B and the Operators",
+        "topics": [
+          "Part A without aids: speed, accuracy and choosing tasks in the time allowed",
+          "Part B with aids: using the permitted calculator or CAS efficiently and writing the steps",
+          "The general competences in the KMK standards, from Mathematisch argumentieren (K1) to Mathematisch modellieren (K3) and beyond",
+          "Operators in maths tasks and what each one asks for",
+          "Choosing tasks during the Auswahlzeit",
+          "Error log review across all three areas"
+        ],
+        "projects": [
+          "A personal exam strategy sheet, tested on a timed half paper"
+        ],
+        "practice": "Timed Part A sets and Part B tasks of our own"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Full Mock Papers and Final Plan",
+        "topics": [
+          "A full mock of our own: 300 minutes for LK or 255 minutes for GK, including choice time",
+          "Detailed written feedback in the style of an expectation horizon",
+          "Oral exam practice for students with maths as an oral subject",
+          "Targeted repair of the weakest topics",
+          "A revision plan to your Land's exam date",
+          "Calm routines for the exam day"
+        ],
+        "projects": [
+          "Two full timed mocks with written feedback"
+        ],
+        "practice": "Full timed papers of original problems",
+        "assessment": "Final assessment: a full timed mock of original problems in the pool format"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the Abitur Mathematik in English course?",
+      "answer": "A live online course for Oberstufe students in Germany, roughly ages 16 to 19, preparing for the maths Abitur at Leistungskurs or Grundkurs level. It covers Analysis, Analytische Geometrie or Lineare Algebra, and Stochastik, plus exam technique for the parts with and without aids. It runs for 24 weeks with 2 live classes a week, taught in English."
+    },
+    {
+      "question": "Are the classes in German or in English?",
+      "answer": "English only. We never teach in German. The mentor matches your pace and accent: speaks clearly, slows down through long calculations, rephrases and checks understanding. Many students see this as a plus, because they get Abitur maths help and English practice at once. Every worksheet puts the German term beside the English one, so the maths maps onto your school notes and exam paper."
+    },
+    {
+      "question": "How is the written maths Abitur structured?",
+      "answer": "For tasks from the common pool, the IQB describes two parts: Part A without aids and Part B with aids, both covering Analysis, Analytische Geometrie or Lineare Algebra, and Stochastik. Part A must be handed in within the first 110 minutes at raised level and 100 minutes at basic level. The raised-level exam is worth 100 Bewertungseinheiten in 300 minutes and the basic-level exam 80 in 255 minutes, both including choice time. Each Land decides which pool tasks it uses and may add its own."
+    },
+    {
+      "question": "Is the course for Leistungskurs or Grundkurs?",
+      "answer": "Both. The Grundkurs path covers the core of all three areas, and the Leistungskurs path adds depth such as more complex function families, distances between skew lines and confidence intervals. Full mocks are timed at 300 minutes for LK and 255 minutes for GK."
+    },
+    {
+      "question": "When is the maths Abitur in 2027?",
+      "answer": "It depends on your Land. The IQB says that since 2022 the maths exams have been held largely on common dates across Länder. In NRW the written maths Abitur for LK and GK is on Wednesday 5 May 2027. Check your own Land's ministry or school for your date."
+    },
+    {
+      "question": "Do you use real Abitur tasks?",
+      "answer": "No. Every problem and mock in the course is our own, written in the pool format. The IQB publishes the pool tasks the Länder used after each exam year, with expectations and marking notes, and students can work through those themselves. We never copy them into our materials."
+    },
+    {
+      "question": "Which calculator or CAS should I use?",
+      "answer": "The one your Land and school permit for Part B. We practise with whichever aid you are allowed. KMK notes that new common rules on digital aids apply from the 2030 Abitur, so students taking the Abitur later should check their Land's rules."
+    },
+    {
+      "question": "My English is not strong. Will I keep up?",
+      "answer": "Maths is mostly symbols, and the mentor slows down, repeats and rephrases whenever you ask. Many students find the maths vocabulary in English quick to learn when it sits beside the German term on every worksheet. The free first class shows you whether the pace suits you."
+    },
+    {
+      "question": "When are classes, with the time difference to India?",
+      "answer": "Timing is flexible on weekdays or weekends: choose a batch, or 1-on-1 at your convenience. Our teachers work in India time, which is 4 hours 30 minutes ahead of Germany in winter and 3 hours 30 minutes ahead in summer, so German afternoon, early evening and weekend slots are realistic."
+    },
+    {
+      "question": "Do you promise a grade?",
+      "answer": "No. We promise careful teaching, honest feedback and regular timed practice. We are independent of the IQB and every Land ministry, and our certificate is not an Abitur grade or German qualification."
+    },
+    {
+      "question": "Can I try a class first?",
+      "answer": "Yes. The first class is a free demo, so you can hear the mentor's pace and decide with no pressure."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A bilingual formula sheet, built and checked in class",
+      "A full curve analysis of a function family",
+      "A growth model fitted to real data",
+      "Roof and pyramid geometry packs",
+      "A transition-matrix model",
+      "A probability game investigation and a planned hypothesis test",
+      "Full timed mocks with written feedback"
+    ],
+    "total_projects_built": "A bank of solved original Abitur-style problems, written exam answers corrected after feedback, an error log, a bilingual formula sheet and a timed-mock history",
+    "skills_mastered": [
+      "Derivatives, curve analysis and integrals",
+      "Exponential models and function families",
+      "Vectors, lines, planes, distances and angles",
+      "Linear systems and matrices where required",
+      "Probability, binomial and normal distributions, and hypothesis tests",
+      "Fast work without aids and efficient work with aids",
+      "Clear written reasoning, with maths vocabulary in English and German"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, in English, in Leistungskurs or Grundkurs paths",
+      "practice": "A problem set after every class, including a short no-aids drill",
+      "review": "A timed paper of original problems every month, with written feedback and an error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an Abitur grade, school report or German qualification. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, in English, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note with mock results and next steps",
+      "english_support": "A German to English maths term list for every topic, from Ableitung to Zufallsgröße"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Secure Klasse 10 maths (Mittlerer Schulabschluss level), especially algebra and functions",
+    "english": "Enough English to follow a worked example; the mentor slows down and rephrases as needed",
+    "age": "Roughly 16 to 19, in the Einführungsphase or Qualifikationsphase",
+    "equipment": "A computer with stable internet, a headset with a microphone, paper, and the calculator or CAS your school permits",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience. Our teachers work in India time, which is 4 hours 30 minutes ahead of Germany in winter and 3 hours 30 minutes ahead in summer, so German afternoon, early evening and weekend slots are realistic"
+  },
+  "who_is_this_for": {
+    "leistungskurs": "Leistungskurs students who want depth and full 300-minute mocks",
+    "grundkurs": "Grundkurs students who want the core of all three areas made secure",
+    "einfuehrungsphase": "Students in the Einführungsphase who want a strong start in Analysis",
+    "english_learners": "German-speaking students who want Abitur maths help and English practice in one class",
+    "international_families": "Students who moved to Germany and want Abitur maths explained in English"
+  },
+  "career_paths_after_completion": [
+    "Mathematics, physics, engineering, computer science or economics at university",
+    "English-language degree programmes in Germany or abroad",
+    "Statistics and probability in more depth in our statistics course",
+    "Olympiad-style problem solving through our Mathematik-Olympiade course",
+    "Coding and data science, where calculus and statistics are everyday tools"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "english_and_pace": "Taught in English only, with a mentor who matches your pace and accent.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes, matched to LK or GK.",
+    "original_problems": "Every practice problem and mock is our own; we never reproduce real Abitur tasks.",
+    "feedback": "Written feedback on every monthly paper.",
+    "independence": "We are independent of the IQB and every Land ministry, and we promise learning, never grades.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

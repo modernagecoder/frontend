@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "slug": "german-informatics-competitions-course-biber-bwinf-bwki",
+    "date": "2026-11-02",
+    "title": "German Informatics Competitions: Biber, BwInf and BWKI",
+    "description": "A live online course for pupils in Germany aged 9 to 19, taught in English, preparing for the Informatik-Biber, Jugendwettbewerb Informatik, Bundeswettbewerb Informatik and Bundeswettbewerb KI.",
+    "keywords": [
+      "informatik biber vorbereitung",
+      "informatik-biber 2026",
+      "jugendwettbewerb informatik",
+      "bundeswettbewerb informatik vorbereitung",
+      "bwinf training",
+      "bundeswettbewerb künstliche intelligenz",
+      "bwki projekt",
+      "informatik olympiade deutschland",
+      "ioi 2027 potsdam",
+      "informatik wettbewerb schüler",
+      "competitive programming germany english",
+      "algorithmen training schüler"
+    ],
+    "category": "Informatics Competitions for Kids and Teens",
+    "taxonomy": "programming",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks), joinable any month, batches by level",
+    "level": "Ages 9 to 19 (Klasse 3 to 13); the puzzle level needs no coding",
+    "commitment": "2 live classes/week in English + a weekly problem set and a monthly mock contest",
+    "certification": "Modern Age Coders certificate on passing the final assessment (not a competition result)",
+    "image_path": "german-informatics-competitions.webp",
+    "dateModified": "2026-11-02"
+  },
+  "program_overview": {
+    "title": "German Informatics Competitions: Biber, BwInf and BWKI",
+    "tagline": "From Biber puzzles to Bundeswettbewerb algorithms and an AI project for the BWKI, live and in English, with a mentor who matches your pace and accent.",
+    "description": "This is a live online course for pupils in Germany, roughly ages 9 to 19, who want to take part in the German informatics competitions and do well in them. It runs from computational thinking puzzles for the Informatik-Biber, through programming tasks for the Jugendwettbewerb Informatik, to algorithmic problems for the Bundeswettbewerb Informatik, plus a machine-learning project track for the Bundeswettbewerb Künstliche Intelligenz (BWKI).\n\nClasses are live and taught in English only. The mentor matches each pupil's pace and accent: speaks clearly, slows down, rephrases and checks understanding. A pupil whose first language is German gets competition training and English practice in the same class, and English fits this field well: code is written in English words, and the BWKI accepts projects in German or English (\"Projekte dürfen sowohl auf deutscher wie auch auf englischer Sprache abgegeben werden\"). We never teach in German.\n\nThe competitions form a ladder, all run by their organisers, not by us. BWINF calls the Informatik-Biber \"Deutschlands größter Schülerwettbewerb im Bereich Informatik\": a free online quiz for Jahrgangsstufen 3 to 13 that takes 30 to 40 minutes, and the 2026 Biber weeks run from 9 to 20 November 2026. The Jugendwettbewerb Informatik is open from Jahrgangsstufe 3, with a new level system from 2026 (Bronze for Klasse 5 and 6, Silber for 7 to 9, Gold from 10), and its 2026 round 3, using the two junior tasks of the Bundeswettbewerb, closes on 23 November 2026. The 45th Bundeswettbewerb Informatik, for young people up to 21 not yet studying or working, runs round 1 from 1 September to 23 November 2026, round 2 from early 2027 to April 2027 and round 3 in September 2027; BWINF says round 2 can count as the besondere Lernleistung in the Abitur, depending on Land and school. The BWKI, run by the Tübingen AI Center for Sekundarstufe I and II pupils, asks for a machine-learning project with written documentation, runnable code and a video pitch.\n\nAt the top of the ladder is the International Olympiad in Informatics. BWINF says the 39th IOI takes place from 12 to 19 September 2027 at the Hasso-Plattner-Institut in Potsdam, the second time Germany has hosted after 1992, and that the German team is chosen from up to 20 of the strongest participants in the Bundeswettbewerb. Every puzzle, task and mock contest in this course is our own, written in each competition's style; we never reproduce real competition tasks. We are independent of BWINF, the Tübingen AI Center and every organiser, we are not an official partner of any competition, and entries are made through the organisers' own sites, never through us.",
+    "what_makes_this_different": [
+      "Live classes in English only, with a mentor who matches your pace and accent: useful practice for a field where code, papers and the BWKI pitch can all be in English",
+      "One ladder from age 9 to 19: Biber puzzles, Jugendwettbewerb tasks, Bundeswettbewerb algorithms and a BWKI machine-learning project",
+      "Batches by level, so a Klasse 4 puzzle solver and a Klasse 12 algorithm student never share a pace",
+      "Written solutions trained as hard as code, because the Bundeswettbewerb asks for explained solutions, not just programs",
+      "A BWKI project track covering data, model, evaluation, documentation, runnable code and a two to four minute video pitch",
+      "Original puzzles and contest tasks only, and honest about what we are: independent, not an official partner of any competition"
+    ],
+    "learning_path": {
+      "phase_1": "Computational thinking for the Informatik-Biber and Jugendwettbewerb Bronze: logic, encoding, graphs, sorting and first programming tasks",
+      "phase_2": "Algorithms for Jugendwettbewerb Silber and Gold and Bundeswettbewerb round 1: simulation, search, greedy methods, recursion, graphs and dynamic programming, with written solutions",
+      "phase_3": "Bundeswettbewerb round 2 depth with running time and an introduction to C++, plus a BWKI machine-learning project from idea to video pitch"
+    },
+    "career_outcomes": [
+      "Confident, calm performance in timed puzzle and programming contests",
+      "Algorithmic thinking: modelling a problem and choosing a method",
+      "Clear written solutions that explain an idea and prove it works",
+      "A real machine-learning project with documentation and a pitch",
+      "Python skill, and a first step into C++ for olympiad-level training",
+      "Technical English for papers, documentation and presentations"
+    ]
+  },
+  "phase_1_computational_thinking": {
+    "title": "PHASE 1: Computational Thinking for the Biber and Jugendwettbewerb (Months 1-2, Weeks 1-8)",
+    "description": "The puzzle level: informatics ideas without heavy coding, then the first short programming tasks. Older pupils move through this phase faster.",
+    "month_1_biber_thinking": {
+      "title": "Month 1: Biber-Style Thinking",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: The Competition Ladder and Logic Puzzles",
+        "topics": [
+          "A diagnostic puzzle set of our own to place each pupil at the right level",
+          "How we work in English: the mentor's pace, phrases for asking to repeat, and a German to English puzzle-word list",
+          "The competition ladder: Biber, Jugendwettbewerb, Bundeswettbewerb, BWKI and the IOI, with 2026 and 2027 dates",
+          "The Biber format: 9 tasks in 30 minutes at primary level, 12 in 35 minutes for Klasse 5 and 6, 15 in 40 minutes from Klasse 7",
+          "Logic puzzles: if-then rules, truth and elimination",
+          "Reading a puzzle carefully in English and restating it in your own words"
+        ],
+        "projects": [
+          "A personal puzzle journal with every solved task explained in one sentence"
+        ],
+        "practice": "Timed sets of our own Biber-style puzzles, then a class review"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Encoding, Graphs and Sorting Ideas",
+        "topics": [
+          "Encoding information: binary, simple codes and error detection",
+          "Graphs as dots and lines: paths, networks and shortest routes by hand",
+          "Sorting and ordering puzzles, and comparing strategies",
+          "Trees and decision diagrams",
+          "Patterns and rules in sequences of symbols",
+          "Explaining a solution strategy out loud in English"
+        ],
+        "projects": [
+          "A puzzle of the pupil's own invention, solved by the batch"
+        ],
+        "practice": "Mixed puzzle sets of our own under time",
+        "assessment": "Month 1 check: a timed mock in the Biber style, our own tasks"
+      }
+    },
+    "month_2_first_programming_tasks": {
+      "title": "Month 2: First Programming Tasks",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Programs as Instructions",
+        "topics": [
+          "Giving precise instructions to a robot or turtle on a grid",
+          "Sequences, loops and conditions in Python (or blocks for younger pupils)",
+          "Variables and counting",
+          "Finding the shortest program that solves a task",
+          "Tracing a program by hand to predict what it does",
+          "Bronze level practice: short tasks under time"
+        ],
+        "projects": [
+          "A grid robot that collects items and avoids walls, written in Python"
+        ],
+        "practice": "Our own short programming tasks in the Jugendwettbewerb style"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Loops, Lists and Simple Simulations",
+        "topics": [
+          "Lists of values and looping through them",
+          "Simulating a process step by step",
+          "Counting and searching in a list",
+          "Debugging under time pressure",
+          "Silber level preview: tasks with more steps",
+          "Reviewing a solved task in English"
+        ],
+        "projects": [
+          "A simulation of a queue at a school canteen"
+        ],
+        "practice": "Timed sets of our own programming tasks",
+        "assessment": "Phase 1 assessment: a timed mock of original puzzles and programming tasks"
+      }
+    }
+  },
+  "phase_2_algorithms": {
+    "title": "PHASE 2: Algorithms for the Jugendwettbewerb and Bundeswettbewerb Round 1 (Months 3-4, Weeks 9-16)",
+    "description": "The algorithm level, in Python: classic methods, written solutions and the habit of testing on tricky inputs.",
+    "month_3_search_greedy_recursion": {
+      "title": "Month 3: Search, Greedy Methods and Recursion",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Brute Force, Simulation and Greedy Methods",
+        "topics": [
+          "Modelling a problem: what is the input, what is the output",
+          "Brute force: trying all options, and when that is fast enough",
+          "Greedy methods: when choosing the best step now works, and a counterexample when it does not",
+          "Sorting as a tool for solving other problems",
+          "Testing with small cases, edge cases and large cases",
+          "Gold level practice: longer tasks with several parts"
+        ],
+        "projects": [
+          "A scheduling solver with a greedy method and a test set"
+        ],
+        "practice": "Our own algorithm tasks with written explanations"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Recursion and Backtracking",
+        "topics": [
+          "Recursion: base case and recursive case",
+          "Backtracking: exploring choices and undoing them",
+          "Permutations, subsets and puzzle solvers",
+          "Pruning to make a search faster",
+          "Counting how many steps an algorithm takes",
+          "Writing a short, clear explanation of why a method is correct"
+        ],
+        "projects": [
+          "A Sudoku or tiling solver using backtracking"
+        ],
+        "practice": "Timed algorithm sets of our own",
+        "assessment": "Month 3 check: a timed contest of our own tasks"
+      }
+    },
+    "month_4_graphs_dp_writeups": {
+      "title": "Month 4: Graphs, Dynamic Programming and Written Solutions",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Graph Algorithms",
+        "topics": [
+          "Graphs in code: adjacency lists and matrices",
+          "Breadth-first search and depth-first search",
+          "Shortest paths with Dijkstra's algorithm",
+          "Connected components and cycles",
+          "Grids as graphs: mazes and flood fill",
+          "Choosing a graph model for a story problem"
+        ],
+        "projects": [
+          "A route planner for a small city map of our own"
+        ],
+        "practice": "Our own graph problems, coded and explained"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Dynamic Programming and the Written Submission",
+        "topics": [
+          "Dynamic programming: storing answers to subproblems",
+          "Classic patterns: counting paths, knapsack and longest subsequences",
+          "Writing up a solution: the idea, the implementation, example runs and the source code",
+          "Group work in round 1 and individual work in round 2, as BWINF's rules set out",
+          "Planning a long contest: which task first, and when to stop",
+          "Presenting a solution to the batch in English"
+        ],
+        "projects": [
+          "A full written solution of our own Bundeswettbewerb-style task, with code and examples"
+        ],
+        "practice": "A take-home task of our own with a written write-up",
+        "assessment": "Phase 2 assessment: a timed contest plus a written solution, all original tasks"
+      }
+    }
+  },
+  "phase_3_round_two_and_bwki": {
+    "title": "PHASE 3: Bundeswettbewerb Round 2 Depth and a BWKI Project (Months 5-6, Weeks 17-24)",
+    "description": "Two tracks to choose from: contest depth toward round 2 and olympiad-style training, or a machine-learning project for the BWKI. Many pupils do both.",
+    "month_5_contest_depth": {
+      "title": "Month 5: Running Time, Harder Problems and C++",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Running Time and Efficient Algorithms",
+        "topics": [
+          "O notation and estimating whether a solution is fast enough",
+          "Binary search on the answer",
+          "Prefix sums and two pointers",
+          "Priority queues and heaps",
+          "Harder dynamic programming and graph problems",
+          "Arguing correctness in a written solution"
+        ],
+        "projects": [
+          "A solution improved from slow to fast, with timings and an explanation"
+        ],
+        "practice": "Our own round 2 style problems with full write-ups"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: A First Step into C++ and Olympiad Context",
+        "topics": [
+          "Why olympiad training uses C++: BWINF says IOI pre-selection training is programmed in C++",
+          "C++ basics for Python programmers: types, vectors and input and output",
+          "Rewriting a solved Python task in C++",
+          "The IOI path: the German team is chosen from up to 20 of the strongest participants in the Bundeswettbewerb over three training camps",
+          "IOI 2027 in Potsdam as context, and the 45th Bundeswettbewerb as the entry to selection for IOI 2028",
+          "Building a personal training plan"
+        ],
+        "projects": [
+          "Three of your own earlier solutions rewritten in C++"
+        ],
+        "practice": "Timed mixed contests of our own in Python or C++",
+        "assessment": "Month 5 check: a timed contest of original problems"
+      }
+    },
+    "month_6_bwki_project": {
+      "title": "Month 6: A BWKI Machine-Learning Project",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: From Idea to Model",
+        "topics": [
+          "What the BWKI asks for: a project that uses machine-learning methods, solo or in teams of up to four",
+          "Finding a question worth answering with data, and checking it is ethical",
+          "Collecting and cleaning a data set",
+          "Training a first model in Python, and splitting data for honest testing",
+          "Measuring accuracy and finding where the model fails",
+          "Keeping a project log in English"
+        ],
+        "projects": [
+          "A working first model with a test report"
+        ],
+        "practice": "Weekly project milestones reviewed in class"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Documentation, Code and the Video Pitch",
+        "topics": [
+          "Improving the model and explaining every choice",
+          "Written documentation: question, data, method, results and limits",
+          "Runnable, readable code that someone else can run",
+          "A two to four minute video pitch, practised in English",
+          "Final contest-track review for pupils on that track",
+          "A plan for the next competition season"
+        ],
+        "projects": [
+          "A complete BWKI-style project: documentation, runnable code and a video pitch"
+        ],
+        "practice": "Pitch rehearsals with feedback",
+        "assessment": "Final assessment: a timed contest of original tasks or a project presentation, by track"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What does this course prepare for?",
+      "answer": "The German informatics competitions: the Informatik-Biber, the Jugendwettbewerb Informatik, the Bundeswettbewerb Informatik and the Bundeswettbewerb Künstliche Intelligenz (BWKI). It is a live online course for pupils in Germany aged roughly 9 to 19, taught in English, with batches by level."
+    },
+    {
+      "question": "Are the classes in German or in English?",
+      "answer": "English only. We never teach in German. The mentor matches your pace and accent: speaks clearly, slows down, rephrases and checks understanding. Many families see this as a plus: competition training and English practice at once. Code uses English words anyway, and the BWKI accepts projects in German or English."
+    },
+    {
+      "question": "When is the Informatik-Biber 2026?",
+      "answer": "BWINF says the 2026 Biber weeks run from 9 to 20 November 2026. Results follow in December 2026, and certificates and prizes are sent in January 2027. The Biber is free, for Jahrgangsstufen 3 to 13, and takes 30 to 40 minutes."
+    },
+    {
+      "question": "What are the Bundeswettbewerb Informatik dates?",
+      "answer": "For the 45th Bundeswettbewerb, BWINF lists round 1 from 1 September to 23 November 2026, round 2 from early 2027 to April 2027 and round 3 in September 2027. Group work is allowed in round 1, and round 2 must be individual work."
+    },
+    {
+      "question": "What is the Jugendwettbewerb Informatik level system?",
+      "answer": "From 2026 BWINF uses three levels: Bronze, recommended for Klasse 5 and 6, with 3 tasks in 30 minutes; Silber for Klasse 7 to 9, with 4 tasks in 40 minutes; and Gold from Klasse 10, with 6 tasks in 60 minutes. Participation is possible from Jahrgangsstufe 3. The 2026 round 3 closes on 23 November 2026."
+    },
+    {
+      "question": "What is the BWKI?",
+      "answer": "The Bundeswettbewerb Künstliche Intelligenz, run by the Tübingen AI Center for pupils in Sekundarstufe I and II, solo or in teams of up to four. Projects must use machine-learning methods and include written documentation, runnable code and a video pitch. In 2026 the project deadline was 20 September 2026 and the final in Tübingen is on 13 November 2026; dates for the next round appear on the BWKI site."
+    },
+    {
+      "question": "What is the connection to IOI 2027 in Potsdam?",
+      "answer": "BWINF says the 39th International Olympiad in Informatics takes place from 12 to 19 September 2027 at the Hasso-Plattner-Institut in Potsdam, and that the German team is chosen from up to 20 of the strongest participants in the Bundeswettbewerb over three training camps. The 45th Bundeswettbewerb, which started on 1 September 2026, is the entry to selection for IOI 2028 in Japan. We teach toward that path; we play no part in selection."
+    },
+    {
+      "question": "Are you an official partner of BWINF or the BWKI?",
+      "answer": "No. We are an independent online school with teachers in India. We are not an official partner of any competition, and entries are made through the organisers' own sites, never through us. Every puzzle and task in this course is our own, written in the competitions' style."
+    },
+    {
+      "question": "My child is 9. Is that too young?",
+      "answer": "No. The Biber and the Jugendwettbewerb are open from Jahrgangsstufe 3, and our puzzle level needs no coding. Batches are by level, so younger pupils work at their own pace."
+    },
+    {
+      "question": "Do you promise a prize or a place in round 2?",
+      "answer": "No. We promise careful teaching, honest feedback and lots of practice. Results depend on the pupil and the competition."
+    },
+    {
+      "question": "When are classes, with the time difference to India?",
+      "answer": "Timing is flexible on weekdays or weekends: choose a batch, or 1-on-1 at your convenience. Our teachers work in India time, which is 4 hours 30 minutes ahead of Germany in winter and 3 hours 30 minutes ahead in summer, so German afternoon, early evening and weekend slots are realistic."
+    },
+    {
+      "question": "Can we try a class first?",
+      "answer": "Yes. The first class is a free demo, so the pupil can meet the mentor, hear the pace and decide with no pressure."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A puzzle journal and a pupil-invented puzzle",
+      "A grid robot and a canteen queue simulation in Python",
+      "A greedy scheduler and a backtracking puzzle solver",
+      "A route planner on a city map",
+      "Full written solutions to our own Bundeswettbewerb-style tasks",
+      "Python solutions rewritten in C++",
+      "A complete BWKI-style machine-learning project with a video pitch"
+    ],
+    "total_projects_built": "A bank of solved original puzzles and contest tasks with written solutions, a set of Python and C++ programs, and one complete machine-learning project",
+    "skills_mastered": [
+      "Computational thinking: logic, encoding, graphs and sorting",
+      "Python programming for contest tasks",
+      "Search, greedy methods, recursion and backtracking",
+      "Graph algorithms and dynamic programming",
+      "Running time and efficient algorithms",
+      "Machine learning: data, models and honest evaluation",
+      "Written solutions and presentations in clear English"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, in English, in batches by level",
+      "practice": "A weekly problem set of our own, with one task written up in full",
+      "review": "A monthly timed contest of original tasks with written feedback"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not a competition result, award or BWINF document. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, in English, with hints first; we never help with a live competition task while it is running",
+      "progress_updates": "A monthly progress note with contest results and next steps",
+      "english_support": "A German to English word list for puzzles, algorithms and machine learning"
+    }
+  },
+  "prerequisites": {
+    "programming": "None for the puzzle level; the algorithm and contest levels expect some Python, which Phase 1 builds",
+    "english": "Enough English to follow a puzzle explanation; the mentor slows down and rephrases as needed",
+    "age": "Roughly 9 to 19, from Klasse 3 or 4 up to the Abitur year",
+    "equipment": "A computer with stable internet, a headset with a microphone, and Python installed (we help in the first class)",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience. Our teachers work in India time, which is 4 hours 30 minutes ahead of Germany in winter and 3 hours 30 minutes ahead in summer, so German afternoon, early evening and weekend slots are realistic"
+  },
+  "who_is_this_for": {
+    "young_puzzlers": "Pupils in Klasse 3 to 6 who love puzzles and want to do well in the Biber and Jugendwettbewerb Bronze",
+    "middle_years": "Pupils in Klasse 7 to 9 moving to Jugendwettbewerb Silber and their first algorithms",
+    "bundeswettbewerb": "Pupils from Klasse 10 aiming at Bundeswettbewerb rounds 1 and 2 and the olympiad path",
+    "ai_builders": "Sekundarstufe I and II pupils who want to build a machine-learning project for the BWKI",
+    "english_learners": "German-speaking pupils who want competition training and English practice in one class"
+  },
+  "career_paths_after_completion": [
+    "Olympiad-level training and competitive programming in our competitive programming courses",
+    "Abitur Informatik through our Informatik Oberstufe and Abitur course",
+    "AI and machine learning in more depth in our AI courses for teens",
+    "Jugend forscht projects in mathematics and informatics",
+    "Informatik, data science or AI at university"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "english_and_pace": "Taught in English only, with a mentor who matches your pace and accent.",
+    "batches": "Group batches of 15 to 20 students by level, or personal 1-on-1 classes.",
+    "original_tasks": "Every puzzle, contest task and mock is our own; we never reproduce real competition tasks.",
+    "fair_play": "We never help with a competition task while the competition is running.",
+    "independence": "We are independent of BWINF, the Tübingen AI Center and every organiser, and not an official partner of any competition.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

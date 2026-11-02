@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "slug": "informatik-abitur-course-java-python",
+    "date": "2026-11-02",
+    "title": "Informatik Abitur in English: Java and Python",
+    "description": "A live online Informatik course for Oberstufe and Abitur students in Germany (ages 16 to 19), taught in English: OOP in Java or Python, data structures, automata, SQL and networks.",
+    "keywords": [
+      "informatik abitur",
+      "informatik abitur vorbereitung",
+      "informatik leistungskurs",
+      "informatik grundkurs",
+      "informatik oberstufe java",
+      "abitur informatik python",
+      "java bluej abitur",
+      "automaten und formale sprachen abitur",
+      "sql abitur informatik",
+      "informatik nachhilfe oberstufe online",
+      "computer science abitur english",
+      "qualifikationsphase informatik"
+    ],
+    "category": "Informatik Oberstufe and Abitur for Teens",
+    "taxonomy": "programming",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks), joinable any month, Grundkurs and Leistungskurs paths",
+    "level": "Oberstufe students (ages 16 to 19), Grundkurs or Leistungskurs",
+    "commitment": "2 live classes/week in English + weekly code, written questions and a monthly timed paper",
+    "certification": "Modern Age Coders certificate on passing the final assessment (not an Abitur grade)",
+    "image_path": "informatik-abitur-java-python.webp",
+    "dateModified": "2026-11-02"
+  },
+  "program_overview": {
+    "title": "Informatik Abitur in English: Java and Python",
+    "tagline": "Object-oriented programming, data structures, automata, databases and networks for Abitur Informatik, live and in English, with a mentor who matches your pace and accent.",
+    "description": "This is a live online course for students in the gymnasiale Oberstufe in Germany who take Informatik, from the Einführungsphase through the Qualifikationsphase to the written or oral Abitur. It covers the topics that Abitur Informatik commonly examines: object-oriented modelling and programming, algorithms and their running time, linear and tree data structures, databases and SQL, finite automata and formal languages, networks and cryptography. Students work in Java or in Python, whichever their school uses, and Java students can work in BlueJ, which we support.\n\nClasses are live and taught in English only. The mentor matches each student's pace and accent: speaks clearly, slows down on hard ideas, rephrases and checks understanding. For a student whose first language is German, every class is Informatik help and practice in technical English at the same time, which is useful for university, where much of computing is read and written in English. We never teach in German, but our notes list the German term beside the English one (Klassendiagramm and class diagram, Schlange and queue, deterministischer endlicher Automat and deterministic finite automaton), so the work links straight back to school.\n\nThe written Abitur in Informatik is often a paper exam. The GI Informatik-Monitor 2026/27 says of Bayern that \"Große Teile des schriftlichen Informatikabiturs beinhalten Programmieraufgaben auf Papier, jedoch keine praktischen Anteile am Rechner\", and of NRW that \"Der Einsatz eines Computers ist für die Bearbeitung der schriftlich Abituraufgaben nicht vorgesehen.\" So we train both halves: real programs written and tested on a computer, and clean code, diagrams and explanations written by hand under time. The same monitor reports that in the NRW Qualifikationsphase Informatik can be a Grundkurs of three hours or a Leistungskurs of five, and that in Sachsen the Leistungskurs is available at selected Gymnasien only. Topics, weighting and exam rules differ by Land and year, so the mentor maps the course to the student's own Land and course level in the first class. Every practice question and mock paper is our own; we never reproduce real Abitur tasks. We are independent of every Land ministry and make no promise of grades.",
+    "what_makes_this_different": [
+      "Live classes in English only, with a mentor who matches your pace and accent and slows down whenever a topic is hard",
+      "Java or Python, matched to your school, with BlueJ supported for Java classes",
+      "Paper-exam training: writing code, class diagrams and automata by hand under time, because written Informatik Abitur papers are often done without a computer",
+      "Grundkurs and Leistungskurs paths: the Leistungskurs path adds graphs, pushdown automata and more depth on running time",
+      "Mapped to your Land and phase in the first class, because Oberstufe Informatik differs between NRW, Bayern, Sachsen and the rest",
+      "Original mock papers in the Abitur style every month, never copies of real tasks"
+    ],
+    "learning_path": {
+      "phase_1": "Object-oriented modelling and programming in Java or Python: classes, objects, UML class diagrams, inheritance, arrays, searching, sorting, recursion and running time",
+      "phase_2": "Data structures and databases: lists, stacks, queues, binary trees and graphs, then entity-relationship models, the relational model and SQL",
+      "phase_3": "Theory and systems: finite automata, grammars and formal languages, networks and cryptography, and exam craft with timed papers of our own"
+    },
+    "career_outcomes": [
+      "Confident, correct object-oriented code in Java or Python",
+      "Data structures and algorithms explained with running time",
+      "Databases designed with ER models and queried in SQL",
+      "Automata and grammars drawn, tested and explained",
+      "Clear written answers and hand-written code for paper exams",
+      "Technical English for a computing degree, read and spoken with confidence"
+    ]
+  },
+  "phase_1_object_oriented_programming": {
+    "title": "PHASE 1: Object-Oriented Modelling and Programming (Months 1-2, Weeks 1-8)",
+    "description": "The programming core every Oberstufe Informatik course builds on, taught in Java or Python and practised both on screen and on paper.",
+    "month_1_classes_and_algorithms": {
+      "title": "Month 1: Classes, Objects and Basic Algorithms",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Your Oberstufe, Your Language, and Objects",
+        "topics": [
+          "A diagnostic: your Land, phase (Einführungsphase or Qualifikationsphase), Grundkurs or Leistungskurs, and school language",
+          "How we work in English: the mentor's pace, phrases for asking to repeat, and a German to English term list",
+          "Setting up Java with BlueJ, or Python, exactly as your school does",
+          "Classes, objects, attributes and methods, and the constructor",
+          "UML class diagrams (Klassendiagramme): reading them and drawing them",
+          "Encapsulation: private attributes with getter and setter methods"
+        ],
+        "projects": [
+          "A Konto (bank account) class with deposits, withdrawals and validation, drawn first as a class diagram"
+        ],
+        "practice": "Short programs written on screen, then the same code written by hand"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Control Structures, Arrays, Searching and Sorting",
+        "topics": [
+          "Selection and loops, with trace tables to check them",
+          "Arrays (and Python lists): filling, traversing and finding the maximum",
+          "Linear search and binary search, and why binary search needs sorted data",
+          "Bubble sort, selection sort and insertion sort, traced by hand",
+          "Counting comparisons to compare algorithms",
+          "Explaining an algorithm in precise English, then in the operator language of exam questions"
+        ],
+        "projects": [
+          "A sorting comparison program that counts steps for three algorithms"
+        ],
+        "practice": "Hand-tracing exercises of our own on searching and sorting",
+        "assessment": "Month 1 check: a short paper with code to write by hand and a trace table"
+      }
+    },
+    "month_2_oop_and_recursion": {
+      "title": "Month 2: Inheritance, Relationships, Recursion and Running Time",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Inheritance, Polymorphism and Associations",
+        "topics": [
+          "Inheritance: superclass and subclass, and overriding methods",
+          "Polymorphism, abstract classes and interfaces",
+          "Associations, aggregation and multiplicities in class diagrams",
+          "Modelling a real situation as classes: from a text description to a diagram",
+          "Working from a given class documentation, the way written exams often provide it",
+          "Discussing a design choice out loud in English"
+        ],
+        "projects": [
+          "A library or school timetable model with a class hierarchy and associations"
+        ],
+        "practice": "Modelling tasks of our own: text in, class diagram and code out"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Recursion, Faster Sorting and Running Time",
+        "topics": [
+          "Recursion: base case, recursive case and the call stack",
+          "Recursive algorithms: factorial, power, binary search and the Towers of Hanoi",
+          "Merge sort and quicksort, and why they beat simple sorts on large data",
+          "Running time with O notation: constant, linear, quadratic and n log n",
+          "Best, average and worst case",
+          "Leistungskurs depth: proving a recursive method terminates"
+        ],
+        "projects": [
+          "A timing experiment that sorts growing arrays and plots the running time"
+        ],
+        "practice": "Recursion traces and running-time questions of our own",
+        "assessment": "Phase 1 assessment: a timed paper of original OOP and algorithm questions, written by hand"
+      }
+    }
+  },
+  "phase_2_data_structures_and_databases": {
+    "title": "PHASE 2: Data Structures and Databases (Months 3-4, Weeks 9-16)",
+    "description": "Abstract data types and the relational database model, two topics that recur across Land curricula for Oberstufe Informatik.",
+    "month_3_linear_and_tree_structures": {
+      "title": "Month 3: Lists, Stacks, Queues, Trees and Graphs",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Linear Data Structures",
+        "topics": [
+          "Abstract data types: what a structure does versus how it is built",
+          "Stack (Stapel) and queue (Schlange): operations and typical uses",
+          "Linked lists built from nodes (Knoten), with insert, delete and search",
+          "Using a given List, Stack or Queue class from its documentation",
+          "Choosing a structure for a task and justifying the choice",
+          "Drawing pointer diagrams by hand"
+        ],
+        "projects": [
+          "A print-queue and undo-stack simulator built on your own linked list"
+        ],
+        "practice": "Written tasks of our own: use a given list class to solve a problem on paper"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Binary Trees and Graphs",
+        "topics": [
+          "Binary trees: root, leaves, height, and preorder, inorder and postorder traversal",
+          "Binary search trees: insert, search and why balance matters",
+          "Leistungskurs depth: graphs as adjacency matrix and adjacency list",
+          "Depth-first and breadth-first search",
+          "Shortest paths with Dijkstra's algorithm, traced by hand",
+          "Explaining a traversal step by step in English"
+        ],
+        "projects": [
+          "A binary search tree word dictionary with all three traversals"
+        ],
+        "practice": "Tree and graph tracing exercises of our own",
+        "assessment": "Month 3 check: a timed set of data-structure questions on paper"
+      }
+    },
+    "month_4_databases_and_sql": {
+      "title": "Month 4: Database Modelling and SQL",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Entity-Relationship Models and the Relational Model",
+        "topics": [
+          "Entities, attributes and relationships in an ER model (Entity-Relationship-Modell)",
+          "Cardinalities 1:1, 1:n and n:m, and resolving n:m relationships",
+          "From ER model to tables: primary keys and foreign keys",
+          "Anomalies and normalisation to the third normal form",
+          "Relational algebra: selection, projection and join",
+          "Data protection and why databases need access rules"
+        ],
+        "projects": [
+          "An ER model and table design for a sports club, normalised step by step"
+        ],
+        "practice": "Modelling tasks of our own: a scenario in words, a model on paper"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: SQL Queries",
+        "topics": [
+          "SELECT, WHERE, ORDER BY and DISTINCT",
+          "Joins across two and three tables",
+          "GROUP BY, HAVING and aggregate functions",
+          "Nested queries and when to use them",
+          "Reading a query and saying in English what it returns",
+          "Writing SQL by hand under exam conditions"
+        ],
+        "projects": [
+          "A school database queried with twenty SQL questions of rising difficulty"
+        ],
+        "practice": "SQL query sets of our own, solved on screen and then on paper",
+        "assessment": "Phase 2 assessment: a timed paper of original data-structure and database questions"
+      }
+    }
+  },
+  "phase_3_theory_systems_exam": {
+    "title": "PHASE 3: Automata, Languages, Networks and Exam Craft (Months 5-6, Weeks 17-24)",
+    "description": "Theoretical informatics and computer systems, then a month of exam technique with timed papers of our own.",
+    "month_5_automata_and_languages": {
+      "title": "Month 5: Automata and Formal Languages",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Finite Automata",
+        "topics": [
+          "Alphabets, words and languages",
+          "Deterministic finite automata: states, transitions, start and accepting states",
+          "Drawing a transition diagram and writing the transition table",
+          "Designing an automaton for a given language, and testing it with words",
+          "Nondeterministic finite automata and converting them to deterministic ones",
+          "Implementing an automaton in Java or Python"
+        ],
+        "projects": [
+          "A validator for number plates or email-like strings, built as an automaton in code"
+        ],
+        "practice": "Automaton design tasks of our own, drawn by hand and tested"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Grammars, Pushdown Automata and Limits",
+        "topics": [
+          "Regular grammars and regular expressions, and their link to finite automata",
+          "Context-free grammars, derivations and syntax trees",
+          "Leistungskurs depth: pushdown automata (Kellerautomaten) for nested brackets",
+          "Why some languages need more than a finite automaton",
+          "An overview of the Turing machine and the limits of computation",
+          "Explaining a proof idea clearly in English"
+        ],
+        "projects": [
+          "A bracket checker built as a pushdown automaton with a stack"
+        ],
+        "practice": "Grammar and automaton questions of our own",
+        "assessment": "Month 5 check: a timed theory paper on automata and grammars"
+      }
+    },
+    "month_6_networks_crypto_exam": {
+      "title": "Month 6: Networks, Cryptography and Abitur Exam Craft",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Networks and Cryptography",
+        "topics": [
+          "Layer models: the TCP/IP model and the ISO/OSI model",
+          "IP addressing, routing, DNS and the client-server model",
+          "Protocols as agreed rules, and a simple protocol designed in class",
+          "Symmetric encryption: Caesar and Vigenère, and how they are broken",
+          "Asymmetric encryption, the idea behind RSA, and digital signatures",
+          "Security, privacy and the social side of networks"
+        ],
+        "projects": [
+          "A Vigenère encoder and cracker, plus a short written explanation of RSA"
+        ],
+        "practice": "Network and cryptography scenarios of our own to explain in full sentences"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Abitur Exam Technique and Mock Papers",
+        "topics": [
+          "The operators in exam questions (nennen, beschreiben, erläutern, implementieren) and what each asks for, explained in English",
+          "Writing correct code by hand: layout, naming and checking without a compiler",
+          "Timed mock papers of our own in the Abitur style, Grundkurs or Leistungskurs",
+          "Oral exam practice: explaining a model or algorithm aloud and answering follow-up questions",
+          "An error log review and a personal revision plan up to the exam",
+          "Matching the plan to your Land's exam dates and rules"
+        ],
+        "projects": [
+          "Two full timed mock papers with detailed written feedback"
+        ],
+        "practice": "A timed paper of original questions and a spoken explanation",
+        "assessment": "Final assessment: a full timed paper of original questions and an oral explanation"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What does the Informatik Oberstufe and Abitur course cover?",
+      "answer": "Object-oriented programming in Java or Python, UML class diagrams, searching, sorting, recursion and running time, lists, stacks, queues, trees and graphs, ER models and SQL, finite automata and formal languages, networks and cryptography, and exam technique. It is a live online course for Oberstufe students in Germany, roughly ages 16 to 19, taught in English."
+    },
+    {
+      "question": "Are the classes in German or in English?",
+      "answer": "English only. We never teach in German. The mentor matches your pace and accent: speaks clearly, slows down on hard topics, rephrases and checks understanding. Many students see this as a plus: you get Informatik help and practice in technical English at once, which helps later at university. Our notes list the German school term beside the English one."
+    },
+    {
+      "question": "Java or Python?",
+      "answer": "Whichever your school uses. Students whose school teaches Java can work in BlueJ, and Python students work in Python. The ideas are the same, and the mentor shows the code in your language."
+    },
+    {
+      "question": "Is it for Grundkurs or Leistungskurs?",
+      "answer": "Both. The Grundkurs path covers the core; the Leistungskurs path adds graphs and shortest paths, pushdown automata and more depth on running time and proof. In NRW, for example, the GI Informatik-Monitor 2026/27 reports a three-hour Grundkurs and a five-hour Leistungskurs in the Qualifikationsphase."
+    },
+    {
+      "question": "Does the course follow my Land's curriculum?",
+      "answer": "It covers the topics that recur across Land curricula, and the mentor maps it to your Land, phase and course level in the first class. Topics and exam rules differ by Land and year, so we check your school's current list with you rather than assume."
+    },
+    {
+      "question": "Is the written Informatik Abitur done on a computer?",
+      "answer": "Often not. The GI Informatik-Monitor 2026/27 says written Abitur tasks in Bayern are largely programming on paper with no work on a computer, and that in NRW a computer is not used for the written tasks. That is why we practise writing code, diagrams and automata by hand under time, as well as programming on screen."
+    },
+    {
+      "question": "Do you use real Abitur tasks?",
+      "answer": "No. Every practice question and mock paper is our own, written in the Abitur style. Students can use the past tasks their Land publishes themselves; we never copy them into our materials."
+    },
+    {
+      "question": "Can the Bundeswettbewerb Informatik count toward my Abitur?",
+      "answer": "Possibly. BWINF says round 2 of the Bundeswettbewerb Informatik can count as the besondere Lernleistung in the Abitur, depending on Land and school. Ask your school. Our German Informatics Competitions course prepares for the Bundeswettbewerb."
+    },
+    {
+      "question": "When are classes, with the time difference to India?",
+      "answer": "Timing is flexible on weekdays or weekends: choose a batch, or 1-on-1 at your convenience. Our teachers work in India time, which is 4 hours 30 minutes ahead of Germany in winter and 3 hours 30 minutes ahead in summer, so German afternoon, early evening and weekend slots are realistic."
+    },
+    {
+      "question": "Do you promise a grade?",
+      "answer": "No. We promise careful teaching, honest feedback and regular timed practice. We are independent of every Land ministry and school, and our certificate is not an Abitur grade or German qualification."
+    },
+    {
+      "question": "What do I need?",
+      "answer": "A computer with stable internet, a headset with a microphone, and Java with BlueJ or Python installed (we help in the first class), plus paper and pen for hand-written practice."
+    },
+    {
+      "question": "Can I try a class first?",
+      "answer": "Yes. The first class is a free demo, so you can hear the mentor's pace and decide with no pressure."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A bank account class designed from a class diagram",
+      "A sorting comparison and a running-time experiment",
+      "A class-hierarchy model of a library or timetable",
+      "A print queue and undo stack on your own linked list",
+      "A binary search tree dictionary with traversals",
+      "A normalised sports club database with twenty SQL queries",
+      "Automata for string validation and a pushdown bracket checker",
+      "A Vigenère cracker and two full mock papers"
+    ],
+    "total_projects_built": "A portfolio of Java or Python programs, class and ER diagrams, automata drawn and coded, an SQL query bank, and a timed-paper history with written feedback",
+    "skills_mastered": [
+      "Object-oriented modelling and programming",
+      "Searching, sorting, recursion and O notation",
+      "Linear structures, trees and graphs",
+      "ER modelling, normalisation and SQL",
+      "Finite automata, grammars and pushdown automata",
+      "Networks, layer models and cryptography",
+      "Hand-written code and precise exam answers in English"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, in English, in Grundkurs or Leistungskurs paths",
+      "practice": "A programming task and a short written question set after every class",
+      "review": "A timed paper of original questions every month, with written feedback and an error log check"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not an Abitur grade, school report or German qualification. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, in English, with hints first",
+      "progress_updates": "A monthly progress note with mock results and next steps",
+      "english_support": "A German to English term list for every topic, from Klassendiagramm to Kellerautomat"
+    }
+  },
+  "prerequisites": {
+    "programming": "Some programming at school helps; Month 1 rebuilds the basics quickly in your school's language",
+    "maths": "Comfortable with school maths up to Klasse 10",
+    "english": "Enough English to follow a technical explanation; the mentor slows down and rephrases as needed",
+    "age": "Roughly 16 to 19, in the Einführungsphase or Qualifikationsphase of the gymnasiale Oberstufe",
+    "equipment": "A computer with stable internet, a headset with a microphone, and paper for hand-written practice",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience. Our teachers work in India time, which is 4 hours 30 minutes ahead of Germany in winter and 3 hours 30 minutes ahead in summer, so German afternoon, early evening and weekend slots are realistic"
+  },
+  "who_is_this_for": {
+    "einfuehrungsphase": "Students in the Einführungsphase choosing or starting Informatik who want strong programming foundations",
+    "grundkurs": "Grundkurs students preparing for written or oral Abitur Informatik",
+    "leistungskurs": "Leistungskurs students who want the extra depth in graphs, automata and running time",
+    "english_learners": "German-speaking students who want Informatik help and technical English in one class",
+    "international_families": "Students who moved to Germany and want Oberstufe Informatik explained in English"
+  },
+  "career_paths_after_completion": [
+    "Informatik, Wirtschaftsinformatik, data science or engineering at university",
+    "The Bundeswettbewerb Informatik through our German Informatics Competitions course",
+    "Data structures and algorithms in depth in our DSA courses",
+    "Apprenticeships and dual study programmes in IT",
+    "Personal projects in Java, Python and SQL"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "english_and_pace": "Taught in English only, with a mentor who matches your pace and accent.",
+    "batches": "Group batches of 15 to 20 students, or personal 1-on-1 classes, matched to Grundkurs or Leistungskurs.",
+    "original_materials": "Every practice question and mock paper is our own; we never reproduce real Abitur tasks.",
+    "feedback": "Written feedback on every monthly paper.",
+    "independence": "We are independent of every Land ministry and school, and we promise learning, never grades.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

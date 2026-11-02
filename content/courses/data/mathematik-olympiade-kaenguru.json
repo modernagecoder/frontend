@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "slug": "mathematik-olympiade-and-kaenguru-training-course",
+    "date": "2026-11-02",
+    "title": "Mathematik-Olympiade and Känguru Training in English",
+    "description": "A live online maths competition course for pupils in Germany aged 8 to 18, taught in English: training by Klassenstufe for the Mathematik-Olympiade and the Känguru der Mathematik, with original problems.",
+    "keywords": [
+      "mathematik olympiade vorbereitung",
+      "mathe olympiade training",
+      "mathematik-olympiade aufgaben üben",
+      "känguru der mathematik vorbereitung",
+      "känguru wettbewerb 2027",
+      "mathe wettbewerb schüler",
+      "mathe olympiade klasse 5",
+      "mathe olympiade regionalrunde",
+      "math olympiad training germany english",
+      "mathe förderung begabte online",
+      "bundeswettbewerb mathematik vorbereitung",
+      "problemlösen mathe kinder"
+    ],
+    "category": "Maths Competitions for Kids and Teens",
+    "taxonomy": "mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "miniBatch": "₹2,999/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "6 months (24 weeks), joinable any month, batches by Klassenstufe",
+    "level": "Ages 8 to 18 (Klassenstufe 3 to 13) who enjoy maths",
+    "commitment": "2 live classes/week in English + weekly problems with one full written solution",
+    "certification": "Modern Age Coders certificate on passing the final assessment (not a competition result)",
+    "image_path": "mathematik-olympiade-kaenguru.webp",
+    "dateModified": "2026-11-02"
+  },
+  "program_overview": {
+    "title": "Mathematik-Olympiade and Känguru Training in English",
+    "tagline": "Quick thinking for the Känguru and careful written proofs for the Mathematik-Olympiade, by Klassenstufe, live and in English, with a mentor who matches your pace and accent.",
+    "description": "This is a live online course for pupils in Germany, roughly ages 8 to 18, who want to train for the two biggest school maths competitions: the Mathematik-Olympiade (MO) and the Känguru der Mathematik. Batches are grouped by Klassenstufe (3/4, 5/6, 7/8, 9/10 and 11 to 13), the same bands the Känguru uses, so every problem fits the pupil's school year.\n\nClasses are live and taught in English only. The mentor matches each pupil's pace and accent: speaks clearly, slows down, rephrases and checks understanding. A pupil whose first language is German gets competition training and English practice in the same class, and explaining a solution aloud in English is a strong test of whether it is truly understood. We never teach in German, but our notes put the German term beside the English one (Teiler and divisor, Primzahl and prime number, Beweis and proof).\n\nThe two competitions train different strengths. The Känguru is a single 75-minute paper: its organisers say pupils solve 24 problems in Klassenstufe 3/4 and 5/6, and 30 problems in 7/8, 9/10 and 11 to 13. Over 920,000 pupils from more than 13,000 schools took part on 19 March 2026, and the 2027 Känguru takes place exceptionally on 8 April 2027, with online registration from 1 December 2026 to 31 January 2027. The Mathematik-Olympiade asks for full written solutions. The MO site says about 200,000 pupils take part each year; it runs in three rounds for Klassenstufe 5 to 7 and four rounds from Klassenstufe 8, and is offered to primary schools (Klasse 3 and 4) since 2005. For the 66th MO in 2026/27 it lists the Regionalrunde on 11 November 2026, the Landesrunde from 26 to 28 February 2027 and the Bundesrunde from 30 May to 2 June 2027 in Kaiserslautern; check your own Land's MO page, as arrangements can differ.\n\nSo the course trains both: fast, accurate reasoning and smart elimination for the Känguru, and clear, complete written arguments in number theory, combinatorics, algebra and geometry for the MO. Every problem is our own, written in each competition's style; we never reproduce real MO or Känguru problems. We are independent of the Mathematik-Olympiaden e.V., the Känguru organisers and every other organiser, we are not an official partner of any competition, and entries are made through schools or the organisers, never through us.",
+    "what_makes_this_different": [
+      "Live classes in English only, with a mentor who matches your pace and accent: explaining a solution aloud in English proves it is understood",
+      "Batches by Klassenstufe (3/4, 5/6, 7/8, 9/10, 11 to 13), so every problem fits the pupil's school year",
+      "Two skills trained side by side: 75-minute speed and elimination for the Känguru, full written proofs for the Mathematik-Olympiade",
+      "Every written solution marked with comments, because MO rounds reward complete justification, not just the answer",
+      "Timed around the 2026/27 calendar: MO Regionalrunde in November 2026, Landesrunde in February 2027, Känguru on 8 April 2027",
+      "Original problems only, and honest about what we are: independent, not an official partner of any competition"
+    ],
+    "learning_path": {
+      "phase_1": "Känguru foundations: number sense, logic, counting and geometry puzzles, with speed, estimation and elimination under a 75-minute clock",
+      "phase_2": "Mathematik-Olympiade core: number theory, combinatorics, algebra and geometry, written as full solutions with every step justified",
+      "phase_3": "Proof methods, round-style timed papers for the Regionalrunde and Landesrunde, a Känguru mock, and next steps such as the Bundeswettbewerb Mathematik"
+    },
+    "career_outcomes": [
+      "Calm, quick reasoning on unfamiliar maths problems",
+      "Complete written solutions that a marker can follow",
+      "Number theory, combinatorics, algebra and geometry beyond the school book",
+      "Proof by cases, contradiction and induction, at the right level for each Klassenstufe",
+      "Stronger school maths as a side effect",
+      "Confidence explaining mathematics in spoken English"
+    ]
+  },
+  "phase_1_kaenguru_foundations": {
+    "title": "PHASE 1: Känguru Foundations (Months 1-2, Weeks 1-8)",
+    "description": "Reasoning puzzles across all areas, then speed: the Känguru gives 75 minutes for 24 or 30 problems. Problems are pitched to each Klassenstufe band.",
+    "month_1_reasoning": {
+      "title": "Month 1: Number Sense, Logic and Counting",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Starting Points and Clever Arithmetic",
+        "topics": [
+          "A diagnostic of our own to place each pupil in the right Klassenstufe batch",
+          "How we work in English: the mentor's pace, phrases for asking to repeat, and a German to English maths word list",
+          "The MO and Känguru calendar for 2026/27 and how each competition is marked differently",
+          "Clever calculation: grouping, pairing and looking for patterns",
+          "Digits and place value puzzles",
+          "Reading a problem slowly in English and restating it in your own words"
+        ],
+        "projects": [
+          "A personal problem journal: each solved problem with the key idea in one sentence"
+        ],
+        "practice": "Short sets of our own Känguru-style problems, reviewed together"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Logic Puzzles and Systematic Counting",
+        "topics": [
+          "Truth-teller and liar puzzles, and logical elimination",
+          "Systematic lists and tree diagrams for counting",
+          "Counting with rules: the multiplication principle",
+          "Calendars, clocks and ages problems",
+          "Working backwards from the answer",
+          "Explaining a counting method aloud in English"
+        ],
+        "projects": [
+          "A logic puzzle of the pupil's own invention, solved by the batch"
+        ],
+        "practice": "Mixed sets of original problems under a clock",
+        "assessment": "Month 1 check: a timed half-length Känguru-style paper of our own"
+      }
+    },
+    "month_2_geometry_and_speed": {
+      "title": "Month 2: Geometry Puzzles and Speed",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Shapes, Areas and Spatial Reasoning",
+        "topics": [
+          "Angles in triangles and polygons",
+          "Areas by cutting and rearranging shapes",
+          "Nets of cubes and views of solids",
+          "Symmetry and folding puzzles",
+          "Grids, squares and counting shapes in a figure",
+          "Drawing a clear diagram before calculating"
+        ],
+        "projects": [
+          "A set of original area puzzles solved by cutting, drawn by hand"
+        ],
+        "practice": "Geometry puzzle sets of our own each class"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Speed, Estimation and Elimination",
+        "topics": [
+          "Pacing 75 minutes: easy problems first, and when to move on",
+          "Estimating to rule out impossible answers",
+          "Testing answer options against the conditions",
+          "Spotting the trap in a problem that looks easy",
+          "Checking work quickly at the end",
+          "Reviewing a full paper: what cost time and why"
+        ],
+        "projects": [
+          "A personal pacing plan tested on a full-length mock"
+        ],
+        "practice": "A full-length timed mock of our own in the Känguru format",
+        "assessment": "Phase 1 assessment: a full 75-minute Känguru-style mock of original problems"
+      }
+    }
+  },
+  "phase_2_olympiad_core": {
+    "title": "PHASE 2: Mathematik-Olympiade Core Topics and Written Solutions (Months 3-4, Weeks 9-16)",
+    "description": "The four areas of olympiad mathematics, at the right depth for each Klassenstufe, written up as complete solutions.",
+    "month_3_number_theory_combinatorics": {
+      "title": "Month 3: Number Theory and Combinatorics",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Divisibility, Primes and Remainders",
+        "topics": [
+          "Divisibility rules and why they work",
+          "Prime numbers and prime factorisation",
+          "Greatest common divisor and least common multiple",
+          "Parity: even and odd arguments",
+          "Remainders and patterns in last digits (modular thinking for older batches)",
+          "Writing the first full solution: claim, reasoning, conclusion"
+        ],
+        "projects": [
+          "Three original number theory problems, each with a complete written solution"
+        ],
+        "practice": "Problem sets of our own with one solution written in full"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Counting, Pigeonholes and Invariants",
+        "topics": [
+          "Permutations and combinations at the right level",
+          "The pigeonhole principle and how to state it in a solution",
+          "Invariants: what never changes in a game or process",
+          "Colouring arguments on grids and boards",
+          "Games: who wins, and a winning strategy",
+          "Justifying that every case has been covered"
+        ],
+        "projects": [
+          "A two-player game analysed with a written winning strategy"
+        ],
+        "practice": "Original combinatorics problems with written solutions",
+        "assessment": "Month 3 check: a timed written paper of original problems in the MO style"
+      }
+    },
+    "month_4_algebra_geometry": {
+      "title": "Month 4: Algebra and Geometry",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Equations, Inequalities and Sequences",
+        "topics": [
+          "Word problems turned into equations",
+          "Systems of equations and clever substitution",
+          "Inequalities and comparing quantities without a calculator",
+          "Sequences and sums, such as the sum of the first n odd numbers",
+          "Functional thinking: rules that map numbers to numbers",
+          "Checking an algebraic solution for every case"
+        ],
+        "projects": [
+          "A set of original algebra problems with full written solutions"
+        ],
+        "practice": "Algebra problem sets of our own"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Olympiad Geometry",
+        "topics": [
+          "Angle chasing in triangles, quadrilaterals and circles",
+          "Congruent and similar triangles",
+          "Area methods and the Pythagorean theorem",
+          "Constructions with ruler and compass",
+          "Writing a geometry proof that names every reason",
+          "Drawing an accurate diagram and a deliberately general one"
+        ],
+        "projects": [
+          "Three original geometry problems with complete written proofs"
+        ],
+        "practice": "Geometry problem sets of our own with written solutions",
+        "assessment": "Phase 2 assessment: a timed written paper of original problems across all four areas"
+      }
+    }
+  },
+  "phase_3_rounds_and_next_steps": {
+    "title": "PHASE 3: Proof Methods, Round-Style Papers and the Känguru Mock (Months 5-6, Weeks 17-24)",
+    "description": "Sharper proofs, then papers timed like the MO rounds, a final Känguru mock, and a look at what comes next.",
+    "month_5_proof_and_rounds": {
+      "title": "Month 5: Proof Methods and MO Round Practice",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Proof by Cases, Contradiction and Induction",
+        "topics": [
+          "Proof by cases and by exhaustion",
+          "Proof by contradiction",
+          "Mathematical induction for the older batches",
+          "Counterexamples: showing a claim is false",
+          "Common gaps in written solutions and how to close them",
+          "Peer review: marking a classmate's solution kindly and precisely, in English"
+        ],
+        "projects": [
+          "A proof portfolio: one problem proved by each method"
+        ],
+        "practice": "Proof problems of our own with written feedback"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Papers in the Style of the MO Rounds",
+        "topics": [
+          "How the MO rounds differ: the school round, the Regionalrunde, the Landesrunde and the Bundesrunde",
+          "A timed paper of our own in the style of a Regionalrunde",
+          "A longer timed paper of our own in the style of a Landesrunde",
+          "Choosing the order of problems and managing time",
+          "Writing neatly enough for a marker to follow",
+          "Reviewing marked papers and keeping an error log"
+        ],
+        "projects": [
+          "Two round-style papers with detailed written feedback"
+        ],
+        "practice": "Timed written papers of original problems",
+        "assessment": "Month 5 check: a timed round-style paper of original problems"
+      }
+    },
+    "month_6_kaenguru_mock_next_steps": {
+      "title": "Month 6: Känguru Mock, Review and Next Steps",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Full Känguru Mock and Review",
+        "topics": [
+          "A full 75-minute mock of our own: 24 or 30 problems by Klassenstufe",
+          "Problem-by-problem review: the fastest route to each answer",
+          "Repairing the weakest area from the error log",
+          "Mixed sets that switch quickly between topics",
+          "Staying calm and accurate under time",
+          "Planning the final weeks before 8 April 2027"
+        ],
+        "projects": [
+          "A full mock with a personal review sheet"
+        ],
+        "practice": "Timed mixed sets of original problems"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Final Papers and What Comes Next",
+        "topics": [
+          "A final written paper of our own across all four areas",
+          "Next steps for older pupils: the Bundeswettbewerb Mathematik, with home rounds of four problems in geometry, combinatorics, number theory and algebra",
+          "Other competitions such as Pangea and Jugend forscht, and how they differ",
+          "Honest use of tools: the Bundeswettbewerb Mathematik forbids using AI to solve or check problems",
+          "A training plan for the next competition year",
+          "Presenting a favourite solution to the batch in English"
+        ],
+        "projects": [
+          "A favourite solution presented live, plus a personal training plan"
+        ],
+        "practice": "A final timed paper of original problems",
+        "assessment": "Final assessment: a written paper of original problems and a short Känguru-style section"
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the Mathematik-Olympiade and Känguru course?",
+      "answer": "A live online maths competition course for pupils in Germany aged roughly 8 to 18, taught in English, with batches by Klassenstufe. It trains fast reasoning for the Känguru der Mathematik and full written solutions for the Mathematik-Olympiade, using only our own original problems. It runs for 24 weeks with 2 live classes a week."
+    },
+    {
+      "question": "Are the classes in German or in English?",
+      "answer": "English only. We never teach in German. The mentor matches your pace and accent: speaks clearly, slows down, rephrases and checks understanding. Many families see this as a plus: competition maths and English practice in one class. Our notes put the German maths term beside the English one."
+    },
+    {
+      "question": "When is the Känguru der Mathematik 2027?",
+      "answer": "The organisers say the 2027 Känguru takes place exceptionally in April, on 8 April 2027, because the usual date in March falls just before the Easter holidays in almost all Länder. Online registration runs from 1 December 2026 to 31 January 2027. Normally the Känguru is on the third Thursday in March."
+    },
+    {
+      "question": "How does the Känguru work?",
+      "answer": "It is an individual competition of 75 minutes. Pupils solve 24 problems in Klassenstufe 3/4 and 5/6, and 30 problems in 7/8, 9/10 and 11 to 13. In 2026 over 920,000 pupils from more than 13,000 schools took part."
+    },
+    {
+      "question": "What are the Mathematik-Olympiade dates for 2026/27?",
+      "answer": "For the 66th MO, mathe-wettbewerbe.de lists the school round up to October 2026, the Regionalrunde on 11 November 2026, the Landesrunde from 26 to 28 February 2027 and the Bundesrunde from 30 May to 2 June 2027 in Kaiserslautern. Check your own Land's MO page, as arrangements can differ."
+    },
+    {
+      "question": "How many rounds does the MO have?",
+      "answer": "The MO site says it runs in three rounds for Klassenstufe 5 to 7 and in four rounds from Klassenstufe 8; for Klasse 3 to 7 it ends at the Landesrunde. The Bundesrunde invites teams of up to 15 pupils from Klassenstufe 8 from every Land."
+    },
+    {
+      "question": "Do you use real MO or Känguru problems?",
+      "answer": "No. Every problem in the course is our own, written in each competition's style. Pupils can work through past problems the organisers publish themselves; we never copy them into our materials."
+    },
+    {
+      "question": "Are you an official partner of the Mathematik-Olympiade or the Känguru?",
+      "answer": "No. We are an independent online school with teachers in India and are not connected to the Mathematik-Olympiaden e.V., the Känguru organisers or any other organiser. Entries are made through schools or the organisers, never through us."
+    },
+    {
+      "question": "My child is 8. Is that too young?",
+      "answer": "No. The Känguru starts at Klassenstufe 3 and the MO has been offered to primary schools since 2005. Our youngest batch is Klassenstufe 3/4, with problems pitched to that level."
+    },
+    {
+      "question": "Will this help with school maths?",
+      "answer": "Usually, yes, because competition training builds careful reading, number sense and clear written reasoning. But the course goes beyond the school book rather than following it. For school maths support, see our other maths courses."
+    },
+    {
+      "question": "When are classes, with the time difference to India?",
+      "answer": "Timing is flexible on weekdays or weekends: choose a batch, or 1-on-1 at your convenience. Our teachers work in India time, which is 4 hours 30 minutes ahead of Germany in winter and 3 hours 30 minutes ahead in summer, so German afternoon, early evening and weekend slots are realistic."
+    },
+    {
+      "question": "Do you promise a prize?",
+      "answer": "No. We promise careful teaching, honest written feedback and lots of practice. Results depend on the pupil and the competition. The first class is a free demo, so you can decide with no pressure."
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A problem journal and a pupil-invented logic puzzle",
+      "Area puzzles solved by cutting and rearranging",
+      "Complete written solutions in number theory, combinatorics, algebra and geometry",
+      "A two-player game with a written winning strategy",
+      "A proof portfolio with one proof per method",
+      "Round-style papers and full Känguru-style mocks with feedback",
+      "A favourite solution presented live in English"
+    ],
+    "total_projects_built": "A bank of solved original problems, a folder of marked written solutions, an error log, timed-paper results and a personal training plan",
+    "skills_mastered": [
+      "Number sense, logic and systematic counting",
+      "Divisibility, primes, parity and remainders",
+      "Pigeonhole, invariants and game strategies",
+      "Equations, inequalities and sequences",
+      "Angle chasing, congruence and area methods",
+      "Proof by cases, contradiction and induction",
+      "Fast elimination for multiple choice and clear written proofs"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, in English, in batches by Klassenstufe",
+      "practice": "A weekly problem set of our own, with one solution written up in full",
+      "review": "A monthly timed paper of original problems with written feedback"
+    },
+    "certification": {
+      "completion": "Certificate from Modern Age Coders, awarded on passing the final assessment. It records real learning and is not a competition result, award or organiser's document. Fall short and there is focused revision and a free retest"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, in English, with hints first and full solutions after a real attempt",
+      "progress_updates": "A monthly progress note to parents with paper results and next steps",
+      "english_support": "A German to English maths word list, from Teiler to Beweis"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Secure school maths for the pupil's Klassenstufe and a liking for puzzles",
+    "english": "Enough English to follow a worked example; the mentor slows down and rephrases as needed",
+    "age": "Roughly 8 to 18, in Klassenstufe 3 to 13",
+    "equipment": "A computer with stable internet, a headset with a microphone, paper and a pencil, and a way to share photos of written solutions",
+    "timing": "Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience. Our teachers work in India time, which is 4 hours 30 minutes ahead of Germany in winter and 3 hours 30 minutes ahead in summer, so German afternoon, early evening and weekend slots are realistic"
+  },
+  "who_is_this_for": {
+    "primary_pupils": "Pupils in Klasse 3 and 4 who love number puzzles and want to try the Känguru and the MO",
+    "lower_secondary": "Pupils in Klassenstufe 5 to 8 aiming to reach the Regionalrunde and Landesrunde",
+    "upper_secondary": "Pupils from Klassenstufe 9 who want olympiad-level proofs and a route to the Bundeswettbewerb Mathematik",
+    "english_learners": "German-speaking pupils who want competition maths and English practice in one class",
+    "international_families": "Families who moved to Germany and want maths competition training in English"
+  },
+  "career_paths_after_completion": [
+    "The Bundeswettbewerb Mathematik and, for the very strongest, the IMO selection path",
+    "Abitur maths through our Abitur Mathematik in English course",
+    "Olympiad mathematics in more depth in our olympiad maths courses",
+    "Informatics competitions through our German Informatics Competitions course",
+    "Mathematics, physics or computer science at university"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real teacher, never pre-recorded videos.",
+    "english_and_pace": "Taught in English only, with a mentor who matches your pace and accent.",
+    "batches": "Group batches of 15 to 20 students by Klassenstufe, or personal 1-on-1 classes.",
+    "original_problems": "Every problem and mock is our own; we never reproduce real MO or Känguru problems.",
+    "written_feedback": "Written feedback on every full solution and timed paper.",
+    "independence": "We are independent of every competition organiser and not an official partner of any competition.",
+    "free_demo": "The first class is free, so you can decide with no pressure."
+  }
+}

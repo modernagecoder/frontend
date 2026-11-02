@@ -546,5 +546,25 @@
  "college-math-placement-test-prep-course": {
   "img": "/images/college-math-placement-prep.webp",
   "alt": "College Math Placement Test Prep: ALEKS, ACCUPLACER, TSIA2, CLEP - Modern Age Coders course"
+ },
+ "informatik-companion-course-klasse-5-10": {
+  "img": "/images/informatik-companion-klasse-5-10.webp",
+  "alt": "Informatik Companion, Klasse 5 to 10 (in English) - Modern Age Coders course"
+ },
+ "informatik-abitur-course-java-python": {
+  "img": "/images/informatik-abitur-java-python.webp",
+  "alt": "Informatik Abitur in English: Java and Python - Modern Age Coders course"
+ },
+ "abitur-mathematics-course-in-english": {
+  "img": "/images/abitur-mathematik-in-english.webp",
+  "alt": "Abitur Mathematik in English: Leistungskurs and Grundkurs - Modern Age Coders course"
+ },
+ "german-informatics-competitions-course-biber-bwinf-bwki": {
+  "img": "/images/german-informatics-competitions.webp",
+  "alt": "German Informatics Competitions: Biber, BwInf and BWKI - Modern Age Coders course"
+ },
+ "mathematik-olympiade-and-kaenguru-training-course": {
+  "img": "/images/mathematik-olympiade-kaenguru.webp",
+  "alt": "Mathematik-Olympiade and Känguru Training in English - Modern Age Coders course"
  }
 }
