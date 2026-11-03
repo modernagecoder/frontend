@@ -34,7 +34,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE047 | jugendwettbewerb-informatik-preparation (jip, #345F8D) | competition (en) | 4,246 | 1.9% vs informatik-biber-practice-in-english | Jugendwettbewerb Informatik 2027 Preparation in English | trace the program by hand, then run it (prediction before execution) | 856cfa29 |
 | DE049 | math-olympiad-germany-preparation (mol, #6E3D22) | competition (en) | 4,140 | 2% vs informatik-biber-practice-in-english | Mathematik-Olympiade Preparation in English, Germany | write the full proof; a computer check of small cases is evidence, never the proof | f6b07ee9 |
 | DE052 | jugend-forscht-computer-science-project-mentoring (jfc, #005045) | competition (en) | 4,311 | 1.3% vs ai-and-machine-learning-classes-in-germany | Jugend forscht Informatik: Project Mentoring in English | design a fair experiment (hypothesis first, many seeded repeats, median and spread reported) | 63bd94ed |
-| DE046 | bundeswettbewerb-informatik-preparation (bin, #19607B) | competition (en) | 4,152 | 2% vs igcse-computer-science-tutor-germany | Bundeswettbewerb Informatik Preparation, Live in English | count the steps before you code (from a correct slow idea to a correct fast one, with evidence) | (this commit) |
+| DE046 | bundeswettbewerb-informatik-preparation (bin, #19607B) | competition (en) | 4,152 | 2% vs igcse-computer-science-tutor-germany | Bundeswettbewerb Informatik Preparation, Live in English | count the steps before you code (from a correct slow idea to a correct fast one, with evidence) | 2df3dd4e |
+| DE048 | ioi-2027-potsdam-guide (ipg, #754A79) | competition (en) | 4,019 | 1.4% vs ib-computer-science-tutor-germany | IOI 2027 in Potsdam: A Guide for Families in Germany | stress testing, a fast solution checked against a brute force on random data | (this commit) |
 
 ## Notes
 
