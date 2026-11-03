@@ -9034,4 +9034,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /ioi-2027-potsdam-guide /src/pages/ioi-2027-potsdam-guide.html 200
 /ioi-2027-potsdam-guide.md /src/pages/ioi-2027-potsdam-guide.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/bundeswettbewerb-ki-bwki-project-help /src/pages/bundeswettbewerb-ki-bwki-project-help.html 200
+/bundeswettbewerb-ki-bwki-project-help.md /src/pages/bundeswettbewerb-ki-bwki-project-help.md 200
 /* /src/pages/404.html 404

@@ -764,6 +764,7 @@ const SLUGS = [
   'kangaroo-math-germany-practice',
   'bundeswettbewerb-informatik-preparation',
   'ioi-2027-potsdam-guide',
+  'bundeswettbewerb-ki-bwki-project-help',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1607,6 +1608,7 @@ const LLMS_LABELS = {
   'kangaroo-math-germany-practice': 'Känguru der Mathematik practice in English',
   'bundeswettbewerb-informatik-preparation': 'Bundeswettbewerb Informatik preparation',
   'ioi-2027-potsdam-guide': 'IOI 2027 in Potsdam: a guide for families',
+  'bundeswettbewerb-ki-bwki-project-help': 'Bundeswettbewerb KI (BWKI) project help',
 };
 
 function wireLlms(slugs) {

@@ -36,7 +36,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE052 | jugend-forscht-computer-science-project-mentoring (jfc, #005045) | competition (en) | 4,311 | 1.3% vs ai-and-machine-learning-classes-in-germany | Jugend forscht Informatik: Project Mentoring in English | design a fair experiment (hypothesis first, many seeded repeats, median and spread reported) | 63bd94ed |
 | DE046 | bundeswettbewerb-informatik-preparation (bin, #19607B) | competition (en) | 4,152 | 2% vs igcse-computer-science-tutor-germany | Bundeswettbewerb Informatik Preparation, Live in English | count the steps before you code (from a correct slow idea to a correct fast one, with evidence) | 2df3dd4e |
 | DE048 | ioi-2027-potsdam-guide (ipg, #754A79) | competition (en) | 4,019 | 1.4% vs ib-computer-science-tutor-germany | IOI 2027 in Potsdam: A Guide for Families in Germany | stress testing, a fast solution checked against a brute force on random data | eea5f599 |
-| DE050 | kangaroo-math-germany-practice (kmp, #67570B) | competition (en) | 4,096 | 1.6% vs informatik-biber-practice-in-english | Känguru der Mathematik 2027: Practice in English, Germany | expected value of a guess under the published scoring rule (decide when to answer, by elimination) | (this commit) |
+| DE050 | kangaroo-math-germany-practice (kmp, #67570B) | competition (en) | 4,096 | 1.6% vs informatik-biber-practice-in-english | Känguru der Mathematik 2027: Practice in English, Germany | expected value of a guess under the published scoring rule (decide when to answer, by elimination) | 95fd0844 |
+| DE051 | bundeswettbewerb-ki-bwki-project-help (buk, #4E5A23) | competition (en) | 4,364 | 1.8% vs jugend-forscht-computer-science-project-mentoring | Bundeswettbewerb KI (BWKI) Project Help in English | accuracy can lie; read the confusion matrix (precision and recall on an imbalanced problem) | (this commit) |
 
 ## Notes
 

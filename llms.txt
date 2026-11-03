@@ -995,6 +995,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Känguru der Mathematik practice in English: https://learn.modernagecoders.com/kangaroo-math-germany-practice
 - Bundeswettbewerb Informatik preparation: https://learn.modernagecoders.com/bundeswettbewerb-informatik-preparation
 - IOI 2027 in Potsdam: a guide for families: https://learn.modernagecoders.com/ioi-2027-potsdam-guide
+- Bundeswettbewerb KI (BWKI) project help: https://learn.modernagecoders.com/bundeswettbewerb-ki-bwki-project-help
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

@@ -29485,6 +29485,18 @@
   to = "/src/pages/ioi-2027-potsdam-guide.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/bundeswettbewerb-ki-bwki-project-help"
+  to = "/src/pages/bundeswettbewerb-ki-bwki-project-help.html"
+  status = 200
+
+[[redirects]]
+  from = "/bundeswettbewerb-ki-bwki-project-help.md"
+  to = "/src/pages/bundeswettbewerb-ki-bwki-project-help.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
