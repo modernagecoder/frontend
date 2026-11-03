@@ -787,6 +787,7 @@ const SLUGS = [
   'python-course-germany',
   'java-classes-germany',
   'ib-maths-tutor-germany',
+  'coding-classes-cost-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1653,6 +1654,7 @@ const LLMS_LABELS = {
   'python-course-germany': 'Python course in Germany',
   'java-classes-germany': 'Java classes in Germany',
   'ib-maths-tutor-germany': 'IB maths tutor in Germany',
+  'coding-classes-cost-germany': 'Coding classes cost in Germany',
 };
 
 function wireLlms(slugs) {
