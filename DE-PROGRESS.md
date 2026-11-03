@@ -162,7 +162,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE157 | coding-classes-for-kids-in-krefeld-germany (ckr, #23396A) | city-t2 (en) | 3,748 | 1.9% vs coding-classes-for-kids-in-chemnitz-germany | Coding Classes for Kids in Krefeld, Live Online in English | tally and sort; before you crown the top of a list, check that it is a real thing and not a label | d54cde7d |
 | DE177 | online-python-classes-herne-germany (phe, #973B22) | city-t2 (en) | 4,576 | 2% vs coding-classes-for-kids-dusseldorf | Online Python Classes in Herne: Live and in English | sweep events in time order with a running count, and decide how ties sort (a closing year before an | 538edf22 |
 | DE178 | coding-classes-for-kids-in-heidelberg-germany (hei, #715735) | city-t2 (en) | 4,147 | 1.9% vs coding-classes-for-kids-in-karlsruhe-germany | Coding Classes for Kids in Heidelberg: Live, in English | before you average sensors, check each reading's date and whether it agrees with its neighbours (the | 1bea7a38 |
-| DE180 | online-python-classes-regensburg-germany (pyr, #695E7D) | city-t2 (en) | 3,841 | 2.1% vs online-python-classes-herne-germany | Online Python Classes in Regensburg: Live, in English | join two lists of places by distance with a stated tolerance, not by their text, and inspect the | (this commit) |
+| DE180 | online-python-classes-regensburg-germany (pyr, #695E7D) | city-t2 (en) | 3,841 | 2.1% vs online-python-classes-herne-germany | Online Python Classes in Regensburg: Live, in English | join two lists of places by distance with a stated tolerance, not by their text, and inspect the | 002fcefb |
+| DE181 | coding-classes-for-kids-in-ingolstadt-germany (ing, #3E3B59) | city-t2 (en) | 3,839 | 2.4% vs coding-classes-for-kids-in-heidelberg-germany | Coding Classes for Kids in Ingolstadt: Live in English | a difference can change sign; split a comparison by time of day before you sum it up in one number | (this commit) |
 
 ## Notes
 
