@@ -838,6 +838,7 @@ const SLUGS = [
   'bundeswettbewerb-informatik-vorbereitung',
   'mathematik-olympiade-vorbereitung',
   'math-tutor-berlin-in-english',
+  'coding-for-international-school-students-berlin',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1755,6 +1756,7 @@ const LLMS_LABELS = {
   'bundeswettbewerb-informatik-vorbereitung': 'Bundeswettbewerb Informatik Vorbereitung (auf Englisch)',
   'mathematik-olympiade-vorbereitung': 'Mathematik-Olympiade Vorbereitung (auf Englisch)',
   'math-tutor-berlin-in-english': 'Maths tutor in Berlin, in English',
+  'coding-for-international-school-students-berlin': 'Coding for international school students in Berlin',
 };
 
 function wireLlms(slugs) {

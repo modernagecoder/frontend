@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for International School Students in Berlin, in English</title>
+  <meta name="description" content="Coding for international school students in Berlin: IGCSE, IB, AP and Abitur computing compared, live online classes in English, and a Berlin open data project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-international-school-students-berlin">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-international-school-students-berlin.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#565635">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-international-school-students-berlin">
+  <meta property="og:title" content="Coding for International School Students in Berlin, in English">
+  <meta property="og:description" content="Live online computer science tutoring in English for Berlin pupils at English-medium and bilingual schools: how IGCSE, IB, AP and the Berlin Abitur test programming, and a data-validation project on Berlin open data.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for International School Students in Berlin, in English">
+  <meta name="twitter:description" content="Computer science for Berlin's international school pupils, live in English: four exam formats and a Berlin data project.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cin .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-cin .ag-capsule { border-left-width: 4px; border-radius: 0; }
+.ag-root.ag-cin .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-cin .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-cin .ag-code-head b { letter-spacing: 0.02em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-international-school-students-berlin#page","url":"https://learn.modernagecoders.com/coding-for-international-school-students-berlin","name":"Coding for International School Students in Berlin","description":"A guide for teenagers at English-medium and bilingual schools in Berlin to computer science exams and help, built from the AGIS directory, Cambridge, College Board, KMK and Gesellschaft für Informatik sources, with an original Python validation project on Berlin's Christmas market open data.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"International schools, Berlin","item":"https://learn.modernagecoders.com/coding-for-international-school-students-berlin"}]},{"@type":"Course","name":"Coding for International School Students in Berlin","description":"Live online computer science tutoring in English for pupils at international and bilingual schools in Berlin: IGCSE Computer Science, IB Diploma Computer Science, AP Computer Science A and Abitur Informatik, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-international-school-students-berlin"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-international-school-students-berlin"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-international-school-students-berlin"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Every class is live and taught in English only, by mentors who match your pace and accent. That suits IGCSE, IB and AP pupils, whose exams are in English, and it works for Abitur Informatik too, because the programming languages themselves are English."}},{"@type":"Question","name":"Do you teach IGCSE Computer Science 0478?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our course follows the 2026 to 2028 syllabus: Paper 1 Computer Systems and Paper 2 Algorithms, Programming and Logic, each 1 hour 45 minutes and 75 marks. We drill pseudocode in the Cambridge style and use Python for the programming answers."}},{"@type":"Question","name":"When is the AP Computer Science A exam in 2027?","acceptedAnswer":{"@type":"Answer","text":"The College Board lists it on Wednesday 12 May 2027, in Session 2. Its start-time table gives 1:00 p.m. local time for Session 2 at UTC+2, Berlin's offset in May, but your school confirms the exact time."}},{"@type":"Question","name":"Is the AP Computer Science A exam on paper?","acceptedAnswer":{"@type":"Answer","text":"No. The College Board describes it as fully digital, taken in the Bluebook app, with 42 multiple-choice questions and 4 free-response questions, each part lasting 1 hour 30 minutes. The Java Quick Reference is built into the app."}},{"@type":"Question","name":"Can you help with IB Diploma Computer Science?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our course follows the new IB guide with first assessment in 2027, including the internal assessment. We do not quote IB exam figures on this page because we could not read them on ibo.org; your IB coordinator has the official details."}},{"@type":"Question","name":"Which international schools in Berlin do your students attend?","acceptedAnswer":{"@type":"Answer","text":"We do not name schools as sources of students. The schools on this page are listed only because the AGIS directory shows their qualifications. We are not connected with AGIS or with any school."}},{"@type":"Question","name":"Can I use a computer in the Berlin Abitur in Informatik?","acceptedAnswer":{"@type":"Answer","text":"According to the Informatik-Monitor 2026/27, working on a computer is allowed in all tasks of the written Berlin Abitur in Informatik, limited to where the subject needs it. The tasks are set decentrally: teachers submit two proposals and one is chosen."}},{"@type":"Question","name":"What times can I book from Berlin?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Evenings are popular: 18:20 in Berlin is 22:50 for the mentor in India in winter."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"The fee is monthly for eight live classes and appears in euro at the European Central Bank reference rate. The charge goes through in US dollars and your bank converts it, so your statement may differ a little. The first class is free."}},{"@type":"Question","name":"Will you do my coursework or internal assessment for me?","acceptedAnswer":{"@type":"Answer","text":"No. We teach you to plan, write and test your own work, and we explain the criteria in plain English. The work you hand in has to be your own, and we keep it that way."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-international-school-students-berlin","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-cin">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#schools">Schools</a></li>
+      <li><a href="#exams">Exams</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / International schools, Berlin
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Berlin &middot; International and bilingual schools &middot; Ages 13 to 19</p>
+        <h1>Coding for international school students in Berlin</h1>
+        <p class="ag-lede">A computer science pupil in Berlin can be heading for four very different exams: Cambridge IGCSE, the IB Diploma, an American AP exam, or the Berlin Abitur. They test the same ideas, yet one is on paper in pseudocode, one is on a screen in Java, and one lets you use a computer for every task. This page sets out what the international schools in Berlin offer according to their association, how each exam treats programming, how we teach for all four in English, and a Python project on Berlin open data about the dullest and most useful skill in computing: checking input.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#exams" class="ag-btn ag-btn--ghost">Compare the four exams</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20at%20an%20international%20school%20in%20Berlin%20and%20want%20computer%20science%20help%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cin'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; IGCSE, IB, AP and Abitur computing in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Ages</dt><dd>13 to 19</dd>
+          <dt>Exams</dt><dd>IGCSE, IB Diploma, AP CSA, Abitur</dd>
+          <dt>Languages</dt><dd>Python, Java, pseudocode</dd>
+          <dt>Group size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Teachers</dt><dd>Mentors based in India, live</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Coding for international school students in Berlin at Modern Age Coders is live online computer science tutoring in English for pupils of 13 to 19 at English-medium and bilingual schools: IGCSE Computer Science 0478, IB Diploma Computer Science, AP Computer Science A, and Informatik for the Berlin Abitur. One regular mentor matches your pace and accent, either one to one or in a group of fifteen to twenty.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Three exam courses</p>
+      <h2>Courses for the computing exams Berlin pupils sit</h2>
+      <p class="ag-lede">Pick the one that matches your school's qualification. Each follows its own board's syllabus and our own practice tasks.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ib-diploma-computer-science-course">
+        <div class="ag-pick-shot"><img src="/images/ib-computer-science.webp" alt="IB DP Computer Science (New Guide, First Assessment 2027) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIN / 01</p>
+          <h3>IB Diploma Computer Science</h3>
+          <p>Ages 16 to 19. The new IB guide with first assessment in 2027: programming, algorithms, data and the internal assessment, taught in English with a regular mentor.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/igcse-computer-science-0478-course">
+        <div class="ag-pick-shot"><img src="/images/igcse-computer-science.webp" alt="IGCSE Computer Science (0478) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIN / 02</p>
+          <h3>IGCSE Computer Science 0478</h3>
+          <p>Ages 14 to 16. Both papers of the 2026 to 2028 syllabus, with pseudocode drilled until it is automatic and Python for the programming answers.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/ap-computer-science-a-java-exam-prep-course">
+        <div class="ag-pick-shot"><img src="/images/ap-computer-science-a.webp" alt="AP Computer Science A course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CIN / 03</p>
+          <h3>AP Computer Science A</h3>
+          <p>Ages 15 to 18. Java from the first lesson, the four free-response question types, and practice for an exam taken on screen.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="schools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Berlin schools</p><h2>Which qualifications do Berlin's international schools list?</h2><p class="ag-lede">The Arbeitsgemeinschaft der Internationalen Schulen in Deutschland, AGIS, keeps a directory of its schools. For Berlin it shows a mix of IB, Cambridge, American and German qualifications. We give this as context only; we have no link with any of these schools.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Qualifications listed for Berlin schools in the AGIS directory, and where computing can sit within them</caption><thead><tr><th scope="col">School (AGIS listing)</th><th scope="col">Qualifications listed by AGIS</th><th scope="col">Computing exam that can sit in that route</th></tr></thead><tbody><tr><td>BBIS Berlin Brandenburg International School</td><td>IB PYP, IB MYP, International Baccalaureate</td><td>IB Diploma Computer Science</td></tr><tr><td>Berlin British School</td><td>IB PYP, IB Diploma, IGCSE, MSA</td><td>IGCSE Computer Science; IB Diploma Computer Science</td></tr><tr><td>Berlin International School</td><td>Cambridge Examinations Board, MSA, IB Diploma</td><td>Cambridge computing papers; IB Diploma Computer Science</td></tr><tr><td>Berlin Metropolitan School</td><td>IB PYP, IGCSE, International Baccalaureate</td><td>IGCSE Computer Science; IB Diploma Computer Science</td></tr><tr><td>John F. Kennedy School Berlin (AGIS partner)</td><td>Advanced Placement, American High School Diploma, Deutsches Abitur</td><td>AP Computer Science A; Abitur Informatik</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: AGIS school directory, one page per school, read on 2 November 2026. The third column is ours: it names the computing exam a route can include, not a claim that the school teaches it. Whether a school offers Computer Science in a given year is on the school's own pages, so ask the school.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What AGIS says about its schools</h3><p>AGIS describes all its member schools as authorised IB schools that offer at least one of the four IB programmes. It says they bring together children from up to 65 nations and use English as the common teaching language.</p>
+<p>It also explains how the German side reads these routes: the IB Diploma, with prescribed subject combinations, counts as equivalent to the German Abitur, and schools that offer the MYP or the IGCSE give pupils a qualification equivalent to the Mittlere Reife.</p></div><div><h3>Bilingual state schools too</h3><p>Berlin also has the Staatliche Europa-Schule Berlin, SESB. The KMK's Eurydice dossier calls it a network of bilingual streams at 33 schools with about 6,000 pupils, taught in German and one of nine other languages from the first grade to the Abitur.</p>
+<p>A pupil in an English stream there, or at a German school who simply prefers English, sits the Berlin Abitur in Informatik if they take it. That route is in the last row of the exam table below.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="exams">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Four exams compared</p><h2>How do IGCSE, IB, AP and the Berlin Abitur test programming?</h2><p class="ag-lede">The ideas overlap almost completely: variables, loops, arrays, searching, sorting, classes, data. What differs is the medium, the language and how much the computer is allowed to help.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Programming in four computing exams open to Berlin pupils</caption><thead><tr><th scope="col">Exam</th><th scope="col">How it is taken</th><th scope="col">Language for answers</th><th scope="col">Published structure</th></tr></thead><tbody><tr><td>IGCSE Computer Science 0478</td><td>Two written papers</td><td>Pseudocode, or Python, Visual Basic or Java</td><td>Paper 1 Computer Systems and Paper 2 Algorithms, Programming and Logic, each 1 hour 45 minutes and 75 marks</td></tr><tr><td>AP Computer Science A</td><td>Fully digital, in the Bluebook app</td><td>Java, with the Java Quick Reference</td><td>42 multiple-choice questions in 1 hour 30 minutes (55 percent) and 4 free-response questions in 1 hour 30 minutes (45 percent)</td></tr><tr><td>Abitur Informatik, Berlin</td><td>Written; the teacher submits two task proposals and one is chosen</td><td>Set by the course</td><td>Grundkurs three hours a week, Leistungskurs five; a computer may be used in all tasks</td></tr><tr><td>IB Diploma Computer Science</td><td>Set by the IB</td><td>Set by the IB guide</td><td>Not quoted here: ibo.org did not let us read it, so we give no figures</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Sources: Cambridge International, IGCSE Computer Science 0478 syllabus for 2026 to 2028; College Board, AP Computer Science A exam page and 2027 AP exam schedule; Gesellschaft für Informatik, Informatik-Monitor 2026/27, Berlin page. Read on 2 and 3 November 2026. The IB row is left without figures on purpose.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Paper versus screen</h3><p>Cambridge asks for algorithms written by hand, in pseudocode or a real language, and its syllabus says the last question of Paper 2 is a 15-mark unseen scenario. A pupil who has only ever typed code into an editor that catches errors finds this hard: there is no red underline on paper.</p>
+<p>The College Board does the opposite for AP Computer Science A: the exam is fully digital, taken in the Bluebook app, and the Java Quick Reference is built in. The four free-response questions are fixed in type: methods and control structures, class design, data analysis with an ArrayList, and a 2D array.</p></div><div><h3>The Berlin Abitur</h3><p>The Informatik-Monitor says Berlin's written Abitur tasks in Informatik are developed decentrally: the teacher submits two proposals for a course and one is chosen. Working on a computer is allowed in every task, limited to the parts where it is needed for the subject.</p>
+<p>Before the Oberstufe, pupils at Berlin's German schools meet computing in the ITG, the Informationstechnischer Grundkurs of one weekly hour, placed in grade 7 or grade 8; after that Informatik is normally an elective of two hours a week across grades 9 and 10. An international school pupil who moves into a Berlin Oberstufe may therefore meet classmates with two years of school Informatik behind them, or none.</p></div></div>
+    <p class="ag-mt-40">Dates matter too. The College Board lists AP Computer Science A on Wednesday 12 May 2027 in Session 2, and its start-time table gives 1:00 p.m. local time for Session 2 at UTC+2, which is Berlin's offset in May. Check your own school's time with the College Board lookup. Cambridge and the IB publish their own timetables, and your school's exams officer has the final version.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Taught in English</p><h2>Why learn computer science in English in Berlin?</h2><p class="ag-lede">For an international school pupil the answer is simple: your exam is in English. For a pupil at a German school, it is the language the subject is written in anyway.</p></div>
+    <div class="ag-grid-3"><div><h3>English only</h3><p>Every class is live, and every class is in English; German-language lessons are not something we run. Mentors adjust their speed and accent to the pupil, and they rephrase until an idea lands.</p></div><div><h3>Exam words, exactly</h3><p>Each board phrases its questions in its own command words. We practise with the words in your syllabus, so that a question means the same thing to you as it does to the person marking it.</p></div><div><h3>Same mentor, every week</h3><p>One mentor follows the pupil from the first class to the exam and knows which topics still wobble. Mentors are based in India and teach over live video with a shared editor.</p></div></div>
+    <p class="ag-mt-40">We do not ask pupils to copy answers, from us or from an AI tool. A pupil who can explain why a loop stops, and test that claim, can answer a question they have never seen. For under-18s we never recommend adult-only AI accounts; our <a class="ag-inline-link" href="/ai-tools-age-guide">AI tools age guide</a> lists what each tool's own terms allow.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Berlin data project</p><h2>What does Berlin's Christmas market data teach about validating input?</h2><p class="ag-lede">Every computing syllabus asks pupils to validate data. Real data makes the point far better than a textbook, and the Senate's list of Christmas markets is real, messy and open.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>The Senate department for economics publishes Berliner und Brandenburger Weihnachtsmärkte as open data under CC BY. We downloaded the JSON version on 3 November 2026: 48 markets for the 2025/26 season, each with a district, a start date (von), an end date (bis) and free-text opening hours.</p>
+<p>The dates are written the German way, day.month.year, as text. A program has to turn that text into a date before it can compare or subtract anything, and that is where the trouble starts.</p></div><div><h3>The question</h3><p>How long does a typical market run? It sounds like one subtraction per market. Try it on all 48 and the program crashes, because some cells hold no date, some hold several dates on separate lines, and one says a market ends in 2012.</p>
+<p>So Version 1 does what an examiner wants to see: before computing anything, it sorts every record into a named case. Only the clean cases go forward.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: classify every record first</b><span>Python</span></figcaption><pre>import json
+from datetime import datetime
+
+def parse(text):
+    return datetime.strptime(text.strip(), "%d.%m.%Y").date()
+
+markets = json.load(open("weihnachtsmaerkte.json", encoding="utf-8"))["index"]
+kinds = {}
+for m in markets:
+    start, end = m["von"], m["bis"]
+    if start == "":
+        kind = "no start date"
+    elif "\n" in start:
+        kind = "several dates in one cell"
+    elif end == "":
+        kind = "one day only"
+    elif parse(end) &lt; parse(start):
+        kind = "ends before it starts"
+    else:
+        kind = "clean range"
+    kinds[kind] = kinds.get(kind, 0) + 1
+
+for kind, n in sorted(kinds.items(), key=lambda kv: -kv[1]):
+    print(kind, n)</pre><p class="ag-code-note">It prints <code>clean range 26</code>, <code>one day only 17</code>, <code>several dates in one cell 3</code>, <code>no start date 1</code> and <code>ends before it starts 1</code>.</p></figure>
+    <p class="ag-mt-40">Only 26 of 48 records are clean ranges. Seventeen are single-day markets with no end date at all, which is not an error but a different kind of record. Three put several weekend dates into one cell, separated by line breaks. One has no start date in its own field; its dates are hidden in the opening-hours text. And one ends before it starts.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: reject what cannot be true, then measure</b><span>Python</span></figcaption><pre>import json
+import statistics
+from datetime import datetime
+
+def parse(text):
+    return datetime.strptime(text.strip(), "%d.%m.%Y").date()
+
+markets = json.load(open("weihnachtsmaerkte.json", encoding="utf-8"))["index"]
+spans = []
+for m in markets:
+    start, end = m["von"], m["bis"]
+    if start == "" or "\n" in start or end == "":
+        continue
+    days = (parse(end) - parse(start)).days + 1
+    if days &lt; 1:
+        print("Rejected:", m["name"], start, end)
+        continue
+    spans.append(days)
+
+spans.sort()
+print("Clean ranges:", len(spans))
+print("Shortest:", spans[0], "Longest:", spans[-1], "Median:", statistics.median(spans))</pre><p class="ag-code-note">It prints <code>Rejected: Weihnachtsmarkt Königs Wusterhausen 12.12.2025 14.12.2012</code>, <code>Clean ranges: 26</code> and <code>Shortest: 1 Longest: 124 Median: 35.0</code>.</p></figure>
+    <p>The rejected record starts on 12 December 2025 and ends on 14 December 2012, which looks like a typing slip, but a program should not guess. It reports the record and leaves it out. The longest clean range is 124 days, a winter market in Mitte from 28 November 2025 to 31 March 2026, which is why we report the median, 35 days, rather than the mean: one long run would pull an average up.</p>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>The 48 records of the 2025/26 season by validation case (our calculation)</caption><thead><tr><th scope="col">Case</th><th scope="col">Records</th><th scope="col">What a careful program does</th></tr></thead><tbody><tr><td>Clean range</td><td class="ag-num">26</td><td>Parse both dates and measure</td></tr><tr><td>One day only</td><td class="ag-num">17</td><td>Treat as a one-day range, or count separately</td></tr><tr><td>Several dates in one cell</td><td class="ag-num">3</td><td>Split on line breaks, then pair the dates</td></tr><tr><td>No start date</td><td class="ag-num">1</td><td>Flag for a human; do not read free text blindly</td></tr><tr><td>Ends before it starts</td><td class="ag-num">1</td><td>Reject and report</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Senatsverwaltung für Wirtschaft, Energie und Betriebe, Berliner und Brandenburger Weihnachtsmärkte, via Berlin Open Data and GovData, licence CC BY; downloaded 3 November 2026. The list includes five markets in Brandenburg. Every count and duration is our own.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>IGCSE.</strong> Write the classification of Version 1 as pseudocode in the Cambridge style, with a CASE statement, then trace it by hand for three records.</li><li><strong>AP Computer Science A.</strong> Write a Java class Market with a constructor and a method durationDays() that throws an exception when the end is before the start. Test it with the 2012 record.</li><li><strong>IB.</strong> Extend Version 2 so that the three multi-date cells are split and paired, and say how many single weekends that adds.</li><li><strong>Abitur.</strong> Draw a state diagram for a date parser that reads characters one by one and accepts only dd.mm.yyyy.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>What class times fit a Berlin school day?</h2><p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. International school days often end later, so evening slots are popular.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example Berlin times and the mentor's time in India</caption><thead><tr><th scope="col">Berlin time</th><th scope="col">India time to 28 March 2027</th><th scope="col">India time from 28 March 2027</th></tr></thead><tbody><tr><td>17:25</td><td>21:55</td><td>20:55</td></tr><tr><td>18:20</td><td>22:50</td><td>21:50</td></tr><tr><td>Saturday 15:10</td><td>19:40</td><td>18:40</td></tr><tr><td>Sunday 11:15</td><td>15:45</td><td>14:45</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">German legal time is Central European Time, UTC+1, with summer time, UTC+2, under the Einheitenzeitgesetz; summer time ended on 25 October 2026 and returns on 28 March 2027. India is on UTC+5:30 all year: 4 hours 30 minutes ahead of Berlin in winter, 3 hours 30 minutes in summer. Times shown are examples only.</p>
+    <p class="ag-mt-40">International schools set their own term dates, which may not match the Berlin state school holidays. For reference, the KMK table gives Berlin's state school Christmas break as 23 December 2026 to 2 January 2027 and the Osterferien as 22 March to 2 April 2027. Tell your mentor your own school's calendar and the plan follows it.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>From first program to exam-ready</h2>
+      <p class="ag-lede">Our own stages, used to place a pupil whatever their board.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Computer science milestones for ages 13 to 19 (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Typical age</th><th scope="col">The pupil can</th></tr></thead><tbody><tr><td>1. Write and trace</td><td class="ag-num">13 to 14</td><td class="ag-num">Write short programs and trace them by hand, line by line</td></tr><tr><td>2. Structure data</td><td class="ag-num">14 to 15</td><td class="ag-num">Use lists, dictionaries and arrays, and choose between them</td></tr><tr><td>3. Validate and test</td><td class="ag-num">15 to 16</td><td class="ag-num">Check every input, name the cases and write tests that fail</td></tr><tr><td>4. Design classes</td><td class="ag-num">16 to 17</td><td class="ag-num">Model a problem with classes and explain the design</td></tr><tr><td>5. Exam fluency</td><td class="ag-num">16 to 19</td><td class="ag-num">Answer unseen questions in the board's own words and format</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 3 is the project above. Pupils who learn to classify input before using it lose far fewer marks on unseen questions.</p>
+<p>We report progress as things your child can now do alone, with an example.</p></div><div><h3>For pupils</h3><p>Before you compute, ask what could be wrong with the input. Then write it down as a case.</p>
+<p>If a record cannot be true, report it. Do not quietly fix it.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for Berlin pupils</h2>
+      <p class="ag-lede">All live, in English, with one regular mentor, in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programming depth</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / CODE / 01</p>
+          <h4>Python for teens</h4>
+          <p>From first script to real projects, the language most boards accept.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / CODE / 02</p>
+          <h4>Java for teens</h4>
+          <p>The language of AP and many Abitur courses, from scratch.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / CODE / 03</p>
+          <h4>Problem solving and DSA</h4>
+          <p>Logic, data structures and algorithms for strong pupils.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>German school routes</h3>
+        <span class="ag-band-sub">Ages 10 to 19</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / DE / 01</p>
+          <h4>Informatik Abitur in English</h4>
+          <p>Oberstufe Informatik in Java or Python.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / DE / 02</p>
+          <h4>Informatik Companion</h4>
+          <p>School Informatik from Klasse 5 to 10, in English.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / DE / 03</p>
+          <h4>German informatics contests</h4>
+          <p>Biber, BwInf and BWKI, with our own problems.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond the syllabus</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / PLUS / 01</p>
+          <h4>AP Computer Science Principles</h4>
+          <p>The Create task and the end-of-course exam.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-principles-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / PLUS / 02</p>
+          <h4>Data science for teens</h4>
+          <p>Clean, chart and model real data in Python.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CIN / PLUS / 03</p>
+          <h4>AI and machine learning for teens</h4>
+          <p>How models learn, built from the code up.</p>
+          <a class="ag-course-link" href="/courses/ai-ml-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live classes work for an international school pupil in Berlin</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Two live classes a week, an hour each, in a shared editor with the same mentor.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Evenings</p><p class="ag-slot-l">After a long international school day, from about 17:00 in Berlin.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekends</p><p class="ag-slot-l">Saturday afternoons and Sunday mornings for longer practice.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">A time agreed with the mentor, moved around mock exams.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Board by board</h3><p>IGCSE, IB, AP or Abitur, never a mixture.</p></div>
+      <div><h3>Code on paper too</h3><p>Handwritten tracing for the boards that need it.</p></div>
+      <div><h3>Our own questions</h3><p>Practice tasks are written by us, not copied papers.</p></div>
+      <div><h3>Explain, then type</h3><p>Pupils say why the code works before they run it.</p></div>
+      <div><h3>Parent updates</h3><p>Short notes on progress and next steps.</p></div>
+      <div><h3>Group or solo</h3><p>Fifteen to twenty pupils, or you and a mentor.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our students</h2>
+      <p class="ag-lede">Teenagers who learn properly build real things. A few of their projects are below, and the <a class="ag-inline-link" href="/student-labs">student labs</a> page shows more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Berlin pupils</h2>
+      <p class="ag-lede">A monthly fee covers eight live classes. The page shows it in euro, worked out at the European Central Bank reference rate; the payment is processed in US dollars, so your bank converts it and the final euro figure can be slightly different.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short programming task at your level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty pupils on the same board</li><li>One regular mentor</li><li>Two classes a week</li><li>Monthly, stop any month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>You and one mentor</li><li>Your board, your mock dates</li><li>Times around your school day</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">What parents and students wrote on Google, unedited.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Berlin pupils and parents ask</p>
+      <h2>Coding for international school students in Berlin: questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Every class is live and taught in English only, by mentors who match your pace and accent. That suits IGCSE, IB and AP pupils, whose exams are in English, and it works for Abitur Informatik too, because the programming languages themselves are English.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach IGCSE Computer Science 0478?</h3>
+        <p>Yes. Our course follows the 2026 to 2028 syllabus: Paper 1 Computer Systems and Paper 2 Algorithms, Programming and Logic, each 1 hour 45 minutes and 75 marks. We drill pseudocode in the Cambridge style and use Python for the programming answers.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is the AP Computer Science A exam in 2027?</h3>
+        <p>The College Board lists it on Wednesday 12 May 2027, in Session 2. Its start-time table gives 1:00 p.m. local time for Session 2 at UTC+2, Berlin's offset in May, but your school confirms the exact time.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the AP Computer Science A exam on paper?</h3>
+        <p>No. The College Board describes it as fully digital, taken in the Bluebook app, with 42 multiple-choice questions and 4 free-response questions, each part lasting 1 hour 30 minutes. The Java Quick Reference is built into the app.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you help with IB Diploma Computer Science?</h3>
+        <p>Yes. Our course follows the new IB guide with first assessment in 2027, including the internal assessment. We do not quote IB exam figures on this page because we could not read them on ibo.org; your IB coordinator has the official details.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which international schools in Berlin do your students attend?</h3>
+        <p>We do not name schools as sources of students. The schools on this page are listed only because the AGIS directory shows their qualifications. We are not connected with AGIS or with any school.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can I use a computer in the Berlin Abitur in Informatik?</h3>
+        <p>According to the Informatik-Monitor 2026/27, working on a computer is allowed in all tasks of the written Berlin Abitur in Informatik, limited to where the subject needs it. The tasks are set decentrally: teachers submit two proposals and one is chosen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What times can I book from Berlin?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Evenings are popular: 18:20 in Berlin is 22:50 for the mentor in India in winter.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>The fee is monthly for eight live classes and appears in euro at the European Central Bank reference rate. The charge goes through in US dollars and your bank converts it, so your statement may differ a little. The first class is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you do my coursework or internal assessment for me?</h3>
+        <p>No. We teach you to plan, write and test your own work, and we explain the criteria in plain English. The work you hand in has to be your own, and we keep it that way.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More on computer science for pupils in Germany.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>All our pages for families in Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-international-school-students-germany">International school students, Germany</a></h3><p>The national picture across all AGIS schools.</p></div>
+      <div><h3><a class="ag-inline-link" href="/igcse-computer-science-tutor-germany">IGCSE Computer Science tutor</a></h3><p>Both 0478 papers in detail.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ib-computer-science-tutor-germany">IB Computer Science tutor</a></h3><p>How the German side reads the IB.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ap-computer-science-tutor-germany">AP Computer Science tutor</a></h3><p>CSA and CSP from Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science</a></h3><p>Informatik in the Oberstufe, in English.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first class</h2>
+        <p class="ag-lede">Tell us your board and your next deadline. In the first class the mentor sets one short programming task at your level, watches how you approach it, and suggests the course and format that fit.</p>
+        <p class="ag-mt-40">To read first, the <a class="ag-inline-link" href="/courses/igcse-computer-science-0478-course">IGCSE 0478 syllabus</a> and the <a class="ag-inline-link" href="/courses/ib-diploma-computer-science-course">IB Computer Science course</a> list every topic, and <a class="ag-inline-link" href="/how-we-teach">how we teach</a> shows a live class.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20at%20an%20international%20school%20in%20Berlin%20and%20want%20computer%20science%20help%20in%20English.%20Could%20I%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cin',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live online with mentors in India, in English only. WhatsApp reaches us fastest, in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cin(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, without a card or any commitment.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Exam courses</h4><ul><li><a href="/courses/igcse-computer-science-0478-course">IGCSE Computer Science</a></li><li><a href="/courses/ib-diploma-computer-science-course">IB Computer Science</a></li><li><a href="/courses/ap-computer-science-a-java-exam-prep-course">AP Computer Science A</a></li><li><a href="/courses/informatik-abitur-course-java-python">Informatik Abitur</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-for-international-school-students-germany">International schools, Germany</a></li><li><a href="/coding-classes-for-kids-berlin">Coding for kids, Berlin</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Classify the input before you trust it</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cin = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-for-international-school-students-berlin-inline', meta: { name: name, age: age, page: 'coding-for-international-school-students-berlin' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

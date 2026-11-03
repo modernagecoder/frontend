@@ -9330,4 +9330,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /math-tutor-berlin-in-english /src/pages/math-tutor-berlin-in-english.html 200
 /math-tutor-berlin-in-english.md /src/pages/math-tutor-berlin-in-english.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/coding-for-international-school-students-berlin /src/pages/coding-for-international-school-students-berlin.html 200
+/coding-for-international-school-students-berlin.md /src/pages/coding-for-international-school-students-berlin.md 200
 /* /src/pages/404.html 404

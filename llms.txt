@@ -1069,6 +1069,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Bundeswettbewerb Informatik Vorbereitung (auf Englisch): https://learn.modernagecoders.com/bundeswettbewerb-informatik-vorbereitung
 - Mathematik-Olympiade Vorbereitung (auf Englisch): https://learn.modernagecoders.com/mathematik-olympiade-vorbereitung
 - Maths tutor in Berlin, in English: https://learn.modernagecoders.com/math-tutor-berlin-in-english
+- Coding for international school students in Berlin: https://learn.modernagecoders.com/coding-for-international-school-students-berlin
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
