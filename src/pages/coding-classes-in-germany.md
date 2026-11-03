@@ -219,7 +219,7 @@ Each page answers one question for one place, school stage or competition, with 
 
 **Courses and subjects:** [AI and machine learning classes](/ai-and-machine-learning-classes-in-germany) · [AI course for school students](/ai-course-for-school-students-germany) · [AP Computer Science tutor](/ap-computer-science-tutor-germany) · [App development classes for teens](/app-development-classes-for-teens-germany) · [Coding for international school students](/coding-for-international-school-students-germany) · [Coding interview prep for international students](/coding-interview-prep-for-international-students-germany) · [IB Computer Science tutor](/ib-computer-science-tutor-germany) · [IGCSE Computer Science tutor](/igcse-computer-science-tutor-germany) · [Minecraft coding classes](/minecraft-coding-classes-germany) · [Online coding classes in Europe](/online-coding-classes-europe) · [Online coding summer camp](/online-coding-summer-camp-germany) · [Python and DSA for international students](/python-and-dsa-for-international-students-germany) · [Roblox coding classes](/roblox-coding-classes-germany) · [Vibe coding and AI agents classes](/vibe-coding-and-ai-agents-classes-germany)
 
-**Competitions:** [Informatik-Biber practice](/informatik-biber-practice-in-english)
+**Competitions:** [Informatik-Biber practice](/informatik-biber-practice-in-english) · [Jugendwettbewerb Informatik](/jugendwettbewerb-informatik-preparation)
 
 **Auf Deutsch:** [Informatik-Nachhilfe online](/informatik-nachhilfe-online)
 

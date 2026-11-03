@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jugendwettbewerb Informatik 2027 Preparation in English</title>
+  <meta name="description" content="Jugendwettbewerb Informatik 2027: round dates, Bronze, Silver and Gold levels, the new 26-point rule, Python from 2027, and our own tracing practice, in English.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation">
+  <link rel="alternate" type="text/markdown" href="/src/pages/jugendwettbewerb-informatik-preparation.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#345F8D">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation">
+  <meta property="og:title" content="Jugendwettbewerb Informatik 2027 Preparation in English">
+  <meta property="og:description" content="Everything a family in Germany needs for the Jugendwettbewerb Informatik 2027 from BWINF's own pages: dates, levels, what each level tests, how points add up to round 3, and practice programs of our own that pupils trace by hand before running.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jugendwettbewerb Informatik 2027 Preparation in English">
+  <meta name="twitter:description" content="Jugendwettbewerb Informatik 2027 explained, with original tracing practice in Python, taught live in English.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jip .ag-hero h1 { letter-spacing: -0.014em; }
+.ag-root.ag-jip .ag-capsule { border-left-width: 6px; }
+.ag-root.ag-jip .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-jip .ag-table td { font-variant-numeric: tabular-nums; }
+.ag-root.ag-jip .ag-steps li { margin-bottom: 10px; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation#page","url":"https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation","name":"Jugendwettbewerb Informatik Preparation","description":"A guide for pupils in Germany from Klasse 5 and their parents to the Jugendwettbewerb Informatik run by BWINF: the 2027 rounds and practice contests, the three levels and the programming ideas in each, the 26-point rule for round 3, how to sign up, and original practice in reading and tracing programs.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Jugendwettbewerb Informatik","item":"https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation"}]},{"@type":"Course","name":"Jugendwettbewerb Informatik Preparation","description":"Live online preparation in English for the Jugendwettbewerb Informatik: loops, conditions, variables, functions and lists, practised by tracing programs by hand and then running them in Python, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Lessons are live and given in English only; the mentor follows your child's pace and accent. Blockly and Python both use simple English words, so the contest itself is easy to follow."}},{"@type":"Question","name":"When is round 1 of the Jugendwettbewerb Informatik 2027?","acceptedAnswer":{"@type":"Answer","text":"BWINF gives 22 February to 7 March 2027, with a practice contest from 1 February 2027. Round 2 runs from 12 to 25 April 2027 and round 3 from 1 September to 15 November 2027."}},{"@type":"Question","name":"Can my child use Python in the contest?","acceptedAnswer":{"@type":"Answer","text":"From 2027, yes. BWINF says rounds 1 and 2 can be solved in Blockly or in Python. Round 3 is solved at home with any programming tools."}},{"@type":"Question","name":"How many points are needed for round 3?","acceptedAnswer":{"@type":"Answer","text":"For 2027, at least 26 points from two levels: the top-scoring level of round 1 plus the top-scoring level of round 2, or Silver and Gold of round 2 together. Each task gives 2, 3 or 4 points depending on the hardest version solved."}},{"@type":"Question","name":"Does my child have to enter through school?","acceptedAnswer":{"@type":"Answer","text":"No. Pupils can create their own BWINF account, or join a group their teacher sets up. Pupils who enter on their own add their postal address to receive a certificate."}},{"@type":"Question","name":"Which level should my child start with?","acceptedAnswer":{"@type":"Answer","text":"BWINF suggests Bronze for Klasse 5 and 6, Silver for 7 to 9 and Gold from Klasse 10, and all levels are open. We usually advise starting one level lower and climbing, since several levels may be attempted."}},{"@type":"Question","name":"Can you go through this year's round 3 tasks with my child?","acceptedAnswer":{"@type":"Answer","text":"Not before the deadline of 23 November 2026, because BWINF wants solution ideas kept private until then. Until that date we teach with tasks we write ourselves. We are not connected with BWINF."}},{"@type":"Question","name":"When are classes in German time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most pupils come after school or on a weekend morning."}},{"@type":"Question","name":"What currency are the fees in?","acceptedAnswer":{"@type":"Answer","text":"The euro figure on this page comes from the European Central Bank's reference rate; the actual charge is in US dollars, and your bank does the conversion. The trial class is free and asks for no card."}},{"@type":"Question","name":"Is the Jugendwettbewerb a good step after the Biber?","acceptedAnswer":{"@type":"Answer","text":"Yes. BWINF describes it as the programming contest for pupils with little or no experience, and its round 3 shares tasks with the Bundeswettbewerb Informatik, the next step up."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/jugendwettbewerb-informatik-preparation","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-jip">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#dates">2027 dates</a></li>
+      <li><a href="#levels">Levels</a></li>
+      <li><a href="#points">Points</a></li>
+      <li><a href="#trace">Practice</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Jugendwettbewerb Informatik
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Germany &middot; Jugendwettbewerb Informatik &middot; From Klasse 5</p>
+        <h1>Jugendwettbewerb Informatik preparation</h1>
+        <p class="ag-lede">The Jugendwettbewerb Informatik is where many pupils in Germany write their first real programs under a clock. Its online rounds use a block editor, and from 2027 Python as well, with three levels that pupils choose for themselves. This page sets out the 2027 dates, what each level tests, how the new 26-point rule for round 3 works, and the one habit that helps most in every level: tracing a program by hand before pressing run.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#trace" class="ag-btn ag-btn--ghost">Try the tracing practice</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20at%20school%20in%20Germany%20and%20wants%20to%20prepare%20for%20the%20Jugendwettbewerb%20Informatik%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jip'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; programs predicted on paper, then run</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>School years</dt><dd>Klasse 5 and up, younger by choice</dd>
+          <dt>Editors</dt><dd>Blocks first, then Python</dd>
+          <dt>Focus</dt><dd>Loops, conditions, variables, functions</dd>
+          <dt>German times</dt><dd>Afternoons and weekend mornings</dd>
+          <dt>Teachers</dt><dd>Mentors based in India</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders prepares pupils in Germany for the Jugendwettbewerb Informatik in live online classes taught in English, from about Klasse 5, within our German Informatics Competitions course. Children practise the loops, conditions, variables, functions and lists of the Bronze, Silver and Gold levels, and trace every program by hand before running it. A regular mentor follows each child's pace and accent, with groups of fifteen to twenty or one child alone.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where Jugendwettbewerb pupils start</p>
+      <h2>Courses that lead into the Jugendwettbewerb</h2>
+      <p class="ag-lede">One built around the German contests, one for children who want typed Python early, and one for those who want a gentle start with blocks.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">
+        <div class="ag-pick-shot"><img src="/images/german-informatics-competitions.webp" alt="German Informatics Competitions course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JIP / 01</p>
+          <h3>German Informatics Competitions</h3>
+          <p>Ages 9 to 19. Puzzle thinking, then the programming ideas of all three levels, then the junior tasks of round 3, with a monthly mock round.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JIP / 02</p>
+          <h3>Python and AI for Kids</h3>
+          <p>Ages 9 to 12. Typed Python from the first lesson, useful now that the 2027 online rounds also accept Python.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Scratch Coding for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JIP / 03</p>
+          <h3>Scratch Coding for Kids</h3>
+          <p>Ages 6 to 12. Blocks, loops and conditions in a friendly editor, close in feel to the block editor the contest uses.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="what">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The contest</p><h2>What is the Jugendwettbewerb Informatik?</h2><p class="ag-lede">A national programming contest from BWINF for pupils with little or no programming experience, run in three rounds, with training material free all year on jwinf.de.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>How it works</h3><p>Rounds 1 and 2 are online on jwinf.de. Unlike the Informatik-Biber, BWINF says, the pupil programs here, in a visual environment: blocks that move a figure, repeat, decide and remember. From 2027 the same tasks can also be solved in Python.</p>
+<p>Round 3 is different. Pupils who qualify solve two harder tasks at home with their own programming tools, alone or in a team of up to four. These are the two junior tasks of the Bundeswettbewerb Informatik, and the work can be handed in to both contests.</p></div><div><h3>Who takes part</h3><p>BWINF recommends the contest from Klasse 5 and allows it from Klasse 3. In rounds 1 and 2 pupils may work alone or in pairs.</p>
+<p>The 2026 edition was the 10th. BWINF reports that 73,272 pupils took part in round 1 of 2026. In round 2, 25,777 pupils took the Silver level and 4,725 the Gold level.</p></div></div>
+    <p class="ag-mt-40">The 2026 round 3 is running now, together with round 1 of the 45th Bundeswettbewerb, and closes on 23 November 2026. BWINF's rules keep solution ideas private until that deadline, so those two tasks stay out of our classes until it has passed.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="dates">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">2027</p><h2>When is the Jugendwettbewerb Informatik 2027?</h2><p class="ag-lede">BWINF has already published the 2027 calendar. Each online round has a practice contest that opens first.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Jugendwettbewerb Informatik 2027: rounds and practice contests</caption><thead><tr><th scope="col">Round</th><th scope="col">Practice contest</th><th scope="col">Contest</th><th scope="col">Format</th></tr></thead><tbody><tr><td>Round 1</td><td>From 1 February 2027</td><td>22 February to 7 March 2027</td><td>Online; Bronze, Silver and Gold, all open</td></tr><tr><td>Round 2</td><td>22 March to 25 April 2027</td><td>12 to 25 April 2027</td><td>Online; Silver and Gold, both open</td></tr><tr><td>Round 3</td><td>None</td><td>1 September to 15 November 2027</td><td>Two junior tasks of the 46th Bundeswettbewerb, at home</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: BWINF, Jugendwettbewerb Informatik 2027 page (bwinf.de/jugendwettbewerb/2027/), read on 3 November 2026. From 2027 rounds 1 and 2 can be solved in Blockly or Python.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What changes in 2027</h3><p>Two things. Python joins Blockly as a language for the online rounds. And the step-by-step unlocking of levels is gone: in 2027 every level of rounds 1 and 2 is open to everyone, including pupils who missed round 1.</p>
+<p>BWINF says the recommended school years, the number of tasks, the times and the maximum points stay as they were.</p></div><div><h3>A sensible plan from now (ours)</h3><p>November to January: the core ideas of the level your child is aiming at, on jwinf.de's training area and in class. February: the practice contest, then round 1. March and April: functions, and lists for Gold, before round 2.</p>
+<p>This plan is our suggestion. The dates in the table are BWINF's.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="levels">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Bronze, Silver, Gold</p><h2>Which level should my child choose, and what does each one test?</h2><p class="ag-lede">The levels build on each other: Silver includes everything in Bronze, and Gold everything in Silver. BWINF links each to a school year as a guide, not a rule.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The three levels and the programming ideas BWINF lists for each</caption><thead><tr><th scope="col">Level</th><th scope="col">Suggested for</th><th scope="col">Tasks and time</th><th scope="col">Ideas added at this level</th></tr></thead><tbody><tr><td>Bronze</td><td>Klasse 5 and 6</td><td>3 tasks, 30 minutes</td><td>Simple instructions, loops with a fixed count or a condition, nested loops, simple conditions, numbers and comparisons, reading text; set variables in the hardest versions</td></tr><tr><td>Silver</td><td>Klasse 7 to 9</td><td>4 tasks, 40 minutes</td><td>Counting loops, editing text, decisions with several branches</td></tr><tr><td>Gold</td><td>From Klasse 10</td><td>6 tasks, 60 minutes</td><td>Conditions joined with AND and OR, and negated with NOT</td></tr><tr><td>Round 2, Silver</td><td>As above</td><td>4 tasks, 40 minutes</td><td>Own variables, functions, functions with parameters</td></tr><tr><td>Round 2, Gold</td><td>As above</td><td>6 tasks, 60 minutes</td><td>Lists: create them, add items, read single items</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: BWINF, Jugendwettbewerb FAQ and main page (bwinf.de/jugendwettbewerb/faq/), read on 3 November 2026. The English wording is our translation.</p>
+    <p class="ag-mt-40">Because a pupil may now try more than one level, the choice is less risky than it looks. A child in Klasse 6 who is comfortable with nested loops can attempt Bronze and then Silver in the same round. Our advice is to start a level below where you think you are, finish it calmly, and climb. Every task also comes in three versions, so even a hard level has an easy first step.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="points">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Points and round 3</p><h2>How many points does a pupil need for round 3 in 2027?</h2><p class="ag-lede">Twenty-six, from two levels added together. Here is how the counting works, and what it means in practice.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The rule, from BWINF</h3><p>Each task has an easy, a medium and a hard version, worth 2, 3 and 4 points, and only the hardest version a pupil solves counts. For 2027, round 3 needs at least 26 points from two levels: either the highest-scoring level of round 1 plus the highest-scoring level of round 2, or the Silver and Gold levels of round 2 together.</p></div><div><h3>What that adds up to (our arithmetic)</h3><p>With 4 points as the top score per task, Bronze can give at most 12 points, Silver 16 and Gold 24. No single level reaches 26, which is why two levels count. A pupil who does Bronze in round 1 and Silver in round 2 can reach 28 at most, so needs almost every hard version. Two Gold levels allow up to 48.</p></div></div>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Two-level combinations and their maximum, against the 26-point rule (our calculation)</caption><thead><tr><th scope="col">Two levels counted</th><th scope="col">Maximum points</th><th scope="col">Points to spare above 26</th></tr></thead><tbody><tr><td>Bronze (round 1) and Silver (round 2)</td><td class="ag-num">28</td><td class="ag-num">2</td></tr><tr><td>Silver (round 1) and Silver (round 2)</td><td class="ag-num">32</td><td class="ag-num">6</td></tr><tr><td>Silver and Gold, both in round 2</td><td class="ag-num">40</td><td class="ag-num">14</td></tr><tr><td>Gold (round 1) and Gold (round 2)</td><td class="ag-num">48</td><td class="ag-num">22</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Rule and points per version: BWINF, Jugendwettbewerb FAQ and 2027 page, read on 3 November 2026. Maximum points are our own arithmetic, tasks multiplied by 4, on BWINF's statement that maximum scores are unchanged for 2027.</p>
+    <p class="ag-mt-40">The table explains our advice for an ambitious pupil: aim to be ready for Silver in round 1 and Gold in round 2. That route leaves room for mistakes; the Bronze route leaves almost none. For a younger child the point is different. Bronze is a real achievement, and round 3 can wait a year.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="trace">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Practice, ours</p><h2>How should a pupil practise? Trace the program before running it</h2><p class="ag-lede">The two programs and four exercises below are our own, made for this page; none comes from a BWINF contest. Every one is solved the same way: write down what each variable holds after each step, predict the result, and only then run it. BWINF's own platform now shows variable values while a program runs; a pupil who can do that in their head is ready for Silver and beyond.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Program 1: the spiral robot (ours)</h3><p>A robot starts at (0, 0) facing east. On side 1 it moves 1 step, on side 2 it moves 2, and so on to side 4, turning left after each side. Before running the code, fill in the robot's position after every side.</p>
+<p><strong>Worked solution.</strong> Side 1: one step east to (1, 0), turn to face north. Side 2: two steps north to (1, 2), face west. Side 3: three steps west to (-2, 2), face south. Side 4: four steps south to (-2, -2), face east again.</p></div><div><h3>Why the turn works</h3><p>A direction is stored as a pair: east is (1, 0), north is (0, 1). Turning left swaps the two numbers and changes the sign of the new first one, so (1, 0) becomes (0, 1), and (0, 1) becomes (-1, 0), which is west.</p>
+<p>The nested loop is the Bronze idea: the outer loop counts sides, the inner loop repeats steps, and the inner count depends on the outer one.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 1: run it after you have traced it</b><span>Python</span></figcaption><pre>x, y = 0, 0
+dx, dy = 1, 0          # start facing east
+
+def turn_left(dx, dy):
+    return -dy, dx
+
+for side in range(1, 5):
+    for _ in range(side):
+        x, y = x + dx, y + dy
+    dx, dy = turn_left(dx, dy)
+    print("after side", side, "robot at", (x, y), "facing", (dx, dy))</pre><p class="ag-code-note">It prints <code>after side 1 robot at (1, 0) facing (0, 1)</code>, <code>after side 2 robot at (1, 2) facing (-1, 0)</code>, <code>after side 3 robot at (-2, 2) facing (0, -1)</code> and <code>after side 4 robot at (-2, -2) facing (1, 0)</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Trace table for Program 2, the coin path (our worked solution)</caption><thead><tr><th scope="col">Cell</th><th scope="col">coins after</th><th scope="col">streak after</th><th scope="col">longest after</th></tr></thead><tbody><tr><td>.</td><td class="ag-num">0</td><td class="ag-num">0</td><td>0</td></tr><tr><td>.</td><td class="ag-num">0</td><td class="ag-num">0</td><td>0</td></tr><tr><td>*</td><td class="ag-num">1</td><td class="ag-num">1</td><td>1</td></tr><tr><td>.</td><td class="ag-num">1</td><td class="ag-num">0</td><td>1</td></tr><tr><td>*</td><td class="ag-num">2</td><td class="ag-num">1</td><td>1</td></tr><tr><td>*</td><td class="ag-num">3</td><td class="ag-num">2</td><td>2</td></tr><tr><td>.</td><td class="ag-num">3</td><td class="ag-num">0</td><td>2</td></tr><tr><td>.</td><td class="ag-num">3</td><td class="ag-num">0</td><td>2</td></tr><tr><td>*</td><td class="ag-num">4</td><td class="ag-num">1</td><td>2</td></tr></tbody></table></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Program 2: the coin path (ours)</b><span>Python</span></figcaption><pre>path = "..*.**..*"
+coins = 0
+streak = 0
+longest = 0
+for cell in path:
+    if cell == "*":
+        coins += 1
+        streak += 1
+        longest = max(longest, streak)
+    else:
+        streak = 0
+print("coins:", coins, "longest run:", longest)</pre><p class="ag-code-note">It prints <code>coins: 4 longest run: 2</code>, which matches the last row of the trace table.</p></figure>
+    <p class="ag-mt-40">Program 2 uses three variables that change at different moments, the Silver and Gold idea in miniature. The common mistake is to forget that streak goes back to zero on an empty cell, which would make longest come out as 4. The trace table catches that before the computer does, and in a timed round that saves minutes.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Exercise 1 (Bronze idea).</strong> Change Program 1 to run for 6 sides. Where does the robot end, and which way does it face? (Answer: at (3, 4) facing west. Side 5 takes five steps east to (3, -2) and turns north; side 6 takes six steps north to (3, 4) and turns west.)</li><li><strong>Exercise 2 (Silver idea).</strong> In Program 2, change the path to "**.***.*". Predict coins and longest run. (Answer: coins 6, longest run 3.)</li><li><strong>Exercise 3 (round 2 Silver idea).</strong> Turn Program 2 into a function that takes the path as a parameter and returns both numbers. Call it on two different paths.</li><li><strong>Exercise 4 (round 2 Gold idea).</strong> Store the position of every coin in a list while you walk, then print the list. For the original path it should be [2, 4, 5, 8].</li></ol>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="signup">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Signing up</p><h2>How does a pupil sign up, with or without the school?</h2><p class="ag-lede">Either way works. Unlike the Informatik-Biber, the Jugendwettbewerb lets pupils register themselves.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>Through the school</h3><p>A teacher registers on BWINF's system and creates a group on jwinf.de. Pupils join with a group code once, then always log in with their personal login code, which BWINF advises them to note down and keep safe.</p>
+<p>There is no separate entry form: a pupil with a login code simply takes part during the contest dates.</p></div><div><h3>On your own</h3><p>A pupil creates a BWINF account at login.bwinf.de and logs in to jwinf.de with it. BWINF says pupils who did not take part through a school must enter their postal address in that account to receive a certificate and prize.</p>
+<p>For a team of two, each member needs their own login code.</p></div></div>
+    <p class="ag-mt-40">We are not connected with BWINF and we do not register pupils or enter anyone in the contest. A pupil who prepares with us signs up in one of the two ways above, and does every contest task alone or with their own teammate, exactly as BWINF's rules expect.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When can Jugendwettbewerb classes run in German time?</h2><p class="ag-lede">After school or on a weekend morning. Our mentors teach from India, which is ahead of Germany all year.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Possible class times in Germany and the time in India</caption><thead><tr><th scope="col">German start time</th><th scope="col">In India, winter (to 27 March 2027)</th><th scope="col">In India, summer (from 28 March 2027)</th></tr></thead><tbody><tr><td>15:15</td><td>19:45</td><td>18:45</td></tr><tr><td>17:15</td><td>21:45</td><td>20:45</td></tr><tr><td>Saturday 12:00</td><td>16:30</td><td>15:30</td></tr><tr><td>Sunday 09:45</td><td>14:15</td><td>13:15</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Under the Einheitenzeitgesetz Germany keeps UTC+1 through the winter and moves to UTC+2 for summer; the change back happened on 25 October 2026 and the next change forward is on 28 March 2027. India has no summer time and stays at UTC+5:30, four and a half hours ahead now.</p>
+    <p class="ag-mt-40">None of these is a fixed batch slot. You pick the trial lesson in your own time zone; groups and one-to-one lessons are arranged around school, and can be moved in the weeks of round 1 and round 2.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>From a first loop to the junior tasks of round 3</h2>
+      <p class="ag-lede">Our own milestones for Jugendwettbewerb pupils. The mentor uses them to pick a starting level and to report to parents.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Jugendwettbewerb milestones (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Typical school years</th><th scope="col">The pupil can</th></tr></thead><tbody><tr><td>1. Moving the figure</td><td class="ag-num">Klasse 4 to 5</td><td class="ag-num">Write instructions and simple loops that move and turn a figure</td></tr><tr><td>2. Loops in loops</td><td class="ag-num">Klasse 5 to 6</td><td class="ag-num">Use nested loops and simple conditions, the core of Bronze</td></tr><tr><td>3. Tracing</td><td class="ag-num">Klasse 6 to 7</td><td class="ag-num">Fill in a trace table for a program with two or three variables</td></tr><tr><td>4. Functions and lists</td><td class="ag-num">Klasse 7 to 9</td><td class="ag-num">Write functions with parameters and use lists, the ideas of round 2</td></tr><tr><td>5. Junior tasks</td><td class="ag-num">Klasse 8 and up</td><td class="ag-num">Read an input file, solve a junior task in Python and document it</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For pupils</h3><p>Predict first, run second. If the computer surprises you, find the line where your trace went wrong.</p>
+<p>An easy version solved is two points. Do not leave a task blank while you chase the hard one.</p></div><div><h3>For parents</h3><p>The practice contests are free and open early. A child who has sat one is calmer on the real day.</p>
+<p>Ask what the variable called streak does in Program 2. If your child can explain it, the tracing has worked.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for young programmers in Germany</h2>
+      <p class="ag-lede">Live, in English, with one mentor who stays with the pupil; every course can be taken in a group or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Starting out</h3>
+        <span class="ag-band-sub">Ages 6 to 10</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / START / 01</p>
+          <h4>Coding for kids</h4>
+          <p>From blocks to small apps over a school year.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / START / 02</p>
+          <h4>Problem solving for kids</h4>
+          <p>The thinking behind every program.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / START / 03</p>
+          <h4>Elementary maths</h4>
+          <p>Number and pattern skills for young coders.</p>
+          <a class="ag-course-link" href="/courses/elementary-mathematics-complete-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Typed code</h3>
+        <span class="ag-band-sub">Ages 9 to 14</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / CODE / 01</p>
+          <h4>C++ for kids</h4>
+          <p>A second typed language, 9 to 12.</p>
+          <a class="ag-course-link" href="/courses/cpp-programming-for-kids-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / CODE / 02</p>
+          <h4>Maths through coding</h4>
+          <p>Loops and variables used on real maths.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / CODE / 03</p>
+          <h4>Informatik companion</h4>
+          <p>School Informatik, Klasse 5 to 10.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Towards round 3</h3>
+        <span class="ag-band-sub">Ages 13 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / NEXT / 01</p>
+          <h4>Python for teens</h4>
+          <p>Files, functions and lists in depth.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / NEXT / 02</p>
+          <h4>Problem solving for teens</h4>
+          <p>Algorithms for the junior tasks.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JIP / NEXT / 03</p>
+          <h4>Competitive programming</h4>
+          <p>For pupils heading to the Bundeswettbewerb.</p>
+          <a class="ag-course-link" href="/courses/competitive-programming-for-teens-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live Jugendwettbewerb classes work</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Afternoon</p><p class="ag-slot-l">After school, mid to late afternoon German time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Weekend morning</p><p class="ag-slot-l">Saturday or Sunday, good for longer tracing sessions.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Agreed with the mentor, busier around the rounds.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Blocks and Python</h3><p>Both editors the 2027 rounds accept.</p></div>
+      <div><h3>Trace tables</h3><p>Every program predicted before it runs.</p></div>
+      <div><h3>Our own tasks</h3><p>Written for class, never the live round.</p></div>
+      <div><h3>Level by level</h3><p>Bronze ideas first, Gold ideas last.</p></div>
+      <div><h3>English at your pace</h3><p>Clear words, rephrased until they land.</p></div>
+      <div><h3>Steady mentor</h3><p>The same teacher every week, who knows the code.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects built by our students</h2>
+      <p class="ag-lede">Some work by our younger students in many countries; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has the rest.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Jugendwettbewerb classes</h2>
+      <p class="ag-lede">Eight live classes make up one month. The fee shown is in euro, worked out at the reference rate of the European Central Bank; payment is collected in US dollars, so your bank converts it and the euro amount it reports can be a little different.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short tracing task at your child's level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty pupils of a similar level</li><li>One regular mentor</li><li>Two classes a week</li><li>Monthly, stop at any point</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One pupil, one mentor</li><li>The level your child is aiming at</li><li>Times arranged together</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews our students and parents posted on Google, without edits.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Families in Germany ask</p>
+      <h2>Jugendwettbewerb Informatik preparation: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Lessons are live and given in English only; the mentor follows your child's pace and accent. Blockly and Python both use simple English words, so the contest itself is easy to follow.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When is round 1 of the Jugendwettbewerb Informatik 2027?</h3>
+        <p>BWINF gives 22 February to 7 March 2027, with a practice contest from 1 February 2027. Round 2 runs from 12 to 25 April 2027 and round 3 from 1 September to 15 November 2027.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can my child use Python in the contest?</h3>
+        <p>From 2027, yes. BWINF says rounds 1 and 2 can be solved in Blockly or in Python. Round 3 is solved at home with any programming tools.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How many points are needed for round 3?</h3>
+        <p>For 2027, at least 26 points from two levels: the top-scoring level of round 1 plus the top-scoring level of round 2, or Silver and Gold of round 2 together. Each task gives 2, 3 or 4 points depending on the hardest version solved.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does my child have to enter through school?</h3>
+        <p>No. Pupils can create their own BWINF account, or join a group their teacher sets up. Pupils who enter on their own add their postal address to receive a certificate.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Which level should my child start with?</h3>
+        <p>BWINF suggests Bronze for Klasse 5 and 6, Silver for 7 to 9 and Gold from Klasse 10, and all levels are open. We usually advise starting one level lower and climbing, since several levels may be attempted.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you go through this year's round 3 tasks with my child?</h3>
+        <p>Not before the deadline of 23 November 2026, because BWINF wants solution ideas kept private until then. Until that date we teach with tasks we write ourselves. We are not connected with BWINF.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in German time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most pupils come after school or on a weekend morning.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What currency are the fees in?</h3>
+        <p>The euro figure on this page comes from the European Central Bank's reference rate; the actual charge is in US dollars, and your bank does the conversion. The trial class is free and asks for no card.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Jugendwettbewerb a good step after the Biber?</h3>
+        <p>Yes. BWINF describes it as the programming contest for pupils with little or no experience, and its round 3 shares tasks with the Bundeswettbewerb Informatik, the next step up.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for young programmers in Germany and their parents.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>All our pages for learners in Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-kids-berlin">Coding for kids in Berlin</a></h3><p>Berlin schools and a real data project.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>School Informatik help, written in German.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and machine learning in Germany</a></h3><p>The next step for older teenagers.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>A live class, step by step.</p></div>
+      <div><h3><a class="ag-inline-link" href="/student-labs">Student labs</a></h3><p>Projects by our students.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free Jugendwettbewerb class</h2>
+        <p class="ag-lede">In the first class the mentor gives your child a short program to trace, sees how far they get, and suggests a level to aim for and the course that fits, in English and at your child's pace.</p>
+        <p class="ag-mt-40">You can also read <a class="ag-inline-link" href="/how-we-teach">how a class with us runs</a>, or look at <a class="ag-inline-link" href="/courses">the courses</a> first.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20is%20at%20school%20in%20Germany%20and%20wants%20to%20prepare%20for%20the%20Jugendwettbewerb%20Informatik%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jip',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Our classes are live, online and in English; the mentors work from India. Send us a WhatsApp message in English for the quickest answer.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jip(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free, and no card details are taken.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Contests</h4><ul><li><a href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">German informatics competitions</a></li><li><a href="/courses/python-ai-kids-masterclass">Python and AI for kids</a></li><li><a href="/courses/scratch-programming-complete-course">Scratch for kids</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-for-kids-berlin">Coding for kids in Berlin</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI and machine learning</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Predict first, then press run</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jip = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'jugendwettbewerb-informatik-preparation-inline', meta: { name: name, age: age, page: 'jugendwettbewerb-informatik-preparation' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
