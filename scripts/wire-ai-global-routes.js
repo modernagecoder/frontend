@@ -896,6 +896,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-offenbach-am-main-germany',
   'coding-and-ai-classes-in-fuerth-germany',
   'online-python-classes-heilbronn-germany',
+  'coding-classes-for-kids-in-ulm-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1871,6 +1872,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-offenbach-am-main-germany': 'Coding classes for kids in Offenbach am Main',
   'coding-and-ai-classes-in-fuerth-germany': 'Coding and AI classes in Fürth',
   'online-python-classes-heilbronn-germany': 'Online Python classes in Heilbronn',
+  'coding-classes-for-kids-in-ulm-germany': 'Coding classes for kids in Ulm',
 };
 
 function wireLlms(slugs) {
