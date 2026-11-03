@@ -65,7 +65,7 @@ IDX=""; [ "$DE_NO_HUB" = 1 ] || IDX="src/pages/$HUB.html src/pages/$HUB.md"; for
 git add -- "content/de/$SL.js" "src/pages/$SL.html" "src/pages/$SL.md" $IDX $SHARED || { echo "git add failed"; exit 1; }
 git diff --cached --quiet && { echo "nothing staged"; exit 1; }
 TMPMSG=$(mktemp); cat "$MSG" > "$TMPMSG"
-grep -q 'Co-Authored-By: Claude' "$TMPMSG" || printf '\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n' >> "$TMPMSG"
+grep -q 'Co-Authored-By: Claude' "$TMPMSG" || printf '\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n' >> "$TMPMSG"
 git commit -q -F "$TMPMSG" || { echo "commit failed"; rm -f "$TMPMSG"; exit 1; }
 rm -f "$TMPMSG"
 echo "committed on main (not pushed) $SL as $(git log --oneline -1)"
