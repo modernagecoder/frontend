@@ -973,6 +973,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Informatik in German schools by state: https://learn.modernagecoders.com/informatik-in-german-schools-by-state
 - Abitur vs IB vs A levels maths: https://learn.modernagecoders.com/abitur-vs-ib-vs-a-levels-maths
 - German school system explained: https://learn.modernagecoders.com/german-school-system-maths-and-computing-explained
+- Abitur computer science in English: https://learn.modernagecoders.com/abitur-computer-science-in-english
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

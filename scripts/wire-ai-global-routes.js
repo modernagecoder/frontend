@@ -742,6 +742,7 @@ const SLUGS = [
   'informatik-in-german-schools-by-state',
   'abitur-vs-ib-vs-a-levels-maths',
   'german-school-system-maths-and-computing-explained',
+  'abitur-computer-science-in-english',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1563,6 +1564,7 @@ const LLMS_LABELS = {
   'informatik-in-german-schools-by-state': 'Informatik in German schools by state',
   'abitur-vs-ib-vs-a-levels-maths': 'Abitur vs IB vs A levels maths',
   'german-school-system-maths-and-computing-explained': 'German school system explained',
+  'abitur-computer-science-in-english': 'Abitur computer science in English',
 };
 
 function wireLlms(slugs) {

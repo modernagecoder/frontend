@@ -14,7 +14,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE002 | ai-and-machine-learning-classes-in-germany (dki, #5B3A68) | AI door (EN) | 4,070 | 3% vs coding-classes-in-germany | KMK AI frame, BWKI, tool ages, Bochum weather model | beat the baseline, test on unseen data | 0d9bd24a |
 | DE004 | informatik-in-german-schools-by-state (isb, #784617) | pillar (en) | 4,075 | 1.7% vs coding-classes-in-germany | Is Computer Science Compulsory in German Schools? By State | a guarantee "for all" is the minimum across groups, not the maximum | b23421d5 |
 | DE007 | abitur-vs-ib-vs-a-levels-maths (aib, #026256) | pillar (en) | 3,983 | 1.7% vs informatik-in-german-schools-by-state | Abitur vs IB vs A Levels: Maths Compared for Germany | apply a published formula, then test it at its endpoints | 97bd3532 |
-| DE003 | german-school-system-maths-and-computing-explained (ssm, #7B4409) | pillar (en) | 4,669 | 1.8% vs coding-classes-in-germany | German School System Explained in English: Maths and Computing | model the system as a graph, list every path, and guard against going round in circles | (this commit) |
+| DE003 | german-school-system-maths-and-computing-explained (ssm, #7B4409) | pillar (en) | 4,669 | 1.8% vs coding-classes-in-germany | German School System Explained in English: Maths and Computing | model the system as a graph, list every path, and guard against going round in circles | 1347cc2f |
+| DE006 | abitur-computer-science-in-english (acs, #00634A) | pillar (en) | 3,820 | 1.4% vs informatik-in-german-schools-by-state | Informatik Abitur in English: How the Exam Works by Land | predict the row count before you run a query | (this commit) |
 
 ## Notes
 
