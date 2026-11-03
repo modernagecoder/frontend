@@ -844,6 +844,7 @@ const SLUGS = [
   'math-tutor-hamburg-in-english',
   'coding-for-international-school-students-hamburg',
   'programmieren-lernen-kinder-hamburg',
+  'coding-classes-in-baden-wuerttemberg',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1767,6 +1768,7 @@ const LLMS_LABELS = {
   'math-tutor-hamburg-in-english': 'Maths tutor in Hamburg, in English',
   'coding-for-international-school-students-hamburg': 'Coding for international school students in Hamburg',
   'programmieren-lernen-kinder-hamburg': 'Programmieren lernen für Kinder in Hamburg (auf Englisch)',
+  'coding-classes-in-baden-wuerttemberg': 'Coding classes in Baden-Württemberg',
 };
 
 function wireLlms(slugs) {
