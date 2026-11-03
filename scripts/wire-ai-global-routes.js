@@ -759,6 +759,7 @@ const SLUGS = [
   'app-development-classes-for-teens-germany',
   'informatik-biber-practice-in-english',
   'jugendwettbewerb-informatik-preparation',
+  'math-olympiad-germany-preparation',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1597,6 +1598,7 @@ const LLMS_LABELS = {
   'app-development-classes-for-teens-germany': 'App development classes for teens in Germany',
   'informatik-biber-practice-in-english': 'Informatik-Biber practice in English',
   'jugendwettbewerb-informatik-preparation': 'Jugendwettbewerb Informatik preparation',
+  'math-olympiad-germany-preparation': 'Mathematik-Olympiade preparation in English',
 };
 
 function wireLlms(slugs) {
