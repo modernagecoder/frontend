@@ -798,6 +798,7 @@ const SLUGS = [
   'roblox-programmieren-lernen-kinder',
   'spiele-programmieren-lernen-kinder',
   'programmieren-lernen-auf-englisch',
+  'nachhilfe-auf-englisch-online',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1675,6 +1676,7 @@ const LLMS_LABELS = {
   'roblox-programmieren-lernen-kinder': 'Roblox programmieren lernen (auf Englisch)',
   'spiele-programmieren-lernen-kinder': 'Spiele programmieren lernen (auf Englisch)',
   'programmieren-lernen-auf-englisch': 'Programmieren lernen auf Englisch',
+  'nachhilfe-auf-englisch-online': 'Nachhilfe auf Englisch online',
 };
 
 function wireLlms(slugs) {

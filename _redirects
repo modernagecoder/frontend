@@ -9170,4 +9170,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /programmieren-lernen-auf-englisch /src/pages/programmieren-lernen-auf-englisch.html 200
 /programmieren-lernen-auf-englisch.md /src/pages/programmieren-lernen-auf-englisch.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/nachhilfe-auf-englisch-online /src/pages/nachhilfe-auf-englisch-online.html 200
+/nachhilfe-auf-englisch-online.md /src/pages/nachhilfe-auf-englisch-online.md 200
 /* /src/pages/404.html 404
