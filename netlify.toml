@@ -30277,6 +30277,18 @@
   to = "/src/pages/coding-classes-in-hesse.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-in-rhineland-palatinate"
+  to = "/src/pages/coding-classes-in-rhineland-palatinate.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-rhineland-palatinate.md"
+  to = "/src/pages/coding-classes-in-rhineland-palatinate.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

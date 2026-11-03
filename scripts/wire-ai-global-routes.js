@@ -830,6 +830,7 @@ const SLUGS = [
   'coding-classes-in-land-bremen',
   'coding-classes-in-north-rhine-westphalia',
   'coding-classes-in-hesse',
+  'coding-classes-in-rhineland-palatinate',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1739,6 +1740,7 @@ const LLMS_LABELS = {
   'coding-classes-in-land-bremen': 'Coding classes in the Land Bremen',
   'coding-classes-in-north-rhine-westphalia': 'Coding classes in North Rhine-Westphalia',
   'coding-classes-in-hesse': 'Coding classes in Hesse',
+  'coding-classes-in-rhineland-palatinate': 'Coding classes in Rhineland-Palatinate',
 };
 
 function wireLlms(slugs) {
