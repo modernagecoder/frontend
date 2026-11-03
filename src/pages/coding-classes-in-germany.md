@@ -225,6 +225,8 @@ Each page answers one question for one place, school stage or competition, with 
 
 **Cities:** [Berlin: coding for kids](/coding-classes-for-kids-berlin) · [Leipzig: coding for kids](/coding-classes-for-kids-leipzig) · [Munich: coding for kids](/coding-classes-for-kids-munich) · [Nuremberg: coding for kids](/coding-classes-for-kids-nuremberg) · [Stuttgart: coding for kids](/coding-classes-for-kids-stuttgart)
 
+**Maths in English, by city:** [Munich: maths tutor in English](/math-tutor-munich-in-english)
+
 **International school families:** [Stuttgart: international school pupils](/coding-for-international-school-students-stuttgart)
 
 **Städte, auf Deutsch:** [Leipzig: Programmieren für Kinder](/programmieren-lernen-kinder-leipzig) · [Nürnberg: Programmieren für Kinder](/programmieren-lernen-kinder-nuernberg) · [Stuttgart: Programmieren für Kinder](/programmieren-lernen-kinder-stuttgart)
