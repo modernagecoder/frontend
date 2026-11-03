@@ -907,6 +907,7 @@ const SLUGS = [
   'coding-and-ai-classes-in-bielefeld-germany',
   'coding-and-ai-classes-in-saarbruecken-germany',
   'online-python-classes-hamm-germany',
+  'coding-classes-for-kids-in-ludwigshafen-am-rhein-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1893,6 +1894,7 @@ const LLMS_LABELS = {
   'coding-and-ai-classes-in-bielefeld-germany': 'Coding and AI classes in Bielefeld',
   'coding-and-ai-classes-in-saarbruecken-germany': 'Coding and AI classes in Saarbrücken',
   'online-python-classes-hamm-germany': 'Online Python classes in Hamm',
+  'coding-classes-for-kids-in-ludwigshafen-am-rhein-germany': 'Coding classes for kids in Ludwigshafen am Rhein',
 };
 
 function wireLlms(slugs) {
