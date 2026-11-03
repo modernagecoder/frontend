@@ -227,6 +227,8 @@ Each page answers one question for one place, school stage or competition, with 
 
 **International school families:** [Stuttgart: international school pupils](/coding-for-international-school-students-stuttgart)
 
+**Städte, auf Deutsch:** [Stuttgart: Programmieren für Kinder](/programmieren-lernen-kinder-stuttgart)
+
 ## What a learner in Germany can do at each stage
 
 Our own milestones, used to place each learner in the right group and to report progress. They sit beside the German school stages, not in place of them.
