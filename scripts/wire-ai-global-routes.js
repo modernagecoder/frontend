@@ -752,6 +752,7 @@ const SLUGS = [
   'python-and-dsa-for-international-students-germany',
   'ai-course-for-school-students-germany',
   'roblox-coding-classes-germany',
+  'minecraft-coding-classes-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1583,6 +1584,7 @@ const LLMS_LABELS = {
   'python-and-dsa-for-international-students-germany': 'Python and DSA for international students in Germany',
   'ai-course-for-school-students-germany': 'AI course for school students in Germany',
   'roblox-coding-classes-germany': 'Roblox coding classes in Germany',
+  'minecraft-coding-classes-germany': 'Minecraft coding classes in Germany',
 };
 
 function wireLlms(slugs) {
