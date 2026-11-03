@@ -227,7 +227,7 @@ Each page answers one question for one place, school stage or competition, with 
 
 **Cities:** [Berlin: coding for kids](/coding-classes-for-kids-berlin) · [Cologne: coding for kids](/coding-classes-for-kids-cologne) · [Leipzig: coding for kids](/coding-classes-for-kids-leipzig) · [Munich: coding for kids](/coding-classes-for-kids-munich) · [Nuremberg: coding for kids](/coding-classes-for-kids-nuremberg) · [Stuttgart: coding for kids](/coding-classes-for-kids-stuttgart)
 
-**Maths in English, by city:** [Cologne: maths tutor in English](/math-tutor-cologne-in-english) · [Munich: maths tutor in English](/math-tutor-munich-in-english)
+**Maths in English, by city:** [Berlin: maths tutor](/math-tutor-berlin-in-english) · [Cologne: maths tutor in English](/math-tutor-cologne-in-english) · [Munich: maths tutor in English](/math-tutor-munich-in-english)
 
 **International school families:** [Munich: international school pupils](/coding-for-international-school-students-munich) · [Stuttgart: international school pupils](/coding-for-international-school-students-stuttgart)
 

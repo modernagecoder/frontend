@@ -837,6 +837,7 @@ const SLUGS = [
   'ib-und-igcse-nachhilfe-mathe-informatik',
   'bundeswettbewerb-informatik-vorbereitung',
   'mathematik-olympiade-vorbereitung',
+  'math-tutor-berlin-in-english',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1753,6 +1754,7 @@ const LLMS_LABELS = {
   'ib-und-igcse-nachhilfe-mathe-informatik': 'IB- und IGCSE-Nachhilfe in Mathe und Informatik',
   'bundeswettbewerb-informatik-vorbereitung': 'Bundeswettbewerb Informatik Vorbereitung (auf Englisch)',
   'mathematik-olympiade-vorbereitung': 'Mathematik-Olympiade Vorbereitung (auf Englisch)',
+  'math-tutor-berlin-in-english': 'Maths tutor in Berlin, in English',
 };
 
 function wireLlms(slugs) {

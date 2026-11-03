@@ -109,7 +109,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE077 | mathe-nachhilfe-auf-englisch (mne, #68482D) | door-de (de) | 3,736 | 2.1% vs nachhilfe-auf-englisch-online | Mathe-Nachhilfe auf Englisch: live online, Klasse 1 bis 13 | decide the type of Zuordnung first (quotient-equal, product-equal or neither), then calculate | df3798bf |
 | DE080 | ib-und-igcse-nachhilfe-mathe-informatik (iui, #37706D) | door-de (de) | 3,661 | 2% vs informatik-nachhilfe-online | IB- und IGCSE-Nachhilfe in Mathe und Informatik, auf Englisch | halve the interval (bisection), and predict the number of steps from the accuracy before running it | c685dea4 |
 | DE081 | bundeswettbewerb-informatik-vorbereitung (biv, #7E4B52) | door-de (de) | 3,774 | 2.4% vs ib-und-igcse-nachhilfe-mathe-informatik | Bundeswettbewerb Informatik: Vorbereitung live auf Englisch | search in layers (breadth-first): the first time a state is reached is the fewest steps; and an | c1ca4f3c |
-| DE082 | mathematik-olympiade-vorbereitung (mov, #914870) | door-de (de) | 3,741 | 2% vs mathe-nachhilfe-online-gymnasium | Mathematik-Olympiade Vorbereitung: live auf Englisch, 2026/27 | find what never changes (an invariant); it proves that something is impossible, a simulation only hints | (this commit) |
+| DE082 | mathematik-olympiade-vorbereitung (mov, #914870) | door-de (de) | 3,741 | 2% vs mathe-nachhilfe-online-gymnasium | Mathematik-Olympiade Vorbereitung: live auf Englisch, 2026/27 | find what never changes (an invariant); it proves that something is impossible, a simulation only hints | d2155547 |
+| DE105 | math-tutor-berlin-in-english (men, #814E32) | city-t1 (en) | 4,630 | 2.2% vs online-math-tutor-germany | Maths Tutor in Berlin in English: Live Online, Klasse 1 to 13 | a running total; differences give the amount, and a difference must be divided by its own time span | (this commit) |
 
 ## Notes
 
