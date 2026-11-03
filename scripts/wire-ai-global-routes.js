@@ -918,6 +918,7 @@ const SLUGS = [
   'online-python-classes-mainz-germany',
   'coding-classes-for-kids-in-erfurt-germany',
   'coding-and-ai-classes-in-luebeck-germany',
+  'online-python-classes-oberhausen-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1915,6 +1916,7 @@ const LLMS_LABELS = {
   'online-python-classes-mainz-germany': 'Online Python classes in Mainz',
   'coding-classes-for-kids-in-erfurt-germany': 'Coding classes for kids in Erfurt',
   'coding-and-ai-classes-in-luebeck-germany': 'Coding and AI classes in Lübeck',
+  'online-python-classes-oberhausen-germany': 'Online Python classes in Oberhausen',
 };
 
 function wireLlms(slugs) {
