@@ -831,6 +831,7 @@ const SLUGS = [
   'coding-classes-in-north-rhine-westphalia',
   'coding-classes-in-hesse',
   'coding-classes-in-rhineland-palatinate',
+  'coding-classes-in-saarland',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1741,6 +1742,7 @@ const LLMS_LABELS = {
   'coding-classes-in-north-rhine-westphalia': 'Coding classes in North Rhine-Westphalia',
   'coding-classes-in-hesse': 'Coding classes in Hesse',
   'coding-classes-in-rhineland-palatinate': 'Coding classes in Rhineland-Palatinate',
+  'coding-classes-in-saarland': 'Coding classes in Saarland',
 };
 
 function wireLlms(slugs) {

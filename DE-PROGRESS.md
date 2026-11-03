@@ -103,7 +103,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE091 | coding-classes-in-land-bremen (bre, #86516D) | land (en) | 4,284 | 2.7% vs coding-and-maths-classes-in-hamburg-germany | Coding Classes in Bremen and Bremerhaven: Live Online, in English | guard the denominator; a percentage needs a base that is neither zero nor too small to mean anything | 3a32733b |
 | DE092 | coding-classes-in-north-rhine-westphalia (cnr, #2B606D) | land (en) | 4,288 | 1.8% vs coding-classes-in-lower-saxony | Coding Classes in North Rhine-Westphalia: Live Online, in English | look at the first lines of a file before you parse it; the header is not always on line 1 | 064d8e64 |
 | DE093 | coding-classes-in-hesse (che, #4F557A) | land (en) | 4,125 | 2.4% vs coding-classes-in-lower-saxony | Coding Classes in Hesse (Hessen): Live Online, in English | read the table's grammar before you add; "davon" parts make up the total, "darunter" parts are a selection | 1a28b2ec |
-| DE094 | coding-classes-in-rhineland-palatinate (crp, #705381) | land (en) | 3,986 | 1.5% vs coding-classes-in-schleswig-holstein | Coding Classes in Rhineland-Palatinate: Live Online, in English | two ranges overlap when each starts before the other ends; "starts inside" misses what was already running | (this commit) |
+| DE094 | coding-classes-in-rhineland-palatinate (crp, #705381) | land (en) | 3,986 | 1.5% vs coding-classes-in-schleswig-holstein | Coding Classes in Rhineland-Palatinate: Live Online, in English | two ranges overlap when each starts before the other ends; "starts inside" misses what was already running | a2623c22 |
+| DE097 | coding-classes-in-saarland (csa, #476130) | land (en) | 4,046 | 2.1% vs coding-classes-in-rhineland-palatinate | Coding Classes in Saarland: Live Online, in English | a degree of longitude is not a degree of latitude; measure distances in metres, not raw degrees | (this commit) |
 
 ## Notes
 
