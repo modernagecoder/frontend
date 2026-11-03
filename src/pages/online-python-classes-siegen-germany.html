@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Python Classes in Siegen: Live and Taught in English</title>
+  <meta name="description" content="Online Python classes in Siegen for ages 9 to adult: what live teaching adds, the path to real data, NRW Informatik and a project on missing weather days.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/online-python-classes-siegen-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/online-python-classes-siegen-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#A1442B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/online-python-classes-siegen-germany">
+  <meta property="og:title" content="Online Python Classes in Siegen: Live and Taught in English">
+  <meta property="og:description" content="Live online Python in English for Siegen learners, with an original project on the Siegen weather station: hide days you know, fill them two ways, and measure which guess comes closer.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Online Python Classes in Siegen: Live and Taught in English">
+  <meta name="twitter:description" content="Live online Python in English for Siegen, with a project on filling gaps in weather data.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-psi .ag-hero h1 { letter-spacing: -0.009em; }
+.ag-root.ag-psi .ag-capsule { border-left-width: 4px; }
+.ag-root.ag-psi .ag-section-head h2 { max-width: 28ch; }
+.ag-root.ag-psi .ag-table td:last-child { font-variant-numeric: tabular-nums; }
+.ag-root.ag-psi .ag-code-head b { letter-spacing: 0.014em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/online-python-classes-siegen-germany#page","url":"https://learn.modernagecoders.com/online-python-classes-siegen-germany","name":"Online Python Classes in Siegen","description":"A guide for Siegen learners and families to live online Python classes: what a live mentor adds to a course, the Python path by age, NRW Informatik and contest dates, and an original gap-filling project on Deutscher Wetterdienst data from Siegen.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Siegen","item":"https://learn.modernagecoders.com/online-python-classes-siegen-germany"}]},{"@type":"Course","name":"Online Python Classes in Siegen","description":"Live online Python classes in English for learners in Siegen aged 9 and up: typed Python from the first lesson, then files, data and testing, with one regular mentor, in a group of fifteen to twenty or one to one.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/online-python-classes-siegen-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-siegen-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/online-python-classes-siegen-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. We teach only in English, always live, with a mentor who adapts pace and accent to the learner. Python's keywords are English, so lesson and code use the same words."}},{"@type":"Question","name":"Why choose live classes over a video course?","acceptedAnswer":{"@type":"Answer","text":"Because a live mentor sees your screen. Small mistakes are spotted in seconds, ideas are explained again in other words, and someone notices when motivation drops. Video can supplement that, not replace it."}},{"@type":"Question","name":"What age can a child start Python?","acceptedAnswer":{"@type":"Answer","text":"Around 9, when reading and typing are comfortable. Younger children begin with Scratch blocks."}},{"@type":"Question","name":"What will my child learn in Informatik at school in Siegen?","acceptedAnswer":{"@type":"Answer","text":"Two compulsory years, in grades 5 and 6, at all general schools in the Land, the Gesellschaft für Informatik reports. After that pupils opt in, up to an Abitur course of three or five hours a week in the last two years."}},{"@type":"Question","name":"When are classes in Siegen time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most pupils come after school and adults in the evening."}},{"@type":"Question","name":"Who teaches?","acceptedAnswer":{"@type":"Answer","text":"Experienced mentors based in India, live over video and in English. Each learner keeps the same mentor."}},{"@type":"Question","name":"How are fees charged?","acceptedAnswer":{"@type":"Answer","text":"Each month. We print euro after converting at the ECB reference rate, then charge in US dollars; your bank's own exchange decides the exact euro booked. There is no fee for the first class."}},{"@type":"Question","name":"What is the weather gap project?","acceptedAnswer":{"@type":"Answer","text":"Learners hide known days in the Siegen temperature record for 2009 to 2017 and guess them back. A straight line between neighbours is off by 1.13 degrees on average, copying the day before by 1.74, and gaps of two weeks are too long to fill well."}},{"@type":"Question","name":"Is the Bundeswettbewerb Informatik open to my teenager?","acceptedAnswer":{"@type":"Answer","text":"It is open to young people up to 21 who are not yet studying or working. The first round of the 45th contest runs from 1 September to 23 November 2026 and allows group work. We are not connected with the organiser."}},{"@type":"Question","name":"Can adults join?","acceptedAnswer":{"@type":"Answer","text":"Yes, in adult groups or one to one, starting from the very first line of Python."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/online-python-classes-siegen-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-psi">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#live">Live</a></li>
+      <li><a href="#gaps">Project</a></li>
+      <li><a href="#school">School</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Siegen
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Siegen &middot; Python &middot; Live online</p>
+        <h1>Online Python classes in Siegen</h1>
+        <p class="ag-lede">Plenty of Python courses can be watched from Siegen; far fewer can watch you back. In a live class the mentor sees the line you just typed, notices the moment you hesitate and asks the one question that gets you moving again. This page explains what that changes, the path from a first program to real data, what NRW schools teach, and a project on the Siegen weather station in which learners deliberately delete days they know and then try to guess them back.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#gaps" class="ag-btn ag-btn--ghost">See the Siegen project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Siegen%20and%20would%20like%20a%20free%20first%20Python%20class%2C%20live%20and%20in%20English." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'psi'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; 10,000+ students worldwide &middot; a mentor who sees your screen</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Ages</dt><dd>9 and up, adults included</dd>
+          <dt>Format</dt><dd>Live video, shared screen</dd>
+          <dt>Teaching language</dt><dd>English, adapted to the learner</dd>
+          <dt>Siegen times</dt><dd>Afternoons, evenings, weekends</dd>
+          <dt>Teachers</dt><dd>Mentors based in India</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Online Python classes in Siegen with Modern Age Coders are live lessons in English over video: the learner types real Python in their own editor and the mentor follows on the shared screen, asking rather than telling. Children from about 9, teenagers and adults each have their own groups, from first programs to files, data and tests. Every learner keeps one India-based mentor who tunes speed and pronunciation to them; families pick a group of fifteen to twenty or private tuition.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">First courses</p>
+      <h2>Python courses for Siegen learners</h2>
+      <p class="ag-lede">Three starting points by age. The free first class settles which fits.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PSI / 01</p>
+          <h3>Python and AI for Kids</h3>
+          <p>For 9 to 12. Children write their first real programs, draw and play with them, and later try tiny programs that learn from examples.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PSI / 02</p>
+          <h3>Python for Teens</h3>
+          <p>For 13 to 18. From basic syntax to files, functions with tests and data work, alongside school Informatik.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Python Masterclass course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PSI / 03</p>
+          <h3>Python Masterclass for Adults</h3>
+          <p>For adults who have never programmed. Foundations first, then real files and the libraries used at work.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="live">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Live, not recorded</p><h2>What does a live online Python class add to a video course?</h2><p class="ag-lede">Recorded courses are good at explaining. They cannot see what you are doing. For a beginner that difference decides whether they keep going.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>A recorded course and a live class compared (our own comparison)</caption><thead><tr><th scope="col">Moment in learning</th><th scope="col">Recorded course</th><th scope="col">Live class with us</th></tr></thead><tbody><tr><td>A typing mistake you cannot see</td><td>You search alone, sometimes for an hour</td><td>The mentor points to the line within seconds</td></tr><tr><td>An error message in English</td><td>You read it, or skip it</td><td>You read it aloud together and explain it</td></tr><tr><td>An idea that does not click</td><td>You rewatch the same video</td><td>The mentor explains it another way, more simply</td></tr><tr><td>Losing motivation in week three</td><td>Nobody notices</td><td>The same mentor notices and adjusts the plan</td></tr><tr><td>Knowing what to learn next</td><td>The next video in the list</td><td>The next step for this learner, chosen by someone who knows them</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Our own comparison of formats. Recorded material still has a place: learners sometimes rewatch a short clip after class. The teaching itself is always live.</p>
+    <div class="ag-grid-3 ag-mt-40"><div><h3>Only English, slowly</h3><p>We teach in English, never in German, and we say so first. Mentors slow down, rephrase and wait. Many Siegen pupils find their school English is more than enough, because Python itself is built from English words.</p></div><div><h3>Your editor, your files</h3><p>Learners write code on their own computer, not inside a website that disappears after the course. Everything they build stays with them, ready to change.</p></div><div><h3>Same mentor every week</h3><p>Each learner keeps one mentor, based in India, who learns their habits: who rushes, who freezes, who learns most from breaking a working program.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="path">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">The Python path</p><h2>What is the Python path for a Siegen learner?</h2><p class="ag-lede">The same five steps for every age; children take longer over each, adults often move through the first two quickly.</p></div>
+    <ol class="ag-steps"><li><strong>Talk to the computer.</strong> Print, ask for input, calculate. Children make a quiz; adults make a small converter.</li><li><strong>Repeat and decide.</strong> Loops and if statements, traced by hand on paper before the program runs.</li><li><strong>Store and reuse.</strong> Lists, dictionaries and functions, each function with a few tests that prove it works.</li><li><strong>Work with real files.</strong> Read published data, such as the Siegen weather file below, and describe its gaps before using it.</li><li><strong>Build your own.</strong> A project the learner chose, documented so that someone else can run it.</li></ol>
+    <p class="ag-source-note ag-mt-40">Our own learning path. Typical pace: children of 9 to 12 reach step 4 in about six to ten months, teenagers and adults in two to four.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="gaps">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Siegen data project</p><h2>Can Python fill a missing day in Siegen's weather record?</h2><p class="ag-lede">The Deutscher Wetterdienst publishes daily readings from its Siegen station from 1937 to 2018, free to reuse under CC BY 4.0. Real records have holes. Our learners find out how well a hole can be filled, by first making holes where they already know the answer.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data and its holes</h3><p>The station is called Siegen (Kläranlage). The file we downloaded on 3 November 2026 has 28,033 days, one row each, and a column for the daily mean temperature. We saved it as siegen_days.txt.</p>
+<p>Three stretches are missing entirely: 1945 to 1948, the whole of 1966, and January and February 2008. The last gap ends just as the station moved, on 1 March 2008, to a new site 34 metres lower. No program can honestly invent four lost years.</p></div><div><h3>A fair test</h3><p>For short gaps, a guess might be good enough, but how good? The trick is to test on days we know. We take 2009 to 2017, nine complete years measured the same way after the move, hide every tenth day ourselves, and guess each hidden value from its neighbours.</p>
+<p>Then we compare the guesses with the real values we hid. That turns "it looks plausible" into a number.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: two ways to guess a hidden day</b><span>Python</span></figcaption><pre>temps = []
+with open("siegen_days.txt", encoding="latin-1") as f:
+    next(f)
+    for line in f:
+        c = [x.strip() for x in line.split(";")]
+        if "20090101" &lt;= c[1] &lt;= "20171231":
+            temps.append(float(c[13]))          # daily mean temperature, C
+
+print("Days 2009 to 2017:", len(temps))
+
+hidden = range(10, len(temps) - 10, 10)      # we hide every tenth day ourselves
+carry, line = [], []
+for i in hidden:
+    real = temps[i]
+    carry.append(abs(temps[i - 1] - real))                 # copy yesterday
+    line.append(abs((temps[i - 1] + temps[i + 1]) / 2 - real))  # halfway between neighbours
+print("Hidden days:", len(carry))
+print("Copy yesterday, average error:", round(sum(carry) / len(carry), 2), "C")
+print("Halfway line, average error:", round(sum(line) / len(line), 2), "C")</pre><p class="ag-code-note">It prints <code>Days 2009 to 2017: 3287</code>, <code>Hidden days: 327</code>, <code>Copy yesterday, average error: 1.74 C</code> and <code>Halfway line, average error: 1.13 C</code>.</p></figure>
+    <p class="ag-mt-40">Copying yesterday's value is the simplest possible guess, and it is wrong by 1.74 degrees on average. Taking the point halfway between the day before and the day after does clearly better, 1.13 degrees, because it uses information from both sides of the gap. That halfway point is a straight line drawn between two neighbours, and drawing such lines is called linear interpolation. It is used for everything from weather records to animation frames to the brightness of pixels in a resized photo.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: longer gaps, straight lines</b><span>Python</span></figcaption><pre>def fill(i, gap):
+    before, after = temps[i - 1], temps[i + gap]
+    step = (after - before) / (gap + 1)
+    return [before + step * (k + 1) for k in range(gap)]
+
+for gap in (1, 3, 7, 14):
+    errors = []
+    for i in range(20, len(temps) - 20, 20):
+        guess = fill(i, gap)
+        errors += [abs(g - temps[i + k]) for k, g in enumerate(guess)]
+    print(f"{gap:&gt;2}-day gap, average error:", round(sum(errors) / len(errors), 2), "C")</pre><p class="ag-code-note">It prints <code>1-day gap, average error: 1.12 C</code>, <code>3-day gap, average error: 1.77 C</code>, <code>7-day gap, average error: 2.07 C</code> and <code>14-day gap, average error: 2.55 C</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>How well a straight line fills hidden days, Siegen 2009 to 2017 (our test)</caption><thead><tr><th scope="col">Length of the hidden gap</th><th scope="col">Average error</th></tr></thead><tbody><tr><td>1 day, copy the day before</td><td class="ag-num">1.74 C</td></tr><tr><td>1 day, straight line</td><td class="ag-num">1.12 C</td></tr><tr><td>3 days, straight line</td><td class="ag-num">1.77 C</td></tr><tr><td>7 days, straight line</td><td class="ag-num">2.07 C</td></tr><tr><td>14 days, straight line</td><td class="ag-num">2.55 C</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Deutscher Wetterdienst, Climate Data Center, daily values for station 04692 Siegen (Kläranlage), daily mean temperature, CC BY 4.0, downloaded 3 November 2026. The hidden days, the guesses and the errors are our own work.</p>
+    <p class="ag-mt-40">The longer the gap, the worse the line, because weather has fronts and cold snaps that a straight line simply skips. A one-day gap filled by a line is off by about a degree; a two-week gap by more than two and a half. So the honest rule our learners write down is: fill short gaps, label every filled value as estimated, and leave long gaps empty. The four missing years from 1945 to 1948 stay missing.</p>
+    <p>One more detail rewards careful reading of the metadata. Until 2007 the daily mean at Siegen was calculated from three readings a day, with the evening reading counted twice; from March 2008 it is the average of at least 21 hourly values. That is why we tested only on 2009 to 2017: mixing two methods in one test would blur the answer.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Ages 9 to 12.</strong> Write the numbers 2, 4, 6, ?, 10 and fill the gap. Then try 2, 4, 9, ?, 10. Is the halfway guess still sensible?</li><li><strong>Teenagers.</strong> Run both versions, then hide every fifth day instead of every tenth. Do the errors change?</li><li><strong>Adults.</strong> Decide the longest gap you would fill in a work dataset, and write one sentence that a colleague could check.</li><li><strong>Going further.</strong> Use the average of the same calendar day in other years as a third guess and compare it with the line for a 14-day gap.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="school">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">NRW schools</p><h2>What Informatik will a Siegen pupil meet at school?</h2><p class="ag-lede">A compulsory start in grades 5 and 6, then choices. Siegen schools follow North Rhine-Westphalia's rules.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The NRW pattern</h3><p>According to the Gesellschaft für Informatik, every general school in North Rhine-Westphalia teaches compulsory Informatik in grades 5 and 6. A nine-year Gymnasium offers it again as a Wahlpflicht subject in grades 9 and 10.</p>
+<p>In the last two years of the Oberstufe a school can run Informatik as a basic three-hour course or an advanced five-hour one. The written Informatik Abitur is set centrally and, as the monitor notes, answered without a computer.</p></div><div><h3>Exams and contests in 2026/27</h3><p>NRW pupils take central exams, the ZP10, in German, maths and English at the end of grade 10. The written Abitur in 2027 runs from 13 April to 5 May 2027, with Mathematik on the last day.</p>
+<p>For older pupils, the 45th Bundeswettbewerb Informatik has its first round from 1 September to 23 November 2026, open to young people up to 21 who are not yet studying or working, and group entries are allowed in that round.</p></div></div>
+    <p class="ag-source-note ag-mt-40">Sources: Gesellschaft für Informatik, Informatik-Monitor 2026/27, North Rhine-Westphalia page; Ministerium für Schule und Bildung NRW, ZP10 and Abitur 2027; Bundesweite Informatikwettbewerbe, Bundeswettbewerb Informatik pages. Read on 2 November 2026.</p>
+    <p class="ag-mt-40">We teach alongside school and do not replace it; only the school awards marks and the Abitur. For pupils who take the subject, the <a class="ag-inline-link" href="/courses/informatik-abitur-course-java-python">Informatik Abitur course in Java and Python</a> includes plenty of paper tracing, which the NRW written exam rewards. Our <a class="ag-inline-link" href="/bundeswettbewerb-informatik-preparation">Bundeswettbewerb Informatik page</a> covers the contest. We are not connected with BWINF.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When do online Python classes run in Siegen time?</h2><p class="ag-lede">Siegen afternoons and evenings fall in the Indian evening, weekend mornings in the Indian afternoon. Most learners find a slot quickly.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example Siegen times beside the mentor's clock</caption><thead><tr><th scope="col">Siegen</th><th scope="col">India this winter</th><th scope="col">India from 28 March 2027</th></tr></thead><tbody><tr><td>15:35</td><td>20:05</td><td>19:05</td></tr><tr><td>17:05</td><td>21:35</td><td>20:35</td></tr><tr><td>Saturday 08:45</td><td>13:15</td><td>12:15</td></tr><tr><td>Sunday 11:45</td><td>16:15</td><td>15:15</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">The Einheitenzeitgesetz puts Siegen on UTC+1 in winter (since 25 October 2026) and UTC+2 in summer (from 28 March 2027); India keeps UTC+5:30. These rows only show the difference between the clocks.</p>
+    <p class="ag-mt-40">For planning: NRW's 2026/27 holidays in the Kultusministerkonferenz table are 17 to 31 October 2026 in autumn, 23 December 2026 to 6 January 2027 at Christmas, 22 March to 3 April 2027 at Easter, 18 May 2027 as a single day, and 19 July to 31 August 2027 in summer. Lessons carry on through holidays unless you pause. Learners join from across Siegen and from nearby Kreuztal, Netphen, Wilnsdorf, Freudenberg and Hilchenbach.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Checks</p>
+      <h2>How a Siegen learner shows progress</h2>
+      <p class="ag-lede">Our own checks. Each is something the learner does unaided.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Progress checks (ours)</caption><thead><tr><th scope="col">Check</th><th scope="col">What the learner does</th><th scope="col">Usually by</th></tr></thead><tbody><tr><td>Trace</td><td class="ag-num">Predict a short program's output on paper</td><td class="ag-num">Month 1</td></tr><tr><td>Debug</td><td class="ag-num">Fix a planted error from its message alone</td><td class="ag-num">Month 2</td></tr><tr><td>Test</td><td class="ag-num">Write a function with three tests, one at an edge</td><td class="ag-num">Month 3</td></tr><tr><td>Measure</td><td class="ag-num">Hide known values and measure a method's error</td><td class="ag-num">Month 4 to 6</td></tr><tr><td>Explain</td><td class="ag-num">Present a project, limits included</td><td class="ag-num">Later</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>The "Measure" check is the Siegen project: a learner who tests a guess on known answers has learned how science checks itself.</p>
+<p>We report what your child can do and explain.</p></div><div><h3>For learners</h3><p>Before you trust a method, try it where you already know the answer.</p>
+<p>A filled-in value is an estimate. Label it, every time.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where Python leads</p>
+      <h2>Nine more courses for Siegen learners</h2>
+      <p class="ag-lede">All live, all in English, with one mentor, in a class or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Younger learners</h3>
+        <span class="ag-band-sub">Ages 9 to 15</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / YOUNG / 01</p>
+          <h4>Maths through coding</h4>
+          <p>Patterns, sequences and averages in Python.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / YOUNG / 02</p>
+          <h4>Problem solving</h4>
+          <p>Logic first, for children who love puzzles.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / YOUNG / 03</p>
+          <h4>JavaScript for teens</h4>
+          <p>A second language for interactive pages.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Teenagers</h3>
+        <span class="ag-band-sub">Ages 13 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / TEEN / 01</p>
+          <h4>Data science for teens</h4>
+          <p>Real data, honest gaps, first models.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / TEEN / 02</p>
+          <h4>Informatik Abitur</h4>
+          <p>Java and Python for the Abitur, in English.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / TEEN / 03</p>
+          <h4>German informatics contests</h4>
+          <p>Biber, BwInf and BWKI preparation.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / ADULT / 01</p>
+          <h4>Python automation</h4>
+          <p>Scripts that save hours every week.</p>
+          <a class="ag-course-link" href="/courses/python-ai-automation-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / ADULT / 02</p>
+          <h4>Maths for data science</h4>
+          <p>Statistics and algebra behind the tools.</p>
+          <a class="ag-course-link" href="/courses/data-analytics-mathematics-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PSI / ADULT / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Version control for team projects.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Arrangements</p>
+      <h2>How live Python classes are set up for Siegen</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">Pupils log in once the school day ends.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">After work</p><p class="ag-slot-l">Adults join on weekday evenings.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Your own time, any day, with your mentor.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Twice a week</h3><p>Two live hours, a small task between.</p></div>
+      <div><h3>Learner types</h3><p>The mentor guides from the shared screen.</p></div>
+      <div><h3>Tests from early on</h3><p>Functions come with proof they work.</p></div>
+      <div><h3>One mentor</h3><p>Continuity for the whole course.</p></div>
+      <div><h3>English, adapted</h3><p>Slower and simpler when needed.</p></div>
+      <div><h3>Group or private</h3><p>Fifteen to twenty learners, or one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Student projects</h2>
+      <p class="ag-lede">A few things our Python learners have built; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has many more.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for online Python in Siegen</h2>
+      <p class="ag-lede">Eight live classes make up a month. Shown here in euro by way of the ECB reference rate, the fee is actually collected in US dollars; your bank converts it at its own rate, so its euro total may be a touch different.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short Python task at your level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty learners of similar level</li><li>One mentor throughout</li><li>Two live classes a week</li><li>Pay by the month</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>A mentor just for you</li><li>Projects you choose</li><li>Times you agree</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews by students and parents, reproduced from Google unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Siegen learners ask</p>
+      <h2>Online Python classes in Siegen: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. We teach only in English, always live, with a mentor who adapts pace and accent to the learner. Python's keywords are English, so lesson and code use the same words.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Why choose live classes over a video course?</h3>
+        <p>Because a live mentor sees your screen. Small mistakes are spotted in seconds, ideas are explained again in other words, and someone notices when motivation drops. Video can supplement that, not replace it.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What age can a child start Python?</h3>
+        <p>Around 9, when reading and typing are comfortable. Younger children begin with Scratch blocks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What will my child learn in Informatik at school in Siegen?</h3>
+        <p>Two compulsory years, in grades 5 and 6, at all general schools in the Land, the Gesellschaft für Informatik reports. After that pupils opt in, up to an Abitur course of three or five hours a week in the last two years.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in Siegen time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most pupils come after school and adults in the evening.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Who teaches?</h3>
+        <p>Experienced mentors based in India, live over video and in English. Each learner keeps the same mentor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How are fees charged?</h3>
+        <p>Each month. We print euro after converting at the ECB reference rate, then charge in US dollars; your bank's own exchange decides the exact euro booked. There is no fee for the first class.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What is the weather gap project?</h3>
+        <p>Learners hide known days in the Siegen temperature record for 2009 to 2017 and guess them back. A straight line between neighbours is off by 1.13 degrees on average, copying the day before by 1.74, and gaps of two weeks are too long to fill well.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Bundeswettbewerb Informatik open to my teenager?</h3>
+        <p>It is open to young people up to 21 who are not yet studying or working. The first round of the 45th contest runs from 1 September to 23 November 2026 and allows group work. We are not connected with the organiser.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can adults join?</h3>
+        <p>Yes, in adult groups or one to one, starting from the very first line of Python.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for Siegen learners.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>All our Germany pages in one place.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-north-rhine-westphalia">Coding classes in North Rhine-Westphalia</a></h3><p>NRW school rules and dates.</p></div>
+      <div><h3><a class="ag-inline-link" href="/python-course-germany">Python course in Germany</a></h3><p>Our national Python page.</p></div>
+      <div><h3><a class="ag-inline-link" href="/bundeswettbewerb-informatik-preparation">Bundeswettbewerb Informatik</a></h3><p>Preparing for the national contest.</p></div>
+      <div><h3><a class="ag-inline-link" href="/online-coding-course-for-career-changers-germany">Coding for career changers</a></h3><p>For adults moving into tech.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>A live class from the inside.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first Python class</h2>
+        <p class="ag-lede">Expect a proper hour of Python, not a sales call. Your learner writes a short program; meanwhile the mentor notes their approach and their ease with English, and afterwards proposes a course.</p>
+        <p class="ag-mt-40">Background reading: <a class="ag-inline-link" href="/how-we-teach">how we teach</a> and <a class="ag-inline-link" href="/courses">all courses</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Siegen%20and%20would%20like%20a%20free%20first%20Python%20class%2C%20live%20and%20in%20English." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'psi',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Live online lessons in English only, from mentors in India. Quick questions are easiest on WhatsApp, in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_psi(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, no card, no commitment.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Python</h4><ul><li><a href="/python-course-germany">Python course in Germany</a></li><li><a href="/python-classes-for-kids-germany">Python for kids</a></li><li><a href="/online-coding-course-for-career-changers-germany">Career changers</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/coding-classes-in-north-rhine-westphalia">North Rhine-Westphalia</a></li><li><a href="/bundeswettbewerb-informatik-preparation">Bundeswettbewerb Informatik</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Test the guess where you know the answer</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_psi = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'online-python-classes-siegen-germany-inline', meta: { name: name, age: age, page: 'online-python-classes-siegen-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

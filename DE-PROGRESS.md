@@ -202,7 +202,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE197 | coding-and-ai-classes-in-bergisch-gladbach-germany (glc, #2E6F4A) | city-t2 (en) | 3,825 | 1.7% vs coding-classes-for-kids-in-leverkusen-germany | Coding and AI Classes in Bergisch Gladbach, Live in English | when values come in standard sizes, the most common value (the mode) describes the data better than | 39ece909 |
 | DE198 | online-python-classes-jena-germany (pje, #642700) | city-t2 (en) | 3,783 | 1.8% vs coding-classes-in-thuringia | Online Python Classes in Jena: Live Lessons in English | a moving average smooths a jumpy series, and a window with a hole must refuse to answer | f5848a05 |
 | DE199 | coding-classes-for-kids-in-salzgitter-germany (saa, #955100) | city-t2 (en) | 3,797 | 1.9% vs online-python-classes-jena-germany | Coding Classes for Kids in Salzgitter: Live Online, in English | make every box first, at zero; a group with nothing in it is still an answer | 20e40c31 |
-| DE200 | coding-and-ai-classes-in-trier-germany (cat, #691F0A) | city-t2 (en) | 3,691 | 2.2% vs coding-and-ai-classes-in-bergisch-gladbach-germany | Coding and AI Classes in Trier: Live Online, in English | page through a service until a page comes back empty, then de-duplicate by id, and do not trust the | (this commit) |
+| DE200 | coding-and-ai-classes-in-trier-germany (cat, #691F0A) | city-t2 (en) | 3,691 | 2.2% vs coding-and-ai-classes-in-bergisch-gladbach-germany | Coding and AI Classes in Trier: Live Online, in English | page through a service until a page comes back empty, then de-duplicate by id, and do not trust the | b9d8ddbe |
+| DE201 | online-python-classes-siegen-germany (psi, #A1442B) | city-t2 (en) | 3,709 | 1.9% vs online-python-classes-wuerzburg-germany | Online Python Classes in Siegen: Live and Taught in English | fill a short gap from both neighbours (linear interpolation), test the filler on values you hid | (this commit) |
 
 ## Notes
 

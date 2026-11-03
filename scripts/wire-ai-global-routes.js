@@ -930,6 +930,7 @@ const SLUGS = [
   'online-python-classes-jena-germany',
   'coding-classes-for-kids-in-salzgitter-germany',
   'coding-and-ai-classes-in-trier-germany',
+  'online-python-classes-siegen-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1939,6 +1940,7 @@ const LLMS_LABELS = {
   'online-python-classes-jena-germany': 'Online Python classes in Jena',
   'coding-classes-for-kids-in-salzgitter-germany': 'Coding classes for kids in Salzgitter',
   'coding-and-ai-classes-in-trier-germany': 'Coding and AI classes in Trier',
+  'online-python-classes-siegen-germany': 'Online Python classes in Siegen',
 };
 
 function wireLlms(slugs) {
