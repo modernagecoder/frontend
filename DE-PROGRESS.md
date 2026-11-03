@@ -152,7 +152,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE145 | coding-classes-for-kids-in-karlsruhe-germany (ckk, #611C2A) | city-t2 (en) | 3,907 | 2.1% vs online-python-classes-mannheim-germany | Coding Classes for Kids in Karlsruhe: Live Online, in English | a fair comparison needs a rate; the biggest count is often just the biggest place | 6e6056e4 |
 | DE146 | coding-and-ai-classes-in-muenster-germany (mue, #681247) | city-t2 (en) | 4,309 | 1.2% vs online-python-classes-bochum-germany | Coding and AI Classes in Münster, Live Online in English | compare like with like; a weekly rhythm makes "same weekday last week" a far stronger guess than | 090f013b |
 | DE147 | online-python-classes-augsburg-germany (pau, #396684) | city-t2 (en) | 3,737 | 2% vs online-python-classes-bochum-germany | Online Python Classes in Augsburg, Live in English | a date stored as text sorts as text; convert it to a real date before you compare | b7003abc |
-| DE150 | online-python-classes-moenchengladbach-germany (pmo, #943C3A) | city-t2 (en) | 4,459 | 1.3% vs coding-classes-for-teens-germany | Online Python Classes in Mönchengladbach, Live in English | two date columns, two stories; choose the date that answers the question you asked | (this commit) |
+| DE150 | online-python-classes-moenchengladbach-germany (pmo, #943C3A) | city-t2 (en) | 4,459 | 1.3% vs coding-classes-for-teens-germany | Online Python Classes in Mönchengladbach, Live in English | two date columns, two stories; choose the date that answers the question you asked | 9f697a99 |
+| DE151 | coding-classes-for-kids-in-aachen-germany (cka, #5E3B04) | city-t2 (en) | 3,891 | 1.7% vs coding-classes-for-kids-frankfurt | Coding Classes for Kids in Aachen: Live Online in English | distance on a grid; east steps and north steps make a right-angled triangle | (this commit) |
 
 ## Notes
 
