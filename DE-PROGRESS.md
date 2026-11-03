@@ -141,7 +141,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE125 | programmieren-lernen-kinder-duesseldorf (pdu, #1F5521) | city-de (de) | 3,573 | 2.4% vs programmieren-lernen-kinder-frankfurt | Programmieren lernen für Kinder in Düsseldorf: live auf Englisch | min() and max() name only one winner; look for ties, and remember that what is not in the list is | 10006a4d |
 | DE131 | coding-classes-for-kids-dortmund (cdo, #473368) | city-t1 (en) | 4,147 | 2.2% vs coding-classes-in-germany | Coding Classes for Kids in Dortmund: Live Online, in English | numbers hidden inside text; read them carefully and report what you could not read | df9963df |
 | DE132 | coding-classes-for-kids-bremen (ckb, #904A37) | city-t1 (en) | 4,095 | 1.7% vs coding-classes-for-kids-hamburg | Coding Classes for Kids in Bremen: Live Online in English | a time written as text is not a number; convert before you compare | e4e96092 |
-| DE133 | coding-classes-for-kids-essen (cke, #8D4F0C) | city-t1 (en) | 3,942 | 1.9% vs coding-classes-for-kids-dortmund | Coding Classes for Kids in Essen: Live and in English | the average is not the typical value; one very large value pulls the mean, the middle value does not | (this commit) |
+| DE133 | coding-classes-for-kids-essen (cke, #8D4F0C) | city-t1 (en) | 3,942 | 1.9% vs coding-classes-for-kids-dortmund | Coding Classes for Kids in Essen: Live and in English | the average is not the typical value; one very large value pulls the mean, the middle value does not | e48ca430 |
+| DE134 | coding-classes-for-kids-dresden (cdr, #005730) | city-t1 (en) | 3,844 | 1.7% vs coding-classes-for-kids-essen | Coding Classes for Kids in Dresden: Live Online, in English | distance on a map grid with Pythagoras, and the nested loop that compares every pair | (this commit) |
 
 ## Notes
 
