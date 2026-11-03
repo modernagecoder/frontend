@@ -37,7 +37,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE046 | bundeswettbewerb-informatik-preparation (bin, #19607B) | competition (en) | 4,152 | 2% vs igcse-computer-science-tutor-germany | Bundeswettbewerb Informatik Preparation, Live in English | count the steps before you code (from a correct slow idea to a correct fast one, with evidence) | 2df3dd4e |
 | DE048 | ioi-2027-potsdam-guide (ipg, #754A79) | competition (en) | 4,019 | 1.4% vs ib-computer-science-tutor-germany | IOI 2027 in Potsdam: A Guide for Families in Germany | stress testing, a fast solution checked against a brute force on random data | eea5f599 |
 | DE050 | kangaroo-math-germany-practice (kmp, #67570B) | competition (en) | 4,096 | 1.6% vs informatik-biber-practice-in-english | Känguru der Mathematik 2027: Practice in English, Germany | expected value of a guess under the published scoring rule (decide when to answer, by elimination) | 95fd0844 |
-| DE051 | bundeswettbewerb-ki-bwki-project-help (buk, #4E5A23) | competition (en) | 4,364 | 1.8% vs jugend-forscht-computer-science-project-mentoring | Bundeswettbewerb KI (BWKI) Project Help in English | accuracy can lie; read the confusion matrix (precision and recall on an imbalanced problem) | (this commit) |
+| DE051 | bundeswettbewerb-ki-bwki-project-help (buk, #4E5A23) | competition (en) | 4,364 | 1.8% vs jugend-forscht-computer-science-project-mentoring | Bundeswettbewerb KI (BWKI) Project Help in English | accuracy can lie; read the confusion matrix (precision and recall on an imbalanced problem) | 93c15f55 |
+| DE008 | math-and-coding-competitions-germany (mcc, #7A354D) | pillar (en) | 5,605 | 1.5% vs ioi-2027-potsdam-guide | Maths and Coding Competitions in Germany: 2026/27 Calendar | sort dates as dates, never as text | (this commit) |
 
 ## Notes
 

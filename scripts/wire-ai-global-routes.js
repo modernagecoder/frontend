@@ -765,6 +765,7 @@ const SLUGS = [
   'bundeswettbewerb-informatik-preparation',
   'ioi-2027-potsdam-guide',
   'bundeswettbewerb-ki-bwki-project-help',
+  'math-and-coding-competitions-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1609,6 +1610,7 @@ const LLMS_LABELS = {
   'bundeswettbewerb-informatik-preparation': 'Bundeswettbewerb Informatik preparation',
   'ioi-2027-potsdam-guide': 'IOI 2027 in Potsdam: a guide for families',
   'bundeswettbewerb-ki-bwki-project-help': 'Bundeswettbewerb KI (BWKI) project help',
+  'math-and-coding-competitions-germany': 'Maths and coding competitions in Germany',
 };
 
 function wireLlms(slugs) {
