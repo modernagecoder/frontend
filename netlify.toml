@@ -31405,6 +31405,18 @@
   to = "/src/pages/coding-and-ai-classes-in-recklinghausen-germany.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/online-python-classes-remscheid-germany"
+  to = "/src/pages/online-python-classes-remscheid-germany.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-python-classes-remscheid-germany.md"
+  to = "/src/pages/online-python-classes-remscheid-germany.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"

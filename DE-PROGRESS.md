@@ -196,7 +196,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE164 | coding-and-ai-classes-in-kassel-germany (cak, #416677) | city-t2 (en) | 3,870 | 2.2% vs coding-and-ai-classes-in-halle-saale-germany | Coding and AI Classes in Kassel: Live Online in English | an outlier is relative to its context; score each value against what is normal for its own month, not | c05fca85 |
 | DE165 | online-python-classes-hagen-germany (pyh, #164659) | city-t2 (en) | 3,903 | 1.8% vs online-python-classes-hamm-germany | Online Python Classes in Hagen: Live Lessons in English | binary floats cannot hold most decimals exactly; add exact integers (tenths) and never test floats with == | 0b40489b |
 | DE166 | coding-classes-for-kids-in-potsdam-germany (ckp, #363C64) | city-t2 (en) | 3,843 | 1.7% vs coding-classes-for-kids-berlin | Coding Classes for Kids in Potsdam: Live Online, in English | one part is not the whole; a file that stops at a round number is a page of the data, so combine every part | 5d257fc1 |
-| DE194 | coding-and-ai-classes-in-recklinghausen-germany (rec, #745444) | city-t2 (en) | 4,584 | 1.9% vs coding-and-ai-classes-in-fuerth-germany | Coding and AI Classes in Recklinghausen, Live in English | the average of averages is not the average; weight each part by how many it stands for | (this commit) |
+| DE194 | coding-and-ai-classes-in-recklinghausen-germany (rec, #745444) | city-t2 (en) | 4,584 | 1.9% vs coding-and-ai-classes-in-fuerth-germany | Coding and AI Classes in Recklinghausen, Live in English | the average of averages is not the average; weight each part by how many it stands for | 548a383b |
+| DE195 | online-python-classes-remscheid-germany (rep, #7A1B1E) | city-t2 (en) | 4,012 | 2% vs online-python-classes-bochum-germany | Online Python Classes in Remscheid: Live, Taught in English | sort once, then read percentiles by position; the middle half tells more than the mean, and the far | (this commit) |
 
 ## Notes
 

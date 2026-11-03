@@ -924,6 +924,7 @@ const SLUGS = [
   'online-python-classes-hagen-germany',
   'coding-classes-for-kids-in-potsdam-germany',
   'coding-and-ai-classes-in-recklinghausen-germany',
+  'online-python-classes-remscheid-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1927,6 +1928,7 @@ const LLMS_LABELS = {
   'online-python-classes-hagen-germany': 'Online Python classes in Hagen',
   'coding-classes-for-kids-in-potsdam-germany': 'Coding classes for kids in Potsdam',
   'coding-and-ai-classes-in-recklinghausen-germany': 'Coding and AI classes in Recklinghausen',
+  'online-python-classes-remscheid-germany': 'Online Python classes in Remscheid',
 };
 
 function wireLlms(slugs) {
