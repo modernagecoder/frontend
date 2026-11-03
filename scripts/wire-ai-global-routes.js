@@ -768,6 +768,7 @@ const SLUGS = [
   'math-and-coding-competitions-germany',
   'best-online-coding-classes-germany',
   'math-tutor-cost-germany',
+  'coding-classes-by-age-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1615,6 +1616,7 @@ const LLMS_LABELS = {
   'math-and-coding-competitions-germany': 'Maths and coding competitions in Germany',
   'best-online-coding-classes-germany': 'Best online coding classes in Germany',
   'math-tutor-cost-germany': 'Maths tutor cost in Germany',
+  'coding-classes-by-age-germany': 'Coding classes by age in Germany',
 };
 
 function wireLlms(slugs) {

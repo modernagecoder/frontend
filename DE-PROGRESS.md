@@ -40,7 +40,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE051 | bundeswettbewerb-ki-bwki-project-help (buk, #4E5A23) | competition (en) | 4,364 | 1.8% vs jugend-forscht-computer-science-project-mentoring | Bundeswettbewerb KI (BWKI) Project Help in English | accuracy can lie; read the confusion matrix (precision and recall on an imbalanced problem) | 93c15f55 |
 | DE008 | math-and-coding-competitions-germany (mcc, #7A354D) | pillar (en) | 5,605 | 1.5% vs ioi-2027-potsdam-guide | Maths and Coding Competitions in Germany: 2026/27 Calendar | sort dates as dates, never as text | 1fc07ee1 |
 | DE009 | best-online-coding-classes-germany (bco, #733958) | pillar (en) | 5,144 | 2.1% vs coding-classes-in-germany | Best Online Coding Classes in Germany: How to Choose | a time without its zone is not a moment; let the time-zone database do the clock change | c5bb8a60 |
-| DE011 | math-tutor-cost-germany (mtu, #4E477E) | pillar (en) | 4,614 | 1.6% vs best-online-coding-classes-germany | Maths Tutor Cost in Germany: What Drives the Price | plan back from a fixed date and subtract the gaps (set difference on dates) | (this commit) |
+| DE011 | math-tutor-cost-germany (mtu, #4E477E) | pillar (en) | 4,614 | 1.6% vs best-online-coding-classes-germany | Maths Tutor Cost in Germany: What Drives the Price | plan back from a fixed date and subtract the gaps (set difference on dates) | 06771f70 |
+| DE017 | coding-classes-by-age-germany (cba, #7D3541) | door-en (en) | 4,811 | 1.9% vs coding-classes-in-germany | Coding Classes by Age in Germany: From 6 to Adult | test a shortcut against brute force before you trust it | (this commit) |
 
 ## Notes
 
