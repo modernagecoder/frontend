@@ -104,7 +104,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE092 | coding-classes-in-north-rhine-westphalia (cnr, #2B606D) | land (en) | 4,288 | 1.8% vs coding-classes-in-lower-saxony | Coding Classes in North Rhine-Westphalia: Live Online, in English | look at the first lines of a file before you parse it; the header is not always on line 1 | 064d8e64 |
 | DE093 | coding-classes-in-hesse (che, #4F557A) | land (en) | 4,125 | 2.4% vs coding-classes-in-lower-saxony | Coding Classes in Hesse (Hessen): Live Online, in English | read the table's grammar before you add; "davon" parts make up the total, "darunter" parts are a selection | 1a28b2ec |
 | DE094 | coding-classes-in-rhineland-palatinate (crp, #705381) | land (en) | 3,986 | 1.5% vs coding-classes-in-schleswig-holstein | Coding Classes in Rhineland-Palatinate: Live Online, in English | two ranges overlap when each starts before the other ends; "starts inside" misses what was already running | a2623c22 |
-| DE097 | coding-classes-in-saarland (csa, #476130) | land (en) | 4,046 | 2.1% vs coding-classes-in-rhineland-palatinate | Coding Classes in Saarland: Live Online, in English | a degree of longitude is not a degree of latitude; measure distances in metres, not raw degrees | (this commit) |
+| DE097 | coding-classes-in-saarland (csa, #476130) | land (en) | 4,046 | 2.1% vs coding-classes-in-rhineland-palatinate | Coding Classes in Saarland: Live Online, in English | a degree of longitude is not a degree of latitude; measure distances in metres, not raw degrees | 510d4db2 |
+| DE076 | mathe-abitur-vorbereitung-online (mav, #694D6B) | door-de (de) | 4,416 | 1.9% vs informatik-abitur-vorbereitung | Mathe-Abitur-Vorbereitung online: live auf Englisch, LK und GK | a parameter stands for a whole family; solve it in general, then test one member with a value table | (this commit) |
 
 ## Notes
 
