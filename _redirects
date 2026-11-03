@@ -9154,4 +9154,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /minecraft-programmieren-lernen-kinder /src/pages/minecraft-programmieren-lernen-kinder.html 200
 /minecraft-programmieren-lernen-kinder.md /src/pages/minecraft-programmieren-lernen-kinder.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/ki-kurs-fuer-kinder /src/pages/ki-kurs-fuer-kinder.html 200
+/ki-kurs-fuer-kinder.md /src/pages/ki-kurs-fuer-kinder.md 200
 /* /src/pages/404.html 404

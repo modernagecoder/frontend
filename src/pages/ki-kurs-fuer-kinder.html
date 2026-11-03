@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>KI-Kurs für Kinder: KI verstehen und selbst bauen, auf Englisch</title>
+  <meta name="description" content="KI-Kurs für Kinder von 6 bis 12: live auf Englisch, ohne Chatbot-Konto. Kinder bauen eine eigene kleine KI in Scratch und Python. Dazu Zahlen der KIM-Studie.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ki-kurs-fuer-kinder">
+  <link rel="alternate" type="text/markdown" href="/src/pages/ki-kurs-fuer-kinder.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#652D4C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ki-kurs-fuer-kinder">
+  <meta property="og:title" content="KI-Kurs für Kinder: KI verstehen und selbst bauen, auf Englisch">
+  <meta property="og:description" content="Wie Kinder verstehen, was eine KI tut: ein Ratespiel, das seine Fragen selbst wählt, Altersgrenzen der Anbieter, KIM-Zahlen und was die KMK zur Grundschule sagt. Live-Unterricht auf Englisch.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KI-Kurs für Kinder: KI verstehen und selbst bauen, auf Englisch">
+  <meta name="twitter:description" content="KI-Kurs für Kinder, live auf Englisch: eigene kleine KI bauen statt Chatbot nutzen, mit Scratch und Python.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-kkk .ag-hero h1 { letter-spacing: -0.012em; }
+.ag-root.ag-kkk .ag-capsule { border-left-width: 6px; border-radius: 0; }
+.ag-root.ag-kkk .ag-section-head h2 { max-width: 30ch; }
+.ag-root.ag-kkk .ag-table caption { text-align: left; font-style: italic; }
+.ag-root.ag-kkk .ag-table td { hyphens: auto; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/ki-kurs-fuer-kinder#page","url":"https://learn.modernagecoders.com/ki-kurs-fuer-kinder","name":"KI-Kurs für Kinder","description":"Ein Leitfaden für Eltern in Deutschland zum KI-Kurs für Kinder von 6 bis 12 Jahren: warum Kinder KI besser verstehen, wenn sie selbst eine kleine lernende Maschine bauen, welche Altersgrenzen die Anbieter selbst nennen, wie oft Kinder laut KIM-Studie 2024 schon KI nutzen und was die Kultusministerkonferenz zu KI in der Grundschule festhält.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"KI-Kurs für Kinder","item":"https://learn.modernagecoders.com/ki-kurs-fuer-kinder"}]},{"@type":"Course","name":"KI-Kurs für Kinder","description":"Live-Online-Kurs für Kinder von 6 bis 12 Jahren in ganz Deutschland, ausschließlich auf Englisch: wie Maschinen aus Beispielen lernen, Entscheidungsbäume, Daten sortieren und eigene kleine KI-Projekte in Scratch und Python, ohne Chatbot-Konten, in der Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/ki-kurs-fuer-kinder"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ki-kurs-fuer-kinder"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/ki-kurs-fuer-kinder"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, jede Stunde läuft live und nur auf Englisch, mit Mentoren aus Indien, die langsam und deutlich sprechen und sich auf Tempo und Aussprache Ihres Kindes einstellen. Für viele Familien ist das ein Vorteil: Ihr Kind lernt, wie KI funktioniert, und übt dabei ganz nebenbei Englisch, die Sprache, in der Programmiersprachen geschrieben sind."}},{"@type":"Question","name":"Ab welchem Alter kann mein Kind am KI-Kurs teilnehmen?","acceptedAnswer":{"@type":"Answer","text":"Ab 6 Jahren. Die Jüngsten arbeiten mit Karten, Bildern und einfachen Blöcken, ab etwa 8 Jahren mit Scratch und ab etwa 10 Jahren mit ersten Python-Programmen. Lesen und Schreiben müssen noch nicht sicher sein, der Mentor zeigt viel und liest Aufgaben vor."}},{"@type":"Question","name":"Benutzt mein Kind im Kurs ChatGPT oder einen anderen Chatbot?","acceptedAnswer":{"@type":"Answer","text":"Nein. Viele Chatbots sind laut ihren eigenen Bedingungen nicht für Kinder gedacht: Claude erst ab 18 Jahren, ChatGPT ab 13 Jahren, bis zur Volljährigkeit nur mit Zustimmung der Eltern. Ein eigenes Google-Konto darf man in Deutschland erst ab 16 Jahren selbst verwalten. Unsere Kinder bauen ihre KI selbst, dafür braucht es kein Konto bei einem KI-Anbieter."}},{"@type":"Question","name":"Lernt mein Kind wirklich etwas über KI, wenn es keinen Chatbot nutzt?","acceptedAnswer":{"@type":"Answer","text":"Ja, sogar mehr. Wer selbst eine Maschine baut, die aus einer Tabelle von Beispielen ihre Fragen wählt, erlebt, wie Lernen aus Daten funktioniert und wo es an Grenzen stößt. Genau dieses Verständnis der Funktionsweise nennt die Kultusministerkonferenz in ihrer Handlungsempfehlung von 2024 unabdingbar."}},{"@type":"Question","name":"Wie viele Kinder in Deutschland nutzen schon KI?","acceptedAnswer":{"@type":"Answer","text":"Laut KIM-Studie 2024 des Medienpädagogischen Forschungsverbunds Südwest nutzen 9 Prozent der Kinder, die online sind, mindestens einmal pro Woche KI-Anwendungen. 81 Prozent der Schulkinder setzen KI zu Hause nie für die Schule ein. Befragt wurden 1.225 Kinder zwischen sechs und 13 Jahren im Herbst 2024."}},{"@type":"Question","name":"Wird in der Grundschule schon KI unterrichtet?","acceptedAnswer":{"@type":"Answer","text":"Das hängt vom Land und von der Schule ab. Die Kultusministerkonferenz hat ihren Kompetenzrahmen im Oktober 2026 um KI ergänzt. Ob Sprachmodelle schon in der Grundschule eingesetzt werden sollen, ist offen: Die Wissenschaftliche Kommission empfiehlt weitgehenden Verzicht, die Länder halten das für erörterungsbedürftig. Unser Kurs vergibt keine Noten und ersetzt keinen Schulunterricht."}},{"@type":"Question","name":"Braucht mein Kind Vorkenntnisse im Programmieren?","acceptedAnswer":{"@type":"Answer","text":"Nein. Wir beginnen mit Spielen auf Papier und bauen erst danach Programme. Kinder, die schon Scratch kennen, steigen später ein und kommen schneller zu Python."}},{"@type":"Question","name":"Zu welchen Uhrzeiten kann mein Kind teilnehmen?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Zur Orientierung: Beginnt die Stunde im Winter um 14:50 Uhr deutscher Zeit, ist es beim Mentor in Indien 19:20 Uhr."}},{"@type":"Question","name":"Was kostet der Kurs, und in welcher Währung zahle ich?","acceptedAnswer":{"@type":"Answer","text":"Oben auf dieser Seite steht die Monatsgebühr in Euro; als Grundlage dient der Referenzkurs der EZB. Belastet wird Ihr Konto in US-Dollar, den Wechsel in Euro erledigt Ihre Bank. Für die erste Stunde zahlen Sie nichts und brauchen keine Kreditkarte."}},{"@type":"Question","name":"Wie geht es nach dem KI-Kurs weiter?","acceptedAnswer":{"@type":"Answer","text":"Viele Kinder machen mit Python und eigenen Projekten weiter. Wer forschen möchte, kann bei Jugend forscht junior ab der 4. Klasse und bis 14 Jahre antreten, die Anmeldung läuft beim Veranstalter. Ab 13 Jahren führen unsere Kurse für Jugendliche zu maschinellem Lernen mit echten Daten."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/ki-kurs-fuer-kinder","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-kkk">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#chatbot">Chatbot?</a></li>
+      <li><a href="#kim">Zahlen</a></li>
+      <li><a href="#ratespiel">Ratespiel</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / KI-Kurs für Kinder
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; Künstliche Intelligenz &middot; 6 bis 12 Jahre</p>
+        <h1>KI-Kurs für Kinder: verstehen, wie Maschinen lernen</h1>
+        <p class="ag-lede">Kinder begegnen KI im Sprachassistenten, in Videoempfehlungen und bald im Unterricht. Verstehen lernen sie sie am besten, indem sie selbst eine kleine Maschine bauen, die aus Beispielen lernt. Diese Seite zeigt, warum wir dafür keine Chatbots einsetzen, wie oft Kinder in Deutschland laut KIM-Studie 2024 schon KI nutzen, was die Kultusministerkonferenz dazu sagt, und ein Ratespiel, mit dem ein Kind in einer Stunde seine erste KI programmiert. Der Unterricht findet auf Englisch statt, mit Mentoren aus Indien.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#ratespiel" class="ag-btn ag-btn--ghost">Das Ratespiel ansehen</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20wir%20interessieren%20uns%20f%C3%BCr%20den%20KI-Kurs%20f%C3%BCr%20Kinder%20auf%20Englisch.%20K%C3%B6nnen%20wir%20eine%20kostenlose%20Probestunde%20f%C3%BCr%20unser%20Kind%20buchen%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'kkk'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Unterricht auf Englisch, mit Mentoren aus Indien &middot; seit 2020 live online &middot; mehr als 10.000 Lernende weltweit</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Alter</dt><dd>6 bis 12 Jahre</dd>
+          <dt>Werkzeuge</dt><dd>Papier, Scratch, ab etwa 10 Python</dd>
+          <dt>Chatbots</dt><dd>Keine, kein KI-Konto nötig</dd>
+          <dt>Gruppe</dt><dd>Fünfzehn bis zwanzig, oder einzeln</dd>
+          <dt>Sprache</dt><dd>Englisch, langsam und deutlich</dd>
+          <dt>Probestunde</dt><dd>Kostenlos, ohne Karte</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Der KI-Kurs für Kinder von Modern Age Coders ist Live-Unterricht auf Englisch für Kinder von 6 bis 12 Jahren in ganz Deutschland, mit Mentoren aus Indien. Die Kinder nutzen keinen Chatbot, sondern bauen selbst kleine lernende Programme: erst auf Papier und in Scratch, ab etwa zehn Jahren in Python. Sie lernen in einer Gruppe von fünfzehn bis zwanzig Kindern oder im Einzelunterricht, im eigenen Tempo und mit einem festen Mentor.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse, mit denen Kinder KI von innen kennenlernen</h2>
+      <p class="ag-lede">Einer erklärt, wie KI lernt und wo sie sich irrt, einer führt von Scratch-Blöcken zu ersten Python-Projekten, einer legt die Grundlagen des Programmierens für die Jüngsten.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ai-literacy-for-kids-course">
+        <div class="ag-pick-shot"><img src="/images/ai-literacy-for-kids.webp" alt="Kursbild KI verstehen für Kinder von 8 bis 14" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KKK / 01</p>
+          <h3>KI verstehen für Kinder</h3>
+          <p>Für 8 bis 14 Jahre. Wie Maschinen aus Daten lernen, wo sie danebenliegen und wie man ihre Antworten prüft, mit altersgerechten Werkzeugen.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-ai-kids-masterclass">
+        <div class="ag-pick-shot"><img src="/images/python-kids.webp" alt="Kursbild Python und KI für Kinder" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KKK / 02</p>
+          <h3>Python und KI für Kinder</h3>
+          <p>Etwa 9 bis 13 Jahre. Erste echte Programme, Turtle-Grafik und kleine Projekte, die Entscheidungen treffen, wie das Ratespiel auf dieser Seite.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/scratch-programming-complete-course">
+        <div class="ag-pick-shot"><img src="/images/scratch-kids.webp" alt="Kursbild Scratch für Kinder" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">KKK / 03</p>
+          <h3>Scratch für Kinder</h3>
+          <p>Für 6 bis 11 Jahre. Mit bunten Blöcken Spiele und Geschichten bauen und dabei Bedingungen, Schleifen und Variablen kennenlernen.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="chatbot">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Chatbots und Altersgrenzen</p><h2>Braucht ein KI-Kurs für Kinder ChatGPT?</h2><p class="ag-lede">Nein. Viele KI-Angebote sind für Kinder gar nicht freigegeben, und wer nur Fragen in ein Textfeld tippt, erfährt wenig darüber, was dahinter passiert. Die Altersgrenzen setzen die Anbieter selbst; die Tabelle nennt sie mit der jeweiligen Quelle.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Mindestalter laut den Anbietern selbst (Stand November 2026)</caption><thead><tr><th scope="col">Angebot</th><th scope="col">Mindestalter</th><th scope="col">Woher die Angabe stammt</th></tr></thead><tbody><tr><td>Claude (Anthropic)</td><td>18 Jahre, oder höher, wenn das örtliche Recht es verlangt</td><td>Verbraucherbedingungen von Anthropic, gelesen am 3. November 2026</td></tr><tr><td>Eigenes Google-Konto selbst verwalten</td><td>In Deutschland 16 Jahre</td><td>Google Konto-Hilfe, Altersanforderungen nach Land, gelesen am 3. November 2026</td></tr><tr><td>ChatGPT (OpenAI)</td><td>Ab 13; bis zum 18. Geburtstag braucht es die Zustimmung der Eltern</td><td>Nutzungsbedingungen von OpenAI laut unserer Prüfung vom Juli 2026; die Seite hat unseren Abruf im November 2026 abgelehnt</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: Anthropic, Consumer Terms of Service ("at least 18 years old ... whichever is higher"); Google, Konto-Hilfe, Altersanforderungen ("Deutschland: mindestens 16 Jahre"); OpenAI, Terms of Use, wie in unserer Altersprüfung von KI-Werkzeugen im Juli 2026 erfasst. Wir sind mit keinem dieser Unternehmen verbunden.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Was das für ein Kind von 8 Jahren heißt</h3><p>Für ein Grundschulkind ist keines dieser Angebote vorgesehen. Ein Kurs, der Kinder trotzdem in Chatbots tippen lässt, umgeht die Regeln, die die Anbieter selbst aufgestellt haben. Unser Kinderkurs kommt deshalb ohne Konto bei einem KI-Anbieter aus.</p>
+<p>Das ist kein Verzicht. Wer selbst eine Maschine baut, die aus Beispielen Regeln ableitet, versteht später auch einen großen Chatbot besser: Er rechnet mit Daten, er kann danebenliegen, und er weiß nur, was in seinen Beispielen steckt.</p></div><div><h3>Was wir stattdessen tun</h3><p>Die Kinder sortieren Karten, stellen Ja-Nein-Fragen, zeichnen Entscheidungsbäume und bauen daraus Programme in Scratch und Python. Am Ende jeder Einheit steht eine kleine Maschine, die etwas erkennt, rät oder sortiert, und die das Kind selbst erklären kann.</p>
+<p>Jugendliche ab 13 dürfen manche Werkzeuge mit Zustimmung ihrer Eltern verwenden. Das ist ein Thema für unsere Kurse für Jugendliche, nicht für diesen.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="kim">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Was Studien zeigen</p><h2>Wie oft nutzen Kinder in Deutschland schon KI?</h2><p class="ag-lede">Weniger, als viele Eltern glauben. Die KIM-Studie 2024 des Medienpädagogischen Forschungsverbunds Südwest hat zum ersten Mal gefragt, wie Kinder KI für die Schule nutzen.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>KI im Alltag von Kindern zwischen sechs und 13 Jahren, KIM-Studie 2024</caption><thead><tr><th scope="col">Situation</th><th scope="col">Anteil</th><th scope="col">Bezugsgruppe</th></tr></thead><tbody><tr><td>KI-Anwendungen mindestens einmal pro Woche in der Freizeit online</td><td class="ag-num">9 %</td><td>Kinder, die das Internet nutzen</td></tr><tr><td>KI wird regelmäßig im Unterricht eingesetzt</td><td class="ag-num">11 %</td><td>Schulkinder, die in der Schule zumindest selten digitale Geräte nutzen</td></tr><tr><td>KI-Anwendungen werden im Unterricht nie genutzt</td><td class="ag-num">72 %</td><td>dieselbe Gruppe</td></tr><tr><td>KI zu Hause für die Schule, mindestens wöchentlich</td><td class="ag-num">7 %</td><td>alle Schulkinder</td></tr><tr><td>KI zu Hause für die Schule, nie</td><td class="ag-num">81 %</td><td>alle Schulkinder</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quelle: Medienpädagogischer Forschungsverbund Südwest (mpfs), KIM-Studie 2024, Kapitel Online-Aktivitäten und Digitales Lernen. Für die Studie wurden 1.225 Kinder zwischen sechs und 13 Jahren und ihre Haupterziehungspersonen zwischen dem 18. September und dem 7. November 2024 persönlich befragt. Gelesen am 3. November 2026.</p>
+    <p class="ag-mt-40">Die Zahlen zeigen zwei Dinge. Erstens ist KI für die meisten Kinder in Deutschland noch kein Alltagswerkzeug: Vier von fünf Schulkindern nutzen sie zu Hause nie für die Schule. Zweitens steigt die Internetnutzung schnell. Laut derselben Studie sind 54 Prozent der Kinder, die online sind, täglich im Netz. Wer jetzt versteht, wie Maschinen aus Daten lernen, hat einen Vorsprung, wenn KI in der Schule und zu Hause häufiger wird.</p>
+    <p>Wir lesen solche Studien gern mit den Kindern zusammen, in einfachen Worten. Eine Prozentzahl ist für ein Kind von zehn Jahren ein guter Anlass, über Daten zu sprechen: Wer wurde gefragt? Wie viele? Und was weiß man über Kinder, die nicht gefragt wurden?</p>
+  </div>
+</section>
+
+<section class="ag-section" id="schule">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Schule und KMK</p><h2>Was sagt die Kultusministerkonferenz zu KI in der Grundschule?</h2><p class="ag-lede">Die Länder halten ein Grundverständnis der Technik für unverzichtbar. Ob Sprachmodelle schon in der Grundschule eingesetzt werden sollen, ist dagegen offen.</p></div>
+    <div class="ag-grid-3"><div><h3>Verstehen, wie es funktioniert</h3><p>In ihrer Handlungsempfehlung zu KI vom 10. Oktober 2024 schreiben die Länder, ein grundlegendes Verständnis der technischen Funktionsweisen sowie das Erkennen von Chancen, Grenzen und Risiken seien für einen reflektierten Umgang "unabdingbar".</p></div><div><h3>Sprachmodelle in der Grundschule</h3><p>Die Ständige Wissenschaftliche Kommission empfiehlt einen weitgehenden Verzicht auf KI-Sprachmodelle in der Grundschule und den ersten Jahren der Sekundarstufe I. Die Länder halten diese Empfehlung in derselben Handlungsempfehlung für "erörterungsbedürftig".</p></div><div><h3>Der neue Kompetenzrahmen</h3><p>Im Oktober 2026 hat die KMK ihren Kompetenzrahmen "Bildung in der digitalen Welt" um KI ergänzt. Er orientiert sich am Rahmenwerk "Empowering Learners for the Age of AI" der OECD und der Europäischen Kommission und nennt etwa, algorithmische Strukturen in genutzten Anwendungen zu erkennen.</p></div></div>
+    <p class="ag-mt-40">Für Eltern heißt das: Die Grundschule entscheidet von Land zu Land und von Schule zu Schule, wie viel KI sie zeigt. Die Grundschule dauert in den meisten Ländern von Klasse 1 bis 4, in Berlin und Brandenburg bis Klasse 6. Die Kommission empfiehlt außerdem Informatik als verpflichtenden Teil des Sachunterrichts; wie weit ein Land dem folgt, ist sehr verschieden.</p>
+    <p>Unser Kurs ersetzt keinen Unterricht und vergibt keine Noten. Er setzt dort an, wo die KMK selbst den Kern sieht: verstehen, wie die Technik funktioniert. Das gelingt Kindern am besten mit den Händen, mit Karten, Blöcken und eigenem Code. Mit der KMK, einer Schule oder einem Ministerium sind wir nicht verbunden.</p>
+    <p class="ag-source-note ag-mt-40">Quellen: KMK, Handlungsempfehlung für die Bildungsverwaltung zum Umgang mit Künstlicher Intelligenz in schulischen Bildungsprozessen, Beschluss vom 10.10.2024; KMK-Kompetenzrahmen "Bildung in der digitalen Welt", Aktualisierung im Kontext Künstlicher Intelligenz, Beschluss vom 16.10.2026, Abschnitt 5.5.2; KMK zur Grundschule; Gesellschaft für Informatik zur Empfehlung der SWK. Gelesen am 3. November 2026.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="ratespiel">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Ein Beispiel aus dem Kurs</p><h2>Wie baut ein Kind seine erste KI?</h2><p class="ag-lede">Mit einem Ratespiel. Ein Kind denkt an ein Tier, die Maschine stellt Ja-Nein-Fragen und rät. Der Trick, den die Kinder dabei entdecken, ist derselbe, mit dem viele echte Systeme ihre Entscheidungen treffen: Eine gute Frage teilt die Möglichkeiten in zwei gleich große Hälften. Das Beispiel ist unser eigenes.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Unsere acht Tierkarten und vier Fragen (1 = ja, 0 = nein)</caption><thead><tr><th scope="col">Tier</th><th scope="col">Fell?</th><th scope="col">Wohnt im Haus?</th><th scope="col">Größer als ein Mensch?</th><th scope="col">Frisst andere Tiere?</th></tr></thead><tbody><tr><td>Katze</td><td>1</td><td>1</td><td>0</td><td>1</td></tr><tr><td>Hamster</td><td>1</td><td>1</td><td>0</td><td>0</td></tr><tr><td>Löwe</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td>Pferd</td><td>1</td><td>0</td><td>1</td><td>0</td></tr><tr><td>Frosch</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>Schnecke</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Hai</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>Nilpferd</td><td>0</td><td>0</td><td>1</td><td>0</td></tr></tbody></table></div>
+    <p class="ag-mt-40"><strong>Für Kinder von 6 bis 9: erst auf Papier, dann in Scratch.</strong> So läuft die Einheit in fünf Schritten, jeder etwa zehn Minuten lang.</p>
+    <ol class="ag-steps"><li><strong>Karten sortieren.</strong> Das Kind legt die acht Tierkarten auf den Tisch und sucht eine Frage, auf die genau vier Tiere mit Ja antworten. "Hat es ein Fell?" funktioniert, "Wohnt es bei Menschen im Haus?" nicht, denn da sind es nur zwei.</li><li><strong>Den Baum zeichnen.</strong> Für jeden Stapel sucht es wieder eine Frage, die ihn halbiert. Nach drei Fragen liegt auf jedem Stapel nur noch ein Tier. Diese Zeichnung ist ein Entscheidungsbaum.</li><li><strong>In Scratch übertragen.</strong> Mit dem Block <code>frage [Hat es ein Fell?] und warte</code> stellt die Figur die erste Frage. Ein Block <code>falls &lt;(Antwort) = [ja]&gt; dann ... sonst</code> teilt das Programm in zwei Wege, so wie der Baum auf dem Papier.</li><li><strong>Raten lassen.</strong> Am Ende jedes Weges steht ein Block <code>sage [Ist es ein Hamster?]</code>. Das Kind spielt mit Eltern oder Geschwistern und zählt, wie viele Fragen die Figur braucht.</li><li><strong>Die Maschine überlisten.</strong> Jetzt kommt ein neues Tier dazu, ein Hund. Das Kind merkt: Für Katze und Hund gibt der Baum dieselben Antworten. Die Figur braucht eine neue Frage.</li></ol>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Für Kinder ab etwa 10: die Maschine wählt ihre Fragen selbst</b><span>Python</span></figcaption><pre>FRAGEN = ['Hat es ein Fell?', 'Wohnt es bei Menschen im Haus?',
+          'Ist es größer als ein Mensch?', 'Frisst es andere Tiere?']
+
+TIERE = {
+    'Katze':    [1, 1, 0, 1],
+    'Hamster':  [1, 1, 0, 0],
+    'Löwe':     [1, 0, 1, 1],
+    'Pferd':    [1, 0, 1, 0],
+    'Frosch':   [0, 0, 0, 1],
+    'Schnecke': [0, 0, 0, 0],
+    'Hai':      [0, 0, 1, 1],
+    'Nilpferd': [0, 0, 1, 0],
+}
+
+def gute_frage(namen, tiere):
+    # Die gute Frage teilt die Gruppe möglichst genau in zwei Hälften.
+    wahl, abstand = None, None
+    for nr in range(len(FRAGEN)):
+        ja = sum(tiere[n][nr] for n in namen)
+        a = abs(ja - (len(namen) - ja))
+        if ja &gt; 0 and ja &lt; len(namen) and (abstand is None or a &lt; abstand):
+            wahl, abstand = nr, a
+    return wahl
+
+def zaehle_fragen(namen, tiere, tiefe=0, ergebnis=None):
+    if ergebnis is None:
+        ergebnis = {}
+    if len(namen) == 1:
+        ergebnis[namen[0]] = tiefe
+        return ergebnis
+    nr = gute_frage(namen, tiere)
+    if nr is None:
+        print('Nicht zu unterscheiden:', ' und '.join(namen))
+        for n in namen:
+            ergebnis[n] = None
+        return ergebnis
+    ja = [n for n in namen if tiere[n][nr] == 1]
+    nein = [n for n in namen if tiere[n][nr] == 0]
+    zaehle_fragen(ja, tiere, tiefe + 1, ergebnis)
+    zaehle_fragen(nein, tiere, tiefe + 1, ergebnis)
+    return ergebnis
+
+# Versuch 1: acht Tiere, die Maschine wählt ihre Fragen selbst
+fragen = zaehle_fragen(list(TIERE), TIERE)
+print('Erste Frage:', FRAGEN[gute_frage(list(TIERE), TIERE)])
+print('Fragen pro Tier:', fragen)
+print('Durchschnitt:', sum(fragen.values()) / len(fragen))
+
+# Zum Vergleich: der Reihe nach raten ("Ist es eine Katze?")
+raten = [min(i + 1, len(TIERE) - 1) for i in range(len(TIERE))]
+print('Der Reihe nach raten, Durchschnitt:', sum(raten) / len(raten))
+
+# Versuch 2: ein neues Tier kommt dazu
+TIERE['Hund'] = [1, 1, 0, 1]
+zaehle_fragen(list(TIERE), TIERE)
+
+# Versuch 3: eine neue Frage hilft
+FRAGEN.append('Kann es bellen?')
+for n in TIERE:
+    TIERE[n].append(1 if n == 'Hund' else 0)
+fragen = zaehle_fragen(list(TIERE), TIERE)
+print('Mit der neuen Frage:', fragen['Katze'], 'Fragen für die Katze,', fragen['Hund'], 'für den Hund')
+print('Durchschnitt:', round(sum(fragen.values()) / len(fragen), 2))</pre><p class="ag-code-note">Ausgabe, so wie wir das Programm mit Python 3.14 ausgeführt haben:<br><code>Erste Frage: Hat es ein Fell?</code><br><code>Fragen pro Tier: {'Katze': 3, 'Hamster': 3, 'Löwe': 3, 'Pferd': 3, 'Hai': 3, 'Nilpferd': 3, 'Frosch': 3, 'Schnecke': 3}</code><br><code>Durchschnitt: 3.0</code><br><code>Der Reihe nach raten, Durchschnitt: 4.375</code><br><code>Nicht zu unterscheiden: Katze und Hund</code><br><code>Mit der neuen Frage: 4 Fragen für die Katze, 4 für den Hund</code><br><code>Durchschnitt: 3.22</code></p></figure>
+    <p class="ag-mt-40">Was die Kinder daraus lernen: Die Maschine schaut sich für jede Gruppe an, welche Frage sie am gleichmäßigsten teilt, und wählt diese. So kommt sie bei acht Tieren immer mit drei Fragen aus. Wer dagegen der Reihe nach fragt, "Ist es eine Katze? Ist es ein Hamster?", braucht im Schnitt 4,375 Fragen. Als der Hund dazukommt, meldet das Programm: Nicht zu unterscheiden. Erst die neue Frage "Kann es bellen?" trennt die beiden, und der Durchschnitt steigt auf 3,22 Fragen für neun Tiere.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Eine gute Frage halbiert die Gruppe.</strong> Je gleichmäßiger eine Frage teilt, desto schneller ist die Maschine am Ziel.</li><li><strong>Die Maschine weiß nur, was in ihren Daten steht.</strong> Gibt es keine Frage, die Katze und Hund trennt, kann sie die beiden nicht unterscheiden, egal wie schnell sie rechnet.</li><li><strong>Neue Beispiele brauchen manchmal neue Merkmale.</strong> Das gilt für ein Ratespiel genauso wie für große Systeme, die Bilder erkennen oder Texte sortieren.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="stufen">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Nach Alter</p><h2>Was lernt ein Kind im KI-Kurs in welchem Alter?</h2><p class="ag-lede">Unsere eigene Einteilung. Jedes Kind beginnt dort, wo es gerade steht, und der Mentor passt die Aufgaben an Lesen, Schreiben und Englisch an.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Inhalte nach Alter (unsere Planung)</caption><thead><tr><th scope="col">Alter</th><th scope="col">Was das Kind tut</th><th scope="col">Womit</th></tr></thead><tbody><tr><td>6 und 7</td><td>Dinge nach Merkmalen sortieren, Ja-Nein-Fragen stellen, einen Ablauf als Bilderfolge legen</td><td>Karten, Papier, einfache Blöcke</td></tr><tr><td>8 und 9</td><td>Entscheidungsbäume zeichnen und als Programm bauen, eine Figur auf Antworten reagieren lassen</td><td>Scratch</td></tr><tr><td>10 und 11</td><td>Daten als Tabelle anlegen, ein Programm Regeln aus Beispielen finden lassen, Fehler der Maschine erklären</td><td>Scratch und erste Schritte in Python</td></tr><tr><td>12</td><td>Eigene kleine Projekte, die erkennen, raten oder sortieren, und ein kurzer Vortrag darüber auf Englisch</td><td>Python</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Projekte, die Kinder bauen</h3><p>Ein Ratespiel für Tiere, Länder oder Fußballvereine. Eine Sortiermaschine, die Obst nach Farbe und Größe einordnet. Ein Quiz, das sich merkt, welche Fragen schwer waren, und diese öfter stellt.</p>
+<p>Bei jedem Projekt fragt der Mentor: Woher weiß die Maschine das? Was passiert, wenn wir ein Beispiel weglassen? Diese Fragen sind wichtiger als der fertige Code.</p></div><div><h3>Und danach</h3><p>Wer Freude daran hat, findet in Deutschland Wettbewerbe für junge Forschende. Bei Jugend forscht junior können Schülerinnen und Schüler ab der 4. Klasse und bis 14 Jahre antreten. Die FIRST LEGO League richtet sich an Kinder und Jugendliche von 5 bis 16; ihre neue Future Edition beruht auf Sets von LEGO Education zu Informatik und KI.</p>
+<p>Mit diesen Wettbewerben und ihren Veranstaltern sind wir nicht verbunden. Die Anmeldung läuft dort, oft über die Schule.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Wann findet der KI-Kurs für Kinder statt?</h2><p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Drei mögliche Termine und dieselbe Stunde auf der Uhr des Mentors</caption><thead><tr><th scope="col">Deutsche Zeit</th><th scope="col">Indien, solange in Deutschland Winterzeit gilt</th><th scope="col">Indien, ab dem 28. März 2027</th></tr></thead><tbody><tr><td>14:50</td><td>19:20</td><td>18:20</td></tr><tr><td>16:20</td><td>20:50</td><td>19:50</td></tr><tr><td>Samstag 09:15</td><td>13:45</td><td>12:45</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Rechtsgrundlage ist das Einheiten- und Zeitgesetz: Von Ende Oktober bis Ende März zeigen deutsche Uhren MEZ (UTC+1), dazwischen MESZ (UTC+2). Umgestellt wurde zuletzt am 25. Oktober 2026, vorgestellt wird wieder am 28. März 2027. Weil Indien keine Sommerzeit kennt und immer UTC+5:30 hat, wächst der Abstand im Winter auf viereinhalb Stunden und schrumpft im Sommer auf dreieinhalb. Alle drei Zeilen sind Beispiele und keine feste Gruppe.</p>
+    <p class="ag-mt-40">Sechs- und Siebenjährige konzentrieren sich am frühen Nachmittag oder am Samstagmorgen meist am besten, deshalb planen wir für sie kürzere Abschnitte mit kleinen Pausen. Den Termin wählen Sie im Buchungsformular nach Ihrer deutschen Uhr.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran Eltern sehen, dass ihr Kind KI versteht</h2>
+      <p class="ag-lede">Fünf Stufen, die wir selbst verwenden, um den Lernstand zu beschreiben und Eltern zu berichten.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen im KI-Kurs für Kinder (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Typisches Alter</th><th scope="col">Ihr Kind kann</th></tr></thead><tbody><tr><td>1. Sortieren</td><td class="ag-num">6 bis 7</td><td class="ag-num">Dinge nach einem Merkmal in zwei Gruppen teilen und sagen, nach welchem</td></tr><tr><td>2. Gut fragen</td><td class="ag-num">7 bis 9</td><td class="ag-num">eine Frage finden, die eine Gruppe ungefähr halbiert</td></tr><tr><td>3. Baum bauen</td><td class="ag-num">8 bis 10</td><td class="ag-num">einen Entscheidungsbaum zeichnen und in Scratch umsetzen</td></tr><tr><td>4. Lernen lassen</td><td class="ag-num">10 bis 12</td><td class="ag-num">ein Programm aus einer Tabelle von Beispielen seine Fragen selbst wählen lassen</td></tr><tr><td>5. Grenzen erklären</td><td class="ag-num">11 bis 12</td><td class="ag-num">zeigen, wann eine Maschine scheitert, und begründen, warum</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Eltern</h3><p>Fragen Sie Ihr Kind nach einer Stunde nicht nur, was es gebaut hat, sondern warum die Maschine einmal falsch geraten hat. Diese Antwort zeigt am besten, was es verstanden hat.</p>
+<p>Nach den Stunden bekommen Sie eine kurze Rückmeldung: was geübt wurde, was gut lief und was als Nächstes kommt.</p></div><div><h3>Für Kinder</h3><p>Raten Sie selbst mit, bevor das Programm rät. Wer schneller richtig liegt, gewinnt die Runde.</p>
+<p>Wenn die Maschine sich irrt, ist das kein Fehler von Ihnen, sondern ein Hinweis: Ihr fehlt eine Frage.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse für Kinder, die gern tüfteln</h2>
+      <p class="ag-lede">Alle Kurse finden live statt, auf Englisch, mit einem festen Mentor, in der Gruppe oder im Einzelunterricht.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Erste Schritte</h3>
+        <span class="ag-band-sub">6 bis 10 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / START / 01</p>
+          <h4>Programmieren mit Blöcken</h4>
+          <p>Von Scratch zu Spielen, Apps und kleinen KI-Ideen.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / START / 02</p>
+          <h4>Denken wie ein Programmierer</h4>
+          <p>Rätsel, Muster und Abläufe, oft ganz ohne Bildschirm.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-and-computational-thinking-for-kids">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / START / 03</p>
+          <h4>Apps bauen für Kinder</h4>
+          <p>Eigene Apps aus Blöcken, die auf dem Tablet laufen.</p>
+          <a class="ag-course-link" href="/courses/block-coding-app-development-masterclass">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Spiele und Projekte</h3>
+        <span class="ag-band-sub">8 bis 12 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / PROJ / 01</p>
+          <h4>Spiele entwickeln für Kinder</h4>
+          <p>Scratch, Roblox und Minecraft als Werkstatt.</p>
+          <a class="ag-course-link" href="/courses/game-development-masterclass-for-kids">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / PROJ / 02</p>
+          <h4>Minecraft programmieren</h4>
+          <p>Von Blöcken zu echtem Code in einer vertrauten Welt.</p>
+          <a class="ag-course-link" href="/courses/minecraft-coding-for-kids-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / PROJ / 03</p>
+          <h4>Webseiten für Kinder</h4>
+          <p>Die erste eigene Webseite, Schritt für Schritt.</p>
+          <a class="ag-course-link" href="/courses/kids-ai-web-development-course">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Weiter mit Informatik</h3>
+        <span class="ag-band-sub">9 bis 16 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / INF / 01</p>
+          <h4>Informatik Companion</h4>
+          <p>Begleitung zum Schulfach Informatik ab Klasse 5.</p>
+          <a class="ag-course-link" href="/courses/informatik-companion-course-klasse-5-10">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / INF / 02</p>
+          <h4>Informatik-Wettbewerbe</h4>
+          <p>Knobelaufgaben vom Biber bis zu KI-Projekten.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">KKK / INF / 03</p>
+          <h4>Mathematik mit Python</h4>
+          <p>Rechnen, Muster und Daten im eigenen Code, 10 bis 15.</p>
+          <a class="ag-course-link" href="/courses/maths-through-coding">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>Wie eine Stunde im KI-Kurs für Kinder aussieht</h2>
+      <p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Früher Nachmittag</p><p class="ag-slot-l">Wenn die Grundschule aus ist, etwa ab 14:50 Uhr.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Samstag</p><p class="ag-slot-l">Am Vormittag, wenn Kinder ausgeruht sind.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Zu einer Zeit, die Sie mit dem Mentor absprechen.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Erst spielen</h3><p>Jede Stunde beginnt mit einem Rätsel oder Kartenspiel, ganz ohne Code.</p></div>
+      <div><h3>Dann bauen</h3><p>Aus dem Spiel wird ein kleines Programm in Scratch oder Python.</p></div>
+      <div><h3>Einfaches Englisch</h3><p>Kurze Sätze, viele Bilder, schwierige Wörter werden gezeigt und wiederholt.</p></div>
+      <div><h3>Selbst erklären</h3><p>Jedes Kind sagt am Ende in eigenen Worten, wie seine Maschine entscheidet.</p></div>
+      <div><h3>Kein KI-Konto</h3><p>Wir nutzen keine Chatbots, für die Kinder zu jung sind.</p></div>
+      <div><h3>Ein fester Mentor</h3><p>Dieselbe Person jede Woche, die Ihr Kind gut kennt.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Was Kinder bei uns bauen</h2>
+      <p class="ag-lede">Eine Auswahl von Projekten unserer Lernenden weltweit. Mehr davon zeigt die Seite <a class="ag-inline-link" href="/student-labs">Student labs</a> (auf Englisch).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Was der KI-Kurs für Kinder kostet</h2>
+      <p class="ag-lede">Ein Monat umfasst acht Live-Stunden. Den Preis zeigen wir Ihnen in Euro, berechnet mit dem Referenzkurs, den die Europäische Zentralbank veröffentlicht. Die Zahlung selbst läuft in US-Dollar, die Umrechnung übernimmt Ihre Bank, und deshalb weicht der gebuchte Betrag manchmal um ein paar Cent ab.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Eine kostenlose Probestunde mit einem Ratespiel</li><li>Ein kurzes Gespräch über Alter und Vorkenntnisse</li><li>Keine Kreditkarte nötig</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Kinder in ähnlichem Alter</li><li>Derselbe Mentor jede Woche</li><li>Zwei Stunden pro Woche</li><li>Monatlich zahlbar und monatlich kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Ihr Kind allein mit dem Mentor</li><li>Tempo und Projekte nach seinen Interessen</li><li>Termine nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Was Familien über uns bei Google schreiben, wörtlich und auf Englisch, so wie es dort steht.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fragen von Eltern</p>
+      <h2>KI-Kurs für Kinder: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, jede Stunde läuft live und nur auf Englisch, mit Mentoren aus Indien, die langsam und deutlich sprechen und sich auf Tempo und Aussprache Ihres Kindes einstellen. Für viele Familien ist das ein Vorteil: Ihr Kind lernt, wie KI funktioniert, und übt dabei ganz nebenbei Englisch, die Sprache, in der Programmiersprachen geschrieben sind.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ab welchem Alter kann mein Kind am KI-Kurs teilnehmen?</h3>
+        <p>Ab 6 Jahren. Die Jüngsten arbeiten mit Karten, Bildern und einfachen Blöcken, ab etwa 8 Jahren mit Scratch und ab etwa 10 Jahren mit ersten Python-Programmen. Lesen und Schreiben müssen noch nicht sicher sein, der Mentor zeigt viel und liest Aufgaben vor.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Benutzt mein Kind im Kurs ChatGPT oder einen anderen Chatbot?</h3>
+        <p>Nein. Viele Chatbots sind laut ihren eigenen Bedingungen nicht für Kinder gedacht: Claude erst ab 18 Jahren, ChatGPT ab 13 Jahren, bis zur Volljährigkeit nur mit Zustimmung der Eltern. Ein eigenes Google-Konto darf man in Deutschland erst ab 16 Jahren selbst verwalten. Unsere Kinder bauen ihre KI selbst, dafür braucht es kein Konto bei einem KI-Anbieter.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Lernt mein Kind wirklich etwas über KI, wenn es keinen Chatbot nutzt?</h3>
+        <p>Ja, sogar mehr. Wer selbst eine Maschine baut, die aus einer Tabelle von Beispielen ihre Fragen wählt, erlebt, wie Lernen aus Daten funktioniert und wo es an Grenzen stößt. Genau dieses Verständnis der Funktionsweise nennt die Kultusministerkonferenz in ihrer Handlungsempfehlung von 2024 unabdingbar.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie viele Kinder in Deutschland nutzen schon KI?</h3>
+        <p>Laut KIM-Studie 2024 des Medienpädagogischen Forschungsverbunds Südwest nutzen 9 Prozent der Kinder, die online sind, mindestens einmal pro Woche KI-Anwendungen. 81 Prozent der Schulkinder setzen KI zu Hause nie für die Schule ein. Befragt wurden 1.225 Kinder zwischen sechs und 13 Jahren im Herbst 2024.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wird in der Grundschule schon KI unterrichtet?</h3>
+        <p>Das hängt vom Land und von der Schule ab. Die Kultusministerkonferenz hat ihren Kompetenzrahmen im Oktober 2026 um KI ergänzt. Ob Sprachmodelle schon in der Grundschule eingesetzt werden sollen, ist offen: Die Wissenschaftliche Kommission empfiehlt weitgehenden Verzicht, die Länder halten das für erörterungsbedürftig. Unser Kurs vergibt keine Noten und ersetzt keinen Schulunterricht.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Braucht mein Kind Vorkenntnisse im Programmieren?</h3>
+        <p>Nein. Wir beginnen mit Spielen auf Papier und bauen erst danach Programme. Kinder, die schon Scratch kennen, steigen später ein und kommen schneller zu Python.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Zu welchen Uhrzeiten kann mein Kind teilnehmen?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Zur Orientierung: Beginnt die Stunde im Winter um 14:50 Uhr deutscher Zeit, ist es beim Mentor in Indien 19:20 Uhr.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was kostet der Kurs, und in welcher Währung zahle ich?</h3>
+        <p>Oben auf dieser Seite steht die Monatsgebühr in Euro; als Grundlage dient der Referenzkurs der EZB. Belastet wird Ihr Konto in US-Dollar, den Wechsel in Euro erledigt Ihre Bank. Für die erste Stunde zahlen Sie nichts und brauchen keine Kreditkarte.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie geht es nach dem KI-Kurs weiter?</h3>
+        <p>Viele Kinder machen mit Python und eigenen Projekten weiter. Wer forschen möchte, kann bei Jugend forscht junior ab der 4. Klasse und bis 14 Jahre antreten, die Anmeldung läuft beim Veranstalter. Ab 13 Jahren führen unsere Kurse für Jugendliche zu maschinellem Lernen mit echten Daten.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weiterlesen</p>
+      <h2>Weitere Seiten für Familien in Deutschland</h2>
+      <p class="ag-lede">Überwiegend englischsprachige Seiten, ausgewählt für Eltern jüngerer Kinder.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Der Einstieg zu allen Kursen für Familien zwischen Kiel und Konstanz.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Wenn aus Spiel Schulfach wird: Informatik ab Klasse 5.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-copy-ai-germany">Learn to think, not copy AI</a></h3><p>Wie wir Denken statt Abschreiben unterrichten.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-classes-for-kids-berlin">Coding classes for kids in Berlin</a></h3><p>Programmieren für Kinder in Berlin.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and ML classes in Germany</a></h3><p>Maschinelles Lernen für Jugendliche und Erwachsene.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>So läuft unser Live-Unterricht.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Eine kostenlose Probestunde ausprobieren</h2>
+        <p class="ag-lede">In der Probestunde spielt der Mentor mit Ihrem Kind eine Runde Tierraten und baut mit ihm die ersten Blöcke dazu. So sehen Sie, wie Ihr Kind mit Englisch und Aufgaben zurechtkommt, und wir schlagen danach die passende Gruppe vor.</p>
+        <p class="ag-mt-40">Wer mehr wissen möchte, findet auf <a class="ag-inline-link" href="/how-we-teach">How we teach</a> den Ablauf einer Live-Stunde und unter <a class="ag-inline-link" href="/courses">All courses</a> jeden Lehrplan, beides in englischer Sprache.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20wir%20interessieren%20uns%20f%C3%BCr%20den%20KI-Kurs%20f%C3%BCr%20Kinder%20auf%20Englisch.%20K%C3%B6nnen%20wir%20eine%20kostenlose%20Probestunde%20f%C3%BCr%20unser%20Kind%20buchen%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'kkk',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Die Mentoren unterrichten aus Indien, live und auf Englisch. Eine kurze WhatsApp-Nachricht ist der schnellste Weg zu uns.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_kkk(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos, ohne Kreditkarte, ohne Verpflichtung.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>KI für Kinder</h4><ul><li><a href="/courses/ai-literacy-for-kids-course">KI verstehen für Kinder</a></li><li><a href="/courses/python-ai-kids-masterclass">Python und KI</a></li><li><a href="/courses/scratch-programming-complete-course">Scratch für Kinder</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/coding-classes-for-kids-berlin">Programmieren in Berlin</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Eine gute Frage halbiert die Gruppe</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_kkk = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'ki-kurs-fuer-kinder-inline', meta: { name: name, age: age, page: 'ki-kurs-fuer-kinder' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>

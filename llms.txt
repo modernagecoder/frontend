@@ -1025,6 +1025,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Scratch-Kurs für Kinder online (auf Englisch): https://learn.modernagecoders.com/scratch-kurs-kinder-online
 - Python-Kurs für Kinder online (auf Englisch): https://learn.modernagecoders.com/python-kurs-kinder-online
 - Minecraft programmieren lernen (auf Englisch): https://learn.modernagecoders.com/minecraft-programmieren-lernen-kinder
+- KI-Kurs für Kinder (auf Englisch): https://learn.modernagecoders.com/ki-kurs-fuer-kinder
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,
