@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Coding for International School Students in Munich</title>
+  <meta name="description" content="Coding for international school students in Munich: IB and IGCSE computer science live online in English, what AGIS says on the IB, and a Munich traffic project.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/coding-for-international-school-students-munich">
+  <link rel="alternate" type="text/markdown" href="/src/pages/coding-for-international-school-students-munich.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#753000">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/coding-for-international-school-students-munich">
+  <meta property="og:title" content="Coding for International School Students in Munich">
+  <meta property="og:description" content="Live online computer science in English for pupils at the international schools around Munich: IB DP and IGCSE support, what changes if your child moves to a Bavarian Gymnasium, and a two-dimensional array project on a motorway counter at München-West.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coding for International School Students in Munich">
+  <meta name="twitter:description" content="Computer science for Munich international school pupils, live in English: IB, IGCSE and a Munich traffic data project.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-cmu .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-cmu .ag-capsule { border-left-width: 3px; border-radius: 4px; }
+.ag-root.ag-cmu .ag-section-head h2 { max-width: 36ch; }
+.ag-root.ag-cmu .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-cmu .ag-code-head b { letter-spacing: 0.01em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/coding-for-international-school-students-munich#page","url":"https://learn.modernagecoders.com/coding-for-international-school-students-munich","name":"Coding for International School Students in Munich","description":"A guide for families at Munich-area international schools on computer science support: context from the AGIS directory, the Bavarian Informatik rules for pupils who switch systems, and an original Python project on 2023 hourly counts from the BASt station at Autobahnkreuz München-West.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"International pupils, Munich","item":"https://learn.modernagecoders.com/coding-for-international-school-students-munich"}]},{"@type":"Course","name":"Coding for International School Students in Munich","description":"Live online computer science in English for pupils at international schools around Munich: IB Diploma Computer Science, IGCSE Computer Science and the programming foundations for MYP years, in a group of fifteen to twenty or one to one, with one regular mentor.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/coding-for-international-school-students-munich"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-international-school-students-munich"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/coding-for-international-school-students-munich"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Every lesson is live and in English only, the same language your child learns computing in at an international school. The mentor adapts to your child's pace and accent, which helps in classrooms where English is a second or third language."}},{"@type":"Question","name":"Do you teach IB Diploma Computer Science?","acceptedAnswer":{"@type":"Answer","text":"Yes, at SL and HL. We work from your child's own school plan and deadlines, and we write our own practice tasks. The school and the IB set and mark the assessments; we do not."}},{"@type":"Question","name":"Can you help a pupil in the MYP years?","acceptedAnswer":{"@type":"Answer","text":"Yes. Many MYP pupils start with our Python for Teens course to build real programming skill before the Diploma, so that algorithms and larger projects feel familiar later."}},{"@type":"Question","name":"Is the IB Diploma recognised as an Abitur in Germany?","acceptedAnswer":{"@type":"Answer","text":"AGIS states that the IB Diploma, with prescribed subject combinations, is equivalent to the German Abitur. The exact combination rules matter, so please check them with the school's IB coordinator; we do not give advice on recognition."}},{"@type":"Question","name":"What changes if my child moves to a Bavarian Gymnasium?","acceptedAnswer":{"@type":"Answer","text":"In grade 11 every branch has two compulsory hours of Informatik, and the written Informatik Abitur in Bavaria is set centrally, with much of it programming on paper and no work at the computer, according to the Gesellschaft für Informatik."}},{"@type":"Question","name":"Are you connected to any Munich international school?","acceptedAnswer":{"@type":"Answer","text":"No. We name schools on this page only as context, from the AGIS directory. We are an independent online school and are not linked to any school, AGIS or the IB."}},{"@type":"Question","name":"What time are lessons in Munich?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most pupils choose a slot between about 17:00 and 19:00 or a Sunday."}},{"@type":"Question","name":"Where are the mentors based?","acceptedAnswer":{"@type":"Answer","text":"In India. They teach live over video, in English, and your child keeps the same mentor through the course."}},{"@type":"Question","name":"Can a project like the traffic grid help with an extended essay?","acceptedAnswer":{"@type":"Answer","text":"It can show the skills, but your child must choose and write their own topic and work, with their school supervisor. We teach the methods, such as cleaning data and building tables, and we never write the essay or code it for them."}},{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"A monthly fee, shown on this page in euro at the European Central Bank reference rate. The payment is taken in US dollars and converted by your bank, so the amount you see on your statement can differ a little. The first lesson is free."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/coding-for-international-school-students-munich","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-cmu">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#schools">Schools</a></li>
+      <li><a href="#grid">Grid project</a></li>
+      <li><a href="#switching">Switching</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / International pupils, Munich
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Munich &middot; International schools &middot; IB and IGCSE computing</p>
+        <h1>Coding for international school students in Munich</h1>
+        <p class="ag-lede">Around Munich, several large international schools teach the IB in English, and their pupils often want more programming than a single subject gives them, or help with the computing they already take. This page sets out what the schools' own association says about these qualifications in Germany, what changes for a pupil who moves to a Bavarian Gymnasium, and a project on real Munich traffic data that teaches one of the most useful ideas in computer science: the two-dimensional array.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#grid" class="ag-btn ag-btn--ghost">See the traffic project</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20attends%20an%20international%20school%20near%20Munich%20and%20would%20like%20computer%20science%20help%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cmu'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live online since 2020 &middot; 10,000+ students worldwide &middot; IB and IGCSE computing, in English</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>For</dt><dd>International school pupils, about 11 to 18</dd>
+          <dt>Programmes</dt><dd>IB MYP and DP, IGCSE</dd>
+          <dt>Languages</dt><dd>Python, Java, pseudocode</dd>
+          <dt>Class size</dt><dd>Fifteen to twenty, or one to one</dd>
+          <dt>Munich times</dt><dd>Evenings and Sundays, flexible</dd>
+          <dt>Trial</dt><dd>A free first class, no card</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Modern Age Coders teaches coding to international school students in Munich live online in English: IB Diploma and IGCSE Computer Science, plus the Python and Java foundations MYP pupils need first. One regular mentor matches the pupil's pace and accent and works from their own school's next assessment. Lessons run in a group of fifteen to twenty or one to one, in the Munich evening or on Sundays.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three computing courses for Munich international school pupils</h2>
+      <p class="ag-lede">One for each stage: the IB Diploma years, the IGCSE years, and the coding foundations that make both easier.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/ib-diploma-computer-science-course">
+        <div class="ag-pick-shot"><img src="/images/ib-computer-science.webp" alt="IB DP Computer Science (New Guide, First Assessment 2027) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CMU / 01</p>
+          <h3>IB DP Computer Science</h3>
+          <p>For the two Diploma years, SL and HL: programming, algorithms, data and the written work, taught in English by one mentor who follows your child through to the exams.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/igcse-computer-science-0478-course">
+        <div class="ag-pick-shot"><img src="/images/igcse-computer-science.webp" alt="IGCSE Computer Science (0478) course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CMU / 02</p>
+          <h3>IGCSE Computer Science</h3>
+          <p>For pupils on a Cambridge route: theory and programming papers, with practice in the pseudocode and Python styles the course expects.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">CMU / 03</p>
+          <h3>Python for Teens</h3>
+          <p>For MYP-age pupils who want real programming before the Diploma: from first scripts to files, functions and small data projects like the one below.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="schools">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Context</p><h2>Which international schools are there around Munich, and what do they teach?</h2><p class="ag-lede">We name schools here only as context, from the directory of AGIS, the association of international schools in Germany, and we are not connected to any of them.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>AGIS member schools in and near Munich, as listed in the AGIS school directory</caption><thead><tr><th scope="col">School</th><th scope="col">Location</th><th scope="col">Pupils listed</th><th scope="col">Programmes listed</th></tr></thead><tbody><tr><td>Munich International School</td><td>Starnberg, Schloss Buchhof</td><td class="ag-num">1,314</td><td>IB PYP, IB MYP, IB Diploma</td></tr><tr><td>Bavarian International School</td><td>Haimhausen</td><td class="ag-num">1,265</td><td>IB PYP, MYP, DP and CP</td></tr><tr><td>International School Augsburg</td><td>Gersthofen, near Augsburg</td><td class="ag-num">380</td><td>IB Diploma with Abitur recognition, IGCSE with Mittlere Reife recognition</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: AGIS e.V., school directory pages for each school (pupil figures as shown on the AGIS pages), read 2 and 3 November 2026. Munich itself has 1,505,005 inhabitants (Destatis, 31 December 2024). Other international and bilingual schools in Munich are not AGIS members and are not listed here.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What AGIS says about the qualifications</h3><p>AGIS says on its homepage that it represents 23 member schools, that they bring together children from up to 65 nations, and that English is their common language of teaching. Every member, it adds, is an authorised IB school offering at least one of the four IB programmes.</p>
+<p>On recognition, AGIS states that the IB Diploma, with prescribed subject combinations, is equivalent to the German Abitur and opens university access worldwide, and that MYP or IGCSE schools give pupils a qualification equivalent to the Mittlere Reife.</p></div><div><h3>What that means for computing</h3><p>The subject combination matters, so families should check the exact rules with the school's IB coordinator before choosing Computer Science; we teach the subject, and we do not advise on recognition.</p>
+<p>In practice, international school pupils come to us for three things: help with the CS course they already take, a programming head start in the MYP years, and projects with real data for an extended essay or a portfolio.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="english">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Taught in English</p><h2>Is the teaching in English, and does it match how international schools teach?</h2><p class="ag-lede">Yes. Every lesson is in English, the language these pupils already learn computing in.</p></div>
+    <div class="ag-grid-3"><div><h3>English only</h3><p>We do not teach in German at all. For a pupil whose whole school day is in English, that means no switching: the terms used in class, in the mentor's explanation and in the exam paper are the same words.</p></div><div><h3>Pace and accent</h3><p>International classrooms mix many accents. Our mentors speak clearly, adapt to the pupil's own pace and accent, and slow down for a pupil whose English is still their second or third language.</p></div><div><h3>From their syllabus</h3><p>We start from the pupil's own assignment calendar: the next test, the next coding task, the next piece of written work. The school's teacher and the exam board decide the grade; we build the understanding underneath it.</p></div></div>
+    <p class="ag-mt-40">Our mentors work from India and teach over live video. A Munich evening lands late in the Indian evening in winter, so we usually suggest weekday slots before 19:00 Munich time and Sunday lessons for longer project work.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="grid">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A real Munich project</p><h2>When is the motorway at München-West busiest? A two-dimensional array project</h2><p class="ag-lede">The federal highway research institute, BASt, publishes every hourly count from the automatic counters on Germany's motorways as open data. One of them sits at Autobahnkreuz München-West on the A99, the motorway ring around the city. A year of its data makes a classic computer science exercise: fold 8,760 rows into a table of 7 days by 24 hours.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The data</h3><p>The file for counter 9220 holds 8,760 rows for 2023, one per hour, with the date, a weekday number from 1 to 7, an hour number from 01 to 24, and vehicle counts for each of the two directions. Next to each count sits a one-letter flag column; most rows carry a dash there, and 171 hours carry a letter.</p>
+<p>We give the pupil a slimmed file, a99_west_2023.csv, with seven columns: date, weekday, hour, the two counts and the two flags. Because the BASt pages that explain the flag letters were not reachable when we built this, the program does not interpret them: it simply leaves flagged hours out and reports how many.</p></div><div><h3>The question</h3><p>On which day of the week, and in which hour, is the counter busiest on average? Answering it means grouping every row by two keys at once, which is exactly what a two-dimensional array is for: a list of 7 lists, each of 24 numbers.</p>
+<p>We keep two such tables, one for the totals and one for how many hours went into each cell, then divide. It is the same pattern an IB pupil uses for a grade book, a seating plan or a game board.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: build the 7 by 24 table and find the peak</b><span>Python</span></figcaption><pre>import csv
+
+DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+total = [[0] * 24 for _ in range(7)]
+count = [[0] * 24 for _ in range(7)]
+flagged = 0
+
+with open("a99_west_2023.csv") as hours:
+    for rec in csv.DictReader(hours):
+        if rec["flag_n"] != "-" or rec["flag_s"] != "-":
+            flagged += 1
+            continue
+        d = int(rec["weekday"]) - 1
+        h = int(rec["hour"]) - 1
+        total[d][h] += int(rec["north"]) + int(rec["south"])
+        count[d][h] += 1
+
+peak = (0, 0, 0)
+for d in range(7):
+    for h in range(24):
+        avg = total[d][h] / count[d][h]
+        if avg &gt; peak[0]:
+            peak = (avg, d, h)
+
+print("Hours left out (flagged):", flagged)
+print(f"Busiest slot on average: {DAYS[peak[1]]}, hour {peak[2] + 1:02d}, {peak[0]:.0f} vehicles")</pre><p class="ag-code-note">It prints: <code>Hours left out (flagged): 171</code> and <code>Busiest slot on average: Wed, hour 18, 4858 vehicles</code>.</p></figure>
+    <p class="ag-mt-40">Wednesday, hour 18, with 4,858 vehicles in an average hour across both directions. A nice check for pupils: run it again without the flag filter. The peak stays in the same cell and moves only to 4,866, so the answer does not depend on those 171 hours. When a result survives a change like that, you can state it with more confidence.</p>
+    <p>Version 2 reads two rows of the table, the morning slot 08 and the evening slot 18, across all seven days, and compares an ordinary weekday morning with a Sunday morning.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: read two rows of the table</b><span>Python</span></figcaption><pre>for slot in (8, 18):
+    line = [round(total[d][slot - 1] / count[d][slot - 1]) for d in range(7)]
+    print(f"hour {slot:02d}:", line)
+
+weekday = sum(total[d][7] for d in range(5)) / sum(count[d][7] for d in range(5))
+sunday = total[6][7] / count[6][7]
+print(f"hour 08, Mon to Fri vs Sun: {weekday / sunday:.1f} times as many")</pre><p class="ag-code-note">Run after Version 1, it prints: <code>hour 08: [4558, 4720, 4830, 4617, 4135, 1739, 809]</code>, <code>hour 18: [4654, 4701, 4858, 4767, 4482, 3577, 4026]</code> and <code>hour 08, Mon to Fri vs Sun: 5.7 times as many</code>.</p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Average vehicles per hour at counter 9220, A99 München-West, 2023, both directions (our calculation)</caption><thead><tr><th scope="col">Hour slot</th><th scope="col">Wednesday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><td>08</td><td class="ag-num">4,830</td><td class="ag-num">4,135</td><td class="ag-num">1,739</td><td class="ag-num">809</td></tr><tr><td>18</td><td class="ag-num">4,858</td><td class="ag-num">4,482</td><td class="ag-num">3,577</td><td class="ag-num">4,026</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Data: Bundesanstalt für Straßenwesen, automatic counting stations on the A99, 2023, station 9220 (listed on GovData as Zählstelle AK München-West), licence CC BY 4.0, downloaded 3 November 2026. Averages are our own, over the 8,589 hours without a flag letter. All 8,760 hours as published add up to 22,760,004 vehicles, about 62,356 a day.</p>
+    <p class="ag-mt-40">The table hides two stories a pupil can investigate. Friday mornings are quieter than other weekday mornings. And at slot 18, Sunday is busier than Saturday, 4,026 against 3,577. The data cannot say why; a good write-up offers a hypothesis, such as weekend trips returning, and says what extra data would test it.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Warm-up.</strong> On paper, draw a 3 by 4 grid and fill it from a list of twelve numbers, row by row. Then write the index pair of the largest number.</li><li><strong>Core.</strong> Run Version 1, then print the whole 7 by 24 table of averages with one row per day, neatly aligned.</li><li><strong>Extension.</strong> Split the totals by direction, north and south, and find whether the two directions peak at different hours.</li><li><strong>For a write-up.</strong> State one finding that the table supports and one claim it cannot support, and explain why in two sentences each.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="switching">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Changing system</p><h2>What if my child moves from an international school to a Bavarian Gymnasium?</h2><p class="ag-lede">Computing looks different in the Bavarian state system, especially in the Oberstufe. The Gesellschaft für Informatik summarises the rules.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Informatik in the Bavarian Gymnasium Oberstufe, 2026/27</caption><thead><tr><th scope="col">Stage</th><th scope="col">What the rules say</th></tr></thead><tbody><tr><td>Grade 11 (Einführungsphase)</td><td>Two compulsory hours of Informatik, or a variant of it, in every branch</td></tr><tr><td>Qualifikationsphase, scientific branch</td><td>Informatik at basic level for three hours or at raised level for five hours</td></tr><tr><td>Qualifikationsphase, other branches</td><td>Late-starting Informatik at basic level for three hours</td></tr><tr><td>Written Abitur in Informatik</td><td>Tasks set centrally; much of it is programming on paper, with no work at the computer</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Gesellschaft für Informatik, Informatik-Monitor 2026/27, Bayern, compiled from the Gymnasialschulordnung; read 2 November 2026.</p>
+    <p class="ag-mt-40">The last row surprises most international school families. In the Bavarian written Abitur, code is written by hand, so a pupil used to running and testing every line on a laptop needs practice in tracing a program on paper, step by step, and in writing syntax correctly without an editor's help. We practise exactly that with original tasks, in English, and our Informatik Abitur course covers the Java and Python side.</p>
+    <p>If your family is considering a move, also note the calendar: Bavarian Gymnasien follow the Land's holidays, such as summer from 2 August to 13 September 2027 in the KMK table, which can differ from an international school's own term dates.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>What time are lessons for Munich pupils?</h2><p class="ag-lede">International school days can run late, so most pupils pick an early evening slot or a Sunday.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Sample Munich lesson times and the matching time in India</caption><thead><tr><th scope="col">Munich time</th><th scope="col">India, until 28 March 2027</th><th scope="col">India, from 28 March 2027</th></tr></thead><tbody><tr><td>17:15</td><td>21:45</td><td>20:45</td></tr><tr><td>18:45</td><td>23:15</td><td>22:15</td></tr><tr><td>Sunday 12:30</td><td>17:00</td><td>16:00</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">German time follows the Einheitenzeitgesetz: UTC+1 in winter, UTC+2 in summer, with summer time back on 28 March 2027 after ending on 25 October 2026. India stays on UTC+5:30, so the gap is four and a half hours in winter and three and a half in summer. Examples, not fixed batch times.</p>
+    <p class="ag-mt-40">Because 18:45 in Munich is already late evening in India during winter, we suggest the earlier weekday slot or Sunday for one-to-one exam work, and move times when summer time returns in spring.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Progress</p>
+      <h2>How a pupil grows from first scripts to exam-ready work</h2>
+      <p class="ag-lede">Our own stages for international school pupils, used to plan lessons and to report to families.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Computing stages for ages 11 to 18 (ours)</caption><thead><tr><th scope="col">Stage</th><th scope="col">Typical point</th><th scope="col">The pupil can</th></tr></thead><tbody><tr><td>1. Scripts</td><td class="ag-num">MYP 1 to 2</td><td class="ag-num">Write short Python programs with input, output and conditions</td></tr><tr><td>2. Structures</td><td class="ag-num">MYP 3 to 4</td><td class="ag-num">Use lists, loops and functions to solve multi-step tasks</td></tr><tr><td>3. Tables</td><td class="ag-num">MYP 5 or IGCSE</td><td class="ag-num">Work with two-dimensional arrays and files, as in the traffic project</td></tr><tr><td>4. Algorithms</td><td class="ag-num">IGCSE or DP 1</td><td class="ag-num">Trace, compare and write searching and sorting algorithms on paper</td></tr><tr><td>5. Projects</td><td class="ag-num">DP 1 to 2</td><td class="ag-num">Plan, build, test and document a substantial program of their own</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For parents</h3><p>Stage 3 is where many pupils first feel that programming is powerful: one loop over a whole year of data.</p>
+<p>We report what your child built and can explain, never only hours.</p></div><div><h3>For pupils</h3><p>A table is just a list of lists. Name both indices before you write the loop.</p>
+<p>If a result survives when you change one assumption, say so. That is evidence.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More courses</p>
+      <h2>Nine more courses for international school pupils</h2>
+      <p class="ag-lede">Each one live and in English, with a mentor who stays the same, in a batch or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Programming depth</h3>
+        <span class="ag-band-sub">Ages 12 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / CODE / 01</p>
+          <h4>Java for teens</h4>
+          <p>Object-oriented programming from the ground up.</p>
+          <a class="ag-course-link" href="/courses/java-programming-masterclass-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / CODE / 02</p>
+          <h4>Data structures and algorithms</h4>
+          <p>The algorithmic thinking IB and IGCSE papers test.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / CODE / 03</p>
+          <h4>Data science for teens</h4>
+          <p>Python with real datasets and first models.</p>
+          <a class="ag-course-link" href="/courses/data-science-course-for-teens-python-data">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Other programmes</h3>
+        <span class="ag-band-sub">Ages 14 to 19</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / EXAM / 01</p>
+          <h4>AP Computer Science A</h4>
+          <p>For pupils at schools offering AP.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / EXAM / 02</p>
+          <h4>Informatik Abitur</h4>
+          <p>For pupils moving into the German Oberstufe.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / EXAM / 03</p>
+          <h4>IB Maths AA and AI</h4>
+          <p>The maths that sits next to IB computing.</p>
+          <a class="ag-course-link" href="/courses/ib-mathematics-aa-ai-masterclass">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Beyond the syllabus</h3>
+        <span class="ag-band-sub">Ages 12 to 18</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / MORE / 01</p>
+          <h4>German informatics contests</h4>
+          <p>From the Biber to the Bundeswettbewerb.</p>
+          <a class="ag-course-link" href="/courses/german-informatics-competitions-course-biber-bwinf-bwki">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / MORE / 02</p>
+          <h4>Full stack web for teens</h4>
+          <p>React and Node.js projects for a portfolio.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-teens-masterclass">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">CMU / MORE / 03</p>
+          <h4>Cybersecurity for teens</h4>
+          <p>Defensive, ethical security skills.</p>
+          <a class="ag-course-link" href="/courses/cybersecurity-course-for-teens-ethical-defensive">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How lessons run</p>
+      <h2>How live lessons work for an international school pupil</h2>
+      <p class="ag-lede">Two live lessons a week with one mentor, planned around the school's calendar. Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Evenings</p><p class="ag-slot-l">From about 17:15 Munich time, after a long school day.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Sundays</p><p class="ag-slot-l">Longer project sessions without school the next morning.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">1-on-1</p><p class="ag-slot-l">Times set around assessments and deadlines.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>One mentor</h3><p>The same person through the whole course.</p></div>
+      <div><h3>Their syllabus</h3><p>Lessons start from the next assessment.</p></div>
+      <div><h3>Code and paper</h3><p>Running code, and tracing it by hand.</p></div>
+      <div><h3>Real data</h3><p>Projects on open data with a licence.</p></div>
+      <div><h3>Family updates</h3><p>What was done and what comes next.</p></div>
+      <div><h3>Batch or private</h3><p>Fifteen to twenty, or one to one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects by our students</h2>
+      <p class="ag-lede">A selection of what our teenage students have built; the <a class="ag-inline-link" href="/student-labs">student labs</a> page has the full set.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Munich families</h2>
+      <p class="ag-lede">The fee is monthly and covers eight live lessons. On this page it appears in euro at the European Central Bank reference rate, while the card payment itself is in US dollars; your bank converts it, so the statement can show a slightly different sum.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first lesson</li><li>A look at a current task or test</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty pupils at a similar stage</li><li>One regular mentor</li><li>Two lessons a week</li><li>Monthly, stop when you like</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Your child and one mentor</li><li>Built around their own syllabus</li><li>Times that fit the school week</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Google reviews from students and parents, quoted exactly.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Munich families ask</p>
+      <h2>Coding for international school students in Munich: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Every lesson is live and in English only, the same language your child learns computing in at an international school. The mentor adapts to your child's pace and accent, which helps in classrooms where English is a second or third language.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach IB Diploma Computer Science?</h3>
+        <p>Yes, at SL and HL. We work from your child's own school plan and deadlines, and we write our own practice tasks. The school and the IB set and mark the assessments; we do not.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can you help a pupil in the MYP years?</h3>
+        <p>Yes. Many MYP pupils start with our Python for Teens course to build real programming skill before the Diploma, so that algorithms and larger projects feel familiar later.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the IB Diploma recognised as an Abitur in Germany?</h3>
+        <p>AGIS states that the IB Diploma, with prescribed subject combinations, is equivalent to the German Abitur. The exact combination rules matter, so please check them with the school's IB coordinator; we do not give advice on recognition.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What changes if my child moves to a Bavarian Gymnasium?</h3>
+        <p>In grade 11 every branch has two compulsory hours of Informatik, and the written Informatik Abitur in Bavaria is set centrally, with much of it programming on paper and no work at the computer, according to the Gesellschaft für Informatik.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Are you connected to any Munich international school?</h3>
+        <p>No. We name schools on this page only as context, from the AGIS directory. We are an independent online school and are not linked to any school, AGIS or the IB.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What time are lessons in Munich?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Most pupils choose a slot between about 17:00 and 19:00 or a Sunday.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Where are the mentors based?</h3>
+        <p>In India. They teach live over video, in English, and your child keeps the same mentor through the course.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Can a project like the traffic grid help with an extended essay?</h3>
+        <p>It can show the skills, but your child must choose and write their own topic and work, with their school supervisor. We teach the methods, such as cleaning data and building tables, and we never write the essay or code it for them.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>What does it cost?</h3>
+        <p>A monthly fee, shown on this page in euro at the European Central Bank reference rate. The payment is taken in US dollars and converted by your bank, so the amount you see on your statement can differ a little. The first lesson is free.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for international school families in Germany.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Our hub page for Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-for-international-school-students-germany">International school pupils in Germany</a></h3><p>The national picture, beyond Munich.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ib-computer-science-tutor-germany">IB Computer Science tutor</a></h3><p>How the subject sits in the diploma in Germany.</p></div>
+      <div><h3><a class="ag-inline-link" href="/igcse-computer-science-tutor-germany">IGCSE Computer Science tutor</a></h3><p>For pupils on a Cambridge route.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science</a></h3><p>Informatik in the German Abitur, in English.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What a live lesson looks like.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first lesson</h2>
+        <p class="ag-lede">Bring a current coding task, a recent test or a project idea. The mentor works on it with your child, sees how they think about code, and suggests a course and a plan.</p>
+        <p class="ag-mt-40">For more detail first, <a class="ag-inline-link" href="/how-we-teach">how we teach</a> explains our lessons and <a class="ag-inline-link" href="/courses">all courses</a> lists every syllabus.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20my%20child%20attends%20an%20international%20school%20near%20Munich%20and%20would%20like%20computer%20science%20help%20in%20English.%20Could%20we%20book%20a%20free%20first%20class%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'cmu',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Lessons are live online with mentors in India, in English only. Questions are welcome on WhatsApp, in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_cmu(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">Free, with no card and no contract.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>International pupils</h4><ul><li><a href="/ib-computer-science-tutor-germany">IB Computer Science</a></li><li><a href="/igcse-computer-science-tutor-germany">IGCSE Computer Science</a></li><li><a href="/ap-computer-science-tutor-germany">AP Computer Science</a></li><li><a href="/python-and-dsa-for-international-students-germany">Python and DSA</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-in-german-schools-by-state">Informatik by Land</a></li><li><a href="/student-labs">Student projects</a></li><li><a href="/how-we-teach">How we teach</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>A table is a list of lists</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_cmu = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'coding-for-international-school-students-munich-inline', meta: { name: name, age: age, page: 'coding-for-international-school-students-munich' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
