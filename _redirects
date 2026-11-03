@@ -9190,4 +9190,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /informatik-abitur-hessen /src/pages/informatik-abitur-hessen.html 200
 /informatik-abitur-hessen.md /src/pages/informatik-abitur-hessen.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/informatik-abitur-baden-wuerttemberg /src/pages/informatik-abitur-baden-wuerttemberg.html 200
+/informatik-abitur-baden-wuerttemberg.md /src/pages/informatik-abitur-baden-wuerttemberg.md 200
 /* /src/pages/404.html 404
