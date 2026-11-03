@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Programmieren lernen auf Englisch: live online, mit Mentor</title>
+  <meta name="description" content="Programmieren lernen auf Englisch: Live-Kurse in Python und Java ab 8 Jahren. Warum Englisch hilft, wie viel Schulenglisch reicht, wie man Dokumentation liest.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/programmieren-lernen-auf-englisch">
+  <link rel="alternate" type="text/markdown" href="/src/pages/programmieren-lernen-auf-englisch.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#396106">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/programmieren-lernen-auf-englisch">
+  <meta property="og:title" content="Programmieren lernen auf Englisch: live online, mit Mentor">
+  <meta property="og:description" content="Warum Programmieren auf Englisch leichter wird, als viele denken: wie viel Englisch die Schule bis MSA und Abitur erwartet, wo Englisch beim Coden wirklich zählt, und wie ein englischer Satz aus der Python-Dokumentation einen Fehler erklärt.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Programmieren lernen auf Englisch: live online, mit Mentor">
+  <meta name="twitter:description" content="Programmieren lernen auf Englisch, live online: Dokumentation verstehen, Schulenglisch nutzen, mit festem Mentor.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-pen .ag-hero h1 { letter-spacing: -0.013em; }
+.ag-root.ag-pen .ag-capsule { border-left-width: 4px; border-radius: 0; }
+.ag-root.ag-pen .ag-section-head h2 { max-width: 32ch; }
+.ag-root.ag-pen .ag-table caption { text-align: left; font-weight: 600; }
+.ag-root.ag-pen .ag-code-head b { letter-spacing: 0.01em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/programmieren-lernen-auf-englisch#page","url":"https://learn.modernagecoders.com/programmieren-lernen-auf-englisch","name":"Programmieren lernen auf Englisch","description":"Ein Leitfaden für Schülerinnen und Schüler, Eltern und Erwachsene in Deutschland, die Programmieren auf Englisch lernen möchten: wo Englisch beim Programmieren gebraucht wird, welches Englischniveau die KMK-Bildungsstandards bis zum Ersten Schulabschluss, zum MSA und zum Abitur vorsehen, und wie man die eingebaute englische Dokumentation von Python liest, um einen stillen Fehler zu finden.","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Kurse","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Programmieren auf Englisch","item":"https://learn.modernagecoders.com/programmieren-lernen-auf-englisch"}]},{"@type":"Course","name":"Programmieren lernen auf Englisch","description":"Live-Online-Programmierkurse in ganz Deutschland, ausschließlich auf Englisch: Scratch, Python, Java und Webentwicklung für Kinder ab 8, Jugendliche und Erwachsene, mit Mentoren aus Indien, die Tempo und Aussprache anpassen, in der Gruppe oder im Einzelunterricht.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/programmieren-lernen-auf-englisch"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/programmieren-lernen-auf-englisch"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/programmieren-lernen-auf-englisch"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Findet der Unterricht auf Deutsch statt?","acceptedAnswer":{"@type":"Answer","text":"Nein, nie. Jede Stunde ist live und auf Englisch, mit Mentoren aus Indien, die deutlich sprechen und sich auf Ihr Tempo und Ihre Aussprache einstellen. Darin liegt der Gewinn: Sie lernen Programmieren in der Sprache, in der Python, Java und ihre Fehlermeldungen geschrieben sind, und üben Englisch in jeder Stunde mit."}},{"@type":"Question","name":"Wie gut muss mein Englisch sein?","acceptedAnswer":{"@type":"Answer","text":"Schulenglisch reicht für den Anfang. Nach den KMK-Bildungsstandards sollen Schülerinnen und Schüler bis zum Mittleren Schulabschluss im Wesentlichen das Niveau B1 erreichen; damit kann man Erklärungen folgen und Fragen stellen. Kinder ab 8 starten auch mit weniger, weil der Mentor viel zeigt."}},{"@type":"Question","name":"Gibt es Fehlermeldungen von Python auch auf Deutsch?","acceptedAnswer":{"@type":"Answer","text":"Nein. Python meldet Fehler auf Englisch, auch wenn der Rechner auf Deutsch eingestellt ist; das haben wir für diese Seite mit Python 3.14 geprüft. Die Dokumentation gibt es dagegen teilweise auf Deutsch. Englische Meldungen und Beschreibungen lesen zu können, gehört also ohnehin dazu, und im Kurs üben wir das jede Stunde."}},{"@type":"Question","name":"Ist ein indischer Akzent nicht schwer zu verstehen?","acceptedAnswer":{"@type":"Answer","text":"Selten, und die Mentoren achten darauf. Sie sprechen langsam, wiederholen und schreiben Wörter in den Chat. Die KMK-Standards für das Abitur nennen ausdrücklich Varietäten und Akzente, deren Färbung das Verstehen nicht generell behindert, als Teil dessen, was Lernende verstehen sollen."}},{"@type":"Question","name":"Lernt mein Kind dabei auch besser Englisch?","acceptedAnswer":{"@type":"Answer","text":"Sehr wahrscheinlich übt es mehr, weil es jede Stunde zuhört, fragt und erklärt. Eine Englischnote versprechen wir nicht, und wir korrigieren keine Grammatik, außer Sie wünschen es. Das Ziel ist Verständigung über Code."}},{"@type":"Question","name":"Ab welchem Alter geht das?","acceptedAnswer":{"@type":"Answer","text":"Ab 8 Jahren mit Scratch, ab etwa 10 mit Python. Für Jugendliche gibt es Python, Java und JavaScript, für Erwachsene eigene Kurse bis zur Webentwicklung."}},{"@type":"Question","name":"Hilft das bei Wettbewerben?","acceptedAnswer":{"@type":"Answer","text":"Ja. Beim Bundeswettbewerb Künstliche Intelligenz dürfen Projekte auf Deutsch oder Englisch eingereicht werden. Die Internationale Informatik-Olympiade 2027 findet in Potsdam statt, mit rund 400 Teilnehmenden aus 90 bis 100 Ländern. Mit beiden Wettbewerben sind wir nicht verbunden."}},{"@type":"Question","name":"Kann ich zwischendurch ein deutsches Wort sagen?","acceptedAnswer":{"@type":"Answer","text":"Natürlich. Der Mentor versteht häufige Fachwörter wie Schleife oder Variable und nennt Ihnen das englische Wort dazu. Niemand muss in jeder Minute perfekt Englisch sprechen."}},{"@type":"Question","name":"Wann finden die Stunden statt?","acceptedAnswer":{"@type":"Answer","text":"Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Beginnt Ihre Stunde im Winter um 17:25 Uhr, ist es beim Mentor in Indien 21:55 Uhr."}},{"@type":"Question","name":"Was kostet der Kurs?","acceptedAnswer":{"@type":"Answer","text":"Die Monatsgebühr steht in Euro auf dieser Seite, berechnet nach dem Referenzkurs der EZB. Abgebucht wird in US-Dollar, Ihre Bank rechnet um. Die Probestunde kostet nichts und braucht keine Kreditkarte."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/programmieren-lernen-auf-englisch","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-pen">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Deutschland</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Deutschland</a></li>
+      <li><a href="#wo">Wo Englisch?</a></li>
+      <li><a href="#niveau">Niveau</a></li>
+      <li><a href="#doku">Doku</a></li>
+      <li><a href="#zeiten">Zeiten</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Probestunde</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Startseite</a> / <a href="/courses">Kurse</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Programmieren auf Englisch
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Deutschland &middot; Programmieren &middot; ab 8 Jahren</p>
+        <h1>Programmieren lernen auf Englisch: zwei Fähigkeiten, ein Kurs</h1>
+        <p class="ag-lede">Bei uns lernen Sie oder Ihr Kind Programmieren ausschließlich auf Englisch. Das klingt für manche Familien zuerst nach einer Hürde. Tatsächlich spricht der Computer selbst längst Englisch: Jede Fehlermeldung in Python oder Java kommt auf Englisch, auch auf einem Rechner mit deutscher Spracheinstellung. Diese Seite zeigt, wo Englisch beim Programmieren gebraucht wird, wie viel Schulenglisch dafür reicht und warum ein einziger englischer Satz aus der Dokumentation eine halbe Stunde Fehlersuche spart. Unterricht auf Englisch, mit Mentoren aus Indien.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Kostenlose Probestunde buchen</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Priority Demo buchen</a>
+          <a href="#doku" class="ag-btn ag-btn--ghost">Die Dokumentation lesen</a>
+          <a href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20ich%20m%C3%B6chte%20Programmieren%20auf%20Englisch%20lernen%20(oder%20mein%20Kind).%20Kann%20ich%20eine%20kostenlose%20Probestunde%20buchen%3F" class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pen'});">Per WhatsApp fragen</a>
+        </div>
+        <p class="ag-hero-note">Unterricht auf Englisch, mit Mentoren aus Indien &middot; Live-Unterricht seit 2020 &middot; über 10.000 Lernende weltweit</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">Auf einen Blick</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4,9 von 5 bei 547 Google-Bewertungen
+        </p>
+        <dl>
+          <dt>Unterrichtssprache</dt><dd>Live-Unterricht ausschließlich auf Englisch, im eigenen Tempo; die Mentoren sprechen deutlich und stellen sich auf Tempo und Akzent der Lernenden ein</dd>
+          <dt>Für</dt><dd>Kinder ab 8, Jugendliche, Erwachsene</dd>
+          <dt>Sprachen im Code</dt><dd>Scratch, Python, Java, JavaScript</dd>
+          <dt>Unterrichtssprache</dt><dd>Nur Englisch, klar gesprochen</dd>
+          <dt>Englisch nötig</dt><dd>Schulenglisch genügt für den Anfang</dd>
+          <dt>Gruppe</dt><dd>Fünfzehn bis zwanzig, oder einzeln</dd>
+          <dt>Probestunde</dt><dd>Kostenlos, ohne Karte</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">Kurz gesagt</p>
+      <p>Bei Modern Age Coders lernen Kinder ab 8, Jugendliche und Erwachsene in ganz Deutschland Programmieren live auf Englisch, mit Mentoren aus Indien, die langsam und deutlich sprechen und sich auf Ihr Tempo und Ihre Aussprache einstellen. Wer Python, Java oder Scratch auf Englisch lernt, versteht Befehle, Fehlermeldungen und Dokumentation im Original und übt die Sprache jede Stunde mit. Sie lernen in einer Gruppe von fünfzehn bis zwanzig oder im Einzelunterricht.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Passende Kurse</p>
+      <h2>Drei Kurse, mit denen man auf Englisch programmieren lernt</h2>
+      <p class="ag-lede">Python für Jugendliche, Python für Erwachsene und Java, die Sprache vieler Informatik-Kurse in der Oberstufe.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/python-complete-masterclass-teens">
+        <div class="ag-pick-shot"><img src="/images/python-teens.webp" alt="Kursbild Python für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PEN / 01</p>
+          <h3>Python für Jugendliche</h3>
+          <p>Für 13 bis 18 Jahre. Vom ersten print bis zu eigenen Projekten, mit viel Übung im Lesen von Fehlermeldungen.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+        <div class="ag-pick-shot"><img src="/images/python-college.webp" alt="Kursbild Python Masterclass für Erwachsene" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PEN / 02</p>
+          <h3>Python für Erwachsene</h3>
+          <p>Für Erwachsene ohne Vorkenntnisse. Grundlagen, Dateien, Daten und Automatisierung, live und im eigenen Tempo.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Kursbild Java für Jugendliche" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">PEN / 03</p>
+          <h3>Java für Jugendliche</h3>
+          <p>Für 13 bis 18 Jahre. Klassen, Objekte und Datenstrukturen, wie sie in vielen Ländern im Informatik-Unterricht vorkommen.</p>
+          <span class="ag-pick-go">Zum Lehrplan <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="wo">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Englisch im Alltag des Programmierens</p><h2>Wo braucht man beim Programmieren Englisch?</h2><p class="ag-lede">An mehr Stellen, als man denkt, und an einer Stelle unausweichlich: bei den Meldungen des Computers. Die Tabelle ist unsere Übersicht; die Belege stehen darunter.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Wo Lernende beim Programmieren auf Englisch treffen (unsere Übersicht)</caption><thead><tr><th scope="col">Stelle</th><th scope="col">Gibt es das auf Deutsch?</th><th scope="col">Was das für Lernende heißt</th></tr></thead><tbody><tr><td>Befehle im Code (if, for, return, class)</td><td>Nein</td><td>Wer die Wörter versteht, ahnt, was eine Zeile tut</td></tr><tr><td>Fehlermeldungen von Python und Java</td><td>Nein, auch bei deutscher Spracheinstellung</td><td>Die wichtigste Lesefähigkeit beim Programmieren</td></tr><tr><td>Offizielle Python-Dokumentation</td><td>Teilweise, es gibt eine deutsche Übersetzung</td><td>Neues erscheint zuerst auf Englisch</td></tr><tr><td>Namen von Funktionen in Bibliotheken</td><td>Nein</td><td>split, append, sort lesen sich wie Anweisungen</td></tr><tr><td>Fragen und Antworten in Foren</td><td>Selten</td><td>Die meisten Lösungen stehen auf Englisch im Netz</td></tr><tr><td>Wettbewerbe wie der BWKI</td><td>Ja, beides erlaubt</td><td>Projekte dürfen auf Deutsch oder Englisch eingereicht werden</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Belege: Die englische Fehlermeldung haben wir mit Python 3.14 auch unter deutscher Spracheinstellung (LANG=de_DE.UTF-8) erzeugt. Die deutsche Übersetzung der Python-Dokumentation ist im Build-Verzeichnis der Python-Dokumentation als Sprache "Deutsch" eingetragen; der Prozess für Übersetzungen ist in PEP 545 beschrieben, angelegt am 4. März 2017. BWKI: Teilnahmebedingungen, gelesen am 2. November 2026. Alles Übrige ist unsere Einschätzung.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Warum das ein Vorteil ist</h3><p>Wer im Unterricht von Anfang an Englisch hört, muss später nichts übersetzen. Das Wort "loop" bedeutet im Unterricht dasselbe wie im Code und in der Fehlermeldung. Schülerinnen und Schüler, die auf Deutsch lernen, haben oft zwei Wörter für eine Sache: "Schleife" im Heft und <code>for</code> auf dem Bildschirm.</p>
+<p>Dazu kommt das Englisch selbst. In jeder Stunde erklärt man, fragt nach und beschreibt Probleme in ganzen Sätzen. Das ist Sprechpraxis zu einem Thema, das Lernende wirklich interessiert.</p></div><div><h3>Was es nicht ist</h3><p>Kein Englischkurs mit Programmierteil. Grammatik korrigieren wir nicht, außer jemand wünscht es. Ziel ist, dass Sie verstehen und verstanden werden.</p>
+<p>Und kein Hindernis für Anfänger: Viele Lernende beginnen mit einem Englisch, das sie selbst als "nur Schulenglisch" beschreiben. Die Mentoren sprechen langsamer, wiederholen und schreiben schwierige Wörter in den Chat.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section" id="niveau">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Schulenglisch</p><h2>Reicht Schulenglisch, um auf Englisch programmieren zu lernen?</h2><p class="ag-lede">Für den Anfang ja. Die Bildungsstandards der Kultusministerkonferenz legen fest, welches Englischniveau Schülerinnen und Schüler bis zu ihrem Abschluss erreichen sollen. Gemessen wird nach dem Gemeinsamen europäischen Referenzrahmen (GeR).</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Erwartetes Englischniveau nach Abschluss, KMK-Bildungsstandards</caption><thead><tr><th scope="col">Abschluss</th><th scope="col">Niveau nach GeR</th><th scope="col">Für den Programmierkurs heißt das (unsere Einschätzung)</th></tr></thead><tbody><tr><td>Erster Schulabschluss</td><td>im Wesentlichen A2</td><td>Kurze Anweisungen verstehen, einfache Fragen stellen; der Mentor zeigt viel</td></tr><tr><td>Mittlerer Schulabschluss</td><td>im Wesentlichen B1</td><td>Erklärungen folgen, Probleme beschreiben, Fehlermeldungen mit Hilfe lesen</td></tr><tr><td>Allgemeine Hochschulreife</td><td>B2, in Englisch rezeptiv auch C1</td><td>Dokumentation selbstständig lesen, Lösungen auf Englisch begründen</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Quellen: KMK, Bildungsstandards für die erste Fremdsprache (Englisch/Französisch) für den Ersten Schulabschluss und den Mittleren Schulabschluss, Fassung vom 22.06.2023; KMK, Bildungsstandards für die fortgeführte Fremdsprache (Englisch/Französisch) für die Allgemeine Hochschulreife, Beschluss vom 18.10.2012. Gelesen am 3. November 2026. Mit der KMK sind wir nicht verbunden.</p>
+    <p class="ag-mt-40">Eine Zeile aus den Standards für das Abitur passt besonders gut zu unserem Unterricht. Sprachlicher Orientierungspunkt sind dort neben der Standardsprache auch "Register, Varietäten und Akzente, deren Färbung ein Verstehen nicht generell behindert". Englisch mit einem indischen Akzent zu verstehen, gehört also zu dem, was die Schule am Ende der Oberstufe ohnehin erwartet. Unsere Mentoren kommen Lernenden dabei entgegen: Sie sprechen deutlich, achten auf die Aussprache ihres Gegenübers und wechseln das Tempo, bis es passt.</p>
+    <p>Englisch ist in der Schule kein Randfach. Es gehört zu den Fächern der Vergleichsarbeiten in Klasse 8 (VERA-8), in Nordrhein-Westfalen zu den Zentralen Prüfungen am Ende der Klasse 10, und für das Abitur gibt es seit 2017 einen gemeinsamen Aufgabenpool der Länder. Wer nebenher auf Englisch programmiert, übt also genau die Sprache, die auch in der Schule geprüft wird. Noten in Englisch geben wir nicht; das bleibt Sache der Schule.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="doku">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Eine Lektion aus dem Kurs</p><h2>Warum lohnt es sich, die englische Dokumentation zu lesen?</h2><p class="ag-lede">Weil dort in einem Satz steht, was eine Funktion zurückgibt, und genau das ist die häufigste Ursache für rätselhafte Fehler. Python hat die Dokumentation sogar eingebaut: Jede Funktion trägt eine kurze Beschreibung auf Englisch bei sich. Das Beispiel ist unser eigenes, mit einer Liste von Schulnoten.</p></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Sortieren, zweimal versucht</b><span>Python</span></figcaption><pre>noten = [3, 1, 2, 2, 4]
+
+# Versuch 1: sortieren und das Ergebnis speichern
+sortiert = noten.sort()
+print('Versuch 1:', sortiert)
+
+# Was sagt die Dokumentation?
+print(list.sort.__doc__.splitlines()[0])
+print(sorted.__doc__.splitlines()[0])
+
+# Versuch 2: sorted() gibt eine neue Liste zurück
+noten = [3, 1, 2, 2, 4]
+sortiert = sorted(noten)
+print('Versuch 2:', sortiert, '| Original:', noten)</pre><p class="ag-code-note">Ausgabe unseres Laufs mit Python 3.14, identisch unter deutscher Spracheinstellung:<br><code>Versuch 1: None</code><br><code>Sort the list in ascending order and return None.</code><br><code>Return a new list containing all items from the iterable in ascending order.</code><br><code>Versuch 2: [1, 2, 2, 3, 4] | Original: [3, 1, 2, 2, 4]</code></p></figure>
+    <div class="ag-table-wrap ag-mt-40"><table class="ag-table"><caption>Zwei Sätze aus der eingebauten Dokumentation, Wort für Wort (unsere Übung)</caption><thead><tr><th scope="col">Englisch</th><th scope="col">Was es heißt</th><th scope="col">Was daraus folgt</th></tr></thead><tbody><tr><td><code>Sort the list in ascending order</code></td><td>Sortiert die Liste aufsteigend</td><td>Die Liste selbst wird verändert</td></tr><tr><td><code>and return None.</code></td><td>und gibt None zurück</td><td>In <code>sortiert</code> landet nichts: None</td></tr><tr><td><code>Return a new list</code></td><td>Gibt eine neue Liste zurück</td><td>Das Ergebnis kann man speichern</td></tr><tr><td><code>containing all items from the iterable</code></td><td>mit allen Elementen aus der Eingabe</td><td>Die ursprüngliche Liste bleibt, wie sie war</td></tr><tr><td><code>in ascending order.</code></td><td>in aufsteigender Reihenfolge</td><td>Kleinste Note zuerst</td></tr></tbody></table></div>
+    <p class="ag-mt-40">Versuch 1 sieht vernünftig aus und liefert doch <code>None</code>. Python meldet keinen Fehler, das Programm läuft einfach mit einem leeren Ergebnis weiter, und der Absturz kommt oft erst viele Zeilen später. Die Erklärung steht in einem einzigen englischen Satz: <code>list.sort</code> sortiert die Liste an Ort und Stelle "and return None". Die Funktion <code>sorted</code> dagegen "Return a new list". Wer diese beiden Sätze lesen kann, findet den Fehler in Sekunden statt in einer halben Stunde.</p>
+    <p>Im Unterricht rufen wir solche Beschreibungen mit <code>help(list.sort)</code> oder über <code>__doc__</code> direkt im Programm auf. Die Texte sind kurz, die Wörter wiederholen sich: return, list, new, order, item. Nach einigen Wochen lesen Lernende sie ohne Wörterbuch.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Erst nachlesen, dann aufrufen.</strong> Bei jeder neuen Funktion fragen wir: Was gibt sie zurück? Die Antwort steht fast immer im ersten Satz der Beschreibung.</li><li><strong>Auf "return None" achten.</strong> Funktionen, die etwas verändern, statt etwas Neues zu liefern, sagen das oft genau so. Ihr Ergebnis zu speichern, ist ein klassischer Fehler.</li><li><strong>Das Original prüfen.</strong> Versuch 2 gibt auch die ursprüngliche Liste aus. So sieht man, dass <code>sorted</code> sie unverändert lässt.</li><li><strong>Laut übersetzen.</strong> Lernende übersetzen einen Satz der Dokumentation laut ins Deutsche. Wer ihn übersetzen kann, hat ihn verstanden.</li></ol>
+  </div>
+</section>
+
+<section class="ag-section" id="wer">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Für wen</p><h2>Für wen lohnt sich Programmieren auf Englisch besonders?</h2><p class="ag-lede">Für fast alle, aus unterschiedlichen Gründen. Drei Gruppen fragen uns besonders oft.</p></div>
+    <div class="ag-grid-3"><div><h3>Schülerinnen und Schüler</h3><p>Informatik in der Schule und Englisch als Prüfungsfach üben sich gegenseitig. Wer später an einem Wettbewerb teilnimmt, profitiert doppelt: Beim BWKI dürfen Projekte auf Englisch eingereicht werden, und die Internationale Informatik-Olympiade findet vom 12. bis 19. September 2027 in Potsdam statt, mit erwartet rund 400 Teilnehmenden aus 90 bis 100 Ländern.</p></div><div><h3>Familien, die Englisch sprechen</h3><p>Kinder, die zu Hause oder an einer internationalen Schule Englisch sprechen, lernen in ihrer Unterrichtssprache. Für sie ist ein Kurs auf Englisch oft der natürlichere Weg, auch wenn sie in Deutschland leben.</p></div><div><h3>Erwachsene im Beruf</h3><p>In vielen Teams in Deutschland sind Code, Tickets und Besprechungen ohnehin englisch. Wer Programmieren direkt auf Englisch lernt, muss die Fachsprache nicht ein zweites Mal lernen.</p></div></div>
+    <p class="ag-mt-40">Für jüngere Kinder ab 8 beginnen wir mit Scratch. Die Blöcke dürfen auf Deutsch eingestellt bleiben; der Mentor sagt zu jedem Block das englische Wort, und mit der Zeit wechseln viele Kinder von selbst auf die englische Ansicht.</p>
+    <p>Die IOI und der BWKI sind Wettbewerbe mit eigenen Veranstaltern; wir sind mit ihnen nicht verbunden, und die Anmeldung läuft dort.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="zeiten">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Unterrichtszeiten</p><h2>Wann finden die Kurse auf Englisch statt?</h2><p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Drei Beispieltermine, deutsche und indische Uhrzeit</caption><thead><tr><th scope="col">Deutsche Zeit</th><th scope="col">Indische Zeit, Winter</th><th scope="col">Indische Zeit, ab 28. März 2027</th></tr></thead><tbody><tr><td>15:50</td><td>20:20</td><td>19:20</td></tr><tr><td>17:25</td><td>21:55</td><td>20:55</td></tr><tr><td>Samstag 12:00</td><td>16:30</td><td>15:30</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Rechtliche Grundlage ist das Einheiten- und Zeitgesetz: in Deutschland MEZ (UTC+1), im Sommer MESZ (UTC+2). Die Sommerzeit ist am 25. Oktober 2026 zu Ende gegangen und startet am 28. März 2027 neu. In Indien gilt durchgehend UTC+5:30, viereinhalb Stunden vor Deutschland im Winter und dreieinhalb im Sommer. Die Termine sind Beispiele.</p>
+    <p class="ag-mt-40">Erwachsene wählen häufig den Samstag oder einen Einzeltermin; Schülerinnen und Schüler eher den Nachmittag. Bei der Buchung sehen Sie die Zeiten nach der Uhr Ihres Geräts.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fortschritt</p>
+      <h2>Woran man merkt, dass Englisch und Code zusammenwachsen</h2>
+      <p class="ag-lede">Fünf Stufen aus unserem Unterricht. Sie messen nicht das Englisch, sondern das Programmieren auf Englisch.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Fünf Stufen beim Programmieren auf Englisch (unsere)</caption><thead><tr><th scope="col">Stufe</th><th scope="col">Woran man sie erkennt</th><th scope="col">Typisch nach</th></tr></thead><tbody><tr><td>1. Zuhören</td><td class="ag-num">Anweisungen des Mentors folgen, mit Zeigen und Wiederholen</td><td class="ag-num">den ersten Stunden</td></tr><tr><td>2. Benennen</td><td class="ag-num">Begriffe wie loop, variable und function selbst verwenden</td><td class="ag-num">einigen Wochen</td></tr><tr><td>3. Lesen</td><td class="ag-num">den ersten Satz einer Funktionsbeschreibung ohne Hilfe verstehen</td><td class="ag-num">zwei bis drei Monaten</td></tr><tr><td>4. Fragen</td><td class="ag-num">ein Problem auf Englisch so beschreiben, dass andere helfen können</td><td class="ag-num">etwa einem halben Jahr</td></tr><tr><td>5. Nachschlagen</td><td class="ag-num">Dokumentation auf Englisch lesen und das Gelesene anwenden</td><td class="ag-num">etwa einem Jahr</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>Für Lernende</h3><p>Lesen Sie bei jeder neuen Funktion den ersten Satz ihrer Beschreibung laut. Wer ihn ausspricht, liest ihn wirklich.</p>
+<p>Notieren Sie neue Wörter mit dem Codebeispiel, in dem sie vorkamen, nicht als Vokabelliste.</p></div><div><h3>Für Eltern</h3><p>Fragen Sie Ihr Kind, was die zuletzt gelesene Funktion zurückgibt. Die Antwort zeigt Englisch und Programmieren zugleich.</p>
+<p>Wir melden uns regelmäßig mit ein paar Sätzen zum Stand.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weitere Kurse</p>
+      <h2>Neun weitere Kurse, alle auf Englisch</h2>
+      <p class="ag-lede">Live, mit festem Mentor, in der Gruppe oder einzeln, vom ersten Block bis zur Webanwendung.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>Kinder</h3>
+        <span class="ag-band-sub">8 bis 12 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / KIDS / 01</p>
+          <h4>Scratch</h4>
+          <p>Blöcke statt Tippen, mit englischen Begriffen dazu.</p>
+          <a class="ag-course-link" href="/courses/scratch-programming-complete-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / KIDS / 02</p>
+          <h4>Python für Kinder</h4>
+          <p>Die ersten getippten Programme, mit Grafik und Spielen.</p>
+          <a class="ag-course-link" href="/courses/python-ai-kids-masterclass">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / KIDS / 03</p>
+          <h4>Blöcke, Spiele, Apps</h4>
+          <p>Breiter Einstieg in mehrere Werkzeuge.</p>
+          <a class="ag-course-link" href="/courses/kids-coding-blocks-masterclass">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Jugendliche</h3>
+        <span class="ag-band-sub">13 bis 18 Jahre</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / TEEN / 01</p>
+          <h4>JavaScript</h4>
+          <p>Webseiten, die auf Klicks reagieren.</p>
+          <a class="ag-course-link" href="/courses/javascript-course-for-teens-beginners-interactive-web">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / TEEN / 02</p>
+          <h4>Git und GitHub</h4>
+          <p>Versionen verwalten, wie es Teams weltweit tun.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-teens">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / TEEN / 03</p>
+          <h4>Algorithmen</h4>
+          <p>Datenstrukturen und Problemlösen mit System.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Schule und Beruf</h3>
+        <span class="ag-band-sub">ab 15 Jahren</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / NEXT / 01</p>
+          <h4>Informatik Abitur</h4>
+          <p>Oberstufe und Prüfung mit Java oder Python.</p>
+          <a class="ag-course-link" href="/courses/informatik-abitur-course-java-python">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / NEXT / 02</p>
+          <h4>IB Computer Science</h4>
+          <p>Für internationale Schulen in Deutschland.</p>
+          <a class="ag-course-link" href="/courses/ib-diploma-computer-science-course">Zum Lehrplan</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">PEN / NEXT / 03</p>
+          <h4>Full Stack für Erwachsene</h4>
+          <p>React und Node.js bis zur eigenen Anwendung.</p>
+          <a class="ag-course-link" href="/courses/full-stack-web-development-masterclass-college">Zum Lehrplan</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Ablauf</p>
+      <h2>Wie der Unterricht auf Englisch funktioniert</h2>
+      <p class="ag-lede">Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">Nachmittag</p><p class="ag-slot-l">Für Schülerinnen und Schüler, etwa ab 15:50 Uhr.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Samstag</p><p class="ag-slot-l">Mittags, beliebt bei Erwachsenen.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Einzeln</p><p class="ag-slot-l">Zu vereinbarten Zeiten, auch abends.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Langsam und deutlich</h3><p>Die Mentoren passen Tempo und Wortwahl an, ohne den Inhalt zu vereinfachen.</p></div>
+      <div><h3>Wörter im Chat</h3><p>Neue Begriffe stehen sofort geschrieben da, mit einem Codebeispiel.</p></div>
+      <div><h3>Doku gemeinsam lesen</h3><p>Bei jeder neuen Funktion lesen wir ihre englische Beschreibung zusammen.</p></div>
+      <div><h3>Fragen erlaubt</h3><p>Auch ein deutsches Wort zwischendurch ist in Ordnung; der Mentor nennt das englische.</p></div>
+      <div><h3>Ein fester Mentor</h3><p>Dieselbe Person, die sich an Ihre Aussprache gewöhnt.</p></div>
+      <div><h3>Gruppe oder einzeln</h3><p>Fünfzehn bis zwanzig Lernende oder Unterricht nur für Sie.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Projekte unserer Lernenden</p>
+      <h2>Projekte, die auf Englisch entstanden sind</h2>
+      <p class="ag-lede">Arbeiten unserer Lernenden aus vielen Ländern; mehr davon auf <a class="ag-inline-link" href="/student-labs">Student labs</a> (englischsprachig).</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="Screenshot des Projekts NutriLife, ein KI-Ernährungscoach" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>NutriLife</h4>
+          <p>Ein KI-Ernährungscoach, der Mahlzeiten auswertet und Schritt für Schritt auf ein Ziel hinarbeitet.</p>
+          <p class="ag-proj-meta">von Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Screenshot von Misti, ein KI-Chatbot für Mathematik und Programmieren" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>Misti</h4>
+          <p>Ein Chatbot, der Fragen zu Mathematik und Programmierung beantwortet, von einem Schüler gebaut und veröffentlicht.</p>
+          <p class="ag-proj-meta">von Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="Screenshot von GuardianX, ein KI-Assistent für Sicherheit im Internet" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">KI und ML</p>
+          <h4>GuardianX</h4>
+          <p>Ein Assistent, der jungen Menschen hilft, unsichere Situationen im Internet zu erkennen.</p>
+          <p class="ag-proj-meta">von Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Öffnen</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="Screenshot der Wetter-App SkyCast" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web-App</p>
+          <h4>SkyCast</h4>
+          <p>Eine Wetter-Website mit aktuellen Bedingungen für jeden Ort.</p>
+          <p class="ag-proj-meta">von Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Preise</p>
+      <h2>Preise für Kurse auf Englisch</h2>
+      <p class="ag-lede">Ein Monat bringt acht Live-Stunden. Wir zeigen den Betrag in Euro, umgerechnet mit dem Referenzkurs der Europäischen Zentralbank. Bezahlt wird in US-Dollar, und den Tausch in Euro macht Ihre Bank; um ein paar Cent kann der Betrag deshalb abweichen.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Kostenlose Probestunde</p>
+        <p class="ag-price-amt">Kostenlos</p>
+        <p class="ag-price-alt">keine Karte nötig</p>
+        <ul><li>Eine kostenlose Probestunde</li><li>Ein kurzes Gespräch über Ziele und Englisch</li><li>Ohne Kreditkarte</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Buchen</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Gruppenkurs</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group" data-price-format="suffix">90 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Fünfzehn bis zwanzig Lernende</li><li>Ein fester Mentor</li><li>Zwei Stunden pro Woche</li><li>Monatlich zahlbar und kündbar</li></ul>
+        <a href="#start" class="ag-btn">Hier starten</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">Einzelunterricht</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal" data-price-format="suffix">134 €</span></p>
+        <p class="ag-price-alt">pro Monat, acht Live-Stunden<span data-intl-only="true" hidden>, abgerechnet in US-Dollar</span></p>
+        <ul><li>Nur Sie und der Mentor</li><li>Tempo und Sprache ganz nach Ihnen</li><li>Termine nach Absprache</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Was Familien sagen</p>
+      <h2>4,9 von 5 bei 547 Google-Bewertungen</h2>
+      <p class="ag-lede">Google-Rezensionen unserer Familien und Lernenden, unübersetzt.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Häufige Fragen</p>
+      <h2>Programmieren lernen auf Englisch: häufige Fragen</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Findet der Unterricht auf Deutsch statt?</h3>
+        <p>Nein, nie. Jede Stunde ist live und auf Englisch, mit Mentoren aus Indien, die deutlich sprechen und sich auf Ihr Tempo und Ihre Aussprache einstellen. Darin liegt der Gewinn: Sie lernen Programmieren in der Sprache, in der Python, Java und ihre Fehlermeldungen geschrieben sind, und üben Englisch in jeder Stunde mit.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wie gut muss mein Englisch sein?</h3>
+        <p>Schulenglisch reicht für den Anfang. Nach den KMK-Bildungsstandards sollen Schülerinnen und Schüler bis zum Mittleren Schulabschluss im Wesentlichen das Niveau B1 erreichen; damit kann man Erklärungen folgen und Fragen stellen. Kinder ab 8 starten auch mit weniger, weil der Mentor viel zeigt.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Gibt es Fehlermeldungen von Python auch auf Deutsch?</h3>
+        <p>Nein. Python meldet Fehler auf Englisch, auch wenn der Rechner auf Deutsch eingestellt ist; das haben wir für diese Seite mit Python 3.14 geprüft. Die Dokumentation gibt es dagegen teilweise auf Deutsch. Englische Meldungen und Beschreibungen lesen zu können, gehört also ohnehin dazu, und im Kurs üben wir das jede Stunde.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ist ein indischer Akzent nicht schwer zu verstehen?</h3>
+        <p>Selten, und die Mentoren achten darauf. Sie sprechen langsam, wiederholen und schreiben Wörter in den Chat. Die KMK-Standards für das Abitur nennen ausdrücklich Varietäten und Akzente, deren Färbung das Verstehen nicht generell behindert, als Teil dessen, was Lernende verstehen sollen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Lernt mein Kind dabei auch besser Englisch?</h3>
+        <p>Sehr wahrscheinlich übt es mehr, weil es jede Stunde zuhört, fragt und erklärt. Eine Englischnote versprechen wir nicht, und wir korrigieren keine Grammatik, außer Sie wünschen es. Das Ziel ist Verständigung über Code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Ab welchem Alter geht das?</h3>
+        <p>Ab 8 Jahren mit Scratch, ab etwa 10 mit Python. Für Jugendliche gibt es Python, Java und JavaScript, für Erwachsene eigene Kurse bis zur Webentwicklung.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Hilft das bei Wettbewerben?</h3>
+        <p>Ja. Beim Bundeswettbewerb Künstliche Intelligenz dürfen Projekte auf Deutsch oder Englisch eingereicht werden. Die Internationale Informatik-Olympiade 2027 findet in Potsdam statt, mit rund 400 Teilnehmenden aus 90 bis 100 Ländern. Mit beiden Wettbewerben sind wir nicht verbunden.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Kann ich zwischendurch ein deutsches Wort sagen?</h3>
+        <p>Natürlich. Der Mentor versteht häufige Fachwörter wie Schleife oder Variable und nennt Ihnen das englische Wort dazu. Niemand muss in jeder Minute perfekt Englisch sprechen.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Wann finden die Stunden statt?</h3>
+        <p>Unter der Woche oder am Wochenende, flexibel: Wählen Sie eine Gruppe, oder für einen ganz persönlichen Plan den Einzelunterricht zu einer Zeit, die Ihrer Familie passt, am Wochenendvormittag oder an Nachmittagen unter der Woche. Beginnt Ihre Stunde im Winter um 17:25 Uhr, ist es beim Mentor in Indien 21:55 Uhr.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Was kostet der Kurs?</h3>
+        <p>Die Monatsgebühr steht in Euro auf dieser Seite, berechnet nach dem Referenzkurs der EZB. Abgebucht wird in US-Dollar, Ihre Bank rechnet um. Die Probestunde kostet nichts und braucht keine Kreditkarte.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Weiterlesen</p>
+      <h2>Weitere Seiten zum Lernen auf Englisch</h2>
+      <p class="ag-lede">Meist in englischer Sprache.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>Unser Überblick für Deutschland.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>Schulinformatik von Klasse 5 bis zum Abitur.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-computer-science-in-english">Abitur computer science in English</a></h3><p>Informatik-Abitur, englisch erklärt.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ib-computer-science-tutor-germany">IB computer science tutor Germany</a></h3><p>Für Lernende an internationalen Schulen.</p></div>
+      <div><h3><a class="ag-inline-link" href="/learn-to-think-not-copy-ai-germany">Learn to think, not copy AI</a></h3><p>Eigenes Denken vor fertigen Antworten.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>Wie unser Live-Unterricht abläuft.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Jetzt starten</p>
+        <h2>Probestunde auf Englisch ausprobieren</h2>
+        <p class="ag-lede">Ob Ihr Englisch reicht, zeigt am ehesten eine echte Stunde. In der kostenlosen Probestunde schreibt der Mentor mit Ihnen ein kleines Programm und liest mit Ihnen die englische Beschreibung einer Funktion, die darin vorkommt. Danach wissen Sie, wie gut Sie mitkommen.</p>
+        <p class="ag-mt-40">Vorab: <a class="ag-inline-link" href="/how-we-teach">How we teach</a> zeigt den Ablauf, <a class="ag-inline-link" href="/courses">All courses</a> alle Lehrpläne, beides in englischer Sprache.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hallo%20Modern%20Age%20Coders%2C%20ich%20m%C3%B6chte%20Programmieren%20auf%20Englisch%20lernen%20(oder%20mein%20Kind).%20Kann%20ich%20eine%20kostenlose%20Probestunde%20buchen%3F" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'pen',pos:'end'});">Per WhatsApp schreiben</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Unterricht live, nur auf Englisch, mit Mentoren aus Indien. Auf WhatsApp antworten wir in der Regel zuerst.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_pen(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Ihr Name</label>
+            <input id="de-name" type="text" name="name" placeholder="Name von Elternteil oder Lernendem" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Telefon oder WhatsApp, Deutschland +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Altersgruppe</label>
+            <select id="de-age" name="age"><option value="6-12">Kind, 6 bis 12</option><option value="13-18">Jugendliche, 13 bis 18</option><option value="college">Studierende</option><option value="adult">Berufstätige</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Kostenlose Probestunde anfragen</button>
+          <p class="ag-form-note">Kostenlos, ohne Kreditkarte, ohne Vertrag.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Lieber früher starten? Priority Demo buchen</h3><p>Eine Priority Demo ist eine vollständige Unterrichtsstunde von etwa 45 bis 60 Minuten. Danach schickt der Mentor per WhatsApp einen schriftlichen Kompetenzbericht und einen persönlichen Lernplan. Wenn Sie sich anmelden, wird die Demo-Gebühr mit der ersten Monatsgebühr verrechnet: Schicken Sie uns dazu die Bestellnummer der Demo per WhatsApp.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Priority Demo buchen</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live-Online-Unterricht in Programmieren, KI und Mathematik für Menschen von 6 bis 67 Jahren. Wir unterrichten seit 2020, mehr als
+          10.000 Lernende in 25 Ländern.
+        </p>
+      </div>
+      <div><h4>Auf Englisch lernen</h4><ul><li><a href="/courses/python-complete-masterclass-teens">Python für Jugendliche</a></li><li><a href="/courses/python-programming-masterclass-zero-to-advanced-college">Python für Erwachsene</a></li><li><a href="/courses/java-programming-masterclass-for-teens">Java für Jugendliche</a></li><li><a href="/courses">Alle Kurse</a></li></ul></div>
+      <div><h4>Deutschland</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/ib-computer-science-tutor-germany">IB Computer Science</a></li><li><a href="/student-labs">Projekte</a></li></ul></div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="/about">Über uns</a></li>
+          <li><a href="/how-we-teach">So unterrichten wir</a></li>
+          <li><a href="/love">Bewertungen</a></li>
+          <li><a href="/contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live-Online-Unterricht weltweit.</span>
+      <span>Erst nachlesen, dann aufrufen</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Probestunde</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority Demo</a><a href="tel:+919123366161" aria-label="Anrufen +91 91233 66161">Anrufen</a></div>
+
+<script>
+window.submitLead_pen = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Bitte geben Sie eine gültige deutsche Telefonnummer ein.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Wird gesendet...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'programmieren-lernen-auf-englisch-inline', meta: { name: name, age: age, page: 'programmieren-lernen-auf-englisch' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Vielen Dank' + (name ? ', ' + name.split(' ')[0] : '') + '. Ein Mentor ruft Sie in Kürze an.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Netzwerkfehler. Bitte versuchen Sie es erneut.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
