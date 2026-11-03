@@ -863,6 +863,7 @@ const SLUGS = [
   'math-tutor-frankfurt-in-english',
   'coding-for-international-school-students-frankfurt',
   'programmieren-lernen-kinder-frankfurt',
+  'coding-classes-for-kids-dusseldorf',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1805,6 +1806,7 @@ const LLMS_LABELS = {
   'math-tutor-frankfurt-in-english': 'Maths tutor in Frankfurt, in English',
   'coding-for-international-school-students-frankfurt': 'Coding for international school students in Frankfurt',
   'programmieren-lernen-kinder-frankfurt': 'Programmieren lernen für Kinder in Frankfurt (auf Englisch)',
+  'coding-classes-for-kids-dusseldorf': 'Coding classes for kids in Düsseldorf',
 };
 
 function wireLlms(slugs) {
