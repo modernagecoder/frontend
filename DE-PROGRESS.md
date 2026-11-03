@@ -72,7 +72,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE067 | spiele-programmieren-lernen-kinder (spl, #892A2A) | door-de (de) | 3,737 | 2% vs roblox-programmieren-lernen-kinder | Spiele programmieren lernen: Kurs für Kinder von 6 bis 12 | two rectangles touch only if they overlap on both axes (axis-aligned collision) | f97a9885 |
 | DE079 | programmieren-lernen-auf-englisch (pen, #396106) | door-de (de) | 3,454 | 2.1% vs roblox-programmieren-lernen-kinder | Programmieren lernen auf Englisch: live online, mit Mentor | read the docs first: what does the function return? (in-place methods return None) | bd24500c |
 | DE078 | nachhilfe-auf-englisch-online (nen, #7E5104) | door-de (de) | 3,236 | 2.5% vs programmieren-lernen-auf-englisch | Nachhilfe auf Englisch online: Mathe und Informatik, live | significant figures are not decimal places; count from the first non-zero digit | 99485ab5 |
-| DE083 | informatik-abitur-nrw (ian, #365469) | door-de (de) | 3,863 | 1.9% vs informatik-nachhilfe-online | Informatik-Abitur NRW 2027: Vorgaben, Termin, Übung in Java | a stack reverses, a queue keeps order; write down both containers after every step | (this commit) |
+| DE083 | informatik-abitur-nrw (ian, #365469) | door-de (de) | 3,863 | 1.9% vs informatik-nachhilfe-online | Informatik-Abitur NRW 2027: Vorgaben, Termin, Übung in Java | a stack reverses, a queue keeps order; write down both containers after every step | e92caa00 |
+| DE084 | informatik-abitur-bayern (iab, #5A5587) | door-de (de) | 3,789 | 1.9% vs programmieren-fuer-kinder-ab-8 | Informatik-Abitur Bayern 2027: G9-Prüfung, Termine, KI-Übung | a truth table is a complete test suite; one neuron draws one straight line (XOR fails), and the boundary | (this commit) |
 
 ## Notes
 

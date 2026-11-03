@@ -9178,4 +9178,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /informatik-abitur-nrw /src/pages/informatik-abitur-nrw.html 200
 /informatik-abitur-nrw.md /src/pages/informatik-abitur-nrw.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/informatik-abitur-bayern /src/pages/informatik-abitur-bayern.html 200
+/informatik-abitur-bayern.md /src/pages/informatik-abitur-bayern.md 200
 /* /src/pages/404.html 404
