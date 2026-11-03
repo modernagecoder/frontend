@@ -893,6 +893,7 @@ const SLUGS = [
   'coding-classes-for-kids-in-ingolstadt-germany',
   'coding-and-ai-classes-in-pforzheim-germany',
   'online-python-classes-wuerzburg-germany',
+  'coding-classes-for-kids-in-offenbach-am-main-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1865,6 +1866,7 @@ const LLMS_LABELS = {
   'coding-classes-for-kids-in-ingolstadt-germany': 'Coding classes for kids in Ingolstadt',
   'coding-and-ai-classes-in-pforzheim-germany': 'Coding and AI classes in Pforzheim',
   'online-python-classes-wuerzburg-germany': 'Online Python classes in Würzburg',
+  'coding-classes-for-kids-in-offenbach-am-main-germany': 'Coding classes for kids in Offenbach am Main',
 };
 
 function wireLlms(slugs) {

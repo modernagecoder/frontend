@@ -165,7 +165,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE180 | online-python-classes-regensburg-germany (pyr, #695E7D) | city-t2 (en) | 3,841 | 2.1% vs online-python-classes-herne-germany | Online Python Classes in Regensburg: Live, in English | join two lists of places by distance with a stated tolerance, not by their text, and inspect the | 002fcefb |
 | DE181 | coding-classes-for-kids-in-ingolstadt-germany (ing, #3E3B59) | city-t2 (en) | 3,839 | 2.4% vs coding-classes-for-kids-in-heidelberg-germany | Coding Classes for Kids in Ingolstadt: Live in English | a difference can change sign; split a comparison by time of day before you sum it up in one number | 2baea46e |
 | DE182 | coding-and-ai-classes-in-pforzheim-germany (cpf, #2D3361) | city-t2 (en) | 3,947 | 2.1% vs coding-classes-for-kids-in-karlsruhe-germany | Coding and AI Classes in Pforzheim: Live Online, in English | a fitted line is only safe inside the range it learned from; outside it, it can predict the impossible | 5472988f |
-| DE183 | online-python-classes-wuerzburg-germany (pwu, #2E3B56) | city-t2 (en) | 3,679 | 1.9% vs coding-classes-in-bavaria | Online Python Classes in Würzburg: Live Lessons in English | read how each category is defined before you rank by it; an absolute rule (two spaces left) and a | (this commit) |
+| DE183 | online-python-classes-wuerzburg-germany (pwu, #2E3B56) | city-t2 (en) | 3,679 | 1.9% vs coding-classes-in-bavaria | Online Python Classes in Würzburg: Live Lessons in English | read how each category is defined before you rank by it; an absolute rule (two spaces left) and a | 598bb3c1 |
+| DE184 | coding-classes-for-kids-in-offenbach-am-main-germany (cko, #373450) | city-t2 (en) | 3,978 | 1.9% vs coding-classes-for-kids-frankfurt | Coding Classes for Kids in Offenbach am Main: Live in English | compare dates from different years by their place in the year (month and day), after removing the | (this commit) |
 
 ## Notes
 

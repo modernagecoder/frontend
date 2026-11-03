@@ -31033,6 +31033,18 @@
   to = "/src/pages/online-python-classes-wuerzburg-germany.md"
   status = 200
 
+# Global Build-AI cluster (ai-global.css). Must precede the /* catch-all.
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-offenbach-am-main-germany"
+  to = "/src/pages/coding-classes-for-kids-in-offenbach-am-main-germany.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-offenbach-am-main-germany.md"
+  to = "/src/pages/coding-classes-for-kids-in-offenbach-am-main-germany.md"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/src/pages/404.html"
