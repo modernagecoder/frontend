@@ -57,7 +57,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE016 | coding-classes-for-adults-germany (ada, #1A6462) | door-en (en) | 3,727 | 1.7% vs ap-computer-science-tutor-germany | Online Coding Classes for Adults in Germany, in English | a flattened multi-dimensional index (JSON-stat): the order keys appear in is not the order of the data | 412604cd |
 | DE037 | online-coding-course-for-career-changers-germany (cch, #0B5B61) | door-en (en) | 3,910 | 2% vs minecraft-coding-classes-germany | Online Coding Course for Career Changers in Germany | choosing test data that breaks your code: identifiers with a leading zero are text, not numbers | 9a4e4436 |
 | DE036 | learn-coding-in-english-germany (lce, #684256) | door-en (en) | 3,962 | 2.2% vs coding-classes-for-teens-germany | Learn Coding in English in Germany: Live Online Classes | tokens: the keywords are fixed English words, the names are the programmer's own (keyword vs identifier) | c69d45a8 |
-| DE028 | python-course-germany (pco, #185D6D) | door-en (en) | 3,441 | 2.6% vs coding-classes-for-teens-germany | Python Course in Germany: Live Online Classes in English | version numbers are not decimals or text: compare them as tuples of integers (sort keys) | (this commit) |
+| DE028 | python-course-germany (pco, #185D6D) | door-en (en) | 3,441 | 2.6% vs coding-classes-for-teens-germany | Python Course in Germany: Live Online Classes in English | version numbers are not decimals or text: compare them as tuples of integers (sort keys) | 46121251 |
+| DE038 | java-classes-germany (jav, #3F467C) | door-en (en) | 3,872 | 2.8% vs python-course-germany | Java Classes in Germany: Live Online, Taught in English | the shape of a binary search tree depends on insertion order (degenerate against balanced trees) | (this commit) |
 
 ## Notes
 

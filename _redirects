@@ -9118,4 +9118,8 @@
 # Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
 /python-course-germany /src/pages/python-course-germany.html 200
 /python-course-germany.md /src/pages/python-course-germany.md 200
+
+# Global Build-AI cluster (ai-global.css). Inserted before the /* catch-all.
+/java-classes-germany /src/pages/java-classes-germany.html 200
+/java-classes-germany.md /src/pages/java-classes-germany.md 200
 /* /src/pages/404.html 404

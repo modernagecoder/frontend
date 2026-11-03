@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en-DE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Java Classes in Germany: Live Online, Taught in English</title>
+  <meta name="description" content="Live online Java classes in English for learners in Germany: Java for Oberstufe Informatik and the NRW Abitur, data structures, SQL, and Java for adults at work.">
+  <meta name="author" content="Modern Age Coders">
+  <link rel="canonical" href="https://learn.modernagecoders.com/java-classes-germany">
+  <link rel="alternate" type="text/markdown" href="/src/pages/java-classes-germany.md" title="Markdown version for AI agents">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#3F467C">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learn.modernagecoders.com/java-classes-germany">
+  <meta property="og:title" content="Java Classes in Germany: Live Online, Taught in English">
+  <meta property="og:description" content="Java taught live in English for pupils and adults in Germany: what the 2027 NRW Informatik Abitur asks in Java, the classes it names, and a Java project on a search tree of the 16 Länder.">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta property="og:site_name" content="Modern Age Coders">
+  <meta property="og:locale" content="en_DE">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Java Classes in Germany: Live Online, Taught in English">
+  <meta name="twitter:description" content="Live Java classes in English for Oberstufe pupils and adults in Germany, with one mentor.">
+  <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="geo.region" content="DE">
+  <meta name="geo.placename" content="Germany">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/ai-global.css?v=20260907">
+  <style>
+.ag-root.ag-jav .ag-hero h1 { letter-spacing: -0.015em; }
+.ag-root.ag-jav .ag-capsule { border-left-width: 5px; }
+.ag-root.ag-jav .ag-section-head h2 { max-width: 31ch; }
+.ag-root.ag-jav .ag-table td:first-child { font-weight: 600; }
+.ag-root.ag-jav .ag-code-head b { letter-spacing: 0.05em; }
+  </style>
+
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');gtag('config','AW-16910316353');</script>
+
+  <script type="application/ld+json" data-price-scope="coding.germany">
+  {"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","@id":"https://learn.modernagecoders.com/#org","name":"Modern Age Coders","url":"https://learn.modernagecoders.com","logo":"https://learn.modernagecoders.com/images/logo.svg","foundingDate":"2020","areaServed":{"@type":"Country","name":"Germany"},"knowsAbout":["Python","Machine Learning","AI Agents","Deep Learning","Data Science","Generative AI","Large Language Models","Model Evaluation","Git and GitHub","Statistics"]},{"@type":"WebPage","@id":"https://learn.modernagecoders.com/java-classes-germany#page","url":"https://learn.modernagecoders.com/java-classes-germany","name":"Java Classes in Germany","description":"A guide to learning Java from Germany: the 2027 Zentralabitur Informatik in Nordrhein-Westfalen and the Java classes and SQL it requires, exam lengths and rules, what a Java course covers for teenagers and adults, and an original Java project showing why the insertion order changes the shape of a binary search tree.","inLanguage":"en-DE","isPartOf":{"@type":"WebSite","url":"https://learn.modernagecoders.com","name":"Modern Age Coders"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com/"},{"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},{"@type":"ListItem","position":3,"name":"Coding classes in Germany","item":"https://learn.modernagecoders.com/coding-classes-in-germany"},{"@type":"ListItem","position":4,"name":"Java classes","item":"https://learn.modernagecoders.com/java-classes-germany"}]},{"@type":"Course","name":"Java Classes in Germany","description":"Live online Java classes in English for learners in Germany: Java from the first class to objects, data structures, databases and SQL, for Oberstufe Informatik or for work, in a group of fifteen to twenty or one to one, with one regular mentor.","provider":{"@id":"https://learn.modernagecoders.com/#org"},"inLanguage":"en","educationalCredentialAwarded":"Modern Age Coders certificate of completion","audience":{"@type":"EducationalAudience","educationalRole":"student"},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"online","courseWorkload":"PT1H30M","location":{"@type":"VirtualLocation","url":"https://learn.modernagecoders.com/java-classes-germany"},"instructor":{"@type":"Organization","name":"Modern Age Coders"}},"offers":[{"@type":"Offer","name":"Group batch","price":"90","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-classes-germany"},{"@type":"Offer","name":"One to one","price":"134","priceCurrency":"EUR","category":"Monthly","availability":"https://schema.org/InStock","url":"https://learn.modernagecoders.com/java-classes-germany"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are the classes in German?","acceptedAnswer":{"@type":"Answer","text":"No. Java classes are live and in English only, with a mentor who matches your pace and accent. Java's 51 reserved keywords are English words, so the language of the class is the language of the code."}},{"@type":"Question","name":"Does the NRW Abitur use Java?","acceptedAnswer":{"@type":"Answer","text":"Yes. The NRW Ministry of Schools names Java, together with SQL, as the language for the 2027 written Informatik Abitur, and lists classes such as Stack, Queue, List, BinaryTree and BinarySearchTree."}},{"@type":"Question","name":"Is the Informatik Abitur written on a computer?","acceptedAnswer":{"@type":"Answer","text":"Not in NRW. The 2027 requirements say that no computer is used for the written tasks. The working time is 225 minutes in the Grundkurs and 270 minutes in the Leistungskurs."}},{"@type":"Question","name":"My Land is not NRW. Will Java still help?","acceptedAnswer":{"@type":"Answer","text":"Very likely, since the ideas of objects, data structures and algorithms carry across languages. Check with the school which language its course uses; our Abitur course covers Java and Python."}},{"@type":"Question","name":"Should a beginner learn Java or Python first?","acceptedAnswer":{"@type":"Answer","text":"Python is gentler for most beginners. A pupil whose school uses Java, or an adult who needs it at work, can start with Java directly; the free first class helps decide."}},{"@type":"Question","name":"Will you help with Informatik homework and Klausuren?","acceptedAnswer":{"@type":"Answer","text":"We follow the school topics when a pupil asks, and practise tracing and writing Java on paper. We teach alongside school and award no grades; the school course is the one that counts."}},{"@type":"Question","name":"Do you teach the classes named in the Abitur requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. Pupils first write simple versions of Stack, Queue, List and the trees themselves, then use the versions their school works with. We do not reproduce the ministry's materials or exam tasks."}},{"@type":"Question","name":"When are classes in German time?","acceptedAnswer":{"@type":"Answer","text":"Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Oberstufe pupils usually come after school and adults in the early evening."}},{"@type":"Question","name":"How do I pay from Germany?","acceptedAnswer":{"@type":"Answer","text":"The fee is shown in euro at the European Central Bank reference rate and paid in US dollars, which your bank converts. The first class is free."}},{"@type":"Question","name":"Is it a group class or one to one?","acceptedAnswer":{"@type":"Answer","text":"Either. A group has fifteen to twenty learners at a similar level; one-to-one classes follow one learner's plan."}}]}]}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Service","serviceType":"Online Python, AI and machine learning teaching for students","provider":{"@type":"EducationalOrganization","name":"Modern Age Coders","url":"https://learn.modernagecoders.com/"},"areaServed":{"@type":"Country","name":"Germany"},"availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://learn.modernagecoders.com/java-classes-germany","availableLanguage":["en"]}}
+  </script>
+    <meta name="mac-lead-country" content="DE">
+</head>
+
+<body class="ag-root ag-jav">
+
+<nav class="ag-nav" aria-label="Primary">
+  <div class="ag-nav-inner">
+    <a href="/" class="ag-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30" fetchpriority="high">
+      Modern Age Coders
+      <span class="ag-brand-tag">Germany</span>
+    </a>
+    <ul class="ag-nav-links">
+      <li><a href="/coding-classes-in-germany">Germany</a></li>
+      <li><a href="#abitur">Abitur</a></li>
+      <li><a href="#structures">Structures</a></li>
+      <li><a href="#project">Tree</a></li>
+      <li><a href="#adults">Work</a></li>
+      <li><a href="#times">Times</a></li>
+    </ul>
+    <a href="#start" class="ag-btn">Free first class</a>
+  </div>
+</nav>
+
+<header class="ag-hero">
+  <div class="ag-wrap">
+    <nav class="ag-crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> / <a href="/courses">Courses</a> / <a href="/coding-classes-in-germany">Coding classes in Germany</a> / Java classes
+    </nav>
+    <div class="ag-hero-grid ag-mt-40">
+      <div>
+        <p class="ag-eyebrow">Germany &middot; Java &middot; Teenagers and adults</p>
+        <h1>Java classes in Germany</h1>
+        <p class="ag-lede">In Nordrhein-Westfalen, the most populous Land with 18,034,454 inhabitants at the end of 2024 according to Destatis, the 2027 Informatik Abitur names Java as its programming language and lists the exact classes a candidate must be able to use, from Stack and Queue to BinarySearchTree. It is also written on paper, with no computer. This page sets out what that means for a pupil, what a Java course covers for teenagers and adults, and a Java project in which the same sixteen names make a tree of height 16 or of height 5, depending only on the order they go in.</p>
+        <div class="ag-btn-row">
+          <a href="#start" class="ag-btn">Book the free first class</a>
+          <a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-hero">Book a priority demo</a>
+          <a href="#abitur" class="ag-btn ag-btn--ghost">Java in the NRW Abitur</a>
+          <a href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Germany%20and%20would%20like%20a%20free%20first%20Java%20class%2C%20taught%20in%20English." class="ag-btn ag-btn--ghost" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jav'});">Ask on WhatsApp</a>
+        </div>
+        <p class="ag-hero-note">Live classes since 2020 &middot; 10,000+ students worldwide &middot; Java written and traced by hand as well as run</p>
+      </div>
+
+      <aside class="ag-spec">
+        <p class="ag-spec-title">At a glance</p>
+        <p class="ag-trust">
+          <span class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          4.9 across 547 Google reviews
+        </p>
+        <dl>
+          <dt>Teaching language</dt><dd>Live classes in English only, at the learner&rsquo;s own pace; mentors speak clearly and match their speed and accent to the learner</dd>
+          <dt>Who</dt><dd>Teenagers from 13, and adults</dd>
+          <dt>For school</dt><dd>Oberstufe Informatik, GK and LK</dd>
+          <dt>Covers</dt><dd>Objects, data structures, SQL</dd>
+          <dt>For work</dt><dd>Core Java to Spring Boot</dd>
+          <dt>Mentors</dt><dd>Based in India, teaching in English</dd>
+          <dt>First class</dt><dd>Free, no card needed</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-capsule">
+      <p class="ag-capsule-q">In short</p>
+      <p>Java classes for learners in Germany at Modern Age Coders are taught live online in English: first programs, then objects and classes, data structures such as stacks, queues, lists and trees, and databases with SQL, for Oberstufe Informatik or for work. One regular mentor keeps to each learner's pace and accent. Pupils and adults can learn in a class of fifteen to twenty or alone with the mentor.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="courses">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Where to start</p>
+      <h2>Three Java courses for learners in Germany</h2>
+      <p class="ag-lede">A Java course for teenagers, one built around Oberstufe Informatik and the Abitur, and one for adults who need Java at work.</p>
+    </div>
+    <div class="ag-picks">
+      <a class="ag-pick" href="/courses/java-programming-masterclass-for-teens">
+        <div class="ag-pick-shot"><img src="/images/java-teens.webp" alt="Java for Teens course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAV / 01</p>
+          <h3>Java for Teens</h3>
+          <p>Teenagers of 13 and over: a first class file, then objects, inheritance, collections and a project, explained without hurry.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/informatik-abitur-course-java-python">
+        <div class="ag-pick-shot"><img src="/images/informatik-abitur-java-python.webp" alt="Informatik Abitur in English course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAV / 02</p>
+          <h3>Informatik Oberstufe and Abitur</h3>
+          <p>Built for the three Oberstufe years: Java, data structures, SQL and automata, with plenty of practice on paper.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+      <a class="ag-pick" href="/courses/complete-java-programming-masterclass-college">
+        <div class="ag-pick-shot"><img src="/images/java-college.webp" alt="Java Course for College course thumbnail" width="800" height="450" loading="lazy"></div>
+        <div class="ag-pick-body">
+          <p class="ag-pick-code">JAV / 03</p>
+          <h3>Java for Adults</h3>
+          <p>Core Java, then the tools used in real teams, up to building a web service with Spring Boot.</p>
+          <span class="ag-pick-go">Open the syllabus <span>&rarr;</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="abitur">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java at school</p><h2>Which programming language does the Informatik Abitur in NRW use?</h2><p class="ag-lede">Java, together with SQL for databases. The NRW Ministry of Schools publishes the requirements for each year's central Abitur, and its document for the 2027 Informatik exam is short and precise.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>The written Informatik Abitur 2027 in Nordrhein-Westfalen, as the ministry sets it out</caption><thead><tr><th scope="col">Point</th><th scope="col">Grundkurs</th><th scope="col">Leistungskurs</th></tr></thead><tbody><tr><td>Programming language</td><td>Java, and SQL for databases</td><td>Java, and SQL for databases</td></tr><tr><td>Tasks sent to the school</td><td>Four</td><td>Four</td></tr><tr><td>Tasks the teacher chooses</td><td>Two</td><td>Three</td></tr><tr><td>Choice for the pupil</td><td>None</td><td>None</td></tr><tr><td>Working time</td><td>225 minutes</td><td>270 minutes</td></tr><tr><td>Computer</td><td>Not used</td><td>Not used</td></tr><tr><td>Aids</td><td>Spelling dictionary; scientific calculator or CAS</td><td>Spelling dictionary; scientific calculator or CAS</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Ministerium für Schule und Bildung NRW, Zentralabitur 2027, Informatik, Vorgaben (informatik_2027_gg.pdf), via standardsicherung.schulministerium.nrw.de, read on 3 November 2026. The English summary is ours.</p>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>What that asks of a pupil</h3><p>Java written by hand, on paper, under time pressure, by someone who cannot run it to see whether it works. A pupil has to read code and know what it does, trace it line by line, and write correct Java without an editor pointing out a missing semicolon.</p>
+<p>The Informatik-Monitor 2026/27 reports that NRW schools may offer the subject in the last two years with three weekly hours at basic level or five at raised level.</p></div><div><h3>And in other Länder</h3><p>Each Land sets its own Abitur rules, and the Informatik-Monitor reports hours rather than languages, so we only state what we have read in an official source. Bayern, for example, sets its written Informatik Abitur centrally and, says the Monitor, much of it is programming on paper with no work at a computer.</p>
+<p>If your Land is not NRW, ask the school which language its Oberstufe course uses. Our Abitur course covers both Java and Python.</p></div></div>
+    <p class="ag-mt-40">We teach alongside school and are not connected with the NRW ministry. We award no grades: the school course and the Abitur are what count. What we add is time with Java: tracing code on paper, writing it by hand and then checking it on a computer, which is the fastest way we know to make paper programming feel natural.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="structures">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Data structures</p><h2>Which Java classes does the NRW Abitur expect a pupil to know?</h2><p class="ag-lede">The 2027 requirements name them, Grundkurs and Leistungskurs separately. In our classes pupils first build simple versions of their own, so that the versions used at school hold no surprises.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Classes and topics named in the NRW Informatik Abitur 2027 requirements</caption><thead><tr><th scope="col">Area</th><th scope="col">Grundkurs</th><th scope="col">Leistungskurs adds</th></tr></thead><tbody><tr><td>Linear structures</td><td>Arrays up to two dimensions; Stack, Queue, List</td><td>Nothing further</td></tr><tr><td>Trees</td><td>BinaryTree, BinarySearchTree</td><td>Nothing further</td></tr><tr><td>Graphs</td><td>Not required</td><td>Graph, Vertex, Edge</td></tr><tr><td>Databases</td><td>DatabaseConnector, QueryResult, with SQL</td><td>The same</td></tr><tr><td>Networks</td><td>Single computers and networks</td><td>Connection, Client, Server</td></tr><tr><td>Automata</td><td>Deterministic and non-deterministic finite automata</td><td>Pushdown automata; scanner, parser and interpreter for a regular language</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Source: Zentralabitur 2027, Informatik, Vorgaben, NRW Ministry of Schools, section III, read on 3 November 2026. The grouping into rows is ours. We do not reproduce the ministry's class documentation or its past exam tasks; they are available free from the ministry.</p>
+    <p class="ag-mt-40">A binary search tree appears in both courses, and it is where many pupils first find that a data structure can be correct and still behave badly. The project below shows why.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="project">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">A Java project</p><h2>Why can the same sixteen names make a tree of height 16 or 5?</h2><p class="ag-lede">A binary search tree puts each new name to the left or right of the names already in it, by alphabetical order. Put the 16 Länder in and ask how tall the tree has become. The answer depends entirely on the order in which they arrive.</p></div>
+    <div class="ag-grid-2" style="align-items:start"><div><h3>The task</h3><p>Write a small tree class of your own: a node with a name and two children, an insert method and a height method. Then build the tree twice from the same 16 names: once in the order of the Länder's official codes, Schleswig-Holstein first, Thüringen last, and once in alphabetical order.</p>
+<p>Save the file as LaenderTree.java. With Java 21 it runs directly with <code>java LaenderTree.java</code>, no separate compiling step needed.</p></div><div><h3>Why it matters</h3><p>The height of the tree is the number of steps a search may need in the worst case. A short, bushy tree finds any name in a few steps; a tall, thin one is no better than a list.</p>
+<p>It is exactly the kind of question an examiner can ask about a tree drawn on paper: insert these keys in this order, draw the result, and say what it means for searching.</p></div></div>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 1: the same names in two orders</b><span>Java</span></figcaption><pre>import java.util.Arrays;
+
+public class LaenderTree {
+
+    static class Node {
+        String name;
+        Node left, right;
+        Node(String name) { this.name = name; }
+    }
+
+    static Node insert(Node node, String name) {
+        if (node == null) return new Node(name);
+        if (name.compareTo(node.name) &lt; 0) node.left = insert(node.left, name);
+        else node.right = insert(node.right, name);
+        return node;
+    }
+
+    static int height(Node node) {
+        if (node == null) return 0;
+        return 1 + Math.max(height(node.left), height(node.right));
+    }
+
+    static int build(String[] names) {
+        Node root = null;
+        for (String name : names) root = insert(root, name);
+        return height(root);
+    }
+
+    public static void main(String[] args) {
+        // the 16 Länder in the order of their official codes, 01 to 16
+        String[] byCode = {"Schleswig-Holstein", "Hamburg", "Niedersachsen", "Bremen",
+            "Nordrhein-Westfalen", "Hessen", "Rheinland-Pfalz", "Baden-Württemberg",
+            "Bayern", "Saarland", "Berlin", "Brandenburg", "Mecklenburg-Vorpommern",
+            "Sachsen", "Sachsen-Anhalt", "Thüringen"};
+        String[] alphabetical = byCode.clone();
+        Arrays.sort(alphabetical);
+
+        System.out.println("Inserted by code:         height " + build(byCode));
+        System.out.println("Inserted alphabetically:  height " + build(alphabetical));
+    }
+}</pre><p class="ag-code-note">It prints <code>Inserted by code:         height 8</code> and <code>Inserted alphabetically:  height 16</code>.</p></figure>
+    <p class="ag-mt-40">Sixteen names in alphabetical order give a tree of height 16. Every name is greater than the one before it, so each goes to the right of the last, and the tree is a single line: searching it for Thüringen means passing every other Land on the way. In code order the tree is half as tall, but only by luck: nothing in the official codes was designed to make a good tree.</p>
+    <figure class="ag-code"><figcaption class="ag-code-head"><b>Version 2: build it middle first, and count the steps</b><span>Java</span></figcaption><pre>    // Version 2: insert the middle name first, then the middle of each half
+    static Node balanced(Node root, String[] sorted, int lo, int hi) {
+        if (lo &gt; hi) return root;
+        int mid = (lo + hi) / 2;
+        root = insert(root, sorted[mid]);
+        root = balanced(root, sorted, lo, mid - 1);
+        return balanced(root, sorted, mid + 1, hi);
+    }
+
+    static int steps(Node node, String name) {
+        int count = 1;
+        while (!node.name.equals(name)) {
+            node = name.compareTo(node.name) &lt; 0 ? node.left : node.right;
+            count++;
+        }
+        return count;
+    }
+
+    // and at the end of main:
+        Node fromSorted = null;
+        for (String name : alphabetical) fromSorted = insert(fromSorted, name);
+        Node middleFirst = balanced(null, alphabetical, 0, alphabetical.length - 1);
+        System.out.println("Inserted middle first:    height " + height(middleFirst));
+        System.out.println("Steps to find Thüringen:  " + steps(fromSorted, "Thüringen")
+            + " in the alphabetical tree, " + steps(middleFirst, "Thüringen") + " in the balanced one");</pre><p class="ag-code-note">With these methods added to the class and these lines at the end of <code>main</code>, it also prints <code>Inserted middle first:    height 5</code> and <code>Steps to find Thüringen:  16 in the alphabetical tree, 5 in the balanced one</code>.</p></figure>
+    <p class="ag-mt-40">Inserting the middle name of the sorted list first, then the middle of each half, gives a tree of height 5, the smallest possible for 16 names, since a tree of height 4 can hold at most 15. A search for Thüringen now takes 5 steps instead of 16. Real libraries such as Java's own TreeMap keep themselves balanced automatically; writing an unbalanced one first is how a learner understands why they need to.</p>
+    <ol class="ag-steps ag-mt-40"><li><strong>Draw it.</strong> On paper, insert the first six Länder in code order and draw the tree. Check your drawing against what the program says.</li><li><strong>Reverse it.</strong> Insert the names in reverse alphabetical order. What height do you expect, and which side does the tree lean to?</li><li><strong>Count every search.</strong> Add a loop that prints the steps needed to find each Land in both trees, and compare the averages.</li><li><strong>Going further.</strong> Write an in-order traversal and show that both trees print the Länder in the same alphabetical order, whatever their shape.</li></ol>
+    <p class="ag-source-note ag-mt-40">The names are the 16 Länder in the order of the Statistisches Bundesamt's regional codes, 01 to 16. The Java code, its output on OpenJDK 21 and the exercises are our own, and they are not the ministry's BinarySearchTree class.</p>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="adults">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Java for work</p><h2>Is Java worth learning as an adult in Germany?</h2><p class="ag-lede">If your work or the work you want involves large, long-lived software, very often yes. Java is strict, which makes it slower to start with than Python and easier to keep in order later.</p></div>
+    <div class="ag-grid-3"><div><h3>What Java asks of a beginner</h3><p>Types declared up front, classes for everything, and a compiler that refuses mistakes before the program runs. Adults who find that annoying in the first week usually come to value it by the second month.</p></div><div><h3>What an adult course covers</h3><p>Core Java first: types, control flow, classes, interfaces, collections, exceptions and testing. Then the tools of real projects, a build tool, a database through SQL, and finally a small web service with Spring Boot.</p></div><div><h3>What we do not promise</h3><p>Any job, salary or employer. We teach Java properly, review your code honestly and help you build projects you can show. Adults planning a career change should talk it through with a mentor in the free first class.</p></div></div>
+    <p class="ag-mt-40">Like every mainstream language, Java is built on English words: its SE 21 specification lists 51 reserved keywords, among them class, public, static and return. Our mentors teach in English only, so the words you hear in class are the words you type.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="times">
+  <div class="ag-wrap">
+    <div class="ag-section-head"><p class="ag-eyebrow">Class times</p><h2>When can I take a live Java class from Germany?</h2><p class="ag-lede">After school, in the early evening, and at weekends. Your mentor is in India, ahead of German time in every season.</p></div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Example Java class times in Germany beside the mentor's time in India</caption><thead><tr><th scope="col">Germany</th><th scope="col">India now (to 28 March 2027)</th><th scope="col">India in summer 2027</th></tr></thead><tbody><tr><td>14:45</td><td>19:15</td><td>18:15</td></tr><tr><td>18:30</td><td>23:00</td><td>22:00</td></tr><tr><td>Saturday 13:30</td><td>18:00</td><td>17:00</td></tr><tr><td>Sunday 11:30</td><td>16:00</td><td>15:00</td></tr></tbody></table></div>
+    <p class="ag-source-note ag-mt-40">Germany runs on MEZ, UTC+1, in winter and MESZ, UTC+2, in summer, as the Einheitenzeitgesetz provides; the current winter period started on 25 October 2026 and ends on 28 March 2027. India stays on UTC+5:30 all year, so a German 14:45 is 19:15 there now and 18:15 once summer time returns.</p>
+    <p class="ag-mt-40">These are illustrations, not fixed groups. Choose the time of your free first class in German time; one-to-one learners agree regular times with their mentor and can move them before Klausuren or busy weeks at work.</p>
+  </div>
+</section>
+
+<section class="ag-section" id="ladder">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Milestones</p>
+      <h2>From a first class file to data structures</h2>
+      <p class="ag-lede">Our markers for Java learners, for school or work. They are ours, not the Abitur's.</p>
+    </div>
+    <div class="ag-table-wrap"><table class="ag-table"><caption>Java milestones (ours)</caption><thead><tr><th scope="col">Level</th><th scope="col">Usually reached</th><th scope="col">The learner can</th></tr></thead><tbody><tr><td>1. First programs</td><td class="ag-num">Month 1</td><td class="ag-num">Write, compile and run a class with a main method</td></tr><tr><td>2. Objects</td><td class="ag-num">Months 2 to 3</td><td class="ag-num">Design classes with fields, constructors and methods</td></tr><tr><td>3. Linear structures</td><td class="ag-num">Months 4 to 5</td><td class="ag-num">Build and use a stack, a queue and a list</td></tr><tr><td>4. Trees and SQL</td><td class="ag-num">Months 6 to 8</td><td class="ag-num">Insert into and search a binary search tree; query a database</td></tr><tr><td>5. On paper and in projects</td><td class="ag-num">Months 9 and up</td><td class="ag-num">Trace and write Java by hand, or build a larger program</td></tr></tbody></table></div>
+    <div class="ag-grid-2 ag-mt-40" style="align-items:start"><div><h3>For pupils</h3><p>Trace your code on paper before you run it. The exam will not let you run it.</p>
+<p>Learn what each data structure is for, not just how to call its methods.</p></div><div><h3>For adults</h3><p>Read the compiler's complaint carefully: it is usually right, and it names the line.</p>
+<p>Write a small test for every method you are not sure of.</p></div></div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint" id="catalogue">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">More for Java learners</p>
+      <h2>Nine more courses that go with Java</h2>
+      <p class="ag-lede">Live and in English, with one mentor throughout, in a class or one to one.</p>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">I</span>
+        <h3>School and exams</h3>
+        <span class="ag-band-sub">Ages 13 to 19</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / SCHOOL / 01</p>
+          <h4>AP Computer Science A</h4>
+          <p>Java for the AP exam, for pupils on that route.</p>
+          <a class="ag-course-link" href="/courses/ap-computer-science-a-java-exam-prep-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / SCHOOL / 02</p>
+          <h4>IB Computer Science</h4>
+          <p>For IB pupils at schools in Germany.</p>
+          <a class="ag-course-link" href="/courses/ib-diploma-computer-science-course">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / SCHOOL / 03</p>
+          <h4>IGCSE Computer Science</h4>
+          <p>Programming and theory for the 0478 exam.</p>
+          <a class="ag-course-link" href="/courses/igcse-computer-science-0478-course">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">II</span>
+        <h3>Foundations</h3>
+        <span class="ag-band-sub">Ages 13 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / BASE / 01</p>
+          <h4>Problem solving for teens</h4>
+          <p>Algorithms and data structures, step by step.</p>
+          <a class="ag-course-link" href="/courses/problem-solving-dsa-masterclass-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / BASE / 02</p>
+          <h4>SQL for teens</h4>
+          <p>Queries and databases, as the Abitur expects.</p>
+          <a class="ag-course-link" href="/courses/mysql-mastery-for-teens">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / BASE / 03</p>
+          <h4>Python for teens</h4>
+          <p>A second language that makes Java easier.</p>
+          <a class="ag-course-link" href="/courses/python-complete-masterclass-teens">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+    <div class="ag-band">
+      <div class="ag-band-head">
+        <span class="ag-band-num">III</span>
+        <h3>Adults</h3>
+        <span class="ag-band-sub">Ages 18 and up</span>
+      </div>
+      <div class="ag-grid-3">
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / WORK / 01</p>
+          <h4>Data structures and algorithms</h4>
+          <p>Trees, graphs and their costs, in depth.</p>
+          <a class="ag-course-link" href="/courses/data-structures-algorithms-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / WORK / 02</p>
+          <h4>MySQL</h4>
+          <p>The database side of most Java systems.</p>
+          <a class="ag-course-link" href="/courses/mysql-database-complete-masterclass-college">Open the syllabus</a>
+        </article>
+        <article class="ag-course">
+          <p class="ag-course-code">JAV / WORK / 03</p>
+          <h4>Git and GitHub</h4>
+          <p>Version control for every project.</p>
+          <a class="ag-course-link" href="/courses/git-github-version-control-course-for-college-students">Open the syllabus</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="how">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">How classes run</p>
+      <h2>How live Java classes work from Germany</h2>
+      <p class="ag-lede">Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays.</p>
+    </div>
+    <div class="ag-slots">
+      <div class="ag-slot"><p class="ag-slot-time">After school</p><p class="ag-slot-l">From about 14:30 German time, for Oberstufe pupils.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">Evenings</p><p class="ag-slot-l">For adults, around 18:00 German time.</p></div>
+      <div class="ag-slot"><p class="ag-slot-time">One to one</p><p class="ag-slot-l">Times agreed with the mentor, weekends included.</p></div>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3>Paper and screen</h3><p>Code traced by hand, then run to check.</p></div>
+      <div><h3>Own classes first</h3><p>Learners build a stack or tree before using a library.</p></div>
+      <div><h3>Patient English</h3><p>Explained again, differently, when needed.</p></div>
+      <div><h3>One mentor</h3><p>The same teacher across the whole course.</p></div>
+      <div><h3>School-aware</h3><p>Follows the Oberstufe topics when a pupil asks.</p></div>
+      <div><h3>Class or private</h3><p>Fifteen to twenty learners, or one.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Student work</p>
+      <h2>Projects from our students</h2>
+      <p class="ag-lede">Here is a sample of what our students worldwide have built; there is more on the <a class="ag-inline-link" href="/student-labs">student labs</a> page.</p>
+    </div>
+    <div class="ag-grid-4">
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife AI nutrition coach project screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>NutriLife</h4>
+          <p>An AI nutrition coach that reads what you eat and works you toward a target.</p>
+          <p class="ag-proj-meta">by Bhavya &middot; <a href="https://nutrilife-bhavya.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/misti.webp" alt="Misti AI chatbot for maths and coding screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>Misti</h4>
+          <p>A chatbot that answers mathematics and programming questions, built and deployed by a student.</p>
+          <p class="ag-proj-meta">by Harshit &middot; <a href="https://misti.modernagecoders.com" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX AI internet safety assistant screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">AI and ML</p>
+          <h4>GuardianX</h4>
+          <p>An assistant that helps a young person recognise unsafe situations online.</p>
+          <p class="ag-proj-meta">by Vivaan &middot; <a href="https://guardianx-cybersaver.lovable.app" rel="noopener" target="_blank">Open it</a></p>
+        </div>
+      </article>
+      <article class="ag-proj">
+        <div class="ag-proj-shot"><img src="/images/projects/skycast.webp" alt="SkyCast weather forecast application screenshot" loading="lazy" width="400" height="250"></div>
+        <div class="ag-proj-body">
+          <p class="ag-proj-cat">Web app</p>
+          <h4>SkyCast</h4>
+          <p>A weather forecasting site with live conditions for any location.</p>
+          <p class="ag-proj-meta">by Krish</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="fees">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Fees</p>
+      <h2>Fees for Java classes in Germany</h2>
+      <p class="ag-lede">Eight live Java classes make up one month and one fee. The amount is displayed in euro at the European Central Bank reference rate; payment is taken in US dollars and your bank converts it, so the euro figure on your statement may come out slightly different.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div class="ag-price">
+        <p class="ag-price-name">Free first class</p>
+        <p class="ag-price-amt">Free</p>
+        <p class="ag-price-alt">no card required</p>
+        <ul><li>A free first class</li><li>A short Java task at your level</li><li>No card needed</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Book it</a>
+      </div>
+      <div class="ag-price ag-price--feature">
+        <p class="ag-price-name">Group batch</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.group">€90</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>Fifteen to twenty learners at a similar level</li><li>One regular mentor</li><li>Two classes a week</li><li>Monthly, cancel any time</li></ul>
+        <a href="#start" class="ag-btn">Start here</a>
+      </div>
+      <div class="ag-price">
+        <p class="ag-price-name">One to one</p>
+        <p class="ag-price-amt"><span data-price="coding.germany.personal">€134</span></p>
+        <p class="ag-price-alt">a month, eight live classes<span data-intl-only="true" hidden>, charged in US dollars</span></p>
+        <ul><li>One learner and a mentor</li><li>A plan for school or work</li><li>Times agreed between you</li></ul>
+        <a href="#start" class="ag-btn ag-btn--ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section ag-section--tint">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">What families say</p>
+      <h2>Rated 4.9 across 547 Google reviews</h2>
+      <p class="ag-lede">Reviews from our Google profile, written by students and parents and left unchanged.</p>
+    </div>
+    <div class="ag-grid-3">
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."</p>
+        <p class="ag-review-name">Ria Mukherjee</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</p>
+        <p class="ag-review-name">Samriddha Mondal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development."</p>
+        <p class="ag-review-name">Vansh Agarwal</p>
+        <p class="ag-review-role">Student</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."</p>
+        <p class="ag-review-name">Sonam Oswal</p>
+        <p class="ag-review-role">Parent of Dhairya</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence and inspires them to learn without hesitation."</p>
+        <p class="ag-review-name">Sonu Goyal</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+      <article class="ag-review">
+        <p class="ag-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="ag-review-text">"I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding."</p>
+        <p class="ag-review-name">Ritu Kedia</p>
+        <p class="ag-review-role">Parent</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section" id="faq">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Learners in Germany ask</p>
+      <h2>Java classes in Germany: common questions</h2>
+    </div>
+    <div class="ag-faq">
+      <div class="ag-faq-item">
+        <h3>Are the classes in German?</h3>
+        <p>No. Java classes are live and in English only, with a mentor who matches your pace and accent. Java's 51 reserved keywords are English words, so the language of the class is the language of the code.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Does the NRW Abitur use Java?</h3>
+        <p>Yes. The NRW Ministry of Schools names Java, together with SQL, as the language for the 2027 written Informatik Abitur, and lists classes such as Stack, Queue, List, BinaryTree and BinarySearchTree.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is the Informatik Abitur written on a computer?</h3>
+        <p>Not in NRW. The 2027 requirements say that no computer is used for the written tasks. The working time is 225 minutes in the Grundkurs and 270 minutes in the Leistungskurs.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>My Land is not NRW. Will Java still help?</h3>
+        <p>Very likely, since the ideas of objects, data structures and algorithms carry across languages. Check with the school which language its course uses; our Abitur course covers Java and Python.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Should a beginner learn Java or Python first?</h3>
+        <p>Python is gentler for most beginners. A pupil whose school uses Java, or an adult who needs it at work, can start with Java directly; the free first class helps decide.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Will you help with Informatik homework and Klausuren?</h3>
+        <p>We follow the school topics when a pupil asks, and practise tracing and writing Java on paper. We teach alongside school and award no grades; the school course is the one that counts.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Do you teach the classes named in the Abitur requirements?</h3>
+        <p>Yes. Pupils first write simple versions of Stack, Queue, List and the trees themselves, then use the versions their school works with. We do not reproduce the ministry's materials or exam tasks.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>When are classes in German time?</h3>
+        <p>Weekdays or weekends, flexible: choose your batch, or for a very personalised plan choose 1-on-1 at your convenience, weekend mornings or weekdays. Oberstufe pupils usually come after school and adults in the early evening.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>How do I pay from Germany?</h3>
+        <p>The fee is shown in euro at the European Central Bank reference rate and paid in US dollars, which your bank converts. The first class is free.</p>
+      </div>
+      <div class="ag-faq-item">
+        <h3>Is it a group class or one to one?</h3>
+        <p>Either. A group has fifteen to twenty learners at a similar level; one-to-one classes follow one learner's plan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ag-section">
+  <div class="ag-wrap">
+    <div class="ag-section-head">
+      <p class="ag-eyebrow">Elsewhere on this site</p>
+      <h2>Related pages</h2>
+      <p class="ag-lede">More for learners in Germany.</p>
+    </div>
+    <div class="ag-grid-3">
+      <div><h3><a class="ag-inline-link" href="/coding-classes-in-germany">Coding classes in Germany</a></h3><p>The full set of our Germany pages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/informatik-nachhilfe-online">Informatik-Nachhilfe online</a></h3><p>School Informatik support, in German.</p></div>
+      <div><h3><a class="ag-inline-link" href="/abitur-maths-in-english">Abitur maths in English</a></h3><p>The other Abitur subject many Informatik pupils take.</p></div>
+      <div><h3><a class="ag-inline-link" href="/ai-and-machine-learning-classes-in-germany">AI and machine learning in Germany</a></h3><p>From Java and Python to real models.</p></div>
+      <div><h3><a class="ag-inline-link" href="/coding-roadmap">Coding roadmap</a></h3><p>Where Java fits among other languages.</p></div>
+      <div><h3><a class="ag-inline-link" href="/how-we-teach">How we teach</a></h3><p>What a live class looks like.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="ag-section ag-section--deep" id="start">
+  <div class="ag-wrap">
+    <div class="ag-grid-2" style="align-items:start">
+      <div>
+        <p class="ag-eyebrow">Start here</p>
+        <h2>Book a free first Java class</h2>
+        <p class="ag-lede">The mentor asks whether Java is for school or for work, sets a short task at your level, and suggests the course and times that fit, in English and at your speed.</p>
+        <p class="ag-mt-40">To read more first, see <a class="ag-inline-link" href="/how-we-teach">how we teach</a> or browse <a class="ag-inline-link" href="/courses">the course catalogue</a>.</p>
+        <p class="ag-mt-40">
+          <a class="ag-inline-link" href="https://wa.me/919123366161?text=Hello%20Modern%20Age%20Coders%2C%20I%20am%20in%20Germany%20and%20would%20like%20a%20free%20first%20Java%20class%2C%20taught%20in%20English." target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','whatsapp_click',{page_market:'jav',pos:'end'});">WhatsApp us</a>
+          &middot; <a class="ag-inline-link" href="tel:+919123366161">+91 91233 66161</a>
+          &middot; <a class="ag-inline-link" href="mailto:connect@modernagecoders.com">connect@modernagecoders.com</a>
+        </p>
+        <p class="ag-form-note">Classes are live online in English, with mentors based in India. For questions, WhatsApp us in English.</p>
+      </div>
+      <div class="ag-form-panel">
+        <form onsubmit="submitLead_jav(event)" novalidate>
+          <div class="ag-field">
+            <label for="de-name">Your name</label>
+            <input id="de-name" type="text" name="name" placeholder="Parent or student name" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-phone">Phone or WhatsApp, Germany +49</label>
+            <input id="de-phone" type="tel" name="phone" placeholder="0151 23456789" required>
+          </div>
+          <div class="ag-field">
+            <label for="de-age">Learner age group</label>
+            <select id="de-age" name="age"><option value="6-12">Child, 6 to 12</option><option value="13-18">Teen, 13 to 18</option><option value="college">University student</option><option value="adult">Working professional</option></select>
+          </div>
+          <button type="submit" class="ag-btn" style="width:100%">Request the free class</button>
+          <p class="ag-form-note">The first class is free; we do not ask for a card.</p>
+        </form>
+        <div class="ag-pd-card"><h3>Want a class sooner? Book a priority demo</h3><p>A priority demo is a full class of about 45 to 60 minutes. After the class the mentor sends a written skill report and a personal learning roadmap on WhatsApp. If you enrol, the demo fee is adjusted against your first month's fee. Share your demo Order ID with us on WhatsApp and we take it off.</p><a class="ag-btn ag-btn--pd" href="/book-demo" data-pd-book="ag-book">Book a priority demo</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="ag-footer">
+  <div class="ag-wrap">
+    <div class="ag-grid-4">
+      <div>
+        <h4>Modern Age Coders</h4>
+        <p style="font-size:.9rem;opacity:.82">
+          Live online coding, AI and mathematics for ages 6 to 67. Teaching since 2020, more than
+          10,000 students across 25+ countries.
+        </p>
+      </div>
+      <div><h4>Java</h4><ul><li><a href="/courses/java-programming-masterclass-for-teens">Java for teens</a></li><li><a href="/courses/informatik-abitur-course-java-python">Informatik Abitur</a></li><li><a href="/courses/complete-java-programming-masterclass-college">Java for adults</a></li><li><a href="/student-labs">Student projects</a></li></ul></div>
+      <div><h4>Germany</h4><ul><li><a href="/coding-classes-in-germany">Coding classes in Germany</a></li><li><a href="/informatik-nachhilfe-online">Informatik-Nachhilfe</a></li><li><a href="/abitur-maths-in-english">Abitur maths in English</a></li><li><a href="/ai-and-machine-learning-classes-in-germany">AI and machine learning</a></li></ul></div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/how-we-teach">How we teach</a></li>
+          <li><a href="/love">Reviews</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ag-footer-bottom">
+      <span>&copy; 2026 Modern Age Coders. Live online classes worldwide.</span>
+      <span>Insert the middle first</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ag-sticky"><a href="#start">Free class</a><a class="ag-sticky-pd" href="/book-demo" data-pd-book="ag-sticky">Priority demo</a><a href="tel:+919123366161" aria-label="Call +91 91233 66161">Call us</a></div>
+
+<script>
+window.submitLead_jav = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var note = form.querySelector('.ag-form-note');
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.indexOf('0049') === 0) phoneDigits = phoneDigits.slice(4);
+  else if (phoneDigits.indexOf('49') === 0 && phoneDigits.length > 7) phoneDigits = phoneDigits.slice(2);
+  if (phoneDigits.charAt(0) === '0') phoneDigits = phoneDigits.slice(1);
+  if (phoneDigits.length < 7) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  // The country picker hands a visitor from another country an international number; only a number for
+  // this page's country gets the national length and first-digit checks.
+  var foreignLead = form.__macLead && form.__macLead.iso && form.__macLead.iso !== 'DE';
+  if (!foreignLead && (phoneDigits.length > 12 || !/^[1-9]/.test(phoneDigits))) { if (note) note.textContent = 'Please enter a valid Germany phone number.'; return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+49', countryIso: 'DE', countryName: 'Germany',
+      source: 'java-classes-germany-inline', meta: { name: name, age: age, page: 'java-classes-germany' }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="ag-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you shortly.</p>';
+    } else {
+      if (note) note.textContent = (data && data.message) || 'Something went wrong. Please try again.';
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    if (note) note.textContent = 'Network error. Please try again.';
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+<script>
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+</script>
+
+    <script src="/js/country-code-selector.js?v=20261022a" defer></script>
+    <script src="/js/pricing-data.generated.js?v=93c347870c"></script>
+    <script src="/js/international-pricing.js?v=2bdf33c798"></script>
+</body>
+</html>
