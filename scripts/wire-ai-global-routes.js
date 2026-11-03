@@ -909,6 +909,7 @@ const SLUGS = [
   'online-python-classes-hamm-germany',
   'coding-classes-for-kids-in-ludwigshafen-am-rhein-germany',
   'coding-and-ai-classes-in-oldenburg-oldenburg-germany',
+  'online-python-classes-muelheim-an-der-ruhr-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1897,6 +1898,7 @@ const LLMS_LABELS = {
   'online-python-classes-hamm-germany': 'Online Python classes in Hamm',
   'coding-classes-for-kids-in-ludwigshafen-am-rhein-germany': 'Coding classes for kids in Ludwigshafen am Rhein',
   'coding-and-ai-classes-in-oldenburg-oldenburg-germany': 'Coding and AI classes in Oldenburg',
+  'online-python-classes-muelheim-an-der-ruhr-germany': 'Online Python classes in Mülheim an der Ruhr',
 };
 
 function wireLlms(slugs) {
