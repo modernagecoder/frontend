@@ -87,7 +87,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE127 | coding-for-international-school-students-stuttgart (stu, #9D4352) | city-t1 (en) | 4,349 | 1.4% vs coding-classes-for-kids-stuttgart | Coding for International School Students in Stuttgart | two single years can tell any story; compare equal windows, measured the same way, and say how many | e8da8a6d |
 | DE128 | programmieren-lernen-kinder-stuttgart (pst, #621D46) | city-de (de) | 3,626 | 1.8% vs informatik-abitur-nrw | Programmieren lernen für Kinder in Stuttgart: live auf Englisch | the title of a list is only a claim; check every record's own fields before you count | dc91705b |
 | DE129 | coding-classes-for-kids-leipzig (ckl, #1A6E8D) | city-t1 (en) | 3,742 | 2% vs coding-classes-for-kids-berlin | Coding Classes for Kids in Leipzig: Live Online, in English | decide the level of a category (kind or family) before you count, and read what a vague label means | a32d6347 |
-| DE130 | programmieren-lernen-kinder-leipzig (lep, #615579) | city-de (de) | 3,437 | 2% vs programmieren-lernen-kinder-stuttgart | Programmieren lernen für Kinder in Leipzig: live auf Englisch | look at the steps between neighbours (year-on-year differences), not only at the record high and low | (this commit) |
+| DE130 | programmieren-lernen-kinder-leipzig (lep, #615579) | city-de (de) | 3,437 | 2% vs programmieren-lernen-kinder-stuttgart | Programmieren lernen für Kinder in Leipzig: live auf Englisch | look at the steps between neighbours (year-on-year differences), not only at the record high and low | d4f56c24 |
+| DE135 | coding-classes-for-kids-nuremberg (cnu, #7A5559) | city-t1 (en) | 4,001 | 1.4% vs coding-classes-for-kids-berlin | Coding Classes for Kids in Nuremberg: Live Online, in English | use what a value must be (its known range) to put a lost decimal point back, and list what still fails | (this commit) |
 
 ## Notes
 

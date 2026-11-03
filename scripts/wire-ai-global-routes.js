@@ -815,6 +815,7 @@ const SLUGS = [
   'programmieren-lernen-kinder-stuttgart',
   'coding-classes-for-kids-leipzig',
   'programmieren-lernen-kinder-leipzig',
+  'coding-classes-for-kids-nuremberg',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1709,6 +1710,7 @@ const LLMS_LABELS = {
   'programmieren-lernen-kinder-stuttgart': 'Programmieren lernen für Kinder in Stuttgart',
   'coding-classes-for-kids-leipzig': 'Coding classes for kids in Leipzig',
   'programmieren-lernen-kinder-leipzig': 'Programmieren lernen für Kinder in Leipzig',
+  'coding-classes-for-kids-nuremberg': 'Coding classes for kids in Nuremberg',
 };
 
 function wireLlms(slugs) {
