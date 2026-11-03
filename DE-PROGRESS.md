@@ -97,7 +97,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE116 | coding-classes-for-kids-cologne (coe, #136C52) | city-t1 (en) | 3,930 | 1.9% vs coding-classes-for-kids-berlin | Coding Classes for Kids in Cologne: Live Online, in English | grouping changes the answer; count by the right category | 1a8b4631 |
 | DE117 | math-tutor-cologne-in-english (enc, #68243E) | city-t1 (en) | 3,665 | 1.5% vs online-math-tutor-germany | Maths Tutor in Cologne, in English: Live Online Lessons | reading number formats (German thousands point), then percentage change and mean against median | 7d13927d |
 | DE118 | programmieren-lernen-kinder-koeln (pko, #6A2431) | city-de (de) | 3,521 | 2% vs informatik-pflichtfach-unterstuetzung | Programmieren lernen für Kinder in Köln: live auf Englisch | dividing two tables (a ratio per group) and reading a rounded decimal | f096afa6 |
-| DE088 | coding-classes-in-schleswig-holstein (cho, #1F6423) | land (en) | 4,572 | 2.6% vs coding-classes-for-kids-berlin | Coding Classes in Schleswig-Holstein: Live Online, in English | filter before you sum; a register that mixes what exists with what is only approved or planned | (this commit) |
+| DE088 | coding-classes-in-schleswig-holstein (cho, #1F6423) | land (en) | 4,572 | 2.6% vs coding-classes-for-kids-berlin | Coding Classes in Schleswig-Holstein: Live Online, in English | filter before you sum; a register that mixes what exists with what is only approved or planned | 2e90f915 |
+| DE089 | coding-and-maths-classes-in-hamburg-germany (cmh, #1D4841) | land (en) | 4,242 | 2.6% vs coding-classes-in-schleswig-holstein | Coding and Maths Classes in Hamburg: Live Online, in English | decide what one thing is before you count it; rows are parts, and a key turns parts into objects | (this commit) |
 
 ## Notes
 

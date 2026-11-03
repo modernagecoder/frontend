@@ -1056,6 +1056,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Maths tutor in Cologne, in English: https://learn.modernagecoders.com/math-tutor-cologne-in-english
 - Programmieren lernen für Kinder in Köln (auf Englisch): https://learn.modernagecoders.com/programmieren-lernen-kinder-koeln
 - Coding classes in Schleswig-Holstein: https://learn.modernagecoders.com/coding-classes-in-schleswig-holstein
+- Coding and maths classes in Hamburg: https://learn.modernagecoders.com/coding-and-maths-classes-in-hamburg-germany
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

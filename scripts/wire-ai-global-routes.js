@@ -825,6 +825,7 @@ const SLUGS = [
   'math-tutor-cologne-in-english',
   'programmieren-lernen-kinder-koeln',
   'coding-classes-in-schleswig-holstein',
+  'coding-and-maths-classes-in-hamburg-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1729,6 +1730,7 @@ const LLMS_LABELS = {
   'math-tutor-cologne-in-english': 'Maths tutor in Cologne, in English',
   'programmieren-lernen-kinder-koeln': 'Programmieren lernen für Kinder in Köln (auf Englisch)',
   'coding-classes-in-schleswig-holstein': 'Coding classes in Schleswig-Holstein',
+  'coding-and-maths-classes-in-hamburg-germany': 'Coding and maths classes in Hamburg',
 };
 
 function wireLlms(slugs) {
