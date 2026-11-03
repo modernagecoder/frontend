@@ -176,7 +176,8 @@ Owner rules for this cluster (2026-11-02): English pages plus German-language do
 | DE191 | coding-and-ai-classes-in-bremerhaven-germany (brf, #652E0C) | city-t2 (en) | 3,401 | 2% vs coding-classes-in-land-bremen | Coding and AI Classes in Bremerhaven: Live Online, English | messages are not things; count distinct identifiers with a set (and a lookup dict) before you count | 436683e3 |
 | DE192 | online-python-classes-bottrop-germany (bot, #76240C) | city-t2 (en) | 3,506 | 1.7% vs coding-and-ai-classes-in-duisburg-germany | Online Python Classes in Bottrop: Live, Taught in English | filter in steps and print the count after every step (a funnel), so you see where the rows go and can | 9f7904e0 |
 | DE193 | coding-classes-for-kids-in-erlangen-germany (erl, #865933) | city-t2 (en) | 3,453 | 1.5% vs coding-classes-for-kids-in-reutlingen-germany | Coding Classes for Kids in Erlangen: Live Online, in English | scaling a count into a picture; whole-number division (//) drops the remainder, so round on purpose and | 681d2cf6 |
-| DE142 | coding-classes-for-kids-in-wuppertal-germany (ckw, #7C5828) | city-t2 (en) | 4,145 | 2.2% vs coding-classes-for-kids-in-aachen-germany | Coding Classes for Kids in Wuppertal, Live in English | a category is hiding inside a text label; split the label, then count | (this commit) |
+| DE142 | coding-classes-for-kids-in-wuppertal-germany (ckw, #7C5828) | city-t2 (en) | 4,145 | 2.2% vs coding-classes-for-kids-in-aachen-germany | Coding Classes for Kids in Wuppertal, Live in English | a category is hiding inside a text label; split the label, then count | bb7e51c3 |
+| DE143 | coding-and-ai-classes-in-bielefeld-germany (cab, #1C5844) | city-t2 (en) | 4,289 | 2.2% vs coding-and-ai-classes-in-duisburg-germany | Coding and AI Classes in Bielefeld: Live Online in English | make the computer read a German file (encoding, decimal comma, uneven years), then distrust a percentage | (this commit) |
 
 ## Notes
 

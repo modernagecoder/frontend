@@ -1135,6 +1135,7 @@ Ages 6 to 67, small live batches, priced from USD 100 a month (CAD 140 in Canada
 - Online Python classes in Bottrop: https://learn.modernagecoders.com/online-python-classes-bottrop-germany
 - Coding classes for kids in Erlangen: https://learn.modernagecoders.com/coding-classes-for-kids-in-erlangen-germany
 - Coding classes for kids in Wuppertal: https://learn.modernagecoders.com/coding-classes-for-kids-in-wuppertal-germany
+- Coding and AI classes in Bielefeld: https://learn.modernagecoders.com/coding-and-ai-classes-in-bielefeld-germany
 ## Coding Classes by State, Province & Market
 
 Live online coding and mathematics for a specific state, province or market,

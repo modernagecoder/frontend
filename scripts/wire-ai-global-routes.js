@@ -904,6 +904,7 @@ const SLUGS = [
   'online-python-classes-bottrop-germany',
   'coding-classes-for-kids-in-erlangen-germany',
   'coding-classes-for-kids-in-wuppertal-germany',
+  'coding-and-ai-classes-in-bielefeld-germany',
 ];
 
 const BASE = 'https://learn.modernagecoders.com';
@@ -1887,6 +1888,7 @@ const LLMS_LABELS = {
   'online-python-classes-bottrop-germany': 'Online Python classes in Bottrop',
   'coding-classes-for-kids-in-erlangen-germany': 'Coding classes for kids in Erlangen',
   'coding-classes-for-kids-in-wuppertal-germany': 'Coding classes for kids in Wuppertal',
+  'coding-and-ai-classes-in-bielefeld-germany': 'Coding and AI classes in Bielefeld',
 };
 
 function wireLlms(slugs) {
